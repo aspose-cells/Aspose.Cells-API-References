@@ -51,7 +51,7 @@ getCopyFormatType() : CopyFormatType;
 
 **Returns**
 
-[CopyFormatType](./copyformattype/)
+[CopyFormatType](/nodejs-cpp/copyformattype/)
 
 ### setCopyFormatType(CopyFormatType) {#setCopyFormatType-copyformattype-}
 
@@ -64,7 +64,7 @@ setCopyFormatType(value: CopyFormatType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [CopyFormatType](./copyformattype/) | The value to set. |
+| value | [CopyFormatType](/nodejs-cpp/copyformattype/) | The value to set. |
 
 ### getUpdateReference() {#getUpdateReference--}
 

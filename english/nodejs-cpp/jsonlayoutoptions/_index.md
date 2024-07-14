@@ -195,7 +195,7 @@ getTitleStyle() : Style;
 
 **Returns**
 
-[Style](./style/)
+[Style](/nodejs-cpp/style/)
 
 ### setTitleStyle(Style) {#setTitleStyle-style-}
 
@@ -208,7 +208,7 @@ setTitleStyle(value: Style) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [Style](./style/) | The value to set. |
+| value | [Style](/nodejs-cpp/style/) | The value to set. |
 
 ### getKeptSchema() {#getKeptSchema--}
 

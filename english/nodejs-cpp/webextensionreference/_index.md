@@ -106,7 +106,7 @@ getStoreType() : WebExtensionStoreType;
 
 **Returns**
 
-[WebExtensionStoreType](./webextensionstoretype/)
+[WebExtensionStoreType](/nodejs-cpp/webextensionstoretype/)
 
 ### setStoreType(WebExtensionStoreType) {#setStoreType-webextensionstoretype-}
 
@@ -119,6 +119,6 @@ setStoreType(value: WebExtensionStoreType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [WebExtensionStoreType](./webextensionstoretype/) | The value to set. |
+| value | [WebExtensionStoreType](/nodejs-cpp/webextensionstoretype/) | The value to set. |
 
 

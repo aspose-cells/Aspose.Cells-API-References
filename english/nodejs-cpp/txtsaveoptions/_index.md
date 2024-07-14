@@ -47,8 +47,8 @@ class TxtSaveOptions extends SaveOptions;
 | [setKeepSeparatorsForBlankRow(boolean)](#setKeepSeparatorsForBlankRow-boolean-)| Indicates whether separators should be output for blank row. Default value is false so by default the content for blank row will be empty. |
 | [getExportArea()](#getExportArea--)| The range of cells to be exported. |
 | [setExportArea(CellArea)](#setExportArea-cellarea-)| The range of cells to be exported. |
-| [getExportQuotePrefix()](#getExportQuotePrefix--)| Indicates whether the single quote sign should be exported as part of the value of one cell when [Style.QuotePrefix](./style.quoteprefix/) is true for it. Default is false. |
-| [setExportQuotePrefix(boolean)](#setExportQuotePrefix-boolean-)| Indicates whether the single quote sign should be exported as part of the value of one cell when [Style.QuotePrefix](./style.quoteprefix/) is true for it. Default is false. |
+| [getExportQuotePrefix()](#getExportQuotePrefix--)| Indicates whether the single quote sign should be exported as part of the value of one cell when [Style.QuotePrefix](/nodejs-cpp/style.quoteprefix/) is true for it. Default is false. |
+| [setExportQuotePrefix(boolean)](#setExportQuotePrefix-boolean-)| Indicates whether the single quote sign should be exported as part of the value of one cell when [Style.QuotePrefix](/nodejs-cpp/style.quoteprefix/) is true for it. Default is false. |
 | [getExportAllSheets()](#getExportAllSheets--)| Indicates whether exporting all sheets to the text file. If it is false, only export the activesheet, just like MS Excel. |
 | [setExportAllSheets(boolean)](#setExportAllSheets-boolean-)| Indicates whether exporting all sheets to the text file. If it is false, only export the activesheet, just like MS Excel. |
 | [getSaveFormat()](#getSaveFormat--)| Gets the save file format. |
@@ -107,7 +107,7 @@ constructor(saveFormat: SaveFormat);
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| saveFormat | [SaveFormat](./saveformat/) | The file format.         /// It should be [SaveFormat.Csv](./saveformat.csv/) or [SaveFormat.Csv](./saveformat.csv/),         /// otherwise the saved format will be set as [SaveFormat.Csv](./saveformat.csv/) automatically. |
+| saveFormat | [SaveFormat](/nodejs-cpp/saveformat/) | The file format.         /// It should be [SaveFormat.Csv](/nodejs-cpp/saveformat.csv/) or [SaveFormat.Csv](/nodejs-cpp/saveformat.csv/),         /// otherwise the saved format will be set as [SaveFormat.Csv](/nodejs-cpp/saveformat.csv/) automatically. |
 
 ### getSeparator() {#getSeparator--}
 
@@ -164,7 +164,7 @@ getEncoding() : EncodingType;
 
 **Returns**
 
-[EncodingType](./encodingtype/)
+[EncodingType](/nodejs-cpp/encodingtype/)
 
 ### setEncoding(EncodingType) {#setEncoding-encodingtype-}
 
@@ -177,7 +177,7 @@ setEncoding(value: EncodingType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [EncodingType](./encodingtype/) | The value to set. |
+| value | [EncodingType](/nodejs-cpp/encodingtype/) | The value to set. |
 
 ### getQuoteType() {#getQuoteType--}
 
@@ -190,7 +190,7 @@ getQuoteType() : TxtValueQuoteType;
 
 **Returns**
 
-[TxtValueQuoteType](./txtvaluequotetype/)
+[TxtValueQuoteType](/nodejs-cpp/txtvaluequotetype/)
 
 ### setQuoteType(TxtValueQuoteType) {#setQuoteType-txtvaluequotetype-}
 
@@ -203,7 +203,7 @@ setQuoteType(value: TxtValueQuoteType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [TxtValueQuoteType](./txtvaluequotetype/) | The value to set. |
+| value | [TxtValueQuoteType](/nodejs-cpp/txtvaluequotetype/) | The value to set. |
 
 ### getFormatStrategy() {#getFormatStrategy--}
 
@@ -216,7 +216,7 @@ getFormatStrategy() : CellValueFormatStrategy;
 
 **Returns**
 
-[CellValueFormatStrategy](./cellvalueformatstrategy/)
+[CellValueFormatStrategy](/nodejs-cpp/cellvalueformatstrategy/)
 
 ### setFormatStrategy(CellValueFormatStrategy) {#setFormatStrategy-cellvalueformatstrategy-}
 
@@ -229,7 +229,7 @@ setFormatStrategy(value: CellValueFormatStrategy) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [CellValueFormatStrategy](./cellvalueformatstrategy/) | The value to set. |
+| value | [CellValueFormatStrategy](/nodejs-cpp/cellvalueformatstrategy/) | The value to set. |
 
 ### getLightCellsDataProvider() {#getLightCellsDataProvider--}
 
@@ -242,7 +242,7 @@ getLightCellsDataProvider() : LightCellsDataProvider;
 
 **Returns**
 
-[LightCellsDataProvider](./lightcellsdataprovider/)
+[LightCellsDataProvider](/nodejs-cpp/lightcellsdataprovider/)
 
 ### setLightCellsDataProvider(LightCellsDataProvider) {#setLightCellsDataProvider-lightcellsdataprovider-}
 
@@ -255,7 +255,7 @@ setLightCellsDataProvider(value: LightCellsDataProvider) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [LightCellsDataProvider](./lightcellsdataprovider/) | The value to set. |
+| value | [LightCellsDataProvider](/nodejs-cpp/lightcellsdataprovider/) | The value to set. |
 
 ### getTrimLeadingBlankRowAndColumn() {#getTrimLeadingBlankRowAndColumn--}
 
@@ -268,7 +268,7 @@ getTrimLeadingBlankRowAndColumn() : boolean;
 
 **Remarks**
 
-Same with the rule in ms excel, a row/column will not be taken as blank if it has custom style, even if it contains no cell data. When saving with LightCells mode, this option takes no effect. User should control the output range by the implementation of [LightCellsDataProvider](./lightcellsdataprovider/) or by speicifing [ExportArea](./exportarea/)
+Same with the rule in ms excel, a row/column will not be taken as blank if it has custom style, even if it contains no cell data. When saving with LightCells mode, this option takes no effect. User should control the output range by the implementation of [LightCellsDataProvider](/nodejs-cpp/lightcellsdataprovider/) or by speicifing [ExportArea](/nodejs-cpp/exportarea/)
 
 ### setTrimLeadingBlankRowAndColumn(boolean) {#setTrimLeadingBlankRowAndColumn-boolean-}
 
@@ -285,7 +285,7 @@ setTrimLeadingBlankRowAndColumn(value: boolean) : void;
 
 **Remarks**
 
-Same with the rule in ms excel, a row/column will not be taken as blank if it has custom style, even if it contains no cell data. When saving with LightCells mode, this option takes no effect. User should control the output range by the implementation of [LightCellsDataProvider](./lightcellsdataprovider/) or by speicifing [ExportArea](./exportarea/)
+Same with the rule in ms excel, a row/column will not be taken as blank if it has custom style, even if it contains no cell data. When saving with LightCells mode, this option takes no effect. User should control the output range by the implementation of [LightCellsDataProvider](/nodejs-cpp/lightcellsdataprovider/) or by speicifing [ExportArea](/nodejs-cpp/exportarea/)
 
 ### getTrimTailingBlankCells() {#getTrimTailingBlankCells--}
 
@@ -298,7 +298,7 @@ getTrimTailingBlankCells() : boolean;
 
 **Remarks**
 
-When saving with LightCells mode and the [ExportArea](./exportarea/) has not been specified, this option takes no effect and one row will be extended to just the last cell provided by the implementation [LightCellsDataProvider](./lightcellsdataprovider/)
+When saving with LightCells mode and the [ExportArea](/nodejs-cpp/exportarea/) has not been specified, this option takes no effect and one row will be extended to just the last cell provided by the implementation [LightCellsDataProvider](/nodejs-cpp/lightcellsdataprovider/)
 
 ### setTrimTailingBlankCells(boolean) {#setTrimTailingBlankCells-boolean-}
 
@@ -315,7 +315,7 @@ setTrimTailingBlankCells(value: boolean) : void;
 
 **Remarks**
 
-When saving with LightCells mode and the [ExportArea](./exportarea/) has not been specified, this option takes no effect and one row will be extended to just the last cell provided by the implementation [LightCellsDataProvider](./lightcellsdataprovider/)
+When saving with LightCells mode and the [ExportArea](/nodejs-cpp/exportarea/) has not been specified, this option takes no effect and one row will be extended to just the last cell provided by the implementation [LightCellsDataProvider](/nodejs-cpp/lightcellsdataprovider/)
 
 ### getKeepSeparatorsForBlankRow() {#getKeepSeparatorsForBlankRow--}
 
@@ -350,11 +350,11 @@ getExportArea() : CellArea;
 
 **Returns**
 
-[CellArea](./cellarea/)
+[CellArea](/nodejs-cpp/cellarea/)
 
 **Remarks**
 
-If the exported area has been specified, [TrimLeadingBlankRowAndColumn](./trimleadingblankrowandcolumn/) will takes no effect.
+If the exported area has been specified, [TrimLeadingBlankRowAndColumn](/nodejs-cpp/trimleadingblankrowandcolumn/) will takes no effect.
 
 ### setExportArea(CellArea) {#setExportArea-cellarea-}
 
@@ -367,15 +367,15 @@ setExportArea(value: CellArea) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [CellArea](./cellarea/) | The value to set. |
+| value | [CellArea](/nodejs-cpp/cellarea/) | The value to set. |
 
 **Remarks**
 
-If the exported area has been specified, [TrimLeadingBlankRowAndColumn](./trimleadingblankrowandcolumn/) will takes no effect.
+If the exported area has been specified, [TrimLeadingBlankRowAndColumn](/nodejs-cpp/trimleadingblankrowandcolumn/) will takes no effect.
 
 ### getExportQuotePrefix() {#getExportQuotePrefix--}
 
-Indicates whether the single quote sign should be exported as part of the value of one cell when [Style.QuotePrefix](./style.quoteprefix/) is true for it. Default is false.
+Indicates whether the single quote sign should be exported as part of the value of one cell when [Style.QuotePrefix](/nodejs-cpp/style.quoteprefix/) is true for it. Default is false.
 
 ```javascript
 getExportQuotePrefix() : boolean;
@@ -384,7 +384,7 @@ getExportQuotePrefix() : boolean;
 
 ### setExportQuotePrefix(boolean) {#setExportQuotePrefix-boolean-}
 
-Indicates whether the single quote sign should be exported as part of the value of one cell when [Style.QuotePrefix](./style.quoteprefix/) is true for it. Default is false.
+Indicates whether the single quote sign should be exported as part of the value of one cell when [Style.QuotePrefix](/nodejs-cpp/style.quoteprefix/) is true for it. Default is false.
 
 ```javascript
 setExportQuotePrefix(value: boolean) : void;
@@ -436,7 +436,7 @@ getSaveFormat() : SaveFormat;
 
 **Returns**
 
-[SaveFormat](./saveformat/)
+[SaveFormat](/nodejs-cpp/saveformat/)
 
 ### getClearData() {#getClearData--}
 
@@ -649,7 +649,7 @@ setWarningCallback(value: IWarningCallback) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IWarningCallback](./iwarningcallback/) | The value to set. |
+| value | [IWarningCallback](/nodejs-cpp/iwarningcallback/) | The value to set. |
 
 ### getWarningCallback() {#getWarningCallback--}
 
@@ -662,7 +662,7 @@ getWarningCallback() : IWarningCallback;
 
 **Returns**
 
-[IWarningCallback](./iwarningcallback/)
+[IWarningCallback](/nodejs-cpp/iwarningcallback/)
 
 ### getUpdateSmartArt() {#getUpdateSmartArt--}
 

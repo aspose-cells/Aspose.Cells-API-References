@@ -35,7 +35,7 @@ getPivotArea() : PivotArea;
 
 **Returns**
 
-[PivotArea](./pivotarea/)
+[PivotArea](/nodejs-cpp/pivotarea/)
 
 ### getStyle() {#getStyle--}
 
@@ -48,7 +48,7 @@ getStyle() : Style;
 
 **Returns**
 
-[Style](./style/)
+[Style](/nodejs-cpp/style/)
 
 ### setStyle(Style) {#setStyle-style-}
 
@@ -61,6 +61,6 @@ setStyle(style: Style) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| style | [Style](./style/) |  |
+| style | [Style](/nodejs-cpp/style/) |  |
 
 

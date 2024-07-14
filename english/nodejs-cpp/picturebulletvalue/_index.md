@@ -28,7 +28,7 @@ class PictureBulletValue extends BulletValue;
 | --- | --- |
 | [getType()](#getType--)| Gets the type of the bullet's value. |
 | [getImageData()](#getImageData--)| Gets and sets image data of the bullet. |
-| [setImageData(number[])](#setImageData-number[]-)| Gets and sets image data of the bullet. |
+| [setImageData(number[])](#setImageData-numberarray-)| Gets and sets image data of the bullet. |
 
 
 ### constructor(BulletValue) {#constructor-bulletvalue-}
@@ -64,7 +64,7 @@ getType() : BulletType;
 
 **Returns**
 
-[BulletType](./bullettype/)
+[BulletType](/nodejs-cpp/bullettype/)
 
 ### getImageData() {#getImageData--}
 
@@ -79,7 +79,7 @@ getImageData() : number[];
 
 number[]
 
-### setImageData(number[]) {#setImageData-number[]-}
+### setImageData(number[]) {#setImageData-numberarray-}
 
 Gets and sets image data of the bullet.
 

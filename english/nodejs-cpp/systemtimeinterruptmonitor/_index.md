@@ -1,14 +1,14 @@
 ﻿---
 title: SystemTimeInterruptMonitor
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Simple implementation of AbstractInterruptMonitor.abstractinterruptmonitor by checking and comparing current system time with user specified limit.
+description: Simple implementation of AbstractInterruptMonitornodejscppabstractinterruptmonitor by checking and comparing current system time with user specified limit.
 type: docs
 url: /nodejs-cpp/systemtimeinterruptmonitor/
 ---
 
 ## SystemTimeInterruptMonitor class
 
-Simple implementation of [AbstractInterruptMonitor](./abstractinterruptmonitor/) by checking and comparing current system time with user specified limit.
+Simple implementation of [AbstractInterruptMonitor](/nodejs-cpp/abstractinterruptmonitor/) by checking and comparing current system time with user specified limit.
 
 ```javascript
 class SystemTimeInterruptMonitor;
@@ -28,7 +28,7 @@ This implementation is just a simple solution for simple scenarios. It needs to 
 | Method | Description |
 | --- | --- |
 | [isInterruptionRequested()](#isInterruptionRequested--)| This implementation just checks whether the time cost(from the time when starting this monitor to now) is greater than user specified limit. |
-| [getTerminateWithoutException()](#getTerminateWithoutException--)| See [AbstractInterruptMonitor.TerminateWithoutException](./abstractinterruptmonitor.terminatewithoutexception/). This property is specified by user when constructing this monitor instance. |
+| [getTerminateWithoutException()](#getTerminateWithoutException--)| See [AbstractInterruptMonitor.TerminateWithoutException](/nodejs-cpp/abstractinterruptmonitor.terminatewithoutexception/). This property is specified by user when constructing this monitor instance. |
 | [startMonitor(number)](#startMonitor-number-)| Starts the monitor with the specified time limit. The start time to calculate time cost is just when this method is called, so the procedure which needs to be monitored should be started just after this call. |
 
 
@@ -43,7 +43,7 @@ constructor(terminateWithoutException: boolean);
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| terminateWithoutException | boolean | [AbstractInterruptMonitor.TerminateWithoutException](./abstractinterruptmonitor.terminatewithoutexception/) |
+| terminateWithoutException | boolean | [AbstractInterruptMonitor.TerminateWithoutException](/nodejs-cpp/abstractinterruptmonitor.terminatewithoutexception/) |
 
 ### isInterruptionRequested() {#isInterruptionRequested--}
 
@@ -56,7 +56,7 @@ isInterruptionRequested() : boolean;
 
 ### getTerminateWithoutException() {#getTerminateWithoutException--}
 
-See [AbstractInterruptMonitor.TerminateWithoutException](./abstractinterruptmonitor.terminatewithoutexception/). This property is specified by user when constructing this monitor instance.
+See [AbstractInterruptMonitor.TerminateWithoutException](/nodejs-cpp/abstractinterruptmonitor.terminatewithoutexception/). This property is specified by user when constructing this monitor instance.
 
 ```javascript
 getTerminateWithoutException() : boolean;

@@ -27,6 +27,6 @@ warning(warningInfo: WarningInfo) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| warningInfo | [WarningInfo](./warninginfo/) | warning info |
+| warningInfo | [WarningInfo](/nodejs-cpp/warninginfo/) | warning info |
 
 

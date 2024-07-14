@@ -45,15 +45,15 @@ class ListBox extends Shape;
 | [setZOrderPosition(number)](#setZOrderPosition-number-)| Returns the position of a shape in the z-order. |
 | [getName()](#getName--)| Gets and sets the name of the shape. |
 | [setName(string)](#setName-string-)| Gets and sets the name of the shape. |
-| [getAlternativeText()](#getAlternativeText--)| Returns or sets the descriptive (alternative) text string of the [Shape](./shape/) object. |
-| [setAlternativeText(string)](#setAlternativeText-string-)| Returns or sets the descriptive (alternative) text string of the [Shape](./shape/) object. |
+| [getAlternativeText()](#getAlternativeText--)| Returns or sets the descriptive (alternative) text string of the [Shape](/nodejs-cpp/shape/) object. |
+| [setAlternativeText(string)](#setAlternativeText-string-)| Returns or sets the descriptive (alternative) text string of the [Shape](/nodejs-cpp/shape/) object. |
 | [getTitle()](#getTitle--)| Specifies the title (caption) of the current shape object. |
 | [setTitle(string)](#setTitle-string-)| Specifies the title (caption) of the current shape object. |
 | [getLine()](#getLine--)| Gets line style |
-| [getFill()](#getFill--)| Returns a [FillFormat](./fillformat/) object that contains fill formatting properties for the specified shape. |
-| [getShadowEffect()](#getShadowEffect--)| Represents a [Drawing.ShadowEffect](./drawing.shadoweffect/) object that specifies shadow effect for the chart element or shape. |
-| [getReflection()](#getReflection--)| Represents a [ReflectionEffect](./reflectioneffect/) object that specifies reflection effect for the chart element or shape. |
-| [getGlow()](#getGlow--)| Represents a [GlowEffect](./gloweffect/) object that specifies glow effect for the chart element or shape. |
+| [getFill()](#getFill--)| Returns a [FillFormat](/nodejs-cpp/fillformat/) object that contains fill formatting properties for the specified shape. |
+| [getShadowEffect()](#getShadowEffect--)| Represents a [Drawing.ShadowEffect](/nodejs-cpp/drawing.shadoweffect/) object that specifies shadow effect for the chart element or shape. |
+| [getReflection()](#getReflection--)| Represents a [ReflectionEffect](/nodejs-cpp/reflectioneffect/) object that specifies reflection effect for the chart element or shape. |
+| [getGlow()](#getGlow--)| Represents a [GlowEffect](/nodejs-cpp/gloweffect/) object that specifies glow effect for the chart element or shape. |
 | [getSoftEdges()](#getSoftEdges--)| Gets and sets the radius of blur to apply to the edges, in unit of points. |
 | [setSoftEdges(number)](#setSoftEdges-number-)| Gets and sets the radius of blur to apply to the edges, in unit of points. |
 | [getThreeDFormat()](#getThreeDFormat--)| Gets and sets 3d format of the shape. |
@@ -70,7 +70,7 @@ class ListBox extends Shape;
 | [getId()](#getId--)| Gets the identifier of this shape. |
 | [getSpid()](#getSpid--)| Specifies an optional string identifier that an application can use to identify the particular shape. |
 | [getSpt()](#getSpt--)| Specifies an optional number that an application can use to associate the particular shape with a defined shape type. |
-| [getWorksheet()](#getWorksheet--)| Gets the [Worksheet](./worksheet/) object which contains this shape. |
+| [getWorksheet()](#getWorksheet--)| Gets the [Worksheet](/nodejs-cpp/worksheet/) object which contains this shape. |
 | [isGroup()](#isGroup--)| Indicates whether this shape is a group shape. |
 | [isInGroup()](#isInGroup--)| Indicates whether the shape is grouped. |
 | [isWordArt()](#isWordArt--)| Indicates whether this shape is a word art. |
@@ -286,7 +286,7 @@ getSelectedCells() : Cell[];
 
 **Returns**
 
-[Cell](./cell/)[]
+[Cell](/nodejs-cpp/cell/)[]
 
 ### getShadow() {#getShadow--}
 
@@ -321,7 +321,7 @@ getSelectionType() : SelectionType;
 
 **Returns**
 
-[SelectionType](./selectiontype/)
+[SelectionType](/nodejs-cpp/selectiontype/)
 
 ### setSelectionType(SelectionType) {#setSelectionType-selectiontype-}
 
@@ -334,7 +334,7 @@ setSelectionType(value: SelectionType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [SelectionType](./selectiontype/) | The value to set. |
+| value | [SelectionType](/nodejs-cpp/selectiontype/) | The value to set. |
 
 ### getPageChange() {#getPageChange--}
 
@@ -479,7 +479,7 @@ setName(value: string) : void;
 
 ### getAlternativeText() {#getAlternativeText--}
 
-Returns or sets the descriptive (alternative) text string of the [Shape](./shape/) object.
+Returns or sets the descriptive (alternative) text string of the [Shape](/nodejs-cpp/shape/) object.
 
 ```javascript
 getAlternativeText() : string;
@@ -488,7 +488,7 @@ getAlternativeText() : string;
 
 ### setAlternativeText(string) {#setAlternativeText-string-}
 
-Returns or sets the descriptive (alternative) text string of the [Shape](./shape/) object.
+Returns or sets the descriptive (alternative) text string of the [Shape](/nodejs-cpp/shape/) object.
 
 ```javascript
 setAlternativeText(value: string) : void;
@@ -532,11 +532,11 @@ getLine() : LineFormat;
 
 **Returns**
 
-[LineFormat](./lineformat/)
+[LineFormat](/nodejs-cpp/lineformat/)
 
 ### getFill() {#getFill--}
 
-Returns a [FillFormat](./fillformat/) object that contains fill formatting properties for the specified shape.
+Returns a [FillFormat](/nodejs-cpp/fillformat/) object that contains fill formatting properties for the specified shape.
 
 ```javascript
 getFill() : FillFormat;
@@ -545,11 +545,11 @@ getFill() : FillFormat;
 
 **Returns**
 
-[FillFormat](./fillformat/)
+[FillFormat](/nodejs-cpp/fillformat/)
 
 ### getShadowEffect() {#getShadowEffect--}
 
-Represents a [Drawing.ShadowEffect](./drawing.shadoweffect/) object that specifies shadow effect for the chart element or shape.
+Represents a [Drawing.ShadowEffect](/nodejs-cpp/drawing.shadoweffect/) object that specifies shadow effect for the chart element or shape.
 
 ```javascript
 getShadowEffect() : ShadowEffect;
@@ -558,11 +558,11 @@ getShadowEffect() : ShadowEffect;
 
 **Returns**
 
-[ShadowEffect](./shadoweffect/)
+[ShadowEffect](/nodejs-cpp/shadoweffect/)
 
 ### getReflection() {#getReflection--}
 
-Represents a [ReflectionEffect](./reflectioneffect/) object that specifies reflection effect for the chart element or shape.
+Represents a [ReflectionEffect](/nodejs-cpp/reflectioneffect/) object that specifies reflection effect for the chart element or shape.
 
 ```javascript
 getReflection() : ReflectionEffect;
@@ -571,11 +571,11 @@ getReflection() : ReflectionEffect;
 
 **Returns**
 
-[ReflectionEffect](./reflectioneffect/)
+[ReflectionEffect](/nodejs-cpp/reflectioneffect/)
 
 ### getGlow() {#getGlow--}
 
-Represents a [GlowEffect](./gloweffect/) object that specifies glow effect for the chart element or shape.
+Represents a [GlowEffect](/nodejs-cpp/gloweffect/) object that specifies glow effect for the chart element or shape.
 
 ```javascript
 getGlow() : GlowEffect;
@@ -584,7 +584,7 @@ getGlow() : GlowEffect;
 
 **Returns**
 
-[GlowEffect](./gloweffect/)
+[GlowEffect](/nodejs-cpp/gloweffect/)
 
 ### getSoftEdges() {#getSoftEdges--}
 
@@ -619,7 +619,7 @@ getThreeDFormat() : ThreeDFormat;
 
 **Returns**
 
-[ThreeDFormat](./threedformat/)
+[ThreeDFormat](/nodejs-cpp/threedformat/)
 
 ### getFormatPicture() {#getFormatPicture--}
 
@@ -632,7 +632,7 @@ getFormatPicture() : MsoFormatPicture;
 
 **Returns**
 
-[MsoFormatPicture](./msoformatpicture/)
+[MsoFormatPicture](/nodejs-cpp/msoformatpicture/)
 
 ### isHidden() {#isHidden--}
 
@@ -749,7 +749,7 @@ getHyperlink() : Hyperlink;
 
 **Returns**
 
-[Hyperlink](./hyperlink/)
+[Hyperlink](/nodejs-cpp/hyperlink/)
 
 ### getId() {#getId--}
 
@@ -780,7 +780,7 @@ getSpt() : number;
 
 ### getWorksheet() {#getWorksheet--}
 
-Gets the [Worksheet](./worksheet/) object which contains this shape.
+Gets the [Worksheet](/nodejs-cpp/worksheet/) object which contains this shape.
 
 ```javascript
 getWorksheet() : Worksheet;
@@ -789,7 +789,7 @@ getWorksheet() : Worksheet;
 
 **Returns**
 
-[Worksheet](./worksheet/)
+[Worksheet](/nodejs-cpp/worksheet/)
 
 ### isGroup() {#isGroup--}
 
@@ -833,7 +833,7 @@ getTextEffect() : TextEffectFormat;
 
 **Returns**
 
-[TextEffectFormat](./texteffectformat/)
+[TextEffectFormat](/nodejs-cpp/texteffectformat/)
 
 ### isLocked() {#isLocked--}
 
@@ -890,7 +890,7 @@ getMsoDrawingType() : MsoDrawingType;
 
 **Returns**
 
-[MsoDrawingType](./msodrawingtype/)
+[MsoDrawingType](/nodejs-cpp/msodrawingtype/)
 
 ### getAutoShapeType() {#getAutoShapeType--}
 
@@ -903,7 +903,7 @@ getAutoShapeType() : AutoShapeType;
 
 **Returns**
 
-[AutoShapeType](./autoshapetype/)
+[AutoShapeType](/nodejs-cpp/autoshapetype/)
 
 ### setAutoShapeType(AutoShapeType) {#setAutoShapeType-autoshapetype-}
 
@@ -916,7 +916,7 @@ setAutoShapeType(value: AutoShapeType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [AutoShapeType](./autoshapetype/) | The value to set. |
+| value | [AutoShapeType](/nodejs-cpp/autoshapetype/) | The value to set. |
 
 ### getAnchorType() {#getAnchorType--}
 
@@ -929,7 +929,7 @@ getAnchorType() : ShapeAnchorType;
 
 **Returns**
 
-[ShapeAnchorType](./shapeanchortype/)
+[ShapeAnchorType](/nodejs-cpp/shapeanchortype/)
 
 ### setAnchorType(ShapeAnchorType) {#setAnchorType-shapeanchortype-}
 
@@ -942,7 +942,7 @@ setAnchorType(value: ShapeAnchorType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ShapeAnchorType](./shapeanchortype/) | The value to set. |
+| value | [ShapeAnchorType](/nodejs-cpp/shapeanchortype/) | The value to set. |
 
 ### getPlacement() {#getPlacement--}
 
@@ -955,7 +955,7 @@ getPlacement() : PlacementType;
 
 **Returns**
 
-[PlacementType](./placementtype/)
+[PlacementType](/nodejs-cpp/placementtype/)
 
 ### setPlacement(PlacementType) {#setPlacement-placementtype-}
 
@@ -968,7 +968,7 @@ setPlacement(value: PlacementType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [PlacementType](./placementtype/) | The value to set. |
+| value | [PlacementType](/nodejs-cpp/placementtype/) | The value to set. |
 
 ### getUpperLeftRow() {#getUpperLeftRow--}
 
@@ -1809,7 +1809,7 @@ getGroup() : GroupShape;
 
 **Returns**
 
-[GroupShape](./groupshape/)
+[GroupShape](/nodejs-cpp/groupshape/)
 
 ### getType() {#getType--}
 
@@ -1822,7 +1822,7 @@ getType() : AutoShapeType;
 
 **Returns**
 
-[AutoShapeType](./autoshapetype/)
+[AutoShapeType](/nodejs-cpp/autoshapetype/)
 
 ### getHasLine() {#getHasLine--}
 
@@ -1954,7 +1954,7 @@ getTextShapeType() : AutoShapeType;
 
 **Returns**
 
-[AutoShapeType](./autoshapetype/)
+[AutoShapeType](/nodejs-cpp/autoshapetype/)
 
 ### setTextShapeType(AutoShapeType) {#setTextShapeType-autoshapetype-}
 
@@ -1967,7 +1967,7 @@ setTextShapeType(value: AutoShapeType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [AutoShapeType](./autoshapetype/) | The value to set. |
+| value | [AutoShapeType](/nodejs-cpp/autoshapetype/) | The value to set. |
 
 ### getTextBody() {#getTextBody--}
 
@@ -1980,7 +1980,7 @@ getTextBody() : FontSettingCollection;
 
 **Returns**
 
-[FontSettingCollection](./fontsettingcollection/)
+[FontSettingCollection](/nodejs-cpp/fontsettingcollection/)
 
 ### getFont() {#getFont--}
 
@@ -1993,7 +1993,7 @@ getFont() : Font;
 
 **Returns**
 
-[Font](./font/)
+[Font](/nodejs-cpp/font/)
 
 ### setFont(Font) {#setFont-font-}
 
@@ -2006,7 +2006,7 @@ setFont(value: Font) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [Font](./font/) | The value to set. |
+| value | [Font](/nodejs-cpp/font/) | The value to set. |
 
 ### getTextOptions() {#getTextOptions--}
 
@@ -2019,7 +2019,7 @@ getTextOptions() : TextOptions;
 
 **Returns**
 
-[TextOptions](./textoptions/)
+[TextOptions](/nodejs-cpp/textoptions/)
 
 ### setTextOptions(TextOptions) {#setTextOptions-textoptions-}
 
@@ -2032,7 +2032,7 @@ setTextOptions(value: TextOptions) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [TextOptions](./textoptions/) | The value to set. |
+| value | [TextOptions](/nodejs-cpp/textoptions/) | The value to set. |
 
 ### getText() {#getText--}
 
@@ -2098,7 +2098,7 @@ getTextVerticalOverflow() : TextOverflowType;
 
 **Returns**
 
-[TextOverflowType](./textoverflowtype/)
+[TextOverflowType](/nodejs-cpp/textoverflowtype/)
 
 ### setTextVerticalOverflow(TextOverflowType) {#setTextVerticalOverflow-textoverflowtype-}
 
@@ -2111,7 +2111,7 @@ setTextVerticalOverflow(value: TextOverflowType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [TextOverflowType](./textoverflowtype/) | The value to set. |
+| value | [TextOverflowType](/nodejs-cpp/textoverflowtype/) | The value to set. |
 
 ### getTextHorizontalOverflow() {#getTextHorizontalOverflow--}
 
@@ -2124,7 +2124,7 @@ getTextHorizontalOverflow() : TextOverflowType;
 
 **Returns**
 
-[TextOverflowType](./textoverflowtype/)
+[TextOverflowType](/nodejs-cpp/textoverflowtype/)
 
 ### setTextHorizontalOverflow(TextOverflowType) {#setTextHorizontalOverflow-textoverflowtype-}
 
@@ -2137,7 +2137,7 @@ setTextHorizontalOverflow(value: TextOverflowType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [TextOverflowType](./textoverflowtype/) | The value to set. |
+| value | [TextOverflowType](/nodejs-cpp/textoverflowtype/) | The value to set. |
 
 ### isTextWrapped() {#isTextWrapped--}
 
@@ -2172,7 +2172,7 @@ getTextOrientationType() : TextOrientationType;
 
 **Returns**
 
-[TextOrientationType](./textorientationtype/)
+[TextOrientationType](/nodejs-cpp/textorientationtype/)
 
 ### setTextOrientationType(TextOrientationType) {#setTextOrientationType-textorientationtype-}
 
@@ -2185,7 +2185,7 @@ setTextOrientationType(value: TextOrientationType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [TextOrientationType](./textorientationtype/) | The value to set. |
+| value | [TextOrientationType](/nodejs-cpp/textorientationtype/) | The value to set. |
 
 ### getTextHorizontalAlignment() {#getTextHorizontalAlignment--}
 
@@ -2198,7 +2198,7 @@ getTextHorizontalAlignment() : TextAlignmentType;
 
 **Returns**
 
-[TextAlignmentType](./textalignmenttype/)
+[TextAlignmentType](/nodejs-cpp/textalignmenttype/)
 
 ### setTextHorizontalAlignment(TextAlignmentType) {#setTextHorizontalAlignment-textalignmenttype-}
 
@@ -2211,7 +2211,7 @@ setTextHorizontalAlignment(value: TextAlignmentType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [TextAlignmentType](./textalignmenttype/) | The value to set. |
+| value | [TextAlignmentType](/nodejs-cpp/textalignmenttype/) | The value to set. |
 
 ### getTextVerticalAlignment() {#getTextVerticalAlignment--}
 
@@ -2224,7 +2224,7 @@ getTextVerticalAlignment() : TextAlignmentType;
 
 **Returns**
 
-[TextAlignmentType](./textalignmenttype/)
+[TextAlignmentType](/nodejs-cpp/textalignmenttype/)
 
 ### setTextVerticalAlignment(TextAlignmentType) {#setTextVerticalAlignment-textalignmenttype-}
 
@@ -2237,7 +2237,7 @@ setTextVerticalAlignment(value: TextAlignmentType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [TextAlignmentType](./textalignmenttype/) | The value to set. |
+| value | [TextAlignmentType](/nodejs-cpp/textalignmenttype/) | The value to set. |
 
 ### getTextDirection() {#getTextDirection--}
 
@@ -2250,7 +2250,7 @@ getTextDirection() : TextDirectionType;
 
 **Returns**
 
-[TextDirectionType](./textdirectiontype/)
+[TextDirectionType](/nodejs-cpp/textdirectiontype/)
 
 ### setTextDirection(TextDirectionType) {#setTextDirection-textdirectiontype-}
 
@@ -2263,7 +2263,7 @@ setTextDirection(value: TextDirectionType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [TextDirectionType](./textdirectiontype/) | The value to set. |
+| value | [TextDirectionType](/nodejs-cpp/textdirectiontype/) | The value to set. |
 
 ### getControlData() {#getControlData--}
 
@@ -2289,7 +2289,7 @@ getActiveXControl() : ActiveXControl;
 
 **Returns**
 
-[ActiveXControl](./activexcontrol/)
+[ActiveXControl](/nodejs-cpp/activexcontrol/)
 
 ### getPaths() {#getPaths--}
 
@@ -2302,7 +2302,7 @@ getPaths() : ShapePathCollection;
 
 **Returns**
 
-[ShapePathCollection](./shapepathcollection/)
+[ShapePathCollection](/nodejs-cpp/shapepathcollection/)
 
 ### getGeometry() {#getGeometry--}
 
@@ -2315,7 +2315,7 @@ getGeometry() : Geometry;
 
 **Returns**
 
-[Geometry](./geometry/)
+[Geometry](/nodejs-cpp/geometry/)
 
 ### isDecorative() {#isDecorative--}
 
@@ -2350,7 +2350,7 @@ getResultOfSmartArt() : GroupShape;
 
 **Returns**
 
-[GroupShape](./groupshape/)
+[GroupShape](/nodejs-cpp/groupshape/)
 
 ### toFrontOrBack(number) {#toFrontOrBack-number-}
 
@@ -2376,7 +2376,7 @@ getLockedProperty(type: ShapeLockType) : boolean;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | [ShapeLockType](./shapelocktype/) | The type of the shape locked property. |
+| type | [ShapeLockType](/nodejs-cpp/shapelocktype/) | The type of the shape locked property. |
 
 **Returns**
 
@@ -2393,7 +2393,7 @@ setLockedProperty(type: ShapeLockType, value: boolean) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | [ShapeLockType](./shapelocktype/) | The locked type. |
+| type | [ShapeLockType](/nodejs-cpp/shapelocktype/) | The locked type. |
 | value | boolean | The value of the property. |
 
 ### addHyperlink(string) {#addHyperlink-string-}
@@ -2464,7 +2464,7 @@ toImage(stream: Uint8Array, imageType: ImageType) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | Uint8Array | The output stream. |
-| imageType | [ImageType](./imagetype/) | The type in which to save the image. |
+| imageType | [ImageType](/nodejs-cpp/imagetype/) | The type in which to save the image. |
 
 **Remarks**
 
@@ -2482,7 +2482,7 @@ toImage(imageFile: string, options: ImageOrPrintOptions) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | imageFile | string |  |
-| options | [ImageOrPrintOptions](./imageorprintoptions/) |  |
+| options | [ImageOrPrintOptions](/nodejs-cpp/imageorprintoptions/) |  |
 
 ### toImage(ImageOrPrintOptions) {#toImage-imageorprintoptions-}
 
@@ -2495,7 +2495,7 @@ toImage(options: ImageOrPrintOptions) : Uint8Array;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| options | [ImageOrPrintOptions](./imageorprintoptions/) |  |
+| options | [ImageOrPrintOptions](/nodejs-cpp/imageorprintoptions/) |  |
 
 **Returns**
 
@@ -2602,8 +2602,8 @@ formatCharacters(startIndex: number, length: number, font: Font, flag: StyleFlag
 | --- | --- | --- |
 | startIndex | number | The start index. |
 | length | number | The length. |
-| font | [Font](./font/) | The font setting. |
-| flag | [StyleFlag](./styleflag/) | The flag of the font setting. |
+| font | [Font](/nodejs-cpp/font/) | The font setting. |
+| flag | [StyleFlag](/nodejs-cpp/styleflag/) | The flag of the font setting. |
 
 ### characters(number, number) {#characters-number-number-}
 

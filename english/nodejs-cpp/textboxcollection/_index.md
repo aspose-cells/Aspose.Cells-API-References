@@ -1,14 +1,14 @@
 ﻿---
 title: TextBoxCollection
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Encapsulates a collection of TextBox.textbox objects.
+description: Encapsulates a collection of TextBoxnodejscpptextbox objects.
 type: docs
 url: /nodejs-cpp/textboxcollection/
 ---
 
 ## TextBoxCollection class
 
-Encapsulates a collection of [TextBox](./textbox/) objects.
+Encapsulates a collection of [TextBox](/nodejs-cpp/textbox/) objects.
 
 ```javascript
 class TextBoxCollection;
@@ -19,7 +19,7 @@ class TextBoxCollection;
 
 | Method | Description |
 | --- | --- |
-| [get(number)](#get-number-)| Gets the [TextBox](./textbox/) element at the specified index. |
+| [get(number)](#get-number-)| Gets the [TextBox](/nodejs-cpp/textbox/) element at the specified index. |
 | [add(number, number, number, number)](#add-number-number-number-number-)| Adds a textbox to the collection. |
 | [removeAt(number)](#removeAt-number-)| Remove a text box from the file. |
 | [clear()](#clear--)| Clear all text boxes. |
@@ -28,7 +28,7 @@ class TextBoxCollection;
 
 ### get(number) {#get-number-}
 
-Gets the [TextBox](./textbox/) element at the specified index.
+Gets the [TextBox](/nodejs-cpp/textbox/) element at the specified index.
 
 ```javascript
 get(index: number) : TextBox;
@@ -61,7 +61,7 @@ add(upperLeftRow: number, upperLeftColumn: number, height: number, width: number
 
 **Returns**
 
-[TextBox](./textbox/) object index.
+[TextBox](/nodejs-cpp/textbox/) object index.
 
 ### removeAt(number) {#removeAt-number-}
 

@@ -19,16 +19,16 @@ class ChartPointCollection;
 
 | Method | Description |
 | --- | --- |
-| [get(number)](#get-number-)| Gets the [ChartPoint](./chartpoint/) element at the specified index in the series. |
+| [get(number)](#get-number-)| Gets the [ChartPoint](/nodejs-cpp/chartpoint/) element at the specified index in the series. |
 | [getCount()](#getCount--)| Gets the count of the chart point. |
-| [getEnumerator()](#getEnumerator--)| Returns an enumerator for the entire [ChartPointCollection](./chartpointcollection/). |
+| [getEnumerator()](#getEnumerator--)| Returns an enumerator for the entire [ChartPointCollection](/nodejs-cpp/chartpointcollection/). |
 | [clear()](#clear--)| Remove all setting of the chart points. |
 | [removeAt(number)](#removeAt-number-)| Removes point at the index of the series.. |
 
 
 ### get(number) {#get-number-}
 
-Gets the [ChartPoint](./chartpoint/) element at the specified index in the series.
+Gets the [ChartPoint](/nodejs-cpp/chartpoint/) element at the specified index in the series.
 
 ```javascript
 get(index: number) : ChartPoint;
@@ -54,7 +54,7 @@ getCount() : number;
 
 ### getEnumerator() {#getEnumerator--}
 
-Returns an enumerator for the entire [ChartPointCollection](./chartpointcollection/).
+Returns an enumerator for the entire [ChartPointCollection](/nodejs-cpp/chartpointcollection/).
 
 ```javascript
 getEnumerator() : ChartPointEnumerator;
@@ -63,7 +63,7 @@ getEnumerator() : ChartPointEnumerator;
 
 **Returns**
 
-[ChartPointEnumerator](./chartpointenumerator/)
+[ChartPointEnumerator](/nodejs-cpp/chartpointenumerator/)
 
 ### clear() {#clear--}
 

@@ -37,14 +37,14 @@ class ImageActiveXControl extends ActiveXControl;
 | [getSpecialEffect()](#getSpecialEffect--)| Gets and sets the special effect of the control. |
 | [setSpecialEffect(ControlSpecialEffectType)](#setSpecialEffect-controlspecialeffecttype-)| Gets and sets the special effect of the control. |
 | [getPicture()](#getPicture--)| Gets and sets the data of the picture. |
-| [setPicture(number[])](#setPicture-number[]-)| Gets and sets the data of the picture. |
+| [setPicture(number[])](#setPicture-numberarray-)| Gets and sets the data of the picture. |
 | [getPictureAlignment()](#getPictureAlignment--)| Gets and sets the alignment of the picture inside the Form or Image. |
 | [setPictureAlignment(ControlPictureAlignmentType)](#setPictureAlignment-controlpicturealignmenttype-)| Gets and sets the alignment of the picture inside the Form or Image. |
 | [isTiled()](#isTiled--)| Indicates whether the picture is tiled across the background. |
 | [setIsTiled(boolean)](#setIsTiled-boolean-)| Indicates whether the picture is tiled across the background. |
-| [getWorkbook()](#getWorkbook--)| Gets the [Workbook](./workbook/) object. |
+| [getWorkbook()](#getWorkbook--)| Gets the [Workbook](/nodejs-cpp/workbook/) object. |
 | [getMouseIcon()](#getMouseIcon--)| Gets and sets a custom icon to display as the mouse pointer for the control. |
-| [setMouseIcon(number[])](#setMouseIcon-number[]-)| Gets and sets a custom icon to display as the mouse pointer for the control. |
+| [setMouseIcon(number[])](#setMouseIcon-numberarray-)| Gets and sets a custom icon to display as the mouse pointer for the control. |
 | [getMousePointer()](#getMousePointer--)| Gets and sets the type of icon displayed as the mouse pointer for the control. |
 | [setMousePointer(ControlMousePointerType)](#setMousePointer-controlmousepointertype-)| Gets and sets the type of icon displayed as the mouse pointer for the control. |
 | [getLinkedCell()](#getLinkedCell--)| Gets and sets the linked cell. |
@@ -101,7 +101,7 @@ getType() : ControlType;
 
 **Returns**
 
-[ControlType](./controltype/)
+[ControlType](/nodejs-cpp/controltype/)
 
 ### isAutoSize() {#isAutoSize--}
 
@@ -158,7 +158,7 @@ getBorderStyle() : ControlBorderType;
 
 **Returns**
 
-[ControlBorderType](./controlbordertype/)
+[ControlBorderType](/nodejs-cpp/controlbordertype/)
 
 ### setBorderStyle(ControlBorderType) {#setBorderStyle-controlbordertype-}
 
@@ -171,7 +171,7 @@ setBorderStyle(value: ControlBorderType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ControlBorderType](./controlbordertype/) | The value to set. |
+| value | [ControlBorderType](/nodejs-cpp/controlbordertype/) | The value to set. |
 
 ### getPictureSizeMode() {#getPictureSizeMode--}
 
@@ -184,7 +184,7 @@ getPictureSizeMode() : ControlPictureSizeMode;
 
 **Returns**
 
-[ControlPictureSizeMode](./controlpicturesizemode/)
+[ControlPictureSizeMode](/nodejs-cpp/controlpicturesizemode/)
 
 ### setPictureSizeMode(ControlPictureSizeMode) {#setPictureSizeMode-controlpicturesizemode-}
 
@@ -197,7 +197,7 @@ setPictureSizeMode(value: ControlPictureSizeMode) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ControlPictureSizeMode](./controlpicturesizemode/) | The value to set. |
+| value | [ControlPictureSizeMode](/nodejs-cpp/controlpicturesizemode/) | The value to set. |
 
 ### getSpecialEffect() {#getSpecialEffect--}
 
@@ -210,7 +210,7 @@ getSpecialEffect() : ControlSpecialEffectType;
 
 **Returns**
 
-[ControlSpecialEffectType](./controlspecialeffecttype/)
+[ControlSpecialEffectType](/nodejs-cpp/controlspecialeffecttype/)
 
 ### setSpecialEffect(ControlSpecialEffectType) {#setSpecialEffect-controlspecialeffecttype-}
 
@@ -223,7 +223,7 @@ setSpecialEffect(value: ControlSpecialEffectType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ControlSpecialEffectType](./controlspecialeffecttype/) | The value to set. |
+| value | [ControlSpecialEffectType](/nodejs-cpp/controlspecialeffecttype/) | The value to set. |
 
 ### getPicture() {#getPicture--}
 
@@ -238,7 +238,7 @@ getPicture() : number[];
 
 number[]
 
-### setPicture(number[]) {#setPicture-number[]-}
+### setPicture(number[]) {#setPicture-numberarray-}
 
 Gets and sets the data of the picture.
 
@@ -262,7 +262,7 @@ getPictureAlignment() : ControlPictureAlignmentType;
 
 **Returns**
 
-[ControlPictureAlignmentType](./controlpicturealignmenttype/)
+[ControlPictureAlignmentType](/nodejs-cpp/controlpicturealignmenttype/)
 
 ### setPictureAlignment(ControlPictureAlignmentType) {#setPictureAlignment-controlpicturealignmenttype-}
 
@@ -275,7 +275,7 @@ setPictureAlignment(value: ControlPictureAlignmentType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ControlPictureAlignmentType](./controlpicturealignmenttype/) | The value to set. |
+| value | [ControlPictureAlignmentType](/nodejs-cpp/controlpicturealignmenttype/) | The value to set. |
 
 ### isTiled() {#isTiled--}
 
@@ -301,7 +301,7 @@ setIsTiled(value: boolean) : void;
 
 ### getWorkbook() {#getWorkbook--}
 
-Gets the [Workbook](./workbook/) object.
+Gets the [Workbook](/nodejs-cpp/workbook/) object.
 
 ```javascript
 getWorkbook() : Workbook;
@@ -310,7 +310,7 @@ getWorkbook() : Workbook;
 
 **Returns**
 
-[Workbook](./workbook/)
+[Workbook](/nodejs-cpp/workbook/)
 
 ### getMouseIcon() {#getMouseIcon--}
 
@@ -325,7 +325,7 @@ getMouseIcon() : number[];
 
 number[]
 
-### setMouseIcon(number[]) {#setMouseIcon-number[]-}
+### setMouseIcon(number[]) {#setMouseIcon-numberarray-}
 
 Gets and sets a custom icon to display as the mouse pointer for the control.
 
@@ -349,7 +349,7 @@ getMousePointer() : ControlMousePointerType;
 
 **Returns**
 
-[ControlMousePointerType](./controlmousepointertype/)
+[ControlMousePointerType](/nodejs-cpp/controlmousepointertype/)
 
 ### setMousePointer(ControlMousePointerType) {#setMousePointer-controlmousepointertype-}
 
@@ -362,7 +362,7 @@ setMousePointer(value: ControlMousePointerType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ControlMousePointerType](./controlmousepointertype/) | The value to set. |
+| value | [ControlMousePointerType](/nodejs-cpp/controlmousepointertype/) | The value to set. |
 
 ### getLinkedCell() {#getLinkedCell--}
 
@@ -485,7 +485,7 @@ getIMEMode() : InputMethodEditorMode;
 
 **Returns**
 
-[InputMethodEditorMode](./inputmethodeditormode/)
+[InputMethodEditorMode](/nodejs-cpp/inputmethodeditormode/)
 
 ### setIMEMode(InputMethodEditorMode) {#setIMEMode-inputmethodeditormode-}
 
@@ -498,7 +498,7 @@ setIMEMode(value: InputMethodEditorMode) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [InputMethodEditorMode](./inputmethodeditormode/) | The value to set. |
+| value | [InputMethodEditorMode](/nodejs-cpp/inputmethodeditormode/) | The value to set. |
 
 ### getFont() {#getFont--}
 
@@ -511,7 +511,7 @@ getFont() : Font;
 
 **Returns**
 
-[Font](./font/)
+[Font](/nodejs-cpp/font/)
 
 ### getTextAlign() {#getTextAlign--}
 
@@ -524,7 +524,7 @@ getTextAlign() : TextAlignmentType;
 
 **Returns**
 
-[TextAlignmentType](./textalignmenttype/)
+[TextAlignmentType](/nodejs-cpp/textalignmenttype/)
 
 ### setTextAlign(TextAlignmentType) {#setTextAlign-textalignmenttype-}
 
@@ -537,7 +537,7 @@ setTextAlign(value: TextAlignmentType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [TextAlignmentType](./textalignmenttype/) | The value to set. |
+| value | [TextAlignmentType](/nodejs-cpp/textalignmenttype/) | The value to set. |
 
 ### getData() {#getData--}
 

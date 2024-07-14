@@ -1,14 +1,14 @@
 ﻿---
 title: NameCollection
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents a collection of all the Name.name objects in the spreadsheet.
+description: Represents a collection of all the Namenodejscppname objects in the spreadsheet.
 type: docs
 url: /nodejs-cpp/namecollection/
 ---
 
 ## NameCollection class
 
-Represents a collection of all the [Name](./name/) objects in the spreadsheet.
+Represents a collection of all the [Name](/nodejs-cpp/name/) objects in the spreadsheet.
 
 ```javascript
 class NameCollection;
@@ -19,10 +19,10 @@ class NameCollection;
 
 | Method | Description |
 | --- | --- |
-| [get(number)](#get-number-)| Gets the [Name](./name/) element at the specified index. |
+| [get(number)](#get-number-)| Gets the [Name](/nodejs-cpp/name/) element at the specified index. |
 | [add(string)](#add-string-)| Defines a new name. |
 | [filter(NameScopeType, number)](#filter-namescopetype-number-)| Gets all defined name by scope. |
-| [remove(string[])](#remove-string[]-)| Remove an array of name |
+| [remove(string[])](#remove-stringarray-)| Remove an array of name |
 | [remove(string)](#remove-string-)| Remove the name. |
 | [removeAt(number)](#removeAt-number-)| Remove the name at the specific index. |
 | [clear()](#clear--)| Remove all defined names which are not referenced by the formulas and data source. If the defined name is referred, we only set Name.ReferTo as null and hide them. |
@@ -33,7 +33,7 @@ class NameCollection;
 
 ### get(number) {#get-number-}
 
-Gets the [Name](./name/) element at the specified index.
+Gets the [Name](/nodejs-cpp/name/) element at the specified index.
 
 ```javascript
 get(index: number) : Name;
@@ -63,7 +63,7 @@ add(text: string) : number;
 
 **Returns**
 
-[Name](./name/) object index.
+[Name](/nodejs-cpp/name/) object index.
 
 **Remarks**
 
@@ -80,14 +80,14 @@ filter(type: NameScopeType, sheetIndex: number) : Name[];
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | [NameScopeType](./namescopetype/) | The scope type. |
-| sheetIndex | number | The sheet index.         /// Only effects when scope type is [NameScopeType.Worksheet](./namescopetype.worksheet/) |
+| type | [NameScopeType](/nodejs-cpp/namescopetype/) | The scope type. |
+| sheetIndex | number | The sheet index.         /// Only effects when scope type is [NameScopeType.Worksheet](/nodejs-cpp/namescopetype.worksheet/) |
 
 **Returns**
 
-[Name](./name/)[]
+[Name](/nodejs-cpp/name/)[]
 
-### remove(string[]) {#remove-string[]-}
+### remove(string[]) {#remove-stringarray-}
 
 Remove an array of name
 

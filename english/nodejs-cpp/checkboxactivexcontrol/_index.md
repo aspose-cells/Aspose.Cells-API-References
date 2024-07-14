@@ -39,16 +39,16 @@ class CheckBoxActiveXControl extends ActiveXControl;
 | [getSpecialEffect()](#getSpecialEffect--)| Gets and sets the special effect of the control. |
 | [setSpecialEffect(ControlSpecialEffectType)](#setSpecialEffect-controlspecialeffecttype-)| Gets and sets the special effect of the control. |
 | [getPicture()](#getPicture--)| Gets and sets the data of the picture. |
-| [setPicture(number[])](#setPicture-number[]-)| Gets and sets the data of the picture. |
+| [setPicture(number[])](#setPicture-numberarray-)| Gets and sets the data of the picture. |
 | [getAccelerator()](#getAccelerator--)| Gets and sets the accelerator key for the control. |
 | [setAccelerator(string)](#setAccelerator-string-)| Gets and sets the accelerator key for the control. |
 | [getValue()](#getValue--)| Indicates if the control is checked or not. |
 | [setValue(CheckValueType)](#setValue-checkvaluetype-)| Indicates if the control is checked or not. |
 | [isTripleState()](#isTripleState--)| Indicates how the specified control will display Null values. |
 | [setIsTripleState(boolean)](#setIsTripleState-boolean-)| Indicates how the specified control will display Null values. |
-| [getWorkbook()](#getWorkbook--)| Gets the [Workbook](./workbook/) object. |
+| [getWorkbook()](#getWorkbook--)| Gets the [Workbook](/nodejs-cpp/workbook/) object. |
 | [getMouseIcon()](#getMouseIcon--)| Gets and sets a custom icon to display as the mouse pointer for the control. |
-| [setMouseIcon(number[])](#setMouseIcon-number[]-)| Gets and sets a custom icon to display as the mouse pointer for the control. |
+| [setMouseIcon(number[])](#setMouseIcon-numberarray-)| Gets and sets a custom icon to display as the mouse pointer for the control. |
 | [getMousePointer()](#getMousePointer--)| Gets and sets the type of icon displayed as the mouse pointer for the control. |
 | [setMousePointer(ControlMousePointerType)](#setMousePointer-controlmousepointertype-)| Gets and sets the type of icon displayed as the mouse pointer for the control. |
 | [getLinkedCell()](#getLinkedCell--)| Gets and sets the linked cell. |
@@ -107,7 +107,7 @@ getType() : ControlType;
 
 **Returns**
 
-[ControlType](./controltype/)
+[ControlType](/nodejs-cpp/controltype/)
 
 ### getGroupName() {#getGroupName--}
 
@@ -142,7 +142,7 @@ getAlignment() : ControlCaptionAlignmentType;
 
 **Returns**
 
-[ControlCaptionAlignmentType](./controlcaptionalignmenttype/)
+[ControlCaptionAlignmentType](/nodejs-cpp/controlcaptionalignmenttype/)
 
 ### setAlignment(ControlCaptionAlignmentType) {#setAlignment-controlcaptionalignmenttype-}
 
@@ -155,7 +155,7 @@ setAlignment(value: ControlCaptionAlignmentType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ControlCaptionAlignmentType](./controlcaptionalignmenttype/) | The value to set. |
+| value | [ControlCaptionAlignmentType](/nodejs-cpp/controlcaptionalignmenttype/) | The value to set. |
 
 ### isWordWrapped() {#isWordWrapped--}
 
@@ -212,7 +212,7 @@ getPicturePosition() : ControlPicturePositionType;
 
 **Returns**
 
-[ControlPicturePositionType](./controlpicturepositiontype/)
+[ControlPicturePositionType](/nodejs-cpp/controlpicturepositiontype/)
 
 ### setPicturePosition(ControlPicturePositionType) {#setPicturePosition-controlpicturepositiontype-}
 
@@ -225,7 +225,7 @@ setPicturePosition(value: ControlPicturePositionType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ControlPicturePositionType](./controlpicturepositiontype/) | The value to set. |
+| value | [ControlPicturePositionType](/nodejs-cpp/controlpicturepositiontype/) | The value to set. |
 
 ### getSpecialEffect() {#getSpecialEffect--}
 
@@ -238,7 +238,7 @@ getSpecialEffect() : ControlSpecialEffectType;
 
 **Returns**
 
-[ControlSpecialEffectType](./controlspecialeffecttype/)
+[ControlSpecialEffectType](/nodejs-cpp/controlspecialeffecttype/)
 
 ### setSpecialEffect(ControlSpecialEffectType) {#setSpecialEffect-controlspecialeffecttype-}
 
@@ -251,7 +251,7 @@ setSpecialEffect(value: ControlSpecialEffectType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ControlSpecialEffectType](./controlspecialeffecttype/) | The value to set. |
+| value | [ControlSpecialEffectType](/nodejs-cpp/controlspecialeffecttype/) | The value to set. |
 
 ### getPicture() {#getPicture--}
 
@@ -266,7 +266,7 @@ getPicture() : number[];
 
 number[]
 
-### setPicture(number[]) {#setPicture-number[]-}
+### setPicture(number[]) {#setPicture-numberarray-}
 
 Gets and sets the data of the picture.
 
@@ -312,7 +312,7 @@ getValue() : CheckValueType;
 
 **Returns**
 
-[CheckValueType](./checkvaluetype/)
+[CheckValueType](/nodejs-cpp/checkvaluetype/)
 
 ### setValue(CheckValueType) {#setValue-checkvaluetype-}
 
@@ -325,7 +325,7 @@ setValue(value: CheckValueType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [CheckValueType](./checkvaluetype/) | The value to set. |
+| value | [CheckValueType](/nodejs-cpp/checkvaluetype/) | The value to set. |
 
 ### isTripleState() {#isTripleState--}
 
@@ -359,7 +359,7 @@ setIsTripleState(value: boolean) : void;
 
 ### getWorkbook() {#getWorkbook--}
 
-Gets the [Workbook](./workbook/) object.
+Gets the [Workbook](/nodejs-cpp/workbook/) object.
 
 ```javascript
 getWorkbook() : Workbook;
@@ -368,7 +368,7 @@ getWorkbook() : Workbook;
 
 **Returns**
 
-[Workbook](./workbook/)
+[Workbook](/nodejs-cpp/workbook/)
 
 ### getMouseIcon() {#getMouseIcon--}
 
@@ -383,7 +383,7 @@ getMouseIcon() : number[];
 
 number[]
 
-### setMouseIcon(number[]) {#setMouseIcon-number[]-}
+### setMouseIcon(number[]) {#setMouseIcon-numberarray-}
 
 Gets and sets a custom icon to display as the mouse pointer for the control.
 
@@ -407,7 +407,7 @@ getMousePointer() : ControlMousePointerType;
 
 **Returns**
 
-[ControlMousePointerType](./controlmousepointertype/)
+[ControlMousePointerType](/nodejs-cpp/controlmousepointertype/)
 
 ### setMousePointer(ControlMousePointerType) {#setMousePointer-controlmousepointertype-}
 
@@ -420,7 +420,7 @@ setMousePointer(value: ControlMousePointerType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ControlMousePointerType](./controlmousepointertype/) | The value to set. |
+| value | [ControlMousePointerType](/nodejs-cpp/controlmousepointertype/) | The value to set. |
 
 ### getLinkedCell() {#getLinkedCell--}
 
@@ -543,7 +543,7 @@ getIMEMode() : InputMethodEditorMode;
 
 **Returns**
 
-[InputMethodEditorMode](./inputmethodeditormode/)
+[InputMethodEditorMode](/nodejs-cpp/inputmethodeditormode/)
 
 ### setIMEMode(InputMethodEditorMode) {#setIMEMode-inputmethodeditormode-}
 
@@ -556,7 +556,7 @@ setIMEMode(value: InputMethodEditorMode) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [InputMethodEditorMode](./inputmethodeditormode/) | The value to set. |
+| value | [InputMethodEditorMode](/nodejs-cpp/inputmethodeditormode/) | The value to set. |
 
 ### getFont() {#getFont--}
 
@@ -569,7 +569,7 @@ getFont() : Font;
 
 **Returns**
 
-[Font](./font/)
+[Font](/nodejs-cpp/font/)
 
 ### getTextAlign() {#getTextAlign--}
 
@@ -582,7 +582,7 @@ getTextAlign() : TextAlignmentType;
 
 **Returns**
 
-[TextAlignmentType](./textalignmenttype/)
+[TextAlignmentType](/nodejs-cpp/textalignmenttype/)
 
 ### setTextAlign(TextAlignmentType) {#setTextAlign-textalignmenttype-}
 
@@ -595,7 +595,7 @@ setTextAlign(value: TextAlignmentType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [TextAlignmentType](./textalignmenttype/) | The value to set. |
+| value | [TextAlignmentType](/nodejs-cpp/textalignmenttype/) | The value to set. |
 
 ### getData() {#getData--}
 

@@ -46,7 +46,7 @@ constructor(startIndex: number, length: number, sheets: WorksheetCollection);
 | --- | --- | --- |
 | startIndex | number |  |
 | length | number |  |
-| sheets | [WorksheetCollection](./worksheetcollection/) |  |
+| sheets | [WorksheetCollection](/nodejs-cpp/worksheetcollection/) |  |
 
 ### getStartIndex() {#getStartIndex--}
 
@@ -77,7 +77,7 @@ getFont() : Font;
 
 **Returns**
 
-[Font](./font/)
+[Font](/nodejs-cpp/font/)
 
 ### getTextOptions() {#getTextOptions--}
 
@@ -90,7 +90,7 @@ getTextOptions() : TextOptions;
 
 **Returns**
 
-[TextOptions](./textoptions/)
+[TextOptions](/nodejs-cpp/textoptions/)
 
 ### setWordArtStyle(PresetWordArtStyle) {#setWordArtStyle-presetwordartstyle-}
 
@@ -103,7 +103,7 @@ setWordArtStyle(style: PresetWordArtStyle) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| style | [PresetWordArtStyle](./presetwordartstyle/) | The preset WordArt style. |
+| style | [PresetWordArtStyle](/nodejs-cpp/presetwordartstyle/) | The preset WordArt style. |
 
 **Remarks**
 
@@ -120,6 +120,6 @@ getType() : TextNodeType;
 
 **Returns**
 
-[TextNodeType](./textnodetype/)
+[TextNodeType](/nodejs-cpp/textnodetype/)
 
 

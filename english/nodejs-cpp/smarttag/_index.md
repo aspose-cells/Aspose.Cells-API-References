@@ -61,7 +61,7 @@ getProperties() : SmartTagPropertyCollection;
 
 **Returns**
 
-[SmartTagPropertyCollection](./smarttagpropertycollection/)
+[SmartTagPropertyCollection](/nodejs-cpp/smarttagpropertycollection/)
 
 ### setProperties(SmartTagPropertyCollection) {#setProperties-smarttagpropertycollection-}
 
@@ -74,7 +74,7 @@ setProperties(value: SmartTagPropertyCollection) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [SmartTagPropertyCollection](./smarttagpropertycollection/) | The value to set. |
+| value | [SmartTagPropertyCollection](/nodejs-cpp/smarttagpropertycollection/) | The value to set. |
 
 ### getUri() {#getUri--}
 

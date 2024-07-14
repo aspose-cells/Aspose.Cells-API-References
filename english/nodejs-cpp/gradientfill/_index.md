@@ -42,7 +42,7 @@ getGradientStops() : GradientStopCollection;
 
 **Returns**
 
-[GradientStopCollection](./gradientstopcollection/)
+[GradientStopCollection](/nodejs-cpp/gradientstopcollection/)
 
 ### getFillType() {#getFillType--}
 
@@ -55,7 +55,7 @@ getFillType() : GradientFillType;
 
 **Returns**
 
-[GradientFillType](./gradientfilltype/)
+[GradientFillType](/nodejs-cpp/gradientfilltype/)
 
 ### getDirectionType() {#getDirectionType--}
 
@@ -68,7 +68,7 @@ getDirectionType() : GradientDirectionType;
 
 **Returns**
 
-[GradientDirectionType](./gradientdirectiontype/)
+[GradientDirectionType](/nodejs-cpp/gradientdirectiontype/)
 
 ### getAngle() {#getAngle--}
 
@@ -103,9 +103,9 @@ setGradient(type: GradientFillType, angle: number, direction: GradientDirectionT
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | [GradientFillType](./gradientfilltype/) | Gradient fill type. |
+| type | [GradientFillType](/nodejs-cpp/gradientfilltype/) | Gradient fill type. |
 | angle | number | The angle. Only applies for GradientFillType.Linear. |
-| direction | [GradientDirectionType](./gradientdirectiontype/) | The direction type. Only applies for GradientFillType.Radial and GradientFillType.Rectangle. |
+| direction | [GradientDirectionType](/nodejs-cpp/gradientdirectiontype/) | The direction type. Only applies for GradientFillType.Radial and GradientFillType.Rectangle. |
 
 ### setPresetThemeGradient(PresetThemeGradientType, ThemeColorType) {#setPresetThemeGradient-presetthemegradienttype-themecolortype-}
 
@@ -118,8 +118,8 @@ setPresetThemeGradient(gradientType: PresetThemeGradientType, themeColorType: Th
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| gradientType | [PresetThemeGradientType](./presetthemegradienttype/) | The preset gradient type. |
-| themeColorType | [ThemeColorType](./themecolortype/) | The theme color type. |
+| gradientType | [PresetThemeGradientType](/nodejs-cpp/presetthemegradienttype/) | The preset gradient type. |
+| themeColorType | [ThemeColorType](/nodejs-cpp/themecolortype/) | The theme color type. |
 
 ### setOneColorGradient(Color, number, GradientStyleType, number) {#setOneColorGradient-color-number-gradientstyletype-number-}
 
@@ -132,9 +132,9 @@ setOneColorGradient(color: Color, degree: number, style: GradientStyleType, vari
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| color | [Color](./color/) | One gradient color. |
+| color | [Color](/nodejs-cpp/color/) | One gradient color. |
 | degree | number | The gradient degree. Can be a value from 0.0 (dark) through 1.0 (light). |
-| style | [GradientStyleType](./gradientstyletype/) | Gradient shading style. |
+| style | [GradientStyleType](/nodejs-cpp/gradientstyletype/) | Gradient shading style. |
 | variant | number | The gradient variant. Can be a value from 1 through 4, corresponding to one of the four variants on the Gradient tab in the Fill Effects dialog box. If style is GradientStyle.FromCenter, the Variant argument can only be 1 or 2. |
 
 ### setTwoColorGradient(Color, Color, GradientStyleType, number) {#setTwoColorGradient-color-color-gradientstyletype-number-}
@@ -148,9 +148,9 @@ setTwoColorGradient(color1: Color, color2: Color, style: GradientStyleType, vari
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| color1 | [Color](./color/) | One gradient color. |
-| color2 | [Color](./color/) | Two gradient color. |
-| style | [GradientStyleType](./gradientstyletype/) | Gradient shading style. |
+| color1 | [Color](/nodejs-cpp/color/) | One gradient color. |
+| color2 | [Color](/nodejs-cpp/color/) | Two gradient color. |
+| style | [GradientStyleType](/nodejs-cpp/gradientstyletype/) | Gradient shading style. |
 | variant | number | The gradient variant. Can be a value from 1 through 4, corresponding to one of the four variants on the Gradient tab in the Fill Effects dialog box. If style is GradientStyle.FromCenter, the Variant argument can only be 1 or 2. |
 
 ### setTwoColorGradient(Color, number, Color, number, GradientStyleType, number) {#setTwoColorGradient-color-number-color-number-gradientstyletype-number-}
@@ -164,11 +164,11 @@ setTwoColorGradient(color1: Color, transparency1: number, color2: Color, transpa
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| color1 | [Color](./color/) | One gradient color. |
+| color1 | [Color](/nodejs-cpp/color/) | One gradient color. |
 | transparency1 | number | The degree of transparency of the color1 as a value from 0.0 (opaque) through 1.0 (clear). |
-| color2 | [Color](./color/) | Two gradient color. |
+| color2 | [Color](/nodejs-cpp/color/) | Two gradient color. |
 | transparency2 | number | The degree of transparency of the color2 as a value from 0.0 (opaque) through 1.0 (clear). |
-| style | [GradientStyleType](./gradientstyletype/) | Gradient shading style. |
+| style | [GradientStyleType](/nodejs-cpp/gradientstyletype/) | Gradient shading style. |
 | variant | number | The gradient variant. Can be a value from 1 through 4, corresponding to one of the four variants on the Gradient tab in the Fill Effects dialog box. If style is GradientStyle.FromCenter, the Variant argument can only be 1 or 2. |
 
 

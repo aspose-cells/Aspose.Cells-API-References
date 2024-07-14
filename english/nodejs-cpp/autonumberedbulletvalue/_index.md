@@ -66,7 +66,7 @@ getType() : BulletType;
 
 **Returns**
 
-[BulletType](./bullettype/)
+[BulletType](/nodejs-cpp/bullettype/)
 
 ### getStartAt() {#getStartAt--}
 
@@ -101,7 +101,7 @@ getAutonumberScheme() : TextAutonumberScheme;
 
 **Returns**
 
-[TextAutonumberScheme](./textautonumberscheme/)
+[TextAutonumberScheme](/nodejs-cpp/textautonumberscheme/)
 
 ### setAutonumberScheme(TextAutonumberScheme) {#setAutonumberScheme-textautonumberscheme-}
 
@@ -114,6 +114,6 @@ setAutonumberScheme(value: TextAutonumberScheme) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [TextAutonumberScheme](./textautonumberscheme/) | The value to set. |
+| value | [TextAutonumberScheme](/nodejs-cpp/textautonumberscheme/) | The value to set. |
 
 

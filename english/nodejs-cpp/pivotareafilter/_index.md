@@ -1,14 +1,14 @@
 ﻿---
 title: PivotAreaFilter
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents the filter of PivotArea.pivotarea for PivotArea.pivotarea.
+description: Represents the filter of PivotAreanodejscpppivotarea for PivotAreanodejscpppivotarea.
 type: docs
 url: /nodejs-cpp/pivotareafilter/
 ---
 
 ## PivotAreaFilter class
 
-Represents the filter of [PivotArea](./pivotarea/) for [PivotArea](./pivotarea/).
+Represents the filter of [PivotArea](/nodejs-cpp/pivotarea/) for [PivotArea](/nodejs-cpp/pivotarea/).
 
 ```javascript
 class PivotAreaFilter;
@@ -73,7 +73,7 @@ isSubtotalSet(subtotalType: PivotFieldSubtotalType) : boolean;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| subtotalType | [PivotFieldSubtotalType](./pivotfieldsubtotaltype/) | The subtotal function type. |
+| subtotalType | [PivotFieldSubtotalType](/nodejs-cpp/pivotfieldsubtotaltype/) | The subtotal function type. |
 
 ### setSubtotals(PivotFieldSubtotalType, boolean) {#setSubtotals-pivotfieldsubtotaltype-boolean-}
 
@@ -86,7 +86,7 @@ setSubtotals(subtotalType: PivotFieldSubtotalType, shown: boolean) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| subtotalType | [PivotFieldSubtotalType](./pivotfieldsubtotaltype/) | The subtotal function. |
+| subtotalType | [PivotFieldSubtotalType](/nodejs-cpp/pivotfieldsubtotaltype/) | The subtotal function. |
 | shown | boolean | Indicates if showing this subtotal data. |
 
 

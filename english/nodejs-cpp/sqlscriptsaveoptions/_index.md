@@ -51,7 +51,7 @@ class SqlScriptSaveOptions extends SaveOptions;
 | [getExportAsString()](#getExportAsString--)| Indicates whether exporting all data as string value. |
 | [setExportAsString(boolean)](#setExportAsString-boolean-)| Indicates whether exporting all data as string value. |
 | [getSheetIndexes()](#getSheetIndexes--)| Represents the indexes of exported sheets. |
-| [setSheetIndexes(number[])](#setSheetIndexes-number[]-)| Represents the indexes of exported sheets. |
+| [setSheetIndexes(number[])](#setSheetIndexes-numberarray-)| Represents the indexes of exported sheets. |
 | [getExportArea()](#getExportArea--)| Gets or sets the exporting range. |
 | [setExportArea(CellArea)](#setExportArea-cellarea-)| Gets or sets the exporting range. |
 | [getHasHeaderRow()](#getHasHeaderRow--)| Indicates whether the range contains header row. |
@@ -134,7 +134,7 @@ getColumnTypeMap() : SqlScriptColumnTypeMap;
 
 **Returns**
 
-[SqlScriptColumnTypeMap](./sqlscriptcolumntypemap/)
+[SqlScriptColumnTypeMap](/nodejs-cpp/sqlscriptcolumntypemap/)
 
 ### setColumnTypeMap(SqlScriptColumnTypeMap) {#setColumnTypeMap-sqlscriptcolumntypemap-}
 
@@ -147,7 +147,7 @@ setColumnTypeMap(value: SqlScriptColumnTypeMap) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [SqlScriptColumnTypeMap](./sqlscriptcolumntypemap/) | The value to set. |
+| value | [SqlScriptColumnTypeMap](/nodejs-cpp/sqlscriptcolumntypemap/) | The value to set. |
 
 ### getCheckAllDataForColumnType() {#getCheckAllDataForColumnType--}
 
@@ -190,7 +190,7 @@ getAddBlankLineBetweenRows() : boolean;
 
 **Remarks**
 
-If [Separator](./separator/) is '\n' , it's better to set this property as true to increase readability.
+If [Separator](/nodejs-cpp/separator/) is '\n' , it's better to set this property as true to increase readability.
 
 ### setAddBlankLineBetweenRows(boolean) {#setAddBlankLineBetweenRows-boolean-}
 
@@ -207,7 +207,7 @@ setAddBlankLineBetweenRows(value: boolean) : void;
 
 **Remarks**
 
-If [Separator](./separator/) is '\n' , it's better to set this property as true to increase readability.
+If [Separator](/nodejs-cpp/separator/) is '\n' , it's better to set this property as true to increase readability.
 
 ### getSeparator() {#getSeparator--}
 
@@ -250,7 +250,7 @@ getOperatorType() : SqlScriptOperatorType;
 
 **Returns**
 
-[SqlScriptOperatorType](./sqlscriptoperatortype/)
+[SqlScriptOperatorType](/nodejs-cpp/sqlscriptoperatortype/)
 
 ### setOperatorType(SqlScriptOperatorType) {#setOperatorType-sqlscriptoperatortype-}
 
@@ -263,7 +263,7 @@ setOperatorType(value: SqlScriptOperatorType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [SqlScriptOperatorType](./sqlscriptoperatortype/) | The value to set. |
+| value | [SqlScriptOperatorType](/nodejs-cpp/sqlscriptoperatortype/) | The value to set. |
 
 ### getPrimaryKey() {#getPrimaryKey--}
 
@@ -350,7 +350,7 @@ getStartId() : number;
 
 **Remarks**
 
-Only works when [IdName](./idname/) is set.
+Only works when [IdName](/nodejs-cpp/idname/) is set.
 
 ### setStartId(number) {#setStartId-number-}
 
@@ -367,7 +367,7 @@ setStartId(value: number) : void;
 
 **Remarks**
 
-Only works when [IdName](./idname/) is set.
+Only works when [IdName](/nodejs-cpp/idname/) is set.
 
 ### getTableName() {#getTableName--}
 
@@ -426,7 +426,7 @@ getSheetIndexes() : number[];
 
 number[]
 
-### setSheetIndexes(number[]) {#setSheetIndexes-number[]-}
+### setSheetIndexes(number[]) {#setSheetIndexes-numberarray-}
 
 Represents the indexes of exported sheets.
 
@@ -450,7 +450,7 @@ getExportArea() : CellArea;
 
 **Returns**
 
-[CellArea](./cellarea/)
+[CellArea](/nodejs-cpp/cellarea/)
 
 ### setExportArea(CellArea) {#setExportArea-cellarea-}
 
@@ -463,7 +463,7 @@ setExportArea(value: CellArea) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [CellArea](./cellarea/) | The value to set. |
+| value | [CellArea](/nodejs-cpp/cellarea/) | The value to set. |
 
 ### getHasHeaderRow() {#getHasHeaderRow--}
 
@@ -498,7 +498,7 @@ getSaveFormat() : SaveFormat;
 
 **Returns**
 
-[SaveFormat](./saveformat/)
+[SaveFormat](/nodejs-cpp/saveformat/)
 
 ### getClearData() {#getClearData--}
 
@@ -711,7 +711,7 @@ setWarningCallback(value: IWarningCallback) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IWarningCallback](./iwarningcallback/) | The value to set. |
+| value | [IWarningCallback](/nodejs-cpp/iwarningcallback/) | The value to set. |
 
 ### getWarningCallback() {#getWarningCallback--}
 
@@ -724,7 +724,7 @@ getWarningCallback() : IWarningCallback;
 
 **Returns**
 
-[IWarningCallback](./iwarningcallback/)
+[IWarningCallback](/nodejs-cpp/iwarningcallback/)
 
 ### getUpdateSmartArt() {#getUpdateSmartArt--}
 

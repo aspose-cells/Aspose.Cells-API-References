@@ -24,7 +24,7 @@ class PivotField;
 | [isCalculatedField()](#isCalculatedField--)| Indicates whether the specified PivotTable field is calculated field. |
 | [getBaseIndex()](#getBaseIndex--)| Represents the PivotField index in the base PivotFields. |
 | [setBaseIndex(number)](#setBaseIndex-number-)| Represents the PivotField index in the base PivotFields. |
-| [getPosition()](#getPosition--)| Represents the index of [PivotField](./pivotfield/) in the region. |
+| [getPosition()](#getPosition--)| Represents the index of [PivotField](/nodejs-cpp/pivotfield/) in the region. |
 | [getName()](#getName--)| Represents the name of PivotField. |
 | [setName(string)](#setName-string-)| Represents the name of PivotField. |
 | [getDisplayName()](#getDisplayName--)| Represents the PivotField display name. |
@@ -99,9 +99,9 @@ class PivotField;
 | [getFilters()](#getFilters--)| Gets all pivot filters of this pivot field. |
 | [initPivotItems()](#initPivotItems--)| Init the pivot items of the pivot field |
 | [groupBy(number, boolean)](#groupBy-number-boolean-)| Automatically group the field with internal |
-| [groupBy(Date, Date, PivotGroupByType[], number, boolean)](#groupBy-date-date-pivotgroupbytype[]-number-boolean-)| Group the file by the date group types. |
+| [groupBy(Date, Date, PivotGroupByType[], number, boolean)](#groupBy-date-date-pivotgroupbytypearray-number-boolean-)| Group the file by the date group types. |
 | [groupBy(number, number, number, boolean)](#groupBy-number-number-number-boolean-)| Group the file by number. |
-| [groupBy(CustomPiovtFieldGroupItem[], boolean)](#groupBy-custompiovtfieldgroupitem[]-boolean-)| Custom group the field. |
+| [groupBy(CustomPiovtFieldGroupItem[], boolean)](#groupBy-custompiovtfieldgroupitemarray-boolean-)| Custom group the field. |
 | [ungroup()](#ungroup--)| Ungroup the pivot field. |
 | [getCalculatedFieldFormula()](#getCalculatedFieldFormula--)| Get the formula string of the specified calculated field . |
 | [setSubtotals(PivotFieldSubtotalType, boolean)](#setSubtotals-pivotfieldsubtotaltype-boolean-)| Sets whether the specified field shows that subtotals. |
@@ -127,7 +127,7 @@ getPivotItems() : PivotItemCollection;
 
 **Returns**
 
-[PivotItemCollection](./pivotitemcollection/)
+[PivotItemCollection](/nodejs-cpp/pivotitemcollection/)
 
 ### getGroupSettings() {#getGroupSettings--}
 
@@ -140,7 +140,7 @@ getGroupSettings() : PivotFieldGroupSettings;
 
 **Returns**
 
-[PivotFieldGroupSettings](./pivotfieldgroupsettings/)
+[PivotFieldGroupSettings](/nodejs-cpp/pivotfieldgroupsettings/)
 
 **Remarks**
 
@@ -179,7 +179,7 @@ setBaseIndex(value: number) : void;
 
 ### getPosition() {#getPosition--}
 
-Represents the index of [PivotField](./pivotfield/) in the region.
+Represents the index of [PivotField](/nodejs-cpp/pivotfield/) in the region.
 
 ```javascript
 getPosition() : number;
@@ -659,7 +659,7 @@ getFunction() : ConsolidationFunction;
 
 **Returns**
 
-[ConsolidationFunction](./consolidationfunction/)
+[ConsolidationFunction](/nodejs-cpp/consolidationfunction/)
 
 ### setFunction(ConsolidationFunction) {#setFunction-consolidationfunction-}
 
@@ -672,7 +672,7 @@ setFunction(value: ConsolidationFunction) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ConsolidationFunction](./consolidationfunction/) | The value to set. |
+| value | [ConsolidationFunction](/nodejs-cpp/consolidationfunction/) | The value to set. |
 
 ### getShowValuesSetting() {#getShowValuesSetting--}
 
@@ -685,7 +685,7 @@ getShowValuesSetting() : PivotShowValuesSetting;
 
 **Returns**
 
-[PivotShowValuesSetting](./pivotshowvaluessetting/)
+[PivotShowValuesSetting](/nodejs-cpp/pivotshowvaluessetting/)
 
 ### getDataDisplayFormat() {#getDataDisplayFormat--}
 
@@ -698,7 +698,7 @@ getDataDisplayFormat() : PivotFieldDataDisplayFormat;
 
 **Returns**
 
-[PivotFieldDataDisplayFormat](./pivotfielddatadisplayformat/)
+[PivotFieldDataDisplayFormat](/nodejs-cpp/pivotfielddatadisplayformat/)
 
 **Remarks**
 
@@ -715,7 +715,7 @@ setDataDisplayFormat(value: PivotFieldDataDisplayFormat) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [PivotFieldDataDisplayFormat](./pivotfielddatadisplayformat/) | The value to set. |
+| value | [PivotFieldDataDisplayFormat](/nodejs-cpp/pivotfielddatadisplayformat/) | The value to set. |
 
 **Remarks**
 
@@ -762,7 +762,7 @@ getBaseItemPosition() : PivotItemPosition;
 
 **Returns**
 
-[PivotItemPosition](./pivotitemposition/)
+[PivotItemPosition](/nodejs-cpp/pivotitemposition/)
 
 **Remarks**
 
@@ -779,7 +779,7 @@ setBaseItemPosition(value: PivotItemPosition) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [PivotItemPosition](./pivotitemposition/) | The value to set. |
+| value | [PivotItemPosition](/nodejs-cpp/pivotitemposition/) | The value to set. |
 
 **Remarks**
 
@@ -1023,11 +1023,11 @@ getPivotFilterByType(type: PivotFilterType) : PivotFilter;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | [PivotFilterType](./pivotfiltertype/) |  |
+| type | [PivotFilterType](/nodejs-cpp/pivotfiltertype/) |  |
 
 **Returns**
 
-[PivotFilter](./pivotfilter/)
+[PivotFilter](/nodejs-cpp/pivotfilter/)
 
 ### getFilters() {#getFilters--}
 
@@ -1040,7 +1040,7 @@ getFilters() : PivotFilter[];
 
 **Returns**
 
-[PivotFilter](./pivotfilter/)[]
+[PivotFilter](/nodejs-cpp/pivotfilter/)[]
 
 ### initPivotItems() {#initPivotItems--}
 
@@ -1065,7 +1065,7 @@ groupBy(interval: number, newField: boolean) : void;
 | interval | number | The internal of group.         /// Automatic value will be assigned if it's zero, |
 | newField | boolean | Indicates whether adding a new field to the pivottable. |
 
-### groupBy(Date, Date, PivotGroupByType[], number, boolean) {#groupBy-date-date-pivotgroupbytype[]-number-boolean-}
+### groupBy(Date, Date, PivotGroupByType[], number, boolean) {#groupBy-date-date-pivotgroupbytypearray-number-boolean-}
 
 Group the file by the date group types.
 
@@ -1078,7 +1078,7 @@ groupBy(start: Date, end: Date, groups: PivotGroupByType[], interval: number, fi
 | --- | --- | --- |
 | start | Date | The start datetime |
 | end | Date | The end of datetime |
-| groups | [PivotGroupByType](./pivotgroupbytype/)[] | Group types |
+| groups | [PivotGroupByType](/nodejs-cpp/pivotgroupbytype/)[] | Group types |
 | interval | number | The interval |
 | firstAsNewField | boolean | Indicates whether adding a new field to the pivottable.         /// Only for the first group item. |
 
@@ -1098,7 +1098,7 @@ groupBy(start: number, end: number, interval: number, newField: boolean) : void;
 | interval | number | The interval |
 | newField | boolean | Indicates whether adding a new field to the pivottable |
 
-### groupBy(CustomPiovtFieldGroupItem[], boolean) {#groupBy-custompiovtfieldgroupitem[]-boolean-}
+### groupBy(CustomPiovtFieldGroupItem[], boolean) {#groupBy-custompiovtfieldgroupitemarray-boolean-}
 
 Custom group the field.
 
@@ -1109,7 +1109,7 @@ groupBy(customGroupItems: CustomPiovtFieldGroupItem[], newField: boolean) : void
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| customGroupItems | [CustomPiovtFieldGroupItem](./custompiovtfieldgroupitem/)[] | The custom group items. |
+| customGroupItems | [CustomPiovtFieldGroupItem](/nodejs-cpp/custompiovtfieldgroupitem/)[] | The custom group items. |
 | newField | boolean | Indicates whether adding a new field to the pivottable |
 
 ### ungroup() {#ungroup--}
@@ -1141,7 +1141,7 @@ setSubtotals(subtotalType: PivotFieldSubtotalType, shown: boolean) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| subtotalType | [PivotFieldSubtotalType](./pivotfieldsubtotaltype/) | subtotals type. |
+| subtotalType | [PivotFieldSubtotalType](/nodejs-cpp/pivotfieldsubtotaltype/) | subtotals type. |
 | shown | boolean | whether the specified field shows that subtotals. |
 
 ### getSubtotals(PivotFieldSubtotalType) {#getSubtotals-pivotfieldsubtotaltype-}
@@ -1155,7 +1155,7 @@ getSubtotals(subtotalType: PivotFieldSubtotalType) : boolean;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| subtotalType | [PivotFieldSubtotalType](./pivotfieldsubtotaltype/) | subtotal type. |
+| subtotalType | [PivotFieldSubtotalType](/nodejs-cpp/pivotfieldsubtotaltype/) | subtotal type. |
 
 **Returns**
 
@@ -1172,9 +1172,9 @@ showValuesAs(displayFormat: PivotFieldDataDisplayFormat, baseField: number, base
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| displayFormat | [PivotFieldDataDisplayFormat](./pivotfielddatadisplayformat/) | The data display format type. |
+| displayFormat | [PivotFieldDataDisplayFormat](/nodejs-cpp/pivotfielddatadisplayformat/) | The data display format type. |
 | baseField | number | The index to the field which ShowDataAs calculation bases on. |
-| baseItemPositionType | [PivotItemPositionType](./pivotitempositiontype/) | The position type of base iteam. |
+| baseItemPositionType | [PivotItemPositionType](/nodejs-cpp/pivotitempositiontype/) | The position type of base iteam. |
 | baseItem | number | The index to the base item which ShowDataAs calculation bases on.         /// Only works when baseItemPositionType is custom. |
 
 **Remarks**

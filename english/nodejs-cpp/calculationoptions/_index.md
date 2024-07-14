@@ -36,7 +36,7 @@ class CalculationOptions;
 | [getPrecisionStrategy()](#getPrecisionStrategy--)| Specifies the strategy for processing precision of calculation. |
 | [setPrecisionStrategy(CalculationPrecisionStrategy)](#setPrecisionStrategy-calculationprecisionstrategy-)| Specifies the strategy for processing precision of calculation. |
 | [getLinkedDataSources()](#getLinkedDataSources--)| Specifies the data sources for external links used in formulas. |
-| [setLinkedDataSources(Workbook[])](#setLinkedDataSources-workbook[]-)| Specifies the data sources for external links used in formulas. |
+| [setLinkedDataSources(Workbook[])](#setLinkedDataSources-workbookarray-)| Specifies the data sources for external links used in formulas. |
 | [getCharacterEncoding()](#getCharacterEncoding--)| Specifies the encoding used for encoding/decoding characters when calculating formulas. For functions such as CHAR, CODE, the calculated result depends on the region settings and default charset of the environment. With this property user can specify the proper encoding used for those function to get the expected result. |
 | [setCharacterEncoding(EncodingType)](#setCharacterEncoding-encodingtype-)| Specifies the encoding used for encoding/decoding characters when calculating formulas. For functions such as CHAR, CODE, the calculated result depends on the region settings and default charset of the environment. With this property user can specify the proper encoding used for those function to get the expected result. |
 
@@ -105,7 +105,7 @@ getCustomEngine() : AbstractCalculationEngine;
 
 **Returns**
 
-[AbstractCalculationEngine](./abstractcalculationengine/)
+[AbstractCalculationEngine](/nodejs-cpp/abstractcalculationengine/)
 
 ### setCustomEngine(AbstractCalculationEngine) {#setCustomEngine-abstractcalculationengine-}
 
@@ -118,7 +118,7 @@ setCustomEngine(value: AbstractCalculationEngine) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [AbstractCalculationEngine](./abstractcalculationengine/) | The value to set. |
+| value | [AbstractCalculationEngine](/nodejs-cpp/abstractcalculationengine/) | The value to set. |
 
 ### getCalcStackSize() {#getCalcStackSize--}
 
@@ -161,7 +161,7 @@ getPrecisionStrategy() : CalculationPrecisionStrategy;
 
 **Returns**
 
-[CalculationPrecisionStrategy](./calculationprecisionstrategy/)
+[CalculationPrecisionStrategy](/nodejs-cpp/calculationprecisionstrategy/)
 
 ### setPrecisionStrategy(CalculationPrecisionStrategy) {#setPrecisionStrategy-calculationprecisionstrategy-}
 
@@ -174,7 +174,7 @@ setPrecisionStrategy(value: CalculationPrecisionStrategy) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [CalculationPrecisionStrategy](./calculationprecisionstrategy/) | The value to set. |
+| value | [CalculationPrecisionStrategy](/nodejs-cpp/calculationprecisionstrategy/) | The value to set. |
 
 ### getLinkedDataSources() {#getLinkedDataSources--}
 
@@ -187,13 +187,13 @@ getLinkedDataSources() : Workbook[];
 
 **Returns**
 
-[Workbook](./workbook/)[]
+[Workbook](/nodejs-cpp/workbook/)[]
 
 **Remarks**
 
-Like [Workbook.UpdateLinkedDataSource(Workbook[])](./workbook.updatelinkeddatasource(workbook[])/), here you may specify data sources for external links used in formulas to be calculated, especially those used in INDIRECT function. For those external links used in INDIRECT function, they are not taken as part of the external links of the workbook and cannot be updated by [Workbook.UpdateLinkedDataSource(Workbook[])](./workbook.updatelinkeddatasource(workbook[])/).
+Like [Workbook.UpdateLinkedDataSource(Workbook[])](/nodejs-cpp/workbook.updatelinkeddatasource(workbook[])/), here you may specify data sources for external links used in formulas to be calculated, especially those used in INDIRECT function. For those external links used in INDIRECT function, they are not taken as part of the external links of the workbook and cannot be updated by [Workbook.UpdateLinkedDataSource(Workbook[])](/nodejs-cpp/workbook.updatelinkeddatasource(workbook[])/).
 
-### setLinkedDataSources(Workbook[]) {#setLinkedDataSources-workbook[]-}
+### setLinkedDataSources(Workbook[]) {#setLinkedDataSources-workbookarray-}
 
 Specifies the data sources for external links used in formulas.
 
@@ -204,11 +204,11 @@ setLinkedDataSources(value: Workbook[]) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [Workbook](./workbook/)[] | The value to set. |
+| value | [Workbook](/nodejs-cpp/workbook/)[] | The value to set. |
 
 **Remarks**
 
-Like [Workbook.UpdateLinkedDataSource(Workbook[])](./workbook.updatelinkeddatasource(workbook[])/), here you may specify data sources for external links used in formulas to be calculated, especially those used in INDIRECT function. For those external links used in INDIRECT function, they are not taken as part of the external links of the workbook and cannot be updated by [Workbook.UpdateLinkedDataSource(Workbook[])](./workbook.updatelinkeddatasource(workbook[])/).
+Like [Workbook.UpdateLinkedDataSource(Workbook[])](/nodejs-cpp/workbook.updatelinkeddatasource(workbook[])/), here you may specify data sources for external links used in formulas to be calculated, especially those used in INDIRECT function. For those external links used in INDIRECT function, they are not taken as part of the external links of the workbook and cannot be updated by [Workbook.UpdateLinkedDataSource(Workbook[])](/nodejs-cpp/workbook.updatelinkeddatasource(workbook[])/).
 
 ### getCharacterEncoding() {#getCharacterEncoding--}
 
@@ -221,7 +221,7 @@ getCharacterEncoding() : EncodingType;
 
 **Returns**
 
-[EncodingType](./encodingtype/)
+[EncodingType](/nodejs-cpp/encodingtype/)
 
 ### setCharacterEncoding(EncodingType) {#setCharacterEncoding-encodingtype-}
 
@@ -234,6 +234,6 @@ setCharacterEncoding(value: EncodingType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [EncodingType](./encodingtype/) | The value to set. |
+| value | [EncodingType](/nodejs-cpp/encodingtype/) | The value to set. |
 
 

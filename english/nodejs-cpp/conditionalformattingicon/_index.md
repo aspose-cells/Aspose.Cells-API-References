@@ -38,7 +38,7 @@ getType() : IconSetType;
 
 **Returns**
 
-[IconSetType](./iconsettype/)
+[IconSetType](/nodejs-cpp/iconsettype/)
 
 ### setType(IconSetType) {#setType-iconsettype-}
 
@@ -51,7 +51,7 @@ setType(value: IconSetType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IconSetType](./iconsettype/) | The value to set. |
+| value | [IconSetType](/nodejs-cpp/iconsettype/) | The value to set. |
 
 ### getIndex() {#getIndex--}
 
@@ -86,7 +86,7 @@ getImageData(cell: Cell) : number[];
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| cell | [Cell](./cell/) | The setting of cell. |
+| cell | [Cell](/nodejs-cpp/cell/) | The setting of cell. |
 
 **Returns**
 
@@ -103,7 +103,7 @@ static getIconImageData(type: IconSetType, index: number) : number[];
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | [IconSetType](./iconsettype/) | icon's type |
+| type | [IconSetType](/nodejs-cpp/iconsettype/) | icon's type |
 | index | number | icon's index |
 
 **Returns**

@@ -34,7 +34,7 @@ class Slicer;
 | [getLockedPosition()](#getLockedPosition--)| Indicates whether the specified slicer can be moved or resized by using the user interface. |
 | [setLockedPosition(boolean)](#setLockedPosition-boolean-)| Indicates whether the specified slicer can be moved or resized by using the user interface. |
 | [getSlicerCache()](#getSlicerCache--)| Returns the SlicerCache object associated with the slicer. Read-only. |
-| [getParent()](#getParent--)| Returns the [Worksheet](./worksheet/) object which contains this slicer. Read-only. |
+| [getParent()](#getParent--)| Returns the [Worksheet](/nodejs-cpp/worksheet/) object which contains this slicer. Read-only. |
 | [getStyleType()](#getStyleType--)| Specify the type of Built-in slicer style the default type is SlicerStyleLight1 |
 | [setStyleType(SlicerStyleType)](#setStyleType-slicerstyletype-)| Specify the type of Built-in slicer style the default type is SlicerStyleLight1 |
 | [getName()](#getName--)| Returns or sets the name of the specified slicer |
@@ -169,7 +169,7 @@ getPlacement() : PlacementType;
 
 **Returns**
 
-[PlacementType](./placementtype/)
+[PlacementType](/nodejs-cpp/placementtype/)
 
 ### setPlacement(PlacementType) {#setPlacement-placementtype-}
 
@@ -182,7 +182,7 @@ setPlacement(value: PlacementType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [PlacementType](./placementtype/) | The value to set. |
+| value | [PlacementType](/nodejs-cpp/placementtype/) | The value to set. |
 
 ### getLockedAspectRatio() {#getLockedAspectRatio--}
 
@@ -239,11 +239,11 @@ getSlicerCache() : SlicerCache;
 
 **Returns**
 
-[SlicerCache](./slicercache/)
+[SlicerCache](/nodejs-cpp/slicercache/)
 
 ### getParent() {#getParent--}
 
-Returns the [Worksheet](./worksheet/) object which contains this slicer. Read-only.
+Returns the [Worksheet](/nodejs-cpp/worksheet/) object which contains this slicer. Read-only.
 
 ```javascript
 getParent() : Worksheet;
@@ -252,7 +252,7 @@ getParent() : Worksheet;
 
 **Returns**
 
-[Worksheet](./worksheet/)
+[Worksheet](/nodejs-cpp/worksheet/)
 
 ### getStyleType() {#getStyleType--}
 
@@ -265,7 +265,7 @@ getStyleType() : SlicerStyleType;
 
 **Returns**
 
-[SlicerStyleType](./slicerstyletype/)
+[SlicerStyleType](/nodejs-cpp/slicerstyletype/)
 
 ### setStyleType(SlicerStyleType) {#setStyleType-slicerstyletype-}
 
@@ -278,7 +278,7 @@ setStyleType(value: SlicerStyleType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [SlicerStyleType](./slicerstyletype/) | The value to set. |
+| value | [SlicerStyleType](/nodejs-cpp/slicerstyletype/) | The value to set. |
 
 ### getName() {#getName--}
 
@@ -599,7 +599,7 @@ addPivotConnection(pivot: PivotTable) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pivot | [PivotTable](./pivottable/) | The PivotTable object |
+| pivot | [PivotTable](/nodejs-cpp/pivottable/) | The PivotTable object |
 
 ### removePivotConnection(PivotTable) {#removePivotConnection-pivottable-}
 
@@ -612,7 +612,7 @@ removePivotConnection(pivot: PivotTable) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pivot | [PivotTable](./pivottable/) | The PivotTable object |
+| pivot | [PivotTable](/nodejs-cpp/pivottable/) | The PivotTable object |
 
 ### refresh() {#refresh--}
 

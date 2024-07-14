@@ -110,6 +110,6 @@ getPowerQueryFormulaItems() : PowerQueryFormulaItemCollection;
 
 **Returns**
 
-[PowerQueryFormulaItemCollection](./powerqueryformulaitemcollection/)
+[PowerQueryFormulaItemCollection](/nodejs-cpp/powerqueryformulaitemcollection/)
 
 

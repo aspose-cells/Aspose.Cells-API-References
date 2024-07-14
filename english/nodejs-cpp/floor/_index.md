@@ -25,17 +25,17 @@ class Floor extends Area;
 
 | Method | Description |
 | --- | --- |
-| [getBorder()](#getBorder--)| Gets or sets the border [Line](./line/). |
-| [setBorder(Line)](#setBorder-line-)| Gets or sets the border [Line](./line/). |
-| [getBackgroundColor()](#getBackgroundColor--)| Gets or sets the background [System.Drawing.Color](./system.drawing.color/) of the [System.Drawing.Color](./system.drawing.color/). |
-| [setBackgroundColor(Color)](#setBackgroundColor-color-)| Gets or sets the background [System.Drawing.Color](./system.drawing.color/) of the [System.Drawing.Color](./system.drawing.color/). |
-| [getForegroundColor()](#getForegroundColor--)| Gets or sets the foreground [System.Drawing.Color](./system.drawing.color/). |
-| [setForegroundColor(Color)](#setForegroundColor-color-)| Gets or sets the foreground [System.Drawing.Color](./system.drawing.color/). |
+| [getBorder()](#getBorder--)| Gets or sets the border [Line](/nodejs-cpp/line/). |
+| [setBorder(Line)](#setBorder-line-)| Gets or sets the border [Line](/nodejs-cpp/line/). |
+| [getBackgroundColor()](#getBackgroundColor--)| Gets or sets the background [System.Drawing.Color](/nodejs-cpp/system.drawing.color/) of the [System.Drawing.Color](/nodejs-cpp/system.drawing.color/). |
+| [setBackgroundColor(Color)](#setBackgroundColor-color-)| Gets or sets the background [System.Drawing.Color](/nodejs-cpp/system.drawing.color/) of the [System.Drawing.Color](/nodejs-cpp/system.drawing.color/). |
+| [getForegroundColor()](#getForegroundColor--)| Gets or sets the foreground [System.Drawing.Color](/nodejs-cpp/system.drawing.color/). |
+| [setForegroundColor(Color)](#setForegroundColor-color-)| Gets or sets the foreground [System.Drawing.Color](/nodejs-cpp/system.drawing.color/). |
 | [getFormatting()](#getFormatting--)| Represents the formatting of the area. |
 | [setFormatting(FormattingType)](#setFormatting-formattingtype-)| Represents the formatting of the area. |
 | [getInvertIfNegative()](#getInvertIfNegative--)| If the property is true and the value of chart point is a negative number, the foreground color and background color will be exchanged. |
 | [setInvertIfNegative(boolean)](#setInvertIfNegative-boolean-)| If the property is true and the value of chart point is a negative number, the foreground color and background color will be exchanged. |
-| [getFillFormat()](#getFillFormat--)| Represents a [FillFormat](./fillformat/) object that contains fill formatting properties for the specified chart or shape. |
+| [getFillFormat()](#getFillFormat--)| Represents a [FillFormat](/nodejs-cpp/fillformat/) object that contains fill formatting properties for the specified chart or shape. |
 | [getTransparency()](#getTransparency--)| Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear). |
 | [setTransparency(number)](#setTransparency-number-)| Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear). |
 
@@ -55,7 +55,7 @@ constructor(obj: Area);
 
 ### getBorder() {#getBorder--}
 
-Gets or sets the border [Line](./line/).
+Gets or sets the border [Line](/nodejs-cpp/line/).
 
 ```javascript
 getBorder() : Line;
@@ -64,11 +64,11 @@ getBorder() : Line;
 
 **Returns**
 
-[Line](./line/)
+[Line](/nodejs-cpp/line/)
 
 ### setBorder(Line) {#setBorder-line-}
 
-Gets or sets the border [Line](./line/).
+Gets or sets the border [Line](/nodejs-cpp/line/).
 
 ```javascript
 setBorder(value: Line) : void;
@@ -77,11 +77,11 @@ setBorder(value: Line) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [Line](./line/) | The value to set. |
+| value | [Line](/nodejs-cpp/line/) | The value to set. |
 
 ### getBackgroundColor() {#getBackgroundColor--}
 
-Gets or sets the background [System.Drawing.Color](./system.drawing.color/) of the [System.Drawing.Color](./system.drawing.color/).
+Gets or sets the background [System.Drawing.Color](/nodejs-cpp/system.drawing.color/) of the [System.Drawing.Color](/nodejs-cpp/system.drawing.color/).
 
 ```javascript
 getBackgroundColor() : Color;
@@ -90,11 +90,11 @@ getBackgroundColor() : Color;
 
 **Returns**
 
-[Color](./color/)
+[Color](/nodejs-cpp/color/)
 
 ### setBackgroundColor(Color) {#setBackgroundColor-color-}
 
-Gets or sets the background [System.Drawing.Color](./system.drawing.color/) of the [System.Drawing.Color](./system.drawing.color/).
+Gets or sets the background [System.Drawing.Color](/nodejs-cpp/system.drawing.color/) of the [System.Drawing.Color](/nodejs-cpp/system.drawing.color/).
 
 ```javascript
 setBackgroundColor(value: Color) : void;
@@ -103,11 +103,11 @@ setBackgroundColor(value: Color) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [Color](./color/) | The value to set. |
+| value | [Color](/nodejs-cpp/color/) | The value to set. |
 
 ### getForegroundColor() {#getForegroundColor--}
 
-Gets or sets the foreground [System.Drawing.Color](./system.drawing.color/).
+Gets or sets the foreground [System.Drawing.Color](/nodejs-cpp/system.drawing.color/).
 
 ```javascript
 getForegroundColor() : Color;
@@ -116,11 +116,11 @@ getForegroundColor() : Color;
 
 **Returns**
 
-[Color](./color/)
+[Color](/nodejs-cpp/color/)
 
 ### setForegroundColor(Color) {#setForegroundColor-color-}
 
-Gets or sets the foreground [System.Drawing.Color](./system.drawing.color/).
+Gets or sets the foreground [System.Drawing.Color](/nodejs-cpp/system.drawing.color/).
 
 ```javascript
 setForegroundColor(value: Color) : void;
@@ -129,7 +129,7 @@ setForegroundColor(value: Color) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [Color](./color/) | The value to set. |
+| value | [Color](/nodejs-cpp/color/) | The value to set. |
 
 ### getFormatting() {#getFormatting--}
 
@@ -142,7 +142,7 @@ getFormatting() : FormattingType;
 
 **Returns**
 
-[FormattingType](./formattingtype/)
+[FormattingType](/nodejs-cpp/formattingtype/)
 
 ### setFormatting(FormattingType) {#setFormatting-formattingtype-}
 
@@ -155,7 +155,7 @@ setFormatting(value: FormattingType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [FormattingType](./formattingtype/) | The value to set. |
+| value | [FormattingType](/nodejs-cpp/formattingtype/) | The value to set. |
 
 ### getInvertIfNegative() {#getInvertIfNegative--}
 
@@ -181,7 +181,7 @@ setInvertIfNegative(value: boolean) : void;
 
 ### getFillFormat() {#getFillFormat--}
 
-Represents a [FillFormat](./fillformat/) object that contains fill formatting properties for the specified chart or shape.
+Represents a [FillFormat](/nodejs-cpp/fillformat/) object that contains fill formatting properties for the specified chart or shape.
 
 ```javascript
 getFillFormat() : FillFormat;
@@ -190,7 +190,7 @@ getFillFormat() : FillFormat;
 
 **Returns**
 
-[FillFormat](./fillformat/)
+[FillFormat](/nodejs-cpp/fillformat/)
 
 ### getTransparency() {#getTransparency--}
 

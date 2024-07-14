@@ -39,8 +39,8 @@ constructor(sheet: Worksheet, options: ImageOrPrintOptions);
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sheet | [Worksheet](./worksheet/) | Indicate which spreadsheet to be printed. |
-| options | [ImageOrPrintOptions](./imageorprintoptions/) | ImageOrPrintOptions contains some property of output |
+| sheet | [Worksheet](/nodejs-cpp/worksheet/) | Indicate which spreadsheet to be printed. |
+| options | [ImageOrPrintOptions](/nodejs-cpp/imageorprintoptions/) | ImageOrPrintOptions contains some property of output |
 
 ### getEvaluatedPageCount() {#getEvaluatedPageCount--}
 

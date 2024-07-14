@@ -20,7 +20,7 @@ class CustomXmlPartCollection;
 | Method | Description |
 | --- | --- |
 | [get(number)](#get-number-)| Gets an item at the specified index. |
-| [add(number[], number[])](#add-number[]-number[]-)| Adds an item to the collection. |
+| [add(number[], number[])](#add-numberarray-numberarray-)| Adds an item to the collection. |
 | [selectByID(string)](#selectByID-string-)| Gets an item by id. |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
 
@@ -40,9 +40,9 @@ get(index: number) : CustomXmlPart;
 
 **Returns**
 
-[CustomXmlPart](./customxmlpart/)
+[CustomXmlPart](/nodejs-cpp/customxmlpart/)
 
-### add(number[], number[]) {#add-number[]-number[]-}
+### add(number[], number[]) {#add-numberarray-numberarray-}
 
 Adds an item to the collection.
 
@@ -71,7 +71,7 @@ selectByID(id: string) : CustomXmlPart;
 
 **Returns**
 
-[CustomXmlPart](./customxmlpart/)
+[CustomXmlPart](/nodejs-cpp/customxmlpart/)
 
 ### getCount() {#getCount--}
 

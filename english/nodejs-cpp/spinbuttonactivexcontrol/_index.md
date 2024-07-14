@@ -36,9 +36,9 @@ class SpinButtonActiveXControl extends ActiveXControl;
 | [setSmallChange(number)](#setSmallChange-number-)| Gets and sets the amount by which the Position property changes |
 | [getOrientation()](#getOrientation--)| Gets and sets whether the SpinButton or ScrollBar is oriented vertically or horizontally. |
 | [setOrientation(ControlScrollOrientation)](#setOrientation-controlscrollorientation-)| Gets and sets whether the SpinButton or ScrollBar is oriented vertically or horizontally. |
-| [getWorkbook()](#getWorkbook--)| Gets the [Workbook](./workbook/) object. |
+| [getWorkbook()](#getWorkbook--)| Gets the [Workbook](/nodejs-cpp/workbook/) object. |
 | [getMouseIcon()](#getMouseIcon--)| Gets and sets a custom icon to display as the mouse pointer for the control. |
-| [setMouseIcon(number[])](#setMouseIcon-number[]-)| Gets and sets a custom icon to display as the mouse pointer for the control. |
+| [setMouseIcon(number[])](#setMouseIcon-numberarray-)| Gets and sets a custom icon to display as the mouse pointer for the control. |
 | [getMousePointer()](#getMousePointer--)| Gets and sets the type of icon displayed as the mouse pointer for the control. |
 | [setMousePointer(ControlMousePointerType)](#setMousePointer-controlmousepointertype-)| Gets and sets the type of icon displayed as the mouse pointer for the control. |
 | [getLinkedCell()](#getLinkedCell--)| Gets and sets the linked cell. |
@@ -97,7 +97,7 @@ getType() : ControlType;
 
 **Returns**
 
-[ControlType](./controltype/)
+[ControlType](/nodejs-cpp/controltype/)
 
 ### getMin() {#getMin--}
 
@@ -198,7 +198,7 @@ getOrientation() : ControlScrollOrientation;
 
 **Returns**
 
-[ControlScrollOrientation](./controlscrollorientation/)
+[ControlScrollOrientation](/nodejs-cpp/controlscrollorientation/)
 
 ### setOrientation(ControlScrollOrientation) {#setOrientation-controlscrollorientation-}
 
@@ -211,11 +211,11 @@ setOrientation(value: ControlScrollOrientation) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ControlScrollOrientation](./controlscrollorientation/) | The value to set. |
+| value | [ControlScrollOrientation](/nodejs-cpp/controlscrollorientation/) | The value to set. |
 
 ### getWorkbook() {#getWorkbook--}
 
-Gets the [Workbook](./workbook/) object.
+Gets the [Workbook](/nodejs-cpp/workbook/) object.
 
 ```javascript
 getWorkbook() : Workbook;
@@ -224,7 +224,7 @@ getWorkbook() : Workbook;
 
 **Returns**
 
-[Workbook](./workbook/)
+[Workbook](/nodejs-cpp/workbook/)
 
 ### getMouseIcon() {#getMouseIcon--}
 
@@ -239,7 +239,7 @@ getMouseIcon() : number[];
 
 number[]
 
-### setMouseIcon(number[]) {#setMouseIcon-number[]-}
+### setMouseIcon(number[]) {#setMouseIcon-numberarray-}
 
 Gets and sets a custom icon to display as the mouse pointer for the control.
 
@@ -263,7 +263,7 @@ getMousePointer() : ControlMousePointerType;
 
 **Returns**
 
-[ControlMousePointerType](./controlmousepointertype/)
+[ControlMousePointerType](/nodejs-cpp/controlmousepointertype/)
 
 ### setMousePointer(ControlMousePointerType) {#setMousePointer-controlmousepointertype-}
 
@@ -276,7 +276,7 @@ setMousePointer(value: ControlMousePointerType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ControlMousePointerType](./controlmousepointertype/) | The value to set. |
+| value | [ControlMousePointerType](/nodejs-cpp/controlmousepointertype/) | The value to set. |
 
 ### getLinkedCell() {#getLinkedCell--}
 
@@ -399,7 +399,7 @@ getIMEMode() : InputMethodEditorMode;
 
 **Returns**
 
-[InputMethodEditorMode](./inputmethodeditormode/)
+[InputMethodEditorMode](/nodejs-cpp/inputmethodeditormode/)
 
 ### setIMEMode(InputMethodEditorMode) {#setIMEMode-inputmethodeditormode-}
 
@@ -412,7 +412,7 @@ setIMEMode(value: InputMethodEditorMode) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [InputMethodEditorMode](./inputmethodeditormode/) | The value to set. |
+| value | [InputMethodEditorMode](/nodejs-cpp/inputmethodeditormode/) | The value to set. |
 
 ### getFont() {#getFont--}
 
@@ -425,7 +425,7 @@ getFont() : Font;
 
 **Returns**
 
-[Font](./font/)
+[Font](/nodejs-cpp/font/)
 
 ### getTextAlign() {#getTextAlign--}
 
@@ -438,7 +438,7 @@ getTextAlign() : TextAlignmentType;
 
 **Returns**
 
-[TextAlignmentType](./textalignmenttype/)
+[TextAlignmentType](/nodejs-cpp/textalignmenttype/)
 
 ### setTextAlign(TextAlignmentType) {#setTextAlign-textalignmenttype-}
 
@@ -451,7 +451,7 @@ setTextAlign(value: TextAlignmentType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [TextAlignmentType](./textalignmenttype/) | The value to set. |
+| value | [TextAlignmentType](/nodejs-cpp/textalignmenttype/) | The value to set. |
 
 ### getData() {#getData--}
 

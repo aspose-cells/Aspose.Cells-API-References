@@ -20,9 +20,9 @@ class CustomXmlPart;
 | Method | Description |
 | --- | --- |
 | [getData()](#getData--)| Gets or sets the XML content of this Custom XML Data Storage Part. |
-| [setData(number[])](#setData-number[]-)| Gets or sets the XML content of this Custom XML Data Storage Part. |
+| [setData(number[])](#setData-numberarray-)| Gets or sets the XML content of this Custom XML Data Storage Part. |
 | [getSchemaData()](#getSchemaData--)| Gets or sets the XML content of this Custom XML Schema Data Storage Part. |
-| [setSchemaData(number[])](#setSchemaData-number[]-)| Gets or sets the XML content of this Custom XML Schema Data Storage Part. |
+| [setSchemaData(number[])](#setSchemaData-numberarray-)| Gets or sets the XML content of this Custom XML Schema Data Storage Part. |
 | [getID()](#getID--)| Gets and sets the id of the custom xml part. |
 | [setID(string)](#setID-string-)| Gets and sets the id of the custom xml part. |
 
@@ -40,7 +40,7 @@ getData() : number[];
 
 number[]
 
-### setData(number[]) {#setData-number[]-}
+### setData(number[]) {#setData-numberarray-}
 
 Gets or sets the XML content of this Custom XML Data Storage Part.
 
@@ -66,7 +66,7 @@ getSchemaData() : number[];
 
 number[]
 
-### setSchemaData(number[]) {#setSchemaData-number[]-}
+### setSchemaData(number[]) {#setSchemaData-numberarray-}
 
 Gets or sets the XML content of this Custom XML Schema Data Storage Part.
 

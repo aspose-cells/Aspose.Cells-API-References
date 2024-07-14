@@ -1,14 +1,14 @@
 ﻿---
 title: ConnectionParameterCollection
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Specifies the ConnectionParameter.connectionparameter collection
+description: Specifies the ConnectionParameternodejscppconnectionparameter collection
 type: docs
 url: /nodejs-cpp/connectionparametercollection/
 ---
 
 ## ConnectionParameterCollection class
 
-Specifies the [ConnectionParameter](./connectionparameter/) collection
+Specifies the [ConnectionParameter](/nodejs-cpp/connectionparameter/) collection
 
 ```javascript
 class ConnectionParameterCollection;
@@ -19,14 +19,14 @@ class ConnectionParameterCollection;
 
 | Method | Description |
 | --- | --- |
-| [get(number)](#get-number-)| Gets the [ConnectionParameter](./connectionparameter/) element at the specified index. |
-| [set(ConnectionParameter, number)](#set-connectionparameter-number-)| Gets the [ConnectionParameter](./connectionparameter/) element at the specified index. |
+| [get(number)](#get-number-)| Gets the [ConnectionParameter](/nodejs-cpp/connectionparameter/) element at the specified index. |
+| [set(ConnectionParameter, number)](#set-connectionparameter-number-)| Gets the [ConnectionParameter](/nodejs-cpp/connectionparameter/) element at the specified index. |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
 
 
 ### get(number) {#get-number-}
 
-Gets the [ConnectionParameter](./connectionparameter/) element at the specified index.
+Gets the [ConnectionParameter](/nodejs-cpp/connectionparameter/) element at the specified index.
 
 ```javascript
 get(index: number) : ConnectionParameter;
@@ -43,7 +43,7 @@ The element at the specified index.
 
 ### set(ConnectionParameter, number) {#set-connectionparameter-number-}
 
-Gets the [ConnectionParameter](./connectionparameter/) element at the specified index.
+Gets the [ConnectionParameter](/nodejs-cpp/connectionparameter/) element at the specified index.
 
 ```javascript
 set(value: ConnectionParameter, index: number) : void;
@@ -52,7 +52,7 @@ set(value: ConnectionParameter, index: number) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ConnectionParameter](./connectionparameter/) | The value to set. |
+| value | [ConnectionParameter](/nodejs-cpp/connectionparameter/) | The value to set. |
 | index | number | The zero based index of the element. |
 
 **Returns**

@@ -36,7 +36,7 @@ class SeriesLayoutProperties;
 | [getShowInnerPoints()](#getShowInnerPoints--)| Indicates whether showing non-outlier data points. |
 | [setShowInnerPoints(boolean)](#setShowInnerPoints-boolean-)| Indicates whether showing non-outlier data points. |
 | [getSubtotals()](#getSubtotals--)| Represents the index of a subtotal data point. |
-| [setSubtotals(number[])](#setSubtotals-number[]-)| Represents the index of a subtotal data point. |
+| [setSubtotals(number[])](#setSubtotals-numberarray-)| Represents the index of a subtotal data point. |
 | [getQuartileCalculation()](#getQuartileCalculation--)| Represents the statistical properties for the series. |
 | [setQuartileCalculation(QuartileCalculationType)](#setQuartileCalculation-quartilecalculationtype-)| Represents the statistical properties for the series. |
 | [getMapLabelLayout()](#getMapLabelLayout--)| Gets and sets the layout of map labels. |
@@ -181,7 +181,7 @@ getSubtotals() : number[];
 
 number[]
 
-### setSubtotals(number[]) {#setSubtotals-number[]-}
+### setSubtotals(number[]) {#setSubtotals-numberarray-}
 
 Represents the index of a subtotal data point.
 
@@ -205,7 +205,7 @@ getQuartileCalculation() : QuartileCalculationType;
 
 **Returns**
 
-[QuartileCalculationType](./quartilecalculationtype/)
+[QuartileCalculationType](/nodejs-cpp/quartilecalculationtype/)
 
 ### setQuartileCalculation(QuartileCalculationType) {#setQuartileCalculation-quartilecalculationtype-}
 
@@ -218,7 +218,7 @@ setQuartileCalculation(value: QuartileCalculationType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [QuartileCalculationType](./quartilecalculationtype/) | The value to set. |
+| value | [QuartileCalculationType](/nodejs-cpp/quartilecalculationtype/) | The value to set. |
 
 ### getMapLabelLayout() {#getMapLabelLayout--}
 
@@ -231,7 +231,7 @@ getMapLabelLayout() : MapChartLabelLayout;
 
 **Returns**
 
-[MapChartLabelLayout](./mapchartlabellayout/)
+[MapChartLabelLayout](/nodejs-cpp/mapchartlabellayout/)
 
 ### setMapLabelLayout(MapChartLabelLayout) {#setMapLabelLayout-mapchartlabellayout-}
 
@@ -244,7 +244,7 @@ setMapLabelLayout(value: MapChartLabelLayout) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [MapChartLabelLayout](./mapchartlabellayout/) | The value to set. |
+| value | [MapChartLabelLayout](/nodejs-cpp/mapchartlabellayout/) | The value to set. |
 
 ### isIntervalLeftClosed() {#isIntervalLeftClosed--}
 
@@ -279,7 +279,7 @@ getMapChartRegionType() : MapChartRegionType;
 
 **Returns**
 
-[MapChartRegionType](./mapchartregiontype/)
+[MapChartRegionType](/nodejs-cpp/mapchartregiontype/)
 
 ### setMapChartRegionType(MapChartRegionType) {#setMapChartRegionType-mapchartregiontype-}
 
@@ -292,7 +292,7 @@ setMapChartRegionType(value: MapChartRegionType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [MapChartRegionType](./mapchartregiontype/) | The value to set. |
+| value | [MapChartRegionType](/nodejs-cpp/mapchartregiontype/) | The value to set. |
 
 ### getMapChartProjectionType() {#getMapChartProjectionType--}
 
@@ -305,7 +305,7 @@ getMapChartProjectionType() : MapChartProjectionType;
 
 **Returns**
 
-[MapChartProjectionType](./mapchartprojectiontype/)
+[MapChartProjectionType](/nodejs-cpp/mapchartprojectiontype/)
 
 ### setMapChartProjectionType(MapChartProjectionType) {#setMapChartProjectionType-mapchartprojectiontype-}
 
@@ -318,6 +318,6 @@ setMapChartProjectionType(value: MapChartProjectionType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [MapChartProjectionType](./mapchartprojectiontype/) | The value to set. |
+| value | [MapChartProjectionType](/nodejs-cpp/mapchartprojectiontype/) | The value to set. |
 
 

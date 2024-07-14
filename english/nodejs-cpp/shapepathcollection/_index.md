@@ -39,7 +39,7 @@ get(index: number) : ShapePath;
 
 **Returns**
 
-Returns [ShapePath](./shapepath/) object.
+Returns [ShapePath](/nodejs-cpp/shapepath/) object.
 
 ### getCount() {#getCount--}
 
@@ -61,6 +61,6 @@ add() : number;
 
 **Returns**
 
-Returns [ShapePath](./shapepath/) object.
+Returns [ShapePath](/nodejs-cpp/shapepath/) object.
 
 

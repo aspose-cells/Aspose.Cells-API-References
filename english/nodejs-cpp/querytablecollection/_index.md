@@ -1,14 +1,14 @@
 ﻿---
 title: QueryTableCollection
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: A collection of QueryTableCollection.querytablecollection objects that represent QueryTable collection information.
+description: A collection of QueryTableCollectionnodejscppquerytablecollection objects that represent QueryTable collection information.
 type: docs
 url: /nodejs-cpp/querytablecollection/
 ---
 
 ## QueryTableCollection class
 
-A collection of [QueryTableCollection](./querytablecollection/) objects that represent QueryTable collection information.
+A collection of [QueryTableCollection](/nodejs-cpp/querytablecollection/) objects that represent QueryTable collection information.
 
 ```javascript
 class QueryTableCollection;

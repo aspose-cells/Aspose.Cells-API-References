@@ -25,7 +25,7 @@ class ShapeSegmentPathCollection;
 
 | Method | Description |
 | --- | --- |
-| [get(number)](#get-number-)| Gets [ShapeSegmentPath](./shapesegmentpath/) object. |
+| [get(number)](#get-number-)| Gets [ShapeSegmentPath](/nodejs-cpp/shapesegmentpath/) object. |
 | [add(ShapePathType)](#add-shapepathtype-)| Add a segment path in creation path. |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
 
@@ -41,7 +41,7 @@ constructor();
 
 ### get(number) {#get-number-}
 
-Gets [ShapeSegmentPath](./shapesegmentpath/) object.
+Gets [ShapeSegmentPath](/nodejs-cpp/shapesegmentpath/) object.
 
 ```javascript
 get(index: number) : ShapeSegmentPath;
@@ -54,7 +54,7 @@ get(index: number) : ShapeSegmentPath;
 
 **Returns**
 
-Returns a [ShapeSegmentPath](./shapesegmentpath/) object.
+Returns a [ShapeSegmentPath](/nodejs-cpp/shapesegmentpath/) object.
 
 ### add(ShapePathType) {#add-shapepathtype-}
 
@@ -67,11 +67,11 @@ add(type: ShapePathType) : number;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | [ShapePathType](./shapepathtype/) | The path type. |
+| type | [ShapePathType](/nodejs-cpp/shapepathtype/) | The path type. |
 
 **Returns**
 
-Returns the position of [ShapeSegmentPath](./shapesegmentpath/) object in the list.
+Returns the position of [ShapeSegmentPath](/nodejs-cpp/shapesegmentpath/) object in the list.
 
 ### getCount() {#getCount--}
 

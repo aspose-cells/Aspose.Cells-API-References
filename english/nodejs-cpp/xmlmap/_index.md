@@ -22,7 +22,7 @@ class XmlMap;
 | [getName()](#getName--)| Returns or sets the name of the object. |
 | [setName(string)](#setName-string-)| Returns or sets the name of the object. |
 | [getRootElementName()](#getRootElementName--)| Gets root element name. |
-| [getDataBinding()](#getDataBinding--)| Gets an [XmlDataBinding](./xmldatabinding/) of this map. |
+| [getDataBinding()](#getDataBinding--)| Gets an [XmlDataBinding](/nodejs-cpp/xmldatabinding/) of this map. |
 
 
 ### getName() {#getName--}
@@ -58,7 +58,7 @@ getRootElementName() : string;
 
 ### getDataBinding() {#getDataBinding--}
 
-Gets an [XmlDataBinding](./xmldatabinding/) of this map.
+Gets an [XmlDataBinding](/nodejs-cpp/xmldatabinding/) of this map.
 
 ```javascript
 getDataBinding() : XmlDataBinding;
@@ -67,6 +67,6 @@ getDataBinding() : XmlDataBinding;
 
 **Returns**
 
-[XmlDataBinding](./xmldatabinding/)
+[XmlDataBinding](/nodejs-cpp/xmldatabinding/)
 
 

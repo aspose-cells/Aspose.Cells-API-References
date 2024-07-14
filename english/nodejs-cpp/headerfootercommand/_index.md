@@ -35,7 +35,7 @@ getType() : HeaderFooterCommandType;
 
 **Returns**
 
-[HeaderFooterCommandType](./headerfootercommandtype/)
+[HeaderFooterCommandType](/nodejs-cpp/headerfootercommandtype/)
 
 ### getFont() {#getFont--}
 
@@ -48,7 +48,7 @@ getFont() : Font;
 
 **Returns**
 
-[Font](./font/)
+[Font](/nodejs-cpp/font/)
 
 **Remarks**
 

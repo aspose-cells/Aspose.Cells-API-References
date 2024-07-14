@@ -59,7 +59,7 @@ getType() : VbaModuleType;
 
 **Returns**
 
-[VbaModuleType](./vbamoduletype/)
+[VbaModuleType](/nodejs-cpp/vbamoduletype/)
 
 ### getCodes() {#getCodes--}
 

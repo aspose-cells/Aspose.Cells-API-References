@@ -55,7 +55,7 @@ getType() : PivotFieldGroupType;
 
 **Returns**
 
-[PivotFieldGroupType](./pivotfieldgrouptype/)
+[PivotFieldGroupType](/nodejs-cpp/pivotfieldgrouptype/)
 
 ### getStart() {#getStart--}
 

@@ -49,7 +49,7 @@ getType() : CellValueType;
 
 **Returns**
 
-[CellValueType](./cellvaluetype/)
+[CellValueType](/nodejs-cpp/cellvaluetype/)
 
 ### setType(CellValueType) {#setType-cellvaluetype-}
 
@@ -62,6 +62,6 @@ setType(value: CellValueType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [CellValueType](./cellvaluetype/) | The value to set. |
+| value | [CellValueType](/nodejs-cpp/cellvaluetype/) | The value to set. |
 
 

@@ -19,13 +19,13 @@ class PowerQueryFormulaCollection;
 
 | Method | Description |
 | --- | --- |
-| [get(number)](#get-number-)| Gets [ PowerQueryFormula](./ powerqueryformula/) by the index in the list. |
+| [get(number)](#get-number-)| Gets [ PowerQueryFormula](/nodejs-cpp/ powerqueryformula/) by the index in the list. |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
 
 
 ### get(number) {#get-number-}
 
-Gets [ PowerQueryFormula](./ powerqueryformula/) by the index in the list.
+Gets [ PowerQueryFormula](/nodejs-cpp/ powerqueryformula/) by the index in the list.
 
 ```javascript
 get(index: number) : PowerQueryFormula;
@@ -38,7 +38,7 @@ get(index: number) : PowerQueryFormula;
 
 **Returns**
 
-[PowerQueryFormula](./powerqueryformula/)
+[PowerQueryFormula](/nodejs-cpp/powerqueryformula/)
 
 ### getCount() {#getCount--}
 

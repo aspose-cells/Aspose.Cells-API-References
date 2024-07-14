@@ -31,7 +31,7 @@ class JsonSaveOptions extends SaveOptions;
 | [getSkipEmptyRows()](#getSkipEmptyRows--)| Indicates whether skipping emtpy rows. |
 | [setSkipEmptyRows(boolean)](#setSkipEmptyRows-boolean-)| Indicates whether skipping emtpy rows. |
 | [getSheetIndexes()](#getSheetIndexes--)| Represents the indexes of exported sheets. |
-| [setSheetIndexes(number[])](#setSheetIndexes-number[]-)| Represents the indexes of exported sheets. |
+| [setSheetIndexes(number[])](#setSheetIndexes-numberarray-)| Represents the indexes of exported sheets. |
 | [getExportArea()](#getExportArea--)| Gets or sets the exporting range. |
 | [setExportArea(CellArea)](#setExportArea-cellarea-)| Gets or sets the exporting range. |
 | [getHasHeaderRow()](#getHasHeaderRow--)| Indicates whether the range contains header row. |
@@ -104,11 +104,11 @@ getExportHyperlinkType() : JsonExportHyperlinkType;
 
 **Returns**
 
-[JsonExportHyperlinkType](./jsonexporthyperlinktype/)
+[JsonExportHyperlinkType](/nodejs-cpp/jsonexporthyperlinktype/)
 
 **Remarks**
 
-The default value is [JsonExportHyperlinkType.DisplayString](./jsonexporthyperlinktype.displaystring/);
+The default value is [JsonExportHyperlinkType.DisplayString](/nodejs-cpp/jsonexporthyperlinktype.displaystring/);
 
 ### setExportHyperlinkType(JsonExportHyperlinkType) {#setExportHyperlinkType-jsonexporthyperlinktype-}
 
@@ -121,11 +121,11 @@ setExportHyperlinkType(value: JsonExportHyperlinkType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [JsonExportHyperlinkType](./jsonexporthyperlinktype/) | The value to set. |
+| value | [JsonExportHyperlinkType](/nodejs-cpp/jsonexporthyperlinktype/) | The value to set. |
 
 **Remarks**
 
-The default value is [JsonExportHyperlinkType.DisplayString](./jsonexporthyperlinktype.displaystring/);
+The default value is [JsonExportHyperlinkType.DisplayString](/nodejs-cpp/jsonexporthyperlinktype.displaystring/);
 
 ### getSkipEmptyRows() {#getSkipEmptyRows--}
 
@@ -162,7 +162,7 @@ getSheetIndexes() : number[];
 
 number[]
 
-### setSheetIndexes(number[]) {#setSheetIndexes-number[]-}
+### setSheetIndexes(number[]) {#setSheetIndexes-numberarray-}
 
 Represents the indexes of exported sheets.
 
@@ -186,7 +186,7 @@ getExportArea() : CellArea;
 
 **Returns**
 
-[CellArea](./cellarea/)
+[CellArea](/nodejs-cpp/cellarea/)
 
 ### setExportArea(CellArea) {#setExportArea-cellarea-}
 
@@ -199,7 +199,7 @@ setExportArea(value: CellArea) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [CellArea](./cellarea/) | The value to set. |
+| value | [CellArea](/nodejs-cpp/cellarea/) | The value to set. |
 
 ### getHasHeaderRow() {#getHasHeaderRow--}
 
@@ -382,7 +382,7 @@ getSaveFormat() : SaveFormat;
 
 **Returns**
 
-[SaveFormat](./saveformat/)
+[SaveFormat](/nodejs-cpp/saveformat/)
 
 ### getClearData() {#getClearData--}
 
@@ -595,7 +595,7 @@ setWarningCallback(value: IWarningCallback) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IWarningCallback](./iwarningcallback/) | The value to set. |
+| value | [IWarningCallback](/nodejs-cpp/iwarningcallback/) | The value to set. |
 
 ### getWarningCallback() {#getWarningCallback--}
 
@@ -608,7 +608,7 @@ getWarningCallback() : IWarningCallback;
 
 **Returns**
 
-[IWarningCallback](./iwarningcallback/)
+[IWarningCallback](/nodejs-cpp/iwarningcallback/)
 
 ### getUpdateSmartArt() {#getUpdateSmartArt--}
 

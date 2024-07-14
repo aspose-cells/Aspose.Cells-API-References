@@ -145,11 +145,11 @@ getCustomFunctionDefinition() : CustomFunctionDefinition;
 
 **Returns**
 
-[CustomFunctionDefinition](./customfunctiondefinition/)
+[CustomFunctionDefinition](/nodejs-cpp/customfunctiondefinition/)
 
 **Remarks**
 
-For some special requirements, such as when calculating custom function in user's custom engine, some parameters of it need to be caculated in array mode, using this property can mark those parameters as array mode when parsing the formula. Otherwise user needs to update those custom functions later by [Workbook.UpdateCustomFunctionDefinition(CustomFunctionDefinition)](./workbook.updatecustomfunctiondefinition(customfunctiondefinition)/) to get the same result.
+For some special requirements, such as when calculating custom function in user's custom engine, some parameters of it need to be caculated in array mode, using this property can mark those parameters as array mode when parsing the formula. Otherwise user needs to update those custom functions later by [Workbook.UpdateCustomFunctionDefinition(CustomFunctionDefinition)](/nodejs-cpp/workbook.updatecustomfunctiondefinition(customfunctiondefinition)/) to get the same result.
 
 ### setCustomFunctionDefinition(CustomFunctionDefinition) {#setCustomFunctionDefinition-customfunctiondefinition-}
 
@@ -162,10 +162,10 @@ setCustomFunctionDefinition(value: CustomFunctionDefinition) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [CustomFunctionDefinition](./customfunctiondefinition/) | The value to set. |
+| value | [CustomFunctionDefinition](/nodejs-cpp/customfunctiondefinition/) | The value to set. |
 
 **Remarks**
 
-For some special requirements, such as when calculating custom function in user's custom engine, some parameters of it need to be caculated in array mode, using this property can mark those parameters as array mode when parsing the formula. Otherwise user needs to update those custom functions later by [Workbook.UpdateCustomFunctionDefinition(CustomFunctionDefinition)](./workbook.updatecustomfunctiondefinition(customfunctiondefinition)/) to get the same result.
+For some special requirements, such as when calculating custom function in user's custom engine, some parameters of it need to be caculated in array mode, using this property can mark those parameters as array mode when parsing the formula. Otherwise user needs to update those custom functions later by [Workbook.UpdateCustomFunctionDefinition(CustomFunctionDefinition)](/nodejs-cpp/workbook.updatecustomfunctiondefinition(customfunctiondefinition)/) to get the same result.
 
 

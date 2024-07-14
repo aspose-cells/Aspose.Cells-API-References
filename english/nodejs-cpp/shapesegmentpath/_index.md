@@ -34,7 +34,7 @@ getType() : ShapePathType;
 
 **Returns**
 
-[ShapePathType](./shapepathtype/)
+[ShapePathType](/nodejs-cpp/shapepathtype/)
 
 ### getPoints() {#getPoints--}
 
@@ -47,6 +47,6 @@ getPoints() : ShapePathPointCollection;
 
 **Returns**
 
-[ShapePathPointCollection](./shapepathpointcollection/)
+[ShapePathPointCollection](/nodejs-cpp/shapepathpointcollection/)
 
 

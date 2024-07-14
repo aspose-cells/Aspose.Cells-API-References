@@ -19,9 +19,9 @@ class OleObjectCollection;
 
 | Method | Description |
 | --- | --- |
-| [get(number)](#get-number-)| Gets the [OleObject](./oleobject/) element at the specified index. |
-| [add(number, number, number, number, number[])](#add-number-number-number-number-number[]-)| Adds an OleObject to the collection. |
-| [add(number, number, number, number, number[], string)](#add-number-number-number-number-number[]-string-)| Adds a linked OleObject to the collection. |
+| [get(number)](#get-number-)| Gets the [OleObject](/nodejs-cpp/oleobject/) element at the specified index. |
+| [add(number, number, number, number, number[])](#add-number-number-number-number-numberarray-)| Adds an OleObject to the collection. |
+| [add(number, number, number, number, number[], string)](#add-number-number-number-number-numberarray-string-)| Adds a linked OleObject to the collection. |
 | [clear()](#clear--)| Remove all embedded OLE objects. |
 | [removeAt(number)](#removeAt-number-)| Removes the element at the specified index. |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
@@ -29,7 +29,7 @@ class OleObjectCollection;
 
 ### get(number) {#get-number-}
 
-Gets the [OleObject](./oleobject/) element at the specified index.
+Gets the [OleObject](/nodejs-cpp/oleobject/) element at the specified index.
 
 ```javascript
 get(index: number) : OleObject;
@@ -44,7 +44,7 @@ get(index: number) : OleObject;
 
 The element at the specified index.
 
-### add(number, number, number, number, number[]) {#add-number-number-number-number-number[]-}
+### add(number, number, number, number, number[]) {#add-number-number-number-number-numberarray-}
 
 Adds an OleObject to the collection.
 
@@ -63,9 +63,9 @@ add(upperLeftRow: number, upperLeftColumn: number, height: number, width: number
 
 **Returns**
 
-[OleObject](./oleobject/) object index.
+[OleObject](/nodejs-cpp/oleobject/) object index.
 
-### add(number, number, number, number, number[], string) {#add-number-number-number-number-number[]-string-}
+### add(number, number, number, number, number[], string) {#add-number-number-number-number-numberarray-string-}
 
 Adds a linked OleObject to the collection.
 
@@ -85,7 +85,7 @@ add(upperLeftRow: number, upperLeftColumn: number, height: number, width: number
 
 **Returns**
 
-[OleObject](./oleobject/) object index.
+[OleObject](/nodejs-cpp/oleobject/) object index.
 
 ### clear() {#clear--}
 

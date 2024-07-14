@@ -91,7 +91,7 @@ getCommentShape() : CommentShape;
 
 **Returns**
 
-[CommentShape](./commentshape/)
+[CommentShape](/nodejs-cpp/commentshape/)
 
 ### getRow() {#getRow--}
 
@@ -131,7 +131,7 @@ getThreadedComments() : ThreadedCommentCollection;
 
 **Returns**
 
-[ThreadedCommentCollection](./threadedcommentcollection/)
+[ThreadedCommentCollection](/nodejs-cpp/threadedcommentcollection/)
 
 ### getNote() {#getNote--}
 
@@ -204,7 +204,7 @@ getFont() : Font;
 
 **Returns**
 
-[Font](./font/)
+[Font](/nodejs-cpp/font/)
 
 ### isVisible() {#isVisible--}
 
@@ -239,7 +239,7 @@ getTextOrientationType() : TextOrientationType;
 
 **Returns**
 
-[TextOrientationType](./textorientationtype/)
+[TextOrientationType](/nodejs-cpp/textorientationtype/)
 
 ### setTextOrientationType(TextOrientationType) {#setTextOrientationType-textorientationtype-}
 
@@ -252,7 +252,7 @@ setTextOrientationType(value: TextOrientationType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [TextOrientationType](./textorientationtype/) | The value to set. |
+| value | [TextOrientationType](/nodejs-cpp/textorientationtype/) | The value to set. |
 
 ### getTextHorizontalAlignment() {#getTextHorizontalAlignment--}
 
@@ -265,7 +265,7 @@ getTextHorizontalAlignment() : TextAlignmentType;
 
 **Returns**
 
-[TextAlignmentType](./textalignmenttype/)
+[TextAlignmentType](/nodejs-cpp/textalignmenttype/)
 
 ### setTextHorizontalAlignment(TextAlignmentType) {#setTextHorizontalAlignment-textalignmenttype-}
 
@@ -278,7 +278,7 @@ setTextHorizontalAlignment(value: TextAlignmentType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [TextAlignmentType](./textalignmenttype/) | The value to set. |
+| value | [TextAlignmentType](/nodejs-cpp/textalignmenttype/) | The value to set. |
 
 ### getTextVerticalAlignment() {#getTextVerticalAlignment--}
 
@@ -291,7 +291,7 @@ getTextVerticalAlignment() : TextAlignmentType;
 
 **Returns**
 
-[TextAlignmentType](./textalignmenttype/)
+[TextAlignmentType](/nodejs-cpp/textalignmenttype/)
 
 ### setTextVerticalAlignment(TextAlignmentType) {#setTextVerticalAlignment-textalignmenttype-}
 
@@ -304,7 +304,7 @@ setTextVerticalAlignment(value: TextAlignmentType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [TextAlignmentType](./textalignmenttype/) | The value to set. |
+| value | [TextAlignmentType](/nodejs-cpp/textalignmenttype/) | The value to set. |
 
 ### getAutoSize() {#getAutoSize--}
 
@@ -473,8 +473,8 @@ formatCharacters(startIndex: number, length: number, font: Font, flag: StyleFlag
 | --- | --- | --- |
 | startIndex | number | The start index. |
 | length | number | The length. |
-| font | [Font](./font/) | The font setting. |
-| flag | [StyleFlag](./styleflag/) | The flag of the font setting. |
+| font | [Font](/nodejs-cpp/font/) | The font setting. |
+| flag | [StyleFlag](/nodejs-cpp/styleflag/) | The flag of the font setting. |
 
 ### characters(number, number) {#characters-number-number-}
 

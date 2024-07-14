@@ -35,8 +35,8 @@ class ImageOrPrintOptions;
 | [setTiffCompression(TiffCompression)](#setTiffCompression-tiffcompression-)| Gets or sets the type of compression to apply only when saving pages to the <c>Tiff</c> format. |
 | [getTiffColorDepth()](#getTiffColorDepth--)| Gets or sets bit depth to apply only when saving pages to the <c>Tiff</c> format. |
 | [setTiffColorDepth(ColorDepth)](#setTiffColorDepth-colordepth-)| Gets or sets bit depth to apply only when saving pages to the <c>Tiff</c> format. |
-| [getTiffBinarizationMethod()](#getTiffBinarizationMethod--)| Gets or sets method used while converting images to 1 bpp format when [ImageType](./imagetype/) is Tiff and [ImageType](./imagetype/) is equal to Ccitt3 or Ccitt4. |
-| [setTiffBinarizationMethod(ImageBinarizationMethod)](#setTiffBinarizationMethod-imagebinarizationmethod-)| Gets or sets method used while converting images to 1 bpp format when [ImageType](./imagetype/) is Tiff and [ImageType](./imagetype/) is equal to Ccitt3 or Ccitt4. |
+| [getTiffBinarizationMethod()](#getTiffBinarizationMethod--)| Gets or sets method used while converting images to 1 bpp format when [ImageType](/nodejs-cpp/imagetype/) is Tiff and [ImageType](/nodejs-cpp/imagetype/) is equal to Ccitt3 or Ccitt4. |
+| [setTiffBinarizationMethod(ImageBinarizationMethod)](#setTiffBinarizationMethod-imagebinarizationmethod-)| Gets or sets method used while converting images to 1 bpp format when [ImageType](/nodejs-cpp/imagetype/) is Tiff and [ImageType](/nodejs-cpp/imagetype/) is equal to Ccitt3 or Ccitt4. |
 | [getPrintingPage()](#getPrintingPage--)| Indicates which pages will not be printed. |
 | [setPrintingPage(PrintingPageType)](#setPrintingPage-printingpagetype-)| Indicates which pages will not be printed. |
 | [getQuality()](#getQuality--)| Gets or sets a value determining the quality of the generated  images to apply only when saving pages to the <c>Jpeg</c> format. The default value is 100 |
@@ -81,8 +81,8 @@ class ImageOrPrintOptions;
 | [setTextCrossType(TextCrossType)](#setTextCrossType-textcrosstype-)| Gets or sets displaying text type when the text width is larger than cell width. |
 | [getDefaultEditLanguage()](#getDefaultEditLanguage--)| Gets or sets default edit language. |
 | [setDefaultEditLanguage(DefaultEditLanguage)](#setDefaultEditLanguage-defaulteditlanguage-)| Gets or sets default edit language. |
-| [getSheetSet()](#getSheetSet--)| Gets or sets the sheets to render. Default is all visible sheets in the workbook: [Aspose.Cells.Rendering.SheetSet.Visible](./aspose.cells.rendering.sheetset.visible/). |
-| [setSheetSet(SheetSet)](#setSheetSet-sheetset-)| Gets or sets the sheets to render. Default is all visible sheets in the workbook: [Aspose.Cells.Rendering.SheetSet.Visible](./aspose.cells.rendering.sheetset.visible/). |
+| [getSheetSet()](#getSheetSet--)| Gets or sets the sheets to render. Default is all visible sheets in the workbook: [Aspose.Cells.Rendering.SheetSet.Visible](/nodejs-cpp/aspose.cells.rendering.sheetset.visible/). |
+| [setSheetSet(SheetSet)](#setSheetSet-sheetset-)| Gets or sets the sheets to render. Default is all visible sheets in the workbook: [Aspose.Cells.Rendering.SheetSet.Visible](/nodejs-cpp/aspose.cells.rendering.sheetset.visible/). |
 | [getEmfRenderSetting()](#getEmfRenderSetting--)| Setting for rendering Emf metafile. |
 | [setEmfRenderSetting(EmfRenderSetting)](#setEmfRenderSetting-emfrendersetting-)| Setting for rendering Emf metafile. |
 | [setDesiredSize(number, number, boolean)](#setDesiredSize-number-number-boolean-)| Sets desired width and height of image. |
@@ -190,7 +190,7 @@ getTiffCompression() : TiffCompression;
 
 **Returns**
 
-[TiffCompression](./tiffcompression/)
+[TiffCompression](/nodejs-cpp/tiffcompression/)
 
 **Remarks**
 
@@ -207,7 +207,7 @@ setTiffCompression(value: TiffCompression) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [TiffCompression](./tiffcompression/) | The value to set. |
+| value | [TiffCompression](/nodejs-cpp/tiffcompression/) | The value to set. |
 
 **Remarks**
 
@@ -224,7 +224,7 @@ getTiffColorDepth() : ColorDepth;
 
 **Returns**
 
-[ColorDepth](./colordepth/)
+[ColorDepth](/nodejs-cpp/colordepth/)
 
 **Remarks**
 
@@ -241,7 +241,7 @@ setTiffColorDepth(value: ColorDepth) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ColorDepth](./colordepth/) | The value to set. |
+| value | [ColorDepth](/nodejs-cpp/colordepth/) | The value to set. |
 
 **Remarks**
 
@@ -249,7 +249,7 @@ Has effect only when saving to TIFF. If TiffCompression is set to CCITT3, CCITT4
 
 ### getTiffBinarizationMethod() {#getTiffBinarizationMethod--}
 
-Gets or sets method used while converting images to 1 bpp format when [ImageType](./imagetype/) is Tiff and [ImageType](./imagetype/) is equal to Ccitt3 or Ccitt4.
+Gets or sets method used while converting images to 1 bpp format when [ImageType](/nodejs-cpp/imagetype/) is Tiff and [ImageType](/nodejs-cpp/imagetype/) is equal to Ccitt3 or Ccitt4.
 
 ```javascript
 getTiffBinarizationMethod() : ImageBinarizationMethod;
@@ -258,7 +258,7 @@ getTiffBinarizationMethod() : ImageBinarizationMethod;
 
 **Returns**
 
-[ImageBinarizationMethod](./imagebinarizationmethod/)
+[ImageBinarizationMethod](/nodejs-cpp/imagebinarizationmethod/)
 
 **Remarks**
 
@@ -266,7 +266,7 @@ The default value is FloydSteinbergDithering.
 
 ### setTiffBinarizationMethod(ImageBinarizationMethod) {#setTiffBinarizationMethod-imagebinarizationmethod-}
 
-Gets or sets method used while converting images to 1 bpp format when [ImageType](./imagetype/) is Tiff and [ImageType](./imagetype/) is equal to Ccitt3 or Ccitt4.
+Gets or sets method used while converting images to 1 bpp format when [ImageType](/nodejs-cpp/imagetype/) is Tiff and [ImageType](/nodejs-cpp/imagetype/) is equal to Ccitt3 or Ccitt4.
 
 ```javascript
 setTiffBinarizationMethod(value: ImageBinarizationMethod) : void;
@@ -275,7 +275,7 @@ setTiffBinarizationMethod(value: ImageBinarizationMethod) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ImageBinarizationMethod](./imagebinarizationmethod/) | The value to set. |
+| value | [ImageBinarizationMethod](/nodejs-cpp/imagebinarizationmethod/) | The value to set. |
 
 **Remarks**
 
@@ -292,7 +292,7 @@ getPrintingPage() : PrintingPageType;
 
 **Returns**
 
-[PrintingPageType](./printingpagetype/)
+[PrintingPageType](/nodejs-cpp/printingpagetype/)
 
 ### setPrintingPage(PrintingPageType) {#setPrintingPage-printingpagetype-}
 
@@ -305,7 +305,7 @@ setPrintingPage(value: PrintingPageType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [PrintingPageType](./printingpagetype/) | The value to set. |
+| value | [PrintingPageType](/nodejs-cpp/printingpagetype/) | The value to set. |
 
 ### getQuality() {#getQuality--}
 
@@ -348,7 +348,7 @@ getImageType() : ImageType;
 
 **Returns**
 
-[ImageType](./imagetype/)
+[ImageType](/nodejs-cpp/imagetype/)
 
 ### setImageType(ImageType) {#setImageType-imagetype-}
 
@@ -361,7 +361,7 @@ setImageType(value: ImageType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ImageType](./imagetype/) | The value to set. |
+| value | [ImageType](/nodejs-cpp/imagetype/) | The value to set. |
 
 ### getOnePagePerSheet() {#getOnePagePerSheet--}
 
@@ -418,7 +418,7 @@ getDrawObjectEventHandler() : DrawObjectEventHandler;
 
 **Returns**
 
-[DrawObjectEventHandler](./drawobjecteventhandler/)
+[DrawObjectEventHandler](/nodejs-cpp/drawobjecteventhandler/)
 
 ### setDrawObjectEventHandler(DrawObjectEventHandler) {#setDrawObjectEventHandler-drawobjecteventhandler-}
 
@@ -431,7 +431,7 @@ setDrawObjectEventHandler(value: DrawObjectEventHandler) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [DrawObjectEventHandler](./drawobjecteventhandler/) | The value to set. |
+| value | [DrawObjectEventHandler](/nodejs-cpp/drawobjecteventhandler/) | The value to set. |
 
 ### getEmbededImageNameInSvg() {#getEmbededImageNameInSvg--}
 
@@ -540,7 +540,7 @@ setWarningCallback(value: IWarningCallback) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IWarningCallback](./iwarningcallback/) | The value to set. |
+| value | [IWarningCallback](/nodejs-cpp/iwarningcallback/) | The value to set. |
 
 ### getWarningCallback() {#getWarningCallback--}
 
@@ -553,7 +553,7 @@ getWarningCallback() : IWarningCallback;
 
 **Returns**
 
-[IWarningCallback](./iwarningcallback/)
+[IWarningCallback](/nodejs-cpp/iwarningcallback/)
 
 ### getPageSavingCallback() {#getPageSavingCallback--}
 
@@ -566,7 +566,7 @@ getPageSavingCallback() : IPageSavingCallback;
 
 **Returns**
 
-[IPageSavingCallback](./ipagesavingcallback/)
+[IPageSavingCallback](/nodejs-cpp/ipagesavingcallback/)
 
 ### setPageSavingCallback(IPageSavingCallback) {#setPageSavingCallback-ipagesavingcallback-}
 
@@ -579,7 +579,7 @@ setPageSavingCallback(value: IPageSavingCallback) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IPageSavingCallback](./ipagesavingcallback/) | The value to set. |
+| value | [IPageSavingCallback](/nodejs-cpp/ipagesavingcallback/) | The value to set. |
 
 ### setIsFontSubstitutionCharGranularity(boolean) {#setIsFontSubstitutionCharGranularity-boolean-}
 
@@ -794,7 +794,7 @@ getGridlineType() : GridlineType;
 
 **Returns**
 
-[GridlineType](./gridlinetype/)
+[GridlineType](/nodejs-cpp/gridlinetype/)
 
 **Remarks**
 
@@ -811,7 +811,7 @@ setGridlineType(value: GridlineType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [GridlineType](./gridlinetype/) | The value to set. |
+| value | [GridlineType](/nodejs-cpp/gridlinetype/) | The value to set. |
 
 **Remarks**
 
@@ -828,7 +828,7 @@ getTextCrossType() : TextCrossType;
 
 **Returns**
 
-[TextCrossType](./textcrosstype/)
+[TextCrossType](/nodejs-cpp/textcrosstype/)
 
 ### setTextCrossType(TextCrossType) {#setTextCrossType-textcrosstype-}
 
@@ -841,7 +841,7 @@ setTextCrossType(value: TextCrossType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [TextCrossType](./textcrosstype/) | The value to set. |
+| value | [TextCrossType](/nodejs-cpp/textcrosstype/) | The value to set. |
 
 ### getDefaultEditLanguage() {#getDefaultEditLanguage--}
 
@@ -854,11 +854,11 @@ getDefaultEditLanguage() : DefaultEditLanguage;
 
 **Returns**
 
-[DefaultEditLanguage](./defaulteditlanguage/)
+[DefaultEditLanguage](/nodejs-cpp/defaulteditlanguage/)
 
 **Remarks**
 
-It may display/render different layouts for text paragraph when different edit languages is set. Default is [Aspose.Cells.DefaultEditLanguage.Auto](./aspose.cells.defaulteditlanguage.auto/).
+It may display/render different layouts for text paragraph when different edit languages is set. Default is [Aspose.Cells.DefaultEditLanguage.Auto](/nodejs-cpp/aspose.cells.defaulteditlanguage.auto/).
 
 ### setDefaultEditLanguage(DefaultEditLanguage) {#setDefaultEditLanguage-defaulteditlanguage-}
 
@@ -871,15 +871,15 @@ setDefaultEditLanguage(value: DefaultEditLanguage) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [DefaultEditLanguage](./defaulteditlanguage/) | The value to set. |
+| value | [DefaultEditLanguage](/nodejs-cpp/defaulteditlanguage/) | The value to set. |
 
 **Remarks**
 
-It may display/render different layouts for text paragraph when different edit languages is set. Default is [Aspose.Cells.DefaultEditLanguage.Auto](./aspose.cells.defaulteditlanguage.auto/).
+It may display/render different layouts for text paragraph when different edit languages is set. Default is [Aspose.Cells.DefaultEditLanguage.Auto](/nodejs-cpp/aspose.cells.defaulteditlanguage.auto/).
 
 ### getSheetSet() {#getSheetSet--}
 
-Gets or sets the sheets to render. Default is all visible sheets in the workbook: [Aspose.Cells.Rendering.SheetSet.Visible](./aspose.cells.rendering.sheetset.visible/).
+Gets or sets the sheets to render. Default is all visible sheets in the workbook: [Aspose.Cells.Rendering.SheetSet.Visible](/nodejs-cpp/aspose.cells.rendering.sheetset.visible/).
 
 ```javascript
 getSheetSet() : SheetSet;
@@ -888,15 +888,15 @@ getSheetSet() : SheetSet;
 
 **Returns**
 
-[SheetSet](./sheetset/)
+[SheetSet](/nodejs-cpp/sheetset/)
 
 **Remarks**
 
-The set is ignored when it is used in [SheetRender](./sheetrender/)
+The set is ignored when it is used in [SheetRender](/nodejs-cpp/sheetrender/)
 
 ### setSheetSet(SheetSet) {#setSheetSet-sheetset-}
 
-Gets or sets the sheets to render. Default is all visible sheets in the workbook: [Aspose.Cells.Rendering.SheetSet.Visible](./aspose.cells.rendering.sheetset.visible/).
+Gets or sets the sheets to render. Default is all visible sheets in the workbook: [Aspose.Cells.Rendering.SheetSet.Visible](/nodejs-cpp/aspose.cells.rendering.sheetset.visible/).
 
 ```javascript
 setSheetSet(value: SheetSet) : void;
@@ -905,11 +905,11 @@ setSheetSet(value: SheetSet) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [SheetSet](./sheetset/) | The value to set. |
+| value | [SheetSet](/nodejs-cpp/sheetset/) | The value to set. |
 
 **Remarks**
 
-The set is ignored when it is used in [SheetRender](./sheetrender/)
+The set is ignored when it is used in [SheetRender](/nodejs-cpp/sheetrender/)
 
 ### getEmfRenderSetting() {#getEmfRenderSetting--}
 
@@ -922,11 +922,11 @@ getEmfRenderSetting() : EmfRenderSetting;
 
 **Returns**
 
-[EmfRenderSetting](./emfrendersetting/)
+[EmfRenderSetting](/nodejs-cpp/emfrendersetting/)
 
 **Remarks**
 
-EMF metafiles identified as "EMF+ Dual" can contain both EMF+ records and EMF records. Either type of record can be used to render the image, only EMF+ records, or only EMF records. When [Aspose.Cells.EmfRenderSetting.EmfPlusPrefer](./aspose.cells.emfrendersetting.emfplusprefer/) is set, then EMF+ records will be parsed while rendering to image, otherwise only EMF records will be parsed. Default value is [Aspose.Cells.EmfRenderSetting.EmfOnly](./aspose.cells.emfrendersetting.emfonly/). For the frameworks that depend on .Net System.Drawing.Common, this setting is ignored.
+EMF metafiles identified as "EMF+ Dual" can contain both EMF+ records and EMF records. Either type of record can be used to render the image, only EMF+ records, or only EMF records. When [Aspose.Cells.EmfRenderSetting.EmfPlusPrefer](/nodejs-cpp/aspose.cells.emfrendersetting.emfplusprefer/) is set, then EMF+ records will be parsed while rendering to image, otherwise only EMF records will be parsed. Default value is [Aspose.Cells.EmfRenderSetting.EmfOnly](/nodejs-cpp/aspose.cells.emfrendersetting.emfonly/). For the frameworks that depend on .Net System.Drawing.Common, this setting is ignored.
 
 ### setEmfRenderSetting(EmfRenderSetting) {#setEmfRenderSetting-emfrendersetting-}
 
@@ -939,11 +939,11 @@ setEmfRenderSetting(value: EmfRenderSetting) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [EmfRenderSetting](./emfrendersetting/) | The value to set. |
+| value | [EmfRenderSetting](/nodejs-cpp/emfrendersetting/) | The value to set. |
 
 **Remarks**
 
-EMF metafiles identified as "EMF+ Dual" can contain both EMF+ records and EMF records. Either type of record can be used to render the image, only EMF+ records, or only EMF records. When [Aspose.Cells.EmfRenderSetting.EmfPlusPrefer](./aspose.cells.emfrendersetting.emfplusprefer/) is set, then EMF+ records will be parsed while rendering to image, otherwise only EMF records will be parsed. Default value is [Aspose.Cells.EmfRenderSetting.EmfOnly](./aspose.cells.emfrendersetting.emfonly/). For the frameworks that depend on .Net System.Drawing.Common, this setting is ignored.
+EMF metafiles identified as "EMF+ Dual" can contain both EMF+ records and EMF records. Either type of record can be used to render the image, only EMF+ records, or only EMF records. When [Aspose.Cells.EmfRenderSetting.EmfPlusPrefer](/nodejs-cpp/aspose.cells.emfrendersetting.emfplusprefer/) is set, then EMF+ records will be parsed while rendering to image, otherwise only EMF records will be parsed. Default value is [Aspose.Cells.EmfRenderSetting.EmfOnly](/nodejs-cpp/aspose.cells.emfrendersetting.emfonly/). For the frameworks that depend on .Net System.Drawing.Common, this setting is ignored.
 
 ### setDesiredSize(number, number, boolean) {#setDesiredSize-number-number-boolean-}
 

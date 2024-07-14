@@ -84,7 +84,7 @@ getReference() : WebExtensionReference;
 
 **Returns**
 
-[WebExtensionReference](./webextensionreference/)
+[WebExtensionReference](/nodejs-cpp/webextensionreference/)
 
 ### getAlterReferences() {#getAlterReferences--}
 
@@ -97,7 +97,7 @@ getAlterReferences() : WebExtensionReferenceCollection;
 
 **Returns**
 
-[WebExtensionReferenceCollection](./webextensionreferencecollection/)
+[WebExtensionReferenceCollection](/nodejs-cpp/webextensionreferencecollection/)
 
 ### getProperties() {#getProperties--}
 
@@ -110,7 +110,7 @@ getProperties() : WebExtensionPropertyCollection;
 
 **Returns**
 
-[WebExtensionPropertyCollection](./webextensionpropertycollection/)
+[WebExtensionPropertyCollection](/nodejs-cpp/webextensionpropertycollection/)
 
 ### getBindings() {#getBindings--}
 
@@ -123,6 +123,6 @@ getBindings() : WebExtensionBindingCollection;
 
 **Returns**
 
-[WebExtensionBindingCollection](./webextensionbindingcollection/)
+[WebExtensionBindingCollection](/nodejs-cpp/webextensionbindingcollection/)
 
 

@@ -35,7 +35,7 @@ class TextOptions extends Font;
 | [setFarEastName(string)](#setFarEastName-string-)| Gets and sets the FarEast name. |
 | [getFill()](#getFill--)| Represents the fill format of the text. |
 | [getOutline()](#getOutline--)| Represents the outline format of the text. |
-| [getShadow()](#getShadow--)| Represents a [ShadowEffect](./shadoweffect/) object that specifies shadow effect for the chart element or shape. |
+| [getShadow()](#getShadow--)| Represents a [ShadowEffect](/nodejs-cpp/shadoweffect/) object that specifies shadow effect for the chart element or shape. |
 | [getUnderlineColor()](#getUnderlineColor--)| Gets or sets the color of underline. |
 | [setUnderlineColor(CellsColor)](#setUnderlineColor-cellscolor-)| Gets or sets the color of underline. |
 | [getKerning()](#getKerning--)| Specifies the minimum font size at which character kerning will occur for this text run. |
@@ -68,8 +68,8 @@ class TextOptions extends Font;
 | [setSize(number)](#setSize-number-)| Gets or sets the size of the font. |
 | [getThemeColor()](#getThemeColor--)| Gets and sets the theme color. |
 | [setThemeColor(ThemeColor)](#setThemeColor-themecolor-)| Gets and sets the theme color. |
-| [getColor()](#getColor--)| Gets or sets the [System.Drawing.Color](./system.drawing.color/) of the font. |
-| [setColor(Color)](#setColor-color-)| Gets or sets the [System.Drawing.Color](./system.drawing.color/) of the font. |
+| [getColor()](#getColor--)| Gets or sets the [System.Drawing.Color](/nodejs-cpp/system.drawing.color/) of the font. |
+| [setColor(Color)](#setColor-color-)| Gets or sets the [System.Drawing.Color](/nodejs-cpp/system.drawing.color/) of the font. |
 | [getArgbColor()](#getArgbColor--)| Gets and sets the color with a 32-bit ARGB value. |
 | [setArgbColor(number)](#setArgbColor-number-)| Gets and sets the color with a 32-bit ARGB value. |
 | [isNormalizeHeights()](#isNormalizeHeights--)| Indicates whether the normalization of height that is to be applied to the text run. |
@@ -126,7 +126,7 @@ getLanguageCode() : CountryCode;
 
 **Returns**
 
-[CountryCode](./countrycode/)
+[CountryCode](/nodejs-cpp/countrycode/)
 
 ### setLanguageCode(CountryCode) {#setLanguageCode-countrycode-}
 
@@ -139,7 +139,7 @@ setLanguageCode(value: CountryCode) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [CountryCode](./countrycode/) | The value to set. |
+| value | [CountryCode](/nodejs-cpp/countrycode/) | The value to set. |
 
 ### getLatinName() {#getLatinName--}
 
@@ -196,7 +196,7 @@ getFill() : FillFormat;
 
 **Returns**
 
-[FillFormat](./fillformat/)
+[FillFormat](/nodejs-cpp/fillformat/)
 
 ### getOutline() {#getOutline--}
 
@@ -209,11 +209,11 @@ getOutline() : LineFormat;
 
 **Returns**
 
-[LineFormat](./lineformat/)
+[LineFormat](/nodejs-cpp/lineformat/)
 
 ### getShadow() {#getShadow--}
 
-Represents a [ShadowEffect](./shadoweffect/) object that specifies shadow effect for the chart element or shape.
+Represents a [ShadowEffect](/nodejs-cpp/shadoweffect/) object that specifies shadow effect for the chart element or shape.
 
 ```javascript
 getShadow() : ShadowEffect;
@@ -222,7 +222,7 @@ getShadow() : ShadowEffect;
 
 **Returns**
 
-[ShadowEffect](./shadoweffect/)
+[ShadowEffect](/nodejs-cpp/shadoweffect/)
 
 ### getUnderlineColor() {#getUnderlineColor--}
 
@@ -235,7 +235,7 @@ getUnderlineColor() : CellsColor;
 
 **Returns**
 
-[CellsColor](./cellscolor/)
+[CellsColor](/nodejs-cpp/cellscolor/)
 
 ### setUnderlineColor(CellsColor) {#setUnderlineColor-cellscolor-}
 
@@ -248,7 +248,7 @@ setUnderlineColor(value: CellsColor) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [CellsColor](./cellscolor/) | The value to set. |
+| value | [CellsColor](/nodejs-cpp/cellscolor/) | The value to set. |
 
 ### getKerning() {#getKerning--}
 
@@ -371,7 +371,7 @@ getCapsType() : TextCapsType;
 
 **Returns**
 
-[TextCapsType](./textcapstype/)
+[TextCapsType](/nodejs-cpp/textcapstype/)
 
 ### setCapsType(TextCapsType) {#setCapsType-textcapstype-}
 
@@ -384,7 +384,7 @@ setCapsType(value: TextCapsType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [TextCapsType](./textcapstype/) | The value to set. |
+| value | [TextCapsType](/nodejs-cpp/textcapstype/) | The value to set. |
 
 ### getStrikeType() {#getStrikeType--}
 
@@ -397,7 +397,7 @@ getStrikeType() : TextStrikeType;
 
 **Returns**
 
-[TextStrikeType](./textstriketype/)
+[TextStrikeType](/nodejs-cpp/textstriketype/)
 
 ### setStrikeType(TextStrikeType) {#setStrikeType-textstriketype-}
 
@@ -410,7 +410,7 @@ setStrikeType(value: TextStrikeType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [TextStrikeType](./textstriketype/) | The value to set. |
+| value | [TextStrikeType](/nodejs-cpp/textstriketype/) | The value to set. |
 
 ### isStrikeout() {#isStrikeout--}
 
@@ -511,7 +511,7 @@ getUnderline() : FontUnderlineType;
 
 **Returns**
 
-[FontUnderlineType](./fontunderlinetype/)
+[FontUnderlineType](/nodejs-cpp/fontunderlinetype/)
 
 ### setUnderline(FontUnderlineType) {#setUnderline-fontunderlinetype-}
 
@@ -524,7 +524,7 @@ setUnderline(value: FontUnderlineType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [FontUnderlineType](./fontunderlinetype/) | The value to set. |
+| value | [FontUnderlineType](/nodejs-cpp/fontunderlinetype/) | The value to set. |
 
 ### getDoubleSize() {#getDoubleSize--}
 
@@ -581,7 +581,7 @@ getThemeColor() : ThemeColor;
 
 **Returns**
 
-[ThemeColor](./themecolor/)
+[ThemeColor](/nodejs-cpp/themecolor/)
 
 **Remarks**
 
@@ -598,7 +598,7 @@ setThemeColor(value: ThemeColor) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ThemeColor](./themecolor/) | The value to set. |
+| value | [ThemeColor](/nodejs-cpp/themecolor/) | The value to set. |
 
 **Remarks**
 
@@ -606,7 +606,7 @@ If the font color is not a theme color, NULL will be returned.
 
 ### getColor() {#getColor--}
 
-Gets or sets the [System.Drawing.Color](./system.drawing.color/) of the font.
+Gets or sets the [System.Drawing.Color](/nodejs-cpp/system.drawing.color/) of the font.
 
 ```javascript
 getColor() : Color;
@@ -615,11 +615,11 @@ getColor() : Color;
 
 **Returns**
 
-[Color](./color/)
+[Color](/nodejs-cpp/color/)
 
 ### setColor(Color) {#setColor-color-}
 
-Gets or sets the [System.Drawing.Color](./system.drawing.color/) of the font.
+Gets or sets the [System.Drawing.Color](/nodejs-cpp/system.drawing.color/) of the font.
 
 ```javascript
 setColor(value: Color) : void;
@@ -628,7 +628,7 @@ setColor(value: Color) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [Color](./color/) | The value to set. |
+| value | [Color](/nodejs-cpp/color/) | The value to set. |
 
 ### getArgbColor() {#getArgbColor--}
 
@@ -685,7 +685,7 @@ getSchemeType() : FontSchemeType;
 
 **Returns**
 
-[FontSchemeType](./fontschemetype/)
+[FontSchemeType](/nodejs-cpp/fontschemetype/)
 
 ### setSchemeType(FontSchemeType) {#setSchemeType-fontschemetype-}
 
@@ -698,7 +698,7 @@ setSchemeType(value: FontSchemeType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [FontSchemeType](./fontschemetype/) | The value to set. |
+| value | [FontSchemeType](/nodejs-cpp/fontschemetype/) | The value to set. |
 
 ### equals(Font) {#equals-font-}
 
@@ -711,7 +711,7 @@ equals(font: Font) : boolean;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| font | [Font](./font/) | Compared font object. |
+| font | [Font](/nodejs-cpp/font/) | Compared font object. |
 
 **Returns**
 

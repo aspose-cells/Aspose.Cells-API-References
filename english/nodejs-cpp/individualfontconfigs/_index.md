@@ -1,14 +1,14 @@
 ﻿---
 title: IndividualFontConfigs
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Font configs for each Workbook.workbook object.
+description: Font configs for each Workbooknodejscppworkbook object.
 type: docs
 url: /nodejs-cpp/individualfontconfigs/
 ---
 
 ## IndividualFontConfigs class
 
-Font configs for each [Workbook](./workbook/) object.
+Font configs for each [Workbook](/nodejs-cpp/workbook/) object.
 
 ```javascript
 class IndividualFontConfigs;
@@ -25,11 +25,11 @@ class IndividualFontConfigs;
 
 | Method | Description |
 | --- | --- |
-| [setFontSubstitutes(string, string[])](#setFontSubstitutes-string-string[]-)| Font substitute names for given original font name. |
+| [setFontSubstitutes(string, string[])](#setFontSubstitutes-string-stringarray-)| Font substitute names for given original font name. |
 | [getFontSubstitutes(string)](#getFontSubstitutes-string-)| Returns array containing font substitute names to be used if original font is not presented. |
 | [setFontFolder(string, boolean)](#setFontFolder-string-boolean-)| Sets the fonts folder |
-| [setFontFolders(string[], boolean)](#setFontFolders-string[]-boolean-)| Sets the fonts folders |
-| [setFontSources(FontSourceBase[])](#setFontSources-fontsourcebase[]-)| Sets the fonts sources. |
+| [setFontFolders(string[], boolean)](#setFontFolders-stringarray-boolean-)| Sets the fonts folders |
+| [setFontSources(FontSourceBase[])](#setFontSources-fontsourcebasearray-)| Sets the fonts sources. |
 | [getFontSources()](#getFontSources--)| Gets a copy of the array that contains the list of sources |
 
 
@@ -42,7 +42,7 @@ constructor();
 ```
 
 
-### setFontSubstitutes(string, string[]) {#setFontSubstitutes-string-string[]-}
+### setFontSubstitutes(string, string[]) {#setFontSubstitutes-string-stringarray-}
 
 Font substitute names for given original font name.
 
@@ -87,7 +87,7 @@ setFontFolder(fontFolder: string, recursive: boolean) : void;
 | fontFolder | string | The folder that contains TrueType fonts. |
 | recursive | boolean | Determines whether or not to scan subfolders. |
 
-### setFontFolders(string[], boolean) {#setFontFolders-string[]-boolean-}
+### setFontFolders(string[], boolean) {#setFontFolders-stringarray-boolean-}
 
 Sets the fonts folders
 
@@ -101,7 +101,7 @@ setFontFolders(fontFolders: string[], recursive: boolean) : void;
 | fontFolders | string[] | The folders that contains TrueType fonts. |
 | recursive | boolean | Determines whether or not to scan subfolders. |
 
-### setFontSources(FontSourceBase[]) {#setFontSources-fontsourcebase[]-}
+### setFontSources(FontSourceBase[]) {#setFontSources-fontsourcebasearray-}
 
 Sets the fonts sources.
 
@@ -112,7 +112,7 @@ setFontSources(sources: FontSourceBase[]) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sources | [FontSourceBase](./fontsourcebase/)[] | An array of sources that contain TrueType fonts. |
+| sources | [FontSourceBase](/nodejs-cpp/fontsourcebase/)[] | An array of sources that contain TrueType fonts. |
 
 ### getFontSources() {#getFontSources--}
 
@@ -125,6 +125,6 @@ getFontSources() : FontSourceBase[];
 
 **Returns**
 
-[FontSourceBase](./fontsourcebase/)[]
+[FontSourceBase](/nodejs-cpp/fontsourcebase/)[]
 
 

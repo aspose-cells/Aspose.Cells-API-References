@@ -19,7 +19,7 @@ class SheetSet;
 
 | Name | Description |
 | --- | --- |
-| [constructor(number[])](#constructor-number[]-)| Creates a sheet set based on exact sheet indexes. |
+| [constructor(number[])](#constructor-numberarray-)| Creates a sheet set based on exact sheet indexes. |
 
 ## Methods
 
@@ -30,7 +30,7 @@ class SheetSet;
 | static [getAll()](#getAll--)| Gets a set with all sheets of the workbook in their original order. |
 
 
-### constructor(number[]) {#constructor-number[]-}
+### constructor(number[]) {#constructor-numberarray-}
 
 Creates a sheet set based on exact sheet indexes.
 
@@ -58,7 +58,7 @@ static getActive() : SheetSet;
 
 **Returns**
 
-[SheetSet](./sheetset/)
+[SheetSet](/nodejs-cpp/sheetset/)
 
 ### getVisible() {#getVisible--}
 
@@ -71,7 +71,7 @@ static getVisible() : SheetSet;
 
 **Returns**
 
-[SheetSet](./sheetset/)
+[SheetSet](/nodejs-cpp/sheetset/)
 
 ### getAll() {#getAll--}
 
@@ -84,6 +84,6 @@ static getAll() : SheetSet;
 
 **Returns**
 
-[SheetSet](./sheetset/)
+[SheetSet](/nodejs-cpp/sheetset/)
 
 

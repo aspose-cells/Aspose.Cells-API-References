@@ -69,7 +69,7 @@ getType() : PropertyType;
 
 **Returns**
 
-[PropertyType](./propertytype/)
+[PropertyType](/nodejs-cpp/propertytype/)
 
 ### isGeneratedName() {#isGeneratedName--}
 

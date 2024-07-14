@@ -19,7 +19,7 @@ class FilterColumnCollection;
 
 | Method | Description |
 | --- | --- |
-| [get(number)](#get-number-)| Gets [FilterColumn](./filtercolumn/) object at the special field. |
+| [get(number)](#get-number-)| Gets [FilterColumn](/nodejs-cpp/filtercolumn/) object at the special field. |
 | [removeAt(number)](#removeAt-number-)|  |
 | [getByIndex(number)](#getByIndex-number-)| Returns a single Filter object from a collection. |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
@@ -27,7 +27,7 @@ class FilterColumnCollection;
 
 ### get(number) {#get-number-}
 
-Gets [FilterColumn](./filtercolumn/) object at the special field.
+Gets [FilterColumn](/nodejs-cpp/filtercolumn/) object at the special field.
 
 ```javascript
 get(fieldIndex: number) : FilterColumn;
@@ -40,7 +40,7 @@ get(fieldIndex: number) : FilterColumn;
 
 **Returns**
 
-Returns [FilterColumn](./filtercolumn/) object.
+Returns [FilterColumn](/nodejs-cpp/filtercolumn/) object.
 
 ### removeAt(number) {#removeAt-number-}
 
@@ -70,7 +70,7 @@ getByIndex(index: number) : FilterColumn;
 
 **Returns**
 
-[FilterColumn](./filtercolumn/)
+[FilterColumn](/nodejs-cpp/filtercolumn/)
 
 ### getCount() {#getCount--}
 

@@ -59,7 +59,7 @@ getCellsColor() : CellsColor;
 
 **Returns**
 
-[CellsColor](./cellscolor/)
+[CellsColor](/nodejs-cpp/cellscolor/)
 
 ### getTransparency() {#getTransparency--}
 

@@ -37,7 +37,7 @@ getConditionalStyle() : Style;
 
 **Returns**
 
-[Style](./style/)
+[Style](/nodejs-cpp/style/)
 
 ### getConditionalFormattingIcon() {#getConditionalFormattingIcon--}
 
@@ -50,7 +50,7 @@ getConditionalFormattingIcon() : ConditionalFormattingIcon;
 
 **Returns**
 
-[ConditionalFormattingIcon](./conditionalformattingicon/)
+[ConditionalFormattingIcon](/nodejs-cpp/conditionalformattingicon/)
 
 ### getConditionalFormattingDataBar() {#getConditionalFormattingDataBar--}
 
@@ -63,7 +63,7 @@ getConditionalFormattingDataBar() : DataBar;
 
 **Returns**
 
-[DataBar](./databar/)
+[DataBar](/nodejs-cpp/databar/)
 
 ### getConditionalFormattingColorScale() {#getConditionalFormattingColorScale--}
 
@@ -76,7 +76,7 @@ getConditionalFormattingColorScale() : ColorScale;
 
 **Returns**
 
-[ColorScale](./colorscale/)
+[ColorScale](/nodejs-cpp/colorscale/)
 
 ### getColorScaleResult() {#getColorScaleResult--}
 
@@ -89,6 +89,6 @@ getColorScaleResult() : Color;
 
 **Returns**
 
-[Color](./color/)
+[Color](/nodejs-cpp/color/)
 
 

@@ -44,7 +44,7 @@ abstract class PivotGlobalizationSettings;
 | [getTextOfMinutes()](#getTextOfMinutes--)| Gets the local text of "Minutes". |
 | [getTextOfSeconds()](#getTextOfSeconds--)| Gets the local text of "Seconds" |
 | [getTextOfRange()](#getTextOfRange--)| Gets the local text of "Range" |
-| [getTextOfSubTotal(PivotFieldSubtotalType)](#getTextOfSubTotal-pivotfieldsubtotaltype-)| Gets the text of [PivotFieldSubtotalType](./pivotfieldsubtotaltype/) type in the PivotTable. |
+| [getTextOfSubTotal(PivotFieldSubtotalType)](#getTextOfSubTotal-pivotfieldsubtotaltype-)| Gets the text of [PivotFieldSubtotalType](/nodejs-cpp/pivotfieldsubtotaltype/) type in the PivotTable. |
 
 
 ### constructor() {#constructor--}
@@ -281,7 +281,7 @@ getTextOfRange() : string;
 
 ### getTextOfSubTotal(PivotFieldSubtotalType) {#getTextOfSubTotal-pivotfieldsubtotaltype-}
 
-Gets the text of [PivotFieldSubtotalType](./pivotfieldsubtotaltype/) type in the PivotTable.
+Gets the text of [PivotFieldSubtotalType](/nodejs-cpp/pivotfieldsubtotaltype/) type in the PivotTable.
 
 ```javascript
 getTextOfSubTotal(subTotalType: PivotFieldSubtotalType) : string;
@@ -290,7 +290,7 @@ getTextOfSubTotal(subTotalType: PivotFieldSubtotalType) : string;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| subTotalType | [PivotFieldSubtotalType](./pivotfieldsubtotaltype/) | The [PivotFieldSubtotalType](./pivotfieldsubtotaltype/) |
+| subTotalType | [PivotFieldSubtotalType](/nodejs-cpp/pivotfieldsubtotaltype/) | The [PivotFieldSubtotalType](/nodejs-cpp/pivotfieldsubtotaltype/) |
 
 **Returns**
 

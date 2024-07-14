@@ -20,7 +20,7 @@ class ConditionalFormattingValueCollection;
 | Method | Description |
 | --- | --- |
 | [get(number)](#get-number-)| Get the CFValueObject element at the specified index. |
-| [add(FormatConditionValueType, string)](#add-formatconditionvaluetype-string-)| Adds [ConditionalFormattingValue](./conditionalformattingvalue/) object. |
+| [add(FormatConditionValueType, string)](#add-formatconditionvaluetype-string-)| Adds [ConditionalFormattingValue](/nodejs-cpp/conditionalformattingvalue/) object. |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
 
 
@@ -43,7 +43,7 @@ The element at the specified index.
 
 ### add(FormatConditionValueType, string) {#add-formatconditionvaluetype-string-}
 
-Adds [ConditionalFormattingValue](./conditionalformattingvalue/) object.
+Adds [ConditionalFormattingValue](/nodejs-cpp/conditionalformattingvalue/) object.
 
 ```javascript
 add(type: FormatConditionValueType, value: string) : number;
@@ -52,7 +52,7 @@ add(type: FormatConditionValueType, value: string) : number;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | [FormatConditionValueType](./formatconditionvaluetype/) | The value type. |
+| type | [FormatConditionValueType](/nodejs-cpp/formatconditionvaluetype/) | The value type. |
 | value | string | The value. |
 
 **Returns**

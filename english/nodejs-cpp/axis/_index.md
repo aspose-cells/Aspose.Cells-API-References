@@ -19,7 +19,7 @@ class Axis;
 
 | Method | Description |
 | --- | --- |
-| [getArea()](#getArea--)| Gets the [Area](./area/). |
+| [getArea()](#getArea--)| Gets the [Area](/nodejs-cpp/area/). |
 | [isAutomaticMinValue()](#isAutomaticMinValue--)| Indicates whether the min value is automatically assigned. |
 | [setIsAutomaticMinValue(boolean)](#setIsAutomaticMinValue-boolean-)| Indicates whether the min value is automatically assigned. |
 | [isAutomaticMaxValue()](#isAutomaticMaxValue--)| Indicates whether the max value is automatically assigned. |
@@ -41,8 +41,8 @@ class Axis;
 | [setTickLabelPosition(TickLabelPositionType)](#setTickLabelPosition-ticklabelpositiontype-)| Represents the position of tick-mark labels on the specified axis. |
 | [getCrossAt()](#getCrossAt--)| Represents the point on the value axis where the category axis crosses it. |
 | [setCrossAt(number)](#setCrossAt-number-)| Represents the point on the value axis where the category axis crosses it. |
-| [getCrossType()](#getCrossType--)| Represents the [CrossType](./crosstype/) on the specified axis where the other axis crosses. |
-| [setCrossType(CrossType)](#setCrossType-crosstype-)| Represents the [CrossType](./crosstype/) on the specified axis where the other axis crosses. |
+| [getCrossType()](#getCrossType--)| Represents the [CrossType](/nodejs-cpp/crosstype/) on the specified axis where the other axis crosses. |
+| [setCrossType(CrossType)](#setCrossType-crosstype-)| Represents the [CrossType](/nodejs-cpp/crosstype/) on the specified axis where the other axis crosses. |
 | [getLogBase()](#getLogBase--)| Represents the logarithmic base. Default value is 10.Only applies for Excel2007. |
 | [setLogBase(number)](#setLogBase-number-)| Represents the logarithmic base. Default value is 10.Only applies for Excel2007. |
 | [isLogarithmic()](#isLogarithmic--)| Represents if the value axis scale type is logarithmic or not. |
@@ -51,7 +51,7 @@ class Axis;
 | [setIsPlotOrderReversed(boolean)](#setIsPlotOrderReversed-boolean-)| Represents if Microsoft Excel plots data points from last to first. |
 | [getAxisBetweenCategories()](#getAxisBetweenCategories--)| Represents if the value axis crosses the category axis between categories. |
 | [setAxisBetweenCategories(boolean)](#setAxisBetweenCategories-boolean-)| Represents if the value axis crosses the category axis between categories. |
-| [getTickLabels()](#getTickLabels--)| Returns a [TickLabels](./ticklabels/) object that represents the tick-mark labels for the specified axis. |
+| [getTickLabels()](#getTickLabels--)| Returns a [TickLabels](/nodejs-cpp/ticklabels/) object that represents the tick-mark labels for the specified axis. |
 | [getTickLabelSpacing()](#getTickLabelSpacing--)| Represents the number of categories or series between tick-mark labels. Applies only to category and series axes. |
 | [setTickLabelSpacing(number)](#setTickLabelSpacing-number-)| Represents the number of categories or series between tick-mark labels. Applies only to category and series axes. |
 | [isAutoTickLabelSpacing()](#isAutoTickLabelSpacing--)| Indicates whether the spacing of tick label is automatic |
@@ -86,7 +86,7 @@ class Axis;
 
 ### getArea() {#getArea--}
 
-Gets the [Area](./area/).
+Gets the [Area](/nodejs-cpp/area/).
 
 ```javascript
 getArea() : Area;
@@ -95,7 +95,7 @@ getArea() : Area;
 
 **Returns**
 
-[Area](./area/)
+[Area](/nodejs-cpp/area/)
 
 ### isAutomaticMinValue() {#isAutomaticMinValue--}
 
@@ -256,7 +256,7 @@ getAxisLine() : Line;
 
 **Returns**
 
-[Line](./line/)
+[Line](/nodejs-cpp/line/)
 
 ### getMajorTickMark() {#getMajorTickMark--}
 
@@ -269,7 +269,7 @@ getMajorTickMark() : TickMarkType;
 
 **Returns**
 
-[TickMarkType](./tickmarktype/)
+[TickMarkType](/nodejs-cpp/tickmarktype/)
 
 ### setMajorTickMark(TickMarkType) {#setMajorTickMark-tickmarktype-}
 
@@ -282,7 +282,7 @@ setMajorTickMark(value: TickMarkType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [TickMarkType](./tickmarktype/) | The value to set. |
+| value | [TickMarkType](/nodejs-cpp/tickmarktype/) | The value to set. |
 
 ### getMinorTickMark() {#getMinorTickMark--}
 
@@ -295,7 +295,7 @@ getMinorTickMark() : TickMarkType;
 
 **Returns**
 
-[TickMarkType](./tickmarktype/)
+[TickMarkType](/nodejs-cpp/tickmarktype/)
 
 ### setMinorTickMark(TickMarkType) {#setMinorTickMark-tickmarktype-}
 
@@ -308,7 +308,7 @@ setMinorTickMark(value: TickMarkType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [TickMarkType](./tickmarktype/) | The value to set. |
+| value | [TickMarkType](/nodejs-cpp/tickmarktype/) | The value to set. |
 
 ### getTickLabelPosition() {#getTickLabelPosition--}
 
@@ -321,7 +321,7 @@ getTickLabelPosition() : TickLabelPositionType;
 
 **Returns**
 
-[TickLabelPositionType](./ticklabelpositiontype/)
+[TickLabelPositionType](/nodejs-cpp/ticklabelpositiontype/)
 
 ### setTickLabelPosition(TickLabelPositionType) {#setTickLabelPosition-ticklabelpositiontype-}
 
@@ -334,7 +334,7 @@ setTickLabelPosition(value: TickLabelPositionType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [TickLabelPositionType](./ticklabelpositiontype/) | The value to set. |
+| value | [TickLabelPositionType](/nodejs-cpp/ticklabelpositiontype/) | The value to set. |
 
 ### getCrossAt() {#getCrossAt--}
 
@@ -368,7 +368,7 @@ The number should be a integer when it applies to category axis. And the value m
 
 ### getCrossType() {#getCrossType--}
 
-Represents the [CrossType](./crosstype/) on the specified axis where the other axis crosses.
+Represents the [CrossType](/nodejs-cpp/crosstype/) on the specified axis where the other axis crosses.
 
 ```javascript
 getCrossType() : CrossType;
@@ -377,11 +377,11 @@ getCrossType() : CrossType;
 
 **Returns**
 
-[CrossType](./crosstype/)
+[CrossType](/nodejs-cpp/crosstype/)
 
 ### setCrossType(CrossType) {#setCrossType-crosstype-}
 
-Represents the [CrossType](./crosstype/) on the specified axis where the other axis crosses.
+Represents the [CrossType](/nodejs-cpp/crosstype/) on the specified axis where the other axis crosses.
 
 ```javascript
 setCrossType(value: CrossType) : void;
@@ -390,7 +390,7 @@ setCrossType(value: CrossType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [CrossType](./crosstype/) | The value to set. |
+| value | [CrossType](/nodejs-cpp/crosstype/) | The value to set. |
 
 ### getLogBase() {#getLogBase--}
 
@@ -490,7 +490,7 @@ This property applies only to category axes, and it doesn't apply to 3-D charts.
 
 ### getTickLabels() {#getTickLabels--}
 
-Returns a [TickLabels](./ticklabels/) object that represents the tick-mark labels for the specified axis.
+Returns a [TickLabels](/nodejs-cpp/ticklabels/) object that represents the tick-mark labels for the specified axis.
 
 ```javascript
 getTickLabels() : TickLabels;
@@ -499,7 +499,7 @@ getTickLabels() : TickLabels;
 
 **Returns**
 
-[TickLabels](./ticklabels/)
+[TickLabels](/nodejs-cpp/ticklabels/)
 
 ### getTickLabelSpacing() {#getTickLabelSpacing--}
 
@@ -594,7 +594,7 @@ getDisplayUnit() : DisplayUnitType;
 
 **Returns**
 
-[DisplayUnitType](./displayunittype/)
+[DisplayUnitType](/nodejs-cpp/displayunittype/)
 
 ### setDisplayUnit(DisplayUnitType) {#setDisplayUnit-displayunittype-}
 
@@ -607,7 +607,7 @@ setDisplayUnit(value: DisplayUnitType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [DisplayUnitType](./displayunittype/) | The value to set. |
+| value | [DisplayUnitType](/nodejs-cpp/displayunittype/) | The value to set. |
 
 ### getCustomUnit() {#getCustomUnit--}
 
@@ -642,7 +642,7 @@ getDisplayUnitLabel() : DisplayUnitLabel;
 
 **Returns**
 
-[DisplayUnitLabel](./displayunitlabel/)
+[DisplayUnitLabel](/nodejs-cpp/displayunitlabel/)
 
 ### isDisplayUnitLabelShown() {#isDisplayUnitLabelShown--}
 
@@ -685,7 +685,7 @@ getTitle() : Title;
 
 **Returns**
 
-[Title](./title/)
+[Title](/nodejs-cpp/title/)
 
 ### getCategoryType() {#getCategoryType--}
 
@@ -698,7 +698,7 @@ getCategoryType() : CategoryType;
 
 **Returns**
 
-[CategoryType](./categorytype/)
+[CategoryType](/nodejs-cpp/categorytype/)
 
 ### setCategoryType(CategoryType) {#setCategoryType-categorytype-}
 
@@ -711,7 +711,7 @@ setCategoryType(value: CategoryType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [CategoryType](./categorytype/) | The value to set. |
+| value | [CategoryType](/nodejs-cpp/categorytype/) | The value to set. |
 
 ### getBaseUnitScale() {#getBaseUnitScale--}
 
@@ -724,7 +724,7 @@ getBaseUnitScale() : TimeUnit;
 
 **Returns**
 
-[TimeUnit](./timeunit/)
+[TimeUnit](/nodejs-cpp/timeunit/)
 
 **Remarks**
 
@@ -741,7 +741,7 @@ setBaseUnitScale(value: TimeUnit) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [TimeUnit](./timeunit/) | The value to set. |
+| value | [TimeUnit](/nodejs-cpp/timeunit/) | The value to set. |
 
 **Remarks**
 
@@ -758,7 +758,7 @@ getMajorUnitScale() : TimeUnit;
 
 **Returns**
 
-[TimeUnit](./timeunit/)
+[TimeUnit](/nodejs-cpp/timeunit/)
 
 ### setMajorUnitScale(TimeUnit) {#setMajorUnitScale-timeunit-}
 
@@ -771,7 +771,7 @@ setMajorUnitScale(value: TimeUnit) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [TimeUnit](./timeunit/) | The value to set. |
+| value | [TimeUnit](/nodejs-cpp/timeunit/) | The value to set. |
 
 ### getMinorUnitScale() {#getMinorUnitScale--}
 
@@ -784,7 +784,7 @@ getMinorUnitScale() : TimeUnit;
 
 **Returns**
 
-[TimeUnit](./timeunit/)
+[TimeUnit](/nodejs-cpp/timeunit/)
 
 ### setMinorUnitScale(TimeUnit) {#setMinorUnitScale-timeunit-}
 
@@ -797,7 +797,7 @@ setMinorUnitScale(value: TimeUnit) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [TimeUnit](./timeunit/) | The value to set. |
+| value | [TimeUnit](/nodejs-cpp/timeunit/) | The value to set. |
 
 ### isVisible() {#isVisible--}
 
@@ -832,7 +832,7 @@ getMajorGridLines() : Line;
 
 **Returns**
 
-[Line](./line/)
+[Line](/nodejs-cpp/line/)
 
 ### getMinorGridLines() {#getMinorGridLines--}
 
@@ -845,7 +845,7 @@ getMinorGridLines() : Line;
 
 **Returns**
 
-[Line](./line/)
+[Line](/nodejs-cpp/line/)
 
 ### getHasMultiLevelLabels() {#getHasMultiLevelLabels--}
 
@@ -888,7 +888,7 @@ getBins() : AxisBins;
 
 **Returns**
 
-[AxisBins](./axisbins/)
+[AxisBins](/nodejs-cpp/axisbins/)
 
 ### getAxisTexts() {#getAxisTexts--}
 

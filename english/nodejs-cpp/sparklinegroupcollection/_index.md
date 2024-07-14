@@ -1,14 +1,14 @@
 ﻿---
 title: SparklineGroupCollection
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Encapsulates a collection of SparklineGroup.sparklinegroup objects.
+description: Encapsulates a collection of SparklineGroupnodejscppsparklinegroup objects.
 type: docs
 url: /nodejs-cpp/sparklinegroupcollection/
 ---
 
 ## SparklineGroupCollection class
 
-Encapsulates a collection of [SparklineGroup](./sparklinegroup/) objects.
+Encapsulates a collection of [SparklineGroup](/nodejs-cpp/sparklinegroup/) objects.
 
 ```javascript
 class SparklineGroupCollection;
@@ -19,9 +19,9 @@ class SparklineGroupCollection;
 
 | Method | Description |
 | --- | --- |
-| [get(number)](#get-number-)| Gets the [SparklineGroup](./sparklinegroup/) element at the specified index. |
-| [add(SparklineType)](#add-sparklinetype-)| Adds an [SparklineGroup](./sparklinegroup/) with a [SparklineGroup](./sparklinegroup/) to the collection. |
-| [add(SparklineType, string, boolean, CellArea)](#add-sparklinetype-string-boolean-cellarea-)| Adds an [SparklineGroup](./sparklinegroup/) with [SparklineGroup](./sparklinegroup/) to the collection. |
+| [get(number)](#get-number-)| Gets the [SparklineGroup](/nodejs-cpp/sparklinegroup/) element at the specified index. |
+| [add(SparklineType)](#add-sparklinetype-)| Adds an [SparklineGroup](/nodejs-cpp/sparklinegroup/) with a [SparklineGroup](/nodejs-cpp/sparklinegroup/) to the collection. |
+| [add(SparklineType, string, boolean, CellArea)](#add-sparklinetype-string-boolean-cellarea-)| Adds an [SparklineGroup](/nodejs-cpp/sparklinegroup/) with [SparklineGroup](/nodejs-cpp/sparklinegroup/) to the collection. |
 | [clearSparklines(CellArea)](#clearSparklines-cellarea-)| Clears the sparklines that is inside an area of cells. |
 | [clearSparklineGroups(CellArea)](#clearSparklineGroups-cellarea-)| Clears the sparkline groups that overlaps an area of cells. |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
@@ -29,7 +29,7 @@ class SparklineGroupCollection;
 
 ### get(number) {#get-number-}
 
-Gets the [SparklineGroup](./sparklinegroup/) element at the specified index.
+Gets the [SparklineGroup](/nodejs-cpp/sparklinegroup/) element at the specified index.
 
 ```javascript
 get(index: number) : SparklineGroup;
@@ -46,7 +46,7 @@ The element at the specified index.
 
 ### add(SparklineType) {#add-sparklinetype-}
 
-Adds an [SparklineGroup](./sparklinegroup/) with a [SparklineGroup](./sparklinegroup/) to the collection.
+Adds an [SparklineGroup](/nodejs-cpp/sparklinegroup/) with a [SparklineGroup](/nodejs-cpp/sparklinegroup/) to the collection.
 
 ```javascript
 add(type: SparklineType) : number;
@@ -55,15 +55,15 @@ add(type: SparklineType) : number;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | [SparklineType](./sparklinetype/) | Specifies the type of the Sparkline group. |
+| type | [SparklineType](/nodejs-cpp/sparklinetype/) | Specifies the type of the Sparkline group. |
 
 **Returns**
 
-[SparklineGroup](./sparklinegroup/) object index.
+[SparklineGroup](/nodejs-cpp/sparklinegroup/) object index.
 
 ### add(SparklineType, string, boolean, CellArea) {#add-sparklinetype-string-boolean-cellarea-}
 
-Adds an [SparklineGroup](./sparklinegroup/) with [SparklineGroup](./sparklinegroup/) to the collection.
+Adds an [SparklineGroup](/nodejs-cpp/sparklinegroup/) with [SparklineGroup](/nodejs-cpp/sparklinegroup/) to the collection.
 
 ```javascript
 add(type: SparklineType, dataRange: string, isVertical: boolean, locationRange: CellArea) : number;
@@ -72,14 +72,14 @@ add(type: SparklineType, dataRange: string, isVertical: boolean, locationRange: 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | [SparklineType](./sparklinetype/) | Specifies the type of the Sparkline group. |
+| type | [SparklineType](/nodejs-cpp/sparklinetype/) | Specifies the type of the Sparkline group. |
 | dataRange | string | Specifies the data range of the sparkline group. |
 | isVertical | boolean | Specifies whether to plot the sparklines from the data range by row or by column. |
-| locationRange | [CellArea](./cellarea/) | Specifies where the sparklines to be placed. |
+| locationRange | [CellArea](/nodejs-cpp/cellarea/) | Specifies where the sparklines to be placed. |
 
 **Returns**
 
-[SparklineGroup](./sparklinegroup/) object index.
+[SparklineGroup](/nodejs-cpp/sparklinegroup/) object index.
 
 ### clearSparklines(CellArea) {#clearSparklines-cellarea-}
 
@@ -92,7 +92,7 @@ clearSparklines(cellArea: CellArea) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| cellArea | [CellArea](./cellarea/) | Specifies the area of cells |
+| cellArea | [CellArea](/nodejs-cpp/cellarea/) | Specifies the area of cells |
 
 ### clearSparklineGroups(CellArea) {#clearSparklineGroups-cellarea-}
 
@@ -105,7 +105,7 @@ clearSparklineGroups(cellArea: CellArea) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| cellArea | [CellArea](./cellarea/) | Specifies the area of cells |
+| cellArea | [CellArea](/nodejs-cpp/cellarea/) | Specifies the area of cells |
 
 ### getCount() {#getCount--}
 

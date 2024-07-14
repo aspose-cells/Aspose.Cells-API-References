@@ -1,14 +1,14 @@
 ﻿---
 title: ProtectedRangeCollection
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Encapsulates a collection of ProtectedRange.protectedrange objects.
+description: Encapsulates a collection of ProtectedRangenodejscppprotectedrange objects.
 type: docs
 url: /nodejs-cpp/protectedrangecollection/
 ---
 
 ## ProtectedRangeCollection class
 
-Encapsulates a collection of [ProtectedRange](./protectedrange/) objects.
+Encapsulates a collection of [ProtectedRange](/nodejs-cpp/protectedrange/) objects.
 
 ```javascript
 class ProtectedRangeCollection;
@@ -19,14 +19,14 @@ class ProtectedRangeCollection;
 
 | Method | Description |
 | --- | --- |
-| [get(number)](#get-number-)| Gets the [ProtectedRange](./protectedrange/) element at the specified index. |
-| [add(string, number, number, number, number)](#add-string-number-number-number-number-)| Adds a [ProtectedRange](./protectedrange/) item to the collection. |
+| [get(number)](#get-number-)| Gets the [ProtectedRange](/nodejs-cpp/protectedrange/) element at the specified index. |
+| [add(string, number, number, number, number)](#add-string-number-number-number-number-)| Adds a [ProtectedRange](/nodejs-cpp/protectedrange/) item to the collection. |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
 
 
 ### get(number) {#get-number-}
 
-Gets the [ProtectedRange](./protectedrange/) element at the specified index.
+Gets the [ProtectedRange](/nodejs-cpp/protectedrange/) element at the specified index.
 
 ```javascript
 get(index: number) : ProtectedRange;
@@ -43,7 +43,7 @@ The element at the specified index.
 
 ### add(string, number, number, number, number) {#add-string-number-number-number-number-}
 
-Adds a [ProtectedRange](./protectedrange/) item to the collection.
+Adds a [ProtectedRange](/nodejs-cpp/protectedrange/) item to the collection.
 
 ```javascript
 add(name: string, startRow: number, startColumn: number, endRow: number, endColumn: number) : number;

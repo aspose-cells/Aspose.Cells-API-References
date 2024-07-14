@@ -45,7 +45,7 @@ getSubtotalFunction() : ConsolidationFunction;
 
 **Returns**
 
-[ConsolidationFunction](./consolidationfunction/)
+[ConsolidationFunction](/nodejs-cpp/consolidationfunction/)
 
 ### getTotalList() {#getTotalList--}
 

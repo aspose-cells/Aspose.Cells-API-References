@@ -42,7 +42,7 @@ constructor(type: ThemeColorType, tint: number);
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | [ThemeColorType](./themecolortype/) | The theme type. |
+| type | [ThemeColorType](/nodejs-cpp/themecolortype/) | The theme type. |
 | tint | number | The tint value. |
 
 ### getColorType() {#getColorType--}
@@ -56,7 +56,7 @@ getColorType() : ThemeColorType;
 
 **Returns**
 
-[ThemeColorType](./themecolortype/)
+[ThemeColorType](/nodejs-cpp/themecolortype/)
 
 ### setColorType(ThemeColorType) {#setColorType-themecolortype-}
 
@@ -69,7 +69,7 @@ setColorType(value: ThemeColorType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ThemeColorType](./themecolortype/) | The value to set. |
+| value | [ThemeColorType](/nodejs-cpp/themecolortype/) | The value to set. |
 
 ### getTint() {#getTint--}
 

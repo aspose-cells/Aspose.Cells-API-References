@@ -1,14 +1,14 @@
 ﻿---
 title: XmlMapCollection
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: A collection of XmlMap.xmlmap objects that represent XmlMap information.
+description: A collection of XmlMapnodejscppxmlmap objects that represent XmlMap information.
 type: docs
 url: /nodejs-cpp/xmlmapcollection/
 ---
 
 ## XmlMapCollection class
 
-A collection of [XmlMap](./xmlmap/) objects that represent XmlMap information.
+A collection of [XmlMap](/nodejs-cpp/xmlmap/) objects that represent XmlMap information.
 
 ```javascript
 class XmlMapCollection;
@@ -20,7 +20,7 @@ class XmlMapCollection;
 | Method | Description |
 | --- | --- |
 | [get(number)](#get-number-)| Gets the xml map by the specific index. |
-| [add(string)](#add-string-)| Add a [XmlMap](./xmlmap/) by the url/path of a xml/xsd file. |
+| [add(string)](#add-string-)| Add a [XmlMap](/nodejs-cpp/xmlmap/) by the url/path of a xml/xsd file. |
 | [clear()](#clear--)| Removes all XmlMaps. |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
 
@@ -44,7 +44,7 @@ The xml map
 
 ### add(string) {#add-string-}
 
-Add a [XmlMap](./xmlmap/) by the url/path of a xml/xsd file.
+Add a [XmlMap](/nodejs-cpp/xmlmap/) by the url/path of a xml/xsd file.
 
 ```javascript
 add(url: string) : number;
@@ -57,7 +57,7 @@ add(url: string) : number;
 
 **Returns**
 
-[XmlMap](./xmlmap/) object index.
+[XmlMap](/nodejs-cpp/xmlmap/) object index.
 
 ### clear() {#clear--}
 

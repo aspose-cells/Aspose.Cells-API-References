@@ -24,7 +24,7 @@ User should not modify any part of the Workbook directly in this implementation(
 | [calculate(CalculationData)](#calculate-calculationdata-)| Calculates one function with given data. |
 | [forceRecalculate(string)](#forceRecalculate-string-)| Whether force given function to be recalculated always when calculating shared formulas. |
 | abstract [isParamLiteralRequired()](#isParamLiteralRequired--)| Indicates whether this engine needs the literal text of parameter while doing calculation. Default value is false. |
-| abstract [isParamArrayModeRequired()](#isParamArrayModeRequired--)| Indicates whether this engine needs the parameter to be calculated in array mode. Default value is false. If [CalculationData.GetParamValueInArrayMode(int, int, int)](./calculationdata.getparamvalueinarraymode(int, int, int)/) is required when calculating custom functions and user has not updated the definition for them (by [Workbook.UpdateCustomFunctionDefinition(CustomFunctionDefinition)](./workbook.updatecustomfunctiondefinition(customfunctiondefinition)/)), this property needs to be set as true. |
+| abstract [isParamArrayModeRequired()](#isParamArrayModeRequired--)| Indicates whether this engine needs the parameter to be calculated in array mode. Default value is false. If [CalculationData.GetParamValueInArrayMode(int, int, int)](/nodejs-cpp/calculationdata.getparamvalueinarraymode(int, int, int)/) is required when calculating custom functions and user has not updated the definition for them (by [Workbook.UpdateCustomFunctionDefinition(CustomFunctionDefinition)](/nodejs-cpp/workbook.updatecustomfunctiondefinition(customfunctiondefinition)/)), this property needs to be set as true. |
 | abstract [getProcessBuiltInFunctions()](#getProcessBuiltInFunctions--)| Whether built-in functions that have been supported by the built-in engine should be checked and processed by this implementation. Default is false. |
 
 
@@ -39,7 +39,7 @@ calculate(data: CalculationData) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| data | [CalculationData](./calculationdata/) | the required data to calculate function such as function name, parameters, ...etc. |
+| data | [CalculationData](/nodejs-cpp/calculationdata/) | the required data to calculate function such as function name, parameters, ...etc. |
 
 **Remarks**
 
@@ -56,7 +56,7 @@ forceRecalculate(functionName: string) : boolean;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| functionName | string | name of the function. Generally it is custom function's name.         /// If [ProcessBuiltInFunctions](./processbuiltinfunctions/) is true, then built-in functions will also be checked here. |
+| functionName | string | name of the function. Generally it is custom function's name.         /// If [ProcessBuiltInFunctions](/nodejs-cpp/processbuiltinfunctions/) is true, then built-in functions will also be checked here. |
 
 **Returns**
 
@@ -64,7 +64,7 @@ true if the specified function needs to be recalculated always.
 
 **Remarks**
 
-For shared formulas, multiple cells share the same function. If the function's parameters keep same for those cells too, then generally this function needs to be calculated only once. So for performance consideration we only calculate such kind of function once too([Calculate(CalculationData)](./calculate(calculationdata)/) is called only once, instead of being called repeatedly for every cell). However, for user's custom implementation, maybe the function, especially the custom function, needs to be calculated differently for different cells. If so, user needs to override this method to make it return true for the function. And for [Calculate(CalculationData)](./calculate(calculationdata)/), the given [Calculate(CalculationData)](./calculate(calculationdata)/) may have been initialized with the cached value of previous calculation.
+For shared formulas, multiple cells share the same function. If the function's parameters keep same for those cells too, then generally this function needs to be calculated only once. So for performance consideration we only calculate such kind of function once too([Calculate(CalculationData)](/nodejs-cpp/calculate(calculationdata)/) is called only once, instead of being called repeatedly for every cell). However, for user's custom implementation, maybe the function, especially the custom function, needs to be calculated differently for different cells. If so, user needs to override this method to make it return true for the function. And for [Calculate(CalculationData)](/nodejs-cpp/calculate(calculationdata)/), the given [Calculate(CalculationData)](/nodejs-cpp/calculate(calculationdata)/) may have been initialized with the cached value of previous calculation.
 
 ### isParamLiteralRequired() {#isParamLiteralRequired--}
 
@@ -81,7 +81,7 @@ If this custom calculation engine needs the parameter's literal text, more stack
 
 ### isParamArrayModeRequired() {#isParamArrayModeRequired--}
 
-Indicates whether this engine needs the parameter to be calculated in array mode. Default value is false. If [CalculationData.GetParamValueInArrayMode(int, int, int)](./calculationdata.getparamvalueinarraymode(int, int, int)/) is required when calculating custom functions and user has not updated the definition for them (by [Workbook.UpdateCustomFunctionDefinition(CustomFunctionDefinition)](./workbook.updatecustomfunctiondefinition(customfunctiondefinition)/)), this property needs to be set as true.
+Indicates whether this engine needs the parameter to be calculated in array mode. Default value is false. If [CalculationData.GetParamValueInArrayMode(int, int, int)](/nodejs-cpp/calculationdata.getparamvalueinarraymode(int, int, int)/) is required when calculating custom functions and user has not updated the definition for them (by [Workbook.UpdateCustomFunctionDefinition(CustomFunctionDefinition)](/nodejs-cpp/workbook.updatecustomfunctiondefinition(customfunctiondefinition)/)), this property needs to be set as true.
 
 ```javascript
 abstract isParamArrayModeRequired() : boolean;

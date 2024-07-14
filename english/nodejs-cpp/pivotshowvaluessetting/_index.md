@@ -40,7 +40,7 @@ getCalculationType() : PivotFieldDataDisplayFormat;
 
 **Returns**
 
-[PivotFieldDataDisplayFormat](./pivotfielddatadisplayformat/)
+[PivotFieldDataDisplayFormat](/nodejs-cpp/pivotfielddatadisplayformat/)
 
 ### setCalculationType(PivotFieldDataDisplayFormat) {#setCalculationType-pivotfielddatadisplayformat-}
 
@@ -53,7 +53,7 @@ setCalculationType(value: PivotFieldDataDisplayFormat) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [PivotFieldDataDisplayFormat](./pivotfielddatadisplayformat/) | The value to set. |
+| value | [PivotFieldDataDisplayFormat](/nodejs-cpp/pivotfielddatadisplayformat/) | The value to set. |
 
 ### getBaseFieldIndex() {#getBaseFieldIndex--}
 
@@ -88,7 +88,7 @@ getBaseItemPositionType() : PivotItemPositionType;
 
 **Returns**
 
-[PivotItemPositionType](./pivotitempositiontype/)
+[PivotItemPositionType](/nodejs-cpp/pivotitempositiontype/)
 
 ### setBaseItemPositionType(PivotItemPositionType) {#setBaseItemPositionType-pivotitempositiontype-}
 
@@ -101,7 +101,7 @@ setBaseItemPositionType(value: PivotItemPositionType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [PivotItemPositionType](./pivotitempositiontype/) | The value to set. |
+| value | [PivotItemPositionType](/nodejs-cpp/pivotitempositiontype/) | The value to set. |
 
 ### getBaseItemIndex() {#getBaseItemIndex--}
 

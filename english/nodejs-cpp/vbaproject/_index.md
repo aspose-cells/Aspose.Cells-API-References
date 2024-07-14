@@ -28,7 +28,7 @@ class VbaProject;
 | [isSigned()](#isSigned--)| Indicates whether VBAcode is signed or not. |
 | [isProtected()](#isProtected--)| Indicates whether this VBA project is protected. |
 | [getIslockedForViewing()](#getIslockedForViewing--)| Indicates whether this VBA project is locked for viewing. |
-| [getModules()](#getModules--)| Gets all [VbaModule](./vbamodule/) objects. |
+| [getModules()](#getModules--)| Gets all [VbaModule](/nodejs-cpp/vbamodule/) objects. |
 | [getReferences()](#getReferences--)| Gets all references of VBA project. |
 | [sign(DigitalSignature)](#sign-digitalsignature-)| Sign this VBA project by a DigitalSignature |
 | [protect(boolean, string)](#protect-boolean-string-)| Protects or unprotects this VBA project. |
@@ -69,7 +69,7 @@ getEncoding() : EncodingType;
 
 **Returns**
 
-[EncodingType](./encodingtype/)
+[EncodingType](/nodejs-cpp/encodingtype/)
 
 ### setEncoding(EncodingType) {#setEncoding-encodingtype-}
 
@@ -82,7 +82,7 @@ setEncoding(value: EncodingType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [EncodingType](./encodingtype/) | The value to set. |
+| value | [EncodingType](/nodejs-cpp/encodingtype/) | The value to set. |
 
 ### getName() {#getName--}
 
@@ -135,7 +135,7 @@ getIslockedForViewing() : boolean;
 
 ### getModules() {#getModules--}
 
-Gets all [VbaModule](./vbamodule/) objects.
+Gets all [VbaModule](/nodejs-cpp/vbamodule/) objects.
 
 ```javascript
 getModules() : VbaModuleCollection;
@@ -144,7 +144,7 @@ getModules() : VbaModuleCollection;
 
 **Returns**
 
-[VbaModuleCollection](./vbamodulecollection/)
+[VbaModuleCollection](/nodejs-cpp/vbamodulecollection/)
 
 ### getReferences() {#getReferences--}
 
@@ -157,7 +157,7 @@ getReferences() : VbaProjectReferenceCollection;
 
 **Returns**
 
-[VbaProjectReferenceCollection](./vbaprojectreferencecollection/)
+[VbaProjectReferenceCollection](/nodejs-cpp/vbaprojectreferencecollection/)
 
 ### sign(DigitalSignature) {#sign-digitalsignature-}
 
@@ -170,7 +170,7 @@ sign(digitalSignature: DigitalSignature) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| digitalSignature | [DigitalSignature](./digitalsignature/) | DigitalSignature |
+| digitalSignature | [DigitalSignature](/nodejs-cpp/digitalsignature/) | DigitalSignature |
 
 ### protect(boolean, string) {#protect-boolean-string-}
 
@@ -201,7 +201,7 @@ copy(source: VbaProject) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| source | [VbaProject](./vbaproject/) |  |
+| source | [VbaProject](/nodejs-cpp/vbaproject/) |  |
 
 ### validatePassword(string) {#validatePassword-string-}
 

@@ -1,14 +1,14 @@
 ﻿---
 title: HyperlinkCollection
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Encapsulates a collection of Hyperlink.hyperlink objects.
+description: Encapsulates a collection of Hyperlinknodejscpphyperlink objects.
 type: docs
 url: /nodejs-cpp/hyperlinkcollection/
 ---
 
 ## HyperlinkCollection class
 
-Encapsulates a collection of [Hyperlink](./hyperlink/) objects.
+Encapsulates a collection of [Hyperlink](/nodejs-cpp/hyperlink/) objects.
 
 ```javascript
 class HyperlinkCollection;
@@ -19,7 +19,7 @@ class HyperlinkCollection;
 
 | Method | Description |
 | --- | --- |
-| [get(number)](#get-number-)| Gets the [Hyperlink](./hyperlink/) element at the specified index. |
+| [get(number)](#get-number-)| Gets the [Hyperlink](/nodejs-cpp/hyperlink/) element at the specified index. |
 | [add(number, number, number, number, string)](#add-number-number-number-number-string-)| Adds a hyperlink to a specified cell or a range of cells. |
 | [add(string, number, number, string)](#add-string-number-number-string-)| Adds a hyperlink to a specified cell or a range of cells. |
 | [add(string, string, string, string, string)](#add-string-string-string-string-string-)| Adds a hyperlink to a specified cell or a range of cells. |
@@ -30,7 +30,7 @@ class HyperlinkCollection;
 
 ### get(number) {#get-number-}
 
-Gets the [Hyperlink](./hyperlink/) element at the specified index.
+Gets the [Hyperlink](/nodejs-cpp/hyperlink/) element at the specified index.
 
 ```javascript
 get(index: number) : Hyperlink;
@@ -64,7 +64,7 @@ add(firstRow: number, firstColumn: number, totalRows: number, totalColumns: numb
 
 **Returns**
 
-[Hyperlink](./hyperlink/) object index.
+[Hyperlink](/nodejs-cpp/hyperlink/) object index.
 
 ### add(string, number, number, string) {#add-string-number-number-string-}
 
@@ -84,7 +84,7 @@ add(cellName: string, totalRows: number, totalColumns: number, address: string) 
 
 **Returns**
 
-[Hyperlink](./hyperlink/) object index.
+[Hyperlink](/nodejs-cpp/hyperlink/) object index.
 
 ### add(string, string, string, string, string) {#add-string-string-string-string-string-}
 
@@ -105,7 +105,7 @@ add(startCellName: string, endCellName: string, address: string, textToDisplay: 
 
 **Returns**
 
-[Hyperlink](./hyperlink/) object index.
+[Hyperlink](/nodejs-cpp/hyperlink/) object index.
 
 ### removeAt(number) {#removeAt-number-}
 

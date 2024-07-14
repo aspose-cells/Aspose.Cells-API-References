@@ -53,7 +53,7 @@ getPaths() : ShapePathCollection;
 
 **Returns**
 
-[ShapePathCollection](./shapepathcollection/)
+[ShapePathCollection](/nodejs-cpp/shapepathcollection/)
 
 ### getShapeAdjustValues() {#getShapeAdjustValues--}
 
@@ -66,6 +66,6 @@ getShapeAdjustValues() : ShapeGuideCollection;
 
 **Returns**
 
-[ShapeGuideCollection](./shapeguidecollection/)
+[ShapeGuideCollection](/nodejs-cpp/shapeguidecollection/)
 
 

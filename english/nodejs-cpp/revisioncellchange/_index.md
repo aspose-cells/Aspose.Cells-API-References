@@ -63,7 +63,7 @@ getType() : RevisionType;
 
 **Returns**
 
-[RevisionType](./revisiontype/)
+[RevisionType](/nodejs-cpp/revisiontype/)
 
 ### getCellName() {#getCellName--}
 
@@ -139,7 +139,7 @@ getNewStyle() : Style;
 
 **Returns**
 
-[Style](./style/)
+[Style](/nodejs-cpp/style/)
 
 ### getOldStyle() {#getOldStyle--}
 
@@ -152,7 +152,7 @@ getOldStyle() : Style;
 
 **Returns**
 
-[Style](./style/)
+[Style](/nodejs-cpp/style/)
 
 ### getWorksheet() {#getWorksheet--}
 
@@ -165,7 +165,7 @@ getWorksheet() : Worksheet;
 
 **Returns**
 
-[Worksheet](./worksheet/)
+[Worksheet](/nodejs-cpp/worksheet/)
 
 ### getId() {#getId--}
 

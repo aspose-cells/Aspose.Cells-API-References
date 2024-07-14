@@ -38,7 +38,7 @@ get(index: number) : Style;
 
 **Returns**
 
-[Style](./style/)
+[Style](/nodejs-cpp/style/)
 
 ### getCount() {#getCount--}
 

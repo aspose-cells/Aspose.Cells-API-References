@@ -53,7 +53,7 @@ getDynamicFilterType() : DynamicFilterType;
 
 **Returns**
 
-[DynamicFilterType](./dynamicfiltertype/)
+[DynamicFilterType](/nodejs-cpp/dynamicfiltertype/)
 
 ### setDynamicFilterType(DynamicFilterType) {#setDynamicFilterType-dynamicfiltertype-}
 
@@ -66,6 +66,6 @@ setDynamicFilterType(value: DynamicFilterType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [DynamicFilterType](./dynamicfiltertype/) | The value to set. |
+| value | [DynamicFilterType](/nodejs-cpp/dynamicfiltertype/) | The value to set. |
 
 

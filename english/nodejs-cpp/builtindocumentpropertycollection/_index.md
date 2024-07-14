@@ -15,7 +15,7 @@ class BuiltInDocumentPropertyCollection extends DocumentPropertyCollection;
 ```
 
 ### Remarks
-<p>Provides access to [DocumentProperty](./documentproperty/) objects by their names (using an indexer) and via a set of typed properties that return values of appropriate types.</p>
+<p>Provides access to [DocumentProperty](/nodejs-cpp/documentproperty/) objects by their names (using an indexer) and via a set of typed properties that return values of appropriate types.</p>
 
 ## Constructors
 
@@ -27,7 +27,7 @@ class BuiltInDocumentPropertyCollection extends DocumentPropertyCollection;
 
 | Method | Description |
 | --- | --- |
-| [get(string)](#get-string-)| Returns a [DocumentProperty](./documentproperty/) object by the name of the property. |
+| [get(string)](#get-string-)| Returns a [DocumentProperty](/nodejs-cpp/documentproperty/) object by the name of the property. |
 | [getLanguage()](#getLanguage--)| Gets or sets the document's language. |
 | [setLanguage(string)](#setLanguage-string-)| Gets or sets the document's language. |
 | [getAuthor()](#getAuthor--)| Gets or sets the name of the document's author. |
@@ -108,7 +108,7 @@ constructor(obj: DocumentPropertyCollection);
 
 ### get(string) {#get-string-}
 
-Returns a [DocumentProperty](./documentproperty/) object by the name of the property.
+Returns a [DocumentProperty](/nodejs-cpp/documentproperty/) object by the name of the property.
 
 ```javascript
 get(name: string) : DocumentProperty;
@@ -121,11 +121,11 @@ get(name: string) : DocumentProperty;
 
 **Returns**
 
-[DocumentProperty](./documentproperty/)
+[DocumentProperty](/nodejs-cpp/documentproperty/)
 
 **Remarks**
 
-<p>The string names of the properties correspond to the names of the typed properties available from [BuiltInDocumentPropertyCollection](./builtindocumentpropertycollection/).</p> <p>If you request a property that is not present in the document, but the name of the property is recognized as a valid built-in name, a new [DocumentProperty](./documentproperty/) is created, added to the collection and returned. The newly created property is assigned a default value (empty string, zero, false or DateTime.MinValue depending on the type of the built-in property).</p> <p>If you request a property that is not present in the document and the name is not recognized as a built-in name, a null is returned.</p>
+<p>The string names of the properties correspond to the names of the typed properties available from [BuiltInDocumentPropertyCollection](/nodejs-cpp/builtindocumentpropertycollection/).</p> <p>If you request a property that is not present in the document, but the name of the property is recognized as a valid built-in name, a new [DocumentProperty](/nodejs-cpp/documentproperty/) is created, added to the collection and returned. The newly created property is assigned a default value (empty string, zero, false or DateTime.MinValue depending on the type of the built-in property).</p> <p>If you request a property that is not present in the document and the name is not recognized as a built-in name, a null is returned.</p>
 
 ### getLanguage() {#getLanguage--}
 

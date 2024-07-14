@@ -31,16 +31,16 @@ class CommandButtonActiveXControl extends ActiveXControl;
 | [getPicturePosition()](#getPicturePosition--)| Gets and set the location of the control's picture relative to its caption. |
 | [setPicturePosition(ControlPicturePositionType)](#setPicturePosition-controlpicturepositiontype-)| Gets and set the location of the control's picture relative to its caption. |
 | [getPicture()](#getPicture--)| Gets and sets the data of the picture. |
-| [setPicture(number[])](#setPicture-number[]-)| Gets and sets the data of the picture. |
+| [setPicture(number[])](#setPicture-numberarray-)| Gets and sets the data of the picture. |
 | [getAccelerator()](#getAccelerator--)| Gets and sets the accelerator key for the control. |
 | [setAccelerator(string)](#setAccelerator-string-)| Gets and sets the accelerator key for the control. |
 | [getTakeFocusOnClick()](#getTakeFocusOnClick--)| Indicates whether the control takes the focus when clicked. |
 | [setTakeFocusOnClick(boolean)](#setTakeFocusOnClick-boolean-)| Indicates whether the control takes the focus when clicked. |
 | [isWordWrapped()](#isWordWrapped--)| Indicates whether the contents of the control automatically wrap at the end of a line. |
 | [setIsWordWrapped(boolean)](#setIsWordWrapped-boolean-)| Indicates whether the contents of the control automatically wrap at the end of a line. |
-| [getWorkbook()](#getWorkbook--)| Gets the [Workbook](./workbook/) object. |
+| [getWorkbook()](#getWorkbook--)| Gets the [Workbook](/nodejs-cpp/workbook/) object. |
 | [getMouseIcon()](#getMouseIcon--)| Gets and sets a custom icon to display as the mouse pointer for the control. |
-| [setMouseIcon(number[])](#setMouseIcon-number[]-)| Gets and sets a custom icon to display as the mouse pointer for the control. |
+| [setMouseIcon(number[])](#setMouseIcon-numberarray-)| Gets and sets a custom icon to display as the mouse pointer for the control. |
 | [getMousePointer()](#getMousePointer--)| Gets and sets the type of icon displayed as the mouse pointer for the control. |
 | [setMousePointer(ControlMousePointerType)](#setMousePointer-controlmousepointertype-)| Gets and sets the type of icon displayed as the mouse pointer for the control. |
 | [getLinkedCell()](#getLinkedCell--)| Gets and sets the linked cell. |
@@ -99,7 +99,7 @@ getType() : ControlType;
 
 **Returns**
 
-[ControlType](./controltype/)
+[ControlType](/nodejs-cpp/controltype/)
 
 ### getCaption() {#getCaption--}
 
@@ -134,7 +134,7 @@ getPicturePosition() : ControlPicturePositionType;
 
 **Returns**
 
-[ControlPicturePositionType](./controlpicturepositiontype/)
+[ControlPicturePositionType](/nodejs-cpp/controlpicturepositiontype/)
 
 ### setPicturePosition(ControlPicturePositionType) {#setPicturePosition-controlpicturepositiontype-}
 
@@ -147,7 +147,7 @@ setPicturePosition(value: ControlPicturePositionType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ControlPicturePositionType](./controlpicturepositiontype/) | The value to set. |
+| value | [ControlPicturePositionType](/nodejs-cpp/controlpicturepositiontype/) | The value to set. |
 
 ### getPicture() {#getPicture--}
 
@@ -162,7 +162,7 @@ getPicture() : number[];
 
 number[]
 
-### setPicture(number[]) {#setPicture-number[]-}
+### setPicture(number[]) {#setPicture-numberarray-}
 
 Gets and sets the data of the picture.
 
@@ -243,7 +243,7 @@ setIsWordWrapped(value: boolean) : void;
 
 ### getWorkbook() {#getWorkbook--}
 
-Gets the [Workbook](./workbook/) object.
+Gets the [Workbook](/nodejs-cpp/workbook/) object.
 
 ```javascript
 getWorkbook() : Workbook;
@@ -252,7 +252,7 @@ getWorkbook() : Workbook;
 
 **Returns**
 
-[Workbook](./workbook/)
+[Workbook](/nodejs-cpp/workbook/)
 
 ### getMouseIcon() {#getMouseIcon--}
 
@@ -267,7 +267,7 @@ getMouseIcon() : number[];
 
 number[]
 
-### setMouseIcon(number[]) {#setMouseIcon-number[]-}
+### setMouseIcon(number[]) {#setMouseIcon-numberarray-}
 
 Gets and sets a custom icon to display as the mouse pointer for the control.
 
@@ -291,7 +291,7 @@ getMousePointer() : ControlMousePointerType;
 
 **Returns**
 
-[ControlMousePointerType](./controlmousepointertype/)
+[ControlMousePointerType](/nodejs-cpp/controlmousepointertype/)
 
 ### setMousePointer(ControlMousePointerType) {#setMousePointer-controlmousepointertype-}
 
@@ -304,7 +304,7 @@ setMousePointer(value: ControlMousePointerType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ControlMousePointerType](./controlmousepointertype/) | The value to set. |
+| value | [ControlMousePointerType](/nodejs-cpp/controlmousepointertype/) | The value to set. |
 
 ### getLinkedCell() {#getLinkedCell--}
 
@@ -427,7 +427,7 @@ getIMEMode() : InputMethodEditorMode;
 
 **Returns**
 
-[InputMethodEditorMode](./inputmethodeditormode/)
+[InputMethodEditorMode](/nodejs-cpp/inputmethodeditormode/)
 
 ### setIMEMode(InputMethodEditorMode) {#setIMEMode-inputmethodeditormode-}
 
@@ -440,7 +440,7 @@ setIMEMode(value: InputMethodEditorMode) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [InputMethodEditorMode](./inputmethodeditormode/) | The value to set. |
+| value | [InputMethodEditorMode](/nodejs-cpp/inputmethodeditormode/) | The value to set. |
 
 ### getFont() {#getFont--}
 
@@ -453,7 +453,7 @@ getFont() : Font;
 
 **Returns**
 
-[Font](./font/)
+[Font](/nodejs-cpp/font/)
 
 ### getTextAlign() {#getTextAlign--}
 
@@ -466,7 +466,7 @@ getTextAlign() : TextAlignmentType;
 
 **Returns**
 
-[TextAlignmentType](./textalignmenttype/)
+[TextAlignmentType](/nodejs-cpp/textalignmenttype/)
 
 ### setTextAlign(TextAlignmentType) {#setTextAlign-textalignmenttype-}
 
@@ -479,7 +479,7 @@ setTextAlign(value: TextAlignmentType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [TextAlignmentType](./textalignmenttype/) | The value to set. |
+| value | [TextAlignmentType](/nodejs-cpp/textalignmenttype/) | The value to set. |
 
 ### getData() {#getData--}
 

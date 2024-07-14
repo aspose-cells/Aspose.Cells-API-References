@@ -25,9 +25,9 @@ class CellWatchCollection;
 
 | Method | Description |
 | --- | --- |
-| [get(number)](#get-number-)| Gets and sets [CellWatch](./cellwatch/) by index. |
-| [add(number, number)](#add-number-number-)| Adds [CellWatch](./cellwatch/) with row and column. |
-| [add(string)](#add-string-)| Adds [CellWatch](./cellwatch/) with the name the of cell. |
+| [get(number)](#get-number-)| Gets and sets [CellWatch](/nodejs-cpp/cellwatch/) by index. |
+| [add(number, number)](#add-number-number-)| Adds [CellWatch](/nodejs-cpp/cellwatch/) with row and column. |
+| [add(string)](#add-string-)| Adds [CellWatch](/nodejs-cpp/cellwatch/) with the name the of cell. |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
 
 
@@ -42,7 +42,7 @@ constructor();
 
 ### get(number) {#get-number-}
 
-Gets and sets [CellWatch](./cellwatch/) by index.
+Gets and sets [CellWatch](/nodejs-cpp/cellwatch/) by index.
 
 ```javascript
 get(index: number) : CellWatch;
@@ -55,11 +55,11 @@ get(index: number) : CellWatch;
 
 **Returns**
 
-[CellWatch](./cellwatch/)
+[CellWatch](/nodejs-cpp/cellwatch/)
 
 ### add(number, number) {#add-number-number-}
 
-Adds [CellWatch](./cellwatch/) with row and column.
+Adds [CellWatch](/nodejs-cpp/cellwatch/) with row and column.
 
 ```javascript
 add(row: number, column: number) : number;
@@ -77,7 +77,7 @@ Returns the position of this item in the collection.
 
 ### add(string) {#add-string-}
 
-Adds [CellWatch](./cellwatch/) with the name the of cell.
+Adds [CellWatch](/nodejs-cpp/cellwatch/) with the name the of cell.
 
 ```javascript
 add(cellName: string) : number;

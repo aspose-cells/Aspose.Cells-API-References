@@ -1,14 +1,14 @@
 ﻿---
 title: ListColumnCollection
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents A collection of all the ListColumn.listcolumn objects in the specified ListObject object.
+description: Represents A collection of all the ListColumnnodejscpplistcolumn objects in the specified ListObject object.
 type: docs
 url: /nodejs-cpp/listcolumncollection/
 ---
 
 ## ListColumnCollection class
 
-Represents A collection of all the [ListColumn](./listcolumn/) objects in the specified ListObject object.
+Represents A collection of all the [ListColumn](/nodejs-cpp/listcolumn/) objects in the specified ListObject object.
 
 ```javascript
 class ListColumnCollection;

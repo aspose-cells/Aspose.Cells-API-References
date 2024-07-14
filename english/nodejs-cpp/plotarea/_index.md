@@ -50,7 +50,7 @@ class PlotArea extends ChartFrame;
 | [setBackgroundMode(BackgroundMode)](#setBackgroundMode-backgroundmode-)| Gets and sets the display mode of the background |
 | [getShadow()](#getShadow--)| True if the frame has a shadow. |
 | [setShadow(boolean)](#setShadow-boolean-)| True if the frame has a shadow. |
-| [getShapeProperties()](#getShapeProperties--)| Gets the [ShapeProperties](./shapeproperties/) object. |
+| [getShapeProperties()](#getShapeProperties--)| Gets the [ShapeProperties](/nodejs-cpp/shapeproperties/) object. |
 | [isDefaultPosBeSet()](#isDefaultPosBeSet--)| Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set. |
 | [getDefaultX()](#getDefaultX--)| Represents x of default position |
 | [getDefaultY()](#getDefaultY--)| Represents y of default position |
@@ -59,7 +59,7 @@ class PlotArea extends ChartFrame;
 | [getBorder()](#getBorder--)| Gets the <see cref="Line">border</see>. |
 | [getArea()](#getArea--)| Gets the <see cref="Area">area</see>. |
 | [getTextOptions()](#getTextOptions--)| Gets and sets the options of the text. |
-| [getFont()](#getFont--)| Gets a [Font](./font/) object of the specified ChartFrame object. |
+| [getFont()](#getFont--)| Gets a [Font](/nodejs-cpp/font/) object of the specified ChartFrame object. |
 | [getAutoScaleFont()](#getAutoScaleFont--)| True if the text in the object changes font size when the object size changes. The default value is True. |
 | [setAutoScaleFont(boolean)](#setAutoScaleFont-boolean-)| True if the text in the object changes font size when the object size changes. The default value is True. |
 
@@ -389,7 +389,7 @@ getBackgroundMode() : BackgroundMode;
 
 **Returns**
 
-[BackgroundMode](./backgroundmode/)
+[BackgroundMode](/nodejs-cpp/backgroundmode/)
 
 ### setBackgroundMode(BackgroundMode) {#setBackgroundMode-backgroundmode-}
 
@@ -402,7 +402,7 @@ setBackgroundMode(value: BackgroundMode) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [BackgroundMode](./backgroundmode/) | The value to set. |
+| value | [BackgroundMode](/nodejs-cpp/backgroundmode/) | The value to set. |
 
 ### getShadow() {#getShadow--}
 
@@ -428,7 +428,7 @@ setShadow(value: boolean) : void;
 
 ### getShapeProperties() {#getShapeProperties--}
 
-Gets the [ShapeProperties](./shapeproperties/) object.
+Gets the [ShapeProperties](/nodejs-cpp/shapeproperties/) object.
 
 ```javascript
 getShapeProperties() : ShapePropertyCollection;
@@ -437,7 +437,7 @@ getShapeProperties() : ShapePropertyCollection;
 
 **Returns**
 
-[ShapePropertyCollection](./shapepropertycollection/)
+[ShapePropertyCollection](/nodejs-cpp/shapepropertycollection/)
 
 ### isDefaultPosBeSet() {#isDefaultPosBeSet--}
 
@@ -495,7 +495,7 @@ getBorder() : Line;
 
 **Returns**
 
-[Line](./line/)
+[Line](/nodejs-cpp/line/)
 
 ### getArea() {#getArea--}
 
@@ -508,7 +508,7 @@ getArea() : Area;
 
 **Returns**
 
-[Area](./area/)
+[Area](/nodejs-cpp/area/)
 
 ### getTextOptions() {#getTextOptions--}
 
@@ -521,11 +521,11 @@ getTextOptions() : TextOptions;
 
 **Returns**
 
-[TextOptions](./textoptions/)
+[TextOptions](/nodejs-cpp/textoptions/)
 
 ### getFont() {#getFont--}
 
-Gets a [Font](./font/) object of the specified ChartFrame object.
+Gets a [Font](/nodejs-cpp/font/) object of the specified ChartFrame object.
 
 ```javascript
 getFont() : Font;
@@ -534,7 +534,7 @@ getFont() : Font;
 
 **Returns**
 
-[Font](./font/)
+[Font](/nodejs-cpp/font/)
 
 ### getAutoScaleFont() {#getAutoScaleFont--}
 

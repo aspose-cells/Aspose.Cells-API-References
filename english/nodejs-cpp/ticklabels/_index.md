@@ -19,7 +19,7 @@ class TickLabels;
 
 | Method | Description |
 | --- | --- |
-| [getFont()](#getFont--)| Returns a [Font](./font/) object that represents the font of the specified TickLabels object. |
+| [getFont()](#getFont--)| Returns a [Font](/nodejs-cpp/font/) object that represents the font of the specified TickLabels object. |
 | [getAutoScaleFont()](#getAutoScaleFont--)| True if the text in the object changes font size when the object size changes. The default value is True. |
 | [setAutoScaleFont(boolean)](#setAutoScaleFont-boolean-)| True if the text in the object changes font size when the object size changes. The default value is True. |
 | [getBackgroundMode()](#getBackgroundMode--)| Gets and sets the display mode of the background |
@@ -48,7 +48,7 @@ class TickLabels;
 
 ### getFont() {#getFont--}
 
-Returns a [Font](./font/) object that represents the font of the specified TickLabels object.
+Returns a [Font](/nodejs-cpp/font/) object that represents the font of the specified TickLabels object.
 
 ```javascript
 getFont() : Font;
@@ -57,7 +57,7 @@ getFont() : Font;
 
 **Returns**
 
-[Font](./font/)
+[Font](/nodejs-cpp/font/)
 
 ### getAutoScaleFont() {#getAutoScaleFont--}
 
@@ -92,7 +92,7 @@ getBackgroundMode() : BackgroundMode;
 
 **Returns**
 
-[BackgroundMode](./backgroundmode/)
+[BackgroundMode](/nodejs-cpp/backgroundmode/)
 
 ### setBackgroundMode(BackgroundMode) {#setBackgroundMode-backgroundmode-}
 
@@ -105,7 +105,7 @@ setBackgroundMode(value: BackgroundMode) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [BackgroundMode](./backgroundmode/) | The value to set. |
+| value | [BackgroundMode](/nodejs-cpp/backgroundmode/) | The value to set. |
 
 ### getRotationAngle() {#getRotationAngle--}
 
@@ -283,7 +283,7 @@ getReadingOrder() : TextDirectionType;
 
 **Returns**
 
-[TextDirectionType](./textdirectiontype/)
+[TextDirectionType](/nodejs-cpp/textdirectiontype/)
 
 ### setReadingOrder(TextDirectionType) {#setReadingOrder-textdirectiontype-}
 
@@ -296,7 +296,7 @@ setReadingOrder(value: TextDirectionType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [TextDirectionType](./textdirectiontype/) | The value to set. |
+| value | [TextDirectionType](/nodejs-cpp/textdirectiontype/) | The value to set. |
 
 ### getDirectionType() {#getDirectionType--}
 
@@ -309,7 +309,7 @@ getDirectionType() : ChartTextDirectionType;
 
 **Returns**
 
-[ChartTextDirectionType](./charttextdirectiontype/)
+[ChartTextDirectionType](/nodejs-cpp/charttextdirectiontype/)
 
 ### setDirectionType(ChartTextDirectionType) {#setDirectionType-charttextdirectiontype-}
 
@@ -322,7 +322,7 @@ setDirectionType(value: ChartTextDirectionType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ChartTextDirectionType](./charttextdirectiontype/) | The value to set. |
+| value | [ChartTextDirectionType](/nodejs-cpp/charttextdirectiontype/) | The value to set. |
 
 ### getTickLabelItems() {#getTickLabelItems--}
 
@@ -335,11 +335,11 @@ getTickLabelItems() : TickLabelItem[];
 
 **Returns**
 
-[TickLabelItem](./ticklabelitem/)[]
+[TickLabelItem](/nodejs-cpp/ticklabelitem/)[]
 
 **Remarks**
 
-Only available after calling [Chart.Calculate()](./chart.calculate()/) method.
+Only available after calling [Chart.Calculate()](/nodejs-cpp/chart.calculate()/) method.
 
 ### getAlignmentType() {#getAlignmentType--}
 
@@ -352,7 +352,7 @@ getAlignmentType() : TickLabelAlignmentType;
 
 **Returns**
 
-[TickLabelAlignmentType](./ticklabelalignmenttype/)
+[TickLabelAlignmentType](/nodejs-cpp/ticklabelalignmenttype/)
 
 ### setAlignmentType(TickLabelAlignmentType) {#setAlignmentType-ticklabelalignmenttype-}
 
@@ -365,6 +365,6 @@ setAlignmentType(value: TickLabelAlignmentType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [TickLabelAlignmentType](./ticklabelalignmenttype/) | The value to set. |
+| value | [TickLabelAlignmentType](/nodejs-cpp/ticklabelalignmenttype/) | The value to set. |
 
 

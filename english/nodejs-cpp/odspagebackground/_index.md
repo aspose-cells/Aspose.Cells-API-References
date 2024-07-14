@@ -37,7 +37,7 @@ class OdsPageBackground;
 | [getLinkedGraphic()](#getLinkedGraphic--)| Gets and sets the linked graphic path. |
 | [setLinkedGraphic(string)](#setLinkedGraphic-string-)| Gets and sets the linked graphic path. |
 | [getGraphicData()](#getGraphicData--)| Gets and sets the graphic data. |
-| [setGraphicData(number[])](#setGraphicData-number[]-)| Gets and sets the graphic data. |
+| [setGraphicData(number[])](#setGraphicData-numberarray-)| Gets and sets the graphic data. |
 
 
 ### constructor() {#constructor--}
@@ -60,7 +60,7 @@ getType() : OdsPageBackgroundType;
 
 **Returns**
 
-[OdsPageBackgroundType](./odspagebackgroundtype/)
+[OdsPageBackgroundType](/nodejs-cpp/odspagebackgroundtype/)
 
 ### setType(OdsPageBackgroundType) {#setType-odspagebackgroundtype-}
 
@@ -73,7 +73,7 @@ setType(value: OdsPageBackgroundType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [OdsPageBackgroundType](./odspagebackgroundtype/) | The value to set. |
+| value | [OdsPageBackgroundType](/nodejs-cpp/odspagebackgroundtype/) | The value to set. |
 
 ### getColor() {#getColor--}
 
@@ -86,7 +86,7 @@ getColor() : Color;
 
 **Returns**
 
-[Color](./color/)
+[Color](/nodejs-cpp/color/)
 
 ### setColor(Color) {#setColor-color-}
 
@@ -99,7 +99,7 @@ setColor(value: Color) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [Color](./color/) | The value to set. |
+| value | [Color](/nodejs-cpp/color/) | The value to set. |
 
 ### getGraphicType() {#getGraphicType--}
 
@@ -112,7 +112,7 @@ getGraphicType() : OdsPageBackgroundGraphicType;
 
 **Returns**
 
-[OdsPageBackgroundGraphicType](./odspagebackgroundgraphictype/)
+[OdsPageBackgroundGraphicType](/nodejs-cpp/odspagebackgroundgraphictype/)
 
 ### setGraphicType(OdsPageBackgroundGraphicType) {#setGraphicType-odspagebackgroundgraphictype-}
 
@@ -125,7 +125,7 @@ setGraphicType(value: OdsPageBackgroundGraphicType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [OdsPageBackgroundGraphicType](./odspagebackgroundgraphictype/) | The value to set. |
+| value | [OdsPageBackgroundGraphicType](/nodejs-cpp/odspagebackgroundgraphictype/) | The value to set. |
 
 ### getGraphicPositionType() {#getGraphicPositionType--}
 
@@ -138,7 +138,7 @@ getGraphicPositionType() : OdsPageBackgroundGraphicPositionType;
 
 **Returns**
 
-[OdsPageBackgroundGraphicPositionType](./odspagebackgroundgraphicpositiontype/)
+[OdsPageBackgroundGraphicPositionType](/nodejs-cpp/odspagebackgroundgraphicpositiontype/)
 
 ### setGraphicPositionType(OdsPageBackgroundGraphicPositionType) {#setGraphicPositionType-odspagebackgroundgraphicpositiontype-}
 
@@ -151,7 +151,7 @@ setGraphicPositionType(value: OdsPageBackgroundGraphicPositionType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [OdsPageBackgroundGraphicPositionType](./odspagebackgroundgraphicpositiontype/) | The value to set. |
+| value | [OdsPageBackgroundGraphicPositionType](/nodejs-cpp/odspagebackgroundgraphicpositiontype/) | The value to set. |
 
 ### isLink() {#isLink--}
 
@@ -197,7 +197,7 @@ getGraphicData() : number[];
 
 number[]
 
-### setGraphicData(number[]) {#setGraphicData-number[]-}
+### setGraphicData(number[]) {#setGraphicData-numberarray-}
 
 Gets and sets the graphic data.
 

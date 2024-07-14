@@ -39,7 +39,7 @@ getCell() : Cell;
 
 **Returns**
 
-[Cell](./cell/)
+[Cell](/nodejs-cpp/cell/)
 
 ### getShape() {#getShape--}
 
@@ -52,7 +52,7 @@ getShape() : Shape;
 
 **Returns**
 
-[Shape](./shape/)
+[Shape](/nodejs-cpp/shape/)
 
 ### getImageBytes() {#getImageBytes--}
 
@@ -78,7 +78,7 @@ getType() : DrawObjectEnum;
 
 **Returns**
 
-[DrawObjectEnum](./drawobjectenum/)
+[DrawObjectEnum](/nodejs-cpp/drawobjectenum/)
 
 ### getCurrentPage() {#getCurrentPage--}
 

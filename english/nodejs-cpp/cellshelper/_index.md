@@ -42,7 +42,7 @@ class CellsHelper;
 | static [getDateTimeFromDouble(number, boolean)](#getDateTimeFromDouble-number-boolean-)| Convert the double value to the date time value. |
 | static [getDoubleFromDateTime(Date, boolean)](#getDoubleFromDateTime-date-boolean-)| Convert the date time to double value. |
 | static [getUsedColors(Workbook)](#getUsedColors-workbook-)| Gets all used colors in the workbook. |
-| static [mergeFiles(string[], string, string)](#mergeFiles-string[]-string-string-)| Merges some large xls files to a xls file. |
+| static [mergeFiles(string[], string, string)](#mergeFiles-stringarray-string-string-)| Merges some large xls files to a xls file. |
 | static [createSafeSheetName(string)](#createSafeSheetName-string-)| Checks given sheet name and create a valid one when needed. If given sheet name conforms to the rules of excel sheet name, then return it. Otherwise string will be truncated if length exceeds the limit and invalid characters will be replaced with ' ', then return the rebuilt string value. |
 | static [needQuoteInFormula(string)](#needQuoteInFormula-string-)| Indicates whether the name of the sheet should be enclosed in single quotes |
 
@@ -199,7 +199,7 @@ static getTextWidth(text: string, font: Font, scaling: number) : number;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | text | string | The text. |
-| font | [Font](./font/) | The font of the text. |
+| font | [Font](/nodejs-cpp/font/) | The font of the text. |
 | scaling | number | The scaling of text. |
 
 ### getVersion() {#getVersion--}
@@ -355,13 +355,13 @@ static getUsedColors(workbook: Workbook) : Color[];
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| workbook | [Workbook](./workbook/) | The workbook object. |
+| workbook | [Workbook](/nodejs-cpp/workbook/) | The workbook object. |
 
 **Returns**
 
 The used colors.
 
-### mergeFiles(string[], string, string) {#mergeFiles-string[]-string-string-}
+### mergeFiles(string[], string, string) {#mergeFiles-stringarray-string-string-}
 
 Merges some large xls files to a xls file.
 

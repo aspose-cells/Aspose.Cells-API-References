@@ -88,7 +88,7 @@ getCompressionType() : OoxmlCompressionType;
 
 **Returns**
 
-[OoxmlCompressionType](./ooxmlcompressiontype/)
+[OoxmlCompressionType](/nodejs-cpp/ooxmlcompressiontype/)
 
 **Remarks**
 
@@ -105,7 +105,7 @@ setCompressionType(value: OoxmlCompressionType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [OoxmlCompressionType](./ooxmlcompressiontype/) | The value to set. |
+| value | [OoxmlCompressionType](/nodejs-cpp/ooxmlcompressiontype/) | The value to set. |
 
 **Remarks**
 
@@ -152,7 +152,7 @@ getLightCellsDataProvider() : LightCellsDataProvider;
 
 **Returns**
 
-[LightCellsDataProvider](./lightcellsdataprovider/)
+[LightCellsDataProvider](/nodejs-cpp/lightcellsdataprovider/)
 
 ### setLightCellsDataProvider(LightCellsDataProvider) {#setLightCellsDataProvider-lightcellsdataprovider-}
 
@@ -165,7 +165,7 @@ setLightCellsDataProvider(value: LightCellsDataProvider) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [LightCellsDataProvider](./lightcellsdataprovider/) | The value to set. |
+| value | [LightCellsDataProvider](/nodejs-cpp/lightcellsdataprovider/) | The value to set. |
 
 ### getSaveFormat() {#getSaveFormat--}
 
@@ -178,7 +178,7 @@ getSaveFormat() : SaveFormat;
 
 **Returns**
 
-[SaveFormat](./saveformat/)
+[SaveFormat](/nodejs-cpp/saveformat/)
 
 ### getClearData() {#getClearData--}
 
@@ -391,7 +391,7 @@ setWarningCallback(value: IWarningCallback) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IWarningCallback](./iwarningcallback/) | The value to set. |
+| value | [IWarningCallback](/nodejs-cpp/iwarningcallback/) | The value to set. |
 
 ### getWarningCallback() {#getWarningCallback--}
 
@@ -404,7 +404,7 @@ getWarningCallback() : IWarningCallback;
 
 **Returns**
 
-[IWarningCallback](./iwarningcallback/)
+[IWarningCallback](/nodejs-cpp/iwarningcallback/)
 
 ### getUpdateSmartArt() {#getUpdateSmartArt--}
 

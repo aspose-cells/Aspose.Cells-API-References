@@ -54,7 +54,7 @@ get(index: number) : ShapePathPoint;
 
 **Returns**
 
-Returns [ShapePathPoint](./shapepathpoint/) object
+Returns [ShapePathPoint](/nodejs-cpp/shapepathpoint/) object
 
 ### add(number, number) {#add-number-number-}
 

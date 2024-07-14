@@ -21,7 +21,7 @@ class ProtectedRange;
 | --- | --- |
 | [getName()](#getName--)| Gets the Range title. This is used as a descriptor, not as a named range definition. |
 | [setName(string)](#setName-string-)| Gets the Range title. This is used as a descriptor, not as a named range definition. |
-| [getCellArea()](#getCellArea--)| Gets the [CellArea](./cellarea/) object represents the cell area to be protected. |
+| [getCellArea()](#getCellArea--)| Gets the [CellArea](/nodejs-cpp/cellarea/) object represents the cell area to be protected. |
 | [isProtectedWithPassword()](#isProtectedWithPassword--)| Indicates whether the worksheets is protected with password. |
 | [getPassword()](#getPassword--)| Represents the password to protect the range. |
 | [setPassword(string)](#setPassword-string-)| Represents the password to protect the range. |
@@ -55,7 +55,7 @@ setName(value: string) : void;
 
 ### getCellArea() {#getCellArea--}
 
-Gets the [CellArea](./cellarea/) object represents the cell area to be protected.
+Gets the [CellArea](/nodejs-cpp/cellarea/) object represents the cell area to be protected.
 
 ```javascript
 getCellArea() : CellArea;
@@ -64,7 +64,7 @@ getCellArea() : CellArea;
 
 **Returns**
 
-[CellArea](./cellarea/)
+[CellArea](/nodejs-cpp/cellarea/)
 
 ### isProtectedWithPassword() {#isProtectedWithPassword--}
 

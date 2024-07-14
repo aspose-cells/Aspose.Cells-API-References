@@ -68,7 +68,7 @@ static createCellArea(startRow: number, startColumn: number, endRow: number, end
 
 **Returns**
 
-[CellArea](./cellarea/)
+[CellArea](/nodejs-cpp/cellarea/)
 
 
 ### createCellArea(string, string) {#createCellArea-string-string-}
@@ -87,4 +87,4 @@ static createCellArea(startCellName: string, endCellName: string) : CellArea;
 
 **Returns**
 
-[CellArea](./cellarea/)
+[CellArea](/nodejs-cpp/cellarea/)

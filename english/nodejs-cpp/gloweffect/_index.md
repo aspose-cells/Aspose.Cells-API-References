@@ -38,7 +38,7 @@ getColor() : CellsColor;
 
 **Returns**
 
-[CellsColor](./cellscolor/)
+[CellsColor](/nodejs-cpp/cellscolor/)
 
 ### setColor(CellsColor) {#setColor-cellscolor-}
 
@@ -51,7 +51,7 @@ setColor(value: CellsColor) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [CellsColor](./cellscolor/) | The value to set. |
+| value | [CellsColor](/nodejs-cpp/cellscolor/) | The value to set. |
 
 ### getSize() {#getSize--}
 

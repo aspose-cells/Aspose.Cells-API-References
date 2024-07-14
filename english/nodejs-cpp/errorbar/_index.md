@@ -59,14 +59,14 @@ class ErrorBar extends Line;
 | [setEndArrowWidth(MsoArrowheadWidth)](#setEndArrowWidth-msoarrowheadwidth-)| Specifies the width of the arrowhead for the end of a line. |
 | [getThemeColor()](#getThemeColor--)| Gets and sets the theme color. |
 | [setThemeColor(ThemeColor)](#setThemeColor-themecolor-)| Gets and sets the theme color. |
-| [getColor()](#getColor--)| Represents the [System.Drawing.Color](./system.drawing.color/) of the line. |
-| [setColor(Color)](#setColor-color-)| Represents the [System.Drawing.Color](./system.drawing.color/) of the line. |
+| [getColor()](#getColor--)| Represents the [System.Drawing.Color](/nodejs-cpp/system.drawing.color/) of the line. |
+| [setColor(Color)](#setColor-color-)| Represents the [System.Drawing.Color](/nodejs-cpp/system.drawing.color/) of the line. |
 | [getTransparency()](#getTransparency--)| Returns or sets the degree of transparency of the line as a value from 0.0 (opaque) through 1.0 (clear). |
 | [setTransparency(number)](#setTransparency-number-)| Returns or sets the degree of transparency of the line as a value from 0.0 (opaque) through 1.0 (clear). |
 | [getStyle()](#getStyle--)| Represents the style of the line. |
 | [setStyle(LineType)](#setStyle-linetype-)| Represents the style of the line. |
-| [getWeight()](#getWeight--)| Gets or sets the [WeightType](./weighttype/) of the line. |
-| [setWeight(WeightType)](#setWeight-weighttype-)| Gets or sets the [WeightType](./weighttype/) of the line. |
+| [getWeight()](#getWeight--)| Gets or sets the [WeightType](/nodejs-cpp/weighttype/) of the line. |
+| [setWeight(WeightType)](#setWeight-weighttype-)| Gets or sets the [WeightType](/nodejs-cpp/weighttype/) of the line. |
 | [getWeightPt()](#getWeightPt--)| Gets or sets the weight of the line in unit of points. |
 | [setWeightPt(number)](#setWeightPt-number-)| Gets or sets the weight of the line in unit of points. |
 | [getWeightPx()](#getWeightPx--)| Gets or sets the weight of the line in unit of pixels. |
@@ -105,7 +105,7 @@ getType() : ErrorBarType;
 
 **Returns**
 
-[ErrorBarType](./errorbartype/)
+[ErrorBarType](/nodejs-cpp/errorbartype/)
 
 ### setType(ErrorBarType) {#setType-errorbartype-}
 
@@ -118,7 +118,7 @@ setType(value: ErrorBarType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ErrorBarType](./errorbartype/) | The value to set. |
+| value | [ErrorBarType](/nodejs-cpp/errorbartype/) | The value to set. |
 
 ### getDisplayType() {#getDisplayType--}
 
@@ -131,7 +131,7 @@ getDisplayType() : ErrorBarDisplayType;
 
 **Returns**
 
-[ErrorBarDisplayType](./errorbardisplaytype/)
+[ErrorBarDisplayType](/nodejs-cpp/errorbardisplaytype/)
 
 ### setDisplayType(ErrorBarDisplayType) {#setDisplayType-errorbardisplaytype-}
 
@@ -144,7 +144,7 @@ setDisplayType(value: ErrorBarDisplayType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ErrorBarDisplayType](./errorbardisplaytype/) | The value to set. |
+| value | [ErrorBarDisplayType](/nodejs-cpp/errorbardisplaytype/) | The value to set. |
 
 ### getAmount() {#getAmount--}
 
@@ -253,7 +253,7 @@ getCompoundType() : MsoLineStyle;
 
 **Returns**
 
-[MsoLineStyle](./msolinestyle/)
+[MsoLineStyle](/nodejs-cpp/msolinestyle/)
 
 ### setCompoundType(MsoLineStyle) {#setCompoundType-msolinestyle-}
 
@@ -266,7 +266,7 @@ setCompoundType(value: MsoLineStyle) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [MsoLineStyle](./msolinestyle/) | The value to set. |
+| value | [MsoLineStyle](/nodejs-cpp/msolinestyle/) | The value to set. |
 
 ### getDashType() {#getDashType--}
 
@@ -279,7 +279,7 @@ getDashType() : MsoLineDashStyle;
 
 **Returns**
 
-[MsoLineDashStyle](./msolinedashstyle/)
+[MsoLineDashStyle](/nodejs-cpp/msolinedashstyle/)
 
 ### setDashType(MsoLineDashStyle) {#setDashType-msolinedashstyle-}
 
@@ -292,7 +292,7 @@ setDashType(value: MsoLineDashStyle) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [MsoLineDashStyle](./msolinedashstyle/) | The value to set. |
+| value | [MsoLineDashStyle](/nodejs-cpp/msolinedashstyle/) | The value to set. |
 
 ### getCapType() {#getCapType--}
 
@@ -305,7 +305,7 @@ getCapType() : LineCapType;
 
 **Returns**
 
-[LineCapType](./linecaptype/)
+[LineCapType](/nodejs-cpp/linecaptype/)
 
 ### setCapType(LineCapType) {#setCapType-linecaptype-}
 
@@ -318,7 +318,7 @@ setCapType(value: LineCapType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [LineCapType](./linecaptype/) | The value to set. |
+| value | [LineCapType](/nodejs-cpp/linecaptype/) | The value to set. |
 
 ### getJoinType() {#getJoinType--}
 
@@ -331,7 +331,7 @@ getJoinType() : LineJoinType;
 
 **Returns**
 
-[LineJoinType](./linejointype/)
+[LineJoinType](/nodejs-cpp/linejointype/)
 
 ### setJoinType(LineJoinType) {#setJoinType-linejointype-}
 
@@ -344,7 +344,7 @@ setJoinType(value: LineJoinType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [LineJoinType](./linejointype/) | The value to set. |
+| value | [LineJoinType](/nodejs-cpp/linejointype/) | The value to set. |
 
 ### getBeginType() {#getBeginType--}
 
@@ -357,7 +357,7 @@ getBeginType() : MsoArrowheadStyle;
 
 **Returns**
 
-[MsoArrowheadStyle](./msoarrowheadstyle/)
+[MsoArrowheadStyle](/nodejs-cpp/msoarrowheadstyle/)
 
 ### setBeginType(MsoArrowheadStyle) {#setBeginType-msoarrowheadstyle-}
 
@@ -370,7 +370,7 @@ setBeginType(value: MsoArrowheadStyle) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [MsoArrowheadStyle](./msoarrowheadstyle/) | The value to set. |
+| value | [MsoArrowheadStyle](/nodejs-cpp/msoarrowheadstyle/) | The value to set. |
 
 ### getEndType() {#getEndType--}
 
@@ -383,7 +383,7 @@ getEndType() : MsoArrowheadStyle;
 
 **Returns**
 
-[MsoArrowheadStyle](./msoarrowheadstyle/)
+[MsoArrowheadStyle](/nodejs-cpp/msoarrowheadstyle/)
 
 ### setEndType(MsoArrowheadStyle) {#setEndType-msoarrowheadstyle-}
 
@@ -396,7 +396,7 @@ setEndType(value: MsoArrowheadStyle) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [MsoArrowheadStyle](./msoarrowheadstyle/) | The value to set. |
+| value | [MsoArrowheadStyle](/nodejs-cpp/msoarrowheadstyle/) | The value to set. |
 
 ### getBeginArrowLength() {#getBeginArrowLength--}
 
@@ -409,7 +409,7 @@ getBeginArrowLength() : MsoArrowheadLength;
 
 **Returns**
 
-[MsoArrowheadLength](./msoarrowheadlength/)
+[MsoArrowheadLength](/nodejs-cpp/msoarrowheadlength/)
 
 ### setBeginArrowLength(MsoArrowheadLength) {#setBeginArrowLength-msoarrowheadlength-}
 
@@ -422,7 +422,7 @@ setBeginArrowLength(value: MsoArrowheadLength) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [MsoArrowheadLength](./msoarrowheadlength/) | The value to set. |
+| value | [MsoArrowheadLength](/nodejs-cpp/msoarrowheadlength/) | The value to set. |
 
 ### getEndArrowLength() {#getEndArrowLength--}
 
@@ -435,7 +435,7 @@ getEndArrowLength() : MsoArrowheadLength;
 
 **Returns**
 
-[MsoArrowheadLength](./msoarrowheadlength/)
+[MsoArrowheadLength](/nodejs-cpp/msoarrowheadlength/)
 
 ### setEndArrowLength(MsoArrowheadLength) {#setEndArrowLength-msoarrowheadlength-}
 
@@ -448,7 +448,7 @@ setEndArrowLength(value: MsoArrowheadLength) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [MsoArrowheadLength](./msoarrowheadlength/) | The value to set. |
+| value | [MsoArrowheadLength](/nodejs-cpp/msoarrowheadlength/) | The value to set. |
 
 ### getBeginArrowWidth() {#getBeginArrowWidth--}
 
@@ -461,7 +461,7 @@ getBeginArrowWidth() : MsoArrowheadWidth;
 
 **Returns**
 
-[MsoArrowheadWidth](./msoarrowheadwidth/)
+[MsoArrowheadWidth](/nodejs-cpp/msoarrowheadwidth/)
 
 ### setBeginArrowWidth(MsoArrowheadWidth) {#setBeginArrowWidth-msoarrowheadwidth-}
 
@@ -474,7 +474,7 @@ setBeginArrowWidth(value: MsoArrowheadWidth) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [MsoArrowheadWidth](./msoarrowheadwidth/) | The value to set. |
+| value | [MsoArrowheadWidth](/nodejs-cpp/msoarrowheadwidth/) | The value to set. |
 
 ### getEndArrowWidth() {#getEndArrowWidth--}
 
@@ -487,7 +487,7 @@ getEndArrowWidth() : MsoArrowheadWidth;
 
 **Returns**
 
-[MsoArrowheadWidth](./msoarrowheadwidth/)
+[MsoArrowheadWidth](/nodejs-cpp/msoarrowheadwidth/)
 
 ### setEndArrowWidth(MsoArrowheadWidth) {#setEndArrowWidth-msoarrowheadwidth-}
 
@@ -500,7 +500,7 @@ setEndArrowWidth(value: MsoArrowheadWidth) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [MsoArrowheadWidth](./msoarrowheadwidth/) | The value to set. |
+| value | [MsoArrowheadWidth](/nodejs-cpp/msoarrowheadwidth/) | The value to set. |
 
 ### getThemeColor() {#getThemeColor--}
 
@@ -513,7 +513,7 @@ getThemeColor() : ThemeColor;
 
 **Returns**
 
-[ThemeColor](./themecolor/)
+[ThemeColor](/nodejs-cpp/themecolor/)
 
 **Remarks**
 
@@ -530,7 +530,7 @@ setThemeColor(value: ThemeColor) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ThemeColor](./themecolor/) | The value to set. |
+| value | [ThemeColor](/nodejs-cpp/themecolor/) | The value to set. |
 
 **Remarks**
 
@@ -538,7 +538,7 @@ If the foreground color is not a theme color, NULL will be returned.
 
 ### getColor() {#getColor--}
 
-Represents the [System.Drawing.Color](./system.drawing.color/) of the line.
+Represents the [System.Drawing.Color](/nodejs-cpp/system.drawing.color/) of the line.
 
 ```javascript
 getColor() : Color;
@@ -547,11 +547,11 @@ getColor() : Color;
 
 **Returns**
 
-[Color](./color/)
+[Color](/nodejs-cpp/color/)
 
 ### setColor(Color) {#setColor-color-}
 
-Represents the [System.Drawing.Color](./system.drawing.color/) of the line.
+Represents the [System.Drawing.Color](/nodejs-cpp/system.drawing.color/) of the line.
 
 ```javascript
 setColor(value: Color) : void;
@@ -560,7 +560,7 @@ setColor(value: Color) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [Color](./color/) | The value to set. |
+| value | [Color](/nodejs-cpp/color/) | The value to set. |
 
 ### getTransparency() {#getTransparency--}
 
@@ -595,7 +595,7 @@ getStyle() : LineType;
 
 **Returns**
 
-[LineType](./linetype/)
+[LineType](/nodejs-cpp/linetype/)
 
 ### setStyle(LineType) {#setStyle-linetype-}
 
@@ -608,11 +608,11 @@ setStyle(value: LineType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [LineType](./linetype/) | The value to set. |
+| value | [LineType](/nodejs-cpp/linetype/) | The value to set. |
 
 ### getWeight() {#getWeight--}
 
-Gets or sets the [WeightType](./weighttype/) of the line.
+Gets or sets the [WeightType](/nodejs-cpp/weighttype/) of the line.
 
 ```javascript
 getWeight() : WeightType;
@@ -621,11 +621,11 @@ getWeight() : WeightType;
 
 **Returns**
 
-[WeightType](./weighttype/)
+[WeightType](/nodejs-cpp/weighttype/)
 
 ### setWeight(WeightType) {#setWeight-weighttype-}
 
-Gets or sets the [WeightType](./weighttype/) of the line.
+Gets or sets the [WeightType](/nodejs-cpp/weighttype/) of the line.
 
 ```javascript
 setWeight(value: WeightType) : void;
@@ -634,7 +634,7 @@ setWeight(value: WeightType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [WeightType](./weighttype/) | The value to set. |
+| value | [WeightType](/nodejs-cpp/weighttype/) | The value to set. |
 
 ### getWeightPt() {#getWeightPt--}
 
@@ -691,7 +691,7 @@ getFormattingType() : ChartLineFormattingType;
 
 **Returns**
 
-[ChartLineFormattingType](./chartlineformattingtype/)
+[ChartLineFormattingType](/nodejs-cpp/chartlineformattingtype/)
 
 ### setFormattingType(ChartLineFormattingType) {#setFormattingType-chartlineformattingtype-}
 
@@ -704,7 +704,7 @@ setFormattingType(value: ChartLineFormattingType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ChartLineFormattingType](./chartlineformattingtype/) | The value to set. |
+| value | [ChartLineFormattingType](/nodejs-cpp/chartlineformattingtype/) | The value to set. |
 
 ### isAutomaticColor() {#isAutomaticColor--}
 
@@ -770,6 +770,6 @@ getGradientFill() : GradientFill;
 
 **Returns**
 
-[GradientFill](./gradientfill/)
+[GradientFill](/nodejs-cpp/gradientfill/)
 
 

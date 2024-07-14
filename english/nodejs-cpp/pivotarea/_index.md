@@ -54,7 +54,7 @@ constructor(table: PivotTable);
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| table | [PivotTable](./pivottable/) |  |
+| table | [PivotTable](/nodejs-cpp/pivottable/) |  |
 
 ### getFilters() {#getFilters--}
 
@@ -67,7 +67,7 @@ getFilters() : PivotAreaFilterCollection;
 
 **Returns**
 
-[PivotAreaFilterCollection](./pivotareafiltercollection/)
+[PivotAreaFilterCollection](/nodejs-cpp/pivotareafiltercollection/)
 
 ### getOnlyData() {#getOnlyData--}
 
@@ -168,7 +168,7 @@ getAxisType() : PivotFieldType;
 
 **Returns**
 
-[PivotFieldType](./pivotfieldtype/)
+[PivotFieldType](/nodejs-cpp/pivotfieldtype/)
 
 ### setAxisType(PivotFieldType) {#setAxisType-pivotfieldtype-}
 
@@ -181,7 +181,7 @@ setAxisType(value: PivotFieldType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [PivotFieldType](./pivotfieldtype/) | The value to set. |
+| value | [PivotFieldType](/nodejs-cpp/pivotfieldtype/) | The value to set. |
 
 ### getRuleType() {#getRuleType--}
 
@@ -194,7 +194,7 @@ getRuleType() : PivotAreaType;
 
 **Returns**
 
-[PivotAreaType](./pivotareatype/)
+[PivotAreaType](/nodejs-cpp/pivotareatype/)
 
 ### setRuleType(PivotAreaType) {#setRuleType-pivotareatype-}
 
@@ -207,7 +207,7 @@ setRuleType(value: PivotAreaType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [PivotAreaType](./pivotareatype/) | The value to set. |
+| value | [PivotAreaType](/nodejs-cpp/pivotareatype/) | The value to set. |
 
 ### isOutline() {#isOutline--}
 
@@ -242,8 +242,8 @@ select(axisType: PivotFieldType, fieldPosition: number, selectionType: PivotTabl
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| axisType | [PivotFieldType](./pivotfieldtype/) | The region of the PivotTable to which this rule applies. |
+| axisType | [PivotFieldType](/nodejs-cpp/pivotfieldtype/) | The region of the PivotTable to which this rule applies. |
 | fieldPosition | number | Position of the field within the axis to which this rule applies. |
-| selectionType | [PivotTableSelectionType](./pivottableselectiontype/) | Specifies what can be selected in a PivotTable during a structured selection. |
+| selectionType | [PivotTableSelectionType](/nodejs-cpp/pivottableselectiontype/) | Specifies what can be selected in a PivotTable during a structured selection. |
 
 

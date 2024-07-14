@@ -68,7 +68,7 @@ getStyle() : MsoLineStyle;
 
 **Returns**
 
-[MsoLineStyle](./msolinestyle/)
+[MsoLineStyle](/nodejs-cpp/msolinestyle/)
 
 ### setStyle(MsoLineStyle) {#setStyle-msolinestyle-}
 
@@ -81,7 +81,7 @@ setStyle(value: MsoLineStyle) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [MsoLineStyle](./msolinestyle/) | The value to set. |
+| value | [MsoLineStyle](/nodejs-cpp/msolinestyle/) | The value to set. |
 
 ### getForeColor() {#getForeColor--}
 
@@ -94,7 +94,7 @@ getForeColor() : Color;
 
 **Returns**
 
-[Color](./color/)
+[Color](/nodejs-cpp/color/)
 
 ### setForeColor(Color) {#setForeColor-color-}
 
@@ -107,7 +107,7 @@ setForeColor(value: Color) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [Color](./color/) | The value to set. |
+| value | [Color](/nodejs-cpp/color/) | The value to set. |
 
 ### getBackColor() {#getBackColor--}
 
@@ -120,7 +120,7 @@ getBackColor() : Color;
 
 **Returns**
 
-[Color](./color/)
+[Color](/nodejs-cpp/color/)
 
 ### setBackColor(Color) {#setBackColor-color-}
 
@@ -133,7 +133,7 @@ setBackColor(value: Color) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [Color](./color/) | The value to set. |
+| value | [Color](/nodejs-cpp/color/) | The value to set. |
 
 ### getDashStyle() {#getDashStyle--}
 
@@ -146,7 +146,7 @@ getDashStyle() : MsoLineDashStyle;
 
 **Returns**
 
-[MsoLineDashStyle](./msolinedashstyle/)
+[MsoLineDashStyle](/nodejs-cpp/msolinedashstyle/)
 
 ### setDashStyle(MsoLineDashStyle) {#setDashStyle-msolinedashstyle-}
 
@@ -159,7 +159,7 @@ setDashStyle(value: MsoLineDashStyle) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [MsoLineDashStyle](./msolinedashstyle/) | The value to set. |
+| value | [MsoLineDashStyle](/nodejs-cpp/msolinedashstyle/) | The value to set. |
 
 ### getTransparency() {#getTransparency--}
 

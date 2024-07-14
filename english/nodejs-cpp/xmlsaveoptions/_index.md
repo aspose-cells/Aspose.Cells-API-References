@@ -27,7 +27,7 @@ class XmlSaveOptions extends SaveOptions;
 | Method | Description |
 | --- | --- |
 | [getSheetIndexes()](#getSheetIndexes--)| Represents the indexes of exported sheets. |
-| [setSheetIndexes(number[])](#setSheetIndexes-number[]-)| Represents the indexes of exported sheets. |
+| [setSheetIndexes(number[])](#setSheetIndexes-numberarray-)| Represents the indexes of exported sheets. |
 | [getExportArea()](#getExportArea--)| Gets or sets the exporting range. |
 | [setExportArea(CellArea)](#setExportArea-cellarea-)| Gets or sets the exporting range. |
 | [getHasHeaderRow()](#getHasHeaderRow--)| Indicates whether the range contains header row. |
@@ -96,7 +96,7 @@ getSheetIndexes() : number[];
 
 number[]
 
-### setSheetIndexes(number[]) {#setSheetIndexes-number[]-}
+### setSheetIndexes(number[]) {#setSheetIndexes-numberarray-}
 
 Represents the indexes of exported sheets.
 
@@ -120,7 +120,7 @@ getExportArea() : CellArea;
 
 **Returns**
 
-[CellArea](./cellarea/)
+[CellArea](/nodejs-cpp/cellarea/)
 
 ### setExportArea(CellArea) {#setExportArea-cellarea-}
 
@@ -133,7 +133,7 @@ setExportArea(value: CellArea) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [CellArea](./cellarea/) | The value to set. |
+| value | [CellArea](/nodejs-cpp/cellarea/) | The value to set. |
 
 ### getHasHeaderRow() {#getHasHeaderRow--}
 
@@ -234,7 +234,7 @@ getSaveFormat() : SaveFormat;
 
 **Returns**
 
-[SaveFormat](./saveformat/)
+[SaveFormat](/nodejs-cpp/saveformat/)
 
 ### getClearData() {#getClearData--}
 
@@ -447,7 +447,7 @@ setWarningCallback(value: IWarningCallback) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IWarningCallback](./iwarningcallback/) | The value to set. |
+| value | [IWarningCallback](/nodejs-cpp/iwarningcallback/) | The value to set. |
 
 ### getWarningCallback() {#getWarningCallback--}
 
@@ -460,7 +460,7 @@ getWarningCallback() : IWarningCallback;
 
 **Returns**
 
-[IWarningCallback](./iwarningcallback/)
+[IWarningCallback](/nodejs-cpp/iwarningcallback/)
 
 ### getUpdateSmartArt() {#getUpdateSmartArt--}
 

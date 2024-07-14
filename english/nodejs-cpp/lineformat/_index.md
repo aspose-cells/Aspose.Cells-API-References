@@ -52,10 +52,10 @@ class LineFormat extends FillFormat;
 | [setFillType(FillType)](#setFillType-filltype-)| Gets and sets fill type |
 | [getTransparency()](#getTransparency--)| Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear). |
 | [setTransparency(number)](#setTransparency-number-)| Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear). |
-| [getGradientFill()](#getGradientFill--)| Gets [GradientFill](./gradientfill/) object. |
-| [getTextureFill()](#getTextureFill--)| Gets [TextureFill](./texturefill/) object. |
-| [getSolidFill()](#getSolidFill--)| Gets [SolidFill](./solidfill/) object. |
-| [getPatternFill()](#getPatternFill--)| Gets [PatternFill](./patternfill/) object. |
+| [getGradientFill()](#getGradientFill--)| Gets [GradientFill](/nodejs-cpp/gradientfill/) object. |
+| [getTextureFill()](#getTextureFill--)| Gets [TextureFill](/nodejs-cpp/texturefill/) object. |
+| [getSolidFill()](#getSolidFill--)| Gets [SolidFill](/nodejs-cpp/solidfill/) object. |
+| [getPatternFill()](#getPatternFill--)| Gets [PatternFill](/nodejs-cpp/patternfill/) object. |
 | [getGradientColorType()](#getGradientColorType--)| Returns the gradient color type for the specified fill. |
 | [getGradientStyle()](#getGradientStyle--)| Returns the gradient style for the specified fill. |
 | [getGradientColor1()](#getGradientColor1--)| Returns the gradient color 1 for the specified fill. |
@@ -72,7 +72,7 @@ class LineFormat extends FillFormat;
 | [getScale()](#getScale--)| Gets and sets the picture format scale. |
 | [setScale(number)](#setScale-number-)| Gets and sets the picture format scale. |
 | [getImageData()](#getImageData--)| Gets and sets the picture image data. |
-| [setImageData(number[])](#setImageData-number[]-)| Gets and sets the picture image data. |
+| [setImageData(number[])](#setImageData-numberarray-)| Gets and sets the picture image data. |
 | [setOneColorGradient(Color, number, GradientStyleType, number)](#setOneColorGradient-color-number-gradientstyletype-number-)| Sets the specified fill to a one-color gradient. Only applies for Excel 2007. |
 | [setTwoColorGradient(Color, Color, GradientStyleType, number)](#setTwoColorGradient-color-color-gradientstyletype-number-)| Sets the specified fill to a two-color gradient. Only applies for Excel 2007. |
 | [setTwoColorGradient(Color, number, Color, number, GradientStyleType, number)](#setTwoColorGradient-color-number-color-number-gradientstyletype-number-)| Sets the specified fill to a two-color gradient. Only applies for Excel 2007. |
@@ -103,7 +103,7 @@ getCompoundType() : MsoLineStyle;
 
 **Returns**
 
-[MsoLineStyle](./msolinestyle/)
+[MsoLineStyle](/nodejs-cpp/msolinestyle/)
 
 ### setCompoundType(MsoLineStyle) {#setCompoundType-msolinestyle-}
 
@@ -116,7 +116,7 @@ setCompoundType(value: MsoLineStyle) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [MsoLineStyle](./msolinestyle/) | The value to set. |
+| value | [MsoLineStyle](/nodejs-cpp/msolinestyle/) | The value to set. |
 
 ### getDashStyle() {#getDashStyle--}
 
@@ -129,7 +129,7 @@ getDashStyle() : MsoLineDashStyle;
 
 **Returns**
 
-[MsoLineDashStyle](./msolinedashstyle/)
+[MsoLineDashStyle](/nodejs-cpp/msolinedashstyle/)
 
 ### setDashStyle(MsoLineDashStyle) {#setDashStyle-msolinedashstyle-}
 
@@ -142,7 +142,7 @@ setDashStyle(value: MsoLineDashStyle) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [MsoLineDashStyle](./msolinedashstyle/) | The value to set. |
+| value | [MsoLineDashStyle](/nodejs-cpp/msolinedashstyle/) | The value to set. |
 
 ### getCapType() {#getCapType--}
 
@@ -155,7 +155,7 @@ getCapType() : LineCapType;
 
 **Returns**
 
-[LineCapType](./linecaptype/)
+[LineCapType](/nodejs-cpp/linecaptype/)
 
 ### setCapType(LineCapType) {#setCapType-linecaptype-}
 
@@ -168,7 +168,7 @@ setCapType(value: LineCapType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [LineCapType](./linecaptype/) | The value to set. |
+| value | [LineCapType](/nodejs-cpp/linecaptype/) | The value to set. |
 
 ### getJoinType() {#getJoinType--}
 
@@ -181,7 +181,7 @@ getJoinType() : LineJoinType;
 
 **Returns**
 
-[LineJoinType](./linejointype/)
+[LineJoinType](/nodejs-cpp/linejointype/)
 
 ### setJoinType(LineJoinType) {#setJoinType-linejointype-}
 
@@ -194,7 +194,7 @@ setJoinType(value: LineJoinType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [LineJoinType](./linejointype/) | The value to set. |
+| value | [LineJoinType](/nodejs-cpp/linejointype/) | The value to set. |
 
 ### getBeginArrowheadStyle() {#getBeginArrowheadStyle--}
 
@@ -207,7 +207,7 @@ getBeginArrowheadStyle() : MsoArrowheadStyle;
 
 **Returns**
 
-[MsoArrowheadStyle](./msoarrowheadstyle/)
+[MsoArrowheadStyle](/nodejs-cpp/msoarrowheadstyle/)
 
 ### setBeginArrowheadStyle(MsoArrowheadStyle) {#setBeginArrowheadStyle-msoarrowheadstyle-}
 
@@ -220,7 +220,7 @@ setBeginArrowheadStyle(value: MsoArrowheadStyle) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [MsoArrowheadStyle](./msoarrowheadstyle/) | The value to set. |
+| value | [MsoArrowheadStyle](/nodejs-cpp/msoarrowheadstyle/) | The value to set. |
 
 ### getBeginArrowheadWidth() {#getBeginArrowheadWidth--}
 
@@ -233,7 +233,7 @@ getBeginArrowheadWidth() : MsoArrowheadWidth;
 
 **Returns**
 
-[MsoArrowheadWidth](./msoarrowheadwidth/)
+[MsoArrowheadWidth](/nodejs-cpp/msoarrowheadwidth/)
 
 ### setBeginArrowheadWidth(MsoArrowheadWidth) {#setBeginArrowheadWidth-msoarrowheadwidth-}
 
@@ -246,7 +246,7 @@ setBeginArrowheadWidth(value: MsoArrowheadWidth) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [MsoArrowheadWidth](./msoarrowheadwidth/) | The value to set. |
+| value | [MsoArrowheadWidth](/nodejs-cpp/msoarrowheadwidth/) | The value to set. |
 
 ### getBeginArrowheadLength() {#getBeginArrowheadLength--}
 
@@ -259,7 +259,7 @@ getBeginArrowheadLength() : MsoArrowheadLength;
 
 **Returns**
 
-[MsoArrowheadLength](./msoarrowheadlength/)
+[MsoArrowheadLength](/nodejs-cpp/msoarrowheadlength/)
 
 ### setBeginArrowheadLength(MsoArrowheadLength) {#setBeginArrowheadLength-msoarrowheadlength-}
 
@@ -272,7 +272,7 @@ setBeginArrowheadLength(value: MsoArrowheadLength) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [MsoArrowheadLength](./msoarrowheadlength/) | The value to set. |
+| value | [MsoArrowheadLength](/nodejs-cpp/msoarrowheadlength/) | The value to set. |
 
 ### getEndArrowheadStyle() {#getEndArrowheadStyle--}
 
@@ -285,7 +285,7 @@ getEndArrowheadStyle() : MsoArrowheadStyle;
 
 **Returns**
 
-[MsoArrowheadStyle](./msoarrowheadstyle/)
+[MsoArrowheadStyle](/nodejs-cpp/msoarrowheadstyle/)
 
 ### setEndArrowheadStyle(MsoArrowheadStyle) {#setEndArrowheadStyle-msoarrowheadstyle-}
 
@@ -298,7 +298,7 @@ setEndArrowheadStyle(value: MsoArrowheadStyle) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [MsoArrowheadStyle](./msoarrowheadstyle/) | The value to set. |
+| value | [MsoArrowheadStyle](/nodejs-cpp/msoarrowheadstyle/) | The value to set. |
 
 ### getEndArrowheadWidth() {#getEndArrowheadWidth--}
 
@@ -311,7 +311,7 @@ getEndArrowheadWidth() : MsoArrowheadWidth;
 
 **Returns**
 
-[MsoArrowheadWidth](./msoarrowheadwidth/)
+[MsoArrowheadWidth](/nodejs-cpp/msoarrowheadwidth/)
 
 ### setEndArrowheadWidth(MsoArrowheadWidth) {#setEndArrowheadWidth-msoarrowheadwidth-}
 
@@ -324,7 +324,7 @@ setEndArrowheadWidth(value: MsoArrowheadWidth) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [MsoArrowheadWidth](./msoarrowheadwidth/) | The value to set. |
+| value | [MsoArrowheadWidth](/nodejs-cpp/msoarrowheadwidth/) | The value to set. |
 
 ### getEndArrowheadLength() {#getEndArrowheadLength--}
 
@@ -337,7 +337,7 @@ getEndArrowheadLength() : MsoArrowheadLength;
 
 **Returns**
 
-[MsoArrowheadLength](./msoarrowheadlength/)
+[MsoArrowheadLength](/nodejs-cpp/msoarrowheadlength/)
 
 ### setEndArrowheadLength(MsoArrowheadLength) {#setEndArrowheadLength-msoarrowheadlength-}
 
@@ -350,7 +350,7 @@ setEndArrowheadLength(value: MsoArrowheadLength) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [MsoArrowheadLength](./msoarrowheadlength/) | The value to set. |
+| value | [MsoArrowheadLength](/nodejs-cpp/msoarrowheadlength/) | The value to set. |
 
 ### getWeight() {#getWeight--}
 
@@ -394,7 +394,7 @@ getFillType() : FillType;
 
 **Returns**
 
-[FillType](./filltype/)
+[FillType](/nodejs-cpp/filltype/)
 
 ### setFillType(FillType) {#setFillType-filltype-}
 
@@ -407,7 +407,7 @@ setFillType(value: FillType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [FillType](./filltype/) | The value to set. |
+| value | [FillType](/nodejs-cpp/filltype/) | The value to set. |
 
 ### getTransparency() {#getTransparency--}
 
@@ -433,7 +433,7 @@ setTransparency(value: number) : void;
 
 ### getGradientFill() {#getGradientFill--}
 
-Gets [GradientFill](./gradientfill/) object.
+Gets [GradientFill](/nodejs-cpp/gradientfill/) object.
 
 ```javascript
 getGradientFill() : GradientFill;
@@ -442,11 +442,11 @@ getGradientFill() : GradientFill;
 
 **Returns**
 
-[GradientFill](./gradientfill/)
+[GradientFill](/nodejs-cpp/gradientfill/)
 
 ### getTextureFill() {#getTextureFill--}
 
-Gets [TextureFill](./texturefill/) object.
+Gets [TextureFill](/nodejs-cpp/texturefill/) object.
 
 ```javascript
 getTextureFill() : TextureFill;
@@ -455,11 +455,11 @@ getTextureFill() : TextureFill;
 
 **Returns**
 
-[TextureFill](./texturefill/)
+[TextureFill](/nodejs-cpp/texturefill/)
 
 ### getSolidFill() {#getSolidFill--}
 
-Gets [SolidFill](./solidfill/) object.
+Gets [SolidFill](/nodejs-cpp/solidfill/) object.
 
 ```javascript
 getSolidFill() : SolidFill;
@@ -468,11 +468,11 @@ getSolidFill() : SolidFill;
 
 **Returns**
 
-[SolidFill](./solidfill/)
+[SolidFill](/nodejs-cpp/solidfill/)
 
 ### getPatternFill() {#getPatternFill--}
 
-Gets [PatternFill](./patternfill/) object.
+Gets [PatternFill](/nodejs-cpp/patternfill/) object.
 
 ```javascript
 getPatternFill() : PatternFill;
@@ -481,7 +481,7 @@ getPatternFill() : PatternFill;
 
 **Returns**
 
-[PatternFill](./patternfill/)
+[PatternFill](/nodejs-cpp/patternfill/)
 
 ### getGradientColorType() {#getGradientColorType--}
 
@@ -494,7 +494,7 @@ getGradientColorType() : GradientColorType;
 
 **Returns**
 
-[GradientColorType](./gradientcolortype/)
+[GradientColorType](/nodejs-cpp/gradientcolortype/)
 
 ### getGradientStyle() {#getGradientStyle--}
 
@@ -507,7 +507,7 @@ getGradientStyle() : GradientStyleType;
 
 **Returns**
 
-[GradientStyleType](./gradientstyletype/)
+[GradientStyleType](/nodejs-cpp/gradientstyletype/)
 
 ### getGradientColor1() {#getGradientColor1--}
 
@@ -520,7 +520,7 @@ getGradientColor1() : Color;
 
 **Returns**
 
-[Color](./color/)
+[Color](/nodejs-cpp/color/)
 
 ### getGradientColor2() {#getGradientColor2--}
 
@@ -533,7 +533,7 @@ getGradientColor2() : Color;
 
 **Returns**
 
-[Color](./color/)
+[Color](/nodejs-cpp/color/)
 
 **Remarks**
 
@@ -576,7 +576,7 @@ getPresetColor() : GradientPresetType;
 
 **Returns**
 
-[GradientPresetType](./gradientpresettype/)
+[GradientPresetType](/nodejs-cpp/gradientpresettype/)
 
 ### getTexture() {#getTexture--}
 
@@ -589,7 +589,7 @@ getTexture() : TextureType;
 
 **Returns**
 
-[TextureType](./texturetype/)
+[TextureType](/nodejs-cpp/texturetype/)
 
 ### setTexture(TextureType) {#setTexture-texturetype-}
 
@@ -602,7 +602,7 @@ setTexture(value: TextureType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [TextureType](./texturetype/) | The value to set. |
+| value | [TextureType](/nodejs-cpp/texturetype/) | The value to set. |
 
 ### getPattern() {#getPattern--}
 
@@ -615,7 +615,7 @@ getPattern() : FillPattern;
 
 **Returns**
 
-[FillPattern](./fillpattern/)
+[FillPattern](/nodejs-cpp/fillpattern/)
 
 ### setPattern(FillPattern) {#setPattern-fillpattern-}
 
@@ -628,7 +628,7 @@ setPattern(value: FillPattern) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [FillPattern](./fillpattern/) | The value to set. |
+| value | [FillPattern](/nodejs-cpp/fillpattern/) | The value to set. |
 
 ### getPictureFormatType() {#getPictureFormatType--}
 
@@ -641,7 +641,7 @@ getPictureFormatType() : FillPictureType;
 
 **Returns**
 
-[FillPictureType](./fillpicturetype/)
+[FillPictureType](/nodejs-cpp/fillpicturetype/)
 
 ### setPictureFormatType(FillPictureType) {#setPictureFormatType-fillpicturetype-}
 
@@ -654,7 +654,7 @@ setPictureFormatType(value: FillPictureType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [FillPictureType](./fillpicturetype/) | The value to set. |
+| value | [FillPictureType](/nodejs-cpp/fillpicturetype/) | The value to set. |
 
 ### getScale() {#getScale--}
 
@@ -695,7 +695,7 @@ number[]
 
 If the fill format is not custom texture format, returns null.
 
-### setImageData(number[]) {#setImageData-number[]-}
+### setImageData(number[]) {#setImageData-numberarray-}
 
 Gets and sets the picture image data.
 
@@ -723,9 +723,9 @@ setOneColorGradient(color: Color, degree: number, style: GradientStyleType, vari
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| color | [Color](./color/) | One gradient color. |
+| color | [Color](/nodejs-cpp/color/) | One gradient color. |
 | degree | number | The gradient degree. Can be a value from 0.0 (dark) through 1.0 (light). |
-| style | [GradientStyleType](./gradientstyletype/) | Gradient shading style. |
+| style | [GradientStyleType](/nodejs-cpp/gradientstyletype/) | Gradient shading style. |
 | variant | number | The gradient variant. Can be a value from 1 through 4, corresponding to one of the four variants on the Gradient tab in the Fill Effects dialog box. If style is GradientStyle.FromCenter, the Variant argument can only be 1 or 2. |
 
 ### setTwoColorGradient(Color, Color, GradientStyleType, number) {#setTwoColorGradient-color-color-gradientstyletype-number-}
@@ -739,9 +739,9 @@ setTwoColorGradient(color1: Color, color2: Color, style: GradientStyleType, vari
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| color1 | [Color](./color/) | One gradient color. |
-| color2 | [Color](./color/) | Two gradient color. |
-| style | [GradientStyleType](./gradientstyletype/) | Gradient shading style. |
+| color1 | [Color](/nodejs-cpp/color/) | One gradient color. |
+| color2 | [Color](/nodejs-cpp/color/) | Two gradient color. |
+| style | [GradientStyleType](/nodejs-cpp/gradientstyletype/) | Gradient shading style. |
 | variant | number | The gradient variant. Can be a value from 1 through 4, corresponding to one of the four variants on the Gradient tab in the Fill Effects dialog box. If style is GradientStyle.FromCenter, the Variant argument can only be 1 or 2. |
 
 ### setTwoColorGradient(Color, number, Color, number, GradientStyleType, number) {#setTwoColorGradient-color-number-color-number-gradientstyletype-number-}
@@ -755,11 +755,11 @@ setTwoColorGradient(color1: Color, transparency1: number, color2: Color, transpa
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| color1 | [Color](./color/) | One gradient color. |
+| color1 | [Color](/nodejs-cpp/color/) | One gradient color. |
 | transparency1 | number | The degree of transparency of the color1 as a value from 0.0 (opaque) through 1.0 (clear). |
-| color2 | [Color](./color/) | Two gradient color. |
+| color2 | [Color](/nodejs-cpp/color/) | Two gradient color. |
 | transparency2 | number | The degree of transparency of the color2 as a value from 0.0 (opaque) through 1.0 (clear). |
-| style | [GradientStyleType](./gradientstyletype/) | Gradient shading style. |
+| style | [GradientStyleType](/nodejs-cpp/gradientstyletype/) | Gradient shading style. |
 | variant | number | The gradient variant. Can be a value from 1 through 4, corresponding to one of the four variants on the Gradient tab in the Fill Effects dialog box. If style is GradientStyle.FromCenter, the Variant argument can only be 1 or 2. |
 
 ### setPresetColorGradient(GradientPresetType, GradientStyleType, number) {#setPresetColorGradient-gradientpresettype-gradientstyletype-number-}
@@ -773,8 +773,8 @@ setPresetColorGradient(presetColor: GradientPresetType, style: GradientStyleType
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| presetColor | [GradientPresetType](./gradientpresettype/) | Preset color type |
-| style | [GradientStyleType](./gradientstyletype/) | Gradient shading style. |
+| presetColor | [GradientPresetType](/nodejs-cpp/gradientpresettype/) | Preset color type |
+| style | [GradientStyleType](/nodejs-cpp/gradientstyletype/) | Gradient shading style. |
 | variant | number | The gradient variant. Can be a value from 1 through 4, corresponding to one of the four variants on the Gradient tab in the Fill Effects dialog box. If style is GradientStyle.FromCenter, the Variant argument can only be 1 or 2. |
 
 

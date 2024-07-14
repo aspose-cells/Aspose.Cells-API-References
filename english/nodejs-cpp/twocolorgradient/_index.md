@@ -46,9 +46,9 @@ constructor(color1: Color, color2: Color, gradientStyleType: GradientStyleType, 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| color1 | [Color](./color/) |  |
-| color2 | [Color](./color/) |  |
-| gradientStyleType | [GradientStyleType](./gradientstyletype/) |  |
+| color1 | [Color](/nodejs-cpp/color/) |  |
+| color2 | [Color](/nodejs-cpp/color/) |  |
+| gradientStyleType | [GradientStyleType](/nodejs-cpp/gradientstyletype/) |  |
 | variant | number |  |
 
 ### getColor1() {#getColor1--}
@@ -62,7 +62,7 @@ getColor1() : Color;
 
 **Returns**
 
-[Color](./color/)
+[Color](/nodejs-cpp/color/)
 
 ### setColor1(Color) {#setColor1-color-}
 
@@ -75,7 +75,7 @@ setColor1(value: Color) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [Color](./color/) | The value to set. |
+| value | [Color](/nodejs-cpp/color/) | The value to set. |
 
 ### getColor2() {#getColor2--}
 
@@ -88,7 +88,7 @@ getColor2() : Color;
 
 **Returns**
 
-[Color](./color/)
+[Color](/nodejs-cpp/color/)
 
 ### setColor2(Color) {#setColor2-color-}
 
@@ -101,7 +101,7 @@ setColor2(value: Color) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [Color](./color/) | The value to set. |
+| value | [Color](/nodejs-cpp/color/) | The value to set. |
 
 ### getGradientStyleType() {#getGradientStyleType--}
 
@@ -114,7 +114,7 @@ getGradientStyleType() : GradientStyleType;
 
 **Returns**
 
-[GradientStyleType](./gradientstyletype/)
+[GradientStyleType](/nodejs-cpp/gradientstyletype/)
 
 ### setGradientStyleType(GradientStyleType) {#setGradientStyleType-gradientstyletype-}
 
@@ -127,7 +127,7 @@ setGradientStyleType(value: GradientStyleType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [GradientStyleType](./gradientstyletype/) | The value to set. |
+| value | [GradientStyleType](/nodejs-cpp/gradientstyletype/) | The value to set. |
 
 ### getVariant() {#getVariant--}
 

@@ -9,7 +9,7 @@ url: /nodejs-cpp/lightcellsdatahandler/
 ## LightCellsDataHandler interface
 Represents cells data handler for reading large spreadsheet files in light weight mode.
 ### Remarks
-When reading a workbook by this mode, [StartSheet(Worksheet)](./startsheet(worksheet)/) will be checked when reading every worksheet in the workbook. For one sheet, if [StartSheet(Worksheet)](./startsheet(worksheet)/) gives true, then all data and properties of rows/cells of this sheet will be checked and processed by the implementation of this interface. For every row, [StartRow(int)](./startrow(int)/) will be called to check whether it need to be processed. If a row needs to be processed, properties of this row will be read firstly and user can access its properties by [ProcessRow(Row)](./processrow(row)/). if row's cells need to be processed too, then [ProcessRow(Row)](./processrow(row)/) should returns true and then [ProcessRow(Row)](./processrow(row)/) will be called for every existing cell in this row to check whether one cell need to be processed. If one cell needs to be processed, then [ProcessCell(Cell)](./processcell(cell)/) will be called to process the cell by the implementation of this interface. <br></br> Please note, user should only operate on the values and properties of current Row/Cell object provided by corresponding method. Because the cells data is read from the template file in streaming manner, most of other objects may be reset/update later after cells data has been loaded. So when user operating other objects in this implementation, those operations may be not able to affect the objects existing in the workbook. Or even worse, those operations may cause inconsistent data in the workbook and then cause unpected issue or exception later. So, for all other objects such as shapes, column width and styles, conditional formattings, ...etc., please do not operate them in any methods of this implementation. Instead, please manage them after the workbook has been constructed.
+When reading a workbook by this mode, [StartSheet(Worksheet)](/nodejs-cpp/startsheet(worksheet)/) will be checked when reading every worksheet in the workbook. For one sheet, if [StartSheet(Worksheet)](/nodejs-cpp/startsheet(worksheet)/) gives true, then all data and properties of rows/cells of this sheet will be checked and processed by the implementation of this interface. For every row, [StartRow(int)](/nodejs-cpp/startrow(int)/) will be called to check whether it need to be processed. If a row needs to be processed, properties of this row will be read firstly and user can access its properties by [ProcessRow(Row)](/nodejs-cpp/processrow(row)/). if row's cells need to be processed too, then [ProcessRow(Row)](/nodejs-cpp/processrow(row)/) should returns true and then [ProcessRow(Row)](/nodejs-cpp/processrow(row)/) will be called for every existing cell in this row to check whether one cell need to be processed. If one cell needs to be processed, then [ProcessCell(Cell)](/nodejs-cpp/processcell(cell)/) will be called to process the cell by the implementation of this interface. <br></br> Please note, user should only operate on the values and properties of current Row/Cell object provided by corresponding method. Because the cells data is read from the template file in streaming manner, most of other objects may be reset/update later after cells data has been loaded. So when user operating other objects in this implementation, those operations may be not able to affect the objects existing in the workbook. Or even worse, those operations may cause inconsistent data in the workbook and then cause unpected issue or exception later. So, for all other objects such as shapes, column width and styles, conditional formattings, ...etc., please do not operate them in any methods of this implementation. Instead, please manage them after the workbook has been constructed.
 
 ## Methods
 
@@ -33,7 +33,7 @@ startSheet(sheet: Worksheet) : boolean;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sheet | [Worksheet](./worksheet/) | the worksheet to read cells data. |
+| sheet | [Worksheet](/nodejs-cpp/worksheet/) | the worksheet to read cells data. |
 
 **Returns**
 
@@ -71,7 +71,7 @@ processRow(row: Row) : boolean;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| row | [Row](./row/) | Row object which is being processed currently. |
+| row | [Row](/nodejs-cpp/row/) | Row object which is being processed currently. |
 
 **Returns**
 
@@ -100,7 +100,7 @@ whether this cell needs to be processed. false to ignore the cell and check the 
 
 **Remarks**
 
-It will be called when reaching an existing cell in current row. Current row is the row of last call of [ProcessRow(Row)](./processrow(row)/).
+It will be called when reaching an existing cell in current row. Current row is the row of last call of [ProcessRow(Row)](/nodejs-cpp/processrow(row)/).
 
 ### processCell(Cell) {#processCell-cell-}
 
@@ -113,7 +113,7 @@ processCell(cell: Cell) : boolean;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| cell | [Cell](./cell/) | Cell object which is being processed currently |
+| cell | [Cell](/nodejs-cpp/cell/) | Cell object which is being processed currently |
 
 **Returns**
 

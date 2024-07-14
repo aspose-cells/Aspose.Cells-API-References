@@ -32,7 +32,7 @@ class ReplaceOptions;
 | [getRegexKey()](#getRegexKey--)| Indicates whether the searched key is regex. If true then the searched key will be taken as regex. |
 | [setRegexKey(boolean)](#setRegexKey-boolean-)| Indicates whether the searched key is regex. If true then the searched key will be taken as regex. |
 | [getFontSettings()](#getFontSettings--)| The rich formatted settings for the replaced text. |
-| [setFontSettings(FontSetting[])](#setFontSettings-fontsetting[]-)| The rich formatted settings for the replaced text. |
+| [setFontSettings(FontSetting[])](#setFontSettings-fontsettingarray-)| The rich formatted settings for the replaced text. |
 
 
 ### constructor() {#constructor--}
@@ -121,9 +121,9 @@ getFontSettings() : FontSetting[];
 
 **Returns**
 
-[FontSetting](./fontsetting/)[]
+[FontSetting](/nodejs-cpp/fontsetting/)[]
 
-### setFontSettings(FontSetting[]) {#setFontSettings-fontsetting[]-}
+### setFontSettings(FontSetting[]) {#setFontSettings-fontsettingarray-}
 
 The rich formatted settings for the replaced text.
 
@@ -134,6 +134,6 @@ setFontSettings(value: FontSetting[]) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [FontSetting](./fontsetting/)[] | The value to set. |
+| value | [FontSetting](/nodejs-cpp/fontsetting/)[] | The value to set. |
 
 

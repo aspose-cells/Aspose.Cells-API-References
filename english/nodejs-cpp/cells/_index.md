@@ -1,14 +1,14 @@
 ﻿---
 title: Cells
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Encapsulates a collection of cell relevant objects such as Cell.cell Cell.cell ...etc.
+description: Encapsulates a collection of cell relevant objects such as Cellnodejscppcell Cellnodejscppcell ...etc.
 type: docs
 url: /nodejs-cpp/cells/
 ---
 
 ## Cells class
 
-Encapsulates a collection of cell relevant objects, such as [Cell](./cell/), [Cell](./cell/), ...etc.
+Encapsulates a collection of cell relevant objects, such as [Cell](/nodejs-cpp/cell/), [Cell](/nodejs-cpp/cell/), ...etc.
 
 ```javascript
 class Cells;
@@ -19,11 +19,11 @@ class Cells;
 
 | Method | Description |
 | --- | --- |
-| [get(number, number)](#get-number-number-)| Gets the [Cell](./cell/) element at the specified cell row index and column index. |
+| [get(number, number)](#get-number-number-)| Gets the [Cell](/nodejs-cpp/cell/) element at the specified cell row index and column index. |
 | [getOdsCellFields()](#getOdsCellFields--)| Gets the list of fields of ods. |
 | [getCount()](#getCount--)| Gets the total count of instantiated Cell objects. |
 | [getCountLarge()](#getCountLarge--)| Gets the total count of instantiated Cell objects. |
-| [getRows()](#getRows--)| Gets the collection of [Row](./row/) objects that represents the individual rows in this worksheet. |
+| [getRows()](#getRows--)| Gets the collection of [Row](/nodejs-cpp/row/) objects that represents the individual rows in this worksheet. |
 | [getMultiThreadReading()](#getMultiThreadReading--)| Gets or sets whether the cells data model should support Multi-Thread reading. Default value of this property is false. |
 | [setMultiThreadReading(boolean)](#setMultiThreadReading-boolean-)| Gets or sets whether the cells data model should support Multi-Thread reading. Default value of this property is false. |
 | [getMemorySetting()](#getMemorySetting--)| Gets or sets the memory usage option for this cells. |
@@ -56,28 +56,28 @@ class Cells;
 | [setIsDefaultRowHeightMatched(boolean)](#setIsDefaultRowHeightMatched-boolean-)| Indicates that row height and default font height matches |
 | [isDefaultRowHidden()](#isDefaultRowHidden--)| Indicates whether the row is default hidden. |
 | [setIsDefaultRowHidden(boolean)](#setIsDefaultRowHidden-boolean-)| Indicates whether the row is default hidden. |
-| [getColumns()](#getColumns--)| Gets the collection of [Column](./column/) objects that represents the individual columns in this worksheet. |
-| [getRanges()](#getRanges--)| Gets the collection of [Range](./range/) objects created at run time. |
+| [getColumns()](#getColumns--)| Gets the collection of [Column](/nodejs-cpp/column/) objects that represents the individual columns in this worksheet. |
+| [getRanges()](#getRanges--)| Gets the collection of [Range](/nodejs-cpp/range/) objects created at run time. |
 | [getLastCell()](#getLastCell--)| Gets the last cell in this worksheet. |
 | [getMaxDisplayRange()](#getMaxDisplayRange--)| Gets the max range which includes data, merged cells and shapes. |
 | [getFirstCell()](#getFirstCell--)| Gets the first cell in this worksheet. |
 | [dispose()](#dispose--)| Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [getEnumerator()](#getEnumerator--)| Gets the cells enumerator. |
 | [getMergedAreas()](#getMergedAreas--)| Gets all merged cells. |
-| [getCell(number, number)](#getCell-number-number-)| Gets the [Cell](./cell/) element or null at the specified cell row index and column index. |
-| [getRow(number)](#getRow-number-)| Gets the [Row](./row/) element at the specified cell row index. |
-| [checkCell(number, number)](#checkCell-number-number-)| Gets the [Cell](./cell/) element or null at the specified cell row index and column index. |
-| [checkRow(number)](#checkRow-number-)| Gets the [Row](./row/) element or null at the specified cell row index. |
-| [checkColumn(number)](#checkColumn-number-)| Gets the [Column](./column/) element or null at the specified column index. |
+| [getCell(number, number)](#getCell-number-number-)| Gets the [Cell](/nodejs-cpp/cell/) element or null at the specified cell row index and column index. |
+| [getRow(number)](#getRow-number-)| Gets the [Row](/nodejs-cpp/row/) element at the specified cell row index. |
+| [checkCell(number, number)](#checkCell-number-number-)| Gets the [Cell](/nodejs-cpp/cell/) element or null at the specified cell row index and column index. |
+| [checkRow(number)](#checkRow-number-)| Gets the [Row](/nodejs-cpp/row/) element or null at the specified cell row index. |
+| [checkColumn(number)](#checkColumn-number-)| Gets the [Column](/nodejs-cpp/column/) element or null at the specified column index. |
 | [isRowHidden(number)](#isRowHidden-number-)| Checks whether a row at given index is hidden. |
 | [isColumnHidden(number)](#isColumnHidden-number-)| Checks whether a column at given index is hidden. |
 | [addRange(Range)](#addRange-range-)| Adds a range object reference to cells |
-| [createRange(string, string)](#createRange-string-string-)| Creates a [Range](./range/) object from a range of cells. |
-| [createRange(number, number, number, number)](#createRange-number-number-number-number-)| Creates a [Range](./range/) object from a range of cells. |
-| [createRange(string)](#createRange-string-)| Creates a [Range](./range/) object from an address of the range. |
-| [createRange(number, number, boolean)](#createRange-number-number-boolean-)| Creates a [Range](./range/) object from rows of cells or columns of cells. |
+| [createRange(string, string)](#createRange-string-string-)| Creates a [Range](/nodejs-cpp/range/) object from a range of cells. |
+| [createRange(number, number, number, number)](#createRange-number-number-number-number-)| Creates a [Range](/nodejs-cpp/range/) object from a range of cells. |
+| [createRange(string)](#createRange-string-)| Creates a [Range](/nodejs-cpp/range/) object from an address of the range. |
+| [createRange(number, number, boolean)](#createRange-number-number-boolean-)| Creates a [Range](/nodejs-cpp/range/) object from rows of cells or columns of cells. |
 | [clear()](#clear--)| Clears all data of the worksheet. |
-| [importFormulaArray(string[], number, number, boolean)](#importFormulaArray-string[]-number-number-boolean-)| Imports an array of formula into a worksheet. |
+| [importFormulaArray(string[], number, number, boolean)](#importFormulaArray-stringarray-number-number-boolean-)| Imports an array of formula into a worksheet. |
 | [textToColumns(number, number, number, TxtLoadOptions)](#textToColumns-number-number-number-txtloadoptions-)| Splits the text in the column to columns. |
 | [importCSV(string, string, boolean, number, number)](#importCSV-string-string-boolean-number-number-)| Import a CSV file to the cells. |
 | [importCSV(Uint8Array, string, boolean, number, number)](#importCSV-uint8array-string-boolean-number-number-)| Import a CSV file to the cells. |
@@ -181,12 +181,12 @@ class Cells;
 | [insertRange(CellArea, number, ShiftType)](#insertRange-cellarea-number-shifttype-)| Inserts a range of cells and shift cells according to the shift option. |
 | [deleteRange(number, number, number, number, ShiftType)](#deleteRange-number-number-number-number-shifttype-)| Deletes a range of cells and shift cells according to the shift option. |
 | [retrieveSubtotalSetting(CellArea)](#retrieveSubtotalSetting-cellarea-)| Retrieves subtotals setting of the range. |
-| [subtotal(CellArea, number, ConsolidationFunction, number[])](#subtotal-cellarea-number-consolidationfunction-number[]-)| Creates subtotals for the range. |
-| [subtotal(CellArea, number, ConsolidationFunction, number[], boolean, boolean, boolean)](#subtotal-cellarea-number-consolidationfunction-number[]-boolean-boolean-boolean-)| Creates subtotals for the range. |
+| [subtotal(CellArea, number, ConsolidationFunction, number[])](#subtotal-cellarea-number-consolidationfunction-numberarray-)| Creates subtotals for the range. |
+| [subtotal(CellArea, number, ConsolidationFunction, number[], boolean, boolean, boolean)](#subtotal-cellarea-number-consolidationfunction-numberarray-boolean-boolean-boolean-)| Creates subtotals for the range. |
 | [removeFormulas()](#removeFormulas--)| Removes all formula and replaces with the value of the formula. |
 | [removeDuplicates()](#removeDuplicates--)| Removes duplicate rows in the sheet. |
 | [removeDuplicates(number, number, number, number)](#removeDuplicates-number-number-number-number-)| Removes duplicate values in the range. |
-| [removeDuplicates(number, number, number, number, boolean, number[])](#removeDuplicates-number-number-number-number-boolean-number[]-)| Removes duplicate data of the range. |
+| [removeDuplicates(number, number, number, number, boolean, number[])](#removeDuplicates-number-number-number-number-boolean-numberarray-)| Removes duplicate data of the range. |
 | [convertStringToNumericValue()](#convertStringToNumericValue--)| Converts all string data in the worksheet to numeric value if possible. |
 | [getDependents(boolean, number, number)](#getDependents-boolean-number-number-)| Get all cells which refer to the specific cell. |
 | [getDependentsInCalculation(number, number, boolean)](#getDependentsInCalculation-number-number-boolean-)| Gets all cells whose calculated result depends on specific cell. |
@@ -196,7 +196,7 @@ class Cells;
 
 ### get(number, number) {#get-number-number-}
 
-Gets the [Cell](./cell/) element at the specified cell row index and column index.
+Gets the [Cell](/nodejs-cpp/cell/) element at the specified cell row index and column index.
 
 ```javascript
 get(row: number, column: number) : Cell;
@@ -210,7 +210,7 @@ get(row: number, column: number) : Cell;
 
 **Returns**
 
-The [Cell](./cell/) object.
+The [Cell](/nodejs-cpp/cell/) object.
 
 ### getOdsCellFields() {#getOdsCellFields--}
 
@@ -223,7 +223,7 @@ getOdsCellFields() : OdsCellFieldCollection;
 
 **Returns**
 
-[OdsCellFieldCollection](./odscellfieldcollection/)
+[OdsCellFieldCollection](/nodejs-cpp/odscellfieldcollection/)
 
 ### getCount() {#getCount--}
 
@@ -245,7 +245,7 @@ getCountLarge() : number;
 
 ### getRows() {#getRows--}
 
-Gets the collection of [Row](./row/) objects that represents the individual rows in this worksheet.
+Gets the collection of [Row](/nodejs-cpp/row/) objects that represents the individual rows in this worksheet.
 
 ```javascript
 getRows() : RowCollection;
@@ -254,7 +254,7 @@ getRows() : RowCollection;
 
 **Returns**
 
-[RowCollection](./rowcollection/)
+[RowCollection](/nodejs-cpp/rowcollection/)
 
 ### getMultiThreadReading() {#getMultiThreadReading--}
 
@@ -267,7 +267,7 @@ getMultiThreadReading() : boolean;
 
 **Remarks**
 
-If there are multiple threads to read Row/Cell objects in this collection concurrently, this property should be set as true, otherwise unexpected result may be produced. Supporting Multi-Thread reading may degrade the performance for accessing Row/Cell objects from this collection. Please note, some features cannot support Multi-Thread reading, such as formatting values(by [Cell.StringValue](./cell.stringvalue/), [Cell.StringValue](./cell.stringvalue/), .etc.). So, even with this property being set as true, those APIs still may give unexpected result for Multi-Thread reading.
+If there are multiple threads to read Row/Cell objects in this collection concurrently, this property should be set as true, otherwise unexpected result may be produced. Supporting Multi-Thread reading may degrade the performance for accessing Row/Cell objects from this collection. Please note, some features cannot support Multi-Thread reading, such as formatting values(by [Cell.StringValue](/nodejs-cpp/cell.stringvalue/), [Cell.StringValue](/nodejs-cpp/cell.stringvalue/), .etc.). So, even with this property being set as true, those APIs still may give unexpected result for Multi-Thread reading.
 
 ### setMultiThreadReading(boolean) {#setMultiThreadReading-boolean-}
 
@@ -284,7 +284,7 @@ setMultiThreadReading(value: boolean) : void;
 
 **Remarks**
 
-If there are multiple threads to read Row/Cell objects in this collection concurrently, this property should be set as true, otherwise unexpected result may be produced. Supporting Multi-Thread reading may degrade the performance for accessing Row/Cell objects from this collection. Please note, some features cannot support Multi-Thread reading, such as formatting values(by [Cell.StringValue](./cell.stringvalue/), [Cell.StringValue](./cell.stringvalue/), .etc.). So, even with this property being set as true, those APIs still may give unexpected result for Multi-Thread reading.
+If there are multiple threads to read Row/Cell objects in this collection concurrently, this property should be set as true, otherwise unexpected result may be produced. Supporting Multi-Thread reading may degrade the performance for accessing Row/Cell objects from this collection. Please note, some features cannot support Multi-Thread reading, such as formatting values(by [Cell.StringValue](/nodejs-cpp/cell.stringvalue/), [Cell.StringValue](/nodejs-cpp/cell.stringvalue/), .etc.). So, even with this property being set as true, those APIs still may give unexpected result for Multi-Thread reading.
 
 ### getMemorySetting() {#getMemorySetting--}
 
@@ -297,7 +297,7 @@ getMemorySetting() : MemorySetting;
 
 **Returns**
 
-[MemorySetting](./memorysetting/)
+[MemorySetting](/nodejs-cpp/memorysetting/)
 
 ### setMemorySetting(MemorySetting) {#setMemorySetting-memorysetting-}
 
@@ -310,7 +310,7 @@ setMemorySetting(value: MemorySetting) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [MemorySetting](./memorysetting/) | The value to set. |
+| value | [MemorySetting](/nodejs-cpp/memorysetting/) | The value to set. |
 
 ### getStyle() {#getStyle--}
 
@@ -323,7 +323,7 @@ getStyle() : Style;
 
 **Returns**
 
-[Style](./style/)
+[Style](/nodejs-cpp/style/)
 
 ### setStyle(Style) {#setStyle-style-}
 
@@ -336,7 +336,7 @@ setStyle(value: Style) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [Style](./style/) | The value to set. |
+| value | [Style](/nodejs-cpp/style/) | The value to set. |
 
 ### getStandardWidthInch() {#getStandardWidthInch--}
 
@@ -630,7 +630,7 @@ setIsDefaultRowHidden(value: boolean) : void;
 
 ### getColumns() {#getColumns--}
 
-Gets the collection of [Column](./column/) objects that represents the individual columns in this worksheet.
+Gets the collection of [Column](/nodejs-cpp/column/) objects that represents the individual columns in this worksheet.
 
 ```javascript
 getColumns() : ColumnCollection;
@@ -639,11 +639,11 @@ getColumns() : ColumnCollection;
 
 **Returns**
 
-[ColumnCollection](./columncollection/)
+[ColumnCollection](/nodejs-cpp/columncollection/)
 
 ### getRanges() {#getRanges--}
 
-Gets the collection of [Range](./range/) objects created at run time.
+Gets the collection of [Range](/nodejs-cpp/range/) objects created at run time.
 
 ```javascript
 getRanges() : RangeCollection;
@@ -652,7 +652,7 @@ getRanges() : RangeCollection;
 
 **Returns**
 
-[RangeCollection](./rangecollection/)
+[RangeCollection](/nodejs-cpp/rangecollection/)
 
 ### getLastCell() {#getLastCell--}
 
@@ -665,7 +665,7 @@ getLastCell() : Cell;
 
 **Returns**
 
-[Cell](./cell/)
+[Cell](/nodejs-cpp/cell/)
 
 **Remarks**
 
@@ -682,7 +682,7 @@ getMaxDisplayRange() : Range;
 
 **Returns**
 
-[Range](./range/)
+[Range](/nodejs-cpp/range/)
 
 **Remarks**
 
@@ -699,7 +699,7 @@ getFirstCell() : Cell;
 
 **Returns**
 
-[Cell](./cell/)
+[Cell](/nodejs-cpp/cell/)
 
 **Remarks**
 
@@ -742,11 +742,11 @@ getMergedAreas() : CellArea[];
 
 **Returns**
 
-[CellArea](./cellarea/)[]
+[CellArea](/nodejs-cpp/cellarea/)[]
 
 ### getCell(number, number) {#getCell-number-number-}
 
-Gets the [Cell](./cell/) element or null at the specified cell row index and column index.
+Gets the [Cell](/nodejs-cpp/cell/) element or null at the specified cell row index and column index.
 
 ```javascript
 getCell(row: number, column: number) : Cell;
@@ -768,7 +768,7 @@ NOTE: This member is now obsolete. Instead, please use CheckCell(int row, int co
 
 ### getRow(number) {#getRow-number-}
 
-Gets the [Row](./row/) element at the specified cell row index.
+Gets the [Row](/nodejs-cpp/row/) element at the specified cell row index.
 
 ```javascript
 getRow(row: number) : Row;
@@ -789,7 +789,7 @@ NOTE: This member is now obsolete. Instead, please use Cells.CheckRow(int row) m
 
 ### checkCell(number, number) {#checkCell-number-number-}
 
-Gets the [Cell](./cell/) element or null at the specified cell row index and column index.
+Gets the [Cell](/nodejs-cpp/cell/) element or null at the specified cell row index and column index.
 
 ```javascript
 checkCell(row: number, column: number) : Cell;
@@ -807,7 +807,7 @@ Return Cell object if a Cell object exists. Return null if the cell does not exi
 
 ### checkRow(number) {#checkRow-number-}
 
-Gets the [Row](./row/) element or null at the specified cell row index.
+Gets the [Row](/nodejs-cpp/row/) element or null at the specified cell row index.
 
 ```javascript
 checkRow(row: number) : Row;
@@ -820,11 +820,11 @@ checkRow(row: number) : Row;
 
 **Returns**
 
-Returns [Row](./row/) object If the row object does exist, otherwise returns null.
+Returns [Row](/nodejs-cpp/row/) object If the row object does exist, otherwise returns null.
 
 ### checkColumn(number) {#checkColumn-number-}
 
-Gets the [Column](./column/) element or null at the specified column index.
+Gets the [Column](/nodejs-cpp/column/) element or null at the specified column index.
 
 ```javascript
 checkColumn(columnIndex: number) : Column;
@@ -884,11 +884,11 @@ addRange(rangeObject: Range) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rangeObject | [Range](./range/) | The range object will be contained in the cells |
+| rangeObject | [Range](/nodejs-cpp/range/) | The range object will be contained in the cells |
 
 ### createRange(string, string) {#createRange-string-string-}
 
-Creates a [Range](./range/) object from a range of cells.
+Creates a [Range](/nodejs-cpp/range/) object from a range of cells.
 
 ```javascript
 createRange(upperLeftCell: string, lowerRightCell: string) : Range;
@@ -902,11 +902,11 @@ createRange(upperLeftCell: string, lowerRightCell: string) : Range;
 
 **Returns**
 
-A [Range](./range/) object
+A [Range](/nodejs-cpp/range/) object
 
 ### createRange(number, number, number, number) {#createRange-number-number-number-number-}
 
-Creates a [Range](./range/) object from a range of cells.
+Creates a [Range](/nodejs-cpp/range/) object from a range of cells.
 
 ```javascript
 createRange(firstRow: number, firstColumn: number, totalRows: number, totalColumns: number) : Range;
@@ -922,11 +922,11 @@ createRange(firstRow: number, firstColumn: number, totalRows: number, totalColum
 
 **Returns**
 
-A [Range](./range/) object
+A [Range](/nodejs-cpp/range/) object
 
 ### createRange(string) {#createRange-string-}
 
-Creates a [Range](./range/) object from an address of the range.
+Creates a [Range](/nodejs-cpp/range/) object from an address of the range.
 
 ```javascript
 createRange(address: string) : Range;
@@ -939,11 +939,11 @@ createRange(address: string) : Range;
 
 **Returns**
 
-A [Range](./range/) object
+A [Range](/nodejs-cpp/range/) object
 
 ### createRange(number, number, boolean) {#createRange-number-number-boolean-}
 
-Creates a [Range](./range/) object from rows of cells or columns of cells.
+Creates a [Range](/nodejs-cpp/range/) object from rows of cells or columns of cells.
 
 ```javascript
 createRange(firstIndex: number, number: number, isVertical: boolean) : Range;
@@ -958,7 +958,7 @@ createRange(firstIndex: number, number: number, isVertical: boolean) : Range;
 
 **Returns**
 
-A [Range](./range/) object.
+A [Range](/nodejs-cpp/range/) object.
 
 ### clear() {#clear--}
 
@@ -969,7 +969,7 @@ clear() : void;
 ```
 
 
-### importFormulaArray(string[], number, number, boolean) {#importFormulaArray-string[]-number-number-boolean-}
+### importFormulaArray(string[], number, number, boolean) {#importFormulaArray-stringarray-number-number-boolean-}
 
 Imports an array of formula into a worksheet.
 
@@ -999,7 +999,7 @@ textToColumns(row: number, column: number, totalRows: number, options: TxtLoadOp
 | row | number | The row index. |
 | column | number | The column index. |
 | totalRows | number | The number of rows. |
-| options | [TxtLoadOptions](./txtloadoptions/) | The split options. |
+| options | [TxtLoadOptions](/nodejs-cpp/txtloadoptions/) | The split options. |
 
 ### importCSV(string, string, boolean, number, number) {#importCSV-string-string-boolean-number-number-}
 
@@ -1047,7 +1047,7 @@ importCSV(fileName: string, options: TxtLoadOptions, firstRow: number, firstColu
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileName | string | The CSV file name. |
-| options | [TxtLoadOptions](./txtloadoptions/) | The load options for reading text file |
+| options | [TxtLoadOptions](/nodejs-cpp/txtloadoptions/) | The load options for reading text file |
 | firstRow | number | The row number of the first cell to import in. |
 | firstColumn | number | The column number of the first cell to import in. |
 
@@ -1063,7 +1063,7 @@ importCSV(stream: Uint8Array, options: TxtLoadOptions, firstRow: number, firstCo
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | Uint8Array | The CSV file stream. |
-| options | [TxtLoadOptions](./txtloadoptions/) | The load options for reading text file |
+| options | [TxtLoadOptions](/nodejs-cpp/txtloadoptions/) | The load options for reading text file |
 | firstRow | number | The row number of the first cell to import in. |
 | firstColumn | number | The column number of the first cell to import in. |
 
@@ -1266,7 +1266,7 @@ getRowHeight(row: number, isOriginal: boolean, unitType: CellsUnitType) : number
 | --- | --- | --- |
 | row | number | The row index. |
 | isOriginal | boolean | Whether returns the original row height or 0 for hidden row. |
-| unitType | [CellsUnitType](./cellsunittype/) | Unit type of the returned height value |
+| unitType | [CellsUnitType](/nodejs-cpp/cellsunittype/) | Unit type of the returned height value |
 
 **Returns**
 
@@ -1319,7 +1319,7 @@ getColumnWidth(column: number, isOriginal: boolean, unitType: CellsUnitType) : n
 | --- | --- | --- |
 | column | number | The column index. |
 | isOriginal | boolean | Indicates whether getting original width. |
-| unitType | [CellsUnitType](./cellsunittype/) |  |
+| unitType | [CellsUnitType](/nodejs-cpp/cellsunittype/) |  |
 
 ### getColumnWidth(number) {#getColumnWidth-number-}
 
@@ -1622,7 +1622,7 @@ setViewColumnWidthPixel(column: number, pixels: number) : void;
 
 **Remarks**
 
-If the current view type is [ViewType.PageLayoutView](./viewtype.pagelayoutview/), the column's width is same as printed width.
+If the current view type is [ViewType.PageLayoutView](/nodejs-cpp/viewtype.pagelayoutview/), the column's width is same as printed width.
 
 ### getLastDataRow(number) {#getLastDataRow-number-}
 
@@ -1653,8 +1653,8 @@ applyColumnStyle(column: number, style: Style, flag: StyleFlag) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | column | number | The column index. |
-| style | [Style](./style/) | The style object which will be applied. |
-| flag | [StyleFlag](./styleflag/) | Flags which indicates applied formatting properties. |
+| style | [Style](/nodejs-cpp/style/) | The style object which will be applied. |
+| flag | [StyleFlag](/nodejs-cpp/styleflag/) | Flags which indicates applied formatting properties. |
 
 ### applyRowStyle(number, Style, StyleFlag) {#applyRowStyle-number-style-styleflag-}
 
@@ -1668,8 +1668,8 @@ applyRowStyle(row: number, style: Style, flag: StyleFlag) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | row | number | The row index. |
-| style | [Style](./style/) | The style object which will be applied. |
-| flag | [StyleFlag](./styleflag/) | Flags which indicates applied formatting properties. |
+| style | [Style](/nodejs-cpp/style/) | The style object which will be applied. |
+| flag | [StyleFlag](/nodejs-cpp/styleflag/) | Flags which indicates applied formatting properties. |
 
 ### applyStyle(Style, StyleFlag) {#applyStyle-style-styleflag-}
 
@@ -1682,8 +1682,8 @@ applyStyle(style: Style, flag: StyleFlag) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| style | [Style](./style/) | The style object which will be applied. |
-| flag | [StyleFlag](./styleflag/) | Flags which indicates applied formatting properties. |
+| style | [Style](/nodejs-cpp/style/) | The style object which will be applied. |
+| flag | [StyleFlag](/nodejs-cpp/styleflag/) | Flags which indicates applied formatting properties. |
 
 ### copyColumns(Cells, number, number, number, PasteOptions) {#copyColumns-cells-number-number-number-pasteoptions-}
 
@@ -1696,11 +1696,11 @@ copyColumns(sourceCells0: Cells, sourceColumnIndex: number, destinationColumnInd
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sourceCells0 | [Cells](./cells/) | Source Cells object contains data and formats to copy. |
+| sourceCells0 | [Cells](/nodejs-cpp/cells/) | Source Cells object contains data and formats to copy. |
 | sourceColumnIndex | number | Source column index. |
 | destinationColumnIndex | number | Destination column index. |
 | columnNumber | number | The copied column number. |
-| pasteOptions | [PasteOptions](./pasteoptions/) | the options of pasting. |
+| pasteOptions | [PasteOptions](/nodejs-cpp/pasteoptions/) | the options of pasting. |
 
 ### copyColumns(Cells, number, number, number) {#copyColumns-cells-number-number-number-}
 
@@ -1713,7 +1713,7 @@ copyColumns(sourceCells0: Cells, sourceColumnIndex: number, destinationColumnInd
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sourceCells0 | [Cells](./cells/) | Source Cells object contains data and formats to copy. |
+| sourceCells0 | [Cells](/nodejs-cpp/cells/) | Source Cells object contains data and formats to copy. |
 | sourceColumnIndex | number | Source column index. |
 | destinationColumnIndex | number | Destination column index. |
 | columnNumber | number | The copied column number. |
@@ -1729,7 +1729,7 @@ copyColumns(sourceCells: Cells, sourceColumnIndex: number, sourceTotalColumns: n
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sourceCells | [Cells](./cells/) | Source Cells object contains data and formats to copy. |
+| sourceCells | [Cells](/nodejs-cpp/cells/) | Source Cells object contains data and formats to copy. |
 | sourceColumnIndex | number | Source column index. |
 | sourceTotalColumns | number | The number of the source columns. |
 | destinationColumnIndex | number | Destination column index. |
@@ -1746,7 +1746,7 @@ copyColumn(sourceCells: Cells, sourceColumnIndex: number, destinationColumnIndex
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sourceCells | [Cells](./cells/) | Source Cells object contains data and formats to copy. |
+| sourceCells | [Cells](/nodejs-cpp/cells/) | Source Cells object contains data and formats to copy. |
 | sourceColumnIndex | number | Source column index. |
 | destinationColumnIndex | number | Destination column index. |
 
@@ -1761,7 +1761,7 @@ copyRow(sourceCells: Cells, sourceRowIndex: number, destinationRowIndex: number)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sourceCells | [Cells](./cells/) | Source Cells object contains data and formats to copy. |
+| sourceCells | [Cells](/nodejs-cpp/cells/) | Source Cells object contains data and formats to copy. |
 | sourceRowIndex | number | Source row index. |
 | destinationRowIndex | number | Destination row index. |
 
@@ -1776,7 +1776,7 @@ copyRows(sourceCells: Cells, sourceRowIndex: number, destinationRowIndex: number
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sourceCells | [Cells](./cells/) | Source Cells object contains data and formats to copy. |
+| sourceCells | [Cells](/nodejs-cpp/cells/) | Source Cells object contains data and formats to copy. |
 | sourceRowIndex | number | Source row index. |
 | destinationRowIndex | number | Destination row index. |
 | rowNumber | number | The copied row number. |
@@ -1792,11 +1792,11 @@ copyRows(sourceCells0: Cells, sourceRowIndex: number, destinationRowIndex: numbe
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sourceCells0 | [Cells](./cells/) | Source Cells object contains data and formats to copy. |
+| sourceCells0 | [Cells](/nodejs-cpp/cells/) | Source Cells object contains data and formats to copy. |
 | sourceRowIndex | number | Source row index. |
 | destinationRowIndex | number | Destination row index. |
 | rowNumber | number | The copied row number. |
-| copyOptions | [CopyOptions](./copyoptions/) | The copy options. |
+| copyOptions | [CopyOptions](/nodejs-cpp/copyoptions/) | The copy options. |
 
 ### copyRows(Cells, number, number, number, CopyOptions, PasteOptions) {#copyRows-cells-number-number-number-copyoptions-pasteoptions-}
 
@@ -1809,12 +1809,12 @@ copyRows(sourceCells0: Cells, sourceRowIndex: number, destinationRowIndex: numbe
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sourceCells0 | [Cells](./cells/) | Source Cells object contains data and formats to copy. |
+| sourceCells0 | [Cells](/nodejs-cpp/cells/) | Source Cells object contains data and formats to copy. |
 | sourceRowIndex | number | Source row index. |
 | destinationRowIndex | number | Destination row index. |
 | rowNumber | number | The copied row number. |
-| copyOptions | [CopyOptions](./copyoptions/) | The copy options. |
-| pasteOptions | [PasteOptions](./pasteoptions/) | the options of pasting. |
+| copyOptions | [CopyOptions](/nodejs-cpp/copyoptions/) | The copy options. |
+| pasteOptions | [PasteOptions](/nodejs-cpp/pasteoptions/) | the options of pasting. |
 
 ### getGroupedRowOutlineLevel(number) {#getGroupedRowOutlineLevel-number-}
 
@@ -2155,7 +2155,7 @@ deleteBlankColumns(options: DeleteOptions) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| options | [DeleteOptions](./deleteoptions/) | The options of deleting range. |
+| options | [DeleteOptions](/nodejs-cpp/deleteoptions/) | The options of deleting range. |
 
 ### isBlankColumn(number) {#isBlankColumn-number-}
 
@@ -2194,11 +2194,11 @@ deleteBlankRows(options: DeleteOptions) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| options | [DeleteOptions](./deleteoptions/) | The options of deleting range. |
+| options | [DeleteOptions](/nodejs-cpp/deleteoptions/) | The options of deleting range. |
 
 **Remarks**
 
-For blank rows that will be deleted, it is not only required that [Row.IsBlank](./row.isblank/) should be true, but also there should be no visible comment defined for any cell in those rows, and no pivot table whose range intersects with them.
+For blank rows that will be deleted, it is not only required that [Row.IsBlank](/nodejs-cpp/row.isblank/) should be true, but also there should be no visible comment defined for any cell in those rows, and no pivot table whose range intersects with them.
 
 ### insertColumns(number, number) {#insertColumns-number-number-}
 
@@ -2284,7 +2284,7 @@ insertRows(rowIndex: number, totalRows: number, options: InsertOptions) : void;
 | --- | --- | --- |
 | rowIndex | number | Row index. |
 | totalRows | number | Number of rows to be inserted. |
-| options | [InsertOptions](./insertoptions/) | Indicates if references in other worksheets will be updated. |
+| options | [InsertOptions](/nodejs-cpp/insertoptions/) | Indicates if references in other worksheets will be updated. |
 
 ### insertRows(number, number) {#insertRows-number-number-}
 
@@ -2324,7 +2324,7 @@ clearRange(range: CellArea) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| range | [CellArea](./cellarea/) | Range to be cleared. |
+| range | [CellArea](/nodejs-cpp/cellarea/) | Range to be cleared. |
 
 ### clearRange(number, number, number, number) {#clearRange-number-number-number-number-}
 
@@ -2353,7 +2353,7 @@ clearContents(range: CellArea) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| range | [CellArea](./cellarea/) | Range to be cleared. |
+| range | [CellArea](/nodejs-cpp/cellarea/) | Range to be cleared. |
 
 ### clearContents(number, number, number, number) {#clearContents-number-number-number-number-}
 
@@ -2382,7 +2382,7 @@ clearFormats(range: CellArea) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| range | [CellArea](./cellarea/) | Range to be cleared. |
+| range | [CellArea](/nodejs-cpp/cellarea/) | Range to be cleared. |
 
 ### clearFormats(number, number, number, number) {#clearFormats-number-number-number-number-}
 
@@ -2501,7 +2501,7 @@ moveRange(sourceArea: CellArea, destRow: number, destColumn: number) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sourceArea | [CellArea](./cellarea/) | The range which should be moved. |
+| sourceArea | [CellArea](/nodejs-cpp/cellarea/) | The range which should be moved. |
 | destRow | number | The dest row. |
 | destColumn | number | The dest column. |
 
@@ -2516,10 +2516,10 @@ insertCutCells(cutRange: Range, row: number, column: number, shiftType: ShiftTyp
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| cutRange | [Range](./range/) | The cut range. |
+| cutRange | [Range](/nodejs-cpp/range/) | The cut range. |
 | row | number | The row. |
 | column | number | The column. |
-| shiftType | [ShiftType](./shifttype/) | The shift type . |
+| shiftType | [ShiftType](/nodejs-cpp/shifttype/) | The shift type . |
 
 ### insertRange(CellArea, number, ShiftType, boolean) {#insertRange-cellarea-number-shifttype-boolean-}
 
@@ -2532,9 +2532,9 @@ insertRange(area: CellArea, shiftNumber: number, shiftType: ShiftType, updateRef
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| area | [CellArea](./cellarea/) | Shift area. |
+| area | [CellArea](/nodejs-cpp/cellarea/) | Shift area. |
 | shiftNumber | number | Number of rows or columns to be inserted. |
-| shiftType | [ShiftType](./shifttype/) | Shift cells option. |
+| shiftType | [ShiftType](/nodejs-cpp/shifttype/) | Shift cells option. |
 | updateReference | boolean | Indicates whether update references in other worksheets. |
 
 ### insertRange(CellArea, ShiftType) {#insertRange-cellarea-shifttype-}
@@ -2548,8 +2548,8 @@ insertRange(area: CellArea, shiftType: ShiftType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| area | [CellArea](./cellarea/) | Shift area. |
-| shiftType | [ShiftType](./shifttype/) | Shift cells option. |
+| area | [CellArea](/nodejs-cpp/cellarea/) | Shift area. |
+| shiftType | [ShiftType](/nodejs-cpp/shifttype/) | Shift cells option. |
 
 ### insertRange(CellArea, number, ShiftType) {#insertRange-cellarea-number-shifttype-}
 
@@ -2562,9 +2562,9 @@ insertRange(area: CellArea, shiftNumber: number, shiftType: ShiftType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| area | [CellArea](./cellarea/) | Shift area. |
+| area | [CellArea](/nodejs-cpp/cellarea/) | Shift area. |
 | shiftNumber | number | Number of rows or columns to be inserted. |
-| shiftType | [ShiftType](./shifttype/) | Shift cells option. |
+| shiftType | [ShiftType](/nodejs-cpp/shifttype/) | Shift cells option. |
 
 ### deleteRange(number, number, number, number, ShiftType) {#deleteRange-number-number-number-number-shifttype-}
 
@@ -2581,7 +2581,7 @@ deleteRange(startRow: number, startColumn: number, endRow: number, endColumn: nu
 | startColumn | number | Start column index. |
 | endRow | number | End row index. |
 | endColumn | number | End column index. |
-| shiftType | [ShiftType](./shifttype/) | Shift cells option. |
+| shiftType | [ShiftType](/nodejs-cpp/shifttype/) | Shift cells option. |
 
 ### retrieveSubtotalSetting(CellArea) {#retrieveSubtotalSetting-cellarea-}
 
@@ -2594,13 +2594,13 @@ retrieveSubtotalSetting(ca: CellArea) : SubtotalSetting;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| ca | [CellArea](./cellarea/) | The range |
+| ca | [CellArea](/nodejs-cpp/cellarea/) | The range |
 
 **Returns**
 
-[SubtotalSetting](./subtotalsetting/)
+[SubtotalSetting](/nodejs-cpp/subtotalsetting/)
 
-### subtotal(CellArea, number, ConsolidationFunction, number[]) {#subtotal-cellarea-number-consolidationfunction-number[]-}
+### subtotal(CellArea, number, ConsolidationFunction, number[]) {#subtotal-cellarea-number-consolidationfunction-numberarray-}
 
 Creates subtotals for the range.
 
@@ -2611,12 +2611,12 @@ subtotal(ca: CellArea, groupBy: number, consolidationFunction: ConsolidationFunc
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| ca | [CellArea](./cellarea/) | The range |
+| ca | [CellArea](/nodejs-cpp/cellarea/) | The range |
 | groupBy | number | The field to group by, as a zero-based integer offset |
-| consolidationFunction | [ConsolidationFunction](./consolidationfunction/) | The subtotal function. |
+| consolidationFunction | [ConsolidationFunction](/nodejs-cpp/consolidationfunction/) | The subtotal function. |
 | totalList | number[] | An array of zero-based field offsets, indicating the fields to which the subtotals are added. |
 
-### subtotal(CellArea, number, ConsolidationFunction, number[], boolean, boolean, boolean) {#subtotal-cellarea-number-consolidationfunction-number[]-boolean-boolean-boolean-}
+### subtotal(CellArea, number, ConsolidationFunction, number[], boolean, boolean, boolean) {#subtotal-cellarea-number-consolidationfunction-numberarray-boolean-boolean-boolean-}
 
 Creates subtotals for the range.
 
@@ -2627,9 +2627,9 @@ subtotal(ca: CellArea, groupBy: number, consolidationFunction: ConsolidationFunc
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| ca | [CellArea](./cellarea/) | The range |
+| ca | [CellArea](/nodejs-cpp/cellarea/) | The range |
 | groupBy | number | The field to group by, as a zero-based integer offset |
-| consolidationFunction | [ConsolidationFunction](./consolidationfunction/) | The subtotal function. |
+| consolidationFunction | [ConsolidationFunction](/nodejs-cpp/consolidationfunction/) | The subtotal function. |
 | totalList | number[] | An array of zero-based field offsets, indicating the fields to which the subtotals are added. |
 | replace | boolean | Indicates whether replace the current subtotals |
 | pageBreaks | boolean | Indicates whether add page break between groups |
@@ -2669,7 +2669,7 @@ removeDuplicates(startRow: number, startColumn: number, endRow: number, endColum
 | endRow | number | The end row index. |
 | endColumn | number | The end column index. |
 
-### removeDuplicates(number, number, number, number, boolean, number[]) {#removeDuplicates-number-number-number-number-boolean-number[]-}
+### removeDuplicates(number, number, number, number, boolean, number[]) {#removeDuplicates-number-number-number-number-boolean-numberarray-}
 
 Removes duplicate data of the range.
 
@@ -2713,7 +2713,7 @@ getDependents(isAll: boolean, row: number, column: number) : Cell[];
 
 **Returns**
 
-[Cell](./cell/)[]
+[Cell](/nodejs-cpp/cell/)[]
 
 ### getDependentsInCalculation(number, number, boolean) {#getDependentsInCalculation-number-number-boolean-}
 
@@ -2736,7 +2736,7 @@ Enumerator to enumerate all dependents(Cell objects)
 
 **Remarks**
 
-To use this method, please make sure the workbook has been set with true value for [FormulaSettings.EnableCalculationChain](./formulasettings.enablecalculationchain/) and has been fully calculated with this setting. If there is no formula reference to this cell, null will be returned. For more details and example, please see [Cell.GetDependentsInCalculation(bool)](./cell.getdependentsincalculation(bool)/)
+To use this method, please make sure the workbook has been set with true value for [FormulaSettings.EnableCalculationChain](/nodejs-cpp/formulasettings.enablecalculationchain/) and has been fully calculated with this setting. If there is no formula reference to this cell, null will be returned. For more details and example, please see [Cell.GetDependentsInCalculation(bool)](/nodejs-cpp/cell.getdependentsincalculation(bool)/)
 
 ### getCellsWithPlaceInCellPicture() {#getCellsWithPlaceInCellPicture--}
 

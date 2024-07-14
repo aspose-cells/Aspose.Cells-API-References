@@ -54,7 +54,7 @@ set(value: GradientStop, index: number) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [GradientStop](./gradientstop/) | The value to set. |
+| value | [GradientStop](/nodejs-cpp/gradientstop/) | The value to set. |
 | index | number | The index. |
 
 **Returns**
@@ -73,7 +73,7 @@ add(position: number, color: CellsColor, alpha: number) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | position | number | The position of the stop,in unit of percentage. |
-| color | [CellsColor](./cellscolor/) | The color of the stop. |
+| color | [CellsColor](/nodejs-cpp/cellscolor/) | The color of the stop. |
 | alpha | number | The alpha of the color. |
 
 ### add(number, Color, number) {#add-number-color-number-}
@@ -88,7 +88,7 @@ add(position: number, color: Color, alpha: number) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | position | number | The position of the stop,in unit of percentage. |
-| color | [Color](./color/) | The color of the stop. |
+| color | [Color](/nodejs-cpp/color/) | The color of the stop. |
 | alpha | number | The alpha of the color. |
 
 ### getCount() {#getCount--}

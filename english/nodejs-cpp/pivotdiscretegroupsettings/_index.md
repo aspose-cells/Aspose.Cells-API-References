@@ -53,7 +53,7 @@ getType() : PivotFieldGroupType;
 
 **Returns**
 
-[PivotFieldGroupType](./pivotfieldgrouptype/)
+[PivotFieldGroupType](/nodejs-cpp/pivotfieldgrouptype/)
 
 ### getItems() {#getItems--}
 
@@ -66,6 +66,6 @@ getItems() : CustomPiovtFieldGroupItem[];
 
 **Returns**
 
-[CustomPiovtFieldGroupItem](./custompiovtfieldgroupitem/)[]
+[CustomPiovtFieldGroupItem](/nodejs-cpp/custompiovtfieldgroupitem/)[]
 
 

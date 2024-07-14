@@ -7,7 +7,7 @@ url: /nodejs-cpp/digitalsignatureenumerator/
 ---
 
 ## DigitalSignatureEnumerator class
-Iterator of [DigitalSignature](./digitalsignature/) objects. Please use for...of statement to iterate over them.
+Iterator of [DigitalSignature](/nodejs-cpp/digitalsignature/) objects. Please use for...of statement to iterate over them.
 
 ```javascript
 class DigitalSignatureEnumerator implements Iterable<DigitalSignature> {

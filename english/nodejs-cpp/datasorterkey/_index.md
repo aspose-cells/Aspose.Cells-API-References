@@ -38,7 +38,7 @@ getOrder() : SortOrder;
 
 **Returns**
 
-[SortOrder](./sortorder/)
+[SortOrder](/nodejs-cpp/sortorder/)
 
 ### getIndex() {#getIndex--}
 
@@ -60,7 +60,7 @@ getType() : SortOnType;
 
 **Returns**
 
-[SortOnType](./sortontype/)
+[SortOnType](/nodejs-cpp/sortontype/)
 
 ### getIconSetType() {#getIconSetType--}
 
@@ -73,11 +73,11 @@ getIconSetType() : IconSetType;
 
 **Returns**
 
-[IconSetType](./iconsettype/)
+[IconSetType](/nodejs-cpp/iconsettype/)
 
 **Remarks**
 
-Only takes effect when [Type](./type/) is [Type](./type/).
+Only takes effect when [Type](/nodejs-cpp/type/) is [Type](/nodejs-cpp/type/).
 
 ### getIconId() {#getIconId--}
 
@@ -90,7 +90,7 @@ getIconId() : number;
 
 **Remarks**
 
-Only takes effect when [Type](./type/) is [Type](./type/).
+Only takes effect when [Type](/nodejs-cpp/type/) is [Type](/nodejs-cpp/type/).
 
 ### getColor() {#getColor--}
 
@@ -103,10 +103,10 @@ getColor() : Color;
 
 **Returns**
 
-[Color](./color/)
+[Color](/nodejs-cpp/color/)
 
 **Remarks**
 
-Only takes effect when [Type](./type/) is [Type](./type/) or [Type](./type/).
+Only takes effect when [Type](/nodejs-cpp/type/) is [Type](/nodejs-cpp/type/) or [Type](/nodejs-cpp/type/).
 
 

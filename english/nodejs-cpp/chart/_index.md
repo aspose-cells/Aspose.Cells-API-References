@@ -44,8 +44,8 @@ class Chart;
 | [setPrintSize(PrintSizeType)](#setPrintSize-printsizetype-)| Gets and sets the printed chart size. |
 | [getType()](#getType--)| Gets or sets a chart's type. |
 | [setType(ChartType)](#setType-charttype-)| Gets or sets a chart's type. |
-| [getNSeries()](#getNSeries--)| Gets a [SeriesCollection](./seriescollection/) collection representing the data series in the chart. |
-| [getFilteredNSeries()](#getFilteredNSeries--)| Gets a [SeriesCollection](./seriescollection/) collection representing the data series that are filtered in the chart. |
+| [getNSeries()](#getNSeries--)| Gets a [SeriesCollection](/nodejs-cpp/seriescollection/) collection representing the data series in the chart. |
+| [getFilteredNSeries()](#getFilteredNSeries--)| Gets a [SeriesCollection](/nodejs-cpp/seriescollection/) collection representing the data series that are filtered in the chart. |
 | [getTitle()](#getTitle--)| Gets the chart's title. |
 | [getSubTitle()](#getSubTitle--)| Gets the chart's sub-title. Only for ODS format file. |
 | [getPlotArea()](#getPlotArea--)| Gets the chart's plot area which includes axis tick labels. |
@@ -69,10 +69,10 @@ class Chart;
 | [setGapWidth(number)](#setGapWidth-number-)| Returns or sets the space between bar or column clusters, as a percentage of the bar or column width. The value of this property must be between 0 and 500. |
 | [getGapDepth()](#getGapDepth--)| Gets or sets the distance between the data series in a 3-D chart, as a percentage of the marker width. The value of this property must be between 0 and 500. |
 | [setGapDepth(number)](#setGapDepth-number-)| Gets or sets the distance between the data series in a 3-D chart, as a percentage of the marker width. The value of this property must be between 0 and 500. |
-| [getFloor()](#getFloor--)| Returns a [Floor](./floor/) object that represents the walls of a 3-D chart. |
-| [getWalls()](#getWalls--)| Returns a [Walls](./walls/) object that represents the walls of a 3-D chart. |
-| [getBackWall()](#getBackWall--)| Returns a [Walls](./walls/) object that represents the back wall of a 3-D chart. |
-| [getSideWall()](#getSideWall--)| Returns a [Walls](./walls/) object that represents the side wall of a 3-D chart. |
+| [getFloor()](#getFloor--)| Returns a [Floor](/nodejs-cpp/floor/) object that represents the walls of a 3-D chart. |
+| [getWalls()](#getWalls--)| Returns a [Walls](/nodejs-cpp/walls/) object that represents the walls of a 3-D chart. |
+| [getBackWall()](#getBackWall--)| Returns a [Walls](/nodejs-cpp/walls/) object that represents the back wall of a 3-D chart. |
+| [getSideWall()](#getSideWall--)| Returns a [Walls](/nodejs-cpp/walls/) object that represents the side wall of a 3-D chart. |
 | [getWallsAndGridlines2D()](#getWallsAndGridlines2D--)| True if gridlines are drawn two-dimensionally on a 3-D chart. |
 | [setWallsAndGridlines2D(boolean)](#setWallsAndGridlines2D-boolean-)| True if gridlines are drawn two-dimensionally on a 3-D chart. |
 | [getRotationAngle()](#getRotationAngle--)| Represents the rotation of the 3-D chart view (the rotation of the plot area around the z-axis, in degrees). |
@@ -97,7 +97,7 @@ class Chart;
 | [isCellReferedByChart(number, number, number)](#isCellReferedByChart-number-number-number-)| Returns whether the cell refered by the chart. |
 | [isChartDataChanged()](#isChartDataChanged--)| Detects if a chart's data source has changed. |
 | [refreshPivotData()](#refreshPivotData--)| Refreshes chart's data from pivot table. |
-| [changeTemplate(number[])](#changeTemplate-number[]-)| Change chart type with preset template. |
+| [changeTemplate(number[])](#changeTemplate-numberarray-)| Change chart type with preset template. |
 | [move(number, number, number, number)](#move-number-number-number-number-)| Moves the chart to a specified location. |
 | [calculate()](#calculate--)| Calculates the custom position of plot area, axes if the position of them are auto assigned. |
 | [calculate(ChartCalculateOptions)](#calculate-chartcalculateoptions-)| Calculates the custom position of plot area, axes if the position of them are auto assigned, with Chart Calculate Options. |
@@ -160,7 +160,7 @@ getChartObject() : ChartShape;
 
 **Returns**
 
-[ChartShape](./chartshape/)
+[ChartShape](/nodejs-cpp/chartshape/)
 
 ### getHidePivotFieldButtons() {#getHidePivotFieldButtons--}
 
@@ -195,7 +195,7 @@ getPivotOptions() : PivotOptions;
 
 **Returns**
 
-[PivotOptions](./pivotoptions/)
+[PivotOptions](/nodejs-cpp/pivotoptions/)
 
 ### getPivotSource() {#getPivotSource--}
 
@@ -238,7 +238,7 @@ getPlotBy() : PlotDataByType;
 
 **Returns**
 
-[PlotDataByType](./plotdatabytype/)
+[PlotDataByType](/nodejs-cpp/plotdatabytype/)
 
 ### getPlotEmptyCellsType() {#getPlotEmptyCellsType--}
 
@@ -251,7 +251,7 @@ getPlotEmptyCellsType() : PlotEmptyCellsType;
 
 **Returns**
 
-[PlotEmptyCellsType](./plotemptycellstype/)
+[PlotEmptyCellsType](/nodejs-cpp/plotemptycellstype/)
 
 ### setPlotEmptyCellsType(PlotEmptyCellsType) {#setPlotEmptyCellsType-plotemptycellstype-}
 
@@ -264,7 +264,7 @@ setPlotEmptyCellsType(value: PlotEmptyCellsType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [PlotEmptyCellsType](./plotemptycellstype/) | The value to set. |
+| value | [PlotEmptyCellsType](/nodejs-cpp/plotemptycellstype/) | The value to set. |
 
 ### getPlotVisibleCellsOnly() {#getPlotVisibleCellsOnly--}
 
@@ -365,7 +365,7 @@ getWorksheet() : Worksheet;
 
 **Returns**
 
-[Worksheet](./worksheet/)
+[Worksheet](/nodejs-cpp/worksheet/)
 
 ### getShapes() {#getShapes--}
 
@@ -378,7 +378,7 @@ getShapes() : ShapeCollection;
 
 **Returns**
 
-[ShapeCollection](./shapecollection/)
+[ShapeCollection](/nodejs-cpp/shapecollection/)
 
 ### getPrintSize() {#getPrintSize--}
 
@@ -391,7 +391,7 @@ getPrintSize() : PrintSizeType;
 
 **Returns**
 
-[PrintSizeType](./printsizetype/)
+[PrintSizeType](/nodejs-cpp/printsizetype/)
 
 ### setPrintSize(PrintSizeType) {#setPrintSize-printsizetype-}
 
@@ -404,7 +404,7 @@ setPrintSize(value: PrintSizeType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [PrintSizeType](./printsizetype/) | The value to set. |
+| value | [PrintSizeType](/nodejs-cpp/printsizetype/) | The value to set. |
 
 ### getType() {#getType--}
 
@@ -417,7 +417,7 @@ getType() : ChartType;
 
 **Returns**
 
-[ChartType](./charttype/)
+[ChartType](/nodejs-cpp/charttype/)
 
 ### setType(ChartType) {#setType-charttype-}
 
@@ -430,11 +430,11 @@ setType(value: ChartType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ChartType](./charttype/) | The value to set. |
+| value | [ChartType](/nodejs-cpp/charttype/) | The value to set. |
 
 ### getNSeries() {#getNSeries--}
 
-Gets a [SeriesCollection](./seriescollection/) collection representing the data series in the chart.
+Gets a [SeriesCollection](/nodejs-cpp/seriescollection/) collection representing the data series in the chart.
 
 ```javascript
 getNSeries() : SeriesCollection;
@@ -443,11 +443,11 @@ getNSeries() : SeriesCollection;
 
 **Returns**
 
-[SeriesCollection](./seriescollection/)
+[SeriesCollection](/nodejs-cpp/seriescollection/)
 
 ### getFilteredNSeries() {#getFilteredNSeries--}
 
-Gets a [SeriesCollection](./seriescollection/) collection representing the data series that are filtered in the chart.
+Gets a [SeriesCollection](/nodejs-cpp/seriescollection/) collection representing the data series that are filtered in the chart.
 
 ```javascript
 getFilteredNSeries() : SeriesCollection;
@@ -456,7 +456,7 @@ getFilteredNSeries() : SeriesCollection;
 
 **Returns**
 
-[SeriesCollection](./seriescollection/)
+[SeriesCollection](/nodejs-cpp/seriescollection/)
 
 ### getTitle() {#getTitle--}
 
@@ -469,7 +469,7 @@ getTitle() : Title;
 
 **Returns**
 
-[Title](./title/)
+[Title](/nodejs-cpp/title/)
 
 ### getSubTitle() {#getSubTitle--}
 
@@ -482,7 +482,7 @@ getSubTitle() : Title;
 
 **Returns**
 
-[Title](./title/)
+[Title](/nodejs-cpp/title/)
 
 ### getPlotArea() {#getPlotArea--}
 
@@ -495,7 +495,7 @@ getPlotArea() : PlotArea;
 
 **Returns**
 
-[PlotArea](./plotarea/)
+[PlotArea](/nodejs-cpp/plotarea/)
 
 ### getChartArea() {#getChartArea--}
 
@@ -508,7 +508,7 @@ getChartArea() : ChartArea;
 
 **Returns**
 
-[ChartArea](./chartarea/)
+[ChartArea](/nodejs-cpp/chartarea/)
 
 ### getCategoryAxis() {#getCategoryAxis--}
 
@@ -521,7 +521,7 @@ getCategoryAxis() : Axis;
 
 **Returns**
 
-[Axis](./axis/)
+[Axis](/nodejs-cpp/axis/)
 
 ### getValueAxis() {#getValueAxis--}
 
@@ -534,7 +534,7 @@ getValueAxis() : Axis;
 
 **Returns**
 
-[Axis](./axis/)
+[Axis](/nodejs-cpp/axis/)
 
 ### getSecondValueAxis() {#getSecondValueAxis--}
 
@@ -547,7 +547,7 @@ getSecondValueAxis() : Axis;
 
 **Returns**
 
-[Axis](./axis/)
+[Axis](/nodejs-cpp/axis/)
 
 ### getSecondCategoryAxis() {#getSecondCategoryAxis--}
 
@@ -560,7 +560,7 @@ getSecondCategoryAxis() : Axis;
 
 **Returns**
 
-[Axis](./axis/)
+[Axis](/nodejs-cpp/axis/)
 
 ### getSeriesAxis() {#getSeriesAxis--}
 
@@ -573,7 +573,7 @@ getSeriesAxis() : Axis;
 
 **Returns**
 
-[Axis](./axis/)
+[Axis](/nodejs-cpp/axis/)
 
 ### getLegend() {#getLegend--}
 
@@ -586,7 +586,7 @@ getLegend() : Legend;
 
 **Returns**
 
-[Legend](./legend/)
+[Legend](/nodejs-cpp/legend/)
 
 ### getChartDataTable() {#getChartDataTable--}
 
@@ -599,7 +599,7 @@ getChartDataTable() : ChartDataTable;
 
 **Returns**
 
-[ChartDataTable](./chartdatatable/)
+[ChartDataTable](/nodejs-cpp/chartdatatable/)
 
 ### getShowLegend() {#getShowLegend--}
 
@@ -735,7 +735,7 @@ setGapDepth(value: number) : void;
 
 ### getFloor() {#getFloor--}
 
-Returns a [Floor](./floor/) object that represents the walls of a 3-D chart.
+Returns a [Floor](/nodejs-cpp/floor/) object that represents the walls of a 3-D chart.
 
 ```javascript
 getFloor() : Floor;
@@ -744,7 +744,7 @@ getFloor() : Floor;
 
 **Returns**
 
-[Floor](./floor/)
+[Floor](/nodejs-cpp/floor/)
 
 **Remarks**
 
@@ -752,7 +752,7 @@ This property doesn't apply to 3-D pie charts.
 
 ### getWalls() {#getWalls--}
 
-Returns a [Walls](./walls/) object that represents the walls of a 3-D chart.
+Returns a [Walls](/nodejs-cpp/walls/) object that represents the walls of a 3-D chart.
 
 ```javascript
 getWalls() : Walls;
@@ -761,7 +761,7 @@ getWalls() : Walls;
 
 **Returns**
 
-[Walls](./walls/)
+[Walls](/nodejs-cpp/walls/)
 
 **Remarks**
 
@@ -769,7 +769,7 @@ This property doesn't apply to 3-D pie charts.
 
 ### getBackWall() {#getBackWall--}
 
-Returns a [Walls](./walls/) object that represents the back wall of a 3-D chart.
+Returns a [Walls](/nodejs-cpp/walls/) object that represents the back wall of a 3-D chart.
 
 ```javascript
 getBackWall() : Walls;
@@ -778,11 +778,11 @@ getBackWall() : Walls;
 
 **Returns**
 
-[Walls](./walls/)
+[Walls](/nodejs-cpp/walls/)
 
 ### getSideWall() {#getSideWall--}
 
-Returns a [Walls](./walls/) object that represents the side wall of a 3-D chart.
+Returns a [Walls](/nodejs-cpp/walls/) object that represents the side wall of a 3-D chart.
 
 ```javascript
 getSideWall() : Walls;
@@ -791,7 +791,7 @@ getSideWall() : Walls;
 
 **Returns**
 
-[Walls](./walls/)
+[Walls](/nodejs-cpp/walls/)
 
 ### getWallsAndGridlines2D() {#getWallsAndGridlines2D--}
 
@@ -1013,7 +1013,7 @@ getPlacement() : PlacementType;
 
 **Returns**
 
-[PlacementType](./placementtype/)
+[PlacementType](/nodejs-cpp/placementtype/)
 
 ### setPlacement(PlacementType) {#setPlacement-placementtype-}
 
@@ -1026,7 +1026,7 @@ setPlacement(value: PlacementType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [PlacementType](./placementtype/) | The value to set. |
+| value | [PlacementType](/nodejs-cpp/placementtype/) | The value to set. |
 
 ### getPageSetup() {#getPageSetup--}
 
@@ -1039,7 +1039,7 @@ getPageSetup() : PageSetup;
 
 **Returns**
 
-[PageSetup](./pagesetup/)
+[PageSetup](/nodejs-cpp/pagesetup/)
 
 ### getLine() {#getLine--}
 
@@ -1052,7 +1052,7 @@ getLine() : Line;
 
 **Returns**
 
-[Line](./line/)
+[Line](/nodejs-cpp/line/)
 
 ### isCellReferedByChart(number, number, number) {#isCellReferedByChart-number-number-number-}
 
@@ -1099,7 +1099,7 @@ refreshPivotData() : void;
 
 We will gather data from pivot data source to the pivot table report. This method is only used to gather all data to a pivot chart.
 
-### changeTemplate(number[]) {#changeTemplate-number[]-}
+### changeTemplate(number[]) {#changeTemplate-numberarray-}
 
 Change chart type with preset template.
 
@@ -1148,7 +1148,7 @@ calculate(calculateOptions: ChartCalculateOptions) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| calculateOptions | [ChartCalculateOptions](./chartcalculateoptions/) |  |
+| calculateOptions | [ChartCalculateOptions](/nodejs-cpp/chartcalculateoptions/) |  |
 
 ### toImage(string) {#toImage-string-}
 
@@ -1179,7 +1179,7 @@ toImage(imageFile: string, imageType: ImageType) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | imageFile | string | The image file name with full path. |
-| imageType | [ImageType](./imagetype/) | The image type in which to save the image. |
+| imageType | [ImageType](/nodejs-cpp/imagetype/) | The image type in which to save the image. |
 
 **Remarks**
 
@@ -1235,7 +1235,7 @@ toImage(imageType: ImageType) : Uint8Array;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| imageType | [ImageType](./imagetype/) | The image type in which to save the image. |
+| imageType | [ImageType](/nodejs-cpp/imagetype/) | The image type in which to save the image. |
 
 **Returns**
 
@@ -1257,7 +1257,7 @@ toImage(imageFile: string, options: ImageOrPrintOptions) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | imageFile | string | The image file name with full path. |
-| options | [ImageOrPrintOptions](./imageorprintoptions/) | Additional image creation options |
+| options | [ImageOrPrintOptions](/nodejs-cpp/imageorprintoptions/) | Additional image creation options |
 
 **Remarks**
 
@@ -1274,7 +1274,7 @@ toImage(options: ImageOrPrintOptions) : Uint8Array;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| options | [ImageOrPrintOptions](./imageorprintoptions/) | Additional image creation options |
+| options | [ImageOrPrintOptions](/nodejs-cpp/imageorprintoptions/) | Additional image creation options |
 
 **Returns**
 
@@ -1311,8 +1311,8 @@ toPdf(fileName: string, desiredPageWidth: number, desiredPageHeight: number, hAl
 | fileName | string | the pdf file name with full path |
 | desiredPageWidth | number | The desired page width in inches. |
 | desiredPageHeight | number | The desired page height in inches. |
-| hAlignmentType | [PageLayoutAlignmentType](./pagelayoutalignmenttype/) | The chart horizontal alignment type in the output page. |
-| vAlignmentType | [PageLayoutAlignmentType](./pagelayoutalignmenttype/) | The chart vertical alignment type in the output page. |
+| hAlignmentType | [PageLayoutAlignmentType](/nodejs-cpp/pagelayoutalignmenttype/) | The chart horizontal alignment type in the output page. |
+| vAlignmentType | [PageLayoutAlignmentType](/nodejs-cpp/pagelayoutalignmenttype/) | The chart vertical alignment type in the output page. |
 
 ### toPdf() {#toPdf--}
 
@@ -1340,8 +1340,8 @@ toPdf(desiredPageWidth: number, desiredPageHeight: number, hAlignmentType: PageL
 | --- | --- | --- |
 | desiredPageWidth | number | The desired page width in inches. |
 | desiredPageHeight | number | The desired page height in inches. |
-| hAlignmentType | [PageLayoutAlignmentType](./pagelayoutalignmenttype/) | The chart horizontal alignment type in the output page. |
-| vAlignmentType | [PageLayoutAlignmentType](./pagelayoutalignmenttype/) | The chart vertical alignment type in the output page. |
+| hAlignmentType | [PageLayoutAlignmentType](/nodejs-cpp/pagelayoutalignmenttype/) | The chart horizontal alignment type in the output page. |
+| vAlignmentType | [PageLayoutAlignmentType](/nodejs-cpp/pagelayoutalignmenttype/) | The chart vertical alignment type in the output page. |
 
 **Returns**
 
@@ -1371,7 +1371,7 @@ hasAxis(aixsType: AxisType, isPrimary: boolean) : boolean;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| aixsType | [AxisType](./axistype/) |  |
+| aixsType | [AxisType](/nodejs-cpp/axistype/) |  |
 | isPrimary | boolean |  |
 
 **Remarks**

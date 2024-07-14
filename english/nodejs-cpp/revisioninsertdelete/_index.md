@@ -57,7 +57,7 @@ getType() : RevisionType;
 
 **Returns**
 
-[RevisionType](./revisiontype/)
+[RevisionType](/nodejs-cpp/revisiontype/)
 
 ### getCellArea() {#getCellArea--}
 
@@ -70,7 +70,7 @@ getCellArea() : CellArea;
 
 **Returns**
 
-[CellArea](./cellarea/)
+[CellArea](/nodejs-cpp/cellarea/)
 
 ### getActionType() {#getActionType--}
 
@@ -83,7 +83,7 @@ getActionType() : RevisionActionType;
 
 **Returns**
 
-[RevisionActionType](./revisionactiontype/)
+[RevisionActionType](/nodejs-cpp/revisionactiontype/)
 
 ### getRevisions() {#getRevisions--}
 
@@ -96,7 +96,7 @@ getRevisions() : RevisionCollection;
 
 **Returns**
 
-[RevisionCollection](./revisioncollection/)
+[RevisionCollection](/nodejs-cpp/revisioncollection/)
 
 ### getWorksheet() {#getWorksheet--}
 
@@ -109,7 +109,7 @@ getWorksheet() : Worksheet;
 
 **Returns**
 
-[Worksheet](./worksheet/)
+[Worksheet](/nodejs-cpp/worksheet/)
 
 ### getId() {#getId--}
 

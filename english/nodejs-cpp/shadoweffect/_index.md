@@ -46,7 +46,7 @@ getPresetType() : PresetShadowType;
 
 **Returns**
 
-[PresetShadowType](./presetshadowtype/)
+[PresetShadowType](/nodejs-cpp/presetshadowtype/)
 
 ### setPresetType(PresetShadowType) {#setPresetType-presetshadowtype-}
 
@@ -59,7 +59,7 @@ setPresetType(value: PresetShadowType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [PresetShadowType](./presetshadowtype/) | The value to set. |
+| value | [PresetShadowType](/nodejs-cpp/presetshadowtype/) | The value to set. |
 
 ### getColor() {#getColor--}
 
@@ -72,7 +72,7 @@ getColor() : CellsColor;
 
 **Returns**
 
-[CellsColor](./cellscolor/)
+[CellsColor](/nodejs-cpp/cellscolor/)
 
 ### setColor(CellsColor) {#setColor-cellscolor-}
 
@@ -85,7 +85,7 @@ setColor(value: CellsColor) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [CellsColor](./cellscolor/) | The value to set. |
+| value | [CellsColor](/nodejs-cpp/cellscolor/) | The value to set. |
 
 ### getTransparency() {#getTransparency--}
 

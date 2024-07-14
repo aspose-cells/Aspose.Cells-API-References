@@ -89,7 +89,7 @@ constructor(saveFormat: SaveFormat);
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| saveFormat | [SaveFormat](./saveformat/) | The file format.         /// It should be [SaveFormat.Ods](./saveformat.ods/), [SaveFormat.Ods](./saveformat.ods/),         /// [SaveFormat.Ods](./saveformat.ods/) or [SaveFormat.Ods](./saveformat.ods/),         /// otherwise the saved format will be set as [SaveFormat.Ods](./saveformat.ods/) automatically. |
+| saveFormat | [SaveFormat](/nodejs-cpp/saveformat/) | The file format.         /// It should be [SaveFormat.Ods](/nodejs-cpp/saveformat.ods/), [SaveFormat.Ods](/nodejs-cpp/saveformat.ods/),         /// [SaveFormat.Ods](/nodejs-cpp/saveformat.ods/) or [SaveFormat.Ods](/nodejs-cpp/saveformat.ods/),         /// otherwise the saved format will be set as [SaveFormat.Ods](/nodejs-cpp/saveformat.ods/) automatically. |
 
 ### getGeneratorType() {#getGeneratorType--}
 
@@ -102,7 +102,7 @@ getGeneratorType() : OdsGeneratorType;
 
 **Returns**
 
-[OdsGeneratorType](./odsgeneratortype/)
+[OdsGeneratorType](/nodejs-cpp/odsgeneratortype/)
 
 ### setGeneratorType(OdsGeneratorType) {#setGeneratorType-odsgeneratortype-}
 
@@ -115,7 +115,7 @@ setGeneratorType(value: OdsGeneratorType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [OdsGeneratorType](./odsgeneratortype/) | The value to set. |
+| value | [OdsGeneratorType](/nodejs-cpp/odsgeneratortype/) | The value to set. |
 
 ### isStrictSchema11() {#isStrictSchema11--}
 
@@ -158,7 +158,7 @@ getOdfStrictVersion() : OpenDocumentFormatVersionType;
 
 **Returns**
 
-[OpenDocumentFormatVersionType](./opendocumentformatversiontype/)
+[OpenDocumentFormatVersionType](/nodejs-cpp/opendocumentformatversiontype/)
 
 ### setOdfStrictVersion(OpenDocumentFormatVersionType) {#setOdfStrictVersion-opendocumentformatversiontype-}
 
@@ -171,7 +171,7 @@ setOdfStrictVersion(value: OpenDocumentFormatVersionType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [OpenDocumentFormatVersionType](./opendocumentformatversiontype/) | The value to set. |
+| value | [OpenDocumentFormatVersionType](/nodejs-cpp/opendocumentformatversiontype/) | The value to set. |
 
 ### getSaveFormat() {#getSaveFormat--}
 
@@ -184,7 +184,7 @@ getSaveFormat() : SaveFormat;
 
 **Returns**
 
-[SaveFormat](./saveformat/)
+[SaveFormat](/nodejs-cpp/saveformat/)
 
 ### getClearData() {#getClearData--}
 
@@ -397,7 +397,7 @@ setWarningCallback(value: IWarningCallback) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IWarningCallback](./iwarningcallback/) | The value to set. |
+| value | [IWarningCallback](/nodejs-cpp/iwarningcallback/) | The value to set. |
 
 ### getWarningCallback() {#getWarningCallback--}
 
@@ -410,7 +410,7 @@ getWarningCallback() : IWarningCallback;
 
 **Returns**
 
-[IWarningCallback](./iwarningcallback/)
+[IWarningCallback](/nodejs-cpp/iwarningcallback/)
 
 ### getUpdateSmartArt() {#getUpdateSmartArt--}
 

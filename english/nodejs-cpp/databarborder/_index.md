@@ -36,7 +36,7 @@ getColor() : Color;
 
 **Returns**
 
-[Color](./color/)
+[Color](/nodejs-cpp/color/)
 
 ### setColor(Color) {#setColor-color-}
 
@@ -49,7 +49,7 @@ setColor(value: Color) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [Color](./color/) | The value to set. |
+| value | [Color](/nodejs-cpp/color/) | The value to set. |
 
 ### getType() {#getType--}
 
@@ -62,7 +62,7 @@ getType() : DataBarBorderType;
 
 **Returns**
 
-[DataBarBorderType](./databarbordertype/)
+[DataBarBorderType](/nodejs-cpp/databarbordertype/)
 
 ### setType(DataBarBorderType) {#setType-databarbordertype-}
 
@@ -75,6 +75,6 @@ setType(value: DataBarBorderType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [DataBarBorderType](./databarbordertype/) | The value to set. |
+| value | [DataBarBorderType](/nodejs-cpp/databarbordertype/) | The value to set. |
 
 

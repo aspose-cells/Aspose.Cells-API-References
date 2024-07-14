@@ -9,7 +9,7 @@ url: /nodejs-cpp/lightcellsdataprovider/
 ## LightCellsDataProvider interface
 Represents Data provider for saving large spreadsheet files in light weight mode.
 ### Remarks
-When saving a workbook by this mode, [StartSheet(int)](./startsheet(int)/) will be checked when saving every worksheet in the workbook. For one sheet, if [StartSheet(int)](./startsheet(int)/) gives true, then all data and properties to be saved for rows/cells of this sheet will be provided by the implementation of this interface. In the first place, [NextRow()](./nextrow()/) will be called to get the next row index to be saved. If a valid row index is returned(the row index must be in ascending order for the rows to be saved), then a Row object representing this row will be provided by [StartRow(Row)](./startrow(row)/) for the implementation to set its properties. For one row, [NextCell()](./nextcell()/) will be checked firstly. If a valid column index be returned(the column index must be in ascending order for all cells of current row), then a Cell object representing this cell will be provided by [StartCell(Cell)](./startcell(cell)/) for implementation to set its data and properties. After [StartCell(Cell)](./startcell(cell)/) the cell will be saved directly to the resultant spreadsheet file. Then the next cell will be checked and processed. <br></br> Please note, user should only update values and properties for current Row/Cell object provided by corresponding method. Because the cells data is written to the resultant file in streaming manner, most of other objects may have been written to the resultant file, or have been gathered and written some global data for them. So when user updating other objects while saving cells data, those operations may be not able to affect the saved data. Or even worse, those operations may cause inconsistent data be save to the resultant file and finally make the file corrupted. So, for all other objects such as shapes, column width and styles, conditional formattings, ...etc., please do not operate them in any methods of this implementation. Instead, please manage them and adjust them to the final state before calling "Save" method of the Workbook.
+When saving a workbook by this mode, [StartSheet(int)](/nodejs-cpp/startsheet(int)/) will be checked when saving every worksheet in the workbook. For one sheet, if [StartSheet(int)](/nodejs-cpp/startsheet(int)/) gives true, then all data and properties to be saved for rows/cells of this sheet will be provided by the implementation of this interface. In the first place, [NextRow()](/nodejs-cpp/nextrow()/) will be called to get the next row index to be saved. If a valid row index is returned(the row index must be in ascending order for the rows to be saved), then a Row object representing this row will be provided by [StartRow(Row)](/nodejs-cpp/startrow(row)/) for the implementation to set its properties. For one row, [NextCell()](/nodejs-cpp/nextcell()/) will be checked firstly. If a valid column index be returned(the column index must be in ascending order for all cells of current row), then a Cell object representing this cell will be provided by [StartCell(Cell)](/nodejs-cpp/startcell(cell)/) for implementation to set its data and properties. After [StartCell(Cell)](/nodejs-cpp/startcell(cell)/) the cell will be saved directly to the resultant spreadsheet file. Then the next cell will be checked and processed. <br></br> Please note, user should only update values and properties for current Row/Cell object provided by corresponding method. Because the cells data is written to the resultant file in streaming manner, most of other objects may have been written to the resultant file, or have been gathered and written some global data for them. So when user updating other objects while saving cells data, those operations may be not able to affect the saved data. Or even worse, those operations may cause inconsistent data be save to the resultant file and finally make the file corrupted. So, for all other objects such as shapes, column width and styles, conditional formattings, ...etc., please do not operate them in any methods of this implementation. Instead, please manage them and adjust them to the final state before calling "Save" method of the Workbook.
 
 ## Methods
 
@@ -59,7 +59,7 @@ the next row index to be saved. -1 means the end of current sheet data has been 
 
 **Remarks**
 
-It will be called at the beginning of saving a row and its cells data(before [StartRow(Row)](./startrow(row)/)).
+It will be called at the beginning of saving a row and its cells data(before [StartRow(Row)](/nodejs-cpp/startrow(row)/)).
 
 ### startRow(Row) {#startRow-row-}
 
@@ -72,7 +72,7 @@ startRow(row: Row) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| row | [Row](./row/) | Row object for implementation to fill data. Its row index is the returned value of latest call of [NextRow()](./nextrow()/).         /// If the row has been initialized in the inner cells model, the existing row object will be used.         /// Otherwise a temporary Row object will be used for implementation to fill data. |
+| row | [Row](/nodejs-cpp/row/) | Row object for implementation to fill data. Its row index is the returned value of latest call of [NextRow()](/nodejs-cpp/nextrow()/).         /// If the row has been initialized in the inner cells model, the existing row object will be used.         /// Otherwise a temporary Row object will be used for implementation to fill data. |
 
 **Remarks**
 
@@ -106,7 +106,7 @@ startCell(cell: Cell) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| cell | [Cell](./cell/) | Cell object for implementation to fill data. Its column index is the returned value of latest call of [NextCell()](./nextcell()/).         /// If the cell has been initialized in the inner cells model, the existed cell object will be used.         /// Otherwise a temporary Cell object will be used for implementation to fill data. |
+| cell | [Cell](/nodejs-cpp/cell/) | Cell object for implementation to fill data. Its column index is the returned value of latest call of [NextCell()](/nodejs-cpp/nextcell()/).         /// If the cell has been initialized in the inner cells model, the existed cell object will be used.         /// Otherwise a temporary Cell object will be used for implementation to fill data. |
 
 ### isGatherString() {#isGatherString--}
 

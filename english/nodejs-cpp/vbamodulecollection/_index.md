@@ -1,14 +1,14 @@
 ﻿---
 title: VbaModuleCollection
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents the list of VbaModule.vbamodule
+description: Represents the list of VbaModulenodejscppvbamodule
 type: docs
 url: /nodejs-cpp/vbamodulecollection/
 ---
 
 ## VbaModuleCollection class
 
-Represents the list of [VbaModule](./vbamodule/)
+Represents the list of [VbaModule](/nodejs-cpp/vbamodule/)
 
 ```javascript
 class VbaModuleCollection;
@@ -19,12 +19,12 @@ class VbaModuleCollection;
 
 | Method | Description |
 | --- | --- |
-| [get(number)](#get-number-)| Gets [VbaModule](./vbamodule/) in the list by the index. |
-| [addDesignerStorage(string, number[])](#addDesignerStorage-string-number[]-)|  |
+| [get(number)](#get-number-)| Gets [VbaModule](/nodejs-cpp/vbamodule/) in the list by the index. |
+| [addDesignerStorage(string, number[])](#addDesignerStorage-string-numberarray-)|  |
 | [getDesignerStorage(string)](#getDesignerStorage-string-)| Represents the data of Designer. |
 | [add(Worksheet)](#add-worksheet-)| Adds module for a worksheet. |
 | [add(VbaModuleType, string)](#add-vbamoduletype-string-)| Adds module. |
-| [addUserForm(string, string, number[])](#addUserForm-string-string-number[]-)| Inser user form into VBA Project. |
+| [addUserForm(string, string, number[])](#addUserForm-string-string-numberarray-)| Inser user form into VBA Project. |
 | [remove(Worksheet)](#remove-worksheet-)| Removes module for a worksheet. |
 | [remove(string)](#remove-string-)| Remove the module by the name |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
@@ -32,7 +32,7 @@ class VbaModuleCollection;
 
 ### get(number) {#get-number-}
 
-Gets [VbaModule](./vbamodule/) in the list by the index.
+Gets [VbaModule](/nodejs-cpp/vbamodule/) in the list by the index.
 
 ```javascript
 get(index: number) : VbaModule;
@@ -45,9 +45,9 @@ get(index: number) : VbaModule;
 
 **Returns**
 
-[VbaModule](./vbamodule/)
+[VbaModule](/nodejs-cpp/vbamodule/)
 
-### addDesignerStorage(string, number[]) {#addDesignerStorage-string-number[]-}
+### addDesignerStorage(string, number[]) {#addDesignerStorage-string-numberarray-}
 
 
 
@@ -93,7 +93,7 @@ add(sheet: Worksheet) : number;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sheet | [Worksheet](./worksheet/) | The worksheet |
+| sheet | [Worksheet](/nodejs-cpp/worksheet/) | The worksheet |
 
 ### add(VbaModuleType, string) {#add-vbamoduletype-string-}
 
@@ -106,10 +106,10 @@ add(type: VbaModuleType, name: string) : number;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | [VbaModuleType](./vbamoduletype/) | The type of module. |
+| type | [VbaModuleType](/nodejs-cpp/vbamoduletype/) | The type of module. |
 | name | string | The name of module. |
 
-### addUserForm(string, string, number[]) {#addUserForm-string-string-number[]-}
+### addUserForm(string, string, number[]) {#addUserForm-string-string-numberarray-}
 
 Inser user form into VBA Project.
 
@@ -135,7 +135,7 @@ remove(sheet: Worksheet) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sheet | [Worksheet](./worksheet/) | The worksheet |
+| sheet | [Worksheet](/nodejs-cpp/worksheet/) | The worksheet |
 
 ### remove(string) {#remove-string-}
 

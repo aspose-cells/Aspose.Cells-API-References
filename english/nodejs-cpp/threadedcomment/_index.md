@@ -80,7 +80,7 @@ getAuthor() : ThreadedCommentAuthor;
 
 **Returns**
 
-[ThreadedCommentAuthor](./threadedcommentauthor/)
+[ThreadedCommentAuthor](/nodejs-cpp/threadedcommentauthor/)
 
 ### setAuthor(ThreadedCommentAuthor) {#setAuthor-threadedcommentauthor-}
 
@@ -93,7 +93,7 @@ setAuthor(value: ThreadedCommentAuthor) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ThreadedCommentAuthor](./threadedcommentauthor/) | The value to set. |
+| value | [ThreadedCommentAuthor](/nodejs-cpp/threadedcommentauthor/) | The value to set. |
 
 ### getCreatedTime() {#getCreatedTime--}
 

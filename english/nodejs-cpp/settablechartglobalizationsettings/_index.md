@@ -217,7 +217,7 @@ getAxisUnitName(type: DisplayUnitType) : string;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | [DisplayUnitType](./displayunittype/) |  |
+| type | [DisplayUnitType](/nodejs-cpp/displayunittype/) |  |
 
 ### setAxisUnitName(DisplayUnitType, string) {#setAxisUnitName-displayunittype-string-}
 
@@ -230,7 +230,7 @@ setAxisUnitName(type: DisplayUnitType, name: string) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | [DisplayUnitType](./displayunittype/) |  |
+| type | [DisplayUnitType](/nodejs-cpp/displayunittype/) |  |
 | name | string | local dependent name |
 
 

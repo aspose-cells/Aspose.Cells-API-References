@@ -25,7 +25,7 @@ class SmartTagPropertyCollection;
 
 | Method | Description |
 | --- | --- |
-| [get(number)](#get-number-)| Gets a [SmartTagProperty](./smarttagproperty/) object. |
+| [get(number)](#get-number-)| Gets a [SmartTagProperty](/nodejs-cpp/smarttagproperty/) object. |
 | [add(string, string)](#add-string-string-)| Adds a property of cell's smart tag. |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
 
@@ -41,7 +41,7 @@ constructor();
 
 ### get(number) {#get-number-}
 
-Gets a [SmartTagProperty](./smarttagproperty/) object.
+Gets a [SmartTagProperty](/nodejs-cpp/smarttagproperty/) object.
 
 ```javascript
 get(index: number) : SmartTagProperty;
@@ -54,7 +54,7 @@ get(index: number) : SmartTagProperty;
 
 **Returns**
 
-Returns a [SmartTagProperty](./smarttagproperty/) object.
+Returns a [SmartTagProperty](/nodejs-cpp/smarttagproperty/) object.
 
 ### add(string, string) {#add-string-string-}
 
@@ -72,7 +72,7 @@ add(name: string, value: string) : number;
 
 **Returns**
 
-return [SmartTagProperty](./smarttagproperty/)
+return [SmartTagProperty](/nodejs-cpp/smarttagproperty/)
 
 ### getCount() {#getCount--}
 

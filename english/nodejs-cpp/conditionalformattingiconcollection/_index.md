@@ -1,14 +1,14 @@
 ﻿---
 title: ConditionalFormattingIconCollection
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents  a collection of ConditionalFormattingIcon.conditionalformattingicon objects.
+description: Represents  a collection of ConditionalFormattingIconnodejscppconditionalformattingicon objects.
 type: docs
 url: /nodejs-cpp/conditionalformattingiconcollection/
 ---
 
 ## ConditionalFormattingIconCollection class
 
-Represents  a collection of [ConditionalFormattingIcon](./conditionalformattingicon/) objects.
+Represents  a collection of [ConditionalFormattingIcon](/nodejs-cpp/conditionalformattingicon/) objects.
 
 ```javascript
 class ConditionalFormattingIconCollection;
@@ -20,8 +20,8 @@ class ConditionalFormattingIconCollection;
 | Method | Description |
 | --- | --- |
 | [get(number)](#get-number-)| Gets the ConditionalFormattingIcon element at the specified index. |
-| [add(IconSetType, number)](#add-iconsettype-number-)| Adds [ConditionalFormattingIcon](./conditionalformattingicon/) object. |
-| [add(ConditionalFormattingIcon)](#add-conditionalformattingicon-)| Adds [ConditionalFormattingIcon](./conditionalformattingicon/) object. |
+| [add(IconSetType, number)](#add-iconsettype-number-)| Adds [ConditionalFormattingIcon](/nodejs-cpp/conditionalformattingicon/) object. |
+| [add(ConditionalFormattingIcon)](#add-conditionalformattingicon-)| Adds [ConditionalFormattingIcon](/nodejs-cpp/conditionalformattingicon/) object. |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
 
 
@@ -44,7 +44,7 @@ The element at the specified index.
 
 ### add(IconSetType, number) {#add-iconsettype-number-}
 
-Adds [ConditionalFormattingIcon](./conditionalformattingicon/) object.
+Adds [ConditionalFormattingIcon](/nodejs-cpp/conditionalformattingicon/) object.
 
 ```javascript
 add(type: IconSetType, index: number) : number;
@@ -53,7 +53,7 @@ add(type: IconSetType, index: number) : number;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | [IconSetType](./iconsettype/) | The value type. |
+| type | [IconSetType](/nodejs-cpp/iconsettype/) | The value type. |
 | index | number | The Index. |
 
 **Returns**
@@ -62,7 +62,7 @@ Returns the index of new object in the list.
 
 ### add(ConditionalFormattingIcon) {#add-conditionalformattingicon-}
 
-Adds [ConditionalFormattingIcon](./conditionalformattingicon/) object.
+Adds [ConditionalFormattingIcon](/nodejs-cpp/conditionalformattingicon/) object.
 
 ```javascript
 add(cficon: ConditionalFormattingIcon) : number;
@@ -71,7 +71,7 @@ add(cficon: ConditionalFormattingIcon) : number;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| cficon | [ConditionalFormattingIcon](./conditionalformattingicon/) | Returns the index of new object in the list. |
+| cficon | [ConditionalFormattingIcon](/nodejs-cpp/conditionalformattingicon/) | Returns the index of new object in the list. |
 
 ### getCount() {#getCount--}
 

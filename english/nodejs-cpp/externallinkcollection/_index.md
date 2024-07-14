@@ -19,10 +19,10 @@ class ExternalLinkCollection;
 
 | Method | Description |
 | --- | --- |
-| [get(number)](#get-number-)| Gets the [ExternalLink](./externallink/) element at the specified index. |
+| [get(number)](#get-number-)| Gets the [ExternalLink](/nodejs-cpp/externallink/) element at the specified index. |
 | [getCount()](#getCount--)| Gets the number of elements actually contained in the collection. |
-| [add(string, string[])](#add-string-string[]-)| Adds an external link. |
-| [add(DirectoryType, string, string[])](#add-directorytype-string-string[]-)| Add an external link . |
+| [add(string, string[])](#add-string-stringarray-)| Adds an external link. |
+| [add(DirectoryType, string, string[])](#add-directorytype-string-stringarray-)| Add an external link . |
 | [clear()](#clear--)| Removes all external links. |
 | [clear(boolean)](#clear-boolean-)| Removes all external links. |
 | [removeAt(number)](#removeAt-number-)| Removes the specified external link from the workbook. |
@@ -32,7 +32,7 @@ class ExternalLinkCollection;
 
 ### get(number) {#get-number-}
 
-Gets the [ExternalLink](./externallink/) element at the specified index.
+Gets the [ExternalLink](/nodejs-cpp/externallink/) element at the specified index.
 
 ```javascript
 get(index: number) : ExternalLink;
@@ -56,7 +56,7 @@ getCount() : number;
 ```
 
 
-### add(string, string[]) {#add-string-string[]-}
+### add(string, string[]) {#add-string-stringarray-}
 
 Adds an external link.
 
@@ -74,7 +74,7 @@ add(fileName: string, sheetNames: string[]) : number;
 
 The position of the external name in this list.
 
-### add(DirectoryType, string, string[]) {#add-directorytype-string-string[]-}
+### add(DirectoryType, string, string[]) {#add-directorytype-string-stringarray-}
 
 Add an external link .
 
@@ -85,7 +85,7 @@ add(directoryType: DirectoryType, fileName: string, sheetNames: string[]) : numb
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| directoryType | [DirectoryType](./directorytype/) | The directory type of the file name. |
+| directoryType | [DirectoryType](/nodejs-cpp/directorytype/) | The directory type of the file name. |
 | fileName | string | the file name. |
 | sheetNames | string[] | All sheet names of the external file. |
 
@@ -152,7 +152,7 @@ removeAt(index: number, updateReferencesAsLocal: boolean) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | number | the index of the external link to be removed. |
-| updateReferencesAsLocal | boolean | Whether update all references of given external link to reference of current workbook itself.         /// Check [Clear(bool)](./clear(bool)/) to get more details about this parameter. |
+| updateReferencesAsLocal | boolean | Whether update all references of given external link to reference of current workbook itself.         /// Check [Clear(bool)](/nodejs-cpp/clear(bool)/) to get more details about this parameter. |
 
 ### getEnumerator() {#getEnumerator--}
 
@@ -165,6 +165,6 @@ getEnumerator() : ExternalLinkEnumerator;
 
 **Returns**
 
-[ExternalLinkEnumerator](./externallinkenumerator/)
+[ExternalLinkEnumerator](/nodejs-cpp/externallinkenumerator/)
 
 

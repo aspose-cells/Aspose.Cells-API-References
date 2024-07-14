@@ -40,7 +40,7 @@ get(index: number) : PivotItem;
 
 **Returns**
 
-[PivotItem](./pivotitem/)
+[PivotItem](/nodejs-cpp/pivotitem/)
 
 ### getCount() {#getCount--}
 

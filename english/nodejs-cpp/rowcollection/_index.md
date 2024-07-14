@@ -1,14 +1,14 @@
 ﻿---
 title: RowCollection
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Collects the Row.row objects that represent the individual rows in a worksheet.
+description: Collects the Rownodejscpprow objects that represent the individual rows in a worksheet.
 type: docs
 url: /nodejs-cpp/rowcollection/
 ---
 
 ## RowCollection class
 
-Collects the [Row](./row/) objects that represent the individual rows in a worksheet.
+Collects the [Row](/nodejs-cpp/row/) objects that represent the individual rows in a worksheet.
 
 ```javascript
 class RowCollection;
@@ -19,7 +19,7 @@ class RowCollection;
 
 | Method | Description |
 | --- | --- |
-| [get(number)](#get-number-)| Gets a [Row](./row/) object by given row index. The Row object of given row index will be instantiated if it does not exist before. |
+| [get(number)](#get-number-)| Gets a [Row](/nodejs-cpp/row/) object by given row index. The Row object of given row index will be instantiated if it does not exist before. |
 | [getCount()](#getCount--)| Gets the number of rows in this collection. |
 | [getEnumerator()](#getEnumerator--)| Gets an enumerator that iterates rows through this collection |
 | [getEnumerator(boolean, boolean)](#getEnumerator-boolean-boolean-)| Gets an enumerator that iterates rows through this collection |
@@ -30,7 +30,7 @@ class RowCollection;
 
 ### get(number) {#get-number-}
 
-Gets a [Row](./row/) object by given row index. The Row object of given row index will be instantiated if it does not exist before.
+Gets a [Row](/nodejs-cpp/row/) object by given row index. The Row object of given row index will be instantiated if it does not exist before.
 
 ```javascript
 get(rowIndex: number) : Row;
@@ -43,7 +43,7 @@ get(rowIndex: number) : Row;
 
 **Returns**
 
-[Row](./row/)
+[Row](/nodejs-cpp/row/)
 
 ### getCount() {#getCount--}
 
@@ -126,6 +126,6 @@ removeAt(index: number) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | number | zero-based index(position, not [Row.Index](./row.index/)) of the existing row item in this collection. |
+| index | number | zero-based index(position, not [Row.Index](/nodejs-cpp/row.index/)) of the existing row item in this collection. |
 
 

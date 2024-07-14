@@ -34,7 +34,7 @@ getWarningType() : WarningType;
 
 **Returns**
 
-[WarningType](./warningtype/)
+[WarningType](/nodejs-cpp/warningtype/)
 
 ### getDescription() {#getDescription--}
 

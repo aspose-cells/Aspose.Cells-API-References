@@ -37,7 +37,7 @@ getBulletValue() : BulletValue;
 
 **Returns**
 
-[BulletValue](./bulletvalue/)
+[BulletValue](/nodejs-cpp/bulletvalue/)
 
 ### getType() {#getType--}
 
@@ -50,7 +50,7 @@ getType() : BulletType;
 
 **Returns**
 
-[BulletType](./bullettype/)
+[BulletType](/nodejs-cpp/bullettype/)
 
 ### setType(BulletType) {#setType-bullettype-}
 
@@ -63,7 +63,7 @@ setType(value: BulletType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [BulletType](./bullettype/) | The value to set. |
+| value | [BulletType](/nodejs-cpp/bullettype/) | The value to set. |
 
 ### getFontName() {#getFontName--}
 

@@ -38,7 +38,7 @@ get(index: number) : ReferredArea;
 
 **Returns**
 
-[ReferredArea](./referredarea/)
+[ReferredArea](/nodejs-cpp/referredarea/)
 
 ### getCount() {#getCount--}
 

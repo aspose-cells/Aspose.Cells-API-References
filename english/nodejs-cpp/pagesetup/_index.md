@@ -43,7 +43,7 @@ class PageSetup;
 | [getHeaderMarginInch()](#getHeaderMarginInch--)| Represents the distance from the top of the page to the header, in unit of inches. |
 | [setHeaderMarginInch(number)](#setHeaderMarginInch-number-)| Represents the distance from the top of the page to the header, in unit of inches. |
 | [getPrinterSettings()](#getPrinterSettings--)| Gets and sets the settings of the default printer. |
-| [setPrinterSettings(number[])](#setPrinterSettings-number[]-)| Gets and sets the settings of the default printer. |
+| [setPrinterSettings(number[])](#setPrinterSettings-numberarray-)| Gets and sets the settings of the default printer. |
 | [getLeftMargin()](#getLeftMargin--)| Represents the size of the left margin, in unit of centimeters. |
 | [setLeftMargin(number)](#setLeftMargin-number-)| Represents the size of the left margin, in unit of centimeters. |
 | [getLeftMarginInch()](#getLeftMarginInch--)| Represents the size of the left margin, in unit of inches. |
@@ -118,11 +118,11 @@ class PageSetup;
 | [getFirstPageHeader(number)](#getFirstPageHeader-number-)| Gets a script formatting the first page header of an Excel file. |
 | [setFirstPageFooter(number, string)](#setFirstPageFooter-number-string-)| Sets a script formatting the first page footer of an Excel file. |
 | [getFirstPageFooter(number)](#getFirstPageFooter-number-)| Gets a script formatting the first page footer of an Excel file. |
-| [setHeaderPicture(number, number[])](#setHeaderPicture-number-number[]-)| Sets an image in the header of a worksheet. |
-| [setFooterPicture(number, number[])](#setFooterPicture-number-number[]-)| Sets an image in the footer of a worksheet. |
-| [setPicture(boolean, boolean, boolean, number, number[])](#setPicture-boolean-boolean-boolean-number-number[]-)| Sets an image in the header/footer of a worksheet. |
-| [getPicture(boolean, number)](#getPicture-boolean-number-)| Gets the [Picture](./picture/) object of the header / footer. |
-| [getPicture(boolean, boolean, boolean, number)](#getPicture-boolean-boolean-boolean-number-)| Gets the [Picture](./picture/) object of the header / footer. |
+| [setHeaderPicture(number, number[])](#setHeaderPicture-number-numberarray-)| Sets an image in the header of a worksheet. |
+| [setFooterPicture(number, number[])](#setFooterPicture-number-numberarray-)| Sets an image in the footer of a worksheet. |
+| [setPicture(boolean, boolean, boolean, number, number[])](#setPicture-boolean-boolean-boolean-number-numberarray-)| Sets an image in the header/footer of a worksheet. |
+| [getPicture(boolean, number)](#getPicture-boolean-number-)| Gets the [Picture](/nodejs-cpp/picture/) object of the header / footer. |
+| [getPicture(boolean, boolean, boolean, number)](#getPicture-boolean-boolean-boolean-number-)| Gets the [Picture](/nodejs-cpp/picture/) object of the header / footer. |
 
 
 ### getODSPageBackground() {#getODSPageBackground--}
@@ -136,7 +136,7 @@ getODSPageBackground() : OdsPageBackground;
 
 **Returns**
 
-[OdsPageBackground](./odspagebackground/)
+[OdsPageBackground](/nodejs-cpp/odspagebackground/)
 
 ### getPrintArea() {#getPrintArea--}
 
@@ -393,7 +393,7 @@ getPrinterSettings() : number[];
 
 number[]
 
-### setPrinterSettings(number[]) {#setPrinterSettings-number[]-}
+### setPrinterSettings(number[]) {#setPrinterSettings-numberarray-}
 
 Gets and sets the settings of the default printer.
 
@@ -697,7 +697,7 @@ getOrder() : PrintOrderType;
 
 **Returns**
 
-[PrintOrderType](./printordertype/)
+[PrintOrderType](/nodejs-cpp/printordertype/)
 
 ### setOrder(PrintOrderType) {#setOrder-printordertype-}
 
@@ -710,7 +710,7 @@ setOrder(value: PrintOrderType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [PrintOrderType](./printordertype/) | The value to set. |
+| value | [PrintOrderType](/nodejs-cpp/printordertype/) | The value to set. |
 
 ### isAutomaticPaperSize() {#isAutomaticPaperSize--}
 
@@ -732,7 +732,7 @@ getPaperSize() : PaperSizeType;
 
 **Returns**
 
-[PaperSizeType](./papersizetype/)
+[PaperSizeType](/nodejs-cpp/papersizetype/)
 
 ### setPaperSize(PaperSizeType) {#setPaperSize-papersizetype-}
 
@@ -745,7 +745,7 @@ setPaperSize(value: PaperSizeType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [PaperSizeType](./papersizetype/) | The value to set. |
+| value | [PaperSizeType](/nodejs-cpp/papersizetype/) | The value to set. |
 
 ### getPaperWidth() {#getPaperWidth--}
 
@@ -776,7 +776,7 @@ getOrientation() : PageOrientationType;
 
 **Returns**
 
-[PageOrientationType](./pageorientationtype/)
+[PageOrientationType](/nodejs-cpp/pageorientationtype/)
 
 ### setOrientation(PageOrientationType) {#setOrientation-pageorientationtype-}
 
@@ -789,7 +789,7 @@ setOrientation(value: PageOrientationType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [PageOrientationType](./pageorientationtype/) | The value to set. |
+| value | [PageOrientationType](/nodejs-cpp/pageorientationtype/) | The value to set. |
 
 ### getPrintComments() {#getPrintComments--}
 
@@ -802,7 +802,7 @@ getPrintComments() : PrintCommentsType;
 
 **Returns**
 
-[PrintCommentsType](./printcommentstype/)
+[PrintCommentsType](/nodejs-cpp/printcommentstype/)
 
 ### setPrintComments(PrintCommentsType) {#setPrintComments-printcommentstype-}
 
@@ -815,7 +815,7 @@ setPrintComments(value: PrintCommentsType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [PrintCommentsType](./printcommentstype/) | The value to set. |
+| value | [PrintCommentsType](/nodejs-cpp/printcommentstype/) | The value to set. |
 
 ### getPrintErrors() {#getPrintErrors--}
 
@@ -828,7 +828,7 @@ getPrintErrors() : PrintErrorsType;
 
 **Returns**
 
-[PrintErrorsType](./printerrorstype/)
+[PrintErrorsType](/nodejs-cpp/printerrorstype/)
 
 ### setPrintErrors(PrintErrorsType) {#setPrintErrors-printerrorstype-}
 
@@ -841,7 +841,7 @@ setPrintErrors(value: PrintErrorsType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [PrintErrorsType](./printerrorstype/) | The value to set. |
+| value | [PrintErrorsType](/nodejs-cpp/printerrorstype/) | The value to set. |
 
 ### getPrintHeadings() {#getPrintHeadings--}
 
@@ -1074,8 +1074,8 @@ copy(source: PageSetup, copyOptions: CopyOptions) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| source | [PageSetup](./pagesetup/) | The source. |
-| copyOptions | [CopyOptions](./copyoptions/) | The copy options. |
+| source | [PageSetup](/nodejs-cpp/pagesetup/) | The source. |
+| copyOptions | [CopyOptions](/nodejs-cpp/copyoptions/) | The copy options. |
 
 ### setFitToPages(number, number) {#setFitToPages-number-number-}
 
@@ -1301,7 +1301,7 @@ getFirstPageFooter(section: number) : string;
 | --- | --- | --- |
 | section | number | 0: Left Section, 1: Center Section, 2: Right Section. |
 
-### setHeaderPicture(number, number[]) {#setHeaderPicture-number-number[]-}
+### setHeaderPicture(number, number[]) {#setHeaderPicture-number-numberarray-}
 
 Sets an image in the header of a worksheet.
 
@@ -1317,9 +1317,9 @@ setHeaderPicture(section: number, headerPicture: number[]) : Picture;
 
 **Returns**
 
-Returns [Picture](./picture/) object.
+Returns [Picture](/nodejs-cpp/picture/) object.
 
-### setFooterPicture(number, number[]) {#setFooterPicture-number-number[]-}
+### setFooterPicture(number, number[]) {#setFooterPicture-number-numberarray-}
 
 Sets an image in the footer of a worksheet.
 
@@ -1335,9 +1335,9 @@ setFooterPicture(section: number, footerPicture: number[]) : Picture;
 
 **Returns**
 
-Returns [Picture](./picture/) object.
+Returns [Picture](/nodejs-cpp/picture/) object.
 
-### setPicture(boolean, boolean, boolean, number, number[]) {#setPicture-boolean-boolean-boolean-number-number[]-}
+### setPicture(boolean, boolean, boolean, number, number[]) {#setPicture-boolean-boolean-boolean-number-numberarray-}
 
 Sets an image in the header/footer of a worksheet.
 
@@ -1356,11 +1356,11 @@ setPicture(isFirst: boolean, isEven: boolean, isHeader: boolean, section: number
 
 **Returns**
 
-Returns [Picture](./picture/) object.
+Returns [Picture](/nodejs-cpp/picture/) object.
 
 ### getPicture(boolean, number) {#getPicture-boolean-number-}
 
-Gets the [Picture](./picture/) object of the header / footer.
+Gets the [Picture](/nodejs-cpp/picture/) object of the header / footer.
 
 ```javascript
 getPicture(isHeader: boolean, section: number) : Picture;
@@ -1374,11 +1374,11 @@ getPicture(isHeader: boolean, section: number) : Picture;
 
 **Returns**
 
-Returns [Picture](./picture/) object. Returns null if there is no picture.
+Returns [Picture](/nodejs-cpp/picture/) object. Returns null if there is no picture.
 
 ### getPicture(boolean, boolean, boolean, number) {#getPicture-boolean-boolean-boolean-number-}
 
-Gets the [Picture](./picture/) object of the header / footer.
+Gets the [Picture](/nodejs-cpp/picture/) object of the header / footer.
 
 ```javascript
 getPicture(isFirst: boolean, isEven: boolean, isHeader: boolean, section: number) : Picture;
@@ -1394,6 +1394,6 @@ getPicture(isFirst: boolean, isEven: boolean, isHeader: boolean, section: number
 
 **Returns**
 
-Returns [Picture](./picture/) object.
+Returns [Picture](/nodejs-cpp/picture/) object.
 
 

@@ -19,7 +19,7 @@ class Format3D;
 
 | Method | Description |
 | --- | --- |
-| [getTopBevel()](#getTopBevel--)| Gets the [Bevel](./bevel/) object that holds the properties associated with defining a bevel on the top or front face of a shape. |
+| [getTopBevel()](#getTopBevel--)| Gets the [Bevel](/nodejs-cpp/bevel/) object that holds the properties associated with defining a bevel on the top or front face of a shape. |
 | [getSurfaceMaterialType()](#getSurfaceMaterialType--)| Gets and sets the material type which is combined with the lighting properties to give the final look and feel of a shape. Default value is PresetMaterialType.WarmMatte. |
 | [setSurfaceMaterialType(PresetMaterialType)](#setSurfaceMaterialType-presetmaterialtype-)| Gets and sets the material type which is combined with the lighting properties to give the final look and feel of a shape. Default value is PresetMaterialType.WarmMatte. |
 | [getSurfaceLightingType()](#getSurfaceLightingType--)| Gets and sets the lighting type which is to be applied to the scene of the shape. Default value is LightRigType.ThreePoint. |
@@ -31,7 +31,7 @@ class Format3D;
 
 ### getTopBevel() {#getTopBevel--}
 
-Gets the [Bevel](./bevel/) object that holds the properties associated with defining a bevel on the top or front face of a shape.
+Gets the [Bevel](/nodejs-cpp/bevel/) object that holds the properties associated with defining a bevel on the top or front face of a shape.
 
 ```javascript
 getTopBevel() : Bevel;
@@ -40,7 +40,7 @@ getTopBevel() : Bevel;
 
 **Returns**
 
-[Bevel](./bevel/)
+[Bevel](/nodejs-cpp/bevel/)
 
 ### getSurfaceMaterialType() {#getSurfaceMaterialType--}
 
@@ -53,7 +53,7 @@ getSurfaceMaterialType() : PresetMaterialType;
 
 **Returns**
 
-[PresetMaterialType](./presetmaterialtype/)
+[PresetMaterialType](/nodejs-cpp/presetmaterialtype/)
 
 ### setSurfaceMaterialType(PresetMaterialType) {#setSurfaceMaterialType-presetmaterialtype-}
 
@@ -66,7 +66,7 @@ setSurfaceMaterialType(value: PresetMaterialType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [PresetMaterialType](./presetmaterialtype/) | The value to set. |
+| value | [PresetMaterialType](/nodejs-cpp/presetmaterialtype/) | The value to set. |
 
 ### getSurfaceLightingType() {#getSurfaceLightingType--}
 
@@ -79,7 +79,7 @@ getSurfaceLightingType() : LightRigType;
 
 **Returns**
 
-[LightRigType](./lightrigtype/)
+[LightRigType](/nodejs-cpp/lightrigtype/)
 
 ### setSurfaceLightingType(LightRigType) {#setSurfaceLightingType-lightrigtype-}
 
@@ -92,7 +92,7 @@ setSurfaceLightingType(value: LightRigType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [LightRigType](./lightrigtype/) | The value to set. |
+| value | [LightRigType](/nodejs-cpp/lightrigtype/) | The value to set. |
 
 ### getLightingAngle() {#getLightingAngle--}
 

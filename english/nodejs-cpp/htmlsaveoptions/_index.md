@@ -140,8 +140,8 @@ class HtmlSaveOptions extends SaveOptions;
 | [setIsJsBrowserCompatible(boolean)](#setIsJsBrowserCompatible-boolean-)| Indicates whether JavaScript is compatible with browsers that do not support JavaScript. The default value is true. |
 | [isMobileCompatible()](#isMobileCompatible--)| Indicates whether the output HTML is compatible with mobile devices. The default value is false. |
 | [setIsMobileCompatible(boolean)](#setIsMobileCompatible-boolean-)| Indicates whether the output HTML is compatible with mobile devices. The default value is false. |
-| [getCssStyles()](#getCssStyles--)| Gets or sets the additional css styles for the formatter. Only works when [SaveAsSingleFile](./saveassinglefile/) is True. <example> CssStyles="body { padding: 5px }"; </example> |
-| [setCssStyles(string)](#setCssStyles-string-)| Gets or sets the additional css styles for the formatter. Only works when [SaveAsSingleFile](./saveassinglefile/) is True. <example> CssStyles="body { padding: 5px }"; </example> |
+| [getCssStyles()](#getCssStyles--)| Gets or sets the additional css styles for the formatter. Only works when [SaveAsSingleFile](/nodejs-cpp/saveassinglefile/) is True. <example> CssStyles="body { padding: 5px }"; </example> |
+| [setCssStyles(string)](#setCssStyles-string-)| Gets or sets the additional css styles for the formatter. Only works when [SaveAsSingleFile](/nodejs-cpp/saveassinglefile/) is True. <example> CssStyles="body { padding: 5px }"; </example> |
 | [getHideOverflowWrappedText()](#getHideOverflowWrappedText--)| Indicates whether to hide overflow text when the cell format is set to wrap text. The default value is false |
 | [setHideOverflowWrappedText(boolean)](#setHideOverflowWrappedText-boolean-)| Indicates whether to hide overflow text when the cell format is set to wrap text. The default value is false |
 | [isBorderCollapsed()](#isBorderCollapsed--)| Indicates whether the table borders are collapsed. The default value is true. |
@@ -202,7 +202,7 @@ constructor(saveFormat: SaveFormat);
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| saveFormat | [SaveFormat](./saveformat/) | The file format.         /// It should be one of following types: [SaveFormat.Html](./saveformat.html/), [SaveFormat.Html](./saveformat.html/),         /// or [SaveFormat.Html](./saveformat.html/),         /// otherwise the saved format will be set as [SaveFormat.Html](./saveformat.html/) automatically. |
+| saveFormat | [SaveFormat](/nodejs-cpp/saveformat/) | The file format.         /// It should be one of following types: [SaveFormat.Html](/nodejs-cpp/saveformat.html/), [SaveFormat.Html](/nodejs-cpp/saveformat.html/),         /// or [SaveFormat.Html](/nodejs-cpp/saveformat.html/),         /// otherwise the saved format will be set as [SaveFormat.Html](/nodejs-cpp/saveformat.html/) automatically. |
 
 ### getIgnoreInvisibleShapes() {#getIgnoreInvisibleShapes--}
 
@@ -399,7 +399,7 @@ getExportCommentsType() : PrintCommentsType;
 
 **Returns**
 
-[PrintCommentsType](./printcommentstype/)
+[PrintCommentsType](/nodejs-cpp/printcommentstype/)
 
 ### setExportCommentsType(PrintCommentsType) {#setExportCommentsType-printcommentstype-}
 
@@ -412,7 +412,7 @@ setExportCommentsType(value: PrintCommentsType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [PrintCommentsType](./printcommentstype/) | The value to set. |
+| value | [PrintCommentsType](/nodejs-cpp/printcommentstype/) | The value to set. |
 
 ### getDisableDownlevelRevealedComments() {#getDisableDownlevelRevealedComments--}
 
@@ -609,7 +609,7 @@ getExportArea() : CellArea;
 
 **Returns**
 
-[CellArea](./cellarea/)
+[CellArea](/nodejs-cpp/cellarea/)
 
 ### setExportArea(CellArea) {#setExportArea-cellarea-}
 
@@ -622,7 +622,7 @@ setExportArea(value: CellArea) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [CellArea](./cellarea/) | The value to set. |
+| value | [CellArea](/nodejs-cpp/cellarea/) | The value to set. |
 
 ### getParseHtmlTagInCell() {#getParseHtmlTagInCell--}
 
@@ -657,7 +657,7 @@ getHtmlCrossStringType() : HtmlCrossType;
 
 **Returns**
 
-[HtmlCrossType](./htmlcrosstype/)
+[HtmlCrossType](/nodejs-cpp/htmlcrosstype/)
 
 ### setHtmlCrossStringType(HtmlCrossType) {#setHtmlCrossStringType-htmlcrosstype-}
 
@@ -670,7 +670,7 @@ setHtmlCrossStringType(value: HtmlCrossType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [HtmlCrossType](./htmlcrosstype/) | The value to set. |
+| value | [HtmlCrossType](/nodejs-cpp/htmlcrosstype/) | The value to set. |
 
 ### getHiddenColDisplayType() {#getHiddenColDisplayType--}
 
@@ -683,7 +683,7 @@ getHiddenColDisplayType() : HtmlHiddenColDisplayType;
 
 **Returns**
 
-[HtmlHiddenColDisplayType](./htmlhiddencoldisplaytype/)
+[HtmlHiddenColDisplayType](/nodejs-cpp/htmlhiddencoldisplaytype/)
 
 ### setHiddenColDisplayType(HtmlHiddenColDisplayType) {#setHiddenColDisplayType-htmlhiddencoldisplaytype-}
 
@@ -696,7 +696,7 @@ setHiddenColDisplayType(value: HtmlHiddenColDisplayType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [HtmlHiddenColDisplayType](./htmlhiddencoldisplaytype/) | The value to set. |
+| value | [HtmlHiddenColDisplayType](/nodejs-cpp/htmlhiddencoldisplaytype/) | The value to set. |
 
 ### getHiddenRowDisplayType() {#getHiddenRowDisplayType--}
 
@@ -709,7 +709,7 @@ getHiddenRowDisplayType() : HtmlHiddenRowDisplayType;
 
 **Returns**
 
-[HtmlHiddenRowDisplayType](./htmlhiddenrowdisplaytype/)
+[HtmlHiddenRowDisplayType](/nodejs-cpp/htmlhiddenrowdisplaytype/)
 
 ### setHiddenRowDisplayType(HtmlHiddenRowDisplayType) {#setHiddenRowDisplayType-htmlhiddenrowdisplaytype-}
 
@@ -722,7 +722,7 @@ setHiddenRowDisplayType(value: HtmlHiddenRowDisplayType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [HtmlHiddenRowDisplayType](./htmlhiddenrowdisplaytype/) | The value to set. |
+| value | [HtmlHiddenRowDisplayType](/nodejs-cpp/htmlhiddenrowdisplaytype/) | The value to set. |
 
 ### getEncoding() {#getEncoding--}
 
@@ -735,7 +735,7 @@ getEncoding() : EncodingType;
 
 **Returns**
 
-[EncodingType](./encodingtype/)
+[EncodingType](/nodejs-cpp/encodingtype/)
 
 ### setEncoding(EncodingType) {#setEncoding-encodingtype-}
 
@@ -748,7 +748,7 @@ setEncoding(value: EncodingType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [EncodingType](./encodingtype/) | The value to set. |
+| value | [EncodingType](/nodejs-cpp/encodingtype/) | The value to set. |
 
 ### getFilePathProvider() {#getFilePathProvider--}
 
@@ -761,7 +761,7 @@ getFilePathProvider() : IFilePathProvider;
 
 **Returns**
 
-[IFilePathProvider](./ifilepathprovider/)
+[IFilePathProvider](/nodejs-cpp/ifilepathprovider/)
 
 ### setFilePathProvider(IFilePathProvider) {#setFilePathProvider-ifilepathprovider-}
 
@@ -774,7 +774,7 @@ setFilePathProvider(value: IFilePathProvider) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IFilePathProvider](./ifilepathprovider/) | The value to set. |
+| value | [IFilePathProvider](/nodejs-cpp/ifilepathprovider/) | The value to set. |
 
 ### getImageOptions() {#getImageOptions--}
 
@@ -787,7 +787,7 @@ getImageOptions() : ImageOrPrintOptions;
 
 **Returns**
 
-[ImageOrPrintOptions](./imageorprintoptions/)
+[ImageOrPrintOptions](/nodejs-cpp/imageorprintoptions/)
 
 ### getSaveAsSingleFile() {#getSaveAsSingleFile--}
 
@@ -830,7 +830,7 @@ getShowAllSheets() : boolean;
 
 **Remarks**
 
-Only works when [SaveAsSingleFile](./saveassinglefile/) is True.
+Only works when [SaveAsSingleFile](/nodejs-cpp/saveassinglefile/) is True.
 
 ### setShowAllSheets(boolean) {#setShowAllSheets-boolean-}
 
@@ -847,7 +847,7 @@ setShowAllSheets(value: boolean) : void;
 
 **Remarks**
 
-Only works when [SaveAsSingleFile](./saveassinglefile/) is True.
+Only works when [SaveAsSingleFile](/nodejs-cpp/saveassinglefile/) is True.
 
 ### getExportPageHeaders() {#getExportPageHeaders--}
 
@@ -860,7 +860,7 @@ getExportPageHeaders() : boolean;
 
 **Remarks**
 
-Only works when [SaveAsSingleFile](./saveassinglefile/) is True.
+Only works when [SaveAsSingleFile](/nodejs-cpp/saveassinglefile/) is True.
 
 ### setExportPageHeaders(boolean) {#setExportPageHeaders-boolean-}
 
@@ -877,7 +877,7 @@ setExportPageHeaders(value: boolean) : void;
 
 **Remarks**
 
-Only works when [SaveAsSingleFile](./saveassinglefile/) is True.
+Only works when [SaveAsSingleFile](/nodejs-cpp/saveassinglefile/) is True.
 
 ### getExportPageFooters() {#getExportPageFooters--}
 
@@ -890,7 +890,7 @@ getExportPageFooters() : boolean;
 
 **Remarks**
 
-Only works when [SaveAsSingleFile](./saveassinglefile/) is True.
+Only works when [SaveAsSingleFile](/nodejs-cpp/saveassinglefile/) is True.
 
 ### setExportPageFooters(boolean) {#setExportPageFooters-boolean-}
 
@@ -907,7 +907,7 @@ setExportPageFooters(value: boolean) : void;
 
 **Remarks**
 
-Only works when [SaveAsSingleFile](./saveassinglefile/) is True.
+Only works when [SaveAsSingleFile](/nodejs-cpp/saveassinglefile/) is True.
 
 ### getExportHiddenWorksheet() {#getExportHiddenWorksheet--}
 
@@ -1096,7 +1096,7 @@ getMergeEmptyTdType() : MergeEmptyTdType;
 
 **Returns**
 
-[MergeEmptyTdType](./mergeemptytdtype/)
+[MergeEmptyTdType](/nodejs-cpp/mergeemptytdtype/)
 
 ### setMergeEmptyTdType(MergeEmptyTdType) {#setMergeEmptyTdType-mergeemptytdtype-}
 
@@ -1109,7 +1109,7 @@ setMergeEmptyTdType(value: MergeEmptyTdType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [MergeEmptyTdType](./mergeemptytdtype/) | The value to set. |
+| value | [MergeEmptyTdType](/nodejs-cpp/mergeemptytdtype/) | The value to set. |
 
 ### getExportCellCoordinate() {#getExportCellCoordinate--}
 
@@ -1394,7 +1394,7 @@ getExportDataOptions() : HtmlExportDataOptions;
 
 **Returns**
 
-[HtmlExportDataOptions](./htmlexportdataoptions/)
+[HtmlExportDataOptions](/nodejs-cpp/htmlexportdataoptions/)
 
 ### setExportDataOptions(HtmlExportDataOptions) {#setExportDataOptions-htmlexportdataoptions-}
 
@@ -1407,7 +1407,7 @@ setExportDataOptions(value: HtmlExportDataOptions) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [HtmlExportDataOptions](./htmlexportdataoptions/) | The value to set. |
+| value | [HtmlExportDataOptions](/nodejs-cpp/htmlexportdataoptions/) | The value to set. |
 
 ### getLinkTargetType() {#getLinkTargetType--}
 
@@ -1420,7 +1420,7 @@ getLinkTargetType() : HtmlLinkTargetType;
 
 **Returns**
 
-[HtmlLinkTargetType](./htmllinktargettype/)
+[HtmlLinkTargetType](/nodejs-cpp/htmllinktargettype/)
 
 ### setLinkTargetType(HtmlLinkTargetType) {#setLinkTargetType-htmllinktargettype-}
 
@@ -1433,7 +1433,7 @@ setLinkTargetType(value: HtmlLinkTargetType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [HtmlLinkTargetType](./htmllinktargettype/) | The value to set. |
+| value | [HtmlLinkTargetType](/nodejs-cpp/htmllinktargettype/) | The value to set. |
 
 ### isIECompatible() {#isIECompatible--}
 
@@ -1555,7 +1555,7 @@ setIsMobileCompatible(value: boolean) : void;
 
 ### getCssStyles() {#getCssStyles--}
 
-Gets or sets the additional css styles for the formatter. Only works when [SaveAsSingleFile](./saveassinglefile/) is True. <example> CssStyles="body { padding: 5px }"; </example>
+Gets or sets the additional css styles for the formatter. Only works when [SaveAsSingleFile](/nodejs-cpp/saveassinglefile/) is True. <example> CssStyles="body { padding: 5px }"; </example>
 
 ```javascript
 getCssStyles() : string;
@@ -1564,7 +1564,7 @@ getCssStyles() : string;
 
 ### setCssStyles(string) {#setCssStyles-string-}
 
-Gets or sets the additional css styles for the formatter. Only works when [SaveAsSingleFile](./saveassinglefile/) is True. <example> CssStyles="body { padding: 5px }"; </example>
+Gets or sets the additional css styles for the formatter. Only works when [SaveAsSingleFile](/nodejs-cpp/saveassinglefile/) is True. <example> CssStyles="body { padding: 5px }"; </example>
 
 ```javascript
 setCssStyles(value: string) : void;
@@ -1630,7 +1630,7 @@ getSaveFormat() : SaveFormat;
 
 **Returns**
 
-[SaveFormat](./saveformat/)
+[SaveFormat](/nodejs-cpp/saveformat/)
 
 ### getClearData() {#getClearData--}
 
@@ -1843,7 +1843,7 @@ setWarningCallback(value: IWarningCallback) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IWarningCallback](./iwarningcallback/) | The value to set. |
+| value | [IWarningCallback](/nodejs-cpp/iwarningcallback/) | The value to set. |
 
 ### getWarningCallback() {#getWarningCallback--}
 
@@ -1856,7 +1856,7 @@ getWarningCallback() : IWarningCallback;
 
 **Returns**
 
-[IWarningCallback](./iwarningcallback/)
+[IWarningCallback](/nodejs-cpp/iwarningcallback/)
 
 ### getUpdateSmartArt() {#getUpdateSmartArt--}
 

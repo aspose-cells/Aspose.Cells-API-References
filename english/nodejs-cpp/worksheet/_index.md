@@ -23,8 +23,8 @@ class Worksheet;
 | [getUniqueId()](#getUniqueId--)| Gets and sets the unique id, it is same as {15DB5C3C-A5A1-48AF-8F25-3D86AC232D4F}. |
 | [setUniqueId(string)](#setUniqueId-string-)| Gets and sets the unique id, it is same as {15DB5C3C-A5A1-48AF-8F25-3D86AC232D4F}. |
 | [getWorkbook()](#getWorkbook--)| Gets the workbook object which contains this sheet. |
-| [getCells()](#getCells--)| Gets the [Cells](./cells/) collection. |
-| [getQueryTables()](#getQueryTables--)| Gets [QueryTableCollection](./querytablecollection/) in the worksheet. |
+| [getCells()](#getCells--)| Gets the [Cells](/nodejs-cpp/cells/) collection. |
+| [getQueryTables()](#getQueryTables--)| Gets [QueryTableCollection](/nodejs-cpp/querytablecollection/) in the worksheet. |
 | [getPivotTables()](#getPivotTables--)| Gets all pivot tables in this worksheet. |
 | [getType()](#getType--)| Represents worksheet type. |
 | [setType(SheetType)](#setType-sheettype-)| Represents worksheet type. |
@@ -48,9 +48,9 @@ class Worksheet;
 | [getListObjects()](#getListObjects--)| Gets all ListObjects in this worksheet. |
 | [getTabId()](#getTabId--)| Specifies the internal identifier for the sheet. |
 | [setTabId(number)](#setTabId-number-)| Specifies the internal identifier for the sheet. |
-| [getHorizontalPageBreaks()](#getHorizontalPageBreaks--)| Gets the [HorizontalPageBreakCollection](./horizontalpagebreakcollection/) collection. |
-| [getVerticalPageBreaks()](#getVerticalPageBreaks--)| Gets the [VerticalPageBreakCollection](./verticalpagebreakcollection/) collection. |
-| [getHyperlinks()](#getHyperlinks--)| Gets the [HyperlinkCollection](./hyperlinkcollection/) collection. |
+| [getHorizontalPageBreaks()](#getHorizontalPageBreaks--)| Gets the [HorizontalPageBreakCollection](/nodejs-cpp/horizontalpagebreakcollection/) collection. |
+| [getVerticalPageBreaks()](#getVerticalPageBreaks--)| Gets the [VerticalPageBreakCollection](/nodejs-cpp/verticalpagebreakcollection/) collection. |
+| [getHyperlinks()](#getHyperlinks--)| Gets the [HyperlinkCollection](/nodejs-cpp/hyperlinkcollection/) collection. |
 | [getPageSetup()](#getPageSetup--)| Represents the page setup description in this sheet. |
 | [getAutoFilter()](#getAutoFilter--)| Represents auto filter for the specified worksheet. |
 | [getHasAutofilter()](#getHasAutofilter--)| Indicates whether this worksheet has auto filter. |
@@ -63,12 +63,12 @@ class Worksheet;
 | [isVisible()](#isVisible--)| Represents if the worksheet is visible. |
 | [setIsVisible(boolean)](#setIsVisible-boolean-)| Represents if the worksheet is visible. |
 | [getSparklineGroups()](#getSparklineGroups--)| Gets the sparkline groups in the worksheet. |
-| [getCharts()](#getCharts--)| Gets a [Chart](./chart/) collection |
-| [getComments()](#getComments--)| Gets the [Comment](./comment/) collection. |
-| [getPictures()](#getPictures--)| Gets a [Picture](./picture/) collection. |
-| [getTextBoxes()](#getTextBoxes--)| Gets a [TextBox](./textbox/) collection. |
-| [getCheckBoxes()](#getCheckBoxes--)| Gets a [CheckBox](./checkbox/) collection. |
-| [getOleObjects()](#getOleObjects--)| Represents a collection of [OleObject](./oleobject/) in a worksheet. |
+| [getCharts()](#getCharts--)| Gets a [Chart](/nodejs-cpp/chart/) collection |
+| [getComments()](#getComments--)| Gets the [Comment](/nodejs-cpp/comment/) collection. |
+| [getPictures()](#getPictures--)| Gets a [Picture](/nodejs-cpp/picture/) collection. |
+| [getTextBoxes()](#getTextBoxes--)| Gets a [TextBox](/nodejs-cpp/textbox/) collection. |
+| [getCheckBoxes()](#getCheckBoxes--)| Gets a [CheckBox](/nodejs-cpp/checkbox/) collection. |
+| [getOleObjects()](#getOleObjects--)| Represents a collection of [OleObject](/nodejs-cpp/oleobject/) in a worksheet. |
 | [getShapes()](#getShapes--)| Returns all drawing shapes in this worksheet. |
 | [getSlicers()](#getSlicers--)| Get the Slicer collection in the worksheet |
 | [getTimelines()](#getTimelines--)| Get the Timeline collection in the worksheet |
@@ -95,13 +95,13 @@ class Worksheet;
 | [getCodeName()](#getCodeName--)| Gets worksheet code name. |
 | [setCodeName(string)](#setCodeName-string-)| Gets worksheet code name. |
 | [getBackgroundImage()](#getBackgroundImage--)| Gets and sets worksheet background image. |
-| [setBackgroundImage(number[])](#setBackgroundImage-number[]-)| Gets and sets worksheet background image. |
+| [setBackgroundImage(number[])](#setBackgroundImage-numberarray-)| Gets and sets worksheet background image. |
 | [getConditionalFormattings()](#getConditionalFormattings--)| Gets the ConditionalFormattings in the worksheet. |
 | [getActiveCell()](#getActiveCell--)| Gets or sets the active cell in the worksheet. |
 | [setActiveCell(string)](#setActiveCell-string-)| Gets or sets the active cell in the worksheet. |
 | [getCustomProperties()](#getCustomProperties--)| Gets an object representing the identifier information associated with a worksheet. |
-| [getSmartTagSetting()](#getSmartTagSetting--)| Gets all [SmartTagCollection](./smarttagcollection/) objects of the worksheet. |
-| [getScenarios()](#getScenarios--)| Gets the collection of [Scenario](./scenario/). |
+| [getSmartTagSetting()](#getSmartTagSetting--)| Gets all [SmartTagCollection](/nodejs-cpp/smarttagcollection/) objects of the worksheet. |
+| [getScenarios()](#getScenarios--)| Gets the collection of [Scenario](/nodejs-cpp/scenario/). |
 | [getCellWatches()](#getCellWatches--)| Gets collection of cells on this worksheet being watched in the 'watch window'. |
 | [dispose()](#dispose--)| Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [getPanes()](#getPanes--)| Gets the window panes. |
@@ -165,7 +165,7 @@ getProtection() : Protection;
 
 **Returns**
 
-[Protection](./protection/)
+[Protection](/nodejs-cpp/protection/)
 
 **Remarks**
 
@@ -204,11 +204,11 @@ getWorkbook() : Workbook;
 
 **Returns**
 
-[Workbook](./workbook/)
+[Workbook](/nodejs-cpp/workbook/)
 
 ### getCells() {#getCells--}
 
-Gets the [Cells](./cells/) collection.
+Gets the [Cells](/nodejs-cpp/cells/) collection.
 
 ```javascript
 getCells() : Cells;
@@ -217,11 +217,11 @@ getCells() : Cells;
 
 **Returns**
 
-[Cells](./cells/)
+[Cells](/nodejs-cpp/cells/)
 
 ### getQueryTables() {#getQueryTables--}
 
-Gets [QueryTableCollection](./querytablecollection/) in the worksheet.
+Gets [QueryTableCollection](/nodejs-cpp/querytablecollection/) in the worksheet.
 
 ```javascript
 getQueryTables() : QueryTableCollection;
@@ -230,7 +230,7 @@ getQueryTables() : QueryTableCollection;
 
 **Returns**
 
-[QueryTableCollection](./querytablecollection/)
+[QueryTableCollection](/nodejs-cpp/querytablecollection/)
 
 ### getPivotTables() {#getPivotTables--}
 
@@ -243,7 +243,7 @@ getPivotTables() : PivotTableCollection;
 
 **Returns**
 
-[PivotTableCollection](./pivottablecollection/)
+[PivotTableCollection](/nodejs-cpp/pivottablecollection/)
 
 ### getType() {#getType--}
 
@@ -256,7 +256,7 @@ getType() : SheetType;
 
 **Returns**
 
-[SheetType](./sheettype/)
+[SheetType](/nodejs-cpp/sheettype/)
 
 ### setType(SheetType) {#setType-sheettype-}
 
@@ -269,7 +269,7 @@ setType(value: SheetType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [SheetType](./sheettype/) | The value to set. |
+| value | [SheetType](/nodejs-cpp/sheettype/) | The value to set. |
 
 ### getName() {#getName--}
 
@@ -378,7 +378,7 @@ getPaneState() : PaneStateType;
 
 **Returns**
 
-[PaneStateType](./panestatetype/)
+[PaneStateType](/nodejs-cpp/panestatetype/)
 
 ### getDisplayZeros() {#getDisplayZeros--}
 
@@ -479,7 +479,7 @@ getListObjects() : ListObjectCollection;
 
 **Returns**
 
-[ListObjectCollection](./listobjectcollection/)
+[ListObjectCollection](/nodejs-cpp/listobjectcollection/)
 
 ### getTabId() {#getTabId--}
 
@@ -505,7 +505,7 @@ setTabId(value: number) : void;
 
 ### getHorizontalPageBreaks() {#getHorizontalPageBreaks--}
 
-Gets the [HorizontalPageBreakCollection](./horizontalpagebreakcollection/) collection.
+Gets the [HorizontalPageBreakCollection](/nodejs-cpp/horizontalpagebreakcollection/) collection.
 
 ```javascript
 getHorizontalPageBreaks() : HorizontalPageBreakCollection;
@@ -514,11 +514,11 @@ getHorizontalPageBreaks() : HorizontalPageBreakCollection;
 
 **Returns**
 
-[HorizontalPageBreakCollection](./horizontalpagebreakcollection/)
+[HorizontalPageBreakCollection](/nodejs-cpp/horizontalpagebreakcollection/)
 
 ### getVerticalPageBreaks() {#getVerticalPageBreaks--}
 
-Gets the [VerticalPageBreakCollection](./verticalpagebreakcollection/) collection.
+Gets the [VerticalPageBreakCollection](/nodejs-cpp/verticalpagebreakcollection/) collection.
 
 ```javascript
 getVerticalPageBreaks() : VerticalPageBreakCollection;
@@ -527,11 +527,11 @@ getVerticalPageBreaks() : VerticalPageBreakCollection;
 
 **Returns**
 
-[VerticalPageBreakCollection](./verticalpagebreakcollection/)
+[VerticalPageBreakCollection](/nodejs-cpp/verticalpagebreakcollection/)
 
 ### getHyperlinks() {#getHyperlinks--}
 
-Gets the [HyperlinkCollection](./hyperlinkcollection/) collection.
+Gets the [HyperlinkCollection](/nodejs-cpp/hyperlinkcollection/) collection.
 
 ```javascript
 getHyperlinks() : HyperlinkCollection;
@@ -540,7 +540,7 @@ getHyperlinks() : HyperlinkCollection;
 
 **Returns**
 
-[HyperlinkCollection](./hyperlinkcollection/)
+[HyperlinkCollection](/nodejs-cpp/hyperlinkcollection/)
 
 ### getPageSetup() {#getPageSetup--}
 
@@ -553,7 +553,7 @@ getPageSetup() : PageSetup;
 
 **Returns**
 
-[PageSetup](./pagesetup/)
+[PageSetup](/nodejs-cpp/pagesetup/)
 
 ### getAutoFilter() {#getAutoFilter--}
 
@@ -566,7 +566,7 @@ getAutoFilter() : AutoFilter;
 
 **Returns**
 
-[AutoFilter](./autofilter/)
+[AutoFilter](/nodejs-cpp/autofilter/)
 
 ### getHasAutofilter() {#getHasAutofilter--}
 
@@ -632,7 +632,7 @@ getVisibilityType() : VisibilityType;
 
 **Returns**
 
-[VisibilityType](./visibilitytype/)
+[VisibilityType](/nodejs-cpp/visibilitytype/)
 
 ### setVisibilityType(VisibilityType) {#setVisibilityType-visibilitytype-}
 
@@ -645,7 +645,7 @@ setVisibilityType(value: VisibilityType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [VisibilityType](./visibilitytype/) | The value to set. |
+| value | [VisibilityType](/nodejs-cpp/visibilitytype/) | The value to set. |
 
 ### isVisible() {#isVisible--}
 
@@ -680,11 +680,11 @@ getSparklineGroups() : SparklineGroupCollection;
 
 **Returns**
 
-[SparklineGroupCollection](./sparklinegroupcollection/)
+[SparklineGroupCollection](/nodejs-cpp/sparklinegroupcollection/)
 
 ### getCharts() {#getCharts--}
 
-Gets a [Chart](./chart/) collection
+Gets a [Chart](/nodejs-cpp/chart/) collection
 
 ```javascript
 getCharts() : ChartCollection;
@@ -693,11 +693,11 @@ getCharts() : ChartCollection;
 
 **Returns**
 
-[ChartCollection](./chartcollection/)
+[ChartCollection](/nodejs-cpp/chartcollection/)
 
 ### getComments() {#getComments--}
 
-Gets the [Comment](./comment/) collection.
+Gets the [Comment](/nodejs-cpp/comment/) collection.
 
 ```javascript
 getComments() : CommentCollection;
@@ -706,11 +706,11 @@ getComments() : CommentCollection;
 
 **Returns**
 
-[CommentCollection](./commentcollection/)
+[CommentCollection](/nodejs-cpp/commentcollection/)
 
 ### getPictures() {#getPictures--}
 
-Gets a [Picture](./picture/) collection.
+Gets a [Picture](/nodejs-cpp/picture/) collection.
 
 ```javascript
 getPictures() : PictureCollection;
@@ -719,11 +719,11 @@ getPictures() : PictureCollection;
 
 **Returns**
 
-[PictureCollection](./picturecollection/)
+[PictureCollection](/nodejs-cpp/picturecollection/)
 
 ### getTextBoxes() {#getTextBoxes--}
 
-Gets a [TextBox](./textbox/) collection.
+Gets a [TextBox](/nodejs-cpp/textbox/) collection.
 
 ```javascript
 getTextBoxes() : TextBoxCollection;
@@ -732,11 +732,11 @@ getTextBoxes() : TextBoxCollection;
 
 **Returns**
 
-[TextBoxCollection](./textboxcollection/)
+[TextBoxCollection](/nodejs-cpp/textboxcollection/)
 
 ### getCheckBoxes() {#getCheckBoxes--}
 
-Gets a [CheckBox](./checkbox/) collection.
+Gets a [CheckBox](/nodejs-cpp/checkbox/) collection.
 
 ```javascript
 getCheckBoxes() : CheckBoxCollection;
@@ -745,11 +745,11 @@ getCheckBoxes() : CheckBoxCollection;
 
 **Returns**
 
-[CheckBoxCollection](./checkboxcollection/)
+[CheckBoxCollection](/nodejs-cpp/checkboxcollection/)
 
 ### getOleObjects() {#getOleObjects--}
 
-Represents a collection of [OleObject](./oleobject/) in a worksheet.
+Represents a collection of [OleObject](/nodejs-cpp/oleobject/) in a worksheet.
 
 ```javascript
 getOleObjects() : OleObjectCollection;
@@ -758,7 +758,7 @@ getOleObjects() : OleObjectCollection;
 
 **Returns**
 
-[OleObjectCollection](./oleobjectcollection/)
+[OleObjectCollection](/nodejs-cpp/oleobjectcollection/)
 
 ### getShapes() {#getShapes--}
 
@@ -771,7 +771,7 @@ getShapes() : ShapeCollection;
 
 **Returns**
 
-[ShapeCollection](./shapecollection/)
+[ShapeCollection](/nodejs-cpp/shapecollection/)
 
 ### getSlicers() {#getSlicers--}
 
@@ -784,7 +784,7 @@ getSlicers() : SlicerCollection;
 
 **Returns**
 
-[SlicerCollection](./slicercollection/)
+[SlicerCollection](/nodejs-cpp/slicercollection/)
 
 ### getTimelines() {#getTimelines--}
 
@@ -797,7 +797,7 @@ getTimelines() : TimelineCollection;
 
 **Returns**
 
-[TimelineCollection](./timelinecollection/)
+[TimelineCollection](/nodejs-cpp/timelinecollection/)
 
 ### getIndex() {#getIndex--}
 
@@ -828,7 +828,7 @@ getValidations() : ValidationCollection;
 
 **Returns**
 
-[ValidationCollection](./validationcollection/)
+[ValidationCollection](/nodejs-cpp/validationcollection/)
 
 ### getAllowEditRanges() {#getAllowEditRanges--}
 
@@ -841,7 +841,7 @@ getAllowEditRanges() : ProtectedRangeCollection;
 
 **Returns**
 
-[ProtectedRangeCollection](./protectedrangecollection/)
+[ProtectedRangeCollection](/nodejs-cpp/protectedrangecollection/)
 
 ### getErrorCheckOptions() {#getErrorCheckOptions--}
 
@@ -854,7 +854,7 @@ getErrorCheckOptions() : ErrorCheckOptionCollection;
 
 **Returns**
 
-[ErrorCheckOptionCollection](./errorcheckoptioncollection/)
+[ErrorCheckOptionCollection](/nodejs-cpp/errorcheckoptioncollection/)
 
 ### getOutline() {#getOutline--}
 
@@ -867,7 +867,7 @@ getOutline() : Outline;
 
 **Returns**
 
-[Outline](./outline/)
+[Outline](/nodejs-cpp/outline/)
 
 ### getFirstVisibleRow() {#getFirstVisibleRow--}
 
@@ -954,7 +954,7 @@ getViewType() : ViewType;
 
 **Returns**
 
-[ViewType](./viewtype/)
+[ViewType](/nodejs-cpp/viewtype/)
 
 ### setViewType(ViewType) {#setViewType-viewtype-}
 
@@ -967,7 +967,7 @@ setViewType(value: ViewType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ViewType](./viewtype/) | The value to set. |
+| value | [ViewType](/nodejs-cpp/viewtype/) | The value to set. |
 
 ### isPageBreakPreview() {#isPageBreakPreview--}
 
@@ -1024,7 +1024,7 @@ getTabColor() : Color;
 
 **Returns**
 
-[Color](./color/)
+[Color](/nodejs-cpp/color/)
 
 **Remarks**
 
@@ -1041,7 +1041,7 @@ setTabColor(value: Color) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [Color](./color/) | The value to set. |
+| value | [Color](/nodejs-cpp/color/) | The value to set. |
 
 **Remarks**
 
@@ -1082,7 +1082,7 @@ getBackgroundImage() : number[];
 
 number[]
 
-### setBackgroundImage(number[]) {#setBackgroundImage-number[]-}
+### setBackgroundImage(number[]) {#setBackgroundImage-numberarray-}
 
 Gets and sets worksheet background image.
 
@@ -1106,7 +1106,7 @@ getConditionalFormattings() : ConditionalFormattingCollection;
 
 **Returns**
 
-[ConditionalFormattingCollection](./conditionalformattingcollection/)
+[ConditionalFormattingCollection](/nodejs-cpp/conditionalformattingcollection/)
 
 ### getActiveCell() {#getActiveCell--}
 
@@ -1141,7 +1141,7 @@ getCustomProperties() : CustomPropertyCollection;
 
 **Returns**
 
-[CustomPropertyCollection](./custompropertycollection/)
+[CustomPropertyCollection](/nodejs-cpp/custompropertycollection/)
 
 **Remarks**
 
@@ -1149,7 +1149,7 @@ Worksheet.CustomProperties provide a preferred mechanism for storing arbitrary d
 
 ### getSmartTagSetting() {#getSmartTagSetting--}
 
-Gets all [SmartTagCollection](./smarttagcollection/) objects of the worksheet.
+Gets all [SmartTagCollection](/nodejs-cpp/smarttagcollection/) objects of the worksheet.
 
 ```javascript
 getSmartTagSetting() : SmartTagSetting;
@@ -1158,11 +1158,11 @@ getSmartTagSetting() : SmartTagSetting;
 
 **Returns**
 
-[SmartTagSetting](./smarttagsetting/)
+[SmartTagSetting](/nodejs-cpp/smarttagsetting/)
 
 ### getScenarios() {#getScenarios--}
 
-Gets the collection of [Scenario](./scenario/).
+Gets the collection of [Scenario](/nodejs-cpp/scenario/).
 
 ```javascript
 getScenarios() : ScenarioCollection;
@@ -1171,7 +1171,7 @@ getScenarios() : ScenarioCollection;
 
 **Returns**
 
-[ScenarioCollection](./scenariocollection/)
+[ScenarioCollection](/nodejs-cpp/scenariocollection/)
 
 ### getCellWatches() {#getCellWatches--}
 
@@ -1184,7 +1184,7 @@ getCellWatches() : CellWatchCollection;
 
 **Returns**
 
-[CellWatchCollection](./cellwatchcollection/)
+[CellWatchCollection](/nodejs-cpp/cellwatchcollection/)
 
 ### dispose() {#dispose--}
 
@@ -1206,7 +1206,7 @@ getPanes() : PaneCollection;
 
 **Returns**
 
-[PaneCollection](./panecollection/)
+[PaneCollection](/nodejs-cpp/panecollection/)
 
 **Remarks**
 
@@ -1322,7 +1322,7 @@ copy(sourceSheet: Worksheet) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sourceSheet | [Worksheet](./worksheet/) | Source worksheet. |
+| sourceSheet | [Worksheet](/nodejs-cpp/worksheet/) | Source worksheet. |
 
 ### copy(Worksheet, CopyOptions) {#copy-worksheet-copyoptions-}
 
@@ -1335,8 +1335,8 @@ copy(sourceSheet: Worksheet, copyOptions: CopyOptions) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sourceSheet | [Worksheet](./worksheet/) | Source worksheet. |
-| copyOptions | [CopyOptions](./copyoptions/) |  |
+| sourceSheet | [Worksheet](/nodejs-cpp/worksheet/) | Source worksheet. |
+| copyOptions | [CopyOptions](/nodejs-cpp/copyoptions/) |  |
 
 **Remarks**
 
@@ -1398,7 +1398,7 @@ autoFitColumns(options: AutoFitterOptions) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| options | [AutoFitterOptions](./autofitteroptions/) | The auto fitting options |
+| options | [AutoFitterOptions](/nodejs-cpp/autofitteroptions/) | The auto fitting options |
 
 ### autoFitColumns(number, number) {#autoFitColumns-number-number-}
 
@@ -1431,7 +1431,7 @@ autoFitColumns(firstColumn: number, lastColumn: number, options: AutoFitterOptio
 | --- | --- | --- |
 | firstColumn | number | First column index. |
 | lastColumn | number | Last column index. |
-| options | [AutoFitterOptions](./autofitteroptions/) | The auto fitting options |
+| options | [AutoFitterOptions](/nodejs-cpp/autofitteroptions/) | The auto fitting options |
 
 **Remarks**
 
@@ -1472,7 +1472,7 @@ autoFitColumns(firstRow: number, firstColumn: number, lastRow: number, lastColum
 | firstColumn | number | First column index. |
 | lastRow | number | Last row index. |
 | lastColumn | number | Last column index. |
-| options | [AutoFitterOptions](./autofitteroptions/) | The auto fitting options |
+| options | [AutoFitterOptions](/nodejs-cpp/autofitteroptions/) | The auto fitting options |
 
 **Remarks**
 
@@ -1511,7 +1511,7 @@ autoFitRow(rowIndex: number, firstColumn: number, lastColumn: number, options: A
 | rowIndex | number | Row index. |
 | firstColumn | number | First column index. |
 | lastColumn | number | Last column index. |
-| options | [AutoFitterOptions](./autofitteroptions/) | The auto fitter options |
+| options | [AutoFitterOptions](/nodejs-cpp/autofitteroptions/) | The auto fitter options |
 
 **Remarks**
 
@@ -1583,7 +1583,7 @@ autoFitRows(options: AutoFitterOptions) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| options | [AutoFitterOptions](./autofitteroptions/) | The auto fitter options |
+| options | [AutoFitterOptions](/nodejs-cpp/autofitteroptions/) | The auto fitter options |
 
 ### autoFitRows(number, number) {#autoFitRows-number-number-}
 
@@ -1612,7 +1612,7 @@ autoFitRows(startRow: number, endRow: number, options: AutoFitterOptions) : void
 | --- | --- | --- |
 | startRow | number | Start row index. |
 | endRow | number | End row index. |
-| options | [AutoFitterOptions](./autofitteroptions/) | The options of auto fitter. |
+| options | [AutoFitterOptions](/nodejs-cpp/autofitteroptions/) | The options of auto fitter. |
 
 ### getAdvancedFilter() {#getAdvancedFilter--}
 
@@ -1625,7 +1625,7 @@ getAdvancedFilter() : AdvancedFilter;
 
 **Returns**
 
-[AdvancedFilter](./advancedfilter/)
+[AdvancedFilter](/nodejs-cpp/advancedfilter/)
 
 ### advanced_Filter(boolean, string, string, string, boolean) {#advanced_Filter-boolean-string-string-string-boolean-}
 
@@ -1713,7 +1713,7 @@ protect(type: ProtectionType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | [ProtectionType](./protectiontype/) | Protection type. |
+| type | [ProtectionType](/nodejs-cpp/protectiontype/) | Protection type. |
 
 **Remarks**
 
@@ -1730,7 +1730,7 @@ protect(type: ProtectionType, password: string, oldPassword: string) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | [ProtectionType](./protectiontype/) | Protection type. |
+| type | [ProtectionType](/nodejs-cpp/protectiontype/) | Protection type. |
 | password | string | Password. |
 | oldPassword | string | If the worksheet is already protected by a password, please supply the old password. 		/// Otherwise, you can set a null value or blank string to this parameter. |
 
@@ -1806,7 +1806,7 @@ getPrintingPageBreaks(options: ImageOrPrintOptions) : CellArea[];
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| options | [ImageOrPrintOptions](./imageorprintoptions/) | The print options |
+| options | [ImageOrPrintOptions](/nodejs-cpp/imageorprintoptions/) | The print options |
 
 **Returns**
 
@@ -1836,11 +1836,11 @@ startAccessCache(opts: AccessCacheOptions) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| opts | [AccessCacheOptions](./accesscacheoptions/) | options of data access |
+| opts | [AccessCacheOptions](/nodejs-cpp/accesscacheoptions/) | options of data access |
 
 **Remarks**
 
-After finishing the access to the data, [CloseAccessCache(AccessCacheOptions)](./closeaccesscache(accesscacheoptions)/) should be invoked with same options to clear all caches and recover normal access mode.
+After finishing the access to the data, [CloseAccessCache(AccessCacheOptions)](/nodejs-cpp/closeaccesscache(accesscacheoptions)/) should be invoked with same options to clear all caches and recover normal access mode.
 
 ### closeAccessCache(AccessCacheOptions) {#closeAccessCache-accesscacheoptions-}
 
@@ -1853,7 +1853,7 @@ closeAccessCache(opts: AccessCacheOptions) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| opts | [AccessCacheOptions](./accesscacheoptions/) | options of data access |
+| opts | [AccessCacheOptions](/nodejs-cpp/accesscacheoptions/) | options of data access |
 
 ### convertFormulaReferenceStyle(string, boolean, number, number) {#convertFormulaReferenceStyle-string-boolean-number-number-}
 
@@ -1886,7 +1886,7 @@ calculateFormula(options: CalculationOptions, recursive: boolean) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| options | [CalculationOptions](./calculationoptions/) | Options for calculation |
+| options | [CalculationOptions](/nodejs-cpp/calculationoptions/) | Options for calculation |
 | recursive | boolean | True means if the worksheet' cells depend on the cells of other worksheets,         ///  the dependent cells in other worksheets will be calculated too.         ///  False means all the formulas in the worksheet have been calculated and the values are right. |
 
 ### refreshPivotTables() {#refreshPivotTables--}
@@ -1909,6 +1909,6 @@ refreshPivotTables(option: PivotTableRefreshOption) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| option | [PivotTableRefreshOption](./pivottablerefreshoption/) | The option for refreshing data source of pivot table. |
+| option | [PivotTableRefreshOption](/nodejs-cpp/pivottablerefreshoption/) | The option for refreshing data source of pivot table. |
 
 

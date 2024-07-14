@@ -42,7 +42,7 @@ get(i: number) : VbaProjectReference;
 
 **Returns**
 
-[VbaProjectReference](./vbaprojectreference/)
+[VbaProjectReference](/nodejs-cpp/vbaprojectreference/)
 
 ### addRegisteredReference(string, string) {#addRegisteredReference-string-string-}
 
@@ -100,7 +100,7 @@ copy(source: VbaProjectReferenceCollection) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| source | [VbaProjectReferenceCollection](./vbaprojectreferencecollection/) | The source references. |
+| source | [VbaProjectReferenceCollection](/nodejs-cpp/vbaprojectreferencecollection/) | The source references. |
 
 ### getCount() {#getCount--}
 

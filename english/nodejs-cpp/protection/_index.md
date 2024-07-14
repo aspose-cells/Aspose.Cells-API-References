@@ -477,7 +477,7 @@ copy(source: Protection) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| source | [Protection](./protection/) |  |
+| source | [Protection](/nodejs-cpp/protection/) |  |
 
 ### getPasswordHash() {#getPasswordHash--}
 

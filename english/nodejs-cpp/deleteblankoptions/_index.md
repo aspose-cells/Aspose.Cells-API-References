@@ -89,7 +89,7 @@ getEmptyFormulaValueAsBlank() : boolean;
 
 **Remarks**
 
-Generally user should make sure the formulas have been calculated before deleting operation with this property as true. Otherwise all newly cretaed formulas by normal apis such as [Cell.Formula](./cell.formula/) will be taken as blank and may be deleted because before calculation their calculated results are all null.
+Generally user should make sure the formulas have been calculated before deleting operation with this property as true. Otherwise all newly cretaed formulas by normal apis such as [Cell.Formula](/nodejs-cpp/cell.formula/) will be taken as blank and may be deleted because before calculation their calculated results are all null.
 
 ### setEmptyFormulaValueAsBlank(boolean) {#setEmptyFormulaValueAsBlank-boolean-}
 
@@ -106,7 +106,7 @@ setEmptyFormulaValueAsBlank(value: boolean) : void;
 
 **Remarks**
 
-Generally user should make sure the formulas have been calculated before deleting operation with this property as true. Otherwise all newly cretaed formulas by normal apis such as [Cell.Formula](./cell.formula/) will be taken as blank and may be deleted because before calculation their calculated results are all null.
+Generally user should make sure the formulas have been calculated before deleting operation with this property as true. Otherwise all newly cretaed formulas by normal apis such as [Cell.Formula](/nodejs-cpp/cell.formula/) will be taken as blank and may be deleted because before calculation their calculated results are all null.
 
 ### getUpdateReference() {#getUpdateReference--}
 

@@ -19,7 +19,7 @@ class DigitalSignature;
 
 | Name | Description |
 | --- | --- |
-| [constructor(number[], string, string, Date)](#constructor-number[]-string-string-date-)| Constructor of DigitalSignature. |
+| [constructor(number[], string, string, Date)](#constructor-numberarray-string-string-date-)| Constructor of DigitalSignature. |
 | [constructor(string, string, string, Date)](#constructor-string-string-string-date-)| Constructor of DigitalSignature. |
 
 ## Methods
@@ -33,13 +33,13 @@ class DigitalSignature;
 | [getText()](#getText--)| Specifies the text of actual signature in the digital signature. Default value is Empty. |
 | [setText(string)](#setText-string-)| Specifies the text of actual signature in the digital signature. Default value is Empty. |
 | [getImage()](#getImage--)| Specifies an image for the digital signature. Default value is null. |
-| [setImage(number[])](#setImage-number[]-)| Specifies an image for the digital signature. Default value is null. |
+| [setImage(number[])](#setImage-numberarray-)| Specifies an image for the digital signature. Default value is null. |
 | [isValid()](#isValid--)| If this digital signature is valid and the document has not been tampered with, this value will be true. |
 | [getXAdESType()](#getXAdESType--)| XAdES type. Default value is None(XAdES is off). |
 | [setXAdESType(XAdESType)](#setXAdESType-xadestype-)| XAdES type. Default value is None(XAdES is off). |
 
 
-### constructor(number[], string, string, Date) {#constructor-number[]-string-string-date-}
+### constructor(number[], string, string, Date) {#constructor-numberarray-string-string-date-}
 
 Constructor of DigitalSignature.
 
@@ -150,7 +150,7 @@ getImage() : number[];
 
 number[]
 
-### setImage(number[]) {#setImage-number[]-}
+### setImage(number[]) {#setImage-numberarray-}
 
 Specifies an image for the digital signature. Default value is null.
 
@@ -183,7 +183,7 @@ getXAdESType() : XAdESType;
 
 **Returns**
 
-[XAdESType](./xadestype/)
+[XAdESType](/nodejs-cpp/xadestype/)
 
 ### setXAdESType(XAdESType) {#setXAdESType-xadestype-}
 
@@ -196,6 +196,6 @@ setXAdESType(value: XAdESType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [XAdESType](./xadestype/) | The value to set. |
+| value | [XAdESType](/nodejs-cpp/xadestype/) | The value to set. |
 
 

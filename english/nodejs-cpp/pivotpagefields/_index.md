@@ -26,8 +26,8 @@ class PivotPageFields;
 | Method | Description |
 | --- | --- |
 | [getPageFieldCount()](#getPageFieldCount--)| Gets the number of page fields. |
-| [addPageField(string[])](#addPageField-string[]-)| Adds a page field. |
-| [addIdentify(number, number[])](#addIdentify-number-number[]-)| Sets which item label in each page field to use to identify the data range. The pageItemIndex.Length must be equal to PageFieldCount, so please add the page field first. |
+| [addPageField(string[])](#addPageField-stringarray-)| Adds a page field. |
+| [addIdentify(number, number[])](#addIdentify-number-numberarray-)| Sets which item label in each page field to use to identify the data range. The pageItemIndex.Length must be equal to PageFieldCount, so please add the page field first. |
 
 
 ### constructor() {#constructor--}
@@ -48,7 +48,7 @@ getPageFieldCount() : number;
 ```
 
 
-### addPageField(string[]) {#addPageField-string[]-}
+### addPageField(string[]) {#addPageField-stringarray-}
 
 Adds a page field.
 
@@ -61,7 +61,7 @@ addPageField(pageItems: string[]) : void;
 | --- | --- | --- |
 | pageItems | string[] | Page field item label |
 
-### addIdentify(number, number[]) {#addIdentify-number-number[]-}
+### addIdentify(number, number[]) {#addIdentify-number-numberarray-}
 
 Sets which item label in each page field to use to identify the data range. The pageItemIndex.Length must be equal to PageFieldCount, so please add the page field first.
 

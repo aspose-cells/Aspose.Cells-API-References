@@ -20,7 +20,7 @@ abstract class AbstractInterruptMonitor;
 | Method | Description |
 | --- | --- |
 | abstract [isInterruptionRequested()](#isInterruptionRequested--)| Indicates whether interruption is requested for current operation. If true then current operation will be interrupted. Implementation should perform fast and efficient check here, otherwise it may become another bottleneck for the procedure. |
-| abstract [getTerminateWithoutException()](#getTerminateWithoutException--)| When procedure is interrupted, whether terminate the procedure quietly or throw an Exception. Default is false, that is, when [IsInterruptionRequested](./isinterruptionrequested/) is true, a [CellsException](./cellsexception/) with code [CellsException](./cellsexception/) will be thrown. |
+| abstract [getTerminateWithoutException()](#getTerminateWithoutException--)| When procedure is interrupted, whether terminate the procedure quietly or throw an Exception. Default is false, that is, when [IsInterruptionRequested](/nodejs-cpp/isinterruptionrequested/) is true, a [CellsException](/nodejs-cpp/cellsexception/) with code [CellsException](/nodejs-cpp/cellsexception/) will be thrown. |
 
 
 ### isInterruptionRequested() {#isInterruptionRequested--}
@@ -34,7 +34,7 @@ abstract isInterruptionRequested() : boolean;
 
 ### getTerminateWithoutException() {#getTerminateWithoutException--}
 
-When procedure is interrupted, whether terminate the procedure quietly or throw an Exception. Default is false, that is, when [IsInterruptionRequested](./isinterruptionrequested/) is true, a [CellsException](./cellsexception/) with code [CellsException](./cellsexception/) will be thrown.
+When procedure is interrupted, whether terminate the procedure quietly or throw an Exception. Default is false, that is, when [IsInterruptionRequested](/nodejs-cpp/isinterruptionrequested/) is true, a [CellsException](/nodejs-cpp/cellsexception/) with code [CellsException](/nodejs-cpp/cellsexception/) will be thrown.
 
 ```javascript
 abstract getTerminateWithoutException() : boolean;

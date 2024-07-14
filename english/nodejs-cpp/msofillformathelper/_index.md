@@ -26,7 +26,7 @@ class MsoFillFormatHelper;
 | [getBackColor()](#getBackColor--)| Gets and sets the file back color. |
 | [setBackColor(Color)](#setBackColor-color-)| Gets and sets the file back color. |
 | [getImageData()](#getImageData--)| Gets and sets the Texture and Picture fill data. |
-| [setImageData(number[])](#setImageData-number[]-)| Gets and sets the Texture and Picture fill data. |
+| [setImageData(number[])](#setImageData-numberarray-)| Gets and sets the Texture and Picture fill data. |
 | [getTexture()](#getTexture--)| Gets the texture fill type. |
 | [isVisible()](#isVisible--)| Indicates whether there is fill. |
 | [setIsVisible(boolean)](#setIsVisible-boolean-)| Indicates whether there is fill. |
@@ -44,7 +44,7 @@ getForeColor() : Color;
 
 **Returns**
 
-[Color](./color/)
+[Color](/nodejs-cpp/color/)
 
 ### setForeColor(Color) {#setForeColor-color-}
 
@@ -57,7 +57,7 @@ setForeColor(value: Color) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [Color](./color/) | The value to set. |
+| value | [Color](/nodejs-cpp/color/) | The value to set. |
 
 ### getForeColorTransparency() {#getForeColorTransparency--}
 
@@ -92,7 +92,7 @@ getBackColor() : Color;
 
 **Returns**
 
-[Color](./color/)
+[Color](/nodejs-cpp/color/)
 
 ### setBackColor(Color) {#setBackColor-color-}
 
@@ -105,7 +105,7 @@ setBackColor(value: Color) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [Color](./color/) | The value to set. |
+| value | [Color](/nodejs-cpp/color/) | The value to set. |
 
 ### getImageData() {#getImageData--}
 
@@ -120,7 +120,7 @@ getImageData() : number[];
 
 number[]
 
-### setImageData(number[]) {#setImageData-number[]-}
+### setImageData(number[]) {#setImageData-numberarray-}
 
 Gets and sets the Texture and Picture fill data.
 
@@ -144,7 +144,7 @@ getTexture() : TextureType;
 
 **Returns**
 
-[TextureType](./texturetype/)
+[TextureType](/nodejs-cpp/texturetype/)
 
 ### isVisible() {#isVisible--}
 
@@ -179,9 +179,9 @@ setOneColorGradient(color: Color, degree: number, style: GradientStyleType, vari
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| color | [Color](./color/) | One gradient color. |
+| color | [Color](/nodejs-cpp/color/) | One gradient color. |
 | degree | number | The gradient degree. Can be a value from 0.0 (dark) through 1.0 (light). |
-| style | [GradientStyleType](./gradientstyletype/) | Gradient shading style. |
+| style | [GradientStyleType](/nodejs-cpp/gradientstyletype/) | Gradient shading style. |
 | variant | number | The gradient variant. Can be a value from 1 through 4, corresponding to one of the four variants on the Gradient tab in the Fill Effects dialog box. If style is GradientStyle.FromCenter, the Variant argument can only be 1 or 2. |
 
 

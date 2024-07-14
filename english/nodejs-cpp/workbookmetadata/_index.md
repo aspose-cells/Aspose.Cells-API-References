@@ -27,8 +27,8 @@ class WorkbookMetadata;
 | Method | Description |
 | --- | --- |
 | [getOptions()](#getOptions--)| Gets the options of the metadata. |
-| [getBuiltInDocumentProperties()](#getBuiltInDocumentProperties--)| Returns a [DocumentProperty](./documentproperty/) collection that represents all the  built-in document properties of the spreadsheet. |
-| [getCustomDocumentProperties()](#getCustomDocumentProperties--)| Returns a [DocumentProperty](./documentproperty/) collection that represents all the custom document properties of the spreadsheet. |
+| [getBuiltInDocumentProperties()](#getBuiltInDocumentProperties--)| Returns a [DocumentProperty](/nodejs-cpp/documentproperty/) collection that represents all the  built-in document properties of the spreadsheet. |
+| [getCustomDocumentProperties()](#getCustomDocumentProperties--)| Returns a [DocumentProperty](/nodejs-cpp/documentproperty/) collection that represents all the custom document properties of the spreadsheet. |
 | [save(string)](#save-string-)| Save the modified metadata to the file. |
 | [save(Uint8Array)](#save-uint8array-)| Save the modified metadata to the stream. |
 
@@ -45,7 +45,7 @@ constructor(fileName: string, options: MetadataOptions);
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileName | string |  |
-| options | [MetadataOptions](./metadataoptions/) |  |
+| options | [MetadataOptions](/nodejs-cpp/metadataoptions/) |  |
 
 ### constructor(Uint8Array, MetadataOptions) {#constructor-uint8array-metadataoptions-}
 
@@ -59,7 +59,7 @@ constructor(stream: Uint8Array, options: MetadataOptions);
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | Uint8Array |  |
-| options | [MetadataOptions](./metadataoptions/) |  |
+| options | [MetadataOptions](/nodejs-cpp/metadataoptions/) |  |
 
 ### getOptions() {#getOptions--}
 
@@ -72,11 +72,11 @@ getOptions() : MetadataOptions;
 
 **Returns**
 
-[MetadataOptions](./metadataoptions/)
+[MetadataOptions](/nodejs-cpp/metadataoptions/)
 
 ### getBuiltInDocumentProperties() {#getBuiltInDocumentProperties--}
 
-Returns a [DocumentProperty](./documentproperty/) collection that represents all the  built-in document properties of the spreadsheet.
+Returns a [DocumentProperty](/nodejs-cpp/documentproperty/) collection that represents all the  built-in document properties of the spreadsheet.
 
 ```javascript
 getBuiltInDocumentProperties() : BuiltInDocumentPropertyCollection;
@@ -85,11 +85,11 @@ getBuiltInDocumentProperties() : BuiltInDocumentPropertyCollection;
 
 **Returns**
 
-[BuiltInDocumentPropertyCollection](./builtindocumentpropertycollection/)
+[BuiltInDocumentPropertyCollection](/nodejs-cpp/builtindocumentpropertycollection/)
 
 ### getCustomDocumentProperties() {#getCustomDocumentProperties--}
 
-Returns a [DocumentProperty](./documentproperty/) collection that represents all the custom document properties of the spreadsheet.
+Returns a [DocumentProperty](/nodejs-cpp/documentproperty/) collection that represents all the custom document properties of the spreadsheet.
 
 ```javascript
 getCustomDocumentProperties() : CustomDocumentPropertyCollection;
@@ -98,7 +98,7 @@ getCustomDocumentProperties() : CustomDocumentPropertyCollection;
 
 **Returns**
 
-[CustomDocumentPropertyCollection](./customdocumentpropertycollection/)
+[CustomDocumentPropertyCollection](/nodejs-cpp/customdocumentpropertycollection/)
 
 ### save(string) {#save-string-}
 

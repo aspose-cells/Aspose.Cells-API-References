@@ -68,9 +68,9 @@ class ComboBoxActiveXControl extends ActiveXControl;
 | [setHideSelection(boolean)](#setHideSelection-boolean-)| Indicates whether selected text in the control appears highlighted when the control does not have focus. |
 | [getColumnWidths()](#getColumnWidths--)| Gets and sets the width of the column. |
 | [setColumnWidths(number)](#setColumnWidths-number-)| Gets and sets the width of the column. |
-| [getWorkbook()](#getWorkbook--)| Gets the [Workbook](./workbook/) object. |
+| [getWorkbook()](#getWorkbook--)| Gets the [Workbook](/nodejs-cpp/workbook/) object. |
 | [getMouseIcon()](#getMouseIcon--)| Gets and sets a custom icon to display as the mouse pointer for the control. |
-| [setMouseIcon(number[])](#setMouseIcon-number[]-)| Gets and sets a custom icon to display as the mouse pointer for the control. |
+| [setMouseIcon(number[])](#setMouseIcon-numberarray-)| Gets and sets a custom icon to display as the mouse pointer for the control. |
 | [getMousePointer()](#getMousePointer--)| Gets and sets the type of icon displayed as the mouse pointer for the control. |
 | [setMousePointer(ControlMousePointerType)](#setMousePointer-controlmousepointertype-)| Gets and sets the type of icon displayed as the mouse pointer for the control. |
 | [getLinkedCell()](#getLinkedCell--)| Gets and sets the linked cell. |
@@ -131,7 +131,7 @@ getType() : ControlType;
 
 **Returns**
 
-[ControlType](./controltype/)
+[ControlType](/nodejs-cpp/controltype/)
 
 ### getMaxLength() {#getMaxLength--}
 
@@ -276,7 +276,7 @@ getMatchEntry() : ControlMatchEntryType;
 
 **Returns**
 
-[ControlMatchEntryType](./controlmatchentrytype/)
+[ControlMatchEntryType](/nodejs-cpp/controlmatchentrytype/)
 
 ### setMatchEntry(ControlMatchEntryType) {#setMatchEntry-controlmatchentrytype-}
 
@@ -289,7 +289,7 @@ setMatchEntry(value: ControlMatchEntryType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ControlMatchEntryType](./controlmatchentrytype/) | The value to set. |
+| value | [ControlMatchEntryType](/nodejs-cpp/controlmatchentrytype/) | The value to set. |
 
 ### getDropButtonStyle() {#getDropButtonStyle--}
 
@@ -302,7 +302,7 @@ getDropButtonStyle() : DropButtonStyle;
 
 **Returns**
 
-[DropButtonStyle](./dropbuttonstyle/)
+[DropButtonStyle](/nodejs-cpp/dropbuttonstyle/)
 
 ### setDropButtonStyle(DropButtonStyle) {#setDropButtonStyle-dropbuttonstyle-}
 
@@ -315,7 +315,7 @@ setDropButtonStyle(value: DropButtonStyle) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [DropButtonStyle](./dropbuttonstyle/) | The value to set. |
+| value | [DropButtonStyle](/nodejs-cpp/dropbuttonstyle/) | The value to set. |
 
 ### getShowDropButtonTypeWhen() {#getShowDropButtonTypeWhen--}
 
@@ -328,7 +328,7 @@ getShowDropButtonTypeWhen() : ShowDropButtonType;
 
 **Returns**
 
-[ShowDropButtonType](./showdropbuttontype/)
+[ShowDropButtonType](/nodejs-cpp/showdropbuttontype/)
 
 ### setShowDropButtonTypeWhen(ShowDropButtonType) {#setShowDropButtonTypeWhen-showdropbuttontype-}
 
@@ -341,7 +341,7 @@ setShowDropButtonTypeWhen(value: ShowDropButtonType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ShowDropButtonType](./showdropbuttontype/) | The value to set. |
+| value | [ShowDropButtonType](/nodejs-cpp/showdropbuttontype/) | The value to set. |
 
 ### getListStyle() {#getListStyle--}
 
@@ -354,7 +354,7 @@ getListStyle() : ControlListStyle;
 
 **Returns**
 
-[ControlListStyle](./controlliststyle/)
+[ControlListStyle](/nodejs-cpp/controlliststyle/)
 
 ### setListStyle(ControlListStyle) {#setListStyle-controlliststyle-}
 
@@ -367,7 +367,7 @@ setListStyle(value: ControlListStyle) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ControlListStyle](./controlliststyle/) | The value to set. |
+| value | [ControlListStyle](/nodejs-cpp/controlliststyle/) | The value to set. |
 
 ### getBorderStyle() {#getBorderStyle--}
 
@@ -380,7 +380,7 @@ getBorderStyle() : ControlBorderType;
 
 **Returns**
 
-[ControlBorderType](./controlbordertype/)
+[ControlBorderType](/nodejs-cpp/controlbordertype/)
 
 ### setBorderStyle(ControlBorderType) {#setBorderStyle-controlbordertype-}
 
@@ -393,7 +393,7 @@ setBorderStyle(value: ControlBorderType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ControlBorderType](./controlbordertype/) | The value to set. |
+| value | [ControlBorderType](/nodejs-cpp/controlbordertype/) | The value to set. |
 
 ### getBorderOleColor() {#getBorderOleColor--}
 
@@ -428,7 +428,7 @@ getSpecialEffect() : ControlSpecialEffectType;
 
 **Returns**
 
-[ControlSpecialEffectType](./controlspecialeffecttype/)
+[ControlSpecialEffectType](/nodejs-cpp/controlspecialeffecttype/)
 
 ### setSpecialEffect(ControlSpecialEffectType) {#setSpecialEffect-controlspecialeffecttype-}
 
@@ -441,7 +441,7 @@ setSpecialEffect(value: ControlSpecialEffectType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ControlSpecialEffectType](./controlspecialeffecttype/) | The value to set. |
+| value | [ControlSpecialEffectType](/nodejs-cpp/controlspecialeffecttype/) | The value to set. |
 
 ### isEditable() {#isEditable--}
 
@@ -621,7 +621,7 @@ setColumnWidths(value: number) : void;
 
 ### getWorkbook() {#getWorkbook--}
 
-Gets the [Workbook](./workbook/) object.
+Gets the [Workbook](/nodejs-cpp/workbook/) object.
 
 ```javascript
 getWorkbook() : Workbook;
@@ -630,7 +630,7 @@ getWorkbook() : Workbook;
 
 **Returns**
 
-[Workbook](./workbook/)
+[Workbook](/nodejs-cpp/workbook/)
 
 ### getMouseIcon() {#getMouseIcon--}
 
@@ -645,7 +645,7 @@ getMouseIcon() : number[];
 
 number[]
 
-### setMouseIcon(number[]) {#setMouseIcon-number[]-}
+### setMouseIcon(number[]) {#setMouseIcon-numberarray-}
 
 Gets and sets a custom icon to display as the mouse pointer for the control.
 
@@ -669,7 +669,7 @@ getMousePointer() : ControlMousePointerType;
 
 **Returns**
 
-[ControlMousePointerType](./controlmousepointertype/)
+[ControlMousePointerType](/nodejs-cpp/controlmousepointertype/)
 
 ### setMousePointer(ControlMousePointerType) {#setMousePointer-controlmousepointertype-}
 
@@ -682,7 +682,7 @@ setMousePointer(value: ControlMousePointerType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ControlMousePointerType](./controlmousepointertype/) | The value to set. |
+| value | [ControlMousePointerType](/nodejs-cpp/controlmousepointertype/) | The value to set. |
 
 ### getLinkedCell() {#getLinkedCell--}
 
@@ -805,7 +805,7 @@ getIMEMode() : InputMethodEditorMode;
 
 **Returns**
 
-[InputMethodEditorMode](./inputmethodeditormode/)
+[InputMethodEditorMode](/nodejs-cpp/inputmethodeditormode/)
 
 ### setIMEMode(InputMethodEditorMode) {#setIMEMode-inputmethodeditormode-}
 
@@ -818,7 +818,7 @@ setIMEMode(value: InputMethodEditorMode) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [InputMethodEditorMode](./inputmethodeditormode/) | The value to set. |
+| value | [InputMethodEditorMode](/nodejs-cpp/inputmethodeditormode/) | The value to set. |
 
 ### getFont() {#getFont--}
 
@@ -831,7 +831,7 @@ getFont() : Font;
 
 **Returns**
 
-[Font](./font/)
+[Font](/nodejs-cpp/font/)
 
 ### getTextAlign() {#getTextAlign--}
 
@@ -844,7 +844,7 @@ getTextAlign() : TextAlignmentType;
 
 **Returns**
 
-[TextAlignmentType](./textalignmenttype/)
+[TextAlignmentType](/nodejs-cpp/textalignmenttype/)
 
 ### setTextAlign(TextAlignmentType) {#setTextAlign-textalignmenttype-}
 
@@ -857,7 +857,7 @@ setTextAlign(value: TextAlignmentType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [TextAlignmentType](./textalignmenttype/) | The value to set. |
+| value | [TextAlignmentType](/nodejs-cpp/textalignmenttype/) | The value to set. |
 
 ### getData() {#getData--}
 

@@ -1,14 +1,14 @@
 ﻿---
 title: VerticalPageBreakCollection
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Encapsulates a collection of VerticalPageBreak.verticalpagebreak objects.
+description: Encapsulates a collection of VerticalPageBreaknodejscppverticalpagebreak objects.
 type: docs
 url: /nodejs-cpp/verticalpagebreakcollection/
 ---
 
 ## VerticalPageBreakCollection class
 
-Encapsulates a collection of [VerticalPageBreak](./verticalpagebreak/) objects.
+Encapsulates a collection of [VerticalPageBreak](/nodejs-cpp/verticalpagebreak/) objects.
 
 ```javascript
 class VerticalPageBreakCollection;
@@ -19,7 +19,7 @@ class VerticalPageBreakCollection;
 
 | Method | Description |
 | --- | --- |
-| [get(number)](#get-number-)| Gets the [VerticalPageBreak](./verticalpagebreak/) element at the specified index. |
+| [get(number)](#get-number-)| Gets the [VerticalPageBreak](/nodejs-cpp/verticalpagebreak/) element at the specified index. |
 | [add(number, number, number)](#add-number-number-number-)| Adds a vertical page break to the collection. |
 | [add(number)](#add-number-)| Adds a vertical page break to the collection. |
 | [add(number, number)](#add-number-number-)| Adds a vertical page break to the collection. |
@@ -30,7 +30,7 @@ class VerticalPageBreakCollection;
 
 ### get(number) {#get-number-}
 
-Gets the [VerticalPageBreak](./verticalpagebreak/) element at the specified index.
+Gets the [VerticalPageBreak](/nodejs-cpp/verticalpagebreak/) element at the specified index.
 
 ```javascript
 get(index: number) : VerticalPageBreak;
@@ -62,7 +62,7 @@ add(startRow: number, endRow: number, column: number) : number;
 
 **Returns**
 
-[VerticalPageBreak](./verticalpagebreak/) object index.
+[VerticalPageBreak](/nodejs-cpp/verticalpagebreak/) object index.
 
 **Remarks**
 
@@ -83,7 +83,7 @@ add(column: number) : number;
 
 **Returns**
 
-[VerticalPageBreak](./verticalpagebreak/) object index.
+[VerticalPageBreak](/nodejs-cpp/verticalpagebreak/) object index.
 
 **Remarks**
 
@@ -105,7 +105,7 @@ add(row: number, column: number) : number;
 
 **Returns**
 
-[VerticalPageBreak](./verticalpagebreak/) object index.
+[VerticalPageBreak](/nodejs-cpp/verticalpagebreak/) object index.
 
 **Remarks**
 
@@ -126,7 +126,7 @@ add(cellName: string) : number;
 
 **Returns**
 
-[VerticalPageBreak](./verticalpagebreak/) object index.
+[VerticalPageBreak](/nodejs-cpp/verticalpagebreak/) object index.
 
 **Remarks**
 

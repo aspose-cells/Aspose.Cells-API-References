@@ -25,7 +25,7 @@ class PowerQueryFormulaParameterCollection;
 
 | Method | Description |
 | --- | --- |
-| [get(number)](#get-number-)| Gets [ PowerQueryFormulaParameter](./ powerqueryformulaparameter/) by the index in the list. |
+| [get(number)](#get-number-)| Gets [ PowerQueryFormulaParameter](/nodejs-cpp/ powerqueryformulaparameter/) by the index in the list. |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
 
 
@@ -40,7 +40,7 @@ constructor();
 
 ### get(number) {#get-number-}
 
-Gets [ PowerQueryFormulaParameter](./ powerqueryformulaparameter/) by the index in the list.
+Gets [ PowerQueryFormulaParameter](/nodejs-cpp/ powerqueryformulaparameter/) by the index in the list.
 
 ```javascript
 get(index: number) : PowerQueryFormulaParameter;
@@ -53,7 +53,7 @@ get(index: number) : PowerQueryFormulaParameter;
 
 **Returns**
 
-[PowerQueryFormulaParameter](./powerqueryformulaparameter/)
+[PowerQueryFormulaParameter](/nodejs-cpp/powerqueryformulaparameter/)
 
 ### getCount() {#getCount--}
 

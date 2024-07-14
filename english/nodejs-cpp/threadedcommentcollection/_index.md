@@ -39,7 +39,7 @@ get(index: number) : ThreadedComment;
 
 **Returns**
 
-[ThreadedComment](./threadedcomment/)
+[ThreadedComment](/nodejs-cpp/threadedcomment/)
 
 ### add(string, ThreadedCommentAuthor) {#add-string-threadedcommentauthor-}
 
@@ -53,7 +53,7 @@ add(text: string, author: ThreadedCommentAuthor) : number;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | text | string | The text of the threaded comment. |
-| author | [ThreadedCommentAuthor](./threadedcommentauthor/) | The author of the threaded comment |
+| author | [ThreadedCommentAuthor](/nodejs-cpp/threadedcommentauthor/) | The author of the threaded comment |
 
 ### getCount() {#getCount--}
 

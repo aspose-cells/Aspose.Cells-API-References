@@ -24,8 +24,8 @@ class Name;
 | [getText()](#getText--)| Gets the name text of the object. |
 | [setText(string)](#setText-string-)| Gets the name text of the object. |
 | [getFullText()](#getFullText--)| Gets the name  full text of the object with the scope setting. |
-| [getR1C1RefersTo()](#getR1C1RefersTo--)| Gets or sets a R1C1 reference of the [Name](./name/). |
-| [setR1C1RefersTo(string)](#setR1C1RefersTo-string-)| Gets or sets a R1C1 reference of the [Name](./name/). |
+| [getR1C1RefersTo()](#getR1C1RefersTo--)| Gets or sets a R1C1 reference of the [Name](/nodejs-cpp/name/). |
+| [setR1C1RefersTo(string)](#setR1C1RefersTo-string-)| Gets or sets a R1C1 reference of the [Name](/nodejs-cpp/name/). |
 | [isReferred()](#isReferred--)| Indicates whether this name is referred by other formulas. |
 | [isVisible()](#isVisible--)| Indicates whether the name is visible. |
 | [setIsVisible(boolean)](#setIsVisible-boolean-)| Indicates whether the name is visible. |
@@ -98,7 +98,7 @@ getFullText() : string;
 
 ### getR1C1RefersTo() {#getR1C1RefersTo--}
 
-Gets or sets a R1C1 reference of the [Name](./name/).
+Gets or sets a R1C1 reference of the [Name](/nodejs-cpp/name/).
 
 ```javascript
 getR1C1RefersTo() : string;
@@ -107,7 +107,7 @@ getR1C1RefersTo() : string;
 
 ### setR1C1RefersTo(string) {#setR1C1RefersTo-string-}
 
-Gets or sets a R1C1 reference of the [Name](./name/).
+Gets or sets a R1C1 reference of the [Name](/nodejs-cpp/name/).
 
 ```javascript
 setR1C1RefersTo(value: string) : void;

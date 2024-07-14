@@ -25,7 +25,7 @@ class TextTabStopCollection;
 
 | Method | Description |
 | --- | --- |
-| [get(number)](#get-number-)| Gets [TextTabStop](./texttabstop/) by the index. |
+| [get(number)](#get-number-)| Gets [TextTabStop](/nodejs-cpp/texttabstop/) by the index. |
 | [add(TextTabAlignmentType, number)](#add-texttabalignmenttype-number-)| Adds a tab stop. |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
 
@@ -41,7 +41,7 @@ constructor();
 
 ### get(number) {#get-number-}
 
-Gets [TextTabStop](./texttabstop/) by the index.
+Gets [TextTabStop](/nodejs-cpp/texttabstop/) by the index.
 
 ```javascript
 get(index: number) : TextTabStop;
@@ -54,7 +54,7 @@ get(index: number) : TextTabStop;
 
 **Returns**
 
-[TextTabStop](./texttabstop/)
+[TextTabStop](/nodejs-cpp/texttabstop/)
 
 ### add(TextTabAlignmentType, number) {#add-texttabalignmenttype-number-}
 
@@ -67,7 +67,7 @@ add(tabAlignment: TextTabAlignmentType, tabPosition: number) : number;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tabAlignment | [TextTabAlignmentType](./texttabalignmenttype/) |  |
+| tabAlignment | [TextTabAlignmentType](/nodejs-cpp/texttabalignmenttype/) |  |
 | tabPosition | number |  |
 
 ### getCount() {#getCount--}

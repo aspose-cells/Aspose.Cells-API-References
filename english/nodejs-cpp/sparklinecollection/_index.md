@@ -1,14 +1,14 @@
 ﻿---
 title: SparklineCollection
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Encapsulates a collection of Sparkline.sparkline objects.
+description: Encapsulates a collection of Sparklinenodejscppsparkline objects.
 type: docs
 url: /nodejs-cpp/sparklinecollection/
 ---
 
 ## SparklineCollection class
 
-Encapsulates a collection of [Sparkline](./sparkline/) objects.
+Encapsulates a collection of [Sparkline](/nodejs-cpp/sparkline/) objects.
 
 ```javascript
 class SparklineCollection;
@@ -19,14 +19,14 @@ class SparklineCollection;
 
 | Method | Description |
 | --- | --- |
-| [get(number)](#get-number-)| Gets the [Sparkline](./sparkline/) element at the specified index. |
+| [get(number)](#get-number-)| Gets the [Sparkline](/nodejs-cpp/sparkline/) element at the specified index. |
 | [add(string, number, number)](#add-string-number-number-)| Add a sparkline. |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
 
 
 ### get(number) {#get-number-}
 
-Gets the [Sparkline](./sparkline/) element at the specified index.
+Gets the [Sparkline](/nodejs-cpp/sparkline/) element at the specified index.
 
 ```javascript
 get(index: number) : Sparkline;

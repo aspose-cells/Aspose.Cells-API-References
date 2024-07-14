@@ -36,7 +36,7 @@ getType() : FormatConditionValueType;
 
 **Returns**
 
-[FormatConditionValueType](./formatconditionvaluetype/)
+[FormatConditionValueType](/nodejs-cpp/formatconditionvaluetype/)
 
 ### setType(FormatConditionValueType) {#setType-formatconditionvaluetype-}
 
@@ -49,7 +49,7 @@ setType(value: FormatConditionValueType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [FormatConditionValueType](./formatconditionvaluetype/) | The value to set. |
+| value | [FormatConditionValueType](/nodejs-cpp/formatconditionvaluetype/) | The value to set. |
 
 ### isGTE() {#isGTE--}
 

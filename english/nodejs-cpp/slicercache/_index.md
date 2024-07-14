@@ -38,7 +38,7 @@ getCrossFilterType() : SlicerCacheCrossFilterType;
 
 **Returns**
 
-[SlicerCacheCrossFilterType](./slicercachecrossfiltertype/)
+[SlicerCacheCrossFilterType](/nodejs-cpp/slicercachecrossfiltertype/)
 
 ### setCrossFilterType(SlicerCacheCrossFilterType) {#setCrossFilterType-slicercachecrossfiltertype-}
 
@@ -51,7 +51,7 @@ setCrossFilterType(value: SlicerCacheCrossFilterType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [SlicerCacheCrossFilterType](./slicercachecrossfiltertype/) | The value to set. |
+| value | [SlicerCacheCrossFilterType](/nodejs-cpp/slicercachecrossfiltertype/) | The value to set. |
 
 ### getList() {#getList--}
 
@@ -73,7 +73,7 @@ getSlicerCacheItems() : SlicerCacheItemCollection;
 
 **Returns**
 
-[SlicerCacheItemCollection](./slicercacheitemcollection/)
+[SlicerCacheItemCollection](/nodejs-cpp/slicercacheitemcollection/)
 
 ### getName() {#getName--}
 

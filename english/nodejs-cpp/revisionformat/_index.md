@@ -56,7 +56,7 @@ getType() : RevisionType;
 
 **Returns**
 
-[RevisionType](./revisiontype/)
+[RevisionType](/nodejs-cpp/revisiontype/)
 
 ### getAreas() {#getAreas--}
 
@@ -69,7 +69,7 @@ getAreas() : CellArea[];
 
 **Returns**
 
-[CellArea](./cellarea/)[]
+[CellArea](/nodejs-cpp/cellarea/)[]
 
 ### getStyle() {#getStyle--}
 
@@ -82,7 +82,7 @@ getStyle() : Style;
 
 **Returns**
 
-[Style](./style/)
+[Style](/nodejs-cpp/style/)
 
 ### getWorksheet() {#getWorksheet--}
 
@@ -95,7 +95,7 @@ getWorksheet() : Worksheet;
 
 **Returns**
 
-[Worksheet](./worksheet/)
+[Worksheet](/nodejs-cpp/worksheet/)
 
 ### getId() {#getId--}
 

@@ -36,7 +36,7 @@ getTabAlignment() : TextTabAlignmentType;
 
 **Returns**
 
-[TextTabAlignmentType](./texttabalignmenttype/)
+[TextTabAlignmentType](/nodejs-cpp/texttabalignmenttype/)
 
 ### setTabAlignment(TextTabAlignmentType) {#setTabAlignment-texttabalignmenttype-}
 
@@ -49,7 +49,7 @@ setTabAlignment(value: TextTabAlignmentType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [TextTabAlignmentType](./texttabalignmenttype/) | The value to set. |
+| value | [TextTabAlignmentType](/nodejs-cpp/texttabalignmenttype/) | The value to set. |
 
 ### getTabPosition() {#getTabPosition--}
 

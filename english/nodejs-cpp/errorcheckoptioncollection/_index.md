@@ -19,14 +19,14 @@ class ErrorCheckOptionCollection;
 
 | Method | Description |
 | --- | --- |
-| [get(number)](#get-number-)| Gets [ErrorCheckOption](./errorcheckoption/) object by the given index. |
+| [get(number)](#get-number-)| Gets [ErrorCheckOption](/nodejs-cpp/errorcheckoption/) object by the given index. |
 | [add()](#add--)| Add an error check option. |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
 
 
 ### get(number) {#get-number-}
 
-Gets [ErrorCheckOption](./errorcheckoption/) object by the given index.
+Gets [ErrorCheckOption](/nodejs-cpp/errorcheckoption/) object by the given index.
 
 ```javascript
 get(index: number) : ErrorCheckOption;
@@ -39,7 +39,7 @@ get(index: number) : ErrorCheckOption;
 
 **Returns**
 
-Return [ErrorCheckOption](./errorcheckoption/) object
+Return [ErrorCheckOption](/nodejs-cpp/errorcheckoption/) object
 
 ### add() {#add--}
 

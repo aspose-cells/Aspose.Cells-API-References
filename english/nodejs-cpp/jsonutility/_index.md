@@ -50,10 +50,10 @@ static importData(json: string, cells: Cells, row: number, column: number, optio
 | Parameter | Type | Description |
 | --- | --- | --- |
 | json | string | The json string. |
-| cells | [Cells](./cells/) | The Cells. |
+| cells | [Cells](/nodejs-cpp/cells/) | The Cells. |
 | row | number | The row index. |
 | column | number | The column index. |
-| option | [JsonLayoutOptions](./jsonlayoutoptions/) | The options of import json string. |
+| option | [JsonLayoutOptions](/nodejs-cpp/jsonlayoutoptions/) | The options of import json string. |
 
 **Returns**
 
@@ -70,8 +70,8 @@ static exportRangeToJson(range: Range, options: JsonSaveOptions) : string;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| range | [Range](./range/) | The range. |
-| options | [JsonSaveOptions](./jsonsaveoptions/) | The options of exporting. |
+| range | [Range](/nodejs-cpp/range/) | The range. |
+| options | [JsonSaveOptions](/nodejs-cpp/jsonsaveoptions/) | The options of exporting. |
 
 **Returns**
 

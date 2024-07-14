@@ -20,7 +20,7 @@ class MemoryFontSource extends FontSourceBase;
 | Name | Description |
 | --- | --- |
 | [constructor(FontSourceBase)](#constructor-fontsourcebase-)| Constructs from a parent object convertible to this. |
-| [constructor(number[])](#constructor-number[]-)| Ctor. |
+| [constructor(number[])](#constructor-numberarray-)| Ctor. |
 
 ## Methods
 
@@ -43,7 +43,7 @@ constructor(obj: FontSourceBase);
 | --- | --- | --- |
 | obj | FontSourceBase | The parent object. |
 
-### constructor(number[]) {#constructor-number[]-}
+### constructor(number[]) {#constructor-numberarray-}
 
 Ctor.
 
@@ -80,6 +80,6 @@ getType() : FontSourceType;
 
 **Returns**
 
-[FontSourceType](./fontsourcetype/)
+[FontSourceType](/nodejs-cpp/fontsourcetype/)
 
 

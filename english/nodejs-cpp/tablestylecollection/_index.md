@@ -136,11 +136,11 @@ getBuiltinTableStyle(type: TableStyleType) : TableStyle;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | [TableStyleType](./tablestyletype/) | The builtin table style type. |
+| type | [TableStyleType](/nodejs-cpp/tablestyletype/) | The builtin table style type. |
 
 **Returns**
 
-[TableStyle](./tablestyle/)
+[TableStyle](/nodejs-cpp/tablestyle/)
 
 ### getCount() {#getCount--}
 

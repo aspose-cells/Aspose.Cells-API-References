@@ -19,7 +19,7 @@ class IconSet;
 
 | Method | Description |
 | --- | --- |
-| [getCfIcons()](#getCfIcons--)| Get the[ConditionalFormattingIcon](./conditionalformattingicon/) from the collection |
+| [getCfIcons()](#getCfIcons--)| Get the[ConditionalFormattingIcon](/nodejs-cpp/conditionalformattingicon/) from the collection |
 | [getCfvos()](#getCfvos--)| Get the CFValueObjects instance. |
 | [getType()](#getType--)| Get or Set the icon set type to display. Setting the type will auto check if the current Cfvos's count is accord with the new type. If not accord, old Cfvos will be cleaned and default Cfvos will be added. |
 | [setType(IconSetType)](#setType-iconsettype-)| Get or Set the icon set type to display. Setting the type will auto check if the current Cfvos's count is accord with the new type. If not accord, old Cfvos will be cleaned and default Cfvos will be added. |
@@ -32,7 +32,7 @@ class IconSet;
 
 ### getCfIcons() {#getCfIcons--}
 
-Get the[ConditionalFormattingIcon](./conditionalformattingicon/) from the collection
+Get the[ConditionalFormattingIcon](/nodejs-cpp/conditionalformattingicon/) from the collection
 
 ```javascript
 getCfIcons() : ConditionalFormattingIconCollection;
@@ -41,7 +41,7 @@ getCfIcons() : ConditionalFormattingIconCollection;
 
 **Returns**
 
-[ConditionalFormattingIconCollection](./conditionalformattingiconcollection/)
+[ConditionalFormattingIconCollection](/nodejs-cpp/conditionalformattingiconcollection/)
 
 ### getCfvos() {#getCfvos--}
 
@@ -54,7 +54,7 @@ getCfvos() : ConditionalFormattingValueCollection;
 
 **Returns**
 
-[ConditionalFormattingValueCollection](./conditionalformattingvaluecollection/)
+[ConditionalFormattingValueCollection](/nodejs-cpp/conditionalformattingvaluecollection/)
 
 ### getType() {#getType--}
 
@@ -67,7 +67,7 @@ getType() : IconSetType;
 
 **Returns**
 
-[IconSetType](./iconsettype/)
+[IconSetType](/nodejs-cpp/iconsettype/)
 
 ### setType(IconSetType) {#setType-iconsettype-}
 
@@ -80,7 +80,7 @@ setType(value: IconSetType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IconSetType](./iconsettype/) | The value to set. |
+| value | [IconSetType](/nodejs-cpp/iconsettype/) | The value to set. |
 
 ### isCustom() {#isCustom--}
 

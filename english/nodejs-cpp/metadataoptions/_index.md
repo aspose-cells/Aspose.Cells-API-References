@@ -43,7 +43,7 @@ constructor(metadataType: MetadataType);
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| metadataType | [MetadataType](./metadatatype/) | The type of metadata. |
+| metadataType | [MetadataType](/nodejs-cpp/metadatatype/) | The type of metadata. |
 
 ### getMetadataType() {#getMetadataType--}
 
@@ -56,7 +56,7 @@ getMetadataType() : MetadataType;
 
 **Returns**
 
-[MetadataType](./metadatatype/)
+[MetadataType](/nodejs-cpp/metadatatype/)
 
 ### getPassword() {#getPassword--}
 

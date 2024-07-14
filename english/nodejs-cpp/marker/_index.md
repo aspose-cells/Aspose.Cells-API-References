@@ -48,7 +48,7 @@ getBorder() : Line;
 
 **Returns**
 
-[Line](./line/)
+[Line](/nodejs-cpp/line/)
 
 ### getArea() {#getArea--}
 
@@ -61,7 +61,7 @@ getArea() : Area;
 
 **Returns**
 
-[Area](./area/)
+[Area](/nodejs-cpp/area/)
 
 ### getMarkerStyle() {#getMarkerStyle--}
 
@@ -74,7 +74,7 @@ getMarkerStyle() : ChartMarkerType;
 
 **Returns**
 
-[ChartMarkerType](./chartmarkertype/)
+[ChartMarkerType](/nodejs-cpp/chartmarkertype/)
 
 ### setMarkerStyle(ChartMarkerType) {#setMarkerStyle-chartmarkertype-}
 
@@ -87,7 +87,7 @@ setMarkerStyle(value: ChartMarkerType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ChartMarkerType](./chartmarkertype/) | The value to set. |
+| value | [ChartMarkerType](/nodejs-cpp/chartmarkertype/) | The value to set. |
 
 ### getMarkerSize() {#getMarkerSize--}
 
@@ -144,7 +144,7 @@ getForegroundColor() : Color;
 
 **Returns**
 
-[Color](./color/)
+[Color](/nodejs-cpp/color/)
 
 ### setForegroundColor(Color) {#setForegroundColor-color-}
 
@@ -157,7 +157,7 @@ setForegroundColor(value: Color) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [Color](./color/) | The value to set. |
+| value | [Color](/nodejs-cpp/color/) | The value to set. |
 
 ### getForegroundColorSetType() {#getForegroundColorSetType--}
 
@@ -170,7 +170,7 @@ getForegroundColorSetType() : FormattingType;
 
 **Returns**
 
-[FormattingType](./formattingtype/)
+[FormattingType](/nodejs-cpp/formattingtype/)
 
 ### setForegroundColorSetType(FormattingType) {#setForegroundColorSetType-formattingtype-}
 
@@ -183,7 +183,7 @@ setForegroundColorSetType(value: FormattingType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [FormattingType](./formattingtype/) | The value to set. |
+| value | [FormattingType](/nodejs-cpp/formattingtype/) | The value to set. |
 
 ### getBackgroundColor() {#getBackgroundColor--}
 
@@ -196,7 +196,7 @@ getBackgroundColor() : Color;
 
 **Returns**
 
-[Color](./color/)
+[Color](/nodejs-cpp/color/)
 
 ### setBackgroundColor(Color) {#setBackgroundColor-color-}
 
@@ -209,7 +209,7 @@ setBackgroundColor(value: Color) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [Color](./color/) | The value to set. |
+| value | [Color](/nodejs-cpp/color/) | The value to set. |
 
 ### getBackgroundColorSetType() {#getBackgroundColorSetType--}
 
@@ -222,7 +222,7 @@ getBackgroundColorSetType() : FormattingType;
 
 **Returns**
 
-[FormattingType](./formattingtype/)
+[FormattingType](/nodejs-cpp/formattingtype/)
 
 ### setBackgroundColorSetType(FormattingType) {#setBackgroundColorSetType-formattingtype-}
 
@@ -235,6 +235,6 @@ setBackgroundColorSetType(value: FormattingType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [FormattingType](./formattingtype/) | The value to set. |
+| value | [FormattingType](/nodejs-cpp/formattingtype/) | The value to set. |
 
 

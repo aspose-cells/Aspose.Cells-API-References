@@ -67,7 +67,7 @@ constructor(type: DateTimeGroupingType, year: number, month: number, day: number
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | [DateTimeGroupingType](./datetimegroupingtype/) |  |
+| type | [DateTimeGroupingType](/nodejs-cpp/datetimegroupingtype/) |  |
 | year | number |  |
 | month | number |  |
 | day | number |  |
@@ -95,7 +95,7 @@ getDateTimeGroupingType() : DateTimeGroupingType;
 
 **Returns**
 
-[DateTimeGroupingType](./datetimegroupingtype/)
+[DateTimeGroupingType](/nodejs-cpp/datetimegroupingtype/)
 
 ### setDateTimeGroupingType(DateTimeGroupingType) {#setDateTimeGroupingType-datetimegroupingtype-}
 
@@ -108,7 +108,7 @@ setDateTimeGroupingType(value: DateTimeGroupingType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [DateTimeGroupingType](./datetimegroupingtype/) | The value to set. |
+| value | [DateTimeGroupingType](/nodejs-cpp/datetimegroupingtype/) | The value to set. |
 
 ### getYear() {#getYear--}
 

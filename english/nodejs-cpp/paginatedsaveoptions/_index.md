@@ -53,8 +53,8 @@ class PaginatedSaveOptions extends SaveOptions;
 | [setTextCrossType(TextCrossType)](#setTextCrossType-textcrosstype-)| Gets or sets displaying text type when the text width is larger than cell width. |
 | [getDefaultEditLanguage()](#getDefaultEditLanguage--)| Gets or sets default edit language. |
 | [setDefaultEditLanguage(DefaultEditLanguage)](#setDefaultEditLanguage-defaulteditlanguage-)| Gets or sets default edit language. |
-| [getSheetSet()](#getSheetSet--)| Gets or sets the sheets to render. Default is all visible sheets in the workbook: [Aspose.Cells.Rendering.SheetSet.Visible](./aspose.cells.rendering.sheetset.visible/). |
-| [setSheetSet(SheetSet)](#setSheetSet-sheetset-)| Gets or sets the sheets to render. Default is all visible sheets in the workbook: [Aspose.Cells.Rendering.SheetSet.Visible](./aspose.cells.rendering.sheetset.visible/). |
+| [getSheetSet()](#getSheetSet--)| Gets or sets the sheets to render. Default is all visible sheets in the workbook: [Aspose.Cells.Rendering.SheetSet.Visible](/nodejs-cpp/aspose.cells.rendering.sheetset.visible/). |
+| [setSheetSet(SheetSet)](#setSheetSet-sheetset-)| Gets or sets the sheets to render. Default is all visible sheets in the workbook: [Aspose.Cells.Rendering.SheetSet.Visible](/nodejs-cpp/aspose.cells.rendering.sheetset.visible/). |
 | [getDrawObjectEventHandler()](#getDrawObjectEventHandler--)| Implements this interface to get DrawObject and Bound when rendering. |
 | [setDrawObjectEventHandler(DrawObjectEventHandler)](#setDrawObjectEventHandler-drawobjecteventhandler-)| Implements this interface to get DrawObject and Bound when rendering. |
 | [getPageSavingCallback()](#getPageSavingCallback--)| Control/Indicate progress of page saving process. |
@@ -376,7 +376,7 @@ getPrintingPageType() : PrintingPageType;
 
 **Returns**
 
-[PrintingPageType](./printingpagetype/)
+[PrintingPageType](/nodejs-cpp/printingpagetype/)
 
 **Remarks**
 
@@ -393,7 +393,7 @@ setPrintingPageType(value: PrintingPageType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [PrintingPageType](./printingpagetype/) | The value to set. |
+| value | [PrintingPageType](/nodejs-cpp/printingpagetype/) | The value to set. |
 
 **Remarks**
 
@@ -410,7 +410,7 @@ getGridlineType() : GridlineType;
 
 **Returns**
 
-[GridlineType](./gridlinetype/)
+[GridlineType](/nodejs-cpp/gridlinetype/)
 
 **Remarks**
 
@@ -427,7 +427,7 @@ setGridlineType(value: GridlineType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [GridlineType](./gridlinetype/) | The value to set. |
+| value | [GridlineType](/nodejs-cpp/gridlinetype/) | The value to set. |
 
 **Remarks**
 
@@ -444,7 +444,7 @@ getTextCrossType() : TextCrossType;
 
 **Returns**
 
-[TextCrossType](./textcrosstype/)
+[TextCrossType](/nodejs-cpp/textcrosstype/)
 
 ### setTextCrossType(TextCrossType) {#setTextCrossType-textcrosstype-}
 
@@ -457,7 +457,7 @@ setTextCrossType(value: TextCrossType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [TextCrossType](./textcrosstype/) | The value to set. |
+| value | [TextCrossType](/nodejs-cpp/textcrosstype/) | The value to set. |
 
 ### getDefaultEditLanguage() {#getDefaultEditLanguage--}
 
@@ -470,11 +470,11 @@ getDefaultEditLanguage() : DefaultEditLanguage;
 
 **Returns**
 
-[DefaultEditLanguage](./defaulteditlanguage/)
+[DefaultEditLanguage](/nodejs-cpp/defaulteditlanguage/)
 
 **Remarks**
 
-It may display/render different layouts for text paragraph when different edit languages is set. Default is [Aspose.Cells.DefaultEditLanguage.Auto](./aspose.cells.defaulteditlanguage.auto/).
+It may display/render different layouts for text paragraph when different edit languages is set. Default is [Aspose.Cells.DefaultEditLanguage.Auto](/nodejs-cpp/aspose.cells.defaulteditlanguage.auto/).
 
 ### setDefaultEditLanguage(DefaultEditLanguage) {#setDefaultEditLanguage-defaulteditlanguage-}
 
@@ -487,15 +487,15 @@ setDefaultEditLanguage(value: DefaultEditLanguage) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [DefaultEditLanguage](./defaulteditlanguage/) | The value to set. |
+| value | [DefaultEditLanguage](/nodejs-cpp/defaulteditlanguage/) | The value to set. |
 
 **Remarks**
 
-It may display/render different layouts for text paragraph when different edit languages is set. Default is [Aspose.Cells.DefaultEditLanguage.Auto](./aspose.cells.defaulteditlanguage.auto/).
+It may display/render different layouts for text paragraph when different edit languages is set. Default is [Aspose.Cells.DefaultEditLanguage.Auto](/nodejs-cpp/aspose.cells.defaulteditlanguage.auto/).
 
 ### getSheetSet() {#getSheetSet--}
 
-Gets or sets the sheets to render. Default is all visible sheets in the workbook: [Aspose.Cells.Rendering.SheetSet.Visible](./aspose.cells.rendering.sheetset.visible/).
+Gets or sets the sheets to render. Default is all visible sheets in the workbook: [Aspose.Cells.Rendering.SheetSet.Visible](/nodejs-cpp/aspose.cells.rendering.sheetset.visible/).
 
 ```javascript
 getSheetSet() : SheetSet;
@@ -504,11 +504,11 @@ getSheetSet() : SheetSet;
 
 **Returns**
 
-[SheetSet](./sheetset/)
+[SheetSet](/nodejs-cpp/sheetset/)
 
 ### setSheetSet(SheetSet) {#setSheetSet-sheetset-}
 
-Gets or sets the sheets to render. Default is all visible sheets in the workbook: [Aspose.Cells.Rendering.SheetSet.Visible](./aspose.cells.rendering.sheetset.visible/).
+Gets or sets the sheets to render. Default is all visible sheets in the workbook: [Aspose.Cells.Rendering.SheetSet.Visible](/nodejs-cpp/aspose.cells.rendering.sheetset.visible/).
 
 ```javascript
 setSheetSet(value: SheetSet) : void;
@@ -517,7 +517,7 @@ setSheetSet(value: SheetSet) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [SheetSet](./sheetset/) | The value to set. |
+| value | [SheetSet](/nodejs-cpp/sheetset/) | The value to set. |
 
 ### getDrawObjectEventHandler() {#getDrawObjectEventHandler--}
 
@@ -530,7 +530,7 @@ getDrawObjectEventHandler() : DrawObjectEventHandler;
 
 **Returns**
 
-[DrawObjectEventHandler](./drawobjecteventhandler/)
+[DrawObjectEventHandler](/nodejs-cpp/drawobjecteventhandler/)
 
 ### setDrawObjectEventHandler(DrawObjectEventHandler) {#setDrawObjectEventHandler-drawobjecteventhandler-}
 
@@ -543,7 +543,7 @@ setDrawObjectEventHandler(value: DrawObjectEventHandler) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [DrawObjectEventHandler](./drawobjecteventhandler/) | The value to set. |
+| value | [DrawObjectEventHandler](/nodejs-cpp/drawobjecteventhandler/) | The value to set. |
 
 ### getPageSavingCallback() {#getPageSavingCallback--}
 
@@ -556,7 +556,7 @@ getPageSavingCallback() : IPageSavingCallback;
 
 **Returns**
 
-[IPageSavingCallback](./ipagesavingcallback/)
+[IPageSavingCallback](/nodejs-cpp/ipagesavingcallback/)
 
 ### setPageSavingCallback(IPageSavingCallback) {#setPageSavingCallback-ipagesavingcallback-}
 
@@ -569,7 +569,7 @@ setPageSavingCallback(value: IPageSavingCallback) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IPageSavingCallback](./ipagesavingcallback/) | The value to set. |
+| value | [IPageSavingCallback](/nodejs-cpp/ipagesavingcallback/) | The value to set. |
 
 ### getEmfRenderSetting() {#getEmfRenderSetting--}
 
@@ -582,11 +582,11 @@ getEmfRenderSetting() : EmfRenderSetting;
 
 **Returns**
 
-[EmfRenderSetting](./emfrendersetting/)
+[EmfRenderSetting](/nodejs-cpp/emfrendersetting/)
 
 **Remarks**
 
-EMF metafiles identified as "EMF+ Dual" can contain both EMF+ records and EMF records. Either type of record can be used to render the image, only EMF+ records, or only EMF records. When [Aspose.Cells.EmfRenderSetting.EmfPlusPrefer](./aspose.cells.emfrendersetting.emfplusprefer/) is set, then EMF+ records will be parsed while rendering to page, otherwise only EMF records will be parsed. Default value is [Aspose.Cells.EmfRenderSetting.EmfOnly](./aspose.cells.emfrendersetting.emfonly/).
+EMF metafiles identified as "EMF+ Dual" can contain both EMF+ records and EMF records. Either type of record can be used to render the image, only EMF+ records, or only EMF records. When [Aspose.Cells.EmfRenderSetting.EmfPlusPrefer](/nodejs-cpp/aspose.cells.emfrendersetting.emfplusprefer/) is set, then EMF+ records will be parsed while rendering to page, otherwise only EMF records will be parsed. Default value is [Aspose.Cells.EmfRenderSetting.EmfOnly](/nodejs-cpp/aspose.cells.emfrendersetting.emfonly/).
 
 ### setEmfRenderSetting(EmfRenderSetting) {#setEmfRenderSetting-emfrendersetting-}
 
@@ -599,11 +599,11 @@ setEmfRenderSetting(value: EmfRenderSetting) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [EmfRenderSetting](./emfrendersetting/) | The value to set. |
+| value | [EmfRenderSetting](/nodejs-cpp/emfrendersetting/) | The value to set. |
 
 **Remarks**
 
-EMF metafiles identified as "EMF+ Dual" can contain both EMF+ records and EMF records. Either type of record can be used to render the image, only EMF+ records, or only EMF records. When [Aspose.Cells.EmfRenderSetting.EmfPlusPrefer](./aspose.cells.emfrendersetting.emfplusprefer/) is set, then EMF+ records will be parsed while rendering to page, otherwise only EMF records will be parsed. Default value is [Aspose.Cells.EmfRenderSetting.EmfOnly](./aspose.cells.emfrendersetting.emfonly/).
+EMF metafiles identified as "EMF+ Dual" can contain both EMF+ records and EMF records. Either type of record can be used to render the image, only EMF+ records, or only EMF records. When [Aspose.Cells.EmfRenderSetting.EmfPlusPrefer](/nodejs-cpp/aspose.cells.emfrendersetting.emfplusprefer/) is set, then EMF+ records will be parsed while rendering to page, otherwise only EMF records will be parsed. Default value is [Aspose.Cells.EmfRenderSetting.EmfOnly](/nodejs-cpp/aspose.cells.emfrendersetting.emfonly/).
 
 ### getSaveFormat() {#getSaveFormat--}
 
@@ -616,7 +616,7 @@ getSaveFormat() : SaveFormat;
 
 **Returns**
 
-[SaveFormat](./saveformat/)
+[SaveFormat](/nodejs-cpp/saveformat/)
 
 ### getClearData() {#getClearData--}
 
@@ -829,7 +829,7 @@ setWarningCallback(value: IWarningCallback) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IWarningCallback](./iwarningcallback/) | The value to set. |
+| value | [IWarningCallback](/nodejs-cpp/iwarningcallback/) | The value to set. |
 
 ### getWarningCallback() {#getWarningCallback--}
 
@@ -842,7 +842,7 @@ getWarningCallback() : IWarningCallback;
 
 **Returns**
 
-[IWarningCallback](./iwarningcallback/)
+[IWarningCallback](/nodejs-cpp/iwarningcallback/)
 
 ### getUpdateSmartArt() {#getUpdateSmartArt--}
 

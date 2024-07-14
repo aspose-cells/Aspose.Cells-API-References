@@ -84,7 +84,7 @@ getFilterType() : FilterType;
 
 **Returns**
 
-[FilterType](./filtertype/)
+[FilterType](/nodejs-cpp/filtertype/)
 
 ### setFilterType(FilterType) {#setFilterType-filtertype-}
 
@@ -97,7 +97,7 @@ setFilterType(value: FilterType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [FilterType](./filtertype/) | The value to set. |
+| value | [FilterType](/nodejs-cpp/filtertype/) | The value to set. |
 
 ### getFieldIndex() {#getFieldIndex--}
 

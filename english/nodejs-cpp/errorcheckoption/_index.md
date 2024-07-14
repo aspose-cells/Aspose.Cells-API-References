@@ -38,7 +38,7 @@ isErrorCheck(errorCheckType: ErrorCheckType) : boolean;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| errorCheckType | [ErrorCheckType](./errorchecktype/) | error type can be checked |
+| errorCheckType | [ErrorCheckType](/nodejs-cpp/errorchecktype/) | error type can be checked |
 
 **Returns**
 
@@ -55,7 +55,7 @@ setErrorCheck(errorCheckType: ErrorCheckType, isCheck: boolean) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| errorCheckType | [ErrorCheckType](./errorchecktype/) | error type can be checked. |
+| errorCheckType | [ErrorCheckType](/nodejs-cpp/errorchecktype/) | error type can be checked. |
 | isCheck | boolean | true if given error type needs to be checked(green triangle will be shown for cell if the check failed). |
 
 ### getCountOfRange() {#getCountOfRange--}
@@ -82,7 +82,7 @@ addRange(ca: CellArea) : number;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| ca | [CellArea](./cellarea/) | the range to be added. |
+| ca | [CellArea](/nodejs-cpp/cellarea/) | the range to be added. |
 
 **Returns**
 

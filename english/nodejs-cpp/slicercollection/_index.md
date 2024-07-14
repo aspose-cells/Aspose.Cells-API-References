@@ -49,7 +49,7 @@ get(index: number) : Slicer;
 
 **Returns**
 
-[Slicer](./slicer/)
+[Slicer](/nodejs-cpp/slicer/)
 
 ### remove(Slicer) {#remove-slicer-}
 
@@ -62,7 +62,7 @@ remove(slicer: Slicer) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| slicer | [Slicer](./slicer/) | The Slicer object |
+| slicer | [Slicer](/nodejs-cpp/slicer/) | The Slicer object |
 
 ### removeAt(number) {#removeAt-number-}
 
@@ -88,7 +88,7 @@ add(pivot: PivotTable, destCellName: string, baseFieldName: string) : number;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pivot | [PivotTable](./pivottable/) | PivotTable object |
+| pivot | [PivotTable](/nodejs-cpp/pivottable/) | PivotTable object |
 | destCellName | string | The cell in the upper-left corner of the Slicer range. |
 | baseFieldName | string | The name of PivotField in PivotTable.BaseFields |
 
@@ -107,7 +107,7 @@ add(pivot: PivotTable, row: number, column: number, baseFieldName: string) : num
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pivot | [PivotTable](./pivottable/) | PivotTable object |
+| pivot | [PivotTable](/nodejs-cpp/pivottable/) | PivotTable object |
 | row | number | Row index of the cell in the upper-left corner of the Slicer range. |
 | column | number | Column index of the cell in the upper-left corner of the Slicer range. |
 | baseFieldName | string | The name of PivotField in PivotTable.BaseFields |
@@ -127,7 +127,7 @@ add(pivot: PivotTable, row: number, column: number, baseFieldIndex: number) : nu
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pivot | [PivotTable](./pivottable/) | PivotTable object |
+| pivot | [PivotTable](/nodejs-cpp/pivottable/) | PivotTable object |
 | row | number | Row index of the cell in the upper-left corner of the Slicer range. |
 | column | number | Column index of the cell in the upper-left corner of the Slicer range. |
 | baseFieldIndex | number | The index of PivotField in PivotTable.BaseFields |
@@ -147,7 +147,7 @@ add(pivot: PivotTable, destCellName: string, baseFieldIndex: number) : number;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pivot | [PivotTable](./pivottable/) | PivotTable object |
+| pivot | [PivotTable](/nodejs-cpp/pivottable/) | PivotTable object |
 | destCellName | string | The cell in the upper-left corner of the Slicer range. |
 | baseFieldIndex | number | The index of PivotField in PivotTable.BaseFields |
 
@@ -166,10 +166,10 @@ add(pivot: PivotTable, row: number, column: number, baseField: PivotField) : num
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pivot | [PivotTable](./pivottable/) | PivotTable object |
+| pivot | [PivotTable](/nodejs-cpp/pivottable/) | PivotTable object |
 | row | number | Row index of the cell in the upper-left corner of the Slicer range. |
 | column | number | Column index of the cell in the upper-left corner of the Slicer range. |
-| baseField | [PivotField](./pivotfield/) | The PivotField in PivotTable.BaseFields |
+| baseField | [PivotField](/nodejs-cpp/pivotfield/) | The PivotField in PivotTable.BaseFields |
 
 **Returns**
 
@@ -186,9 +186,9 @@ add(pivot: PivotTable, destCellName: string, baseField: PivotField) : number;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pivot | [PivotTable](./pivottable/) | PivotTable object |
+| pivot | [PivotTable](/nodejs-cpp/pivottable/) | PivotTable object |
 | destCellName | string | The cell in the upper-left corner of the Slicer range. |
-| baseField | [PivotField](./pivotfield/) | The PivotField in PivotTable.BaseFields |
+| baseField | [PivotField](/nodejs-cpp/pivotfield/) | The PivotField in PivotTable.BaseFields |
 
 **Returns**
 
@@ -205,7 +205,7 @@ add(table: ListObject, index: number, destCellName: string) : number;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| table | [ListObject](./listobject/) | ListObject object |
+| table | [ListObject](/nodejs-cpp/listobject/) | ListObject object |
 | index | number | The index of ListColumn in ListObject.ListColumns |
 | destCellName | string | The cell in the upper-left corner of the Slicer range. |
 
@@ -224,8 +224,8 @@ add(table: ListObject, listColumn: ListColumn, destCellName: string) : number;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| table | [ListObject](./listobject/) | ListObject object |
-| listColumn | [ListColumn](./listcolumn/) | The ListColumn in ListObject.ListColumns |
+| table | [ListObject](/nodejs-cpp/listobject/) | ListObject object |
+| listColumn | [ListColumn](/nodejs-cpp/listcolumn/) | The ListColumn in ListObject.ListColumns |
 | destCellName | string | The cell in the upper-left corner of the Slicer range. |
 
 **Returns**
@@ -243,8 +243,8 @@ add(table: ListObject, listColumn: ListColumn, row: number, column: number) : nu
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| table | [ListObject](./listobject/) | ListObject object |
-| listColumn | [ListColumn](./listcolumn/) | The ListColumn in ListObject.ListColumns |
+| table | [ListObject](/nodejs-cpp/listobject/) | ListObject object |
+| listColumn | [ListColumn](/nodejs-cpp/listcolumn/) | The ListColumn in ListObject.ListColumns |
 | row | number | Row index of the cell in the upper-left corner of the Slicer range. |
 | column | number | Column index of the cell in the upper-left corner of the Slicer range. |
 

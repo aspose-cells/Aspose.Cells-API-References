@@ -43,8 +43,8 @@ class SettablePivotGlobalizationSettings;
 | [setTextOfEmptyData(string)](#setTextOfEmptyData-string-)| Sets the text of "(blank)" label in the PivotTable. |
 | [getTextOfDataFieldHeader()](#getTextOfDataFieldHeader--)| Gets the the text of the value area field header in the PivotTable. |
 | [setTextOfDataFieldHeader(string)](#setTextOfDataFieldHeader-string-)| Sets the the text of the value area field header in the PivotTable. |
-| [getTextOfSubTotal(PivotFieldSubtotalType)](#getTextOfSubTotal-pivotfieldsubtotaltype-)| Gets the text of [PivotFieldSubtotalType](./pivotfieldsubtotaltype/) type in the PivotTable. |
-| [setTextOfSubTotal(PivotFieldSubtotalType, string)](#setTextOfSubTotal-pivotfieldsubtotaltype-string-)| Sets the text of [PivotFieldSubtotalType](./pivotfieldsubtotaltype/) type in the PivotTable. |
+| [getTextOfSubTotal(PivotFieldSubtotalType)](#getTextOfSubTotal-pivotfieldsubtotaltype-)| Gets the text of [PivotFieldSubtotalType](/nodejs-cpp/pivotfieldsubtotaltype/) type in the PivotTable. |
+| [setTextOfSubTotal(PivotFieldSubtotalType, string)](#setTextOfSubTotal-pivotfieldsubtotaltype-string-)| Sets the text of [PivotFieldSubtotalType](/nodejs-cpp/pivotfieldsubtotaltype/) type in the PivotTable. |
 
 
 ### constructor() {#constructor--}
@@ -301,7 +301,7 @@ setTextOfDataFieldHeader(text: string) : void;
 
 ### getTextOfSubTotal(PivotFieldSubtotalType) {#getTextOfSubTotal-pivotfieldsubtotaltype-}
 
-Gets the text of [PivotFieldSubtotalType](./pivotfieldsubtotaltype/) type in the PivotTable.
+Gets the text of [PivotFieldSubtotalType](/nodejs-cpp/pivotfieldsubtotaltype/) type in the PivotTable.
 
 ```javascript
 getTextOfSubTotal(subTotalType: PivotFieldSubtotalType) : string;
@@ -310,7 +310,7 @@ getTextOfSubTotal(subTotalType: PivotFieldSubtotalType) : string;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| subTotalType | [PivotFieldSubtotalType](./pivotfieldsubtotaltype/) | The [PivotFieldSubtotalType](./pivotfieldsubtotaltype/) |
+| subTotalType | [PivotFieldSubtotalType](/nodejs-cpp/pivotfieldsubtotaltype/) | The [PivotFieldSubtotalType](/nodejs-cpp/pivotfieldsubtotaltype/) |
 
 **Returns**
 
@@ -318,7 +318,7 @@ The text of given type
 
 ### setTextOfSubTotal(PivotFieldSubtotalType, string) {#setTextOfSubTotal-pivotfieldsubtotaltype-string-}
 
-Sets the text of [PivotFieldSubtotalType](./pivotfieldsubtotaltype/) type in the PivotTable.
+Sets the text of [PivotFieldSubtotalType](/nodejs-cpp/pivotfieldsubtotaltype/) type in the PivotTable.
 
 ```javascript
 setTextOfSubTotal(subTotalType: PivotFieldSubtotalType, text: string) : void;
@@ -327,7 +327,7 @@ setTextOfSubTotal(subTotalType: PivotFieldSubtotalType, text: string) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| subTotalType | [PivotFieldSubtotalType](./pivotfieldsubtotaltype/) | The [PivotFieldSubtotalType](./pivotfieldsubtotaltype/) |
+| subTotalType | [PivotFieldSubtotalType](/nodejs-cpp/pivotfieldsubtotaltype/) | The [PivotFieldSubtotalType](/nodejs-cpp/pivotfieldsubtotaltype/) |
 | text | string | The text of given type |
 
 

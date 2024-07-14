@@ -25,7 +25,7 @@ class AutoFilter;
 | [setShowFilterButton(boolean)](#setShowFilterButton-boolean-)| Indicates whether the AutoFilter button for this column is visible. |
 | [getFilterColumns()](#getFilterColumns--)| Gets the collection of the filter columns. |
 | [setRange(number, number, number)](#setRange-number-number-number-)| Sets the range to which the specified AutoFilter applies. |
-| [getCellArea()](#getCellArea--)| Gets the [CellArea](./cellarea/) where the specified AutoFilter applies to. |
+| [getCellArea()](#getCellArea--)| Gets the [CellArea](/nodejs-cpp/cellarea/) where the specified AutoFilter applies to. |
 | [addFilter(number, string)](#addFilter-number-string-)| Adds a filter for a filter column. |
 | [addDateFilter(number, DateTimeGroupingType, number, number, number, number, number, number)](#addDateFilter-number-datetimegroupingtype-number-number-number-number-number-number-)| Adds a date filter. |
 | [removeDateFilter(number, DateTimeGroupingType, number, number, number, number, number, number)](#removeDateFilter-number-datetimegroupingtype-number-number-number-number-number-number-)| Removes a date filter. |
@@ -55,7 +55,7 @@ getSorter() : DataSorter;
 
 **Returns**
 
-[DataSorter](./datasorter/)
+[DataSorter](/nodejs-cpp/datasorter/)
 
 ### getRange() {#getRange--}
 
@@ -99,7 +99,7 @@ getFilterColumns() : FilterColumnCollection;
 
 **Returns**
 
-[FilterColumnCollection](./filtercolumncollection/)
+[FilterColumnCollection](/nodejs-cpp/filtercolumncollection/)
 
 ### setRange(number, number, number) {#setRange-number-number-number-}
 
@@ -118,7 +118,7 @@ setRange(row: number, startColumn: number, endColumn: number) : void;
 
 ### getCellArea() {#getCellArea--}
 
-Gets the [CellArea](./cellarea/) where the specified AutoFilter applies to.
+Gets the [CellArea](/nodejs-cpp/cellarea/) where the specified AutoFilter applies to.
 
 ```javascript
 getCellArea() : CellArea;
@@ -127,7 +127,7 @@ getCellArea() : CellArea;
 
 **Returns**
 
-[CellArea](./cellarea/)
+[CellArea](/nodejs-cpp/cellarea/)
 
 ### addFilter(number, string) {#addFilter-number-string-}
 
@@ -159,7 +159,7 @@ addDateFilter(fieldIndex: number, dateTimeGroupingType: DateTimeGroupingType, ye
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fieldIndex | number | The integer offset of the field on which you want to base the filter          /// (from the left of the list; the leftmost field is field 0). |
-| dateTimeGroupingType | [DateTimeGroupingType](./datetimegroupingtype/) | The grouping type |
+| dateTimeGroupingType | [DateTimeGroupingType](/nodejs-cpp/datetimegroupingtype/) | The grouping type |
 | year | number | The year. |
 | month | number | The month. |
 | day | number | The day. |
@@ -183,7 +183,7 @@ removeDateFilter(fieldIndex: number, dateTimeGroupingType: DateTimeGroupingType,
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fieldIndex | number | The integer offset of the field on which you want to base the filter          /// (from the left of the list; the leftmost field is field 0). |
-| dateTimeGroupingType | [DateTimeGroupingType](./datetimegroupingtype/) | The grouping type |
+| dateTimeGroupingType | [DateTimeGroupingType](/nodejs-cpp/datetimegroupingtype/) | The grouping type |
 | year | number | The year. |
 | month | number | The month. |
 | day | number | The day. |
@@ -268,7 +268,7 @@ dynamic_Filter(fieldIndex: number, dynamicFilterType: DynamicFilterType) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fieldIndex | number | The integer offset of the field on which you want to base the filter          /// (from the left of the list; the leftmost field is field 0). |
-| dynamicFilterType | [DynamicFilterType](./dynamicfiltertype/) | Dynamic filter type. |
+| dynamicFilterType | [DynamicFilterType](/nodejs-cpp/dynamicfiltertype/) | Dynamic filter type. |
 
 ### addFontColorFilter(number, CellsColor) {#addFontColorFilter-number-cellscolor-}
 
@@ -282,7 +282,7 @@ addFontColorFilter(fieldIndex: number, color: CellsColor) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fieldIndex | number | The integer offset of the field on which you want to base the filter          /// (from the left of the list; the leftmost field is field 0). |
-| color | [CellsColor](./cellscolor/) | The [CellsColor](./cellscolor/) object. |
+| color | [CellsColor](/nodejs-cpp/cellscolor/) | The [CellsColor](/nodejs-cpp/cellscolor/) object. |
 
 ### addFillColorFilter(number, BackgroundType, CellsColor, CellsColor) {#addFillColorFilter-number-backgroundtype-cellscolor-cellscolor-}
 
@@ -296,9 +296,9 @@ addFillColorFilter(fieldIndex: number, pattern: BackgroundType, foregroundColor:
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fieldIndex | number | The integer offset of the field on which you want to base the filter          /// (from the left of the list; the leftmost field is field 0). |
-| pattern | [BackgroundType](./backgroundtype/) | The background pattern type. |
-| foregroundColor | [CellsColor](./cellscolor/) | The foreground color. |
-| backgroundColor | [CellsColor](./cellscolor/) | The background color. |
+| pattern | [BackgroundType](/nodejs-cpp/backgroundtype/) | The background pattern type. |
+| foregroundColor | [CellsColor](/nodejs-cpp/cellscolor/) | The foreground color. |
+| backgroundColor | [CellsColor](/nodejs-cpp/cellscolor/) | The background color. |
 
 ### addIconFilter(number, IconSetType, number) {#addIconFilter-number-iconsettype-number-}
 
@@ -312,7 +312,7 @@ addIconFilter(fieldIndex: number, iconSetType: IconSetType, iconId: number) : vo
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fieldIndex | number | The integer offset of the field on which you want to base the filter          /// (from the left of the list; the leftmost field is field 0). |
-| iconSetType | [IconSetType](./iconsettype/) | The icon set type. |
+| iconSetType | [IconSetType](/nodejs-cpp/iconsettype/) | The icon set type. |
 | iconId | number | The icon id. |
 
 **Remarks**

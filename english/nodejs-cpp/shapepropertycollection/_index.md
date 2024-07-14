@@ -19,11 +19,11 @@ class ShapePropertyCollection;
 
 | Method | Description |
 | --- | --- |
-| [getGlowEffect()](#getGlowEffect--)| Represents a [GlowEffect](./gloweffect/) object that specifies glow effect for the chart element or shape. |
-| [getFormat3D()](#getFormat3D--)| Represents a [Format3D](./format3d/) object that specifies 3D shape properties for the chart element or shape. |
+| [getGlowEffect()](#getGlowEffect--)| Represents a [GlowEffect](/nodejs-cpp/gloweffect/) object that specifies glow effect for the chart element or shape. |
+| [getFormat3D()](#getFormat3D--)| Represents a [Format3D](/nodejs-cpp/format3d/) object that specifies 3D shape properties for the chart element or shape. |
 | [getSoftEdgeRadius()](#getSoftEdgeRadius--)| Gets and sets the radius of blur to apply to the edges, in unit of points. |
 | [setSoftEdgeRadius(number)](#setSoftEdgeRadius-number-)| Gets and sets the radius of blur to apply to the edges, in unit of points. |
-| [getShadowEffect()](#getShadowEffect--)| Represents a [ShadowEffect](./shadoweffect/) object that specifies shadow effect for the chart element or shape. |
+| [getShadowEffect()](#getShadowEffect--)| Represents a [ShadowEffect](/nodejs-cpp/shadoweffect/) object that specifies shadow effect for the chart element or shape. |
 | [clearGlowEffect()](#clearGlowEffect--)| Clears the glow effect of the shape. |
 | [hasGlowEffect()](#hasGlowEffect--)| Indicates if the shape has glow effect data. |
 | [hasFormat3D()](#hasFormat3D--)| Indicates if the shape has 3d format data. |
@@ -34,7 +34,7 @@ class ShapePropertyCollection;
 
 ### getGlowEffect() {#getGlowEffect--}
 
-Represents a [GlowEffect](./gloweffect/) object that specifies glow effect for the chart element or shape.
+Represents a [GlowEffect](/nodejs-cpp/gloweffect/) object that specifies glow effect for the chart element or shape.
 
 ```javascript
 getGlowEffect() : GlowEffect;
@@ -43,11 +43,11 @@ getGlowEffect() : GlowEffect;
 
 **Returns**
 
-[GlowEffect](./gloweffect/)
+[GlowEffect](/nodejs-cpp/gloweffect/)
 
 ### getFormat3D() {#getFormat3D--}
 
-Represents a [Format3D](./format3d/) object that specifies 3D shape properties for the chart element or shape.
+Represents a [Format3D](/nodejs-cpp/format3d/) object that specifies 3D shape properties for the chart element or shape.
 
 ```javascript
 getFormat3D() : Format3D;
@@ -56,7 +56,7 @@ getFormat3D() : Format3D;
 
 **Returns**
 
-[Format3D](./format3d/)
+[Format3D](/nodejs-cpp/format3d/)
 
 ### getSoftEdgeRadius() {#getSoftEdgeRadius--}
 
@@ -82,7 +82,7 @@ setSoftEdgeRadius(value: number) : void;
 
 ### getShadowEffect() {#getShadowEffect--}
 
-Represents a [ShadowEffect](./shadoweffect/) object that specifies shadow effect for the chart element or shape.
+Represents a [ShadowEffect](/nodejs-cpp/shadoweffect/) object that specifies shadow effect for the chart element or shape.
 
 ```javascript
 getShadowEffect() : ShadowEffect;
@@ -91,7 +91,7 @@ getShadowEffect() : ShadowEffect;
 
 **Returns**
 
-[ShadowEffect](./shadoweffect/)
+[ShadowEffect](/nodejs-cpp/shadoweffect/)
 
 ### clearGlowEffect() {#clearGlowEffect--}
 

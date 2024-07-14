@@ -116,7 +116,7 @@ getHorizontalAlignment() : TextAlignmentType;
 
 **Returns**
 
-[TextAlignmentType](./textalignmenttype/)
+[TextAlignmentType](/nodejs-cpp/textalignmenttype/)
 
 ### setHorizontalAlignment(TextAlignmentType) {#setHorizontalAlignment-textalignmenttype-}
 
@@ -129,7 +129,7 @@ setHorizontalAlignment(value: TextAlignmentType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [TextAlignmentType](./textalignmenttype/) | The value to set. |
+| value | [TextAlignmentType](/nodejs-cpp/textalignmenttype/) | The value to set. |
 
 ### getVerticalAlignment() {#getVerticalAlignment--}
 
@@ -142,7 +142,7 @@ getVerticalAlignment() : TextAlignmentType;
 
 **Returns**
 
-[TextAlignmentType](./textalignmenttype/)
+[TextAlignmentType](/nodejs-cpp/textalignmenttype/)
 
 ### setVerticalAlignment(TextAlignmentType) {#setVerticalAlignment-textalignmenttype-}
 
@@ -155,6 +155,6 @@ setVerticalAlignment(value: TextAlignmentType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [TextAlignmentType](./textalignmenttype/) | The value to set. |
+| value | [TextAlignmentType](/nodejs-cpp/textalignmenttype/) | The value to set. |
 
 

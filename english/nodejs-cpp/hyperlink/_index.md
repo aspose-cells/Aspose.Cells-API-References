@@ -85,7 +85,7 @@ getArea() : CellArea;
 
 **Returns**
 
-[CellArea](./cellarea/)
+[CellArea](/nodejs-cpp/cellarea/)
 
 ### getScreenTip() {#getScreenTip--}
 
@@ -120,7 +120,7 @@ getLinkType() : TargetModeType;
 
 **Returns**
 
-[TargetModeType](./targetmodetype/)
+[TargetModeType](/nodejs-cpp/targetmodetype/)
 
 ### delete() {#delete--}
 

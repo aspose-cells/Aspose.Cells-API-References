@@ -44,7 +44,7 @@ getType() : VbaProjectReferenceType;
 
 **Returns**
 
-[VbaProjectReferenceType](./vbaprojectreferencetype/)
+[VbaProjectReferenceType](/nodejs-cpp/vbaprojectreferencetype/)
 
 ### getName() {#getName--}
 
@@ -191,6 +191,6 @@ copy(source: VbaProjectReference) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| source | [VbaProjectReference](./vbaprojectreference/) |  |
+| source | [VbaProjectReference](/nodejs-cpp/vbaprojectreference/) |  |
 
 

@@ -82,7 +82,7 @@ getType() : BevelPresetType;
 
 **Returns**
 
-[BevelPresetType](./bevelpresettype/)
+[BevelPresetType](/nodejs-cpp/bevelpresettype/)
 
 ### setType(BevelPresetType) {#setType-bevelpresettype-}
 
@@ -95,6 +95,6 @@ setType(value: BevelPresetType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [BevelPresetType](./bevelpresettype/) | The value to set. |
+| value | [BevelPresetType](/nodejs-cpp/bevelpresettype/) | The value to set. |
 
 

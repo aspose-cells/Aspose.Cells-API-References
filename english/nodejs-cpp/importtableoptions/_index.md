@@ -40,15 +40,15 @@ class ImportTableOptions;
 | [getDateFormat()](#getDateFormat--)| Gets or sets date format string for cells with imported datetime values. |
 | [setDateFormat(string)](#setDateFormat-string-)| Gets or sets date format string for cells with imported datetime values. |
 | [getNumberFormats()](#getNumberFormats--)| Gets or sets the number formats |
-| [setNumberFormats(string[])](#setNumberFormats-string[]-)| Gets or sets the number formats |
+| [setNumberFormats(string[])](#setNumberFormats-stringarray-)| Gets or sets the number formats |
 | [getIsFormulas()](#getIsFormulas--)| Indicates whether the data are formulas. |
-| [setIsFormulas(boolean[])](#setIsFormulas-boolean[]-)| Indicates whether the data are formulas. |
+| [setIsFormulas(boolean[])](#setIsFormulas-booleanarray-)| Indicates whether the data are formulas. |
 | [getTotalRows()](#getTotalRows--)| Gets or sets total row count to import from data source. -1 means all rows of given data source. |
 | [setTotalRows(number)](#setTotalRows-number-)| Gets or sets total row count to import from data source. -1 means all rows of given data source. |
 | [getTotalColumns()](#getTotalColumns--)| Gets or sets total column count to import from data source. -1 means all rows of given data source. |
 | [setTotalColumns(number)](#setTotalColumns-number-)| Gets or sets total column count to import from data source. -1 means all rows of given data source. |
 | [getColumnIndexes()](#getColumnIndexes--)| Gets or sets the columns(0-based) to import from data source. null means all columns should be imported. |
-| [setColumnIndexes(number[])](#setColumnIndexes-number[]-)| Gets or sets the columns(0-based) to import from data source. null means all columns should be imported. |
+| [setColumnIndexes(number[])](#setColumnIndexes-numberarray-)| Gets or sets the columns(0-based) to import from data source. null means all columns should be imported. |
 | [isHtmlString()](#isHtmlString--)| Indicates whether the value contains html tags. |
 | [setIsHtmlString(boolean)](#setIsHtmlString-boolean-)| Indicates whether the value contains html tags. |
 | [getCheckMergedCells()](#getCheckMergedCells--)| Indicates whether checking merged cells. |
@@ -239,7 +239,7 @@ getNumberFormats() : string[];
 
 string[]
 
-### setNumberFormats(string[]) {#setNumberFormats-string[]-}
+### setNumberFormats(string[]) {#setNumberFormats-stringarray-}
 
 Gets or sets the number formats
 
@@ -265,7 +265,7 @@ getIsFormulas() : boolean[];
 
 boolean[]
 
-### setIsFormulas(boolean[]) {#setIsFormulas-boolean[]-}
+### setIsFormulas(boolean[]) {#setIsFormulas-booleanarray-}
 
 Indicates whether the data are formulas.
 
@@ -335,7 +335,7 @@ getColumnIndexes() : number[];
 
 number[]
 
-### setColumnIndexes(number[]) {#setColumnIndexes-number[]-}
+### setColumnIndexes(number[]) {#setColumnIndexes-numberarray-}
 
 Gets or sets the columns(0-based) to import from data source. null means all columns should be imported.
 

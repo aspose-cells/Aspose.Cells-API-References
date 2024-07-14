@@ -19,7 +19,7 @@ class ValidationCollection;
 
 | Method | Description |
 | --- | --- |
-| [get(number)](#get-number-)| Gets the [Validation](./validation/) element at the specified index. |
+| [get(number)](#get-number-)| Gets the [Validation](/nodejs-cpp/validation/) element at the specified index. |
 | [add(CellArea)](#add-cellarea-)| Adds a data validation to the collection. |
 | [removeACell(number, number)](#removeACell-number-number-)| Removes all validation setting on the cell. |
 | [removeArea(CellArea)](#removeArea-cellarea-)| Removes all validation setting on the range.. |
@@ -29,7 +29,7 @@ class ValidationCollection;
 
 ### get(number) {#get-number-}
 
-Gets the [Validation](./validation/) element at the specified index.
+Gets the [Validation](/nodejs-cpp/validation/) element at the specified index.
 
 ```javascript
 get(index: number) : Validation;
@@ -55,11 +55,11 @@ add(ca: CellArea) : number;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| ca | [CellArea](./cellarea/) | The area contains this validation. |
+| ca | [CellArea](/nodejs-cpp/cellarea/) | The area contains this validation. |
 
 **Returns**
 
-[Validation](./validation/) object index.
+[Validation](/nodejs-cpp/validation/) object index.
 
 ### removeACell(number, number) {#removeACell-number-number-}
 
@@ -86,7 +86,7 @@ removeArea(ca: CellArea) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| ca | [CellArea](./cellarea/) | The range which contains the validations setting. |
+| ca | [CellArea](/nodejs-cpp/cellarea/) | The range which contains the validations setting. |
 
 ### getValidationInCell(number, number) {#getValidationInCell-number-number-}
 
@@ -104,7 +104,7 @@ getValidationInCell(row: number, column: number) : Validation;
 
 **Returns**
 
-Returns a [Validation](./validation/) object or null if there is no validation for given cell
+Returns a [Validation](/nodejs-cpp/validation/) object or null if there is no validation for given cell
 
 ### getCount() {#getCount--}
 
