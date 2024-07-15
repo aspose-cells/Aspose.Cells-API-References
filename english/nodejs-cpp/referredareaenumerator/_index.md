@@ -7,7 +7,7 @@ url: /nodejs-cpp/referredareaenumerator/
 ---
 
 ## ReferredAreaEnumerator class
-Iterator of [ReferredArea](/nodejs-cpp/referredarea/) objects. Please use for...of statement to iterate over them.
+Iterator of [ReferredArea](../referredarea/) objects. Please use for...of statement to iterate over them.
 
 ```javascript
 class ReferredAreaEnumerator implements Iterable<ReferredArea> {

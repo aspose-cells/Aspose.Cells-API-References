@@ -121,7 +121,7 @@ getFontSettings() : FontSetting[];
 
 **Returns**
 
-[FontSetting](/nodejs-cpp/fontsetting/)[]
+[FontSetting](../fontsetting/)[]
 
 ### setFontSettings(FontSetting[]) {#setFontSettings-fontsettingarray-}
 
@@ -134,6 +134,6 @@ setFontSettings(value: FontSetting[]) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [FontSetting](/nodejs-cpp/fontsetting/)[] | The value to set. |
+| value | [FontSetting](../fontsetting/)[] | The value to set. |
 
 

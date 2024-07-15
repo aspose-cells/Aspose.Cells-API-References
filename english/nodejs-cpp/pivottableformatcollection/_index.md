@@ -20,7 +20,7 @@ class PivotTableFormatCollection;
 | Method | Description |
 | --- | --- |
 | [get(number)](#get-number-)| Gets the format by the index. |
-| [add()](#add--)| Add a [PivotTableFormat](/nodejs-cpp/pivottableformat/). |
+| [add()](#add--)| Add a [PivotTableFormat](../pivottableformat/). |
 | [formatArea(PivotFieldType, number, PivotFieldSubtotalType, PivotTableSelectionType, boolean, boolean, Style)](#formatArea-pivotfieldtype-number-pivotfieldsubtotaltype-pivottableselectiontype-boolean-boolean-style-)| Formats selected area. |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
 
@@ -40,11 +40,11 @@ get(index: number) : PivotTableFormat;
 
 **Returns**
 
-[PivotTableFormat](/nodejs-cpp/pivottableformat/)
+[PivotTableFormat](../pivottableformat/)
 
 ### add() {#add--}
 
-Add a [PivotTableFormat](/nodejs-cpp/pivottableformat/).
+Add a [PivotTableFormat](../pivottableformat/).
 
 ```javascript
 add() : number;
@@ -66,17 +66,17 @@ formatArea(axisType: PivotFieldType, fieldPosition: number, subtotalType: PivotF
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| axisType | [PivotFieldType](/nodejs-cpp/pivotfieldtype/) | The region of the PivotTable to which this rule applies. |
+| axisType | [PivotFieldType](../pivotfieldtype/) | The region of the PivotTable to which this rule applies. |
 | fieldPosition | number | Position of the field within the axis to which this rule applies. |
-| subtotalType | [PivotFieldSubtotalType](/nodejs-cpp/pivotfieldsubtotaltype/) | The subtotal filter type of the pivot field |
-| selectionType | [PivotTableSelectionType](/nodejs-cpp/pivottableselectiontype/) | Indicates how to select data. |
+| subtotalType | [PivotFieldSubtotalType](../pivotfieldsubtotaltype/) | The subtotal filter type of the pivot field |
+| selectionType | [PivotTableSelectionType](../pivottableselectiontype/) | Indicates how to select data. |
 | isGrandRow | boolean | Indicates whether selecting grand total rows. |
 | isGrandColumn | boolean | Indicates whether selecting grand total columns. |
-| style | [Style](/nodejs-cpp/style/) | The style which appies to the area of the pivot table. |
+| style | [Style](../style/) | The style which appies to the area of the pivot table. |
 
 **Returns**
 
-[PivotTableFormat](/nodejs-cpp/pivottableformat/)
+[PivotTableFormat](../pivottableformat/)
 
 ### getCount() {#getCount--}
 

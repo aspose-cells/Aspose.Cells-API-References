@@ -65,11 +65,11 @@ class Series;
 | [getSeriesLines()](#getSeriesLines--)| Returns a SeriesLines object that represents the series lines for a stacked bar chart or a stacked column chart. Applies only to stacked bar and stacked column charts. |
 | [getHasDropLines()](#getHasDropLines--)| True if the chart has drop lines. Applies only to line chart or area charts. |
 | [setHasDropLines(boolean)](#setHasDropLines-boolean-)| True if the chart has drop lines. Applies only to line chart or area charts. |
-| [getDropLines()](#getDropLines--)| Returns a [Line](/nodejs-cpp/line/) object that represents the drop lines for a series on the line chart or area chart. Applies only to line chart or area charts. |
+| [getDropLines()](#getDropLines--)| Returns a [Line](../line/) object that represents the drop lines for a series on the line chart or area chart. Applies only to line chart or area charts. |
 | [getHasUpDownBars()](#getHasUpDownBars--)| True if a line chart has up and down bars. Applies only to line charts. |
 | [setHasUpDownBars(boolean)](#setHasUpDownBars-boolean-)| True if a line chart has up and down bars. Applies only to line charts. |
 | [getUpBars()](#getUpBars--)| Returns an DropBars object that represents the up bars on a line chart. Applies only to line charts. |
-| [getDownBars()](#getDownBars--)| Returns a [DropBars](/nodejs-cpp/dropbars/) object that represents the down bars on a line chart. Applies only to line charts. |
+| [getDownBars()](#getDownBars--)| Returns a [DropBars](../dropbars/) object that represents the down bars on a line chart. Applies only to line charts. |
 | [isColorVaried()](#isColorVaried--)| Represents if the color of points is varied. The chart must contain only one series. |
 | [setIsColorVaried(boolean)](#setIsColorVaried-boolean-)| Represents if the color of points is varied. The chart must contain only one series. |
 | [getGapWidth()](#getGapWidth--)| Returns or sets the space between bar or column clusters, as a percentage of the bar or column width. The value of this property must be between 0 and 500. |
@@ -101,7 +101,7 @@ class Series;
 | [setHasLeaderLines(boolean)](#setHasLeaderLines-boolean-)| True if the series has leader lines. |
 | [getLeaderLines()](#getLeaderLines--)| Represents leader lines on a chart. Leader lines connect data labels to data points. This object isn’t a collection; there’s no object that represents a single leader line. |
 | [getLegendEntry()](#getLegendEntry--)| Gets the legend entry according to this series. |
-| [getShapeProperties()](#getShapeProperties--)| Gets the [ShapePropertyCollection](/nodejs-cpp/shapepropertycollection/) object that holds the visual shape properties of the Series. |
+| [getShapeProperties()](#getShapeProperties--)| Gets the [ShapePropertyCollection](../shapepropertycollection/) object that holds the visual shape properties of the Series. |
 | [move(number)](#move-number-)| Moves the series up or down. |
 
 
@@ -138,7 +138,7 @@ getLayoutProperties() : SeriesLayoutProperties;
 
 **Returns**
 
-[SeriesLayoutProperties](/nodejs-cpp/serieslayoutproperties/)
+[SeriesLayoutProperties](../serieslayoutproperties/)
 
 ### getPoints() {#getPoints--}
 
@@ -151,7 +151,7 @@ getPoints() : ChartPointCollection;
 
 **Returns**
 
-[ChartPointCollection](/nodejs-cpp/chartpointcollection/)
+[ChartPointCollection](../chartpointcollection/)
 
 **Remarks**
 
@@ -168,7 +168,7 @@ getArea() : Area;
 
 **Returns**
 
-[Area](/nodejs-cpp/area/)
+[Area](../area/)
 
 ### getBorder() {#getBorder--}
 
@@ -181,7 +181,7 @@ getBorder() : Line;
 
 **Returns**
 
-[Line](/nodejs-cpp/line/)
+[Line](../line/)
 
 ### getName() {#getName--}
 
@@ -353,7 +353,7 @@ getTrendLines() : TrendlineCollection;
 
 **Returns**
 
-[TrendlineCollection](/nodejs-cpp/trendlinecollection/)
+[TrendlineCollection](../trendlinecollection/)
 
 ### getSmooth() {#getSmooth--}
 
@@ -432,7 +432,7 @@ getBar3DShapeType() : Bar3DShapeType;
 
 **Returns**
 
-[Bar3DShapeType](/nodejs-cpp/bar3dshapetype/)
+[Bar3DShapeType](../bar3dshapetype/)
 
 ### setBar3DShapeType(Bar3DShapeType) {#setBar3DShapeType-bar3dshapetype-}
 
@@ -445,7 +445,7 @@ setBar3DShapeType(value: Bar3DShapeType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [Bar3DShapeType](/nodejs-cpp/bar3dshapetype/) | The value to set. |
+| value | [Bar3DShapeType](../bar3dshapetype/) | The value to set. |
 
 ### getDataLabels() {#getDataLabels--}
 
@@ -458,7 +458,7 @@ getDataLabels() : DataLabels;
 
 **Returns**
 
-[DataLabels](/nodejs-cpp/datalabels/)
+[DataLabels](../datalabels/)
 
 ### getType() {#getType--}
 
@@ -471,7 +471,7 @@ getType() : ChartType;
 
 **Returns**
 
-[ChartType](/nodejs-cpp/charttype/)
+[ChartType](../charttype/)
 
 ### setType(ChartType) {#setType-charttype-}
 
@@ -484,7 +484,7 @@ setType(value: ChartType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ChartType](/nodejs-cpp/charttype/) | The value to set. |
+| value | [ChartType](../charttype/) | The value to set. |
 
 ### getMarker() {#getMarker--}
 
@@ -497,7 +497,7 @@ getMarker() : Marker;
 
 **Returns**
 
-[Marker](/nodejs-cpp/marker/)
+[Marker](../marker/)
 
 ### getPlotOnSecondAxis() {#getPlotOnSecondAxis--}
 
@@ -532,7 +532,7 @@ getXErrorBar() : ErrorBar;
 
 **Returns**
 
-[ErrorBar](/nodejs-cpp/errorbar/)
+[ErrorBar](../errorbar/)
 
 ### getYErrorBar() {#getYErrorBar--}
 
@@ -545,7 +545,7 @@ getYErrorBar() : ErrorBar;
 
 **Returns**
 
-[ErrorBar](/nodejs-cpp/errorbar/)
+[ErrorBar](../errorbar/)
 
 ### getHasHiLoLines() {#getHasHiLoLines--}
 
@@ -580,7 +580,7 @@ getHiLoLines() : Line;
 
 **Returns**
 
-[Line](/nodejs-cpp/line/)
+[Line](../line/)
 
 ### getHasSeriesLines() {#getHasSeriesLines--}
 
@@ -615,7 +615,7 @@ getSeriesLines() : Line;
 
 **Returns**
 
-[Line](/nodejs-cpp/line/)
+[Line](../line/)
 
 ### getHasDropLines() {#getHasDropLines--}
 
@@ -641,7 +641,7 @@ setHasDropLines(value: boolean) : void;
 
 ### getDropLines() {#getDropLines--}
 
-Returns a [Line](/nodejs-cpp/line/) object that represents the drop lines for a series on the line chart or area chart. Applies only to line chart or area charts.
+Returns a [Line](../line/) object that represents the drop lines for a series on the line chart or area chart. Applies only to line chart or area charts.
 
 ```javascript
 getDropLines() : Line;
@@ -650,7 +650,7 @@ getDropLines() : Line;
 
 **Returns**
 
-[Line](/nodejs-cpp/line/)
+[Line](../line/)
 
 ### getHasUpDownBars() {#getHasUpDownBars--}
 
@@ -685,11 +685,11 @@ getUpBars() : DropBars;
 
 **Returns**
 
-[DropBars](/nodejs-cpp/dropbars/)
+[DropBars](../dropbars/)
 
 ### getDownBars() {#getDownBars--}
 
-Returns a [DropBars](/nodejs-cpp/dropbars/) object that represents the down bars on a line chart. Applies only to line charts.
+Returns a [DropBars](../dropbars/) object that represents the down bars on a line chart. Applies only to line charts.
 
 ```javascript
 getDownBars() : DropBars;
@@ -698,7 +698,7 @@ getDownBars() : DropBars;
 
 **Returns**
 
-[DropBars](/nodejs-cpp/dropbars/)
+[DropBars](../dropbars/)
 
 ### isColorVaried() {#isColorVaried--}
 
@@ -821,7 +821,7 @@ getSplitType() : ChartSplitType;
 
 **Returns**
 
-[ChartSplitType](/nodejs-cpp/chartsplittype/)
+[ChartSplitType](../chartsplittype/)
 
 ### setSplitType(ChartSplitType) {#setSplitType-chartsplittype-}
 
@@ -834,7 +834,7 @@ setSplitType(value: ChartSplitType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ChartSplitType](/nodejs-cpp/chartsplittype/) | The value to set. |
+| value | [ChartSplitType](../chartsplittype/) | The value to set. |
 
 ### getSplitValue() {#getSplitValue--}
 
@@ -900,11 +900,11 @@ getSizeRepresents() : BubbleSizeRepresents;
 
 **Returns**
 
-[BubbleSizeRepresents](/nodejs-cpp/bubblesizerepresents/)
+[BubbleSizeRepresents](../bubblesizerepresents/)
 
 **Remarks**
 
-BubbleSizeRepresents.SizeIsArea means the value [Series.BubbleSizes](/nodejs-cpp/series.bubblesizes/) is the area of the bubble. BubbleSizeRepresents.SizeIsWidth means the value [Series.BubbleSizes](/nodejs-cpp/series.bubblesizes/) is the width of the bubble.
+BubbleSizeRepresents.SizeIsArea means the value [Series.BubbleSizes](../series.bubblesizes/) is the area of the bubble. BubbleSizeRepresents.SizeIsWidth means the value [Series.BubbleSizes](../series.bubblesizes/) is the width of the bubble.
 
 ### setSizeRepresents(BubbleSizeRepresents) {#setSizeRepresents-bubblesizerepresents-}
 
@@ -917,11 +917,11 @@ setSizeRepresents(value: BubbleSizeRepresents) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [BubbleSizeRepresents](/nodejs-cpp/bubblesizerepresents/) | The value to set. |
+| value | [BubbleSizeRepresents](../bubblesizerepresents/) | The value to set. |
 
 **Remarks**
 
-BubbleSizeRepresents.SizeIsArea means the value [Series.BubbleSizes](/nodejs-cpp/series.bubblesizes/) is the area of the bubble. BubbleSizeRepresents.SizeIsWidth means the value [Series.BubbleSizes](/nodejs-cpp/series.bubblesizes/) is the width of the bubble.
+BubbleSizeRepresents.SizeIsArea means the value [Series.BubbleSizes](../series.bubblesizes/) is the area of the bubble. BubbleSizeRepresents.SizeIsWidth means the value [Series.BubbleSizes](../series.bubblesizes/) is the width of the bubble.
 
 ### getShowNegativeBubbles() {#getShowNegativeBubbles--}
 
@@ -1044,7 +1044,7 @@ getLeaderLines() : Line;
 
 **Returns**
 
-[Line](/nodejs-cpp/line/)
+[Line](../line/)
 
 ### getLegendEntry() {#getLegendEntry--}
 
@@ -1057,11 +1057,11 @@ getLegendEntry() : LegendEntry;
 
 **Returns**
 
-[LegendEntry](/nodejs-cpp/legendentry/)
+[LegendEntry](../legendentry/)
 
 ### getShapeProperties() {#getShapeProperties--}
 
-Gets the [ShapePropertyCollection](/nodejs-cpp/shapepropertycollection/) object that holds the visual shape properties of the Series.
+Gets the [ShapePropertyCollection](../shapepropertycollection/) object that holds the visual shape properties of the Series.
 
 ```javascript
 getShapeProperties() : ShapePropertyCollection;
@@ -1070,7 +1070,7 @@ getShapeProperties() : ShapePropertyCollection;
 
 **Returns**
 
-[ShapePropertyCollection](/nodejs-cpp/shapepropertycollection/)
+[ShapePropertyCollection](../shapepropertycollection/)
 
 ### move(number) {#move-number-}
 

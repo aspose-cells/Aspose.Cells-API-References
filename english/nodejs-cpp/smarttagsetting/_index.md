@@ -1,14 +1,14 @@
 ﻿---
 title: SmartTagSetting
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents all SmartTagCollectionnodejscppsmarttagcollection object in the worksheet.
+description: Represents all SmartTagCollection..smarttagcollection object in the worksheet.
 type: docs
 url: /nodejs-cpp/smarttagsetting/
 ---
 
 ## SmartTagSetting class
 
-Represents all [SmartTagCollection](/nodejs-cpp/smarttagcollection/) object in the worksheet.
+Represents all [SmartTagCollection](../smarttagcollection/) object in the worksheet.
 
 ```javascript
 class SmartTagSetting;
@@ -19,15 +19,15 @@ class SmartTagSetting;
 
 | Method | Description |
 | --- | --- |
-| [get(number)](#get-number-)| Gets a [SmartTagCollection](/nodejs-cpp/smarttagcollection/) object by the index. |
-| [add(number, number)](#add-number-number-)| Adds a [SmartTagCollection](/nodejs-cpp/smarttagcollection/) object to a cell. |
+| [get(number)](#get-number-)| Gets a [SmartTagCollection](../smarttagcollection/) object by the index. |
+| [add(number, number)](#add-number-number-)| Adds a [SmartTagCollection](../smarttagcollection/) object to a cell. |
 | [add(string)](#add-string-)| Add a cell smart tags. |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
 
 
 ### get(number) {#get-number-}
 
-Gets a [SmartTagCollection](/nodejs-cpp/smarttagcollection/) object by the index.
+Gets a [SmartTagCollection](../smarttagcollection/) object by the index.
 
 ```javascript
 get(index: number) : SmartTagCollection;
@@ -36,15 +36,15 @@ get(index: number) : SmartTagCollection;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | number | The index of the [SmartTagCollection](/nodejs-cpp/smarttagcollection/) object in the list. |
+| index | number | The index of the [SmartTagCollection](../smarttagcollection/) object in the list. |
 
 **Returns**
 
-[SmartTagCollection](/nodejs-cpp/smarttagcollection/)
+[SmartTagCollection](../smarttagcollection/)
 
 ### add(number, number) {#add-number-number-}
 
-Adds a [SmartTagCollection](/nodejs-cpp/smarttagcollection/) object to a cell.
+Adds a [SmartTagCollection](../smarttagcollection/) object to a cell.
 
 ```javascript
 add(row: number, column: number) : number;
@@ -58,7 +58,7 @@ add(row: number, column: number) : number;
 
 **Returns**
 
-Returns index of a [SmartTagCollection](/nodejs-cpp/smarttagcollection/) object in the worksheet.
+Returns index of a [SmartTagCollection](../smarttagcollection/) object in the worksheet.
 
 ### add(string) {#add-string-}
 

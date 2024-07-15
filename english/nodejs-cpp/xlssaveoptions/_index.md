@@ -87,7 +87,7 @@ constructor(saveFormat: SaveFormat);
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| saveFormat | [SaveFormat](/nodejs-cpp/saveformat/) | The file format.         /// It should be [SaveFormat.Excel97To2003](/nodejs-cpp/saveformat.excel97to2003/) or [SaveFormat.Excel97To2003](/nodejs-cpp/saveformat.excel97to2003/),         /// otherwise the saved format will be set as [SaveFormat.Excel97To2003](/nodejs-cpp/saveformat.excel97to2003/) automatically. |
+| saveFormat | [SaveFormat](../saveformat/) | The file format.         /// It should be [SaveFormat.Excel97To2003](../saveformat.excel97to2003/) or [SaveFormat.Excel97To2003](../saveformat.excel97to2003/),         /// otherwise the saved format will be set as [SaveFormat.Excel97To2003](../saveformat.excel97to2003/) automatically. |
 
 ### getLightCellsDataProvider() {#getLightCellsDataProvider--}
 
@@ -100,7 +100,7 @@ getLightCellsDataProvider() : LightCellsDataProvider;
 
 **Returns**
 
-[LightCellsDataProvider](/nodejs-cpp/lightcellsdataprovider/)
+[LightCellsDataProvider](../lightcellsdataprovider/)
 
 ### setLightCellsDataProvider(LightCellsDataProvider) {#setLightCellsDataProvider-lightcellsdataprovider-}
 
@@ -113,7 +113,7 @@ setLightCellsDataProvider(value: LightCellsDataProvider) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [LightCellsDataProvider](/nodejs-cpp/lightcellsdataprovider/) | The value to set. |
+| value | [LightCellsDataProvider](../lightcellsdataprovider/) | The value to set. |
 
 ### getMatchColor() {#getMatchColor--}
 
@@ -148,7 +148,7 @@ getSaveFormat() : SaveFormat;
 
 **Returns**
 
-[SaveFormat](/nodejs-cpp/saveformat/)
+[SaveFormat](../saveformat/)
 
 ### getClearData() {#getClearData--}
 
@@ -361,7 +361,7 @@ setWarningCallback(value: IWarningCallback) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IWarningCallback](/nodejs-cpp/iwarningcallback/) | The value to set. |
+| value | [IWarningCallback](../iwarningcallback/) | The value to set. |
 
 ### getWarningCallback() {#getWarningCallback--}
 
@@ -374,7 +374,7 @@ getWarningCallback() : IWarningCallback;
 
 **Returns**
 
-[IWarningCallback](/nodejs-cpp/iwarningcallback/)
+[IWarningCallback](../iwarningcallback/)
 
 ### getUpdateSmartArt() {#getUpdateSmartArt--}
 

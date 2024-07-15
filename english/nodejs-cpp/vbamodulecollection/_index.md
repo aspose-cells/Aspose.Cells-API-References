@@ -1,14 +1,14 @@
 ﻿---
 title: VbaModuleCollection
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents the list of VbaModulenodejscppvbamodule
+description: Represents the list of VbaModule..vbamodule
 type: docs
 url: /nodejs-cpp/vbamodulecollection/
 ---
 
 ## VbaModuleCollection class
 
-Represents the list of [VbaModule](/nodejs-cpp/vbamodule/)
+Represents the list of [VbaModule](../vbamodule/)
 
 ```javascript
 class VbaModuleCollection;
@@ -19,7 +19,7 @@ class VbaModuleCollection;
 
 | Method | Description |
 | --- | --- |
-| [get(number)](#get-number-)| Gets [VbaModule](/nodejs-cpp/vbamodule/) in the list by the index. |
+| [get(number)](#get-number-)| Gets [VbaModule](../vbamodule/) in the list by the index. |
 | [addDesignerStorage(string, number[])](#addDesignerStorage-string-numberarray-)|  |
 | [getDesignerStorage(string)](#getDesignerStorage-string-)| Represents the data of Designer. |
 | [add(Worksheet)](#add-worksheet-)| Adds module for a worksheet. |
@@ -32,7 +32,7 @@ class VbaModuleCollection;
 
 ### get(number) {#get-number-}
 
-Gets [VbaModule](/nodejs-cpp/vbamodule/) in the list by the index.
+Gets [VbaModule](../vbamodule/) in the list by the index.
 
 ```javascript
 get(index: number) : VbaModule;
@@ -45,7 +45,7 @@ get(index: number) : VbaModule;
 
 **Returns**
 
-[VbaModule](/nodejs-cpp/vbamodule/)
+[VbaModule](../vbamodule/)
 
 ### addDesignerStorage(string, number[]) {#addDesignerStorage-string-numberarray-}
 
@@ -93,7 +93,7 @@ add(sheet: Worksheet) : number;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sheet | [Worksheet](/nodejs-cpp/worksheet/) | The worksheet |
+| sheet | [Worksheet](../worksheet/) | The worksheet |
 
 ### add(VbaModuleType, string) {#add-vbamoduletype-string-}
 
@@ -106,7 +106,7 @@ add(type: VbaModuleType, name: string) : number;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | [VbaModuleType](/nodejs-cpp/vbamoduletype/) | The type of module. |
+| type | [VbaModuleType](../vbamoduletype/) | The type of module. |
 | name | string | The name of module. |
 
 ### addUserForm(string, string, number[]) {#addUserForm-string-string-numberarray-}
@@ -135,7 +135,7 @@ remove(sheet: Worksheet) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sheet | [Worksheet](/nodejs-cpp/worksheet/) | The worksheet |
+| sheet | [Worksheet](../worksheet/) | The worksheet |
 
 ### remove(string) {#remove-string-}
 

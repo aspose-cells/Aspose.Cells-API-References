@@ -62,7 +62,7 @@ getFieldType() : OdsCellFieldType;
 
 **Returns**
 
-[OdsCellFieldType](/nodejs-cpp/odscellfieldtype/)
+[OdsCellFieldType](../odscellfieldtype/)
 
 ### setFieldType(OdsCellFieldType) {#setFieldType-odscellfieldtype-}
 
@@ -75,7 +75,7 @@ setFieldType(value: OdsCellFieldType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [OdsCellFieldType](/nodejs-cpp/odscellfieldtype/) | The value to set. |
+| value | [OdsCellFieldType](../odscellfieldtype/) | The value to set. |
 
 ### getRow() {#getRow--}
 

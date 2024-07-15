@@ -47,7 +47,7 @@ getAutoFilter() : AutoFilter;
 
 **Returns**
 
-[AutoFilter](/nodejs-cpp/autofilter/)
+[AutoFilter](../autofilter/)
 
 ### getFilterType() {#getFilterType--}
 
@@ -60,7 +60,7 @@ getFilterType() : PivotFilterType;
 
 **Returns**
 
-[PivotFilterType](/nodejs-cpp/pivotfiltertype/)
+[PivotFilterType](../pivotfiltertype/)
 
 ### getFieldIndex() {#getFieldIndex--}
 

@@ -1,13 +1,13 @@
 ﻿---
 title: PdfCustomPropertiesExport
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Specifies the way CustomDocumentPropertyCollectionnodejscppcustomdocumentpropertycollection are exported to PDF file.
+description: Specifies the way CustomDocumentPropertyCollection..customdocumentpropertycollection are exported to PDF file.
 type: docs
 url: /nodejs-cpp/pdfcustompropertiesexport/
 ---
 
 ## PdfCustomPropertiesExport enumeration
-Specifies the way [CustomDocumentPropertyCollection](/nodejs-cpp/customdocumentpropertycollection/) are exported to PDF file.
+Specifies the way [CustomDocumentPropertyCollection](../customdocumentpropertycollection/) are exported to PDF file.
 ### Values
 | Name | Value | Description |
 | --- | --- | --- |

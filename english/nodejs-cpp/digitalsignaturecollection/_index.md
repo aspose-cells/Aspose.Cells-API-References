@@ -49,7 +49,7 @@ add(digitalSignature: DigitalSignature) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| digitalSignature | [DigitalSignature](/nodejs-cpp/digitalsignature/) | Digital signature in collection. |
+| digitalSignature | [DigitalSignature](../digitalsignature/) | Digital signature in collection. |
 
 ### getEnumerator() {#getEnumerator--}
 

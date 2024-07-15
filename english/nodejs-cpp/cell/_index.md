@@ -36,11 +36,11 @@ class Cell;
 | [getBoolValue()](#getBoolValue--)| Gets the boolean value contained in the cell. |
 | [getHasCustomStyle()](#getHasCustomStyle--)| Indicates whether this cell has custom style settings(different from the default one inherited from corresponding row, column, or workbook). |
 | [getSharedStyleIndex()](#getSharedStyleIndex--)| Gets cell's shared style index in the style pool. |
-| [setFormula(string)](#setFormula-string-)| Gets or sets a formula of the [Cell](/nodejs-cpp/cell/). |
+| [setFormula(string)](#setFormula-string-)| Gets or sets a formula of the [Cell](../cell/). |
 | [getFormulaLocal()](#getFormulaLocal--)| Get the locale formatted formula of the cell. |
 | [setFormulaLocal(string)](#setFormulaLocal-string-)| Get the locale formatted formula of the cell. |
-| [getR1C1Formula()](#getR1C1Formula--)| Gets or sets a R1C1 formula of the [Cell](/nodejs-cpp/cell/). |
-| [setR1C1Formula(string)](#setR1C1Formula-string-)| Gets or sets a R1C1 formula of the [Cell](/nodejs-cpp/cell/). |
+| [getR1C1Formula()](#getR1C1Formula--)| Gets or sets a R1C1 formula of the [Cell](../cell/). |
+| [setR1C1Formula(string)](#setR1C1Formula-string-)| Gets or sets a R1C1 formula of the [Cell](../cell/). |
 | [getContainsExternalLink()](#getContainsExternalLink--)| Indicates whether this cell contains an external link. Only applies when the cell is a formula cell. |
 | [isArrayHeader()](#isArrayHeader--)| Indicates the cell's formula is an array formula and it is the first cell of the array. |
 | [isDynamicArrayFormula()](#isDynamicArrayFormula--)| Indicates whether the cell's formula is dynamic array formula(true) or legacy array formula(false). |
@@ -92,10 +92,10 @@ class Cell;
 | [getCharacters()](#getCharacters--)| Returns all Characters objects that represents a range of characters within the cell text. |
 | [getCharacters(boolean)](#getCharacters-boolean-)| Returns all Characters objects that represents a range of characters within the cell text. |
 | [setCharacters(FontSetting[])](#setCharacters-fontsettingarray-)| Sets rich text format of the cell. |
-| [getMergedRange()](#getMergedRange--)| Returns a [Range](/nodejs-cpp/range/) object which represents a merged range. |
+| [getMergedRange()](#getMergedRange--)| Returns a [Range](../range/) object which represents a merged range. |
 | [getHtmlString(boolean)](#getHtmlString-boolean-)| Gets the html string which contains data and some formats in this cell. |
 | [toString()](#toString--)| Returns a string represents the current Cell object. |
-| [toJson()](#toJson--)| Convert [Cell](/nodejs-cpp/cell/) to JSON struct data. |
+| [toJson()](#toJson--)| Convert [Cell](../cell/) to JSON struct data. |
 | [getHashCode()](#getHashCode--)| Serves as a hash function for a particular type. |
 | [equals(Cell)](#equals-cell-)| Checks whether this object refers to the same cell with another cell object. |
 | [getConditionalFormattingResult()](#getConditionalFormattingResult--)| Get the result of the conditional formatting. |
@@ -116,7 +116,7 @@ getWorksheet() : Worksheet;
 
 **Returns**
 
-[Worksheet](/nodejs-cpp/worksheet/)
+[Worksheet](../worksheet/)
 
 ### getDateTimeValue() {#getDateTimeValue--}
 
@@ -165,7 +165,7 @@ getType() : CellValueType;
 
 **Returns**
 
-[CellValueType](/nodejs-cpp/cellvaluetype/)
+[CellValueType](../cellvaluetype/)
 
 ### getName() {#getName--}
 
@@ -217,11 +217,11 @@ getNumberCategoryType() : NumberCategoryType;
 
 **Returns**
 
-[NumberCategoryType](/nodejs-cpp/numbercategorytype/)
+[NumberCategoryType](../numbercategorytype/)
 
 **Remarks**
 
-When cell's formatting pattern is combined with conditional formatting patterns, then the returned type is corresponding to the part which is used for current value of this cell. For example, if the formatting pattern for this cell is "#,##0;(#,##0);"-";@", then when cell's value is numeric and not 0, the returned type is [NumberCategoryType.Number](/nodejs-cpp/numbercategorytype.number/); When cell's value is 0 or not numeric value, the returned type is [NumberCategoryType.Text](/nodejs-cpp/numbercategorytype.text/).
+When cell's formatting pattern is combined with conditional formatting patterns, then the returned type is corresponding to the part which is used for current value of this cell. For example, if the formatting pattern for this cell is "#,##0;(#,##0);"-";@", then when cell's value is numeric and not 0, the returned type is [NumberCategoryType.Number](../numbercategorytype.number/); When cell's value is 0 or not numeric value, the returned type is [NumberCategoryType.Text](../numbercategorytype.text/).
 
 ### getDisplayStringValue() {#getDisplayStringValue--}
 
@@ -288,7 +288,7 @@ getSharedStyleIndex() : number;
 
 ### setFormula(string) {#setFormula-string-}
 
-Gets or sets a formula of the [Cell](/nodejs-cpp/cell/).
+Gets or sets a formula of the [Cell](../cell/).
 
 ```javascript
 setFormula(value: string) : void;
@@ -327,7 +327,7 @@ setFormulaLocal(value: string) : void;
 
 ### getR1C1Formula() {#getR1C1Formula--}
 
-Gets or sets a R1C1 formula of the [Cell](/nodejs-cpp/cell/).
+Gets or sets a R1C1 formula of the [Cell](../cell/).
 
 ```javascript
 getR1C1Formula() : string;
@@ -336,7 +336,7 @@ getR1C1Formula() : string;
 
 ### setR1C1Formula(string) {#setR1C1Formula-string-}
 
-Gets or sets a R1C1 formula of the [Cell](/nodejs-cpp/cell/).
+Gets or sets a R1C1 formula of the [Cell](../cell/).
 
 ```javascript
 setR1C1Formula(value: string) : void;
@@ -430,7 +430,7 @@ getComment() : Comment;
 
 **Returns**
 
-[Comment](/nodejs-cpp/comment/)
+[Comment](../comment/)
 
 **Remarks**
 
@@ -486,7 +486,7 @@ calculate(options: CalculationOptions) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| options | [CalculationOptions](/nodejs-cpp/calculationoptions/) | Options for calculation |
+| options | [CalculationOptions](../calculationoptions/) | Options for calculation |
 
 ### putValue(boolean) {#putValue-boolean-}
 
@@ -597,7 +597,7 @@ getStringValue(formatStrategy: CellValueFormatStrategy) : string;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| formatStrategy | [CellValueFormatStrategy](/nodejs-cpp/cellvalueformatstrategy/) | The formatted strategy. |
+| formatStrategy | [CellValueFormatStrategy](../cellvalueformatstrategy/) | The formatted strategy. |
 
 ### getWidthOfValue() {#getWidthOfValue--}
 
@@ -628,7 +628,7 @@ getDisplayStyle() : Style;
 
 **Returns**
 
-[Style](/nodejs-cpp/style/)
+[Style](../style/)
 
 ### getDisplayStyle(boolean) {#getDisplayStyle-boolean-}
 
@@ -645,7 +645,7 @@ getDisplayStyle(includeMergedBorders: boolean) : Style;
 
 **Returns**
 
-[Style](/nodejs-cpp/style/)
+[Style](../style/)
 
 ### getFormatConditions() {#getFormatConditions--}
 
@@ -658,7 +658,7 @@ getFormatConditions() : FormatConditionCollection[];
 
 **Returns**
 
-Returns [FormatConditionCollection](/nodejs-cpp/formatconditioncollection/) object
+Returns [FormatConditionCollection](../formatconditioncollection/) object
 
 ### getStyle() {#getStyle--}
 
@@ -675,7 +675,7 @@ Style object.
 
 **Remarks**
 
-To change the style of the cell, please call Cell.SetStyle() method after modifying the returned style object. This method is same with [GetStyle(bool)](/nodejs-cpp/getstyle(bool)/) with true value for the parameter.
+To change the style of the cell, please call Cell.SetStyle() method after modifying the returned style object. This method is same with [GetStyle(bool)](../getstyle(bool)/) with true value for the parameter.
 
 ### getStyle(boolean) {#getStyle-boolean-}
 
@@ -705,7 +705,7 @@ setStyle(style: Style) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| style | [Style](/nodejs-cpp/style/) | The cell style. |
+| style | [Style](../style/) | The cell style. |
 
 **Remarks**
 
@@ -722,7 +722,7 @@ setStyle(style: Style, explicitFlag: boolean) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| style | [Style](/nodejs-cpp/style/) | The cell style. |
+| style | [Style](../style/) | The cell style. |
 | explicitFlag | boolean | True, only overwriting formatting which is explicitly set. |
 
 ### setStyle(Style, StyleFlag) {#setStyle-style-styleflag-}
@@ -736,8 +736,8 @@ setStyle(style: Style, flag: StyleFlag) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| style | [Style](/nodejs-cpp/style/) | The cell style. |
-| flag | [StyleFlag](/nodejs-cpp/styleflag/) | The style flag. |
+| style | [Style](../style/) | The cell style. |
+| flag | [StyleFlag](../styleflag/) | The style flag. |
 
 ### getFormula(boolean, boolean) {#getFormula-boolean-boolean-}
 
@@ -786,7 +786,7 @@ setArrayFormula(arrayFormula: string, rowNumber: number, columnNumber: number, o
 | arrayFormula | string | Array formula. |
 | rowNumber | number | Number of rows to populate result of the array formula. |
 | columnNumber | number | Number of columns to populate result of the array formula. |
-| options | [FormulaParseOptions](/nodejs-cpp/formulaparseoptions/) | Options for parsing the formula. |
+| options | [FormulaParseOptions](../formulaparseoptions/) | Options for parsing the formula. |
 
 ### setSharedFormula(string, number, number) {#setSharedFormula-string-number-number-}
 
@@ -817,7 +817,7 @@ setSharedFormula(sharedFormula: string, rowNumber: number, columnNumber: number,
 | sharedFormula | string | Shared formula. |
 | rowNumber | number | Number of rows to populate the formula. |
 | columnNumber | number | Number of columns to populate the formula. |
-| options | [FormulaParseOptions](/nodejs-cpp/formulaparseoptions/) | Options for parsing the formula. |
+| options | [FormulaParseOptions](../formulaparseoptions/) | Options for parsing the formula. |
 
 ### getPrecedents() {#getPrecedents--}
 
@@ -834,7 +834,7 @@ Collection of all references appearing in this cell's formula.
 
 **Remarks**
 
-<ul> <li>Returns null if this is not a formula cell.</li> <li>All references appearing in this cell's formula will be returned no matter they are referenced or not while calculating. For example, although cell A2 in formula "=IF(TRUE,A1,A2)" is not used while calculating, it is still taken as the formula's precedents.</li> <li>To get those references which influence the calculation only, please use [GetPrecedentsInCalculation()](/nodejs-cpp/getprecedentsincalculation()/).</li> </ul>
+<ul> <li>Returns null if this is not a formula cell.</li> <li>All references appearing in this cell's formula will be returned no matter they are referenced or not while calculating. For example, although cell A2 in formula "=IF(TRUE,A1,A2)" is not used while calculating, it is still taken as the formula's precedents.</li> <li>To get those references which influence the calculation only, please use [GetPrecedentsInCalculation()](../getprecedentsincalculation()/).</li> </ul>
 
 ### getDependents(boolean) {#getDependents-boolean-}
 
@@ -851,11 +851,11 @@ getDependents(isAll: boolean) : Cell[];
 
 **Returns**
 
-[Cell](/nodejs-cpp/cell/)[]
+[Cell](../cell/)[]
 
 **Remarks**
 
-<ul> <li>If one reference containing this cell appears in one cell's formula, that cell will be taken as the dependent of this cell, no matter the reference or this cell is used or not while calculating. For example, although cell A2 in formula "=IF(TRUE,A1,A2)" is not used while calculating, this formula is still be taken as A2's dependent. </li> <li>To get those formulas whose calculated results depend on this cell, please use [GetDependentsInCalculation(bool)](/nodejs-cpp/getdependentsincalculation(bool)/).</li> <li>When tracing dependents for one cell, all formulas in the workbook or worksheet will be analized and checked. So it is a time consumed process. If user need to trace dependents for lots of cells, using this method will cause poor performance. For performance consideration, user should use [GetDependentsInCalculation(bool)](/nodejs-cpp/getdependentsincalculation(bool)/) instead. Or, user may gather precedents map of all cells by [GetPrecedents()](/nodejs-cpp/getprecedents()/) firstly, and then build the dependents map according to the precedents map.</li> </ul>
+<ul> <li>If one reference containing this cell appears in one cell's formula, that cell will be taken as the dependent of this cell, no matter the reference or this cell is used or not while calculating. For example, although cell A2 in formula "=IF(TRUE,A1,A2)" is not used while calculating, this formula is still be taken as A2's dependent. </li> <li>To get those formulas whose calculated results depend on this cell, please use [GetDependentsInCalculation(bool)](../getdependentsincalculation(bool)/).</li> <li>When tracing dependents for one cell, all formulas in the workbook or worksheet will be analized and checked. So it is a time consumed process. If user need to trace dependents for lots of cells, using this method will cause poor performance. For performance consideration, user should use [GetDependentsInCalculation(bool)](../getdependentsincalculation(bool)/) instead. Or, user may gather precedents map of all cells by [GetPrecedents()](../getprecedents()/) firstly, and then build the dependents map according to the precedents map.</li> </ul>
 
 ### getPrecedentsInCalculation() {#getPrecedentsInCalculation--}
 
@@ -872,7 +872,7 @@ Enumerator to enumerate all references(ReferredArea)
 
 **Remarks**
 
-This method can only work with the situation that [FormulaSettings.EnableCalculationChain](/nodejs-cpp/formulasettings.enablecalculationchain/) is true for the workbook and the workbook has been fully calculated. If this cell is not a formula or it does not reference to any other cells, null will be returned.
+This method can only work with the situation that [FormulaSettings.EnableCalculationChain](../formulasettings.enablecalculationchain/) is true for the workbook and the workbook has been fully calculated. If this cell is not a formula or it does not reference to any other cells, null will be returned.
 
 ### getDependentsInCalculation(boolean) {#getDependentsInCalculation-boolean-}
 
@@ -893,7 +893,7 @@ Enumerator to enumerate all dependents(Cell objects)
 
 **Remarks**
 
-To use this method, please make sure the workbook has been set with true value for [FormulaSettings.EnableCalculationChain](/nodejs-cpp/formulasettings.enablecalculationchain/) and has been fully calculated with this setting. If there is no formula reference to this cell, null will be returned.
+To use this method, please make sure the workbook has been set with true value for [FormulaSettings.EnableCalculationChain](../formulasettings.enablecalculationchain/) and has been fully calculated with this setting. If there is no formula reference to this cell, null will be returned.
 
 ### getArrayRange() {#getArrayRange--}
 
@@ -924,7 +924,7 @@ setDynamicArrayFormula(arrayFormula: string, options: FormulaParseOptions, calcu
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arrayFormula | string | the formula expression |
-| options | [FormulaParseOptions](/nodejs-cpp/formulaparseoptions/) | options to parse formula.         /// "Parse" option will be ignored and the formula will always be parsed immediately |
+| options | [FormulaParseOptions](../formulaparseoptions/) | options to parse formula.         /// "Parse" option will be ignored and the formula will always be parsed immediately |
 | calculateValue | boolean | whether calculate this dynamic array formula for those cells in the spilled range. |
 
 **Returns**
@@ -959,7 +959,7 @@ copy(cell: Cell) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| cell | [Cell](/nodejs-cpp/cell/) | Source [Cell](/nodejs-cpp/cell/) object. |
+| cell | [Cell](../cell/) | Source [Cell](../cell/) object. |
 
 ### characters(number, number) {#characters-number-number-}
 
@@ -996,7 +996,7 @@ replace(placeHolder: string, newValue: string, options: ReplaceOptions) : void;
 | --- | --- | --- |
 | placeHolder | string | Cell placeholder |
 | newValue | string | String value to replace |
-| options | [ReplaceOptions](/nodejs-cpp/replaceoptions/) | The replace options |
+| options | [ReplaceOptions](../replaceoptions/) | The replace options |
 
 ### insertText(number, string) {#insertText-number-string-}
 
@@ -1062,11 +1062,11 @@ setCharacters(characters: FontSetting[]) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| characters | [FontSetting](/nodejs-cpp/fontsetting/)[] | All Characters objects. |
+| characters | [FontSetting](../fontsetting/)[] | All Characters objects. |
 
 ### getMergedRange() {#getMergedRange--}
 
-Returns a [Range](/nodejs-cpp/range/) object which represents a merged range.
+Returns a [Range](../range/) object which represents a merged range.
 
 ```javascript
 getMergedRange() : Range;
@@ -1075,7 +1075,7 @@ getMergedRange() : Range;
 
 **Returns**
 
-[Range](/nodejs-cpp/range/) object. Null if this cell is not merged.
+[Range](../range/) object. Null if this cell is not merged.
 
 ### getHtmlString(boolean) {#getHtmlString-boolean-}
 
@@ -1101,7 +1101,7 @@ toString() : string;
 
 ### toJson() {#toJson--}
 
-Convert [Cell](/nodejs-cpp/cell/) to JSON struct data.
+Convert [Cell](../cell/) to JSON struct data.
 
 ```javascript
 toJson() : string;
@@ -1132,7 +1132,7 @@ equals(cell: Cell) : boolean;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| cell | [Cell](/nodejs-cpp/cell/) | another cell object |
+| cell | [Cell](../cell/) | another cell object |
 
 **Returns**
 
@@ -1149,7 +1149,7 @@ getConditionalFormattingResult() : ConditionalFormattingResult;
 
 **Returns**
 
-[ConditionalFormattingResult](/nodejs-cpp/conditionalformattingresult/)
+[ConditionalFormattingResult](../conditionalformattingresult/)
 
 **Remarks**
 
@@ -1166,7 +1166,7 @@ getValidation() : Validation;
 
 **Returns**
 
-[Validation](/nodejs-cpp/validation/)
+[Validation](../validation/)
 
 ### getValidationValue() {#getValidationValue--}
 
@@ -1188,7 +1188,7 @@ getTable() : ListObject;
 
 **Returns**
 
-[ListObject](/nodejs-cpp/listobject/)
+[ListObject](../listobject/)
 
 ### dispose() {#dispose--}
 

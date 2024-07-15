@@ -1,14 +1,14 @@
 ﻿---
 title: WorksheetCollection
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Encapsulates a collection of Worksheetnodejscppworksheet objects.
+description: Encapsulates a collection of Worksheet..worksheet objects.
 type: docs
 url: /nodejs-cpp/worksheetcollection/
 ---
 
 ## WorksheetCollection class
 
-Encapsulates a collection of [Worksheet](/nodejs-cpp/worksheet/) objects.
+Encapsulates a collection of [Worksheet](../worksheet/) objects.
 
 ```javascript
 class WorksheetCollection;
@@ -19,7 +19,7 @@ class WorksheetCollection;
 
 | Method | Description |
 | --- | --- |
-| [get(number)](#get-number-)| Gets the [Worksheet](/nodejs-cpp/worksheet/) element at the specified index. |
+| [get(number)](#get-number-)| Gets the [Worksheet](../worksheet/) element at the specified index. |
 | [getWebExtensionTaskPanes()](#getWebExtensionTaskPanes--)| Gets the list of task panes. |
 | [getWebExtensions()](#getWebExtensions--)| Gets the list of task panes. |
 | [getThreadedCommentAuthors()](#getThreadedCommentAuthors--)| Gets the list of threaded comment authors. |
@@ -33,13 +33,13 @@ class WorksheetCollection;
 | [getDxfs()](#getDxfs--)| Gets the master differential formatting records. |
 | [getXmlMaps()](#getXmlMaps--)| Gets and sets the XML maps in the workbook. |
 | [setXmlMaps(XmlMapCollection)](#setXmlMaps-xmlmapcollection-)| Gets and sets the XML maps in the workbook. |
-| [getBuiltInDocumentProperties()](#getBuiltInDocumentProperties--)| Returns a [DocumentProperty](/nodejs-cpp/documentproperty/) collection that represents all the built-in document properties of the spreadsheet. |
-| [getCustomDocumentProperties()](#getCustomDocumentProperties--)| Returns a [DocumentProperty](/nodejs-cpp/documentproperty/) collection that represents all the custom document properties of the spreadsheet. |
+| [getBuiltInDocumentProperties()](#getBuiltInDocumentProperties--)| Returns a [DocumentProperty](../documentproperty/) collection that represents all the built-in document properties of the spreadsheet. |
+| [getCustomDocumentProperties()](#getCustomDocumentProperties--)| Returns a [DocumentProperty](../documentproperty/) collection that represents all the custom document properties of the spreadsheet. |
 | [getExternalLinks()](#getExternalLinks--)| Represents external links in a workbook. |
-| [getTableStyles()](#getTableStyles--)| Gets [TableStyles](/nodejs-cpp/tablestyles/) object. |
+| [getTableStyles()](#getTableStyles--)| Gets [TableStyles](../tablestyles/) object. |
 | [getRevisionLogs()](#getRevisionLogs--)| Represents revision logs. |
-| [createRange(string, number)](#createRange-string-number-)| Creates a [Range](/nodejs-cpp/range/) object from an address of the range. |
-| [createUnionRange(string, number)](#createUnionRange-string-number-)| Creates a [Range](/nodejs-cpp/range/) object from an address of the range. |
+| [createRange(string, number)](#createRange-string-number-)| Creates a [Range](../range/) object from an address of the range. |
+| [createUnionRange(string, number)](#createUnionRange-string-number-)| Creates a [Range](../range/) object from an address of the range. |
 | [getSheetByCodeName(string)](#getSheetByCodeName-string-)| Gets the worksheet by the code name. |
 | [sortNames()](#sortNames--)| Sorts the defined names. |
 | [insert(number, SheetType)](#insert-number-sheettype-)| Insert a worksheet. |
@@ -57,7 +57,7 @@ class WorksheetCollection;
 | [addCopy(number)](#addCopy-number-)| Adds a worksheet to the collection and copies data from an existed worksheet. |
 | [addCopy(Worksheet[], string[])](#addCopy-worksheetarray-stringarray-)| Copy a group of worksheets. |
 | [getRangeByName(string)](#getRangeByName-string-)| Gets Range object by pre-defined name. |
-| [getRangeByName(string, number, boolean)](#getRangeByName-string-number-boolean-)| Gets [Range](/nodejs-cpp/range/) by pre-defined name or table's name |
+| [getRangeByName(string, number, boolean)](#getRangeByName-string-number-boolean-)| Gets [Range](../range/) by pre-defined name or table's name |
 | [getNamedRanges()](#getNamedRanges--)| Gets all pre-defined named ranges in the spreadsheet. |
 | [getNamedRangesAndTables()](#getNamedRangesAndTables--)| Gets all pre-defined named ranges in the spreadsheet. |
 | [setOleSize(number, number, number, number)](#setOleSize-number-number-number-number-)| Sets displayed size when Workbook file is used as an Ole object. |
@@ -70,7 +70,7 @@ class WorksheetCollection;
 
 ### get(number) {#get-number-}
 
-Gets the [Worksheet](/nodejs-cpp/worksheet/) element at the specified index.
+Gets the [Worksheet](../worksheet/) element at the specified index.
 
 ```javascript
 get(index: number) : Worksheet;
@@ -96,7 +96,7 @@ getWebExtensionTaskPanes() : WebExtensionTaskPaneCollection;
 
 **Returns**
 
-[WebExtensionTaskPaneCollection](/nodejs-cpp/webextensiontaskpanecollection/)
+[WebExtensionTaskPaneCollection](../webextensiontaskpanecollection/)
 
 ### getWebExtensions() {#getWebExtensions--}
 
@@ -109,7 +109,7 @@ getWebExtensions() : WebExtensionCollection;
 
 **Returns**
 
-[WebExtensionCollection](/nodejs-cpp/webextensioncollection/)
+[WebExtensionCollection](../webextensioncollection/)
 
 ### getThreadedCommentAuthors() {#getThreadedCommentAuthors--}
 
@@ -122,7 +122,7 @@ getThreadedCommentAuthors() : ThreadedCommentAuthorCollection;
 
 **Returns**
 
-[ThreadedCommentAuthorCollection](/nodejs-cpp/threadedcommentauthorcollection/)
+[ThreadedCommentAuthorCollection](../threadedcommentauthorcollection/)
 
 ### isRefreshAllConnections() {#isRefreshAllConnections--}
 
@@ -157,7 +157,7 @@ getNames() : NameCollection;
 
 **Returns**
 
-[NameCollection](/nodejs-cpp/namecollection/)
+[NameCollection](../namecollection/)
 
 ### getActiveSheetName() {#getActiveSheetName--}
 
@@ -222,7 +222,7 @@ getDxfs() : DxfCollection;
 
 **Returns**
 
-[DxfCollection](/nodejs-cpp/dxfcollection/)
+[DxfCollection](../dxfcollection/)
 
 ### getXmlMaps() {#getXmlMaps--}
 
@@ -235,7 +235,7 @@ getXmlMaps() : XmlMapCollection;
 
 **Returns**
 
-[XmlMapCollection](/nodejs-cpp/xmlmapcollection/)
+[XmlMapCollection](../xmlmapcollection/)
 
 ### setXmlMaps(XmlMapCollection) {#setXmlMaps-xmlmapcollection-}
 
@@ -248,11 +248,11 @@ setXmlMaps(value: XmlMapCollection) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [XmlMapCollection](/nodejs-cpp/xmlmapcollection/) | The value to set. |
+| value | [XmlMapCollection](../xmlmapcollection/) | The value to set. |
 
 ### getBuiltInDocumentProperties() {#getBuiltInDocumentProperties--}
 
-Returns a [DocumentProperty](/nodejs-cpp/documentproperty/) collection that represents all the built-in document properties of the spreadsheet.
+Returns a [DocumentProperty](../documentproperty/) collection that represents all the built-in document properties of the spreadsheet.
 
 ```javascript
 getBuiltInDocumentProperties() : BuiltInDocumentPropertyCollection;
@@ -261,7 +261,7 @@ getBuiltInDocumentProperties() : BuiltInDocumentPropertyCollection;
 
 **Returns**
 
-[BuiltInDocumentPropertyCollection](/nodejs-cpp/builtindocumentpropertycollection/)
+[BuiltInDocumentPropertyCollection](../builtindocumentpropertycollection/)
 
 **Remarks**
 
@@ -269,7 +269,7 @@ A new property cannot be added to built-in document properties list. You can onl
 
 ### getCustomDocumentProperties() {#getCustomDocumentProperties--}
 
-Returns a [DocumentProperty](/nodejs-cpp/documentproperty/) collection that represents all the custom document properties of the spreadsheet.
+Returns a [DocumentProperty](../documentproperty/) collection that represents all the custom document properties of the spreadsheet.
 
 ```javascript
 getCustomDocumentProperties() : CustomDocumentPropertyCollection;
@@ -278,7 +278,7 @@ getCustomDocumentProperties() : CustomDocumentPropertyCollection;
 
 **Returns**
 
-[CustomDocumentPropertyCollection](/nodejs-cpp/customdocumentpropertycollection/)
+[CustomDocumentPropertyCollection](../customdocumentpropertycollection/)
 
 ### getExternalLinks() {#getExternalLinks--}
 
@@ -291,11 +291,11 @@ getExternalLinks() : ExternalLinkCollection;
 
 **Returns**
 
-[ExternalLinkCollection](/nodejs-cpp/externallinkcollection/)
+[ExternalLinkCollection](../externallinkcollection/)
 
 ### getTableStyles() {#getTableStyles--}
 
-Gets [TableStyles](/nodejs-cpp/tablestyles/) object.
+Gets [TableStyles](../tablestyles/) object.
 
 ```javascript
 getTableStyles() : TableStyleCollection;
@@ -304,7 +304,7 @@ getTableStyles() : TableStyleCollection;
 
 **Returns**
 
-[TableStyleCollection](/nodejs-cpp/tablestylecollection/)
+[TableStyleCollection](../tablestylecollection/)
 
 ### getRevisionLogs() {#getRevisionLogs--}
 
@@ -317,11 +317,11 @@ getRevisionLogs() : RevisionLogCollection;
 
 **Returns**
 
-[RevisionLogCollection](/nodejs-cpp/revisionlogcollection/)
+[RevisionLogCollection](../revisionlogcollection/)
 
 ### createRange(string, number) {#createRange-string-number-}
 
-Creates a [Range](/nodejs-cpp/range/) object from an address of the range.
+Creates a [Range](../range/) object from an address of the range.
 
 ```javascript
 createRange(address: string, sheetIndex: number) : Range;
@@ -335,11 +335,11 @@ createRange(address: string, sheetIndex: number) : Range;
 
 **Returns**
 
-A [Range](/nodejs-cpp/range/) object
+A [Range](../range/) object
 
 ### createUnionRange(string, number) {#createUnionRange-string-number-}
 
-Creates a [Range](/nodejs-cpp/range/) object from an address of the range.
+Creates a [Range](../range/) object from an address of the range.
 
 ```javascript
 createUnionRange(address: string, sheetIndex: number) : UnionRange;
@@ -353,7 +353,7 @@ createUnionRange(address: string, sheetIndex: number) : UnionRange;
 
 **Returns**
 
-A [Range](/nodejs-cpp/range/) object
+A [Range](../range/) object
 
 ### getSheetByCodeName(string) {#getSheetByCodeName-string-}
 
@@ -397,7 +397,7 @@ insert(index: number, sheetType: SheetType) : Worksheet;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | number | The sheet index |
-| sheetType | [SheetType](/nodejs-cpp/sheettype/) | The sheet type. |
+| sheetType | [SheetType](../sheettype/) | The sheet type. |
 
 **Returns**
 
@@ -415,7 +415,7 @@ insert(index: number, sheetType: SheetType, sheetName: string) : Worksheet;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | number | The sheet index |
-| sheetType | [SheetType](/nodejs-cpp/sheettype/) | The sheet type. |
+| sheetType | [SheetType](../sheettype/) | The sheet type. |
 | sheetName | string | The sheet name. |
 
 **Returns**
@@ -433,11 +433,11 @@ add(type: SheetType) : number;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | [SheetType](/nodejs-cpp/sheettype/) | Worksheet type. |
+| type | [SheetType](../sheettype/) | Worksheet type. |
 
 **Returns**
 
-[Worksheet](/nodejs-cpp/worksheet/) object index.
+[Worksheet](../worksheet/) object index.
 
 ### add() {#add--}
 
@@ -450,7 +450,7 @@ add() : number;
 
 **Returns**
 
-[Worksheet](/nodejs-cpp/worksheet/) object index.
+[Worksheet](../worksheet/) object index.
 
 ### add(string) {#add-string-}
 
@@ -467,7 +467,7 @@ add(sheetName: string) : Worksheet;
 
 **Returns**
 
-[Worksheet](/nodejs-cpp/worksheet/) object.
+[Worksheet](../worksheet/) object.
 
 ### swapSheet(number, number) {#swapSheet-number-number-}
 
@@ -513,7 +513,7 @@ registerAddInFunction(id: number, functionName: string) : string;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| id | number | ID of the data which contains addin functions,         /// can be got by the first call of [RegisterAddInFunction(string, string, bool)](/nodejs-cpp/registeraddinfunction(string, string, bool)/) for the same addin file. |
+| id | number | ID of the data which contains addin functions,         /// can be got by the first call of [RegisterAddInFunction(string, string, bool)](../registeraddinfunction(string, string, bool)/) for the same addin file. |
 | functionName | string | the addin function name |
 
 **Returns**
@@ -574,7 +574,7 @@ addCopy(sheetName: string) : number;
 
 **Returns**
 
-[Worksheet](/nodejs-cpp/worksheet/) object index.
+[Worksheet](../worksheet/) object index.
 
 ### addCopy(number) {#addCopy-number-}
 
@@ -591,7 +591,7 @@ addCopy(sheetIndex: number) : number;
 
 **Returns**
 
-[Worksheet](/nodejs-cpp/worksheet/) object index.
+[Worksheet](../worksheet/) object index.
 
 ### addCopy(Worksheet[], string[]) {#addCopy-worksheetarray-stringarray-}
 
@@ -604,7 +604,7 @@ addCopy(source: Worksheet[], destSheetNames: string[]) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| source | [Worksheet](/nodejs-cpp/worksheet/)[] | The source worksheets. |
+| source | [Worksheet](../worksheet/)[] | The source worksheets. |
 | destSheetNames | string[] | The names of the copied sheets. |
 
 ### getRangeByName(string) {#getRangeByName-string-}
@@ -626,7 +626,7 @@ Range object.<p></p>Returns null if the named range does not exist.
 
 ### getRangeByName(string, number, boolean) {#getRangeByName-string-number-boolean-}
 
-Gets [Range](/nodejs-cpp/range/) by pre-defined name or table's name
+Gets [Range](../range/) by pre-defined name or table's name
 
 ```javascript
 getRangeByName(rangeName: string, currentSheetIndex: number, includeTable: boolean) : Range;
@@ -641,7 +641,7 @@ getRangeByName(rangeName: string, currentSheetIndex: number, includeTable: boole
 
 **Returns**
 
-[Range](/nodejs-cpp/range/)
+[Range](../range/)
 
 ### getNamedRanges() {#getNamedRanges--}
 
@@ -727,7 +727,7 @@ refreshPivotTables(option: PivotTableRefreshOption) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| option | [PivotTableRefreshOption](/nodejs-cpp/pivottablerefreshoption/) | The option for refreshing data source of the pivot tables. |
+| option | [PivotTableRefreshOption](../pivottablerefreshoption/) | The option for refreshing data source of the pivot tables. |
 
 ### getCount() {#getCount--}
 

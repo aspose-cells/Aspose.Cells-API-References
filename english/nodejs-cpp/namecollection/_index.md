@@ -1,14 +1,14 @@
 ﻿---
 title: NameCollection
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents a collection of all the Namenodejscppname objects in the spreadsheet.
+description: Represents a collection of all the Name..name objects in the spreadsheet.
 type: docs
 url: /nodejs-cpp/namecollection/
 ---
 
 ## NameCollection class
 
-Represents a collection of all the [Name](/nodejs-cpp/name/) objects in the spreadsheet.
+Represents a collection of all the [Name](../name/) objects in the spreadsheet.
 
 ```javascript
 class NameCollection;
@@ -19,7 +19,7 @@ class NameCollection;
 
 | Method | Description |
 | --- | --- |
-| [get(number)](#get-number-)| Gets the [Name](/nodejs-cpp/name/) element at the specified index. |
+| [get(number)](#get-number-)| Gets the [Name](../name/) element at the specified index. |
 | [add(string)](#add-string-)| Defines a new name. |
 | [filter(NameScopeType, number)](#filter-namescopetype-number-)| Gets all defined name by scope. |
 | [remove(string[])](#remove-stringarray-)| Remove an array of name |
@@ -33,7 +33,7 @@ class NameCollection;
 
 ### get(number) {#get-number-}
 
-Gets the [Name](/nodejs-cpp/name/) element at the specified index.
+Gets the [Name](../name/) element at the specified index.
 
 ```javascript
 get(index: number) : Name;
@@ -63,7 +63,7 @@ add(text: string) : number;
 
 **Returns**
 
-[Name](/nodejs-cpp/name/) object index.
+[Name](../name/) object index.
 
 **Remarks**
 
@@ -80,12 +80,12 @@ filter(type: NameScopeType, sheetIndex: number) : Name[];
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | [NameScopeType](/nodejs-cpp/namescopetype/) | The scope type. |
-| sheetIndex | number | The sheet index.         /// Only effects when scope type is [NameScopeType.Worksheet](/nodejs-cpp/namescopetype.worksheet/) |
+| type | [NameScopeType](../namescopetype/) | The scope type. |
+| sheetIndex | number | The sheet index.         /// Only effects when scope type is [NameScopeType.Worksheet](../namescopetype.worksheet/) |
 
 **Returns**
 
-[Name](/nodejs-cpp/name/)[]
+[Name](../name/)[]
 
 ### remove(string[]) {#remove-stringarray-}
 

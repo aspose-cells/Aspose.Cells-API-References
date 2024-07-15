@@ -1,14 +1,14 @@
 ﻿---
 title: CheckBoxCollection
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents a collection of CheckBoxnodejscppcheckbox objects in a worksheet.
+description: Represents a collection of CheckBox..checkbox objects in a worksheet.
 type: docs
 url: /nodejs-cpp/checkboxcollection/
 ---
 
 ## CheckBoxCollection class
 
-Represents a collection of [CheckBox](/nodejs-cpp/checkbox/) objects in a worksheet.
+Represents a collection of [CheckBox](../checkbox/) objects in a worksheet.
 
 ```javascript
 class CheckBoxCollection;
@@ -19,14 +19,14 @@ class CheckBoxCollection;
 
 | Method | Description |
 | --- | --- |
-| [get(number)](#get-number-)| Gets the [CheckBox](/nodejs-cpp/checkbox/) element at the specified index. |
+| [get(number)](#get-number-)| Gets the [CheckBox](../checkbox/) element at the specified index. |
 | [add(number, number, number, number)](#add-number-number-number-number-)| Adds a checkBox to the collection. |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
 
 
 ### get(number) {#get-number-}
 
-Gets the [CheckBox](/nodejs-cpp/checkbox/) element at the specified index.
+Gets the [CheckBox](../checkbox/) element at the specified index.
 
 ```javascript
 get(index: number) : CheckBox;
@@ -59,7 +59,7 @@ add(upperLeftRow: number, upperLeftColumn: number, height: number, width: number
 
 **Returns**
 
-[CheckBox](/nodejs-cpp/checkbox/) object index.
+[CheckBox](../checkbox/) object index.
 
 ### getCount() {#getCount--}
 

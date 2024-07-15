@@ -1,14 +1,14 @@
 ﻿---
 title: PivotAreaFilterCollection
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents the list of filters for PivotAreanodejscpppivotarea
+description: Represents the list of filters for PivotArea..pivotarea
 type: docs
 url: /nodejs-cpp/pivotareafiltercollection/
 ---
 
 ## PivotAreaFilterCollection class
 
-Represents the list of filters for [PivotArea](/nodejs-cpp/pivotarea/)
+Represents the list of filters for [PivotArea](../pivotarea/)
 
 ```javascript
 class PivotAreaFilterCollection;
@@ -53,7 +53,7 @@ get(index: number) : PivotAreaFilter;
 
 **Returns**
 
-[PivotAreaFilter](/nodejs-cpp/pivotareafilter/)
+[PivotAreaFilter](../pivotareafilter/)
 
 ### getCount() {#getCount--}
 

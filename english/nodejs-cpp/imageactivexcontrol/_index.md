@@ -42,7 +42,7 @@ class ImageActiveXControl extends ActiveXControl;
 | [setPictureAlignment(ControlPictureAlignmentType)](#setPictureAlignment-controlpicturealignmenttype-)| Gets and sets the alignment of the picture inside the Form or Image. |
 | [isTiled()](#isTiled--)| Indicates whether the picture is tiled across the background. |
 | [setIsTiled(boolean)](#setIsTiled-boolean-)| Indicates whether the picture is tiled across the background. |
-| [getWorkbook()](#getWorkbook--)| Gets the [Workbook](/nodejs-cpp/workbook/) object. |
+| [getWorkbook()](#getWorkbook--)| Gets the [Workbook](../workbook/) object. |
 | [getMouseIcon()](#getMouseIcon--)| Gets and sets a custom icon to display as the mouse pointer for the control. |
 | [setMouseIcon(number[])](#setMouseIcon-numberarray-)| Gets and sets a custom icon to display as the mouse pointer for the control. |
 | [getMousePointer()](#getMousePointer--)| Gets and sets the type of icon displayed as the mouse pointer for the control. |
@@ -101,7 +101,7 @@ getType() : ControlType;
 
 **Returns**
 
-[ControlType](/nodejs-cpp/controltype/)
+[ControlType](../controltype/)
 
 ### isAutoSize() {#isAutoSize--}
 
@@ -158,7 +158,7 @@ getBorderStyle() : ControlBorderType;
 
 **Returns**
 
-[ControlBorderType](/nodejs-cpp/controlbordertype/)
+[ControlBorderType](../controlbordertype/)
 
 ### setBorderStyle(ControlBorderType) {#setBorderStyle-controlbordertype-}
 
@@ -171,7 +171,7 @@ setBorderStyle(value: ControlBorderType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ControlBorderType](/nodejs-cpp/controlbordertype/) | The value to set. |
+| value | [ControlBorderType](../controlbordertype/) | The value to set. |
 
 ### getPictureSizeMode() {#getPictureSizeMode--}
 
@@ -184,7 +184,7 @@ getPictureSizeMode() : ControlPictureSizeMode;
 
 **Returns**
 
-[ControlPictureSizeMode](/nodejs-cpp/controlpicturesizemode/)
+[ControlPictureSizeMode](../controlpicturesizemode/)
 
 ### setPictureSizeMode(ControlPictureSizeMode) {#setPictureSizeMode-controlpicturesizemode-}
 
@@ -197,7 +197,7 @@ setPictureSizeMode(value: ControlPictureSizeMode) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ControlPictureSizeMode](/nodejs-cpp/controlpicturesizemode/) | The value to set. |
+| value | [ControlPictureSizeMode](../controlpicturesizemode/) | The value to set. |
 
 ### getSpecialEffect() {#getSpecialEffect--}
 
@@ -210,7 +210,7 @@ getSpecialEffect() : ControlSpecialEffectType;
 
 **Returns**
 
-[ControlSpecialEffectType](/nodejs-cpp/controlspecialeffecttype/)
+[ControlSpecialEffectType](../controlspecialeffecttype/)
 
 ### setSpecialEffect(ControlSpecialEffectType) {#setSpecialEffect-controlspecialeffecttype-}
 
@@ -223,7 +223,7 @@ setSpecialEffect(value: ControlSpecialEffectType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ControlSpecialEffectType](/nodejs-cpp/controlspecialeffecttype/) | The value to set. |
+| value | [ControlSpecialEffectType](../controlspecialeffecttype/) | The value to set. |
 
 ### getPicture() {#getPicture--}
 
@@ -262,7 +262,7 @@ getPictureAlignment() : ControlPictureAlignmentType;
 
 **Returns**
 
-[ControlPictureAlignmentType](/nodejs-cpp/controlpicturealignmenttype/)
+[ControlPictureAlignmentType](../controlpicturealignmenttype/)
 
 ### setPictureAlignment(ControlPictureAlignmentType) {#setPictureAlignment-controlpicturealignmenttype-}
 
@@ -275,7 +275,7 @@ setPictureAlignment(value: ControlPictureAlignmentType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ControlPictureAlignmentType](/nodejs-cpp/controlpicturealignmenttype/) | The value to set. |
+| value | [ControlPictureAlignmentType](../controlpicturealignmenttype/) | The value to set. |
 
 ### isTiled() {#isTiled--}
 
@@ -301,7 +301,7 @@ setIsTiled(value: boolean) : void;
 
 ### getWorkbook() {#getWorkbook--}
 
-Gets the [Workbook](/nodejs-cpp/workbook/) object.
+Gets the [Workbook](../workbook/) object.
 
 ```javascript
 getWorkbook() : Workbook;
@@ -310,7 +310,7 @@ getWorkbook() : Workbook;
 
 **Returns**
 
-[Workbook](/nodejs-cpp/workbook/)
+[Workbook](../workbook/)
 
 ### getMouseIcon() {#getMouseIcon--}
 
@@ -349,7 +349,7 @@ getMousePointer() : ControlMousePointerType;
 
 **Returns**
 
-[ControlMousePointerType](/nodejs-cpp/controlmousepointertype/)
+[ControlMousePointerType](../controlmousepointertype/)
 
 ### setMousePointer(ControlMousePointerType) {#setMousePointer-controlmousepointertype-}
 
@@ -362,7 +362,7 @@ setMousePointer(value: ControlMousePointerType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ControlMousePointerType](/nodejs-cpp/controlmousepointertype/) | The value to set. |
+| value | [ControlMousePointerType](../controlmousepointertype/) | The value to set. |
 
 ### getLinkedCell() {#getLinkedCell--}
 
@@ -485,7 +485,7 @@ getIMEMode() : InputMethodEditorMode;
 
 **Returns**
 
-[InputMethodEditorMode](/nodejs-cpp/inputmethodeditormode/)
+[InputMethodEditorMode](../inputmethodeditormode/)
 
 ### setIMEMode(InputMethodEditorMode) {#setIMEMode-inputmethodeditormode-}
 
@@ -498,7 +498,7 @@ setIMEMode(value: InputMethodEditorMode) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [InputMethodEditorMode](/nodejs-cpp/inputmethodeditormode/) | The value to set. |
+| value | [InputMethodEditorMode](../inputmethodeditormode/) | The value to set. |
 
 ### getFont() {#getFont--}
 
@@ -511,7 +511,7 @@ getFont() : Font;
 
 **Returns**
 
-[Font](/nodejs-cpp/font/)
+[Font](../font/)
 
 ### getTextAlign() {#getTextAlign--}
 
@@ -524,7 +524,7 @@ getTextAlign() : TextAlignmentType;
 
 **Returns**
 
-[TextAlignmentType](/nodejs-cpp/textalignmenttype/)
+[TextAlignmentType](../textalignmenttype/)
 
 ### setTextAlign(TextAlignmentType) {#setTextAlign-textalignmenttype-}
 
@@ -537,7 +537,7 @@ setTextAlign(value: TextAlignmentType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [TextAlignmentType](/nodejs-cpp/textalignmenttype/) | The value to set. |
+| value | [TextAlignmentType](../textalignmenttype/) | The value to set. |
 
 ### getData() {#getData--}
 

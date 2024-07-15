@@ -97,11 +97,11 @@ getReserveMissingPivotItemType() : ReserveMissingPivotItemType;
 
 **Returns**
 
-[ReserveMissingPivotItemType](/nodejs-cpp/reservemissingpivotitemtype/)
+[ReserveMissingPivotItemType](../reservemissingpivotitemtype/)
 
 **Remarks**
 
-Only works when [RefreshData](/nodejs-cpp/refreshdata/) is true.
+Only works when [RefreshData](../refreshdata/) is true.
 
 ### setReserveMissingPivotItemType(ReserveMissingPivotItemType) {#setReserveMissingPivotItemType-reservemissingpivotitemtype-}
 
@@ -114,10 +114,10 @@ setReserveMissingPivotItemType(value: ReserveMissingPivotItemType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ReserveMissingPivotItemType](/nodejs-cpp/reservemissingpivotitemtype/) | The value to set. |
+| value | [ReserveMissingPivotItemType](../reservemissingpivotitemtype/) | The value to set. |
 
 **Remarks**
 
-Only works when [RefreshData](/nodejs-cpp/refreshdata/) is true.
+Only works when [RefreshData](../refreshdata/) is true.
 
 

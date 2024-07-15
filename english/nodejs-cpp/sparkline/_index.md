@@ -79,7 +79,7 @@ toImage(fileName: string, options: ImageOrPrintOptions) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileName | string | The image file name. |
-| options | [ImageOrPrintOptions](/nodejs-cpp/imageorprintoptions/) | The image options |
+| options | [ImageOrPrintOptions](../imageorprintoptions/) | The image options |
 
 ### toImage(ImageOrPrintOptions) {#toImage-imageorprintoptions-}
 
@@ -92,7 +92,7 @@ toImage(options: ImageOrPrintOptions) : Uint8Array;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| options | [ImageOrPrintOptions](/nodejs-cpp/imageorprintoptions/) | The image options. |
+| options | [ImageOrPrintOptions](../imageorprintoptions/) | The image options. |
 
 **Returns**
 

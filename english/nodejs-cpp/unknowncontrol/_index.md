@@ -28,7 +28,7 @@ class UnknownControl extends ActiveXControl;
 | [getData()](#getData--)| Gets and sets the binary data of the control. |
 | [getType()](#getType--)| Gets the type of the ActiveX control. |
 | [getRelationshipData(string)](#getRelationshipData-string-)| Gets the related data. |
-| [getWorkbook()](#getWorkbook--)| Gets the [Workbook](/nodejs-cpp/workbook/) object. |
+| [getWorkbook()](#getWorkbook--)| Gets the [Workbook](../workbook/) object. |
 | [getMouseIcon()](#getMouseIcon--)| Gets and sets a custom icon to display as the mouse pointer for the control. |
 | [setMouseIcon(number[])](#setMouseIcon-numberarray-)| Gets and sets a custom icon to display as the mouse pointer for the control. |
 | [getMousePointer()](#getMousePointer--)| Gets and sets the type of icon displayed as the mouse pointer for the control. |
@@ -101,7 +101,7 @@ getType() : ControlType;
 
 **Returns**
 
-[ControlType](/nodejs-cpp/controltype/)
+[ControlType](../controltype/)
 
 ### getRelationshipData(string) {#getRelationshipData-string-}
 
@@ -122,7 +122,7 @@ Returns the related data.
 
 ### getWorkbook() {#getWorkbook--}
 
-Gets the [Workbook](/nodejs-cpp/workbook/) object.
+Gets the [Workbook](../workbook/) object.
 
 ```javascript
 getWorkbook() : Workbook;
@@ -131,7 +131,7 @@ getWorkbook() : Workbook;
 
 **Returns**
 
-[Workbook](/nodejs-cpp/workbook/)
+[Workbook](../workbook/)
 
 ### getMouseIcon() {#getMouseIcon--}
 
@@ -170,7 +170,7 @@ getMousePointer() : ControlMousePointerType;
 
 **Returns**
 
-[ControlMousePointerType](/nodejs-cpp/controlmousepointertype/)
+[ControlMousePointerType](../controlmousepointertype/)
 
 ### setMousePointer(ControlMousePointerType) {#setMousePointer-controlmousepointertype-}
 
@@ -183,7 +183,7 @@ setMousePointer(value: ControlMousePointerType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ControlMousePointerType](/nodejs-cpp/controlmousepointertype/) | The value to set. |
+| value | [ControlMousePointerType](../controlmousepointertype/) | The value to set. |
 
 ### getLinkedCell() {#getLinkedCell--}
 
@@ -306,7 +306,7 @@ getIMEMode() : InputMethodEditorMode;
 
 **Returns**
 
-[InputMethodEditorMode](/nodejs-cpp/inputmethodeditormode/)
+[InputMethodEditorMode](../inputmethodeditormode/)
 
 ### setIMEMode(InputMethodEditorMode) {#setIMEMode-inputmethodeditormode-}
 
@@ -319,7 +319,7 @@ setIMEMode(value: InputMethodEditorMode) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [InputMethodEditorMode](/nodejs-cpp/inputmethodeditormode/) | The value to set. |
+| value | [InputMethodEditorMode](../inputmethodeditormode/) | The value to set. |
 
 ### getFont() {#getFont--}
 
@@ -332,7 +332,7 @@ getFont() : Font;
 
 **Returns**
 
-[Font](/nodejs-cpp/font/)
+[Font](../font/)
 
 ### getTextAlign() {#getTextAlign--}
 
@@ -345,7 +345,7 @@ getTextAlign() : TextAlignmentType;
 
 **Returns**
 
-[TextAlignmentType](/nodejs-cpp/textalignmenttype/)
+[TextAlignmentType](../textalignmenttype/)
 
 ### setTextAlign(TextAlignmentType) {#setTextAlign-textalignmenttype-}
 
@@ -358,7 +358,7 @@ setTextAlign(value: TextAlignmentType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [TextAlignmentType](/nodejs-cpp/textalignmenttype/) | The value to set. |
+| value | [TextAlignmentType](../textalignmenttype/) | The value to set. |
 
 ### getWidth() {#getWidth--}
 

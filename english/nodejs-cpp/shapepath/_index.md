@@ -19,18 +19,18 @@ class ShapePath;
 
 | Name | Description |
 | --- | --- |
-| [constructor()](#constructor--)| Initializes a new instance of the [ShapePath](/nodejs-cpp/shapepath/) class. |
+| [constructor()](#constructor--)| Initializes a new instance of the [ShapePath](../shapepath/) class. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getPathSegementList()](#getPathSegementList--)| Gets [ShapeSegmentPathCollection](/nodejs-cpp/shapesegmentpathcollection/) list |
+| [getPathSegementList()](#getPathSegementList--)| Gets [ShapeSegmentPathCollection](../shapesegmentpathcollection/) list |
 
 
 ### constructor() {#constructor--}
 
-Initializes a new instance of the [ShapePath](/nodejs-cpp/shapepath/) class.
+Initializes a new instance of the [ShapePath](../shapepath/) class.
 
 ```javascript
 constructor();
@@ -39,7 +39,7 @@ constructor();
 
 ### getPathSegementList() {#getPathSegementList--}
 
-Gets [ShapeSegmentPathCollection](/nodejs-cpp/shapesegmentpathcollection/) list
+Gets [ShapeSegmentPathCollection](../shapesegmentpathcollection/) list
 
 ```javascript
 getPathSegementList() : ShapeSegmentPathCollection;
@@ -48,6 +48,6 @@ getPathSegementList() : ShapeSegmentPathCollection;
 
 **Returns**
 
-[ShapeSegmentPathCollection](/nodejs-cpp/shapesegmentpathcollection/)
+[ShapeSegmentPathCollection](../shapesegmentpathcollection/)
 
 

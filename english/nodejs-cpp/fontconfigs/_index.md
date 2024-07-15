@@ -178,7 +178,7 @@ static setFontSources(sources: FontSourceBase[]) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sources | [FontSourceBase](/nodejs-cpp/fontsourcebase/)[] | An array of sources that contain TrueType fonts. |
+| sources | [FontSourceBase](../fontsourcebase/)[] | An array of sources that contain TrueType fonts. |
 
 ### getFontSources() {#getFontSources--}
 
@@ -191,6 +191,6 @@ static getFontSources() : FontSourceBase[];
 
 **Returns**
 
-[FontSourceBase](/nodejs-cpp/fontsourcebase/)[]
+[FontSourceBase](../fontsourcebase/)[]
 
 

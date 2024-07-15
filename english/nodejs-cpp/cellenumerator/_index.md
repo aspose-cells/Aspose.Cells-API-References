@@ -7,7 +7,7 @@ url: /nodejs-cpp/cellenumerator/
 ---
 
 ## CellEnumerator class
-Iterator of [Cell](/nodejs-cpp/cell/) objects. Please use for...of statement to iterate over them.
+Iterator of [Cell](../cell/) objects. Please use for...of statement to iterate over them.
 
 ```javascript
 class CellEnumerator implements Iterable<Cell> {

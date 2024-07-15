@@ -60,7 +60,7 @@ getType() : OdsPageBackgroundType;
 
 **Returns**
 
-[OdsPageBackgroundType](/nodejs-cpp/odspagebackgroundtype/)
+[OdsPageBackgroundType](../odspagebackgroundtype/)
 
 ### setType(OdsPageBackgroundType) {#setType-odspagebackgroundtype-}
 
@@ -73,7 +73,7 @@ setType(value: OdsPageBackgroundType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [OdsPageBackgroundType](/nodejs-cpp/odspagebackgroundtype/) | The value to set. |
+| value | [OdsPageBackgroundType](../odspagebackgroundtype/) | The value to set. |
 
 ### getColor() {#getColor--}
 
@@ -86,7 +86,7 @@ getColor() : Color;
 
 **Returns**
 
-[Color](/nodejs-cpp/color/)
+[Color](../color/)
 
 ### setColor(Color) {#setColor-color-}
 
@@ -99,7 +99,7 @@ setColor(value: Color) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [Color](/nodejs-cpp/color/) | The value to set. |
+| value | [Color](../color/) | The value to set. |
 
 ### getGraphicType() {#getGraphicType--}
 
@@ -112,7 +112,7 @@ getGraphicType() : OdsPageBackgroundGraphicType;
 
 **Returns**
 
-[OdsPageBackgroundGraphicType](/nodejs-cpp/odspagebackgroundgraphictype/)
+[OdsPageBackgroundGraphicType](../odspagebackgroundgraphictype/)
 
 ### setGraphicType(OdsPageBackgroundGraphicType) {#setGraphicType-odspagebackgroundgraphictype-}
 
@@ -125,7 +125,7 @@ setGraphicType(value: OdsPageBackgroundGraphicType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [OdsPageBackgroundGraphicType](/nodejs-cpp/odspagebackgroundgraphictype/) | The value to set. |
+| value | [OdsPageBackgroundGraphicType](../odspagebackgroundgraphictype/) | The value to set. |
 
 ### getGraphicPositionType() {#getGraphicPositionType--}
 
@@ -138,7 +138,7 @@ getGraphicPositionType() : OdsPageBackgroundGraphicPositionType;
 
 **Returns**
 
-[OdsPageBackgroundGraphicPositionType](/nodejs-cpp/odspagebackgroundgraphicpositiontype/)
+[OdsPageBackgroundGraphicPositionType](../odspagebackgroundgraphicpositiontype/)
 
 ### setGraphicPositionType(OdsPageBackgroundGraphicPositionType) {#setGraphicPositionType-odspagebackgroundgraphicpositiontype-}
 
@@ -151,7 +151,7 @@ setGraphicPositionType(value: OdsPageBackgroundGraphicPositionType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [OdsPageBackgroundGraphicPositionType](/nodejs-cpp/odspagebackgroundgraphicpositiontype/) | The value to set. |
+| value | [OdsPageBackgroundGraphicPositionType](../odspagebackgroundgraphicpositiontype/) | The value to set. |
 
 ### isLink() {#isLink--}
 

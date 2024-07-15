@@ -48,7 +48,7 @@ getType() : TextureType;
 
 **Returns**
 
-[TextureType](/nodejs-cpp/texturetype/)
+[TextureType](../texturetype/)
 
 ### setType(TextureType) {#setType-texturetype-}
 
@@ -61,7 +61,7 @@ setType(value: TextureType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [TextureType](/nodejs-cpp/texturetype/) | The value to set. |
+| value | [TextureType](../texturetype/) | The value to set. |
 
 ### getImageData() {#getImageData--}
 
@@ -122,7 +122,7 @@ getPicFormatOption() : PicFormatOption;
 
 **Returns**
 
-[PicFormatOption](/nodejs-cpp/picformatoption/)
+[PicFormatOption](../picformatoption/)
 
 ### setPicFormatOption(PicFormatOption) {#setPicFormatOption-picformatoption-}
 
@@ -135,7 +135,7 @@ setPicFormatOption(value: PicFormatOption) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [PicFormatOption](/nodejs-cpp/picformatoption/) | The value to set. |
+| value | [PicFormatOption](../picformatoption/) | The value to set. |
 
 ### getTilePicOption() {#getTilePicOption--}
 
@@ -148,7 +148,7 @@ getTilePicOption() : TilePicOption;
 
 **Returns**
 
-[TilePicOption](/nodejs-cpp/tilepicoption/)
+[TilePicOption](../tilepicoption/)
 
 ### setTilePicOption(TilePicOption) {#setTilePicOption-tilepicoption-}
 
@@ -161,7 +161,7 @@ setTilePicOption(value: TilePicOption) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [TilePicOption](/nodejs-cpp/tilepicoption/) | The value to set. |
+| value | [TilePicOption](../tilepicoption/) | The value to set. |
 
 ### getPictureFormatType() {#getPictureFormatType--}
 
@@ -174,7 +174,7 @@ getPictureFormatType() : FillPictureType;
 
 **Returns**
 
-[FillPictureType](/nodejs-cpp/fillpicturetype/)
+[FillPictureType](../fillpicturetype/)
 
 ### setPictureFormatType(FillPictureType) {#setPictureFormatType-fillpicturetype-}
 
@@ -187,7 +187,7 @@ setPictureFormatType(value: FillPictureType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [FillPictureType](/nodejs-cpp/fillpicturetype/) | The value to set. |
+| value | [FillPictureType](../fillpicturetype/) | The value to set. |
 
 ### getScale() {#getScale--}
 

@@ -39,7 +39,7 @@ get(index: number) : TableStyleElement;
 
 **Returns**
 
-Returns [TableStyleElement](/nodejs-cpp/tablestyleelement/) object
+Returns [TableStyleElement](../tablestyleelement/) object
 
 ### add(TableStyleElementType) {#add-tablestyleelementtype-}
 
@@ -52,7 +52,7 @@ add(type: TableStyleElementType) : number;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | [TableStyleElementType](/nodejs-cpp/tablestyleelementtype/) | The type of the element |
+| type | [TableStyleElementType](../tablestyleelementtype/) | The type of the element |
 
 **Returns**
 

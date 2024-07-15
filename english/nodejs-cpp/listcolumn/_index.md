@@ -77,7 +77,7 @@ getTotalsCalculation() : TotalsCalculation;
 
 **Returns**
 
-[TotalsCalculation](/nodejs-cpp/totalscalculation/)
+[TotalsCalculation](../totalscalculation/)
 
 ### setTotalsCalculation(TotalsCalculation) {#setTotalsCalculation-totalscalculation-}
 
@@ -90,7 +90,7 @@ setTotalsCalculation(value: TotalsCalculation) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [TotalsCalculation](/nodejs-cpp/totalscalculation/) | The value to set. |
+| value | [TotalsCalculation](../totalscalculation/) | The value to set. |
 
 ### getRange() {#getRange--}
 
@@ -103,7 +103,7 @@ getRange() : Range;
 
 **Returns**
 
-[Range](/nodejs-cpp/range/)
+[Range](../range/)
 
 ### getFormula() {#getFormula--}
 
@@ -226,7 +226,7 @@ getDataStyle() : Style;
 
 **Returns**
 
-[Style](/nodejs-cpp/style/)
+[Style](../style/)
 
 ### setDataStyle(Style) {#setDataStyle-style-}
 
@@ -239,6 +239,6 @@ setDataStyle(style: Style) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| style | [Style](/nodejs-cpp/style/) |  |
+| style | [Style](../style/) |  |
 
 

@@ -37,7 +37,7 @@ class Legend extends ChartTextFrame;
 | [setBackgroundMode(BackgroundMode)](#setBackgroundMode-backgroundmode-)| Gets and sets the display mode of the background |
 | [getShadow()](#getShadow--)| True if the frame has a shadow. |
 | [setShadow(boolean)](#setShadow-boolean-)| True if the frame has a shadow. |
-| [getShapeProperties()](#getShapeProperties--)| Gets the [ShapeProperties](/nodejs-cpp/shapeproperties/) object. |
+| [getShapeProperties()](#getShapeProperties--)| Gets the [ShapeProperties](../shapeproperties/) object. |
 | [isDefaultPosBeSet()](#isDefaultPosBeSet--)| Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set. |
 | [getDefaultX()](#getDefaultX--)| Represents x of default position |
 | [getDefaultY()](#getDefaultY--)| Represents y of default position |
@@ -61,7 +61,7 @@ class Legend extends ChartTextFrame;
 | [getBorder()](#getBorder--)| Gets the <see cref="Line">border</see>. |
 | [getArea()](#getArea--)| Gets the <see cref="Area">area</see>. |
 | [getTextOptions()](#getTextOptions--)| Gets and sets the options of the text. |
-| [getFont()](#getFont--)| Gets a [Font](/nodejs-cpp/font/) object of the specified ChartFrame object. |
+| [getFont()](#getFont--)| Gets a [Font](../font/) object of the specified ChartFrame object. |
 | [getAutoScaleFont()](#getAutoScaleFont--)| True if the text in the object changes font size when the object size changes. The default value is True. |
 | [setAutoScaleFont(boolean)](#setAutoScaleFont-boolean-)| True if the text in the object changes font size when the object size changes. The default value is True. |
 | [isAutomaticSize()](#isAutomaticSize--)| Indicates whether the chart frame is automatic sized. |
@@ -110,7 +110,7 @@ getPosition() : LegendPositionType;
 
 **Returns**
 
-[LegendPositionType](/nodejs-cpp/legendpositiontype/)
+[LegendPositionType](../legendpositiontype/)
 
 **Remarks**
 
@@ -127,7 +127,7 @@ setPosition(value: LegendPositionType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [LegendPositionType](/nodejs-cpp/legendpositiontype/) | The value to set. |
+| value | [LegendPositionType](../legendpositiontype/) | The value to set. |
 
 **Remarks**
 
@@ -144,7 +144,7 @@ getLegendEntries() : LegendEntryCollection;
 
 **Returns**
 
-[LegendEntryCollection](/nodejs-cpp/legendentrycollection/)
+[LegendEntryCollection](../legendentrycollection/)
 
 ### isOverLay() {#isOverLay--}
 
@@ -222,7 +222,7 @@ getBackgroundMode() : BackgroundMode;
 
 **Returns**
 
-[BackgroundMode](/nodejs-cpp/backgroundmode/)
+[BackgroundMode](../backgroundmode/)
 
 ### setBackgroundMode(BackgroundMode) {#setBackgroundMode-backgroundmode-}
 
@@ -235,7 +235,7 @@ setBackgroundMode(value: BackgroundMode) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [BackgroundMode](/nodejs-cpp/backgroundmode/) | The value to set. |
+| value | [BackgroundMode](../backgroundmode/) | The value to set. |
 
 ### getShadow() {#getShadow--}
 
@@ -261,7 +261,7 @@ setShadow(value: boolean) : void;
 
 ### getShapeProperties() {#getShapeProperties--}
 
-Gets the [ShapeProperties](/nodejs-cpp/shapeproperties/) object.
+Gets the [ShapeProperties](../shapeproperties/) object.
 
 ```javascript
 getShapeProperties() : ShapePropertyCollection;
@@ -270,7 +270,7 @@ getShapeProperties() : ShapePropertyCollection;
 
 **Returns**
 
-[ShapePropertyCollection](/nodejs-cpp/shapepropertycollection/)
+[ShapePropertyCollection](../shapepropertycollection/)
 
 ### isDefaultPosBeSet() {#isDefaultPosBeSet--}
 
@@ -359,7 +359,7 @@ getTextHorizontalAlignment() : TextAlignmentType;
 
 **Returns**
 
-[TextAlignmentType](/nodejs-cpp/textalignmenttype/)
+[TextAlignmentType](../textalignmenttype/)
 
 ### setTextHorizontalAlignment(TextAlignmentType) {#setTextHorizontalAlignment-textalignmenttype-}
 
@@ -372,7 +372,7 @@ setTextHorizontalAlignment(value: TextAlignmentType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [TextAlignmentType](/nodejs-cpp/textalignmenttype/) | The value to set. |
+| value | [TextAlignmentType](../textalignmenttype/) | The value to set. |
 
 ### getTextVerticalAlignment() {#getTextVerticalAlignment--}
 
@@ -385,7 +385,7 @@ getTextVerticalAlignment() : TextAlignmentType;
 
 **Returns**
 
-[TextAlignmentType](/nodejs-cpp/textalignmenttype/)
+[TextAlignmentType](../textalignmenttype/)
 
 ### setTextVerticalAlignment(TextAlignmentType) {#setTextVerticalAlignment-textalignmenttype-}
 
@@ -398,7 +398,7 @@ setTextVerticalAlignment(value: TextAlignmentType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [TextAlignmentType](/nodejs-cpp/textalignmenttype/) | The value to set. |
+| value | [TextAlignmentType](../textalignmenttype/) | The value to set. |
 
 ### getRotationAngle() {#getRotationAngle--}
 
@@ -450,7 +450,7 @@ getReadingOrder() : TextDirectionType;
 
 **Returns**
 
-[TextDirectionType](/nodejs-cpp/textdirectiontype/)
+[TextDirectionType](../textdirectiontype/)
 
 ### setReadingOrder(TextDirectionType) {#setReadingOrder-textdirectiontype-}
 
@@ -463,7 +463,7 @@ setReadingOrder(value: TextDirectionType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [TextDirectionType](/nodejs-cpp/textdirectiontype/) | The value to set. |
+| value | [TextDirectionType](../textdirectiontype/) | The value to set. |
 
 ### isResizeShapeToFitText() {#isResizeShapeToFitText--}
 
@@ -516,7 +516,7 @@ getBorder() : Line;
 
 **Returns**
 
-[Line](/nodejs-cpp/line/)
+[Line](../line/)
 
 ### getArea() {#getArea--}
 
@@ -529,7 +529,7 @@ getArea() : Area;
 
 **Returns**
 
-[Area](/nodejs-cpp/area/)
+[Area](../area/)
 
 ### getTextOptions() {#getTextOptions--}
 
@@ -542,11 +542,11 @@ getTextOptions() : TextOptions;
 
 **Returns**
 
-[TextOptions](/nodejs-cpp/textoptions/)
+[TextOptions](../textoptions/)
 
 ### getFont() {#getFont--}
 
-Gets a [Font](/nodejs-cpp/font/) object of the specified ChartFrame object.
+Gets a [Font](../font/) object of the specified ChartFrame object.
 
 ```javascript
 getFont() : Font;
@@ -555,7 +555,7 @@ getFont() : Font;
 
 **Returns**
 
-[Font](/nodejs-cpp/font/)
+[Font](../font/)
 
 ### getAutoScaleFont() {#getAutoScaleFont--}
 
@@ -798,7 +798,7 @@ getDirectionType() : ChartTextDirectionType;
 
 **Returns**
 
-[ChartTextDirectionType](/nodejs-cpp/charttextdirectiontype/)
+[ChartTextDirectionType](../charttextdirectiontype/)
 
 ### setDirectionType(ChartTextDirectionType) {#setDirectionType-charttextdirectiontype-}
 
@@ -811,7 +811,7 @@ setDirectionType(value: ChartTextDirectionType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ChartTextDirectionType](/nodejs-cpp/charttextdirectiontype/) | The value to set. |
+| value | [ChartTextDirectionType](../charttextdirectiontype/) | The value to set. |
 
 ### isTextWrapped() {#isTextWrapped--}
 

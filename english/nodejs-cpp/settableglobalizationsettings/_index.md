@@ -109,7 +109,7 @@ getTotalName(functionType: ConsolidationFunction) : string;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| functionType | [ConsolidationFunction](/nodejs-cpp/consolidationfunction/) | The function type. |
+| functionType | [ConsolidationFunction](../consolidationfunction/) | The function type. |
 
 **Returns**
 
@@ -126,7 +126,7 @@ setTotalName(functionType: ConsolidationFunction, name: string) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| functionType | [ConsolidationFunction](/nodejs-cpp/consolidationfunction/) | The function type. |
+| functionType | [ConsolidationFunction](../consolidationfunction/) | The function type. |
 | name | string | The total name of the function. |
 
 ### getGrandTotalName(ConsolidationFunction) {#getGrandTotalName-consolidationfunction-}
@@ -140,7 +140,7 @@ getGrandTotalName(functionType: ConsolidationFunction) : string;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| functionType | [ConsolidationFunction](/nodejs-cpp/consolidationfunction/) | The function type. |
+| functionType | [ConsolidationFunction](../consolidationfunction/) | The function type. |
 
 **Returns**
 
@@ -157,7 +157,7 @@ setGrandTotalName(functionType: ConsolidationFunction, name: string) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| functionType | [ConsolidationFunction](/nodejs-cpp/consolidationfunction/) | The function type. |
+| functionType | [ConsolidationFunction](../consolidationfunction/) | The function type. |
 | name | string | The grand total name of the function. |
 
 ### getTableRowTypeOfHeaders() {#getTableRowTypeOfHeaders--}
@@ -368,7 +368,7 @@ setLocalFunctionName(standardName: string, localName: string, bidirectional: boo
 | --- | --- | --- |
 | standardName | string | Standard(en-US locale) function name. |
 | localName | string | Locale dependent function name |
-| bidirectional | boolean | Whether map the local function name to standard function name automatically.         /// If true, the local name will be mapped to standard name automatically         /// so user does not need to call [SetStandardFunctionName(string, string, bool)](/nodejs-cpp/setstandardfunctionname(string, string, bool)/) again         /// for the same standard and local names pair |
+| bidirectional | boolean | Whether map the local function name to standard function name automatically.         /// If true, the local name will be mapped to standard name automatically         /// so user does not need to call [SetStandardFunctionName(string, string, bool)](../setstandardfunctionname(string, string, bool)/) again         /// for the same standard and local names pair |
 
 ### getStandardFunctionName(string) {#getStandardFunctionName-string-}
 
@@ -400,7 +400,7 @@ setStandardFunctionName(localName: string, standardName: string, bidirectional: 
 | --- | --- | --- |
 | localName | string | Locale dependent function name |
 | standardName | string | Standard(en-US locale) function name. |
-| bidirectional | boolean | Whether map the standard function name to local function name automatically.         /// If true, the standar name will be mapped to local name automatically         /// so user does not need to call [SetLocalFunctionName(string, string, bool)](/nodejs-cpp/setlocalfunctionname(string, string, bool)/) again         /// for the same standard and local names pair |
+| bidirectional | boolean | Whether map the standard function name to local function name automatically.         /// If true, the standar name will be mapped to local name automatically         /// so user does not need to call [SetLocalFunctionName(string, string, bool)](../setlocalfunctionname(string, string, bool)/) again         /// for the same standard and local names pair |
 
 ### getLocalBuiltInName(string) {#getLocalBuiltInName-string-}
 
@@ -432,7 +432,7 @@ setLocalBuiltInName(standardName: string, localName: string, bidirectional: bool
 | --- | --- | --- |
 | standardName | string | Standard(en-US locale) name text of built-in name. |
 | localName | string | Locale dependent name text |
-| bidirectional | boolean | Whether map the local name text to standard name text automatically.         /// If true, the local name text will be mapped to standard name text automatically         /// so user does not need to call [SetStandardBuiltInName(string, string, bool)](/nodejs-cpp/setstandardbuiltinname(string, string, bool)/) again         /// for the same standard and local names pair |
+| bidirectional | boolean | Whether map the local name text to standard name text automatically.         /// If true, the local name text will be mapped to standard name text automatically         /// so user does not need to call [SetStandardBuiltInName(string, string, bool)](../setstandardbuiltinname(string, string, bool)/) again         /// for the same standard and local names pair |
 
 ### getStandardBuiltInName(string) {#getStandardBuiltInName-string-}
 
@@ -464,7 +464,7 @@ setStandardBuiltInName(localName: string, standardName: string, bidirectional: b
 | --- | --- | --- |
 | localName | string | Locale dependent function name |
 | standardName | string | Standard(en-US locale) function name. |
-| bidirectional | boolean | Whether map the standard name text to local name text automatically.         /// If true, the standar name text will be mapped to local name text automatically         /// so user does not need to call [SetLocalBuiltInName(string, string, bool)](/nodejs-cpp/setlocalbuiltinname(string, string, bool)/) again         /// for the same standard and local names pair |
+| bidirectional | boolean | Whether map the standard name text to local name text automatically.         /// If true, the standar name text will be mapped to local name text automatically         /// so user does not need to call [SetLocalBuiltInName(string, string, bool)](../setlocalbuiltinname(string, string, bool)/) again         /// for the same standard and local names pair |
 
 ### setListSeparator(string) {#setListSeparator-string-}
 
@@ -547,7 +547,7 @@ getCommentTitleName(type: CommentTitleType) : string;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | [CommentTitleType](/nodejs-cpp/commenttitletype/) | type of comment title |
+| type | [CommentTitleType](../commenttitletype/) | type of comment title |
 
 **Returns**
 
@@ -564,7 +564,7 @@ setCommentTitleName(type: CommentTitleType, name: string) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | [CommentTitleType](/nodejs-cpp/commenttitletype/) | type of comment title |
+| type | [CommentTitleType](../commenttitletype/) | type of comment title |
 | name | string | locale dependent comment title name |
 
 

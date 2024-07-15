@@ -41,7 +41,7 @@ class Validation;
 | [setIgnoreBlank(boolean)](#setIgnoreBlank-boolean-)| Indicates whether blank values are permitted by the range data validation. |
 | [getInCellDropDown()](#getInCellDropDown--)| Indicates whether data validation displays a drop-down list that contains acceptable values. |
 | [setInCellDropDown(boolean)](#setInCellDropDown-boolean-)| Indicates whether data validation displays a drop-down list that contains acceptable values. |
-| [getAreas()](#getAreas--)| Gets all [CellArea](/nodejs-cpp/cellarea/) which contain the data validation settings. |
+| [getAreas()](#getAreas--)| Gets all [CellArea](../cellarea/) which contain the data validation settings. |
 | [getFormula1(boolean, boolean)](#getFormula1-boolean-boolean-)| Gets the value or expression associated with this validation. |
 | [getFormula1(boolean, boolean, number, number)](#getFormula1-boolean-boolean-number-number-)| Gets the value or expression associated with this validation for specific cell. |
 | [getFormula2(boolean, boolean)](#getFormula2-boolean-boolean-)| Gets the value or expression associated with this validation. |
@@ -68,7 +68,7 @@ getOperator() : OperatorType;
 
 **Returns**
 
-[OperatorType](/nodejs-cpp/operatortype/)
+[OperatorType](../operatortype/)
 
 ### setOperator(OperatorType) {#setOperator-operatortype-}
 
@@ -81,7 +81,7 @@ setOperator(value: OperatorType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [OperatorType](/nodejs-cpp/operatortype/) | The value to set. |
+| value | [OperatorType](../operatortype/) | The value to set. |
 
 ### getAlertStyle() {#getAlertStyle--}
 
@@ -94,7 +94,7 @@ getAlertStyle() : ValidationAlertType;
 
 **Returns**
 
-[ValidationAlertType](/nodejs-cpp/validationalerttype/)
+[ValidationAlertType](../validationalerttype/)
 
 ### setAlertStyle(ValidationAlertType) {#setAlertStyle-validationalerttype-}
 
@@ -107,7 +107,7 @@ setAlertStyle(value: ValidationAlertType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ValidationAlertType](/nodejs-cpp/validationalerttype/) | The value to set. |
+| value | [ValidationAlertType](../validationalerttype/) | The value to set. |
 
 ### getType() {#getType--}
 
@@ -120,7 +120,7 @@ getType() : ValidationType;
 
 **Returns**
 
-[ValidationType](/nodejs-cpp/validationtype/)
+[ValidationType](../validationtype/)
 
 ### setType(ValidationType) {#setType-validationtype-}
 
@@ -133,7 +133,7 @@ setType(value: ValidationType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ValidationType](/nodejs-cpp/validationtype/) | The value to set. |
+| value | [ValidationType](../validationtype/) | The value to set. |
 
 ### getInputMessage() {#getInputMessage--}
 
@@ -313,7 +313,7 @@ setInCellDropDown(value: boolean) : void;
 
 ### getAreas() {#getAreas--}
 
-Gets all [CellArea](/nodejs-cpp/cellarea/) which contain the data validation settings.
+Gets all [CellArea](../cellarea/) which contain the data validation settings.
 
 ```javascript
 getAreas() : CellArea[];
@@ -322,7 +322,7 @@ getAreas() : CellArea[];
 
 **Returns**
 
-[CellArea](/nodejs-cpp/cellarea/)[]
+[CellArea](../cellarea/)[]
 
 ### getFormula1(boolean, boolean) {#getFormula1-boolean-boolean-}
 
@@ -441,11 +441,11 @@ addArea(cellArea: CellArea) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| cellArea | [CellArea](/nodejs-cpp/cellarea/) | The area. |
+| cellArea | [CellArea](../cellarea/) | The area. |
 
 **Remarks**
 
-It is equivalent to use [AddArea(Aspose.Cells.CellArea,bool,bool)](/nodejs-cpp/addarea(aspose.cells.cellarea,bool,bool)/) with checking intersection and edge.
+It is equivalent to use [AddArea(Aspose.Cells.CellArea,bool,bool)](../addarea(aspose.cells.cellarea,bool,bool)/) with checking intersection and edge.
 
 ### addArea(CellArea, boolean, boolean) {#addArea-cellarea-boolean-boolean-}
 
@@ -458,7 +458,7 @@ addArea(cellArea: CellArea, checkIntersection: boolean, checkEdge: boolean) : vo
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| cellArea | [CellArea](/nodejs-cpp/cellarea/) | The area. |
+| cellArea | [CellArea](../cellarea/) | The area. |
 | checkIntersection | boolean | Whether check the intersection of given area with existing validations' areas.         /// If one validation has been applied in given area(or part of it),         /// then the existing validation should be removed at first from given area.         /// Otherwise corruption may be caused for the generated Validations.         /// If user is sure that the added area does not intersect with any existing area,         /// this parameter can be set as false for performance consideration. |
 | checkEdge | boolean | Whether check the edge of this validation's applied areas.         /// Validation's internal settings depend on the top-left one of its applied ranges,         /// so if given area will become the new top-left one of the applied ranges,         /// the internal settings should be changed and rebuilt, otherwise unexpected result may be caused.         /// If user is sure that the added area is not the top-left one,         /// this parameter can be set as false for performance consideration. |
 
@@ -477,7 +477,7 @@ addAreas(areas: CellArea[], checkIntersection: boolean, checkEdge: boolean) : vo
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| areas | [CellArea](/nodejs-cpp/cellarea/)[] | The areas. |
+| areas | [CellArea](../cellarea/)[] | The areas. |
 | checkIntersection | boolean | Whether check the intersection of given area with existing validations' areas.         /// If one validation has been applied in given area(or part of it),         /// then the existing validation should be removed at first from given area.         /// Otherwise corruption may be caused for the generated Validations.         /// If user is sure that all the added areas do not intersect with any existing area,         /// this parameter can be set as false for performance consideration. |
 | checkEdge | boolean | Whether check the edge of this validation's applied areas.         /// Validation's internal settings depend on the top-left one of its applied ranges,         /// so if one of given areas will become the new top-left one of the applied ranges,         /// the internal settings should be changed and rebuilt, otherwise unexpected result may be caused.         /// If user is sure that no one of those added areas is the top-left,         /// this parameter can be set as false for performance consideration. |
 
@@ -496,7 +496,7 @@ removeArea(cellArea: CellArea) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| cellArea | [CellArea](/nodejs-cpp/cellarea/) | the areas where this validation settings should be removed. |
+| cellArea | [CellArea](../cellarea/) | the areas where this validation settings should be removed. |
 
 ### removeAreas(CellArea[]) {#removeAreas-cellareaarray-}
 
@@ -509,7 +509,7 @@ removeAreas(areas: CellArea[]) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| areas | [CellArea](/nodejs-cpp/cellarea/)[] | the areas where this validation settings should be removed. |
+| areas | [CellArea](../cellarea/)[] | the areas where this validation settings should be removed. |
 
 ### removeACell(number, number) {#removeACell-number-number-}
 
@@ -536,7 +536,7 @@ copy(source: Validation, copyOption: CopyOptions) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| source | [Validation](/nodejs-cpp/validation/) | The source validation. |
-| copyOption | [CopyOptions](/nodejs-cpp/copyoptions/) | The copy option. |
+| source | [Validation](../validation/) | The source validation. |
+| copyOption | [CopyOptions](../copyoptions/) | The copy option. |
 
 

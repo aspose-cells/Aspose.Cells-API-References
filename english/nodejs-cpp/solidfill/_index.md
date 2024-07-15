@@ -19,10 +19,10 @@ class SolidFill;
 
 | Method | Description |
 | --- | --- |
-| [getColor()](#getColor--)| Gets or sets the [System.Drawing.Color](/nodejs-cpp/system.drawing.color/). |
-| [setColor(Color)](#setColor-color-)| Gets or sets the [System.Drawing.Color](/nodejs-cpp/system.drawing.color/). |
-| [getCellsColor()](#getCellsColor--)| Gets and sets the [CellsColor](/nodejs-cpp/cellscolor/) object. |
-| [setCellsColor(CellsColor)](#setCellsColor-cellscolor-)| Gets and sets the [CellsColor](/nodejs-cpp/cellscolor/) object. |
+| [getColor()](#getColor--)| Gets or sets the [System.Drawing.Color](../system.drawing.color/). |
+| [setColor(Color)](#setColor-color-)| Gets or sets the [System.Drawing.Color](../system.drawing.color/). |
+| [getCellsColor()](#getCellsColor--)| Gets and sets the [CellsColor](../cellscolor/) object. |
+| [setCellsColor(CellsColor)](#setCellsColor-cellscolor-)| Gets and sets the [CellsColor](../cellscolor/) object. |
 | [getTransparency()](#getTransparency--)| Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear). |
 | [setTransparency(number)](#setTransparency-number-)| Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear). |
 | [getHashCode()](#getHashCode--)| Gets the hash code. |
@@ -30,7 +30,7 @@ class SolidFill;
 
 ### getColor() {#getColor--}
 
-Gets or sets the [System.Drawing.Color](/nodejs-cpp/system.drawing.color/).
+Gets or sets the [System.Drawing.Color](../system.drawing.color/).
 
 ```javascript
 getColor() : Color;
@@ -39,11 +39,11 @@ getColor() : Color;
 
 **Returns**
 
-[Color](/nodejs-cpp/color/)
+[Color](../color/)
 
 ### setColor(Color) {#setColor-color-}
 
-Gets or sets the [System.Drawing.Color](/nodejs-cpp/system.drawing.color/).
+Gets or sets the [System.Drawing.Color](../system.drawing.color/).
 
 ```javascript
 setColor(value: Color) : void;
@@ -52,11 +52,11 @@ setColor(value: Color) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [Color](/nodejs-cpp/color/) | The value to set. |
+| value | [Color](../color/) | The value to set. |
 
 ### getCellsColor() {#getCellsColor--}
 
-Gets and sets the [CellsColor](/nodejs-cpp/cellscolor/) object.
+Gets and sets the [CellsColor](../cellscolor/) object.
 
 ```javascript
 getCellsColor() : CellsColor;
@@ -65,11 +65,11 @@ getCellsColor() : CellsColor;
 
 **Returns**
 
-[CellsColor](/nodejs-cpp/cellscolor/)
+[CellsColor](../cellscolor/)
 
 ### setCellsColor(CellsColor) {#setCellsColor-cellscolor-}
 
-Gets and sets the [CellsColor](/nodejs-cpp/cellscolor/) object.
+Gets and sets the [CellsColor](../cellscolor/) object.
 
 ```javascript
 setCellsColor(value: CellsColor) : void;
@@ -78,7 +78,7 @@ setCellsColor(value: CellsColor) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [CellsColor](/nodejs-cpp/cellscolor/) | The value to set. |
+| value | [CellsColor](../cellscolor/) | The value to set. |
 
 ### getTransparency() {#getTransparency--}
 

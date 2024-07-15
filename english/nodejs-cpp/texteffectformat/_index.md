@@ -179,7 +179,7 @@ getPresetShape() : MsoPresetTextEffectShape;
 
 **Returns**
 
-[MsoPresetTextEffectShape](/nodejs-cpp/msopresettexteffectshape/)
+[MsoPresetTextEffectShape](../msopresettexteffectshape/)
 
 ### setPresetShape(MsoPresetTextEffectShape) {#setPresetShape-msopresettexteffectshape-}
 
@@ -192,7 +192,7 @@ setPresetShape(value: MsoPresetTextEffectShape) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [MsoPresetTextEffectShape](/nodejs-cpp/msopresettexteffectshape/) | The value to set. |
+| value | [MsoPresetTextEffectShape](../msopresettexteffectshape/) | The value to set. |
 
 ### setTextEffect(MsoPresetTextEffect) {#setTextEffect-msopresettexteffect-}
 
@@ -205,6 +205,6 @@ setTextEffect(effect: MsoPresetTextEffect) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| effect | [MsoPresetTextEffect](/nodejs-cpp/msopresettexteffect/) | The preset text effect. |
+| effect | [MsoPresetTextEffect](../msopresettexteffect/) | The preset text effect. |
 
 

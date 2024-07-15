@@ -56,7 +56,7 @@ class ListBoxActiveXControl extends ActiveXControl;
 | [setIntegralHeight(boolean)](#setIntegralHeight-boolean-)| Indicates whether the control will only show complete lines of text without showing any partial lines. |
 | [getColumnWidths()](#getColumnWidths--)| Gets and sets the width of the column. |
 | [setColumnWidths(number)](#setColumnWidths-number-)| Gets and sets the width of the column. |
-| [getWorkbook()](#getWorkbook--)| Gets the [Workbook](/nodejs-cpp/workbook/) object. |
+| [getWorkbook()](#getWorkbook--)| Gets the [Workbook](../workbook/) object. |
 | [getMouseIcon()](#getMouseIcon--)| Gets and sets a custom icon to display as the mouse pointer for the control. |
 | [setMouseIcon(number[])](#setMouseIcon-numberarray-)| Gets and sets a custom icon to display as the mouse pointer for the control. |
 | [getMousePointer()](#getMousePointer--)| Gets and sets the type of icon displayed as the mouse pointer for the control. |
@@ -117,7 +117,7 @@ getType() : ControlType;
 
 **Returns**
 
-[ControlType](/nodejs-cpp/controltype/)
+[ControlType](../controltype/)
 
 ### getScrollBars() {#getScrollBars--}
 
@@ -130,7 +130,7 @@ getScrollBars() : ControlScrollBarType;
 
 **Returns**
 
-[ControlScrollBarType](/nodejs-cpp/controlscrollbartype/)
+[ControlScrollBarType](../controlscrollbartype/)
 
 ### setScrollBars(ControlScrollBarType) {#setScrollBars-controlscrollbartype-}
 
@@ -143,7 +143,7 @@ setScrollBars(value: ControlScrollBarType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ControlScrollBarType](/nodejs-cpp/controlscrollbartype/) | The value to set. |
+| value | [ControlScrollBarType](../controlscrollbartype/) | The value to set. |
 
 ### getListWidth() {#getListWidth--}
 
@@ -244,7 +244,7 @@ getMatchEntry() : ControlMatchEntryType;
 
 **Returns**
 
-[ControlMatchEntryType](/nodejs-cpp/controlmatchentrytype/)
+[ControlMatchEntryType](../controlmatchentrytype/)
 
 ### setMatchEntry(ControlMatchEntryType) {#setMatchEntry-controlmatchentrytype-}
 
@@ -257,7 +257,7 @@ setMatchEntry(value: ControlMatchEntryType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ControlMatchEntryType](/nodejs-cpp/controlmatchentrytype/) | The value to set. |
+| value | [ControlMatchEntryType](../controlmatchentrytype/) | The value to set. |
 
 ### getListStyle() {#getListStyle--}
 
@@ -270,7 +270,7 @@ getListStyle() : ControlListStyle;
 
 **Returns**
 
-[ControlListStyle](/nodejs-cpp/controlliststyle/)
+[ControlListStyle](../controlliststyle/)
 
 ### setListStyle(ControlListStyle) {#setListStyle-controlliststyle-}
 
@@ -283,7 +283,7 @@ setListStyle(value: ControlListStyle) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ControlListStyle](/nodejs-cpp/controlliststyle/) | The value to set. |
+| value | [ControlListStyle](../controlliststyle/) | The value to set. |
 
 ### getSelectionType() {#getSelectionType--}
 
@@ -296,7 +296,7 @@ getSelectionType() : SelectionType;
 
 **Returns**
 
-[SelectionType](/nodejs-cpp/selectiontype/)
+[SelectionType](../selectiontype/)
 
 ### setSelectionType(SelectionType) {#setSelectionType-selectiontype-}
 
@@ -309,7 +309,7 @@ setSelectionType(value: SelectionType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [SelectionType](/nodejs-cpp/selectiontype/) | The value to set. |
+| value | [SelectionType](../selectiontype/) | The value to set. |
 
 ### getValue() {#getValue--}
 
@@ -322,7 +322,7 @@ getValue() : string;
 
 **Remarks**
 
-Only effects when [ListBoxActiveXControl.SelectionType](/nodejs-cpp/listboxactivexcontrol.selectiontype/) is SelectionType.Single;
+Only effects when [ListBoxActiveXControl.SelectionType](../listboxactivexcontrol.selectiontype/) is SelectionType.Single;
 
 ### setValue(string) {#setValue-string-}
 
@@ -339,7 +339,7 @@ setValue(value: string) : void;
 
 **Remarks**
 
-Only effects when [ListBoxActiveXControl.SelectionType](/nodejs-cpp/listboxactivexcontrol.selectiontype/) is SelectionType.Single;
+Only effects when [ListBoxActiveXControl.SelectionType](../listboxactivexcontrol.selectiontype/) is SelectionType.Single;
 
 ### getBorderStyle() {#getBorderStyle--}
 
@@ -352,7 +352,7 @@ getBorderStyle() : ControlBorderType;
 
 **Returns**
 
-[ControlBorderType](/nodejs-cpp/controlbordertype/)
+[ControlBorderType](../controlbordertype/)
 
 ### setBorderStyle(ControlBorderType) {#setBorderStyle-controlbordertype-}
 
@@ -365,7 +365,7 @@ setBorderStyle(value: ControlBorderType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ControlBorderType](/nodejs-cpp/controlbordertype/) | The value to set. |
+| value | [ControlBorderType](../controlbordertype/) | The value to set. |
 
 ### getBorderOleColor() {#getBorderOleColor--}
 
@@ -400,7 +400,7 @@ getSpecialEffect() : ControlSpecialEffectType;
 
 **Returns**
 
-[ControlSpecialEffectType](/nodejs-cpp/controlspecialeffecttype/)
+[ControlSpecialEffectType](../controlspecialeffecttype/)
 
 ### setSpecialEffect(ControlSpecialEffectType) {#setSpecialEffect-controlspecialeffecttype-}
 
@@ -413,7 +413,7 @@ setSpecialEffect(value: ControlSpecialEffectType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ControlSpecialEffectType](/nodejs-cpp/controlspecialeffecttype/) | The value to set. |
+| value | [ControlSpecialEffectType](../controlspecialeffecttype/) | The value to set. |
 
 ### getShowColumnHeads() {#getShowColumnHeads--}
 
@@ -483,7 +483,7 @@ setColumnWidths(value: number) : void;
 
 ### getWorkbook() {#getWorkbook--}
 
-Gets the [Workbook](/nodejs-cpp/workbook/) object.
+Gets the [Workbook](../workbook/) object.
 
 ```javascript
 getWorkbook() : Workbook;
@@ -492,7 +492,7 @@ getWorkbook() : Workbook;
 
 **Returns**
 
-[Workbook](/nodejs-cpp/workbook/)
+[Workbook](../workbook/)
 
 ### getMouseIcon() {#getMouseIcon--}
 
@@ -531,7 +531,7 @@ getMousePointer() : ControlMousePointerType;
 
 **Returns**
 
-[ControlMousePointerType](/nodejs-cpp/controlmousepointertype/)
+[ControlMousePointerType](../controlmousepointertype/)
 
 ### setMousePointer(ControlMousePointerType) {#setMousePointer-controlmousepointertype-}
 
@@ -544,7 +544,7 @@ setMousePointer(value: ControlMousePointerType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ControlMousePointerType](/nodejs-cpp/controlmousepointertype/) | The value to set. |
+| value | [ControlMousePointerType](../controlmousepointertype/) | The value to set. |
 
 ### getLinkedCell() {#getLinkedCell--}
 
@@ -667,7 +667,7 @@ getIMEMode() : InputMethodEditorMode;
 
 **Returns**
 
-[InputMethodEditorMode](/nodejs-cpp/inputmethodeditormode/)
+[InputMethodEditorMode](../inputmethodeditormode/)
 
 ### setIMEMode(InputMethodEditorMode) {#setIMEMode-inputmethodeditormode-}
 
@@ -680,7 +680,7 @@ setIMEMode(value: InputMethodEditorMode) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [InputMethodEditorMode](/nodejs-cpp/inputmethodeditormode/) | The value to set. |
+| value | [InputMethodEditorMode](../inputmethodeditormode/) | The value to set. |
 
 ### getFont() {#getFont--}
 
@@ -693,7 +693,7 @@ getFont() : Font;
 
 **Returns**
 
-[Font](/nodejs-cpp/font/)
+[Font](../font/)
 
 ### getTextAlign() {#getTextAlign--}
 
@@ -706,7 +706,7 @@ getTextAlign() : TextAlignmentType;
 
 **Returns**
 
-[TextAlignmentType](/nodejs-cpp/textalignmenttype/)
+[TextAlignmentType](../textalignmenttype/)
 
 ### setTextAlign(TextAlignmentType) {#setTextAlign-textalignmenttype-}
 
@@ -719,7 +719,7 @@ setTextAlign(value: TextAlignmentType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [TextAlignmentType](/nodejs-cpp/textalignmenttype/) | The value to set. |
+| value | [TextAlignmentType](../textalignmenttype/) | The value to set. |
 
 ### getData() {#getData--}
 

@@ -1,14 +1,14 @@
 ﻿---
 title: PictureCollection
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Encapsulates a collection of Picturenodejscpppicture objects.
+description: Encapsulates a collection of Picture..picture objects.
 type: docs
 url: /nodejs-cpp/picturecollection/
 ---
 
 ## PictureCollection class
 
-Encapsulates a collection of [Picture](/nodejs-cpp/picture/) objects.
+Encapsulates a collection of [Picture](../picture/) objects.
 
 ```javascript
 class PictureCollection;
@@ -19,7 +19,7 @@ class PictureCollection;
 
 | Method | Description |
 | --- | --- |
-| [get(number)](#get-number-)| Gets the [Picture](/nodejs-cpp/picture/) element at the specified index. |
+| [get(number)](#get-number-)| Gets the [Picture](../picture/) element at the specified index. |
 | [add(number, number, number, number, Uint8Array)](#add-number-number-number-number-uint8array-)| Adds a picture to the collection. |
 | [add(number, number, number, number, string)](#add-number-number-number-number-string-)| Adds a picture to the collection. |
 | [add(number, number, Uint8Array)](#add-number-number-uint8array-)| Adds a picture to the collection. |
@@ -33,7 +33,7 @@ class PictureCollection;
 
 ### get(number) {#get-number-}
 
-Gets the [Picture](/nodejs-cpp/picture/) element at the specified index.
+Gets the [Picture](../picture/) element at the specified index.
 
 ```javascript
 get(index: number) : Picture;
@@ -67,7 +67,7 @@ add(upperLeftRow: number, upperLeftColumn: number, lowerRightRow: number, lowerR
 
 **Returns**
 
-[Picture](/nodejs-cpp/picture/) object index.
+[Picture](../picture/) object index.
 
 ### add(number, number, number, number, string) {#add-number-number-number-number-string-}
 
@@ -88,7 +88,7 @@ add(upperLeftRow: number, upperLeftColumn: number, lowerRightRow: number, lowerR
 
 **Returns**
 
-[Picture](/nodejs-cpp/picture/) object index.
+[Picture](../picture/) object index.
 
 ### add(number, number, Uint8Array) {#add-number-number-uint8array-}
 
@@ -107,7 +107,7 @@ add(upperLeftRow: number, upperLeftColumn: number, stream: Uint8Array) : number;
 
 **Returns**
 
-[Picture](/nodejs-cpp/picture/) object index.
+[Picture](../picture/) object index.
 
 ### add(number, number, string) {#add-number-number-string-}
 
@@ -126,7 +126,7 @@ add(upperLeftRow: number, upperLeftColumn: number, fileName: string) : number;
 
 **Returns**
 
-[Picture](/nodejs-cpp/picture/) object index.
+[Picture](../picture/) object index.
 
 ### add(number, number, Uint8Array, number, number) {#add-number-number-uint8array-number-number-}
 
@@ -147,7 +147,7 @@ add(upperLeftRow: number, upperLeftColumn: number, stream: Uint8Array, widthScal
 
 **Returns**
 
-[Picture](/nodejs-cpp/picture/) object index.
+[Picture](../picture/) object index.
 
 ### add(number, number, string, number, number) {#add-number-number-string-number-number-}
 
@@ -168,7 +168,7 @@ add(upperLeftRow: number, upperLeftColumn: number, fileName: string, widthScale:
 
 **Returns**
 
-[Picture](/nodejs-cpp/picture/) object index.
+[Picture](../picture/) object index.
 
 ### clear() {#clear--}
 

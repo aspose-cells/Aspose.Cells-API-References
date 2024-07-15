@@ -41,7 +41,7 @@ getType() : ExternalLinkType;
 
 **Returns**
 
-[ExternalLinkType](/nodejs-cpp/externallinktype/)
+[ExternalLinkType](../externallinktype/)
 
 ### getPathType() {#getPathType--}
 

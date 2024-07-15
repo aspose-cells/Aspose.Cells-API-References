@@ -44,7 +44,7 @@ get(index: number) : Timeline;
 
 **Returns**
 
-[Timeline](/nodejs-cpp/timeline/)
+[Timeline](../timeline/)
 
 ### add(PivotTable, number, number, string) {#add-pivottable-number-number-string-}
 
@@ -57,7 +57,7 @@ add(pivot: PivotTable, row: number, column: number, baseFieldName: string) : num
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pivot | [PivotTable](/nodejs-cpp/pivottable/) | PivotTable object |
+| pivot | [PivotTable](../pivottable/) | PivotTable object |
 | row | number | Row index of the cell in the upper-left corner of the Timeline range. |
 | column | number | Column index of the cell in the upper-left corner of the Timeline range. |
 | baseFieldName | string | The name of PivotField in PivotTable.BaseFields |
@@ -77,7 +77,7 @@ add(pivot: PivotTable, destCellName: string, baseFieldName: string) : number;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pivot | [PivotTable](/nodejs-cpp/pivottable/) | PivotTable object |
+| pivot | [PivotTable](../pivottable/) | PivotTable object |
 | destCellName | string | The cell name in the upper-left corner of the Timeline range. |
 | baseFieldName | string | The name of PivotField in PivotTable.BaseFields |
 
@@ -96,7 +96,7 @@ add(pivot: PivotTable, row: number, column: number, baseFieldIndex: number) : nu
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pivot | [PivotTable](/nodejs-cpp/pivottable/) | PivotTable object |
+| pivot | [PivotTable](../pivottable/) | PivotTable object |
 | row | number | Row index of the cell in the upper-left corner of the Timeline range. |
 | column | number | Column index of the cell in the upper-left corner of the Timeline range. |
 | baseFieldIndex | number | The index of PivotField in PivotTable.BaseFields |
@@ -116,7 +116,7 @@ add(pivot: PivotTable, destCellName: string, baseFieldIndex: number) : number;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pivot | [PivotTable](/nodejs-cpp/pivottable/) | PivotTable object |
+| pivot | [PivotTable](../pivottable/) | PivotTable object |
 | destCellName | string | The cell name in the upper-left corner of the Timeline range. |
 | baseFieldIndex | number | The index of PivotField in PivotTable.BaseFields |
 
@@ -135,10 +135,10 @@ add(pivot: PivotTable, row: number, column: number, baseField: PivotField) : num
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pivot | [PivotTable](/nodejs-cpp/pivottable/) | PivotTable object |
+| pivot | [PivotTable](../pivottable/) | PivotTable object |
 | row | number | Row index of the cell in the upper-left corner of the Timeline range. |
 | column | number | Column index of the cell in the upper-left corner of the Timeline range. |
-| baseField | [PivotField](/nodejs-cpp/pivotfield/) | The PivotField in PivotTable.BaseFields |
+| baseField | [PivotField](../pivotfield/) | The PivotField in PivotTable.BaseFields |
 
 **Returns**
 
@@ -155,9 +155,9 @@ add(pivot: PivotTable, destCellName: string, baseField: PivotField) : number;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pivot | [PivotTable](/nodejs-cpp/pivottable/) | PivotTable object |
+| pivot | [PivotTable](../pivottable/) | PivotTable object |
 | destCellName | string | The cell name in the upper-left corner of the Timeline range. |
-| baseField | [PivotField](/nodejs-cpp/pivotfield/) | The PivotField in PivotTable.BaseFields |
+| baseField | [PivotField](../pivotfield/) | The PivotField in PivotTable.BaseFields |
 
 **Returns**
 

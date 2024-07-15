@@ -44,8 +44,8 @@ class PdfSaveOptions extends PaginatedSaveOptions;
 | [setProducer(string)](#setProducer-string-)| Gets and sets producer of generated pdf document. |
 | [getOptimizationType()](#getOptimizationType--)| Gets and sets pdf optimization type. |
 | [setOptimizationType(PdfOptimizationType)](#setOptimizationType-pdfoptimizationtype-)| Gets and sets pdf optimization type. |
-| [getCustomPropertiesExport()](#getCustomPropertiesExport--)| Gets or sets a value determining the way [CustomDocumentPropertyCollection](/nodejs-cpp/customdocumentpropertycollection/) are exported to PDF file. Default value is None. |
-| [setCustomPropertiesExport(PdfCustomPropertiesExport)](#setCustomPropertiesExport-pdfcustompropertiesexport-)| Gets or sets a value determining the way [CustomDocumentPropertyCollection](/nodejs-cpp/customdocumentpropertycollection/) are exported to PDF file. Default value is None. |
+| [getCustomPropertiesExport()](#getCustomPropertiesExport--)| Gets or sets a value determining the way [CustomDocumentPropertyCollection](../customdocumentpropertycollection/) are exported to PDF file. Default value is None. |
+| [setCustomPropertiesExport(PdfCustomPropertiesExport)](#setCustomPropertiesExport-pdfcustompropertiesexport-)| Gets or sets a value determining the way [CustomDocumentPropertyCollection](../customdocumentpropertycollection/) are exported to PDF file. Default value is None. |
 | [getExportDocumentStructure()](#getExportDocumentStructure--)| Indicates whether to export document structure. |
 | [setExportDocumentStructure(boolean)](#setExportDocumentStructure-boolean-)| Indicates whether to export document structure. |
 | [getDisplayDocTitle()](#getDisplayDocTitle--)| Indicates whether the window's title bar should display the document title. |
@@ -106,8 +106,8 @@ class PdfSaveOptions extends PaginatedSaveOptions;
 | [setTextCrossType(TextCrossType)](#setTextCrossType-textcrosstype-)| Gets or sets displaying text type when the text width is larger than cell width. |
 | [getDefaultEditLanguage()](#getDefaultEditLanguage--)| Gets or sets default edit language. |
 | [setDefaultEditLanguage(DefaultEditLanguage)](#setDefaultEditLanguage-defaulteditlanguage-)| Gets or sets default edit language. |
-| [getSheetSet()](#getSheetSet--)| Gets or sets the sheets to render. Default is all visible sheets in the workbook: [Aspose.Cells.Rendering.SheetSet.Visible](/nodejs-cpp/aspose.cells.rendering.sheetset.visible/). |
-| [setSheetSet(SheetSet)](#setSheetSet-sheetset-)| Gets or sets the sheets to render. Default is all visible sheets in the workbook: [Aspose.Cells.Rendering.SheetSet.Visible](/nodejs-cpp/aspose.cells.rendering.sheetset.visible/). |
+| [getSheetSet()](#getSheetSet--)| Gets or sets the sheets to render. Default is all visible sheets in the workbook: [Aspose.Cells.Rendering.SheetSet.Visible](../aspose.cells.rendering.sheetset.visible/). |
+| [setSheetSet(SheetSet)](#setSheetSet-sheetset-)| Gets or sets the sheets to render. Default is all visible sheets in the workbook: [Aspose.Cells.Rendering.SheetSet.Visible](../aspose.cells.rendering.sheetset.visible/). |
 | [getDrawObjectEventHandler()](#getDrawObjectEventHandler--)| Implements this interface to get DrawObject and Bound when rendering. |
 | [setDrawObjectEventHandler(DrawObjectEventHandler)](#setDrawObjectEventHandler-drawobjecteventhandler-)| Implements this interface to get DrawObject and Bound when rendering. |
 | [getPageSavingCallback()](#getPageSavingCallback--)| Control/Indicate progress of page saving process. |
@@ -171,7 +171,7 @@ getBookmark() : PdfBookmarkEntry;
 
 **Returns**
 
-[PdfBookmarkEntry](/nodejs-cpp/pdfbookmarkentry/)
+[PdfBookmarkEntry](../pdfbookmarkentry/)
 
 ### setBookmark(PdfBookmarkEntry) {#setBookmark-pdfbookmarkentry-}
 
@@ -184,7 +184,7 @@ setBookmark(value: PdfBookmarkEntry) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [PdfBookmarkEntry](/nodejs-cpp/pdfbookmarkentry/) | The value to set. |
+| value | [PdfBookmarkEntry](../pdfbookmarkentry/) | The value to set. |
 
 ### getCompliance() {#getCompliance--}
 
@@ -197,7 +197,7 @@ getCompliance() : PdfCompliance;
 
 **Returns**
 
-[PdfCompliance](/nodejs-cpp/pdfcompliance/)
+[PdfCompliance](../pdfcompliance/)
 
 **Remarks**
 
@@ -214,7 +214,7 @@ setCompliance(value: PdfCompliance) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [PdfCompliance](/nodejs-cpp/pdfcompliance/) | The value to set. |
+| value | [PdfCompliance](../pdfcompliance/) | The value to set. |
 
 **Remarks**
 
@@ -231,7 +231,7 @@ getSecurityOptions() : PdfSecurityOptions;
 
 **Returns**
 
-[PdfSecurityOptions](/nodejs-cpp/pdfsecurityoptions/)
+[PdfSecurityOptions](../pdfsecurityoptions/)
 
 ### setSecurityOptions(PdfSecurityOptions) {#setSecurityOptions-pdfsecurityoptions-}
 
@@ -244,7 +244,7 @@ setSecurityOptions(value: PdfSecurityOptions) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [PdfSecurityOptions](/nodejs-cpp/pdfsecurityoptions/) | The value to set. |
+| value | [PdfSecurityOptions](../pdfsecurityoptions/) | The value to set. |
 
 ### getCalculateFormula() {#getCalculateFormula--}
 
@@ -287,7 +287,7 @@ getPdfCompression() : PdfCompressionCore;
 
 **Returns**
 
-[PdfCompressionCore](/nodejs-cpp/pdfcompressioncore/)
+[PdfCompressionCore](../pdfcompressioncore/)
 
 ### setPdfCompression(PdfCompressionCore) {#setPdfCompression-pdfcompressioncore-}
 
@@ -300,7 +300,7 @@ setPdfCompression(value: PdfCompressionCore) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [PdfCompressionCore](/nodejs-cpp/pdfcompressioncore/) | The value to set. |
+| value | [PdfCompressionCore](../pdfcompressioncore/) | The value to set. |
 
 ### getCreatedTime() {#getCreatedTime--}
 
@@ -373,11 +373,11 @@ getOptimizationType() : PdfOptimizationType;
 
 **Returns**
 
-[PdfOptimizationType](/nodejs-cpp/pdfoptimizationtype/)
+[PdfOptimizationType](../pdfoptimizationtype/)
 
 **Remarks**
 
-Default value is [PdfOptimizationType.Standard](/nodejs-cpp/pdfoptimizationtype.standard/)
+Default value is [PdfOptimizationType.Standard](../pdfoptimizationtype.standard/)
 
 ### setOptimizationType(PdfOptimizationType) {#setOptimizationType-pdfoptimizationtype-}
 
@@ -390,15 +390,15 @@ setOptimizationType(value: PdfOptimizationType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [PdfOptimizationType](/nodejs-cpp/pdfoptimizationtype/) | The value to set. |
+| value | [PdfOptimizationType](../pdfoptimizationtype/) | The value to set. |
 
 **Remarks**
 
-Default value is [PdfOptimizationType.Standard](/nodejs-cpp/pdfoptimizationtype.standard/)
+Default value is [PdfOptimizationType.Standard](../pdfoptimizationtype.standard/)
 
 ### getCustomPropertiesExport() {#getCustomPropertiesExport--}
 
-Gets or sets a value determining the way [CustomDocumentPropertyCollection](/nodejs-cpp/customdocumentpropertycollection/) are exported to PDF file. Default value is None.
+Gets or sets a value determining the way [CustomDocumentPropertyCollection](../customdocumentpropertycollection/) are exported to PDF file. Default value is None.
 
 ```javascript
 getCustomPropertiesExport() : PdfCustomPropertiesExport;
@@ -407,11 +407,11 @@ getCustomPropertiesExport() : PdfCustomPropertiesExport;
 
 **Returns**
 
-[PdfCustomPropertiesExport](/nodejs-cpp/pdfcustompropertiesexport/)
+[PdfCustomPropertiesExport](../pdfcustompropertiesexport/)
 
 ### setCustomPropertiesExport(PdfCustomPropertiesExport) {#setCustomPropertiesExport-pdfcustompropertiesexport-}
 
-Gets or sets a value determining the way [CustomDocumentPropertyCollection](/nodejs-cpp/customdocumentpropertycollection/) are exported to PDF file. Default value is None.
+Gets or sets a value determining the way [CustomDocumentPropertyCollection](../customdocumentpropertycollection/) are exported to PDF file. Default value is None.
 
 ```javascript
 setCustomPropertiesExport(value: PdfCustomPropertiesExport) : void;
@@ -420,7 +420,7 @@ setCustomPropertiesExport(value: PdfCustomPropertiesExport) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [PdfCustomPropertiesExport](/nodejs-cpp/pdfcustompropertiesexport/) | The value to set. |
+| value | [PdfCustomPropertiesExport](../pdfcustompropertiesexport/) | The value to set. |
 
 ### getExportDocumentStructure() {#getExportDocumentStructure--}
 
@@ -485,11 +485,11 @@ getFontEncoding() : PdfFontEncoding;
 
 **Returns**
 
-[PdfFontEncoding](/nodejs-cpp/pdffontencoding/)
+[PdfFontEncoding](../pdffontencoding/)
 
 **Remarks**
 
-Default value is [PdfFontEncoding.Identity](/nodejs-cpp/pdffontencoding.identity/)
+Default value is [PdfFontEncoding.Identity](../pdffontencoding.identity/)
 
 ### setFontEncoding(PdfFontEncoding) {#setFontEncoding-pdffontencoding-}
 
@@ -502,11 +502,11 @@ setFontEncoding(value: PdfFontEncoding) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [PdfFontEncoding](/nodejs-cpp/pdffontencoding/) | The value to set. |
+| value | [PdfFontEncoding](../pdffontencoding/) | The value to set. |
 
 **Remarks**
 
-Default value is [PdfFontEncoding.Identity](/nodejs-cpp/pdffontencoding.identity/)
+Default value is [PdfFontEncoding.Identity](../pdffontencoding.identity/)
 
 ### getWatermark() {#getWatermark--}
 
@@ -519,7 +519,7 @@ getWatermark() : RenderingWatermark;
 
 **Returns**
 
-[RenderingWatermark](/nodejs-cpp/renderingwatermark/)
+[RenderingWatermark](../renderingwatermark/)
 
 ### setWatermark(RenderingWatermark) {#setWatermark-renderingwatermark-}
 
@@ -532,7 +532,7 @@ setWatermark(value: RenderingWatermark) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [RenderingWatermark](/nodejs-cpp/renderingwatermark/) | The value to set. |
+| value | [RenderingWatermark](../renderingwatermark/) | The value to set. |
 
 ### getEmbedAttachments() {#getEmbedAttachments--}
 
@@ -589,7 +589,7 @@ getSaveFormat() : SaveFormat;
 
 **Returns**
 
-[SaveFormat](/nodejs-cpp/saveformat/)
+[SaveFormat](../saveformat/)
 
 ### getClearData() {#getClearData--}
 
@@ -802,7 +802,7 @@ setWarningCallback(value: IWarningCallback) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IWarningCallback](/nodejs-cpp/iwarningcallback/) | The value to set. |
+| value | [IWarningCallback](../iwarningcallback/) | The value to set. |
 
 ### getWarningCallback() {#getWarningCallback--}
 
@@ -815,7 +815,7 @@ getWarningCallback() : IWarningCallback;
 
 **Returns**
 
-[IWarningCallback](/nodejs-cpp/iwarningcallback/)
+[IWarningCallback](../iwarningcallback/)
 
 ### getUpdateSmartArt() {#getUpdateSmartArt--}
 
@@ -1126,7 +1126,7 @@ getPrintingPageType() : PrintingPageType;
 
 **Returns**
 
-[PrintingPageType](/nodejs-cpp/printingpagetype/)
+[PrintingPageType](../printingpagetype/)
 
 **Remarks**
 
@@ -1143,7 +1143,7 @@ setPrintingPageType(value: PrintingPageType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [PrintingPageType](/nodejs-cpp/printingpagetype/) | The value to set. |
+| value | [PrintingPageType](../printingpagetype/) | The value to set. |
 
 **Remarks**
 
@@ -1160,7 +1160,7 @@ getGridlineType() : GridlineType;
 
 **Returns**
 
-[GridlineType](/nodejs-cpp/gridlinetype/)
+[GridlineType](../gridlinetype/)
 
 **Remarks**
 
@@ -1177,7 +1177,7 @@ setGridlineType(value: GridlineType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [GridlineType](/nodejs-cpp/gridlinetype/) | The value to set. |
+| value | [GridlineType](../gridlinetype/) | The value to set. |
 
 **Remarks**
 
@@ -1194,7 +1194,7 @@ getTextCrossType() : TextCrossType;
 
 **Returns**
 
-[TextCrossType](/nodejs-cpp/textcrosstype/)
+[TextCrossType](../textcrosstype/)
 
 ### setTextCrossType(TextCrossType) {#setTextCrossType-textcrosstype-}
 
@@ -1207,7 +1207,7 @@ setTextCrossType(value: TextCrossType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [TextCrossType](/nodejs-cpp/textcrosstype/) | The value to set. |
+| value | [TextCrossType](../textcrosstype/) | The value to set. |
 
 ### getDefaultEditLanguage() {#getDefaultEditLanguage--}
 
@@ -1220,11 +1220,11 @@ getDefaultEditLanguage() : DefaultEditLanguage;
 
 **Returns**
 
-[DefaultEditLanguage](/nodejs-cpp/defaulteditlanguage/)
+[DefaultEditLanguage](../defaulteditlanguage/)
 
 **Remarks**
 
-It may display/render different layouts for text paragraph when different edit languages is set. Default is [Aspose.Cells.DefaultEditLanguage.Auto](/nodejs-cpp/aspose.cells.defaulteditlanguage.auto/).
+It may display/render different layouts for text paragraph when different edit languages is set. Default is [Aspose.Cells.DefaultEditLanguage.Auto](../aspose.cells.defaulteditlanguage.auto/).
 
 ### setDefaultEditLanguage(DefaultEditLanguage) {#setDefaultEditLanguage-defaulteditlanguage-}
 
@@ -1237,15 +1237,15 @@ setDefaultEditLanguage(value: DefaultEditLanguage) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [DefaultEditLanguage](/nodejs-cpp/defaulteditlanguage/) | The value to set. |
+| value | [DefaultEditLanguage](../defaulteditlanguage/) | The value to set. |
 
 **Remarks**
 
-It may display/render different layouts for text paragraph when different edit languages is set. Default is [Aspose.Cells.DefaultEditLanguage.Auto](/nodejs-cpp/aspose.cells.defaulteditlanguage.auto/).
+It may display/render different layouts for text paragraph when different edit languages is set. Default is [Aspose.Cells.DefaultEditLanguage.Auto](../aspose.cells.defaulteditlanguage.auto/).
 
 ### getSheetSet() {#getSheetSet--}
 
-Gets or sets the sheets to render. Default is all visible sheets in the workbook: [Aspose.Cells.Rendering.SheetSet.Visible](/nodejs-cpp/aspose.cells.rendering.sheetset.visible/).
+Gets or sets the sheets to render. Default is all visible sheets in the workbook: [Aspose.Cells.Rendering.SheetSet.Visible](../aspose.cells.rendering.sheetset.visible/).
 
 ```javascript
 getSheetSet() : SheetSet;
@@ -1254,11 +1254,11 @@ getSheetSet() : SheetSet;
 
 **Returns**
 
-[SheetSet](/nodejs-cpp/sheetset/)
+[SheetSet](../sheetset/)
 
 ### setSheetSet(SheetSet) {#setSheetSet-sheetset-}
 
-Gets or sets the sheets to render. Default is all visible sheets in the workbook: [Aspose.Cells.Rendering.SheetSet.Visible](/nodejs-cpp/aspose.cells.rendering.sheetset.visible/).
+Gets or sets the sheets to render. Default is all visible sheets in the workbook: [Aspose.Cells.Rendering.SheetSet.Visible](../aspose.cells.rendering.sheetset.visible/).
 
 ```javascript
 setSheetSet(value: SheetSet) : void;
@@ -1267,7 +1267,7 @@ setSheetSet(value: SheetSet) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [SheetSet](/nodejs-cpp/sheetset/) | The value to set. |
+| value | [SheetSet](../sheetset/) | The value to set. |
 
 ### getDrawObjectEventHandler() {#getDrawObjectEventHandler--}
 
@@ -1280,7 +1280,7 @@ getDrawObjectEventHandler() : DrawObjectEventHandler;
 
 **Returns**
 
-[DrawObjectEventHandler](/nodejs-cpp/drawobjecteventhandler/)
+[DrawObjectEventHandler](../drawobjecteventhandler/)
 
 ### setDrawObjectEventHandler(DrawObjectEventHandler) {#setDrawObjectEventHandler-drawobjecteventhandler-}
 
@@ -1293,7 +1293,7 @@ setDrawObjectEventHandler(value: DrawObjectEventHandler) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [DrawObjectEventHandler](/nodejs-cpp/drawobjecteventhandler/) | The value to set. |
+| value | [DrawObjectEventHandler](../drawobjecteventhandler/) | The value to set. |
 
 ### getPageSavingCallback() {#getPageSavingCallback--}
 
@@ -1306,7 +1306,7 @@ getPageSavingCallback() : IPageSavingCallback;
 
 **Returns**
 
-[IPageSavingCallback](/nodejs-cpp/ipagesavingcallback/)
+[IPageSavingCallback](../ipagesavingcallback/)
 
 ### setPageSavingCallback(IPageSavingCallback) {#setPageSavingCallback-ipagesavingcallback-}
 
@@ -1319,7 +1319,7 @@ setPageSavingCallback(value: IPageSavingCallback) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IPageSavingCallback](/nodejs-cpp/ipagesavingcallback/) | The value to set. |
+| value | [IPageSavingCallback](../ipagesavingcallback/) | The value to set. |
 
 ### getEmfRenderSetting() {#getEmfRenderSetting--}
 
@@ -1332,11 +1332,11 @@ getEmfRenderSetting() : EmfRenderSetting;
 
 **Returns**
 
-[EmfRenderSetting](/nodejs-cpp/emfrendersetting/)
+[EmfRenderSetting](../emfrendersetting/)
 
 **Remarks**
 
-EMF metafiles identified as "EMF+ Dual" can contain both EMF+ records and EMF records. Either type of record can be used to render the image, only EMF+ records, or only EMF records. When [Aspose.Cells.EmfRenderSetting.EmfPlusPrefer](/nodejs-cpp/aspose.cells.emfrendersetting.emfplusprefer/) is set, then EMF+ records will be parsed while rendering to page, otherwise only EMF records will be parsed. Default value is [Aspose.Cells.EmfRenderSetting.EmfOnly](/nodejs-cpp/aspose.cells.emfrendersetting.emfonly/).
+EMF metafiles identified as "EMF+ Dual" can contain both EMF+ records and EMF records. Either type of record can be used to render the image, only EMF+ records, or only EMF records. When [Aspose.Cells.EmfRenderSetting.EmfPlusPrefer](../aspose.cells.emfrendersetting.emfplusprefer/) is set, then EMF+ records will be parsed while rendering to page, otherwise only EMF records will be parsed. Default value is [Aspose.Cells.EmfRenderSetting.EmfOnly](../aspose.cells.emfrendersetting.emfonly/).
 
 ### setEmfRenderSetting(EmfRenderSetting) {#setEmfRenderSetting-emfrendersetting-}
 
@@ -1349,10 +1349,10 @@ setEmfRenderSetting(value: EmfRenderSetting) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [EmfRenderSetting](/nodejs-cpp/emfrendersetting/) | The value to set. |
+| value | [EmfRenderSetting](../emfrendersetting/) | The value to set. |
 
 **Remarks**
 
-EMF metafiles identified as "EMF+ Dual" can contain both EMF+ records and EMF records. Either type of record can be used to render the image, only EMF+ records, or only EMF records. When [Aspose.Cells.EmfRenderSetting.EmfPlusPrefer](/nodejs-cpp/aspose.cells.emfrendersetting.emfplusprefer/) is set, then EMF+ records will be parsed while rendering to page, otherwise only EMF records will be parsed. Default value is [Aspose.Cells.EmfRenderSetting.EmfOnly](/nodejs-cpp/aspose.cells.emfrendersetting.emfonly/).
+EMF metafiles identified as "EMF+ Dual" can contain both EMF+ records and EMF records. Either type of record can be used to render the image, only EMF+ records, or only EMF records. When [Aspose.Cells.EmfRenderSetting.EmfPlusPrefer](../aspose.cells.emfrendersetting.emfplusprefer/) is set, then EMF+ records will be parsed while rendering to page, otherwise only EMF records will be parsed. Default value is [Aspose.Cells.EmfRenderSetting.EmfOnly](../aspose.cells.emfrendersetting.emfonly/).
 
 

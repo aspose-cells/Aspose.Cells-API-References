@@ -87,7 +87,7 @@ class WebQueryConnection extends ExternalConnection;
 | [setCredentialsMethodType(CredentialsMethodType)](#setCredentialsMethodType-credentialsmethodtype-)| Specifies the authentication method to be used when establishing (or re-establishing) the connection. |
 | [getBackgroundRefresh()](#getBackgroundRefresh--)| Indicates whether the connection can be refreshed in the background (asynchronously). true if preferred usage of the connection is to refresh asynchronously in the background; false if preferred usage of the connection is to refresh synchronously in the foreground. |
 | [setBackgroundRefresh(boolean)](#setBackgroundRefresh-boolean-)| Indicates whether the connection can be refreshed in the background (asynchronously). true if preferred usage of the connection is to refresh asynchronously in the background; false if preferred usage of the connection is to refresh synchronously in the foreground. |
-| [getParameters()](#getParameters--)| Gets [ConnectionParameterCollection](/nodejs-cpp/connectionparametercollection/) for an ODBC or web query. |
+| [getParameters()](#getParameters--)| Gets [ConnectionParameterCollection](../connectionparametercollection/) for an ODBC or web query. |
 | [getPowerQueryFormula()](#getPowerQueryFormula--)| Gets the definition of power query formula. |
 
 
@@ -313,7 +313,7 @@ getHtmlFormat() : HtmlFormatHandlingType;
 
 **Returns**
 
-[HtmlFormatHandlingType](/nodejs-cpp/htmlformathandlingtype/)
+[HtmlFormatHandlingType](../htmlformathandlingtype/)
 
 ### setHtmlFormat(HtmlFormatHandlingType) {#setHtmlFormat-htmlformathandlingtype-}
 
@@ -326,7 +326,7 @@ setHtmlFormat(value: HtmlFormatHandlingType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [HtmlFormatHandlingType](/nodejs-cpp/htmlformathandlingtype/) | The value to set. |
+| value | [HtmlFormatHandlingType](../htmlformathandlingtype/) | The value to set. |
 
 ### isSameSettings() {#isSameSettings--}
 
@@ -414,7 +414,7 @@ getType() : ConnectionDataSourceType;
 
 **Returns**
 
-[ConnectionDataSourceType](/nodejs-cpp/connectiondatasourcetype/)
+[ConnectionDataSourceType](../connectiondatasourcetype/)
 
 ### setType(ConnectionDataSourceType) {#setType-connectiondatasourcetype-}
 
@@ -427,7 +427,7 @@ setType(value: ConnectionDataSourceType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ConnectionDataSourceType](/nodejs-cpp/connectiondatasourcetype/) | The value to set. |
+| value | [ConnectionDataSourceType](../connectiondatasourcetype/) | The value to set. |
 
 ### getSourceFile() {#getSourceFile--}
 
@@ -550,7 +550,7 @@ getReconnectionMethodType() : ReConnectionMethodType;
 
 **Returns**
 
-[ReConnectionMethodType](/nodejs-cpp/reconnectionmethodtype/)
+[ReConnectionMethodType](../reconnectionmethodtype/)
 
 ### setReconnectionMethodType(ReConnectionMethodType) {#setReconnectionMethodType-reconnectionmethodtype-}
 
@@ -563,7 +563,7 @@ setReconnectionMethodType(value: ReConnectionMethodType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ReConnectionMethodType](/nodejs-cpp/reconnectionmethodtype/) | The value to set. |
+| value | [ReConnectionMethodType](../reconnectionmethodtype/) | The value to set. |
 
 ### getOnlyUseConnectionFile() {#getOnlyUseConnectionFile--}
 
@@ -761,7 +761,7 @@ getCredentialsMethodType() : CredentialsMethodType;
 
 **Returns**
 
-[CredentialsMethodType](/nodejs-cpp/credentialsmethodtype/)
+[CredentialsMethodType](../credentialsmethodtype/)
 
 ### setCredentialsMethodType(CredentialsMethodType) {#setCredentialsMethodType-credentialsmethodtype-}
 
@@ -774,7 +774,7 @@ setCredentialsMethodType(value: CredentialsMethodType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [CredentialsMethodType](/nodejs-cpp/credentialsmethodtype/) | The value to set. |
+| value | [CredentialsMethodType](../credentialsmethodtype/) | The value to set. |
 
 ### getBackgroundRefresh() {#getBackgroundRefresh--}
 
@@ -800,7 +800,7 @@ setBackgroundRefresh(value: boolean) : void;
 
 ### getParameters() {#getParameters--}
 
-Gets [ConnectionParameterCollection](/nodejs-cpp/connectionparametercollection/) for an ODBC or web query.
+Gets [ConnectionParameterCollection](../connectionparametercollection/) for an ODBC or web query.
 
 ```javascript
 getParameters() : ConnectionParameterCollection;
@@ -809,7 +809,7 @@ getParameters() : ConnectionParameterCollection;
 
 **Returns**
 
-[ConnectionParameterCollection](/nodejs-cpp/connectionparametercollection/)
+[ConnectionParameterCollection](../connectionparametercollection/)
 
 ### getPowerQueryFormula() {#getPowerQueryFormula--}
 
@@ -822,6 +822,6 @@ getPowerQueryFormula() : PowerQueryFormula;
 
 **Returns**
 
-[PowerQueryFormula](/nodejs-cpp/powerqueryformula/)
+[PowerQueryFormula](../powerqueryformula/)
 
 

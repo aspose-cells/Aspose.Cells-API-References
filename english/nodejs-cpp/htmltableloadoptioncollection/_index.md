@@ -25,7 +25,7 @@ class HtmlTableLoadOptionCollection;
 
 | Method | Description |
 | --- | --- |
-| [get(number)](#get-number-)| Gets the [HtmlTableLoadOption](/nodejs-cpp/htmltableloadoption/) element at the specified index. |
+| [get(number)](#get-number-)| Gets the [HtmlTableLoadOption](../htmltableloadoption/) element at the specified index. |
 | [getTableToListObject()](#getTableToListObject--)| Indicates whether generate list objects from imported tables. The default value is false. |
 | [setTableToListObject(boolean)](#setTableToListObject-boolean-)| Indicates whether generate list objects from imported tables. The default value is false. |
 | [add(HtmlTableLoadOption)](#add-htmltableloadoption-)| Adds one HtmlTableLoadOption into this collection. |
@@ -49,7 +49,7 @@ constructor();
 
 ### get(number) {#get-number-}
 
-Gets the [HtmlTableLoadOption](/nodejs-cpp/htmltableloadoption/) element at the specified index.
+Gets the [HtmlTableLoadOption](../htmltableloadoption/) element at the specified index.
 
 ```javascript
 get(index: number) : HtmlTableLoadOption;
@@ -97,7 +97,7 @@ add(item: HtmlTableLoadOption) : number;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | [HtmlTableLoadOption](/nodejs-cpp/htmltableloadoption/) | one HtmlTableLoadOption |
+| item | [HtmlTableLoadOption](../htmltableloadoption/) | one HtmlTableLoadOption |
 
 **Returns**
 

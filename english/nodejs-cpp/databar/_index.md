@@ -53,7 +53,7 @@ getAxisColor() : Color;
 
 **Returns**
 
-[Color](/nodejs-cpp/color/)
+[Color](../color/)
 
 ### setAxisColor(Color) {#setAxisColor-color-}
 
@@ -66,7 +66,7 @@ setAxisColor(value: Color) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [Color](/nodejs-cpp/color/) | The value to set. |
+| value | [Color](../color/) | The value to set. |
 
 ### getAxisPosition() {#getAxisPosition--}
 
@@ -79,7 +79,7 @@ getAxisPosition() : DataBarAxisPosition;
 
 **Returns**
 
-[DataBarAxisPosition](/nodejs-cpp/databaraxisposition/)
+[DataBarAxisPosition](../databaraxisposition/)
 
 ### setAxisPosition(DataBarAxisPosition) {#setAxisPosition-databaraxisposition-}
 
@@ -92,7 +92,7 @@ setAxisPosition(value: DataBarAxisPosition) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [DataBarAxisPosition](/nodejs-cpp/databaraxisposition/) | The value to set. |
+| value | [DataBarAxisPosition](../databaraxisposition/) | The value to set. |
 
 ### getBarFillType() {#getBarFillType--}
 
@@ -105,7 +105,7 @@ getBarFillType() : DataBarFillType;
 
 **Returns**
 
-[DataBarFillType](/nodejs-cpp/databarfilltype/)
+[DataBarFillType](../databarfilltype/)
 
 ### setBarFillType(DataBarFillType) {#setBarFillType-databarfilltype-}
 
@@ -118,7 +118,7 @@ setBarFillType(value: DataBarFillType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [DataBarFillType](/nodejs-cpp/databarfilltype/) | The value to set. |
+| value | [DataBarFillType](../databarfilltype/) | The value to set. |
 
 ### getDirection() {#getDirection--}
 
@@ -131,7 +131,7 @@ getDirection() : TextDirectionType;
 
 **Returns**
 
-[TextDirectionType](/nodejs-cpp/textdirectiontype/)
+[TextDirectionType](../textdirectiontype/)
 
 ### setDirection(TextDirectionType) {#setDirection-textdirectiontype-}
 
@@ -144,7 +144,7 @@ setDirection(value: TextDirectionType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [TextDirectionType](/nodejs-cpp/textdirectiontype/) | The value to set. |
+| value | [TextDirectionType](../textdirectiontype/) | The value to set. |
 
 ### getBarBorder() {#getBarBorder--}
 
@@ -157,7 +157,7 @@ getBarBorder() : DataBarBorder;
 
 **Returns**
 
-[DataBarBorder](/nodejs-cpp/databarborder/)
+[DataBarBorder](../databarborder/)
 
 ### getNegativeBarFormat() {#getNegativeBarFormat--}
 
@@ -170,7 +170,7 @@ getNegativeBarFormat() : NegativeBarFormat;
 
 **Returns**
 
-[NegativeBarFormat](/nodejs-cpp/negativebarformat/)
+[NegativeBarFormat](../negativebarformat/)
 
 ### getMinCfvo() {#getMinCfvo--}
 
@@ -183,7 +183,7 @@ getMinCfvo() : ConditionalFormattingValue;
 
 **Returns**
 
-[ConditionalFormattingValue](/nodejs-cpp/conditionalformattingvalue/)
+[ConditionalFormattingValue](../conditionalformattingvalue/)
 
 ### getMaxCfvo() {#getMaxCfvo--}
 
@@ -196,7 +196,7 @@ getMaxCfvo() : ConditionalFormattingValue;
 
 **Returns**
 
-[ConditionalFormattingValue](/nodejs-cpp/conditionalformattingvalue/)
+[ConditionalFormattingValue](../conditionalformattingvalue/)
 
 ### getColor() {#getColor--}
 
@@ -209,7 +209,7 @@ getColor() : Color;
 
 **Returns**
 
-[Color](/nodejs-cpp/color/)
+[Color](../color/)
 
 ### setColor(Color) {#setColor-color-}
 
@@ -222,7 +222,7 @@ setColor(value: Color) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [Color](/nodejs-cpp/color/) | The value to set. |
+| value | [Color](../color/) | The value to set. |
 
 ### getMinLength() {#getMinLength--}
 
@@ -301,8 +301,8 @@ toImage(cell: Cell, imgOpts: ImageOrPrintOptions) : number[];
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| cell | [Cell](/nodejs-cpp/cell/) | Indicate the data bar in which cell to be rendered |
-| imgOpts | [ImageOrPrintOptions](/nodejs-cpp/imageorprintoptions/) | ImageOrPrintOptions contains some property of output image |
+| cell | [Cell](../cell/) | Indicate the data bar in which cell to be rendered |
+| imgOpts | [ImageOrPrintOptions](../imageorprintoptions/) | ImageOrPrintOptions contains some property of output image |
 
 **Returns**
 

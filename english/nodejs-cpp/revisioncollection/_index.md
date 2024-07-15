@@ -19,13 +19,13 @@ class RevisionCollection;
 
 | Method | Description |
 | --- | --- |
-| [get(number)](#get-number-)| Gets [Revision](/nodejs-cpp/revision/) by the index. |
+| [get(number)](#get-number-)| Gets [Revision](../revision/) by the index. |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
 
 
 ### get(number) {#get-number-}
 
-Gets [Revision](/nodejs-cpp/revision/) by the index.
+Gets [Revision](../revision/) by the index.
 
 ```javascript
 get(index: number) : Revision;
@@ -38,7 +38,7 @@ get(index: number) : Revision;
 
 **Returns**
 
-[Revision](/nodejs-cpp/revision/)
+[Revision](../revision/)
 
 ### getCount() {#getCount--}
 

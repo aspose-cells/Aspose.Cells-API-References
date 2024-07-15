@@ -57,7 +57,7 @@ getType() : PivotFieldGroupType;
 
 **Returns**
 
-[PivotFieldGroupType](/nodejs-cpp/pivotfieldgrouptype/)
+[PivotFieldGroupType](../pivotfieldgrouptype/)
 
 ### getStart() {#getStart--}
 
@@ -97,7 +97,7 @@ getGroupByTypes() : PivotGroupByType[];
 
 **Returns**
 
-[PivotGroupByType](/nodejs-cpp/pivotgroupbytype/)[]
+[PivotGroupByType](../pivotgroupbytype/)[]
 
 ### isGroupedBy(PivotGroupByType) {#isGroupedBy-pivotgroupbytype-}
 
@@ -110,6 +110,6 @@ isGroupedBy(type: PivotGroupByType) : boolean;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | [PivotGroupByType](/nodejs-cpp/pivotgroupbytype/) | The group type |
+| type | [PivotGroupByType](../pivotgroupbytype/) | The group type |
 
 

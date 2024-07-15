@@ -1,14 +1,14 @@
 ﻿---
 title: SparklineGroup
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Sparklinenodejscppsparkline is organized into sparkline group. A SparklineGroup contains a variable number of sparkline items. A sparkline group specifies the type display settings and axis settings for the sparklines.
+description: Sparkline..sparkline is organized into sparkline group. A SparklineGroup contains a variable number of sparkline items. A sparkline group specifies the type display settings and axis settings for the sparklines.
 type: docs
 url: /nodejs-cpp/sparklinegroup/
 ---
 
 ## SparklineGroup class
 
-[Sparkline](/nodejs-cpp/sparkline/) is organized into sparkline group. A SparklineGroup contains a variable number of sparkline items. A sparkline group specifies the type, display settings and axis settings for the sparklines.
+[Sparkline](../sparkline/) is organized into sparkline group. A SparklineGroup contains a variable number of sparkline items. A sparkline group specifies the type, display settings and axis settings for the sparklines.
 
 ```javascript
 class SparklineGroup;
@@ -21,7 +21,7 @@ class SparklineGroup;
 | --- | --- |
 | [getPresetStyle()](#getPresetStyle--)| Gets and sets the preset style type of the sparkline group. |
 | [setPresetStyle(SparklinePresetStyleType)](#setPresetStyle-sparklinepresetstyletype-)| Gets and sets the preset style type of the sparkline group. |
-| [getSparklines()](#getSparklines--)| Gets the collection of [Sparkline](/nodejs-cpp/sparkline/) object. |
+| [getSparklines()](#getSparklines--)| Gets the collection of [Sparkline](../sparkline/) object. |
 | [getType()](#getType--)| Indicates the sparkline type of the sparkline group. |
 | [setType(SparklineType)](#setType-sparklinetype-)| Indicates the sparkline type of the sparkline group. |
 | [getPlotEmptyCellsType()](#getPlotEmptyCellsType--)| Indicates how to plot empty cells. |
@@ -86,7 +86,7 @@ getPresetStyle() : SparklinePresetStyleType;
 
 **Returns**
 
-[SparklinePresetStyleType](/nodejs-cpp/sparklinepresetstyletype/)
+[SparklinePresetStyleType](../sparklinepresetstyletype/)
 
 ### setPresetStyle(SparklinePresetStyleType) {#setPresetStyle-sparklinepresetstyletype-}
 
@@ -99,11 +99,11 @@ setPresetStyle(value: SparklinePresetStyleType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [SparklinePresetStyleType](/nodejs-cpp/sparklinepresetstyletype/) | The value to set. |
+| value | [SparklinePresetStyleType](../sparklinepresetstyletype/) | The value to set. |
 
 ### getSparklines() {#getSparklines--}
 
-Gets the collection of [Sparkline](/nodejs-cpp/sparkline/) object.
+Gets the collection of [Sparkline](../sparkline/) object.
 
 ```javascript
 getSparklines() : SparklineCollection;
@@ -112,7 +112,7 @@ getSparklines() : SparklineCollection;
 
 **Returns**
 
-[SparklineCollection](/nodejs-cpp/sparklinecollection/)
+[SparklineCollection](../sparklinecollection/)
 
 ### getType() {#getType--}
 
@@ -125,7 +125,7 @@ getType() : SparklineType;
 
 **Returns**
 
-[SparklineType](/nodejs-cpp/sparklinetype/)
+[SparklineType](../sparklinetype/)
 
 ### setType(SparklineType) {#setType-sparklinetype-}
 
@@ -138,7 +138,7 @@ setType(value: SparklineType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [SparklineType](/nodejs-cpp/sparklinetype/) | The value to set. |
+| value | [SparklineType](../sparklinetype/) | The value to set. |
 
 ### getPlotEmptyCellsType() {#getPlotEmptyCellsType--}
 
@@ -151,7 +151,7 @@ getPlotEmptyCellsType() : PlotEmptyCellsType;
 
 **Returns**
 
-[PlotEmptyCellsType](/nodejs-cpp/plotemptycellstype/)
+[PlotEmptyCellsType](../plotemptycellstype/)
 
 ### setPlotEmptyCellsType(PlotEmptyCellsType) {#setPlotEmptyCellsType-plotemptycellstype-}
 
@@ -164,7 +164,7 @@ setPlotEmptyCellsType(value: PlotEmptyCellsType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [PlotEmptyCellsType](/nodejs-cpp/plotemptycellstype/) | The value to set. |
+| value | [PlotEmptyCellsType](../plotemptycellstype/) | The value to set. |
 
 ### getDisplayHidden() {#getDisplayHidden--}
 
@@ -221,7 +221,7 @@ getHighPointColor() : CellsColor;
 
 **Returns**
 
-[CellsColor](/nodejs-cpp/cellscolor/)
+[CellsColor](../cellscolor/)
 
 ### setHighPointColor(CellsColor) {#setHighPointColor-cellscolor-}
 
@@ -234,7 +234,7 @@ setHighPointColor(value: CellsColor) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [CellsColor](/nodejs-cpp/cellscolor/) | The value to set. |
+| value | [CellsColor](../cellscolor/) | The value to set. |
 
 ### getShowLowPoint() {#getShowLowPoint--}
 
@@ -269,7 +269,7 @@ getLowPointColor() : CellsColor;
 
 **Returns**
 
-[CellsColor](/nodejs-cpp/cellscolor/)
+[CellsColor](../cellscolor/)
 
 ### setLowPointColor(CellsColor) {#setLowPointColor-cellscolor-}
 
@@ -282,7 +282,7 @@ setLowPointColor(value: CellsColor) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [CellsColor](/nodejs-cpp/cellscolor/) | The value to set. |
+| value | [CellsColor](../cellscolor/) | The value to set. |
 
 ### getShowNegativePoints() {#getShowNegativePoints--}
 
@@ -317,7 +317,7 @@ getNegativePointsColor() : CellsColor;
 
 **Returns**
 
-[CellsColor](/nodejs-cpp/cellscolor/)
+[CellsColor](../cellscolor/)
 
 ### setNegativePointsColor(CellsColor) {#setNegativePointsColor-cellscolor-}
 
@@ -330,7 +330,7 @@ setNegativePointsColor(value: CellsColor) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [CellsColor](/nodejs-cpp/cellscolor/) | The value to set. |
+| value | [CellsColor](../cellscolor/) | The value to set. |
 
 ### getShowFirstPoint() {#getShowFirstPoint--}
 
@@ -365,7 +365,7 @@ getFirstPointColor() : CellsColor;
 
 **Returns**
 
-[CellsColor](/nodejs-cpp/cellscolor/)
+[CellsColor](../cellscolor/)
 
 ### setFirstPointColor(CellsColor) {#setFirstPointColor-cellscolor-}
 
@@ -378,7 +378,7 @@ setFirstPointColor(value: CellsColor) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [CellsColor](/nodejs-cpp/cellscolor/) | The value to set. |
+| value | [CellsColor](../cellscolor/) | The value to set. |
 
 ### getShowLastPoint() {#getShowLastPoint--}
 
@@ -413,7 +413,7 @@ getLastPointColor() : CellsColor;
 
 **Returns**
 
-[CellsColor](/nodejs-cpp/cellscolor/)
+[CellsColor](../cellscolor/)
 
 ### setLastPointColor(CellsColor) {#setLastPointColor-cellscolor-}
 
@@ -426,7 +426,7 @@ setLastPointColor(value: CellsColor) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [CellsColor](/nodejs-cpp/cellscolor/) | The value to set. |
+| value | [CellsColor](../cellscolor/) | The value to set. |
 
 ### getShowMarkers() {#getShowMarkers--}
 
@@ -461,7 +461,7 @@ getMarkersColor() : CellsColor;
 
 **Returns**
 
-[CellsColor](/nodejs-cpp/cellscolor/)
+[CellsColor](../cellscolor/)
 
 ### setMarkersColor(CellsColor) {#setMarkersColor-cellscolor-}
 
@@ -474,7 +474,7 @@ setMarkersColor(value: CellsColor) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [CellsColor](/nodejs-cpp/cellscolor/) | The value to set. |
+| value | [CellsColor](../cellscolor/) | The value to set. |
 
 ### getSeriesColor() {#getSeriesColor--}
 
@@ -487,7 +487,7 @@ getSeriesColor() : CellsColor;
 
 **Returns**
 
-[CellsColor](/nodejs-cpp/cellscolor/)
+[CellsColor](../cellscolor/)
 
 ### setSeriesColor(CellsColor) {#setSeriesColor-cellscolor-}
 
@@ -500,7 +500,7 @@ setSeriesColor(value: CellsColor) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [CellsColor](/nodejs-cpp/cellscolor/) | The value to set. |
+| value | [CellsColor](../cellscolor/) | The value to set. |
 
 ### getPlotRightToLeft() {#getPlotRightToLeft--}
 
@@ -557,7 +557,7 @@ getHorizontalAxisColor() : CellsColor;
 
 **Returns**
 
-[CellsColor](/nodejs-cpp/cellscolor/)
+[CellsColor](../cellscolor/)
 
 ### setHorizontalAxisColor(CellsColor) {#setHorizontalAxisColor-cellscolor-}
 
@@ -570,7 +570,7 @@ setHorizontalAxisColor(value: CellsColor) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [CellsColor](/nodejs-cpp/cellscolor/) | The value to set. |
+| value | [CellsColor](../cellscolor/) | The value to set. |
 
 ### getShowHorizontalAxis() {#getShowHorizontalAxis--}
 
@@ -627,7 +627,7 @@ getVerticalAxisMaxValueType() : SparklineAxisMinMaxType;
 
 **Returns**
 
-[SparklineAxisMinMaxType](/nodejs-cpp/sparklineaxisminmaxtype/)
+[SparklineAxisMinMaxType](../sparklineaxisminmaxtype/)
 
 ### setVerticalAxisMaxValueType(SparklineAxisMinMaxType) {#setVerticalAxisMaxValueType-sparklineaxisminmaxtype-}
 
@@ -640,7 +640,7 @@ setVerticalAxisMaxValueType(value: SparklineAxisMinMaxType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [SparklineAxisMinMaxType](/nodejs-cpp/sparklineaxisminmaxtype/) | The value to set. |
+| value | [SparklineAxisMinMaxType](../sparklineaxisminmaxtype/) | The value to set. |
 
 ### getVerticalAxisMaxValue() {#getVerticalAxisMaxValue--}
 
@@ -675,7 +675,7 @@ getVerticalAxisMinValueType() : SparklineAxisMinMaxType;
 
 **Returns**
 
-[SparklineAxisMinMaxType](/nodejs-cpp/sparklineaxisminmaxtype/)
+[SparklineAxisMinMaxType](../sparklineaxisminmaxtype/)
 
 ### setVerticalAxisMinValueType(SparklineAxisMinMaxType) {#setVerticalAxisMinValueType-sparklineaxisminmaxtype-}
 
@@ -688,7 +688,7 @@ setVerticalAxisMinValueType(value: SparklineAxisMinMaxType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [SparklineAxisMinMaxType](/nodejs-cpp/sparklineaxisminmaxtype/) | The value to set. |
+| value | [SparklineAxisMinMaxType](../sparklineaxisminmaxtype/) | The value to set. |
 
 ### getVerticalAxisMinValue() {#getVerticalAxisMinValue--}
 
@@ -725,6 +725,6 @@ resetRanges(dataRange: string, isVertical: boolean, locationRange: CellArea) : v
 | --- | --- | --- |
 | dataRange | string | Specifies the new data range of the sparkline group. |
 | isVertical | boolean | Specifies whether to plot the sparklines from the new data range by row or by column. |
-| locationRange | [CellArea](/nodejs-cpp/cellarea/) | Specifies where the sparklines to be placed. |
+| locationRange | [CellArea](../cellarea/) | Specifies where the sparklines to be placed. |
 
 

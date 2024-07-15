@@ -90,7 +90,7 @@ getEncoding() : EncodingType;
 
 **Returns**
 
-[EncodingType](/nodejs-cpp/encodingtype/)
+[EncodingType](../encodingtype/)
 
 ### setEncoding(EncodingType) {#setEncoding-encodingtype-}
 
@@ -103,7 +103,7 @@ setEncoding(value: EncodingType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [EncodingType](/nodejs-cpp/encodingtype/) | The value to set. |
+| value | [EncodingType](../encodingtype/) | The value to set. |
 
 ### getFormatStrategy() {#getFormatStrategy--}
 
@@ -116,7 +116,7 @@ getFormatStrategy() : CellValueFormatStrategy;
 
 **Returns**
 
-[CellValueFormatStrategy](/nodejs-cpp/cellvalueformatstrategy/)
+[CellValueFormatStrategy](../cellvalueformatstrategy/)
 
 ### setFormatStrategy(CellValueFormatStrategy) {#setFormatStrategy-cellvalueformatstrategy-}
 
@@ -129,7 +129,7 @@ setFormatStrategy(value: CellValueFormatStrategy) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [CellValueFormatStrategy](/nodejs-cpp/cellvalueformatstrategy/) | The value to set. |
+| value | [CellValueFormatStrategy](../cellvalueformatstrategy/) | The value to set. |
 
 ### getLightCellsDataProvider() {#getLightCellsDataProvider--}
 
@@ -142,7 +142,7 @@ getLightCellsDataProvider() : LightCellsDataProvider;
 
 **Returns**
 
-[LightCellsDataProvider](/nodejs-cpp/lightcellsdataprovider/)
+[LightCellsDataProvider](../lightcellsdataprovider/)
 
 ### setLightCellsDataProvider(LightCellsDataProvider) {#setLightCellsDataProvider-lightcellsdataprovider-}
 
@@ -155,7 +155,7 @@ setLightCellsDataProvider(value: LightCellsDataProvider) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [LightCellsDataProvider](/nodejs-cpp/lightcellsdataprovider/) | The value to set. |
+| value | [LightCellsDataProvider](../lightcellsdataprovider/) | The value to set. |
 
 ### getLineSeparator() {#getLineSeparator--}
 
@@ -190,7 +190,7 @@ getSaveFormat() : SaveFormat;
 
 **Returns**
 
-[SaveFormat](/nodejs-cpp/saveformat/)
+[SaveFormat](../saveformat/)
 
 ### getClearData() {#getClearData--}
 
@@ -403,7 +403,7 @@ setWarningCallback(value: IWarningCallback) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IWarningCallback](/nodejs-cpp/iwarningcallback/) | The value to set. |
+| value | [IWarningCallback](../iwarningcallback/) | The value to set. |
 
 ### getWarningCallback() {#getWarningCallback--}
 
@@ -416,7 +416,7 @@ getWarningCallback() : IWarningCallback;
 
 **Returns**
 
-[IWarningCallback](/nodejs-cpp/iwarningcallback/)
+[IWarningCallback](../iwarningcallback/)
 
 ### getUpdateSmartArt() {#getUpdateSmartArt--}
 

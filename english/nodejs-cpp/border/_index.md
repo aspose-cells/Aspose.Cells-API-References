@@ -21,8 +21,8 @@ class Border;
 | --- | --- |
 | [getThemeColor()](#getThemeColor--)| Gets and sets the theme color of the border. |
 | [setThemeColor(ThemeColor)](#setThemeColor-themecolor-)| Gets and sets the theme color of the border. |
-| [getColor()](#getColor--)| Gets or sets the [System.Drawing.Color](/nodejs-cpp/system.drawing.color/) of the border. |
-| [setColor(Color)](#setColor-color-)| Gets or sets the [System.Drawing.Color](/nodejs-cpp/system.drawing.color/) of the border. |
+| [getColor()](#getColor--)| Gets or sets the [System.Drawing.Color](../system.drawing.color/) of the border. |
+| [setColor(Color)](#setColor-color-)| Gets or sets the [System.Drawing.Color](../system.drawing.color/) of the border. |
 | [getArgbColor()](#getArgbColor--)| Gets and sets the color with a 32-bit ARGB value. |
 | [setArgbColor(number)](#setArgbColor-number-)| Gets and sets the color with a 32-bit ARGB value. |
 | [getLineStyle()](#getLineStyle--)| Gets or sets the cell border type. |
@@ -40,7 +40,7 @@ getThemeColor() : ThemeColor;
 
 **Returns**
 
-[ThemeColor](/nodejs-cpp/themecolor/)
+[ThemeColor](../themecolor/)
 
 ### setThemeColor(ThemeColor) {#setThemeColor-themecolor-}
 
@@ -53,11 +53,11 @@ setThemeColor(value: ThemeColor) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ThemeColor](/nodejs-cpp/themecolor/) | The value to set. |
+| value | [ThemeColor](../themecolor/) | The value to set. |
 
 ### getColor() {#getColor--}
 
-Gets or sets the [System.Drawing.Color](/nodejs-cpp/system.drawing.color/) of the border.
+Gets or sets the [System.Drawing.Color](../system.drawing.color/) of the border.
 
 ```javascript
 getColor() : Color;
@@ -66,11 +66,11 @@ getColor() : Color;
 
 **Returns**
 
-[Color](/nodejs-cpp/color/)
+[Color](../color/)
 
 ### setColor(Color) {#setColor-color-}
 
-Gets or sets the [System.Drawing.Color](/nodejs-cpp/system.drawing.color/) of the border.
+Gets or sets the [System.Drawing.Color](../system.drawing.color/) of the border.
 
 ```javascript
 setColor(value: Color) : void;
@@ -79,7 +79,7 @@ setColor(value: Color) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [Color](/nodejs-cpp/color/) | The value to set. |
+| value | [Color](../color/) | The value to set. |
 
 ### getArgbColor() {#getArgbColor--}
 
@@ -114,7 +114,7 @@ getLineStyle() : CellBorderType;
 
 **Returns**
 
-[CellBorderType](/nodejs-cpp/cellbordertype/)
+[CellBorderType](../cellbordertype/)
 
 ### setLineStyle(CellBorderType) {#setLineStyle-cellbordertype-}
 
@@ -127,6 +127,6 @@ setLineStyle(value: CellBorderType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [CellBorderType](/nodejs-cpp/cellbordertype/) | The value to set. |
+| value | [CellBorderType](../cellbordertype/) | The value to set. |
 
 

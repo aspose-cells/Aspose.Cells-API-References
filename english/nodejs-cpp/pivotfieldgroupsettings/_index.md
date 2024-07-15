@@ -48,6 +48,6 @@ getType() : PivotFieldGroupType;
 
 **Returns**
 
-[PivotFieldGroupType](/nodejs-cpp/pivotfieldgrouptype/)
+[PivotFieldGroupType](../pivotfieldgrouptype/)
 
 

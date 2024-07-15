@@ -90,7 +90,7 @@ getLookAtType() : LookAtType;
 
 **Returns**
 
-[LookAtType](/nodejs-cpp/lookattype/)
+[LookAtType](../lookattype/)
 
 ### setLookAtType(LookAtType) {#setLookAtType-lookattype-}
 
@@ -103,7 +103,7 @@ setLookAtType(value: LookAtType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [LookAtType](/nodejs-cpp/lookattype/) | The value to set. |
+| value | [LookAtType](../lookattype/) | The value to set. |
 
 ### isRangeSet() {#isRangeSet--}
 
@@ -169,7 +169,7 @@ getLookInType() : LookInType;
 
 **Returns**
 
-[LookInType](/nodejs-cpp/lookintype/)
+[LookInType](../lookintype/)
 
 ### setLookInType(LookInType) {#setLookInType-lookintype-}
 
@@ -182,7 +182,7 @@ setLookInType(value: LookInType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [LookInType](/nodejs-cpp/lookintype/) | The value to set. |
+| value | [LookInType](../lookintype/) | The value to set. |
 
 ### getRegexKey() {#getRegexKey--}
 
@@ -239,7 +239,7 @@ getStyle() : Style;
 
 **Returns**
 
-[Style](/nodejs-cpp/style/)
+[Style](../style/)
 
 ### setStyle(Style) {#setStyle-style-}
 
@@ -252,7 +252,7 @@ setStyle(value: Style) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [Style](/nodejs-cpp/style/) | The value to set. |
+| value | [Style](../style/) | The value to set. |
 
 ### getConvertNumericData() {#getConvertNumericData--}
 
@@ -300,6 +300,6 @@ setRange(ca: CellArea) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| ca | [CellArea](/nodejs-cpp/cellarea/) | the searched range. |
+| ca | [CellArea](../cellarea/) | the searched range. |
 
 

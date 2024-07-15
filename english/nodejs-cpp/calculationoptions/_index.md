@@ -105,7 +105,7 @@ getCustomEngine() : AbstractCalculationEngine;
 
 **Returns**
 
-[AbstractCalculationEngine](/nodejs-cpp/abstractcalculationengine/)
+[AbstractCalculationEngine](../abstractcalculationengine/)
 
 ### setCustomEngine(AbstractCalculationEngine) {#setCustomEngine-abstractcalculationengine-}
 
@@ -118,7 +118,7 @@ setCustomEngine(value: AbstractCalculationEngine) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [AbstractCalculationEngine](/nodejs-cpp/abstractcalculationengine/) | The value to set. |
+| value | [AbstractCalculationEngine](../abstractcalculationengine/) | The value to set. |
 
 ### getCalcStackSize() {#getCalcStackSize--}
 
@@ -161,7 +161,7 @@ getPrecisionStrategy() : CalculationPrecisionStrategy;
 
 **Returns**
 
-[CalculationPrecisionStrategy](/nodejs-cpp/calculationprecisionstrategy/)
+[CalculationPrecisionStrategy](../calculationprecisionstrategy/)
 
 ### setPrecisionStrategy(CalculationPrecisionStrategy) {#setPrecisionStrategy-calculationprecisionstrategy-}
 
@@ -174,7 +174,7 @@ setPrecisionStrategy(value: CalculationPrecisionStrategy) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [CalculationPrecisionStrategy](/nodejs-cpp/calculationprecisionstrategy/) | The value to set. |
+| value | [CalculationPrecisionStrategy](../calculationprecisionstrategy/) | The value to set. |
 
 ### getLinkedDataSources() {#getLinkedDataSources--}
 
@@ -187,11 +187,11 @@ getLinkedDataSources() : Workbook[];
 
 **Returns**
 
-[Workbook](/nodejs-cpp/workbook/)[]
+[Workbook](../workbook/)[]
 
 **Remarks**
 
-Like [Workbook.UpdateLinkedDataSource(Workbook[])](/nodejs-cpp/workbook.updatelinkeddatasource(workbook[])/), here you may specify data sources for external links used in formulas to be calculated, especially those used in INDIRECT function. For those external links used in INDIRECT function, they are not taken as part of the external links of the workbook and cannot be updated by [Workbook.UpdateLinkedDataSource(Workbook[])](/nodejs-cpp/workbook.updatelinkeddatasource(workbook[])/).
+Like [Workbook.UpdateLinkedDataSource(Workbook[])](../workbook.updatelinkeddatasource(workbook[])/), here you may specify data sources for external links used in formulas to be calculated, especially those used in INDIRECT function. For those external links used in INDIRECT function, they are not taken as part of the external links of the workbook and cannot be updated by [Workbook.UpdateLinkedDataSource(Workbook[])](../workbook.updatelinkeddatasource(workbook[])/).
 
 ### setLinkedDataSources(Workbook[]) {#setLinkedDataSources-workbookarray-}
 
@@ -204,11 +204,11 @@ setLinkedDataSources(value: Workbook[]) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [Workbook](/nodejs-cpp/workbook/)[] | The value to set. |
+| value | [Workbook](../workbook/)[] | The value to set. |
 
 **Remarks**
 
-Like [Workbook.UpdateLinkedDataSource(Workbook[])](/nodejs-cpp/workbook.updatelinkeddatasource(workbook[])/), here you may specify data sources for external links used in formulas to be calculated, especially those used in INDIRECT function. For those external links used in INDIRECT function, they are not taken as part of the external links of the workbook and cannot be updated by [Workbook.UpdateLinkedDataSource(Workbook[])](/nodejs-cpp/workbook.updatelinkeddatasource(workbook[])/).
+Like [Workbook.UpdateLinkedDataSource(Workbook[])](../workbook.updatelinkeddatasource(workbook[])/), here you may specify data sources for external links used in formulas to be calculated, especially those used in INDIRECT function. For those external links used in INDIRECT function, they are not taken as part of the external links of the workbook and cannot be updated by [Workbook.UpdateLinkedDataSource(Workbook[])](../workbook.updatelinkeddatasource(workbook[])/).
 
 ### getCharacterEncoding() {#getCharacterEncoding--}
 
@@ -221,7 +221,7 @@ getCharacterEncoding() : EncodingType;
 
 **Returns**
 
-[EncodingType](/nodejs-cpp/encodingtype/)
+[EncodingType](../encodingtype/)
 
 ### setCharacterEncoding(EncodingType) {#setCharacterEncoding-encodingtype-}
 
@@ -234,6 +234,6 @@ setCharacterEncoding(value: EncodingType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [EncodingType](/nodejs-cpp/encodingtype/) | The value to set. |
+| value | [EncodingType](../encodingtype/) | The value to set. |
 
 

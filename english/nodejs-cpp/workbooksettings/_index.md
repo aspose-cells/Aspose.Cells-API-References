@@ -100,8 +100,8 @@ class WorkbookSettings;
 | [setWindowHeightCM(number)](#setWindowHeightCM-number-)| The height of the window, in unit of centimeter. |
 | [getUpdateAdjacentCellsBorder()](#getUpdateAdjacentCellsBorder--)| Indicates whether update adjacent cells' border. |
 | [setUpdateAdjacentCellsBorder(boolean)](#setUpdateAdjacentCellsBorder-boolean-)| Indicates whether update adjacent cells' border. |
-| [getSignificantDigits()](#getSignificantDigits--)| Gets and sets the number of significant digits. The default value is [CellsHelper.SignificantDigits](/nodejs-cpp/cellshelper.significantdigits/). |
-| [setSignificantDigits(number)](#setSignificantDigits-number-)| Gets and sets the number of significant digits. The default value is [CellsHelper.SignificantDigits](/nodejs-cpp/cellshelper.significantdigits/). |
+| [getSignificantDigits()](#getSignificantDigits--)| Gets and sets the number of significant digits. The default value is [CellsHelper.SignificantDigits](../cellshelper.significantdigits/). |
+| [setSignificantDigits(number)](#setSignificantDigits-number-)| Gets and sets the number of significant digits. The default value is [CellsHelper.SignificantDigits](../cellshelper.significantdigits/). |
 | [getCheckCompatibility()](#getCheckCompatibility--)| Indicates whether check compatibility with earlier versions when saving workbook. |
 | [setCheckCompatibility(boolean)](#setCheckCompatibility-boolean-)| Indicates whether check compatibility with earlier versions when saving workbook. |
 | [getCheckExcelRestriction()](#getCheckExcelRestriction--)| Whether check restriction of excel file when user modify cells related objects. For example, excel does not allow inputting string value longer than 32K. When you input a value longer than 32K such as by Cell.PutValue(string), if this property is true, you will get an Exception. If this property is false, we will accept your input string value as the cell's value so that later you can output the complete string value for other file formats such as CSV. However, if you have set such kind of value that is invalid for excel file format, you should not save the workbook as excel file format later. Otherwise there may be unexpected error for the generated excel file. |
@@ -126,8 +126,8 @@ class WorkbookSettings;
 | [setMaxRowsOfSharedFormula(number)](#setMaxRowsOfSharedFormula-number-)| Gets and sets the max row number of shared formula. |
 | [getCompliance()](#getCompliance--)| Specifies the OOXML version for the output document. The default value is Ecma376_2006. |
 | [setCompliance(OoxmlCompliance)](#setCompliance-ooxmlcompliance-)| Specifies the OOXML version for the output document. The default value is Ecma376_2006. |
-| [getQuotePrefixToStyle()](#getQuotePrefixToStyle--)| Indicates whether setting [Style.QuotePrefix](/nodejs-cpp/style.quoteprefix/) property when entering the string value(which starts  with single quote mark ) to the cell |
-| [setQuotePrefixToStyle(boolean)](#setQuotePrefixToStyle-boolean-)| Indicates whether setting [Style.QuotePrefix](/nodejs-cpp/style.quoteprefix/) property when entering the string value(which starts  with single quote mark ) to the cell |
+| [getQuotePrefixToStyle()](#getQuotePrefixToStyle--)| Indicates whether setting [Style.QuotePrefix](../style.quoteprefix/) property when entering the string value(which starts  with single quote mark ) to the cell |
+| [setQuotePrefixToStyle(boolean)](#setQuotePrefixToStyle-boolean-)| Indicates whether setting [Style.QuotePrefix](../style.quoteprefix/) property when entering the string value(which starts  with single quote mark ) to the cell |
 | [getFormulaSettings()](#getFormulaSettings--)| Gets the settings for formula-related features. |
 | [dispose()](#dispose--)| Releases resources. |
 | [getThemeFont(FontSchemeType)](#getThemeFont-fontschemetype-)| Gets the default theme font name. |
@@ -145,7 +145,7 @@ getAuthor() : string;
 
 **Remarks**
 
-It''s not set, check  [BuiltInDocumentPropertyCollection.Author](/nodejs-cpp/builtindocumentpropertycollection.author/) first, then check the user of Environment.
+It''s not set, check  [BuiltInDocumentPropertyCollection.Author](../builtindocumentpropertycollection.author/) first, then check the user of Environment.
 
 ### setAuthor(string) {#setAuthor-string-}
 
@@ -162,7 +162,7 @@ setAuthor(value: string) : void;
 
 **Remarks**
 
-It''s not set, check  [BuiltInDocumentPropertyCollection.Author](/nodejs-cpp/builtindocumentpropertycollection.author/) first, then check the user of Environment.
+It''s not set, check  [BuiltInDocumentPropertyCollection.Author](../builtindocumentpropertycollection.author/) first, then check the user of Environment.
 
 ### getCheckCustomNumberFormat() {#getCheckCustomNumberFormat--}
 
@@ -249,7 +249,7 @@ getProtectionType() : ProtectionType;
 
 **Returns**
 
-[ProtectionType](/nodejs-cpp/protectiontype/)
+[ProtectionType](../protectiontype/)
 
 ### getDisplayDrawingObjects() {#getDisplayDrawingObjects--}
 
@@ -262,7 +262,7 @@ getDisplayDrawingObjects() : DisplayDrawingObjects;
 
 **Returns**
 
-[DisplayDrawingObjects](/nodejs-cpp/displaydrawingobjects/)
+[DisplayDrawingObjects](../displaydrawingobjects/)
 
 ### setDisplayDrawingObjects(DisplayDrawingObjects) {#setDisplayDrawingObjects-displaydrawingobjects-}
 
@@ -275,7 +275,7 @@ setDisplayDrawingObjects(value: DisplayDrawingObjects) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [DisplayDrawingObjects](/nodejs-cpp/displaydrawingobjects/) | The value to set. |
+| value | [DisplayDrawingObjects](../displaydrawingobjects/) | The value to set. |
 
 ### getSheetTabBarWidth() {#getSheetTabBarWidth--}
 
@@ -452,7 +452,7 @@ getLanguageCode() : CountryCode;
 
 **Returns**
 
-[CountryCode](/nodejs-cpp/countrycode/)
+[CountryCode](../countrycode/)
 
 ### setLanguageCode(CountryCode) {#setLanguageCode-countrycode-}
 
@@ -465,7 +465,7 @@ setLanguageCode(value: CountryCode) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [CountryCode](/nodejs-cpp/countrycode/) | The value to set. |
+| value | [CountryCode](../countrycode/) | The value to set. |
 
 ### getRegion() {#getRegion--}
 
@@ -478,7 +478,7 @@ getRegion() : CountryCode;
 
 **Returns**
 
-[CountryCode](/nodejs-cpp/countrycode/)
+[CountryCode](../countrycode/)
 
 **Remarks**
 
@@ -495,7 +495,7 @@ setRegion(value: CountryCode) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [CountryCode](/nodejs-cpp/countrycode/) | The value to set. |
+| value | [CountryCode](../countrycode/) | The value to set. |
 
 **Remarks**
 
@@ -512,7 +512,7 @@ getGlobalizationSettings() : GlobalizationSettings;
 
 **Returns**
 
-[GlobalizationSettings](/nodejs-cpp/globalizationsettings/)
+[GlobalizationSettings](../globalizationsettings/)
 
 ### setGlobalizationSettings(GlobalizationSettings) {#setGlobalizationSettings-globalizationsettings-}
 
@@ -525,7 +525,7 @@ setGlobalizationSettings(value: GlobalizationSettings) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [GlobalizationSettings](/nodejs-cpp/globalizationsettings/) | The value to set. |
+| value | [GlobalizationSettings](../globalizationsettings/) | The value to set. |
 
 ### getNumberDecimalSeparator() {#getNumberDecimalSeparator--}
 
@@ -604,7 +604,7 @@ getWriteProtection() : WriteProtection;
 
 **Returns**
 
-[WriteProtection](/nodejs-cpp/writeprotection/)
+[WriteProtection](../writeprotection/)
 
 ### isEncrypted() {#isEncrypted--}
 
@@ -775,7 +775,7 @@ getUpdateLinksType() : UpdateLinksType;
 
 **Returns**
 
-[UpdateLinksType](/nodejs-cpp/updatelinkstype/)
+[UpdateLinksType](../updatelinkstype/)
 
 ### setUpdateLinksType(UpdateLinksType) {#setUpdateLinksType-updatelinkstype-}
 
@@ -788,7 +788,7 @@ setUpdateLinksType(value: UpdateLinksType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [UpdateLinksType](/nodejs-cpp/updatelinkstype/) | The value to set. |
+| value | [UpdateLinksType](../updatelinkstype/) | The value to set. |
 
 ### getMaxRow() {#getMaxRow--}
 
@@ -827,7 +827,7 @@ getDefaultStyleSettings() : DefaultStyleSettings;
 
 **Returns**
 
-[DefaultStyleSettings](/nodejs-cpp/defaultstylesettings/)
+[DefaultStyleSettings](../defaultstylesettings/)
 
 ### getWindowLeft() {#getWindowLeft--}
 
@@ -1125,7 +1125,7 @@ The default value is false. For example: the bottom border of the cell A1 is upd
 
 ### getSignificantDigits() {#getSignificantDigits--}
 
-Gets and sets the number of significant digits. The default value is [CellsHelper.SignificantDigits](/nodejs-cpp/cellshelper.significantdigits/).
+Gets and sets the number of significant digits. The default value is [CellsHelper.SignificantDigits](../cellshelper.significantdigits/).
 
 ```javascript
 getSignificantDigits() : number;
@@ -1138,7 +1138,7 @@ Only could be 15 or 17 now.
 
 ### setSignificantDigits(number) {#setSignificantDigits-number-}
 
-Gets and sets the number of significant digits. The default value is [CellsHelper.SignificantDigits](/nodejs-cpp/cellshelper.significantdigits/).
+Gets and sets the number of significant digits. The default value is [CellsHelper.SignificantDigits](../cellshelper.significantdigits/).
 
 ```javascript
 setSignificantDigits(value: number) : void;
@@ -1326,7 +1326,7 @@ getMemorySetting() : MemorySetting;
 
 **Returns**
 
-[MemorySetting](/nodejs-cpp/memorysetting/)
+[MemorySetting](../memorysetting/)
 
 ### setMemorySetting(MemorySetting) {#setMemorySetting-memorysetting-}
 
@@ -1339,7 +1339,7 @@ setMemorySetting(value: MemorySetting) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [MemorySetting](/nodejs-cpp/memorysetting/) | The value to set. |
+| value | [MemorySetting](../memorysetting/) | The value to set. |
 
 ### getPaperSize() {#getPaperSize--}
 
@@ -1352,7 +1352,7 @@ getPaperSize() : PaperSizeType;
 
 **Returns**
 
-[PaperSizeType](/nodejs-cpp/papersizetype/)
+[PaperSizeType](../papersizetype/)
 
 **Remarks**
 
@@ -1369,7 +1369,7 @@ setPaperSize(value: PaperSizeType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [PaperSizeType](/nodejs-cpp/papersizetype/) | The value to set. |
+| value | [PaperSizeType](../papersizetype/) | The value to set. |
 
 **Remarks**
 
@@ -1386,7 +1386,7 @@ setWarningCallback(value: IWarningCallback) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IWarningCallback](/nodejs-cpp/iwarningcallback/) | The value to set. |
+| value | [IWarningCallback](../iwarningcallback/) | The value to set. |
 
 ### getWarningCallback() {#getWarningCallback--}
 
@@ -1399,7 +1399,7 @@ getWarningCallback() : IWarningCallback;
 
 **Returns**
 
-[IWarningCallback](/nodejs-cpp/iwarningcallback/)
+[IWarningCallback](../iwarningcallback/)
 
 ### getMaxRowsOfSharedFormula() {#getMaxRowsOfSharedFormula--}
 
@@ -1442,7 +1442,7 @@ getCompliance() : OoxmlCompliance;
 
 **Returns**
 
-[OoxmlCompliance](/nodejs-cpp/ooxmlcompliance/)
+[OoxmlCompliance](../ooxmlcompliance/)
 
 **Remarks**
 
@@ -1459,7 +1459,7 @@ setCompliance(value: OoxmlCompliance) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [OoxmlCompliance](/nodejs-cpp/ooxmlcompliance/) | The value to set. |
+| value | [OoxmlCompliance](../ooxmlcompliance/) | The value to set. |
 
 **Remarks**
 
@@ -1467,7 +1467,7 @@ Only for .xlsx files.
 
 ### getQuotePrefixToStyle() {#getQuotePrefixToStyle--}
 
-Indicates whether setting [Style.QuotePrefix](/nodejs-cpp/style.quoteprefix/) property when entering the string value(which starts  with single quote mark ) to the cell
+Indicates whether setting [Style.QuotePrefix](../style.quoteprefix/) property when entering the string value(which starts  with single quote mark ) to the cell
 
 ```javascript
 getQuotePrefixToStyle() : boolean;
@@ -1476,7 +1476,7 @@ getQuotePrefixToStyle() : boolean;
 
 ### setQuotePrefixToStyle(boolean) {#setQuotePrefixToStyle-boolean-}
 
-Indicates whether setting [Style.QuotePrefix](/nodejs-cpp/style.quoteprefix/) property when entering the string value(which starts  with single quote mark ) to the cell
+Indicates whether setting [Style.QuotePrefix](../style.quoteprefix/) property when entering the string value(which starts  with single quote mark ) to the cell
 
 ```javascript
 setQuotePrefixToStyle(value: boolean) : void;
@@ -1498,7 +1498,7 @@ getFormulaSettings() : FormulaSettings;
 
 **Returns**
 
-[FormulaSettings](/nodejs-cpp/formulasettings/)
+[FormulaSettings](../formulasettings/)
 
 ### dispose() {#dispose--}
 
@@ -1520,7 +1520,7 @@ getThemeFont(type: FontSchemeType) : string;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | [FontSchemeType](/nodejs-cpp/fontschemetype/) | The scheme type of the font. |
+| type | [FontSchemeType](../fontschemetype/) | The scheme type of the font. |
 
 ### setPageOrientationType(PageOrientationType) {#setPageOrientationType-pageorientationtype-}
 
@@ -1533,6 +1533,6 @@ setPageOrientationType(pageOrientationType: PageOrientationType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pageOrientationType | [PageOrientationType](/nodejs-cpp/pageorientationtype/) | The page orientation type |
+| pageOrientationType | [PageOrientationType](../pageorientationtype/) | The page orientation type |
 
 

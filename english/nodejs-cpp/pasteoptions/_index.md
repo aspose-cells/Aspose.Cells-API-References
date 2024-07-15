@@ -59,7 +59,7 @@ getPasteType() : PasteType;
 
 **Returns**
 
-[PasteType](/nodejs-cpp/pastetype/)
+[PasteType](../pastetype/)
 
 ### setPasteType(PasteType) {#setPasteType-pastetype-}
 
@@ -72,7 +72,7 @@ setPasteType(value: PasteType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [PasteType](/nodejs-cpp/pastetype/) | The value to set. |
+| value | [PasteType](../pastetype/) | The value to set. |
 
 ### getSkipBlanks() {#getSkipBlanks--}
 
@@ -151,7 +151,7 @@ getOperationType() : PasteOperationType;
 
 **Returns**
 
-[PasteOperationType](/nodejs-cpp/pasteoperationtype/)
+[PasteOperationType](../pasteoperationtype/)
 
 ### setOperationType(PasteOperationType) {#setOperationType-pasteoperationtype-}
 
@@ -164,7 +164,7 @@ setOperationType(value: PasteOperationType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [PasteOperationType](/nodejs-cpp/pasteoperationtype/) | The value to set. |
+| value | [PasteOperationType](../pasteoperationtype/) | The value to set. |
 
 ### getIgnoreLinksToOriginalFile() {#getIgnoreLinksToOriginalFile--}
 

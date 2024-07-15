@@ -24,7 +24,7 @@ class PivotField;
 | [isCalculatedField()](#isCalculatedField--)| Indicates whether the specified PivotTable field is calculated field. |
 | [getBaseIndex()](#getBaseIndex--)| Represents the PivotField index in the base PivotFields. |
 | [setBaseIndex(number)](#setBaseIndex-number-)| Represents the PivotField index in the base PivotFields. |
-| [getPosition()](#getPosition--)| Represents the index of [PivotField](/nodejs-cpp/pivotfield/) in the region. |
+| [getPosition()](#getPosition--)| Represents the index of [PivotField](../pivotfield/) in the region. |
 | [getName()](#getName--)| Represents the name of PivotField. |
 | [setName(string)](#setName-string-)| Represents the name of PivotField. |
 | [getDisplayName()](#getDisplayName--)| Represents the PivotField display name. |
@@ -127,7 +127,7 @@ getPivotItems() : PivotItemCollection;
 
 **Returns**
 
-[PivotItemCollection](/nodejs-cpp/pivotitemcollection/)
+[PivotItemCollection](../pivotitemcollection/)
 
 ### getGroupSettings() {#getGroupSettings--}
 
@@ -140,7 +140,7 @@ getGroupSettings() : PivotFieldGroupSettings;
 
 **Returns**
 
-[PivotFieldGroupSettings](/nodejs-cpp/pivotfieldgroupsettings/)
+[PivotFieldGroupSettings](../pivotfieldgroupsettings/)
 
 **Remarks**
 
@@ -179,7 +179,7 @@ setBaseIndex(value: number) : void;
 
 ### getPosition() {#getPosition--}
 
-Represents the index of [PivotField](/nodejs-cpp/pivotfield/) in the region.
+Represents the index of [PivotField](../pivotfield/) in the region.
 
 ```javascript
 getPosition() : number;
@@ -659,7 +659,7 @@ getFunction() : ConsolidationFunction;
 
 **Returns**
 
-[ConsolidationFunction](/nodejs-cpp/consolidationfunction/)
+[ConsolidationFunction](../consolidationfunction/)
 
 ### setFunction(ConsolidationFunction) {#setFunction-consolidationfunction-}
 
@@ -672,7 +672,7 @@ setFunction(value: ConsolidationFunction) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ConsolidationFunction](/nodejs-cpp/consolidationfunction/) | The value to set. |
+| value | [ConsolidationFunction](../consolidationfunction/) | The value to set. |
 
 ### getShowValuesSetting() {#getShowValuesSetting--}
 
@@ -685,7 +685,7 @@ getShowValuesSetting() : PivotShowValuesSetting;
 
 **Returns**
 
-[PivotShowValuesSetting](/nodejs-cpp/pivotshowvaluessetting/)
+[PivotShowValuesSetting](../pivotshowvaluessetting/)
 
 ### getDataDisplayFormat() {#getDataDisplayFormat--}
 
@@ -698,7 +698,7 @@ getDataDisplayFormat() : PivotFieldDataDisplayFormat;
 
 **Returns**
 
-[PivotFieldDataDisplayFormat](/nodejs-cpp/pivotfielddatadisplayformat/)
+[PivotFieldDataDisplayFormat](../pivotfielddatadisplayformat/)
 
 **Remarks**
 
@@ -715,7 +715,7 @@ setDataDisplayFormat(value: PivotFieldDataDisplayFormat) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [PivotFieldDataDisplayFormat](/nodejs-cpp/pivotfielddatadisplayformat/) | The value to set. |
+| value | [PivotFieldDataDisplayFormat](../pivotfielddatadisplayformat/) | The value to set. |
 
 **Remarks**
 
@@ -762,7 +762,7 @@ getBaseItemPosition() : PivotItemPosition;
 
 **Returns**
 
-[PivotItemPosition](/nodejs-cpp/pivotitemposition/)
+[PivotItemPosition](../pivotitemposition/)
 
 **Remarks**
 
@@ -779,7 +779,7 @@ setBaseItemPosition(value: PivotItemPosition) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [PivotItemPosition](/nodejs-cpp/pivotitemposition/) | The value to set. |
+| value | [PivotItemPosition](../pivotitemposition/) | The value to set. |
 
 **Remarks**
 
@@ -1023,11 +1023,11 @@ getPivotFilterByType(type: PivotFilterType) : PivotFilter;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | [PivotFilterType](/nodejs-cpp/pivotfiltertype/) |  |
+| type | [PivotFilterType](../pivotfiltertype/) |  |
 
 **Returns**
 
-[PivotFilter](/nodejs-cpp/pivotfilter/)
+[PivotFilter](../pivotfilter/)
 
 ### getFilters() {#getFilters--}
 
@@ -1040,7 +1040,7 @@ getFilters() : PivotFilter[];
 
 **Returns**
 
-[PivotFilter](/nodejs-cpp/pivotfilter/)[]
+[PivotFilter](../pivotfilter/)[]
 
 ### initPivotItems() {#initPivotItems--}
 
@@ -1078,7 +1078,7 @@ groupBy(start: Date, end: Date, groups: PivotGroupByType[], interval: number, fi
 | --- | --- | --- |
 | start | Date | The start datetime |
 | end | Date | The end of datetime |
-| groups | [PivotGroupByType](/nodejs-cpp/pivotgroupbytype/)[] | Group types |
+| groups | [PivotGroupByType](../pivotgroupbytype/)[] | Group types |
 | interval | number | The interval |
 | firstAsNewField | boolean | Indicates whether adding a new field to the pivottable.         /// Only for the first group item. |
 
@@ -1109,7 +1109,7 @@ groupBy(customGroupItems: CustomPiovtFieldGroupItem[], newField: boolean) : void
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| customGroupItems | [CustomPiovtFieldGroupItem](/nodejs-cpp/custompiovtfieldgroupitem/)[] | The custom group items. |
+| customGroupItems | [CustomPiovtFieldGroupItem](../custompiovtfieldgroupitem/)[] | The custom group items. |
 | newField | boolean | Indicates whether adding a new field to the pivottable |
 
 ### ungroup() {#ungroup--}
@@ -1141,7 +1141,7 @@ setSubtotals(subtotalType: PivotFieldSubtotalType, shown: boolean) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| subtotalType | [PivotFieldSubtotalType](/nodejs-cpp/pivotfieldsubtotaltype/) | subtotals type. |
+| subtotalType | [PivotFieldSubtotalType](../pivotfieldsubtotaltype/) | subtotals type. |
 | shown | boolean | whether the specified field shows that subtotals. |
 
 ### getSubtotals(PivotFieldSubtotalType) {#getSubtotals-pivotfieldsubtotaltype-}
@@ -1155,7 +1155,7 @@ getSubtotals(subtotalType: PivotFieldSubtotalType) : boolean;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| subtotalType | [PivotFieldSubtotalType](/nodejs-cpp/pivotfieldsubtotaltype/) | subtotal type. |
+| subtotalType | [PivotFieldSubtotalType](../pivotfieldsubtotaltype/) | subtotal type. |
 
 **Returns**
 
@@ -1172,9 +1172,9 @@ showValuesAs(displayFormat: PivotFieldDataDisplayFormat, baseField: number, base
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| displayFormat | [PivotFieldDataDisplayFormat](/nodejs-cpp/pivotfielddatadisplayformat/) | The data display format type. |
+| displayFormat | [PivotFieldDataDisplayFormat](../pivotfielddatadisplayformat/) | The data display format type. |
 | baseField | number | The index to the field which ShowDataAs calculation bases on. |
-| baseItemPositionType | [PivotItemPositionType](/nodejs-cpp/pivotitempositiontype/) | The position type of base iteam. |
+| baseItemPositionType | [PivotItemPositionType](../pivotitempositiontype/) | The position type of base iteam. |
 | baseItem | number | The index to the base item which ShowDataAs calculation bases on.         /// Only works when baseItemPositionType is custom. |
 
 **Remarks**

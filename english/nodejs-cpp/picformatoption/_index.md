@@ -59,7 +59,7 @@ getType() : FillPictureType;
 
 **Returns**
 
-[FillPictureType](/nodejs-cpp/fillpicturetype/)
+[FillPictureType](../fillpicturetype/)
 
 ### setType(FillPictureType) {#setType-fillpicturetype-}
 
@@ -72,7 +72,7 @@ setType(value: FillPictureType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [FillPictureType](/nodejs-cpp/fillpicturetype/) | The value to set. |
+| value | [FillPictureType](../fillpicturetype/) | The value to set. |
 
 ### getScale() {#getScale--}
 

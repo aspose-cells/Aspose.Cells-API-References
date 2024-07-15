@@ -19,7 +19,7 @@ class ActiveXControlBase;
 
 | Method | Description |
 | --- | --- |
-| [getWorkbook()](#getWorkbook--)| Gets the [Workbook](/nodejs-cpp/workbook/) object. |
+| [getWorkbook()](#getWorkbook--)| Gets the [Workbook](../workbook/) object. |
 | [getMouseIcon()](#getMouseIcon--)| Gets and sets a custom icon to display as the mouse pointer for the control. |
 | [setMouseIcon(number[])](#setMouseIcon-numberarray-)| Gets and sets a custom icon to display as the mouse pointer for the control. |
 | [getMousePointer()](#getMousePointer--)| Gets and sets the type of icon displayed as the mouse pointer for the control. |
@@ -46,7 +46,7 @@ class ActiveXControlBase;
 
 ### getWorkbook() {#getWorkbook--}
 
-Gets the [Workbook](/nodejs-cpp/workbook/) object.
+Gets the [Workbook](../workbook/) object.
 
 ```javascript
 getWorkbook() : Workbook;
@@ -55,7 +55,7 @@ getWorkbook() : Workbook;
 
 **Returns**
 
-[Workbook](/nodejs-cpp/workbook/)
+[Workbook](../workbook/)
 
 ### getMouseIcon() {#getMouseIcon--}
 
@@ -94,7 +94,7 @@ getMousePointer() : ControlMousePointerType;
 
 **Returns**
 
-[ControlMousePointerType](/nodejs-cpp/controlmousepointertype/)
+[ControlMousePointerType](../controlmousepointertype/)
 
 ### setMousePointer(ControlMousePointerType) {#setMousePointer-controlmousepointertype-}
 
@@ -107,7 +107,7 @@ setMousePointer(value: ControlMousePointerType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ControlMousePointerType](/nodejs-cpp/controlmousepointertype/) | The value to set. |
+| value | [ControlMousePointerType](../controlmousepointertype/) | The value to set. |
 
 ### getLinkedCell() {#getLinkedCell--}
 
@@ -164,7 +164,7 @@ getType() : ControlType;
 
 **Returns**
 
-[ControlType](/nodejs-cpp/controltype/)
+[ControlType](../controltype/)
 
 ### getWidth() {#getWidth--}
 

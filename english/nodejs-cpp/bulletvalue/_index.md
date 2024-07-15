@@ -33,6 +33,6 @@ getType() : BulletType;
 
 **Returns**
 
-[BulletType](/nodejs-cpp/bullettype/)
+[BulletType](../bullettype/)
 
 

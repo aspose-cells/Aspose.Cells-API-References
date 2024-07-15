@@ -7,7 +7,7 @@ url: /nodejs-cpp/externallinkenumerator/
 ---
 
 ## ExternalLinkEnumerator class
-Iterator of [ExternalLink](/nodejs-cpp/externallink/) objects. Please use for...of statement to iterate over them.
+Iterator of [ExternalLink](../externallink/) objects. Please use for...of statement to iterate over them.
 
 ```javascript
 class ExternalLinkEnumerator implements Iterable<ExternalLink> {

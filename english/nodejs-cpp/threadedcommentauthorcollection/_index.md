@@ -57,7 +57,7 @@ get(index: number) : ThreadedCommentAuthor;
 
 **Returns**
 
-[ThreadedCommentAuthor](/nodejs-cpp/threadedcommentauthor/)
+[ThreadedCommentAuthor](../threadedcommentauthor/)
 
 ### getCurrentPerson() {#getCurrentPerson--}
 
@@ -70,7 +70,7 @@ getCurrentPerson() : ThreadedCommentAuthor;
 
 **Returns**
 
-[ThreadedCommentAuthor](/nodejs-cpp/threadedcommentauthor/)
+[ThreadedCommentAuthor](../threadedcommentauthor/)
 
 ### setCurrentPerson(ThreadedCommentAuthor) {#setCurrentPerson-threadedcommentauthor-}
 
@@ -83,7 +83,7 @@ setCurrentPerson(value: ThreadedCommentAuthor) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ThreadedCommentAuthor](/nodejs-cpp/threadedcommentauthor/) | The value to set. |
+| value | [ThreadedCommentAuthor](../threadedcommentauthor/) | The value to set. |
 
 ### indexOf(ThreadedCommentAuthor) {#indexOf-threadedcommentauthor-}
 
@@ -96,7 +96,7 @@ indexOf(author: ThreadedCommentAuthor) : number;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| author | [ThreadedCommentAuthor](/nodejs-cpp/threadedcommentauthor/) | The ThreadedCommentAuthor object |
+| author | [ThreadedCommentAuthor](../threadedcommentauthor/) | The ThreadedCommentAuthor object |
 
 **Returns**
 

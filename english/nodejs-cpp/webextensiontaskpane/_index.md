@@ -44,7 +44,7 @@ getWebExtension() : WebExtension;
 
 **Returns**
 
-[WebExtension](/nodejs-cpp/webextension/)
+[WebExtension](../webextension/)
 
 ### setWebExtension(WebExtension) {#setWebExtension-webextension-}
 
@@ -57,7 +57,7 @@ setWebExtension(value: WebExtension) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [WebExtension](/nodejs-cpp/webextension/) | The value to set. |
+| value | [WebExtension](../webextension/) | The value to set. |
 
 ### getDockState() {#getDockState--}
 

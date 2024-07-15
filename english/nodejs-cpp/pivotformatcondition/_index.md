@@ -44,7 +44,7 @@ getScopeType() : PivotConditionFormatScopeType;
 
 **Returns**
 
-[PivotConditionFormatScopeType](/nodejs-cpp/pivotconditionformatscopetype/)
+[PivotConditionFormatScopeType](../pivotconditionformatscopetype/)
 
 ### setScopeType(PivotConditionFormatScopeType) {#setScopeType-pivotconditionformatscopetype-}
 
@@ -57,7 +57,7 @@ setScopeType(value: PivotConditionFormatScopeType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [PivotConditionFormatScopeType](/nodejs-cpp/pivotconditionformatscopetype/) | The value to set. |
+| value | [PivotConditionFormatScopeType](../pivotconditionformatscopetype/) | The value to set. |
 
 ### getRuleType() {#getRuleType--}
 
@@ -70,7 +70,7 @@ getRuleType() : PivotConditionFormatRuleType;
 
 **Returns**
 
-[PivotConditionFormatRuleType](/nodejs-cpp/pivotconditionformatruletype/)
+[PivotConditionFormatRuleType](../pivotconditionformatruletype/)
 
 ### setRuleType(PivotConditionFormatRuleType) {#setRuleType-pivotconditionformatruletype-}
 
@@ -83,7 +83,7 @@ setRuleType(value: PivotConditionFormatRuleType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [PivotConditionFormatRuleType](/nodejs-cpp/pivotconditionformatruletype/) | The value to set. |
+| value | [PivotConditionFormatRuleType](../pivotconditionformatruletype/) | The value to set. |
 
 ### getFormatConditions() {#getFormatConditions--}
 
@@ -96,7 +96,7 @@ getFormatConditions() : FormatConditionCollection;
 
 **Returns**
 
-[FormatConditionCollection](/nodejs-cpp/formatconditioncollection/)
+[FormatConditionCollection](../formatconditioncollection/)
 
 ### addDataAreaCondition(string) {#addDataAreaCondition-string-}
 
@@ -122,7 +122,7 @@ addDataAreaCondition(dataField: PivotField) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| dataField | [PivotField](/nodejs-cpp/pivotfield/) | The PivotField in the data fields. |
+| dataField | [PivotField](../pivotfield/) | The PivotField in the data fields. |
 
 ### addRowAreaCondition(string) {#addRowAreaCondition-string-}
 
@@ -148,7 +148,7 @@ addRowAreaCondition(rowField: PivotField) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rowField | [PivotField](/nodejs-cpp/pivotfield/) | The PivotField in the row fields. |
+| rowField | [PivotField](../pivotfield/) | The PivotField in the row fields. |
 
 ### addColumnAreaCondition(string) {#addColumnAreaCondition-string-}
 
@@ -174,7 +174,7 @@ addColumnAreaCondition(columnField: PivotField) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| columnField | [PivotField](/nodejs-cpp/pivotfield/) | The PivotField in the column fields. |
+| columnField | [PivotField](../pivotfield/) | The PivotField in the column fields. |
 
 ### setConditionalAreas() {#setConditionalAreas--}
 

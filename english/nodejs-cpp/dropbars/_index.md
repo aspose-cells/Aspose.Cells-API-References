@@ -19,13 +19,13 @@ class DropBars;
 
 | Method | Description |
 | --- | --- |
-| [getBorder()](#getBorder--)| Gets the border [Line](/nodejs-cpp/line/). |
-| [getArea()](#getArea--)| Gets the [Area](/nodejs-cpp/area/). |
+| [getBorder()](#getBorder--)| Gets the border [Line](../line/). |
+| [getArea()](#getArea--)| Gets the [Area](../area/). |
 
 
 ### getBorder() {#getBorder--}
 
-Gets the border [Line](/nodejs-cpp/line/).
+Gets the border [Line](../line/).
 
 ```javascript
 getBorder() : Line;
@@ -34,11 +34,11 @@ getBorder() : Line;
 
 **Returns**
 
-[Line](/nodejs-cpp/line/)
+[Line](../line/)
 
 ### getArea() {#getArea--}
 
-Gets the [Area](/nodejs-cpp/area/).
+Gets the [Area](../area/).
 
 ```javascript
 getArea() : Area;
@@ -47,6 +47,6 @@ getArea() : Area;
 
 **Returns**
 
-[Area](/nodejs-cpp/area/)
+[Area](../area/)
 
 

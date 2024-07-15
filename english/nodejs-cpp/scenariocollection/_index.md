@@ -19,7 +19,7 @@ class ScenarioCollection;
 
 | Method | Description |
 | --- | --- |
-| [get(number)](#get-number-)| Gets the [Scenario](/nodejs-cpp/scenario/) object by the index. |
+| [get(number)](#get-number-)| Gets the [Scenario](../scenario/) object by the index. |
 | [getActiveIndex()](#getActiveIndex--)| Gets and sets which scenario is selected. |
 | [setActiveIndex(number)](#setActiveIndex-number-)| Gets and sets which scenario is selected. |
 | [getLastSelected()](#getLastSelected--)| Indicates which scenario was last selected by the user to be run/shown. |
@@ -30,7 +30,7 @@ class ScenarioCollection;
 
 ### get(number) {#get-number-}
 
-Gets the [Scenario](/nodejs-cpp/scenario/) object by the index.
+Gets the [Scenario](../scenario/) object by the index.
 
 ```javascript
 get(index: number) : Scenario;
@@ -43,7 +43,7 @@ get(index: number) : Scenario;
 
 **Returns**
 
-[Scenario](/nodejs-cpp/scenario/)
+[Scenario](../scenario/)
 
 ### getActiveIndex() {#getActiveIndex--}
 

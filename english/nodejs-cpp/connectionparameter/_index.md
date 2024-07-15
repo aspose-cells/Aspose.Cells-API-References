@@ -44,7 +44,7 @@ getSqlType() : SqlDataType;
 
 **Returns**
 
-[SqlDataType](/nodejs-cpp/sqldatatype/)
+[SqlDataType](../sqldatatype/)
 
 ### setSqlType(SqlDataType) {#setSqlType-sqldatatype-}
 
@@ -57,7 +57,7 @@ setSqlType(value: SqlDataType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [SqlDataType](/nodejs-cpp/sqldatatype/) | The value to set. |
+| value | [SqlDataType](../sqldatatype/) | The value to set. |
 
 ### getRefreshOnChange() {#getRefreshOnChange--}
 
@@ -114,7 +114,7 @@ getType() : ConnectionParameterType;
 
 **Returns**
 
-[ConnectionParameterType](/nodejs-cpp/connectionparametertype/)
+[ConnectionParameterType](../connectionparametertype/)
 
 ### setType(ConnectionParameterType) {#setType-connectionparametertype-}
 
@@ -127,7 +127,7 @@ setType(value: ConnectionParameterType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ConnectionParameterType](/nodejs-cpp/connectionparametertype/) | The value to set. |
+| value | [ConnectionParameterType](../connectionparametertype/) | The value to set. |
 
 ### getName() {#getName--}
 

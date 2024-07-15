@@ -38,7 +38,7 @@ static fromOleColor(oleColor: number) : Color;
 
 **Returns**
 
-The [Color](/nodejs-cpp/color/) object.
+The [Color](../color/) object.
 
 ### toOleColor(Color, Workbook) {#toOleColor-color-workbook-}
 
@@ -51,8 +51,8 @@ static toOleColor(color: Color, workbook: Workbook) : number;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| color | [Color](/nodejs-cpp/color/) | The [Color](/nodejs-cpp/color/) object. |
-| workbook | [Workbook](/nodejs-cpp/workbook/) |  |
+| color | [Color](../color/) | The [Color](../color/) object. |
+| workbook | [Workbook](../workbook/) |  |
 
 **Returns**
 

@@ -7,7 +7,7 @@ url: /nodejs-cpp/pivotfieldenumerator/
 ---
 
 ## PivotFieldEnumerator class
-Iterator of [PivotField](/nodejs-cpp/pivotfield/) objects. Please use for...of statement to iterate over them.
+Iterator of [PivotField](../pivotfield/) objects. Please use for...of statement to iterate over them.
 
 ```javascript
 class PivotFieldEnumerator implements Iterable<PivotField> {

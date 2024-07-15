@@ -117,7 +117,7 @@ getBottomBevelType() : BevelType;
 
 **Returns**
 
-[BevelType](/nodejs-cpp/beveltype/)
+[BevelType](../beveltype/)
 
 ### setBottomBevelType(BevelType) {#setBottomBevelType-beveltype-}
 
@@ -130,7 +130,7 @@ setBottomBevelType(value: BevelType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [BevelType](/nodejs-cpp/beveltype/) | The value to set. |
+| value | [BevelType](../beveltype/) | The value to set. |
 
 ### getTopBevelWidth() {#getTopBevelWidth--}
 
@@ -187,7 +187,7 @@ getTopBevelType() : BevelType;
 
 **Returns**
 
-[BevelType](/nodejs-cpp/beveltype/)
+[BevelType](../beveltype/)
 
 ### setTopBevelType(BevelType) {#setTopBevelType-beveltype-}
 
@@ -200,7 +200,7 @@ setTopBevelType(value: BevelType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [BevelType](/nodejs-cpp/beveltype/) | The value to set. |
+| value | [BevelType](../beveltype/) | The value to set. |
 
 ### getMaterial() {#getMaterial--}
 
@@ -213,7 +213,7 @@ getMaterial() : PresetMaterialType;
 
 **Returns**
 
-[PresetMaterialType](/nodejs-cpp/presetmaterialtype/)
+[PresetMaterialType](../presetmaterialtype/)
 
 ### setMaterial(PresetMaterialType) {#setMaterial-presetmaterialtype-}
 
@@ -226,7 +226,7 @@ setMaterial(value: PresetMaterialType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [PresetMaterialType](/nodejs-cpp/presetmaterialtype/) | The value to set. |
+| value | [PresetMaterialType](../presetmaterialtype/) | The value to set. |
 
 ### getContourColor() {#getContourColor--}
 
@@ -239,7 +239,7 @@ getContourColor() : CellsColor;
 
 **Returns**
 
-[CellsColor](/nodejs-cpp/cellscolor/)
+[CellsColor](../cellscolor/)
 
 ### setContourColor(CellsColor) {#setContourColor-cellscolor-}
 
@@ -252,7 +252,7 @@ setContourColor(value: CellsColor) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [CellsColor](/nodejs-cpp/cellscolor/) | The value to set. |
+| value | [CellsColor](../cellscolor/) | The value to set. |
 
 ### getContourWidth() {#getContourWidth--}
 
@@ -287,7 +287,7 @@ getExtrusionColor() : CellsColor;
 
 **Returns**
 
-[CellsColor](/nodejs-cpp/cellscolor/)
+[CellsColor](../cellscolor/)
 
 ### setExtrusionColor(CellsColor) {#setExtrusionColor-cellscolor-}
 
@@ -300,7 +300,7 @@ setExtrusionColor(value: CellsColor) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [CellsColor](/nodejs-cpp/cellscolor/) | The value to set. |
+| value | [CellsColor](../cellscolor/) | The value to set. |
 
 ### getExtrusionHeight() {#getExtrusionHeight--}
 
@@ -379,7 +379,7 @@ getLighting() : LightRigType;
 
 **Returns**
 
-[LightRigType](/nodejs-cpp/lightrigtype/)
+[LightRigType](../lightrigtype/)
 
 ### setLighting(LightRigType) {#setLighting-lightrigtype-}
 
@@ -392,7 +392,7 @@ setLighting(value: LightRigType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [LightRigType](/nodejs-cpp/lightrigtype/) | The value to set. |
+| value | [LightRigType](../lightrigtype/) | The value to set. |
 
 ### getLightingDirection() {#getLightingDirection--}
 
@@ -405,7 +405,7 @@ getLightingDirection() : LightRigDirectionType;
 
 **Returns**
 
-[LightRigDirectionType](/nodejs-cpp/lightrigdirectiontype/)
+[LightRigDirectionType](../lightrigdirectiontype/)
 
 ### setLightingDirection(LightRigDirectionType) {#setLightingDirection-lightrigdirectiontype-}
 
@@ -418,7 +418,7 @@ setLightingDirection(value: LightRigDirectionType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [LightRigDirectionType](/nodejs-cpp/lightrigdirectiontype/) | The value to set. |
+| value | [LightRigDirectionType](../lightrigdirectiontype/) | The value to set. |
 
 ### getPerspective() {#getPerspective--}
 
@@ -519,7 +519,7 @@ getPresetCameraType() : PresetCameraType;
 
 **Returns**
 
-[PresetCameraType](/nodejs-cpp/presetcameratype/)
+[PresetCameraType](../presetcameratype/)
 
 ### setPresetCameraType(PresetCameraType) {#setPresetCameraType-presetcameratype-}
 
@@ -532,7 +532,7 @@ setPresetCameraType(value: PresetCameraType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [PresetCameraType](/nodejs-cpp/presetcameratype/) | The value to set. |
+| value | [PresetCameraType](../presetcameratype/) | The value to set. |
 
 ### getHashCode() {#getHashCode--}
 

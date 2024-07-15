@@ -41,8 +41,8 @@ class TxtLoadOptions extends AbstractTextLoadOptions;
 | [setTextQualifier(string)](#setTextQualifier-string-)| Specifies the text qualifier for cell values. Default qualifier is '"'. |
 | [getTreatConsecutiveDelimitersAsOne()](#getTreatConsecutiveDelimitersAsOne--)| Whether consecutive delimiters should be treated as one. |
 | [setTreatConsecutiveDelimitersAsOne(boolean)](#setTreatConsecutiveDelimitersAsOne-boolean-)| Whether consecutive delimiters should be treated as one. |
-| [getTreatQuotePrefixAsValue()](#getTreatQuotePrefixAsValue--)| Indicates whether the leading single quote sign should be taken as part of the value of one cell. Default is true. If it is false, the leading single quote will be removed from corresponding cell's value and [Style.QuotePrefix](/nodejs-cpp/style.quoteprefix/) will be set as true for the cell. |
-| [setTreatQuotePrefixAsValue(boolean)](#setTreatQuotePrefixAsValue-boolean-)| Indicates whether the leading single quote sign should be taken as part of the value of one cell. Default is true. If it is false, the leading single quote will be removed from corresponding cell's value and [Style.QuotePrefix](/nodejs-cpp/style.quoteprefix/) will be set as true for the cell. |
+| [getTreatQuotePrefixAsValue()](#getTreatQuotePrefixAsValue--)| Indicates whether the leading single quote sign should be taken as part of the value of one cell. Default is true. If it is false, the leading single quote will be removed from corresponding cell's value and [Style.QuotePrefix](../style.quoteprefix/) will be set as true for the cell. |
+| [setTreatQuotePrefixAsValue(boolean)](#setTreatQuotePrefixAsValue-boolean-)| Indicates whether the leading single quote sign should be taken as part of the value of one cell. Default is true. If it is false, the leading single quote will be removed from corresponding cell's value and [Style.QuotePrefix](../style.quoteprefix/) will be set as true for the cell. |
 | [getExtendToNextSheet()](#getExtendToNextSheet--)| Whether extends data to next sheet when the rows or columns of data exceed limit. Default is false. |
 | [setExtendToNextSheet(boolean)](#setExtendToNextSheet-boolean-)| Whether extends data to next sheet when the rows or columns of data exceed limit. Default is false. |
 | [getHeaderRowsCount()](#getHeaderRowsCount--)| The count of header rows to be repeated for extended sheets. |
@@ -87,8 +87,8 @@ class TxtLoadOptions extends AbstractTextLoadOptions;
 | [setAutoFitterOptions(AutoFitterOptions)](#setAutoFitterOptions-autofitteroptions-)| Gets and sets the auto fitter options |
 | [getAutoFilter()](#getAutoFilter--)| Indicates whether auto filtering the data when loading the files. |
 | [setAutoFilter(boolean)](#setAutoFilter-boolean-)| Indicates whether auto filtering the data when loading the files. |
-| [getFontConfigs()](#getFontConfigs--)| Gets and sets individual font configs. Only works for the [Workbook](/nodejs-cpp/workbook/) which uses this [Workbook](/nodejs-cpp/workbook/) to load. |
-| [setFontConfigs(IndividualFontConfigs)](#setFontConfigs-individualfontconfigs-)| Gets and sets individual font configs. Only works for the [Workbook](/nodejs-cpp/workbook/) which uses this [Workbook](/nodejs-cpp/workbook/) to load. |
+| [getFontConfigs()](#getFontConfigs--)| Gets and sets individual font configs. Only works for the [Workbook](../workbook/) which uses this [Workbook](../workbook/) to load. |
+| [setFontConfigs(IndividualFontConfigs)](#setFontConfigs-individualfontconfigs-)| Gets and sets individual font configs. Only works for the [Workbook](../workbook/) which uses this [Workbook](../workbook/) to load. |
 | [getIgnoreUselessShapes()](#getIgnoreUselessShapes--)| Indicates whether ignoring useless shapes. |
 | [setIgnoreUselessShapes(boolean)](#setIgnoreUselessShapes-boolean-)| Indicates whether ignoring useless shapes. |
 | [getPreservePaddingSpacesInFormula()](#getPreservePaddingSpacesInFormula--)| Indicates whether preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. Default value is false. |
@@ -143,7 +143,7 @@ constructor(loadFormat: LoadFormat);
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| loadFormat | [LoadFormat](/nodejs-cpp/loadformat/) | The loading format |
+| loadFormat | [LoadFormat](../loadformat/) | The loading format |
 
 ### getSeparator() {#getSeparator--}
 
@@ -266,7 +266,7 @@ getTextQualifier() : string;
 
 **Remarks**
 
-When setting this property, [HasTextQualifier](/nodejs-cpp/hastextqualifier/) will become true automatically.
+When setting this property, [HasTextQualifier](../hastextqualifier/) will become true automatically.
 
 ### setTextQualifier(string) {#setTextQualifier-string-}
 
@@ -283,7 +283,7 @@ setTextQualifier(value: string) : void;
 
 **Remarks**
 
-When setting this property, [HasTextQualifier](/nodejs-cpp/hastextqualifier/) will become true automatically.
+When setting this property, [HasTextQualifier](../hastextqualifier/) will become true automatically.
 
 ### getTreatConsecutiveDelimitersAsOne() {#getTreatConsecutiveDelimitersAsOne--}
 
@@ -309,7 +309,7 @@ setTreatConsecutiveDelimitersAsOne(value: boolean) : void;
 
 ### getTreatQuotePrefixAsValue() {#getTreatQuotePrefixAsValue--}
 
-Indicates whether the leading single quote sign should be taken as part of the value of one cell. Default is true. If it is false, the leading single quote will be removed from corresponding cell's value and [Style.QuotePrefix](/nodejs-cpp/style.quoteprefix/) will be set as true for the cell.
+Indicates whether the leading single quote sign should be taken as part of the value of one cell. Default is true. If it is false, the leading single quote will be removed from corresponding cell's value and [Style.QuotePrefix](../style.quoteprefix/) will be set as true for the cell.
 
 ```javascript
 getTreatQuotePrefixAsValue() : boolean;
@@ -318,7 +318,7 @@ getTreatQuotePrefixAsValue() : boolean;
 
 ### setTreatQuotePrefixAsValue(boolean) {#setTreatQuotePrefixAsValue-boolean-}
 
-Indicates whether the leading single quote sign should be taken as part of the value of one cell. Default is true. If it is false, the leading single quote will be removed from corresponding cell's value and [Style.QuotePrefix](/nodejs-cpp/style.quoteprefix/) will be set as true for the cell.
+Indicates whether the leading single quote sign should be taken as part of the value of one cell. Default is true. If it is false, the leading single quote will be removed from corresponding cell's value and [Style.QuotePrefix](../style.quoteprefix/) will be set as true for the cell.
 
 ```javascript
 setTreatQuotePrefixAsValue(value: boolean) : void;
@@ -370,7 +370,7 @@ getHeaderRowsCount() : number;
 
 **Remarks**
 
-The header rows specified by this property will be duplicated for those extended sheets. This property only takes effect when [ExtendToNextSheet](/nodejs-cpp/extendtonextsheet/) is true.
+The header rows specified by this property will be duplicated for those extended sheets. This property only takes effect when [ExtendToNextSheet](../extendtonextsheet/) is true.
 
 ### setHeaderRowsCount(number) {#setHeaderRowsCount-number-}
 
@@ -387,7 +387,7 @@ setHeaderRowsCount(value: number) : void;
 
 **Remarks**
 
-The header rows specified by this property will be duplicated for those extended sheets. This property only takes effect when [ExtendToNextSheet](/nodejs-cpp/extendtonextsheet/) is true.
+The header rows specified by this property will be duplicated for those extended sheets. This property only takes effect when [ExtendToNextSheet](../extendtonextsheet/) is true.
 
 ### getHeaderColumnsCount() {#getHeaderColumnsCount--}
 
@@ -400,7 +400,7 @@ getHeaderColumnsCount() : number;
 
 **Remarks**
 
-The header columns specified by this property will be duplicated for those extended sheets. This property only takes effect when [ExtendToNextSheet](/nodejs-cpp/extendtonextsheet/) is true.
+The header columns specified by this property will be duplicated for those extended sheets. This property only takes effect when [ExtendToNextSheet](../extendtonextsheet/) is true.
 
 ### setHeaderColumnsCount(number) {#setHeaderColumnsCount-number-}
 
@@ -417,7 +417,7 @@ setHeaderColumnsCount(value: number) : void;
 
 **Remarks**
 
-The header columns specified by this property will be duplicated for those extended sheets. This property only takes effect when [ExtendToNextSheet](/nodejs-cpp/extendtonextsheet/) is true.
+The header columns specified by this property will be duplicated for those extended sheets. This property only takes effect when [ExtendToNextSheet](../extendtonextsheet/) is true.
 
 ### getMaxRowCount() {#getMaxRowCount--}
 
@@ -430,7 +430,7 @@ getMaxRowCount() : number;
 
 **Remarks**
 
-Those rows exceeding this limit will be ignored or extended to next sheet according to [ExtendToNextSheet](/nodejs-cpp/extendtonextsheet/). This count includes the header rows([HeaderRowsCount](/nodejs-cpp/headerrowscount/)). The maximum allowed value of it is the row limit of corresponding file format, such as for xlsx file it 1048576. If this property has not been specified or the specified value is not positive, then the maximum limit will be used too.
+Those rows exceeding this limit will be ignored or extended to next sheet according to [ExtendToNextSheet](../extendtonextsheet/). This count includes the header rows([HeaderRowsCount](../headerrowscount/)). The maximum allowed value of it is the row limit of corresponding file format, such as for xlsx file it 1048576. If this property has not been specified or the specified value is not positive, then the maximum limit will be used too.
 
 ### setMaxRowCount(number) {#setMaxRowCount-number-}
 
@@ -447,7 +447,7 @@ setMaxRowCount(value: number) : void;
 
 **Remarks**
 
-Those rows exceeding this limit will be ignored or extended to next sheet according to [ExtendToNextSheet](/nodejs-cpp/extendtonextsheet/). This count includes the header rows([HeaderRowsCount](/nodejs-cpp/headerrowscount/)). The maximum allowed value of it is the row limit of corresponding file format, such as for xlsx file it 1048576. If this property has not been specified or the specified value is not positive, then the maximum limit will be used too.
+Those rows exceeding this limit will be ignored or extended to next sheet according to [ExtendToNextSheet](../extendtonextsheet/). This count includes the header rows([HeaderRowsCount](../headerrowscount/)). The maximum allowed value of it is the row limit of corresponding file format, such as for xlsx file it 1048576. If this property has not been specified or the specified value is not positive, then the maximum limit will be used too.
 
 ### getMaxColumnCount() {#getMaxColumnCount--}
 
@@ -460,7 +460,7 @@ getMaxColumnCount() : number;
 
 **Remarks**
 
-Those columns exceeding this limit will be ignored or extended to next sheet according to [ExtendToNextSheet](/nodejs-cpp/extendtonextsheet/). This count includes the header columns([HeaderColumnsCount](/nodejs-cpp/headercolumnscount/)). The maximum value of it is the column limit of corresponding file format, such as for xlsx file it 16384. If this property has not been specified or the specified value is not positive, then the maximum limit will be used too.
+Those columns exceeding this limit will be ignored or extended to next sheet according to [ExtendToNextSheet](../extendtonextsheet/). This count includes the header columns([HeaderColumnsCount](../headercolumnscount/)). The maximum value of it is the column limit of corresponding file format, such as for xlsx file it 16384. If this property has not been specified or the specified value is not positive, then the maximum limit will be used too.
 
 ### setMaxColumnCount(number) {#setMaxColumnCount-number-}
 
@@ -477,7 +477,7 @@ setMaxColumnCount(value: number) : void;
 
 **Remarks**
 
-Those columns exceeding this limit will be ignored or extended to next sheet according to [ExtendToNextSheet](/nodejs-cpp/extendtonextsheet/). This count includes the header columns([HeaderColumnsCount](/nodejs-cpp/headercolumnscount/)). The maximum value of it is the column limit of corresponding file format, such as for xlsx file it 16384. If this property has not been specified or the specified value is not positive, then the maximum limit will be used too.
+Those columns exceeding this limit will be ignored or extended to next sheet according to [ExtendToNextSheet](../extendtonextsheet/). This count includes the header columns([HeaderColumnsCount](../headercolumnscount/)). The maximum value of it is the column limit of corresponding file format, such as for xlsx file it 16384. If this property has not been specified or the specified value is not positive, then the maximum limit will be used too.
 
 ### getLoadFormat() {#getLoadFormat--}
 
@@ -490,7 +490,7 @@ getLoadFormat() : LoadFormat;
 
 **Returns**
 
-[LoadFormat](/nodejs-cpp/loadformat/)
+[LoadFormat](../loadformat/)
 
 ### getPassword() {#getPassword--}
 
@@ -585,7 +585,7 @@ getLanguageCode() : CountryCode;
 
 **Returns**
 
-[CountryCode](/nodejs-cpp/countrycode/)
+[CountryCode](../countrycode/)
 
 ### setLanguageCode(CountryCode) {#setLanguageCode-countrycode-}
 
@@ -598,7 +598,7 @@ setLanguageCode(value: CountryCode) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [CountryCode](/nodejs-cpp/countrycode/) | The value to set. |
+| value | [CountryCode](../countrycode/) | The value to set. |
 
 ### getRegion() {#getRegion--}
 
@@ -611,7 +611,7 @@ getRegion() : CountryCode;
 
 **Returns**
 
-[CountryCode](/nodejs-cpp/countrycode/)
+[CountryCode](../countrycode/)
 
 **Remarks**
 
@@ -628,7 +628,7 @@ setRegion(value: CountryCode) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [CountryCode](/nodejs-cpp/countrycode/) | The value to set. |
+| value | [CountryCode](../countrycode/) | The value to set. |
 
 **Remarks**
 
@@ -645,7 +645,7 @@ getDefaultStyleSettings() : DefaultStyleSettings;
 
 **Returns**
 
-[DefaultStyleSettings](/nodejs-cpp/defaultstylesettings/)
+[DefaultStyleSettings](../defaultstylesettings/)
 
 ### getInterruptMonitor() {#getInterruptMonitor--}
 
@@ -658,7 +658,7 @@ getInterruptMonitor() : AbstractInterruptMonitor;
 
 **Returns**
 
-[AbstractInterruptMonitor](/nodejs-cpp/abstractinterruptmonitor/)
+[AbstractInterruptMonitor](../abstractinterruptmonitor/)
 
 ### setInterruptMonitor(AbstractInterruptMonitor) {#setInterruptMonitor-abstractinterruptmonitor-}
 
@@ -671,7 +671,7 @@ setInterruptMonitor(value: AbstractInterruptMonitor) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [AbstractInterruptMonitor](/nodejs-cpp/abstractinterruptmonitor/) | The value to set. |
+| value | [AbstractInterruptMonitor](../abstractinterruptmonitor/) | The value to set. |
 
 ### getIgnoreNotPrinted() {#getIgnoreNotPrinted--}
 
@@ -788,7 +788,7 @@ getLoadFilter() : LoadFilter;
 
 **Returns**
 
-[LoadFilter](/nodejs-cpp/loadfilter/)
+[LoadFilter](../loadfilter/)
 
 ### setLoadFilter(LoadFilter) {#setLoadFilter-loadfilter-}
 
@@ -801,7 +801,7 @@ setLoadFilter(value: LoadFilter) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [LoadFilter](/nodejs-cpp/loadfilter/) | The value to set. |
+| value | [LoadFilter](../loadfilter/) | The value to set. |
 
 ### getLightCellsDataHandler() {#getLightCellsDataHandler--}
 
@@ -814,7 +814,7 @@ getLightCellsDataHandler() : LightCellsDataHandler;
 
 **Returns**
 
-[LightCellsDataHandler](/nodejs-cpp/lightcellsdatahandler/)
+[LightCellsDataHandler](../lightcellsdatahandler/)
 
 ### setLightCellsDataHandler(LightCellsDataHandler) {#setLightCellsDataHandler-lightcellsdatahandler-}
 
@@ -827,7 +827,7 @@ setLightCellsDataHandler(value: LightCellsDataHandler) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [LightCellsDataHandler](/nodejs-cpp/lightcellsdatahandler/) | The value to set. |
+| value | [LightCellsDataHandler](../lightcellsdatahandler/) | The value to set. |
 
 ### getMemorySetting() {#getMemorySetting--}
 
@@ -840,7 +840,7 @@ getMemorySetting() : MemorySetting;
 
 **Returns**
 
-[MemorySetting](/nodejs-cpp/memorysetting/)
+[MemorySetting](../memorysetting/)
 
 ### setMemorySetting(MemorySetting) {#setMemorySetting-memorysetting-}
 
@@ -853,7 +853,7 @@ setMemorySetting(value: MemorySetting) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [MemorySetting](/nodejs-cpp/memorysetting/) | The value to set. |
+| value | [MemorySetting](../memorysetting/) | The value to set. |
 
 ### setWarningCallback(IWarningCallback) {#setWarningCallback-iwarningcallback-}
 
@@ -866,7 +866,7 @@ setWarningCallback(value: IWarningCallback) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IWarningCallback](/nodejs-cpp/iwarningcallback/) | The value to set. |
+| value | [IWarningCallback](../iwarningcallback/) | The value to set. |
 
 ### getWarningCallback() {#getWarningCallback--}
 
@@ -879,7 +879,7 @@ getWarningCallback() : IWarningCallback;
 
 **Returns**
 
-[IWarningCallback](/nodejs-cpp/iwarningcallback/)
+[IWarningCallback](../iwarningcallback/)
 
 ### getAutoFitterOptions() {#getAutoFitterOptions--}
 
@@ -892,7 +892,7 @@ getAutoFitterOptions() : AutoFitterOptions;
 
 **Returns**
 
-[AutoFitterOptions](/nodejs-cpp/autofitteroptions/)
+[AutoFitterOptions](../autofitteroptions/)
 
 **Remarks**
 
@@ -909,7 +909,7 @@ setAutoFitterOptions(value: AutoFitterOptions) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [AutoFitterOptions](/nodejs-cpp/autofitteroptions/) | The value to set. |
+| value | [AutoFitterOptions](../autofitteroptions/) | The value to set. |
 
 **Remarks**
 
@@ -947,7 +947,7 @@ Sometimes although autofilter is set, the corresponding rows is not hidden in th
 
 ### getFontConfigs() {#getFontConfigs--}
 
-Gets and sets individual font configs. Only works for the [Workbook](/nodejs-cpp/workbook/) which uses this [Workbook](/nodejs-cpp/workbook/) to load.
+Gets and sets individual font configs. Only works for the [Workbook](../workbook/) which uses this [Workbook](../workbook/) to load.
 
 ```javascript
 getFontConfigs() : IndividualFontConfigs;
@@ -956,11 +956,11 @@ getFontConfigs() : IndividualFontConfigs;
 
 **Returns**
 
-[IndividualFontConfigs](/nodejs-cpp/individualfontconfigs/)
+[IndividualFontConfigs](../individualfontconfigs/)
 
 ### setFontConfigs(IndividualFontConfigs) {#setFontConfigs-individualfontconfigs-}
 
-Gets and sets individual font configs. Only works for the [Workbook](/nodejs-cpp/workbook/) which uses this [Workbook](/nodejs-cpp/workbook/) to load.
+Gets and sets individual font configs. Only works for the [Workbook](../workbook/) which uses this [Workbook](../workbook/) to load.
 
 ```javascript
 setFontConfigs(value: IndividualFontConfigs) : void;
@@ -969,7 +969,7 @@ setFontConfigs(value: IndividualFontConfigs) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IndividualFontConfigs](/nodejs-cpp/individualfontconfigs/) | The value to set. |
+| value | [IndividualFontConfigs](../individualfontconfigs/) | The value to set. |
 
 ### getIgnoreUselessShapes() {#getIgnoreUselessShapes--}
 
@@ -1012,7 +1012,7 @@ getPreservePaddingSpacesInFormula() : boolean;
 
 **Remarks**
 
-After loading workbook from template file with this option, [FormulaSettings.PreservePaddingSpaces](/nodejs-cpp/formulasettings.preservepaddingspaces/) will be set to the same value with this property.
+After loading workbook from template file with this option, [FormulaSettings.PreservePaddingSpaces](../formulasettings.preservepaddingspaces/) will be set to the same value with this property.
 
 ### setPreservePaddingSpacesInFormula(boolean) {#setPreservePaddingSpacesInFormula-boolean-}
 
@@ -1029,7 +1029,7 @@ setPreservePaddingSpacesInFormula(value: boolean) : void;
 
 **Remarks**
 
-After loading workbook from template file with this option, [FormulaSettings.PreservePaddingSpaces](/nodejs-cpp/formulasettings.preservepaddingspaces/) will be set to the same value with this property.
+After loading workbook from template file with this option, [FormulaSettings.PreservePaddingSpaces](../formulasettings.preservepaddingspaces/) will be set to the same value with this property.
 
 ### setPaperSize(PaperSizeType) {#setPaperSize-papersizetype-}
 
@@ -1042,7 +1042,7 @@ setPaperSize(type: PaperSizeType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | [PaperSizeType](/nodejs-cpp/papersizetype/) | The default paper size. |
+| type | [PaperSizeType](../papersizetype/) | The default paper size. |
 
 **Remarks**
 
@@ -1059,7 +1059,7 @@ getEncoding() : EncodingType;
 
 **Returns**
 
-[EncodingType](/nodejs-cpp/encodingtype/)
+[EncodingType](../encodingtype/)
 
 ### setEncoding(EncodingType) {#setEncoding-encodingtype-}
 
@@ -1072,7 +1072,7 @@ setEncoding(value: EncodingType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [EncodingType](/nodejs-cpp/encodingtype/) | The value to set. |
+| value | [EncodingType](../encodingtype/) | The value to set. |
 
 ### getLoadStyleStrategy() {#getLoadStyleStrategy--}
 
@@ -1085,7 +1085,7 @@ getLoadStyleStrategy() : TxtLoadStyleStrategy;
 
 **Returns**
 
-[TxtLoadStyleStrategy](/nodejs-cpp/txtloadstylestrategy/)
+[TxtLoadStyleStrategy](../txtloadstylestrategy/)
 
 ### setLoadStyleStrategy(TxtLoadStyleStrategy) {#setLoadStyleStrategy-txtloadstylestrategy-}
 
@@ -1098,7 +1098,7 @@ setLoadStyleStrategy(value: TxtLoadStyleStrategy) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [TxtLoadStyleStrategy](/nodejs-cpp/txtloadstylestrategy/) | The value to set. |
+| value | [TxtLoadStyleStrategy](../txtloadstylestrategy/) | The value to set. |
 
 ### getConvertNumericData() {#getConvertNumericData--}
 

@@ -45,8 +45,8 @@ class Font;
 | [setSize(number)](#setSize-number-)| Gets or sets the size of the font. |
 | [getThemeColor()](#getThemeColor--)| Gets and sets the theme color. |
 | [setThemeColor(ThemeColor)](#setThemeColor-themecolor-)| Gets and sets the theme color. |
-| [getColor()](#getColor--)| Gets or sets the [System.Drawing.Color](/nodejs-cpp/system.drawing.color/) of the font. |
-| [setColor(Color)](#setColor-color-)| Gets or sets the [System.Drawing.Color](/nodejs-cpp/system.drawing.color/) of the font. |
+| [getColor()](#getColor--)| Gets or sets the [System.Drawing.Color](../system.drawing.color/) of the font. |
+| [setColor(Color)](#setColor-color-)| Gets or sets the [System.Drawing.Color](../system.drawing.color/) of the font. |
 | [getArgbColor()](#getArgbColor--)| Gets and sets the color with a 32-bit ARGB value. |
 | [setArgbColor(number)](#setArgbColor-number-)| Gets and sets the color with a 32-bit ARGB value. |
 | [isNormalizeHeights()](#isNormalizeHeights--)| Indicates whether the normalization of height that is to be applied to the text run. |
@@ -55,8 +55,8 @@ class Font;
 | [setSchemeType(FontSchemeType)](#setSchemeType-fontschemetype-)| Gets and sets the scheme type of the font. |
 | [equals(Font)](#equals-font-)| Checks if two fonts are equals. |
 | [toString()](#toString--)| Returns a string represents the current Cell object. |
-| [getName()](#getName--)| Gets  or sets the name of the [Font](/nodejs-cpp/font/). |
-| [setName(string)](#setName-string-)| Gets  or sets the name of the [Font](/nodejs-cpp/font/). |
+| [getName()](#getName--)| Gets  or sets the name of the [Font](../font/). |
+| [setName(string)](#setName-string-)| Gets  or sets the name of the [Font](../font/). |
 
 
 ### getCharset() {#getCharset--}
@@ -136,7 +136,7 @@ getCapsType() : TextCapsType;
 
 **Returns**
 
-[TextCapsType](/nodejs-cpp/textcapstype/)
+[TextCapsType](../textcapstype/)
 
 ### setCapsType(TextCapsType) {#setCapsType-textcapstype-}
 
@@ -149,7 +149,7 @@ setCapsType(value: TextCapsType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [TextCapsType](/nodejs-cpp/textcapstype/) | The value to set. |
+| value | [TextCapsType](../textcapstype/) | The value to set. |
 
 ### getStrikeType() {#getStrikeType--}
 
@@ -162,7 +162,7 @@ getStrikeType() : TextStrikeType;
 
 **Returns**
 
-[TextStrikeType](/nodejs-cpp/textstriketype/)
+[TextStrikeType](../textstriketype/)
 
 ### setStrikeType(TextStrikeType) {#setStrikeType-textstriketype-}
 
@@ -175,7 +175,7 @@ setStrikeType(value: TextStrikeType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [TextStrikeType](/nodejs-cpp/textstriketype/) | The value to set. |
+| value | [TextStrikeType](../textstriketype/) | The value to set. |
 
 ### isStrikeout() {#isStrikeout--}
 
@@ -276,7 +276,7 @@ getUnderline() : FontUnderlineType;
 
 **Returns**
 
-[FontUnderlineType](/nodejs-cpp/fontunderlinetype/)
+[FontUnderlineType](../fontunderlinetype/)
 
 ### setUnderline(FontUnderlineType) {#setUnderline-fontunderlinetype-}
 
@@ -289,7 +289,7 @@ setUnderline(value: FontUnderlineType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [FontUnderlineType](/nodejs-cpp/fontunderlinetype/) | The value to set. |
+| value | [FontUnderlineType](../fontunderlinetype/) | The value to set. |
 
 ### getDoubleSize() {#getDoubleSize--}
 
@@ -346,7 +346,7 @@ getThemeColor() : ThemeColor;
 
 **Returns**
 
-[ThemeColor](/nodejs-cpp/themecolor/)
+[ThemeColor](../themecolor/)
 
 **Remarks**
 
@@ -363,7 +363,7 @@ setThemeColor(value: ThemeColor) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ThemeColor](/nodejs-cpp/themecolor/) | The value to set. |
+| value | [ThemeColor](../themecolor/) | The value to set. |
 
 **Remarks**
 
@@ -371,7 +371,7 @@ If the font color is not a theme color, NULL will be returned.
 
 ### getColor() {#getColor--}
 
-Gets or sets the [System.Drawing.Color](/nodejs-cpp/system.drawing.color/) of the font.
+Gets or sets the [System.Drawing.Color](../system.drawing.color/) of the font.
 
 ```javascript
 getColor() : Color;
@@ -380,11 +380,11 @@ getColor() : Color;
 
 **Returns**
 
-[Color](/nodejs-cpp/color/)
+[Color](../color/)
 
 ### setColor(Color) {#setColor-color-}
 
-Gets or sets the [System.Drawing.Color](/nodejs-cpp/system.drawing.color/) of the font.
+Gets or sets the [System.Drawing.Color](../system.drawing.color/) of the font.
 
 ```javascript
 setColor(value: Color) : void;
@@ -393,7 +393,7 @@ setColor(value: Color) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [Color](/nodejs-cpp/color/) | The value to set. |
+| value | [Color](../color/) | The value to set. |
 
 ### getArgbColor() {#getArgbColor--}
 
@@ -450,7 +450,7 @@ getSchemeType() : FontSchemeType;
 
 **Returns**
 
-[FontSchemeType](/nodejs-cpp/fontschemetype/)
+[FontSchemeType](../fontschemetype/)
 
 ### setSchemeType(FontSchemeType) {#setSchemeType-fontschemetype-}
 
@@ -463,7 +463,7 @@ setSchemeType(value: FontSchemeType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [FontSchemeType](/nodejs-cpp/fontschemetype/) | The value to set. |
+| value | [FontSchemeType](../fontschemetype/) | The value to set. |
 
 ### equals(Font) {#equals-font-}
 
@@ -476,7 +476,7 @@ equals(font: Font) : boolean;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| font | [Font](/nodejs-cpp/font/) | Compared font object. |
+| font | [Font](../font/) | Compared font object. |
 
 **Returns**
 
@@ -493,7 +493,7 @@ toString() : string;
 
 ### getName() {#getName--}
 
-Gets  or sets the name of the [Font](/nodejs-cpp/font/).
+Gets  or sets the name of the [Font](../font/).
 
 ```javascript
 getName() : string;
@@ -502,7 +502,7 @@ getName() : string;
 
 ### setName(string) {#setName-string-}
 
-Gets  or sets the name of the [Font](/nodejs-cpp/font/).
+Gets  or sets the name of the [Font](../font/).
 
 ```javascript
 setName(value: string) : void;

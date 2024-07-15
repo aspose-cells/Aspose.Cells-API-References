@@ -71,7 +71,7 @@ getChartSettings() : ChartGlobalizationSettings;
 
 **Returns**
 
-[ChartGlobalizationSettings](/nodejs-cpp/chartglobalizationsettings/)
+[ChartGlobalizationSettings](../chartglobalizationsettings/)
 
 ### setChartSettings(ChartGlobalizationSettings) {#setChartSettings-chartglobalizationsettings-}
 
@@ -84,7 +84,7 @@ setChartSettings(value: ChartGlobalizationSettings) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ChartGlobalizationSettings](/nodejs-cpp/chartglobalizationsettings/) | The value to set. |
+| value | [ChartGlobalizationSettings](../chartglobalizationsettings/) | The value to set. |
 
 ### getPivotSettings() {#getPivotSettings--}
 
@@ -97,7 +97,7 @@ getPivotSettings() : PivotGlobalizationSettings;
 
 **Returns**
 
-[PivotGlobalizationSettings](/nodejs-cpp/pivotglobalizationsettings/)
+[PivotGlobalizationSettings](../pivotglobalizationsettings/)
 
 ### setPivotSettings(PivotGlobalizationSettings) {#setPivotSettings-pivotglobalizationsettings-}
 
@@ -110,7 +110,7 @@ setPivotSettings(value: PivotGlobalizationSettings) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [PivotGlobalizationSettings](/nodejs-cpp/pivotglobalizationsettings/) | The value to set. |
+| value | [PivotGlobalizationSettings](../pivotglobalizationsettings/) | The value to set. |
 
 ### getTotalName(ConsolidationFunction) {#getTotalName-consolidationfunction-}
 
@@ -123,7 +123,7 @@ getTotalName(functionType: ConsolidationFunction) : string;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| functionType | [ConsolidationFunction](/nodejs-cpp/consolidationfunction/) | The function type. |
+| functionType | [ConsolidationFunction](../consolidationfunction/) | The function type. |
 
 **Returns**
 
@@ -140,7 +140,7 @@ getGrandTotalName(functionType: ConsolidationFunction) : string;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| functionType | [ConsolidationFunction](/nodejs-cpp/consolidationfunction/) | The function type. |
+| functionType | [ConsolidationFunction](../consolidationfunction/) | The function type. |
 
 **Returns**
 
@@ -161,7 +161,7 @@ the default sheet name for adding worksheet automatically
 
 **Remarks**
 
-The automatically added(such as by [WorksheetCollection.Add()](/nodejs-cpp/worksheetcollection.add()/)) sheet's name will be the specified name plus sequence number. For example, for Germany user maybe wants the sheet name to be "Tabellenblatt2" instead of "Sheet2". Then user may implement this method to return "Tabellenblatt".
+The automatically added(such as by [WorksheetCollection.Add()](../worksheetcollection.add()/)) sheet's name will be the specified name plus sequence number. For example, for Germany user maybe wants the sheet name to be "Tabellenblatt2" instead of "Sheet2". Then user may implement this method to return "Tabellenblatt".
 
 ### getTableRowTypeOfHeaders() {#getTableRowTypeOfHeaders--}
 
@@ -358,7 +358,7 @@ getCommentTitleName(type: CommentTitleType) : string;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | [CommentTitleType](/nodejs-cpp/commenttitletype/) |  |
+| type | [CommentTitleType](../commenttitletype/) |  |
 
 ### compare(string, string, boolean) {#compare-string-string-boolean-}
 

@@ -40,7 +40,7 @@ get(index: number) : PivotFilter;
 
 **Returns**
 
-[PivotFilter](/nodejs-cpp/pivotfilter/)
+[PivotFilter](../pivotfilter/)
 
 ### add(number, PivotFilterType) {#add-number-pivotfiltertype-}
 
@@ -54,7 +54,7 @@ add(fieldIndex: number, type: PivotFilterType) : number;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fieldIndex | number | the PivotField index |
-| type | [PivotFilterType](/nodejs-cpp/pivotfiltertype/) | the PivotFilter type |
+| type | [PivotFilterType](../pivotfiltertype/) | the PivotFilter type |
 
 **Returns**
 

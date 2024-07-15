@@ -65,7 +65,7 @@ getMinCfvo() : ConditionalFormattingValue;
 
 **Returns**
 
-[ConditionalFormattingValue](/nodejs-cpp/conditionalformattingvalue/)
+[ConditionalFormattingValue](../conditionalformattingvalue/)
 
 ### getMidCfvo() {#getMidCfvo--}
 
@@ -78,7 +78,7 @@ getMidCfvo() : ConditionalFormattingValue;
 
 **Returns**
 
-[ConditionalFormattingValue](/nodejs-cpp/conditionalformattingvalue/)
+[ConditionalFormattingValue](../conditionalformattingvalue/)
 
 ### getMaxCfvo() {#getMaxCfvo--}
 
@@ -91,7 +91,7 @@ getMaxCfvo() : ConditionalFormattingValue;
 
 **Returns**
 
-[ConditionalFormattingValue](/nodejs-cpp/conditionalformattingvalue/)
+[ConditionalFormattingValue](../conditionalformattingvalue/)
 
 ### getMinColor() {#getMinColor--}
 
@@ -104,7 +104,7 @@ getMinColor() : Color;
 
 **Returns**
 
-[Color](/nodejs-cpp/color/)
+[Color](../color/)
 
 ### setMinColor(Color) {#setMinColor-color-}
 
@@ -117,7 +117,7 @@ setMinColor(value: Color) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [Color](/nodejs-cpp/color/) | The value to set. |
+| value | [Color](../color/) | The value to set. |
 
 ### getMidColor() {#getMidColor--}
 
@@ -130,7 +130,7 @@ getMidColor() : Color;
 
 **Returns**
 
-[Color](/nodejs-cpp/color/)
+[Color](../color/)
 
 ### setMidColor(Color) {#setMidColor-color-}
 
@@ -143,7 +143,7 @@ setMidColor(value: Color) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [Color](/nodejs-cpp/color/) | The value to set. |
+| value | [Color](../color/) | The value to set. |
 
 ### getMaxColor() {#getMaxColor--}
 
@@ -156,7 +156,7 @@ getMaxColor() : Color;
 
 **Returns**
 
-[Color](/nodejs-cpp/color/)
+[Color](../color/)
 
 ### setMaxColor(Color) {#setMaxColor-color-}
 
@@ -169,6 +169,6 @@ setMaxColor(value: Color) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [Color](/nodejs-cpp/color/) | The value to set. |
+| value | [Color](../color/) | The value to set. |
 
 

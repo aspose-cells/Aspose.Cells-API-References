@@ -82,7 +82,7 @@ getAcitvePaneType() : RectangleAlignmentType;
 
 **Returns**
 
-[RectangleAlignmentType](/nodejs-cpp/rectanglealignmenttype/)
+[RectangleAlignmentType](../rectanglealignmenttype/)
 
 ### setAcitvePaneType(RectangleAlignmentType) {#setAcitvePaneType-rectanglealignmenttype-}
 
@@ -95,6 +95,6 @@ setAcitvePaneType(value: RectangleAlignmentType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [RectangleAlignmentType](/nodejs-cpp/rectanglealignmenttype/) | The value to set. |
+| value | [RectangleAlignmentType](../rectanglealignmenttype/) | The value to set. |
 
 

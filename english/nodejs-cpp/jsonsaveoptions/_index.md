@@ -104,11 +104,11 @@ getExportHyperlinkType() : JsonExportHyperlinkType;
 
 **Returns**
 
-[JsonExportHyperlinkType](/nodejs-cpp/jsonexporthyperlinktype/)
+[JsonExportHyperlinkType](../jsonexporthyperlinktype/)
 
 **Remarks**
 
-The default value is [JsonExportHyperlinkType.DisplayString](/nodejs-cpp/jsonexporthyperlinktype.displaystring/);
+The default value is [JsonExportHyperlinkType.DisplayString](../jsonexporthyperlinktype.displaystring/);
 
 ### setExportHyperlinkType(JsonExportHyperlinkType) {#setExportHyperlinkType-jsonexporthyperlinktype-}
 
@@ -121,11 +121,11 @@ setExportHyperlinkType(value: JsonExportHyperlinkType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [JsonExportHyperlinkType](/nodejs-cpp/jsonexporthyperlinktype/) | The value to set. |
+| value | [JsonExportHyperlinkType](../jsonexporthyperlinktype/) | The value to set. |
 
 **Remarks**
 
-The default value is [JsonExportHyperlinkType.DisplayString](/nodejs-cpp/jsonexporthyperlinktype.displaystring/);
+The default value is [JsonExportHyperlinkType.DisplayString](../jsonexporthyperlinktype.displaystring/);
 
 ### getSkipEmptyRows() {#getSkipEmptyRows--}
 
@@ -186,7 +186,7 @@ getExportArea() : CellArea;
 
 **Returns**
 
-[CellArea](/nodejs-cpp/cellarea/)
+[CellArea](../cellarea/)
 
 ### setExportArea(CellArea) {#setExportArea-cellarea-}
 
@@ -199,7 +199,7 @@ setExportArea(value: CellArea) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [CellArea](/nodejs-cpp/cellarea/) | The value to set. |
+| value | [CellArea](../cellarea/) | The value to set. |
 
 ### getHasHeaderRow() {#getHasHeaderRow--}
 
@@ -382,7 +382,7 @@ getSaveFormat() : SaveFormat;
 
 **Returns**
 
-[SaveFormat](/nodejs-cpp/saveformat/)
+[SaveFormat](../saveformat/)
 
 ### getClearData() {#getClearData--}
 
@@ -595,7 +595,7 @@ setWarningCallback(value: IWarningCallback) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IWarningCallback](/nodejs-cpp/iwarningcallback/) | The value to set. |
+| value | [IWarningCallback](../iwarningcallback/) | The value to set. |
 
 ### getWarningCallback() {#getWarningCallback--}
 
@@ -608,7 +608,7 @@ getWarningCallback() : IWarningCallback;
 
 **Returns**
 
-[IWarningCallback](/nodejs-cpp/iwarningcallback/)
+[IWarningCallback](../iwarningcallback/)
 
 ### getUpdateSmartArt() {#getUpdateSmartArt--}
 

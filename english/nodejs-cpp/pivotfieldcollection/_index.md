@@ -44,7 +44,7 @@ get(index: number) : PivotField;
 
 **Returns**
 
-[PivotField](/nodejs-cpp/pivotfield/)
+[PivotField](../pivotfield/)
 
 ### getType() {#getType--}
 
@@ -57,7 +57,7 @@ getType() : PivotFieldType;
 
 **Returns**
 
-[PivotFieldType](/nodejs-cpp/pivotfieldtype/)
+[PivotFieldType](../pivotfieldtype/)
 
 ### getCount() {#getCount--}
 
@@ -109,7 +109,7 @@ add(pivotField: PivotField) : number;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pivotField | [PivotField](/nodejs-cpp/pivotfield/) | a PivotField Object. |
+| pivotField | [PivotField](../pivotfield/) | a PivotField Object. |
 
 **Returns**
 

@@ -40,7 +40,7 @@ get(index: number) : CustomXmlPart;
 
 **Returns**
 
-[CustomXmlPart](/nodejs-cpp/customxmlpart/)
+[CustomXmlPart](../customxmlpart/)
 
 ### add(number[], number[]) {#add-numberarray-numberarray-}
 
@@ -71,7 +71,7 @@ selectByID(id: string) : CustomXmlPart;
 
 **Returns**
 
-[CustomXmlPart](/nodejs-cpp/customxmlpart/)
+[CustomXmlPart](../customxmlpart/)
 
 ### getCount() {#getCount--}
 

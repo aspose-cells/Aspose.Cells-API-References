@@ -19,7 +19,7 @@ class RevisionLogCollection;
 
 | Method | Description |
 | --- | --- |
-| [get(number)](#get-number-)| Gets [RevisionLog](/nodejs-cpp/revisionlog/) by index. |
+| [get(number)](#get-number-)| Gets [RevisionLog](../revisionlog/) by index. |
 | [getDaysPreservingHistory()](#getDaysPreservingHistory--)| Gets and sets the number of days the spreadsheet application will keep the change history for this workbook. |
 | [setDaysPreservingHistory(number)](#setDaysPreservingHistory-number-)| Gets and sets the number of days the spreadsheet application will keep the change history for this workbook. |
 | [highlightChanges(HighlightChangesOptions)](#highlightChanges-highlightchangesoptions-)| Highlights changes of shared workbook. |
@@ -28,7 +28,7 @@ class RevisionLogCollection;
 
 ### get(number) {#get-number-}
 
-Gets [RevisionLog](/nodejs-cpp/revisionlog/) by index.
+Gets [RevisionLog](../revisionlog/) by index.
 
 ```javascript
 get(index: number) : RevisionLog;
@@ -41,7 +41,7 @@ get(index: number) : RevisionLog;
 
 **Returns**
 
-Returns [RevisionLog](/nodejs-cpp/revisionlog/) object.
+Returns [RevisionLog](../revisionlog/) object.
 
 ### getDaysPreservingHistory() {#getDaysPreservingHistory--}
 
@@ -76,7 +76,7 @@ highlightChanges(options: HighlightChangesOptions) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| options | [HighlightChangesOptions](/nodejs-cpp/highlightchangesoptions/) | Set the options for filtering which changes should be tracked. |
+| options | [HighlightChangesOptions](../highlightchangesoptions/) | Set the options for filtering which changes should be tracked. |
 
 ### getCount() {#getCount--}
 

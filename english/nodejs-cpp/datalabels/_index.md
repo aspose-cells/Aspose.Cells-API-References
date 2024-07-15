@@ -73,7 +73,7 @@ class DataLabels extends ChartTextFrame;
 | [setIsInnerMode(boolean)](#setIsInnerMode-boolean-)| Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. |
 | [getShadow()](#getShadow--)| True if the frame has a shadow. |
 | [setShadow(boolean)](#setShadow-boolean-)| True if the frame has a shadow. |
-| [getShapeProperties()](#getShapeProperties--)| Gets the [ShapeProperties](/nodejs-cpp/shapeproperties/) object. |
+| [getShapeProperties()](#getShapeProperties--)| Gets the [ShapeProperties](../shapeproperties/) object. |
 | [isDefaultPosBeSet()](#isDefaultPosBeSet--)| Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set. |
 | [getDefaultX()](#getDefaultX--)| Represents x of default position |
 | [getDefaultY()](#getDefaultY--)| Represents y of default position |
@@ -135,7 +135,7 @@ getBorder() : Line;
 
 **Returns**
 
-[Line](/nodejs-cpp/line/)
+[Line](../line/)
 
 ### getArea() {#getArea--}
 
@@ -148,7 +148,7 @@ getArea() : Area;
 
 **Returns**
 
-[Area](/nodejs-cpp/area/)
+[Area](../area/)
 
 ### isAutoText() {#isAutoText--}
 
@@ -183,7 +183,7 @@ getDirectionType() : ChartTextDirectionType;
 
 **Returns**
 
-[ChartTextDirectionType](/nodejs-cpp/charttextdirectiontype/)
+[ChartTextDirectionType](../charttextdirectiontype/)
 
 ### setDirectionType(ChartTextDirectionType) {#setDirectionType-charttextdirectiontype-}
 
@@ -196,7 +196,7 @@ setDirectionType(value: ChartTextDirectionType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ChartTextDirectionType](/nodejs-cpp/charttextdirectiontype/) | The value to set. |
+| value | [ChartTextDirectionType](../charttextdirectiontype/) | The value to set. |
 
 ### getText() {#getText--}
 
@@ -253,7 +253,7 @@ getBackgroundMode() : BackgroundMode;
 
 **Returns**
 
-[BackgroundMode](/nodejs-cpp/backgroundmode/)
+[BackgroundMode](../backgroundmode/)
 
 ### setBackgroundMode(BackgroundMode) {#setBackgroundMode-backgroundmode-}
 
@@ -266,7 +266,7 @@ setBackgroundMode(value: BackgroundMode) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [BackgroundMode](/nodejs-cpp/backgroundmode/) | The value to set. |
+| value | [BackgroundMode](../backgroundmode/) | The value to set. |
 
 ### getShowValue() {#getShowValue--}
 
@@ -499,7 +499,7 @@ getFont() : Font;
 
 **Returns**
 
-[Font](/nodejs-cpp/font/)
+[Font](../font/)
 
 ### getSeparatorType() {#getSeparatorType--}
 
@@ -512,11 +512,11 @@ getSeparatorType() : DataLabelsSeparatorType;
 
 **Returns**
 
-[DataLabelsSeparatorType](/nodejs-cpp/datalabelsseparatortype/)
+[DataLabelsSeparatorType](../datalabelsseparatortype/)
 
 **Remarks**
 
-To set custom separator, please set  the property [DataLabels.SeparatorType](/nodejs-cpp/datalabels.separatortype/) as [DataLabels.SeparatorType](/nodejs-cpp/datalabels.separatortype/) and then specify the expected value for [DataLabels.SeparatorType](/nodejs-cpp/datalabels.separatortype/).
+To set custom separator, please set  the property [DataLabels.SeparatorType](../datalabels.separatortype/) as [DataLabels.SeparatorType](../datalabels.separatortype/) and then specify the expected value for [DataLabels.SeparatorType](../datalabels.separatortype/).
 
 ### setSeparatorType(DataLabelsSeparatorType) {#setSeparatorType-datalabelsseparatortype-}
 
@@ -529,11 +529,11 @@ setSeparatorType(value: DataLabelsSeparatorType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [DataLabelsSeparatorType](/nodejs-cpp/datalabelsseparatortype/) | The value to set. |
+| value | [DataLabelsSeparatorType](../datalabelsseparatortype/) | The value to set. |
 
 **Remarks**
 
-To set custom separator, please set  the property [DataLabels.SeparatorType](/nodejs-cpp/datalabels.separatortype/) as [DataLabels.SeparatorType](/nodejs-cpp/datalabels.separatortype/) and then specify the expected value for [DataLabels.SeparatorType](/nodejs-cpp/datalabels.separatortype/).
+To set custom separator, please set  the property [DataLabels.SeparatorType](../datalabels.separatortype/) as [DataLabels.SeparatorType](../datalabels.separatortype/) and then specify the expected value for [DataLabels.SeparatorType](../datalabels.separatortype/).
 
 ### getSeparatorValue() {#getSeparatorValue--}
 
@@ -568,7 +568,7 @@ getPosition() : LabelPositionType;
 
 **Returns**
 
-[LabelPositionType](/nodejs-cpp/labelpositiontype/)
+[LabelPositionType](../labelpositiontype/)
 
 ### setPosition(LabelPositionType) {#setPosition-labelpositiontype-}
 
@@ -581,7 +581,7 @@ setPosition(value: LabelPositionType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [LabelPositionType](/nodejs-cpp/labelpositiontype/) | The value to set. |
+| value | [LabelPositionType](../labelpositiontype/) | The value to set. |
 
 ### isNeverOverlap() {#isNeverOverlap--}
 
@@ -616,7 +616,7 @@ getShapeType() : DataLabelShapeType;
 
 **Returns**
 
-[DataLabelShapeType](/nodejs-cpp/datalabelshapetype/)
+[DataLabelShapeType](../datalabelshapetype/)
 
 ### setShapeType(DataLabelShapeType) {#setShapeType-datalabelshapetype-}
 
@@ -629,7 +629,7 @@ setShapeType(value: DataLabelShapeType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [DataLabelShapeType](/nodejs-cpp/datalabelshapetype/) | The value to set. |
+| value | [DataLabelShapeType](../datalabelshapetype/) | The value to set. |
 
 ### applyFont() {#applyFont--}
 
@@ -694,7 +694,7 @@ setShadow(value: boolean) : void;
 
 ### getShapeProperties() {#getShapeProperties--}
 
-Gets the [ShapeProperties](/nodejs-cpp/shapeproperties/) object.
+Gets the [ShapeProperties](../shapeproperties/) object.
 
 ```javascript
 getShapeProperties() : ShapePropertyCollection;
@@ -703,7 +703,7 @@ getShapeProperties() : ShapePropertyCollection;
 
 **Returns**
 
-[ShapePropertyCollection](/nodejs-cpp/shapepropertycollection/)
+[ShapePropertyCollection](../shapepropertycollection/)
 
 ### isDefaultPosBeSet() {#isDefaultPosBeSet--}
 
@@ -792,7 +792,7 @@ getTextHorizontalAlignment() : TextAlignmentType;
 
 **Returns**
 
-[TextAlignmentType](/nodejs-cpp/textalignmenttype/)
+[TextAlignmentType](../textalignmenttype/)
 
 ### setTextHorizontalAlignment(TextAlignmentType) {#setTextHorizontalAlignment-textalignmenttype-}
 
@@ -805,7 +805,7 @@ setTextHorizontalAlignment(value: TextAlignmentType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [TextAlignmentType](/nodejs-cpp/textalignmenttype/) | The value to set. |
+| value | [TextAlignmentType](../textalignmenttype/) | The value to set. |
 
 ### getTextVerticalAlignment() {#getTextVerticalAlignment--}
 
@@ -818,7 +818,7 @@ getTextVerticalAlignment() : TextAlignmentType;
 
 **Returns**
 
-[TextAlignmentType](/nodejs-cpp/textalignmenttype/)
+[TextAlignmentType](../textalignmenttype/)
 
 ### setTextVerticalAlignment(TextAlignmentType) {#setTextVerticalAlignment-textalignmenttype-}
 
@@ -831,7 +831,7 @@ setTextVerticalAlignment(value: TextAlignmentType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [TextAlignmentType](/nodejs-cpp/textalignmenttype/) | The value to set. |
+| value | [TextAlignmentType](../textalignmenttype/) | The value to set. |
 
 ### getRotationAngle() {#getRotationAngle--}
 
@@ -883,7 +883,7 @@ getReadingOrder() : TextDirectionType;
 
 **Returns**
 
-[TextDirectionType](/nodejs-cpp/textdirectiontype/)
+[TextDirectionType](../textdirectiontype/)
 
 ### setReadingOrder(TextDirectionType) {#setReadingOrder-textdirectiontype-}
 
@@ -896,7 +896,7 @@ setReadingOrder(value: TextDirectionType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [TextDirectionType](/nodejs-cpp/textdirectiontype/) | The value to set. |
+| value | [TextDirectionType](../textdirectiontype/) | The value to set. |
 
 ### isResizeShapeToFitText() {#isResizeShapeToFitText--}
 
@@ -949,7 +949,7 @@ getTextOptions() : TextOptions;
 
 **Returns**
 
-[TextOptions](/nodejs-cpp/textoptions/)
+[TextOptions](../textoptions/)
 
 ### getAutoScaleFont() {#getAutoScaleFont--}
 

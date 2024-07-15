@@ -71,7 +71,7 @@ getParentNode() : EquationNode;
 
 **Returns**
 
-[EquationNode](/nodejs-cpp/equationnode/)
+[EquationNode](../equationnode/)
 
 ### setParentNode(EquationNode) {#setParentNode-equationnode-}
 
@@ -84,7 +84,7 @@ setParentNode(value: EquationNode) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [EquationNode](/nodejs-cpp/equationnode/) | The value to set. |
+| value | [EquationNode](../equationnode/) | The value to set. |
 
 ### getType() {#getType--}
 
@@ -97,7 +97,7 @@ getType() : TextNodeType;
 
 **Returns**
 
-[TextNodeType](/nodejs-cpp/textnodetype/)
+[TextNodeType](../textnodetype/)
 
 ### getEquationType() {#getEquationType--}
 
@@ -110,7 +110,7 @@ getEquationType() : EquationNodeType;
 
 **Returns**
 
-[EquationNodeType](/nodejs-cpp/equationnodetype/)
+[EquationNodeType](../equationnodetype/)
 
 ### addChild(EquationNodeType) {#addChild-equationnodetype-}
 
@@ -123,7 +123,7 @@ addChild(equationType: EquationNodeType) : EquationNode;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| equationType | [EquationNodeType](/nodejs-cpp/equationnodetype/) | Types of Equation Nodes |
+| equationType | [EquationNodeType](../equationnodetype/) | Types of Equation Nodes |
 
 **Returns**
 
@@ -140,7 +140,7 @@ addChild(node: EquationNode) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| node | [EquationNode](/nodejs-cpp/equationnode/) | The specified node |
+| node | [EquationNode](../equationnode/) | The specified node |
 
 ### insertChild(number, EquationNodeType) {#insertChild-number-equationnodetype-}
 
@@ -154,7 +154,7 @@ insertChild(index: number, equationType: EquationNodeType) : EquationNode;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | number | index value |
-| equationType | [EquationNodeType](/nodejs-cpp/equationnodetype/) | Types of Equation Nodes |
+| equationType | [EquationNodeType](../equationnodetype/) | Types of Equation Nodes |
 
 **Returns**
 
@@ -171,7 +171,7 @@ insertAfter(equationType: EquationNodeType) : EquationNode;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| equationType | [EquationNodeType](/nodejs-cpp/equationnodetype/) | Types of Equation Nodes |
+| equationType | [EquationNodeType](../equationnodetype/) | Types of Equation Nodes |
 
 **Returns**
 
@@ -188,7 +188,7 @@ insertBefore(equationType: EquationNodeType) : EquationNode;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| equationType | [EquationNodeType](/nodejs-cpp/equationnodetype/) | Types of Equation Nodes |
+| equationType | [EquationNodeType](../equationnodetype/) | Types of Equation Nodes |
 
 **Returns**
 
@@ -231,7 +231,7 @@ removeChild(node: EquationNode) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| node | [EquationNode](/nodejs-cpp/equationnode/) | Node to be deleted. |
+| node | [EquationNode](../equationnode/) | Node to be deleted. |
 
 ### removeChild(number) {#removeChild-number-}
 
@@ -284,7 +284,7 @@ getFont() : Font;
 
 **Returns**
 
-[Font](/nodejs-cpp/font/)
+[Font](../font/)
 
 ### getTextOptions() {#getTextOptions--}
 
@@ -297,7 +297,7 @@ getTextOptions() : TextOptions;
 
 **Returns**
 
-[TextOptions](/nodejs-cpp/textoptions/)
+[TextOptions](../textoptions/)
 
 ### setWordArtStyle(PresetWordArtStyle) {#setWordArtStyle-presetwordartstyle-}
 
@@ -310,7 +310,7 @@ setWordArtStyle(style: PresetWordArtStyle) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| style | [PresetWordArtStyle](/nodejs-cpp/presetwordartstyle/) | The preset WordArt style. |
+| style | [PresetWordArtStyle](../presetwordartstyle/) | The preset WordArt style. |
 
 **Remarks**
 
@@ -327,9 +327,9 @@ static createNode(equationType: EquationNodeType, workbook: Workbook, parent: Eq
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| equationType | [EquationNodeType](/nodejs-cpp/equationnodetype/) | Types of Equation Nodes |
-| workbook | [Workbook](/nodejs-cpp/workbook/) | The workbook object associated with the equation |
-| parent | [EquationNode](/nodejs-cpp/equationnode/) | The parent node where this node is located |
+| equationType | [EquationNodeType](../equationnodetype/) | Types of Equation Nodes |
+| workbook | [Workbook](../workbook/) | The workbook object associated with the equation |
+| parent | [EquationNode](../equationnode/) | The parent node where this node is located |
 
 **Returns**
 

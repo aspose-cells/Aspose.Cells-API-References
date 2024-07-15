@@ -69,7 +69,7 @@ get(index: number) : CustomFilter;
 
 **Returns**
 
-[CustomFilter](/nodejs-cpp/customfilter/)
+[CustomFilter](../customfilter/)
 
 ### getAnd() {#getAnd--}
 

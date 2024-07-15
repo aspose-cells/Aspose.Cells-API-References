@@ -49,7 +49,7 @@ getExternalConnection() : ExternalConnection;
 
 **Returns**
 
-[ExternalConnection](/nodejs-cpp/externalconnection/)
+[ExternalConnection](../externalconnection/)
 
 ### getName() {#getName--}
 
@@ -71,7 +71,7 @@ getResultRange() : Range;
 
 **Returns**
 
-[Range](/nodejs-cpp/range/)
+[Range](../range/)
 
 ### getPreserveFormatting() {#getPreserveFormatting--}
 

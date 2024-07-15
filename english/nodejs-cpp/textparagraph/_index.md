@@ -90,7 +90,7 @@ getBullet() : Bullet;
 
 **Returns**
 
-[Bullet](/nodejs-cpp/bullet/)
+[Bullet](../bullet/)
 
 ### getType() {#getType--}
 
@@ -103,7 +103,7 @@ getType() : TextNodeType;
 
 **Returns**
 
-[TextNodeType](/nodejs-cpp/textnodetype/)
+[TextNodeType](../textnodetype/)
 
 ### getLineSpaceSizeType() {#getLineSpaceSizeType--}
 
@@ -116,7 +116,7 @@ getLineSpaceSizeType() : LineSpaceSizeType;
 
 **Returns**
 
-[LineSpaceSizeType](/nodejs-cpp/linespacesizetype/)
+[LineSpaceSizeType](../linespacesizetype/)
 
 ### setLineSpaceSizeType(LineSpaceSizeType) {#setLineSpaceSizeType-linespacesizetype-}
 
@@ -129,7 +129,7 @@ setLineSpaceSizeType(value: LineSpaceSizeType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [LineSpaceSizeType](/nodejs-cpp/linespacesizetype/) | The value to set. |
+| value | [LineSpaceSizeType](../linespacesizetype/) | The value to set. |
 
 ### getLineSpace() {#getLineSpace--}
 
@@ -164,7 +164,7 @@ getSpaceAfterSizeType() : LineSpaceSizeType;
 
 **Returns**
 
-[LineSpaceSizeType](/nodejs-cpp/linespacesizetype/)
+[LineSpaceSizeType](../linespacesizetype/)
 
 ### setSpaceAfterSizeType(LineSpaceSizeType) {#setSpaceAfterSizeType-linespacesizetype-}
 
@@ -177,7 +177,7 @@ setSpaceAfterSizeType(value: LineSpaceSizeType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [LineSpaceSizeType](/nodejs-cpp/linespacesizetype/) | The value to set. |
+| value | [LineSpaceSizeType](../linespacesizetype/) | The value to set. |
 
 ### getSpaceAfter() {#getSpaceAfter--}
 
@@ -212,7 +212,7 @@ getSpaceBeforeSizeType() : LineSpaceSizeType;
 
 **Returns**
 
-[LineSpaceSizeType](/nodejs-cpp/linespacesizetype/)
+[LineSpaceSizeType](../linespacesizetype/)
 
 ### setSpaceBeforeSizeType(LineSpaceSizeType) {#setSpaceBeforeSizeType-linespacesizetype-}
 
@@ -225,7 +225,7 @@ setSpaceBeforeSizeType(value: LineSpaceSizeType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [LineSpaceSizeType](/nodejs-cpp/linespacesizetype/) | The value to set. |
+| value | [LineSpaceSizeType](../linespacesizetype/) | The value to set. |
 
 ### getSpaceBefore() {#getSpaceBefore--}
 
@@ -260,7 +260,7 @@ getStops() : TextTabStopCollection;
 
 **Returns**
 
-[TextTabStopCollection](/nodejs-cpp/texttabstopcollection/)
+[TextTabStopCollection](../texttabstopcollection/)
 
 ### isLatinLineBreak() {#isLatinLineBreak--}
 
@@ -405,7 +405,7 @@ getFontAlignType() : TextFontAlignType;
 
 **Returns**
 
-[TextFontAlignType](/nodejs-cpp/textfontaligntype/)
+[TextFontAlignType](../textfontaligntype/)
 
 ### setFontAlignType(TextFontAlignType) {#setFontAlignType-textfontaligntype-}
 
@@ -418,7 +418,7 @@ setFontAlignType(value: TextFontAlignType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [TextFontAlignType](/nodejs-cpp/textfontaligntype/) | The value to set. |
+| value | [TextFontAlignType](../textfontaligntype/) | The value to set. |
 
 ### getAlignmentType() {#getAlignmentType--}
 
@@ -431,7 +431,7 @@ getAlignmentType() : TextAlignmentType;
 
 **Returns**
 
-[TextAlignmentType](/nodejs-cpp/textalignmenttype/)
+[TextAlignmentType](../textalignmenttype/)
 
 ### setAlignmentType(TextAlignmentType) {#setAlignmentType-textalignmenttype-}
 
@@ -444,7 +444,7 @@ setAlignmentType(value: TextAlignmentType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [TextAlignmentType](/nodejs-cpp/textalignmenttype/) | The value to set. |
+| value | [TextAlignmentType](../textalignmenttype/) | The value to set. |
 
 ### getDefaultTabSize() {#getDefaultTabSize--}
 
@@ -479,7 +479,7 @@ getChildren() : FontSetting[];
 
 **Returns**
 
-[FontSetting](/nodejs-cpp/fontsetting/)[]
+[FontSetting](../fontsetting/)[]
 
 ### getStartIndex() {#getStartIndex--}
 
@@ -510,7 +510,7 @@ getFont() : Font;
 
 **Returns**
 
-[Font](/nodejs-cpp/font/)
+[Font](../font/)
 
 ### getTextOptions() {#getTextOptions--}
 
@@ -523,7 +523,7 @@ getTextOptions() : TextOptions;
 
 **Returns**
 
-[TextOptions](/nodejs-cpp/textoptions/)
+[TextOptions](../textoptions/)
 
 ### setWordArtStyle(PresetWordArtStyle) {#setWordArtStyle-presetwordartstyle-}
 
@@ -536,7 +536,7 @@ setWordArtStyle(style: PresetWordArtStyle) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| style | [PresetWordArtStyle](/nodejs-cpp/presetwordartstyle/) | The preset WordArt style. |
+| style | [PresetWordArtStyle](../presetwordartstyle/) | The preset WordArt style. |
 
 **Remarks**
 

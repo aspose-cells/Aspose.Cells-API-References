@@ -42,7 +42,7 @@ class LabelActiveXControl extends ActiveXControl;
 | [setAccelerator(string)](#setAccelerator-string-)| Gets and sets the accelerator key for the control. |
 | [isWordWrapped()](#isWordWrapped--)| Indicates whether the contents of the control automatically wrap at the end of a line. |
 | [setIsWordWrapped(boolean)](#setIsWordWrapped-boolean-)| Indicates whether the contents of the control automatically wrap at the end of a line. |
-| [getWorkbook()](#getWorkbook--)| Gets the [Workbook](/nodejs-cpp/workbook/) object. |
+| [getWorkbook()](#getWorkbook--)| Gets the [Workbook](../workbook/) object. |
 | [getMouseIcon()](#getMouseIcon--)| Gets and sets a custom icon to display as the mouse pointer for the control. |
 | [setMouseIcon(number[])](#setMouseIcon-numberarray-)| Gets and sets a custom icon to display as the mouse pointer for the control. |
 | [getMousePointer()](#getMousePointer--)| Gets and sets the type of icon displayed as the mouse pointer for the control. |
@@ -103,7 +103,7 @@ getType() : ControlType;
 
 **Returns**
 
-[ControlType](/nodejs-cpp/controltype/)
+[ControlType](../controltype/)
 
 ### getCaption() {#getCaption--}
 
@@ -138,7 +138,7 @@ getPicturePosition() : ControlPicturePositionType;
 
 **Returns**
 
-[ControlPicturePositionType](/nodejs-cpp/controlpicturepositiontype/)
+[ControlPicturePositionType](../controlpicturepositiontype/)
 
 ### setPicturePosition(ControlPicturePositionType) {#setPicturePosition-controlpicturepositiontype-}
 
@@ -151,7 +151,7 @@ setPicturePosition(value: ControlPicturePositionType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ControlPicturePositionType](/nodejs-cpp/controlpicturepositiontype/) | The value to set. |
+| value | [ControlPicturePositionType](../controlpicturepositiontype/) | The value to set. |
 
 ### getBorderOleColor() {#getBorderOleColor--}
 
@@ -186,7 +186,7 @@ getBorderStyle() : ControlBorderType;
 
 **Returns**
 
-[ControlBorderType](/nodejs-cpp/controlbordertype/)
+[ControlBorderType](../controlbordertype/)
 
 ### setBorderStyle(ControlBorderType) {#setBorderStyle-controlbordertype-}
 
@@ -199,7 +199,7 @@ setBorderStyle(value: ControlBorderType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ControlBorderType](/nodejs-cpp/controlbordertype/) | The value to set. |
+| value | [ControlBorderType](../controlbordertype/) | The value to set. |
 
 ### getSpecialEffect() {#getSpecialEffect--}
 
@@ -212,7 +212,7 @@ getSpecialEffect() : ControlSpecialEffectType;
 
 **Returns**
 
-[ControlSpecialEffectType](/nodejs-cpp/controlspecialeffecttype/)
+[ControlSpecialEffectType](../controlspecialeffecttype/)
 
 ### setSpecialEffect(ControlSpecialEffectType) {#setSpecialEffect-controlspecialeffecttype-}
 
@@ -225,7 +225,7 @@ setSpecialEffect(value: ControlSpecialEffectType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ControlSpecialEffectType](/nodejs-cpp/controlspecialeffecttype/) | The value to set. |
+| value | [ControlSpecialEffectType](../controlspecialeffecttype/) | The value to set. |
 
 ### getPicture() {#getPicture--}
 
@@ -299,7 +299,7 @@ setIsWordWrapped(value: boolean) : void;
 
 ### getWorkbook() {#getWorkbook--}
 
-Gets the [Workbook](/nodejs-cpp/workbook/) object.
+Gets the [Workbook](../workbook/) object.
 
 ```javascript
 getWorkbook() : Workbook;
@@ -308,7 +308,7 @@ getWorkbook() : Workbook;
 
 **Returns**
 
-[Workbook](/nodejs-cpp/workbook/)
+[Workbook](../workbook/)
 
 ### getMouseIcon() {#getMouseIcon--}
 
@@ -347,7 +347,7 @@ getMousePointer() : ControlMousePointerType;
 
 **Returns**
 
-[ControlMousePointerType](/nodejs-cpp/controlmousepointertype/)
+[ControlMousePointerType](../controlmousepointertype/)
 
 ### setMousePointer(ControlMousePointerType) {#setMousePointer-controlmousepointertype-}
 
@@ -360,7 +360,7 @@ setMousePointer(value: ControlMousePointerType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ControlMousePointerType](/nodejs-cpp/controlmousepointertype/) | The value to set. |
+| value | [ControlMousePointerType](../controlmousepointertype/) | The value to set. |
 
 ### getLinkedCell() {#getLinkedCell--}
 
@@ -483,7 +483,7 @@ getIMEMode() : InputMethodEditorMode;
 
 **Returns**
 
-[InputMethodEditorMode](/nodejs-cpp/inputmethodeditormode/)
+[InputMethodEditorMode](../inputmethodeditormode/)
 
 ### setIMEMode(InputMethodEditorMode) {#setIMEMode-inputmethodeditormode-}
 
@@ -496,7 +496,7 @@ setIMEMode(value: InputMethodEditorMode) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [InputMethodEditorMode](/nodejs-cpp/inputmethodeditormode/) | The value to set. |
+| value | [InputMethodEditorMode](../inputmethodeditormode/) | The value to set. |
 
 ### getFont() {#getFont--}
 
@@ -509,7 +509,7 @@ getFont() : Font;
 
 **Returns**
 
-[Font](/nodejs-cpp/font/)
+[Font](../font/)
 
 ### getTextAlign() {#getTextAlign--}
 
@@ -522,7 +522,7 @@ getTextAlign() : TextAlignmentType;
 
 **Returns**
 
-[TextAlignmentType](/nodejs-cpp/textalignmenttype/)
+[TextAlignmentType](../textalignmenttype/)
 
 ### setTextAlign(TextAlignmentType) {#setTextAlign-textalignmenttype-}
 
@@ -535,7 +535,7 @@ setTextAlign(value: TextAlignmentType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [TextAlignmentType](/nodejs-cpp/textalignmenttype/) | The value to set. |
+| value | [TextAlignmentType](../textalignmenttype/) | The value to set. |
 
 ### getData() {#getData--}
 

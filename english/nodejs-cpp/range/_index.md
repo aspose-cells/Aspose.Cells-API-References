@@ -21,7 +21,7 @@ The Range class denotes a region of Excel spreadsheet. With this, you can format
 
 | Method | Description |
 | --- | --- |
-| [get(number, number)](#get-number-number-)| Gets [Cell](/nodejs-cpp/cell/) object in this range. |
+| [get(number, number)](#get-number-number-)| Gets [Cell](../cell/) object in this range. |
 | [getCurrentRegion()](#getCurrentRegion--)| Returns a Range object that represents the current region. The current region is a range bounded by any combination of blank rows and blank columns. |
 | [getHyperlinks()](#getHyperlinks--)| Gets all hyperlink in the range. |
 | [getRowCount()](#getRowCount--)| Gets the count of rows in the range. |
@@ -42,13 +42,13 @@ The Range class denotes a region of Excel spreadsheet. With this, you can format
 | [setRowHeight(number)](#setRowHeight-number-)| Sets or gets the height of rows in this range |
 | [getEntireColumn()](#getEntireColumn--)| Gets a Range object that represents the entire column (or columns) that contains the specified range. |
 | [getEntireRow()](#getEntireRow--)| Gets a Range object that represents the entire row (or rows) that contains the specified range. |
-| [getWorksheet()](#getWorksheet--)| Gets the [Worksheet](/nodejs-cpp/worksheet/)object which contains this range. |
+| [getWorksheet()](#getWorksheet--)| Gets the [Worksheet](../worksheet/)object which contains this range. |
 | [autoFill(Range)](#autoFill-range-)| Automaticall fill the target range. |
 | [autoFill(Range, AutoFillType)](#autoFill-range-autofilltype-)| Automaticall fill the target range. |
 | [addHyperlink(string, string, string)](#addHyperlink-string-string-string-)| Adds a hyperlink to a specified cell or a range of cells. |
 | [getEnumerator()](#getEnumerator--)| Gets the enumerator for cells in this Range. |
 | [isIntersect(Range)](#isIntersect-range-)| Indicates whether the range is intersect. |
-| [intersect(Range)](#intersect-range-)| Returns a [Range](/nodejs-cpp/range/) object that represents the rectangular intersection of two ranges. |
+| [intersect(Range)](#intersect-range-)| Returns a [Range](../range/) object that represents the rectangular intersection of two ranges. |
 | [unionRang(Range)](#unionRang-range-)| Returns the union result of two ranges. |
 | [unionRanges(Range[])](#unionRanges-rangearray-)| Returns the union result of two ranges. |
 | [isBlank()](#isBlank--)| Indicates whether the range contains values. |
@@ -71,8 +71,8 @@ The Range class denotes a region of Excel spreadsheet. With this, you can format
 | [copy(Range, PasteOptions)](#copy-range-pasteoptions-)| Copying the range with paste special options. |
 | [copy(Range)](#copy-range-)| Copies data (including formulas), formatting, drawing objects etc. from a source range. |
 | [transpose()](#transpose--)| Transpose (rotate) data from rows to columns or vice versa. |
-| [getCellOrNull(number, number)](#getCellOrNull-number-number-)| Gets [Cell](/nodejs-cpp/cell/) object or null in this range. |
-| [getOffset(number, number)](#getOffset-number-number-)| Gets [Range](/nodejs-cpp/range/) range by offset. |
+| [getCellOrNull(number, number)](#getCellOrNull-number-number-)| Gets [Cell](../cell/) object or null in this range. |
+| [getOffset(number, number)](#getOffset-number-number-)| Gets [Range](../range/) range by offset. |
 | [toString()](#toString--)| Returns a string represents the current Range object. |
 | [toImage(ImageOrPrintOptions)](#toImage-imageorprintoptions-)| Converts the range to image. |
 | [toJson(JsonSaveOptions)](#toJson-jsonsaveoptions-)| Convert the range to JSON value. |
@@ -81,7 +81,7 @@ The Range class denotes a region of Excel spreadsheet. With this, you can format
 
 ### get(number, number) {#get-number-number-}
 
-Gets [Cell](/nodejs-cpp/cell/) object in this range.
+Gets [Cell](../cell/) object in this range.
 
 ```javascript
 get(rowOffset: number, columnOffset: number) : Cell;
@@ -95,7 +95,7 @@ get(rowOffset: number, columnOffset: number) : Cell;
 
 **Returns**
 
-[Cell](/nodejs-cpp/cell/) object.
+[Cell](../cell/) object.
 
 ### getCurrentRegion() {#getCurrentRegion--}
 
@@ -108,7 +108,7 @@ getCurrentRegion() : Range;
 
 **Returns**
 
-[Range](/nodejs-cpp/range/)
+[Range](../range/)
 
 ### getHyperlinks() {#getHyperlinks--}
 
@@ -121,7 +121,7 @@ getHyperlinks() : Hyperlink[];
 
 **Returns**
 
-[Hyperlink](/nodejs-cpp/hyperlink/)[]
+[Hyperlink](../hyperlink/)[]
 
 ### getRowCount() {#getRowCount--}
 
@@ -298,7 +298,7 @@ getEntireColumn() : Range;
 
 **Returns**
 
-[Range](/nodejs-cpp/range/)
+[Range](../range/)
 
 ### getEntireRow() {#getEntireRow--}
 
@@ -311,11 +311,11 @@ getEntireRow() : Range;
 
 **Returns**
 
-[Range](/nodejs-cpp/range/)
+[Range](../range/)
 
 ### getWorksheet() {#getWorksheet--}
 
-Gets the [Worksheet](/nodejs-cpp/worksheet/)object which contains this range.
+Gets the [Worksheet](../worksheet/)object which contains this range.
 
 ```javascript
 getWorksheet() : Worksheet;
@@ -324,7 +324,7 @@ getWorksheet() : Worksheet;
 
 **Returns**
 
-[Worksheet](/nodejs-cpp/worksheet/)
+[Worksheet](../worksheet/)
 
 ### autoFill(Range) {#autoFill-range-}
 
@@ -337,7 +337,7 @@ autoFill(target: Range) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| target | [Range](/nodejs-cpp/range/) | the target range. |
+| target | [Range](../range/) | the target range. |
 
 ### autoFill(Range, AutoFillType) {#autoFill-range-autofilltype-}
 
@@ -350,8 +350,8 @@ autoFill(target: Range, autoFillType: AutoFillType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| target | [Range](/nodejs-cpp/range/) | The targed range. |
-| autoFillType | [AutoFillType](/nodejs-cpp/autofilltype/) | The auto fill type. |
+| target | [Range](../range/) | The targed range. |
+| autoFillType | [AutoFillType](../autofilltype/) | The auto fill type. |
 
 ### addHyperlink(string, string, string) {#addHyperlink-string-string-string-}
 
@@ -370,7 +370,7 @@ addHyperlink(address: string, textToDisplay: string, screenTip: string) : Hyperl
 
 **Returns**
 
-[Hyperlink](/nodejs-cpp/hyperlink/) object.
+[Hyperlink](../hyperlink/) object.
 
 ### getEnumerator() {#getEnumerator--}
 
@@ -400,7 +400,7 @@ isIntersect(range: Range) : boolean;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| range | [Range](/nodejs-cpp/range/) | The range. |
+| range | [Range](../range/) | The range. |
 
 **Returns**
 
@@ -412,7 +412,7 @@ If the two ranges area not in the same worksheet ,return false.
 
 ### intersect(Range) {#intersect-range-}
 
-Returns a [Range](/nodejs-cpp/range/) object that represents the rectangular intersection of two ranges.
+Returns a [Range](../range/) object that represents the rectangular intersection of two ranges.
 
 ```javascript
 intersect(range: Range) : Range;
@@ -421,11 +421,11 @@ intersect(range: Range) : Range;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| range | [Range](/nodejs-cpp/range/) | The intersecting range. |
+| range | [Range](../range/) | The intersecting range. |
 
 **Returns**
 
-Returns a [Range](/nodejs-cpp/range/) object
+Returns a [Range](../range/) object
 
 **Remarks**
 
@@ -442,7 +442,7 @@ unionRang(range: Range) : Range[];
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| range | [Range](/nodejs-cpp/range/) | The range |
+| range | [Range](../range/) | The range |
 
 **Returns**
 
@@ -463,7 +463,7 @@ unionRanges(ranges: Range[]) : UnionRange;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| ranges | [Range](/nodejs-cpp/range/)[] | The range |
+| ranges | [Range](../range/)[] | The range |
 
 **Returns**
 
@@ -526,7 +526,7 @@ setStyle(style: Style, explicitFlag: boolean) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| style | [Style](/nodejs-cpp/style/) | The cell style. |
+| style | [Style](../style/) | The cell style. |
 | explicitFlag | boolean | True, only overwriting formatting which is explicitly set. |
 
 ### setStyle(Style) {#setStyle-style-}
@@ -540,7 +540,7 @@ setStyle(style: Style) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| style | [Style](/nodejs-cpp/style/) | The Style object. |
+| style | [Style](../style/) | The Style object. |
 
 ### applyStyle(Style, StyleFlag) {#applyStyle-style-styleflag-}
 
@@ -553,12 +553,12 @@ applyStyle(style: Style, flag: StyleFlag) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| style | [Style](/nodejs-cpp/style/) | The style object which will be applied. |
-| flag | [StyleFlag](/nodejs-cpp/styleflag/) | Flags which indicates applied formatting properties. |
+| style | [Style](../style/) | The style object which will be applied. |
+| flag | [StyleFlag](../styleflag/) | Flags which indicates applied formatting properties. |
 
 **Remarks**
 
-Each cell in this range will contains a [Style](/nodejs-cpp/style/) object. So this is a memory-consuming method. Please use it carefully.
+Each cell in this range will contains a [Style](../style/) object. So this is a memory-consuming method. Please use it carefully.
 
 ### setOutlineBorders(CellBorderType, CellsColor) {#setOutlineBorders-cellbordertype-cellscolor-}
 
@@ -571,8 +571,8 @@ setOutlineBorders(borderStyle: CellBorderType, borderColor: CellsColor) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| borderStyle | [CellBorderType](/nodejs-cpp/cellbordertype/) | Border style. |
-| borderColor | [CellsColor](/nodejs-cpp/cellscolor/) | Border color. |
+| borderStyle | [CellBorderType](../cellbordertype/) | Border style. |
+| borderColor | [CellsColor](../cellscolor/) | Border color. |
 
 ### setOutlineBorders(CellBorderType, Color) {#setOutlineBorders-cellbordertype-color-}
 
@@ -585,8 +585,8 @@ setOutlineBorders(borderStyle: CellBorderType, borderColor: Color) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| borderStyle | [CellBorderType](/nodejs-cpp/cellbordertype/) | Border style. |
-| borderColor | [Color](/nodejs-cpp/color/) | Border color. |
+| borderStyle | [CellBorderType](../cellbordertype/) | Border style. |
+| borderColor | [Color](../color/) | Border color. |
 
 ### setOutlineBorders(CellBorderType[], Color[]) {#setOutlineBorders-cellbordertypearray-colorarray-}
 
@@ -599,8 +599,8 @@ setOutlineBorders(borderStyles: CellBorderType[], borderColors: Color[]) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| borderStyles | [CellBorderType](/nodejs-cpp/cellbordertype/)[] | Border styles. |
-| borderColors | [Color](/nodejs-cpp/color/)[] | Border colors. |
+| borderStyles | [CellBorderType](../cellbordertype/)[] | Border styles. |
+| borderColors | [Color](../color/)[] | Border colors. |
 
 **Remarks**
 
@@ -617,9 +617,9 @@ setOutlineBorder(borderEdge: BorderType, borderStyle: CellBorderType, borderColo
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| borderEdge | [BorderType](/nodejs-cpp/bordertype/) | Border edge. |
-| borderStyle | [CellBorderType](/nodejs-cpp/cellbordertype/) | Border style. |
-| borderColor | [CellsColor](/nodejs-cpp/cellscolor/) | Border color. |
+| borderEdge | [BorderType](../bordertype/) | Border edge. |
+| borderStyle | [CellBorderType](../cellbordertype/) | Border style. |
+| borderColor | [CellsColor](../cellscolor/) | Border color. |
 
 ### setOutlineBorder(BorderType, CellBorderType, Color) {#setOutlineBorder-bordertype-cellbordertype-color-}
 
@@ -632,9 +632,9 @@ setOutlineBorder(borderEdge: BorderType, borderStyle: CellBorderType, borderColo
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| borderEdge | [BorderType](/nodejs-cpp/bordertype/) | Border edge. |
-| borderStyle | [CellBorderType](/nodejs-cpp/cellbordertype/) | Border style. |
-| borderColor | [Color](/nodejs-cpp/color/) | Border color. |
+| borderEdge | [BorderType](../bordertype/) | Border edge. |
+| borderStyle | [CellBorderType](../cellbordertype/) | Border style. |
+| borderColor | [Color](../color/) | Border color. |
 
 ### setInsideBorders(BorderType, CellBorderType, CellsColor) {#setInsideBorders-bordertype-cellbordertype-cellscolor-}
 
@@ -647,9 +647,9 @@ setInsideBorders(borderEdge: BorderType, lineStyle: CellBorderType, borderColor:
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| borderEdge | [BorderType](/nodejs-cpp/bordertype/) | Inside borde type, only can be [BorderType.Vertical](/nodejs-cpp/bordertype.vertical/) and [BorderType.Vertical](/nodejs-cpp/bordertype.vertical/). |
-| lineStyle | [CellBorderType](/nodejs-cpp/cellbordertype/) | The border style. |
-| borderColor | [CellsColor](/nodejs-cpp/cellscolor/) | The color of the border. |
+| borderEdge | [BorderType](../bordertype/) | Inside borde type, only can be [BorderType.Vertical](../bordertype.vertical/) and [BorderType.Vertical](../bordertype.vertical/). |
+| lineStyle | [CellBorderType](../cellbordertype/) | The border style. |
+| borderColor | [CellsColor](../cellscolor/) | The color of the border. |
 
 ### moveTo(number, number) {#moveTo-number-number-}
 
@@ -676,7 +676,7 @@ copyData(range: Range) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| range | [Range](/nodejs-cpp/range/) | Source [Range](/nodejs-cpp/range/) object. |
+| range | [Range](../range/) | Source [Range](../range/) object. |
 
 ### copyValue(Range) {#copyValue-range-}
 
@@ -689,7 +689,7 @@ copyValue(range: Range) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| range | [Range](/nodejs-cpp/range/) | Source [Range](/nodejs-cpp/range/) object. |
+| range | [Range](../range/) | Source [Range](../range/) object. |
 
 ### copyStyle(Range) {#copyStyle-range-}
 
@@ -702,7 +702,7 @@ copyStyle(range: Range) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| range | [Range](/nodejs-cpp/range/) | Source [Range](/nodejs-cpp/range/) object. |
+| range | [Range](../range/) | Source [Range](../range/) object. |
 
 ### copy(Range, PasteOptions) {#copy-range-pasteoptions-}
 
@@ -715,8 +715,8 @@ copy(range: Range, options: PasteOptions) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| range | [Range](/nodejs-cpp/range/) | The source range. |
-| options | [PasteOptions](/nodejs-cpp/pasteoptions/) | The paste special options. |
+| range | [Range](../range/) | The source range. |
+| options | [PasteOptions](../pasteoptions/) | The paste special options. |
 
 ### copy(Range) {#copy-range-}
 
@@ -729,7 +729,7 @@ copy(range: Range) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| range | [Range](/nodejs-cpp/range/) | Source [Range](/nodejs-cpp/range/) object. |
+| range | [Range](../range/) | Source [Range](../range/) object. |
 
 ### transpose() {#transpose--}
 
@@ -742,7 +742,7 @@ transpose() : void;
 
 ### getCellOrNull(number, number) {#getCellOrNull-number-number-}
 
-Gets [Cell](/nodejs-cpp/cell/) object or null in this range.
+Gets [Cell](../cell/) object or null in this range.
 
 ```javascript
 getCellOrNull(rowOffset: number, columnOffset: number) : Cell;
@@ -756,11 +756,11 @@ getCellOrNull(rowOffset: number, columnOffset: number) : Cell;
 
 **Returns**
 
-[Cell](/nodejs-cpp/cell/) object.
+[Cell](../cell/) object.
 
 ### getOffset(number, number) {#getOffset-number-number-}
 
-Gets [Range](/nodejs-cpp/range/) range by offset.
+Gets [Range](../range/) range by offset.
 
 ```javascript
 getOffset(rowOffset: number, columnOffset: number) : Range;
@@ -774,7 +774,7 @@ getOffset(rowOffset: number, columnOffset: number) : Range;
 
 **Returns**
 
-[Range](/nodejs-cpp/range/)
+[Range](../range/)
 
 ### toString() {#toString--}
 
@@ -796,7 +796,7 @@ toImage(options: ImageOrPrintOptions) : number[];
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| options | [ImageOrPrintOptions](/nodejs-cpp/imageorprintoptions/) | The options for converting this range to image |
+| options | [ImageOrPrintOptions](../imageorprintoptions/) | The options for converting this range to image |
 
 **Returns**
 
@@ -813,7 +813,7 @@ toJson(options: JsonSaveOptions) : string;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| options | [JsonSaveOptions](/nodejs-cpp/jsonsaveoptions/) | The options of converting |
+| options | [JsonSaveOptions](../jsonsaveoptions/) | The options of converting |
 
 ### toHtml(HtmlSaveOptions) {#toHtml-htmlsaveoptions-}
 
@@ -826,7 +826,7 @@ toHtml(saveOptions: HtmlSaveOptions) : number[];
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| saveOptions | [HtmlSaveOptions](/nodejs-cpp/htmlsaveoptions/) | Options for coverting range to html. |
+| saveOptions | [HtmlSaveOptions](../htmlsaveoptions/) | Options for coverting range to html. |
 
 **Returns**
 

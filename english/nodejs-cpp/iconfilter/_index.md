@@ -55,7 +55,7 @@ getIconSetType() : IconSetType;
 
 **Returns**
 
-[IconSetType](/nodejs-cpp/iconsettype/)
+[IconSetType](../iconsettype/)
 
 ### setIconSetType(IconSetType) {#setIconSetType-iconsettype-}
 
@@ -68,7 +68,7 @@ setIconSetType(value: IconSetType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IconSetType](/nodejs-cpp/iconsettype/) | The value to set. |
+| value | [IconSetType](../iconsettype/) | The value to set. |
 
 ### getIconId() {#getIconId--}
 

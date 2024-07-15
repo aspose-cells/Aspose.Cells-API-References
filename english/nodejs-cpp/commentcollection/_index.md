@@ -1,14 +1,14 @@
 ﻿---
 title: CommentCollection
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Encapsulates a collection of Commentnodejscppcomment objects.
+description: Encapsulates a collection of Comment..comment objects.
 type: docs
 url: /nodejs-cpp/commentcollection/
 ---
 
 ## CommentCollection class
 
-Encapsulates a collection of [Comment](/nodejs-cpp/comment/) objects.
+Encapsulates a collection of [Comment](../comment/) objects.
 
 ```javascript
 class CommentCollection;
@@ -19,7 +19,7 @@ class CommentCollection;
 
 | Method | Description |
 | --- | --- |
-| [get(number)](#get-number-)| Gets the [Comment](/nodejs-cpp/comment/) element at the specified index. |
+| [get(number)](#get-number-)| Gets the [Comment](../comment/) element at the specified index. |
 | [addThreadedComment(number, number, string, ThreadedCommentAuthor)](#addThreadedComment-number-number-string-threadedcommentauthor-)| Adds a threaded comment. |
 | [addThreadedComment(string, string, ThreadedCommentAuthor)](#addThreadedComment-string-string-threadedcommentauthor-)| Adds a threaded comment. |
 | [getThreadedComments(number, number)](#getThreadedComments-number-number-)| Gets the threaded comments by row and column index. |
@@ -34,7 +34,7 @@ class CommentCollection;
 
 ### get(number) {#get-number-}
 
-Gets the [Comment](/nodejs-cpp/comment/) element at the specified index.
+Gets the [Comment](../comment/) element at the specified index.
 
 ```javascript
 get(index: number) : Comment;
@@ -63,11 +63,11 @@ addThreadedComment(row: number, column: number, text: string, author: ThreadedCo
 | row | number | Cell row index. |
 | column | number | Cell column index. |
 | text | string | The text of the comment |
-| author | [ThreadedCommentAuthor](/nodejs-cpp/threadedcommentauthor/) | The user of this threaded comment. |
+| author | [ThreadedCommentAuthor](../threadedcommentauthor/) | The user of this threaded comment. |
 
 **Returns**
 
-[ThreadedComment](/nodejs-cpp/threadedcomment/) object index.
+[ThreadedComment](../threadedcomment/) object index.
 
 ### addThreadedComment(string, string, ThreadedCommentAuthor) {#addThreadedComment-string-string-threadedcommentauthor-}
 
@@ -82,11 +82,11 @@ addThreadedComment(cellName: string, text: string, author: ThreadedCommentAuthor
 | --- | --- | --- |
 | cellName | string | The name of the cell. |
 | text | string | The text of the comment |
-| author | [ThreadedCommentAuthor](/nodejs-cpp/threadedcommentauthor/) | The user of this threaded comment. |
+| author | [ThreadedCommentAuthor](../threadedcommentauthor/) | The user of this threaded comment. |
 
 **Returns**
 
-[ThreadedComment](/nodejs-cpp/threadedcomment/) object index.
+[ThreadedComment](../threadedcomment/) object index.
 
 ### getThreadedComments(number, number) {#getThreadedComments-number-number-}
 
@@ -104,7 +104,7 @@ getThreadedComments(row: number, column: number) : ThreadedCommentCollection;
 
 **Returns**
 
-[ThreadedCommentCollection](/nodejs-cpp/threadedcommentcollection/)
+[ThreadedCommentCollection](../threadedcommentcollection/)
 
 ### getThreadedComments(string) {#getThreadedComments-string-}
 
@@ -121,7 +121,7 @@ getThreadedComments(cellName: string) : ThreadedCommentCollection;
 
 **Returns**
 
-[ThreadedCommentCollection](/nodejs-cpp/threadedcommentcollection/)
+[ThreadedCommentCollection](../threadedcommentcollection/)
 
 ### add(number, number) {#add-number-number-}
 
@@ -139,7 +139,7 @@ add(row: number, column: number) : number;
 
 **Returns**
 
-[Comment](/nodejs-cpp/comment/) object index.
+[Comment](../comment/) object index.
 
 ### add(string) {#add-string-}
 
@@ -156,7 +156,7 @@ add(cellName: string) : number;
 
 **Returns**
 
-[Comment](/nodejs-cpp/comment/) object index.
+[Comment](../comment/) object index.
 
 ### removeAt(string) {#removeAt-string-}
 

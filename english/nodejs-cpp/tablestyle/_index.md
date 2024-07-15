@@ -43,6 +43,6 @@ getTableStyleElements() : TableStyleElementCollection;
 
 **Returns**
 
-[TableStyleElementCollection](/nodejs-cpp/tablestyleelementcollection/)
+[TableStyleElementCollection](../tablestyleelementcollection/)
 
 

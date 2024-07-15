@@ -63,11 +63,11 @@ getDefaultEditLanguage() : DefaultEditLanguage;
 
 **Returns**
 
-[DefaultEditLanguage](/nodejs-cpp/defaulteditlanguage/)
+[DefaultEditLanguage](../defaulteditlanguage/)
 
 **Remarks**
 
-It may display/render different layouts for text paragraph when different edit languages is set. Default is [Aspose.Cells.DefaultEditLanguage.Auto](/nodejs-cpp/aspose.cells.defaulteditlanguage.auto/).
+It may display/render different layouts for text paragraph when different edit languages is set. Default is [Aspose.Cells.DefaultEditLanguage.Auto](../aspose.cells.defaulteditlanguage.auto/).
 
 ### setDefaultEditLanguage(DefaultEditLanguage) {#setDefaultEditLanguage-defaulteditlanguage-}
 
@@ -80,11 +80,11 @@ setDefaultEditLanguage(value: DefaultEditLanguage) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [DefaultEditLanguage](/nodejs-cpp/defaulteditlanguage/) | The value to set. |
+| value | [DefaultEditLanguage](../defaulteditlanguage/) | The value to set. |
 
 **Remarks**
 
-It may display/render different layouts for text paragraph when different edit languages is set. Default is [Aspose.Cells.DefaultEditLanguage.Auto](/nodejs-cpp/aspose.cells.defaulteditlanguage.auto/).
+It may display/render different layouts for text paragraph when different edit languages is set. Default is [Aspose.Cells.DefaultEditLanguage.Auto](../aspose.cells.defaulteditlanguage.auto/).
 
 ### getAutoFitMergedCellsType() {#getAutoFitMergedCellsType--}
 
@@ -97,7 +97,7 @@ getAutoFitMergedCellsType() : AutoFitMergedCellsType;
 
 **Returns**
 
-[AutoFitMergedCellsType](/nodejs-cpp/autofitmergedcellstype/)
+[AutoFitMergedCellsType](../autofitmergedcellstype/)
 
 **Remarks**
 
@@ -114,7 +114,7 @@ setAutoFitMergedCellsType(value: AutoFitMergedCellsType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [AutoFitMergedCellsType](/nodejs-cpp/autofitmergedcellstype/) | The value to set. |
+| value | [AutoFitMergedCellsType](../autofitmergedcellstype/) | The value to set. |
 
 **Remarks**
 
@@ -197,7 +197,7 @@ getAutoFitWrappedTextType() : AutoFitWrappedTextType;
 
 **Returns**
 
-[AutoFitWrappedTextType](/nodejs-cpp/autofitwrappedtexttype/)
+[AutoFitWrappedTextType](../autofitwrappedtexttype/)
 
 ### setAutoFitWrappedTextType(AutoFitWrappedTextType) {#setAutoFitWrappedTextType-autofitwrappedtexttype-}
 
@@ -210,7 +210,7 @@ setAutoFitWrappedTextType(value: AutoFitWrappedTextType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [AutoFitWrappedTextType](/nodejs-cpp/autofitwrappedtexttype/) | The value to set. |
+| value | [AutoFitWrappedTextType](../autofitwrappedtexttype/) | The value to set. |
 
 ### getFormatStrategy() {#getFormatStrategy--}
 
@@ -223,7 +223,7 @@ getFormatStrategy() : CellValueFormatStrategy;
 
 **Returns**
 
-[CellValueFormatStrategy](/nodejs-cpp/cellvalueformatstrategy/)
+[CellValueFormatStrategy](../cellvalueformatstrategy/)
 
 **Remarks**
 
@@ -240,7 +240,7 @@ setFormatStrategy(value: CellValueFormatStrategy) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [CellValueFormatStrategy](/nodejs-cpp/cellvalueformatstrategy/) | The value to set. |
+| value | [CellValueFormatStrategy](../cellvalueformatstrategy/) | The value to set. |
 
 **Remarks**
 

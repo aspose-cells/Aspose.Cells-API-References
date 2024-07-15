@@ -27,7 +27,7 @@ class Style;
 | [setName(string)](#setName-string-)| Gets or sets the name of the style. |
 | [getPattern()](#getPattern--)| Gets or sets the cell background pattern type. |
 | [setPattern(BackgroundType)](#setPattern-backgroundtype-)| Gets or sets the cell background pattern type. |
-| [getBorders()](#getBorders--)| Gets the [BorderCollection](/nodejs-cpp/bordercollection/) of the style. |
+| [getBorders()](#getBorders--)| Gets the [BorderCollection](../bordercollection/) of the style. |
 | [getBackgroundColor()](#getBackgroundColor--)| Gets or sets a style's background color. |
 | [setBackgroundColor(Color)](#setBackgroundColor-color-)| Gets or sets a style's background color. |
 | [getBackgroundArgbColor()](#getBackgroundArgbColor--)| Gets and sets the background color with a 32-bit ARGB value. |
@@ -52,7 +52,7 @@ class Style;
 | [setIsProtectionApplied(boolean)](#setIsProtectionApplied-boolean-)| Indicate whether the protection formatting should be applied. |
 | [getIndentLevel()](#getIndentLevel--)| Represents the indent level for the cell or range. Can only be an integer from 0 to 250. |
 | [setIndentLevel(number)](#setIndentLevel-number-)| Represents the indent level for the cell or range. Can only be an integer from 0 to 250. |
-| [getFont()](#getFont--)| Gets a [Font](/nodejs-cpp/font/) object. |
+| [getFont()](#getFont--)| Gets a [Font](../font/) object. |
 | [getRotationAngle()](#getRotationAngle--)| Represents text rotation angle. |
 | [setRotationAngle(number)](#setRotationAngle-number-)| Represents text rotation angle. |
 | [getHorizontalAlignment()](#getHorizontalAlignment--)| Gets or sets the horizontal alignment type of the text in a cell. |
@@ -93,7 +93,7 @@ class Style;
 | [setCustom(string, boolean)](#setCustom-string-boolean-)| Sets the Custom number format string of a cell. |
 | [setTwoColorGradient(Color, Color, GradientStyleType, number)](#setTwoColorGradient-color-color-gradientstyletype-number-)| Sets the specified fill to a two-color gradient. |
 | [getTwoColorGradientSetting()](#getTwoColorGradientSetting--)| Get the two-color gradient setting. |
-| [toJson()](#toJson--)| Convert [Style](/nodejs-cpp/style/) to JSON struct data. |
+| [toJson()](#toJson--)| Convert [Style](../style/) to JSON struct data. |
 
 
 ### getBackgroundThemeColor() {#getBackgroundThemeColor--}
@@ -107,7 +107,7 @@ getBackgroundThemeColor() : ThemeColor;
 
 **Returns**
 
-[ThemeColor](/nodejs-cpp/themecolor/)
+[ThemeColor](../themecolor/)
 
 **Remarks**
 
@@ -124,7 +124,7 @@ setBackgroundThemeColor(value: ThemeColor) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ThemeColor](/nodejs-cpp/themecolor/) | The value to set. |
+| value | [ThemeColor](../themecolor/) | The value to set. |
 
 **Remarks**
 
@@ -141,7 +141,7 @@ getForegroundThemeColor() : ThemeColor;
 
 **Returns**
 
-[ThemeColor](/nodejs-cpp/themecolor/)
+[ThemeColor](../themecolor/)
 
 **Remarks**
 
@@ -158,7 +158,7 @@ setForegroundThemeColor(value: ThemeColor) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ThemeColor](/nodejs-cpp/themecolor/) | The value to set. |
+| value | [ThemeColor](../themecolor/) | The value to set. |
 
 **Remarks**
 
@@ -197,7 +197,7 @@ getPattern() : BackgroundType;
 
 **Returns**
 
-[BackgroundType](/nodejs-cpp/backgroundtype/)
+[BackgroundType](../backgroundtype/)
 
 ### setPattern(BackgroundType) {#setPattern-backgroundtype-}
 
@@ -210,11 +210,11 @@ setPattern(value: BackgroundType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [BackgroundType](/nodejs-cpp/backgroundtype/) | The value to set. |
+| value | [BackgroundType](../backgroundtype/) | The value to set. |
 
 ### getBorders() {#getBorders--}
 
-Gets the [BorderCollection](/nodejs-cpp/bordercollection/) of the style.
+Gets the [BorderCollection](../bordercollection/) of the style.
 
 ```javascript
 getBorders() : BorderCollection;
@@ -223,7 +223,7 @@ getBorders() : BorderCollection;
 
 **Returns**
 
-[BorderCollection](/nodejs-cpp/bordercollection/)
+[BorderCollection](../bordercollection/)
 
 ### getBackgroundColor() {#getBackgroundColor--}
 
@@ -236,7 +236,7 @@ getBackgroundColor() : Color;
 
 **Returns**
 
-[Color](/nodejs-cpp/color/)
+[Color](../color/)
 
 **Remarks**
 
@@ -253,7 +253,7 @@ setBackgroundColor(value: Color) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [Color](/nodejs-cpp/color/) | The value to set. |
+| value | [Color](../color/) | The value to set. |
 
 **Remarks**
 
@@ -292,7 +292,7 @@ getForegroundColor() : Color;
 
 **Returns**
 
-[Color](/nodejs-cpp/color/)
+[Color](../color/)
 
 **Remarks**
 
@@ -309,7 +309,7 @@ setForegroundColor(value: Color) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [Color](/nodejs-cpp/color/) | The value to set. |
+| value | [Color](../color/) | The value to set. |
 
 **Remarks**
 
@@ -357,7 +357,7 @@ getParentStyle() : Style;
 
 **Returns**
 
-[Style](/nodejs-cpp/style/)
+[Style](../style/)
 
 ### isNumberFormatApplied() {#isNumberFormatApplied--}
 
@@ -571,7 +571,7 @@ If text horizontal alignment type is set to value other than left or right, inde
 
 ### getFont() {#getFont--}
 
-Gets a [Font](/nodejs-cpp/font/) object.
+Gets a [Font](../font/) object.
 
 ```javascript
 getFont() : Font;
@@ -580,7 +580,7 @@ getFont() : Font;
 
 **Returns**
 
-[Font](/nodejs-cpp/font/)
+[Font](../font/)
 
 ### getRotationAngle() {#getRotationAngle--}
 
@@ -623,7 +623,7 @@ getHorizontalAlignment() : TextAlignmentType;
 
 **Returns**
 
-[TextAlignmentType](/nodejs-cpp/textalignmenttype/)
+[TextAlignmentType](../textalignmenttype/)
 
 ### setHorizontalAlignment(TextAlignmentType) {#setHorizontalAlignment-textalignmenttype-}
 
@@ -636,7 +636,7 @@ setHorizontalAlignment(value: TextAlignmentType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [TextAlignmentType](/nodejs-cpp/textalignmenttype/) | The value to set. |
+| value | [TextAlignmentType](../textalignmenttype/) | The value to set. |
 
 ### getVerticalAlignment() {#getVerticalAlignment--}
 
@@ -649,7 +649,7 @@ getVerticalAlignment() : TextAlignmentType;
 
 **Returns**
 
-[TextAlignmentType](/nodejs-cpp/textalignmenttype/)
+[TextAlignmentType](../textalignmenttype/)
 
 ### setVerticalAlignment(TextAlignmentType) {#setVerticalAlignment-textalignmenttype-}
 
@@ -662,7 +662,7 @@ setVerticalAlignment(value: TextAlignmentType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [TextAlignmentType](/nodejs-cpp/textalignmenttype/) | The value to set. |
+| value | [TextAlignmentType](../textalignmenttype/) | The value to set. |
 
 ### isTextWrapped() {#isTextWrapped--}
 
@@ -800,7 +800,7 @@ getInvariantCustom() : string;
 
 **Remarks**
 
-For builtin number formats, the returned pattern content is still culture-dependent, such as, for some locales it returns "m/d/y" and for some other locales it returns "d/m/y". The difference from [CultureCustom](/nodejs-cpp/culturecustom/) is(that is also what culture-independent means): the format specifiers and separators are kept as standard, such as '/' will always be used as datetime separator and  "y" will always be used as the "year" part no matter what other special character is used for the specific locale.
+For builtin number formats, the returned pattern content is still culture-dependent, such as, for some locales it returns "m/d/y" and for some other locales it returns "d/m/y". The difference from [CultureCustom](../culturecustom/) is(that is also what culture-independent means): the format specifiers and separators are kept as standard, such as '/' will always be used as datetime separator and  "y" will always be used as the "year" part no matter what other special character is used for the specific locale.
 
 ### isFormulaHidden() {#isFormulaHidden--}
 
@@ -857,7 +857,7 @@ getTextDirection() : TextDirectionType;
 
 **Returns**
 
-[TextDirectionType](/nodejs-cpp/textdirectiontype/)
+[TextDirectionType](../textdirectiontype/)
 
 ### setTextDirection(TextDirectionType) {#setTextDirection-textdirectiontype-}
 
@@ -870,7 +870,7 @@ setTextDirection(value: TextDirectionType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [TextDirectionType](/nodejs-cpp/textdirectiontype/) | The value to set. |
+| value | [TextDirectionType](../textdirectiontype/) | The value to set. |
 
 ### isJustifyDistributed() {#isJustifyDistributed--}
 
@@ -975,9 +975,9 @@ setPatternColor(pattern: BackgroundType, color1: Color, color2: Color) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pattern | [BackgroundType](/nodejs-cpp/backgroundtype/) | The pattern. |
-| color1 | [Color](/nodejs-cpp/color/) | The foreground color. |
-| color2 | [Color](/nodejs-cpp/color/) | The background color. Only works when pattern is not BackgroundType.None and BackgroundType.Solid. |
+| pattern | [BackgroundType](../backgroundtype/) | The pattern. |
+| color1 | [Color](../color/) | The foreground color. |
+| color2 | [Color](../color/) | The background color. Only works when pattern is not BackgroundType.None and BackgroundType.Solid. |
 
 ### copy(Style) {#copy-style-}
 
@@ -990,7 +990,7 @@ copy(style: Style) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| style | [Style](/nodejs-cpp/style/) | Source Style object |
+| style | [Style](../style/) | Source Style object |
 
 **Remarks**
 
@@ -1016,7 +1016,7 @@ isModified(modifyFlag: StyleModifyFlag) : boolean;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| modifyFlag | [StyleModifyFlag](/nodejs-cpp/stylemodifyflag/) | Style modified flags |
+| modifyFlag | [StyleModifyFlag](../stylemodifyflag/) | Style modified flags |
 
 **Returns**
 
@@ -1050,9 +1050,9 @@ setBorder(borderType: BorderType, borderStyle: CellBorderType, borderColor: Colo
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| borderType | [BorderType](/nodejs-cpp/bordertype/) | The border(s) to be set, can be combination of [BorderType](/nodejs-cpp/bordertype/). |
-| borderStyle | [CellBorderType](/nodejs-cpp/cellbordertype/) | The style of the border. |
-| borderColor | [Color](/nodejs-cpp/color/) | The color of the border. |
+| borderType | [BorderType](../bordertype/) | The border(s) to be set, can be combination of [BorderType](../bordertype/). |
+| borderStyle | [CellBorderType](../cellbordertype/) | The style of the border. |
+| borderColor | [Color](../color/) | The color of the border. |
 
 **Returns**
 
@@ -1069,9 +1069,9 @@ setBorder(borderType: BorderType, borderStyle: CellBorderType, borderColor: Cell
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| borderType | [BorderType](/nodejs-cpp/bordertype/) | The border(s) to be set, can be combination of [BorderType](/nodejs-cpp/bordertype/). |
-| borderStyle | [CellBorderType](/nodejs-cpp/cellbordertype/) | The style of the border. |
-| borderColor | [CellsColor](/nodejs-cpp/cellscolor/) | The color of the border. |
+| borderType | [BorderType](../bordertype/) | The border(s) to be set, can be combination of [BorderType](../bordertype/). |
+| borderStyle | [CellBorderType](../cellbordertype/) | The style of the border. |
+| borderColor | [CellsColor](../cellscolor/) | The color of the border. |
 
 **Returns**
 
@@ -1102,9 +1102,9 @@ setTwoColorGradient(color1: Color, color2: Color, gradientStyleType: GradientSty
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| color1 | [Color](/nodejs-cpp/color/) | One gradient color. |
-| color2 | [Color](/nodejs-cpp/color/) | Two gradient color. |
-| gradientStyleType | [GradientStyleType](/nodejs-cpp/gradientstyletype/) | Gradient shading style. |
+| color1 | [Color](../color/) | One gradient color. |
+| color2 | [Color](../color/) | Two gradient color. |
+| gradientStyleType | [GradientStyleType](../gradientstyletype/) | Gradient shading style. |
 | variant | number | The gradient variant. Can be a value from 1 through 4, corresponding to one of the four variants on the Gradient tab in the Fill Effects dialog box. If style is GradientStyle.FromCenter, the Variant argument can only be 1 or 2. |
 
 ### getTwoColorGradientSetting() {#getTwoColorGradientSetting--}
@@ -1118,11 +1118,11 @@ getTwoColorGradientSetting() : TwoColorGradient;
 
 **Returns**
 
-[TwoColorGradient](/nodejs-cpp/twocolorgradient/)
+[TwoColorGradient](../twocolorgradient/)
 
 ### toJson() {#toJson--}
 
-Convert [Style](/nodejs-cpp/style/) to JSON struct data.
+Convert [Style](../style/) to JSON struct data.
 
 ```javascript
 toJson() : string;

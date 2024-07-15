@@ -39,7 +39,7 @@ getWorkbook() : Workbook;
 
 **Returns**
 
-[Workbook](/nodejs-cpp/workbook/)
+[Workbook](../workbook/)
 
 ### getWorksheet() {#getWorksheet--}
 
@@ -52,7 +52,7 @@ getWorksheet() : Worksheet;
 
 **Returns**
 
-[Worksheet](/nodejs-cpp/worksheet/)
+[Worksheet](../worksheet/)
 
 ### getCellRow() {#getCellRow--}
 
@@ -83,6 +83,6 @@ getCell() : Cell;
 
 **Returns**
 
-[Cell](/nodejs-cpp/cell/)
+[Cell](../cell/)
 
 

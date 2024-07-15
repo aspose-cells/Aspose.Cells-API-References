@@ -1,14 +1,14 @@
 ﻿---
 title: IndividualFontConfigs
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Font configs for each Workbooknodejscppworkbook object.
+description: Font configs for each Workbook..workbook object.
 type: docs
 url: /nodejs-cpp/individualfontconfigs/
 ---
 
 ## IndividualFontConfigs class
 
-Font configs for each [Workbook](/nodejs-cpp/workbook/) object.
+Font configs for each [Workbook](../workbook/) object.
 
 ```javascript
 class IndividualFontConfigs;
@@ -112,7 +112,7 @@ setFontSources(sources: FontSourceBase[]) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sources | [FontSourceBase](/nodejs-cpp/fontsourcebase/)[] | An array of sources that contain TrueType fonts. |
+| sources | [FontSourceBase](../fontsourcebase/)[] | An array of sources that contain TrueType fonts. |
 
 ### getFontSources() {#getFontSources--}
 
@@ -125,6 +125,6 @@ getFontSources() : FontSourceBase[];
 
 **Returns**
 
-[FontSourceBase](/nodejs-cpp/fontsourcebase/)[]
+[FontSourceBase](../fontsourcebase/)[]
 
 

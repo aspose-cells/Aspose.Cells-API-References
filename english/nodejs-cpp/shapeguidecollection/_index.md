@@ -54,7 +54,7 @@ get(index: number) : ShapeGuide;
 
 **Returns**
 
-[ShapeGuide](/nodejs-cpp/shapeguide/)
+[ShapeGuide](../shapeguide/)
 
 ### add(string, number) {#add-string-number-}
 

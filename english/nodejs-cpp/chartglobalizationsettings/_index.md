@@ -118,6 +118,6 @@ getAxisUnitName(type: DisplayUnitType) : string;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | [DisplayUnitType](/nodejs-cpp/displayunittype/) |  |
+| type | [DisplayUnitType](../displayunittype/) |  |
 
 

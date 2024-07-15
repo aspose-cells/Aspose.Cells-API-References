@@ -261,7 +261,7 @@ getTransparentColor() : CellsColor;
 
 **Returns**
 
-[CellsColor](/nodejs-cpp/cellscolor/)
+[CellsColor](../cellscolor/)
 
 ### setTransparentColor(CellsColor) {#setTransparentColor-cellscolor-}
 
@@ -274,7 +274,7 @@ setTransparentColor(value: CellsColor) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [CellsColor](/nodejs-cpp/cellscolor/) | The value to set. |
+| value | [CellsColor](../cellscolor/) | The value to set. |
 
 ### getContrast() {#getContrast--}
 

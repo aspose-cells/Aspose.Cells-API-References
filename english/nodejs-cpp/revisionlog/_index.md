@@ -34,7 +34,7 @@ getMetadataTable() : RevisionHeader;
 
 **Returns**
 
-[RevisionHeader](/nodejs-cpp/revisionheader/)
+[RevisionHeader](../revisionheader/)
 
 ### getRevisions() {#getRevisions--}
 
@@ -47,6 +47,6 @@ getRevisions() : RevisionCollection;
 
 **Returns**
 
-[RevisionCollection](/nodejs-cpp/revisioncollection/)
+[RevisionCollection](../revisioncollection/)
 
 

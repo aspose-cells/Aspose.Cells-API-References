@@ -205,7 +205,7 @@ getQuartileCalculation() : QuartileCalculationType;
 
 **Returns**
 
-[QuartileCalculationType](/nodejs-cpp/quartilecalculationtype/)
+[QuartileCalculationType](../quartilecalculationtype/)
 
 ### setQuartileCalculation(QuartileCalculationType) {#setQuartileCalculation-quartilecalculationtype-}
 
@@ -218,7 +218,7 @@ setQuartileCalculation(value: QuartileCalculationType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [QuartileCalculationType](/nodejs-cpp/quartilecalculationtype/) | The value to set. |
+| value | [QuartileCalculationType](../quartilecalculationtype/) | The value to set. |
 
 ### getMapLabelLayout() {#getMapLabelLayout--}
 
@@ -231,7 +231,7 @@ getMapLabelLayout() : MapChartLabelLayout;
 
 **Returns**
 
-[MapChartLabelLayout](/nodejs-cpp/mapchartlabellayout/)
+[MapChartLabelLayout](../mapchartlabellayout/)
 
 ### setMapLabelLayout(MapChartLabelLayout) {#setMapLabelLayout-mapchartlabellayout-}
 
@@ -244,7 +244,7 @@ setMapLabelLayout(value: MapChartLabelLayout) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [MapChartLabelLayout](/nodejs-cpp/mapchartlabellayout/) | The value to set. |
+| value | [MapChartLabelLayout](../mapchartlabellayout/) | The value to set. |
 
 ### isIntervalLeftClosed() {#isIntervalLeftClosed--}
 
@@ -279,7 +279,7 @@ getMapChartRegionType() : MapChartRegionType;
 
 **Returns**
 
-[MapChartRegionType](/nodejs-cpp/mapchartregiontype/)
+[MapChartRegionType](../mapchartregiontype/)
 
 ### setMapChartRegionType(MapChartRegionType) {#setMapChartRegionType-mapchartregiontype-}
 
@@ -292,7 +292,7 @@ setMapChartRegionType(value: MapChartRegionType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [MapChartRegionType](/nodejs-cpp/mapchartregiontype/) | The value to set. |
+| value | [MapChartRegionType](../mapchartregiontype/) | The value to set. |
 
 ### getMapChartProjectionType() {#getMapChartProjectionType--}
 
@@ -305,7 +305,7 @@ getMapChartProjectionType() : MapChartProjectionType;
 
 **Returns**
 
-[MapChartProjectionType](/nodejs-cpp/mapchartprojectiontype/)
+[MapChartProjectionType](../mapchartprojectiontype/)
 
 ### setMapChartProjectionType(MapChartProjectionType) {#setMapChartProjectionType-mapchartprojectiontype-}
 
@@ -318,6 +318,6 @@ setMapChartProjectionType(value: MapChartProjectionType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [MapChartProjectionType](/nodejs-cpp/mapchartprojectiontype/) | The value to set. |
+| value | [MapChartProjectionType](../mapchartprojectiontype/) | The value to set. |
 
 

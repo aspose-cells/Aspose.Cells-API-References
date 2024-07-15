@@ -25,7 +25,7 @@ class DataSorterKeyCollection;
 
 | Method | Description |
 | --- | --- |
-| [get(number)](#get-number-)| Gets and sets [DataSorterKey](/nodejs-cpp/datasorterkey/) by index. |
+| [get(number)](#get-number-)| Gets and sets [DataSorterKey](../datasorterkey/) by index. |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
 
 
@@ -40,7 +40,7 @@ constructor();
 
 ### get(number) {#get-number-}
 
-Gets and sets [DataSorterKey](/nodejs-cpp/datasorterkey/) by index.
+Gets and sets [DataSorterKey](../datasorterkey/) by index.
 
 ```javascript
 get(index: number) : DataSorterKey;
@@ -53,7 +53,7 @@ get(index: number) : DataSorterKey;
 
 **Returns**
 
-[DataSorterKey](/nodejs-cpp/datasorterkey/)
+[DataSorterKey](../datasorterkey/)
 
 ### getCount() {#getCount--}
 

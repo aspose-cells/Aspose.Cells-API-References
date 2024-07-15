@@ -79,7 +79,7 @@ getDestination() : Cell;
 
 **Returns**
 
-[Cell](/nodejs-cpp/cell/)
+[Cell](../cell/)
 
 ### setDestination(Cell) {#setDestination-cell-}
 
@@ -92,7 +92,7 @@ setDestination(value: Cell) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [Cell](/nodejs-cpp/cell/) | The value to set. |
+| value | [Cell](../cell/) | The value to set. |
 
 ### getDestinationName() {#getDestinationName--}
 

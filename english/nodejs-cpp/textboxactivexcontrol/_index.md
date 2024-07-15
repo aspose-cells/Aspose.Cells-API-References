@@ -64,7 +64,7 @@ class TextBoxActiveXControl extends ActiveXControl;
 | [setDropButtonStyle(DropButtonStyle)](#setDropButtonStyle-dropbuttonstyle-)| Specifies the symbol displayed on the drop button |
 | [getShowDropButtonTypeWhen()](#getShowDropButtonTypeWhen--)| Specifies the symbol displayed on the drop button |
 | [setShowDropButtonTypeWhen(ShowDropButtonType)](#setShowDropButtonTypeWhen-showdropbuttontype-)| Specifies the symbol displayed on the drop button |
-| [getWorkbook()](#getWorkbook--)| Gets the [Workbook](/nodejs-cpp/workbook/) object. |
+| [getWorkbook()](#getWorkbook--)| Gets the [Workbook](../workbook/) object. |
 | [getMouseIcon()](#getMouseIcon--)| Gets and sets a custom icon to display as the mouse pointer for the control. |
 | [setMouseIcon(number[])](#setMouseIcon-numberarray-)| Gets and sets a custom icon to display as the mouse pointer for the control. |
 | [getMousePointer()](#getMousePointer--)| Gets and sets the type of icon displayed as the mouse pointer for the control. |
@@ -127,7 +127,7 @@ getType() : ControlType;
 
 **Returns**
 
-[ControlType](/nodejs-cpp/controltype/)
+[ControlType](../controltype/)
 
 ### getBorderStyle() {#getBorderStyle--}
 
@@ -140,7 +140,7 @@ getBorderStyle() : ControlBorderType;
 
 **Returns**
 
-[ControlBorderType](/nodejs-cpp/controlbordertype/)
+[ControlBorderType](../controlbordertype/)
 
 ### setBorderStyle(ControlBorderType) {#setBorderStyle-controlbordertype-}
 
@@ -153,7 +153,7 @@ setBorderStyle(value: ControlBorderType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ControlBorderType](/nodejs-cpp/controlbordertype/) | The value to set. |
+| value | [ControlBorderType](../controlbordertype/) | The value to set. |
 
 ### getBorderOleColor() {#getBorderOleColor--}
 
@@ -188,7 +188,7 @@ getSpecialEffect() : ControlSpecialEffectType;
 
 **Returns**
 
-[ControlSpecialEffectType](/nodejs-cpp/controlspecialeffecttype/)
+[ControlSpecialEffectType](../controlspecialeffecttype/)
 
 ### setSpecialEffect(ControlSpecialEffectType) {#setSpecialEffect-controlspecialeffecttype-}
 
@@ -201,7 +201,7 @@ setSpecialEffect(value: ControlSpecialEffectType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ControlSpecialEffectType](/nodejs-cpp/controlspecialeffecttype/) | The value to set. |
+| value | [ControlSpecialEffectType](../controlspecialeffecttype/) | The value to set. |
 
 ### getMaxLength() {#getMaxLength--}
 
@@ -236,7 +236,7 @@ getScrollBars() : ControlScrollBarType;
 
 **Returns**
 
-[ControlScrollBarType](/nodejs-cpp/controlscrollbartype/)
+[ControlScrollBarType](../controlscrollbartype/)
 
 ### setScrollBars(ControlScrollBarType) {#setScrollBars-controlscrollbartype-}
 
@@ -249,7 +249,7 @@ setScrollBars(value: ControlScrollBarType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ControlScrollBarType](/nodejs-cpp/controlscrollbartype/) | The value to set. |
+| value | [ControlScrollBarType](../controlscrollbartype/) | The value to set. |
 
 ### getPasswordChar() {#getPasswordChar--}
 
@@ -526,7 +526,7 @@ getDropButtonStyle() : DropButtonStyle;
 
 **Returns**
 
-[DropButtonStyle](/nodejs-cpp/dropbuttonstyle/)
+[DropButtonStyle](../dropbuttonstyle/)
 
 ### setDropButtonStyle(DropButtonStyle) {#setDropButtonStyle-dropbuttonstyle-}
 
@@ -539,7 +539,7 @@ setDropButtonStyle(value: DropButtonStyle) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [DropButtonStyle](/nodejs-cpp/dropbuttonstyle/) | The value to set. |
+| value | [DropButtonStyle](../dropbuttonstyle/) | The value to set. |
 
 ### getShowDropButtonTypeWhen() {#getShowDropButtonTypeWhen--}
 
@@ -552,7 +552,7 @@ getShowDropButtonTypeWhen() : ShowDropButtonType;
 
 **Returns**
 
-[ShowDropButtonType](/nodejs-cpp/showdropbuttontype/)
+[ShowDropButtonType](../showdropbuttontype/)
 
 ### setShowDropButtonTypeWhen(ShowDropButtonType) {#setShowDropButtonTypeWhen-showdropbuttontype-}
 
@@ -565,11 +565,11 @@ setShowDropButtonTypeWhen(value: ShowDropButtonType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ShowDropButtonType](/nodejs-cpp/showdropbuttontype/) | The value to set. |
+| value | [ShowDropButtonType](../showdropbuttontype/) | The value to set. |
 
 ### getWorkbook() {#getWorkbook--}
 
-Gets the [Workbook](/nodejs-cpp/workbook/) object.
+Gets the [Workbook](../workbook/) object.
 
 ```javascript
 getWorkbook() : Workbook;
@@ -578,7 +578,7 @@ getWorkbook() : Workbook;
 
 **Returns**
 
-[Workbook](/nodejs-cpp/workbook/)
+[Workbook](../workbook/)
 
 ### getMouseIcon() {#getMouseIcon--}
 
@@ -617,7 +617,7 @@ getMousePointer() : ControlMousePointerType;
 
 **Returns**
 
-[ControlMousePointerType](/nodejs-cpp/controlmousepointertype/)
+[ControlMousePointerType](../controlmousepointertype/)
 
 ### setMousePointer(ControlMousePointerType) {#setMousePointer-controlmousepointertype-}
 
@@ -630,7 +630,7 @@ setMousePointer(value: ControlMousePointerType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ControlMousePointerType](/nodejs-cpp/controlmousepointertype/) | The value to set. |
+| value | [ControlMousePointerType](../controlmousepointertype/) | The value to set. |
 
 ### getLinkedCell() {#getLinkedCell--}
 
@@ -753,7 +753,7 @@ getIMEMode() : InputMethodEditorMode;
 
 **Returns**
 
-[InputMethodEditorMode](/nodejs-cpp/inputmethodeditormode/)
+[InputMethodEditorMode](../inputmethodeditormode/)
 
 ### setIMEMode(InputMethodEditorMode) {#setIMEMode-inputmethodeditormode-}
 
@@ -766,7 +766,7 @@ setIMEMode(value: InputMethodEditorMode) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [InputMethodEditorMode](/nodejs-cpp/inputmethodeditormode/) | The value to set. |
+| value | [InputMethodEditorMode](../inputmethodeditormode/) | The value to set. |
 
 ### getFont() {#getFont--}
 
@@ -779,7 +779,7 @@ getFont() : Font;
 
 **Returns**
 
-[Font](/nodejs-cpp/font/)
+[Font](../font/)
 
 ### getTextAlign() {#getTextAlign--}
 
@@ -792,7 +792,7 @@ getTextAlign() : TextAlignmentType;
 
 **Returns**
 
-[TextAlignmentType](/nodejs-cpp/textalignmenttype/)
+[TextAlignmentType](../textalignmenttype/)
 
 ### setTextAlign(TextAlignmentType) {#setTextAlign-textalignmenttype-}
 
@@ -805,7 +805,7 @@ setTextAlign(value: TextAlignmentType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [TextAlignmentType](/nodejs-cpp/textalignmenttype/) | The value to set. |
+| value | [TextAlignmentType](../textalignmenttype/) | The value to set. |
 
 ### getData() {#getData--}
 

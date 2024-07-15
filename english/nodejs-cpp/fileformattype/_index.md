@@ -18,7 +18,7 @@ Represents the file format types.
 | Xltm | `9` | Office Open XML SpreadsheetML Macro-Enabled Template. |
 | Xlam | `10` | Office Open XML SpreadsheetML addinMacro-Enabled file. |
 | Tsv | `11` | Tab-Separated Values(TSV) text file. |
-| TabDelimited | `11` | Tab-Separated Values(TSV) text file, same with [Tsv](/nodejs-cpp/tsv/). |
+| TabDelimited | `11` | Tab-Separated Values(TSV) text file, same with [Tsv](../tsv/). |
 | Html | `12` | HTML format. |
 | MHtml | `17` | MHTML (Web archive) format. |
 | Ods | `14` | Open Document Sheet(ODS) file. |

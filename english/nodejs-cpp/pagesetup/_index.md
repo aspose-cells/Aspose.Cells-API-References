@@ -121,8 +121,8 @@ class PageSetup;
 | [setHeaderPicture(number, number[])](#setHeaderPicture-number-numberarray-)| Sets an image in the header of a worksheet. |
 | [setFooterPicture(number, number[])](#setFooterPicture-number-numberarray-)| Sets an image in the footer of a worksheet. |
 | [setPicture(boolean, boolean, boolean, number, number[])](#setPicture-boolean-boolean-boolean-number-numberarray-)| Sets an image in the header/footer of a worksheet. |
-| [getPicture(boolean, number)](#getPicture-boolean-number-)| Gets the [Picture](/nodejs-cpp/picture/) object of the header / footer. |
-| [getPicture(boolean, boolean, boolean, number)](#getPicture-boolean-boolean-boolean-number-)| Gets the [Picture](/nodejs-cpp/picture/) object of the header / footer. |
+| [getPicture(boolean, number)](#getPicture-boolean-number-)| Gets the [Picture](../picture/) object of the header / footer. |
+| [getPicture(boolean, boolean, boolean, number)](#getPicture-boolean-boolean-boolean-number-)| Gets the [Picture](../picture/) object of the header / footer. |
 
 
 ### getODSPageBackground() {#getODSPageBackground--}
@@ -136,7 +136,7 @@ getODSPageBackground() : OdsPageBackground;
 
 **Returns**
 
-[OdsPageBackground](/nodejs-cpp/odspagebackground/)
+[OdsPageBackground](../odspagebackground/)
 
 ### getPrintArea() {#getPrintArea--}
 
@@ -697,7 +697,7 @@ getOrder() : PrintOrderType;
 
 **Returns**
 
-[PrintOrderType](/nodejs-cpp/printordertype/)
+[PrintOrderType](../printordertype/)
 
 ### setOrder(PrintOrderType) {#setOrder-printordertype-}
 
@@ -710,7 +710,7 @@ setOrder(value: PrintOrderType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [PrintOrderType](/nodejs-cpp/printordertype/) | The value to set. |
+| value | [PrintOrderType](../printordertype/) | The value to set. |
 
 ### isAutomaticPaperSize() {#isAutomaticPaperSize--}
 
@@ -732,7 +732,7 @@ getPaperSize() : PaperSizeType;
 
 **Returns**
 
-[PaperSizeType](/nodejs-cpp/papersizetype/)
+[PaperSizeType](../papersizetype/)
 
 ### setPaperSize(PaperSizeType) {#setPaperSize-papersizetype-}
 
@@ -745,7 +745,7 @@ setPaperSize(value: PaperSizeType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [PaperSizeType](/nodejs-cpp/papersizetype/) | The value to set. |
+| value | [PaperSizeType](../papersizetype/) | The value to set. |
 
 ### getPaperWidth() {#getPaperWidth--}
 
@@ -776,7 +776,7 @@ getOrientation() : PageOrientationType;
 
 **Returns**
 
-[PageOrientationType](/nodejs-cpp/pageorientationtype/)
+[PageOrientationType](../pageorientationtype/)
 
 ### setOrientation(PageOrientationType) {#setOrientation-pageorientationtype-}
 
@@ -789,7 +789,7 @@ setOrientation(value: PageOrientationType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [PageOrientationType](/nodejs-cpp/pageorientationtype/) | The value to set. |
+| value | [PageOrientationType](../pageorientationtype/) | The value to set. |
 
 ### getPrintComments() {#getPrintComments--}
 
@@ -802,7 +802,7 @@ getPrintComments() : PrintCommentsType;
 
 **Returns**
 
-[PrintCommentsType](/nodejs-cpp/printcommentstype/)
+[PrintCommentsType](../printcommentstype/)
 
 ### setPrintComments(PrintCommentsType) {#setPrintComments-printcommentstype-}
 
@@ -815,7 +815,7 @@ setPrintComments(value: PrintCommentsType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [PrintCommentsType](/nodejs-cpp/printcommentstype/) | The value to set. |
+| value | [PrintCommentsType](../printcommentstype/) | The value to set. |
 
 ### getPrintErrors() {#getPrintErrors--}
 
@@ -828,7 +828,7 @@ getPrintErrors() : PrintErrorsType;
 
 **Returns**
 
-[PrintErrorsType](/nodejs-cpp/printerrorstype/)
+[PrintErrorsType](../printerrorstype/)
 
 ### setPrintErrors(PrintErrorsType) {#setPrintErrors-printerrorstype-}
 
@@ -841,7 +841,7 @@ setPrintErrors(value: PrintErrorsType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [PrintErrorsType](/nodejs-cpp/printerrorstype/) | The value to set. |
+| value | [PrintErrorsType](../printerrorstype/) | The value to set. |
 
 ### getPrintHeadings() {#getPrintHeadings--}
 
@@ -1074,8 +1074,8 @@ copy(source: PageSetup, copyOptions: CopyOptions) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| source | [PageSetup](/nodejs-cpp/pagesetup/) | The source. |
-| copyOptions | [CopyOptions](/nodejs-cpp/copyoptions/) | The copy options. |
+| source | [PageSetup](../pagesetup/) | The source. |
+| copyOptions | [CopyOptions](../copyoptions/) | The copy options. |
 
 ### setFitToPages(number, number) {#setFitToPages-number-number-}
 
@@ -1317,7 +1317,7 @@ setHeaderPicture(section: number, headerPicture: number[]) : Picture;
 
 **Returns**
 
-Returns [Picture](/nodejs-cpp/picture/) object.
+Returns [Picture](../picture/) object.
 
 ### setFooterPicture(number, number[]) {#setFooterPicture-number-numberarray-}
 
@@ -1335,7 +1335,7 @@ setFooterPicture(section: number, footerPicture: number[]) : Picture;
 
 **Returns**
 
-Returns [Picture](/nodejs-cpp/picture/) object.
+Returns [Picture](../picture/) object.
 
 ### setPicture(boolean, boolean, boolean, number, number[]) {#setPicture-boolean-boolean-boolean-number-numberarray-}
 
@@ -1356,11 +1356,11 @@ setPicture(isFirst: boolean, isEven: boolean, isHeader: boolean, section: number
 
 **Returns**
 
-Returns [Picture](/nodejs-cpp/picture/) object.
+Returns [Picture](../picture/) object.
 
 ### getPicture(boolean, number) {#getPicture-boolean-number-}
 
-Gets the [Picture](/nodejs-cpp/picture/) object of the header / footer.
+Gets the [Picture](../picture/) object of the header / footer.
 
 ```javascript
 getPicture(isHeader: boolean, section: number) : Picture;
@@ -1374,11 +1374,11 @@ getPicture(isHeader: boolean, section: number) : Picture;
 
 **Returns**
 
-Returns [Picture](/nodejs-cpp/picture/) object. Returns null if there is no picture.
+Returns [Picture](../picture/) object. Returns null if there is no picture.
 
 ### getPicture(boolean, boolean, boolean, number) {#getPicture-boolean-boolean-boolean-number-}
 
-Gets the [Picture](/nodejs-cpp/picture/) object of the header / footer.
+Gets the [Picture](../picture/) object of the header / footer.
 
 ```javascript
 getPicture(isFirst: boolean, isEven: boolean, isHeader: boolean, section: number) : Picture;
@@ -1394,6 +1394,6 @@ getPicture(isFirst: boolean, isEven: boolean, isHeader: boolean, section: number
 
 **Returns**
 
-Returns [Picture](/nodejs-cpp/picture/) object.
+Returns [Picture](../picture/) object.
 
 

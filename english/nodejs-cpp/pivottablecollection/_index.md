@@ -52,7 +52,7 @@ get(index: number) : PivotTable;
 
 **Returns**
 
-[PivotTable](/nodejs-cpp/pivottable/)
+[PivotTable](../pivottable/)
 
 ### dispose() {#dispose--}
 
@@ -154,7 +154,7 @@ add(pivotTable: PivotTable, destCellName: string, tableName: string) : number;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pivotTable | [PivotTable](/nodejs-cpp/pivottable/) | The source pivotTable. |
+| pivotTable | [PivotTable](../pivottable/) | The source pivotTable. |
 | destCellName | string | The cell in the upper-left corner of the PivotTable report's destination range. |
 | tableName | string | The name of the new PivotTable report. |
 
@@ -173,7 +173,7 @@ add(pivotTable: PivotTable, row: number, column: number, tableName: string) : nu
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pivotTable | [PivotTable](/nodejs-cpp/pivottable/) | The source pivotTable. |
+| pivotTable | [PivotTable](../pivottable/) | The source pivotTable. |
 | row | number | Row index of the cell in the upper-left corner of the PivotTable report's destination range. |
 | column | number | Column index of the cell in the upper-left corner of the PivotTable report's destination range. |
 | tableName | string | The name of the new PivotTable report. |
@@ -195,7 +195,7 @@ add(sourceData: string[], isAutoPage: boolean, pageFields: PivotPageFields, dest
 | --- | --- | --- |
 | sourceData | string[] | The multiple consolidation ranges,such as {"Sheet1!A1:C8","Sheet2!A1:B8"} |
 | isAutoPage | boolean | Whether auto create a single page field.         /// If true,the following param pageFields will be ignored. |
-| pageFields | [PivotPageFields](/nodejs-cpp/pivotpagefields/) | The pivot page field items. |
+| pageFields | [PivotPageFields](../pivotpagefields/) | The pivot page field items. |
 | destCellName | string | destCellName The name of the new PivotTable report. |
 | tableName | string | the name of the new PivotTable report. |
 
@@ -216,7 +216,7 @@ add(sourceData: string[], isAutoPage: boolean, pageFields: PivotPageFields, row:
 | --- | --- | --- |
 | sourceData | string[] | The multiple consolidation ranges,such as {"Sheet1!A1:C8","Sheet2!A1:B8"} |
 | isAutoPage | boolean | Whether auto create a single page field.         /// If true,the following param pageFields will be ignored |
-| pageFields | [PivotPageFields](/nodejs-cpp/pivotpagefields/) | The pivot page field items. |
+| pageFields | [PivotPageFields](../pivotpagefields/) | The pivot page field items. |
 | row | number | Row index of the cell in the upper-left corner of the PivotTable report's destination range. |
 | column | number | Column index of the cell in the upper-left corner of the PivotTable report's destination range. |
 | tableName | string | The name of the new PivotTable report. |
@@ -245,7 +245,7 @@ remove(pivotTable: PivotTable) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pivotTable | [PivotTable](/nodejs-cpp/pivottable/) | PivotTable object |
+| pivotTable | [PivotTable](../pivottable/) | PivotTable object |
 
 ### remove(PivotTable, boolean) {#remove-pivottable-boolean-}
 
@@ -258,7 +258,7 @@ remove(pivotTable: PivotTable, keepData: boolean) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pivotTable | [PivotTable](/nodejs-cpp/pivottable/) | PivotTable object |
+| pivotTable | [PivotTable](../pivottable/) | PivotTable object |
 | keepData | boolean | Whether to keep the PivotTable data |
 
 ### removeAt(number) {#removeAt-number-}

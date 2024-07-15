@@ -21,7 +21,7 @@ class LegendEntry;
 | --- | --- |
 | [isDeleted()](#isDeleted--)| Gets and sets whether the legend entry is deleted. |
 | [setIsDeleted(boolean)](#setIsDeleted-boolean-)| Gets and sets whether the legend entry is deleted. |
-| [getFont()](#getFont--)| Gets a [Font](/nodejs-cpp/font/) object of the specified ChartFrame object. |
+| [getFont()](#getFont--)| Gets a [Font](../font/) object of the specified ChartFrame object. |
 | [isTextNoFill()](#isTextNoFill--)| Gets or sets no fill of the text. |
 | [setIsTextNoFill(boolean)](#setIsTextNoFill-boolean-)| Gets or sets no fill of the text. |
 | [getAutoScaleFont()](#getAutoScaleFont--)| True if the text in the object changes font size when the object size changes. The default value is True. |
@@ -54,7 +54,7 @@ setIsDeleted(value: boolean) : void;
 
 ### getFont() {#getFont--}
 
-Gets a [Font](/nodejs-cpp/font/) object of the specified ChartFrame object.
+Gets a [Font](../font/) object of the specified ChartFrame object.
 
 ```javascript
 getFont() : Font;
@@ -63,7 +63,7 @@ getFont() : Font;
 
 **Returns**
 
-[Font](/nodejs-cpp/font/)
+[Font](../font/)
 
 ### isTextNoFill() {#isTextNoFill--}
 
@@ -120,7 +120,7 @@ getBackgroundMode() : BackgroundMode;
 
 **Returns**
 
-[BackgroundMode](/nodejs-cpp/backgroundmode/)
+[BackgroundMode](../backgroundmode/)
 
 ### setBackgroundMode(BackgroundMode) {#setBackgroundMode-backgroundmode-}
 
@@ -133,6 +133,6 @@ setBackgroundMode(value: BackgroundMode) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [BackgroundMode](/nodejs-cpp/backgroundmode/) | The value to set. |
+| value | [BackgroundMode](../backgroundmode/) | The value to set. |
 
 

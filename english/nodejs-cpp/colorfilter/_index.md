@@ -84,10 +84,10 @@ getColor(sheets: WorksheetCollection) : Color;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sheets | [WorksheetCollection](/nodejs-cpp/worksheetcollection/) |  |
+| sheets | [WorksheetCollection](../worksheetcollection/) |  |
 
 **Returns**
 
-[Color](/nodejs-cpp/color/)
+[Color](../color/)
 
 

@@ -1,14 +1,14 @@
 ﻿---
 title: ChartCollection
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Encapsulates a collection of Chartnodejscppchart objects.
+description: Encapsulates a collection of Chart..chart objects.
 type: docs
 url: /nodejs-cpp/chartcollection/
 ---
 
 ## ChartCollection class
 
-Encapsulates a collection of [Chart](/nodejs-cpp/chart/) objects.
+Encapsulates a collection of [Chart](../chart/) objects.
 
 ```javascript
 class ChartCollection;
@@ -19,7 +19,7 @@ class ChartCollection;
 
 | Method | Description |
 | --- | --- |
-| [get(number)](#get-number-)| Gets the [Chart](/nodejs-cpp/chart/) element at the specified index. |
+| [get(number)](#get-number-)| Gets the [Chart](../chart/) element at the specified index. |
 | [addFloatingChart(ChartType, number, number, number, number)](#addFloatingChart-charttype-number-number-number-number-)| Adds a chart to the collection. |
 | [add(ChartType, number, number, number, number)](#add-charttype-number-number-number-number-)| Adds a chart to the collection. |
 | [add(number[], string, boolean, number, number, number, number)](#add-numberarray-string-boolean-number-number-number-number-)| Adds a chart with preset template. |
@@ -31,7 +31,7 @@ class ChartCollection;
 
 ### get(number) {#get-number-}
 
-Gets the [Chart](/nodejs-cpp/chart/) element at the specified index.
+Gets the [Chart](../chart/) element at the specified index.
 
 ```javascript
 get(index: number) : Chart;
@@ -57,7 +57,7 @@ addFloatingChart(type: ChartType, left: number, top: number, width: number, heig
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | [ChartType](/nodejs-cpp/charttype/) | Chart type |
+| type | [ChartType](../charttype/) | Chart type |
 | left | number | The x offset to corner |
 | top | number | The y offset to corner |
 | width | number | The chart width |
@@ -65,7 +65,7 @@ addFloatingChart(type: ChartType, left: number, top: number, width: number, heig
 
 **Returns**
 
-[Chart](/nodejs-cpp/chart/) object index.
+[Chart](../chart/) object index.
 
 ### add(ChartType, number, number, number, number) {#add-charttype-number-number-number-number-}
 
@@ -78,7 +78,7 @@ add(type: ChartType, upperLeftRow: number, upperLeftColumn: number, lowerRightRo
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | [ChartType](/nodejs-cpp/charttype/) | Chart type |
+| type | [ChartType](../charttype/) | Chart type |
 | upperLeftRow | number | Upper left row index. |
 | upperLeftColumn | number | Upper left column index. |
 | lowerRightRow | number | Lower right row index |
@@ -86,7 +86,7 @@ add(type: ChartType, upperLeftRow: number, upperLeftColumn: number, lowerRightRo
 
 **Returns**
 
-[Chart](/nodejs-cpp/chart/) object index.
+[Chart](../chart/) object index.
 
 ### add(number[], string, boolean, number, number, number, number) {#add-numberarray-string-boolean-number-number-number-number-}
 
@@ -109,7 +109,7 @@ add(data: number[], dataRange: string, isVertical: boolean, topRow: number, left
 
 **Returns**
 
-[Chart](/nodejs-cpp/chart/) object index.
+[Chart](../chart/) object index.
 
 ### add(ChartType, string, boolean, number, number, number, number) {#add-charttype-string-boolean-number-number-number-number-}
 
@@ -122,7 +122,7 @@ add(type: ChartType, dataRange: string, isVertical: boolean, topRow: number, lef
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | [ChartType](/nodejs-cpp/charttype/) | Chart type |
+| type | [ChartType](../charttype/) | Chart type |
 | dataRange | string | Specifies the data range of the chart |
 | isVertical | boolean | Specifies whether to plot the series from a range of cell values by row or by column. |
 | topRow | number | Upper left row index. |
@@ -132,7 +132,7 @@ add(type: ChartType, dataRange: string, isVertical: boolean, topRow: number, lef
 
 **Returns**
 
-[Chart](/nodejs-cpp/chart/) object index.
+[Chart](../chart/) object index.
 
 ### removeAt(number) {#removeAt-number-}
 

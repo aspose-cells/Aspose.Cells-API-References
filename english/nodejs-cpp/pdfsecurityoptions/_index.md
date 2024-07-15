@@ -31,18 +31,18 @@ class PdfSecurityOptions;
 | [setOwnerPassword(string)](#setOwnerPassword-string-)| Gets or sets the owner password for the encrypted PDF document. |
 | [getPrintPermission()](#getPrintPermission--)| Indicates whether to allow to print the document. |
 | [setPrintPermission(boolean)](#setPrintPermission-boolean-)| Indicates whether to allow to print the document. |
-| [getModifyDocumentPermission()](#getModifyDocumentPermission--)| Indicates whether to allow to modify the contents of the document by operations other than those controlled by [AnnotationsPermission](/nodejs-cpp/annotationspermission/), [AnnotationsPermission](/nodejs-cpp/annotationspermission/) and [AnnotationsPermission](/nodejs-cpp/annotationspermission/). |
-| [setModifyDocumentPermission(boolean)](#setModifyDocumentPermission-boolean-)| Indicates whether to allow to modify the contents of the document by operations other than those controlled by [AnnotationsPermission](/nodejs-cpp/annotationspermission/), [AnnotationsPermission](/nodejs-cpp/annotationspermission/) and [AnnotationsPermission](/nodejs-cpp/annotationspermission/). |
+| [getModifyDocumentPermission()](#getModifyDocumentPermission--)| Indicates whether to allow to modify the contents of the document by operations other than those controlled by [AnnotationsPermission](../annotationspermission/), [AnnotationsPermission](../annotationspermission/) and [AnnotationsPermission](../annotationspermission/). |
+| [setModifyDocumentPermission(boolean)](#setModifyDocumentPermission-boolean-)| Indicates whether to allow to modify the contents of the document by operations other than those controlled by [AnnotationsPermission](../annotationspermission/), [AnnotationsPermission](../annotationspermission/) and [AnnotationsPermission](../annotationspermission/). |
 | [getAnnotationsPermission()](#getAnnotationsPermission--)| Indicates whether to allow to add or modify text annotations, fill in interactive form fields. |
 | [setAnnotationsPermission(boolean)](#setAnnotationsPermission-boolean-)| Indicates whether to allow to add or modify text annotations, fill in interactive form fields. |
-| [getFillFormsPermission()](#getFillFormsPermission--)| Indicates whether to allow to fill in existing interactive form fields (including signature fields), even if [ModifyDocumentPermission](/nodejs-cpp/modifydocumentpermission/) is clear. |
-| [setFillFormsPermission(boolean)](#setFillFormsPermission-boolean-)| Indicates whether to allow to fill in existing interactive form fields (including signature fields), even if [ModifyDocumentPermission](/nodejs-cpp/modifydocumentpermission/) is clear. |
-| [getExtractContentPermission()](#getExtractContentPermission--)| Indicates whether to allow to copy or otherwise extract text and graphics from the document by operations other than that controlled by [AccessibilityExtractContent](/nodejs-cpp/accessibilityextractcontent/). |
-| [setExtractContentPermission(boolean)](#setExtractContentPermission-boolean-)| Indicates whether to allow to copy or otherwise extract text and graphics from the document by operations other than that controlled by [AccessibilityExtractContent](/nodejs-cpp/accessibilityextractcontent/). |
+| [getFillFormsPermission()](#getFillFormsPermission--)| Indicates whether to allow to fill in existing interactive form fields (including signature fields), even if [ModifyDocumentPermission](../modifydocumentpermission/) is clear. |
+| [setFillFormsPermission(boolean)](#setFillFormsPermission-boolean-)| Indicates whether to allow to fill in existing interactive form fields (including signature fields), even if [ModifyDocumentPermission](../modifydocumentpermission/) is clear. |
+| [getExtractContentPermission()](#getExtractContentPermission--)| Indicates whether to allow to copy or otherwise extract text and graphics from the document by operations other than that controlled by [AccessibilityExtractContent](../accessibilityextractcontent/). |
+| [setExtractContentPermission(boolean)](#setExtractContentPermission-boolean-)| Indicates whether to allow to copy or otherwise extract text and graphics from the document by operations other than that controlled by [AccessibilityExtractContent](../accessibilityextractcontent/). |
 | [getAccessibilityExtractContent()](#getAccessibilityExtractContent--)| Indicates whether to allow to extract text and graphics (in support of accessibility to users with disabilities or for other purposes). |
 | [setAccessibilityExtractContent(boolean)](#setAccessibilityExtractContent-boolean-)| Indicates whether to allow to extract text and graphics (in support of accessibility to users with disabilities or for other purposes). |
-| [getAssembleDocumentPermission()](#getAssembleDocumentPermission--)| Indicates whether to allow to assemble the document (insert, rotate, or delete pages and create bookmarks or thumbnail images), even if [ModifyDocumentPermission](/nodejs-cpp/modifydocumentpermission/) is clear. |
-| [setAssembleDocumentPermission(boolean)](#setAssembleDocumentPermission-boolean-)| Indicates whether to allow to assemble the document (insert, rotate, or delete pages and create bookmarks or thumbnail images), even if [ModifyDocumentPermission](/nodejs-cpp/modifydocumentpermission/) is clear. |
+| [getAssembleDocumentPermission()](#getAssembleDocumentPermission--)| Indicates whether to allow to assemble the document (insert, rotate, or delete pages and create bookmarks or thumbnail images), even if [ModifyDocumentPermission](../modifydocumentpermission/) is clear. |
+| [setAssembleDocumentPermission(boolean)](#setAssembleDocumentPermission-boolean-)| Indicates whether to allow to assemble the document (insert, rotate, or delete pages and create bookmarks or thumbnail images), even if [ModifyDocumentPermission](../modifydocumentpermission/) is clear. |
 | [getFullQualityPrintPermission()](#getFullQualityPrintPermission--)| Indicates whether to allow to print the document to a representation from which a faithful digital copy of the PDF content could be generated. |
 | [setFullQualityPrintPermission(boolean)](#setFullQualityPrintPermission-boolean-)| Indicates whether to allow to print the document to a representation from which a faithful digital copy of the PDF content could be generated. |
 
@@ -127,7 +127,7 @@ getPrintPermission() : boolean;
 
 **Remarks**
 
-Possibly not at the highest quality level, depending on whether [FullQualityPrintPermission](/nodejs-cpp/fullqualityprintpermission/) is also set.
+Possibly not at the highest quality level, depending on whether [FullQualityPrintPermission](../fullqualityprintpermission/) is also set.
 
 ### setPrintPermission(boolean) {#setPrintPermission-boolean-}
 
@@ -144,11 +144,11 @@ setPrintPermission(value: boolean) : void;
 
 **Remarks**
 
-Possibly not at the highest quality level, depending on whether [FullQualityPrintPermission](/nodejs-cpp/fullqualityprintpermission/) is also set.
+Possibly not at the highest quality level, depending on whether [FullQualityPrintPermission](../fullqualityprintpermission/) is also set.
 
 ### getModifyDocumentPermission() {#getModifyDocumentPermission--}
 
-Indicates whether to allow to modify the contents of the document by operations other than those controlled by [AnnotationsPermission](/nodejs-cpp/annotationspermission/), [AnnotationsPermission](/nodejs-cpp/annotationspermission/) and [AnnotationsPermission](/nodejs-cpp/annotationspermission/).
+Indicates whether to allow to modify the contents of the document by operations other than those controlled by [AnnotationsPermission](../annotationspermission/), [AnnotationsPermission](../annotationspermission/) and [AnnotationsPermission](../annotationspermission/).
 
 ```javascript
 getModifyDocumentPermission() : boolean;
@@ -157,7 +157,7 @@ getModifyDocumentPermission() : boolean;
 
 ### setModifyDocumentPermission(boolean) {#setModifyDocumentPermission-boolean-}
 
-Indicates whether to allow to modify the contents of the document by operations other than those controlled by [AnnotationsPermission](/nodejs-cpp/annotationspermission/), [AnnotationsPermission](/nodejs-cpp/annotationspermission/) and [AnnotationsPermission](/nodejs-cpp/annotationspermission/).
+Indicates whether to allow to modify the contents of the document by operations other than those controlled by [AnnotationsPermission](../annotationspermission/), [AnnotationsPermission](../annotationspermission/) and [AnnotationsPermission](../annotationspermission/).
 
 ```javascript
 setModifyDocumentPermission(value: boolean) : void;
@@ -179,7 +179,7 @@ getAnnotationsPermission() : boolean;
 
 **Remarks**
 
-if [ModifyDocumentPermission](/nodejs-cpp/modifydocumentpermission/) is also set, create or modify interactive form fields (including signature fields).
+if [ModifyDocumentPermission](../modifydocumentpermission/) is also set, create or modify interactive form fields (including signature fields).
 
 ### setAnnotationsPermission(boolean) {#setAnnotationsPermission-boolean-}
 
@@ -196,11 +196,11 @@ setAnnotationsPermission(value: boolean) : void;
 
 **Remarks**
 
-if [ModifyDocumentPermission](/nodejs-cpp/modifydocumentpermission/) is also set, create or modify interactive form fields (including signature fields).
+if [ModifyDocumentPermission](../modifydocumentpermission/) is also set, create or modify interactive form fields (including signature fields).
 
 ### getFillFormsPermission() {#getFillFormsPermission--}
 
-Indicates whether to allow to fill in existing interactive form fields (including signature fields), even if [ModifyDocumentPermission](/nodejs-cpp/modifydocumentpermission/) is clear.
+Indicates whether to allow to fill in existing interactive form fields (including signature fields), even if [ModifyDocumentPermission](../modifydocumentpermission/) is clear.
 
 ```javascript
 getFillFormsPermission() : boolean;
@@ -209,7 +209,7 @@ getFillFormsPermission() : boolean;
 
 ### setFillFormsPermission(boolean) {#setFillFormsPermission-boolean-}
 
-Indicates whether to allow to fill in existing interactive form fields (including signature fields), even if [ModifyDocumentPermission](/nodejs-cpp/modifydocumentpermission/) is clear.
+Indicates whether to allow to fill in existing interactive form fields (including signature fields), even if [ModifyDocumentPermission](../modifydocumentpermission/) is clear.
 
 ```javascript
 setFillFormsPermission(value: boolean) : void;
@@ -222,7 +222,7 @@ setFillFormsPermission(value: boolean) : void;
 
 ### getExtractContentPermission() {#getExtractContentPermission--}
 
-Indicates whether to allow to copy or otherwise extract text and graphics from the document by operations other than that controlled by [AccessibilityExtractContent](/nodejs-cpp/accessibilityextractcontent/).
+Indicates whether to allow to copy or otherwise extract text and graphics from the document by operations other than that controlled by [AccessibilityExtractContent](../accessibilityextractcontent/).
 
 ```javascript
 getExtractContentPermission() : boolean;
@@ -231,7 +231,7 @@ getExtractContentPermission() : boolean;
 
 ### setExtractContentPermission(boolean) {#setExtractContentPermission-boolean-}
 
-Indicates whether to allow to copy or otherwise extract text and graphics from the document by operations other than that controlled by [AccessibilityExtractContent](/nodejs-cpp/accessibilityextractcontent/).
+Indicates whether to allow to copy or otherwise extract text and graphics from the document by operations other than that controlled by [AccessibilityExtractContent](../accessibilityextractcontent/).
 
 ```javascript
 setExtractContentPermission(value: boolean) : void;
@@ -266,7 +266,7 @@ setAccessibilityExtractContent(value: boolean) : void;
 
 ### getAssembleDocumentPermission() {#getAssembleDocumentPermission--}
 
-Indicates whether to allow to assemble the document (insert, rotate, or delete pages and create bookmarks or thumbnail images), even if [ModifyDocumentPermission](/nodejs-cpp/modifydocumentpermission/) is clear.
+Indicates whether to allow to assemble the document (insert, rotate, or delete pages and create bookmarks or thumbnail images), even if [ModifyDocumentPermission](../modifydocumentpermission/) is clear.
 
 ```javascript
 getAssembleDocumentPermission() : boolean;
@@ -275,7 +275,7 @@ getAssembleDocumentPermission() : boolean;
 
 ### setAssembleDocumentPermission(boolean) {#setAssembleDocumentPermission-boolean-}
 
-Indicates whether to allow to assemble the document (insert, rotate, or delete pages and create bookmarks or thumbnail images), even if [ModifyDocumentPermission](/nodejs-cpp/modifydocumentpermission/) is clear.
+Indicates whether to allow to assemble the document (insert, rotate, or delete pages and create bookmarks or thumbnail images), even if [ModifyDocumentPermission](../modifydocumentpermission/) is clear.
 
 ```javascript
 setAssembleDocumentPermission(value: boolean) : void;
@@ -297,7 +297,7 @@ getFullQualityPrintPermission() : boolean;
 
 **Remarks**
 
-When it is clear (and [PrintPermission](/nodejs-cpp/printpermission/) is set), printing is limited to a low level representation of the appearance, possibly of degraded quality.
+When it is clear (and [PrintPermission](../printpermission/) is set), printing is limited to a low level representation of the appearance, possibly of degraded quality.
 
 ### setFullQualityPrintPermission(boolean) {#setFullQualityPrintPermission-boolean-}
 
@@ -314,6 +314,6 @@ setFullQualityPrintPermission(value: boolean) : void;
 
 **Remarks**
 
-When it is clear (and [PrintPermission](/nodejs-cpp/printpermission/) is set), printing is limited to a low level representation of the appearance, possibly of degraded quality.
+When it is clear (and [PrintPermission](../printpermission/) is set), printing is limited to a low level representation of the appearance, possibly of degraded quality.
 
 

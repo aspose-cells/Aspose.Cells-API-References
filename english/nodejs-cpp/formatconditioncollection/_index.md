@@ -78,9 +78,9 @@ add(cellArea: CellArea, type: FormatConditionType, operatorType: OperatorType, f
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| cellArea | [CellArea](/nodejs-cpp/cellarea/) | Conditional formatted cell range. |
-| type | [FormatConditionType](/nodejs-cpp/formatconditiontype/) | Type of conditional formatting.It could be one of the members of FormatConditionType. |
-| operatorType | [OperatorType](/nodejs-cpp/operatortype/) | Comparison operator.It could be one of the members of OperatorType. |
+| cellArea | [CellArea](../cellarea/) | Conditional formatted cell range. |
+| type | [FormatConditionType](../formatconditiontype/) | Type of conditional formatting.It could be one of the members of FormatConditionType. |
+| operatorType | [OperatorType](../operatortype/) | Comparison operator.It could be one of the members of OperatorType. |
 | formula1 | string | The value or expression associated with conditional formatting. |
 | formula2 | string | The value or expression associated with conditional formatting |
 
@@ -99,7 +99,7 @@ addArea(cellArea: CellArea) : number;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| cellArea | [CellArea](/nodejs-cpp/cellarea/) | Conditional formatted cell range. |
+| cellArea | [CellArea](../cellarea/) | Conditional formatted cell range. |
 
 **Returns**
 
@@ -116,8 +116,8 @@ addCondition(type: FormatConditionType, operatorType: OperatorType, formula1: st
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | [FormatConditionType](/nodejs-cpp/formatconditiontype/) | The type of format condition. |
-| operatorType | [OperatorType](/nodejs-cpp/operatortype/) | The operator type |
+| type | [FormatConditionType](../formatconditiontype/) | The type of format condition. |
+| operatorType | [OperatorType](../operatortype/) | The operator type |
 | formula1 | string | The value or expression associated with conditional formatting.         /// If the input value starts with '=', then it will be taken as formula.         /// Otherwise it will be taken as plain value(text, number, bool).         /// For text value that starts with '=', user may input it as formula in format: "=\"=...\"". |
 | formula2 | string | The value or expression associated with conditional formatting.         /// The input format is same with formula1 |
 
@@ -136,7 +136,7 @@ addCondition(type: FormatConditionType) : number;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | [FormatConditionType](/nodejs-cpp/formatconditiontype/) | Format condition type. |
+| type | [FormatConditionType](../formatconditiontype/) | Format condition type. |
 
 **Returns**
 

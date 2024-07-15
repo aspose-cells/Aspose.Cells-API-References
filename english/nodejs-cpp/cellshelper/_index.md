@@ -199,7 +199,7 @@ static getTextWidth(text: string, font: Font, scaling: number) : number;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | text | string | The text. |
-| font | [Font](/nodejs-cpp/font/) | The font of the text. |
+| font | [Font](../font/) | The font of the text. |
 | scaling | number | The scaling of text. |
 
 ### getVersion() {#getVersion--}
@@ -355,7 +355,7 @@ static getUsedColors(workbook: Workbook) : Color[];
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| workbook | [Workbook](/nodejs-cpp/workbook/) | The workbook object. |
+| workbook | [Workbook](../workbook/) | The workbook object. |
 
 **Returns**
 

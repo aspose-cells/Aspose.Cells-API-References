@@ -76,7 +76,7 @@ getType() : ColorType;
 
 **Returns**
 
-[ColorType](/nodejs-cpp/colortype/)
+[ColorType](../colortype/)
 
 ### getThemeColor() {#getThemeColor--}
 
@@ -89,7 +89,7 @@ getThemeColor() : ThemeColor;
 
 **Returns**
 
-[ThemeColor](/nodejs-cpp/themecolor/)
+[ThemeColor](../themecolor/)
 
 ### setThemeColor(ThemeColor) {#setThemeColor-themecolor-}
 
@@ -102,7 +102,7 @@ setThemeColor(value: ThemeColor) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ThemeColor](/nodejs-cpp/themecolor/) | The value to set. |
+| value | [ThemeColor](../themecolor/) | The value to set. |
 
 ### getColorIndex() {#getColorIndex--}
 
@@ -137,7 +137,7 @@ getColor() : Color;
 
 **Returns**
 
-[Color](/nodejs-cpp/color/)
+[Color](../color/)
 
 ### setColor(Color) {#setColor-color-}
 
@@ -150,7 +150,7 @@ setColor(value: Color) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [Color](/nodejs-cpp/color/) | The value to set. |
+| value | [Color](../color/) | The value to set. |
 
 ### getArgb() {#getArgb--}
 

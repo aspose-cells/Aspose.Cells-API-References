@@ -58,7 +58,7 @@ static getActive() : SheetSet;
 
 **Returns**
 
-[SheetSet](/nodejs-cpp/sheetset/)
+[SheetSet](../sheetset/)
 
 ### getVisible() {#getVisible--}
 
@@ -71,7 +71,7 @@ static getVisible() : SheetSet;
 
 **Returns**
 
-[SheetSet](/nodejs-cpp/sheetset/)
+[SheetSet](../sheetset/)
 
 ### getAll() {#getAll--}
 
@@ -84,6 +84,6 @@ static getAll() : SheetSet;
 
 **Returns**
 
-[SheetSet](/nodejs-cpp/sheetset/)
+[SheetSet](../sheetset/)
 
 

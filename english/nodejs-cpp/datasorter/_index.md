@@ -60,7 +60,7 @@ getKeys() : DataSorterKeyCollection;
 
 **Returns**
 
-[DataSorterKeyCollection](/nodejs-cpp/datasorterkeycollection/)
+[DataSorterKeyCollection](../datasorterkeycollection/)
 
 ### getHasHeaders() {#getHasHeaders--}
 
@@ -117,7 +117,7 @@ getOrder1() : SortOrder;
 
 **Returns**
 
-[SortOrder](/nodejs-cpp/sortorder/)
+[SortOrder](../sortorder/)
 
 ### setOrder1(SortOrder) {#setOrder1-sortorder-}
 
@@ -130,7 +130,7 @@ setOrder1(value: SortOrder) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [SortOrder](/nodejs-cpp/sortorder/) | The value to set. |
+| value | [SortOrder](../sortorder/) | The value to set. |
 
 ### getKey2() {#getKey2--}
 
@@ -165,7 +165,7 @@ getOrder2() : SortOrder;
 
 **Returns**
 
-[SortOrder](/nodejs-cpp/sortorder/)
+[SortOrder](../sortorder/)
 
 ### setOrder2(SortOrder) {#setOrder2-sortorder-}
 
@@ -178,7 +178,7 @@ setOrder2(value: SortOrder) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [SortOrder](/nodejs-cpp/sortorder/) | The value to set. |
+| value | [SortOrder](../sortorder/) | The value to set. |
 
 ### getKey3() {#getKey3--}
 
@@ -213,7 +213,7 @@ getOrder3() : SortOrder;
 
 **Returns**
 
-[SortOrder](/nodejs-cpp/sortorder/)
+[SortOrder](../sortorder/)
 
 ### setOrder3(SortOrder) {#setOrder3-sortorder-}
 
@@ -226,7 +226,7 @@ setOrder3(value: SortOrder) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [SortOrder](/nodejs-cpp/sortorder/) | The value to set. |
+| value | [SortOrder](../sortorder/) | The value to set. |
 
 ### getSortLeftToRight() {#getSortLeftToRight--}
 
@@ -315,7 +315,7 @@ addKey(key: number, order: SortOrder) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | key | number | The sorted column index(absolute position, column A is 0, B is 1, ...) |
-| order | [SortOrder](/nodejs-cpp/sortorder/) | The sort order |
+| order | [SortOrder](../sortorder/) | The sort order |
 
 ### addKey(number, SortOrder, string) {#addKey-number-sortorder-string-}
 
@@ -329,7 +329,7 @@ addKey(key: number, order: SortOrder, customList: string) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | key | number | The sorted column index(absolute position, column A is 0, B is 1, ...) |
-| order | [SortOrder](/nodejs-cpp/sortorder/) | The sort order. |
+| order | [SortOrder](../sortorder/) | The sort order. |
 | customList | string | The custom sort list. |
 
 ### addKey(number, SortOrder, string[]) {#addKey-number-sortorder-stringarray-}
@@ -344,7 +344,7 @@ addKey(key: number, order: SortOrder, customList: string[]) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | key | number | The sorted column index(absolute position, column A is 0, B is 1, ...) |
-| order | [SortOrder](/nodejs-cpp/sortorder/) | The sort order. |
+| order | [SortOrder](../sortorder/) | The sort order. |
 | customList | string[] | The custom sort list. |
 
 ### sort(Cells, number, number, number, number) {#sort-cells-number-number-number-number-}
@@ -358,7 +358,7 @@ sort(cells: Cells, startRow: number, startColumn: number, endRow: number, endCol
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| cells | [Cells](/nodejs-cpp/cells/) | The cells contains the data area. |
+| cells | [Cells](../cells/) | The cells contains the data area. |
 | startRow | number | The start row of the area. |
 | startColumn | number | The start column of the area. |
 | endRow | number | The end row of the area. |
@@ -379,8 +379,8 @@ sort(cells: Cells, area: CellArea) : number[];
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| cells | [Cells](/nodejs-cpp/cells/) | The cells contains the data area. |
-| area | [CellArea](/nodejs-cpp/cellarea/) | The area needed to sort |
+| cells | [Cells](../cells/) | The cells contains the data area. |
+| area | [CellArea](../cellarea/) | The area needed to sort |
 
 **Returns**
 

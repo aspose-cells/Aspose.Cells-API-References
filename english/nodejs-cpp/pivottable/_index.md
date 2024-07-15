@@ -31,12 +31,12 @@ class PivotTable;
 | [getRowFields()](#getRowFields--)| Returns a PivotFields object that are currently shown as row fields. |
 | [getPageFields()](#getPageFields--)| Returns a PivotFields object that are currently shown as page fields. |
 | [getDataFields()](#getDataFields--)| Gets a PivotField object that represents all the data fields in a PivotTable. Read-only.It would be init only when there are two or more data fields in the DataPiovtFiels. It only use to add DataPivotField to the PivotTable row/column area . Default is in row area. |
-| [getDataField()](#getDataField--)| Gets a [PivotField](/nodejs-cpp/pivotfield/) object that represents all the data fields in a PivotTable. Read-only. It would only be created when there are two or more data fields in the Data region. Defaultly it is in row region. You can drag it to the row/column region with PivotTable.AddFieldToArea() method . |
+| [getDataField()](#getDataField--)| Gets a [PivotField](../pivotfield/) object that represents all the data fields in a PivotTable. Read-only. It would only be created when there are two or more data fields in the Data region. Defaultly it is in row region. You can drag it to the row/column region with PivotTable.AddFieldToArea() method . |
 | [getBaseFields()](#getBaseFields--)| Returns all base pivot fields in the PivotTable. |
 | [getPivotFilters()](#getPivotFilters--)| Returns a list of pivot filters. |
 | [getColumnRange()](#getColumnRange--)| Returns a CellArea object that represents the range that contains the column area in the PivotTable report. Read-only. |
 | [getRowRange()](#getRowRange--)| Returns a CellArea object that represents the range that contains the row area in the PivotTable report. Read-only. |
-| [getDataBodyRange()](#getDataBodyRange--)| Returns a [CellArea](/nodejs-cpp/cellarea/) object that represents the range that contains the data area in the list between the header row and the insert row. Read-only. |
+| [getDataBodyRange()](#getDataBodyRange--)| Returns a [CellArea](../cellarea/) object that represents the range that contains the data area in the list between the header row and the insert row. Read-only. |
 | [getTableRange1()](#getTableRange1--)| Returns a CellArea object that represents the range containing the entire PivotTable report, but doesn't include page fields. Read-only. |
 | [getTableRange2()](#getTableRange2--)| Returns a CellArea object that represents the range containing the entire PivotTable report, includes page fields. Read-only. |
 | [getColumnGrand()](#getColumnGrand--)| Indicates whether the PivotTable report shows grand totals for columns. |
@@ -185,7 +185,7 @@ class PivotTable;
 | [showInCompactForm()](#showInCompactForm--)| Layouts the PivotTable in compact form. |
 | [showInOutlineForm()](#showInOutlineForm--)| Layouts the PivotTable in outline form. |
 | [showInTabularForm()](#showInTabularForm--)| Layouts the PivotTable in tabular form. |
-| [getCellByDisplayName(string)](#getCellByDisplayName-string-)| Gets the [Cell](/nodejs-cpp/cell/) object by the display name of PivotField. |
+| [getCellByDisplayName(string)](#getCellByDisplayName-string-)| Gets the [Cell](../cell/) object by the display name of PivotField. |
 | [getChildren()](#getChildren--)| Gets the Children Pivot Tables which use this PivotTable data as data source. |
 
 
@@ -262,7 +262,7 @@ getPivotTableStyleType() : PivotTableStyleType;
 
 **Returns**
 
-[PivotTableStyleType](/nodejs-cpp/pivottablestyletype/)
+[PivotTableStyleType](../pivottablestyletype/)
 
 ### setPivotTableStyleType(PivotTableStyleType) {#setPivotTableStyleType-pivottablestyletype-}
 
@@ -275,7 +275,7 @@ setPivotTableStyleType(value: PivotTableStyleType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [PivotTableStyleType](/nodejs-cpp/pivottablestyletype/) | The value to set. |
+| value | [PivotTableStyleType](../pivottablestyletype/) | The value to set. |
 
 ### getColumnFields() {#getColumnFields--}
 
@@ -288,7 +288,7 @@ getColumnFields() : PivotFieldCollection;
 
 **Returns**
 
-[PivotFieldCollection](/nodejs-cpp/pivotfieldcollection/)
+[PivotFieldCollection](../pivotfieldcollection/)
 
 ### getRowFields() {#getRowFields--}
 
@@ -301,7 +301,7 @@ getRowFields() : PivotFieldCollection;
 
 **Returns**
 
-[PivotFieldCollection](/nodejs-cpp/pivotfieldcollection/)
+[PivotFieldCollection](../pivotfieldcollection/)
 
 ### getPageFields() {#getPageFields--}
 
@@ -314,7 +314,7 @@ getPageFields() : PivotFieldCollection;
 
 **Returns**
 
-[PivotFieldCollection](/nodejs-cpp/pivotfieldcollection/)
+[PivotFieldCollection](../pivotfieldcollection/)
 
 ### getDataFields() {#getDataFields--}
 
@@ -327,11 +327,11 @@ getDataFields() : PivotFieldCollection;
 
 **Returns**
 
-[PivotFieldCollection](/nodejs-cpp/pivotfieldcollection/)
+[PivotFieldCollection](../pivotfieldcollection/)
 
 ### getDataField() {#getDataField--}
 
-Gets a [PivotField](/nodejs-cpp/pivotfield/) object that represents all the data fields in a PivotTable. Read-only. It would only be created when there are two or more data fields in the Data region. Defaultly it is in row region. You can drag it to the row/column region with PivotTable.AddFieldToArea() method .
+Gets a [PivotField](../pivotfield/) object that represents all the data fields in a PivotTable. Read-only. It would only be created when there are two or more data fields in the Data region. Defaultly it is in row region. You can drag it to the row/column region with PivotTable.AddFieldToArea() method .
 
 ```javascript
 getDataField() : PivotField;
@@ -340,7 +340,7 @@ getDataField() : PivotField;
 
 **Returns**
 
-[PivotField](/nodejs-cpp/pivotfield/)
+[PivotField](../pivotfield/)
 
 ### getBaseFields() {#getBaseFields--}
 
@@ -353,7 +353,7 @@ getBaseFields() : PivotFieldCollection;
 
 **Returns**
 
-[PivotFieldCollection](/nodejs-cpp/pivotfieldcollection/)
+[PivotFieldCollection](../pivotfieldcollection/)
 
 ### getPivotFilters() {#getPivotFilters--}
 
@@ -366,7 +366,7 @@ getPivotFilters() : PivotFilterCollection;
 
 **Returns**
 
-[PivotFilterCollection](/nodejs-cpp/pivotfiltercollection/)
+[PivotFilterCollection](../pivotfiltercollection/)
 
 ### getColumnRange() {#getColumnRange--}
 
@@ -379,7 +379,7 @@ getColumnRange() : CellArea;
 
 **Returns**
 
-[CellArea](/nodejs-cpp/cellarea/)
+[CellArea](../cellarea/)
 
 ### getRowRange() {#getRowRange--}
 
@@ -392,11 +392,11 @@ getRowRange() : CellArea;
 
 **Returns**
 
-[CellArea](/nodejs-cpp/cellarea/)
+[CellArea](../cellarea/)
 
 ### getDataBodyRange() {#getDataBodyRange--}
 
-Returns a [CellArea](/nodejs-cpp/cellarea/) object that represents the range that contains the data area in the list between the header row and the insert row. Read-only.
+Returns a [CellArea](../cellarea/) object that represents the range that contains the data area in the list between the header row and the insert row. Read-only.
 
 ```javascript
 getDataBodyRange() : CellArea;
@@ -405,7 +405,7 @@ getDataBodyRange() : CellArea;
 
 **Returns**
 
-[CellArea](/nodejs-cpp/cellarea/)
+[CellArea](../cellarea/)
 
 ### getTableRange1() {#getTableRange1--}
 
@@ -418,7 +418,7 @@ getTableRange1() : CellArea;
 
 **Returns**
 
-[CellArea](/nodejs-cpp/cellarea/)
+[CellArea](../cellarea/)
 
 ### getTableRange2() {#getTableRange2--}
 
@@ -431,7 +431,7 @@ getTableRange2() : CellArea;
 
 **Returns**
 
-[CellArea](/nodejs-cpp/cellarea/)
+[CellArea](../cellarea/)
 
 ### getColumnGrand() {#getColumnGrand--}
 
@@ -664,7 +664,7 @@ getAutoFormatType() : PivotTableAutoFormatType;
 
 **Returns**
 
-[PivotTableAutoFormatType](/nodejs-cpp/pivottableautoformattype/)
+[PivotTableAutoFormatType](../pivottableautoformattype/)
 
 ### setAutoFormatType(PivotTableAutoFormatType) {#setAutoFormatType-pivottableautoformattype-}
 
@@ -677,7 +677,7 @@ setAutoFormatType(value: PivotTableAutoFormatType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [PivotTableAutoFormatType](/nodejs-cpp/pivottableautoformattype/) | The value to set. |
+| value | [PivotTableAutoFormatType](../pivottableautoformattype/) | The value to set. |
 
 ### getHasBlankRows() {#getHasBlankRows--}
 
@@ -954,7 +954,7 @@ getMissingItemsLimit() : PivotMissingItemLimitType;
 
 **Returns**
 
-[PivotMissingItemLimitType](/nodejs-cpp/pivotmissingitemlimittype/)
+[PivotMissingItemLimitType](../pivotmissingitemlimittype/)
 
 ### setMissingItemsLimit(PivotMissingItemLimitType) {#setMissingItemsLimit-pivotmissingitemlimittype-}
 
@@ -967,7 +967,7 @@ setMissingItemsLimit(value: PivotMissingItemLimitType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [PivotMissingItemLimitType](/nodejs-cpp/pivotmissingitemlimittype/) | The value to set. |
+| value | [PivotMissingItemLimitType](../pivotmissingitemlimittype/) | The value to set. |
 
 ### getEnableDataValueEditing() {#getEnableDataValueEditing--}
 
@@ -1332,7 +1332,7 @@ getPivotFormatConditions() : PivotFormatConditionCollection;
 
 **Returns**
 
-[PivotFormatConditionCollection](/nodejs-cpp/pivotformatconditioncollection/)
+[PivotFormatConditionCollection](../pivotformatconditioncollection/)
 
 ### getPageFieldOrder() {#getPageFieldOrder--}
 
@@ -1345,7 +1345,7 @@ getPageFieldOrder() : PrintOrderType;
 
 **Returns**
 
-[PrintOrderType](/nodejs-cpp/printordertype/)
+[PrintOrderType](../printordertype/)
 
 ### setPageFieldOrder(PrintOrderType) {#setPageFieldOrder-printordertype-}
 
@@ -1358,7 +1358,7 @@ setPageFieldOrder(value: PrintOrderType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [PrintOrderType](/nodejs-cpp/printordertype/) | The value to set. |
+| value | [PrintOrderType](../printordertype/) | The value to set. |
 
 ### getPageFieldWrapCount() {#getPageFieldWrapCount--}
 
@@ -1481,7 +1481,7 @@ getExternalConnectionDataSource() : ExternalConnection;
 
 **Returns**
 
-[ExternalConnection](/nodejs-cpp/externalconnection/)
+[ExternalConnection](../externalconnection/)
 
 ### getDataSource() {#getDataSource--}
 
@@ -1520,7 +1520,7 @@ getPivotFormats() : PivotTableFormatCollection;
 
 **Returns**
 
-[PivotTableFormatCollection](/nodejs-cpp/pivottableformatcollection/)
+[PivotTableFormatCollection](../pivottableformatcollection/)
 
 ### getItemPrintTitles() {#getItemPrintTitles--}
 
@@ -1740,7 +1740,7 @@ copyStyle(pivotTable: PivotTable) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pivotTable | [PivotTable](/nodejs-cpp/pivottable/) | Source pivot table. |
+| pivotTable | [PivotTable](../pivottable/) | Source pivot table. |
 
 ### showReportFilterPage(PivotField) {#showReportFilterPage-pivotfield-}
 
@@ -1753,7 +1753,7 @@ showReportFilterPage(pageField: PivotField) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pageField | [PivotField](/nodejs-cpp/pivotfield/) | The PivotField object |
+| pageField | [PivotField](../pivotfield/) | The PivotField object |
 
 ### showReportFilterPageByName(string) {#showReportFilterPageByName-string-}
 
@@ -1792,7 +1792,7 @@ removeField(fieldType: PivotFieldType, fieldName: string) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fieldType | [PivotFieldType](/nodejs-cpp/pivotfieldtype/) | The fields area type. |
+| fieldType | [PivotFieldType](../pivotfieldtype/) | The fields area type. |
 | fieldName | string | The name in the base fields. |
 
 ### removeField(PivotFieldType, number) {#removeField-pivotfieldtype-number-}
@@ -1806,7 +1806,7 @@ removeField(fieldType: PivotFieldType, baseFieldIndex: number) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fieldType | [PivotFieldType](/nodejs-cpp/pivotfieldtype/) | The fields area type. |
+| fieldType | [PivotFieldType](../pivotfieldtype/) | The fields area type. |
 | baseFieldIndex | number | The field index in the base fields. |
 
 ### removeField(PivotFieldType, PivotField) {#removeField-pivotfieldtype-pivotfield-}
@@ -1820,8 +1820,8 @@ removeField(fieldType: PivotFieldType, pivotField: PivotField) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fieldType | [PivotFieldType](/nodejs-cpp/pivotfieldtype/) | the fields area type. |
-| pivotField | [PivotField](/nodejs-cpp/pivotfield/) | the field in the base fields. |
+| fieldType | [PivotFieldType](../pivotfieldtype/) | the fields area type. |
+| pivotField | [PivotField](../pivotfield/) | the field in the base fields. |
 
 ### addFieldToArea(PivotFieldType, string) {#addFieldToArea-pivotfieldtype-string-}
 
@@ -1834,7 +1834,7 @@ addFieldToArea(fieldType: PivotFieldType, fieldName: string) : number;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fieldType | [PivotFieldType](/nodejs-cpp/pivotfieldtype/) | The fields area type. |
+| fieldType | [PivotFieldType](../pivotfieldtype/) | The fields area type. |
 | fieldName | string | The name in the base fields. |
 
 **Returns**
@@ -1852,7 +1852,7 @@ addFieldToArea(fieldType: PivotFieldType, baseFieldIndex: number) : number;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fieldType | [PivotFieldType](/nodejs-cpp/pivotfieldtype/) | The fields area type. |
+| fieldType | [PivotFieldType](../pivotfieldtype/) | The fields area type. |
 | baseFieldIndex | number | The field index in the base fields. |
 
 **Returns**
@@ -1870,8 +1870,8 @@ addFieldToArea(fieldType: PivotFieldType, pivotField: PivotField) : number;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fieldType | [PivotFieldType](/nodejs-cpp/pivotfieldtype/) | the fields area type. |
-| pivotField | [PivotField](/nodejs-cpp/pivotfield/) | the field in the base fields. |
+| fieldType | [PivotFieldType](../pivotfieldtype/) | the fields area type. |
+| pivotField | [PivotField](../pivotfield/) | the field in the base fields. |
 
 **Returns**
 
@@ -1917,7 +1917,7 @@ getFields(fieldType: PivotFieldType) : PivotFieldCollection;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fieldType | [PivotFieldType](/nodejs-cpp/pivotfieldtype/) | the region type. |
+| fieldType | [PivotFieldType](../pivotfieldtype/) | the region type. |
 
 **Returns**
 
@@ -2000,7 +2000,7 @@ refreshData(option: PivotTableRefreshOption) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| option | [PivotTableRefreshOption](/nodejs-cpp/pivottablerefreshoption/) | The options for refreshing data source of pivot table. |
+| option | [PivotTableRefreshOption](../pivottablerefreshoption/) | The options for refreshing data source of pivot table. |
 
 ### calculateData() {#calculateData--}
 
@@ -2026,7 +2026,7 @@ calculateData(option: PivotTableCalculateOption) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| option | [PivotTableCalculateOption](/nodejs-cpp/pivottablecalculateoption/) |  |
+| option | [PivotTableCalculateOption](../pivottablecalculateoption/) |  |
 
 ### clearData() {#clearData--}
 
@@ -2065,7 +2065,7 @@ formatAll(style: Style) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| style | [Style](/nodejs-cpp/style/) | Style which is to format |
+| style | [Style](../style/) | Style which is to format |
 
 ### formatRow(number, Style) {#formatRow-number-style-}
 
@@ -2079,7 +2079,7 @@ formatRow(row: number, style: Style) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | row | number | Row Index of the Row object |
-| style | [Style](/nodejs-cpp/style/) | Style which is to format |
+| style | [Style](../style/) | Style which is to format |
 
 ### format(PivotArea, Style) {#format-pivotarea-style-}
 
@@ -2092,8 +2092,8 @@ format(pivotArea: PivotArea, style: Style) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pivotArea | [PivotArea](/nodejs-cpp/pivotarea/) |  |
-| style | [Style](/nodejs-cpp/style/) |  |
+| pivotArea | [PivotArea](../pivotarea/) |  |
+| style | [Style](../style/) |  |
 
 ### format(number, number, Style) {#format-number-number-style-}
 
@@ -2108,7 +2108,7 @@ format(row: number, column: number, style: Style) : void;
 | --- | --- | --- |
 | row | number | Row Index of the cell |
 | column | number | Column index of the cell |
-| style | [Style](/nodejs-cpp/style/) | Style which is to format the cell |
+| style | [Style](../style/) | Style which is to format the cell |
 
 ### showInCompactForm() {#showInCompactForm--}
 
@@ -2139,7 +2139,7 @@ showInTabularForm() : void;
 
 ### getCellByDisplayName(string) {#getCellByDisplayName-string-}
 
-Gets the [Cell](/nodejs-cpp/cell/) object by the display name of PivotField.
+Gets the [Cell](../cell/) object by the display name of PivotField.
 
 ```javascript
 getCellByDisplayName(displayName: string) : Cell;

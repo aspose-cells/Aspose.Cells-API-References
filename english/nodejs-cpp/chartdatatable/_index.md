@@ -19,7 +19,7 @@ class ChartDataTable;
 
 | Method | Description |
 | --- | --- |
-| [getFont()](#getFont--)| Gets a [Font](/nodejs-cpp/font/) object which represents the font setting of the specified chart data table. |
+| [getFont()](#getFont--)| Gets a [Font](../font/) object which represents the font setting of the specified chart data table. |
 | [getAutoScaleFont()](#getAutoScaleFont--)| True if the text in the object changes font size when the object size changes. The default value is True. |
 | [setAutoScaleFont(boolean)](#setAutoScaleFont-boolean-)| True if the text in the object changes font size when the object size changes. The default value is True. |
 | [getBackgroundMode()](#getBackgroundMode--)| Gets and sets the display mode of the background |
@@ -43,7 +43,7 @@ class ChartDataTable;
 
 ### getFont() {#getFont--}
 
-Gets a [Font](/nodejs-cpp/font/) object which represents the font setting of the specified chart data table.
+Gets a [Font](../font/) object which represents the font setting of the specified chart data table.
 
 ```javascript
 getFont() : Font;
@@ -52,7 +52,7 @@ getFont() : Font;
 
 **Returns**
 
-[Font](/nodejs-cpp/font/)
+[Font](../font/)
 
 ### getAutoScaleFont() {#getAutoScaleFont--}
 
@@ -87,7 +87,7 @@ getBackgroundMode() : BackgroundMode;
 
 **Returns**
 
-[BackgroundMode](/nodejs-cpp/backgroundmode/)
+[BackgroundMode](../backgroundmode/)
 
 ### setBackgroundMode(BackgroundMode) {#setBackgroundMode-backgroundmode-}
 
@@ -100,7 +100,7 @@ setBackgroundMode(value: BackgroundMode) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [BackgroundMode](/nodejs-cpp/backgroundmode/) | The value to set. |
+| value | [BackgroundMode](../backgroundmode/) | The value to set. |
 
 ### getHasBorderHorizontal() {#getHasBorderHorizontal--}
 
@@ -291,6 +291,6 @@ getBorder() : Line;
 
 **Returns**
 
-[Line](/nodejs-cpp/line/)
+[Line](../line/)
 
 

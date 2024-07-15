@@ -41,10 +41,10 @@ class RenderingWatermark;
 | [setHAlignment(TextAlignmentType)](#setHAlignment-textalignmenttype-)| Gets or sets horizontal alignment of the watermark to the page. |
 | [getVAlignment()](#getVAlignment--)| Gets or sets vertical alignment of the watermark to the page. |
 | [setVAlignment(TextAlignmentType)](#setVAlignment-textalignmenttype-)| Gets or sets vertical alignment of the watermark to the page. |
-| [getOffsetX()](#getOffsetX--)| Gets or sets offset value to [HAlignment](/nodejs-cpp/halignment/) |
-| [setOffsetX(number)](#setOffsetX-number-)| Gets or sets offset value to [HAlignment](/nodejs-cpp/halignment/) |
-| [getOffsetY()](#getOffsetY--)| Gets or sets offset value to [VAlignment](/nodejs-cpp/valignment/) |
-| [setOffsetY(number)](#setOffsetY-number-)| Gets or sets offset value to [VAlignment](/nodejs-cpp/valignment/) |
+| [getOffsetX()](#getOffsetX--)| Gets or sets offset value to [HAlignment](../halignment/) |
+| [setOffsetX(number)](#setOffsetX-number-)| Gets or sets offset value to [HAlignment](../halignment/) |
+| [getOffsetY()](#getOffsetY--)| Gets or sets offset value to [VAlignment](../valignment/) |
+| [setOffsetY(number)](#setOffsetY-number-)| Gets or sets offset value to [VAlignment](../valignment/) |
 
 
 ### constructor(number[]) {#constructor-numberarray-}
@@ -72,7 +72,7 @@ constructor(text: string, renderingFont: RenderingFont);
 | Parameter | Type | Description |
 | --- | --- | --- |
 | text | string | watermark text |
-| renderingFont | [RenderingFont](/nodejs-cpp/renderingfont/) | watermark font |
+| renderingFont | [RenderingFont](../renderingfont/) | watermark font |
 
 ### getRotation() {#getRotation--}
 
@@ -182,7 +182,7 @@ getFont() : RenderingFont;
 
 **Returns**
 
-[RenderingFont](/nodejs-cpp/renderingfont/)
+[RenderingFont](../renderingfont/)
 
 ### getImage() {#getImage--}
 
@@ -208,7 +208,7 @@ getHAlignment() : TextAlignmentType;
 
 **Returns**
 
-[TextAlignmentType](/nodejs-cpp/textalignmenttype/)
+[TextAlignmentType](../textalignmenttype/)
 
 **Remarks**
 
@@ -225,7 +225,7 @@ setHAlignment(value: TextAlignmentType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [TextAlignmentType](/nodejs-cpp/textalignmenttype/) | The value to set. |
+| value | [TextAlignmentType](../textalignmenttype/) | The value to set. |
 
 **Remarks**
 
@@ -242,7 +242,7 @@ getVAlignment() : TextAlignmentType;
 
 **Returns**
 
-[TextAlignmentType](/nodejs-cpp/textalignmenttype/)
+[TextAlignmentType](../textalignmenttype/)
 
 **Remarks**
 
@@ -259,7 +259,7 @@ setVAlignment(value: TextAlignmentType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [TextAlignmentType](/nodejs-cpp/textalignmenttype/) | The value to set. |
+| value | [TextAlignmentType](../textalignmenttype/) | The value to set. |
 
 **Remarks**
 
@@ -267,7 +267,7 @@ Only Top, Center, Bottom is valid. Default is Top.
 
 ### getOffsetX() {#getOffsetX--}
 
-Gets or sets offset value to [HAlignment](/nodejs-cpp/halignment/)
+Gets or sets offset value to [HAlignment](../halignment/)
 
 ```javascript
 getOffsetX() : number;
@@ -276,7 +276,7 @@ getOffsetX() : number;
 
 ### setOffsetX(number) {#setOffsetX-number-}
 
-Gets or sets offset value to [HAlignment](/nodejs-cpp/halignment/)
+Gets or sets offset value to [HAlignment](../halignment/)
 
 ```javascript
 setOffsetX(value: number) : void;
@@ -289,7 +289,7 @@ setOffsetX(value: number) : void;
 
 ### getOffsetY() {#getOffsetY--}
 
-Gets or sets offset value to [VAlignment](/nodejs-cpp/valignment/)
+Gets or sets offset value to [VAlignment](../valignment/)
 
 ```javascript
 getOffsetY() : number;
@@ -298,7 +298,7 @@ getOffsetY() : number;
 
 ### setOffsetY(number) {#setOffsetY-number-}
 
-Gets or sets offset value to [VAlignment](/nodejs-cpp/valignment/)
+Gets or sets offset value to [VAlignment](../valignment/)
 
 ```javascript
 setOffsetY(value: number) : void;

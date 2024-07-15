@@ -15,7 +15,7 @@ class CustomDocumentPropertyCollection extends DocumentPropertyCollection;
 ```
 
 ### Remarks
-<p>Each [DocumentProperty](/nodejs-cpp/documentproperty/) object represents a custom property of a container document.</p>
+<p>Each [DocumentProperty](../documentproperty/) object represents a custom property of a container document.</p>
 
 ## Constructors
 
@@ -40,7 +40,7 @@ class CustomDocumentPropertyCollection extends DocumentPropertyCollection;
 | [remove(string)](#remove-string-)| Removes a property with the specified name from the collection. |
 | [removeAt(number)](#removeAt-number-)| Removes a property at the specified index. |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
-| [get(string)](#get-string-)| Returns a [DocumentProperty](/nodejs-cpp/documentproperty/) object by the name of the property. |
+| [get(string)](#get-string-)| Returns a [DocumentProperty](../documentproperty/) object by the name of the property. |
 
 
 ### constructor(DocumentPropertyCollection) {#constructor-documentpropertycollection-}
@@ -253,7 +253,7 @@ getCount() : number;
 
 ### get(string) {#get-string-}
 
-Returns a [DocumentProperty](/nodejs-cpp/documentproperty/) object by the name of the property.
+Returns a [DocumentProperty](../documentproperty/) object by the name of the property.
 
 ```javascript
 get(name: string) : DocumentProperty;
@@ -266,7 +266,7 @@ get(name: string) : DocumentProperty;
 
 **Returns**
 
-[DocumentProperty](/nodejs-cpp/documentproperty/)
+[DocumentProperty](../documentproperty/)
 
 **Remarks**
 

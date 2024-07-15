@@ -34,7 +34,7 @@ getFilterOperatorType() : FilterOperatorType;
 
 **Returns**
 
-[FilterOperatorType](/nodejs-cpp/filteroperatortype/)
+[FilterOperatorType](../filteroperatortype/)
 
 ### setFilterOperatorType(FilterOperatorType) {#setFilterOperatorType-filteroperatortype-}
 
@@ -47,6 +47,6 @@ setFilterOperatorType(value: FilterOperatorType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [FilterOperatorType](/nodejs-cpp/filteroperatortype/) | The value to set. |
+| value | [FilterOperatorType](../filteroperatortype/) | The value to set. |
 
 

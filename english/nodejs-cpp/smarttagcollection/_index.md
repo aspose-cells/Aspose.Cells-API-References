@@ -19,7 +19,7 @@ class SmartTagCollection;
 
 | Method | Description |
 | --- | --- |
-| [get(number)](#get-number-)| Gets a [SmartTag](/nodejs-cpp/smarttag/) object at the specific index |
+| [get(number)](#get-number-)| Gets a [SmartTag](../smarttag/) object at the specific index |
 | [getRow()](#getRow--)| Gets the row of the cell smart tags. |
 | [getColumn()](#getColumn--)| Gets the column of the cell smart tags. |
 | [add(string, string)](#add-string-string-)| Adds a smart tag. |
@@ -28,7 +28,7 @@ class SmartTagCollection;
 
 ### get(number) {#get-number-}
 
-Gets a [SmartTag](/nodejs-cpp/smarttag/) object at the specific index
+Gets a [SmartTag](../smarttag/) object at the specific index
 
 ```javascript
 get(index: number) : SmartTag;
@@ -41,7 +41,7 @@ get(index: number) : SmartTag;
 
 **Returns**
 
-returns a [SmartTag](/nodejs-cpp/smarttag/) object.
+returns a [SmartTag](../smarttag/) object.
 
 ### getRow() {#getRow--}
 

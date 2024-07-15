@@ -33,7 +33,7 @@ draw(drawObject: DrawObject, x: number, y: number, width: number, height: number
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| drawObject | [DrawObject](/nodejs-cpp/drawobject/) | DrawObject will be initialized and returned when rendering |
+| drawObject | [DrawObject](../drawobject/) | DrawObject will be initialized and returned when rendering |
 | x | number | Left of DrawObject |
 | y | number | Top of DrawObject |
 | width | number | Width of DrawObject |

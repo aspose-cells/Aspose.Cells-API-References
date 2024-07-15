@@ -107,7 +107,7 @@ getTextVerticalOverflow() : TextOverflowType;
 
 **Returns**
 
-[TextOverflowType](/nodejs-cpp/textoverflowtype/)
+[TextOverflowType](../textoverflowtype/)
 
 ### setTextVerticalOverflow(TextOverflowType) {#setTextVerticalOverflow-textoverflowtype-}
 
@@ -120,7 +120,7 @@ setTextVerticalOverflow(value: TextOverflowType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [TextOverflowType](/nodejs-cpp/textoverflowtype/) | The value to set. |
+| value | [TextOverflowType](../textoverflowtype/) | The value to set. |
 
 ### getTextHorizontalOverflow() {#getTextHorizontalOverflow--}
 
@@ -133,7 +133,7 @@ getTextHorizontalOverflow() : TextOverflowType;
 
 **Returns**
 
-[TextOverflowType](/nodejs-cpp/textoverflowtype/)
+[TextOverflowType](../textoverflowtype/)
 
 ### setTextHorizontalOverflow(TextOverflowType) {#setTextHorizontalOverflow-textoverflowtype-}
 
@@ -146,7 +146,7 @@ setTextHorizontalOverflow(value: TextOverflowType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [TextOverflowType](/nodejs-cpp/textoverflowtype/) | The value to set. |
+| value | [TextOverflowType](../textoverflowtype/) | The value to set. |
 
 ### getRotationAngle() {#getRotationAngle--}
 
@@ -181,7 +181,7 @@ getTextVerticalType() : TextVerticalType;
 
 **Returns**
 
-[TextVerticalType](/nodejs-cpp/textverticaltype/)
+[TextVerticalType](../textverticaltype/)
 
 ### setTextVerticalType(TextVerticalType) {#setTextVerticalType-textverticaltype-}
 
@@ -194,7 +194,7 @@ setTextVerticalType(value: TextVerticalType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [TextVerticalType](/nodejs-cpp/textverticaltype/) | The value to set. |
+| value | [TextVerticalType](../textverticaltype/) | The value to set. |
 
 ### isLockedText() {#isLockedText--}
 
@@ -259,7 +259,7 @@ getTextShapeType() : AutoShapeType;
 
 **Returns**
 
-[AutoShapeType](/nodejs-cpp/autoshapetype/)
+[AutoShapeType](../autoshapetype/)
 
 ### setTextShapeType(AutoShapeType) {#setTextShapeType-autoshapetype-}
 
@@ -272,7 +272,7 @@ setTextShapeType(value: AutoShapeType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [AutoShapeType](/nodejs-cpp/autoshapetype/) | The value to set. |
+| value | [AutoShapeType](../autoshapetype/) | The value to set. |
 
 ### getTopMarginPt() {#getTopMarginPt--}
 

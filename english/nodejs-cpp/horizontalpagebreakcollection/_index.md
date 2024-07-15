@@ -1,14 +1,14 @@
 ﻿---
 title: HorizontalPageBreakCollection
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Encapsulates a collection of HorizontalPageBreaknodejscpphorizontalpagebreak objects.
+description: Encapsulates a collection of HorizontalPageBreak..horizontalpagebreak objects.
 type: docs
 url: /nodejs-cpp/horizontalpagebreakcollection/
 ---
 
 ## HorizontalPageBreakCollection class
 
-Encapsulates a collection of [HorizontalPageBreak](/nodejs-cpp/horizontalpagebreak/) objects.
+Encapsulates a collection of [HorizontalPageBreak](../horizontalpagebreak/) objects.
 
 ```javascript
 class HorizontalPageBreakCollection;
@@ -19,7 +19,7 @@ class HorizontalPageBreakCollection;
 
 | Method | Description |
 | --- | --- |
-| [get(number)](#get-number-)| Gets the [HorizontalPageBreak](/nodejs-cpp/horizontalpagebreak/) element at the specified index. |
+| [get(number)](#get-number-)| Gets the [HorizontalPageBreak](../horizontalpagebreak/) element at the specified index. |
 | [add(number, number, number)](#add-number-number-number-)| Adds a horizontal page break to the collection. |
 | [add(number)](#add-number-)| Adds a horizontal page break to the collection. |
 | [add(number, number)](#add-number-number-)| Adds a horizontal page break to the collection. |
@@ -30,7 +30,7 @@ class HorizontalPageBreakCollection;
 
 ### get(number) {#get-number-}
 
-Gets the [HorizontalPageBreak](/nodejs-cpp/horizontalpagebreak/) element at the specified index.
+Gets the [HorizontalPageBreak](../horizontalpagebreak/) element at the specified index.
 
 ```javascript
 get(index: number) : HorizontalPageBreak;
@@ -62,7 +62,7 @@ add(row: number, startColumn: number, endColumn: number) : number;
 
 **Returns**
 
-[HorizontalPageBreak](/nodejs-cpp/horizontalpagebreak/) object index.
+[HorizontalPageBreak](../horizontalpagebreak/) object index.
 
 **Remarks**
 
@@ -83,7 +83,7 @@ add(row: number) : number;
 
 **Returns**
 
-[HorizontalPageBreak](/nodejs-cpp/horizontalpagebreak/) object index.
+[HorizontalPageBreak](../horizontalpagebreak/) object index.
 
 **Remarks**
 
@@ -105,7 +105,7 @@ add(row: number, column: number) : number;
 
 **Returns**
 
-[HorizontalPageBreak](/nodejs-cpp/horizontalpagebreak/) object index.
+[HorizontalPageBreak](../horizontalpagebreak/) object index.
 
 **Remarks**
 
@@ -126,7 +126,7 @@ add(cellName: string) : number;
 
 **Returns**
 
-[HorizontalPageBreak](/nodejs-cpp/horizontalpagebreak/) object index.
+[HorizontalPageBreak](../horizontalpagebreak/) object index.
 
 **Remarks**
 

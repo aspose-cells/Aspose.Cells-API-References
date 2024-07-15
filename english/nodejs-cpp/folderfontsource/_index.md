@@ -87,6 +87,6 @@ getType() : FontSourceType;
 
 **Returns**
 
-[FontSourceType](/nodejs-cpp/fontsourcetype/)
+[FontSourceType](../fontsourcetype/)
 
 

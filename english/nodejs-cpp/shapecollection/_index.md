@@ -19,7 +19,7 @@ class ShapeCollection;
 
 | Method | Description |
 | --- | --- |
-| [get(number)](#get-number-)| Gets the [Shape](/nodejs-cpp/shape/) object at the specific index in the list. |
+| [get(number)](#get-number-)| Gets the [Shape](../shape/) object at the specific index in the list. |
 | [addCopy(Shape, number, number, number, number)](#addCopy-shape-number-number-number-number-)| Adds and copy a shape to the worksheet. |
 | [addCheckBox(number, number, number, number, number, number)](#addCheckBox-number-number-number-number-number-number-)| Adds a checkbox to the worksheet. |
 | [addTextBox(number, number, number, number, number, number)](#addTextBox-number-number-number-number-number-number-)| Adds a text box to the worksheet. |
@@ -73,7 +73,7 @@ class ShapeCollection;
 
 ### get(number) {#get-number-}
 
-Gets the [Shape](/nodejs-cpp/shape/) object at the specific index in the list.
+Gets the [Shape](../shape/) object at the specific index in the list.
 
 ```javascript
 get(index: number) : Shape;
@@ -86,7 +86,7 @@ get(index: number) : Shape;
 
 **Returns**
 
-[Shape](/nodejs-cpp/shape/)
+[Shape](../shape/)
 
 ### addCopy(Shape, number, number, number, number) {#addCopy-shape-number-number-number-number-}
 
@@ -99,7 +99,7 @@ addCopy(sourceShape: Shape, topRow: number, top: number, leftColumn: number, lef
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sourceShape | [Shape](/nodejs-cpp/shape/) | Source shape. |
+| sourceShape | [Shape](../shape/) | Source shape. |
 | topRow | number | The top row index. |
 | top | number | Represents the vertical  offset from its top row, in unit of pixel. |
 | leftColumn | number | The left column index. |
@@ -107,7 +107,7 @@ addCopy(sourceShape: Shape, topRow: number, top: number, leftColumn: number, lef
 
 **Returns**
 
-The new [Shape](/nodejs-cpp/shape/) object.
+The new [Shape](../shape/) object.
 
 ### addCheckBox(number, number, number, number, number, number) {#addCheckBox-number-number-number-number-number-number-}
 
@@ -151,7 +151,7 @@ addTextBox(upperLeftRow: number, top: number, upperLeftColumn: number, left: num
 
 **Returns**
 
-A [TextBox](/nodejs-cpp/textbox/) object.
+A [TextBox](../textbox/) object.
 
 ### addEquation(number, number, number, number, number, number) {#addEquation-number-number-number-number-number-number-}
 
@@ -173,7 +173,7 @@ addEquation(topRow: number, top: number, leftColumn: number, left: number, heigh
 
 **Returns**
 
-[TextBox](/nodejs-cpp/textbox/)
+[TextBox](../textbox/)
 
 ### addSpinner(number, number, number, number, number, number) {#addSpinner-number-number-number-number-number-number-}
 
@@ -402,7 +402,7 @@ addTextEffectInChart(effect: MsoPresetTextEffect, text: string, fontName: string
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| effect | [MsoPresetTextEffect](/nodejs-cpp/msopresettexteffect/) | The mso preset text effect type. |
+| effect | [MsoPresetTextEffect](../msopresettexteffect/) | The mso preset text effect type. |
 | text | string | The WordArt text. |
 | fontName | string | The font name. |
 | size | number | The font size |
@@ -428,7 +428,7 @@ addTextEffect(effect: MsoPresetTextEffect, text: string, fontName: string, size:
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| effect | [MsoPresetTextEffect](/nodejs-cpp/msopresettexteffect/) | The mso preset text effect type. |
+| effect | [MsoPresetTextEffect](../msopresettexteffect/) | The mso preset text effect type. |
 | text | string | The WordArt text. |
 | fontName | string | The font name. |
 | size | number | The font size |
@@ -456,7 +456,7 @@ addWordArt(style: PresetWordArtStyle, text: string, upperLeftRow: number, top: n
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| style | [PresetWordArtStyle](/nodejs-cpp/presetwordartstyle/) | The preset WordArt Style. |
+| style | [PresetWordArtStyle](../presetwordartstyle/) | The preset WordArt Style. |
 | text | string | The text. |
 | upperLeftRow | number | Upper left row index. |
 | top | number | Represents the vertical  offset of shape from its left row, in unit of pixel. |
@@ -467,7 +467,7 @@ addWordArt(style: PresetWordArtStyle, text: string, upperLeftRow: number, top: n
 
 **Returns**
 
-[Shape](/nodejs-cpp/shape/)
+[Shape](../shape/)
 
 ### addRectangle(number, number, number, number, number, number) {#addRectangle-number-number-number-number-number-number-}
 
@@ -546,7 +546,7 @@ addFreeFloatingShape(type: MsoDrawingType, top: number, left: number, height: nu
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | [MsoDrawingType](/nodejs-cpp/msodrawingtype/) | The shape type. |
+| type | [MsoDrawingType](../msodrawingtype/) | The shape type. |
 | top | number | Represents the vertical  offset of shape from the worksheet's top row, in unit of pixel. |
 | left | number | Represents the horizontal offset of shape from the worksheet's left column, in unit of pixel. |
 | height | number | Represents the height of LineShape, in unit of pixel. |
@@ -556,7 +556,7 @@ addFreeFloatingShape(type: MsoDrawingType, top: number, left: number, height: nu
 
 **Returns**
 
-[Shape](/nodejs-cpp/shape/)
+[Shape](../shape/)
 
 ### addShapeInChart(MsoDrawingType, PlacementType, number, number, number, number, number[]) {#addShapeInChart-msodrawingtype-placementtype-number-number-number-number-numberarray-}
 
@@ -569,8 +569,8 @@ addShapeInChart(type: MsoDrawingType, placement: PlacementType, left: number, to
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | [MsoDrawingType](/nodejs-cpp/msodrawingtype/) | The drawing type. |
-| placement | [PlacementType](/nodejs-cpp/placementtype/) | the placement type. |
+| type | [MsoDrawingType](../msodrawingtype/) | The drawing type. |
+| placement | [PlacementType](../placementtype/) | the placement type. |
 | left | number | In unit of 1/4000 chart area width. |
 | top | number | In unit of 1/4000 chart area height. |
 | right | number | In unit of 1/4000 chart area width. |
@@ -579,7 +579,7 @@ addShapeInChart(type: MsoDrawingType, placement: PlacementType, left: number, to
 
 **Returns**
 
-[Shape](/nodejs-cpp/shape/)
+[Shape](../shape/)
 
 ### addShapeInChart(MsoDrawingType, PlacementType, number, number, number, number) {#addShapeInChart-msodrawingtype-placementtype-number-number-number-number-}
 
@@ -592,8 +592,8 @@ addShapeInChart(type: MsoDrawingType, placement: PlacementType, left: number, to
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | [MsoDrawingType](/nodejs-cpp/msodrawingtype/) | The drawing type. |
-| placement | [PlacementType](/nodejs-cpp/placementtype/) | the placement type. |
+| type | [MsoDrawingType](../msodrawingtype/) | The drawing type. |
+| placement | [PlacementType](../placementtype/) | the placement type. |
 | left | number | In unit of 1/4000 chart area width. |
 | top | number | In unit of 1/4000 chart area height. |
 | right | number | In unit of 1/4000 chart area width. |
@@ -601,7 +601,7 @@ addShapeInChart(type: MsoDrawingType, placement: PlacementType, left: number, to
 
 **Returns**
 
-[Shape](/nodejs-cpp/shape/)
+[Shape](../shape/)
 
 ### addShapeInChartByScale(MsoDrawingType, PlacementType, number, number, number, number) {#addShapeInChartByScale-msodrawingtype-placementtype-number-number-number-number-}
 
@@ -614,8 +614,8 @@ addShapeInChartByScale(type: MsoDrawingType, placement: PlacementType, left: num
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | [MsoDrawingType](/nodejs-cpp/msodrawingtype/) | The drawing type. |
-| placement | [PlacementType](/nodejs-cpp/placementtype/) | the placement type. |
+| type | [MsoDrawingType](../msodrawingtype/) | The drawing type. |
+| placement | [PlacementType](../placementtype/) | the placement type. |
 | left | number | Unit is percent scale of chart area width. |
 | top | number | Unit is percent scale of chart area height. |
 | right | number | Unit is percent scale of chart area width. |
@@ -623,7 +623,7 @@ addShapeInChartByScale(type: MsoDrawingType, placement: PlacementType, left: num
 
 **Returns**
 
-[Shape](/nodejs-cpp/shape/)
+[Shape](../shape/)
 
 ### addShapeInChartByScale(MsoDrawingType, PlacementType, number, number, number, number, number[]) {#addShapeInChartByScale-msodrawingtype-placementtype-number-number-number-number-numberarray-}
 
@@ -636,8 +636,8 @@ addShapeInChartByScale(type: MsoDrawingType, placement: PlacementType, left: num
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | [MsoDrawingType](/nodejs-cpp/msodrawingtype/) | The drawing type. |
-| placement | [PlacementType](/nodejs-cpp/placementtype/) | the placement type. |
+| type | [MsoDrawingType](../msodrawingtype/) | The drawing type. |
+| placement | [PlacementType](../placementtype/) | the placement type. |
 | left | number | Unit is percent scale of chart area width. |
 | top | number | Unit is percent scale of chart area height. |
 | right | number | Unit is percent scale of chart area width. |
@@ -646,7 +646,7 @@ addShapeInChartByScale(type: MsoDrawingType, placement: PlacementType, left: num
 
 **Returns**
 
-[Shape](/nodejs-cpp/shape/)
+[Shape](../shape/)
 
 ### addArc(number, number, number, number, number, number) {#addArc-number-number-number-number-number-number-}
 
@@ -681,7 +681,7 @@ addShape(type: MsoDrawingType, upperLeftRow: number, top: number, upperLeftColum
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | [MsoDrawingType](/nodejs-cpp/msodrawingtype/) | Mso drawing type. |
+| type | [MsoDrawingType](../msodrawingtype/) | Mso drawing type. |
 | upperLeftRow | number | Upper left row index. |
 | top | number | Represents the vertical  offset of Shape from its left row, in unit of pixel. |
 | upperLeftColumn | number | Upper left column index. |
@@ -708,7 +708,7 @@ addAutoShape(type: AutoShapeType, upperLeftRow: number, top: number, upperLeftCo
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | [AutoShapeType](/nodejs-cpp/autoshapetype/) | Auto shape type. |
+| type | [AutoShapeType](../autoshapetype/) | Auto shape type. |
 | upperLeftRow | number | Upper left row index. |
 | top | number | Represents the vertical  offset of Shape from its left row, in unit of pixel. |
 | upperLeftColumn | number | Upper left column index. |
@@ -735,7 +735,7 @@ addAutoShapeInChart(type: AutoShapeType, top: number, left: number, height: numb
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | [AutoShapeType](/nodejs-cpp/autoshapetype/) | Auto shape type. |
+| type | [AutoShapeType](../autoshapetype/) | Auto shape type. |
 | top | number | Represents the vertical offset of textbox from the upper left corner in units of 1/4000 of the chart area. |
 | left | number | Represents the vertical offset of textbox from the upper left corner in units of 1/4000 of the chart area. |
 | height | number | Represents the height of textbox, in units of 1/4000 of the chart area. |
@@ -760,7 +760,7 @@ addActiveXControl(type: ControlType, topRow: number, top: number, leftColumn: nu
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | [ControlType](/nodejs-cpp/controltype/) | The type of the control. |
+| type | [ControlType](../controltype/) | The type of the control. |
 | topRow | number | Upper left row index. |
 | top | number | Represents the vertical  offset of Shape from its left row, in unit of pixel. |
 | leftColumn | number | Upper left column index. |
@@ -770,7 +770,7 @@ addActiveXControl(type: ControlType, topRow: number, top: number, leftColumn: nu
 
 **Returns**
 
-[Shape](/nodejs-cpp/shape/)
+[Shape](../shape/)
 
 ### addPicture(number, number, number, number, Uint8Array) {#addPicture-number-number-number-number-uint8array-}
 
@@ -791,7 +791,7 @@ addPicture(upperLeftRow: number, upperLeftColumn: number, lowerRightRow: number,
 
 **Returns**
 
-[Picture](/nodejs-cpp/picture/) Picture object.
+[Picture](../picture/) Picture object.
 
 ### addPicture(number, number, Uint8Array, number, number) {#addPicture-number-number-uint8array-number-number-}
 
@@ -812,7 +812,7 @@ addPicture(upperLeftRow: number, upperLeftColumn: number, stream: Uint8Array, wi
 
 **Returns**
 
-[Picture](/nodejs-cpp/picture/) Picture object.
+[Picture](../picture/) Picture object.
 
 ### addSvg(number, number, number, number, number, number, number[], number[]) {#addSvg-number-number-number-number-number-number-numberarray-numberarray-}
 
@@ -836,7 +836,7 @@ addSvg(upperLeftRow: number, top: number, upperLeftColumn: number, left: number,
 
 **Returns**
 
-[Picture](/nodejs-cpp/picture/)
+[Picture](../picture/)
 
 ### addIcons(number, number, number, number, number, number, number[], number[]) {#addIcons-number-number-number-number-number-number-numberarray-numberarray-}
 
@@ -860,7 +860,7 @@ addIcons(upperLeftRow: number, top: number, upperLeftColumn: number, left: numbe
 
 **Returns**
 
-[Picture](/nodejs-cpp/picture/)
+[Picture](../picture/)
 
 ### addLinkedPicture(number, number, number, number, string) {#addLinkedPicture-number-number-number-number-string-}
 
@@ -881,7 +881,7 @@ addLinkedPicture(upperLeftRow: number, upperLeftColumn: number, height: number, 
 
 **Returns**
 
-[Picture](/nodejs-cpp/picture/) Picture object.
+[Picture](../picture/) Picture object.
 
 ### addOleObjectWithLinkedImage(number, number, number, number, string) {#addOleObjectWithLinkedImage-number-number-number-number-string-}
 
@@ -902,7 +902,7 @@ addOleObjectWithLinkedImage(upperLeftRow: number, upperLeftColumn: number, heigh
 
 **Returns**
 
-[Picture](/nodejs-cpp/picture/) Picture object.
+[Picture](../picture/) Picture object.
 
 ### addPictureInChart(number, number, Uint8Array, number, number) {#addPictureInChart-number-number-uint8array-number-number-}
 
@@ -946,7 +946,7 @@ addOleObject(upperLeftRow: number, top: number, upperLeftColumn: number, left: n
 
 **Returns**
 
-[OleObject](/nodejs-cpp/oleobject/)
+[OleObject](../oleobject/)
 
 ### copyCommentsInRange(ShapeCollection, CellArea, number, number) {#copyCommentsInRange-shapecollection-cellarea-number-number-}
 
@@ -959,8 +959,8 @@ copyCommentsInRange(shapes: ShapeCollection, ca: CellArea, destRow: number, dest
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| shapes | [ShapeCollection](/nodejs-cpp/shapecollection/) | The source shapes. |
-| ca | [CellArea](/nodejs-cpp/cellarea/) | The source range. |
+| shapes | [ShapeCollection](../shapecollection/) | The source shapes. |
+| ca | [CellArea](../cellarea/) | The source range. |
 | destRow | number | The dest range start row. |
 | destColumn | number | The dest range start column. |
 
@@ -975,8 +975,8 @@ copyInRange(sourceShapes: ShapeCollection, ca: CellArea, destRow: number, destCo
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sourceShapes | [ShapeCollection](/nodejs-cpp/shapecollection/) | Source shapes. |
-| ca | [CellArea](/nodejs-cpp/cellarea/) | The source range. |
+| sourceShapes | [ShapeCollection](../shapecollection/) | Source shapes. |
+| ca | [CellArea](../cellarea/) | The source range. |
 | destRow | number | The dest row index of the dest range. |
 | destColumn | number | The dest column of the dest range. |
 | isContained | boolean | Whether only copy the shapes which are contained in the range.         /// If true,only copies the shapes in the range.          /// Otherwise,it works as MS Office. |
@@ -992,7 +992,7 @@ deleteInRange(ca: CellArea) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| ca | [CellArea](/nodejs-cpp/cellarea/) | The range.If the shapes are contained in the range, they will be removed. |
+| ca | [CellArea](../cellarea/) | The range.If the shapes are contained in the range, they will be removed. |
 
 ### deleteShape(Shape) {#deleteShape-shape-}
 
@@ -1005,7 +1005,7 @@ deleteShape(shape: Shape) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| shape | [Shape](/nodejs-cpp/shape/) |  |
+| shape | [Shape](../shape/) |  |
 
 ### group(Shape[]) {#group-shapearray-}
 
@@ -1018,7 +1018,7 @@ group(groupItems: Shape[]) : GroupShape;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| groupItems | [Shape](/nodejs-cpp/shape/)[] | the group items. |
+| groupItems | [Shape](../shape/)[] | the group items. |
 
 **Returns**
 
@@ -1039,7 +1039,7 @@ ungroup(group: GroupShape) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| group | [GroupShape](/nodejs-cpp/groupshape/) | The group shape. |
+| group | [GroupShape](../groupshape/) | The group shape. |
 
 **Remarks**
 
@@ -1069,7 +1069,7 @@ remove(shape: Shape) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| shape | [Shape](/nodejs-cpp/shape/) |  |
+| shape | [Shape](../shape/) |  |
 
 ### clear() {#clear--}
 

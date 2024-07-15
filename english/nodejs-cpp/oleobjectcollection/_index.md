@@ -19,7 +19,7 @@ class OleObjectCollection;
 
 | Method | Description |
 | --- | --- |
-| [get(number)](#get-number-)| Gets the [OleObject](/nodejs-cpp/oleobject/) element at the specified index. |
+| [get(number)](#get-number-)| Gets the [OleObject](../oleobject/) element at the specified index. |
 | [add(number, number, number, number, number[])](#add-number-number-number-number-numberarray-)| Adds an OleObject to the collection. |
 | [add(number, number, number, number, number[], string)](#add-number-number-number-number-numberarray-string-)| Adds a linked OleObject to the collection. |
 | [clear()](#clear--)| Remove all embedded OLE objects. |
@@ -29,7 +29,7 @@ class OleObjectCollection;
 
 ### get(number) {#get-number-}
 
-Gets the [OleObject](/nodejs-cpp/oleobject/) element at the specified index.
+Gets the [OleObject](../oleobject/) element at the specified index.
 
 ```javascript
 get(index: number) : OleObject;
@@ -63,7 +63,7 @@ add(upperLeftRow: number, upperLeftColumn: number, height: number, width: number
 
 **Returns**
 
-[OleObject](/nodejs-cpp/oleobject/) object index.
+[OleObject](../oleobject/) object index.
 
 ### add(number, number, number, number, number[], string) {#add-number-number-number-number-numberarray-string-}
 
@@ -85,7 +85,7 @@ add(upperLeftRow: number, upperLeftColumn: number, height: number, width: number
 
 **Returns**
 
-[OleObject](/nodejs-cpp/oleobject/) object index.
+[OleObject](../oleobject/) object index.
 
 ### clear() {#clear--}
 

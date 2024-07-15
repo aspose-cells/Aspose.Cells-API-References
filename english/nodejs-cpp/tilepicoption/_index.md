@@ -147,7 +147,7 @@ getMirrorType() : MirrorType;
 
 **Returns**
 
-[MirrorType](/nodejs-cpp/mirrortype/)
+[MirrorType](../mirrortype/)
 
 ### setMirrorType(MirrorType) {#setMirrorType-mirrortype-}
 
@@ -160,7 +160,7 @@ setMirrorType(value: MirrorType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [MirrorType](/nodejs-cpp/mirrortype/) | The value to set. |
+| value | [MirrorType](../mirrortype/) | The value to set. |
 
 ### getAlignmentType() {#getAlignmentType--}
 
@@ -173,7 +173,7 @@ getAlignmentType() : RectangleAlignmentType;
 
 **Returns**
 
-[RectangleAlignmentType](/nodejs-cpp/rectanglealignmenttype/)
+[RectangleAlignmentType](../rectanglealignmenttype/)
 
 ### setAlignmentType(RectangleAlignmentType) {#setAlignmentType-rectanglealignmenttype-}
 
@@ -186,6 +186,6 @@ setAlignmentType(value: RectangleAlignmentType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [RectangleAlignmentType](/nodejs-cpp/rectanglealignmenttype/) | The value to set. |
+| value | [RectangleAlignmentType](../rectanglealignmenttype/) | The value to set. |
 
 

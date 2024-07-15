@@ -1,14 +1,14 @@
 ﻿---
 title: ConditionalFormattingCollection
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Encapsulates a collection of FormatConditionnodejscppformatcondition objects.
+description: Encapsulates a collection of FormatCondition..formatcondition objects.
 type: docs
 url: /nodejs-cpp/conditionalformattingcollection/
 ---
 
 ## ConditionalFormattingCollection class
 
-Encapsulates a collection of [FormatCondition](/nodejs-cpp/formatcondition/) objects.
+Encapsulates a collection of [FormatCondition](../formatcondition/) objects.
 
 ```javascript
 class ConditionalFormattingCollection;
@@ -41,7 +41,7 @@ get(index: number) : FormatConditionCollection;
 
 **Returns**
 
-[FormatConditionCollection](/nodejs-cpp/formatconditioncollection/)
+[FormatConditionCollection](../formatconditioncollection/)
 
 ### removeArea(number, number, number, number) {#removeArea-number-number-number-number-}
 
@@ -70,7 +70,7 @@ copy(cfs: ConditionalFormattingCollection) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| cfs | [ConditionalFormattingCollection](/nodejs-cpp/conditionalformattingcollection/) | The conditional formatting |
+| cfs | [ConditionalFormattingCollection](../conditionalformattingcollection/) | The conditional formatting |
 
 ### add() {#add--}
 

@@ -19,7 +19,7 @@ class RenderingFont;
 
 | Name | Description |
 | --- | --- |
-| [constructor(string, number)](#constructor-string-number-)| Initializes a new instance of the [RenderingFont](/nodejs-cpp/renderingfont/) |
+| [constructor(string, number)](#constructor-string-number-)| Initializes a new instance of the [RenderingFont](../renderingfont/) |
 
 ## Methods
 
@@ -37,7 +37,7 @@ class RenderingFont;
 
 ### constructor(string, number) {#constructor-string-number-}
 
-Initializes a new instance of the [RenderingFont](/nodejs-cpp/renderingfont/)
+Initializes a new instance of the [RenderingFont](../renderingfont/)
 
 ```javascript
 constructor(fontName: string, fontSize: number);
@@ -122,7 +122,7 @@ getColor() : Color;
 
 **Returns**
 
-[Color](/nodejs-cpp/color/)
+[Color](../color/)
 
 ### setColor(Color) {#setColor-color-}
 
@@ -135,6 +135,6 @@ setColor(value: Color) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [Color](/nodejs-cpp/color/) | The value to set. |
+| value | [Color](../color/) | The value to set. |
 
 

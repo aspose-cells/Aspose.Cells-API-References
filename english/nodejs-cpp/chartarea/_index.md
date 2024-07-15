@@ -33,14 +33,14 @@ class ChartArea extends ChartFrame;
 | [setHeight(number)](#setHeight-number-)| Gets or sets the vertical offset from its lower right corner row. |
 | [getWidth()](#getWidth--)| Gets or sets the horizontal offset from its lower right corner column. |
 | [setWidth(number)](#setWidth-number-)| Gets or sets the horizontal offset from its lower right corner column. |
-| [getFont()](#getFont--)| Gets a [Font](/nodejs-cpp/font/) object of the specified chartarea object. |
+| [getFont()](#getFont--)| Gets a [Font](../font/) object of the specified chartarea object. |
 | [isInnerMode()](#isInnerMode--)| Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. |
 | [setIsInnerMode(boolean)](#setIsInnerMode-boolean-)| Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. |
 | [getBackgroundMode()](#getBackgroundMode--)| Gets and sets the display mode of the background |
 | [setBackgroundMode(BackgroundMode)](#setBackgroundMode-backgroundmode-)| Gets and sets the display mode of the background |
 | [getShadow()](#getShadow--)| True if the frame has a shadow. |
 | [setShadow(boolean)](#setShadow-boolean-)| True if the frame has a shadow. |
-| [getShapeProperties()](#getShapeProperties--)| Gets the [ShapeProperties](/nodejs-cpp/shapeproperties/) object. |
+| [getShapeProperties()](#getShapeProperties--)| Gets the [ShapeProperties](../shapeproperties/) object. |
 | [isDefaultPosBeSet()](#isDefaultPosBeSet--)| Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set. |
 | [getDefaultX()](#getDefaultX--)| Represents x of default position |
 | [getDefaultY()](#getDefaultY--)| Represents y of default position |
@@ -159,7 +159,7 @@ setWidth(value: number) : void;
 
 ### getFont() {#getFont--}
 
-Gets a [Font](/nodejs-cpp/font/) object of the specified chartarea object.
+Gets a [Font](../font/) object of the specified chartarea object.
 
 ```javascript
 getFont() : Font;
@@ -168,7 +168,7 @@ getFont() : Font;
 
 **Returns**
 
-[Font](/nodejs-cpp/font/)
+[Font](../font/)
 
 ### isInnerMode() {#isInnerMode--}
 
@@ -211,7 +211,7 @@ getBackgroundMode() : BackgroundMode;
 
 **Returns**
 
-[BackgroundMode](/nodejs-cpp/backgroundmode/)
+[BackgroundMode](../backgroundmode/)
 
 ### setBackgroundMode(BackgroundMode) {#setBackgroundMode-backgroundmode-}
 
@@ -224,7 +224,7 @@ setBackgroundMode(value: BackgroundMode) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [BackgroundMode](/nodejs-cpp/backgroundmode/) | The value to set. |
+| value | [BackgroundMode](../backgroundmode/) | The value to set. |
 
 ### getShadow() {#getShadow--}
 
@@ -250,7 +250,7 @@ setShadow(value: boolean) : void;
 
 ### getShapeProperties() {#getShapeProperties--}
 
-Gets the [ShapeProperties](/nodejs-cpp/shapeproperties/) object.
+Gets the [ShapeProperties](../shapeproperties/) object.
 
 ```javascript
 getShapeProperties() : ShapePropertyCollection;
@@ -259,7 +259,7 @@ getShapeProperties() : ShapePropertyCollection;
 
 **Returns**
 
-[ShapePropertyCollection](/nodejs-cpp/shapepropertycollection/)
+[ShapePropertyCollection](../shapepropertycollection/)
 
 ### isDefaultPosBeSet() {#isDefaultPosBeSet--}
 
@@ -326,7 +326,7 @@ getBorder() : Line;
 
 **Returns**
 
-[Line](/nodejs-cpp/line/)
+[Line](../line/)
 
 ### getArea() {#getArea--}
 
@@ -339,7 +339,7 @@ getArea() : Area;
 
 **Returns**
 
-[Area](/nodejs-cpp/area/)
+[Area](../area/)
 
 ### getTextOptions() {#getTextOptions--}
 
@@ -352,7 +352,7 @@ getTextOptions() : TextOptions;
 
 **Returns**
 
-[TextOptions](/nodejs-cpp/textoptions/)
+[TextOptions](../textoptions/)
 
 ### getAutoScaleFont() {#getAutoScaleFont--}
 

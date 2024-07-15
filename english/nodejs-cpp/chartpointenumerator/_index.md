@@ -7,7 +7,7 @@ url: /nodejs-cpp/chartpointenumerator/
 ---
 
 ## ChartPointEnumerator class
-Iterator of [ChartPoint](/nodejs-cpp/chartpoint/) objects. Please use for...of statement to iterate over them.
+Iterator of [ChartPoint](../chartpoint/) objects. Please use for...of statement to iterate over them.
 
 ```javascript
 class ChartPointEnumerator implements Iterable<ChartPoint> {

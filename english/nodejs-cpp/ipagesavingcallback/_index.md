@@ -28,7 +28,7 @@ pageStartSaving(args: PageStartSavingArgs) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| args | [PageStartSavingArgs](/nodejs-cpp/pagestartsavingargs/) | Info for a page starts saving process. |
+| args | [PageStartSavingArgs](../pagestartsavingargs/) | Info for a page starts saving process. |
 
 ### pageEndSaving(PageEndSavingArgs) {#pageEndSaving-pageendsavingargs-}
 
@@ -41,6 +41,6 @@ pageEndSaving(args: PageEndSavingArgs) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| args | [PageEndSavingArgs](/nodejs-cpp/pageendsavingargs/) | Info for a page ends saving process. |
+| args | [PageEndSavingArgs](../pageendsavingargs/) | Info for a page ends saving process. |
 
 

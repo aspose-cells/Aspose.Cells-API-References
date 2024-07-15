@@ -42,7 +42,7 @@ getWorkbook() : Workbook;
 
 **Returns**
 
-[Workbook](/nodejs-cpp/workbook/)
+[Workbook](../workbook/)
 
 ### getWorksheet() {#getWorksheet--}
 
@@ -55,7 +55,7 @@ getWorksheet() : Worksheet;
 
 **Returns**
 
-[Worksheet](/nodejs-cpp/worksheet/)
+[Worksheet](../worksheet/)
 
 ### getCellRow() {#getCellRow--}
 
@@ -86,11 +86,11 @@ getCell() : Cell;
 
 **Returns**
 
-[Cell](/nodejs-cpp/cell/)
+[Cell](../cell/)
 
 **Remarks**
 
-When calculating a formula without setting it to a cell, such as by [Worksheet.CalculateFormula(string, CalculationOptions)](/nodejs-cpp/worksheet.calculateformula(string, calculationoptions)/), the formula will be calculated just like it has been set to cell A1, so both [CellRow](/nodejs-cpp/cellrow/) and [CellRow](/nodejs-cpp/cellrow/) are 0. However, cell A1 in the worksheet may has not been instantiated. So for such kind of situation this property will be null.
+When calculating a formula without setting it to a cell, such as by [Worksheet.CalculateFormula(string, CalculationOptions)](../worksheet.calculateformula(string, calculationoptions)/), the formula will be calculated just like it has been set to cell A1, so both [CellRow](../cellrow/) and [CellRow](../cellrow/) are 0. However, cell A1 in the worksheet may has not been instantiated. So for such kind of situation this property will be null.
 
 ### getFunctionName() {#getFunctionName--}
 

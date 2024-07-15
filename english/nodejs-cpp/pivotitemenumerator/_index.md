@@ -7,7 +7,7 @@ url: /nodejs-cpp/pivotitemenumerator/
 ---
 
 ## PivotItemEnumerator class
-Iterator of [PivotItem](/nodejs-cpp/pivotitem/) objects. Please use for...of statement to iterate over them.
+Iterator of [PivotItem](../pivotitem/) objects. Please use for...of statement to iterate over them.
 
 ```javascript
 class PivotItemEnumerator implements Iterable<PivotItem> {

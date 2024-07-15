@@ -45,7 +45,7 @@ static detectFileFormat(stream: Uint8Array) : FileFormatInfo;
 
 **Returns**
 
-A [FileFormatInfo](/nodejs-cpp/fileformatinfo/) object that contains the detected information.
+A [FileFormatInfo](../fileformatinfo/) object that contains the detected information.
 
 ### verifyPassword(Uint8Array, string) {#verifyPassword-uint8array-string-}
 
@@ -76,11 +76,11 @@ static fileFormatToSaveFormat(format: FileFormatType) : SaveFormat;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| format | [FileFormatType](/nodejs-cpp/fileformattype/) | The file format type. |
+| format | [FileFormatType](../fileformattype/) | The file format type. |
 
 **Returns**
 
-[SaveFormat](/nodejs-cpp/saveformat/)
+[SaveFormat](../saveformat/)
 
 ### extensionToSaveFormat(string) {#extensionToSaveFormat-string-}
 
@@ -97,11 +97,11 @@ static extensionToSaveFormat(extension: string) : SaveFormat;
 
 **Returns**
 
-[SaveFormat](/nodejs-cpp/saveformat/)
+[SaveFormat](../saveformat/)
 
 **Remarks**
 
-If the extension cannot be recognized, returns [SaveFormat.Unknown](/nodejs-cpp/saveformat.unknown/).
+If the extension cannot be recognized, returns [SaveFormat.Unknown](../saveformat.unknown/).
 
 ### isTemplateFormat(string) {#isTemplateFormat-string-}
 
@@ -127,7 +127,7 @@ static loadFormatToExtension(loadFormat: LoadFormat) : string;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| loadFormat | [LoadFormat](/nodejs-cpp/loadformat/) | The loaded file format. |
+| loadFormat | [LoadFormat](../loadformat/) | The loaded file format. |
 
 **Returns**
 
@@ -148,7 +148,7 @@ static loadFormatToSaveFormat(loadFormat: LoadFormat) : SaveFormat;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| loadFormat | [LoadFormat](/nodejs-cpp/loadformat/) | The load format. |
+| loadFormat | [LoadFormat](../loadformat/) | The load format. |
 
 **Returns**
 
@@ -165,7 +165,7 @@ static saveFormatToExtension(format: SaveFormat) : string;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| format | [SaveFormat](/nodejs-cpp/saveformat/) | The save format. |
+| format | [SaveFormat](../saveformat/) | The save format. |
 
 **Returns**
 
@@ -182,7 +182,7 @@ static saveFormatToLoadFormat(saveFormat: SaveFormat) : LoadFormat;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| saveFormat | [SaveFormat](/nodejs-cpp/saveformat/) | The save format. |
+| saveFormat | [SaveFormat](../saveformat/) | The save format. |
 
 **Returns**
 

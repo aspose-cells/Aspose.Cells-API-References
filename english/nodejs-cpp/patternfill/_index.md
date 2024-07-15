@@ -21,14 +21,14 @@ class PatternFill;
 | --- | --- |
 | [getPattern()](#getPattern--)| Gets or sets the fill pattern type |
 | [setPattern(FillPattern)](#setPattern-fillpattern-)| Gets or sets the fill pattern type |
-| [getBackgroundColor()](#getBackgroundColor--)| Gets or sets the background [System.Drawing.Color](/nodejs-cpp/system.drawing.color/) of the [System.Drawing.Color](/nodejs-cpp/system.drawing.color/). |
-| [setBackgroundColor(Color)](#setBackgroundColor-color-)| Gets or sets the background [System.Drawing.Color](/nodejs-cpp/system.drawing.color/) of the [System.Drawing.Color](/nodejs-cpp/system.drawing.color/). |
-| [getBackgroundCellsColor()](#getBackgroundCellsColor--)| Gets and sets the foreground [CellsColor](/nodejs-cpp/cellscolor/) object. |
-| [setBackgroundCellsColor(CellsColor)](#setBackgroundCellsColor-cellscolor-)| Gets and sets the foreground [CellsColor](/nodejs-cpp/cellscolor/) object. |
-| [getForegroundColor()](#getForegroundColor--)| Gets or sets the foreground [System.Drawing.Color](/nodejs-cpp/system.drawing.color/). |
-| [setForegroundColor(Color)](#setForegroundColor-color-)| Gets or sets the foreground [System.Drawing.Color](/nodejs-cpp/system.drawing.color/). |
-| [getForegroundCellsColor()](#getForegroundCellsColor--)| Gets and sets the foreground [CellsColor](/nodejs-cpp/cellscolor/) object. |
-| [setForegroundCellsColor(CellsColor)](#setForegroundCellsColor-cellscolor-)| Gets and sets the foreground [CellsColor](/nodejs-cpp/cellscolor/) object. |
+| [getBackgroundColor()](#getBackgroundColor--)| Gets or sets the background [System.Drawing.Color](../system.drawing.color/) of the [System.Drawing.Color](../system.drawing.color/). |
+| [setBackgroundColor(Color)](#setBackgroundColor-color-)| Gets or sets the background [System.Drawing.Color](../system.drawing.color/) of the [System.Drawing.Color](../system.drawing.color/). |
+| [getBackgroundCellsColor()](#getBackgroundCellsColor--)| Gets and sets the foreground [CellsColor](../cellscolor/) object. |
+| [setBackgroundCellsColor(CellsColor)](#setBackgroundCellsColor-cellscolor-)| Gets and sets the foreground [CellsColor](../cellscolor/) object. |
+| [getForegroundColor()](#getForegroundColor--)| Gets or sets the foreground [System.Drawing.Color](../system.drawing.color/). |
+| [setForegroundColor(Color)](#setForegroundColor-color-)| Gets or sets the foreground [System.Drawing.Color](../system.drawing.color/). |
+| [getForegroundCellsColor()](#getForegroundCellsColor--)| Gets and sets the foreground [CellsColor](../cellscolor/) object. |
+| [setForegroundCellsColor(CellsColor)](#setForegroundCellsColor-cellscolor-)| Gets and sets the foreground [CellsColor](../cellscolor/) object. |
 | [getForeTransparency()](#getForeTransparency--)| Gets or sets the transparency of foreground color. |
 | [setForeTransparency(number)](#setForeTransparency-number-)| Gets or sets the transparency of foreground color. |
 | [getBackTransparency()](#getBackTransparency--)| Gets or sets the transparency of background color. |
@@ -46,7 +46,7 @@ getPattern() : FillPattern;
 
 **Returns**
 
-[FillPattern](/nodejs-cpp/fillpattern/)
+[FillPattern](../fillpattern/)
 
 ### setPattern(FillPattern) {#setPattern-fillpattern-}
 
@@ -59,11 +59,11 @@ setPattern(value: FillPattern) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [FillPattern](/nodejs-cpp/fillpattern/) | The value to set. |
+| value | [FillPattern](../fillpattern/) | The value to set. |
 
 ### getBackgroundColor() {#getBackgroundColor--}
 
-Gets or sets the background [System.Drawing.Color](/nodejs-cpp/system.drawing.color/) of the [System.Drawing.Color](/nodejs-cpp/system.drawing.color/).
+Gets or sets the background [System.Drawing.Color](../system.drawing.color/) of the [System.Drawing.Color](../system.drawing.color/).
 
 ```javascript
 getBackgroundColor() : Color;
@@ -72,11 +72,11 @@ getBackgroundColor() : Color;
 
 **Returns**
 
-[Color](/nodejs-cpp/color/)
+[Color](../color/)
 
 ### setBackgroundColor(Color) {#setBackgroundColor-color-}
 
-Gets or sets the background [System.Drawing.Color](/nodejs-cpp/system.drawing.color/) of the [System.Drawing.Color](/nodejs-cpp/system.drawing.color/).
+Gets or sets the background [System.Drawing.Color](../system.drawing.color/) of the [System.Drawing.Color](../system.drawing.color/).
 
 ```javascript
 setBackgroundColor(value: Color) : void;
@@ -85,11 +85,11 @@ setBackgroundColor(value: Color) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [Color](/nodejs-cpp/color/) | The value to set. |
+| value | [Color](../color/) | The value to set. |
 
 ### getBackgroundCellsColor() {#getBackgroundCellsColor--}
 
-Gets and sets the foreground [CellsColor](/nodejs-cpp/cellscolor/) object.
+Gets and sets the foreground [CellsColor](../cellscolor/) object.
 
 ```javascript
 getBackgroundCellsColor() : CellsColor;
@@ -98,11 +98,11 @@ getBackgroundCellsColor() : CellsColor;
 
 **Returns**
 
-[CellsColor](/nodejs-cpp/cellscolor/)
+[CellsColor](../cellscolor/)
 
 ### setBackgroundCellsColor(CellsColor) {#setBackgroundCellsColor-cellscolor-}
 
-Gets and sets the foreground [CellsColor](/nodejs-cpp/cellscolor/) object.
+Gets and sets the foreground [CellsColor](../cellscolor/) object.
 
 ```javascript
 setBackgroundCellsColor(value: CellsColor) : void;
@@ -111,11 +111,11 @@ setBackgroundCellsColor(value: CellsColor) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [CellsColor](/nodejs-cpp/cellscolor/) | The value to set. |
+| value | [CellsColor](../cellscolor/) | The value to set. |
 
 ### getForegroundColor() {#getForegroundColor--}
 
-Gets or sets the foreground [System.Drawing.Color](/nodejs-cpp/system.drawing.color/).
+Gets or sets the foreground [System.Drawing.Color](../system.drawing.color/).
 
 ```javascript
 getForegroundColor() : Color;
@@ -124,11 +124,11 @@ getForegroundColor() : Color;
 
 **Returns**
 
-[Color](/nodejs-cpp/color/)
+[Color](../color/)
 
 ### setForegroundColor(Color) {#setForegroundColor-color-}
 
-Gets or sets the foreground [System.Drawing.Color](/nodejs-cpp/system.drawing.color/).
+Gets or sets the foreground [System.Drawing.Color](../system.drawing.color/).
 
 ```javascript
 setForegroundColor(value: Color) : void;
@@ -137,11 +137,11 @@ setForegroundColor(value: Color) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [Color](/nodejs-cpp/color/) | The value to set. |
+| value | [Color](../color/) | The value to set. |
 
 ### getForegroundCellsColor() {#getForegroundCellsColor--}
 
-Gets and sets the foreground [CellsColor](/nodejs-cpp/cellscolor/) object.
+Gets and sets the foreground [CellsColor](../cellscolor/) object.
 
 ```javascript
 getForegroundCellsColor() : CellsColor;
@@ -150,11 +150,11 @@ getForegroundCellsColor() : CellsColor;
 
 **Returns**
 
-[CellsColor](/nodejs-cpp/cellscolor/)
+[CellsColor](../cellscolor/)
 
 ### setForegroundCellsColor(CellsColor) {#setForegroundCellsColor-cellscolor-}
 
-Gets and sets the foreground [CellsColor](/nodejs-cpp/cellscolor/) object.
+Gets and sets the foreground [CellsColor](../cellscolor/) object.
 
 ```javascript
 setForegroundCellsColor(value: CellsColor) : void;
@@ -163,7 +163,7 @@ setForegroundCellsColor(value: CellsColor) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [CellsColor](/nodejs-cpp/cellscolor/) | The value to set. |
+| value | [CellsColor](../cellscolor/) | The value to set. |
 
 ### getForeTransparency() {#getForeTransparency--}
 

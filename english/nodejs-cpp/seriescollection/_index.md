@@ -1,14 +1,14 @@
 ﻿---
 title: SeriesCollection
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Encapsulates a collection of Seriesnodejscppseries objects.
+description: Encapsulates a collection of Series..series objects.
 type: docs
 url: /nodejs-cpp/seriescollection/
 ---
 
 ## SeriesCollection class
 
-Encapsulates a collection of [Series](/nodejs-cpp/series/) objects.
+Encapsulates a collection of [Series](../series/) objects.
 
 ```javascript
 class SeriesCollection;
@@ -19,28 +19,28 @@ class SeriesCollection;
 
 | Method | Description |
 | --- | --- |
-| [get(number)](#get-number-)| Gets the [Series](/nodejs-cpp/series/) element at the specified index. |
+| [get(number)](#get-number-)| Gets the [Series](../series/) element at the specified index. |
 | [getCategoryData()](#getCategoryData--)| Gets or sets the range of category Axis values. It can be a range of cells (such as, "d1:e10"), or a sequence of values (such as,"{2,6,8,10}"). |
 | [setCategoryData(string)](#setCategoryData-string-)| Gets or sets the range of category Axis values. It can be a range of cells (such as, "d1:e10"), or a sequence of values (such as,"{2,6,8,10}"). |
 | [getSecondCategoryData()](#getSecondCategoryData--)| Gets or sets the range of second category Axis values. It can be a range of cells (such as, "d1:e10"), or a sequence of values (such as,"{2,6,8,10}"). Only effects when some ASerieses plot on the second axis. |
 | [setSecondCategoryData(string)](#setSecondCategoryData-string-)| Gets or sets the range of second category Axis values. It can be a range of cells (such as, "d1:e10"), or a sequence of values (such as,"{2,6,8,10}"). Only effects when some ASerieses plot on the second axis. |
 | [isColorVaried()](#isColorVaried--)| Represents if the color of points is varied. |
 | [setIsColorVaried(boolean)](#setIsColorVaried-boolean-)| Represents if the color of points is varied. |
-| [getSeriesByOrder(number)](#getSeriesByOrder-number-)| Gets the [Series](/nodejs-cpp/series/) element by order. |
+| [getSeriesByOrder(number)](#getSeriesByOrder-number-)| Gets the [Series](../series/) element by order. |
 | [removeAt(number)](#removeAt-number-)| Remove at a series at the specific index. |
 | [changeSeriesOrder(number, number)](#changeSeriesOrder-number-number-)| Directly changes the orders of the two series. |
 | [swapSeries(number, number)](#swapSeries-number-number-)| Directly changes the orders of the two series. |
 | [setSeriesNames(number, string, boolean)](#setSeriesNames-number-string-boolean-)| Sets the name of all the serieses in the chart. |
-| [addR1C1(string, boolean)](#addR1C1-string-boolean-)| Adds the [Series](/nodejs-cpp/series/) collection to a chart. |
-| [add(string, boolean)](#add-string-boolean-)| Adds the [Series](/nodejs-cpp/series/) collection to a chart. |
-| [add(string, boolean, boolean)](#add-string-boolean-boolean-)| Adds the [Series](/nodejs-cpp/series/) collection to a chart. |
+| [addR1C1(string, boolean)](#addR1C1-string-boolean-)| Adds the [Series](../series/) collection to a chart. |
+| [add(string, boolean)](#add-string-boolean-)| Adds the [Series](../series/) collection to a chart. |
+| [add(string, boolean, boolean)](#add-string-boolean-boolean-)| Adds the [Series](../series/) collection to a chart. |
 | [clear()](#clear--)| Clears the collection |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
 
 
 ### get(number) {#get-number-}
 
-Gets the [Series](/nodejs-cpp/series/) element at the specified index.
+Gets the [Series](../series/) element at the specified index.
 
 ```javascript
 get(index: number) : Series;
@@ -123,7 +123,7 @@ setIsColorVaried(value: boolean) : void;
 
 ### getSeriesByOrder(number) {#getSeriesByOrder-number-}
 
-Gets the [Series](/nodejs-cpp/series/) element by order.
+Gets the [Series](../series/) element by order.
 
 ```javascript
 getSeriesByOrder(order: number) : Series;
@@ -204,7 +204,7 @@ setSeriesNames(startIndex: number, area: string, isVertical: boolean) : void;
 
 ### addR1C1(string, boolean) {#addR1C1-string-boolean-}
 
-Adds the [Series](/nodejs-cpp/series/) collection to a chart.
+Adds the [Series](../series/) collection to a chart.
 
 ```javascript
 addR1C1(area: string, isVertical: boolean) : number;
@@ -226,7 +226,7 @@ Return the first index of the added ASeries in the NSeries.
 
 ### add(string, boolean) {#add-string-boolean-}
 
-Adds the [Series](/nodejs-cpp/series/) collection to a chart.
+Adds the [Series](../series/) collection to a chart.
 
 ```javascript
 add(area: string, isVertical: boolean) : number;
@@ -248,7 +248,7 @@ Return the first index of the added ASeries in the NSeries.
 
 ### add(string, boolean, boolean) {#add-string-boolean-boolean-}
 
-Adds the [Series](/nodejs-cpp/series/) collection to a chart.
+Adds the [Series](../series/) collection to a chart.
 
 ```javascript
 add(area: string, isVertical: boolean, checkLabels: boolean) : number;

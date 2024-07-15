@@ -73,8 +73,8 @@ class HtmlLoadOptions extends AbstractTextLoadOptions;
 | [setAutoFitterOptions(AutoFitterOptions)](#setAutoFitterOptions-autofitteroptions-)| Gets and sets the auto fitter options |
 | [getAutoFilter()](#getAutoFilter--)| Indicates whether auto filtering the data when loading the files. |
 | [setAutoFilter(boolean)](#setAutoFilter-boolean-)| Indicates whether auto filtering the data when loading the files. |
-| [getFontConfigs()](#getFontConfigs--)| Gets and sets individual font configs. Only works for the [Workbook](/nodejs-cpp/workbook/) which uses this [Workbook](/nodejs-cpp/workbook/) to load. |
-| [setFontConfigs(IndividualFontConfigs)](#setFontConfigs-individualfontconfigs-)| Gets and sets individual font configs. Only works for the [Workbook](/nodejs-cpp/workbook/) which uses this [Workbook](/nodejs-cpp/workbook/) to load. |
+| [getFontConfigs()](#getFontConfigs--)| Gets and sets individual font configs. Only works for the [Workbook](../workbook/) which uses this [Workbook](../workbook/) to load. |
+| [setFontConfigs(IndividualFontConfigs)](#setFontConfigs-individualfontconfigs-)| Gets and sets individual font configs. Only works for the [Workbook](../workbook/) which uses this [Workbook](../workbook/) to load. |
 | [getIgnoreUselessShapes()](#getIgnoreUselessShapes--)| Indicates whether ignoring useless shapes. |
 | [setIgnoreUselessShapes(boolean)](#setIgnoreUselessShapes-boolean-)| Indicates whether ignoring useless shapes. |
 | [getPreservePaddingSpacesInFormula()](#getPreservePaddingSpacesInFormula--)| Indicates whether preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. Default value is false. |
@@ -125,7 +125,7 @@ constructor(loadFormat: LoadFormat);
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| loadFormat | [LoadFormat](/nodejs-cpp/loadformat/) | The loading format. |
+| loadFormat | [LoadFormat](../loadformat/) | The loading format. |
 
 ### getLoadFormulas() {#getLoadFormulas--}
 
@@ -257,7 +257,7 @@ getTableLoadOptions() : HtmlTableLoadOptionCollection;
 
 **Returns**
 
-[HtmlTableLoadOptionCollection](/nodejs-cpp/htmltableloadoptioncollection/)
+[HtmlTableLoadOptionCollection](../htmltableloadoptioncollection/)
 
 ### getLoadFormat() {#getLoadFormat--}
 
@@ -270,7 +270,7 @@ getLoadFormat() : LoadFormat;
 
 **Returns**
 
-[LoadFormat](/nodejs-cpp/loadformat/)
+[LoadFormat](../loadformat/)
 
 ### getPassword() {#getPassword--}
 
@@ -365,7 +365,7 @@ getLanguageCode() : CountryCode;
 
 **Returns**
 
-[CountryCode](/nodejs-cpp/countrycode/)
+[CountryCode](../countrycode/)
 
 ### setLanguageCode(CountryCode) {#setLanguageCode-countrycode-}
 
@@ -378,7 +378,7 @@ setLanguageCode(value: CountryCode) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [CountryCode](/nodejs-cpp/countrycode/) | The value to set. |
+| value | [CountryCode](../countrycode/) | The value to set. |
 
 ### getRegion() {#getRegion--}
 
@@ -391,7 +391,7 @@ getRegion() : CountryCode;
 
 **Returns**
 
-[CountryCode](/nodejs-cpp/countrycode/)
+[CountryCode](../countrycode/)
 
 **Remarks**
 
@@ -408,7 +408,7 @@ setRegion(value: CountryCode) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [CountryCode](/nodejs-cpp/countrycode/) | The value to set. |
+| value | [CountryCode](../countrycode/) | The value to set. |
 
 **Remarks**
 
@@ -425,7 +425,7 @@ getDefaultStyleSettings() : DefaultStyleSettings;
 
 **Returns**
 
-[DefaultStyleSettings](/nodejs-cpp/defaultstylesettings/)
+[DefaultStyleSettings](../defaultstylesettings/)
 
 ### getInterruptMonitor() {#getInterruptMonitor--}
 
@@ -438,7 +438,7 @@ getInterruptMonitor() : AbstractInterruptMonitor;
 
 **Returns**
 
-[AbstractInterruptMonitor](/nodejs-cpp/abstractinterruptmonitor/)
+[AbstractInterruptMonitor](../abstractinterruptmonitor/)
 
 ### setInterruptMonitor(AbstractInterruptMonitor) {#setInterruptMonitor-abstractinterruptmonitor-}
 
@@ -451,7 +451,7 @@ setInterruptMonitor(value: AbstractInterruptMonitor) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [AbstractInterruptMonitor](/nodejs-cpp/abstractinterruptmonitor/) | The value to set. |
+| value | [AbstractInterruptMonitor](../abstractinterruptmonitor/) | The value to set. |
 
 ### getIgnoreNotPrinted() {#getIgnoreNotPrinted--}
 
@@ -568,7 +568,7 @@ getLoadFilter() : LoadFilter;
 
 **Returns**
 
-[LoadFilter](/nodejs-cpp/loadfilter/)
+[LoadFilter](../loadfilter/)
 
 ### setLoadFilter(LoadFilter) {#setLoadFilter-loadfilter-}
 
@@ -581,7 +581,7 @@ setLoadFilter(value: LoadFilter) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [LoadFilter](/nodejs-cpp/loadfilter/) | The value to set. |
+| value | [LoadFilter](../loadfilter/) | The value to set. |
 
 ### getLightCellsDataHandler() {#getLightCellsDataHandler--}
 
@@ -594,7 +594,7 @@ getLightCellsDataHandler() : LightCellsDataHandler;
 
 **Returns**
 
-[LightCellsDataHandler](/nodejs-cpp/lightcellsdatahandler/)
+[LightCellsDataHandler](../lightcellsdatahandler/)
 
 ### setLightCellsDataHandler(LightCellsDataHandler) {#setLightCellsDataHandler-lightcellsdatahandler-}
 
@@ -607,7 +607,7 @@ setLightCellsDataHandler(value: LightCellsDataHandler) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [LightCellsDataHandler](/nodejs-cpp/lightcellsdatahandler/) | The value to set. |
+| value | [LightCellsDataHandler](../lightcellsdatahandler/) | The value to set. |
 
 ### getMemorySetting() {#getMemorySetting--}
 
@@ -620,7 +620,7 @@ getMemorySetting() : MemorySetting;
 
 **Returns**
 
-[MemorySetting](/nodejs-cpp/memorysetting/)
+[MemorySetting](../memorysetting/)
 
 ### setMemorySetting(MemorySetting) {#setMemorySetting-memorysetting-}
 
@@ -633,7 +633,7 @@ setMemorySetting(value: MemorySetting) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [MemorySetting](/nodejs-cpp/memorysetting/) | The value to set. |
+| value | [MemorySetting](../memorysetting/) | The value to set. |
 
 ### setWarningCallback(IWarningCallback) {#setWarningCallback-iwarningcallback-}
 
@@ -646,7 +646,7 @@ setWarningCallback(value: IWarningCallback) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IWarningCallback](/nodejs-cpp/iwarningcallback/) | The value to set. |
+| value | [IWarningCallback](../iwarningcallback/) | The value to set. |
 
 ### getWarningCallback() {#getWarningCallback--}
 
@@ -659,7 +659,7 @@ getWarningCallback() : IWarningCallback;
 
 **Returns**
 
-[IWarningCallback](/nodejs-cpp/iwarningcallback/)
+[IWarningCallback](../iwarningcallback/)
 
 ### getAutoFitterOptions() {#getAutoFitterOptions--}
 
@@ -672,7 +672,7 @@ getAutoFitterOptions() : AutoFitterOptions;
 
 **Returns**
 
-[AutoFitterOptions](/nodejs-cpp/autofitteroptions/)
+[AutoFitterOptions](../autofitteroptions/)
 
 **Remarks**
 
@@ -689,7 +689,7 @@ setAutoFitterOptions(value: AutoFitterOptions) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [AutoFitterOptions](/nodejs-cpp/autofitteroptions/) | The value to set. |
+| value | [AutoFitterOptions](../autofitteroptions/) | The value to set. |
 
 **Remarks**
 
@@ -727,7 +727,7 @@ Sometimes although autofilter is set, the corresponding rows is not hidden in th
 
 ### getFontConfigs() {#getFontConfigs--}
 
-Gets and sets individual font configs. Only works for the [Workbook](/nodejs-cpp/workbook/) which uses this [Workbook](/nodejs-cpp/workbook/) to load.
+Gets and sets individual font configs. Only works for the [Workbook](../workbook/) which uses this [Workbook](../workbook/) to load.
 
 ```javascript
 getFontConfigs() : IndividualFontConfigs;
@@ -736,11 +736,11 @@ getFontConfigs() : IndividualFontConfigs;
 
 **Returns**
 
-[IndividualFontConfigs](/nodejs-cpp/individualfontconfigs/)
+[IndividualFontConfigs](../individualfontconfigs/)
 
 ### setFontConfigs(IndividualFontConfigs) {#setFontConfigs-individualfontconfigs-}
 
-Gets and sets individual font configs. Only works for the [Workbook](/nodejs-cpp/workbook/) which uses this [Workbook](/nodejs-cpp/workbook/) to load.
+Gets and sets individual font configs. Only works for the [Workbook](../workbook/) which uses this [Workbook](../workbook/) to load.
 
 ```javascript
 setFontConfigs(value: IndividualFontConfigs) : void;
@@ -749,7 +749,7 @@ setFontConfigs(value: IndividualFontConfigs) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IndividualFontConfigs](/nodejs-cpp/individualfontconfigs/) | The value to set. |
+| value | [IndividualFontConfigs](../individualfontconfigs/) | The value to set. |
 
 ### getIgnoreUselessShapes() {#getIgnoreUselessShapes--}
 
@@ -792,7 +792,7 @@ getPreservePaddingSpacesInFormula() : boolean;
 
 **Remarks**
 
-After loading workbook from template file with this option, [FormulaSettings.PreservePaddingSpaces](/nodejs-cpp/formulasettings.preservepaddingspaces/) will be set to the same value with this property.
+After loading workbook from template file with this option, [FormulaSettings.PreservePaddingSpaces](../formulasettings.preservepaddingspaces/) will be set to the same value with this property.
 
 ### setPreservePaddingSpacesInFormula(boolean) {#setPreservePaddingSpacesInFormula-boolean-}
 
@@ -809,7 +809,7 @@ setPreservePaddingSpacesInFormula(value: boolean) : void;
 
 **Remarks**
 
-After loading workbook from template file with this option, [FormulaSettings.PreservePaddingSpaces](/nodejs-cpp/formulasettings.preservepaddingspaces/) will be set to the same value with this property.
+After loading workbook from template file with this option, [FormulaSettings.PreservePaddingSpaces](../formulasettings.preservepaddingspaces/) will be set to the same value with this property.
 
 ### setPaperSize(PaperSizeType) {#setPaperSize-papersizetype-}
 
@@ -822,7 +822,7 @@ setPaperSize(type: PaperSizeType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | [PaperSizeType](/nodejs-cpp/papersizetype/) | The default paper size. |
+| type | [PaperSizeType](../papersizetype/) | The default paper size. |
 
 **Remarks**
 
@@ -839,7 +839,7 @@ getEncoding() : EncodingType;
 
 **Returns**
 
-[EncodingType](/nodejs-cpp/encodingtype/)
+[EncodingType](../encodingtype/)
 
 ### setEncoding(EncodingType) {#setEncoding-encodingtype-}
 
@@ -852,7 +852,7 @@ setEncoding(value: EncodingType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [EncodingType](/nodejs-cpp/encodingtype/) | The value to set. |
+| value | [EncodingType](../encodingtype/) | The value to set. |
 
 ### getLoadStyleStrategy() {#getLoadStyleStrategy--}
 
@@ -865,7 +865,7 @@ getLoadStyleStrategy() : TxtLoadStyleStrategy;
 
 **Returns**
 
-[TxtLoadStyleStrategy](/nodejs-cpp/txtloadstylestrategy/)
+[TxtLoadStyleStrategy](../txtloadstylestrategy/)
 
 ### setLoadStyleStrategy(TxtLoadStyleStrategy) {#setLoadStyleStrategy-txtloadstylestrategy-}
 
@@ -878,7 +878,7 @@ setLoadStyleStrategy(value: TxtLoadStyleStrategy) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [TxtLoadStyleStrategy](/nodejs-cpp/txtloadstylestrategy/) | The value to set. |
+| value | [TxtLoadStyleStrategy](../txtloadstylestrategy/) | The value to set. |
 
 ### getConvertNumericData() {#getConvertNumericData--}
 

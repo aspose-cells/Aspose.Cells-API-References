@@ -40,7 +40,7 @@ getBorderColor() : Color;
 
 **Returns**
 
-[Color](/nodejs-cpp/color/)
+[Color](../color/)
 
 ### setBorderColor(Color) {#setBorderColor-color-}
 
@@ -53,7 +53,7 @@ setBorderColor(value: Color) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [Color](/nodejs-cpp/color/) | The value to set. |
+| value | [Color](../color/) | The value to set. |
 
 ### getBorderColorType() {#getBorderColorType--}
 
@@ -66,7 +66,7 @@ getBorderColorType() : DataBarNegativeColorType;
 
 **Returns**
 
-[DataBarNegativeColorType](/nodejs-cpp/databarnegativecolortype/)
+[DataBarNegativeColorType](../databarnegativecolortype/)
 
 ### setBorderColorType(DataBarNegativeColorType) {#setBorderColorType-databarnegativecolortype-}
 
@@ -79,7 +79,7 @@ setBorderColorType(value: DataBarNegativeColorType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [DataBarNegativeColorType](/nodejs-cpp/databarnegativecolortype/) | The value to set. |
+| value | [DataBarNegativeColorType](../databarnegativecolortype/) | The value to set. |
 
 ### getColor() {#getColor--}
 
@@ -92,7 +92,7 @@ getColor() : Color;
 
 **Returns**
 
-[Color](/nodejs-cpp/color/)
+[Color](../color/)
 
 ### setColor(Color) {#setColor-color-}
 
@@ -105,7 +105,7 @@ setColor(value: Color) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [Color](/nodejs-cpp/color/) | The value to set. |
+| value | [Color](../color/) | The value to set. |
 
 ### getColorType() {#getColorType--}
 
@@ -118,7 +118,7 @@ getColorType() : DataBarNegativeColorType;
 
 **Returns**
 
-[DataBarNegativeColorType](/nodejs-cpp/databarnegativecolortype/)
+[DataBarNegativeColorType](../databarnegativecolortype/)
 
 ### setColorType(DataBarNegativeColorType) {#setColorType-databarnegativecolortype-}
 
@@ -131,6 +131,6 @@ setColorType(value: DataBarNegativeColorType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [DataBarNegativeColorType](/nodejs-cpp/databarnegativecolortype/) | The value to set. |
+| value | [DataBarNegativeColorType](../databarnegativecolortype/) | The value to set. |
 
 

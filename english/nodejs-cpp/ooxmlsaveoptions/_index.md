@@ -95,7 +95,7 @@ constructor(saveFormat: SaveFormat);
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| saveFormat | [SaveFormat](/nodejs-cpp/saveformat/) | The file format.         /// It should be one of following types: [SaveFormat.Xlsx](/nodejs-cpp/saveformat.xlsx/), [SaveFormat.Xlsx](/nodejs-cpp/saveformat.xlsx/),         /// [SaveFormat.Xlsx](/nodejs-cpp/saveformat.xlsx/), [SaveFormat.Xlsx](/nodejs-cpp/saveformat.xlsx/) or [SaveFormat.Xlsx](/nodejs-cpp/saveformat.xlsx/),         /// otherwise the saved format will be set as [SaveFormat.Xlsx](/nodejs-cpp/saveformat.xlsx/) automatically. |
+| saveFormat | [SaveFormat](../saveformat/) | The file format.         /// It should be one of following types: [SaveFormat.Xlsx](../saveformat.xlsx/), [SaveFormat.Xlsx](../saveformat.xlsx/),         /// [SaveFormat.Xlsx](../saveformat.xlsx/), [SaveFormat.Xlsx](../saveformat.xlsx/) or [SaveFormat.Xlsx](../saveformat.xlsx/),         /// otherwise the saved format will be set as [SaveFormat.Xlsx](../saveformat.xlsx/) automatically. |
 
 ### getExportCellName() {#getExportCellName--}
 
@@ -130,7 +130,7 @@ getLightCellsDataProvider() : LightCellsDataProvider;
 
 **Returns**
 
-[LightCellsDataProvider](/nodejs-cpp/lightcellsdataprovider/)
+[LightCellsDataProvider](../lightcellsdataprovider/)
 
 ### setLightCellsDataProvider(LightCellsDataProvider) {#setLightCellsDataProvider-lightcellsdataprovider-}
 
@@ -143,7 +143,7 @@ setLightCellsDataProvider(value: LightCellsDataProvider) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [LightCellsDataProvider](/nodejs-cpp/lightcellsdataprovider/) | The value to set. |
+| value | [LightCellsDataProvider](../lightcellsdataprovider/) | The value to set. |
 
 ### getUpdateZoom() {#getUpdateZoom--}
 
@@ -238,7 +238,7 @@ getCompressionType() : OoxmlCompressionType;
 
 **Returns**
 
-[OoxmlCompressionType](/nodejs-cpp/ooxmlcompressiontype/)
+[OoxmlCompressionType](../ooxmlcompressiontype/)
 
 **Remarks**
 
@@ -255,7 +255,7 @@ setCompressionType(value: OoxmlCompressionType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [OoxmlCompressionType](/nodejs-cpp/ooxmlcompressiontype/) | The value to set. |
+| value | [OoxmlCompressionType](../ooxmlcompressiontype/) | The value to set. |
 
 **Remarks**
 
@@ -272,7 +272,7 @@ getSaveFormat() : SaveFormat;
 
 **Returns**
 
-[SaveFormat](/nodejs-cpp/saveformat/)
+[SaveFormat](../saveformat/)
 
 ### getClearData() {#getClearData--}
 
@@ -485,7 +485,7 @@ setWarningCallback(value: IWarningCallback) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IWarningCallback](/nodejs-cpp/iwarningcallback/) | The value to set. |
+| value | [IWarningCallback](../iwarningcallback/) | The value to set. |
 
 ### getWarningCallback() {#getWarningCallback--}
 
@@ -498,7 +498,7 @@ getWarningCallback() : IWarningCallback;
 
 **Returns**
 
-[IWarningCallback](/nodejs-cpp/iwarningcallback/)
+[IWarningCallback](../iwarningcallback/)
 
 ### getUpdateSmartArt() {#getUpdateSmartArt--}
 

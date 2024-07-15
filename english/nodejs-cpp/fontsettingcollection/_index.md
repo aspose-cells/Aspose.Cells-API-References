@@ -1,14 +1,14 @@
 ﻿---
 title: FontSettingCollection
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents the list of FontSettingnodejscppfontsetting.
+description: Represents the list of FontSetting..fontsetting.
 type: docs
 url: /nodejs-cpp/fontsettingcollection/
 ---
 
 ## FontSettingCollection class
 
-Represents the list of [FontSetting](/nodejs-cpp/fontsetting/).
+Represents the list of [FontSetting](../fontsetting/).
 
 ```javascript
 class FontSettingCollection;
@@ -19,7 +19,7 @@ class FontSettingCollection;
 
 | Method | Description |
 | --- | --- |
-| [get(number)](#get-number-)| Gets the [FontSetting](/nodejs-cpp/fontsetting/) by the index. |
+| [get(number)](#get-number-)| Gets the [FontSetting](../fontsetting/) by the index. |
 | [getTextAlignment()](#getTextAlignment--)| Represents the alignment setting of the text body. |
 | [getTextParagraphs()](#getTextParagraphs--)| Gets all paragraphs. |
 | [getText()](#getText--)| Gets and sets the text of the shape. |
@@ -41,7 +41,7 @@ class FontSettingCollection;
 
 ### get(number) {#get-number-}
 
-Gets the [FontSetting](/nodejs-cpp/fontsetting/) by the index.
+Gets the [FontSetting](../fontsetting/) by the index.
 
 ```javascript
 get(index: number) : FontSetting;
@@ -54,7 +54,7 @@ get(index: number) : FontSetting;
 
 **Returns**
 
-[FontSetting](/nodejs-cpp/fontsetting/)
+[FontSetting](../fontsetting/)
 
 ### getTextAlignment() {#getTextAlignment--}
 
@@ -67,7 +67,7 @@ getTextAlignment() : ShapeTextAlignment;
 
 **Returns**
 
-[ShapeTextAlignment](/nodejs-cpp/shapetextalignment/)
+[ShapeTextAlignment](../shapetextalignment/)
 
 ### getTextParagraphs() {#getTextParagraphs--}
 
@@ -80,7 +80,7 @@ getTextParagraphs() : TextParagraphCollection;
 
 **Returns**
 
-[TextParagraphCollection](/nodejs-cpp/textparagraphcollection/)
+[TextParagraphCollection](../textparagraphcollection/)
 
 ### getText() {#getText--}
 
@@ -137,7 +137,7 @@ setWordArtStyle(style: PresetWordArtStyle) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| style | [PresetWordArtStyle](/nodejs-cpp/presetwordartstyle/) | The preset WordArt style. |
+| style | [PresetWordArtStyle](../presetwordartstyle/) | The preset WordArt style. |
 
 ### getParagraphEnumerator() {#getParagraphEnumerator--}
 
@@ -150,7 +150,7 @@ getParagraphEnumerator() : TextParagraphEnumerator;
 
 **Returns**
 
-[TextParagraphEnumerator](/nodejs-cpp/textparagraphenumerator/)
+[TextParagraphEnumerator](../textparagraphenumerator/)
 
 ### appendText(string) {#appendText-string-}
 
@@ -235,8 +235,8 @@ format(startIndex: number, length: number, font: Font, flag: StyleFlag) : void;
 | --- | --- | --- |
 | startIndex | number | The start index. |
 | length | number | The length. |
-| font | [Font](/nodejs-cpp/font/) | The font. |
-| flag | [StyleFlag](/nodejs-cpp/styleflag/) | The flags of the font. |
+| font | [Font](../font/) | The font. |
+| flag | [StyleFlag](../styleflag/) | The flags of the font. |
 
 ### clear() {#clear--}
 

@@ -7,7 +7,7 @@ url: /nodejs-cpp/textparagraphenumerator/
 ---
 
 ## TextParagraphEnumerator class
-Iterator of [TextParagraph](/nodejs-cpp/textparagraph/) objects. Please use for...of statement to iterate over them.
+Iterator of [TextParagraph](../textparagraph/) objects. Please use for...of statement to iterate over them.
 
 ```javascript
 class TextParagraphEnumerator implements Iterable<TextParagraph> {

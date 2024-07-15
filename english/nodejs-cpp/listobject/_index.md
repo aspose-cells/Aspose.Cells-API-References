@@ -48,7 +48,7 @@ class ListObject;
 | [setTableStyleType(TableStyleType)](#setTableStyleType-tablestyletype-)| Gets and the built-in table style. |
 | [getTableStyleName()](#getTableStyleName--)| Gets and sets the table style name. |
 | [setTableStyleName(string)](#setTableStyleName-string-)| Gets and sets the table style name. |
-| [getXmlMap()](#getXmlMap--)| Gets an [XmlMap](/nodejs-cpp/xmlmap/) used for this list. |
+| [getXmlMap()](#getXmlMap--)| Gets an [XmlMap](../xmlmap/) used for this list. |
 | [getAlternativeText()](#getAlternativeText--)| Gets and sets the alternative text. |
 | [setAlternativeText(string)](#setAlternativeText-string-)| Gets and sets the alternative text. |
 | [getAlternativeDescription()](#getAlternativeDescription--)| Gets and sets the alternative description. |
@@ -110,7 +110,7 @@ getListColumns() : ListColumnCollection;
 
 **Returns**
 
-[ListColumnCollection](/nodejs-cpp/listcolumncollection/)
+[ListColumnCollection](../listcolumncollection/)
 
 ### getShowHeaderRow() {#getShowHeaderRow--}
 
@@ -167,7 +167,7 @@ getDataRange() : Range;
 
 **Returns**
 
-[Range](/nodejs-cpp/range/)
+[Range](../range/)
 
 ### getQueryTable() {#getQueryTable--}
 
@@ -180,7 +180,7 @@ getQueryTable() : QueryTable;
 
 **Returns**
 
-[QueryTable](/nodejs-cpp/querytable/)
+[QueryTable](../querytable/)
 
 ### getDataSourceType() {#getDataSourceType--}
 
@@ -193,7 +193,7 @@ getDataSourceType() : TableDataSourceType;
 
 **Returns**
 
-[TableDataSourceType](/nodejs-cpp/tabledatasourcetype/)
+[TableDataSourceType](../tabledatasourcetype/)
 
 ### getAutoFilter() {#getAutoFilter--}
 
@@ -206,7 +206,7 @@ getAutoFilter() : AutoFilter;
 
 **Returns**
 
-[AutoFilter](/nodejs-cpp/autofilter/)
+[AutoFilter](../autofilter/)
 
 ### getDisplayName() {#getDisplayName--}
 
@@ -351,7 +351,7 @@ getTableStyleType() : TableStyleType;
 
 **Returns**
 
-[TableStyleType](/nodejs-cpp/tablestyletype/)
+[TableStyleType](../tablestyletype/)
 
 ### setTableStyleType(TableStyleType) {#setTableStyleType-tablestyletype-}
 
@@ -364,7 +364,7 @@ setTableStyleType(value: TableStyleType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [TableStyleType](/nodejs-cpp/tablestyletype/) | The value to set. |
+| value | [TableStyleType](../tablestyletype/) | The value to set. |
 
 ### getTableStyleName() {#getTableStyleName--}
 
@@ -390,7 +390,7 @@ setTableStyleName(value: string) : void;
 
 ### getXmlMap() {#getXmlMap--}
 
-Gets an [XmlMap](/nodejs-cpp/xmlmap/) used for this list.
+Gets an [XmlMap](../xmlmap/) used for this list.
 
 ```javascript
 getXmlMap() : XmlMap;
@@ -399,7 +399,7 @@ getXmlMap() : XmlMap;
 
 **Returns**
 
-[XmlMap](/nodejs-cpp/xmlmap/)
+[XmlMap](../xmlmap/)
 
 ### getAlternativeText() {#getAlternativeText--}
 
@@ -517,7 +517,7 @@ filter() : AutoFilter;
 
 **Returns**
 
-[AutoFilter](/nodejs-cpp/autofilter/)
+[AutoFilter](../autofilter/)
 
 ### applyStyleToRange() {#applyStyleToRange--}
 
@@ -548,6 +548,6 @@ convertToRange(options: TableToRangeOptions) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| options | [TableToRangeOptions](/nodejs-cpp/tabletorangeoptions/) | the options when converting table to range. |
+| options | [TableToRangeOptions](../tabletorangeoptions/) | the options when converting table to range. |
 
 

@@ -33,6 +33,6 @@ getShapeAdjustValues() : ShapeGuideCollection;
 
 **Returns**
 
-[ShapeGuideCollection](/nodejs-cpp/shapeguidecollection/)
+[ShapeGuideCollection](../shapeguidecollection/)
 
 

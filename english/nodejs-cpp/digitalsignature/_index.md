@@ -183,7 +183,7 @@ getXAdESType() : XAdESType;
 
 **Returns**
 
-[XAdESType](/nodejs-cpp/xadestype/)
+[XAdESType](../xadestype/)
 
 ### setXAdESType(XAdESType) {#setXAdESType-xadestype-}
 
@@ -196,6 +196,6 @@ setXAdESType(value: XAdESType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [XAdESType](/nodejs-cpp/xadestype/) | The value to set. |
+| value | [XAdESType](../xadestype/) | The value to set. |
 
 

@@ -48,7 +48,7 @@ getType() : ReflectionEffectType;
 
 **Returns**
 
-[ReflectionEffectType](/nodejs-cpp/reflectioneffecttype/)
+[ReflectionEffectType](../reflectioneffecttype/)
 
 ### setType(ReflectionEffectType) {#setType-reflectioneffecttype-}
 
@@ -61,7 +61,7 @@ setType(value: ReflectionEffectType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ReflectionEffectType](/nodejs-cpp/reflectioneffecttype/) | The value to set. |
+| value | [ReflectionEffectType](../reflectioneffecttype/) | The value to set. |
 
 ### getTransparency() {#getTransparency--}
 

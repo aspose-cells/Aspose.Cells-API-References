@@ -26,10 +26,10 @@ class ChartPoint;
 | [getBorder()](#getBorder--)| Gets the <see cref="Line"> border</see>. |
 | [getArea()](#getArea--)| Gets the <see cref="Area"> area</see>. |
 | [getMarker()](#getMarker--)| Gets the <see cref="Marker"> marker</see>. |
-| [getDataLabels()](#getDataLabels--)| Returns a [DataLabels](/nodejs-cpp/datalabels/) object that represents the data label associated with this chart point. |
+| [getDataLabels()](#getDataLabels--)| Returns a [DataLabels](../datalabels/) object that represents the data label associated with this chart point. |
 | [getYValueType()](#getYValueType--)| Gets Y value type of the chart point. |
 | [getXValueType()](#getXValueType--)| Gets X value type of the chart point. |
-| [getShapeProperties()](#getShapeProperties--)| Gets the [ShapePropertyCollection](/nodejs-cpp/shapepropertycollection/) object that holds the visual shape properties of the ChartPoint. |
+| [getShapeProperties()](#getShapeProperties--)| Gets the [ShapePropertyCollection](../shapepropertycollection/) object that holds the visual shape properties of the ChartPoint. |
 | [isInSecondaryPlot()](#isInSecondaryPlot--)| Gets or sets a value indicates whether this data points is in the second pie or bar on a pie of pie or bar of pie chart |
 | [setIsInSecondaryPlot(boolean)](#setIsInSecondaryPlot-boolean-)| Gets or sets a value indicates whether this data points is in the second pie or bar on a pie of pie or bar of pie chart |
 | [getShapeX()](#getShapeX--)| Gets the x coordinate of the upper left corner in units of 1/4000 of chart's width after calls Chart.Calculate() method. |
@@ -120,7 +120,7 @@ getBorder() : Line;
 
 **Returns**
 
-[Line](/nodejs-cpp/line/)
+[Line](../line/)
 
 ### getArea() {#getArea--}
 
@@ -133,7 +133,7 @@ getArea() : Area;
 
 **Returns**
 
-[Area](/nodejs-cpp/area/)
+[Area](../area/)
 
 ### getMarker() {#getMarker--}
 
@@ -146,11 +146,11 @@ getMarker() : Marker;
 
 **Returns**
 
-[Marker](/nodejs-cpp/marker/)
+[Marker](../marker/)
 
 ### getDataLabels() {#getDataLabels--}
 
-Returns a [DataLabels](/nodejs-cpp/datalabels/) object that represents the data label associated with this chart point.
+Returns a [DataLabels](../datalabels/) object that represents the data label associated with this chart point.
 
 ```javascript
 getDataLabels() : DataLabels;
@@ -159,7 +159,7 @@ getDataLabels() : DataLabels;
 
 **Returns**
 
-[DataLabels](/nodejs-cpp/datalabels/)
+[DataLabels](../datalabels/)
 
 ### getYValueType() {#getYValueType--}
 
@@ -172,7 +172,7 @@ getYValueType() : CellValueType;
 
 **Returns**
 
-[CellValueType](/nodejs-cpp/cellvaluetype/)
+[CellValueType](../cellvaluetype/)
 
 ### getXValueType() {#getXValueType--}
 
@@ -185,11 +185,11 @@ getXValueType() : CellValueType;
 
 **Returns**
 
-[CellValueType](/nodejs-cpp/cellvaluetype/)
+[CellValueType](../cellvaluetype/)
 
 ### getShapeProperties() {#getShapeProperties--}
 
-Gets the [ShapePropertyCollection](/nodejs-cpp/shapepropertycollection/) object that holds the visual shape properties of the ChartPoint.
+Gets the [ShapePropertyCollection](../shapepropertycollection/) object that holds the visual shape properties of the ChartPoint.
 
 ```javascript
 getShapeProperties() : ShapePropertyCollection;
@@ -198,7 +198,7 @@ getShapeProperties() : ShapePropertyCollection;
 
 **Returns**
 
-[ShapePropertyCollection](/nodejs-cpp/shapepropertycollection/)
+[ShapePropertyCollection](../shapepropertycollection/)
 
 ### isInSecondaryPlot() {#isInSecondaryPlot--}
 

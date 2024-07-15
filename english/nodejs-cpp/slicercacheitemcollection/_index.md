@@ -38,7 +38,7 @@ get(index: number) : SlicerCacheItem;
 
 **Returns**
 
-[SlicerCacheItem](/nodejs-cpp/slicercacheitem/)
+[SlicerCacheItem](../slicercacheitem/)
 
 ### getCount() {#getCount--}
 

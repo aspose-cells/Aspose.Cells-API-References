@@ -26,7 +26,7 @@ class SheetRender;
 | Method | Description |
 | --- | --- |
 | [getPageCount()](#getPageCount--)| Gets the total page count of current worksheet. |
-| [getPageScale()](#getPageScale--)| Gets calculated page scale of the sheet. Returns the set scale if [PageSetup.Zoom](/nodejs-cpp/pagesetup.zoom/) is set. Otherwise, returns the calculated scale according to [PageSetup.Zoom](/nodejs-cpp/pagesetup.zoom/) and [PageSetup.Zoom](/nodejs-cpp/pagesetup.zoom/). |
+| [getPageScale()](#getPageScale--)| Gets calculated page scale of the sheet. Returns the set scale if [PageSetup.Zoom](../pagesetup.zoom/) is set. Otherwise, returns the calculated scale according to [PageSetup.Zoom](../pagesetup.zoom/) and [PageSetup.Zoom](../pagesetup.zoom/). |
 | [getPageSizeInch(number)](#getPageSizeInch-number-)| Get page size in inch of output image. |
 | [toImage(number, string)](#toImage-number-string-)| Render certain page to a file. |
 | [toImage(number)](#toImage-number-)| Render certain page to a stream. |
@@ -46,8 +46,8 @@ constructor(worksheet: Worksheet, options: ImageOrPrintOptions);
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| worksheet | [Worksheet](/nodejs-cpp/worksheet/) | Indicate which spreadsheet to be rendered. |
-| options | [ImageOrPrintOptions](/nodejs-cpp/imageorprintoptions/) | ImageOrPrintOptions contains some property of output image |
+| worksheet | [Worksheet](../worksheet/) | Indicate which spreadsheet to be rendered. |
+| options | [ImageOrPrintOptions](../imageorprintoptions/) | ImageOrPrintOptions contains some property of output image |
 
 ### getPageCount() {#getPageCount--}
 
@@ -60,7 +60,7 @@ getPageCount() : number;
 
 ### getPageScale() {#getPageScale--}
 
-Gets calculated page scale of the sheet. Returns the set scale if [PageSetup.Zoom](/nodejs-cpp/pagesetup.zoom/) is set. Otherwise, returns the calculated scale according to [PageSetup.Zoom](/nodejs-cpp/pagesetup.zoom/) and [PageSetup.Zoom](/nodejs-cpp/pagesetup.zoom/).
+Gets calculated page scale of the sheet. Returns the set scale if [PageSetup.Zoom](../pagesetup.zoom/) is set. Otherwise, returns the calculated scale according to [PageSetup.Zoom](../pagesetup.zoom/) and [PageSetup.Zoom](../pagesetup.zoom/).
 
 ```javascript
 getPageScale() : number;

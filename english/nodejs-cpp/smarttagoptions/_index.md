@@ -73,7 +73,7 @@ getShowType() : SmartTagShowType;
 
 **Returns**
 
-[SmartTagShowType](/nodejs-cpp/smarttagshowtype/)
+[SmartTagShowType](../smarttagshowtype/)
 
 ### setShowType(SmartTagShowType) {#setShowType-smarttagshowtype-}
 
@@ -86,6 +86,6 @@ setShowType(value: SmartTagShowType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [SmartTagShowType](/nodejs-cpp/smarttagshowtype/) | The value to set. |
+| value | [SmartTagShowType](../smarttagshowtype/) | The value to set. |
 
 

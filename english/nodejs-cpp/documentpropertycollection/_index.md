@@ -1,14 +1,14 @@
 ﻿---
 title: DocumentPropertyCollection
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Base class for BuiltInDocumentPropertyCollectionnodejscppbuiltindocumentpropertycollection and BuiltInDocumentPropertyCollectionnodejscppbuiltindocumentpropertycollection collections.
+description: Base class for BuiltInDocumentPropertyCollection..builtindocumentpropertycollection and BuiltInDocumentPropertyCollection..builtindocumentpropertycollection collections.
 type: docs
 url: /nodejs-cpp/documentpropertycollection/
 ---
 
 ## DocumentPropertyCollection class
 
-Base class for [BuiltInDocumentPropertyCollection](/nodejs-cpp/builtindocumentpropertycollection/) and [BuiltInDocumentPropertyCollection](/nodejs-cpp/builtindocumentpropertycollection/) collections.
+Base class for [BuiltInDocumentPropertyCollection](../builtindocumentpropertycollection/) and [BuiltInDocumentPropertyCollection](../builtindocumentpropertycollection/) collections.
 
 ```javascript
 class DocumentPropertyCollection;
@@ -24,7 +24,7 @@ class DocumentPropertyCollection;
 | [remove(string)](#remove-string-)| Removes a property with the specified name from the collection. |
 | [removeAt(number)](#removeAt-number-)| Removes a property at the specified index. |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
-| [get(string)](#get-string-)| Returns a [DocumentProperty](/nodejs-cpp/documentproperty/) object by the name of the property. |
+| [get(string)](#get-string-)| Returns a [DocumentProperty](../documentproperty/) object by the name of the property. |
 
 
 ### contains(string) {#contains-string-}
@@ -98,7 +98,7 @@ getCount() : number;
 
 ### get(string) {#get-string-}
 
-Returns a [DocumentProperty](/nodejs-cpp/documentproperty/) object by the name of the property.
+Returns a [DocumentProperty](../documentproperty/) object by the name of the property.
 
 ```javascript
 get(name: string) : DocumentProperty;
@@ -111,7 +111,7 @@ get(name: string) : DocumentProperty;
 
 **Returns**
 
-[DocumentProperty](/nodejs-cpp/documentproperty/)
+[DocumentProperty](../documentproperty/)
 
 **Remarks**
 

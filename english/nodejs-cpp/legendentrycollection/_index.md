@@ -1,14 +1,14 @@
 ﻿---
 title: LegendEntryCollection
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents a collection of all the LegendEntrynodejscpplegendentry objects in the specified chart legend.
+description: Represents a collection of all the LegendEntry..legendentry objects in the specified chart legend.
 type: docs
 url: /nodejs-cpp/legendentrycollection/
 ---
 
 ## LegendEntryCollection class
 
-Represents a collection of all the [LegendEntry](/nodejs-cpp/legendentry/) objects in the specified chart legend.
+Represents a collection of all the [LegendEntry](../legendentry/) objects in the specified chart legend.
 
 ```javascript
 class LegendEntryCollection;
@@ -19,13 +19,13 @@ class LegendEntryCollection;
 
 | Method | Description |
 | --- | --- |
-| [get(number)](#get-number-)| Gets the [LegendEntry](/nodejs-cpp/legendentry/) element at the specified index. |
+| [get(number)](#get-number-)| Gets the [LegendEntry](../legendentry/) element at the specified index. |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
 
 
 ### get(number) {#get-number-}
 
-Gets the [LegendEntry](/nodejs-cpp/legendentry/) element at the specified index.
+Gets the [LegendEntry](../legendentry/) element at the specified index.
 
 ```javascript
 get(index: number) : LegendEntry;

@@ -144,11 +144,11 @@ getCalculationMode() : CalcModeType;
 
 **Returns**
 
-[CalcModeType](/nodejs-cpp/calcmodetype/)
+[CalcModeType](../calcmodetype/)
 
 **Remarks**
 
-This property is only for saving the settings to resultant spreadsheet file so that other applications(such as ms excel) may act accordingly when loading and manipulating the resultant file. For performance consideration for most user's application, we do not calculate any formula in the workbook automatically, no matter what mode has been set for this property. If user needs to calculate formulas, please always call methods on different objects according to requirement: [Workbook.CalculateFormula()](/nodejs-cpp/workbook.calculateformula()/), [Workbook.CalculateFormula()](/nodejs-cpp/workbook.calculateformula()/), [Cell.Calculate(CalculationOptions)](/nodejs-cpp/cell.calculate(calculationoptions)/), ...etc.
+This property is only for saving the settings to resultant spreadsheet file so that other applications(such as ms excel) may act accordingly when loading and manipulating the resultant file. For performance consideration for most user's application, we do not calculate any formula in the workbook automatically, no matter what mode has been set for this property. If user needs to calculate formulas, please always call methods on different objects according to requirement: [Workbook.CalculateFormula()](../workbook.calculateformula()/), [Workbook.CalculateFormula()](../workbook.calculateformula()/), [Cell.Calculate(CalculationOptions)](../cell.calculate(calculationoptions)/), ...etc.
 
 ### setCalculationMode(CalcModeType) {#setCalculationMode-calcmodetype-}
 
@@ -161,11 +161,11 @@ setCalculationMode(value: CalcModeType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [CalcModeType](/nodejs-cpp/calcmodetype/) | The value to set. |
+| value | [CalcModeType](../calcmodetype/) | The value to set. |
 
 **Remarks**
 
-This property is only for saving the settings to resultant spreadsheet file so that other applications(such as ms excel) may act accordingly when loading and manipulating the resultant file. For performance consideration for most user's application, we do not calculate any formula in the workbook automatically, no matter what mode has been set for this property. If user needs to calculate formulas, please always call methods on different objects according to requirement: [Workbook.CalculateFormula()](/nodejs-cpp/workbook.calculateformula()/), [Workbook.CalculateFormula()](/nodejs-cpp/workbook.calculateformula()/), [Cell.Calculate(CalculationOptions)](/nodejs-cpp/cell.calculate(calculationoptions)/), ...etc.
+This property is only for saving the settings to resultant spreadsheet file so that other applications(such as ms excel) may act accordingly when loading and manipulating the resultant file. For performance consideration for most user's application, we do not calculate any formula in the workbook automatically, no matter what mode has been set for this property. If user needs to calculate formulas, please always call methods on different objects according to requirement: [Workbook.CalculateFormula()](../workbook.calculateformula()/), [Workbook.CalculateFormula()](../workbook.calculateformula()/), [Cell.Calculate(CalculationOptions)](../cell.calculate(calculationoptions)/), ...etc.
 
 ### getCalculationId() {#getCalculationId--}
 

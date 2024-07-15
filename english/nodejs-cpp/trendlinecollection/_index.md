@@ -1,14 +1,14 @@
 ﻿---
 title: TrendlineCollection
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents a collection of all the Trendlinenodejscpptrendline objects for the specified data series.
+description: Represents a collection of all the Trendline..trendline objects for the specified data series.
 type: docs
 url: /nodejs-cpp/trendlinecollection/
 ---
 
 ## TrendlineCollection class
 
-Represents a collection of all the [Trendline](/nodejs-cpp/trendline/) objects for the specified data series.
+Represents a collection of all the [Trendline](../trendline/) objects for the specified data series.
 
 ```javascript
 class TrendlineCollection;
@@ -19,15 +19,15 @@ class TrendlineCollection;
 
 | Method | Description |
 | --- | --- |
-| [get(number)](#get-number-)| Gets a [Trendline](/nodejs-cpp/trendline/) object by its index. |
-| [add(TrendlineType)](#add-trendlinetype-)| Adds a [Trendline](/nodejs-cpp/trendline/) object to this collection with specified type. |
-| [add(TrendlineType, string)](#add-trendlinetype-string-)| Adds a [Trendline](/nodejs-cpp/trendline/) object to this collection with specified type and name. |
+| [get(number)](#get-number-)| Gets a [Trendline](../trendline/) object by its index. |
+| [add(TrendlineType)](#add-trendlinetype-)| Adds a [Trendline](../trendline/) object to this collection with specified type. |
+| [add(TrendlineType, string)](#add-trendlinetype-string-)| Adds a [Trendline](../trendline/) object to this collection with specified type and name. |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
 
 
 ### get(number) {#get-number-}
 
-Gets a [Trendline](/nodejs-cpp/trendline/) object by its index.
+Gets a [Trendline](../trendline/) object by its index.
 
 ```javascript
 get(index: number) : Trendline;
@@ -40,11 +40,11 @@ get(index: number) : Trendline;
 
 **Returns**
 
-[Trendline](/nodejs-cpp/trendline/)
+[Trendline](../trendline/)
 
 ### add(TrendlineType) {#add-trendlinetype-}
 
-Adds a [Trendline](/nodejs-cpp/trendline/) object to this collection with specified type.
+Adds a [Trendline](../trendline/) object to this collection with specified type.
 
 ```javascript
 add(type: TrendlineType) : number;
@@ -53,15 +53,15 @@ add(type: TrendlineType) : number;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | [TrendlineType](/nodejs-cpp/trendlinetype/) | Trendline type. |
+| type | [TrendlineType](../trendlinetype/) | Trendline type. |
 
 **Returns**
 
-[Trendline](/nodejs-cpp/trendline/) object index.
+[Trendline](../trendline/) object index.
 
 ### add(TrendlineType, string) {#add-trendlinetype-string-}
 
-Adds a [Trendline](/nodejs-cpp/trendline/) object to this collection with specified type and name.
+Adds a [Trendline](../trendline/) object to this collection with specified type and name.
 
 ```javascript
 add(type: TrendlineType, name: string) : number;
@@ -70,12 +70,12 @@ add(type: TrendlineType, name: string) : number;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | [TrendlineType](/nodejs-cpp/trendlinetype/) | Trendline type. |
+| type | [TrendlineType](../trendlinetype/) | Trendline type. |
 | name | string | Trendline name. |
 
 **Returns**
 
-[Trendline](/nodejs-cpp/trendline/) object index.
+[Trendline](../trendline/) object index.
 
 ### getCount() {#getCount--}
 

@@ -139,6 +139,6 @@ getInputCells() : ScenarioInputCellCollection;
 
 **Returns**
 
-[ScenarioInputCellCollection](/nodejs-cpp/scenarioinputcellcollection/)
+[ScenarioInputCellCollection](../scenarioinputcellcollection/)
 
 

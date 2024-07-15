@@ -19,14 +19,14 @@ class TextParagraphCollection;
 
 | Method | Description |
 | --- | --- |
-| [get(number)](#get-number-)| Gets the [TextParagraph](/nodejs-cpp/textparagraph/) object at specific index. |
+| [get(number)](#get-number-)| Gets the [TextParagraph](../textparagraph/) object at specific index. |
 | [getCount()](#getCount--)| Gets the count of text paragraphs. |
 | [getEnumerator()](#getEnumerator--)| Gets the enumerator of the paragraphs. |
 
 
 ### get(number) {#get-number-}
 
-Gets the [TextParagraph](/nodejs-cpp/textparagraph/) object at specific index.
+Gets the [TextParagraph](../textparagraph/) object at specific index.
 
 ```javascript
 get(index: number) : TextParagraph;
@@ -39,7 +39,7 @@ get(index: number) : TextParagraph;
 
 **Returns**
 
-[TextParagraph](/nodejs-cpp/textparagraph/)
+[TextParagraph](../textparagraph/)
 
 ### getCount() {#getCount--}
 
@@ -61,6 +61,6 @@ getEnumerator() : TextParagraphEnumerator;
 
 **Returns**
 
-[TextParagraphEnumerator](/nodejs-cpp/textparagraphenumerator/)
+[TextParagraphEnumerator](../textparagraphenumerator/)
 
 

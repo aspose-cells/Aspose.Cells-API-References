@@ -21,46 +21,46 @@ The Workbook class denotes an Excel spreadsheet. Each spreadsheet can contain mu
 
 | Name | Description |
 | --- | --- |
-| [constructor()](#constructor--)| Initializes a new instance of the [Workbook](/nodejs-cpp/workbook/) class. |
-| [constructor(FileFormatType)](#constructor-fileformattype-)| Initializes a new instance of the [Workbook](/nodejs-cpp/workbook/) class. |
-| [constructor(string)](#constructor-string-)| Initializes a new instance of the [Workbook](/nodejs-cpp/workbook/) class and open a file. |
-| [constructor(Uint8Array)](#constructor-uint8array-)| Initializes a new instance of the [Workbook](/nodejs-cpp/workbook/) class and open a stream. |
-| [constructor(string, LoadOptions)](#constructor-string-loadoptions-)| Initializes a new instance of the [Workbook](/nodejs-cpp/workbook/) class and open a file. |
-| [constructor(Uint8Array, LoadOptions)](#constructor-uint8array-loadoptions-)| Initializes a new instance of the [Workbook](/nodejs-cpp/workbook/) class and open stream. |
+| [constructor()](#constructor--)| Initializes a new instance of the [Workbook](../workbook/) class. |
+| [constructor(FileFormatType)](#constructor-fileformattype-)| Initializes a new instance of the [Workbook](../workbook/) class. |
+| [constructor(string)](#constructor-string-)| Initializes a new instance of the [Workbook](../workbook/) class and open a file. |
+| [constructor(Uint8Array)](#constructor-uint8array-)| Initializes a new instance of the [Workbook](../workbook/) class and open a stream. |
+| [constructor(string, LoadOptions)](#constructor-string-loadoptions-)| Initializes a new instance of the [Workbook](../workbook/) class and open a file. |
+| [constructor(Uint8Array, LoadOptions)](#constructor-uint8array-loadoptions-)| Initializes a new instance of the [Workbook](../workbook/) class and open stream. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [getSettings()](#getSettings--)| Represents the workbook settings. |
-| [getWorksheets()](#getWorksheets--)| Gets the [WorksheetCollection](/nodejs-cpp/worksheetcollection/) collection in the spreadsheet. |
+| [getWorksheets()](#getWorksheets--)| Gets the [WorksheetCollection](../worksheetcollection/) collection in the spreadsheet. |
 | [isLicensed()](#isLicensed--)| Indicates whether license is set. |
 | [getColors()](#getColors--)| Returns colors in the palette for the spreadsheet. |
 | [getCountOfStylesInPool()](#getCountOfStylesInPool--)| Gets number of the styles in the style pool. |
-| [getDefaultStyle()](#getDefaultStyle--)| Gets or sets the default [Style](/nodejs-cpp/style/) object of the workbook. |
-| [setDefaultStyle(Style)](#setDefaultStyle-style-)| Gets or sets the default [Style](/nodejs-cpp/style/) object of the workbook. |
+| [getDefaultStyle()](#getDefaultStyle--)| Gets or sets the default [Style](../style/) object of the workbook. |
+| [setDefaultStyle(Style)](#setDefaultStyle-style-)| Gets or sets the default [Style](../style/) object of the workbook. |
 | [isDigitallySigned()](#isDigitallySigned--)| Indicates if this spreadsheet is digitally signed. |
 | [isWorkbookProtectedWithPassword()](#isWorkbookProtectedWithPassword--)| Indicates whether structure or window is protected with password. |
-| [getVbaProject()](#getVbaProject--)| Gets the [VbaProject](/nodejs-cpp/vbaproject/) in a spreadsheet. |
+| [getVbaProject()](#getVbaProject--)| Gets the [VbaProject](../vbaproject/) in a spreadsheet. |
 | [getHasMacro()](#getHasMacro--)| Indicates if this spreadsheet contains macro/VBA. |
 | [getHasRevisions()](#getHasRevisions--)| Gets if the workbook has any tracked changes |
 | [getFileName()](#getFileName--)| Gets and sets the current file name. |
 | [setFileName(string)](#setFileName-string-)| Gets and sets the current file name. |
 | [getDataSorter()](#getDataSorter--)| Gets a DataSorter object to sort data. |
 | [getTheme()](#getTheme--)| Gets the theme name. |
-| [getBuiltInDocumentProperties()](#getBuiltInDocumentProperties--)| Returns a [DocumentProperty](/nodejs-cpp/documentproperty/) collection that represents all the built-in document properties of the spreadsheet. |
-| [getCustomDocumentProperties()](#getCustomDocumentProperties--)| Returns a [DocumentProperty](/nodejs-cpp/documentproperty/) collection that represents all the custom document properties of the spreadsheet. |
+| [getBuiltInDocumentProperties()](#getBuiltInDocumentProperties--)| Returns a [DocumentProperty](../documentproperty/) collection that represents all the built-in document properties of the spreadsheet. |
+| [getCustomDocumentProperties()](#getCustomDocumentProperties--)| Returns a [DocumentProperty](../documentproperty/) collection that represents all the custom document properties of the spreadsheet. |
 | [getFileFormat()](#getFileFormat--)| Gets and sets the file format. |
 | [setFileFormat(FileFormatType)](#setFileFormat-fileformattype-)| Gets and sets the file format. |
 | [getInterruptMonitor()](#getInterruptMonitor--)| Gets and sets the interrupt monitor. |
-| [getContentTypeProperties()](#getContentTypeProperties--)| Gets the list of  [ContentTypeProperty](/nodejs-cpp/contenttypeproperty/) objects in the workbook. |
+| [getContentTypeProperties()](#getContentTypeProperties--)| Gets the list of  [ContentTypeProperty](../contenttypeproperty/) objects in the workbook. |
 | [getCustomXmlParts()](#getCustomXmlParts--)| Represents a Custom XML Data Storage Part (custom XML data within a package). |
 | [getDataMashup()](#getDataMashup--)| Gets mashup data. |
 | [getRibbonXml()](#getRibbonXml--)| Gets and sets the XML file that defines the Ribbon UI. |
 | [setRibbonXml(string)](#setRibbonXml-string-)| Gets and sets the XML file that defines the Ribbon UI. |
 | [getAbsolutePath()](#getAbsolutePath--)| Gets and sets the absolute path of the file. |
 | [setAbsolutePath(string)](#setAbsolutePath-string-)| Gets and sets the absolute path of the file. |
-| [getDataConnections()](#getDataConnections--)| Gets the [ExternalConnection](/nodejs-cpp/externalconnection/) collection. |
+| [getDataConnections()](#getDataConnections--)| Gets the [ExternalConnection](../externalconnection/) collection. |
 | [parseFormulas(boolean)](#parseFormulas-boolean-)| Parses all formulas which have not been parsed when they were loaded from template file or set to a cell. |
 | [startAccessCache(AccessCacheOptions)](#startAccessCache-accesscacheoptions-)| Starts the session that uses caches to access data. |
 | [closeAccessCache(AccessCacheOptions)](#closeAccessCache-accesscacheoptions-)| Closes the session that uses caches to access data. |
@@ -73,7 +73,7 @@ The Workbook class denotes an Excel spreadsheet. Each spreadsheet can contain mu
 | [removeUnusedStyles()](#removeUnusedStyles--)| Remove all unused styles. |
 | [createStyle()](#createStyle--)| Creates a new style. |
 | [createBuiltinStyle(BuiltinStyleType)](#createBuiltinStyle-builtinstyletype-)| Creates built-in style by given type. |
-| [createCellsColor()](#createCellsColor--)| Creates a [CellsColor](/nodejs-cpp/cellscolor/) object. |
+| [createCellsColor()](#createCellsColor--)| Creates a [CellsColor](../cellscolor/) object. |
 | [replace(string, string)](#replace-string-string-)| Replaces a cell's value with a new string. |
 | [replace(string, number)](#replace-string-number-)| Replaces a cell's value with a new integer. |
 | [replace(string, number)](#replace-string-number-)| Replaces a cell's value with a new double. |
@@ -123,7 +123,7 @@ The Workbook class denotes an Excel spreadsheet. Each spreadsheet can contain mu
 
 ### constructor() {#constructor--}
 
-Initializes a new instance of the [Workbook](/nodejs-cpp/workbook/) class.
+Initializes a new instance of the [Workbook](../workbook/) class.
 
 ```javascript
 constructor();
@@ -136,7 +136,7 @@ The default file format type is Xlsx. If you want to create other types of files
 
 ### constructor(FileFormatType) {#constructor-fileformattype-}
 
-Initializes a new instance of the [Workbook](/nodejs-cpp/workbook/) class.
+Initializes a new instance of the [Workbook](../workbook/) class.
 
 ```javascript
 constructor(fileFormatType: FileFormatType);
@@ -145,7 +145,7 @@ constructor(fileFormatType: FileFormatType);
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileFormatType | [FileFormatType](/nodejs-cpp/fileformattype/) | The new file format. |
+| fileFormatType | [FileFormatType](../fileformattype/) | The new file format. |
 
 **Remarks**
 
@@ -153,7 +153,7 @@ The default file format type is Excel97To2003.
 
 ### constructor(string) {#constructor-string-}
 
-Initializes a new instance of the [Workbook](/nodejs-cpp/workbook/) class and open a file.
+Initializes a new instance of the [Workbook](../workbook/) class and open a file.
 
 ```javascript
 constructor(file: string);
@@ -166,7 +166,7 @@ constructor(file: string);
 
 ### constructor(Uint8Array) {#constructor-uint8array-}
 
-Initializes a new instance of the [Workbook](/nodejs-cpp/workbook/) class and open a stream.
+Initializes a new instance of the [Workbook](../workbook/) class and open a stream.
 
 ```javascript
 constructor(stream: Uint8Array);
@@ -179,7 +179,7 @@ constructor(stream: Uint8Array);
 
 ### constructor(string, LoadOptions) {#constructor-string-loadoptions-}
 
-Initializes a new instance of the [Workbook](/nodejs-cpp/workbook/) class and open a file.
+Initializes a new instance of the [Workbook](../workbook/) class and open a file.
 
 ```javascript
 constructor(file: string, loadOptions: LoadOptions);
@@ -189,11 +189,11 @@ constructor(file: string, loadOptions: LoadOptions);
 | Parameter | Type | Description |
 | --- | --- | --- |
 | file | string | The file name. |
-| loadOptions | [LoadOptions](/nodejs-cpp/loadoptions/) | The load options |
+| loadOptions | [LoadOptions](../loadoptions/) | The load options |
 
 ### constructor(Uint8Array, LoadOptions) {#constructor-uint8array-loadoptions-}
 
-Initializes a new instance of the [Workbook](/nodejs-cpp/workbook/) class and open stream.
+Initializes a new instance of the [Workbook](../workbook/) class and open stream.
 
 ```javascript
 constructor(stream: Uint8Array, loadOptions: LoadOptions);
@@ -203,7 +203,7 @@ constructor(stream: Uint8Array, loadOptions: LoadOptions);
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | Uint8Array | The stream. |
-| loadOptions | [LoadOptions](/nodejs-cpp/loadoptions/) | The load options |
+| loadOptions | [LoadOptions](../loadoptions/) | The load options |
 
 ### getSettings() {#getSettings--}
 
@@ -216,11 +216,11 @@ getSettings() : WorkbookSettings;
 
 **Returns**
 
-[WorkbookSettings](/nodejs-cpp/workbooksettings/)
+[WorkbookSettings](../workbooksettings/)
 
 ### getWorksheets() {#getWorksheets--}
 
-Gets the [WorksheetCollection](/nodejs-cpp/worksheetcollection/) collection in the spreadsheet.
+Gets the [WorksheetCollection](../worksheetcollection/) collection in the spreadsheet.
 
 ```javascript
 getWorksheets() : WorksheetCollection;
@@ -229,7 +229,7 @@ getWorksheets() : WorksheetCollection;
 
 **Returns**
 
-[WorksheetCollection](/nodejs-cpp/worksheetcollection/) collection
+[WorksheetCollection](../worksheetcollection/) collection
 
 ### isLicensed() {#isLicensed--}
 
@@ -251,7 +251,7 @@ getColors() : Color[];
 
 **Returns**
 
-[Color](/nodejs-cpp/color/)[]
+[Color](../color/)[]
 
 **Remarks**
 
@@ -268,7 +268,7 @@ getCountOfStylesInPool() : number;
 
 ### getDefaultStyle() {#getDefaultStyle--}
 
-Gets or sets the default [Style](/nodejs-cpp/style/) object of the workbook.
+Gets or sets the default [Style](../style/) object of the workbook.
 
 ```javascript
 getDefaultStyle() : Style;
@@ -277,7 +277,7 @@ getDefaultStyle() : Style;
 
 **Returns**
 
-[Style](/nodejs-cpp/style/)
+[Style](../style/)
 
 **Remarks**
 
@@ -285,7 +285,7 @@ The DefaultStyle property is useful to implement a Style for the whole Workbook.
 
 ### setDefaultStyle(Style) {#setDefaultStyle-style-}
 
-Gets or sets the default [Style](/nodejs-cpp/style/) object of the workbook.
+Gets or sets the default [Style](../style/) object of the workbook.
 
 ```javascript
 setDefaultStyle(value: Style) : void;
@@ -294,7 +294,7 @@ setDefaultStyle(value: Style) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [Style](/nodejs-cpp/style/) | The value to set. |
+| value | [Style](../style/) | The value to set. |
 
 **Remarks**
 
@@ -320,7 +320,7 @@ isWorkbookProtectedWithPassword() : boolean;
 
 ### getVbaProject() {#getVbaProject--}
 
-Gets the [VbaProject](/nodejs-cpp/vbaproject/) in a spreadsheet.
+Gets the [VbaProject](../vbaproject/) in a spreadsheet.
 
 ```javascript
 getVbaProject() : VbaProject;
@@ -329,7 +329,7 @@ getVbaProject() : VbaProject;
 
 **Returns**
 
-[VbaProject](/nodejs-cpp/vbaproject/)
+[VbaProject](../vbaproject/)
 
 ### getHasMacro() {#getHasMacro--}
 
@@ -390,7 +390,7 @@ getDataSorter() : DataSorter;
 
 **Returns**
 
-[DataSorter](/nodejs-cpp/datasorter/)
+[DataSorter](../datasorter/)
 
 ### getTheme() {#getTheme--}
 
@@ -403,7 +403,7 @@ getTheme() : string;
 
 ### getBuiltInDocumentProperties() {#getBuiltInDocumentProperties--}
 
-Returns a [DocumentProperty](/nodejs-cpp/documentproperty/) collection that represents all the built-in document properties of the spreadsheet.
+Returns a [DocumentProperty](../documentproperty/) collection that represents all the built-in document properties of the spreadsheet.
 
 ```javascript
 getBuiltInDocumentProperties() : BuiltInDocumentPropertyCollection;
@@ -412,7 +412,7 @@ getBuiltInDocumentProperties() : BuiltInDocumentPropertyCollection;
 
 **Returns**
 
-[BuiltInDocumentPropertyCollection](/nodejs-cpp/builtindocumentpropertycollection/)
+[BuiltInDocumentPropertyCollection](../builtindocumentpropertycollection/)
 
 **Remarks**
 
@@ -420,7 +420,7 @@ A new property cannot be added to built-in document properties list. You can onl
 
 ### getCustomDocumentProperties() {#getCustomDocumentProperties--}
 
-Returns a [DocumentProperty](/nodejs-cpp/documentproperty/) collection that represents all the custom document properties of the spreadsheet.
+Returns a [DocumentProperty](../documentproperty/) collection that represents all the custom document properties of the spreadsheet.
 
 ```javascript
 getCustomDocumentProperties() : CustomDocumentPropertyCollection;
@@ -429,7 +429,7 @@ getCustomDocumentProperties() : CustomDocumentPropertyCollection;
 
 **Returns**
 
-[CustomDocumentPropertyCollection](/nodejs-cpp/customdocumentpropertycollection/)
+[CustomDocumentPropertyCollection](../customdocumentpropertycollection/)
 
 ### getFileFormat() {#getFileFormat--}
 
@@ -442,7 +442,7 @@ getFileFormat() : FileFormatType;
 
 **Returns**
 
-[FileFormatType](/nodejs-cpp/fileformattype/)
+[FileFormatType](../fileformattype/)
 
 ### setFileFormat(FileFormatType) {#setFileFormat-fileformattype-}
 
@@ -455,7 +455,7 @@ setFileFormat(value: FileFormatType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [FileFormatType](/nodejs-cpp/fileformattype/) | The value to set. |
+| value | [FileFormatType](../fileformattype/) | The value to set. |
 
 ### getInterruptMonitor() {#getInterruptMonitor--}
 
@@ -468,11 +468,11 @@ getInterruptMonitor() : AbstractInterruptMonitor;
 
 **Returns**
 
-[AbstractInterruptMonitor](/nodejs-cpp/abstractinterruptmonitor/)
+[AbstractInterruptMonitor](../abstractinterruptmonitor/)
 
 ### getContentTypeProperties() {#getContentTypeProperties--}
 
-Gets the list of  [ContentTypeProperty](/nodejs-cpp/contenttypeproperty/) objects in the workbook.
+Gets the list of  [ContentTypeProperty](../contenttypeproperty/) objects in the workbook.
 
 ```javascript
 getContentTypeProperties() : ContentTypePropertyCollection;
@@ -481,7 +481,7 @@ getContentTypeProperties() : ContentTypePropertyCollection;
 
 **Returns**
 
-[ContentTypePropertyCollection](/nodejs-cpp/contenttypepropertycollection/)
+[ContentTypePropertyCollection](../contenttypepropertycollection/)
 
 ### getCustomXmlParts() {#getCustomXmlParts--}
 
@@ -494,7 +494,7 @@ getCustomXmlParts() : CustomXmlPartCollection;
 
 **Returns**
 
-[CustomXmlPartCollection](/nodejs-cpp/customxmlpartcollection/)
+[CustomXmlPartCollection](../customxmlpartcollection/)
 
 ### getDataMashup() {#getDataMashup--}
 
@@ -507,7 +507,7 @@ getDataMashup() : DataMashup;
 
 **Returns**
 
-[DataMashup](/nodejs-cpp/datamashup/)
+[DataMashup](../datamashup/)
 
 ### getRibbonXml() {#getRibbonXml--}
 
@@ -563,7 +563,7 @@ Only used for external links.
 
 ### getDataConnections() {#getDataConnections--}
 
-Gets the [ExternalConnection](/nodejs-cpp/externalconnection/) collection.
+Gets the [ExternalConnection](../externalconnection/) collection.
 
 ```javascript
 getDataConnections() : ExternalConnectionCollection;
@@ -572,7 +572,7 @@ getDataConnections() : ExternalConnectionCollection;
 
 **Returns**
 
-[ExternalConnectionCollection](/nodejs-cpp/externalconnectioncollection/)
+[ExternalConnectionCollection](../externalconnectioncollection/)
 
 ### parseFormulas(boolean) {#parseFormulas-boolean-}
 
@@ -598,11 +598,11 @@ startAccessCache(opts: AccessCacheOptions) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| opts | [AccessCacheOptions](/nodejs-cpp/accesscacheoptions/) | options of data access |
+| opts | [AccessCacheOptions](../accesscacheoptions/) | options of data access |
 
 **Remarks**
 
-If the cache of specified data access requires some data models in worksheet to be "read-only", then corresponding data models in every worksheet in this workbook will be taken as "read-only" and user should not change any of them. <br></br> After finishing the access to the data, [CloseAccessCache(AccessCacheOptions)](/nodejs-cpp/closeaccesscache(accesscacheoptions)/) should be invoked with same options to clear all caches and recover normal access mode. <br></br>
+If the cache of specified data access requires some data models in worksheet to be "read-only", then corresponding data models in every worksheet in this workbook will be taken as "read-only" and user should not change any of them. <br></br> After finishing the access to the data, [CloseAccessCache(AccessCacheOptions)](../closeaccesscache(accesscacheoptions)/) should be invoked with same options to clear all caches and recover normal access mode. <br></br>
 
 ### closeAccessCache(AccessCacheOptions) {#closeAccessCache-accesscacheoptions-}
 
@@ -615,7 +615,7 @@ closeAccessCache(opts: AccessCacheOptions) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| opts | [AccessCacheOptions](/nodejs-cpp/accesscacheoptions/) | options of data access |
+| opts | [AccessCacheOptions](../accesscacheoptions/) | options of data access |
 
 ### save(string, SaveFormat) {#save-string-saveformat-}
 
@@ -629,7 +629,7 @@ save(fileName: string, saveFormat: SaveFormat) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileName | string | The file name. |
-| saveFormat | [SaveFormat](/nodejs-cpp/saveformat/) | The save format type. |
+| saveFormat | [SaveFormat](../saveformat/) | The save format type. |
 
 ### save(string) {#save-string-}
 
@@ -656,7 +656,7 @@ save(fileName: string, saveOptions: SaveOptions) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileName | string | The file name. |
-| saveOptions | [SaveOptions](/nodejs-cpp/saveoptions/) | The save options. |
+| saveOptions | [SaveOptions](../saveoptions/) | The save options. |
 
 ### save(SaveFormat) {#save-saveformat-}
 
@@ -669,7 +669,7 @@ save(saveFormat: SaveFormat) : Uint8Array;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| saveFormat | [SaveFormat](/nodejs-cpp/saveformat/) | The save file format type. |
+| saveFormat | [SaveFormat](../saveformat/) | The save file format type. |
 
 **Returns**
 
@@ -686,7 +686,7 @@ save(saveOptions: SaveOptions) : Uint8Array;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| saveOptions | [SaveOptions](/nodejs-cpp/saveoptions/) | The save options. |
+| saveOptions | [SaveOptions](../saveoptions/) | The save options. |
 
 **Returns**
 
@@ -742,15 +742,15 @@ createBuiltinStyle(type: BuiltinStyleType) : Style;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | [BuiltinStyleType](/nodejs-cpp/builtinstyletype/) | The builtin style stype. |
+| type | [BuiltinStyleType](../builtinstyletype/) | The builtin style stype. |
 
 **Returns**
 
-[Style](/nodejs-cpp/style/) object
+[Style](../style/) object
 
 ### createCellsColor() {#createCellsColor--}
 
-Creates a [CellsColor](/nodejs-cpp/cellscolor/) object.
+Creates a [CellsColor](../cellscolor/) object.
 
 ```javascript
 createCellsColor() : CellsColor;
@@ -759,7 +759,7 @@ createCellsColor() : CellsColor;
 
 **Returns**
 
-Returns a [CellsColor](/nodejs-cpp/cellscolor/) object.
+Returns a [CellsColor](../cellscolor/) object.
 
 ### replace(string, string) {#replace-string-string-}
 
@@ -861,7 +861,7 @@ replace(placeHolder: string, newValue: string, options: ReplaceOptions) : number
 | --- | --- | --- |
 | placeHolder | string | Cell placeholder |
 | newValue | string | String value to replace |
-| options | [ReplaceOptions](/nodejs-cpp/replaceoptions/) | The replace options |
+| options | [ReplaceOptions](../replaceoptions/) | The replace options |
 
 ### copy(Workbook, CopyOptions) {#copy-workbook-copyoptions-}
 
@@ -874,8 +874,8 @@ copy(source: Workbook, copyOptions: CopyOptions) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| source | [Workbook](/nodejs-cpp/workbook/) | Source Workbook object. |
-| copyOptions | [CopyOptions](/nodejs-cpp/copyoptions/) | The options of copying other workbook. |
+| source | [Workbook](../workbook/) | Source Workbook object. |
+| copyOptions | [CopyOptions](../copyoptions/) | The options of copying other workbook. |
 
 **Remarks**
 
@@ -892,7 +892,7 @@ copy(source: Workbook) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| source | [Workbook](/nodejs-cpp/workbook/) | Source Workbook object. |
+| source | [Workbook](../workbook/) | Source Workbook object. |
 
 ### combine(Workbook) {#combine-workbook-}
 
@@ -905,7 +905,7 @@ combine(secondWorkbook: Workbook) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| secondWorkbook | [Workbook](/nodejs-cpp/workbook/) | Another Workbook object. |
+| secondWorkbook | [Workbook](../workbook/) | Another Workbook object. |
 
 **Remarks**
 
@@ -943,7 +943,7 @@ getFonts() : Font[];
 
 **Returns**
 
-[Font](/nodejs-cpp/font/)[]
+[Font](../font/)[]
 
 ### getNamedStyle(string) {#getNamedStyle-string-}
 
@@ -973,7 +973,7 @@ changePalette(color: Color, index: number) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| color | [Color](/nodejs-cpp/color/) | Color structure. |
+| color | [Color](../color/) | Color structure. |
 | index | number | Palette index, 0 - 55. |
 
 **Remarks**
@@ -991,7 +991,7 @@ isColorInPalette(color: Color) : boolean;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| color | [Color](/nodejs-cpp/color/) | Color structure. |
+| color | [Color](../color/) | Color structure. |
 
 **Returns**
 
@@ -1034,7 +1034,7 @@ calculateFormula(options: CalculationOptions) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| options | [CalculationOptions](/nodejs-cpp/calculationoptions/) | Options for calculation |
+| options | [CalculationOptions](../calculationoptions/) | Options for calculation |
 
 ### refreshDynamicArrayFormulas(boolean) {#refreshDynamicArrayFormulas-boolean-}
 
@@ -1061,11 +1061,11 @@ refreshDynamicArrayFormulas(calculate: boolean, copts: CalculationOptions) : voi
 | Parameter | Type | Description |
 | --- | --- | --- |
 | calculate | boolean | Whether calculates and updates cell values for those dynamic array formulas |
-| copts | [CalculationOptions](/nodejs-cpp/calculationoptions/) | The options for calculating formulas |
+| copts | [CalculationOptions](../calculationoptions/) | The options for calculating formulas |
 
 **Remarks**
 
-For performance consideration, we do not refresh all dynamic array formulas automatically when the formula itself or the data it references to changed. So user need to call this method manually after those operations which may influence dynamic array formulas, such as importing/setting cell values, inserting/deleting rows/columns/ranges, ...etc.<br></br> For most formulas with functions, calculating the spill range also needs to calculating the formula, so in general true value for "calculate" flag is preferred. If the formula is simple, such as a range reference or array(for example "=C1:E5", "={1,2;3,4}", ...), simple function on a range or array(for example "=ABS(C1:E5)", "=1+{1,2;3,4}", ...), and all formulas will be calculated later(such as by [Workbook.CalculateFormula(CalculationOptions)](/nodejs-cpp/workbook.calculateformula(calculationoptions)/)), then using false vlaue for "calculate" flag may avoid the duplicated calculation for the benefit of performance.
+For performance consideration, we do not refresh all dynamic array formulas automatically when the formula itself or the data it references to changed. So user need to call this method manually after those operations which may influence dynamic array formulas, such as importing/setting cell values, inserting/deleting rows/columns/ranges, ...etc.<br></br> For most formulas with functions, calculating the spill range also needs to calculating the formula, so in general true value for "calculate" flag is preferred. If the formula is simple, such as a range reference or array(for example "=C1:E5", "={1,2;3,4}", ...), simple function on a range or array(for example "=ABS(C1:E5)", "=1+{1,2;3,4}", ...), and all formulas will be calculated later(such as by [Workbook.CalculateFormula(CalculationOptions)](../workbook.calculateformula(calculationoptions)/)), then using false vlaue for "calculate" flag may avoid the duplicated calculation for the benefit of performance.
 
 ### getMatchingColor(Color) {#getMatchingColor-color-}
 
@@ -1078,7 +1078,7 @@ getMatchingColor(rawColor: Color) : Color;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rawColor | [Color](/nodejs-cpp/color/) | Raw color. |
+| rawColor | [Color](../color/) | Raw color. |
 
 **Returns**
 
@@ -1095,7 +1095,7 @@ setEncryptionOptions(encryptionType: EncryptionType, keyLength: number) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| encryptionType | [EncryptionType](/nodejs-cpp/encryptiontype/) | The encryption type. |
+| encryptionType | [EncryptionType](../encryptiontype/) | The encryption type. |
 | keyLength | number | The key length. |
 
 ### protect(ProtectionType, string) {#protect-protectiontype-string-}
@@ -1109,7 +1109,7 @@ protect(protectionType: ProtectionType, password: string) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| protectionType | [ProtectionType](/nodejs-cpp/protectiontype/) | Protection type. |
+| protectionType | [ProtectionType](../protectiontype/) | Protection type. |
 | password | string | Password to protect the workbook. |
 
 ### protectSharedWorkbook(string) {#protectSharedWorkbook-string-}
@@ -1189,7 +1189,7 @@ getThemeColor(type: ThemeColorType) : Color;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | [ThemeColorType](/nodejs-cpp/themecolortype/) | The theme color type. |
+| type | [ThemeColorType](../themecolortype/) | The theme color type. |
 
 **Returns**
 
@@ -1206,8 +1206,8 @@ setThemeColor(type: ThemeColorType, color: Color) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | [ThemeColorType](/nodejs-cpp/themecolortype/) | The theme color type. |
-| color | [Color](/nodejs-cpp/color/) | the theme color |
+| type | [ThemeColorType](../themecolortype/) | The theme color type. |
+| color | [Color](../color/) | the theme color |
 
 ### customTheme(string, Color[]) {#customTheme-string-colorarray-}
 
@@ -1221,7 +1221,7 @@ customTheme(themeName: string, colors: Color[]) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | themeName | string | The theme name |
-| colors | [Color](/nodejs-cpp/color/)[] | The theme colors |
+| colors | [Color](../color/)[] | The theme colors |
 
 **Remarks**
 
@@ -1238,7 +1238,7 @@ copyTheme(source: Workbook) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| source | [Workbook](/nodejs-cpp/workbook/) | Source workbook. |
+| source | [Workbook](../workbook/) | Source workbook. |
 
 ### updateCustomFunctionDefinition(CustomFunctionDefinition) {#updateCustomFunctionDefinition-customfunctiondefinition-}
 
@@ -1251,11 +1251,11 @@ updateCustomFunctionDefinition(definition: CustomFunctionDefinition) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| definition | [CustomFunctionDefinition](/nodejs-cpp/customfunctiondefinition/) | Special definition of custom functions for user's special requirement. |
+| definition | [CustomFunctionDefinition](../customfunctiondefinition/) | Special definition of custom functions for user's special requirement. |
 
 **Remarks**
 
-This method can be used for some special scenarios. For example, if user needs some parameters of some custom functions be calculated in array mode, then user may provide their own definition with implemented [CustomFunctionDefinition.GetArrayModeParameters(string)](/nodejs-cpp/customfunctiondefinition.getarraymodeparameters(string)/) for those functions. After the data of formulas being updated, those specified parameters will be calculated in array mode automatically when calculating corresponding custom functions.
+This method can be used for some special scenarios. For example, if user needs some parameters of some custom functions be calculated in array mode, then user may provide their own definition with implemented [CustomFunctionDefinition.GetArrayModeParameters(string)](../customfunctiondefinition.getarraymodeparameters(string)/) for those functions. After the data of formulas being updated, those specified parameters will be calculated in array mode automatically when calculating corresponding custom functions.
 
 ### updateLinkedDataSource(Workbook[]) {#updateLinkedDataSource-workbookarray-}
 
@@ -1268,7 +1268,7 @@ updateLinkedDataSource(externalWorkbooks: Workbook[]) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| externalWorkbooks | [Workbook](/nodejs-cpp/workbook/)[] | Workbooks that will be used to update data of external links referenced by this workbook.         /// The match of those workbooks with external links is determined by [Workbook.FileName](/nodejs-cpp/workbook.filename/)         /// and [Workbook.FileName](/nodejs-cpp/workbook.filename/). So please make sure [Workbook.FileName](/nodejs-cpp/workbook.filename/) has         /// been specified with the proper value for every workbook so they can be linked to corresponding external link. |
+| externalWorkbooks | [Workbook](../workbook/)[] | Workbooks that will be used to update data of external links referenced by this workbook.         /// The match of those workbooks with external links is determined by [Workbook.FileName](../workbook.filename/)         /// and [Workbook.FileName](../workbook.filename/). So please make sure [Workbook.FileName](../workbook.filename/) has         /// been specified with the proper value for every workbook so they can be linked to corresponding external link. |
 
 **Remarks**
 
@@ -1285,7 +1285,7 @@ setInterruptMonitor(interruptMonitor: InterruptMonitor) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| interruptMonitor | [InterruptMonitor](/nodejs-cpp/interruptmonitor/) | An InterruptMonitor object. |
+| interruptMonitor | [InterruptMonitor](../interruptmonitor/) | An InterruptMonitor object. |
 
 ### importXml(string, string, number, number) {#importXml-string-string-number-number-}
 
@@ -1361,7 +1361,7 @@ setDigitalSignature(digitalSignatureCollection: DigitalSignatureCollection) : vo
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| digitalSignatureCollection | [DigitalSignatureCollection](/nodejs-cpp/digitalsignaturecollection/) |  |
+| digitalSignatureCollection | [DigitalSignatureCollection](../digitalsignaturecollection/) |  |
 
 **Remarks**
 
@@ -1378,7 +1378,7 @@ addDigitalSignature(digitalSignatureCollection: DigitalSignatureCollection) : vo
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| digitalSignatureCollection | [DigitalSignatureCollection](/nodejs-cpp/digitalsignaturecollection/) |  |
+| digitalSignatureCollection | [DigitalSignatureCollection](../digitalsignaturecollection/) |  |
 
 **Remarks**
 
@@ -1395,7 +1395,7 @@ getDigitalSignature() : DigitalSignatureCollection;
 
 **Returns**
 
-[DigitalSignatureCollection](/nodejs-cpp/digitalsignaturecollection/)
+[DigitalSignatureCollection](../digitalsignaturecollection/)
 
 ### removePersonalInformation() {#removePersonalInformation--}
 

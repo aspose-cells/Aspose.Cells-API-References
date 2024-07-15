@@ -159,7 +159,7 @@ getHyperlinks() : Hyperlink[];
 
 **Returns**
 
-[Hyperlink](/nodejs-cpp/hyperlink/)[]
+[Hyperlink](../hyperlink/)[]
 
 ### getCellCount() {#getCellCount--}
 
@@ -190,7 +190,7 @@ getRanges() : Range[];
 
 **Returns**
 
-[Range](/nodejs-cpp/range/)[]
+[Range](../range/)[]
 
 ### merge() {#merge--}
 
@@ -240,7 +240,7 @@ setStyle(style: Style) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| style | [Style](/nodejs-cpp/style/) | The Style object. |
+| style | [Style](../style/) | The Style object. |
 
 ### applyStyle(Style, StyleFlag) {#applyStyle-style-styleflag-}
 
@@ -253,12 +253,12 @@ applyStyle(style: Style, flag: StyleFlag) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| style | [Style](/nodejs-cpp/style/) | The style object which will be applied. |
-| flag | [StyleFlag](/nodejs-cpp/styleflag/) | Flags which indicates applied formatting properties. |
+| style | [Style](../style/) | The style object which will be applied. |
+| flag | [StyleFlag](../styleflag/) | Flags which indicates applied formatting properties. |
 
 **Remarks**
 
-Each cell in this range will contains a [Style](/nodejs-cpp/style/) object. So this is a memory-consuming method. Please use it carefully.
+Each cell in this range will contains a [Style](../style/) object. So this is a memory-consuming method. Please use it carefully.
 
 ### copy(UnionRange, PasteOptions) {#copy-unionrange-pasteoptions-}
 
@@ -271,8 +271,8 @@ copy(range: UnionRange, options: PasteOptions) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| range | [UnionRange](/nodejs-cpp/unionrange/) | The source range. |
-| options | [PasteOptions](/nodejs-cpp/pasteoptions/) | The paste special options. |
+| range | [UnionRange](../unionrange/) | The source range. |
+| options | [PasteOptions](../pasteoptions/) | The paste special options. |
 
 ### getEnumerator() {#getEnumerator--}
 
@@ -302,8 +302,8 @@ setOutlineBorders(borderStyles: CellBorderType[], borderColors: Color[]) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| borderStyles | [CellBorderType](/nodejs-cpp/cellbordertype/)[] | Border styles. |
-| borderColors | [Color](/nodejs-cpp/color/)[] | Border colors. |
+| borderStyles | [CellBorderType](../cellbordertype/)[] | Border styles. |
+| borderColors | [Color](../color/)[] | Border colors. |
 
 **Remarks**
 
@@ -320,8 +320,8 @@ setOutlineBorders(borderStyle: CellBorderType, borderColor: Color) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| borderStyle | [CellBorderType](/nodejs-cpp/cellbordertype/) | Border style. |
-| borderColor | [Color](/nodejs-cpp/color/) | Border color. |
+| borderStyle | [CellBorderType](../cellbordertype/) | Border style. |
+| borderColor | [Color](../color/) | Border color. |
 
 ### intersect(string) {#intersect-string-}
 
@@ -338,7 +338,7 @@ intersect(range: string) : UnionRange;
 
 **Returns**
 
-[UnionRange](/nodejs-cpp/unionrange/)
+[UnionRange](../unionrange/)
 
 **Remarks**
 
@@ -355,11 +355,11 @@ intersect(unionRange: UnionRange) : UnionRange;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| unionRange | [UnionRange](/nodejs-cpp/unionrange/) | The range. |
+| unionRange | [UnionRange](../unionrange/) | The range. |
 
 **Returns**
 
-[UnionRange](/nodejs-cpp/unionrange/)
+[UnionRange](../unionrange/)
 
 **Remarks**
 
@@ -376,11 +376,11 @@ intersect(ranges: Range[]) : UnionRange;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| ranges | [Range](/nodejs-cpp/range/)[] | The range. |
+| ranges | [Range](../range/)[] | The range. |
 
 **Returns**
 
-[UnionRange](/nodejs-cpp/unionrange/)
+[UnionRange](../unionrange/)
 
 **Remarks**
 
@@ -401,7 +401,7 @@ union(range: string) : UnionRange;
 
 **Returns**
 
-[UnionRange](/nodejs-cpp/unionrange/)
+[UnionRange](../unionrange/)
 
 ### union(UnionRange) {#union-unionrange-}
 
@@ -414,11 +414,11 @@ union(unionRange: UnionRange) : UnionRange;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| unionRange | [UnionRange](/nodejs-cpp/unionrange/) | The range. |
+| unionRange | [UnionRange](../unionrange/) | The range. |
 
 **Returns**
 
-[UnionRange](/nodejs-cpp/unionrange/)
+[UnionRange](../unionrange/)
 
 ### union(Range[]) {#union-rangearray-}
 
@@ -431,10 +431,10 @@ union(ranges: Range[]) : UnionRange;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| ranges | [Range](/nodejs-cpp/range/)[] | The ranges. |
+| ranges | [Range](../range/)[] | The ranges. |
 
 **Returns**
 
-[UnionRange](/nodejs-cpp/unionrange/)
+[UnionRange](../unionrange/)
 
 

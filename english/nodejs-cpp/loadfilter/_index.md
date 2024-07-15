@@ -54,7 +54,7 @@ constructor(opts: LoadDataFilterOptions);
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| opts | [LoadDataFilterOptions](/nodejs-cpp/loaddatafilteroptions/) | The default filter options. |
+| opts | [LoadDataFilterOptions](../loaddatafilteroptions/) | The default filter options. |
 
 ### getLoadDataFilterOptions() {#getLoadDataFilterOptions--}
 
@@ -67,7 +67,7 @@ getLoadDataFilterOptions() : LoadDataFilterOptions;
 
 **Returns**
 
-[LoadDataFilterOptions](/nodejs-cpp/loaddatafilteroptions/)
+[LoadDataFilterOptions](../loaddatafilteroptions/)
 
 ### setLoadDataFilterOptions(LoadDataFilterOptions) {#setLoadDataFilterOptions-loaddatafilteroptions-}
 
@@ -80,7 +80,7 @@ setLoadDataFilterOptions(value: LoadDataFilterOptions) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [LoadDataFilterOptions](/nodejs-cpp/loaddatafilteroptions/) | The value to set. |
+| value | [LoadDataFilterOptions](../loaddatafilteroptions/) | The value to set. |
 
 ### startSheet(Worksheet) {#startSheet-worksheet-}
 
@@ -93,7 +93,7 @@ startSheet(sheet: Worksheet) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sheet | [Worksheet](/nodejs-cpp/worksheet/) | The worksheet to be loaded.         /// There are only few properties can be used for the given worksheet object here         /// because most data and properties have not been loaded. The available properties are:         /// Name, Index, VisibilityType |
+| sheet | [Worksheet](../worksheet/) | The worksheet to be loaded.         /// There are only few properties can be used for the given worksheet object here         /// because most data and properties have not been loaded. The available properties are:         /// Name, Index, VisibilityType |
 
 ### getSheetsInLoadingOrder() {#getSheetsInLoadingOrder--}
 

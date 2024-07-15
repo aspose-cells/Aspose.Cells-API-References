@@ -63,7 +63,7 @@ get(column: number) : Cell;
 
 **Returns**
 
-[Cell](/nodejs-cpp/cell/)
+[Cell](../cell/)
 
 ### isBlank() {#isBlank--}
 
@@ -182,7 +182,7 @@ isHeightMatched() : boolean;
 
 **Remarks**
 
-When this property is true, if the content in this row changes, generally the row height needs to be re-calculated(such as by [Worksheet.AutoFitRows()](/nodejs-cpp/worksheet.autofitrows()/)) to get the same result with what is shown in ms excel when you opening the workbook in it.
+When this property is true, if the content in this row changes, generally the row height needs to be re-calculated(such as by [Worksheet.AutoFitRows()](../worksheet.autofitrows()/)) to get the same result with what is shown in ms excel when you opening the workbook in it.
 
 ### setIsHeightMatched(boolean) {#setIsHeightMatched-boolean-}
 
@@ -199,7 +199,7 @@ setIsHeightMatched(value: boolean) : void;
 
 **Remarks**
 
-When this property is true, if the content in this row changes, generally the row height needs to be re-calculated(such as by [Worksheet.AutoFitRows()](/nodejs-cpp/worksheet.autofitrows()/)) to get the same result with what is shown in ms excel when you opening the workbook in it.
+When this property is true, if the content in this row changes, generally the row height needs to be re-calculated(such as by [Worksheet.AutoFitRows()](../worksheet.autofitrows()/)) to get the same result with what is shown in ms excel when you opening the workbook in it.
 
 ### getHasCustomStyle() {#getHasCustomStyle--}
 
@@ -221,7 +221,7 @@ getFirstCell() : Cell;
 
 **Returns**
 
-[Cell](/nodejs-cpp/cell/)
+[Cell](../cell/)
 
 ### getFirstDataCell() {#getFirstDataCell--}
 
@@ -234,7 +234,7 @@ getFirstDataCell() : Cell;
 
 **Returns**
 
-[Cell](/nodejs-cpp/cell/)
+[Cell](../cell/)
 
 ### getLastCell() {#getLastCell--}
 
@@ -247,7 +247,7 @@ getLastCell() : Cell;
 
 **Returns**
 
-[Cell](/nodejs-cpp/cell/)
+[Cell](../cell/)
 
 ### getLastDataCell() {#getLastDataCell--}
 
@@ -260,7 +260,7 @@ getLastDataCell() : Cell;
 
 **Returns**
 
-[Cell](/nodejs-cpp/cell/)
+[Cell](../cell/)
 
 ### getCellByIndex(number) {#getCellByIndex-number-}
 
@@ -281,7 +281,7 @@ The Cell object at given position.
 
 **Remarks**
 
-To traverse all cells in sequence without modification, using [GetEnumerator()](/nodejs-cpp/getenumerator()/) will give better performance than using this method to get cell one by one.
+To traverse all cells in sequence without modification, using [GetEnumerator()](../getenumerator()/) will give better performance than using this method to get cell one by one.
 
 ### getEnumerator() {#getEnumerator--}
 
@@ -346,11 +346,11 @@ getStyle() : Style;
 
 **Returns**
 
-[Style](/nodejs-cpp/style/)
+[Style](../style/)
 
 **Remarks**
 
-Modifying the returned style object directly takes no effect for this row or any cells in this row. You have to call [ApplyStyle(Style, StyleFlag)](/nodejs-cpp/applystyle(style, styleflag)/) or [ApplyStyle(Style, StyleFlag)](/nodejs-cpp/applystyle(style, styleflag)/) method to apply the change to this row.<br></br> Row's style is the style which will be inherited by cells in this row(those cells that have no custom style settings, such as existing cells that have not been set style explicitly, or those that have not been instantiated)
+Modifying the returned style object directly takes no effect for this row or any cells in this row. You have to call [ApplyStyle(Style, StyleFlag)](../applystyle(style, styleflag)/) or [ApplyStyle(Style, StyleFlag)](../applystyle(style, styleflag)/) method to apply the change to this row.<br></br> Row's style is the style which will be inherited by cells in this row(those cells that have no custom style settings, such as existing cells that have not been set style explicitly, or those that have not been instantiated)
 
 ### setStyle(Style) {#setStyle-style-}
 
@@ -363,11 +363,11 @@ setStyle(style: Style) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| style | [Style](/nodejs-cpp/style/) | the style to be used as the default style for cells in this row. |
+| style | [Style](../style/) | the style to be used as the default style for cells in this row. |
 
 **Remarks**
 
-This method only sets the given style as the default style for this row, without changing the style settings for existing cells in this row. To update style settings of existing cells to the specified style at the same time, please use [ApplyStyle(Style, StyleFlag)](/nodejs-cpp/applystyle(style, styleflag)/)
+This method only sets the given style as the default style for this row, without changing the style settings for existing cells in this row. To update style settings of existing cells to the specified style at the same time, please use [ApplyStyle(Style, StyleFlag)](../applystyle(style, styleflag)/)
 
 ### copySettings(Row, boolean) {#copySettings-row-boolean-}
 
@@ -380,7 +380,7 @@ copySettings(source: Row, checkStyle: boolean) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| source | [Row](/nodejs-cpp/row/) | the source row whose settings will be copied to this one |
+| source | [Row](../row/) | the source row whose settings will be copied to this one |
 | checkStyle | boolean | whether check and gather style.         /// Only takes effect and be needed when two row objects belong to different workbook and the styles of two workbooks are different. |
 
 ### applyStyle(Style, StyleFlag) {#applyStyle-style-styleflag-}
@@ -394,8 +394,8 @@ applyStyle(style: Style, flag: StyleFlag) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| style | [Style](/nodejs-cpp/style/) | The style object which will be applied. |
-| flag | [StyleFlag](/nodejs-cpp/styleflag/) | Flags which indicates applied formatting properties. |
+| style | [Style](../style/) | The style object which will be applied. |
+| flag | [StyleFlag](../styleflag/) | Flags which indicates applied formatting properties. |
 
 ### equals(Row) {#equals-row-}
 
@@ -408,7 +408,7 @@ equals(row: Row) : boolean;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| row | [Row](/nodejs-cpp/row/) | another row object |
+| row | [Row](../row/) | another row object |
 
 **Returns**
 

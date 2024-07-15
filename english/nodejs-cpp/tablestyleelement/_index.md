@@ -59,7 +59,7 @@ getType() : TableStyleElementType;
 
 **Returns**
 
-[TableStyleElementType](/nodejs-cpp/tablestyleelementtype/)
+[TableStyleElementType](../tablestyleelementtype/)
 
 ### getElementStyle() {#getElementStyle--}
 
@@ -72,7 +72,7 @@ getElementStyle() : Style;
 
 **Returns**
 
-Returns the [Style](/nodejs-cpp/style/) object.
+Returns the [Style](../style/) object.
 
 ### setElementStyle(Style) {#setElementStyle-style-}
 
@@ -85,6 +85,6 @@ setElementStyle(style: Style) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| style | [Style](/nodejs-cpp/style/) | The element style. |
+| style | [Style](../style/) | The element style. |
 
 

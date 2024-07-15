@@ -44,7 +44,7 @@ getForeColor() : Color;
 
 **Returns**
 
-[Color](/nodejs-cpp/color/)
+[Color](../color/)
 
 ### setForeColor(Color) {#setForeColor-color-}
 
@@ -57,7 +57,7 @@ setForeColor(value: Color) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [Color](/nodejs-cpp/color/) | The value to set. |
+| value | [Color](../color/) | The value to set. |
 
 ### getForeColorTransparency() {#getForeColorTransparency--}
 
@@ -92,7 +92,7 @@ getBackColor() : Color;
 
 **Returns**
 
-[Color](/nodejs-cpp/color/)
+[Color](../color/)
 
 ### setBackColor(Color) {#setBackColor-color-}
 
@@ -105,7 +105,7 @@ setBackColor(value: Color) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [Color](/nodejs-cpp/color/) | The value to set. |
+| value | [Color](../color/) | The value to set. |
 
 ### getImageData() {#getImageData--}
 
@@ -144,7 +144,7 @@ getTexture() : TextureType;
 
 **Returns**
 
-[TextureType](/nodejs-cpp/texturetype/)
+[TextureType](../texturetype/)
 
 ### isVisible() {#isVisible--}
 
@@ -179,9 +179,9 @@ setOneColorGradient(color: Color, degree: number, style: GradientStyleType, vari
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| color | [Color](/nodejs-cpp/color/) | One gradient color. |
+| color | [Color](../color/) | One gradient color. |
 | degree | number | The gradient degree. Can be a value from 0.0 (dark) through 1.0 (light). |
-| style | [GradientStyleType](/nodejs-cpp/gradientstyletype/) | Gradient shading style. |
+| style | [GradientStyleType](../gradientstyletype/) | Gradient shading style. |
 | variant | number | The gradient variant. Can be a value from 1 through 4, corresponding to one of the four variants on the Gradient tab in the Fill Effects dialog box. If style is GradientStyle.FromCenter, the Variant argument can only be 1 or 2. |
 
 

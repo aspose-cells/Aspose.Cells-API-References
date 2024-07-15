@@ -19,14 +19,14 @@ class ScenarioInputCellCollection;
 
 | Method | Description |
 | --- | --- |
-| [get(number)](#get-number-)| Gets [ScenarioInputCell](/nodejs-cpp/scenarioinputcell/) by index in the list. |
+| [get(number)](#get-number-)| Gets [ScenarioInputCell](../scenarioinputcell/) by index in the list. |
 | [add(number, number, string)](#add-number-number-string-)| Adds an input cell. |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
 
 
 ### get(number) {#get-number-}
 
-Gets [ScenarioInputCell](/nodejs-cpp/scenarioinputcell/) by index in the list.
+Gets [ScenarioInputCell](../scenarioinputcell/) by index in the list.
 
 ```javascript
 get(index: number) : ScenarioInputCell;
@@ -39,7 +39,7 @@ get(index: number) : ScenarioInputCell;
 
 **Returns**
 
-The [ScenarioInputCell](/nodejs-cpp/scenarioinputcell/) object
+The [ScenarioInputCell](../scenarioinputcell/) object
 
 ### add(number, number, string) {#add-number-number-string-}
 

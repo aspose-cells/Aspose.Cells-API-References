@@ -60,7 +60,7 @@ getOperator() : OperatorType;
 
 **Returns**
 
-[OperatorType](/nodejs-cpp/operatortype/)
+[OperatorType](../operatortype/)
 
 ### setOperator(OperatorType) {#setOperator-operatortype-}
 
@@ -73,7 +73,7 @@ setOperator(value: OperatorType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [OperatorType](/nodejs-cpp/operatortype/) | The value to set. |
+| value | [OperatorType](../operatortype/) | The value to set. |
 
 ### getStopIfTrue() {#getStopIfTrue--}
 
@@ -130,7 +130,7 @@ getStyle() : Style;
 
 **Returns**
 
-[Style](/nodejs-cpp/style/)
+[Style](../style/)
 
 ### setStyle(Style) {#setStyle-style-}
 
@@ -143,7 +143,7 @@ setStyle(value: Style) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [Style](/nodejs-cpp/style/) | The value to set. |
+| value | [Style](../style/) | The value to set. |
 
 ### getType() {#getType--}
 
@@ -156,7 +156,7 @@ getType() : FormatConditionType;
 
 **Returns**
 
-[FormatConditionType](/nodejs-cpp/formatconditiontype/)
+[FormatConditionType](../formatconditiontype/)
 
 ### setType(FormatConditionType) {#setType-formatconditiontype-}
 
@@ -169,7 +169,7 @@ setType(value: FormatConditionType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [FormatConditionType](/nodejs-cpp/formatconditiontype/) | The value to set. |
+| value | [FormatConditionType](../formatconditiontype/) | The value to set. |
 
 ### getIconSet() {#getIconSet--}
 
@@ -182,7 +182,7 @@ getIconSet() : IconSet;
 
 **Returns**
 
-[IconSet](/nodejs-cpp/iconset/)
+[IconSet](../iconset/)
 
 ### getDataBar() {#getDataBar--}
 
@@ -195,7 +195,7 @@ getDataBar() : DataBar;
 
 **Returns**
 
-[DataBar](/nodejs-cpp/databar/)
+[DataBar](../databar/)
 
 ### getColorScale() {#getColorScale--}
 
@@ -208,7 +208,7 @@ getColorScale() : ColorScale;
 
 **Returns**
 
-[ColorScale](/nodejs-cpp/colorscale/)
+[ColorScale](../colorscale/)
 
 ### getTop10() {#getTop10--}
 
@@ -221,7 +221,7 @@ getTop10() : Top10;
 
 **Returns**
 
-[Top10](/nodejs-cpp/top10/)
+[Top10](../top10/)
 
 ### getAboveAverage() {#getAboveAverage--}
 
@@ -234,7 +234,7 @@ getAboveAverage() : AboveAverage;
 
 **Returns**
 
-[AboveAverage](/nodejs-cpp/aboveaverage/)
+[AboveAverage](../aboveaverage/)
 
 ### getText() {#getText--}
 
@@ -269,7 +269,7 @@ getTimePeriod() : TimePeriodType;
 
 **Returns**
 
-[TimePeriodType](/nodejs-cpp/timeperiodtype/)
+[TimePeriodType](../timeperiodtype/)
 
 ### setTimePeriod(TimePeriodType) {#setTimePeriod-timeperiodtype-}
 
@@ -282,7 +282,7 @@ setTimePeriod(value: TimePeriodType) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [TimePeriodType](/nodejs-cpp/timeperiodtype/) | The value to set. |
+| value | [TimePeriodType](../timeperiodtype/) | The value to set. |
 
 ### getFormula1(boolean, boolean) {#getFormula1-boolean-boolean-}
 

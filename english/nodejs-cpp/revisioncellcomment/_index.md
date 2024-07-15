@@ -62,7 +62,7 @@ getType() : RevisionType;
 
 **Returns**
 
-[RevisionType](/nodejs-cpp/revisiontype/)
+[RevisionType](../revisiontype/)
 
 ### getRow() {#getRow--}
 
@@ -115,7 +115,7 @@ getActionType() : RevisionActionType;
 
 **Returns**
 
-[RevisionActionType](/nodejs-cpp/revisionactiontype/)
+[RevisionActionType](../revisionactiontype/)
 
 ### isOldComment() {#isOldComment--}
 
@@ -155,7 +155,7 @@ getWorksheet() : Worksheet;
 
 **Returns**
 
-[Worksheet](/nodejs-cpp/worksheet/)
+[Worksheet](../worksheet/)
 
 ### getId() {#getId--}
 

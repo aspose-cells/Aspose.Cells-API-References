@@ -34,7 +34,7 @@ getPowerQueryFormulas() : PowerQueryFormulaCollection;
 
 **Returns**
 
-[PowerQueryFormulaCollection](/nodejs-cpp/powerqueryformulacollection/)
+[PowerQueryFormulaCollection](../powerqueryformulacollection/)
 
 ### getPowerQueryFormulaParameters() {#getPowerQueryFormulaParameters--}
 
@@ -47,6 +47,6 @@ getPowerQueryFormulaParameters() : PowerQueryFormulaParameterCollection;
 
 **Returns**
 
-[PowerQueryFormulaParameterCollection](/nodejs-cpp/powerqueryformulaparametercollection/)
+[PowerQueryFormulaParameterCollection](../powerqueryformulaparametercollection/)
 
 

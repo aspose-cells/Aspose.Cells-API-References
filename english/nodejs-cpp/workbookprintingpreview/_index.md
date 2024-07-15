@@ -39,8 +39,8 @@ constructor(workbook: Workbook, options: ImageOrPrintOptions);
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| workbook | [Workbook](/nodejs-cpp/workbook/) | Indicate which workbook to be printed. |
-| options | [ImageOrPrintOptions](/nodejs-cpp/imageorprintoptions/) | ImageOrPrintOptions contains some property of output |
+| workbook | [Workbook](../workbook/) | Indicate which workbook to be printed. |
+| options | [ImageOrPrintOptions](../imageorprintoptions/) | ImageOrPrintOptions contains some property of output |
 
 ### getEvaluatedPageCount() {#getEvaluatedPageCount--}
 

@@ -1,14 +1,14 @@
 ﻿---
 title: ImageSaveOptions
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents image save options. For advanced usage please use WorkbookRendernodejscppworkbookrender or WorkbookRendernodejscppworkbookrender.
+description: Represents image save options. For advanced usage please use WorkbookRender..workbookrender or WorkbookRender..workbookrender.
 type: docs
 url: /nodejs-cpp/imagesaveoptions/
 ---
 
 ## ImageSaveOptions class
 
-Represents image save options. For advanced usage, please use [WorkbookRender](/nodejs-cpp/workbookrender/) or [WorkbookRender](/nodejs-cpp/workbookrender/).
+Represents image save options. For advanced usage, please use [WorkbookRender](../workbookrender/) or [WorkbookRender](../workbookrender/).
 
 ```javascript
 class ImageSaveOptions extends SaveOptions;
@@ -88,7 +88,7 @@ constructor(saveFormat: SaveFormat);
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| saveFormat | [SaveFormat](/nodejs-cpp/saveformat/) | The file format.         /// It should be one of following types: [SaveFormat.Tiff](/nodejs-cpp/saveformat.tiff/), [SaveFormat.Tiff](/nodejs-cpp/saveformat.tiff/),         /// [SaveFormat.Tiff](/nodejs-cpp/saveformat.tiff/), [SaveFormat.Tiff](/nodejs-cpp/saveformat.tiff/), [SaveFormat.Tiff](/nodejs-cpp/saveformat.tiff/),         /// [SaveFormat.Tiff](/nodejs-cpp/saveformat.tiff/) or [SaveFormat.Tiff](/nodejs-cpp/saveformat.tiff/),         /// otherwise the saved format will be set as [SaveFormat.Tiff](/nodejs-cpp/saveformat.tiff/) automatically. |
+| saveFormat | [SaveFormat](../saveformat/) | The file format.         /// It should be one of following types: [SaveFormat.Tiff](../saveformat.tiff/), [SaveFormat.Tiff](../saveformat.tiff/),         /// [SaveFormat.Tiff](../saveformat.tiff/), [SaveFormat.Tiff](../saveformat.tiff/), [SaveFormat.Tiff](../saveformat.tiff/),         /// [SaveFormat.Tiff](../saveformat.tiff/) or [SaveFormat.Tiff](../saveformat.tiff/),         /// otherwise the saved format will be set as [SaveFormat.Tiff](../saveformat.tiff/) automatically. |
 
 ### getImageOrPrintOptions() {#getImageOrPrintOptions--}
 
@@ -101,11 +101,11 @@ getImageOrPrintOptions() : ImageOrPrintOptions;
 
 **Returns**
 
-[ImageOrPrintOptions](/nodejs-cpp/imageorprintoptions/)
+[ImageOrPrintOptions](../imageorprintoptions/)
 
 **Remarks**
 
-For advanced usage, please use [WorkbookRender](/nodejs-cpp/workbookrender/) or [WorkbookRender](/nodejs-cpp/workbookrender/).
+For advanced usage, please use [WorkbookRender](../workbookrender/) or [WorkbookRender](../workbookrender/).
 
 ### getSaveFormat() {#getSaveFormat--}
 
@@ -118,7 +118,7 @@ getSaveFormat() : SaveFormat;
 
 **Returns**
 
-[SaveFormat](/nodejs-cpp/saveformat/)
+[SaveFormat](../saveformat/)
 
 ### getClearData() {#getClearData--}
 
@@ -331,7 +331,7 @@ setWarningCallback(value: IWarningCallback) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IWarningCallback](/nodejs-cpp/iwarningcallback/) | The value to set. |
+| value | [IWarningCallback](../iwarningcallback/) | The value to set. |
 
 ### getWarningCallback() {#getWarningCallback--}
 
@@ -344,7 +344,7 @@ getWarningCallback() : IWarningCallback;
 
 **Returns**
 
-[IWarningCallback](/nodejs-cpp/iwarningcallback/)
+[IWarningCallback](../iwarningcallback/)
 
 ### getUpdateSmartArt() {#getUpdateSmartArt--}
 

@@ -40,7 +40,7 @@ get(index: number) : OdsCellField;
 
 **Returns**
 
-[OdsCellField](/nodejs-cpp/odscellfield/)
+[OdsCellField](../odscellfield/)
 
 ### add(number, number, OdsCellFieldType, string) {#add-number-number-odscellfieldtype-string-}
 
@@ -55,7 +55,7 @@ add(row: number, column: number, fieldType: OdsCellFieldType, format: string) : 
 | --- | --- | --- |
 | row | number | The row index. |
 | column | number | The column index. |
-| fieldType | [OdsCellFieldType](/nodejs-cpp/odscellfieldtype/) | The type of the field. |
+| fieldType | [OdsCellFieldType](../odscellfieldtype/) | The type of the field. |
 | format | string | The number format of the field. |
 
 ### updateFieldsValue() {#updateFieldsValue--}
