@@ -30,6 +30,7 @@ Represents the save options for csv/tab delimited/other text format.
 | [getClearData()](#getClearData--) | Make the workbook empty after saving the file. |
 | [getCreateDirectory()](#getCreateDirectory--) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [getEncoding()](#getEncoding--) | Gets the default encoding. |
+| [getEncryptDocumentProperties()](#getEncryptDocumentProperties--) | Indicates whether encrypt document properties when saving as .xls file. |
 | [getExportAllSheets()](#getExportAllSheets--) | Indicates whether exporting all sheets to the text file. |
 | [getExportArea()](#getExportArea--) | The range of cells to be exported. |
 | [getExportQuotePrefix()](#getExportQuotePrefix--) | Indicates whether the single quote sign should be exported as part of the value of one cell when [Style.getQuotePrefix()](../../com.aspose.cells/style\#getQuotePrefix--) is true for it. |
@@ -57,6 +58,7 @@ Represents the save options for csv/tab delimited/other text format.
 | [setClearData(boolean value)](#setClearData-boolean-) | Make the workbook empty after saving the file. |
 | [setCreateDirectory(boolean value)](#setCreateDirectory-boolean-) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [setEncoding(Encoding value)](#setEncoding-com.aspose.cells.Encoding-) | Sets the default encoding. |
+| [setEncryptDocumentProperties(boolean value)](#setEncryptDocumentProperties-boolean-) | Indicates whether encrypt document properties when saving as .xls file. |
 | [setExportAllSheets(boolean value)](#setExportAllSheets-boolean-) | Indicates whether exporting all sheets to the text file. |
 | [setExportArea(CellArea value)](#setExportArea-com.aspose.cells.CellArea-) | The range of cells to be exported. |
 | [setExportQuotePrefix(boolean value)](#setExportQuotePrefix-boolean-) | Indicates whether the single quote sign should be exported as part of the value of one cell when [Style.getQuotePrefix()](../../com.aspose.cells/style\#getQuotePrefix--) is true for it. |
@@ -183,6 +185,20 @@ Gets the default encoding.
 
 **Returns:**
 [Encoding](../../com.aspose.cells/encoding)
+### getEncryptDocumentProperties() {#getEncryptDocumentProperties--}
+```
+public boolean getEncryptDocumentProperties()
+```
+
+
+Indicates whether encrypt document properties when saving as .xls file. The default value is true.
+
+**Remarks**
+
+Only for .xls,xlsx,xlsb and xlsm file.
+
+**Returns:**
+boolean
 ### getExportAllSheets() {#getExportAllSheets--}
 ```
 public boolean getExportAllSheets()
@@ -505,6 +521,23 @@ Sets the default encoding.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [Encoding](../../com.aspose.cells/encoding) |  |
+
+### setEncryptDocumentProperties(boolean value) {#setEncryptDocumentProperties-boolean-}
+```
+public void setEncryptDocumentProperties(boolean value)
+```
+
+
+Indicates whether encrypt document properties when saving as .xls file. The default value is true.
+
+**Remarks**
+
+Only for .xls,xlsx,xlsb and xlsm file.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### setExportAllSheets(boolean value) {#setExportAllSheets-boolean-}
 ```

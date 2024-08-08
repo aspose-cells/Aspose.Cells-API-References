@@ -37,7 +37,9 @@ Represents the options for saving html file.
 | [getCssStyles()](#getCssStyles--) | Gets the additional css styles for the formatter. |
 | [getDefaultFontName()](#getDefaultFontName--) | Specify the default font name for exporting html, the default font will be used when the font of style is not existing, If this property is null, Aspose.Cells will use universal font which have the same family with the original font, the default value is null. |
 | [getDisableDownlevelRevealedComments()](#getDisableDownlevelRevealedComments--) | Indicates if disable Downlevel-revealed conditional comments when exporting file to html, the default value is false. |
+| [getEncodeEntityAsCode()](#getEncodeEntityAsCode--) | Indicates whether the html character entities are replaced with decimal code. |
 | [getEncoding()](#getEncoding--) | If not set,use Encoding.UTF8 as default enconding type. |
+| [getEncryptDocumentProperties()](#getEncryptDocumentProperties--) | Indicates whether encrypt document properties when saving as .xls file. |
 | [getExcludeUnusedStyles()](#getExcludeUnusedStyles--) | Indicating whether excludes unused styles. |
 | [getExportActiveWorksheetOnly()](#getExportActiveWorksheetOnly--) | Indicates if only exporting the active worksheet to html file. |
 | [getExportArea()](#getExportArea--) | Gets the exporting CellArea of current active Worksheet. |
@@ -115,7 +117,9 @@ Represents the options for saving html file.
 | [setCssStyles(String value)](#setCssStyles-java.lang.String-) | Sets the additional css styles for the formatter. |
 | [setDefaultFontName(String value)](#setDefaultFontName-java.lang.String-) | Specify the default font name for exporting html, the default font will be used when the font of style is not existing, If this property is null, Aspose.Cells will use universal font which have the same family with the original font, the default value is null. |
 | [setDisableDownlevelRevealedComments(boolean value)](#setDisableDownlevelRevealedComments-boolean-) | Indicates if disable Downlevel-revealed conditional comments when exporting file to html, the default value is false. |
+| [setEncodeEntityAsCode(boolean value)](#setEncodeEntityAsCode-boolean-) | Indicates whether the html character entities are replaced with decimal code. |
 | [setEncoding(Encoding value)](#setEncoding-com.aspose.cells.Encoding-) | If not set,use Encoding.UTF8 as default enconding type. |
+| [setEncryptDocumentProperties(boolean value)](#setEncryptDocumentProperties-boolean-) | Indicates whether encrypt document properties when saving as .xls file. |
 | [setExcludeUnusedStyles(boolean value)](#setExcludeUnusedStyles-boolean-) | Indicating whether excludes unused styles. |
 | [setExpImageToTempDir(boolean value)](#setExpImageToTempDir-boolean-) | Indicates whether exporting image files to temp directory. |
 | [setExportActiveWorksheetOnly(boolean value)](#setExportActiveWorksheetOnly-boolean-) | Indicates if only exporting the active worksheet to html file. |
@@ -352,6 +356,16 @@ Indicates if disable Downlevel-revealed conditional comments when exporting file
 
 **Returns:**
 boolean
+### getEncodeEntityAsCode() {#getEncodeEntityAsCode--}
+```
+public boolean getEncodeEntityAsCode()
+```
+
+
+Indicates whether the html character entities are replaced with decimal code. (e.g. "&nbsp;" is replaced with "&\#160;"). The default value is false.
+
+**Returns:**
+boolean
 ### getEncoding() {#getEncoding--}
 ```
 public Encoding getEncoding()
@@ -362,6 +376,20 @@ If not set,use Encoding.UTF8 as default enconding type.
 
 **Returns:**
 [Encoding](../../com.aspose.cells/encoding)
+### getEncryptDocumentProperties() {#getEncryptDocumentProperties--}
+```
+public boolean getEncryptDocumentProperties()
+```
+
+
+Indicates whether encrypt document properties when saving as .xls file. The default value is true.
+
+**Remarks**
+
+Only for .xls,xlsx,xlsb and xlsm file.
+
+**Returns:**
+boolean
 ### getExcludeUnusedStyles() {#getExcludeUnusedStyles--}
 ```
 public boolean getExcludeUnusedStyles()
@@ -1239,6 +1267,19 @@ Indicates if disable Downlevel-revealed conditional comments when exporting file
 | --- | --- | --- |
 | value | boolean |  |
 
+### setEncodeEntityAsCode(boolean value) {#setEncodeEntityAsCode-boolean-}
+```
+public void setEncodeEntityAsCode(boolean value)
+```
+
+
+Indicates whether the html character entities are replaced with decimal code. (e.g. "&nbsp;" is replaced with "&\#160;"). The default value is false.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
 ### setEncoding(Encoding value) {#setEncoding-com.aspose.cells.Encoding-}
 ```
 public void setEncoding(Encoding value)
@@ -1251,6 +1292,23 @@ If not set,use Encoding.UTF8 as default enconding type.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [Encoding](../../com.aspose.cells/encoding) |  |
+
+### setEncryptDocumentProperties(boolean value) {#setEncryptDocumentProperties-boolean-}
+```
+public void setEncryptDocumentProperties(boolean value)
+```
+
+
+Indicates whether encrypt document properties when saving as .xls file. The default value is true.
+
+**Remarks**
+
+Only for .xls,xlsx,xlsb and xlsm file.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### setExcludeUnusedStyles(boolean value) {#setExcludeUnusedStyles-boolean-}
 ```

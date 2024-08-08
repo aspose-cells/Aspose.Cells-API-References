@@ -1,7 +1,7 @@
 ---
 title: ConversionUtility
 second_title: Aspose.Cells for Java API Reference
-description: Represents converting files other formats.
+description: Represents utility to convert files to other formats.
 type: docs
 url: /java/com.aspose.cells/conversionutility/
 ---
@@ -12,7 +12,7 @@ java.lang.Object
 public class ConversionUtility
 ```
 
-Represents converting files other formats.
+Represents utility to convert files to other formats.
 ## Methods
 
 | Method | Description |

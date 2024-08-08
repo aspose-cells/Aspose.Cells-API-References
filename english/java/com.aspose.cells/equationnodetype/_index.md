@@ -19,31 +19,34 @@ Equation node type. Notice: (1)[1-99] Currently there is only one node in the sc
 | --- | --- |
 | [ACCENT_EQUATION](#ACCENT-EQUATION) | Specifies accent equation |
 | [BAR_EQUATION](#BAR-EQUATION) | Specifies bar equation |
-| [BASE](#BASE) | Specifies a component of type 'Base' |
+| [BASE](#BASE) | Specifies a Base component |
 | [BORDER_BOX_EQUATION](#BORDER-BOX-EQUATION) | Specifies border box equation |
 | [BOX_EQUATION](#BOX-EQUATION) | Specifies box equation |
-| [DEGREE](#DEGREE) | Specifies a component of type 'Degree' |
+| [DEGREE](#DEGREE) | Specifies a Degree component |
 | [DELIMITER_EQUATION](#DELIMITER-EQUATION) | Specifies delimiter equation |
-| [DENOMINATOR](#DENOMINATOR) | Specifies a component of type 'Denominator' |
+| [DENOMINATOR](#DENOMINATOR) | Specifies a Denominator component |
 | [EQUATION_PARAGRAPH](#EQUATION-PARAGRAPH) | Specifies a mathematical paragraph(oMathPara). |
 | [FRACTION_EQUATION](#FRACTION-EQUATION) | Specifies fractional equation |
 | [FUNCTION_EQUATION](#FUNCTION-EQUATION) | Specifies function equation |
-| [FUNCTION_NAME](#FUNCTION-NAME) | Specifies a component of type 'FunctionName' |
+| [FUNCTION_NAME](#FUNCTION-NAME) | Specifies a FunctionName component |
 | [GROUP_CHARACTER_EQUATION](#GROUP-CHARACTER-EQUATION) | Specifies Group-Character equation |
+| [LIMIT](#LIMIT) | If the parent object is limLow,the object of this type specifies the lower limit of the limLow function; if the parent objectis limUpp, the object of this type specifies the Upper-Limit function, consisting of text on the baseline and reduced-size text just above the baseline. |
+| [LOWER_LIMIT](#LOWER-LIMIT) | Specifies the Lower-Limit function |
 | [MATHEMATICAL_EQUATION](#MATHEMATICAL-EQUATION) | Specifies an equation or mathematical expression(OMath). |
 | [MATRIX_EQUATION](#MATRIX-EQUATION) | Specifies the Matrix equation, |
-| [MATRIX_ROW](#MATRIX-ROW) | Specifies a component of type 'MatrixRow'.A single row of the matrix |
+| [MATRIX_ROW](#MATRIX-ROW) | Specifies a MatrixRow component.A single row of the matrix |
 | [NARY_EQUATION](#NARY-EQUATION) | Specifies n-ary operator equation |
-| [NUMERATOR](#NUMERATOR) | Specifies a component of type 'Numerator' |
+| [NUMERATOR](#NUMERATOR) | Specifies a Numerator component |
 | [PRE_SUB_SUP_EQUATION](#PRE-SUB-SUP-EQUATION) | Specifies an equation with superscripts and subscripts to the left of the operands. |
 | [RADICAL_EQUATION](#RADICAL-EQUATION) | Specifies the radical equation |
-| [SUBSCRIPT](#SUBSCRIPT) | Specifies a component of type 'Subscript' |
+| [SUBSCRIPT](#SUBSCRIPT) | Specifies a Subscript component |
 | [SUBSCRIPT_EQUATION](#SUBSCRIPT-EQUATION) | Specifies subscript equation |
 | [SUB_SUP_EQUATION](#SUB-SUP-EQUATION) | Specifies an equation with superscripts and subscripts to the right of the operands. |
-| [SUPERSCRIPT](#SUPERSCRIPT) | Specifies a component of type 'Superscript' |
+| [SUPERSCRIPT](#SUPERSCRIPT) | Specifies a Superscript component |
 | [SUPERSCRIPT_EQUATION](#SUPERSCRIPT-EQUATION) | Specifies superscript equation |
 | [TEXT](#TEXT) | specifies a node that stores math text |
 | [UN_KNOW](#UN-KNOW) | UnKnow |
+| [UPPER_LIMIT](#UPPER-LIMIT) | Specifies the Upper-Limit function |
 ## Methods
 
 | Method | Description |
@@ -79,7 +82,7 @@ public static final int BASE
 ```
 
 
-Specifies a component of type 'Base'
+Specifies a Base component
 
 ### BORDER_BOX_EQUATION {#BORDER-BOX-EQUATION}
 ```
@@ -103,7 +106,7 @@ public static final int DEGREE
 ```
 
 
-Specifies a component of type 'Degree'
+Specifies a Degree component
 
 ### DELIMITER_EQUATION {#DELIMITER-EQUATION}
 ```
@@ -119,7 +122,7 @@ public static final int DENOMINATOR
 ```
 
 
-Specifies a component of type 'Denominator'
+Specifies a Denominator component
 
 ### EQUATION_PARAGRAPH {#EQUATION-PARAGRAPH}
 ```
@@ -151,7 +154,7 @@ public static final int FUNCTION_NAME
 ```
 
 
-Specifies a component of type 'FunctionName'
+Specifies a FunctionName component
 
 ### GROUP_CHARACTER_EQUATION {#GROUP-CHARACTER-EQUATION}
 ```
@@ -160,6 +163,22 @@ public static final int GROUP_CHARACTER_EQUATION
 
 
 Specifies Group-Character equation
+
+### LIMIT {#LIMIT}
+```
+public static final int LIMIT
+```
+
+
+If the parent object is limLow,the object of this type specifies the lower limit of the limLow function; if the parent objectis limUpp, the object of this type specifies the Upper-Limit function, consisting of text on the baseline and reduced-size text just above the baseline.
+
+### LOWER_LIMIT {#LOWER-LIMIT}
+```
+public static final int LOWER_LIMIT
+```
+
+
+Specifies the Lower-Limit function
 
 ### MATHEMATICAL_EQUATION {#MATHEMATICAL-EQUATION}
 ```
@@ -183,7 +202,7 @@ public static final int MATRIX_ROW
 ```
 
 
-Specifies a component of type 'MatrixRow'.A single row of the matrix
+Specifies a MatrixRow component.A single row of the matrix
 
 ### NARY_EQUATION {#NARY-EQUATION}
 ```
@@ -199,7 +218,7 @@ public static final int NUMERATOR
 ```
 
 
-Specifies a component of type 'Numerator'
+Specifies a Numerator component
 
 ### PRE_SUB_SUP_EQUATION {#PRE-SUB-SUP-EQUATION}
 ```
@@ -223,7 +242,7 @@ public static final int SUBSCRIPT
 ```
 
 
-Specifies a component of type 'Subscript'
+Specifies a Subscript component
 
 ### SUBSCRIPT_EQUATION {#SUBSCRIPT-EQUATION}
 ```
@@ -247,7 +266,7 @@ public static final int SUPERSCRIPT
 ```
 
 
-Specifies a component of type 'Superscript'
+Specifies a Superscript component
 
 ### SUPERSCRIPT_EQUATION {#SUPERSCRIPT-EQUATION}
 ```
@@ -272,6 +291,14 @@ public static final int UN_KNOW
 
 
 UnKnow
+
+### UPPER_LIMIT {#UPPER-LIMIT}
+```
+public static final int UPPER_LIMIT
+```
+
+
+Specifies the Upper-Limit function
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

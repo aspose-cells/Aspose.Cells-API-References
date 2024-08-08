@@ -50,6 +50,8 @@ This class specifies the Group-Character function, consisting of a character dra
 | [setPosition(int value)](#setPosition-int-) | This attribute specifies the position of the character in the object |
 | [setVertJc(int value)](#setVertJc-int-) | This attribute, combined with pos of groupChrPr, specifies the vertical layout of the groupChr object. |
 | [setWordArtStyle(int style)](#setWordArtStyle-int-) | Sets the preset WordArt style. |
+| [toLaTeX()](#toLaTeX--) | Conver this equtation to LaTeX expression. |
+| [toMathML()](#toMathML--) | Conver this equtation to MathML expression. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -469,6 +471,26 @@ Only for the text of shape/chart.
 | --- | --- | --- |
 | style | int | [PresetWordArtStyle](../../com.aspose.cells/presetwordartstyle). The preset WordArt style. |
 
+### toLaTeX() {#toLaTeX--}
+```
+public String toLaTeX()
+```
+
+
+Conver this equtation to LaTeX expression.
+
+**Returns:**
+java.lang.String
+### toMathML() {#toMathML--}
+```
+public String toMathML()
+```
+
+
+Conver this equtation to MathML expression.
+
+**Returns:**
+java.lang.String - 
 ### toString() {#toString--}
 ```
 public String toString()

@@ -28,6 +28,7 @@ Represents the options of saving the workbook as an xml file.
 | [getClearData()](#getClearData--) | Make the workbook empty after saving the file. |
 | [getCreateDirectory()](#getCreateDirectory--) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [getDataAsAttribute()](#getDataAsAttribute--) | Indicates whether exporting data as attributes of element. |
+| [getEncryptDocumentProperties()](#getEncryptDocumentProperties--) | Indicates whether encrypt document properties when saving as .xls file. |
 | [getExportArea()](#getExportArea--) | Gets the exporting range. |
 | [getMergeAreas()](#getMergeAreas--) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [getRefreshChartCache()](#getRefreshChartCache--) | Indicates whether refreshing chart cache data |
@@ -48,6 +49,7 @@ Represents the options of saving the workbook as an xml file.
 | [setClearData(boolean value)](#setClearData-boolean-) | Make the workbook empty after saving the file. |
 | [setCreateDirectory(boolean value)](#setCreateDirectory-boolean-) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [setDataAsAttribute(boolean value)](#setDataAsAttribute-boolean-) | Indicates whether exporting data as attributes of element. |
+| [setEncryptDocumentProperties(boolean value)](#setEncryptDocumentProperties-boolean-) | Indicates whether encrypt document properties when saving as .xls file. |
 | [setExportArea(CellArea value)](#setExportArea-com.aspose.cells.CellArea-) | Sets the exporting range. |
 | [setHasHeaderRow(boolean value)](#setHasHeaderRow-boolean-) | Indicates whether the range contains header row. |
 | [setMergeAreas(boolean value)](#setMergeAreas-boolean-) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
@@ -138,6 +140,20 @@ public boolean getDataAsAttribute()
 
 
 Indicates whether exporting data as attributes of element.
+
+**Returns:**
+boolean
+### getEncryptDocumentProperties() {#getEncryptDocumentProperties--}
+```
+public boolean getEncryptDocumentProperties()
+```
+
+
+Indicates whether encrypt document properties when saving as .xls file. The default value is true.
+
+**Remarks**
+
+Only for .xls,xlsx,xlsb and xlsm file.
 
 **Returns:**
 boolean
@@ -361,6 +377,23 @@ public void setDataAsAttribute(boolean value)
 
 
 Indicates whether exporting data as attributes of element.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setEncryptDocumentProperties(boolean value) {#setEncryptDocumentProperties-boolean-}
+```
+public void setEncryptDocumentProperties(boolean value)
+```
+
+
+Indicates whether encrypt document properties when saving as .xls file. The default value is true.
+
+**Remarks**
+
+Only for .xls,xlsx,xlsb and xlsm file.
 
 **Parameters:**
 | Parameter | Type | Description |

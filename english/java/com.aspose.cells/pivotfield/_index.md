@@ -115,6 +115,7 @@ Represents a field in a PivotTable report.
 | [getShowInOutlineForm()](#getShowInOutlineForm--) | Indicates whether layout this field in outline form on the Pivot Table view |
 | [getShowSubtotalAtTop()](#getShowSubtotalAtTop--) | when ShowInOutlineForm is true, then display subtotals at the top of the list of items instead of at the bottom |
 | [getShowValuesSetting()](#getShowValuesSetting--) | Gets the settings of showing values as when the ShowDataAs calculation is in use. |
+| [getSortSetting()](#getSortSetting--) | Gets all settings of auto sorting |
 | [getSubtotals(int subtotalType)](#getSubtotals-int-) | Indicates whether showing specified subtotal. |
 | [groupBy(CustomPiovtFieldGroupItem[] customGroupItems, boolean newField)](#groupBy-com.aspose.cells.CustomPiovtFieldGroupItem---boolean-) | Custom group the field. |
 | [groupBy(DateTime start, DateTime end, int[] groups, double interval, boolean firstAsNewField)](#groupBy-com.aspose.cells.DateTime-com.aspose.cells.DateTime-int---double-boolean-) | Group the file by the date group types. |
@@ -176,6 +177,8 @@ Represents a field in a PivotTable report.
 | [setShowSubtotalAtTop(boolean value)](#setShowSubtotalAtTop-boolean-) | when ShowInOutlineForm is true, then display subtotals at the top of the list of items instead of at the bottom |
 | [setSubtotals(int subtotalType, boolean shown)](#setSubtotals-int-boolean-) | Sets whether the specified field shows that subtotals. |
 | [showValuesAs(int displayFormat, int baseField, int baseItemPositionType, int baseItem)](#showValuesAs-int-int-int-int-) | Shows values of data field as different display format when the ShowDataAs calculation is in use. |
+| [sortBy(int sortType, int fieldSortedBy)](#sortBy-int-int-) | Sorts this pivot field. |
+| [sortBy(int sortType, int fieldSortedBy, int dataType, String cellName)](#sortBy-int-int-int-java.lang.String-) | Sorts this pivot field. |
 | [toString()](#toString--) |  |
 | [ungroup()](#ungroup--) | Ungroup the pivot field. |
 | [wait()](#wait--) |  |
@@ -254,7 +257,7 @@ Represents the base field for a custom calculation when the ShowDataAs calculati
 
 **Remarks**
 
-NOTE: This property is now obsolete. Instead, please use PivotField.PivotShowValuesSetting.BaseFieldIndex property instead. This method will be removed 12 months later since June 2024. Aspose apologizes for any inconvenience you may have experienced.
+NOTE: This property is now obsolete. Instead, please use PivotField.ShowValuesSetting.BaseFieldIndex property instead. This method will be removed 12 months later since June 2024. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
@@ -278,7 +281,7 @@ Represents the item in the base field for a custom calculation when the ShowData
 
 **Remarks**
 
-NOTE: This property is now obsolete. Instead, please use PivotField.PivotShowValuesSetting.BaseItemIndex property instead. This method will be removed 12 months later since June 2024. Aspose apologizes for any inconvenience you may have experienced.
+NOTE: This property is now obsolete. Instead, please use PivotField.ShowValuesSetting.BaseItemIndex property instead. This method will be removed 12 months later since June 2024. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
@@ -294,7 +297,7 @@ See [PivotItemPosition](../../com.aspose.cells/pivotitemposition).
 
 **Remarks**
 
-NOTE: This property is now obsolete. Instead, please use PivotField.PivotShowValuesSetting.BaseItemType property instead. This method will be removed 12 months later since June 2024. Aspose apologizes for any inconvenience you may have experienced.
+NOTE: This property is now obsolete. Instead, please use PivotField.ShowValuesSetting.BaseItemPositionType property instead. This method will be removed 12 months later since June 2024. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
@@ -340,7 +343,7 @@ See [PivotFieldDataDisplayFormat](../../com.aspose.cells/pivotfielddatadisplayfo
 
 **Remarks**
 
-NOTE: This property is now obsolete. Instead, please use PivotField.PivotShowValuesSetting.CalculationType property instead. This method will be removed 12 months later since June 2024. Aspose apologizes for any inconvenience you may have experienced.
+NOTE: This property is now obsolete. Instead, please use PivotField.ShowValuesSetting.CalculationType property instead. This method will be removed 12 months later since June 2024. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
@@ -637,6 +640,16 @@ Gets the settings of showing values as when the ShowDataAs calculation is in use
 
 **Returns:**
 [PivotShowValuesSetting](../../com.aspose.cells/pivotshowvaluessetting)
+### getSortSetting() {#getSortSetting--}
+```
+public PivotFieldSortSetting getSortSetting()
+```
+
+
+Gets all settings of auto sorting
+
+**Returns:**
+[PivotFieldSortSetting](../../com.aspose.cells/pivotfieldsortsetting)
 ### getSubtotals(int subtotalType) {#getSubtotals-int-}
 ```
 public boolean getSubtotals(int subtotalType)
@@ -1046,7 +1059,7 @@ Represents the base field for a custom calculation when the ShowDataAs calculati
 
 **Remarks**
 
-NOTE: This property is now obsolete. Instead, please use PivotField.PivotShowValuesSetting.BaseFieldIndex property instead. This method will be removed 12 months later since June 2024. Aspose apologizes for any inconvenience you may have experienced.
+NOTE: This property is now obsolete. Instead, please use PivotField.ShowValuesSetting.BaseFieldIndex property instead. This method will be removed 12 months later since June 2024. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1076,7 +1089,7 @@ Represents the item in the base field for a custom calculation when the ShowData
 
 **Remarks**
 
-NOTE: This property is now obsolete. Instead, please use PivotField.PivotShowValuesSetting.BaseItemIndex property instead. This method will be removed 12 months later since June 2024. Aspose apologizes for any inconvenience you may have experienced.
+NOTE: This property is now obsolete. Instead, please use PivotField.ShowValuesSetting.BaseItemIndex property instead. This method will be removed 12 months later since June 2024. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1095,7 +1108,7 @@ See [PivotItemPosition](../../com.aspose.cells/pivotitemposition).
 
 **Remarks**
 
-NOTE: This property is now obsolete. Instead, please use PivotField.PivotShowValuesSetting.BaseItemType property instead. This method will be removed 12 months later since June 2024. Aspose apologizes for any inconvenience you may have experienced.
+NOTE: This property is now obsolete. Instead, please use PivotField.ShowValuesSetting.BaseItemPositionType property instead. This method will be removed 12 months later since June 2024. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1127,7 +1140,7 @@ See [PivotFieldDataDisplayFormat](../../com.aspose.cells/pivotfielddatadisplayfo
 
 **Remarks**
 
-NOTE: This property is now obsolete. Instead, please use PivotField.PivotShowValuesSetting.CalculationType property instead. This method will be removed 12 months later since June 2024. Aspose apologizes for any inconvenience you may have experienced.
+NOTE: This property is now obsolete. Instead, please use PivotField.ShowValuesSetting.CalculationType property instead. This method will be removed 12 months later since June 2024. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1433,6 +1446,36 @@ Only for data field.
 | baseField | int | The index to the field which ShowDataAs calculation bases on. |
 | baseItemPositionType | int | [PivotItemPositionType](../../com.aspose.cells/pivotitempositiontype). The position type of base iteam. |
 | baseItem | int | The index to the base item which ShowDataAs calculation bases on. Only works when baseItemPositionType is custom. |
+
+### sortBy(int sortType, int fieldSortedBy) {#sortBy-int-int-}
+```
+public void sortBy(int sortType, int fieldSortedBy)
+```
+
+
+Sorts this pivot field.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sortType | int | [SortOrder](../../com.aspose.cells/sortorder). The type of sorting this field. |
+| fieldSortedBy | int | The index of pivot field sorted by. -1 means sorting by data labels of this field, others mean the index of data field sorted by. |
+
+### sortBy(int sortType, int fieldSortedBy, int dataType, String cellName) {#sortBy-int-int-int-java.lang.String-}
+```
+public void sortBy(int sortType, int fieldSortedBy, int dataType, String cellName)
+```
+
+
+Sorts this pivot field.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sortType | int | [SortOrder](../../com.aspose.cells/sortorder). The type of sorting this field. |
+| fieldSortedBy | int | The index of pivot field sorted by. -1 means sorting by data labels of this field, others mean the index of data field sorted by. |
+| dataType | int | [PivotLineType](../../com.aspose.cells/pivotlinetype). The type of data sorted by. |
+| cellName | java.lang.String | Sort by values in the row or column |
 
 ### toString() {#toString--}
 ```

@@ -42,6 +42,7 @@ Represents the options for saving pdf file.
 | [getEmbedAttachments()](#getEmbedAttachments--) | Indicates whether to embed attachment for Ole objects in Excel. |
 | [getEmbedStandardWindowsFonts()](#getEmbedStandardWindowsFonts--) | True to embed true type fonts. |
 | [getEmfRenderSetting()](#getEmfRenderSetting--) | Setting for rendering Emf metafile. |
+| [getEncryptDocumentProperties()](#getEncryptDocumentProperties--) | Indicates whether encrypt document properties when saving as .xls file. |
 | [getExportDocumentStructure()](#getExportDocumentStructure--) | Indicates whether to export document structure. |
 | [getFontEncoding()](#getFontEncoding--) | Gets embedded font encoding in pdf. |
 | [getGridlineType()](#getGridlineType--) | Gets gridline type. |
@@ -90,6 +91,7 @@ Represents the options for saving pdf file.
 | [setEmbedAttachments(boolean value)](#setEmbedAttachments-boolean-) | Indicates whether to embed attachment for Ole objects in Excel. |
 | [setEmbedStandardWindowsFonts(boolean value)](#setEmbedStandardWindowsFonts-boolean-) | True to embed true type fonts. |
 | [setEmfRenderSetting(int value)](#setEmfRenderSetting-int-) | Setting for rendering Emf metafile. |
+| [setEncryptDocumentProperties(boolean value)](#setEncryptDocumentProperties-boolean-) | Indicates whether encrypt document properties when saving as .xls file. |
 | [setExportDocumentStructure(boolean value)](#setExportDocumentStructure-boolean-) | Indicates whether to export document structure. |
 | [setFontEncoding(int value)](#setFontEncoding-int-) | Sets embedded font encoding in pdf. |
 | [setFontSubstitutionCharGranularity(boolean value)](#setFontSubstitutionCharGranularity-boolean-) | Indicates whether to only substitute the font of character when the cell font is not compatibility for it. |
@@ -382,6 +384,20 @@ EMF metafiles identified as "EMF+ Dual" can contain both EMF+ records and EMF re
 
 **Returns:**
 int
+### getEncryptDocumentProperties() {#getEncryptDocumentProperties--}
+```
+public boolean getEncryptDocumentProperties()
+```
+
+
+Indicates whether encrypt document properties when saving as .xls file. The default value is true.
+
+**Remarks**
+
+Only for .xls,xlsx,xlsb and xlsm file.
+
+**Returns:**
+boolean
 ### getExportDocumentStructure() {#getExportDocumentStructure--}
 ```
 public boolean getExportDocumentStructure()
@@ -1175,6 +1191,23 @@ EMF metafiles identified as "EMF+ Dual" can contain both EMF+ records and EMF re
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
+
+### setEncryptDocumentProperties(boolean value) {#setEncryptDocumentProperties-boolean-}
+```
+public void setEncryptDocumentProperties(boolean value)
+```
+
+
+Indicates whether encrypt document properties when saving as .xls file. The default value is true.
+
+**Remarks**
+
+Only for .xls,xlsx,xlsb and xlsm file.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### setExportDocumentStructure(boolean value) {#setExportDocumentStructure-boolean-}
 ```

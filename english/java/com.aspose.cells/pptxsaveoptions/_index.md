@@ -36,6 +36,7 @@ Represents the pptx save options.
 | [getDefaultFont()](#getDefaultFont--) | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. |
 | [getDrawObjectEventHandler()](#getDrawObjectEventHandler--) | Implements this interface to get DrawObject and Bound when rendering. |
 | [getEmfRenderSetting()](#getEmfRenderSetting--) | Setting for rendering Emf metafile. |
+| [getEncryptDocumentProperties()](#getEncryptDocumentProperties--) | Indicates whether encrypt document properties when saving as .xls file. |
 | [getExportViewType()](#getExportViewType--) | Gets the display type when exporting to PowerPoint. |
 | [getGridlineType()](#getGridlineType--) | Gets gridline type. |
 | [getIgnoreError()](#getIgnoreError--) | Indicates if you need to hide the error while rendering. |
@@ -71,6 +72,7 @@ Represents the pptx save options.
 | [setDefaultFont(String value)](#setDefaultFont-java.lang.String-) | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. |
 | [setDrawObjectEventHandler(DrawObjectEventHandler value)](#setDrawObjectEventHandler-com.aspose.cells.DrawObjectEventHandler-) | Implements this interface to get DrawObject and Bound when rendering. |
 | [setEmfRenderSetting(int value)](#setEmfRenderSetting-int-) | Setting for rendering Emf metafile. |
+| [setEncryptDocumentProperties(boolean value)](#setEncryptDocumentProperties-boolean-) | Indicates whether encrypt document properties when saving as .xls file. |
 | [setExportViewType(int value)](#setExportViewType-int-) | Sets the display type when exporting to PowerPoint. |
 | [setFontSubstitutionCharGranularity(boolean value)](#setFontSubstitutionCharGranularity-boolean-) | Indicates whether to only substitute the font of character when the cell font is not compatibility for it. |
 | [setGridlineType(int value)](#setGridlineType-int-) | Sets gridline type. |
@@ -277,6 +279,20 @@ EMF metafiles identified as "EMF+ Dual" can contain both EMF+ records and EMF re
 
 **Returns:**
 int
+### getEncryptDocumentProperties() {#getEncryptDocumentProperties--}
+```
+public boolean getEncryptDocumentProperties()
+```
+
+
+Indicates whether encrypt document properties when saving as .xls file. The default value is true.
+
+**Remarks**
+
+Only for .xls,xlsx,xlsb and xlsm file.
+
+**Returns:**
+boolean
 ### getExportViewType() {#getExportViewType--}
 ```
 public int getExportViewType()
@@ -803,6 +819,23 @@ EMF metafiles identified as "EMF+ Dual" can contain both EMF+ records and EMF re
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
+
+### setEncryptDocumentProperties(boolean value) {#setEncryptDocumentProperties-boolean-}
+```
+public void setEncryptDocumentProperties(boolean value)
+```
+
+
+Indicates whether encrypt document properties when saving as .xls file. The default value is true.
+
+**Remarks**
+
+Only for .xls,xlsx,xlsb and xlsm file.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### setExportViewType(int value) {#setExportViewType-int-}
 ```

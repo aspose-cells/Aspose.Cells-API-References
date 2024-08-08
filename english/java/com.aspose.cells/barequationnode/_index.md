@@ -44,6 +44,8 @@ This class specifies the bar equation, consisting of a base argument and an over
 | [setBarPosition(int value)](#setBarPosition-int-) | This attribute specifies the position of the bar in the bar object |
 | [setParentNode(EquationNode value)](#setParentNode-com.aspose.cells.EquationNode-) | Specifies the parent node of the current node |
 | [setWordArtStyle(int style)](#setWordArtStyle-int-) | Sets the preset WordArt style. |
+| [toLaTeX()](#toLaTeX--) | Conver this equtation to LaTeX expression. |
+| [toMathML()](#toMathML--) | Conver this equtation to MathML expression. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -378,6 +380,26 @@ Only for the text of shape/chart.
 | --- | --- | --- |
 | style | int | [PresetWordArtStyle](../../com.aspose.cells/presetwordartstyle). The preset WordArt style. |
 
+### toLaTeX() {#toLaTeX--}
+```
+public String toLaTeX()
+```
+
+
+Conver this equtation to LaTeX expression.
+
+**Returns:**
+java.lang.String
+### toMathML() {#toMathML--}
+```
+public String toMathML()
+```
+
+
+Conver this equtation to MathML expression.
+
+**Returns:**
+java.lang.String - 
 ### toString() {#toString--}
 ```
 public String toString()

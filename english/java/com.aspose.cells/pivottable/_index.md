@@ -109,8 +109,8 @@ Summary description for PivotTable.
 | [format(int row, int column, Style style)](#format-int-int-com.aspose.cells.Style-) | Format the cell in the pivottable area |
 | [formatAll(Style style)](#formatAll-com.aspose.cells.Style-) | Format all the cell in the pivottable area |
 | [formatRow(int row, Style style)](#formatRow-int-com.aspose.cells.Style-) | Format the row data in the pivottable area |
-| [getAltTextDescription()](#getAltTextDescription--) | Gets the description of the alt text |
-| [getAltTextTitle()](#getAltTextTitle--) | Gets the title of the altertext |
+| [getAltTextDescription()](#getAltTextDescription--) | Gets the description of the alt text. |
+| [getAltTextTitle()](#getAltTextTitle--) | Gets the title of the alter text. |
 | [getAutoFormatType()](#getAutoFormatType--) | Gets the auto format type of PivotTable. |
 | [getAutofitColumnWidthOnUpdate()](#getAutofitColumnWidthOnUpdate--) | Indicates whether autofitting column width on update |
 | [getBaseFields()](#getBaseFields--) | Returns all base pivot fields in the PivotTable. |
@@ -181,6 +181,7 @@ Summary description for PivotTable.
 | [getShowRowHeaderCaption()](#getShowRowHeaderCaption--) | Indicates whether row header caption is shown in the PivotTable report Indicates whether Display field captions and filter drop downs |
 | [getShowValuesRow()](#getShowValuesRow--) | Specifies a boolean value that indicates whether show values row. |
 | [getSource()](#getSource--) | Get pivottable's source data. |
+| [getSourceType()](#getSourceType--) | Gets the data source type of the pivot table. |
 | [getSubtotalHiddenPageItems()](#getSubtotalHiddenPageItems--) | Indicates whether hidden page field items in the PivotTable report are included in row and column subtotals, block totals, and grand totals. |
 | [getTableRange1()](#getTableRange1--) | Returns a CellArea object that represents the range containing the entire PivotTable report, but doesn't include page fields. |
 | [getTableRange2()](#getTableRange2--) | Returns a CellArea object that represents the range containing the entire PivotTable report, includes page fields. |
@@ -201,8 +202,8 @@ Summary description for PivotTable.
 | [removeField(int fieldType, PivotField pivotField)](#removeField-int-com.aspose.cells.PivotField-) | Remove field from specific field area |
 | [removeField(int fieldType, int baseFieldIndex)](#removeField-int-int-) | Removes a field from specific field area |
 | [removeField(int fieldType, String fieldName)](#removeField-int-java.lang.String-) | Removes a field from specific field area |
-| [setAltTextDescription(String value)](#setAltTextDescription-java.lang.String-) | Gets the description of the alt text |
-| [setAltTextTitle(String value)](#setAltTextTitle-java.lang.String-) | Gets the title of the altertext |
+| [setAltTextDescription(String value)](#setAltTextDescription-java.lang.String-) | Gets the description of the alt text. |
+| [setAltTextTitle(String value)](#setAltTextTitle-java.lang.String-) | Sets the title of the alter text. |
 | [setAutoFormat(boolean value)](#setAutoFormat-boolean-) | Indicates whether the PivotTable report is automatically formatted. |
 | [setAutoFormatType(int value)](#setAutoFormatType-int-) | Sets the auto format type of PivotTable. |
 | [setAutoGroupField(PivotField pivotField)](#setAutoGroupField-com.aspose.cells.PivotField-) | Sets auto field group by the PivotTable. |
@@ -239,7 +240,7 @@ Summary description for PivotTable.
 | [setMultipleFieldFilters(boolean value)](#setMultipleFieldFilters-boolean-) | Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them. |
 | [setName(String value)](#setName-java.lang.String-) | Gets the name of the PivotTable |
 | [setNullString(String value)](#setNullString-java.lang.String-) | Gets the string displayed in cells that contain null values when the DisplayNullString property is true.The default value is an empty string. |
-| [setPageFieldOrder(int value)](#setPageFieldOrder-int-) | Gets the order in which page fields are added to the PivotTable report's layout. |
+| [setPageFieldOrder(int value)](#setPageFieldOrder-int-) | Sets the order in which page fields are added to the PivotTable report's layout. |
 | [setPageFieldWrapCount(int value)](#setPageFieldWrapCount-int-) | Gets the number of page fields in each column or row in the PivotTable report. |
 | [setPivotTableStyleName(String value)](#setPivotTableStyleName-java.lang.String-) | Sets the pivottable style name. |
 | [setPivotTableStyleType(int value)](#setPivotTableStyleType-int-) | Sets the built-in pivot table style. |
@@ -534,7 +535,7 @@ public String getAltTextDescription()
 ```
 
 
-Gets the description of the alt text
+Gets the description of the alt text.
 
 **Returns:**
 java.lang.String
@@ -544,7 +545,7 @@ public String getAltTextTitle()
 ```
 
 
-Gets the title of the altertext
+Gets the title of the alter text.
 
 **Returns:**
 java.lang.String
@@ -1266,6 +1267,18 @@ Get pivottable's source data.
 
 **Returns:**
 java.lang.String[]
+### getSourceType() {#getSourceType--}
+```
+public byte getSourceType()
+```
+
+
+Gets the data source type of the pivot table.
+
+See [PivotTableSourceType](../../com.aspose.cells/pivottablesourcetype).
+
+**Returns:**
+byte
 ### getSubtotalHiddenPageItems() {#getSubtotalHiddenPageItems--}
 ```
 public boolean getSubtotalHiddenPageItems()
@@ -1492,7 +1505,7 @@ public void setAltTextDescription(String value)
 ```
 
 
-Gets the description of the alt text
+Gets the description of the alt text.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1505,7 +1518,7 @@ public void setAltTextTitle(String value)
 ```
 
 
-Gets the title of the altertext
+Sets the title of the alter text.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2030,7 +2043,7 @@ public void setPageFieldOrder(int value)
 ```
 
 
-Gets the order in which page fields are added to the PivotTable report's layout.
+Sets the order in which page fields are added to the PivotTable report's layout.
 
 See [PrintOrderType](../../com.aspose.cells/printordertype).
 

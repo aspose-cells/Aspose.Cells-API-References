@@ -144,7 +144,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [ControlScrollOrientation](../com.aspose.cells/controlscrollorientation) | Represents type of scroll orientation |
 | [ControlSpecialEffectType](../com.aspose.cells/controlspecialeffecttype) | Represents the type of special effect. |
 | [ControlType](../com.aspose.cells/controltype) | Represents all type of ActiveX control. |
-| [ConversionUtility](../com.aspose.cells/conversionutility) | Represents converting files other formats. |
+| [ConversionUtility](../com.aspose.cells/conversionutility) | Represents utility to convert files to other formats. |
 | [CopyFormatType](../com.aspose.cells/copyformattype) | Represents type of copying format when inserting rows. |
 | [CopyOptions](../com.aspose.cells/copyoptions) | Represents the copy options. |
 | [CountryCode](../com.aspose.cells/countrycode) | Represents Excel country identifiers. |
@@ -363,6 +363,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [MemoryFontSource](../com.aspose.cells/memoryfontsource) | Represents the single TrueType font file stored in memory. |
 | [MemorySetting](../com.aspose.cells/memorysetting) | Memory usage options. |
 | [MergeEmptyTdType](../com.aspose.cells/mergeemptytdtype) | Represents the merge type for empty TD element when exporting file to html. |
+| [MergedCellsShrinkType](../com.aspose.cells/mergedcellsshrinktype) | Represents the strategy to shrink merged cells for operations such as deleting blank rows/column. |
 | [MetadataOptions](../com.aspose.cells/metadataoptions) | Represents the options of loading metadata of the file. |
 | [MetadataType](../com.aspose.cells/metadatatype) | Represents the type of metadata. |
 | [Metered](../com.aspose.cells/metered) | Provides methods to set metered key. |
@@ -390,6 +391,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [NoneBulletValue](../com.aspose.cells/nonebulletvalue) | Represents no bullet. |
 | [NoneFill](../com.aspose.cells/nonefill) | Represents no fill. |
 | [NumberCategoryType](../com.aspose.cells/numbercategorytype) | Represents category type of cell's number formatting. |
+| [Numbers35SaveOptions](../com.aspose.cells/numbers35saveoptions) | Represents the options for saving ebook file. |
 | [NumbersLoadOptions](../com.aspose.cells/numbersloadoptions) | Represents the options of loading Apple Numbers files. |
 | [OLEDBCommandType](../com.aspose.cells/oledbcommandtype) | Specifies the OLE DB command type. |
 | [OdsCellField](../com.aspose.cells/odscellfield) | Represents the cell field of ods. |
@@ -451,6 +453,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [PivotFieldDataDisplayFormat](../com.aspose.cells/pivotfielddatadisplayformat) | Represents data display format in the PivotTable data field. |
 | [PivotFieldGroupSettings](../com.aspose.cells/pivotfieldgroupsettings) | Represents the group setting of pivot field. |
 | [PivotFieldGroupType](../com.aspose.cells/pivotfieldgrouptype) | Represents the group type of pivot field. |
+| [PivotFieldSortSetting](../com.aspose.cells/pivotfieldsortsetting) | Represents the setting of sorting pivot fields. |
 | [PivotFieldSubtotalType](../com.aspose.cells/pivotfieldsubtotaltype) | Summary description for PivotFieldSubtotalType. |
 | [PivotFieldType](../com.aspose.cells/pivotfieldtype) | Represents PivotTable field type. |
 | [PivotFilter](../com.aspose.cells/pivotfilter) | Represents a PivotFilter in PivotFilter Collection. |
@@ -461,9 +464,10 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [PivotGlobalizationSettings](../com.aspose.cells/pivotglobalizationsettings) | Represents the globalization settings for pivot tables. |
 | [PivotGroupByType](../com.aspose.cells/pivotgroupbytype) | Represents group by type. |
 | [PivotItem](../com.aspose.cells/pivotitem) | Represents a item in a PivotField report. |
-| [PivotItemCollection](../com.aspose.cells/pivotitemcollection) | Represents a collection of all the PivotItem objects in the PivotField's |
+| [PivotItemCollection](../com.aspose.cells/pivotitemcollection) | Represents all the [PivotItem](../com.aspose.cells/pivotitem) objects in the PivotField. |
 | [PivotItemPosition](../com.aspose.cells/pivotitemposition) | Represents base item Next/Previous/All position in the base field . |
 | [PivotItemPositionType](../com.aspose.cells/pivotitempositiontype) | Represents the position type of the pivot base item in the base field when the ShowDataAs calculation is in use. |
+| [PivotLineType](../com.aspose.cells/pivotlinetype) | Specifies the type of the PivotLine. |
 | [PivotMissingItemLimitType](../com.aspose.cells/pivotmissingitemlimittype) | Represents number of items to retain per field. |
 | [PivotNumbericRangeGroupSettings](../com.aspose.cells/pivotnumbericrangegroupsettings) | Represents the numberic range group of the pivot field. |
 | [PivotOptions](../com.aspose.cells/pivotoptions) | Represents a complex type that specifies the pivot controls that appear on the chart |
@@ -477,6 +481,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [PivotTableFormatCollection](../com.aspose.cells/pivottableformatcollection) | Represents the collection of formats applied to PivotTable. |
 | [PivotTableRefreshOption](../com.aspose.cells/pivottablerefreshoption) | Represents the options of refreshing data source of the pivot table. |
 | [PivotTableSelectionType](../com.aspose.cells/pivottableselectiontype) | Specifies what can be selected in a PivotTable during a structured selection. |
+| [PivotTableSourceType](../com.aspose.cells/pivottablesourcetype) | Represents data source type of the pivot table. |
 | [PivotTableStyleType](../com.aspose.cells/pivottablestyletype) | Represents the pivot table style type. |
 | [PlacementType](../com.aspose.cells/placementtype) | Represents the way the drawing object is attached to the cells below it. |
 | [PlotArea](../com.aspose.cells/plotarea) | Encapsulates the object that represents the plot area in a chart. |

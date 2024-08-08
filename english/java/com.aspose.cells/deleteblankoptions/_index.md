@@ -26,12 +26,18 @@ Represents the setting of deleting blank cells/rows/columns.
 | [getClass()](#getClass--) |  |
 | [getEmptyFormulaValueAsBlank()](#getEmptyFormulaValueAsBlank--) | Whether one cell will be taken as blank when it is formula and the calculated result is null or empty string. |
 | [getEmptyStringAsBlank()](#getEmptyStringAsBlank--) | Whether one cell will be taken as blank when its value is empty string. |
+| [getMergedCellsShrinkType()](#getMergedCellsShrinkType--) | Indicates how to process merged cells when deleting blank rows/columns.
+
+For [MergedCellsShrinkType.KEEP\_HEADER\_ONLY](../../com.aspose.cells/mergedcellsshrinktype\#KEEP-HEADER-ONLY), all cells in it will be taken as blank except the non-blank top-left cell. |
 | [getUpdateReference()](#getUpdateReference--) | Indicates if update references in other worksheets. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setEmptyFormulaValueAsBlank(boolean value)](#setEmptyFormulaValueAsBlank-boolean-) | Whether one cell will be taken as blank when it is formula and the calculated result is null or empty string. |
 | [setEmptyStringAsBlank(boolean value)](#setEmptyStringAsBlank-boolean-) | Whether one cell will be taken as blank when its value is empty string. |
+| [setMergedCellsShrinkType(int value)](#setMergedCellsShrinkType-int-) | Indicates how to process merged cells when deleting blank rows/columns.
+
+For [MergedCellsShrinkType.KEEP\_HEADER\_ONLY](../../com.aspose.cells/mergedcellsshrinktype\#KEEP-HEADER-ONLY), all cells in it will be taken as blank except the non-blank top-left cell. |
 | [setUpdateReference(boolean value)](#setUpdateReference-boolean-) | Indicates if update references in other worksheets. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -92,6 +98,26 @@ Whether one cell will be taken as blank when its value is empty string. Default 
 
 **Returns:**
 boolean
+### getMergedCellsShrinkType() {#getMergedCellsShrinkType--}
+```
+public int getMergedCellsShrinkType()
+```
+
+
+Indicates how to process merged cells when deleting blank rows/columns.
+
+For [MergedCellsShrinkType.KEEP\_HEADER\_ONLY](../../com.aspose.cells/mergedcellsshrinktype\#KEEP-HEADER-ONLY), all cells in it will be taken as blank except the non-blank top-left cell. It is the default value of this property.
+
+For [MergedCellsShrinkType.NONE](../../com.aspose.cells/mergedcellsshrinktype\#NONE), all cells in it will be taken as non-blank.
+
+For [MergedCellsShrinkType.SHRINK\_TO\_FIT](../../com.aspose.cells/mergedcellsshrinktype\#SHRINK-TO-FIT), all cells outside the content display area will be taken as blank.
+
+
+
+See [MergedCellsShrinkType](../../com.aspose.cells/mergedcellsshrinktype).
+
+**Returns:**
+int
 ### getUpdateReference() {#getUpdateReference--}
 ```
 public boolean getUpdateReference()
@@ -157,6 +183,29 @@ Whether one cell will be taken as blank when its value is empty string. Default 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
+
+### setMergedCellsShrinkType(int value) {#setMergedCellsShrinkType-int-}
+```
+public void setMergedCellsShrinkType(int value)
+```
+
+
+Indicates how to process merged cells when deleting blank rows/columns.
+
+For [MergedCellsShrinkType.KEEP\_HEADER\_ONLY](../../com.aspose.cells/mergedcellsshrinktype\#KEEP-HEADER-ONLY), all cells in it will be taken as blank except the non-blank top-left cell. It is the default value of this property.
+
+For [MergedCellsShrinkType.NONE](../../com.aspose.cells/mergedcellsshrinktype\#NONE), all cells in it will be taken as non-blank.
+
+For [MergedCellsShrinkType.SHRINK\_TO\_FIT](../../com.aspose.cells/mergedcellsshrinktype\#SHRINK-TO-FIT), all cells outside the content display area will be taken as blank.
+
+
+
+See [MergedCellsShrinkType](../../com.aspose.cells/mergedcellsshrinktype).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
 
 ### setUpdateReference(boolean value) {#setUpdateReference-boolean-}
 ```

@@ -17,7 +17,7 @@ Represents the type of auto fitting merged cells.
 
 | Field | Description |
 | --- | --- |
-| [EACH_LINE](#EACH-LINE) | Only expands the height of each row. |
+| [EACH_LINE](#EACH-LINE) | Expands the height of each row. |
 | [FIRST_LINE](#FIRST-LINE) | Only expands the height of the first row. |
 | [LAST_LINE](#LAST-LINE) | Only expands the height of the last row. |
 | [NONE](#NONE) | Ignore merged cells. |
@@ -40,7 +40,7 @@ public static final int EACH_LINE
 ```
 
 
-Only expands the height of each row.
+Expands the height of each row.
 
 ### FIRST_LINE {#FIRST-LINE}
 ```

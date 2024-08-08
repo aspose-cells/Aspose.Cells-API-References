@@ -32,6 +32,7 @@ Represents the options of saving sql.
 | [getColumnTypeMap()](#getColumnTypeMap--) | Gets the map of column type for different database. |
 | [getCreateDirectory()](#getCreateDirectory--) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [getCreateTable()](#getCreateTable--) | Indicates whether exporting sql of creating table. |
+| [getEncryptDocumentProperties()](#getEncryptDocumentProperties--) | Indicates whether encrypt document properties when saving as .xls file. |
 | [getExportArea()](#getExportArea--) | Gets the exporting range. |
 | [getExportAsString()](#getExportAsString--) | Indicates whether exporting all data as string value. |
 | [getIdName()](#getIdName--) | Gets the name of id column. |
@@ -61,6 +62,7 @@ Represents the options of saving sql.
 | [setColumnTypeMap(SqlScriptColumnTypeMap value)](#setColumnTypeMap-com.aspose.cells.SqlScriptColumnTypeMap-) | Sets the map of column type for different database. |
 | [setCreateDirectory(boolean value)](#setCreateDirectory-boolean-) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [setCreateTable(boolean value)](#setCreateTable-boolean-) | Indicates whether exporting sql of creating table. |
+| [setEncryptDocumentProperties(boolean value)](#setEncryptDocumentProperties-boolean-) | Indicates whether encrypt document properties when saving as .xls file. |
 | [setExportArea(CellArea value)](#setExportArea-com.aspose.cells.CellArea-) | Sets the exporting range. |
 | [setExportAsString(boolean value)](#setExportAsString-boolean-) | Indicates whether exporting all data as string value. |
 | [setHasHeaderRow(boolean value)](#setHasHeaderRow-boolean-) | Indicates whether the range contains header row. |
@@ -204,6 +206,20 @@ public boolean getCreateTable()
 
 
 Indicates whether exporting sql of creating table.
+
+**Returns:**
+boolean
+### getEncryptDocumentProperties() {#getEncryptDocumentProperties--}
+```
+public boolean getEncryptDocumentProperties()
+```
+
+
+Indicates whether encrypt document properties when saving as .xls file. The default value is true.
+
+**Remarks**
+
+Only for .xls,xlsx,xlsb and xlsm file.
 
 **Returns:**
 boolean
@@ -551,6 +567,23 @@ public void setCreateTable(boolean value)
 
 
 Indicates whether exporting sql of creating table.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setEncryptDocumentProperties(boolean value) {#setEncryptDocumentProperties-boolean-}
+```
+public void setEncryptDocumentProperties(boolean value)
+```
+
+
+Indicates whether encrypt document properties when saving as .xls file. The default value is true.
+
+**Remarks**
+
+Only for .xls,xlsx,xlsb and xlsm file.
 
 **Parameters:**
 | Parameter | Type | Description |

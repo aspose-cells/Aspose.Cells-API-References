@@ -28,6 +28,7 @@ Represents the options of saving the workbook as a json file.
 | [getClass()](#getClass--) |  |
 | [getClearData()](#getClearData--) | Make the workbook empty after saving the file. |
 | [getCreateDirectory()](#getCreateDirectory--) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
+| [getEncryptDocumentProperties()](#getEncryptDocumentProperties--) | Indicates whether encrypt document properties when saving as .xls file. |
 | [getExportArea()](#getExportArea--) | Gets the exporting range. |
 | [getExportAsString()](#getExportAsString--) | Exports the string value of the cells to json. |
 | [getExportEmptyCells()](#getExportEmptyCells--) | Indicates whether exporting empty cells as null. |
@@ -37,6 +38,7 @@ Represents the options of saving the workbook as a json file.
 | [getMergeAreas()](#getMergeAreas--) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [getRefreshChartCache()](#getRefreshChartCache--) | Indicates whether refreshing chart cache data |
 | [getSaveFormat()](#getSaveFormat--) | Gets the save file format. |
+| [getSchemas()](#getSchemas--) | The original json schema of each worksheet. |
 | [getSheetIndexes()](#getSheetIndexes--) | Represents the indexes of exported sheets. |
 | [getSkipEmptyRows()](#getSkipEmptyRows--) | Indicates whether skipping emtpy rows. |
 | [getSortExternalNames()](#getSortExternalNames--) | Indicates whether sorting external defined names before saving file. |
@@ -53,6 +55,7 @@ Represents the options of saving the workbook as a json file.
 | [setCachedFileFolder(String value)](#setCachedFileFolder-java.lang.String-) | The cached file folder is used to store some large data. |
 | [setClearData(boolean value)](#setClearData-boolean-) | Make the workbook empty after saving the file. |
 | [setCreateDirectory(boolean value)](#setCreateDirectory-boolean-) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
+| [setEncryptDocumentProperties(boolean value)](#setEncryptDocumentProperties-boolean-) | Indicates whether encrypt document properties when saving as .xls file. |
 | [setExportArea(CellArea value)](#setExportArea-com.aspose.cells.CellArea-) | Sets the exporting range. |
 | [setExportAsString(boolean value)](#setExportAsString-boolean-) | Exports the string value of the cells to json. |
 | [setExportEmptyCells(boolean value)](#setExportEmptyCells-boolean-) | Indicates whether exporting empty cells as null. |
@@ -62,6 +65,7 @@ Represents the options of saving the workbook as a json file.
 | [setIndent(String value)](#setIndent-java.lang.String-) | Indicates the indent. |
 | [setMergeAreas(boolean value)](#setMergeAreas-boolean-) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [setRefreshChartCache(boolean value)](#setRefreshChartCache-boolean-) | Indicates whether refreshing chart cache data |
+| [setSchemas(String[] value)](#setSchemas-java.lang.String---) | The original json schema of each worksheet. |
 | [setSheetIndexes(int[] value)](#setSheetIndexes-int---) | Represents the indexes of exported sheets. |
 | [setSkipEmptyRows(boolean value)](#setSkipEmptyRows-boolean-) | Indicates whether skipping emtpy rows. |
 | [setSortExternalNames(boolean value)](#setSortExternalNames-boolean-) | Indicates whether sorting external defined names before saving file. |
@@ -148,6 +152,20 @@ If true and the directory does not exist, the directory will be automatically cr
 **Remarks**
 
 The default value is false.
+
+**Returns:**
+boolean
+### getEncryptDocumentProperties() {#getEncryptDocumentProperties--}
+```
+public boolean getEncryptDocumentProperties()
+```
+
+
+Indicates whether encrypt document properties when saving as .xls file. The default value is true.
+
+**Remarks**
+
+Only for .xls,xlsx,xlsb and xlsm file.
 
 **Returns:**
 boolean
@@ -259,6 +277,16 @@ See [SaveFormat](../../com.aspose.cells/saveformat).
 
 **Returns:**
 int
+### getSchemas() {#getSchemas--}
+```
+public String[] getSchemas()
+```
+
+
+The original json schema of each worksheet.
+
+**Returns:**
+java.lang.String[]
 ### getSheetIndexes() {#getSheetIndexes--}
 ```
 public int[] getSheetIndexes()
@@ -443,6 +471,23 @@ The default value is false.
 | --- | --- | --- |
 | value | boolean |  |
 
+### setEncryptDocumentProperties(boolean value) {#setEncryptDocumentProperties-boolean-}
+```
+public void setEncryptDocumentProperties(boolean value)
+```
+
+
+Indicates whether encrypt document properties when saving as .xls file. The default value is true.
+
+**Remarks**
+
+Only for .xls,xlsx,xlsb and xlsm file.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
 ### setExportArea(CellArea value) {#setExportArea-com.aspose.cells.CellArea-}
 ```
 public void setExportArea(CellArea value)
@@ -575,6 +620,19 @@ Indicates whether refreshing chart cache data
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
+
+### setSchemas(String[] value) {#setSchemas-java.lang.String---}
+```
+public void setSchemas(String[] value)
+```
+
+
+The original json schema of each worksheet.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String[] |  |
 
 ### setSheetIndexes(int[] value) {#setSheetIndexes-int---}
 ```

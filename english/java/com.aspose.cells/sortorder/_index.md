@@ -17,8 +17,9 @@ Represents sort order for the data range.
 
 | Field | Description |
 | --- | --- |
-| [ASCENDING](#ASCENDING) |  |
-| [DESCENDING](#DESCENDING) |  |
+| [ASCENDING](#ASCENDING) | Sorts data in ascending order |
+| [DESCENDING](#DESCENDING) | Sorts data in descending order |
+| [NATURAL](#NATURAL) | Keeps original data order without sorting. |
 ## Methods
 
 | Method | Description |
@@ -38,7 +39,7 @@ public static final int ASCENDING
 ```
 
 
-
+Sorts data in ascending order
 
 ### DESCENDING {#DESCENDING}
 ```
@@ -46,7 +47,15 @@ public static final int DESCENDING
 ```
 
 
+Sorts data in descending order
 
+### NATURAL {#NATURAL}
+```
+public static final int NATURAL
+```
+
+
+Keeps original data order without sorting. Only applies to some special scenarios such as PivotTable.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

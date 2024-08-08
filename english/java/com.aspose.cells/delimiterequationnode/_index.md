@@ -29,7 +29,7 @@ This class specifies the delimiter equation, consisting of opening and closing d
 | [getEquationType()](#getEquationType--) | Get the equation type of the current node |
 | [getFont()](#getFont--) | Returns the font of this object. |
 | [getLength()](#getLength--) | Gets the length of the characters. |
-| [getNaryGrow()](#getNaryGrow--) | This property specifies the growth property of the delimiter at the document level. |
+| [getNaryGrow()](#getNaryGrow--) |  |
 | [getParentNode()](#getParentNode--) | Specifies the parent node of the current node |
 | [getSeparatorChar()](#getSeparatorChar--) | Delimiter separator character. |
 | [getStartIndex()](#getStartIndex--) | Gets the start index of the characters. |
@@ -48,10 +48,12 @@ This class specifies the delimiter equation, consisting of opening and closing d
 | [setBeginChar(String value)](#setBeginChar-java.lang.String-) | Delimiter beginning character. |
 | [setDelimiterShape(int value)](#setDelimiterShape-int-) | Specifies the shape of delimiters in the delimiter object. |
 | [setEndChar(String value)](#setEndChar-java.lang.String-) | Delimiter ending character. |
-| [setNaryGrow(boolean value)](#setNaryGrow-boolean-) | This property specifies the growth property of the delimiter at the document level. |
+| [setNaryGrow(boolean value)](#setNaryGrow-boolean-) |  |
 | [setParentNode(EquationNode value)](#setParentNode-com.aspose.cells.EquationNode-) | Specifies the parent node of the current node |
 | [setSeparatorChar(String value)](#setSeparatorChar-java.lang.String-) | Delimiter separator character. |
 | [setWordArtStyle(int style)](#setWordArtStyle-int-) | Sets the preset WordArt style. |
+| [toLaTeX()](#toLaTeX--) | Conver this equtation to LaTeX expression. |
+| [toMathML()](#toMathML--) | Conver this equtation to MathML expression. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -219,7 +221,7 @@ public boolean getNaryGrow()
 ```
 
 
-This property specifies the growth property of the delimiter at the document level. When off, the delimiter will not grow to match the size of its component height. When enabled, the delimiter grows vertically to match its component height.
+
 
 **Returns:**
 boolean
@@ -448,7 +450,7 @@ public void setNaryGrow(boolean value)
 ```
 
 
-This property specifies the growth property of the delimiter at the document level. When off, the delimiter will not grow to match the size of its component height. When enabled, the delimiter grows vertically to match its component height.
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -502,6 +504,26 @@ Only for the text of shape/chart.
 | --- | --- | --- |
 | style | int | [PresetWordArtStyle](../../com.aspose.cells/presetwordartstyle). The preset WordArt style. |
 
+### toLaTeX() {#toLaTeX--}
+```
+public String toLaTeX()
+```
+
+
+Conver this equtation to LaTeX expression.
+
+**Returns:**
+java.lang.String
+### toMathML() {#toMathML--}
+```
+public String toMathML()
+```
+
+
+Conver this equtation to MathML expression.
+
+**Returns:**
+java.lang.String - 
 ### toString() {#toString--}
 ```
 public String toString()

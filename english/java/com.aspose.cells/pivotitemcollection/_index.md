@@ -1,7 +1,7 @@
 ---
 title: PivotItemCollection
 second_title: Aspose.Cells for Java API Reference
-description: Represents a collection of all the PivotItem objects in the PivotFields
+description: Represents all the  objects in the PivotField.
 type: docs
 url: /java/com.aspose.cells/pivotitemcollection/
 ---
@@ -15,7 +15,7 @@ java.lang.Iterable
 public class PivotItemCollection implements Iterable
 ```
 
-Represents a collection of all the PivotItem objects in the PivotField's
+Represents all the [PivotItem](../../com.aspose.cells/pivotitem) objects in the PivotField.
 ## Methods
 
 | Method | Description |
@@ -23,13 +23,14 @@ Represents a collection of all the PivotItem objects in the PivotField's
 | [changeitemsOrder(int sourceIndex, int destIndex)](#changeitemsOrder-int-int-) | Directly changes the orders of the two items. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | Gets the PivotItem Object at the specific index. |
-| [get(String itemValue)](#get-java.lang.String-) | Gets the PivotItem Object of the specific name. |
+| [get(String itemValue)](#get-java.lang.String-) | Gets the [PivotItem](../../com.aspose.cells/pivotitem) by the specific name. |
 | [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | Gets the count of the pivot items. |
 | [hashCode()](#hashCode--) |  |
 | [iterator()](#iterator--) | Gets an enumerator over the elements in this collection in proper sequence. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
+| [swapItem(int index1, int index2)](#swapItem-int-int-) | Directly swap two items. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -41,6 +42,10 @@ public void changeitemsOrder(int sourceIndex, int destIndex)
 
 
 Directly changes the orders of the two items.
+
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use PivotItemCollection.SwapItem() method. This method will be removed 12 months later since July 2024. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -84,7 +89,7 @@ public PivotItem get(String itemValue)
 ```
 
 
-Gets the PivotItem Object of the specific name.
+Gets the [PivotItem](../../com.aspose.cells/pivotitem) by the specific name.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -148,6 +153,20 @@ public final native void notifyAll()
 
 
 
+
+### swapItem(int index1, int index2) {#swapItem-int-int-}
+```
+public void swapItem(int index1, int index2)
+```
+
+
+Directly swap two items.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index1 | int |  |
+| index2 | int |  |
 
 ### toString() {#toString--}
 ```

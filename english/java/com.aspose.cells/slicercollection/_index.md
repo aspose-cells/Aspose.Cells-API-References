@@ -85,7 +85,7 @@ Specifies the collection of all the Slicer objects on the specified worksheet.
 | [add(PivotTable pivot, String destCellName, int baseFieldIndex)](#add-com.aspose.cells.PivotTable-java.lang.String-int-) | Add a new Slicer using PivotTable as data source |
 | [add(PivotTable pivot, String destCellName, String baseFieldName)](#add-com.aspose.cells.PivotTable-java.lang.String-java.lang.String-) | Add a new Slicer using PivotTable as data source |
 | [add(Object o)](#add-java.lang.Object-) | Adds an item to the CollectionBase instance. |
-| [clear()](#clear--) | Removes all objects from the CollectionBase instance. |
+| [clear()](#clear--) | Clear all Slicers. |
 | [contains(Object o)](#contains-java.lang.Object-) | Return whether instance contains this object |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | Gets the Slicer by index. |
@@ -335,7 +335,7 @@ public void clear()
 ```
 
 
-Removes all objects from the CollectionBase instance.
+Clear all Slicers.
 
 ### contains(Object o) {#contains-java.lang.Object-}
 ```
