@@ -29,8 +29,8 @@ class DelimiterEquationNode extends EquationNode;
 | [setBeginChar(string)](#setBeginChar-string-)| Delimiter beginning character. |
 | [getEndChar()](#getEndChar--)| Delimiter ending character. |
 | [setEndChar(string)](#setEndChar-string-)| Delimiter ending character. |
-| [getNaryGrow()](#getNaryGrow--)| This property specifies the growth property of the delimiter at the document level. When off, the delimiter will not grow to match the size of its component height. When enabled, the delimiter grows vertically to match its component height. |
-| [setNaryGrow(boolean)](#setNaryGrow-boolean-)| This property specifies the growth property of the delimiter at the document level. When off, the delimiter will not grow to match the size of its component height. When enabled, the delimiter grows vertically to match its component height. |
+| [getNaryGrow()](#getNaryGrow--)|  |
+| [setNaryGrow(boolean)](#setNaryGrow-boolean-)|  |
 | [getSeparatorChar()](#getSeparatorChar--)| Delimiter separator character. |
 | [setSeparatorChar(string)](#setSeparatorChar-string-)| Delimiter separator character. |
 | [getDelimiterShape()](#getDelimiterShape--)| Specifies the shape of delimiters in the delimiter object. |
@@ -44,6 +44,8 @@ class DelimiterEquationNode extends EquationNode;
 | [setParentNode(EquationNode)](#setParentNode-equationnode-)| Specifies the parent node of the current node |
 | [getType()](#getType--)| Represents the type of the node. |
 | [getEquationType()](#getEquationType--)| Get the equation type of the current node |
+| [toLaTeX()](#toLaTeX--)| Conver this equtation to LaTeX expression. |
+| [toMathML()](#toMathML--)| Conver this equtation to MathML expression. |
 | [addChild(EquationNodeType)](#addChild-equationnodetype-)| Insert a node of the specified type at the end of the child node list of the current node. |
 | [addChild(EquationNode)](#addChild-equationnode-)| Inserts the specified node at the end of the current node's list of child nodes. |
 | [insertChild(number, EquationNodeType)](#insertChild-number-equationnodetype-)| Inserts a node of the specified type at the specified index position in the current node's child node list. |
@@ -132,7 +134,7 @@ It should be noted that this property only accepts one character, and if multipl
 
 ### getNaryGrow() {#getNaryGrow--}
 
-This property specifies the growth property of the delimiter at the document level. When off, the delimiter will not grow to match the size of its component height. When enabled, the delimiter grows vertically to match its component height.
+
 
 ```javascript
 getNaryGrow() : boolean;
@@ -141,7 +143,7 @@ getNaryGrow() : boolean;
 
 ### setNaryGrow(boolean) {#setNaryGrow-boolean-}
 
-This property specifies the growth property of the delimiter at the document level. When off, the delimiter will not grow to match the size of its component height. When enabled, the delimiter grows vertically to match its component height.
+
 
 ```javascript
 setNaryGrow(value: boolean) : void;
@@ -320,6 +322,24 @@ getEquationType() : EquationNodeType;
 **Returns**
 
 [EquationNodeType](../equationnodetype/)
+
+### toLaTeX() {#toLaTeX--}
+
+Conver this equtation to LaTeX expression.
+
+```javascript
+toLaTeX() : string;
+```
+
+
+### toMathML() {#toMathML--}
+
+Conver this equtation to MathML expression.
+
+```javascript
+toMathML() : string;
+```
+
 
 ### addChild(EquationNodeType) {#addChild-equationnodetype-}
 

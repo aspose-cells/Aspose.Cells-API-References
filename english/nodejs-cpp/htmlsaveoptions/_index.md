@@ -146,6 +146,8 @@ class HtmlSaveOptions extends SaveOptions;
 | [setHideOverflowWrappedText(boolean)](#setHideOverflowWrappedText-boolean-)| Indicates whether to hide overflow text when the cell format is set to wrap text. The default value is false |
 | [isBorderCollapsed()](#isBorderCollapsed--)| Indicates whether the table borders are collapsed. The default value is true. |
 | [setIsBorderCollapsed(boolean)](#setIsBorderCollapsed-boolean-)| Indicates whether the table borders are collapsed. The default value is true. |
+| [getEncodeEntityAsCode()](#getEncodeEntityAsCode--)| Indicates whether the html character entities are replaced with decimal code. (e.g. "&amp;nbsp;" is replaced with "&amp;#160;"). The default value is false. |
+| [setEncodeEntityAsCode(boolean)](#setEncodeEntityAsCode-boolean-)| Indicates whether the html character entities are replaced with decimal code. (e.g. "&amp;nbsp;" is replaced with "&amp;#160;"). The default value is false. |
 | [getSaveFormat()](#getSaveFormat--)| Gets the save file format. |
 | [getClearData()](#getClearData--)| Make the workbook empty after saving the file. |
 | [setClearData(boolean)](#setClearData-boolean-)| Make the workbook empty after saving the file. |
@@ -167,6 +169,8 @@ class HtmlSaveOptions extends SaveOptions;
 | [getWarningCallback()](#getWarningCallback--)| Gets or sets warning callback. |
 | [getUpdateSmartArt()](#getUpdateSmartArt--)| Indicates whether updating smart art setting. The default value is false. |
 | [setUpdateSmartArt(boolean)](#setUpdateSmartArt-boolean-)| Indicates whether updating smart art setting. The default value is false. |
+| [getEncryptDocumentProperties()](#getEncryptDocumentProperties--)| Indicates whether encrypt document properties when saving as .xls file. The default value is true. |
+| [setEncryptDocumentProperties(boolean)](#setEncryptDocumentProperties-boolean-)| Indicates whether encrypt document properties when saving as .xls file. The default value is true. |
 
 
 ### constructor() {#constructor--}
@@ -1619,6 +1623,28 @@ setIsBorderCollapsed(value: boolean) : void;
 | --- | --- | --- |
 | value | boolean | The value to set. |
 
+### getEncodeEntityAsCode() {#getEncodeEntityAsCode--}
+
+Indicates whether the html character entities are replaced with decimal code. (e.g. "&amp;nbsp;" is replaced with "&amp;#160;"). The default value is false.
+
+```javascript
+getEncodeEntityAsCode() : boolean;
+```
+
+
+### setEncodeEntityAsCode(boolean) {#setEncodeEntityAsCode-boolean-}
+
+Indicates whether the html character entities are replaced with decimal code. (e.g. "&amp;nbsp;" is replaced with "&amp;#160;"). The default value is false.
+
+```javascript
+setEncodeEntityAsCode(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
 ### getSaveFormat() {#getSaveFormat--}
 
 Gets the save file format.
@@ -1887,5 +1913,35 @@ setUpdateSmartArt(value: boolean) : void;
 **Remarks**
 
 Only effects after calling Shape.GetResultOfSmartArt() method and the cached shapes exist in the template file.
+
+### getEncryptDocumentProperties() {#getEncryptDocumentProperties--}
+
+Indicates whether encrypt document properties when saving as .xls file. The default value is true.
+
+```javascript
+getEncryptDocumentProperties() : boolean;
+```
+
+
+**Remarks**
+
+Only for .xls,xlsx,xlsb and xlsm file.
+
+### setEncryptDocumentProperties(boolean) {#setEncryptDocumentProperties-boolean-}
+
+Indicates whether encrypt document properties when saving as .xls file. The default value is true.
+
+```javascript
+setEncryptDocumentProperties(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+**Remarks**
+
+Only for .xls,xlsx,xlsb and xlsm file.
 
 

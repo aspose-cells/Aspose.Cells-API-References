@@ -103,10 +103,10 @@ class PivotTable;
 | [setFieldListSortAscending(boolean)](#setFieldListSortAscending-boolean-)| Indicates whether fields in the PivotTable are sorted in non-default order in the field list. |
 | [getPrintDrill()](#getPrintDrill--)| Specifies a boolean value that indicates whether drill indicators should be printed. print expand/collapse buttons when displayed on pivottable. |
 | [setPrintDrill(boolean)](#setPrintDrill-boolean-)| Specifies a boolean value that indicates whether drill indicators should be printed. print expand/collapse buttons when displayed on pivottable. |
-| [getAltTextTitle()](#getAltTextTitle--)| Gets the title of the altertext |
-| [setAltTextTitle(string)](#setAltTextTitle-string-)| Gets the title of the altertext |
-| [getAltTextDescription()](#getAltTextDescription--)| Gets the description of the alt text |
-| [setAltTextDescription(string)](#setAltTextDescription-string-)| Gets the description of the alt text |
+| [getAltTextTitle()](#getAltTextTitle--)| Gets and sets the title of the alter text. |
+| [setAltTextTitle(string)](#setAltTextTitle-string-)| Gets and sets the title of the alter text. |
+| [getAltTextDescription()](#getAltTextDescription--)| Gets the description of the alt text. |
+| [setAltTextDescription(string)](#setAltTextDescription-string-)| Gets the description of the alt text. |
 | [getName()](#getName--)| Gets the name of the PivotTable |
 | [setName(string)](#setName-string-)| Gets the name of the PivotTable |
 | [getColumnHeaderCaption()](#getColumnHeaderCaption--)| Gets the Column Header Caption of the PivotTable. |
@@ -120,8 +120,8 @@ class PivotTable;
 | [getCustomListSort()](#getCustomListSort--)| Indicates whether consider built-in custom list when sort data |
 | [setCustomListSort(boolean)](#setCustomListSort-boolean-)| Indicates whether consider built-in custom list when sort data |
 | [getPivotFormatConditions()](#getPivotFormatConditions--)| Gets the Format Conditions of the pivot table. |
-| [getPageFieldOrder()](#getPageFieldOrder--)| Gets the order in which page fields are added to the PivotTable report's layout. |
-| [setPageFieldOrder(PrintOrderType)](#setPageFieldOrder-printordertype-)| Gets the order in which page fields are added to the PivotTable report's layout. |
+| [getPageFieldOrder()](#getPageFieldOrder--)| Gets and sets the order in which page fields are added to the PivotTable report's layout. |
+| [setPageFieldOrder(PrintOrderType)](#setPageFieldOrder-printordertype-)| Gets and sets the order in which page fields are added to the PivotTable report's layout. |
 | [getPageFieldWrapCount()](#getPageFieldWrapCount--)| Gets the number of page fields in each column or row in the PivotTable report. |
 | [setPageFieldWrapCount(number)](#setPageFieldWrapCount-number-)| Gets the number of page fields in each column or row in the PivotTable report. |
 | [getTag()](#getTag--)| Gets a string saved with the PivotTable report. |
@@ -132,6 +132,7 @@ class PivotTable;
 | [setRefreshDataOnOpeningFile(boolean)](#setRefreshDataOnOpeningFile-boolean-)| Indicates whether Refresh Data when Opening File. |
 | [getRefreshDataFlag()](#getRefreshDataFlag--)| Indicates whether Refreshing Data or not. |
 | [setRefreshDataFlag(boolean)](#setRefreshDataFlag-boolean-)| Indicates whether Refreshing Data or not. |
+| [getSourceType()](#getSourceType--)| Gets the data source type of the pivot table. |
 | [getExternalConnectionDataSource()](#getExternalConnectionDataSource--)| Gets the external connection data source. |
 | [getDataSource()](#getDataSource--)| Gets and sets the data source of the pivot table. |
 | [setDataSource(string[])](#setDataSource-stringarray-)| Gets and sets the data source of the pivot table. |
@@ -182,6 +183,7 @@ class PivotTable;
 | [formatRow(number, Style)](#formatRow-number-style-)| Format the row data in the pivottable area |
 | [format(PivotArea, Style)](#format-pivotarea-style-)| Formats selected area of the PivotTable. |
 | [format(number, number, Style)](#format-number-number-style-)| Format the cell in the pivottable area |
+| [showDatail(number, number, boolean, number, number)](#showDatail-number-number-boolean-number-number-)| Show the detail of one item in the data region to a new Table. |
 | [showInCompactForm()](#showInCompactForm--)| Layouts the PivotTable in compact form. |
 | [showInOutlineForm()](#showInOutlineForm--)| Layouts the PivotTable in outline form. |
 | [showInTabularForm()](#showInTabularForm--)| Layouts the PivotTable in tabular form. |
@@ -1147,7 +1149,7 @@ setPrintDrill(value: boolean) : void;
 
 ### getAltTextTitle() {#getAltTextTitle--}
 
-Gets the title of the altertext
+Gets and sets the title of the alter text.
 
 ```javascript
 getAltTextTitle() : string;
@@ -1156,7 +1158,7 @@ getAltTextTitle() : string;
 
 ### setAltTextTitle(string) {#setAltTextTitle-string-}
 
-Gets the title of the altertext
+Gets and sets the title of the alter text.
 
 ```javascript
 setAltTextTitle(value: string) : void;
@@ -1169,7 +1171,7 @@ setAltTextTitle(value: string) : void;
 
 ### getAltTextDescription() {#getAltTextDescription--}
 
-Gets the description of the alt text
+Gets the description of the alt text.
 
 ```javascript
 getAltTextDescription() : string;
@@ -1178,7 +1180,7 @@ getAltTextDescription() : string;
 
 ### setAltTextDescription(string) {#setAltTextDescription-string-}
 
-Gets the description of the alt text
+Gets the description of the alt text.
 
 ```javascript
 setAltTextDescription(value: string) : void;
@@ -1336,7 +1338,7 @@ getPivotFormatConditions() : PivotFormatConditionCollection;
 
 ### getPageFieldOrder() {#getPageFieldOrder--}
 
-Gets the order in which page fields are added to the PivotTable report's layout.
+Gets and sets the order in which page fields are added to the PivotTable report's layout.
 
 ```javascript
 getPageFieldOrder() : PrintOrderType;
@@ -1349,7 +1351,7 @@ getPageFieldOrder() : PrintOrderType;
 
 ### setPageFieldOrder(PrintOrderType) {#setPageFieldOrder-printordertype-}
 
-Gets the order in which page fields are added to the PivotTable report's layout.
+Gets and sets the order in which page fields are added to the PivotTable report's layout.
 
 ```javascript
 setPageFieldOrder(value: PrintOrderType) : void;
@@ -1469,6 +1471,19 @@ setRefreshDataFlag(value: boolean) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The value to set. |
+
+### getSourceType() {#getSourceType--}
+
+Gets the data source type of the pivot table.
+
+```javascript
+getSourceType() : PivotTableSourceType;
+```
+
+
+**Returns**
+
+[PivotTableSourceType](../pivottablesourcetype/)
 
 ### getExternalConnectionDataSource() {#getExternalConnectionDataSource--}
 
@@ -2109,6 +2124,23 @@ format(row: number, column: number, style: Style) : void;
 | row | number | Row Index of the cell |
 | column | number | Column index of the cell |
 | style | [Style](../style/) | Style which is to format the cell |
+
+### showDatail(number, number, boolean, number, number) {#showDatail-number-number-boolean-number-number-}
+
+Show the detail of one item in the data region to a new Table.
+
+```javascript
+showDatail(rowOffset: number, columnOffset: number, newSheet: boolean, destRow: number, destColumn: number) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| rowOffset | number | Offset to the first data row in the data region. |
+| columnOffset | number | Offset to the first data column in the data region. |
+| newSheet | boolean | Show the datail to a new worksheet. |
+| destRow | number | The target row. |
+| destColumn | number | The target column. |
 
 ### showInCompactForm() {#showInCompactForm--}
 

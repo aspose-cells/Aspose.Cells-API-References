@@ -1,17 +1,17 @@
 ﻿---
-title: XmlSaveOptions
+title: Numbers35SaveOptions
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents the options of saving the workbook as an xml file.
+description: Represents the options for saving ebook file.
 type: docs
-url: /nodejs-cpp/xmlsaveoptions/
+url: /nodejs-cpp/numbers35saveoptions/
 ---
 
-## XmlSaveOptions class
+## Numbers35SaveOptions class
 
-Represents the options of saving the workbook as an xml file.
+Represents the options for saving ebook file.
 
 ```javascript
-class XmlSaveOptions extends SaveOptions;
+class Numbers35SaveOptions extends SaveOptions;
 ```
 
 
@@ -19,25 +19,13 @@ class XmlSaveOptions extends SaveOptions;
 
 | Name | Description |
 | --- | --- |
-| [constructor()](#constructor--)| Creates options for saving xml file. |
+| [constructor()](#constructor--)| Creates options for saving ebook file. |
 | [constructor(SaveOptions)](#constructor-saveoptions-)| Constructs from a parent object convertible to this. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getSheetIndexes()](#getSheetIndexes--)| Represents the indexes of exported sheets. |
-| [setSheetIndexes(number[])](#setSheetIndexes-numberarray-)| Represents the indexes of exported sheets. |
-| [getExportArea()](#getExportArea--)| Gets or sets the exporting range. |
-| [setExportArea(CellArea)](#setExportArea-cellarea-)| Gets or sets the exporting range. |
-| [getHasHeaderRow()](#getHasHeaderRow--)| Indicates whether the range contains header row. |
-| [setHasHeaderRow(boolean)](#setHasHeaderRow-boolean-)| Indicates whether the range contains header row. |
-| [getXmlMapName()](#getXmlMapName--)| Indicates whether exporting xml map in the file. |
-| [setXmlMapName(string)](#setXmlMapName-string-)| Indicates whether exporting xml map in the file. |
-| [getSheetNameAsElementName()](#getSheetNameAsElementName--)| Indicates whether exporting sheet's name as the name of the element. |
-| [setSheetNameAsElementName(boolean)](#setSheetNameAsElementName-boolean-)| Indicates whether exporting sheet's name as the name of the element. |
-| [getDataAsAttribute()](#getDataAsAttribute--)| Indicates whether exporting data as attributes of element. |
-| [setDataAsAttribute(boolean)](#setDataAsAttribute-boolean-)| Indicates whether exporting data as attributes of element. |
 | [getSaveFormat()](#getSaveFormat--)| Gets the save file format. |
 | [getClearData()](#getClearData--)| Make the workbook empty after saving the file. |
 | [setClearData(boolean)](#setClearData-boolean-)| Make the workbook empty after saving the file. |
@@ -65,7 +53,7 @@ class XmlSaveOptions extends SaveOptions;
 
 ### constructor() {#constructor--}
 
-Creates options for saving xml file.
+Creates options for saving ebook file.
 
 ```javascript
 constructor();
@@ -84,146 +72,6 @@ constructor(obj: SaveOptions);
 | Parameter | Type | Description |
 | --- | --- | --- |
 | obj | SaveOptions | The parent object. |
-
-### getSheetIndexes() {#getSheetIndexes--}
-
-Represents the indexes of exported sheets.
-
-```javascript
-getSheetIndexes() : number[];
-```
-
-
-**Returns**
-
-number[]
-
-### setSheetIndexes(number[]) {#setSheetIndexes-numberarray-}
-
-Represents the indexes of exported sheets.
-
-```javascript
-setSheetIndexes(value: number[]) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | number[] | The value to set. |
-
-### getExportArea() {#getExportArea--}
-
-Gets or sets the exporting range.
-
-```javascript
-getExportArea() : CellArea;
-```
-
-
-**Returns**
-
-[CellArea](../cellarea/)
-
-### setExportArea(CellArea) {#setExportArea-cellarea-}
-
-Gets or sets the exporting range.
-
-```javascript
-setExportArea(value: CellArea) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [CellArea](../cellarea/) | The value to set. |
-
-### getHasHeaderRow() {#getHasHeaderRow--}
-
-Indicates whether the range contains header row.
-
-```javascript
-getHasHeaderRow() : boolean;
-```
-
-
-### setHasHeaderRow(boolean) {#setHasHeaderRow-boolean-}
-
-Indicates whether the range contains header row.
-
-```javascript
-setHasHeaderRow(value: boolean) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | The value to set. |
-
-### getXmlMapName() {#getXmlMapName--}
-
-Indicates whether exporting xml map in the file.
-
-```javascript
-getXmlMapName() : string;
-```
-
-
-### setXmlMapName(string) {#setXmlMapName-string-}
-
-Indicates whether exporting xml map in the file.
-
-```javascript
-setXmlMapName(value: string) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | string | The value to set. |
-
-### getSheetNameAsElementName() {#getSheetNameAsElementName--}
-
-Indicates whether exporting sheet's name as the name of the element.
-
-```javascript
-getSheetNameAsElementName() : boolean;
-```
-
-
-### setSheetNameAsElementName(boolean) {#setSheetNameAsElementName-boolean-}
-
-Indicates whether exporting sheet's name as the name of the element.
-
-```javascript
-setSheetNameAsElementName(value: boolean) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | The value to set. |
-
-### getDataAsAttribute() {#getDataAsAttribute--}
-
-Indicates whether exporting data as attributes of element.
-
-```javascript
-getDataAsAttribute() : boolean;
-```
-
-
-### setDataAsAttribute(boolean) {#setDataAsAttribute-boolean-}
-
-Indicates whether exporting data as attributes of element.
-
-```javascript
-setDataAsAttribute(value: boolean) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | The value to set. |
 
 ### getSaveFormat() {#getSaveFormat--}
 

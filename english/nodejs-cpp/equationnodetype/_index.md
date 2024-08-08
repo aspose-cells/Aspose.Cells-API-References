@@ -13,14 +13,15 @@ Equation node type. Notice: (1)[1-99] Currently there is only one node in the sc
 | --- | --- | --- |
 | UnKnow | `0` | UnKnow |
 | Text | `1` | specifies a node that stores math text |
-| Base | `100` | Specifies a component of type 'Base' |
-| Denominator | `101` | Specifies a component of type 'Denominator' |
-| Numerator | `102` | Specifies a component of type 'Numerator' |
-| FunctionName | `103` | Specifies a component of type 'FunctionName' |
-| Subscript | `104` | Specifies a component of type 'Subscript' |
-| Superscript | `105` | Specifies a component of type 'Superscript' |
-| Degree | `106` | Specifies a component of type 'Degree' |
-| MatrixRow | `107` | Specifies a component of type 'MatrixRow'.A single row of the matrix |
+| Base | `100` | Specifies a Base component |
+| Denominator | `101` | Specifies a Denominator component |
+| Numerator | `102` | Specifies a Numerator component |
+| FunctionName | `103` | Specifies a FunctionName component |
+| Subscript | `104` | Specifies a Subscript component |
+| Superscript | `105` | Specifies a Superscript component |
+| Degree | `106` | Specifies a Degree component |
+| MatrixRow | `107` | Specifies a MatrixRow component.A single row of the matrix |
+| Limit | `108` | If the parent object is limLow,the object of this type specifies the lower limit of the limLow function; if the parent objectis limUpp, the object of this type specifies the Upper-Limit function, consisting of text on the baseline and reduced-size text just above the baseline. |
 | EquationParagraph | `200` | Specifies a mathematical paragraph(oMathPara). |
 | MathematicalEquation | `201` | Specifies an equation or mathematical expression(OMath). |
 | FractionEquation | `202` | Specifies fractional equation |
@@ -38,4 +39,6 @@ Equation node type. Notice: (1)[1-99] Currently there is only one node in the sc
 | BoxEquation | `214` | Specifies box equation |
 | GroupCharacterEquation | `215` | Specifies Group-Character equation |
 | MatrixEquation | `216` | Specifies the Matrix equation, |
+| LowerLimit | `217` | Specifies the Lower-Limit function |
+| UpperLimit | `218` | Specifies the Upper-Limit function |
 

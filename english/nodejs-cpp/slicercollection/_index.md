@@ -22,6 +22,7 @@ class SlicerCollection;
 | [get(number)](#get-number-)| Gets the Slicer by index. |
 | [remove(Slicer)](#remove-slicer-)| Remove the specified Slicer |
 | [removeAt(number)](#removeAt-number-)| Deletes the Slicer at the specified index |
+| [clear()](#clear--)| Clear all Slicers. |
 | [add(PivotTable, string, string)](#add-pivottable-string-string-)| Add a new Slicer using PivotTable as data source |
 | [add(PivotTable, number, number, string)](#add-pivottable-number-number-string-)| Add a new Slicer using PivotTable as data source |
 | [add(PivotTable, number, number, number)](#add-pivottable-number-number-number-)| Add a new Slicer using PivotTable as data source |
@@ -76,6 +77,15 @@ removeAt(index: number) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | number | The position index in Slicer collection |
+
+### clear() {#clear--}
+
+Clear all Slicers.
+
+```javascript
+clear() : void;
+```
+
 
 ### add(PivotTable, string, string) {#add-pivottable-string-string-}
 

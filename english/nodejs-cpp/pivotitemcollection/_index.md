@@ -1,14 +1,14 @@
 ﻿---
 title: PivotItemCollection
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents a collection of all the PivotItem objects in the PivotFields
+description: Represents all the PivotItem..pivotitem objects in the PivotField.
 type: docs
 url: /nodejs-cpp/pivotitemcollection/
 ---
 
 ## PivotItemCollection class
 
-Represents a collection of all the PivotItem objects in the PivotField's
+Represents all the [PivotItem](../pivotitem/) objects in the PivotField.
 
 ```javascript
 class PivotItemCollection;
@@ -22,7 +22,7 @@ class PivotItemCollection;
 | [get(number)](#get-number-)| Gets the PivotItem Object at the specific index. |
 | [getCount()](#getCount--)| Gets the count of the pivot items. |
 | [getEnumerator()](#getEnumerator--)| Gets an enumerator over the elements in this collection in proper sequence. |
-| [changeitemsOrder(number, number)](#changeitemsOrder-number-number-)| Directly changes the orders of the two items. |
+| [swapItem(number, number)](#swapItem-number-number-)| Directly swap two items. |
 
 
 ### get(number) {#get-number-}
@@ -64,18 +64,18 @@ getEnumerator() : PivotItemEnumerator;
 
 enumerator
 
-### changeitemsOrder(number, number) {#changeitemsOrder-number-number-}
+### swapItem(number, number) {#swapItem-number-number-}
 
-Directly changes the orders of the two items.
+Directly swap two items.
 
 ```javascript
-changeitemsOrder(sourceIndex: number, destIndex: number) : void;
+swapItem(index1: number, index2: number) : void;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sourceIndex | number | The current index |
-| destIndex | number | The dest index |
+| index1 | number |  |
+| index2 | number |  |
 
 

@@ -49,6 +49,8 @@ class ImageSaveOptions extends SaveOptions;
 | [getWarningCallback()](#getWarningCallback--)| Gets or sets warning callback. |
 | [getUpdateSmartArt()](#getUpdateSmartArt--)| Indicates whether updating smart art setting. The default value is false. |
 | [setUpdateSmartArt(boolean)](#setUpdateSmartArt-boolean-)| Indicates whether updating smart art setting. The default value is false. |
+| [getEncryptDocumentProperties()](#getEncryptDocumentProperties--)| Indicates whether encrypt document properties when saving as .xls file. The default value is true. |
+| [setEncryptDocumentProperties(boolean)](#setEncryptDocumentProperties-boolean-)| Indicates whether encrypt document properties when saving as .xls file. The default value is true. |
 
 
 ### constructor() {#constructor--}
@@ -375,5 +377,35 @@ setUpdateSmartArt(value: boolean) : void;
 **Remarks**
 
 Only effects after calling Shape.GetResultOfSmartArt() method and the cached shapes exist in the template file.
+
+### getEncryptDocumentProperties() {#getEncryptDocumentProperties--}
+
+Indicates whether encrypt document properties when saving as .xls file. The default value is true.
+
+```javascript
+getEncryptDocumentProperties() : boolean;
+```
+
+
+**Remarks**
+
+Only for .xls,xlsx,xlsb and xlsm file.
+
+### setEncryptDocumentProperties(boolean) {#setEncryptDocumentProperties-boolean-}
+
+Indicates whether encrypt document properties when saving as .xls file. The default value is true.
+
+```javascript
+setEncryptDocumentProperties(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+**Remarks**
+
+Only for .xls,xlsx,xlsb and xlsm file.
 
 

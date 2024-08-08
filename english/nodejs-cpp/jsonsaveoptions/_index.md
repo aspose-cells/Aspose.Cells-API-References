@@ -32,6 +32,8 @@ class JsonSaveOptions extends SaveOptions;
 | [setSkipEmptyRows(boolean)](#setSkipEmptyRows-boolean-)| Indicates whether skipping emtpy rows. |
 | [getSheetIndexes()](#getSheetIndexes--)| Represents the indexes of exported sheets. |
 | [setSheetIndexes(number[])](#setSheetIndexes-numberarray-)| Represents the indexes of exported sheets. |
+| [getSchemas()](#getSchemas--)| The original json schema of each worksheet. |
+| [setSchemas(string[])](#setSchemas-stringarray-)| The original json schema of each worksheet. |
 | [getExportArea()](#getExportArea--)| Gets or sets the exporting range. |
 | [setExportArea(CellArea)](#setExportArea-cellarea-)| Gets or sets the exporting range. |
 | [getHasHeaderRow()](#getHasHeaderRow--)| Indicates whether the range contains header row. |
@@ -69,6 +71,8 @@ class JsonSaveOptions extends SaveOptions;
 | [getWarningCallback()](#getWarningCallback--)| Gets or sets warning callback. |
 | [getUpdateSmartArt()](#getUpdateSmartArt--)| Indicates whether updating smart art setting. The default value is false. |
 | [setUpdateSmartArt(boolean)](#setUpdateSmartArt-boolean-)| Indicates whether updating smart art setting. The default value is false. |
+| [getEncryptDocumentProperties()](#getEncryptDocumentProperties--)| Indicates whether encrypt document properties when saving as .xls file. The default value is true. |
+| [setEncryptDocumentProperties(boolean)](#setEncryptDocumentProperties-boolean-)| Indicates whether encrypt document properties when saving as .xls file. The default value is true. |
 
 
 ### constructor() {#constructor--}
@@ -174,6 +178,32 @@ setSheetIndexes(value: number[]) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | number[] | The value to set. |
+
+### getSchemas() {#getSchemas--}
+
+The original json schema of each worksheet.
+
+```javascript
+getSchemas() : string[];
+```
+
+
+**Returns**
+
+string[]
+
+### setSchemas(string[]) {#setSchemas-stringarray-}
+
+The original json schema of each worksheet.
+
+```javascript
+setSchemas(value: string[]) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | string[] | The value to set. |
 
 ### getExportArea() {#getExportArea--}
 
@@ -639,5 +669,35 @@ setUpdateSmartArt(value: boolean) : void;
 **Remarks**
 
 Only effects after calling Shape.GetResultOfSmartArt() method and the cached shapes exist in the template file.
+
+### getEncryptDocumentProperties() {#getEncryptDocumentProperties--}
+
+Indicates whether encrypt document properties when saving as .xls file. The default value is true.
+
+```javascript
+getEncryptDocumentProperties() : boolean;
+```
+
+
+**Remarks**
+
+Only for .xls,xlsx,xlsb and xlsm file.
+
+### setEncryptDocumentProperties(boolean) {#setEncryptDocumentProperties-boolean-}
+
+Indicates whether encrypt document properties when saving as .xls file. The default value is true.
+
+```javascript
+setEncryptDocumentProperties(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+**Remarks**
+
+Only for .xls,xlsx,xlsb and xlsm file.
 
 

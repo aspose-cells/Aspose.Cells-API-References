@@ -1,14 +1,14 @@
 ﻿---
 title: ConversionUtility
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents converting files other formats.
+description: Represents utility to convert files to other formats.
 type: docs
 url: /nodejs-cpp/conversionutility/
 ---
 
 ## ConversionUtility class
 
-Represents converting files other formats.
+Represents utility to convert files to other formats.
 
 ```javascript
 class ConversionUtility;

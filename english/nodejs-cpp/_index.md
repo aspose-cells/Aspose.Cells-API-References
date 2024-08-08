@@ -88,7 +88,7 @@ is_root: true
 | [ConnectionParameterCollection](./connectionparametercollection) | Specifies the [ConnectionParameter](../connectionparameter/) collection |
 | [ContentTypeProperty](./contenttypeproperty) | Represents identifier information. |
 | [ContentTypePropertyCollection](./contenttypepropertycollection) | A collection of [ContentTypeProperty](../contenttypeproperty/) objects that represent additional information. |
-| [ConversionUtility](./conversionutility) | Represents converting files other formats. |
+| [ConversionUtility](./conversionutility) | Represents utility to convert files to other formats. |
 | [CopyOptions](./copyoptions) | Represents the copy options. |
 | [CustomDocumentPropertyCollection](./customdocumentpropertycollection) | A collection of custom document properties. |
 | [CustomFilter](./customfilter) | Represents the custom filter. |
@@ -232,6 +232,7 @@ is_root: true
 | [NegativeBarFormat](./negativebarformat) | Represents the color settings of the data bars for negative values that are defined by a data bar conditional formatting rule. |
 | [NoneBulletValue](./nonebulletvalue) | Represents no bullet. |
 | [NoneFill](./nonefill) | Represents no fill. |
+| [Numbers35SaveOptions](./numbers35saveoptions) | Represents the options for saving ebook file. |
 | [NumbersLoadOptions](./numbersloadoptions) | Represents the options of loading Apple Numbers files. |
 | [OdsCellField](./odscellfield) | Represents the cell field of ods. |
 | [OdsCellFieldCollection](./odscellfieldcollection) | Represents the fields of ODS. |
@@ -266,13 +267,14 @@ is_root: true
 | [PivotField](./pivotfield) | Represents a field in a PivotTable report. |
 | [PivotFieldCollection](./pivotfieldcollection) | Represents a collection of all the PivotField objects in the PivotTable's specific PivotFields type. |
 | [PivotFieldGroupSettings](./pivotfieldgroupsettings) | Represents the group setting of pivot field. |
+| [PivotFieldSortSetting](./pivotfieldsortsetting) | Represents the setting of sorting pivot fields. |
 | [PivotFilter](./pivotfilter) | Represents a PivotFilter in PivotFilter Collection. |
 | [PivotFilterCollection](./pivotfiltercollection) | Represents a collection of all the PivotFilter objects |
 | [PivotFormatCondition](./pivotformatcondition) | Represents a PivotTable Format Condition in PivotFormatCondition Collection. |
 | [PivotFormatConditionCollection](./pivotformatconditioncollection) | Represents PivotTable Format Conditions. |
 | [PivotGlobalizationSettings](./pivotglobalizationsettings) | Represents the globalization settings for pivot tables. |
 | [PivotItem](./pivotitem) | Represents a item in a PivotField report. |
-| [PivotItemCollection](./pivotitemcollection) | Represents a collection of all the PivotItem objects in the PivotField's |
+| [PivotItemCollection](./pivotitemcollection) | Represents all the [PivotItem](../pivotitem/) objects in the PivotField. |
 | [PivotNumbericRangeGroupSettings](./pivotnumbericrangegroupsettings) | Represents the numberic range group of the pivot field. |
 | [PivotOptions](./pivotoptions) | Represents a complex type that specifies the pivot controls that appear on the chart |
 | [PivotPageFields](./pivotpagefields) | Represents the pivot page field items if the pivot table data source is consolidation ranges. It only can contain up to 4 fields. |
@@ -612,6 +614,7 @@ is_root: true
 | [MapChartProjectionType](./mapchartprojectiontype) | Represents projection type of the map chart. |
 | [MapChartRegionType](./mapchartregiontype) | Represents the region type of the map chart. |
 | [MemorySetting](./memorysetting) | Memory usage options. |
+| [MergedCellsShrinkType](./mergedcellsshrinktype) | Represents the strategy to shrink merged cells for operations such as deleting blank rows/column. |
 | [MergeEmptyTdType](./mergeemptytdtype) | Represents the merge type for empty TD element when exporting file to html. |
 | [MetadataType](./metadatatype) | Represents the type of metadata. |
 | [MirrorType](./mirrortype) | Represents mirror type of texture fill |
@@ -658,9 +661,11 @@ is_root: true
 | [PivotGroupByType](./pivotgroupbytype) | Represents group by type. |
 | [PivotItemPosition](./pivotitemposition) | Represents base item Next/Previous/All position in the base field . |
 | [PivotItemPositionType](./pivotitempositiontype) | Represents the position type of the pivot base item in the base field when the ShowDataAs calculation is in use. |
+| [PivotLineType](./pivotlinetype) | Specifies the type of the PivotLine. |
 | [PivotMissingItemLimitType](./pivotmissingitemlimittype) | Represents number of items to retain per field. |
 | [PivotTableAutoFormatType](./pivottableautoformattype) | Represents PivotTable auto format type. |
 | [PivotTableSelectionType](./pivottableselectiontype) | Specifies what can be selected in a PivotTable during a structured selection. These constants can be combined to select multiple types. |
+| [PivotTableSourceType](./pivottablesourcetype) | Represents data source type of the pivot table. |
 | [PivotTableStyleType](./pivottablestyletype) | Represents the pivot table style type. |
 | [PlacementType](./placementtype) | Represents the way the drawing object is attached to the cells below it. |
 | [PlotDataByType](./plotdatabytype) | Represents the type of data plot by row or column. |

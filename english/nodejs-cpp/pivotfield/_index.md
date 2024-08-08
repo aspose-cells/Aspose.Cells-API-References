@@ -57,6 +57,7 @@ class PivotField;
 | [setIsAutoSort(boolean)](#setIsAutoSort-boolean-)| Indicates whether the specified PivotTable field is automatically sorted. |
 | [isAscendSort()](#isAscendSort--)| Indicates whether the specified PivotTable field is autosorted ascending. |
 | [setIsAscendSort(boolean)](#setIsAscendSort-boolean-)| Indicates whether the specified PivotTable field is autosorted ascending. |
+| [getSortSetting()](#getSortSetting--)| Gets all settings of auto sorting |
 | [getAutoSortField()](#getAutoSortField--)| Represents the index of field which is auto sorted. -1 means PivotField itself,others means the position of the data fields. |
 | [setAutoSortField(number)](#setAutoSortField-number-)| Represents the index of field which is auto sorted. -1 means PivotField itself,others means the position of the data fields. |
 | [isAutoShow()](#isAutoShow--)| Indicates whether the specified PivotTable field is automatically shown,only valid for excel 2003. |
@@ -70,14 +71,6 @@ class PivotField;
 | [getFunction()](#getFunction--)| Represents the function used to summarize the PivotTable data field. |
 | [setFunction(ConsolidationFunction)](#setFunction-consolidationfunction-)| Represents the function used to summarize the PivotTable data field. |
 | [getShowValuesSetting()](#getShowValuesSetting--)| Gets the settings of showing values as when the ShowDataAs calculation is in use. |
-| [getDataDisplayFormat()](#getDataDisplayFormat--)| Represents how to display the values in a data field of the pivot report. |
-| [setDataDisplayFormat(PivotFieldDataDisplayFormat)](#setDataDisplayFormat-pivotfielddatadisplayformat-)| Represents how to display the values in a data field of the pivot report. |
-| [getBaseFieldIndex()](#getBaseFieldIndex--)| Represents the base field for a custom calculation when the ShowDataAs calculation is in use. |
-| [setBaseFieldIndex(number)](#setBaseFieldIndex-number-)| Represents the base field for a custom calculation when the ShowDataAs calculation is in use. |
-| [getBaseItemPosition()](#getBaseItemPosition--)| Represents the item in the base field for a custom calculation when the ShowDataAs calculation is in use. Valid only for data fields. Because PivotItemPosition.Custom is only for read,if you need to set PivotItemPosition.Custom, please set PivotField.BaseItemIndex attribute. |
-| [setBaseItemPosition(PivotItemPosition)](#setBaseItemPosition-pivotitemposition-)| Represents the item in the base field for a custom calculation when the ShowDataAs calculation is in use. Valid only for data fields. Because PivotItemPosition.Custom is only for read,if you need to set PivotItemPosition.Custom, please set PivotField.BaseItemIndex attribute. |
-| [getBaseItemIndex()](#getBaseItemIndex--)| Represents the item in the base field for a custom calculation when the ShowDataAs calculation is in use. Valid only for data fields. |
-| [setBaseItemIndex(number)](#setBaseItemIndex-number-)| Represents the item in the base field for a custom calculation when the ShowDataAs calculation is in use. Valid only for data fields. |
 | [getCurrentPageItem()](#getCurrentPageItem--)| Represents the current page item showing for the page field (valid only for page fields). |
 | [setCurrentPageItem(number)](#setCurrentPageItem-number-)| Represents the current page item showing for the page field (valid only for page fields). |
 | [getNumber()](#getNumber--)| Represents the built-in display format of numbers and dates. |
@@ -106,6 +99,8 @@ class PivotField;
 | [getCalculatedFieldFormula()](#getCalculatedFieldFormula--)| Get the formula string of the specified calculated field . |
 | [setSubtotals(PivotFieldSubtotalType, boolean)](#setSubtotals-pivotfieldsubtotaltype-boolean-)| Sets whether the specified field shows that subtotals. |
 | [getSubtotals(PivotFieldSubtotalType)](#getSubtotals-pivotfieldsubtotaltype-)| Indicates whether showing specified subtotal. |
+| [sortBy(SortOrder, number)](#sortBy-sortorder-number-)| Sorts this pivot field. |
+| [sortBy(SortOrder, number, PivotLineType, string)](#sortBy-sortorder-number-pivotlinetype-string-)| Sorts this pivot field. |
 | [showValuesAs(PivotFieldDataDisplayFormat, number, PivotItemPositionType, number)](#showValuesAs-pivotfielddatadisplayformat-number-pivotitempositiontype-number-)| Shows values of data field as different display format when the ShowDataAs calculation is in use. |
 | [isHiddenItem(number)](#isHiddenItem-number-)| Gets whether the specific PivotItem is hidden. |
 | [hideItem(number, boolean)](#hideItem-number-boolean-)| Sets whether the specific PivotItem in a data field is hidden. |
@@ -538,6 +533,19 @@ setIsAscendSort(value: boolean) : void;
 | --- | --- | --- |
 | value | boolean | The value to set. |
 
+### getSortSetting() {#getSortSetting--}
+
+Gets all settings of auto sorting
+
+```javascript
+getSortSetting() : PivotFieldSortSetting;
+```
+
+
+**Returns**
+
+[PivotFieldSortSetting](../pivotfieldsortsetting/)
+
 ### getAutoSortField() {#getAutoSortField--}
 
 Represents the index of field which is auto sorted. -1 means PivotField itself,others means the position of the data fields.
@@ -686,134 +694,6 @@ getShowValuesSetting() : PivotShowValuesSetting;
 **Returns**
 
 [PivotShowValuesSetting](../pivotshowvaluessetting/)
-
-### getDataDisplayFormat() {#getDataDisplayFormat--}
-
-Represents how to display the values in a data field of the pivot report.
-
-```javascript
-getDataDisplayFormat() : PivotFieldDataDisplayFormat;
-```
-
-
-**Returns**
-
-[PivotFieldDataDisplayFormat](../pivotfielddatadisplayformat/)
-
-**Remarks**
-
-NOTE: This property is now obsolete. Instead, please use PivotField.PivotShowValuesSetting.CalculationType property instead. This method will be removed 12 months later since June 2024. Aspose apologizes for any inconvenience you may have experienced.
-
-### setDataDisplayFormat(PivotFieldDataDisplayFormat) {#setDataDisplayFormat-pivotfielddatadisplayformat-}
-
-Represents how to display the values in a data field of the pivot report.
-
-```javascript
-setDataDisplayFormat(value: PivotFieldDataDisplayFormat) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [PivotFieldDataDisplayFormat](../pivotfielddatadisplayformat/) | The value to set. |
-
-**Remarks**
-
-NOTE: This property is now obsolete. Instead, please use PivotField.PivotShowValuesSetting.CalculationType property instead. This method will be removed 12 months later since June 2024. Aspose apologizes for any inconvenience you may have experienced.
-
-### getBaseFieldIndex() {#getBaseFieldIndex--}
-
-Represents the base field for a custom calculation when the ShowDataAs calculation is in use.
-
-```javascript
-getBaseFieldIndex() : number;
-```
-
-
-**Remarks**
-
-NOTE: This property is now obsolete. Instead, please use PivotField.PivotShowValuesSetting.BaseFieldIndex property instead. This method will be removed 12 months later since June 2024. Aspose apologizes for any inconvenience you may have experienced.
-
-### setBaseFieldIndex(number) {#setBaseFieldIndex-number-}
-
-Represents the base field for a custom calculation when the ShowDataAs calculation is in use.
-
-```javascript
-setBaseFieldIndex(value: number) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | number | The value to set. |
-
-**Remarks**
-
-NOTE: This property is now obsolete. Instead, please use PivotField.PivotShowValuesSetting.BaseFieldIndex property instead. This method will be removed 12 months later since June 2024. Aspose apologizes for any inconvenience you may have experienced.
-
-### getBaseItemPosition() {#getBaseItemPosition--}
-
-Represents the item in the base field for a custom calculation when the ShowDataAs calculation is in use. Valid only for data fields. Because PivotItemPosition.Custom is only for read,if you need to set PivotItemPosition.Custom, please set PivotField.BaseItemIndex attribute.
-
-```javascript
-getBaseItemPosition() : PivotItemPosition;
-```
-
-
-**Returns**
-
-[PivotItemPosition](../pivotitemposition/)
-
-**Remarks**
-
-NOTE: This property is now obsolete. Instead, please use PivotField.PivotShowValuesSetting.BaseItemType property instead. This method will be removed 12 months later since June 2024. Aspose apologizes for any inconvenience you may have experienced.
-
-### setBaseItemPosition(PivotItemPosition) {#setBaseItemPosition-pivotitemposition-}
-
-Represents the item in the base field for a custom calculation when the ShowDataAs calculation is in use. Valid only for data fields. Because PivotItemPosition.Custom is only for read,if you need to set PivotItemPosition.Custom, please set PivotField.BaseItemIndex attribute.
-
-```javascript
-setBaseItemPosition(value: PivotItemPosition) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [PivotItemPosition](../pivotitemposition/) | The value to set. |
-
-**Remarks**
-
-NOTE: This property is now obsolete. Instead, please use PivotField.PivotShowValuesSetting.BaseItemType property instead. This method will be removed 12 months later since June 2024. Aspose apologizes for any inconvenience you may have experienced.
-
-### getBaseItemIndex() {#getBaseItemIndex--}
-
-Represents the item in the base field for a custom calculation when the ShowDataAs calculation is in use. Valid only for data fields.
-
-```javascript
-getBaseItemIndex() : number;
-```
-
-
-**Remarks**
-
-NOTE: This property is now obsolete. Instead, please use PivotField.PivotShowValuesSetting.BaseItemIndex property instead. This method will be removed 12 months later since June 2024. Aspose apologizes for any inconvenience you may have experienced.
-
-### setBaseItemIndex(number) {#setBaseItemIndex-number-}
-
-Represents the item in the base field for a custom calculation when the ShowDataAs calculation is in use. Valid only for data fields.
-
-```javascript
-setBaseItemIndex(value: number) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | number | The value to set. |
-
-**Remarks**
-
-NOTE: This property is now obsolete. Instead, please use PivotField.PivotShowValuesSetting.BaseItemIndex property instead. This method will be removed 12 months later since June 2024. Aspose apologizes for any inconvenience you may have experienced.
 
 ### getCurrentPageItem() {#getCurrentPageItem--}
 
@@ -1160,6 +1040,36 @@ getSubtotals(subtotalType: PivotFieldSubtotalType) : boolean;
 **Returns**
 
 Returns whether showing specified subtotal.
+
+### sortBy(SortOrder, number) {#sortBy-sortorder-number-}
+
+Sorts this pivot field.
+
+```javascript
+sortBy(sortType: SortOrder, fieldSortedBy: number) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sortType | [SortOrder](../sortorder/) | The type of sorting this field. |
+| fieldSortedBy | number | The index of pivot field sorted by.         /// -1 means sorting by data labels of this field, others mean the index of data field sorted by. |
+
+### sortBy(SortOrder, number, PivotLineType, string) {#sortBy-sortorder-number-pivotlinetype-string-}
+
+Sorts this pivot field.
+
+```javascript
+sortBy(sortType: SortOrder, fieldSortedBy: number, dataType: PivotLineType, cellName: string) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sortType | [SortOrder](../sortorder/) | The type of sorting this field. |
+| fieldSortedBy | number | The index of pivot field sorted by.         /// -1 means sorting by data labels of this field, others mean the index of data field sorted by. |
+| dataType | [PivotLineType](../pivotlinetype/) | The type of data sorted by. |
+| cellName | string | Sort by values in the row or column |
 
 ### showValuesAs(PivotFieldDataDisplayFormat, number, PivotItemPositionType, number) {#showValuesAs-pivotfielddatadisplayformat-number-pivotitempositiontype-number-}
 
