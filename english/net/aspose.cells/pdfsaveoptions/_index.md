@@ -41,6 +41,7 @@ public class PdfSaveOptions : PaginatedSaveOptions
 | [EmbedAttachments](../../aspose.cells/pdfsaveoptions/embedattachments/) { get; set; } | Indicates whether to embed attachment for Ole objects in Excel. |
 | [EmbedStandardWindowsFonts](../../aspose.cells/pdfsaveoptions/embedstandardwindowsfonts/) { get; set; } | True to embed true type fonts. Affects only ASCII characters 32-127. Fonts for character codes greater than 127 are always embedded. Fonts are always embedded for PDF/A-1a, PDF/A-1b standard. Default is true. |
 | [EmfRenderSetting](../../aspose.cells/paginatedsaveoptions/emfrendersetting/) { get; set; } | Setting for rendering Emf metafile.(Inherited from [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |
+| [EncryptDocumentProperties](../../aspose.cells/saveoptions/encryptdocumentproperties/) { get; set; } | Indicates whether encrypt document properties when saving as .xls file. The default value is true.(Inherited from [`SaveOptions`](../saveoptions/).) |
 | [ExportDocumentStructure](../../aspose.cells/pdfsaveoptions/exportdocumentstructure/) { get; set; } | Indicates whether to export document structure. |
 | [FontEncoding](../../aspose.cells/pdfsaveoptions/fontencoding/) { get; set; } | Gets or sets embedded font encoding in pdf. |
 | [GridlineType](../../aspose.cells/paginatedsaveoptions/gridlinetype/) { get; set; } | Gets or sets gridline type.(Inherited from [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |

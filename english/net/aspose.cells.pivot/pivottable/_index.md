@@ -17,8 +17,8 @@ public class PivotTable : IDisposable
 
 | Name | Description |
 | --- | --- |
-| [AltTextDescription](../../aspose.cells.pivot/pivottable/alttextdescription/) { get; set; } | Gets the description of the alt text |
-| [AltTextTitle](../../aspose.cells.pivot/pivottable/alttexttitle/) { get; set; } | Gets the title of the altertext |
+| [AltTextDescription](../../aspose.cells.pivot/pivottable/alttextdescription/) { get; set; } | Gets the description of the alt text. |
+| [AltTextTitle](../../aspose.cells.pivot/pivottable/alttexttitle/) { get; set; } | Gets and sets the title of the alter text. |
 | [AutofitColumnWidthOnUpdate](../../aspose.cells.pivot/pivottable/autofitcolumnwidthonupdate/) { get; set; } | Indicates whether autofitting column width on update |
 | [AutoFormatType](../../aspose.cells.pivot/pivottable/autoformattype/) { get; set; } | Gets and sets the auto format type of PivotTable. |
 | [BaseFields](../../aspose.cells.pivot/pivottable/basefields/) { get; } | Returns all base pivot fields in the PivotTable. |
@@ -57,7 +57,7 @@ public class PivotTable : IDisposable
 | [MissingItemsLimit](../../aspose.cells.pivot/pivottable/missingitemslimit/) { get; set; } | Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them. |
 | [Name](../../aspose.cells.pivot/pivottable/name/) { get; set; } | Gets the name of the PivotTable |
 | [NullString](../../aspose.cells.pivot/pivottable/nullstring/) { get; set; } | Gets the string displayed in cells that contain null values when the DisplayNullString property is true.The default value is an empty string. |
-| [PageFieldOrder](../../aspose.cells.pivot/pivottable/pagefieldorder/) { get; set; } | Gets the order in which page fields are added to the PivotTable report's layout. |
+| [PageFieldOrder](../../aspose.cells.pivot/pivottable/pagefieldorder/) { get; set; } | Gets and sets the order in which page fields are added to the PivotTable report's layout. |
 | [PageFields](../../aspose.cells.pivot/pivottable/pagefields/) { get; } | Returns a PivotFields object that are currently shown as page fields. |
 | [PageFieldWrapCount](../../aspose.cells.pivot/pivottable/pagefieldwrapcount/) { get; set; } | Gets the number of page fields in each column or row in the PivotTable report. |
 | [PivotFilters](../../aspose.cells.pivot/pivottable/pivotfilters/) { get; } | Returns a list of pivot filters. |
@@ -89,6 +89,7 @@ public class PivotTable : IDisposable
 | [ShowPivotStyleRowStripes](../../aspose.cells.pivot/pivottable/showpivotstylerowstripes/) { get; set; } | Indicates whether row stripe formatting is applied. |
 | [ShowRowHeaderCaption](../../aspose.cells.pivot/pivottable/showrowheadercaption/) { get; set; } | Indicates whether row header caption is shown in the PivotTable report Indicates whether Display field captions and filter drop downs |
 | [ShowValuesRow](../../aspose.cells.pivot/pivottable/showvaluesrow/) { get; set; } | Specifies a boolean value that indicates whether show values row. show the values row |
+| [SourceType](../../aspose.cells.pivot/pivottable/sourcetype/) { get; } | Gets the data source type of the pivot table. |
 | [SubtotalHiddenPageItems](../../aspose.cells.pivot/pivottable/subtotalhiddenpageitems/) { get; set; } | Indicates whether hidden page field items in the PivotTable report are included in row and column subtotals, block totals, and grand totals. The default value is False. |
 | [TableRange1](../../aspose.cells.pivot/pivottable/tablerange1/) { get; } | Returns a CellArea object that represents the range containing the entire PivotTable report, but doesn't include page fields. Read-only. |
 | [TableRange2](../../aspose.cells.pivot/pivottable/tablerange2/) { get; } | Returns a CellArea object that represents the range containing the entire PivotTable report, includes page fields. Read-only. |

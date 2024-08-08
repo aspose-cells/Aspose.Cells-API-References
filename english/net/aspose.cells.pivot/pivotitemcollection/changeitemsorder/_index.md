@@ -10,6 +10,8 @@ url: /net/aspose.cells.pivot/pivotitemcollection/changeitemsorder/
 Directly changes the orders of the two items.
 
 ```csharp
+[Obsolete("Use PivotItemCollection.SwapItem() method instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public void ChangeitemsOrder(int sourceIndex, int destIndex)
 ```
 
@@ -17,6 +19,10 @@ public void ChangeitemsOrder(int sourceIndex, int destIndex)
 | --- | --- | --- |
 | sourceIndex | Int32 | The current index |
 | destIndex | Int32 | The dest index |
+
+### Remarks
+
+NOTE: This method is now obsolete. Instead, please use PivotItemCollection.SwapItem() method. This method will be removed 12 months later since July 2024. Aspose apologizes for any inconvenience you may have experienced.
 
 ### See Also
 

@@ -27,7 +27,7 @@ User should not modify any part of the Workbook directly in this implementation(
 
 ```csharp
 [C#]
-public class MyEngine : GridAbstractCalculationEngine
+ class MyEngine : GridAbstractCalculationEngine
 {
     public override void Calculate(GridCalculationData data)
     {

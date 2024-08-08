@@ -60,6 +60,7 @@ public class PivotField
 | [ShowInOutlineForm](../../aspose.cells.pivot/pivotfield/showinoutlineform/) { get; set; } | Indicates whether layout this field in outline form on the Pivot Table view |
 | [ShowSubtotalAtTop](../../aspose.cells.pivot/pivotfield/showsubtotalattop/) { get; set; } | when ShowInOutlineForm is true, then display subtotals at the top of the list of items instead of at the bottom |
 | [ShowValuesSetting](../../aspose.cells.pivot/pivotfield/showvaluessetting/) { get; } | Gets the settings of showing values as when the ShowDataAs calculation is in use. |
+| [SortSetting](../../aspose.cells.pivot/pivotfield/sortsetting/) { get; } | Gets all settings of auto sorting |
 
 ## Methods
 
@@ -84,6 +85,8 @@ public class PivotField
 | [IsHiddenItemDetail](../../aspose.cells.pivot/pivotfield/ishiddenitemdetail/)(int) | Gets whether hidding the detail of the specific PivotItem.. |
 | [SetSubtotals](../../aspose.cells.pivot/pivotfield/setsubtotals/)(PivotFieldSubtotalType, bool) | Sets whether the specified field shows that subtotals. |
 | [ShowValuesAs](../../aspose.cells.pivot/pivotfield/showvaluesas/)(PivotFieldDataDisplayFormat, int, PivotItemPositionType, int) | Shows values of data field as different display format when the ShowDataAs calculation is in use. |
+| [SortBy](../../aspose.cells.pivot/pivotfield/sortby/#sortby)(SortOrder, int) | Sorts this pivot field. |
+| [SortBy](../../aspose.cells.pivot/pivotfield/sortby/#sortby_1)(SortOrder, int, PivotLineType, string) | Sorts this pivot field. |
 | [Ungroup](../../aspose.cells.pivot/pivotfield/ungroup/)() | Ungroup the pivot field. |
 
 ### Examples

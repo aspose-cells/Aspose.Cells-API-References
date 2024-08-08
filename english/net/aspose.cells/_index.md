@@ -261,6 +261,7 @@ The **Aspose.Cells** namespace provides fundamental and base classes for generat
 | [LookAtType](./lookattype/) | Represents look at type. |
 | [LookInType](./lookintype/) | Represents look in type. |
 | [MemorySetting](./memorysetting/) | Memory usage options. |
+| [MergedCellsShrinkType](./mergedcellsshrinktype/) | Represents the strategy to shrink merged cells for operations such as deleting blank rows/column. |
 | [MergeEmptyTdType](./mergeemptytdtype/) | Represents the merge type for empty TD element when exporting file to html. |
 | [NameScopeType](./namescopetype/) | Represents the scope type of defined names. |
 | [NumberCategoryType](./numbercategorytype/) | Represents category type of cell's number formatting. |

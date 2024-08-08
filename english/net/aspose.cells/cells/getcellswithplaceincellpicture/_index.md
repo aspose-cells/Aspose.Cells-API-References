@@ -19,7 +19,7 @@ Enumerator to enumerate all Cell objects that contain embedded picture
 
 ### Remarks
 
-If there is no picture which is set as "Place in Cell" in this worksheet, null will be returned. /&gt;
+If there is no picture which is set as "Place in Cell" in this worksheet, null will be returned.
 
 ### See Also
 

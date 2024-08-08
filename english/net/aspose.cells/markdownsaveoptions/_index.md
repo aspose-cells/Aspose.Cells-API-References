@@ -27,6 +27,7 @@ public class MarkdownSaveOptions : SaveOptions
 | [ClearData](../../aspose.cells/saveoptions/cleardata/) { get; set; } | Make the workbook empty after saving the file.(Inherited from [`SaveOptions`](../saveoptions/).) |
 | [CreateDirectory](../../aspose.cells/saveoptions/createdirectory/) { get; set; } | If true and the directory does not exist, the directory will be automatically created before saving the file.(Inherited from [`SaveOptions`](../saveoptions/).) |
 | [Encoding](../../aspose.cells/markdownsaveoptions/encoding/) { get; set; } | Gets and sets the default encoding. |
+| [EncryptDocumentProperties](../../aspose.cells/saveoptions/encryptdocumentproperties/) { get; set; } | Indicates whether encrypt document properties when saving as .xls file. The default value is true.(Inherited from [`SaveOptions`](../saveoptions/).) |
 | [FormatStrategy](../../aspose.cells/markdownsaveoptions/formatstrategy/) { get; set; } | Gets and sets the format strategy when exporting the cell value as string. |
 | [LightCellsDataProvider](../../aspose.cells/markdownsaveoptions/lightcellsdataprovider/) { get; set; } | The Data provider to provide cells data for saving workbook in light mode. |
 | [LineSeparator](../../aspose.cells/markdownsaveoptions/lineseparator/) { get; set; } | Gets and sets the line separator. |

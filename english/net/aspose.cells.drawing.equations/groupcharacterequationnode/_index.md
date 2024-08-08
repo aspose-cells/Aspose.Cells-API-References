@@ -45,6 +45,8 @@ public class GroupCharacterEquationNode : EquationNode
 | [RemoveChild](../../aspose.cells.drawing.equations/equationnode/removechild/)(EquationNode) | Removes the specified node from the current node's children.(Inherited from [`EquationNode`](../equationnode/).) |
 | [RemoveChild](../../aspose.cells.drawing.equations/equationnode/removechild/)(int) | Removes the node at the specified index from the current node's children.(Inherited from [`EquationNode`](../equationnode/).) |
 | [SetWordArtStyle](../../aspose.cells/fontsetting/setwordartstyle/)(PresetWordArtStyle) | Sets the preset WordArt style.(Inherited from [`FontSetting`](../../aspose.cells/fontsetting/).) |
+| [ToLaTeX](../../aspose.cells.drawing.equations/equationnode/tolatex/)() | Conver this equtation to LaTeX expression.(Inherited from [`EquationNode`](../equationnode/).) |
+| [ToMathML](../../aspose.cells.drawing.equations/equationnode/tomathml/)() | Conver this equtation to MathML expression.(Inherited from [`EquationNode`](../equationnode/).) |
 
 ### See Also
 

@@ -1,13 +1,13 @@
 ---
 title: Class ConversionUtility
 second_title: Aspose.Cells for .NET API Reference
-description: Aspose.Cells.Utility.ConversionUtility class. Represents converting files other formats
+description: Aspose.Cells.Utility.ConversionUtility class. Represents utility to convert files to other formats
 type: docs
 url: /net/aspose.cells.utility/conversionutility/
 ---
 ## ConversionUtility class
 
-Represents converting files other formats.
+Represents utility to convert files to other formats.
 
 ```csharp
 public class ConversionUtility

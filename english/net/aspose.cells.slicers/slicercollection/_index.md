@@ -38,7 +38,7 @@ public class SlicerCollection : CollectionBase<Slicer>
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(Slicer) |  |
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(Slicer, IComparer&lt;Slicer&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(int, int, Slicer, IComparer&lt;Slicer&gt;) |  |
-| [Clear](../../aspose.cells/collectionbase-1/clear/)() |  |
+| [Clear](../../aspose.cells.slicers/slicercollection/clear/#clear)() | Clear all Slicers. (2 methods) |
 | [Contains](../../aspose.cells/collectionbase-1/contains/)(Slicer) |  |
 | [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(Slicer[]) |  |
 | [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(Slicer[], int) |  |

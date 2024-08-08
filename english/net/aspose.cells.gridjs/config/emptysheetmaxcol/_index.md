@@ -1,13 +1,13 @@
 ---
 title: Config.EmptySheetMaxCol
 second_title: Aspose.Cells for .NET API Reference
-description: Config property. Sets/Gets default max column for an empty worksheet. the default value is 15
+description: Config property. Gets/Sets default max column for an empty worksheet. the default value is 15
 type: docs
 url: /net/aspose.cells.gridjs/config/emptysheetmaxcol/
 ---
 ## Config.EmptySheetMaxCol property
 
-Sets/Gets default max column for an empty worksheet. the default value is 15.
+Gets/Sets default max column for an empty worksheet. the default value is 15.
 
 ```csharp
 public static int EmptySheetMaxCol { get; set; }

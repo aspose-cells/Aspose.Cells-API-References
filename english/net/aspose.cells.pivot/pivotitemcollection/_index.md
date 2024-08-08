@@ -1,13 +1,13 @@
 ---
 title: Class PivotItemCollection
 second_title: Aspose.Cells for .NET API Reference
-description: Aspose.Cells.Pivot.PivotItemCollection class. Represents a collection of all the PivotItem objects in the PivotFields
+description: Aspose.Cells.Pivot.PivotItemCollection class. Represents all the PivotItem objects in the PivotField
 type: docs
 url: /net/aspose.cells.pivot/pivotitemcollection/
 ---
 ## PivotItemCollection class
 
-Represents a collection of all the PivotItem objects in the PivotField's
+Represents all the [`PivotItem`](../pivotitem/) objects in the PivotField.
 
 ```csharp
 public class PivotItemCollection : IEnumerable
@@ -24,8 +24,9 @@ public class PivotItemCollection : IEnumerable
 
 | Name | Description |
 | --- | --- |
-| [ChangeitemsOrder](../../aspose.cells.pivot/pivotitemcollection/changeitemsorder/)(int, int) | Directly changes the orders of the two items. |
+| [ChangeitemsOrder](../../aspose.cells.pivot/pivotitemcollection/changeitemsorder/)(int, int) | (**Obsolete.**) Directly changes the orders of the two items. |
 | [GetEnumerator](../../aspose.cells.pivot/pivotitemcollection/getenumerator/)() | Gets an enumerator over the elements in this collection in proper sequence. |
+| [SwapItem](../../aspose.cells.pivot/pivotitemcollection/swapitem/)(int, int) | Directly swap two items. |
 
 ### See Also
 

@@ -20,7 +20,6 @@ The **Aspose.Cells.GridJs** namespace contains all classes of GridJs which provi
 | [GridJsWorkbook](./gridjsworkbook/) | Represents the main entry class for GridJs |
 | [GridReferredArea](./gridreferredarea/) | Represents a referred area by the formula. |
 | [GridWorkbookSettings](./gridworkbooksettings/) | Represents the settings of the workbook. |
-| [PalHelper](./palhelper/) | this class is just for java manual use |
 ## Enumeration
 
 | Enumeration | Description |

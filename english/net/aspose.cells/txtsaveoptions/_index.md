@@ -29,6 +29,7 @@ public class TxtSaveOptions : SaveOptions
 | [ClearData](../../aspose.cells/saveoptions/cleardata/) { get; set; } | Make the workbook empty after saving the file.(Inherited from [`SaveOptions`](../saveoptions/).) |
 | [CreateDirectory](../../aspose.cells/saveoptions/createdirectory/) { get; set; } | If true and the directory does not exist, the directory will be automatically created before saving the file.(Inherited from [`SaveOptions`](../saveoptions/).) |
 | [Encoding](../../aspose.cells/txtsaveoptions/encoding/) { get; set; } | Gets and sets the default encoding. |
+| [EncryptDocumentProperties](../../aspose.cells/saveoptions/encryptdocumentproperties/) { get; set; } | Indicates whether encrypt document properties when saving as .xls file. The default value is true.(Inherited from [`SaveOptions`](../saveoptions/).) |
 | [ExportAllSheets](../../aspose.cells/txtsaveoptions/exportallsheets/) { get; set; } | Indicates whether exporting all sheets to the text file. If it is false, only export the activesheet, just like MS Excel. |
 | [ExportArea](../../aspose.cells/txtsaveoptions/exportarea/) { get; set; } | The range of cells to be exported. |
 | [ExportQuotePrefix](../../aspose.cells/txtsaveoptions/exportquoteprefix/) { get; set; } | Indicates whether the single quote sign should be exported as part of the value of one cell when [`QuotePrefix`](../style/quoteprefix/) is true for it. Default is false. |

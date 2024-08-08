@@ -7,7 +7,7 @@ url: /net/aspose.cells.pivot/pivottable/alttextdescription/
 ---
 ## PivotTable.AltTextDescription property
 
-Gets the description of the alt text
+Gets the description of the alt text.
 
 ```csharp
 public string AltTextDescription { get; set; }

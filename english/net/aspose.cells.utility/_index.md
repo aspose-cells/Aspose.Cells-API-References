@@ -11,7 +11,7 @@ The **Aspose.Cells.Utility** namespace contains utility classes processing JSON 
 
 | Class | Description |
 | --- | --- |
-| [ConversionUtility](./conversionutility/) | Represents converting files other formats. |
+| [ConversionUtility](./conversionutility/) | Represents utility to convert files to other formats. |
 | [ExportRangeToJsonOptions](./exportrangetojsonoptions/) | Indicates the options that exporting range to json. |
 | [JsonLayoutOptions](./jsonlayoutoptions/) | Represents the options of json layout type. |
 | [JsonUtility](./jsonutility/) | Represents the utility class of processing json. |

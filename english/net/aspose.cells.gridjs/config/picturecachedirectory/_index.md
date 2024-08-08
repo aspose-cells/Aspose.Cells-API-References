@@ -1,13 +1,13 @@
 ---
 title: Config.PictureCacheDirectory
 second_title: Aspose.Cells for .NET API Reference
-description: Config property. Sets/Gets the cache directory for pictures.this will take affect when GridJsWorkbook.CacheImp is null the default path will be _piccache inside the FileCacheDirectory
+description: Config property. Gets/Sets the cache directory for pictures.this will take affect when GridJsWorkbook.CacheImp is null the default path will be _piccache inside the FileCacheDirectory
 type: docs
 url: /net/aspose.cells.gridjs/config/picturecachedirectory/
 ---
 ## Config.PictureCacheDirectory property
 
-Sets/Gets the cache directory for pictures.(this will take affect when GridJsWorkbook.CacheImp is null) the default path will be "_piccache" inside the FileCacheDirectory.
+Gets/Sets the cache directory for pictures.(this will take affect when GridJsWorkbook.CacheImp is null) the default path will be "_piccache" inside the FileCacheDirectory.
 
 ```csharp
 public static string PictureCacheDirectory { get; set; }

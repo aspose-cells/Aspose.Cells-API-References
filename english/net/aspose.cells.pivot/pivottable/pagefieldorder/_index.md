@@ -1,13 +1,13 @@
 ---
 title: PivotTable.PageFieldOrder
 second_title: Aspose.Cells for .NET API Reference
-description: PivotTable property. Gets the order in which page fields are added to the PivotTable reports layout
+description: PivotTable property. Gets and sets the order in which page fields are added to the PivotTable reports layout
 type: docs
 url: /net/aspose.cells.pivot/pivottable/pagefieldorder/
 ---
 ## PivotTable.PageFieldOrder property
 
-Gets the order in which page fields are added to the PivotTable report's layout.
+Gets and sets the order in which page fields are added to the PivotTable report's layout.
 
 ```csharp
 public PrintOrderType PageFieldOrder { get; set; }

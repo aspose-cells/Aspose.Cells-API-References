@@ -20,7 +20,7 @@ public enum AutoFitMergedCellsType
 | None | `0` | Ignore merged cells. |
 | FirstLine | `1` | Only expands the height of the first row. |
 | LastLine | `2` | Only expands the height of the last row. |
-| EachLine | `3` | Only expands the height of each row. |
+| EachLine | `3` | Expands the height of each row. |
 
 ### See Also
 

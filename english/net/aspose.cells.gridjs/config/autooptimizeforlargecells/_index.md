@@ -1,13 +1,13 @@
 ---
 title: Config.AutoOptimizeForLargeCells
 second_title: Aspose.Cells for .NET API Reference
-description: Config property. Sets/Gets whether to automatically optimize the load performance for worksheet with large cells ignore some style /borders to reduce the load time the default value is true
+description: Config property. Gets/Sets whether to automatically optimize the load performance for worksheet with large cells ignore some style /borders to reduce the load time the default value is true
 type: docs
 url: /net/aspose.cells.gridjs/config/autooptimizeforlargecells/
 ---
 ## Config.AutoOptimizeForLargeCells property
 
-Sets/Gets whether to automatically optimize the load performance for worksheet with large cells ignore some style /borders to reduce the load time the default value is true.
+Gets/Sets whether to automatically optimize the load performance for worksheet with large cells ignore some style /borders to reduce the load time the default value is true.
 
 ```csharp
 public static bool AutoOptimizeForLargeCells { get; set; }

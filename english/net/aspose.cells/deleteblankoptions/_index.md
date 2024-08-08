@@ -25,6 +25,7 @@ public class DeleteBlankOptions : DeleteOptions
 | --- | --- |
 | [EmptyFormulaValueAsBlank](../../aspose.cells/deleteblankoptions/emptyformulavalueasblank/) { get; set; } | Whether one cell will be taken as blank when it is formula and the calculated result is null or empty string. Default value is false. |
 | [EmptyStringAsBlank](../../aspose.cells/deleteblankoptions/emptystringasblank/) { get; set; } | Whether one cell will be taken as blank when its value is empty string. Default value is true. |
+| [MergedCellsShrinkType](../../aspose.cells/deleteblankoptions/mergedcellsshrinktype/) { get; set; } | Indicates how to process merged cells when deleting blank rows/columns. For KeepHeaderOnly, all cells in it will be taken as blank except the non-blank top-left cell. It is the default value of this property. For None, all cells in it will be taken as non-blank. For ShrinkToFit, all cells outside the content display area will be taken as blank. |
 | [UpdateReference](../../aspose.cells/deleteoptions/updatereference/) { get; set; } | Indicates if update references in other worksheets.(Inherited from [`DeleteOptions`](../deleteoptions/).) |
 
 ### See Also

@@ -24,7 +24,7 @@ public PivotItem this[int index] { get; }
 
 ## PivotItemCollection indexer (2 of 2)
 
-Gets the PivotItem Object of the specific name.
+Gets the [`PivotItem`](../../pivotitem/) by the specific name.
 
 ```csharp
 public PivotItem this[string itemValue] { get; }

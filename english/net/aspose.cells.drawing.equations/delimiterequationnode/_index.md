@@ -23,7 +23,7 @@ public class DelimiterEquationNode : EquationNode
 | [EquationType](../../aspose.cells.drawing.equations/equationnode/equationtype/) { get; } | Get the equation type of the current node(Inherited from [`EquationNode`](../equationnode/).) |
 | [Font](../../aspose.cells/fontsetting/font/) { get; } | Returns the font of this object.(Inherited from [`FontSetting`](../../aspose.cells/fontsetting/).) |
 | [Length](../../aspose.cells/fontsetting/length/) { get; } | Gets the length of the characters.(Inherited from [`FontSetting`](../../aspose.cells/fontsetting/).) |
-| [NaryGrow](../../aspose.cells.drawing.equations/delimiterequationnode/narygrow/) { get; set; } | This property specifies the growth property of the delimiter at the document level. When off, the delimiter will not grow to match the size of its component height. When enabled, the delimiter grows vertically to match its component height. |
+| [NaryGrow](../../aspose.cells.drawing.equations/delimiterequationnode/narygrow/) { get; set; } |  |
 | [ParentNode](../../aspose.cells.drawing.equations/equationnode/parentnode/) { get; set; } | Specifies the parent node of the current node(Inherited from [`EquationNode`](../equationnode/).) |
 | [SeparatorChar](../../aspose.cells.drawing.equations/delimiterequationnode/separatorchar/) { get; set; } | Delimiter separator character. |
 | [StartIndex](../../aspose.cells/fontsetting/startindex/) { get; } | Gets the start index of the characters.(Inherited from [`FontSetting`](../../aspose.cells/fontsetting/).) |
@@ -46,6 +46,8 @@ public class DelimiterEquationNode : EquationNode
 | [RemoveChild](../../aspose.cells.drawing.equations/equationnode/removechild/)(EquationNode) | Removes the specified node from the current node's children.(Inherited from [`EquationNode`](../equationnode/).) |
 | [RemoveChild](../../aspose.cells.drawing.equations/equationnode/removechild/)(int) | Removes the node at the specified index from the current node's children.(Inherited from [`EquationNode`](../equationnode/).) |
 | [SetWordArtStyle](../../aspose.cells/fontsetting/setwordartstyle/)(PresetWordArtStyle) | Sets the preset WordArt style.(Inherited from [`FontSetting`](../../aspose.cells/fontsetting/).) |
+| [ToLaTeX](../../aspose.cells.drawing.equations/equationnode/tolatex/)() | Conver this equtation to LaTeX expression.(Inherited from [`EquationNode`](../equationnode/).) |
+| [ToMathML](../../aspose.cells.drawing.equations/equationnode/tomathml/)() | Conver this equtation to MathML expression.(Inherited from [`EquationNode`](../equationnode/).) |
 
 ### See Also
 
