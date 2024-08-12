@@ -24,6 +24,7 @@ class MarkdownSaveOptions : public Aspose::Cells::SaveOptions
 | [GetClearData()](../saveoptions/getcleardata/) | Make the workbook empty after saving the file. |
 | [GetCreateDirectory()](../saveoptions/getcreatedirectory/) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [GetEncoding()](./getencoding/) | Gets and sets the default encoding. |
+| [GetEncryptDocumentProperties()](../saveoptions/getencryptdocumentproperties/) | Indicates whether encrypt document properties when saving as .xls file. The default value is true. |
 | [GetFormatStrategy()](./getformatstrategy/) | Gets and sets the format strategy when exporting the cell value as string. |
 | [GetLightCellsDataProvider()](./getlightcellsdataprovider/) | The Data provider to provide cells data for saving workbook in light mode. |
 | [GetLineSeparator()](./getlineseparator/) | Gets and sets the line separator. |
@@ -50,6 +51,7 @@ class MarkdownSaveOptions : public Aspose::Cells::SaveOptions
 | [SetClearData(bool value)](../saveoptions/setcleardata/) | Make the workbook empty after saving the file. |
 | [SetCreateDirectory(bool value)](../saveoptions/setcreatedirectory/) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [SetEncoding(EncodingType value)](./setencoding/) | Gets and sets the default encoding. |
+| [SetEncryptDocumentProperties(bool value)](../saveoptions/setencryptdocumentproperties/) | Indicates whether encrypt document properties when saving as .xls file. The default value is true. |
 | [SetFormatStrategy(CellValueFormatStrategy value)](./setformatstrategy/) | Gets and sets the format strategy when exporting the cell value as string. |
 | [SetLightCellsDataProvider(LightCellsDataProvider* value)](./setlightcellsdataprovider/) | The Data provider to provide cells data for saving workbook in light mode. |
 | [SetLineSeparator(const U16String\& value)](./setlineseparator/) | Gets and sets the line separator. |

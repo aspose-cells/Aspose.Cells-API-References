@@ -22,14 +22,15 @@ enum class EquationNodeType
 | --- | --- | --- |
 | UnKnow | 0 | <br>UnKnow. |
 | Text | 1 | <br>specifies a node that stores math text |
-| Base | 100 | <br>Specifies a component of type 'Base'. |
-| Denominator | 101 | <br>Specifies a component of type 'Denominator'. |
-| Numerator | 102 | <br>Specifies a component of type 'Numerator'. |
-| FunctionName | 103 | <br>Specifies a component of type 'FunctionName'. |
-| Subscript | 104 | <br>Specifies a component of type 'Subscript'. |
-| Superscript | 105 | <br>Specifies a component of type 'Superscript'. |
-| Degree | 106 | <br>Specifies a component of type 'Degree'. |
-| MatrixRow | 107 | <br>Specifies a component of type 'MatrixRow'.A single row of the matrix. |
+| Base | 100 | <br>Specifies a Base component. |
+| Denominator | 101 | <br>Specifies a Denominator component. |
+| Numerator | 102 | <br>Specifies a Numerator component. |
+| FunctionName | 103 | <br>Specifies a FunctionName component. |
+| Subscript | 104 | <br>Specifies a Subscript component. |
+| Superscript | 105 | <br>Specifies a Superscript component. |
+| Degree | 106 | <br>Specifies a Degree component. |
+| MatrixRow | 107 | <br>Specifies a MatrixRow component.A single row of the matrix. |
+| Limit | 108 | <br>If the parent object is limLow,the object of this type specifies the lower limit of the limLow function; if the parent objectis limUpp, the object of this type specifies the Upper-Limit function, consisting of text on the baseline and reduced-size text just above the baseline. |
 | EquationParagraph | 200 | <br>Specifies a mathematical paragraph(oMathPara). |
 | MathematicalEquation | 201 | <br>Specifies an equation or mathematical expression(OMath). |
 | FractionEquation | 202 | <br>Specifies fractional equation. |
@@ -47,6 +48,8 @@ enum class EquationNodeType
 | BoxEquation | 214 | <br>Specifies box equation. |
 | GroupCharacterEquation | 215 | <br>Specifies Group-Character equation. |
 | MatrixEquation | 216 | <br>Specifies the Matrix equation,. |
+| LowerLimit | 217 | <br>Specifies the Lower-Limit function. |
+| UpperLimit | 218 | <br>Specifies the Upper-Limit function. |
 
 ## See Also
 

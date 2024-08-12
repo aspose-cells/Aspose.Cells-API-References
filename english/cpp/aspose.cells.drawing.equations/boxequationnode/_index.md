@@ -54,6 +54,8 @@ class BoxEquationNode : public Aspose::Cells::Drawing::Equations::EquationNode
 | [RemoveChild(int32_t index)](../equationnode/removechild/) | Removes the node at the specified index from the current node's children. |
 | [SetParentNode(const EquationNode\& value)](../equationnode/setparentnode/) | Specifies the parent node of the current node. |
 | [SetWordArtStyle(PresetWordArtStyle style)](../../aspose.cells/fontsetting/setwordartstyle/) | Sets the preset WordArt style. |
+| [ToLaTeX()](../equationnode/tolatex/) | Conver this equtation to LaTeX expression. |
+| [ToMathML()](../equationnode/tomathml/) | Conver this equtation to MathML expression. |
 | [~BoxEquationNode()](./~boxequationnode/) | Destructor. |
 | [~EquationNode()](../equationnode/~equationnode/) | Destructor. |
 | [~FontSetting()](../../aspose.cells/fontsetting/~fontsetting/) | Destructor. |

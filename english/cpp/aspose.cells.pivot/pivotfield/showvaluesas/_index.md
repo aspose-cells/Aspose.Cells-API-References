@@ -4,7 +4,7 @@ linktitle: ShowValuesAs
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotField::ShowValuesAs method. Shows values of data field as different display format when the ShowDataAs calculation is in use in C++.'
 type: docs
-weight: 6400
+weight: 6600
 url: /cpp/aspose.cells.pivot/pivotfield/showvaluesas/
 ---
 ## PivotField::ShowValuesAs method

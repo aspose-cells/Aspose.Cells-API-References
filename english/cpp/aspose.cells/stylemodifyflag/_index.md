@@ -4,7 +4,7 @@ linktitle: StyleModifyFlag
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::StyleModifyFlag enum. The style modified flags in C++.'
 type: docs
-weight: 25300
+weight: 25400
 url: /cpp/aspose.cells/stylemodifyflag/
 ---
 ## StyleModifyFlag enum
@@ -39,7 +39,7 @@ enum class StyleModifyFlag
 | ShrinkToFit | 1048576 | <br>Indicates whether shrink to fit property has been modified. |
 | TextDirection | 2097152 | <br>Indicates whether text direction property has been modified. |
 | RelativeIndent | 128 | <br>Indicates whether relative indent property has been modified for the style. Only for dynamic style, such as conditional formatting. |
-| AlignmentSettings | 4161664 | <br>Indicates whether one or more alignment-related properties([HorizontalAlignment](./), [VerticalAlignment](./), [Rotation](../../aspose.cells.drawing/shapelocktype/), [WrapText](./), [WrapText](./), [Indent](./), [ShrinkToFit](./), [TextDirection](./), [RelativeIndent](./)) have been modified. |
+| AlignmentSettings | 4161664 | <br>Indicates whether one or more alignment-related properties([HorizontalAlignment](./), [VerticalAlignment](./), [Rotation](../../aspose.cells.drawing/shapelocktype/), [WrapText](./), [WrapText](./), [Indent](./), [ShrinkToFit](../mergedcellsshrinktype/), [TextDirection](./), [RelativeIndent](./)) have been modified. |
 | Pattern | 4194304 | <br>Indicates whether pattern of the shading has been modified. |
 | ForegroundColor | 8388608 | <br>Indicates whether foreground color has been modified. |
 | BackgroundColor | 16777216 | <br>Indicates whether background color has been modified. |

@@ -4,7 +4,7 @@ linktitle: RemoveAllChildren
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Equations::EquationNode::RemoveAllChildren method. Removes all the child nodes of the current node in C++.'
 type: docs
-weight: 1500
+weight: 1700
 url: /cpp/aspose.cells.drawing.equations/equationnode/removeallchildren/
 ---
 ## EquationNode::RemoveAllChildren method

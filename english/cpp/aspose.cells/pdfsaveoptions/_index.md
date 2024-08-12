@@ -38,6 +38,7 @@ class PdfSaveOptions : public Aspose::Cells::PaginatedSaveOptions
 | [GetEmbedAttachments()](./getembedattachments/) | Indicates whether to embed attachment for Ole objects in Excel. |
 | [GetEmbedStandardWindowsFonts()](./getembedstandardwindowsfonts/) | True to embed true type fonts. Affects only ASCII characters 32-127. Fonts for character codes greater than 127 are always embedded. Fonts are always embedded for PDF/A-1a, PDF/A-1b standard. Default is true. |
 | [GetEmfRenderSetting()](../paginatedsaveoptions/getemfrendersetting/) | Setting for rendering Emf metafile. |
+| [GetEncryptDocumentProperties()](../saveoptions/getencryptdocumentproperties/) | Indicates whether encrypt document properties when saving as .xls file. The default value is true. |
 | [GetExportDocumentStructure()](./getexportdocumentstructure/) | Indicates whether to export document structure. |
 | [GetFontEncoding()](./getfontencoding/) | Gets or sets embedded font encoding in pdf. |
 | [GetGridlineType()](../paginatedsaveoptions/getgridlinetype/) | Gets or sets gridline type. |
@@ -98,6 +99,7 @@ class PdfSaveOptions : public Aspose::Cells::PaginatedSaveOptions
 | [SetEmbedAttachments(bool value)](./setembedattachments/) | Indicates whether to embed attachment for Ole objects in Excel. |
 | [SetEmbedStandardWindowsFonts(bool value)](./setembedstandardwindowsfonts/) | True to embed true type fonts. Affects only ASCII characters 32-127. Fonts for character codes greater than 127 are always embedded. Fonts are always embedded for PDF/A-1a, PDF/A-1b standard. Default is true. |
 | [SetEmfRenderSetting(EmfRenderSetting value)](../paginatedsaveoptions/setemfrendersetting/) | Setting for rendering Emf metafile. |
+| [SetEncryptDocumentProperties(bool value)](../saveoptions/setencryptdocumentproperties/) | Indicates whether encrypt document properties when saving as .xls file. The default value is true. |
 | [SetExportDocumentStructure(bool value)](./setexportdocumentstructure/) | Indicates whether to export document structure. |
 | [SetFontEncoding(PdfFontEncoding value)](./setfontencoding/) | Gets or sets embedded font encoding in pdf. |
 | [SetGridlineType(GridlineType value)](../paginatedsaveoptions/setgridlinetype/) | Gets or sets gridline type. |

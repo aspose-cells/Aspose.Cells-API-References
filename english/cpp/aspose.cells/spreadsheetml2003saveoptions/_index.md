@@ -23,6 +23,7 @@ class SpreadsheetML2003SaveOptions : public Aspose::Cells::SaveOptions
 | [GetCachedFileFolder()](../saveoptions/getcachedfilefolder/) | The cached file folder is used to store some large data. |
 | [GetClearData()](../saveoptions/getcleardata/) | Make the workbook empty after saving the file. |
 | [GetCreateDirectory()](../saveoptions/getcreatedirectory/) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
+| [GetEncryptDocumentProperties()](../saveoptions/getencryptdocumentproperties/) | Indicates whether encrypt document properties when saving as .xls file. The default value is true. |
 | [GetExportColumnIndexOfCell()](./getexportcolumnindexofcell/) | The default value is false, it means that column index will be ignored if the cell is contiguous to the previous cell. |
 | [GetLimitAsXls()](./getlimitasxls/) | Limit as xls, the max row index is 65535 and the max column index is 255. |
 | [GetMergeAreas()](../saveoptions/getmergeareas/) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
@@ -44,6 +45,7 @@ class SpreadsheetML2003SaveOptions : public Aspose::Cells::SaveOptions
 | [SetCachedFileFolder(const char16_t* value)](../saveoptions/setcachedfilefolder/) | The cached file folder is used to store some large data. |
 | [SetClearData(bool value)](../saveoptions/setcleardata/) | Make the workbook empty after saving the file. |
 | [SetCreateDirectory(bool value)](../saveoptions/setcreatedirectory/) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
+| [SetEncryptDocumentProperties(bool value)](../saveoptions/setencryptdocumentproperties/) | Indicates whether encrypt document properties when saving as .xls file. The default value is true. |
 | [SetExportColumnIndexOfCell(bool value)](./setexportcolumnindexofcell/) | The default value is false, it means that column index will be ignored if the cell is contiguous to the previous cell. |
 | [SetIsIndentedFormatting(bool value)](./setisindentedformatting/) | Causes child elements to be indented. |
 | [SetLimitAsXls(bool value)](./setlimitasxls/) | Limit as xls, the max row index is 65535 and the max column index is 255. |

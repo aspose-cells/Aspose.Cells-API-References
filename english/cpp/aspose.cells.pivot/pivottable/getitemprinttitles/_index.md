@@ -4,7 +4,7 @@ linktitle: GetItemPrintTitles
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::GetItemPrintTitles method. Indicates whether PivotItem names should be repeated at the top of each printed page in C++.'
 type: docs
-weight: 14200
+weight: 14400
 url: /cpp/aspose.cells.pivot/pivottable/getitemprinttitles/
 ---
 ## PivotTable::GetItemPrintTitles method

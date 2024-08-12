@@ -4,7 +4,7 @@ linktitle: SetNumberFormat
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotField::SetNumberFormat method. Represents the custom display format of numbers and dates in C++.'
 type: docs
-weight: 8500
+weight: 7900
 url: /cpp/aspose.cells.pivot/pivotfield/setnumberformat/
 ---
 ## PivotField::SetNumberFormat(const U16String\&) method

@@ -26,7 +26,7 @@ PivotItem Aspose::Cells::Pivot::PivotItemCollection::Get(int32_t index)
 ## PivotItemCollection::Get(const U16String\&) method
 
 
-Gets the [PivotItem](../../pivotitem/) Object of the specific name.
+Gets the [PivotItem](../../pivotitem/) by the specific name.
 
 ```cpp
 PivotItem Aspose::Cells::Pivot::PivotItemCollection::Get(const U16String &itemValue)
@@ -43,7 +43,7 @@ PivotItem Aspose::Cells::Pivot::PivotItemCollection::Get(const U16String &itemVa
 ## PivotItemCollection::Get(const char16_t*) method
 
 
-Gets the [PivotItem](../../pivotitem/) Object of the specific name.
+Gets the [PivotItem](../../pivotitem/) by the specific name.
 
 ```cpp
 PivotItem Aspose::Cells::Pivot::PivotItemCollection::Get(const char16_t *itemValue)

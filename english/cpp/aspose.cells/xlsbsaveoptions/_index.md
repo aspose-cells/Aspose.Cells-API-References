@@ -24,6 +24,7 @@ class XlsbSaveOptions : public Aspose::Cells::SaveOptions
 | [GetClearData()](../saveoptions/getcleardata/) | Make the workbook empty after saving the file. |
 | [GetCompressionType()](./getcompressiontype/) | Gets and sets the compression type for ooxml file. |
 | [GetCreateDirectory()](../saveoptions/getcreatedirectory/) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
+| [GetEncryptDocumentProperties()](../saveoptions/getencryptdocumentproperties/) | Indicates whether encrypt document properties when saving as .xls file. The default value is true. |
 | [GetExportAllColumnIndexes()](./getexportallcolumnindexes/) | Indicates whether exporting all column indexes for cells. |
 | [GetLightCellsDataProvider()](./getlightcellsdataprovider/) | The data provider for saving workbook in light mode. |
 | [GetMergeAreas()](../saveoptions/getmergeareas/) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
@@ -45,6 +46,7 @@ class XlsbSaveOptions : public Aspose::Cells::SaveOptions
 | [SetClearData(bool value)](../saveoptions/setcleardata/) | Make the workbook empty after saving the file. |
 | [SetCompressionType(OoxmlCompressionType value)](./setcompressiontype/) | Gets and sets the compression type for ooxml file. |
 | [SetCreateDirectory(bool value)](../saveoptions/setcreatedirectory/) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
+| [SetEncryptDocumentProperties(bool value)](../saveoptions/setencryptdocumentproperties/) | Indicates whether encrypt document properties when saving as .xls file. The default value is true. |
 | [SetExportAllColumnIndexes(bool value)](./setexportallcolumnindexes/) | Indicates whether exporting all column indexes for cells. |
 | [SetLightCellsDataProvider(LightCellsDataProvider* value)](./setlightcellsdataprovider/) | The data provider for saving workbook in light mode. |
 | [SetMergeAreas(bool value)](../saveoptions/setmergeareas/) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |

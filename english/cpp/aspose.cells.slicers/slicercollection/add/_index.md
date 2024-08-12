@@ -4,7 +4,7 @@ linktitle: Add
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Slicers::SlicerCollection::Add method. Add a new Slicer using PivotTable as data source in C++.'
 type: docs
-weight: 900
+weight: 1000
 url: /cpp/aspose.cells.slicers/slicercollection/add/
 ---
 ## SlicerCollection::Add(const PivotTable\&, const U16String\&, const U16String\&) method

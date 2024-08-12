@@ -58,6 +58,8 @@ class MatrixEquationNode : public Aspose::Cells::Drawing::Equations::EquationNod
 | [SetIsHidePlaceholder(bool value)](./setishideplaceholder/) | This attribute specifies the Hide Placeholders property on a matrix. When this property is on, placeholders do not appear in the matrix.Default, placeholders do appear such that the locations where text can be inserted are made visible. |
 | [SetParentNode(const EquationNode\& value)](../equationnode/setparentnode/) | Specifies the parent node of the current node. |
 | [SetWordArtStyle(PresetWordArtStyle style)](../../aspose.cells/fontsetting/setwordartstyle/) | Sets the preset WordArt style. |
+| [ToLaTeX()](../equationnode/tolatex/) | Conver this equtation to LaTeX expression. |
+| [ToMathML()](../equationnode/tomathml/) | Conver this equtation to MathML expression. |
 | [~EquationNode()](../equationnode/~equationnode/) | Destructor. |
 | [~FontSetting()](../../aspose.cells/fontsetting/~fontsetting/) | Destructor. |
 | [~MatrixEquationNode()](./~matrixequationnode/) | Destructor. |

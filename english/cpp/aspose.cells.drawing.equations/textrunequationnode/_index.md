@@ -57,6 +57,8 @@ class TextRunEquationNode : public Aspose::Cells::Drawing::Equations::EquationNo
 | [TextRunEquationNode(TextRunEquationNode_Impl* impl)](./textrunequationnode/) | Constructs from an implementation object. |
 | [TextRunEquationNode(const TextRunEquationNode\& src)](./textrunequationnode/) | Copy constructor. |
 | [TextRunEquationNode(const EquationNode\& src)](./textrunequationnode/) | Constructs from a parent object. |
+| [ToLaTeX()](../equationnode/tolatex/) | Conver this equtation to LaTeX expression. |
+| [ToMathML()](../equationnode/tomathml/) | Conver this equtation to MathML expression. |
 | [~EquationNode()](../equationnode/~equationnode/) | Destructor. |
 | [~FontSetting()](../../aspose.cells/fontsetting/~fontsetting/) | Destructor. |
 | [~TextRunEquationNode()](./~textrunequationnode/) | Destructor. |

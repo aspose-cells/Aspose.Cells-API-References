@@ -4,7 +4,7 @@ linktitle: SetIsAscendShow
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotField::SetIsAscendShow method. Indicates whether the specified PivotTable field is autoshown ascending in C++.'
 type: docs
-weight: 5700
+weight: 5900
 url: /cpp/aspose.cells.pivot/pivotfield/setisascendshow/
 ---
 ## PivotField::SetIsAscendShow method

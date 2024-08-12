@@ -54,6 +54,8 @@ class SubSupEquationNode : public Aspose::Cells::Drawing::Equations::EquationNod
 | [SubSupEquationNode(SubSupEquationNode_Impl* impl)](./subsupequationnode/) | Constructs from an implementation object. |
 | [SubSupEquationNode(const SubSupEquationNode\& src)](./subsupequationnode/) | Copy constructor. |
 | [SubSupEquationNode(const EquationNode\& src)](./subsupequationnode/) | Constructs from a parent object. |
+| [ToLaTeX()](../equationnode/tolatex/) | Conver this equtation to LaTeX expression. |
+| [ToMathML()](../equationnode/tomathml/) | Conver this equtation to MathML expression. |
 | [~EquationNode()](../equationnode/~equationnode/) | Destructor. |
 | [~FontSetting()](../../aspose.cells/fontsetting/~fontsetting/) | Destructor. |
 | [~SubSupEquationNode()](./~subsupequationnode/) | Destructor. |

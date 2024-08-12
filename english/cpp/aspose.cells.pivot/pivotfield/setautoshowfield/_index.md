@@ -4,7 +4,7 @@ linktitle: SetAutoShowField
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotField::SetAutoShowField method. Represents auto show field index. -1 means PivotField itself. It should be the index of the data fields in C++.'
 type: docs
-weight: 6100
+weight: 6300
 url: /cpp/aspose.cells.pivot/pivotfield/setautoshowfield/
 ---
 ## PivotField::SetAutoShowField method

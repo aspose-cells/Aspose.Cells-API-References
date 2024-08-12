@@ -24,6 +24,7 @@ class TxtSaveOptions : public Aspose::Cells::SaveOptions
 | [GetClearData()](../saveoptions/getcleardata/) | Make the workbook empty after saving the file. |
 | [GetCreateDirectory()](../saveoptions/getcreatedirectory/) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [GetEncoding()](./getencoding/) | Gets and sets the default encoding. |
+| [GetEncryptDocumentProperties()](../saveoptions/getencryptdocumentproperties/) | Indicates whether encrypt document properties when saving as .xls file. The default value is true. |
 | [GetExportAllSheets()](./getexportallsheets/) | Indicates whether exporting all sheets to the text file. If it is false, only export the activesheet, just like MS Excel. |
 | [GetExportArea()](./getexportarea/) | The range of cells to be exported. |
 | [GetExportQuotePrefix()](./getexportquoteprefix/) | Indicates whether the single quote sign should be exported as part of the value of one cell when Style.QuotePrefix is true for it. Default is false. |
@@ -54,6 +55,7 @@ class TxtSaveOptions : public Aspose::Cells::SaveOptions
 | [SetClearData(bool value)](../saveoptions/setcleardata/) | Make the workbook empty after saving the file. |
 | [SetCreateDirectory(bool value)](../saveoptions/setcreatedirectory/) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [SetEncoding(EncodingType value)](./setencoding/) | Gets and sets the default encoding. |
+| [SetEncryptDocumentProperties(bool value)](../saveoptions/setencryptdocumentproperties/) | Indicates whether encrypt document properties when saving as .xls file. The default value is true. |
 | [SetExportAllSheets(bool value)](./setexportallsheets/) | Indicates whether exporting all sheets to the text file. If it is false, only export the activesheet, just like MS Excel. |
 | [SetExportArea(const CellArea\& value)](./setexportarea/) | The range of cells to be exported. |
 | [SetExportQuotePrefix(bool value)](./setexportquoteprefix/) | Indicates whether the single quote sign should be exported as part of the value of one cell when Style.QuotePrefix is true for it. Default is false. |

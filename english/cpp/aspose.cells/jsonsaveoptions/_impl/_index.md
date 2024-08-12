@@ -4,7 +4,7 @@ linktitle: _impl
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::JsonSaveOptions::_impl field. The implementation object in C++.'
 type: docs
-weight: 2800
+weight: 3000
 url: /cpp/aspose.cells/jsonsaveoptions/_impl/
 ---
 ## _impl field

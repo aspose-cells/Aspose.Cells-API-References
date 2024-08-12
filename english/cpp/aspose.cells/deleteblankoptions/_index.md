@@ -29,6 +29,7 @@ class DeleteBlankOptions : public Aspose::Cells::DeleteOptions
 | [DeleteOptions(const DeleteOptions\& src)](../deleteoptions/deleteoptions/) | Copy constructor. |
 | [GetEmptyFormulaValueAsBlank()](./getemptyformulavalueasblank/) | Whether one cell will be taken as blank when it is formula and the calculated result is null or empty string. Default value is false. |
 | [GetEmptyStringAsBlank()](./getemptystringasblank/) | Whether one cell will be taken as blank when its value is empty string. Default value is true. |
+| [GetMergedCellsShrinkType()](./getmergedcellsshrinktype/) | Indicates how to process merged cells when deleting blank rows/columns.<br>  For [MergedCellsShrinkType.KeepHeaderOnly](../mergedcellsshrinktype/), all cells in it will be taken as blank except the non-blank top-left cell. It is the default value of this property.<br>  For [MergedCellsShrinkType.None](../mergedcellsshrinktype/), all cells in it will be taken as non-blank.<br>  For [MergedCellsShrinkType.ShrinkToFit](../mergedcellsshrinktype/), all cells outside the content display area will be taken as blank.<br> |
 | [GetUpdateReference()](../deleteoptions/getupdatereference/) | Indicates if update references in other worksheets. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
@@ -36,6 +37,7 @@ class DeleteBlankOptions : public Aspose::Cells::DeleteOptions
 | [operator=(const DeleteOptions\& src)](../deleteoptions/operator_asm/) | operator= |
 | [SetEmptyFormulaValueAsBlank(bool value)](./setemptyformulavalueasblank/) | Whether one cell will be taken as blank when it is formula and the calculated result is null or empty string. Default value is false. |
 | [SetEmptyStringAsBlank(bool value)](./setemptystringasblank/) | Whether one cell will be taken as blank when its value is empty string. Default value is true. |
+| [SetMergedCellsShrinkType(MergedCellsShrinkType value)](./setmergedcellsshrinktype/) | Indicates how to process merged cells when deleting blank rows/columns.<br>  For [MergedCellsShrinkType.KeepHeaderOnly](../mergedcellsshrinktype/), all cells in it will be taken as blank except the non-blank top-left cell. It is the default value of this property.<br>  For [MergedCellsShrinkType.None](../mergedcellsshrinktype/), all cells in it will be taken as non-blank.<br>  For [MergedCellsShrinkType.ShrinkToFit](../mergedcellsshrinktype/), all cells outside the content display area will be taken as blank.<br> |
 | [SetUpdateReference(bool value)](../deleteoptions/setupdatereference/) | Indicates if update references in other worksheets. |
 | [~DeleteBlankOptions()](./~deleteblankoptions/) | Destructor. |
 | [~DeleteOptions()](../deleteoptions/~deleteoptions/) | Destructor. |

@@ -4,7 +4,7 @@ linktitle: Remove
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Equations::EquationNode::Remove method. Removes itself from the parent in C++.'
 type: docs
-weight: 1300
+weight: 1500
 url: /cpp/aspose.cells.drawing.equations/equationnode/remove/
 ---
 ## EquationNode::Remove method

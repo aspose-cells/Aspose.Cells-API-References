@@ -51,6 +51,8 @@ class UnknowEquationNode : public Aspose::Cells::Drawing::Equations::EquationNod
 | [RemoveChild(int32_t index)](../equationnode/removechild/) | Removes the node at the specified index from the current node's children. |
 | [SetParentNode(const EquationNode\& value)](../equationnode/setparentnode/) | Specifies the parent node of the current node. |
 | [SetWordArtStyle(PresetWordArtStyle style)](../../aspose.cells/fontsetting/setwordartstyle/) | Sets the preset WordArt style. |
+| [ToLaTeX()](../equationnode/tolatex/) | Conver this equtation to LaTeX expression. |
+| [ToMathML()](../equationnode/tomathml/) | Conver this equtation to MathML expression. |
 | [UnknowEquationNode(UnknowEquationNode_Impl* impl)](./unknowequationnode/) | Constructs from an implementation object. |
 | [UnknowEquationNode(const UnknowEquationNode\& src)](./unknowequationnode/) | Copy constructor. |
 | [UnknowEquationNode(const EquationNode\& src)](./unknowequationnode/) | Constructs from a parent object. |

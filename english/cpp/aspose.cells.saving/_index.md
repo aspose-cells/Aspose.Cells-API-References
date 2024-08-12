@@ -15,6 +15,7 @@ url: /cpp/aspose.cells.saving/
 | Class | Description |
 | --- | --- |
 | [EbookSaveOptions](./ebooksaveoptions/) | Represents the options for saving ebook file. |
+| [Numbers35SaveOptions](./numbers35saveoptions/) | Represents the options for saving ebook file. |
 | [SqlScriptColumnTypeMap](./sqlscriptcolumntypemap/) | Represents column type map. |
 | [SqlScriptSaveOptions](./sqlscriptsaveoptions/) | Represents the options of saving sql. |
 ## Enums

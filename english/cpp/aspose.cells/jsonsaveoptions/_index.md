@@ -24,6 +24,7 @@ class JsonSaveOptions : public Aspose::Cells::SaveOptions
 | [GetCachedFileFolder()](../saveoptions/getcachedfilefolder/) | The cached file folder is used to store some large data. |
 | [GetClearData()](../saveoptions/getcleardata/) | Make the workbook empty after saving the file. |
 | [GetCreateDirectory()](../saveoptions/getcreatedirectory/) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
+| [GetEncryptDocumentProperties()](../saveoptions/getencryptdocumentproperties/) | Indicates whether encrypt document properties when saving as .xls file. The default value is true. |
 | [GetExportArea()](./getexportarea/) | Gets or sets the exporting range. |
 | [GetExportAsString()](./getexportasstring/) | Exports the string value of the cells to json. |
 | [GetExportEmptyCells()](./getexportemptycells/) | Indicates whether exporting empty cells as null. |
@@ -34,6 +35,7 @@ class JsonSaveOptions : public Aspose::Cells::SaveOptions
 | [GetMergeAreas()](../saveoptions/getmergeareas/) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [GetRefreshChartCache()](../saveoptions/getrefreshchartcache/) | Indicates whether refreshing chart cache data. |
 | [GetSaveFormat()](../saveoptions/getsaveformat/) | Gets the save file format. |
+| [GetSchemas()](./getschemas/) | The original json schema of each worksheet. |
 | [GetSheetIndexes()](./getsheetindexes/) | Represents the indexes of exported sheets. |
 | [GetSkipEmptyRows()](./getskipemptyrows/) | Indicates whether skipping emtpy rows. |
 | [GetSortExternalNames()](../saveoptions/getsortexternalnames/) | Indicates whether sorting external defined names before saving file. |
@@ -57,6 +59,7 @@ class JsonSaveOptions : public Aspose::Cells::SaveOptions
 | [SetCachedFileFolder(const char16_t* value)](../saveoptions/setcachedfilefolder/) | The cached file folder is used to store some large data. |
 | [SetClearData(bool value)](../saveoptions/setcleardata/) | Make the workbook empty after saving the file. |
 | [SetCreateDirectory(bool value)](../saveoptions/setcreatedirectory/) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
+| [SetEncryptDocumentProperties(bool value)](../saveoptions/setencryptdocumentproperties/) | Indicates whether encrypt document properties when saving as .xls file. The default value is true. |
 | [SetExportArea(const CellArea\& value)](./setexportarea/) | Gets or sets the exporting range. |
 | [SetExportAsString(bool value)](./setexportasstring/) | Exports the string value of the cells to json. |
 | [SetExportEmptyCells(bool value)](./setexportemptycells/) | Indicates whether exporting empty cells as null. |
@@ -67,6 +70,7 @@ class JsonSaveOptions : public Aspose::Cells::SaveOptions
 | [SetIndent(const char16_t* value)](./setindent/) | Indicates the indent. |
 | [SetMergeAreas(bool value)](../saveoptions/setmergeareas/) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [SetRefreshChartCache(bool value)](../saveoptions/setrefreshchartcache/) | Indicates whether refreshing chart cache data. |
+| [SetSchemas(const Vector \<U16String\>\& value)](./setschemas/) | The original json schema of each worksheet. |
 | [SetSheetIndexes(const Vector \<int32_t\>\& value)](./setsheetindexes/) | Represents the indexes of exported sheets. |
 | [SetSkipEmptyRows(bool value)](./setskipemptyrows/) | Indicates whether skipping emtpy rows. |
 | [SetSortExternalNames(bool value)](../saveoptions/setsortexternalnames/) | Indicates whether sorting external defined names before saving file. |

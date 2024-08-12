@@ -23,6 +23,7 @@ class XlsSaveOptions : public Aspose::Cells::SaveOptions
 | [GetCachedFileFolder()](../saveoptions/getcachedfilefolder/) | The cached file folder is used to store some large data. |
 | [GetClearData()](../saveoptions/getcleardata/) | Make the workbook empty after saving the file. |
 | [GetCreateDirectory()](../saveoptions/getcreatedirectory/) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
+| [GetEncryptDocumentProperties()](../saveoptions/getencryptdocumentproperties/) | Indicates whether encrypt document properties when saving as .xls file. The default value is true. |
 | [GetLightCellsDataProvider()](./getlightcellsdataprovider/) | The data provider for saving workbook in light mode. |
 | [GetMatchColor()](./getmatchcolor/) | Indicates whether matching font color because there are 56 colors in the standard color palette. |
 | [GetMergeAreas()](../saveoptions/getmergeareas/) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
@@ -43,6 +44,7 @@ class XlsSaveOptions : public Aspose::Cells::SaveOptions
 | [SetCachedFileFolder(const char16_t* value)](../saveoptions/setcachedfilefolder/) | The cached file folder is used to store some large data. |
 | [SetClearData(bool value)](../saveoptions/setcleardata/) | Make the workbook empty after saving the file. |
 | [SetCreateDirectory(bool value)](../saveoptions/setcreatedirectory/) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
+| [SetEncryptDocumentProperties(bool value)](../saveoptions/setencryptdocumentproperties/) | Indicates whether encrypt document properties when saving as .xls file. The default value is true. |
 | [SetLightCellsDataProvider(LightCellsDataProvider* value)](./setlightcellsdataprovider/) | The data provider for saving workbook in light mode. |
 | [SetMatchColor(bool value)](./setmatchcolor/) | Indicates whether matching font color because there are 56 colors in the standard color palette. |
 | [SetMergeAreas(bool value)](../saveoptions/setmergeareas/) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |

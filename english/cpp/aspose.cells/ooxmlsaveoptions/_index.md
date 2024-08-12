@@ -26,6 +26,7 @@ class OoxmlSaveOptions : public Aspose::Cells::SaveOptions
 | [GetCreateDirectory()](../saveoptions/getcreatedirectory/) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [GetEmbedOoxmlAsOleObject()](./getembedooxmlasoleobject/) | Indicates whether embedding Ooxml files of OleObject as ole object. |
 | [GetEnableZip64()](./getenablezip64/) | Always use ZIP64 extensions when writing zip archives, even when unnecessary. |
+| [GetEncryptDocumentProperties()](../saveoptions/getencryptdocumentproperties/) | Indicates whether encrypt document properties when saving as .xls file. The default value is true. |
 | [GetExportCellName()](./getexportcellname/) | Indicates if export cell name to Excel2007 .xlsx (.xlsm, .xltx, .xltm) file. If the output file may be accessed by SQL Server DTS, this value must be true. Setting the value to false will highly increase the performance and reduce the file size when creating large file. Default value is true. |
 | [GetLightCellsDataProvider()](./getlightcellsdataprovider/) | The data provider for saving workbook in light mode. |
 | [GetMergeAreas()](../saveoptions/getmergeareas/) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
@@ -55,6 +56,7 @@ class OoxmlSaveOptions : public Aspose::Cells::SaveOptions
 | [SetCreateDirectory(bool value)](../saveoptions/setcreatedirectory/) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [SetEmbedOoxmlAsOleObject(bool value)](./setembedooxmlasoleobject/) | Indicates whether embedding Ooxml files of OleObject as ole object. |
 | [SetEnableZip64(bool value)](./setenablezip64/) | Always use ZIP64 extensions when writing zip archives, even when unnecessary. |
+| [SetEncryptDocumentProperties(bool value)](../saveoptions/setencryptdocumentproperties/) | Indicates whether encrypt document properties when saving as .xls file. The default value is true. |
 | [SetExportCellName(bool value)](./setexportcellname/) | Indicates if export cell name to Excel2007 .xlsx (.xlsm, .xltx, .xltm) file. If the output file may be accessed by SQL Server DTS, this value must be true. Setting the value to false will highly increase the performance and reduce the file size when creating large file. Default value is true. |
 | [SetLightCellsDataProvider(LightCellsDataProvider* value)](./setlightcellsdataprovider/) | The data provider for saving workbook in light mode. |
 | [SetMergeAreas(bool value)](../saveoptions/setmergeareas/) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |

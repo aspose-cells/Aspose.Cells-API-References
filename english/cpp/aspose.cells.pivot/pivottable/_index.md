@@ -4,7 +4,7 @@ linktitle: PivotTable
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable class. Summary description for PivotTable in C++.'
 type: docs
-weight: 1900
+weight: 2000
 url: /cpp/aspose.cells.pivot/pivottable/
 ---
 ## PivotTable class
@@ -40,7 +40,7 @@ class PivotTable
 | [FormatAll(const Style\& style)](./formatall/) | Format all the cell in the pivottable area. |
 | [FormatRow(int32_t row, const Style\& style)](./formatrow/) | Format the row data in the pivottable area. |
 | [GetAltTextDescription()](./getalttextdescription/) | Gets the description of the alt text. |
-| [GetAltTextTitle()](./getalttexttitle/) | Gets the title of the altertext. |
+| [GetAltTextTitle()](./getalttexttitle/) | Gets and sets the title of the alter text. |
 | [GetAutofitColumnWidthOnUpdate()](./getautofitcolumnwidthonupdate/) | Indicates whether autofitting column width on update. |
 | [GetAutoFormatType()](./getautoformattype/) | Gets and sets the auto format type of [PivotTable](./). |
 | [GetBaseFields()](./getbasefields/) | Returns all base pivot fields in the [PivotTable](./). |
@@ -78,7 +78,7 @@ class PivotTable
 | [GetMissingItemsLimit()](./getmissingitemslimit/) | Specifies a boolean value that indicates whether the fields of a [PivotTable](./) can have multiple filters set on them. |
 | [GetName()](./getname/) | Gets the name of the [PivotTable](./). |
 | [GetNullString()](./getnullstring/) | Gets the string displayed in cells that contain null values when the DisplayNullString property is true.The default value is an empty string. |
-| [GetPageFieldOrder()](./getpagefieldorder/) | Gets the order in which page fields are added to the [PivotTable](./) report's layout. |
+| [GetPageFieldOrder()](./getpagefieldorder/) | Gets and sets the order in which page fields are added to the [PivotTable](./) report's layout. |
 | [GetPageFields()](./getpagefields/) | Returns a PivotFields object that are currently shown as page fields. |
 | [GetPageFieldWrapCount()](./getpagefieldwrapcount/) | Gets the number of page fields in each column or row in the [PivotTable](./) report. |
 | [GetPivotFilters()](./getpivotfilters/) | Returns a list of pivot filters. |
@@ -111,6 +111,7 @@ class PivotTable
 | [GetShowRowHeaderCaption()](./getshowrowheadercaption/) | Indicates whether row header caption is shown in the [PivotTable](./) report Indicates whether Display field captions and filter drop downs. |
 | [GetShowValuesRow()](./getshowvaluesrow/) | Specifies a boolean value that indicates whether show values row. show the values row. |
 | [GetSource()](./getsource/) | Get pivottable's source data. |
+| [GetSourceType()](./getsourcetype/) | Gets the data source type of the pivot table. |
 | [GetSubtotalHiddenPageItems()](./getsubtotalhiddenpageitems/) | Indicates whether hidden page field items in the [PivotTable](./) report are included in row and column subtotals, block totals, and grand totals. The default value is False. |
 | [GetTableRange1()](./gettablerange1/) | Returns a [CellArea](../../aspose.cells/cellarea/) object that represents the range containing the entire [PivotTable](./) report, but doesn't include page fields. Read-only. |
 | [GetTableRange2()](./gettablerange2/) | Returns a [CellArea](../../aspose.cells/cellarea/) object that represents the range containing the entire [PivotTable](./) report, includes page fields. Read-only. |
@@ -136,8 +137,8 @@ class PivotTable
 | [RemoveField(PivotFieldType fieldType, const PivotField\& pivotField)](./removefield/) | Remove field from specific field area. |
 | [SetAltTextDescription(const U16String\& value)](./setalttextdescription/) | Gets the description of the alt text. |
 | [SetAltTextDescription(const char16_t* value)](./setalttextdescription/) | Gets the description of the alt text. |
-| [SetAltTextTitle(const U16String\& value)](./setalttexttitle/) | Gets the title of the altertext. |
-| [SetAltTextTitle(const char16_t* value)](./setalttexttitle/) | Gets the title of the altertext. |
+| [SetAltTextTitle(const U16String\& value)](./setalttexttitle/) | Gets and sets the title of the alter text. |
+| [SetAltTextTitle(const char16_t* value)](./setalttexttitle/) | Gets and sets the title of the alter text. |
 | [SetAutofitColumnWidthOnUpdate(bool value)](./setautofitcolumnwidthonupdate/) | Indicates whether autofitting column width on update. |
 | [SetAutoFormatType(PivotTableAutoFormatType value)](./setautoformattype/) | Gets and sets the auto format type of [PivotTable](./). |
 | [SetColumnGrand(bool value)](./setcolumngrand/) | Indicates whether the [PivotTable](./) report shows grand totals for columns. |
@@ -175,7 +176,7 @@ class PivotTable
 | [SetName(const char16_t* value)](./setname/) | Gets the name of the [PivotTable](./). |
 | [SetNullString(const U16String\& value)](./setnullstring/) | Gets the string displayed in cells that contain null values when the DisplayNullString property is true.The default value is an empty string. |
 | [SetNullString(const char16_t* value)](./setnullstring/) | Gets the string displayed in cells that contain null values when the DisplayNullString property is true.The default value is an empty string. |
-| [SetPageFieldOrder(PrintOrderType value)](./setpagefieldorder/) | Gets the order in which page fields are added to the [PivotTable](./) report's layout. |
+| [SetPageFieldOrder(PrintOrderType value)](./setpagefieldorder/) | Gets and sets the order in which page fields are added to the [PivotTable](./) report's layout. |
 | [SetPageFieldWrapCount(int32_t value)](./setpagefieldwrapcount/) | Gets the number of page fields in each column or row in the [PivotTable](./) report. |
 | [SetPivotTableStyleName(const U16String\& value)](./setpivottablestylename/) | Gets and sets the pivottable style name. |
 | [SetPivotTableStyleName(const char16_t* value)](./setpivottablestylename/) | Gets and sets the pivottable style name. |
@@ -204,6 +205,7 @@ class PivotTable
 | [SetSubtotalHiddenPageItems(bool value)](./setsubtotalhiddenpageitems/) | Indicates whether hidden page field items in the [PivotTable](./) report are included in row and column subtotals, block totals, and grand totals. The default value is False. |
 | [SetTag(const U16String\& value)](./settag/) | Gets a string saved with the [PivotTable](./) report. |
 | [SetTag(const char16_t* value)](./settag/) | Gets a string saved with the [PivotTable](./) report. |
+| [ShowDatail(int32_t rowOffset, int32_t columnOffset, bool newSheet, int32_t destRow, int32_t destColumn)](./showdatail/) | Show the detail of one item in the data region to a new Table. |
 | [ShowInCompactForm()](./showincompactform/) | Layouts the [PivotTable](./) in compact form. |
 | [ShowInOutlineForm()](./showinoutlineform/) | Layouts the [PivotTable](./) in outline form. |
 | [ShowInTabularForm()](./showintabularform/) | Layouts the [PivotTable](./) in tabular form. |

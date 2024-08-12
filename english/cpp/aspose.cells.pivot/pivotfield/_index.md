@@ -26,13 +26,9 @@ class PivotField
 | [GetAutoShowCount()](./getautoshowcount/) | Represent the number of top or bottom items that are automatically shown in the specified [PivotTable](../pivottable/) field. |
 | [GetAutoShowField()](./getautoshowfield/) | Represents auto show field index. -1 means [PivotField](./) itself. It should be the index of the data fields. |
 | [GetAutoSortField()](./getautosortfield/) | Represents the index of field which is auto sorted. -1 means [PivotField](./) itself,others means the position of the data fields. |
-| [GetBaseFieldIndex()](./getbasefieldindex/) |  **(Deprecated)** Represents the base field for a custom calculation when the ShowDataAs calculation is in use. |
 | [GetBaseIndex()](./getbaseindex/) | Represents the [PivotField](./) index in the base PivotFields. |
-| [GetBaseItemIndex()](./getbaseitemindex/) |  **(Deprecated)** Represents the item in the base field for a custom calculation when the ShowDataAs calculation is in use. Valid only for data fields. |
-| [GetBaseItemPosition()](./getbaseitemposition/) |  **(Deprecated)** Represents the item in the base field for a custom calculation when the ShowDataAs calculation is in use. Valid only for data fields. Because [PivotItemPosition.Custom](../pivotitemposition/) is only for read,if you need to set [PivotItemPosition.Custom](../pivotitemposition/), please set PivotField.BaseItemIndex attribute. |
 | [GetCalculatedFieldFormula()](./getcalculatedfieldformula/) | Get the formula string of the specified calculated field . |
 | [GetCurrentPageItem()](./getcurrentpageitem/) | Represents the current page item showing for the page field (valid only for page fields). |
-| [GetDataDisplayFormat()](./getdatadisplayformat/) |  **(Deprecated)** Represents how to display the values in a data field of the pivot report. |
 | [GetDisplayName()](./getdisplayname/) | Represents the [PivotField](./) display name. |
 | [GetDragToColumn()](./getdragtocolumn/) | Indicates whether the specified field can be dragged to the column position. The default value is true. |
 | [GetDragToData()](./getdragtodata/) | Indicates whether the specified field can be dragged to the data position. The default value is true. |
@@ -57,6 +53,7 @@ class PivotField
 | [GetShowInOutlineForm()](./getshowinoutlineform/) | Indicates whether layout this field in outline form on the [Pivot](../) Table view. |
 | [GetShowSubtotalAtTop()](./getshowsubtotalattop/) | when ShowInOutlineForm is true, then display subtotals at the top of the list of items instead of at the bottom |
 | [GetShowValuesSetting()](./getshowvaluessetting/) | Gets the settings of showing values as when the ShowDataAs calculation is in use. |
+| [GetSortSetting()](./getsortsetting/) | Gets all settings of auto sorting. |
 | [GetSubtotals(PivotFieldSubtotalType subtotalType)](./getsubtotals/) | Indicates whether showing specified subtotal. |
 | [GroupBy(double interval, bool newField)](./groupby/) | Automatically group the field with internal. |
 | [GroupBy(const Date\& start, const Date\& end, const Vector \<PivotGroupByType\>\& groups, double interval, bool firstAsNewField)](./groupby/) | Group the file by the date group types. |
@@ -88,12 +85,8 @@ class PivotField
 | [SetAutoShowCount(int32_t value)](./setautoshowcount/) | Represent the number of top or bottom items that are automatically shown in the specified [PivotTable](../pivottable/) field. |
 | [SetAutoShowField(int32_t value)](./setautoshowfield/) | Represents auto show field index. -1 means [PivotField](./) itself. It should be the index of the data fields. |
 | [SetAutoSortField(int32_t value)](./setautosortfield/) | Represents the index of field which is auto sorted. -1 means [PivotField](./) itself,others means the position of the data fields. |
-| [SetBaseFieldIndex(int32_t value)](./setbasefieldindex/) |  **(Deprecated)** Represents the base field for a custom calculation when the ShowDataAs calculation is in use. |
 | [SetBaseIndex(int32_t value)](./setbaseindex/) | Represents the [PivotField](./) index in the base PivotFields. |
-| [SetBaseItemIndex(int32_t value)](./setbaseitemindex/) |  **(Deprecated)** Represents the item in the base field for a custom calculation when the ShowDataAs calculation is in use. Valid only for data fields. |
-| [SetBaseItemPosition(PivotItemPosition value)](./setbaseitemposition/) |  **(Deprecated)** Represents the item in the base field for a custom calculation when the ShowDataAs calculation is in use. Valid only for data fields. Because [PivotItemPosition.Custom](../pivotitemposition/) is only for read,if you need to set [PivotItemPosition.Custom](../pivotitemposition/), please set PivotField.BaseItemIndex attribute. |
 | [SetCurrentPageItem(int16_t value)](./setcurrentpageitem/) | Represents the current page item showing for the page field (valid only for page fields). |
-| [SetDataDisplayFormat(PivotFieldDataDisplayFormat value)](./setdatadisplayformat/) |  **(Deprecated)** Represents how to display the values in a data field of the pivot report. |
 | [SetDisplayName(const U16String\& value)](./setdisplayname/) | Represents the [PivotField](./) display name. |
 | [SetDisplayName(const char16_t* value)](./setdisplayname/) | Represents the [PivotField](./) display name. |
 | [SetDragToColumn(bool value)](./setdragtocolumn/) | Indicates whether the specified field can be dragged to the column position. The default value is true. |
@@ -124,6 +117,9 @@ class PivotField
 | [SetShowSubtotalAtTop(bool value)](./setshowsubtotalattop/) | when ShowInOutlineForm is true, then display subtotals at the top of the list of items instead of at the bottom |
 | [SetSubtotals(PivotFieldSubtotalType subtotalType, bool shown)](./setsubtotals/) | Sets whether the specified field shows that subtotals. |
 | [ShowValuesAs(PivotFieldDataDisplayFormat displayFormat, int32_t baseField, PivotItemPositionType baseItemPositionType, int32_t baseItem)](./showvaluesas/) | Shows values of data field as different display format when the ShowDataAs calculation is in use. |
+| [SortBy(SortOrder sortType, int32_t fieldSortedBy)](./sortby/) | Sorts this pivot field. |
+| [SortBy(SortOrder sortType, int32_t fieldSortedBy, PivotLineType dataType, const U16String\& cellName)](./sortby/) | Sorts this pivot field. |
+| [SortBy(SortOrder sortType, int32_t fieldSortedBy, PivotLineType dataType, const char16_t* cellName)](./sortby/) | Sorts this pivot field. |
 | [Ungroup()](./ungroup/) | Ungroup the pivot field. |
 | [~PivotField()](./~pivotfield/) | Destructor. |
 ## Fields

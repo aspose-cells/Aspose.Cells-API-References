@@ -56,6 +56,8 @@ class EquationNodeParagraph : public Aspose::Cells::Drawing::Equations::Equation
 | [SetJustification(EquationHorizontalJustificationType value)](./setjustification/) | This specifies justification of the math paragraph (a series of adjacent equations within the same paragraph). A math paragraph can be Left Justified, Right Justified, Centered, or Centered as Group. By default, the math paragraph is Centered as Group. This means that the equations can be aligned with respect to each other, but the entire group of equations is centered as a whole. |
 | [SetParentNode(const EquationNode\& value)](../equationnode/setparentnode/) | Specifies the parent node of the current node. |
 | [SetWordArtStyle(PresetWordArtStyle style)](../../aspose.cells/fontsetting/setwordartstyle/) | Sets the preset WordArt style. |
+| [ToLaTeX()](../equationnode/tolatex/) | Conver this equtation to LaTeX expression. |
+| [ToMathML()](../equationnode/tomathml/) | Conver this equtation to MathML expression. |
 | [~EquationNode()](../equationnode/~equationnode/) | Destructor. |
 | [~EquationNodeParagraph()](./~equationnodeparagraph/) | Destructor. |
 | [~FontSetting()](../../aspose.cells/fontsetting/~fontsetting/) | Destructor. |

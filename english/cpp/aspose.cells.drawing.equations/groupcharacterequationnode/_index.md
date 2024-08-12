@@ -63,6 +63,8 @@ class GroupCharacterEquationNode : public Aspose::Cells::Drawing::Equations::Equ
 | [SetPosition(EquationCharacterPositionType value)](./setposition/) | This attribute specifies the position of the character in the object. |
 | [SetVertJc(EquationCharacterPositionType value)](./setvertjc/) | This attribute, combined with pos of groupChrPr, specifies the vertical layout of the groupChr object. Where pos specifies the position of the grouping character, vertJc specifies the alignment of the object with respect to the baseline. |
 | [SetWordArtStyle(PresetWordArtStyle style)](../../aspose.cells/fontsetting/setwordartstyle/) | Sets the preset WordArt style. |
+| [ToLaTeX()](../equationnode/tolatex/) | Conver this equtation to LaTeX expression. |
+| [ToMathML()](../equationnode/tomathml/) | Conver this equtation to MathML expression. |
 | [~EquationNode()](../equationnode/~equationnode/) | Destructor. |
 | [~FontSetting()](../../aspose.cells/fontsetting/~fontsetting/) | Destructor. |
 | [~GroupCharacterEquationNode()](./~groupcharacterequationnode/) | Destructor. |

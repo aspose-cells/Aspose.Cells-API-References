@@ -4,7 +4,7 @@ linktitle: RefreshData
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::RefreshData method. Refreshes pivottable''s data and setting from it''s data source in C++.'
 type: docs
-weight: 13400
+weight: 13500
 url: /cpp/aspose.cells.pivot/pivottable/refreshdata/
 ---
 ## PivotTable::RefreshData() method

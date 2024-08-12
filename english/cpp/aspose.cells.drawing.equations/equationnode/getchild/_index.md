@@ -4,7 +4,7 @@ linktitle: GetChild
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Equations::EquationNode::GetChild method. Returns the node at the specified index among the children of the current node in C++.'
 type: docs
-weight: 1200
+weight: 1400
 url: /cpp/aspose.cells.drawing.equations/equationnode/getchild/
 ---
 ## EquationNode::GetChild method

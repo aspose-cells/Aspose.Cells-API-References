@@ -4,7 +4,7 @@ linktitle: SetExportArea
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::JsonSaveOptions::SetExportArea method. Gets or sets the exporting range in C++.'
 type: docs
-weight: 1300
+weight: 1500
 url: /cpp/aspose.cells/jsonsaveoptions/setexportarea/
 ---
 ## JsonSaveOptions::SetExportArea method

@@ -50,6 +50,8 @@ class EquationNode : public Aspose::Cells::FontSetting
 | [RemoveChild(int32_t index)](./removechild/) | Removes the node at the specified index from the current node's children. |
 | [SetParentNode(const EquationNode\& value)](./setparentnode/) | Specifies the parent node of the current node. |
 | [SetWordArtStyle(PresetWordArtStyle style)](../../aspose.cells/fontsetting/setwordartstyle/) | Sets the preset WordArt style. |
+| [ToLaTeX()](./tolatex/) | Conver this equtation to LaTeX expression. |
+| [ToMathML()](./tomathml/) | Conver this equtation to MathML expression. |
 | [~EquationNode()](./~equationnode/) | Destructor. |
 | [~FontSetting()](../../aspose.cells/fontsetting/~fontsetting/) | Destructor. |
 ## Fields

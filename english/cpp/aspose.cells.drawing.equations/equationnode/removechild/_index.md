@@ -4,7 +4,7 @@ linktitle: RemoveChild
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Equations::EquationNode::RemoveChild method. Removes the specified node from the current node''s children in C++.'
 type: docs
-weight: 1400
+weight: 1600
 url: /cpp/aspose.cells.drawing.equations/equationnode/removechild/
 ---
 ## EquationNode::RemoveChild(const EquationNode\&) method

@@ -4,7 +4,7 @@ linktitle: HideItemDetail
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotField::HideItemDetail method. Sets whether the specific PivotItem in a pivot field is hidden detail in C++.'
 type: docs
-weight: 8900
+weight: 8300
 url: /cpp/aspose.cells.pivot/pivotfield/hideitemdetail/
 ---
 ## PivotField::HideItemDetail method

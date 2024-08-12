@@ -2,7 +2,7 @@
 title: Aspose::Cells::Utility::ConversionUtility class
 linktitle: ConversionUtility
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Utility::ConversionUtility class. Represents converting files other formats in C++.'
+description: 'Aspose::Cells::Utility::ConversionUtility class. Represents utility to convert files to other formats in C++.'
 type: docs
 weight: 100
 url: /cpp/aspose.cells.utility/conversionutility/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.utility/conversionutility/
 ## ConversionUtility class
 
 
-Represents converting files other formats.
+Represents utility to convert files to other formats.
 
 ```cpp
 class ConversionUtility

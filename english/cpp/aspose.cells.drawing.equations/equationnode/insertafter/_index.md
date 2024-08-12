@@ -4,7 +4,7 @@ linktitle: InsertAfter
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Equations::EquationNode::InsertAfter method. Inserts the specified node after the current node in C++.'
 type: docs
-weight: 1000
+weight: 1200
 url: /cpp/aspose.cells.drawing.equations/equationnode/insertafter/
 ---
 ## EquationNode::InsertAfter method

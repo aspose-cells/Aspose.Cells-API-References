@@ -35,6 +35,7 @@ class SlicerCollection
 | [Add(const ListObject\& table, const ListColumn\& listColumn, const U16String\& destCellName)](./add/) | Add a new [Slicer](../slicer/) using ListObjet as data source. |
 | [Add(const ListObject\& table, const ListColumn\& listColumn, const char16_t* destCellName)](./add/) | Add a new [Slicer](../slicer/) using ListObjet as data source. |
 | [Add(const ListObject\& table, const ListColumn\& listColumn, int32_t row, int32_t column)](./add/) | Add a new [Slicer](../slicer/) using ListObjet as data source. |
+| [Clear()](./clear/) | Clear all [Slicers](../). |
 | [Get(int32_t index)](./get/) | Gets the [Slicer](../slicer/) by index. |
 | [Get(const U16String\& name)](./get/) | Gets the [Slicer](../slicer/) by slicer's name. |
 | [Get(const char16_t* name)](./get/) | Gets the [Slicer](../slicer/) by slicer's name. |

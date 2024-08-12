@@ -4,7 +4,7 @@ linktitle: _impl
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::HtmlSaveOptions::_impl field. The implementation object in C++.'
 type: docs
-weight: 12500
+weight: 12700
 url: /cpp/aspose.cells/htmlsaveoptions/_impl/
 ---
 ## _impl field

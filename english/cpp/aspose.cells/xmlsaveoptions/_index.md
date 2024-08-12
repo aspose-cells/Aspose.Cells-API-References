@@ -24,6 +24,7 @@ class XmlSaveOptions : public Aspose::Cells::SaveOptions
 | [GetClearData()](../saveoptions/getcleardata/) | Make the workbook empty after saving the file. |
 | [GetCreateDirectory()](../saveoptions/getcreatedirectory/) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [GetDataAsAttribute()](./getdataasattribute/) | Indicates whether exporting data as attributes of element. |
+| [GetEncryptDocumentProperties()](../saveoptions/getencryptdocumentproperties/) | Indicates whether encrypt document properties when saving as .xls file. The default value is true. |
 | [GetExportArea()](./getexportarea/) | Gets or sets the exporting range. |
 | [GetHasHeaderRow()](./gethasheaderrow/) | Indicates whether the range contains header row. |
 | [GetMergeAreas()](../saveoptions/getmergeareas/) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
@@ -48,6 +49,7 @@ class XmlSaveOptions : public Aspose::Cells::SaveOptions
 | [SetClearData(bool value)](../saveoptions/setcleardata/) | Make the workbook empty after saving the file. |
 | [SetCreateDirectory(bool value)](../saveoptions/setcreatedirectory/) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [SetDataAsAttribute(bool value)](./setdataasattribute/) | Indicates whether exporting data as attributes of element. |
+| [SetEncryptDocumentProperties(bool value)](../saveoptions/setencryptdocumentproperties/) | Indicates whether encrypt document properties when saving as .xls file. The default value is true. |
 | [SetExportArea(const CellArea\& value)](./setexportarea/) | Gets or sets the exporting range. |
 | [SetHasHeaderRow(bool value)](./sethasheaderrow/) | Indicates whether the range contains header row. |
 | [SetMergeAreas(bool value)](../saveoptions/setmergeareas/) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |

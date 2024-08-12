@@ -30,6 +30,7 @@ class PaginatedSaveOptions : public Aspose::Cells::SaveOptions
 | [GetDefaultFont()](./getdefaultfont/) | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. Set the DefaultFont such as MingLiu or MS Gothic to show these characters. If this property is not set, [Aspose.Cells](../) will use system default font to show these unicode characters. |
 | [GetDrawObjectEventHandler()](./getdrawobjecteventhandler/) | Implements this interface to get DrawObject and Bound when rendering. |
 | [GetEmfRenderSetting()](./getemfrendersetting/) | Setting for rendering Emf metafile. |
+| [GetEncryptDocumentProperties()](../saveoptions/getencryptdocumentproperties/) | Indicates whether encrypt document properties when saving as .xls file. The default value is true. |
 | [GetGridlineType()](./getgridlinetype/) | Gets or sets gridline type. |
 | [GetIgnoreError()](./getignoreerror/) | Indicates if you need to hide the error while rendering. The error can be error in shape, image, chart rendering, etc. |
 | [GetMergeAreas()](../saveoptions/getmergeareas/) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
@@ -70,6 +71,7 @@ class PaginatedSaveOptions : public Aspose::Cells::SaveOptions
 | [SetDefaultFont(const char16_t* value)](./setdefaultfont/) | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. Set the DefaultFont such as MingLiu or MS Gothic to show these characters. If this property is not set, [Aspose.Cells](../) will use system default font to show these unicode characters. |
 | [SetDrawObjectEventHandler(DrawObjectEventHandler* value)](./setdrawobjecteventhandler/) | Implements this interface to get DrawObject and Bound when rendering. |
 | [SetEmfRenderSetting(EmfRenderSetting value)](./setemfrendersetting/) | Setting for rendering Emf metafile. |
+| [SetEncryptDocumentProperties(bool value)](../saveoptions/setencryptdocumentproperties/) | Indicates whether encrypt document properties when saving as .xls file. The default value is true. |
 | [SetGridlineType(GridlineType value)](./setgridlinetype/) | Gets or sets gridline type. |
 | [SetIgnoreError(bool value)](./setignoreerror/) | Indicates if you need to hide the error while rendering. The error can be error in shape, image, chart rendering, etc. |
 | [SetIsFontSubstitutionCharGranularity(bool value)](./setisfontsubstitutionchargranularity/) | Indicates whether to only substitute the font of character when the cell font is not compatibility for it. |

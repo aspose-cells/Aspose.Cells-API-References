@@ -56,6 +56,8 @@ class FractionEquationNode : public Aspose::Cells::Drawing::Equations::EquationN
 | [SetFractionType(EquationFractionType value)](./setfractiontype/) | This specifies the type of fraction ; the default is 'Bar'. |
 | [SetParentNode(const EquationNode\& value)](../equationnode/setparentnode/) | Specifies the parent node of the current node. |
 | [SetWordArtStyle(PresetWordArtStyle style)](../../aspose.cells/fontsetting/setwordartstyle/) | Sets the preset WordArt style. |
+| [ToLaTeX()](../equationnode/tolatex/) | Conver this equtation to LaTeX expression. |
+| [ToMathML()](../equationnode/tomathml/) | Conver this equtation to MathML expression. |
 | [~EquationNode()](../equationnode/~equationnode/) | Destructor. |
 | [~FontSetting()](../../aspose.cells/fontsetting/~fontsetting/) | Destructor. |
 | [~FractionEquationNode()](./~fractionequationnode/) | Destructor. |

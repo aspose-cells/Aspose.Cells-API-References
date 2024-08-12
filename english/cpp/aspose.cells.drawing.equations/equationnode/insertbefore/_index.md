@@ -4,7 +4,7 @@ linktitle: InsertBefore
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Equations::EquationNode::InsertBefore method. Inserts the specified node before the current node in C++.'
 type: docs
-weight: 1100
+weight: 1300
 url: /cpp/aspose.cells.drawing.equations/equationnode/insertbefore/
 ---
 ## EquationNode::InsertBefore method

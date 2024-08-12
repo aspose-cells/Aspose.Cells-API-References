@@ -39,7 +39,7 @@ class DelimiterEquationNode : public Aspose::Cells::Drawing::Equations::Equation
 | [GetEquationType()](../equationnode/getequationtype/) | Get the equation type of the current node. |
 | [GetFont()](../../aspose.cells/fontsetting/getfont/) | Returns the font of this object. |
 | [GetLength()](../../aspose.cells/fontsetting/getlength/) | Gets the length of the characters. |
-| [GetNaryGrow()](./getnarygrow/) | This property specifies the growth property of the delimiter at the document level. When off, the delimiter will not grow to match the size of its component height. When enabled, the delimiter grows vertically to match its component height. |
+| [GetNaryGrow()](./getnarygrow/) |  |
 | [GetParentNode()](../equationnode/getparentnode/) | Specifies the parent node of the current node. |
 | [GetSeparatorChar()](./getseparatorchar/) | Delimiter separator character. |
 | [GetStartIndex()](../../aspose.cells/fontsetting/getstartindex/) | Gets the start index of the characters. |
@@ -62,11 +62,13 @@ class DelimiterEquationNode : public Aspose::Cells::Drawing::Equations::Equation
 | [SetDelimiterShape(EquationDelimiterShapeType value)](./setdelimitershape/) | Specifies the shape of delimiters in the delimiter object. |
 | [SetEndChar(const U16String\& value)](./setendchar/) | Delimiter ending character. |
 | [SetEndChar(const char16_t* value)](./setendchar/) | Delimiter ending character. |
-| [SetNaryGrow(bool value)](./setnarygrow/) | This property specifies the growth property of the delimiter at the document level. When off, the delimiter will not grow to match the size of its component height. When enabled, the delimiter grows vertically to match its component height. |
+| [SetNaryGrow(bool value)](./setnarygrow/) |  |
 | [SetParentNode(const EquationNode\& value)](../equationnode/setparentnode/) | Specifies the parent node of the current node. |
 | [SetSeparatorChar(const U16String\& value)](./setseparatorchar/) | Delimiter separator character. |
 | [SetSeparatorChar(const char16_t* value)](./setseparatorchar/) | Delimiter separator character. |
 | [SetWordArtStyle(PresetWordArtStyle style)](../../aspose.cells/fontsetting/setwordartstyle/) | Sets the preset WordArt style. |
+| [ToLaTeX()](../equationnode/tolatex/) | Conver this equtation to LaTeX expression. |
+| [ToMathML()](../equationnode/tomathml/) | Conver this equtation to MathML expression. |
 | [~DelimiterEquationNode()](./~delimiterequationnode/) | Destructor. |
 | [~EquationNode()](../equationnode/~equationnode/) | Destructor. |
 | [~FontSetting()](../../aspose.cells/fontsetting/~fontsetting/) | Destructor. |

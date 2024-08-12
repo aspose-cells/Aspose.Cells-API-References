@@ -4,7 +4,7 @@ linktitle: GetItems
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotField::GetItems method. Get all labels of pivot items in this field in C++.'
 type: docs
-weight: 9100
+weight: 8500
 url: /cpp/aspose.cells.pivot/pivotfield/getitems/
 ---
 ## PivotField::GetItems method

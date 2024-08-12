@@ -4,7 +4,7 @@ linktitle: CreateNode
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Equations::EquationNode::CreateNode method. Create a node of the specified type in C++.'
 type: docs
-weight: 1800
+weight: 2000
 url: /cpp/aspose.cells.drawing.equations/equationnode/createnode/
 ---
 ## EquationNode::CreateNode method

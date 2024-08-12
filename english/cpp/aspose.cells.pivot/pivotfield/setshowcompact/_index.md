@@ -4,7 +4,7 @@ linktitle: SetShowCompact
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotField::SetShowCompact method. Indicates whether display labels from the next field in the same column on the Pivot Table view in C++.'
 type: docs
-weight: 9600
+weight: 9000
 url: /cpp/aspose.cells.pivot/pivotfield/setshowcompact/
 ---
 ## PivotField::SetShowCompact method

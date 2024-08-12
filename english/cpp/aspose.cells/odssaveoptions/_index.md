@@ -23,6 +23,7 @@ class OdsSaveOptions : public Aspose::Cells::SaveOptions
 | [GetCachedFileFolder()](../saveoptions/getcachedfilefolder/) | The cached file folder is used to store some large data. |
 | [GetClearData()](../saveoptions/getcleardata/) | Make the workbook empty after saving the file. |
 | [GetCreateDirectory()](../saveoptions/getcreatedirectory/) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
+| [GetEncryptDocumentProperties()](../saveoptions/getencryptdocumentproperties/) | Indicates whether encrypt document properties when saving as .xls file. The default value is true. |
 | [GetGeneratorType()](./getgeneratortype/) | Gets and sets the generator of the ods file. |
 | [GetMergeAreas()](../saveoptions/getmergeareas/) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [GetOdfStrictVersion()](./getodfstrictversion/) | Gets and sets the ODF version. |
@@ -49,6 +50,7 @@ class OdsSaveOptions : public Aspose::Cells::SaveOptions
 | [SetCachedFileFolder(const char16_t* value)](../saveoptions/setcachedfilefolder/) | The cached file folder is used to store some large data. |
 | [SetClearData(bool value)](../saveoptions/setcleardata/) | Make the workbook empty after saving the file. |
 | [SetCreateDirectory(bool value)](../saveoptions/setcreatedirectory/) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
+| [SetEncryptDocumentProperties(bool value)](../saveoptions/setencryptdocumentproperties/) | Indicates whether encrypt document properties when saving as .xls file. The default value is true. |
 | [SetGeneratorType(OdsGeneratorType value)](./setgeneratortype/) | Gets and sets the generator of the ods file. |
 | [SetIsStrictSchema11(bool value)](./setisstrictschema11/) |  **(Deprecated)** Indicates whether the ods file should be saved as ODF format version 1.1. Default is false. |
 | [SetMergeAreas(bool value)](../saveoptions/setmergeareas/) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |

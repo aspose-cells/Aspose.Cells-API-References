@@ -4,7 +4,7 @@ linktitle: GetIndent
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::JsonSaveOptions::GetIndent method. Indicates the indent in C++.'
 type: docs
-weight: 1800
+weight: 2000
 url: /cpp/aspose.cells/jsonsaveoptions/getindent/
 ---
 ## JsonSaveOptions::GetIndent method

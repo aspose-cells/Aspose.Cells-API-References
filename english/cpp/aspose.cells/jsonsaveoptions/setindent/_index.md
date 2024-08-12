@@ -4,7 +4,7 @@ linktitle: SetIndent
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::JsonSaveOptions::SetIndent method. Indicates the indent in C++.'
 type: docs
-weight: 1900
+weight: 2100
 url: /cpp/aspose.cells/jsonsaveoptions/setindent/
 ---
 ## JsonSaveOptions::SetIndent(const U16String\&) method

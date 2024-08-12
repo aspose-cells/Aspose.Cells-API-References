@@ -4,7 +4,7 @@ linktitle: AddChild
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Equations::EquationNode::AddChild method. Insert a node of the specified type at the end of the child node list of the current node in C++.'
 type: docs
-weight: 800
+weight: 1000
 url: /cpp/aspose.cells.drawing.equations/equationnode/addchild/
 ---
 ## EquationNode::AddChild(EquationNodeType) method

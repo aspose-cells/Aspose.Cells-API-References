@@ -4,7 +4,7 @@ linktitle: SortOrder
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::SortOrder enum. Represents sort order for the data range in C++.'
 type: docs
-weight: 25200
+weight: 25300
 url: /cpp/aspose.cells/sortorder/
 ---
 ## SortOrder enum
@@ -20,8 +20,9 @@ enum class SortOrder
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Ascending | 0 | <br> |
-| Descending | 1 | <br> |
+| Ascending | 0 | <br>Sorts data in ascending order. |
+| Descending | 1 | <br>Sorts data in descending order. |
+| Natural | 2 | <br>Keeps original data order without sorting. Only applies to some special scenarios such as PivotTable. |
 
 ## See Also
 

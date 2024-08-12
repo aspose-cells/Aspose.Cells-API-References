@@ -23,6 +23,7 @@ class SaveOptions
 | [GetCachedFileFolder()](./getcachedfilefolder/) | The cached file folder is used to store some large data. |
 | [GetClearData()](./getcleardata/) | Make the workbook empty after saving the file. |
 | [GetCreateDirectory()](./getcreatedirectory/) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
+| [GetEncryptDocumentProperties()](./getencryptdocumentproperties/) | Indicates whether encrypt document properties when saving as .xls file. The default value is true. |
 | [GetMergeAreas()](./getmergeareas/) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [GetRefreshChartCache()](./getrefreshchartcache/) | Indicates whether refreshing chart cache data. |
 | [GetSaveFormat()](./getsaveformat/) | Gets the save file format. |
@@ -40,6 +41,7 @@ class SaveOptions
 | [SetCachedFileFolder(const char16_t* value)](./setcachedfilefolder/) | The cached file folder is used to store some large data. |
 | [SetClearData(bool value)](./setcleardata/) | Make the workbook empty after saving the file. |
 | [SetCreateDirectory(bool value)](./setcreatedirectory/) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
+| [SetEncryptDocumentProperties(bool value)](./setencryptdocumentproperties/) | Indicates whether encrypt document properties when saving as .xls file. The default value is true. |
 | [SetMergeAreas(bool value)](./setmergeareas/) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [SetRefreshChartCache(bool value)](./setrefreshchartcache/) | Indicates whether refreshing chart cache data. |
 | [SetSortExternalNames(bool value)](./setsortexternalnames/) | Indicates whether sorting external defined names before saving file. |

@@ -4,7 +4,7 @@ linktitle: SqlScriptSaveOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Saving::SqlScriptSaveOptions class. Represents the options of saving sql in C++.'
 type: docs
-weight: 300
+weight: 400
 url: /cpp/aspose.cells.saving/sqlscriptsaveoptions/
 ---
 ## SqlScriptSaveOptions class
@@ -28,6 +28,7 @@ class SqlScriptSaveOptions : public Aspose::Cells::SaveOptions
 | [GetColumnTypeMap()](./getcolumntypemap/) | Gets and sets the map of column type for different database. |
 | [GetCreateDirectory()](../../aspose.cells/saveoptions/getcreatedirectory/) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [GetCreateTable()](./getcreatetable/) | Indicates whether exporting sql of creating table. |
+| [GetEncryptDocumentProperties()](../../aspose.cells/saveoptions/getencryptdocumentproperties/) | Indicates whether encrypt document properties when saving as .xls file. The default value is true. |
 | [GetExportArea()](./getexportarea/) | Gets or sets the exporting range. |
 | [GetExportAsString()](./getexportasstring/) | Indicates whether exporting all data as string value. |
 | [GetHasHeaderRow()](./gethasheaderrow/) | Indicates whether the range contains header row. |
@@ -61,6 +62,7 @@ class SqlScriptSaveOptions : public Aspose::Cells::SaveOptions
 | [SetColumnTypeMap(const SqlScriptColumnTypeMap\& value)](./setcolumntypemap/) | Gets and sets the map of column type for different database. |
 | [SetCreateDirectory(bool value)](../../aspose.cells/saveoptions/setcreatedirectory/) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [SetCreateTable(bool value)](./setcreatetable/) | Indicates whether exporting sql of creating table. |
+| [SetEncryptDocumentProperties(bool value)](../../aspose.cells/saveoptions/setencryptdocumentproperties/) | Indicates whether encrypt document properties when saving as .xls file. The default value is true. |
 | [SetExportArea(const CellArea\& value)](./setexportarea/) | Gets or sets the exporting range. |
 | [SetExportAsString(bool value)](./setexportasstring/) | Indicates whether exporting all data as string value. |
 | [SetHasHeaderRow(bool value)](./sethasheaderrow/) | Indicates whether the range contains header row. |

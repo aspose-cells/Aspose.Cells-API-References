@@ -4,7 +4,7 @@ linktitle: ChangeDataSource
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::ChangeDataSource method. Set pivottable''s source data. Sheet1!$A$1:$C$3 in C++.'
 type: docs
-weight: 13200
+weight: 13300
 url: /cpp/aspose.cells.pivot/pivottable/changedatasource/
 ---
 ## PivotTable::ChangeDataSource method
