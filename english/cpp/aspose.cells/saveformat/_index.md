@@ -32,8 +32,8 @@ enum class SaveFormat
 | TabDelimited | 11 | <br>Represents a tab delimited text file, same with [Tsv](../fileformattype/). |
 | Html | 12 | <br>Represents a html file. |
 | MHtml | 17 | <br>Represents a mhtml file. |
-| Ods | 14 | <br>Open Document [Sheet(ODS)](../../aspose.cells.pivot/pivottablesourcetype/) file. |
-| ODS | 14 |  **(Deprecated - Use SaveFormat.Ods instead. )** <br>Open Document [Sheet(ODS)](../../aspose.cells.pivot/pivottablesourcetype/) file. NOTE: This member is now obsolete. Instead, please use [Ods](../../aspose.cells.ods/) property. This property will be removed 6 months later since April 2021. **Aspose** apologizes for any inconvenience you may have experienced. |
+| Ods | 14 | <br>Open Document Sheet(ODS) file. |
+| ODS | 14 |  **(Deprecated - Use SaveFormat.Ods instead. )** <br>Open Document Sheet(ODS) file. NOTE: This member is now obsolete. Instead, please use [Ods](../../aspose.cells.ods/) property. This property will be removed 6 months later since April 2021. **Aspose** apologizes for any inconvenience you may have experienced. |
 | Excel97To2003 | 5 | <br>Represents an Excel97-2003 xls file. |
 | SpreadsheetML | 15 | <br>Represents an Excel 2003 xml file. |
 | Xlsb | 16 | <br>Represents an xlsb file. |
@@ -47,7 +47,7 @@ enum class SaveFormat
 | Svg | 28 | <br>SVG file. |
 | SVG | 28 |  **(Deprecated - Use SaveFormat.Svg instead. )** <br>SVG file. NOTE: This member is now obsolete. Instead, please use [Svg](../fileformattype/) property. This property will be removed 6 months later since April 2021. **Aspose** apologizes for any inconvenience you may have experienced. |
 | Dif | 30 | <br>Data Interchange Format. |
-| Ots | 31 | <br>Open Document Template [Sheet(OTS)](../../aspose.cells.pivot/pivottablesourcetype/) file. |
+| Ots | 31 | <br>Open Document Template Sheet(OTS) file. |
 | Xlt | 32 | <br>Excel 97-2003 template file. |
 | Xml | 51 | <br>Represents a simple xml file. |
 | Numbers | 56 | <br>Represents a numbers file. |

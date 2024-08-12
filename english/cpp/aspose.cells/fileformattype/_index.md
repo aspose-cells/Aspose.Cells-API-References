@@ -30,7 +30,7 @@ enum class FileFormatType
 | TabDelimited | 11 | <br>Tab-Separated [Values(TSV)](../autofilltype/) text file, same with [Tsv](./). |
 | Html | 12 | <br>HTML format. |
 | MHtml | 17 | <br>MHTML (Web archive) format. |
-| Ods | 14 | <br>Open Document [Sheet(ODS)](../../aspose.cells.pivot/pivottablesourcetype/) file. |
+| Ods | 14 | <br>Open Document Sheet(ODS) file. |
 | Excel97To2003 | 5 | <br>Excel97-2003 spreadsheet file. |
 | SpreadsheetML | 15 | <br>Excel 2003 XML Data file. |
 | Xlsb | 16 | <br>The Excel Binary File Format (.xlsb) |
