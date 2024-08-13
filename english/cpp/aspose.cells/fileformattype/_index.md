@@ -20,14 +20,14 @@ enum class FileFormatType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Csv | 1 | <br>Comma-Separated [Values(CSV)](../autofilltype/) text file. |
+| Csv | 1 | <br>Comma-Separated Values(CSV) text file. |
 | Xlsx | 6 | <br>Office Open XML SpreadsheetML file (macro-free). |
 | Xlsm | 7 | <br>Office Open XML SpreadsheetML Macro-Enabled file. |
 | Xltx | 8 | <br>Office Open XML SpreadsheetML Template (macro-free). |
 | Xltm | 9 | <br>Office Open XML SpreadsheetML Macro-Enabled Template. |
 | Xlam | 10 | <br>Office Open XML SpreadsheetML addinMacro-Enabled file. |
-| Tsv | 11 | <br>Tab-Separated [Values(TSV)](../autofilltype/) text file. |
-| TabDelimited | 11 | <br>Tab-Separated [Values(TSV)](../autofilltype/) text file, same with [Tsv](./). |
+| Tsv | 11 | <br>Tab-Separated Values(TSV) text file. |
+| TabDelimited | 11 | <br>Tab-Separated Values(TSV) text file, same with [Tsv](./). |
 | Html | 12 | <br>HTML format. |
 | MHtml | 17 | <br>MHTML (Web archive) format. |
 | Ods | 14 | <br>Open Document Sheet(ODS) file. |
