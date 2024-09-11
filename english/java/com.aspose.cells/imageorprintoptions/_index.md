@@ -275,11 +275,32 @@ public int getHorizontalResolution()
 ```
 
 
-Gets the horizontal resolution for generated images, in dots per inch. Applies generating image method except Emf format images.
+Gets the horizontal resolution for generated images, in dots per inch.
 
 **Remarks**
 
-The default value is 96.
+The default value is 96. Setting  and  effects the width and height of the output image in pixels.
+
+**Example**
+
+The following code sets resolution to 192, the width and height of the generated image is twice of the one with resolution left as the default value 96.
+
+```
+         Workbook wb = new Workbook("Book1.xlsx");
+ 
+         ImageOrPrintOptions opts = new ImageOrPrintOptions();
+ 
+         //Set output image type: png.
+         opts.setImageType(ImageType.PNG);
+ 
+         //Set resolution to 192.
+         opts.setHorizontalResolution(192);
+         opts.setVerticalResolution(192);
+ 
+         //Render worksheet page to image.
+         SheetRender sr = new SheetRender(wb.getWorksheets().get(0), opts);
+         sr.toImage(0, "Sheet_Page1.png");
+```
 
 **Returns:**
 int
@@ -521,11 +542,31 @@ public int getVerticalResolution()
 ```
 
 
-Gets the vertical resolution for generated images, in dots per inch. Applies generating image method except Emf format image.
+Gets the vertical resolution for generated images, in dots per inch.
 
 **Remarks**
 
-The default value is 96.
+The default value is 96. Setting  and  effects the width and height of the output image in pixels.
+
+**Example**
+
+The following code sets resolution to 192, the width and height of the generated image is twice of the one with resolution left as the default value 96.
+
+```
+         Workbook wb = new Workbook("Book1.xlsx");
+ 
+         ImageOrPrintOptions opts = new ImageOrPrintOptions();
+ 
+         //Set output image type: png.
+         opts.setImageType(ImageType.PNG);
+ 
+         //Set resolution to 192.
+         opts.setHorizontalResolution(192);
+         opts.setVerticalResolution(192);
+ 
+         //Render Chart to image.
+         wb.getWorksheets().get(0).getCharts().get(0).toImage("Chart.png", opts);
+```
 
 **Returns:**
 int
@@ -729,6 +770,10 @@ public void setDesiredSize(int desiredWidth, int desiredHeight, boolean keepAspe
 
 Sets desired width and height of image.
 
+**Remarks**
+
+The width and height of the output image in pixels will be only based on the set desired width and height. The  and  will not effect the width and height of the output image in this case.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -823,11 +868,11 @@ public void setHorizontalResolution(int value)
 ```
 
 
-Sets the horizontal resolution for generated images, in dots per inch. Applies generating image method except Emf format images.
+Sets the horizontal resolution for generated images, in dots per inch.
 
 **Remarks**
 
-The default value is 96.
+The default value is 96. Setting  and  effects the width and height of the output image in pixels.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1157,11 +1202,11 @@ public void setVerticalResolution(int value)
 ```
 
 
-Sets the vertical resolution for generated images, in dots per inch. Applies generating image method except Emf format image.
+Sets the vertical resolution for generated images, in dots per inch.
 
 **Remarks**
 
-The default value is 96.
+The default value is 96. Setting  and  effects the width and height of the output image in pixels.
 
 **Parameters:**
 | Parameter | Type | Description |

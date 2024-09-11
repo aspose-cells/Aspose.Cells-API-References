@@ -29,6 +29,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [AdvancedFilter](../com.aspose.cells/advancedfilter) | Represents the settings of advanced filter. |
 | [ArcShape](../com.aspose.cells/arcshape) | Represents the arc shape. |
 | [Area](../com.aspose.cells/area) | Encapsulates the object that represents an area format. |
+| [ArrayEquationNode](../com.aspose.cells/arrayequationnode) | Specifies the Equation-Array function, an object consisting of one or more equations. |
 | [AutoFillType](../com.aspose.cells/autofilltype) | Represents the auto fill type. |
 | [AutoFilter](../com.aspose.cells/autofilter) | Represents autofiltering for the specified worksheet. |
 | [AutoFitMergedCellsType](../com.aspose.cells/autofitmergedcellstype) | Represents the type of auto fitting merged cells. |
@@ -299,6 +300,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [HtmlHiddenRowDisplayType](../com.aspose.cells/htmlhiddenrowdisplaytype) | Represents two types of showing the hidden rows in html. |
 | [HtmlLinkTargetType](../com.aspose.cells/htmllinktargettype) | Represents the type of target attribute in HTML  tag. |
 | [HtmlLoadOptions](../com.aspose.cells/htmlloadoptions) | Represents options when importing a html file. |
+| [HtmlOfficeMathOutputType](../com.aspose.cells/htmlofficemathoutputtype) | Represents how export OfficeMath to HTML. |
 | [HtmlSaveOptions](../com.aspose.cells/htmlsaveoptions) | Represents the options for saving html file. |
 | [HtmlTableLoadOption](../com.aspose.cells/htmltableloadoption) | Represents the option when import table from html. |
 | [HtmlTableLoadOptionCollection](../com.aspose.cells/htmltableloadoptioncollection) | Represents the table options when importing html. |
@@ -333,6 +335,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [License](../com.aspose.cells/license) | Provides methods to license the component. |
 | [LightRigDirectionType](../com.aspose.cells/lightrigdirectiontype) | Represents the light rig direction type. |
 | [LightRigType](../com.aspose.cells/lightrigtype) | Represents a preset light right that can be applied to a shape |
+| [LimLowUppEquationNode](../com.aspose.cells/limlowuppequationnode) | This class specifies the limit function. |
 | [Line](../com.aspose.cells/line) | Encapsulates the object that represents the line format. |
 | [LineCapType](../com.aspose.cells/linecaptype) | Represents the caps of a line |
 | [LineFormat](../com.aspose.cells/lineformat) | Represents all setting of the line. |
@@ -391,7 +394,6 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [NoneBulletValue](../com.aspose.cells/nonebulletvalue) | Represents no bullet. |
 | [NoneFill](../com.aspose.cells/nonefill) | Represents no fill. |
 | [NumberCategoryType](../com.aspose.cells/numbercategorytype) | Represents category type of cell's number formatting. |
-| [Numbers35SaveOptions](../com.aspose.cells/numbers35saveoptions) | Represents the options for saving ebook file. |
 | [NumbersLoadOptions](../com.aspose.cells/numbersloadoptions) | Represents the options of loading Apple Numbers files. |
 | [OLEDBCommandType](../com.aspose.cells/oledbcommandtype) | Specifies the OLE DB command type. |
 | [OdsCellField](../com.aspose.cells/odscellfield) | Represents the cell field of ods. |

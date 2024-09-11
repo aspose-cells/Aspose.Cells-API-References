@@ -81,7 +81,7 @@ Encapsulates a collection of cell relevant objects, such as [Cell](../../com.asp
 | [deleteBlankColumns()](#deleteBlankColumns--) | Delete all blank columns which do not contain any data. |
 | [deleteBlankColumns(DeleteOptions options)](#deleteBlankColumns-com.aspose.cells.DeleteOptions-) | Delete all blank columns which do not contain any data. |
 | [deleteBlankRows()](#deleteBlankRows--) | Delete all blank rows which do not contain any data or other object. |
-| [deleteBlankRows(DeleteOptions options)](#deleteBlankRows-com.aspose.cells.DeleteOptions-) | Delete all blank rows which do not contain any data or other object. |
+| [deleteBlankRows(DeleteOptions options)](#deleteBlankRows-com.aspose.cells.DeleteOptions-) | Delete all blank rows which do not contain any data or some special objects such as visible comment, pivot table. |
 | [deleteColumn(int columnIndex)](#deleteColumn-int-) | Deletes a column. |
 | [deleteColumn(int columnIndex, boolean updateReference)](#deleteColumn-int-boolean-) | Deletes a column. |
 | [deleteColumns(int columnIndex, int totalColumns, boolean updateReference)](#deleteColumns-int-int-boolean-) | Deletes several columns. |
@@ -707,7 +707,7 @@ public void deleteBlankRows(DeleteOptions options)
 ```
 
 
-Delete all blank rows which do not contain any data or other object.
+Delete all blank rows which do not contain any data or some special objects such as visible comment, pivot table.
 
 **Remarks**
 

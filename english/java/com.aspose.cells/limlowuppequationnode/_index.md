@@ -1,18 +1,18 @@
 ---
-title: AccentEquationNode
+title: LimLowUppEquationNode
 second_title: Aspose.Cells for Java API Reference
-description: This class specifies an accent equation consisting of a base component and a combining diacritic.
+description: This class specifies the limit function.
 type: docs
-url: /java/com.aspose.cells/accentequationnode/
+url: /java/com.aspose.cells/limlowuppequationnode/
 ---
 
 **Inheritance:**
 java.lang.Object, [com.aspose.cells.FontSetting](../../com.aspose.cells/fontsetting), [com.aspose.cells.EquationNode](../../com.aspose.cells/equationnode)
 ```
-public class AccentEquationNode extends EquationNode
+public class LimLowUppEquationNode extends EquationNode
 ```
 
-This class specifies an accent equation, consisting of a base component and a combining diacritic.
+This class specifies the limit function.
 ## Methods
 
 | Method | Description |
@@ -21,8 +21,6 @@ This class specifies an accent equation, consisting of a base component and a co
 | [addChild(int equationType)](#addChild-int-) | Insert a node of the specified type at the end of the child node list of the current node. |
 | [createNode(int equationType, Workbook workbook, EquationNode parent)](#createNode-int-com.aspose.cells.Workbook-com.aspose.cells.EquationNode-) | Create a node of the specified type. |
 | [equals(Object obj)](#equals-java.lang.Object-) | Determine whether the current equation node is equal to the specified node |
-| [getAccentCharacter()](#getAccentCharacter--) | This attribute specifies the type of combining diacritical mark attached to the base of the accent function. |
-| [getAccentCharacterType()](#getAccentCharacterType--) | Specify combining characters by type value. |
 | [getChild(int index)](#getChild-int-) | Returns the node at the specified index among the children of the current node. |
 | [getClass()](#getClass--) |  |
 | [getEquationType()](#getEquationType--) | Get the equation type of the current node |
@@ -42,8 +40,6 @@ This class specifies an accent equation, consisting of a base component and a co
 | [removeAllChildren()](#removeAllChildren--) | Removes all the child nodes of the current node. |
 | [removeChild(EquationNode node)](#removeChild-com.aspose.cells.EquationNode-) | Removes the specified node from the current node's children. |
 | [removeChild(int index)](#removeChild-int-) | Removes the node at the specified index from the current node's children. |
-| [setAccentCharacter(String value)](#setAccentCharacter-java.lang.String-) | This attribute specifies the type of combining diacritical mark attached to the base of the accent function. |
-| [setAccentCharacterType(int value)](#setAccentCharacterType-int-) | Specify combining characters by type value. |
 | [setParentNode(EquationNode value)](#setParentNode-com.aspose.cells.EquationNode-) | Specifies the parent node of the current node |
 | [setWordArtStyle(int style)](#setWordArtStyle-int-) | Sets the preset WordArt style. |
 | [toLaTeX()](#toLaTeX--) | Convert this equtation to LaTeX expression. |
@@ -112,32 +108,6 @@ Determine whether the current equation node is equal to the specified node
 
 **Returns:**
 boolean - 
-### getAccentCharacter() {#getAccentCharacter--}
-```
-public String getAccentCharacter()
-```
-
-
-This attribute specifies the type of combining diacritical mark attached to the base of the accent function. The default accent character is U+0302. It is strongly recommended to use attribute AccentType to set accent character. Use this property setting if you cannot find the character you need in a known type.
-
-**Remarks**
-
-It should be noted that this property only accepts one character, and if multiple characters are passed in, only the first character is accepted.
-
-**Returns:**
-java.lang.String
-### getAccentCharacterType() {#getAccentCharacterType--}
-```
-public int getAccentCharacterType()
-```
-
-
-Specify combining characters by type value.
-
-See [EquationCombiningCharacterType](../../com.aspose.cells/equationcombiningcharactertype).
-
-**Returns:**
-int
 ### getChild(int index) {#getChild-int-}
 ```
 public EquationNode getChild(int index)
@@ -350,38 +320,6 @@ Removes the node at the specified index from the current node's children.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int | Index of the node |
-
-### setAccentCharacter(String value) {#setAccentCharacter-java.lang.String-}
-```
-public void setAccentCharacter(String value)
-```
-
-
-This attribute specifies the type of combining diacritical mark attached to the base of the accent function. The default accent character is U+0302. It is strongly recommended to use attribute AccentType to set accent character. Use this property setting if you cannot find the character you need in a known type.
-
-**Remarks**
-
-It should be noted that this property only accepts one character, and if multiple characters are passed in, only the first character is accepted.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.lang.String |  |
-
-### setAccentCharacterType(int value) {#setAccentCharacterType-int-}
-```
-public void setAccentCharacterType(int value)
-```
-
-
-Specify combining characters by type value.
-
-See [EquationCombiningCharacterType](../../com.aspose.cells/equationcombiningcharactertype).
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
 
 ### setParentNode(EquationNode value) {#setParentNode-com.aspose.cells.EquationNode-}
 ```

@@ -31,6 +31,7 @@ Represents the options for saving html file.
 | [getCachedFileFolder()](#getCachedFileFolder--) | The cached file folder is used to store some large data. |
 | [getCalculateFormula()](#getCalculateFormula--) | Indicates whether to calculate formulas before saving html file. |
 | [getCellCssPrefix()](#getCellCssPrefix--) | Gets the prefix of the css name,the default value is "". |
+| [getCellNameAttribute()](#getCellNameAttribute--) | Specifies the attribute that indicates the CellName to be written. |
 | [getClass()](#getClass--) |  |
 | [getClearData()](#getClearData--) | Make the workbook empty after saving the file. |
 | [getCreateDirectory()](#getCreateDirectory--) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
@@ -78,6 +79,7 @@ Represents the options for saving html file.
 | [getMergeAreas()](#getMergeAreas--) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [getMergeEmptyTdForcely()](#getMergeEmptyTdForcely--) | Indicates whether merging empty TD element forcedly when exporting file to html. |
 | [getMergeEmptyTdType()](#getMergeEmptyTdType--) | The option to merge contiguous empty cells(empty td elements) The default value is MergeEmptyTdType.Default. |
+| [getOfficeMathOutputMode()](#getOfficeMathOutputMode--) | Indicates how export OfficeMath objects to HTML, Default value is Image. |
 | [getPageTitle()](#getPageTitle--) | The title of the html page. |
 | [getParseHtmlTagInCell()](#getParseHtmlTagInCell--) | Indicates whether html tag(such as `<div></div>`) in cell should be parsed as cell value or preserved as it is. |
 | [getPresentationPreference()](#getPresentationPreference--) | Indicating if html or mht file is presentation preference. |
@@ -112,6 +114,7 @@ Represents the options for saving html file.
 | [setCachedFileFolder(String value)](#setCachedFileFolder-java.lang.String-) | The cached file folder is used to store some large data. |
 | [setCalculateFormula(boolean value)](#setCalculateFormula-boolean-) | Indicates whether to calculate formulas before saving html file. |
 | [setCellCssPrefix(String value)](#setCellCssPrefix-java.lang.String-) | Sets the prefix of the css name,the default value is "". |
+| [setCellNameAttribute(String value)](#setCellNameAttribute-java.lang.String-) | Specifies the attribute that indicates the CellName to be written. |
 | [setClearData(boolean value)](#setClearData-boolean-) | Make the workbook empty after saving the file. |
 | [setCreateDirectory(boolean value)](#setCreateDirectory-boolean-) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [setCssStyles(String value)](#setCssStyles-java.lang.String-) | Sets the additional css styles for the formatter. |
@@ -163,6 +166,7 @@ Represents the options for saving html file.
 | [setMergeEmptyTdForcely(boolean value)](#setMergeEmptyTdForcely-boolean-) | Indicates whether merging empty TD element forcedly when exporting file to html. |
 | [setMergeEmptyTdType(int value)](#setMergeEmptyTdType-int-) | The option to merge contiguous empty cells(empty td elements) The default value is MergeEmptyTdType.Default. |
 | [setMobileCompatible(boolean value)](#setMobileCompatible-boolean-) | Indicates whether the output HTML is compatible with mobile devices. |
+| [setOfficeMathOutputMode(int value)](#setOfficeMathOutputMode-int-) | Indicates how export OfficeMath objects to HTML, Default value is Image. |
 | [setPageTitle(String value)](#setPageTitle-java.lang.String-) | The title of the html page. |
 | [setParseHtmlTagInCell(boolean value)](#setParseHtmlTagInCell-boolean-) | Indicates whether html tag(such as `<div></div>`) in cell should be parsed as cell value or preserved as it is. |
 | [setPresentationPreference(boolean value)](#setPresentationPreference-boolean-) | Indicating if html or mht file is presentation preference. |
@@ -289,6 +293,16 @@ public String getCellCssPrefix()
 
 
 Gets the prefix of the css name,the default value is "".
+
+**Returns:**
+java.lang.String
+### getCellNameAttribute() {#getCellNameAttribute--}
+```
+public String getCellNameAttribute()
+```
+
+
+Specifies the attribute that indicates the CellName to be written. (e.g. If the value is "id", then for cell "A1", the output will be:<td id='A1'>). The default value is null.
 
 **Returns:**
 java.lang.String
@@ -816,6 +830,18 @@ See [MergeEmptyTdType](../../com.aspose.cells/mergeemptytdtype).
 
 **Returns:**
 int
+### getOfficeMathOutputMode() {#getOfficeMathOutputMode--}
+```
+public int getOfficeMathOutputMode()
+```
+
+
+Indicates how export OfficeMath objects to HTML, Default value is Image.
+
+See [HtmlOfficeMathOutputType](../../com.aspose.cells/htmlofficemathoutputtype).
+
+**Returns:**
+int
 ### getPageTitle() {#getPageTitle--}
 ```
 public String getPageTitle()
@@ -1192,6 +1218,19 @@ public void setCellCssPrefix(String value)
 
 
 Sets the prefix of the css name,the default value is "".
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
+
+### setCellNameAttribute(String value) {#setCellNameAttribute-java.lang.String-}
+```
+public void setCellNameAttribute(String value)
+```
+
+
+Specifies the attribute that indicates the CellName to be written. (e.g. If the value is "id", then for cell "A1", the output will be:<td id='A1'>). The default value is null.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1914,6 +1953,21 @@ Indicates whether the output HTML is compatible with mobile devices. The default
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
+
+### setOfficeMathOutputMode(int value) {#setOfficeMathOutputMode-int-}
+```
+public void setOfficeMathOutputMode(int value)
+```
+
+
+Indicates how export OfficeMath objects to HTML, Default value is Image.
+
+See [HtmlOfficeMathOutputType](../../com.aspose.cells/htmlofficemathoutputtype).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
 
 ### setPageTitle(String value) {#setPageTitle-java.lang.String-}
 ```

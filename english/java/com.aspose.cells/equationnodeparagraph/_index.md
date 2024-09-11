@@ -44,8 +44,8 @@ This class specifies a mathematical paragraph containing one or more MathEquatio
 | [setJustification(int value)](#setJustification-int-) | This specifies justification of the math paragraph (a series of adjacent equations within the same paragraph). |
 | [setParentNode(EquationNode value)](#setParentNode-com.aspose.cells.EquationNode-) | Specifies the parent node of the current node |
 | [setWordArtStyle(int style)](#setWordArtStyle-int-) | Sets the preset WordArt style. |
-| [toLaTeX()](#toLaTeX--) | Conver this equtation to LaTeX expression. |
-| [toMathML()](#toMathML--) | Conver this equtation to MathML expression. |
+| [toLaTeX()](#toLaTeX--) | Convert this equtation to LaTeX expression. |
+| [toMathML()](#toMathML--) | Convert this equtation to MathML expression. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -386,7 +386,7 @@ public String toLaTeX()
 ```
 
 
-Conver this equtation to LaTeX expression.
+Convert this equtation to LaTeX expression.
 
 **Returns:**
 java.lang.String
@@ -396,7 +396,7 @@ public String toMathML()
 ```
 
 
-Conver this equtation to MathML expression.
+Convert this equtation to MathML expression.
 
 **Returns:**
 java.lang.String - 

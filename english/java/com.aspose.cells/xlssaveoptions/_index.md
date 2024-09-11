@@ -39,6 +39,7 @@ Represents the save options for the Excel 97-2003 file format: xls and xlt.
 | [getUpdateSmartArt()](#getUpdateSmartArt--) | Indicates whether updating smart art setting. |
 | [getValidateMergedAreas()](#getValidateMergedAreas--) | Indicates whether validate merged cells before saving the file. |
 | [getWarningCallback()](#getWarningCallback--) | Gets warning callback. |
+| [getWpsCompatibility()](#getWpsCompatibility--) | Indicates whether exporting |
 | [hashCode()](#hashCode--) |  |
 | [isTemplate()](#isTemplate--) | Indicates whether saving a template file. |
 | [notify()](#notify--) |  |
@@ -57,6 +58,7 @@ Represents the save options for the Excel 97-2003 file format: xls and xlt.
 | [setUpdateSmartArt(boolean value)](#setUpdateSmartArt-boolean-) | Indicates whether updating smart art setting. |
 | [setValidateMergedAreas(boolean value)](#setValidateMergedAreas-boolean-) | Indicates whether validate merged cells before saving the file. |
 | [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.cells.IWarningCallback-) | Sets warning callback. |
+| [setWpsCompatibility(boolean value)](#setWpsCompatibility-boolean-) | Indicates whether exporting |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -269,6 +271,16 @@ Gets warning callback.
 
 **Returns:**
 [IWarningCallback](../../com.aspose.cells/iwarningcallback)
+### getWpsCompatibility() {#getWpsCompatibility--}
+```
+public boolean getWpsCompatibility()
+```
+
+
+Indicates whether exporting
+
+**Returns:**
+boolean
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -514,6 +526,19 @@ Sets warning callback.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [IWarningCallback](../../com.aspose.cells/iwarningcallback) |  |
+
+### setWpsCompatibility(boolean value) {#setWpsCompatibility-boolean-}
+```
+public void setWpsCompatibility(boolean value)
+```
+
+
+Indicates whether exporting
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### toString() {#toString--}
 ```

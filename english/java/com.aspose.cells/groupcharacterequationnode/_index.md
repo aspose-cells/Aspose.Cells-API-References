@@ -50,8 +50,8 @@ This class specifies the Group-Character function, consisting of a character dra
 | [setPosition(int value)](#setPosition-int-) | This attribute specifies the position of the character in the object |
 | [setVertJc(int value)](#setVertJc-int-) | This attribute, combined with pos of groupChrPr, specifies the vertical layout of the groupChr object. |
 | [setWordArtStyle(int style)](#setWordArtStyle-int-) | Sets the preset WordArt style. |
-| [toLaTeX()](#toLaTeX--) | Conver this equtation to LaTeX expression. |
-| [toMathML()](#toMathML--) | Conver this equtation to MathML expression. |
+| [toLaTeX()](#toLaTeX--) | Convert this equtation to LaTeX expression. |
+| [toMathML()](#toMathML--) | Convert this equtation to MathML expression. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -477,7 +477,7 @@ public String toLaTeX()
 ```
 
 
-Conver this equtation to LaTeX expression.
+Convert this equtation to LaTeX expression.
 
 **Returns:**
 java.lang.String
@@ -487,7 +487,7 @@ public String toMathML()
 ```
 
 
-Conver this equtation to MathML expression.
+Convert this equtation to MathML expression.
 
 **Returns:**
 java.lang.String - 

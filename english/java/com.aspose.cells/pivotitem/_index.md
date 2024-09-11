@@ -21,6 +21,7 @@ Represents a item in a PivotField report.
 | [getClass()](#getClass--) |  |
 | [getDateTimeValue()](#getDateTimeValue--) | Gets the date time value of the pivot item If the value is null ,it will return DateTime.MinValue |
 | [getDoubleValue()](#getDoubleValue--) | Gets the double value of the pivot item If the value is null or not number ,it will return 0 |
+| [getFormula()](#getFormula--) | Gets the formula of this calculated item. |
 | [getIndex()](#getIndex--) | Gets the index of the pivot item in cache field. |
 | [getName()](#getName--) | Gets the name of the pivot item. |
 | [getPosition()](#getPosition--) | Specifying the position index in all the PivotItems,not the PivotItems under the same parent node. |
@@ -40,6 +41,7 @@ Represents a item in a PivotField report.
 | [setHidden(boolean value)](#setHidden-boolean-) | Sets whether the pivot item is hidden. |
 | [setHideDetail(boolean value)](#setHideDetail-boolean-) | Sets whether the pivot item hides detail. |
 | [setIndex(int value)](#setIndex-int-) | Gets the index of the pivot item in cache field. |
+| [setName(String value)](#setName-java.lang.String-) | Gets the name of the pivot item. |
 | [setPosition(int value)](#setPosition-int-) | Specifying the position index in all the PivotItems,not the PivotItems under the same parent node. |
 | [setPositionInSameParentNode(int value)](#setPositionInSameParentNode-int-) | Specifying the position index in the PivotItems under the same parent node. |
 | [toString()](#toString--) |  |
@@ -91,6 +93,16 @@ Gets the double value of the pivot item If the value is null or not number ,it w
 
 **Returns:**
 double
+### getFormula() {#getFormula--}
+```
+public String getFormula()
+```
+
+
+Gets the formula of this calculated item. Only works when this item is calculated item.
+
+**Returns:**
+java.lang.String - 
 ### getIndex() {#getIndex--}
 ```
 public int getIndex()
@@ -108,6 +120,8 @@ public String getName()
 
 
 Gets the name of the pivot item.
+
+**Remarks**
 
 **Returns:**
 java.lang.String
@@ -303,6 +317,21 @@ Gets the index of the pivot item in cache field.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
+
+### setName(String value) {#setName-java.lang.String-}
+```
+public void setName(String value)
+```
+
+
+Gets the name of the pivot item.
+
+**Remarks**
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
 
 ### setPosition(int value) {#setPosition-int-}
 ```

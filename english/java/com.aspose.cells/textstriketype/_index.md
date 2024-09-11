@@ -39,7 +39,7 @@ public static final int DOUBLE
 ```
 
 
-A double strikethrough applied on the text.
+A double strikethrough applied on the text. Only works for the text of the shapes or charts.
 
 ### NONE {#NONE}
 ```

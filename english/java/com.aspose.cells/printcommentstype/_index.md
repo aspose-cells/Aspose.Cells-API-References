@@ -20,6 +20,7 @@ Represents the way comments are printed with the sheet.
 | [PRINT_IN_PLACE](#PRINT-IN-PLACE) | Represents to print comments as displayed on sheet. |
 | [PRINT_NO_COMMENTS](#PRINT-NO-COMMENTS) | Represents not to print comments. |
 | [PRINT_SHEET_END](#PRINT-SHEET-END) | Represents to print comments at end of sheet. |
+| [PRINT_WITH_THREADED_COMMENTS](#PRINT-WITH-THREADED-COMMENTS) | Represents to print comments as displayed on sheet include threaded comments. |
 ## Methods
 
 | Method | Description |
@@ -56,6 +57,14 @@ public static final int PRINT_SHEET_END
 
 
 Represents to print comments at end of sheet.
+
+### PRINT_WITH_THREADED_COMMENTS {#PRINT-WITH-THREADED-COMMENTS}
+```
+public static final int PRINT_WITH_THREADED_COMMENTS
+```
+
+
+Represents to print comments as displayed on sheet include threaded comments.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

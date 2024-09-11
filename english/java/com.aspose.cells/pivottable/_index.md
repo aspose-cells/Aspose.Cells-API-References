@@ -269,6 +269,7 @@ Summary description for PivotTable.
 | [setTag(String value)](#setTag-java.lang.String-) | Gets a string saved with the PivotTable report. |
 | [setUngroup(PivotField pivotField)](#setUngroup-com.aspose.cells.PivotField-) | Sets ungroup by the PivotTable |
 | [setUngroup(int baseFieldIndex)](#setUngroup-int-) | Sets ungroup by the PivotTable |
+| [showDetail(int rowOffset, int columnOffset, boolean newSheet, int destRow, int destColumn)](#showDetail-int-int-boolean-int-int-) | Show the detail of one item in the data region to a new Table. |
 | [showInCompactForm()](#showInCompactForm--) | Layouts the PivotTable in compact form. |
 | [showInOutlineForm()](#showInOutlineForm--) | Layouts the PivotTable in outline form. |
 | [showInTabularForm()](#showInTabularForm--) | Layouts the PivotTable in tabular form. |
@@ -2425,6 +2426,23 @@ NOTE: This method is now obsolete. Instead, please use PivotField.Ungroup() meth
 | Parameter | Type | Description |
 | --- | --- | --- |
 | baseFieldIndex | int | The row or column field index in the base fields |
+
+### showDetail(int rowOffset, int columnOffset, boolean newSheet, int destRow, int destColumn) {#showDetail-int-int-boolean-int-int-}
+```
+public void showDetail(int rowOffset, int columnOffset, boolean newSheet, int destRow, int destColumn)
+```
+
+
+Show the detail of one item in the data region to a new Table.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| rowOffset | int | Offset to the first data row in the data region. |
+| columnOffset | int | Offset to the first data column in the data region. |
+| newSheet | boolean | Show the detail to a new worksheet. |
+| destRow | int | The target row. |
+| destColumn | int | The target column. |
 
 ### showInCompactForm() {#showInCompactForm--}
 ```

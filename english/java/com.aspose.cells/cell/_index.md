@@ -117,6 +117,7 @@ Encapsulates the object that represents a single Workbook cell.
 | [insertText(int index, String text)](#insertText-int-java.lang.String-) | Insert some characters to the cell. |
 | [isArrayFormula()](#isArrayFormula--) | Indicates whether the cell formula is an array formula. |
 | [isArrayHeader()](#isArrayHeader--) | Indicates the cell's formula is an array formula and it is the first cell of the array. |
+| [isCheckBoxStyle()](#isCheckBoxStyle--) | Indicates whether setting this cell as a check box. |
 | [isDynamicArrayFormula()](#isDynamicArrayFormula--) | Indicates whether the cell's formula is dynamic array formula(true) or legacy array formula(false). |
 | [isErrorValue()](#isErrorValue--) | Checks if the value of this cell is an error. |
 | [isFormula()](#isFormula--) | Represents if the specified cell contains formula. |
@@ -145,6 +146,7 @@ Encapsulates the object that represents a single Workbook cell.
 | [setArrayFormula(String arrayFormula, int rowNumber, int columnNumber, FormulaParseOptions options)](#setArrayFormula-java.lang.String-int-int-com.aspose.cells.FormulaParseOptions-) | Sets an array formula to a range of cells. |
 | [setArrayFormula(String arrayFormula, int rowNumber, int columnNumber, FormulaParseOptions options, Object[][] values)](#setArrayFormula-java.lang.String-int-int-com.aspose.cells.FormulaParseOptions-java.lang.Object-----) | Sets an array formula to a range of cells. |
 | [setCharacters(FontSetting[] characters)](#setCharacters-com.aspose.cells.FontSetting---) | Sets rich text format of the cell. |
+| [setCheckBoxStyle(boolean value)](#setCheckBoxStyle-boolean-) | Indicates whether setting this cell as a check box. |
 | [setDynamicArrayFormula(String arrayFormula, FormulaParseOptions options, boolean calculateValue)](#setDynamicArrayFormula-java.lang.String-com.aspose.cells.FormulaParseOptions-boolean-) | Sets dynamic array formula and make the formula spill into neighboring cells if possible. |
 | [setDynamicArrayFormula(String arrayFormula, FormulaParseOptions options, Object[][] values, boolean calculateRange, boolean calculateValue)](#setDynamicArrayFormula-java.lang.String-com.aspose.cells.FormulaParseOptions-java.lang.Object-----boolean-boolean-) | Sets dynamic array formula and make the formula spill into neighboring cells if possible. |
 | [setDynamicArrayFormula(String arrayFormula, FormulaParseOptions options, Object[][] values, boolean calculateRange, boolean calculateValue, CalculationOptions copts)](#setDynamicArrayFormula-java.lang.String-com.aspose.cells.FormulaParseOptions-java.lang.Object-----boolean-boolean-com.aspose.cells.CalculationOptions-) | Sets dynamic array formula and make the formula spill into neighboring cells if possible. |
@@ -1016,6 +1018,16 @@ Indicates the cell's formula is an array formula and it is the first cell of the
 
 **Returns:**
 boolean
+### isCheckBoxStyle() {#isCheckBoxStyle--}
+```
+public boolean isCheckBoxStyle()
+```
+
+
+Indicates whether setting this cell as a check box.
+
+**Returns:**
+boolean
 ### isDynamicArrayFormula() {#isDynamicArrayFormula--}
 ```
 public boolean isDynamicArrayFormula()
@@ -1394,6 +1406,19 @@ Sets rich text format of the cell.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | characters | [FontSetting\[\]](../../com.aspose.cells/fontsetting) | All Characters objects. |
+
+### setCheckBoxStyle(boolean value) {#setCheckBoxStyle-boolean-}
+```
+public void setCheckBoxStyle(boolean value)
+```
+
+
+Indicates whether setting this cell as a check box.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### setDynamicArrayFormula(String arrayFormula, FormulaParseOptions options, boolean calculateValue) {#setDynamicArrayFormula-java.lang.String-com.aspose.cells.FormulaParseOptions-boolean-}
 ```

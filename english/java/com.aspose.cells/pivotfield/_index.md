@@ -95,6 +95,7 @@ Represents a field in a PivotTable report.
 | [getDragToPage()](#getDragToPage--) | Indicates whether the specified field can be dragged to the page position. |
 | [getDragToRow()](#getDragToRow--) | Indicates whether the specified field can be dragged to the row position. |
 | [getFilters()](#getFilters--) | Gets all pivot filters of this pivot field. |
+| [getFormula()](#getFormula--) | Gets formula of the calculated field . |
 | [getFunction()](#getFunction--) | Represents the function used to summarize the PivotTable data field. |
 | [getGroupSettings()](#getGroupSettings--) | Gets the group settings of the pivot field. |
 | [getInsertBlankRow()](#getInsertBlankRow--) | Indicates whether inserting blank line after each item. |
@@ -417,6 +418,16 @@ Gets all pivot filters of this pivot field.
 
 **Returns:**
 com.aspose.cells.PivotFilter[]
+### getFormula() {#getFormula--}
+```
+public String getFormula()
+```
+
+
+Gets formula of the calculated field .
+
+**Returns:**
+java.lang.String
 ### getFunction() {#getFunction--}
 ```
 public int getFunction()
