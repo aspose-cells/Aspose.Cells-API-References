@@ -1,11 +1,11 @@
 ---
 title: Aspose.Cells.GridJs.Chart
 second_title: Aspose.Cells for .NET API Reference
-description: The Chart namespace contains all classes of GridJs which provide basic data structure for Charts json generation
+description: The Chart namespace encapsulates all classes of GridJs  providing basic data structure for Charts JSON generation
 type: docs
 url: /net/aspose.cells.gridjs.chart/
 ---
-The **Chart** namespace contains all classes of GridJs which provide basic data structure for Charts json generation.
+The **Chart** namespace encapsulates all classes of GridJs , providing basic data structure for Charts JSON generation.
 
 ## Classes
 

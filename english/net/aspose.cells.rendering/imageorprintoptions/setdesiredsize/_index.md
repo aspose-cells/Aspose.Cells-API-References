@@ -45,6 +45,12 @@ public void SetDesiredSize(int desiredWidth, int desiredHeight, bool keepAspectR
 | desiredHeight | Int32 | desired height in pixels |
 | keepAspectRatio | Boolean | whether to keep aspect ratio of origin image |
 
+### Remarks
+
+The width and height of the output image in pixels will be only based on the set desired width and height.
+
+The [`HorizontalResolution`](../horizontalresolution/) and [`VerticalResolution`](../verticalresolution/) will not effect the width and height of the output image in this case.
+
 ### See Also
 
 * class [ImageOrPrintOptions](../)

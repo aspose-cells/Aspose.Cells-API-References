@@ -1,7 +1,7 @@
 ---
 title: EquationNode.ToLaTeX
 second_title: Aspose.Cells for .NET API Reference
-description: EquationNode method. Conver this equtation to LaTeX expression
+description: EquationNode method. Convert this equtation to LaTeX expression
 type: docs
 url: /net/aspose.cells.drawing.equations/equationnode/tolatex/
 ---

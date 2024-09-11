@@ -1,13 +1,13 @@
 ---
 title: Config.MaxTotalShapeOrImageCount
 second_title: Aspose.Cells for .NET API Reference
-description: Config property. Gets/Sets the total display shape/image count inside the whole workbookit will take affec when IslimitShapestrue. the default value is 300
+description: Config property. Gets/Sets the total count of the display shapes or images in the workbookit takes effect when IslimitShapeOrImagetrue. the default value is 300
 type: docs
 url: /net/aspose.cells.gridjs/config/maxtotalshapeorimagecount/
 ---
 ## Config.MaxTotalShapeOrImageCount property
 
-Gets/Sets the total display shape/image count inside the whole workbook,it will take affec when IslimitShapes=true. the default value is 300.
+Gets/Sets the total count of the display shapes or images in the workbook,it takes effect when IslimitShapeOrImage=true. the default value is 300.
 
 ```csharp
 public static int MaxTotalShapeOrImageCount { get; set; }

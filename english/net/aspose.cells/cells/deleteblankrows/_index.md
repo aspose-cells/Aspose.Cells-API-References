@@ -23,7 +23,7 @@ public void DeleteBlankRows()
 
 ## DeleteBlankRows(DeleteOptions) {#deleteblankrows_1}
 
-Delete all blank rows which do not contain any data or other object.
+Delete all blank rows which do not contain any data or some special objects such as visible comment, pivot table.
 
 ```csharp
 public void DeleteBlankRows(DeleteOptions options)

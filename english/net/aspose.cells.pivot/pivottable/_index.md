@@ -136,6 +136,7 @@ public class PivotTable : IDisposable
 | [SetManualGroupField](../../aspose.cells.pivot/pivottable/setmanualgroupfield/#setmanualgroupfield)(PivotField, double, double, ArrayList, double) | (**Obsolete.**) Sets manual field group by the PivotTable. |
 | [SetUngroup](../../aspose.cells.pivot/pivottable/setungroup/#setungroup_1)(int) | (**Obsolete.**) Sets ungroup by the PivotTable |
 | [SetUngroup](../../aspose.cells.pivot/pivottable/setungroup/#setungroup)(PivotField) | (**Obsolete.**) Sets ungroup by the PivotTable |
+| [ShowDetail](../../aspose.cells.pivot/pivottable/showdetail/)(int, int, bool, int, int) | Show the detail of one item in the data region to a new Table. |
 | [ShowInCompactForm](../../aspose.cells.pivot/pivottable/showincompactform/)() | Layouts the PivotTable in compact form. |
 | [ShowInOutlineForm](../../aspose.cells.pivot/pivottable/showinoutlineform/)() | Layouts the PivotTable in outline form. |
 | [ShowInTabularForm](../../aspose.cells.pivot/pivottable/showintabularform/)() | Layouts the PivotTable in tabular form. |

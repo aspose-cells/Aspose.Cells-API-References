@@ -76,6 +76,7 @@ public enum FileFormatType
 | Sxc | `60` | Represents StarOffice Calc Spreadsheet (.sxc) file format. |
 | Otp | `61` | Represents a OTP file. |
 | Numbers35 | `62` | Represents Numbers 3.5 file format since 2014 by Apple Inc |
+| Ole | `64` | Represents the embedded ole object. |
 | Emf | `258` | Windows Enhanced Metafile. |
 | Wmf | `259` | Windows Metafile. |
 | Jpg | `261` | JPEG JFIF. |

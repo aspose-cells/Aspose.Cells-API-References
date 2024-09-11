@@ -1,15 +1,15 @@
 ---
 title: PivotField.GetCalculatedFieldFormula
 second_title: Aspose.Cells for .NET API Reference
-description: PivotField method. Get the formula string of the specified calculated field 
+description: PivotField method. 
 type: docs
 url: /net/aspose.cells.pivot/pivotfield/getcalculatedfieldformula/
 ---
 ## PivotField.GetCalculatedFieldFormula method
 
-Get the formula string of the specified calculated field .
-
 ```csharp
+[Obsolete("Use PivotField.GetFormula() method instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public string GetCalculatedFieldFormula()
 ```
 

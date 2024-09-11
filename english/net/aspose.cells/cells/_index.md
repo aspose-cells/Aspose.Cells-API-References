@@ -84,7 +84,7 @@ public class Cells : IDisposable, IEnumerable
 | [DeleteBlankColumns](../../aspose.cells/cells/deleteblankcolumns/#deleteblankcolumns)() | Delete all blank columns which do not contain any data. |
 | [DeleteBlankColumns](../../aspose.cells/cells/deleteblankcolumns/#deleteblankcolumns_1)(DeleteOptions) | Delete all blank columns which do not contain any data. |
 | [DeleteBlankRows](../../aspose.cells/cells/deleteblankrows/#deleteblankrows)() | Delete all blank rows which do not contain any data or other object. |
-| [DeleteBlankRows](../../aspose.cells/cells/deleteblankrows/#deleteblankrows_1)(DeleteOptions) | Delete all blank rows which do not contain any data or other object. |
+| [DeleteBlankRows](../../aspose.cells/cells/deleteblankrows/#deleteblankrows_1)(DeleteOptions) | Delete all blank rows which do not contain any data or some special objects such as visible comment, pivot table. |
 | [DeleteColumn](../../aspose.cells/cells/deletecolumn/#deletecolumn)(int) | Deletes a column. |
 | [DeleteColumn](../../aspose.cells/cells/deletecolumn/#deletecolumn_1)(int, bool) | Deletes a column. |
 | [DeleteColumns](../../aspose.cells/cells/deletecolumns/)(int, int, bool) | Deletes several columns. |

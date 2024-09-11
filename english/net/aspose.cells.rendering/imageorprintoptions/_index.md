@@ -35,7 +35,7 @@ public class ImageOrPrintOptions
 | [EmfRenderSetting](../../aspose.cells.rendering/imageorprintoptions/emfrendersetting/) { get; set; } | Setting for rendering Emf metafile. |
 | [EmfType](../../aspose.cells.rendering/imageorprintoptions/emftype/) { get; set; } | Gets or sets an EmfType that specifies the format of the Metafile.. The default value is EmfPlusDual. |
 | [GridlineType](../../aspose.cells.rendering/imageorprintoptions/gridlinetype/) { get; set; } | Gets or sets gridline type. |
-| [HorizontalResolution](../../aspose.cells.rendering/imageorprintoptions/horizontalresolution/) { get; set; } | Gets or sets the horizontal resolution for generated images, in dots per inch. Applies generating image method except Emf format images. |
+| [HorizontalResolution](../../aspose.cells.rendering/imageorprintoptions/horizontalresolution/) { get; set; } | Gets or sets the horizontal resolution for generated images, in dots per inch. |
 | [ImageType](../../aspose.cells.rendering/imageorprintoptions/imagetype/) { get; set; } | Gets or sets the format of the generated images. default value: PNG. |
 | [IsCellAutoFit](../../aspose.cells.rendering/imageorprintoptions/iscellautofit/) { get; set; } | (**Obsolete.**) Indicates whether the width and height of the cells is automatically fitted by cell value. The default value is false. |
 | [IsFontSubstitutionCharGranularity](../../aspose.cells.rendering/imageorprintoptions/isfontsubstitutionchargranularity/) { get; set; } | Indicates whether to only substitute the font of character when the cell font is not compatibility for it. |
@@ -60,7 +60,7 @@ public class ImageOrPrintOptions
 | [TiffColorDepth](../../aspose.cells.rendering/imageorprintoptions/tiffcolordepth/) { get; set; } | Gets or sets bit depth to apply only when saving pages to the `Tiff` format. |
 | [TiffCompression](../../aspose.cells.rendering/imageorprintoptions/tiffcompression/) { get; set; } | Gets or sets the type of compression to apply only when saving pages to the `Tiff` format. |
 | [Transparent](../../aspose.cells.rendering/imageorprintoptions/transparent/) { get; set; } | Indicates if the background of generated image should be transparent. |
-| [VerticalResolution](../../aspose.cells.rendering/imageorprintoptions/verticalresolution/) { get; set; } | Gets or sets the vertical resolution for generated images, in dots per inch. Applies generating image method except Emf format image. |
+| [VerticalResolution](../../aspose.cells.rendering/imageorprintoptions/verticalresolution/) { get; set; } | Gets or sets the vertical resolution for generated images, in dots per inch. |
 | [WarningCallback](../../aspose.cells.rendering/imageorprintoptions/warningcallback/) { get; set; } | Gets or sets warning callback. |
 
 ## Methods

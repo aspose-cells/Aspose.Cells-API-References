@@ -1,7 +1,7 @@
 ---
 title: EquationNode.ToMathML
 second_title: Aspose.Cells for .NET API Reference
-description: EquationNode method. Conver this equtation to MathML expression
+description: EquationNode method. Convert this equtation to MathML expression
 type: docs
 url: /net/aspose.cells.drawing.equations/equationnode/tomathml/
 ---

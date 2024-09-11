@@ -67,8 +67,9 @@ public class PivotField
 | Name | Description |
 | --- | --- |
 | [AddCalculatedItem](../../aspose.cells.pivot/pivotfield/addcalculateditem/)(string, string) | Add a calculated formula item to the pivot field. |
-| [GetCalculatedFieldFormula](../../aspose.cells.pivot/pivotfield/getcalculatedfieldformula/)() | Get the formula string of the specified calculated field . |
+| [GetCalculatedFieldFormula](../../aspose.cells.pivot/pivotfield/getcalculatedfieldformula/)() | (**Obsolete.**)  |
 | [GetFilters](../../aspose.cells.pivot/pivotfield/getfilters/)() | Gets all pivot filters of this pivot field. |
+| [GetFormula](../../aspose.cells.pivot/pivotfield/getformula/)() | Gets formula of the calculated field . |
 | [GetPivotFilterByType](../../aspose.cells.pivot/pivotfield/getpivotfilterbytype/)(PivotFilterType) | Gets the pivot filter of the pivot field by type |
 | [GetPivotFilters](../../aspose.cells.pivot/pivotfield/getpivotfilters/)() | (**Obsolete.**) Gets the pivot filters of the pivot field |
 | [GetSubtotals](../../aspose.cells.pivot/pivotfield/getsubtotals/)(PivotFieldSubtotalType) | Indicates whether showing specified subtotal. |
