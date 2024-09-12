@@ -103,6 +103,8 @@ class Workbook
 | [Replace(const char16_t* placeHolder, const Vector \<int32_t\>\& newValues, bool isVertical)](./replace/) | Replaces cells' values with an integer array. |
 | [Replace(const U16String\& placeHolder, const Vector \<double\>\& newValues, bool isVertical)](./replace/) | Replaces cells' values with a double array. |
 | [Replace(const char16_t* placeHolder, const Vector \<double\>\& newValues, bool isVertical)](./replace/) | Replaces cells' values with a double array. |
+| [Replace(bool boolValue, const Aspose::Cells::Object\& newValue)](./replace/) | Replaces cells' values with new data. |
+| [Replace(int32_t intValue, const Aspose::Cells::Object\& newValue)](./replace/) | Replaces cells' values with new data. |
 | [Replace(const U16String\& placeHolder, const U16String\& newValue, const ReplaceOptions\& options)](./replace/) | Replaces a cell's value with a new string. |
 | [Replace(const char16_t* placeHolder, const char16_t* newValue, const ReplaceOptions\& options)](./replace/) | Replaces a cell's value with a new string. |
 | [Save(const U16String\& fileName, SaveFormat saveFormat)](./save/) | Saves the workbook to the disk. |

@@ -20,6 +20,7 @@ class SolidFill
 
 | Method | Description |
 | --- | --- |
+| [Equals(const Aspose::Cells::Object\& obj)](./equals/) |  |
 | [GetCellsColor()](./getcellscolor/) | Gets and sets the [CellsColor](../../aspose.cells/cellscolor/) object. |
 | [GetColor()](./getcolor/) | Gets or sets the System.Drawing.Color. |
 | [GetHashCode()](./gethashcode/) | Gets the hash code. |

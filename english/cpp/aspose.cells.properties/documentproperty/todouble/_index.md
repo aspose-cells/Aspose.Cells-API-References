@@ -4,7 +4,7 @@ linktitle: ToDouble
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Properties::DocumentProperty::ToDouble method. Returns the property value as double in C++.'
 type: docs
-weight: 1300
+weight: 1500
 url: /cpp/aspose.cells.properties/documentproperty/todouble/
 ---
 ## DocumentProperty::ToDouble method

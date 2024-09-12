@@ -4,7 +4,7 @@ linktitle: GetSignatureLine
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Picture::GetSignatureLine method. Gets and sets the signature line in C++.'
 type: docs
-weight: 3300
+weight: 3400
 url: /cpp/aspose.cells.drawing/picture/getsignatureline/
 ---
 ## Picture::GetSignatureLine method

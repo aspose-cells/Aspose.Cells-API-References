@@ -4,7 +4,7 @@ linktitle: UnknowEquationNode
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Equations::UnknowEquationNode class. Equation node class of unknown type in C++.'
 type: docs
-weight: 1800
+weight: 2000
 url: /cpp/aspose.cells.drawing.equations/unknowequationnode/
 ---
 ## UnknowEquationNode class
@@ -23,6 +23,7 @@ class UnknowEquationNode : public Aspose::Cells::Drawing::Equations::EquationNod
 | [AddChild(EquationNodeType equationType)](../equationnode/addchild/) | Insert a node of the specified type at the end of the child node list of the current node. |
 | [AddChild(const EquationNode\& node)](../equationnode/addchild/) | Inserts the specified node at the end of the current node's list of child nodes. |
 | static [CreateNode(EquationNodeType equationType, const Workbook\& workbook, const EquationNode\& parent)](../equationnode/createnode/) | Create a node of the specified type. |
+| [Equals(const Aspose::Cells::Object\& obj)](./equals/) | Determine whether the current equation node is equal to the specified node. |
 | [EquationNode(EquationNode_Impl* impl)](../equationnode/equationnode/) | Constructs from an implementation object. |
 | [EquationNode(const EquationNode\& src)](../equationnode/equationnode/) | Copy constructor. |
 | [EquationNode(const FontSetting\& src)](../equationnode/equationnode/) | Constructs from a parent object. |
@@ -51,8 +52,8 @@ class UnknowEquationNode : public Aspose::Cells::Drawing::Equations::EquationNod
 | [RemoveChild(int32_t index)](../equationnode/removechild/) | Removes the node at the specified index from the current node's children. |
 | [SetParentNode(const EquationNode\& value)](../equationnode/setparentnode/) | Specifies the parent node of the current node. |
 | [SetWordArtStyle(PresetWordArtStyle style)](../../aspose.cells/fontsetting/setwordartstyle/) | Sets the preset WordArt style. |
-| [ToLaTeX()](../equationnode/tolatex/) | Conver this equtation to LaTeX expression. |
-| [ToMathML()](../equationnode/tomathml/) | Conver this equtation to MathML expression. |
+| [ToLaTeX()](../equationnode/tolatex/) | Convert this equtation to LaTeX expression. |
+| [ToMathML()](../equationnode/tomathml/) | Convert this equtation to MathML expression. |
 | [UnknowEquationNode(UnknowEquationNode_Impl* impl)](./unknowequationnode/) | Constructs from an implementation object. |
 | [UnknowEquationNode(const UnknowEquationNode\& src)](./unknowequationnode/) | Copy constructor. |
 | [UnknowEquationNode(const EquationNode\& src)](./unknowequationnode/) | Constructs from a parent object. |

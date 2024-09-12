@@ -22,19 +22,19 @@ Aspose::Cells::DynamicFilter::DynamicFilter(DynamicFilter_Impl *impl)
 * Class [DynamicFilter](../)
 * Namespace [Aspose::Cells](../../)
 * Library [Aspose.Cells for C++](../../../)
-## DynamicFilter::DynamicFilter(const IObject*) constructor
+## DynamicFilter::DynamicFilter(const Aspose::Cells::Object\&) constructor
 
 
-Constructs from an [IObject](../../iobject/) convertible to this.
+Constructs from an [Object](../../object/) convertible to this.
 
 ```cpp
-Aspose::Cells::DynamicFilter::DynamicFilter(const IObject *obj)
+Aspose::Cells::DynamicFilter::DynamicFilter(const Aspose::Cells::Object &obj)
 ```
 
 ## See Also
 
 * Class [Vector](../../vector/)
-* Class [IObject](../../iobject/)
+* Class [Object](../../object/)
 * Class [DynamicFilter](../)
 * Namespace [Aspose::Cells](../../)
 * Library [Aspose.Cells for C++](../../../)

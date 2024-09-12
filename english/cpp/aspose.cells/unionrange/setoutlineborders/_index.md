@@ -4,7 +4,7 @@ linktitle: SetOutlineBorders
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::UnionRange::SetOutlineBorders method. Sets out line borders around a range of cells in C++.'
 type: docs
-weight: 2500
+weight: 2700
 url: /cpp/aspose.cells/unionrange/setoutlineborders/
 ---
 ## UnionRange::SetOutlineBorders(const Vector \<CellBorderType\>\&, const Vector \<Aspose::Cells::Color\>\&) method

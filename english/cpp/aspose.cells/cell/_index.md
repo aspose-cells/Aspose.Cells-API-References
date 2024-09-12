@@ -26,6 +26,7 @@ class Cell
 | [Characters(int32_t startIndex, int32_t length)](./characters/) | Returns a Characters object that represents a range of characters within the cell text. |
 | [Copy(const Cell\& cell)](./copy/) | Copies data from a source cell. |
 | [Dispose()](./dispose/) |  |
+| [Equals(const Aspose::Cells::Object\& obj)](./equals/) | Checks whether this object refers to the same cell with another. |
 | [Equals(const Cell\& cell)](./equals/) | Checks whether this object refers to the same cell with another cell object. |
 | [GetArrayRange()](./getarrayrange/) | Gets the array range if the cell's formula is an array formula. |
 | [GetBoolValue()](./getboolvalue/) | Gets the boolean value contained in the cell. |
@@ -70,12 +71,14 @@ class Cell
 | [GetType()](./gettype/) | Represents cell value type. |
 | [GetValidation()](./getvalidation/) | Gets the validation applied to this cell. |
 | [GetValidationValue()](./getvalidationvalue/) | Gets the value of validation which applied to this cell. |
+| [GetValue()](./getvalue/) | Gets/sets the value contained in this cell. |
 | [GetWidthOfValue()](./getwidthofvalue/) | Gets the width of the value in unit of pixels. |
 | [GetWorksheet()](./getworksheet/) | Gets the parent worksheet. |
 | [InsertText(int32_t index, const U16String\& text)](./inserttext/) | Insert some characters to the cell. If the cell is rich formatted, this method could keep the original formatting. |
 | [InsertText(int32_t index, const char16_t* text)](./inserttext/) | Insert some characters to the cell. If the cell is rich formatted, this method could keep the original formatting. |
 | [IsArrayFormula()](./isarrayformula/) | Indicates whether the cell formula is an array formula. |
 | [IsArrayHeader()](./isarrayheader/) | Indicates the cell's formula is an array formula and it is the first cell of the array. |
+| [IsCheckBoxStyle()](./ischeckboxstyle/) | Indicates whether setting this cell as a check box. |
 | [IsDynamicArrayFormula()](./isdynamicarrayformula/) | Indicates whether the cell's formula is dynamic array formula(true) or legacy array formula(false). |
 | [IsErrorValue()](./iserrorvalue/) | Checks if the value of this cell is an error. |
 | [IsFormula()](./isformula/) | Represents if the specified cell contains formula. |
@@ -98,6 +101,7 @@ class Cell
 | [PutValue(const U16String\& stringValue)](./putvalue/) | Puts a string value into the cell. |
 | [PutValue(const char16_t* stringValue)](./putvalue/) | Puts a string value into the cell. |
 | [PutValue(const Date\& dateTime)](./putvalue/) | Puts a DateTime value into the cell. |
+| [PutValue(const Aspose::Cells::Object\& objectValue)](./putvalue/) | Puts an object value into the cell. |
 | [RemoveArrayFormula(bool leaveNormalFormula)](./removearrayformula/) | Remove array formula. |
 | [Replace(const U16String\& placeHolder, const U16String\& newValue, const ReplaceOptions\& options)](./replace/) | Replace text of the cell with options. |
 | [Replace(const char16_t* placeHolder, const char16_t* newValue, const ReplaceOptions\& options)](./replace/) | Replace text of the cell with options. |
@@ -111,10 +115,15 @@ class Cell
 | [SetEmbeddedImage(const Vector \<uint8_t\>\& value)](./setembeddedimage/) | Gets and sets the embeddedn image in the cell. |
 | [SetFormula(const U16String\& value)](./setformula/) | Gets or sets a formula of the [Cell](./). |
 | [SetFormula(const char16_t* value)](./setformula/) | Gets or sets a formula of the [Cell](./). |
+| [SetFormula(const U16String\& formula, const Aspose::Cells::Object\& value)](./setformula/) | Set the formula and the value(calculated result) of the formula. |
+| [SetFormula(const char16_t* formula, const Aspose::Cells::Object\& value)](./setformula/) | Set the formula and the value(calculated result) of the formula. |
+| [SetFormula(const U16String\& formula, const FormulaParseOptions\& options, const Aspose::Cells::Object\& value)](./setformula/) | Set the formula and the value(calculated result) of the formula. |
+| [SetFormula(const char16_t* formula, const FormulaParseOptions\& options, const Aspose::Cells::Object\& value)](./setformula/) | Set the formula and the value(calculated result) of the formula. |
 | [SetFormulaLocal(const U16String\& value)](./setformulalocal/) | Get the locale formatted formula of the cell. |
 | [SetFormulaLocal(const char16_t* value)](./setformulalocal/) | Get the locale formatted formula of the cell. |
 | [SetHtmlString(const U16String\& value)](./sethtmlstring/) | Gets and sets the html string which contains data and some formats in this cell. |
 | [SetHtmlString(const char16_t* value)](./sethtmlstring/) | Gets and sets the html string which contains data and some formats in this cell. |
+| [SetIsCheckBoxStyle(bool value)](./setischeckboxstyle/) | Indicates whether setting this cell as a check box. |
 | [SetR1C1Formula(const U16String\& value)](./setr1c1formula/) | Gets or sets a R1C1 formula of the [Cell](./). |
 | [SetR1C1Formula(const char16_t* value)](./setr1c1formula/) | Gets or sets a R1C1 formula of the [Cell](./). |
 | [SetSharedFormula(const U16String\& sharedFormula, int32_t rowNumber, int32_t columnNumber)](./setsharedformula/) | Sets shared formulas to a range of cells. |
@@ -124,6 +133,7 @@ class Cell
 | [SetStyle(const Style\& style)](./setstyle/) | Sets the cell style. |
 | [SetStyle(const Style\& style, bool explicitFlag)](./setstyle/) | Apply the changed property of style to the cell. |
 | [SetStyle(const Style\& style, const StyleFlag\& flag)](./setstyle/) | Apply the cell style based on flags. |
+| [SetValue(const Aspose::Cells::Object\& value)](./setvalue/) | Gets/sets the value contained in this cell. |
 | [ToJson()](./tojson/) | Convert [Cell](./) to JSON struct data. |
 | [ToString()](./tostring/) | Returns a string represents the current [Cell](./) object. |
 | [~Cell()](./~cell/) | Destructor. |

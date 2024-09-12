@@ -28,6 +28,7 @@ class ConnectionParameter
 | [GetRefreshOnChange()](./getrefreshonchange/) | Flag indicating whether the query should automatically refresh when the contents of a cell that provides the parameter value changes. If true, then external data is refreshed using the new parameter value every time there's a change. If false, then external data is only refreshed when requested by the user, or some other event triggers refresh (e.g., workbook opened). |
 | [GetSqlType()](./getsqltype/) | SQL data type of the parameter. Only valid for ODBC sources. |
 | [GetType()](./gettype/) | Type of parameter used. If the parameterType=value, then the value from boolean, double, integer, or string will be used. In this case, it is expected that only one of {boolean, double, integer, or string} will be specified. |
+| [GetValue()](./getvalue/) | Non-integer numeric value,Integer value,String value or Boolean value to use as the query parameter. Used only when parameterType is value. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const ConnectionParameter\& src)](./operator_asm/) | operator= |
@@ -40,6 +41,7 @@ class ConnectionParameter
 | [SetRefreshOnChange(bool value)](./setrefreshonchange/) | Flag indicating whether the query should automatically refresh when the contents of a cell that provides the parameter value changes. If true, then external data is refreshed using the new parameter value every time there's a change. If false, then external data is only refreshed when requested by the user, or some other event triggers refresh (e.g., workbook opened). |
 | [SetSqlType(SqlDataType value)](./setsqltype/) | SQL data type of the parameter. Only valid for ODBC sources. |
 | [SetType(ConnectionParameterType value)](./settype/) | Type of parameter used. If the parameterType=value, then the value from boolean, double, integer, or string will be used. In this case, it is expected that only one of {boolean, double, integer, or string} will be specified. |
+| [SetValue(const Aspose::Cells::Object\& value)](./setvalue/) | Non-integer numeric value,Integer value,String value or Boolean value to use as the query parameter. Used only when parameterType is value. |
 | [~ConnectionParameter()](./~connectionparameter/) | Destructor. |
 ## Fields
 

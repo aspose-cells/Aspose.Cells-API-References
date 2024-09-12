@@ -4,7 +4,7 @@ linktitle: SetEndArrowheadStyle
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::LineFormat::SetEndArrowheadStyle method. Gets and sets the end arrow type of the line in C++.'
 type: docs
-weight: 2200
+weight: 2300
 url: /cpp/aspose.cells.drawing/lineformat/setendarrowheadstyle/
 ---
 ## LineFormat::SetEndArrowheadStyle method

@@ -4,7 +4,7 @@ linktitle: Union
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::UnionRange::Union method. Union another range in C++.'
 type: docs
-weight: 2700
+weight: 2900
 url: /cpp/aspose.cells/unionrange/union/
 ---
 ## UnionRange::Union(const U16String\&) method

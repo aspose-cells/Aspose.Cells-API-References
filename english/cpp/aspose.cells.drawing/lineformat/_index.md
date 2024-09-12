@@ -20,6 +20,7 @@ class LineFormat : public Aspose::Cells::Drawing::FillFormat
 
 | Method | Description |
 | --- | --- |
+| [Equals(const Aspose::Cells::Object\& obj)](./equals/) | Determines whether this instance has the same value as another specified [LineFormat](./) object. |
 | [FillFormat(FillFormat_Impl* impl)](../fillformat/fillformat/) | Constructs from an implementation object. |
 | [FillFormat(const FillFormat\& src)](../fillformat/fillformat/) | Copy constructor. |
 | [GetBeginArrowheadLength()](./getbeginarrowheadlength/) | Gets and sets the begin arrow length type of the line. |

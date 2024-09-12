@@ -4,7 +4,7 @@ linktitle: PivotItem
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotItem class. Represents a item in a PivotField report in C++.'
 type: docs
-weight: 1400
+weight: 1500
 url: /cpp/aspose.cells.pivot/pivotitem/
 ---
 ## PivotItem class
@@ -22,11 +22,13 @@ class PivotItem
 | --- | --- |
 | [GetDateTimeValue()](./getdatetimevalue/) | Gets the date time value of the pivot item If the value is null ,it will return DateTime.MinValue. |
 | [GetDoubleValue()](./getdoublevalue/) | Gets the double value of the pivot item If the value is null or not number ,it will return 0. |
+| [GetFormula()](./getformula/) | Gets the formula of this calculated item. Only works when this item is calculated item. |
 | [GetIndex()](./getindex/) | Gets the index of the pivot item in cache field. |
 | [GetName()](./getname/) | Gets the name of the pivot item. |
 | [GetPosition()](./getposition/) | Specifying the position index in all the PivotItems,not the PivotItems under the same parent node. |
 | [GetPositionInSameParentNode()](./getpositioninsameparentnode/) | Specifying the position index in the PivotItems under the same parent node. |
 | [GetStringValue()](./getstringvalue/) | Gets the string value of the pivot item If the value is null, it will return "". |
+| [GetValue()](./getvalue/) | Gets the value of the pivot item. |
 | [IsFormula()](./isformula/) | Indicates whether this pivot item is a calculated formula item. |
 | [IsHidden()](./ishidden/) | Gets and Sets whether the pivot item is hidden. |
 | [IsHideDetail()](./ishidedetail/) | Gets and Sets whether the pivot item hides detail. |
@@ -41,6 +43,8 @@ class PivotItem
 | [SetIsFormula(bool value)](./setisformula/) | Indicates whether this pivot item is a calculated formula item. |
 | [SetIsHidden(bool value)](./setishidden/) | Gets and Sets whether the pivot item is hidden. |
 | [SetIsHideDetail(bool value)](./setishidedetail/) | Gets and Sets whether the pivot item hides detail. |
+| [SetName(const U16String\& value)](./setname/) | Gets the name of the pivot item. |
+| [SetName(const char16_t* value)](./setname/) | Gets the name of the pivot item. |
 | [SetPosition(int32_t value)](./setposition/) | Specifying the position index in all the PivotItems,not the PivotItems under the same parent node. |
 | [SetPositionInSameParentNode(int32_t value)](./setpositioninsameparentnode/) | Specifying the position index in the PivotItems under the same parent node. |
 | [~PivotItem()](./~pivotitem/) | Destructor. |

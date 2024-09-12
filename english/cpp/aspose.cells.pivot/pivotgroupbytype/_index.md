@@ -4,7 +4,7 @@ linktitle: PivotGroupByType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotGroupByType enum. Represents group by type in C++.'
 type: docs
-weight: 3100
+weight: 3400
 url: /cpp/aspose.cells.pivot/pivotgroupbytype/
 ---
 ## PivotGroupByType enum

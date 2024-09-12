@@ -4,7 +4,7 @@ linktitle: RemoveAreas
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Validation::RemoveAreas method. Removes this validation from given areas in C++.'
 type: docs
-weight: 3600
+weight: 4200
 url: /cpp/aspose.cells/validation/removeareas/
 ---
 ## Validation::RemoveAreas method

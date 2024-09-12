@@ -4,7 +4,7 @@ linktitle: GetCellColumn
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::CalculationCell::GetCellColumn method. Gets the column index of the cell in C++.'
 type: docs
-weight: 900
+weight: 1000
 url: /cpp/aspose.cells/calculationcell/getcellcolumn/
 ---
 ## CalculationCell::GetCellColumn method

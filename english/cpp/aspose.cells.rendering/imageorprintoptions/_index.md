@@ -28,7 +28,7 @@ class ImageOrPrintOptions
 | [GetEmbededImageNameInSvg()](./getembededimagenameinsvg/) | Indicate the filename of embedded image in svg. This should be full path with directory like "c:\\xpsEmbedded". |
 | [GetEmfRenderSetting()](./getemfrendersetting/) | Setting for rendering Emf metafile. |
 | [GetGridlineType()](./getgridlinetype/) | Gets or sets gridline type. |
-| [GetHorizontalResolution()](./gethorizontalresolution/) | Gets or sets the horizontal resolution for generated images, in dots per inch. Applies generating image method except Emf format images. |
+| [GetHorizontalResolution()](./gethorizontalresolution/) | Gets or sets the horizontal resolution for generated images, in dots per inch. |
 | [GetImageType()](./getimagetype/) | Gets or sets the format of the generated images. default value: PNG. |
 | [GetOnePagePerSheet()](./getonepagepersheet/) | If OnePagePerSheet is true , all content of one sheet will output to only one page in result. The paper size of pagesetup will be invalid, and the other settings of pagesetup will still take effect. |
 | [GetOnlyArea()](./getonlyarea/) | If this property is true , one Area will be output, and no scale will take effect. |
@@ -46,7 +46,7 @@ class ImageOrPrintOptions
 | [GetTiffColorDepth()](./gettiffcolordepth/) | Gets or sets bit depth to apply only when saving pages to the **Tiff** format. |
 | [GetTiffCompression()](./gettiffcompression/) | Gets or sets the type of compression to apply only when saving pages to the **Tiff** format. |
 | [GetTransparent()](./gettransparent/) | Indicates if the background of generated image should be transparent. |
-| [GetVerticalResolution()](./getverticalresolution/) | Gets or sets the vertical resolution for generated images, in dots per inch. Applies generating image method except Emf format image. |
+| [GetVerticalResolution()](./getverticalresolution/) | Gets or sets the vertical resolution for generated images, in dots per inch. |
 | [GetWarningCallback()](./getwarningcallback/) | Gets or sets warning callback. |
 | [ImageOrPrintOptions()](./imageorprintoptions/) | Default constructor. |
 | [ImageOrPrintOptions(ImageOrPrintOptions_Impl* impl)](./imageorprintoptions/) | Constructs from an implementation object. |
@@ -67,7 +67,7 @@ class ImageOrPrintOptions
 | [SetEmbededImageNameInSvg(const char16_t* value)](./setembededimagenameinsvg/) | Indicate the filename of embedded image in svg. This should be full path with directory like "c:\\xpsEmbedded". |
 | [SetEmfRenderSetting(EmfRenderSetting value)](./setemfrendersetting/) | Setting for rendering Emf metafile. |
 | [SetGridlineType(GridlineType value)](./setgridlinetype/) | Gets or sets gridline type. |
-| [SetHorizontalResolution(int32_t value)](./sethorizontalresolution/) | Gets or sets the horizontal resolution for generated images, in dots per inch. Applies generating image method except Emf format images. |
+| [SetHorizontalResolution(int32_t value)](./sethorizontalresolution/) | Gets or sets the horizontal resolution for generated images, in dots per inch. |
 | [SetImageType(Aspose::Cells::Drawing::ImageType value)](./setimagetype/) | Gets or sets the format of the generated images. default value: PNG. |
 | [SetIsFontSubstitutionCharGranularity(bool value)](./setisfontsubstitutionchargranularity/) | Indicates whether to only substitute the font of character when the cell font is not compatibility for it. |
 | [SetIsOptimized(bool value)](./setisoptimized/) | Indicates whether to optimize the output elements. |
@@ -87,7 +87,7 @@ class ImageOrPrintOptions
 | [SetTiffColorDepth(ColorDepth value)](./settiffcolordepth/) | Gets or sets bit depth to apply only when saving pages to the **Tiff** format. |
 | [SetTiffCompression(TiffCompression value)](./settiffcompression/) | Gets or sets the type of compression to apply only when saving pages to the **Tiff** format. |
 | [SetTransparent(bool value)](./settransparent/) | Indicates if the background of generated image should be transparent. |
-| [SetVerticalResolution(int32_t value)](./setverticalresolution/) | Gets or sets the vertical resolution for generated images, in dots per inch. Applies generating image method except Emf format image. |
+| [SetVerticalResolution(int32_t value)](./setverticalresolution/) | Gets or sets the vertical resolution for generated images, in dots per inch. |
 | [SetWarningCallback(IWarningCallback* value)](./setwarningcallback/) | Gets or sets warning callback. |
 | [~ImageOrPrintOptions()](./~imageorprintoptions/) | Destructor. |
 ## Fields
@@ -118,7 +118,6 @@ Workbook book(u"test.xls");
 
 //Save chart as Image using ImageOrPrint Options
 book.GetWorksheets().Get(0).GetCharts().Get(0).ToImage(u"chart.png", options);
-
 Aspose::Cells::Cleanup();
 ```
 

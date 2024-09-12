@@ -4,7 +4,7 @@ linktitle: EquationVerticalJustificationType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Equations::EquationVerticalJustificationType enum. This specifies the default vertical justification of equations in the document in C++.'
 type: docs
-weight: 2700
+weight: 2900
 url: /cpp/aspose.cells.drawing.equations/equationverticaljustificationtype/
 ---
 ## EquationVerticalJustificationType enum

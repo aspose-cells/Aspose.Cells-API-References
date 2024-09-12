@@ -4,7 +4,7 @@ linktitle: BoxEquationNode
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Equations::BoxEquationNode class. This class specifies the box function, which is used to group components of an equation in C++.'
 type: docs
-weight: 400
+weight: 500
 url: /cpp/aspose.cells.drawing.equations/boxequationnode/
 ---
 ## BoxEquationNode class
@@ -26,6 +26,7 @@ class BoxEquationNode : public Aspose::Cells::Drawing::Equations::EquationNode
 | [BoxEquationNode(const BoxEquationNode\& src)](./boxequationnode/) | Copy constructor. |
 | [BoxEquationNode(const EquationNode\& src)](./boxequationnode/) | Constructs from a parent object. |
 | static [CreateNode(EquationNodeType equationType, const Workbook\& workbook, const EquationNode\& parent)](../equationnode/createnode/) | Create a node of the specified type. |
+| [Equals(const Aspose::Cells::Object\& obj)](./equals/) | Determine whether the current equation node is equal to the specified node. |
 | [EquationNode(EquationNode_Impl* impl)](../equationnode/equationnode/) | Constructs from an implementation object. |
 | [EquationNode(const EquationNode\& src)](../equationnode/equationnode/) | Copy constructor. |
 | [EquationNode(const FontSetting\& src)](../equationnode/equationnode/) | Constructs from a parent object. |
@@ -54,8 +55,8 @@ class BoxEquationNode : public Aspose::Cells::Drawing::Equations::EquationNode
 | [RemoveChild(int32_t index)](../equationnode/removechild/) | Removes the node at the specified index from the current node's children. |
 | [SetParentNode(const EquationNode\& value)](../equationnode/setparentnode/) | Specifies the parent node of the current node. |
 | [SetWordArtStyle(PresetWordArtStyle style)](../../aspose.cells/fontsetting/setwordartstyle/) | Sets the preset WordArt style. |
-| [ToLaTeX()](../equationnode/tolatex/) | Conver this equtation to LaTeX expression. |
-| [ToMathML()](../equationnode/tomathml/) | Conver this equtation to MathML expression. |
+| [ToLaTeX()](../equationnode/tolatex/) | Convert this equtation to LaTeX expression. |
+| [ToMathML()](../equationnode/tomathml/) | Convert this equtation to MathML expression. |
 | [~BoxEquationNode()](./~boxequationnode/) | Destructor. |
 | [~EquationNode()](../equationnode/~equationnode/) | Destructor. |
 | [~FontSetting()](../../aspose.cells/fontsetting/~fontsetting/) | Destructor. |

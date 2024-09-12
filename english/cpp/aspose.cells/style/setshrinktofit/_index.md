@@ -4,7 +4,7 @@ linktitle: SetShrinkToFit
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Style::SetShrinkToFit method. Represents if text automatically shrinks to fit in the available column width in C++.'
 type: docs
-weight: 6600
+weight: 6700
 url: /cpp/aspose.cells/style/setshrinktofit/
 ---
 ## Style::SetShrinkToFit method

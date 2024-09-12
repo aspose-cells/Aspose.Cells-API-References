@@ -4,7 +4,7 @@ linktitle: SetEndArrowheadWidth
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::LineFormat::SetEndArrowheadWidth method. Gets and sets the end arrow width type of the line in C++.'
 type: docs
-weight: 2400
+weight: 2500
 url: /cpp/aspose.cells.drawing/lineformat/setendarrowheadwidth/
 ---
 ## LineFormat::SetEndArrowheadWidth method

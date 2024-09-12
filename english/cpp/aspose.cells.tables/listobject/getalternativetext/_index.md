@@ -4,7 +4,7 @@ linktitle: GetAlternativeText
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Tables::ListObject::GetAlternativeText method. Gets and sets the alternative text in C++.'
 type: docs
-weight: 4200
+weight: 4300
 url: /cpp/aspose.cells.tables/listobject/getalternativetext/
 ---
 ## ListObject::GetAlternativeText method

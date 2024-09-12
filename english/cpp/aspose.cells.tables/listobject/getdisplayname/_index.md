@@ -4,7 +4,7 @@ linktitle: GetDisplayName
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Tables::ListObject::GetDisplayName method. Gets and sets the display name in C++.'
 type: docs
-weight: 2300
+weight: 2400
 url: /cpp/aspose.cells.tables/listobject/getdisplayname/
 ---
 ## ListObject::GetDisplayName method

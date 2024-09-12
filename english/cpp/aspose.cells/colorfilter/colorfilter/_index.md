@@ -22,19 +22,19 @@ Aspose::Cells::ColorFilter::ColorFilter(ColorFilter_Impl *impl)
 * Class [ColorFilter](../)
 * Namespace [Aspose::Cells](../../)
 * Library [Aspose.Cells for C++](../../../)
-## ColorFilter::ColorFilter(const IObject*) constructor
+## ColorFilter::ColorFilter(const Aspose::Cells::Object\&) constructor
 
 
-Constructs from an [IObject](../../iobject/) convertible to this.
+Constructs from an [Object](../../object/) convertible to this.
 
 ```cpp
-Aspose::Cells::ColorFilter::ColorFilter(const IObject *obj)
+Aspose::Cells::ColorFilter::ColorFilter(const Aspose::Cells::Object &obj)
 ```
 
 ## See Also
 
 * Class [Vector](../../vector/)
-* Class [IObject](../../iobject/)
+* Class [Object](../../object/)
 * Class [ColorFilter](../)
 * Namespace [Aspose::Cells](../../)
 * Library [Aspose.Cells for C++](../../../)

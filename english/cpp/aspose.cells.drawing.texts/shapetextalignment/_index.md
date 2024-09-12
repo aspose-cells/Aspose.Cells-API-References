@@ -20,6 +20,7 @@ class ShapeTextAlignment
 
 | Method | Description |
 | --- | --- |
+| [Equals(const Aspose::Cells::Object\& obj)](./equals/) | Determines whether this instance has the same value as another specified [ShapeTextAlignment](./) object. |
 | [GetAutoSize()](./getautosize/) | Indicates if size of shape is adjusted automatically according to its content. |
 | [GetBottomMarginPt()](./getbottommarginpt/) | Returns the bottom margin in unit of Points. |
 | [GetHashCode()](./gethashcode/) |  |

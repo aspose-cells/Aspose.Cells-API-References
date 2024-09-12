@@ -4,7 +4,7 @@ linktitle: GetCompoundType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::LineFormat::GetCompoundType method. Specifies the line compound type in C++.'
 type: docs
-weight: 700
+weight: 800
 url: /cpp/aspose.cells.drawing/lineformat/getcompoundtype/
 ---
 ## LineFormat::GetCompoundType method

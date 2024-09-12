@@ -4,7 +4,7 @@ linktitle: SqlScriptSaveOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Saving::SqlScriptSaveOptions class. Represents the options of saving sql in C++.'
 type: docs
-weight: 400
+weight: 300
 url: /cpp/aspose.cells.saving/sqlscriptsaveoptions/
 ---
 ## SqlScriptSaveOptions class

@@ -36,19 +36,19 @@ Aspose::Cells::MultipleFilterCollection::MultipleFilterCollection(MultipleFilter
 * Class [MultipleFilterCollection](../)
 * Namespace [Aspose::Cells](../../)
 * Library [Aspose.Cells for C++](../../../)
-## MultipleFilterCollection::MultipleFilterCollection(const IObject*) constructor
+## MultipleFilterCollection::MultipleFilterCollection(const Aspose::Cells::Object\&) constructor
 
 
-Constructs from an [IObject](../../iobject/) convertible to this.
+Constructs from an [Object](../../object/) convertible to this.
 
 ```cpp
-Aspose::Cells::MultipleFilterCollection::MultipleFilterCollection(const IObject *obj)
+Aspose::Cells::MultipleFilterCollection::MultipleFilterCollection(const Aspose::Cells::Object &obj)
 ```
 
 ## See Also
 
 * Class [Vector](../../vector/)
-* Class [IObject](../../iobject/)
+* Class [Object](../../object/)
 * Class [MultipleFilterCollection](../)
 * Namespace [Aspose::Cells](../../)
 * Library [Aspose.Cells for C++](../../../)

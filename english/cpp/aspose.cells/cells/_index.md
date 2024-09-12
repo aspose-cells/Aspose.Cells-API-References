@@ -55,7 +55,7 @@ class Cells
 | [DeleteBlankColumns()](./deleteblankcolumns/) | Delete all blank columns which do not contain any data. |
 | [DeleteBlankColumns(const DeleteOptions\& options)](./deleteblankcolumns/) | Delete all blank columns which do not contain any data. |
 | [DeleteBlankRows()](./deleteblankrows/) | Delete all blank rows which do not contain any data or other object. |
-| [DeleteBlankRows(const DeleteOptions\& options)](./deleteblankrows/) | Delete all blank rows which do not contain any data or other object. |
+| [DeleteBlankRows(const DeleteOptions\& options)](./deleteblankrows/) | Delete all blank rows which do not contain any data or some special objects such as visible comment, pivot table. |
 | [DeleteColumn(int32_t columnIndex, bool updateReference)](./deletecolumn/) | Deletes a column. |
 | [DeleteColumn(int32_t columnIndex)](./deletecolumn/) | Deletes a column. |
 | [DeleteColumns(int32_t columnIndex, int32_t totalColumns, bool updateReference)](./deletecolumns/) | Deletes several columns. |
@@ -69,6 +69,8 @@ class Cells
 | [EndCellInColumn(int32_t startRow, int32_t endRow, int16_t startColumn, int16_t endColumn)](./endcellincolumn/) | Gets the last cell with maximum column index in this range. |
 | [EndCellInRow(int32_t rowIndex)](./endcellinrow/) | Gets the last cell in this row. |
 | [EndCellInRow(int32_t startRow, int32_t endRow, int32_t startColumn, int32_t endColumn)](./endcellinrow/) | Gets the last cell with maximum row index in this range. |
+| [Find(const Aspose::Cells::Object\& what, const Cell\& previousCell)](./find/) | Finds the cell containing with the input object. |
+| [Find(const Aspose::Cells::Object\& what, const Cell\& previousCell, const FindOptions\& findOptions)](./find/) | Finds the cell containing with the input object. |
 | [Get(int32_t row, int32_t column)](./get/) | Gets the [Cell](../cell/) element at the specified cell row index and column index. |
 | [Get(const U16String\& cellName)](./get/) | Gets the [Cell](../cell/) element at the specified cell name. |
 | [Get(const char16_t* cellName)](./get/) | Gets the [Cell](../cell/) element at the specified cell name. |
@@ -143,6 +145,7 @@ class Cells
 | [ImportCSV(const char16_t* fileName, const TxtLoadOptions\& options, int32_t firstRow, int32_t firstColumn)](./importcsv/) | Import a CSV file to the cells. |
 | [ImportCSV(const Vector \<uint8_t\>\& stream, const TxtLoadOptions\& options, int32_t firstRow, int32_t firstColumn)](./importcsv/) | Import a CSV file to the cells. |
 | [ImportFormulaArray(const Vector \<U16String\>\& stringArray, int32_t firstRow, int32_t firstColumn, bool isVertical)](./importformulaarray/) | Imports an array of formula into a worksheet. |
+| [ImportObjectArray(const Vector \<Aspose::Cells::Object\>\& objArray, int32_t firstRow, int32_t firstColumn, bool isVertical, int32_t skip)](./importobjectarray/) | Imports an array of data into a worksheet. |
 | [InsertColumn(int32_t columnIndex, bool updateReference)](./insertcolumn/) | Inserts a new column into the worksheet. |
 | [InsertColumn(int32_t columnIndex)](./insertcolumn/) | Inserts a new column into the worksheet. |
 | [InsertColumns(int32_t columnIndex, int32_t totalColumns)](./insertcolumns/) | Inserts some columns into the worksheet. |

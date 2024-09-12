@@ -4,7 +4,7 @@ linktitle: GetRangeCount
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::UnionRange::GetRangeCount method. Gets the count of the ranges in C++.'
 type: docs
-weight: 2300
+weight: 2500
 url: /cpp/aspose.cells/unionrange/getrangecount/
 ---
 ## UnionRange::GetRangeCount method

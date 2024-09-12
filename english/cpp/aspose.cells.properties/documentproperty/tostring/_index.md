@@ -4,7 +4,7 @@ linktitle: ToString
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Properties::DocumentProperty::ToString method. Returns the property value as a string in C++.'
 type: docs
-weight: 1100
+weight: 1300
 url: /cpp/aspose.cells.properties/documentproperty/tostring/
 ---
 ## DocumentProperty::ToString method
@@ -19,7 +19,7 @@ U16String Aspose::Cells::Properties::DocumentProperty::ToString()
 ## Remarks
 
 
-Converts a number property using Object.ToString(). Converts a boolean property into "Y" or "N". Converts a date property into a short date string.
+Converts a number property using [Object.ToString()](../../../aspose.cells/object/tostring/). Converts a boolean property into "Y" or "N". Converts a date property into a short date string.
 ## See Also
 
 * Class [U16String](../../../aspose.cells/u16string/)

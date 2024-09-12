@@ -4,7 +4,7 @@ linktitle: SetCompoundType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::LineFormat::SetCompoundType method. Specifies the line compound type in C++.'
 type: docs
-weight: 800
+weight: 900
 url: /cpp/aspose.cells.drawing/lineformat/setcompoundtype/
 ---
 ## LineFormat::SetCompoundType method

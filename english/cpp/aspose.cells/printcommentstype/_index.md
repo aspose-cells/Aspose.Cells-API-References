@@ -4,7 +4,7 @@ linktitle: PrintCommentsType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::PrintCommentsType enum. Represents the way comments are printed with the sheet in C++.'
 type: docs
-weight: 24000
+weight: 24400
 url: /cpp/aspose.cells/printcommentstype/
 ---
 ## PrintCommentsType enum
@@ -23,6 +23,7 @@ enum class PrintCommentsType
 | PrintInPlace | 0 | <br>Represents to print comments as displayed on sheet. |
 | PrintNoComments | 1 | <br>Represents not to print comments. |
 | PrintSheetEnd | 2 | <br>Represents to print comments at end of sheet. |
+| PrintWithThreadedComments | 3 | <br>Represents to print comments as displayed on sheet include threaded comments. |
 
 ## See Also
 

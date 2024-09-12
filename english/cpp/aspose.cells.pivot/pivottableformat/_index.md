@@ -4,7 +4,7 @@ linktitle: PivotTableFormat
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTableFormat class. Represents the format defined in the PivotTable in C++.'
 type: docs
-weight: 2000
+weight: 2300
 url: /cpp/aspose.cells.pivot/pivottableformat/
 ---
 ## PivotTableFormat class

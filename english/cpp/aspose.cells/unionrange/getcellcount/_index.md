@@ -4,7 +4,7 @@ linktitle: GetCellCount
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::UnionRange::GetCellCount method. Gets all cell count in the range in C++.'
 type: docs
-weight: 2200
+weight: 2400
 url: /cpp/aspose.cells/unionrange/getcellcount/
 ---
 ## UnionRange::GetCellCount method

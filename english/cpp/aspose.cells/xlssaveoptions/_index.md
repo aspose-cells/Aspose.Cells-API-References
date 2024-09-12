@@ -34,6 +34,7 @@ class XlsSaveOptions : public Aspose::Cells::SaveOptions
 | [GetUpdateSmartArt()](../saveoptions/getupdatesmartart/) | Indicates whether updating smart art setting. The default value is false. |
 | [GetValidateMergedAreas()](../saveoptions/getvalidatemergedareas/) | Indicates whether validate merged cells before saving the file. |
 | [GetWarningCallback()](../saveoptions/getwarningcallback/) | Gets or sets warning callback. |
+| [GetWpsCompatibility()](./getwpscompatibility/) | Indicates whether exporting. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const XlsSaveOptions\& src)](./operator_asm/) | operator= |
@@ -54,6 +55,7 @@ class XlsSaveOptions : public Aspose::Cells::SaveOptions
 | [SetUpdateSmartArt(bool value)](../saveoptions/setupdatesmartart/) | Indicates whether updating smart art setting. The default value is false. |
 | [SetValidateMergedAreas(bool value)](../saveoptions/setvalidatemergedareas/) | Indicates whether validate merged cells before saving the file. |
 | [SetWarningCallback(IWarningCallback* value)](../saveoptions/setwarningcallback/) | Gets or sets warning callback. |
+| [SetWpsCompatibility(bool value)](./setwpscompatibility/) | Indicates whether exporting. |
 | [XlsSaveOptions()](./xlssaveoptions/) | Creates options for saving Excel 97-2003 xls file. |
 | explicit [XlsSaveOptions(SaveFormat saveFormat)](./xlssaveoptions/) | Creates options for saving Excel 97-2003 xls/xlt file. |
 | [XlsSaveOptions(XlsSaveOptions_Impl* impl)](./xlssaveoptions/) | Constructs from an implementation object. |

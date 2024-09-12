@@ -4,7 +4,7 @@ linktitle: GetWorksheet
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Range::GetWorksheet method. Gets the Worksheetobject which contains this range in C++.'
 type: docs
-weight: 5100
+weight: 5300
 url: /cpp/aspose.cells/range/getworksheet/
 ---
 ## Range::GetWorksheet method

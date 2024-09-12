@@ -4,7 +4,7 @@ linktitle: SetCustom
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Style::SetCustom method. Sets the Custom number format string of a cell in C++.'
 type: docs
-weight: 5800
+weight: 5900
 url: /cpp/aspose.cells/style/setcustom/
 ---
 ## Style::SetCustom(const U16String\&, bool) method

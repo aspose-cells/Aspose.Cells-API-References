@@ -2,7 +2,7 @@
 title: Aspose::Cells::Pivot::PivotFieldCollection::Add method
 linktitle: Add
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Pivot::PivotFieldCollection::Add method. Adds a PivotField Object to the specific type PivotFields in C++.'
+description: 'Aspose::Cells::Pivot::PivotFieldCollection::Add method. Adds a PivotFieldObject to the specific type PivotFields in C++.'
 type: docs
 weight: 1100
 url: /cpp/aspose.cells.pivot/pivotfieldcollection/add/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.pivot/pivotfieldcollection/add/
 ## PivotFieldCollection::Add method
 
 
-Adds a [PivotField](../../pivotfield/) Object to the specific type PivotFields.
+Adds a [PivotField](../../pivotfield/)[Object](../../../aspose.cells/object/) to the specific type PivotFields.
 
 ```cpp
 int32_t Aspose::Cells::Pivot::PivotFieldCollection::Add(const PivotField &pivotField)
@@ -19,11 +19,11 @@ int32_t Aspose::Cells::Pivot::PivotFieldCollection::Add(const PivotField &pivotF
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pivotField | const PivotField\& | a [PivotField](../../pivotfield/) Object. |
+| pivotField | const PivotField\& | a [PivotField](../../pivotfield/)[Object](../../../aspose.cells/object/). |
 
 ## ReturnValue
 
-the index of the [PivotField](../../pivotfield/) Object in this PivotFields.
+the index of the [PivotField](../../pivotfield/)[Object](../../../aspose.cells/object/) in this PivotFields.
 
 ## See Also
 

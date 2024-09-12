@@ -40,10 +40,12 @@ class Axis
 | [GetMajorTickMark()](./getmajortickmark/) | Represents the type of major tick mark for the specified axis. |
 | [GetMajorUnit()](./getmajorunit/) | Represents the major units for the axis. |
 | [GetMajorUnitScale()](./getmajorunitscale/) | Represents the major unit scale for the category axis. |
+| [GetMaxValue()](./getmaxvalue/) | Represents the maximum value on the value axis. |
 | [GetMinorGridLines()](./getminorgridlines/) | Represents minor gridlines on a chart axis. |
 | [GetMinorTickMark()](./getminortickmark/) | Represents the type of minor tick mark for the specified axis. |
 | [GetMinorUnit()](./getminorunit/) | Represents the minor units for the axis. |
 | [GetMinorUnitScale()](./getminorunitscale/) | Represents the major unit scale for the category axis. |
+| [GetMinValue()](./getminvalue/) | Represents the minimum value on the value axis. |
 | [GetTickLabelPosition()](./getticklabelposition/) | Represents the position of tick-mark labels on the specified axis. |
 | [GetTickLabels()](./getticklabels/) | Returns a [TickLabels](../ticklabels/) object that represents the tick-mark labels for the specified axis. |
 | [GetTickLabelSpacing()](./getticklabelspacing/) | Represents the number of categories or series between tick-mark labels. Applies only to category and series axes. |
@@ -82,9 +84,11 @@ class Axis
 | [SetMajorTickMark(TickMarkType value)](./setmajortickmark/) | Represents the type of major tick mark for the specified axis. |
 | [SetMajorUnit(double value)](./setmajorunit/) | Represents the major units for the axis. |
 | [SetMajorUnitScale(TimeUnit value)](./setmajorunitscale/) | Represents the major unit scale for the category axis. |
+| [SetMaxValue(const Aspose::Cells::Object\& value)](./setmaxvalue/) | Represents the maximum value on the value axis. |
 | [SetMinorTickMark(TickMarkType value)](./setminortickmark/) | Represents the type of minor tick mark for the specified axis. |
 | [SetMinorUnit(double value)](./setminorunit/) | Represents the minor units for the axis. |
 | [SetMinorUnitScale(TimeUnit value)](./setminorunitscale/) | Represents the major unit scale for the category axis. |
+| [SetMinValue(const Aspose::Cells::Object\& value)](./setminvalue/) | Represents the minimum value on the value axis. |
 | [SetTickLabelPosition(TickLabelPositionType value)](./setticklabelposition/) | Represents the position of tick-mark labels on the specified axis. |
 | [SetTickLabelSpacing(int32_t value)](./setticklabelspacing/) | Represents the number of categories or series between tick-mark labels. Applies only to category and series axes. |
 | [SetTickMarkSpacing(int32_t value)](./settickmarkspacing/) | Returns or sets the number of categories or series between tick marks. Applies only to category and series axes. |

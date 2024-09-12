@@ -4,7 +4,7 @@ linktitle: ApplyStyle
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Range::ApplyStyle method. Applies formats for a whole range in C++.'
 type: docs
-weight: 3200
+weight: 3400
 url: /cpp/aspose.cells/range/applystyle/
 ---
 ## Range::ApplyStyle method

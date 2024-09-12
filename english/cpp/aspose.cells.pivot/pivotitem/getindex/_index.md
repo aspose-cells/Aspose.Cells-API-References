@@ -4,7 +4,7 @@ linktitle: GetIndex
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotItem::GetIndex method. Gets the index of the pivot item in cache field in C++.'
 type: docs
-weight: 2200
+weight: 2500
 url: /cpp/aspose.cells.pivot/pivotitem/getindex/
 ---
 ## PivotItem::GetIndex method

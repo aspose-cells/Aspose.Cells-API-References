@@ -50,6 +50,7 @@ class Range
 | [GetRowCount()](./getrowcount/) | Gets the count of rows in the range. |
 | [GetRowHeight()](./getrowheight/) | Sets or gets the height of rows in this range. |
 | [GetTop()](./gettop/) | Gets the distance, in points, from the top edge of row 1 to the top edge of the range. |
+| [GetValue()](./getvalue/) | Gets and sets the value of the range. |
 | [GetWidth()](./getwidth/) | Gets the width of a range in points. |
 | [GetWorksheet()](./getworksheet/) | Gets the [Worksheet](../worksheet/)object which contains this range. |
 | [Intersect(const Range\& range)](./intersect/) | Returns a [Range](./) object that represents the rectangular intersection of two ranges. |
@@ -76,6 +77,7 @@ class Range
 | [SetRowHeight(double value)](./setrowheight/) | Sets or gets the height of rows in this range. |
 | [SetStyle(const Style\& style, bool explicitFlag)](./setstyle/) | Apply the cell style. |
 | [SetStyle(const Style\& style)](./setstyle/) | Sets the style of the range. |
+| [SetValue(const Aspose::Cells::Object\& value)](./setvalue/) | Gets and sets the value of the range. |
 | [ToHtml(const HtmlSaveOptions\& saveOptions)](./tohtml/) | Convert the range to html . |
 | [ToImage(const ImageOrPrintOptions\& options)](./toimage/) | Converts the range to image. |
 | [ToJson(const JsonSaveOptions\& options)](./tojson/) | Convert the range to JSON value. |

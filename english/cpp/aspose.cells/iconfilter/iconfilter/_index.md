@@ -22,19 +22,19 @@ Aspose::Cells::IconFilter::IconFilter(IconFilter_Impl *impl)
 * Class [IconFilter](../)
 * Namespace [Aspose::Cells](../../)
 * Library [Aspose.Cells for C++](../../../)
-## IconFilter::IconFilter(const IObject*) constructor
+## IconFilter::IconFilter(const Aspose::Cells::Object\&) constructor
 
 
-Constructs from an [IObject](../../iobject/) convertible to this.
+Constructs from an [Object](../../object/) convertible to this.
 
 ```cpp
-Aspose::Cells::IconFilter::IconFilter(const IObject *obj)
+Aspose::Cells::IconFilter::IconFilter(const Aspose::Cells::Object &obj)
 ```
 
 ## See Also
 
 * Class [Vector](../../vector/)
-* Class [IObject](../../iobject/)
+* Class [Object](../../object/)
 * Class [IconFilter](../)
 * Namespace [Aspose::Cells](../../)
 * Library [Aspose.Cells for C++](../../../)

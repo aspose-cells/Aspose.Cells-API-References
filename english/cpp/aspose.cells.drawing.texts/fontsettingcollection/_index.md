@@ -24,6 +24,7 @@ class FontSettingCollection
 | [AppendText(const char16_t* text)](./appendtext/) | Appends the text. |
 | [Clear()](./clear/) | Clear all setting. |
 | [DeleteText(int32_t index, int32_t count)](./deletetext/) | Delete some characters. |
+| [Equals(const Aspose::Cells::Object\& obj)](./equals/) |  |
 | [FontSettingCollection(FontSettingCollection_Impl* impl)](./fontsettingcollection/) | Constructs from an implementation object. |
 | [FontSettingCollection(const FontSettingCollection\& src)](./fontsettingcollection/) | Copy constructor. |
 | [Format(int32_t startIndex, int32_t length, const Aspose::Cells::Font\& font, const StyleFlag\& flag)](./format/) | Format the text with font setting. |

@@ -25,6 +25,7 @@ class ImportTableOptions
 | [GetConvertGridStyle()](./getconvertgridstyle/) | Indicates whether apply the style of the grid view to cells. |
 | [GetConvertNumericData()](./getconvertnumericdata/) | Gets or sets a value that indicates whether the string value should be converted to numeric or date value. |
 | [GetDateFormat()](./getdateformat/) | Gets or sets date format string for cells with imported datetime values. |
+| [GetDefaultValues()](./getdefaultvalues/) | Default value for the value in the table is null. |
 | [GetExportCaptionAsFieldName()](./getexportcaptionasfieldname/) | Indicates whether exporting caption as field name. |
 | [GetInsertRows()](./getinsertrows/) | Indicates whether new rows should be added for importing data records. |
 | [GetIsFormulas()](./getisformulas/) | Indicates whether the data are formulas. |
@@ -46,6 +47,7 @@ class ImportTableOptions
 | [SetConvertNumericData(bool value)](./setconvertnumericdata/) | Gets or sets a value that indicates whether the string value should be converted to numeric or date value. |
 | [SetDateFormat(const U16String\& value)](./setdateformat/) | Gets or sets date format string for cells with imported datetime values. |
 | [SetDateFormat(const char16_t* value)](./setdateformat/) | Gets or sets date format string for cells with imported datetime values. |
+| [SetDefaultValues(const Vector \<Aspose::Cells::Object\>\& value)](./setdefaultvalues/) | Default value for the value in the table is null. |
 | [SetExportCaptionAsFieldName(bool value)](./setexportcaptionasfieldname/) | Indicates whether exporting caption as field name. |
 | [SetInsertRows(bool value)](./setinsertrows/) | Indicates whether new rows should be added for importing data records. |
 | [SetIsFieldNameShown(bool value)](./setisfieldnameshown/) | Indicates whether field name should be imported. |

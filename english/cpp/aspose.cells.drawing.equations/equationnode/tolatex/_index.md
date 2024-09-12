@@ -2,7 +2,7 @@
 title: Aspose::Cells::Drawing::Equations::EquationNode::ToLaTeX method
 linktitle: ToLaTeX
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Drawing::Equations::EquationNode::ToLaTeX method. Conver this equtation to LaTeX expression in C++.'
+description: 'Aspose::Cells::Drawing::Equations::EquationNode::ToLaTeX method. Convert this equtation to LaTeX expression in C++.'
 type: docs
 weight: 800
 url: /cpp/aspose.cells.drawing.equations/equationnode/tolatex/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.drawing.equations/equationnode/tolatex/
 ## EquationNode::ToLaTeX method
 
 
-Conver this equtation to LaTeX expression.
+Convert this equtation to LaTeX expression.
 
 ```cpp
 U16String Aspose::Cells::Drawing::Equations::EquationNode::ToLaTeX()

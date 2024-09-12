@@ -2,7 +2,7 @@
 title: Aspose::Cells::Pivot::PivotFieldCollection::Get method
 linktitle: Get
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Pivot::PivotFieldCollection::Get method. Gets the PivotField Object at the specific index in C++.'
+description: 'Aspose::Cells::Pivot::PivotFieldCollection::Get method. Gets the PivotFieldObject at the specific index in C++.'
 type: docs
 weight: 900
 url: /cpp/aspose.cells.pivot/pivotfieldcollection/get/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.pivot/pivotfieldcollection/get/
 ## PivotFieldCollection::Get(int32_t) method
 
 
-Gets the [PivotField](../../pivotfield/) Object at the specific index.
+Gets the [PivotField](../../pivotfield/)[Object](../../../aspose.cells/object/) at the specific index.
 
 ```cpp
 PivotField Aspose::Cells::Pivot::PivotFieldCollection::Get(int32_t index)
@@ -26,7 +26,7 @@ PivotField Aspose::Cells::Pivot::PivotFieldCollection::Get(int32_t index)
 ## PivotFieldCollection::Get(const U16String\&) method
 
 
-Gets the [PivotField](../../pivotfield/) Object of the specific name.
+Gets the [PivotField](../../pivotfield/)[Object](../../../aspose.cells/object/) of the specific name.
 
 ```cpp
 PivotField Aspose::Cells::Pivot::PivotFieldCollection::Get(const U16String &name)
@@ -43,7 +43,7 @@ PivotField Aspose::Cells::Pivot::PivotFieldCollection::Get(const U16String &name
 ## PivotFieldCollection::Get(const char16_t*) method
 
 
-Gets the [PivotField](../../pivotfield/) Object of the specific name.
+Gets the [PivotField](../../pivotfield/)[Object](../../../aspose.cells/object/) of the specific name.
 
 ```cpp
 PivotField Aspose::Cells::Pivot::PivotFieldCollection::Get(const char16_t *name)

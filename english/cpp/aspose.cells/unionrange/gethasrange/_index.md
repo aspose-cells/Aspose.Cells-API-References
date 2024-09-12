@@ -4,7 +4,7 @@ linktitle: GetHasRange
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::UnionRange::GetHasRange method. Indicates whether this has range in C++.'
 type: docs
-weight: 1600
+weight: 1800
 url: /cpp/aspose.cells/unionrange/gethasrange/
 ---
 ## UnionRange::GetHasRange method

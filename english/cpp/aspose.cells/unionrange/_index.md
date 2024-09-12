@@ -34,6 +34,7 @@ class UnionRange
 | [GetRanges()](./getranges/) | Gets all union ranges. |
 | [GetRefersTo()](./getrefersto/) | Gets the range's refers to. |
 | [GetRowCount()](./getrowcount/) | Gets the count of rows in the range. |
+| [GetValue()](./getvalue/) | Gets and sets the values of the range. |
 | [Intersect(const U16String\& range)](./intersect/) | Intersects another range. |
 | [Intersect(const char16_t* range)](./intersect/) | Intersects another range. |
 | [Intersect(const UnionRange\& unionRange)](./intersect/) | Intersects another range. |
@@ -49,6 +50,7 @@ class UnionRange
 | [SetOutlineBorders(const Vector \<CellBorderType\>\& borderStyles, const Vector \<Aspose::Cells::Color\>\& borderColors)](./setoutlineborders/) | Sets out line borders around a range of cells. |
 | [SetOutlineBorders(CellBorderType borderStyle, const Aspose::Cells::Color\& borderColor)](./setoutlineborders/) | Sets the outline borders around a range of cells with same border style and color. |
 | [SetStyle(const Style\& style)](./setstyle/) | Sets the style of the range. |
+| [SetValue(const Aspose::Cells::Object\& value)](./setvalue/) | Gets and sets the values of the range. |
 | [Union(const U16String\& range)](./union/) | Union another range. |
 | [Union(const char16_t* range)](./union/) | Union another range. |
 | [Union(const UnionRange\& unionRange)](./union/) | Union another range. |

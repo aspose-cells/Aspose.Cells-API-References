@@ -4,7 +4,7 @@ linktitle: RefreshPivotTables
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::WorksheetCollection::RefreshPivotTables method. Refreshes all the PivotTables in the Excel file in C++.'
 type: docs
-weight: 4200
+weight: 4300
 url: /cpp/aspose.cells/worksheetcollection/refreshpivottables/
 ---
 ## WorksheetCollection::RefreshPivotTables() method

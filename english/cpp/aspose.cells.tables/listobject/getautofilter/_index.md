@@ -4,7 +4,7 @@ linktitle: GetAutoFilter
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Tables::ListObject::GetAutoFilter method. Gets auto filter in C++.'
 type: docs
-weight: 2200
+weight: 2300
 url: /cpp/aspose.cells.tables/listobject/getautofilter/
 ---
 ## ListObject::GetAutoFilter method

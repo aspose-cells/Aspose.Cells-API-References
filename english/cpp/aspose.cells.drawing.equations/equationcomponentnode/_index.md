@@ -4,7 +4,7 @@ linktitle: EquationComponentNode
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Equations::EquationComponentNode class. This class specifies the components of an equation or mathematical expression. Different types of components combined into different equations. For example, a fraction consists of two parts, a numerator component and a denominator component. For more component types, please refer to ''EquationNodeType'' in C++.'
 type: docs
-weight: 600
+weight: 700
 url: /cpp/aspose.cells.drawing.equations/equationcomponentnode/
 ---
 ## EquationComponentNode class
@@ -23,6 +23,7 @@ class EquationComponentNode : public Aspose::Cells::Drawing::Equations::Equation
 | [AddChild(EquationNodeType equationType)](../equationnode/addchild/) | Insert a node of the specified type at the end of the child node list of the current node. |
 | [AddChild(const EquationNode\& node)](../equationnode/addchild/) | Inserts the specified node at the end of the current node's list of child nodes. |
 | static [CreateNode(EquationNodeType equationType, const Workbook\& workbook, const EquationNode\& parent)](../equationnode/createnode/) | Create a node of the specified type. |
+| [Equals(const Aspose::Cells::Object\& obj)](./equals/) | Determine whether the current equation node is equal to the specified node. |
 | [EquationComponentNode(EquationComponentNode_Impl* impl)](./equationcomponentnode/) | Constructs from an implementation object. |
 | [EquationComponentNode(const EquationComponentNode\& src)](./equationcomponentnode/) | Copy constructor. |
 | [EquationComponentNode(const EquationNode\& src)](./equationcomponentnode/) | Constructs from a parent object. |
@@ -54,8 +55,8 @@ class EquationComponentNode : public Aspose::Cells::Drawing::Equations::Equation
 | [RemoveChild(int32_t index)](../equationnode/removechild/) | Removes the node at the specified index from the current node's children. |
 | [SetParentNode(const EquationNode\& value)](../equationnode/setparentnode/) | Specifies the parent node of the current node. |
 | [SetWordArtStyle(PresetWordArtStyle style)](../../aspose.cells/fontsetting/setwordartstyle/) | Sets the preset WordArt style. |
-| [ToLaTeX()](../equationnode/tolatex/) | Conver this equtation to LaTeX expression. |
-| [ToMathML()](../equationnode/tomathml/) | Conver this equtation to MathML expression. |
+| [ToLaTeX()](../equationnode/tolatex/) | Convert this equtation to LaTeX expression. |
+| [ToMathML()](../equationnode/tomathml/) | Convert this equtation to MathML expression. |
 | [~EquationComponentNode()](./~equationcomponentnode/) | Destructor. |
 | [~EquationNode()](../equationnode/~equationnode/) | Destructor. |
 | [~FontSetting()](../../aspose.cells/fontsetting/~fontsetting/) | Destructor. |

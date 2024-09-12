@@ -4,7 +4,7 @@ linktitle: DeleteBlankRows
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::DeleteBlankRows method. Delete all blank rows which do not contain any data or other object in C++.'
 type: docs
-weight: 11400
+weight: 11500
 url: /cpp/aspose.cells/cells/deleteblankrows/
 ---
 ## Cells::DeleteBlankRows() method
@@ -25,7 +25,7 @@ void Aspose::Cells::Cells::DeleteBlankRows()
 ## Cells::DeleteBlankRows(const DeleteOptions\&) method
 
 
-Delete all blank rows which do not contain any data or other object.
+Delete all blank rows which do not contain any data or some special objects such as visible comment, pivot table.
 
 ```cpp
 void Aspose::Cells::Cells::DeleteBlankRows(const DeleteOptions &options)

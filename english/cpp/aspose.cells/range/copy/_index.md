@@ -4,7 +4,7 @@ linktitle: Copy
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Range::Copy method. Copying the range with paste special options in C++.'
 type: docs
-weight: 4400
+weight: 4600
 url: /cpp/aspose.cells/range/copy/
 ---
 ## Range::Copy(const Range\&, const PasteOptions\&) method

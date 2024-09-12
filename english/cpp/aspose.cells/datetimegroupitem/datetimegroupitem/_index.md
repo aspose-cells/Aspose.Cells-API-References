@@ -49,19 +49,19 @@ Aspose::Cells::DateTimeGroupItem::DateTimeGroupItem(DateTimeGroupItem_Impl *impl
 * Class [DateTimeGroupItem](../)
 * Namespace [Aspose::Cells](../../)
 * Library [Aspose.Cells for C++](../../../)
-## DateTimeGroupItem::DateTimeGroupItem(const IObject*) constructor
+## DateTimeGroupItem::DateTimeGroupItem(const Aspose::Cells::Object\&) constructor
 
 
-Constructs from an [IObject](../../iobject/) convertible to this.
+Constructs from an [Object](../../object/) convertible to this.
 
 ```cpp
-Aspose::Cells::DateTimeGroupItem::DateTimeGroupItem(const IObject *obj)
+Aspose::Cells::DateTimeGroupItem::DateTimeGroupItem(const Aspose::Cells::Object &obj)
 ```
 
 ## See Also
 
 * Class [Vector](../../vector/)
-* Class [IObject](../../iobject/)
+* Class [Object](../../object/)
 * Class [DateTimeGroupItem](../)
 * Namespace [Aspose::Cells](../../)
 * Library [Aspose.Cells for C++](../../../)

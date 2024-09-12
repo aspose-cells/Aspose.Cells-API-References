@@ -4,7 +4,7 @@ linktitle: FractionEquationNode
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Equations::FractionEquationNode class. This class specifies the fraction equation, consisting of a numerator and denominator separated by a fraction bar. The fraction bar can be horizontal or diagonal, depending on the fraction properties. The fraction equation is also used to represent the stack function, which places one element above another, with no fraction bar in C++.'
 type: docs
-weight: 900
+weight: 1000
 url: /cpp/aspose.cells.drawing.equations/fractionequationnode/
 ---
 ## FractionEquationNode class
@@ -23,6 +23,7 @@ class FractionEquationNode : public Aspose::Cells::Drawing::Equations::EquationN
 | [AddChild(EquationNodeType equationType)](../equationnode/addchild/) | Insert a node of the specified type at the end of the child node list of the current node. |
 | [AddChild(const EquationNode\& node)](../equationnode/addchild/) | Inserts the specified node at the end of the current node's list of child nodes. |
 | static [CreateNode(EquationNodeType equationType, const Workbook\& workbook, const EquationNode\& parent)](../equationnode/createnode/) | Create a node of the specified type. |
+| [Equals(const Aspose::Cells::Object\& obj)](./equals/) | Determine whether the current equation node is equal to the specified node. |
 | [EquationNode(EquationNode_Impl* impl)](../equationnode/equationnode/) | Constructs from an implementation object. |
 | [EquationNode(const EquationNode\& src)](../equationnode/equationnode/) | Copy constructor. |
 | [EquationNode(const FontSetting\& src)](../equationnode/equationnode/) | Constructs from a parent object. |
@@ -56,8 +57,8 @@ class FractionEquationNode : public Aspose::Cells::Drawing::Equations::EquationN
 | [SetFractionType(EquationFractionType value)](./setfractiontype/) | This specifies the type of fraction ; the default is 'Bar'. |
 | [SetParentNode(const EquationNode\& value)](../equationnode/setparentnode/) | Specifies the parent node of the current node. |
 | [SetWordArtStyle(PresetWordArtStyle style)](../../aspose.cells/fontsetting/setwordartstyle/) | Sets the preset WordArt style. |
-| [ToLaTeX()](../equationnode/tolatex/) | Conver this equtation to LaTeX expression. |
-| [ToMathML()](../equationnode/tomathml/) | Conver this equtation to MathML expression. |
+| [ToLaTeX()](../equationnode/tolatex/) | Convert this equtation to LaTeX expression. |
+| [ToMathML()](../equationnode/tomathml/) | Convert this equtation to MathML expression. |
 | [~EquationNode()](../equationnode/~equationnode/) | Destructor. |
 | [~FontSetting()](../../aspose.cells/fontsetting/~fontsetting/) | Destructor. |
 | [~FractionEquationNode()](./~fractionequationnode/) | Destructor. |

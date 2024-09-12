@@ -25,8 +25,10 @@ class RevisionCellChange : public Aspose::Cells::Revisions::Revision
 | [GetId()](../revision/getid/) | Gets the number of this revision. |
 | [GetNewFormula()](./getnewformula/) | Gets the old formula. |
 | [GetNewStyle()](./getnewstyle/) | Gets the new style of the cell. |
+| [GetNewValue()](./getnewvalue/) | Gets new value of the cell. |
 | [GetOldFormula()](./getoldformula/) | Gets the old formula. |
 | [GetOldStyle()](./getoldstyle/) | Gets the old style of the cell. |
+| [GetOldValue()](./getoldvalue/) | Gets old value of the cell. |
 | [GetRow()](./getrow/) | Gets the row index of the cell. |
 | [GetType()](./gettype/) | Represents the type of revision. |
 | [GetWorksheet()](../revision/getworksheet/) | Gets the worksheet. |

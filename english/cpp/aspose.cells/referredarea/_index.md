@@ -26,6 +26,10 @@ class ReferredArea
 | [GetSheetName()](./getsheetname/) | Indicates which sheet this reference is in. |
 | [GetStartColumn()](./getstartcolumn/) | The start column of the area. |
 | [GetStartRow()](./getstartrow/) | The start row of the area. |
+| [GetValue(int32_t rowOffset, int32_t colOffset)](./getvalue/) | Gets cell value with given offset from the top-left of this area. |
+| [GetValue(int32_t rowOffset, int32_t colOffset, bool calculateFormulas)](./getvalue/) | Gets cell value with given offset from the top-left of this area. |
+| [GetValues()](./getvalues/) | Gets cell values in this area. |
+| [GetValues(bool calculateFormulas)](./getvalues/) | Gets cell values in this area. |
 | [IsArea()](./isarea/) | Indicates whether this is an area. |
 | [IsEntireColumn()](./isentirecolumn/) | Indicates whether this area contains all rows(entire column). |
 | [IsEntireRow()](./isentirerow/) | Indicates whether this area contains all columns(entire row). |

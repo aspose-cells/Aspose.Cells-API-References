@@ -2,12 +2,32 @@
 title: Aspose::Cells::WorksheetCollection::SetOleSize method
 linktitle: SetOleSize
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::WorksheetCollection::SetOleSize method. Sets displayed size when Workbook file is used as an Ole object in C++.'
+description: 'Aspose::Cells::WorksheetCollection::SetOleSize method. Gets and Sets displayed size when Workbook file is used as an Ole object in C++.'
 type: docs
-weight: 3600
+weight: 3700
 url: /cpp/aspose.cells/worksheetcollection/setolesize/
 ---
-## WorksheetCollection::SetOleSize method
+## WorksheetCollection::SetOleSize(const Aspose::Cells::Object\&) method
+
+
+Gets and Sets displayed size when [Workbook](../../workbook/) file is used as an Ole object.
+
+```cpp
+void Aspose::Cells::WorksheetCollection::SetOleSize(const Aspose::Cells::Object &value)
+```
+
+## Remarks
+
+
+Null means no ole size setting. 
+## See Also
+
+* Class [Vector](../../vector/)
+* Class [Object](../../object/)
+* Class [WorksheetCollection](../)
+* Namespace [Aspose::Cells](../../)
+* Library [Aspose.Cells for C++](../../../)
+## WorksheetCollection::SetOleSize(int32_t, int32_t, int32_t, int32_t) method
 
 
 Sets displayed size when [Workbook](../../workbook/) file is used as an Ole object.

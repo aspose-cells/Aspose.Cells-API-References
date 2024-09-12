@@ -4,7 +4,7 @@ linktitle: EquationMathematicalOperatorType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Equations::EquationMathematicalOperatorType enum. Mathematical Operators Type in C++.'
 type: docs
-weight: 2500
+weight: 2700
 url: /cpp/aspose.cells.drawing.equations/equationmathematicaloperatortype/
 ---
 ## EquationMathematicalOperatorType enum

@@ -4,7 +4,7 @@ linktitle: GetRevisionLogs
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::WorksheetCollection::GetRevisionLogs method. Represents revision logs in C++.'
 type: docs
-weight: 4000
+weight: 4100
 url: /cpp/aspose.cells/worksheetcollection/getrevisionlogs/
 ---
 ## WorksheetCollection::GetRevisionLogs method

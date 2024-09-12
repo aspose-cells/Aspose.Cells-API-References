@@ -76,6 +76,36 @@ void Aspose::Cells::DataSorter::AddKey(int32_t key, SortOrder order, const char1
 * Class [DataSorter](../)
 * Namespace [Aspose::Cells](../../)
 * Library [Aspose.Cells for C++](../../../)
+## DataSorter::AddKey(int32_t, SortOnType, SortOrder, const Aspose::Cells::Object\&) method
+
+
+Adds sorted column index and sort order with custom sort list.
+
+```cpp
+void Aspose::Cells::DataSorter::AddKey(int32_t key, SortOnType type, SortOrder order, const Aspose::Cells::Object &customList)
+```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| key | int32_t | The sorted column index(absolute position, column A is 0, B is 1, ...) |
+| type | SortOnType | The sorted value type. |
+| order | SortOrder | The sort order. |
+| customList | const Aspose::Cells::Object\& | The custom sort list. |
+## Remarks
+
+
+
+If type is [SortOnType.CellColor](../../sortontype/) or [SortOnType.FontColor](../../sortontype/), the customList is [Color](../../color/). 
+## See Also
+
+* Class [Vector](../../vector/)
+* Enum [SortOnType](../../sortontype/)
+* Enum [SortOrder](../../sortorder/)
+* Class [Object](../../object/)
+* Class [DataSorter](../)
+* Namespace [Aspose::Cells](../../)
+* Library [Aspose.Cells for C++](../../../)
 ## DataSorter::AddKey(int32_t, SortOrder, const Vector \<U16String\>\&) method
 
 

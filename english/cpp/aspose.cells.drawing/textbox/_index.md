@@ -130,6 +130,7 @@ class TextBox : public Aspose::Cells::Drawing::Shape
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | [IsPrintable()](../shape/isprintable/) | Indicates whether the object is printable. If False, this shape will not be printed when printing. |
 | [IsRichText()](../shape/isrichtext/) | Whether or not the text is rich text. |
+| [IsSameSetting(const Aspose::Cells::Object\& obj)](../shape/issamesetting/) | Returns whether the shape is same. |
 | [IsSmartArt()](../shape/issmartart/) | Indicates whether the shape is a smart art. |
 | [IsTextWrapped()](../shape/istextwrapped/) | Gets and sets the text wrapped type of the shape which contains text. |
 | [IsWordArt()](../shape/iswordart/) | Indicates whether this shape is a word art. |

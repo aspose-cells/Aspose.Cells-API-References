@@ -22,19 +22,19 @@ Aspose::Cells::Top10Filter::Top10Filter(Top10Filter_Impl *impl)
 * Class [Top10Filter](../)
 * Namespace [Aspose::Cells](../../)
 * Library [Aspose.Cells for C++](../../../)
-## Top10Filter::Top10Filter(const IObject*) constructor
+## Top10Filter::Top10Filter(const Aspose::Cells::Object\&) constructor
 
 
-Constructs from an [IObject](../../iobject/) convertible to this.
+Constructs from an [Object](../../object/) convertible to this.
 
 ```cpp
-Aspose::Cells::Top10Filter::Top10Filter(const IObject *obj)
+Aspose::Cells::Top10Filter::Top10Filter(const Aspose::Cells::Object &obj)
 ```
 
 ## See Also
 
 * Class [Vector](../../vector/)
-* Class [IObject](../../iobject/)
+* Class [Object](../../object/)
 * Class [Top10Filter](../)
 * Namespace [Aspose::Cells](../../)
 * Library [Aspose.Cells for C++](../../../)

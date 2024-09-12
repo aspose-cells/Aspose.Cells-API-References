@@ -22,12 +22,11 @@ class DateTimeGroupItem
 | --- | --- |
 | [DateTimeGroupItem(DateTimeGroupingType type, int32_t year, int32_t month, int32_t day, int32_t hour, int32_t minute, int32_t second)](./datetimegroupitem/) |  |
 | [DateTimeGroupItem(DateTimeGroupItem_Impl* impl)](./datetimegroupitem/) | Constructs from an implementation object. |
-| [DateTimeGroupItem(const IObject* obj)](./datetimegroupitem/) | Constructs from an [IObject](../iobject/) convertible to this. |
+| [DateTimeGroupItem(const Aspose::Cells::Object\& obj)](./datetimegroupitem/) | Constructs from an [Object](../object/) convertible to this. |
 | [DateTimeGroupItem(const DateTimeGroupItem\& src)](./datetimegroupitem/) | Copy constructor. |
 | [GetDateTimeGroupingType()](./getdatetimegroupingtype/) | Gets and sets the group type. |
 | [GetDay()](./getday/) | Gets and sets the day of the grouped date time. |
 | [GetHour()](./gethour/) | Gets and sets the hour of the grouped date time. |
-| [GetIObject()](./getiobject/) | Gets the [IObject](../iobject/) pointer of this object. |
 | [GetMinute()](./getminute/) | Gets and sets the minute of the grouped date time. |
 | [GetMinValue()](./getminvalue/) | Gets the min value. |
 | [GetMonth()](./getmonth/) | Gets and sets the month of the grouped date time. |
@@ -43,6 +42,7 @@ class DateTimeGroupItem
 | [SetMonth(int32_t value)](./setmonth/) | Gets and sets the month of the grouped date time. |
 | [SetSecond(int32_t value)](./setsecond/) | Gets and sets the second of the grouped date time. |
 | [SetYear(int32_t value)](./setyear/) | Gets and sets the year of the grouped date time. |
+| [ToObject()](./toobject/) | Gets the [Object](../object/). |
 | [~DateTimeGroupItem()](./~datetimegroupitem/) | Destructor. |
 ## Fields
 

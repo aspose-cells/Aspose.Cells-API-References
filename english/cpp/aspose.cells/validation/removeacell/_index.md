@@ -4,7 +4,7 @@ linktitle: RemoveACell
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Validation::RemoveACell method. Remove the validation settings in the cell in C++.'
 type: docs
-weight: 3700
+weight: 4300
 url: /cpp/aspose.cells/validation/removeacell/
 ---
 ## Validation::RemoveACell method

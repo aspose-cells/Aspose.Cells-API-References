@@ -4,7 +4,7 @@ linktitle: IsGeneratedName
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Properties::DocumentProperty::IsGeneratedName method. Returns true if this property does not have a name in the OLE2 storage and a unique name was generated only for the public API in C++.'
 type: docs
-weight: 1000
+weight: 1200
 url: /cpp/aspose.cells.properties/documentproperty/isgeneratedname/
 ---
 ## DocumentProperty::IsGeneratedName method

@@ -2,7 +2,7 @@
 title: Aspose::Cells::Pivot::PivotFilterCollection::Add method
 linktitle: Add
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Pivot::PivotFilterCollection::Add method. Adds a PivotFilter Object to the specific type in C++.'
+description: 'Aspose::Cells::Pivot::PivotFilterCollection::Add method. Adds a PivotFilterObject to the specific type in C++.'
 type: docs
 weight: 700
 url: /cpp/aspose.cells.pivot/pivotfiltercollection/add/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.pivot/pivotfiltercollection/add/
 ## PivotFilterCollection::Add method
 
 
-Adds a [PivotFilter](../../pivotfilter/) Object to the specific type.
+Adds a [PivotFilter](../../pivotfilter/)[Object](../../../aspose.cells/object/) to the specific type.
 
 ```cpp
 int32_t Aspose::Cells::Pivot::PivotFilterCollection::Add(int32_t fieldIndex, PivotFilterType type)
@@ -24,7 +24,7 @@ int32_t Aspose::Cells::Pivot::PivotFilterCollection::Add(int32_t fieldIndex, Piv
 
 ## ReturnValue
 
-the index of the [PivotFilter](../../pivotfilter/) Object in this [PivotFilterCollection](../).
+the index of the [PivotFilter](../../pivotfilter/)[Object](../../../aspose.cells/object/) in this [PivotFilterCollection](../).
 
 ## See Also
 

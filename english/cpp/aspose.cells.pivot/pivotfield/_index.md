@@ -27,7 +27,6 @@ class PivotField
 | [GetAutoShowField()](./getautoshowfield/) | Represents auto show field index. -1 means [PivotField](./) itself. It should be the index of the data fields. |
 | [GetAutoSortField()](./getautosortfield/) | Represents the index of field which is auto sorted. -1 means [PivotField](./) itself,others means the position of the data fields. |
 | [GetBaseIndex()](./getbaseindex/) | Represents the [PivotField](./) index in the base PivotFields. |
-| [GetCalculatedFieldFormula()](./getcalculatedfieldformula/) | Get the formula string of the specified calculated field . |
 | [GetCurrentPageItem()](./getcurrentpageitem/) | Represents the current page item showing for the page field (valid only for page fields). |
 | [GetDisplayName()](./getdisplayname/) | Represents the [PivotField](./) display name. |
 | [GetDragToColumn()](./getdragtocolumn/) | Indicates whether the specified field can be dragged to the column position. The default value is true. |
@@ -36,6 +35,7 @@ class PivotField
 | [GetDragToPage()](./getdragtopage/) | Indicates whether the specified field can be dragged to the page position. The default value is true. |
 | [GetDragToRow()](./getdragtorow/) | Indicates whether the specified field can be dragged to the row position. The default value is true. |
 | [GetFilters()](./getfilters/) | Gets all pivot filters of this pivot field. |
+| [GetFormula()](./getformula/) | Gets formula of the calculated field . |
 | [GetFunction()](./getfunction/) | Represents the function used to summarize the [PivotTable](../pivottable/) data field. |
 | [GetGroupSettings()](./getgroupsettings/) | Gets the group settings of the pivot field. |
 | [GetInsertBlankRow()](./getinsertblankrow/) | Indicates whether inserting blank line after each item. |

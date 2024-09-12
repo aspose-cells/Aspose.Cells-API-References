@@ -4,7 +4,7 @@ linktitle: SetData
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Picture::SetData method. Gets the data of the picture in C++.'
 type: docs
-weight: 1500
+weight: 1600
 url: /cpp/aspose.cells.drawing/picture/setdata/
 ---
 ## Picture::SetData method

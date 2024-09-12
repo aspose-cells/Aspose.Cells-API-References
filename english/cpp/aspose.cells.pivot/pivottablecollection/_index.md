@@ -4,7 +4,7 @@ linktitle: PivotTableCollection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTableCollection class. Represents the collection of all the PivotTable objects on the specified worksheet in C++.'
 type: docs
-weight: 1900
+weight: 2200
 url: /cpp/aspose.cells.pivot/pivottablecollection/
 ---
 ## PivotTableCollection class
@@ -28,14 +28,14 @@ class PivotTableCollection
 | [Add(const char16_t* sourceData, int32_t row, int32_t column, const char16_t* tableName)](./add/) | Adds a new [PivotTable](../pivottable/) cache to a PivotCaches collection. |
 | [Add(const U16String\& sourceData, int32_t row, int32_t column, const U16String\& tableName, bool useSameSource)](./add/) | Adds a new [PivotTable](../pivottable/) cache to a PivotCaches collection. |
 | [Add(const char16_t* sourceData, int32_t row, int32_t column, const char16_t* tableName, bool useSameSource)](./add/) | Adds a new [PivotTable](../pivottable/) cache to a PivotCaches collection. |
-| [Add(const PivotTable\& pivotTable, const U16String\& destCellName, const U16String\& tableName)](./add/) | Adds a new [PivotTable](../pivottable/) Object to the collection from another [PivotTable](../pivottable/). |
-| [Add(const PivotTable\& pivotTable, const char16_t* destCellName, const char16_t* tableName)](./add/) | Adds a new [PivotTable](../pivottable/) Object to the collection from another [PivotTable](../pivottable/). |
-| [Add(const PivotTable\& pivotTable, int32_t row, int32_t column, const U16String\& tableName)](./add/) | Adds a new [PivotTable](../pivottable/) Object to the collection from another [PivotTable](../pivottable/). |
-| [Add(const PivotTable\& pivotTable, int32_t row, int32_t column, const char16_t* tableName)](./add/) | Adds a new [PivotTable](../pivottable/) Object to the collection from another [PivotTable](../pivottable/). |
-| [Add(const Vector \<U16String\>\& sourceData, bool isAutoPage, const PivotPageFields\& pageFields, const U16String\& destCellName, const U16String\& tableName)](./add/) | Adds a new [PivotTable](../pivottable/) Object to the collection with multiple consolidation ranges as data source. |
-| [Add(const Vector \<U16String\>\& sourceData, bool isAutoPage, const PivotPageFields\& pageFields, const char16_t* destCellName, const char16_t* tableName)](./add/) | Adds a new [PivotTable](../pivottable/) Object to the collection with multiple consolidation ranges as data source. |
-| [Add(const Vector \<U16String\>\& sourceData, bool isAutoPage, const PivotPageFields\& pageFields, int32_t row, int32_t column, const U16String\& tableName)](./add/) | Adds a new [PivotTable](../pivottable/) Object to the collection with multiple consolidation ranges as data source. |
-| [Add(const Vector \<U16String\>\& sourceData, bool isAutoPage, const PivotPageFields\& pageFields, int32_t row, int32_t column, const char16_t* tableName)](./add/) | Adds a new [PivotTable](../pivottable/) Object to the collection with multiple consolidation ranges as data source. |
+| [Add(const PivotTable\& pivotTable, const U16String\& destCellName, const U16String\& tableName)](./add/) | Adds a new [PivotTable](../pivottable/)[Object](../../aspose.cells/object/) to the collection from another [PivotTable](../pivottable/). |
+| [Add(const PivotTable\& pivotTable, const char16_t* destCellName, const char16_t* tableName)](./add/) | Adds a new [PivotTable](../pivottable/)[Object](../../aspose.cells/object/) to the collection from another [PivotTable](../pivottable/). |
+| [Add(const PivotTable\& pivotTable, int32_t row, int32_t column, const U16String\& tableName)](./add/) | Adds a new [PivotTable](../pivottable/)[Object](../../aspose.cells/object/) to the collection from another [PivotTable](../pivottable/). |
+| [Add(const PivotTable\& pivotTable, int32_t row, int32_t column, const char16_t* tableName)](./add/) | Adds a new [PivotTable](../pivottable/)[Object](../../aspose.cells/object/) to the collection from another [PivotTable](../pivottable/). |
+| [Add(const Vector \<U16String\>\& sourceData, bool isAutoPage, const PivotPageFields\& pageFields, const U16String\& destCellName, const U16String\& tableName)](./add/) | Adds a new [PivotTable](../pivottable/)[Object](../../aspose.cells/object/) to the collection with multiple consolidation ranges as data source. |
+| [Add(const Vector \<U16String\>\& sourceData, bool isAutoPage, const PivotPageFields\& pageFields, const char16_t* destCellName, const char16_t* tableName)](./add/) | Adds a new [PivotTable](../pivottable/)[Object](../../aspose.cells/object/) to the collection with multiple consolidation ranges as data source. |
+| [Add(const Vector \<U16String\>\& sourceData, bool isAutoPage, const PivotPageFields\& pageFields, int32_t row, int32_t column, const U16String\& tableName)](./add/) | Adds a new [PivotTable](../pivottable/)[Object](../../aspose.cells/object/) to the collection with multiple consolidation ranges as data source. |
+| [Add(const Vector \<U16String\>\& sourceData, bool isAutoPage, const PivotPageFields\& pageFields, int32_t row, int32_t column, const char16_t* tableName)](./add/) | Adds a new [PivotTable](../pivottable/)[Object](../../aspose.cells/object/) to the collection with multiple consolidation ranges as data source. |
 | [Clear()](./clear/) | Clear all pivot tables. |
 | [Dispose()](./dispose/) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [Get(int32_t index)](./get/) | Gets the [PivotTable](../pivottable/) report by index. |

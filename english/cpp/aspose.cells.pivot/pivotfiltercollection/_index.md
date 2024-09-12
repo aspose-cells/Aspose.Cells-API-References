@@ -4,7 +4,7 @@ linktitle: PivotFilterCollection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotFilterCollection class. Represents a collection of all the PivotFilter objects in C++.'
 type: docs
-weight: 1100
+weight: 1200
 url: /cpp/aspose.cells.pivot/pivotfiltercollection/
 ---
 ## PivotFilterCollection class
@@ -20,7 +20,7 @@ class PivotFilterCollection
 
 | Method | Description |
 | --- | --- |
-| [Add(int32_t fieldIndex, PivotFilterType type)](./add/) | Adds a [PivotFilter](../pivotfilter/) Object to the specific type. |
+| [Add(int32_t fieldIndex, PivotFilterType type)](./add/) | Adds a [PivotFilter](../pivotfilter/)[Object](../../aspose.cells/object/) to the specific type. |
 | [ClearFilter(int32_t fieldIndex)](./clearfilter/) | Clear [PivotFilter](../pivotfilter/) from the specific [PivotField](../pivotfield/). |
 | [Get(int32_t index)](./get/) | Gets the pivotfilter object at the specific index. |
 | [GetCount()](./getcount/) |  |

@@ -4,7 +4,7 @@ linktitle: MarkdownSaveOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::MarkdownSaveOptions class. Represents the save options for markdown in C++.'
 type: docs
-weight: 10000
+weight: 9900
 url: /cpp/aspose.cells/markdownsaveoptions/
 ---
 ## MarkdownSaveOptions class

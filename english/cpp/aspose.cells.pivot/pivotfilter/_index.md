@@ -4,7 +4,7 @@ linktitle: PivotFilter
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotFilter class. Represents a PivotFilter in PivotFilter Collection in C++.'
 type: docs
-weight: 1000
+weight: 1100
 url: /cpp/aspose.cells.pivot/pivotfilter/
 ---
 ## PivotFilter class

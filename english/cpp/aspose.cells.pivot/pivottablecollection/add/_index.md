@@ -230,7 +230,7 @@ The new added cache index.
 ## PivotTableCollection::Add(const PivotTable\&, const U16String\&, const U16String\&) method
 
 
-Adds a new [PivotTable](../../pivottable/) Object to the collection from another [PivotTable](../../pivottable/).
+Adds a new [PivotTable](../../pivottable/)[Object](../../../aspose.cells/object/) to the collection from another [PivotTable](../../pivottable/).
 
 ```cpp
 int32_t Aspose::Cells::Pivot::PivotTableCollection::Add(const PivotTable &pivotTable, const U16String &destCellName, const U16String &tableName)
@@ -258,7 +258,7 @@ The new added [PivotTable](../../pivottable/) index.
 ## PivotTableCollection::Add(const PivotTable\&, const char16_t*, const char16_t*) method
 
 
-Adds a new [PivotTable](../../pivottable/) Object to the collection from another [PivotTable](../../pivottable/).
+Adds a new [PivotTable](../../pivottable/)[Object](../../../aspose.cells/object/) to the collection from another [PivotTable](../../pivottable/).
 
 ```cpp
 int32_t Aspose::Cells::Pivot::PivotTableCollection::Add(const PivotTable &pivotTable, const char16_t *destCellName, const char16_t *tableName)
@@ -285,7 +285,7 @@ The new added [PivotTable](../../pivottable/) index.
 ## PivotTableCollection::Add(const PivotTable\&, int32_t, int32_t, const U16String\&) method
 
 
-Adds a new [PivotTable](../../pivottable/) Object to the collection from another [PivotTable](../../pivottable/).
+Adds a new [PivotTable](../../pivottable/)[Object](../../../aspose.cells/object/) to the collection from another [PivotTable](../../pivottable/).
 
 ```cpp
 int32_t Aspose::Cells::Pivot::PivotTableCollection::Add(const PivotTable &pivotTable, int32_t row, int32_t column, const U16String &tableName)
@@ -314,7 +314,7 @@ The new added [PivotTable](../../pivottable/) index.
 ## PivotTableCollection::Add(const PivotTable\&, int32_t, int32_t, const char16_t*) method
 
 
-Adds a new [PivotTable](../../pivottable/) Object to the collection from another [PivotTable](../../pivottable/).
+Adds a new [PivotTable](../../pivottable/)[Object](../../../aspose.cells/object/) to the collection from another [PivotTable](../../pivottable/).
 
 ```cpp
 int32_t Aspose::Cells::Pivot::PivotTableCollection::Add(const PivotTable &pivotTable, int32_t row, int32_t column, const char16_t *tableName)
@@ -342,7 +342,7 @@ The new added [PivotTable](../../pivottable/) index.
 ## PivotTableCollection::Add(const Vector \<U16String\>\&, bool, const PivotPageFields\&, const U16String\&, const U16String\&) method
 
 
-Adds a new [PivotTable](../../pivottable/) Object to the collection with multiple consolidation ranges as data source.
+Adds a new [PivotTable](../../pivottable/)[Object](../../../aspose.cells/object/) to the collection with multiple consolidation ranges as data source.
 
 ```cpp
 int32_t Aspose::Cells::Pivot::PivotTableCollection::Add(const Vector<U16String> &sourceData, bool isAutoPage, const PivotPageFields &pageFields, const U16String &destCellName, const U16String &tableName)
@@ -372,7 +372,7 @@ The new added [PivotTable](../../pivottable/) index.
 ## PivotTableCollection::Add(const Vector \<U16String\>\&, bool, const PivotPageFields\&, const char16_t*, const char16_t*) method
 
 
-Adds a new [PivotTable](../../pivottable/) Object to the collection with multiple consolidation ranges as data source.
+Adds a new [PivotTable](../../pivottable/)[Object](../../../aspose.cells/object/) to the collection with multiple consolidation ranges as data source.
 
 ```cpp
 int32_t Aspose::Cells::Pivot::PivotTableCollection::Add(const Vector<U16String> &sourceData, bool isAutoPage, const PivotPageFields &pageFields, const char16_t *destCellName, const char16_t *tableName)
@@ -402,7 +402,7 @@ The new added [PivotTable](../../pivottable/) index.
 ## PivotTableCollection::Add(const Vector \<U16String\>\&, bool, const PivotPageFields\&, int32_t, int32_t, const U16String\&) method
 
 
-Adds a new [PivotTable](../../pivottable/) Object to the collection with multiple consolidation ranges as data source.
+Adds a new [PivotTable](../../pivottable/)[Object](../../../aspose.cells/object/) to the collection with multiple consolidation ranges as data source.
 
 ```cpp
 int32_t Aspose::Cells::Pivot::PivotTableCollection::Add(const Vector<U16String> &sourceData, bool isAutoPage, const PivotPageFields &pageFields, int32_t row, int32_t column, const U16String &tableName)
@@ -433,7 +433,7 @@ The new added [PivotTable](../../pivottable/) index.
 ## PivotTableCollection::Add(const Vector \<U16String\>\&, bool, const PivotPageFields\&, int32_t, int32_t, const char16_t*) method
 
 
-Adds a new [PivotTable](../../pivottable/) Object to the collection with multiple consolidation ranges as data source.
+Adds a new [PivotTable](../../pivottable/)[Object](../../../aspose.cells/object/) to the collection with multiple consolidation ranges as data source.
 
 ```cpp
 int32_t Aspose::Cells::Pivot::PivotTableCollection::Add(const Vector<U16String> &sourceData, bool isAutoPage, const PivotPageFields &pageFields, int32_t row, int32_t column, const char16_t *tableName)

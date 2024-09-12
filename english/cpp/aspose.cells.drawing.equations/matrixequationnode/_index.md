@@ -4,7 +4,7 @@ linktitle: MatrixEquationNode
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Equations::MatrixEquationNode class. This class specifies the Matrix equation, consisting of one or more elements laid out in one or more rows and one or more columns in C++.'
 type: docs
-weight: 1300
+weight: 1500
 url: /cpp/aspose.cells.drawing.equations/matrixequationnode/
 ---
 ## MatrixEquationNode class
@@ -23,6 +23,7 @@ class MatrixEquationNode : public Aspose::Cells::Drawing::Equations::EquationNod
 | [AddChild(EquationNodeType equationType)](../equationnode/addchild/) | Insert a node of the specified type at the end of the child node list of the current node. |
 | [AddChild(const EquationNode\& node)](../equationnode/addchild/) | Inserts the specified node at the end of the current node's list of child nodes. |
 | static [CreateNode(EquationNodeType equationType, const Workbook\& workbook, const EquationNode\& parent)](../equationnode/createnode/) | Create a node of the specified type. |
+| [Equals(const Aspose::Cells::Object\& obj)](./equals/) | Determine whether the current equation node is equal to the specified node. |
 | [EquationNode(EquationNode_Impl* impl)](../equationnode/equationnode/) | Constructs from an implementation object. |
 | [EquationNode(const EquationNode\& src)](../equationnode/equationnode/) | Copy constructor. |
 | [EquationNode(const FontSetting\& src)](../equationnode/equationnode/) | Constructs from a parent object. |
@@ -58,8 +59,8 @@ class MatrixEquationNode : public Aspose::Cells::Drawing::Equations::EquationNod
 | [SetIsHidePlaceholder(bool value)](./setishideplaceholder/) | This attribute specifies the Hide Placeholders property on a matrix. When this property is on, placeholders do not appear in the matrix.Default, placeholders do appear such that the locations where text can be inserted are made visible. |
 | [SetParentNode(const EquationNode\& value)](../equationnode/setparentnode/) | Specifies the parent node of the current node. |
 | [SetWordArtStyle(PresetWordArtStyle style)](../../aspose.cells/fontsetting/setwordartstyle/) | Sets the preset WordArt style. |
-| [ToLaTeX()](../equationnode/tolatex/) | Conver this equtation to LaTeX expression. |
-| [ToMathML()](../equationnode/tomathml/) | Conver this equtation to MathML expression. |
+| [ToLaTeX()](../equationnode/tolatex/) | Convert this equtation to LaTeX expression. |
+| [ToMathML()](../equationnode/tomathml/) | Convert this equtation to MathML expression. |
 | [~EquationNode()](../equationnode/~equationnode/) | Destructor. |
 | [~FontSetting()](../../aspose.cells/fontsetting/~fontsetting/) | Destructor. |
 | [~MatrixEquationNode()](./~matrixequationnode/) | Destructor. |

@@ -22,10 +22,13 @@ class CustomFilter
 | --- | --- |
 | [CustomFilter(CustomFilter_Impl* impl)](./customfilter/) | Constructs from an implementation object. |
 | [CustomFilter(const CustomFilter\& src)](./customfilter/) | Copy constructor. |
+| [GetCriteria()](./getcriteria/) | Gets and sets the criteria. |
 | [GetFilterOperatorType()](./getfilteroperatortype/) | Gets and sets the filter operator type. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const CustomFilter\& src)](./operator_asm/) | operator= |
+| [SetCriteria(const Aspose::Cells::Object\& value)](./setcriteria/) | Gets and sets the criteria. |
+| [SetCriteria(FilterOperatorType filterOperator, const Aspose::Cells::Object\& criteria)](./setcriteria/) | Sets the filter criteria. |
 | [SetFilterOperatorType(FilterOperatorType value)](./setfilteroperatortype/) | Gets and sets the filter operator type. |
 | [~CustomFilter()](./~customfilter/) | Destructor. |
 ## Fields

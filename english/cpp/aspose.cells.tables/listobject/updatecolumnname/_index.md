@@ -4,7 +4,7 @@ linktitle: UpdateColumnName
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Tables::ListObject::UpdateColumnName method. Updates all list columns'' name from the worksheet in C++.'
 type: docs
-weight: 1800
+weight: 1900
 url: /cpp/aspose.cells.tables/listobject/updatecolumnname/
 ---
 ## ListObject::UpdateColumnName method

@@ -4,7 +4,7 @@ linktitle: GetShowTableStyleLastColumn
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Tables::ListObject::GetShowTableStyleLastColumn method. Indicates whether the last column in the table should have the style applied in C++.'
 type: docs
-weight: 2900
+weight: 3000
 url: /cpp/aspose.cells.tables/listobject/getshowtablestylelastcolumn/
 ---
 ## ListObject::GetShowTableStyleLastColumn method

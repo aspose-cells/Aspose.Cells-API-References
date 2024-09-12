@@ -4,7 +4,7 @@ linktitle: SetIsTextWrapped
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Style::SetIsTextWrapped method. Gets or sets a value indicating whether the text within a cell is wrapped in C++.'
 type: docs
-weight: 5200
+weight: 5300
 url: /cpp/aspose.cells/style/setistextwrapped/
 ---
 ## Style::SetIsTextWrapped method

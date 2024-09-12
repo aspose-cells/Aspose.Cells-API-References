@@ -4,7 +4,7 @@ linktitle: SetIsGradient
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Style::SetIsGradient method. Indicates whether the cell shading is a gradient pattern in C++.'
 type: docs
-weight: 7400
+weight: 7500
 url: /cpp/aspose.cells/style/setisgradient/
 ---
 ## Style::SetIsGradient method

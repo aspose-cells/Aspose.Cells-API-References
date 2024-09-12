@@ -4,7 +4,7 @@ linktitle: SetStyle
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::UnionRange::SetStyle method. Sets the style of the range in C++.'
 type: docs
-weight: 1800
+weight: 2000
 url: /cpp/aspose.cells/unionrange/setstyle/
 ---
 ## UnionRange::SetStyle method

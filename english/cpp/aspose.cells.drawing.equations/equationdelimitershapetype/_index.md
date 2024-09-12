@@ -4,7 +4,7 @@ linktitle: EquationDelimiterShapeType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Equations::EquationDelimiterShapeType enum. This specifies the shape of delimiters in the delimiter object in C++.'
 type: docs
-weight: 2100
+weight: 2300
 url: /cpp/aspose.cells.drawing.equations/equationdelimitershapetype/
 ---
 ## EquationDelimiterShapeType enum

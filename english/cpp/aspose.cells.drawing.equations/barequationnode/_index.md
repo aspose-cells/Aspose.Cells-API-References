@@ -4,7 +4,7 @@ linktitle: BarEquationNode
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Equations::BarEquationNode class. This class specifies the bar equation, consisting of a base argument and an overbar or underbar in C++.'
 type: docs
-weight: 200
+weight: 300
 url: /cpp/aspose.cells.drawing.equations/barequationnode/
 ---
 ## BarEquationNode class
@@ -26,6 +26,7 @@ class BarEquationNode : public Aspose::Cells::Drawing::Equations::EquationNode
 | [BarEquationNode(const BarEquationNode\& src)](./barequationnode/) | Copy constructor. |
 | [BarEquationNode(const EquationNode\& src)](./barequationnode/) | Constructs from a parent object. |
 | static [CreateNode(EquationNodeType equationType, const Workbook\& workbook, const EquationNode\& parent)](../equationnode/createnode/) | Create a node of the specified type. |
+| [Equals(const Aspose::Cells::Object\& obj)](./equals/) | Determine whether the current equation node is equal to the specified node. |
 | [EquationNode(EquationNode_Impl* impl)](../equationnode/equationnode/) | Constructs from an implementation object. |
 | [EquationNode(const EquationNode\& src)](../equationnode/equationnode/) | Copy constructor. |
 | [EquationNode(const FontSetting\& src)](../equationnode/equationnode/) | Constructs from a parent object. |
@@ -56,8 +57,8 @@ class BarEquationNode : public Aspose::Cells::Drawing::Equations::EquationNode
 | [SetBarPosition(EquationCharacterPositionType value)](./setbarposition/) | This attribute specifies the position of the bar in the bar object. |
 | [SetParentNode(const EquationNode\& value)](../equationnode/setparentnode/) | Specifies the parent node of the current node. |
 | [SetWordArtStyle(PresetWordArtStyle style)](../../aspose.cells/fontsetting/setwordartstyle/) | Sets the preset WordArt style. |
-| [ToLaTeX()](../equationnode/tolatex/) | Conver this equtation to LaTeX expression. |
-| [ToMathML()](../equationnode/tomathml/) | Conver this equtation to MathML expression. |
+| [ToLaTeX()](../equationnode/tolatex/) | Convert this equtation to LaTeX expression. |
+| [ToMathML()](../equationnode/tomathml/) | Convert this equtation to MathML expression. |
 | [~BarEquationNode()](./~barequationnode/) | Destructor. |
 | [~EquationNode()](../equationnode/~equationnode/) | Destructor. |
 | [~FontSetting()](../../aspose.cells/fontsetting/~fontsetting/) | Destructor. |

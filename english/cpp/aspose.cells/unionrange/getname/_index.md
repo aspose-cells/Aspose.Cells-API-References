@@ -4,7 +4,7 @@ linktitle: GetName
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::UnionRange::GetName method. Gets or sets the name of the range in C++.'
 type: docs
-weight: 1300
+weight: 1500
 url: /cpp/aspose.cells/unionrange/getname/
 ---
 ## UnionRange::GetName method

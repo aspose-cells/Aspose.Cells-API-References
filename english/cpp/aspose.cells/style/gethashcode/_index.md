@@ -4,7 +4,7 @@ linktitle: GetHashCode
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Style::GetHashCode method. Serves as a hash function for a Style object in C++.'
 type: docs
-weight: 4100
+weight: 4200
 url: /cpp/aspose.cells/style/gethashcode/
 ---
 ## Style::GetHashCode method
@@ -19,7 +19,7 @@ int32_t Aspose::Cells::Style::GetHashCode()
 
 ## ReturnValue
 
-A hash code for the current Object.
+A hash code for the current [Object](../../object/).
 ## Remarks
 
 

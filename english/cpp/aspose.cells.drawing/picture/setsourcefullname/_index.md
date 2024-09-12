@@ -4,7 +4,7 @@ linktitle: SetSourceFullName
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Picture::SetSourceFullName method. Gets or sets the path and name of the source file for the linked image in C++.'
 type: docs
-weight: 1700
+weight: 1800
 url: /cpp/aspose.cells.drawing/picture/setsourcefullname/
 ---
 ## Picture::SetSourceFullName(const U16String\&) method

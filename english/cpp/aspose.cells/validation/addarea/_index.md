@@ -4,7 +4,7 @@ linktitle: AddArea
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Validation::AddArea method. Applies the validation to the area in C++.'
 type: docs
-weight: 3300
+weight: 3900
 url: /cpp/aspose.cells/validation/addarea/
 ---
 ## Validation::AddArea(const CellArea\&) method

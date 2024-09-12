@@ -4,7 +4,7 @@ linktitle: GetTableStyles
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::WorksheetCollection::GetTableStyles method. Gets TableStyles object in C++.'
 type: docs
-weight: 3800
+weight: 3900
 url: /cpp/aspose.cells/worksheetcollection/gettablestyles/
 ---
 ## WorksheetCollection::GetTableStyles method

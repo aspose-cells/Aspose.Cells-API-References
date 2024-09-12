@@ -4,7 +4,7 @@ linktitle: GetQuotePrefix
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Style::GetQuotePrefix method. Indicates whether the cell''s value starts with single quote mark in C++.'
 type: docs
-weight: 7100
+weight: 7200
 url: /cpp/aspose.cells/style/getquoteprefix/
 ---
 ## Style::GetQuotePrefix method

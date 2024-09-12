@@ -13,7 +13,7 @@ url: /cpp/aspose.cells/multiplefiltercollection/get/
 [DateTimeGroupItem](../../datetimegroupitem/) or a simple object.
 
 ```cpp
-IObject * Aspose::Cells::MultipleFilterCollection::Get(int32_t index)
+Aspose::Cells::Object Aspose::Cells::MultipleFilterCollection::Get(int32_t index)
 ```
 
 
@@ -27,7 +27,7 @@ IObject * Aspose::Cells::MultipleFilterCollection::Get(int32_t index)
 
 ## See Also
 
-* Class [IObject](../../iobject/)
+* Class [Object](../../object/)
 * Class [Vector](../../vector/)
 * Class [MultipleFilterCollection](../)
 * Namespace [Aspose::Cells](../../)

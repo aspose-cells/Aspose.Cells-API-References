@@ -4,7 +4,7 @@ linktitle: GetBeginArrowheadStyle
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::LineFormat::GetBeginArrowheadStyle method. Gets and sets the begin arrow type of the line in C++.'
 type: docs
-weight: 1500
+weight: 1600
 url: /cpp/aspose.cells.drawing/lineformat/getbeginarrowheadstyle/
 ---
 ## LineFormat::GetBeginArrowheadStyle method

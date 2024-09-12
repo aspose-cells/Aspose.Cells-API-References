@@ -1,0 +1,75 @@
+﻿---
+title: Aspose::Cells::Object class
+linktitle: Object
+second_title: Aspose.Cells for C++ API Reference
+description: 'Aspose::Cells::Object class. Object class in C++.'
+type: docs
+weight: 10500
+url: /cpp/aspose.cells/object/
+---
+## Object class
+
+
+[Object](./) class.
+
+```cpp
+class Object
+```
+
+## Methods
+
+| Method | Description |
+| --- | --- |
+| [AsDouble()](./asdouble/) const | Converts the object to a double value, if object is number type. |
+| [AsInt32()](./asint32/) const | Converts the object to an int32_t value, if object is number type. |
+| [GetNumberType()](./getnumbertype/) const | Gets the NumberType of the object. |
+| [GetObjPtr()](./getobjptr/) const | Internal use. |
+| [GetType()](./gettype/) const | Gets the ObjectType of the object. |
+| [IsBool()](./isbool/) const | Checks whether the object is a bool value. |
+| [IsDate()](./isdate/) const | Checks whether the object is a [Date](../date/) value. |
+| [IsDouble()](./isdouble/) const | Checks whether the object is a double value. |
+| [IsInt32()](./isint32/) const | Checks whether the object is an int32_t value. |
+| [IsNull()](./isnull/) const | Checks whether the object is null. |
+| [IsNumber()](./isnumber/) const | Checks whether the object is a number value. |
+| [IsObject()](./isobject/) const | Checks whether the object is an object pointer. |
+| [IsReferredArea()](./isreferredarea/) const | Checks whether the object is a [ReferredArea](../referredarea/) pointer. |
+| [IsString()](./isstring/) const | Checks whether the object is a String value. |
+| [Object()](./object/) | Default constructor. Constructs an empty object. |
+| [Object(bool value)](./object/) | Constructs from a bool value. |
+| [Object(int8_t value)](./object/) | Constructs from an int8_t value. |
+| [Object(uint8_t value)](./object/) | Constructs from an uint8_t value. |
+| [Object(int16_t value)](./object/) | Constructs from an int16_t value. |
+| [Object(uint16_t value)](./object/) | Constructs from an uint16_t value. |
+| [Object(int32_t value)](./object/) | Constructs from an int32_t value. |
+| [Object(uint32_t value)](./object/) | Constructs from an uint32_t value. |
+| [Object(int64_t value)](./object/) | Constructs from an int64_t value. |
+| [Object(uint64_t value)](./object/) | Constructs from an uint64_t value. |
+| [Object(float value)](./object/) | Constructs from a float value. |
+| [Object(double value)](./object/) | Constructs from a double value. |
+| [Object(Date value)](./object/) | Constructs from a [Date](../date/) value. |
+| [Object(const U16String\& value)](./object/) | Constructs from [U16String](../u16string/) value. |
+| [Object(const char16_t* value)](./object/) | Constructs from a const char16_t* string. |
+| [Object(ReferredArea_Impl* value)](./object/) | Internal use. |
+| [Object(System::ObjPtr value)](./object/) | Internal use. |
+| [Object(const Object\& src)](./object/) | Copy constructor. |
+| [operator System::ObjPtr()](./operator_system_sro_objptr/) const | Internal use. |
+| [operator=(const Object\& src)](./operator_asm/) | operator= |
+| [ToBool()](./tobool/) const | Gets the bool value. |
+| [ToDate()](./todate/) const | Gets the [Date](../date/) value. |
+| [ToDouble()](./todouble/) const | Gets the double value. |
+| [ToFloat()](./tofloat/) const | Gets the float value. |
+| [ToInt16()](./toint16/) const | Gets the int16_t value. |
+| [ToInt32()](./toint32/) const | Gets the int32_t value. |
+| [ToInt64()](./toint64/) const | Gets the int64_t value. |
+| [ToInt8()](./toint8/) const | Gets the int8_t value. |
+| [ToReferredArea()](./toreferredarea/) const | Gets the [ReferredArea](../referredarea/) value. |
+| [ToString()](./tostring/) const | Gets the String value. |
+| [ToUInt16()](./touint16/) const | Gets the uint16_t value. |
+| [ToUInt32()](./touint32/) const | Gets the uint32_t value. |
+| [ToUInt64()](./touint64/) const | Gets the uint64_t value. |
+| [ToUInt8()](./touint8/) const | Gets the uint8_t value. |
+| [~Object()](./~object/) | Destructor. |
+## See Also
+
+* Namespace [Aspose::Cells](../)
+* Library [Aspose.Cells for C++](../../)

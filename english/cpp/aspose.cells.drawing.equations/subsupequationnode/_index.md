@@ -4,7 +4,7 @@ linktitle: SubSupEquationNode
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Equations::SubSupEquationNode class. This class specifies an equation that can optionally be superscript or subscript. There are four main forms of this equation, superscript，subscript，superscript and subscript placed to the left of the base, superscript and subscript placed to the right of the base in C++.'
 type: docs
-weight: 1600
+weight: 1800
 url: /cpp/aspose.cells.drawing.equations/subsupequationnode/
 ---
 ## SubSupEquationNode class
@@ -23,6 +23,7 @@ class SubSupEquationNode : public Aspose::Cells::Drawing::Equations::EquationNod
 | [AddChild(EquationNodeType equationType)](../equationnode/addchild/) | Insert a node of the specified type at the end of the child node list of the current node. |
 | [AddChild(const EquationNode\& node)](../equationnode/addchild/) | Inserts the specified node at the end of the current node's list of child nodes. |
 | static [CreateNode(EquationNodeType equationType, const Workbook\& workbook, const EquationNode\& parent)](../equationnode/createnode/) | Create a node of the specified type. |
+| [Equals(const Aspose::Cells::Object\& obj)](./equals/) | Determine whether the current equation node is equal to the specified node. |
 | [EquationNode(EquationNode_Impl* impl)](../equationnode/equationnode/) | Constructs from an implementation object. |
 | [EquationNode(const EquationNode\& src)](../equationnode/equationnode/) | Copy constructor. |
 | [EquationNode(const FontSetting\& src)](../equationnode/equationnode/) | Constructs from a parent object. |
@@ -54,8 +55,8 @@ class SubSupEquationNode : public Aspose::Cells::Drawing::Equations::EquationNod
 | [SubSupEquationNode(SubSupEquationNode_Impl* impl)](./subsupequationnode/) | Constructs from an implementation object. |
 | [SubSupEquationNode(const SubSupEquationNode\& src)](./subsupequationnode/) | Copy constructor. |
 | [SubSupEquationNode(const EquationNode\& src)](./subsupequationnode/) | Constructs from a parent object. |
-| [ToLaTeX()](../equationnode/tolatex/) | Conver this equtation to LaTeX expression. |
-| [ToMathML()](../equationnode/tomathml/) | Conver this equtation to MathML expression. |
+| [ToLaTeX()](../equationnode/tolatex/) | Convert this equtation to LaTeX expression. |
+| [ToMathML()](../equationnode/tomathml/) | Convert this equtation to MathML expression. |
 | [~EquationNode()](../equationnode/~equationnode/) | Destructor. |
 | [~FontSetting()](../../aspose.cells/fontsetting/~fontsetting/) | Destructor. |
 | [~SubSupEquationNode()](./~subsupequationnode/) | Destructor. |

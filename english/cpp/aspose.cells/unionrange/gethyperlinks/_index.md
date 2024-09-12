@@ -4,7 +4,7 @@ linktitle: GetHyperlinks
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::UnionRange::GetHyperlinks method. Gets all hyperlink in the range in C++.'
 type: docs
-weight: 1700
+weight: 1900
 url: /cpp/aspose.cells/unionrange/gethyperlinks/
 ---
 ## UnionRange::GetHyperlinks method

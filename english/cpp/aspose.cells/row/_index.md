@@ -22,6 +22,7 @@ class Row
 | --- | --- |
 | [ApplyStyle(const Style\& style, const StyleFlag\& flag)](./applystyle/) | Applies formats for a whole row. |
 | [CopySettings(const Row\& source, bool checkStyle)](./copysettings/) | Copy settings of row, such as style, height, visibility, ...etc. |
+| [Equals(const Aspose::Cells::Object\& obj)](./equals/) | Checks whether this object refers to the same row with another. |
 | [Equals(const Row\& row)](./equals/) | Checks whether this object refers to the same row with another row object. |
 | [Get(int32_t column)](./get/) | Gets the cell. |
 | [GetCellByIndex(int32_t index)](./getcellbyindex/) | Get the cell by specific index in the cells collection of this row. |

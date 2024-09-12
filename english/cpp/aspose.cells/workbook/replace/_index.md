@@ -433,6 +433,50 @@ Aspose::Cells::Cleanup();
 * Class [Workbook](../)
 * Namespace [Aspose::Cells](../../)
 * Library [Aspose.Cells for C++](../../../)
+## Workbook::Replace(bool, const Aspose::Cells::Object\&) method
+
+
+Replaces cells' values with new data.
+
+```cpp
+int32_t Aspose::Cells::Workbook::Replace(bool boolValue, const Aspose::Cells::Object &newValue)
+```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| boolValue | bool | The boolean value to be replaced. |
+| newValue | const Aspose::Cells::Object\& | New value. Can be string, integer, double or DateTime value. |
+
+## See Also
+
+* Class [Vector](../../vector/)
+* Class [Object](../../object/)
+* Class [Workbook](../)
+* Namespace [Aspose::Cells](../../)
+* Library [Aspose.Cells for C++](../../../)
+## Workbook::Replace(int32_t, const Aspose::Cells::Object\&) method
+
+
+Replaces cells' values with new data.
+
+```cpp
+int32_t Aspose::Cells::Workbook::Replace(int32_t intValue, const Aspose::Cells::Object &newValue)
+```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| intValue | int32_t | The integer value to be replaced. |
+| newValue | const Aspose::Cells::Object\& | New value. Can be string, integer, double or DateTime value. |
+
+## See Also
+
+* Class [Vector](../../vector/)
+* Class [Object](../../object/)
+* Class [Workbook](../)
+* Namespace [Aspose::Cells](../../)
+* Library [Aspose.Cells for C++](../../../)
 ## Workbook::Replace(const U16String\&, const U16String\&, const ReplaceOptions\&) method
 
 

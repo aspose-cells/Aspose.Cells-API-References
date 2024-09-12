@@ -4,7 +4,7 @@ linktitle: EquationHorizontalJustificationType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Equations::EquationHorizontalJustificationType enum. This specifies the default horizontal justification of equations in the document in C++.'
 type: docs
-weight: 2300
+weight: 2500
 url: /cpp/aspose.cells.drawing.equations/equationhorizontaljustificationtype/
 ---
 ## EquationHorizontalJustificationType enum

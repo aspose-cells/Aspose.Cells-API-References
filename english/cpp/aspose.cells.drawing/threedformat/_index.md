@@ -20,6 +20,7 @@ class ThreeDFormat
 
 | Method | Description |
 | --- | --- |
+| [Equals(const Aspose::Cells::Object\& obj)](./equals/) |  |
 | [GetBottomBevelHeight()](./getbottombevelheight/) | Gets and sets the height of the bottom bevel, or how far into the shape it is applied. In unit of Points. |
 | [GetBottomBevelType()](./getbottombeveltype/) | Gets and sets the type of the bottom bevel, or how far into the shape it is applied. In unit of Points. |
 | [GetBottomBevelWidth()](./getbottombevelwidth/) | Gets and sets the width of the bottom bevel, or how far into the shape it is applied. In unit of Points. |

@@ -4,7 +4,7 @@ linktitle: GetInvariantCustom
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Style::GetInvariantCustom method. Gets the culture-independent pattern string for number format. If no number format has been set for this object, null will be returned. If number format is builtin, the pattern string corresponding to the builtin number will be returned in C++.'
 type: docs
-weight: 6200
+weight: 6300
 url: /cpp/aspose.cells/style/getinvariantcustom/
 ---
 ## Style::GetInvariantCustom method
