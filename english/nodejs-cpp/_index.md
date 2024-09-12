@@ -33,7 +33,7 @@ is_root: true
 | [Bevel](./bevel) | Represents a bevel of a shape |
 | [Border](./border) | Encapsulates the object that represents the cell border. |
 | [BorderBoxEquationNode](./borderboxequationnode) | This class specifies the Border Box function, consisting of a border drawn around an equation. |
-| [BorderCollection](./bordercollection) | Encapsulates a collection of [Border](../border/) objects. |
+| [BorderCollection](./bordercollection) | Encapsulates a collection of [Border](../nodejs-cpp/border/) objects. |
 | [BoxEquationNode](./boxequationnode) | This class specifies the box function, which is used to group components of an equation. |
 | [BuiltInDocumentPropertyCollection](./builtindocumentpropertycollection) | A collection of built-in document properties. |
 | [Bullet](./bullet) | Represents the bullet points should be applied to a paragraph. |
@@ -44,7 +44,7 @@ is_root: true
 | [CalculationOptions](./calculationoptions) | Represents options for calculation. |
 | [Cell](./cell) | Encapsulates the object that represents a single Workbook cell. |
 | [CellArea](./cellarea) | Represent an area of cells. |
-| [Cells](./cells) | Encapsulates a collection of cell relevant objects, such as [Cell](../cell/), [Cell](../cell/), ...etc. |
+| [Cells](./cells) | Encapsulates a collection of cell relevant objects, such as [Cell](../nodejs-cpp/cell/), [Cell](../nodejs-cpp/cell/), ...etc. |
 | [CellsColor](./cellscolor) | Represents all types of color. |
 | [CellsDrawing](./cellsdrawing) | Represents the auto shape and drawing object. |
 | [CellsFactory](./cellsfactory) | Utility for instantiating classes of Cells model. |
@@ -56,7 +56,7 @@ is_root: true
 | [Chart](./chart) | Encapsulates the object that represents a single Excel chart. |
 | [ChartArea](./chartarea) | Encapsulates the object that represents the chart area in the worksheet. |
 | [ChartCalculateOptions](./chartcalculateoptions) | Represents the options for calculating chart. |
-| [ChartCollection](./chartcollection) | Encapsulates a collection of [Chart](../chart/) objects. |
+| [ChartCollection](./chartcollection) | Encapsulates a collection of [Chart](../nodejs-cpp/chart/) objects. |
 | [ChartDataTable](./chartdatatable) | Represents a chart data table. |
 | [ChartFrame](./chartframe) | Encapsulates the object that represents the frame object in a chart. |
 | [ChartGlobalizationSettings](./chartglobalizationsettings) | Represents the globalization settings for chart. |
@@ -66,29 +66,29 @@ is_root: true
 | [ChartTextFrame](./charttextframe) | Encapsulates the object that represents the frame object which contains text. |
 | [CheckBox](./checkbox) | Represents a check box object in a worksheet. |
 | [CheckBoxActiveXControl](./checkboxactivexcontrol) | Represents a CheckBox ActiveX control. |
-| [CheckBoxCollection](./checkboxcollection) | Represents a collection of [CheckBox](../checkbox/) objects in a worksheet. |
+| [CheckBoxCollection](./checkboxcollection) | Represents a collection of [CheckBox](../nodejs-cpp/checkbox/) objects in a worksheet. |
 | [Color](./color) | Represents an ARGB (alpha, red, green, blue) color. |
 | [ColorFilter](./colorfilter) | Represents filtering the range by color. |
 | [ColorHelper](./colorhelper) | Provides helper functions about color. |
 | [ColorScale](./colorscale) | Describe the ColorScale conditional formatting rule. This conditional formatting rule creates a gradated color scale on the cells. |
 | [Column](./column) | Represents a single column in a worksheet. |
-| [ColumnCollection](./columncollection) | Collection of the [Column](../column/) objects that represent the individual column(setting)s in a worksheet. The Column object only represents the settings such as column width, styles, .etc. for the whole column, has nothing to do with the fact that there are non-empty cells(data) or not in corresponding column. And the "Count" of this collection only represents the count Column objects that have been instantiated in this collection, has nothing to do with the fact that there are non-empty cells(data) or not in the worksheet. |
+| [ColumnCollection](./columncollection) | Collection of the [Column](../nodejs-cpp/column/) objects that represent the individual column(setting)s in a worksheet. The Column object only represents the settings such as column width, styles, .etc. for the whole column, has nothing to do with the fact that there are non-empty cells(data) or not in corresponding column. And the "Count" of this collection only represents the count Column objects that have been instantiated in this collection, has nothing to do with the fact that there are non-empty cells(data) or not in the worksheet. |
 | [ComboBox](./combobox) | Represents the control form ComboBox. |
 | [ComboBoxActiveXControl](./comboboxactivexcontrol) | Represents a ComboBox ActiveX control. |
 | [CommandButtonActiveXControl](./commandbuttonactivexcontrol) | Represents a command button. |
 | [Comment](./comment) | Encapsulates the object that represents a cell comment. |
-| [CommentCollection](./commentcollection) | Encapsulates a collection of [Comment](../comment/) objects. |
+| [CommentCollection](./commentcollection) | Encapsulates a collection of [Comment](../nodejs-cpp/comment/) objects. |
 | [CommentShape](./commentshape) | Represents the shape of the comment. |
-| [ConditionalFormattingCollection](./conditionalformattingcollection) | Encapsulates a collection of [FormatCondition](../formatcondition/) objects. |
+| [ConditionalFormattingCollection](./conditionalformattingcollection) | Encapsulates a collection of [FormatCondition](../nodejs-cpp/formatcondition/) objects. |
 | [ConditionalFormattingIcon](./conditionalformattingicon) | Represents  the custom  icon of conditional formatting rule. |
-| [ConditionalFormattingIconCollection](./conditionalformattingiconcollection) | Represents  a collection of [ConditionalFormattingIcon](../conditionalformattingicon/) objects. |
+| [ConditionalFormattingIconCollection](./conditionalformattingiconcollection) | Represents  a collection of [ConditionalFormattingIcon](../nodejs-cpp/conditionalformattingicon/) objects. |
 | [ConditionalFormattingResult](./conditionalformattingresult) | Represents the result of conditional formatting which applies to a cell. |
 | [ConditionalFormattingValue](./conditionalformattingvalue) | Describes the values of the interpolation points in a gradient scale, dataBar or iconSet. |
 | [ConditionalFormattingValueCollection](./conditionalformattingvaluecollection) | Describes a collection of CFValueObject. Use only for icon sets. |
 | [ConnectionParameter](./connectionparameter) | Specifies properties about any parameters used with external data connections Parameters are valid for ODBC and web queries. |
-| [ConnectionParameterCollection](./connectionparametercollection) | Specifies the [ConnectionParameter](../connectionparameter/) collection |
+| [ConnectionParameterCollection](./connectionparametercollection) | Specifies the [ConnectionParameter](../nodejs-cpp/connectionparameter/) collection |
 | [ContentTypeProperty](./contenttypeproperty) | Represents identifier information. |
-| [ContentTypePropertyCollection](./contenttypepropertycollection) | A collection of [ContentTypeProperty](../contenttypeproperty/) objects that represent additional information. |
+| [ContentTypePropertyCollection](./contenttypepropertycollection) | A collection of [ContentTypeProperty](../nodejs-cpp/contenttypeproperty/) objects that represent additional information. |
 | [ConversionUtility](./conversionutility) | Represents utility to convert files to other formats. |
 | [CopyOptions](./copyoptions) | Represents the copy options. |
 | [CustomDocumentPropertyCollection](./customdocumentpropertycollection) | A collection of custom document properties. |
@@ -98,7 +98,7 @@ is_root: true
 | [CustomGeometry](./customgeometry) | Represents a custom geometric shape. |
 | [CustomPiovtFieldGroupItem](./custompiovtfieldgroupitem) | Represents an item of custom grouped field. |
 | [CustomProperty](./customproperty) | Represents identifier information. |
-| [CustomPropertyCollection](./custompropertycollection) | A collection of [CustomProperty](../customproperty/) objects that represent additional information. |
+| [CustomPropertyCollection](./custompropertycollection) | A collection of [CustomProperty](../nodejs-cpp/customproperty/) objects that represent additional information. |
 | [CustomXmlPart](./customxmlpart) | Represents a Custom XML Data Storage Part (custom XML data within a package). |
 | [CustomXmlPartCollection](./customxmlpartcollection) | Represents a Custom XML Data Storage Part (custom XML data within a package). |
 | [CustomXmlShape](./customxmlshape) | Represents Custom xml shape ,such as Ink. |
@@ -122,7 +122,7 @@ is_root: true
 | [DigitalSignatureCollection](./digitalsignaturecollection) | Provides a collection of digital signatures attached to a document. |
 | [DisplayUnitLabel](./displayunitlabel) | Represents the display unit label. |
 | [DocumentProperty](./documentproperty) | Represents a custom or built-in document property. |
-| [DocumentPropertyCollection](./documentpropertycollection) | Base class for [BuiltInDocumentPropertyCollection](../builtindocumentpropertycollection/) and [BuiltInDocumentPropertyCollection](../builtindocumentpropertycollection/) collections. |
+| [DocumentPropertyCollection](./documentpropertycollection) | Base class for [BuiltInDocumentPropertyCollection](../nodejs-cpp/builtindocumentpropertycollection/) and [BuiltInDocumentPropertyCollection](../nodejs-cpp/builtindocumentpropertycollection/) collections. |
 | [DocxSaveOptions](./docxsaveoptions) | Represents options of saving .docx file. |
 | [DrawObject](./drawobject) | DrawObject will be initialized and returned when rendering. |
 | [DrawObjectEventHandler](./drawobjecteventhandler) | Interface to get DrawObject and Bound when rendering. |
@@ -139,11 +139,11 @@ is_root: true
 | [ErrorCheckOptionCollection](./errorcheckoptioncollection) | Represents all error check option. |
 | [ExportRangeToJsonOptions](./exportrangetojsonoptions) | Indicates the options that exporting range to json. |
 | [ExternalConnection](./externalconnection) | Specifies an external data connection |
-| [ExternalConnectionCollection](./externalconnectioncollection) | Specifies the [ExternalConnection](../externalconnection/) collection |
+| [ExternalConnectionCollection](./externalconnectioncollection) | Specifies the [ExternalConnection](../nodejs-cpp/externalconnection/) collection |
 | [ExternalLink](./externallink) | Represents an external link in a workbook. |
 | [ExternalLinkCollection](./externallinkcollection) | Represents external links collection in a workbook. |
 | [FileFontSource](./filefontsource) | Represents the single TrueType font file stored in the file system. |
-| [FileFormatInfo](./fileformatinfo) | Contains data returned by [FileFormatUtil](../fileformatutil/) file format detection methods. |
+| [FileFormatInfo](./fileformatinfo) | Contains data returned by [FileFormatUtil](../nodejs-cpp/fileformatutil/) file format detection methods. |
 | [FileFormatUtil](./fileformatutil) | Provides utility methods for converting file format enums to strings or file extensions and back. |
 | [FillFormat](./fillformat) | Encapsulates the object that represents fill formatting for a shape. |
 | [FilterColumn](./filtercolumn) | Represents a filter for a single column. The Filter object is a member of the Filters collection |
@@ -154,7 +154,7 @@ is_root: true
 | [Font](./font) | Encapsulates the font object used in a spreadsheet. |
 | [FontConfigs](./fontconfigs) | Specifies font settings |
 | [FontSetting](./fontsetting) | Represents a range of characters within the cell text. |
-| [FontSettingCollection](./fontsettingcollection) | Represents the list of [FontSetting](../fontsetting/). |
+| [FontSettingCollection](./fontsettingcollection) | Represents the list of [FontSetting](../nodejs-cpp/fontsetting/). |
 | [FontSourceBase](./fontsourcebase) | This is an abstract base class for the classes that allow the user to specify various font sources |
 | [Format3D](./format3d) | This class specifies the 3D shape properties for a chart element or shape. |
 | [FormatCondition](./formatcondition) | Represents conditional formatting condition. |
@@ -176,20 +176,20 @@ is_root: true
 | [HeaderFooterCommand](./headerfootercommand) | Represents the command of header/footer |
 | [HighlightChangesOptions](./highlightchangesoptions) | Represents options of highlighting revsions or changes of shared Excel files. |
 | [HorizontalPageBreak](./horizontalpagebreak) | Encapsulates the object that represents a horizontal page break. |
-| [HorizontalPageBreakCollection](./horizontalpagebreakcollection) | Encapsulates a collection of [HorizontalPageBreak](../horizontalpagebreak/) objects. |
+| [HorizontalPageBreakCollection](./horizontalpagebreakcollection) | Encapsulates a collection of [HorizontalPageBreak](../nodejs-cpp/horizontalpagebreak/) objects. |
 | [HtmlLoadOptions](./htmlloadoptions) | Represents options when importing a html file. |
 | [HtmlSaveOptions](./htmlsaveoptions) | Represents the options for saving html file. |
 | [HtmlTableLoadOption](./htmltableloadoption) | Represents the option when import table from html. |
 | [HtmlTableLoadOptionCollection](./htmltableloadoptioncollection) | Represents the table options when importing html. |
 | [Hyperlink](./hyperlink) | Encapsulates the object that represents a hyperlink. |
-| [HyperlinkCollection](./hyperlinkcollection) | Encapsulates a collection of [Hyperlink](../hyperlink/) objects. |
+| [HyperlinkCollection](./hyperlinkcollection) | Encapsulates a collection of [Hyperlink](../nodejs-cpp/hyperlink/) objects. |
 | [IconFilter](./iconfilter) | Represents icon filter. |
 | [IconSet](./iconset) | Describe the IconSet conditional formatting rule. This conditional formatting rule applies icons to cells according to their values. |
 | [ImageActiveXControl](./imageactivexcontrol) | Represents the image control. |
 | [ImageOrPrintOptions](./imageorprintoptions) | Allows to specify options when rendering worksheet to images, printing worksheet or rendering chart to image. |
-| [ImageSaveOptions](./imagesaveoptions) | Represents image save options. For advanced usage, please use [WorkbookRender](../workbookrender/) or [WorkbookRender](../workbookrender/). |
+| [ImageSaveOptions](./imagesaveoptions) | Represents image save options. For advanced usage, please use [WorkbookRender](../nodejs-cpp/workbookrender/) or [WorkbookRender](../nodejs-cpp/workbookrender/). |
 | [ImportTableOptions](./importtableoptions) | Represents the options of importing data into cells. |
-| [IndividualFontConfigs](./individualfontconfigs) | Font configs for each [Workbook](../workbook/) object. |
+| [IndividualFontConfigs](./individualfontconfigs) | Font configs for each [Workbook](../nodejs-cpp/workbook/) object. |
 | [InsertOptions](./insertoptions) | Represents the options of inserting. |
 | [InterruptMonitor](./interruptmonitor) | Represents all operator about the interrupt. |
 | [JsonLayoutOptions](./jsonlayoutoptions) | Represents the options of json layout type. |
@@ -200,7 +200,7 @@ is_root: true
 | [LabelActiveXControl](./labelactivexcontrol) | Represents the label ActiveX control. |
 | [Legend](./legend) | Encapsulates the object that represents the chart legend. |
 | [LegendEntry](./legendentry) | Represents a legend entry in a chart legend. |
-| [LegendEntryCollection](./legendentrycollection) | Represents a collection of all the [LegendEntry](../legendentry/) objects in the specified chart legend. |
+| [LegendEntryCollection](./legendentrycollection) | Represents a collection of all the [LegendEntry](../nodejs-cpp/legendentry/) objects in the specified chart legend. |
 | [License](./license) | Provides methods to license the component. |
 | [LimLowUppEquationNode](./limlowuppequationnode) | This class specifies the limit function. |
 | [Line](./line) | Encapsulates the object that represents the line format. |
@@ -209,9 +209,9 @@ is_root: true
 | [ListBox](./listbox) | Represents a list box object. |
 | [ListBoxActiveXControl](./listboxactivexcontrol) | Represents a ListBox ActiveX control. |
 | [ListColumn](./listcolumn) | Represents a column in a Table. |
-| [ListColumnCollection](./listcolumncollection) | Represents A collection of all the [ListColumn](../listcolumn/) objects in the specified ListObject object. |
+| [ListColumnCollection](./listcolumncollection) | Represents A collection of all the [ListColumn](../nodejs-cpp/listcolumn/) objects in the specified ListObject object. |
 | [ListObject](./listobject) | Represents a list object on a worksheet. The ListObject object is a member of the ListObjects collection. The ListObjects collection contains all the list objects on a worksheet. |
-| [ListObjectCollection](./listobjectcollection) | Represents a collection of [ListObject](../listobject/) objects in the worksheet. |
+| [ListObjectCollection](./listobjectcollection) | Represents a collection of [ListObject](../nodejs-cpp/listobject/) objects in the worksheet. |
 | [LoadFilter](./loadfilter) | Represents the filter that provides options for loading data when loading workbook from template. |
 | [LoadOptions](./loadoptions) | Represents the options of loading the file. |
 | [MarkdownSaveOptions](./markdownsaveoptions) | Represents the save options for markdown. |
@@ -228,7 +228,7 @@ is_root: true
 | [MsoTextFrame](./msotextframe) | Represents the text frame in a Shape object. |
 | [MultipleFilterCollection](./multiplefiltercollection) | Represents the multiple filter collection. |
 | [Name](./name) | Represents a defined name for a range of cells. |
-| [NameCollection](./namecollection) | Represents a collection of all the [Name](../name/) objects in the spreadsheet. |
+| [NameCollection](./namecollection) | Represents a collection of all the [Name](../nodejs-cpp/name/) objects in the spreadsheet. |
 | [NaryEquationNode](./naryequationnode) | This class specifies an n-ary operator equation consisting of an n-ary operator, a base (or operand), and optional upper and lower bounds. |
 | [NegativeBarFormat](./negativebarformat) | Represents the color settings of the data bars for negative values that are defined by a data bar conditional formatting rule. |
 | [NoneBulletValue](./nonebulletvalue) | Represents no bullet. |
@@ -259,10 +259,10 @@ is_root: true
 | [PicFormatOption](./picformatoption) | Represents picture format option |
 | [Picture](./picture) | Encapsulates the object that represents a single picture in a spreadsheet. |
 | [PictureBulletValue](./picturebulletvalue) | Represents the value of the image bullet. |
-| [PictureCollection](./picturecollection) | Encapsulates a collection of [Picture](../picture/) objects. |
+| [PictureCollection](./picturecollection) | Encapsulates a collection of [Picture](../nodejs-cpp/picture/) objects. |
 | [PivotArea](./pivotarea) | Presents the selected area of the PivotTable. |
-| [PivotAreaFilter](./pivotareafilter) | Represents the filter of [PivotArea](../pivotarea/) for [PivotArea](../pivotarea/). |
-| [PivotAreaFilterCollection](./pivotareafiltercollection) | Represents the list of filters for [PivotArea](../pivotarea/) |
+| [PivotAreaFilter](./pivotareafilter) | Represents the filter of [PivotArea](../nodejs-cpp/pivotarea/) for [PivotArea](../nodejs-cpp/pivotarea/). |
+| [PivotAreaFilterCollection](./pivotareafiltercollection) | Represents the list of filters for [PivotArea](../nodejs-cpp/pivotarea/) |
 | [PivotDateTimeRangeGroupSettings](./pivotdatetimerangegroupsettings) | Represents the field grouped by date time range. |
 | [PivotDiscreteGroupSettings](./pivotdiscretegroupsettings) | Rrepsents the discrete group of pivot field |
 | [PivotField](./pivotfield) | Represents a field in a PivotTable report. |
@@ -275,7 +275,7 @@ is_root: true
 | [PivotFormatConditionCollection](./pivotformatconditioncollection) | Represents PivotTable Format Conditions. |
 | [PivotGlobalizationSettings](./pivotglobalizationsettings) | Represents the globalization settings for pivot tables. |
 | [PivotItem](./pivotitem) | Represents a item in a PivotField report. |
-| [PivotItemCollection](./pivotitemcollection) | Represents all the [PivotItem](../pivotitem/) objects in the PivotField. |
+| [PivotItemCollection](./pivotitemcollection) | Represents all the [PivotItem](../nodejs-cpp/pivotitem/) objects in the PivotField. |
 | [PivotNumbericRangeGroupSettings](./pivotnumbericrangegroupsettings) | Represents the numberic range group of the pivot field. |
 | [PivotOptions](./pivotoptions) | Represents a complex type that specifies the pivot controls that appear on the chart |
 | [PivotPageFields](./pivotpagefields) | Represents the pivot page field items if the pivot table data source is consolidation ranges. It only can contain up to 4 fields. |
@@ -296,15 +296,15 @@ is_root: true
 | [PowerQueryFormulaParameterCollection](./powerqueryformulaparametercollection) | Represents the parameters of power query formula. |
 | [PptxSaveOptions](./pptxsaveoptions) | Represents the pptx save options. |
 | [ProtectedRange](./protectedrange) | A specified range to be allowed to edit when the sheet protection is ON. |
-| [ProtectedRangeCollection](./protectedrangecollection) | Encapsulates a collection of [ProtectedRange](../protectedrange/) objects. |
+| [ProtectedRangeCollection](./protectedrangecollection) | Encapsulates a collection of [ProtectedRange](../nodejs-cpp/protectedrange/) objects. |
 | [Protection](./protection) | Represents the various types of protection options available for a worksheet. |
 | [QueryTable](./querytable) | Represents QueryTable information. |
-| [QueryTableCollection](./querytablecollection) | A collection of [QueryTableCollection](../querytablecollection/) objects that represent QueryTable collection information. |
+| [QueryTableCollection](./querytablecollection) | A collection of [QueryTableCollection](../nodejs-cpp/querytablecollection/) objects that represent QueryTable collection information. |
 | [RadicalEquationNode](./radicalequationnode) | This class specifies the radical equation, consisting of an optional degree deg(EquationNodeType.Degree) and a base. |
 | [RadioButton](./radiobutton) | Represents a radio button. |
 | [RadioButtonActiveXControl](./radiobuttonactivexcontrol) | Represents a RadioButton ActiveX control. |
 | [Range](./range) | Encapsulates the object that represents a range of cells within a spreadsheet. |
-| [RangeCollection](./rangecollection) | Encapsulates a collection of [Range](../range/) objects. |
+| [RangeCollection](./rangecollection) | Encapsulates a collection of [Range](../nodejs-cpp/range/) objects. |
 | [RectangleShape](./rectangleshape) | Represents the rectangle shape. |
 | [ReferredArea](./referredarea) | Represents a referred area by the formula. |
 | [ReferredAreaCollection](./referredareacollection) | Represents all referred cells and areas. |
@@ -330,7 +330,7 @@ is_root: true
 | [RevisionQueryTable](./revisionquerytable) | Represents a revision of a query table field change. |
 | [RevisionRenameSheet](./revisionrenamesheet) | Represents a revision of renaming sheet. |
 | [Row](./row) | Represents a single row in a worksheet. |
-| [RowCollection](./rowcollection) | Collects the [Row](../row/) objects that represent the individual rows in a worksheet. |
+| [RowCollection](./rowcollection) | Collects the [Row](../nodejs-cpp/row/) objects that represent the individual rows in a worksheet. |
 | [SaveOptions](./saveoptions) | Represents all save options |
 | [Scenario](./scenario) | Represents an individual scenario. |
 | [ScenarioCollection](./scenariocollection) | Represents the list of scenarios. |
@@ -339,7 +339,7 @@ is_root: true
 | [ScrollBar](./scrollbar) | Represents a scroll bar object. |
 | [ScrollBarActiveXControl](./scrollbaractivexcontrol) | Represents the ScrollBar control. |
 | [Series](./series) | Encapsulates the object that represents a single data series in a chart. |
-| [SeriesCollection](./seriescollection) | Encapsulates a collection of [Series](../series/) objects. |
+| [SeriesCollection](./seriescollection) | Encapsulates a collection of [Series](../nodejs-cpp/series/) objects. |
 | [SeriesLayoutProperties](./serieslayoutproperties) | Represents the properties of series layout. |
 | [SettableChartGlobalizationSettings](./settablechartglobalizationsettings) | Implementation of PivotGlobalizationSettings that supports user to set/change pre-defined texts. |
 | [SettableGlobalizationSettings](./settableglobalizationsettings) | Implementation of GlobalizationSettings that supports user to set/change pre-defined texts. |
@@ -372,12 +372,12 @@ is_root: true
 | [SmartTagOptions](./smarttagoptions) | Represents the options of the smart tag. |
 | [SmartTagProperty](./smarttagproperty) | Represents the property of the cell smart tag. |
 | [SmartTagPropertyCollection](./smarttagpropertycollection) | Represents all properties of cell smart tag. |
-| [SmartTagSetting](./smarttagsetting) | Represents all [SmartTagCollection](../smarttagcollection/) object in the worksheet. |
+| [SmartTagSetting](./smarttagsetting) | Represents all [SmartTagCollection](../nodejs-cpp/smarttagcollection/) object in the worksheet. |
 | [SolidFill](./solidfill) | Encapsulates the object that represents solid fill format |
 | [Sparkline](./sparkline) | A sparkline represents a tiny chart or graphic in a worksheet cell that provides a visual representation of data. |
-| [SparklineCollection](./sparklinecollection) | Encapsulates a collection of [Sparkline](../sparkline/) objects. |
-| [SparklineGroup](./sparklinegroup) | [Sparkline](../sparkline/) is organized into sparkline group. A SparklineGroup contains a variable number of sparkline items. A sparkline group specifies the type, display settings and axis settings for the sparklines. |
-| [SparklineGroupCollection](./sparklinegroupcollection) | Encapsulates a collection of [SparklineGroup](../sparklinegroup/) objects. |
+| [SparklineCollection](./sparklinecollection) | Encapsulates a collection of [Sparkline](../nodejs-cpp/sparkline/) objects. |
+| [SparklineGroup](./sparklinegroup) | [Sparkline](../nodejs-cpp/sparkline/) is organized into sparkline group. A SparklineGroup contains a variable number of sparkline items. A sparkline group specifies the type, display settings and axis settings for the sparklines. |
+| [SparklineGroupCollection](./sparklinegroupcollection) | Encapsulates a collection of [SparklineGroup](../nodejs-cpp/sparklinegroup/) objects. |
 | [SpinButtonActiveXControl](./spinbuttonactivexcontrol) | Represents the SpinButton control. |
 | [Spinner](./spinner) | Represents the Forms control: Spinner. |
 | [SpreadsheetML2003SaveOptions](./spreadsheetml2003saveoptions) | Represents the options for saving Excel 2003 spreadml file. |
@@ -387,7 +387,7 @@ is_root: true
 | [StyleFlag](./styleflag) | Represents flags which indicates applied formatting properties. |
 | [SubSupEquationNode](./subsupequationnode) | This class specifies an equation that can optionally be superscript or subscript. There are four main forms of this equation, superscript，subscript，superscript and subscript placed to the left of the base, superscript and subscript placed to the right of the base. |
 | [SubtotalSetting](./subtotalsetting) | Represents the setting of the subtotal . |
-| [SystemTimeInterruptMonitor](./systemtimeinterruptmonitor) | Simple implementation of [AbstractInterruptMonitor](../abstractinterruptmonitor/) by checking and comparing current system time with user specified limit. |
+| [SystemTimeInterruptMonitor](./systemtimeinterruptmonitor) | Simple implementation of [AbstractInterruptMonitor](../nodejs-cpp/abstractinterruptmonitor/) by checking and comparing current system time with user specified limit. |
 | [TableStyle](./tablestyle) | Represents the table style. |
 | [TableStyleCollection](./tablestylecollection) | Represents all custom table styles. |
 | [TableStyleElement](./tablestyleelement) | Represents the element of the table style. |
@@ -395,7 +395,7 @@ is_root: true
 | [TableToRangeOptions](./tabletorangeoptions) | Represents the options when converting table to range. |
 | [TextBox](./textbox) | Encapsulates the object that represents a textbox in a spreadsheet. |
 | [TextBoxActiveXControl](./textboxactivexcontrol) | Represents a text box ActiveX control. |
-| [TextBoxCollection](./textboxcollection) | Encapsulates a collection of [TextBox](../textbox/) objects. |
+| [TextBoxCollection](./textboxcollection) | Encapsulates a collection of [TextBox](../nodejs-cpp/textbox/) objects. |
 | [TextEffectFormat](./texteffectformat) | Contains properties and methods that apply to WordArt objects. |
 | [TextOptions](./textoptions) | Represents the text options. |
 | [TextParagraph](./textparagraph) | Represents the text paragraph setting. |
@@ -420,7 +420,7 @@ is_root: true
 | [Top10](./top10) | Describe the Top10 conditional formatting rule. This conditional formatting rule highlights cells whose values fall in the top N or bottom N bracket, as specified. |
 | [Top10Filter](./top10filter) | Represents the top 10 filter. |
 | [Trendline](./trendline) | Represents a trendline in a chart. |
-| [TrendlineCollection](./trendlinecollection) | Represents a collection of all the [Trendline](../trendline/) objects for the specified data series. |
+| [TrendlineCollection](./trendlinecollection) | Represents a collection of all the [Trendline](../nodejs-cpp/trendline/) objects for the specified data series. |
 | [TwoColorGradient](./twocolorgradient) | Represents two color gradient. |
 | [TxtLoadOptions](./txtloadoptions) | Represents the options for loading text file. |
 | [TxtSaveOptions](./txtsaveoptions) | Represents the save options for csv/tab delimited/other text format. |
@@ -430,12 +430,12 @@ is_root: true
 | [Validation](./validation) | Represents data validation.settings. |
 | [ValidationCollection](./validationcollection) | Represents data validation collection. |
 | [VbaModule](./vbamodule) | Represents the module in VBA project. |
-| [VbaModuleCollection](./vbamodulecollection) | Represents the list of [VbaModule](../vbamodule/) |
+| [VbaModuleCollection](./vbamodulecollection) | Represents the list of [VbaModule](../nodejs-cpp/vbamodule/) |
 | [VbaProject](./vbaproject) | Represents the VBA project. |
 | [VbaProjectReference](./vbaprojectreference) | Represents the reference of VBA project. |
 | [VbaProjectReferenceCollection](./vbaprojectreferencecollection) | Represents all references of VBA project. |
 | [VerticalPageBreak](./verticalpagebreak) | Encapsulates the object that represents a vertical page break. |
-| [VerticalPageBreakCollection](./verticalpagebreakcollection) | Encapsulates a collection of [VerticalPageBreak](../verticalpagebreak/) objects. |
+| [VerticalPageBreakCollection](./verticalpagebreakcollection) | Encapsulates a collection of [VerticalPageBreak](../nodejs-cpp/verticalpagebreak/) objects. |
 | [VmlShapeGuide](./vmlshapeguide) | just for vml Encapsulates a shape guide specifies the presence of a shape guide that will be used to govern the geometry of the specified shape |
 | [Walls](./walls) | Encapsulates the object that represents the walls of a 3-D chart. |
 | [WarningInfo](./warninginfo) | Warning info |
@@ -457,7 +457,7 @@ is_root: true
 | [WorkbookRender](./workbookrender) | Represents a Workbook render. The constructor of this class , must be used after modification of pagesetup, cell style. |
 | [WorkbookSettings](./workbooksettings) | Represents all settings of the workbook. |
 | [Worksheet](./worksheet) | Encapsulates the object that represents a single worksheet. |
-| [WorksheetCollection](./worksheetcollection) | Encapsulates a collection of [Worksheet](../worksheet/) objects. |
+| [WorksheetCollection](./worksheetcollection) | Encapsulates a collection of [Worksheet](../nodejs-cpp/worksheet/) objects. |
 | [WriteProtection](./writeprotection) | Specifies write protection settings for a workbook. |
 | [XlsbSaveOptions](./xlsbsaveoptions) | Represents the options for saving xlsb file. |
 | [XlsSaveOptions](./xlssaveoptions) | Represents the save options for the Excel 97-2003 file format: xls and xlt. |
@@ -465,7 +465,7 @@ is_root: true
 | [XmlDataBinding](./xmldatabinding) | Represents Xml Data Binding information. |
 | [XmlLoadOptions](./xmlloadoptions) | Represents the options of loading xml. |
 | [XmlMap](./xmlmap) | Represents Xml map information. |
-| [XmlMapCollection](./xmlmapcollection) | A collection of [XmlMap](../xmlmap/) objects that represent XmlMap information. |
+| [XmlMapCollection](./xmlmapcollection) | A collection of [XmlMap](../nodejs-cpp/xmlmap/) objects that represent XmlMap information. |
 | [XmlSaveOptions](./xmlsaveoptions) | Represents the options of saving the workbook as an xml file. |
 | [XpsSaveOptions](./xpssaveoptions) | Represents the additional options when saving the file as the Xps. |
 
@@ -579,7 +579,7 @@ is_root: true
 | [FormatConditionType](./formatconditiontype) | Conditional format rule type. |
 | [FormatConditionValueType](./formatconditionvaluetype) | Condition value type. |
 | [FormatSetType](./formatsettype) | Fill format set type. |
-| [FormattingType](./formattingtype) | Represents the type of formatting applied to an [Area](../area/) object or a [Area](../area/) object. |
+| [FormattingType](./formattingtype) | Represents the type of formatting applied to an [Area](../nodejs-cpp/area/) object or a [Area](../nodejs-cpp/area/) object. |
 | [GradientColorType](./gradientcolortype) | Represents the gradient color type for the specified fill. |
 | [GradientDirectionType](./gradientdirectiontype) | Represents all direction type of gradient. |
 | [GradientFillType](./gradientfilltype) | Represents all Gradient fill type. |
@@ -606,7 +606,7 @@ is_root: true
 | [LineCapType](./linecaptype) | Represents the caps of a line |
 | [LineJoinType](./linejointype) | Represents the join styles of a line. |
 | [LineSpaceSizeType](./linespacesizetype) | Represents the unit type of line space size. |
-| [LineType](./linetype) | Enumerates the type of [Picture](../picture/) border or [Picture](../picture/) line. |
+| [LineType](./linetype) | Enumerates the type of [Picture](../nodejs-cpp/picture/) border or [Picture](../nodejs-cpp/picture/) line. |
 | [LoadDataFilterOptions](./loaddatafilteroptions) | Represents the options to filter data when loading workbook from template. |
 | [LoadFormat](./loadformat) | Represents the load file format. |
 | [LoadNumbersTableType](./loadnumberstabletype) | Indicates type of loading tables when some tables are in a sheet. |
@@ -650,7 +650,7 @@ is_root: true
 | [PasteType](./pastetype) | Represents the paste special type. |
 | [PdfCompliance](./pdfcompliance) | Allowing user to set PDF conversion's Compatibility |
 | [PdfCompressionCore](./pdfcompressioncore) | Specifies a type of compression applied to all content in the PDF file except images. |
-| [PdfCustomPropertiesExport](./pdfcustompropertiesexport) | Specifies the way [CustomDocumentPropertyCollection](../customdocumentpropertycollection/) are exported to PDF file. |
+| [PdfCustomPropertiesExport](./pdfcustompropertiesexport) | Specifies the way [CustomDocumentPropertyCollection](../nodejs-cpp/customdocumentpropertycollection/) are exported to PDF file. |
 | [PdfFontEncoding](./pdffontencoding) | Represents pdf embedded font encoding. |
 | [PdfOptimizationType](./pdfoptimizationtype) | Specifies a type of optimization. |
 | [PivotAreaType](./pivotareatype) | Indicates the type of rule being used to describe an area or aspect of the PivotTable. |

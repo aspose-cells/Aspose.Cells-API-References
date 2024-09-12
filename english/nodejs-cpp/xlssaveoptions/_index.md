@@ -31,8 +31,8 @@ class XlsSaveOptions extends SaveOptions;
 | [setLightCellsDataProvider(LightCellsDataProvider)](#setLightCellsDataProvider-lightcellsdataprovider-)| The data provider for saving workbook in light mode. |
 | [getMatchColor()](#getMatchColor--)| Indicates whether matching font color because there are 56 colors in the standard color palette. |
 | [setMatchColor(boolean)](#setMatchColor-boolean-)| Indicates whether matching font color because there are 56 colors in the standard color palette. |
-| [getWpsCompatibility()](#getWpsCompatibility--)| Indicates whether exporting |
-| [setWpsCompatibility(boolean)](#setWpsCompatibility-boolean-)| Indicates whether exporting |
+| [getWpsCompatibility()](#getWpsCompatibility--)| Indicates whether to make the xls more compatible with WPS. |
+| [setWpsCompatibility(boolean)](#setWpsCompatibility-boolean-)| Indicates whether to make the xls more compatible with WPS. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getSaveFormat()](#getSaveFormat--)| Gets the save file format. |
 | [getClearData()](#getClearData--)| Make the workbook empty after saving the file. |
@@ -144,7 +144,7 @@ setMatchColor(value: boolean) : void;
 
 ### getWpsCompatibility() {#getWpsCompatibility--}
 
-Indicates whether exporting
+Indicates whether to make the xls more compatible with WPS.
 
 ```javascript
 getWpsCompatibility() : boolean;
@@ -153,7 +153,7 @@ getWpsCompatibility() : boolean;
 
 ### setWpsCompatibility(boolean) {#setWpsCompatibility-boolean-}
 
-Indicates whether exporting
+Indicates whether to make the xls more compatible with WPS.
 
 ```javascript
 setWpsCompatibility(value: boolean) : void;
