@@ -30,13 +30,17 @@ class PivotItem;
 | [isFormula()](#isFormula--)| Indicates whether this pivot item is a calculated formula item. |
 | [setIsFormula(boolean)](#setIsFormula-boolean-)| Indicates whether this pivot item is a calculated formula item. |
 | [isMissing()](#isMissing--)| Indicates whether the item is removed from the data source. |
+| [getValue()](#getValue--)| Gets the value of the pivot item |
 | [getName()](#getName--)| Gets the name of the pivot item. |
+| [setName(string)](#setName-string-)| Gets the name of the pivot item. |
 | [getIndex()](#getIndex--)| Gets the index of the pivot item in cache field. |
 | [setIndex(number)](#setIndex-number-)| Gets the index of the pivot item in cache field. |
 | [move(number, boolean)](#move-number-boolean-)| Moves the item up or down |
+| [getFormula()](#getFormula--)| Gets the formula of this calculated item. Only works when this item is calculated item. |
 | [getStringValue()](#getStringValue--)| Gets the string value of the pivot item If the value is null, it will return "" |
 | [getDoubleValue()](#getDoubleValue--)| Gets the double value of the pivot item If the value is null or not number ,it will return 0 |
 | [getDateTimeValue()](#getDateTimeValue--)| Gets the date time value of the pivot item If the value is null ,it will return DateTime.MinValue |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### isHidden() {#isHidden--}
@@ -162,6 +166,15 @@ isMissing() : boolean;
 
 True means this value has benn removed from the data source.
 
+### getValue() {#getValue--}
+
+Gets the value of the pivot item
+
+```javascript
+getValue() : object;
+```
+
+
 ### getName() {#getName--}
 
 Gets the name of the pivot item.
@@ -170,6 +183,19 @@ Gets the name of the pivot item.
 getName() : string;
 ```
 
+
+### setName(string) {#setName-string-}
+
+Gets the name of the pivot item.
+
+```javascript
+setName(value: string) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | string | The value to set. |
 
 ### getIndex() {#getIndex--}
 
@@ -207,6 +233,15 @@ move(count: number, isSameParent: boolean) : void;
 | count | number | The number of moving up or down.         /// Move the item up if this is less than zero;         /// Move the item down if this is greater than zero. |
 | isSameParent | boolean | Specifying whether moving operation is in the same parent node or not |
 
+### getFormula() {#getFormula--}
+
+Gets the formula of this calculated item. Only works when this item is calculated item.
+
+```javascript
+getFormula() : string;
+```
+
+
 ### getStringValue() {#getStringValue--}
 
 Gets the string value of the pivot item If the value is null, it will return ""
@@ -231,6 +266,15 @@ Gets the date time value of the pivot item If the value is null ,it will return 
 
 ```javascript
 getDateTimeValue() : Date;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

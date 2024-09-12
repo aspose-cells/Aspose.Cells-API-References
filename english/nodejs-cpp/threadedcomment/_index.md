@@ -27,6 +27,7 @@ class ThreadedComment;
 | [setAuthor(ThreadedCommentAuthor)](#setAuthor-threadedcommentauthor-)| Gets the author of the comment. |
 | [getCreatedTime()](#getCreatedTime--)| Gets and sets the created time of this threaded comment. |
 | [setCreatedTime(Date)](#setCreatedTime-date-)| Gets and sets the created time of this threaded comment. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getRow() {#getRow--}
@@ -116,5 +117,14 @@ setCreatedTime(value: Date) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | Date | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

@@ -30,6 +30,7 @@ class ShapePropertyCollection;
 | [clearFormat3D()](#clearFormat3D--)| Clears the 3D shape properties of the shape. |
 | [clearShadowEffect()](#clearShadowEffect--)| Clears the shadow effect of the chart element or shape. |
 | [hasShadowEffect()](#hasShadowEffect--)| Indicates if the shape has shadow effect data. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getGlowEffect() {#getGlowEffect--}
@@ -144,6 +145,15 @@ Indicates if the shape has shadow effect data.
 
 ```javascript
 hasShadowEffect() : boolean;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

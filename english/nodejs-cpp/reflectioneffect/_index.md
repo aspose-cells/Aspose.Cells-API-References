@@ -35,6 +35,7 @@ class ReflectionEffect;
 | [setFadeDirection(number)](#setFadeDirection-number-)| Gets and sets the direction to offset the reflection. |
 | [getRotWithShape()](#getRotWithShape--)| Gets and sets if the reflection should rotate with the shape. |
 | [setRotWithShape(boolean)](#setRotWithShape-boolean-)| Gets and sets if the reflection should rotate with the shape. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getType() {#getType--}
@@ -216,5 +217,14 @@ setRotWithShape(value: boolean) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

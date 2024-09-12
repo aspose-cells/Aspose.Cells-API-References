@@ -29,6 +29,7 @@ class RevisionInsertDelete extends Revision;
 | [getCellArea()](#getCellArea--)| Gets the inserting/deleting range. |
 | [getActionType()](#getActionType--)| Gets the action type of this revision. |
 | [getRevisions()](#getRevisions--)| Gets revision list by this operation. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getWorksheet()](#getWorksheet--)| Gets the worksheet. |
 | [getId()](#getId--)| Gets the number of this revision. |
 
@@ -97,6 +98,15 @@ getRevisions() : RevisionCollection;
 **Returns**
 
 [RevisionCollection](../revisioncollection/)
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 ### getWorksheet() {#getWorksheet--}
 

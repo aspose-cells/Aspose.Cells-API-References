@@ -45,7 +45,9 @@ class Row;
 | [setStyle(Style)](#setStyle-style-)| Sets the style of this row. |
 | [copySettings(Row, boolean)](#copySettings-row-boolean-)| Copy settings of row, such as style, height, visibility, ...etc. |
 | [applyStyle(Style, StyleFlag)](#applyStyle-style-styleflag-)| Applies formats for a whole row. |
+| [equals(object)](#equals-object-)| Checks whether this object refers to the same row with another. |
 | [equals(Row)](#equals-row-)| Checks whether this object refers to the same row with another row object. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### get(number) {#get-number-}
@@ -397,6 +399,23 @@ applyStyle(style: Style, flag: StyleFlag) : void;
 | style | [Style](../style/) | The style object which will be applied. |
 | flag | [StyleFlag](../styleflag/) | Flags which indicates applied formatting properties. |
 
+### equals(object) {#equals-object-}
+
+Checks whether this object refers to the same row with another.
+
+```javascript
+equals(obj: object) : boolean;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | object | another object |
+
+**Returns**
+
+true if two objects refers to the same row.
+
 ### equals(Row) {#equals-row-}
 
 Checks whether this object refers to the same row with another row object.
@@ -413,5 +432,14 @@ equals(row: Row) : boolean;
 **Returns**
 
 true if two row objects refers to the same row.
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

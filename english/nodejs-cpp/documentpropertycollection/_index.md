@@ -24,6 +24,7 @@ class DocumentPropertyCollection;
 | [remove(string)](#remove-string-)| Removes a property with the specified name from the collection. |
 | [removeAt(number)](#removeAt-number-)| Removes a property at the specified index. |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [get(string)](#get-string-)| Returns a [DocumentProperty](../documentproperty/) object by the name of the property. |
 
 
@@ -93,6 +94,15 @@ Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

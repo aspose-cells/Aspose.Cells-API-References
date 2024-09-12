@@ -34,6 +34,7 @@ class VbaProject;
 | [protect(boolean, string)](#protect-boolean-string-)| Protects or unprotects this VBA project. |
 | [copy(VbaProject)](#copy-vbaproject-)| Copy VBA project from other file. |
 | [validatePassword(string)](#validatePassword-string-)| Validates protection password. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### isValidSigned() {#isValidSigned--}
@@ -219,5 +220,14 @@ validatePassword(password: string) : boolean;
 **Returns**
 
 Whether password is the protection password of this VBA project
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

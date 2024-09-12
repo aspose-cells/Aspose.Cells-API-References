@@ -69,6 +69,7 @@ class ShapeCollection;
 | [clear()](#clear--)| Clear all shapes in the worksheet. |
 | [updateSelectedValue()](#updateSelectedValue--)| Update the selected value by the value of the linked cell or range of the shape. |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### get(number) {#get-number-}
@@ -1095,6 +1096,15 @@ Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

@@ -35,6 +35,7 @@ class WorksheetCollection;
 | [setXmlMaps(XmlMapCollection)](#setXmlMaps-xmlmapcollection-)| Gets and sets the XML maps in the workbook. |
 | [getBuiltInDocumentProperties()](#getBuiltInDocumentProperties--)| Returns a [DocumentProperty](../documentproperty/) collection that represents all the built-in document properties of the spreadsheet. |
 | [getCustomDocumentProperties()](#getCustomDocumentProperties--)| Returns a [DocumentProperty](../documentproperty/) collection that represents all the custom document properties of the spreadsheet. |
+| [getOleSize()](#getOleSize--)| Gets and Sets displayed size when Workbook file is used as an Ole object. |
 | [getExternalLinks()](#getExternalLinks--)| Represents external links in a workbook. |
 | [getTableStyles()](#getTableStyles--)| Gets [TableStyles](../tablestyles/) object. |
 | [getRevisionLogs()](#getRevisionLogs--)| Represents revision logs. |
@@ -66,6 +67,7 @@ class WorksheetCollection;
 | [refreshPivotTables()](#refreshPivotTables--)| Refreshes all the PivotTables in the Excel file. |
 | [refreshPivotTables(PivotTableRefreshOption)](#refreshPivotTables-pivottablerefreshoption-)| Refreshes all the PivotTables in the Excel file. |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### get(number) {#get-number-}
@@ -279,6 +281,19 @@ getCustomDocumentProperties() : CustomDocumentPropertyCollection;
 **Returns**
 
 [CustomDocumentPropertyCollection](../customdocumentpropertycollection/)
+
+### getOleSize() {#getOleSize--}
+
+Gets and Sets displayed size when Workbook file is used as an Ole object.
+
+```javascript
+getOleSize() : object;
+```
+
+
+**Remarks**
+
+Null means no ole size setting.
 
 ### getExternalLinks() {#getExternalLinks--}
 
@@ -735,6 +750,15 @@ Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

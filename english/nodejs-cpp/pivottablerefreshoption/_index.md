@@ -27,6 +27,7 @@ class PivotTableRefreshOption;
 | --- | --- |
 | [getReserveMissingPivotItemType()](#getReserveMissingPivotItemType--)| Represents how to reserve missing pivot items. |
 | [setReserveMissingPivotItemType(ReserveMissingPivotItemType)](#setReserveMissingPivotItemType-reservemissingpivotitemtype-)| Represents how to reserve missing pivot items. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### constructor() {#constructor--}
@@ -63,5 +64,14 @@ setReserveMissingPivotItemType(value: ReserveMissingPivotItemType) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [ReserveMissingPivotItemType](../reservemissingpivotitemtype/) | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

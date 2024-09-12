@@ -31,6 +31,7 @@ class CellWatch;
 | [setColumn(number)](#setColumn-number-)| Gets and sets the column of the cell. |
 | [getCellName()](#getCellName--)| Gets and sets the name of the cell. |
 | [setCellName(string)](#setCellName-string-)| Gets and sets the name of the cell. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### constructor() {#constructor--}
@@ -107,5 +108,14 @@ setCellName(value: string) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | string | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

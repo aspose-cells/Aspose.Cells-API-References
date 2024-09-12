@@ -41,6 +41,7 @@ class PivotArea;
 | [isOutline()](#isOutline--)| Indicates whether the rule refers to an area that is in outline mode. |
 | [setIsOutline(boolean)](#setIsOutline-boolean-)| Indicates whether the rule refers to an area that is in outline mode. |
 | [select(PivotFieldType, number, PivotTableSelectionType)](#select-pivotfieldtype-number-pivottableselectiontype-)| Select the area with filters. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### constructor(PivotTable) {#constructor-pivottable-}
@@ -245,5 +246,14 @@ select(axisType: PivotFieldType, fieldPosition: number, selectionType: PivotTabl
 | axisType | [PivotFieldType](../pivotfieldtype/) | The region of the PivotTable to which this rule applies. |
 | fieldPosition | number | Position of the field within the axis to which this rule applies. |
 | selectionType | [PivotTableSelectionType](../pivottableselectiontype/) | Specifies what can be selected in a PivotTable during a structured selection. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

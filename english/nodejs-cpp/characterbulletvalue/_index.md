@@ -29,6 +29,7 @@ class CharacterBulletValue extends BulletValue;
 | [getType()](#getType--)| Gets the type of the bullet. |
 | [getCharacter()](#getCharacter--)| Gets and sets character of the bullet. |
 | [setCharacter(string)](#setCharacter-string-)| Gets and sets character of the bullet. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### constructor(BulletValue) {#constructor-bulletvalue-}
@@ -87,5 +88,14 @@ setCharacter(value: string) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | string | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

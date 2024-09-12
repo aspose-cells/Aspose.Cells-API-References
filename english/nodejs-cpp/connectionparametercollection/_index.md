@@ -22,6 +22,7 @@ class ConnectionParameterCollection;
 | [get(number)](#get-number-)| Gets the [ConnectionParameter](../connectionparameter/) element at the specified index. |
 | [set(ConnectionParameter, number)](#set-connectionparameter-number-)| Gets the [ConnectionParameter](../connectionparameter/) element at the specified index. |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### get(number) {#get-number-}
@@ -65,6 +66,15 @@ Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

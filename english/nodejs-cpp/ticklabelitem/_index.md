@@ -23,6 +23,7 @@ class TickLabelItem;
 | [getY()](#getY--)| Y coordinates of Ticklabel item in ratio of chart height. |
 | [getWidth()](#getWidth--)| Width of Ticklabel item in ratio of chart width. |
 | [getHeight()](#getHeight--)| Height of Ticklabel item in ratio of chart height. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getX() {#getX--}
@@ -58,6 +59,15 @@ Height of Ticklabel item in ratio of chart height.
 
 ```javascript
 getHeight() : number;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

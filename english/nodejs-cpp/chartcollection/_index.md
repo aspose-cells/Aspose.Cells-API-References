@@ -27,6 +27,7 @@ class ChartCollection;
 | [removeAt(number)](#removeAt-number-)| Remove a chart at the specific index. |
 | [clear()](#clear--)| Clear all charts. |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### get(number) {#get-number-}
@@ -162,6 +163,15 @@ Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

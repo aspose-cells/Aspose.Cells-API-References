@@ -45,6 +45,7 @@ class SettablePivotGlobalizationSettings;
 | [setTextOfDataFieldHeader(string)](#setTextOfDataFieldHeader-string-)| Sets the the text of the value area field header in the PivotTable. |
 | [getTextOfSubTotal(PivotFieldSubtotalType)](#getTextOfSubTotal-pivotfieldsubtotaltype-)| Gets the text of [PivotFieldSubtotalType](../pivotfieldsubtotaltype/) type in the PivotTable. |
 | [setTextOfSubTotal(PivotFieldSubtotalType, string)](#setTextOfSubTotal-pivotfieldsubtotaltype-string-)| Sets the text of [PivotFieldSubtotalType](../pivotfieldsubtotaltype/) type in the PivotTable. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### constructor() {#constructor--}
@@ -329,5 +330,14 @@ setTextOfSubTotal(subTotalType: PivotFieldSubtotalType, text: string) : void;
 | --- | --- | --- |
 | subTotalType | [PivotFieldSubtotalType](../pivotfieldsubtotaltype/) | The [PivotFieldSubtotalType](../pivotfieldsubtotaltype/) |
 | text | string | The text of given type |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

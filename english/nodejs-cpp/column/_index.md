@@ -32,6 +32,7 @@ class Column;
 | [applyStyle(Style, StyleFlag)](#applyStyle-style-styleflag-)| Applies formats for a whole column. |
 | [getStyle()](#getStyle--)| Gets the style of this column. |
 | [setStyle(Style)](#setStyle-style-)| Sets the style of this column. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getIndex() {#getIndex--}
@@ -195,5 +196,14 @@ setStyle(style: Style) : void;
 **Remarks**
 
 This method only sets the given style as the default style for this column, without changing the style settings for existing cells in this column. To update style settings of existing cells to the specified style at the same time, please use [ApplyStyle(Style, StyleFlag)](../applystyle(style, styleflag)/)
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

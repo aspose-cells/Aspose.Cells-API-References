@@ -30,6 +30,7 @@ class MetadataOptions;
 | [setPassword(string)](#setPassword-string-)| Represents Workbook file encryption password. |
 | [getKeyLength()](#getKeyLength--)| The key length. |
 | [setKeyLength(number)](#setKeyLength-number-)| The key length. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### constructor(MetadataType) {#constructor-metadatatype-}
@@ -101,5 +102,14 @@ setKeyLength(value: number) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | number | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

@@ -27,6 +27,7 @@ class QueryTable;
 | [setPreserveFormatting(boolean)](#setPreserveFormatting-boolean-)| Returns or sets the PreserveFormatting of the object. |
 | [getAdjustColumnWidth()](#getAdjustColumnWidth--)| Returns or sets the AdjustColumnWidth of the object. |
 | [setAdjustColumnWidth(boolean)](#setAdjustColumnWidth-boolean-)| Returns or sets the AdjustColumnWidth of the object. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getConnectionId() {#getConnectionId--}
@@ -116,5 +117,14 @@ setAdjustColumnWidth(value: boolean) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

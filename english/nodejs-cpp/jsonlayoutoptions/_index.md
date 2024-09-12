@@ -41,6 +41,7 @@ class JsonLayoutOptions;
 | [setTitleStyle(Style)](#setTitleStyle-style-)| Gets and sets the style of the title. |
 | [getKeptSchema()](#getKeptSchema--)| Indicates whether keeping schema of this json. |
 | [setKeptSchema(boolean)](#setKeptSchema-boolean-)| Indicates whether keeping schema of this json. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### constructor() {#constructor--}
@@ -239,5 +240,14 @@ setKeptSchema(value: boolean) : void;
 **Remarks**
 
 Sometimes we will save the file to JSON after loading JSON file.
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

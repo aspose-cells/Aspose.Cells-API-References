@@ -25,6 +25,7 @@ class Sparkline;
 | [getColumn()](#getColumn--)| Gets the column index of the sparkline. |
 | [toImage(string, ImageOrPrintOptions)](#toImage-string-imageorprintoptions-)| Converts a sparkline to an image. |
 | [toImage(ImageOrPrintOptions)](#toImage-imageorprintoptions-)| Converts a sparkline to an image. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getDataRange() {#getDataRange--}
@@ -97,5 +98,14 @@ toImage(options: ImageOrPrintOptions) : Uint8Array;
 **Returns**
 
 The result stream
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

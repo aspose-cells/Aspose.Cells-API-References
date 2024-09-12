@@ -27,6 +27,7 @@ class TableToRangeOptions;
 | --- | --- |
 | [getLastRow()](#getLastRow--)| Gets and sets the last row index of the table. |
 | [setLastRow(number)](#setLastRow-number-)| Gets and sets the last row index of the table. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### constructor() {#constructor--}
@@ -59,5 +60,14 @@ setLastRow(value: number) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | number | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

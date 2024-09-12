@@ -33,6 +33,7 @@ class SheetRender;
 | [toTiff(Uint8Array)](#toTiff-uint8array-)| Render whole worksheet as Tiff Image to stream. |
 | [toTiff(string)](#toTiff-string-)| Render whole worksheet as Tiff Image to a file. |
 | [dispose()](#dispose--)| Releases resources created and used for rendering. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### constructor(Worksheet, ImageOrPrintOptions) {#constructor-worksheet-imageorprintoptions-}
@@ -147,6 +148,15 @@ Releases resources created and used for rendering.
 
 ```javascript
 dispose() : void;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

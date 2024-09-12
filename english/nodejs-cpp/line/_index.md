@@ -61,6 +61,7 @@ class Line;
 | [isAuto()](#isAuto--)| Indicates whether this line style is auto assigned. |
 | [setIsAuto(boolean)](#setIsAuto-boolean-)| Indicates whether this line style is auto assigned. |
 | [getGradientFill()](#getGradientFill--)| Represents gradient fill. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getCompoundType() {#getCompoundType--}
@@ -592,5 +593,14 @@ getGradientFill() : GradientFill;
 **Returns**
 
 [GradientFill](../gradientfill/)
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

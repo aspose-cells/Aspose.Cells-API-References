@@ -31,6 +31,7 @@ class MsoFillFormat;
 | [isVisible()](#isVisible--)| Indicates whether there is fill. |
 | [setIsVisible(boolean)](#setIsVisible-boolean-)| Indicates whether there is fill. |
 | [setOneColorGradient(Color, number, GradientStyleType, number)](#setOneColorGradient-color-number-gradientstyletype-number-)| Sets the specified fill to a one-color gradient. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getForeColor() {#getForeColor--}
@@ -183,5 +184,14 @@ setOneColorGradient(color: Color, degree: number, style: GradientStyleType, vari
 | degree | number | The gradient degree. Can be a value from 0.0 (dark) through 1.0 (light). |
 | style | [GradientStyleType](../gradientstyletype/) | Gradient shading style. |
 | variant | number | The gradient variant. Can be a value from 1 through 4, corresponding to one of the four variants on the Gradient tab in the Fill Effects dialog box. If style is GradientStyle.FromCenter, the Variant argument can only be 1 or 2. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

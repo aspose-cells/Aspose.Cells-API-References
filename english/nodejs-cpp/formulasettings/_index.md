@@ -41,6 +41,7 @@ class FormulaSettings;
 | [setEnableCalculationChain(boolean)](#setEnableCalculationChain-boolean-)| Whether enable calculation chain for formulas. Default is false. |
 | [getPreservePaddingSpaces()](#getPreservePaddingSpaces--)| Indicates whether preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. Default value is false. |
 | [setPreservePaddingSpaces(boolean)](#setPreservePaddingSpaces-boolean-)| Indicates whether preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. Default value is false. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getCalculateOnOpen() {#getCalculateOnOpen--}
@@ -344,5 +345,14 @@ setPreservePaddingSpaces(value: boolean) : void;
 **Remarks**
 
 Generally those spaces and line breaks are jsut for visual purpose, Preserving them or not does not affect the calculated result. For performance consideration, if there is no special requirement, it is better not to preserve them while processing formulas.
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

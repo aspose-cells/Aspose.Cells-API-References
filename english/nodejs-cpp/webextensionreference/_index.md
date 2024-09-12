@@ -27,6 +27,7 @@ class WebExtensionReference;
 | [setStoreName(string)](#setStoreName-string-)| Gets and sets the instance of the marketplace where the Office Add-in is stored. . |
 | [getStoreType()](#getStoreType--)| Gets and sets the type of marketplace that the store attribute identifies. |
 | [setStoreType(WebExtensionStoreType)](#setStoreType-webextensionstoretype-)| Gets and sets the type of marketplace that the store attribute identifies. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getId() {#getId--}
@@ -120,5 +121,14 @@ setStoreType(value: WebExtensionStoreType) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [WebExtensionStoreType](../webextensionstoretype/) | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

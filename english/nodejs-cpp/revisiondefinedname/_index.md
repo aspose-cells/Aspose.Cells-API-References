@@ -29,6 +29,7 @@ class RevisionDefinedName extends Revision;
 | [getText()](#getText--)| Gets the text of the defined name. |
 | [getOldFormula()](#getOldFormula--)| Gets the old formula. |
 | [getNewFormula()](#getNewFormula--)| Gets the formula. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getWorksheet()](#getWorksheet--)| Gets the worksheet. |
 | [getId()](#getId--)| Gets the number of this revision. |
 
@@ -83,6 +84,15 @@ Gets the formula.
 
 ```javascript
 getNewFormula() : string;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

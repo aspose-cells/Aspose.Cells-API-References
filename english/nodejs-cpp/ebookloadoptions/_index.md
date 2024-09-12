@@ -27,6 +27,7 @@ class EbookLoadOptions extends HtmlLoadOptions;
 
 | Method | Description |
 | --- | --- |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getLoadFormat()](#getLoadFormat--)| Gets the load format. |
 | [getPassword()](#getPassword--)| Gets and set the password of the workbook. |
 | [setPassword(string)](#setPassword-string-)| Gets and set the password of the workbook. |
@@ -126,6 +127,15 @@ constructor(loadFormat: LoadFormat);
 | Parameter | Type | Description |
 | --- | --- | --- |
 | loadFormat | [LoadFormat](../loadformat/) | The loading format |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 ### getLoadFormat() {#getLoadFormat--}
 

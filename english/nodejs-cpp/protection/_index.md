@@ -57,6 +57,7 @@ class Protection;
 | [copy(Protection)](#copy-protection-)| Copy protection info. |
 | [getPasswordHash()](#getPasswordHash--)| Gets the hash of current password. |
 | [verifyPassword(string)](#verifyPassword-string-)| Verifies password. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getAllowDeletingColumn() {#getAllowDeletingColumn--}
@@ -500,5 +501,14 @@ verifyPassword(password: string) : boolean;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | password | string | The password. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

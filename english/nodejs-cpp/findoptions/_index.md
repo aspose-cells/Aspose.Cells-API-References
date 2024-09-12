@@ -46,6 +46,7 @@ class FindOptions;
 | [setConvertNumericData(boolean)](#setConvertNumericData-boolean-)| Gets or sets a value that indicates whether converting the searched string value to numeric data. |
 | [getRange()](#getRange--)| Gets and sets the searched range. |
 | [setRange(CellArea)](#setRange-cellarea-)| Sets the searched range. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### constructor() {#constructor--}
@@ -301,5 +302,14 @@ setRange(ca: CellArea) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | ca | [CellArea](../cellarea/) | the searched range. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

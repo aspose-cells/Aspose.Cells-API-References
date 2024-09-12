@@ -26,6 +26,7 @@ class CustomGeometry extends Geometry;
 | Method | Description |
 | --- | --- |
 | [getPaths()](#getPaths--)| Gets path collection information when shape is a NotPrimitive autoshape |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getShapeAdjustValues()](#getShapeAdjustValues--)| Gets a collection of shape adjust value |
 
 
@@ -54,6 +55,15 @@ getPaths() : ShapePathCollection;
 **Returns**
 
 [ShapePathCollection](../shapepathcollection/)
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 ### getShapeAdjustValues() {#getShapeAdjustValues--}
 

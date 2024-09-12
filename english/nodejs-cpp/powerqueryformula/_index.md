@@ -23,6 +23,7 @@ class PowerQueryFormula;
 | [getName()](#getName--)| Gets and sets the name of the power query formula. |
 | [setName(string)](#setName-string-)| Gets and sets the name of the power query formula. |
 | [getPowerQueryFormulaItems()](#getPowerQueryFormulaItems--)| Gets all items of power query formula. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getFormulaDefinition() {#getFormulaDefinition--}
@@ -68,5 +69,14 @@ getPowerQueryFormulaItems() : PowerQueryFormulaItemCollection;
 **Returns**
 
 [PowerQueryFormulaItemCollection](../powerqueryformulaitemcollection/)
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

@@ -39,6 +39,7 @@ class CalculationOptions;
 | [setLinkedDataSources(Workbook[])](#setLinkedDataSources-workbookarray-)| Specifies the data sources for external links used in formulas. |
 | [getCharacterEncoding()](#getCharacterEncoding--)| Specifies the encoding used for encoding/decoding characters when calculating formulas. For functions such as CHAR, CODE, the calculated result depends on the region settings and default charset of the environment. With this property user can specify the proper encoding used for those function to get the expected result. |
 | [setCharacterEncoding(EncodingType)](#setCharacterEncoding-encodingtype-)| Specifies the encoding used for encoding/decoding characters when calculating formulas. For functions such as CHAR, CODE, the calculated result depends on the region settings and default charset of the environment. With this property user can specify the proper encoding used for those function to get the expected result. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### constructor() {#constructor--}
@@ -235,5 +236,14 @@ setCharacterEncoding(value: EncodingType) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [EncodingType](../encodingtype/) | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

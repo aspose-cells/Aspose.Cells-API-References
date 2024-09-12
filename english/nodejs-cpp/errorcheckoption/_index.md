@@ -25,6 +25,7 @@ class ErrorCheckOption;
 | [addRange(CellArea)](#addRange-cellarea-)| Adds one influenced range by this setting. |
 | [getRange(number)](#getRange-number-)| Gets the influenced range of this setting by given index. |
 | [removeRange(number)](#removeRange-number-)| Removes one range by given index. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### isErrorCheck(ErrorCheckType) {#isErrorCheck-errorchecktype-}
@@ -117,5 +118,14 @@ removeRange(index: number) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | number | the index of the range to be removed. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

@@ -20,16 +20,19 @@ class MultipleFilterCollection;
 | Name | Description |
 | --- | --- |
 | [constructor()](#constructor--)| Constructs one new instance. |
-| [constructor(IObject)](#constructor-iobject-)| Constructs from an IObject convertible to this. |
+| [constructor(Object)](#constructor-object-)| Constructs from an Object convertible to this. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
+| [get(number)](#get-number-)| DateTimeGroupItem or a simple object. |
 | [getMatchBlank()](#getMatchBlank--)| Indicates whether to filter by blank. |
 | [setMatchBlank(boolean)](#setMatchBlank-boolean-)| Indicates whether to filter by blank. |
 | [add(string)](#add-string-)| Adds string filter. |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
+| [toObject()](#toObject--)| Gets the Object. |
 
 
 ### constructor() {#constructor--}
@@ -41,18 +44,31 @@ constructor();
 ```
 
 
-### constructor(IObject) {#constructor-iobject-}
+### constructor(Object) {#constructor-object-}
 
-Constructs from an IObject convertible to this.
+Constructs from an Object convertible to this.
 
 ```javascript
-constructor(obj: IObject);
+constructor(obj: Object);
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | IObject | The object. |
+| obj | Object | The object. |
+
+### get(number) {#get-number-}
+
+DateTimeGroupItem or a simple object.
+
+```javascript
+get(index: number) : object;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | number |  |
 
 ### getMatchBlank() {#getMatchBlank--}
 
@@ -97,5 +113,27 @@ Gets the number of elements contained in.
 getCount() : number;
 ```
 
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
+
+### toObject() {#toObject--}
+
+Gets the Object.
+
+```javascript
+toObject() : Object;
+```
+
+
+**Returns**
+
+[Object](../object/)
 
 

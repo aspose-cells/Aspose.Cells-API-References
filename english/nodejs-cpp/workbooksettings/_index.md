@@ -132,6 +132,7 @@ class WorkbookSettings;
 | [dispose()](#dispose--)| Releases resources. |
 | [getThemeFont(FontSchemeType)](#getThemeFont-fontschemetype-)| Gets the default theme font name. |
 | [setPageOrientationType(PageOrientationType)](#setPageOrientationType-pageorientationtype-)| Set the type of  print orientation for the whole workbook. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getAuthor() {#getAuthor--}
@@ -1534,5 +1535,14 @@ setPageOrientationType(pageOrientationType: PageOrientationType) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | pageOrientationType | [PageOrientationType](../pageorientationtype/) | The page orientation type |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

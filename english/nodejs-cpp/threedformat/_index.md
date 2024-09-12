@@ -60,6 +60,8 @@ class ThreeDFormat;
 | [getPresetCameraType()](#getPresetCameraType--)| Gets and sets the extrusion preset camera type. |
 | [setPresetCameraType(PresetCameraType)](#setPresetCameraType-presetcameratype-)| Gets and sets the extrusion preset camera type. |
 | [getHashCode()](#getHashCode--)| Gets hashcode. |
+| [equals(object)](#equals-object-)|  |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getBottomBevelWidth() {#getBottomBevelWidth--}
@@ -540,6 +542,28 @@ Gets hashcode.
 
 ```javascript
 getHashCode() : number;
+```
+
+
+### equals(object) {#equals-object-}
+
+
+
+```javascript
+equals(obj: object) : boolean;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | object |  |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

@@ -41,6 +41,7 @@ class AutoFitterOptions;
 | [setFormatStrategy(CellValueFormatStrategy)](#setFormatStrategy-cellvalueformatstrategy-)| Gets and sets the formatted strategy. |
 | [getForRendering()](#getForRendering--)| Indicates whether fit for rendering purpose. |
 | [setForRendering(boolean)](#setForRendering-boolean-)| Indicates whether fit for rendering purpose. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### constructor() {#constructor--}
@@ -267,5 +268,14 @@ setForRendering(value: boolean) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

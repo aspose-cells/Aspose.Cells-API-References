@@ -44,6 +44,7 @@ class TickLabels;
 | [getTickLabelItems()](#getTickLabelItems--)| Gets the display tick labels of the axis. |
 | [getAlignmentType()](#getAlignmentType--)| Gets and sets the text alignment for the tick labels on the axis. |
 | [setAlignmentType(TickLabelAlignmentType)](#setAlignmentType-ticklabelalignmenttype-)| Gets and sets the text alignment for the tick labels on the axis. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getFont() {#getFont--}
@@ -366,5 +367,14 @@ setAlignmentType(value: TickLabelAlignmentType) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [TickLabelAlignmentType](../ticklabelalignmenttype/) | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

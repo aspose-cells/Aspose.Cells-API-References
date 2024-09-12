@@ -35,6 +35,7 @@ class Marker;
 | [setBackgroundColor(Color)](#setBackgroundColor-color-)| Represents the marker background color in a line chart, scatter chart, or radar chart. |
 | [getBackgroundColorSetType()](#getBackgroundColorSetType--)| Gets or sets the marker background color set type. |
 | [setBackgroundColorSetType(FormattingType)](#setBackgroundColorSetType-formattingtype-)| Gets or sets the marker background color set type. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getBorder() {#getBorder--}
@@ -236,5 +237,14 @@ setBackgroundColorSetType(value: FormattingType) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [FormattingType](../formattingtype/) | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

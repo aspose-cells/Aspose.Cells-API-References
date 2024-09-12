@@ -28,6 +28,7 @@ class ExternalLinkCollection;
 | [removeAt(number)](#removeAt-number-)| Removes the specified external link from the workbook. |
 | [removeAt(number, boolean)](#removeAt-number-boolean-)| Removes the specified external link from the workbook. |
 | [getEnumerator()](#getEnumerator--)| Get an enumerator that iterates through this collection. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### get(number) {#get-number-}
@@ -166,5 +167,14 @@ getEnumerator() : ExternalLinkEnumerator;
 **Returns**
 
 [ExternalLinkEnumerator](../externallinkenumerator/)
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

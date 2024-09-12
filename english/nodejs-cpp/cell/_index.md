@@ -36,7 +36,6 @@ class Cell;
 | [getBoolValue()](#getBoolValue--)| Gets the boolean value contained in the cell. |
 | [getHasCustomStyle()](#getHasCustomStyle--)| Indicates whether this cell has custom style settings(different from the default one inherited from corresponding row, column, or workbook). |
 | [getSharedStyleIndex()](#getSharedStyleIndex--)| Gets cell's shared style index in the style pool. |
-| [setFormula(string)](#setFormula-string-)| Gets or sets a formula of the [Cell](../cell/). |
 | [getFormulaLocal()](#getFormulaLocal--)| Get the locale formatted formula of the cell. |
 | [setFormulaLocal(string)](#setFormulaLocal-string-)| Get the locale formatted formula of the cell. |
 | [getR1C1Formula()](#getR1C1Formula--)| Gets or sets a R1C1 formula of the [Cell](../cell/). |
@@ -47,10 +46,14 @@ class Cell;
 | [isArrayFormula()](#isArrayFormula--)| Indicates whether the cell formula is an array formula. |
 | [isSharedFormula()](#isSharedFormula--)| Indicates whether the cell formula is part of shared formula. |
 | [isTableFormula()](#isTableFormula--)| Indicates whether this cell is part of table formula. |
+| [getValue()](#getValue--)| Gets/sets the value contained in this cell. |
+| [setValue(object)](#setValue-object-)| Gets/sets the value contained in this cell. |
 | [isStyleSet()](#isStyleSet--)| Indicates if the cell's style is set. If return false, it means this cell has a default cell format. |
 | [isMerged()](#isMerged--)| Checks if a cell is part of a merged range or not. |
 | [getComment()](#getComment--)| Gets the comment of this cell. |
 | [setHtmlString(string)](#setHtmlString-string-)| Gets and sets the html string which contains data and some formats in this cell. |
+| [isCheckBoxStyle()](#isCheckBoxStyle--)| Indicates whether setting this cell as a check box. |
+| [setIsCheckBoxStyle(boolean)](#setIsCheckBoxStyle-boolean-)| Indicates whether setting this cell as a check box. |
 | [getEmbeddedImage()](#getEmbeddedImage--)| Gets and sets the embeddedn image in the cell. |
 | [setEmbeddedImage(number[])](#setEmbeddedImage-numberarray-)| Gets and sets the embeddedn image in the cell. |
 | [calculate(CalculationOptions)](#calculate-calculationoptions-)| Calculates the formula of the cell. |
@@ -61,6 +64,7 @@ class Cell;
 | [putValue(string, boolean)](#putValue-string-boolean-)| Puts a string value into the cell and converts the value to other data type if appropriate. |
 | [putValue(string)](#putValue-string-)| Puts a string value into the cell. |
 | [putValue(Date)](#putValue-date-)| Puts a DateTime value into the cell. |
+| [putValue(object)](#putValue-object-)| Puts an object value into the cell. |
 | [getStringValue(CellValueFormatStrategy)](#getStringValue-cellvalueformatstrategy-)| Gets the string value by specific formatted strategy. |
 | [getWidthOfValue()](#getWidthOfValue--)| Gets the width of the value in unit of pixels. |
 | [getHeightOfValue()](#getHeightOfValue--)| Gets the height of the value in unit of pixels. |
@@ -72,6 +76,8 @@ class Cell;
 | [setStyle(Style)](#setStyle-style-)| Sets the cell style. |
 | [setStyle(Style, boolean)](#setStyle-style-boolean-)| Apply the changed property of style to the cell. |
 | [setStyle(Style, StyleFlag)](#setStyle-style-styleflag-)| Apply the cell style based on flags. |
+| [setFormula(string, object)](#setFormula-string-object-)| Set the formula and the value(calculated result) of the formula. |
+| [setFormula(string, FormulaParseOptions, object)](#setFormula-string-formulaparseoptions-object-)| Set the formula and the value(calculated result) of the formula. |
 | [getFormula(boolean, boolean)](#getFormula-boolean-boolean-)| Get the formula of this cell. |
 | [setArrayFormula(string, number, number)](#setArrayFormula-string-number-number-)| Sets an array formula(legacy array formula entered via CTRL+SHIFT+ENTER in ms excel) to a range of cells. |
 | [setArrayFormula(string, number, number, FormulaParseOptions)](#setArrayFormula-string-number-number-formulaparseoptions-)| Sets an array formula to a range of cells. |
@@ -96,13 +102,15 @@ class Cell;
 | [getHtmlString(boolean)](#getHtmlString-boolean-)| Gets the html string which contains data and some formats in this cell. |
 | [toString()](#toString--)| Returns a string represents the current Cell object. |
 | [toJson()](#toJson--)| Convert [Cell](../cell/) to JSON struct data. |
-| [getHashCode()](#getHashCode--)| Serves as a hash function for a particular type. |
+| [equals(object)](#equals-object-)| Checks whether this object refers to the same cell with another. |
 | [equals(Cell)](#equals-cell-)| Checks whether this object refers to the same cell with another cell object. |
+| [getHashCode()](#getHashCode--)| Serves as a hash function for a particular type. |
 | [getConditionalFormattingResult()](#getConditionalFormattingResult--)| Get the result of the conditional formatting. |
 | [getValidation()](#getValidation--)| Gets the validation applied to this cell. |
 | [getValidationValue()](#getValidationValue--)| Gets the value of validation which applied to this cell. |
 | [getTable()](#getTable--)| Gets the table which contains this cell. |
 | [dispose()](#dispose--)|  |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getWorksheet() {#getWorksheet--}
@@ -286,23 +294,6 @@ getSharedStyleIndex() : number;
 ```
 
 
-### setFormula(string) {#setFormula-string-}
-
-Gets or sets a formula of the [Cell](../cell/).
-
-```javascript
-setFormula(value: string) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | string | The value to set. |
-
-**Remarks**
-
-A formula string always begins with an equal sign (=). And please always use comma(,) as parameters delimiter, such as "=SUM(A1, E1, H2)".
-
 ### getFormulaLocal() {#getFormulaLocal--}
 
 Get the locale formatted formula of the cell.
@@ -401,6 +392,36 @@ isTableFormula() : boolean;
 ```
 
 
+### getValue() {#getValue--}
+
+Gets/sets the value contained in this cell.
+
+```javascript
+getValue() : object;
+```
+
+
+**Remarks**
+
+Possible type: <p>null,</p> <p>Boolean,</p> <p>DateTime,</p> <p>Double,</p> <p>Integer</p> <p>String.</p> For int value, it may be returned as an Integer object or a Double object. And there is no guarantee that the returned value will be kept as the same type of object always.
+
+### setValue(object) {#setValue-object-}
+
+Gets/sets the value contained in this cell.
+
+```javascript
+setValue(value: object) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | object | The value to set. |
+
+**Remarks**
+
+Possible type: <p>null,</p> <p>Boolean,</p> <p>DateTime,</p> <p>Double,</p> <p>Integer</p> <p>String.</p> For int value, it may be returned as an Integer object or a Double object. And there is no guarantee that the returned value will be kept as the same type of object always.
+
 ### isStyleSet() {#isStyleSet--}
 
 Indicates if the cell's style is set. If return false, it means this cell has a default cell format.
@@ -448,6 +469,28 @@ setHtmlString(value: string) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | string | The value to set. |
+
+### isCheckBoxStyle() {#isCheckBoxStyle--}
+
+Indicates whether setting this cell as a check box.
+
+```javascript
+isCheckBoxStyle() : boolean;
+```
+
+
+### setIsCheckBoxStyle(boolean) {#setIsCheckBoxStyle-boolean-}
+
+Indicates whether setting this cell as a check box.
+
+```javascript
+setIsCheckBoxStyle(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
 
 ### getEmbeddedImage() {#getEmbeddedImage--}
 
@@ -585,6 +628,19 @@ putValue(dateTime: Date) : void;
 **Remarks**
 
 Setting a DateTime value for a cell dose not means the cell will be formatted as date time automatically. DateTime value was maintained as numeric value in the data model of both ms excel and Aspose.Cells. Whether the numeric value will be taken as the numeric value itself or date time depends on the number format applied on this cell. If this cell has not been formatted as date time, it will be displayed as a numeric value even though what you input is DateTime.
+
+### putValue(object) {#putValue-object-}
+
+Puts an object value into the cell.
+
+```javascript
+putValue(objectValue: object) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| objectValue | object | input value |
 
 ### getStringValue(CellValueFormatStrategy) {#getStringValue-cellvalueformatstrategy-}
 
@@ -738,6 +794,35 @@ setStyle(style: Style, flag: StyleFlag) : void;
 | --- | --- | --- |
 | style | [Style](../style/) | The cell style. |
 | flag | [StyleFlag](../styleflag/) | The style flag. |
+
+### setFormula(string, object) {#setFormula-string-object-}
+
+Set the formula and the value(calculated result) of the formula.
+
+```javascript
+setFormula(formula: string, value: object) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| formula | string | The formula. |
+| value | object | The value(calculated result) of the formula. |
+
+### setFormula(string, FormulaParseOptions, object) {#setFormula-string-formulaparseoptions-object-}
+
+Set the formula and the value(calculated result) of the formula.
+
+```javascript
+setFormula(formula: string, options: FormulaParseOptions, value: object) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| formula | string | The formula. |
+| options | [FormulaParseOptions](../formulaparseoptions/) | Options for parsing the formula. |
+| value | object | The value(calculated result) of the formula. |
 
 ### getFormula(boolean, boolean) {#getFormula-boolean-boolean-}
 
@@ -1108,18 +1193,22 @@ toJson() : string;
 ```
 
 
-### getHashCode() {#getHashCode--}
+### equals(object) {#equals-object-}
 
-Serves as a hash function for a particular type.
+Checks whether this object refers to the same cell with another.
 
 ```javascript
-getHashCode() : number;
+equals(obj: object) : boolean;
 ```
 
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | object | another object |
 
 **Returns**
 
-A hash code for current Cell object.
+true if two objects refers to the same cell.
 
 ### equals(Cell) {#equals-cell-}
 
@@ -1137,6 +1226,19 @@ equals(cell: Cell) : boolean;
 **Returns**
 
 true if two cell objects refers to the same cell.
+
+### getHashCode() {#getHashCode--}
+
+Serves as a hash function for a particular type.
+
+```javascript
+getHashCode() : number;
+```
+
+
+**Returns**
+
+A hash code for current Cell object.
 
 ### getConditionalFormattingResult() {#getConditionalFormattingResult--}
 
@@ -1196,6 +1298,15 @@ getTable() : ListObject;
 
 ```javascript
 dispose() : void;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

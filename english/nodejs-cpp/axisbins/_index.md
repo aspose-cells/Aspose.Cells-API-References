@@ -33,6 +33,7 @@ class AxisBins;
 | [setUnderflow(number)](#setUnderflow-number-)| Gets or set the underflow of axis bins |
 | [resetOverflow()](#resetOverflow--)| Reset the overflow |
 | [resetUnderflow()](#resetUnderflow--)| Reset the underflow |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### isByCategory() {#isByCategory--}
@@ -192,5 +193,14 @@ resetUnderflow() : void;
 **Remarks**
 
 NOTE: This method is now obsolete. This is an internal method that does not need to be called externally to avoid causing problems. This property will be removed 12 months later since July 2024. Aspose apologizes for any inconvenience you may have experienced.
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

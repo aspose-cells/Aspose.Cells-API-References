@@ -24,6 +24,7 @@ class WebExtensionCollection;
 | [addWebVideoPlayer(string, boolean, number, number)](#addWebVideoPlayer-string-boolean-number-number-)| Add a web video player into exel. |
 | [removeAt(number)](#removeAt-number-)| Remove web extension by the index. |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### get(number) {#get-number-}
@@ -91,6 +92,15 @@ Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

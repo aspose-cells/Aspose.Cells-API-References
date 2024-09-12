@@ -37,6 +37,7 @@ class TilePicOption;
 | [setMirrorType(MirrorType)](#setMirrorType-mirrortype-)| Gets or sets the mirror type for tiling. |
 | [getAlignmentType()](#getAlignmentType--)| Gets or sets the alignment for tiling. |
 | [setAlignmentType(RectangleAlignmentType)](#setAlignmentType-rectanglealignmenttype-)| Gets or sets the alignment for tiling. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### constructor() {#constructor--}
@@ -187,5 +188,14 @@ setAlignmentType(value: RectangleAlignmentType) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [RectangleAlignmentType](../rectanglealignmenttype/) | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

@@ -29,6 +29,7 @@ class RevisionHeader;
 | [setSavedTime(Date)](#setSavedTime-date-)| Gets and sets rhe date and time when this set of revisions was saved. |
 | [get_UserName()](#get_UserName--)| Gets and sets the name of the user making the revision. |
 | [setUserName(string)](#setUserName-string-)| Gets and sets the name of the user making the revision. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### constructor() {#constructor--}
@@ -83,5 +84,14 @@ setUserName(value: string) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | string | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

@@ -28,6 +28,7 @@ class PivotPageFields;
 | [getPageFieldCount()](#getPageFieldCount--)| Gets the number of page fields. |
 | [addPageField(string[])](#addPageField-stringarray-)| Adds a page field. |
 | [addIdentify(number, number[])](#addIdentify-number-numberarray-)| Sets which item label in each page field to use to identify the data range. The pageItemIndex.Length must be equal to PageFieldCount, so please add the page field first. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### constructor() {#constructor--}
@@ -74,5 +75,14 @@ addIdentify(rangeIndex: number, pageItemIndex: number[]) : void;
 | --- | --- | --- |
 | rangeIndex | number | The consolidation data range index. |
 | pageItemIndex | number[] | The page item index in the each page field. 		/// pageItemIndex[2] = 1 means the second item in the third field to use to identify this range. 		/// pageItemIndex[1] = -1 means no item in the second field to use to identify this range  		/// and MS will auto create "blank" item in the second field  to identify this range. 		 |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

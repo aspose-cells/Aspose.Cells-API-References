@@ -37,6 +37,7 @@ class DigitalSignature;
 | [isValid()](#isValid--)| If this digital signature is valid and the document has not been tampered with, this value will be true. |
 | [getXAdESType()](#getXAdESType--)| XAdES type. Default value is None(XAdES is off). |
 | [setXAdESType(XAdESType)](#setXAdESType-xadestype-)| XAdES type. Default value is None(XAdES is off). |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### constructor(number[], string, string, Date) {#constructor-numberarray-string-string-date-}
@@ -197,5 +198,14 @@ setXAdESType(value: XAdESType) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [XAdESType](../xadestype/) | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

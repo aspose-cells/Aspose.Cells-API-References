@@ -26,6 +26,7 @@ class ShapePath;
 | Method | Description |
 | --- | --- |
 | [getPathSegementList()](#getPathSegementList--)| Gets [ShapeSegmentPathCollection](../shapesegmentpathcollection/) list |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### constructor() {#constructor--}
@@ -49,5 +50,14 @@ getPathSegementList() : ShapeSegmentPathCollection;
 **Returns**
 
 [ShapeSegmentPathCollection](../shapesegmentpathcollection/)
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

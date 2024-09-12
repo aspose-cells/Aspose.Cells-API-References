@@ -22,6 +22,7 @@ class HorizontalPageBreak;
 | [getStartColumn()](#getStartColumn--)| Gets the start column index of this horizontal page break. |
 | [getEndColumn()](#getEndColumn--)| Gets the end column index of this horizontal page break. |
 | [getRow()](#getRow--)| Gets the zero based row index. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getStartColumn() {#getStartColumn--}
@@ -48,6 +49,15 @@ Gets the zero based row index.
 
 ```javascript
 getRow() : number;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

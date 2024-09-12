@@ -24,6 +24,7 @@ class Bullet;
 | [setType(BulletType)](#setType-bullettype-)| Gets and sets the type of bullet. |
 | [getFontName()](#getFontName--)| Get and sets the name of the font. |
 | [setFontName(string)](#setFontName-string-)| Get and sets the name of the font. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getBulletValue() {#getBulletValue--}
@@ -86,5 +87,14 @@ setFontName(value: string) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | string | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

@@ -30,6 +30,7 @@ class PowerQueryFormulaParameter;
 | [getValue()](#getValue--)| Gets the value of parameter. |
 | [setValue(string)](#setValue-string-)| Gets the value of parameter. |
 | [getParameterDefinition()](#getParameterDefinition--)| Gets the definition of the parameter. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### constructor() {#constructor--}
@@ -91,6 +92,15 @@ Gets the definition of the parameter.
 
 ```javascript
 getParameterDefinition() : string;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

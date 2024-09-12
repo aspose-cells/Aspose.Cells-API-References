@@ -27,6 +27,7 @@ class PageEndSavingArgs extends PageSavingArgs;
 | --- | --- |
 | [getHasMorePages()](#getHasMorePages--)| Gets or sets a value indicating whether having more pages to be output. The default value is true. |
 | [setHasMorePages(boolean)](#setHasMorePages-boolean-)| Gets or sets a value indicating whether having more pages to be output. The default value is true. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getPageIndex()](#getPageIndex--)| Current page index, zero based. |
 | [getPageCount()](#getPageCount--)| Total page count. |
 
@@ -65,6 +66,15 @@ setHasMorePages(value: boolean) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 ### getPageIndex() {#getPageIndex--}
 

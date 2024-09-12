@@ -33,6 +33,7 @@ class MsoTextFrame;
 | [setTopMarginPt(number)](#setTopMarginPt-number-)| Returns the top margin in unit of Points |
 | [getBottomMarginPt()](#getBottomMarginPt--)| Returns the bottom margin in unit of Points |
 | [setBottomMarginPt(number)](#setBottomMarginPt-number-)| Returns the bottom margin in unit of Points |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getAutoSize() {#getAutoSize--}
@@ -188,5 +189,14 @@ setBottomMarginPt(value: number) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | number | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

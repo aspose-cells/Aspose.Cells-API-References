@@ -45,6 +45,7 @@ class RenderingWatermark;
 | [setOffsetX(number)](#setOffsetX-number-)| Gets or sets offset value to [HAlignment](../halignment/) |
 | [getOffsetY()](#getOffsetY--)| Gets or sets offset value to [VAlignment](../valignment/) |
 | [setOffsetY(number)](#setOffsetY-number-)| Gets or sets offset value to [VAlignment](../valignment/) |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### constructor(number[]) {#constructor-numberarray-}
@@ -308,5 +309,14 @@ setOffsetY(value: number) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | number | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

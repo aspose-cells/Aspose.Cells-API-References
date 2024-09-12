@@ -28,6 +28,7 @@ class LegendEntry;
 | [setAutoScaleFont(boolean)](#setAutoScaleFont-boolean-)| True if the text in the object changes font size when the object size changes. The default value is True. |
 | [getBackgroundMode()](#getBackgroundMode--)| Gets and sets the display mode of the background |
 | [setBackgroundMode(BackgroundMode)](#setBackgroundMode-backgroundmode-)| Gets and sets the display mode of the background |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### isDeleted() {#isDeleted--}
@@ -134,5 +135,14 @@ setBackgroundMode(value: BackgroundMode) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [BackgroundMode](../backgroundmode/) | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

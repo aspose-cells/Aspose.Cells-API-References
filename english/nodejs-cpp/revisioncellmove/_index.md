@@ -29,6 +29,7 @@ class RevisionCellMove extends Revision;
 | [getSourceArea()](#getSourceArea--)| Gets the source area. |
 | [getDestinationArea()](#getDestinationArea--)| Gets the destination area. |
 | [getSourceWorksheet()](#getSourceWorksheet--)| Gets the source worksheet. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getWorksheet()](#getWorksheet--)| Gets the worksheet. |
 | [getId()](#getId--)| Gets the number of this revision. |
 
@@ -97,6 +98,15 @@ getSourceWorksheet() : Worksheet;
 **Returns**
 
 [Worksheet](../worksheet/)
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 ### getWorksheet() {#getWorksheet--}
 

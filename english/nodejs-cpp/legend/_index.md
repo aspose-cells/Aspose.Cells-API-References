@@ -31,6 +31,7 @@ class Legend extends ChartTextFrame;
 | [isOverLay()](#isOverLay--)| Gets or sets whether showing the legend without overlapping the chart. |
 | [setIsOverLay(boolean)](#setIsOverLay-boolean-)| Gets or sets whether showing the legend without overlapping the chart. |
 | [getLegendLabels()](#getLegendLabels--)| Gets the labels of the legend entries after call Chart.Calculate() method. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [isInnerMode()](#isInnerMode--)| Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. |
 | [setIsInnerMode(boolean)](#setIsInnerMode-boolean-)| Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. |
 | [getBackgroundMode()](#getBackgroundMode--)| Gets and sets the display mode of the background |
@@ -180,6 +181,15 @@ getLegendLabels() : string[];
 **Returns**
 
 string[]
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 ### isInnerMode() {#isInnerMode--}
 

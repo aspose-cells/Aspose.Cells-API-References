@@ -23,6 +23,7 @@ class WebExtensionProperty;
 | [setName(string)](#setName-string-)| Gets and set a custom property name. |
 | [getValue()](#getValue--)| Gets and sets a custom property value. |
 | [setValue(string)](#setValue-string-)| Gets and sets a custom property value. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getName() {#getName--}
@@ -68,5 +69,14 @@ setValue(value: string) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | string | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

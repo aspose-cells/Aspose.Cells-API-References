@@ -33,6 +33,7 @@ class OdsSaveOptions extends SaveOptions;
 | [setIsStrictSchema11(boolean)](#setIsStrictSchema11-boolean-)| Indicates whether the ods file should be saved as ODF format version 1.1. Default is false. |
 | [getOdfStrictVersion()](#getOdfStrictVersion--)| Gets and sets the ODF version. |
 | [setOdfStrictVersion(OpenDocumentFormatVersionType)](#setOdfStrictVersion-opendocumentformatversiontype-)| Gets and sets the ODF version. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getSaveFormat()](#getSaveFormat--)| Gets the save file format. |
 | [getClearData()](#getClearData--)| Make the workbook empty after saving the file. |
 | [setClearData(boolean)](#setClearData-boolean-)| Make the workbook empty after saving the file. |
@@ -174,6 +175,15 @@ setOdfStrictVersion(value: OpenDocumentFormatVersionType) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [OpenDocumentFormatVersionType](../opendocumentformatversiontype/) | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 ### getSaveFormat() {#getSaveFormat--}
 

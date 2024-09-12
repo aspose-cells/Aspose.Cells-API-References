@@ -34,6 +34,7 @@ class TextEffectFormat;
 | [getPresetShape()](#getPresetShape--)| Gets and sets the preset shape type. |
 | [setPresetShape(MsoPresetTextEffectShape)](#setPresetShape-msopresettexteffectshape-)| Gets and sets the preset shape type. |
 | [setTextEffect(MsoPresetTextEffect)](#setTextEffect-msopresettexteffect-)| Sets the preset text effect. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getText() {#getText--}
@@ -206,5 +207,14 @@ setTextEffect(effect: MsoPresetTextEffect) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | effect | [MsoPresetTextEffect](../msopresettexteffect/) | The preset text effect. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

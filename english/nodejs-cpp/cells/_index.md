@@ -77,6 +77,7 @@ class Cells;
 | [createRange(string)](#createRange-string-)| Creates a [Range](../range/) object from an address of the range. |
 | [createRange(number, number, boolean)](#createRange-number-number-boolean-)| Creates a [Range](../range/) object from rows of cells or columns of cells. |
 | [clear()](#clear--)| Clears all data of the worksheet. |
+| [importObjectArray(object[], number, number, boolean, number)](#importObjectArray-objectarray-number-number-boolean-number-)| Imports an array of data into a worksheet. |
 | [importFormulaArray(string[], number, number, boolean)](#importFormulaArray-stringarray-number-number-boolean-)| Imports an array of formula into a worksheet. |
 | [textToColumns(number, number, number, TxtLoadOptions)](#textToColumns-number-number-number-txtloadoptions-)| Splits the text in the column to columns. |
 | [importCSV(string, string, boolean, number, number)](#importCSV-string-string-boolean-number-number-)| Import a CSV file to the cells. |
@@ -154,7 +155,7 @@ class Cells;
 | [deleteBlankColumns(DeleteOptions)](#deleteBlankColumns-deleteoptions-)| Delete all blank columns which do not contain any data. |
 | [isBlankColumn(number)](#isBlankColumn-number-)| Checks whether given column is blank(does not contain any data). |
 | [deleteBlankRows()](#deleteBlankRows--)| Delete all blank rows which do not contain any data or other object. |
-| [deleteBlankRows(DeleteOptions)](#deleteBlankRows-deleteoptions-)| Delete all blank rows which do not contain any data or other object. |
+| [deleteBlankRows(DeleteOptions)](#deleteBlankRows-deleteoptions-)| Delete all blank rows which do not contain any data or some special objects such as visible comment, pivot table. |
 | [insertColumns(number, number)](#insertColumns-number-number-)| Inserts some columns into the worksheet. |
 | [insertColumns(number, number, boolean)](#insertColumns-number-number-boolean-)| Inserts some columns into the worksheet. |
 | [insertColumn(number, boolean)](#insertColumn-number-boolean-)| Inserts a new column into the worksheet. |
@@ -170,6 +171,8 @@ class Cells;
 | [clearFormats(CellArea)](#clearFormats-cellarea-)| Clears formatting of a range. |
 | [clearFormats(number, number, number, number)](#clearFormats-number-number-number-number-)| Clears formatting of a range. |
 | [linkToXmlMap(string, number, number, string)](#linkToXmlMap-string-number-number-string-)| Link to a xml map. |
+| [find(object, Cell)](#find-object-cell-)| Finds the cell containing with the input object. |
+| [find(object, Cell, FindOptions)](#find-object-cell-findoptions-)| Finds the cell containing with the input object. |
 | [endCellInRow(number)](#endCellInRow-number-)| Gets the last cell in this row. |
 | [endCellInRow(number, number, number, number)](#endCellInRow-number-number-number-number-)| Gets the last cell with maximum row index in this range. |
 | [endCellInColumn(number)](#endCellInColumn-number-)| Gets the last cell in this column. |
@@ -192,6 +195,7 @@ class Cells;
 | [getDependentsInCalculation(number, number, boolean)](#getDependentsInCalculation-number-number-boolean-)| Gets all cells whose calculated result depends on specific cell. |
 | [getCellsWithPlaceInCellPicture()](#getCellsWithPlaceInCellPicture--)| Gets all cells that contain embedded picture. |
 | [getCellStyle(number, number)](#getCellStyle-number-number-)| Get the style of given cell. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### get(number, number) {#get-number-number-}
@@ -968,6 +972,23 @@ Clears all data of the worksheet.
 clear() : void;
 ```
 
+
+### importObjectArray(object[], number, number, boolean, number) {#importObjectArray-objectarray-number-number-boolean-number-}
+
+Imports an array of data into a worksheet.
+
+```javascript
+importObjectArray(objArray: object[], firstRow: number, firstColumn: number, isVertical: boolean, skip: number) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| objArray | object[] | Data array. |
+| firstRow | number | The row number of the first cell to import in. |
+| firstColumn | number | The column number of the first cell to import in. |
+| isVertical | boolean | Specifies to import data vertically or horizontally. |
+| skip | number | Skipped number of rows or columns. |
 
 ### importFormulaArray(string[], number, number, boolean) {#importFormulaArray-stringarray-number-number-boolean-}
 
@@ -2185,7 +2206,7 @@ deleteBlankRows() : void;
 
 ### deleteBlankRows(DeleteOptions) {#deleteBlankRows-deleteoptions-}
 
-Delete all blank rows which do not contain any data or other object.
+Delete all blank rows which do not contain any data or some special objects such as visible comment, pivot table.
 
 ```javascript
 deleteBlankRows(options: DeleteOptions) : void;
@@ -2415,6 +2436,51 @@ linkToXmlMap(mapName: string, row: number, column: number, path: string) : void;
 | row | number | row of the destination cell |
 | column | number | column of the destination cell |
 | path | string | path of xml element in xml map |
+
+### find(object, Cell) {#find-object-cell-}
+
+Finds the cell containing with the input object.
+
+```javascript
+find(what: object, previousCell: Cell) : Cell;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| what | object | The object to search for.         /// The type should be int,double,DateTime,string,bool. |
+| previousCell | [Cell](../cell/) | Previous cell with the same object.          /// This parameter can be set to null if searching from the start. |
+
+**Returns**
+
+Cell object.
+
+**Remarks**
+
+Returns null (Nothing) if no cell is found.
+
+### find(object, Cell, FindOptions) {#find-object-cell-findoptions-}
+
+Finds the cell containing with the input object.
+
+```javascript
+find(what: object, previousCell: Cell, findOptions: FindOptions) : Cell;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| what | object | The object to search for.         /// The type should be int,double,DateTime,string,bool. |
+| previousCell | [Cell](../cell/) | Previous cell with the same object.          /// This parameter can be set to null if searching from the start. |
+| findOptions | [FindOptions](../findoptions/) | Find options |
+
+**Returns**
+
+Cell object.
+
+**Remarks**
+
+Returns null (Nothing) if no cell is found.
 
 ### endCellInRow(number) {#endCellInRow-number-}
 
@@ -2772,5 +2838,14 @@ getCellStyle(row: number, column: number) : Style;
 **Returns**
 
 the style of given cell.
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

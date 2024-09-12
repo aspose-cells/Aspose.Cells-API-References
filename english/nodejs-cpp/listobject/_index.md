@@ -54,6 +54,8 @@ class ListObject;
 | [getAlternativeDescription()](#getAlternativeDescription--)| Gets and sets the alternative description. |
 | [setAlternativeDescription(string)](#setAlternativeDescription-string-)| Gets and sets the alternative description. |
 | [resize(number, number, number, number, boolean)](#resize-number-number-number-number-boolean-)| Resize the range of the list object. |
+| [putCellValue(number, number, object)](#putCellValue-number-number-object-)| Put the value to the cell. |
+| [putCellValue(number, number, object, boolean)](#putCellValue-number-number-object-boolean-)| Put the value to the cell. |
 | [putCellFormula(number, number, string)](#putCellFormula-number-number-string-)| Put the formula to the cell in the table. |
 | [putCellFormula(number, number, string, boolean)](#putCellFormula-number-number-string-boolean-)| Put the formula to the cell in the table. |
 | [updateColumnName()](#updateColumnName--)| Updates all list columns' name from the worksheet. |
@@ -61,6 +63,7 @@ class ListObject;
 | [applyStyleToRange()](#applyStyleToRange--)| Apply the table style to the range. |
 | [convertToRange()](#convertToRange--)| Convert the table to range. |
 | [convertToRange(TableToRangeOptions)](#convertToRange-tabletorangeoptions-)| Convert the table to range. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getStartRow() {#getStartRow--}
@@ -462,6 +465,37 @@ resize(startRow: number, startColumn: number, endRow: number, endColumn: number,
 | endColumn | number | The end column index of the new range. |
 | hasHeaders | boolean | Whether this table has headers. |
 
+### putCellValue(number, number, object) {#putCellValue-number-number-object-}
+
+Put the value to the cell.
+
+```javascript
+putCellValue(rowOffset: number, columnOffset: number, value: object) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| rowOffset | number | The row offset in the table. |
+| columnOffset | number | The column offset in the table. |
+| value | object | The cell value. |
+
+### putCellValue(number, number, object, boolean) {#putCellValue-number-number-object-boolean-}
+
+Put the value to the cell.
+
+```javascript
+putCellValue(rowOffset: number, columnOffset: number, value: object, isTotalsRowLabel: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| rowOffset | number | The row offset in the table. |
+| columnOffset | number | The column offset in the table. |
+| value | object | The cell value. |
+| isTotalsRowLabel | boolean | Indicates whether it is a label for total row,only works for total row.         /// If False and this row is total row, a new row will be inserted. |
+
 ### putCellFormula(number, number, string) {#putCellFormula-number-number-string-}
 
 Put the formula to the cell in the table.
@@ -549,5 +583,14 @@ convertToRange(options: TableToRangeOptions) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | options | [TableToRangeOptions](../tabletorangeoptions/) | the options when converting table to range. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

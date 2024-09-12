@@ -27,6 +27,7 @@ class Format3D;
 | [getLightingAngle()](#getLightingAngle--)| Gets and sets the lighting angle. Range from 0 to 359.9 degrees. |
 | [setLightingAngle(number)](#setLightingAngle-number-)| Gets and sets the lighting angle. Range from 0 to 359.9 degrees. |
 | [hasTopBevelData()](#hasTopBevelData--)| Indicates if the shape has top bevel data. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getTopBevel() {#getTopBevel--}
@@ -122,6 +123,15 @@ Indicates if the shape has top bevel data.
 
 ```javascript
 hasTopBevelData() : boolean;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

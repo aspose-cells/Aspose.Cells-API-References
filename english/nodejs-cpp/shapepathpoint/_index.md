@@ -23,6 +23,7 @@ class ShapePathPoint;
 | [setX(number)](#setX-number-)| Gets and sets x coordinate for this position coordinate. |
 | [getY()](#getY--)| Gets y coordinate for this position coordinate. |
 | [setY(number)](#setY-number-)| Gets y coordinate for this position coordinate. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getX() {#getX--}
@@ -68,5 +69,14 @@ setY(value: number) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | number | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

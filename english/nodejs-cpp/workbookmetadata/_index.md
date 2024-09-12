@@ -31,6 +31,7 @@ class WorkbookMetadata;
 | [getCustomDocumentProperties()](#getCustomDocumentProperties--)| Returns a [DocumentProperty](../documentproperty/) collection that represents all the custom document properties of the spreadsheet. |
 | [save(string)](#save-string-)| Save the modified metadata to the file. |
 | [save(Uint8Array)](#save-uint8array-)| Save the modified metadata to the stream. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### constructor(string, MetadataOptions) {#constructor-string-metadataoptions-}
@@ -125,5 +126,14 @@ save(stream: Uint8Array) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | Uint8Array | The stream. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

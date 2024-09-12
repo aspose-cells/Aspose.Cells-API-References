@@ -19,7 +19,7 @@ class DateTimeGroupItem;
 
 | Name | Description |
 | --- | --- |
-| [constructor(IObject)](#constructor-iobject-)| Constructs from an IObject convertible to this. |
+| [constructor(Object)](#constructor-object-)| Constructs from an Object convertible to this. |
 | [constructor(DateTimeGroupingType, number, number, number, number, number, number)](#constructor-datetimegroupingtype-number-number-number-number-number-number-)|  |
 
 ## Methods
@@ -41,20 +41,22 @@ class DateTimeGroupItem;
 | [setMinute(number)](#setMinute-number-)| Gets and sets the minute of the grouped date time. |
 | [getSecond()](#getSecond--)| Gets and sets the second of the grouped date time. |
 | [setSecond(number)](#setSecond-number-)| Gets and sets the second of the grouped date time. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
+| [toObject()](#toObject--)| Gets the Object. |
 
 
-### constructor(IObject) {#constructor-iobject-}
+### constructor(Object) {#constructor-object-}
 
-Constructs from an IObject convertible to this.
+Constructs from an Object convertible to this.
 
 ```javascript
-constructor(obj: IObject);
+constructor(obj: Object);
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | IObject | The object. |
+| obj | Object | The object. |
 
 ### constructor(DateTimeGroupingType, number, number, number, number, number, number) {#constructor-datetimegroupingtype-number-number-number-number-number-number-}
 
@@ -241,5 +243,27 @@ setSecond(value: number) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | number | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
+
+### toObject() {#toObject--}
+
+Gets the Object.
+
+```javascript
+toObject() : Object;
+```
+
+
+**Returns**
+
+[Object](../object/)
 
 

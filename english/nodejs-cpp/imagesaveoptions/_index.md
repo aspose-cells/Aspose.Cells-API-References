@@ -28,6 +28,7 @@ class ImageSaveOptions extends SaveOptions;
 | Method | Description |
 | --- | --- |
 | [getImageOrPrintOptions()](#getImageOrPrintOptions--)| Additional image creation options. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getSaveFormat()](#getSaveFormat--)| Gets the save file format. |
 | [getClearData()](#getClearData--)| Make the workbook empty after saving the file. |
 | [setClearData(boolean)](#setClearData-boolean-)| Make the workbook empty after saving the file. |
@@ -108,6 +109,15 @@ getImageOrPrintOptions() : ImageOrPrintOptions;
 **Remarks**
 
 For advanced usage, please use [WorkbookRender](../workbookrender/) or [WorkbookRender](../workbookrender/).
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 ### getSaveFormat() {#getSaveFormat--}
 

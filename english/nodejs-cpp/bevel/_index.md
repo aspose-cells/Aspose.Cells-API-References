@@ -25,6 +25,7 @@ class Bevel;
 | [setHeight(number)](#setHeight-number-)| Gets and sets the height of the bevel, or how far above the shape it is applied. In unit of Points. |
 | [getType()](#getType--)| Gets and sets the preset bevel type. |
 | [setType(BevelPresetType)](#setType-bevelpresettype-)| Gets and sets the preset bevel type. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getWidth() {#getWidth--}
@@ -96,5 +97,14 @@ setType(value: BevelPresetType) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [BevelPresetType](../bevelpresettype/) | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

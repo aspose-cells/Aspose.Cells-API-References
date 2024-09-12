@@ -26,6 +26,7 @@ class WorkbookPrintingPreview;
 | Method | Description |
 | --- | --- |
 | [getEvaluatedPageCount()](#getEvaluatedPageCount--)| Evaluate the total page count of this workbook |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### constructor(Workbook, ImageOrPrintOptions) {#constructor-workbook-imageorprintoptions-}
@@ -48,6 +49,15 @@ Evaluate the total page count of this workbook
 
 ```javascript
 getEvaluatedPageCount() : number;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

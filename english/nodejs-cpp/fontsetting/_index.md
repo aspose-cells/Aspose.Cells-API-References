@@ -30,6 +30,7 @@ class FontSetting;
 | [getFont()](#getFont--)| Returns the font of this object. |
 | [getTextOptions()](#getTextOptions--)| Returns the text options. |
 | [setWordArtStyle(PresetWordArtStyle)](#setWordArtStyle-presetwordartstyle-)| Sets the preset WordArt style. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getType()](#getType--)| Gets the type of text node. |
 
 
@@ -108,6 +109,15 @@ setWordArtStyle(style: PresetWordArtStyle) : void;
 **Remarks**
 
 Only for the text of shape/chart.
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 ### getType() {#getType--}
 

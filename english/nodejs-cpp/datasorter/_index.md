@@ -43,10 +43,12 @@ class DataSorter;
 | [clear()](#clear--)| Clear all settings. |
 | [addKey(number, SortOrder)](#addKey-number-sortorder-)| Adds sorted column index and sort order. |
 | [addKey(number, SortOrder, string)](#addKey-number-sortorder-string-)| Adds sorted column index and sort order with custom sort list. |
+| [addKey(number, SortOnType, SortOrder, object)](#addKey-number-sortontype-sortorder-object-)| Adds sorted column index and sort order with custom sort list. |
 | [addKey(number, SortOrder, string[])](#addKey-number-sortorder-stringarray-)| Adds sorted column index and sort order with custom sort list. |
 | [sort(Cells, number, number, number, number)](#sort-cells-number-number-number-number-)| Sorts the data of the area. |
 | [sort(Cells, CellArea)](#sort-cells-cellarea-)| Sort the data of the area. |
 | [sort()](#sort--)| Sort the data in the range. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getKeys() {#getKeys--}
@@ -332,6 +334,26 @@ addKey(key: number, order: SortOrder, customList: string) : void;
 | order | [SortOrder](../sortorder/) | The sort order. |
 | customList | string | The custom sort list. |
 
+### addKey(number, SortOnType, SortOrder, object) {#addKey-number-sortontype-sortorder-object-}
+
+Adds sorted column index and sort order with custom sort list.
+
+```javascript
+addKey(key: number, type: SortOnType, order: SortOrder, customList: object) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| key | number | The sorted column index(absolute position, column A is 0, B is 1, ...) |
+| type | [SortOnType](../sortontype/) | The sorted value type. |
+| order | [SortOrder](../sortorder/) | The sort order. |
+| customList | object | The custom sort list. |
+
+**Remarks**
+
+If type is SortOnType.CellColor or SortOnType.FontColor, the customList is Color.
+
 ### addKey(number, SortOrder, string[]) {#addKey-number-sortorder-stringarray-}
 
 Adds sorted column index and sort order with custom sort list.
@@ -398,5 +420,14 @@ sort() : number[];
 **Returns**
 
 the original indices(absolute position, for example, column A is 0, B is 1, ...) of the sorted rows/columns. If no rows/columns needs to be moved by this sorting operation, null will be returned.
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

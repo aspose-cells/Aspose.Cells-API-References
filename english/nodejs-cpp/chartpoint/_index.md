@@ -27,7 +27,11 @@ class ChartPoint;
 | [getArea()](#getArea--)| Gets the <see cref="Area"> area</see>. |
 | [getMarker()](#getMarker--)| Gets the <see cref="Marker"> marker</see>. |
 | [getDataLabels()](#getDataLabels--)| Returns a [DataLabels](../datalabels/) object that represents the data label associated with this chart point. |
+| [get_YValue()](#get_YValue--)| Gets or sets the Y value of the chart point. |
+| [setYValue(object)](#setYValue-object-)| Gets or sets the Y value of the chart point. |
 | [getYValueType()](#getYValueType--)| Gets Y value type of the chart point. |
+| [getXValue()](#getXValue--)| Gets or sets the X value of the chart point. |
+| [setXValue(object)](#setXValue-object-)| Gets or sets the X value of the chart point. |
 | [getXValueType()](#getXValueType--)| Gets X value type of the chart point. |
 | [getShapeProperties()](#getShapeProperties--)| Gets the [ShapePropertyCollection](../shapepropertycollection/) object that holds the visual shape properties of the ChartPoint. |
 | [isInSecondaryPlot()](#isInSecondaryPlot--)| Gets or sets a value indicates whether this data points is in the second pie or bar on a pie of pie or bar of pie chart |
@@ -63,6 +67,7 @@ class ChartPoint;
 | [getOnCategoryAxisPointCount()](#getOnCategoryAxisPointCount--)| Gets the number of the points on category axis after calls Chart.Calculate() method. Only applies to area chart. |
 | [getOnCategoryAxisPointXPx(number)](#getOnCategoryAxisPointXPx-number-)| Gets x-coordinate of the point on category axis after calls Chart.Calculate() method. Only applies to Area chart. |
 | [getOnCategoryAxisPointYPx(number)](#getOnCategoryAxisPointYPx-number-)| Gets y-coordinate of the point on category axis after calls Chart.Calculate() method. Only applies to Area chart. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getExplosion() {#getExplosion--}
@@ -161,6 +166,28 @@ getDataLabels() : DataLabels;
 
 [DataLabels](../datalabels/)
 
+### get_YValue() {#get_YValue--}
+
+Gets or sets the Y value of the chart point.
+
+```javascript
+get_YValue() : object;
+```
+
+
+### setYValue(object) {#setYValue-object-}
+
+Gets or sets the Y value of the chart point.
+
+```javascript
+setYValue(value: object) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | object | The value to set. |
+
 ### getYValueType() {#getYValueType--}
 
 Gets Y value type of the chart point.
@@ -173,6 +200,28 @@ getYValueType() : CellValueType;
 **Returns**
 
 [CellValueType](../cellvaluetype/)
+
+### getXValue() {#getXValue--}
+
+Gets or sets the X value of the chart point.
+
+```javascript
+getXValue() : object;
+```
+
+
+### setXValue(object) {#setXValue-object-}
+
+Gets or sets the X value of the chart point.
+
+```javascript
+setXValue(value: object) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | object | The value to set. |
 
 ### getXValueType() {#getXValueType--}
 
@@ -540,5 +589,14 @@ getOnCategoryAxisPointYPx(index: number) : number;
 **Remarks**
 
 Area 2D chart: index is 0. Area 3D chart: index is 0 or 1.
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

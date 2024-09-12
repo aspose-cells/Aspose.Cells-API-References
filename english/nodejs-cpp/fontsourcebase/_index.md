@@ -19,7 +19,17 @@ class FontSourceBase;
 
 | Method | Description |
 | --- | --- |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getType()](#getType--)| Returns the type of the font source. |
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
 
 
 ### getType() {#getType--}

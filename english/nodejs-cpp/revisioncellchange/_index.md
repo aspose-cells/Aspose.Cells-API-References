@@ -32,9 +32,12 @@ class RevisionCellChange extends Revision;
 | [isNewFormatted()](#isNewFormatted--)| Indicates whether this cell is new formatted. |
 | [isOldFormatted()](#isOldFormatted--)| Indicates whether this cell is old formatted. |
 | [getOldFormula()](#getOldFormula--)| Gets the old formula. |
+| [getOldValue()](#getOldValue--)| Gets old value of the cell. |
+| [getNewValue()](#getNewValue--)| Gets new value of the cell. |
 | [getNewFormula()](#getNewFormula--)| Gets the old formula. |
 | [getNewStyle()](#getNewStyle--)| Gets the new style of the cell. |
 | [getOldStyle()](#getOldStyle--)| Gets the old style of the cell. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getWorksheet()](#getWorksheet--)| Gets the worksheet. |
 | [getId()](#getId--)| Gets the number of this revision. |
 
@@ -119,6 +122,24 @@ getOldFormula() : string;
 ```
 
 
+### getOldValue() {#getOldValue--}
+
+Gets old value of the cell.
+
+```javascript
+getOldValue() : object;
+```
+
+
+### getNewValue() {#getNewValue--}
+
+Gets new value of the cell.
+
+```javascript
+getNewValue() : object;
+```
+
+
 ### getNewFormula() {#getNewFormula--}
 
 Gets the old formula.
@@ -153,6 +174,15 @@ getOldStyle() : Style;
 **Returns**
 
 [Style](../style/)
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 ### getWorksheet() {#getWorksheet--}
 

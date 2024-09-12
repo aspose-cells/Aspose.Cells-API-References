@@ -27,6 +27,7 @@ class PivotShowValuesSetting;
 | [setBaseItemPositionType(PivotItemPositionType)](#setBaseItemPositionType-pivotitempositiontype-)| Represents type of the base pivot item in the base field when the ShowDataAs calculation is in use. Valid only for data fields. Because PivotItemPosition.Custom is only for read,if you need to set PivotItemPosition.Custom, please set PivotField.BaseItemIndex attribute. |
 | [getBaseItemIndex()](#getBaseItemIndex--)| Represents the custom index of the pivot item in the base field when the ShowDataAs calculation is in use. Valid only for data fields. |
 | [setBaseItemIndex(number)](#setBaseItemIndex-number-)| Represents the custom index of the pivot item in the base field when the ShowDataAs calculation is in use. Valid only for data fields. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getCalculationType() {#getCalculationType--}
@@ -124,5 +125,14 @@ setBaseItemIndex(value: number) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | number | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

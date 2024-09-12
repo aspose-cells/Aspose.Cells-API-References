@@ -22,6 +22,7 @@ class RangeCollection;
 | [get(number)](#get-number-)| Gets the [Range](../range/) element at the specified index. |
 | [add(Range)](#add-range-)| Adds a [Range](../range/) item to the collection. |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### get(number) {#get-number-}
@@ -60,6 +61,15 @@ Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

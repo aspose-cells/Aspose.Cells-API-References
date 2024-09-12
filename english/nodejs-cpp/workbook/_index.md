@@ -80,6 +80,8 @@ The Workbook class denotes an Excel spreadsheet. Each spreadsheet can contain mu
 | [replace(string, string[], boolean)](#replace-string-stringarray-boolean-)| Replaces a cell's value with a new string array. |
 | [replace(string, number[], boolean)](#replace-string-numberarray-boolean-)| Replaces cells' values with an integer array. |
 | [replace(string, number[], boolean)](#replace-string-numberarray-boolean-)| Replaces cells' values with a double array. |
+| [replace(boolean, object)](#replace-boolean-object-)| Replaces cells' values with new data. |
+| [replace(number, object)](#replace-number-object-)| Replaces cells' values with new data. |
 | [replace(string, string, ReplaceOptions)](#replace-string-string-replaceoptions-)| Replaces a cell's value with a new string. |
 | [copy(Workbook, CopyOptions)](#copy-workbook-copyoptions-)| Copies another Workbook object. |
 | [copy(Workbook)](#copy-workbook-)| Copies data from a source Workbook object. |
@@ -119,6 +121,7 @@ The Workbook class denotes an Excel spreadsheet. Each spreadsheet can contain mu
 | [getDigitalSignature()](#getDigitalSignature--)| Gets digital signature from file. |
 | [removePersonalInformation()](#removePersonalInformation--)| Removes personal information. |
 | [dispose()](#dispose--)| Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### constructor() {#constructor--}
@@ -848,6 +851,34 @@ replace(placeHolder: string, newValues: number[], isVertical: boolean) : number;
 | newValues | number[] | Double array to replace |
 | isVertical | boolean | True - Vertical, False - Horizontal |
 
+### replace(boolean, object) {#replace-boolean-object-}
+
+Replaces cells' values with new data.
+
+```javascript
+replace(boolValue: boolean, newValue: object) : number;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| boolValue | boolean | The boolean value to be replaced. |
+| newValue | object | New value. Can be string, integer, double or DateTime value. |
+
+### replace(number, object) {#replace-number-object-}
+
+Replaces cells' values with new data.
+
+```javascript
+replace(intValue: number, newValue: object) : number;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| intValue | number | The integer value to be replaced. |
+| newValue | object | New value. Can be string, integer, double or DateTime value. |
+
 ### replace(string, string, ReplaceOptions) {#replace-string-string-replaceoptions-}
 
 Replaces a cell's value with a new string.
@@ -1412,6 +1443,15 @@ Performs application-defined tasks associated with freeing, releasing, or resett
 
 ```javascript
 dispose() : void;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

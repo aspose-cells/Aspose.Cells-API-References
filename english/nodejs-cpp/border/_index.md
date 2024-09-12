@@ -27,6 +27,7 @@ class Border;
 | [setArgbColor(number)](#setArgbColor-number-)| Gets and sets the color with a 32-bit ARGB value. |
 | [getLineStyle()](#getLineStyle--)| Gets or sets the cell border type. |
 | [setLineStyle(CellBorderType)](#setLineStyle-cellbordertype-)| Gets or sets the cell border type. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getThemeColor() {#getThemeColor--}
@@ -128,5 +129,14 @@ setLineStyle(value: CellBorderType) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [CellBorderType](../cellbordertype/) | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

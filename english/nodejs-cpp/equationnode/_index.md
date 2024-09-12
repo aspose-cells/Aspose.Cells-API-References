@@ -29,8 +29,8 @@ class EquationNode extends FontSetting;
 | [setParentNode(EquationNode)](#setParentNode-equationnode-)| Specifies the parent node of the current node |
 | [getType()](#getType--)| Represents the type of the node. |
 | [getEquationType()](#getEquationType--)| Get the equation type of the current node |
-| [toLaTeX()](#toLaTeX--)| Conver this equtation to LaTeX expression. |
-| [toMathML()](#toMathML--)| Conver this equtation to MathML expression. |
+| [toLaTeX()](#toLaTeX--)| Convert this equtation to LaTeX expression. |
+| [toMathML()](#toMathML--)| Convert this equtation to MathML expression. |
 | [addChild(EquationNodeType)](#addChild-equationnodetype-)| Insert a node of the specified type at the end of the child node list of the current node. |
 | [addChild(EquationNode)](#addChild-equationnode-)| Inserts the specified node at the end of the current node's list of child nodes. |
 | [insertChild(number, EquationNodeType)](#insertChild-number-equationnodetype-)| Inserts a node of the specified type at the specified index position in the current node's child node list. |
@@ -41,6 +41,8 @@ class EquationNode extends FontSetting;
 | [removeChild(EquationNode)](#removeChild-equationnode-)| Removes the specified node from the current node's children. |
 | [removeChild(number)](#removeChild-number-)| Removes the node at the specified index from the current node's children. |
 | [removeAllChildren()](#removeAllChildren--)| Removes all the child nodes of the current node. |
+| [equals(object)](#equals-object-)| Determine whether the current equation node is equal to the specified node |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getStartIndex()](#getStartIndex--)| Gets the start index of the characters. |
 | [getLength()](#getLength--)| Gets the length of the characters. |
 | [getFont()](#getFont--)| Returns the font of this object. |
@@ -116,7 +118,7 @@ getEquationType() : EquationNodeType;
 
 ### toLaTeX() {#toLaTeX--}
 
-Conver this equtation to LaTeX expression.
+Convert this equtation to LaTeX expression.
 
 ```javascript
 toLaTeX() : string;
@@ -125,7 +127,7 @@ toLaTeX() : string;
 
 ### toMathML() {#toMathML--}
 
-Conver this equtation to MathML expression.
+Convert this equtation to MathML expression.
 
 ```javascript
 toMathML() : string;
@@ -272,6 +274,28 @@ Removes all the child nodes of the current node.
 
 ```javascript
 removeAllChildren() : void;
+```
+
+
+### equals(object) {#equals-object-}
+
+Determine whether the current equation node is equal to the specified node
+
+```javascript
+equals(obj: object) : boolean;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | object | The specified node |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

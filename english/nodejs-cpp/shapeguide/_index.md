@@ -27,6 +27,7 @@ class ShapeGuide extends BaseShapeGuide;
 | --- | --- |
 | [getValue()](#getValue--)| Gets or sets value of this guide |
 | [setValue(number)](#setValue-number-)| Gets or sets value of this guide |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### constructor(BaseShapeGuide) {#constructor-baseshapeguide-}
@@ -63,5 +64,14 @@ setValue(value: number) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | number | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

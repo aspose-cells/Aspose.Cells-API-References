@@ -26,6 +26,7 @@ class HyperlinkCollection;
 | [removeAt(number)](#removeAt-number-)| Remove the hyperlink  at the specified index in this collection. |
 | [clear()](#clear--)| Clears all hyperlinks. |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### get(number) {#get-number-}
@@ -135,6 +136,15 @@ Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

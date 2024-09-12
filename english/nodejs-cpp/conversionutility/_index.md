@@ -19,7 +19,17 @@ class ConversionUtility;
 
 | Method | Description |
 | --- | --- |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | static [convert(string, string)](#convert-string-string-)| Converts Excel files to other formats. |
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
 
 
 ### convert(string, string) {#convert-string-string-}

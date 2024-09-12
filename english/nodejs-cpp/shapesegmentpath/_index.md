@@ -21,6 +21,7 @@ class ShapeSegmentPath;
 | --- | --- |
 | [getType()](#getType--)| Gets the path segment type |
 | [getPoints()](#getPoints--)| Gets the points in path segment |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getType() {#getType--}
@@ -48,5 +49,14 @@ getPoints() : ShapePathPointCollection;
 **Returns**
 
 [ShapePathPointCollection](../shapepathpointcollection/)
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

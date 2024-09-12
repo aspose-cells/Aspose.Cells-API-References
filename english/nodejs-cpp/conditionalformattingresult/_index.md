@@ -24,6 +24,7 @@ class ConditionalFormattingResult;
 | [getConditionalFormattingDataBar()](#getConditionalFormattingDataBar--)| Gets the DataBar object. |
 | [getConditionalFormattingColorScale()](#getConditionalFormattingColorScale--)| Gets the ColorScale object. |
 | [getColorScaleResult()](#getColorScaleResult--)| Gets the display color of color scale. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getConditionalStyle() {#getConditionalStyle--}
@@ -90,5 +91,14 @@ getColorScaleResult() : Color;
 **Returns**
 
 [Color](../color/)
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

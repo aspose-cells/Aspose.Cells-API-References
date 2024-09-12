@@ -26,6 +26,7 @@ class CellsFactory;
 | Method | Description |
 | --- | --- |
 | [createStyle()](#createStyle--)| Creates a new style. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### constructor() {#constructor--}
@@ -49,5 +50,14 @@ createStyle() : Style;
 **Returns**
 
 Returns a style object.
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

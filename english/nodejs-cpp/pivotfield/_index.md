@@ -96,7 +96,7 @@ class PivotField;
 | [groupBy(number, number, number, boolean)](#groupBy-number-number-number-boolean-)| Group the file by number. |
 | [groupBy(CustomPiovtFieldGroupItem[], boolean)](#groupBy-custompiovtfieldgroupitemarray-boolean-)| Custom group the field. |
 | [ungroup()](#ungroup--)| Ungroup the pivot field. |
-| [getCalculatedFieldFormula()](#getCalculatedFieldFormula--)| Get the formula string of the specified calculated field . |
+| [getFormula()](#getFormula--)| Gets formula of the calculated field . |
 | [setSubtotals(PivotFieldSubtotalType, boolean)](#setSubtotals-pivotfieldsubtotaltype-boolean-)| Sets whether the specified field shows that subtotals. |
 | [getSubtotals(PivotFieldSubtotalType)](#getSubtotals-pivotfieldsubtotaltype-)| Indicates whether showing specified subtotal. |
 | [sortBy(SortOrder, number)](#sortBy-sortorder-number-)| Sorts this pivot field. |
@@ -109,6 +109,7 @@ class PivotField;
 | [hideItemDetail(number, boolean)](#hideItemDetail-number-boolean-)| Sets whether the specific PivotItem in a pivot field is hidden detail. |
 | [hideDetail(boolean)](#hideDetail-boolean-)| Sets whether the PivotItems in a pivot field is hidden detail.That is collapse/expand this field. |
 | [addCalculatedItem(string, string)](#addCalculatedItem-string-string-)| Add a calculated formula item to the pivot field. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getPivotItems() {#getPivotItems--}
@@ -1001,12 +1002,12 @@ ungroup() : void;
 ```
 
 
-### getCalculatedFieldFormula() {#getCalculatedFieldFormula--}
+### getFormula() {#getFormula--}
 
-Get the formula string of the specified calculated field .
+Gets formula of the calculated field .
 
 ```javascript
-getCalculatedFieldFormula() : string;
+getFormula() : string;
 ```
 
 
@@ -1197,5 +1198,14 @@ addCalculatedItem(name: string, formula: string) : void;
 **Remarks**
 
 Only supports to add calculated item to Row/Column field.
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

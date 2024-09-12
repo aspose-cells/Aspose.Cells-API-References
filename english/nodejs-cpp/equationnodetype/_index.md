@@ -1,13 +1,13 @@
 ﻿---
 title: EquationNodeType
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Equation node type. Notice 1199 Currently there is only one node in the scope and its enumeration value is 1. The node it specifies is used to store mathematical text. 2100199 Indicates that the node is a component of some special function nodes. 3200 Indicates that the node has some special functionsUsually with Equation suffix. EquationParagraph is a special case..
+description: Equation node type. Notice 1199 Currently there is only one node in the scope and its enumeration value is 1. The node it specifies is used to store mathematical text. 2100199 Indicates that the node is a component of some special function nodes. 3200 Indicates that the node has some special functions.
 type: docs
 url: /nodejs-cpp/equationnodetype/
 ---
 
 ## EquationNodeType enumeration
-Equation node type. Notice: (1)[1-99] Currently there is only one node in the scope, and its enumeration value is 1. The node it specifies is used to store mathematical text. (2)[100-199] Indicates that the node is a component of some special function nodes. (3)[200-] Indicates that the node has some special functions(Usually with 'Equation' suffix. 'EquationParagraph' is a special case.).
+Equation node type. Notice: (1)[1-99] Currently there is only one node in the scope, and its enumeration value is 1. The node it specifies is used to store mathematical text. (2)[100-199] Indicates that the node is a component of some special function nodes. (3)[200-] Indicates that the node has some special functions.
 ### Values
 | Name | Value | Description |
 | --- | --- | --- |
@@ -21,7 +21,7 @@ Equation node type. Notice: (1)[1-99] Currently there is only one node in the sc
 | Superscript | `105` | Specifies a Superscript component |
 | Degree | `106` | Specifies a Degree component |
 | MatrixRow | `107` | Specifies a MatrixRow component.A single row of the matrix |
-| Limit | `108` | If the parent object is limLow,the object of this type specifies the lower limit of the limLow function; if the parent objectis limUpp, the object of this type specifies the Upper-Limit function, consisting of text on the baseline and reduced-size text just above the baseline. |
+| Limit | `108` | Represents a sub-object of Lower-Limit function or Upper-Limit function |
 | EquationParagraph | `200` | Specifies a mathematical paragraph(oMathPara). |
 | MathematicalEquation | `201` | Specifies an equation or mathematical expression(OMath). |
 | FractionEquation | `202` | Specifies fractional equation |
@@ -41,4 +41,21 @@ Equation node type. Notice: (1)[1-99] Currently there is only one node in the sc
 | MatrixEquation | `216` | Specifies the Matrix equation, |
 | LowerLimit | `217` | Specifies the Lower-Limit function |
 | UpperLimit | `218` | Specifies the Upper-Limit function |
+| Mathematical | `201` | Specifies an equation or mathematical expression(OMath). |
+| Fraction | `202` | Specifies fractional equation |
+| Function | `203` | Specifies function equation |
+| Delimiter | `204` | Specifies delimiter equation |
+| Nary | `205` | Specifies n-ary operator equation |
+| Radical | `206` | Specifies the radical equation |
+| Sup | `207` | Specifies superscript equation |
+| Sub | `208` | Specifies subscript equation |
+| SubSup | `209` | Specifies an equation with superscripts and subscripts to the right of the operands. |
+| PreSubSup | `210` | Specifies an equation with superscripts and subscripts to the left of the operands. |
+| Accent | `211` | Specifies accent equation |
+| Bar | `212` | Specifies bar equation |
+| BorderBox | `213` | Specifies border box equation |
+| Box | `214` | Specifies box equation |
+| GroupChr | `215` | Specifies Group-Character equation |
+| Matrix | `216` | Specifies the Matrix equation, |
+| ArrayEquation | `317` | Specifies the Equation-Array function. The function consists of one or more equations. |
 

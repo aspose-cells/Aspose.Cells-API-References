@@ -60,6 +60,7 @@ class SettableGlobalizationSettings;
 | [setStandardHeaderFooterFontStyleName(string, string)](#setStandardHeaderFooterFontStyleName-string-string-)| Sets the locale dependent function name according to given standard function name. |
 | [getCommentTitleName(CommentTitleType)](#getCommentTitleName-commenttitletype-)| Gets the locale dependent comment title name according to comment title type. |
 | [setCommentTitleName(CommentTitleType, string)](#setCommentTitleName-commenttitletype-string-)| Gets the locale dependent comment title name according to comment title type. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### constructor() {#constructor--}
@@ -566,5 +567,14 @@ setCommentTitleName(type: CommentTitleType, name: string) : void;
 | --- | --- | --- |
 | type | [CommentTitleType](../commenttitletype/) | type of comment title |
 | name | string | locale dependent comment title name |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

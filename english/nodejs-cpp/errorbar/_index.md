@@ -37,6 +37,7 @@ class ErrorBar extends Line;
 | [setPlusValue(string)](#setPlusValue-string-)| Represents positive error amount when error bar type is Custom. |
 | [getMinusValue()](#getMinusValue--)| Represents negative error amount when error bar type is Custom. |
 | [setMinusValue(string)](#setMinusValue-string-)| Represents negative error amount when error bar type is Custom. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getCompoundType()](#getCompoundType--)| Specifies the compound line type |
 | [setCompoundType(MsoLineStyle)](#setCompoundType-msolinestyle-)| Specifies the compound line type |
 | [getDashType()](#getDashType--)| Specifies the dash line type |
@@ -241,6 +242,15 @@ setMinusValue(value: string) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | string | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 ### getCompoundType() {#getCompoundType--}
 

@@ -31,6 +31,7 @@ class WebExtensionBinding;
 | [setType(string)](#setType-string-)| Gets and sets the binding type. |
 | [getAppref()](#getAppref--)| Gets and sets the binding key used to map the binding entry in this list with the bound data in the document. |
 | [setAppref(string)](#setAppref-string-)| Gets and sets the binding key used to map the binding entry in this list with the bound data in the document. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### constructor() {#constructor--}
@@ -107,5 +108,14 @@ setAppref(value: string) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | string | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

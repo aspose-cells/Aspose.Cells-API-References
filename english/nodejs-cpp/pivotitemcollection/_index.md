@@ -23,6 +23,7 @@ class PivotItemCollection;
 | [getCount()](#getCount--)| Gets the count of the pivot items. |
 | [getEnumerator()](#getEnumerator--)| Gets an enumerator over the elements in this collection in proper sequence. |
 | [swapItem(number, number)](#swapItem-number-number-)| Directly swap two items. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### get(number) {#get-number-}
@@ -77,5 +78,14 @@ swapItem(index1: number, index2: number) : void;
 | --- | --- | --- |
 | index1 | number |  |
 | index2 | number |  |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

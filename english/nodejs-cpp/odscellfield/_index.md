@@ -27,6 +27,7 @@ class OdsCellField;
 | [setRow(number)](#setRow-number-)| Get and sets the row index of the cell. |
 | [getColumn()](#getColumn--)| Get and sets the column index of the cell. |
 | [setColumn(number)](#setColumn-number-)| Get and sets the column index of the cell. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getCustomFormat() {#getCustomFormat--}
@@ -120,5 +121,14 @@ setColumn(value: number) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | number | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

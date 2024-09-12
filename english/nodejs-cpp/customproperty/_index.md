@@ -29,6 +29,7 @@ class CustomProperty;
 | [setName(string)](#setName-string-)| Returns or sets the name of the object. |
 | [getValue()](#getValue--)| Returns or sets the value of the custom property. |
 | [setValue(string)](#setValue-string-)| Returns or sets the value of the custom property. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### constructor() {#constructor--}
@@ -83,5 +84,14 @@ setValue(value: string) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | string | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

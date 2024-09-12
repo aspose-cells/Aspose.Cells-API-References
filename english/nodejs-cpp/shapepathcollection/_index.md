@@ -22,6 +22,7 @@ class ShapePathCollection;
 | [get(number)](#get-number-)| Gets a creation path. |
 | [getCount()](#getCount--)| Gets the count of paths |
 | [add()](#add--)| Add a creation path. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### get(number) {#get-number-}
@@ -62,5 +63,14 @@ add() : number;
 **Returns**
 
 Returns [ShapePath](../shapepath/) object.
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

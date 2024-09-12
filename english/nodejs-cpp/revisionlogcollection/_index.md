@@ -24,6 +24,7 @@ class RevisionLogCollection;
 | [setDaysPreservingHistory(number)](#setDaysPreservingHistory-number-)| Gets and sets the number of days the spreadsheet application will keep the change history for this workbook. |
 | [highlightChanges(HighlightChangesOptions)](#highlightChanges-highlightchangesoptions-)| Highlights changes of shared workbook. |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### get(number) {#get-number-}
@@ -84,6 +85,15 @@ Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

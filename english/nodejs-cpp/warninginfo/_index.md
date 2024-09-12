@@ -21,6 +21,10 @@ class WarningInfo;
 | --- | --- |
 | [getWarningType()](#getWarningType--)| Get warning type. |
 | [getDescription()](#getDescription--)| Get description of warning info. |
+| [getErrorObject()](#getErrorObject--)| The error object. |
+| [getCorrectedObject()](#getCorrectedObject--)| Gets and sets the corrected object. |
+| [setCorrectedObject(object)](#setCorrectedObject-object-)| Gets and sets the corrected object. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getWarningType() {#getWarningType--}
@@ -42,6 +46,46 @@ Get description of warning info.
 
 ```javascript
 getDescription() : string;
+```
+
+
+### getErrorObject() {#getErrorObject--}
+
+The error object.
+
+```javascript
+getErrorObject() : object;
+```
+
+
+### getCorrectedObject() {#getCorrectedObject--}
+
+Gets and sets the corrected object.
+
+```javascript
+getCorrectedObject() : object;
+```
+
+
+### setCorrectedObject(object) {#setCorrectedObject-object-}
+
+Gets and sets the corrected object.
+
+```javascript
+setCorrectedObject(value: object) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | object | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

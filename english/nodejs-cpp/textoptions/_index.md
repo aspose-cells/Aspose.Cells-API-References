@@ -19,7 +19,7 @@ class TextOptions extends Font;
 
 | Name | Description |
 | --- | --- |
-| [constructor(Font)](#constructor-font-)| Constructs from a parent object convertible to this. |
+| [constructor(Aspose::Cells::Font)](#constructor-aspose::cells::font-)| Constructs from a parent object convertible to this. |
 
 ## Methods
 
@@ -42,6 +42,7 @@ class TextOptions extends Font;
 | [setKerning(number)](#setKerning-number-)| Specifies the minimum font size at which character kerning will occur for this text run. |
 | [getSpacing()](#getSpacing--)| Specifies the spacing between characters within a text run. |
 | [setSpacing(number)](#setSpacing-number-)| Specifies the spacing between characters within a text run. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getCharset()](#getCharset--)| Represent the character set. |
 | [setCharset(number)](#setCharset-number-)| Represent the character set. |
 | [isItalic()](#isItalic--)| Gets or sets a value indicating whether the font is italic. |
@@ -80,18 +81,18 @@ class TextOptions extends Font;
 | [toString()](#toString--)| Returns a string represents the current Cell object. |
 
 
-### constructor(Font) {#constructor-font-}
+### constructor(Aspose::Cells::Font) {#constructor-aspose::cells::font-}
 
 Constructs from a parent object convertible to this.
 
 ```javascript
-constructor(obj: Font);
+constructor(obj: Aspose::Cells::Font);
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | Font | The parent object. |
+| obj | Aspose::Cells::Font | The parent object. |
 
 ### getName() {#getName--}
 
@@ -293,6 +294,15 @@ setSpacing(value: number) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | number | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 ### getCharset() {#getCharset--}
 

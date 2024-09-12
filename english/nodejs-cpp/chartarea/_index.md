@@ -34,6 +34,7 @@ class ChartArea extends ChartFrame;
 | [getWidth()](#getWidth--)| Gets or sets the horizontal offset from its lower right corner column. |
 | [setWidth(number)](#setWidth-number-)| Gets or sets the horizontal offset from its lower right corner column. |
 | [getFont()](#getFont--)| Gets a [Font](../font/) object of the specified chartarea object. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [isInnerMode()](#isInnerMode--)| Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. |
 | [setIsInnerMode(boolean)](#setIsInnerMode-boolean-)| Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. |
 | [getBackgroundMode()](#getBackgroundMode--)| Gets and sets the display mode of the background |
@@ -169,6 +170,15 @@ getFont() : Font;
 **Returns**
 
 [Font](../font/)
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 ### isInnerMode() {#isInnerMode--}
 

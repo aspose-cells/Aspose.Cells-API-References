@@ -24,6 +24,7 @@ class GradientStop;
 | [getCellsColor()](#getCellsColor--)| Gets the color of this gradient stop. |
 | [getTransparency()](#getTransparency--)| Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear). |
 | [setTransparency(number)](#setTransparency-number-)| Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear). |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getPosition() {#getPosition--}
@@ -82,5 +83,14 @@ setTransparency(value: number) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | number | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

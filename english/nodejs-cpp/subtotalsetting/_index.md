@@ -23,6 +23,7 @@ class SubtotalSetting;
 | [getSubtotalFunction()](#getSubtotalFunction--)| The subtotal function. |
 | [getTotalList()](#getTotalList--)| An array of zero-based field offsets, indicating the fields to which the subtotals are added. |
 | [getSummaryBelowData()](#getSummaryBelowData--)| Indicates whether add summary below data. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getGroupBy() {#getGroupBy--}
@@ -66,6 +67,15 @@ Indicates whether add summary below data.
 
 ```javascript
 getSummaryBelowData() : boolean;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

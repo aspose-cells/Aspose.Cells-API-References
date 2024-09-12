@@ -27,6 +27,7 @@ class PivotDiscreteGroupSettings extends PivotFieldGroupSettings;
 | --- | --- |
 | [getType()](#getType--)| Gets the group type. |
 | [getItems()](#getItems--)| Gets the discrete items. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### constructor(PivotFieldGroupSettings) {#constructor-pivotfieldgroupsettings-}
@@ -67,5 +68,14 @@ getItems() : CustomPiovtFieldGroupItem[];
 **Returns**
 
 [CustomPiovtFieldGroupItem](../custompiovtfieldgroupitem/)[]
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

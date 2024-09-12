@@ -32,6 +32,7 @@ class XlsbSaveOptions extends SaveOptions;
 | [setExportAllColumnIndexes(boolean)](#setExportAllColumnIndexes-boolean-)| Indicates whether exporting all column indexes for cells. |
 | [getLightCellsDataProvider()](#getLightCellsDataProvider--)| The data provider for saving workbook in light mode. |
 | [setLightCellsDataProvider(LightCellsDataProvider)](#setLightCellsDataProvider-lightcellsdataprovider-)| The data provider for saving workbook in light mode. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getSaveFormat()](#getSaveFormat--)| Gets the save file format. |
 | [getClearData()](#getClearData--)| Make the workbook empty after saving the file. |
 | [setClearData(boolean)](#setClearData-boolean-)| Make the workbook empty after saving the file. |
@@ -168,6 +169,15 @@ setLightCellsDataProvider(value: LightCellsDataProvider) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [LightCellsDataProvider](../lightcellsdataprovider/) | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 ### getSaveFormat() {#getSaveFormat--}
 

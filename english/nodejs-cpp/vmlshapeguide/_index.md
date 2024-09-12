@@ -21,6 +21,12 @@ class VmlShapeGuide extends BaseShapeGuide;
 | --- | --- |
 | [constructor(BaseShapeGuide)](#constructor-baseshapeguide-)| Constructs from a parent object convertible to this. |
 
+## Methods
+
+| Method | Description |
+| --- | --- |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
 
 ### constructor(BaseShapeGuide) {#constructor-baseshapeguide-}
 
@@ -34,5 +40,14 @@ constructor(obj: BaseShapeGuide);
 | Parameter | Type | Description |
 | --- | --- | --- |
 | obj | BaseShapeGuide | The parent object. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

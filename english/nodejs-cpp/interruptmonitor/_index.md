@@ -27,6 +27,7 @@ class InterruptMonitor;
 | --- | --- |
 | [isInterruptionRequested()](#isInterruptionRequested--)| Mark the monitor as requesting interruption |
 | [interrupt()](#interrupt--)| Interrupt the current operator. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### constructor() {#constructor--}
@@ -53,6 +54,15 @@ Interrupt the current operator.
 
 ```javascript
 interrupt() : void;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

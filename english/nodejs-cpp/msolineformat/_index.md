@@ -33,6 +33,7 @@ class MsoLineFormat;
 | [setTransparency(number)](#setTransparency-number-)| Returns or sets the degree of transparency of the specified fill as a value from 0.0 (opaque) through 1.0 (clear). |
 | [getWeight()](#getWeight--)| Returns or sets the weight of the line ,in units of pt. |
 | [setWeight(number)](#setWeight-number-)| Returns or sets the weight of the line ,in units of pt. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### isVisible() {#isVisible--}
@@ -204,5 +205,14 @@ setWeight(value: number) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | number | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

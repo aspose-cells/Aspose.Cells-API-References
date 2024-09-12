@@ -23,6 +23,7 @@ class FilterColumnCollection;
 | [removeAt(number)](#removeAt-number-)|  |
 | [getByIndex(number)](#getByIndex-number-)| Returns a single Filter object from a collection. |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### get(number) {#get-number-}
@@ -78,6 +79,15 @@ Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

@@ -28,6 +28,7 @@ class WebExtensionReferenceCollection;
 | [get(number)](#get-number-)| Gets web extension by the specific index. |
 | [add()](#add--)| Adds an empty reference of web extension. |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### constructor() {#constructor--}
@@ -71,6 +72,15 @@ Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

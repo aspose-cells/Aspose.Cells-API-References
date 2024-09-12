@@ -31,6 +31,7 @@ class VbaProjectReference;
 | [getRelativeLibid()](#getRelativeLibid--)| Gets and sets the referenced VBA project's identifier with an relative path. |
 | [setRelativeLibid(string)](#setRelativeLibid-string-)| Gets and sets the referenced VBA project's identifier with an relative path. |
 | [copy(VbaProjectReference)](#copy-vbaprojectreference-)|  |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getType() {#getType--}
@@ -192,5 +193,14 @@ copy(source: VbaProjectReference) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | source | [VbaProjectReference](../vbaprojectreference/) |  |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

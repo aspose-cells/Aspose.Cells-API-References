@@ -25,6 +25,7 @@ class CustomXmlPart;
 | [setSchemaData(number[])](#setSchemaData-numberarray-)| Gets or sets the XML content of this Custom XML Schema Data Storage Part. |
 | [getID()](#getID--)| Gets and sets the id of the custom xml part. |
 | [setID(string)](#setID-string-)| Gets and sets the id of the custom xml part. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getData() {#getData--}
@@ -100,5 +101,14 @@ setID(value: string) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | string | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

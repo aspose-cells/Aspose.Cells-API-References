@@ -29,6 +29,7 @@ class Scenario;
 | [isLocked()](#isLocked--)| Indicates whether scenario is locked for editing when the sheet is protected. |
 | [setIsLocked(boolean)](#setIsLocked-boolean-)| Indicates whether scenario is locked for editing when the sheet is protected. |
 | [getInputCells()](#getInputCells--)| Gets the input cells of scenario. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getComment() {#getComment--}
@@ -140,5 +141,14 @@ getInputCells() : ScenarioInputCellCollection;
 **Returns**
 
 [ScenarioInputCellCollection](../scenarioinputcellcollection/)
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

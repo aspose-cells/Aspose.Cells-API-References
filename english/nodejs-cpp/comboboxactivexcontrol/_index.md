@@ -68,6 +68,7 @@ class ComboBoxActiveXControl extends ActiveXControl;
 | [setHideSelection(boolean)](#setHideSelection-boolean-)| Indicates whether selected text in the control appears highlighted when the control does not have focus. |
 | [getColumnWidths()](#getColumnWidths--)| Gets and sets the width of the column. |
 | [setColumnWidths(number)](#setColumnWidths-number-)| Gets and sets the width of the column. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getWorkbook()](#getWorkbook--)| Gets the [Workbook](../workbook/) object. |
 | [getMouseIcon()](#getMouseIcon--)| Gets and sets a custom icon to display as the mouse pointer for the control. |
 | [setMouseIcon(number[])](#setMouseIcon-numberarray-)| Gets and sets a custom icon to display as the mouse pointer for the control. |
@@ -618,6 +619,15 @@ setColumnWidths(value: number) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | number | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 ### getWorkbook() {#getWorkbook--}
 

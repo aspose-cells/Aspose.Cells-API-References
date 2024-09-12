@@ -29,6 +29,7 @@ class FileFormatInfo;
 | [isEncrypted()](#isEncrypted--)| Returns true if the document is encrypted and requires a password to open. |
 | [getFileFormatType()](#getFileFormatType--)| Gets the detected file format. |
 | [getLoadFormat()](#getLoadFormat--)| Gets the detected load format. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### constructor() {#constructor--}
@@ -83,5 +84,14 @@ getLoadFormat() : LoadFormat;
 **Returns**
 
 [LoadFormat](../loadformat/)
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

@@ -40,6 +40,7 @@ class DataBar;
 | [getShowValue()](#getShowValue--)| Get or set the flag indicating whether to show the values of the cells on which this data bar is applied. Default value is true. |
 | [setShowValue(boolean)](#setShowValue-boolean-)| Get or set the flag indicating whether to show the values of the cells on which this data bar is applied. Default value is true. |
 | [toImage(Cell, ImageOrPrintOptions)](#toImage-cell-imageorprintoptions-)| Render data bar in cell to image byte array. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getAxisColor() {#getAxisColor--}
@@ -307,5 +308,14 @@ toImage(cell: Cell, imgOpts: ImageOrPrintOptions) : number[];
 **Returns**
 
 number[]
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

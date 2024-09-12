@@ -26,6 +26,7 @@ class XpsSaveOptions extends PaginatedSaveOptions;
 
 | Method | Description |
 | --- | --- |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getSaveFormat()](#getSaveFormat--)| Gets the save file format. |
 | [getClearData()](#getClearData--)| Make the workbook empty after saving the file. |
 | [setClearData(boolean)](#setClearData-boolean-)| Make the workbook empty after saving the file. |
@@ -108,6 +109,15 @@ constructor(obj: PaginatedSaveOptions);
 | Parameter | Type | Description |
 | --- | --- | --- |
 | obj | PaginatedSaveOptions | The parent object. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 ### getSaveFormat() {#getSaveFormat--}
 

@@ -34,6 +34,7 @@ class DBConnection extends ExternalConnection;
 | [setCommand(string)](#setCommand-string-)| The string containing the database command to pass to the data provider API that will interact with the external source in order to retrieve data |
 | [getSeverCommand()](#getSeverCommand--)| Specifies a second command text string that is persisted when PivotTable server-based page fields are in use. For ODBC connections, serverCommand is usually a broader query than command (no WHERE clause is present in the former). Based on these 2 commands(Command and ServerCommand), parameter UI can be populated and parameterized queries can be constructed |
 | [setSeverCommand(string)](#setSeverCommand-string-)| Specifies a second command text string that is persisted when PivotTable server-based page fields are in use. For ODBC connections, serverCommand is usually a broader query than command (no WHERE clause is present in the former). Based on these 2 commands(Command and ServerCommand), parameter UI can be populated and parameterized queries can be constructed |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getId()](#getId--)| Gets the id of the connection. |
 | [getType()](#getType--)| Gets or Sets the external connection DataSource type. |
 | [setType(ConnectionDataSourceType)](#setType-connectiondatasourcetype-)| Gets or Sets the external connection DataSource type. |
@@ -190,6 +191,15 @@ setSeverCommand(value: string) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | string | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 ### getId() {#getId--}
 

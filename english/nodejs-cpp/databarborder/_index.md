@@ -23,6 +23,7 @@ class DataBarBorder;
 | [setColor(Color)](#setColor-color-)| Gets or sets the border's color of data bars specified by a conditional formatting rule. |
 | [getType()](#getType--)| Gets or sets the border's type of data bars specified by a conditional formatting rule. |
 | [setType(DataBarBorderType)](#setType-databarbordertype-)| Gets or sets the border's type of data bars specified by a conditional formatting rule. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getColor() {#getColor--}
@@ -76,5 +77,14 @@ setType(value: DataBarBorderType) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [DataBarBorderType](../databarbordertype/) | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

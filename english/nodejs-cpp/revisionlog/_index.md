@@ -21,6 +21,7 @@ class RevisionLog;
 | --- | --- |
 | [getMetadataTable()](#getMetadataTable--)| Gets table that contains metadata about a list of specific changes that have taken place for this workbook. |
 | [getRevisions()](#getRevisions--)| Gets all revisions in this log. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getMetadataTable() {#getMetadataTable--}
@@ -48,5 +49,14 @@ getRevisions() : RevisionCollection;
 **Returns**
 
 [RevisionCollection](../revisioncollection/)
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

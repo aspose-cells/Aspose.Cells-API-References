@@ -28,6 +28,7 @@ class ShapeSegmentPathCollection;
 | [get(number)](#get-number-)| Gets [ShapeSegmentPath](../shapesegmentpath/) object. |
 | [add(ShapePathType)](#add-shapepathtype-)| Add a segment path in creation path. |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### constructor() {#constructor--}
@@ -79,6 +80,15 @@ Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

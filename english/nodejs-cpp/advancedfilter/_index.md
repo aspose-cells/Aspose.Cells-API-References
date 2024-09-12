@@ -22,6 +22,7 @@ class AdvancedFilter;
 | [getListRange()](#getListRange--)| Gets the list range of this advanced filter. |
 | [getCriteriaRange()](#getCriteriaRange--)| Gets the criteria range of this advanced filter. |
 | [getCopyToRange()](#getCopyToRange--)| Gets the range where copying the resut of this advanced filter to. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getListRange() {#getListRange--}
@@ -48,6 +49,15 @@ Gets the range where copying the resut of this advanced filter to.
 
 ```javascript
 getCopyToRange() : string;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

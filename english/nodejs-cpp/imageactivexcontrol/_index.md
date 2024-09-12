@@ -42,6 +42,7 @@ class ImageActiveXControl extends ActiveXControl;
 | [setPictureAlignment(ControlPictureAlignmentType)](#setPictureAlignment-controlpicturealignmenttype-)| Gets and sets the alignment of the picture inside the Form or Image. |
 | [isTiled()](#isTiled--)| Indicates whether the picture is tiled across the background. |
 | [setIsTiled(boolean)](#setIsTiled-boolean-)| Indicates whether the picture is tiled across the background. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getWorkbook()](#getWorkbook--)| Gets the [Workbook](../workbook/) object. |
 | [getMouseIcon()](#getMouseIcon--)| Gets and sets a custom icon to display as the mouse pointer for the control. |
 | [setMouseIcon(number[])](#setMouseIcon-numberarray-)| Gets and sets a custom icon to display as the mouse pointer for the control. |
@@ -298,6 +299,15 @@ setIsTiled(value: boolean) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 ### getWorkbook() {#getWorkbook--}
 

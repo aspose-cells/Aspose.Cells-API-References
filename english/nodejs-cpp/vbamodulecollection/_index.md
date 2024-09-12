@@ -28,6 +28,7 @@ class VbaModuleCollection;
 | [remove(Worksheet)](#remove-worksheet-)| Removes module for a worksheet. |
 | [remove(string)](#remove-string-)| Remove the module by the name |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### get(number) {#get-number-}
@@ -156,6 +157,15 @@ Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

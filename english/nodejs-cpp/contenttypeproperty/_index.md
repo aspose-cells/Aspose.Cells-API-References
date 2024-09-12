@@ -27,6 +27,7 @@ class ContentTypeProperty;
 | [setType(string)](#setType-string-)| Gets and sets the type of the property. |
 | [isNillable()](#isNillable--)| Indicates whether the value could be empty. |
 | [setIsNillable(boolean)](#setIsNillable-boolean-)| Indicates whether the value could be empty. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getName() {#getName--}
@@ -116,5 +117,14 @@ setIsNillable(value: boolean) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

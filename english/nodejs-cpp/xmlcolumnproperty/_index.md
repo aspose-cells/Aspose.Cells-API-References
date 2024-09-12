@@ -21,6 +21,12 @@ class XmlColumnProperty;
 | --- | --- |
 | [constructor()](#constructor--)| Default Constructor. |
 
+## Methods
+
+| Method | Description |
+| --- | --- |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
 
 ### constructor() {#constructor--}
 
@@ -28,6 +34,15 @@ Default Constructor.
 
 ```javascript
 constructor();
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

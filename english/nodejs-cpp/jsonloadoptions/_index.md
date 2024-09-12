@@ -34,6 +34,7 @@ class JsonLoadOptions extends LoadOptions;
 | [setMultipleWorksheets(boolean)](#setMultipleWorksheets-boolean-)| Indicates whether importing each attribute of JsonObject object as one worksheet when all child nodes are array nodes. |
 | [getKeptSchema()](#getKeptSchema--)| Indicates whether keeping schema of this json. |
 | [setKeptSchema(boolean)](#setKeptSchema-boolean-)| Indicates whether keeping schema of this json. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getLoadFormat()](#getLoadFormat--)| Gets the load format. |
 | [getPassword()](#getPassword--)| Gets and set the password of the workbook. |
 | [setPassword(string)](#setPassword-string-)| Gets and set the password of the workbook. |
@@ -198,6 +199,15 @@ setKeptSchema(value: boolean) : void;
 **Remarks**
 
 Sometimes we will save the file to JSON after loading JSON file.
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 ### getLoadFormat() {#getLoadFormat--}
 

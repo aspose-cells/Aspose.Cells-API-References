@@ -36,6 +36,7 @@ class SpinButtonActiveXControl extends ActiveXControl;
 | [setSmallChange(number)](#setSmallChange-number-)| Gets and sets the amount by which the Position property changes |
 | [getOrientation()](#getOrientation--)| Gets and sets whether the SpinButton or ScrollBar is oriented vertically or horizontally. |
 | [setOrientation(ControlScrollOrientation)](#setOrientation-controlscrollorientation-)| Gets and sets whether the SpinButton or ScrollBar is oriented vertically or horizontally. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getWorkbook()](#getWorkbook--)| Gets the [Workbook](../workbook/) object. |
 | [getMouseIcon()](#getMouseIcon--)| Gets and sets a custom icon to display as the mouse pointer for the control. |
 | [setMouseIcon(number[])](#setMouseIcon-numberarray-)| Gets and sets a custom icon to display as the mouse pointer for the control. |
@@ -212,6 +213,15 @@ setOrientation(value: ControlScrollOrientation) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [ControlScrollOrientation](../controlscrollorientation/) | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 ### getWorkbook() {#getWorkbook--}
 

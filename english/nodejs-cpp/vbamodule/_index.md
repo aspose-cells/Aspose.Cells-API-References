@@ -24,6 +24,7 @@ class VbaModule;
 | [getType()](#getType--)| Gets the type of module. |
 | [getCodes()](#getCodes--)| Gets and sets the codes of module. |
 | [setCodes(string)](#setCodes-string-)| Gets and sets the codes of module. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getName() {#getName--}
@@ -82,5 +83,14 @@ setCodes(value: string) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | string | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

@@ -28,6 +28,7 @@ class UnknownControl extends ActiveXControl;
 | [getData()](#getData--)| Gets and sets the binary data of the control. |
 | [getType()](#getType--)| Gets the type of the ActiveX control. |
 | [getRelationshipData(string)](#getRelationshipData-string-)| Gets the related data. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getWorkbook()](#getWorkbook--)| Gets the [Workbook](../workbook/) object. |
 | [getMouseIcon()](#getMouseIcon--)| Gets and sets a custom icon to display as the mouse pointer for the control. |
 | [setMouseIcon(number[])](#setMouseIcon-numberarray-)| Gets and sets a custom icon to display as the mouse pointer for the control. |
@@ -119,6 +120,15 @@ getRelationshipData(relId: string) : number[];
 **Returns**
 
 Returns the related data.
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 ### getWorkbook() {#getWorkbook--}
 

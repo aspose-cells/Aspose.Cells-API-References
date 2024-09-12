@@ -33,6 +33,7 @@ class ComboBox extends Shape;
 | [setShadow(boolean)](#setShadow-boolean-)| Indicates whether the combobox has 3-D shading. |
 | [getDropDownLines()](#getDropDownLines--)| Gets or sets the number of list lines displayed in the drop-down portion of a combo box. |
 | [setDropDownLines(number)](#setDropDownLines-number-)| Gets or sets the number of list lines displayed in the drop-down portion of a combo box. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getMacroName()](#getMacroName--)| Gets and sets the name of macro. |
 | [setMacroName(string)](#setMacroName-string-)| Gets and sets the name of macro. |
 | [isEquation()](#isEquation--)| Indicates whether the shape only contains an equation. |
@@ -216,6 +217,7 @@ class ComboBox extends Shape;
 | [characters(number, number)](#characters-number-number-)| Returns a Characters object that represents a range of characters within the text. |
 | [getRichFormattings()](#getRichFormattings--)| Returns all Characters objects that represents a range of characters within the text . |
 | [removeActiveXControl()](#removeActiveXControl--)| Remove activeX control. |
+| [isSameSetting(object)](#isSameSetting-object-)| Returns whether the shape is same. |
 | [getActualBox()](#getActualBox--)| Get the actual position and size of the shape (after applying rotation, flip, etc.) |
 
 
@@ -327,6 +329,15 @@ setDropDownLines(value: number) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | number | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 ### getMacroName() {#getMacroName--}
 
@@ -2587,6 +2598,19 @@ Remove activeX control.
 removeActiveXControl() : void;
 ```
 
+
+### isSameSetting(object) {#isSameSetting-object-}
+
+Returns whether the shape is same.
+
+```javascript
+isSameSetting(obj: object) : boolean;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | object |  |
 
 ### getActualBox() {#getActualBox--}
 

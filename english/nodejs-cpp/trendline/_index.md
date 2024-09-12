@@ -46,6 +46,7 @@ class Trendline extends Line;
 | [setIntercept(number)](#setIntercept-number-)| Returns or sets the point where the trendline crosses the value axis. |
 | [getDataLabels()](#getDataLabels--)| Represents the DataLabels object for the specified series. |
 | [getLegendEntry()](#getLegendEntry--)| Gets the legend entry according to this trendline |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getCompoundType()](#getCompoundType--)| Specifies the compound line type |
 | [setCompoundType(MsoLineStyle)](#setCompoundType-msolinestyle-)| Specifies the compound line type |
 | [getDashType()](#getDashType--)| Specifies the dash line type |
@@ -347,6 +348,15 @@ getLegendEntry() : LegendEntry;
 **Returns**
 
 [LegendEntry](../legendentry/)
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 ### getCompoundType() {#getCompoundType--}
 

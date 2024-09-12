@@ -36,6 +36,8 @@ The Range class denotes a region of Excel spreadsheet. With this, you can format
 | [getHeight()](#getHeight--)| Gets the width of a range in points. |
 | [getFirstRow()](#getFirstRow--)| Gets the index of the first row of the range. |
 | [getFirstColumn()](#getFirstColumn--)| Gets the index of the first column of the range. |
+| [getValue()](#getValue--)| Gets and sets the value of the range. |
+| [setValue(object)](#setValue-object-)| Gets and sets the value of the range. |
 | [getColumnWidth()](#getColumnWidth--)| Sets or gets the column width of this range |
 | [setColumnWidth(number)](#setColumnWidth-number-)| Sets or gets the column width of this range |
 | [getRowHeight()](#getRowHeight--)| Sets or gets the height of rows in this range |
@@ -77,6 +79,7 @@ The Range class denotes a region of Excel spreadsheet. With this, you can format
 | [toImage(ImageOrPrintOptions)](#toImage-imageorprintoptions-)| Converts the range to image. |
 | [toJson(JsonSaveOptions)](#toJson-jsonsaveoptions-)| Convert the range to JSON value. |
 | [toHtml(HtmlSaveOptions)](#toHtml-htmlsaveoptions-)| Convert the range to html . |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### get(number, number) {#get-number-number-}
@@ -242,6 +245,36 @@ Gets the index of the first column of the range.
 getFirstColumn() : number;
 ```
 
+
+### getValue() {#getValue--}
+
+Gets and sets the value of the range.
+
+```javascript
+getValue() : object;
+```
+
+
+**Remarks**
+
+If the range contains multiple cells, the returned/applied object should be a two-dimension [Array](../array/) object.
+
+### setValue(object) {#setValue-object-}
+
+Gets and sets the value of the range.
+
+```javascript
+setValue(value: object) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | object | The value to set. |
+
+**Remarks**
+
+If the range contains multiple cells, the returned/applied object should be a two-dimension [Array](../array/) object.
 
 ### getColumnWidth() {#getColumnWidth--}
 
@@ -831,5 +864,14 @@ toHtml(saveOptions: HtmlSaveOptions) : number[];
 **Returns**
 
 number[]
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

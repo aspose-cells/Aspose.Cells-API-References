@@ -68,6 +68,7 @@ class Slicer;
 | [addPivotConnection(PivotTable)](#addPivotConnection-pivottable-)| Adds PivotTable connection. |
 | [removePivotConnection(PivotTable)](#removePivotConnection-pivottable-)| Removes PivotTable connection. |
 | [refresh()](#refresh--)| Refreshing the slicer.Meanwhile, Refreshing and Calculating  relative PivotTables. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getTitle() {#getTitle--}
@@ -620,6 +621,15 @@ Refreshing the slicer.Meanwhile, Refreshing and Calculating  relative PivotTable
 
 ```javascript
 refresh() : void;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

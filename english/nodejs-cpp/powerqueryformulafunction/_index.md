@@ -27,6 +27,7 @@ class PowerQueryFormulaFunction extends PowerQueryFormula;
 | --- | --- |
 | [getF()](#getF--)| Gets and sets the definition of function. |
 | [setF(string)](#setF-string-)| Gets and sets the definition of function. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getFormulaDefinition()](#getFormulaDefinition--)| Gets the definition of the power query formula. |
 | [getName()](#getName--)| Gets and sets the name of the power query formula. |
 | [setName(string)](#setName-string-)| Gets and sets the name of the power query formula. |
@@ -67,6 +68,15 @@ setF(value: string) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | string | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 ### getFormulaDefinition() {#getFormulaDefinition--}
 

@@ -35,6 +35,7 @@ class FormulaParseOptions;
 | [setParse(boolean)](#setParse-boolean-)| Whether parse given formula. Default is true. If it is false, then given formula string will be kept as it is for the cell until user call other methods to parse them or parsed formula data is required by other operations such as calculating formulas. |
 | [getCustomFunctionDefinition()](#getCustomFunctionDefinition--)| Definition for parsing custom functions. |
 | [setCustomFunctionDefinition(CustomFunctionDefinition)](#setCustomFunctionDefinition-customfunctiondefinition-)| Definition for parsing custom functions. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### constructor() {#constructor--}
@@ -167,5 +168,14 @@ setCustomFunctionDefinition(value: CustomFunctionDefinition) : void;
 **Remarks**
 
 For some special requirements, such as when calculating custom function in user's custom engine, some parameters of it need to be caculated in array mode, using this property can mark those parameters as array mode when parsing the formula. Otherwise user needs to update those custom functions later by [Workbook.UpdateCustomFunctionDefinition(CustomFunctionDefinition)](../workbook.updatecustomfunctiondefinition(customfunctiondefinition)/) to get the same result.
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

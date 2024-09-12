@@ -32,6 +32,7 @@ class WorkbookRender;
 | [toImage(number, string)](#toImage-number-string-)| Render certain page to a file. |
 | [toImage(number)](#toImage-number-)| Render certain page to a stream. |
 | [dispose()](#dispose--)| Releases resources created and used for rendering. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### constructor(Workbook, ImageOrPrintOptions) {#constructor-workbook-imageorprintoptions-}
@@ -137,6 +138,15 @@ Releases resources created and used for rendering.
 
 ```javascript
 dispose() : void;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

@@ -42,6 +42,7 @@ class SaveOptions;
 | [setUpdateSmartArt(boolean)](#setUpdateSmartArt-boolean-)| Indicates whether updating smart art setting. The default value is false. |
 | [getEncryptDocumentProperties()](#getEncryptDocumentProperties--)| Indicates whether encrypt document properties when saving as .xls file. The default value is true. |
 | [setEncryptDocumentProperties(boolean)](#setEncryptDocumentProperties-boolean-)| Indicates whether encrypt document properties when saving as .xls file. The default value is true. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getSaveFormat() {#getSaveFormat--}
@@ -342,5 +343,14 @@ setEncryptDocumentProperties(value: boolean) : void;
 **Remarks**
 
 Only for .xls,xlsx,xlsb and xlsm file.
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

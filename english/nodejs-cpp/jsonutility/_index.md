@@ -25,6 +25,7 @@ class JsonUtility;
 
 | Method | Description |
 | --- | --- |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | static [importData(string, Cells, number, number, JsonLayoutOptions)](#importData-string-cells-number-number-jsonlayoutoptions-)| Import the json string. |
 | static [exportRangeToJson(Range, JsonSaveOptions)](#exportRangeToJson-range-jsonsaveoptions-)| Exporting the range to json file. |
 
@@ -35,6 +36,15 @@ Default Constructor.
 
 ```javascript
 constructor();
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

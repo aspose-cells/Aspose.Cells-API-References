@@ -20,6 +20,7 @@ class XmlDataBinding;
 | Method | Description |
 | --- | --- |
 | [getUrl()](#getUrl--)| Gets source url of this data binding. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getUrl() {#getUrl--}
@@ -28,6 +29,15 @@ Gets source url of this data binding.
 
 ```javascript
 getUrl() : string;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

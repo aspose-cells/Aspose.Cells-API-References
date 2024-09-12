@@ -26,6 +26,7 @@ class ScenarioCollection;
 | [setLastSelected(number)](#setLastSelected-number-)| Indicates which scenario was last selected by the user to be run/shown. |
 | [add(string)](#add-string-)| Adds a scenario. |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### get(number) {#get-number-}
@@ -112,6 +113,15 @@ Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

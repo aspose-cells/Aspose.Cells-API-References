@@ -22,6 +22,7 @@ class PivotFormatConditionCollection;
 | [get(number)](#get-number-)| Gets the pivot FormatCondition object at the specific index. |
 | [add()](#add--)| Adds a pivot FormatCondition to the collection. |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### get(number) {#get-number-}
@@ -64,6 +65,15 @@ Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

@@ -23,6 +23,7 @@ class SmartTagProperty;
 | [setName(string)](#setName-string-)| Gets and sets the name of the property. |
 | [getValue()](#getValue--)| Gets and sets the value of the property. |
 | [setValue(string)](#setValue-string-)| Gets and sets the value of the property. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getName() {#getName--}
@@ -68,5 +69,14 @@ setValue(value: string) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | string | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

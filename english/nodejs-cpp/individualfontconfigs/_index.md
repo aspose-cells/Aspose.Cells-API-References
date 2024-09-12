@@ -31,6 +31,7 @@ class IndividualFontConfigs;
 | [setFontFolders(string[], boolean)](#setFontFolders-stringarray-boolean-)| Sets the fonts folders |
 | [setFontSources(FontSourceBase[])](#setFontSources-fontsourcebasearray-)| Sets the fonts sources. |
 | [getFontSources()](#getFontSources--)| Gets a copy of the array that contains the list of sources |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### constructor() {#constructor--}
@@ -126,5 +127,14 @@ getFontSources() : FontSourceBase[];
 **Returns**
 
 [FontSourceBase](../fontsourcebase/)[]
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

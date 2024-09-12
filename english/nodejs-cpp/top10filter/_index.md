@@ -19,7 +19,7 @@ class Top10Filter;
 
 | Name | Description |
 | --- | --- |
-| [constructor(IObject)](#constructor-iobject-)| Constructs from an IObject convertible to this. |
+| [constructor(Object)](#constructor-object-)| Constructs from an Object convertible to this. |
 
 ## Methods
 
@@ -31,20 +31,24 @@ class Top10Filter;
 | [setIsPercent(boolean)](#setIsPercent-boolean-)| Indicates whether the items is percent. |
 | [getItems()](#getItems--)| Gets and sets the items of the filter. |
 | [setItems(number)](#setItems-number-)| Gets and sets the items of the filter. |
+| [getCriteria()](#getCriteria--)|  |
+| [setCriteria(object)](#setCriteria-object-)|  |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
+| [toObject()](#toObject--)| Gets the Object. |
 
 
-### constructor(IObject) {#constructor-iobject-}
+### constructor(Object) {#constructor-object-}
 
-Constructs from an IObject convertible to this.
+Constructs from an Object convertible to this.
 
 ```javascript
-constructor(obj: IObject);
+constructor(obj: Object);
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | IObject | The object. |
+| obj | Object | The object. |
 
 ### isTop() {#isTop--}
 
@@ -111,5 +115,49 @@ setItems(value: number) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | number | The value to set. |
+
+### getCriteria() {#getCriteria--}
+
+
+
+```javascript
+getCriteria() : object;
+```
+
+
+### setCriteria(object) {#setCriteria-object-}
+
+
+
+```javascript
+setCriteria(value: object) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | object | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
+
+### toObject() {#toObject--}
+
+Gets the Object.
+
+```javascript
+toObject() : Object;
+```
+
+
+**Returns**
+
+[Object](../object/)
 
 

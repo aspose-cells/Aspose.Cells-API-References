@@ -22,6 +22,7 @@ class PowerQueryFormulaItem;
 | [getName()](#getName--)| Gets the name of the item. |
 | [getValue()](#getValue--)| Gets the value of the item. |
 | [setValue(string)](#setValue-string-)| Gets the value of the item. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getName() {#getName--}
@@ -54,5 +55,14 @@ setValue(value: string) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | string | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

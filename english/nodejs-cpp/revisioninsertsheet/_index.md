@@ -29,6 +29,7 @@ class RevisionInsertSheet extends Revision;
 | [getActionType()](#getActionType--)| Gets the action type of the revision. |
 | [getName()](#getName--)| Gets the name of the worksheet. |
 | [getSheetPosition()](#getSheetPosition--)| Gets the zero based position of the new sheet in the sheet tab bar. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getWorksheet()](#getWorksheet--)| Gets the worksheet. |
 | [getId()](#getId--)| Gets the number of this revision. |
 
@@ -87,6 +88,15 @@ Gets the zero based position of the new sheet in the sheet tab bar.
 
 ```javascript
 getSheetPosition() : number;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

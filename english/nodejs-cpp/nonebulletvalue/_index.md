@@ -27,6 +27,7 @@ class NoneBulletValue extends BulletValue;
 | Method | Description |
 | --- | --- |
 | [getType()](#getType--)| Gets the type of the bullet's value. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### constructor(BulletValue) {#constructor-bulletvalue-}
@@ -63,5 +64,14 @@ getType() : BulletType;
 **Returns**
 
 [BulletType](../bullettype/)
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

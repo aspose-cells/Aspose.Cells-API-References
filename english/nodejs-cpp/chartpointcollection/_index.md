@@ -24,6 +24,7 @@ class ChartPointCollection;
 | [getEnumerator()](#getEnumerator--)| Returns an enumerator for the entire [ChartPointCollection](../chartpointcollection/). |
 | [clear()](#clear--)| Remove all setting of the chart points. |
 | [removeAt(number)](#removeAt-number-)| Removes point at the index of the series.. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### get(number) {#get-number-}
@@ -86,5 +87,14 @@ removeAt(index: number) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | number | The index of the point. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

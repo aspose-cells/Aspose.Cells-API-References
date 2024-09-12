@@ -29,6 +29,7 @@ class PivotOptions;
 | [setDropZoneSeries(boolean)](#setDropZoneSeries-boolean-)| Specifies whether a control for each PivotTable field on the PivotTable column axis of the source PivotTable appears on the chart when dropZonesVisible is set to true. |
 | [getDropZonesVisible()](#getDropZonesVisible--)| Specifies whether any pivot controls can appear on the pivot chart. |
 | [setDropZonesVisible(boolean)](#setDropZonesVisible-boolean-)| Specifies whether any pivot controls can appear on the pivot chart. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getDropZoneFilter() {#getDropZoneFilter--}
@@ -140,5 +141,14 @@ setDropZonesVisible(value: boolean) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

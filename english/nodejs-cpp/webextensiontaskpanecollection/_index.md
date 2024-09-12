@@ -22,6 +22,7 @@ class WebExtensionTaskPaneCollection;
 | [get(number)](#get-number-)| Gets task pane by the specific index. |
 | [add()](#add--)| Adds task pane. |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### get(number) {#get-number-}
@@ -60,6 +61,15 @@ Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

@@ -37,6 +37,7 @@ class ListBox extends Shape;
 | [setPageChange(number)](#setPageChange-number-)| Specifies the amount by which the control's value is changed when the user clicks on the scrollbar's page up or page down region. |
 | [selectedItem(number, boolean)](#selectedItem-number-boolean-)| Sets whether the item is selected |
 | [isSelected(number)](#isSelected-number-)| Indicates whether the item is selected. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getMacroName()](#getMacroName--)| Gets and sets the name of macro. |
 | [setMacroName(string)](#setMacroName-string-)| Gets and sets the name of macro. |
 | [isEquation()](#isEquation--)| Indicates whether the shape only contains an equation. |
@@ -220,6 +221,7 @@ class ListBox extends Shape;
 | [characters(number, number)](#characters-number-number-)| Returns a Characters object that represents a range of characters within the text. |
 | [getRichFormattings()](#getRichFormattings--)| Returns all Characters objects that represents a range of characters within the text . |
 | [removeActiveXControl()](#removeActiveXControl--)| Remove activeX control. |
+| [isSameSetting(object)](#isSameSetting-object-)| Returns whether the shape is same. |
 | [getActualBox()](#getActualBox--)| Get the actual position and size of the shape (after applying rotation, flip, etc.) |
 
 
@@ -388,6 +390,15 @@ isSelected(itemIndex: number) : boolean;
 **Returns**
 
 whether the item is selected.
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 ### getMacroName() {#getMacroName--}
 
@@ -2648,6 +2659,19 @@ Remove activeX control.
 removeActiveXControl() : void;
 ```
 
+
+### isSameSetting(object) {#isSameSetting-object-}
+
+Returns whether the shape is same.
+
+```javascript
+isSameSetting(obj: object) : boolean;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | object |  |
 
 ### getActualBox() {#getActualBox--}
 

@@ -19,8 +19,18 @@ class ColorHelper;
 
 | Method | Description |
 | --- | --- |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | static [fromOleColor(number)](#fromOleColor-number-)| Convert OLE_COLOR. |
 | static [toOleColor(Color, Workbook)](#toOleColor-color-workbook-)| Convert color to OLE_COLOR |
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
 
 
 ### fromOleColor(number) {#fromOleColor-number-}

@@ -27,6 +27,7 @@ class PageStartSavingArgs extends PageSavingArgs;
 | --- | --- |
 | [isToOutput()](#isToOutput--)| Gets or sets a value indicating whether the page should be output. The default value is true. |
 | [setIsToOutput(boolean)](#setIsToOutput-boolean-)| Gets or sets a value indicating whether the page should be output. The default value is true. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getPageIndex()](#getPageIndex--)| Current page index, zero based. |
 | [getPageCount()](#getPageCount--)| Total page count. |
 
@@ -65,6 +66,15 @@ setIsToOutput(value: boolean) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 ### getPageIndex() {#getPageIndex--}
 

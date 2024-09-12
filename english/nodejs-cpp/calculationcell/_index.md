@@ -26,6 +26,8 @@ All objects provided by this class are for "read" purpose only. User should not 
 | [getCellRow()](#getCellRow--)| Gets the row index of the cell. |
 | [getCellColumn()](#getCellColumn--)| Gets the column index of the cell. |
 | [getCell()](#getCell--)| Gets the Cell object which is being calculated. |
+| [setCalculatedValue(object)](#setCalculatedValue-object-)| Sets the calculated value for the cell. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getWorkbook() {#getWorkbook--}
@@ -84,5 +86,31 @@ getCell() : Cell;
 **Returns**
 
 [Cell](../cell/)
+
+### setCalculatedValue(object) {#setCalculatedValue-object-}
+
+Sets the calculated value for the cell.
+
+```javascript
+setCalculatedValue(v: object) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| v | object |  |
+
+**Remarks**
+
+User can set the calculated result by this method to ignore the automatic calculation for the cell.
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

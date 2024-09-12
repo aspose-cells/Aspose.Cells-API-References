@@ -59,6 +59,7 @@ class TextParagraph extends FontSetting;
 | [getDefaultTabSize()](#getDefaultTabSize--)| Gets and sets the default size for a tab character within this paragraph. |
 | [setDefaultTabSize(number)](#setDefaultTabSize-number-)| Gets and sets the default size for a tab character within this paragraph. |
 | [getChildren()](#getChildren--)| Gets all text runs in this paragraph. If this paragraph is empty, return paragraph itself. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getStartIndex()](#getStartIndex--)| Gets the start index of the characters. |
 | [getLength()](#getLength--)| Gets the length of the characters. |
 | [getFont()](#getFont--)| Returns the font of this object. |
@@ -480,6 +481,15 @@ getChildren() : FontSetting[];
 **Returns**
 
 [FontSetting](../fontsetting/)[]
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 ### getStartIndex() {#getStartIndex--}
 

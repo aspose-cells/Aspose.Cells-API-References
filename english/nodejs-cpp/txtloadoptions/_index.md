@@ -53,6 +53,7 @@ class TxtLoadOptions extends AbstractTextLoadOptions;
 | [setMaxRowCount(number)](#setMaxRowCount-number-)| The maximum count of rows to be imported for one sheet. |
 | [getMaxColumnCount()](#getMaxColumnCount--)| The maximum count of columns to be imported for one sheet. |
 | [setMaxColumnCount(number)](#setMaxColumnCount-number-)| The maximum count of columns to be imported for one sheet. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getLoadFormat()](#getLoadFormat--)| Gets the load format. |
 | [getPassword()](#getPassword--)| Gets and set the password of the workbook. |
 | [setPassword(string)](#setPassword-string-)| Gets and set the password of the workbook. |
@@ -478,6 +479,15 @@ setMaxColumnCount(value: number) : void;
 **Remarks**
 
 Those columns exceeding this limit will be ignored or extended to next sheet according to [ExtendToNextSheet](../extendtonextsheet/). This count includes the header columns([HeaderColumnsCount](../headercolumnscount/)). The maximum value of it is the column limit of corresponding file format, such as for xlsx file it 16384. If this property has not been specified or the specified value is not positive, then the maximum limit will be used too.
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 ### getLoadFormat() {#getLoadFormat--}
 

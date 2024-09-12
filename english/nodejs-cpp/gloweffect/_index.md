@@ -25,6 +25,7 @@ class GlowEffect;
 | [setSize(number)](#setSize-number-)| Gets and sets the radius of the glow, in unit of points. |
 | [getTransparency()](#getTransparency--)| Gets and sets the degree of transparency of the glow effect. Range from 0.0 (opaque) to 1.0 (clear). |
 | [setTransparency(number)](#setTransparency-number-)| Gets and sets the degree of transparency of the glow effect. Range from 0.0 (opaque) to 1.0 (clear). |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getColor() {#getColor--}
@@ -96,5 +97,14 @@ setTransparency(value: number) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | number | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

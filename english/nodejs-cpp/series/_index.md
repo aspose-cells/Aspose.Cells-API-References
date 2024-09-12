@@ -103,6 +103,7 @@ class Series;
 | [getLegendEntry()](#getLegendEntry--)| Gets the legend entry according to this series. |
 | [getShapeProperties()](#getShapeProperties--)| Gets the [ShapePropertyCollection](../shapepropertycollection/) object that holds the visual shape properties of the Series. |
 | [move(number)](#move-number-)| Moves the series up or down. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### isFiltered() {#isFiltered--}
@@ -1084,5 +1085,14 @@ move(count: number) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | count | number | The number of moving up or down.         /// Move the series up if this is less than zero;         /// Move the series down if this is greater than zero. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

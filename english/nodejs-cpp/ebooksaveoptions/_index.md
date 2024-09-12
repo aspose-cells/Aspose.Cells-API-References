@@ -27,6 +27,7 @@ class EbookSaveOptions extends HtmlSaveOptions;
 
 | Method | Description |
 | --- | --- |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getSaveFormat()](#getSaveFormat--)| Gets the save file format. |
 | [getClearData()](#getClearData--)| Make the workbook empty after saving the file. |
 | [setClearData(boolean)](#setClearData-boolean-)| Make the workbook empty after saving the file. |
@@ -171,6 +172,10 @@ class EbookSaveOptions extends HtmlSaveOptions;
 | [setIsBorderCollapsed(boolean)](#setIsBorderCollapsed-boolean-)| Indicates whether the table borders are collapsed. The default value is true. |
 | [getEncodeEntityAsCode()](#getEncodeEntityAsCode--)| Indicates whether the html character entities are replaced with decimal code. (e.g. "&amp;nbsp;" is replaced with "&amp;#160;"). The default value is false. |
 | [setEncodeEntityAsCode(boolean)](#setEncodeEntityAsCode-boolean-)| Indicates whether the html character entities are replaced with decimal code. (e.g. "&amp;nbsp;" is replaced with "&amp;#160;"). The default value is false. |
+| [getOfficeMathOutputMode()](#getOfficeMathOutputMode--)| Indicates how export OfficeMath objects to HTML, Default value is Image. |
+| [setOfficeMathOutputMode(HtmlOfficeMathOutputType)](#setOfficeMathOutputMode-htmlofficemathoutputtype-)| Indicates how export OfficeMath objects to HTML, Default value is Image. |
+| [getCellNameAttribute()](#getCellNameAttribute--)| Specifies the attribute that indicates the CellName to be written. (e.g. If the value is "id", then for cell "A1", the output will be:&lt;td id='A1'&gt;). The default value is null. |
+| [setCellNameAttribute(string)](#setCellNameAttribute-string-)| Specifies the attribute that indicates the CellName to be written. (e.g. If the value is "id", then for cell "A1", the output will be:&lt;td id='A1'&gt;). The default value is null. |
 
 
 ### constructor() {#constructor--}
@@ -207,6 +212,15 @@ constructor(saveFormat: SaveFormat);
 | Parameter | Type | Description |
 | --- | --- | --- |
 | saveFormat | [SaveFormat](../saveformat/) | The file format.         /// It should be [SaveFormat.Epub](../saveformat.epub/) or [SaveFormat.Epub](../saveformat.epub/). |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 ### getSaveFormat() {#getSaveFormat--}
 
@@ -1943,5 +1957,53 @@ setEncodeEntityAsCode(value: boolean) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The value to set. |
+
+### getOfficeMathOutputMode() {#getOfficeMathOutputMode--}
+
+Indicates how export OfficeMath objects to HTML, Default value is Image.
+
+```javascript
+getOfficeMathOutputMode() : HtmlOfficeMathOutputType;
+```
+
+
+**Returns**
+
+[HtmlOfficeMathOutputType](../htmlofficemathoutputtype/)
+
+### setOfficeMathOutputMode(HtmlOfficeMathOutputType) {#setOfficeMathOutputMode-htmlofficemathoutputtype-}
+
+Indicates how export OfficeMath objects to HTML, Default value is Image.
+
+```javascript
+setOfficeMathOutputMode(value: HtmlOfficeMathOutputType) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [HtmlOfficeMathOutputType](../htmlofficemathoutputtype/) | The value to set. |
+
+### getCellNameAttribute() {#getCellNameAttribute--}
+
+Specifies the attribute that indicates the CellName to be written. (e.g. If the value is "id", then for cell "A1", the output will be:&lt;td id='A1'&gt;). The default value is null.
+
+```javascript
+getCellNameAttribute() : string;
+```
+
+
+### setCellNameAttribute(string) {#setCellNameAttribute-string-}
+
+Specifies the attribute that indicates the CellName to be written. (e.g. If the value is "id", then for cell "A1", the output will be:&lt;td id='A1'&gt;). The default value is null.
+
+```javascript
+setCellNameAttribute(value: string) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | string | The value to set. |
 
 

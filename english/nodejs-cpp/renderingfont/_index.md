@@ -33,6 +33,7 @@ class RenderingFont;
 | [setItalic(boolean)](#setItalic-boolean-)| Gets or sets italic for the font. |
 | [getColor()](#getColor--)| Gets or sets color for the font. |
 | [setColor(Color)](#setColor-color-)| Gets or sets color for the font. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### constructor(string, number) {#constructor-string-number-}
@@ -136,5 +137,14 @@ setColor(value: Color) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [Color](../color/) | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

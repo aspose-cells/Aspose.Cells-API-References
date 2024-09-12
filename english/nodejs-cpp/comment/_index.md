@@ -56,6 +56,7 @@ class Comment;
 | [formatCharacters(number, number, Font, StyleFlag)](#formatCharacters-number-number-font-styleflag-)| Format some characters with the font setting. |
 | [characters(number, number)](#characters-number-number-)| Returns a Characters object that represents a range of characters within the comment text. |
 | [getRichFormattings()](#getRichFormattings--)| Returns all Characters objects that represents a range of characters within the comment text. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getAuthor() {#getAuthor--}
@@ -506,5 +507,14 @@ getRichFormattings() : FontSetting[];
 **Returns**
 
 All Characters objects
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

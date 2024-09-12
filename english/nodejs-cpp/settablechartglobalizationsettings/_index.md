@@ -41,6 +41,7 @@ class SettableChartGlobalizationSettings;
 | [setOtherName(string)](#setOtherName-string-)| Sets the name of "Other" labels for Chart. |
 | [getAxisUnitName(DisplayUnitType)](#getAxisUnitName-displayunittype-)| Gets the Name of Axis Unit. |
 | [setAxisUnitName(DisplayUnitType, string)](#setAxisUnitName-displayunittype-string-)| Sets the Name of Axis Unit. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### constructor() {#constructor--}
@@ -232,5 +233,14 @@ setAxisUnitName(type: DisplayUnitType, name: string) : void;
 | --- | --- | --- |
 | type | [DisplayUnitType](../displayunittype/) |  |
 | name | string | local dependent name |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

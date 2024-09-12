@@ -31,6 +31,7 @@ class Timeline;
 | [setWidthPixel(number)](#setWidthPixel-number-)| Returns or sets the width of the specified timeline, in pixels. |
 | [getHeightPixel()](#getHeightPixel--)| Returns or sets the height of the specified timeline, in pixels. |
 | [setHeightPixel(number)](#setHeightPixel-number-)| Returns or sets the height of the specified timeline, in pixels. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getCaption() {#getCaption--}
@@ -164,5 +165,14 @@ setHeightPixel(value: number) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | number | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

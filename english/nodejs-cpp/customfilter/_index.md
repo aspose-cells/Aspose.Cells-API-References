@@ -21,6 +21,9 @@ class CustomFilter;
 | --- | --- |
 | [getFilterOperatorType()](#getFilterOperatorType--)| Gets and sets the filter operator type. |
 | [setFilterOperatorType(FilterOperatorType)](#setFilterOperatorType-filteroperatortype-)| Gets and sets the filter operator type. |
+| [getCriteria()](#getCriteria--)| Gets and sets the criteria. |
+| [setCriteria(FilterOperatorType, object)](#setCriteria-filteroperatortype-object-)| Sets the filter criteria. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getFilterOperatorType() {#getFilterOperatorType--}
@@ -48,5 +51,37 @@ setFilterOperatorType(value: FilterOperatorType) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [FilterOperatorType](../filteroperatortype/) | The value to set. |
+
+### getCriteria() {#getCriteria--}
+
+Gets and sets the criteria.
+
+```javascript
+getCriteria() : object;
+```
+
+
+### setCriteria(FilterOperatorType, object) {#setCriteria-filteroperatortype-object-}
+
+Sets the filter criteria.
+
+```javascript
+setCriteria(filterOperator: FilterOperatorType, criteria: object) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| filterOperator | [FilterOperatorType](../filteroperatortype/) | filter operator type |
+| criteria | object | filter criteria value |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

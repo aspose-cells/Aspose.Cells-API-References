@@ -31,6 +31,7 @@ class PivotFormatCondition;
 | [addColumnAreaCondition(string)](#addColumnAreaCondition-string-)| Adds PivotTable conditional format limit in the column fields. |
 | [addColumnAreaCondition(PivotField)](#addColumnAreaCondition-pivotfield-)| Adds PivotTable conditional format limit in the column fields. |
 | [setConditionalAreas()](#setConditionalAreas--)| Sets conditional areas of PivotFormatCondition object. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getScopeType() {#getScopeType--}
@@ -182,6 +183,15 @@ Sets conditional areas of PivotFormatCondition object.
 
 ```javascript
 setConditionalAreas() : void;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

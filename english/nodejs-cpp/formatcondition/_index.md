@@ -47,6 +47,7 @@ class FormatCondition;
 | [setFormulas(string, string, boolean, boolean)](#setFormulas-string-string-boolean-boolean-)| Sets the value or expression associated with this format condition. |
 | [setFormula1(string, boolean, boolean)](#setFormula1-string-boolean-boolean-)| Sets the value or expression associated with this format condition. |
 | [setFormula2(string, boolean, boolean)](#setFormula2-string-boolean-boolean-)| Sets the value or expression associated with this format condition. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getOperator() {#getOperator--}
@@ -449,5 +450,14 @@ setFormula2(formula: string, isR1C1: boolean, isLocal: boolean) : void;
 | formula | string | The value or expression associated with this format condition.         /// If the input value starts with '=', then it will be taken as formula. Otherwise it will be taken as plain value(text, number, bool).         /// For text value that starts with '=', user may input it as formula in format: "=\"=...\"". |
 | isR1C1 | boolean | Whether the formula is R1C1 formula. |
 | isLocal | boolean | Whether the formula is locale formatted. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

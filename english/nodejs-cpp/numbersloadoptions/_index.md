@@ -28,6 +28,7 @@ class NumbersLoadOptions extends LoadOptions;
 | --- | --- |
 | [getLoadTableType()](#getLoadTableType--)| Gets and sets the type of loading multiple tables in one worksheet. |
 | [setLoadTableType(LoadNumbersTableType)](#setLoadTableType-loadnumberstabletype-)| Gets and sets the type of loading multiple tables in one worksheet. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getLoadFormat()](#getLoadFormat--)| Gets the load format. |
 | [getPassword()](#getPassword--)| Gets and set the password of the workbook. |
 | [setPassword(string)](#setPassword-string-)| Gets and set the password of the workbook. |
@@ -118,6 +119,15 @@ setLoadTableType(value: LoadNumbersTableType) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [LoadNumbersTableType](../loadnumberstabletype/) | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 ### getLoadFormat() {#getLoadFormat--}
 

@@ -24,6 +24,7 @@ class GradientStopCollection;
 | [add(number, CellsColor, number)](#add-number-cellscolor-number-)| Add a gradient stop. |
 | [add(number, Color, number)](#add-number-color-number-)| Add a gradient stop. |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### get(number) {#get-number-}
@@ -97,6 +98,15 @@ Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

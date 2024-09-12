@@ -48,6 +48,8 @@ class LineFormat extends FillFormat;
 | [getWeight()](#getWeight--)| Gets or sets the weight of the line in unit of points. |
 | [setWeight(number)](#setWeight-number-)| Gets or sets the weight of the line in unit of points. |
 | [getHashCode()](#getHashCode--)| Gets the hash code. |
+| [equals(object)](#equals-object-)| Determines whether this instance has the same value as another specified [LineFormat](../lineformat/) object. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getFillType()](#getFillType--)| Gets and sets fill type |
 | [setFillType(FillType)](#setFillType-filltype-)| Gets and sets fill type |
 | [getTransparency()](#getTransparency--)| Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear). |
@@ -380,6 +382,32 @@ Gets the hash code.
 
 ```javascript
 getHashCode() : number;
+```
+
+
+### equals(object) {#equals-object-}
+
+Determines whether this instance has the same value as another specified [LineFormat](../lineformat/) object.
+
+```javascript
+equals(obj: object) : boolean;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | object | The [LineFormat](../lineformat/) object to compare with this instance. |
+
+**Returns**
+
+true if the value of the obj parameter is the same as the value of this instance; otherwise, false. If obj is null, this method returns false.
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

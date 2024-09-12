@@ -19,7 +19,7 @@ class DynamicFilter;
 
 | Name | Description |
 | --- | --- |
-| [constructor(IObject)](#constructor-iobject-)| Constructs from an IObject convertible to this. |
+| [constructor(Object)](#constructor-object-)| Constructs from an Object convertible to this. |
 
 ## Methods
 
@@ -27,20 +27,26 @@ class DynamicFilter;
 | --- | --- |
 | [getDynamicFilterType()](#getDynamicFilterType--)| Gets and sets the dynamic filter type. |
 | [setDynamicFilterType(DynamicFilterType)](#setDynamicFilterType-dynamicfiltertype-)| Gets and sets the dynamic filter type. |
+| [getValue()](#getValue--)| Gets and sets the dynamic filter value. |
+| [setValue(object)](#setValue-object-)| Gets and sets the dynamic filter value. |
+| [getMaxValue()](#getMaxValue--)| Gets and sets the dynamic filter max value. |
+| [setMaxValue(object)](#setMaxValue-object-)| Gets and sets the dynamic filter max value. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
+| [toObject()](#toObject--)| Gets the Object. |
 
 
-### constructor(IObject) {#constructor-iobject-}
+### constructor(Object) {#constructor-object-}
 
-Constructs from an IObject convertible to this.
+Constructs from an Object convertible to this.
 
 ```javascript
-constructor(obj: IObject);
+constructor(obj: Object);
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | IObject | The object. |
+| obj | Object | The object. |
 
 ### getDynamicFilterType() {#getDynamicFilterType--}
 
@@ -67,5 +73,71 @@ setDynamicFilterType(value: DynamicFilterType) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [DynamicFilterType](../dynamicfiltertype/) | The value to set. |
+
+### getValue() {#getValue--}
+
+Gets and sets the dynamic filter value.
+
+```javascript
+getValue() : object;
+```
+
+
+### setValue(object) {#setValue-object-}
+
+Gets and sets the dynamic filter value.
+
+```javascript
+setValue(value: object) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | object | The value to set. |
+
+### getMaxValue() {#getMaxValue--}
+
+Gets and sets the dynamic filter max value.
+
+```javascript
+getMaxValue() : object;
+```
+
+
+### setMaxValue(object) {#setMaxValue-object-}
+
+Gets and sets the dynamic filter max value.
+
+```javascript
+setMaxValue(value: object) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | object | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
+
+### toObject() {#toObject--}
+
+Gets the Object.
+
+```javascript
+toObject() : Object;
+```
+
+
+**Returns**
+
+[Object](../object/)
 
 

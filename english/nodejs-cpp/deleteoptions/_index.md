@@ -27,6 +27,7 @@ class DeleteOptions;
 | --- | --- |
 | [getUpdateReference()](#getUpdateReference--)| Indicates if update references in other worksheets. |
 | [setUpdateReference(boolean)](#setUpdateReference-boolean-)| Indicates if update references in other worksheets. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### constructor() {#constructor--}
@@ -59,5 +60,14 @@ setUpdateReference(value: boolean) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

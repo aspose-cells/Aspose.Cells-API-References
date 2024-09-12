@@ -33,6 +33,7 @@ class PatternFill;
 | [setForeTransparency(number)](#setForeTransparency-number-)| Gets or sets the transparency of foreground color. |
 | [getBackTransparency()](#getBackTransparency--)| Gets or sets the transparency of background color. |
 | [setBackTransparency(number)](#setBackTransparency-number-)| Gets or sets the transparency of background color. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getPattern() {#getPattern--}
@@ -208,5 +209,14 @@ setBackTransparency(value: number) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | number | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

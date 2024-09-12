@@ -25,6 +25,7 @@ class PaneCollection;
 | [setFirstVisibleColumnOfRightPane(number)](#setFirstVisibleColumnOfRightPane-number-)| Gets and sets the first visible column of the right pane. |
 | [getAcitvePaneType()](#getAcitvePaneType--)| Gets and sets the active pane. |
 | [setAcitvePaneType(RectangleAlignmentType)](#setAcitvePaneType-rectanglealignmenttype-)| Gets and sets the active pane. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getFirstVisibleRowOfBottomPane() {#getFirstVisibleRowOfBottomPane--}
@@ -96,5 +97,14 @@ setAcitvePaneType(value: RectangleAlignmentType) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [RectangleAlignmentType](../rectanglealignmenttype/) | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

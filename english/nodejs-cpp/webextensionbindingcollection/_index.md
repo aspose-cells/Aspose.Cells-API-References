@@ -28,6 +28,7 @@ class WebExtensionBindingCollection;
 | [get(number)](#get-number-)| Gets web extension binding relationship by the specific index. |
 | [add()](#add--)| Adds an a binding relationship between an Office Add-in and the data in the document. |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### constructor() {#constructor--}
@@ -71,6 +72,15 @@ Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

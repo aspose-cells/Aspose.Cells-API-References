@@ -183,12 +183,13 @@ class PivotTable;
 | [formatRow(number, Style)](#formatRow-number-style-)| Format the row data in the pivottable area |
 | [format(PivotArea, Style)](#format-pivotarea-style-)| Formats selected area of the PivotTable. |
 | [format(number, number, Style)](#format-number-number-style-)| Format the cell in the pivottable area |
-| [showDatail(number, number, boolean, number, number)](#showDatail-number-number-boolean-number-number-)| Show the detail of one item in the data region to a new Table. |
+| [showDetail(number, number, boolean, number, number)](#showDetail-number-number-boolean-number-number-)| Show the detail of one item in the data region to a new Table. |
 | [showInCompactForm()](#showInCompactForm--)| Layouts the PivotTable in compact form. |
 | [showInOutlineForm()](#showInOutlineForm--)| Layouts the PivotTable in outline form. |
 | [showInTabularForm()](#showInTabularForm--)| Layouts the PivotTable in tabular form. |
 | [getCellByDisplayName(string)](#getCellByDisplayName-string-)| Gets the [Cell](../cell/) object by the display name of PivotField. |
 | [getChildren()](#getChildren--)| Gets the Children Pivot Tables which use this PivotTable data as data source. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### isExcel2003Compatible() {#isExcel2003Compatible--}
@@ -2125,12 +2126,12 @@ format(row: number, column: number, style: Style) : void;
 | column | number | Column index of the cell |
 | style | [Style](../style/) | Style which is to format the cell |
 
-### showDatail(number, number, boolean, number, number) {#showDatail-number-number-boolean-number-number-}
+### showDetail(number, number, boolean, number, number) {#showDetail-number-number-boolean-number-number-}
 
 Show the detail of one item in the data region to a new Table.
 
 ```javascript
-showDatail(rowOffset: number, columnOffset: number, newSheet: boolean, destRow: number, destColumn: number) : void;
+showDetail(rowOffset: number, columnOffset: number, newSheet: boolean, destRow: number, destColumn: number) : void;
 ```
 
 **Parameters:**
@@ -2138,7 +2139,7 @@ showDatail(rowOffset: number, columnOffset: number, newSheet: boolean, destRow: 
 | --- | --- | --- |
 | rowOffset | number | Offset to the first data row in the data region. |
 | columnOffset | number | Offset to the first data column in the data region. |
-| newSheet | boolean | Show the datail to a new worksheet. |
+| newSheet | boolean | Show the detail to a new worksheet. |
 | destRow | number | The target row. |
 | destColumn | number | The target column. |
 
@@ -2198,5 +2199,14 @@ getChildren() : PivotTable[];
 **Returns**
 
 the PivotTable array object
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

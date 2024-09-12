@@ -39,6 +39,7 @@ Scroll value must be between 0 and 30000.
 | [setShadow(boolean)](#setShadow-boolean-)| Indicates whether the shape has 3-D shading. |
 | [isHorizontal()](#isHorizontal--)| Indicates whether this is a horizontal scroll bar. |
 | [setIsHorizontal(boolean)](#setIsHorizontal-boolean-)| Indicates whether this is a horizontal scroll bar. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getMacroName()](#getMacroName--)| Gets and sets the name of macro. |
 | [setMacroName(string)](#setMacroName-string-)| Gets and sets the name of macro. |
 | [isEquation()](#isEquation--)| Indicates whether the shape only contains an equation. |
@@ -222,6 +223,7 @@ Scroll value must be between 0 and 30000.
 | [characters(number, number)](#characters-number-number-)| Returns a Characters object that represents a range of characters within the text. |
 | [getRichFormattings()](#getRichFormattings--)| Returns all Characters objects that represents a range of characters within the text . |
 | [removeActiveXControl()](#removeActiveXControl--)| Remove activeX control. |
+| [isSameSetting(object)](#isSameSetting-object-)| Returns whether the shape is same. |
 | [getActualBox()](#getActualBox--)| Get the actual position and size of the shape (after applying rotation, flip, etc.) |
 
 
@@ -369,6 +371,15 @@ setIsHorizontal(value: boolean) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 ### getMacroName() {#getMacroName--}
 
@@ -2629,6 +2640,19 @@ Remove activeX control.
 removeActiveXControl() : void;
 ```
 
+
+### isSameSetting(object) {#isSameSetting-object-}
+
+Returns whether the shape is same.
+
+```javascript
+isSameSetting(obj: object) : boolean;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | object |  |
 
 ### getActualBox() {#getActualBox--}
 

@@ -28,6 +28,7 @@ class RevisionFormat extends Revision;
 | [getType()](#getType--)| Gets the type of revision. |
 | [getAreas()](#getAreas--)| The range to which this formatting was applied. |
 | [getStyle()](#getStyle--)| Gets the applied style. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getWorksheet()](#getWorksheet--)| Gets the worksheet. |
 | [getId()](#getId--)| Gets the number of this revision. |
 
@@ -83,6 +84,15 @@ getStyle() : Style;
 **Returns**
 
 [Style](../style/)
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 ### getWorksheet() {#getWorksheet--}
 

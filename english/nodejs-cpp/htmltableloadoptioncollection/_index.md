@@ -36,6 +36,7 @@ class HtmlTableLoadOptionCollection;
 | [add(number, number, number)](#add-number-number-number-)| Add a HtmlTableLoadOption to the list. |
 | [add(string, number, number)](#add-string-number-number-)| Add a HtmlTableLoadOption to the list. |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### constructor() {#constructor--}
@@ -193,6 +194,15 @@ Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

@@ -56,6 +56,7 @@ class SqlScriptSaveOptions extends SaveOptions;
 | [setExportArea(CellArea)](#setExportArea-cellarea-)| Gets or sets the exporting range. |
 | [getHasHeaderRow()](#getHasHeaderRow--)| Indicates whether the range contains header row. |
 | [setHasHeaderRow(boolean)](#setHasHeaderRow-boolean-)| Indicates whether the range contains header row. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getSaveFormat()](#getSaveFormat--)| Gets the save file format. |
 | [getClearData()](#getClearData--)| Make the workbook empty after saving the file. |
 | [setClearData(boolean)](#setClearData-boolean-)| Make the workbook empty after saving the file. |
@@ -488,6 +489,15 @@ setHasHeaderRow(value: boolean) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 ### getSaveFormat() {#getSaveFormat--}
 

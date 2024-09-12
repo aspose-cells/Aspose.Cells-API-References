@@ -25,6 +25,7 @@ class FontConfigs;
 
 | Method | Description |
 | --- | --- |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | static [getDefaultFontName()](#getDefaultFontName--)| Gets or sets the default font name. |
 | static [setDefaultFontName(string)](#setDefaultFontName-string-)| Gets or sets the default font name. |
 | static [getPreferSystemFontSubstitutes()](#getPreferSystemFontSubstitutes--)| Indicate whether to use system font substitutes first or not when a font is not presented and the substitute of this font is not set. e.g. On Ubuntu, "Arial" font is generally substituted by "Liberation Sans". Default value is false. |
@@ -44,6 +45,15 @@ Default Constructor.
 
 ```javascript
 constructor();
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

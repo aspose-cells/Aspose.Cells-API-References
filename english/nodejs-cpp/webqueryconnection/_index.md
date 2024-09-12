@@ -51,6 +51,7 @@ class WebQueryConnection extends ExternalConnection;
 | [setEditWebPage(string)](#setEditWebPage-string-)| The URL of the user-facing web page showing the web query data. This URL is persisted in the case that sourceData="true" and url has been redirected to reference an XML file. Then the user-facing page can be shown in the UI, and the XML data can be retrieved behind the scenes. |
 | [isConsecutive()](#isConsecutive--)| Flag indicating whether consecutive delimiters should be treated as just one delimiter. |
 | [setIsConsecutive(boolean)](#setIsConsecutive-boolean-)| Flag indicating whether consecutive delimiters should be treated as just one delimiter. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getId()](#getId--)| Gets the id of the connection. |
 | [getType()](#getType--)| Gets or Sets the external connection DataSource type. |
 | [setType(ConnectionDataSourceType)](#setType-connectiondatasourcetype-)| Gets or Sets the external connection DataSource type. |
@@ -393,6 +394,15 @@ setIsConsecutive(value: boolean) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 ### getId() {#getId--}
 

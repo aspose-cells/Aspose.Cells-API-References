@@ -35,6 +35,7 @@ class AbstractTextLoadOptions extends LoadOptions;
 | [setConvertDateTimeData(boolean)](#setConvertDateTimeData-boolean-)| Gets or sets a value that indicates whether the string in text file is converted to date data. |
 | [getKeepPrecision()](#getKeepPrecision--)| Indicates whether not parsing a string value if the length is 15. |
 | [setKeepPrecision(boolean)](#setKeepPrecision-boolean-)| Indicates whether not parsing a string value if the length is 15. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getLoadFormat()](#getLoadFormat--)| Gets the load format. |
 | [getPassword()](#getPassword--)| Gets and set the password of the workbook. |
 | [setPassword(string)](#setPassword-string-)| Gets and set the password of the workbook. |
@@ -208,6 +209,15 @@ setKeepPrecision(value: boolean) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 ### getLoadFormat() {#getLoadFormat--}
 

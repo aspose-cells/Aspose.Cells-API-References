@@ -32,6 +32,7 @@ class ChartFrame;
 | [getDefaultWidth()](#getDefaultWidth--)| Represents width of default position |
 | [getDefaultHeight()](#getDefaultHeight--)| Represents height of default position |
 | [setPositionAuto()](#setPositionAuto--)| Set position of the frame to automatic |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getBorder()](#getBorder--)| Gets the <see cref="Line">border</see>. |
 | [getArea()](#getArea--)| Gets the <see cref="Area">area</see>. |
 | [getTextOptions()](#getTextOptions--)| Gets and sets the options of the text. |
@@ -192,6 +193,15 @@ Set position of the frame to automatic
 
 ```javascript
 setPositionAuto() : void;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

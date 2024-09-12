@@ -39,6 +39,7 @@ class OoxmlSaveOptions extends SaveOptions;
 | [setEmbedOoxmlAsOleObject(boolean)](#setEmbedOoxmlAsOleObject-boolean-)| Indicates whether embedding Ooxml files of OleObject as ole object. |
 | [getCompressionType()](#getCompressionType--)| Gets and sets the compression type for ooxml file. |
 | [setCompressionType(OoxmlCompressionType)](#setCompressionType-ooxmlcompressiontype-)| Gets and sets the compression type for ooxml file. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getSaveFormat()](#getSaveFormat--)| Gets the save file format. |
 | [getClearData()](#getClearData--)| Make the workbook empty after saving the file. |
 | [setClearData(boolean)](#setClearData-boolean-)| Make the workbook empty after saving the file. |
@@ -262,6 +263,15 @@ setCompressionType(value: OoxmlCompressionType) : void;
 **Remarks**
 
 The default value is OoxmlCompressionType.Level2.
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 ### getSaveFormat() {#getSaveFormat--}
 

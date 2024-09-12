@@ -28,6 +28,7 @@ class ExternalLink;
 | [isReferred()](#isReferred--)| Indicates whether this external link is referenced by others. |
 | [isVisible()](#isVisible--)| Indicates whether this external link is visible in MS Excel. |
 | [addExternalName(string, string)](#addExternalName-string-string-)| Adds an external name. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getType() {#getType--}
@@ -127,5 +128,14 @@ addExternalName(text: string, referTo: string) : void;
 | --- | --- | --- |
 | text | string | The text of the external name.         /// If the external name belongs to a worksheet, the text should be as Sheet1!Text. |
 | referTo | string | The referTo of the external name. It must be a cell or the range. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

@@ -23,6 +23,7 @@ class TextTabStop;
 | [setTabAlignment(TextTabAlignmentType)](#setTabAlignment-texttabalignmenttype-)| Specifies the alignment that is to be applied to text using this tab stop. |
 | [getTabPosition()](#getTabPosition--)| Specifies the position of the tab stop relative to the left margin. |
 | [setTabPosition(number)](#setTabPosition-number-)| Specifies the position of the tab stop relative to the left margin. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getTabAlignment() {#getTabAlignment--}
@@ -72,5 +73,14 @@ setTabPosition(value: number) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | number | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

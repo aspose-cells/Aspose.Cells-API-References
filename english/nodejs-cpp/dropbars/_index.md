@@ -21,6 +21,7 @@ class DropBars;
 | --- | --- |
 | [getBorder()](#getBorder--)| Gets the border [Line](../line/). |
 | [getArea()](#getArea--)| Gets the [Area](../area/). |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getBorder() {#getBorder--}
@@ -48,5 +49,14 @@ getArea() : Area;
 **Returns**
 
 [Area](../area/)
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

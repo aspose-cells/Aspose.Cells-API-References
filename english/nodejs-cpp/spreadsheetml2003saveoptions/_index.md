@@ -32,6 +32,7 @@ class SpreadsheetML2003SaveOptions extends SaveOptions;
 | [setLimitAsXls(boolean)](#setLimitAsXls-boolean-)| Limit as xls, the max row index is 65535 and the max column index is 255. |
 | [getExportColumnIndexOfCell()](#getExportColumnIndexOfCell--)| The default value is false, it means that column index  will be ignored if the cell is contiguous to the previous cell. |
 | [setExportColumnIndexOfCell(boolean)](#setExportColumnIndexOfCell-boolean-)| The default value is false, it means that column index  will be ignored if the cell is contiguous to the previous cell. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getSaveFormat()](#getSaveFormat--)| Gets the save file format. |
 | [getClearData()](#getClearData--)| Make the workbook empty after saving the file. |
 | [setClearData(boolean)](#setClearData-boolean-)| Make the workbook empty after saving the file. |
@@ -152,6 +153,15 @@ setExportColumnIndexOfCell(value: boolean) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 ### getSaveFormat() {#getSaveFormat--}
 

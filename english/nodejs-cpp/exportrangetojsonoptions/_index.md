@@ -33,6 +33,7 @@ class ExportRangeToJsonOptions;
 | [setExportEmptyCells(boolean)](#setExportEmptyCells-boolean-)| Indicates whether exporting empty cells as null. |
 | [getIndent()](#getIndent--)| Indicates the indent. |
 | [setIndent(string)](#setIndent-string-)| Indicates the indent. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### constructor() {#constructor--}
@@ -139,5 +140,14 @@ setIndent(value: string) : void;
 **Remarks**
 
 If the indent is null or empty, the exported json is not formatted.
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

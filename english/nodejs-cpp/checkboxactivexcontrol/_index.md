@@ -46,6 +46,7 @@ class CheckBoxActiveXControl extends ActiveXControl;
 | [setValue(CheckValueType)](#setValue-checkvaluetype-)| Indicates if the control is checked or not. |
 | [isTripleState()](#isTripleState--)| Indicates how the specified control will display Null values. |
 | [setIsTripleState(boolean)](#setIsTripleState-boolean-)| Indicates how the specified control will display Null values. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getWorkbook()](#getWorkbook--)| Gets the [Workbook](../workbook/) object. |
 | [getMouseIcon()](#getMouseIcon--)| Gets and sets a custom icon to display as the mouse pointer for the control. |
 | [setMouseIcon(number[])](#setMouseIcon-numberarray-)| Gets and sets a custom icon to display as the mouse pointer for the control. |
@@ -356,6 +357,15 @@ setIsTripleState(value: boolean) : void;
 **Remarks**
 
 <list type="table"> <listheader> <description>Setting</description> <description>Description</description> </listheader> <item> <description>True</description> <description>The control will cycle through states for Yes, No, and Null values. The control appears dimmed (grayed) when its Value property is set to Null.</description> </item> <item> <description>False</description> <description>(Default) The control will cycle through states for Yes and No values. Null values display as if they were No values.</description> </item> </list>
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 ### getWorkbook() {#getWorkbook--}
 

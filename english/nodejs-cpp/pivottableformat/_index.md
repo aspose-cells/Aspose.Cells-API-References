@@ -22,6 +22,7 @@ class PivotTableFormat;
 | [getPivotArea()](#getPivotArea--)| Gets the pivot area. |
 | [getStyle()](#getStyle--)| Gets the formatted style. |
 | [setStyle(Style)](#setStyle-style-)| Sets the style of the pivot area. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getPivotArea() {#getPivotArea--}
@@ -62,5 +63,14 @@ setStyle(style: Style) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | style | [Style](../style/) |  |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

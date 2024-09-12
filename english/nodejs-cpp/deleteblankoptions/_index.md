@@ -32,6 +32,7 @@ class DeleteBlankOptions extends DeleteOptions;
 | [setEmptyFormulaValueAsBlank(boolean)](#setEmptyFormulaValueAsBlank-boolean-)| Whether one cell will be taken as blank when it is formula and the calculated result is null or empty string. Default value is false. |
 | [getMergedCellsShrinkType()](#getMergedCellsShrinkType--)| Indicates how to process merged cells when deleting blank rows/columns.<br></br> For [MergedCellsShrinkType.KeepHeaderOnly](../mergedcellsshrinktype.keepheaderonly/), all cells in it will be taken as blank except the non-blank top-left cell. It is the default value of this property.<br></br> For [MergedCellsShrinkType.None](../mergedcellsshrinktype.none/), all cells in it will be taken as non-blank.<br></br> For [MergedCellsShrinkType.ShrinkToFit](../mergedcellsshrinktype.shrinktofit/), all cells outside the content display area will be taken as blank.<br></br> |
 | [setMergedCellsShrinkType(MergedCellsShrinkType)](#setMergedCellsShrinkType-mergedcellsshrinktype-)| Indicates how to process merged cells when deleting blank rows/columns.<br></br> For [MergedCellsShrinkType.KeepHeaderOnly](../mergedcellsshrinktype.keepheaderonly/), all cells in it will be taken as blank except the non-blank top-left cell. It is the default value of this property.<br></br> For [MergedCellsShrinkType.None](../mergedcellsshrinktype.none/), all cells in it will be taken as non-blank.<br></br> For [MergedCellsShrinkType.ShrinkToFit](../mergedcellsshrinktype.shrinktofit/), all cells outside the content display area will be taken as blank.<br></br> |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getUpdateReference()](#getUpdateReference--)| Indicates if update references in other worksheets. |
 | [setUpdateReference(boolean)](#setUpdateReference-boolean-)| Indicates if update references in other worksheets. |
 
@@ -135,6 +136,15 @@ setMergedCellsShrinkType(value: MergedCellsShrinkType) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [MergedCellsShrinkType](../mergedcellsshrinktype/) | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 ### getUpdateReference() {#getUpdateReference--}
 

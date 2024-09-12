@@ -23,6 +23,8 @@ class UnionRange;
 | [getFirstColumn()](#getFirstColumn--)| Gets the index of the first column of the range. |
 | [getRowCount()](#getRowCount--)| Gets the count of rows in the range. |
 | [getColumnCount()](#getColumnCount--)| Gets the count of rows in the range. |
+| [getValue()](#getValue--)| Gets and sets the values of the range. |
+| [setValue(object)](#setValue-object-)| Gets and sets the values of the range. |
 | [getName()](#getName--)| Gets or sets the name of the range. |
 | [setName(string)](#setName-string-)| Gets or sets the name of the range. |
 | [getRefersTo()](#getRefersTo--)| Gets the range's refers to. |
@@ -46,6 +48,7 @@ class UnionRange;
 | [union(string)](#union-string-)| Union another range. |
 | [union(UnionRange)](#union-unionrange-)| Union another range. |
 | [union(Range[])](#union-rangearray-)| Union the ranges. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getFirstRow() {#getFirstRow--}
@@ -99,6 +102,28 @@ getColumnCount() : number;
 **Remarks**
 
 Only effects when it only contains one range.
+
+### getValue() {#getValue--}
+
+Gets and sets the values of the range.
+
+```javascript
+getValue() : object;
+```
+
+
+### setValue(object) {#setValue-object-}
+
+Gets and sets the values of the range.
+
+```javascript
+setValue(value: object) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | object | The value to set. |
 
 ### getName() {#getName--}
 
@@ -436,5 +461,14 @@ union(ranges: Range[]) : UnionRange;
 **Returns**
 
 [UnionRange](../unionrange/)
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

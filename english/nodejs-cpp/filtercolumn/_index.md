@@ -27,6 +27,7 @@ class FilterColumn;
 | [setFilterType(FilterType)](#setFilterType-filtertype-)| Gets and sets the type fo filtering data. |
 | [getFieldIndex()](#getFieldIndex--)| Gets and sets the column offset in the range. |
 | [setFieldIndex(number)](#setFieldIndex-number-)| Gets and sets the column offset in the range. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### isDropdownVisible() {#isDropdownVisible--}
@@ -120,5 +121,14 @@ setFieldIndex(value: number) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | number | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

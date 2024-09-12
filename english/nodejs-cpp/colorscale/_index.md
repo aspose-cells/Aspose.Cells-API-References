@@ -30,6 +30,7 @@ class ColorScale;
 | [setMidColor(Color)](#setMidColor-color-)| Get or set the gradient color for the middle value in the range. |
 | [getMaxColor()](#getMaxColor--)| Get or set the gradient color for the maximum value in the range. |
 | [setMaxColor(Color)](#setMaxColor-color-)| Get or set the gradient color for the maximum value in the range. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getIs3ColorScale() {#getIs3ColorScale--}
@@ -170,5 +171,14 @@ setMaxColor(value: Color) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [Color](../color/) | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

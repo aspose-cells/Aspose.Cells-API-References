@@ -22,6 +22,7 @@ class SlicerCacheItem;
 | [getSelected()](#getSelected--)| Specifies whether the SlicerItem is selected or not. |
 | [setSelected(boolean)](#setSelected-boolean-)| Specifies whether the SlicerItem is selected or not. |
 | [getValue()](#getValue--)| Returns the label text for the slicer item. Read-only. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getSelected() {#getSelected--}
@@ -52,6 +53,15 @@ Returns the label text for the slicer item. Read-only.
 
 ```javascript
 getValue() : string;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

@@ -38,6 +38,7 @@ class XmlSaveOptions extends SaveOptions;
 | [setSheetNameAsElementName(boolean)](#setSheetNameAsElementName-boolean-)| Indicates whether exporting sheet's name as the name of the element. |
 | [getDataAsAttribute()](#getDataAsAttribute--)| Indicates whether exporting data as attributes of element. |
 | [setDataAsAttribute(boolean)](#setDataAsAttribute-boolean-)| Indicates whether exporting data as attributes of element. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getSaveFormat()](#getSaveFormat--)| Gets the save file format. |
 | [getClearData()](#getClearData--)| Make the workbook empty after saving the file. |
 | [setClearData(boolean)](#setClearData-boolean-)| Make the workbook empty after saving the file. |
@@ -224,6 +225,15 @@ setDataAsAttribute(value: boolean) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 ### getSaveFormat() {#getSaveFormat--}
 

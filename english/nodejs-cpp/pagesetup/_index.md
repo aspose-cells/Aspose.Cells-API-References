@@ -123,6 +123,7 @@ class PageSetup;
 | [setPicture(boolean, boolean, boolean, number, number[])](#setPicture-boolean-boolean-boolean-number-numberarray-)| Sets an image in the header/footer of a worksheet. |
 | [getPicture(boolean, number)](#getPicture-boolean-number-)| Gets the [Picture](../picture/) object of the header / footer. |
 | [getPicture(boolean, boolean, boolean, number)](#getPicture-boolean-boolean-boolean-number-)| Gets the [Picture](../picture/) object of the header / footer. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getODSPageBackground() {#getODSPageBackground--}
@@ -1395,5 +1396,14 @@ getPicture(isFirst: boolean, isEven: boolean, isHeader: boolean, section: number
 **Returns**
 
 Returns [Picture](../picture/) object.
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

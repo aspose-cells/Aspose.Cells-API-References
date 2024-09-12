@@ -29,6 +29,7 @@ class WebExtensionPropertyCollection;
 | [add(string, string)](#add-string-string-)| Adds web extension property. |
 | [removeAt(string)](#removeAt-string-)| Remove the property by the name. |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### constructor() {#constructor--}
@@ -94,6 +95,15 @@ Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

@@ -21,6 +21,7 @@ class Revision;
 | --- | --- |
 | [getWorksheet()](#getWorksheet--)| Gets the worksheet. |
 | [getId()](#getId--)| Gets the number of this revision. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getType()](#getType--)| Represents the type of revision. |
 
 
@@ -49,6 +50,15 @@ getId() : number;
 **Remarks**
 
 Zero means this revision does not contains id.
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 ### getType() {#getType--}
 

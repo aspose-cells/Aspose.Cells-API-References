@@ -29,6 +29,7 @@ class NameCollection;
 | [removeDuplicateNames()](#removeDuplicateNames--)| Remove the duplicate defined names |
 | [sort()](#sort--)| Sorts defined names. |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### get(number) {#get-number-}
@@ -167,6 +168,15 @@ Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

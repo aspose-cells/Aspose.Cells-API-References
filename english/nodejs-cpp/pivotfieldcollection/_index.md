@@ -27,6 +27,7 @@ class PivotFieldCollection;
 | [add(PivotField)](#add-pivotfield-)| Adds a PivotField Object to the specific type PivotFields. |
 | [clear()](#clear--)| clear all fields of PivotFieldCollection |
 | [move(number, number)](#move-number-number-)| Moves the PivotField from current position to destination position |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### get(number) {#get-number-}
@@ -137,5 +138,14 @@ move(currPos: number, destPos: number) : void;
 | --- | --- | --- |
 | currPos | number | Current position of PivotField based on zero |
 | destPos | number | Destination position of PivotField based on zero |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

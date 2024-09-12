@@ -29,6 +29,7 @@ class CellWatchCollection;
 | [add(number, number)](#add-number-number-)| Adds [CellWatch](../cellwatch/) with row and column. |
 | [add(string)](#add-string-)| Adds [CellWatch](../cellwatch/) with the name the of cell. |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### constructor() {#constructor--}
@@ -94,6 +95,15 @@ Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

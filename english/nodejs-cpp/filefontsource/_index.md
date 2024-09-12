@@ -28,6 +28,7 @@ class FileFontSource extends FontSourceBase;
 | --- | --- |
 | [getFilePath()](#getFilePath--)| Path to font file. |
 | [getType()](#getType--)| Returns the type of the font source. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### constructor(FontSourceBase) {#constructor-fontsourcebase-}
@@ -77,5 +78,14 @@ getType() : FontSourceType;
 **Returns**
 
 [FontSourceType](../fontsourcetype/)
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

@@ -56,6 +56,7 @@ class ExternalConnection;
 | [getBackgroundRefresh()](#getBackgroundRefresh--)| Indicates whether the connection can be refreshed in the background (asynchronously). true if preferred usage of the connection is to refresh asynchronously in the background; false if preferred usage of the connection is to refresh synchronously in the foreground. |
 | [setBackgroundRefresh(boolean)](#setBackgroundRefresh-boolean-)| Indicates whether the connection can be refreshed in the background (asynchronously). true if preferred usage of the connection is to refresh asynchronously in the background; false if preferred usage of the connection is to refresh synchronously in the foreground. |
 | [getParameters()](#getParameters--)| Gets [ConnectionParameterCollection](../connectionparametercollection/) for an ODBC or web query. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getPowerQueryFormula()](#getPowerQueryFormula--)| Gets the definition of power query formula. |
 
 
@@ -475,6 +476,15 @@ getParameters() : ConnectionParameterCollection;
 **Returns**
 
 [ConnectionParameterCollection](../connectionparametercollection/)
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 ### getPowerQueryFormula() {#getPowerQueryFormula--}
 

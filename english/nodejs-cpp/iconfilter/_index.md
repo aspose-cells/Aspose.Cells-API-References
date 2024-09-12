@@ -19,7 +19,7 @@ class IconFilter;
 
 | Name | Description |
 | --- | --- |
-| [constructor(IObject)](#constructor-iobject-)| Constructs from an IObject convertible to this. |
+| [constructor(Object)](#constructor-object-)| Constructs from an Object convertible to this. |
 
 ## Methods
 
@@ -29,20 +29,22 @@ class IconFilter;
 | [setIconSetType(IconSetType)](#setIconSetType-iconsettype-)| Gets and sets which icon set is used in the filter criteria. |
 | [getIconId()](#getIconId--)| Gets and sets Zero-based index of an icon in an icon set. |
 | [setIconId(number)](#setIconId-number-)| Gets and sets Zero-based index of an icon in an icon set. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
+| [toObject()](#toObject--)| Gets the Object. |
 
 
-### constructor(IObject) {#constructor-iobject-}
+### constructor(Object) {#constructor-object-}
 
-Constructs from an IObject convertible to this.
+Constructs from an Object convertible to this.
 
 ```javascript
-constructor(obj: IObject);
+constructor(obj: Object);
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | IObject | The object. |
+| obj | Object | The object. |
 
 ### getIconSetType() {#getIconSetType--}
 
@@ -91,5 +93,27 @@ setIconId(value: number) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | number | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
+
+### toObject() {#toObject--}
+
+Gets the Object.
+
+```javascript
+toObject() : Object;
+```
+
+
+**Returns**
+
+[Object](../object/)
 
 

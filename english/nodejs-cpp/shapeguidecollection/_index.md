@@ -28,6 +28,7 @@ class ShapeGuideCollection;
 | [get(number)](#get-number-)| Gets a shape guide by index |
 | [add(string, number)](#add-string-number-)| Adds a shape guide.(Important: This feature is currently only available for Excel07 and above) |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### constructor() {#constructor--}
@@ -76,6 +77,15 @@ Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

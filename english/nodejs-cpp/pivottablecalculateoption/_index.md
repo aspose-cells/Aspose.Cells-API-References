@@ -31,6 +31,7 @@ class PivotTableCalculateOption;
 | [setRefreshCharts(boolean)](#setRefreshCharts-boolean-)| Indicates whether refreshing charts are based on this pivot table. |
 | [getReserveMissingPivotItemType()](#getReserveMissingPivotItemType--)| Represents how to reserve missing pivot items. |
 | [setReserveMissingPivotItemType(ReserveMissingPivotItemType)](#setReserveMissingPivotItemType-reservemissingpivotitemtype-)| Represents how to reserve missing pivot items. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### constructor() {#constructor--}
@@ -119,5 +120,14 @@ setReserveMissingPivotItemType(value: ReserveMissingPivotItemType) : void;
 **Remarks**
 
 Only works when [RefreshData](../refreshdata/) is true.
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

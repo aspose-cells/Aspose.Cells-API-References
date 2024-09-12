@@ -29,6 +29,7 @@ class ThemeColor;
 | [setColorType(ThemeColorType)](#setColorType-themecolortype-)| Gets and sets the theme type. |
 | [getTint()](#getTint--)| Gets and sets the tint value. |
 | [setTint(number)](#setTint-number-)| Gets and sets the tint value. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### constructor(ThemeColorType, number) {#constructor-themecolortype-number-}
@@ -100,5 +101,14 @@ setTint(value: number) : void;
 **Remarks**
 
 The tint value is stored as a double from -1.0 .. 1.0, where -1.0 means 100% darken and 1.0 means 100% lighten. Also, 0.0 means no change.
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

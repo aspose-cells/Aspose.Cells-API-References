@@ -25,6 +25,7 @@ class PivotFieldGroupSettings;
 
 | Method | Description |
 | --- | --- |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getType()](#getType--)| Gets the group type of pivot field. |
 
 
@@ -34,6 +35,15 @@ Default Constructor.
 
 ```javascript
 constructor();
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

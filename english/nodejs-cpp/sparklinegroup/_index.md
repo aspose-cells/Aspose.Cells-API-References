@@ -73,6 +73,7 @@ class SparklineGroup;
 | [getVerticalAxisMinValue()](#getVerticalAxisMinValue--)| Gets and sets the custom minimum value for the vertical axis. |
 | [setVerticalAxisMinValue(number)](#setVerticalAxisMinValue-number-)| Gets and sets the custom minimum value for the vertical axis. |
 | [resetRanges(string, boolean, CellArea)](#resetRanges-string-boolean-cellarea-)| Resets the data range and location range of the sparkline group. This method will clear original sparkline items in the group and creates new sparkline items for the new ranges. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getPresetStyle() {#getPresetStyle--}
@@ -726,5 +727,14 @@ resetRanges(dataRange: string, isVertical: boolean, locationRange: CellArea) : v
 | dataRange | string | Specifies the new data range of the sparkline group. |
 | isVertical | boolean | Specifies whether to plot the sparklines from the new data range by row or by column. |
 | locationRange | [CellArea](../cellarea/) | Specifies where the sparklines to be placed. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

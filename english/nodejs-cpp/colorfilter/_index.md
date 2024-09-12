@@ -19,7 +19,7 @@ class ColorFilter;
 
 | Name | Description |
 | --- | --- |
-| [constructor(IObject)](#constructor-iobject-)| Constructs from an IObject convertible to this. |
+| [constructor(Object)](#constructor-object-)| Constructs from an Object convertible to this. |
 
 ## Methods
 
@@ -28,20 +28,22 @@ class ColorFilter;
 | [getFilterByFillColor()](#getFilterByFillColor--)| Whether filter by the cell's fill color. |
 | [setFilterByFillColor(boolean)](#setFilterByFillColor-boolean-)| Whether filter by the cell's fill color. |
 | [getColor(WorksheetCollection)](#getColor-worksheetcollection-)| Gets the color of this filter. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
+| [toObject()](#toObject--)| Gets the Object. |
 
 
-### constructor(IObject) {#constructor-iobject-}
+### constructor(Object) {#constructor-object-}
 
-Constructs from an IObject convertible to this.
+Constructs from an Object convertible to this.
 
 ```javascript
-constructor(obj: IObject);
+constructor(obj: Object);
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | IObject | The object. |
+| obj | Object | The object. |
 
 ### getFilterByFillColor() {#getFilterByFillColor--}
 
@@ -89,5 +91,27 @@ getColor(sheets: WorksheetCollection) : Color;
 **Returns**
 
 [Color](../color/)
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
+
+### toObject() {#toObject--}
+
+Gets the Object.
+
+```javascript
+toObject() : Object;
+```
+
+
+**Returns**
+
+[Object](../object/)
 
 

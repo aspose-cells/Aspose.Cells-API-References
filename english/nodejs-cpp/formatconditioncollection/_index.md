@@ -30,6 +30,7 @@ class FormatConditionCollection;
 | [removeArea(number)](#removeArea-number-)| Removes conditional formatted cell range by index. |
 | [removeArea(number, number, number, number)](#removeArea-number-number-number-number-)| Remove conditional formatting int the range. |
 | [removeCondition(number)](#removeCondition-number-)| Removes the formatting condition by index. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### get(number) {#get-number-}
@@ -204,5 +205,14 @@ removeCondition(index: number) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | number | The index of the formatting condition to be removed. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

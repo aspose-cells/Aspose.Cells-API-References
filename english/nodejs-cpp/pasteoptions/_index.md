@@ -37,6 +37,7 @@ class PasteOptions;
 | [setOperationType(PasteOperationType)](#setOperationType-pasteoperationtype-)| Gets and sets the operation type when pasting range. |
 | [getIgnoreLinksToOriginalFile()](#getIgnoreLinksToOriginalFile--)| Ingore links to the original file. |
 | [setIgnoreLinksToOriginalFile(boolean)](#setIgnoreLinksToOriginalFile-boolean-)| Ingore links to the original file. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### constructor() {#constructor--}
@@ -187,5 +188,14 @@ setIgnoreLinksToOriginalFile(value: boolean) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

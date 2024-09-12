@@ -64,6 +64,7 @@ class TextBoxActiveXControl extends ActiveXControl;
 | [setDropButtonStyle(DropButtonStyle)](#setDropButtonStyle-dropbuttonstyle-)| Specifies the symbol displayed on the drop button |
 | [getShowDropButtonTypeWhen()](#getShowDropButtonTypeWhen--)| Specifies the symbol displayed on the drop button |
 | [setShowDropButtonTypeWhen(ShowDropButtonType)](#setShowDropButtonTypeWhen-showdropbuttontype-)| Specifies the symbol displayed on the drop button |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getWorkbook()](#getWorkbook--)| Gets the [Workbook](../workbook/) object. |
 | [getMouseIcon()](#getMouseIcon--)| Gets and sets a custom icon to display as the mouse pointer for the control. |
 | [setMouseIcon(number[])](#setMouseIcon-numberarray-)| Gets and sets a custom icon to display as the mouse pointer for the control. |
@@ -566,6 +567,15 @@ setShowDropButtonTypeWhen(value: ShowDropButtonType) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [ShowDropButtonType](../showdropbuttontype/) | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 ### getWorkbook() {#getWorkbook--}
 

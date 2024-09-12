@@ -35,6 +35,7 @@ class PdfBookmarkEntry;
 | [setIsOpen(boolean)](#setIsOpen-boolean-)| When this property is true, the bookmarkentry will expand, otherwise it will collapse. |
 | [isCollapse()](#isCollapse--)| When this property is true, the bookmarkentry will collapse, otherwise it will expand. |
 | [setIsCollapse(boolean)](#setIsCollapse-boolean-)| When this property is true, the bookmarkentry will collapse, otherwise it will expand. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### constructor() {#constructor--}
@@ -167,5 +168,14 @@ setIsCollapse(value: boolean) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

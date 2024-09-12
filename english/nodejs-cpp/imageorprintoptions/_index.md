@@ -27,10 +27,10 @@ class ImageOrPrintOptions;
 | --- | --- |
 | [setPrintWithStatusDialog(boolean)](#setPrintWithStatusDialog-boolean-)| If PrintWithStatusDialog = true , there will be a dialog that shows current print status. else no such dialog will show. |
 | [getPrintWithStatusDialog()](#getPrintWithStatusDialog--)| If PrintWithStatusDialog = true , there will be a dialog that shows current print status. else no such dialog will show. |
-| [getHorizontalResolution()](#getHorizontalResolution--)| Gets or sets the horizontal resolution for generated images, in dots per inch. Applies generating image method except Emf format images. |
-| [setHorizontalResolution(number)](#setHorizontalResolution-number-)| Gets or sets the horizontal resolution for generated images, in dots per inch. Applies generating image method except Emf format images. |
-| [getVerticalResolution()](#getVerticalResolution--)| Gets or sets the vertical  resolution for generated images, in dots per inch. Applies generating image method except Emf format image. |
-| [setVerticalResolution(number)](#setVerticalResolution-number-)| Gets or sets the vertical  resolution for generated images, in dots per inch. Applies generating image method except Emf format image. |
+| [getHorizontalResolution()](#getHorizontalResolution--)| Gets or sets the horizontal resolution for generated images, in dots per inch. |
+| [setHorizontalResolution(number)](#setHorizontalResolution-number-)| Gets or sets the horizontal resolution for generated images, in dots per inch. |
+| [getVerticalResolution()](#getVerticalResolution--)| Gets or sets the vertical resolution for generated images, in dots per inch. |
+| [setVerticalResolution(number)](#setVerticalResolution-number-)| Gets or sets the vertical resolution for generated images, in dots per inch. |
 | [getTiffCompression()](#getTiffCompression--)| Gets or sets the type of compression to apply only when saving pages to the <c>Tiff</c> format. |
 | [setTiffCompression(TiffCompression)](#setTiffCompression-tiffcompression-)| Gets or sets the type of compression to apply only when saving pages to the <c>Tiff</c> format. |
 | [getTiffColorDepth()](#getTiffColorDepth--)| Gets or sets bit depth to apply only when saving pages to the <c>Tiff</c> format. |
@@ -86,6 +86,7 @@ class ImageOrPrintOptions;
 | [getEmfRenderSetting()](#getEmfRenderSetting--)| Setting for rendering Emf metafile. |
 | [setEmfRenderSetting(EmfRenderSetting)](#setEmfRenderSetting-emfrendersetting-)| Setting for rendering Emf metafile. |
 | [setDesiredSize(number, number, boolean)](#setDesiredSize-number-number-boolean-)| Sets desired width and height of image. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### constructor() {#constructor--}
@@ -121,7 +122,7 @@ getPrintWithStatusDialog() : boolean;
 
 ### getHorizontalResolution() {#getHorizontalResolution--}
 
-Gets or sets the horizontal resolution for generated images, in dots per inch. Applies generating image method except Emf format images.
+Gets or sets the horizontal resolution for generated images, in dots per inch.
 
 ```javascript
 getHorizontalResolution() : number;
@@ -130,11 +131,11 @@ getHorizontalResolution() : number;
 
 **Remarks**
 
-The default value is 96.
+<para>The default value is 96.</para> <para>Setting [HorizontalResolution](../horizontalresolution/) and [HorizontalResolution](../horizontalresolution/) effects the width and height of the output image in pixels.</para>
 
 ### setHorizontalResolution(number) {#setHorizontalResolution-number-}
 
-Gets or sets the horizontal resolution for generated images, in dots per inch. Applies generating image method except Emf format images.
+Gets or sets the horizontal resolution for generated images, in dots per inch.
 
 ```javascript
 setHorizontalResolution(value: number) : void;
@@ -147,11 +148,11 @@ setHorizontalResolution(value: number) : void;
 
 **Remarks**
 
-The default value is 96.
+<para>The default value is 96.</para> <para>Setting [HorizontalResolution](../horizontalresolution/) and [HorizontalResolution](../horizontalresolution/) effects the width and height of the output image in pixels.</para>
 
 ### getVerticalResolution() {#getVerticalResolution--}
 
-Gets or sets the vertical  resolution for generated images, in dots per inch. Applies generating image method except Emf format image.
+Gets or sets the vertical resolution for generated images, in dots per inch.
 
 ```javascript
 getVerticalResolution() : number;
@@ -160,11 +161,11 @@ getVerticalResolution() : number;
 
 **Remarks**
 
-The default value is 96.
+<para>The default value is 96.</para> <para>Setting [HorizontalResolution](../horizontalresolution/) and [HorizontalResolution](../horizontalresolution/) effects the width and height of the output image in pixels.</para>
 
 ### setVerticalResolution(number) {#setVerticalResolution-number-}
 
-Gets or sets the vertical  resolution for generated images, in dots per inch. Applies generating image method except Emf format image.
+Gets or sets the vertical resolution for generated images, in dots per inch.
 
 ```javascript
 setVerticalResolution(value: number) : void;
@@ -177,7 +178,7 @@ setVerticalResolution(value: number) : void;
 
 **Remarks**
 
-The default value is 96.
+<para>The default value is 96.</para> <para>Setting [HorizontalResolution](../horizontalresolution/) and [HorizontalResolution](../horizontalresolution/) effects the width and height of the output image in pixels.</para>
 
 ### getTiffCompression() {#getTiffCompression--}
 
@@ -959,5 +960,18 @@ setDesiredSize(desiredWidth: number, desiredHeight: number, keepAspectRatio: boo
 | desiredWidth | number | desired width in pixels |
 | desiredHeight | number | desired height in pixels |
 | keepAspectRatio | boolean | whether to keep aspect ratio of origin image |
+
+**Remarks**
+
+<para>The width and height of the output image in pixels will be only based on the set desired width and height.</para> <para>The [HorizontalResolution](../horizontalresolution/) and [HorizontalResolution](../horizontalresolution/) will not effect the width and height of the output image in this case.</para>
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

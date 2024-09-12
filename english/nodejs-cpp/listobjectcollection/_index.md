@@ -24,6 +24,7 @@ class ListObjectCollection;
 | [add(string, string, boolean)](#add-string-string-boolean-)| Adds a ListObject to the worksheet. |
 | [updateColumnName()](#updateColumnName--)| Update all column name of the tables. |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### get(number) {#get-number-}
@@ -98,6 +99,15 @@ Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

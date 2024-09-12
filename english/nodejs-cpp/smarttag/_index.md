@@ -26,6 +26,7 @@ class SmartTag;
 | [getUri()](#getUri--)| Gets the namespace URI of the smart tag. |
 | [getName()](#getName--)| Gets the name of the smart tag. |
 | [setLink(string, string)](#setLink-string-string-)| Change the name and  the namespace URI of the smart tag. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getDeleted() {#getDeleted--}
@@ -107,5 +108,14 @@ setLink(uri: string, name: string) : void;
 | --- | --- | --- |
 | uri | string | The namespace URI of the smart tag. |
 | name | string | The name of the smart tag. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

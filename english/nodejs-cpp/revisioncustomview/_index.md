@@ -27,6 +27,7 @@ class RevisionCustomView extends Revision;
 | --- | --- |
 | [getType()](#getType--)| Gets the type of revision. |
 | [getActionType()](#getActionType--)| Gets the type of action. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getWorksheet()](#getWorksheet--)| Gets the worksheet. |
 | [getId()](#getId--)| Gets the number of this revision. |
 
@@ -69,6 +70,15 @@ getActionType() : RevisionActionType;
 **Returns**
 
 [RevisionActionType](../revisionactiontype/)
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 ### getWorksheet() {#getWorksheet--}
 

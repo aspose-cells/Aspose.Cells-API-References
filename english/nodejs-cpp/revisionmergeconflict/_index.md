@@ -26,6 +26,7 @@ class RevisionMergeConflict extends Revision;
 | Method | Description |
 | --- | --- |
 | [getType()](#getType--)| Gets the type of revision. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getWorksheet()](#getWorksheet--)| Gets the worksheet. |
 | [getId()](#getId--)| Gets the number of this revision. |
 
@@ -55,6 +56,15 @@ getType() : RevisionType;
 **Returns**
 
 [RevisionType](../revisiontype/)
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 ### getWorksheet() {#getWorksheet--}
 

@@ -57,6 +57,7 @@ class PdfSaveOptions extends PaginatedSaveOptions;
 | [getEmbedAttachments()](#getEmbedAttachments--)| Indicates whether to embed attachment for Ole objects in Excel. |
 | [setEmbedAttachments(boolean)](#setEmbedAttachments-boolean-)| Indicates whether to embed attachment for Ole objects in Excel. |
 | [setImageResample(number, number)](#setImageResample-number-number-)| Sets desired PPI(pixels per inch) of resample images and jpeg quality. All images will be converted to JPEG with the specified quality setting, and images that are greater than the specified PPI (pixels per inch) will be resampled. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getSaveFormat()](#getSaveFormat--)| Gets the save file format. |
 | [getClearData()](#getClearData--)| Make the workbook empty after saving the file. |
 | [setClearData(boolean)](#setClearData-boolean-)| Make the workbook empty after saving the file. |
@@ -579,6 +580,15 @@ setImageResample(desiredPPI: number, jpegQuality: number) : void;
 | --- | --- | --- |
 | desiredPPI | number | Desired pixels per inch. 220 high quality. 150 screen quality. 96 email quality. |
 | jpegQuality | number | 0 - 100% JPEG quality. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 ### getSaveFormat() {#getSaveFormat--}
 

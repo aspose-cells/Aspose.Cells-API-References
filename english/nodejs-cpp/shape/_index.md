@@ -202,7 +202,9 @@ class Shape;
 | [characters(number, number)](#characters-number-number-)| Returns a Characters object that represents a range of characters within the text. |
 | [getRichFormattings()](#getRichFormattings--)| Returns all Characters objects that represents a range of characters within the text . |
 | [removeActiveXControl()](#removeActiveXControl--)| Remove activeX control. |
+| [isSameSetting(object)](#isSameSetting-object-)| Returns whether the shape is same. |
 | [getActualBox()](#getActualBox--)| Get the actual position and size of the shape (after applying rotation, flip, etc.) |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getMacroName() {#getMacroName--}
@@ -2465,6 +2467,19 @@ removeActiveXControl() : void;
 ```
 
 
+### isSameSetting(object) {#isSameSetting-object-}
+
+Returns whether the shape is same.
+
+```javascript
+isSameSetting(obj: object) : boolean;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | object |  |
+
 ### getActualBox() {#getActualBox--}
 
 Get the actual position and size of the shape (after applying rotation, flip, etc.)
@@ -2481,5 +2496,14 @@ Return the position and size in the order of x, y, w, h
 **Remarks**
 
 Note:The interface is not fully functional, especially the location information is not correct.It is recommended not to use this interface until the function is complete.
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

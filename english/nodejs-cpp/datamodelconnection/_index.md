@@ -25,6 +25,7 @@ class DataModelConnection extends ExternalConnection;
 
 | Method | Description |
 | --- | --- |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getId()](#getId--)| Gets the id of the connection. |
 | [getType()](#getType--)| Gets or Sets the external connection DataSource type. |
 | [setType(ConnectionDataSourceType)](#setType-connectiondatasourcetype-)| Gets or Sets the external connection DataSource type. |
@@ -77,6 +78,15 @@ constructor(obj: ExternalConnection);
 | Parameter | Type | Description |
 | --- | --- | --- |
 | obj | ExternalConnection | The parent object. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 ### getId() {#getId--}
 

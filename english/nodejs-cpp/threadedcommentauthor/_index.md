@@ -25,6 +25,7 @@ class ThreadedCommentAuthor;
 | [setUserId(string)](#setUserId-string-)| Gets and sets the id of the user. |
 | [getProviderId()](#getProviderId--)| Gets the id of the provider. |
 | [setProviderId(string)](#setProviderId-string-)| Gets the id of the provider. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getName() {#getName--}
@@ -92,5 +93,14 @@ setProviderId(value: string) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | string | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

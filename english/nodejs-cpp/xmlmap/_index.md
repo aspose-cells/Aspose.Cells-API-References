@@ -23,6 +23,7 @@ class XmlMap;
 | [setName(string)](#setName-string-)| Returns or sets the name of the object. |
 | [getRootElementName()](#getRootElementName--)| Gets root element name. |
 | [getDataBinding()](#getDataBinding--)| Gets an [XmlDataBinding](../xmldatabinding/) of this map. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getName() {#getName--}
@@ -68,5 +69,14 @@ getDataBinding() : XmlDataBinding;
 **Returns**
 
 [XmlDataBinding](../xmldatabinding/)
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

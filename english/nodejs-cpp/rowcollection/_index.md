@@ -26,6 +26,7 @@ class RowCollection;
 | [getRowByIndex(number)](#getRowByIndex-number-)| Gets the row object by the position in the list. |
 | [clear()](#clear--)| Clear all rows and cells. |
 | [removeAt(number)](#removeAt-number-)| Remove the row item at the specified index(position) in this collection. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### get(number) {#get-number-}
@@ -127,5 +128,14 @@ removeAt(index: number) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | number | zero-based index(position, not [Row.Index](../row.index/)) of the existing row item in this collection. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

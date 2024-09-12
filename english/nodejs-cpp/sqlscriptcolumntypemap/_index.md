@@ -27,6 +27,7 @@ class SqlScriptColumnTypeMap;
 | --- | --- |
 | [getStringType()](#getStringType--)| Gets string type in the database. |
 | [getNumbericType()](#getNumbericType--)| Gets numeric type in the database. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### constructor() {#constructor--}
@@ -53,6 +54,15 @@ Gets numeric type in the database.
 
 ```javascript
 getNumbericType() : string;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

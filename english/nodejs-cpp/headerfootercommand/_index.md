@@ -22,6 +22,7 @@ class HeaderFooterCommand;
 | [getType()](#getType--)| Gets the header/footer' command type . |
 | [getFont()](#getFont--)| Gets the font of the command's value. |
 | [getText()](#getText--)| Gets the text of the command. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getType() {#getType--}
@@ -66,5 +67,14 @@ getText() : string;
 **Remarks**
 
 Only valid for HeaderFooterCommandType.Text.
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

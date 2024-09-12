@@ -29,7 +29,12 @@ class ReferredArea;
 | [getStartColumn()](#getStartColumn--)| The start column of the area. |
 | [getEndRow()](#getEndRow--)| The end row of the area. |
 | [getStartRow()](#getStartRow--)| The start row of the area. |
+| [getValues()](#getValues--)| Gets cell values in this area. |
+| [getValues(boolean)](#getValues-boolean-)| Gets cell values in this area. |
+| [getValue(number, number)](#getValue-number-number-)| Gets cell value with given offset from the top-left of this area. |
+| [getValue(number, number, boolean)](#getValue-number-number-boolean-)| Gets cell value with given offset from the top-left of this area. |
 | [toString()](#toString--)| Returns the reference address of this area. Generally it is the address of the reference which may be used in formula, such as "Sheet1!A1:C3". |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### isExternalLink() {#isExternalLink--}
@@ -126,6 +131,73 @@ getStartRow() : number;
 ```
 
 
+### getValues() {#getValues--}
+
+Gets cell values in this area.
+
+```javascript
+getValues() : object;
+```
+
+
+**Returns**
+
+If this area is invalid, "#REF!" will be returned; If this area is one single cell, then return the cell value object; Otherwise return one 2D array for all values in this area.
+
+### getValues(boolean) {#getValues-boolean-}
+
+Gets cell values in this area.
+
+```javascript
+getValues(calculateFormulas: boolean) : object;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| calculateFormulas | boolean | In this range, if there are some formulas that have not been calculated,         /// this flag denotes whether those formulas should be calculated recursively |
+
+**Returns**
+
+If this area is invalid, "#REF!" will be returned; If this area is one single cell, then return the cell value object; Otherwise return one 2D array for all values in this area.
+
+### getValue(number, number) {#getValue-number-number-}
+
+Gets cell value with given offset from the top-left of this area.
+
+```javascript
+getValue(rowOffset: number, colOffset: number) : object;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| rowOffset | number | row offset from the start row of this area |
+| colOffset | number | column offset from the start row of this area |
+
+**Returns**
+
+"#REF!" if this area is invalid; "#N/A" if given offset out of this area; Otherwise return the cell value at given position.
+
+### getValue(number, number, boolean) {#getValue-number-number-boolean-}
+
+Gets cell value with given offset from the top-left of this area.
+
+```javascript
+getValue(rowOffset: number, colOffset: number, calculateFormulas: boolean) : object;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| rowOffset | number | row offset from the start row of this area |
+| colOffset | number | column offset from the start row of this area |
+| calculateFormulas | boolean | Whether calculate it recursively if the specified reference is formula |
+
+**Returns**
+
+"#REF!" if this area is invalid; "#N/A" if given offset out of this area; Otherwise return the cell value at given position.
+
 ### toString() {#toString--}
 
 Returns the reference address of this area. Generally it is the address of the reference which may be used in formula, such as "Sheet1!A1:C3".
@@ -138,5 +210,14 @@ toString() : string;
 **Returns**
 
 the reference address of this area.
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

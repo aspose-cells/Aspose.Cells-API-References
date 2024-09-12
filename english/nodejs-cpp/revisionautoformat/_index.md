@@ -27,6 +27,7 @@ class RevisionAutoFormat extends Revision;
 | --- | --- |
 | [getType()](#getType--)| Gets the type of the revision. |
 | [getCellArea()](#getCellArea--)| Gets the location where the formatting was applied. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getWorksheet()](#getWorksheet--)| Gets the worksheet. |
 | [getId()](#getId--)| Gets the number of this revision. |
 
@@ -69,6 +70,15 @@ getCellArea() : CellArea;
 **Returns**
 
 [CellArea](../cellarea/)
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 ### getWorksheet() {#getWorksheet--}
 

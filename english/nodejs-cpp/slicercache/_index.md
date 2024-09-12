@@ -25,6 +25,7 @@ class SlicerCache;
 | [getSlicerCacheItems()](#getSlicerCacheItems--)| Returns a SlicerCacheItem collection that contains the collection of all items in the slicer cache. Read-only |
 | [getName()](#getName--)| Returns the name of the slicer cache. |
 | [getSourceName()](#getSourceName--)| Returns the name of this slicer cache. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getCrossFilterType() {#getCrossFilterType--}
@@ -90,6 +91,15 @@ Returns the name of this slicer cache.
 
 ```javascript
 getSourceName() : string;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

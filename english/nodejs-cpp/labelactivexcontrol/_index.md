@@ -42,6 +42,7 @@ class LabelActiveXControl extends ActiveXControl;
 | [setAccelerator(string)](#setAccelerator-string-)| Gets and sets the accelerator key for the control. |
 | [isWordWrapped()](#isWordWrapped--)| Indicates whether the contents of the control automatically wrap at the end of a line. |
 | [setIsWordWrapped(boolean)](#setIsWordWrapped-boolean-)| Indicates whether the contents of the control automatically wrap at the end of a line. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getWorkbook()](#getWorkbook--)| Gets the [Workbook](../workbook/) object. |
 | [getMouseIcon()](#getMouseIcon--)| Gets and sets a custom icon to display as the mouse pointer for the control. |
 | [setMouseIcon(number[])](#setMouseIcon-numberarray-)| Gets and sets a custom icon to display as the mouse pointer for the control. |
@@ -296,6 +297,15 @@ setIsWordWrapped(value: boolean) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 ### getWorkbook() {#getWorkbook--}
 

@@ -31,6 +31,7 @@ class OdsLoadOptions extends LoadOptions;
 | [setApplyExcelDefaultStyleToHyperlink(boolean)](#setApplyExcelDefaultStyleToHyperlink-boolean-)| Indicates whether applying the default style of the Excel to hyperlink. |
 | [getRefreshPivotTables()](#getRefreshPivotTables--)| Indicates whether refresh pivot tables when loading file. |
 | [setRefreshPivotTables(boolean)](#setRefreshPivotTables-boolean-)| Indicates whether refresh pivot tables when loading file. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getLoadFormat()](#getLoadFormat--)| Gets the load format. |
 | [getPassword()](#getPassword--)| Gets and set the password of the workbook. |
 | [setPassword(string)](#setPassword-string-)| Gets and set the password of the workbook. |
@@ -152,6 +153,15 @@ setRefreshPivotTables(value: boolean) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 ### getLoadFormat() {#getLoadFormat--}
 

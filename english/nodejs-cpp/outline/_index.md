@@ -23,6 +23,7 @@ class Outline;
 | [setSummaryRowBelow(boolean)](#setSummaryRowBelow-boolean-)| Indicates if the summary row will be positioned below the detail rows in the outline. |
 | [getSummaryColumnRight()](#getSummaryColumnRight--)| Indicates if the summary column will be positioned to the right of the detail columns in the outline. |
 | [setSummaryColumnRight(boolean)](#setSummaryColumnRight-boolean-)| Indicates if the summary column will be positioned to the right of the detail columns in the outline. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getSummaryRowBelow() {#getSummaryRowBelow--}
@@ -68,5 +69,14 @@ setSummaryColumnRight(value: boolean) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

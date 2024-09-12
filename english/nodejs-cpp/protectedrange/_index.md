@@ -29,6 +29,7 @@ class ProtectedRange;
 | [setSecurityDescriptor(string)](#setSecurityDescriptor-string-)| The security descriptor defines user accounts who may edit this range without providing a password to access the range. |
 | [getAreas()](#getAreas--)| Gets all referred areas. |
 | [addArea(number, number, number, number)](#addArea-number-number-number-number-)| Adds a referred area to this |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getName() {#getName--}
@@ -147,5 +148,14 @@ addArea(startRow: number, startColumn: number, endRow: number, endColumn: number
 | startColumn | number | The start column. |
 | endRow | number | The end row. |
 | endColumn | number | The end column. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

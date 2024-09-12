@@ -117,6 +117,7 @@ class Chart;
 | [switchRowColumn()](#switchRowColumn--)| Switches row/column. |
 | [getChartDataRange()](#getChartDataRange--)| Gets the data source range of the chart. |
 | [setChartDataRange(string, boolean)](#setChartDataRange-string-boolean-)| Specifies data range for a chart. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getStyle() {#getStyle--}
@@ -1421,5 +1422,14 @@ setChartDataRange(area: string, isVertical: boolean) : void;
 | --- | --- | --- |
 | area | string | Specifies values from which to plot the data series |
 | isVertical | boolean | Specifies whether to plot the series from a range of cell values by row or by column. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

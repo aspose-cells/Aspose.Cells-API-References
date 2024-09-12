@@ -25,6 +25,7 @@ class DataSorterKey;
 | [getIconSetType()](#getIconSetType--)| Represents the icon set type. |
 | [getIconId()](#getIconId--)| Represents the id of the icon set type. |
 | [getColor()](#getColor--)| Gets the sorted color. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getOrder() {#getOrder--}
@@ -108,5 +109,14 @@ getColor() : Color;
 **Remarks**
 
 Only takes effect when [Type](../type/) is [Type](../type/) or [Type](../type/).
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

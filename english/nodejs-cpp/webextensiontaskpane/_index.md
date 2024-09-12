@@ -31,6 +31,7 @@ class WebExtensionTaskPane;
 | [setWidth(number)](#setWidth-number-)| Gets and sets the default width value for this taskpane instance. |
 | [getRow()](#getRow--)| Gets and sets the index, enumerating from the outside to the inside, of this taskpane among other persisted taskpanes docked in the same default location. |
 | [setRow(number)](#setRow-number-)| Gets and sets the index, enumerating from the outside to the inside, of this taskpane among other persisted taskpanes docked in the same default location. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getWebExtension() {#getWebExtension--}
@@ -168,5 +169,14 @@ setRow(value: number) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | number | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

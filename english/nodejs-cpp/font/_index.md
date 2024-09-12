@@ -55,6 +55,7 @@ class Font;
 | [setSchemeType(FontSchemeType)](#setSchemeType-fontschemetype-)| Gets and sets the scheme type of the font. |
 | [equals(Font)](#equals-font-)| Checks if two fonts are equals. |
 | [toString()](#toString--)| Returns a string represents the current Cell object. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getName()](#getName--)| Gets  or sets the name of the [Font](../font/). |
 | [setName(string)](#setName-string-)| Gets  or sets the name of the [Font](../font/). |
 
@@ -488,6 +489,15 @@ Returns a string represents the current Cell object.
 
 ```javascript
 toString() : string;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

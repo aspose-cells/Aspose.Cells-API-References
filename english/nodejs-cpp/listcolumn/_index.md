@@ -34,6 +34,7 @@ class ListColumn;
 | [setCustomCalculatedFormula(string, boolean, boolean)](#setCustomCalculatedFormula-string-boolean-boolean-)| Sets the formula for this list column. |
 | [getDataStyle()](#getDataStyle--)| Gets the style of the data in this column of the table. |
 | [setDataStyle(Style)](#setDataStyle-style-)| Sets the style of the data in this column of the table. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getName() {#getName--}
@@ -240,5 +241,14 @@ setDataStyle(style: Style) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | style | [Style](../style/) |  |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

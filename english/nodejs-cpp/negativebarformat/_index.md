@@ -27,6 +27,7 @@ class NegativeBarFormat;
 | [setColor(Color)](#setColor-color-)| Gets or sets a FormatColor object that you can use to specify the fill color for negative data bars. |
 | [getColorType()](#getColorType--)| Gets or sets whether to use the same fill color as positive data bars. |
 | [setColorType(DataBarNegativeColorType)](#setColorType-databarnegativecolortype-)| Gets or sets whether to use the same fill color as positive data bars. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getBorderColor() {#getBorderColor--}
@@ -132,5 +133,14 @@ setColorType(value: DataBarNegativeColorType) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [DataBarNegativeColorType](../databarnegativecolortype/) | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

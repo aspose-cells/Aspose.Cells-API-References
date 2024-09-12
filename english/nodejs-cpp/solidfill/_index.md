@@ -26,6 +26,8 @@ class SolidFill;
 | [getTransparency()](#getTransparency--)| Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear). |
 | [setTransparency(number)](#setTransparency-number-)| Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear). |
 | [getHashCode()](#getHashCode--)| Gets the hash code. |
+| [equals(object)](#equals-object-)|  |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getColor() {#getColor--}
@@ -108,6 +110,28 @@ Gets the hash code.
 
 ```javascript
 getHashCode() : number;
+```
+
+
+### equals(object) {#equals-object-}
+
+
+
+```javascript
+equals(obj: object) : boolean;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | object |  |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

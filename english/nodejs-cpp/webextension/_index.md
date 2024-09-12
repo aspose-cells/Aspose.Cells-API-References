@@ -27,6 +27,7 @@ class WebExtension;
 | [getAlterReferences()](#getAlterReferences--)| Gets a list of alter references. |
 | [getProperties()](#getProperties--)| Gets all properties of web extension. |
 | [getBindings()](#getBindings--)| Gets all bindings relationship between an Office Add-in and the data in the document. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getId() {#getId--}
@@ -124,5 +125,14 @@ getBindings() : WebExtensionBindingCollection;
 **Returns**
 
 [WebExtensionBindingCollection](../webextensionbindingcollection/)
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

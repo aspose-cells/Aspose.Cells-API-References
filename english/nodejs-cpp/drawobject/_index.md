@@ -26,6 +26,7 @@ class DrawObject;
 | [getCurrentPage()](#getCurrentPage--)| Indicates the page index of DrawObject. Page index is based on zero. One Sheet contains several pages when rendering. |
 | [getTotalPages()](#getTotalPages--)| Indicates total pages in current rendering. |
 | [getSheetIndex()](#getSheetIndex--)| Indicates current sheet index of DrawObject. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getCell() {#getCell--}
@@ -104,6 +105,15 @@ Indicates current sheet index of DrawObject.
 
 ```javascript
 getSheetIndex() : number;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

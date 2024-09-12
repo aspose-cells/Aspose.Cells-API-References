@@ -29,6 +29,7 @@ class PivotNumbericRangeGroupSettings extends PivotFieldGroupSettings;
 | [getStart()](#getStart--)| Gets the start number of the group. |
 | [getEnd()](#getEnd--)| Gets the end number of the group. |
 | [getInterval()](#getInterval--)| Gets the interval of the group. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### constructor(PivotFieldGroupSettings) {#constructor-pivotfieldgroupsettings-}
@@ -81,6 +82,15 @@ Gets the interval of the group.
 
 ```javascript
 getInterval() : number;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

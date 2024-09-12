@@ -149,9 +149,13 @@ class Worksheet;
 | [startAccessCache(AccessCacheOptions)](#startAccessCache-accesscacheoptions-)| Starts the session that uses caches to access the data in this worksheet. |
 | [closeAccessCache(AccessCacheOptions)](#closeAccessCache-accesscacheoptions-)| Closes the session that uses caches to access the data in this worksheet. |
 | [convertFormulaReferenceStyle(string, boolean, number, number)](#convertFormulaReferenceStyle-string-boolean-number-number-)| Converts the formula reference style. |
+| [calculateFormula(string)](#calculateFormula-string-)| Calculates a formula. |
+| [calculateFormula(string, CalculationOptions)](#calculateFormula-string-calculationoptions-)| Calculates a formula expression directly. |
+| [calculateFormula(string, FormulaParseOptions, CalculationOptions, number, number, CalculationData)](#calculateFormula-string-formulaparseoptions-calculationoptions-number-number-calculationdata-)| Calculates a formula expression directly. |
 | [calculateFormula(CalculationOptions, boolean)](#calculateFormula-calculationoptions-boolean-)| Calculates all formulas in this worksheet. |
 | [refreshPivotTables()](#refreshPivotTables--)| Refreshes all the PivotTables in this Worksheet. |
 | [refreshPivotTables(PivotTableRefreshOption)](#refreshPivotTables-pivottablerefreshoption-)| Refreshes all the PivotTables in this Worksheet. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getProtection() {#getProtection--}
@@ -1875,6 +1879,71 @@ convertFormulaReferenceStyle(formula: string, toR1C1: boolean, baseCellRow: numb
 
 The converted formula.
 
+### calculateFormula(string) {#calculateFormula-string-}
+
+Calculates a formula.
+
+```javascript
+calculateFormula(formula: string) : object;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| formula | string | Formula to be calculated. |
+
+**Returns**
+
+Calculated formula result.
+
+### calculateFormula(string, CalculationOptions) {#calculateFormula-string-calculationoptions-}
+
+Calculates a formula expression directly.
+
+```javascript
+calculateFormula(formula: string, opts: CalculationOptions) : object;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| formula | string | Formula to be calculated. |
+| opts | [CalculationOptions](../calculationoptions/) | Options for calculating formula |
+
+**Returns**
+
+Calculated result of given formula. The returned object may be of possible types of [Cell.Value](../cell.value/), or ReferredArea.
+
+**Remarks**
+
+The formula will be calculated just like it has been set to cell A1. And the formula will be taken as normal formula. If you need the formula be calculated as an array formula and to get an array for the calculated result, please use [CalculateArrayFormula(string, CalculationOptions)](../calculatearrayformula(string, calculationoptions)/) instead.
+
+### calculateFormula(string, FormulaParseOptions, CalculationOptions, number, number, CalculationData) {#calculateFormula-string-formulaparseoptions-calculationoptions-number-number-calculationdata-}
+
+Calculates a formula expression directly.
+
+```javascript
+calculateFormula(formula: string, pOpts: FormulaParseOptions, cOpts: CalculationOptions, baseCellRow: number, baseCellColumn: number, calculationData: CalculationData) : object;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| formula | string | Formula to be calculated. |
+| pOpts | [FormulaParseOptions](../formulaparseoptions/) | Options for parsing formula. |
+| cOpts | [CalculationOptions](../calculationoptions/) | Options for calculating formula. |
+| baseCellRow | number | The row index of the base cell. |
+| baseCellColumn | number | The column index of the base cell. |
+| calculationData | [CalculationData](../calculationdata/) | The calculation data. It is used for the situation         /// that user needs to calculate some static formulas when implementing custom calculation engine.         /// For such kind of situation, user needs to specify it with the calculation data provided         /// for [AbstractCalculationEngine.Calculate(CalculationData)](../abstractcalculationengine.calculate(calculationdata)/). |
+
+**Returns**
+
+Calculated result of given formula. The returned object may be of possible types of [Cell.Value](../cell.value/), or ReferredArea.
+
+**Remarks**
+
+The formula will be calculated just like it has been set to the specified base cell. And the formula will be taken as normal formula. If you need the formula be calculated as an array formula and to get an array for the calculated result, please use [CalculateArrayFormula(string, FormulaParseOptions, CalculationOptions, int, int, int, int, CalculationData)](../calculatearrayformula(string, formulaparseoptions, calculationoptions, int, int, int, int, calculationdata)/) instead.
+
 ### calculateFormula(CalculationOptions, boolean) {#calculateFormula-calculationoptions-boolean-}
 
 Calculates all formulas in this worksheet.
@@ -1910,5 +1979,14 @@ refreshPivotTables(option: PivotTableRefreshOption) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | option | [PivotTableRefreshOption](../pivottablerefreshoption/) | The option for refreshing data source of pivot table. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

@@ -56,6 +56,7 @@ class OleObject extends Shape;
 | [setEmbeddedObject(boolean, number[], string, boolean, string)](#setEmbeddedObject-boolean-numberarray-string-boolean-string-)| Sets embedded object data. |
 | [setEmbeddedObject(boolean, number[], string, boolean, string, boolean)](#setEmbeddedObject-boolean-numberarray-string-boolean-string-boolean-)| Sets embedded object data. |
 | [setNativeSourceFullName(string)](#setNativeSourceFullName-string-)| Sets the ole native source full file name with path. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getMacroName()](#getMacroName--)| Gets and sets the name of macro. |
 | [setMacroName(string)](#setMacroName-string-)| Gets and sets the name of macro. |
 | [isEquation()](#isEquation--)| Indicates whether the shape only contains an equation. |
@@ -239,6 +240,7 @@ class OleObject extends Shape;
 | [characters(number, number)](#characters-number-number-)| Returns a Characters object that represents a range of characters within the text. |
 | [getRichFormattings()](#getRichFormattings--)| Returns all Characters objects that represents a range of characters within the text . |
 | [removeActiveXControl()](#removeActiveXControl--)| Remove activeX control. |
+| [isSameSetting(object)](#isSameSetting-object-)| Returns whether the shape is same. |
 | [getActualBox()](#getActualBox--)| Get the actual position and size of the shape (after applying rotation, flip, etc.) |
 
 
@@ -650,6 +652,15 @@ setNativeSourceFullName(sourceFullName: string) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | sourceFullName | string | the ole native source full file name |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 ### getMacroName() {#getMacroName--}
 
@@ -2910,6 +2921,19 @@ Remove activeX control.
 removeActiveXControl() : void;
 ```
 
+
+### isSameSetting(object) {#isSameSetting-object-}
+
+Returns whether the shape is same.
+
+```javascript
+isSameSetting(obj: object) : boolean;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | object |  |
 
 ### getActualBox() {#getActualBox--}
 

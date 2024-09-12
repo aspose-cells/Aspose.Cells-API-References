@@ -39,6 +39,7 @@ class HtmlLoadOptions extends AbstractTextLoadOptions;
 | [setHasFormula(boolean)](#setHasFormula-boolean-)| Indicates whether the text is formula if it starts with "=". |
 | [getProgId()](#getProgId--)| Gets the program id of creating the file. Only for MHT files. |
 | [getTableLoadOptions()](#getTableLoadOptions--)| Get the HtmlTableLoadOptionCollection instance |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getLoadFormat()](#getLoadFormat--)| Gets the load format. |
 | [getPassword()](#getPassword--)| Gets and set the password of the workbook. |
 | [setPassword(string)](#setPassword-string-)| Gets and set the password of the workbook. |
@@ -258,6 +259,15 @@ getTableLoadOptions() : HtmlTableLoadOptionCollection;
 **Returns**
 
 [HtmlTableLoadOptionCollection](../htmltableloadoptioncollection/)
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 ### getLoadFormat() {#getLoadFormat--}
 

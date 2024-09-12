@@ -29,6 +29,8 @@ class AccentEquationNode extends EquationNode;
 | [setAccentCharacter(string)](#setAccentCharacter-string-)| This attribute specifies the type of combining diacritical mark attached to the base of the accent function. The default accent character is U+0302. It is strongly recommended to use attribute AccentType to set accent character. Use this property setting if you cannot find the character you need in a known type. |
 | [getAccentCharacterType()](#getAccentCharacterType--)| Specify combining characters by type value. |
 | [setAccentCharacterType(EquationCombiningCharacterType)](#setAccentCharacterType-equationcombiningcharactertype-)| Specify combining characters by type value. |
+| [equals(object)](#equals-object-)| Determine whether the current equation node is equal to the specified node |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getStartIndex()](#getStartIndex--)| Gets the start index of the characters. |
 | [getLength()](#getLength--)| Gets the length of the characters. |
 | [getFont()](#getFont--)| Returns the font of this object. |
@@ -38,8 +40,8 @@ class AccentEquationNode extends EquationNode;
 | [setParentNode(EquationNode)](#setParentNode-equationnode-)| Specifies the parent node of the current node |
 | [getType()](#getType--)| Represents the type of the node. |
 | [getEquationType()](#getEquationType--)| Get the equation type of the current node |
-| [toLaTeX()](#toLaTeX--)| Conver this equtation to LaTeX expression. |
-| [toMathML()](#toMathML--)| Conver this equtation to MathML expression. |
+| [toLaTeX()](#toLaTeX--)| Convert this equtation to LaTeX expression. |
+| [toMathML()](#toMathML--)| Convert this equtation to MathML expression. |
 | [addChild(EquationNodeType)](#addChild-equationnodetype-)| Insert a node of the specified type at the end of the child node list of the current node. |
 | [addChild(EquationNode)](#addChild-equationnode-)| Inserts the specified node at the end of the current node's list of child nodes. |
 | [insertChild(number, EquationNodeType)](#insertChild-number-equationnodetype-)| Inserts a node of the specified type at the specified index position in the current node's child node list. |
@@ -121,6 +123,28 @@ setAccentCharacterType(value: EquationCombiningCharacterType) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [EquationCombiningCharacterType](../equationcombiningcharactertype/) | The value to set. |
+
+### equals(object) {#equals-object-}
+
+Determine whether the current equation node is equal to the specified node
+
+```javascript
+equals(obj: object) : boolean;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | object | The specified node |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 ### getStartIndex() {#getStartIndex--}
 
@@ -237,7 +261,7 @@ getEquationType() : EquationNodeType;
 
 ### toLaTeX() {#toLaTeX--}
 
-Conver this equtation to LaTeX expression.
+Convert this equtation to LaTeX expression.
 
 ```javascript
 toLaTeX() : string;
@@ -246,7 +270,7 @@ toLaTeX() : string;
 
 ### toMathML() {#toMathML--}
 
-Conver this equtation to MathML expression.
+Convert this equtation to MathML expression.
 
 ```javascript
 toMathML() : string;

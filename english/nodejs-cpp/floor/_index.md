@@ -27,6 +27,7 @@ class Floor extends Area;
 | --- | --- |
 | [getBorder()](#getBorder--)| Gets or sets the border [Line](../line/). |
 | [setBorder(Line)](#setBorder-line-)| Gets or sets the border [Line](../line/). |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getBackgroundColor()](#getBackgroundColor--)| Gets or sets the background [System.Drawing.Color](../system.drawing.color/) of the [System.Drawing.Color](../system.drawing.color/). |
 | [setBackgroundColor(Color)](#setBackgroundColor-color-)| Gets or sets the background [System.Drawing.Color](../system.drawing.color/) of the [System.Drawing.Color](../system.drawing.color/). |
 | [getForegroundColor()](#getForegroundColor--)| Gets or sets the foreground [System.Drawing.Color](../system.drawing.color/). |
@@ -78,6 +79,15 @@ setBorder(value: Line) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [Line](../line/) | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 ### getBackgroundColor() {#getBackgroundColor--}
 

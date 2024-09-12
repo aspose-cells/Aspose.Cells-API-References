@@ -22,6 +22,7 @@ class ProtectedRangeCollection;
 | [get(number)](#get-number-)| Gets the [ProtectedRange](../protectedrange/) element at the specified index. |
 | [add(string, number, number, number, number)](#add-string-number-number-number-number-)| Adds a [ProtectedRange](../protectedrange/) item to the collection. |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### get(number) {#get-number-}
@@ -68,6 +69,15 @@ Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

@@ -29,6 +29,7 @@ class PivotAreaFilter;
 | [setSelected(boolean)](#setSelected-boolean-)| Indicates whether this field has selection. Only works when the PivotTable is in Outline view. |
 | [isSubtotalSet(PivotFieldSubtotalType)](#isSubtotalSet-pivotfieldsubtotaltype-)| Gets which subtotal is set for this filter. |
 | [setSubtotals(PivotFieldSubtotalType, boolean)](#setSubtotals-pivotfieldsubtotaltype-boolean-)| Subtotal for the filter. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### constructor() {#constructor--}
@@ -88,5 +89,14 @@ setSubtotals(subtotalType: PivotFieldSubtotalType, shown: boolean) : void;
 | --- | --- | --- |
 | subtotalType | [PivotFieldSubtotalType](../pivotfieldsubtotaltype/) | The subtotal function. |
 | shown | boolean | Indicates if showing this subtotal data. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

@@ -26,6 +26,7 @@ class BorderCollection;
 | [setDiagonalStyle(CellBorderType)](#setDiagonalStyle-cellbordertype-)| Gets or sets the style of Diagonal lines. |
 | [setColor(Color)](#setColor-color-)| Sets the [System.Drawing.Color](../system.drawing.color/) of all borders in the collection. |
 | [setStyle(CellBorderType)](#setStyle-cellbordertype-)| Sets the style of all borders of the collection. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### get(BorderType) {#get-bordertype-}
@@ -122,5 +123,14 @@ setStyle(style: CellBorderType) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | style | [CellBorderType](../cellbordertype/) | Borders' style |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

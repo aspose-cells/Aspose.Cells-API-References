@@ -21,6 +21,7 @@ class TableStyle;
 | --- | --- |
 | [getName()](#getName--)| Gets the name of table style. |
 | [getTableStyleElements()](#getTableStyleElements--)| Gets all elements of the table style. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getName() {#getName--}
@@ -44,5 +45,14 @@ getTableStyleElements() : TableStyleElementCollection;
 **Returns**
 
 [TableStyleElementCollection](../tablestyleelementcollection/)
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

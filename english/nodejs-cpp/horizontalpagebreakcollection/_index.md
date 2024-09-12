@@ -26,6 +26,7 @@ class HorizontalPageBreakCollection;
 | [add(string)](#add-string-)| Adds a horizontal page break to the collection. |
 | [removeAt(number)](#removeAt-number-)| Removes the HPageBreak element at a specified name. |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### get(number) {#get-number-}
@@ -151,6 +152,15 @@ Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

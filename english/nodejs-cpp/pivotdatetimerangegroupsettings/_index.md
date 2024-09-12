@@ -31,6 +31,7 @@ class PivotDateTimeRangeGroupSettings extends PivotFieldGroupSettings;
 | [getInterval()](#getInterval--)| Gets the internal of the group. |
 | [getGroupByTypes()](#getGroupByTypes--)| Gets the types of grouping by date time. |
 | [isGroupedBy(PivotGroupByType)](#isGroupedBy-pivotgroupbytype-)| Check whether the field is grouped by the type. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### constructor(PivotFieldGroupSettings) {#constructor-pivotfieldgroupsettings-}
@@ -111,5 +112,14 @@ isGroupedBy(type: PivotGroupByType) : boolean;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | type | [PivotGroupByType](../pivotgroupbytype/) | The group type |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

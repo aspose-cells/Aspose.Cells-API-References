@@ -23,6 +23,7 @@ class CustomXmlPartCollection;
 | [add(number[], number[])](#add-numberarray-numberarray-)| Adds an item to the collection. |
 | [selectByID(string)](#selectByID-string-)| Gets an item by id. |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### get(number) {#get-number-}
@@ -79,6 +80,15 @@ Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

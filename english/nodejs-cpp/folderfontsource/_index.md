@@ -29,6 +29,7 @@ class FolderFontSource extends FontSourceBase;
 | [getFolderPath()](#getFolderPath--)| Path to fonts folder. |
 | [getScanSubFolders()](#getScanSubFolders--)| Determines whether or not to scan the subfolders. |
 | [getType()](#getType--)| Returns the type of the font source. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### constructor(FontSourceBase) {#constructor-fontsourcebase-}
@@ -88,5 +89,14 @@ getType() : FontSourceType;
 **Returns**
 
 [FontSourceType](../fontsourcetype/)
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

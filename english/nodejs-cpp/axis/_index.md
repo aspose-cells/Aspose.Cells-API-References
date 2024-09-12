@@ -22,8 +22,12 @@ class Axis;
 | [getArea()](#getArea--)| Gets the [Area](../area/). |
 | [isAutomaticMinValue()](#isAutomaticMinValue--)| Indicates whether the min value is automatically assigned. |
 | [setIsAutomaticMinValue(boolean)](#setIsAutomaticMinValue-boolean-)| Indicates whether the min value is automatically assigned. |
+| [getMinValue()](#getMinValue--)| Represents the minimum value on the value axis. |
+| [setMinValue(object)](#setMinValue-object-)| Represents the minimum value on the value axis. |
 | [isAutomaticMaxValue()](#isAutomaticMaxValue--)| Indicates whether the max value is automatically assigned. |
 | [setIsAutomaticMaxValue(boolean)](#setIsAutomaticMaxValue-boolean-)| Indicates whether the max value is automatically assigned. |
+| [getMaxValue()](#getMaxValue--)| Represents the maximum value on the value axis. |
+| [setMaxValue(object)](#setMaxValue-object-)| Represents the maximum value on the value axis. |
 | [isAutomaticMajorUnit()](#isAutomaticMajorUnit--)| Indicates whether the major unit of the axis is automatically assigned. |
 | [setIsAutomaticMajorUnit(boolean)](#setIsAutomaticMajorUnit-boolean-)| Indicates whether the major unit of the axis is automatically assigned. |
 | [getMajorUnit()](#getMajorUnit--)| Represents the major units for the axis. |
@@ -82,6 +86,7 @@ class Axis;
 | [setHasMultiLevelLabels(boolean)](#setHasMultiLevelLabels-boolean-)| Indicates whether the labels shall be shown as multi level. |
 | [getBins()](#getBins--)| Represents bins on a chart(Histogram/Pareto) axis |
 | [getAxisTexts()](#getAxisTexts--)| Gets the labels of the axis after call Chart.Calculate() method. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getArea() {#getArea--}
@@ -119,6 +124,36 @@ setIsAutomaticMinValue(value: boolean) : void;
 | --- | --- | --- |
 | value | boolean | The value to set. |
 
+### getMinValue() {#getMinValue--}
+
+Represents the minimum value on the value axis.
+
+```javascript
+getMinValue() : object;
+```
+
+
+**Remarks**
+
+The minValue type only can be double or DateTime
+
+### setMinValue(object) {#setMinValue-object-}
+
+Represents the minimum value on the value axis.
+
+```javascript
+setMinValue(value: object) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | object | The value to set. |
+
+**Remarks**
+
+The minValue type only can be double or DateTime
+
 ### isAutomaticMaxValue() {#isAutomaticMaxValue--}
 
 Indicates whether the max value is automatically assigned.
@@ -140,6 +175,36 @@ setIsAutomaticMaxValue(value: boolean) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The value to set. |
+
+### getMaxValue() {#getMaxValue--}
+
+Represents the maximum value on the value axis.
+
+```javascript
+getMaxValue() : object;
+```
+
+
+**Remarks**
+
+The maxValue type only can be double or DateTime
+
+### setMaxValue(object) {#setMaxValue-object-}
+
+Represents the maximum value on the value axis.
+
+```javascript
+setMaxValue(value: object) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | object | The value to set. |
+
+**Remarks**
+
+The maxValue type only can be double or DateTime
 
 ### isAutomaticMajorUnit() {#isAutomaticMajorUnit--}
 
@@ -902,5 +967,14 @@ getAxisTexts() : string[];
 **Returns**
 
 string[]
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

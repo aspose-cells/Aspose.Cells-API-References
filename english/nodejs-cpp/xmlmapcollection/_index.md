@@ -23,6 +23,7 @@ class XmlMapCollection;
 | [add(string)](#add-string-)| Add a [XmlMap](../xmlmap/) by the url/path of a xml/xsd file. |
 | [clear()](#clear--)| Removes all XmlMaps. |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### get(number) {#get-number-}
@@ -74,6 +75,15 @@ Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

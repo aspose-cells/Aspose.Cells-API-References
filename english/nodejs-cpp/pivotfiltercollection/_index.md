@@ -23,6 +23,7 @@ class PivotFilterCollection;
 | [add(number, PivotFilterType)](#add-number-pivotfiltertype-)| Adds a PivotFilter Object to the specific type |
 | [clearFilter(number)](#clearFilter-number-)| Clear PivotFilter from the specific PivotField |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### get(number) {#get-number-}
@@ -79,6 +80,15 @@ Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

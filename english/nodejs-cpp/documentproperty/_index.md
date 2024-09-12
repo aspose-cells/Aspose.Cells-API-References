@@ -20,6 +20,8 @@ class DocumentProperty;
 | Method | Description |
 | --- | --- |
 | [getName()](#getName--)| Returns the name of the property. |
+| [getValue()](#getValue--)| Gets or sets the value of the property. |
+| [setValue(object)](#setValue-object-)| Gets or sets the value of the property. |
 | [isLinkedToContent()](#isLinkedToContent--)| Indicates whether this property is linked to content |
 | [getSource()](#getSource--)| The linked content source. |
 | [getType()](#getType--)| Gets the data type of the property. |
@@ -29,6 +31,7 @@ class DocumentProperty;
 | [toDouble()](#toDouble--)| Returns the property value as double. |
 | [toDateTime()](#toDateTime--)| Returns the property value as DateTime in local timezone. |
 | [toBool()](#toBool--)| Returns the property value as bool. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getName() {#getName--}
@@ -39,6 +42,28 @@ Returns the name of the property.
 getName() : string;
 ```
 
+
+### getValue() {#getValue--}
+
+Gets or sets the value of the property.
+
+```javascript
+getValue() : object;
+```
+
+
+### setValue(object) {#setValue-object-}
+
+Gets or sets the value of the property.
+
+```javascript
+setValue(value: object) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | object | The value to set. |
 
 ### isLinkedToContent() {#isLinkedToContent--}
 
@@ -144,5 +169,14 @@ toBool() : boolean;
 **Remarks**
 
 <p>Throws an exception if the property type is not PropertyType.Boolean.</p>
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

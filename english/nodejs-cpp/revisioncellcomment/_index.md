@@ -34,6 +34,7 @@ class RevisionCellComment extends Revision;
 | [isOldComment()](#isOldComment--)| Indicates whether it's an  old comment. |
 | [getOldLength()](#getOldLength--)| Gets Length of the comment text added in this revision. |
 | [getNewLength()](#getNewLength--)| Gets Length of the comment before this revision was made. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getWorksheet()](#getWorksheet--)| Gets the worksheet. |
 | [getId()](#getId--)| Gets the number of this revision. |
 
@@ -141,6 +142,15 @@ Gets Length of the comment before this revision was made.
 
 ```javascript
 getNewLength() : number;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

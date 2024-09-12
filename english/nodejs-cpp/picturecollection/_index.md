@@ -29,6 +29,7 @@ class PictureCollection;
 | [clear()](#clear--)| Clear all pictures. |
 | [removeAt(number)](#removeAt-number-)| Remove shapes at the specific index |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### get(number) {#get-number-}
@@ -198,6 +199,15 @@ Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

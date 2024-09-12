@@ -28,6 +28,7 @@ class IconSet;
 | [setShowValue(boolean)](#setShowValue-boolean-)| Get or set the flag indicating whether to show the values of the cells on which this icon set is applied. Default value is true. |
 | [getReverse()](#getReverse--)| Get or set the flag indicating whether to reverses the default order of the icons in this icon set. Default value is false. |
 | [setReverse(boolean)](#setReverse-boolean-)| Get or set the flag indicating whether to reverses the default order of the icons in this icon set. Default value is false. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getCfIcons() {#getCfIcons--}
@@ -134,5 +135,14 @@ setReverse(value: boolean) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

@@ -49,10 +49,13 @@ class ImportTableOptions;
 | [setTotalColumns(number)](#setTotalColumns-number-)| Gets or sets total column count to import from data source. -1 means all rows of given data source. |
 | [getColumnIndexes()](#getColumnIndexes--)| Gets or sets the columns(0-based) to import from data source. null means all columns should be imported. |
 | [setColumnIndexes(number[])](#setColumnIndexes-numberarray-)| Gets or sets the columns(0-based) to import from data source. null means all columns should be imported. |
+| [getDefaultValues()](#getDefaultValues--)| Default value for the value in the table is null. |
+| [setDefaultValues(object[])](#setDefaultValues-objectarray-)| Default value for the value in the table is null. |
 | [isHtmlString()](#isHtmlString--)| Indicates whether the value contains html tags. |
 | [setIsHtmlString(boolean)](#setIsHtmlString-boolean-)| Indicates whether the value contains html tags. |
 | [getCheckMergedCells()](#getCheckMergedCells--)| Indicates whether checking merged cells. |
 | [setCheckMergedCells(boolean)](#setCheckMergedCells-boolean-)| Indicates whether checking merged cells. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### constructor() {#constructor--}
@@ -348,6 +351,32 @@ setColumnIndexes(value: number[]) : void;
 | --- | --- | --- |
 | value | number[] | The value to set. |
 
+### getDefaultValues() {#getDefaultValues--}
+
+Default value for the value in the table is null.
+
+```javascript
+getDefaultValues() : object[];
+```
+
+
+**Returns**
+
+object[]
+
+### setDefaultValues(object[]) {#setDefaultValues-objectarray-}
+
+Default value for the value in the table is null.
+
+```javascript
+setDefaultValues(value: object[]) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | object[] | The value to set. |
+
 ### isHtmlString() {#isHtmlString--}
 
 Indicates whether the value contains html tags.
@@ -391,5 +420,14 @@ setCheckMergedCells(value: boolean) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

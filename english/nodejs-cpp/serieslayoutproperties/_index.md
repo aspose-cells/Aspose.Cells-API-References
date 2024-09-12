@@ -47,6 +47,7 @@ class SeriesLayoutProperties;
 | [setMapChartRegionType(MapChartRegionType)](#setMapChartRegionType-mapchartregiontype-)| Gets and sets the region type of the map. |
 | [getMapChartProjectionType()](#getMapChartProjectionType--)| Gets and sets the projection type of the map. |
 | [setMapChartProjectionType(MapChartProjectionType)](#setMapChartProjectionType-mapchartprojectiontype-)| Gets and sets the projection type of the map. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### constructor() {#constructor--}
@@ -319,5 +320,14 @@ setMapChartProjectionType(value: MapChartProjectionType) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [MapChartProjectionType](../mapchartprojectiontype/) | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

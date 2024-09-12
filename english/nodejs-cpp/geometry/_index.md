@@ -20,6 +20,7 @@ class Geometry;
 | Method | Description |
 | --- | --- |
 | [getShapeAdjustValues()](#getShapeAdjustValues--)| Gets a collection of shape adjust value |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getShapeAdjustValues() {#getShapeAdjustValues--}
@@ -34,5 +35,14 @@ getShapeAdjustValues() : ShapeGuideCollection;
 **Returns**
 
 [ShapeGuideCollection](../shapeguidecollection/)
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

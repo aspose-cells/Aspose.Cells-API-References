@@ -29,6 +29,7 @@ class InsertOptions;
 | [setCopyFormatType(CopyFormatType)](#setCopyFormatType-copyformattype-)|  |
 | [getUpdateReference()](#getUpdateReference--)| Indicates if references in other worksheets will be updated. |
 | [setUpdateReference(boolean)](#setUpdateReference-boolean-)| Indicates if references in other worksheets will be updated. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### constructor() {#constructor--}
@@ -87,5 +88,14 @@ setUpdateReference(value: boolean) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

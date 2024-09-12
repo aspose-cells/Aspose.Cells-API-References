@@ -33,6 +33,7 @@ class TwoColorGradient;
 | [setGradientStyleType(GradientStyleType)](#setGradientStyleType-gradientstyletype-)| Gets and sets gradient shading style. |
 | [getVariant()](#getVariant--)| Gets and sets the gradient variant. |
 | [setVariant(number)](#setVariant-number-)| Gets and sets the gradient variant. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### constructor(Color, Color, GradientStyleType, number) {#constructor-color-color-gradientstyletype-number-}
@@ -150,5 +151,14 @@ setVariant(value: number) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | number | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

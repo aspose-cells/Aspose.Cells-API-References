@@ -22,6 +22,7 @@ class VerticalPageBreak;
 | [getStartRow()](#getStartRow--)| Gets the start row index of the vertical page break. |
 | [getEndRow()](#getEndRow--)| Gets the end row index of the vertical page break. |
 | [getColumn()](#getColumn--)| Gets the column index of the vertical page break. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getStartRow() {#getStartRow--}
@@ -48,6 +49,15 @@ Gets the column index of the vertical page break.
 
 ```javascript
 getColumn() : number;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

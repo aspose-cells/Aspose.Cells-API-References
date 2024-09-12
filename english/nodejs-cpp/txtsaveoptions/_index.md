@@ -51,6 +51,7 @@ class TxtSaveOptions extends SaveOptions;
 | [setExportQuotePrefix(boolean)](#setExportQuotePrefix-boolean-)| Indicates whether the single quote sign should be exported as part of the value of one cell when [Style.QuotePrefix](../style.quoteprefix/) is true for it. Default is false. |
 | [getExportAllSheets()](#getExportAllSheets--)| Indicates whether exporting all sheets to the text file. If it is false, only export the activesheet, just like MS Excel. |
 | [setExportAllSheets(boolean)](#setExportAllSheets-boolean-)| Indicates whether exporting all sheets to the text file. If it is false, only export the activesheet, just like MS Excel. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getSaveFormat()](#getSaveFormat--)| Gets the save file format. |
 | [getClearData()](#getClearData--)| Make the workbook empty after saving the file. |
 | [setClearData(boolean)](#setClearData-boolean-)| Make the workbook empty after saving the file. |
@@ -426,6 +427,15 @@ setExportAllSheets(value: boolean) : void;
 **Remarks**
 
 The defult value is false.
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 ### getSaveFormat() {#getSaveFormat--}
 

@@ -31,6 +31,7 @@ class AutoNumberedBulletValue extends BulletValue;
 | [setStartAt(number)](#setStartAt-number-)| Gets and sets the starting number of the bullet. |
 | [getAutonumberScheme()](#getAutonumberScheme--)| Represents the scheme of automatic number. |
 | [setAutonumberScheme(TextAutonumberScheme)](#setAutonumberScheme-textautonumberscheme-)| Represents the scheme of automatic number. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### constructor(BulletValue) {#constructor-bulletvalue-}
@@ -115,5 +116,14 @@ setAutonumberScheme(value: TextAutonumberScheme) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [TextAutonumberScheme](../textautonumberscheme/) | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

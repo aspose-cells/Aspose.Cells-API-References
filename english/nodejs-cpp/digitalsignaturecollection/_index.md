@@ -27,6 +27,7 @@ class DigitalSignatureCollection;
 | --- | --- |
 | [add(DigitalSignature)](#add-digitalsignature-)| Add one signature to DigitalSignatureCollection. |
 | [getEnumerator()](#getEnumerator--)| Get the enumerator for DigitalSignatureCollection, this enumerator allows iteration over the collection |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### constructor() {#constructor--}
@@ -63,5 +64,14 @@ getEnumerator() : DigitalSignatureEnumerator;
 **Returns**
 
 The enumerator to iteration.
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

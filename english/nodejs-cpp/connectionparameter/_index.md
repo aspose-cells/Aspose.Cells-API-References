@@ -31,6 +31,9 @@ class ConnectionParameter;
 | [setName(string)](#setName-string-)| The name of the parameter. |
 | [getCellReference()](#getCellReference--)| Cell reference indicating which cell's value to use for the query parameter. Used only when parameterType is cell. |
 | [setCellReference(string)](#setCellReference-string-)| Cell reference indicating which cell's value to use for the query parameter. Used only when parameterType is cell. |
+| [getValue()](#getValue--)| Non-integer numeric value,Integer value,String value or Boolean value to use as the query parameter. Used only when parameterType is value. |
+| [setValue(object)](#setValue-object-)| Non-integer numeric value,Integer value,String value or Boolean value to use as the query parameter. Used only when parameterType is value. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getSqlType() {#getSqlType--}
@@ -172,5 +175,36 @@ setCellReference(value: string) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | string | The value to set. |
+
+### getValue() {#getValue--}
+
+Non-integer numeric value,Integer value,String value or Boolean value to use as the query parameter. Used only when parameterType is value.
+
+```javascript
+getValue() : object;
+```
+
+
+### setValue(object) {#setValue-object-}
+
+Non-integer numeric value,Integer value,String value or Boolean value to use as the query parameter. Used only when parameterType is value.
+
+```javascript
+setValue(value: object) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | object | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

@@ -24,6 +24,7 @@ class TableStyleElement;
 | [getType()](#getType--)| Gets the element type. |
 | [getElementStyle()](#getElementStyle--)| Gets the element style. |
 | [setElementStyle(Style)](#setElementStyle-style-)| Sets the element style. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getSize() {#getSize--}
@@ -86,5 +87,14 @@ setElementStyle(style: Style) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | style | [Style](../style/) | The element style. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

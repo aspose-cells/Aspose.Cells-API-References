@@ -21,6 +21,7 @@ class SlicerCacheItemCollection;
 | --- | --- |
 | [get(number)](#get-number-)| Gets the SlicerCacheItem object by index. |
 | [getCount()](#getCount--)| Gets the count of the SlicerCacheItem. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### get(number) {#get-number-}
@@ -46,6 +47,15 @@ Gets the count of the SlicerCacheItem.
 
 ```javascript
 getCount() : number;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

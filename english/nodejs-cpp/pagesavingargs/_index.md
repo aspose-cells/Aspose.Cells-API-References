@@ -21,6 +21,7 @@ class PageSavingArgs;
 | --- | --- |
 | [getPageIndex()](#getPageIndex--)| Current page index, zero based. |
 | [getPageCount()](#getPageCount--)| Total page count. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getPageIndex() {#getPageIndex--}
@@ -38,6 +39,15 @@ Total page count.
 
 ```javascript
 getPageCount() : number;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

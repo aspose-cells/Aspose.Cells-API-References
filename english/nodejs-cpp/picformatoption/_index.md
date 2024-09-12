@@ -37,6 +37,7 @@ class PicFormatOption;
 | [setBottom(number)](#setBottom-number-)| Gets or sets the bottom offset for stretching picture. |
 | [getRight()](#getRight--)| Gets or sets the right offset for stretching picture. |
 | [setRight(number)](#setRight-number-)| Gets or sets the right offset for stretching picture. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### constructor() {#constructor--}
@@ -183,5 +184,14 @@ setRight(value: number) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | number | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

@@ -27,6 +27,7 @@ class TimelineCollection;
 | [add(PivotTable, number, number, PivotField)](#add-pivottable-number-number-pivotfield-)| Add a new Timeline using PivotTable as data source |
 | [add(PivotTable, string, PivotField)](#add-pivottable-string-pivotfield-)| Add a new Timeline using PivotTable as data source |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### get(number) {#get-number-}
@@ -169,6 +170,15 @@ Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

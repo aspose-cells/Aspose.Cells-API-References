@@ -21,6 +21,8 @@ All objects provided by this class are for "read" purpose only. User should not 
 
 | Method | Description |
 | --- | --- |
+| [getCalculatedValue()](#getCalculatedValue--)| Gets or sets the calculated value for this function. |
+| [setCalculatedValue(object)](#setCalculatedValue-object-)| Gets or sets the calculated value for this function. |
 | [getWorkbook()](#getWorkbook--)| Gets the Workbook object where the function is in. |
 | [getWorksheet()](#getWorksheet--)| Gets the Worksheet object where the function is in. |
 | [getCellRow()](#getCellRow--)| Gets the row index of the cell where the function is in. |
@@ -28,8 +30,40 @@ All objects provided by this class are for "read" purpose only. User should not 
 | [getCell()](#getCell--)| Gets the Cell object where the function is in. |
 | [getFunctionName()](#getFunctionName--)| Gets the function name to be calculated. |
 | [getParamCount()](#getParamCount--)| Gets the count of parameters |
+| [getParamValue(number)](#getParamValue-number-)| Gets the represented value object of the parameter at given index. |
 | [getParamText(number)](#getParamText-number-)| Gets the literal text of the parameter at given index. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
+
+### getCalculatedValue() {#getCalculatedValue--}
+
+Gets or sets the calculated value for this function.
+
+```javascript
+getCalculatedValue() : object;
+```
+
+
+**Remarks**
+
+User should set this property in his custom calculation engine for those functions the engine supports, and the set value will be returned when getting this property later. The set value may be of possible types of [Cell.Value](../cell.value/), or array of such kind of values, or a Range, Name, ReferredArea. Getting this property before setting value to it will make the function be calculated by the default calculation engine of Aspose.Cells and then the calculated value will be returned(generally it should be #NAME? for user-defined functions).
+
+### setCalculatedValue(object) {#setCalculatedValue-object-}
+
+Gets or sets the calculated value for this function.
+
+```javascript
+setCalculatedValue(value: object) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | object | The value to set. |
+
+**Remarks**
+
+User should set this property in his custom calculation engine for those functions the engine supports, and the set value will be returned when getting this property later. The set value may be of possible types of [Cell.Value](../cell.value/), or array of such kind of values, or a Range, Name, ReferredArea. Getting this property before setting value to it will make the function be calculated by the default calculation engine of Aspose.Cells and then the calculated value will be returned(generally it should be #NAME? for user-defined functions).
 
 ### getWorkbook() {#getWorkbook--}
 
@@ -110,6 +144,27 @@ getParamCount() : number;
 ```
 
 
+### getParamValue(number) {#getParamValue-number-}
+
+Gets the represented value object of the parameter at given index.
+
+```javascript
+getParamValue(index: number) : object;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | number | The index of the parameter(0 based) |
+
+**Returns**
+
+The calculated value of the parameter.
+
+**Remarks**
+
+For one parameter: <p>If it is plain value, then returns the plain value itself;</p> <p>If it is reference, then returns ReferredArea object;</p> <p>If it references to dataset(s) with multiple values, then returns array of objects;</p> <p> If it is some kind of expression that needs to be calculated, then it will be calculated in value mode and generally a single value will be returned according to current cell base. For example, if one parameter of D2's formula is A:A+B:B, then A2+B2 will be calculated and returned. However, if this parameter has been specified as array mode (by [Workbook.UpdateCustomFunctionDefinition(CustomFunctionDefinition)](../workbook.updatecustomfunctiondefinition(customfunctiondefinition)/) or [FormulaParseOptions.CustomFunctionDefinition](../formulaparseoptions.customfunctiondefinition/)), then an array(object[][]) will be returned whose items are A1+B1,A2+B2,.... </p>
+
 ### getParamText(number) {#getParamText-number-}
 
 Gets the literal text of the parameter at given index.
@@ -126,5 +181,14 @@ getParamText(index: number) : string;
 **Returns**
 
 literal text of the parameter
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

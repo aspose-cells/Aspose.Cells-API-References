@@ -31,6 +31,7 @@ class Top10;
 | [setIsBottom(boolean)](#setIsBottom-boolean-)| Get or set whether a "top/bottom n" rule is a "bottom n" rule. Default value is false. |
 | [getRank()](#getRank--)| Get or set the value of "n" in a "top/bottom n" conditional formatting rule. If IsPercent is true, the value must between 0 and 100. Otherwise it must between 0 and 1000. Default value is 10. |
 | [setRank(number)](#setRank-number-)| Get or set the value of "n" in a "top/bottom n" conditional formatting rule. If IsPercent is true, the value must between 0 and 100. Otherwise it must between 0 and 1000. Default value is 10. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### constructor() {#constructor--}
@@ -107,5 +108,14 @@ setRank(value: number) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | number | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

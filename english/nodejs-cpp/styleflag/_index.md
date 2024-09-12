@@ -85,6 +85,7 @@ class StyleFlag;
 | [setHideFormula(boolean)](#setHideFormula-boolean-)| Hide formula setting will be applied. |
 | [getQuotePrefix()](#getQuotePrefix--)| Hide formula setting will be applied. |
 | [setQuotePrefix(boolean)](#setQuotePrefix-boolean-)| Hide formula setting will be applied. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### constructor() {#constructor--}
@@ -755,5 +756,14 @@ setQuotePrefix(value: boolean) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

@@ -28,6 +28,7 @@ class Hyperlink;
 | [setScreenTip(string)](#setScreenTip-string-)| Returns or sets the ScreenTip text for the specified hyperlink. |
 | [getLinkType()](#getLinkType--)| Gets the link type. |
 | [delete()](#delete--)| Deletes this hyperlink |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getAddress() {#getAddress--}
@@ -128,6 +129,15 @@ Deletes this hyperlink
 
 ```javascript
 delete() : void;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

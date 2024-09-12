@@ -26,6 +26,7 @@ class ScenarioInputCell;
 | [setValue(string)](#setValue-string-)| Gets and sets value of the input cell. |
 | [isDeleted()](#isDeleted--)| Indicates whether input cell is deleted. |
 | [setIsDeleted(boolean)](#setIsDeleted-boolean-)| Indicates whether input cell is deleted. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getRow() {#getRow--}
@@ -98,5 +99,14 @@ setIsDeleted(value: boolean) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

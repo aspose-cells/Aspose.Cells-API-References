@@ -25,6 +25,7 @@ class OleObjectCollection;
 | [clear()](#clear--)| Remove all embedded OLE objects. |
 | [removeAt(number)](#removeAt-number-)| Removes the element at the specified index. |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### get(number) {#get-number-}
@@ -115,6 +116,15 @@ Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

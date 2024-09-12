@@ -22,6 +22,7 @@ class TextParagraphCollection;
 | [get(number)](#get-number-)| Gets the [TextParagraph](../textparagraph/) object at specific index. |
 | [getCount()](#getCount--)| Gets the count of text paragraphs. |
 | [getEnumerator()](#getEnumerator--)| Gets the enumerator of the paragraphs. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### get(number) {#get-number-}
@@ -62,5 +63,14 @@ getEnumerator() : TextParagraphEnumerator;
 **Returns**
 
 [TextParagraphEnumerator](../textparagraphenumerator/)
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

@@ -39,6 +39,7 @@ class SignatureLine;
 | [setShowSignedDate(boolean)](#setShowSignedDate-boolean-)| Indicates whether show signed date. |
 | [getInstructions()](#getInstructions--)| Gets and sets the text shown to user at signing time. |
 | [setInstructions(string)](#setInstructions-string-)| Gets and sets the text shown to user at signing time. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### constructor() {#constructor--}
@@ -203,5 +204,14 @@ setInstructions(value: string) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | string | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

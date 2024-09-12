@@ -24,6 +24,7 @@ class SmartTagCollection;
 | [getColumn()](#getColumn--)| Gets the column of the cell smart tags. |
 | [add(string, string)](#add-string-string-)| Adds a smart tag. |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### get(number) {#get-number-}
@@ -85,6 +86,15 @@ Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

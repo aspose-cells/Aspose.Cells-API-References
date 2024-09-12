@@ -21,6 +21,7 @@ is_root: true
 | [AdvancedFilter](./advancedfilter) | Represents the settings of advanced filter. |
 | [ArcShape](./arcshape) | Represents the arc shape. |
 | [Area](./area) | Encapsulates the object that represents an area format. |
+| [ArrayEquationNode](./arrayequationnode) | Specifies the Equation-Array function, an object consisting of one or more equations. |
 | [AutoFilter](./autofilter) | Represents autofiltering for the specified worksheet. |
 | [AutoFitterOptions](./autofitteroptions) | Represents all auto fitter options. |
 | [AutomaticFill](./automaticfill) | represents automatic fill. |
@@ -191,7 +192,6 @@ is_root: true
 | [IndividualFontConfigs](./individualfontconfigs) | Font configs for each [Workbook](../workbook/) object. |
 | [InsertOptions](./insertoptions) | Represents the options of inserting. |
 | [InterruptMonitor](./interruptmonitor) | Represents all operator about the interrupt. |
-| [IObject](./iobject) | Base class. |
 | [JsonLayoutOptions](./jsonlayoutoptions) | Represents the options of json layout type. |
 | [JsonLoadOptions](./jsonloadoptions) | Represents the options of loading json files |
 | [JsonSaveOptions](./jsonsaveoptions) | Represents the options of saving the workbook as a json file. |
@@ -202,6 +202,7 @@ is_root: true
 | [LegendEntry](./legendentry) | Represents a legend entry in a chart legend. |
 | [LegendEntryCollection](./legendentrycollection) | Represents a collection of all the [LegendEntry](../legendentry/) objects in the specified chart legend. |
 | [License](./license) | Provides methods to license the component. |
+| [LimLowUppEquationNode](./limlowuppequationnode) | This class specifies the limit function. |
 | [Line](./line) | Encapsulates the object that represents the line format. |
 | [LineFormat](./lineformat) | Represents all setting of the line. |
 | [LineShape](./lineshape) | Represents the line shape. |
@@ -232,8 +233,8 @@ is_root: true
 | [NegativeBarFormat](./negativebarformat) | Represents the color settings of the data bars for negative values that are defined by a data bar conditional formatting rule. |
 | [NoneBulletValue](./nonebulletvalue) | Represents no bullet. |
 | [NoneFill](./nonefill) | Represents no fill. |
-| [Numbers35SaveOptions](./numbers35saveoptions) | Represents the options for saving ebook file. |
 | [NumbersLoadOptions](./numbersloadoptions) | Represents the options of loading Apple Numbers files. |
+| [Object](./object) | Object class. |
 | [OdsCellField](./odscellfield) | Represents the cell field of ods. |
 | [OdsCellFieldCollection](./odscellfieldcollection) | Represents the fields of ODS. |
 | [OdsLoadOptions](./odsloadoptions) | Represents the options of loading ods file. |
@@ -559,7 +560,7 @@ is_root: true
 | [EquationHorizontalJustificationType](./equationhorizontaljustificationtype) | This specifies the default horizontal justification of equations in the document. |
 | [EquationLimitLocationType](./equationlimitlocationtype) | Specifies the limit location on an operator. |
 | [EquationMathematicalOperatorType](./equationmathematicaloperatortype) | Mathematical Operators Type |
-| [EquationNodeType](./equationnodetype) | Equation node type. Notice: (1)[1-99] Currently there is only one node in the scope, and its enumeration value is 1. The node it specifies is used to store mathematical text. (2)[100-199] Indicates that the node is a component of some special function nodes. (3)[200-] Indicates that the node has some special functions(Usually with 'Equation' suffix. 'EquationParagraph' is a special case.). |
+| [EquationNodeType](./equationnodetype) | Equation node type. Notice: (1)[1-99] Currently there is only one node in the scope, and its enumeration value is 1. The node it specifies is used to store mathematical text. (2)[100-199] Indicates that the node is a component of some special function nodes. (3)[200-] Indicates that the node has some special functions. |
 | [EquationVerticalJustificationType](./equationverticaljustificationtype) | This specifies the default vertical justification of equations in the document. |
 | [ErrorBarDisplayType](./errorbardisplaytype) | Represents error bar display type. |
 | [ErrorBarType](./errorbartype) | Represents error bar amount type. |
@@ -592,6 +593,7 @@ is_root: true
 | [HtmlHiddenColDisplayType](./htmlhiddencoldisplaytype) | Represents two types of showing the hidden columns in html. |
 | [HtmlHiddenRowDisplayType](./htmlhiddenrowdisplaytype) | Represents two types of showing the hidden rows in html. |
 | [HtmlLinkTargetType](./htmllinktargettype) | Represents the type of target attribute in HTML <a/> tag. |
+| [HtmlOfficeMathOutputType](./htmlofficemathoutputtype) | Represents how export OfficeMath to HTML. |
 | [IconSetType](./iconsettype) | Icon set type for conditional formatting. The threshold values for triggering the different icons within a set are configurable, and the icon order is reversible. |
 | [ImageBinarizationMethod](./imagebinarizationmethod) | Specifies the method used to binarize image. |
 | [ImageType](./imagetype) | Specifies the type (format) of an image. |
@@ -628,6 +630,7 @@ is_root: true
 | [MsoPresetTextEffectShape](./msopresettexteffectshape) | Represents preset text effect shape type of WordArt. |
 | [NameScopeType](./namescopetype) | Represents the scope type of defined names. |
 | [NumberCategoryType](./numbercategorytype) | Represents category type of cell's number formatting. |
+| [ObjectType](./objecttype) | Represents the type of the object. |
 | [OdsCellFieldType](./odscellfieldtype) | Represents the cell field type of ods. |
 | [OdsGeneratorType](./odsgeneratortype) | Represents the type of ODS generator. |
 | [OdsPageBackgroundGraphicPositionType](./odspagebackgroundgraphicpositiontype) | Represents the position. |

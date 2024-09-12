@@ -41,6 +41,7 @@ class XmlLoadOptions extends LoadOptions;
 | [setDateFormat(string)](#setDateFormat-string-)| Gets and sets the format of date value. |
 | [getIgnoreRootAttributes()](#getIgnoreRootAttributes--)| Indicates whether ignore attributes of the root element. |
 | [setIgnoreRootAttributes(boolean)](#setIgnoreRootAttributes-boolean-)| Indicates whether ignore attributes of the root element. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getLoadFormat()](#getLoadFormat--)| Gets the load format. |
 | [getPassword()](#getPassword--)| Gets and set the password of the workbook. |
 | [setPassword(string)](#setPassword-string-)| Gets and set the password of the workbook. |
@@ -280,6 +281,15 @@ setIgnoreRootAttributes(value: boolean) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 ### getLoadFormat() {#getLoadFormat--}
 

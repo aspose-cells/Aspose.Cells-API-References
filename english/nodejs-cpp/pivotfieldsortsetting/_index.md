@@ -25,6 +25,7 @@ class PivotFieldSortSetting;
 | [getLineTypeSortedBy()](#getLineTypeSortedBy--)| The pivot line type sorted by. |
 | [isSimpleSort()](#isSimpleSort--)| Indicates whether a simple data sort operation will be applied. |
 | [getCell()](#getCell--)| Sorts by the values in which row or column. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getSortType() {#getSortType--}
@@ -94,6 +95,15 @@ Sorts by the values in which row or column.
 
 ```javascript
 getCell() : string;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

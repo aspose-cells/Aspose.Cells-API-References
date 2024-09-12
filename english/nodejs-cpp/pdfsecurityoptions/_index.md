@@ -45,6 +45,7 @@ class PdfSecurityOptions;
 | [setAssembleDocumentPermission(boolean)](#setAssembleDocumentPermission-boolean-)| Indicates whether to allow to assemble the document (insert, rotate, or delete pages and create bookmarks or thumbnail images), even if [ModifyDocumentPermission](../modifydocumentpermission/) is clear. |
 | [getFullQualityPrintPermission()](#getFullQualityPrintPermission--)| Indicates whether to allow to print the document to a representation from which a faithful digital copy of the PDF content could be generated. |
 | [setFullQualityPrintPermission(boolean)](#setFullQualityPrintPermission-boolean-)| Indicates whether to allow to print the document to a representation from which a faithful digital copy of the PDF content could be generated. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### constructor() {#constructor--}
@@ -315,5 +316,14 @@ setFullQualityPrintPermission(value: boolean) : void;
 **Remarks**
 
 When it is clear (and [PrintPermission](../printpermission/) is set), printing is limited to a low level representation of the appearance, possibly of degraded quality.
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

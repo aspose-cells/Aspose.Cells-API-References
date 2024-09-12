@@ -34,6 +34,7 @@ class MarkdownSaveOptions extends SaveOptions;
 | [setLightCellsDataProvider(LightCellsDataProvider)](#setLightCellsDataProvider-lightcellsdataprovider-)| The Data provider to provide cells data for saving workbook in light mode. |
 | [getLineSeparator()](#getLineSeparator--)| Gets and sets the line separator. |
 | [setLineSeparator(string)](#setLineSeparator-string-)| Gets and sets the line separator. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getSaveFormat()](#getSaveFormat--)| Gets the save file format. |
 | [getClearData()](#getClearData--)| Make the workbook empty after saving the file. |
 | [setClearData(boolean)](#setClearData-boolean-)| Make the workbook empty after saving the file. |
@@ -180,6 +181,15 @@ setLineSeparator(value: string) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | string | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 ### getSaveFormat() {#getSaveFormat--}
 

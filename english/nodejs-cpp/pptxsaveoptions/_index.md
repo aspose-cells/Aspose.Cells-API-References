@@ -33,6 +33,7 @@ class PptxSaveOptions extends PaginatedSaveOptions;
 | [setAdjustFontSizeForRowType(AdjustFontSizeForRowType)](#setAdjustFontSizeForRowType-adjustfontsizeforrowtype-)| Represents what type of line needs to be adjusted size of font if height of row is small. |
 | [getExportViewType()](#getExportViewType--)| Gets and sets the display type when exporting to PowerPoint. The default exporting type is working as printing. |
 | [setExportViewType(SlideViewType)](#setExportViewType-slideviewtype-)| Gets and sets the display type when exporting to PowerPoint. The default exporting type is working as printing. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getSaveFormat()](#getSaveFormat--)| Gets the save file format. |
 | [getClearData()](#getClearData--)| Make the workbook empty after saving the file. |
 | [setClearData(boolean)](#setClearData-boolean-)| Make the workbook empty after saving the file. |
@@ -202,6 +203,15 @@ setExportViewType(value: SlideViewType) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [SlideViewType](../slideviewtype/) | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 ### getSaveFormat() {#getSaveFormat--}
 

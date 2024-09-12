@@ -33,6 +33,7 @@ class CellsColor;
 | [getTransparency()](#getTransparency--)| Gets and sets transparency as a value from 0.0 (opaque) through 1.0 (clear). |
 | [setTransparency(number)](#setTransparency-number-)| Gets and sets transparency as a value from 0.0 (opaque) through 1.0 (clear). |
 | [setTintOfShapeColor(number)](#setTintOfShapeColor-number-)| Set the tint of the shape color |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### isShapeColor() {#isShapeColor--}
@@ -208,5 +209,14 @@ setTintOfShapeColor(tint: number) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | tint | number |  |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

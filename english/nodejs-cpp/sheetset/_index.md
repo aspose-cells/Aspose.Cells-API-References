@@ -25,6 +25,7 @@ class SheetSet;
 
 | Method | Description |
 | --- | --- |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | static [getActive()](#getActive--)| Gets a set with active sheet of the workbook. |
 | static [getVisible()](#getVisible--)| Gets a set with visible sheets of the workbook in their original order. |
 | static [getAll()](#getAll--)| Gets a set with all sheets of the workbook in their original order. |
@@ -46,6 +47,15 @@ constructor(sheets: number[]);
 **Remarks**
 
 If a sheet is encountered that is not in the workbook, an exception will be thrown during rendering.
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 ### getActive() {#getActive--}
 

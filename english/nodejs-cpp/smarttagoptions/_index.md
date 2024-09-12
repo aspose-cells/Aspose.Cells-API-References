@@ -29,6 +29,7 @@ class SmartTagOptions;
 | [setEmbedSmartTags(boolean)](#setEmbedSmartTags-boolean-)| Indicates whether saving smart tags with the workbook. |
 | [getShowType()](#getShowType--)| Represents the show type of smart tag. |
 | [setShowType(SmartTagShowType)](#setShowType-smarttagshowtype-)| Represents the show type of smart tag. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### constructor() {#constructor--}
@@ -87,5 +88,14 @@ setShowType(value: SmartTagShowType) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [SmartTagShowType](../smarttagshowtype/) | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

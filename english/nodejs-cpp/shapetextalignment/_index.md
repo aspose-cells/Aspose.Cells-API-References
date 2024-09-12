@@ -49,7 +49,9 @@ class ShapeTextAlignment;
 | [setIsAutoMargin(boolean)](#setIsAutoMargin-boolean-)| Indicates whether the margin of the text frame is automatic. |
 | [getNumberOfColumns()](#getNumberOfColumns--)| Gets and sets the number of columns of text in the bounding rectangle. |
 | [setNumberOfColumns(number)](#setNumberOfColumns-number-)| Gets and sets the number of columns of text in the bounding rectangle. |
+| [equals(object)](#equals-object-)| Determines whether this instance has the same value as another specified [ShapeTextAlignment](../shapetextalignment/) object. |
 | [getHashCode()](#getHashCode--)|  |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### isTextWrapped() {#isTextWrapped--}
@@ -406,12 +408,38 @@ setNumberOfColumns(value: number) : void;
 | --- | --- | --- |
 | value | number | The value to set. |
 
+### equals(object) {#equals-object-}
+
+Determines whether this instance has the same value as another specified [ShapeTextAlignment](../shapetextalignment/) object.
+
+```javascript
+equals(obj: object) : boolean;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | object | The [ShapeTextAlignment](../shapetextalignment/) object to compare with this instance. |
+
+**Returns**
+
+true if the value of the obj parameter is the same as the value of this instance; otherwise, false. If obj is null, this method returns false.
+
 ### getHashCode() {#getHashCode--}
 
 
 
 ```javascript
 getHashCode() : number;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

@@ -37,6 +37,7 @@ class HtmlTableLoadOption;
 | [setTargetSheetIndex(number)](#setTargetSheetIndex-number-)| Get or set the target index of worksheet where the table is to be located. |
 | [getTableToListObject()](#getTableToListObject--)| Indicates whether generate list objects from imported table. The default value is false. |
 | [setTableToListObject(boolean)](#setTableToListObject-boolean-)| Indicates whether generate list objects from imported table. The default value is false. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### constructor() {#constructor--}
@@ -179,5 +180,14 @@ setTableToListObject(value: boolean) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

@@ -29,6 +29,7 @@ class DefaultStyleSettings;
 | [setHorizontalAlignment(TextAlignmentType)](#setHorizontalAlignment-textalignmenttype-)| Gets/Sets the default value for horizontal alignment |
 | [getVerticalAlignment()](#getVerticalAlignment--)| Gets/Sets the default value for vertical alignment |
 | [setVerticalAlignment(TextAlignmentType)](#setVerticalAlignment-textalignmenttype-)| Gets/Sets the default value for vertical alignment |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getBuiltInPreference() {#getBuiltInPreference--}
@@ -156,5 +157,14 @@ setVerticalAlignment(value: TextAlignmentType) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [TextAlignmentType](../textalignmenttype/) | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

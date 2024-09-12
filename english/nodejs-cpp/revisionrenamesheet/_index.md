@@ -28,6 +28,7 @@ class RevisionRenameSheet extends Revision;
 | [getType()](#getType--)| Represents the type of the revision. |
 | [getOldName()](#getOldName--)| Gets the old name of the worksheet. |
 | [getNewName()](#getNewName--)| Gets the new name of the worksheet. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getWorksheet()](#getWorksheet--)| Gets the worksheet. |
 | [getId()](#getId--)| Gets the number of this revision. |
 
@@ -73,6 +74,15 @@ Gets the new name of the worksheet.
 
 ```javascript
 getNewName() : string;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

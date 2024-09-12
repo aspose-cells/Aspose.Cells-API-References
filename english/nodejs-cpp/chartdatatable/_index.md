@@ -39,6 +39,7 @@ class ChartDataTable;
 | [getShowLegendKey()](#getShowLegendKey--)| True if the data label legend key is visible. |
 | [setShowLegendKey(boolean)](#setShowLegendKey-boolean-)| True if the data label legend key is visible. |
 | [getBorder()](#getBorder--)| Returns a Border object that represents the border of the object |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getFont() {#getFont--}
@@ -292,5 +293,14 @@ getBorder() : Line;
 **Returns**
 
 [Line](../line/)
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

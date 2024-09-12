@@ -50,6 +50,7 @@ class JsonSaveOptions extends SaveOptions;
 | [setAlwaysExportAsJsonObject(boolean)](#setAlwaysExportAsJsonObject-boolean-)| Indicates whether always exporting excel to json as object, even there is only a worksheet in the file. |
 | [getToExcelStruct()](#getToExcelStruct--)| Indicates whether converting to json struct of the Excel file. |
 | [setToExcelStruct(boolean)](#setToExcelStruct-boolean-)| Indicates whether converting to json struct of the Excel file. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getSaveFormat()](#getSaveFormat--)| Gets the save file format. |
 | [getClearData()](#getClearData--)| Make the workbook empty after saving the file. |
 | [setClearData(boolean)](#setClearData-boolean-)| Make the workbook empty after saving the file. |
@@ -400,6 +401,15 @@ setToExcelStruct(value: boolean) : void;
 **Remarks**
 
 Only for converting range to JSON.
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 ### getSaveFormat() {#getSaveFormat--}
 

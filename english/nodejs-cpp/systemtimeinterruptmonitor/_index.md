@@ -30,6 +30,7 @@ This implementation is just a simple solution for simple scenarios. It needs to 
 | [isInterruptionRequested()](#isInterruptionRequested--)| This implementation just checks whether the time cost(from the time when starting this monitor to now) is greater than user specified limit. |
 | [getTerminateWithoutException()](#getTerminateWithoutException--)| See [AbstractInterruptMonitor.TerminateWithoutException](../abstractinterruptmonitor.terminatewithoutexception/). This property is specified by user when constructing this monitor instance. |
 | [startMonitor(number)](#startMonitor-number-)| Starts the monitor with the specified time limit. The start time to calculate time cost is just when this method is called, so the procedure which needs to be monitored should be started just after this call. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### constructor(boolean) {#constructor-boolean-}
@@ -75,5 +76,14 @@ startMonitor(msLimit: number) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | msLimit | number | time limit(ms) to require the interruption. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

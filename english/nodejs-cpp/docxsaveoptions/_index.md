@@ -27,6 +27,7 @@ class DocxSaveOptions extends PaginatedSaveOptions;
 
 | Method | Description |
 | --- | --- |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getSaveFormat()](#getSaveFormat--)| Gets the save file format. |
 | [getClearData()](#getClearData--)| Make the workbook empty after saving the file. |
 | [setClearData(boolean)](#setClearData-boolean-)| Make the workbook empty after saving the file. |
@@ -122,6 +123,15 @@ constructor(saveAsImage: boolean);
 | Parameter | Type | Description |
 | --- | --- | --- |
 | saveAsImage | boolean | If True, the workbook will be converted into some pictures of .docx file.         ///If False, the workbook will be converted into some tables of .docx file. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 ### getSaveFormat() {#getSaveFormat--}
 

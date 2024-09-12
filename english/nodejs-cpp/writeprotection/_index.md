@@ -33,6 +33,7 @@ class WriteProtection;
 | [getPassword()](#getPassword--)| Sets the protected password to modify the file. |
 | [setPassword(string)](#setPassword-string-)| Sets the protected password to modify the file. |
 | [validatePassword(string)](#validatePassword-string-)| Returns true if the specified password is the same as the write-protection password the file was protected with. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### constructor() {#constructor--}
@@ -131,5 +132,14 @@ validatePassword(password: string) : boolean;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | password | string | The specified password. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

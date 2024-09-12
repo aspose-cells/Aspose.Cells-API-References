@@ -28,6 +28,7 @@ class ActiveXControlBase;
 | [setLinkedCell(string)](#setLinkedCell-string-)| Gets and sets the linked cell. |
 | [getListFillRange()](#getListFillRange--)| Gets and sets the list fill range. |
 | [setListFillRange(string)](#setListFillRange-string-)| Gets and sets the list fill range. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getType()](#getType--)| Gets the type of the ActiveX control. |
 | [getWidth()](#getWidth--)| Gets and sets the width of the control in unit of points. |
 | [setWidth(number)](#setWidth-number-)| Gets and sets the width of the control in unit of points. |
@@ -152,6 +153,15 @@ setListFillRange(value: string) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | string | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 ### getType() {#getType--}
 

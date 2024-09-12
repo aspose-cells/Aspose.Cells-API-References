@@ -35,11 +35,11 @@ class CustomDocumentPropertyCollection extends DocumentPropertyCollection;
 | [addLinkToContent(string, string)](#addLinkToContent-string-string-)| Creates a new custom document property which links to content. |
 | [updateLinkedPropertyValue()](#updateLinkedPropertyValue--)| Update custom document property value which links to content. |
 | [updateLinkedRange()](#updateLinkedRange--)| Update custom document property value to linked range. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [contains(string)](#contains-string-)| Returns true if a property with the specified name exists in the collection. |
 | [indexOf(string)](#indexOf-string-)| Gets the index of a property by name. |
 | [remove(string)](#remove-string-)| Removes a property with the specified name from the collection. |
 | [removeAt(number)](#removeAt-number-)| Removes a property at the specified index. |
-| [getCount()](#getCount--)| Gets the number of elements contained in. |
 | [get(string)](#get-string-)| Returns a [DocumentProperty](../documentproperty/) object by the name of the property. |
 
 
@@ -182,6 +182,15 @@ updateLinkedRange() : void;
 ```
 
 
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
+
 ### contains(string) {#contains-string-}
 
 Returns true if a property with the specified name exists in the collection.
@@ -241,15 +250,6 @@ removeAt(index: number) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | number | The zero based index. |
-
-### getCount() {#getCount--}
-
-Gets the number of elements contained in.
-
-```javascript
-getCount() : number;
-```
-
 
 ### get(string) {#get-string-}
 

@@ -55,6 +55,8 @@ class Picture extends Shape;
 | [copy(Picture, CopyOptions)](#copy-picture-copyoptions-)| Copy the picture. |
 | [move(number, number)](#move-number-number-)| Moves the picture to a specified location. |
 | [placeInCell()](#placeInCell--)| Place this picture in the cell |
+| [isSameSetting(object)](#isSameSetting-object-)| Returns whether the shape is same. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getMacroName()](#getMacroName--)| Gets and sets the name of macro. |
 | [setMacroName(string)](#setMacroName-string-)| Gets and sets the name of macro. |
 | [isEquation()](#isEquation--)| Indicates whether the shape only contains an equation. |
@@ -595,6 +597,28 @@ Place this picture in the cell
 
 ```javascript
 placeInCell() : void;
+```
+
+
+### isSameSetting(object) {#isSameSetting-object-}
+
+Returns whether the shape is same.
+
+```javascript
+isSameSetting(obj: object) : boolean;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | object |  |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

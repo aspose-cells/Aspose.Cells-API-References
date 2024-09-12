@@ -20,7 +20,7 @@ class CustomFilterCollection;
 | Name | Description |
 | --- | --- |
 | [constructor()](#constructor--)| Constructs new instance. |
-| [constructor(IObject)](#constructor-iobject-)| Constructs from an IObject convertible to this. |
+| [constructor(Object)](#constructor-object-)| Constructs from an Object convertible to this. |
 
 ## Methods
 
@@ -30,6 +30,8 @@ class CustomFilterCollection;
 | [getAnd()](#getAnd--)| Indicates whether the two criteria have an "and" relationship. |
 | [setAnd(boolean)](#setAnd-boolean-)| Indicates whether the two criteria have an "and" relationship. |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
+| [toObject()](#toObject--)| Gets the Object. |
 
 
 ### constructor() {#constructor--}
@@ -41,18 +43,18 @@ constructor();
 ```
 
 
-### constructor(IObject) {#constructor-iobject-}
+### constructor(Object) {#constructor-object-}
 
-Constructs from an IObject convertible to this.
+Constructs from an Object convertible to this.
 
 ```javascript
-constructor(obj: IObject);
+constructor(obj: Object);
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | IObject | The object. |
+| obj | Object | The object. |
 
 ### get(number) {#get-number-}
 
@@ -101,5 +103,27 @@ Gets the number of elements contained in.
 getCount() : number;
 ```
 
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
+
+### toObject() {#toObject--}
+
+Gets the Object.
+
+```javascript
+toObject() : Object;
+```
+
+
+**Returns**
+
+[Object](../object/)
 
 

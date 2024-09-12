@@ -24,6 +24,7 @@ class ConditionalFormattingIcon;
 | [getIndex()](#getIndex--)| Gets and sets the icon's index in the icon set. |
 | [setIndex(number)](#setIndex-number-)| Gets and sets the icon's index in the icon set. |
 | [getImageData(Cell)](#getImageData-cell-)| Gets the image data with the setting of cell. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | static [getIconImageData(IconSetType, number)](#getIconImageData-iconsettype-number-)| Get the icon set data |
 
 
@@ -91,6 +92,15 @@ getImageData(cell: Cell) : number[];
 **Returns**
 
 Returns the image data of icon.
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 ### getIconImageData(IconSetType, number) {#getIconImageData-iconsettype-number-}
 

@@ -86,11 +86,11 @@ class BuiltInDocumentPropertyCollection extends DocumentPropertyCollection;
 | [setLinksUpToDate(boolean)](#setLinksUpToDate-boolean-)| Indicates whether hyperlinks in a document are up-to-date. |
 | [getWords()](#getWords--)| Represents an estimate of the number of words in the document. |
 | [setWords(number)](#setWords-number-)| Represents an estimate of the number of words in the document. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [contains(string)](#contains-string-)| Returns true if a property with the specified name exists in the collection. |
 | [indexOf(string)](#indexOf-string-)| Gets the index of a property by name. |
 | [remove(string)](#remove-string-)| Removes a property with the specified name from the collection. |
 | [removeAt(number)](#removeAt-number-)| Removes a property at the specified index. |
-| [getCount()](#getCount--)| Gets the number of elements contained in. |
 
 
 ### constructor(DocumentPropertyCollection) {#constructor-documentpropertycollection-}
@@ -829,6 +829,15 @@ setWords(value: number) : void;
 | --- | --- | --- |
 | value | number | The value to set. |
 
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
+
 ### contains(string) {#contains-string-}
 
 Returns true if a property with the specified name exists in the collection.
@@ -888,14 +897,5 @@ removeAt(index: number) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | number | The zero based index. |
-
-### getCount() {#getCount--}
-
-Gets the number of elements contained in.
-
-```javascript
-getCount() : number;
-```
-
 
 

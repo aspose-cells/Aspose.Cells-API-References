@@ -50,6 +50,8 @@ class MsoFormatPicture;
 | [isGray()](#isGray--)| Indicates whether this picture should display in grayscale. |
 | [setIsGray(boolean)](#setIsGray-boolean-)| Indicates whether this picture should display in grayscale. |
 | [getHashCode()](#getHashCode--)| Gets the hash code. |
+| [equals(object)](#equals-object-)|  |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getTopCropInch() {#getTopCropInch--}
@@ -408,6 +410,28 @@ Gets the hash code.
 
 ```javascript
 getHashCode() : number;
+```
+
+
+### equals(object) {#equals-object-}
+
+
+
+```javascript
+equals(obj: object) : boolean;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | object |  |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

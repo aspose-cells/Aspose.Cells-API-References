@@ -41,6 +41,7 @@ class Name;
 | [getRange()](#getRange--)| Gets the range if this name refers to a range. |
 | [getRange(boolean)](#getRange-boolean-)| Gets the range if this name refers to a range |
 | [getRange(number, number, number)](#getRange-number-number-number-)| Gets the range if this name refers to a range. If the reference of this name is not absolute, the range may be different for different cell. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getComment() {#getComment--}
@@ -320,5 +321,14 @@ getRange(sheetIndex: number, row: number, column: number) : Range;
 **Returns**
 
 The range.
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

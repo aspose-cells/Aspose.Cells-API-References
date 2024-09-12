@@ -34,6 +34,7 @@ class PivotFilter;
 | [setName(string)](#setName-string-)| Gets the name of the pivot filter. |
 | [getEvaluationOrder()](#getEvaluationOrder--)| Gets the Evaluation Order of the pivot filter. |
 | [setEvaluationOrder(number)](#setEvaluationOrder-number-)| Gets the Evaluation Order of the pivot filter. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getAutoFilter() {#getAutoFilter--}
@@ -202,5 +203,14 @@ setEvaluationOrder(value: number) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | number | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

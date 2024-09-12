@@ -30,6 +30,7 @@ class CommentCollection;
 | [removeAt(number, number)](#removeAt-number-number-)| Removes the comment of the specific cell. |
 | [clear()](#clear--)| Removes all comments; |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### get(number) {#get-number-}
@@ -200,6 +201,15 @@ Gets the number of elements contained in.
 
 ```javascript
 getCount() : number;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 

@@ -33,6 +33,7 @@ class ShadowEffect;
 | [setAngle(number)](#setAngle-number-)| Gets and sets the lighting angle. Range from 0 to 359.9 degrees. |
 | [getDistance()](#getDistance--)| Gets and sets the distance of the shadow. Range from 0 to 200 points. |
 | [setDistance(number)](#setDistance-number-)| Gets and sets the distance of the shadow. Range from 0 to 200 points. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### getPresetType() {#getPresetType--}
@@ -196,5 +197,14 @@ setDistance(value: number) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | number | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
 
 

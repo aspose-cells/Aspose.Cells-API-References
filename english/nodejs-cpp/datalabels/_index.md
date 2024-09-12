@@ -69,6 +69,7 @@ class DataLabels extends ChartTextFrame;
 | [getShapeType()](#getShapeType--)| Gets or sets  shape type of data label. |
 | [setShapeType(DataLabelShapeType)](#setShapeType-datalabelshapetype-)| Gets or sets  shape type of data label. |
 | [applyFont()](#applyFont--)| Apply the font of the datalabels to all child nodes. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [isInnerMode()](#isInnerMode--)| Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. |
 | [setIsInnerMode(boolean)](#setIsInnerMode-boolean-)| Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. |
 | [getShadow()](#getShadow--)| True if the frame has a shadow. |
@@ -637,6 +638,15 @@ Apply the font of the datalabels to all child nodes.
 
 ```javascript
 applyFont() : void;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 
