@@ -4,7 +4,7 @@ linktitle: SetIndentLevel
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Style::SetIndentLevel method. Represents the indent level for the cell or range. Can only be an integer from 0 to 250 in C++.'
 type: docs
-weight: 4300
+weight: 4400
 url: /cpp/aspose.cells/style/setindentlevel/
 ---
 ## Style::SetIndentLevel method

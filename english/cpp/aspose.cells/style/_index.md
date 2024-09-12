@@ -21,6 +21,7 @@ class Style
 | Method | Description |
 | --- | --- |
 | [Copy(const Style\& style)](./copy/) | Copies data from another style object. |
+| [Equals(const Aspose::Cells::Object\& obj)](./equals/) | Determines whether two [Style](./) instances are equal. |
 | [GetBackgroundArgbColor()](./getbackgroundargbcolor/) | Gets and sets the background color with a 32-bit ARGB value. |
 | [GetBackgroundColor()](./getbackgroundcolor/) | Gets or sets a style's background color. |
 | [GetBackgroundThemeColor()](./getbackgroundthemecolor/) | Gets and sets the background theme color. |

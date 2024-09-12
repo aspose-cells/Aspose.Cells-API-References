@@ -36,19 +36,19 @@ Aspose::Cells::CustomFilterCollection::CustomFilterCollection(CustomFilterCollec
 * Class [CustomFilterCollection](../)
 * Namespace [Aspose::Cells](../../)
 * Library [Aspose.Cells for C++](../../../)
-## CustomFilterCollection::CustomFilterCollection(const IObject*) constructor
+## CustomFilterCollection::CustomFilterCollection(const Aspose::Cells::Object\&) constructor
 
 
-Constructs from an [IObject](../../iobject/) convertible to this.
+Constructs from an [Object](../../object/) convertible to this.
 
 ```cpp
-Aspose::Cells::CustomFilterCollection::CustomFilterCollection(const IObject *obj)
+Aspose::Cells::CustomFilterCollection::CustomFilterCollection(const Aspose::Cells::Object &obj)
 ```
 
 ## See Also
 
 * Class [Vector](../../vector/)
-* Class [IObject](../../iobject/)
+* Class [Object](../../object/)
 * Class [CustomFilterCollection](../)
 * Namespace [Aspose::Cells](../../)
 * Library [Aspose.Cells for C++](../../../)

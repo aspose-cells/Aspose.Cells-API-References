@@ -4,7 +4,7 @@ linktitle: SetTwoColorGradient
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Style::SetTwoColorGradient method. Sets the specified fill to a two-color gradient in C++.'
 type: docs
-weight: 7500
+weight: 7600
 url: /cpp/aspose.cells/style/settwocolorgradient/
 ---
 ## Style::SetTwoColorGradient method

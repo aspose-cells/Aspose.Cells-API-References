@@ -4,7 +4,7 @@ linktitle: GetShowTotals
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Tables::ListObject::GetShowTotals method. Gets and sets whether this ListObject show total row in C++.'
 type: docs
-weight: 1500
+weight: 1600
 url: /cpp/aspose.cells.tables/listobject/getshowtotals/
 ---
 ## ListObject::GetShowTotals method

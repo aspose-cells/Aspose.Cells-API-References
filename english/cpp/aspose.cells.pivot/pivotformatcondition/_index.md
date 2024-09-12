@@ -4,7 +4,7 @@ linktitle: PivotFormatCondition
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotFormatCondition class. Represents a PivotTable Format Condition in PivotFormatCondition Collection in C++.'
 type: docs
-weight: 1200
+weight: 1300
 url: /cpp/aspose.cells.pivot/pivotformatcondition/
 ---
 ## PivotFormatCondition class

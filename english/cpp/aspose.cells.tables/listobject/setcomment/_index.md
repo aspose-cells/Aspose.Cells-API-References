@@ -4,7 +4,7 @@ linktitle: SetComment
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Tables::ListObject::SetComment method. Gets and sets the comment of the table in C++.'
 type: docs
-weight: 2600
+weight: 2700
 url: /cpp/aspose.cells.tables/listobject/setcomment/
 ---
 ## ListObject::SetComment(const U16String\&) method

@@ -41,6 +41,12 @@ class Worksheet
 | [AutoFitRows(const AutoFitterOptions\& options)](./autofitrows/) | Autofits all rows in this worksheet. |
 | [AutoFitRows(int32_t startRow, int32_t endRow)](./autofitrows/) | Autofits row height in a range. |
 | [AutoFitRows(int32_t startRow, int32_t endRow, const AutoFitterOptions\& options)](./autofitrows/) | Autofits row height in a range. |
+| [CalculateFormula(const U16String\& formula)](./calculateformula/) | Calculates a formula. |
+| [CalculateFormula(const char16_t* formula)](./calculateformula/) | Calculates a formula. |
+| [CalculateFormula(const U16String\& formula, const CalculationOptions\& opts)](./calculateformula/) | Calculates a formula expression directly. |
+| [CalculateFormula(const char16_t* formula, const CalculationOptions\& opts)](./calculateformula/) | Calculates a formula expression directly. |
+| [CalculateFormula(const U16String\& formula, const FormulaParseOptions\& pOpts, const CalculationOptions\& cOpts, int32_t baseCellRow, int32_t baseCellColumn, const CalculationData\& calculationData)](./calculateformula/) | Calculates a formula expression directly. |
+| [CalculateFormula(const char16_t* formula, const FormulaParseOptions\& pOpts, const CalculationOptions\& cOpts, int32_t baseCellRow, int32_t baseCellColumn, const CalculationData\& calculationData)](./calculateformula/) | Calculates a formula expression directly. |
 | [CalculateFormula(const CalculationOptions\& options, bool recursive)](./calculateformula/) | Calculates all formulas in this worksheet. |
 | [ClearComments()](./clearcomments/) | Clears all comments in designer spreadsheet. |
 | [CloseAccessCache(AccessCacheOptions opts)](./closeaccesscache/) | Closes the session that uses caches to access the data in this worksheet. |

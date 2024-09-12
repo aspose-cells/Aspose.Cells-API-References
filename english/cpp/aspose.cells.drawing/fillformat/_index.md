@@ -20,6 +20,7 @@ class FillFormat
 
 | Method | Description |
 | --- | --- |
+| [Equals(const Aspose::Cells::Object\& obj)](./equals/) |  |
 | [FillFormat(FillFormat_Impl* impl)](./fillformat/) | Constructs from an implementation object. |
 | [FillFormat(const FillFormat\& src)](./fillformat/) | Copy constructor. |
 | [GetFillType()](./getfilltype/) | Gets and sets fill type. |

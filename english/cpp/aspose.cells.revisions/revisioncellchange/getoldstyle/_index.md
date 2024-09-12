@@ -4,7 +4,7 @@ linktitle: GetOldStyle
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Revisions::RevisionCellChange::GetOldStyle method. Gets the old style of the cell in C++.'
 type: docs
-weight: 1500
+weight: 1700
 url: /cpp/aspose.cells.revisions/revisioncellchange/getoldstyle/
 ---
 ## RevisionCellChange::GetOldStyle method

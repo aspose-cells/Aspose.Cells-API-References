@@ -4,7 +4,7 @@ linktitle: SetTableStyleType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Tables::ListObject::SetTableStyleType method. Gets and the built-in table style in C++.'
 type: docs
-weight: 3800
+weight: 3900
 url: /cpp/aspose.cells.tables/listobject/settablestyletype/
 ---
 ## ListObject::SetTableStyleType method

@@ -4,7 +4,7 @@ linktitle: GetDisplayAsIcon
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Picture::GetDisplayAsIcon method. True if the specified object is displayed as an icon and the image will not be auto changed in C++.'
 type: docs
-weight: 2600
+weight: 2700
 url: /cpp/aspose.cells.drawing/picture/getdisplayasicon/
 ---
 ## Picture::GetDisplayAsIcon method

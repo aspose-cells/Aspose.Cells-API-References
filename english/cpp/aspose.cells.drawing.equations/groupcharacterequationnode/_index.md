@@ -4,7 +4,7 @@ linktitle: GroupCharacterEquationNode
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Equations::GroupCharacterEquationNode class. This class specifies the Group-Character function, consisting of a character drawn above or below text, often with the purpose of visually grouping items in C++.'
 type: docs
-weight: 1100
+weight: 1200
 url: /cpp/aspose.cells.drawing.equations/groupcharacterequationnode/
 ---
 ## GroupCharacterEquationNode class
@@ -23,6 +23,7 @@ class GroupCharacterEquationNode : public Aspose::Cells::Drawing::Equations::Equ
 | [AddChild(EquationNodeType equationType)](../equationnode/addchild/) | Insert a node of the specified type at the end of the child node list of the current node. |
 | [AddChild(const EquationNode\& node)](../equationnode/addchild/) | Inserts the specified node at the end of the current node's list of child nodes. |
 | static [CreateNode(EquationNodeType equationType, const Workbook\& workbook, const EquationNode\& parent)](../equationnode/createnode/) | Create a node of the specified type. |
+| [Equals(const Aspose::Cells::Object\& obj)](./equals/) | Determine whether the current equation node is equal to the specified node. |
 | [EquationNode(EquationNode_Impl* impl)](../equationnode/equationnode/) | Constructs from an implementation object. |
 | [EquationNode(const EquationNode\& src)](../equationnode/equationnode/) | Copy constructor. |
 | [EquationNode(const FontSetting\& src)](../equationnode/equationnode/) | Constructs from a parent object. |
@@ -63,8 +64,8 @@ class GroupCharacterEquationNode : public Aspose::Cells::Drawing::Equations::Equ
 | [SetPosition(EquationCharacterPositionType value)](./setposition/) | This attribute specifies the position of the character in the object. |
 | [SetVertJc(EquationCharacterPositionType value)](./setvertjc/) | This attribute, combined with pos of groupChrPr, specifies the vertical layout of the groupChr object. Where pos specifies the position of the grouping character, vertJc specifies the alignment of the object with respect to the baseline. |
 | [SetWordArtStyle(PresetWordArtStyle style)](../../aspose.cells/fontsetting/setwordartstyle/) | Sets the preset WordArt style. |
-| [ToLaTeX()](../equationnode/tolatex/) | Conver this equtation to LaTeX expression. |
-| [ToMathML()](../equationnode/tomathml/) | Conver this equtation to MathML expression. |
+| [ToLaTeX()](../equationnode/tolatex/) | Convert this equtation to LaTeX expression. |
+| [ToMathML()](../equationnode/tomathml/) | Convert this equtation to MathML expression. |
 | [~EquationNode()](../equationnode/~equationnode/) | Destructor. |
 | [~FontSetting()](../../aspose.cells/fontsetting/~fontsetting/) | Destructor. |
 | [~GroupCharacterEquationNode()](./~groupcharacterequationnode/) | Destructor. |

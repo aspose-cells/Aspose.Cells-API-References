@@ -13,12 +13,12 @@ url: /cpp/aspose.cells/filtercolumn/getfilter/
 Gets and sets the condition of filtering data.
 
 ```cpp
-IObject * Aspose::Cells::FilterColumn::GetFilter()
+Aspose::Cells::Object Aspose::Cells::FilterColumn::GetFilter()
 ```
 
 ## See Also
 
-* Class [IObject](../../iobject/)
+* Class [Object](../../object/)
 * Class [FilterColumn](../)
 * Namespace [Aspose::Cells](../../)
 * Library [Aspose.Cells for C++](../../../)

@@ -4,7 +4,7 @@ linktitle: SetDashStyle
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::LineFormat::SetDashStyle method. Specifies the line dash type in C++.'
 type: docs
-weight: 1000
+weight: 1100
 url: /cpp/aspose.cells.drawing/lineformat/setdashstyle/
 ---
 ## LineFormat::SetDashStyle method

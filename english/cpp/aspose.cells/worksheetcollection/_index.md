@@ -47,6 +47,7 @@ class WorksheetCollection
 | [GetNamedRanges()](./getnamedranges/) | Gets all pre-defined named ranges in the spreadsheet. |
 | [GetNamedRangesAndTables()](./getnamedrangesandtables/) | Gets all pre-defined named ranges in the spreadsheet. |
 | [GetNames()](./getnames/) | Gets the collection of all the [Name](../name/) objects in the spreadsheet. |
+| [GetOleSize()](./getolesize/) | Gets and Sets displayed size when [Workbook](../workbook/) file is used as an Ole object. |
 | [GetRangeByName(const U16String\& rangeName)](./getrangebyname/) | Gets [Range](../range/) object by pre-defined name. |
 | [GetRangeByName(const char16_t* rangeName)](./getrangebyname/) | Gets [Range](../range/) object by pre-defined name. |
 | [GetRangeByName(const U16String\& rangeName, int32_t currentSheetIndex, bool includeTable)](./getrangebyname/) | Gets [Range](../range/) by pre-defined name or table's name. |
@@ -80,6 +81,7 @@ class WorksheetCollection
 | [SetActiveSheetName(const U16String\& value)](./setactivesheetname/) | Represents the name of active worksheet when the spreadsheet is opened. |
 | [SetActiveSheetName(const char16_t* value)](./setactivesheetname/) | Represents the name of active worksheet when the spreadsheet is opened. |
 | [SetIsRefreshAllConnections(bool value)](./setisrefreshallconnections/) | Indicates whether refresh all connections on opening file in MS Excel. |
+| [SetOleSize(const Aspose::Cells::Object\& value)](./setolesize/) | Gets and Sets displayed size when [Workbook](../workbook/) file is used as an Ole object. |
 | [SetOleSize(int32_t startRow, int32_t endRow, int32_t startColumn, int32_t endColumn)](./setolesize/) | Sets displayed size when [Workbook](../workbook/) file is used as an Ole object. |
 | [SetXmlMaps(const XmlMapCollection\& value)](./setxmlmaps/) | Gets and sets the XML maps in the workbook. |
 | [SortNames()](./sortnames/) | Sorts the defined names. |

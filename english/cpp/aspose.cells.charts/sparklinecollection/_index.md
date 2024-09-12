@@ -27,6 +27,7 @@ class SparklineCollection
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const SparklineCollection\& src)](./operator_asm/) | operator= |
+| [Remove(const Aspose::Cells::Object\& o)](./remove/) | Removes the sparkline. |
 | [SparklineCollection(SparklineCollection_Impl* impl)](./sparklinecollection/) | Constructs from an implementation object. |
 | [SparklineCollection(const SparklineCollection\& src)](./sparklinecollection/) | Copy constructor. |
 | [~SparklineCollection()](./~sparklinecollection/) | Destructor. |

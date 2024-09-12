@@ -4,7 +4,7 @@ linktitle: Intersect
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::UnionRange::Intersect method. Intersects another range in C++.'
 type: docs
-weight: 2600
+weight: 2800
 url: /cpp/aspose.cells/unionrange/intersect/
 ---
 ## UnionRange::Intersect(const U16String\&) method

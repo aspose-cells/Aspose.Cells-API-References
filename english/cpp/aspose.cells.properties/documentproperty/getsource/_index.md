@@ -4,7 +4,7 @@ linktitle: GetSource
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Properties::DocumentProperty::GetSource method. The linked content source in C++.'
 type: docs
-weight: 800
+weight: 1000
 url: /cpp/aspose.cells.properties/documentproperty/getsource/
 ---
 ## DocumentProperty::GetSource method

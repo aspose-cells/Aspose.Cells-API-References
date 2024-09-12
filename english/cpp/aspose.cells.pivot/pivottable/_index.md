@@ -205,7 +205,7 @@ class PivotTable
 | [SetSubtotalHiddenPageItems(bool value)](./setsubtotalhiddenpageitems/) | Indicates whether hidden page field items in the [PivotTable](./) report are included in row and column subtotals, block totals, and grand totals. The default value is False. |
 | [SetTag(const U16String\& value)](./settag/) | Gets a string saved with the [PivotTable](./) report. |
 | [SetTag(const char16_t* value)](./settag/) | Gets a string saved with the [PivotTable](./) report. |
-| [ShowDatail(int32_t rowOffset, int32_t columnOffset, bool newSheet, int32_t destRow, int32_t destColumn)](./showdatail/) | Show the detail of one item in the data region to a new Table. |
+| [ShowDetail(int32_t rowOffset, int32_t columnOffset, bool newSheet, int32_t destRow, int32_t destColumn)](./showdetail/) | Show the detail of one item in the data region to a new Table. |
 | [ShowInCompactForm()](./showincompactform/) | Layouts the [PivotTable](./) in compact form. |
 | [ShowInOutlineForm()](./showinoutlineform/) | Layouts the [PivotTable](./) in outline form. |
 | [ShowInTabularForm()](./showintabularform/) | Layouts the [PivotTable](./) in tabular form. |

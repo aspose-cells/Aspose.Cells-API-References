@@ -55,6 +55,8 @@ class ListObject
 | [PutCellFormula(int32_t rowOffset, int32_t columnOffset, const char16_t* formula)](./putcellformula/) | Put the formula to the cell in the table. |
 | [PutCellFormula(int32_t rowOffset, int32_t columnOffset, const U16String\& formula, bool isTotalsRowFormula)](./putcellformula/) | Put the formula to the cell in the table. |
 | [PutCellFormula(int32_t rowOffset, int32_t columnOffset, const char16_t* formula, bool isTotalsRowFormula)](./putcellformula/) | Put the formula to the cell in the table. |
+| [PutCellValue(int32_t rowOffset, int32_t columnOffset, const Aspose::Cells::Object\& value)](./putcellvalue/) | Put the value to the cell. |
+| [PutCellValue(int32_t rowOffset, int32_t columnOffset, const Aspose::Cells::Object\& value, bool isTotalsRowLabel)](./putcellvalue/) | Put the value to the cell. |
 | [Resize(int32_t startRow, int32_t startColumn, int32_t endRow, int32_t endColumn, bool hasHeaders)](./resize/) | Resize the range of the list object. |
 | [SetAlternativeDescription(const U16String\& value)](./setalternativedescription/) | Gets and sets the alternative description. |
 | [SetAlternativeDescription(const char16_t* value)](./setalternativedescription/) | Gets and sets the alternative description. |

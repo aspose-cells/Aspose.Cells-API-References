@@ -4,7 +4,7 @@ linktitle: EquationCombiningCharacterType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Equations::EquationCombiningCharacterType enum. Type of combining characters in C++.'
 type: docs
-weight: 2000
+weight: 2200
 url: /cpp/aspose.cells.drawing.equations/equationcombiningcharactertype/
 ---
 ## EquationCombiningCharacterType enum

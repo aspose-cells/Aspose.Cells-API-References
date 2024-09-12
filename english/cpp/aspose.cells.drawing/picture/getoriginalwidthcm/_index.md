@@ -4,7 +4,7 @@ linktitle: GetOriginalWidthCM
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Picture::GetOriginalWidthCM method. Gets the original width of picture, in unit of centimeters in C++.'
 type: docs
-weight: 3000
+weight: 3100
 url: /cpp/aspose.cells.drawing/picture/getoriginalwidthcm/
 ---
 ## Picture::GetOriginalWidthCM method

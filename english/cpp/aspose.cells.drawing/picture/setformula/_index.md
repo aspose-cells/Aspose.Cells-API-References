@@ -4,7 +4,7 @@ linktitle: SetFormula
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Picture::SetFormula method. Gets and sets the data of the formula in C++.'
 type: docs
-weight: 1900
+weight: 2000
 url: /cpp/aspose.cells.drawing/picture/setformula/
 ---
 ## Picture::SetFormula(const U16String\&) method

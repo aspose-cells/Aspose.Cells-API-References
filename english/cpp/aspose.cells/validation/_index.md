@@ -38,10 +38,14 @@ class Validation
 | [GetInCellDropDown()](./getincelldropdown/) | Indicates whether data validation displays a drop-down list that contains acceptable values. |
 | [GetInputMessage()](./getinputmessage/) | Represents the data validation input message. |
 | [GetInputTitle()](./getinputtitle/) | Represents the title of the data-validation input dialog box. |
+| [GetListValue(int32_t row, int32_t column)](./getlistvalue/) | Get the value for list of the validation for the specified cell. |
 | [GetOperator()](./getoperator/) | Represents the operator for the data validation. |
 | [GetShowError()](./getshowerror/) | Indicates whether the data validation error message will be displayed whenever the user enters invalid data. |
 | [GetShowInput()](./getshowinput/) | Indicates whether the data validation input message will be displayed whenever the user selects a cell in the data validation range. |
 | [GetType()](./gettype/) | Represents the data validation type. |
+| [GetValue(int32_t row, int32_t column, bool isValue1)](./getvalue/) | Get the value of validation on the specific cell. |
+| [GetValue1()](./getvalue1/) | Represents the first value associated with the data validation. |
+| [GetValue2()](./getvalue2/) | Represents the second value associated with the data validation. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const Validation\& src)](./operator_asm/) | operator= |
@@ -71,6 +75,8 @@ class Validation
 | [SetShowError(bool value)](./setshowerror/) | Indicates whether the data validation error message will be displayed whenever the user enters invalid data. |
 | [SetShowInput(bool value)](./setshowinput/) | Indicates whether the data validation input message will be displayed whenever the user selects a cell in the data validation range. |
 | [SetType(ValidationType value)](./settype/) | Represents the data validation type. |
+| [SetValue1(const Aspose::Cells::Object\& value)](./setvalue1/) | Represents the first value associated with the data validation. |
+| [SetValue2(const Aspose::Cells::Object\& value)](./setvalue2/) | Represents the second value associated with the data validation. |
 | [Validation(Validation_Impl* impl)](./validation/) | Constructs from an implementation object. |
 | [Validation(const Validation\& src)](./validation/) | Copy constructor. |
 | [~Validation()](./~validation/) | Destructor. |

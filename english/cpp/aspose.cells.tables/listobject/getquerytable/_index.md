@@ -4,7 +4,7 @@ linktitle: GetQueryTable
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Tables::ListObject::GetQueryTable method. Gets the linked QueryTable in C++.'
 type: docs
-weight: 1900
+weight: 2000
 url: /cpp/aspose.cells.tables/listobject/getquerytable/
 ---
 ## ListObject::GetQueryTable method

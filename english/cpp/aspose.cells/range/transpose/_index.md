@@ -4,7 +4,7 @@ linktitle: Transpose
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Range::Transpose method. Transpose (rotate) data from rows to columns or vice versa in C++.'
 type: docs
-weight: 4500
+weight: 4700
 url: /cpp/aspose.cells/range/transpose/
 ---
 ## Range::Transpose method

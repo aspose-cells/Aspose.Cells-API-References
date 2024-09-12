@@ -4,7 +4,7 @@ linktitle: GetRanges
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::UnionRange::GetRanges method. Gets all union ranges in C++.'
 type: docs
-weight: 2400
+weight: 2600
 url: /cpp/aspose.cells/unionrange/getranges/
 ---
 ## UnionRange::GetRanges method

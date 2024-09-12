@@ -4,7 +4,7 @@ linktitle: GetWeight
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::LineFormat::GetWeight method. Gets or sets the weight of the line in unit of points in C++.'
 type: docs
-weight: 2700
+weight: 2800
 url: /cpp/aspose.cells.drawing/lineformat/getweight/
 ---
 ## LineFormat::GetWeight method

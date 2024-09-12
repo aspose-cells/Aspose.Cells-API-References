@@ -4,7 +4,7 @@ linktitle: _impl
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Equations::FunctionEquationNode::_impl field. The implementation object in C++.'
 type: docs
-weight: 600
+weight: 700
 url: /cpp/aspose.cells.drawing.equations/functionequationnode/_impl/
 ---
 ## _impl field

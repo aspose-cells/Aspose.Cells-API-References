@@ -4,7 +4,7 @@ linktitle: GetDataSourceType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Tables::ListObject::GetDataSourceType method. Gets the data source type of the table in C++.'
 type: docs
-weight: 2000
+weight: 2100
 url: /cpp/aspose.cells.tables/listobject/getdatasourcetype/
 ---
 ## ListObject::GetDataSourceType method

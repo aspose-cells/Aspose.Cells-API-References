@@ -4,7 +4,7 @@ linktitle: GetImageType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Picture::GetImageType method. Gets the image format of the picture in C++.'
 type: docs
-weight: 2800
+weight: 2900
 url: /cpp/aspose.cells.drawing/picture/getimagetype/
 ---
 ## Picture::GetImageType method

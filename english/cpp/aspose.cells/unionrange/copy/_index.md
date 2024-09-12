@@ -4,7 +4,7 @@ linktitle: Copy
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::UnionRange::Copy method. Copying the range with paste special options in C++.'
 type: docs
-weight: 2000
+weight: 2200
 url: /cpp/aspose.cells/unionrange/copy/
 ---
 ## UnionRange::Copy method

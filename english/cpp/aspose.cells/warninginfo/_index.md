@@ -20,11 +20,14 @@ class WarningInfo
 
 | Method | Description |
 | --- | --- |
+| [GetCorrectedObject()](./getcorrectedobject/) | Gets and sets the corrected object. |
 | [GetDescription()](./getdescription/) | Get description of warning info. |
+| [GetErrorObject()](./geterrorobject/) | The error object. |
 | [GetWarningType()](./getwarningtype/) | Get warning type. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const WarningInfo\& src)](./operator_asm/) | operator= |
+| [SetCorrectedObject(const Aspose::Cells::Object\& value)](./setcorrectedobject/) | Gets and sets the corrected object. |
 | [WarningInfo(WarningInfo_Impl* impl)](./warninginfo/) | Constructs from an implementation object. |
 | [WarningInfo(const WarningInfo\& src)](./warninginfo/) | Copy constructor. |
 | [~WarningInfo()](./~warninginfo/) | Destructor. |

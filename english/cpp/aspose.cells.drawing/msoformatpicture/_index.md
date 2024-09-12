@@ -20,6 +20,7 @@ class MsoFormatPicture
 
 | Method | Description |
 | --- | --- |
+| [Equals(const Aspose::Cells::Object\& obj)](./equals/) |  |
 | [GetBottomCrop()](./getbottomcrop/) | Represents the location of the bottom of the crop rectangle expressed, expressed as a ratio of the image's height. |
 | [GetBottomCropInch()](./getbottomcropinch/) | Represents the location of the bottom of the crop rectangle expressed, in unit of inches. |
 | [GetBrightness()](./getbrightness/) | Represents the brightness modification for the picture in unit of percentage. |

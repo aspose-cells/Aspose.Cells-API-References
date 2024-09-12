@@ -128,6 +128,7 @@ class Shape
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | [IsPrintable()](./isprintable/) | Indicates whether the object is printable. If False, this shape will not be printed when printing. |
 | [IsRichText()](./isrichtext/) | Whether or not the text is rich text. |
+| [IsSameSetting(const Aspose::Cells::Object\& obj)](./issamesetting/) | Returns whether the shape is same. |
 | [IsSmartArt()](./issmartart/) | Indicates whether the shape is a smart art. |
 | [IsTextWrapped()](./istextwrapped/) | Gets and sets the text wrapped type of the shape which contains text. |
 | [IsWordArt()](./iswordart/) | Indicates whether this shape is a word art. |

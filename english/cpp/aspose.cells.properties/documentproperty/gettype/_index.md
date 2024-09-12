@@ -4,7 +4,7 @@ linktitle: GetType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Properties::DocumentProperty::GetType method. Gets the data type of the property in C++.'
 type: docs
-weight: 900
+weight: 1100
 url: /cpp/aspose.cells.properties/documentproperty/gettype/
 ---
 ## DocumentProperty::GetType method

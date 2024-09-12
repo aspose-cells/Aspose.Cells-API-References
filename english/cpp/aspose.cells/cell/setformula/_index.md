@@ -69,3 +69,93 @@ Aspose::Cells::Cleanup();
 * Class [Cell](../)
 * Namespace [Aspose::Cells](../../)
 * Library [Aspose.Cells for C++](../../../)
+## Cell::SetFormula(const U16String\&, const Aspose::Cells::Object\&) method
+
+
+Set the formula and the value(calculated result) of the formula.
+
+```cpp
+void Aspose::Cells::Cell::SetFormula(const U16String &formula, const Aspose::Cells::Object &value)
+```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| formula | const U16String\& | The formula. |
+| value | const Aspose::Cells::Object\& | The value(calculated result) of the formula. |
+
+## See Also
+
+* Class [U16String](../../u16string/)
+* Class [Object](../../object/)
+* Class [Cell](../)
+* Namespace [Aspose::Cells](../../)
+* Library [Aspose.Cells for C++](../../../)
+## Cell::SetFormula(const char16_t*, const Aspose::Cells::Object\&) method
+
+
+Set the formula and the value(calculated result) of the formula.
+
+```cpp
+void Aspose::Cells::Cell::SetFormula(const char16_t *formula, const Aspose::Cells::Object &value)
+```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| formula | const char16_t* | The formula. |
+| value | const Aspose::Cells::Object\& | The value(calculated result) of the formula. |
+
+## See Also
+
+* Class [Object](../../object/)
+* Class [Cell](../)
+* Namespace [Aspose::Cells](../../)
+* Library [Aspose.Cells for C++](../../../)
+## Cell::SetFormula(const U16String\&, const FormulaParseOptions\&, const Aspose::Cells::Object\&) method
+
+
+Set the formula and the value(calculated result) of the formula.
+
+```cpp
+void Aspose::Cells::Cell::SetFormula(const U16String &formula, const FormulaParseOptions &options, const Aspose::Cells::Object &value)
+```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| formula | const U16String\& | The formula. |
+| options | const FormulaParseOptions\& | Options for parsing the formula. |
+| value | const Aspose::Cells::Object\& | The value(calculated result) of the formula. |
+
+## See Also
+
+* Class [U16String](../../u16string/)
+* Class [FormulaParseOptions](../../formulaparseoptions/)
+* Class [Object](../../object/)
+* Class [Cell](../)
+* Namespace [Aspose::Cells](../../)
+* Library [Aspose.Cells for C++](../../../)
+## Cell::SetFormula(const char16_t*, const FormulaParseOptions\&, const Aspose::Cells::Object\&) method
+
+
+Set the formula and the value(calculated result) of the formula.
+
+```cpp
+void Aspose::Cells::Cell::SetFormula(const char16_t *formula, const FormulaParseOptions &options, const Aspose::Cells::Object &value)
+```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| formula | const char16_t* | The formula. |
+| options | const FormulaParseOptions\& | Options for parsing the formula. |
+| value | const Aspose::Cells::Object\& | The value(calculated result) of the formula. |
+
+## See Also
+
+* Class [FormulaParseOptions](../../formulaparseoptions/)
+* Class [Object](../../object/)
+* Class [Cell](../)
+* Namespace [Aspose::Cells](../../)
+* Library [Aspose.Cells for C++](../../../)

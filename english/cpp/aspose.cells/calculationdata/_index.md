@@ -22,17 +22,20 @@ class CalculationData
 | --- | --- |
 | [CalculationData(CalculationData_Impl* impl)](./calculationdata/) | Constructs from an implementation object. |
 | [CalculationData(const CalculationData\& src)](./calculationdata/) | Copy constructor. |
+| [GetCalculatedValue()](./getcalculatedvalue/) | Gets or sets the calculated value for this function. |
 | [GetCell()](./getcell/) | Gets the [Cell](../cell/) object where the function is in. |
 | [GetCellColumn()](./getcellcolumn/) | Gets the column index of the cell where the function is in. |
 | [GetCellRow()](./getcellrow/) | Gets the row index of the cell where the function is in. |
 | [GetFunctionName()](./getfunctionname/) | Gets the function name to be calculated. |
 | [GetParamCount()](./getparamcount/) | Gets the count of parameters. |
 | [GetParamText(int32_t index)](./getparamtext/) | Gets the literal text of the parameter at given index. |
+| [GetParamValue(int32_t index)](./getparamvalue/) | Gets the represented value object of the parameter at given index. |
 | [GetWorkbook()](./getworkbook/) | Gets the [Workbook](../workbook/) object where the function is in. |
 | [GetWorksheet()](./getworksheet/) | Gets the [Worksheet](../worksheet/) object where the function is in. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const CalculationData\& src)](./operator_asm/) | operator= |
+| [SetCalculatedValue(const Aspose::Cells::Object\& value)](./setcalculatedvalue/) | Gets or sets the calculated value for this function. |
 | [~CalculationData()](./~calculationdata/) | Destructor. |
 ## Fields
 

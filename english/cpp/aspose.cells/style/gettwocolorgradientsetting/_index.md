@@ -4,7 +4,7 @@ linktitle: GetTwoColorGradientSetting
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Style::GetTwoColorGradientSetting method. Get the two-color gradient setting in C++.'
 type: docs
-weight: 7600
+weight: 7700
 url: /cpp/aspose.cells/style/gettwocolorgradientsetting/
 ---
 ## Style::GetTwoColorGradientSetting method

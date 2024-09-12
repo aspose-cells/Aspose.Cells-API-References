@@ -28,6 +28,8 @@ class AutoFilter
 | [AddIconFilter(int32_t fieldIndex, IconSetType iconSetType, int32_t iconId)](./addiconfilter/) | Adds an icon filter. |
 | [AutoFilter(AutoFilter_Impl* impl)](./autofilter/) | Constructs from an implementation object. |
 | [AutoFilter(const AutoFilter\& src)](./autofilter/) | Copy constructor. |
+| [Custom(int32_t fieldIndex, FilterOperatorType operatorType1, const Aspose::Cells::Object\& criteria1)](./custom/) | Filters a list with a custom criteria. |
+| [Custom(int32_t fieldIndex, FilterOperatorType operatorType1, const Aspose::Cells::Object\& criteria1, bool isAnd, FilterOperatorType operatorType2, const Aspose::Cells::Object\& criteria2)](./custom/) | Filters a list with custom criteria. |
 | [Dynamic_Filter(int32_t fieldIndex, DynamicFilterType dynamicFilterType)](./dynamic_filter/) | Adds a dynamic filter. |
 | [Filter(int32_t fieldIndex, const U16String\& criteria)](./filter/) | Filters a list with specified criteria. |
 | [Filter(int32_t fieldIndex, const char16_t* criteria)](./filter/) | Filters a list with specified criteria. |

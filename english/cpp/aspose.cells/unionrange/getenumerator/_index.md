@@ -4,7 +4,7 @@ linktitle: GetEnumerator
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::UnionRange::GetEnumerator method. Gets the enumerator for cells in this Range in C++.'
 type: docs
-weight: 2100
+weight: 2300
 url: /cpp/aspose.cells/unionrange/getenumerator/
 ---
 ## UnionRange::GetEnumerator method

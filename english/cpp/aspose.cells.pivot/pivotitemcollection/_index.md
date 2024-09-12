@@ -20,7 +20,7 @@ class PivotItemCollection
 
 | Method | Description |
 | --- | --- |
-| [Get(int32_t index)](./get/) | Gets the [PivotItem](../pivotitem/) Object at the specific index. |
+| [Get(int32_t index)](./get/) | Gets the [PivotItem](../pivotitem/)[Object](../../aspose.cells/object/) at the specific index. |
 | [Get(const U16String\& itemValue)](./get/) | Gets the [PivotItem](../pivotitem/) by the specific name. |
 | [Get(const char16_t* itemValue)](./get/) | Gets the [PivotItem](../pivotitem/) by the specific name. |
 | [GetCount()](./getcount/) | Gets the count of the pivot items. |

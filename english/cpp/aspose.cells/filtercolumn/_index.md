@@ -30,7 +30,7 @@ class FilterColumn
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const FilterColumn\& src)](./operator_asm/) | operator= |
 | [SetFieldIndex(int32_t value)](./setfieldindex/) | Gets and sets the column offset in the range. |
-| [SetFilter(IObject* value)](./setfilter/) | Gets and sets the condition of filtering data. |
+| [SetFilter(const Aspose::Cells::Object\& value)](./setfilter/) | Gets and sets the condition of filtering data. |
 | [SetFilterType(FilterType value)](./setfiltertype/) | Gets and sets the type fo filtering data. |
 | [SetIsDropdownVisible(bool value)](./setisdropdownvisible/) | Indicates whether the [AutoFilter](../autofilter/) button for this column is visible. |
 | [~FilterColumn()](./~filtercolumn/) | Destructor. |

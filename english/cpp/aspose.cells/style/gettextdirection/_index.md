@@ -4,7 +4,7 @@ linktitle: GetTextDirection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Style::GetTextDirection method. Represents text reading order in C++.'
 type: docs
-weight: 6700
+weight: 6800
 url: /cpp/aspose.cells/style/gettextdirection/
 ---
 ## Style::GetTextDirection method

@@ -4,7 +4,7 @@ linktitle: GetBeginArrowheadWidth
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::LineFormat::GetBeginArrowheadWidth method. Gets and sets the begin arrow width type of the line in C++.'
 type: docs
-weight: 1700
+weight: 1800
 url: /cpp/aspose.cells.drawing/lineformat/getbeginarrowheadwidth/
 ---
 ## LineFormat::GetBeginArrowheadWidth method

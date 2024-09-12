@@ -228,3 +228,23 @@ Aspose::Cells::Cleanup();
 * Class [Cell](../)
 * Namespace [Aspose::Cells](../../)
 * Library [Aspose.Cells for C++](../../../)
+## Cell::PutValue(const Aspose::Cells::Object\&) method
+
+
+Puts an object value into the cell.
+
+```cpp
+void Aspose::Cells::Cell::PutValue(const Aspose::Cells::Object &objectValue)
+```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| objectValue | const Aspose::Cells::Object\& | input value |
+
+## See Also
+
+* Class [Object](../../object/)
+* Class [Cell](../)
+* Namespace [Aspose::Cells](../../)
+* Library [Aspose.Cells for C++](../../../)

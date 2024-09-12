@@ -4,7 +4,7 @@ linktitle: GetOriginalWidthInch
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Picture::GetOriginalWidthInch method. Gets the original width of picture, in unit of inches in C++.'
 type: docs
-weight: 3200
+weight: 3300
 url: /cpp/aspose.cells.drawing/picture/getoriginalwidthinch/
 ---
 ## Picture::GetOriginalWidthInch method

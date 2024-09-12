@@ -27,6 +27,7 @@ class HtmlSaveOptions : public Aspose::Cells::SaveOptions
 | [GetCachedFileFolder()](../saveoptions/getcachedfilefolder/) | The cached file folder is used to store some large data. |
 | [GetCalculateFormula()](./getcalculateformula/) | Indicates whether to calculate formulas before saving html file. |
 | [GetCellCssPrefix()](./getcellcssprefix/) | Gets and sets the prefix of the css name,the default value is "". |
+| [GetCellNameAttribute()](./getcellnameattribute/) | Specifies the attribute that indicates the CellName to be written. (e.g. If the value is "id", then for cell "A1", the output will be:<td id='A1'>). The default value is null. |
 | [GetClearData()](../saveoptions/getcleardata/) | Make the workbook empty after saving the file. |
 | [GetCreateDirectory()](../saveoptions/getcreatedirectory/) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [GetCssStyles()](./getcssstyles/) | Gets or sets the additional css styles for the formatter. Only works when SaveAsSingleFile is True. |
@@ -71,6 +72,7 @@ class HtmlSaveOptions : public Aspose::Cells::SaveOptions
 | [GetMergeAreas()](../saveoptions/getmergeareas/) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [GetMergeEmptyTdForcely()](./getmergeemptytdforcely/) |  **(Deprecated)** Indicates whether merging empty TD element forcedly when exporting file to html. The size of html file will be reduced significantly after setting value to true. The default value is false. If you want to import the html file to excel or export perfect grid lines when saving file to html, please keep the default value. |
 | [GetMergeEmptyTdType()](./getmergeemptytdtype/) | The option to merge contiguous empty cells(empty td elements) The default value is [MergeEmptyTdType.Default](../mergeemptytdtype/). |
+| [GetOfficeMathOutputMode()](./getofficemathoutputmode/) | Indicates how export OfficeMath objects to HTML, Default value is Image. |
 | [GetPageTitle()](./getpagetitle/) | The title of the html page. Only for saving to html stream. |
 | [GetParseHtmlTagInCell()](./getparsehtmltagincell/) | Indicates whether html tag(such as **<div></div>**) in cell should be parsed as cell value or preserved as it is. The default value is true. |
 | [GetPresentationPreference()](./getpresentationpreference/) | Indicating if html or mht file is presentation preference. The default value is false. if you want to get more beautiful presentation,please set the value to true. |
@@ -115,6 +117,8 @@ class HtmlSaveOptions : public Aspose::Cells::SaveOptions
 | [SetCalculateFormula(bool value)](./setcalculateformula/) | Indicates whether to calculate formulas before saving html file. |
 | [SetCellCssPrefix(const U16String\& value)](./setcellcssprefix/) | Gets and sets the prefix of the css name,the default value is "". |
 | [SetCellCssPrefix(const char16_t* value)](./setcellcssprefix/) | Gets and sets the prefix of the css name,the default value is "". |
+| [SetCellNameAttribute(const U16String\& value)](./setcellnameattribute/) | Specifies the attribute that indicates the CellName to be written. (e.g. If the value is "id", then for cell "A1", the output will be:<td id='A1'>). The default value is null. |
+| [SetCellNameAttribute(const char16_t* value)](./setcellnameattribute/) | Specifies the attribute that indicates the CellName to be written. (e.g. If the value is "id", then for cell "A1", the output will be:<td id='A1'>). The default value is null. |
 | [SetClearData(bool value)](../saveoptions/setcleardata/) | Make the workbook empty after saving the file. |
 | [SetCreateDirectory(bool value)](../saveoptions/setcreatedirectory/) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [SetCssStyles(const U16String\& value)](./setcssstyles/) | Gets or sets the additional css styles for the formatter. Only works when SaveAsSingleFile is True. |
@@ -167,6 +171,7 @@ class HtmlSaveOptions : public Aspose::Cells::SaveOptions
 | [SetMergeAreas(bool value)](../saveoptions/setmergeareas/) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [SetMergeEmptyTdForcely(bool value)](./setmergeemptytdforcely/) |  **(Deprecated)** Indicates whether merging empty TD element forcedly when exporting file to html. The size of html file will be reduced significantly after setting value to true. The default value is false. If you want to import the html file to excel or export perfect grid lines when saving file to html, please keep the default value. |
 | [SetMergeEmptyTdType(MergeEmptyTdType value)](./setmergeemptytdtype/) | The option to merge contiguous empty cells(empty td elements) The default value is [MergeEmptyTdType.Default](../mergeemptytdtype/). |
+| [SetOfficeMathOutputMode(HtmlOfficeMathOutputType value)](./setofficemathoutputmode/) | Indicates how export OfficeMath objects to HTML, Default value is Image. |
 | [SetPageTitle(const U16String\& value)](./setpagetitle/) | The title of the html page. Only for saving to html stream. |
 | [SetPageTitle(const char16_t* value)](./setpagetitle/) | The title of the html page. Only for saving to html stream. |
 | [SetParseHtmlTagInCell(bool value)](./setparsehtmltagincell/) | Indicates whether html tag(such as **<div></div>**) in cell should be parsed as cell value or preserved as it is. The default value is true. |

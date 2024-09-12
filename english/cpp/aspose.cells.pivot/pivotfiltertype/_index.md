@@ -4,7 +4,7 @@ linktitle: PivotFilterType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotFilterType enum. Represents PivotTable Filter type in C++.'
 type: docs
-weight: 3000
+weight: 3300
 url: /cpp/aspose.cells.pivot/pivotfiltertype/
 ---
 ## PivotFilterType enum

@@ -36,6 +36,7 @@ is_root: true
 | [Aspose::Cells::Settings](./aspose.cells.settings/) |  |
 | [Aspose::Cells::Slicers](./aspose.cells.slicers/) |  |
 | [Aspose::Cells::Slides](./aspose.cells.slides/) |  |
+| [Aspose::Cells::System](./aspose.cells.system/) |  |
 | [Aspose::Cells::Tables](./aspose.cells.tables/) |  |
 | [Aspose::Cells::Timelines](./aspose.cells.timelines/) |  |
 | [Aspose::Cells::Utility](./aspose.cells.utility/) |  |

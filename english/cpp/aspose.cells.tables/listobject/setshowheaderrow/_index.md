@@ -4,7 +4,7 @@ linktitle: SetShowHeaderRow
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Tables::ListObject::SetShowHeaderRow method. Gets and sets whether this ListObject show header row in C++.'
 type: docs
-weight: 1400
+weight: 1500
 url: /cpp/aspose.cells.tables/listobject/setshowheaderrow/
 ---
 ## ListObject::SetShowHeaderRow method

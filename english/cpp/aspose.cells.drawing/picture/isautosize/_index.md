@@ -4,7 +4,7 @@ linktitle: IsAutoSize
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Picture::IsAutoSize method. True indicates that the size of the ole object will be auto changed as the size of snapshot of the embedded content when the ole object is activated in C++.'
 type: docs
-weight: 2000
+weight: 2100
 url: /cpp/aspose.cells.drawing/picture/isautosize/
 ---
 ## Picture::IsAutoSize method

@@ -4,7 +4,7 @@ linktitle: SetIsLocked
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Style::SetIsLocked method. Gets or sets a value indicating whether a cell can be modified or not in C++.'
 type: docs
-weight: 5700
+weight: 5800
 url: /cpp/aspose.cells/style/setislocked/
 ---
 ## Style::SetIsLocked method

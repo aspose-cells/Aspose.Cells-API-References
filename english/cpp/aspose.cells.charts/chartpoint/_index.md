@@ -22,6 +22,7 @@ class ChartPoint
 | --- | --- |
 | [ChartPoint(ChartPoint_Impl* impl)](./chartpoint/) | Constructs from an implementation object. |
 | [ChartPoint(const ChartPoint\& src)](./chartpoint/) | Copy constructor. |
+| [Get_YValue()](./get_yvalue/) | Gets or sets the Y value of the chart point. |
 | [GetArcEndPointXPx()](./getarcendpointxpx/) | Gets the x coordinate of ending point for the pie section after calls [Chart.Calculate()](../chart/calculate/) method. Applies to Pie and Doughnut chart. |
 | [GetArcEndPointYPx()](./getarcendpointypx/) | Gets the y coordinate of ending point for the pie section after calls [Chart.Calculate()](../chart/calculate/) method. Applies to Pie and Doughnut chart. |
 | [GetArcStartPointXPx()](./getarcstartpointxpx/) | Gets the x coordinate of starting point for the pie section after calls [Chart.Calculate()](../chart/calculate/) method. Applies to Pie and Doughnut chart. |
@@ -60,6 +61,7 @@ class ChartPoint
 | [GetTopPointCount()](./gettoppointcount/) | Gets the number of top points after calls [Chart.Calculate()](../chart/calculate/) method. |
 | [GetTopPointXPx(int32_t index)](./gettoppointxpx/) | Gets x-coordinate of the top point of shape after calls [Chart.Calculate()](../chart/calculate/) method. Applies 3D charts: Column3D, Bar3D, Cone, Cylinder, Pyramid and Area3D. |
 | [GetTopPointYPx(int32_t index)](./gettoppointypx/) | Gets y-coordinate of the top point of shape after calls [Chart.Calculate()](../chart/calculate/) method. Applies 3D charts: Column3D, Bar3D, Cone, Cylinder, Pyramid and Area3D. |
+| [GetXValue()](./getxvalue/) | Gets or sets the X value of the chart point. |
 | [GetXValueType()](./getxvaluetype/) | Gets X value type of the chart point. |
 | [GetYValueType()](./getyvaluetype/) | Gets Y value type of the chart point. |
 | [IsInSecondaryPlot()](./isinsecondaryplot/) | Gets or sets a value indicates whether this data points is in the second pie or bar on a pie of pie or bar of pie chart. |
@@ -69,6 +71,8 @@ class ChartPoint
 | [SetExplosion(int32_t value)](./setexplosion/) | The distance of an open pie slice from the center of the pie chart is expressed as a percentage of the pie diameter. |
 | [SetIsInSecondaryPlot(bool value)](./setisinsecondaryplot/) | Gets or sets a value indicates whether this data points is in the second pie or bar on a pie of pie or bar of pie chart. |
 | [SetShadow(bool value)](./setshadow/) | True if the chartpoint has a shadow. |
+| [SetXValue(const Aspose::Cells::Object\& value)](./setxvalue/) | Gets or sets the X value of the chart point. |
+| [SetYValue(const Aspose::Cells::Object\& value)](./setyvalue/) | Gets or sets the Y value of the chart point. |
 | [~ChartPoint()](./~chartpoint/) | Destructor. |
 ## Fields
 

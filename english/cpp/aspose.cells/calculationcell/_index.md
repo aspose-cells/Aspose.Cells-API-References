@@ -30,6 +30,7 @@ class CalculationCell
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const CalculationCell\& src)](./operator_asm/) | operator= |
+| [SetCalculatedValue(const Aspose::Cells::Object\& v)](./setcalculatedvalue/) | Sets the calculated value for the cell. |
 | [~CalculationCell()](./~calculationcell/) | Destructor. |
 ## Fields
 

@@ -4,7 +4,7 @@ linktitle: ClearPivottables
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::WorksheetCollection::ClearPivottables method. Clears pivot tables from the spreadsheet in C++.'
 type: docs
-weight: 3900
+weight: 4000
 url: /cpp/aspose.cells/worksheetcollection/clearpivottables/
 ---
 ## WorksheetCollection::ClearPivottables method

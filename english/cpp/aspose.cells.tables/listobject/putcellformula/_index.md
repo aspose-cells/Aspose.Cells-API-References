@@ -4,7 +4,7 @@ linktitle: PutCellFormula
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Tables::ListObject::PutCellFormula method. Put the formula to the cell in the table in C++.'
 type: docs
-weight: 1200
+weight: 1300
 url: /cpp/aspose.cells.tables/listobject/putcellformula/
 ---
 ## ListObject::PutCellFormula(int32_t, int32_t, const U16String\&) method

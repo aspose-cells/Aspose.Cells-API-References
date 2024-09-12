@@ -4,7 +4,7 @@ linktitle: GetFormula
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Picture::GetFormula method. Gets and sets the data of the formula in C++.'
 type: docs
-weight: 1800
+weight: 1900
 url: /cpp/aspose.cells.drawing/picture/getformula/
 ---
 ## Picture::GetFormula method

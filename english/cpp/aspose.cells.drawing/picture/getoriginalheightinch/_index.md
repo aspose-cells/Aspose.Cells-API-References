@@ -4,7 +4,7 @@ linktitle: GetOriginalHeightInch
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Picture::GetOriginalHeightInch method. Gets the original height of picture, in unit of inches in C++.'
 type: docs
-weight: 3100
+weight: 3200
 url: /cpp/aspose.cells.drawing/picture/getoriginalheightinch/
 ---
 ## Picture::GetOriginalHeightInch method

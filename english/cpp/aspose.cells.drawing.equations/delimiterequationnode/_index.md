@@ -4,7 +4,7 @@ linktitle: DelimiterEquationNode
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Equations::DelimiterEquationNode class. This class specifies the delimiter equation, consisting of opening and closing delimiters (such as parentheses, braces, brackets, and vertical bars), and a component contained inside. The delimiter may have more than one component, with a designated separator character between each component in C++.'
 type: docs
-weight: 500
+weight: 600
 url: /cpp/aspose.cells.drawing.equations/delimiterequationnode/
 ---
 ## DelimiterEquationNode class
@@ -26,6 +26,7 @@ class DelimiterEquationNode : public Aspose::Cells::Drawing::Equations::Equation
 | [DelimiterEquationNode(DelimiterEquationNode_Impl* impl)](./delimiterequationnode/) | Constructs from an implementation object. |
 | [DelimiterEquationNode(const DelimiterEquationNode\& src)](./delimiterequationnode/) | Copy constructor. |
 | [DelimiterEquationNode(const EquationNode\& src)](./delimiterequationnode/) | Constructs from a parent object. |
+| [Equals(const Aspose::Cells::Object\& obj)](./equals/) | Determine whether the current equation node is equal to the specified node. |
 | [EquationNode(EquationNode_Impl* impl)](../equationnode/equationnode/) | Constructs from an implementation object. |
 | [EquationNode(const EquationNode\& src)](../equationnode/equationnode/) | Copy constructor. |
 | [EquationNode(const FontSetting\& src)](../equationnode/equationnode/) | Constructs from a parent object. |
@@ -67,8 +68,8 @@ class DelimiterEquationNode : public Aspose::Cells::Drawing::Equations::Equation
 | [SetSeparatorChar(const U16String\& value)](./setseparatorchar/) | Delimiter separator character. |
 | [SetSeparatorChar(const char16_t* value)](./setseparatorchar/) | Delimiter separator character. |
 | [SetWordArtStyle(PresetWordArtStyle style)](../../aspose.cells/fontsetting/setwordartstyle/) | Sets the preset WordArt style. |
-| [ToLaTeX()](../equationnode/tolatex/) | Conver this equtation to LaTeX expression. |
-| [ToMathML()](../equationnode/tomathml/) | Conver this equtation to MathML expression. |
+| [ToLaTeX()](../equationnode/tolatex/) | Convert this equtation to LaTeX expression. |
+| [ToMathML()](../equationnode/tomathml/) | Convert this equtation to MathML expression. |
 | [~DelimiterEquationNode()](./~delimiterequationnode/) | Destructor. |
 | [~EquationNode()](../equationnode/~equationnode/) | Destructor. |
 | [~FontSetting()](../../aspose.cells/fontsetting/~fontsetting/) | Destructor. |

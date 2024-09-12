@@ -4,7 +4,7 @@ linktitle: GetDashStyle
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::LineFormat::GetDashStyle method. Specifies the line dash type in C++.'
 type: docs
-weight: 900
+weight: 1000
 url: /cpp/aspose.cells.drawing/lineformat/getdashstyle/
 ---
 ## LineFormat::GetDashStyle method

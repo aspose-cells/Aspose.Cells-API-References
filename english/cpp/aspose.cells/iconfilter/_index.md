@@ -22,15 +22,15 @@ class IconFilter
 | --- | --- |
 | [GetIconId()](./geticonid/) | Gets and sets Zero-based index of an icon in an icon set. |
 | [GetIconSetType()](./geticonsettype/) | Gets and sets which icon set is used in the filter criteria. |
-| [GetIObject()](./getiobject/) | Gets the [IObject](../iobject/) pointer of this object. |
 | [IconFilter(IconFilter_Impl* impl)](./iconfilter/) | Constructs from an implementation object. |
-| [IconFilter(const IObject* obj)](./iconfilter/) | Constructs from an [IObject](../iobject/) convertible to this. |
+| [IconFilter(const Aspose::Cells::Object\& obj)](./iconfilter/) | Constructs from an [Object](../object/) convertible to this. |
 | [IconFilter(const IconFilter\& src)](./iconfilter/) | Copy constructor. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const IconFilter\& src)](./operator_asm/) | operator= |
 | [SetIconId(int32_t value)](./seticonid/) | Gets and sets Zero-based index of an icon in an icon set. |
 | [SetIconSetType(IconSetType value)](./seticonsettype/) | Gets and sets which icon set is used in the filter criteria. |
+| [ToObject()](./toobject/) | Gets the [Object](../object/). |
 | [~IconFilter()](./~iconfilter/) | Destructor. |
 ## Fields
 

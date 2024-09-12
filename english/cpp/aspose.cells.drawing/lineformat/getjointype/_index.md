@@ -4,7 +4,7 @@ linktitle: GetJoinType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::LineFormat::GetJoinType method. Specifies the line join type in C++.'
 type: docs
-weight: 1300
+weight: 1400
 url: /cpp/aspose.cells.drawing/lineformat/getjointype/
 ---
 ## LineFormat::GetJoinType method

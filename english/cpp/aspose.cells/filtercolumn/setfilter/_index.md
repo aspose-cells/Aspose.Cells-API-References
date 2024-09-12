@@ -13,13 +13,13 @@ url: /cpp/aspose.cells/filtercolumn/setfilter/
 Gets and sets the condition of filtering data.
 
 ```cpp
-void Aspose::Cells::FilterColumn::SetFilter(IObject *value)
+void Aspose::Cells::FilterColumn::SetFilter(const Aspose::Cells::Object &value)
 ```
 
 ## See Also
 
 * Class [Vector](../../vector/)
-* Class [IObject](../../iobject/)
+* Class [Object](../../object/)
 * Class [FilterColumn](../)
 * Namespace [Aspose::Cells](../../)
 * Library [Aspose.Cells for C++](../../../)

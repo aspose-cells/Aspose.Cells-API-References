@@ -4,7 +4,7 @@ linktitle: PivotFieldGroupType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotFieldGroupType enum. Represents the group type of pivot field in C++.'
 type: docs
-weight: 2700
+weight: 3000
 url: /cpp/aspose.cells.pivot/pivotfieldgrouptype/
 ---
 ## PivotFieldGroupType enum

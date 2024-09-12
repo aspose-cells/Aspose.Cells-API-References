@@ -20,17 +20,17 @@ enum class FileFormatType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Csv | 1 | <br>Comma-Separated Values(CSV) text file. |
+| Csv | 1 | <br>Comma-Separated [Values(CSV)](../autofilltype/) text file. |
 | Xlsx | 6 | <br>Office Open XML SpreadsheetML file (macro-free). |
 | Xlsm | 7 | <br>Office Open XML SpreadsheetML Macro-Enabled file. |
 | Xltx | 8 | <br>Office Open XML SpreadsheetML Template (macro-free). |
 | Xltm | 9 | <br>Office Open XML SpreadsheetML Macro-Enabled Template. |
 | Xlam | 10 | <br>Office Open XML SpreadsheetML addinMacro-Enabled file. |
-| Tsv | 11 | <br>Tab-Separated Values(TSV) text file. |
-| TabDelimited | 11 | <br>Tab-Separated Values(TSV) text file, same with [Tsv](./). |
+| Tsv | 11 | <br>Tab-Separated [Values(TSV)](../autofilltype/) text file. |
+| TabDelimited | 11 | <br>Tab-Separated [Values(TSV)](../autofilltype/) text file, same with [Tsv](./). |
 | Html | 12 | <br>HTML format. |
 | MHtml | 17 | <br>MHTML (Web archive) format. |
-| Ods | 14 | <br>Open Document Sheet(ODS) file. |
+| Ods | 14 | <br>Open Document [Sheet(ODS)](../../aspose.cells.pivot/pivottablesourcetype/) file. |
 | Excel97To2003 | 5 | <br>Excel97-2003 spreadsheet file. |
 | SpreadsheetML | 15 | <br>Excel 2003 XML Data file. |
 | Xlsb | 16 | <br>The Excel Binary File Format (.xlsb) |
@@ -79,6 +79,7 @@ enum class FileFormatType
 | Sxc | 60 | <br>Represents StarOffice Calc Spreadsheet (.sxc) file format. |
 | Otp | 61 | <br>Represents a OTP file. |
 | Numbers35 | 62 | <br>Represents [Numbers](../../aspose.cells.numbers/) 3.5 file format since 2014 by Apple Inc. |
+| Ole | 64 | <br>Represents the embedded ole object. |
 | Emf | 258 | <br>Windows Enhanced Metafile. |
 | Wmf | 259 | <br>Windows Metafile. |
 | Jpg | 261 | <br>JPEG JFIF. |

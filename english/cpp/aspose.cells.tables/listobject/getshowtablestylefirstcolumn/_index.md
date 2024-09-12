@@ -4,7 +4,7 @@ linktitle: GetShowTableStyleFirstColumn
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Tables::ListObject::GetShowTableStyleFirstColumn method. Indicates whether the first column in the table should have the style applied in C++.'
 type: docs
-weight: 2700
+weight: 2800
 url: /cpp/aspose.cells.tables/listobject/getshowtablestylefirstcolumn/
 ---
 ## ListObject::GetShowTableStyleFirstColumn method

@@ -4,7 +4,7 @@ linktitle: EquationNode
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Equations::EquationNode class. Abstract class for deriving other equation nodes in C++.'
 type: docs
-weight: 700
+weight: 800
 url: /cpp/aspose.cells.drawing.equations/equationnode/
 ---
 ## EquationNode class
@@ -23,6 +23,7 @@ class EquationNode : public Aspose::Cells::FontSetting
 | [AddChild(EquationNodeType equationType)](./addchild/) | Insert a node of the specified type at the end of the child node list of the current node. |
 | [AddChild(const EquationNode\& node)](./addchild/) | Inserts the specified node at the end of the current node's list of child nodes. |
 | static [CreateNode(EquationNodeType equationType, const Workbook\& workbook, const EquationNode\& parent)](./createnode/) | Create a node of the specified type. |
+| [Equals(const Aspose::Cells::Object\& obj)](./equals/) | Determine whether the current equation node is equal to the specified node. |
 | [EquationNode(EquationNode_Impl* impl)](./equationnode/) | Constructs from an implementation object. |
 | [EquationNode(const EquationNode\& src)](./equationnode/) | Copy constructor. |
 | [EquationNode(const FontSetting\& src)](./equationnode/) | Constructs from a parent object. |
@@ -50,8 +51,8 @@ class EquationNode : public Aspose::Cells::FontSetting
 | [RemoveChild(int32_t index)](./removechild/) | Removes the node at the specified index from the current node's children. |
 | [SetParentNode(const EquationNode\& value)](./setparentnode/) | Specifies the parent node of the current node. |
 | [SetWordArtStyle(PresetWordArtStyle style)](../../aspose.cells/fontsetting/setwordartstyle/) | Sets the preset WordArt style. |
-| [ToLaTeX()](./tolatex/) | Conver this equtation to LaTeX expression. |
-| [ToMathML()](./tomathml/) | Conver this equtation to MathML expression. |
+| [ToLaTeX()](./tolatex/) | Convert this equtation to LaTeX expression. |
+| [ToMathML()](./tomathml/) | Convert this equtation to MathML expression. |
 | [~EquationNode()](./~equationnode/) | Destructor. |
 | [~FontSetting()](../../aspose.cells/fontsetting/~fontsetting/) | Destructor. |
 ## Fields

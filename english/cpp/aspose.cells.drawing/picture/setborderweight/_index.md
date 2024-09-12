@@ -4,7 +4,7 @@ linktitle: SetBorderWeight
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Picture::SetBorderWeight method. Gets or sets the weight of the border line of a picture in units of pt in C++.'
 type: docs
-weight: 1300
+weight: 1400
 url: /cpp/aspose.cells.drawing/picture/setborderweight/
 ---
 ## Picture::SetBorderWeight method

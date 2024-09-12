@@ -4,7 +4,7 @@ linktitle: GetAreas
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Validation::GetAreas method. Gets all CellArea which contain the data validation settings in C++.'
 type: docs
-weight: 3200
+weight: 3800
 url: /cpp/aspose.cells/validation/getareas/
 ---
 ## Validation::GetAreas method

@@ -4,7 +4,7 @@ linktitle: Filter
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Tables::ListObject::Filter method. Filter the table in C++.'
 type: docs
-weight: 2100
+weight: 2200
 url: /cpp/aspose.cells.tables/listobject/filter/
 ---
 ## ListObject::Filter method
