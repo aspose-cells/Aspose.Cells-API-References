@@ -91,13 +91,15 @@ Represents the collection of all the PivotTable objects on the specified workshe
 
 | Method | Description |
 | --- | --- |
-| [add(PivotTable pivotTable, int row, int column, String tableName)](#add-com.aspose.cells.PivotTable-int-int-java.lang.String-) | Adds a new PivotTable Object to the collection from another PivotTable. |
-| [add(PivotTable pivotTable, String destCellName, String tableName)](#add-com.aspose.cells.PivotTable-java.lang.String-java.lang.String-) | Adds a new PivotTable Object to the collection from another PivotTable. |
+| [add(PivotTable pivotTable, int row, int column, String tableName)](#add-com.aspose.cells.PivotTable-int-int-java.lang.String-) | Adds a new PivotTable based on another PivotTable. |
+| [add(PivotTable pivotTable, String destCellName, String tableName)](#add-com.aspose.cells.PivotTable-java.lang.String-java.lang.String-) | Adds a new PivotTable based on another PivotTable. |
 | [add(Object o)](#add-java.lang.Object-) | Adds an item to the CollectionBase instance. |
-| [add(String sourceData, int row, int column, String tableName)](#add-java.lang.String-int-int-java.lang.String-) | Adds a new PivotTable cache to a PivotCaches collection. |
-| [add(String sourceData, int row, int column, String tableName, boolean useSameSource)](#add-java.lang.String-int-int-java.lang.String-boolean-) | Adds a new PivotTable cache to a PivotCaches collection. |
-| [add(String sourceData, String destCellName, String tableName)](#add-java.lang.String-java.lang.String-java.lang.String-) | Adds a new PivotTable cache to a PivotCaches collection. |
-| [add(String sourceData, String destCellName, String tableName, boolean useSameSource)](#add-java.lang.String-java.lang.String-java.lang.String-boolean-) | Adds a new PivotTable cache to a PivotCaches collection. |
+| [add(String sourceData, int row, int column, String tableName)](#add-java.lang.String-int-int-java.lang.String-) | Adds a new PivotTable. |
+| [add(String sourceData, int row, int column, String tableName, boolean useSameSource)](#add-java.lang.String-int-int-java.lang.String-boolean-) | Adds a new PivotTable. |
+| [add(String sourceData, int row, int column, String tableName, boolean useSameSource, boolean isXlsClassic)](#add-java.lang.String-int-int-java.lang.String-boolean-boolean-) | Adds a new PivotTable. |
+| [add(String sourceData, String destCellName, String tableName)](#add-java.lang.String-java.lang.String-java.lang.String-) | Adds a new PivotTable. |
+| [add(String sourceData, String destCellName, String tableName, boolean useSameSource)](#add-java.lang.String-java.lang.String-java.lang.String-boolean-) | Adds a new PivotTable. |
+| [add(String sourceData, String cell, String tableName, boolean useSameSource, boolean isXlsClassic)](#add-java.lang.String-java.lang.String-java.lang.String-boolean-boolean-) | Adds a new PivotTable. |
 | [add(String[] sourceData, boolean isAutoPage, PivotPageFields pageFields, int row, int column, String tableName)](#add-java.lang.String---boolean-com.aspose.cells.PivotPageFields-int-int-java.lang.String-) | Adds a new PivotTable Object to the collection with multiple consolidation ranges as data source. |
 | [add(String[] sourceData, boolean isAutoPage, PivotPageFields pageFields, String destCellName, String tableName)](#add-java.lang.String---boolean-com.aspose.cells.PivotPageFields-java.lang.String-java.lang.String-) | Adds a new PivotTable Object to the collection with multiple consolidation ranges as data source. |
 | [clear()](#clear--) | Clear all pivot tables. |
@@ -128,7 +130,7 @@ public int add(PivotTable pivotTable, int row, int column, String tableName)
 ```
 
 
-Adds a new PivotTable Object to the collection from another PivotTable.
+Adds a new PivotTable based on another PivotTable.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -146,7 +148,7 @@ public int add(PivotTable pivotTable, String destCellName, String tableName)
 ```
 
 
-Adds a new PivotTable Object to the collection from another PivotTable.
+Adds a new PivotTable based on another PivotTable.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -178,7 +180,7 @@ public int add(String sourceData, int row, int column, String tableName)
 ```
 
 
-Adds a new PivotTable cache to a PivotCaches collection.
+Adds a new PivotTable.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -196,7 +198,7 @@ public int add(String sourceData, int row, int column, String tableName, boolean
 ```
 
 
-Adds a new PivotTable cache to a PivotCaches collection.
+Adds a new PivotTable.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -209,13 +211,33 @@ Adds a new PivotTable cache to a PivotCaches collection.
 
 **Returns:**
 int - The new added cache index.
+### add(String sourceData, int row, int column, String tableName, boolean useSameSource, boolean isXlsClassic) {#add-java.lang.String-int-int-java.lang.String-boolean-boolean-}
+```
+public int add(String sourceData, int row, int column, String tableName, boolean useSameSource, boolean isXlsClassic)
+```
+
+
+Adds a new PivotTable.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sourceData | java.lang.String | The data cell range for the new PivotTable.Example : Sheet1!A1:C8 |
+| row | int | Row index of the cell in the upper-left corner of the PivotTable report's destination range. |
+| column | int | Column index of the cell in the upper-left corner of the PivotTable report's destination range. |
+| tableName | java.lang.String | The name of the new PivotTable report. |
+| useSameSource | boolean | Indicates whether using same data source when another existing pivot table has used this data source. If the property is true, it will save memory. |
+| isXlsClassic | boolean | Indicates whether add classic pivot table of Excel 97-2003. |
+
+**Returns:**
+int - The new added cache index.
 ### add(String sourceData, String destCellName, String tableName) {#add-java.lang.String-java.lang.String-java.lang.String-}
 ```
 public int add(String sourceData, String destCellName, String tableName)
 ```
 
 
-Adds a new PivotTable cache to a PivotCaches collection.
+Adds a new PivotTable.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -232,7 +254,7 @@ public int add(String sourceData, String destCellName, String tableName, boolean
 ```
 
 
-Adds a new PivotTable cache to a PivotCaches collection.
+Adds a new PivotTable.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -241,6 +263,25 @@ Adds a new PivotTable cache to a PivotCaches collection.
 | destCellName | java.lang.String | The cell in the upper-left corner of the PivotTable report's destination range. |
 | tableName | java.lang.String | The name of the new PivotTable report. |
 | useSameSource | boolean | Indicates whether using same data source when another existing pivot table has used this data source. If the property is true, it will save memory. |
+
+**Returns:**
+int - The new added cache index.
+### add(String sourceData, String cell, String tableName, boolean useSameSource, boolean isXlsClassic) {#add-java.lang.String-java.lang.String-java.lang.String-boolean-boolean-}
+```
+public int add(String sourceData, String cell, String tableName, boolean useSameSource, boolean isXlsClassic)
+```
+
+
+Adds a new PivotTable.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sourceData | java.lang.String | The data cell range for the new PivotTable.Example : Sheet1!A1:C8 |
+| cell | java.lang.String | The cell in the upper-left corner of the PivotTable report's destination range. |
+| tableName | java.lang.String | The name of the new PivotTable report. |
+| useSameSource | boolean | Indicates whether using same data source when another existing pivot table has used this data source. If the property is true, it will save memory. |
+| isXlsClassic | boolean | Indicates whether add classic pivot table of Excel 97-2003. |
 
 **Returns:**
 int - The new added cache index.

@@ -52,6 +52,7 @@ Represents the options of loading ods file.
 | [getStandardFontSize()](#getStandardFontSize--) | Sets the default standard font size. |
 | [getWarningCallback()](#getWarningCallback--) | Gets warning callback. |
 | [hashCode()](#hashCode--) |  |
+| [isClassicPivotTable()](#isClassicPivotTable--) | Indicates whether the pivot table is classic. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setApplyExcelDefaultStyleToHyperlink(boolean value)](#setApplyExcelDefaultStyleToHyperlink-boolean-) | Indicates whether applying the default style of the Excel to hyperlink. |
@@ -59,6 +60,7 @@ Represents the options of loading ods file.
 | [setAutoFitterOptions(AutoFitterOptions value)](#setAutoFitterOptions-com.aspose.cells.AutoFitterOptions-) | Sets the auto fitter options |
 | [setCheckDataValid(boolean value)](#setCheckDataValid-boolean-) | Check whether data is valid in the template file. |
 | [setCheckExcelRestriction(boolean value)](#setCheckExcelRestriction-boolean-) | Whether check restriction of excel file when user modify cells related objects. |
+| [setClassicPivotTable(boolean value)](#setClassicPivotTable-boolean-) | Indicates whether the pivot table is classic. |
 | [setFontConfigs(IndividualFontConfigs value)](#setFontConfigs-com.aspose.cells.IndividualFontConfigs-) | Sets individual font configs. |
 | [setIgnoreNotPrinted(boolean value)](#setIgnoreNotPrinted-boolean-) | Ignore the data which are not printed if directly printing the file |
 | [setIgnoreUselessShapes(boolean value)](#setIgnoreUselessShapes-boolean-) | Indicates whether ignoring useless shapes. |
@@ -453,6 +455,16 @@ public native int hashCode()
 
 **Returns:**
 int
+### isClassicPivotTable() {#isClassicPivotTable--}
+```
+public boolean isClassicPivotTable()
+```
+
+
+Indicates whether the pivot table is classic.
+
+**Returns:**
+boolean
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -536,6 +548,19 @@ public void setCheckExcelRestriction(boolean value)
 
 
 Whether check restriction of excel file when user modify cells related objects. For example, excel does not allow inputting string value longer than 32K. When you input a value longer than 32K such as by Cell.PutValue(string), if this property is true, you will get an Exception. If this property is false, we will accept your input string value as the cell's value so that later you can output the complete string value for other file formats such as CSV. However, if you have set such kind of value that is invalid for excel file format, you should not save the workbook as excel file format later. Otherwise there may be unexpected error for the generated excel file.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setClassicPivotTable(boolean value) {#setClassicPivotTable-boolean-}
+```
+public void setClassicPivotTable(boolean value)
+```
+
+
+Indicates whether the pivot table is classic.
 
 **Parameters:**
 | Parameter | Type | Description |

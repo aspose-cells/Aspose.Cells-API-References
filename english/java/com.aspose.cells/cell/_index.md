@@ -153,6 +153,7 @@ Encapsulates the object that represents a single Workbook cell.
 | [setEmbeddedImage(byte[] value)](#setEmbeddedImage-byte---) | Sets the embeddedn image in the cell. |
 | [setFormula(String value)](#setFormula-java.lang.String-) | Sets a formula of the [Cell](../../com.aspose.cells/cell). |
 | [setFormula(String formula, boolean isR1C1, boolean isLocal, Object value)](#setFormula-java.lang.String-boolean-boolean-java.lang.Object-) | Set the formula and the value of the formula. |
+| [setFormula(String formula, FormulaParseOptions options)](#setFormula-java.lang.String-com.aspose.cells.FormulaParseOptions-) | Set the formula and the value(calculated result) of the formula. |
 | [setFormula(String formula, FormulaParseOptions options, Object value)](#setFormula-java.lang.String-com.aspose.cells.FormulaParseOptions-java.lang.Object-) | Set the formula and the value(calculated result) of the formula. |
 | [setFormula(String formula, Object value)](#setFormula-java.lang.String-java.lang.Object-) | Set the formula and the value(calculated result) of the formula. |
 | [setFormulaLocal(String value)](#setFormulaLocal-java.lang.String-) | Get the locale formatted formula of the cell. |
@@ -1537,6 +1538,20 @@ NOTE: This class is now obsolete. Instead, please use Cell.SetFormula(string,For
 | isR1C1 | boolean | Whether the formula is R1C1 formula. |
 | isLocal | boolean | Whether the formula is locale formatted. |
 | value | java.lang.Object | The value of the formula. |
+
+### setFormula(String formula, FormulaParseOptions options) {#setFormula-java.lang.String-com.aspose.cells.FormulaParseOptions-}
+```
+public void setFormula(String formula, FormulaParseOptions options)
+```
+
+
+Set the formula and the value(calculated result) of the formula.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| formula | java.lang.String | The formula. |
+| options | [FormulaParseOptions](../../com.aspose.cells/formulaparseoptions) | Options for parsing the formula. |
 
 ### setFormula(String formula, FormulaParseOptions options, Object value) {#setFormula-java.lang.String-com.aspose.cells.FormulaParseOptions-java.lang.Object-}
 ```

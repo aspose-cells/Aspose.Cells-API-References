@@ -1543,7 +1543,7 @@ Refreshes all the PivotTables in this Worksheet.
 
 ### refreshPivotTables(PivotTableRefreshOption option) {#refreshPivotTables-com.aspose.cells.PivotTableRefreshOption-}
 ```
-public void refreshPivotTables(PivotTableRefreshOption option)
+public boolean refreshPivotTables(PivotTableRefreshOption option)
 ```
 
 
@@ -1554,6 +1554,8 @@ Refreshes all the PivotTables in this Worksheet.
 | --- | --- | --- |
 | option | [PivotTableRefreshOption](../../com.aspose.cells/pivottablerefreshoption) | The option for refreshing data source of pivot table. |
 
+**Returns:**
+boolean
 ### removeAllDrawingObjects() {#removeAllDrawingObjects--}
 ```
 public void removeAllDrawingObjects()

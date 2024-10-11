@@ -30,6 +30,7 @@ Represents the options of saving ods file.
 | [getCreateDirectory()](#getCreateDirectory--) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [getEncryptDocumentProperties()](#getEncryptDocumentProperties--) | Indicates whether encrypt document properties when saving as .xls file. |
 | [getGeneratorType()](#getGeneratorType--) | Gets the generator of the ods file. |
+| [getIgnorePivotTables()](#getIgnorePivotTables--) | Indicates whether saving pivot tables. |
 | [getMergeAreas()](#getMergeAreas--) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [getOdfStrictVersion()](#getOdfStrictVersion--) | Gets the ODF version. |
 | [getRefreshChartCache()](#getRefreshChartCache--) | Indicates whether refreshing chart cache data |
@@ -48,6 +49,7 @@ Represents the options of saving ods file.
 | [setCreateDirectory(boolean value)](#setCreateDirectory-boolean-) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [setEncryptDocumentProperties(boolean value)](#setEncryptDocumentProperties-boolean-) | Indicates whether encrypt document properties when saving as .xls file. |
 | [setGeneratorType(int value)](#setGeneratorType-int-) | Sets the generator of the ods file. |
+| [setIgnorePivotTables(boolean value)](#setIgnorePivotTables-boolean-) | Indicates whether saving pivot tables. |
 | [setMergeAreas(boolean value)](#setMergeAreas-boolean-) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [setOdfStrictVersion(int value)](#setOdfStrictVersion-int-) | Sets the ODF version. |
 | [setRefreshChartCache(boolean value)](#setRefreshChartCache-boolean-) | Indicates whether refreshing chart cache data |
@@ -167,6 +169,20 @@ See [OdsGeneratorType](../../com.aspose.cells/odsgeneratortype).
 
 **Returns:**
 int
+### getIgnorePivotTables() {#getIgnorePivotTables--}
+```
+public boolean getIgnorePivotTables()
+```
+
+
+Indicates whether saving pivot tables.
+
+**Remarks**
+
+The pivot table feature of OpenOffice has fewer settings compared to Excel, so their results of pivot table have many differences. Sometimes it's better to ingore these pivot tables when saving .ods file.
+
+**Returns:**
+boolean
 ### getMergeAreas() {#getMergeAreas--}
 ```
 public boolean getMergeAreas()
@@ -387,6 +403,23 @@ See [OdsGeneratorType](../../com.aspose.cells/odsgeneratortype).
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
+
+### setIgnorePivotTables(boolean value) {#setIgnorePivotTables-boolean-}
+```
+public void setIgnorePivotTables(boolean value)
+```
+
+
+Indicates whether saving pivot tables.
+
+**Remarks**
+
+The pivot table feature of OpenOffice has fewer settings compared to Excel, so their results of pivot table have many differences. Sometimes it's better to ingore these pivot tables when saving .ods file.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### setMergeAreas(boolean value) {#setMergeAreas-boolean-}
 ```

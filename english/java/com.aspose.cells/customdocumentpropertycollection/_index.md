@@ -167,7 +167,7 @@ Creates a new custom document property which links to content.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | name | java.lang.String | The name of the property. |
-| source | java.lang.String | The source of the property |
+| source | java.lang.String | The source of the property. It should be the name of named range. |
 
 **Returns:**
 [DocumentProperty](../../com.aspose.cells/documentproperty) - The newly created property object.

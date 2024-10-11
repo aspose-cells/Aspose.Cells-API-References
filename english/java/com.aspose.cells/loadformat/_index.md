@@ -19,6 +19,7 @@ Represents the load file format.
 | --- | --- |
 | [AUTO](#AUTO) | Represents recognizing the format automatically. |
 | [AZW_3](#AZW-3) | Represents an AZW3 file. |
+| [CHM](#CHM) | Represents a CHM file. |
 | [CSV](#CSV) | Comma-Separated Values(CSV) text file. |
 | [EPUB](#EPUB) | Reprents an EPUB file. |
 | [EXCEL_97_TO_2003](#EXCEL-97-TO-2003) | Represents an Excel97-2003 xls file. |
@@ -66,6 +67,14 @@ public static final int AZW_3
 
 
 Represents an AZW3 file.
+
+### CHM {#CHM}
+```
+public static final int CHM
+```
+
+
+Represents a CHM file.
 
 ### CSV {#CSV}
 ```

@@ -147,6 +147,7 @@ Summary description for PivotTable.
 | [getMergeLabels()](#getMergeLabels--) | True if the specified PivotTable report's outer-row item, column item, subtotal, and grand total labels use merged cells. |
 | [getMissingItemsLimit()](#getMissingItemsLimit--) | Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them. |
 | [getName()](#getName--) | Gets the name of the PivotTable |
+| [getNamesOfSourceDataConnections()](#getNamesOfSourceDataConnections--) | Gets the name of external source data connections. |
 | [getNullString()](#getNullString--) | Gets the string displayed in cells that contain null values when the DisplayNullString property is true.The default value is an empty string. |
 | [getPageFieldOrder()](#getPageFieldOrder--) | Gets the order in which page fields are added to the PivotTable report's layout. |
 | [getPageFieldWrapCount()](#getPageFieldWrapCount--) | Gets the number of page fields in each column or row in the PivotTable report. |
@@ -163,6 +164,7 @@ Summary description for PivotTable.
 | [getRefreshDataOnOpeningFile()](#getRefreshDataOnOpeningFile--) | Indicates whether Refresh Data when Opening File. |
 | [getRefreshDate()](#getRefreshDate--) | Gets the last date time when the PivotTable was refreshed. |
 | [getRefreshedByWho()](#getRefreshedByWho--) | Gets the name of the last user who refreshed this PivotTable |
+| [getRepeatItemsOnEachPrintedPage()](#getRepeatItemsOnEachPrintedPage--) | Indicates whether pivot item captions on the row area are repeated on each printed page for pivot fields in tabular form. |
 | [getRowFields()](#getRowFields--) | Returns a PivotFields object that are currently shown as row fields. |
 | [getRowGrand()](#getRowGrand--) | Indicates whether the PivotTable report shows grand totals for rows. |
 | [getRowHeaderCaption()](#getRowHeaderCaption--) | Gets the Row Header Caption of the PivotTable. |
@@ -179,8 +181,9 @@ Summary description for PivotTable.
 | [getShowPivotStyleRowHeader()](#getShowPivotStyleRowHeader--) | Indicates whether the row header in the pivot table should have the style applied. |
 | [getShowPivotStyleRowStripes()](#getShowPivotStyleRowStripes--) | Indicates whether row stripe formatting is applied. |
 | [getShowRowHeaderCaption()](#getShowRowHeaderCaption--) | Indicates whether row header caption is shown in the PivotTable report Indicates whether Display field captions and filter drop downs |
-| [getShowValuesRow()](#getShowValuesRow--) | Specifies a boolean value that indicates whether show values row. |
+| [getShowValuesRow()](#getShowValuesRow--) | Indicates whether showing values row. |
 | [getSource()](#getSource--) | Get pivottable's source data. |
+| [getSourceDataConnections()](#getSourceDataConnections--) | Gets the external connection data sources. |
 | [getSourceType()](#getSourceType--) | Gets the data source type of the pivot table. |
 | [getSubtotalHiddenPageItems()](#getSubtotalHiddenPageItems--) | Indicates whether hidden page field items in the PivotTable report are included in row and column subtotals, block totals, and grand totals. |
 | [getTableRange1()](#getTableRange1--) | Returns a CellArea object that represents the range containing the entire PivotTable report, but doesn't include page fields. |
@@ -249,6 +252,7 @@ Summary description for PivotTable.
 | [setPrintTitles(boolean value)](#setPrintTitles-boolean-) | Indicates whether the print titles for the worksheet are set based on the PivotTable report. |
 | [setRefreshDataFlag(boolean value)](#setRefreshDataFlag-boolean-) | Indicates whether Refreshing Data or not. |
 | [setRefreshDataOnOpeningFile(boolean value)](#setRefreshDataOnOpeningFile-boolean-) | Indicates whether Refresh Data when Opening File. |
+| [setRepeatItemsOnEachPrintedPage(boolean value)](#setRepeatItemsOnEachPrintedPage-boolean-) | Indicates whether pivot item captions on the row area are repeated on each printed page for pivot fields in tabular form. |
 | [setRowGrand(boolean value)](#setRowGrand-boolean-) | Indicates whether the PivotTable report shows grand totals for rows. |
 | [setRowHeaderCaption(String value)](#setRowHeaderCaption-java.lang.String-) | Gets the Row Header Caption of the PivotTable. |
 | [setSaveData(boolean value)](#setSaveData-boolean-) | Indicates whether data for the PivotTable report is saved with the workbook. |
@@ -264,7 +268,7 @@ Summary description for PivotTable.
 | [setShowPivotStyleRowHeader(boolean value)](#setShowPivotStyleRowHeader-boolean-) | Indicates whether the row header in the pivot table should have the style applied. |
 | [setShowPivotStyleRowStripes(boolean value)](#setShowPivotStyleRowStripes-boolean-) | Indicates whether row stripe formatting is applied. |
 | [setShowRowHeaderCaption(boolean value)](#setShowRowHeaderCaption-boolean-) | Indicates whether row header caption is shown in the PivotTable report Indicates whether Display field captions and filter drop downs |
-| [setShowValuesRow(boolean value)](#setShowValuesRow-boolean-) | Specifies a boolean value that indicates whether show values row. |
+| [setShowValuesRow(boolean value)](#setShowValuesRow-boolean-) | Indicates whether showing values row. |
 | [setSubtotalHiddenPageItems(boolean value)](#setSubtotalHiddenPageItems-boolean-) | Indicates whether hidden page field items in the PivotTable report are included in row and column subtotals, block totals, and grand totals. |
 | [setTag(String value)](#setTag-java.lang.String-) | Gets a string saved with the PivotTable report. |
 | [setUngroup(PivotField pivotField)](#setUngroup-com.aspose.cells.PivotField-) | Sets ungroup by the PivotTable |
@@ -815,6 +819,10 @@ public ExternalConnection getExternalConnectionDataSource()
 
 Gets the external connection data source.
 
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use pivotTable.GetSourceDataConnections() method. This method will be removed 12 months later since October 2024. Aspose apologizes for any inconvenience you may have experienced.
+
 **Returns:**
 [ExternalConnection](../../com.aspose.cells/externalconnection)
 ### getFieldListSortAscending() {#getFieldListSortAscending--}
@@ -880,6 +888,10 @@ public boolean getItemPrintTitles()
 
 Indicates whether PivotItem names should be repeated at the top of each printed page.
 
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotTable.RepeatItemsOnEachPrintedPage property. This method will be removed 12 months later since October 2024. Aspose apologizes for any inconvenience you may have experienced.
+
 **Returns:**
 boolean
 ### getManualUpdate() {#getManualUpdate--}
@@ -924,6 +936,16 @@ Gets the name of the PivotTable
 
 **Returns:**
 java.lang.String
+### getNamesOfSourceDataConnections() {#getNamesOfSourceDataConnections--}
+```
+public String[] getNamesOfSourceDataConnections()
+```
+
+
+Gets the name of external source data connections.
+
+**Returns:**
+java.lang.String[]
 ### getNullString() {#getNullString--}
 ```
 public String getNullString()
@@ -1088,6 +1110,16 @@ Gets the name of the last user who refreshed this PivotTable
 
 **Returns:**
 java.lang.String
+### getRepeatItemsOnEachPrintedPage() {#getRepeatItemsOnEachPrintedPage--}
+```
+public boolean getRepeatItemsOnEachPrintedPage()
+```
+
+
+Indicates whether pivot item captions on the row area are repeated on each printed page for pivot fields in tabular form.
+
+**Returns:**
+boolean
 ### getRowFields() {#getRowFields--}
 ```
 public PivotFieldCollection getRowFields()
@@ -1254,7 +1286,7 @@ public boolean getShowValuesRow()
 ```
 
 
-Specifies a boolean value that indicates whether show values row. show the values row
+Indicates whether showing values row.
 
 **Returns:**
 boolean
@@ -1268,6 +1300,16 @@ Get pivottable's source data.
 
 **Returns:**
 java.lang.String[]
+### getSourceDataConnections() {#getSourceDataConnections--}
+```
+public ExternalConnection[] getSourceDataConnections()
+```
+
+
+Gets the external connection data sources.
+
+**Returns:**
+com.aspose.cells.ExternalConnection[]
 ### getSourceType() {#getSourceType--}
 ```
 public byte getSourceType()
@@ -1435,7 +1477,7 @@ public final native void notifyAll()
 
 ### refreshData() {#refreshData--}
 ```
-public void refreshData()
+public int refreshData()
 ```
 
 
@@ -1445,9 +1487,11 @@ Refreshes pivottable's data and setting from it's data source.
 
 We will gather data from data source to a pivot cache ,then calculate the data in the cache to the cells. This method is only used to gather all data to a pivot cache.
 
+**Returns:**
+int
 ### refreshData(PivotTableRefreshOption option) {#refreshData-com.aspose.cells.PivotTableRefreshOption-}
 ```
-public void refreshData(PivotTableRefreshOption option)
+public int refreshData(PivotTableRefreshOption option)
 ```
 
 
@@ -1458,6 +1502,8 @@ Refreshes pivottable's data and setting from it's data source with options.
 | --- | --- | --- |
 | option | [PivotTableRefreshOption](../../com.aspose.cells/pivottablerefreshoption) | The options for refreshing data source of pivot table. |
 
+**Returns:**
+int
 ### removeField(int fieldType, PivotField pivotField) {#removeField-int-com.aspose.cells.PivotField-}
 ```
 public void removeField(int fieldType, PivotField pivotField)
@@ -1581,12 +1627,12 @@ Sets auto field group by the PivotTable.
 
 **Remarks**
 
-The row or column field index in the base fields NOTE: This method is now obsolete. Instead, please use PivotField.GroupBy() method. This method will be removed 12 months later since October 2023. Aspose apologizes for any inconvenience you may have experienced.
+NOTE: This method is now obsolete. Instead, please use PivotField.GroupBy() method. This method will be removed 12 months later since October 2023. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| baseFieldIndex | int |  |
+| baseFieldIndex | int | The row or column field index in the base fields |
 
 ### setAutofitColumnWidthOnUpdate(boolean value) {#setAutofitColumnWidthOnUpdate-boolean-}
 ```
@@ -1868,6 +1914,10 @@ public void setItemPrintTitles(boolean value)
 
 
 Indicates whether PivotItem names should be repeated at the top of each printed page.
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotTable.RepeatItemsOnEachPrintedPage property. This method will be removed 12 months later since October 2024. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2159,6 +2209,19 @@ Indicates whether Refresh Data when Opening File.
 | --- | --- | --- |
 | value | boolean |  |
 
+### setRepeatItemsOnEachPrintedPage(boolean value) {#setRepeatItemsOnEachPrintedPage-boolean-}
+```
+public void setRepeatItemsOnEachPrintedPage(boolean value)
+```
+
+
+Indicates whether pivot item captions on the row area are repeated on each printed page for pivot fields in tabular form.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
 ### setRowGrand(boolean value) {#setRowGrand-boolean-}
 ```
 public void setRowGrand(boolean value)
@@ -2360,7 +2423,7 @@ public void setShowValuesRow(boolean value)
 ```
 
 
-Specifies a boolean value that indicates whether show values row. show the values row
+Indicates whether showing values row.
 
 **Parameters:**
 | Parameter | Type | Description |

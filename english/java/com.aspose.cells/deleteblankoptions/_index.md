@@ -24,20 +24,26 @@ Represents the setting of deleting blank cells/rows/columns.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
+| [getDrawingsAsBlank()](#getDrawingsAsBlank--) | Whether drawing related objects such as picture, shape, chart... will be taken as blank. |
 | [getEmptyFormulaValueAsBlank()](#getEmptyFormulaValueAsBlank--) | Whether one cell will be taken as blank when it is formula and the calculated result is null or empty string. |
 | [getEmptyStringAsBlank()](#getEmptyStringAsBlank--) | Whether one cell will be taken as blank when its value is empty string. |
+| [getEndIndex()](#getEndIndex--) | Specifies the end row/column index(inclusive) of the range to check and delete blank rows/columns. |
 | [getMergedCellsShrinkType()](#getMergedCellsShrinkType--) | Indicates how to process merged cells when deleting blank rows/columns.
 
 For [MergedCellsShrinkType.KEEP\_HEADER\_ONLY](../../com.aspose.cells/mergedcellsshrinktype\#KEEP-HEADER-ONLY), all cells in it will be taken as blank except the non-blank top-left cell. |
+| [getStartIndex()](#getStartIndex--) | Specifies the start row/column index of the range to check and delete blank rows/columns. |
 | [getUpdateReference()](#getUpdateReference--) | Indicates if update references in other worksheets. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
+| [setDrawingsAsBlank(boolean value)](#setDrawingsAsBlank-boolean-) | Whether drawing related objects such as picture, shape, chart... will be taken as blank. |
 | [setEmptyFormulaValueAsBlank(boolean value)](#setEmptyFormulaValueAsBlank-boolean-) | Whether one cell will be taken as blank when it is formula and the calculated result is null or empty string. |
 | [setEmptyStringAsBlank(boolean value)](#setEmptyStringAsBlank-boolean-) | Whether one cell will be taken as blank when its value is empty string. |
+| [setEndIndex(int value)](#setEndIndex-int-) | Specifies the end row/column index(inclusive) of the range to check and delete blank rows/columns. |
 | [setMergedCellsShrinkType(int value)](#setMergedCellsShrinkType-int-) | Indicates how to process merged cells when deleting blank rows/columns.
 
 For [MergedCellsShrinkType.KEEP\_HEADER\_ONLY](../../com.aspose.cells/mergedcellsshrinktype\#KEEP-HEADER-ONLY), all cells in it will be taken as blank except the non-blank top-left cell. |
+| [setStartIndex(int value)](#setStartIndex-int-) | Specifies the start row/column index of the range to check and delete blank rows/columns. |
 | [setUpdateReference(boolean value)](#setUpdateReference-boolean-) | Indicates if update references in other worksheets. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -74,6 +80,20 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
+### getDrawingsAsBlank() {#getDrawingsAsBlank--}
+```
+public boolean getDrawingsAsBlank()
+```
+
+
+Whether drawing related objects such as picture, shape, chart... will be taken as blank. Default value is true.
+
+**Remarks**
+
+When setting this property as false, all rows/columns covered by drawing objects will not be taken as blank and will not be deleted.
+
+**Returns:**
+boolean
 ### getEmptyFormulaValueAsBlank() {#getEmptyFormulaValueAsBlank--}
 ```
 public boolean getEmptyFormulaValueAsBlank()
@@ -98,6 +118,16 @@ Whether one cell will be taken as blank when its value is empty string. Default 
 
 **Returns:**
 boolean
+### getEndIndex() {#getEndIndex--}
+```
+public int getEndIndex()
+```
+
+
+Specifies the end row/column index(inclusive) of the range to check and delete blank rows/columns. Default value is -1 and -1 means the maximum range of all objects(cells, drawings, ...) that need to be checked.
+
+**Returns:**
+int
 ### getMergedCellsShrinkType() {#getMergedCellsShrinkType--}
 ```
 public int getMergedCellsShrinkType()
@@ -115,6 +145,16 @@ For [MergedCellsShrinkType.SHRINK\_TO\_FIT](../../com.aspose.cells/mergedcellssh
 
 
 See [MergedCellsShrinkType](../../com.aspose.cells/mergedcellsshrinktype).
+
+**Returns:**
+int
+### getStartIndex() {#getStartIndex--}
+```
+public int getStartIndex()
+```
+
+
+Specifies the start row/column index of the range to check and delete blank rows/columns.
 
 **Returns:**
 int
@@ -154,6 +194,23 @@ public final native void notifyAll()
 
 
 
+### setDrawingsAsBlank(boolean value) {#setDrawingsAsBlank-boolean-}
+```
+public void setDrawingsAsBlank(boolean value)
+```
+
+
+Whether drawing related objects such as picture, shape, chart... will be taken as blank. Default value is true.
+
+**Remarks**
+
+When setting this property as false, all rows/columns covered by drawing objects will not be taken as blank and will not be deleted.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
 ### setEmptyFormulaValueAsBlank(boolean value) {#setEmptyFormulaValueAsBlank-boolean-}
 ```
 public void setEmptyFormulaValueAsBlank(boolean value)
@@ -184,6 +241,19 @@ Whether one cell will be taken as blank when its value is empty string. Default 
 | --- | --- | --- |
 | value | boolean |  |
 
+### setEndIndex(int value) {#setEndIndex-int-}
+```
+public void setEndIndex(int value)
+```
+
+
+Specifies the end row/column index(inclusive) of the range to check and delete blank rows/columns. Default value is -1 and -1 means the maximum range of all objects(cells, drawings, ...) that need to be checked.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
 ### setMergedCellsShrinkType(int value) {#setMergedCellsShrinkType-int-}
 ```
 public void setMergedCellsShrinkType(int value)
@@ -201,6 +271,19 @@ For [MergedCellsShrinkType.SHRINK\_TO\_FIT](../../com.aspose.cells/mergedcellssh
 
 
 See [MergedCellsShrinkType](../../com.aspose.cells/mergedcellsshrinktype).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### setStartIndex(int value) {#setStartIndex-int-}
+```
+public void setStartIndex(int value)
+```
+
+
+Specifies the start row/column index of the range to check and delete blank rows/columns.
 
 **Parameters:**
 | Parameter | Type | Description |

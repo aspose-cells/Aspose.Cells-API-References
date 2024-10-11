@@ -19,6 +19,7 @@ Represents the file format types.
 | --- | --- |
 | [AZW_3](#AZW-3) | AZW3 |
 | [BMP](#BMP) | Represents a BMP file. |
+| [CHM](#CHM) | CHM |
 | [CSV](#CSV) | Comma-Separated Values(CSV) text file. |
 | [DIF](#DIF) | Data Interchange Format. |
 | [DOC](#DOC) | Represents a doc file. |
@@ -125,6 +126,14 @@ Represents a BMP file.
 **Remarks**
 
 The file format is not supported Only for detecting file type.
+
+### CHM {#CHM}
+```
+public static final int CHM
+```
+
+
+CHM
 
 ### CSV {#CSV}
 ```

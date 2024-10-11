@@ -20,8 +20,13 @@ Specifies a data model connection
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getBackgroundRefresh()](#getBackgroundRefresh--) | Indicates whether the connection can be refreshed in the background (asynchronously). |
 | [getClass()](#getClass--) |  |
+| [getClassType()](#getClassType--) | Gets the type of this [ExternalConnection](../../com.aspose.cells/externalconnection) object. |
+| [getCommand()](#getCommand--) | The string containing the database command to pass to the data provider API that will interact with the external source in order to retrieve data |
+| [getCommandType()](#getCommandType--) | Returns [OLEDBCommandType](../../com.aspose.cells/oledbcommandtype) type. |
 | [getConnectionDescription()](#getConnectionDescription--) | Specifies the user description for this connection |
+| [getConnectionFile()](#getConnectionFile--) | Gets the connection file. |
 | [getConnectionId()](#getConnectionId--) | Specifies The unique identifier of this connection. |
+| [getConnectionString()](#getConnectionString--) | The connection information string is used to make contact with an OLE DB or ODBC data source. |
 | [getCredentials()](#getCredentials--) | Specifies the authentication method to be used when establishing (or re-establishing) the connection. |
 | [getCredentialsMethodType()](#getCredentialsMethodType--) | Specifies the authentication method to be used when establishing (or re-establishing) the connection. |
 | [getId()](#getId--) | Gets the id of the connection. |
@@ -38,7 +43,9 @@ Specifies a data model connection
 | [getSSOId()](#getSSOId--) | Identifier for Single Sign On (SSO) used for authentication between an intermediate spreadsheetML server and the external data source. |
 | [getSaveData()](#getSaveData--) | True if the external data fetched over the connection to populate a table is to be saved with the workbook; otherwise, false. |
 | [getSavePassword()](#getSavePassword--) | True if the password is to be saved as part of the connection string; otherwise, False. |
+| [getSecondCommand()](#getSecondCommand--) | Specifies a second command text string that is persisted when PivotTable server-based page fields are in use. |
 | [getSourceFile()](#getSourceFile--) | Used when the external data source is file-based. |
+| [getSourceType()](#getSourceType--) | Gets the external connection DataSource type. |
 | [getType()](#getType--) | Gets the external connection DataSource type. |
 | [hashCode()](#hashCode--) |  |
 | [isDeleted()](#isDeleted--) | Indicates whether the associated workbook connection has been deleted. |
@@ -46,7 +53,10 @@ Specifies a data model connection
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setBackgroundRefresh(boolean value)](#setBackgroundRefresh-boolean-) | Indicates whether the connection can be refreshed in the background (asynchronously). |
+| [setCommand(String value)](#setCommand-java.lang.String-) | The string containing the database command to pass to the data provider API that will interact with the external source in order to retrieve data |
+| [setCommandType(int value)](#setCommandType-int-) | Returns [OLEDBCommandType](../../com.aspose.cells/oledbcommandtype) type. |
 | [setConnectionDescription(String value)](#setConnectionDescription-java.lang.String-) | Specifies the user description for this connection |
+| [setConnectionString(String value)](#setConnectionString-java.lang.String-) | The connection information string is used to make contact with an OLE DB or ODBC data source. |
 | [setCredentials(int value)](#setCredentials-int-) | Specifies the authentication method to be used when establishing (or re-establishing) the connection. |
 | [setCredentialsMethodType(int value)](#setCredentialsMethodType-int-) | Specifies the authentication method to be used when establishing (or re-establishing) the connection. |
 | [setDeleted(boolean value)](#setDeleted-boolean-) | Indicates whether the associated workbook connection has been deleted. |
@@ -62,7 +72,9 @@ Specifies a data model connection
 | [setSSOId(String value)](#setSSOId-java.lang.String-) | Identifier for Single Sign On (SSO) used for authentication between an intermediate spreadsheetML server and the external data source. |
 | [setSaveData(boolean value)](#setSaveData-boolean-) | True if the external data fetched over the connection to populate a table is to be saved with the workbook; otherwise, false. |
 | [setSavePassword(boolean value)](#setSavePassword-boolean-) | True if the password is to be saved as part of the connection string; otherwise, False. |
+| [setSecondCommand(String value)](#setSecondCommand-java.lang.String-) | Specifies a second command text string that is persisted when PivotTable server-based page fields are in use. |
 | [setSourceFile(String value)](#setSourceFile-java.lang.String-) | Used when the external data source is file-based. |
+| [setSourceType(int value)](#setSourceType-int-) | Sets the external connection DataSource type. |
 | [setType(int value)](#setType-int-) | Sets the external connection DataSource type. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -103,6 +115,40 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
+### getClassType() {#getClassType--}
+```
+public int getClassType()
+```
+
+
+Gets the type of this [ExternalConnection](../../com.aspose.cells/externalconnection) object.
+
+See [ExternalConnectionClassType](../../com.aspose.cells/externalconnectionclasstype).
+
+**Returns:**
+int
+### getCommand() {#getCommand--}
+```
+public String getCommand()
+```
+
+
+The string containing the database command to pass to the data provider API that will interact with the external source in order to retrieve data
+
+**Returns:**
+java.lang.String
+### getCommandType() {#getCommandType--}
+```
+public int getCommandType()
+```
+
+
+Returns [OLEDBCommandType](../../com.aspose.cells/oledbcommandtype) type.
+
+See [OLEDBCommandType](../../com.aspose.cells/oledbcommandtype).
+
+**Returns:**
+int
 ### getConnectionDescription() {#getConnectionDescription--}
 ```
 public String getConnectionDescription()
@@ -110,6 +156,16 @@ public String getConnectionDescription()
 
 
 Specifies the user description for this connection
+
+**Returns:**
+java.lang.String
+### getConnectionFile() {#getConnectionFile--}
+```
+public String getConnectionFile()
+```
+
+
+Gets the connection file.
 
 **Returns:**
 java.lang.String
@@ -121,8 +177,22 @@ public int getConnectionId()
 
 Specifies The unique identifier of this connection.
 
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use ExternalConnection.Id property. This property will be removed 12 months later since October 2024. Aspose apologizes for any inconvenience you may have experienced.
+
 **Returns:**
 int
+### getConnectionString() {#getConnectionString--}
+```
+public String getConnectionString()
+```
+
+
+The connection information string is used to make contact with an OLE DB or ODBC data source.
+
+**Returns:**
+java.lang.String
 ### getCredentials() {#getCredentials--}
 ```
 public int getCredentials()
@@ -299,6 +369,16 @@ True if the password is to be saved as part of the connection string; otherwise,
 
 **Returns:**
 boolean
+### getSecondCommand() {#getSecondCommand--}
+```
+public String getSecondCommand()
+```
+
+
+Specifies a second command text string that is persisted when PivotTable server-based page fields are in use. For ODBC connections, serverCommand is usually a broader query than command (no WHERE clause is present in the former). Based on these 2 commands(Command and ServerCommand), parameter UI can be populated and parameterized queries can be constructed
+
+**Returns:**
+java.lang.String
 ### getSourceFile() {#getSourceFile--}
 ```
 public String getSourceFile()
@@ -309,6 +389,18 @@ Used when the external data source is file-based. When a connection to such a da
 
 **Returns:**
 java.lang.String
+### getSourceType() {#getSourceType--}
+```
+public int getSourceType()
+```
+
+
+Gets the external connection DataSource type.
+
+See [ConnectionDataSourceType](../../com.aspose.cells/connectiondatasourcetype).
+
+**Returns:**
+int
 ### getType() {#getType--}
 ```
 public int getType()
@@ -318,6 +410,10 @@ public int getType()
 Gets the external connection DataSource type.
 
 See [ConnectionDataSourceType](../../com.aspose.cells/connectiondatasourcetype).
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use ExternalConnection.SourceType property. This property will be removed 12 months later since October 2024. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
@@ -380,6 +476,34 @@ Indicates whether the connection can be refreshed in the background (asynchronou
 | --- | --- | --- |
 | value | boolean |  |
 
+### setCommand(String value) {#setCommand-java.lang.String-}
+```
+public void setCommand(String value)
+```
+
+
+The string containing the database command to pass to the data provider API that will interact with the external source in order to retrieve data
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
+
+### setCommandType(int value) {#setCommandType-int-}
+```
+public void setCommandType(int value)
+```
+
+
+Returns [OLEDBCommandType](../../com.aspose.cells/oledbcommandtype) type.
+
+See [OLEDBCommandType](../../com.aspose.cells/oledbcommandtype).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
 ### setConnectionDescription(String value) {#setConnectionDescription-java.lang.String-}
 ```
 public void setConnectionDescription(String value)
@@ -387,6 +511,19 @@ public void setConnectionDescription(String value)
 
 
 Specifies the user description for this connection
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
+
+### setConnectionString(String value) {#setConnectionString-java.lang.String-}
+```
+public void setConnectionString(String value)
+```
+
+
+The connection information string is used to make contact with an OLE DB or ODBC data source.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -604,6 +741,19 @@ True if the password is to be saved as part of the connection string; otherwise,
 | --- | --- | --- |
 | value | boolean |  |
 
+### setSecondCommand(String value) {#setSecondCommand-java.lang.String-}
+```
+public void setSecondCommand(String value)
+```
+
+
+Specifies a second command text string that is persisted when PivotTable server-based page fields are in use. For ODBC connections, serverCommand is usually a broader query than command (no WHERE clause is present in the former). Based on these 2 commands(Command and ServerCommand), parameter UI can be populated and parameterized queries can be constructed
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
+
 ### setSourceFile(String value) {#setSourceFile-java.lang.String-}
 ```
 public void setSourceFile(String value)
@@ -617,6 +767,21 @@ Used when the external data source is file-based. When a connection to such a da
 | --- | --- | --- |
 | value | java.lang.String |  |
 
+### setSourceType(int value) {#setSourceType-int-}
+```
+public void setSourceType(int value)
+```
+
+
+Sets the external connection DataSource type.
+
+See [ConnectionDataSourceType](../../com.aspose.cells/connectiondatasourcetype).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
 ### setType(int value) {#setType-int-}
 ```
 public void setType(int value)
@@ -626,6 +791,10 @@ public void setType(int value)
 Sets the external connection DataSource type.
 
 See [ConnectionDataSourceType](../../com.aspose.cells/connectiondatasourcetype).
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use ExternalConnection.SourceType property. This property will be removed 12 months later since October 2024. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |

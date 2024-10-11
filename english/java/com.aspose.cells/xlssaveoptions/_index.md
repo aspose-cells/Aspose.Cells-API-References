@@ -39,7 +39,7 @@ Represents the save options for the Excel 97-2003 file format: xls and xlt.
 | [getUpdateSmartArt()](#getUpdateSmartArt--) | Indicates whether updating smart art setting. |
 | [getValidateMergedAreas()](#getValidateMergedAreas--) | Indicates whether validate merged cells before saving the file. |
 | [getWarningCallback()](#getWarningCallback--) | Gets warning callback. |
-| [getWpsCompatibility()](#getWpsCompatibility--) | Indicates whether exporting |
+| [getWpsCompatibility()](#getWpsCompatibility--) | Indicates whether to make the xls more compatible with WPS. |
 | [hashCode()](#hashCode--) |  |
 | [isTemplate()](#isTemplate--) | Indicates whether saving a template file. |
 | [notify()](#notify--) |  |
@@ -58,7 +58,7 @@ Represents the save options for the Excel 97-2003 file format: xls and xlt.
 | [setUpdateSmartArt(boolean value)](#setUpdateSmartArt-boolean-) | Indicates whether updating smart art setting. |
 | [setValidateMergedAreas(boolean value)](#setValidateMergedAreas-boolean-) | Indicates whether validate merged cells before saving the file. |
 | [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.cells.IWarningCallback-) | Sets warning callback. |
-| [setWpsCompatibility(boolean value)](#setWpsCompatibility-boolean-) | Indicates whether exporting |
+| [setWpsCompatibility(boolean value)](#setWpsCompatibility-boolean-) | Indicates whether to make the xls more compatible with WPS. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -277,7 +277,7 @@ public boolean getWpsCompatibility()
 ```
 
 
-Indicates whether exporting
+Indicates whether to make the xls more compatible with WPS.
 
 **Returns:**
 boolean
@@ -533,7 +533,7 @@ public void setWpsCompatibility(boolean value)
 ```
 
 
-Indicates whether exporting
+Indicates whether to make the xls more compatible with WPS.
 
 **Parameters:**
 | Parameter | Type | Description |

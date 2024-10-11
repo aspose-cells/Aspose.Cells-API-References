@@ -753,7 +753,7 @@ Refreshes all the PivotTables in the Excel file.
 
 ### refreshPivotTables(PivotTableRefreshOption option) {#refreshPivotTables-com.aspose.cells.PivotTableRefreshOption-}
 ```
-public void refreshPivotTables(PivotTableRefreshOption option)
+public boolean refreshPivotTables(PivotTableRefreshOption option)
 ```
 
 
@@ -764,6 +764,8 @@ Refreshes all the PivotTables in the Excel file.
 | --- | --- | --- |
 | option | [PivotTableRefreshOption](../../com.aspose.cells/pivottablerefreshoption) | The option for refreshing data source of the pivot tables. |
 
+**Returns:**
+boolean
 ### registerAddInFunction(int id, String functionName) {#registerAddInFunction-int-java.lang.String-}
 ```
 public String registerAddInFunction(int id, String functionName)

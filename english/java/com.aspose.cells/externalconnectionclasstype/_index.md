@@ -1,25 +1,27 @@
 ---
-title: MergedCellsShrinkType
+title: ExternalConnectionClassType
 second_title: Aspose.Cells for Java API Reference
-description: Represents the strategy to shrink merged cells for operations such as deleting blank rows/column.
+description: Represents the type of connection
 type: docs
-url: /java/com.aspose.cells/mergedcellsshrinktype/
+url: /java/com.aspose.cells/externalconnectionclasstype/
 ---
 
 **Inheritance:**
 java.lang.Object
 ```
-public final class MergedCellsShrinkType
+public final class ExternalConnectionClassType
 ```
 
-Represents the strategy to shrink merged cells for operations such as deleting blank rows/column.
+Represents the type of connection
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [KEEP_HEADER_ONLY](#KEEP-HEADER-ONLY) | Only keeps the header rows/columns of the merged area when the top-left cell of the merged area is not blank. |
-| [NONE](#NONE) | Leaves the merged cells as it is without any modification. |
-| [SHRINK_TO_FIT](#SHRINK-TO-FIT) | Shrinks the merged area if needed, by removing rows from the bottom or columns from the right, while ensuring all content remains visible. |
+| [DATABASE](#DATABASE) | ODBC or OLE DB |
+| [DATA_MODEL](#DATA-MODEL) | Data model |
+| [TEXT_BASED](#TEXT-BASED) | Based on text |
+| [UNKOWN](#UNKOWN) |  |
+| [WEB_QUERY](#WEB-QUERY) | Web query |
 ## Methods
 
 | Method | Description |
@@ -33,29 +35,45 @@ Represents the strategy to shrink merged cells for operations such as deleting b
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### KEEP_HEADER_ONLY {#KEEP-HEADER-ONLY}
+### DATABASE {#DATABASE}
 ```
-public static final int KEEP_HEADER_ONLY
-```
-
-
-Only keeps the header rows/columns of the merged area when the top-left cell of the merged area is not blank.
-
-### NONE {#NONE}
-```
-public static final int NONE
+public static final int DATABASE
 ```
 
 
-Leaves the merged cells as it is without any modification.
+ODBC or OLE DB
 
-### SHRINK_TO_FIT {#SHRINK-TO-FIT}
+### DATA_MODEL {#DATA-MODEL}
 ```
-public static final int SHRINK_TO_FIT
+public static final int DATA_MODEL
 ```
 
 
-Shrinks the merged area if needed, by removing rows from the bottom or columns from the right, while ensuring all content remains visible.
+Data model
+
+### TEXT_BASED {#TEXT-BASED}
+```
+public static final int TEXT_BASED
+```
+
+
+Based on text
+
+### UNKOWN {#UNKOWN}
+```
+public static final int UNKOWN
+```
+
+
+
+
+### WEB_QUERY {#WEB-QUERY}
+```
+public static final int WEB_QUERY
+```
+
+
+Web query
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

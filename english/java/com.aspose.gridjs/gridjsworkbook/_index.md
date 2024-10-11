@@ -31,17 +31,17 @@ Represents the main entry class for GridJs
 | [copyImageOrShape(String uid, String p)](#copyImageOrShape-java.lang.String-java.lang.String-) | Copys image or shape. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [errorJson(String msg)](#errorJson-java.lang.String-) | Gets the error message string in JSON format. |
-| [exportToJson()](#exportToJson--) | Gets JSON format string of the default empty spreadsheet file. |
-| [exportToJson(String filename)](#exportToJson-java.lang.String-) | Gets JSON format string from memory data with the specified filename. |
-| [exportToJsonStringBuilder(String filename)](#exportToJsonStringBuilder-java.lang.String-) | Gets JSON format StringBuilder of the specified spreadsheet file. |
+| [exportToJson()](#exportToJson--) | Gets JSON string from memory data, the default filename in the JSON is: book1. |
+| [exportToJson(String filename)](#exportToJson-java.lang.String-) | Gets JSON string from memory data,set the output filename in the JSON. |
+| [exportToJsonStringBuilder(String filename)](#exportToJsonStringBuilder-java.lang.String-) | Gets JSON string from memory data,set the output filename in the JSON. |
 | [getClass()](#getClass--) |  |
 | [getGridLoadFormat(String extension)](#getGridLoadFormat-java.lang.String-) | Gets the load format by file extension |
 | [getImageStream(String uid, String picid)](#getImageStream-java.lang.String-java.lang.String-) | Get Stream of image from memory data. |
 | [getImageUrl(String uid, String picid, String delimiter)](#getImageUrl-java.lang.String-java.lang.String-java.lang.String-) | Gets the image URL. |
-| [getJsonByUid(String uid, String filename)](#getJsonByUid-java.lang.String-java.lang.String-) | Gets the JSON format StringBuilder from the file cache by the specified unique id. |
+| [getJsonByUid(String uid, String filename)](#getJsonByUid-java.lang.String-java.lang.String-) | Gets the JSON string of the file from the cache using the specified unique id,set the output filename in the JSON. |
 | [getOle(String uid, String sheetname, int oleid, String label)](#getOle-java.lang.String-java.lang.String-int-java.lang.String-) | Gets the byte array data of the embedded ole object . |
 | [getSettings()](#getSettings--) | Represents the workbook settings. |
-| [getUidForFile(String fileName)](#getUidForFile-java.lang.String-) | Gets unique id for the file cache. |
+| [getUidForFile(String fileName)](#getUidForFile-java.lang.String-) | Generates a new unique id for the file cache using the given file name. |
 | [hashCode()](#hashCode--) |  |
 | [importExcelFile(InputStream filestream, int format)](#importExcelFile-java.io.InputStream-int-) | Imports the excel file from file stream with load format. |
 | [importExcelFile(InputStream filestream, int format, String password)](#importExcelFile-java.io.InputStream-int-java.lang.String-) | Imports the excel file from file stream with load format and open password. |
@@ -52,8 +52,10 @@ Represents the main entry class for GridJs
 | [importExcelFile(String uid, String fileName, String password)](#importExcelFile-java.lang.String-java.lang.String-java.lang.String-) | Imports the excel file from file path and open password. |
 | [importExcelFileFromJson(String json)](#importExcelFileFromJson-java.lang.String-) | Imports the excel file from JSON format string. |
 | [insertImage(String uid, String p, InputStream s, String imageUrl)](#insertImage-java.lang.String-java.lang.String-java.io.InputStream-java.lang.String-) | Inserts image in the worksheet from file stream or the URL,(either the file stream or the URL shall be provided) or Inserts shape ,when the p.type is one of AutoShapeType |
-| [jsonToStream(OutputStream stream, String filename)](#jsonToStream-java.io.OutputStream-java.lang.String-) | Write JSON of the file to the stream |
-| [jsonToStreamByUid(OutputStream stream, String uid, String filename)](#jsonToStreamByUid-java.io.OutputStream-java.lang.String-java.lang.String-) | Write JSON of the file from the cache by the specified unique id to the stream |
+| [jsonToStream(OutputStream stream, String filename)](#jsonToStream-java.io.OutputStream-java.lang.String-) | Retrieve the JSON string from memory data,set the output filename in the JSON, and write it to the stream. |
+| [jsonToStreamByUid(OutputStream stream, String uid, String filename)](#jsonToStreamByUid-java.io.OutputStream-java.lang.String-java.lang.String-) | Retrieve the JSON string of the file from the cache using the specified unique id,set the output filename in the JSON,and write it to the stream. |
+| [lazyLoadingJson(String uid, String sheetName)](#lazyLoadingJson-java.lang.String-java.lang.String-) | Gets the JSON string of the specified sheet in the file from the cache using the specified unique id. |
+| [lazyLoadingStream(OutputStream stream, String uid, String sheetName)](#lazyLoadingStream-java.io.OutputStream-java.lang.String-java.lang.String-) | Retrieve the JSON string of the specified sheet in the file from the cache using the specified unique id, and write it to the stream. |
 | [mergeExcelFileFromJson(String uid, String json)](#mergeExcelFileFromJson-java.lang.String-java.lang.String-) | Applies a batch update to the memory data. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -109,10 +111,10 @@ Copys image or shape.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | uid | java.lang.String | The unique id for the file cache. |
-| p | java.lang.String | The JSON format string for the operation which specify the cell location ,it contains the worksheet name,upper left row,upper left column for the image or shape\\u951b\\u5b94tc \{name:'sheet1',ri:1,ci:1,srcid:2,srcname:'sheet2',isshape:true\} |
+| p | java.lang.String | The JSON string for the operation which specify the cell location ,it contains the worksheet name,upper left row,upper left column for the image or shape\\u951b\\u5b94tc \{name:'sheet1',ri:1,ci:1,srcid:2,srcname:'sheet2',isshape:true\} |
 
 **Returns:**
-java.lang.String - The JSON format string of the new copied image
+java.lang.String - The JSON string of the new copied image
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -142,47 +144,47 @@ Gets the error message string in JSON format.
 | msg | java.lang.String | The error message. |
 
 **Returns:**
-java.lang.String - The JSON format string.
+java.lang.String - The JSON string.
 ### exportToJson() {#exportToJson--}
 ```
 public String exportToJson()
 ```
 
 
-Gets JSON format string of the default empty spreadsheet file.
+Gets JSON string from memory data, the default filename in the JSON is: book1.
 
 **Returns:**
-java.lang.String - The JSON format string.
+java.lang.String - The JSON string.
 ### exportToJson(String filename) {#exportToJson-java.lang.String-}
 ```
 public String exportToJson(String filename)
 ```
 
 
-Gets JSON format string from memory data with the specified filename.
+Gets JSON string from memory data,set the output filename in the JSON.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filename | java.lang.String | The filename of the spreadsheet file . |
+| filename | java.lang.String | Specifies the file name in the JSON. If set to null,the default filename is: book1.. |
 
 **Returns:**
-java.lang.String - The JSON format string.
+java.lang.String - The JSON string.
 ### exportToJsonStringBuilder(String filename) {#exportToJsonStringBuilder-java.lang.String-}
 ```
 public StringBuilder exportToJsonStringBuilder(String filename)
 ```
 
 
-Gets JSON format StringBuilder of the specified spreadsheet file.
+Gets JSON string from memory data,set the output filename in the JSON.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filename | java.lang.String | The filename of the specified spreadsheet file. |
+| filename | java.lang.String | Specifies the file name in the JSON. If set to null,the default filename is: book1.. |
 
 **Returns:**
-java.lang.StringBuilder - The JSON format StringBuilder.
+java.lang.StringBuilder - The JSON StringBuilder.
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -247,7 +249,7 @@ public StringBuilder getJsonByUid(String uid, String filename)
 ```
 
 
-Gets the JSON format StringBuilder from the file cache by the specified unique id.
+Gets the JSON string of the file from the cache using the specified unique id,set the output filename in the JSON.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -256,7 +258,7 @@ Gets the JSON format StringBuilder from the file cache by the specified unique i
 | filename | java.lang.String | Specifies the file name in the JSON. If set to null,the default filename is: book1. |
 
 **Returns:**
-java.lang.StringBuilder - The JSON format StringBuilder
+java.lang.StringBuilder - The JSON string StringBuilder
 ### getOle(String uid, String sheetname, int oleid, String label) {#getOle-java.lang.String-java.lang.String-int-java.lang.String-}
 ```
 public byte[] getOle(String uid, String sheetname, int oleid, String label)
@@ -291,7 +293,7 @@ public static String getUidForFile(String fileName)
 ```
 
 
-Gets unique id for the file cache.
+Generates a new unique id for the file cache using the given file name.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -449,7 +451,7 @@ public void jsonToStream(OutputStream stream, String filename)
 ```
 
 
-Write JSON of the file to the stream
+Retrieve the JSON string from memory data,set the output filename in the JSON, and write it to the stream.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -463,7 +465,7 @@ public boolean jsonToStreamByUid(OutputStream stream, String uid, String filenam
 ```
 
 
-Write JSON of the file from the cache by the specified unique id to the stream
+Retrieve the JSON string of the file from the cache using the specified unique id,set the output filename in the JSON,and write it to the stream.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -474,6 +476,37 @@ Write JSON of the file from the cache by the specified unique id to the stream
 
 **Returns:**
 boolean
+### lazyLoadingJson(String uid, String sheetName) {#lazyLoadingJson-java.lang.String-java.lang.String-}
+```
+public StringBuilder lazyLoadingJson(String uid, String sheetName)
+```
+
+
+Gets the JSON string of the specified sheet in the file from the cache using the specified unique id.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| uid | java.lang.String | The unique id for the file cache. |
+| sheetName | java.lang.String | the sheet name. |
+
+**Returns:**
+java.lang.StringBuilder - The JSON string StringBuilder
+### lazyLoadingStream(OutputStream stream, String uid, String sheetName) {#lazyLoadingStream-java.io.OutputStream-java.lang.String-java.lang.String-}
+```
+public void lazyLoadingStream(OutputStream stream, String uid, String sheetName)
+```
+
+
+Retrieve the JSON string of the specified sheet in the file from the cache using the specified unique id, and write it to the stream.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | java.io.OutputStream | The stream that will be written |
+| uid | java.lang.String | The unique id for the file cache. |
+| sheetName | java.lang.String | the sheet name. |
+
 ### mergeExcelFileFromJson(String uid, String json) {#mergeExcelFileFromJson-java.lang.String-java.lang.String-}
 ```
 public void mergeExcelFileFromJson(String uid, String json)

@@ -1,25 +1,24 @@
 ---
-title: MergedCellsShrinkType
+title: PivotRefreshState
 second_title: Aspose.Cells for Java API Reference
-description: Represents the strategy to shrink merged cells for operations such as deleting blank rows/column.
+description: The state for refreshing pivot tables.
 type: docs
-url: /java/com.aspose.cells/mergedcellsshrinktype/
+url: /java/com.aspose.cells/pivotrefreshstate/
 ---
 
 **Inheritance:**
 java.lang.Object
 ```
-public final class MergedCellsShrinkType
+public final class PivotRefreshState
 ```
 
-Represents the strategy to shrink merged cells for operations such as deleting blank rows/column.
+The state for refreshing pivot tables.
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [KEEP_HEADER_ONLY](#KEEP-HEADER-ONLY) | Only keeps the header rows/columns of the merged area when the top-left cell of the merged area is not blank. |
-| [NONE](#NONE) | Leaves the merged cells as it is without any modification. |
-| [SHRINK_TO_FIT](#SHRINK-TO-FIT) | Shrinks the merged area if needed, by removing rows from the bottom or columns from the right, while ensuring all content remains visible. |
+| [SUCCESS](#SUCCESS) | Successfully refreshed |
+| [UNSUPPORTED_EXTERNAL_DATA_SOURCE](#UNSUPPORTED-EXTERNAL-DATA-SOURCE) | Refresh failed because the data source is external. |
 ## Methods
 
 | Method | Description |
@@ -33,29 +32,21 @@ Represents the strategy to shrink merged cells for operations such as deleting b
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### KEEP_HEADER_ONLY {#KEEP-HEADER-ONLY}
+### SUCCESS {#SUCCESS}
 ```
-public static final int KEEP_HEADER_ONLY
-```
-
-
-Only keeps the header rows/columns of the merged area when the top-left cell of the merged area is not blank.
-
-### NONE {#NONE}
-```
-public static final int NONE
+public static final int SUCCESS
 ```
 
 
-Leaves the merged cells as it is without any modification.
+Successfully refreshed
 
-### SHRINK_TO_FIT {#SHRINK-TO-FIT}
+### UNSUPPORTED_EXTERNAL_DATA_SOURCE {#UNSUPPORTED-EXTERNAL-DATA-SOURCE}
 ```
-public static final int SHRINK_TO_FIT
+public static final int UNSUPPORTED_EXTERNAL_DATA_SOURCE
 ```
 
 
-Shrinks the merged area if needed, by removing rows from the bottom or columns from the right, while ensuring all content remains visible.
+Refresh failed because the data source is external.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

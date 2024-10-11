@@ -21,6 +21,7 @@ Specifies the OLE DB command type.
 | [DEFAULT_INFORMATION](#DEFAULT-INFORMATION) | Specifies that default information has been given, and it is up to the provider how to interpret. |
 | [NONE](#NONE) | The command type is not specified. |
 | [SQL_STATEMENT](#SQL-STATEMENT) | Specifies a SQL statement |
+| [TABLE_COLLECTION](#TABLE-COLLECTION) | Specifies the table list. |
 | [TABLE_NAME](#TABLE-NAME) | Specifies a table name |
 | [WEB_BASED_LIST](#WEB-BASED-LIST) | Specifies a query which is against a web based List Data Provider. |
 ## Methods
@@ -75,6 +76,18 @@ public static final int SQL_STATEMENT
 
 
 Specifies a SQL statement
+
+### TABLE_COLLECTION {#TABLE-COLLECTION}
+```
+public static final int TABLE_COLLECTION
+```
+
+
+Specifies the table list.
+
+**Remarks**
+
+Only for reading.
 
 ### TABLE_NAME {#TABLE-NAME}
 ```

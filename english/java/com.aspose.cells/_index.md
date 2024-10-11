@@ -233,6 +233,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [ExportRangeToJsonOptions](../com.aspose.cells/exportrangetojsonoptions) | Indicates the options that exporting range to json. |
 | [ExportTableOptions](../com.aspose.cells/exporttableoptions) | Represents all export table options. |
 | [ExternalConnection](../com.aspose.cells/externalconnection) | Specifies an external data connection |
+| [ExternalConnectionClassType](../com.aspose.cells/externalconnectionclasstype) | Represents the type of connection |
 | [ExternalConnectionCollection](../com.aspose.cells/externalconnectioncollection) | Specifies the [ExternalConnection](../com.aspose.cells/externalconnection) collection |
 | [ExternalLink](../com.aspose.cells/externallink) | Represents an external link in a workbook. |
 | [ExternalLinkCollection](../com.aspose.cells/externallinkcollection) | Represents external links collection in a workbook. |
@@ -474,6 +475,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [PivotNumbericRangeGroupSettings](../com.aspose.cells/pivotnumbericrangegroupsettings) | Represents the numberic range group of the pivot field. |
 | [PivotOptions](../com.aspose.cells/pivotoptions) | Represents a complex type that specifies the pivot controls that appear on the chart |
 | [PivotPageFields](../com.aspose.cells/pivotpagefields) | Represents the pivot page field items if the pivot table data source is consolidation ranges. |
+| [PivotRefreshState](../com.aspose.cells/pivotrefreshstate) | The state for refreshing pivot tables. |
 | [PivotShowValuesSetting](../com.aspose.cells/pivotshowvaluessetting) | Represents the settings about showing values as when the ShowDataAs calculation is in use. |
 | [PivotTable](../com.aspose.cells/pivottable) | Summary description for PivotTable. |
 | [PivotTableAutoFormatType](../com.aspose.cells/pivottableautoformattype) | Represents PivotTable auto format type. |

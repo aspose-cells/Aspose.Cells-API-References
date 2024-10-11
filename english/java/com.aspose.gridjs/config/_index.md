@@ -30,6 +30,7 @@ Represents all the settings for GridJs
 | [getFileCacheDirectory()](#getFileCacheDirectory--) | Gets the cache directory for storing spreadsheet file. |
 | [getIgnoreEmptyContent()](#getIgnoreEmptyContent--) | Gets whether to show the max range which includes data ,style, merged cells and shapes. |
 | [getIslimitShapeOrImage()](#getIslimitShapeOrImage--) | Gets whether to limit the total display shape/image count in one worksheet ,if set to true, GridJs will limit the total count of the display shapes or images in one worksheet to MaxShapeOrImageCount the default value is true. |
+| [getLazyLoading()](#getLazyLoading--) | Gets whether to load active worksheet only,the default is false. |
 | [getMaxPdfSaveSeconds()](#getMaxPdfSaveSeconds--) | Gets the max timed out seconds when save to PDF. |
 | [getMaxShapeOrImageCount()](#getMaxShapeOrImageCount--) | Gets the total count of the display shapes or images in the active sheet,it takes effect when IslimitShapeOrImage=true. |
 | [getMaxShapeOrImageWidthOrHeight()](#getMaxShapeOrImageWidthOrHeight--) | Gets the max width or height for a shape or an image ,GridJs will ignore the shape or image with the width or height larger than this, it takes effect when IslimitShapeOrImage=true. |
@@ -52,6 +53,7 @@ Represents all the settings for GridJs
 | [setFontFolders(String[] fontFolders, boolean recursive)](#setFontFolders-java.lang.String---boolean-) | Sets the fonts folders |
 | [setIgnoreEmptyContent(boolean value)](#setIgnoreEmptyContent-boolean-) | Sets whether to show the max range which includes data ,style, merged cells and shapes. |
 | [setIslimitShapeOrImage(boolean value)](#setIslimitShapeOrImage-boolean-) | Sets whether to limit the total display shape/image count in one worksheet ,if set to true, GridJs will limit the total count of the display shapes or images in one worksheet to MaxShapeOrImageCount the default value is true. |
+| [setLazyLoading(boolean value)](#setLazyLoading-boolean-) | Sets whether to load active worksheet only,the default is false. |
 | [setMaxPdfSaveSeconds(int value)](#setMaxPdfSaveSeconds-int-) | Sets the max timed out seconds when save to PDF. |
 | [setMaxShapeOrImageCount(int value)](#setMaxShapeOrImageCount-int-) | Sets the total count of the display shapes or images in the active sheet,it takes effect when IslimitShapeOrImage=true. |
 | [setMaxShapeOrImageWidthOrHeight(int value)](#setMaxShapeOrImageWidthOrHeight-int-) | Sets the max width or height for a shape or an image ,GridJs will ignore the shape or image with the width or height larger than this, it takes effect when IslimitShapeOrImage=true. |
@@ -155,6 +157,16 @@ public static boolean getIslimitShapeOrImage()
 
 
 Gets whether to limit the total display shape/image count in one worksheet ,if set to true, GridJs will limit the total count of the display shapes or images in one worksheet to MaxShapeOrImageCount the default value is true.
+
+**Returns:**
+boolean
+### getLazyLoading() {#getLazyLoading--}
+```
+public static boolean getLazyLoading()
+```
+
+
+Gets whether to load active worksheet only,the default is false.
 
 **Returns:**
 boolean
@@ -394,6 +406,19 @@ public static void setIslimitShapeOrImage(boolean value)
 
 
 Sets whether to limit the total display shape/image count in one worksheet ,if set to true, GridJs will limit the total count of the display shapes or images in one worksheet to MaxShapeOrImageCount the default value is true.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setLazyLoading(boolean value) {#setLazyLoading-boolean-}
+```
+public static void setLazyLoading(boolean value)
+```
+
+
+Sets whether to load active worksheet only,the default is false.
 
 **Parameters:**
 | Parameter | Type | Description |
