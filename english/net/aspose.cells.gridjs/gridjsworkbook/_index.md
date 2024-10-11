@@ -32,10 +32,10 @@ public class GridJsWorkbook
 | --- | --- |
 | [CopyImageOrShape](../../aspose.cells.gridjs/gridjsworkbook/copyimageorshape/)(string, string) | Copys image or shape. |
 | [ErrorJson](../../aspose.cells.gridjs/gridjsworkbook/errorjson/)(string) | Gets the error message string in JSON format. |
-| [ExportToJson](../../aspose.cells.gridjs/gridjsworkbook/exporttojson/#exporttojson)() | Gets JSON format string of the default empty spreadsheet file. |
-| [ExportToJson](../../aspose.cells.gridjs/gridjsworkbook/exporttojson/#exporttojson_1)(string) | Gets JSON format string from memory data with the specified filename. |
-| [ExportToJsonStringBuilder](../../aspose.cells.gridjs/gridjsworkbook/exporttojsonstringbuilder/)(string) | Gets JSON format StringBuilder of the specified spreadsheet file. |
-| [GetJsonByUid](../../aspose.cells.gridjs/gridjsworkbook/getjsonbyuid/)(string, string) | Gets the JSON format StringBuilder from the file cache by the specified unique id. |
+| [ExportToJson](../../aspose.cells.gridjs/gridjsworkbook/exporttojson/#exporttojson)() | Gets JSON string from memory data, the default filename in the JSON is: book1. |
+| [ExportToJson](../../aspose.cells.gridjs/gridjsworkbook/exporttojson/#exporttojson_1)(string) | Gets JSON string from memory data,set the output filename in the JSON. |
+| [ExportToJsonStringBuilder](../../aspose.cells.gridjs/gridjsworkbook/exporttojsonstringbuilder/)(string) | Gets JSON string from memory data,set the output filename in the JSON. |
+| [GetJsonByUid](../../aspose.cells.gridjs/gridjsworkbook/getjsonbyuid/)(string, string) | Gets the JSON string of the file from the cache using the specified unique id,set the output filename in the JSON. |
 | [GetOle](../../aspose.cells.gridjs/gridjsworkbook/getole/)(string, string, int, out string) | Gets the byte array data of the embedded ole object . |
 | [ImportExcelFile](../../aspose.cells.gridjs/gridjsworkbook/importexcelfile/#importexcelfile_3)(string) | Imports the excel file from the file path. |
 | [ImportExcelFile](../../aspose.cells.gridjs/gridjsworkbook/importexcelfile/#importexcelfile)(Workbook) | Imports the excel file from the Workbook object. |
@@ -48,8 +48,10 @@ public class GridJsWorkbook
 | [ImportExcelFile](../../aspose.cells.gridjs/gridjsworkbook/importexcelfile/#importexcelfile_6)(string, Stream, GridLoadFormat, string) | Imports the excel file from file stream with load format and open password. |
 | [ImportExcelFileFromJson](../../aspose.cells.gridjs/gridjsworkbook/importexcelfilefromjson/)(string) | Imports the excel file from JSON format string. |
 | [InsertImage](../../aspose.cells.gridjs/gridjsworkbook/insertimage/)(string, string, Stream, string) | Inserts image in the worksheet from file stream or the URL,(either the file stream or the URL shall be provided) or Inserts shape ,when the p.type is one of AutoShapeType |
-| [JsonToStream](../../aspose.cells.gridjs/gridjsworkbook/jsontostream/)(Stream, string) | Write JSON of the file to the stream |
-| [JsonToStreamByUid](../../aspose.cells.gridjs/gridjsworkbook/jsontostreambyuid/)(Stream, string, string) | Write JSON of the file from the cache by the specified unique id to the stream |
+| [JsonToStream](../../aspose.cells.gridjs/gridjsworkbook/jsontostream/)(Stream, string) | Retrieve the JSON string from memory data,set the output filename in the JSON, and write it to the stream. |
+| [JsonToStreamByUid](../../aspose.cells.gridjs/gridjsworkbook/jsontostreambyuid/)(Stream, string, string) | Retrieve the JSON string of the file from the cache using the specified unique id,set the output filename in the JSON,and write it to the stream. |
+| [LazyLoadingJson](../../aspose.cells.gridjs/gridjsworkbook/lazyloadingjson/)(string, string) | Gets the JSON string of the specified sheet in the file from the cache using the specified unique id. |
+| [LazyLoadingStream](../../aspose.cells.gridjs/gridjsworkbook/lazyloadingstream/)(Stream, string, string) | Retrieve the JSON string of the specified sheet in the file from the cache using the specified unique id, and write it to the stream. |
 | [MergeExcelFileFromJson](../../aspose.cells.gridjs/gridjsworkbook/mergeexcelfilefromjson/)(string, string) | Applies a batch update to the memory data. |
 | [SaveToCacheWithFileName](../../aspose.cells.gridjs/gridjsworkbook/savetocachewithfilename/)(string, string, string) | Saves the memory data to the cache file with the specified filename and also set the open password, the save format is baseed on the file extension of the filename . |
 | [SaveToExcelFile](../../aspose.cells.gridjs/gridjsworkbook/savetoexcelfile/#savetoexcelfile)(Stream) | Saves the memory data to the sream, baseed on the origin file format. |
@@ -66,7 +68,7 @@ public class GridJsWorkbook
 | static [GetGridLoadFormat](../../aspose.cells.gridjs/gridjsworkbook/getgridloadformat/)(string) | Gets the load format by file extension |
 | static [GetImageStream](../../aspose.cells.gridjs/gridjsworkbook/getimagestream/)(string, string) | Get Stream of image from memory data. |
 | static [GetImageUrl](../../aspose.cells.gridjs/gridjsworkbook/getimageurl/)(string, string, string) | Gets the image URL. |
-| static [GetUidForFile](../../aspose.cells.gridjs/gridjsworkbook/getuidforfile/)(string) | Gets unique id for the file cache. |
+| static [GetUidForFile](../../aspose.cells.gridjs/gridjsworkbook/getuidforfile/)(string) | Generates a new unique id for the file cache using the given file name. |
 | static [SetImageUrlBase](../../aspose.cells.gridjs/gridjsworkbook/setimageurlbase/)(string) | Set the base image get action URL from controller . |
 
 ## Fields

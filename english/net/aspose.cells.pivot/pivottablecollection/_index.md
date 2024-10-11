@@ -26,14 +26,16 @@ public class PivotTableCollection : CollectionBase<PivotTable>, IDisposable
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.cells.pivot/pivottablecollection/add/#add_1)(PivotTable, string, string) | Adds a new PivotTable Object to the collection from another PivotTable. |
-| [Add](../../aspose.cells.pivot/pivottablecollection/add/#add_4)(string, string, string) | Adds a new PivotTable cache to a PivotCaches collection. |
-| [Add](../../aspose.cells.pivot/pivottablecollection/add/#add)(PivotTable, int, int, string) | Adds a new PivotTable Object to the collection from another PivotTable. |
-| [Add](../../aspose.cells.pivot/pivottablecollection/add/#add_2)(string, int, int, string) | Adds a new PivotTable cache to a PivotCaches collection. |
-| [Add](../../aspose.cells.pivot/pivottablecollection/add/#add_5)(string, string, string, bool) | Adds a new PivotTable cache to a PivotCaches collection. |
-| [Add](../../aspose.cells.pivot/pivottablecollection/add/#add_3)(string, int, int, string, bool) | Adds a new PivotTable cache to a PivotCaches collection. |
-| [Add](../../aspose.cells.pivot/pivottablecollection/add/#add_7)(string[], bool, PivotPageFields, string, string) | Adds a new PivotTable Object to the collection with multiple consolidation ranges as data source. |
-| [Add](../../aspose.cells.pivot/pivottablecollection/add/#add_6)(string[], bool, PivotPageFields, int, int, string) | Adds a new PivotTable Object to the collection with multiple consolidation ranges as data source. |
+| [Add](../../aspose.cells.pivot/pivottablecollection/add/#add_1)(PivotTable, string, string) | Adds a new PivotTable based on another PivotTable. |
+| [Add](../../aspose.cells.pivot/pivottablecollection/add/#add_5)(string, string, string) | Adds a new PivotTable. |
+| [Add](../../aspose.cells.pivot/pivottablecollection/add/#add)(PivotTable, int, int, string) | Adds a new PivotTable based on another PivotTable. |
+| [Add](../../aspose.cells.pivot/pivottablecollection/add/#add_2)(string, int, int, string) | Adds a new PivotTable. |
+| [Add](../../aspose.cells.pivot/pivottablecollection/add/#add_6)(string, string, string, bool) | Adds a new PivotTable. |
+| [Add](../../aspose.cells.pivot/pivottablecollection/add/#add_3)(string, int, int, string, bool) | Adds a new PivotTable. |
+| [Add](../../aspose.cells.pivot/pivottablecollection/add/#add_7)(string, string, string, bool, bool) | Adds a new PivotTable. |
+| [Add](../../aspose.cells.pivot/pivottablecollection/add/#add_9)(string[], bool, PivotPageFields, string, string) | Adds a new PivotTable Object to the collection with multiple consolidation ranges as data source. |
+| [Add](../../aspose.cells.pivot/pivottablecollection/add/#add_4)(string, int, int, string, bool, bool) | Adds a new PivotTable. |
+| [Add](../../aspose.cells.pivot/pivottablecollection/add/#add_8)(string[], bool, PivotPageFields, int, int, string) | Adds a new PivotTable Object to the collection with multiple consolidation ranges as data source. |
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(PivotTable) |  |
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(PivotTable, IComparer&lt;PivotTable&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(int, int, PivotTable, IComparer&lt;PivotTable&gt;) |  |

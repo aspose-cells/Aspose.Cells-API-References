@@ -5,7 +5,7 @@ description: Worksheet method. Refreshes all the PivotTables in this Worksheet
 type: docs
 url: /net/aspose.cells/worksheet/refreshpivottables/
 ---
-## RefreshPivotTables() {#refreshpivottables}
+## RefreshPivotTables() {#refreshpivottables_1}
 
 Refreshes all the PivotTables in this Worksheet.
 
@@ -21,12 +21,12 @@ public void RefreshPivotTables()
 
 ---
 
-## RefreshPivotTables(PivotTableRefreshOption) {#refreshpivottables_1}
+## RefreshPivotTables(PivotTableRefreshOption) {#refreshpivottables}
 
 Refreshes all the PivotTables in this Worksheet.
 
 ```csharp
-public void RefreshPivotTables(PivotTableRefreshOption option)
+public bool RefreshPivotTables(PivotTableRefreshOption option)
 ```
 
 | Parameter | Type | Description |

@@ -1,13 +1,13 @@
 ---
 title: GridJsWorkbook.GetJsonByUid
 second_title: Aspose.Cells for .NET API Reference
-description: GridJsWorkbook method. Gets the JSON format StringBuilder from the file cache by the specified unique id
+description: GridJsWorkbook method. Gets the JSON string of the file from the cache using the specified unique idset the output filename in the JSON
 type: docs
 url: /net/aspose.cells.gridjs/gridjsworkbook/getjsonbyuid/
 ---
 ## GridJsWorkbook.GetJsonByUid method
 
-Gets the JSON format StringBuilder from the file cache by the specified unique id.
+Gets the JSON string of the file from the cache using the specified unique id,set the output filename in the JSON.
 
 ```csharp
 public StringBuilder GetJsonByUid(string uid, string filename)
@@ -20,7 +20,7 @@ public StringBuilder GetJsonByUid(string uid, string filename)
 
 ### Return Value
 
-The JSON format StringBuilder
+The JSON string StringBuilder
 
 ### See Also
 

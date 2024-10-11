@@ -29,6 +29,7 @@ public class OdsSaveOptions : SaveOptions
 | [CreateDirectory](../../aspose.cells/saveoptions/createdirectory/) { get; set; } | If true and the directory does not exist, the directory will be automatically created before saving the file.(Inherited from [`SaveOptions`](../saveoptions/).) |
 | [EncryptDocumentProperties](../../aspose.cells/saveoptions/encryptdocumentproperties/) { get; set; } | Indicates whether encrypt document properties when saving as .xls file. The default value is true.(Inherited from [`SaveOptions`](../saveoptions/).) |
 | [GeneratorType](../../aspose.cells/odssaveoptions/generatortype/) { get; set; } | Gets and sets the generator of the ods file. |
+| [IgnorePivotTables](../../aspose.cells/odssaveoptions/ignorepivottables/) { get; set; } | Indicates whether saving pivot tables. |
 | [IsStrictSchema11](../../aspose.cells/odssaveoptions/isstrictschema11/) { get; set; } | (**Obsolete.**) Indicates whether the ods file should be saved as ODF format version 1.1. Default is false. |
 | [MergeAreas](../../aspose.cells/saveoptions/mergeareas/) { get; set; } | Indicates whether merge the areas of conditional formatting and validation before saving the file.(Inherited from [`SaveOptions`](../saveoptions/).) |
 | [OdfStrictVersion](../../aspose.cells/odssaveoptions/odfstrictversion/) { get; set; } | Gets and sets the ODF version. |

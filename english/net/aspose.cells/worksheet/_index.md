@@ -123,8 +123,8 @@ public class Worksheet : IDisposable
 | [MoveTo](../../aspose.cells/worksheet/moveto/)(int) | Moves the sheet to another location in the spreadsheet. |
 | [Protect](../../aspose.cells/worksheet/protect/#protect)(ProtectionType) | Protects worksheet. |
 | [Protect](../../aspose.cells/worksheet/protect/#protect_1)(ProtectionType, string, string) | Protects worksheet. |
-| [RefreshPivotTables](../../aspose.cells/worksheet/refreshpivottables/#refreshpivottables)() | Refreshes all the PivotTables in this Worksheet. |
-| [RefreshPivotTables](../../aspose.cells/worksheet/refreshpivottables/#refreshpivottables_1)(PivotTableRefreshOption) | Refreshes all the PivotTables in this Worksheet. |
+| [RefreshPivotTables](../../aspose.cells/worksheet/refreshpivottables/#refreshpivottables_1)() | Refreshes all the PivotTables in this Worksheet. |
+| [RefreshPivotTables](../../aspose.cells/worksheet/refreshpivottables/#refreshpivottables)(PivotTableRefreshOption) | Refreshes all the PivotTables in this Worksheet. |
 | [RemoveAllDrawingObjects](../../aspose.cells/worksheet/removealldrawingobjects/)() | Removes all drawing objects in this worksheet. |
 | [RemoveAutoFilter](../../aspose.cells/worksheet/removeautofilter/)() | Removes the auto filter of the worksheet. |
 | [RemoveSplit](../../aspose.cells/worksheet/removesplit/)() | Removes split window. |

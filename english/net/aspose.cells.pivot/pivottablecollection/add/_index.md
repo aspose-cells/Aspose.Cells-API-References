@@ -1,13 +1,13 @@
 ---
 title: PivotTableCollection.Add
 second_title: Aspose.Cells for .NET API Reference
-description: PivotTableCollection method. Adds a new PivotTable cache to a PivotCaches collection
+description: PivotTableCollection method. Adds a new PivotTable
 type: docs
 url: /net/aspose.cells.pivot/pivottablecollection/add/
 ---
-## Add(string, string, string) {#add_4}
+## Add(string, string, string) {#add_5}
 
-Adds a new PivotTable cache to a PivotCaches collection.
+Adds a new PivotTable.
 
 ```csharp
 public int Add(string sourceData, string destCellName, string tableName)
@@ -31,9 +31,9 @@ The new added cache index.
 
 ---
 
-## Add(string, string, string, bool) {#add_5}
+## Add(string, string, string, bool) {#add_6}
 
-Adds a new PivotTable cache to a PivotCaches collection.
+Adds a new PivotTable.
 
 ```csharp
 public int Add(string sourceData, string destCellName, string tableName, bool useSameSource)
@@ -60,7 +60,7 @@ The new added cache index.
 
 ## Add(string, int, int, string) {#add_2}
 
-Adds a new PivotTable cache to a PivotCaches collection.
+Adds a new PivotTable.
 
 ```csharp
 public int Add(string sourceData, int row, int column, string tableName)
@@ -87,7 +87,7 @@ The new added cache index.
 
 ## Add(string, int, int, string, bool) {#add_3}
 
-Adds a new PivotTable cache to a PivotCaches collection.
+Adds a new PivotTable.
 
 ```csharp
 public int Add(string sourceData, int row, int column, string tableName, bool useSameSource)
@@ -113,9 +113,68 @@ The new added cache index.
 
 ---
 
+## Add(string, int, int, string, bool, bool) {#add_4}
+
+Adds a new PivotTable.
+
+```csharp
+public int Add(string sourceData, int row, int column, string tableName, bool useSameSource, 
+    bool isXlsClassic)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sourceData | String | The data cell range for the new PivotTable.Example : Sheet1!A1:C8 |
+| row | Int32 | Row index of the cell in the upper-left corner of the PivotTable report's destination range. |
+| column | Int32 | Column index of the cell in the upper-left corner of the PivotTable report's destination range. |
+| tableName | String | The name of the new PivotTable report. |
+| useSameSource | Boolean | Indicates whether using same data source when another existing pivot table has used this data source. If the property is true, it will save memory. |
+| isXlsClassic | Boolean | Indicates whether add classic pivot table of Excel 97-2003. |
+
+### Return Value
+
+The new added cache index.
+
+### See Also
+
+* class [PivotTableCollection](../)
+* namespace [Aspose.Cells.Pivot](../../../aspose.cells.pivot/)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## Add(string, string, string, bool, bool) {#add_7}
+
+Adds a new PivotTable.
+
+```csharp
+public int Add(string sourceData, string cell, string tableName, bool useSameSource, 
+    bool isXlsClassic)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sourceData | String | The data cell range for the new PivotTable.Example : Sheet1!A1:C8 |
+| cell | String | The cell in the upper-left corner of the PivotTable report's destination range. |
+| tableName | String | The name of the new PivotTable report. |
+| useSameSource | Boolean | Indicates whether using same data source when another existing pivot table has used this data source. If the property is true, it will save memory. |
+| isXlsClassic | Boolean | Indicates whether add classic pivot table of Excel 97-2003. |
+
+### Return Value
+
+The new added cache index.
+
+### See Also
+
+* class [PivotTableCollection](../)
+* namespace [Aspose.Cells.Pivot](../../../aspose.cells.pivot/)
+* assembly [Aspose.Cells](../../../)
+
+---
+
 ## Add(PivotTable, string, string) {#add_1}
 
-Adds a new PivotTable Object to the collection from another PivotTable.
+Adds a new PivotTable based on another PivotTable.
 
 ```csharp
 public int Add(PivotTable pivotTable, string destCellName, string tableName)
@@ -142,7 +201,7 @@ The new added PivotTable index.
 
 ## Add(PivotTable, int, int, string) {#add}
 
-Adds a new PivotTable Object to the collection from another PivotTable.
+Adds a new PivotTable based on another PivotTable.
 
 ```csharp
 public int Add(PivotTable pivotTable, int row, int column, string tableName)
@@ -168,7 +227,7 @@ The new added PivotTable index.
 
 ---
 
-## Add(string[], bool, PivotPageFields, string, string) {#add_7}
+## Add(string[], bool, PivotPageFields, string, string) {#add_9}
 
 Adds a new PivotTable Object to the collection with multiple consolidation ranges as data source.
 
@@ -198,7 +257,7 @@ The new added PivotTable index.
 
 ---
 
-## Add(string[], bool, PivotPageFields, int, int, string) {#add_6}
+## Add(string[], bool, PivotPageFields, int, int, string) {#add_8}
 
 Adds a new PivotTable Object to the collection with multiple consolidation ranges as data source.
 

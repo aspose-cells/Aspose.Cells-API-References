@@ -142,7 +142,7 @@ public void ImportExcelFile(Stream stream, string passwordtoOpen, string passwor
 | --- | --- | --- |
 | stream | Stream | stream of excel file . |
 | passwordtoOpen | String | the open password for the file which is encrypted . |
-| passwordtoOpen | String | the modify password for the file which is protected . |
+| passwordtoModify | String | the modify password for the file which is protected . |
 | openasReadOnly | Boolean | whether to open the file as ReadOnly . |
 | runFormulas | Boolean | if true, this method will invoke RunAllFormulas method. |
 
@@ -167,7 +167,7 @@ public void ImportExcelFile(string fileName, string passwordtoOpen, string passw
 | --- | --- | --- |
 | fileName | String | excel file name. |
 | passwordtoOpen | String | the open password for the file which is encrypted . |
-| passwordtoOpen | String | the modify password for the file which is protected . |
+| passwordtoModify | String | the modify password for the file which is protected . |
 | openasReadOnly | Boolean | whether to open the file as ReadOnly . |
 | runFormulas | Boolean | if true, this method will invoke RunAllFormulas method. |
 

@@ -5,7 +5,7 @@ description: Cell method. Set the formula and the valuecalculated result of the 
 type: docs
 url: /net/aspose.cells/cell/setformula/
 ---
-## SetFormula(string, object) {#setformula_2}
+## SetFormula(string, object) {#setformula_3}
 
 Set the formula and the value(calculated result) of the formula.
 
@@ -26,7 +26,29 @@ public void SetFormula(string formula, object value)
 
 ---
 
-## SetFormula(string, bool, bool, object) {#setformula_1}
+## SetFormula(string, FormulaParseOptions) {#setformula}
+
+Set the formula and the value(calculated result) of the formula.
+
+```csharp
+public void SetFormula(string formula, FormulaParseOptions options)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| formula | String | The formula. |
+| options | FormulaParseOptions | Options for parsing the formula. |
+
+### See Also
+
+* class [FormulaParseOptions](../../formulaparseoptions/)
+* class [Cell](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## SetFormula(string, bool, bool, object) {#setformula_2}
 
 Set the formula and the value of the formula.
 
@@ -55,7 +77,7 @@ NOTE: This class is now obsolete. Instead, please use Cell.SetFormula(string,For
 
 ---
 
-## SetFormula(string, FormulaParseOptions, object) {#setformula}
+## SetFormula(string, FormulaParseOptions, object) {#setformula_1}
 
 Set the formula and the value(calculated result) of the formula.
 

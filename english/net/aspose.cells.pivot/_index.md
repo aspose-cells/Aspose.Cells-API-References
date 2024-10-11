@@ -54,6 +54,7 @@ The **Aspose.Cells.Pivot** namespace contains all classes of rendering and manip
 | [PivotItemPositionType](./pivotitempositiontype/) | Represents the position type of the pivot base item in the base field when the ShowDataAs calculation is in use. |
 | [PivotLineType](./pivotlinetype/) | Specifies the type of the PivotLine. |
 | [PivotMissingItemLimitType](./pivotmissingitemlimittype/) | Represents number of items to retain per field. |
+| [PivotRefreshState](./pivotrefreshstate/) | The state for refreshing pivot tables. |
 | [PivotTableAutoFormatType](./pivottableautoformattype/) | Represents PivotTable auto format type. |
 | [PivotTableSelectionType](./pivottableselectiontype/) | Specifies what can be selected in a PivotTable during a structured selection. These constants can be combined to select multiple types. |
 | [PivotTableSourceType](./pivottablesourcetype/) | Represents data source type of the pivot table. |

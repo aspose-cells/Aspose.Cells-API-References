@@ -19,7 +19,7 @@ public string ErrorJson(string msg)
 
 ### Return Value
 
-The JSON format string.
+The JSON string.
 
 ### See Also
 

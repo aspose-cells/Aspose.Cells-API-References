@@ -18,8 +18,13 @@ public abstract class ExternalConnection
 | Name | Description |
 | --- | --- |
 | [BackgroundRefresh](../../aspose.cells.externalconnections/externalconnection/backgroundrefresh/) { get; set; } | Indicates whether the connection can be refreshed in the background (asynchronously). true if preferred usage of the connection is to refresh asynchronously in the background; false if preferred usage of the connection is to refresh synchronously in the foreground. |
+| abstract [ClassType](../../aspose.cells.externalconnections/externalconnection/classtype/) { get; } | Gets the type of this `ExternalConnection` object. |
+| virtual [Command](../../aspose.cells.externalconnections/externalconnection/command/) { get; set; } | The string containing the database command to pass to the data provider API that will interact with the external source in order to retrieve data |
+| virtual [CommandType](../../aspose.cells.externalconnections/externalconnection/commandtype/) { get; set; } | Specifies the OLE DB command type. 1. Query specifies a cube name 2. Query specifies a SQL statement 3. Query specifies a table name 4. Query specifies that default information has been given, and it is up to the provider how to interpret. 5. Query is against a web based List Data Provider. |
 | [ConnectionDescription](../../aspose.cells.externalconnections/externalconnection/connectiondescription/) { get; set; } | Specifies the user description for this connection |
-| [ConnectionId](../../aspose.cells.externalconnections/externalconnection/connectionid/) { get; } | Specifies The unique identifier of this connection. |
+| virtual [ConnectionFile](../../aspose.cells.externalconnections/externalconnection/connectionfile/) { get; } | Gets the connection file. |
+| [ConnectionId](../../aspose.cells.externalconnections/externalconnection/connectionid/) { get; } | (**Obsolete.**) Specifies The unique identifier of this connection. |
+| virtual [ConnectionString](../../aspose.cells.externalconnections/externalconnection/connectionstring/) { get; set; } | The connection information string is used to make contact with an OLE DB or ODBC data source. |
 | [Credentials](../../aspose.cells.externalconnections/externalconnection/credentials/) { get; set; } | (**Obsolete.**) Specifies the authentication method to be used when establishing (or re-establishing) the connection. |
 | [CredentialsMethodType](../../aspose.cells.externalconnections/externalconnection/credentialsmethodtype/) { get; set; } | Specifies the authentication method to be used when establishing (or re-establishing) the connection. |
 | [Id](../../aspose.cells.externalconnections/externalconnection/id/) { get; } | Gets the id of the connection. |
@@ -37,9 +42,11 @@ public abstract class ExternalConnection
 | [RefreshOnLoad](../../aspose.cells.externalconnections/externalconnection/refreshonload/) { get; set; } | True if this connection should be refreshed when opening the file; otherwise, false. |
 | [SaveData](../../aspose.cells.externalconnections/externalconnection/savedata/) { get; set; } | True if the external data fetched over the connection to populate a table is to be saved with the workbook; otherwise, false. |
 | [SavePassword](../../aspose.cells.externalconnections/externalconnection/savepassword/) { get; set; } | True if the password is to be saved as part of the connection string; otherwise, False. |
+| virtual [SecondCommand](../../aspose.cells.externalconnections/externalconnection/secondcommand/) { get; set; } | Specifies a second command text string that is persisted when PivotTable server-based page fields are in use. For ODBC connections, serverCommand is usually a broader query than command (no WHERE clause is present in the former). Based on these 2 commands(Command and ServerCommand), parameter UI can be populated and parameterized queries can be constructed |
 | [SourceFile](../../aspose.cells.externalconnections/externalconnection/sourcefile/) { get; set; } | Used when the external data source is file-based. When a connection to such a data source fails, the spreadsheet application attempts to connect directly to this file. May be expressed in URI or system-specific file path notation. |
+| [SourceType](../../aspose.cells.externalconnections/externalconnection/sourcetype/) { get; set; } | Gets or Sets the external connection DataSource type. |
 | [SSOId](../../aspose.cells.externalconnections/externalconnection/ssoid/) { get; set; } | Identifier for Single Sign On (SSO) used for authentication between an intermediate spreadsheetML server and the external data source. |
-| [Type](../../aspose.cells.externalconnections/externalconnection/type/) { get; set; } | Gets or Sets the external connection DataSource type. |
+| [Type](../../aspose.cells.externalconnections/externalconnection/type/) { get; set; } | (**Obsolete.**) Gets or Sets the external connection DataSource type. |
 
 ### See Also
 

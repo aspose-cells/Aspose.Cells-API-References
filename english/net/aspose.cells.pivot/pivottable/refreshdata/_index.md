@@ -10,7 +10,7 @@ url: /net/aspose.cells.pivot/pivottable/refreshdata/
 Refreshes pivottable's data and setting from it's data source.
 
 ```csharp
-public void RefreshData()
+public PivotRefreshState RefreshData()
 ```
 
 ### Remarks
@@ -19,6 +19,7 @@ We will gather data from data source to a pivot cache ,then calculate the data i
 
 ### See Also
 
+* enum [PivotRefreshState](../../pivotrefreshstate/)
 * class [PivotTable](../)
 * namespace [Aspose.Cells.Pivot](../../../aspose.cells.pivot/)
 * assembly [Aspose.Cells](../../../)
@@ -30,7 +31,7 @@ We will gather data from data source to a pivot cache ,then calculate the data i
 Refreshes pivottable's data and setting from it's data source with options.
 
 ```csharp
-public void RefreshData(PivotTableRefreshOption option)
+public PivotRefreshState RefreshData(PivotTableRefreshOption option)
 ```
 
 | Parameter | Type | Description |
@@ -39,6 +40,7 @@ public void RefreshData(PivotTableRefreshOption option)
 
 ### See Also
 
+* enum [PivotRefreshState](../../pivotrefreshstate/)
 * class [PivotTableRefreshOption](../../pivottablerefreshoption/)
 * class [PivotTable](../)
 * namespace [Aspose.Cells.Pivot](../../../aspose.cells.pivot/)

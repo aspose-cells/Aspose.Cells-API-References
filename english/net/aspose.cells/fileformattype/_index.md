@@ -91,6 +91,7 @@ public enum FileFormatType
 | Rtf | `774` | Rtf |
 | Epub | `775` | EPUB |
 | Azw3 | `777` | AZW3 |
+| Chm | `784` | CHM |
 | Oxps | `776` | OXPS (Open XML Paper Specification) format. |
 | GZip | `35615` | Rrepesents GZip file. |
 

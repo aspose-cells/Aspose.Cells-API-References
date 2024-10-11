@@ -1,13 +1,13 @@
 ---
 title: PivotTable.ShowValuesRow
 second_title: Aspose.Cells for .NET API Reference
-description: PivotTable property. Specifies a boolean value that indicates whether show values row. show the values row
+description: PivotTable property. Indicates whether showing values row
 type: docs
 url: /net/aspose.cells.pivot/pivottable/showvaluesrow/
 ---
 ## PivotTable.ShowValuesRow property
 
-Specifies a boolean value that indicates whether show values row. show the values row
+Indicates whether showing values row.
 
 ```csharp
 public bool ShowValuesRow { get; set; }

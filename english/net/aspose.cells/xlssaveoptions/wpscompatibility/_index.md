@@ -1,7 +1,7 @@
 ---
 title: XlsSaveOptions.WpsCompatibility
 second_title: Aspose.Cells for .NET API Reference
-description: XlsSaveOptions property. Indicates whether to make the xls more compatible with WPS.
+description: XlsSaveOptions property. Indicates whether to make the xls more compatible with WPS
 type: docs
 url: /net/aspose.cells/xlssaveoptions/wpscompatibility/
 ---

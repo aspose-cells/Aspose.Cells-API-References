@@ -109,9 +109,10 @@ public class Cell
 | [SetDynamicArrayFormula](../../aspose.cells/cell/setdynamicarrayformula/#setdynamicarrayformula)(string, FormulaParseOptions, bool) | Sets dynamic array formula and make the formula spill into neighboring cells if possible. |
 | [SetDynamicArrayFormula](../../aspose.cells/cell/setdynamicarrayformula/#setdynamicarrayformula_1)(string, FormulaParseOptions, object[][], bool, bool) | Sets dynamic array formula and make the formula spill into neighboring cells if possible. |
 | [SetDynamicArrayFormula](../../aspose.cells/cell/setdynamicarrayformula/#setdynamicarrayformula_2)(string, FormulaParseOptions, object[][], bool, bool, CalculationOptions) | Sets dynamic array formula and make the formula spill into neighboring cells if possible. |
-| [SetFormula](../../aspose.cells/cell/setformula/#setformula_2)(string, object) | Set the formula and the value(calculated result) of the formula. |
-| [SetFormula](../../aspose.cells/cell/setformula/#setformula)(string, FormulaParseOptions, object) | Set the formula and the value(calculated result) of the formula. |
-| [SetFormula](../../aspose.cells/cell/setformula/#setformula_1)(string, bool, bool, object) | (**Obsolete.**) Set the formula and the value of the formula. |
+| [SetFormula](../../aspose.cells/cell/setformula/#setformula)(string, FormulaParseOptions) | Set the formula and the value(calculated result) of the formula. |
+| [SetFormula](../../aspose.cells/cell/setformula/#setformula_3)(string, object) | Set the formula and the value(calculated result) of the formula. |
+| [SetFormula](../../aspose.cells/cell/setformula/#setformula_1)(string, FormulaParseOptions, object) | Set the formula and the value(calculated result) of the formula. |
+| [SetFormula](../../aspose.cells/cell/setformula/#setformula_2)(string, bool, bool, object) | (**Obsolete.**) Set the formula and the value of the formula. |
 | [SetSharedFormula](../../aspose.cells/cell/setsharedformula/#setsharedformula)(string, int, int) | Sets shared formulas to a range of cells. |
 | [SetSharedFormula](../../aspose.cells/cell/setsharedformula/#setsharedformula_1)(string, int, int, FormulaParseOptions) | Sets shared formulas to a range of cells. |
 | [SetSharedFormula](../../aspose.cells/cell/setsharedformula/#setsharedformula_3)(string, int, int, bool, bool) | (**Obsolete.**) Sets a formula to a range of cells. |

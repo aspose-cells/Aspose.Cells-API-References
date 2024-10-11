@@ -15,9 +15,13 @@ Sets auto field group by the PivotTable.
 public void SetAutoGroupField(int baseFieldIndex)
 ```
 
+| Parameter | Type | Description |
+| --- | --- | --- |
+| baseFieldIndex | Int32 | The row or column field index in the base fields |
+
 ### Remarks
 
-The row or column field index in the base fields NOTE: This method is now obsolete. Instead, please use PivotField.GroupBy() method. This method will be removed 12 months later since October 2023. Aspose apologizes for any inconvenience you may have experienced.
+NOTE: This method is now obsolete. Instead, please use PivotField.GroupBy() method. This method will be removed 12 months later since October 2023. Aspose apologizes for any inconvenience you may have experienced.
 
 ### See Also
 

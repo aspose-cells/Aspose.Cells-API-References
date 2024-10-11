@@ -1,13 +1,13 @@
 ---
 title: GridJsWorkbook.JsonToStream
 second_title: Aspose.Cells for .NET API Reference
-description: GridJsWorkbook method. Write JSON of the file to the stream
+description: GridJsWorkbook method. Retrieve the JSON string from memory dataset the output filename in the JSON and write it to the stream
 type: docs
 url: /net/aspose.cells.gridjs/gridjsworkbook/jsontostream/
 ---
 ## GridJsWorkbook.JsonToStream method
 
-Write JSON of the file to the stream
+Retrieve the JSON string from memory data,set the output filename in the JSON, and write it to the stream.
 
 ```csharp
 public void JsonToStream(Stream stream, string filename)

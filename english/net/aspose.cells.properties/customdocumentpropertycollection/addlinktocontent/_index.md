@@ -16,7 +16,7 @@ public DocumentProperty AddLinkToContent(string name, string source)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | name | String | The name of the property. |
-| source | String | The source of the property |
+| source | String | The source of the property. It should be the name of named range. |
 
 ### Return Value
 

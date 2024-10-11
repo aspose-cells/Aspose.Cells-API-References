@@ -1,13 +1,13 @@
 ---
 title: GridJsWorkbook.JsonToStreamByUid
 second_title: Aspose.Cells for .NET API Reference
-description: GridJsWorkbook method. Write JSON of the file from the cache by the specified unique id to the stream
+description: GridJsWorkbook method. Retrieve the JSON string of the file from the cache using the specified unique idset the output filename in the JSONand write it to the stream
 type: docs
 url: /net/aspose.cells.gridjs/gridjsworkbook/jsontostreambyuid/
 ---
 ## GridJsWorkbook.JsonToStreamByUid method
 
-Write JSON of the file from the cache by the specified unique id to the stream
+Retrieve the JSON string of the file from the cache using the specified unique id,set the output filename in the JSON,and write it to the stream.
 
 ```csharp
 public bool JsonToStreamByUid(Stream stream, string uid, string filename)
