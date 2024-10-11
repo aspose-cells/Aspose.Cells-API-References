@@ -736,7 +736,7 @@ refreshPivotTables() : void;
 Refreshes all the PivotTables in the Excel file.
 
 ```javascript
-refreshPivotTables(option: PivotTableRefreshOption) : void;
+refreshPivotTables(option: PivotTableRefreshOption) : boolean;
 ```
 
 **Parameters:**

@@ -93,8 +93,8 @@ class PivotTable;
 | [setShowDataTips(boolean)](#setShowDataTips-boolean-)| Specifies a boolean value that indicates whether tooltips should be displayed for PivotTable data cells. |
 | [getShowMemberPropertyTips()](#getShowMemberPropertyTips--)| Specifies a boolean value that indicates whether member property information should be omitted from PivotTable tooltips. |
 | [setShowMemberPropertyTips(boolean)](#setShowMemberPropertyTips-boolean-)| Specifies a boolean value that indicates whether member property information should be omitted from PivotTable tooltips. |
-| [getShowValuesRow()](#getShowValuesRow--)| Specifies a boolean value that indicates whether show values row. show the values row |
-| [setShowValuesRow(boolean)](#setShowValuesRow-boolean-)| Specifies a boolean value that indicates whether show values row. show the values row |
+| [getShowValuesRow()](#getShowValuesRow--)| Indicates whether showing values row. |
+| [setShowValuesRow(boolean)](#setShowValuesRow-boolean-)| Indicates whether showing values row. |
 | [getShowEmptyCol()](#getShowEmptyCol--)| Specifies a boolean value that indicates whether to include empty columns in the table |
 | [setShowEmptyCol(boolean)](#setShowEmptyCol-boolean-)| Specifies a boolean value that indicates whether to include empty columns in the table |
 | [getShowEmptyRow()](#getShowEmptyRow--)| Specifies a boolean value that indicates whether to include empty rows in the table. |
@@ -139,6 +139,8 @@ class PivotTable;
 | [getPivotFormats()](#getPivotFormats--)| Gets the collection of formats applied to PivotTable. |
 | [getItemPrintTitles()](#getItemPrintTitles--)| Indicates whether PivotItem names should be repeated at the top of each printed page. |
 | [setItemPrintTitles(boolean)](#setItemPrintTitles-boolean-)| Indicates whether PivotItem names should be repeated at the top of each printed page. |
+| [getRepeatItemsOnEachPrintedPage()](#getRepeatItemsOnEachPrintedPage--)| Indicates whether pivot item captions on the row area are repeated on each printed page for pivot fields in tabular form. |
+| [setRepeatItemsOnEachPrintedPage(boolean)](#setRepeatItemsOnEachPrintedPage-boolean-)| Indicates whether pivot item captions on the row area are repeated on each printed page for pivot fields in tabular form. |
 | [getPrintTitles()](#getPrintTitles--)| Indicates whether the print titles for the worksheet are set based on the PivotTable report. The default value is false. |
 | [setPrintTitles(boolean)](#setPrintTitles-boolean-)| Indicates whether the print titles for the worksheet are set based on the PivotTable report. The default value is false. |
 | [getDisplayImmediateItems()](#getDisplayImmediateItems--)| Indicates whether items in the row and column areas are visible when the data area of the PivotTable is empty. The default value is true. |
@@ -171,6 +173,8 @@ class PivotTable;
 | [getFields(PivotFieldType)](#getFields-pivotfieldtype-)| Gets the specific pivot field list by the region. |
 | [move(number, number)](#move-number-number-)| Moves the PivotTable to a different location in the worksheet. |
 | [move(string)](#move-string-)| Moves the PivotTable to a different location in the worksheet. |
+| [getSourceDataConnections()](#getSourceDataConnections--)| Gets the external connection data sources. |
+| [getNamesOfSourceDataConnections()](#getNamesOfSourceDataConnections--)| Gets the name of external source data connections. |
 | [changeDataSource(string[])](#changeDataSource-stringarray-)| Set pivottable's source data. Sheet1!$A$1:$C$3 |
 | [getSource()](#getSource--)| Get pivottable's source data. |
 | [refreshData()](#refreshData--)| Refreshes pivottable's data and setting from it's data source. |
@@ -1040,7 +1044,7 @@ setShowMemberPropertyTips(value: boolean) : void;
 
 ### getShowValuesRow() {#getShowValuesRow--}
 
-Specifies a boolean value that indicates whether show values row. show the values row
+Indicates whether showing values row.
 
 ```javascript
 getShowValuesRow() : boolean;
@@ -1049,7 +1053,7 @@ getShowValuesRow() : boolean;
 
 ### setShowValuesRow(boolean) {#setShowValuesRow-boolean-}
 
-Specifies a boolean value that indicates whether show values row. show the values row
+Indicates whether showing values row.
 
 ```javascript
 setShowValuesRow(value: boolean) : void;
@@ -1499,6 +1503,10 @@ getExternalConnectionDataSource() : ExternalConnection;
 
 [ExternalConnection](../externalconnection/)
 
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use pivotTable.GetSourceDataConnections() method. This method will be removed 12 months later since October 2024. Aspose apologizes for any inconvenience you may have experienced.
+
 ### getDataSource() {#getDataSource--}
 
 Gets and sets the data source of the pivot table.
@@ -1547,12 +1555,42 @@ getItemPrintTitles() : boolean;
 ```
 
 
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotTable.RepeatItemsOnEachPrintedPage property. This method will be removed 12 months later since October 2024. Aspose apologizes for any inconvenience you may have experienced.
+
 ### setItemPrintTitles(boolean) {#setItemPrintTitles-boolean-}
 
 Indicates whether PivotItem names should be repeated at the top of each printed page.
 
 ```javascript
 setItemPrintTitles(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotTable.RepeatItemsOnEachPrintedPage property. This method will be removed 12 months later since October 2024. Aspose apologizes for any inconvenience you may have experienced.
+
+### getRepeatItemsOnEachPrintedPage() {#getRepeatItemsOnEachPrintedPage--}
+
+Indicates whether pivot item captions on the row area are repeated on each printed page for pivot fields in tabular form.
+
+```javascript
+getRepeatItemsOnEachPrintedPage() : boolean;
+```
+
+
+### setRepeatItemsOnEachPrintedPage(boolean) {#setRepeatItemsOnEachPrintedPage-boolean-}
+
+Indicates whether pivot item captions on the row area are repeated on each printed page for pivot fields in tabular form.
+
+```javascript
+setRepeatItemsOnEachPrintedPage(value: boolean) : void;
 ```
 
 **Parameters:**
@@ -1966,6 +2004,32 @@ move(destCellName: string) : void;
 | --- | --- | --- |
 | destCellName | string | the dest cell name. |
 
+### getSourceDataConnections() {#getSourceDataConnections--}
+
+Gets the external connection data sources.
+
+```javascript
+getSourceDataConnections() : ExternalConnection[];
+```
+
+
+**Returns**
+
+[ExternalConnection](../externalconnection/)[]
+
+### getNamesOfSourceDataConnections() {#getNamesOfSourceDataConnections--}
+
+Gets the name of external source data connections.
+
+```javascript
+getNamesOfSourceDataConnections() : string[];
+```
+
+
+**Returns**
+
+string[]
+
 ### changeDataSource(string[]) {#changeDataSource-stringarray-}
 
 Set pivottable's source data. Sheet1!$A$1:$C$3
@@ -1997,9 +2061,13 @@ string[]
 Refreshes pivottable's data and setting from it's data source.
 
 ```javascript
-refreshData() : void;
+refreshData() : PivotRefreshState;
 ```
 
+
+**Returns**
+
+[PivotRefreshState](../pivotrefreshstate/)
 
 **Remarks**
 
@@ -2010,13 +2078,17 @@ We will gather data from data source to a pivot cache ,then calculate the data i
 Refreshes pivottable's data and setting from it's data source with options.
 
 ```javascript
-refreshData(option: PivotTableRefreshOption) : void;
+refreshData(option: PivotTableRefreshOption) : PivotRefreshState;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | option | [PivotTableRefreshOption](../pivottablerefreshoption/) | The options for refreshing data source of pivot table. |
+
+**Returns**
+
+[PivotRefreshState](../pivotrefreshstate/)
 
 ### calculateData() {#calculateData--}
 

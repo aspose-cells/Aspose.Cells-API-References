@@ -566,6 +566,7 @@ is_root: true
 | [ErrorBarType](./errorbartype) | Represents error bar amount type. |
 | [ErrorCheckType](./errorchecktype) | Represents all error check type. |
 | [ExceptionType](./exceptiontype) | Represents custom exception type code. |
+| [ExternalConnectionClassType](./externalconnectionclasstype) | Represents the type of connection |
 | [ExternalLinkType](./externallinktype) | Represents the type of external link. |
 | [FileFormatType](./fileformattype) | Represents the file format types. |
 | [FillPattern](./fillpattern) | Enumerates shape fill pattern types. |
@@ -666,6 +667,7 @@ is_root: true
 | [PivotItemPositionType](./pivotitempositiontype) | Represents the position type of the pivot base item in the base field when the ShowDataAs calculation is in use. |
 | [PivotLineType](./pivotlinetype) | Specifies the type of the PivotLine. |
 | [PivotMissingItemLimitType](./pivotmissingitemlimittype) | Represents number of items to retain per field. |
+| [PivotRefreshState](./pivotrefreshstate) | The state for refreshing pivot tables. |
 | [PivotTableAutoFormatType](./pivottableautoformattype) | Represents PivotTable auto format type. |
 | [PivotTableSelectionType](./pivottableselectiontype) | Specifies what can be selected in a PivotTable during a structured selection. These constants can be combined to select multiple types. |
 | [PivotTableSourceType](./pivottablesourcetype) | Represents data source type of the pivot table. |

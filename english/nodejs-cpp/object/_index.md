@@ -31,12 +31,14 @@ Object class.
 | [isDate()](#isDate--)| Checks whether the object is a Date value. |
 | [isString()](#isString--)| Checks whether the object is a String value. |
 | [isReferredArea()](#isReferredArea--)| Checks whether the object is a ReferredArea object. |
+| [isRange()](#isRange--)| Checks whether the object is a Range object. |
 | [isObject()](#isObject--)| Checks whether the object is an object pointer. |
 | [toBool()](#toBool--)| Gets the bool value. |
 | [toNumber()](#toNumber--)| Gets the number value. |
 | [toString()](#toString--)| Gets the string value. |
 | [toDate()](#toDate--)| Gets the Date value. |
 | [toReferredArea()](#toReferredArea--)| Gets the ReferredArea object. |
+| [toRange()](#toRange--)| Gets the Range object. |
 
 ### constructor() {#constructor--}
 
@@ -169,6 +171,15 @@ isReferredArea() : boolean;
 ```
 
 
+### isRange() {#isRange--}
+
+Checks whether the object is a Range object.
+
+```javascript
+isRange() : boolean;
+```
+
+
 ### isObject() {#isObject--}
 
 Checks whether the object is an object pointer.
@@ -225,3 +236,16 @@ toReferredArea() : ReferredArea;
 **Returns**
 
 [ReferredArea](../referredarea/)
+
+
+### toRange() {#toRange--}
+
+Gets the Range value.
+
+```javascript
+toRange() : Range;
+```
+
+**Returns**
+
+[Range](../range/)

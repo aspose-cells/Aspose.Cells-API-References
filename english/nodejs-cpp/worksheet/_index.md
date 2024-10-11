@@ -107,7 +107,7 @@ class Worksheet;
 | [getPanes()](#getPanes--)| Gets the window panes. |
 | [freezePanes(number, number, number, number)](#freezePanes-number-number-number-number-)| Freezes panes at the specified cell in the worksheet. |
 | [freezePanes(string, number, number)](#freezePanes-string-number-number-)| Freezes panes at the specified cell in the worksheet. |
-| [getFreezedPanes(number, number, number, number)](#getFreezedPanes-number-number-number-number-)| Gets the freeze panes. |
+| [getFreezedPanes()](#getFreezedPanes--)| Gets the freeze panes. |
 | [split()](#split--)| Splits window. |
 | [unFreezePanes()](#unFreezePanes--)| Unfreezes panes in the worksheet. |
 | [removeSplit()](#removeSplit--)| Removes split window. |
@@ -153,6 +153,9 @@ class Worksheet;
 | [calculateFormula(string, CalculationOptions)](#calculateFormula-string-calculationoptions-)| Calculates a formula expression directly. |
 | [calculateFormula(string, FormulaParseOptions, CalculationOptions, number, number, CalculationData)](#calculateFormula-string-formulaparseoptions-calculationoptions-number-number-calculationdata-)| Calculates a formula expression directly. |
 | [calculateFormula(CalculationOptions, boolean)](#calculateFormula-calculationoptions-boolean-)| Calculates all formulas in this worksheet. |
+| [calculateArrayFormula(string, CalculationOptions)](#calculateArrayFormula-string-calculationoptions-)| Calculates a formula as array formula. |
+| [calculateArrayFormula(string, CalculationOptions, number, number)](#calculateArrayFormula-string-calculationoptions-number-number-)| Calculates a formula as array formula. |
+| [calculateArrayFormula(string, FormulaParseOptions, CalculationOptions, number, number, number, number, CalculationData)](#calculateArrayFormula-string-formulaparseoptions-calculationoptions-number-number-number-number-calculationdata-)| Calculates a formula as array formula. |
 | [refreshPivotTables()](#refreshPivotTables--)| Refreshes all the PivotTables in this Worksheet. |
 | [refreshPivotTables(PivotTableRefreshOption)](#refreshPivotTables-pivottablerefreshoption-)| Refreshes all the PivotTables in this Worksheet. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
@@ -1255,25 +1258,18 @@ freezePanes(cellName: string, freezedRows: number, freezedColumns: number) : voi
 
 Row index and column index cannot all be zero. Number of rows and number of columns also cannot all be zero.
 
-### getFreezedPanes(number, number, number, number) {#getFreezedPanes-number-number-number-number-}
+### getFreezedPanes() {#getFreezedPanes--}
 
 Gets the freeze panes.
 
 ```javascript
-getFreezedPanes(row: number, column: number, freezedRows: number, freezedColumns: number) : boolean;
+getFreezedPanes() : number[];
 ```
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| row | number | Row index. |
-| column | number | Column index. |
-| freezedRows | number | Number of visible rows in top pane, no more than row index. |
-| freezedColumns | number | Number of visible columns in left pane, no more than column index. |
 
 **Returns**
 
-Return whether the worksheet is frozen
+Return null means the worksheet is not frozen 0:Row index;1:column;2:freezedRows;3:freezedRows
 
 ### split() {#split--}
 
@@ -1958,6 +1954,76 @@ calculateFormula(options: CalculationOptions, recursive: boolean) : void;
 | options | [CalculationOptions](../calculationoptions/) | Options for calculation |
 | recursive | boolean | True means if the worksheet' cells depend on the cells of other worksheets,         ///  the dependent cells in other worksheets will be calculated too.         ///  False means all the formulas in the worksheet have been calculated and the values are right. |
 
+### calculateArrayFormula(string, CalculationOptions) {#calculateArrayFormula-string-calculationoptions-}
+
+Calculates a formula as array formula.
+
+```javascript
+calculateArrayFormula(formula: string, opts: CalculationOptions) : object[][];
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| formula | string | Formula to be calculated. |
+| opts | [CalculationOptions](../calculationoptions/) | Options for calculating formula |
+
+**Returns**
+
+[object[]](../object[]/)[]
+
+### calculateArrayFormula(string, CalculationOptions, number, number) {#calculateArrayFormula-string-calculationoptions-number-number-}
+
+Calculates a formula as array formula.
+
+```javascript
+calculateArrayFormula(formula: string, opts: CalculationOptions, maxRowCount: number, maxColumnCount: number) : object[][];
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| formula | string | Formula to be calculated. |
+| opts | [CalculationOptions](../calculationoptions/) | Options for calculating formula |
+| maxRowCount | number | the maximum row count of resultant data.         /// If it is non-positive or greater than the actual row count, then actual row count will be used. |
+| maxColumnCount | number | the maximum column count of resultant data.         /// If it is non-positive or greater than the actual row count, then actual column count will be used. |
+
+**Returns**
+
+Calculated formula result.
+
+**Remarks**
+
+The formula will be taken as dynamic array formula to calculate the dimension and result. User specified maximum dimension is used for cases that the calculated result is large data set (for example, the calculated result may correspond to a whole row or column data) but user does not need so large an array according to business requirement or for performance consideration.
+
+### calculateArrayFormula(string, FormulaParseOptions, CalculationOptions, number, number, number, number, CalculationData) {#calculateArrayFormula-string-formulaparseoptions-calculationoptions-number-number-number-number-calculationdata-}
+
+Calculates a formula as array formula.
+
+```javascript
+calculateArrayFormula(formula: string, pOpts: FormulaParseOptions, cOpts: CalculationOptions, baseCellRow: number, baseCellColumn: number, maxRowCount: number, maxColumnCount: number, calculationData: CalculationData) : object[][];
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| formula | string | Formula to be calculated. |
+| pOpts | [FormulaParseOptions](../formulaparseoptions/) | Options for parsing formula |
+| cOpts | [CalculationOptions](../calculationoptions/) | Options for calculating formula |
+| baseCellRow | number | The row index of the base cell. |
+| baseCellColumn | number | The column index of the base cell. |
+| maxRowCount | number | The maximum row count of resultant data.         /// If it is non-positive or greater than the actual row count, then actual row count will be used. |
+| maxColumnCount | number | The maximum column count of resultant data.         /// If it is non-positive or greater than the actual row count, then actual column count will be used. |
+| calculationData | [CalculationData](../calculationdata/) | The calculation data. It is used for the situation         /// that user needs to calculate some static formulas when implementing custom calculation engine.         /// For such kind of situation, user needs to specify it with the calculation data provided         /// for [AbstractCalculationEngine.Calculate(CalculationData)](../abstractcalculationengine.calculate(calculationdata)/). |
+
+**Returns**
+
+Calculated formula result.
+
+**Remarks**
+
+The formula will be taken as dynamic array formula to calculate the dimension and result. User specified maximum dimension is used for cases that the calculated result is large data set (for example, the calculated result may correspond to a whole row or column data) but user does not need so large an array according to business requirement or for performance consideration.
+
 ### refreshPivotTables() {#refreshPivotTables--}
 
 Refreshes all the PivotTables in this Worksheet.
@@ -1972,7 +2038,7 @@ refreshPivotTables() : void;
 Refreshes all the PivotTables in this Worksheet.
 
 ```javascript
-refreshPivotTables(option: PivotTableRefreshOption) : void;
+refreshPivotTables(option: PivotTableRefreshOption) : boolean;
 ```
 
 **Parameters:**

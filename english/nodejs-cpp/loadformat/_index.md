@@ -34,6 +34,7 @@ Represents the load file format.
 | Xml | `51` | Represents a simple xml file. |
 | Epub | `52` | Reprents an EPUB file. |
 | Azw3 | `53` | Represents an AZW3 file. |
+| Chm | `54` | Represents a CHM file. |
 | Unknown | `255` | Represents unrecognized format, cannot be loaded. |
 | Image | `254` | Image |
 | Json | `513` | Json |

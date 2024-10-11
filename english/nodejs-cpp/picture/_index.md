@@ -227,6 +227,7 @@ class Picture extends Shape;
 | [removeHyperlink()](#removeHyperlink--)| Removes the hyperlink of the shape. |
 | [moveToRange(number, number, number, number)](#moveToRange-number-number-number-number-)| Moves the shape to a specified range. |
 | [alignTopRightCorner(number, number)](#alignTopRightCorner-number-number-)| Moves the picture to the top-right corner. |
+| [getConnectionPoints()](#getConnectionPoints--)| Get the connection points |
 | [toImage(Uint8Array, ImageType)](#toImage-uint8array-imagetype-)| Creates the shape image and saves it to a stream in the specified format. |
 | [toImage(string, ImageOrPrintOptions)](#toImage-string-imageorprintoptions-)| Saves the shape to a file. |
 | [toImage(ImageOrPrintOptions)](#toImage-imageorprintoptions-)| Saves the shape to a stream. |
@@ -2684,6 +2685,19 @@ alignTopRightCorner(topRow: number, rightColumn: number) : void;
 | --- | --- | --- |
 | topRow | number | the row index. |
 | rightColumn | number | the column index. |
+
+### getConnectionPoints() {#getConnectionPoints--}
+
+Get the connection points
+
+```javascript
+getConnectionPoints() : number[][];
+```
+
+
+**Returns**
+
+[X,Y] pairs of the connection point. Every item is a float[2] array, [0] represents x and [1] represents y.
 
 ### toImage(Uint8Array, ImageType) {#toImage-uint8array-imagetype-}
 

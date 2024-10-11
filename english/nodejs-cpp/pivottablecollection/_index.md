@@ -21,12 +21,14 @@ class PivotTableCollection;
 | --- | --- |
 | [get(number)](#get-number-)| Gets the PivotTable report by index. |
 | [dispose()](#dispose--)| Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
-| [add(string, string, string)](#add-string-string-string-)| Adds a new PivotTable cache to a PivotCaches collection. |
-| [add(string, string, string, boolean)](#add-string-string-string-boolean-)| Adds a new PivotTable cache to a PivotCaches collection. |
-| [add(string, number, number, string)](#add-string-number-number-string-)| Adds a new PivotTable cache to a PivotCaches collection. |
-| [add(string, number, number, string, boolean)](#add-string-number-number-string-boolean-)| Adds a new PivotTable cache to a PivotCaches collection. |
-| [add(PivotTable, string, string)](#add-pivottable-string-string-)| Adds a new PivotTable Object to the collection from another PivotTable. |
-| [add(PivotTable, number, number, string)](#add-pivottable-number-number-string-)| Adds a new PivotTable Object to the collection from another PivotTable. |
+| [add(string, string, string)](#add-string-string-string-)| Adds a new PivotTable. |
+| [add(string, string, string, boolean)](#add-string-string-string-boolean-)| Adds a new PivotTable. |
+| [add(string, number, number, string)](#add-string-number-number-string-)| Adds a new PivotTable. |
+| [add(string, number, number, string, boolean)](#add-string-number-number-string-boolean-)| Adds a new PivotTable. |
+| [add(string, number, number, string, boolean, boolean)](#add-string-number-number-string-boolean-boolean-)| Adds a new PivotTable. |
+| [add(string, string, string, boolean, boolean)](#add-string-string-string-boolean-boolean-)| Adds a new PivotTable. |
+| [add(PivotTable, string, string)](#add-pivottable-string-string-)| Adds a new PivotTable based on another PivotTable. |
+| [add(PivotTable, number, number, string)](#add-pivottable-number-number-string-)| Adds a new PivotTable based on another PivotTable. |
 | [add(string[], boolean, PivotPageFields, string, string)](#add-stringarray-boolean-pivotpagefields-string-string-)| Adds a new PivotTable Object to the collection with multiple consolidation ranges as data source. |
 | [add(string[], boolean, PivotPageFields, number, number, string)](#add-stringarray-boolean-pivotpagefields-number-number-string-)| Adds a new PivotTable Object to the collection with multiple consolidation ranges as data source. |
 | [clear()](#clear--)| Clear all pivot tables. |
@@ -66,7 +68,7 @@ dispose() : void;
 
 ### add(string, string, string) {#add-string-string-string-}
 
-Adds a new PivotTable cache to a PivotCaches collection.
+Adds a new PivotTable.
 
 ```javascript
 add(sourceData: string, destCellName: string, tableName: string) : number;
@@ -85,7 +87,7 @@ The new added cache index.
 
 ### add(string, string, string, boolean) {#add-string-string-string-boolean-}
 
-Adds a new PivotTable cache to a PivotCaches collection.
+Adds a new PivotTable.
 
 ```javascript
 add(sourceData: string, destCellName: string, tableName: string, useSameSource: boolean) : number;
@@ -105,7 +107,7 @@ The new added cache index.
 
 ### add(string, number, number, string) {#add-string-number-number-string-}
 
-Adds a new PivotTable cache to a PivotCaches collection.
+Adds a new PivotTable.
 
 ```javascript
 add(sourceData: string, row: number, column: number, tableName: string) : number;
@@ -125,7 +127,7 @@ The new added cache index.
 
 ### add(string, number, number, string, boolean) {#add-string-number-number-string-boolean-}
 
-Adds a new PivotTable cache to a PivotCaches collection.
+Adds a new PivotTable.
 
 ```javascript
 add(sourceData: string, row: number, column: number, tableName: string, useSameSource: boolean) : number;
@@ -144,9 +146,52 @@ add(sourceData: string, row: number, column: number, tableName: string, useSameS
 
 The new added cache index.
 
+### add(string, number, number, string, boolean, boolean) {#add-string-number-number-string-boolean-boolean-}
+
+Adds a new PivotTable.
+
+```javascript
+add(sourceData: string, row: number, column: number, tableName: string, useSameSource: boolean, isXlsClassic: boolean) : number;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sourceData | string | The data cell range for the new PivotTable.Example : Sheet1!A1:C8 |
+| row | number | Row index of the cell in the upper-left corner of the PivotTable report's destination range. |
+| column | number | Column index of the cell in the upper-left corner of the PivotTable report's destination range. |
+| tableName | string | The name of the new PivotTable report. |
+| useSameSource | boolean | Indicates whether using same data source when another existing pivot table has used this data source.         /// If the property is true, it will save memory. |
+| isXlsClassic | boolean | Indicates whether add classic pivot table of Excel 97-2003. |
+
+**Returns**
+
+The new added cache index.
+
+### add(string, string, string, boolean, boolean) {#add-string-string-string-boolean-boolean-}
+
+Adds a new PivotTable.
+
+```javascript
+add(sourceData: string, cell: string, tableName: string, useSameSource: boolean, isXlsClassic: boolean) : number;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sourceData | string | The data cell range for the new PivotTable.Example : Sheet1!A1:C8 |
+| cell | string | The cell in the upper-left corner of the PivotTable report's destination range. |
+| tableName | string | The name of the new PivotTable report. |
+| useSameSource | boolean | Indicates whether using same data source when another existing pivot table has used this data source.           /// If the property is true, it will save memory. |
+| isXlsClassic | boolean | Indicates whether add classic pivot table of Excel 97-2003. |
+
+**Returns**
+
+The new added cache index.
+
 ### add(PivotTable, string, string) {#add-pivottable-string-string-}
 
-Adds a new PivotTable Object to the collection from another PivotTable.
+Adds a new PivotTable based on another PivotTable.
 
 ```javascript
 add(pivotTable: PivotTable, destCellName: string, tableName: string) : number;
@@ -165,7 +210,7 @@ The new added PivotTable index.
 
 ### add(PivotTable, number, number, string) {#add-pivottable-number-number-string-}
 
-Adds a new PivotTable Object to the collection from another PivotTable.
+Adds a new PivotTable based on another PivotTable.
 
 ```javascript
 add(pivotTable: PivotTable, row: number, column: number, tableName: string) : number;

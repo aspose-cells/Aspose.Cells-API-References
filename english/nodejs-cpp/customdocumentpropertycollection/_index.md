@@ -158,7 +158,7 @@ addLinkToContent(name: string, source: string) : DocumentProperty;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | name | string | The name of the property. |
-| source | string | The source of the property |
+| source | string | The source of the property. It should be the name of named range. |
 
 **Returns**
 

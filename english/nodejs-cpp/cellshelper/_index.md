@@ -33,7 +33,7 @@ class CellsHelper;
 | static [setIsCloudPlatform(boolean)](#setIsCloudPlatform-boolean-)| Please set this property True when running on a cloud platform, such as: Azure, AWSLambda, etc, |
 | static [getTextWidth(string, Font, number)](#getTextWidth-string-font-number-)| Get width of text in unit of points. |
 | static [getVersion()](#getVersion--)| Get the release version. |
-| static [cellNameToIndex(string, number, number)](#cellNameToIndex-string-number-number-)| Gets the cell row and column indexes according to its name. |
+| static [cellNameToIndex(string)](#cellNameToIndex-string-)| Gets the cell row and column indexes according to its name. |
 | static [cellIndexToName(number, number)](#cellIndexToName-number-number-)| Gets cell name according to its row and column indexes. |
 | static [columnIndexToName(number)](#columnIndexToName-number-)| Gets column name according to column index. |
 | static [columnNameToIndex(string)](#columnNameToIndex-string-)| Gets column index according to column name. |
@@ -215,20 +215,22 @@ static getVersion() : string;
 
 The release version.
 
-### cellNameToIndex(string, number, number) {#cellNameToIndex-string-number-number-}
+### cellNameToIndex(string) {#cellNameToIndex-string-}
 
 Gets the cell row and column indexes according to its name.
 
 ```javascript
-static cellNameToIndex(cellName: string, row: number, column: number) : void;
+static cellNameToIndex(cellName: string) : number[];
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| cellName | string | Name of cell. |
-| row | number | Output row index |
-| column | number | Output column index |
+| cellName | string | Name of cell |
+
+**Returns**
+
+[0] is the row index and [1] is the column index.
 
 ### cellIndexToName(number, number) {#cellIndexToName-number-number-}
 

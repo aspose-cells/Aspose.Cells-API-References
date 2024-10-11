@@ -183,6 +183,7 @@ class Cells;
 | [insertRange(CellArea, ShiftType)](#insertRange-cellarea-shifttype-)| Inserts a range of cells and shift cells according to the shift option. |
 | [insertRange(CellArea, number, ShiftType)](#insertRange-cellarea-number-shifttype-)| Inserts a range of cells and shift cells according to the shift option. |
 | [deleteRange(number, number, number, number, ShiftType)](#deleteRange-number-number-number-number-shifttype-)| Deletes a range of cells and shift cells according to the shift option. |
+| [exportArray(number, number, number, number)](#exportArray-number-number-number-number-)| Exports data in the [Cells](../cells/) collection to a two-dimension array object. |
 | [retrieveSubtotalSetting(CellArea)](#retrieveSubtotalSetting-cellarea-)| Retrieves subtotals setting of the range. |
 | [subtotal(CellArea, number, ConsolidationFunction, number[])](#subtotal-cellarea-number-consolidationfunction-numberarray-)| Creates subtotals for the range. |
 | [subtotal(CellArea, number, ConsolidationFunction, number[], boolean, boolean, boolean)](#subtotal-cellarea-number-consolidationfunction-numberarray-boolean-boolean-boolean-)| Creates subtotals for the range. |
@@ -2648,6 +2649,26 @@ deleteRange(startRow: number, startColumn: number, endRow: number, endColumn: nu
 | endRow | number | End row index. |
 | endColumn | number | End column index. |
 | shiftType | [ShiftType](../shifttype/) | Shift cells option. |
+
+### exportArray(number, number, number, number) {#exportArray-number-number-number-number-}
+
+Exports data in the [Cells](../cells/) collection to a two-dimension array object.
+
+```javascript
+exportArray(firstRow: number, firstColumn: number, totalRows: number, totalColumns: number) : object[][];
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| firstRow | number | The row number of the first cell to export out. |
+| firstColumn | number | The column number of the first cell to export out. |
+| totalRows | number | Number of rows to be exported |
+| totalColumns | number | Number of columns to be exported |
+
+**Returns**
+
+Exported cell value array object.
 
 ### retrieveSubtotalSetting(CellArea) {#retrieveSubtotalSetting-cellarea-}
 

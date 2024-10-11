@@ -31,6 +31,8 @@ class OdsLoadOptions extends LoadOptions;
 | [setApplyExcelDefaultStyleToHyperlink(boolean)](#setApplyExcelDefaultStyleToHyperlink-boolean-)| Indicates whether applying the default style of the Excel to hyperlink. |
 | [getRefreshPivotTables()](#getRefreshPivotTables--)| Indicates whether refresh pivot tables when loading file. |
 | [setRefreshPivotTables(boolean)](#setRefreshPivotTables-boolean-)| Indicates whether refresh pivot tables when loading file. |
+| [isClassicPivotTable()](#isClassicPivotTable--)| Indicates whether the pivot table is classic. |
+| [setIsClassicPivotTable(boolean)](#setIsClassicPivotTable-boolean-)| Indicates whether the pivot table is classic. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getLoadFormat()](#getLoadFormat--)| Gets the load format. |
 | [getPassword()](#getPassword--)| Gets and set the password of the workbook. |
@@ -147,6 +149,28 @@ Indicates whether refresh pivot tables when loading file.
 
 ```javascript
 setRefreshPivotTables(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+### isClassicPivotTable() {#isClassicPivotTable--}
+
+Indicates whether the pivot table is classic.
+
+```javascript
+isClassicPivotTable() : boolean;
+```
+
+
+### setIsClassicPivotTable(boolean) {#setIsClassicPivotTable-boolean-}
+
+Indicates whether the pivot table is classic.
+
+```javascript
+setIsClassicPivotTable(value: boolean) : void;
 ```
 
 **Parameters:**

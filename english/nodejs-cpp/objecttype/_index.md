@@ -17,5 +17,7 @@ Represents the type of the object.
 | Date | `3` | The object is Date type. |
 | String | `4` | The object is string type. |
 | ReferredArea | `5` | The object is ReferredArea type. |
-| Array2D | `6` | The object is two-dimensional array. |
-| Object | `7` | The object is Object pointer. |
+| Range | `6` | The object is Range type. |
+| Array1D | `7` | The object is a one-dimensional array. |
+| Array2D | `8` | The object is a two-dimensional array. |
+| Object | `9` | The object is an Object pointer. |

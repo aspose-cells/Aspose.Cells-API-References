@@ -33,6 +33,8 @@ class OdsSaveOptions extends SaveOptions;
 | [setIsStrictSchema11(boolean)](#setIsStrictSchema11-boolean-)| Indicates whether the ods file should be saved as ODF format version 1.1. Default is false. |
 | [getOdfStrictVersion()](#getOdfStrictVersion--)| Gets and sets the ODF version. |
 | [setOdfStrictVersion(OpenDocumentFormatVersionType)](#setOdfStrictVersion-opendocumentformatversiontype-)| Gets and sets the ODF version. |
+| [getIgnorePivotTables()](#getIgnorePivotTables--)| Indicates whether saving pivot tables. |
+| [setIgnorePivotTables(boolean)](#setIgnorePivotTables-boolean-)| Indicates whether saving pivot tables. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getSaveFormat()](#getSaveFormat--)| Gets the save file format. |
 | [getClearData()](#getClearData--)| Make the workbook empty after saving the file. |
@@ -175,6 +177,36 @@ setOdfStrictVersion(value: OpenDocumentFormatVersionType) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [OpenDocumentFormatVersionType](../opendocumentformatversiontype/) | The value to set. |
+
+### getIgnorePivotTables() {#getIgnorePivotTables--}
+
+Indicates whether saving pivot tables.
+
+```javascript
+getIgnorePivotTables() : boolean;
+```
+
+
+**Remarks**
+
+The pivot table feature of OpenOffice has fewer settings compared to Excel, so their results of pivot table have many differences. Sometimes it's better to ingore these pivot tables when saving .ods file.
+
+### setIgnorePivotTables(boolean) {#setIgnorePivotTables-boolean-}
+
+Indicates whether saving pivot tables.
+
+```javascript
+setIgnorePivotTables(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+**Remarks**
+
+The pivot table feature of OpenOffice has fewer settings compared to Excel, so their results of pivot table have many differences. Sometimes it's better to ingore these pivot tables when saving .ods file.
 
 ### isNull() {#isNull--}
 
