@@ -20,7 +20,7 @@ DocumentProperty Aspose::Cells::Properties::CustomDocumentPropertyCollection::Ad
 | Parameter | Type | Description |
 | --- | --- | --- |
 | name | const U16String\& | The name of the property. |
-| source | const U16String\& | The source of the property |
+| source | const U16String\& | The source of the property. It should be the name of named range. |
 
 ## ReturnValue
 
@@ -47,7 +47,7 @@ DocumentProperty Aspose::Cells::Properties::CustomDocumentPropertyCollection::Ad
 | Parameter | Type | Description |
 | --- | --- | --- |
 | name | const char16_t* | The name of the property. |
-| source | const char16_t* | The source of the property |
+| source | const char16_t* | The source of the property. It should be the name of named range. |
 
 ## ReturnValue
 

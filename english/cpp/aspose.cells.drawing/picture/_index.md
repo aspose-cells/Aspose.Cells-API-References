@@ -36,6 +36,7 @@ class Picture : public Aspose::Cells::Drawing::Shape
 | [GetBorderLineColor()](./getborderlinecolor/) | Represents the System.Drawing.Color of the border line of a picture. |
 | [GetBorderWeight()](./getborderweight/) | Gets or sets the weight of the border line of a picture in units of pt. |
 | [GetBottom()](../shape/getbottom/) | Represents the width of the shape's vertical offset from its lower bottom corner row, in unit of pixels. |
+| [GetConnectionPoints()](../shape/getconnectionpoints/) | Get the connection points. |
 | [GetControlData()](../shape/getcontroldata/) | Gets the data of control. |
 | [GetCreateId(UUID\& uuid)](../shape/getcreateid/) | Gets and sets create id for this shape. |
 | [GetData()](./getdata/) | Gets the data of the picture. |

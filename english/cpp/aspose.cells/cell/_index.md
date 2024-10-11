@@ -109,14 +109,22 @@ class Cell
 | [SetArrayFormula(const char16_t* arrayFormula, int32_t rowNumber, int32_t columnNumber)](./setarrayformula/) | Sets an array formula(legacy array formula entered via CTRL+SHIFT+ENTER in ms excel) to a range of cells. |
 | [SetArrayFormula(const U16String\& arrayFormula, int32_t rowNumber, int32_t columnNumber, const FormulaParseOptions\& options)](./setarrayformula/) | Sets an array formula to a range of cells. |
 | [SetArrayFormula(const char16_t* arrayFormula, int32_t rowNumber, int32_t columnNumber, const FormulaParseOptions\& options)](./setarrayformula/) | Sets an array formula to a range of cells. |
+| [SetArrayFormula(const U16String\& arrayFormula, int32_t rowNumber, int32_t columnNumber, const FormulaParseOptions\& options, const Vector \<Vector \<Aspose::Cells::Object\>\>\& values)](./setarrayformula/) | Sets an array formula to a range of cells. |
+| [SetArrayFormula(const char16_t* arrayFormula, int32_t rowNumber, int32_t columnNumber, const FormulaParseOptions\& options, const Vector \<Vector \<Aspose::Cells::Object\>\>\& values)](./setarrayformula/) | Sets an array formula to a range of cells. |
 | [SetCharacters(const Vector \<FontSetting\>\& characters)](./setcharacters/) | Sets rich text format of the cell. |
 | [SetDynamicArrayFormula(const U16String\& arrayFormula, const FormulaParseOptions\& options, bool calculateValue)](./setdynamicarrayformula/) | Sets dynamic array formula and make the formula spill into neighboring cells if possible. |
 | [SetDynamicArrayFormula(const char16_t* arrayFormula, const FormulaParseOptions\& options, bool calculateValue)](./setdynamicarrayformula/) | Sets dynamic array formula and make the formula spill into neighboring cells if possible. |
+| [SetDynamicArrayFormula(const U16String\& arrayFormula, const FormulaParseOptions\& options, const Vector \<Vector \<Aspose::Cells::Object\>\>\& values, bool calculateRange, bool calculateValue)](./setdynamicarrayformula/) | Sets dynamic array formula and make the formula spill into neighboring cells if possible. |
+| [SetDynamicArrayFormula(const char16_t* arrayFormula, const FormulaParseOptions\& options, const Vector \<Vector \<Aspose::Cells::Object\>\>\& values, bool calculateRange, bool calculateValue)](./setdynamicarrayformula/) | Sets dynamic array formula and make the formula spill into neighboring cells if possible. |
+| [SetDynamicArrayFormula(const U16String\& arrayFormula, const FormulaParseOptions\& options, const Vector \<Vector \<Aspose::Cells::Object\>\>\& values, bool calculateRange, bool calculateValue, const CalculationOptions\& copts)](./setdynamicarrayformula/) | Sets dynamic array formula and make the formula spill into neighboring cells if possible. |
+| [SetDynamicArrayFormula(const char16_t* arrayFormula, const FormulaParseOptions\& options, const Vector \<Vector \<Aspose::Cells::Object\>\>\& values, bool calculateRange, bool calculateValue, const CalculationOptions\& copts)](./setdynamicarrayformula/) | Sets dynamic array formula and make the formula spill into neighboring cells if possible. |
 | [SetEmbeddedImage(const Vector \<uint8_t\>\& value)](./setembeddedimage/) | Gets and sets the embeddedn image in the cell. |
 | [SetFormula(const U16String\& value)](./setformula/) | Gets or sets a formula of the [Cell](./). |
 | [SetFormula(const char16_t* value)](./setformula/) | Gets or sets a formula of the [Cell](./). |
 | [SetFormula(const U16String\& formula, const Aspose::Cells::Object\& value)](./setformula/) | Set the formula and the value(calculated result) of the formula. |
 | [SetFormula(const char16_t* formula, const Aspose::Cells::Object\& value)](./setformula/) | Set the formula and the value(calculated result) of the formula. |
+| [SetFormula(const U16String\& formula, const FormulaParseOptions\& options)](./setformula/) | Set the formula and the value(calculated result) of the formula. |
+| [SetFormula(const char16_t* formula, const FormulaParseOptions\& options)](./setformula/) | Set the formula and the value(calculated result) of the formula. |
 | [SetFormula(const U16String\& formula, const FormulaParseOptions\& options, const Aspose::Cells::Object\& value)](./setformula/) | Set the formula and the value(calculated result) of the formula. |
 | [SetFormula(const char16_t* formula, const FormulaParseOptions\& options, const Aspose::Cells::Object\& value)](./setformula/) | Set the formula and the value(calculated result) of the formula. |
 | [SetFormulaLocal(const U16String\& value)](./setformulalocal/) | Get the locale formatted formula of the cell. |
@@ -130,9 +138,17 @@ class Cell
 | [SetSharedFormula(const char16_t* sharedFormula, int32_t rowNumber, int32_t columnNumber)](./setsharedformula/) | Sets shared formulas to a range of cells. |
 | [SetSharedFormula(const U16String\& sharedFormula, int32_t rowNumber, int32_t columnNumber, const FormulaParseOptions\& options)](./setsharedformula/) | Sets shared formulas to a range of cells. |
 | [SetSharedFormula(const char16_t* sharedFormula, int32_t rowNumber, int32_t columnNumber, const FormulaParseOptions\& options)](./setsharedformula/) | Sets shared formulas to a range of cells. |
+| [SetSharedFormula(const U16String\& sharedFormula, int32_t rowNumber, int32_t columnNumber, const FormulaParseOptions\& options, const Vector \<Vector \<Aspose::Cells::Object\>\>\& values)](./setsharedformula/) | Sets shared formulas to a range of cells. |
+| [SetSharedFormula(const char16_t* sharedFormula, int32_t rowNumber, int32_t columnNumber, const FormulaParseOptions\& options, const Vector \<Vector \<Aspose::Cells::Object\>\>\& values)](./setsharedformula/) | Sets shared formulas to a range of cells. |
 | [SetStyle(const Style\& style)](./setstyle/) | Sets the cell style. |
 | [SetStyle(const Style\& style, bool explicitFlag)](./setstyle/) | Apply the changed property of style to the cell. |
 | [SetStyle(const Style\& style, const StyleFlag\& flag)](./setstyle/) | Apply the cell style based on flags. |
+| [SetTableFormula(int32_t rowNumber, int32_t columnNumber, const U16String\& rowInputCell, const U16String\& columnInputCell, const Vector \<Vector \<Aspose::Cells::Object\>\>\& values)](./settableformula/) | Create two-variable data table for given range starting from this cell. |
+| [SetTableFormula(int32_t rowNumber, int32_t columnNumber, const char16_t* rowInputCell, const char16_t* columnInputCell, const Vector \<Vector \<Aspose::Cells::Object\>\>\& values)](./settableformula/) | Create two-variable data table for given range starting from this cell. |
+| [SetTableFormula(int32_t rowNumber, int32_t columnNumber, const U16String\& inputCell, bool isRowInput, const Vector \<Vector \<Aspose::Cells::Object\>\>\& values)](./settableformula/) | Create one-variable data table for given range starting from this cell. |
+| [SetTableFormula(int32_t rowNumber, int32_t columnNumber, const char16_t* inputCell, bool isRowInput, const Vector \<Vector \<Aspose::Cells::Object\>\>\& values)](./settableformula/) | Create one-variable data table for given range starting from this cell. |
+| [SetTableFormula(int32_t rowNumber, int32_t columnNumber, int32_t rowIndexOfRowInputCell, int32_t columnIndexOfRowInputCell, int32_t rowIndexOfColumnInputCell, int32_t columnIndexOfColumnInputCell, const Vector \<Vector \<Aspose::Cells::Object\>\>\& values)](./settableformula/) | Create two-variable data table for given range starting from this cell. |
+| [SetTableFormula(int32_t rowNumber, int32_t columnNumber, int32_t rowIndexOfInputCell, int32_t columnIndexOfInputCell, bool isRowInput, const Vector \<Vector \<Aspose::Cells::Object\>\>\& values)](./settableformula/) | Create one-variable data table for given range starting from this cell. |
 | [SetValue(const Aspose::Cells::Object\& value)](./setvalue/) | Gets/sets the value contained in this cell. |
 | [ToJson()](./tojson/) | Convert [Cell](./) to JSON struct data. |
 | [ToString()](./tostring/) | Returns a string represents the current [Cell](./) object. |

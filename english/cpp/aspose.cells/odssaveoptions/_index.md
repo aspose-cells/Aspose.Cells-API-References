@@ -25,6 +25,7 @@ class OdsSaveOptions : public Aspose::Cells::SaveOptions
 | [GetCreateDirectory()](../saveoptions/getcreatedirectory/) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [GetEncryptDocumentProperties()](../saveoptions/getencryptdocumentproperties/) | Indicates whether encrypt document properties when saving as .xls file. The default value is true. |
 | [GetGeneratorType()](./getgeneratortype/) | Gets and sets the generator of the ods file. |
+| [GetIgnorePivotTables()](./getignorepivottables/) | Indicates whether saving pivot tables. |
 | [GetMergeAreas()](../saveoptions/getmergeareas/) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [GetOdfStrictVersion()](./getodfstrictversion/) | Gets and sets the ODF version. |
 | [GetRefreshChartCache()](../saveoptions/getrefreshchartcache/) | Indicates whether refreshing chart cache data. |
@@ -52,6 +53,7 @@ class OdsSaveOptions : public Aspose::Cells::SaveOptions
 | [SetCreateDirectory(bool value)](../saveoptions/setcreatedirectory/) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [SetEncryptDocumentProperties(bool value)](../saveoptions/setencryptdocumentproperties/) | Indicates whether encrypt document properties when saving as .xls file. The default value is true. |
 | [SetGeneratorType(OdsGeneratorType value)](./setgeneratortype/) | Gets and sets the generator of the ods file. |
+| [SetIgnorePivotTables(bool value)](./setignorepivottables/) | Indicates whether saving pivot tables. |
 | [SetIsStrictSchema11(bool value)](./setisstrictschema11/) |  **(Deprecated)** Indicates whether the ods file should be saved as ODF format version 1.1. Default is false. |
 | [SetMergeAreas(bool value)](../saveoptions/setmergeareas/) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [SetOdfStrictVersion(OpenDocumentFormatVersionType value)](./setodfstrictversion/) | Gets and sets the ODF version. |

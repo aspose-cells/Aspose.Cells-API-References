@@ -4,7 +4,7 @@ linktitle: GetReconnectionMethodType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ExternalConnections::ExternalConnection::GetReconnectionMethodType method. Specifies what the spreadsheet application should do when a connection fails. The default value is ReConnectionMethodType.Required in C++.'
 type: docs
-weight: 1900
+weight: 1800
 url: /cpp/aspose.cells.externalconnections/externalconnection/getreconnectionmethodtype/
 ---
 ## ExternalConnection::GetReconnectionMethodType method

@@ -174,8 +174,9 @@ workbook.GetSettings().SetIsVScrollBarVisible(false);
 int newInt = 100;
 workbook.Replace(u"OldInt", newInt);
 
+U16String oldString = u"Hi!";
 U16String newString = u"Hello!";
-workbook.Replace(u"OldString", newString);
+workbook.Replace(oldString, newString);
 workbook.Save(u"result.xlsx");
 Aspose::Cells::Cleanup();
 ```

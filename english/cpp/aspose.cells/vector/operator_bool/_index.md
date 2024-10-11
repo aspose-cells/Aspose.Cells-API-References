@@ -10,7 +10,7 @@ url: /cpp/aspose.cells/vector/operator_bool/
 ## Vector::operator bool method
 
 
-operator bool()
+operator [bool()](../vector/)
 
 ```cpp
 Aspose::Cells::Vector<T>::operator bool() const

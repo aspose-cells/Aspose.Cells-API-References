@@ -27,10 +27,11 @@ template<typenameT>class Vector
 | [GetData()](./getdata/) const | Gets the address of the element array in this vector. |
 | [GetLength()](./getlength/) const | Gets the length of the elements in this [Vector](./). |
 | [IsNull()](./isnull/) const | Checks whether the element array is nullptr. |
-| explicit [operator bool()](./operator_bool/) const | operator bool() |
+| explicit [operator bool()](./operator_bool/) const | operator [bool()](./vector/) |
 | [operator=(const Vector\& src)](./operator_asm/) | operator= |
 | [operator[](int32_t index)](./operator[]/) const | Array subscript operator. |
-| [Vector(int32_t len)](./vector/) | Constructs an element [Vector](./) of the specified length. |
+| [Vector()](./vector/) | Default constructor. Constructs an empty [Vector](./). |
+| [Vector(int32_t len, const T\& default_value)](./vector/) | Constructs an element [Vector](./) of the specified length. |
 | [Vector(const T* data, int32_t len)](./vector/) | Constructs from an element array. All elements will be copied. |
 | [Vector(std::initializer_list\<T\> init)](./vector/) | Constructs using initialization list. |
 | [Vector(const Vector\& src)](./vector/) | Copy constructor. |

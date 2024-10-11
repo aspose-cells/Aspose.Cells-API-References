@@ -25,6 +25,8 @@ class Object
 | [GetNumberType()](./getnumbertype/) const | Gets the NumberType of the object. |
 | [GetObjPtr()](./getobjptr/) const | Internal use. |
 | [GetType()](./gettype/) const | Gets the ObjectType of the object. |
+| [IsArray1D()](./isarray1d/) const | Checks whether the object is a one-dimensional array. |
+| [IsArray2D()](./isarray2d/) const | Checks whether the object is a two-dimensional array. |
 | [IsBool()](./isbool/) const | Checks whether the object is a bool value. |
 | [IsDate()](./isdate/) const | Checks whether the object is a [Date](../date/) value. |
 | [IsDouble()](./isdouble/) const | Checks whether the object is a double value. |
@@ -32,6 +34,7 @@ class Object
 | [IsNull()](./isnull/) const | Checks whether the object is null. |
 | [IsNumber()](./isnumber/) const | Checks whether the object is a number value. |
 | [IsObject()](./isobject/) const | Checks whether the object is an object pointer. |
+| [IsRange()](./isrange/) const | Checks whether the object is a [Range](../range/) pointer. |
 | [IsReferredArea()](./isreferredarea/) const | Checks whether the object is a [ReferredArea](../referredarea/) pointer. |
 | [IsString()](./isstring/) const | Checks whether the object is a String value. |
 | [Object()](./object/) | Default constructor. Constructs an empty object. |
@@ -49,11 +52,16 @@ class Object
 | [Object(Date value)](./object/) | Constructs from a [Date](../date/) value. |
 | [Object(const U16String\& value)](./object/) | Constructs from [U16String](../u16string/) value. |
 | [Object(const char16_t* value)](./object/) | Constructs from a const char16_t* string. |
+| [Object(const Range\& value)](./object/) | Constructs from a [Range](../range/) value. |
 | [Object(ReferredArea_Impl* value)](./object/) | Internal use. |
 | [Object(System::ObjPtr value)](./object/) | Internal use. |
+| [Object(const Vector \<Object\>\& value)](./object/) | Constructs from a one-dimensional array. |
+| [Object(const Vector \<Vector \<Object\>\>\& value)](./object/) | Constructs from a two-dimensional array. |
 | [Object(const Object\& src)](./object/) | Copy constructor. |
 | [operator System::ObjPtr()](./operator_system_sro_objptr/) const | Internal use. |
 | [operator=(const Object\& src)](./operator_asm/) | operator= |
+| [ToArray1D()](./toarray1d/) const | Gets the one-dimensional array value. |
+| [ToArray2D()](./toarray2d/) const | Gets the two-dimensional array value. |
 | [ToBool()](./tobool/) const | Gets the bool value. |
 | [ToDate()](./todate/) const | Gets the [Date](../date/) value. |
 | [ToDouble()](./todouble/) const | Gets the double value. |
@@ -62,6 +70,7 @@ class Object
 | [ToInt32()](./toint32/) const | Gets the int32_t value. |
 | [ToInt64()](./toint64/) const | Gets the int64_t value. |
 | [ToInt8()](./toint8/) const | Gets the int8_t value. |
+| [ToRange()](./torange/) const | Gets the [Range](../range/) value. |
 | [ToReferredArea()](./toreferredarea/) const | Gets the [ReferredArea](../referredarea/) value. |
 | [ToString()](./tostring/) const | Gets the String value. |
 | [ToUInt16()](./touint16/) const | Gets the uint16_t value. |

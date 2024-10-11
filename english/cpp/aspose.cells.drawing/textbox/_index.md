@@ -33,6 +33,7 @@ class TextBox : public Aspose::Cells::Drawing::Shape
 | [GetAnchorType()](../shape/getanchortype/) | Gets and set the type of the shape anchor placeholder. |
 | [GetAutoShapeType()](../shape/getautoshapetype/) | Gets and sets the auto shape type. |
 | [GetBottom()](../shape/getbottom/) | Represents the width of the shape's vertical offset from its lower bottom corner row, in unit of pixels. |
+| [GetConnectionPoints()](../shape/getconnectionpoints/) | Get the connection points. |
 | [GetControlData()](../shape/getcontroldata/) | Gets the data of control. |
 | [GetCreateId(UUID\& uuid)](../shape/getcreateid/) | Gets and sets create id for this shape. |
 | [GetEquationParagraph(int32_t index)](./getequationparagraph/) | Get the specified math paragraph from the TextBody property of the [TextBox](./) object. Notice: (1) Returns NULL when the index is out of bounds or not found. (2) Also returns NULL if the specified index position is not a math paragraph. |

@@ -28,6 +28,7 @@ url: /cpp/aspose.cells.externalconnections/
 | [ConnectionDataSourceType](./connectiondatasourcetype/) | Specifies external database source type. |
 | [ConnectionParameterType](./connectionparametertype/) | Specifies the parameter type of external connection. |
 | [CredentialsMethodType](./credentialsmethodtype/) | Specifies Credentials method used for server access. |
+| [ExternalConnectionClassType](./externalconnectionclasstype/) | Represents the type of connection. |
 | [HtmlFormatHandlingType](./htmlformathandlingtype/) | Specifies how to handle formatting from the HTML source. |
 | [OLEDBCommandType](./oledbcommandtype/) | Specifies the OLE DB command type. |
 | [ReConnectionMethodType](./reconnectionmethodtype/) | Specifies what the spreadsheet application should do when a connection fails. |

@@ -4,7 +4,7 @@ linktitle: SetConnectionInfo
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ExternalConnections::DBConnection::SetConnectionInfo method. The connection information string is used to make contact with an OLE DB or ODBC data source in C++.'
 type: docs
-weight: 700
+weight: 1000
 url: /cpp/aspose.cells.externalconnections/dbconnection/setconnectioninfo/
 ---
 ## DBConnection::SetConnectionInfo(const U16String\&) method
@@ -12,9 +12,19 @@ url: /cpp/aspose.cells.externalconnections/dbconnection/setconnectioninfo/
 
 The connection information string is used to make contact with an OLE DB or ODBC data source.
 
+
+>Deprecated
+>
+>Use ExternalConnection.ConnectionString property instead. 
 ```cpp
 void Aspose::Cells::ExternalConnections::DBConnection::SetConnectionInfo(const U16String &value)
 ```
+
+## Remarks
+
+
+NOTE: This property is now obsolete. Instead, please use ExternalConnection.ConnectionString property. This method will be removed 12 months later since October 2024. **Aspose** apologizes for any inconvenience you may have experienced.
+
 
 ## See Also
 
@@ -28,9 +38,19 @@ void Aspose::Cells::ExternalConnections::DBConnection::SetConnectionInfo(const U
 
 The connection information string is used to make contact with an OLE DB or ODBC data source.
 
+
+>Deprecated
+>
+>Use ExternalConnection.ConnectionString property instead. 
 ```cpp
 void Aspose::Cells::ExternalConnections::DBConnection::SetConnectionInfo(const char16_t *value)
 ```
+
+## Remarks
+
+
+NOTE: This property is now obsolete. Instead, please use ExternalConnection.ConnectionString property. This method will be removed 12 months later since October 2024. **Aspose** apologizes for any inconvenience you may have experienced.
+
 
 ## See Also
 

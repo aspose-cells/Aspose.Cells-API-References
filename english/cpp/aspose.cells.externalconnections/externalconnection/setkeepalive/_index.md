@@ -4,7 +4,7 @@ linktitle: SetKeepAlive
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ExternalConnections::ExternalConnection::SetKeepAlive method. True when the spreadsheet application should make efforts to keep the connection open. When false, the application should close the connection after retrieving the information in C++.'
 type: docs
-weight: 3000
+weight: 3100
 url: /cpp/aspose.cells.externalconnections/externalconnection/setkeepalive/
 ---
 ## ExternalConnection::SetKeepAlive method

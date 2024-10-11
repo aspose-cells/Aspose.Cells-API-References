@@ -4,7 +4,7 @@ linktitle: GetRefreshOnLoad
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ExternalConnections::ExternalConnection::GetRefreshOnLoad method. True if this connection should be refreshed when opening the file; otherwise, false in C++.'
 type: docs
-weight: 1700
+weight: 1600
 url: /cpp/aspose.cells.externalconnections/externalconnection/getrefreshonload/
 ---
 ## ExternalConnection::GetRefreshOnLoad method

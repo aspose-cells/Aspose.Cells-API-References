@@ -43,6 +43,7 @@ enum class LoadFormat
 | Xml | 51 | <br>Represents a simple xml file. |
 | Epub | 52 | <br>Reprents an EPUB file. |
 | Azw3 | 53 | <br>Represents an AZW3 file. |
+| Chm | 54 | <br>Represents a CHM file. |
 | Unknown | 255 | <br>Represents unrecognized format, cannot be loaded. |
 | Image | 254 | <br>Image. |
 | Json | 513 | <br>[Json](../../aspose.cells.json/). |

@@ -37,6 +37,7 @@ class CommentShape : public Aspose::Cells::Drawing::Shape
 | [GetAutoShapeType()](../shape/getautoshapetype/) | Gets and sets the auto shape type. |
 | [GetBottom()](../shape/getbottom/) | Represents the width of the shape's vertical offset from its lower bottom corner row, in unit of pixels. |
 | [GetComment()](./getcomment/) | Gets the comment object. |
+| [GetConnectionPoints()](../shape/getconnectionpoints/) | Get the connection points. |
 | [GetControlData()](../shape/getcontroldata/) | Gets the data of control. |
 | [GetCreateId(UUID\& uuid)](../shape/getcreateid/) | Gets and sets create id for this shape. |
 | [GetFill()](../shape/getfill/) | Returns a [FillFormat](../fillformat/) object that contains fill formatting properties for the specified shape. |

@@ -13,7 +13,7 @@ url: /cpp/aspose.cells.externalconnections/externalconnection/externalconnection
 Constructs from an implementation object.
 
 ```cpp
-Aspose::Cells::ExternalConnections::ExternalConnection::ExternalConnection(ExternalConnection_Impl *impl)
+Aspose::Cells::ExternalConnections::ExternalConnection::ExternalConnection(ExternalConnection_Impl *impl=nullptr)
 ```
 
 ## See Also

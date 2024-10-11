@@ -4,7 +4,7 @@ linktitle: GetRefreshInternal
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ExternalConnections::ExternalConnection::GetRefreshInternal method. Specifies the number of minutes between automatic refreshes of the connection in C++.'
 type: docs
-weight: 3100
+weight: 3200
 url: /cpp/aspose.cells.externalconnections/externalconnection/getrefreshinternal/
 ---
 ## ExternalConnection::GetRefreshInternal method

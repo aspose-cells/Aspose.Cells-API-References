@@ -33,6 +33,7 @@ class Shape
 | [GetAnchorType()](./getanchortype/) | Gets and set the type of the shape anchor placeholder. |
 | [GetAutoShapeType()](./getautoshapetype/) | Gets and sets the auto shape type. |
 | [GetBottom()](./getbottom/) | Represents the width of the shape's vertical offset from its lower bottom corner row, in unit of pixels. |
+| [GetConnectionPoints()](./getconnectionpoints/) | Get the connection points. |
 | [GetControlData()](./getcontroldata/) | Gets the data of control. |
 | [GetCreateId(UUID\& uuid)](./getcreateid/) | Gets and sets create id for this shape. |
 | [GetFill()](./getfill/) | Returns a [FillFormat](../fillformat/) object that contains fill formatting properties for the specified shape. |

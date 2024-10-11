@@ -4,7 +4,7 @@ linktitle: SetSourceFile
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ExternalConnections::ExternalConnection::SetSourceFile method. Used when the external data source is file-based. When a connection to such a data source fails, the spreadsheet application attempts to connect directly to this file. May be expressed in URI or system-specific file path notation in C++.'
 type: docs
-weight: 1000
+weight: 2500
 url: /cpp/aspose.cells.externalconnections/externalconnection/setsourcefile/
 ---
 ## ExternalConnection::SetSourceFile(const U16String\&) method

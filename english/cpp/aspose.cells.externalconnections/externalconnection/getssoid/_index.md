@@ -4,7 +4,7 @@ linktitle: GetSSOId
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ExternalConnections::ExternalConnection::GetSSOId method. Identifier for Single Sign On (SSO) used for authentication between an intermediate spreadsheetML server and the external data source in C++.'
 type: docs
-weight: 1100
+weight: 1000
 url: /cpp/aspose.cells.externalconnections/externalconnection/getssoid/
 ---
 ## ExternalConnection::GetSSOId method

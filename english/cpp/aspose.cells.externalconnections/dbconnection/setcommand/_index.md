@@ -4,7 +4,7 @@ linktitle: SetCommand
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ExternalConnections::DBConnection::SetCommand method. The string containing the database command to pass to the data provider API that will interact with the external source in order to retrieve data in C++.'
 type: docs
-weight: 1200
+weight: 1500
 url: /cpp/aspose.cells.externalconnections/dbconnection/setcommand/
 ---
 ## DBConnection::SetCommand(const U16String\&) method

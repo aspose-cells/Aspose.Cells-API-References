@@ -4,7 +4,7 @@ linktitle: RefreshData
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::RefreshData method. Refreshes pivottable''s data and setting from it''s data source in C++.'
 type: docs
-weight: 13500
+weight: 13700
 url: /cpp/aspose.cells.pivot/pivottable/refreshdata/
 ---
 ## PivotTable::RefreshData() method
@@ -13,7 +13,7 @@ url: /cpp/aspose.cells.pivot/pivottable/refreshdata/
 Refreshes pivottable's data and setting from it's data source.
 
 ```cpp
-void Aspose::Cells::Pivot::PivotTable::RefreshData()
+PivotRefreshState Aspose::Cells::Pivot::PivotTable::RefreshData()
 ```
 
 ## Remarks
@@ -22,7 +22,7 @@ void Aspose::Cells::Pivot::PivotTable::RefreshData()
 We will gather data from data source to a pivot cache ,then calculate the data in the cache to the cells. This method is only used to gather all data to a pivot cache. 
 ## See Also
 
-* Class [Vector](../../../aspose.cells/vector/)
+* Enum [PivotRefreshState](../../pivotrefreshstate/)
 * Class [PivotTable](../)
 * Namespace [Aspose::Cells::Pivot](../../)
 * Library [Aspose.Cells for C++](../../../)
@@ -32,7 +32,7 @@ We will gather data from data source to a pivot cache ,then calculate the data i
 Refreshes pivottable's data and setting from it's data source with options.
 
 ```cpp
-void Aspose::Cells::Pivot::PivotTable::RefreshData(const PivotTableRefreshOption &option)
+PivotRefreshState Aspose::Cells::Pivot::PivotTable::RefreshData(const PivotTableRefreshOption &option)
 ```
 
 
@@ -42,6 +42,7 @@ void Aspose::Cells::Pivot::PivotTable::RefreshData(const PivotTableRefreshOption
 
 ## See Also
 
+* Enum [PivotRefreshState](../../pivotrefreshstate/)
 * Class [Vector](../../../aspose.cells/vector/)
 * Class [PivotTableRefreshOption](../../pivottablerefreshoption/)
 * Class [PivotTable](../)

@@ -4,7 +4,7 @@ linktitle: GetCommandType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ExternalConnections::DBConnection::GetCommandType method. Specifies the OLE DB command type in C++.'
 type: docs
-weight: 900
+weight: 1200
 url: /cpp/aspose.cells.externalconnections/dbconnection/getcommandtype/
 ---
 ## DBConnection::GetCommandType method

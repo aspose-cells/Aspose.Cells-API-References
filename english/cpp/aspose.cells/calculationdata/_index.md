@@ -30,6 +30,7 @@ class CalculationData
 | [GetParamCount()](./getparamcount/) | Gets the count of parameters. |
 | [GetParamText(int32_t index)](./getparamtext/) | Gets the literal text of the parameter at given index. |
 | [GetParamValue(int32_t index)](./getparamvalue/) | Gets the represented value object of the parameter at given index. |
+| [GetParamValueInArrayMode(int32_t index, int32_t maxRowCount, int32_t maxColumnCount)](./getparamvalueinarraymode/) | Gets the value(s) of the parameter at given index. If the parameter is some kind of expression that needs to be calculated, then it will be calculated in array mode. |
 | [GetWorkbook()](./getworkbook/) | Gets the [Workbook](../workbook/) object where the function is in. |
 | [GetWorksheet()](./getworksheet/) | Gets the [Worksheet](../worksheet/) object where the function is in. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |

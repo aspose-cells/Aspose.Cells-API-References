@@ -41,6 +41,12 @@ class Worksheet
 | [AutoFitRows(const AutoFitterOptions\& options)](./autofitrows/) | Autofits all rows in this worksheet. |
 | [AutoFitRows(int32_t startRow, int32_t endRow)](./autofitrows/) | Autofits row height in a range. |
 | [AutoFitRows(int32_t startRow, int32_t endRow, const AutoFitterOptions\& options)](./autofitrows/) | Autofits row height in a range. |
+| [CalculateArrayFormula(const U16String\& formula, const CalculationOptions\& opts)](./calculatearrayformula/) | Calculates a formula as array formula. |
+| [CalculateArrayFormula(const char16_t* formula, const CalculationOptions\& opts)](./calculatearrayformula/) | Calculates a formula as array formula. |
+| [CalculateArrayFormula(const U16String\& formula, const CalculationOptions\& opts, int32_t maxRowCount, int32_t maxColumnCount)](./calculatearrayformula/) | Calculates a formula as array formula. |
+| [CalculateArrayFormula(const char16_t* formula, const CalculationOptions\& opts, int32_t maxRowCount, int32_t maxColumnCount)](./calculatearrayformula/) | Calculates a formula as array formula. |
+| [CalculateArrayFormula(const U16String\& formula, const FormulaParseOptions\& pOpts, const CalculationOptions\& cOpts, int32_t baseCellRow, int32_t baseCellColumn, int32_t maxRowCount, int32_t maxColumnCount, const CalculationData\& calculationData)](./calculatearrayformula/) | Calculates a formula as array formula. |
+| [CalculateArrayFormula(const char16_t* formula, const FormulaParseOptions\& pOpts, const CalculationOptions\& cOpts, int32_t baseCellRow, int32_t baseCellColumn, int32_t maxRowCount, int32_t maxColumnCount, const CalculationData\& calculationData)](./calculatearrayformula/) | Calculates a formula as array formula. |
 | [CalculateFormula(const U16String\& formula)](./calculateformula/) | Calculates a formula. |
 | [CalculateFormula(const char16_t* formula)](./calculateformula/) | Calculates a formula. |
 | [CalculateFormula(const U16String\& formula, const CalculationOptions\& opts)](./calculateformula/) | Calculates a formula expression directly. |

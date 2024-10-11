@@ -69,6 +69,7 @@ class Cells
 | [EndCellInColumn(int32_t startRow, int32_t endRow, int16_t startColumn, int16_t endColumn)](./endcellincolumn/) | Gets the last cell with maximum column index in this range. |
 | [EndCellInRow(int32_t rowIndex)](./endcellinrow/) | Gets the last cell in this row. |
 | [EndCellInRow(int32_t startRow, int32_t endRow, int32_t startColumn, int32_t endColumn)](./endcellinrow/) | Gets the last cell with maximum row index in this range. |
+| [ExportArray(int32_t firstRow, int32_t firstColumn, int32_t totalRows, int32_t totalColumns)](./exportarray/) | Exports data in the [Cells](./) collection to a two-dimension array object. |
 | [Find(const Aspose::Cells::Object\& what, const Cell\& previousCell)](./find/) | Finds the cell containing with the input object. |
 | [Find(const Aspose::Cells::Object\& what, const Cell\& previousCell, const FindOptions\& findOptions)](./find/) | Finds the cell containing with the input object. |
 | [Get(int32_t row, int32_t column)](./get/) | Gets the [Cell](../cell/) element at the specified cell row index and column index. |

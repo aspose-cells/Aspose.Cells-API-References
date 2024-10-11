@@ -2,28 +2,39 @@
 title: Aspose::Cells::Vector::Vector constructor
 linktitle: Vector
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Vector::Vector constructor. Constructs an element Vector of the specified length in C++.'
+description: 'Aspose::Cells::Vector::Vector constructor. Default constructor. Constructs an empty Vector in C++.'
 type: docs
 weight: 100
 url: /cpp/aspose.cells/vector/vector/
 ---
-## Vector::Vector(int32_t) constructor
+## Vector::Vector() constructor
+
+
+Default constructor. Constructs an empty [Vector](../).
+
+```cpp
+Aspose::Cells::Vector<T>::Vector()
+```
+
+## See Also
+
+* Class [Vector](../)
+* Namespace [Aspose::Cells](../../)
+* Library [Aspose.Cells for C++](../../../)
+## Vector::Vector(int32_t, const T\&) constructor
 
 
 Constructs an element [Vector](../) of the specified length.
 
 ```cpp
-Aspose::Cells::Vector<T>::Vector(int32_t len)
+Aspose::Cells::Vector<T>::Vector(int32_t len, const T &default_value=T())
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | len | int32_t |  |
-
-## ReturnValue
-
-
+| default_value | const T\& |  |
 
 ## See Also
 
@@ -45,10 +56,6 @@ Aspose::Cells::Vector<T>::Vector(const T *data, int32_t len)
 | --- | --- | --- |
 | data | const T* | The element array pointer |
 | len | int32_t | The length of the array |
-
-## ReturnValue
-
-
 
 ## See Also
 

@@ -231,6 +231,22 @@ Aspose::Cells::Object::Object(const char16_t *value)
 * Class [Object](../)
 * Namespace [Aspose::Cells](../../)
 * Library [Aspose.Cells for C++](../../../)
+## Object::Object(const Range\&) constructor
+
+
+Constructs from a [Range](../../range/) value.
+
+```cpp
+Aspose::Cells::Object::Object(const Range &value)
+```
+
+## See Also
+
+* Class [Vector](../../vector/)
+* Class [Range](../../range/)
+* Class [Object](../)
+* Namespace [Aspose::Cells](../../)
+* Library [Aspose.Cells for C++](../../../)
 ## Object::Object(ReferredArea_Impl*) constructor
 
 
@@ -258,6 +274,38 @@ Aspose::Cells::Object::Object(System::ObjPtr value)
 ## See Also
 
 * Typedef [ObjPtr](../../../aspose.cells.system/objptr/)
+* Class [Object](../)
+* Namespace [Aspose::Cells](../../)
+* Library [Aspose.Cells for C++](../../../)
+## Object::Object(const Vector \<Object\>\&) constructor
+
+
+Constructs from a one-dimensional array.
+
+```cpp
+Aspose::Cells::Object::Object(const Vector<Object> &value)
+```
+
+## See Also
+
+* Class [Vector](../../vector/)
+* Class [Object](../)
+* Class [Object](../)
+* Namespace [Aspose::Cells](../../)
+* Library [Aspose.Cells for C++](../../../)
+## Object::Object(const Vector \<Vector \<Object\>\>\&) constructor
+
+
+Constructs from a two-dimensional array.
+
+```cpp
+Aspose::Cells::Object::Object(const Vector<Vector<Object>> &value)
+```
+
+## See Also
+
+* Class [Vector](../../vector/)
+* Class [Object](../)
 * Class [Object](../)
 * Namespace [Aspose::Cells](../../)
 * Library [Aspose.Cells for C++](../../../)

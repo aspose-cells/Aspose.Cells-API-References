@@ -4,7 +4,7 @@ linktitle: SetSaveData
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ExternalConnections::ExternalConnection::SetSaveData method. True if the external data fetched over the connection to populate a table is to be saved with the workbook; otherwise, false in C++.'
 type: docs
-weight: 1600
+weight: 1500
 url: /cpp/aspose.cells.externalconnections/externalconnection/setsavedata/
 ---
 ## ExternalConnection::SetSaveData method

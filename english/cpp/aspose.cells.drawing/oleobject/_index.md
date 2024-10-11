@@ -36,6 +36,7 @@ class OleObject : public Aspose::Cells::Drawing::Shape
 | [GetAutoUpdate()](./getautoupdate/) | Specifies whether the link to the [OleObject](./) is automatically updated or not. |
 | [GetBottom()](../shape/getbottom/) | Represents the width of the shape's vertical offset from its lower bottom corner row, in unit of pixels. |
 | [GetClassIdentifier()](./getclassidentifier/) | Gets and sets the class identifier of the embedded object. It means which application opens the embedded file. |
+| [GetConnectionPoints()](../shape/getconnectionpoints/) | Get the connection points. |
 | [GetControlData()](../shape/getcontroldata/) | Gets the data of control. |
 | [GetCreateId(UUID\& uuid)](../shape/getcreateid/) | Gets and sets create id for this shape. |
 | [GetDisplayAsIcon()](./getdisplayasicon/) | True if the specified object is displayed as an icon and the image will not be auto changed. |

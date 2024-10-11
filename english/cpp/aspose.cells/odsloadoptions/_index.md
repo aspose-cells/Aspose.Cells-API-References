@@ -43,6 +43,7 @@ class OdsLoadOptions : public Aspose::Cells::LoadOptions
 | [GetRefreshPivotTables()](./getrefreshpivottables/) | Indicates whether refresh pivot tables when loading file. |
 | [GetRegion()](../loadoptions/getregion/) | Gets or sets the system regional settings based on CountryCode at the time the file was loaded. |
 | [GetWarningCallback()](../loadoptions/getwarningcallback/) | Gets or sets warning callback. |
+| [IsClassicPivotTable()](./isclassicpivottable/) | Indicates whether the pivot table is classic. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | [LoadOptions()](../loadoptions/loadoptions/) | Creates an options of loading the file. |
 | explicit [LoadOptions(LoadFormat loadFormat)](../loadoptions/loadoptions/) | Creates an options of loading the file. |
@@ -65,6 +66,7 @@ class OdsLoadOptions : public Aspose::Cells::LoadOptions
 | [SetIgnoreNotPrinted(bool value)](../loadoptions/setignorenotprinted/) | Ignore the data which are not printed if directly printing the file. |
 | [SetIgnoreUselessShapes(bool value)](../loadoptions/setignoreuselessshapes/) | Indicates whether ignoring useless shapes. |
 | [SetInterruptMonitor(AbstractInterruptMonitor* value)](../loadoptions/setinterruptmonitor/) | Gets and sets the interrupt monitor. |
+| [SetIsClassicPivotTable(bool value)](./setisclassicpivottable/) | Indicates whether the pivot table is classic. |
 | [SetKeepUnparsedData(bool value)](../loadoptions/setkeepunparseddata/) | Whether keep the unparsed data in memory for the [Workbook](../workbook/) when it is loaded from template file. Default is true. |
 | [SetLanguageCode(CountryCode value)](../loadoptions/setlanguagecode/) | Gets or sets the user interface language of the [Workbook](../workbook/) version based on CountryCode that has saved the file. |
 | [SetLightCellsDataHandler(LightCellsDataHandler* value)](../loadoptions/setlightcellsdatahandler/) | The data handler for processing cells data when reading template file. |

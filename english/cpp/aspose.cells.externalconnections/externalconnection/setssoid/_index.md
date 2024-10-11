@@ -4,7 +4,7 @@ linktitle: SetSSOId
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ExternalConnections::ExternalConnection::SetSSOId method. Identifier for Single Sign On (SSO) used for authentication between an intermediate spreadsheetML server and the external data source in C++.'
 type: docs
-weight: 1200
+weight: 1100
 url: /cpp/aspose.cells.externalconnections/externalconnection/setssoid/
 ---
 ## ExternalConnection::SetSSOId(const U16String\&) method

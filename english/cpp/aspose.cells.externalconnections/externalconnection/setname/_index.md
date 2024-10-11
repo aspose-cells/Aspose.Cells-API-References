@@ -4,7 +4,7 @@ linktitle: SetName
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ExternalConnections::ExternalConnection::SetName method. Specifies the name of the connection. Each connection must have a unique name in C++.'
 type: docs
-weight: 2800
+weight: 2900
 url: /cpp/aspose.cells.externalconnections/externalconnection/setname/
 ---
 ## ExternalConnection::SetName(const U16String\&) method

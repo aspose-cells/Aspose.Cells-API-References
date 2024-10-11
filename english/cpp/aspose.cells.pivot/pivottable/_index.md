@@ -66,17 +66,18 @@ class PivotTable
 | [GetEnableFieldList()](./getenablefieldlist/) | Gets whether enable the field list for the [PivotTable](./). |
 | [GetEnableWizard()](./getenablewizard/) | Indicates whether the [PivotTable](./) Wizard is available. |
 | [GetErrorString()](./geterrorstring/) | Gets the string displayed in cells that contain errors when the DisplayErrorString property is true.The default value is an empty string. |
-| [GetExternalConnectionDataSource()](./getexternalconnectiondatasource/) | Gets the external connection data source. |
+| [GetExternalConnectionDataSource()](./getexternalconnectiondatasource/) |  **(Deprecated)** Gets the external connection data source. |
 | [GetFieldListSortAscending()](./getfieldlistsortascending/) | Indicates whether fields in the [PivotTable](./) are sorted in non-default order in the field list. |
 | [GetFields(PivotFieldType fieldType)](./getfields/) | Gets the specific pivot field list by the region. |
 | [GetGrandTotalName()](./getgrandtotalname/) | Returns the text string label that is displayed in the grand total column or row heading. The default value is the string "Grand Total". |
 | [GetHasBlankRows()](./gethasblankrows/) | Indicates whether to add blank rows. This property only applies for the [PivotTable](./) auto format types which needs to add blank rows. |
 | [GetIndent()](./getindent/) | Specifies the indentation increment for compact axis and can be used to set the Report Layout to Compact Form. |
-| [GetItemPrintTitles()](./getitemprinttitles/) | Indicates whether [PivotItem](../pivotitem/) names should be repeated at the top of each printed page. |
+| [GetItemPrintTitles()](./getitemprinttitles/) |  **(Deprecated)** Indicates whether [PivotItem](../pivotitem/) names should be repeated at the top of each printed page. |
 | [GetManualUpdate()](./getmanualupdate/) | Indicates whether the [PivotTable](./) report is recalculated only at the user's request. |
 | [GetMergeLabels()](./getmergelabels/) | True if the specified [PivotTable](./) report's outer-row item, column item, subtotal, and grand total labels use merged cells. |
 | [GetMissingItemsLimit()](./getmissingitemslimit/) | Specifies a boolean value that indicates whether the fields of a [PivotTable](./) can have multiple filters set on them. |
 | [GetName()](./getname/) | Gets the name of the [PivotTable](./). |
+| [GetNamesOfSourceDataConnections()](./getnamesofsourcedataconnections/) | Gets the name of external source data connections. |
 | [GetNullString()](./getnullstring/) | Gets the string displayed in cells that contain null values when the DisplayNullString property is true.The default value is an empty string. |
 | [GetPageFieldOrder()](./getpagefieldorder/) | Gets and sets the order in which page fields are added to the [PivotTable](./) report's layout. |
 | [GetPageFields()](./getpagefields/) | Returns a PivotFields object that are currently shown as page fields. |
@@ -93,6 +94,7 @@ class PivotTable
 | [GetRefreshDataOnOpeningFile()](./getrefreshdataonopeningfile/) | Indicates whether Refresh Data when Opening File. |
 | [GetRefreshDate()](./getrefreshdate/) | Gets the last date time when the [PivotTable](./) was refreshed. |
 | [GetRefreshedByWho()](./getrefreshedbywho/) | Gets the name of the last user who refreshed this [PivotTable](./). |
+| [GetRepeatItemsOnEachPrintedPage()](./getrepeatitemsoneachprintedpage/) | Indicates whether pivot item captions on the row area are repeated on each printed page for pivot fields in tabular form. |
 | [GetRowFields()](./getrowfields/) | Returns a PivotFields object that are currently shown as row fields. |
 | [GetRowGrand()](./getrowgrand/) | Indicates whether the [PivotTable](./) report shows grand totals for rows. |
 | [GetRowHeaderCaption()](./getrowheadercaption/) | Gets the [Row](../../aspose.cells/row/) Header Caption of the [PivotTable](./). |
@@ -109,8 +111,9 @@ class PivotTable
 | [GetShowPivotStyleRowHeader()](./getshowpivotstylerowheader/) | Indicates whether the row header in the pivot table should have the style applied. |
 | [GetShowPivotStyleRowStripes()](./getshowpivotstylerowstripes/) | Indicates whether row stripe formatting is applied. |
 | [GetShowRowHeaderCaption()](./getshowrowheadercaption/) | Indicates whether row header caption is shown in the [PivotTable](./) report Indicates whether Display field captions and filter drop downs. |
-| [GetShowValuesRow()](./getshowvaluesrow/) | Specifies a boolean value that indicates whether show values row. show the values row. |
+| [GetShowValuesRow()](./getshowvaluesrow/) | Indicates whether showing values row. |
 | [GetSource()](./getsource/) | Get pivottable's source data. |
+| [GetSourceDataConnections()](./getsourcedataconnections/) | Gets the external connection data sources. |
 | [GetSourceType()](./getsourcetype/) | Gets the data source type of the pivot table. |
 | [GetSubtotalHiddenPageItems()](./getsubtotalhiddenpageitems/) | Indicates whether hidden page field items in the [PivotTable](./) report are included in row and column subtotals, block totals, and grand totals. The default value is False. |
 | [GetTableRange1()](./gettablerange1/) | Returns a [CellArea](../../aspose.cells/cellarea/) object that represents the range containing the entire [PivotTable](./) report, but doesn't include page fields. Read-only. |
@@ -168,7 +171,7 @@ class PivotTable
 | [SetIsGridDropZones(bool value)](./setisgriddropzones/) | Indicates whether the [PivotTable](./) report displays classic pivottable layout. (enables dragging fields in the grid) |
 | [SetIsMultipleFieldFilters(bool value)](./setismultiplefieldfilters/) | Specifies a boolean value that indicates whether the fields of a [PivotTable](./) can have multiple filters set on them. |
 | [SetIsSelected(bool value)](./setisselected/) | Indicates whether this [PivotTable](./) is selected. |
-| [SetItemPrintTitles(bool value)](./setitemprinttitles/) | Indicates whether [PivotItem](../pivotitem/) names should be repeated at the top of each printed page. |
+| [SetItemPrintTitles(bool value)](./setitemprinttitles/) |  **(Deprecated)** Indicates whether [PivotItem](../pivotitem/) names should be repeated at the top of each printed page. |
 | [SetManualUpdate(bool value)](./setmanualupdate/) | Indicates whether the [PivotTable](./) report is recalculated only at the user's request. |
 | [SetMergeLabels(bool value)](./setmergelabels/) | True if the specified [PivotTable](./) report's outer-row item, column item, subtotal, and grand total labels use merged cells. |
 | [SetMissingItemsLimit(PivotMissingItemLimitType value)](./setmissingitemslimit/) | Specifies a boolean value that indicates whether the fields of a [PivotTable](./) can have multiple filters set on them. |
@@ -186,6 +189,7 @@ class PivotTable
 | [SetPrintTitles(bool value)](./setprinttitles/) | Indicates whether the print titles for the worksheet are set based on the [PivotTable](./) report. The default value is false. |
 | [SetRefreshDataFlag(bool value)](./setrefreshdataflag/) | Indicates whether Refreshing Data or not. |
 | [SetRefreshDataOnOpeningFile(bool value)](./setrefreshdataonopeningfile/) | Indicates whether Refresh Data when Opening File. |
+| [SetRepeatItemsOnEachPrintedPage(bool value)](./setrepeatitemsoneachprintedpage/) | Indicates whether pivot item captions on the row area are repeated on each printed page for pivot fields in tabular form. |
 | [SetRowGrand(bool value)](./setrowgrand/) | Indicates whether the [PivotTable](./) report shows grand totals for rows. |
 | [SetRowHeaderCaption(const U16String\& value)](./setrowheadercaption/) | Gets the [Row](../../aspose.cells/row/) Header Caption of the [PivotTable](./). |
 | [SetRowHeaderCaption(const char16_t* value)](./setrowheadercaption/) | Gets the [Row](../../aspose.cells/row/) Header Caption of the [PivotTable](./). |
@@ -201,7 +205,7 @@ class PivotTable
 | [SetShowPivotStyleRowHeader(bool value)](./setshowpivotstylerowheader/) | Indicates whether the row header in the pivot table should have the style applied. |
 | [SetShowPivotStyleRowStripes(bool value)](./setshowpivotstylerowstripes/) | Indicates whether row stripe formatting is applied. |
 | [SetShowRowHeaderCaption(bool value)](./setshowrowheadercaption/) | Indicates whether row header caption is shown in the [PivotTable](./) report Indicates whether Display field captions and filter drop downs. |
-| [SetShowValuesRow(bool value)](./setshowvaluesrow/) | Specifies a boolean value that indicates whether show values row. show the values row. |
+| [SetShowValuesRow(bool value)](./setshowvaluesrow/) | Indicates whether showing values row. |
 | [SetSubtotalHiddenPageItems(bool value)](./setsubtotalhiddenpageitems/) | Indicates whether hidden page field items in the [PivotTable](./) report are included in row and column subtotals, block totals, and grand totals. The default value is False. |
 | [SetTag(const U16String\& value)](./settag/) | Gets a string saved with the [PivotTable](./) report. |
 | [SetTag(const char16_t* value)](./settag/) | Gets a string saved with the [PivotTable](./) report. |

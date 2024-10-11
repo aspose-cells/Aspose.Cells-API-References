@@ -2,7 +2,7 @@
 title: Aspose::Cells::Pivot::PivotTableCollection::Add method
 linktitle: Add
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Pivot::PivotTableCollection::Add method. Adds a new PivotTable cache to a PivotCaches collection in C++.'
+description: 'Aspose::Cells::Pivot::PivotTableCollection::Add method. Adds a new PivotTable in C++.'
 type: docs
 weight: 700
 url: /cpp/aspose.cells.pivot/pivottablecollection/add/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.pivot/pivottablecollection/add/
 ## PivotTableCollection::Add(const U16String\&, const U16String\&, const U16String\&) method
 
 
-Adds a new [PivotTable](../../pivottable/) cache to a PivotCaches collection.
+Adds a new [PivotTable](../../pivottable/).
 
 ```cpp
 int32_t Aspose::Cells::Pivot::PivotTableCollection::Add(const U16String &sourceData, const U16String &destCellName, const U16String &tableName)
@@ -37,7 +37,7 @@ The new added cache index.
 ## PivotTableCollection::Add(const char16_t*, const char16_t*, const char16_t*) method
 
 
-Adds a new [PivotTable](../../pivottable/) cache to a PivotCaches collection.
+Adds a new [PivotTable](../../pivottable/).
 
 ```cpp
 int32_t Aspose::Cells::Pivot::PivotTableCollection::Add(const char16_t *sourceData, const char16_t *destCellName, const char16_t *tableName)
@@ -63,7 +63,7 @@ The new added cache index.
 ## PivotTableCollection::Add(const U16String\&, const U16String\&, const U16String\&, bool) method
 
 
-Adds a new [PivotTable](../../pivottable/) cache to a PivotCaches collection.
+Adds a new [PivotTable](../../pivottable/).
 
 ```cpp
 int32_t Aspose::Cells::Pivot::PivotTableCollection::Add(const U16String &sourceData, const U16String &destCellName, const U16String &tableName, bool useSameSource)
@@ -91,7 +91,7 @@ The new added cache index.
 ## PivotTableCollection::Add(const char16_t*, const char16_t*, const char16_t*, bool) method
 
 
-Adds a new [PivotTable](../../pivottable/) cache to a PivotCaches collection.
+Adds a new [PivotTable](../../pivottable/).
 
 ```cpp
 int32_t Aspose::Cells::Pivot::PivotTableCollection::Add(const char16_t *sourceData, const char16_t *destCellName, const char16_t *tableName, bool useSameSource)
@@ -118,7 +118,7 @@ The new added cache index.
 ## PivotTableCollection::Add(const U16String\&, int32_t, int32_t, const U16String\&) method
 
 
-Adds a new [PivotTable](../../pivottable/) cache to a PivotCaches collection.
+Adds a new [PivotTable](../../pivottable/).
 
 ```cpp
 int32_t Aspose::Cells::Pivot::PivotTableCollection::Add(const U16String &sourceData, int32_t row, int32_t column, const U16String &tableName)
@@ -146,7 +146,7 @@ The new added cache index.
 ## PivotTableCollection::Add(const char16_t*, int32_t, int32_t, const char16_t*) method
 
 
-Adds a new [PivotTable](../../pivottable/) cache to a PivotCaches collection.
+Adds a new [PivotTable](../../pivottable/).
 
 ```cpp
 int32_t Aspose::Cells::Pivot::PivotTableCollection::Add(const char16_t *sourceData, int32_t row, int32_t column, const char16_t *tableName)
@@ -173,7 +173,7 @@ The new added cache index.
 ## PivotTableCollection::Add(const U16String\&, int32_t, int32_t, const U16String\&, bool) method
 
 
-Adds a new [PivotTable](../../pivottable/) cache to a PivotCaches collection.
+Adds a new [PivotTable](../../pivottable/).
 
 ```cpp
 int32_t Aspose::Cells::Pivot::PivotTableCollection::Add(const U16String &sourceData, int32_t row, int32_t column, const U16String &tableName, bool useSameSource)
@@ -202,7 +202,7 @@ The new added cache index.
 ## PivotTableCollection::Add(const char16_t*, int32_t, int32_t, const char16_t*, bool) method
 
 
-Adds a new [PivotTable](../../pivottable/) cache to a PivotCaches collection.
+Adds a new [PivotTable](../../pivottable/).
 
 ```cpp
 int32_t Aspose::Cells::Pivot::PivotTableCollection::Add(const char16_t *sourceData, int32_t row, int32_t column, const char16_t *tableName, bool useSameSource)
@@ -227,10 +227,126 @@ The new added cache index.
 * Class [PivotTableCollection](../)
 * Namespace [Aspose::Cells::Pivot](../../)
 * Library [Aspose.Cells for C++](../../../)
+## PivotTableCollection::Add(const U16String\&, int32_t, int32_t, const U16String\&, bool, bool) method
+
+
+Adds a new [PivotTable](../../pivottable/).
+
+```cpp
+int32_t Aspose::Cells::Pivot::PivotTableCollection::Add(const U16String &sourceData, int32_t row, int32_t column, const U16String &tableName, bool useSameSource, bool isXlsClassic)
+```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sourceData | const U16String\& | The data cell range for the new PivotTable.Example : Sheet1!A1:C8 |
+| row | int32_t | [Row](../../../aspose.cells/row/) index of the cell in the upper-left corner of the [PivotTable](../../pivottable/) report's destination range. |
+| column | int32_t | [Column](../../../aspose.cells/column/) index of the cell in the upper-left corner of the [PivotTable](../../pivottable/) report's destination range. |
+| tableName | const U16String\& | The name of the new [PivotTable](../../pivottable/) report. |
+| useSameSource | bool | Indicates whether using same data source when another existing pivot table has used this data source. If the property is true, it will save memory. |
+| isXlsClassic | bool | Indicates whether add classic pivot table of Excel 97-2003. |
+
+## ReturnValue
+
+The new added cache index.
+
+## See Also
+
+* Class [Vector](../../../aspose.cells/vector/)
+* Class [U16String](../../../aspose.cells/u16string/)
+* Class [PivotTableCollection](../)
+* Namespace [Aspose::Cells::Pivot](../../)
+* Library [Aspose.Cells for C++](../../../)
+## PivotTableCollection::Add(const char16_t*, int32_t, int32_t, const char16_t*, bool, bool) method
+
+
+Adds a new [PivotTable](../../pivottable/).
+
+```cpp
+int32_t Aspose::Cells::Pivot::PivotTableCollection::Add(const char16_t *sourceData, int32_t row, int32_t column, const char16_t *tableName, bool useSameSource, bool isXlsClassic)
+```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sourceData | const char16_t* | The data cell range for the new PivotTable.Example : Sheet1!A1:C8 |
+| row | int32_t | [Row](../../../aspose.cells/row/) index of the cell in the upper-left corner of the [PivotTable](../../pivottable/) report's destination range. |
+| column | int32_t | [Column](../../../aspose.cells/column/) index of the cell in the upper-left corner of the [PivotTable](../../pivottable/) report's destination range. |
+| tableName | const char16_t* | The name of the new [PivotTable](../../pivottable/) report. |
+| useSameSource | bool | Indicates whether using same data source when another existing pivot table has used this data source. If the property is true, it will save memory. |
+| isXlsClassic | bool | Indicates whether add classic pivot table of Excel 97-2003. |
+
+## ReturnValue
+
+The new added cache index.
+
+## See Also
+
+* Class [Vector](../../../aspose.cells/vector/)
+* Class [PivotTableCollection](../)
+* Namespace [Aspose::Cells::Pivot](../../)
+* Library [Aspose.Cells for C++](../../../)
+## PivotTableCollection::Add(const U16String\&, const U16String\&, const U16String\&, bool, bool) method
+
+
+Adds a new [PivotTable](../../pivottable/).
+
+```cpp
+int32_t Aspose::Cells::Pivot::PivotTableCollection::Add(const U16String &sourceData, const U16String &cell, const U16String &tableName, bool useSameSource, bool isXlsClassic)
+```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sourceData | const U16String\& | The data cell range for the new PivotTable.Example : Sheet1!A1:C8 |
+| cell | const U16String\& | The cell in the upper-left corner of the [PivotTable](../../pivottable/) report's destination range. |
+| tableName | const U16String\& | The name of the new [PivotTable](../../pivottable/) report. |
+| useSameSource | bool | Indicates whether using same data source when another existing pivot table has used this data source. If the property is true, it will save memory. |
+| isXlsClassic | bool | Indicates whether add classic pivot table of Excel 97-2003. |
+
+## ReturnValue
+
+The new added cache index.
+
+## See Also
+
+* Class [Vector](../../../aspose.cells/vector/)
+* Class [U16String](../../../aspose.cells/u16string/)
+* Class [PivotTableCollection](../)
+* Namespace [Aspose::Cells::Pivot](../../)
+* Library [Aspose.Cells for C++](../../../)
+## PivotTableCollection::Add(const char16_t*, const char16_t*, const char16_t*, bool, bool) method
+
+
+Adds a new [PivotTable](../../pivottable/).
+
+```cpp
+int32_t Aspose::Cells::Pivot::PivotTableCollection::Add(const char16_t *sourceData, const char16_t *cell, const char16_t *tableName, bool useSameSource, bool isXlsClassic)
+```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sourceData | const char16_t* | The data cell range for the new PivotTable.Example : Sheet1!A1:C8 |
+| cell | const char16_t* | The cell in the upper-left corner of the [PivotTable](../../pivottable/) report's destination range. |
+| tableName | const char16_t* | The name of the new [PivotTable](../../pivottable/) report. |
+| useSameSource | bool | Indicates whether using same data source when another existing pivot table has used this data source. If the property is true, it will save memory. |
+| isXlsClassic | bool | Indicates whether add classic pivot table of Excel 97-2003. |
+
+## ReturnValue
+
+The new added cache index.
+
+## See Also
+
+* Class [Vector](../../../aspose.cells/vector/)
+* Class [PivotTableCollection](../)
+* Namespace [Aspose::Cells::Pivot](../../)
+* Library [Aspose.Cells for C++](../../../)
 ## PivotTableCollection::Add(const PivotTable\&, const U16String\&, const U16String\&) method
 
 
-Adds a new [PivotTable](../../pivottable/)[Object](../../../aspose.cells/object/) to the collection from another [PivotTable](../../pivottable/).
+Adds a new [PivotTable](../../pivottable/) based on another [PivotTable](../../pivottable/).
 
 ```cpp
 int32_t Aspose::Cells::Pivot::PivotTableCollection::Add(const PivotTable &pivotTable, const U16String &destCellName, const U16String &tableName)
@@ -258,7 +374,7 @@ The new added [PivotTable](../../pivottable/) index.
 ## PivotTableCollection::Add(const PivotTable\&, const char16_t*, const char16_t*) method
 
 
-Adds a new [PivotTable](../../pivottable/)[Object](../../../aspose.cells/object/) to the collection from another [PivotTable](../../pivottable/).
+Adds a new [PivotTable](../../pivottable/) based on another [PivotTable](../../pivottable/).
 
 ```cpp
 int32_t Aspose::Cells::Pivot::PivotTableCollection::Add(const PivotTable &pivotTable, const char16_t *destCellName, const char16_t *tableName)
@@ -285,7 +401,7 @@ The new added [PivotTable](../../pivottable/) index.
 ## PivotTableCollection::Add(const PivotTable\&, int32_t, int32_t, const U16String\&) method
 
 
-Adds a new [PivotTable](../../pivottable/)[Object](../../../aspose.cells/object/) to the collection from another [PivotTable](../../pivottable/).
+Adds a new [PivotTable](../../pivottable/) based on another [PivotTable](../../pivottable/).
 
 ```cpp
 int32_t Aspose::Cells::Pivot::PivotTableCollection::Add(const PivotTable &pivotTable, int32_t row, int32_t column, const U16String &tableName)
@@ -314,7 +430,7 @@ The new added [PivotTable](../../pivottable/) index.
 ## PivotTableCollection::Add(const PivotTable\&, int32_t, int32_t, const char16_t*) method
 
 
-Adds a new [PivotTable](../../pivottable/)[Object](../../../aspose.cells/object/) to the collection from another [PivotTable](../../pivottable/).
+Adds a new [PivotTable](../../pivottable/) based on another [PivotTable](../../pivottable/).
 
 ```cpp
 int32_t Aspose::Cells::Pivot::PivotTableCollection::Add(const PivotTable &pivotTable, int32_t row, int32_t column, const char16_t *tableName)

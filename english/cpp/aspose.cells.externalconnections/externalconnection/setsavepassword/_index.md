@@ -4,7 +4,7 @@ linktitle: SetSavePassword
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ExternalConnections::ExternalConnection::SetSavePassword method. True if the password is to be saved as part of the connection string; otherwise, False in C++.'
 type: docs
-weight: 1400
+weight: 1300
 url: /cpp/aspose.cells.externalconnections/externalconnection/setsavepassword/
 ---
 ## ExternalConnection::SetSavePassword method
