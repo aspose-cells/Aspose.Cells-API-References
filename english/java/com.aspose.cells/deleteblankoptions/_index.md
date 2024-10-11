@@ -28,9 +28,7 @@ Represents the setting of deleting blank cells/rows/columns.
 | [getEmptyFormulaValueAsBlank()](#getEmptyFormulaValueAsBlank--) | Whether one cell will be taken as blank when it is formula and the calculated result is null or empty string. |
 | [getEmptyStringAsBlank()](#getEmptyStringAsBlank--) | Whether one cell will be taken as blank when its value is empty string. |
 | [getEndIndex()](#getEndIndex--) | Specifies the end row/column index(inclusive) of the range to check and delete blank rows/columns. |
-| [getMergedCellsShrinkType()](#getMergedCellsShrinkType--) | Indicates how to process merged cells when deleting blank rows/columns.
-
-For [MergedCellsShrinkType.KEEP\_HEADER\_ONLY](../../com.aspose.cells/mergedcellsshrinktype\#KEEP-HEADER-ONLY), all cells in it will be taken as blank except the non-blank top-left cell. |
+| [getMergedCellsShrinkType()](#getMergedCellsShrinkType--) | Indicates how to process merged cells when deleting blank rows/columns. |
 | [getStartIndex()](#getStartIndex--) | Specifies the start row/column index of the range to check and delete blank rows/columns. |
 | [getUpdateReference()](#getUpdateReference--) | Indicates if update references in other worksheets. |
 | [hashCode()](#hashCode--) |  |
