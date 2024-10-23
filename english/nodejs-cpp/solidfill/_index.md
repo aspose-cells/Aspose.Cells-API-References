@@ -19,8 +19,8 @@ class SolidFill;
 
 | Method | Description |
 | --- | --- |
-| [getColor()](#getColor--)| Gets or sets the [System.Drawing.Color](../system.drawing.color/). |
-| [setColor(Color)](#setColor-color-)| Gets or sets the [System.Drawing.Color](../system.drawing.color/). |
+| [getColor()](#getColor--)| Gets or sets the [Color](../color/). |
+| [setColor(Color)](#setColor-color-)| Gets or sets the [Color](../color/). |
 | [getCellsColor()](#getCellsColor--)| Gets and sets the [CellsColor](../cellscolor/) object. |
 | [setCellsColor(CellsColor)](#setCellsColor-cellscolor-)| Gets and sets the [CellsColor](../cellscolor/) object. |
 | [getTransparency()](#getTransparency--)| Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear). |
@@ -32,7 +32,7 @@ class SolidFill;
 
 ### getColor() {#getColor--}
 
-Gets or sets the [System.Drawing.Color](../system.drawing.color/).
+Gets or sets the [Color](../color/).
 
 ```javascript
 getColor() : Color;
@@ -45,7 +45,7 @@ getColor() : Color;
 
 ### setColor(Color) {#setColor-color-}
 
-Gets or sets the [System.Drawing.Color](../system.drawing.color/).
+Gets or sets the [Color](../color/).
 
 ```javascript
 setColor(value: Color) : void;

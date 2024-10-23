@@ -15,6 +15,22 @@ class Picture extends Shape;
 ```
 
 
+### Example
+```javascript
+const { Workbook, SaveFormat } = require("aspose.cells.node");
+
+//Instantiating a Workbook object
+var workbook = new Workbook();
+//Adding a new worksheet to the Workbook object
+var sheetIndex = workbook.getWorksheets().add();
+//Obtaining the reference of the newly added worksheet by passing its sheet index
+var worksheet = workbook.getWorksheets().get(sheetIndex);
+//Adding a picture at the location of a cell whose row and column indices
+//are 5 in the worksheet. It is "F6" cell
+worksheet.getPictures().add(5, 5, "input/image.gif");
+//Saving the Excel file
+workbook.save("output/Book1.xls", SaveFormat.Excel97To2003);
+```
 ## Constructors
 
 | Name | Description |
@@ -27,8 +43,8 @@ class Picture extends Shape;
 | --- | --- |
 | [getOriginalHeight()](#getOriginalHeight--)| Gets the original height of the picture. |
 | [getOriginalWidth()](#getOriginalWidth--)| Gets the original width of the picture. |
-| [getBorderLineColor()](#getBorderLineColor--)| Represents the [System.Drawing.Color](../system.drawing.color/) of the border line of a picture. |
-| [setBorderLineColor(Color)](#setBorderLineColor-color-)| Represents the [System.Drawing.Color](../system.drawing.color/) of the border line of a picture. |
+| [getBorderLineColor()](#getBorderLineColor--)| Represents the [Color](../color/) of the border line of a picture. |
+| [setBorderLineColor(Color)](#setBorderLineColor-color-)| Represents the [Color](../color/) of the border line of a picture. |
 | [getBorderWeight()](#getBorderWeight--)| Gets or sets the weight of the border line of a picture in units of pt. |
 | [setBorderWeight(number)](#setBorderWeight-number-)| Gets or sets the weight of the border line of a picture in units of pt. |
 | [getData()](#getData--)| Gets the data of the picture. |
@@ -187,6 +203,10 @@ class Picture extends Shape;
 | [getActualLowerRightRow()](#getActualLowerRightRow--)| Get the actual bottom row. |
 | [getRelativeToOriginalPictureSize()](#getRelativeToOriginalPictureSize--)| Indicates whether shape is relative to original picture size. |
 | [setRelativeToOriginalPictureSize(boolean)](#setRelativeToOriginalPictureSize-boolean-)| Indicates whether shape is relative to original picture size. |
+| [getLinkedCell()](#getLinkedCell--)| Gets or sets the worksheet range linked to the control's value. |
+| [setLinkedCell(string)](#setLinkedCell-string-)| Gets or sets the worksheet range linked to the control's value. |
+| [getInputRange()](#getInputRange--)| Gets or sets the worksheet range used to fill the specified combo box. |
+| [setInputRange(string)](#setInputRange-string-)| Gets or sets the worksheet range used to fill the specified combo box. |
 | [getTextShapeType()](#getTextShapeType--)| Gets and sets the preset text shape type. |
 | [setTextShapeType(AutoShapeType)](#setTextShapeType-autoshapetype-)| Gets and sets the preset text shape type. |
 | [getTextBody()](#getTextBody--)| Gets and sets the setting of the shape's text. |
@@ -277,7 +297,7 @@ getOriginalWidth() : number;
 
 ### getBorderLineColor() {#getBorderLineColor--}
 
-Represents the [System.Drawing.Color](../system.drawing.color/) of the border line of a picture.
+Represents the [Color](../color/) of the border line of a picture.
 
 ```javascript
 getBorderLineColor() : Color;
@@ -290,7 +310,7 @@ getBorderLineColor() : Color;
 
 ### setBorderLineColor(Color) {#setBorderLineColor-color-}
 
-Represents the [System.Drawing.Color](../system.drawing.color/) of the border line of a picture.
+Represents the [Color](../color/) of the border line of a picture.
 
 ```javascript
 setBorderLineColor(value: Color) : void;
@@ -2177,6 +2197,50 @@ setRelativeToOriginalPictureSize(value: boolean) : void;
 | --- | --- | --- |
 | value | boolean | The value to set. |
 
+### getLinkedCell() {#getLinkedCell--}
+
+Gets or sets the worksheet range linked to the control's value.
+
+```javascript
+getLinkedCell() : string;
+```
+
+
+### setLinkedCell(string) {#setLinkedCell-string-}
+
+Gets or sets the worksheet range linked to the control's value.
+
+```javascript
+setLinkedCell(value: string) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | string | The value to set. |
+
+### getInputRange() {#getInputRange--}
+
+Gets or sets the worksheet range used to fill the specified combo box.
+
+```javascript
+getInputRange() : string;
+```
+
+
+### setInputRange(string) {#setInputRange-string-}
+
+Gets or sets the worksheet range used to fill the specified combo box.
+
+```javascript
+setInputRange(value: string) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | string | The value to set. |
+
 ### getTextShapeType() {#getTextShapeType--}
 
 Gets and sets the preset text shape type.
@@ -2715,7 +2779,7 @@ toImage(stream: Uint8Array, imageType: ImageType) : void;
 
 **Remarks**
 
-<p>The following formats are supported: .bmp, .gif, .jpg, .jpeg, .tiff, .emf.</p>
+The following formats are supported: .bmp, .gif, .jpg, .jpeg, .tiff, .emf.
 
 ### toImage(string, ImageOrPrintOptions) {#toImage-string-imageorprintoptions-}
 

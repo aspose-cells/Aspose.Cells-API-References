@@ -15,6 +15,26 @@ class OleObject extends Shape;
 ```
 
 
+### Example
+```javascript
+const fs = require("fs");
+const { Workbook } = require("aspose.cells.node");
+
+//Instantiate a new Workbook.
+var workbook = new Workbook();
+//Get the first worksheet. 
+var sheet = workbook.getWorksheets().get(0);
+
+//Obtain the picture into the array of bytes from a stream.
+var imgBuf = new Uint8Array(fs.readFileSync("input/example.png"));
+//Add an Ole object into the worksheet with the bytes
+sheet.getOleObjects().add(14, 3, 200, 220, imgBuf);
+//Set embedded ole object data from a stream.
+var fileBuf = new Uint8Array(fs.readFileSync("input/Book1.xls"));
+sheet.getOleObjects().get(0).setObjectData(fileBuf);
+//Save the excel file
+workbook.save("output/DrawingOleObject.xls");
+```
 ## Constructors
 
 | Name | Description |
@@ -187,6 +207,10 @@ class OleObject extends Shape;
 | [getActualLowerRightRow()](#getActualLowerRightRow--)| Get the actual bottom row. |
 | [getRelativeToOriginalPictureSize()](#getRelativeToOriginalPictureSize--)| Indicates whether shape is relative to original picture size. |
 | [setRelativeToOriginalPictureSize(boolean)](#setRelativeToOriginalPictureSize-boolean-)| Indicates whether shape is relative to original picture size. |
+| [getLinkedCell()](#getLinkedCell--)| Gets or sets the worksheet range linked to the control's value. |
+| [setLinkedCell(string)](#setLinkedCell-string-)| Gets or sets the worksheet range linked to the control's value. |
+| [getInputRange()](#getInputRange--)| Gets or sets the worksheet range used to fill the specified combo box. |
+| [setInputRange(string)](#setInputRange-string-)| Gets or sets the worksheet range used to fill the specified combo box. |
 | [getTextShapeType()](#getTextShapeType--)| Gets and sets the preset text shape type. |
 | [setTextShapeType(AutoShapeType)](#setTextShapeType-autoshapetype-)| Gets and sets the preset text shape type. |
 | [getTextBody()](#getTextBody--)| Gets and sets the setting of the shape's text. |
@@ -2217,6 +2241,50 @@ setRelativeToOriginalPictureSize(value: boolean) : void;
 | --- | --- | --- |
 | value | boolean | The value to set. |
 
+### getLinkedCell() {#getLinkedCell--}
+
+Gets or sets the worksheet range linked to the control's value.
+
+```javascript
+getLinkedCell() : string;
+```
+
+
+### setLinkedCell(string) {#setLinkedCell-string-}
+
+Gets or sets the worksheet range linked to the control's value.
+
+```javascript
+setLinkedCell(value: string) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | string | The value to set. |
+
+### getInputRange() {#getInputRange--}
+
+Gets or sets the worksheet range used to fill the specified combo box.
+
+```javascript
+getInputRange() : string;
+```
+
+
+### setInputRange(string) {#setInputRange-string-}
+
+Gets or sets the worksheet range used to fill the specified combo box.
+
+```javascript
+setInputRange(value: string) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | string | The value to set. |
+
 ### getTextShapeType() {#getTextShapeType--}
 
 Gets and sets the preset text shape type.
@@ -2755,7 +2823,7 @@ toImage(stream: Uint8Array, imageType: ImageType) : void;
 
 **Remarks**
 
-<p>The following formats are supported: .bmp, .gif, .jpg, .jpeg, .tiff, .emf.</p>
+The following formats are supported: .bmp, .gif, .jpg, .jpeg, .tiff, .emf.
 
 ### toImage(string, ImageOrPrintOptions) {#toImage-string-imageorprintoptions-}
 

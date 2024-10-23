@@ -20,8 +20,8 @@ class SparklineGroupCollection;
 | Method | Description |
 | --- | --- |
 | [get(number)](#get-number-)| Gets the [SparklineGroup](../sparklinegroup/) element at the specified index. |
-| [add(SparklineType)](#add-sparklinetype-)| Adds an [SparklineGroup](../sparklinegroup/) with a [SparklineGroup](../sparklinegroup/) to the collection. |
-| [add(SparklineType, string, boolean, CellArea)](#add-sparklinetype-string-boolean-cellarea-)| Adds an [SparklineGroup](../sparklinegroup/) with [SparklineGroup](../sparklinegroup/) to the collection. |
+| [add(SparklineType)](#add-sparklinetype-)| Adds an [SparklineGroup](../sparklinegroup/) with a [Sparkline](../sparkline/) to the collection. |
+| [add(SparklineType, string, boolean, CellArea)](#add-sparklinetype-string-boolean-cellarea-)| Adds an [SparklineGroup](../sparklinegroup/) with [Sparkline](../sparkline/) to the collection. |
 | [clearSparklines(CellArea)](#clearSparklines-cellarea-)| Clears the sparklines that is inside an area of cells. |
 | [clearSparklineGroups(CellArea)](#clearSparklineGroups-cellarea-)| Clears the sparkline groups that overlaps an area of cells. |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
@@ -47,7 +47,7 @@ The element at the specified index.
 
 ### add(SparklineType) {#add-sparklinetype-}
 
-Adds an [SparklineGroup](../sparklinegroup/) with a [SparklineGroup](../sparklinegroup/) to the collection.
+Adds an [SparklineGroup](../sparklinegroup/) with a [Sparkline](../sparkline/) to the collection.
 
 ```javascript
 add(type: SparklineType) : number;
@@ -64,7 +64,7 @@ add(type: SparklineType) : number;
 
 ### add(SparklineType, string, boolean, CellArea) {#add-sparklinetype-string-boolean-cellarea-}
 
-Adds an [SparklineGroup](../sparklinegroup/) with [SparklineGroup](../sparklinegroup/) to the collection.
+Adds an [SparklineGroup](../sparklinegroup/) with [Sparkline](../sparkline/) to the collection.
 
 ```javascript
 add(type: SparklineType, dataRange: string, isVertical: boolean, locationRange: CellArea) : number;

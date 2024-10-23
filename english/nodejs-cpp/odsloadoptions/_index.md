@@ -68,8 +68,8 @@ class OdsLoadOptions extends LoadOptions;
 | [setAutoFitterOptions(AutoFitterOptions)](#setAutoFitterOptions-autofitteroptions-)| Gets and sets the auto fitter options |
 | [getAutoFilter()](#getAutoFilter--)| Indicates whether auto filtering the data when loading the files. |
 | [setAutoFilter(boolean)](#setAutoFilter-boolean-)| Indicates whether auto filtering the data when loading the files. |
-| [getFontConfigs()](#getFontConfigs--)| Gets and sets individual font configs. Only works for the [Workbook](../workbook/) which uses this [Workbook](../workbook/) to load. |
-| [setFontConfigs(IndividualFontConfigs)](#setFontConfigs-individualfontconfigs-)| Gets and sets individual font configs. Only works for the [Workbook](../workbook/) which uses this [Workbook](../workbook/) to load. |
+| [getFontConfigs()](#getFontConfigs--)| Gets and sets individual font configs. Only works for the [Workbook](../workbook/) which uses this [LoadOptions](../loadoptions/) to load. |
+| [setFontConfigs(IndividualFontConfigs)](#setFontConfigs-individualfontconfigs-)| Gets and sets individual font configs. Only works for the [Workbook](../workbook/) which uses this [LoadOptions](../loadoptions/) to load. |
 | [getIgnoreUselessShapes()](#getIgnoreUselessShapes--)| Indicates whether ignoring useless shapes. |
 | [setIgnoreUselessShapes(boolean)](#setIgnoreUselessShapes-boolean-)| Indicates whether ignoring useless shapes. |
 | [getPreservePaddingSpacesInFormula()](#getPreservePaddingSpacesInFormula--)| Indicates whether preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. Default value is false. |
@@ -655,7 +655,7 @@ Sometimes although autofilter is set, the corresponding rows is not hidden in th
 
 ### getFontConfigs() {#getFontConfigs--}
 
-Gets and sets individual font configs. Only works for the [Workbook](../workbook/) which uses this [Workbook](../workbook/) to load.
+Gets and sets individual font configs. Only works for the [Workbook](../workbook/) which uses this [LoadOptions](../loadoptions/) to load.
 
 ```javascript
 getFontConfigs() : IndividualFontConfigs;
@@ -668,7 +668,7 @@ getFontConfigs() : IndividualFontConfigs;
 
 ### setFontConfigs(IndividualFontConfigs) {#setFontConfigs-individualfontconfigs-}
 
-Gets and sets individual font configs. Only works for the [Workbook](../workbook/) which uses this [Workbook](../workbook/) to load.
+Gets and sets individual font configs. Only works for the [Workbook](../workbook/) which uses this [LoadOptions](../loadoptions/) to load.
 
 ```javascript
 setFontConfigs(value: IndividualFontConfigs) : void;

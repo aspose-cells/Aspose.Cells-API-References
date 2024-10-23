@@ -149,7 +149,7 @@ getCalculationMode() : CalcModeType;
 
 **Remarks**
 
-This property is only for saving the settings to resultant spreadsheet file so that other applications(such as ms excel) may act accordingly when loading and manipulating the resultant file. For performance consideration for most user's application, we do not calculate any formula in the workbook automatically, no matter what mode has been set for this property. If user needs to calculate formulas, please always call methods on different objects according to requirement: [Workbook.CalculateFormula()](../workbook.calculateformula()/), [Workbook.CalculateFormula()](../workbook.calculateformula()/), [Cell.Calculate(CalculationOptions)](../cell.calculate(calculationoptions)/), ...etc.
+This property is only for saving the settings to resultant spreadsheet file so that other applications(such as ms excel) may act accordingly when loading and manipulating the resultant file. For performance consideration for most user's application, we do not calculate any formula in the workbook automatically, no matter what mode has been set for this property. If user needs to calculate formulas, please always call methods on different objects according to requirement: [Workbook.CalculateFormula()](../workbook.calculateformula()/), [Worksheet.CalculateFormula(CalculationOptions, bool)](../worksheet.calculateformula(calculationoptions, bool)/), [Cell.Calculate(CalculationOptions)](../cell.calculate(calculationoptions)/), ...etc.
 
 ### setCalculationMode(CalcModeType) {#setCalculationMode-calcmodetype-}
 
@@ -166,7 +166,7 @@ setCalculationMode(value: CalcModeType) : void;
 
 **Remarks**
 
-This property is only for saving the settings to resultant spreadsheet file so that other applications(such as ms excel) may act accordingly when loading and manipulating the resultant file. For performance consideration for most user's application, we do not calculate any formula in the workbook automatically, no matter what mode has been set for this property. If user needs to calculate formulas, please always call methods on different objects according to requirement: [Workbook.CalculateFormula()](../workbook.calculateformula()/), [Workbook.CalculateFormula()](../workbook.calculateformula()/), [Cell.Calculate(CalculationOptions)](../cell.calculate(calculationoptions)/), ...etc.
+This property is only for saving the settings to resultant spreadsheet file so that other applications(such as ms excel) may act accordingly when loading and manipulating the resultant file. For performance consideration for most user's application, we do not calculate any formula in the workbook automatically, no matter what mode has been set for this property. If user needs to calculate formulas, please always call methods on different objects according to requirement: [Workbook.CalculateFormula()](../workbook.calculateformula()/), [Worksheet.CalculateFormula(CalculationOptions, bool)](../worksheet.calculateformula(calculationoptions, bool)/), [Cell.Calculate(CalculationOptions)](../cell.calculate(calculationoptions)/), ...etc.
 
 ### getCalculationId() {#getCalculationId--}
 

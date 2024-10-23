@@ -15,11 +15,21 @@ class HorizontalPageBreakCollection;
 ```
 
 
+### Example
+```javascript
+const { Workbook } = require("aspose.cells.node");
+
+var excel = new Workbook();
+//Add a pagebreak at G5
+excel.getWorksheets().get(0).getHorizontalPageBreaks().add("G5");
+excel.getWorksheets().get(0).getVerticalPageBreaks().add("G5");
+```
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [get(number)](#get-number-)| Gets the [HorizontalPageBreak](../horizontalpagebreak/) element at the specified index. |
+| [get(string)](#get-string-)| Gets the [HorizontalPageBreak](../horizontalpagebreak/) element with the specified cell name. |
 | [add(number, number, number)](#add-number-number-number-)| Adds a horizontal page break to the collection. |
 | [add(number)](#add-number-)| Adds a horizontal page break to the collection. |
 | [add(number, number)](#add-number-number-)| Adds a horizontal page break to the collection. |
@@ -45,6 +55,23 @@ get(index: number) : HorizontalPageBreak;
 **Returns**
 
 The element at the specified index.
+
+### get(string) {#get-string-}
+
+Gets the [HorizontalPageBreak](../horizontalpagebreak/) element with the specified cell name.
+
+```javascript
+get(cellName: string) : HorizontalPageBreak;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| cellName | string | Cell name. |
+
+**Returns**
+
+The element with the specified cell name.
 
 ### add(number, number, number) {#add-number-number-number-}
 

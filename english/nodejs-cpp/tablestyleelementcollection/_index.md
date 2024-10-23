@@ -20,6 +20,7 @@ class TableStyleElementCollection;
 | Method | Description |
 | --- | --- |
 | [get(number)](#get-number-)| Gets an element of the table style by the index. |
+| [get(TableStyleElementType)](#get-tablestyleelementtype-)| Gets the element of the table style by the element type. |
 | [add(TableStyleElementType)](#add-tablestyleelementtype-)| Adds an element. |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
@@ -37,6 +38,23 @@ get(index: number) : TableStyleElement;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | number | The index. |
+
+**Returns**
+
+Returns [TableStyleElement](../tablestyleelement/) object
+
+### get(TableStyleElementType) {#get-tablestyleelementtype-}
+
+Gets the element of the table style by the element type.
+
+```javascript
+get(type: TableStyleElementType) : TableStyleElement;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| type | [TableStyleElementType](../tablestyleelementtype/) | The element type. |
 
 **Returns**
 

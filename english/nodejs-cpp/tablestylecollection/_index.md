@@ -20,6 +20,7 @@ class TableStyleCollection;
 | Method | Description |
 | --- | --- |
 | [get(number)](#get-number-)| Gets the table style by the index. |
+| [get(string)](#get-string-)| Gets the table style by the name. |
 | [getDefaultTableStyleName()](#getDefaultTableStyleName--)| Gets and sets the default style name of the table. |
 | [setDefaultTableStyleName(string)](#setDefaultTableStyleName-string-)| Gets and sets the default style name of the table. |
 | [getDefaultPivotStyleName()](#getDefaultPivotStyleName--)| Gets and sets the  default style name of pivot table . |
@@ -43,6 +44,23 @@ get(index: number) : TableStyle;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | number | The position of the table style in the list. |
+
+**Returns**
+
+The table style object.
+
+### get(string) {#get-string-}
+
+Gets the table style by the name.
+
+```javascript
+get(name: string) : TableStyle;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | string | The table style name. |
 
 **Returns**
 

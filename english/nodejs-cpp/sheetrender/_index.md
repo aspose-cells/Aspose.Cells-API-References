@@ -26,7 +26,7 @@ class SheetRender;
 | Method | Description |
 | --- | --- |
 | [getPageCount()](#getPageCount--)| Gets the total page count of current worksheet. |
-| [getPageScale()](#getPageScale--)| Gets calculated page scale of the sheet. Returns the set scale if [PageSetup.Zoom](../pagesetup.zoom/) is set. Otherwise, returns the calculated scale according to [PageSetup.Zoom](../pagesetup.zoom/) and [PageSetup.Zoom](../pagesetup.zoom/). |
+| [getPageScale()](#getPageScale--)| Gets calculated page scale of the sheet. Returns the set scale if [PageSetup.Zoom](../pagesetup.zoom/) is set. Otherwise, returns the calculated scale according to [PageSetup.FitToPagesWide](../pagesetup.fittopageswide/) and [PageSetup.FitToPagesTall](../pagesetup.fittopagestall/). |
 | [getPageSizeInch(number)](#getPageSizeInch-number-)| Get page size in inch of output image. |
 | [toImage(number, string)](#toImage-number-string-)| Render certain page to a file. |
 | [toImage(number)](#toImage-number-)| Render certain page to a stream. |
@@ -61,7 +61,7 @@ getPageCount() : number;
 
 ### getPageScale() {#getPageScale--}
 
-Gets calculated page scale of the sheet. Returns the set scale if [PageSetup.Zoom](../pagesetup.zoom/) is set. Otherwise, returns the calculated scale according to [PageSetup.Zoom](../pagesetup.zoom/) and [PageSetup.Zoom](../pagesetup.zoom/).
+Gets calculated page scale of the sheet. Returns the set scale if [PageSetup.Zoom](../pagesetup.zoom/) is set. Otherwise, returns the calculated scale according to [PageSetup.FitToPagesWide](../pagesetup.fittopageswide/) and [PageSetup.FitToPagesTall](../pagesetup.fittopagestall/).
 
 ```javascript
 getPageScale() : number;

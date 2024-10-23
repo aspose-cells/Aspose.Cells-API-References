@@ -15,6 +15,29 @@ class FontSetting;
 ```
 
 
+### Example
+```javascript
+const { Workbook, Color } = require("aspose.cells.node");
+
+//Instantiating a Workbook object
+var workbook = new Workbook();
+//Adding a new worksheet to the Excel object
+workbook.getWorksheets().add();
+//Obtaining the reference of the newly added worksheet by passing its sheet index
+var worksheet = workbook.getWorksheets().get(0);
+//Accessing the "A1" cell from the worksheet
+var cell = worksheet.getCells().get("A1");
+//Adding some value to the "A1" cell
+cell.putValue("Visit Aspose!");
+//getting charactor
+var charactor = cell.characters(6, 7);
+//Setting the font of selected characters to bold
+charactor.getFont().setIsBold(true);
+//Setting the font color of selected characters to blue
+charactor.getFont().setColor(new Color(0, 0, 0xff));
+//Saving the Excel file
+workbook.save("output/FontSetting.xls");
+```
 ## Constructors
 
 | Name | Description |

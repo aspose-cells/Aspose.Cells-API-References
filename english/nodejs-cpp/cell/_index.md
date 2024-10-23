@@ -15,6 +15,41 @@ class Cell;
 ```
 
 
+### Example
+```javascript
+const { Workbook, Color, TextAlignmentType } = require("aspose.cells.node");
+
+var excel = new Workbook();
+var cells = excel.getWorksheets().get(0).getCells();
+
+//Put a string into a cell
+var cell = cells.get(0, 0);
+cell.putValue("Hello");
+var first = cell.getStringValue();
+//Put an integer into a cell
+cell = cells.get("B1");
+cell.putValue(12);
+var second = cell.getIntValue();
+//Put a double into a cell
+cell = cells.get(0, 2);
+cell.putValue(-1.234);
+var third = cell.getDoubleValue();
+//Put a formula into a cell
+cell = cells.get("D1");
+cell.setFormula("=B1 + C1");
+//Put a combined formula: "sum(average(b1,c1), b1)" to cell at b2
+cell = cells.get("b2");
+cell.setFormula("=sum(average(b1,c1), b1)");
+
+//Set style of a cell
+var style = cell.getStyle();
+//Set background color
+style.setBackgroundColor(new Color(0xff, 0xff, 0));
+//Set format of a cell
+style.getFont().setName("Courier New");
+style.setVerticalAlignment(TextAlignmentType.Top);
+cell.setStyle(style);
+```
 ## Methods
 
 | Method | Description |
@@ -28,6 +63,7 @@ class Cell;
 | [getName()](#getName--)| Gets the name of the cell. |
 | [isErrorValue()](#isErrorValue--)| Checks if the value of this cell is an error. |
 | [isNumericValue()](#isNumericValue--)| Indicates whether the value of this cell is numeric(int, double and datetime) |
+| [getStringValue()](#getStringValue--)| Gets the string value contained in the cell. If the type of this cell is string, then return the string value itself. For other cell types, the formatted string value (formatted with the specified style of this cell) will be returned. The formatted cell value is same with what you can get from excel when copying a cell as text(such as copying cell to text editor or exporting to csv). |
 | [getNumberCategoryType()](#getNumberCategoryType--)| Represents the category type of this cell's number formatting. |
 | [getDisplayStringValue()](#getDisplayStringValue--)| Gets the formatted string value of this cell by cell's display style. |
 | [getIntValue()](#getIntValue--)| Gets the integer value contained in the cell. |
@@ -36,6 +72,8 @@ class Cell;
 | [getBoolValue()](#getBoolValue--)| Gets the boolean value contained in the cell. |
 | [getHasCustomStyle()](#getHasCustomStyle--)| Indicates whether this cell has custom style settings(different from the default one inherited from corresponding row, column, or workbook). |
 | [getSharedStyleIndex()](#getSharedStyleIndex--)| Gets cell's shared style index in the style pool. |
+| [getFormula()](#getFormula--)| Gets or sets a formula of the [Cell](../cell/). |
+| [setFormula(string)](#setFormula-string-)| Gets or sets a formula of the [Cell](../cell/). |
 | [getFormulaLocal()](#getFormulaLocal--)| Get the locale formatted formula of the cell. |
 | [setFormulaLocal(string)](#setFormulaLocal-string-)| Get the locale formatted formula of the cell. |
 | [getR1C1Formula()](#getR1C1Formula--)| Gets or sets a R1C1 formula of the [Cell](../cell/). |
@@ -51,6 +89,7 @@ class Cell;
 | [isStyleSet()](#isStyleSet--)| Indicates if the cell's style is set. If return false, it means this cell has a default cell format. |
 | [isMerged()](#isMerged--)| Checks if a cell is part of a merged range or not. |
 | [getComment()](#getComment--)| Gets the comment of this cell. |
+| [getHtmlString()](#getHtmlString--)| Gets and sets the html string which contains data and some formats in this cell. |
 | [setHtmlString(string)](#setHtmlString-string-)| Gets and sets the html string which contains data and some formats in this cell. |
 | [isCheckBoxStyle()](#isCheckBoxStyle--)| Indicates whether setting this cell as a check box. |
 | [setIsCheckBoxStyle(boolean)](#setIsCheckBoxStyle-boolean-)| Indicates whether setting this cell as a check box. |
@@ -223,6 +262,15 @@ isNumericValue() : boolean;
 
 Also applies to formula cell to check the calculated result
 
+### getStringValue() {#getStringValue--}
+
+Gets the string value contained in the cell. If the type of this cell is string, then return the string value itself. For other cell types, the formatted string value (formatted with the specified style of this cell) will be returned. The formatted cell value is same with what you can get from excel when copying a cell as text(such as copying cell to text editor or exporting to csv).
+
+```javascript
+getStringValue() : string;
+```
+
+
 ### getNumberCategoryType() {#getNumberCategoryType--}
 
 Represents the category type of this cell's number formatting.
@@ -303,6 +351,44 @@ getSharedStyleIndex() : number;
 ```
 
 
+### getFormula() {#getFormula--}
+
+Gets or sets a formula of the [Cell](../cell/).
+
+```javascript
+getFormula() : string;
+```
+
+
+**Remarks**
+
+A formula string always begins with an equal sign (=). And please always use comma(,) as parameters delimiter, such as "=SUM(A1, E1, H2)".
+
+### setFormula(string) {#setFormula-string-}
+
+Gets or sets a formula of the [Cell](../cell/).
+
+```javascript
+setFormula(value: string) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | string | The value to set. |
+
+**Remarks**
+
+A formula string always begins with an equal sign (=). And please always use comma(,) as parameters delimiter, such as "=SUM(A1, E1, H2)".
+
+**Example**
+```javascript
+const { Workbook } = require("aspose.cells.node");
+
+var excel = new Workbook();
+var cells = excel.getWorksheets().get(0).getCells();
+cells.get("B6").setFormula("=SUM(B2:B5, E1) + sheet2!A1");
+```
 ### getFormulaLocal() {#getFormulaLocal--}
 
 Get the locale formatted formula of the cell.
@@ -465,6 +551,15 @@ getComment() : Comment;
 **Remarks**
 
 If there is no comment applies to the cell, returns null.
+
+### getHtmlString() {#getHtmlString--}
+
+Gets and sets the html string which contains data and some formats in this cell.
+
+```javascript
+getHtmlString() : string;
+```
+
 
 ### setHtmlString(string) {#setHtmlString-string-}
 
@@ -976,8 +1071,37 @@ Collection of all references appearing in this cell's formula.
 
 **Remarks**
 
-<ul> <li>Returns null if this is not a formula cell.</li> <li>All references appearing in this cell's formula will be returned no matter they are referenced or not while calculating. For example, although cell A2 in formula "=IF(TRUE,A1,A2)" is not used while calculating, it is still taken as the formula's precedents.</li> <li>To get those references which influence the calculation only, please use [GetPrecedentsInCalculation()](../getprecedentsincalculation()/).</li> </ul>
+ul> <li>Returns null if this is not a formula cell.</li> <li>All references appearing in this cell's formula will be returned no matter they are referenced or not while calculating. For example, although cell A2 in formula "=IF(TRUE,A1,A2)" is not used while calculating, it is still taken as the formula's precedents.</li> <li>To get those references which influence the calculation only, please use [GetPrecedentsInCalculation()](../getprecedentsincalculation()/).</li> </ul
 
+**Example**
+```javascript
+const { Workbook, CellsHelper } = require("aspose.cells.node");
+
+var workbook = new Workbook();
+var cells = workbook.getWorksheets().get(0).getCells();
+cells.get("A1").setFormula("= B1 + SUM(B1:B10)");
+var areas = cells.get("A1").getPrecedents();
+for (var i = 0; i < areas.getCount(); i++)
+{
+    var area = areas.get(i);
+    var stringBuilder = "";
+    if (area.isExternalLink())
+    {
+        stringBuilder += "[";
+        stringBuilder += area.getExternalFileName();
+        stringBuilder += "]";
+    }
+    stringBuilder += area.getSheetName();
+    stringBuilder += "!";
+    stringBuilder += CellsHelper.cellIndexToName(area.getStartRow(), area.getStartColumn());
+    if (area.isArea())
+    {
+        stringBuilder += ":";
+        stringBuilder += CellsHelper.cellIndexToName(area.getEndRow(), area.getEndColumn());
+    }
+}
+workbook.save("output/CellGetPrecedents.xls");
+```
 ### getDependents(boolean) {#getDependents-boolean-}
 
 Get all cells whose formula references to this cell directly.
@@ -997,7 +1121,7 @@ getDependents(isAll: boolean) : Cell[];
 
 **Remarks**
 
-<ul> <li>If one reference containing this cell appears in one cell's formula, that cell will be taken as the dependent of this cell, no matter the reference or this cell is used or not while calculating. For example, although cell A2 in formula "=IF(TRUE,A1,A2)" is not used while calculating, this formula is still be taken as A2's dependent. </li> <li>To get those formulas whose calculated results depend on this cell, please use [GetDependentsInCalculation(bool)](../getdependentsincalculation(bool)/).</li> <li>When tracing dependents for one cell, all formulas in the workbook or worksheet will be analized and checked. So it is a time consumed process. If user need to trace dependents for lots of cells, using this method will cause poor performance. For performance consideration, user should use [GetDependentsInCalculation(bool)](../getdependentsincalculation(bool)/) instead. Or, user may gather precedents map of all cells by [GetPrecedents()](../getprecedents()/) firstly, and then build the dependents map according to the precedents map.</li> </ul>
+ul> <li>If one reference containing this cell appears in one cell's formula, that cell will be taken as the dependent of this cell, no matter the reference or this cell is used or not while calculating. For example, although cell A2 in formula "=IF(TRUE,A1,A2)" is not used while calculating, this formula is still be taken as A2's dependent. </li> <li>To get those formulas whose calculated results depend on this cell, please use [GetDependentsInCalculation(bool)](../getdependentsincalculation(bool)/).</li> <li>When tracing dependents for one cell, all formulas in the workbook or worksheet will be analized and checked. So it is a time consumed process. If user need to trace dependents for lots of cells, using this method will cause poor performance. For performance consideration, user should use [GetDependentsInCalculation(bool)](../getdependentsincalculation(bool)/) instead. Or, user may gather precedents map of all cells by [GetPrecedents()](../getprecedents()/) firstly, and then build the dependents map according to the precedents map.</li> </ul
 
 ### getPrecedentsInCalculation() {#getPrecedentsInCalculation--}
 
@@ -1247,6 +1371,15 @@ Characters object.
 
 This method only works on cell with string value.
 
+**Example**
+```javascript
+const { Workbook, Color } = require("aspose.cells.node");
+
+var excel = new Workbook();
+excel.getWorksheets().get(0).getCells().get("A1").putValue("Helloworld");
+excel.getWorksheets().get(0).getCells().get("A1").characters(5, 5).getFont().setIsBold(true);
+excel.getWorksheets().get(0).getCells().get("A1").characters(5, 5).getFont().setColor(new Color(0, 0, 0xff));
+```
 ### replace(string, string, ReplaceOptions) {#replace-string-string-replaceoptions-}
 
 Replace text of the cell with options.

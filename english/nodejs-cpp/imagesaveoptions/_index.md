@@ -1,14 +1,14 @@
 ﻿---
 title: ImageSaveOptions
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents image save options. For advanced usage please use WorkbookRender..workbookrender or WorkbookRender..workbookrender.
+description: Represents image save options. For advanced usage please use WorkbookRender..workbookrender or SheetRender..sheetrender.
 type: docs
 url: /nodejs-cpp/imagesaveoptions/
 ---
 
 ## ImageSaveOptions class
 
-Represents image save options. For advanced usage, please use [WorkbookRender](../workbookrender/) or [WorkbookRender](../workbookrender/).
+Represents image save options. For advanced usage, please use [WorkbookRender](../workbookrender/) or [SheetRender](../sheetrender/).
 
 ```javascript
 class ImageSaveOptions extends SaveOptions;
@@ -91,7 +91,7 @@ constructor(saveFormat: SaveFormat);
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| saveFormat | [SaveFormat](../saveformat/) | The file format.         /// It should be one of following types: [SaveFormat.Tiff](../saveformat.tiff/), [SaveFormat.Tiff](../saveformat.tiff/),         /// [SaveFormat.Tiff](../saveformat.tiff/), [SaveFormat.Tiff](../saveformat.tiff/), [SaveFormat.Tiff](../saveformat.tiff/),         /// [SaveFormat.Tiff](../saveformat.tiff/) or [SaveFormat.Tiff](../saveformat.tiff/),         /// otherwise the saved format will be set as [SaveFormat.Tiff](../saveformat.tiff/) automatically. |
+| saveFormat | [SaveFormat](../saveformat/) | The file format.         /// It should be one of following types: [SaveFormat.Tiff](../saveformat.tiff/), [SaveFormat.Svg](../saveformat.svg/),         /// [SaveFormat.Bmp](../saveformat.bmp/), [SaveFormat.Png](../saveformat.png/), [SaveFormat.Jpg](../saveformat.jpg/),         /// [SaveFormat.Emf](../saveformat.emf/) or [SaveFormat.Gif](../saveformat.gif/),         /// otherwise the saved format will be set as [SaveFormat.Tiff](../saveformat.tiff/) automatically. |
 
 ### getImageOrPrintOptions() {#getImageOrPrintOptions--}
 
@@ -108,7 +108,7 @@ getImageOrPrintOptions() : ImageOrPrintOptions;
 
 **Remarks**
 
-For advanced usage, please use [WorkbookRender](../workbookrender/) or [WorkbookRender](../workbookrender/).
+For advanced usage, please use [WorkbookRender](../workbookrender/) or [SheetRender](../sheetrender/).
 
 ### isNull() {#isNull--}
 

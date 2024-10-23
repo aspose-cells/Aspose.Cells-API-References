@@ -31,8 +31,8 @@ class PdfSecurityOptions;
 | [setOwnerPassword(string)](#setOwnerPassword-string-)| Gets or sets the owner password for the encrypted PDF document. |
 | [getPrintPermission()](#getPrintPermission--)| Indicates whether to allow to print the document. |
 | [setPrintPermission(boolean)](#setPrintPermission-boolean-)| Indicates whether to allow to print the document. |
-| [getModifyDocumentPermission()](#getModifyDocumentPermission--)| Indicates whether to allow to modify the contents of the document by operations other than those controlled by [AnnotationsPermission](../annotationspermission/), [AnnotationsPermission](../annotationspermission/) and [AnnotationsPermission](../annotationspermission/). |
-| [setModifyDocumentPermission(boolean)](#setModifyDocumentPermission-boolean-)| Indicates whether to allow to modify the contents of the document by operations other than those controlled by [AnnotationsPermission](../annotationspermission/), [AnnotationsPermission](../annotationspermission/) and [AnnotationsPermission](../annotationspermission/). |
+| [getModifyDocumentPermission()](#getModifyDocumentPermission--)| Indicates whether to allow to modify the contents of the document by operations other than those controlled by [AnnotationsPermission](../annotationspermission/), [FillFormsPermission](../fillformspermission/) and [AssembleDocumentPermission](../assembledocumentpermission/). |
+| [setModifyDocumentPermission(boolean)](#setModifyDocumentPermission-boolean-)| Indicates whether to allow to modify the contents of the document by operations other than those controlled by [AnnotationsPermission](../annotationspermission/), [FillFormsPermission](../fillformspermission/) and [AssembleDocumentPermission](../assembledocumentpermission/). |
 | [getAnnotationsPermission()](#getAnnotationsPermission--)| Indicates whether to allow to add or modify text annotations, fill in interactive form fields. |
 | [setAnnotationsPermission(boolean)](#setAnnotationsPermission-boolean-)| Indicates whether to allow to add or modify text annotations, fill in interactive form fields. |
 | [getFillFormsPermission()](#getFillFormsPermission--)| Indicates whether to allow to fill in existing interactive form fields (including signature fields), even if [ModifyDocumentPermission](../modifydocumentpermission/) is clear. |
@@ -68,7 +68,7 @@ getUserPassword() : string;
 
 **Remarks**
 
-<p>The owner password or user password will be required to open an encrypted PDF document for viewing.</p> <p>The user password can be null or empty string, in this case no password will be required from the user when opening the PDF document.</p> <p>Opening the document with the correct owner password allows full access to the document.</p> <p>Opening the document with the correct user password (or opening a document that does not have a user password) allows limited access as the permissions specified.</p>
+The owner password or user password will be required to open an encrypted PDF document for viewing.</p> <p>The user password can be null or empty string, in this case no password will be required from the user when opening the PDF document.</p> <p>Opening the document with the correct owner password allows full access to the document.</p> <p>Opening the document with the correct user password (or opening a document that does not have a user password) allows limited access as the permissions specified.
 
 ### setUserPassword(string) {#setUserPassword-string-}
 
@@ -85,7 +85,7 @@ setUserPassword(value: string) : void;
 
 **Remarks**
 
-<p>The owner password or user password will be required to open an encrypted PDF document for viewing.</p> <p>The user password can be null or empty string, in this case no password will be required from the user when opening the PDF document.</p> <p>Opening the document with the correct owner password allows full access to the document.</p> <p>Opening the document with the correct user password (or opening a document that does not have a user password) allows limited access as the permissions specified.</p>
+The owner password or user password will be required to open an encrypted PDF document for viewing.</p> <p>The user password can be null or empty string, in this case no password will be required from the user when opening the PDF document.</p> <p>Opening the document with the correct owner password allows full access to the document.</p> <p>Opening the document with the correct user password (or opening a document that does not have a user password) allows limited access as the permissions specified.
 
 ### getOwnerPassword() {#getOwnerPassword--}
 
@@ -149,7 +149,7 @@ Possibly not at the highest quality level, depending on whether [FullQualityPrin
 
 ### getModifyDocumentPermission() {#getModifyDocumentPermission--}
 
-Indicates whether to allow to modify the contents of the document by operations other than those controlled by [AnnotationsPermission](../annotationspermission/), [AnnotationsPermission](../annotationspermission/) and [AnnotationsPermission](../annotationspermission/).
+Indicates whether to allow to modify the contents of the document by operations other than those controlled by [AnnotationsPermission](../annotationspermission/), [FillFormsPermission](../fillformspermission/) and [AssembleDocumentPermission](../assembledocumentpermission/).
 
 ```javascript
 getModifyDocumentPermission() : boolean;
@@ -158,7 +158,7 @@ getModifyDocumentPermission() : boolean;
 
 ### setModifyDocumentPermission(boolean) {#setModifyDocumentPermission-boolean-}
 
-Indicates whether to allow to modify the contents of the document by operations other than those controlled by [AnnotationsPermission](../annotationspermission/), [AnnotationsPermission](../annotationspermission/) and [AnnotationsPermission](../annotationspermission/).
+Indicates whether to allow to modify the contents of the document by operations other than those controlled by [AnnotationsPermission](../annotationspermission/), [FillFormsPermission](../fillformspermission/) and [AssembleDocumentPermission](../assembledocumentpermission/).
 
 ```javascript
 setModifyDocumentPermission(value: boolean) : void;

@@ -15,6 +15,32 @@ class FindOptions;
 ```
 
 
+### Example
+```javascript
+const { Workbook, FindOptions, CellArea, LookInType } = require("aspose.cells.node");
+
+//Instantiate the workbook object
+var workbook = new Workbook("input/Book1.xls");
+//Get Cells collection 
+var cells = workbook.getWorksheets().get(0).getCells();
+//Instantiate FindOptions Object
+var findOptions = new FindOptions();
+//Create a Cells Area
+var ca = new CellArea();
+ca.startRow = 8;
+ca.startColumn = 2;
+ca.endRow = 17;
+ca.endColumn = 13;
+
+//Set cells area for find options
+findOptions.setRange(ca);
+//Set searching properties
+findOptions.setSearchBackward(false);
+findOptions.setSeachOrderByRows(true);
+findOptions.setLookInType(LookInType.Values);
+//Find the cell with 0 value
+var cell = cells.find(0, null, findOptions);
+```
 ## Constructors
 
 | Name | Description |

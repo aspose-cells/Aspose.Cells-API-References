@@ -15,6 +15,51 @@ class SeriesCollection;
 ```
 
 
+### Example
+```javascript
+const { Workbook, ChartType } = require("aspose.cells.node");
+
+//Instantiating a Workbook object
+var workbook = new Workbook();
+//Adding a new worksheet to the Excel object
+var sheetIndex = workbook.getWorksheets().add();
+//Obtaining the reference of the newly added worksheet by passing its sheet index
+var worksheet = workbook.getWorksheets().get(sheetIndex);
+//Adding a sample value to "A1" cell
+worksheet.getCells().get("A1").putValue(50);
+//Adding a sample value to "A2" cell
+worksheet.getCells().get("A2").putValue(100);
+//Adding a sample value to "A3" cell
+worksheet.getCells().get("A3").putValue(150);
+//Adding a sample value to "A4" cell
+worksheet.getCells().get("A4").putValue(200);
+//Adding a sample value to "B1" cell
+worksheet.getCells().get("B1").putValue(60);
+//Adding a sample value to "B2" cell
+worksheet.getCells().get("B2").putValue(32);
+//Adding a sample value to "B3" cell
+worksheet.getCells().get("B3").putValue(50);
+//Adding a sample value to "B4" cell
+worksheet.getCells().get("B4").putValue(40);
+//Adding a sample value to "C1" cell as category data
+worksheet.getCells().get("C1").putValue("Q1");
+//Adding a sample value to "C2" cell as category data
+worksheet.getCells().get("C2").putValue("Q2");
+//Adding a sample value to "C3" cell as category data
+worksheet.getCells().get("C3").putValue("Y1");
+//Adding a sample value to "C4" cell as category data
+worksheet.getCells().get("C4").putValue("Y2");
+//Adding a chart to the worksheet
+var chartIndex = worksheet.getCharts().add(ChartType.Column, 5, 0, 15, 5);
+//Accessing the instance of the newly added chart
+var chart = worksheet.getCharts().get(chartIndex);
+//Adding NSeries (chart data source) to the chart ranging from "A1" cell to "B4"
+chart.getNSeries().add("A1:B4", true);
+//Setting the data source for the category data of NSeries
+chart.getNSeries().setCategoryData("C1:C4");
+//Saving the Excel file
+workbook.save("output/ChartsSeriesCollection.xls");
+```
 ## Methods
 
 | Method | Description |
@@ -201,7 +246,7 @@ setSeriesNames(startIndex: number, area: string, isVertical: boolean) : void;
 
 **Remarks**
 
-<br>If the start index is larger than the count of the serieses, it will return and do nothing.</br> <br>If set data on contiguous cells, use colon to seperate them.For example, $C$2:$C$5.</br> <br>If set data on contiguous cells, use comma to seperate them.For example, ($C$2,$D$5).</br>
+br>If the start index is larger than the count of the serieses, it will return and do nothing.</br> <br>If set data on contiguous cells, use colon to seperate them.For example, $C$2:$C$5.</br> <br>If set data on contiguous cells, use comma to seperate them.For example, ($C$2,$D$5).</br
 
 ### addR1C1(string, boolean) {#addR1C1-string-boolean-}
 
@@ -223,7 +268,7 @@ Return the first index of the added ASeries in the NSeries.
 
 **Remarks**
 
-<br>If set data on contiguous cells, use colon to seperate them.For example, R[1]C[1]:R[3]C[2].</br> <br>If set data on contiguous cells, use comma to seperate them.For example,(R[1]C[1],R[3]C[2]).</br>
+br>If set data on contiguous cells, use colon to seperate them.For example, R[1]C[1]:R[3]C[2].</br> <br>If set data on contiguous cells, use comma to seperate them.For example,(R[1]C[1],R[3]C[2]).</br
 
 ### add(string, boolean) {#add-string-boolean-}
 
@@ -245,7 +290,7 @@ Return the first index of the added ASeries in the NSeries.
 
 **Remarks**
 
-<br>If set data on contiguous cells, use colon to seperate them.For example, $C$2:$C$5.</br> <br>If set data on non contiguous cells, use comma to seperate them.For example: ($C$2,$D$5).</br>
+br>If set data on contiguous cells, use colon to seperate them.For example, $C$2:$C$5.</br> <br>If set data on non contiguous cells, use comma to seperate them.For example: ($C$2,$D$5).</br
 
 ### add(string, boolean, boolean) {#add-string-boolean-boolean-}
 
@@ -268,7 +313,7 @@ Return the first index of the added ASeries in the NSeries.
 
 **Remarks**
 
-<br>If set data on contiguous cells, use colon to seperate them.For example, $C$2:$C$5.</br> <br>If set data on non contiguous cells, use comma to seperate them.For example, ($C$2,$D$5).</br>
+br>If set data on contiguous cells, use colon to seperate them.For example, $C$2:$C$5.</br> <br>If set data on non contiguous cells, use comma to seperate them.For example, ($C$2,$D$5).</br
 
 ### clear() {#clear--}
 

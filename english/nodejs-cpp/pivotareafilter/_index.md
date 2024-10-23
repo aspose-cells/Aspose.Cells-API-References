@@ -1,14 +1,14 @@
 ﻿---
 title: PivotAreaFilter
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents the filter of PivotArea..pivotarea for PivotArea..pivotarea.
+description: Represents the filter of PivotArea..pivotarea for PivotTable..pivottable.
 type: docs
 url: /nodejs-cpp/pivotareafilter/
 ---
 
 ## PivotAreaFilter class
 
-Represents the filter of [PivotArea](../pivotarea/) for [PivotArea](../pivotarea/).
+Represents the filter of [PivotArea](../pivotarea/) for [PivotTable](../pivottable/).
 
 ```javascript
 class PivotAreaFilter;

@@ -20,6 +20,7 @@ class TextBoxCollection;
 | Method | Description |
 | --- | --- |
 | [get(number)](#get-number-)| Gets the [TextBox](../textbox/) element at the specified index. |
+| [get(string)](#get-string-)| Gets the [TextBox](../textbox/) element by the name. |
 | [add(number, number, number, number)](#add-number-number-number-number-)| Adds a textbox to the collection. |
 | [removeAt(number)](#removeAt-number-)| Remove a text box from the file. |
 | [clear()](#clear--)| Clear all text boxes. |
@@ -43,6 +44,23 @@ get(index: number) : TextBox;
 **Returns**
 
 The element at the specified index.
+
+### get(string) {#get-string-}
+
+Gets the [TextBox](../textbox/) element by the name.
+
+```javascript
+get(name: string) : TextBox;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | string | The name of the text box. |
+
+**Returns**
+
+[TextBox](../textbox/)
 
 ### add(number, number, number, number) {#add-number-number-number-number-}
 

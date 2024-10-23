@@ -44,7 +44,7 @@ is_root: true
 | [CalculationOptions](./calculationoptions) | Represents options for calculation. |
 | [Cell](./cell) | Encapsulates the object that represents a single Workbook cell. |
 | [CellArea](./cellarea) | Represent an area of cells. |
-| [Cells](./cells) | Encapsulates a collection of cell relevant objects, such as [Cell](../nodejs-cpp/cell/), [Cell](../nodejs-cpp/cell/), ...etc. |
+| [Cells](./cells) | Encapsulates a collection of cell relevant objects, such as [Cell](../nodejs-cpp/cell/), [Row](../nodejs-cpp/row/), ...etc. |
 | [CellsColor](./cellscolor) | Represents all types of color. |
 | [CellsDrawing](./cellsdrawing) | Represents the auto shape and drawing object. |
 | [CellsFactory](./cellsfactory) | Utility for instantiating classes of Cells model. |
@@ -122,7 +122,7 @@ is_root: true
 | [DigitalSignatureCollection](./digitalsignaturecollection) | Provides a collection of digital signatures attached to a document. |
 | [DisplayUnitLabel](./displayunitlabel) | Represents the display unit label. |
 | [DocumentProperty](./documentproperty) | Represents a custom or built-in document property. |
-| [DocumentPropertyCollection](./documentpropertycollection) | Base class for [BuiltInDocumentPropertyCollection](../nodejs-cpp/builtindocumentpropertycollection/) and [BuiltInDocumentPropertyCollection](../nodejs-cpp/builtindocumentpropertycollection/) collections. |
+| [DocumentPropertyCollection](./documentpropertycollection) | Base class for [BuiltInDocumentPropertyCollection](../nodejs-cpp/builtindocumentpropertycollection/) and [CustomDocumentPropertyCollection](../nodejs-cpp/customdocumentpropertycollection/) collections. |
 | [DocxSaveOptions](./docxsaveoptions) | Represents options of saving .docx file. |
 | [DrawObject](./drawobject) | DrawObject will be initialized and returned when rendering. |
 | [DrawObjectEventHandler](./drawobjecteventhandler) | Interface to get DrawObject and Bound when rendering. |
@@ -187,7 +187,7 @@ is_root: true
 | [IconSet](./iconset) | Describe the IconSet conditional formatting rule. This conditional formatting rule applies icons to cells according to their values. |
 | [ImageActiveXControl](./imageactivexcontrol) | Represents the image control. |
 | [ImageOrPrintOptions](./imageorprintoptions) | Allows to specify options when rendering worksheet to images, printing worksheet or rendering chart to image. |
-| [ImageSaveOptions](./imagesaveoptions) | Represents image save options. For advanced usage, please use [WorkbookRender](../nodejs-cpp/workbookrender/) or [WorkbookRender](../nodejs-cpp/workbookrender/). |
+| [ImageSaveOptions](./imagesaveoptions) | Represents image save options. For advanced usage, please use [WorkbookRender](../nodejs-cpp/workbookrender/) or [SheetRender](../nodejs-cpp/sheetrender/). |
 | [ImportTableOptions](./importtableoptions) | Represents the options of importing data into cells. |
 | [IndividualFontConfigs](./individualfontconfigs) | Font configs for each [Workbook](../nodejs-cpp/workbook/) object. |
 | [InsertOptions](./insertoptions) | Represents the options of inserting. |
@@ -261,7 +261,7 @@ is_root: true
 | [PictureBulletValue](./picturebulletvalue) | Represents the value of the image bullet. |
 | [PictureCollection](./picturecollection) | Encapsulates a collection of [Picture](../nodejs-cpp/picture/) objects. |
 | [PivotArea](./pivotarea) | Presents the selected area of the PivotTable. |
-| [PivotAreaFilter](./pivotareafilter) | Represents the filter of [PivotArea](../nodejs-cpp/pivotarea/) for [PivotArea](../nodejs-cpp/pivotarea/). |
+| [PivotAreaFilter](./pivotareafilter) | Represents the filter of [PivotArea](../nodejs-cpp/pivotarea/) for [PivotTable](../nodejs-cpp/pivottable/). |
 | [PivotAreaFilterCollection](./pivotareafiltercollection) | Represents the list of filters for [PivotArea](../nodejs-cpp/pivotarea/) |
 | [PivotDateTimeRangeGroupSettings](./pivotdatetimerangegroupsettings) | Represents the field grouped by date time range. |
 | [PivotDiscreteGroupSettings](./pivotdiscretegroupsettings) | Rrepsents the discrete group of pivot field |
@@ -580,7 +580,7 @@ is_root: true
 | [FormatConditionType](./formatconditiontype) | Conditional format rule type. |
 | [FormatConditionValueType](./formatconditionvaluetype) | Condition value type. |
 | [FormatSetType](./formatsettype) | Fill format set type. |
-| [FormattingType](./formattingtype) | Represents the type of formatting applied to an [Area](../nodejs-cpp/area/) object or a [Area](../nodejs-cpp/area/) object. |
+| [FormattingType](./formattingtype) | Represents the type of formatting applied to an [Area](../nodejs-cpp/area/) object or a [Line](../nodejs-cpp/line/) object. |
 | [GradientColorType](./gradientcolortype) | Represents the gradient color type for the specified fill. |
 | [GradientDirectionType](./gradientdirectiontype) | Represents all direction type of gradient. |
 | [GradientFillType](./gradientfilltype) | Represents all Gradient fill type. |
@@ -607,7 +607,7 @@ is_root: true
 | [LineCapType](./linecaptype) | Represents the caps of a line |
 | [LineJoinType](./linejointype) | Represents the join styles of a line. |
 | [LineSpaceSizeType](./linespacesizetype) | Represents the unit type of line space size. |
-| [LineType](./linetype) | Enumerates the type of [Picture](../nodejs-cpp/picture/) border or [Picture](../nodejs-cpp/picture/) line. |
+| [LineType](./linetype) | Enumerates the type of [Picture](../nodejs-cpp/picture/) border or [Chart](../nodejs-cpp/chart/) line. |
 | [LoadDataFilterOptions](./loaddatafilteroptions) | Represents the options to filter data when loading workbook from template. |
 | [LoadFormat](./loadformat) | Represents the load file format. |
 | [LoadNumbersTableType](./loadnumberstabletype) | Indicates type of loading tables when some tables are in a sheet. |

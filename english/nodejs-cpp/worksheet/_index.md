@@ -15,6 +15,17 @@ class Worksheet;
 ```
 
 
+### Example
+```javascript
+const { Workbook } = require("aspose.cells.node");
+
+var workbook = new Workbook();
+var sheet = workbook.getWorksheets().get(0);
+//Freeze panes at "AS40" with 10 rows and 10 columns
+sheet.freezePanes("AS40", 10, 10);
+//Add a hyperlink in Cell A1
+sheet.getHyperlinks().add("A1", 1, 1, "http://www.aspose.com");
+```
 ## Methods
 
 | Method | Description |
@@ -1237,7 +1248,7 @@ freezePanes(row: number, column: number, freezedRows: number, freezedColumns: nu
 
 **Remarks**
 
-<p>Row index and column index cannot all be zero. Number of rows and number of columns also cannot all be zero.</p> <p>The first two parameters specify the froze position and the last two parameters specify the area frozen on the left top pane.</p>
+Row index and column index cannot all be zero. Number of rows and number of columns also cannot all be zero.</p> <p>The first two parameters specify the froze position and the last two parameters specify the area frozen on the left top pane.
 
 ### freezePanes(string, number, number) {#freezePanes-string-number-number-}
 
@@ -1738,6 +1749,19 @@ protect(type: ProtectionType, password: string, oldPassword: string) : void;
 
 This method can protect worksheet in all versions of Excel file.
 
+**Example**
+```javascript
+const { Workbook, ProtectionType } = require("aspose.cells.node");
+
+//Instantiating a Workbook object
+var excel = new Workbook("input/Book1.xls");
+//Accessing the first worksheet in the Excel file
+var worksheet = excel.getWorksheets().get(0);
+//Protecting the worksheet with a password
+worksheet.protect(ProtectionType.All, "aspose", null);
+//Saving the modified Excel file in default (that is Excel 20003) format
+excel.save("output/WorksheetProtect.xls");
+```
 ### unprotect() {#unprotect--}
 
 Unprotects worksheet.

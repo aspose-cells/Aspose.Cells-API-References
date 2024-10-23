@@ -15,6 +15,15 @@ class CheckBox extends Shape;
 ```
 
 
+### Example
+```javascript
+const { Workbook } = require("aspose.cells.node");
+
+var excel = new Workbook();
+var index = excel.getWorksheets().get(0).getCheckBoxes().add(15, 15, 20, 100);
+var checkBox = excel.getWorksheets().get(0).getCheckBoxes().get(index);
+checkBox.setText("Check Box 1");
+```
 ## Constructors
 
 | Name | Description |
@@ -162,6 +171,10 @@ class CheckBox extends Shape;
 | [getActualLowerRightRow()](#getActualLowerRightRow--)| Get the actual bottom row. |
 | [getRelativeToOriginalPictureSize()](#getRelativeToOriginalPictureSize--)| Indicates whether shape is relative to original picture size. |
 | [setRelativeToOriginalPictureSize(boolean)](#setRelativeToOriginalPictureSize-boolean-)| Indicates whether shape is relative to original picture size. |
+| [getLinkedCell()](#getLinkedCell--)| Gets or sets the worksheet range linked to the control's value. |
+| [setLinkedCell(string)](#setLinkedCell-string-)| Gets or sets the worksheet range linked to the control's value. |
+| [getInputRange()](#getInputRange--)| Gets or sets the worksheet range used to fill the specified combo box. |
+| [setInputRange(string)](#setInputRange-string-)| Gets or sets the worksheet range used to fill the specified combo box. |
 | [getTextShapeType()](#getTextShapeType--)| Gets and sets the preset text shape type. |
 | [setTextShapeType(AutoShapeType)](#setTextShapeType-autoshapetype-)| Gets and sets the preset text shape type. |
 | [getTextBody()](#getTextBody--)| Gets and sets the setting of the shape's text. |
@@ -1866,6 +1879,50 @@ setRelativeToOriginalPictureSize(value: boolean) : void;
 | --- | --- | --- |
 | value | boolean | The value to set. |
 
+### getLinkedCell() {#getLinkedCell--}
+
+Gets or sets the worksheet range linked to the control's value.
+
+```javascript
+getLinkedCell() : string;
+```
+
+
+### setLinkedCell(string) {#setLinkedCell-string-}
+
+Gets or sets the worksheet range linked to the control's value.
+
+```javascript
+setLinkedCell(value: string) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | string | The value to set. |
+
+### getInputRange() {#getInputRange--}
+
+Gets or sets the worksheet range used to fill the specified combo box.
+
+```javascript
+getInputRange() : string;
+```
+
+
+### setInputRange(string) {#setInputRange-string-}
+
+Gets or sets the worksheet range used to fill the specified combo box.
+
+```javascript
+setInputRange(value: string) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | string | The value to set. |
+
 ### getTextShapeType() {#getTextShapeType--}
 
 Gets and sets the preset text shape type.
@@ -2404,7 +2461,7 @@ toImage(stream: Uint8Array, imageType: ImageType) : void;
 
 **Remarks**
 
-<p>The following formats are supported: .bmp, .gif, .jpg, .jpeg, .tiff, .emf.</p>
+The following formats are supported: .bmp, .gif, .jpg, .jpeg, .tiff, .emf.
 
 ### toImage(string, ImageOrPrintOptions) {#toImage-string-imageorprintoptions-}
 

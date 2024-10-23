@@ -15,12 +15,30 @@ class AutoFilter;
 ```
 
 
+### Example
+```javascript
+const { Workbook } = require("aspose.cells.node");
+
+//Instantiating a Workbook object
+var workbook = new Workbook("input/AutoFilter.xlsx");
+//Accessing the first worksheet in the Excel file
+var worksheet = workbook.getWorksheets().get(0);
+//Creating AutoFilter by giving the cells range of the heading row
+worksheet.getAutoFilter().setRange("A1:C1");
+//Filtering columns with specified values
+worksheet.getAutoFilter().filter(2, "present");
+// Refreshing auto filters to hide or unhide the rows.
+worksheet.getAutoFilter().refresh();
+//Saving the modified Excel file.
+workbook.save("output/AutoFilter.xlsx");
+```
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [getSorter()](#getSorter--)| Gets the data sorter. |
 | [getRange()](#getRange--)| Represents the range to which the specified AutoFilter applies. |
+| [setRange(string)](#setRange-string-)| Represents the range to which the specified AutoFilter applies. |
 | [getShowFilterButton()](#getShowFilterButton--)| Indicates whether the AutoFilter button for this column is visible. |
 | [setShowFilterButton(boolean)](#setShowFilterButton-boolean-)| Indicates whether the AutoFilter button for this column is visible. |
 | [getFilterColumns()](#getFilterColumns--)| Gets the collection of the filter columns. |
@@ -68,6 +86,19 @@ Represents the range to which the specified AutoFilter applies.
 getRange() : string;
 ```
 
+
+### setRange(string) {#setRange-string-}
+
+Represents the range to which the specified AutoFilter applies.
+
+```javascript
+setRange(value: string) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | string | The value to set. |
 
 ### getShowFilterButton() {#getShowFilterButton--}
 

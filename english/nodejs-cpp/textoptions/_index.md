@@ -69,8 +69,8 @@ class TextOptions extends Font;
 | [setSize(number)](#setSize-number-)| Gets or sets the size of the font. |
 | [getThemeColor()](#getThemeColor--)| Gets and sets the theme color. |
 | [setThemeColor(ThemeColor)](#setThemeColor-themecolor-)| Gets and sets the theme color. |
-| [getColor()](#getColor--)| Gets or sets the [System.Drawing.Color](../system.drawing.color/) of the font. |
-| [setColor(Color)](#setColor-color-)| Gets or sets the [System.Drawing.Color](../system.drawing.color/) of the font. |
+| [getColor()](#getColor--)| Gets or sets the [Color](../color/) of the font. |
+| [setColor(Color)](#setColor-color-)| Gets or sets the [Color](../color/) of the font. |
 | [getArgbColor()](#getArgbColor--)| Gets and sets the color with a 32-bit ARGB value. |
 | [setArgbColor(number)](#setArgbColor-number-)| Gets and sets the color with a 32-bit ARGB value. |
 | [isNormalizeHeights()](#isNormalizeHeights--)| Indicates whether the normalization of height that is to be applied to the text run. |
@@ -616,7 +616,7 @@ If the font color is not a theme color, NULL will be returned.
 
 ### getColor() {#getColor--}
 
-Gets or sets the [System.Drawing.Color](../system.drawing.color/) of the font.
+Gets or sets the [Color](../color/) of the font.
 
 ```javascript
 getColor() : Color;
@@ -629,7 +629,7 @@ getColor() : Color;
 
 ### setColor(Color) {#setColor-color-}
 
-Gets or sets the [System.Drawing.Color](../system.drawing.color/) of the font.
+Gets or sets the [Color](../color/) of the font.
 
 ```javascript
 setColor(value: Color) : void;

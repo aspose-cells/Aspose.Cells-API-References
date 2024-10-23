@@ -15,6 +15,24 @@ class ThemeColor;
 ```
 
 
+### Example
+```javascript
+const { Workbook, ThemeColor, ThemeColorType, BackgroundType } = require("aspose.cells.node");
+
+//Instantiating a Workbook object
+var workbook = new Workbook();
+var cells = workbook.getWorksheets().get(0).getCells();
+cells.get("A1").putValue("Hello World");
+var style = cells.get("A1").getStyle();
+//Set ThemeColorType.Text2 color type with 40% lighten as the font color.
+style.getFont().setThemeColor(new ThemeColor(ThemeColorType.Text2, 0.4));
+style.setPattern(BackgroundType.Solid);
+//Set ThemeColorType.Background2 color type with 75% darken as the foreground color
+style.setForegroundThemeColor(new ThemeColor(ThemeColorType.Background2, -0.75));
+cells.get("A1").setStyle(style);
+//Saving the Excel file
+workbook.save("output/ThemeColor.xlsx");
+```
 ## Constructors
 
 | Name | Description |

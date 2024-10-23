@@ -21,12 +21,12 @@ class PatternFill;
 | --- | --- |
 | [getPattern()](#getPattern--)| Gets or sets the fill pattern type |
 | [setPattern(FillPattern)](#setPattern-fillpattern-)| Gets or sets the fill pattern type |
-| [getBackgroundColor()](#getBackgroundColor--)| Gets or sets the background [System.Drawing.Color](../system.drawing.color/) of the [System.Drawing.Color](../system.drawing.color/). |
-| [setBackgroundColor(Color)](#setBackgroundColor-color-)| Gets or sets the background [System.Drawing.Color](../system.drawing.color/) of the [System.Drawing.Color](../system.drawing.color/). |
+| [getBackgroundColor()](#getBackgroundColor--)| Gets or sets the background [Color](../color/) of the [Area](../area/). |
+| [setBackgroundColor(Color)](#setBackgroundColor-color-)| Gets or sets the background [Color](../color/) of the [Area](../area/). |
 | [getBackgroundCellsColor()](#getBackgroundCellsColor--)| Gets and sets the foreground [CellsColor](../cellscolor/) object. |
 | [setBackgroundCellsColor(CellsColor)](#setBackgroundCellsColor-cellscolor-)| Gets and sets the foreground [CellsColor](../cellscolor/) object. |
-| [getForegroundColor()](#getForegroundColor--)| Gets or sets the foreground [System.Drawing.Color](../system.drawing.color/). |
-| [setForegroundColor(Color)](#setForegroundColor-color-)| Gets or sets the foreground [System.Drawing.Color](../system.drawing.color/). |
+| [getForegroundColor()](#getForegroundColor--)| Gets or sets the foreground [Color](../color/). |
+| [setForegroundColor(Color)](#setForegroundColor-color-)| Gets or sets the foreground [Color](../color/). |
 | [getForegroundCellsColor()](#getForegroundCellsColor--)| Gets and sets the foreground [CellsColor](../cellscolor/) object. |
 | [setForegroundCellsColor(CellsColor)](#setForegroundCellsColor-cellscolor-)| Gets and sets the foreground [CellsColor](../cellscolor/) object. |
 | [getForeTransparency()](#getForeTransparency--)| Gets or sets the transparency of foreground color. |
@@ -64,7 +64,7 @@ setPattern(value: FillPattern) : void;
 
 ### getBackgroundColor() {#getBackgroundColor--}
 
-Gets or sets the background [System.Drawing.Color](../system.drawing.color/) of the [System.Drawing.Color](../system.drawing.color/).
+Gets or sets the background [Color](../color/) of the [Area](../area/).
 
 ```javascript
 getBackgroundColor() : Color;
@@ -77,7 +77,7 @@ getBackgroundColor() : Color;
 
 ### setBackgroundColor(Color) {#setBackgroundColor-color-}
 
-Gets or sets the background [System.Drawing.Color](../system.drawing.color/) of the [System.Drawing.Color](../system.drawing.color/).
+Gets or sets the background [Color](../color/) of the [Area](../area/).
 
 ```javascript
 setBackgroundColor(value: Color) : void;
@@ -116,7 +116,7 @@ setBackgroundCellsColor(value: CellsColor) : void;
 
 ### getForegroundColor() {#getForegroundColor--}
 
-Gets or sets the foreground [System.Drawing.Color](../system.drawing.color/).
+Gets or sets the foreground [Color](../color/).
 
 ```javascript
 getForegroundColor() : Color;
@@ -129,7 +129,7 @@ getForegroundColor() : Color;
 
 ### setForegroundColor(Color) {#setForegroundColor-color-}
 
-Gets or sets the foreground [System.Drawing.Color](../system.drawing.color/).
+Gets or sets the foreground [Color](../color/).
 
 ```javascript
 setForegroundColor(value: Color) : void;

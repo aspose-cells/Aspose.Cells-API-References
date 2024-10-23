@@ -15,6 +15,24 @@ class Comment;
 ```
 
 
+### Example
+```javascript
+const { Workbook } = require("aspose.cells.node");
+
+var workbook = new Workbook();
+var comments = workbook.getWorksheets().get(0).getComments();
+
+//Add comment to cell A1
+var commentIndex = comments.add(0, 0);
+var comment = comments.get(commentIndex);
+comment.setNote("First note.");
+comment.getFont().setName("Times New Roman");
+
+//Add comment to cell B2
+comments.add("B2");
+comment = comments.get("B2");
+comment.setNote("Second note.");
+```
 ## Methods
 
 | Method | Description |

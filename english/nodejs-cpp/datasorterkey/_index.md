@@ -78,7 +78,7 @@ getIconSetType() : IconSetType;
 
 **Remarks**
 
-Only takes effect when [Type](../type/) is [Type](../type/).
+Only takes effect when [Type](../type/) is [SortOnType.Icon](../sortontype.icon/).
 
 ### getIconId() {#getIconId--}
 
@@ -91,7 +91,7 @@ getIconId() : number;
 
 **Remarks**
 
-Only takes effect when [Type](../type/) is [Type](../type/).
+Only takes effect when [Type](../type/) is [SortOnType.Icon](../sortontype.icon/).
 
 ### getColor() {#getColor--}
 
@@ -108,7 +108,7 @@ getColor() : Color;
 
 **Remarks**
 
-Only takes effect when [Type](../type/) is [Type](../type/) or [Type](../type/).
+Only takes effect when [Type](../type/) is [SortOnType.CellColor](../sortontype.cellcolor/) or [SortOnType.FontColor](../sortontype.fontcolor/).
 
 ### isNull() {#isNull--}
 

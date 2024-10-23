@@ -352,7 +352,7 @@ getStyle() : Style;
 
 **Remarks**
 
-Modifying the returned style object directly takes no effect for this row or any cells in this row. You have to call [ApplyStyle(Style, StyleFlag)](../applystyle(style, styleflag)/) or [ApplyStyle(Style, StyleFlag)](../applystyle(style, styleflag)/) method to apply the change to this row.<br></br> Row's style is the style which will be inherited by cells in this row(those cells that have no custom style settings, such as existing cells that have not been set style explicitly, or those that have not been instantiated)
+Modifying the returned style object directly takes no effect for this row or any cells in this row. You have to call [ApplyStyle(Style, StyleFlag)](../applystyle(style, styleflag)/) or [SetStyle(Style)](../setstyle(style)/) method to apply the change to this row.<br></br> Row's style is the style which will be inherited by cells in this row(those cells that have no custom style settings, such as existing cells that have not been set style explicitly, or those that have not been instantiated)
 
 ### setStyle(Style) {#setStyle-style-}
 

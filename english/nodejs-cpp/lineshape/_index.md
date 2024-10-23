@@ -15,6 +15,39 @@ class LineShape extends Shape;
 ```
 
 
+### Example
+```javascript
+const { Workbook, MsoDrawingType, PlacementType, MsoLineDashStyle } = require("aspose.cells.node");
+
+//Instantiate a new Workbook.
+var workbook = new Workbook();
+//Get the first worksheet in the book.
+var worksheet = workbook.getWorksheets().get(0);
+//Add a new line to the worksheet.
+var line1 = worksheet.getShapes().addLine(5, 0, 1, 0, 0, 250);
+//Set the line dash style
+line1.getLine().setDashStyle(MsoLineDashStyle.Solid);
+//Set the placement.
+line1.setPlacement(PlacementType.FreeFloating);
+//Add another line to the worksheet.
+var line2 = worksheet.getShapes().addLine(7, 0, 1, 0, 85, 250);
+//Set the line dash style.
+line2.getLine().setDashStyle(MsoLineDashStyle.DashLongDash);
+//Set the weight of the line.
+line2.getLine().setWeight(4);
+//Set the placement.
+line2.setPlacement(PlacementType.FreeFloating);
+//Add the third line to the worksheet.
+var line3 = worksheet.getShapes().addShape(MsoDrawingType.Line, 13, 0, 1, 0, 0, 250);
+//Set the line dash style
+line3.getLine().setDashStyle(MsoLineDashStyle.Solid);
+//Set the placement.
+line3.setPlacement(PlacementType.FreeFloating);
+//Make the gridlines invisible in the first worksheet.
+workbook.getWorksheets().get(0).setIsGridlinesVisible(false);
+//Save the excel file.
+workbook.save("output/DrawingLineShape.xls");
+```
 ## Constructors
 
 | Name | Description |
@@ -156,6 +189,10 @@ class LineShape extends Shape;
 | [getActualLowerRightRow()](#getActualLowerRightRow--)| Get the actual bottom row. |
 | [getRelativeToOriginalPictureSize()](#getRelativeToOriginalPictureSize--)| Indicates whether shape is relative to original picture size. |
 | [setRelativeToOriginalPictureSize(boolean)](#setRelativeToOriginalPictureSize-boolean-)| Indicates whether shape is relative to original picture size. |
+| [getLinkedCell()](#getLinkedCell--)| Gets or sets the worksheet range linked to the control's value. |
+| [setLinkedCell(string)](#setLinkedCell-string-)| Gets or sets the worksheet range linked to the control's value. |
+| [getInputRange()](#getInputRange--)| Gets or sets the worksheet range used to fill the specified combo box. |
+| [setInputRange(string)](#setInputRange-string-)| Gets or sets the worksheet range used to fill the specified combo box. |
 | [getTextShapeType()](#getTextShapeType--)| Gets and sets the preset text shape type. |
 | [setTextShapeType(AutoShapeType)](#setTextShapeType-autoshapetype-)| Gets and sets the preset text shape type. |
 | [getTextBody()](#getTextBody--)| Gets and sets the setting of the shape's text. |
@@ -1790,6 +1827,50 @@ setRelativeToOriginalPictureSize(value: boolean) : void;
 | --- | --- | --- |
 | value | boolean | The value to set. |
 
+### getLinkedCell() {#getLinkedCell--}
+
+Gets or sets the worksheet range linked to the control's value.
+
+```javascript
+getLinkedCell() : string;
+```
+
+
+### setLinkedCell(string) {#setLinkedCell-string-}
+
+Gets or sets the worksheet range linked to the control's value.
+
+```javascript
+setLinkedCell(value: string) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | string | The value to set. |
+
+### getInputRange() {#getInputRange--}
+
+Gets or sets the worksheet range used to fill the specified combo box.
+
+```javascript
+getInputRange() : string;
+```
+
+
+### setInputRange(string) {#setInputRange-string-}
+
+Gets or sets the worksheet range used to fill the specified combo box.
+
+```javascript
+setInputRange(value: string) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | string | The value to set. |
+
 ### getTextShapeType() {#getTextShapeType--}
 
 Gets and sets the preset text shape type.
@@ -2328,7 +2409,7 @@ toImage(stream: Uint8Array, imageType: ImageType) : void;
 
 **Remarks**
 
-<p>The following formats are supported: .bmp, .gif, .jpg, .jpeg, .tiff, .emf.</p>
+The following formats are supported: .bmp, .gif, .jpg, .jpeg, .tiff, .emf.
 
 ### toImage(string, ImageOrPrintOptions) {#toImage-string-imageorprintoptions-}
 

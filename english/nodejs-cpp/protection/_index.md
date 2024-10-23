@@ -15,6 +15,18 @@ class Protection;
 ```
 
 
+### Example
+```javascript
+const { Workbook } = require("aspose.cells.node");
+
+var workbook = new Workbook();
+var sheetIndex = workbook.getWorksheets().add();
+var worksheet = workbook.getWorksheets().get(sheetIndex);
+//Allowing users to select locked cells of the worksheet
+worksheet.getProtection().setAllowSelectingLockedCell(true);
+//Allowing users to select unlocked cells of the worksheet
+worksheet.getProtection().setAllowSelectingUnlockedCell(true);
+```
 ## Methods
 
 | Method | Description |

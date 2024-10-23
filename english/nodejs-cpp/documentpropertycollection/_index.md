@@ -1,24 +1,43 @@
 ﻿---
 title: DocumentPropertyCollection
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Base class for BuiltInDocumentPropertyCollection..builtindocumentpropertycollection and BuiltInDocumentPropertyCollection..builtindocumentpropertycollection collections.
+description: Base class for BuiltInDocumentPropertyCollection..builtindocumentpropertycollection and CustomDocumentPropertyCollection..customdocumentpropertycollection collections.
 type: docs
 url: /nodejs-cpp/documentpropertycollection/
 ---
 
 ## DocumentPropertyCollection class
 
-Base class for [BuiltInDocumentPropertyCollection](../builtindocumentpropertycollection/) and [BuiltInDocumentPropertyCollection](../builtindocumentpropertycollection/) collections.
+Base class for [BuiltInDocumentPropertyCollection](../builtindocumentpropertycollection/) and [CustomDocumentPropertyCollection](../customdocumentpropertycollection/) collections.
 
 ```javascript
 class DocumentPropertyCollection;
 ```
 
 
+### Example
+```javascript
+const { Workbook } = require("aspose.cells.node");
+
+//Instantiate a Workbook object by calling its empty constructor
+var workbook = new Workbook("input/CustomProperties.xlsx");
+
+//Retrieve a list of all custom document properties of the Excel file
+var customProperties = workbook.getWorksheets().getCustomDocumentProperties();
+
+//Accessng a custom document property by using the property index
+var customProperty1 = customProperties.get(3);
+
+//Accessng a custom document property by using the property name
+var customProperty2 = customProperties.get("rox_Meta1");
+
+console.log("Custom Properties: " + customProperties.getCount());
+```
 ## Methods
 
 | Method | Description |
 | --- | --- |
+| [get(number)](#get-number-)| Returns a [DocumentProperty](../documentproperty/) object by index. |
 | [contains(string)](#contains-string-)| Returns true if a property with the specified name exists in the collection. |
 | [indexOf(string)](#indexOf-string-)| Gets the index of a property by name. |
 | [remove(string)](#remove-string-)| Removes a property with the specified name from the collection. |
@@ -27,6 +46,23 @@ class DocumentPropertyCollection;
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [get(string)](#get-string-)| Returns a [DocumentProperty](../documentproperty/) object by the name of the property. |
 
+
+### get(number) {#get-number-}
+
+Returns a [DocumentProperty](../documentproperty/) object by index.
+
+```javascript
+get(index: number) : DocumentProperty;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | number | Zero-based index of the [DocumentProperty](../documentproperty/) to retrieve. |
+
+**Returns**
+
+[DocumentProperty](../documentproperty/)
 
 ### contains(string) {#contains-string-}
 
@@ -125,6 +161,6 @@ get(name: string) : DocumentProperty;
 
 **Remarks**
 
-<p>Returns null if a property with the specified name is not found.</p>
+Returns null if a property with the specified name is not found.
 
 

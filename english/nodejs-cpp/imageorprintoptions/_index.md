@@ -15,6 +15,22 @@ class ImageOrPrintOptions;
 ```
 
 
+### Example
+```javascript
+const { Workbook, ImageOrPrintOptions } = require("aspose.cells.node");
+
+//Set Image Or Print Options
+var options = new ImageOrPrintOptions();
+//set Horizontal resolution
+options.setHorizontalResolution(200);
+//set Vertica; Resolution
+options.setVerticalResolution(300);
+
+//Instantiate Workbook
+var book = new Workbook("input/Chart.xls");
+//Save chart as Image using ImageOrPrint Options
+book.getWorksheets().get(0).getCharts().get(0).toImage("output/chart.png", options);
+```
 ## Constructors
 
 | Name | Description |
@@ -35,8 +51,8 @@ class ImageOrPrintOptions;
 | [setTiffCompression(TiffCompression)](#setTiffCompression-tiffcompression-)| Gets or sets the type of compression to apply only when saving pages to the <c>Tiff</c> format. |
 | [getTiffColorDepth()](#getTiffColorDepth--)| Gets or sets bit depth to apply only when saving pages to the <c>Tiff</c> format. |
 | [setTiffColorDepth(ColorDepth)](#setTiffColorDepth-colordepth-)| Gets or sets bit depth to apply only when saving pages to the <c>Tiff</c> format. |
-| [getTiffBinarizationMethod()](#getTiffBinarizationMethod--)| Gets or sets method used while converting images to 1 bpp format when [ImageType](../imagetype/) is Tiff and [ImageType](../imagetype/) is equal to Ccitt3 or Ccitt4. |
-| [setTiffBinarizationMethod(ImageBinarizationMethod)](#setTiffBinarizationMethod-imagebinarizationmethod-)| Gets or sets method used while converting images to 1 bpp format when [ImageType](../imagetype/) is Tiff and [ImageType](../imagetype/) is equal to Ccitt3 or Ccitt4. |
+| [getTiffBinarizationMethod()](#getTiffBinarizationMethod--)| Gets or sets method used while converting images to 1 bpp format when [ImageType](../imagetype/) is Tiff and [TiffCompression](../tiffcompression/) is equal to Ccitt3 or Ccitt4. |
+| [setTiffBinarizationMethod(ImageBinarizationMethod)](#setTiffBinarizationMethod-imagebinarizationmethod-)| Gets or sets method used while converting images to 1 bpp format when [ImageType](../imagetype/) is Tiff and [TiffCompression](../tiffcompression/) is equal to Ccitt3 or Ccitt4. |
 | [getPrintingPage()](#getPrintingPage--)| Indicates which pages will not be printed. |
 | [setPrintingPage(PrintingPageType)](#setPrintingPage-printingpagetype-)| Indicates which pages will not be printed. |
 | [getQuality()](#getQuality--)| Gets or sets a value determining the quality of the generated  images to apply only when saving pages to the <c>Jpeg</c> format. The default value is 100 |
@@ -131,7 +147,7 @@ getHorizontalResolution() : number;
 
 **Remarks**
 
-<para>The default value is 96.</para> <para>Setting [HorizontalResolution](../horizontalresolution/) and [HorizontalResolution](../horizontalresolution/) effects the width and height of the output image in pixels.</para>
+ara>The default value is 96.</para> <para>Setting [HorizontalResolution](../horizontalresolution/) and [VerticalResolution](../verticalresolution/) effects the width and height of the output image in pixels.</para
 
 ### setHorizontalResolution(number) {#setHorizontalResolution-number-}
 
@@ -148,7 +164,7 @@ setHorizontalResolution(value: number) : void;
 
 **Remarks**
 
-<para>The default value is 96.</para> <para>Setting [HorizontalResolution](../horizontalresolution/) and [HorizontalResolution](../horizontalresolution/) effects the width and height of the output image in pixels.</para>
+ara>The default value is 96.</para> <para>Setting [HorizontalResolution](../horizontalresolution/) and [VerticalResolution](../verticalresolution/) effects the width and height of the output image in pixels.</para
 
 ### getVerticalResolution() {#getVerticalResolution--}
 
@@ -161,7 +177,7 @@ getVerticalResolution() : number;
 
 **Remarks**
 
-<para>The default value is 96.</para> <para>Setting [HorizontalResolution](../horizontalresolution/) and [HorizontalResolution](../horizontalresolution/) effects the width and height of the output image in pixels.</para>
+ara>The default value is 96.</para> <para>Setting [HorizontalResolution](../horizontalresolution/) and [VerticalResolution](../verticalresolution/) effects the width and height of the output image in pixels.</para
 
 ### setVerticalResolution(number) {#setVerticalResolution-number-}
 
@@ -178,7 +194,7 @@ setVerticalResolution(value: number) : void;
 
 **Remarks**
 
-<para>The default value is 96.</para> <para>Setting [HorizontalResolution](../horizontalresolution/) and [HorizontalResolution](../horizontalresolution/) effects the width and height of the output image in pixels.</para>
+ara>The default value is 96.</para> <para>Setting [HorizontalResolution](../horizontalresolution/) and [VerticalResolution](../verticalresolution/) effects the width and height of the output image in pixels.</para
 
 ### getTiffCompression() {#getTiffCompression--}
 
@@ -250,7 +266,7 @@ Has effect only when saving to TIFF. If TiffCompression is set to CCITT3, CCITT4
 
 ### getTiffBinarizationMethod() {#getTiffBinarizationMethod--}
 
-Gets or sets method used while converting images to 1 bpp format when [ImageType](../imagetype/) is Tiff and [ImageType](../imagetype/) is equal to Ccitt3 or Ccitt4.
+Gets or sets method used while converting images to 1 bpp format when [ImageType](../imagetype/) is Tiff and [TiffCompression](../tiffcompression/) is equal to Ccitt3 or Ccitt4.
 
 ```javascript
 getTiffBinarizationMethod() : ImageBinarizationMethod;
@@ -267,7 +283,7 @@ The default value is FloydSteinbergDithering.
 
 ### setTiffBinarizationMethod(ImageBinarizationMethod) {#setTiffBinarizationMethod-imagebinarizationmethod-}
 
-Gets or sets method used while converting images to 1 bpp format when [ImageType](../imagetype/) is Tiff and [ImageType](../imagetype/) is equal to Ccitt3 or Ccitt4.
+Gets or sets method used while converting images to 1 bpp format when [ImageType](../imagetype/) is Tiff and [TiffCompression](../tiffcompression/) is equal to Ccitt3 or Ccitt4.
 
 ```javascript
 setTiffBinarizationMethod(value: ImageBinarizationMethod) : void;
@@ -963,7 +979,7 @@ setDesiredSize(desiredWidth: number, desiredHeight: number, keepAspectRatio: boo
 
 **Remarks**
 
-<para>The width and height of the output image in pixels will be only based on the set desired width and height.</para> <para>The [HorizontalResolution](../horizontalresolution/) and [HorizontalResolution](../horizontalresolution/) will not effect the width and height of the output image in this case.</para>
+ara>The width and height of the output image in pixels will be only based on the set desired width and height.</para> <para>The [HorizontalResolution](../horizontalresolution/) and [VerticalResolution](../verticalresolution/) will not effect the width and height of the output image in this case.</para
 
 ### isNull() {#isNull--}
 

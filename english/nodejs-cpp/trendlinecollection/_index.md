@@ -15,6 +15,20 @@ class TrendlineCollection;
 ```
 
 
+### Example
+```javascript
+const { Workbook, ChartType, TrendlineType, Color } = require("aspose.cells.node");
+
+var excel = new Workbook();
+var chartIndex = excel.getWorksheets().get(0).getCharts().add(ChartType.Column, 3, 3, 15, 10);
+var chart = excel.getWorksheets().get(0).getCharts().get(chartIndex);
+chart.getNSeries().add("A1:a3", true);
+chart.getNSeries().get(0).getTrendLines().add(TrendlineType.Linear, "MyTrendLine");
+var line = chart.getNSeries().get(0).getTrendLines().get(0);
+line.setDisplayEquation(true);
+line.setDisplayRSquared(true);
+line.setColor(new Color(0xff, 0, 0));
+```
 ## Methods
 
 | Method | Description |

@@ -15,6 +15,43 @@ class ChartShape extends Shape;
 ```
 
 
+### Example
+```javascript
+const { Workbook, ChartType } = require("aspose.cells.node");
+
+//Instantiating a Workbook object
+var workbook = new Workbook();
+//Obtaining the reference of the first worksheet
+var worksheet = workbook.getWorksheets().get(0);
+//Adding a sample value to "A1" cell
+worksheet.getCells().get("A1").putValue(50);
+//Adding a sample value to "A2" cell
+worksheet.getCells().get("A2").putValue(100);
+//Adding a sample value to "A3" cell
+worksheet.getCells().get("A3").putValue(150);
+//Adding a sample value to "B1" cell
+worksheet.getCells().get("B1").putValue(60);
+//Adding a sample value to "B2" cell
+worksheet.getCells().get("B2").putValue(32);
+//Adding a sample value to "B3" cell
+worksheet.getCells().get("B3").putValue(50);
+//Adding a chart to the worksheet
+var chartIndex = worksheet.getCharts().add(ChartType.PieExploded, 5, 0, 25, 10);
+//Accessing the instance of the newly added chart
+var chart = worksheet.getCharts().get(chartIndex);
+//Adding NSeries (chart data source) to the chart ranging from "A1" cell to "B3"
+chart.getNSeries().add("A1:B3", true);
+//Show Data Labels 
+chart.getNSeries().get(0).getDataLabels().setShowValue(true);
+//Getting Chart Shape
+var chartShape = chart.getChartObject();
+//Set Lower Right Column
+chartShape.setLowerRightColumn(10);
+//Set LowerDeltaX
+chartShape.setLowerDeltaX(1024);
+//Saving the Excel file
+workbook.save("output/DrawingChartShape.xls");
+```
 ## Constructors
 
 | Name | Description |
@@ -157,6 +194,10 @@ class ChartShape extends Shape;
 | [getActualLowerRightRow()](#getActualLowerRightRow--)| Get the actual bottom row. |
 | [getRelativeToOriginalPictureSize()](#getRelativeToOriginalPictureSize--)| Indicates whether shape is relative to original picture size. |
 | [setRelativeToOriginalPictureSize(boolean)](#setRelativeToOriginalPictureSize-boolean-)| Indicates whether shape is relative to original picture size. |
+| [getLinkedCell()](#getLinkedCell--)| Gets or sets the worksheet range linked to the control's value. |
+| [setLinkedCell(string)](#setLinkedCell-string-)| Gets or sets the worksheet range linked to the control's value. |
+| [getInputRange()](#getInputRange--)| Gets or sets the worksheet range used to fill the specified combo box. |
+| [setInputRange(string)](#setInputRange-string-)| Gets or sets the worksheet range used to fill the specified combo box. |
 | [getTextShapeType()](#getTextShapeType--)| Gets and sets the preset text shape type. |
 | [setTextShapeType(AutoShapeType)](#setTextShapeType-autoshapetype-)| Gets and sets the preset text shape type. |
 | [getTextBody()](#getTextBody--)| Gets and sets the setting of the shape's text. |
@@ -1804,6 +1845,50 @@ setRelativeToOriginalPictureSize(value: boolean) : void;
 | --- | --- | --- |
 | value | boolean | The value to set. |
 
+### getLinkedCell() {#getLinkedCell--}
+
+Gets or sets the worksheet range linked to the control's value.
+
+```javascript
+getLinkedCell() : string;
+```
+
+
+### setLinkedCell(string) {#setLinkedCell-string-}
+
+Gets or sets the worksheet range linked to the control's value.
+
+```javascript
+setLinkedCell(value: string) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | string | The value to set. |
+
+### getInputRange() {#getInputRange--}
+
+Gets or sets the worksheet range used to fill the specified combo box.
+
+```javascript
+getInputRange() : string;
+```
+
+
+### setInputRange(string) {#setInputRange-string-}
+
+Gets or sets the worksheet range used to fill the specified combo box.
+
+```javascript
+setInputRange(value: string) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | string | The value to set. |
+
 ### getTextShapeType() {#getTextShapeType--}
 
 Gets and sets the preset text shape type.
@@ -2342,7 +2427,7 @@ toImage(stream: Uint8Array, imageType: ImageType) : void;
 
 **Remarks**
 
-<p>The following formats are supported: .bmp, .gif, .jpg, .jpeg, .tiff, .emf.</p>
+The following formats are supported: .bmp, .gif, .jpg, .jpeg, .tiff, .emf.
 
 ### toImage(string, ImageOrPrintOptions) {#toImage-string-imageorprintoptions-}
 

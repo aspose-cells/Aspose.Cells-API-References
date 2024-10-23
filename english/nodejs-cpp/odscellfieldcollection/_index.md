@@ -20,6 +20,7 @@ class OdsCellFieldCollection;
 | Method | Description |
 | --- | --- |
 | [get(number)](#get-number-)| Gets the field by the index. |
+| [get(number, number)](#get-number-number-)| Gets the field by row and column index. |
 | [add(number, number, OdsCellFieldType, string)](#add-number-number-odscellfieldtype-string-)| Adds a field. |
 | [updateFieldsValue()](#updateFieldsValue--)| Update fields value to the cells. |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
@@ -38,6 +39,24 @@ get(index: number) : OdsCellField;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | number | The index. |
+
+**Returns**
+
+[OdsCellField](../odscellfield/)
+
+### get(number, number) {#get-number-number-}
+
+Gets the field by row and column index.
+
+```javascript
+get(row: number, column: number) : OdsCellField;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| row | number | The row index. |
+| column | number | The column index. |
 
 **Returns**
 

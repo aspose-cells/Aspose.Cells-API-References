@@ -15,6 +15,21 @@ class Name;
 ```
 
 
+### Example
+```javascript
+const { Workbook } = require("aspose.cells.node");
+
+//Instantiating a Workbook object
+var workbook = new Workbook();
+//Accessing the first worksheet in the Excel file
+var worksheet = workbook.getWorksheets().get(0);
+//Creating a named range
+var range = worksheet.getCells().createRange("B4", "G14");
+//Setting the name of the named range
+range.setName("TestRange");
+//Saving the modified Excel file in default (that is Excel 2000) format
+workbook.save("output/Name.xls");
+```
 ## Methods
 
 | Method | Description |
@@ -24,6 +39,8 @@ class Name;
 | [getText()](#getText--)| Gets the name text of the object. |
 | [setText(string)](#setText-string-)| Gets the name text of the object. |
 | [getFullText()](#getFullText--)| Gets the name  full text of the object with the scope setting. |
+| [getRefersTo()](#getRefersTo--)| Returns or sets the formula that the name is defined to refer to, beginning with an equal sign. |
+| [setRefersTo(string)](#setRefersTo-string-)| Returns or sets the formula that the name is defined to refer to, beginning with an equal sign. |
 | [getR1C1RefersTo()](#getR1C1RefersTo--)| Gets or sets a R1C1 reference of the [Name](../name/). |
 | [setR1C1RefersTo(string)](#setR1C1RefersTo-string-)| Gets or sets a R1C1 reference of the [Name](../name/). |
 | [isReferred()](#isReferred--)| Indicates whether this name is referred by other formulas. |
@@ -96,6 +113,28 @@ Gets the name  full text of the object with the scope setting.
 getFullText() : string;
 ```
 
+
+### getRefersTo() {#getRefersTo--}
+
+Returns or sets the formula that the name is defined to refer to, beginning with an equal sign.
+
+```javascript
+getRefersTo() : string;
+```
+
+
+### setRefersTo(string) {#setRefersTo-string-}
+
+Returns or sets the formula that the name is defined to refer to, beginning with an equal sign.
+
+```javascript
+setRefersTo(value: string) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | string | The value to set. |
 
 ### getR1C1RefersTo() {#getR1C1RefersTo--}
 

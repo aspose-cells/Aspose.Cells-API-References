@@ -20,6 +20,7 @@ class ExternalConnectionCollection;
 | Method | Description |
 | --- | --- |
 | [get(number)](#get-number-)| Gets the [ExternalConnection](../externalconnection/) element at the specified index. |
+| [get(string)](#get-string-)| Gets the [ExternalConnection](../externalconnection/) element with the specified name. |
 | [set(ExternalConnection, number)](#set-externalconnection-number-)| Gets the [ExternalConnection](../externalconnection/) element at the specified index. |
 | [getExternalConnectionById(number)](#getExternalConnectionById-number-)| Gets the [ExternalConnection](../externalconnection/) element with the specified id. |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
@@ -42,6 +43,23 @@ get(index: number) : ExternalConnection;
 **Returns**
 
 The element at the specified index.
+
+### get(string) {#get-string-}
+
+Gets the [ExternalConnection](../externalconnection/) element with the specified name.
+
+```javascript
+get(connectionName: string) : ExternalConnection;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connectionName | string | the name of data connection |
+
+**Returns**
+
+The element with the specified name.
 
 ### set(ExternalConnection, number) {#set-externalconnection-number-}
 

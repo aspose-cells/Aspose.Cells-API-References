@@ -15,6 +15,87 @@ class GroupBox extends Shape;
 ```
 
 
+### Example
+```javascript
+const { Workbook, PlacementType, FillType, Color, MsoLineDashStyle, MsoLineStyle } = require("aspose.cells.node");
+
+//Instantiate a new Workbook.
+var excelbook = new Workbook();
+//Add a group box to the first worksheet.
+var box = excelbook.getWorksheets().get(0).getShapes().addGroupBox(1, 0, 1, 0, 300, 250);
+//Set the caption of the group box.
+box.setText("Age Groups");
+box.setPlacement(PlacementType.FreeFloating);
+//Make it 2-D box.
+box.setShadow(false);
+//Add a radio button.
+var radio1 = excelbook.getWorksheets().get(0).getShapes().addRadioButton(3, 0, 2, 0, 30, 110);
+//Set its text string.
+radio1.setText("20-29");
+//Set A1 cell as a linked cell for the radio button.
+radio1.setLinkedCell("A1");
+//Make the radio button 3-D.
+radio1.setShadow(true);
+//Set the foreground color of the radio button.
+radio1.getFill().setFillType(FillType.Solid);
+radio1.getFill().getSolidFill().setColor(new Color(0x90, 0xee, 0x90));
+//Set the line style of the radio button.
+radio1.getLine().setCompoundType(MsoLineStyle.ThickThin);
+//Set the weight of the radio button.
+radio1.getLine().setWeight(4);
+//Set the line color of the radio button.
+radio1.getLine().setFillType(FillType.Solid);
+radio1.getLine().getSolidFill().setColor(new Color(0, 0, 0xff));
+//Set the dash style of the radio button.
+radio1.getLine().setDashStyle(MsoLineDashStyle.Solid);
+//Add another radio button.
+var radio2 = excelbook.getWorksheets().get(0).getShapes().addRadioButton(6, 0, 2, 0, 30, 110);
+//Set its text string.
+radio2.setText("30-39");
+//Set A1 cell as a linked cell for the radio button.
+radio2.setLinkedCell("A1");
+//Make the radio button 3-D.
+radio2.setShadow(true);
+//Set the foreground color of the radio button.
+radio2.getFill().setFillType(FillType.Solid);
+radio2.getFill().getSolidFill().setColor(new Color(0x90, 0xee, 0x90));
+//Set the line style of the radio button.
+radio2.getLine().setCompoundType(MsoLineStyle.ThickThin);
+//Set the weight of the radio button.
+radio2.getLine().setWeight(4);
+//Set the line color of the radio button.
+radio2.getLine().setFillType(FillType.Solid);
+radio2.getLine().getSolidFill().setColor(new Color(0, 0, 0xff));
+//Set the dash style of the radio button.
+radio2.getLine().setDashStyle(MsoLineDashStyle.Solid);
+//Add another radio button.
+var radio3 = excelbook.getWorksheets().get(0).getShapes().addRadioButton(9, 0, 2, 0, 30, 110);
+//Set its text string.
+radio3.setText("40-49");
+//Set A1 cell as a linked cell for the radio button.
+radio3.setLinkedCell("A1");
+//Make the radio button 3-D.
+radio3.setShadow(true);
+//Set the foreground color of the radio button.
+radio3.getFill().setFillType(FillType.Solid);
+radio3.getFill().getSolidFill().setColor(new Color(0x90, 0xee, 0x90));
+//Set the line style of the radio button.
+radio3.getLine().setCompoundType(MsoLineStyle.ThickThin);
+//Set the weight of the radio button.
+radio3.getLine().setWeight(4);
+//Set the line color of the radio button.
+radio3.getLine().setFillType(FillType.Solid);
+radio3.getLine().getSolidFill().setColor(new Color(0, 0, 0xff));
+//Set the dash style of the radio button.
+radio3.getLine().setDashStyle(MsoLineDashStyle.Solid);
+//Get the shapes.
+var shapeobjects = [ box, radio1, radio2, radio3 ];
+//Group the shapes.
+var group = excelbook.getWorksheets().get(0).getShapes().group(shapeobjects);
+
+//Save the excel file.
+excelbook.save("output/DrawingGroupBox.xls");
+```
 ## Constructors
 
 | Name | Description |
@@ -158,6 +239,10 @@ class GroupBox extends Shape;
 | [getActualLowerRightRow()](#getActualLowerRightRow--)| Get the actual bottom row. |
 | [getRelativeToOriginalPictureSize()](#getRelativeToOriginalPictureSize--)| Indicates whether shape is relative to original picture size. |
 | [setRelativeToOriginalPictureSize(boolean)](#setRelativeToOriginalPictureSize-boolean-)| Indicates whether shape is relative to original picture size. |
+| [getLinkedCell()](#getLinkedCell--)| Gets or sets the worksheet range linked to the control's value. |
+| [setLinkedCell(string)](#setLinkedCell-string-)| Gets or sets the worksheet range linked to the control's value. |
+| [getInputRange()](#getInputRange--)| Gets or sets the worksheet range used to fill the specified combo box. |
+| [setInputRange(string)](#setInputRange-string-)| Gets or sets the worksheet range used to fill the specified combo box. |
 | [getTextShapeType()](#getTextShapeType--)| Gets and sets the preset text shape type. |
 | [setTextShapeType(AutoShapeType)](#setTextShapeType-autoshapetype-)| Gets and sets the preset text shape type. |
 | [getTextBody()](#getTextBody--)| Gets and sets the setting of the shape's text. |
@@ -1814,6 +1899,50 @@ setRelativeToOriginalPictureSize(value: boolean) : void;
 | --- | --- | --- |
 | value | boolean | The value to set. |
 
+### getLinkedCell() {#getLinkedCell--}
+
+Gets or sets the worksheet range linked to the control's value.
+
+```javascript
+getLinkedCell() : string;
+```
+
+
+### setLinkedCell(string) {#setLinkedCell-string-}
+
+Gets or sets the worksheet range linked to the control's value.
+
+```javascript
+setLinkedCell(value: string) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | string | The value to set. |
+
+### getInputRange() {#getInputRange--}
+
+Gets or sets the worksheet range used to fill the specified combo box.
+
+```javascript
+getInputRange() : string;
+```
+
+
+### setInputRange(string) {#setInputRange-string-}
+
+Gets or sets the worksheet range used to fill the specified combo box.
+
+```javascript
+setInputRange(value: string) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | string | The value to set. |
+
 ### getTextShapeType() {#getTextShapeType--}
 
 Gets and sets the preset text shape type.
@@ -2352,7 +2481,7 @@ toImage(stream: Uint8Array, imageType: ImageType) : void;
 
 **Remarks**
 
-<p>The following formats are supported: .bmp, .gif, .jpg, .jpeg, .tiff, .emf.</p>
+The following formats are supported: .bmp, .gif, .jpg, .jpeg, .tiff, .emf.
 
 ### toImage(string, ImageOrPrintOptions) {#toImage-string-imageorprintoptions-}
 

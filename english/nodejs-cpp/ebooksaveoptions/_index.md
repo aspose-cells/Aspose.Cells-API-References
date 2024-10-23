@@ -211,7 +211,7 @@ constructor(saveFormat: SaveFormat);
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| saveFormat | [SaveFormat](../saveformat/) | The file format.         /// It should be [SaveFormat.Epub](../saveformat.epub/) or [SaveFormat.Epub](../saveformat.epub/). |
+| saveFormat | [SaveFormat](../saveformat/) | The file format.         /// It should be [SaveFormat.Epub](../saveformat.epub/) or [SaveFormat.Azw3](../saveformat.azw3/). |
 
 ### isNull() {#isNull--}
 

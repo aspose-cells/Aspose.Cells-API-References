@@ -15,6 +15,49 @@ class DataLabels extends ChartTextFrame;
 ```
 
 
+### Example
+```javascript
+const { Workbook, ChartType, LabelPositionType } = require("aspose.cells.node");
+
+var workbook = new Workbook();
+//Adding a new worksheet to the Excel object
+var sheetIndex = workbook.getWorksheets().add();
+//Obtaining the reference of the newly added worksheet by passing its sheet index
+var worksheet = workbook.getWorksheets().get(sheetIndex);
+//Adding a sample value to "A1" cell
+worksheet.getCells().get("A1").putValue(50);
+//Adding a sample value to "A2" cell
+worksheet.getCells().get("A2").putValue(100);
+//Adding a sample value to "A3" cell
+worksheet.getCells().get("A3").putValue(150);
+//Adding a sample value to "B1" cell
+worksheet.getCells().get("B1").putValue(4);
+//Adding a sample value to "B2" cell
+worksheet.getCells().get("B2").putValue(20);
+//Adding a sample value to "B3" cell
+worksheet.getCells().get("B3").putValue(50);
+
+//Adding a chart to the worksheet
+var chartIndex = worksheet.getCharts().add(ChartType.Column, 5, 0, 25, 5);
+//Accessing the instance of the newly added chart
+var chart = worksheet.getCharts().get(chartIndex);
+//Set the DataLabels in the chart
+var datalabels;
+for (var i = 0; i < chart.getNSeries().getCount(); i++)
+{
+    datalabels = chart.getNSeries().get(i).getDataLabels();
+    //Set the position of DataLabels
+    datalabels.setPosition(LabelPositionType.InsideBase);
+    //Show the category name in the DataLabels
+    datalabels.setCategoryNameShown(true);
+    //Show the value in the DataLabels
+    datalabels.setShowValue(true);
+    //Not show the percentage in the DataLabels
+    datalabels.setPercentageShown(false);
+    //Not show the legend key.
+    datalabels.setLegendKeyShown(false);
+}
+```
 ## Constructors
 
 | Name | Description |
@@ -517,7 +560,7 @@ getSeparatorType() : DataLabelsSeparatorType;
 
 **Remarks**
 
-To set custom separator, please set  the property [DataLabels.SeparatorType](../datalabels.separatortype/) as [DataLabels.SeparatorType](../datalabels.separatortype/) and then specify the expected value for [DataLabels.SeparatorType](../datalabels.separatortype/).
+To set custom separator, please set  the property [DataLabels.SeparatorType](../datalabels.separatortype/) as [DataLabelsSeparatorType.Custom](../datalabelsseparatortype.custom/) and then specify the expected value for [DataLabels.SeparatorValue](../datalabels.separatorvalue/).
 
 ### setSeparatorType(DataLabelsSeparatorType) {#setSeparatorType-datalabelsseparatortype-}
 
@@ -534,7 +577,7 @@ setSeparatorType(value: DataLabelsSeparatorType) : void;
 
 **Remarks**
 
-To set custom separator, please set  the property [DataLabels.SeparatorType](../datalabels.separatortype/) as [DataLabels.SeparatorType](../datalabels.separatortype/) and then specify the expected value for [DataLabels.SeparatorType](../datalabels.separatortype/).
+To set custom separator, please set  the property [DataLabels.SeparatorType](../datalabels.separatortype/) as [DataLabelsSeparatorType.Custom](../datalabelsseparatortype.custom/) and then specify the expected value for [DataLabels.SeparatorValue](../datalabels.separatorvalue/).
 
 ### getSeparatorValue() {#getSeparatorValue--}
 
@@ -854,7 +897,7 @@ getRotationAngle() : number;
 
 **Remarks**
 
-<br>0: Not rotated.</br> <br>255: Top to Bottom.</br> <br>-90: Downward.</br> <br>90: Upward.</br>
+br>0: Not rotated.</br> <br>255: Top to Bottom.</br> <br>-90: Downward.</br> <br>90: Upward.</br
 
 ### setRotationAngle(number) {#setRotationAngle-number-}
 
@@ -871,7 +914,7 @@ setRotationAngle(value: number) : void;
 
 **Remarks**
 
-<br>0: Not rotated.</br> <br>255: Top to Bottom.</br> <br>-90: Downward.</br> <br>90: Upward.</br>
+br>0: Not rotated.</br> <br>255: Top to Bottom.</br> <br>-90: Downward.</br> <br>90: Upward.</br
 
 ### isAutomaticRotation() {#isAutomaticRotation--}
 

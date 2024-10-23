@@ -15,7 +15,7 @@ class BuiltInDocumentPropertyCollection extends DocumentPropertyCollection;
 ```
 
 ### Remarks
-<p>Provides access to [DocumentProperty](../documentproperty/) objects by their names (using an indexer) and via a set of typed properties that return values of appropriate types.</p>
+Provides access to [DocumentProperty](../documentproperty/) objects by their names (using an indexer) and via a set of typed properties that return values of appropriate types.
 
 ## Constructors
 
@@ -28,6 +28,7 @@ class BuiltInDocumentPropertyCollection extends DocumentPropertyCollection;
 | Method | Description |
 | --- | --- |
 | [get(string)](#get-string-)| Returns a [DocumentProperty](../documentproperty/) object by the name of the property. |
+| [get(number)](#get-number-)| Returns a [DocumentProperty](../documentproperty/) object by index. |
 | [getLanguage()](#getLanguage--)| Gets or sets the document's language. |
 | [setLanguage(string)](#setLanguage-string-)| Gets or sets the document's language. |
 | [getAuthor()](#getAuthor--)| Gets or sets the name of the document's author. |
@@ -86,6 +87,7 @@ class BuiltInDocumentPropertyCollection extends DocumentPropertyCollection;
 | [setLinksUpToDate(boolean)](#setLinksUpToDate-boolean-)| Indicates whether hyperlinks in a document are up-to-date. |
 | [getWords()](#getWords--)| Represents an estimate of the number of words in the document. |
 | [setWords(number)](#setWords-number-)| Represents an estimate of the number of words in the document. |
+| [getCount()](#getCount--)| Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [contains(string)](#contains-string-)| Returns true if a property with the specified name exists in the collection. |
 | [indexOf(string)](#indexOf-string-)| Gets the index of a property by name. |
@@ -125,7 +127,24 @@ get(name: string) : DocumentProperty;
 
 **Remarks**
 
-<p>The string names of the properties correspond to the names of the typed properties available from [BuiltInDocumentPropertyCollection](../builtindocumentpropertycollection/).</p> <p>If you request a property that is not present in the document, but the name of the property is recognized as a valid built-in name, a new [DocumentProperty](../documentproperty/) is created, added to the collection and returned. The newly created property is assigned a default value (empty string, zero, false or DateTime.MinValue depending on the type of the built-in property).</p> <p>If you request a property that is not present in the document and the name is not recognized as a built-in name, a null is returned.</p>
+The string names of the properties correspond to the names of the typed properties available from [BuiltInDocumentPropertyCollection](../builtindocumentpropertycollection/).</p> <p>If you request a property that is not present in the document, but the name of the property is recognized as a valid built-in name, a new [DocumentProperty](../documentproperty/) is created, added to the collection and returned. The newly created property is assigned a default value (empty string, zero, false or DateTime.MinValue depending on the type of the built-in property).</p> <p>If you request a property that is not present in the document and the name is not recognized as a built-in name, a null is returned.
+
+### get(number) {#get-number-}
+
+Returns a [DocumentProperty](../documentproperty/) object by index.
+
+```javascript
+get(index: number) : DocumentProperty;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | number | Zero-based index of the [DocumentProperty](../documentproperty/) to retrieve. |
+
+**Returns**
+
+[DocumentProperty](../documentproperty/)
 
 ### getLanguage() {#getLanguage--}
 
@@ -314,7 +333,7 @@ getCreatedTime() : Date;
 
 **Remarks**
 
-<p>Aspose.Cells does not update this property when you modify the document.</p>
+Aspose.Cells does not update this property when you modify the document.
 
 ### setCreatedTime(Date) {#setCreatedTime-date-}
 
@@ -331,7 +350,7 @@ setCreatedTime(value: Date) : void;
 
 **Remarks**
 
-<p>Aspose.Cells does not update this property when you modify the document.</p>
+Aspose.Cells does not update this property when you modify the document.
 
 ### getCreatedUniversalTime() {#getCreatedUniversalTime--}
 
@@ -344,7 +363,7 @@ getCreatedUniversalTime() : Date;
 
 **Remarks**
 
-<p>Aspose.Cells does not update this property when you modify the document.</p>
+Aspose.Cells does not update this property when you modify the document.
 
 ### setCreatedUniversalTime(Date) {#setCreatedUniversalTime-date-}
 
@@ -361,7 +380,7 @@ setCreatedUniversalTime(value: Date) : void;
 
 **Remarks**
 
-<p>Aspose.Cells does not update this property when you modify the document.</p>
+Aspose.Cells does not update this property when you modify the document.
 
 ### getKeywords() {#getKeywords--}
 
@@ -396,7 +415,7 @@ getLastPrinted() : Date;
 
 **Remarks**
 
-<p>If the document was never printed, this property will return DateTime.MinValue.</p> <p>Aspose.Cells does not update this property when you modify the document.</p>
+If the document was never printed, this property will return DateTime.MinValue.</p> <p>Aspose.Cells does not update this property when you modify the document.
 
 ### setLastPrinted(Date) {#setLastPrinted-date-}
 
@@ -413,7 +432,7 @@ setLastPrinted(value: Date) : void;
 
 **Remarks**
 
-<p>If the document was never printed, this property will return DateTime.MinValue.</p> <p>Aspose.Cells does not update this property when you modify the document.</p>
+If the document was never printed, this property will return DateTime.MinValue.</p> <p>Aspose.Cells does not update this property when you modify the document.
 
 ### getLastPrintedUniversalTime() {#getLastPrintedUniversalTime--}
 
@@ -448,7 +467,7 @@ getLastSavedBy() : string;
 
 **Remarks**
 
-<p>Aspose.Cells does not update this property when you modify the document.</p>
+Aspose.Cells does not update this property when you modify the document.
 
 ### setLastSavedBy(string) {#setLastSavedBy-string-}
 
@@ -465,7 +484,7 @@ setLastSavedBy(value: string) : void;
 
 **Remarks**
 
-<p>Aspose.Cells does not update this property when you modify the document.</p>
+Aspose.Cells does not update this property when you modify the document.
 
 ### getLastSavedTime() {#getLastSavedTime--}
 
@@ -478,7 +497,7 @@ getLastSavedTime() : Date;
 
 **Remarks**
 
-<p>Aspose.Cells does not update this property when you modify the document.</p>
+Aspose.Cells does not update this property when you modify the document.
 
 ### setLastSavedTime(Date) {#setLastSavedTime-date-}
 
@@ -495,7 +514,7 @@ setLastSavedTime(value: Date) : void;
 
 **Remarks**
 
-<p>Aspose.Cells does not update this property when you modify the document.</p>
+Aspose.Cells does not update this property when you modify the document.
 
 ### getLastSavedUniversalTime() {#getLastSavedUniversalTime--}
 
@@ -508,7 +527,7 @@ getLastSavedUniversalTime() : Date;
 
 **Remarks**
 
-<p>Aspose.Cells does not update this property when you modify the document.</p>
+Aspose.Cells does not update this property when you modify the document.
 
 ### setLastSavedUniversalTime(Date) {#setLastSavedUniversalTime-date-}
 
@@ -525,7 +544,7 @@ setLastSavedUniversalTime(value: Date) : void;
 
 **Remarks**
 
-<p>Aspose.Cells does not update this property when you modify the document.</p>
+Aspose.Cells does not update this property when you modify the document.
 
 ### getManager() {#getManager--}
 
@@ -604,7 +623,7 @@ getRevisionNumber() : string;
 
 **Remarks**
 
-<p>Aspose.Cells does not update this property when you modify the document.</p>
+Aspose.Cells does not update this property when you modify the document.
 
 ### setRevisionNumber(string) {#setRevisionNumber-string-}
 
@@ -621,7 +640,7 @@ setRevisionNumber(value: string) : void;
 
 **Remarks**
 
-<p>Aspose.Cells does not update this property when you modify the document.</p>
+Aspose.Cells does not update this property when you modify the document.
 
 ### getSubject() {#getSubject--}
 
@@ -828,6 +847,15 @@ setWords(value: number) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | number | The value to set. |
+
+### getCount() {#getCount--}
+
+Gets the number of elements contained in.
+
+```javascript
+getCount() : number;
+```
+
 
 ### isNull() {#isNull--}
 

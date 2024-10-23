@@ -17,6 +17,26 @@ class Workbook;
 ### Remarks
 The Workbook class denotes an Excel spreadsheet. Each spreadsheet can contain multiple worksheets. The basic feature of the class is to open and save native excel files. The class has some advanced features like copying data from other Workbooks, combining two Workbooks, converting Excel to PDF, rendering Excel to image and protecting the Excel spreadsheet.
 
+### Example
+The following example creates a Workbook, opens a file named designer.xls in it and makes the horizontal and vertical scroll bars invisible for the Workbook. It then replaces two string values with an Integer value and string value respectively within the spreadsheet and finally save it to file named result.xls.
+```javascript
+const { Workbook, XlsSaveOptions } = require("aspose.cells.node");
+
+//Open a xls file
+var workbook = new Workbook("input/Book1.xls");
+
+//Set scroll bars
+workbook.getSettings().setIsHScrollBarVisible(false);
+workbook.getSettings().setIsVScrollBarVisible(false);
+
+//Replace the placeholder string with new values
+workbook.replace("OldInt", 100);
+
+var newString = "Hello world";
+workbook.replace("OldString", newString);
+var saveOptions = new XlsSaveOptions();
+workbook.save("output/result.xls", saveOptions);
+```
 ## Constructors
 
 | Name | Description |
@@ -53,6 +73,7 @@ The Workbook class denotes an Excel spreadsheet. Each spreadsheet can contain mu
 | [getFileFormat()](#getFileFormat--)| Gets and sets the file format. |
 | [setFileFormat(FileFormatType)](#setFileFormat-fileformattype-)| Gets and sets the file format. |
 | [getInterruptMonitor()](#getInterruptMonitor--)| Gets and sets the interrupt monitor. |
+| [setInterruptMonitor(AbstractInterruptMonitor)](#setInterruptMonitor-abstractinterruptmonitor-)| Gets and sets the interrupt monitor. |
 | [getContentTypeProperties()](#getContentTypeProperties--)| Gets the list of  [ContentTypeProperty](../contenttypeproperty/) objects in the workbook. |
 | [getCustomXmlParts()](#getCustomXmlParts--)| Represents a Custom XML Data Storage Part (custom XML data within a package). |
 | [getDataMashup()](#getDataMashup--)| Gets mashup data. |
@@ -137,6 +158,13 @@ constructor();
 
 The default file format type is Xlsx. If you want to create other types of files, please use Workbook(FileFormatType).
 
+**Example**
+The following code shows how to use the Workbook constructor to create and initialize a new instance of the class.
+```javascript
+const { Workbook } = require("aspose.cells.node");
+
+var workbook = new Workbook();
+```
 ### constructor(FileFormatType) {#constructor-fileformattype-}
 
 Initializes a new instance of the [Workbook](../workbook/) class.
@@ -154,6 +182,13 @@ constructor(fileFormatType: FileFormatType);
 
 The default file format type is Excel97To2003.
 
+**Example**
+The following code shows how to use the Workbook constructor to create and initialize a new instance of the class.
+```javascript
+const { Workbook, FileFormatType } = require("aspose.cells.node");
+
+var workbook = new Workbook(FileFormatType.Xlsx);
+```
 ### constructor(string) {#constructor-string-}
 
 Initializes a new instance of the [Workbook](../workbook/) class and open a file.
@@ -303,6 +338,16 @@ setDefaultStyle(value: Style) : void;
 
 The DefaultStyle property is useful to implement a Style for the whole Workbook.
 
+**Example**
+The following code creates and instantiates a new Workbook and sets a default Style to it.
+```javascript
+const { Workbook } = require("aspose.cells.node");
+
+var workbook = new Workbook();
+var defaultStyle = workbook.getDefaultStyle();
+defaultStyle.getFont().setName("Tahoma");
+workbook.setDefaultStyle(defaultStyle);
+```
 ### isDigitallySigned() {#isDigitallySigned--}
 
 Indicates if this spreadsheet is digitally signed.
@@ -419,8 +464,16 @@ getBuiltInDocumentProperties() : BuiltInDocumentPropertyCollection;
 
 **Remarks**
 
-A new property cannot be added to built-in document properties list. You can only get a built-in property and change its value. The following is the built-in properties name list: <p>Title</p> <p>Subject</p> <p>Author</p> <p>Keywords</p> <p>Comments</p> <p>Template</p> <p>Last Author</p> <p>Revision Number</p> <p>Application Name</p> <p>Last Print Date</p> <p>Creation Date</p> <p>Last Save Time</p> <p>Total Editing Time</p> <p>Number of Pages</p> <p>Number of Words</p> <p>Number of Characters</p> <p>Security</p> <p>Category</p> <p>Format</p> <p>Manager</p> <p>Company</p> <p>Number of Bytes</p> <p>Number of Lines</p> <p>Number of Paragraphs</p> <p>Number of Slides</p> <p>Number of Notes</p> <p>Number of Hidden Slides</p> <p>Number of Multimedia Clips</p>
+A new property cannot be added to built-in document properties list. You can only get a built-in property and change its value. The following is the built-in properties name list: <p>Title</p> <p>Subject</p> <p>Author</p> <p>Keywords</p> <p>Comments</p> <p>Template</p> <p>Last Author</p> <p>Revision Number</p> <p>Application Name</p> <p>Last Print Date</p> <p>Creation Date</p> <p>Last Save Time</p> <p>Total Editing Time</p> <p>Number of Pages</p> <p>Number of Words</p> <p>Number of Characters</p> <p>Security</p> <p>Category</p> <p>Format</p> <p>Manager</p> <p>Company</p> <p>Number of Bytes</p> <p>Number of Lines</p> <p>Number of Paragraphs</p> <p>Number of Slides</p> <p>Number of Notes</p> <p>Number of Hidden Slides</p> <p>Number of Multimedia Clips
 
+**Example**
+```javascript
+const { Workbook } = require("aspose.cells.node");
+
+var workbook = new Workbook();
+var doc = workbook.getBuiltInDocumentProperties().get("Author");
+doc.setValue("John Smith");
+```
 ### getCustomDocumentProperties() {#getCustomDocumentProperties--}
 
 Returns a [DocumentProperty](../documentproperty/) collection that represents all the custom document properties of the spreadsheet.
@@ -434,6 +487,13 @@ getCustomDocumentProperties() : CustomDocumentPropertyCollection;
 
 [CustomDocumentPropertyCollection](../customdocumentpropertycollection/)
 
+**Example**
+```javascript
+const { Workbook } = require("aspose.cells.node");
+
+var excel = new Workbook();
+excel.getCustomDocumentProperties().add("Checked by", "Jane");
+```
 ### getFileFormat() {#getFileFormat--}
 
 Gets and sets the file format.
@@ -472,6 +532,19 @@ getInterruptMonitor() : AbstractInterruptMonitor;
 **Returns**
 
 [AbstractInterruptMonitor](../abstractinterruptmonitor/)
+
+### setInterruptMonitor(AbstractInterruptMonitor) {#setInterruptMonitor-abstractinterruptmonitor-}
+
+Gets and sets the interrupt monitor.
+
+```javascript
+setInterruptMonitor(value: AbstractInterruptMonitor) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [AbstractInterruptMonitor](../abstractinterruptmonitor/) | The value to set. |
 
 ### getContentTypeProperties() {#getContentTypeProperties--}
 
@@ -605,7 +678,7 @@ startAccessCache(opts: AccessCacheOptions) : void;
 
 **Remarks**
 
-If the cache of specified data access requires some data models in worksheet to be "read-only", then corresponding data models in every worksheet in this workbook will be taken as "read-only" and user should not change any of them. <br></br> After finishing the access to the data, [CloseAccessCache(AccessCacheOptions)](../closeaccesscache(accesscacheoptions)/) should be invoked with same options to clear all caches and recover normal access mode. <br></br>
+If the cache of specified data access requires some data models in worksheet to be "read-only", then corresponding data models in every worksheet in this workbook will be taken as "read-only" and user should not change any of them. <br></br> After finishing the access to the data, [CloseAccessCache(AccessCacheOptions)](../closeaccesscache(accesscacheoptions)/) should be invoked with same options to clear all caches and recover normal access mode. <br></br
 
 ### closeAccessCache(AccessCacheOptions) {#closeAccessCache-accesscacheoptions-}
 
@@ -634,6 +707,16 @@ save(fileName: string, saveFormat: SaveFormat) : void;
 | fileName | string | The file name. |
 | saveFormat | [SaveFormat](../saveformat/) | The save format type. |
 
+**Example**
+```javascript
+const { Workbook, SaveFormat } = require("aspose.cells.node");
+
+var workbook = new Workbook();
+var sheets = workbook.getWorksheets();
+var cells = sheets.get(0).getCells();
+cells.get("A1").putValue("Hello world!");
+workbook.save("output/WorkbookSaveFileFormatType.xls", SaveFormat.Excel97To2003);
+```
 ### save(string) {#save-string-}
 
 Save the workbook to the disk.
@@ -778,6 +861,13 @@ replace(placeHolder: string, newValue: string) : number;
 | placeHolder | string | Cell placeholder |
 | newValue | string | String value to replace |
 
+**Example**
+```javascript
+const { Workbook } = require("aspose.cells.node");
+
+var workbook = new Workbook();
+workbook.replace("AnOldValue", "NewValue");
+```
 ### replace(string, number) {#replace-string-number-}
 
 Replaces a cell's value with a new integer.
@@ -792,6 +882,14 @@ replace(placeHolder: string, newValue: number) : number;
 | placeHolder | string | Cell placeholder |
 | newValue | number | Integer value to replace |
 
+**Example**
+```javascript
+const { Workbook } = require("aspose.cells.node");
+
+var workbook = new Workbook();
+var newValue = 100;
+workbook.replace("AnOldValue", newValue);
+```
 ### replace(string, number) {#replace-string-number-}
 
 Replaces a cell's value with a new double.
@@ -806,6 +904,14 @@ replace(placeHolder: string, newValue: number) : number;
 | placeHolder | string | Cell placeholder |
 | newValue | number | Double value to replace |
 
+**Example**
+```javascript
+const { Workbook } = require("aspose.cells.node");
+
+var workbook = new Workbook();
+var newValue = 100.0;
+workbook.replace("AnOldValue", newValue);
+```
 ### replace(string, string[], boolean) {#replace-string-stringarray-boolean-}
 
 Replaces a cell's value with a new string array.
@@ -821,6 +927,16 @@ replace(placeHolder: string, newValues: string[], isVertical: boolean) : number;
 | newValues | string[] | String array to replace |
 | isVertical | boolean | True - Vertical, False - Horizontal |
 
+**Example**
+```javascript
+const { Workbook } = require("aspose.cells.node");
+
+var workbook = new Workbook("input/Replace.xls");
+var newValues = ["Tom", "Alice", "Jerry"];
+workbook.replace("AnOldValue", newValues, true);
+
+workbook.save("output/ReplaceResult1.xls");
+```
 ### replace(string, number[], boolean) {#replace-string-numberarray-boolean-}
 
 Replaces cells' values with an integer array.
@@ -836,6 +952,16 @@ replace(placeHolder: string, newValues: number[], isVertical: boolean) : number;
 | newValues | number[] | Integer array to replace |
 | isVertical | boolean | True - Vertical, False - Horizontal |
 
+**Example**
+```javascript
+const { Workbook } = require("aspose.cells.node");
+
+var workbook = new Workbook("input/Replace.xls");
+var newValues = [1, 2, 3];
+workbook.replace("AnOldValue", newValues, true);
+
+workbook.save("output/ReplaceResult2.xls");
+```
 ### replace(string, number[], boolean) {#replace-string-numberarray-boolean-}
 
 Replaces cells' values with a double array.
@@ -851,6 +977,16 @@ replace(placeHolder: string, newValues: number[], isVertical: boolean) : number;
 | newValues | number[] | Double array to replace |
 | isVertical | boolean | True - Vertical, False - Horizontal |
 
+**Example**
+```javascript
+const { Workbook } = require("aspose.cells.node");
+
+var workbook = new Workbook("input/Replace.xls");
+var newValues = [1.23, 2.56, 3.14159];
+workbook.replace("AnOldValue", newValues, true);
+
+workbook.save("output/ReplaceResult3.xls");
+```
 ### replace(boolean, object) {#replace-boolean-object-}
 
 Replaces cells' values with new data.
@@ -1009,7 +1145,7 @@ changePalette(color: Color, index: number) : void;
 
 **Remarks**
 
-<p>The palette has 56 entries, each represented by an RGB value.</p> <p>If you set a color which is not in the palette, it will not take effect.</p> <p>So if you want to set a custom color, please change the palette at first.</p> <p>The following is the standard color palette.</p> <list type="table"> <listheader> <description>Color</description> <description>Red</description> <description>Green</description> <description>Blue</description> </listheader> <item> <description>Black</description> <description>0</description> <description>0</description> <description>0</description> </item> <item> <description>White</description> <description>255</description> <description>255</description> <description>255</description> </item> <item> <description>Red</description> <description>255</description> <description>0</description> <description>0</description> </item> <item> <description>Lime</description> <description>0</description> <description>255</description> <description>0</description> </item> <item> <description>Blue</description> <description>0</description> <description>0</description> <description>255</description> </item> <item> <description>Yellow</description> <description>255</description> <description>255</description> <description>0</description> </item> <item> <description>Magenta</description> <description>255</description> <description>0</description> <description>255</description> </item> <item> <description>Cyan</description> <description>0</description> <description>255</description> <description>255</description> </item> <item> <description>Maroon</description> <description>128</description> <description>0</description> <description>0</description> </item> <item> <description>Green</description> <description>0</description> <description>128</description> <description>0</description> </item> <item> <description>Navy</description> <description>0</description> <description>0</description> <description>128</description> </item> <item> <description>Olive</description> <description>128</description> <description>128</description> <description>0</description> </item> <item> <description>Purple</description> <description>128</description> <description>0</description> <description>128</description> </item> <item> <description>Teal</description> <description>0</description> <description>128</description> <description>128</description> </item> <item> <description>Silver</description> <description>192</description> <description>192</description> <description>192</description> </item> <item> <description>Gray</description> <description>128</description> <description>128</description> <description>128</description> </item> <item> <description>Color17</description> <description>153</description> <description>153</description> <description>255</description> </item> <item> <description>Color18</description> <description>153</description> <description>51</description> <description>102</description> </item> <item> <description>Color19</description> <description>255</description> <description>255</description> <description>204</description> </item> <item> <description>Color20</description> <description>204</description> <description>255</description> <description>255</description> </item> <item> <description>Color21</description> <description>102</description> <description>0</description> <description>102</description> </item> <item> <description>Color22</description> <description>255</description> <description>128</description> <description>128</description> </item> <item> <description>Color23</description> <description>0</description> <description>102</description> <description>204</description> </item> <item> <description>Color24</description> <description>204</description> <description>204</description> <description>255</description> </item> <item> <description>Color25</description> <description>0</description> <description>0</description> <description>128</description> </item> <item> <description>Color26</description> <description>255</description> <description>0</description> <description>255</description> </item> <item> <description>Color27</description> <description>255</description> <description>255</description> <description>0</description> </item> <item> <description>Color28</description> <description>0</description> <description>255</description> <description>255</description> </item> <item> <description>Color29</description> <description>128</description> <description>0</description> <description>128</description> </item> <item> <description>Color30</description> <description>128</description> <description>0</description> <description>0</description> </item> <item> <description>Color31</description> <description>0</description> <description>128</description> <description>128</description> </item> <item> <description>Color32</description> <description>0</description> <description>0</description> <description>255</description> </item> <item> <description>Color33</description> <description>0</description> <description>204</description> <description>255</description> </item> <item> <description>Color34</description> <description>204</description> <description>255</description> <description>255</description> </item> <item> <description>Color35</description> <description>204</description> <description>255</description> <description>204</description> </item> <item> <description>Color36</description> <description>255</description> <description>255</description> <description>153</description> </item> <item> <description>Color37</description> <description>153</description> <description>204</description> <description>255</description> </item> <item> <description>Color38</description> <description>255</description> <description>153</description> <description>204</description> </item> <item> <description>Color39</description> <description>204</description> <description>153</description> <description>255</description> </item> <item> <description>Color40</description> <description>255</description> <description>204</description> <description>153</description> </item> <item> <description>Color41</description> <description>51</description> <description>102</description> <description>255</description> </item> <item> <description>Color42</description> <description>51</description> <description>204</description> <description>204</description> </item> <item> <description>Color43</description> <description>153</description> <description>204</description> <description>0</description> </item> <item> <description>Color44</description> <description>255</description> <description>204</description> <description>0</description> </item> <item> <description>Color45</description> <description>255</description> <description>153</description> <description>0</description> </item> <item> <description>Color46</description> <description>255</description> <description>102</description> <description>0</description> </item> <item> <description>Color47</description> <description>102</description> <description>102</description> <description>153</description> </item> <item> <description>Color48</description> <description>150</description> <description>150</description> <description>150</description> </item> <item> <description>Color49</description> <description>0</description> <description>51</description> <description>102</description> </item> <item> <description>Color50</description> <description>51</description> <description>153</description> <description>102</description> </item> <item> <description>Color51</description> <description>0</description> <description>51</description> <description>0</description> </item> <item> <description>Color52</description> <description>51</description> <description>51</description> <description>0</description> </item> <item> <description>Color53</description> <description>153</description> <description>51</description> <description>0</description> </item> <item> <description>Color54</description> <description>153</description> <description>51</description> <description>102</description> </item> <item> <description>Color55</description> <description>51</description> <description>51</description> <description>153</description> </item> <item> <description>Color56</description> <description>51</description> <description>51</description> <description>51</description> </item> </list>
+The palette has 56 entries, each represented by an RGB value.</p> <p>If you set a color which is not in the palette, it will not take effect.</p> <p>So if you want to set a custom color, please change the palette at first.</p> <p>The following is the standard color palette.</p> <list type="table"> <listheader> <description>Color</description> <description>Red</description> <description>Green</description> <description>Blue</description> </listheader> <item> <description>Black</description> <description>0</description> <description>0</description> <description>0</description> </item> <item> <description>White</description> <description>255</description> <description>255</description> <description>255</description> </item> <item> <description>Red</description> <description>255</description> <description>0</description> <description>0</description> </item> <item> <description>Lime</description> <description>0</description> <description>255</description> <description>0</description> </item> <item> <description>Blue</description> <description>0</description> <description>0</description> <description>255</description> </item> <item> <description>Yellow</description> <description>255</description> <description>255</description> <description>0</description> </item> <item> <description>Magenta</description> <description>255</description> <description>0</description> <description>255</description> </item> <item> <description>Cyan</description> <description>0</description> <description>255</description> <description>255</description> </item> <item> <description>Maroon</description> <description>128</description> <description>0</description> <description>0</description> </item> <item> <description>Green</description> <description>0</description> <description>128</description> <description>0</description> </item> <item> <description>Navy</description> <description>0</description> <description>0</description> <description>128</description> </item> <item> <description>Olive</description> <description>128</description> <description>128</description> <description>0</description> </item> <item> <description>Purple</description> <description>128</description> <description>0</description> <description>128</description> </item> <item> <description>Teal</description> <description>0</description> <description>128</description> <description>128</description> </item> <item> <description>Silver</description> <description>192</description> <description>192</description> <description>192</description> </item> <item> <description>Gray</description> <description>128</description> <description>128</description> <description>128</description> </item> <item> <description>Color17</description> <description>153</description> <description>153</description> <description>255</description> </item> <item> <description>Color18</description> <description>153</description> <description>51</description> <description>102</description> </item> <item> <description>Color19</description> <description>255</description> <description>255</description> <description>204</description> </item> <item> <description>Color20</description> <description>204</description> <description>255</description> <description>255</description> </item> <item> <description>Color21</description> <description>102</description> <description>0</description> <description>102</description> </item> <item> <description>Color22</description> <description>255</description> <description>128</description> <description>128</description> </item> <item> <description>Color23</description> <description>0</description> <description>102</description> <description>204</description> </item> <item> <description>Color24</description> <description>204</description> <description>204</description> <description>255</description> </item> <item> <description>Color25</description> <description>0</description> <description>0</description> <description>128</description> </item> <item> <description>Color26</description> <description>255</description> <description>0</description> <description>255</description> </item> <item> <description>Color27</description> <description>255</description> <description>255</description> <description>0</description> </item> <item> <description>Color28</description> <description>0</description> <description>255</description> <description>255</description> </item> <item> <description>Color29</description> <description>128</description> <description>0</description> <description>128</description> </item> <item> <description>Color30</description> <description>128</description> <description>0</description> <description>0</description> </item> <item> <description>Color31</description> <description>0</description> <description>128</description> <description>128</description> </item> <item> <description>Color32</description> <description>0</description> <description>0</description> <description>255</description> </item> <item> <description>Color33</description> <description>0</description> <description>204</description> <description>255</description> </item> <item> <description>Color34</description> <description>204</description> <description>255</description> <description>255</description> </item> <item> <description>Color35</description> <description>204</description> <description>255</description> <description>204</description> </item> <item> <description>Color36</description> <description>255</description> <description>255</description> <description>153</description> </item> <item> <description>Color37</description> <description>153</description> <description>204</description> <description>255</description> </item> <item> <description>Color38</description> <description>255</description> <description>153</description> <description>204</description> </item> <item> <description>Color39</description> <description>204</description> <description>153</description> <description>255</description> </item> <item> <description>Color40</description> <description>255</description> <description>204</description> <description>153</description> </item> <item> <description>Color41</description> <description>51</description> <description>102</description> <description>255</description> </item> <item> <description>Color42</description> <description>51</description> <description>204</description> <description>204</description> </item> <item> <description>Color43</description> <description>153</description> <description>204</description> <description>0</description> </item> <item> <description>Color44</description> <description>255</description> <description>204</description> <description>0</description> </item> <item> <description>Color45</description> <description>255</description> <description>153</description> <description>0</description> </item> <item> <description>Color46</description> <description>255</description> <description>102</description> <description>0</description> </item> <item> <description>Color47</description> <description>102</description> <description>102</description> <description>153</description> </item> <item> <description>Color48</description> <description>150</description> <description>150</description> <description>150</description> </item> <item> <description>Color49</description> <description>0</description> <description>51</description> <description>102</description> </item> <item> <description>Color50</description> <description>51</description> <description>153</description> <description>102</description> </item> <item> <description>Color51</description> <description>0</description> <description>51</description> <description>0</description> </item> <item> <description>Color52</description> <description>51</description> <description>51</description> <description>0</description> </item> <item> <description>Color53</description> <description>153</description> <description>51</description> <description>0</description> </item> <item> <description>Color54</description> <description>153</description> <description>51</description> <description>102</description> </item> <item> <description>Color55</description> <description>51</description> <description>51</description> <description>153</description> </item> <item> <description>Color56</description> <description>51</description> <description>51</description> <description>51</description> </item> </list
 
 ### isColorInPalette(Color) {#isColorInPalette-color-}
 
@@ -1256,7 +1392,7 @@ customTheme(themeName: string, colors: Color[]) : void;
 
 **Remarks**
 
-The length of colors should be 12. <list type="table"> <listheader> <description>Array index</description> <description>Theme type</description> </listheader> <item> <description>0</description> <description>Backgournd1</description> </item> <item> <description>1</description> <description>Text1</description> </item> <item> <description>2</description> <description>Backgournd2</description> </item> <item> <description>3</description> <description>Text2</description> </item> <item> <description>4</description> <description>Accent1</description> </item> <item> <description>5</description> <description>Accent2</description> </item> <item> <description>6</description> <description>Accent3</description> </item> <item> <description>7</description> <description>Accent4</description> </item> <item> <description>8</description> <description>Accent5</description> </item> <item> <description>9</description> <description>Accent6</description> </item> <item> <description>10</description> <description>Hyperlink</description> </item> <item> <description>11</description> <description>Followed Hyperlink</description> </item> </list>
+The length of colors should be 12. <list type="table"> <listheader> <description>Array index</description> <description>Theme type</description> </listheader> <item> <description>0</description> <description>Backgournd1</description> </item> <item> <description>1</description> <description>Text1</description> </item> <item> <description>2</description> <description>Backgournd2</description> </item> <item> <description>3</description> <description>Text2</description> </item> <item> <description>4</description> <description>Accent1</description> </item> <item> <description>5</description> <description>Accent2</description> </item> <item> <description>6</description> <description>Accent3</description> </item> <item> <description>7</description> <description>Accent4</description> </item> <item> <description>8</description> <description>Accent5</description> </item> <item> <description>9</description> <description>Accent6</description> </item> <item> <description>10</description> <description>Hyperlink</description> </item> <item> <description>11</description> <description>Followed Hyperlink</description> </item> </list
 
 ### copyTheme(Workbook) {#copyTheme-workbook-}
 
@@ -1299,7 +1435,7 @@ updateLinkedDataSource(externalWorkbooks: Workbook[]) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| externalWorkbooks | [Workbook](../workbook/)[] | Workbooks that will be used to update data of external links referenced by this workbook.         /// The match of those workbooks with external links is determined by [Workbook.FileName](../workbook.filename/)         /// and [Workbook.FileName](../workbook.filename/). So please make sure [Workbook.FileName](../workbook.filename/) has         /// been specified with the proper value for every workbook so they can be linked to corresponding external link. |
+| externalWorkbooks | [Workbook](../workbook/)[] | Workbooks that will be used to update data of external links referenced by this workbook.         /// The match of those workbooks with external links is determined by [Workbook.FileName](../workbook.filename/)         /// and [ExternalLink.DataSource](../externallink.datasource/). So please make sure [Workbook.FileName](../workbook.filename/) has         /// been specified with the proper value for every workbook so they can be linked to corresponding external link. |
 
 **Remarks**
 

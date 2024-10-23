@@ -15,6 +15,42 @@ class ConditionalFormattingCollection;
 ```
 
 
+### Example
+```javascript
+const { Workbook, CellArea, FormatConditionType, OperatorType, Color } = require("aspose.cells.node");
+
+//Instantiating a Workbook object
+var workbook = new Workbook();
+var sheet = workbook.getWorksheets().get(0);
+//Get Conditional Formattings
+var cformattings = sheet.getConditionalFormattings();
+//Adds an empty conditional formatting
+var index = cformattings.add();
+//Get newly added Conditional formatting
+var fcs = cformattings.get(index);
+//Sets the conditional format range.
+var ca = new CellArea();
+ca.startRow = 0;
+ca.endRow = 0;
+ca.startColumn = 0;
+ca.endColumn = 0;
+fcs.addArea(ca);
+ca = new CellArea();
+ca.startRow = 1;
+ca.endRow = 1;
+ca.startColumn = 1;
+ca.endColumn = 1;
+fcs.addArea(ca);
+//Add condition.
+var conditionIndex = fcs.addCondition(FormatConditionType.CellValue, OperatorType.Between, "=A2", "100");
+//Add condition.
+var conditionIndex2 = fcs.addCondition(FormatConditionType.CellValue, OperatorType.Between, "50", "100");
+//Sets the background color.
+var fc = fcs.get(conditionIndex);
+fc.getStyle().setBackgroundColor(new Color(0xff, 0, 0));
+//Saving the Excel file
+workbook.save("output/ConditionalFormattingCollection.xls");
+```
 ## Methods
 
 | Method | Description |

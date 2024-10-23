@@ -22,6 +22,7 @@ class CustomFilter;
 | [getFilterOperatorType()](#getFilterOperatorType--)| Gets and sets the filter operator type. |
 | [setFilterOperatorType(FilterOperatorType)](#setFilterOperatorType-filteroperatortype-)| Gets and sets the filter operator type. |
 | [getCriteria()](#getCriteria--)| Gets and sets the criteria. |
+| [setCriteria(object)](#setCriteria-object-)| Gets and sets the criteria. |
 | [setCriteria(FilterOperatorType, object)](#setCriteria-filteroperatortype-object-)| Sets the filter criteria. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
@@ -60,6 +61,19 @@ Gets and sets the criteria.
 getCriteria() : object;
 ```
 
+
+### setCriteria(object) {#setCriteria-object-}
+
+Gets and sets the criteria.
+
+```javascript
+setCriteria(value: object) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | object | The value to set. |
 
 ### setCriteria(FilterOperatorType, object) {#setCriteria-filteroperatortype-object-}
 

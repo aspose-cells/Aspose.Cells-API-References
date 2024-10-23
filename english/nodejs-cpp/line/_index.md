@@ -15,6 +15,30 @@ class Line;
 ```
 
 
+### Example
+```javascript
+const { Workbook, ChartType, LineType, ChartMarkerType, WeightType } = require("aspose.cells.node");
+
+var workbook = new Workbook();
+var cells = workbook.getWorksheets().get(0).getCells();
+cells.get("a1").putValue(2);
+cells.get("a2").putValue(5);
+cells.get("a3").putValue(3);
+cells.get("a4").putValue(6);
+cells.get("b1").putValue(4);
+cells.get("b2").putValue(3);
+cells.get("b3").putValue(6);
+cells.get("b4").putValue(7);
+var chartIndex = workbook.getWorksheets().get(0).getCharts().add(ChartType.Column, 11, 0, 27, 10);
+var chart = workbook.getWorksheets().get(0).getCharts().get(chartIndex);
+chart.getNSeries().add("A1:B4", true);
+//Applying a dotted line style on the lines of an NSeries
+chart.getNSeries().get(0).getBorder().setStyle(LineType.Dot);
+//Applying a triangular marker style on the data markers of an NSeries
+chart.getNSeries().get(0).getMarker().setMarkerStyle(ChartMarkerType.Triangle);
+//Setting the weight of all lines in an NSeries to medium
+chart.getNSeries().get(0).getBorder().setWeight(WeightType.MediumLine);
+```
 ## Methods
 
 | Method | Description |
@@ -41,8 +65,8 @@ class Line;
 | [setEndArrowWidth(MsoArrowheadWidth)](#setEndArrowWidth-msoarrowheadwidth-)| Specifies the width of the arrowhead for the end of a line. |
 | [getThemeColor()](#getThemeColor--)| Gets and sets the theme color. |
 | [setThemeColor(ThemeColor)](#setThemeColor-themecolor-)| Gets and sets the theme color. |
-| [getColor()](#getColor--)| Represents the [System.Drawing.Color](../system.drawing.color/) of the line. |
-| [setColor(Color)](#setColor-color-)| Represents the [System.Drawing.Color](../system.drawing.color/) of the line. |
+| [getColor()](#getColor--)| Represents the [Color](../color/) of the line. |
+| [setColor(Color)](#setColor-color-)| Represents the [Color](../color/) of the line. |
 | [getTransparency()](#getTransparency--)| Returns or sets the degree of transparency of the line as a value from 0.0 (opaque) through 1.0 (clear). |
 | [setTransparency(number)](#setTransparency-number-)| Returns or sets the degree of transparency of the line as a value from 0.0 (opaque) through 1.0 (clear). |
 | [getStyle()](#getStyle--)| Represents the style of the line. |
@@ -360,7 +384,7 @@ If the foreground color is not a theme color, NULL will be returned.
 
 ### getColor() {#getColor--}
 
-Represents the [System.Drawing.Color](../system.drawing.color/) of the line.
+Represents the [Color](../color/) of the line.
 
 ```javascript
 getColor() : Color;
@@ -373,7 +397,7 @@ getColor() : Color;
 
 ### setColor(Color) {#setColor-color-}
 
-Represents the [System.Drawing.Color](../system.drawing.color/) of the line.
+Represents the [Color](../color/) of the line.
 
 ```javascript
 setColor(value: Color) : void;

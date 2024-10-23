@@ -15,6 +15,47 @@ class Axis;
 ```
 
 
+### Example
+```javascript
+const { Workbook, ChartType, CrossType } = require("aspose.cells.node");
+
+//Instantiating a Workbook object
+var workbook = new Workbook();
+//Adding a new worksheet to the Excel object
+var sheetIndex = workbook.getWorksheets().add();
+//Obtaining the reference of the newly added worksheet by passing its sheet index
+var worksheet = workbook.getWorksheets().get(sheetIndex);
+//Adding a sample value to "A1" cell
+worksheet.getCells().get("A1").putValue(50);
+//Adding a sample value to "A2" cell
+worksheet.getCells().get("A2").putValue(100);
+//Adding a sample value to "A3" cell
+worksheet.getCells().get("A3").putValue(150);
+//Adding a sample value to "B1" cell
+worksheet.getCells().get("B1").putValue(4);
+//Adding a sample value to "B2" cell
+worksheet.getCells().get("B2").putValue(20);
+//Adding a sample value to "B3" cell
+worksheet.getCells().get("B3").putValue(50);
+//Adding a chart to the worksheet
+var chartIndex = worksheet.getCharts().add(ChartType.Column, 5, 0, 25, 5);
+//Accessing the instance of the newly added chart
+var chart = worksheet.getCharts().get(chartIndex);
+//Adding NSeries (chart data source) to the chart ranging from "A1" cell to "B3"
+chart.getNSeries().add("A1:B3", true);
+//Set the max value of value axis
+chart.getValueAxis().setMaxValue(200);
+//Set the min value of value axis
+chart.getValueAxis().setMinValue(0);
+//Set the major unit
+chart.getValueAxis().setMajorUnit(25);
+//Category(X) axis crosses at the maxinum value.
+chart.getValueAxis().setCrossType(CrossType.Maximum);
+//Set he number of categories or series between tick-mark labels. 
+chart.getCategoryAxis().setTickLabelSpacing(2);
+//Saving the Excel file
+workbook.save("output/ChartsAxis.xlsx");
+```
 ## Methods
 
 | Method | Description |
@@ -838,6 +879,36 @@ setMajorUnitScale(value: TimeUnit) : void;
 | --- | --- | --- |
 | value | [TimeUnit](../timeunit/) | The value to set. |
 
+**Example**
+```javascript
+const { Workbook, ChartType, CategoryType, TimeUnit } = require("aspose.cells.node");
+
+var workbook = new Workbook();
+//Adding a new worksheet to the Excel object
+var sheetIndex = workbook.getWorksheets().add();
+//Obtaining the reference of the newly added worksheet by passing its sheet index
+var worksheet = workbook.getWorksheets().get(sheetIndex);
+//Adding a sample value to "A1" cell
+worksheet.getCells().get("A1").putValue(50);
+//Adding a sample value to "A2" cell
+worksheet.getCells().get("A2").putValue(100);
+//Adding a sample value to "A3" cell
+worksheet.getCells().get("A3").putValue(150);
+//Adding a sample value to "B1" cell
+worksheet.getCells().get("B1").putValue(4);
+//Adding a sample value to "B2" cell
+worksheet.getCells().get("B2").putValue(20);
+//Adding a sample value to "B3" cell
+worksheet.getCells().get("B3").putValue(50);
+
+//Adding a chart to the worksheet
+var chartIndex = worksheet.getCharts().add(ChartType.Column, 5, 0, 25, 5);
+//Accessing the instance of the newly added chart
+var chart = worksheet.getCharts().get(chartIndex);
+chart.getCategoryAxis().setCategoryType(CategoryType.TimeScale);
+chart.getCategoryAxis().setMajorUnitScale(TimeUnit.Months);
+chart.getCategoryAxis().setMajorUnit(2);
+```
 ### getMinorUnitScale() {#getMinorUnitScale--}
 
 Represents the major unit scale for the category axis.
@@ -864,6 +935,36 @@ setMinorUnitScale(value: TimeUnit) : void;
 | --- | --- | --- |
 | value | [TimeUnit](../timeunit/) | The value to set. |
 
+**Example**
+```javascript
+const { Workbook, ChartType, CategoryType, TimeUnit } = require("aspose.cells.node");
+
+var workbook = new Workbook();
+//Adding a new worksheet to the Excel object
+var sheetIndex = workbook.getWorksheets().add();
+//Obtaining the reference of the newly added worksheet by passing its sheet index
+var worksheet = workbook.getWorksheets().get(sheetIndex);
+//Adding a sample value to "A1" cell
+worksheet.getCells().get("A1").putValue(50);
+//Adding a sample value to "A2" cell
+worksheet.getCells().get("A2").putValue(100);
+//Adding a sample value to "A3" cell
+worksheet.getCells().get("A3").putValue(150);
+//Adding a sample value to "B1" cell
+worksheet.getCells().get("B1").putValue(4);
+//Adding a sample value to "B2" cell
+worksheet.getCells().get("B2").putValue(20);
+//Adding a sample value to "B3" cell
+worksheet.getCells().get("B3").putValue(50);
+
+//Adding a chart to the worksheet
+var chartIndex = worksheet.getCharts().add(ChartType.Column, 5, 0, 25, 5);
+//Accessing the instance of the newly added chart
+var chart = worksheet.getCharts().get(chartIndex);
+chart.getCategoryAxis().setCategoryType(CategoryType.TimeScale);
+chart.getCategoryAxis().setMinorUnitScale(TimeUnit.Months);
+chart.getCategoryAxis().setMinorUnit(2);
+```
 ### isVisible() {#isVisible--}
 
 Represents if the axis is visible.
@@ -899,6 +1000,35 @@ getMajorGridLines() : Line;
 
 [Line](../line/)
 
+**Example**
+```javascript
+const { Workbook, ChartType } = require("aspose.cells.node");
+
+var workbook = new Workbook();
+//Adding a new worksheet to the Excel object
+var sheetIndex = workbook.getWorksheets().add();
+//Obtaining the reference of the newly added worksheet by passing its sheet index
+var worksheet = workbook.getWorksheets().get(sheetIndex);
+//Adding a sample value to "A1" cell
+worksheet.getCells().get("A1").putValue(50);
+//Adding a sample value to "A2" cell
+worksheet.getCells().get("A2").putValue(100);
+//Adding a sample value to "A3" cell
+worksheet.getCells().get("A3").putValue(150);
+//Adding a sample value to "B1" cell
+worksheet.getCells().get("B1").putValue(4);
+//Adding a sample value to "B2" cell
+worksheet.getCells().get("B2").putValue(20);
+//Adding a sample value to "B3" cell
+worksheet.getCells().get("B3").putValue(50);
+
+//Adding a chart to the worksheet
+var chartIndex = worksheet.getCharts().add(ChartType.Column, 5, 0, 25, 5);
+//Accessing the instance of the newly added chart
+var chart = worksheet.getCharts().get(chartIndex);
+chart.getValueAxis().getMajorGridLines().setIsVisible(false);
+chart.getCategoryAxis().getMajorGridLines().setIsVisible(true);
+```
 ### getMinorGridLines() {#getMinorGridLines--}
 
 Represents minor gridlines on a chart axis.

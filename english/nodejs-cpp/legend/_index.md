@@ -15,6 +15,28 @@ class Legend extends ChartTextFrame;
 ```
 
 
+### Example
+```javascript
+const { Workbook, ChartType, LegendPositionType } = require("aspose.cells.node");
+
+//Set Legend's width and height
+var workbook = new Workbook();
+var sheetIndex = workbook.getWorksheets().add();
+var worksheet = workbook.getWorksheets().get(sheetIndex);
+var charts = worksheet.getCharts();
+//Create a chart
+var chart = charts.get(charts.add(ChartType.Column, 1, 1, 10, 10));
+var legend = chart.getLegend();
+
+//Legend is at right side of chart by default.
+//If the legend is at left or right side of the chart, setting Legend.X property will not take effect.
+//If the legend is at top or bottom side of the chart, setting Legend.Y property will not take effect.
+legend.setY(1500);
+legend.setWidth(50);
+legend.setHeight(50);
+//Set legend's position
+legend.setPosition(LegendPositionType.Left);
+```
 ## Constructors
 
 | Name | Description |
@@ -115,7 +137,7 @@ getPosition() : LegendPositionType;
 
 **Remarks**
 
-<br>Default position is right.</br> <br>If the legend is at left or right side of the chart, setting Legend.X property will not take effect.</br> <br>If the legend is at top or bottom side of the chart, setting Legend.Y property will not take effect.</br>
+br>Default position is right.</br> <br>If the legend is at left or right side of the chart, setting Legend.X property will not take effect.</br> <br>If the legend is at top or bottom side of the chart, setting Legend.Y property will not take effect.</br
 
 ### setPosition(LegendPositionType) {#setPosition-legendpositiontype-}
 
@@ -132,7 +154,7 @@ setPosition(value: LegendPositionType) : void;
 
 **Remarks**
 
-<br>Default position is right.</br> <br>If the legend is at left or right side of the chart, setting Legend.X property will not take effect.</br> <br>If the legend is at top or bottom side of the chart, setting Legend.Y property will not take effect.</br>
+br>Default position is right.</br> <br>If the legend is at left or right side of the chart, setting Legend.X property will not take effect.</br> <br>If the legend is at top or bottom side of the chart, setting Legend.Y property will not take effect.</br
 
 ### getLegendEntries() {#getLegendEntries--}
 
@@ -421,7 +443,7 @@ getRotationAngle() : number;
 
 **Remarks**
 
-<br>0: Not rotated.</br> <br>255: Top to Bottom.</br> <br>-90: Downward.</br> <br>90: Upward.</br>
+br>0: Not rotated.</br> <br>255: Top to Bottom.</br> <br>-90: Downward.</br> <br>90: Upward.</br
 
 ### setRotationAngle(number) {#setRotationAngle-number-}
 
@@ -438,7 +460,7 @@ setRotationAngle(value: number) : void;
 
 **Remarks**
 
-<br>0: Not rotated.</br> <br>255: Top to Bottom.</br> <br>-90: Downward.</br> <br>90: Upward.</br>
+br>0: Not rotated.</br> <br>255: Top to Bottom.</br> <br>-90: Downward.</br> <br>90: Upward.</br
 
 ### isAutomaticRotation() {#isAutomaticRotation--}
 

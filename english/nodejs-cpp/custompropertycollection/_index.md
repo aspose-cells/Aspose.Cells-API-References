@@ -20,6 +20,7 @@ class CustomPropertyCollection;
 | Method | Description |
 | --- | --- |
 | [get(number)](#get-number-)| Gets the custom property by the specific index. |
+| [get(string)](#get-string-)| Gets the custom property by the property name. |
 | [add(string, string)](#add-string-string-)| Adds custom property information. |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
@@ -37,6 +38,23 @@ get(index: number) : CustomProperty;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | number | The index. |
+
+**Returns**
+
+The custom property
+
+### get(string) {#get-string-}
+
+Gets the custom property by the property name.
+
+```javascript
+get(name: string) : CustomProperty;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | string | The property name. |
 
 **Returns**
 

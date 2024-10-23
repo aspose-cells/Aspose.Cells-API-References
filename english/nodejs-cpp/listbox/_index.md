@@ -15,6 +15,46 @@ class ListBox extends Shape;
 ```
 
 
+### Example
+```javascript
+const { Workbook, PlacementType, SelectionType } = require("aspose.cells.node");
+
+//Create a new Workbook.
+var workbook = new Workbook();
+//Get the first worksheet.
+var sheet = workbook.getWorksheets().get(0);
+//Get the worksheet cells collection.
+var cells = sheet.getCells();
+
+//Input a value.
+cells.get("B3").putValue("Choose Dept:");
+//Set it bold.
+cells.get("B3").getStyle().getFont().setIsBold(true);
+//Input some values that denote the input range
+//for the list box.
+cells.get("A2").putValue("Sales");
+cells.get("A3").putValue("Finance");
+cells.get("A4").putValue("MIS");
+cells.get("A5").putValue("R&amp;D");
+cells.get("A6").putValue("Marketing");
+cells.get("A7").putValue("HRA");
+
+//Add a new list box.
+var listBox = sheet.getShapes().addListBox(2, 0, 3, 0, 122, 100);
+//Set the placement type.
+listBox.setPlacement(PlacementType.FreeFloating);
+//Set the linked cell.
+listBox.setLinkedCell("A1");
+//Set the input range.
+listBox.setInputRange("A2:A7");
+//Set the selection tyle.
+listBox.setSelectionType(SelectionType.Single);
+//Set the list box with 3-D shading.
+listBox.setShadow(true);
+
+//Saves the file.
+workbook.save("output/DrawingListBox.xls");
+```
 ## Constructors
 
 | Name | Description |
@@ -168,6 +208,10 @@ class ListBox extends Shape;
 | [getActualLowerRightRow()](#getActualLowerRightRow--)| Get the actual bottom row. |
 | [getRelativeToOriginalPictureSize()](#getRelativeToOriginalPictureSize--)| Indicates whether shape is relative to original picture size. |
 | [setRelativeToOriginalPictureSize(boolean)](#setRelativeToOriginalPictureSize-boolean-)| Indicates whether shape is relative to original picture size. |
+| [getLinkedCell()](#getLinkedCell--)| Gets or sets the worksheet range linked to the control's value. |
+| [setLinkedCell(string)](#setLinkedCell-string-)| Gets or sets the worksheet range linked to the control's value. |
+| [getInputRange()](#getInputRange--)| Gets or sets the worksheet range used to fill the specified combo box. |
+| [setInputRange(string)](#setInputRange-string-)| Gets or sets the worksheet range used to fill the specified combo box. |
 | [getTextShapeType()](#getTextShapeType--)| Gets and sets the preset text shape type. |
 | [setTextShapeType(AutoShapeType)](#setTextShapeType-autoshapetype-)| Gets and sets the preset text shape type. |
 | [getTextBody()](#getTextBody--)| Gets and sets the setting of the shape's text. |
@@ -1955,6 +1999,50 @@ setRelativeToOriginalPictureSize(value: boolean) : void;
 | --- | --- | --- |
 | value | boolean | The value to set. |
 
+### getLinkedCell() {#getLinkedCell--}
+
+Gets or sets the worksheet range linked to the control's value.
+
+```javascript
+getLinkedCell() : string;
+```
+
+
+### setLinkedCell(string) {#setLinkedCell-string-}
+
+Gets or sets the worksheet range linked to the control's value.
+
+```javascript
+setLinkedCell(value: string) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | string | The value to set. |
+
+### getInputRange() {#getInputRange--}
+
+Gets or sets the worksheet range used to fill the specified combo box.
+
+```javascript
+getInputRange() : string;
+```
+
+
+### setInputRange(string) {#setInputRange-string-}
+
+Gets or sets the worksheet range used to fill the specified combo box.
+
+```javascript
+setInputRange(value: string) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | string | The value to set. |
+
 ### getTextShapeType() {#getTextShapeType--}
 
 Gets and sets the preset text shape type.
@@ -2493,7 +2581,7 @@ toImage(stream: Uint8Array, imageType: ImageType) : void;
 
 **Remarks**
 
-<p>The following formats are supported: .bmp, .gif, .jpg, .jpeg, .tiff, .emf.</p>
+The following formats are supported: .bmp, .gif, .jpg, .jpeg, .tiff, .emf.
 
 ### toImage(string, ImageOrPrintOptions) {#toImage-string-imageorprintoptions-}
 

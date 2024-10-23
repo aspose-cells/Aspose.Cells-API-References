@@ -98,7 +98,7 @@ constructor(saveFormat: SaveFormat);
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| saveFormat | [SaveFormat](../saveformat/) | The file format.         /// It should be one of following types: [SaveFormat.Xlsx](../saveformat.xlsx/), [SaveFormat.Xlsx](../saveformat.xlsx/),         /// [SaveFormat.Xlsx](../saveformat.xlsx/), [SaveFormat.Xlsx](../saveformat.xlsx/) or [SaveFormat.Xlsx](../saveformat.xlsx/),         /// otherwise the saved format will be set as [SaveFormat.Xlsx](../saveformat.xlsx/) automatically. |
+| saveFormat | [SaveFormat](../saveformat/) | The file format.         /// It should be one of following types: [SaveFormat.Xlsx](../saveformat.xlsx/), [SaveFormat.Xltx](../saveformat.xltx/),         /// [SaveFormat.Xlam](../saveformat.xlam/), [SaveFormat.Xlsm](../saveformat.xlsm/) or [SaveFormat.Xltm](../saveformat.xltm/),         /// otherwise the saved format will be set as [SaveFormat.Xlsx](../saveformat.xlsx/) automatically. |
 
 ### getExportCellName() {#getExportCellName--}
 

@@ -15,6 +15,20 @@ class FillFormat;
 ```
 
 
+### Example
+```javascript
+const { Workbook, ChartType, Color, GradientStyleType } = require("aspose.cells.node");
+
+var excel = new Workbook();
+var charts = excel.getWorksheets().get(0).getCharts();
+//Create a chart
+var chart = charts.get(charts.add(ChartType.Column, 1, 1, 10, 10));
+chart.getNSeries().add("A1:C5", true);
+
+//Filling the area of the 2nd NSeries with a gradient
+var lime = new Color(0x32, 0xcd, 0x32);
+chart.getNSeries().get(1).getArea().getFillFormat().setOneColorGradient(lime, 1, GradientStyleType.Horizontal, 1);
+```
 ## Methods
 
 | Method | Description |

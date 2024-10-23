@@ -15,6 +15,23 @@ class HyperlinkCollection;
 ```
 
 
+### Example
+```javascript
+const { Workbook } = require("aspose.cells.node");
+
+//Instantiating a Workbook object
+var workbook = new Workbook();
+//Obtaining the reference of the newly added worksheet by passing its sheet index
+var worksheet = workbook.getWorksheets().get(0);
+
+//Get Hyperlinks Collection
+var hyperlinks = worksheet.getHyperlinks();
+//Adding a hyperlink to a URL at "A1" cell
+hyperlinks.add("A1", 1, 1, "http://www.aspose.com");
+
+//Saving the Excel file
+workbook.save("output/HyperlinkCollection.xls");
+```
 ## Methods
 
 | Method | Description |
@@ -67,6 +84,15 @@ add(firstRow: number, firstColumn: number, totalRows: number, totalColumns: numb
 
 [Hyperlink](../hyperlink/) object index.
 
+**Example**
+```javascript
+const { Workbook } = require("aspose.cells.node");
+
+var excel = new Workbook();
+var worksheet = excel.getWorksheets().get(0);
+worksheet.getHyperlinks().add("A4", 1, 1, "http://www.aspose.com");
+worksheet.getHyperlinks().add("A5", 1, 1, "c:\\book1.xls");
+```
 ### add(string, number, number, string) {#add-string-number-number-string-}
 
 Adds a hyperlink to a specified cell or a range of cells.

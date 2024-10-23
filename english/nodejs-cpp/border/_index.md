@@ -15,14 +15,28 @@ class Border;
 ```
 
 
+### Example
+```javascript
+const { Workbook, BorderType, CellBorderType, Color } = require("aspose.cells.node");
+
+var workbook = new Workbook();
+var worksheet = workbook.getWorksheets().get(0);
+var cell = worksheet.getCells().get(0, 0);
+var style = workbook.createStyle();
+//Set top border style and color
+var border = style.getBorders().get(BorderType.TopBorder);
+border.setLineStyle(CellBorderType.Medium);
+border.setColor(new Color(0xff, 0, 0));
+cell.setStyle(style);
+```
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [getThemeColor()](#getThemeColor--)| Gets and sets the theme color of the border. |
 | [setThemeColor(ThemeColor)](#setThemeColor-themecolor-)| Gets and sets the theme color of the border. |
-| [getColor()](#getColor--)| Gets or sets the [System.Drawing.Color](../system.drawing.color/) of the border. |
-| [setColor(Color)](#setColor-color-)| Gets or sets the [System.Drawing.Color](../system.drawing.color/) of the border. |
+| [getColor()](#getColor--)| Gets or sets the [Color](../color/) of the border. |
+| [setColor(Color)](#setColor-color-)| Gets or sets the [Color](../color/) of the border. |
 | [getArgbColor()](#getArgbColor--)| Gets and sets the color with a 32-bit ARGB value. |
 | [setArgbColor(number)](#setArgbColor-number-)| Gets and sets the color with a 32-bit ARGB value. |
 | [getLineStyle()](#getLineStyle--)| Gets or sets the cell border type. |
@@ -58,7 +72,7 @@ setThemeColor(value: ThemeColor) : void;
 
 ### getColor() {#getColor--}
 
-Gets or sets the [System.Drawing.Color](../system.drawing.color/) of the border.
+Gets or sets the [Color](../color/) of the border.
 
 ```javascript
 getColor() : Color;
@@ -71,7 +85,7 @@ getColor() : Color;
 
 ### setColor(Color) {#setColor-color-}
 
-Gets or sets the [System.Drawing.Color](../system.drawing.color/) of the border.
+Gets or sets the [Color](../color/) of the border.
 
 ```javascript
 setColor(value: Color) : void;

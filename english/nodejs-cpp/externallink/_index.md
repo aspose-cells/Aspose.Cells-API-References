@@ -15,6 +15,18 @@ class ExternalLink;
 ```
 
 
+### Example
+```javascript
+const { Workbook } = require("aspose.cells.node");
+
+//Open a file with external links
+var workbook = new Workbook("input/Externlink.xls");
+
+//Get External Link 
+var externalLink = workbook.getWorksheets().getExternalLinks().get(0);
+//Change External Link's Data Source
+externalLink.setDataSource("input/Book1.xls");
+```
 ## Methods
 
 | Method | Description |

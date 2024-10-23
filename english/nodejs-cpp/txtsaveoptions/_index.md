@@ -110,7 +110,7 @@ constructor(saveFormat: SaveFormat);
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| saveFormat | [SaveFormat](../saveformat/) | The file format.         /// It should be [SaveFormat.Csv](../saveformat.csv/) or [SaveFormat.Csv](../saveformat.csv/),         /// otherwise the saved format will be set as [SaveFormat.Csv](../saveformat.csv/) automatically. |
+| saveFormat | [SaveFormat](../saveformat/) | The file format.         /// It should be [SaveFormat.Csv](../saveformat.csv/) or [SaveFormat.Tsv](../saveformat.tsv/),         /// otherwise the saved format will be set as [SaveFormat.Csv](../saveformat.csv/) automatically. |
 
 ### getSeparator() {#getSeparator--}
 

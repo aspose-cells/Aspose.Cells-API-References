@@ -92,7 +92,7 @@ constructor(saveFormat: SaveFormat);
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| saveFormat | [SaveFormat](../saveformat/) | The file format.         /// It should be [SaveFormat.Excel97To2003](../saveformat.excel97to2003/) or [SaveFormat.Excel97To2003](../saveformat.excel97to2003/),         /// otherwise the saved format will be set as [SaveFormat.Excel97To2003](../saveformat.excel97to2003/) automatically. |
+| saveFormat | [SaveFormat](../saveformat/) | The file format.         /// It should be [SaveFormat.Excel97To2003](../saveformat.excel97to2003/) or [SaveFormat.Xlt](../saveformat.xlt/),         /// otherwise the saved format will be set as [SaveFormat.Excel97To2003](../saveformat.excel97to2003/) automatically. |
 
 ### getLightCellsDataProvider() {#getLightCellsDataProvider--}
 

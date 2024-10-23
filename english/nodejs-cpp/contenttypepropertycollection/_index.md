@@ -20,6 +20,7 @@ class ContentTypePropertyCollection;
 | Method | Description |
 | --- | --- |
 | [get(number)](#get-number-)| Gets the content type property by the specific index. |
+| [get(string)](#get-string-)| Gets the content type property by the property name. |
 | [add(string, string)](#add-string-string-)| Adds content type property information. |
 | [add(string, string, string)](#add-string-string-string-)| Adds content type property information. |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
@@ -38,6 +39,23 @@ get(index: number) : ContentTypeProperty;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | number | The index. |
+
+**Returns**
+
+The content type property
+
+### get(string) {#get-string-}
+
+Gets the content type property by the property name.
+
+```javascript
+get(name: string) : ContentTypeProperty;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | string | The property name. |
 
 **Returns**
 

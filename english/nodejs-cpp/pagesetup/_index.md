@@ -15,6 +15,16 @@ class PageSetup;
 ```
 
 
+### Example
+```javascript
+const { Workbook } = require("aspose.cells.node");
+
+var workbook = new Workbook();
+var sheet = workbook.getWorksheets().get(0);
+sheet.getPageSetup().setPrintArea("D1:K13");
+sheet.getPageSetup().setPrintTitleRows("$5:$7");
+sheet.getPageSetup().setPrintTitleColumns("$A:$B");
+```
 ## Methods
 
 | Method | Description |
@@ -1174,7 +1184,7 @@ setHeader(section: number, headerScript: string) : void;
 
 **Remarks**
 
-<p>Script commands:</p> <list type="table"> <listheader> <description>Command</description> <description>Description</description> </listheader> <item> <description>&amp;P</description> <description>Current page number　</description> </item> <item> <description>&amp;N</description> <description>Page count　</description> </item> <item> <description>&amp;D</description> <description>Current date　</description> </item> <item> <description>&amp;T</description> <description>Current time</description> </item> <item> <description>&amp;A</description> <description>Sheet name</description> </item> <item> <description>&amp;F</description> <description>File name without path</description> </item> <item> <description>&amp;"&lt;FontName&gt;"</description> <description>Font name, for example: &amp;"Arial"</description> </item> <item> <description>&amp;"&lt;FontName&gt;, &lt;FontStyle&gt;"</description> <description>Font name and font style, for example: &amp;"Arial,Bold"</description> </item> <item> <description>&amp;&lt;FontSize&gt;</description> <description>Font size. If this command is followed by a plain number to be printed in the header, it will be separated from the font height with a space character.</description> </item> <item> <description>&amp;K&lt;RRGGBB&gt;</description> <description>Font color, for example(RED): &amp;KFF0000</description> </item> <item> <description>&amp;G</description> <description>Image script</description> </item> </list> For example: "&amp;Arial,Bold&amp;8Header Note"
+Script commands:</p> <list type="table"> <listheader> <description>Command</description> <description>Description</description> </listheader> <item> <description>&amp;P</description> <description>Current page number　</description> </item> <item> <description>&amp;N</description> <description>Page count　</description> </item> <item> <description>&amp;D</description> <description>Current date　</description> </item> <item> <description>&amp;T</description> <description>Current time</description> </item> <item> <description>&amp;A</description> <description>Sheet name</description> </item> <item> <description>&amp;F</description> <description>File name without path</description> </item> <item> <description>&amp;"&lt;FontName&gt;"</description> <description>Font name, for example: &amp;"Arial"</description> </item> <item> <description>&amp;"&lt;FontName&gt;, &lt;FontStyle&gt;"</description> <description>Font name and font style, for example: &amp;"Arial,Bold"</description> </item> <item> <description>&amp;&lt;FontSize&gt;</description> <description>Font size. If this command is followed by a plain number to be printed in the header, it will be separated from the font height with a space character.</description> </item> <item> <description>&amp;K&lt;RRGGBB&gt;</description> <description>Font color, for example(RED): &amp;KFF0000</description> </item> <item> <description>&amp;G</description> <description>Image script</description> </item> </list> For example: "&amp;Arial,Bold&amp;8Header Note"
 
 ### setFooter(number, string) {#setFooter-number-string-}
 
@@ -1192,7 +1202,7 @@ setFooter(section: number, footerScript: string) : void;
 
 **Remarks**
 
-<p>Script commands:</p> <list type="table"> <listheader> <description>Command</description> <description>Description</description> </listheader> <item> <description>&amp;P</description> <description>Current page number　</description> </item> <item> <description>&amp;N</description> <description>Page count　</description> </item> <item> <description>&amp;D</description> <description>Current date　</description> </item> <item> <description>&amp;T</description> <description>Current time</description> </item> <item> <description>&amp;A</description> <description>Sheet name</description> </item> <item> <description>&amp;F</description> <description>File name without path</description> </item> <item> <description>&amp;"&lt;FontName&gt;"</description> <description>Font name, for example: &amp;"Arial"</description> </item> <item> <description>&amp;"&lt;FontName&gt;, &lt;FontStyle&gt;"</description> <description>Font name and font style, for example: &amp;"Arial,Bold"</description> </item> <item> <description>&amp;&lt;FontSize&gt;</description> <description>Font size. If this command is followed by a plain number to be printed in the header, it will be separated from the font height with a space character.</description> </item> <item> <description>&amp;K&lt;RRGGBB&gt;</description> <description>Font color, for example(RED): &amp;KFF0000</description> </item> <item> <description>&amp;G</description> <description>Image script</description> </item> </list> For example: "&amp;Arial,Bold&amp;8Footer Note"
+Script commands:</p> <list type="table"> <listheader> <description>Command</description> <description>Description</description> </listheader> <item> <description>&amp;P</description> <description>Current page number　</description> </item> <item> <description>&amp;N</description> <description>Page count　</description> </item> <item> <description>&amp;D</description> <description>Current date　</description> </item> <item> <description>&amp;T</description> <description>Current time</description> </item> <item> <description>&amp;A</description> <description>Sheet name</description> </item> <item> <description>&amp;F</description> <description>File name without path</description> </item> <item> <description>&amp;"&lt;FontName&gt;"</description> <description>Font name, for example: &amp;"Arial"</description> </item> <item> <description>&amp;"&lt;FontName&gt;, &lt;FontStyle&gt;"</description> <description>Font name and font style, for example: &amp;"Arial,Bold"</description> </item> <item> <description>&amp;&lt;FontSize&gt;</description> <description>Font size. If this command is followed by a plain number to be printed in the header, it will be separated from the font height with a space character.</description> </item> <item> <description>&amp;K&lt;RRGGBB&gt;</description> <description>Font color, for example(RED): &amp;KFF0000</description> </item> <item> <description>&amp;G</description> <description>Image script</description> </item> </list> For example: "&amp;Arial,Bold&amp;8Footer Note"
 
 ### setEvenHeader(number, string) {#setEvenHeader-number-string-}
 

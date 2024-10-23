@@ -20,7 +20,7 @@ The style modified flags.
 | Diagonal | `12288` | Indicates whether one or more diagonal borders([DiagonalDownBorder](../diagonaldownborder/), [DiagonalUpBorder](../diagonalupborder/)) have been modified for the style. |
 | HorizontalBorder | `32` | Indicates whether horizontal border has been modified for the style. Only for dynamic style, such as conditional formatting. |
 | VerticalBorder | `64` | Indicates whether vertical border has been modified for the style. Only for dynamic style, such as conditional formatting. |
-| Borders | `16224` | Indicates whether one or more borders([LeftBorder](../leftborder/), [RightBorder](../rightborder/), [RightBorder](../rightborder/), [RightBorder](../rightborder/), [Diagonal](../diagonal/), [Diagonal](../diagonal/), [Diagonal](../diagonal/)) have been modified for the style. |
+| Borders | `16224` | Indicates whether one or more borders([LeftBorder](../leftborder/), [RightBorder](../rightborder/), [TopBorder](../topborder/), [BottomBorder](../bottomborder/), [Diagonal](../diagonal/), [HorizontalBorder](../horizontalborder/), [VerticalBorder](../verticalborder/)) have been modified for the style. |
 | NumberFormat | `16384` | Indicates whether numberformat has been modified. |
 | HorizontalAlignment | `32768` | Indicates whether horizontal alignment has been modified. |
 | VerticalAlignment | `65536` | Indicates whether vertical alignment has been modified. |
@@ -30,11 +30,11 @@ The style modified flags.
 | ShrinkToFit | `1048576` | Indicates whether shrink to fit property has been modified. |
 | TextDirection | `2097152` | Indicates whether text direction property has been modified. |
 | RelativeIndent | `128` | Indicates whether relative indent property has been modified for the style. Only for dynamic style, such as conditional formatting. |
-| AlignmentSettings | `4161664` | Indicates whether one or more alignment-related properties([HorizontalAlignment](../horizontalalignment/), [VerticalAlignment](../verticalalignment/), [VerticalAlignment](../verticalalignment/), [VerticalAlignment](../verticalalignment/), [WrapText](../wraptext/), [WrapText](../wraptext/), [WrapText](../wraptext/), [WrapText](../wraptext/), [RelativeIndent](../relativeindent/)) have been modified. |
+| AlignmentSettings | `4161664` | Indicates whether one or more alignment-related properties([HorizontalAlignment](../horizontalalignment/), [VerticalAlignment](../verticalalignment/), [Rotation](../rotation/), [WrapText](../wraptext/), [WrapText](../wraptext/), [Indent](../indent/), [ShrinkToFit](../shrinktofit/), [TextDirection](../textdirection/), [RelativeIndent](../relativeindent/)) have been modified. |
 | Pattern | `4194304` | Indicates whether pattern of the shading has been modified. |
 | ForegroundColor | `8388608` | Indicates whether foreground color has been modified. |
 | BackgroundColor | `16777216` | Indicates whether background color has been modified. |
-| CellShading | `29360128` | Indicates whether one or more shading-related properties([Pattern](../pattern/), [ForegroundColor](../foregroundcolor/), [ForegroundColor](../foregroundcolor/)) have been modified. |
+| CellShading | `29360128` | Indicates whether one or more shading-related properties([Pattern](../pattern/), [ForegroundColor](../foregroundcolor/), [BackgroundColor](../backgroundcolor/)) have been modified. |
 | Locked | `67108864` | Indicates whether locked property has been modified. |
 | HideFormula | `134217728` | Indicates whether hide formula has been modified. |
 | ProtectionSettings | `201326592` | Indicates whether one or more protection-related properties([Locked](../locked/), [HideFormula](../hideformula/)) have been modified. |

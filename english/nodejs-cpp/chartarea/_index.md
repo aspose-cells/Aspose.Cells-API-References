@@ -15,6 +15,41 @@ class ChartArea extends ChartFrame;
 ```
 
 
+### Example
+```javascript
+const { Workbook, ChartType, Color } = require("aspose.cells.node");
+
+//Instantiating a Workbook object
+var workbook = new Workbook();
+//Obtaining the reference of the first worksheet
+var worksheet = workbook.getWorksheets().get(0);
+//Adding a sample value to "A1" cell
+worksheet.getCells().get("A1").putValue(50);
+//Adding a sample value to "A2" cell
+worksheet.getCells().get("A2").putValue(100);
+//Adding a sample value to "A3" cell
+worksheet.getCells().get("A3").putValue(150);
+//Adding a sample value to "B1" cell
+worksheet.getCells().get("B1").putValue(60);
+//Adding a sample value to "B2" cell
+worksheet.getCells().get("B2").putValue(32);
+//Adding a sample value to "B3" cell
+worksheet.getCells().get("B3").putValue(50);
+//Adding a chart to the worksheet
+var chartIndex = worksheet.getCharts().add(ChartType.Column, 5, 0, 15, 5);
+//Accessing the instance of the newly added chart
+var chart = worksheet.getCharts().get(chartIndex);
+//Adding NSeries (chart data source) to the chart ranging from "A1" cell to "B3"
+chart.getNSeries().add("A1:B3", true);
+//Getting Chart Area
+var chartArea = chart.getChartArea();
+//Setting the foreground color of the chart area
+chartArea.getArea().setForegroundColor(new Color(0xff, 0xff, 0));
+//Setting Chart Area Shadow
+chartArea.setShadow(true);
+//Saving the Excel file
+workbook.save("output/ChartsChartArea.xls");
+```
 ## Constructors
 
 | Name | Description |

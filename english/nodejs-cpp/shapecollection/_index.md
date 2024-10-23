@@ -20,6 +20,7 @@ class ShapeCollection;
 | Method | Description |
 | --- | --- |
 | [get(number)](#get-number-)| Gets the [Shape](../shape/) object at the specific index in the list. |
+| [get(string)](#get-string-)| Gets the [Shape](../shape/) object by the name of the shape. |
 | [addCopy(Shape, number, number, number, number)](#addCopy-shape-number-number-number-number-)| Adds and copy a shape to the worksheet. |
 | [addCheckBox(number, number, number, number, number, number)](#addCheckBox-number-number-number-number-number-number-)| Adds a checkbox to the worksheet. |
 | [addTextBox(number, number, number, number, number, number)](#addTextBox-number-number-number-number-number-number-)| Adds a text box to the worksheet. |
@@ -84,6 +85,23 @@ get(index: number) : Shape;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | number | The index. |
+
+**Returns**
+
+[Shape](../shape/)
+
+### get(string) {#get-string-}
+
+Gets the [Shape](../shape/) object by the name of the shape.
+
+```javascript
+get(name: string) : Shape;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | string | The name of the shape. |
 
 **Returns**
 

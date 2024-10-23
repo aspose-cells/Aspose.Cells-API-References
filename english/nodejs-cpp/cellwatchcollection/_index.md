@@ -26,6 +26,7 @@ class CellWatchCollection;
 | Method | Description |
 | --- | --- |
 | [get(number)](#get-number-)| Gets and sets [CellWatch](../cellwatch/) by index. |
+| [get(string)](#get-string-)| Gets and sets [CellWatch](../cellwatch/) by the name of the cell. |
 | [add(number, number)](#add-number-number-)| Adds [CellWatch](../cellwatch/) with row and column. |
 | [add(string)](#add-string-)| Adds [CellWatch](../cellwatch/) with the name the of cell. |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
@@ -53,6 +54,23 @@ get(index: number) : CellWatch;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | number | The index. |
+
+**Returns**
+
+[CellWatch](../cellwatch/)
+
+### get(string) {#get-string-}
+
+Gets and sets [CellWatch](../cellwatch/) by the name of the cell.
+
+```javascript
+get(cellName: string) : CellWatch;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| cellName | string | The name of the cell. |
 
 **Returns**
 

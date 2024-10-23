@@ -15,6 +15,36 @@ class Column;
 ```
 
 
+### Example
+```javascript
+const { Workbook, Color, BackgroundType, StyleFlag } = require("aspose.cells.node");
+
+//Instantiating a Workbook object
+var workbook = new Workbook();
+//Obtaining the reference of the first worksheet
+var worksheet = workbook.getWorksheets().get(0);
+
+//Add new Style to Workbook
+var style = workbook.createStyle();
+//Setting the background color to Blue
+style.setBackgroundColor(new Color(0, 0, 0xff));
+//Setting the foreground color to Red
+style.setForegroundColor(new Color(0xff, 0, 0));
+//setting Background Pattern
+style.setPattern(BackgroundType.DiagonalStripe);
+//New Style Flag
+var styleFlag = new StyleFlag();
+//Set All Styles
+styleFlag.setAll(true);
+
+//Get first Column
+var column = worksheet.getCells().getColumns().get(0);
+//Apply Style to first Column
+column.applyStyle(style, styleFlag);
+
+//Saving the Excel file
+workbook.save("output/Column.xls");
+```
 ## Methods
 
 | Method | Description |
@@ -178,7 +208,7 @@ getStyle() : Style;
 
 **Remarks**
 
-Modifying the returned style object directly takes no effect for this column or any cells in this column. You have to call [ApplyStyle(Style, StyleFlag)](../applystyle(style, styleflag)/) or [ApplyStyle(Style, StyleFlag)](../applystyle(style, styleflag)/) method to apply the change to this column.<br></br> Column's style is the style which will be inherited by cells in this column(those cells that have no custom style settings, such as existing cells that have not been set style explicitly, or those that have not been instantiated)
+Modifying the returned style object directly takes no effect for this column or any cells in this column. You have to call [ApplyStyle(Style, StyleFlag)](../applystyle(style, styleflag)/) or [SetStyle(Style)](../setstyle(style)/) method to apply the change to this column.<br></br> Column's style is the style which will be inherited by cells in this column(those cells that have no custom style settings, such as existing cells that have not been set style explicitly, or those that have not been instantiated)
 
 ### setStyle(Style) {#setStyle-style-}
 

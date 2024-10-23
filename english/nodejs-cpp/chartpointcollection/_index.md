@@ -15,6 +15,49 @@ class ChartPointCollection;
 ```
 
 
+### Example
+```javascript
+const { Workbook, ChartType, Color } = require("aspose.cells.node");
+
+//Instantiating a Workbook object
+var workbook = new Workbook();
+//Obtaining the reference of the first worksheet
+var worksheet = workbook.getWorksheets().get(0);
+//Adding a sample value to "A1" cell
+worksheet.getCells().get("A1").putValue(50);
+//Adding a sample value to "A2" cell
+worksheet.getCells().get("A2").putValue(100);
+//Adding a sample value to "A3" cell
+worksheet.getCells().get("A3").putValue(150);
+//Adding a sample value to "B1" cell
+worksheet.getCells().get("B1").putValue(60);
+//Adding a sample value to "B2" cell
+worksheet.getCells().get("B2").putValue(32);
+//Adding a sample value to "B3" cell
+worksheet.getCells().get("B3").putValue(50);
+//Adding a chart to the worksheet
+var chartIndex = worksheet.getCharts().add(ChartType.PieExploded, 5, 0, 25, 10);
+//Accessing the instance of the newly added chart
+var chart = worksheet.getCharts().get(chartIndex);
+//Adding NSeries (chart data source) to the chart ranging from "A1" cell to "B3"
+chart.getNSeries().add("A1:B3", true);
+//Show Data Labels 
+chart.getNSeries().get(0).getDataLabels().setShowValue(true);
+var points = chart.getNSeries().get(0).getPoints();
+var red = new Color(0xff, 0, 0);
+for (var i = 0; i < points.getCount(); i++)
+{
+    //Get Data Point
+    var point = points.get(i);
+    //Set Pir Explosion
+    point.setExplosion(15);
+    //Set Border Color
+    point.getBorder().setColor(red);
+}
+
+//Saving the Excel file
+workbook.save("output/ChartsChartPointCollection.xls");
+```
 ## Methods
 
 | Method | Description |

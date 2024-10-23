@@ -15,6 +15,29 @@ class Chart;
 ```
 
 
+### Example
+```javascript
+const { Workbook, ChartType } = require("aspose.cells.node");
+
+var workbook = new Workbook();
+var sheet = workbook.getWorksheets().get(0);
+var cells = sheet.getCells();
+cells.get(0, 1).putValue("Income");
+cells.get(1, 0).putValue("Company A");
+cells.get(2, 0).putValue("Company B");
+cells.get(3, 0).putValue("Company C");
+cells.get(1, 1).putValue(10000);
+cells.get(2, 1).putValue(20000);
+cells.get(3, 1).putValue(30000);
+var chartIndex = sheet.getCharts().add(ChartType.Column, 9, 9, 21, 15);
+var chart = sheet.getCharts().get(chartIndex);
+chart.getNSeries().add("B2:B4", true);
+chart.getNSeries().setCategoryData("A2:A4");
+var aSeries = chart.getNSeries().get(0);
+aSeries.setName("=B1");
+chart.setShowLegend(true);
+chart.getTitle().setText("Income Analysis");
+```
 ## Methods
 
 | Method | Description |
@@ -1166,7 +1189,7 @@ toImage(imageFile: string) : void;
 
 **Remarks**
 
-<p>The format of the image is specified by using the extension of the file name. For example, if you specify "myfile.png", then the image will be saved in the PNG format. The following file extensions are recognized: .bmp, .gif, .png, .jpg, .jpeg, .tiff, .tif, .emf.</p> If the width or height is zero or the chart is not supported according to Supported Charts List, this method will do nothing.
+The format of the image is specified by using the extension of the file name. For example, if you specify "myfile.png", then the image will be saved in the PNG format. The following file extensions are recognized: .bmp, .gif, .png, .jpg, .jpeg, .tiff, .tif, .emf.</p> If the width or height is zero or the chart is not supported according to Supported Charts List, this method will do nothing.
 
 ### toImage(string, ImageType) {#toImage-string-imagetype-}
 
@@ -1184,7 +1207,7 @@ toImage(imageFile: string, imageType: ImageType) : void;
 
 **Remarks**
 
-<p>The type of the image is specified by using <c>imageType</c>. The following types are supported: ImageType.Bmp, ImageType.Gif, ImageType.Png, ImageType.Jpeg, ImageType.Tiff, ImageType.Emf.</p> If the width or height is zero or the chart is not supported according to Supported Charts List, this method will do nothing.
+The type of the image is specified by using <c>imageType</c>. The following types are supported: ImageType.Bmp, ImageType.Gif, ImageType.Png, ImageType.Jpeg, ImageType.Tiff, ImageType.Emf.</p> If the width or height is zero or the chart is not supported according to Supported Charts List, this method will do nothing.
 
 ### toImage(string, number) {#toImage-string-number-}
 
@@ -1244,7 +1267,7 @@ The result stream
 
 **Remarks**
 
-<p>The type of the image is specified by using <c>imageType</c>. The following types are supported: ImageType.Bmp, ImageType.Gif, ImageType.Png, ImageType.Jpeg, ImageType.Tiff, ImageType.Emf.</p> If the width or height is zero or the chart is not supported according to Supported Charts List, this method will do nothing.
+The type of the image is specified by using <c>imageType</c>. The following types are supported: ImageType.Bmp, ImageType.Gif, ImageType.Png, ImageType.Jpeg, ImageType.Tiff, ImageType.Emf.</p> If the width or height is zero or the chart is not supported according to Supported Charts List, this method will do nothing.
 
 ### toImage(string, ImageOrPrintOptions) {#toImage-string-imageorprintoptions-}
 
@@ -1262,8 +1285,21 @@ toImage(imageFile: string, options: ImageOrPrintOptions) : void;
 
 **Remarks**
 
-<p>The format of the image is specified by using the extension of the file name. For example, if you specify "myfile.png", then the image will be saved in the PNG format. The following file extensions are recognized: .bmp, .gif, .png, .jpg, .jpeg, .tiff, .tif, .emf.</p> If the width or height is zero or the chart is not supported according to Supported Charts List, this method will do nothing. Please refer to <a href="http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html">Supported Charts List</a> for more details.
+The format of the image is specified by using the extension of the file name. For example, if you specify "myfile.png", then the image will be saved in the PNG format. The following file extensions are recognized: .bmp, .gif, .png, .jpg, .jpeg, .tiff, .tif, .emf.</p> If the width or height is zero or the chart is not supported according to Supported Charts List, this method will do nothing. Please refer to <a href="http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html">Supported Charts List</a> for more details.
 
+**Example**
+Saves a chart to a png file with 400 x dpi and 300 y dpi.
+```javascript
+const { Workbook, ImageOrPrintOptions } = require("aspose.cells.node");
+
+var options = new ImageOrPrintOptions();
+options.setHorizontalResolution(400);
+options.setVerticalResolution(300);
+options.setQuality(80);
+
+var book = new Workbook("input/Chart.xls");
+book.getWorksheets().get(0).getCharts().get(0).toImage("output/chart-r-400x300.png", options);
+```
 ### toImage(ImageOrPrintOptions) {#toImage-imageorprintoptions-}
 
 Creates the chart image and saves it to a stream in the specified format.
@@ -1283,8 +1319,24 @@ The result stream
 
 **Remarks**
 
-<p>The type of the image is specified by using <c>options.ImageType</c>. The following formats are supported: ImageType.Bmp, ImageType.Gif, ImageType.Png, ImageType.Jpeg, ImageType.Tiff, ImageType.Emf.</p> If the width or height is zero or the chart is not supported according to Supported Charts List, this method will do nothing. Please refer to <a href="http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html">Supported Charts List</a> for more details.
+The type of the image is specified by using <c>options.ImageType</c>. The following formats are supported: ImageType.Bmp, ImageType.Gif, ImageType.Png, ImageType.Jpeg, ImageType.Tiff, ImageType.Emf.</p> If the width or height is zero or the chart is not supported according to Supported Charts List, this method will do nothing. Please refer to <a href="http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html">Supported Charts List</a> for more details.
 
+**Example**
+Saves a chart to an Uint8Array in jpeg file format with 400 x dpi and 300 y dpi.
+```javascript
+const fs = require("fs");
+const { Workbook, ImageOrPrintOptions, ImageType } = require("aspose.cells.node");
+
+var options = new ImageOrPrintOptions();
+options.setImageType(ImageType.Jpeg);
+options.setHorizontalResolution(400);
+options.setVerticalResolution(300);
+
+var book = new Workbook("input/Chart.xls");
+var uint8Array = book.getWorksheets().get(0).getCharts().get(0).toImage(options);
+const buffer = Buffer.from(uint8Array);
+fs.writeFileSync("output/chart-stream.jpg", buffer);
+```
 ### toPdf(string) {#toPdf-string-}
 
 Saves the chart to a pdf file.

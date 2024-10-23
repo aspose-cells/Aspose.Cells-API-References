@@ -15,11 +15,25 @@ class WorksheetCollection;
 ```
 
 
+### Example
+```javascript
+const { Workbook } = require("aspose.cells.node");
+
+var workbook = new Workbook();
+var sheets = workbook.getWorksheets();
+//Add a worksheet
+sheets.add();
+//Change the name of a worksheet
+sheets.get(0).setName("First Sheet");
+//Set the active sheet to the second worksheet
+sheets.setActiveSheetIndex(1);
+```
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [get(number)](#get-number-)| Gets the [Worksheet](../worksheet/) element at the specified index. |
+| [get(string)](#get-string-)| Gets the [Worksheet](../worksheet/) element with the specified name. |
 | [getWebExtensionTaskPanes()](#getWebExtensionTaskPanes--)| Gets the list of task panes. |
 | [getWebExtensions()](#getWebExtensions--)| Gets the list of task panes. |
 | [getThreadedCommentAuthors()](#getThreadedCommentAuthors--)| Gets the list of threaded comment authors. |
@@ -36,6 +50,7 @@ class WorksheetCollection;
 | [getBuiltInDocumentProperties()](#getBuiltInDocumentProperties--)| Returns a [DocumentProperty](../documentproperty/) collection that represents all the built-in document properties of the spreadsheet. |
 | [getCustomDocumentProperties()](#getCustomDocumentProperties--)| Returns a [DocumentProperty](../documentproperty/) collection that represents all the custom document properties of the spreadsheet. |
 | [getOleSize()](#getOleSize--)| Gets and Sets displayed size when Workbook file is used as an Ole object. |
+| [setOleSize(object)](#setOleSize-object-)| Gets and Sets displayed size when Workbook file is used as an Ole object. |
 | [getExternalLinks()](#getExternalLinks--)| Represents external links in a workbook. |
 | [getTableStyles()](#getTableStyles--)| Gets [TableStyles](../tablestyles/) object. |
 | [getRevisionLogs()](#getRevisionLogs--)| Represents revision logs. |
@@ -86,6 +101,23 @@ get(index: number) : Worksheet;
 **Returns**
 
 The element at the specified index.
+
+### get(string) {#get-string-}
+
+Gets the [Worksheet](../worksheet/) element with the specified name.
+
+```javascript
+get(sheetName: string) : Worksheet;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sheetName | string | Worksheet name |
+
+**Returns**
+
+The element with the specified name.
 
 ### getWebExtensionTaskPanes() {#getWebExtensionTaskPanes--}
 
@@ -267,8 +299,16 @@ getBuiltInDocumentProperties() : BuiltInDocumentPropertyCollection;
 
 **Remarks**
 
-A new property cannot be added to built-in document properties list. You can only get a built-in property and change its value. The following is the built-in properties name list: <p>Title</p> <p>Subject</p> <p>Author</p> <p>Keywords</p> <p>Comments</p> <p>Template</p> <p>Last Author</p> <p>Revision Number</p> <p>Application Name</p> <p>Last Print Date</p> <p>Creation Date</p> <p>Last Save Time</p> <p>Total Editing Time</p> <p>Number of Pages</p> <p>Number of Words</p> <p>Number of Characters</p> <p>Security</p> <p>Category</p> <p>Format</p> <p>Manager</p> <p>Company</p> <p>Number of Bytes</p> <p>Number of Lines</p> <p>Number of Paragraphs</p> <p>Number of Slides</p> <p>Number of Notes</p> <p>Number of Hidden Slides</p> <p>Number of Multimedia Clips</p>
+A new property cannot be added to built-in document properties list. You can only get a built-in property and change its value. The following is the built-in properties name list: <p>Title</p> <p>Subject</p> <p>Author</p> <p>Keywords</p> <p>Comments</p> <p>Template</p> <p>Last Author</p> <p>Revision Number</p> <p>Application Name</p> <p>Last Print Date</p> <p>Creation Date</p> <p>Last Save Time</p> <p>Total Editing Time</p> <p>Number of Pages</p> <p>Number of Words</p> <p>Number of Characters</p> <p>Security</p> <p>Category</p> <p>Format</p> <p>Manager</p> <p>Company</p> <p>Number of Bytes</p> <p>Number of Lines</p> <p>Number of Paragraphs</p> <p>Number of Slides</p> <p>Number of Notes</p> <p>Number of Hidden Slides</p> <p>Number of Multimedia Clips
 
+**Example**
+```javascript
+const { Workbook } = require("aspose.cells.node");
+
+var workbook = new Workbook();
+var doc = workbook.getWorksheets().getBuiltInDocumentProperties().get("Author");
+doc.setValue("John Smith");
+```
 ### getCustomDocumentProperties() {#getCustomDocumentProperties--}
 
 Returns a [DocumentProperty](../documentproperty/) collection that represents all the custom document properties of the spreadsheet.
@@ -282,6 +322,13 @@ getCustomDocumentProperties() : CustomDocumentPropertyCollection;
 
 [CustomDocumentPropertyCollection](../customdocumentpropertycollection/)
 
+**Example**
+```javascript
+const { Workbook } = require("aspose.cells.node");
+
+var excel = new Workbook();
+excel.getWorksheets().getCustomDocumentProperties().add("Checked by", "Jane");
+```
 ### getOleSize() {#getOleSize--}
 
 Gets and Sets displayed size when Workbook file is used as an Ole object.
@@ -290,6 +337,23 @@ Gets and Sets displayed size when Workbook file is used as an Ole object.
 getOleSize() : object;
 ```
 
+
+**Remarks**
+
+Null means no ole size setting.
+
+### setOleSize(object) {#setOleSize-object-}
+
+Gets and Sets displayed size when Workbook file is used as an Ole object.
+
+```javascript
+setOleSize(value: object) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | object | The value to set. |
 
 **Remarks**
 
@@ -454,6 +518,23 @@ add(type: SheetType) : number;
 
 [Worksheet](../worksheet/) object index.
 
+**Example**
+```javascript
+const { Workbook, SheetType, ChartType } = require("aspose.cells.node");
+
+var workbook = new Workbook();
+workbook.getWorksheets().add(SheetType.Chart);
+var cells = workbook.getWorksheets().get(0).getCells();
+cells.get("c2").putValue(5000);
+cells.get("c3").putValue(3000);
+cells.get("c4").putValue(4000);
+cells.get("c5").putValue(5000);
+cells.get("c6").putValue(6000);
+var charts = workbook.getWorksheets().get(1).getCharts();
+var chartIndex = charts.add(ChartType.Column, 10, 10, 20, 20);
+var chart = charts.get(chartIndex);
+chart.getNSeries().add("Sheet1!C2:C6", true);
+```
 ### add() {#add--}
 
 Adds a worksheet to the collection.

@@ -26,6 +26,7 @@ class WebExtensionPropertyCollection;
 | Method | Description |
 | --- | --- |
 | [get(number)](#get-number-)| Gets the property of web extension by the index. |
+| [get(string)](#get-string-)| Gets the property of web extension. |
 | [add(string, string)](#add-string-string-)| Adds web extension property. |
 | [removeAt(string)](#removeAt-string-)| Remove the property by the name. |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
@@ -53,6 +54,23 @@ get(index: number) : WebExtensionProperty;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | number | The index. |
+
+**Returns**
+
+The property of web extension.
+
+### get(string) {#get-string-}
+
+Gets the property of web extension.
+
+```javascript
+get(name: string) : WebExtensionProperty;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | string | The name of property. |
 
 **Returns**
 

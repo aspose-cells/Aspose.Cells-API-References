@@ -15,6 +15,61 @@ class Series;
 ```
 
 
+### Example
+```javascript
+const { Workbook, ChartType, ChartMarkerType, FormattingType, Color } = require("aspose.cells.node");
+
+//Instantiating a Workbook object
+var workbook = new Workbook();
+//Adding a new worksheet to the Excel object
+var sheetIndex = workbook.getWorksheets().add();
+//Obtaining the reference of the newly added worksheet by passing its sheet index
+var worksheet = workbook.getWorksheets().get(sheetIndex);
+//Adding a sample value to "A1" cell
+worksheet.getCells().get("A1").putValue(50);
+//Adding a sample value to "A2" cell
+worksheet.getCells().get("A2").putValue(100);
+//Adding a sample value to "A3" cell
+worksheet.getCells().get("A3").putValue(150);
+//Adding a sample value to "A4" cell
+worksheet.getCells().get("A4").putValue(200);
+//Adding a sample value to "B1" cell
+worksheet.getCells().get("B1").putValue(60);
+//Adding a sample value to "B2" cell
+worksheet.getCells().get("B2").putValue(32);
+//Adding a sample value to "B3" cell
+worksheet.getCells().get("B3").putValue(50);
+//Adding a sample value to "B4" cell
+worksheet.getCells().get("B4").putValue(40);
+//Adding a sample value to "C1" cell as category data
+worksheet.getCells().get("C1").putValue("Q1");
+//Adding a sample value to "C2" cell as category data
+worksheet.getCells().get("C2").putValue("Q2");
+//Adding a sample value to "C3" cell as category data
+worksheet.getCells().get("C3").putValue("Y1");
+//Adding a sample value to "C4" cell as category data
+worksheet.getCells().get("C4").putValue("Y2");
+//Adding a chart to the worksheet
+var chartIndex = worksheet.getCharts().add(ChartType.Column, 5, 0, 15, 5);
+//Accessing the instance of the newly added chart
+var chart = worksheet.getCharts().get(chartIndex);
+//Adding NSeries (chart data source) to the chart ranging from "A1" cell to "B4"
+chart.getNSeries().add("A1:B4", true);
+//Setting the data source for the category data of NSeries
+chart.getNSeries().setCategoryData("C1:C4");
+var series = chart.getNSeries().get(1);
+//Setting the values of the series.
+series.setValues("=B1:B4");
+//Changing the chart type of the series.
+series.setType(ChartType.Line);
+//Setting marker properties.
+series.getMarker().setMarkerStyle(ChartMarkerType.Circle);
+series.getMarker().setForegroundColorSetType(FormattingType.Automatic);
+series.getMarker().setForegroundColor(new Color(0, 0, 0));
+series.getMarker().setBackgroundColorSetType(FormattingType.Automatic);
+//Saving the Excel file
+workbook.save("output/ChartsSeries.xls");
+```
 ## Methods
 
 | Method | Description |
@@ -206,6 +261,24 @@ setName(value: string) : void;
 | --- | --- | --- |
 | value | string | The value to set. |
 
+**Example**
+```javascript
+const { Workbook, ChartType } = require("aspose.cells.node");
+
+var workbook = new Workbook();
+//Get the first worksheet.
+var worksheet = workbook.getWorksheets().get(0);
+//Adding a chart to the worksheet
+var chartIndex = worksheet.getCharts().add(ChartType.Column, 5, 0, 15, 5);
+//Accessing the instance of the newly added chart
+var chart = worksheet.getCharts().get(chartIndex);
+//Adding NSeries (chart data source) to the chart ranging from "A1" cell to "B4"
+chart.getNSeries().add("A1:B4", true);
+//Reference name to a cell
+chart.getNSeries().get(0).setName("=A1");
+//Set a string to name
+chart.getNSeries().get(0).setName("First Series");
+```
 ### getDisplayName() {#getDisplayName--}
 
 Gets the series's name that displays on the chart graph.

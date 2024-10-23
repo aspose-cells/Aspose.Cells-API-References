@@ -15,6 +15,19 @@ class DocumentProperty;
 ```
 
 
+### Example
+```javascript
+const { Workbook } = require("aspose.cells.node");
+
+//Instantiate a Workbook object
+var workbook = new Workbook("input/CustomProperties.xlsx");
+//Retrieve a list of all custom document properties of the Excel file
+var customProperties = workbook.getWorksheets().getCustomDocumentProperties();
+//Accessng a custom document property by using the property index
+var customProperty1 = customProperties.get(3);
+//Accessng a custom document property by using the property name
+var customProperty2 = customProperties.get("Owner");
+```
 ## Methods
 
 | Method | Description |
@@ -116,7 +129,7 @@ toString() : string;
 
 **Remarks**
 
-<p>Converts a number property using Object.ToString(). Converts a boolean property into "Y" or "N". Converts a date property into a short date string.</p>
+Converts a number property using Object.ToString(). Converts a boolean property into "Y" or "N". Converts a date property into a short date string.
 
 ### toInt() {#toInt--}
 
@@ -155,7 +168,7 @@ toDateTime() : Date;
 
 **Remarks**
 
-<p>Throws an exception if the property type is not PropertyType.Date.</p>
+Throws an exception if the property type is not PropertyType.Date.
 
 ### toBool() {#toBool--}
 
@@ -168,7 +181,7 @@ toBool() : boolean;
 
 **Remarks**
 
-<p>Throws an exception if the property type is not PropertyType.Boolean.</p>
+Throws an exception if the property type is not PropertyType.Boolean.
 
 ### isNull() {#isNull--}
 

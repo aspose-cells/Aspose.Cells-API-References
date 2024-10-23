@@ -89,7 +89,7 @@ getX() : number;
 
 **Remarks**
 
-<p>The plot-area bounding box includes the plot area, tick marks(tick labels), and a small border around the tick marks. If the value is not created by MS Excel, please call Chart.Calculate() method before calling this method. </p> <p>The <b>X</b>, <b>Y</b>, <b>Width</b> and <b>Height</b> of <b>PlotArea</b> represents the plot-area bounding box that includes the plot area, tick marks(tick labels), and a small border around the tick marks. If you want to get actual size of plot area, you should call <b>InnerX</b>, <b>InnerY</b>, <b>InnerWidth</b> and <b>InnerHeight</b> properties.</p> <p>For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().</p>
+The plot-area bounding box includes the plot area, tick marks(tick labels), and a small border around the tick marks. If the value is not created by MS Excel, please call Chart.Calculate() method before calling this method. </p> <p>The <b>X</b>, <b>Y</b>, <b>Width</b> and <b>Height</b> of <b>PlotArea</b> represents the plot-area bounding box that includes the plot area, tick marks(tick labels), and a small border around the tick marks. If you want to get actual size of plot area, you should call <b>InnerX</b>, <b>InnerY</b>, <b>InnerWidth</b> and <b>InnerHeight</b> properties.</p> <p>For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().
 
 ### setX(number) {#setX-number-}
 
@@ -106,7 +106,7 @@ setX(value: number) : void;
 
 **Remarks**
 
-<p>The plot-area bounding box includes the plot area, tick marks(tick labels), and a small border around the tick marks. If the value is not created by MS Excel, please call Chart.Calculate() method before calling this method. </p> <p>The <b>X</b>, <b>Y</b>, <b>Width</b> and <b>Height</b> of <b>PlotArea</b> represents the plot-area bounding box that includes the plot area, tick marks(tick labels), and a small border around the tick marks. If you want to get actual size of plot area, you should call <b>InnerX</b>, <b>InnerY</b>, <b>InnerWidth</b> and <b>InnerHeight</b> properties.</p> <p>For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().</p>
+The plot-area bounding box includes the plot area, tick marks(tick labels), and a small border around the tick marks. If the value is not created by MS Excel, please call Chart.Calculate() method before calling this method. </p> <p>The <b>X</b>, <b>Y</b>, <b>Width</b> and <b>Height</b> of <b>PlotArea</b> represents the plot-area bounding box that includes the plot area, tick marks(tick labels), and a small border around the tick marks. If you want to get actual size of plot area, you should call <b>InnerX</b>, <b>InnerY</b>, <b>InnerWidth</b> and <b>InnerHeight</b> properties.</p> <p>For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().
 
 ### getY() {#getY--}
 
@@ -119,7 +119,7 @@ getY() : number;
 
 **Remarks**
 
-<p>The plot-area bounding box includes the plot area, tick marks(tick labels), and a small border around the tick marks. If the value is not created by MS Excel, please call Chart.Calculate() method before calling this method. </p> <p>The <b>X</b>, <b>Y</b>, <b>Width</b> and <b>Height</b> of <b>PlotArea</b> represents the plot-area bounding box that includes the plot area, tick marks(tick labels), and a small border around the tick marks. If you want to get actual size of plot area, you should call <b>InnerX</b>, <b>InnerY</b>, <b>InnerWidth</b> and <b>InnerHeight</b> properties.</p> <p>For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().</p>
+The plot-area bounding box includes the plot area, tick marks(tick labels), and a small border around the tick marks. If the value is not created by MS Excel, please call Chart.Calculate() method before calling this method. </p> <p>The <b>X</b>, <b>Y</b>, <b>Width</b> and <b>Height</b> of <b>PlotArea</b> represents the plot-area bounding box that includes the plot area, tick marks(tick labels), and a small border around the tick marks. If you want to get actual size of plot area, you should call <b>InnerX</b>, <b>InnerY</b>, <b>InnerWidth</b> and <b>InnerHeight</b> properties.</p> <p>For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().
 
 ### setY(number) {#setY-number-}
 
@@ -136,7 +136,7 @@ setY(value: number) : void;
 
 **Remarks**
 
-<p>The plot-area bounding box includes the plot area, tick marks(tick labels), and a small border around the tick marks. If the value is not created by MS Excel, please call Chart.Calculate() method before calling this method. </p> <p>The <b>X</b>, <b>Y</b>, <b>Width</b> and <b>Height</b> of <b>PlotArea</b> represents the plot-area bounding box that includes the plot area, tick marks(tick labels), and a small border around the tick marks. If you want to get actual size of plot area, you should call <b>InnerX</b>, <b>InnerY</b>, <b>InnerWidth</b> and <b>InnerHeight</b> properties.</p> <p>For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().</p>
+The plot-area bounding box includes the plot area, tick marks(tick labels), and a small border around the tick marks. If the value is not created by MS Excel, please call Chart.Calculate() method before calling this method. </p> <p>The <b>X</b>, <b>Y</b>, <b>Width</b> and <b>Height</b> of <b>PlotArea</b> represents the plot-area bounding box that includes the plot area, tick marks(tick labels), and a small border around the tick marks. If you want to get actual size of plot area, you should call <b>InnerX</b>, <b>InnerY</b>, <b>InnerWidth</b> and <b>InnerHeight</b> properties.</p> <p>For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().
 
 ### getHeight() {#getHeight--}
 
@@ -149,7 +149,7 @@ getHeight() : number;
 
 **Remarks**
 
-<p>The plot-area bounding box includes the plot area, tick marks(tick labels), and a small border around the tick marks. If the value is not created by MS Excel, please call Chart.Calculate() method before calling this method. </p> <p>The <b>X</b>, <b>Y</b>, <b>Width</b> and <b>Height</b> of <b>PlotArea</b> represents the plot-area bounding box that includes the plot area, tick marks(tick labels), and a small border around the tick marks. If you want to get actual size of plot area, you should call <b>InnerX</b>, <b>InnerY</b>, <b>InnerWidth</b> and <b>InnerHeight</b> properties.</p> <p>For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().</p>
+The plot-area bounding box includes the plot area, tick marks(tick labels), and a small border around the tick marks. If the value is not created by MS Excel, please call Chart.Calculate() method before calling this method. </p> <p>The <b>X</b>, <b>Y</b>, <b>Width</b> and <b>Height</b> of <b>PlotArea</b> represents the plot-area bounding box that includes the plot area, tick marks(tick labels), and a small border around the tick marks. If you want to get actual size of plot area, you should call <b>InnerX</b>, <b>InnerY</b>, <b>InnerWidth</b> and <b>InnerHeight</b> properties.</p> <p>For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().
 
 ### setHeight(number) {#setHeight-number-}
 
@@ -166,7 +166,7 @@ setHeight(value: number) : void;
 
 **Remarks**
 
-<p>The plot-area bounding box includes the plot area, tick marks(tick labels), and a small border around the tick marks. If the value is not created by MS Excel, please call Chart.Calculate() method before calling this method. </p> <p>The <b>X</b>, <b>Y</b>, <b>Width</b> and <b>Height</b> of <b>PlotArea</b> represents the plot-area bounding box that includes the plot area, tick marks(tick labels), and a small border around the tick marks. If you want to get actual size of plot area, you should call <b>InnerX</b>, <b>InnerY</b>, <b>InnerWidth</b> and <b>InnerHeight</b> properties.</p> <p>For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().</p>
+The plot-area bounding box includes the plot area, tick marks(tick labels), and a small border around the tick marks. If the value is not created by MS Excel, please call Chart.Calculate() method before calling this method. </p> <p>The <b>X</b>, <b>Y</b>, <b>Width</b> and <b>Height</b> of <b>PlotArea</b> represents the plot-area bounding box that includes the plot area, tick marks(tick labels), and a small border around the tick marks. If you want to get actual size of plot area, you should call <b>InnerX</b>, <b>InnerY</b>, <b>InnerWidth</b> and <b>InnerHeight</b> properties.</p> <p>For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().
 
 ### getWidth() {#getWidth--}
 
@@ -179,7 +179,7 @@ getWidth() : number;
 
 **Remarks**
 
-<p>The plot-area bounding box includes the plot area, tick marks(tick labels), and a small border around the tick marks. If the value is not created by MS Excel, please call Chart.Calculate() method before calling this method. </p> <p>The <b>X</b>, <b>Y</b>, <b>Width</b> and <b>Height</b> of <b>PlotArea</b> represents the plot-area bounding box that includes the plot area, tick marks(tick labels), and a small border around the tick marks. If you want to get actual size of plot area, you should call <b>InnerX</b>, <b>InnerY</b>, <b>InnerWidth</b> and <b>InnerHeight</b> properties.</p> <p>For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().</p>
+The plot-area bounding box includes the plot area, tick marks(tick labels), and a small border around the tick marks. If the value is not created by MS Excel, please call Chart.Calculate() method before calling this method. </p> <p>The <b>X</b>, <b>Y</b>, <b>Width</b> and <b>Height</b> of <b>PlotArea</b> represents the plot-area bounding box that includes the plot area, tick marks(tick labels), and a small border around the tick marks. If you want to get actual size of plot area, you should call <b>InnerX</b>, <b>InnerY</b>, <b>InnerWidth</b> and <b>InnerHeight</b> properties.</p> <p>For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().
 
 ### setWidth(number) {#setWidth-number-}
 
@@ -196,7 +196,7 @@ setWidth(value: number) : void;
 
 **Remarks**
 
-<p>The plot-area bounding box includes the plot area, tick marks(tick labels), and a small border around the tick marks. If the value is not created by MS Excel, please call Chart.Calculate() method before calling this method. </p> <p>The <b>X</b>, <b>Y</b>, <b>Width</b> and <b>Height</b> of <b>PlotArea</b> represents the plot-area bounding box that includes the plot area, tick marks(tick labels), and a small border around the tick marks. If you want to get actual size of plot area, you should call <b>InnerX</b>, <b>InnerY</b>, <b>InnerWidth</b> and <b>InnerHeight</b> properties.</p> <p>For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().</p>
+The plot-area bounding box includes the plot area, tick marks(tick labels), and a small border around the tick marks. If the value is not created by MS Excel, please call Chart.Calculate() method before calling this method. </p> <p>The <b>X</b>, <b>Y</b>, <b>Width</b> and <b>Height</b> of <b>PlotArea</b> represents the plot-area bounding box that includes the plot area, tick marks(tick labels), and a small border around the tick marks. If you want to get actual size of plot area, you should call <b>InnerX</b>, <b>InnerY</b>, <b>InnerWidth</b> and <b>InnerHeight</b> properties.</p> <p>For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().
 
 ### getInnerX() {#getInnerX--}
 
@@ -209,7 +209,7 @@ getInnerX() : number;
 
 **Remarks**
 
-<p>The plot-area bounding box includes the plot area, tick marks(tick labels), and a small border around the tick marks. If the value is not created by MS Excel, please call Chart.Calculate() method before calling this method. </p> <p>The <b>X</b>, <b>Y</b>, <b>Width</b> and <b>Height</b> of <b>PlotArea</b> represents the plot-area bounding box that includes the plot area, tick marks(tick labels), and a small border around the tick marks. If you want to get actual size of plot area, you should call <b>InnerX</b>, <b>InnerY</b>, <b>InnerWidth</b> and <b>InnerHeight</b> properties.</p> <p>For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().</p>
+The plot-area bounding box includes the plot area, tick marks(tick labels), and a small border around the tick marks. If the value is not created by MS Excel, please call Chart.Calculate() method before calling this method. </p> <p>The <b>X</b>, <b>Y</b>, <b>Width</b> and <b>Height</b> of <b>PlotArea</b> represents the plot-area bounding box that includes the plot area, tick marks(tick labels), and a small border around the tick marks. If you want to get actual size of plot area, you should call <b>InnerX</b>, <b>InnerY</b>, <b>InnerWidth</b> and <b>InnerHeight</b> properties.</p> <p>For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().
 
 ### setInnerX(number) {#setInnerX-number-}
 
@@ -226,7 +226,7 @@ setInnerX(value: number) : void;
 
 **Remarks**
 
-<p>The plot-area bounding box includes the plot area, tick marks(tick labels), and a small border around the tick marks. If the value is not created by MS Excel, please call Chart.Calculate() method before calling this method. </p> <p>The <b>X</b>, <b>Y</b>, <b>Width</b> and <b>Height</b> of <b>PlotArea</b> represents the plot-area bounding box that includes the plot area, tick marks(tick labels), and a small border around the tick marks. If you want to get actual size of plot area, you should call <b>InnerX</b>, <b>InnerY</b>, <b>InnerWidth</b> and <b>InnerHeight</b> properties.</p> <p>For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().</p>
+The plot-area bounding box includes the plot area, tick marks(tick labels), and a small border around the tick marks. If the value is not created by MS Excel, please call Chart.Calculate() method before calling this method. </p> <p>The <b>X</b>, <b>Y</b>, <b>Width</b> and <b>Height</b> of <b>PlotArea</b> represents the plot-area bounding box that includes the plot area, tick marks(tick labels), and a small border around the tick marks. If you want to get actual size of plot area, you should call <b>InnerX</b>, <b>InnerY</b>, <b>InnerWidth</b> and <b>InnerHeight</b> properties.</p> <p>For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().
 
 ### getInnerY() {#getInnerY--}
 
@@ -239,7 +239,7 @@ getInnerY() : number;
 
 **Remarks**
 
-<p>The plot-area bounding box includes the plot area, tick marks(tick labels), and a small border around the tick marks. If the value is not created by MS Excel, please call Chart.Calculate() method before calling this method. </p> <p>The <b>X</b>, <b>Y</b>, <b>Width</b> and <b>Height</b> of <b>PlotArea</b> represents the plot-area bounding box that includes the plot area, tick marks(tick labels), and a small border around the tick marks. If you want to get actual size of plot area, you should call <b>InnerX</b>, <b>InnerY</b>, <b>InnerWidth</b> and <b>InnerHeight</b> properties.</p> <p>For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().</p>
+The plot-area bounding box includes the plot area, tick marks(tick labels), and a small border around the tick marks. If the value is not created by MS Excel, please call Chart.Calculate() method before calling this method. </p> <p>The <b>X</b>, <b>Y</b>, <b>Width</b> and <b>Height</b> of <b>PlotArea</b> represents the plot-area bounding box that includes the plot area, tick marks(tick labels), and a small border around the tick marks. If you want to get actual size of plot area, you should call <b>InnerX</b>, <b>InnerY</b>, <b>InnerWidth</b> and <b>InnerHeight</b> properties.</p> <p>For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().
 
 ### setInnerY(number) {#setInnerY-number-}
 
@@ -256,7 +256,7 @@ setInnerY(value: number) : void;
 
 **Remarks**
 
-<p>The plot-area bounding box includes the plot area, tick marks(tick labels), and a small border around the tick marks. If the value is not created by MS Excel, please call Chart.Calculate() method before calling this method. </p> <p>The <b>X</b>, <b>Y</b>, <b>Width</b> and <b>Height</b> of <b>PlotArea</b> represents the plot-area bounding box that includes the plot area, tick marks(tick labels), and a small border around the tick marks. If you want to get actual size of plot area, you should call <b>InnerX</b>, <b>InnerY</b>, <b>InnerWidth</b> and <b>InnerHeight</b> properties.</p> <p>For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().</p>
+The plot-area bounding box includes the plot area, tick marks(tick labels), and a small border around the tick marks. If the value is not created by MS Excel, please call Chart.Calculate() method before calling this method. </p> <p>The <b>X</b>, <b>Y</b>, <b>Width</b> and <b>Height</b> of <b>PlotArea</b> represents the plot-area bounding box that includes the plot area, tick marks(tick labels), and a small border around the tick marks. If you want to get actual size of plot area, you should call <b>InnerX</b>, <b>InnerY</b>, <b>InnerWidth</b> and <b>InnerHeight</b> properties.</p> <p>For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().
 
 ### getInnerHeight() {#getInnerHeight--}
 
@@ -269,7 +269,7 @@ getInnerHeight() : number;
 
 **Remarks**
 
-<p>The plot-area bounding box includes the plot area, tick marks(tick labels), and a small border around the tick marks. If the value is not created by MS Excel, please call Chart.Calculate() method before calling this method. </p> <p>The <b>X</b>, <b>Y</b>, <b>Width</b> and <b>Height</b> of <b>PlotArea</b> represents the plot-area bounding box that includes the plot area, tick marks(tick labels), and a small border around the tick marks. If you want to get actual size of plot area, you should call <b>InnerX</b>, <b>InnerY</b>, <b>InnerWidth</b> and <b>InnerHeight</b> properties.</p> <p>For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().</p>
+The plot-area bounding box includes the plot area, tick marks(tick labels), and a small border around the tick marks. If the value is not created by MS Excel, please call Chart.Calculate() method before calling this method. </p> <p>The <b>X</b>, <b>Y</b>, <b>Width</b> and <b>Height</b> of <b>PlotArea</b> represents the plot-area bounding box that includes the plot area, tick marks(tick labels), and a small border around the tick marks. If you want to get actual size of plot area, you should call <b>InnerX</b>, <b>InnerY</b>, <b>InnerWidth</b> and <b>InnerHeight</b> properties.</p> <p>For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().
 
 ### setInnerHeight(number) {#setInnerHeight-number-}
 
@@ -286,7 +286,7 @@ setInnerHeight(value: number) : void;
 
 **Remarks**
 
-<p>The plot-area bounding box includes the plot area, tick marks(tick labels), and a small border around the tick marks. If the value is not created by MS Excel, please call Chart.Calculate() method before calling this method. </p> <p>The <b>X</b>, <b>Y</b>, <b>Width</b> and <b>Height</b> of <b>PlotArea</b> represents the plot-area bounding box that includes the plot area, tick marks(tick labels), and a small border around the tick marks. If you want to get actual size of plot area, you should call <b>InnerX</b>, <b>InnerY</b>, <b>InnerWidth</b> and <b>InnerHeight</b> properties.</p> <p>For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().</p>
+The plot-area bounding box includes the plot area, tick marks(tick labels), and a small border around the tick marks. If the value is not created by MS Excel, please call Chart.Calculate() method before calling this method. </p> <p>The <b>X</b>, <b>Y</b>, <b>Width</b> and <b>Height</b> of <b>PlotArea</b> represents the plot-area bounding box that includes the plot area, tick marks(tick labels), and a small border around the tick marks. If you want to get actual size of plot area, you should call <b>InnerX</b>, <b>InnerY</b>, <b>InnerWidth</b> and <b>InnerHeight</b> properties.</p> <p>For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().
 
 ### getInnerWidth() {#getInnerWidth--}
 
@@ -299,7 +299,7 @@ getInnerWidth() : number;
 
 **Remarks**
 
-<p>The plot-area bounding box includes the plot area, tick marks(tick labels), and a small border around the tick marks. If the value is not created by MS Excel, please call Chart.Calculate() method before calling this method. </p> <p>The <b>X</b>, <b>Y</b>, <b>Width</b> and <b>Height</b> of <b>PlotArea</b> represents the plot-area bounding box that includes the plot area, tick marks(tick labels), and a small border around the tick marks. If you want to get actual size of plot area, you should call <b>InnerX</b>, <b>InnerY</b>, <b>InnerWidth</b> and <b>InnerHeight</b> properties.</p> <p>For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().</p>
+The plot-area bounding box includes the plot area, tick marks(tick labels), and a small border around the tick marks. If the value is not created by MS Excel, please call Chart.Calculate() method before calling this method. </p> <p>The <b>X</b>, <b>Y</b>, <b>Width</b> and <b>Height</b> of <b>PlotArea</b> represents the plot-area bounding box that includes the plot area, tick marks(tick labels), and a small border around the tick marks. If you want to get actual size of plot area, you should call <b>InnerX</b>, <b>InnerY</b>, <b>InnerWidth</b> and <b>InnerHeight</b> properties.</p> <p>For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().
 
 ### setInnerWidth(number) {#setInnerWidth-number-}
 
@@ -316,7 +316,7 @@ setInnerWidth(value: number) : void;
 
 **Remarks**
 
-<p>The plot-area bounding box includes the plot area, tick marks(tick labels), and a small border around the tick marks. If the value is not created by MS Excel, please call Chart.Calculate() method before calling this method. </p> <p>The <b>X</b>, <b>Y</b>, <b>Width</b> and <b>Height</b> of <b>PlotArea</b> represents the plot-area bounding box that includes the plot area, tick marks(tick labels), and a small border around the tick marks. If you want to get actual size of plot area, you should call <b>InnerX</b>, <b>InnerY</b>, <b>InnerWidth</b> and <b>InnerHeight</b> properties.</p> <p>For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().</p>
+The plot-area bounding box includes the plot area, tick marks(tick labels), and a small border around the tick marks. If the value is not created by MS Excel, please call Chart.Calculate() method before calling this method. </p> <p>The <b>X</b>, <b>Y</b>, <b>Width</b> and <b>Height</b> of <b>PlotArea</b> represents the plot-area bounding box that includes the plot area, tick marks(tick labels), and a small border around the tick marks. If you want to get actual size of plot area, you should call <b>InnerX</b>, <b>InnerY</b>, <b>InnerWidth</b> and <b>InnerHeight</b> properties.</p> <p>For excel 2007 or latter, the default value is zero. you should call get the value after calling Chart.Calculate().
 
 ### isAutomaticSize() {#isAutomaticSize--}
 

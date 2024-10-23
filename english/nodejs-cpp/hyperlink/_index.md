@@ -15,6 +15,21 @@ class Hyperlink;
 ```
 
 
+### Example
+```javascript
+const { Workbook } = require("aspose.cells.node");
+
+//Instantiating a Workbook object
+var workbook = new Workbook();
+//Adding a new worksheet to the Workbook object
+workbook.getWorksheets().add();
+//Obtaining the reference of the newly added worksheet by passing its sheet index
+var worksheet = workbook.getWorksheets().get(0);
+//Adding a hyperlink to a URL at "A1" cell
+worksheet.getHyperlinks().add("A1", 1, 1, "http://www.aspose.com");
+//Saving the Excel file
+workbook.save("output/Hyperlink.xls");
+```
 ## Methods
 
 | Method | Description |

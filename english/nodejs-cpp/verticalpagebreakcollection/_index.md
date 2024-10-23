@@ -20,6 +20,7 @@ class VerticalPageBreakCollection;
 | Method | Description |
 | --- | --- |
 | [get(number)](#get-number-)| Gets the [VerticalPageBreak](../verticalpagebreak/) element at the specified index. |
+| [get(string)](#get-string-)| Gets the [VerticalPageBreak](../verticalpagebreak/) element with the specified cell name. |
 | [add(number, number, number)](#add-number-number-number-)| Adds a vertical page break to the collection. |
 | [add(number)](#add-number-)| Adds a vertical page break to the collection. |
 | [add(number, number)](#add-number-number-)| Adds a vertical page break to the collection. |
@@ -45,6 +46,23 @@ get(index: number) : VerticalPageBreak;
 **Returns**
 
 The element at the specified index.
+
+### get(string) {#get-string-}
+
+Gets the [VerticalPageBreak](../verticalpagebreak/) element with the specified cell name.
+
+```javascript
+get(cellName: string) : VerticalPageBreak;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| cellName | string | Cell name. |
+
+**Returns**
+
+The element with the specified cell name.
 
 ### add(number, number, number) {#add-number-number-number-}
 

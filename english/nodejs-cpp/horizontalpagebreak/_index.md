@@ -15,6 +15,22 @@ class HorizontalPageBreak;
 ```
 
 
+### Example
+```javascript
+const { Workbook } = require("aspose.cells.node");
+
+//Instantiating a Workbook object
+var workbook = new Workbook();
+
+//Obtaining the reference of the newly added worksheet by passing its sheet index
+var worksheet = workbook.getWorksheets().get(0);
+
+//Add a page break at cell Y30
+var Index = worksheet.getHorizontalPageBreaks().add("Y30");
+
+//get the newly added horizontal page break
+var hPageBreak = worksheet.getHorizontalPageBreaks().get(Index);
+```
 ## Methods
 
 | Method | Description |

@@ -20,6 +20,7 @@ class NameCollection;
 | Method | Description |
 | --- | --- |
 | [get(number)](#get-number-)| Gets the [Name](../name/) element at the specified index. |
+| [get(string)](#get-string-)| Gets the [Name](../name/) element with the specified name. |
 | [add(string)](#add-string-)| Defines a new name. |
 | [filter(NameScopeType, number)](#filter-namescopetype-number-)| Gets all defined name by scope. |
 | [remove(string[])](#remove-stringarray-)| Remove an array of name |
@@ -48,6 +49,23 @@ get(index: number) : Name;
 **Returns**
 
 The element at the specified index.
+
+### get(string) {#get-string-}
+
+Gets the [Name](../name/) element with the specified name.
+
+```javascript
+get(text: string) : Name;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| text | string | Name text. |
+
+**Returns**
+
+The element with the specified name.
 
 ### add(string) {#add-string-}
 

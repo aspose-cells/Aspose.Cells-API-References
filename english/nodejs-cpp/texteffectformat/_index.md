@@ -15,6 +15,18 @@ class TextEffectFormat;
 ```
 
 
+### Example
+```javascript
+const { Workbook, MsoPresetTextEffect } = require("aspose.cells.node");
+
+//Instantiating a Workbook object
+var workbook = new Workbook();
+var shapes = workbook.getWorksheets().get(0).getShapes();
+shapes.addTextEffect(MsoPresetTextEffect.TextEffect1, "Aspose", "Arial", 30, false, false, 0, 0, 0, 0, 100, 200);
+var textEffectFormat = shapes.get(0).getTextEffect();
+textEffectFormat.setTextEffect(MsoPresetTextEffect.TextEffect10);
+workbook.save("output/TextEffectFormat.xls");
+```
 ## Methods
 
 | Method | Description |

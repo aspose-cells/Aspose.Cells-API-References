@@ -15,11 +15,20 @@ class CommentCollection;
 ```
 
 
+### Example
+```javascript
+const { Workbook } = require("aspose.cells.node");
+
+var workbook = new Workbook();
+var comments = workbook.getWorksheets().get(0).getComments();
+```
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [get(number)](#get-number-)| Gets the [Comment](../comment/) element at the specified index. |
+| [get(string)](#get-string-)| Gets the [Comment](../comment/) element at the specified cell. |
+| [get(number, number)](#get-number-number-)| Gets the [Comment](../comment/) element at the specified row index and column index. |
 | [addThreadedComment(number, number, string, ThreadedCommentAuthor)](#addThreadedComment-number-number-string-threadedcommentauthor-)| Adds a threaded comment. |
 | [addThreadedComment(string, string, ThreadedCommentAuthor)](#addThreadedComment-string-string-threadedcommentauthor-)| Adds a threaded comment. |
 | [getThreadedComments(number, number)](#getThreadedComments-number-number-)| Gets the threaded comments by row and column index. |
@@ -49,6 +58,41 @@ get(index: number) : Comment;
 **Returns**
 
 The element at the specified index.
+
+### get(string) {#get-string-}
+
+Gets the [Comment](../comment/) element at the specified cell.
+
+```javascript
+get(cellName: string) : Comment;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| cellName | string | Cell name. |
+
+**Returns**
+
+The element at the specified cell.
+
+### get(number, number) {#get-number-number-}
+
+Gets the [Comment](../comment/) element at the specified row index and column index.
+
+```javascript
+get(row: number, column: number) : Comment;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| row | number | Row index. |
+| column | number | Column index. |
+
+**Returns**
+
+The element at the specified cell.
 
 ### addThreadedComment(number, number, string, ThreadedCommentAuthor) {#addThreadedComment-number-number-string-threadedcommentauthor-}
 

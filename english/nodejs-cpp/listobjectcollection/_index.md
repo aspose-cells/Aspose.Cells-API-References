@@ -20,6 +20,7 @@ class ListObjectCollection;
 | Method | Description |
 | --- | --- |
 | [get(number)](#get-number-)| Gets the ListObject by index. |
+| [get(string)](#get-string-)| Gets the ListObject by specified name. |
 | [add(number, number, number, number, boolean)](#add-number-number-number-number-boolean-)| Adds a ListObject to the worksheet. |
 | [add(string, string, boolean)](#add-string-string-boolean-)| Adds a ListObject to the worksheet. |
 | [updateColumnName()](#updateColumnName--)| Update all column name of the tables. |
@@ -39,6 +40,23 @@ get(index: number) : ListObject;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | number | The index. |
+
+**Returns**
+
+The ListObject
+
+### get(string) {#get-string-}
+
+Gets the ListObject by specified name.
+
+```javascript
+get(tableName: string) : ListObject;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| tableName | string | ListObject name. |
 
 **Returns**
 

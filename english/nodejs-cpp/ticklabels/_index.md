@@ -119,7 +119,7 @@ getRotationAngle() : number;
 
 **Remarks**
 
-<br>0: Not rotated.</br> <br>255: Top to Bottom.</br> <br>-90: Downward.</br> <br>90: Upward.</br>
+br>0: Not rotated.</br> <br>255: Top to Bottom.</br> <br>-90: Downward.</br> <br>90: Upward.</br
 
 ### setRotationAngle(number) {#setRotationAngle-number-}
 
@@ -136,7 +136,7 @@ setRotationAngle(value: number) : void;
 
 **Remarks**
 
-<br>0: Not rotated.</br> <br>255: Top to Bottom.</br> <br>-90: Downward.</br> <br>90: Upward.</br>
+br>0: Not rotated.</br> <br>255: Top to Bottom.</br> <br>-90: Downward.</br> <br>90: Upward.</br
 
 ### isAutomaticRotation() {#isAutomaticRotation--}
 

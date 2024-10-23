@@ -211,7 +211,7 @@ constructor(saveFormat: SaveFormat);
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| saveFormat | [SaveFormat](../saveformat/) | The file format.         /// It should be one of following types: [SaveFormat.Html](../saveformat.html/), [SaveFormat.Html](../saveformat.html/),         /// or [SaveFormat.Html](../saveformat.html/),         /// otherwise the saved format will be set as [SaveFormat.Html](../saveformat.html/) automatically. |
+| saveFormat | [SaveFormat](../saveformat/) | The file format.         /// It should be one of following types: [SaveFormat.Html](../saveformat.html/), [SaveFormat.MHtml](../saveformat.mhtml/),         /// or [SaveFormat.XHtml](../saveformat.xhtml/),         /// otherwise the saved format will be set as [SaveFormat.Html](../saveformat.html/) automatically. |
 
 ### getIgnoreInvisibleShapes() {#getIgnoreInvisibleShapes--}
 

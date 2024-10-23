@@ -15,10 +15,53 @@ class FormatCondition;
 ```
 
 
+### Example
+```javascript
+const { Workbook, CellArea, FormatConditionType, OperatorType, Color } = require("aspose.cells.node");
+
+//Instantiating a Workbook object
+var workbook = new Workbook();
+var sheet = workbook.getWorksheets().get(0);
+
+//Adds an empty conditional formatting
+var index = sheet.getConditionalFormattings().add();
+var fcs = sheet.getConditionalFormattings().get(index);
+
+//Sets the conditional format range.
+var ca = new CellArea();
+ca.startRow = 0;
+ca.endRow = 0;
+ca.startColumn = 0;
+ca.endColumn = 0;
+fcs.addArea(ca);
+
+ca = new CellArea();
+ca.startRow = 1;
+ca.endRow = 1;
+ca.startColumn = 1;
+ca.endColumn = 1;
+fcs.addArea(ca);
+
+//Adds condition.
+var conditionIndex = fcs.addCondition(FormatConditionType.CellValue, OperatorType.Between, "=A2", "100");
+//Adds condition.
+var conditionIndex2 = fcs.addCondition(FormatConditionType.CellValue, OperatorType.Between, "50", "100");
+
+//Sets the background color.
+var fc = fcs.get(conditionIndex);
+fc.getStyle().setBackgroundColor(new Color(0xff, 0, 0));
+
+//Saving the Excel file
+workbook.save("output/FormatCondition.xls");
+```
 ## Methods
 
 | Method | Description |
 | --- | --- |
+| [getFormula1()](#getFormula1--)| Gets and sets the value or expression associated with conditional formatting. |
+| [setFormula1(string)](#setFormula1-string-)| Gets and sets the value or expression associated with conditional formatting. |
+| [getFormula2()](#getFormula2--)| Gets and sets the value or expression associated with conditional formatting. |
+| [setFormula2(string)](#setFormula2-string-)| Gets and sets the value or expression associated with conditional formatting. |
 | [getOperator()](#getOperator--)| Gets and sets the conditional format operator type. |
 | [setOperator(OperatorType)](#setOperator-operatortype-)| Gets and sets the conditional format operator type. |
 | [getStopIfTrue()](#getStopIfTrue--)| True, no rules with lower priority may be applied over this rule, when this rule evaluates to true. Only applies for Excel 2007; |
@@ -49,6 +92,66 @@ class FormatCondition;
 | [setFormula2(string, boolean, boolean)](#setFormula2-string-boolean-boolean-)| Sets the value or expression associated with this format condition. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
+
+### getFormula1() {#getFormula1--}
+
+Gets and sets the value or expression associated with conditional formatting.
+
+```javascript
+getFormula1() : string;
+```
+
+
+**Remarks**
+
+Please add all areas before setting formula. For setting formula for this condition, if the input value starts with '=', then it will be taken as formula. Otherwise it will be taken as plain value(text, number, bool). For text value that starts with '=', user may input it as formula in format: "=\"=...\"".
+
+### setFormula1(string) {#setFormula1-string-}
+
+Gets and sets the value or expression associated with conditional formatting.
+
+```javascript
+setFormula1(value: string) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | string | The value to set. |
+
+**Remarks**
+
+Please add all areas before setting formula. For setting formula for this condition, if the input value starts with '=', then it will be taken as formula. Otherwise it will be taken as plain value(text, number, bool). For text value that starts with '=', user may input it as formula in format: "=\"=...\"".
+
+### getFormula2() {#getFormula2--}
+
+Gets and sets the value or expression associated with conditional formatting.
+
+```javascript
+getFormula2() : string;
+```
+
+
+**Remarks**
+
+Please add all areas before setting formula. For setting formula for this condition, if the input value starts with '=', then it will be taken as formula. Otherwise it will be taken as plain value(text, number, bool). For text value that starts with '=', user may input it as formula in format: "=\"=...\"".
+
+### setFormula2(string) {#setFormula2-string-}
+
+Gets and sets the value or expression associated with conditional formatting.
+
+```javascript
+setFormula2(value: string) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | string | The value to set. |
+
+**Remarks**
+
+Please add all areas before setting formula. For setting formula for this condition, if the input value starts with '=', then it will be taken as formula. Otherwise it will be taken as plain value(text, number, bool). For text value that starts with '=', user may input it as formula in format: "=\"=...\"".
 
 ### getOperator() {#getOperator--}
 

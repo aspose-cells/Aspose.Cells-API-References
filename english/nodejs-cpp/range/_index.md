@@ -155,7 +155,7 @@ getName() : string;
 
 **Remarks**
 
-Named range is supported. For example, <p>range.Name = "Sheet1!MyRange";</p>
+Named range is supported. For example, <p>range.Name = "Sheet1!MyRange";
 
 ### setName(string) {#setName-string-}
 
@@ -172,7 +172,7 @@ setName(value: string) : void;
 
 **Remarks**
 
-Named range is supported. For example, <p>range.Name = "Sheet1!MyRange";</p>
+Named range is supported. For example, <p>range.Name = "Sheet1!MyRange";
 
 ### getRefersTo() {#getRefersTo--}
 
@@ -680,7 +680,7 @@ setInsideBorders(borderEdge: BorderType, lineStyle: CellBorderType, borderColor:
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| borderEdge | [BorderType](../bordertype/) | Inside borde type, only can be [BorderType.Vertical](../bordertype.vertical/) and [BorderType.Vertical](../bordertype.vertical/). |
+| borderEdge | [BorderType](../bordertype/) | Inside borde type, only can be [BorderType.Vertical](../bordertype.vertical/) and [BorderType.Horizontal](../bordertype.horizontal/). |
 | lineStyle | [CellBorderType](../cellbordertype/) | The border style. |
 | borderColor | [CellsColor](../cellscolor/) | The color of the border. |
 

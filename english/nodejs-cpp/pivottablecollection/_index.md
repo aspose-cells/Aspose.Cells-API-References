@@ -20,6 +20,8 @@ class PivotTableCollection;
 | Method | Description |
 | --- | --- |
 | [get(number)](#get-number-)| Gets the PivotTable report by index. |
+| [get(string)](#get-string-)| Gets the PivotTable report by pivottable's name. |
+| [get(number, number)](#get-number-number-)| Gets the PivotTable report by pivottable's position. |
 | [dispose()](#dispose--)| Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [add(string, string, string)](#add-string-string-string-)| Adds a new PivotTable. |
 | [add(string, string, string, boolean)](#add-string-string-string-boolean-)| Adds a new PivotTable. |
@@ -52,6 +54,41 @@ get(index: number) : PivotTable;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | number |  |
+
+**Returns**
+
+[PivotTable](../pivottable/)
+
+### get(string) {#get-string-}
+
+Gets the PivotTable report by pivottable's name.
+
+```javascript
+get(name: string) : PivotTable;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | string |  |
+
+**Returns**
+
+[PivotTable](../pivottable/)
+
+### get(number, number) {#get-number-number-}
+
+Gets the PivotTable report by pivottable's position.
+
+```javascript
+get(row: number, column: number) : PivotTable;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| row | number |  |
+| column | number |  |
 
 **Returns**
 

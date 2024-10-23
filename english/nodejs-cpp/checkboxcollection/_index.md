@@ -15,6 +15,15 @@ class CheckBoxCollection;
 ```
 
 
+### Example
+```javascript
+const { Workbook } = require("aspose.cells.node");
+
+var excel = new Workbook();
+var index = excel.getWorksheets().get(0).getCheckBoxes().add(15, 15, 20, 100);
+var checkBox = excel.getWorksheets().get(0).getCheckBoxes().get(index);
+checkBox.setText("Check Box 1");
+```
 ## Methods
 
 | Method | Description |

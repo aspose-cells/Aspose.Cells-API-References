@@ -19,6 +19,7 @@ class ConditionalFormattingIcon;
 
 | Method | Description |
 | --- | --- |
+| [getImageData()](#getImageData--)| Gets the icon set data. |
 | [getType()](#getType--)| Gets and sets the icon set type. |
 | [setType(IconSetType)](#setType-iconsettype-)| Gets and sets the icon set type. |
 | [getIndex()](#getIndex--)| Gets and sets the icon's index in the icon set. |
@@ -27,6 +28,19 @@ class ConditionalFormattingIcon;
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | static [getIconImageData(IconSetType, number)](#getIconImageData-iconsettype-number-)| Get the icon set data |
 
+
+### getImageData() {#getImageData--}
+
+Gets the icon set data.
+
+```javascript
+getImageData() : number[];
+```
+
+
+**Returns**
+
+number[]
 
 ### getType() {#getType--}
 

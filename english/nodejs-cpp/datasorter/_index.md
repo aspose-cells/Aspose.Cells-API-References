@@ -15,6 +15,33 @@ class DataSorter;
 ```
 
 
+### Example
+```javascript
+const { Workbook, CellArea, SortOrder } = require("aspose.cells.node");
+
+//Instantiate a new Workbook object.
+var workbook = new Workbook("input/DataSorter.xls");
+//Get the workbook datasorter object.
+var sorter = workbook.getDataSorter();
+//Set the first order for datasorter object.
+sorter.setOrder1(SortOrder.Descending);
+//Define the first key.
+sorter.setKey1(0);
+//Create a cells area (range).
+var ca = new CellArea();
+//Specify the start row index.
+ca.startRow = 0;
+//Specify the start column index.
+ca.startColumn = 0;
+//Specify the last row index.
+ca.endRow = 12;
+//Specify the last column index.
+ca.endColumn = 1;
+//Sort data in the specified data range (A1:B14)
+sorter.sort(workbook.getWorksheets().get(0).getCells(), ca);
+//Save the excel file.
+workbook.save("output/DataSorter.xls");
+```
 ## Methods
 
 | Method | Description |

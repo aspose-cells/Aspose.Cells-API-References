@@ -15,6 +15,15 @@ class VerticalPageBreak;
 ```
 
 
+### Example
+```javascript
+const { Workbook } = require("aspose.cells.node");
+
+var excel = new Workbook();
+//Add a pagebreak at G5
+excel.getWorksheets().get(0).getHorizontalPageBreaks().add("G5");
+excel.getWorksheets().get(0).getVerticalPageBreaks().add("G5");
+```
 ## Methods
 
 | Method | Description |

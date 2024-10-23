@@ -15,11 +15,19 @@ class ChartCollection;
 ```
 
 
+### Example
+```javascript
+const { Workbook } = require("aspose.cells.node");
+
+var workbook = new Workbook();
+var charts = workbook.getWorksheets().get(0).getCharts();
+```
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [get(number)](#get-number-)| Gets the [Chart](../chart/) element at the specified index. |
+| [get(string)](#get-string-)| Gets the chart by the name. |
 | [addFloatingChart(ChartType, number, number, number, number)](#addFloatingChart-charttype-number-number-number-number-)| Adds a chart to the collection. |
 | [add(ChartType, number, number, number, number)](#add-charttype-number-number-number-number-)| Adds a chart to the collection. |
 | [add(number[], string, boolean, number, number, number, number)](#add-numberarray-string-boolean-number-number-number-number-)| Adds a chart with preset template. |
@@ -46,6 +54,27 @@ get(index: number) : Chart;
 **Returns**
 
 The element at the specified index.
+
+### get(string) {#get-string-}
+
+Gets the chart by the name.
+
+```javascript
+get(name: string) : Chart;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | string | The chart name. |
+
+**Returns**
+
+The chart.
+
+**Remarks**
+
+The default chart name is null. So you have to explicitly set the name of the chart.
 
 ### addFloatingChart(ChartType, number, number, number, number) {#addFloatingChart-charttype-number-number-number-number-}
 

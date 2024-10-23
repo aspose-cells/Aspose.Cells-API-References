@@ -20,6 +20,7 @@ class ConnectionParameterCollection;
 | Method | Description |
 | --- | --- |
 | [get(number)](#get-number-)| Gets the [ConnectionParameter](../connectionparameter/) element at the specified index. |
+| [get(string)](#get-string-)| Gets the [ConnectionParameter](../connectionparameter/) element with the specified name. |
 | [set(ConnectionParameter, number)](#set-connectionparameter-number-)| Gets the [ConnectionParameter](../connectionparameter/) element at the specified index. |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
@@ -41,6 +42,23 @@ get(index: number) : ConnectionParameter;
 **Returns**
 
 The element at the specified index.
+
+### get(string) {#get-string-}
+
+Gets the [ConnectionParameter](../connectionparameter/) element with the specified name.
+
+```javascript
+get(connParamName: string) : ConnectionParameter;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connParamName | string | connection parameter name |
+
+**Returns**
+
+The element with the specified name.
 
 ### set(ConnectionParameter, number) {#set-connectionparameter-number-}
 

@@ -20,6 +20,7 @@ class PivotItemCollection;
 | Method | Description |
 | --- | --- |
 | [get(number)](#get-number-)| Gets the PivotItem Object at the specific index. |
+| [get(string)](#get-string-)| Gets the [PivotItem](../pivotitem/) by the specific name. |
 | [getCount()](#getCount--)| Gets the count of the pivot items. |
 | [getEnumerator()](#getEnumerator--)| Gets an enumerator over the elements in this collection in proper sequence. |
 | [swapItem(number, number)](#swapItem-number-number-)| Directly swap two items. |
@@ -38,6 +39,23 @@ get(index: number) : PivotItem;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | number |  |
+
+**Returns**
+
+[PivotItem](../pivotitem/)
+
+### get(string) {#get-string-}
+
+Gets the [PivotItem](../pivotitem/) by the specific name.
+
+```javascript
+get(itemValue: string) : PivotItem;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| itemValue | string |  |
 
 **Returns**
 

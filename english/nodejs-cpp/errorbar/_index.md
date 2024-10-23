@@ -15,6 +15,39 @@ class ErrorBar extends Line;
 ```
 
 
+### Example
+```javascript
+const { Workbook, ChartType, ErrorBarDisplayType, ErrorBarType } = require("aspose.cells.node");
+
+var workbook = new Workbook();
+var cells = workbook.getWorksheets().get(0).getCells();
+cells.get("a1").putValue(2);
+cells.get("a2").putValue(5);
+cells.get("a3").putValue(3);
+cells.get("a4").putValue(6);
+cells.get("b1").putValue(4);
+cells.get("b2").putValue(3);
+cells.get("b3").putValue(6);
+cells.get("b4").putValue(7);
+
+cells.get("C1").putValue("Q1");
+cells.get("C2").putValue("Q2");
+cells.get("C3").putValue("Y1");
+cells.get("C4").putValue("Y2");
+
+var chartIndex = workbook.getWorksheets().get(0).getCharts().add(ChartType.Column, 11, 0, 27, 10);
+var chart = workbook.getWorksheets().get(0).getCharts().get(chartIndex);
+chart.getNSeries().add("A1:B4", true);
+chart.getNSeries().setCategoryData("C1:C4");
+
+for (var i = 0; i < chart.getNSeries().getCount(); i++)
+{
+    var aseries = chart.getNSeries().get(i);
+    aseries.getXErrorBar().setDisplayType(ErrorBarDisplayType.Minus);
+    aseries.getXErrorBar().setType(ErrorBarType.FixedValue);
+    aseries.getXErrorBar().setAmount(5);
+}
+```
 ## Constructors
 
 | Name | Description |
@@ -60,8 +93,8 @@ class ErrorBar extends Line;
 | [setEndArrowWidth(MsoArrowheadWidth)](#setEndArrowWidth-msoarrowheadwidth-)| Specifies the width of the arrowhead for the end of a line. |
 | [getThemeColor()](#getThemeColor--)| Gets and sets the theme color. |
 | [setThemeColor(ThemeColor)](#setThemeColor-themecolor-)| Gets and sets the theme color. |
-| [getColor()](#getColor--)| Represents the [System.Drawing.Color](../system.drawing.color/) of the line. |
-| [setColor(Color)](#setColor-color-)| Represents the [System.Drawing.Color](../system.drawing.color/) of the line. |
+| [getColor()](#getColor--)| Represents the [Color](../color/) of the line. |
+| [setColor(Color)](#setColor-color-)| Represents the [Color](../color/) of the line. |
 | [getTransparency()](#getTransparency--)| Returns or sets the degree of transparency of the line as a value from 0.0 (opaque) through 1.0 (clear). |
 | [setTransparency(number)](#setTransparency-number-)| Returns or sets the degree of transparency of the line as a value from 0.0 (opaque) through 1.0 (clear). |
 | [getStyle()](#getStyle--)| Represents the style of the line. |
@@ -121,6 +154,40 @@ setType(value: ErrorBarType) : void;
 | --- | --- | --- |
 | value | [ErrorBarType](../errorbartype/) | The value to set. |
 
+**Example**
+```javascript
+const { Workbook, ChartType, ErrorBarType } = require("aspose.cells.node");
+
+var workbook = new Workbook();
+var cells = workbook.getWorksheets().get(0).getCells();
+cells.get("a1").putValue(2);
+cells.get("a2").putValue(5);
+cells.get("a3").putValue(3);
+cells.get("a4").putValue(6);
+cells.get("b1").putValue(4);
+cells.get("b2").putValue(3);
+cells.get("b3").putValue(6);
+cells.get("b4").putValue(7);
+
+cells.get("C1").putValue("Q1");
+cells.get("C2").putValue("Q2");
+cells.get("C3").putValue("Y1");
+cells.get("C4").putValue("Y2");
+
+var chartIndex = workbook.getWorksheets().get(0).getCharts().add(ChartType.Column, 11, 0, 27, 10);
+var chart = workbook.getWorksheets().get(0).getCharts().get(chartIndex);
+chart.getNSeries().add("A1:B4", true);
+chart.getNSeries().setCategoryData("C1:C4");
+
+for (var i = 0; i < chart.getNSeries().getCount(); i++)
+{
+    var aseries = chart.getNSeries().get(i);
+    //Sets custom error bar type
+    aseries.getXErrorBar().setType(ErrorBarType.Custom);
+    aseries.getXErrorBar().setPlusValue("=Sheet1!A1");
+    aseries.getXErrorBar().setMinusValue("=Sheet1!A2");
+}
+```
 ### getDisplayType() {#getDisplayType--}
 
 Represents the display type of error bar.
@@ -548,7 +615,7 @@ If the foreground color is not a theme color, NULL will be returned.
 
 ### getColor() {#getColor--}
 
-Represents the [System.Drawing.Color](../system.drawing.color/) of the line.
+Represents the [Color](../color/) of the line.
 
 ```javascript
 getColor() : Color;
@@ -561,7 +628,7 @@ getColor() : Color;
 
 ### setColor(Color) {#setColor-color-}
 
-Represents the [System.Drawing.Color](../system.drawing.color/) of the line.
+Represents the [Color](../color/) of the line.
 
 ```javascript
 setColor(value: Color) : void;

@@ -15,6 +15,45 @@ class ArcShape extends Shape;
 ```
 
 
+### Example
+```javascript
+const { Workbook, FillType, Color, PlacementType, MsoLineStyle, MsoLineDashStyle } = require("aspose.cells.node");
+
+//Instantiate a new Workbook.
+var excelbook = new Workbook();
+//Add an arc shape.
+var arc1 = excelbook.getWorksheets().get(0).getShapes().addArc(2, 0, 2, 0, 130, 130);
+//Set the placement of the arc.
+arc1.setPlacement(PlacementType.FreeFloating);
+//Set the fill format.
+var blue = new Color(0, 0, 0xff);
+arc1.getFill().setFillType(FillType.Solid)
+arc1.getFill().getSolidFill().setColor(blue);
+//Set the line style.
+arc1.getLine().setCompoundType(MsoLineStyle.Single);
+//Set the line weight.
+arc1.getLine().setWeight(2);
+//Set the color of the arc line.
+arc1.getLine().setFillType(FillType.Solid)
+arc1.getLine().getSolidFill().setColor(new Color(0xff, 0, 0));
+//Set the dash style of the arc.
+arc1.getLine().setDashStyle(MsoLineDashStyle.Solid);
+//Add another arc shape.
+var arc2 = excelbook.getWorksheets().get(0).getShapes().addArc(9, 0, 2, 0, 130, 130);
+//Set the placement of the arc.
+arc2.setPlacement(PlacementType.FreeFloating);
+//Set the line style.
+arc2.getLine().setCompoundType(MsoLineStyle.Single);
+//Set the line weight.
+arc2.getLine().setWeight(1);
+//Set the color of the arc line.
+arc2.getLine().setFillType(FillType.Solid);
+arc2.getLine().getSolidFill().setColor(blue);
+//Set the dash style of the arc.
+arc2.getLine().setDashStyle(MsoLineDashStyle.Solid);
+//Save the excel file.
+excelbook.save("output/DrawingArcShape.xls");
+```
 ## Constructors
 
 | Name | Description |
@@ -156,6 +195,10 @@ class ArcShape extends Shape;
 | [getActualLowerRightRow()](#getActualLowerRightRow--)| Get the actual bottom row. |
 | [getRelativeToOriginalPictureSize()](#getRelativeToOriginalPictureSize--)| Indicates whether shape is relative to original picture size. |
 | [setRelativeToOriginalPictureSize(boolean)](#setRelativeToOriginalPictureSize-boolean-)| Indicates whether shape is relative to original picture size. |
+| [getLinkedCell()](#getLinkedCell--)| Gets or sets the worksheet range linked to the control's value. |
+| [setLinkedCell(string)](#setLinkedCell-string-)| Gets or sets the worksheet range linked to the control's value. |
+| [getInputRange()](#getInputRange--)| Gets or sets the worksheet range used to fill the specified combo box. |
+| [setInputRange(string)](#setInputRange-string-)| Gets or sets the worksheet range used to fill the specified combo box. |
 | [getTextShapeType()](#getTextShapeType--)| Gets and sets the preset text shape type. |
 | [setTextShapeType(AutoShapeType)](#setTextShapeType-autoshapetype-)| Gets and sets the preset text shape type. |
 | [getTextBody()](#getTextBody--)| Gets and sets the setting of the shape's text. |
@@ -1790,6 +1833,50 @@ setRelativeToOriginalPictureSize(value: boolean) : void;
 | --- | --- | --- |
 | value | boolean | The value to set. |
 
+### getLinkedCell() {#getLinkedCell--}
+
+Gets or sets the worksheet range linked to the control's value.
+
+```javascript
+getLinkedCell() : string;
+```
+
+
+### setLinkedCell(string) {#setLinkedCell-string-}
+
+Gets or sets the worksheet range linked to the control's value.
+
+```javascript
+setLinkedCell(value: string) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | string | The value to set. |
+
+### getInputRange() {#getInputRange--}
+
+Gets or sets the worksheet range used to fill the specified combo box.
+
+```javascript
+getInputRange() : string;
+```
+
+
+### setInputRange(string) {#setInputRange-string-}
+
+Gets or sets the worksheet range used to fill the specified combo box.
+
+```javascript
+setInputRange(value: string) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | string | The value to set. |
+
 ### getTextShapeType() {#getTextShapeType--}
 
 Gets and sets the preset text shape type.
@@ -2328,7 +2415,7 @@ toImage(stream: Uint8Array, imageType: ImageType) : void;
 
 **Remarks**
 
-<p>The following formats are supported: .bmp, .gif, .jpg, .jpeg, .tiff, .emf.</p>
+The following formats are supported: .bmp, .gif, .jpg, .jpeg, .tiff, .emf.
 
 ### toImage(string, ImageOrPrintOptions) {#toImage-string-imageorprintoptions-}
 

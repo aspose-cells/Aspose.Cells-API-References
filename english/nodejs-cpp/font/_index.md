@@ -15,6 +15,30 @@ class Font;
 ```
 
 
+### Example
+```javascript
+const { Workbook, Color } = require("aspose.cells.node");
+
+//Instantiating a Workbook object
+var workbook = new Workbook();
+//Obtaining the reference of the newly added worksheet by passing its sheet index
+var worksheet = workbook.getWorksheets().get(0);
+//Accessing the "A1" cell from the worksheet
+var cell = worksheet.getCells().get("A1");
+//Adding some value to the "A1" cell
+cell.putValue("Hello Aspose!");
+var style = cell.getStyle();
+var font = style.getFont();
+//Setting the font name to "Times New Roman"
+font.setName("Times New Roman");
+//Setting font size to 14
+font.setSize(14);
+//setting font color as Red
+font.setColor(new Color(0xff, 0, 0));
+cell.setStyle(style);
+//Saving the Excel file
+workbook.save("output/Font.xls");
+```
 ## Methods
 
 | Method | Description |
@@ -45,8 +69,8 @@ class Font;
 | [setSize(number)](#setSize-number-)| Gets or sets the size of the font. |
 | [getThemeColor()](#getThemeColor--)| Gets and sets the theme color. |
 | [setThemeColor(ThemeColor)](#setThemeColor-themecolor-)| Gets and sets the theme color. |
-| [getColor()](#getColor--)| Gets or sets the [System.Drawing.Color](../system.drawing.color/) of the font. |
-| [setColor(Color)](#setColor-color-)| Gets or sets the [System.Drawing.Color](../system.drawing.color/) of the font. |
+| [getColor()](#getColor--)| Gets or sets the [Color](../color/) of the font. |
+| [setColor(Color)](#setColor-color-)| Gets or sets the [Color](../color/) of the font. |
 | [getArgbColor()](#getArgbColor--)| Gets and sets the color with a 32-bit ARGB value. |
 | [setArgbColor(number)](#setArgbColor-number-)| Gets and sets the color with a 32-bit ARGB value. |
 | [isNormalizeHeights()](#isNormalizeHeights--)| Indicates whether the normalization of height that is to be applied to the text run. |
@@ -372,7 +396,7 @@ If the font color is not a theme color, NULL will be returned.
 
 ### getColor() {#getColor--}
 
-Gets or sets the [System.Drawing.Color](../system.drawing.color/) of the font.
+Gets or sets the [Color](../color/) of the font.
 
 ```javascript
 getColor() : Color;
@@ -385,7 +409,7 @@ getColor() : Color;
 
 ### setColor(Color) {#setColor-color-}
 
-Gets or sets the [System.Drawing.Color](../system.drawing.color/) of the font.
+Gets or sets the [Color](../color/) of the font.
 
 ```javascript
 setColor(value: Color) : void;
@@ -523,4 +547,20 @@ setName(value: string) : void;
 | --- | --- | --- |
 | value | string | The value to set. |
 
+**Example**
+```javascript
+const { Workbook } = require("aspose.cells.node");
+
+var workbook = new Workbook();
+//Obtaining the reference of the newly added worksheet by passing its sheet index
+var worksheet = workbook.getWorksheets().get(0);
+//Accessing the "A1" cell from the worksheet
+var cell = worksheet.getCells().get("A1");
+//Adding some value to the "A1" cell
+cell.putValue("Hello Aspose!");
+var style = cell.getStyle();
+var font = style.getFont();
+font.setName("Times New Roman");
+cell.setStyle(style);
+```
 

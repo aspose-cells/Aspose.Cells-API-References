@@ -136,7 +136,7 @@ getName() : string;
 
 **Remarks**
 
-Named range is supported. For example, <p>range.Name = "Sheet1!MyRange";</p>
+Named range is supported. For example, <p>range.Name = "Sheet1!MyRange";
 
 ### setName(string) {#setName-string-}
 
@@ -153,7 +153,7 @@ setName(value: string) : void;
 
 **Remarks**
 
-Named range is supported. For example, <p>range.Name = "Sheet1!MyRange";</p>
+Named range is supported. For example, <p>range.Name = "Sheet1!MyRange";
 
 ### getRefersTo() {#getRefersTo--}
 

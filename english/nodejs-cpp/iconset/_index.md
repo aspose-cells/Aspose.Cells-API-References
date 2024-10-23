@@ -15,6 +15,46 @@ class IconSet;
 ```
 
 
+### Example
+```javascript
+const { Workbook, CellArea, FormatConditionType, IconSetType } = require("aspose.cells.node");
+
+//Instantiating a Workbook object
+var workbook = new Workbook();
+var sheet = workbook.getWorksheets().get(0);
+
+//Adds an empty conditional formatting
+var index = sheet.getConditionalFormattings().add();
+var fcs = sheet.getConditionalFormattings().get(index);
+//Sets the conditional format range.
+var ca = new CellArea();
+ca.startRow = 0;
+ca.endRow = 2;
+ca.startColumn = 0;
+ca.endColumn = 0;
+fcs.addArea(ca);
+
+//Adds condition.
+var idx = fcs.addCondition(FormatConditionType.IconSet);
+
+fcs.addArea(ca);
+var cond = fcs.get(idx);
+//Get Icon Set
+var iconSet = cond.getIconSet();
+//Set Icon Type
+iconSet.setType(IconSetType.Arrows3);
+
+//Put Cell Values
+var cell1 = sheet.getCells().get("A1");
+cell1.putValue(10);
+var cell2 = sheet.getCells().get("A2");
+cell2.putValue(120);
+var cell3 = sheet.getCells().get("A3");
+cell3.putValue(260);
+
+//Saving the Excel file
+workbook.save("output/IconSet.xlsx");
+```
 ## Methods
 
 | Method | Description |

@@ -26,6 +26,7 @@ class ThreadedCommentAuthorCollection;
 | Method | Description |
 | --- | --- |
 | [get(number)](#get-number-)| Gets the person who create threaded comments. |
+| [get(string)](#get-string-)| Gets the person who create threaded comments. |
 | [getCurrentPerson()](#getCurrentPerson--)| Gets and sets the current user. |
 | [setCurrentPerson(ThreadedCommentAuthor)](#setCurrentPerson-threadedcommentauthor-)| Gets and sets the current user. |
 | [indexOf(ThreadedCommentAuthor)](#indexOf-threadedcommentauthor-)| Gets the index of ThreadedCommentAuthor object |
@@ -55,6 +56,23 @@ get(index: number) : ThreadedCommentAuthor;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | number | The index |
+
+**Returns**
+
+[ThreadedCommentAuthor](../threadedcommentauthor/)
+
+### get(string) {#get-string-}
+
+Gets the person who create threaded comments.
+
+```javascript
+get(name: string) : ThreadedCommentAuthor;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | string | The name of the author. |
 
 **Returns**
 

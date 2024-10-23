@@ -15,6 +15,25 @@ class Title extends ChartTextFrame;
 ```
 
 
+### Example
+```javascript
+const { Workbook, Color, ChartType } = require("aspose.cells.node");
+
+var excel = new Workbook();
+var charts = excel.getWorksheets().get(0).getCharts();
+//Create a chart
+var chart = charts.get(charts.add(ChartType.Column, 1, 1, 10, 10));
+
+//Setting the title of a chart
+chart.getTitle().setText("Title");
+//Setting the font color of the chart title to blue
+var blue = new Color(0, 0, 255);
+chart.getTitle().getFont().setColor(blue);
+//Setting the title of category axis of the chart
+chart.getCategoryAxis().getTitle().setText("Category");
+//Setting the title of value axis of the chart
+chart.getValueAxis().getTitle().setText("Value");
+```
 ## Constructors
 
 | Name | Description |
@@ -479,7 +498,7 @@ getRotationAngle() : number;
 
 **Remarks**
 
-<br>0: Not rotated.</br> <br>255: Top to Bottom.</br> <br>-90: Downward.</br> <br>90: Upward.</br>
+br>0: Not rotated.</br> <br>255: Top to Bottom.</br> <br>-90: Downward.</br> <br>90: Upward.</br
 
 ### setRotationAngle(number) {#setRotationAngle-number-}
 
@@ -496,7 +515,7 @@ setRotationAngle(value: number) : void;
 
 **Remarks**
 
-<br>0: Not rotated.</br> <br>255: Top to Bottom.</br> <br>-90: Downward.</br> <br>90: Upward.</br>
+br>0: Not rotated.</br> <br>255: Top to Bottom.</br> <br>-90: Downward.</br> <br>90: Upward.</br
 
 ### isAutomaticRotation() {#isAutomaticRotation--}
 

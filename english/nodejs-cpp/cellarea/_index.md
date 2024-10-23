@@ -10,6 +10,19 @@ url: /nodejs-cpp/cellarea/
 Represent an area of cells.
 
 
+
+### Example
+```javascript
+const { CellArea } = require("aspose.cells.node");
+
+//Create Cell Area
+var ca = new CellArea();
+ca.startRow = 0;
+ca.endRow = 0;
+ca.startColumn = 0;
+ca.endColumn = 0;
+```
+
 ## Constructors
 
 | Name | Description |
@@ -88,3 +101,4 @@ static createCellArea(startCellName: string, endCellName: string) : CellArea;
 **Returns**
 
 [CellArea](../cellarea/)
+

@@ -94,7 +94,7 @@ constructor(saveFormat: SaveFormat);
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| saveFormat | [SaveFormat](../saveformat/) | The file format.         /// It should be [SaveFormat.Ods](../saveformat.ods/), [SaveFormat.Ods](../saveformat.ods/),         /// [SaveFormat.Ods](../saveformat.ods/) or [SaveFormat.Ods](../saveformat.ods/),         /// otherwise the saved format will be set as [SaveFormat.Ods](../saveformat.ods/) automatically. |
+| saveFormat | [SaveFormat](../saveformat/) | The file format.         /// It should be [SaveFormat.Ods](../saveformat.ods/), [SaveFormat.Ots](../saveformat.ots/),         /// [SaveFormat.Fods](../saveformat.fods/) or [SaveFormat.Sxc](../saveformat.sxc/),         /// otherwise the saved format will be set as [SaveFormat.Ods](../saveformat.ods/) automatically. |
 
 ### getGeneratorType() {#getGeneratorType--}
 

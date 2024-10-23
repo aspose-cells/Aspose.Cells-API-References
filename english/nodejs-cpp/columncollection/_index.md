@@ -15,6 +15,44 @@ class ColumnCollection;
 ```
 
 
+### Example
+```javascript
+const { Workbook, Color, BackgroundType, StyleFlag } = require("aspose.cells.node");
+
+//Instantiating a Workbook object
+var workbook = new Workbook();
+//Obtaining the reference of the first worksheet
+var worksheet = workbook.getWorksheets().get(0);
+//Add new Style to Workbook
+var style = workbook.createStyle();
+//Setting the background color to Blue
+style.setForegroundColor(new Color(0, 0, 0xff));
+//setting Background Pattern
+style.setPattern(BackgroundType.Solid);
+//New Style Flag
+var styleFlag = new StyleFlag();
+//Set All Styles
+styleFlag.setAll(true);
+
+//Change the default width of first ten columns
+for (var i = 0; i < 10; i++)
+{
+    worksheet.getCells().getColumns().get(i).setWidth(20);
+}
+
+//Get the Column with non default formatting
+var columns = worksheet.getCells().getColumns();
+var count = columns.getCount();
+for (var i = 0; i < count; i++)
+{
+    var column = columns.getColumnByIndex(i);
+    //Apply Style to first ten Columns
+    column.applyStyle(style, styleFlag);
+}
+
+//Saving the Excel file
+workbook.save("output/ColumnCollection.xls");
+```
 ## Methods
 
 | Method | Description |

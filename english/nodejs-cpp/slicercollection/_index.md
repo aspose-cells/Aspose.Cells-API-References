@@ -20,6 +20,7 @@ class SlicerCollection;
 | Method | Description |
 | --- | --- |
 | [get(number)](#get-number-)| Gets the Slicer by index. |
+| [get(string)](#get-string-)| Gets the Slicer  by slicer's name. |
 | [remove(Slicer)](#remove-slicer-)| Remove the specified Slicer |
 | [removeAt(number)](#removeAt-number-)| Deletes the Slicer at the specified index |
 | [clear()](#clear--)| Clear all Slicers. |
@@ -48,6 +49,23 @@ get(index: number) : Slicer;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | number |  |
+
+**Returns**
+
+[Slicer](../slicer/)
+
+### get(string) {#get-string-}
+
+Gets the Slicer  by slicer's name.
+
+```javascript
+get(name: string) : Slicer;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | string |  |
 
 **Returns**
 

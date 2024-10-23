@@ -15,6 +15,17 @@ class Validation;
 ```
 
 
+### Example
+```javascript
+const { Workbook, ValidationType, CellArea } = require("aspose.cells.node");
+
+var workbook = new Workbook();
+var validations = workbook.getWorksheets().get(0).getValidations();
+var area = CellArea.createCellArea(0, 0, 1, 1);
+var validation = validations.get(validations.add(area));
+validation.setType(ValidationType.List);
+validation.setFormula1("a,b,c,d");
+```
 ## Methods
 
 | Method | Description |
@@ -39,6 +50,10 @@ class Validation;
 | [setShowError(boolean)](#setShowError-boolean-)| Indicates whether the data validation error message will be displayed whenever the user enters invalid data. |
 | [getIgnoreBlank()](#getIgnoreBlank--)| Indicates whether blank values are permitted by the range data validation. |
 | [setIgnoreBlank(boolean)](#setIgnoreBlank-boolean-)| Indicates whether blank values are permitted by the range data validation. |
+| [getFormula1()](#getFormula1--)| Represents the value or expression associated with the data validation. |
+| [setFormula1(string)](#setFormula1-string-)| Represents the value or expression associated with the data validation. |
+| [getFormula2()](#getFormula2--)| Represents the value or expression associated with the data validation. |
+| [setFormula2(string)](#setFormula2-string-)| Represents the value or expression associated with the data validation. |
 | [getValue1()](#getValue1--)| Represents the first value associated with the data validation. |
 | [setValue1(object)](#setValue1-object-)| Represents the first value associated with the data validation. |
 | [getValue2()](#getValue2--)| Represents the second value associated with the data validation. |
@@ -295,6 +310,50 @@ setIgnoreBlank(value: boolean) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The value to set. |
+
+### getFormula1() {#getFormula1--}
+
+Represents the value or expression associated with the data validation.
+
+```javascript
+getFormula1() : string;
+```
+
+
+### setFormula1(string) {#setFormula1-string-}
+
+Represents the value or expression associated with the data validation.
+
+```javascript
+setFormula1(value: string) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | string | The value to set. |
+
+### getFormula2() {#getFormula2--}
+
+Represents the value or expression associated with the data validation.
+
+```javascript
+getFormula2() : string;
+```
+
+
+### setFormula2(string) {#setFormula2-string-}
+
+Represents the value or expression associated with the data validation.
+
+```javascript
+setFormula2(value: string) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | string | The value to set. |
 
 ### getValue1() {#getValue1--}
 

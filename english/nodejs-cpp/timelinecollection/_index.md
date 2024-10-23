@@ -20,6 +20,7 @@ class TimelineCollection;
 | Method | Description |
 | --- | --- |
 | [get(number)](#get-number-)| Gets the Timeline by index. |
+| [get(string)](#get-string-)| Gets the Timeline  by Timeline's name. |
 | [add(PivotTable, number, number, string)](#add-pivottable-number-number-string-)| Add a new Timeline using PivotTable as data source |
 | [add(PivotTable, string, string)](#add-pivottable-string-string-)| Add a new Timeline using PivotTable as data source |
 | [add(PivotTable, number, number, number)](#add-pivottable-number-number-number-)| Add a new Timeline using PivotTable as data source |
@@ -42,6 +43,23 @@ get(index: number) : Timeline;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | number |  |
+
+**Returns**
+
+[Timeline](../timeline/)
+
+### get(string) {#get-string-}
+
+Gets the Timeline  by Timeline's name.
+
+```javascript
+get(name: string) : Timeline;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | string |  |
 
 **Returns**
 

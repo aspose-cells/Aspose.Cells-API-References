@@ -15,6 +15,60 @@ class Trendline extends Line;
 ```
 
 
+### Example
+```javascript
+const { Workbook, ChartType, TrendlineType } = require("aspose.cells.node");
+
+//Instantiating a Workbook object
+var workbook = new Workbook();
+//Adding a new worksheet to the Excel object
+var sheetIndex = workbook.getWorksheets().add();
+//Obtaining the reference of the newly added worksheet by passing its sheet index
+var worksheet = workbook.getWorksheets().get(sheetIndex);
+//Adding a sample value to "A1" cell
+worksheet.getCells().get("A1").putValue(50);
+//Adding a sample value to "A2" cell
+worksheet.getCells().get("A2").putValue(100);
+//Adding a sample value to "A3" cell
+worksheet.getCells().get("A3").putValue(150);
+//Adding a sample value to "A4" cell
+worksheet.getCells().get("A4").putValue(200);
+//Adding a sample value to "B1" cell
+worksheet.getCells().get("B1").putValue(60);
+//Adding a sample value to "B2" cell
+worksheet.getCells().get("B2").putValue(32);
+//Adding a sample value to "B3" cell
+worksheet.getCells().get("B3").putValue(50);
+//Adding a sample value to "B4" cell
+worksheet.getCells().get("B4").putValue(40);
+//Adding a sample value to "C1" cell as category data
+worksheet.getCells().get("C1").putValue("Q1");
+//Adding a sample value to "C2" cell as category data
+worksheet.getCells().get("C2").putValue("Q2");
+//Adding a sample value to "C3" cell as category data
+worksheet.getCells().get("C3").putValue("Y1");
+//Adding a sample value to "C4" cell as category data
+worksheet.getCells().get("C4").putValue("Y2");
+//Adding a chart to the worksheet
+var chartIndex = worksheet.getCharts().add(ChartType.Column, 5, 0, 15, 5);
+//Accessing the instance of the newly added chart
+var chart = worksheet.getCharts().get(chartIndex);
+//Adding NSeries (chart data source) to the chart ranging from "A1" cell to "B4"
+chart.getNSeries().add("A1:B4", true);
+//Setting the data source for the category data of NSeries
+chart.getNSeries().setCategoryData("C1:C4");
+//adding a linear trendline
+var index = chart.getNSeries().get(0).getTrendLines().add(TrendlineType.Linear);
+var trendline = chart.getNSeries().get(0).getTrendLines().get(index);
+//Setting the custom name of the trendline.
+trendline.setName("Linear");
+//Displaying the equation on chart
+trendline.setDisplayEquation(true);
+//Displaying the R-Squared value on chart
+trendline.setDisplayRSquared(true);
+//Saving the Excel file
+workbook.save("output/ChartsTrendline.xls");
+```
 ## Constructors
 
 | Name | Description |
@@ -69,8 +123,8 @@ class Trendline extends Line;
 | [setEndArrowWidth(MsoArrowheadWidth)](#setEndArrowWidth-msoarrowheadwidth-)| Specifies the width of the arrowhead for the end of a line. |
 | [getThemeColor()](#getThemeColor--)| Gets and sets the theme color. |
 | [setThemeColor(ThemeColor)](#setThemeColor-themecolor-)| Gets and sets the theme color. |
-| [getColor()](#getColor--)| Represents the [System.Drawing.Color](../system.drawing.color/) of the line. |
-| [setColor(Color)](#setColor-color-)| Represents the [System.Drawing.Color](../system.drawing.color/) of the line. |
+| [getColor()](#getColor--)| Represents the [Color](../color/) of the line. |
+| [setColor(Color)](#setColor-color-)| Represents the [Color](../color/) of the line. |
 | [getTransparency()](#getTransparency--)| Returns or sets the degree of transparency of the line as a value from 0.0 (opaque) through 1.0 (clear). |
 | [setTransparency(number)](#setTransparency-number-)| Returns or sets the degree of transparency of the line as a value from 0.0 (opaque) through 1.0 (clear). |
 | [getStyle()](#getStyle--)| Represents the style of the line. |
@@ -654,7 +708,7 @@ If the foreground color is not a theme color, NULL will be returned.
 
 ### getColor() {#getColor--}
 
-Represents the [System.Drawing.Color](../system.drawing.color/) of the line.
+Represents the [Color](../color/) of the line.
 
 ```javascript
 getColor() : Color;
@@ -667,7 +721,7 @@ getColor() : Color;
 
 ### setColor(Color) {#setColor-color-}
 
-Represents the [System.Drawing.Color](../system.drawing.color/) of the line.
+Represents the [Color](../color/) of the line.
 
 ```javascript
 setColor(value: Color) : void;

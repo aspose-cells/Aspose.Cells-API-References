@@ -9,6 +9,16 @@ url: /nodejs-cpp/license/
 ## License class
 Provides methods to license the component.
 
+
+### Example
+In this example, an attempt will be made to find a license file named Aspose.Cells.lic in the input folder that contains the component, in the folder that contains the calling assembly,in the folder of the entry assembly and then in the embedded resources of the calling assembly.
+```javascript
+const { License } = require("aspose.cells.node");
+
+var license = new License();
+license.setLicense("input/Aspose.Cells.lic");
+```
+
 ## Constructors
 
 | Name | Description |
@@ -57,3 +67,4 @@ setLicense(stream: Uint8Array): void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | Uint8Array | A stream that contains the license. |
+

@@ -20,6 +20,7 @@ class PivotFieldCollection;
 | Method | Description |
 | --- | --- |
 | [get(number)](#get-number-)| Gets the PivotField Object at the specific index. |
+| [get(string)](#get-string-)| Gets the PivotField Object of the specific name. |
 | [getType()](#getType--)| Gets the PivotFields type. |
 | [getCount()](#getCount--)| Gets the count of the pivotFields. |
 | [getEnumerator()](#getEnumerator--)| Gets an enumerator over the elements in this collection in proper sequence. |
@@ -42,6 +43,23 @@ get(index: number) : PivotField;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | number |  |
+
+**Returns**
+
+[PivotField](../pivotfield/)
+
+### get(string) {#get-string-}
+
+Gets the PivotField Object of the specific name.
+
+```javascript
+get(name: string) : PivotField;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | string |  |
 
 **Returns**
 

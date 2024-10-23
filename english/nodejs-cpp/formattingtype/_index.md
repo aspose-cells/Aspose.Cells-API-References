@@ -1,13 +1,13 @@
 ﻿---
 title: FormattingType
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents the type of formatting applied to an Area..area object or a Area..area object.
+description: Represents the type of formatting applied to an Area..area object or a Line..line object.
 type: docs
 url: /nodejs-cpp/formattingtype/
 ---
 
 ## FormattingType enumeration
-Represents the type of formatting applied to an [Area](../area/) object or a [Area](../area/) object.
+Represents the type of formatting applied to an [Area](../area/) object or a [Line](../line/) object.
 ### Values
 | Name | Value | Description |
 | --- | --- | --- |

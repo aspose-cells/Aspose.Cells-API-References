@@ -20,6 +20,7 @@ class VbaModuleCollection;
 | Method | Description |
 | --- | --- |
 | [get(number)](#get-number-)| Gets [VbaModule](../vbamodule/) in the list by the index. |
+| [get(string)](#get-string-)| Gets [VbaModule](../vbamodule/) in the list by the name. |
 | [addDesignerStorage(string, number[])](#addDesignerStorage-string-numberarray-)|  |
 | [getDesignerStorage(string)](#getDesignerStorage-string-)| Represents the data of Designer. |
 | [add(Worksheet)](#add-worksheet-)| Adds module for a worksheet. |
@@ -43,6 +44,23 @@ get(index: number) : VbaModule;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | number | The index. |
+
+**Returns**
+
+[VbaModule](../vbamodule/)
+
+### get(string) {#get-string-}
+
+Gets [VbaModule](../vbamodule/) in the list by the name.
+
+```javascript
+get(name: string) : VbaModule;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | string | The name of module. |
 
 **Returns**
 

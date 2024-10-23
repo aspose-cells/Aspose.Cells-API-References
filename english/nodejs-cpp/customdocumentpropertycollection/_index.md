@@ -15,8 +15,18 @@ class CustomDocumentPropertyCollection extends DocumentPropertyCollection;
 ```
 
 ### Remarks
-<p>Each [DocumentProperty](../documentproperty/) object represents a custom property of a container document.</p>
+Each [DocumentProperty](../documentproperty/) object represents a custom property of a container document.
 
+### Example
+```javascript
+const { Workbook } = require("aspose.cells.node");
+
+//Instantiate a Workbook object
+var workbook = new Workbook("input/CustomProperties.xlsx");
+
+//Retrieve a list of all custom document properties of the Excel file
+var customProperties = workbook.getWorksheets().getCustomDocumentProperties();
+```
 ## Constructors
 
 | Name | Description |
@@ -35,7 +45,9 @@ class CustomDocumentPropertyCollection extends DocumentPropertyCollection;
 | [addLinkToContent(string, string)](#addLinkToContent-string-string-)| Creates a new custom document property which links to content. |
 | [updateLinkedPropertyValue()](#updateLinkedPropertyValue--)| Update custom document property value which links to content. |
 | [updateLinkedRange()](#updateLinkedRange--)| Update custom document property value to linked range. |
+| [getCount()](#getCount--)| Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+| [get(number)](#get-number-)| Returns a [DocumentProperty](../documentproperty/) object by index. |
 | [contains(string)](#contains-string-)| Returns true if a property with the specified name exists in the collection. |
 | [indexOf(string)](#indexOf-string-)| Gets the index of a property by name. |
 | [remove(string)](#remove-string-)| Removes a property with the specified name from the collection. |
@@ -182,6 +194,15 @@ updateLinkedRange() : void;
 ```
 
 
+### getCount() {#getCount--}
+
+Gets the number of elements contained in.
+
+```javascript
+getCount() : number;
+```
+
+
 ### isNull() {#isNull--}
 
 Checks whether the implementation object is null.
@@ -190,6 +211,23 @@ Checks whether the implementation object is null.
 isNull() : boolean;
 ```
 
+
+### get(number) {#get-number-}
+
+Returns a [DocumentProperty](../documentproperty/) object by index.
+
+```javascript
+get(index: number) : DocumentProperty;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | number | Zero-based index of the [DocumentProperty](../documentproperty/) to retrieve. |
+
+**Returns**
+
+[DocumentProperty](../documentproperty/)
 
 ### contains(string) {#contains-string-}
 
@@ -270,6 +308,6 @@ get(name: string) : DocumentProperty;
 
 **Remarks**
 
-<p>Returns null if a property with the specified name is not found.</p>
+Returns null if a property with the specified name is not found.
 
 

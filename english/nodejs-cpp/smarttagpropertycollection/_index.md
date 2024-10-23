@@ -26,6 +26,7 @@ class SmartTagPropertyCollection;
 | Method | Description |
 | --- | --- |
 | [get(number)](#get-number-)| Gets a [SmartTagProperty](../smarttagproperty/) object. |
+| [get(string)](#get-string-)| Gets a [SmartTagProperty](../smarttagproperty/) object by the name of the property. |
 | [add(string, string)](#add-string-string-)| Adds a property of cell's smart tag. |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
@@ -52,6 +53,23 @@ get(index: number) : SmartTagProperty;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | number | The index |
+
+**Returns**
+
+Returns a [SmartTagProperty](../smarttagproperty/) object.
+
+### get(string) {#get-string-}
+
+Gets a [SmartTagProperty](../smarttagproperty/) object by the name of the property.
+
+```javascript
+get(name: string) : SmartTagProperty;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | string | The name of the property. |
 
 **Returns**
 

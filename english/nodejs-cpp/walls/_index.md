@@ -39,10 +39,10 @@ class Walls extends Floor;
 | [getCubePointXPx(number)](#getCubePointXPx-number-)| Gets x-coordinate of the apex point of walls cube after calls Chart.Calculate() method. The number of apex points of walls cube is eight |
 | [getCubePointYPx(number)](#getCubePointYPx-number-)| Gets y-coordinate of the apex point of walls cube after calls Chart.Calculate() method. The number of apex points of walls cube is eight. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
-| [getBackgroundColor()](#getBackgroundColor--)| Gets or sets the background [System.Drawing.Color](../system.drawing.color/) of the [System.Drawing.Color](../system.drawing.color/). |
-| [setBackgroundColor(Color)](#setBackgroundColor-color-)| Gets or sets the background [System.Drawing.Color](../system.drawing.color/) of the [System.Drawing.Color](../system.drawing.color/). |
-| [getForegroundColor()](#getForegroundColor--)| Gets or sets the foreground [System.Drawing.Color](../system.drawing.color/). |
-| [setForegroundColor(Color)](#setForegroundColor-color-)| Gets or sets the foreground [System.Drawing.Color](../system.drawing.color/). |
+| [getBackgroundColor()](#getBackgroundColor--)| Gets or sets the background [Color](../color/) of the [Area](../area/). |
+| [setBackgroundColor(Color)](#setBackgroundColor-color-)| Gets or sets the background [Color](../color/) of the [Area](../area/). |
+| [getForegroundColor()](#getForegroundColor--)| Gets or sets the foreground [Color](../color/). |
+| [setForegroundColor(Color)](#setForegroundColor-color-)| Gets or sets the foreground [Color](../color/). |
 | [getFormatting()](#getFormatting--)| Represents the formatting of the area. |
 | [setFormatting(FormattingType)](#setFormatting-formattingtype-)| Represents the formatting of the area. |
 | [getInvertIfNegative()](#getInvertIfNegative--)| If the property is true and the value of chart point is a negative number, the foreground color and background color will be exchanged. |
@@ -203,7 +203,7 @@ isNull() : boolean;
 
 ### getBackgroundColor() {#getBackgroundColor--}
 
-Gets or sets the background [System.Drawing.Color](../system.drawing.color/) of the [System.Drawing.Color](../system.drawing.color/).
+Gets or sets the background [Color](../color/) of the [Area](../area/).
 
 ```javascript
 getBackgroundColor() : Color;
@@ -216,7 +216,7 @@ getBackgroundColor() : Color;
 
 ### setBackgroundColor(Color) {#setBackgroundColor-color-}
 
-Gets or sets the background [System.Drawing.Color](../system.drawing.color/) of the [System.Drawing.Color](../system.drawing.color/).
+Gets or sets the background [Color](../color/) of the [Area](../area/).
 
 ```javascript
 setBackgroundColor(value: Color) : void;
@@ -229,7 +229,7 @@ setBackgroundColor(value: Color) : void;
 
 ### getForegroundColor() {#getForegroundColor--}
 
-Gets or sets the foreground [System.Drawing.Color](../system.drawing.color/).
+Gets or sets the foreground [Color](../color/).
 
 ```javascript
 getForegroundColor() : Color;
@@ -242,7 +242,7 @@ getForegroundColor() : Color;
 
 ### setForegroundColor(Color) {#setForegroundColor-color-}
 
-Gets or sets the foreground [System.Drawing.Color](../system.drawing.color/).
+Gets or sets the foreground [Color](../color/).
 
 ```javascript
 setForegroundColor(value: Color) : void;

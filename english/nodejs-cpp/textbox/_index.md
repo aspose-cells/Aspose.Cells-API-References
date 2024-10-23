@@ -15,6 +15,58 @@ class TextBox extends Shape;
 ```
 
 
+### Example
+```javascript
+const { Workbook, PlacementType, Color, MsoLineStyle, MsoLineDashStyle } = require("aspose.cells.node");
+
+//Instantiate a new Workbook.
+var workbook = new Workbook();
+//Get the first worksheet in the book.
+var worksheet = workbook.getWorksheets().get(0);
+//Add a new textbox to the collection.
+var textboxIndex = worksheet.getTextBoxes().add(2, 1, 160, 200);
+//Get the textbox object.
+var textbox0 = worksheet.getTextBoxes().get(textboxIndex);
+//Fill the text.
+textbox0.setText("ASPOSE CELLS");
+//Set the textbox to adjust it according to its contents.
+textbox0.getTextBody().getTextAlignment().setAutoSize(true);
+//Set the placement.
+textbox0.setPlacement(PlacementType.FreeFloating);
+//Set the font color.
+textbox0.getFont().setColor(new Color(0, 0, 0xff));
+//Set the font to bold.
+textbox0.getFont().setIsBold(true);
+//Set the font size.
+textbox0.getFont().setSize(14);
+//Set font attribute to italic.
+textbox0.getFont().setIsItalic(true);
+//Add a hyperlink to the textbox.
+textbox0.addHyperlink("http://www.aspose.com/");
+//Get the filformat of the textbox.
+var fillformat = textbox0.getFill();
+//Set the fillcolor.
+fillformat.getSolidFill().setColor(new Color(0xc0, 0xc0, 0xc0));
+//Get the lineformat type of the textbox.
+var lineformat = textbox0.getLine();
+//Set the line style.
+lineformat.setCompoundType(MsoLineStyle.ThinThick);
+//Set the line weight.
+lineformat.setWeight(6);
+//Set the dash style to squaredot.
+lineformat.setDashStyle(MsoLineDashStyle.SquareDot);
+//Add another textbox.
+textboxIndex = worksheet.getTextBoxes().add(15, 4, 85, 120);
+//Get the second textbox.
+var textbox1 = worksheet.getTextBoxes().get(textboxIndex);
+//Input some text to it.
+textbox1.setText("This is another simple text box");
+//Set the placement type as the textbox will move and
+//resize with cells.
+textbox1.setPlacement(PlacementType.MoveAndSize);
+//Save the excel file.
+workbook.save("output/DrawingTextBox.xlsx");
+```
 ## Constructors
 
 | Name | Description |
@@ -158,6 +210,10 @@ class TextBox extends Shape;
 | [getActualLowerRightRow()](#getActualLowerRightRow--)| Get the actual bottom row. |
 | [getRelativeToOriginalPictureSize()](#getRelativeToOriginalPictureSize--)| Indicates whether shape is relative to original picture size. |
 | [setRelativeToOriginalPictureSize(boolean)](#setRelativeToOriginalPictureSize-boolean-)| Indicates whether shape is relative to original picture size. |
+| [getLinkedCell()](#getLinkedCell--)| Gets or sets the worksheet range linked to the control's value. |
+| [setLinkedCell(string)](#setLinkedCell-string-)| Gets or sets the worksheet range linked to the control's value. |
+| [getInputRange()](#getInputRange--)| Gets or sets the worksheet range used to fill the specified combo box. |
+| [setInputRange(string)](#setInputRange-string-)| Gets or sets the worksheet range used to fill the specified combo box. |
 | [getTextShapeType()](#getTextShapeType--)| Gets and sets the preset text shape type. |
 | [setTextShapeType(AutoShapeType)](#setTextShapeType-autoshapetype-)| Gets and sets the preset text shape type. |
 | [getTextBody()](#getTextBody--)| Gets and sets the setting of the shape's text. |
@@ -1822,6 +1878,50 @@ setRelativeToOriginalPictureSize(value: boolean) : void;
 | --- | --- | --- |
 | value | boolean | The value to set. |
 
+### getLinkedCell() {#getLinkedCell--}
+
+Gets or sets the worksheet range linked to the control's value.
+
+```javascript
+getLinkedCell() : string;
+```
+
+
+### setLinkedCell(string) {#setLinkedCell-string-}
+
+Gets or sets the worksheet range linked to the control's value.
+
+```javascript
+setLinkedCell(value: string) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | string | The value to set. |
+
+### getInputRange() {#getInputRange--}
+
+Gets or sets the worksheet range used to fill the specified combo box.
+
+```javascript
+getInputRange() : string;
+```
+
+
+### setInputRange(string) {#setInputRange-string-}
+
+Gets or sets the worksheet range used to fill the specified combo box.
+
+```javascript
+setInputRange(value: string) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | string | The value to set. |
+
 ### getTextShapeType() {#getTextShapeType--}
 
 Gets and sets the preset text shape type.
@@ -2360,7 +2460,7 @@ toImage(stream: Uint8Array, imageType: ImageType) : void;
 
 **Remarks**
 
-<p>The following formats are supported: .bmp, .gif, .jpg, .jpeg, .tiff, .emf.</p>
+The following formats are supported: .bmp, .gif, .jpg, .jpeg, .tiff, .emf.
 
 ### toImage(string, ImageOrPrintOptions) {#toImage-string-imageorprintoptions-}
 

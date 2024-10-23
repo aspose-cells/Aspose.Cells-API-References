@@ -26,6 +26,7 @@ class PowerQueryFormulaParameterCollection;
 | Method | Description |
 | --- | --- |
 | [get(number)](#get-number-)| Gets [ PowerQueryFormulaParameter](../ powerqueryformulaparameter/) by the index in the list. |
+| [get(string)](#get-string-)| Gets [ PowerQueryFormulaParameter](../ powerqueryformulaparameter/) by the name of the item. |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
@@ -51,6 +52,23 @@ get(index: number) : PowerQueryFormulaParameter;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | number | The index. |
+
+**Returns**
+
+[PowerQueryFormulaParameter](../powerqueryformulaparameter/)
+
+### get(string) {#get-string-}
+
+Gets [ PowerQueryFormulaParameter](../ powerqueryformulaparameter/) by the name of the item.
+
+```javascript
+get(name: string) : PowerQueryFormulaParameter;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | string | The name of the item. |
 
 **Returns**
 

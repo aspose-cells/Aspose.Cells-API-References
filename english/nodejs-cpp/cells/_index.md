@@ -1,25 +1,43 @@
 ﻿---
 title: Cells
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Encapsulates a collection of cell relevant objects such as Cell..cell Cell..cell ...etc.
+description: Encapsulates a collection of cell relevant objects such as Cell..cell Row..row ...etc.
 type: docs
 url: /nodejs-cpp/cells/
 ---
 
 ## Cells class
 
-Encapsulates a collection of cell relevant objects, such as [Cell](../cell/), [Cell](../cell/), ...etc.
+Encapsulates a collection of cell relevant objects, such as [Cell](../cell/), [Row](../row/), ...etc.
 
 ```javascript
 class Cells;
 ```
 
 
+### Example
+```javascript
+const { Workbook } = require("aspose.cells.node");
+
+var excel = new Workbook();
+var cells = excel.getWorksheets().get(0).getCells();
+//Set default row height
+cells.setStandardHeight(20);
+//Set row height
+cells.setRowHeight(2, 20.5);
+//Set default colum width
+cells.setStandardWidth(15);
+//Set column width
+cells.setColumnWidth(3, 12.57);
+//Merge cells
+cells.merge(5, 4, 2, 2);
+```
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [get(number, number)](#get-number-number-)| Gets the [Cell](../cell/) element at the specified cell row index and column index. |
+| [get(string)](#get-string-)| Gets the [Cell](../cell/) element at the specified cell name. |
 | [getOdsCellFields()](#getOdsCellFields--)| Gets the list of fields of ods. |
 | [getCount()](#getCount--)| Gets the total count of instantiated Cell objects. |
 | [getCountLarge()](#getCountLarge--)| Gets the total count of instantiated Cell objects. |
@@ -217,6 +235,39 @@ get(row: number, column: number) : Cell;
 
 The [Cell](../cell/) object.
 
+**Example**
+```javascript
+const { Workbook } = require("aspose.cells.node");
+
+var excel = new Workbook();
+var cells = excel.getWorksheets().get(0).getCells();
+var cell = cells.get(0, 0);    //Gets the cell at "A1"
+```
+### get(string) {#get-string-}
+
+Gets the [Cell](../cell/) element at the specified cell name.
+
+```javascript
+get(cellName: string) : Cell;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| cellName | string | Cell name,including its column letter and row number, for example A5. |
+
+**Returns**
+
+A [Cell](../cell/) object
+
+**Example**
+```javascript
+const { Workbook } = require("aspose.cells.node");
+
+var excel = new Workbook();
+var cells = excel.getWorksheets().get(0).getCells();
+var cell = cells.get("A1");    //Gets the cell at "A1"
+```
 ### getOdsCellFields() {#getOdsCellFields--}
 
 Gets the list of fields of ods.
@@ -272,7 +323,7 @@ getMultiThreadReading() : boolean;
 
 **Remarks**
 
-If there are multiple threads to read Row/Cell objects in this collection concurrently, this property should be set as true, otherwise unexpected result may be produced. Supporting Multi-Thread reading may degrade the performance for accessing Row/Cell objects from this collection. Please note, some features cannot support Multi-Thread reading, such as formatting values(by [Cell.StringValue](../cell.stringvalue/), [Cell.StringValue](../cell.stringvalue/), .etc.). So, even with this property being set as true, those APIs still may give unexpected result for Multi-Thread reading.
+If there are multiple threads to read Row/Cell objects in this collection concurrently, this property should be set as true, otherwise unexpected result may be produced. Supporting Multi-Thread reading may degrade the performance for accessing Row/Cell objects from this collection. Please note, some features cannot support Multi-Thread reading, such as formatting values(by [Cell.StringValue](../cell.stringvalue/), [Cell.DisplayStringValue](../cell.displaystringvalue/), .etc.). So, even with this property being set as true, those APIs still may give unexpected result for Multi-Thread reading.
 
 ### setMultiThreadReading(boolean) {#setMultiThreadReading-boolean-}
 
@@ -289,7 +340,7 @@ setMultiThreadReading(value: boolean) : void;
 
 **Remarks**
 
-If there are multiple threads to read Row/Cell objects in this collection concurrently, this property should be set as true, otherwise unexpected result may be produced. Supporting Multi-Thread reading may degrade the performance for accessing Row/Cell objects from this collection. Please note, some features cannot support Multi-Thread reading, such as formatting values(by [Cell.StringValue](../cell.stringvalue/), [Cell.StringValue](../cell.stringvalue/), .etc.). So, even with this property being set as true, those APIs still may give unexpected result for Multi-Thread reading.
+If there are multiple threads to read Row/Cell objects in this collection concurrently, this property should be set as true, otherwise unexpected result may be produced. Supporting Multi-Thread reading may degrade the performance for accessing Row/Cell objects from this collection. Please note, some features cannot support Multi-Thread reading, such as formatting values(by [Cell.StringValue](../cell.stringvalue/), [Cell.DisplayStringValue](../cell.displaystringvalue/), .etc.). So, even with this property being set as true, those APIs still may give unexpected result for Multi-Thread reading.
 
 ### getMemorySetting() {#getMemorySetting--}
 
