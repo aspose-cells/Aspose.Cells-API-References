@@ -203,6 +203,7 @@ chart.getNSeries().get(0).getArea().setBackgroundColor(new Color(0xff, 0xff, 0))
 //Saving the Excel file
 workbook.save("output/DrawingAreaInverseIfNegative.xls");
 ```
+
 ### getFillFormat() {#getFillFormat--}
 
 Represents a [FillFormat](../fillformat/) object that contains fill formatting properties for the specified chart or shape.

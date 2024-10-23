@@ -309,6 +309,7 @@ var workbook = new Workbook();
 var doc = workbook.getWorksheets().getBuiltInDocumentProperties().get("Author");
 doc.setValue("John Smith");
 ```
+
 ### getCustomDocumentProperties() {#getCustomDocumentProperties--}
 
 Returns a [DocumentProperty](../documentproperty/) collection that represents all the custom document properties of the spreadsheet.
@@ -329,6 +330,7 @@ const { Workbook } = require("aspose.cells.node");
 var excel = new Workbook();
 excel.getWorksheets().getCustomDocumentProperties().add("Checked by", "Jane");
 ```
+
 ### getOleSize() {#getOleSize--}
 
 Gets and Sets displayed size when Workbook file is used as an Ole object.
@@ -535,6 +537,7 @@ var chartIndex = charts.add(ChartType.Column, 10, 10, 20, 20);
 var chart = charts.get(chartIndex);
 chart.getNSeries().add("Sheet1!C2:C6", true);
 ```
+
 ### add() {#add--}
 
 Adds a worksheet to the collection.

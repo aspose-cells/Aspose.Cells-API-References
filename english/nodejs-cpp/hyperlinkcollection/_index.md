@@ -93,6 +93,7 @@ var worksheet = excel.getWorksheets().get(0);
 worksheet.getHyperlinks().add("A4", 1, 1, "http://www.aspose.com");
 worksheet.getHyperlinks().add("A5", 1, 1, "c:\\book1.xls");
 ```
+
 ### add(string, number, number, string) {#add-string-number-number-string-}
 
 Adds a hyperlink to a specified cell or a range of cells.

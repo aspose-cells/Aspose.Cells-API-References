@@ -279,6 +279,7 @@ chart.getNSeries().get(0).setName("=A1");
 //Set a string to name
 chart.getNSeries().get(0).setName("First Series");
 ```
+
 ### getDisplayName() {#getDisplayName--}
 
 Gets the series's name that displays on the chart graph.

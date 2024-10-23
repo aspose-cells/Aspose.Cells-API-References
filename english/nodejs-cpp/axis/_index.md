@@ -909,6 +909,7 @@ chart.getCategoryAxis().setCategoryType(CategoryType.TimeScale);
 chart.getCategoryAxis().setMajorUnitScale(TimeUnit.Months);
 chart.getCategoryAxis().setMajorUnit(2);
 ```
+
 ### getMinorUnitScale() {#getMinorUnitScale--}
 
 Represents the major unit scale for the category axis.
@@ -965,6 +966,7 @@ chart.getCategoryAxis().setCategoryType(CategoryType.TimeScale);
 chart.getCategoryAxis().setMinorUnitScale(TimeUnit.Months);
 chart.getCategoryAxis().setMinorUnit(2);
 ```
+
 ### isVisible() {#isVisible--}
 
 Represents if the axis is visible.
@@ -1029,6 +1031,7 @@ var chart = worksheet.getCharts().get(chartIndex);
 chart.getValueAxis().getMajorGridLines().setIsVisible(false);
 chart.getCategoryAxis().getMajorGridLines().setIsVisible(true);
 ```
+
 ### getMinorGridLines() {#getMinorGridLines--}
 
 Represents minor gridlines on a chart axis.

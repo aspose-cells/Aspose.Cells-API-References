@@ -389,6 +389,7 @@ var excel = new Workbook();
 var cells = excel.getWorksheets().get(0).getCells();
 cells.get("B6").setFormula("=SUM(B2:B5, E1) + sheet2!A1");
 ```
+
 ### getFormulaLocal() {#getFormulaLocal--}
 
 Get the locale formatted formula of the cell.
@@ -1102,6 +1103,7 @@ for (var i = 0; i < areas.getCount(); i++)
 }
 workbook.save("output/CellGetPrecedents.xls");
 ```
+
 ### getDependents(boolean) {#getDependents-boolean-}
 
 Get all cells whose formula references to this cell directly.
@@ -1380,6 +1382,7 @@ excel.getWorksheets().get(0).getCells().get("A1").putValue("Helloworld");
 excel.getWorksheets().get(0).getCells().get("A1").characters(5, 5).getFont().setIsBold(true);
 excel.getWorksheets().get(0).getCells().get("A1").characters(5, 5).getFont().setColor(new Color(0, 0, 0xff));
 ```
+
 ### replace(string, string, ReplaceOptions) {#replace-string-string-replaceoptions-}
 
 Replace text of the cell with options.

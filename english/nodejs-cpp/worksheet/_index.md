@@ -1762,6 +1762,7 @@ worksheet.protect(ProtectionType.All, "aspose", null);
 //Saving the modified Excel file in default (that is Excel 20003) format
 excel.save("output/WorksheetProtect.xls");
 ```
+
 ### unprotect() {#unprotect--}
 
 Unprotects worksheet.

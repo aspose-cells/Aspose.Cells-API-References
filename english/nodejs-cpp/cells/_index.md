@@ -243,6 +243,7 @@ var excel = new Workbook();
 var cells = excel.getWorksheets().get(0).getCells();
 var cell = cells.get(0, 0);    //Gets the cell at "A1"
 ```
+
 ### get(string) {#get-string-}
 
 Gets the [Cell](../cell/) element at the specified cell name.
@@ -268,6 +269,7 @@ var excel = new Workbook();
 var cells = excel.getWorksheets().get(0).getCells();
 var cell = cells.get("A1");    //Gets the cell at "A1"
 ```
+
 ### getOdsCellFields() {#getOdsCellFields--}
 
 Gets the list of fields of ods.

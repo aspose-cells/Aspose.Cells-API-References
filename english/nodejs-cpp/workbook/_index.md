@@ -159,12 +159,15 @@ constructor();
 The default file format type is Xlsx. If you want to create other types of files, please use Workbook(FileFormatType).
 
 **Example**
+
 The following code shows how to use the Workbook constructor to create and initialize a new instance of the class.
+
 ```javascript
 const { Workbook } = require("aspose.cells.node");
 
 var workbook = new Workbook();
 ```
+
 ### constructor(FileFormatType) {#constructor-fileformattype-}
 
 Initializes a new instance of the [Workbook](../workbook/) class.
@@ -183,12 +186,15 @@ constructor(fileFormatType: FileFormatType);
 The default file format type is Excel97To2003.
 
 **Example**
+
 The following code shows how to use the Workbook constructor to create and initialize a new instance of the class.
+
 ```javascript
 const { Workbook, FileFormatType } = require("aspose.cells.node");
 
 var workbook = new Workbook(FileFormatType.Xlsx);
 ```
+
 ### constructor(string) {#constructor-string-}
 
 Initializes a new instance of the [Workbook](../workbook/) class and open a file.
@@ -339,7 +345,9 @@ setDefaultStyle(value: Style) : void;
 The DefaultStyle property is useful to implement a Style for the whole Workbook.
 
 **Example**
+
 The following code creates and instantiates a new Workbook and sets a default Style to it.
+
 ```javascript
 const { Workbook } = require("aspose.cells.node");
 
@@ -348,6 +356,7 @@ var defaultStyle = workbook.getDefaultStyle();
 defaultStyle.getFont().setName("Tahoma");
 workbook.setDefaultStyle(defaultStyle);
 ```
+
 ### isDigitallySigned() {#isDigitallySigned--}
 
 Indicates if this spreadsheet is digitally signed.
@@ -474,6 +483,7 @@ var workbook = new Workbook();
 var doc = workbook.getBuiltInDocumentProperties().get("Author");
 doc.setValue("John Smith");
 ```
+
 ### getCustomDocumentProperties() {#getCustomDocumentProperties--}
 
 Returns a [DocumentProperty](../documentproperty/) collection that represents all the custom document properties of the spreadsheet.
@@ -494,6 +504,7 @@ const { Workbook } = require("aspose.cells.node");
 var excel = new Workbook();
 excel.getCustomDocumentProperties().add("Checked by", "Jane");
 ```
+
 ### getFileFormat() {#getFileFormat--}
 
 Gets and sets the file format.
@@ -717,6 +728,7 @@ var cells = sheets.get(0).getCells();
 cells.get("A1").putValue("Hello world!");
 workbook.save("output/WorkbookSaveFileFormatType.xls", SaveFormat.Excel97To2003);
 ```
+
 ### save(string) {#save-string-}
 
 Save the workbook to the disk.
@@ -868,6 +880,7 @@ const { Workbook } = require("aspose.cells.node");
 var workbook = new Workbook();
 workbook.replace("AnOldValue", "NewValue");
 ```
+
 ### replace(string, number) {#replace-string-number-}
 
 Replaces a cell's value with a new integer.
@@ -890,6 +903,7 @@ var workbook = new Workbook();
 var newValue = 100;
 workbook.replace("AnOldValue", newValue);
 ```
+
 ### replace(string, number) {#replace-string-number-}
 
 Replaces a cell's value with a new double.
@@ -912,6 +926,7 @@ var workbook = new Workbook();
 var newValue = 100.0;
 workbook.replace("AnOldValue", newValue);
 ```
+
 ### replace(string, string[], boolean) {#replace-string-stringarray-boolean-}
 
 Replaces a cell's value with a new string array.
@@ -937,6 +952,7 @@ workbook.replace("AnOldValue", newValues, true);
 
 workbook.save("output/ReplaceResult1.xls");
 ```
+
 ### replace(string, number[], boolean) {#replace-string-numberarray-boolean-}
 
 Replaces cells' values with an integer array.
@@ -962,6 +978,7 @@ workbook.replace("AnOldValue", newValues, true);
 
 workbook.save("output/ReplaceResult2.xls");
 ```
+
 ### replace(string, number[], boolean) {#replace-string-numberarray-boolean-}
 
 Replaces cells' values with a double array.
@@ -987,6 +1004,7 @@ workbook.replace("AnOldValue", newValues, true);
 
 workbook.save("output/ReplaceResult3.xls");
 ```
+
 ### replace(boolean, object) {#replace-boolean-object-}
 
 Replaces cells' values with new data.

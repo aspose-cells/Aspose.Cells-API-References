@@ -1288,7 +1288,9 @@ toImage(imageFile: string, options: ImageOrPrintOptions) : void;
 The format of the image is specified by using the extension of the file name. For example, if you specify "myfile.png", then the image will be saved in the PNG format. The following file extensions are recognized: .bmp, .gif, .png, .jpg, .jpeg, .tiff, .tif, .emf.</p> If the width or height is zero or the chart is not supported according to Supported Charts List, this method will do nothing. Please refer to <a href="http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html">Supported Charts List</a> for more details.
 
 **Example**
+
 Saves a chart to a png file with 400 x dpi and 300 y dpi.
+
 ```javascript
 const { Workbook, ImageOrPrintOptions } = require("aspose.cells.node");
 
@@ -1300,6 +1302,7 @@ options.setQuality(80);
 var book = new Workbook("input/Chart.xls");
 book.getWorksheets().get(0).getCharts().get(0).toImage("output/chart-r-400x300.png", options);
 ```
+
 ### toImage(ImageOrPrintOptions) {#toImage-imageorprintoptions-}
 
 Creates the chart image and saves it to a stream in the specified format.
@@ -1322,7 +1325,9 @@ The result stream
 The type of the image is specified by using <c>options.ImageType</c>. The following formats are supported: ImageType.Bmp, ImageType.Gif, ImageType.Png, ImageType.Jpeg, ImageType.Tiff, ImageType.Emf.</p> If the width or height is zero or the chart is not supported according to Supported Charts List, this method will do nothing. Please refer to <a href="http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html">Supported Charts List</a> for more details.
 
 **Example**
+
 Saves a chart to an Uint8Array in jpeg file format with 400 x dpi and 300 y dpi.
+
 ```javascript
 const fs = require("fs");
 const { Workbook, ImageOrPrintOptions, ImageType } = require("aspose.cells.node");
@@ -1337,6 +1342,7 @@ var uint8Array = book.getWorksheets().get(0).getCharts().get(0).toImage(options)
 const buffer = Buffer.from(uint8Array);
 fs.writeFileSync("output/chart-stream.jpg", buffer);
 ```
+
 ### toPdf(string) {#toPdf-string-}
 
 Saves the chart to a pdf file.

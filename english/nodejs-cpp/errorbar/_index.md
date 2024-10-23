@@ -188,6 +188,7 @@ for (var i = 0; i < chart.getNSeries().getCount(); i++)
     aseries.getXErrorBar().setMinusValue("=Sheet1!A2");
 }
 ```
+
 ### getDisplayType() {#getDisplayType--}
 
 Represents the display type of error bar.
