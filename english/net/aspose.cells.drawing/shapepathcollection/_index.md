@@ -54,6 +54,53 @@ public class ShapePathCollection : CollectionBase<ShapePath>
 | [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(ShapePath, int, int) |  |
 | [RemoveAt](../../aspose.cells/collectionbase-1/removeat/)(int) |  |
 
+### Examples
+
+```csharp
+[C#]
+
+namespace Demos
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing;
+    using System;
+
+    public class ShapePathCollectionDemo
+    {
+        public static void ShapePathCollectionExample()
+        {
+
+
+
+            // Instantiate a new Workbook
+            Workbook workbook = new Workbook("ShapePathCollectionExample_original.xlsx");
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            Shape customShape = worksheet.Shapes[0];
+            
+            // Access the ShapePathCollection of the arc shape
+            ShapePathCollection shapePaths = customShape.Paths;
+
+            if (shapePaths != null)
+            {
+                // Add a new path to the ShapePathCollection
+                int pathIndex = shapePaths.Add();
+
+                // Access the newly added ShapePath
+                ShapePath newPath = shapePaths[pathIndex];
+
+                // Display the count of paths in the ShapePathCollection
+                Console.WriteLine("Number of paths in the ShapePathCollection: " + shapePaths.Count);
+            }
+            
+
+            // Save the workbook
+            workbook.Save("ShapePathCollectionExample.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [CollectionBase&lt;T&gt;](../../aspose.cells/collectionbase-1/)

@@ -53,6 +53,54 @@ public class QueryTableCollection : CollectionBase<QueryTable>
 | [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(QueryTable, int, int) |  |
 | [RemoveAt](../../aspose.cells/collectionbase-1/removeat/)(int) |  |
 
+### Examples
+
+```csharp
+[C#]
+
+namespace Demos
+{
+    using Aspose.Cells;
+    using System;
+
+    public class QueryTableCollectionDemo
+    {
+        public static void QueryTableCollectionExample()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet in the workbook
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Access the QueryTableCollection of the worksheet
+            QueryTableCollection queryTables = worksheet.QueryTables;
+            
+            // Display the count of QueryTables in the worksheet
+            Console.WriteLine("Number of QueryTables: " + queryTables.Count);
+            
+            // Set the capacity of the QueryTableCollection
+            queryTables.Capacity = 10;
+            Console.WriteLine("Capacity of QueryTableCollection: " + queryTables.Capacity);
+            
+            // Assuming there is at least one QueryTable, access the first QueryTable
+            if (queryTables.Count > 0)
+            {
+                QueryTable queryTable = queryTables[0];
+                Console.WriteLine("First QueryTable accessed.");
+            }
+            else
+            {
+                Console.WriteLine("No QueryTables found in the worksheet.");
+            }
+            
+            // Save the workbook
+            workbook.Save("QueryTableCollectionExample.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [CollectionBase&lt;T&gt;](../collectionbase-1/)

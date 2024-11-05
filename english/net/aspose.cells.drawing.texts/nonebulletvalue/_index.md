@@ -25,6 +25,47 @@ public class NoneBulletValue : BulletValue
 | --- | --- |
 | override [Type](../../aspose.cells.drawing.texts/nonebulletvalue/type/) { get; } | Gets the type of the bullet's value. |
 
+### Examples
+
+```csharp
+[C#]
+
+namespace Demos
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing.Texts;
+    using System;
+
+    public class NoneBulletValueDemo
+    {
+        public static void NoneBulletValueExample()
+        {
+            // Create a new workbook and access the first worksheet
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Adding text to a cell
+            Cell cell = worksheet.Cells["A1"];
+            cell.PutValue("Sample text without bullet");
+
+            // Create a TextBox to apply bullet settings
+            Aspose.Cells.Drawing.TextBox textBox = worksheet.TextBoxes[worksheet.TextBoxes.Add(2, 1, 100, 400)];
+            textBox.Text = "This is a TextBox without bullet points";
+
+            // Create an instance of NoneBulletValue
+            NoneBulletValue noneBulletValue = new NoneBulletValue();
+
+            // Check the type of bullet (should be None)
+            BulletType bulletType = noneBulletValue.Type;
+            Console.WriteLine("Bullet Type: " + bulletType); // Output should be None
+
+            // Save the workbook to demonstrate the changes
+            workbook.Save("NoneBulletValueExample.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [BulletValue](../bulletvalue/)

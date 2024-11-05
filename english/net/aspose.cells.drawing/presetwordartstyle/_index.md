@@ -38,6 +38,41 @@ public enum PresetWordArtStyle
 | WordArtStyle19 | `19` | Pattern Fill - Blue, Accent 1, Light Downward Diagonal, Outline - Accent 1 |
 | WordArtStyle20 | `20` | Pattern Fill - Blue-Gray, Text 2, Dark Upward Diagonal, Hard Shadow - Text 2 |
 
+### Examples
+
+```csharp
+[C#]
+
+namespace Demos
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing;
+    using System;
+
+    public class PresetWordArtStyleDemo
+    {
+        public static void PresetWordArtStyleExample()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Access the shape collection of the worksheet
+            ShapeCollection shapes = worksheet.Shapes;
+            
+            // Add a WordArt shape with a specific preset style
+            // Parameters: style, text, upperLeftRow, top, upperLeftColumn, left, height, width
+            Shape wordArt = shapes.AddWordArt(PresetWordArtStyle.WordArtStyle2, "Hello Aspose!", 1, 0, 1, 0, 100, 400);
+            
+            // Save the workbook
+            workbook.Save("PresetWordArtStyleExample.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Cells.Drawing](../../aspose.cells.drawing/)

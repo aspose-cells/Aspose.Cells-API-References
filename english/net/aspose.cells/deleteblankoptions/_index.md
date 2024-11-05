@@ -31,6 +31,51 @@ public class DeleteBlankOptions : DeleteOptions
 | [StartIndex](../../aspose.cells/deleteblankoptions/startindex/) { get; set; } | Specifies the start row/column index of the range to check and delete blank rows/columns. |
 | [UpdateReference](../../aspose.cells/deleteoptions/updatereference/) { get; set; } | Indicates if update references in other worksheets.(Inherited from [`DeleteOptions`](../deleteoptions/).) |
 
+### Examples
+
+```csharp
+[C#]
+
+namespace Demos
+{
+    using Aspose.Cells;
+    using System;
+
+    public class DeleteBlankOptionsDemo
+    {
+        public static void DeleteBlankOptionsExample()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Populate the worksheet with some data
+            worksheet.Cells["A1"].PutValue("Data");
+            worksheet.Cells["A2"].PutValue("");
+            worksheet.Cells["A3"].PutValue("More Data");
+            worksheet.Cells["A4"].PutValue("");
+            worksheet.Cells["A5"].PutValue("Even More Data");
+
+            // Create an instance of DeleteBlankOptions
+            DeleteBlankOptions options = new DeleteBlankOptions
+            {
+                EmptyStringAsBlank = true,
+                EmptyFormulaValueAsBlank = false,
+                UpdateReference = true
+            };
+
+            // Delete blank rows based on the options
+            worksheet.Cells.DeleteBlankRows(options);
+
+            // Save the workbook
+            workbook.Save("DeleteBlankOptionsExample.xlsx");
+            workbook.Save("DeleteBlankOptionsExample.pdf");
+            return;
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [DeleteOptions](../deleteoptions/)

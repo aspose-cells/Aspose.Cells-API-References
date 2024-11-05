@@ -50,6 +50,53 @@ public enum LoadDataFilterOptions
 | OleObject | `268435456` | Load OleObjects |
 | Revision | `536870912` | Load revision logs |
 
+### Examples
+
+```csharp
+[C#]
+
+namespace Demos
+{
+    using Aspose.Cells;
+    using System;
+
+    public class LoadDataFilterOptionsDemo
+    {
+        public static void LoadDataFilterOptionsExample()
+        {
+            // Create a new LoadOptions instance
+            LoadOptions loadOptions = new LoadOptions();
+
+            // Create a custom LoadFilter implementation
+            loadOptions.LoadFilter = new CustomLoadFilter();
+
+            // Load the workbook with the specified load options
+            Workbook workbook = new Workbook("LoadDataFilterOptionsExample_original.xlsx", loadOptions);
+
+            // Save the workbook to verify the loaded data
+            workbook.Save("LoadDataFilterOptionsExample.xlsx");
+        }
+
+        // Custom LoadFilter implementation
+        private class CustomLoadFilter : LoadFilter
+        {
+            public override void StartSheet(Worksheet sheet)
+            {
+                // Apply different filter options based on the sheet name
+                if (sheet.Name == "Sheet1")
+                {
+                    LoadDataFilterOptions = LoadDataFilterOptions.All;
+                }
+                else
+                {
+                    LoadDataFilterOptions = LoadDataFilterOptions.Structure;
+                }
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Cells](../../aspose.cells/)

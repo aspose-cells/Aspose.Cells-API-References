@@ -20,6 +20,46 @@ public enum PdfCustomPropertiesExport
 | None | `0` | No custom properties are exported. |
 | Standard | `1` | Custom properties are exported as entries in Info dictionary. |
 
+### Examples
+
+```csharp
+[C#]
+
+namespace Demos
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Rendering;
+    using System;
+
+    public class PdfCustomPropertiesExportDemo
+    {
+        public static void PdfCustomPropertiesExportExample()
+        {
+            // Create a workbook and add some data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Hello Aspose");
+            worksheet.Cells["A2"].PutValue("This is a sample document");
+
+            // Set some custom properties
+            workbook.Worksheets.CustomDocumentProperties.Add("Author", "John Doe");
+            workbook.Worksheets.CustomDocumentProperties.Add("Subject", "Sample PDF Export");
+
+            // Create PDF save options
+            PdfSaveOptions saveOptions = new PdfSaveOptions();
+            
+            // Set the custom properties export option
+            saveOptions.CustomPropertiesExport = PdfCustomPropertiesExport.Standard;
+
+            // Save the workbook to PDF
+            workbook.Save("PdfCustomPropertiesExportExample.pdf", saveOptions);
+
+            return;
+        }
+    }
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Cells.Rendering](../../aspose.cells.rendering/)

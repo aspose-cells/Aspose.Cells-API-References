@@ -41,6 +41,51 @@ public class OdsSaveOptions : SaveOptions
 | [ValidateMergedAreas](../../aspose.cells/saveoptions/validatemergedareas/) { get; set; } | Indicates whether validate merged cells before saving the file.(Inherited from [`SaveOptions`](../saveoptions/).) |
 | [WarningCallback](../../aspose.cells/saveoptions/warningcallback/) { get; set; } | Gets or sets warning callback.(Inherited from [`SaveOptions`](../saveoptions/).) |
 
+### Examples
+
+```csharp
+[C#]
+
+namespace Demos
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Ods;
+    using System;
+
+    public class OdsSaveOptionsDemo
+    {
+        public static void OdsSaveOptionsExample()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Hello World");
+
+            // Create an instance of OdsSaveOptions
+            OdsSaveOptions saveOptions = new OdsSaveOptions();
+
+            // Setting properties
+            saveOptions.GeneratorType = OdsGeneratorType.LibreOffice;
+            saveOptions.IsStrictSchema11 = true;
+            saveOptions.OdfStrictVersion = OpenDocumentFormatVersionType.Odf12;
+            saveOptions.ClearData = false;
+            saveOptions.CachedFileFolder = @"C:\Temp";
+            saveOptions.ValidateMergedAreas = true;
+            saveOptions.MergeAreas = true;
+            saveOptions.SortNames = true;
+            saveOptions.SortExternalNames = true;
+            saveOptions.RefreshChartCache = true;
+            saveOptions.UpdateSmartArt = false;
+
+            // Save the workbook as ODS file with the specified options
+            workbook.Save("OdsSaveOptionsExample.ods", saveOptions);
+
+            return;
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [SaveOptions](../saveoptions/)

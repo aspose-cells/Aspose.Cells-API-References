@@ -68,6 +68,53 @@ public enum CountryCode
 | Qatar | `974` | Qatar |
 | Iran | `981` | Iran |
 
+### Examples
+
+```csharp
+[C#]
+
+namespace Demos
+{
+    using Aspose.Cells;
+    using System;
+
+    public class CountryCodeDemo
+    {
+        public static void CountryCodeExample()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Set the country code for the workbook
+            workbook.Settings.LanguageCode = CountryCode.USA;
+            workbook.Settings.Region = CountryCode.USA;
+
+            // Add some data to the worksheet
+            worksheet.Cells[0, 0].PutValue("Country");
+            worksheet.Cells[0, 1].PutValue("Code");
+
+            worksheet.Cells[1, 0].PutValue("United States");
+            worksheet.Cells[1, 1].PutValue((int)CountryCode.USA);
+
+            worksheet.Cells[2, 0].PutValue("Canada");
+            worksheet.Cells[2, 1].PutValue((int)CountryCode.Canada);
+
+            worksheet.Cells[3, 0].PutValue("France");
+            worksheet.Cells[3, 1].PutValue((int)CountryCode.France);
+
+            worksheet.Cells[4, 0].PutValue("Germany");
+            worksheet.Cells[4, 1].PutValue((int)CountryCode.Germany);
+
+            // Save the workbook
+            workbook.Save("CountryCodeExample.xlsx");
+            workbook.Save("CountryCodeExample.pdf");
+            return;
+        }
+    }
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Cells](../../aspose.cells/)

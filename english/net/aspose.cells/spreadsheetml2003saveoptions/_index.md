@@ -40,6 +40,55 @@ public class SpreadsheetML2003SaveOptions : SaveOptions
 | [ValidateMergedAreas](../../aspose.cells/saveoptions/validatemergedareas/) { get; set; } | Indicates whether validate merged cells before saving the file.(Inherited from [`SaveOptions`](../saveoptions/).) |
 | [WarningCallback](../../aspose.cells/saveoptions/warningcallback/) { get; set; } | Gets or sets warning callback.(Inherited from [`SaveOptions`](../saveoptions/).) |
 
+### Examples
+
+```csharp
+[C#]
+
+namespace Demos
+{
+    using Aspose.Cells;
+    using System;
+
+    public class SpreadsheetML2003SaveOptionsDemo
+    {
+        public static void SpreadsheetML2003SaveOptionsExample()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Fill some data into the worksheet
+            worksheet.Cells["A1"].PutValue("Hello");
+            worksheet.Cells["B1"].PutValue("World");
+            worksheet.Cells["A2"].PutValue(123);
+            worksheet.Cells["B2"].PutValue(456);
+
+            // Create an instance of SpreadsheetML2003SaveOptions
+            SpreadsheetML2003SaveOptions saveOptions = new SpreadsheetML2003SaveOptions();
+
+            // Set properties
+            saveOptions.IsIndentedFormatting = true;
+            saveOptions.LimitAsXls = false;
+            saveOptions.ExportColumnIndexOfCell = true;
+            saveOptions.ClearData = false;
+            saveOptions.CachedFileFolder = @"C:\Temp";
+            saveOptions.ValidateMergedAreas = true;
+            saveOptions.MergeAreas = true;
+            saveOptions.SortNames = true;
+            saveOptions.SortExternalNames = true;
+            saveOptions.RefreshChartCache = true;
+            saveOptions.UpdateSmartArt = false;
+
+            // Save the workbook with the specified save options
+            workbook.Save("SpreadsheetML2003Example.xml", saveOptions);
+
+            return;
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [SaveOptions](../saveoptions/)

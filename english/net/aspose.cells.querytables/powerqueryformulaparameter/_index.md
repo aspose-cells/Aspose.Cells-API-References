@@ -27,6 +27,62 @@ public class PowerQueryFormulaParameter
 | [ParameterDefinition](../../aspose.cells.querytables/powerqueryformulaparameter/parameterdefinition/) { get; } | Gets the definition of the parameter. |
 | [Value](../../aspose.cells.querytables/powerqueryformulaparameter/value/) { get; set; } | Gets the value of parameter. |
 
+### Examples
+
+```csharp
+[C#]
+
+namespace Demos
+{
+    using Aspose.Cells;
+    using Aspose.Cells.QueryTables;
+    using System;
+
+    public class PowerQueryFormulaParameterDemo
+    {
+        public static void PowerQueryFormulaParameterExample()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook("PowerQueryFormulaDemo_original.xlsx");
+
+            // Access the DataMashup property of the workbook
+            DataMashup dataMashup = workbook.DataMashup;
+
+            if (dataMashup != null)
+            {
+                // Access the PowerQueryFormulas property
+                PowerQueryFormulaCollection powerQueryFormulas = dataMashup.PowerQueryFormulas;
+
+                // Access the PowerQueryFormulaParameters property
+                PowerQueryFormulaParameterCollection powerQueryFormulaParameters = dataMashup.PowerQueryFormulaParameters;
+
+                // Example usage: Iterate through PowerQueryFormulas
+                foreach (PowerQueryFormula formula in powerQueryFormulas)
+                {
+                    Console.WriteLine(formula.Name);
+                }
+
+                // Example usage: Iterate through PowerQueryFormulaParameters
+                foreach (PowerQueryFormulaParameter para in powerQueryFormulaParameters)
+                {
+                    // Display the parameter details
+                    Console.WriteLine("Parameter Name: " + para.Name);
+                    Console.WriteLine("Parameter Value: " + para.Value);
+
+                    Console.WriteLine("Parameter Definition: " + para.ParameterDefinition);
+                }
+            }
+            
+
+            // Save the workbook
+            workbook.Save("PowerQueryFormulaParameterExample.xlsx");
+
+            return;
+        }
+    }
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Cells.QueryTables](../../aspose.cells.querytables/)

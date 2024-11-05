@@ -31,6 +31,41 @@ public enum PdfCompliance
 | PdfA3u | `10` | Pdf format compatible with PDF/A-3u(ISO 19005-3) |
 | PdfA3a | `11` | Pdf format compatible with PDF/A-3a(ISO 19005-3) |
 
+### Examples
+
+```csharp
+[C#]
+
+namespace Demos
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Rendering;
+    using System;
+
+    public class PdfComplianceDemo
+    {
+        public static void PdfComplianceExample()
+        {
+            // Creating a workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Aspose.Cells PDF Compliance Example");
+
+            // Setting PDF save options
+            PdfSaveOptions saveOptions = new PdfSaveOptions();
+
+            // Setting the compliance level to PDF/A-1b
+            saveOptions.Compliance = PdfCompliance.PdfA1b;
+
+            // Saving the workbook to PDF with the specified compliance level
+            workbook.Save("PdfComplianceExample.pdf", saveOptions);
+
+            Console.WriteLine("PDF generated with compliance level PDF/A-1b");
+        }
+    }
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Cells.Rendering](../../aspose.cells.rendering/)

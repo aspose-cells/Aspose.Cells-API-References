@@ -54,6 +54,75 @@ public class ConditionalFormattingValueCollection : CollectionBase<ConditionalFo
 | [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(ConditionalFormattingValue, int, int) |  |
 | [RemoveAt](../../aspose.cells/collectionbase-1/removeat/)(int) |  |
 
+### Examples
+
+```csharp
+[C#]
+
+namespace Demos
+{
+    using Aspose.Cells;
+    using System;
+
+    public class ConditionalFormattingValueCollectionDemo
+    {
+        public static void ConditionalFormattingValueCollectionExample()
+        {
+            // Instantiating a Workbook object
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Adds an empty conditional formatting
+            int index = sheet.ConditionalFormattings.Add();
+            FormatConditionCollection fcs = sheet.ConditionalFormattings[index];
+
+            // Sets the conditional format range
+            CellArea ca = new CellArea
+            {
+                StartRow = 0,
+                EndRow = 2,
+                StartColumn = 0,
+                EndColumn = 0
+            };
+            fcs.AddArea(ca);
+
+            // Adds condition
+            int conditionIndex = fcs.AddCondition(FormatConditionType.IconSet);
+            FormatCondition cond = fcs[conditionIndex];
+
+            // Get Icon Set
+            IconSet iconSet = cond.IconSet;
+
+            // Set Icon Type
+            iconSet.Type = IconSetType.Arrows3;
+
+            // Get the CFValueObjects instance
+            ConditionalFormattingValueCollection cfvos = iconSet.Cfvos;
+
+            // Add a new ConditionalFormattingValue to the collection
+            int cfvIndex = cfvos.Add(FormatConditionValueType.Number, "50");
+
+            // Access the newly added ConditionalFormattingValue
+            ConditionalFormattingValue cfv = cfvos[cfvIndex];
+
+            // Modify properties of the ConditionalFormattingValue
+            cfv.Value = 75;
+            cfv.Type = FormatConditionValueType.Percent;
+            cfv.IsGTE = true;
+
+            // Put Cell Values
+            sheet.Cells["A1"].PutValue(10);
+            sheet.Cells["A2"].PutValue(120);
+            sheet.Cells["A3"].PutValue(260);
+
+            // Saving the Excel file
+            workbook.Save("ConditionalFormattingValueCollectionExample.xlsx");
+            workbook.Save("ConditionalFormattingValueCollectionExample.pdf");
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [CollectionBase&lt;T&gt;](../collectionbase-1/)

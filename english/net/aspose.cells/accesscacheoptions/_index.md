@@ -33,6 +33,46 @@ public enum AccessCacheOptions
 
 For some features, accessing large dataset requires a lot of repeated and complicated operations such as search, calculation, ...etc and those operations will take a lot of extra time. For common situations, all dependent data remains unchanged during the access, so some caches can be built and used to improve the access performance. For this purpose, we provide this API so that user can specify which kind of data access needs to be optimized by possible caching mechanism.  Please note, for different options, different data set may be required to be "read-only". And performance of accessing data depends on many aspects, the use of caching mechanism does not guarantee that performance will be improved. For some situations, such as the dataset to be accessed is small, using cache may cause even more time because caching itself also needs certain extra time.
 
+### Examples
+
+```csharp
+[C#]
+
+namespace Demos
+{
+    using Aspose.Cells;
+    using System;
+
+    public class AccessCacheOptionsDemo
+    {
+        public static void AccessCacheOptionsExample()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Start access cache with specific options
+            workbook.StartAccessCache(AccessCacheOptions.PositionAndSize | AccessCacheOptions.CellsData);
+
+            // Perform some operations that benefit from caching
+            for (int i = 0; i < 10; i++)
+            {
+                for (int j = 0; j < 10; j++)
+                {
+                    worksheet.Cells[i, j].PutValue(i + j);
+                }
+            }
+
+            // Close access cache
+            workbook.CloseAccessCache(AccessCacheOptions.PositionAndSize | AccessCacheOptions.CellsData);
+
+            // Save the workbook
+            workbook.Save("AccessCacheOptionsExample.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Cells](../../aspose.cells/)

@@ -70,6 +70,56 @@ public class HtmlLoadOptions : AbstractTextLoadOptions
 | --- | --- |
 | [SetPaperSize](../../aspose.cells/loadoptions/setpapersize/)(PaperSizeType) | Sets the default print paper size from default printer's setting.(Inherited from [`LoadOptions`](../loadoptions/).) |
 
+### Examples
+
+```csharp
+[C#]
+
+namespace Demos
+{
+    using Aspose.Cells;
+    using System;
+    using System.IO;
+
+    public class HtmlLoadOptionsDemo
+    {
+        public static void HtmlLoadOptionsExample()
+        {
+            // Create an instance of HtmlLoadOptions
+            HtmlLoadOptions loadOptions = new HtmlLoadOptions();
+
+            loadOptions.LoadFormulas = true;
+            loadOptions.SupportDivTag = true;
+            loadOptions.DeleteRedundantSpaces = true;
+            loadOptions.AutoFitColsAndRows = true;
+            loadOptions.HasFormula = true;
+            loadOptions.Encoding = System.Text.Encoding.UTF8;
+            loadOptions.LoadStyleStrategy = TxtLoadStyleStrategy.None;
+            loadOptions.ConvertNumericData = true;
+            loadOptions.ConvertDateTimeData = true;
+            loadOptions.KeepPrecision = true;
+            loadOptions.ParsingFormulaOnOpen = true;
+            loadOptions.ParsingPivotCachedRecords = true;
+            loadOptions.IgnoreNotPrinted = true;
+            loadOptions.CheckDataValid = true;
+            loadOptions.CheckExcelRestriction = true;
+            loadOptions.KeepUnparsedData = true;
+            loadOptions.AutoFilter = true;
+            loadOptions.IgnoreUselessShapes = true;
+            loadOptions.PreservePaddingSpacesInFormula = true;
+
+            // Load an HTML file into a Workbook using the HtmlLoadOptions
+            Workbook workbook = new Workbook("HtmlLoadOptionsExample_original.html", loadOptions);
+
+            // Save the workbook to an Excel file
+            workbook.Save("HtmlLoadOptionsExample.xlsx");
+
+            return;
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [AbstractTextLoadOptions](../abstracttextloadoptions/)

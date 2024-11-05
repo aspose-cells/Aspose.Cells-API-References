@@ -69,6 +69,78 @@ public enum BuiltinStyleType
 | RowLevel | `1` |  |
 | ColumnLevel | `2` |  |
 
+### Examples
+
+```csharp
+[C#]
+
+namespace Demos
+{
+    using Aspose.Cells;
+    using System;
+
+    public class BuiltinStyleTypeDemo
+    {
+        public static void BuiltinStyleTypeExample()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Apply different built-in styles to cells
+            Style style;
+
+            // Apply Normal style
+            style = workbook.CreateBuiltinStyle(BuiltinStyleType.Normal);
+            worksheet.Cells["A1"].SetStyle(style);
+            worksheet.Cells["A1"].PutValue("Normal Style");
+
+            // Apply Title style
+            style = workbook.CreateBuiltinStyle(BuiltinStyleType.Title);
+            worksheet.Cells["A2"].SetStyle(style);
+            worksheet.Cells["A2"].PutValue("Title Style");
+
+            // Apply Header1 style
+            style = workbook.CreateBuiltinStyle(BuiltinStyleType.Header1);
+            worksheet.Cells["A3"].SetStyle(style);
+            worksheet.Cells["A3"].PutValue("Header1 Style");
+
+            // Apply Currency style
+            style = workbook.CreateBuiltinStyle(BuiltinStyleType.Currency);
+            worksheet.Cells["A4"].SetStyle(style);
+            worksheet.Cells["A4"].PutValue(1234.56);
+
+            // Apply Percent style
+            style = workbook.CreateBuiltinStyle(BuiltinStyleType.Percent);
+            worksheet.Cells["A5"].SetStyle(style);
+            worksheet.Cells["A5"].PutValue(0.56);
+
+            style = workbook.CreateBuiltinStyle(BuiltinStyleType.FortyPercentAccent1);
+            worksheet.Cells["A6"].SetStyle(style);
+            worksheet.Cells["A6"].PutValue(0.5555);
+
+            style = workbook.CreateBuiltinStyle(BuiltinStyleType.Accent1);
+            worksheet.Cells["A7"].SetStyle(style);
+            worksheet.Cells["A7"].PutValue(0.5555);
+
+
+            style = workbook.CreateBuiltinStyle(BuiltinStyleType.Hyperlink);
+            worksheet.Cells["A8"].SetStyle(style);
+            worksheet.Cells["A8"].PutValue(0.5555);
+
+            style = workbook.CreateBuiltinStyle(BuiltinStyleType.SixtyPercentAccent1);
+            worksheet.Cells["A8"].SetStyle(style);
+            worksheet.Cells["A8"].PutValue(0.5555);
+
+            // Save the workbook
+            workbook.Save("BuiltinStyleTypeExample.xlsx");
+            workbook.Save("BuiltinStyleTypeExample.pdf");
+            
+        }
+    }
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Cells](../../aspose.cells/)

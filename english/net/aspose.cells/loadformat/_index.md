@@ -45,6 +45,72 @@ public enum LoadFormat
 | Image | `254` | Image |
 | Json | `513` | Json |
 
+### Examples
+
+```csharp
+[C#]
+
+namespace Demos
+{
+    using Aspose.Cells;
+    using System;
+
+    public class LoadFormatDemo
+    {
+        public static void LoadFormatExample()
+        {
+            // Load an Excel file in different formats using Aspose.Cells
+            string[] filePaths = {
+                "LoadFormatDemo_original.xlsx",
+                "LoadFormatDemo_original.xls",
+                "LoadFormatDemo_original.csv",
+                "LoadFormatDemo_original.json"
+            };
+
+            foreach (var filePath in filePaths)
+            {
+                // Determine the load format based on file extension
+                LoadFormat loadFormat = GetLoadFormat(filePath);
+
+                // Create LoadOptions with the determined LoadFormat
+                LoadOptions loadOptions = new LoadOptions(loadFormat);
+
+                // Load the workbook with the specified load options
+                Workbook workbook = new Workbook(filePath, loadOptions);
+
+                // Perform some operations on the workbook
+                Console.WriteLine($"Loaded file: {filePath}");
+                Console.WriteLine($"Number of sheets: {workbook.Worksheets.Count}");
+
+                // Save the workbook to a new file
+                string outputFilePath = $"output_{System.IO.Path.GetFileName(filePath)}";
+                workbook.Save(outputFilePath);
+                Console.WriteLine($"Saved file as: {outputFilePath}");
+            }
+        }
+
+        private static LoadFormat GetLoadFormat(string filePath)
+        {
+            string extension = System.IO.Path.GetExtension(filePath).ToLower();
+            switch (extension)
+            {
+                case ".xlsx":
+                    return LoadFormat.Xlsx;
+                case ".xls":
+                    return LoadFormat.Excel97To2003;
+                case ".csv":
+                    return LoadFormat.Csv;
+                case ".json":
+                    return LoadFormat.Json;
+                default:
+                    return LoadFormat.Auto;
+            }
+        }
+    }
+
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Cells](../../aspose.cells/)

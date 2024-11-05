@@ -47,6 +47,61 @@ public enum MsoDrawingType
 | Timeline | `35` | Timeline |
 | Model3D | `36` | 3D Model |
 
+### Examples
+
+```csharp
+[C#]
+
+namespace Demos
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing;
+    using System;
+
+    public class MsoDrawingTypeDemo
+    {
+        public static void MsoDrawingTypeExample()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+
+            // Add a new worksheet to the workbook
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a rectangle shape to the worksheet
+            Shape rectangle = worksheet.Shapes.AddShape(MsoDrawingType.Rectangle, 2, 0, 2, 0, 100, 200);
+            rectangle.Name = "MyRectangle";
+            rectangle.AlternativeText = "This is a rectangle shape";
+
+            // Add an oval shape to the worksheet
+            Shape oval = worksheet.Shapes.AddShape(MsoDrawingType.Oval, 5, 0, 5, 0, 100, 200);
+            oval.Name = "MyOval";
+            oval.AlternativeText = "This is an oval shape";
+
+            // Add a line shape to the worksheet
+            Shape line = worksheet.Shapes.AddShape(MsoDrawingType.Line, 8, 0, 8, 0, 100, 200);
+            line.Name = "MyLine";
+            line.AlternativeText = "This is a line shape";
+
+            // Add a textbox shape to the worksheet
+            Shape textBox = worksheet.Shapes.AddShape(MsoDrawingType.TextBox, 11, 0, 11, 0, 100, 200);
+            textBox.Name = "MyTextBox";
+            textBox.AlternativeText = "This is a textbox shape";
+            textBox.Text = "Hello, Aspose.Cells!";
+
+            // Output the names and types of the shapes
+            foreach (Shape shape in worksheet.Shapes)
+            {
+                Console.WriteLine($"Shape Name: {shape.Name}, Shape Type: {shape.MsoDrawingType}");
+            }
+
+            // Save the workbook
+            workbook.Save("MsoDrawingTypeExample.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Cells.Drawing](../../aspose.cells.drawing/)

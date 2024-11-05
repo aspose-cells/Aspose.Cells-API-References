@@ -25,6 +25,40 @@ public class WorkbookPrintingPreview
 | --- | --- |
 | [EvaluatedPageCount](../../aspose.cells.rendering/workbookprintingpreview/evaluatedpagecount/) { get; } | Evaluate the total page count of this workbook |
 
+### Examples
+
+```csharp
+[C#]
+
+namespace Demos
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Rendering;
+    using System;
+
+    public class WorkbookPrintingPreviewDemo
+    {
+        public static void WorkbookPrintingPreviewExample()
+        {
+            // Load an existing workbook
+            Workbook workbook = new Workbook("WorkbookPrintingPreviewExample_original.xlsx");
+
+            // Create an instance of ImageOrPrintOptions
+            ImageOrPrintOptions options = new ImageOrPrintOptions();
+
+            // Create an instance of WorkbookPrintingPreview
+            WorkbookPrintingPreview workbookPrintingPreview = new WorkbookPrintingPreview(workbook, options);
+
+            // Evaluate the total page count of the workbook
+            int pageCount = workbookPrintingPreview.EvaluatedPageCount;
+
+            // Print the evaluated page count
+            Console.WriteLine("Total Page Count: " + pageCount);
+        }
+    }
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Cells.Rendering](../../aspose.cells.rendering/)

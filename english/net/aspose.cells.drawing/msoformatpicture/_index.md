@@ -40,6 +40,57 @@ public class MsoFormatPicture
 | override [Equals](../../aspose.cells.drawing/msoformatpicture/equals/)(object) |  |
 | override [GetHashCode](../../aspose.cells.drawing/msoformatpicture/gethashcode/)() | Gets the hash code. |
 
+### Examples
+
+```csharp
+[C#]
+
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using System;
+using System.Drawing;
+
+namespace Demos
+{
+    public class MsoFormatPictureDemo
+    {
+        public static void RunDemo()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Add a picture to the worksheet
+            int pictureIndex = sheet.Pictures.Add(5, 5, "MsoFormatPictureDemo.jpg");
+            Picture picture = sheet.Pictures[pictureIndex];
+
+            // Access the MsoFormatPicture object
+            MsoFormatPicture formatPicture = picture.FormatPicture;
+
+            // Set properties of MsoFormatPicture
+            formatPicture.TopCropInch = 0.5;
+            formatPicture.BottomCropInch = 0.5;
+            formatPicture.LeftCropInch = 0.5;
+            formatPicture.RightCropInch = 0.5;
+            formatPicture.Transparency = 0.5;
+            formatPicture.Contrast = 0.8;
+            formatPicture.Brightness = 0.6;
+            formatPicture.Gamma = 1.0;
+            formatPicture.IsBiLevel = false;
+            formatPicture.IsGray = false;
+
+            // Set the transparent color
+            CellsColor transparentColor = workbook.CreateCellsColor();
+            transparentColor.Color = Color.White;
+            formatPicture.TransparentColor = transparentColor;
+
+            // Save the workbook
+            workbook.Save("MsoFormatPictureDemo.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Cells.Drawing](../../aspose.cells.drawing/)

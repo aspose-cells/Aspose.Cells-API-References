@@ -58,6 +58,49 @@ public class JsonLoadOptions : LoadOptions
 | --- | --- |
 | [SetPaperSize](../../aspose.cells/loadoptions/setpapersize/)(PaperSizeType) | Sets the default print paper size from default printer's setting.(Inherited from [`LoadOptions`](../loadoptions/).) |
 
+### Examples
+
+```csharp
+[C#]
+
+using Aspose.Cells;
+using Aspose.Cells.Utility;
+using System;
+
+namespace Demos
+{
+    public class JsonLoadOptionsDemo
+    {
+        public static void JsonLoadOptionsExample()
+        {
+            // Create an instance of JsonLoadOptions
+            JsonLoadOptions jsonLoadOptions = new JsonLoadOptions
+            {
+                StartCell = "A1",
+                MultipleWorksheets = true,
+                KeptSchema = true,
+                LayoutOptions = new JsonLayoutOptions
+                {
+                    ArrayAsTable = true,
+                    IgnoreNull = false,
+                    IgnoreTitle = false,
+                    ConvertNumericOrDate = true,
+                    NumberFormat = "0.00",
+                    DateFormat = "yyyy-MM-dd"
+                }
+            };
+
+            // Load JSON data into a Workbook
+            string jsonFilePath = "JsonLoadOptionsExample_data.json";
+            Workbook workbook = new Workbook(jsonFilePath, jsonLoadOptions);
+
+            // Save the workbook to an Excel file
+            workbook.Save("JsonLoadOptionsExample.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [LoadOptions](../loadoptions/)

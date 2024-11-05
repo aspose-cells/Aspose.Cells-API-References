@@ -80,6 +80,63 @@ public enum TableStyleType
 | TableStyleDark11 | `60` |  |
 | Custom | `61` |  |
 
+### Examples
+
+```csharp
+[C#]
+
+namespace Demos
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Tables;
+    using System;
+
+    public class TableStyleTypeDemo
+    {
+        public static void TableStyleTypeExample()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+
+            // Add a new worksheet to the workbook
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data to the worksheet
+            worksheet.Cells["A1"].PutValue("Name");
+            worksheet.Cells["A2"].PutValue("John");
+            worksheet.Cells["A3"].PutValue("Jane");
+            worksheet.Cells["A4"].PutValue("Doe");
+
+            worksheet.Cells["B1"].PutValue("Age");
+            worksheet.Cells["B2"].PutValue(30);
+            worksheet.Cells["B3"].PutValue(25);
+            worksheet.Cells["B4"].PutValue(35);
+
+            // Create a ListObject (table) in the worksheet
+            int listObjectIndex = worksheet.ListObjects.Add(1, 0, 4, 1, true);
+            ListObject listObject = worksheet.ListObjects[listObjectIndex];
+
+            // Set the table style type
+            listObject.TableStyleType = TableStyleType.TableStyleMedium2;
+
+            // Set additional properties for the table
+            listObject.ShowHeaderRow = true;
+            listObject.ShowTotals = true;
+            listObject.ShowTableStyleFirstColumn = true;
+            listObject.ShowTableStyleLastColumn = true;
+            listObject.ShowTableStyleRowStripes = true;
+            listObject.ShowTableStyleColumnStripes = true;
+
+            // Save the workbook
+            workbook.Save("TableStyleTypeExample.xlsx");
+
+            // Output the table style type
+            Console.WriteLine("Table Style Type: " + listObject.TableStyleType);
+        }
+    }
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Cells.Tables](../../aspose.cells.tables/)

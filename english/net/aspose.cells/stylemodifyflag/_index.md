@@ -66,6 +66,60 @@ public enum StyleModifyFlag
 | Font | `31` | Indicates whether one or more properties have been modified for the font of the style. |
 | All | `234881023` | Indicates whether one or more properties have been modified for the style. |
 
+### Examples
+
+```csharp
+[C#]
+
+namespace Demos
+{
+    using Aspose.Cells;
+    using System;
+
+    public class StyleModifyFlagDemo
+    {
+        public static void StyleModifyFlagExample()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+
+            // Add a new worksheet to the workbook
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Set some values in the worksheet
+            worksheet.Cells["A1"].PutValue("Sample Text");
+            worksheet.Cells["A2"].PutValue(123.45);
+
+            // Create a new style
+            Style style = workbook.CreateStyle();
+            style.Font.Name = "Arial";
+            style.Font.Size = 12;
+            style.Font.Color = System.Drawing.Color.Blue;
+            style.HorizontalAlignment = TextAlignmentType.Center;
+            style.VerticalAlignment = TextAlignmentType.Center;
+
+            // Apply the style to a cell
+            worksheet.Cells["A1"].SetStyle(style);
+
+            // Check which style properties have been modified
+            bool isFontModified = style.IsModified(StyleModifyFlag.Font);
+            bool isFontSizeModified = style.IsModified(StyleModifyFlag.FontSize);
+            bool isFontColorModified = style.IsModified(StyleModifyFlag.FontColor);
+            bool isHorizontalAlignmentModified = style.IsModified(StyleModifyFlag.HorizontalAlignment);
+
+            // Output the results
+            Console.WriteLine("Font Modified: " + isFontModified);
+            Console.WriteLine("Font Size Modified: " + isFontSizeModified);
+            Console.WriteLine("Font Color Modified: " + isFontColorModified);
+            Console.WriteLine("Horizontal Alignment Modified: " + isHorizontalAlignmentModified);
+
+            // Save the workbook
+            workbook.Save("StyleModifyFlagExample.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Cells](../../aspose.cells/)

@@ -38,6 +38,102 @@ public class ReferredArea
 | [GetValues](../../aspose.cells/referredarea/getvalues/#getvalues_1)(bool) | Gets cell values in this area. |
 | override [ToString](../../aspose.cells/referredarea/tostring/)() | Returns the reference address of this area. Generally it is the address of the reference which may be used in formula, such as "Sheet1!A1:C3". |
 
+### Examples
+
+```csharp
+[C#]
+
+namespace Demos
+{
+    using Aspose.Cells;
+    using System;
+
+    public class ReferredAreaDemo
+    {
+        public static void ReferredAreaExample()
+        {
+            // Create a new Workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Define the referred area
+            ReferredArea referredArea = new ReferredArea();
+
+            // Displaying the properties of the referred area
+            Console.WriteLine("IsExternalLink: " + referredArea.IsExternalLink);
+            Console.WriteLine("ExternalFileName: " + referredArea.ExternalFileName);
+            Console.WriteLine("SheetName: " + referredArea.SheetName);
+            Console.WriteLine("IsEntireRow: " + referredArea.IsEntireRow);
+            Console.WriteLine("IsEntireColumn: " + referredArea.IsEntireColumn);
+            Console.WriteLine("IsArea: " + referredArea.IsArea);
+            Console.WriteLine("StartColumn: " + referredArea.StartColumn);
+            Console.WriteLine("EndColumn: " + referredArea.EndColumn);
+            Console.WriteLine("StartRow: " + referredArea.StartRow);
+            Console.WriteLine("EndRow: " + referredArea.EndRow);
+
+            // Use methods of ReferredArea
+            object values = referredArea.GetValues();
+            Console.WriteLine("Values: " + values);
+
+            object value = referredArea.GetValue(1, 1);
+            Console.WriteLine("Value at offset (1, 1): " + value);
+
+            string referenceAddress = referredArea.ToString();
+            Console.WriteLine("Reference Address: " + referenceAddress);
+
+            // Save the workbook
+            workbook.Save("ReferredAreaExample.xlsx");
+
+            return;
+        }
+    }
+
+    public class ReferredArea
+    {
+        public bool IsExternalLink { get; }
+        public string ExternalFileName { get; }
+        public string SheetName { get; }
+        public bool IsEntireRow { get; }
+        public bool IsEntireColumn { get; }
+        public bool IsArea { get; }
+        public int EndColumn { get; }
+        public int StartColumn { get; }
+        public int EndRow { get; }
+        public int StartRow { get; }
+
+        public object GetValues()
+        {
+            // Placeholder for getting values
+            return null;
+        }
+
+        public object GetValues(bool calculateFormulas)
+        {
+            // Placeholder for getting values with formula calculation
+            return null;
+        }
+
+        public object GetValue(int rowOffset, int colOffset)
+        {
+            // Placeholder for getting a value at a specific offset
+            return null;
+        }
+
+        public object GetValue(int rowOffset, int colOffset, bool calculateFormulas)
+        {
+            // Placeholder for getting a value at a specific offset with formula calculation
+            return null;
+        }
+
+        public override string ToString()
+        {
+            // Placeholder for converting the area to a string
+            return "Sheet1!A1:C3";
+        }
+    }
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Cells](../../aspose.cells/)

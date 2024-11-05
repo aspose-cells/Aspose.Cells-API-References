@@ -48,6 +48,61 @@ public abstract class PaginatedSaveOptions : SaveOptions
 | [ValidateMergedAreas](../../aspose.cells/saveoptions/validatemergedareas/) { get; set; } | Indicates whether validate merged cells before saving the file.(Inherited from [`SaveOptions`](../saveoptions/).) |
 | [WarningCallback](../../aspose.cells/saveoptions/warningcallback/) { get; set; } | Gets or sets warning callback.(Inherited from [`SaveOptions`](../saveoptions/).) |
 
+### Examples
+
+```csharp
+[C#]
+
+namespace Demos
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Rendering;
+    using System;
+
+    public class PaginatedSaveOptionsDemo
+    {
+        public static void PaginatedSaveOptionsExample()
+        {
+            // Open an Excel file
+            Workbook workbook = new Workbook("PaginatedSaveOptionsExample_original.xlsx");
+
+            // Create an instance of PaginatedSaveOptions
+            PdfSaveOptions options = new PdfSaveOptions();
+
+            // Setting properties
+            options.DefaultFont = "Arial";
+            options.CheckWorkbookDefaultFont = true;
+            options.CheckFontCompatibility = true;
+            options.IsFontSubstitutionCharGranularity = true;
+            options.OnePagePerSheet = false;
+            options.AllColumnsInOnePagePerSheet = false;
+            options.IgnoreError = true;
+            options.OutputBlankPageWhenNothingToPrint = false;
+            options.PageIndex = 3; // Starting page index (0-based index)
+            options.PageCount = 2; // Number of pages to be printed
+            options.PrintingPageType = PrintingPageType.IgnoreBlank;
+            options.GridlineType = GridlineType.Dotted;
+            options.TextCrossType = TextCrossType.CrossKeep;
+            options.DefaultEditLanguage = DefaultEditLanguage.English;
+            options.SheetSet = new SheetSet(new int[] { workbook.Worksheets.ActiveSheetIndex });
+            options.ClearData = false;
+            options.CachedFileFolder = "C:\\Temp";
+            options.ValidateMergedAreas = true;
+            options.MergeAreas = true;
+            options.SortNames = true;
+            options.SortExternalNames = true;
+            options.RefreshChartCache = true;
+            options.UpdateSmartArt = false;
+
+            // Save the PDF file
+            workbook.Save("PaginatedSaveOptionsExample.pdf", options);
+
+            return;
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [SaveOptions](../saveoptions/)

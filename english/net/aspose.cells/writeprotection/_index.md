@@ -34,6 +34,55 @@ public class WriteProtection
 | --- | --- |
 | [ValidatePassword](../../aspose.cells/writeprotection/validatepassword/)(string) | Returns true if the specified password is the same as the write-protection password the file was protected with. |
 
+### Examples
+
+```csharp
+[C#]
+
+namespace Demos
+{
+    using Aspose.Cells;
+    using System;
+
+    public class WriteProtectionDemo
+    {
+        public static void WriteProtectionExample()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+
+            // Access the workbook's settings
+            WorkbookSettings settings = workbook.Settings;
+
+            // Access the write protection settings
+            WriteProtection writeProtection = settings.WriteProtection;
+
+            // Set the author of the write protection
+            writeProtection.Author = "John Doe";
+
+            // Set the password for write protection
+            writeProtection.Password = "password123";
+
+            // Set the recommend read-only option
+            writeProtection.RecommendReadOnly = true;
+
+            // Check if the workbook is write protected
+            bool isWriteProtected = writeProtection.IsWriteProtected;
+            Console.WriteLine("Is Write Protected: " + isWriteProtected);
+
+            // Validate the password
+            bool isValidPassword = writeProtection.ValidatePassword("password123");
+            Console.WriteLine("Is Valid Password: " + isValidPassword);
+
+            // Save the workbook
+            workbook.Save("WriteProtectionExample.xlsx");
+
+            return;
+        }
+    }
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Cells](../../aspose.cells/)

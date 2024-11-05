@@ -22,6 +22,42 @@ public enum EncryptionType
 | EnhancedCryptographicProviderV1 | `2` | Enhanced encryption. |
 | StrongCryptographicProvider | `3` | Strong encryption algorithm. |
 
+### Examples
+
+```csharp
+[C#]
+
+namespace Demos
+{
+    using Aspose.Cells;
+    using System;
+
+    public class EncryptionTypeDemo
+    {
+        public static void EncryptionTypeExample()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+
+            // Set encryption options for the workbook
+            EncryptionType encryptionType = EncryptionType.EnhancedCryptographicProviderV1;
+            int keyLength = 128; // Key length can be 40, 128, or 256 bits
+
+            // Apply encryption settings
+            workbook.SetEncryptionOptions(encryptionType, keyLength);
+
+            // Protect the workbook with a password
+            string password = "securePassword";
+            workbook.Protect(ProtectionType.All, password);
+
+            // Save the workbook
+            workbook.Save("EncryptedWorkbook.xlsx");
+            workbook.Save("EncryptedWorkbook.pdf");
+        }
+    }
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Cells](../../aspose.cells/)

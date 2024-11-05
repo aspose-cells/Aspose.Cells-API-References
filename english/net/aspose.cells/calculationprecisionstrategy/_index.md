@@ -21,6 +21,55 @@ public enum CalculationPrecisionStrategy
 | Round | `1` | Rounds the calculation result according with significant digits. |
 | Decimal | `2` | Uses decimal as operands when possible. Most inefficient for performance. |
 
+### Examples
+
+```csharp
+[C#]
+
+using Aspose.Cells;
+using System;
+
+namespace Demos
+{
+    public class CalculationPrecisionStrategyDemo
+    {
+        public static void CalculationPrecisionStrategyExample()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+
+            // Add a new worksheet to the workbook
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data to the worksheet
+            worksheet.Cells["A1"].PutValue("Formula");
+            worksheet.Cells["A2"].Formula = "=-0.45+0.43+0.02"; // This should ideally equal 0
+
+            // Set calculation options
+            CalculationOptions calcOptions = new CalculationOptions
+            {
+                IgnoreError = true,
+                Recursive = true,
+                PrecisionStrategy = CalculationPrecisionStrategy.Round // Using Round strategy
+            };
+
+            // Calculate the formulas in the worksheet
+            workbook.CalculateFormula(calcOptions);
+
+            // Get the result of the formula
+            double result = worksheet.Cells["A2"].DoubleValue;
+
+            // Output the result
+            Console.WriteLine("Calculated Result: " + result);
+
+            // Save the workbook
+            workbook.Save("CalculationPrecisionStrategyExample.xlsx");
+            workbook.Save("CalculationPrecisionStrategyExample.pdf");
+        }
+    }
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Cells](../../aspose.cells/)

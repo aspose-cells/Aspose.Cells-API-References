@@ -55,6 +55,98 @@ public class NumbersLoadOptions : LoadOptions
 | --- | --- |
 | [SetPaperSize](../../aspose.cells/loadoptions/setpapersize/)(PaperSizeType) | Sets the default print paper size from default printer's setting.(Inherited from [`LoadOptions`](../../aspose.cells/loadoptions/).) |
 
+### Examples
+
+```csharp
+[C#]
+
+namespace Demos
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Numbers;
+    using System;
+    using System.Globalization;
+
+    public class NumbersLoadOptionsDemo
+    {
+        public static void NumbersLoadOptionsExample()
+        {
+            // Create an instance of NumbersLoadOptions
+            NumbersLoadOptions loadOptions = new NumbersLoadOptions
+            {
+                // Setting properties
+                LoadTableType = LoadNumbersTableType.OneTablePerSheet,
+                Password = "password123",
+                ParsingFormulaOnOpen = true,
+                ParsingPivotCachedRecords = false,
+                LanguageCode = CountryCode.USA,
+                Region = CountryCode.USA,
+                CultureInfo = new CultureInfo("en-US"),
+                StandardFont = "Arial",
+                StandardFontSize = 10.5,
+                IgnoreNotPrinted = true,
+                CheckDataValid = true,
+                CheckExcelRestriction = true,
+                KeepUnparsedData = true,
+                LoadFilter = new LoadFilter(LoadDataFilterOptions.All),
+                LightCellsDataHandler = new CustomLightCellsDataHandler(),
+                MemorySetting = MemorySetting.MemoryPreference,
+                WarningCallback = new CustomWarningCallback(),
+                AutoFitterOptions = new AutoFitterOptions { AutoFitMergedCells = true },
+                AutoFilter = true,
+                FontConfigs = new IndividualFontConfigs(),
+                IgnoreUselessShapes = true,
+                PreservePaddingSpacesInFormula = false
+            };
+
+            // Load a Numbers file with the specified load options
+            Workbook workbook = new Workbook("NumbersLoadOptionsExample_original.numbers", loadOptions);
+
+            // Save the workbook in XLSX format
+            workbook.Save("NumbersLoadOptionsExample.xlsx");
+        }
+    }
+
+    // Custom implementation of LightCellsDataHandler
+    public class CustomLightCellsDataHandler : LightCellsDataHandler
+    {
+        public bool ProcessCell(Cell cell)
+        {
+            return true;
+        }
+
+        public bool ProcessRow(Row row)
+        {
+            return true;
+        }
+
+        public bool StartCell(int columnIndex)
+        {
+            return true;
+        }
+
+        public bool StartRow(int rowIndex)
+        {
+            return true;
+        }
+
+        public bool StartSheet(Worksheet sheet)
+        {
+            return true;
+        }
+    }
+
+    // Custom implementation of IWarningCallback
+    public class CustomWarningCallback : IWarningCallback
+    {
+        public void Warning(WarningInfo warningInfo)
+        {
+            Console.WriteLine($"Warning: {warningInfo.Description}");
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [LoadOptions](../../aspose.cells/loadoptions/)

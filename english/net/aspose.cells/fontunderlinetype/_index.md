@@ -38,6 +38,49 @@ public enum FontUnderlineType
 | WavyHeavy | `18` | Represents Heavy Wave Underline |
 | Words | `19` | Represents Underline Non-Space Characters Only |
 
+### Examples
+
+```csharp
+[C#]
+
+namespace Demos
+{
+    using Aspose.Cells;
+    using System;
+
+    public class FontUnderlineTypeDemo
+    {
+        public static void FontUnderlineTypeExample()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Obtain the reference of the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Accessing the "A1" cell from the worksheet
+            Cell cell = worksheet.Cells["A1"];
+            
+            // Adding some value to the "A1" cell
+            cell.PutValue("Hello Aspose!");
+
+            // Get the style of the cell
+            Style style = cell.GetStyle();
+            
+            // Set the font underline type to single underline
+            style.Font.Underline = FontUnderlineType.Single;
+            
+            // Apply the style to the cell
+            cell.SetStyle(style);
+
+            // Save the workbook
+            workbook.Save("FontUnderlineTypeExample.xlsx");
+            workbook.Save("FontUnderlineTypeExample.pdf");
+        }
+    }
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Cells](../../aspose.cells/)

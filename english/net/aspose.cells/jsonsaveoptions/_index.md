@@ -48,6 +48,65 @@ public class JsonSaveOptions : SaveOptions
 | [ValidateMergedAreas](../../aspose.cells/saveoptions/validatemergedareas/) { get; set; } | Indicates whether validate merged cells before saving the file.(Inherited from [`SaveOptions`](../saveoptions/).) |
 | [WarningCallback](../../aspose.cells/saveoptions/warningcallback/) { get; set; } | Gets or sets warning callback.(Inherited from [`SaveOptions`](../saveoptions/).) |
 
+### Examples
+
+```csharp
+[C#]
+
+namespace Demos
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Json;
+    using System;
+
+    public class JsonSaveOptionsDemo
+    {
+        public static void JsonSaveOptionsExample()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Fill some data into the worksheet
+            worksheet.Cells["A1"].PutValue("Name");
+            worksheet.Cells["B1"].PutValue("Age");
+            worksheet.Cells["A2"].PutValue("John");
+            worksheet.Cells["B2"].PutValue(30);
+            worksheet.Cells["A3"].PutValue("Jane");
+            worksheet.Cells["B3"].PutValue(25);
+
+            // Create an instance of JsonSaveOptions
+            JsonSaveOptions saveOptions = new JsonSaveOptions
+            {
+                ExportHyperlinkType = JsonExportHyperlinkType.DisplayString,
+                SkipEmptyRows = true,
+                ExportArea = new CellArea { StartRow = 0, EndRow = 2, StartColumn = 0, EndColumn = 1 },
+                HasHeaderRow = true,
+                ExportAsString = true,
+                Indent = "  ",
+                ExportNestedStructure = false,
+                ExportEmptyCells = false,
+                AlwaysExportAsJsonObject = false,
+                ToExcelStruct = false,
+                ClearData = false,
+                CachedFileFolder = "C:\\Temp",
+                ValidateMergedAreas = true,
+                MergeAreas = false,
+                SortNames = false,
+                SortExternalNames = false,
+                RefreshChartCache = false,
+                UpdateSmartArt = false
+            };
+
+            // Save the workbook as a JSON file
+            workbook.Save("JsonSaveOptionsExample.json", saveOptions);
+
+            return;
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [SaveOptions](../saveoptions/)

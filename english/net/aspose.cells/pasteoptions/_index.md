@@ -30,6 +30,58 @@ public class PasteOptions
 | [SkipBlanks](../../aspose.cells/pasteoptions/skipblanks/) { get; set; } | Indicates whether skips blank cells. |
 | [Transpose](../../aspose.cells/pasteoptions/transpose/) { get; set; } | True to transpose rows and columns when the range is pasted. The default value is False. |
 
+### Examples
+
+```csharp
+[C#]
+
+using Aspose.Cells;
+
+namespace Demos
+{
+    public class PasteOptionsDemo
+    {
+        public static void PasteOptionsExample()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Add some data to the first worksheet
+            sheet.Cells["A1"].PutValue("Hello");
+            sheet.Cells["A2"].PutValue("World");
+            sheet.Cells["A3"].PutValue(123);
+
+            // Create another worksheet
+            Worksheet sheet2 = workbook.Worksheets.Add("Sheet2");
+
+            // Define the source range
+            Aspose.Cells.Range sourceRange = sheet.Cells.CreateRange("A1:A3");
+
+            // Define the destination range
+            Aspose.Cells.Range destRange = sheet2.Cells.CreateRange("B1:B3");
+
+            // Create PasteOptions object
+            PasteOptions pasteOptions = new PasteOptions
+            {
+                PasteType = PasteType.Values,
+                SkipBlanks = true,
+                OnlyVisibleCells = false,
+                Transpose = false,
+                OperationType = PasteOperationType.None,
+                IgnoreLinksToOriginalFile = true
+            };
+
+            // Copy the range with the specified paste options
+            destRange.Copy(sourceRange, pasteOptions);
+
+            // Save the workbook
+            workbook.Save("PasteOptionsExample.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Cells](../../aspose.cells/)

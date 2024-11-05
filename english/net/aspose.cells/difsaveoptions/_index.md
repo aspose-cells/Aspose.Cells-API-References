@@ -36,6 +36,53 @@ public class DifSaveOptions : SaveOptions
 | [ValidateMergedAreas](../../aspose.cells/saveoptions/validatemergedareas/) { get; set; } | Indicates whether validate merged cells before saving the file.(Inherited from [`SaveOptions`](../saveoptions/).) |
 | [WarningCallback](../../aspose.cells/saveoptions/warningcallback/) { get; set; } | Gets or sets warning callback.(Inherited from [`SaveOptions`](../saveoptions/).) |
 
+### Examples
+
+```csharp
+[C#]
+
+namespace Demos
+{
+    using Aspose.Cells;
+    using System;
+
+    public class DifSaveOptionsDemo
+    {
+        public static void DifSaveOptionsExample()
+        {
+            // Create a new Workbook object
+            Workbook workbook = new Workbook();
+            
+            // Add some data to the worksheet for demonstration purposes
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells[0, 0].PutValue("Sample Data");
+
+            // Create an instance of DifSaveOptions
+            DifSaveOptions saveOptions = new DifSaveOptions
+            {
+                // Set properties as per the JSON specification
+                ClearData = true,
+                CachedFileFolder = @"C:\Temp\CachedFiles",
+                ValidateMergedAreas = true,
+                MergeAreas = false,
+                CreateDirectory = true,
+                SortNames = true,
+                SortExternalNames = false,
+                RefreshChartCache = true,
+                UpdateSmartArt = false
+            };
+
+
+            // Save the workbook with the DifSaveOptions
+            workbook.Save("E:\\VSCellsForm\\DifSaveOptionsExample.dif", saveOptions);
+
+            // Output to console to indicate the process is complete
+            Console.WriteLine("Workbook saved successfully with DifSaveOptions.");
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [SaveOptions](../saveoptions/)

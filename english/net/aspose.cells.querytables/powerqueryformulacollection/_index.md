@@ -53,6 +53,47 @@ public class PowerQueryFormulaCollection : CollectionBase<PowerQueryFormula>
 | [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(PowerQueryFormula, int, int) |  |
 | [RemoveAt](../../aspose.cells/collectionbase-1/removeat/)(int) |  |
 
+### Examples
+
+```csharp
+[C#]
+
+using Aspose.Cells;
+using Aspose.Cells.QueryTables;
+using System;
+
+namespace Demos
+{
+    public class PowerQueryFormulaDemo
+    {
+        public static void RunDemo()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook("PowerQueryFormulaDemo_original.xlsx");
+
+            // Create a DataMashup object
+            DataMashup dataMashup = workbook.DataMashup;
+
+            // Access PowerQueryFormulas collection
+            PowerQueryFormulaCollection powerQueryFormulas = dataMashup.PowerQueryFormulas;
+
+            // Display the count of Power Query formulas
+            Console.WriteLine($"Number of Power Query Formulas: {powerQueryFormulas.Count}");
+
+            // Example of accessing a specific Power Query formula (if any exist)
+            if (powerQueryFormulas.Count > 0)
+            {
+                PowerQueryFormula firstFormula = powerQueryFormulas[0];
+                Console.WriteLine($"First Power Query Formula: {firstFormula}");
+            }
+
+            // Save the workbook
+            workbook.Save("PowerQueryFormulaDemo.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [CollectionBase&lt;T&gt;](../../aspose.cells/collectionbase-1/)

@@ -272,6 +272,81 @@ public enum AutoShapeType
 | TextArchRightCurve | `2112` | There is no such type in Excel |
 | Unknown | `4095` |  |
 
+### Examples
+
+```csharp
+[C#]
+
+namespace Demos
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing;
+    using System;
+
+    public class AutoShapeTypeDemo
+    {
+        public static void AutoShapeTypeExample()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+
+            // Add a new worksheet to the workbook
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a rectangle shape to the worksheet
+            Shape shape = worksheet.Shapes.AddAutoShape(AutoShapeType.Rectangle, 8, 0, 1, 0, 100, 200);
+
+            // Set properties of the shape
+            shape.Name = "MyRectangle";
+            shape.AlternativeText = "This is a rectangle shape";
+            shape.Title = "Rectangle Shape";
+            shape.IsHidden = false;
+            shape.RotationAngle = 45;
+            shape.Width = 150;
+            shape.Height = 100;
+            shape.Fill.SolidFill.Color = System.Drawing.Color.Yellow;
+            shape.Line.Weight = 2;
+            shape.Line.DashStyle = MsoLineDashStyle.Solid;
+
+            // Add an oval shape to the worksheet
+            Shape ovalShape = worksheet.Shapes.AddAutoShape(AutoShapeType.Oval, 5, 0, 5, 0, 100, 200);
+
+            // Set properties of the oval shape
+            ovalShape.Name = "MyOval";
+            ovalShape.AlternativeText = "This is an oval shape";
+            ovalShape.Title = "Oval Shape";
+            ovalShape.IsHidden = false;
+            ovalShape.RotationAngle = 30;
+            ovalShape.Width = 120;
+            ovalShape.Height = 80;
+            ovalShape.Fill.SolidFill.Color = System.Drawing.Color.Blue;
+            ovalShape.Line.Weight = 1;
+
+
+            Shape doubleWave = worksheet.Shapes.AddAutoShape(AutoShapeType.DoubleWave, 15, 0, 5, 0, 100, 200);
+
+            // Set properties of the double wave shape
+            doubleWave.Name = "Double Wave";
+            doubleWave.AlternativeText = "This is an oval shape";
+            doubleWave.Title = "Oval Shape";
+            doubleWave.IsHidden = false;
+            doubleWave.RotationAngle = 30;
+            doubleWave.Width = 120;
+            doubleWave.Height = 80;
+            doubleWave.Fill.SolidFill.Color = System.Drawing.Color.Green;
+            doubleWave.Line.Weight = 1;
+
+            // Save the workbook
+            workbook.Save("AutoShapeTypeExample.xlsx");
+            workbook.Save("AutoShapeTypeExample.pdf");
+
+            // Output the results
+            Console.WriteLine("Shapes added and workbook saved successfully.");
+        }
+    }
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Cells.Drawing](../../aspose.cells.drawing/)

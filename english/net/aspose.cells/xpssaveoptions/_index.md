@@ -55,6 +55,57 @@ public class XpsSaveOptions : PaginatedSaveOptions
 | [ValidateMergedAreas](../../aspose.cells/saveoptions/validatemergedareas/) { get; set; } | Indicates whether validate merged cells before saving the file.(Inherited from [`SaveOptions`](../saveoptions/).) |
 | [WarningCallback](../../aspose.cells/saveoptions/warningcallback/) { get; set; } | Gets or sets warning callback.(Inherited from [`SaveOptions`](../saveoptions/).) |
 
+### Examples
+
+```csharp
+[C#]
+
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
+using System;
+
+namespace Demos
+{
+    public class XpsSaveOptionsDemo
+    {
+        public static void XpsSaveOptionsExample()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Add some data to the worksheet
+            sheet.Cells["A1"].PutValue("Hello");
+            sheet.Cells["A2"].PutValue("World");
+            sheet.Cells["A3"].PutValue(123);
+
+            // Create XpsSaveOptions with specific settings
+            XpsSaveOptions saveOptions = new XpsSaveOptions
+            {
+                DefaultFont = "Arial",
+                CheckWorkbookDefaultFont = true,
+                CheckFontCompatibility = true,
+                IsFontSubstitutionCharGranularity = true,
+                OnePagePerSheet = true,
+                AllColumnsInOnePagePerSheet = true,
+                IgnoreError = false,
+                OutputBlankPageWhenNothingToPrint = false,
+                PageIndex = 0,
+                PageCount = 1,
+                PrintingPageType = PrintingPageType.Default,
+                GridlineType = GridlineType.Dotted,
+                TextCrossType = TextCrossType.Default,
+                DefaultEditLanguage = DefaultEditLanguage.English,
+                SheetSet = SheetSet.All
+            };
+
+            // Save the workbook as XPS with the specified options
+            workbook.Save("XpsSaveOptionsExample.xps", saveOptions);
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [PaginatedSaveOptions](../paginatedsaveoptions/)

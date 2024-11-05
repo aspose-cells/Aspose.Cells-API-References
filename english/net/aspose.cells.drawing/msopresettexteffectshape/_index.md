@@ -59,6 +59,40 @@ public enum MsoPresetTextEffectShape
 | CascadeDown | `155` | CascadeDown |
 | Mixed | `255` | Mixed |
 
+### Examples
+
+```csharp
+[C#]
+
+namespace Demos
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing;
+    using System;
+
+    public class MsoPresetTextEffectShapeDemo
+    {
+        public static void MsoPresetTextEffectShapeExample()
+        {
+            // Instantiating a Workbook object
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            ShapeCollection shapes = worksheet.Shapes;
+
+            // Adding a WordArt text effect shape
+            shapes.AddTextEffect(MsoPresetTextEffect.TextEffect1, "Aspose", "Arial", 30, false, false, 0, 0, 0, 0, 100, 200);
+            TextEffectFormat textEffectFormat = shapes[0].TextEffect;
+
+            // Setting the preset shape type
+            textEffectFormat.PresetShape = MsoPresetTextEffectShape.ArchUpCurve;
+
+            // Save the workbook
+            workbook.Save("MsoPresetTextEffectShapeExample.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Cells.Drawing](../../aspose.cells.drawing/)

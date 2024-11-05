@@ -39,6 +39,61 @@ public class ImportTableOptions
 | [TotalColumns](../../aspose.cells/importtableoptions/totalcolumns/) { get; set; } | Gets or sets total column count to import from data source. -1 means all rows of given data source. |
 | [TotalRows](../../aspose.cells/importtableoptions/totalrows/) { get; set; } | Gets or sets total row count to import from data source. -1 means all rows of given data source. |
 
+### Examples
+
+```csharp
+[C#]
+
+namespace Demos
+{
+    using Aspose.Cells;
+    using System;
+    using System.Data;
+
+    public class ImportTableOptionsDemo
+    {
+        public static void ImportTableOptionsExample()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Create a DataTable to import
+            DataTable dataTable = new DataTable("SampleData");
+            dataTable.Columns.Add("ID", typeof(int));
+            dataTable.Columns.Add("Name", typeof(string));
+            dataTable.Columns.Add("Date", typeof(DateTime));
+            dataTable.Rows.Add(1, "John Doe", DateTime.Now);
+            dataTable.Rows.Add(2, "Jane Smith", DateTime.Now.AddDays(1));
+
+            // Create an instance of ImportTableOptions
+            ImportTableOptions importOptions = new ImportTableOptions
+            {
+                ConvertGridStyle = true,
+                ConvertNumericData = true,
+                InsertRows = true,
+                ShiftFirstRowDown = false,
+                IsFieldNameShown = true,
+                ExportCaptionAsFieldName = false,
+                DateFormat = "yyyy-MM-dd",
+                TotalRows = -1, // Import all rows
+                TotalColumns = -1, // Import all columns
+                IsHtmlString = false,
+                CheckMergedCells = false
+            };
+
+            // Import the DataTable into the worksheet
+            worksheet.Cells.ImportData(dataTable, 0, 0, importOptions);
+
+            // Save the workbook
+            workbook.Save("ImportTableOptionsExample.xlsx");
+            workbook.Save("ImportTableOptionsExample.pdf");
+            return;
+        }
+    }
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Cells](../../aspose.cells/)

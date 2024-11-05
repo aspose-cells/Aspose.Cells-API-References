@@ -56,6 +56,53 @@ public class ScenarioCollection : CollectionBase<Scenario>
 | [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(Scenario, int, int) |  |
 | [RemoveAt](../../aspose.cells/collectionbase-1/removeat/)(int) |  |
 
+### Examples
+
+```csharp
+[C#]
+
+namespace Demos
+{
+    using Aspose.Cells;
+    using System;
+
+    public class ScenarioCollectionDemo
+    {
+        public static void ScenarioCollectionExample()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Access the ScenarioCollection of the worksheet
+            ScenarioCollection scenarios = worksheet.Scenarios;
+
+            // Add a new scenario to the collection
+            int scenarioIndex = scenarios.Add("Scenario1");
+
+            // Access the newly added scenario
+            Scenario scenario = scenarios[scenarioIndex];
+
+            // Set some properties for the scenario
+            scenario.Comment = "This is a test scenario.";
+            scenario.IsHidden = false;
+
+            // Set the active scenario index
+            scenarios.ActiveIndex = scenarioIndex;
+
+            // Set the last selected scenario index
+            scenarios.LastSelected = scenarioIndex;
+
+            // Save the workbook
+            workbook.Save("ScenarioCollectionExample.xlsx");
+
+            return;
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [CollectionBase&lt;T&gt;](../collectionbase-1/)

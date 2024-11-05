@@ -32,6 +32,59 @@ public enum CellBorderType
 | Thick | `5` | Represents thick line. |
 | Thin | `1` | Represents thin line. |
 
+### Examples
+
+```csharp
+[C#]
+
+namespace Demos
+{
+    using Aspose.Cells;
+    using System;
+    using System.Drawing;
+
+    public class CellBorderTypeDemo
+    {
+        public static void CellBorderTypeExample()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Create a range (A1:D4)
+            Aspose.Cells.Range range = worksheet.Cells.CreateRange("A1", "D4");
+
+            // Get the style of the range
+            Style style = workbook.CreateStyle();
+
+            // Set different border styles for the range
+            style.Borders[BorderType.TopBorder].LineStyle = CellBorderType.Thick;
+            style.Borders[BorderType.TopBorder].Color = Color.Black;
+
+            style.Borders[BorderType.BottomBorder].LineStyle = CellBorderType.Dashed;
+            style.Borders[BorderType.BottomBorder].Color = Color.Blue;
+
+            style.Borders[BorderType.LeftBorder].LineStyle = CellBorderType.Dotted;
+            style.Borders[BorderType.LeftBorder].Color = Color.Green;
+
+            style.Borders[BorderType.RightBorder].LineStyle = CellBorderType.Double;
+            style.Borders[BorderType.RightBorder].Color = Color.Red;
+
+            // Apply the style to the range
+            StyleFlag styleFlag = new StyleFlag();
+            styleFlag.Borders = true;
+            range.ApplyStyle(style, styleFlag);
+
+            // Save the workbook
+            workbook.Save("CellBorderTypeExample.xlsx");
+            workbook.Save("CellBorderTypeExample.pdf");
+        }
+    }
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Cells](../../aspose.cells/)

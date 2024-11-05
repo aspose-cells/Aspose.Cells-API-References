@@ -31,6 +31,52 @@ public class CellsColor
 | --- | --- |
 | [SetTintOfShapeColor](../../aspose.cells/cellscolor/settintofshapecolor/)(double) | Set the tint of the shape color |
 
+### Examples
+
+```csharp
+[C#]
+
+namespace Demos
+{
+    using Aspose.Cells;
+    using System;
+    using System.Drawing;
+
+    public class CellsColorDemo
+    {
+        public static void CellsColorExample()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Create a range of cells
+            Aspose.Cells.Range range = worksheet.Cells.CreateRange("A1", "A10");
+
+            // Create a CellsColor instance
+            CellsColor cellsColor = workbook.CreateCellsColor();
+
+            // Set properties of CellsColor
+            cellsColor.IsShapeColor = false;
+            cellsColor.Color = Color.Red;
+            cellsColor.ColorIndex = 5;
+            cellsColor.Argb = Color.Blue.ToArgb();
+            cellsColor.Transparency = 0.5;
+
+            // Apply the CellsColor to the range
+            Style style = workbook.CreateStyle();
+            style.ForegroundColor = cellsColor.Color;
+            style.Pattern = BackgroundType.Solid;
+            range.ApplyStyle(style, new StyleFlag { CellShading = true });
+
+            // Save the workbook
+            workbook.Save("CellsColorExample.xlsx");
+            workbook.Save("CellsColorExample.pdf");
+        }
+    }
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Cells](../../aspose.cells/)

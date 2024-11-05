@@ -27,6 +27,43 @@ public class FolderFontSource : FontSourceBase
 | [ScanSubFolders](../../aspose.cells/folderfontsource/scansubfolders/) { get; } | Determines whether or not to scan the subfolders. |
 | override [Type](../../aspose.cells/folderfontsource/type/) { get; } | Returns the type of the font source. |
 
+### Examples
+
+```csharp
+[C#]
+
+namespace Demos
+{
+    using Aspose.Cells;
+    using System;
+
+    public class FolderFontSourceDemo
+    {
+        public static void FolderFontSourceExample()
+        {
+            // Create an instance of FolderFontSource
+            string folderPath = @"C:\Fonts";
+            bool scanSubfolders = true;
+            FolderFontSource folderFontSource = new FolderFontSource(folderPath, scanSubfolders);
+
+            // Accessing properties
+            Console.WriteLine("Folder Path: " + folderFontSource.FolderPath);
+            Console.WriteLine("Scan Subfolders: " + folderFontSource.ScanSubFolders);
+            Console.WriteLine("Font Source Type: " + folderFontSource.Type);
+
+            // Create a workbook and set the font sources
+            Workbook workbook = new Workbook();
+            FontConfigs.SetFontSources(new FontSourceBase[] { folderFontSource });
+
+            // Save the workbook
+            workbook.Save("FolderFontSourceExample.xlsx");
+            workbook.Save("FolderFontSourceExample.pdf");
+            return;
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [FontSourceBase](../fontsourcebase/)

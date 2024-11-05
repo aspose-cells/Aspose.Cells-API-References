@@ -40,6 +40,61 @@ public enum PivotTableAutoFormatType
 | Table9 | `20` | Represents Table9 format type. |
 | Table10 | `21` | Represents Table10 format type. |
 
+### Examples
+
+```csharp
+[C#]
+
+namespace Demos
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Pivot;
+    using System;
+
+    public class PivotTableAutoFormatTypeDemo
+    {
+        public static void PivotTableAutoFormatTypeExample()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add some sample data for the PivotTable
+            worksheet.Cells[0, 0].Value = "Fruit";
+            worksheet.Cells[0, 1].Value = "Year";
+            worksheet.Cells[0, 2].Value = "Amount";
+            worksheet.Cells[1, 0].Value = "Apple";
+            worksheet.Cells[1, 1].Value = 2020;
+            worksheet.Cells[1, 2].Value = 50;
+            worksheet.Cells[2, 0].Value = "Banana";
+            worksheet.Cells[2, 1].Value = 2020;
+            worksheet.Cells[2, 2].Value = 60;
+            worksheet.Cells[3, 0].Value = "Apple";
+            worksheet.Cells[3, 1].Value = 2021;
+            worksheet.Cells[3, 2].Value = 70;
+            worksheet.Cells[4, 0].Value = "Banana";
+            worksheet.Cells[4, 1].Value = 2021;
+            worksheet.Cells[4, 2].Value = 80;
+
+            // Add a PivotTable to the worksheet
+            int pivotIndex = worksheet.PivotTables.Add("=Sheet1!A1:C5", "E3", "PivotTable1");
+            PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+
+            // Add fields to the PivotTable
+            pivotTable.AddFieldToArea(PivotFieldType.Row, 0); // Fruit
+            pivotTable.AddFieldToArea(PivotFieldType.Column, 1); // Year
+            pivotTable.AddFieldToArea(PivotFieldType.Data, 2); // Amount
+
+            // Set the auto format type for the PivotTable
+            pivotTable.AutoFormatType = PivotTableAutoFormatType.Report1;
+
+            // Save the workbook
+            workbook.Save("PivotTableAutoFormatTypeExample.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Cells.Pivot](../../aspose.cells.pivot/)

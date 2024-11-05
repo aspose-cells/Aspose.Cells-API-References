@@ -55,6 +55,57 @@ public class LoadOptions
 | --- | --- |
 | [SetPaperSize](../../aspose.cells/loadoptions/setpapersize/)(PaperSizeType) | Sets the default print paper size from default printer's setting. |
 
+### Examples
+
+```csharp
+[C#]
+
+namespace Demos
+{
+    using Aspose.Cells;
+    using System;
+    using System.Globalization;
+
+    public class LoadOptionsDemo
+    {
+        public static void LoadOptionsExample()
+        {
+            // Create an instance of LoadOptions
+            LoadOptions loadOptions = new LoadOptions();
+
+            // Setting properties
+            loadOptions.Password = "password123";
+            loadOptions.ParsingFormulaOnOpen = true;
+            loadOptions.ParsingPivotCachedRecords = false;
+            loadOptions.LanguageCode = CountryCode.USA;
+            loadOptions.Region = CountryCode.USA;
+            loadOptions.CultureInfo = new CultureInfo("en-US");
+            loadOptions.IgnoreNotPrinted = true;
+            loadOptions.CheckDataValid = true;
+            loadOptions.CheckExcelRestriction = false;
+            loadOptions.KeepUnparsedData = true;
+            loadOptions.MemorySetting = MemorySetting.MemoryPreference;
+            loadOptions.AutoFitterOptions = new AutoFitterOptions { AutoFitMergedCells = true };
+            loadOptions.AutoFilter = true;
+            loadOptions.IgnoreUselessShapes = true;
+            loadOptions.PreservePaddingSpacesInFormula = false;
+
+            // Load a workbook with the specified LoadOptions
+            Workbook workbook = new Workbook("LoadOptionsExample_original.xlsx", loadOptions);
+
+            // Perform operations on the workbook
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Hello, World!");
+
+            // Save the workbook
+            workbook.Save("LoadOptionsExample.xlsx");
+
+            return;
+        }
+    }
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Cells](../../aspose.cells/)

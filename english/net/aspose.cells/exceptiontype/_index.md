@@ -42,6 +42,62 @@ public enum ExceptionType
 | UndisclosedInformation | `22` | Files contains some undisclosed information. |
 | FileCorrupted | `23` | File content is corrupted. |
 
+### Examples
+
+```csharp
+[C#]
+
+namespace Demos
+{
+    using Aspose.Cells;
+    using System;
+
+    public class ExceptionTypeDemo
+    {
+        public static void ExceptionTypeExample()
+        {
+            try
+            {
+                // Create a new workbook
+                Workbook workbook = new Workbook();
+
+                // Attempt to set an invalid worksheet name to trigger an exception
+                workbook.Worksheets[0].Name = "Invalid/Name";
+
+                // Save the workbook
+                workbook.Save("ExceptionTypeExample.xlsx");
+            }
+            catch (CellsException ex)
+            {
+                // Handle the CellsException
+                Console.WriteLine("An error occurred: " + ex.Message);
+                Console.WriteLine("Exception Type Code: " + ex.Code);
+                
+                // Check the type of exception
+                switch (ex.Code)
+                {
+                    case ExceptionType.SheetName:
+                        Console.WriteLine("The worksheet name is invalid.");
+                        break;
+                    case ExceptionType.FileFormat:
+                        Console.WriteLine("The file format is invalid.");
+                        break;
+                    // Add more cases as needed for different exception types
+                    default:
+                        Console.WriteLine("An unknown error occurred.");
+                        break;
+                }
+            }
+            catch (Exception ex)
+            {
+                // Handle any other exceptions
+                Console.WriteLine("An unexpected error occurred: " + ex.Message);
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Cells](../../aspose.cells/)

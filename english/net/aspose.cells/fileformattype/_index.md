@@ -95,6 +95,51 @@ public enum FileFormatType
 | Oxps | `776` | OXPS (Open XML Paper Specification) format. |
 | GZip | `35615` | Rrepesents GZip file. |
 
+### Examples
+
+```csharp
+[C#]
+
+namespace Demos
+{
+    using Aspose.Cells;
+    using System;
+
+    public class FileFormatTypeDemo
+    {
+        public static void FileFormatTypeExample()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+
+            // Add a new worksheet to the workbook
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Set the name of the worksheet
+            worksheet.Name = "File Format Example";
+
+            // Add sample data to the worksheet
+            worksheet.Cells["A1"].PutValue("File Format Type");
+            worksheet.Cells["A2"].PutValue(FileFormatType.Csv);
+            worksheet.Cells["A3"].PutValue(FileFormatType.Xlsx);
+            worksheet.Cells["A4"].PutValue(FileFormatType.Pdf);
+            worksheet.Cells["A5"].PutValue(FileFormatType.Xlsm);
+
+            // Output the file format types
+            for (int i = 2; i <= 5; i++)
+            {
+                var fileFormat = worksheet.Cells[$"A{i}"].StringValue;
+                Console.WriteLine($"Row {i}: {fileFormat}");
+            }
+
+            // Save the workbook
+            workbook.Save("FileFormatTypeExample.xlsx");
+            workbook.Save("FileFormatTypeExample.pdf");
+        }
+    }
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Cells](../../aspose.cells/)

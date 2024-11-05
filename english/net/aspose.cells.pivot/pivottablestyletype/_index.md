@@ -104,6 +104,64 @@ public enum PivotTableStyleType
 | PivotTableStyleDark28 | `84` |  |
 | Custom | `85` |  |
 
+### Examples
+
+```csharp
+[C#]
+
+namespace Demos
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Pivot;
+    using System;
+
+    public class PivotTableStyleTypeDemo
+    {
+        public static void PivotTableStyleTypeExample()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data to the worksheet
+            worksheet.Cells[0, 0].Value = "Fruit";
+            worksheet.Cells[0, 1].Value = "Year";
+            worksheet.Cells[0, 2].Value = "Amount";
+            worksheet.Cells[1, 0].Value = "Apple";
+            worksheet.Cells[1, 1].Value = 2020;
+            worksheet.Cells[1, 2].Value = 50;
+            worksheet.Cells[2, 0].Value = "Banana";
+            worksheet.Cells[2, 1].Value = 2020;
+            worksheet.Cells[2, 2].Value = 60;
+            worksheet.Cells[3, 0].Value = "Cherry";
+            worksheet.Cells[3, 1].Value = 2021;
+            worksheet.Cells[3, 2].Value = 70;
+            worksheet.Cells[4, 0].Value = "Date";
+            worksheet.Cells[4, 1].Value = 2021;
+            worksheet.Cells[4, 2].Value = 80;
+
+            // Add a pivot table to the worksheet
+            PivotTableCollection pivotTables = worksheet.PivotTables;
+            int pivotIndex = pivotTables.Add("=Sheet1!A1:C5", "E3", "PivotTable1");
+            PivotTable pivotTable = pivotTables[pivotIndex];
+
+            // Add fields to the pivot table
+            pivotTable.AddFieldToArea(PivotFieldType.Row, 0); // Fruit
+            pivotTable.AddFieldToArea(PivotFieldType.Column, 1); // Year
+            pivotTable.AddFieldToArea(PivotFieldType.Data, 2); // Amount
+
+            // Set the pivot table style type
+            pivotTable.PivotTableStyleType = PivotTableStyleType.PivotTableStyleMedium10;
+
+            // Save the workbook
+            workbook.Save("PivotTableStyleTypeExample.xlsx");
+
+            return;
+        }
+    }
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Cells.Pivot](../../aspose.cells.pivot/)

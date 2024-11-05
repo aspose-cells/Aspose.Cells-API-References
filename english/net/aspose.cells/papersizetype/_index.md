@@ -138,6 +138,45 @@ public enum PaperSizeType
 | PaperThermal | `302` | Thermal(3 x 11 in) |
 | Custom | `0` | Represents the custom paper size. |
 
+### Examples
+
+```csharp
+[C#]
+
+namespace Demos
+{
+    using Aspose.Cells;
+    using System;
+
+    public class PaperSizeTypeDemo
+    {
+        public static void PaperSizeTypeExample()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Access the PageSetup of the worksheet
+            PageSetup pageSetup = worksheet.PageSetup;
+
+            // Set the paper size to A4
+            pageSetup.PaperSize = PaperSizeType.PaperA4;
+
+            // Set the paper size to Legal
+            pageSetup.PaperSize = PaperSizeType.PaperLegal;
+
+            // Set the paper size to Custom
+            pageSetup.PaperSize = PaperSizeType.Custom;
+
+            // Save the workbook
+            workbook.Save("PaperSizeTypeExample.xlsx");
+
+            return;
+        }
+    }
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Cells](../../aspose.cells/)

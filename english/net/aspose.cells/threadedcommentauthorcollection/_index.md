@@ -61,6 +61,48 @@ public class ThreadedCommentAuthorCollection : CollectionBase<ThreadedCommentAut
 | [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(ThreadedCommentAuthor, int, int) |  |
 | [RemoveAt](../../aspose.cells/collectionbase-1/removeat/)(int) |  |
 
+### Examples
+
+```csharp
+[C#]
+
+namespace Demos
+{
+    using Aspose.Cells;
+    using System;
+
+    public class ThreadedCommentAuthorCollectionDemo
+    {
+        public static void ThreadedCommentAuthorCollectionExample()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Access the ThreadedCommentAuthorCollection
+            ThreadedCommentAuthorCollection authors = workbook.Worksheets.ThreadedCommentAuthors;
+
+            // Add a new threaded comment author
+            int authorIndex = authors.Add("John Doe", "john.doe@example.com", "providerId123");
+
+            // Retrieve the added author
+            ThreadedCommentAuthor author = authors[authorIndex];
+
+            // Set the current person
+            authors.CurrentPerson = author;
+
+            // Display the current person details
+            Console.WriteLine("Current Person: " + authors.CurrentPerson.Name);
+
+            // Save the workbook
+            workbook.Save("ThreadedCommentAuthorCollectionExample.xlsx");
+
+            return;
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [CollectionBase&lt;T&gt;](../collectionbase-1/)

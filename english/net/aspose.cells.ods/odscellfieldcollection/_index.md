@@ -55,6 +55,46 @@ public class OdsCellFieldCollection : CollectionBase<OdsCellField>
 | [RemoveAt](../../aspose.cells/collectionbase-1/removeat/)(int) |  |
 | [UpdateFieldsValue](../../aspose.cells.ods/odscellfieldcollection/updatefieldsvalue/)() | Update fields value to the cells. |
 
+### Examples
+
+```csharp
+[C#]
+
+namespace Demos
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Ods;
+    using System;
+
+    public class OdsCellFieldCollectionDemo
+    {
+        public static void OdsCellFieldCollectionExample()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // Access the OdsCellFieldCollection
+            OdsCellFieldCollection odsCellFields = cells.OdsCellFields;
+
+            // Add fields to the OdsCellFieldCollection
+            int fieldIndex1 = odsCellFields.Add(0, 0, OdsCellFieldType.Date, "yyyy-MM-dd");
+            int fieldIndex2 = odsCellFields.Add(1, 1, OdsCellFieldType.SheetName, null);
+            int fieldIndex3 = odsCellFields.Add(2, 2, OdsCellFieldType.Title, null);
+
+            // Update fields value to the cells
+            odsCellFields.UpdateFieldsValue();
+
+            // Save the workbook
+            workbook.Save("OdsCellFieldCollectionExample.ods");
+
+            return;
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [CollectionBase&lt;T&gt;](../../aspose.cells/collectionbase-1/)

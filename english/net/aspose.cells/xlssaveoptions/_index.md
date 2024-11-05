@@ -41,6 +41,54 @@ public class XlsSaveOptions : SaveOptions
 | [WarningCallback](../../aspose.cells/saveoptions/warningcallback/) { get; set; } | Gets or sets warning callback.(Inherited from [`SaveOptions`](../saveoptions/).) |
 | [WpsCompatibility](../../aspose.cells/xlssaveoptions/wpscompatibility/) { get; set; } | Indicates whether to make the xls more compatible with WPS. |
 
+### Examples
+
+```csharp
+[C#]
+
+namespace Demos
+{
+    using Aspose.Cells;
+    using System;
+
+    public class XlsSaveOptionsDemo
+    {
+        public static void XlsSaveOptionsExample()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Fill some data into the worksheet
+            worksheet.Cells["A1"].PutValue("Name");
+            worksheet.Cells["B1"].PutValue("Age");
+            worksheet.Cells["A2"].PutValue("John");
+            worksheet.Cells["B2"].PutValue(30);
+            worksheet.Cells["A3"].PutValue("Jane");
+            worksheet.Cells["B3"].PutValue(25);
+
+            // Create an instance of XlsSaveOptions
+            XlsSaveOptions saveOptions = new XlsSaveOptions();
+
+            // Setting properties
+            saveOptions.MatchColor = true;
+            saveOptions.ClearData = false;
+            saveOptions.ValidateMergedAreas = true;
+            saveOptions.MergeAreas = true;
+            saveOptions.SortNames = true;
+            saveOptions.SortExternalNames = false;
+            saveOptions.RefreshChartCache = true;
+            saveOptions.UpdateSmartArt = false;
+
+            // Save the workbook with the specified save options
+            workbook.Save("XlsSaveOptionsExample.xlsx", saveOptions);
+
+            return;
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [SaveOptions](../saveoptions/)

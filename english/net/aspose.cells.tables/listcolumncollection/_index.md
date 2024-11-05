@@ -53,6 +53,65 @@ public class ListColumnCollection : CollectionBase<ListColumn>
 | [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(ListColumn, int, int) |  |
 | [RemoveAt](../../aspose.cells/collectionbase-1/removeat/)(int) |  |
 
+### Examples
+
+```csharp
+[C#]
+
+namespace Demos
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Tables;
+    using System;
+
+    public class ListColumnCollectionDemo
+    {
+        public static void ListColumnCollectionExample()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // Populate the worksheet with some data
+            for (int i = 0; i < 5; i++)
+            {
+                cells[0, i].PutValue(CellsHelper.ColumnIndexToName(i));
+            }
+            for (int row = 1; row < 10; row++)
+            {
+                for (int column = 0; column < 5; column++)
+                {
+                    cells[row, column].PutValue(row * column);
+                }
+            }
+
+            // Add a ListObject (table) to the worksheet
+            ListObjectCollection tables = worksheet.ListObjects;
+            int index = tables.Add(0, 0, 9, 4, true);
+            ListObject table = tables[index];
+
+            // Access the ListColumnCollection of the ListObject
+            ListColumnCollection listColumns = table.ListColumns;
+
+            // Demonstrate accessing properties of ListColumnCollection
+            Console.WriteLine("Number of columns in the table: " + listColumns.Count);
+
+            // Access individual ListColumn by index
+            ListColumn firstColumn = listColumns[0];
+            Console.WriteLine("First column name: " + firstColumn.Name);
+
+            // Modify the capacity of the ListColumnCollection
+            listColumns.Capacity = 10;
+            Console.WriteLine("New capacity of the ListColumnCollection: " + listColumns.Capacity);
+
+            // Save the workbook
+            workbook.Save("ListColumnCollectionExample.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [CollectionBase&lt;T&gt;](../../aspose.cells/collectionbase-1/)

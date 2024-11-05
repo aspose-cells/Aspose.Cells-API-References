@@ -29,6 +29,48 @@ public class FormulaSettings
 | [PrecisionAsDisplayed](../../aspose.cells/formulasettings/precisionasdisplayed/) { get; set; } | Whether the precision of calculated result be set as they are displayed while calculating formulas |
 | [PreservePaddingSpaces](../../aspose.cells/formulasettings/preservepaddingspaces/) { get; set; } | Indicates whether preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. Default value is false. |
 
+### Examples
+
+```csharp
+[C#]
+
+namespace Demos
+{
+    using Aspose.Cells;
+    using System;
+
+    public class FormulaSettingsDemo
+    {
+        public static void FormulaSettingsExample()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the workbook's formula settings
+            FormulaSettings formulaSettings = workbook.Settings.FormulaSettings;
+
+            // Setting properties
+            formulaSettings.CalculateOnOpen = true;
+            formulaSettings.CalculateOnSave = true;
+            formulaSettings.ForceFullCalculation = false;
+            formulaSettings.CalculationMode = CalcModeType.Automatic;
+            formulaSettings.CalculationId = "0";
+            formulaSettings.EnableIterativeCalculation = true;
+            formulaSettings.MaxIteration = 100;
+            formulaSettings.MaxChange = 0.001;
+            formulaSettings.PrecisionAsDisplayed = false;
+            formulaSettings.EnableCalculationChain = true;
+            formulaSettings.PreservePaddingSpaces = false;
+
+            // Save the workbook
+            workbook.Save("FormulaSettingsExample.xlsx");
+            workbook.Save("FormulaSettingsExample.pdf");
+            return;
+        }
+    }
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Cells](../../aspose.cells/)

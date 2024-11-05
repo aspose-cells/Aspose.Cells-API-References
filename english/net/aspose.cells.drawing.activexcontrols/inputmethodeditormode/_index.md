@@ -31,6 +31,55 @@ public enum InputMethodEditorMode
 | HanziFull | `11` | IME on with Full-width hanzi mode. |
 | Hanzi | `12` | IME on with Half-width hanzi mode. |
 
+### Examples
+
+```csharp
+[C#]
+
+namespace Demos
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing;
+    using Aspose.Cells.Drawing.ActiveXControls;
+    using System;
+
+    public class InputMethodEditorModeDemo
+    {
+        public static void InputMethodEditorModeExample()
+        {
+            // Initialize a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a TextBox ActiveX control to the worksheet
+            Shape shape = worksheet.Shapes.AddActiveXControl(ControlType.TextBox, 1, 0, 1, 0, 100, 50);
+            TextBoxActiveXControl textBoxControl = (TextBoxActiveXControl)shape.ActiveXControl;
+
+            // Set the IME mode to Full-width Hiragana
+            textBoxControl.IMEMode = InputMethodEditorMode.Hiragana;
+
+            // Set other properties for demonstration
+            textBoxControl.Text = "This is a test.";
+            textBoxControl.IsEnabled = true;
+            textBoxControl.IsLocked = false;
+            textBoxControl.IsTransparent = false;
+            textBoxControl.IsAutoSize = true;
+            textBoxControl.Width = 200;
+            textBoxControl.Height = 50;
+            textBoxControl.ForeOleColor = System.Drawing.ColorTranslator.ToOle(System.Drawing.Color.Black);
+            textBoxControl.BackOleColor = System.Drawing.ColorTranslator.ToOle(System.Drawing.Color.White);
+            textBoxControl.IsVisible = true;
+            textBoxControl.Shadow = false;
+
+            // Save the workbook
+            workbook.Save("InputMethodEditorModeExample.xlsx");
+            workbook.Save("InputMethodEditorModeExample.pdf");
+            return;
+        }
+    }
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Cells.Drawing.ActiveXControls](../../aspose.cells.drawing.activexcontrols/)

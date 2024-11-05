@@ -21,6 +21,38 @@ public enum ViewType
 | PageBreakPreview | `1` |  |
 | PageLayoutView | `2` |  |
 
+### Examples
+
+```csharp
+[C#]
+
+namespace Demos
+{
+    using Aspose.Cells;
+    using System;
+
+    public class ViewTypeDemo
+    {
+        public static void ViewTypeExample()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Set the view type of the worksheet to PageBreakPreview
+            worksheet.ViewType = ViewType.PageBreakPreview;
+            
+            // Save the workbook
+            workbook.Save("ViewTypeExample.xlsx");
+
+            return;
+        }
+    }
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Cells](../../aspose.cells/)

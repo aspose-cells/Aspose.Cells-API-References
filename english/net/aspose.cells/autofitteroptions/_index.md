@@ -33,6 +33,64 @@ public class AutoFitterOptions
 | [MaxRowHeight](../../aspose.cells/autofitteroptions/maxrowheight/) { get; set; } | Gets and sets the max row height(in unit of Point) when autofitting rows. |
 | [OnlyAuto](../../aspose.cells/autofitteroptions/onlyauto/) { get; set; } | Indicates whether only fit the rows which height are not customed. |
 
+### Examples
+
+```csharp
+[C#]
+
+namespace Demos
+{
+    using Aspose.Cells;
+
+    public class AutoFitterOptionsDemo
+    {
+        public static void AutoFitterOptionsExample()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add some sample data
+            worksheet.Cells["A1"].PutValue("This is a sample text that will be wrapped and autofitted.");
+
+            Style style = worksheet.Cells["A1"].GetStyle();
+
+            style.IsTextWrapped = true;
+
+            worksheet.Cells["A1"].SetStyle(style);
+
+            // Create a range A1:B2
+            Range range = worksheet.Cells.CreateRange(0, 0, 2, 2);
+
+            // Merge the cells
+            range.Merge();
+
+            // Create an instance of AutoFitterOptions
+            AutoFitterOptions options = new AutoFitterOptions
+            {
+                DefaultEditLanguage = DefaultEditLanguage.English,
+                AutoFitMergedCellsType = AutoFitMergedCellsType.EachLine,
+                OnlyAuto = true,
+                IgnoreHidden = true,
+                MaxRowHeight = 50.0,
+                AutoFitWrappedTextType = AutoFitWrappedTextType.Paragraph,
+                FormatStrategy = CellValueFormatStrategy.DisplayString,
+                ForRendering = true
+            };
+
+            // Apply auto fit rows with the specified options
+            worksheet.AutoFitRows(options);
+
+            // Save the workbook
+            workbook.Save("AutoFitterOptionsExample.xlsx");
+            workbook.Save("AutoFitterOptionsExample.pdf");
+
+            return;
+        }
+    }
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Cells](../../aspose.cells/)

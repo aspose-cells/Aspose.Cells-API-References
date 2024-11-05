@@ -66,6 +66,51 @@ public enum SaveFormat
 | Epub | `772` | Represents Epub file. |
 | Azw3 | `773` | Represents Azw3 file. |
 
+### Examples
+
+```csharp
+[C#]
+
+using Aspose.Cells;
+using System;
+
+namespace Demos
+{
+    public class SaveFormatDemo
+    {
+        public static void SaveFormatExample()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+
+            // Add a new worksheet to the workbook
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data to the worksheet
+            worksheet.Cells["A1"].PutValue("Name");
+            worksheet.Cells["A2"].PutValue("John");
+            worksheet.Cells["A3"].PutValue("Jane");
+            worksheet.Cells["A4"].PutValue("Doe");
+
+            worksheet.Cells["B1"].PutValue("Age");
+            worksheet.Cells["B2"].PutValue(30);
+            worksheet.Cells["B3"].PutValue(25);
+            worksheet.Cells["B4"].PutValue(35);
+
+            // Save the workbook in different formats
+            workbook.Save("SaveFormatExample.xlsx", SaveFormat.Xlsx);
+            workbook.Save("SaveFormatExample.xls", SaveFormat.Excel97To2003);
+            workbook.Save("SaveFormatExample.csv", SaveFormat.Csv);
+            workbook.Save("SaveFormatExample.pdf", SaveFormat.Pdf);
+            workbook.Save("SaveFormatExample.html", SaveFormat.Html);
+
+            // Output the results
+            Console.WriteLine("Workbook saved in multiple formats.");
+        }
+    }
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Cells](../../aspose.cells/)

@@ -32,6 +32,66 @@ public enum PasteType
 | ValuesAndFormats | `12` |  |
 | ValuesAndNumberFormats | `13` |  |
 
+### Examples
+
+```csharp
+[C#]
+
+namespace Demos
+{
+    using Aspose.Cells;
+    using System;
+
+    public class PasteTypeDemo
+    {
+        public static void PasteTypeExample()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+
+            // Add a new worksheet to the workbook
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data to the worksheet
+            worksheet.Cells["A1"].PutValue("Name");
+            worksheet.Cells["A2"].PutValue("John");
+            worksheet.Cells["A3"].PutValue("Jane");
+            worksheet.Cells["A4"].PutValue("Doe");
+
+            worksheet.Cells["B1"].PutValue("Age");
+            worksheet.Cells["B2"].PutValue(30);
+            worksheet.Cells["B3"].PutValue(25);
+            worksheet.Cells["B4"].PutValue(35);
+
+            // Define the source range
+            Aspose.Cells.Range sourceRange = worksheet.Cells.CreateRange("A1:B4");
+
+            // Define the destination range
+            Aspose.Cells.Range destinationRange = worksheet.Cells.CreateRange("D1:E4");
+
+            // Create PasteOptions and set the PasteType
+            PasteOptions pasteOptions = new PasteOptions
+            {
+                PasteType = PasteType.Values,
+                SkipBlanks = true,
+                OnlyVisibleCells = false,
+                Transpose = false,
+                IgnoreLinksToOriginalFile = true
+            };
+
+            // Copy the source range to the destination range with the specified paste options
+            destinationRange.Copy(sourceRange, pasteOptions);
+
+            // Save the workbook
+            workbook.Save("PasteTypeExample.xlsx");
+
+            // Output the results
+            Console.WriteLine("Data copied with PasteType.Values and saved to PasteTypeExample.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Cells](../../aspose.cells/)

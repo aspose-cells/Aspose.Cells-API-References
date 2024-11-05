@@ -53,6 +53,63 @@ public class AbstractTextLoadOptions : LoadOptions
 | --- | --- |
 | [SetPaperSize](../../aspose.cells/loadoptions/setpapersize/)(PaperSizeType) | Sets the default print paper size from default printer's setting.(Inherited from [`LoadOptions`](../loadoptions/).) |
 
+### Examples
+
+```csharp
+[C#]
+
+using Aspose.Cells;
+using System;
+using System.Text;
+
+namespace Demos
+{
+    // Custom implementation of AbstractTextLoadOptions
+    public class CustomTextLoadOptions : AbstractTextLoadOptions
+    {
+        public CustomTextLoadOptions()
+        {
+            // Set default encoding to UTF8
+            this.Encoding = Encoding.UTF8;
+
+            // Set LoadStyleStrategy to None
+            this.LoadStyleStrategy = TxtLoadStyleStrategy.None;
+
+            // Enable conversion of numeric data
+            this.ConvertNumericData = true;
+
+            // Enable conversion of date data
+            this.ConvertDateTimeData = true;
+
+            // Keep precision for strings with length 15
+            this.KeepPrecision = true;
+        }
+    }
+
+    public class TextLoadOptionsDemo
+    {
+        public static void RunDemo()
+        {
+            // Create an instance of CustomTextLoadOptions
+            CustomTextLoadOptions loadOptions = new CustomTextLoadOptions();
+
+            // Load a CSV file with the custom load options
+            Workbook workbook = new Workbook("TextLoadOptionsDemo_original.csv", loadOptions);
+
+            // Access the first worksheet
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Print the value of the first cell
+            Console.WriteLine(sheet.Cells["A1"].StringValue);
+
+            // Save the workbook to a new file
+            workbook.Save("TextLoadOptionsDemo.xlsx");
+            workbook.Save("TextLoadOptionsDemo.pdf");
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [LoadOptions](../loadoptions/)

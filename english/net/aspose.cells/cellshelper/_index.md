@@ -48,6 +48,49 @@ public class CellsHelper
 | static [RowIndexToName](../../aspose.cells/cellshelper/rowindextoname/)(int) | Gets row name according to row index. |
 | static [RowNameToIndex](../../aspose.cells/cellshelper/rownametoindex/)(string) | Gets row index according to row name. |
 
+### Examples
+
+```csharp
+[C#]
+
+namespace Demos
+{
+    using Aspose.Cells;
+    using System;
+
+    public class CellsHelperDemo
+    {
+        public static void CellsHelperExample()
+        {
+            // Setting properties of CellsHelper
+            CellsHelper.SignificantDigits = 15;
+            CellsHelper.DPI = 96.0;
+            CellsHelper.StartupPath = "C:\\Program Files\\Aspose\\Cells";
+            CellsHelper.AltStartPath = "D:\\Aspose\\Cells";
+            CellsHelper.LibraryPath = "E:\\Aspose\\Cells\\Library";
+            CellsHelper.IsCloudPlatform = true;
+
+            // Assuming CustomImplementationFactory is already defined and instantiated elsewhere
+            CellsHelper.CustomImplementationFactory = new CustomImplementationFactory();
+
+            // Demonstrating the use of CellsHelper properties
+            Console.WriteLine("Significant Digits: " + CellsHelper.SignificantDigits);
+            Console.WriteLine("DPI: " + CellsHelper.DPI);
+            Console.WriteLine("Startup Path: " + CellsHelper.StartupPath);
+            Console.WriteLine("Alternate Startup Path: " + CellsHelper.AltStartPath);
+            Console.WriteLine("Library Path: " + CellsHelper.LibraryPath);
+            Console.WriteLine("Is Cloud Platform: " + CellsHelper.IsCloudPlatform);
+
+            // Example of using CustomImplementationFactory
+            var memoryStream = CellsHelper.CustomImplementationFactory.CreateMemoryStream();
+            Console.WriteLine("MemoryStream created with CustomImplementationFactory: " + (memoryStream != null));
+
+            return;
+        }
+    }
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Cells](../../aspose.cells/)
