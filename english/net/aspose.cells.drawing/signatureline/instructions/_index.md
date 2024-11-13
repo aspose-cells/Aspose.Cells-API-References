@@ -1,13 +1,13 @@
 ---
 title: SignatureLine.Instructions
 second_title: Aspose.Cells for .NET API Reference
-description: SignatureLine property. Gets and sets the text shown to user at signing time
+description: SignatureLine property. Gets or sets the text shown to user at signing time
 type: docs
 url: /net/aspose.cells.drawing/signatureline/instructions/
 ---
 ## SignatureLine.Instructions property
 
-Gets and sets the text shown to user at signing time.
+Gets or sets the text shown to user at signing time.
 
 ```csharp
 public string Instructions { get; set; }

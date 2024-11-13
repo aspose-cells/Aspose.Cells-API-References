@@ -13,6 +13,10 @@ Indicates whether to match entire cells contents
 public bool MatchEntireCellContents { get; set; }
 ```
 
+### Remarks
+
+The default value is true.
+
 ### See Also
 
 * class [ReplaceOptions](../)

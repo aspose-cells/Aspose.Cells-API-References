@@ -29,7 +29,9 @@ public class WorkbookSettings : IDisposable
 | [CultureInfo](../../aspose.cells/workbooksettings/cultureinfo/) { get; set; } | Gets or sets the system culture info. |
 | [DataExtractLoad](../../aspose.cells/workbooksettings/dataextractload/) { get; set; } | indicates whether the application last opened the workbook for data recovery. |
 | [Date1904](../../aspose.cells/workbooksettings/date1904/) { get; set; } | Gets or sets a value which represents if the workbook uses the 1904 date system. |
+| [DefaultImageResolution](../../aspose.cells/workbooksettings/defaultimageresolution/) { get; set; } | Gets and sets default resolution of image. |
 | [DefaultStyleSettings](../../aspose.cells/workbooksettings/defaultstylesettings/) { get; } | Gets the settings for default values of style-related properties for this workbook. |
+| [DiscardImageEditData](../../aspose.cells/workbooksettings/discardimageeditdata/) { get; set; } | Indicates whether discarding editting image data. |
 | [DisplayDrawingObjects](../../aspose.cells/workbooksettings/displaydrawingobjects/) { get; set; } | Indicates whether and how to show objects in the workbook. |
 | [EnableMacros](../../aspose.cells/workbooksettings/enablemacros/) { get; set; } | Enable macros; |
 | [FirstVisibleTab](../../aspose.cells/workbooksettings/firstvisibletab/) { get; set; } | Gets or sets the first visible worksheet tab. |
@@ -52,6 +54,7 @@ public class WorkbookSettings : IDisposable
 | [NumberGroupSeparator](../../aspose.cells/workbooksettings/numbergroupseparator/) { get; set; } | Gets or sets the character that separates groups of digits to the left of the decimal in numeric values. Default is the group separator of current Region. |
 | [PaperSize](../../aspose.cells/workbooksettings/papersize/) { get; set; } | Gets and sets the default print paper size. |
 | [Password](../../aspose.cells/workbooksettings/password/) { get; set; } | Represents Workbook file encryption password. |
+| [PropertiesFollowChartPoint](../../aspose.cells/workbooksettings/propertiesfollowchartpoint/) { get; set; } | Indicates whether datapoint properties and datalabels in all charts in this workbook follow their reference. |
 | [ProtectionType](../../aspose.cells/workbooksettings/protectiontype/) { get; } | Gets the protection type of the workbook. |
 | [QuotePrefixToStyle](../../aspose.cells/workbooksettings/quoteprefixtostyle/) { get; set; } | Indicates whether setting [`QuotePrefix`](../style/quoteprefix/) property when entering the string value(which starts with single quote mark ) to the cell |
 | [Region](../../aspose.cells/workbooksettings/region/) { get; set; } | Gets or sets the regional settings for workbook. |

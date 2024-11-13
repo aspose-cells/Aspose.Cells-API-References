@@ -86,6 +86,7 @@ public class Button : Shape
 | [Spt](../../aspose.cells.drawing/shape/spt/) { get; } | Specifies an optional number that an application can use to associate the particular shape with a defined shape type.(Inherited from [`Shape`](../shape/).) |
 | [Text](../../aspose.cells.drawing/shape/text/) { get; set; } | Gets and sets the text of this shape.(Inherited from [`Shape`](../shape/).) |
 | [TextBody](../../aspose.cells.drawing/shape/textbody/) { get; } | Gets and sets the setting of the shape's text.(Inherited from [`Shape`](../shape/).) |
+| [TextBoxOptions](../../aspose.cells.drawing/shape/textboxoptions/) { get; } | Gets the text information in the shape(Inherited from [`Shape`](../shape/).) |
 | [TextDirection](../../aspose.cells.drawing/shape/textdirection/) { get; set; } | Gets/Sets the direction of the text flow for this object.(Inherited from [`Shape`](../shape/).) |
 | [TextEffect](../../aspose.cells.drawing/shape/texteffect/) { get; } | Returns a TextEffectFormat object that contains text-effect formatting properties for the specified shape. Applies to Shape objects that represent WordArt.(Inherited from [`Shape`](../shape/).) |
 | [TextHorizontalAlignment](../../aspose.cells.drawing/shape/texthorizontalalignment/) { get; set; } | Gets and sets the text horizontal alignment type of the shape.(Inherited from [`Shape`](../shape/).) |

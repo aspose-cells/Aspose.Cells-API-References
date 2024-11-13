@@ -17,9 +17,10 @@ public class PowerQueryFormula
 
 | Name | Description |
 | --- | --- |
-| [FormulaDefinition](../../aspose.cells.querytables/powerqueryformula/formuladefinition/) { get; } | Gets the definition of the power query formula. |
+| virtual [FormulaDefinition](../../aspose.cells.querytables/powerqueryformula/formuladefinition/) { get; } | Gets the definition of the power query formula. |
 | [Name](../../aspose.cells.querytables/powerqueryformula/name/) { get; set; } | Gets and sets the name of the power query formula. |
 | [PowerQueryFormulaItems](../../aspose.cells.querytables/powerqueryformula/powerqueryformulaitems/) { get; } | Gets all items of power query formula. |
+| virtual [Type](../../aspose.cells.querytables/powerqueryformula/type/) { get; } | Gets the type of this power query formula. |
 
 ### See Also
 

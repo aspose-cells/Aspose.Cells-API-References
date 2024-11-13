@@ -13,9 +13,10 @@ Sets the Name of Axis Unit.
 public void SetAxisUnitName(DisplayUnitType type, string name)
 ```
 
-| Parameter | Description |
-| --- | --- |
-| name | local dependent name |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| type | DisplayUnitType | The unit type for displaying axis labels. |
+| name | String | local dependent name |
 
 ### See Also
 

@@ -1,13 +1,13 @@
 ---
 title: SignatureLine.ProviderId
 second_title: Aspose.Cells for .NET API Reference
-description: SignatureLine property. Gets and sets the id of signature provider
+description: SignatureLine property. Gets or sets the id of signature provider
 type: docs
 url: /net/aspose.cells.drawing/signatureline/providerid/
 ---
 ## SignatureLine.ProviderId property
 
-Gets and sets the id of signature provider.
+Gets or sets the id of signature provider.
 
 ```csharp
 public Guid ProviderId { get; set; }
@@ -24,7 +24,7 @@ It's typically the CLSID of the provider com add-in.
 [C#]
 // Create signature line object
 SignatureLine s2 = new SignatureLine();
-s2.ProviderId = System.Guid.NewGuid();
+s2.ProviderId = new Guid("xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx");//The GUID should be obtained from the documentation shipped with the provider.
 ```
 
 ### See Also

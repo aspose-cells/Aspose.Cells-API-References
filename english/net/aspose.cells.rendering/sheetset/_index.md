@@ -17,7 +17,8 @@ public class SheetSet
 
 | Name | Description |
 | --- | --- |
-| [SheetSet](sheetset/)(int[]) | Creates a sheet set based on exact sheet indexes. |
+| [SheetSet](sheetset/#constructor)(params int[]) | Creates a sheet set based on exact sheet indexes. |
+| [SheetSet](sheetset/#constructor_1)(params string[]) | Creates a sheet set based on exact sheet names. |
 
 ## Properties
 

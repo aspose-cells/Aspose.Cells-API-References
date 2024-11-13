@@ -82,6 +82,7 @@ public class Cell
 | [GetMergedRange](../../aspose.cells/cell/getmergedrange/)() | Returns a [`Range`](../range/) object which represents a merged range. |
 | [GetPrecedents](../../aspose.cells/cell/getprecedents/)() | Gets all references appearing in this cell's formula. |
 | [GetPrecedentsInCalculation](../../aspose.cells/cell/getprecedentsincalculation/)() | Gets all precedents(reference to cells in current workbook) used by this cell's formula while calculating it. |
+| [GetRichValue](../../aspose.cells/cell/getrichvalue/)() | Gets rich value of the cell. |
 | [GetStringValue](../../aspose.cells/cell/getstringvalue/)(CellValueFormatStrategy) | Gets the string value by specific formatted strategy. |
 | [GetStyle](../../aspose.cells/cell/getstyle/#getstyle)() | Gets the cell style. |
 | [GetStyle](../../aspose.cells/cell/getstyle/#getstyle_1)(bool) | If checkBorders is true, check whether other cells' borders will effect the style of this cell. |

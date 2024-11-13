@@ -13,6 +13,7 @@ is_root: true
 | --- | --- |
 | [Aspose.Cells](./aspose.cells/) | The **Aspose.Cells** namespace provides fundamental and base classes for generating, converting, modifying, rendering and printing Spreadsheets without utilizing Microsoft Excel. For example, [`Workbook`](aspose.cells/workbook/) class is the main entry to create or load and then manipulate a spreadsheet file, [`Cells`](aspose.cells/cells/) class is the main class to manipulate all data and properties in a sheet, ...etc. |
 | [Aspose.Cells.Charts](./aspose.cells.charts/) | The **Aspose.Cells.Charts** namespace provides classes that allow to access and drawing charts and sparkline in Microsoft Excel spreadsheets. |
+| [Aspose.Cells.DataModels](./aspose.cells.datamodels/) | The **Aspose.Cells.DataModels** namespace provides classes to access and update data models of the workbook. |
 | [Aspose.Cells.DigitalSignatures](./aspose.cells.digitalsignatures/) | The **Aspose.Cells.DigitalSignatures** namespace provides classes to sign documents and verify signatures. |
 | [Aspose.Cells.Drawing](./aspose.cells.drawing/) | The **Aspose.Cells.Drawing** namespace provides classes that allow to create and modify drawing shapes, form controls, and more advanced drawing objects. |
 | [Aspose.Cells.Drawing.ActiveXControls](./aspose.cells.drawing.activexcontrols/) | The **Aspose.Cells.Drawing.ActiveXControls** namespace provides classes that allow to draw and access ActiveXControl. |

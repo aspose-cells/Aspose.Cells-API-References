@@ -1,13 +1,13 @@
 ---
 title: SignatureLine.Signer
 second_title: Aspose.Cells for .NET API Reference
-description: SignatureLine property. Gets and sets the signer
+description: SignatureLine property. Gets or sets the signer
 type: docs
 url: /net/aspose.cells.drawing/signatureline/signer/
 ---
 ## SignatureLine.Signer property
 
-Gets and sets the signer.
+Gets or sets the signer.
 
 ```csharp
 public string Signer { get; set; }

@@ -1,13 +1,13 @@
 ---
 title: SignatureLine.Title
 second_title: Aspose.Cells for .NET API Reference
-description: SignatureLine property. Gets and sets the title of singer
+description: SignatureLine property. Gets or sets the title of singer
 type: docs
 url: /net/aspose.cells.drawing/signatureline/title/
 ---
 ## SignatureLine.Title property
 
-Gets and sets the title of singer.
+Gets or sets the title of singer.
 
 ```csharp
 public string Title { get; set; }

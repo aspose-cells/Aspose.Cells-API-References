@@ -38,6 +38,7 @@ public class Workbook : IDisposable
 | [CustomXmlParts](../../aspose.cells/workbook/customxmlparts/) { get; } | Represents a Custom XML Data Storage Part (custom XML data within a package). |
 | [DataConnections](../../aspose.cells/workbook/dataconnections/) { get; } | Gets the [`ExternalConnection`](../../aspose.cells.externalconnections/externalconnection/) collection. |
 | [DataMashup](../../aspose.cells/workbook/datamashup/) { get; } | Gets mashup data. |
+| [DataModel](../../aspose.cells/workbook/datamodel/) { get; } | Gets data model in the workbook. |
 | [DataSorter](../../aspose.cells/workbook/datasorter/) { get; } | Gets a DataSorter object to sort data. |
 | [DefaultStyle](../../aspose.cells/workbook/defaultstyle/) { get; set; } | Gets or sets the default [`Style`](../style/) object of the workbook. |
 | [FileFormat](../../aspose.cells/workbook/fileformat/) { get; set; } | Gets and sets the file format. |

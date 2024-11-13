@@ -23,9 +23,15 @@ public EbookSaveOptions()
 
 ## EbookSaveOptions(SaveFormat) {#constructor_1}
 
+Creates options for saving ebook file.
+
 ```csharp
 public EbookSaveOptions(SaveFormat saveFormat)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| saveFormat | SaveFormat | The file format. It should be Epub or Azw3. |
 
 ### See Also
 

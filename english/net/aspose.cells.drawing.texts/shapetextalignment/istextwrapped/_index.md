@@ -1,13 +1,13 @@
 ---
 title: ShapeTextAlignment.IsTextWrapped
 second_title: Aspose.Cells for .NET API Reference
-description: ShapeTextAlignment property. Gets and sets the text wrapped type of the shape which contains text
+description: ShapeTextAlignment property. Gets or sets the text wrapped type of the shape which contains text
 type: docs
 url: /net/aspose.cells.drawing.texts/shapetextalignment/istextwrapped/
 ---
 ## ShapeTextAlignment.IsTextWrapped property
 
-Gets and sets the text wrapped type of the shape which contains text.
+Gets or sets the text wrapped type of the shape which contains text.
 
 ```csharp
 public bool IsTextWrapped { get; set; }

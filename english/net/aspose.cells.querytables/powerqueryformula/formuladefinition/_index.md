@@ -10,7 +10,7 @@ url: /net/aspose.cells.querytables/powerqueryformula/formuladefinition/
 Gets the definition of the power query formula.
 
 ```csharp
-public string FormulaDefinition { get; }
+public virtual string FormulaDefinition { get; }
 ```
 
 ### See Also

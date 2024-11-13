@@ -30,9 +30,10 @@ public class FindOptions
 | [LookAtType](../../aspose.cells/findoptions/lookattype/) { get; set; } | Look at type. |
 | [LookInType](../../aspose.cells/findoptions/lookintype/) { get; set; } | Look in type. |
 | [RegexKey](../../aspose.cells/findoptions/regexkey/) { get; set; } | Indicates whether the searched key is regex. If true the searched key will be taken as regex and parsed. Otherwise the key will be parsed according to the rules in ms excel. |
-| [SeachOrderByRows](../../aspose.cells/findoptions/seachorderbyrows/) { get; set; } | Indicates whether search order by rows or columns. |
+| [SeachOrderByRows](../../aspose.cells/findoptions/seachorderbyrows/) { get; set; } | (**Obsolete.**) Indicates whether search order by rows or columns. |
 | [SearchBackward](../../aspose.cells/findoptions/searchbackward/) { get; set; } | Whether search backward for cells. |
 | [SearchNext](../../aspose.cells/findoptions/searchnext/) { get; set; } | (**Obsolete.**) Search order. True: search next. False: search previous. |
+| [SearchOrderByRows](../../aspose.cells/findoptions/searchorderbyrows/) { get; set; } | Indicates whether search order by rows or columns. |
 | [Style](../../aspose.cells/findoptions/style/) { get; set; } | The format to search for. |
 | [ValueTypeSensitive](../../aspose.cells/findoptions/valuetypesensitive/) { get; set; } | Indicates whether searched cell value type should be same with the searched key. |
 

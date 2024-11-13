@@ -10,21 +10,18 @@ url: /net/aspose.cells.querytables/powerqueryformulaparameter/
 Represents the parameter of power query formula.
 
 ```csharp
-public class PowerQueryFormulaParameter
+public class PowerQueryFormulaParameter : PowerQueryFormula
 ```
-
-## Constructors
-
-| Name | Description |
-| --- | --- |
-| [PowerQueryFormulaParameter](powerqueryformulaparameter/)() | The default constructor. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [Name](../../aspose.cells.querytables/powerqueryformulaparameter/name/) { get; set; } | Gets the name of parameter. |
-| [ParameterDefinition](../../aspose.cells.querytables/powerqueryformulaparameter/parameterdefinition/) { get; } | Gets the definition of the parameter. |
+| override [FormulaDefinition](../../aspose.cells.querytables/powerqueryformulaparameter/formuladefinition/) { get; } | Gets the definition of the parameter. |
+| [Name](../../aspose.cells.querytables/powerqueryformula/name/) { get; set; } | Gets and sets the name of the power query formula.(Inherited from [`PowerQueryFormula`](../powerqueryformula/).) |
+| [ParameterDefinition](../../aspose.cells.querytables/powerqueryformulaparameter/parameterdefinition/) { get; } | (**Obsolete.**) Gets the definition of the parameter. |
+| [PowerQueryFormulaItems](../../aspose.cells.querytables/powerqueryformula/powerqueryformulaitems/) { get; } | Gets all items of power query formula.(Inherited from [`PowerQueryFormula`](../powerqueryformula/).) |
+| override [Type](../../aspose.cells.querytables/powerqueryformulaparameter/type/) { get; } | Gets the type of power query formula. |
 | [Value](../../aspose.cells.querytables/powerqueryformulaparameter/value/) { get; set; } | Gets the value of parameter. |
 
 ### Examples
@@ -85,6 +82,7 @@ namespace Demos
 
 ### See Also
 
+* class [PowerQueryFormula](../powerqueryformula/)
 * namespace [Aspose.Cells.QueryTables](../../aspose.cells.querytables/)
 * assembly [Aspose.Cells](../../)
 

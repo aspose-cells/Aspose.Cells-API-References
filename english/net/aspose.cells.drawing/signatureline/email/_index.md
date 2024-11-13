@@ -1,13 +1,13 @@
 ---
 title: SignatureLine.Email
 second_title: Aspose.Cells for .NET API Reference
-description: SignatureLine property. Gets and sets the email of singer
+description: SignatureLine property. Gets or sets the email of singer
 type: docs
 url: /net/aspose.cells.drawing/signatureline/email/
 ---
 ## SignatureLine.Email property
 
-Gets and sets the email of singer.
+Gets or sets the email of singer.
 
 ```csharp
 public string Email { get; set; }

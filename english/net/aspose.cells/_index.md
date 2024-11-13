@@ -26,6 +26,7 @@ The **Aspose.Cells** namespace provides fundamental and base classes for generat
 | [CalculationData](./calculationdata/) | Represents the required data when calculating one function, such as function name, parameters, ...etc. |
 | [CalculationOptions](./calculationoptions/) | Represents options for calculation. |
 | [Cell](./cell/) | Encapsulates the object that represents a single Workbook cell. |
+| [CellRichValue](./cellrichvalue/) | Represents rich value of the cell. |
 | [Cells](./cells/) | Encapsulates a collection of cell relevant objects, such as [`Cell`](../aspose.cells/cell/), [`Row`](../aspose.cells/row/), ...etc. |
 | [CellsColor](./cellscolor/) | Represents all types of color. |
 | [CellsDataTableFactory](./cellsdatatablefactory/) | Utility to build ICellsDataTable from custom objects for user's convenience. |
@@ -125,6 +126,7 @@ The **Aspose.Cells** namespace provides fundamental and base classes for generat
 | [PaginatedSaveOptions](./paginatedsaveoptions/) | Represents the options for pagination. |
 | [PaneCollection](./panecollection/) | Represents all Pane objects shown in the specified window. |
 | [PasteOptions](./pasteoptions/) | Represents the paste special options. |
+| [PclSaveOptions](./pclsaveoptions/) | Represents the options for saving Pcl file. |
 | [PdfSaveOptions](./pdfsaveoptions/) | Represents the options for saving pdf file. |
 | [PptxSaveOptions](./pptxsaveoptions/) | Represents the pptx save options. |
 | [ProtectedRange](./protectedrange/) | A specified range to be allowed to edit when the sheet protection is ON. |
@@ -237,6 +239,7 @@ The **Aspose.Cells** namespace provides fundamental and base classes for generat
 | [DynamicFilterType](./dynamicfiltertype/) | Dynamic filter type. |
 | [EmfRenderSetting](./emfrendersetting/) | Setting for rendering Emf metafile. |
 | [EncryptionType](./encryptiontype/) | Encryption Type. Only used by excel2003. We will encrypt 2007/2010 workbook using SHA AES the same as Excel does, and this EncryptionType will be ignored. |
+| [ErrorCellValueType](./errorcellvaluetype/) | Represents a cell value which contains an error. |
 | [ErrorCheckType](./errorchecktype/) | Represents all error check type. |
 | [ExceptionType](./exceptiontype/) | Represents custom exception type code. |
 | [ExternalLinkType](./externallinktype/) | Represents the type of external link. |

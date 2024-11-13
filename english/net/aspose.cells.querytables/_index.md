@@ -18,6 +18,11 @@ The **Aspose.Cells.QueryTables** namespace provides classes to access and update
 | [PowerQueryFormulaItem](./powerqueryformulaitem/) | Represents the item of the power query formula. |
 | [PowerQueryFormulaItemCollection](./powerqueryformulaitemcollection/) | Represents all item of the power query formula. |
 | [PowerQueryFormulaParameter](./powerqueryformulaparameter/) | Represents the parameter of power query formula. |
-| [PowerQueryFormulaParameterCollection](./powerqueryformulaparametercollection/) | Represents the parameters of power query formula. |
+| [PowerQueryFormulaParameterCollection](./powerqueryformulaparametercollection/) |  |
+## Enumeration
+
+| Enumeration | Description |
+| --- | --- |
+| [PowerQueryFormulaType](./powerqueryformulatype/) | Represents the type of power query formula. |
 
 

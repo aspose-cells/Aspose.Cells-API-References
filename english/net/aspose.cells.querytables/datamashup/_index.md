@@ -17,7 +17,7 @@ public class DataMashup
 
 | Name | Description |
 | --- | --- |
-| [PowerQueryFormulaParameters](../../aspose.cells.querytables/datamashup/powerqueryformulaparameters/) { get; } | Gets all parameters of power query formulas. |
+| [PowerQueryFormulaParameters](../../aspose.cells.querytables/datamashup/powerqueryformulaparameters/) { get; } | (**Obsolete.**) Gets power query formula parameters. |
 | [PowerQueryFormulas](../../aspose.cells.querytables/datamashup/powerqueryformulas/) { get; } | Gets all power query formulas. |
 
 ### Examples

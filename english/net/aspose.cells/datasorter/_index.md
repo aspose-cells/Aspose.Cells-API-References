@@ -33,6 +33,7 @@ public class DataSorter
 
 | Name | Description |
 | --- | --- |
+| [AddColorKey](../../aspose.cells/datasorter/addcolorkey/)(int, SortOnType, SortOrder, Color) | Adds color sort key. |
 | [AddKey](../../aspose.cells/datasorter/addkey/#addkey_1)(int, SortOrder) | Adds sorted column index and sort order. |
 | [AddKey](../../aspose.cells/datasorter/addkey/#addkey_2)(int, SortOrder, string) | Adds sorted column index and sort order with custom sort list. |
 | [AddKey](../../aspose.cells/datasorter/addkey/#addkey_3)(int, SortOrder, string[]) | Adds sorted column index and sort order with custom sort list. |

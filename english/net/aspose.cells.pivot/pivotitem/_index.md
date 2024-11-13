@@ -18,11 +18,13 @@ public class PivotItem
 | Name | Description |
 | --- | --- |
 | [Index](../../aspose.cells.pivot/pivotitem/index/) { get; set; } | Gets the index of the pivot item in cache field. |
-| [IsFormula](../../aspose.cells.pivot/pivotitem/isformula/) { get; set; } | Indicates whether this pivot item is a calculated formula item. |
+| [IsCalculatedItem](../../aspose.cells.pivot/pivotitem/iscalculateditem/) { get; } | Indicates whether this pivot item is a calculated formula item. |
+| [IsDetailHidden](../../aspose.cells.pivot/pivotitem/isdetailhidden/) { get; set; } | Gets and sets whether the detail of this pivot item is hidden. |
+| [IsFormula](../../aspose.cells.pivot/pivotitem/isformula/) { get; set; } | (**Obsolete.**) Indicates whether this pivot item is a calculated formula item. |
 | [IsHidden](../../aspose.cells.pivot/pivotitem/ishidden/) { get; set; } | Gets and Sets whether the pivot item is hidden. |
-| [IsHideDetail](../../aspose.cells.pivot/pivotitem/ishidedetail/) { get; set; } | Gets and Sets whether the pivot item hides detail. |
+| [IsHideDetail](../../aspose.cells.pivot/pivotitem/ishidedetail/) { get; set; } | (**Obsolete.**) Gets and sets whether the pivot item hides detail. |
 | [IsMissing](../../aspose.cells.pivot/pivotitem/ismissing/) { get; } | Indicates whether the item is removed from the data source. |
-| [Name](../../aspose.cells.pivot/pivotitem/name/) { get; set; } |  |
+| [Name](../../aspose.cells.pivot/pivotitem/name/) { get; set; } | Gets the name of the pivot item. |
 | [Position](../../aspose.cells.pivot/pivotitem/position/) { get; set; } | Specifying the position index in all the PivotItems,not the PivotItems under the same parent node. |
 | [PositionInSameParentNode](../../aspose.cells.pivot/pivotitem/positioninsameparentnode/) { get; set; } | Specifying the position index in the PivotItems under the same parent node. |
 | [Value](../../aspose.cells.pivot/pivotitem/value/) { get; } | Gets the value of the pivot item |

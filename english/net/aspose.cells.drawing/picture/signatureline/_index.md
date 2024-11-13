@@ -22,7 +22,7 @@ public SignatureLine SignatureLine { get; set; }
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.Worksheets[0];
 //Adding a picture at the location of a cell whose row and column indices are 1 in the worksheet. It is "B2" cell
-int imgIndex = worksheet.Pictures.Add(1, 1, "example.jpeg");
+int imgIndex = worksheet.Pictures.Add(1, 1, (Stream)null);
 //Get the inserted picture object
 Picture pic = worksheet.Pictures[imgIndex];
 // Create signature line object

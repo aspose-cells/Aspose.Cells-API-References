@@ -5,7 +5,7 @@ description: PivotField method. Automatically group the field with internal
 type: docs
 url: /net/aspose.cells.pivot/pivotfield/groupby/
 ---
-## GroupBy(double, bool) {#groupby_1}
+## GroupBy(double, bool) {#groupby_3}
 
 Automatically group the field with internal
 
@@ -26,12 +26,12 @@ public void GroupBy(double interval, bool newField)
 
 ---
 
-## GroupBy(DateTime, DateTime, PivotGroupByType[], double, bool) {#groupby_3}
+## GroupBy(DateTime, DateTime, PivotGroupByType[], double, bool) {#groupby_2}
 
 Group the file by the date group types.
 
 ```csharp
-public void GroupBy(DateTime start, DateTime end, PivotGroupByType[] groups, double interval, 
+public bool GroupBy(DateTime start, DateTime end, PivotGroupByType[] groups, double interval, 
     bool firstAsNewField)
 ```
 
@@ -43,6 +43,10 @@ public void GroupBy(DateTime start, DateTime end, PivotGroupByType[] groups, dou
 | interval | Double | The interval |
 | firstAsNewField | Boolean | Indicates whether adding a new field to the pivottable. Only for the first group item. |
 
+### Return Value
+
+False means this field could not be grouped by date time.
+
 ### See Also
 
 * enum [PivotGroupByType](../../pivotgroupbytype/)
@@ -52,12 +56,12 @@ public void GroupBy(DateTime start, DateTime end, PivotGroupByType[] groups, dou
 
 ---
 
-## GroupBy(double, double, double, bool) {#groupby_2}
+## GroupBy(double, double, double, bool) {#groupby_1}
 
 Group the file by number.
 
 ```csharp
-public void GroupBy(double start, double end, double interval, bool newField)
+public bool GroupBy(double start, double end, double interval, bool newField)
 ```
 
 | Parameter | Type | Description |
@@ -66,6 +70,10 @@ public void GroupBy(double start, double end, double interval, bool newField)
 | end | Double | The end of value |
 | interval | Double | The interval |
 | newField | Boolean | Indicates whether adding a new field to the pivottable |
+
+### Return Value
+
+False means this field could not be grouped by date time.
 
 ### See Also
 
@@ -80,13 +88,17 @@ public void GroupBy(double start, double end, double interval, bool newField)
 Custom group the field.
 
 ```csharp
-public void GroupBy(CustomPiovtFieldGroupItem[] customGroupItems, bool newField)
+public bool GroupBy(CustomPiovtFieldGroupItem[] customGroupItems, bool newField)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | customGroupItems | CustomPiovtFieldGroupItem[] | The custom group items. |
 | newField | Boolean | Indicates whether adding a new field to the pivottable |
+
+### Return Value
+
+False means this field could not be grouped by date time.
 
 ### See Also
 

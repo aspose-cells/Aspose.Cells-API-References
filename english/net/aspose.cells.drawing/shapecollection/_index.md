@@ -36,6 +36,7 @@ public class ShapeCollection : CollectionBase<Shape>
 | [AddCopy](../../aspose.cells.drawing/shapecollection/addcopy/)(Shape, int, int, int, int) | Adds and copy a shape to the worksheet. |
 | [AddEquation](../../aspose.cells.drawing/shapecollection/addequation/)(int, int, int, int, int, int) | Add an equation object to the worksheet. |
 | [AddFreeFloatingShape](../../aspose.cells.drawing/shapecollection/addfreefloatingshape/)(MsoDrawingType, int, int, int, int, byte[], bool) | Adds a free floating shape to the worksheet.Only applies for line/image shape. |
+| [AddFreeform](../../aspose.cells.drawing/shapecollection/addfreeform/)(int, int, int, int, int, int, ShapePath[]) | Adds a freeform shape to the worksheet. |
 | [AddGroupBox](../../aspose.cells.drawing/shapecollection/addgroupbox/)(int, int, int, int, int, int) | Adds a GroupBox to the worksheet. |
 | [AddIcons](../../aspose.cells.drawing/shapecollection/addicons/)(int, int, int, int, int, int, byte[], byte[]) | Adds svg image. |
 | [AddLabel](../../aspose.cells.drawing/shapecollection/addlabel/)(int, int, int, int, int, int) | Adds a Label to the worksheet. |
@@ -57,6 +58,7 @@ public class ShapeCollection : CollectionBase<Shape>
 | [AddShapeInChart](../../aspose.cells.drawing/shapecollection/addshapeinchart/#addshapeinchart_1)(MsoDrawingType, PlacementType, int, int, int, int, byte[]) | Add a shape to chart .All unit is 1/4000 of chart area. |
 | [AddShapeInChartByScale](../../aspose.cells.drawing/shapecollection/addshapeinchartbyscale/#addshapeinchartbyscale)(MsoDrawingType, PlacementType, double, double, double, double) | Add a shape to chart. All unit is percent scale of chart area. |
 | [AddShapeInChartByScale](../../aspose.cells.drawing/shapecollection/addshapeinchartbyscale/#addshapeinchartbyscale_1)(MsoDrawingType, PlacementType, double, double, double, double, byte[]) | Add a shape to chart .All unit is 1/4000 of chart area. |
+| [AddSignatureLine](../../aspose.cells.drawing/shapecollection/addsignatureline/)(int, int, SignatureLine) | Adds a Signature Line to the worksheet. |
 | [AddSpinner](../../aspose.cells.drawing/shapecollection/addspinner/)(int, int, int, int, int, int) | Adds a Spinner to the worksheet. |
 | [AddSvg](../../aspose.cells.drawing/shapecollection/addsvg/)(int, int, int, int, int, int, byte[], byte[]) | Adds svg image. |
 | [AddTextBox](../../aspose.cells.drawing/shapecollection/addtextbox/)(int, int, int, int, int, int) | Adds a text box to the worksheet. |

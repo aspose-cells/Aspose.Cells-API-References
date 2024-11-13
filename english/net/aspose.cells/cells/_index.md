@@ -213,7 +213,7 @@ public class Cells : IDisposable, IEnumerable
 | [ShowGroupDetail](../../aspose.cells/cells/showgroupdetail/)(bool, int) | Expands the grouped rows/columns. |
 | [Subtotal](../../aspose.cells/cells/subtotal/#subtotal)(CellArea, int, ConsolidationFunction, int[]) | Creates subtotals for the range. |
 | [Subtotal](../../aspose.cells/cells/subtotal/#subtotal_1)(CellArea, int, ConsolidationFunction, int[], bool, bool, bool) | Creates subtotals for the range. |
-| [TextToColumns](../../aspose.cells/cells/texttocolumns/)(int, int, int, TxtLoadOptions) | Splits the text in the column to columns. |
+| [TextToColumns](../../aspose.cells/cells/texttocolumns/)(int, int, int, TxtLoadOptions) | Splits content in specified column into multiple columns.. |
 | [UngroupColumns](../../aspose.cells/cells/ungroupcolumns/)(int, int) | Ungroups columns. |
 | [UngroupRows](../../aspose.cells/cells/ungrouprows/#ungrouprows)(int, int) | Ungroups rows. |
 | [UngroupRows](../../aspose.cells/cells/ungrouprows/#ungrouprows_1)(int, int, bool) | Ungroups rows. |

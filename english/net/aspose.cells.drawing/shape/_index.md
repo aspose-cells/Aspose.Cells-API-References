@@ -86,6 +86,7 @@ public class Shape
 | [Spt](../../aspose.cells.drawing/shape/spt/) { get; } | Specifies an optional number that an application can use to associate the particular shape with a defined shape type. |
 | [Text](../../aspose.cells.drawing/shape/text/) { get; set; } | Gets and sets the text of this shape. |
 | [TextBody](../../aspose.cells.drawing/shape/textbody/) { get; } | Gets and sets the setting of the shape's text. |
+| [TextBoxOptions](../../aspose.cells.drawing/shape/textboxoptions/) { get; } | Gets the text information in the shape |
 | [TextDirection](../../aspose.cells.drawing/shape/textdirection/) { get; set; } | Gets/Sets the direction of the text flow for this object. |
 | [TextEffect](../../aspose.cells.drawing/shape/texteffect/) { get; } | Returns a TextEffectFormat object that contains text-effect formatting properties for the specified shape. Applies to Shape objects that represent WordArt. |
 | [TextHorizontalAlignment](../../aspose.cells.drawing/shape/texthorizontalalignment/) { get; set; } | Gets and sets the text horizontal alignment type of the shape. |
