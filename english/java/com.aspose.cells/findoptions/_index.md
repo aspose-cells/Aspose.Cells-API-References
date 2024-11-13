@@ -66,6 +66,7 @@ Represents find options.
 | [getSeachOrderByRows()](#getSeachOrderByRows--) | Indicates whether search order by rows or columns. |
 | [getSearchBackward()](#getSearchBackward--) | Whether search backward for cells. |
 | [getSearchNext()](#getSearchNext--) | Search order. |
+| [getSearchOrderByRows()](#getSearchOrderByRows--) | Indicates whether search order by rows or columns. |
 | [getStyle()](#getStyle--) | The format to search for. |
 | [getValueTypeSensitive()](#getValueTypeSensitive--) | Indicates whether searched cell value type should be same with the searched key. |
 | [hashCode()](#hashCode--) |  |
@@ -81,6 +82,7 @@ Represents find options.
 | [setSeachOrderByRows(boolean value)](#setSeachOrderByRows-boolean-) | Indicates whether search order by rows or columns. |
 | [setSearchBackward(boolean value)](#setSearchBackward-boolean-) | Whether search backward for cells. |
 | [setSearchNext(boolean value)](#setSearchNext-boolean-) | Search order. |
+| [setSearchOrderByRows(boolean value)](#setSearchOrderByRows-boolean-) | Indicates whether search order by rows or columns. |
 | [setStyle(Style value)](#setStyle-com.aspose.cells.Style-) | The format to search for. |
 | [setValueTypeSensitive(boolean value)](#setValueTypeSensitive-boolean-) | Indicates whether searched cell value type should be same with the searched key. |
 | [toString()](#toString--) |  |
@@ -190,6 +192,10 @@ public boolean getSeachOrderByRows()
 
 Indicates whether search order by rows or columns.
 
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use FindOptions.SearchOrderByRows property. This property will be removed 12 months later since November 2018. Aspose apologizes for any inconvenience you may have experienced.
+
 **Returns:**
 boolean
 ### getSearchBackward() {#getSearchBackward--}
@@ -213,6 +219,16 @@ Search order. True: search next. False: search previous.
 **Remarks**
 
 NOTE: This member is now obsolete. Instead, please use FindOptions.SearchBackward property. This property will be removed 12 months later since November 2018. Aspose apologizes for any inconvenience you may have experienced.
+
+**Returns:**
+boolean
+### getSearchOrderByRows() {#getSearchOrderByRows--}
+```
+public boolean getSearchOrderByRows()
+```
+
+
+Indicates whether search order by rows or columns.
 
 **Returns:**
 boolean
@@ -362,6 +378,10 @@ public void setSeachOrderByRows(boolean value)
 
 Indicates whether search order by rows or columns.
 
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use FindOptions.SearchOrderByRows property. This property will be removed 12 months later since November 2018. Aspose apologizes for any inconvenience you may have experienced.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -391,6 +411,19 @@ Search order. True: search next. False: search previous.
 **Remarks**
 
 NOTE: This member is now obsolete. Instead, please use FindOptions.SearchBackward property. This property will be removed 12 months later since November 2018. Aspose apologizes for any inconvenience you may have experienced.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setSearchOrderByRows(boolean value) {#setSearchOrderByRows-boolean-}
+```
+public void setSearchOrderByRows(boolean value)
+```
+
+
+Indicates whether search order by rows or columns.
 
 **Parameters:**
 | Parameter | Type | Description |

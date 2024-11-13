@@ -7,41 +7,33 @@ url: /java/com.aspose.cells/powerqueryformulaparameter/
 ---
 
 **Inheritance:**
-java.lang.Object
+java.lang.Object, [com.aspose.cells.PowerQueryFormula](../../com.aspose.cells/powerqueryformula)
 ```
-public class PowerQueryFormulaParameter
+public class PowerQueryFormulaParameter extends PowerQueryFormula
 ```
 
 Represents the parameter of power query formula.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [PowerQueryFormulaParameter()](#PowerQueryFormulaParameter--) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getName()](#getName--) | Gets the name of parameter. |
+| [getFormulaDefinition()](#getFormulaDefinition--) | Gets the definition of the parameter. |
+| [getName()](#getName--) | Gets the name of the power query formula. |
 | [getParameterDefinition()](#getParameterDefinition--) | Gets the definition of the parameter. |
+| [getPowerQueryFormulaItems()](#getPowerQueryFormulaItems--) | Gets all items of power query formula. |
+| [getType()](#getType--) | Gets the type of power query formula. |
 | [getValue()](#getValue--) | Gets the value of parameter. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setName(String value)](#setName-java.lang.String-) | Gets the name of parameter. |
+| [setName(String value)](#setName-java.lang.String-) | Sets the name of the power query formula. |
 | [setValue(String value)](#setValue-java.lang.String-) | Gets the value of parameter. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### PowerQueryFormulaParameter() {#PowerQueryFormulaParameter--}
-```
-public PowerQueryFormulaParameter()
-```
-
-
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -67,13 +59,23 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
+### getFormulaDefinition() {#getFormulaDefinition--}
+```
+public String getFormulaDefinition()
+```
+
+
+Gets the definition of the parameter.
+
+**Returns:**
+java.lang.String
 ### getName() {#getName--}
 ```
 public String getName()
 ```
 
 
-Gets the name of parameter.
+Gets the name of the power query formula.
 
 **Returns:**
 java.lang.String
@@ -85,8 +87,34 @@ public String getParameterDefinition()
 
 Gets the definition of the parameter.
 
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PowerQueryFormulaParameter.FormulaDefinition property. This property will be removed 12 months later since November 2024. Aspose apologizes for any inconvenience you may have experienced.
+
 **Returns:**
 java.lang.String
+### getPowerQueryFormulaItems() {#getPowerQueryFormulaItems--}
+```
+public PowerQueryFormulaItemCollection getPowerQueryFormulaItems()
+```
+
+
+Gets all items of power query formula.
+
+**Returns:**
+[PowerQueryFormulaItemCollection](../../com.aspose.cells/powerqueryformulaitemcollection)
+### getType() {#getType--}
+```
+public int getType()
+```
+
+
+Gets the type of power query formula.
+
+See [PowerQueryFormulaType](../../com.aspose.cells/powerqueryformulatype).
+
+**Returns:**
+int
 ### getValue() {#getValue--}
 ```
 public String getValue()
@@ -129,7 +157,7 @@ public void setName(String value)
 ```
 
 
-Gets the name of parameter.
+Sets the name of the power query formula.
 
 **Parameters:**
 | Parameter | Type | Description |

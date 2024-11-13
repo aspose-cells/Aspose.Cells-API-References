@@ -13,6 +13,10 @@ public class PowerQueryFormulaParameterCollection extends CollectionBase
 ```
 
 Represents the parameters of power query formula.
+
+**Remarks**
+
+NOTE: This class is now obsolete. Instead, please use PowerQueryFormulaCollection class. This property will be removed 12 months later since November 2024. Aspose apologizes for any inconvenience you may have experienced.
 ## Constructors
 
 | Constructor | Description |

@@ -70,6 +70,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [Cell](../com.aspose.cells/cell) | Encapsulates the object that represents a single Workbook cell. |
 | [CellArea](../com.aspose.cells/cellarea) | Represent an area of cells. |
 | [CellBorderType](../com.aspose.cells/cellbordertype) | Enumerates a cell's border type. |
+| [CellRichValue](../com.aspose.cells/cellrichvalue) | Represents rich value of the cell. |
 | [CellValue](../com.aspose.cells/cellvalue) | Represents the cell value and corresponding type. |
 | [CellValueFormatStrategy](../com.aspose.cells/cellvalueformatstrategy) | Specifies how to apply style for the value of the cell. |
 | [CellValueType](../com.aspose.cells/cellvaluetype) | Specifies a cell value type. |
@@ -174,7 +175,12 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [DataLabels](../com.aspose.cells/datalabels) | Encapsulates a collection of all the DataLabel objects for the specified Series. |
 | [DataLabelsSeparatorType](../com.aspose.cells/datalabelsseparatortype) | Represents the separator type of DataLabels. |
 | [DataMashup](../com.aspose.cells/datamashup) | Represents mashup data. |
+| [DataModel](../com.aspose.cells/datamodel) | Represents the data model. |
 | [DataModelConnection](../com.aspose.cells/datamodelconnection) | Specifies a data model connection |
+| [DataModelRelationship](../com.aspose.cells/datamodelrelationship) | Represents a single relationship in the spreadsheet data model. |
+| [DataModelRelationshipCollection](../com.aspose.cells/datamodelrelationshipcollection) | Represents the relationships. |
+| [DataModelTable](../com.aspose.cells/datamodeltable) | Represents properties of a single table in spreadsheet data model. |
+| [DataModelTableCollection](../com.aspose.cells/datamodeltablecollection) | Represents the list of the data model table. |
 | [DataSorter](../com.aspose.cells/datasorter) | Summary description for DataSorter. |
 | [DataSorterKey](../com.aspose.cells/datasorterkey) | Represents the key of the data sorter. |
 | [DataSorterKeyCollection](../com.aspose.cells/datasorterkeycollection) | Represents the key list of data sorter. |
@@ -225,6 +231,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [ErrorBar](../com.aspose.cells/errorbar) | Represents error bar of data series. |
 | [ErrorBarDisplayType](../com.aspose.cells/errorbardisplaytype) | Represents error bar display type. |
 | [ErrorBarType](../com.aspose.cells/errorbartype) | Represents error bar amount type. |
+| [ErrorCellValueType](../com.aspose.cells/errorcellvaluetype) | Represents a cell value which contains an error. |
 | [ErrorCheckOption](../com.aspose.cells/errorcheckoption) | Error check setting applied on certain ranges. |
 | [ErrorCheckOptionCollection](../com.aspose.cells/errorcheckoptioncollection) | Represents all error check option. |
 | [ErrorCheckType](../com.aspose.cells/errorchecktype) | Represents all error check type. |
@@ -431,6 +438,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [PasteOptions](../com.aspose.cells/pasteoptions) | Represents the paste special options. |
 | [PasteType](../com.aspose.cells/pastetype) | Represents the paste special type. |
 | [PatternFill](../com.aspose.cells/patternfill) | Encapsulates the object that represents pattern fill format |
+| [PclSaveOptions](../com.aspose.cells/pclsaveoptions) | Represents the options for saving Pcl file. |
 | [PdfBookmarkEntry](../com.aspose.cells/pdfbookmarkentry) | PdfBookmarkEntry is an entry in pdf bookmark. |
 | [PdfCompliance](../com.aspose.cells/pdfcompliance) | Allowing user to set PDF conversion's Compatibility |
 | [PdfCompressionCore](../com.aspose.cells/pdfcompressioncore) | Specifies a type of compression applied to all content in the PDF file except images. |
@@ -498,6 +506,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [PowerQueryFormulaItemCollection](../com.aspose.cells/powerqueryformulaitemcollection) | Represents all item of the power query formula. |
 | [PowerQueryFormulaParameter](../com.aspose.cells/powerqueryformulaparameter) | Represents the parameter of power query formula. |
 | [PowerQueryFormulaParameterCollection](../com.aspose.cells/powerqueryformulaparametercollection) | Represents the parameters of power query formula. |
+| [PowerQueryFormulaType](../com.aspose.cells/powerqueryformulatype) | Represents the type of power query formula. |
 | [PptxSaveOptions](../com.aspose.cells/pptxsaveoptions) | Represents the pptx save options. |
 | [PresetCameraType](../com.aspose.cells/presetcameratype) | Represent different algorithmic methods for setting all camera properties, including position. |
 | [PresetMaterialType](../com.aspose.cells/presetmaterialtype) | Describes surface appearance of a shape. |
@@ -587,6 +596,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [ShapeSegmentPath](../com.aspose.cells/shapesegmentpath) | Represents a segment path in a path of the freeform. |
 | [ShapeSegmentPathCollection](../com.aspose.cells/shapesegmentpathcollection) | Represents a creation path consisting of a series of moves, lines and curves that when combined will form a geometric shape. |
 | [ShapeTextAlignment](../com.aspose.cells/shapetextalignment) | Represents the setting of shape's text alignment; |
+| [ShapeTextVerticalAlignmentType](../com.aspose.cells/shapetextverticalalignmenttype) | It corresponds to "Format Shape - Text Options - Text Box - Vertical Alignment" in Excel. |
 | [SheetPrintingPreview](../com.aspose.cells/sheetprintingpreview) | Worksheet printing preview. |
 | [SheetRender](../com.aspose.cells/sheetrender) | Represents a worksheet render which can render worksheet to various images such as (BMP, PNG, JPEG, TIFF..) |
 | [SheetSet](../com.aspose.cells/sheetset) | Describes a set of sheets. |
@@ -594,6 +604,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [ShiftType](../com.aspose.cells/shifttype) | Represent the shift options when deleting a range of cells. |
 | [ShowDropButtonType](../com.aspose.cells/showdropbuttontype) | Specifies when to show the drop button |
 | [SignatureLine](../com.aspose.cells/signatureline) | Represent the signature line. |
+| [SignatureType](../com.aspose.cells/signaturetype) | Specifies the signature type. |
 | [Slicer](../com.aspose.cells/slicer) | summary description of Slicer View |
 | [SlicerCache](../com.aspose.cells/slicercache) | Represent summary description of slicer cache |
 | [SlicerCacheCrossFilterType](../com.aspose.cells/slicercachecrossfiltertype) | Represent the type of SlicerCacheCrossFilterType |
@@ -651,6 +662,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [TextBox](../com.aspose.cells/textbox) | Encapsulates the object that represents a textbox in a spreadsheet. |
 | [TextBoxActiveXControl](../com.aspose.cells/textboxactivexcontrol) | Represents a text box ActiveX control. |
 | [TextBoxCollection](../com.aspose.cells/textboxcollection) | Encapsulates a collection of [TextBox](../com.aspose.cells/textbox) objects. |
+| [TextBoxOptions](../com.aspose.cells/textboxoptions) | Represents the text options of the shape |
 | [TextCapsType](../com.aspose.cells/textcapstype) | This type specifies the cap types of the text. |
 | [TextCrossType](../com.aspose.cells/textcrosstype) | Enumerates displaying text type when the text width is larger than cell width. |
 | [TextDirectionType](../com.aspose.cells/textdirectiontype) | Represents the direction of the text flow for this paragraph. |

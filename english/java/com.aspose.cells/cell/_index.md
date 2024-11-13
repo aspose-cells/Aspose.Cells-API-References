@@ -98,6 +98,7 @@ Encapsulates the object that represents a single Workbook cell.
 | [getPrecedents()](#getPrecedents--) | Gets all references appearing in this cell's formula. |
 | [getPrecedentsInCalculation()](#getPrecedentsInCalculation--) | Gets all precedents(reference to cells in current workbook) used by this cell's formula while calculating it. |
 | [getR1C1Formula()](#getR1C1Formula--) | Gets a R1C1 formula of the [Cell](../../com.aspose.cells/cell). |
+| [getRichValue()](#getRichValue--) | Gets rich value of the cell. |
 | [getRow()](#getRow--) | Gets row number (zero based) of the cell. |
 | [getSharedStyleIndex()](#getSharedStyleIndex--) | Gets cell's shared style index in the style pool. |
 | [getStringValue()](#getStringValue--) | Gets the string value contained in the cell. |
@@ -785,6 +786,16 @@ Gets a R1C1 formula of the [Cell](../../com.aspose.cells/cell).
 
 **Returns:**
 java.lang.String
+### getRichValue() {#getRichValue--}
+```
+public CellRichValue getRichValue()
+```
+
+
+Gets rich value of the cell.
+
+**Returns:**
+[CellRichValue](../../com.aspose.cells/cellrichvalue)
 ### getRow() {#getRow--}
 ```
 public int getRow()

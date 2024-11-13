@@ -132,6 +132,10 @@ public int getMergedCellsShrinkType()
 
 Indicates how to process merged cells when deleting blank rows/columns.
 
+See [MergedCellsShrinkType](../../com.aspose.cells/mergedcellsshrinktype).
+
+**Remarks**
+
 For [MergedCellsShrinkType.KEEP\_HEADER\_ONLY](../../com.aspose.cells/mergedcellsshrinktype\#KEEP-HEADER-ONLY), all cells in it will be taken as blank except the non-blank top-left cell. It is the default value of this property.
 
 For [MergedCellsShrinkType.NONE](../../com.aspose.cells/mergedcellsshrinktype\#NONE), all cells in it will be taken as non-blank.
@@ -139,8 +143,6 @@ For [MergedCellsShrinkType.NONE](../../com.aspose.cells/mergedcellsshrinktype\#N
 For [MergedCellsShrinkType.SHRINK\_TO\_FIT](../../com.aspose.cells/mergedcellsshrinktype\#SHRINK-TO-FIT), all cells outside the content display area will be taken as blank.
 
 
-
-See [MergedCellsShrinkType](../../com.aspose.cells/mergedcellsshrinktype).
 
 **Returns:**
 int
@@ -258,6 +260,10 @@ public void setMergedCellsShrinkType(int value)
 
 Indicates how to process merged cells when deleting blank rows/columns.
 
+See [MergedCellsShrinkType](../../com.aspose.cells/mergedcellsshrinktype).
+
+**Remarks**
+
 For [MergedCellsShrinkType.KEEP\_HEADER\_ONLY](../../com.aspose.cells/mergedcellsshrinktype\#KEEP-HEADER-ONLY), all cells in it will be taken as blank except the non-blank top-left cell. It is the default value of this property.
 
 For [MergedCellsShrinkType.NONE](../../com.aspose.cells/mergedcellsshrinktype\#NONE), all cells in it will be taken as non-blank.
@@ -265,8 +271,6 @@ For [MergedCellsShrinkType.NONE](../../com.aspose.cells/mergedcellsshrinktype\#N
 For [MergedCellsShrinkType.SHRINK\_TO\_FIT](../../com.aspose.cells/mergedcellsshrinktype\#SHRINK-TO-FIT), all cells outside the content display area will be taken as blank.
 
 
-
-See [MergedCellsShrinkType](../../com.aspose.cells/mergedcellsshrinktype).
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -23,6 +23,7 @@ Represents the function of power query.
 | [getFormulaDefinition()](#getFormulaDefinition--) | Gets the definition of the power query formula. |
 | [getName()](#getName--) | Gets the name of the power query formula. |
 | [getPowerQueryFormulaItems()](#getPowerQueryFormulaItems--) | Gets all items of power query formula. |
+| [getType()](#getType--) | Gets the type of power query formula. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -97,6 +98,18 @@ Gets all items of power query formula.
 
 **Returns:**
 [PowerQueryFormulaItemCollection](../../com.aspose.cells/powerqueryformulaitemcollection)
+### getType() {#getType--}
+```
+public int getType()
+```
+
+
+Gets the type of power query formula.
+
+See [PowerQueryFormulaType](../../com.aspose.cells/powerqueryformulatype).
+
+**Returns:**
+int
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

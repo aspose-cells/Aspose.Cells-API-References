@@ -98,6 +98,10 @@ public boolean getMatchEntireCellContents()
 
 Indicates whether to match entire cells contents
 
+**Remarks**
+
+The default value is true.
+
 **Returns:**
 boolean
 ### getRegexKey() {#getRegexKey--}
@@ -169,6 +173,10 @@ public void setMatchEntireCellContents(boolean value)
 
 
 Indicates whether to match entire cells contents
+
+**Remarks**
+
+The default value is true.
 
 **Parameters:**
 | Parameter | Type | Description |

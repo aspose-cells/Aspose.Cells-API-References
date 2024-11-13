@@ -248,7 +248,7 @@ Encapsulates a collection of cell relevant objects, such as [Cell](../../com.asp
 | [showGroupDetail(boolean isVertical, int index)](#showGroupDetail-boolean-int-) | Expands the grouped rows/columns. |
 | [subtotal(CellArea ca, int groupBy, int function, int[] totalList)](#subtotal-com.aspose.cells.CellArea-int-int-int---) | Creates subtotals for the range. |
 | [subtotal(CellArea ca, int groupBy, int function, int[] totalList, boolean replace, boolean pageBreaks, boolean summaryBelowData)](#subtotal-com.aspose.cells.CellArea-int-int-int---boolean-boolean-boolean-) | Creates subtotals for the range. |
-| [textToColumns(int row, int column, int totalRows, TxtLoadOptions options)](#textToColumns-int-int-int-com.aspose.cells.TxtLoadOptions-) | Splits the text in the column to columns. |
+| [textToColumns(int row, int column, int totalRows, TxtLoadOptions options)](#textToColumns-int-int-int-com.aspose.cells.TxtLoadOptions-) | Splits content in specified column into multiple columns.. |
 | [toString()](#toString--) |  |
 | [unMerge(int firstRow, int firstColumn, int totalRows, int totalColumns)](#unMerge-int-int-int-int-) | Unmerges a specified range of merged cells. |
 | [ungroupColumns(int firstIndex, int lastIndex)](#ungroupColumns-int-int-) | Ungroups columns. |
@@ -3204,11 +3204,11 @@ Creates subtotals for the range.
 
 ### textToColumns(int row, int column, int totalRows, TxtLoadOptions options) {#textToColumns-int-int-int-com.aspose.cells.TxtLoadOptions-}
 ```
-public void textToColumns(int row, int column, int totalRows, TxtLoadOptions options)
+public int textToColumns(int row, int column, int totalRows, TxtLoadOptions options)
 ```
 
 
-Splits the text in the column to columns.
+Splits content in specified column into multiple columns..
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3218,6 +3218,8 @@ Splits the text in the column to columns.
 | totalRows | int | The number of rows. |
 | options | [TxtLoadOptions](../../com.aspose.cells/txtloadoptions) | The split options. |
 
+**Returns:**
+int - Total column count of the split values.
 ### toString() {#toString--}
 ```
 public String toString()

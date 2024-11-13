@@ -17,7 +17,7 @@ Signature in file.
 
 | Constructor | Description |
 | --- | --- |
-| [DigitalSignature(byte[] rawData, String password, String comments, DateTime signTime)](#DigitalSignature-byte---java.lang.String-java.lang.String-com.aspose.cells.DateTime-) | Constructor of digitalSignature. |
+| [DigitalSignature(KeyStore certificate, String privateKeyPassword, String comments, DateTime signTime)](#DigitalSignature-java.security.KeyStore-java.lang.String-java.lang.String-com.aspose.cells.DateTime-) | Constructor of digitalSignature. |
 ## Methods
 
 | Method | Description |
@@ -48,19 +48,19 @@ Signature in file.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### DigitalSignature(byte[] rawData, String password, String comments, DateTime signTime) {#DigitalSignature-byte---java.lang.String-java.lang.String-com.aspose.cells.DateTime-}
+### DigitalSignature(KeyStore certificate, String privateKeyPassword, String comments, DateTime signTime) {#DigitalSignature-java.security.KeyStore-java.lang.String-java.lang.String-com.aspose.cells.DateTime-}
 ```
-public DigitalSignature(byte[] rawData, String password, String comments, DateTime signTime)
+public DigitalSignature(KeyStore certificate, String privateKeyPassword, String comments, DateTime signTime)
 ```
 
 
-Constructor of digitalSignature. Uses Bouncy Castle implementation.
+Constructor of digitalSignature.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rawData | byte[] | A byte array containing data from an X.509 certificate. |
-| password | java.lang.String | The password required to access the X.509 certificate data. |
+| certificate | java.security.KeyStore | Certificate object that was used to sign the document. |
+| privateKeyPassword | java.lang.String | The password for private key. |
 | comments | java.lang.String | The purpose to signature. |
 | signTime | [DateTime](../../com.aspose.cells/datetime) | The utc time when the document was signed. |
 

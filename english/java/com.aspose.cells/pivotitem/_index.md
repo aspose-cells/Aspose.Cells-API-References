@@ -30,6 +30,8 @@ Represents a item in a PivotField report.
 | [getValue()](#getValue--) | Gets the value of the pivot item |
 | [hashCode()](#hashCode--) |  |
 | [hide(boolean value)](#hide-boolean-) | Sets whether the pivot item is hidden. |
+| [isCalculatedItem()](#isCalculatedItem--) | Indicates whether this pivot item is a calculated formula item. |
+| [isDetailHidden()](#isDetailHidden--) | Gets whether the detail of this pivot item is hidden. |
 | [isFormula()](#isFormula--) | Indicates whether this pivot item is a calculated formula item. |
 | [isHidden()](#isHidden--) | Gets whether the pivot item is hidden. |
 | [isHideDetail()](#isHideDetail--) | Gets whether the pivot item hides detail. |
@@ -37,6 +39,7 @@ Represents a item in a PivotField report.
 | [move(int count, boolean isSameParent)](#move-int-boolean-) | Moves the item up or down |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
+| [setDetailHidden(boolean value)](#setDetailHidden-boolean-) | Sets whether the detail of this pivot item is hidden. |
 | [setFormula(boolean value)](#setFormula-boolean-) | Indicates whether this pivot item is a calculated formula item. |
 | [setHidden(boolean value)](#setHidden-boolean-) | Sets whether the pivot item is hidden. |
 | [setHideDetail(boolean value)](#setHideDetail-boolean-) | Sets whether the pivot item hides detail. |
@@ -121,8 +124,6 @@ public String getName()
 
 Gets the name of the pivot item.
 
-**Remarks**
-
 **Returns:**
 java.lang.String
 ### getPosition() {#getPosition--}
@@ -192,6 +193,26 @@ NOTE: This member is now obsolete. Instead, please use Aspose.Cells.Pivot.PivotF
 | --- | --- | --- |
 | value | boolean |  |
 
+### isCalculatedItem() {#isCalculatedItem--}
+```
+public boolean isCalculatedItem()
+```
+
+
+Indicates whether this pivot item is a calculated formula item.
+
+**Returns:**
+boolean
+### isDetailHidden() {#isDetailHidden--}
+```
+public boolean isDetailHidden()
+```
+
+
+Gets whether the detail of this pivot item is hidden.
+
+**Returns:**
+boolean
 ### isFormula() {#isFormula--}
 ```
 public boolean isFormula()
@@ -199,6 +220,10 @@ public boolean isFormula()
 
 
 Indicates whether this pivot item is a calculated formula item.
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotItem.IsCalculatedItem property instead. This property will be removed 12 months later since November 2024. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 boolean
@@ -219,6 +244,10 @@ public boolean isHideDetail()
 
 
 Gets whether the pivot item hides detail.
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotItem.IsDetailHidden property instead. This property will be removed 12 months later since November 2024. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 boolean
@@ -266,6 +295,19 @@ public final native void notifyAll()
 
 
 
+### setDetailHidden(boolean value) {#setDetailHidden-boolean-}
+```
+public void setDetailHidden(boolean value)
+```
+
+
+Sets whether the detail of this pivot item is hidden.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
 ### setFormula(boolean value) {#setFormula-boolean-}
 ```
 public void setFormula(boolean value)
@@ -273,6 +315,10 @@ public void setFormula(boolean value)
 
 
 Indicates whether this pivot item is a calculated formula item.
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotItem.IsCalculatedItem property instead. This property will be removed 12 months later since November 2024. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -300,6 +346,10 @@ public void setHideDetail(boolean value)
 
 Sets whether the pivot item hides detail.
 
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotItem.IsDetailHidden property instead. This property will be removed 12 months later since November 2024. Aspose apologizes for any inconvenience you may have experienced.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -325,8 +375,6 @@ public void setName(String value)
 
 
 Gets the name of the pivot item.
-
-**Remarks**
 
 **Parameters:**
 | Parameter | Type | Description |

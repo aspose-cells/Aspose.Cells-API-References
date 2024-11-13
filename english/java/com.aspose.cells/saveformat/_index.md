@@ -36,6 +36,7 @@ Represents the format in which the workbook is saved.
 | [NUMBERS](#NUMBERS) | Represents a numbers file. |
 | [ODS](#ODS) | Open Document Sheet(ODS) file. |
 | [OTS](#OTS) | Open Document Template Sheet(OTS) file. |
+| [PCL](#PCL) | PCL (Printer Command Language) |
 | [PDF](#PDF) | Represents a Pdf file. |
 | [PNG](#PNG) | Portable Network Graphics. |
 | [PPTX](#PPTX) | Represents .pptx file. |
@@ -225,6 +226,14 @@ public static final int OTS
 
 
 Open Document Template Sheet(OTS) file.
+
+### PCL {#PCL}
+```
+public static final int PCL
+```
+
+
+PCL (Printer Command Language)
 
 ### PDF {#PDF}
 ```

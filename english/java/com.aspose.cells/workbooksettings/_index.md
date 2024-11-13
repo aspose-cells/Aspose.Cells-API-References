@@ -41,7 +41,9 @@ Represents all settings of the workbook.
 | [getCrashSave()](#getCrashSave--) | indicates whether the application last saved the workbook file after a crash. |
 | [getDataExtractLoad()](#getDataExtractLoad--) | indicates whether the application last opened the workbook for data recovery. |
 | [getDate1904()](#getDate1904--) | Gets a value which represents if the workbook uses the 1904 date system. |
+| [getDefaultImageResolution()](#getDefaultImageResolution--) | Gets default resolution of image. |
 | [getDefaultStyleSettings()](#getDefaultStyleSettings--) | Gets the settings for default values of style-related properties for this workbook. |
+| [getDiscardImageEditData()](#getDiscardImageEditData--) | Inidcates whether discarding editting image data. |
 | [getDisplayDrawingObjects()](#getDisplayDrawingObjects--) | Indicates whether and how to show objects in the workbook. |
 | [getEnableMacros()](#getEnableMacros--) | Enable macros; |
 | [getFirstVisibleTab()](#getFirstVisibleTab--) | Gets the first visible worksheet tab. |
@@ -58,6 +60,7 @@ Represents all settings of the workbook.
 | [getNumberGroupSeparator()](#getNumberGroupSeparator--) | Gets the character that separates groups of digits to the left of the decimal in numeric values. |
 | [getPaperSize()](#getPaperSize--) | Gets the default print paper size. |
 | [getPassword()](#getPassword--) | Represents Workbook file encryption password. |
+| [getPropertiesFollowChartPoint()](#getPropertiesFollowChartPoint--) | Indicates whether datapoint properties and datalabels in all charts in this workbook follow their reference. |
 | [getProtectionType()](#getProtectionType--) | Gets the protection type of the workbook. |
 | [getQuotePrefixToStyle()](#getQuotePrefixToStyle--) | Indicates whether setting [Style.getQuotePrefix()](../../com.aspose.cells/style\#getQuotePrefix--) property when entering the string value(which starts with single quote mark ) to the cell |
 | [getRegion()](#getRegion--) | Gets the regional settings for workbook. |
@@ -108,6 +111,8 @@ Represents all settings of the workbook.
 | [setDataExtractLoad(boolean value)](#setDataExtractLoad-boolean-) | indicates whether the application last opened the workbook for data recovery. |
 | [setDate1904(boolean value)](#setDate1904-boolean-) | Sets a value which represents if the workbook uses the 1904 date system. |
 | [setDefaultEncrypted(boolean value)](#setDefaultEncrypted-boolean-) | Indicates whether encrypting the workbook with default password if Structure and Windows of the workbook are locked. |
+| [setDefaultImageResolution(int value)](#setDefaultImageResolution-int-) | Sets default resolution of image. |
+| [setDiscardImageEditData(boolean value)](#setDiscardImageEditData-boolean-) | Inidcates whether discarding editting image data. |
 | [setDisplayDrawingObjects(int value)](#setDisplayDrawingObjects-int-) | Indicates whether and how to show objects in the workbook. |
 | [setEnableMacros(boolean value)](#setEnableMacros-boolean-) | Enable macros; |
 | [setFirstVisibleTab(int value)](#setFirstVisibleTab-int-) | Sets the first visible worksheet tab. |
@@ -125,6 +130,7 @@ Represents all settings of the workbook.
 | [setPageOrientationType(int pageOrientationType)](#setPageOrientationType-int-) | Set the type of print orientation for the whole workbook. |
 | [setPaperSize(int value)](#setPaperSize-int-) | Sets the default print paper size. |
 | [setPassword(String value)](#setPassword-java.lang.String-) | Represents Workbook file encryption password. |
+| [setPropertiesFollowChartPoint(boolean value)](#setPropertiesFollowChartPoint-boolean-) | Indicates whether datapoint properties and datalabels in all charts in this workbook follow their reference. |
 | [setQuotePrefixToStyle(boolean value)](#setQuotePrefixToStyle-boolean-) | Indicates whether setting [Style.getQuotePrefix()](../../com.aspose.cells/style\#getQuotePrefix--) property when entering the string value(which starts with single quote mark ) to the cell |
 | [setRegion(int value)](#setRegion-int-) | Sets the regional settings for workbook. |
 | [setRemovePersonalInformation(boolean value)](#setRemovePersonalInformation-boolean-) | True if personal information can be removed from the specified workbook. |
@@ -312,6 +318,16 @@ Gets a value which represents if the workbook uses the 1904 date system.
 
 **Returns:**
 boolean
+### getDefaultImageResolution() {#getDefaultImageResolution--}
+```
+public int getDefaultImageResolution()
+```
+
+
+Gets default resolution of image.
+
+**Returns:**
+int
 ### getDefaultStyleSettings() {#getDefaultStyleSettings--}
 ```
 public DefaultStyleSettings getDefaultStyleSettings()
@@ -322,6 +338,16 @@ Gets the settings for default values of style-related properties for this workbo
 
 **Returns:**
 [DefaultStyleSettings](../../com.aspose.cells/defaultstylesettings)
+### getDiscardImageEditData() {#getDiscardImageEditData--}
+```
+public boolean getDiscardImageEditData()
+```
+
+
+Inidcates whether discarding editting image data.
+
+**Returns:**
+boolean
 ### getDisplayDrawingObjects() {#getDisplayDrawingObjects--}
 ```
 public int getDisplayDrawingObjects()
@@ -514,6 +540,16 @@ Represents Workbook file encryption password.
 
 **Returns:**
 java.lang.String
+### getPropertiesFollowChartPoint() {#getPropertiesFollowChartPoint--}
+```
+public boolean getPropertiesFollowChartPoint()
+```
+
+
+Indicates whether datapoint properties and datalabels in all charts in this workbook follow their reference.
+
+**Returns:**
+boolean
 ### getProtectionType() {#getProtectionType--}
 ```
 public int getProtectionType()
@@ -1140,6 +1176,32 @@ The default value is false now. It's same as MS Excel 2013.
 | --- | --- | --- |
 | value | boolean |  |
 
+### setDefaultImageResolution(int value) {#setDefaultImageResolution-int-}
+```
+public void setDefaultImageResolution(int value)
+```
+
+
+Sets default resolution of image.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### setDiscardImageEditData(boolean value) {#setDiscardImageEditData-boolean-}
+```
+public void setDiscardImageEditData(boolean value)
+```
+
+
+Inidcates whether discarding editting image data.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
 ### setDisplayDrawingObjects(int value) {#setDisplayDrawingObjects-int-}
 ```
 public void setDisplayDrawingObjects(int value)
@@ -1388,6 +1450,19 @@ Represents Workbook file encryption password.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
+
+### setPropertiesFollowChartPoint(boolean value) {#setPropertiesFollowChartPoint-boolean-}
+```
+public void setPropertiesFollowChartPoint(boolean value)
+```
+
+
+Indicates whether datapoint properties and datalabels in all charts in this workbook follow their reference.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### setQuotePrefixToStyle(boolean value) {#setQuotePrefixToStyle-boolean-}
 ```

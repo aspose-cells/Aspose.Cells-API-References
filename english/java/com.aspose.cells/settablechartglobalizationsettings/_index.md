@@ -213,7 +213,7 @@ Sets the Name of Axis Unit.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | int |  |
+| type | int | [DisplayUnitType](../../com.aspose.cells/displayunittype). The unit type for displaying axis labels. |
 | name | java.lang.String | local dependent name |
 
 ### setChartTitleName(String name) {#setChartTitleName-java.lang.String-}

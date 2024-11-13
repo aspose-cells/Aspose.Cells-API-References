@@ -310,6 +310,10 @@ public String getCalculatedFieldFormula()
 
 Get the formula string of the specified calculated field .
 
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use PivotField.GetFormula() method. This method will be removed 12 months later since August 2024. Aspose apologizes for any inconvenience you may have experienced.
+
 **Returns:**
 java.lang.String
 ### getClass() {#getClass--}
@@ -678,7 +682,7 @@ Indicates whether showing specified subtotal.
 boolean - Returns whether showing specified subtotal.
 ### groupBy(CustomPiovtFieldGroupItem[] customGroupItems, boolean newField) {#groupBy-com.aspose.cells.CustomPiovtFieldGroupItem---boolean-}
 ```
-public void groupBy(CustomPiovtFieldGroupItem[] customGroupItems, boolean newField)
+public boolean groupBy(CustomPiovtFieldGroupItem[] customGroupItems, boolean newField)
 ```
 
 
@@ -690,9 +694,11 @@ Custom group the field.
 | customGroupItems | [CustomPiovtFieldGroupItem\[\]](../../com.aspose.cells/custompiovtfieldgroupitem) | The custom group items. |
 | newField | boolean | Indicates whether adding a new field to the pivottable |
 
+**Returns:**
+boolean - False means this field could not be grouped by date time.
 ### groupBy(DateTime start, DateTime end, int[] groups, double interval, boolean firstAsNewField) {#groupBy-com.aspose.cells.DateTime-com.aspose.cells.DateTime-int---double-boolean-}
 ```
-public void groupBy(DateTime start, DateTime end, int[] groups, double interval, boolean firstAsNewField)
+public boolean groupBy(DateTime start, DateTime end, int[] groups, double interval, boolean firstAsNewField)
 ```
 
 
@@ -707,6 +713,8 @@ Group the file by the date group types.
 | interval | double | The interval |
 | firstAsNewField | boolean | Indicates whether adding a new field to the pivottable. Only for the first group item. |
 
+**Returns:**
+boolean - False means this field could not be grouped by date time.
 ### groupBy(double interval, boolean newField) {#groupBy-double-boolean-}
 ```
 public void groupBy(double interval, boolean newField)
@@ -723,7 +731,7 @@ Automatically group the field with internal
 
 ### groupBy(double start, double end, double interval, boolean newField) {#groupBy-double-double-double-boolean-}
 ```
-public void groupBy(double start, double end, double interval, boolean newField)
+public boolean groupBy(double start, double end, double interval, boolean newField)
 ```
 
 
@@ -737,6 +745,8 @@ Group the file by number.
 | interval | double | The interval |
 | newField | boolean | Indicates whether adding a new field to the pivottable |
 
+**Returns:**
+boolean - False means this field could not be grouped by date time.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

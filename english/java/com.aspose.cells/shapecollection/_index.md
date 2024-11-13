@@ -43,6 +43,7 @@ Represents all the shape in a worksheet/chart.
 | [addCopy(Shape sourceShape, int topRow, int top, int leftColumn, int left)](#addCopy-com.aspose.cells.Shape-int-int-int-int-) | Adds and copy a shape to the worksheet. |
 | [addEquation(int topRow, int top, int leftColumn, int left, int height, int width)](#addEquation-int-int-int-int-int-int-) | Add an equation object to the worksheet. |
 | [addFreeFloatingShape(int type, int top, int left, int height, int width, byte[] imageData, boolean isOriginalSize)](#addFreeFloatingShape-int-int-int-int-int-byte---boolean-) | Adds a free floating shape to the worksheet.Only applies for line/image shape. |
+| [addFreeform(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width, ShapePath[] paths)](#addFreeform-int-int-int-int-int-int-com.aspose.cells.ShapePath---) | Adds a freeform shape to the worksheet. |
 | [addGroupBox(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)](#addGroupBox-int-int-int-int-int-int-) | Adds a GroupBox to the worksheet. |
 | [addIcons(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width, byte[] imageByteData, byte[] compatibleImageData)](#addIcons-int-int-int-int-int-int-byte---byte---) | Adds svg image. |
 | [addLabel(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)](#addLabel-int-int-int-int-int-int-) | Adds a Label to the worksheet. |
@@ -64,6 +65,7 @@ Represents all the shape in a worksheet/chart.
 | [addShapeInChart(int type, int placement, int left, int top, int right, int bottom, byte[] imageData)](#addShapeInChart-int-int-int-int-int-int-byte---) | Add a shape to chart .All unit is 1/4000 of chart area. |
 | [addShapeInChartByScale(int type, int placement, double left, double top, double right, double bottom)](#addShapeInChartByScale-int-int-double-double-double-double-) | Add a shape to chart. |
 | [addShapeInChartByScale(int type, int placement, double left, double top, double right, double bottom, byte[] imageData)](#addShapeInChartByScale-int-int-double-double-double-double-byte---) | Add a shape to chart .All unit is 1/4000 of chart area. |
+| [addSignatureLine(int upperLeftRow, int upperLeftColumn, SignatureLine signatureLine)](#addSignatureLine-int-int-com.aspose.cells.SignatureLine-) | Adds a Signature Line to the worksheet. |
 | [addSpinner(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)](#addSpinner-int-int-int-int-int-int-) | Adds a Spinner to the worksheet. |
 | [addSvg(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width, byte[] svgData, byte[] compatibleImageData)](#addSvg-int-int-int-int-int-int-byte---byte---) | Adds svg image. |
 | [addTextBox(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)](#addTextBox-int-int-int-int-int-int-) | Adds a text box to the worksheet. |
@@ -389,6 +391,60 @@ Adds a free floating shape to the worksheet.Only applies for line/image shape.
 
 **Returns:**
 [Shape](../../com.aspose.cells/shape) - 
+### addFreeform(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width, ShapePath[] paths) {#addFreeform-int-int-int-int-int-int-com.aspose.cells.ShapePath---}
+```
+public Shape addFreeform(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width, ShapePath[] paths)
+```
+
+
+Adds a freeform shape to the worksheet.
+
+**Example**
+
+```
+         //Custom figure
+         ShapePath shapePath = new ShapePath();
+         shapePath.moveTo(60, 45);
+         shapePath.arcTo(25, 25, 0, 270);
+         shapePath.close();
+ 
+         shapePath.moveTo(60, 20);
+         shapePath.lineTo(110, 70);
+         shapePath.lineTo(125, 155.5f);
+         shapePath.arcTo(35.5f, 35.5f, 0, 270);
+         shapePath.close();
+ 
+         shapePath.moveTo(150, 45);
+         shapePath.arcTo(25, 25, 0, 270);
+ 
+         ShapePath shapePath1 = new ShapePath();
+         shapePath1.moveTo(0, 0);
+         shapePath1.cubicBezierTo(48.24997f, 0.6844f,
+                             96.5f, -7.148871f,
+                             130, 11.517795f);
+         shapePath1.cubicBezierTo(163.5f, 30.18446f,
+                             182.24997f, 75.351f,
+                             201, 120.517795f);
+         shapePath1.moveTo(150, 80);
+         shapePath1.arcTo(25, 25, 0, 270);
+ 
+         //Insert custom figure into worksheet
+         shapes.addFreeform(1, 0, 1, 0, 200, 200, new ShapePath[] { shapePath, shapePath1});
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| upperLeftRow | int | Upper left row index. |
+| top | int | Represents the vertical offset of Polygon from its left row, in unit of pixel. |
+| upperLeftColumn | int | Upper left column index. |
+| left | int | Represents the horizontal offset of Polygon from its left column, in unit of pixel. |
+| height | int | Represents the height of Polygon, in unit of pixel. |
+| width | int | Represents the width of Polygon, in unit of pixel. |
+| paths | [ShapePath\[\]](../../com.aspose.cells/shapepath) | Represents a user-defined path |
+
+**Returns:**
+[Shape](../../com.aspose.cells/shape) - A freeform shape.
 ### addGroupBox(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width) {#addGroupBox-int-int-int-int-int-int-}
 ```
 public GroupBox addGroupBox(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)
@@ -904,6 +960,38 @@ Add a shape to chart .All unit is 1/4000 of chart area.
 
 **Returns:**
 [Shape](../../com.aspose.cells/shape)
+### addSignatureLine(int upperLeftRow, int upperLeftColumn, SignatureLine signatureLine) {#addSignatureLine-int-int-com.aspose.cells.SignatureLine-}
+```
+public Picture addSignatureLine(int upperLeftRow, int upperLeftColumn, SignatureLine signatureLine)
+```
+
+
+Adds a Signature Line to the worksheet.
+
+**Example**
+
+```
+         SignatureLine wSignatureLine = new SignatureLine();
+         wSignatureLine.setAllowComments(true);
+         wSignatureLine.setEmail("dsltak@gmail.com");
+         wSignatureLine.setInstructions("Sign to confirm the excel content.");
+         wSignatureLine.setLine(true);
+         wSignatureLine.setShowSignedDate(true);
+         wSignatureLine.setSigner("TAKYU");
+         wSignatureLine.setTitle("tester");
+         //wSignatureLine.SignatureLineType = SignatureType.Stamp;
+         Picture signatureLine1 = shapes.addSignatureLine(0, 0, wSignatureLine);
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| upperLeftRow | int | Upper left row index. |
+| upperLeftColumn | int | Upper left column index. |
+| signatureLine | [SignatureLine](../../com.aspose.cells/signatureline) | Represents a signature line object. |
+
+**Returns:**
+[Picture](../../com.aspose.cells/picture) - 
 ### addSpinner(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width) {#addSpinner-int-int-int-int-int-int-}
 ```
 public Spinner addSpinner(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)

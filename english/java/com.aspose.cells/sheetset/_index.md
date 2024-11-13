@@ -17,7 +17,8 @@ Describes a set of sheets.
 
 | Constructor | Description |
 | --- | --- |
-| [SheetSet(int[] sheets)](#SheetSet-int---) | Creates a sheet set based on exact sheet indexes. |
+| [SheetSet(int[] sheetIndexes)](#SheetSet-int---) | Creates a sheet set based on exact sheet indexes. |
+| [SheetSet(String[] sheetNames)](#SheetSet-java.lang.String---) | Creates a sheet set based on exact sheet names. |
 ## Methods
 
 | Method | Description |
@@ -34,9 +35,9 @@ Describes a set of sheets.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### SheetSet(int[] sheets) {#SheetSet-int---}
+### SheetSet(int[] sheetIndexes) {#SheetSet-int---}
 ```
-public SheetSet(int[] sheets)
+public SheetSet(int[] sheetIndexes)
 ```
 
 
@@ -49,7 +50,24 @@ If a sheet is encountered that is not in the workbook, an exception will be thro
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sheets | int[] | zero based sheet indexes. |
+| sheetIndexes | int[] | zero based sheet indexes. |
+
+### SheetSet(String[] sheetNames) {#SheetSet-java.lang.String---}
+```
+public SheetSet(String[] sheetNames)
+```
+
+
+Creates a sheet set based on exact sheet names.
+
+**Remarks**
+
+If a sheet is encountered that is not in the workbook, an exception will be thrown during rendering.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sheetNames | java.lang.String[] | sheet names. |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

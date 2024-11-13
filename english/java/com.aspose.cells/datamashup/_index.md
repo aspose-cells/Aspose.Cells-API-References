@@ -19,7 +19,7 @@ Represents mashup data.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getPowerQueryFormulaParameters()](#getPowerQueryFormulaParameters--) | Gets all parameters of power query formulas. |
+| [getPowerQueryFormulaParameters()](#getPowerQueryFormulaParameters--) | Gets power query formula parameters. |
 | [getPowerQueryFormulas()](#getPowerQueryFormulas--) | Gets all power query formulas. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -59,7 +59,11 @@ public PowerQueryFormulaParameterCollection getPowerQueryFormulaParameters()
 ```
 
 
-Gets all parameters of power query formulas.
+Gets power query formula parameters.
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use DataMashup.PowerQueryFormulas property. This property will be removed 12 months later since November 2024. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 [PowerQueryFormulaParameterCollection](../../com.aspose.cells/powerqueryformulaparametercollection)

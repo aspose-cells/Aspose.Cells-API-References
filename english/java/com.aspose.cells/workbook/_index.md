@@ -83,6 +83,7 @@ The following example loads a Workbook from an Excel file named designer.xls and
 | [getCustomXmlParts()](#getCustomXmlParts--) | Represents a Custom XML Data Storage Part (custom XML data within a package). |
 | [getDataConnections()](#getDataConnections--) | Gets the [ExternalConnection](../../com.aspose.cells/externalconnection) collection. |
 | [getDataMashup()](#getDataMashup--) | Gets mashup data. |
+| [getDataModel()](#getDataModel--) | Gets data model in the workbook. |
 | [getDataSorter()](#getDataSorter--) | Gets a DataSorter object to sort data. |
 | [getDefaultStyle()](#getDefaultStyle--) | Gets the default [Style](../../com.aspose.cells/style) object of the workbook. |
 | [getDigitalSignature()](#getDigitalSignature--) | Gets digital signature from file. |
@@ -797,6 +798,16 @@ Gets mashup data.
 
 **Returns:**
 [DataMashup](../../com.aspose.cells/datamashup)
+### getDataModel() {#getDataModel--}
+```
+public DataModel getDataModel()
+```
+
+
+Gets data model in the workbook.
+
+**Returns:**
+[DataModel](../../com.aspose.cells/datamodel)
 ### getDataSorter() {#getDataSorter--}
 ```
 public DataSorter getDataSorter()

@@ -138,6 +138,7 @@ Encapsulates the object that represents a textbox in a spreadsheet.
 | [getSpt()](#getSpt--) | Specifies an optional number that an application can use to associate the particular shape with a defined shape type. |
 | [getText()](#getText--) | Gets the text of this shape. |
 | [getTextBody()](#getTextBody--) | Gets the setting of the shape's text. |
+| [getTextBoxOptions()](#getTextBoxOptions--) | Gets the text information in the shape |
 | [getTextDirection()](#getTextDirection--) | Gets the direction of the text flow for this object. |
 | [getTextEffect()](#getTextEffect--) | Returns a TextEffectFormat object that contains text-effect formatting properties for the specified shape. |
 | [getTextHorizontalAlignment()](#getTextHorizontalAlignment--) | Gets the text horizontal alignment type of the shape. |
@@ -1471,6 +1472,16 @@ Gets the setting of the shape's text.
 
 **Returns:**
 [FontSettingCollection](../../com.aspose.cells/fontsettingcollection)
+### getTextBoxOptions() {#getTextBoxOptions--}
+```
+public TextBoxOptions getTextBoxOptions()
+```
+
+
+Gets the text information in the shape
+
+**Returns:**
+[TextBoxOptions](../../com.aspose.cells/textboxoptions)
 ### getTextDirection() {#getTextDirection--}
 ```
 public int getTextDirection()

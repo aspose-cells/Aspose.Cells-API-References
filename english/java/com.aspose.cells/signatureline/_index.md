@@ -21,16 +21,15 @@ Represent the signature line.
          Workbook workbook = new Workbook();
          Worksheet worksheet = workbook.getWorksheets().get(0);
  
-         //Adding a picture
-         int imgIndex = worksheet.getPictures().add(1, 1, "sample.png");
-         Picture pic = worksheet.getPictures().get(imgIndex);
          // Create signature line object
          SignatureLine s = new SignatureLine();
-         s.setSigner("Simon Zhao");
-         s.setTitle("Development Lead");
-         s.setEmail("Simon.Zhao@aspose.com");
-         // Assign the signature line object to Picture.SignatureLine property
-         pic.setSignatureLine(s);
+         s.setSigner("Simon");
+         s.setTitle("Development");
+         s.setEmail("simon@aspose.com");
+         s.setInstructions("Sign to confirm the excel content.");
+ 
+         // Adds a Signature Line to the worksheet.
+         Picture signatureLine = worksheet.getShapes().addSignatureLine(0, 0, s);
  
          //do your business
  
@@ -54,6 +53,7 @@ Represent the signature line.
 | [getInstructions()](#getInstructions--) | Gets the text shown to user at signing time. |
 | [getProviderId()](#getProviderId--) | Gets the id of signature provider. |
 | [getShowSignedDate()](#getShowSignedDate--) | Indicates whether show signed date. |
+| [getSignatureLineType()](#getSignatureLineType--) | Gets the signature type. |
 | [getSigner()](#getSigner--) | Gets the signer. |
 | [getTitle()](#getTitle--) | Gets the title of singer. |
 | [hashCode()](#hashCode--) |  |
@@ -67,6 +67,7 @@ Represent the signature line.
 | [setLine(boolean value)](#setLine-boolean-) | Indicates whether it is a signature line. |
 | [setProviderId(UUID value)](#setProviderId-java.util.UUID-) | Sets the id of signature provider. |
 | [setShowSignedDate(boolean value)](#setShowSignedDate-boolean-) | Indicates whether show signed date. |
+| [setSignatureLineType(int value)](#setSignatureLineType-int-) | Sets the signature type. |
 | [setSigner(String value)](#setSigner-java.lang.String-) | Sets the signer. |
 | [setTitle(String value)](#setTitle-java.lang.String-) | Sets the title of singer. |
 | [toString()](#toString--) |  |
@@ -194,7 +195,7 @@ It's typically the CLSID of the provider com add-in.
 ```
          // Create signature line object
          SignatureLine s2 = new SignatureLine();
-         s2.setProviderId(java.util.UUID.randomUUID());
+         s2.setProviderId(java.util.UUID.fromString("xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"));//The GUID should be obtained from the documentation shipped with the provider.
 ```
 
 **Returns:**
@@ -218,6 +219,18 @@ Indicates whether show signed date.
 
 **Returns:**
 boolean
+### getSignatureLineType() {#getSignatureLineType--}
+```
+public int getSignatureLineType()
+```
+
+
+Gets the signature type. Default - When the default value is set, the corresponding ProviderId value is fixed to \{0000000000-0000-0000-0000-0000000000\}. Stamp - When the value is Stamp, the corresponding ProviderId value is usually \{000CD6A4-0000-0000-C000-000000000046\}. Custom - When the value is Custom, the corresponding ProviderId value usually needs to be set by the user. it should be obtained from the documentation shipped with the provider.
+
+See [SignatureType](../../com.aspose.cells/signaturetype).
+
+**Returns:**
+int
 ### getSigner() {#getSigner--}
 ```
 public String getSigner()
@@ -393,6 +406,21 @@ Indicates whether show signed date.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
+
+### setSignatureLineType(int value) {#setSignatureLineType-int-}
+```
+public void setSignatureLineType(int value)
+```
+
+
+Sets the signature type. Default - When the default value is set, the corresponding ProviderId value is fixed to \{0000000000-0000-0000-0000-0000000000\}. Stamp - When the value is Stamp, the corresponding ProviderId value is usually \{000CD6A4-0000-0000-C000-000000000046\}. Custom - When the value is Custom, the corresponding ProviderId value usually needs to be set by the user. it should be obtained from the documentation shipped with the provider.
+
+See [SignatureType](../../com.aspose.cells/signaturetype).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
 
 ### setSigner(String value) {#setSigner-java.lang.String-}
 ```

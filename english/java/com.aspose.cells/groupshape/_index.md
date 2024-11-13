@@ -42,26 +42,26 @@ Represents the group shape which contains the individual shapes.
          //Make the radio button 3-D.
          radio1.setShadow(true);
  
-         //Set the foreground color of the radio button.
-         radio1.getFillFormat().setForeColor(Color.getLightGreen());
- 
-         //Set the line style of the radio button.
-         radio1.getLineFormat().setStyle(MsoLineStyle.THICK_THIN);
- 
-         //Set the weight of the radio button.
-         radio1.getLineFormat().setWeight(4);
- 
-         //Set the line color of the radio button.
-         radio1.getLineFormat().setForeColor(Color.getBlue());
- 
-         //Set the dash style of the radio button.
-         radio1.getLineFormat().setDashStyle(MsoLineDashStyle.SOLID);
- 
          //Make the line format visible.
-         radio1.getLineFormat().setVisible(true);
+         radio1.getLine().setFillType(FillType.SOLID);
  
          //Make the fill format visible.
-         radio1.getFillFormat().setVisible(true);
+         radio1.getFill().setFillType(FillType.SOLID);
+ 
+         //Set the foreground color of the radio button.
+         radio1.getFill().getSolidFill().setColor(Color.getLightGreen());
+ 
+         //Set the line style of the radio button.
+         radio1.getLine().setCompoundType(MsoLineStyle.THICK_THIN);
+ 
+         //Set the weight of the radio button.
+         radio1.getLine().setWeight(4);
+ 
+         //Set the line color of the radio button.
+         radio1.getLine().getSolidFill().setColor(Color.getBlue());
+ 
+         //Set the dash style of the radio button.
+         radio1.getLine().setDashStyle(MsoLineDashStyle.SOLID);
  
          //Add another radio button.
          RadioButton radio2 = excelbook.getWorksheets().get(0).getShapes().addRadioButton(6, 0, 2, 0, 30, 110);
@@ -75,26 +75,26 @@ Represents the group shape which contains the individual shapes.
          //Make the radio button 3-D.
          radio2.setShadow(true);
  
-         //Set the foreground color of the radio button.
-         radio2.getFillFormat().setForeColor(Color.getLightGreen());
- 
-         //Set the line style of the radio button.
-         radio2.getLineFormat().setStyle(MsoLineStyle.THICK_THIN);
- 
-         //Set the weight of the radio button.
-         radio2.getLineFormat().setWeight(4);
- 
-         //Set the line color of the radio button.
-         radio2.getLineFormat().setForeColor(Color.getBlue());
- 
-         //Set the dash style of the radio button.
-         radio2.getLineFormat().setDashStyle(MsoLineDashStyle.SOLID);
- 
          //Make the line format visible.
-         radio2.getLineFormat().setVisible(true);
+         radio2.getLine().setFillType(FillType.SOLID);
  
          //Make the fill format visible.
-         radio2.getFillFormat().setVisible(true);
+         radio2.getFill().setFillType(FillType.SOLID);
+ 
+         //Set the foreground color of the radio button.
+         radio2.getFill().getSolidFill().setColor(Color.getLightGreen());
+ 
+         //Set the line style of the radio button.
+         radio2.getLine().setCompoundType(MsoLineStyle.THICK_THIN);
+ 
+         //Set the weight of the radio button.
+         radio2.getLine().setWeight(4);
+ 
+         //Set the line color of the radio button.
+         radio2.getLine().getSolidFill().setColor(Color.getBlue());
+ 
+         //Set the dash style of the radio button.
+         radio2.getLine().setDashStyle(MsoLineDashStyle.SOLID);
  
          //Add another radio button.
          RadioButton radio3 = excelbook.getWorksheets().get(0).getShapes().addRadioButton(9, 0, 2, 0, 30, 110);
@@ -108,26 +108,26 @@ Represents the group shape which contains the individual shapes.
          //Make the radio button 3-D.
          radio3.setShadow(true);
  
-         //Set the foreground color of the radio button.
-         radio3.getFillFormat().setForeColor(Color.getLightGreen());
- 
-         //Set the line style of the radio button.
-         radio3.getLineFormat().setStyle(MsoLineStyle.THICK_THIN);
- 
-         //Set the weight of the radio button.
-         radio3.getLineFormat().setWeight(4);
- 
-         //Set the line color of the radio button.
-         radio3.getLineFormat().setForeColor(Color.getBlue());
- 
-         //Set the dash style of the radio button.
-         radio3.getLineFormat().setDashStyle(MsoLineDashStyle.SOLID);
- 
          //Make the line format visible.
-         radio3.getLineFormat().setVisible(true);
+         radio3.getLine().setFillType(FillType.SOLID);
  
          //Make the fill format visible.
-         radio3.getFillFormat().setVisible(true);
+         radio3.getFill().setFillType(FillType.SOLID);
+ 
+         //Set the foreground color of the radio button.
+         radio3.getFill().getSolidFill().setColor(Color.getLightGreen());
+ 
+         //Set the line style of the radio button.
+         radio3.getLine().setCompoundType(MsoLineStyle.THICK_THIN);
+ 
+         //Set the weight of the radio button.
+         radio3.getLine().setWeight(4);
+ 
+         //Set the line color of the radio button.
+         radio3.getLine().getSolidFill().setColor(Color.getBlue());
+ 
+         //Set the dash style of the radio button.
+         radio3.getLine().setDashStyle(MsoLineDashStyle.SOLID);
  
          //Get the shapes.
          Shape[] shapeobjects = new Shape[] { box, radio1, radio2, radio3 };
@@ -211,6 +211,7 @@ Represents the group shape which contains the individual shapes.
 | [getSpt()](#getSpt--) | Specifies an optional number that an application can use to associate the particular shape with a defined shape type. |
 | [getText()](#getText--) | Gets the text of this shape. |
 | [getTextBody()](#getTextBody--) | Gets the setting of the shape's text. |
+| [getTextBoxOptions()](#getTextBoxOptions--) | Gets the text information in the shape |
 | [getTextDirection()](#getTextDirection--) | Gets the direction of the text flow for this object. |
 | [getTextEffect()](#getTextEffect--) | Returns a TextEffectFormat object that contains text-effect formatting properties for the specified shape. |
 | [getTextHorizontalAlignment()](#getTextHorizontalAlignment--) | Gets the text horizontal alignment type of the shape. |
@@ -1545,6 +1546,16 @@ Gets the setting of the shape's text.
 
 **Returns:**
 [FontSettingCollection](../../com.aspose.cells/fontsettingcollection)
+### getTextBoxOptions() {#getTextBoxOptions--}
+```
+public TextBoxOptions getTextBoxOptions()
+```
+
+
+Gets the text information in the shape
+
+**Returns:**
+[TextBoxOptions](../../com.aspose.cells/textboxoptions)
 ### getTextDirection() {#getTextDirection--}
 ```
 public int getTextDirection()
