@@ -22,12 +22,12 @@ const { Workbook, BackgroundType, Color, TableStyleElementType, CellsHelper } = 
 var workbook = new Workbook();
 var firstColumnStyle = workbook.createStyle();
 firstColumnStyle.setPattern(BackgroundType.Solid);
-firstColumnStyle.setBackgroundColor(new Color(0xff, 0, 0));
+firstColumnStyle.setBackgroundColor(Color.Red);
 
 var lastColumnStyle = workbook.createStyle();
 lastColumnStyle.getFont().setIsBold(true);
 lastColumnStyle.setPattern(BackgroundType.Solid);
-lastColumnStyle.setBackgroundColor(new Color(0xff, 0, 0));
+lastColumnStyle.setBackgroundColor(Color.Red);
 var tableStyleName = "Custom1";
 var tableStyles = workbook.getWorksheets().getTableStyles();
 var index1 = tableStyles.addTableStyle(tableStyleName);

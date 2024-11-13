@@ -23,8 +23,7 @@ const { Workbook, Color } = require("aspose.cells.node");
 var excel = new Workbook();
 var style = excel.createStyle();
 style.getFont().setName("Times New Roman");
-var blue = new Color(0, 0, 255);
-style.getFont().setColor(blue);
+style.getFont().setColor(Color.Blue);
 for (var i = 0; i < 100; i++)
 {
     excel.getWorksheets().get(0).getCells().get(0, i).setStyle(style);
@@ -33,7 +32,7 @@ for (var i = 0; i < 100; i++)
 //Second method
 var style1 = excel.getWorksheets().get(0).getCells().get("A1").getStyle();
 style1.getFont().setName("Times New Roman");
-style1.getFont().setColor(blue);
+style1.getFont().setColor(Color.Blue);
 excel.getWorksheets().get(0).getCells().get("A1").setStyle(style1);
 
 //First method is a fast and efficient way to change several cell-formatting properties on multiple cells at the same time.

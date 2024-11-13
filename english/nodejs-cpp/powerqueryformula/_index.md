@@ -19,20 +19,12 @@ class PowerQueryFormula;
 
 | Method | Description |
 | --- | --- |
-| [getFormulaDefinition()](#getFormulaDefinition--)| Gets the definition of the power query formula. |
 | [getName()](#getName--)| Gets and sets the name of the power query formula. |
 | [setName(string)](#setName-string-)| Gets and sets the name of the power query formula. |
 | [getPowerQueryFormulaItems()](#getPowerQueryFormulaItems--)| Gets all items of power query formula. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
-
-
-### getFormulaDefinition() {#getFormulaDefinition--}
-
-Gets the definition of the power query formula.
-
-```javascript
-getFormulaDefinition() : string;
-```
+| [getType()](#getType--)| Gets the type of this power query formula. |
+| [getFormulaDefinition()](#getFormulaDefinition--)| Gets the definition of the power query formula. |
 
 
 ### getName() {#getName--}
@@ -76,6 +68,28 @@ Checks whether the implementation object is null.
 
 ```javascript
 isNull() : boolean;
+```
+
+
+### getType() {#getType--}
+
+Gets the type of this power query formula.
+
+```javascript
+getType() : PowerQueryFormulaType;
+```
+
+
+**Returns**
+
+[PowerQueryFormulaType](../powerqueryformulatype/)
+
+### getFormulaDefinition() {#getFormulaDefinition--}
+
+Gets the definition of the power query formula.
+
+```javascript
+getFormulaDefinition() : string;
 ```
 
 

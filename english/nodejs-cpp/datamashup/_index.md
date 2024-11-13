@@ -20,7 +20,6 @@ class DataMashup;
 | Method | Description |
 | --- | --- |
 | [getPowerQueryFormulas()](#getPowerQueryFormulas--)| Gets all power query formulas. |
-| [getPowerQueryFormulaParameters()](#getPowerQueryFormulaParameters--)| Gets all parameters of power query formulas. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -36,19 +35,6 @@ getPowerQueryFormulas() : PowerQueryFormulaCollection;
 **Returns**
 
 [PowerQueryFormulaCollection](../powerqueryformulacollection/)
-
-### getPowerQueryFormulaParameters() {#getPowerQueryFormulaParameters--}
-
-Gets all parameters of power query formulas.
-
-```javascript
-getPowerQueryFormulaParameters() : PowerQueryFormulaParameterCollection;
-```
-
-
-**Returns**
-
-[PowerQueryFormulaParameterCollection](../powerqueryformulaparametercollection/)
 
 ### isNull() {#isNull--}
 

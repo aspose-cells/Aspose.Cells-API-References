@@ -27,7 +27,7 @@ chart.getNSeries().get(0).getTrendLines().add(TrendlineType.Linear, "MyTrendLine
 var line = chart.getNSeries().get(0).getTrendLines().get(0);
 line.setDisplayEquation(true);
 line.setDisplayRSquared(true);
-line.setColor(new Color(0xff, 0, 0));
+line.setColor(Color.Red);
 ```
 ## Methods
 

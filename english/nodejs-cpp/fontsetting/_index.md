@@ -34,7 +34,7 @@ var charactor = cell.characters(6, 7);
 //Setting the font of selected characters to bold
 charactor.getFont().setIsBold(true);
 //Setting the font color of selected characters to blue
-charactor.getFont().setColor(new Color(0, 0, 0xff));
+charactor.getFont().setColor(Color.Blue);
 //Saving the Excel file
 workbook.save("output/FontSetting.xls");
 ```

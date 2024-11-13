@@ -34,7 +34,7 @@ font.setName("Times New Roman");
 //Setting font size to 14
 font.setSize(14);
 //setting font color as Red
-font.setColor(new Color(0xff, 0, 0));
+font.setColor(Color.Red);
 cell.setStyle(style);
 //Saving the Excel file
 workbook.save("output/Font.xls");

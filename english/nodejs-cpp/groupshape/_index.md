@@ -38,14 +38,14 @@ radio1.setLinkedCell("A1");
 radio1.setShadow(true);
 //Set the foreground color of the radio button.
 radio1.getFill().setFillType(FillType.Solid);
-radio1.getFill().getSolidFill().setColor(new Color(0x90, 0xee, 0x90));
+radio1.getFill().getSolidFill().setColor(Color.LightGreen);
 //Set the line style of the radio button.
 radio1.getLine().setCompoundType(MsoLineStyle.ThickThin);
 //Set the weight of the radio button.
 radio1.getLine().setWeight(4);
 //Set the line color of the radio button.
 radio1.getLine().setFillType(FillType.Solid);
-radio1.getLine().getSolidFill().setColor(new Color(0, 0, 0xff));
+radio1.getLine().getSolidFill().setColor(Color.Blue);
 //Set the dash style of the radio button.
 radio1.getLine().setDashStyle(MsoLineDashStyle.Solid);
 //Add another radio button.
@@ -58,14 +58,14 @@ radio2.setLinkedCell("A1");
 radio2.setShadow(true);
 //Set the foreground color of the radio button.
 radio2.getFill().setFillType(FillType.Solid);
-radio2.getFill().getSolidFill().setColor(new Color(0x90, 0xee, 0x90));
+radio2.getFill().getSolidFill().setColor(Color.LightGreen);
 //Set the line style of the radio button.
 radio2.getLine().setCompoundType(MsoLineStyle.ThickThin);
 //Set the weight of the radio button.
 radio2.getLine().setWeight(4);
 //Set the line color of the radio button.
 radio2.getLine().setFillType(FillType.Solid);
-radio2.getLine().getSolidFill().setColor(new Color(0, 0, 0xff));
+radio2.getLine().getSolidFill().setColor(Color.Blue);
 //Set the dash style of the radio button.
 radio2.getLine().setDashStyle(MsoLineDashStyle.Solid);
 //Add another radio button.
@@ -78,14 +78,14 @@ radio3.setLinkedCell("A1");
 radio3.setShadow(true);
 //Set the foreground color of the radio button.
 radio3.getFill().setFillType(FillType.Solid);
-radio3.getFill().getSolidFill().setColor(new Color(0x90, 0xee, 0x90));
+radio3.getFill().getSolidFill().setColor(Color.LightGreen);
 //Set the line style of the radio button.
 radio3.getLine().setCompoundType(MsoLineStyle.ThickThin);
 //Set the weight of the radio button.
 radio3.getLine().setWeight(4);
 //Set the line color of the radio button.
 radio3.getLine().setFillType(FillType.Solid);
-radio3.getLine().getSolidFill().setColor(new Color(0, 0, 0xff));
+radio3.getLine().getSolidFill().setColor(Color.Blue);
 //Set the dash style of the radio button.
 radio3.getLine().setDashStyle(MsoLineDashStyle.Solid);
 
@@ -271,6 +271,7 @@ excelbook.save("output/DrawingGroupShape.xls");
 | [setTextVerticalAlignment(TextAlignmentType)](#setTextVerticalAlignment-textalignmenttype-)| Gets and sets the text vertical alignment type of the shape. |
 | [getTextDirection()](#getTextDirection--)| Gets/Sets the direction of the text flow for this object. |
 | [setTextDirection(TextDirectionType)](#setTextDirection-textdirectiontype-)| Gets/Sets the direction of the text flow for this object. |
+| [getTextBoxOptions()](#getTextBoxOptions--)| Gets the text information in the shape |
 | [getControlData()](#getControlData--)| Gets the data of control. |
 | [getActiveXControl()](#getActiveXControl--)| Gets the ActiveX control. |
 | [getPaths()](#getPaths--)| Gets the paths of a custom geometric shape. |
@@ -2287,6 +2288,19 @@ setTextDirection(value: TextDirectionType) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [TextDirectionType](../textdirectiontype/) | The value to set. |
+
+### getTextBoxOptions() {#getTextBoxOptions--}
+
+Gets the text information in the shape
+
+```javascript
+getTextBoxOptions() : TextBoxOptions;
+```
+
+
+**Returns**
+
+[TextBoxOptions](../textboxoptions/)
 
 ### getControlData() {#getControlData--}
 

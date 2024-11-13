@@ -19,6 +19,7 @@ Object class.
 | [constructor(number)](#constructor-number-)| Constructs from a number value. |
 | [constructor(string)](#constructor-string-)| Constructs from a string value. |
 | [constructor(Date)](#constructor-date-)| Constructs from a Date value. |
+| [constructor(Color)](#constructor-color-)| Constructs from a Color value. |
 
 ## Methods
 
@@ -29,6 +30,7 @@ Object class.
 | [isNumber()](#isNumber--)| Checks whether the object is a number value. |
 | [isNull()](#isNull--)| Checks whether the object is null. |
 | [isDate()](#isDate--)| Checks whether the object is a Date value. |
+| [isColor()](#isColor--)| Checks whether the object is a Color value. |
 | [isString()](#isString--)| Checks whether the object is a String value. |
 | [isReferredArea()](#isReferredArea--)| Checks whether the object is a ReferredArea object. |
 | [isRange()](#isRange--)| Checks whether the object is a Range object. |
@@ -37,6 +39,7 @@ Object class.
 | [toNumber()](#toNumber--)| Gets the number value. |
 | [toString()](#toString--)| Gets the string value. |
 | [toDate()](#toDate--)| Gets the Date value. |
+| [toColor()](#toColor--)| Gets the Color value. |
 | [toReferredArea()](#toReferredArea--)| Gets the ReferredArea object. |
 | [toRange()](#toRange--)| Gets the Range object. |
 
@@ -87,7 +90,7 @@ constructor(value: string);
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | number | The string value. |
+| value | string | The string value. |
     
 
 ### constructor(Date) {#constructor-date-}
@@ -95,13 +98,27 @@ constructor(value: string);
 Constructs from a Date value.
 
 ```javascript
-constructor(value: string);
+constructor(value: Date);
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | number | The string value. |
+| value | Date | The Date value. |
+
+
+### constructor(Color) {#constructor-color-}
+
+Constructs from a Color value.
+
+```javascript
+constructor(value: Color);
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | Color | The Color value. |
 
 
 ### getType() {#getType--}
@@ -150,6 +167,15 @@ Checks whether the object is a Date value.
 
 ```javascript
 isDate() : boolean;
+```
+
+
+### isColor() {#isColor--}
+
+Checks whether the object is a Color value.
+
+```javascript
+isColor() : boolean;
 ```
 
 
@@ -218,11 +244,24 @@ toString() : string;
 
 ### toDate() {#toDate--}
 
-Gets the toDate value.
+Gets the Date value.
 
 ```javascript
-toDate() : toDate;
+toDate() : Date;
 ``` 
+
+
+### toColor() {#toColor--}
+
+Gets the Color value.
+
+```javascript
+toColor() : Color;
+``` 
+
+**Returns**
+
+[Color](../color/)
 
 
 ### toReferredArea() {#toReferredArea--}

@@ -44,6 +44,7 @@ is_root: true
 | [CalculationOptions](./calculationoptions) | Represents options for calculation. |
 | [Cell](./cell) | Encapsulates the object that represents a single Workbook cell. |
 | [CellArea](./cellarea) | Represent an area of cells. |
+| [CellRichValue](./cellrichvalue) | Represents rich value of the cell. |
 | [Cells](./cells) | Encapsulates a collection of cell relevant objects, such as [Cell](../nodejs-cpp/cell/), [Row](../nodejs-cpp/row/), ...etc. |
 | [CellsColor](./cellscolor) | Represents all types of color. |
 | [CellsDrawing](./cellsdrawing) | Represents the auto shape and drawing object. |
@@ -106,7 +107,12 @@ is_root: true
 | [DataBarBorder](./databarborder) | Represents the border of the data bars specified by a conditional formatting rule. |
 | [DataLabels](./datalabels) | Encapsulates a collection of all the DataLabel objects for the specified Series. |
 | [DataMashup](./datamashup) | Represents mashup data. |
+| [DataModel](./datamodel) | Represents the data model. |
 | [DataModelConnection](./datamodelconnection) | Specifies a data model connection |
+| [DataModelRelationship](./datamodelrelationship) | Represents a single relationship in the spreadsheet data model. |
+| [DataModelRelationshipCollection](./datamodelrelationshipcollection) | Represents the relationships. |
+| [DataModelTable](./datamodeltable) | Represents properties of a single table in spreadsheet data model. |
+| [DataModelTableCollection](./datamodeltablecollection) | Represents the list of the data model table. |
 | [DataSorter](./datasorter) | Summary description for DataSorter. |
 | [DataSorterKey](./datasorterkey) | Represents the key of the data sorter. |
 | [DataSorterKeyCollection](./datasorterkeycollection) | Represents the key list of data sorter. |
@@ -253,6 +259,7 @@ is_root: true
 | [PaneCollection](./panecollection) | Represents all Pane objects shown in the specified window. |
 | [PasteOptions](./pasteoptions) | Represents the paste special options. |
 | [PatternFill](./patternfill) | Encapsulates the object that represents pattern fill format |
+| [PclSaveOptions](./pclsaveoptions) | Represents the options for saving Pcl file. |
 | [PdfBookmarkEntry](./pdfbookmarkentry) | PdfBookmarkEntry is an entry in pdf bookmark. if Text property of current instance is null or "", current instance will be hidden and children will be inserted on current level. |
 | [PdfSaveOptions](./pdfsaveoptions) | Represents the options for saving pdf file. |
 | [PdfSecurityOptions](./pdfsecurityoptions) | Options for encrypting and access permissions for a PDF document. PDF/A does not allow security setting. |
@@ -396,6 +403,7 @@ is_root: true
 | [TextBox](./textbox) | Encapsulates the object that represents a textbox in a spreadsheet. |
 | [TextBoxActiveXControl](./textboxactivexcontrol) | Represents a text box ActiveX control. |
 | [TextBoxCollection](./textboxcollection) | Encapsulates a collection of [TextBox](../nodejs-cpp/textbox/) objects. |
+| [TextBoxOptions](./textboxoptions) | Represents the text options of the shape |
 | [TextEffectFormat](./texteffectformat) | Contains properties and methods that apply to WordArt objects. |
 | [TextOptions](./textoptions) | Represents the text options. |
 | [TextParagraph](./textparagraph) | Represents the text paragraph setting. |
@@ -564,6 +572,7 @@ is_root: true
 | [EquationVerticalJustificationType](./equationverticaljustificationtype) | This specifies the default vertical justification of equations in the document. |
 | [ErrorBarDisplayType](./errorbardisplaytype) | Represents error bar display type. |
 | [ErrorBarType](./errorbartype) | Represents error bar amount type. |
+| [ErrorCellValueType](./errorcellvaluetype) | Represents a cell value which contains an error. |
 | [ErrorCheckType](./errorchecktype) | Represents all error check type. |
 | [ExceptionType](./exceptiontype) | Represents custom exception type code. |
 | [ExternalConnectionClassType](./externalconnectionclasstype) | Represents the type of connection |
@@ -675,6 +684,7 @@ is_root: true
 | [PlacementType](./placementtype) | Represents the way the drawing object is attached to the cells below it. |
 | [PlotDataByType](./plotdatabytype) | Represents the type of data plot by row or column. |
 | [PlotEmptyCellsType](./plotemptycellstype) | Represents all plot empty cells type of a chart. |
+| [PowerQueryFormulaType](./powerqueryformulatype) | Represents the type of power query formula. |
 | [PresetCameraType](./presetcameratype) | Represent different algorithmic methods for setting all camera properties, including position. |
 | [PresetMaterialType](./presetmaterialtype) | Describes surface appearance of a shape. |
 | [PresetShadowType](./presetshadowtype) | Represents preset shadow type. |
@@ -701,9 +711,11 @@ is_root: true
 | [ShapeAnchorType](./shapeanchortype) | Represents the anchor type. |
 | [ShapeLockType](./shapelocktype) | Represents type of the property to be locked. |
 | [ShapePathType](./shapepathtype) | Represents path segment type. |
+| [ShapeTextVerticalAlignmentType](./shapetextverticalalignmenttype) | It corresponds to "Format Shape - Text Options - Text Box - Vertical Alignment" in Excel. |
 | [SheetType](./sheettype) | Specifies the worksheet type. |
 | [ShiftType](./shifttype) | Represent the shift options when deleting a range of cells. |
 | [ShowDropButtonType](./showdropbuttontype) | Specifies when to show the drop button |
+| [SignatureType](./signaturetype) | Specifies the signature type. |
 | [SlicerCacheCrossFilterType](./slicercachecrossfiltertype) | Represent the type of SlicerCacheCrossFilterType |
 | [SlicerCacheItemSortType](./slicercacheitemsorttype) | Specify the sort type of SlicerCacheItem |
 | [SlicerStyleType](./slicerstyletype) | Specify the style of slicer view |

@@ -34,7 +34,7 @@ textbox0.getTextBody().getTextAlignment().setAutoSize(true);
 //Set the placement.
 textbox0.setPlacement(PlacementType.FreeFloating);
 //Set the font color.
-textbox0.getFont().setColor(new Color(0, 0, 0xff));
+textbox0.getFont().setColor(Color.Blue);
 //Set the font to bold.
 textbox0.getFont().setIsBold(true);
 //Set the font size.
@@ -46,7 +46,7 @@ textbox0.addHyperlink("http://www.aspose.com/");
 //Get the filformat of the textbox.
 var fillformat = textbox0.getFill();
 //Set the fillcolor.
-fillformat.getSolidFill().setColor(new Color(0xc0, 0xc0, 0xc0));
+fillformat.getSolidFill().setColor(Color.Silver);
 //Get the lineformat type of the textbox.
 var lineformat = textbox0.getLine();
 //Set the line style.
@@ -240,6 +240,7 @@ workbook.save("output/DrawingTextBox.xlsx");
 | [setTextVerticalAlignment(TextAlignmentType)](#setTextVerticalAlignment-textalignmenttype-)| Gets and sets the text vertical alignment type of the shape. |
 | [getTextDirection()](#getTextDirection--)| Gets/Sets the direction of the text flow for this object. |
 | [setTextDirection(TextDirectionType)](#setTextDirection-textdirectiontype-)| Gets/Sets the direction of the text flow for this object. |
+| [getTextBoxOptions()](#getTextBoxOptions--)| Gets the text information in the shape |
 | [getControlData()](#getControlData--)| Gets the data of control. |
 | [getActiveXControl()](#getActiveXControl--)| Gets the ActiveX control. |
 | [getPaths()](#getPaths--)| Gets the paths of a custom geometric shape. |
@@ -2243,6 +2244,19 @@ setTextDirection(value: TextDirectionType) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [TextDirectionType](../textdirectiontype/) | The value to set. |
+
+### getTextBoxOptions() {#getTextBoxOptions--}
+
+Gets the text information in the shape
+
+```javascript
+getTextBoxOptions() : TextBoxOptions;
+```
+
+
+**Returns**
+
+[TextBoxOptions](../textboxoptions/)
 
 ### getControlData() {#getControlData--}
 

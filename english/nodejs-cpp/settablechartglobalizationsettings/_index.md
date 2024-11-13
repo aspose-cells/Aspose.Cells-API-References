@@ -231,7 +231,7 @@ setAxisUnitName(type: DisplayUnitType, name: string) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | [DisplayUnitType](../displayunittype/) |  |
+| type | [DisplayUnitType](../displayunittype/) | The unit type for displaying axis labels. |
 | name | string | local dependent name |
 
 ### isNull() {#isNull--}

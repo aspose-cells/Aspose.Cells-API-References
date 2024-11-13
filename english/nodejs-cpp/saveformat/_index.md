@@ -59,4 +59,5 @@ Represents the format in which the workbook is saved.
 | XHtml | `771` | Rrepesents XHtml file. |
 | Epub | `772` | Represents Epub file. |
 | Azw3 | `773` | Represents Azw3 file. |
+| Pcl | `1025` | PCL (Printer Command Language) |
 

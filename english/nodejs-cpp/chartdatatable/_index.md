@@ -45,7 +45,7 @@ chart.setShowDataTable(true);
 //Getting Chart Table
 var chartTable = chart.getChartDataTable();
 //Setting Chart Table Font Color
-chartTable.getFont().setColor(new Color(0xff, 0, 0));
+chartTable.getFont().setColor(Color.Red);
 //Setting Legend Key Visibility
 chartTable.setShowLegendKey(false);
 //Saving the Excel file

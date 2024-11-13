@@ -27,8 +27,7 @@ var chart = charts.get(charts.add(ChartType.Column, 1, 1, 10, 10));
 //Setting the title of a chart
 chart.getTitle().setText("Title");
 //Setting the font color of the chart title to blue
-var blue = new Color(0, 0, 255);
-chart.getTitle().getFont().setColor(blue);
+chart.getTitle().getFont().setColor(Color.Blue);
 //Setting the title of category axis of the chart
 chart.getCategoryAxis().getTitle().setText("Category");
 //Setting the title of value axis of the chart

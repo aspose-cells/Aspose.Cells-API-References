@@ -97,7 +97,7 @@ cells.merge(5, 4, 2, 2);
 | [clear()](#clear--)| Clears all data of the worksheet. |
 | [importObjectArray(object[], number, number, boolean, number)](#importObjectArray-objectarray-number-number-boolean-number-)| Imports an array of data into a worksheet. |
 | [importFormulaArray(string[], number, number, boolean)](#importFormulaArray-stringarray-number-number-boolean-)| Imports an array of formula into a worksheet. |
-| [textToColumns(number, number, number, TxtLoadOptions)](#textToColumns-number-number-number-txtloadoptions-)| Splits the text in the column to columns. |
+| [textToColumns(number, number, number, TxtLoadOptions)](#textToColumns-number-number-number-txtloadoptions-)| Splits content in specified column into multiple columns.. |
 | [importCSV(string, string, boolean, number, number)](#importCSV-string-string-boolean-number-number-)| Import a CSV file to the cells. |
 | [importCSV(Uint8Array, string, boolean, number, number)](#importCSV-uint8array-string-boolean-number-number-)| Import a CSV file to the cells. |
 | [importCSV(string, TxtLoadOptions, number, number)](#importCSV-string-txtloadoptions-number-number-)| Import a CSV file to the cells. |
@@ -1062,10 +1062,10 @@ importFormulaArray(stringArray: string[], firstRow: number, firstColumn: number,
 
 ### textToColumns(number, number, number, TxtLoadOptions) {#textToColumns-number-number-number-txtloadoptions-}
 
-Splits the text in the column to columns.
+Splits content in specified column into multiple columns..
 
 ```javascript
-textToColumns(row: number, column: number, totalRows: number, options: TxtLoadOptions) : void;
+textToColumns(row: number, column: number, totalRows: number, options: TxtLoadOptions) : number;
 ```
 
 **Parameters:**
@@ -1075,6 +1075,10 @@ textToColumns(row: number, column: number, totalRows: number, options: TxtLoadOp
 | column | number | The column index. |
 | totalRows | number | The number of rows. |
 | options | [TxtLoadOptions](../txtloadoptions/) | The split options. |
+
+**Returns**
+
+Total column count of the split values.
 
 ### importCSV(string, string, boolean, number, number) {#importCSV-string-string-boolean-number-number-}
 

@@ -76,6 +76,10 @@ getMatchEntireCellContents() : boolean;
 ```
 
 
+**Remarks**
+
+The default value is true.
+
 ### setMatchEntireCellContents(boolean) {#setMatchEntireCellContents-boolean-}
 
 Indicates whether to match entire cells contents
@@ -88,6 +92,10 @@ setMatchEntireCellContents(value: boolean) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The value to set. |
+
+**Remarks**
+
+The default value is true.
 
 ### getRegexKey() {#getRegexKey--}
 

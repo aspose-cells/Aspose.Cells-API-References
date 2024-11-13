@@ -42,7 +42,7 @@ var cond = fcs.get(idx);
 
 //Get Databar
 var dataBar = cond.getDataBar();
-var orange = new Color(0xff, 0xa5, 0);
+var orange = Color.Orange;
 dataBar.setColor(orange);
 
 //Set Databar properties

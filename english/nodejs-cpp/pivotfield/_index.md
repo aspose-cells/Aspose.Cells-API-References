@@ -951,7 +951,7 @@ groupBy(interval: number, newField: boolean) : void;
 Group the file by the date group types.
 
 ```javascript
-groupBy(start: Date, end: Date, groups: PivotGroupByType[], interval: number, firstAsNewField: boolean) : void;
+groupBy(start: Date, end: Date, groups: PivotGroupByType[], interval: number, firstAsNewField: boolean) : boolean;
 ```
 
 **Parameters:**
@@ -963,12 +963,16 @@ groupBy(start: Date, end: Date, groups: PivotGroupByType[], interval: number, fi
 | interval | number | The interval |
 | firstAsNewField | boolean | Indicates whether adding a new field to the pivottable.         /// Only for the first group item. |
 
+**Returns**
+
+False means this field could not be grouped by date time.
+
 ### groupBy(number, number, number, boolean) {#groupBy-number-number-number-boolean-}
 
 Group the file by number.
 
 ```javascript
-groupBy(start: number, end: number, interval: number, newField: boolean) : void;
+groupBy(start: number, end: number, interval: number, newField: boolean) : boolean;
 ```
 
 **Parameters:**
@@ -979,12 +983,16 @@ groupBy(start: number, end: number, interval: number, newField: boolean) : void;
 | interval | number | The interval |
 | newField | boolean | Indicates whether adding a new field to the pivottable |
 
+**Returns**
+
+False means this field could not be grouped by date time.
+
 ### groupBy(CustomPiovtFieldGroupItem[], boolean) {#groupBy-custompiovtfieldgroupitemarray-boolean-}
 
 Custom group the field.
 
 ```javascript
-groupBy(customGroupItems: CustomPiovtFieldGroupItem[], newField: boolean) : void;
+groupBy(customGroupItems: CustomPiovtFieldGroupItem[], newField: boolean) : boolean;
 ```
 
 **Parameters:**
@@ -992,6 +1000,10 @@ groupBy(customGroupItems: CustomPiovtFieldGroupItem[], newField: boolean) : void
 | --- | --- | --- |
 | customGroupItems | [CustomPiovtFieldGroupItem](../custompiovtfieldgroupitem/)[] | The custom group items. |
 | newField | boolean | Indicates whether adding a new field to the pivottable |
+
+**Returns**
+
+False means this field could not be grouped by date time.
 
 ### ungroup() {#ungroup--}
 

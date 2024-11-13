@@ -32,20 +32,19 @@ var style = cell.getStyle();
 //Setting the line style of the top border
 style.getBorders().get(BorderType.TopBorder).setLineStyle(CellBorderType.Thick);
 //Setting the color of the top border
-var black = new Color(0, 0, 0);
-style.getBorders().get(BorderType.TopBorder).setColor(black);
+style.getBorders().get(BorderType.TopBorder).setColor(Color.Black);
 //Setting the line style of the bottom border
 style.getBorders().get(BorderType.BottomBorder).setLineStyle(CellBorderType.Thick);
 //Setting the color of the bottom border
-style.getBorders().get(BorderType.BottomBorder).setColor(black);
+style.getBorders().get(BorderType.BottomBorder).setColor(Color.Black);
 //Setting the line style of the left border
 style.getBorders().get(BorderType.LeftBorder).setLineStyle(CellBorderType.Thick);
 //Setting the color of the left border
-style.getBorders().get(BorderType.LeftBorder).setColor(black);
+style.getBorders().get(BorderType.LeftBorder).setColor(Color.Black);
 //Setting the line style of the right border
 style.getBorders().get(BorderType.RightBorder).setLineStyle(CellBorderType.Thick);
 //Setting the color of the right border
-style.getBorders().get(BorderType.RightBorder).setColor(black);
+style.getBorders().get(BorderType.RightBorder).setColor(Color.Black);
 //Set style object to cell
 cell.setStyle(style);
 

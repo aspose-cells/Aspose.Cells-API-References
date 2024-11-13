@@ -11,7 +11,7 @@ url: /nodejs-cpp/powerqueryformulaparameter/
 Represents the parameter of power query formula.
 
 ```javascript
-class PowerQueryFormulaParameter;
+class PowerQueryFormulaParameter extends PowerQueryFormula;
 ```
 
 
@@ -19,50 +19,47 @@ class PowerQueryFormulaParameter;
 
 | Name | Description |
 | --- | --- |
-| [constructor()](#constructor--)| Default Constructor. |
+| [constructor(PowerQueryFormula)](#constructor-powerqueryformula-)| Constructs from a parent object convertible to this. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getName()](#getName--)| Gets the name of parameter. |
-| [setName(string)](#setName-string-)| Gets the name of parameter. |
+| [getType()](#getType--)| Gets the type of power query formula. |
 | [getValue()](#getValue--)| Gets the value of parameter. |
 | [setValue(string)](#setValue-string-)| Gets the value of parameter. |
-| [getParameterDefinition()](#getParameterDefinition--)| Gets the definition of the parameter. |
+| [getFormulaDefinition()](#getFormulaDefinition--)| Gets the definition of the parameter. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+| [getName()](#getName--)| Gets and sets the name of the power query formula. |
+| [setName(string)](#setName-string-)| Gets and sets the name of the power query formula. |
+| [getPowerQueryFormulaItems()](#getPowerQueryFormulaItems--)| Gets all items of power query formula. |
 
 
-### constructor() {#constructor--}
+### constructor(PowerQueryFormula) {#constructor-powerqueryformula-}
 
-Default Constructor.
-
-```javascript
-constructor();
-```
-
-
-### getName() {#getName--}
-
-Gets the name of parameter.
+Constructs from a parent object convertible to this.
 
 ```javascript
-getName() : string;
-```
-
-
-### setName(string) {#setName-string-}
-
-Gets the name of parameter.
-
-```javascript
-setName(value: string) : void;
+constructor(obj: PowerQueryFormula);
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | string | The value to set. |
+| obj | PowerQueryFormula | The parent object. |
+
+### getType() {#getType--}
+
+Gets the type of power query formula.
+
+```javascript
+getType() : PowerQueryFormulaType;
+```
+
+
+**Returns**
+
+[PowerQueryFormulaType](../powerqueryformulatype/)
 
 ### getValue() {#getValue--}
 
@@ -86,12 +83,12 @@ setValue(value: string) : void;
 | --- | --- | --- |
 | value | string | The value to set. |
 
-### getParameterDefinition() {#getParameterDefinition--}
+### getFormulaDefinition() {#getFormulaDefinition--}
 
 Gets the definition of the parameter.
 
 ```javascript
-getParameterDefinition() : string;
+getFormulaDefinition() : string;
 ```
 
 
@@ -103,5 +100,40 @@ Checks whether the implementation object is null.
 isNull() : boolean;
 ```
 
+
+### getName() {#getName--}
+
+Gets and sets the name of the power query formula.
+
+```javascript
+getName() : string;
+```
+
+
+### setName(string) {#setName-string-}
+
+Gets and sets the name of the power query formula.
+
+```javascript
+setName(value: string) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | string | The value to set. |
+
+### getPowerQueryFormulaItems() {#getPowerQueryFormulaItems--}
+
+Gets all items of power query formula.
+
+```javascript
+getPowerQueryFormulaItems() : PowerQueryFormulaItemCollection;
+```
+
+
+**Returns**
+
+[PowerQueryFormulaItemCollection](../powerqueryformulaitemcollection/)
 
 

@@ -44,13 +44,13 @@ var chart = worksheet.getCharts().get(chartIndex);
 //Adding NSeries (chart data source) to the chart ranging from "A1" cell to "B3"
 chart.getNSeries().add("A1:B3", true);
 //Setting the foreground color of the plot area
-chart.getPlotArea().getArea().setForegroundColor(new Color(0, 0, 0xff));
+chart.getPlotArea().getArea().setForegroundColor(Color.Blue);
 //Setting the foreground color of the chart area
-chart.getChartArea().getArea().setForegroundColor(new Color(0xff, 0xff, 0));
+chart.getChartArea().getArea().setForegroundColor(Color.Yellow);
 //Setting the foreground color of the 1st NSeries area
-chart.getNSeries().get(0).getArea().setForegroundColor(new Color(0xff, 0, 0));
+chart.getNSeries().get(0).getArea().setForegroundColor(Color.Red);
 //Setting the foreground color of the area of the 1st NSeries point
-chart.getNSeries().get(0).getPoints().get(0).getArea().setForegroundColor(new Color(0, 0xff, 0xff));
+chart.getNSeries().get(0).getPoints().get(0).getArea().setForegroundColor(Color.Cyan);
 //Saving the Excel file
 workbook.save("output/DrawingArea.xls");
 ```
@@ -196,10 +196,10 @@ var chart = worksheet.getCharts().get(chartIndex);
 chart.getNSeries().add("A1:A3", true);
 chart.getNSeries().get(0).getArea().setInvertIfNegative(true);
 //Setting the foreground color of the 1st NSeries area
-chart.getNSeries().get(0).getArea().setForegroundColor(new Color(0xff, 0, 0));
+chart.getNSeries().get(0).getArea().setForegroundColor(Color.Red);
 //Setting the background color of the 1st NSeries area.
 //The displayed area color of second chart point will be the background color.
-chart.getNSeries().get(0).getArea().setBackgroundColor(new Color(0xff, 0xff, 0));
+chart.getNSeries().get(0).getArea().setBackgroundColor(Color.Yellow);
 //Saving the Excel file
 workbook.save("output/DrawingAreaInverseIfNegative.xls");
 ```

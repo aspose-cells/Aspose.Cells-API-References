@@ -26,16 +26,15 @@ var arc1 = excelbook.getWorksheets().get(0).getShapes().addArc(2, 0, 2, 0, 130, 
 //Set the placement of the arc.
 arc1.setPlacement(PlacementType.FreeFloating);
 //Set the fill format.
-var blue = new Color(0, 0, 0xff);
 arc1.getFill().setFillType(FillType.Solid)
-arc1.getFill().getSolidFill().setColor(blue);
+arc1.getFill().getSolidFill().setColor(Color.Blue);
 //Set the line style.
 arc1.getLine().setCompoundType(MsoLineStyle.Single);
 //Set the line weight.
 arc1.getLine().setWeight(2);
 //Set the color of the arc line.
 arc1.getLine().setFillType(FillType.Solid)
-arc1.getLine().getSolidFill().setColor(new Color(0xff, 0, 0));
+arc1.getLine().getSolidFill().setColor(Color.Red);
 //Set the dash style of the arc.
 arc1.getLine().setDashStyle(MsoLineDashStyle.Solid);
 //Add another arc shape.
@@ -48,7 +47,7 @@ arc2.getLine().setCompoundType(MsoLineStyle.Single);
 arc2.getLine().setWeight(1);
 //Set the color of the arc line.
 arc2.getLine().setFillType(FillType.Solid);
-arc2.getLine().getSolidFill().setColor(blue);
+arc2.getLine().getSolidFill().setColor(Color.Blue);
 //Set the dash style of the arc.
 arc2.getLine().setDashStyle(MsoLineDashStyle.Solid);
 //Save the excel file.
@@ -225,6 +224,7 @@ excelbook.save("output/DrawingArcShape.xls");
 | [setTextVerticalAlignment(TextAlignmentType)](#setTextVerticalAlignment-textalignmenttype-)| Gets and sets the text vertical alignment type of the shape. |
 | [getTextDirection()](#getTextDirection--)| Gets/Sets the direction of the text flow for this object. |
 | [setTextDirection(TextDirectionType)](#setTextDirection-textdirectiontype-)| Gets/Sets the direction of the text flow for this object. |
+| [getTextBoxOptions()](#getTextBoxOptions--)| Gets the text information in the shape |
 | [getControlData()](#getControlData--)| Gets the data of control. |
 | [getActiveXControl()](#getActiveXControl--)| Gets the ActiveX control. |
 | [getPaths()](#getPaths--)| Gets the paths of a custom geometric shape. |
@@ -2198,6 +2198,19 @@ setTextDirection(value: TextDirectionType) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [TextDirectionType](../textdirectiontype/) | The value to set. |
+
+### getTextBoxOptions() {#getTextBoxOptions--}
+
+Gets the text information in the shape
+
+```javascript
+getTextBoxOptions() : TextBoxOptions;
+```
+
+
+**Returns**
+
+[TextBoxOptions](../textboxoptions/)
 
 ### getControlData() {#getControlData--}
 

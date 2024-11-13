@@ -44,7 +44,7 @@ chart.getNSeries().add("A1:B3", true);
 //Getting Chart Area
 var chartArea = chart.getChartArea();
 //Setting the foreground color of the chart area
-chartArea.getArea().setForegroundColor(new Color(0xff, 0xff, 0));
+chartArea.getArea().setForegroundColor(Color.Yellow);
 //Setting Chart Area Shadow
 chartArea.setShadow(true);
 //Saving the Excel file

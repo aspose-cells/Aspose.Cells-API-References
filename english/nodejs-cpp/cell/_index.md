@@ -44,7 +44,7 @@ cell.setFormula("=sum(average(b1,c1), b1)");
 //Set style of a cell
 var style = cell.getStyle();
 //Set background color
-style.setBackgroundColor(new Color(0xff, 0xff, 0));
+style.setBackgroundColor(Color.Yellow);
 //Set format of a cell
 style.getFont().setName("Courier New");
 style.setVerticalAlignment(TextAlignmentType.Top);
@@ -157,6 +157,7 @@ cell.setStyle(style);
 | [getValidation()](#getValidation--)| Gets the validation applied to this cell. |
 | [getValidationValue()](#getValidationValue--)| Gets the value of validation which applied to this cell. |
 | [getTable()](#getTable--)| Gets the table which contains this cell. |
+| [getRichValue()](#getRichValue--)| Gets rich value of the cell. |
 | [dispose()](#dispose--)|  |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
@@ -1380,7 +1381,7 @@ const { Workbook, Color } = require("aspose.cells.node");
 var excel = new Workbook();
 excel.getWorksheets().get(0).getCells().get("A1").putValue("Helloworld");
 excel.getWorksheets().get(0).getCells().get("A1").characters(5, 5).getFont().setIsBold(true);
-excel.getWorksheets().get(0).getCells().get("A1").characters(5, 5).getFont().setColor(new Color(0, 0, 0xff));
+excel.getWorksheets().get(0).getCells().get("A1").characters(5, 5).getFont().setColor(Color.Blue);
 ```
 
 ### replace(string, string, ReplaceOptions) {#replace-string-string-replaceoptions-}
@@ -1606,6 +1607,19 @@ getTable() : ListObject;
 **Returns**
 
 [ListObject](../listobject/)
+
+### getRichValue() {#getRichValue--}
+
+Gets rich value of the cell.
+
+```javascript
+getRichValue() : CellRichValue;
+```
+
+
+**Returns**
+
+[CellRichValue](../cellrichvalue/)
 
 ### dispose() {#dispose--}
 

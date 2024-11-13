@@ -46,7 +46,7 @@ chart.getNSeries().get(0).getDataLabels().setShowValue(true);
 //Get chart's floor
 var floor = chart.getFloor();
 //set floor's border as red
-floor.getBorder().setColor(new Color(0xff, 0, 0));
+floor.getBorder().setColor(new Color("red"));
 //set fill format
 floor.getFillFormat().setPresetColorGradient(GradientPresetType.CalmWater, GradientStyleType.DiagonalDown, 2);
 

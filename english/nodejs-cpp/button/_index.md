@@ -36,7 +36,7 @@ button.getFont().setName("Tahoma");
 //Set the caption string bold.
 button.getFont().setIsBold(true);
 //Set the color to blue.
-button.getFont().setColor(new Color(0, 0, 0xff));
+button.getFont().setColor(Color.Blue);
 //Set the hyperlink for the button.
 button.addHyperlink("http://www.aspose.com/");
 
@@ -214,6 +214,7 @@ workbook.save("output/DrawingButton.xls");
 | [setTextVerticalAlignment(TextAlignmentType)](#setTextVerticalAlignment-textalignmenttype-)| Gets and sets the text vertical alignment type of the shape. |
 | [getTextDirection()](#getTextDirection--)| Gets/Sets the direction of the text flow for this object. |
 | [setTextDirection(TextDirectionType)](#setTextDirection-textdirectiontype-)| Gets/Sets the direction of the text flow for this object. |
+| [getTextBoxOptions()](#getTextBoxOptions--)| Gets the text information in the shape |
 | [getControlData()](#getControlData--)| Gets the data of control. |
 | [getActiveXControl()](#getActiveXControl--)| Gets the ActiveX control. |
 | [getPaths()](#getPaths--)| Gets the paths of a custom geometric shape. |
@@ -2187,6 +2188,19 @@ setTextDirection(value: TextDirectionType) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [TextDirectionType](../textdirectiontype/) | The value to set. |
+
+### getTextBoxOptions() {#getTextBoxOptions--}
+
+Gets the text information in the shape
+
+```javascript
+getTextBoxOptions() : TextBoxOptions;
+```
+
+
+**Returns**
+
+[TextBoxOptions](../textboxoptions/)
 
 ### getControlData() {#getControlData--}
 

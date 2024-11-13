@@ -65,7 +65,7 @@ series.setType(ChartType.Line);
 //Setting marker properties.
 series.getMarker().setMarkerStyle(ChartMarkerType.Circle);
 series.getMarker().setForegroundColorSetType(FormattingType.Automatic);
-series.getMarker().setForegroundColor(new Color(0, 0, 0));
+series.getMarker().setForegroundColor(Color.Black);
 series.getMarker().setBackgroundColorSetType(FormattingType.Automatic);
 //Saving the Excel file
 workbook.save("output/ChartsSeries.xls");

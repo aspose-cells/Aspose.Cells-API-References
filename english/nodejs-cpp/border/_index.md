@@ -26,7 +26,7 @@ var style = workbook.createStyle();
 //Set top border style and color
 var border = style.getBorders().get(BorderType.TopBorder);
 border.setLineStyle(CellBorderType.Medium);
-border.setColor(new Color(0xff, 0, 0));
+border.setColor(Color.Red);
 cell.setStyle(style);
 ```
 ## Methods

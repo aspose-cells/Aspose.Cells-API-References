@@ -72,6 +72,7 @@ workbook.save("output/DataSorter.xls");
 | [addKey(number, SortOrder, string)](#addKey-number-sortorder-string-)| Adds sorted column index and sort order with custom sort list. |
 | [addKey(number, SortOnType, SortOrder, object)](#addKey-number-sortontype-sortorder-object-)| Adds sorted column index and sort order with custom sort list. |
 | [addKey(number, SortOrder, string[])](#addKey-number-sortorder-stringarray-)| Adds sorted column index and sort order with custom sort list. |
+| [addColorKey(number, SortOnType, SortOrder, Color)](#addColorKey-number-sortontype-sortorder-color-)| Adds color sort key. |
 | [sort(Cells, number, number, number, number)](#sort-cells-number-number-number-number-)| Sorts the data of the area. |
 | [sort(Cells, CellArea)](#sort-cells-cellarea-)| Sort the data of the area. |
 | [sort()](#sort--)| Sort the data in the range. |
@@ -395,6 +396,22 @@ addKey(key: number, order: SortOrder, customList: string[]) : void;
 | key | number | The sorted column index(absolute position, column A is 0, B is 1, ...) |
 | order | [SortOrder](../sortorder/) | The sort order. |
 | customList | string[] | The custom sort list. |
+
+### addColorKey(number, SortOnType, SortOrder, Color) {#addColorKey-number-sortontype-sortorder-color-}
+
+Adds color sort key.
+
+```javascript
+addColorKey(key: number, type: SortOnType, order: SortOrder, color: Color) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| key | number | The sorted column index(absolute position, column A is 0, B is 1, ...) |
+| type | [SortOnType](../sortontype/) | The sorted color value type. |
+| order | [SortOrder](../sortorder/) | The sort order. |
+| color | [Color](../color/) | The custom sort color. |
 
 ### sort(Cells, number, number, number, number) {#sort-cells-number-number-number-number-}
 

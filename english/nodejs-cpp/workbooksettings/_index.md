@@ -129,6 +129,12 @@ class WorkbookSettings;
 | [getQuotePrefixToStyle()](#getQuotePrefixToStyle--)| Indicates whether setting [Style.QuotePrefix](../style.quoteprefix/) property when entering the string value(which starts  with single quote mark ) to the cell |
 | [setQuotePrefixToStyle(boolean)](#setQuotePrefixToStyle-boolean-)| Indicates whether setting [Style.QuotePrefix](../style.quoteprefix/) property when entering the string value(which starts  with single quote mark ) to the cell |
 | [getFormulaSettings()](#getFormulaSettings--)| Gets the settings for formula-related features. |
+| [getPropertiesFollowChartPoint()](#getPropertiesFollowChartPoint--)| Indicates whether datapoint properties and datalabels in all charts in this workbook follow their reference. |
+| [setPropertiesFollowChartPoint(boolean)](#setPropertiesFollowChartPoint-boolean-)| Indicates whether datapoint properties and datalabels in all charts in this workbook follow their reference. |
+| [getDiscardImageEditData()](#getDiscardImageEditData--)| Indicates whether discarding editting image data. |
+| [setDiscardImageEditData(boolean)](#setDiscardImageEditData-boolean-)| Indicates whether discarding editting image data. |
+| [getDefaultImageResolution()](#getDefaultImageResolution--)| Gets and sets default resolution of image. |
+| [setDefaultImageResolution(number)](#setDefaultImageResolution-number-)| Gets and sets default resolution of image. |
 | [dispose()](#dispose--)| Releases resources. |
 | [getThemeFont(FontSchemeType)](#getThemeFont-fontschemetype-)| Gets the default theme font name. |
 | [setPageOrientationType(PageOrientationType)](#setPageOrientationType-pageorientationtype-)| Set the type of  print orientation for the whole workbook. |
@@ -1536,6 +1542,72 @@ getFormulaSettings() : FormulaSettings;
 **Returns**
 
 [FormulaSettings](../formulasettings/)
+
+### getPropertiesFollowChartPoint() {#getPropertiesFollowChartPoint--}
+
+Indicates whether datapoint properties and datalabels in all charts in this workbook follow their reference.
+
+```javascript
+getPropertiesFollowChartPoint() : boolean;
+```
+
+
+### setPropertiesFollowChartPoint(boolean) {#setPropertiesFollowChartPoint-boolean-}
+
+Indicates whether datapoint properties and datalabels in all charts in this workbook follow their reference.
+
+```javascript
+setPropertiesFollowChartPoint(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+### getDiscardImageEditData() {#getDiscardImageEditData--}
+
+Indicates whether discarding editting image data.
+
+```javascript
+getDiscardImageEditData() : boolean;
+```
+
+
+### setDiscardImageEditData(boolean) {#setDiscardImageEditData-boolean-}
+
+Indicates whether discarding editting image data.
+
+```javascript
+setDiscardImageEditData(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+### getDefaultImageResolution() {#getDefaultImageResolution--}
+
+Gets and sets default resolution of image.
+
+```javascript
+getDefaultImageResolution() : number;
+```
+
+
+### setDefaultImageResolution(number) {#setDefaultImageResolution-number-}
+
+Gets and sets default resolution of image.
+
+```javascript
+setDefaultImageResolution(value: number) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | number | The value to set. |
 
 ### dispose() {#dispose--}
 

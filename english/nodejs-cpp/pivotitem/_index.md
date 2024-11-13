@@ -25,10 +25,9 @@ class PivotItem;
 | [setPosition(number)](#setPosition-number-)| Specifying the position index in all the PivotItems,not the PivotItems under the same parent node. |
 | [getPositionInSameParentNode()](#getPositionInSameParentNode--)| Specifying the position index in the PivotItems under the same parent node. |
 | [setPositionInSameParentNode(number)](#setPositionInSameParentNode-number-)| Specifying the position index in the PivotItems under the same parent node. |
-| [isHideDetail()](#isHideDetail--)| Gets and Sets whether the pivot item hides detail. |
-| [setIsHideDetail(boolean)](#setIsHideDetail-boolean-)| Gets and Sets whether the pivot item hides detail. |
-| [isFormula()](#isFormula--)| Indicates whether this pivot item is a calculated formula item. |
-| [setIsFormula(boolean)](#setIsFormula-boolean-)| Indicates whether this pivot item is a calculated formula item. |
+| [isDetailHidden()](#isDetailHidden--)| Gets and sets whether the detail of this pivot item is hidden. |
+| [setIsDetailHidden(boolean)](#setIsDetailHidden-boolean-)| Gets and sets whether the detail of this pivot item is hidden. |
+| [isCalculatedItem()](#isCalculatedItem--)| Indicates whether this pivot item is a calculated formula item. |
 | [isMissing()](#isMissing--)| Indicates whether the item is removed from the data source. |
 | [getValue()](#getValue--)| Gets the value of the pivot item |
 | [getName()](#getName--)| Gets the name of the pivot item. |
@@ -109,49 +108,36 @@ setPositionInSameParentNode(value: number) : void;
 | --- | --- | --- |
 | value | number | The value to set. |
 
-### isHideDetail() {#isHideDetail--}
+### isDetailHidden() {#isDetailHidden--}
 
-Gets and Sets whether the pivot item hides detail.
+Gets and sets whether the detail of this pivot item is hidden.
 
 ```javascript
-isHideDetail() : boolean;
+isDetailHidden() : boolean;
 ```
 
 
-### setIsHideDetail(boolean) {#setIsHideDetail-boolean-}
+### setIsDetailHidden(boolean) {#setIsDetailHidden-boolean-}
 
-Gets and Sets whether the pivot item hides detail.
-
-```javascript
-setIsHideDetail(value: boolean) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | The value to set. |
-
-### isFormula() {#isFormula--}
-
-Indicates whether this pivot item is a calculated formula item.
+Gets and sets whether the detail of this pivot item is hidden.
 
 ```javascript
-isFormula() : boolean;
-```
-
-
-### setIsFormula(boolean) {#setIsFormula-boolean-}
-
-Indicates whether this pivot item is a calculated formula item.
-
-```javascript
-setIsFormula(value: boolean) : void;
+setIsDetailHidden(value: boolean) : void;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The value to set. |
+
+### isCalculatedItem() {#isCalculatedItem--}
+
+Indicates whether this pivot item is a calculated formula item.
+
+```javascript
+isCalculatedItem() : boolean;
+```
+
 
 ### isMissing() {#isMissing--}
 

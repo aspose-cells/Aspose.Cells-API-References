@@ -19,8 +19,8 @@ class ShapeTextAlignment;
 
 | Method | Description |
 | --- | --- |
-| [isTextWrapped()](#isTextWrapped--)| Gets and sets the text wrapped type of the shape which contains text. |
-| [setIsTextWrapped(boolean)](#setIsTextWrapped-boolean-)| Gets and sets the text wrapped type of the shape which contains text. |
+| [isTextWrapped()](#isTextWrapped--)| Gets or sets the text wrapped type of the shape which contains text. |
+| [setIsTextWrapped(boolean)](#setIsTextWrapped-boolean-)| Gets or sets the text wrapped type of the shape which contains text. |
 | [getRotateTextWithShape()](#getRotateTextWithShape--)| Indicates whether rotating text with shape. |
 | [setRotateTextWithShape(boolean)](#setRotateTextWithShape-boolean-)| Indicates whether rotating text with shape. |
 | [getTextVerticalOverflow()](#getTextVerticalOverflow--)| Gets and sets the text vertical overflow type of the text box. |
@@ -56,7 +56,7 @@ class ShapeTextAlignment;
 
 ### isTextWrapped() {#isTextWrapped--}
 
-Gets and sets the text wrapped type of the shape which contains text.
+Gets or sets the text wrapped type of the shape which contains text.
 
 ```javascript
 isTextWrapped() : boolean;
@@ -65,7 +65,7 @@ isTextWrapped() : boolean;
 
 ### setIsTextWrapped(boolean) {#setIsTextWrapped-boolean-}
 
-Gets and sets the text wrapped type of the shape which contains text.
+Gets or sets the text wrapped type of the shape which contains text.
 
 ```javascript
 setIsTextWrapped(value: boolean) : void;

@@ -26,7 +26,7 @@ var worksheet = workbook.getWorksheets().get(0);
 //Add new Style to Workbook
 var style = workbook.createStyle();
 //Setting the background color to Blue
-style.setForegroundColor(new Color(0, 0, 0xff));
+style.setForegroundColor(Color.Blue);
 //setting Background Pattern
 style.setPattern(BackgroundType.Solid);
 //New Style Flag

@@ -82,6 +82,7 @@ workbook.save("output/result.xls", saveOptions);
 | [getAbsolutePath()](#getAbsolutePath--)| Gets and sets the absolute path of the file. |
 | [setAbsolutePath(string)](#setAbsolutePath-string-)| Gets and sets the absolute path of the file. |
 | [getDataConnections()](#getDataConnections--)| Gets the [ExternalConnection](../externalconnection/) collection. |
+| [getDataModel()](#getDataModel--)| Gets data model in the workbook. |
 | [parseFormulas(boolean)](#parseFormulas-boolean-)| Parses all formulas which have not been parsed when they were loaded from template file or set to a cell. |
 | [startAccessCache(AccessCacheOptions)](#startAccessCache-accesscacheoptions-)| Starts the session that uses caches to access data. |
 | [closeAccessCache(AccessCacheOptions)](#closeAccessCache-accesscacheoptions-)| Closes the session that uses caches to access data. |
@@ -660,6 +661,19 @@ getDataConnections() : ExternalConnectionCollection;
 **Returns**
 
 [ExternalConnectionCollection](../externalconnectioncollection/)
+
+### getDataModel() {#getDataModel--}
+
+Gets data model in the workbook.
+
+```javascript
+getDataModel() : DataModel;
+```
+
+
+**Returns**
+
+[DataModel](../datamodel/)
 
 ### parseFormulas(boolean) {#parseFormulas-boolean-}
 

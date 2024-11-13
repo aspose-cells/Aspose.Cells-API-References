@@ -36,7 +36,7 @@ ca.endColumn = 13;
 findOptions.setRange(ca);
 //Set searching properties
 findOptions.setSearchBackward(false);
-findOptions.setSeachOrderByRows(true);
+findOptions.setSearchOrderByRows(true);
 findOptions.setLookInType(LookInType.Values);
 //Find the cell with 0 value
 var cell = cells.find(0, null, findOptions);
@@ -58,8 +58,8 @@ var cell = cells.find(0, null, findOptions);
 | [isRangeSet()](#isRangeSet--)| Indicates whether the searched range is set. |
 | [getSearchBackward()](#getSearchBackward--)| Whether search backward for cells. |
 | [setSearchBackward(boolean)](#setSearchBackward-boolean-)| Whether search backward for cells. |
-| [getSeachOrderByRows()](#getSeachOrderByRows--)| Indicates whether search order by rows or columns. |
-| [setSeachOrderByRows(boolean)](#setSeachOrderByRows-boolean-)| Indicates whether search order by rows or columns. |
+| [getSearchOrderByRows()](#getSearchOrderByRows--)| Indicates whether search order by rows or columns. |
+| [setSearchOrderByRows(boolean)](#setSearchOrderByRows-boolean-)| Indicates whether search order by rows or columns. |
 | [getLookInType()](#getLookInType--)| Look in type. |
 | [setLookInType(LookInType)](#setLookInType-lookintype-)| Look in type. |
 | [getRegexKey()](#getRegexKey--)| Indicates whether the searched key is regex. If true the searched key will be taken as regex and parsed. Otherwise the key will be parsed according to the rules in ms excel. |
@@ -163,21 +163,21 @@ setSearchBackward(value: boolean) : void;
 | --- | --- | --- |
 | value | boolean | The value to set. |
 
-### getSeachOrderByRows() {#getSeachOrderByRows--}
+### getSearchOrderByRows() {#getSearchOrderByRows--}
 
 Indicates whether search order by rows or columns.
 
 ```javascript
-getSeachOrderByRows() : boolean;
+getSearchOrderByRows() : boolean;
 ```
 
 
-### setSeachOrderByRows(boolean) {#setSeachOrderByRows-boolean-}
+### setSearchOrderByRows(boolean) {#setSearchOrderByRows-boolean-}
 
 Indicates whether search order by rows or columns.
 
 ```javascript
-setSeachOrderByRows(value: boolean) : void;
+setSearchOrderByRows(value: boolean) : void;
 ```
 
 **Parameters:**

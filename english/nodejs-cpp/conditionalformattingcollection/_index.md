@@ -47,7 +47,7 @@ var conditionIndex = fcs.addCondition(FormatConditionType.CellValue, OperatorTyp
 var conditionIndex2 = fcs.addCondition(FormatConditionType.CellValue, OperatorType.Between, "50", "100");
 //Sets the background color.
 var fc = fcs.get(conditionIndex);
-fc.getStyle().setBackgroundColor(new Color(0xff, 0, 0));
+fc.getStyle().setBackgroundColor(Color.Red);
 //Saving the Excel file
 workbook.save("output/ConditionalFormattingCollection.xls");
 ```

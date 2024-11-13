@@ -44,7 +44,7 @@ chart.getNSeries().add("A1:B3", true);
 //Show Data Labels 
 chart.getNSeries().get(0).getDataLabels().setShowValue(true);
 var points = chart.getNSeries().get(0).getPoints();
-var red = new Color(0xff, 0, 0);
+var red = Color.Red;
 for (var i = 0; i < points.getCount(); i++)
 {
     //Get Data Point

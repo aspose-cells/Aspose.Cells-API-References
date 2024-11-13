@@ -52,7 +52,7 @@ for (var i = 0; i < chart.getNSeries().get(0).getPoints().getCount(); i++)
     //Set Pir Explosion
     point.setExplosion(15);
     //Set Border Color
-    point.getBorder().setColor(new Color(0xff, 0, 0));
+    point.getBorder().setColor(Color.Red);
 }
 
 //Saving the Excel file

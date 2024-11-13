@@ -20,6 +20,7 @@ class SheetSet;
 | Name | Description |
 | --- | --- |
 | [constructor(number[])](#constructor-numberarray-)| Creates a sheet set based on exact sheet indexes. |
+| [constructor(string[])](#constructor-stringarray-)| Creates a sheet set based on exact sheet names. |
 
 ## Methods
 
@@ -36,13 +37,30 @@ class SheetSet;
 Creates a sheet set based on exact sheet indexes.
 
 ```javascript
-constructor(sheets: number[]);
+constructor(sheetIndexes: number[]);
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sheets | number[] | zero based sheet indexes. |
+| sheetIndexes | number[] | zero based sheet indexes. |
+
+**Remarks**
+
+If a sheet is encountered that is not in the workbook, an exception will be thrown during rendering.
+
+### constructor(string[]) {#constructor-stringarray-}
+
+Creates a sheet set based on exact sheet names.
+
+```javascript
+constructor(sheetNames: string[]);
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sheetNames | string[] | sheet names. |
 
 **Remarks**
 

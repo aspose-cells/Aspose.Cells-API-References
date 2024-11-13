@@ -69,6 +69,8 @@ class ShapeCollection;
 | [remove(Shape)](#remove-shape-)| Remove the shape. |
 | [clear()](#clear--)| Clear all shapes in the worksheet. |
 | [updateSelectedValue()](#updateSelectedValue--)| Update the selected value by the value of the linked cell or range of the shape. |
+| [addFreeform(number, number, number, number, number, number, ShapePath[])](#addFreeform-number-number-number-number-number-number-shapepatharray-)| Adds a freeform shape to the worksheet. |
+| [addSignatureLine(number, number, SignatureLine)](#addSignatureLine-number-number-signatureline-)| Adds a Signature Line to the worksheet. |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
@@ -1107,6 +1109,48 @@ Update the selected value by the value of the linked cell or range of the shape.
 updateSelectedValue() : void;
 ```
 
+
+### addFreeform(number, number, number, number, number, number, ShapePath[]) {#addFreeform-number-number-number-number-number-number-shapepatharray-}
+
+Adds a freeform shape to the worksheet.
+
+```javascript
+addFreeform(upperLeftRow: number, top: number, upperLeftColumn: number, left: number, height: number, width: number, paths: ShapePath[]) : Shape;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| upperLeftRow | number | Upper left row index. |
+| top | number | Represents the vertical  offset of Polygon from its left row, in unit of pixel. |
+| upperLeftColumn | number | Upper left column index. |
+| left | number | Represents the horizontal offset of Polygon from its left column, in unit of pixel. |
+| height | number | Represents the height of Polygon, in unit of pixel. |
+| width | number | Represents the width of Polygon, in unit of pixel. |
+| paths | [ShapePath](../shapepath/)[] | Represents a user-defined path |
+
+**Returns**
+
+A freeform shape.
+
+### addSignatureLine(number, number, SignatureLine) {#addSignatureLine-number-number-signatureline-}
+
+Adds a Signature Line to the worksheet.
+
+```javascript
+addSignatureLine(upperLeftRow: number, upperLeftColumn: number, signatureLine: SignatureLine) : Picture;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| upperLeftRow | number | Upper left row index. |
+| upperLeftColumn | number | Upper left column index. |
+| signatureLine | [SignatureLine](../signatureline/) | Represents a signature line object. |
+
+**Returns**
+
+[Picture](../picture/)
 
 ### getCount() {#getCount--}
 

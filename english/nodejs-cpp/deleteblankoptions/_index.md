@@ -32,8 +32,8 @@ class DeleteBlankOptions extends DeleteOptions;
 | [setEmptyFormulaValueAsBlank(boolean)](#setEmptyFormulaValueAsBlank-boolean-)| Whether one cell will be taken as blank when it is formula and the calculated result is null or empty string. Default value is false. |
 | [getDrawingsAsBlank()](#getDrawingsAsBlank--)| Whether drawing related objects such as picture, shape, chart... will be taken as blank. Default value is true. |
 | [setDrawingsAsBlank(boolean)](#setDrawingsAsBlank-boolean-)| Whether drawing related objects such as picture, shape, chart... will be taken as blank. Default value is true. |
-| [getMergedCellsShrinkType()](#getMergedCellsShrinkType--)| Indicates how to process merged cells when deleting blank rows/columns.<br></br> For [MergedCellsShrinkType.KeepHeaderOnly](../mergedcellsshrinktype.keepheaderonly/), all cells in it will be taken as blank except the non-blank top-left cell. It is the default value of this property.<br></br> For [MergedCellsShrinkType.None](../mergedcellsshrinktype.none/), all cells in it will be taken as non-blank.<br></br> For [MergedCellsShrinkType.ShrinkToFit](../mergedcellsshrinktype.shrinktofit/), all cells outside the content display area will be taken as blank.<br></br> |
-| [setMergedCellsShrinkType(MergedCellsShrinkType)](#setMergedCellsShrinkType-mergedcellsshrinktype-)| Indicates how to process merged cells when deleting blank rows/columns.<br></br> For [MergedCellsShrinkType.KeepHeaderOnly](../mergedcellsshrinktype.keepheaderonly/), all cells in it will be taken as blank except the non-blank top-left cell. It is the default value of this property.<br></br> For [MergedCellsShrinkType.None](../mergedcellsshrinktype.none/), all cells in it will be taken as non-blank.<br></br> For [MergedCellsShrinkType.ShrinkToFit](../mergedcellsshrinktype.shrinktofit/), all cells outside the content display area will be taken as blank.<br></br> |
+| [getMergedCellsShrinkType()](#getMergedCellsShrinkType--)| Indicates how to process merged cells when deleting blank rows/columns. |
+| [setMergedCellsShrinkType(MergedCellsShrinkType)](#setMergedCellsShrinkType-mergedcellsshrinktype-)| Indicates how to process merged cells when deleting blank rows/columns. |
 | [getStartIndex()](#getStartIndex--)| Specifies the start row/column index of the range to check and delete blank rows/columns. |
 | [setStartIndex(number)](#setStartIndex-number-)| Specifies the start row/column index of the range to check and delete blank rows/columns. |
 | [getEndIndex()](#getEndIndex--)| Specifies the end row/column index(inclusive) of the range to check and delete blank rows/columns. Default value is -1 and -1 means the maximum range of all objects(cells, drawings, ...) that need to be checked. |
@@ -149,7 +149,7 @@ When setting this property as false, all rows/columns covered by drawing objects
 
 ### getMergedCellsShrinkType() {#getMergedCellsShrinkType--}
 
-Indicates how to process merged cells when deleting blank rows/columns.<br></br> For [MergedCellsShrinkType.KeepHeaderOnly](../mergedcellsshrinktype.keepheaderonly/), all cells in it will be taken as blank except the non-blank top-left cell. It is the default value of this property.<br></br> For [MergedCellsShrinkType.None](../mergedcellsshrinktype.none/), all cells in it will be taken as non-blank.<br></br> For [MergedCellsShrinkType.ShrinkToFit](../mergedcellsshrinktype.shrinktofit/), all cells outside the content display area will be taken as blank.<br></br>
+Indicates how to process merged cells when deleting blank rows/columns.
 
 ```javascript
 getMergedCellsShrinkType() : MergedCellsShrinkType;
@@ -160,9 +160,13 @@ getMergedCellsShrinkType() : MergedCellsShrinkType;
 
 [MergedCellsShrinkType](../mergedcellsshrinktype/)
 
+**Remarks**
+
+For [MergedCellsShrinkType.KeepHeaderOnly](../mergedcellsshrinktype.keepheaderonly/), all cells in it will be taken as blank except the non-blank top-left cell. It is the default value of this property.<br></br> For [MergedCellsShrinkType.None](../mergedcellsshrinktype.none/), all cells in it will be taken as non-blank.<br></br> For [MergedCellsShrinkType.ShrinkToFit](../mergedcellsshrinktype.shrinktofit/), all cells outside the content display area will be taken as blank.<br></br
+
 ### setMergedCellsShrinkType(MergedCellsShrinkType) {#setMergedCellsShrinkType-mergedcellsshrinktype-}
 
-Indicates how to process merged cells when deleting blank rows/columns.<br></br> For [MergedCellsShrinkType.KeepHeaderOnly](../mergedcellsshrinktype.keepheaderonly/), all cells in it will be taken as blank except the non-blank top-left cell. It is the default value of this property.<br></br> For [MergedCellsShrinkType.None](../mergedcellsshrinktype.none/), all cells in it will be taken as non-blank.<br></br> For [MergedCellsShrinkType.ShrinkToFit](../mergedcellsshrinktype.shrinktofit/), all cells outside the content display area will be taken as blank.<br></br>
+Indicates how to process merged cells when deleting blank rows/columns.
 
 ```javascript
 setMergedCellsShrinkType(value: MergedCellsShrinkType) : void;
@@ -172,6 +176,10 @@ setMergedCellsShrinkType(value: MergedCellsShrinkType) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [MergedCellsShrinkType](../mergedcellsshrinktype/) | The value to set. |
+
+**Remarks**
+
+For [MergedCellsShrinkType.KeepHeaderOnly](../mergedcellsshrinktype.keepheaderonly/), all cells in it will be taken as blank except the non-blank top-left cell. It is the default value of this property.<br></br> For [MergedCellsShrinkType.None](../mergedcellsshrinktype.none/), all cells in it will be taken as non-blank.<br></br> For [MergedCellsShrinkType.ShrinkToFit](../mergedcellsshrinktype.shrinktofit/), all cells outside the content display area will be taken as blank.<br></br
 
 ### getStartIndex() {#getStartIndex--}
 
