@@ -2,7 +2,7 @@
 title: Aspose::Cells::Drawing::SignatureLine::SetTitle method
 linktitle: SetTitle
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Drawing::SignatureLine::SetTitle method. Gets and sets the title of singer in C++.'
+description: 'Aspose::Cells::Drawing::SignatureLine::SetTitle method. Gets or sets the title of singer in C++.'
 type: docs
 weight: 1300
 url: /cpp/aspose.cells.drawing/signatureline/settitle/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.drawing/signatureline/settitle/
 ## SignatureLine::SetTitle(const U16String\&) method
 
 
-Gets and sets the title of singer.
+Gets or sets the title of singer.
 
 ```cpp
 void Aspose::Cells::Drawing::SignatureLine::SetTitle(const U16String &value)
@@ -40,7 +40,7 @@ if (s4.GetTitle().IsNull() || s4.GetTitle().IsEmpty())
 ## SignatureLine::SetTitle(const char16_t*) method
 
 
-Gets and sets the title of singer.
+Gets or sets the title of singer.
 
 ```cpp
 void Aspose::Cells::Drawing::SignatureLine::SetTitle(const char16_t *value)

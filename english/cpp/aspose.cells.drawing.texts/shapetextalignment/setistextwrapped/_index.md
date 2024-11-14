@@ -2,7 +2,7 @@
 title: Aspose::Cells::Drawing::Texts::ShapeTextAlignment::SetIsTextWrapped method
 linktitle: SetIsTextWrapped
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Drawing::Texts::ShapeTextAlignment::SetIsTextWrapped method. Gets and sets the text wrapped type of the shape which contains text in C++.'
+description: 'Aspose::Cells::Drawing::Texts::ShapeTextAlignment::SetIsTextWrapped method. Gets or sets the text wrapped type of the shape which contains text in C++.'
 type: docs
 weight: 700
 url: /cpp/aspose.cells.drawing.texts/shapetextalignment/setistextwrapped/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.drawing.texts/shapetextalignment/setistextwrapped/
 ## ShapeTextAlignment::SetIsTextWrapped method
 
 
-Gets and sets the text wrapped type of the shape which contains text.
+Gets or sets the text wrapped type of the shape which contains text.
 
 ```cpp
 void Aspose::Cells::Drawing::Texts::ShapeTextAlignment::SetIsTextWrapped(bool value)

@@ -4,7 +4,7 @@ linktitle: FindOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::FindOptions class. Represents find options in C++.'
 type: docs
-weight: 6300
+weight: 6400
 url: /cpp/aspose.cells/findoptions/
 ---
 ## FindOptions class
@@ -29,8 +29,8 @@ class FindOptions
 | [GetLookInType()](./getlookintype/) | Look in type. |
 | [GetRange()](./getrange/) | Gets and sets the searched range. |
 | [GetRegexKey()](./getregexkey/) | Indicates whether the searched key is regex. If true the searched key will be taken as regex and parsed. Otherwise the key will be parsed according to the rules in ms excel. |
-| [GetSeachOrderByRows()](./getseachorderbyrows/) | Indicates whether search order by rows or columns. |
 | [GetSearchBackward()](./getsearchbackward/) | Whether search backward for cells. |
+| [GetSearchOrderByRows()](./getsearchorderbyrows/) | Indicates whether search order by rows or columns. |
 | [GetStyle()](./getstyle/) | The format to search for. |
 | [GetValueTypeSensitive()](./getvaluetypesensitive/) | Indicates whether searched cell value type should be same with the searched key. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
@@ -43,8 +43,8 @@ class FindOptions
 | [SetLookInType(LookInType value)](./setlookintype/) | Look in type. |
 | [SetRange(const CellArea\& ca)](./setrange/) | Sets the searched range. |
 | [SetRegexKey(bool value)](./setregexkey/) | Indicates whether the searched key is regex. If true the searched key will be taken as regex and parsed. Otherwise the key will be parsed according to the rules in ms excel. |
-| [SetSeachOrderByRows(bool value)](./setseachorderbyrows/) | Indicates whether search order by rows or columns. |
 | [SetSearchBackward(bool value)](./setsearchbackward/) | Whether search backward for cells. |
+| [SetSearchOrderByRows(bool value)](./setsearchorderbyrows/) | Indicates whether search order by rows or columns. |
 | [SetStyle(const Style\& value)](./setstyle/) | The format to search for. |
 | [SetValueTypeSensitive(bool value)](./setvaluetypesensitive/) | Indicates whether searched cell value type should be same with the searched key. |
 | [~FindOptions()](./~findoptions/) | Destructor. |

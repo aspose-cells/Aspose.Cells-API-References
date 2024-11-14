@@ -26,7 +26,8 @@ class SheetSet
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const SheetSet\& src)](./operator_asm/) | operator= |
-| explicit [SheetSet(const Vector \<int32_t\>\& sheets)](./sheetset/) | Creates a sheet set based on exact sheet indexes. |
+| explicit [SheetSet(const Vector \<int32_t\>\& sheetIndexes)](./sheetset/) | Creates a sheet set based on exact sheet indexes. |
+| explicit [SheetSet(const Vector \<U16String\>\& sheetNames)](./sheetset/) | Creates a sheet set based on exact sheet names. |
 | [SheetSet(SheetSet_Impl* impl)](./sheetset/) | Constructs from an implementation object. |
 | [SheetSet(const SheetSet\& src)](./sheetset/) | Copy constructor. |
 | [~SheetSet()](./~sheetset/) | Destructor. |

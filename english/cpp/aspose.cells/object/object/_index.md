@@ -186,17 +186,33 @@ Aspose::Cells::Object::Object(double value)
 * Class [Object](../)
 * Namespace [Aspose::Cells](../../)
 * Library [Aspose.Cells for C++](../../../)
-## Object::Object(Date) constructor
+## Object::Object(const Date\&) constructor
 
 
 Constructs from a [Date](../../date/) value.
 
 ```cpp
-Aspose::Cells::Object::Object(Date value)
+Aspose::Cells::Object::Object(const Date &value)
 ```
 
 ## See Also
 
+* Class [Vector](../../vector/)
+* Class [Object](../)
+* Namespace [Aspose::Cells](../../)
+* Library [Aspose.Cells for C++](../../../)
+## Object::Object(const Aspose::Cells::Color\&) constructor
+
+
+Constructs from a [Color](../../color/) value.
+
+```cpp
+Aspose::Cells::Object::Object(const Aspose::Cells::Color &value)
+```
+
+## See Also
+
+* Class [Vector](../../vector/)
 * Class [Object](../)
 * Namespace [Aspose::Cells](../../)
 * Library [Aspose.Cells for C++](../../../)

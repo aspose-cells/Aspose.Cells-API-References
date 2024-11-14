@@ -4,7 +4,7 @@ linktitle: DeleteBlankOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::DeleteBlankOptions class. Represents the setting of deleting blank cells/rows/columns in C++.'
 type: docs
-weight: 4600
+weight: 4700
 url: /cpp/aspose.cells/deleteblankoptions/
 ---
 ## DeleteBlankOptions class
@@ -31,7 +31,7 @@ class DeleteBlankOptions : public Aspose::Cells::DeleteOptions
 | [GetEmptyFormulaValueAsBlank()](./getemptyformulavalueasblank/) | Whether one cell will be taken as blank when it is formula and the calculated result is null or empty string. Default value is false. |
 | [GetEmptyStringAsBlank()](./getemptystringasblank/) | Whether one cell will be taken as blank when its value is empty string. Default value is true. |
 | [GetEndIndex()](./getendindex/) | Specifies the end row/column index(inclusive) of the range to check and delete blank rows/columns. Default value is -1 and -1 means the maximum range of all objects(cells, drawings, ...) that need to be checked. |
-| [GetMergedCellsShrinkType()](./getmergedcellsshrinktype/) | Indicates how to process merged cells when deleting blank rows/columns.<br>  For [MergedCellsShrinkType.KeepHeaderOnly](../mergedcellsshrinktype/), all cells in it will be taken as blank except the non-blank top-left cell. It is the default value of this property.<br>  For [MergedCellsShrinkType.None](../mergedcellsshrinktype/), all cells in it will be taken as non-blank.<br>  For [MergedCellsShrinkType.ShrinkToFit](../mergedcellsshrinktype/), all cells outside the content display area will be taken as blank.<br> |
+| [GetMergedCellsShrinkType()](./getmergedcellsshrinktype/) | Indicates how to process merged cells when deleting blank rows/columns. |
 | [GetStartIndex()](./getstartindex/) | Specifies the start row/column index of the range to check and delete blank rows/columns. |
 | [GetUpdateReference()](../deleteoptions/getupdatereference/) | Indicates if update references in other worksheets. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
@@ -42,7 +42,7 @@ class DeleteBlankOptions : public Aspose::Cells::DeleteOptions
 | [SetEmptyFormulaValueAsBlank(bool value)](./setemptyformulavalueasblank/) | Whether one cell will be taken as blank when it is formula and the calculated result is null or empty string. Default value is false. |
 | [SetEmptyStringAsBlank(bool value)](./setemptystringasblank/) | Whether one cell will be taken as blank when its value is empty string. Default value is true. |
 | [SetEndIndex(int32_t value)](./setendindex/) | Specifies the end row/column index(inclusive) of the range to check and delete blank rows/columns. Default value is -1 and -1 means the maximum range of all objects(cells, drawings, ...) that need to be checked. |
-| [SetMergedCellsShrinkType(MergedCellsShrinkType value)](./setmergedcellsshrinktype/) | Indicates how to process merged cells when deleting blank rows/columns.<br>  For [MergedCellsShrinkType.KeepHeaderOnly](../mergedcellsshrinktype/), all cells in it will be taken as blank except the non-blank top-left cell. It is the default value of this property.<br>  For [MergedCellsShrinkType.None](../mergedcellsshrinktype/), all cells in it will be taken as non-blank.<br>  For [MergedCellsShrinkType.ShrinkToFit](../mergedcellsshrinktype/), all cells outside the content display area will be taken as blank.<br> |
+| [SetMergedCellsShrinkType(MergedCellsShrinkType value)](./setmergedcellsshrinktype/) | Indicates how to process merged cells when deleting blank rows/columns. |
 | [SetStartIndex(int32_t value)](./setstartindex/) | Specifies the start row/column index of the range to check and delete blank rows/columns. |
 | [SetUpdateReference(bool value)](../deleteoptions/setupdatereference/) | Indicates if update references in other worksheets. |
 | [~DeleteBlankOptions()](./~deleteblankoptions/) | Destructor. |

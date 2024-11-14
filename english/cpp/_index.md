@@ -15,6 +15,7 @@ is_root: true
 | --- | --- |
 | [Aspose::Cells](./aspose.cells/) |  |
 | [Aspose::Cells::Charts](./aspose.cells.charts/) |  |
+| [Aspose::Cells::DataModels](./aspose.cells.datamodels/) |  |
 | [Aspose::Cells::DigitalSignatures](./aspose.cells.digitalsignatures/) |  |
 | [Aspose::Cells::Drawing](./aspose.cells.drawing/) |  |
 | [Aspose::Cells::Drawing::ActiveXControls](./aspose.cells.drawing.activexcontrols/) |  |

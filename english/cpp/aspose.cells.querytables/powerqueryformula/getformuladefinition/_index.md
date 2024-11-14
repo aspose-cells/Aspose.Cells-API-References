@@ -4,7 +4,7 @@ linktitle: GetFormulaDefinition
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::QueryTables::PowerQueryFormula::GetFormulaDefinition method. Gets the definition of the power query formula in C++.'
 type: docs
-weight: 600
+weight: 1000
 url: /cpp/aspose.cells.querytables/powerqueryformula/getformuladefinition/
 ---
 ## PowerQueryFormula::GetFormulaDefinition method

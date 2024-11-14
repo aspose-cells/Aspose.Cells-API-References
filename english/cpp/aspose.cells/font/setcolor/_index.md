@@ -2,7 +2,7 @@
 title: Aspose::Cells::Font::SetColor method
 linktitle: SetColor
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Font::SetColor method. Gets or sets the System.Drawing.Color of the font in C++.'
+description: 'Aspose::Cells::Font::SetColor method. Gets or sets the Color of the font in C++.'
 type: docs
 weight: 3300
 url: /cpp/aspose.cells/font/setcolor/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells/font/setcolor/
 ## Font::SetColor method
 
 
-Gets or sets the System.Drawing.Color of the font.
+Gets or sets the [Color](../../color/) of the font.
 
 ```cpp
 void Aspose::Cells::Font::SetColor(const Aspose::Cells::Color &value)

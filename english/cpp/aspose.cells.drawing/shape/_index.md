@@ -84,6 +84,7 @@ class Shape
 | [GetSpt()](./getspt/) | Specifies an optional number that an application can use to associate the particular shape with a defined shape type. |
 | [GetText()](./gettext/) | Gets and sets the text of this shape. |
 | [GetTextBody()](./gettextbody/) | Gets and sets the setting of the shape's text. |
+| [GetTextBoxOptions()](./gettextboxoptions/) | Gets the text information in the shape. |
 | [GetTextDirection()](./gettextdirection/) | Gets/Sets the direction of the text flow for this object. |
 | [GetTextEffect()](./gettexteffect/) | Returns a [TextEffectFormat](../texteffectformat/) object that contains text-effect formatting properties for the specified shape. Applies to [Shape](./) objects that represent WordArt. |
 | [GetTextHorizontalAlignment()](./gettexthorizontalalignment/) | Gets and sets the text horizontal alignment type of the shape. |

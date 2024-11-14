@@ -23,6 +23,7 @@ class PowerQueryFormula
 | [GetFormulaDefinition()](./getformuladefinition/) | Gets the definition of the power query formula. |
 | [GetName()](./getname/) | Gets and sets the name of the power query formula. |
 | [GetPowerQueryFormulaItems()](./getpowerqueryformulaitems/) | Gets all items of power query formula. |
+| [GetType()](./gettype/) | Gets the type of this power query formula. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const PowerQueryFormula\& src)](./operator_asm/) | operator= |

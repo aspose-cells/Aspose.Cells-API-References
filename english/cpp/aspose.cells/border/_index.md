@@ -23,14 +23,14 @@ class Border
 | [Border(Border_Impl* impl)](./border/) | Constructs from an implementation object. |
 | [Border(const Border\& src)](./border/) | Copy constructor. |
 | [GetArgbColor()](./getargbcolor/) | Gets and sets the color with a 32-bit ARGB value. |
-| [GetColor()](./getcolor/) | Gets or sets the System.Drawing.Color of the border. |
+| [GetColor()](./getcolor/) | Gets or sets the [Color](../color/) of the border. |
 | [GetLineStyle()](./getlinestyle/) | Gets or sets the cell border type. |
 | [GetThemeColor()](./getthemecolor/) | Gets and sets the theme color of the border. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const Border\& src)](./operator_asm/) | operator= |
 | [SetArgbColor(int32_t value)](./setargbcolor/) | Gets and sets the color with a 32-bit ARGB value. |
-| [SetColor(const Aspose::Cells::Color\& value)](./setcolor/) | Gets or sets the System.Drawing.Color of the border. |
+| [SetColor(const Aspose::Cells::Color\& value)](./setcolor/) | Gets or sets the [Color](../color/) of the border. |
 | [SetLineStyle(CellBorderType value)](./setlinestyle/) | Gets or sets the cell border type. |
 | [SetThemeColor(const ThemeColor\& value)](./setthemecolor/) | Gets and sets the theme color of the border. |
 | [~Border()](./~border/) | Destructor. |

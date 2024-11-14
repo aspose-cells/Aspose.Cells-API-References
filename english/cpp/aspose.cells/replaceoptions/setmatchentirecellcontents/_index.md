@@ -16,6 +16,10 @@ Indicates whether to match entire cells contents.
 void Aspose::Cells::ReplaceOptions::SetMatchEntireCellContents(bool value)
 ```
 
+## Remarks
+
+
+The default value is true. 
 ## See Also
 
 * Class [Vector](../../vector/)

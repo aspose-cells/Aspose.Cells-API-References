@@ -4,7 +4,7 @@ linktitle: Font
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Font class. Encapsulates the font object used in a spreadsheet in C++.'
 type: docs
-weight: 6500
+weight: 6600
 url: /cpp/aspose.cells/font/
 ---
 ## Font class
@@ -26,7 +26,7 @@ class Font
 | [GetArgbColor()](./getargbcolor/) | Gets and sets the color with a 32-bit ARGB value. |
 | [GetCapsType()](./getcapstype/) | Gets and sets the text caps type. |
 | [GetCharset()](./getcharset/) | Represent the character set. |
-| [GetColor()](./getcolor/) | Gets or sets the System.Drawing.Color of the font. |
+| [GetColor()](./getcolor/) | Gets or sets the [Color](../color/) of the font. |
 | [GetDoubleSize()](./getdoublesize/) | Gets and sets the double size of the font. |
 | [GetName()](./getname/) | Gets or sets the name of the [Font](./). |
 | [GetSchemeType()](./getschemetype/) | Gets and sets the scheme type of the font. |
@@ -47,7 +47,7 @@ class Font
 | [SetArgbColor(int32_t value)](./setargbcolor/) | Gets and sets the color with a 32-bit ARGB value. |
 | [SetCapsType(TextCapsType value)](./setcapstype/) | Gets and sets the text caps type. |
 | [SetCharset(int32_t value)](./setcharset/) | Represent the character set. |
-| [SetColor(const Aspose::Cells::Color\& value)](./setcolor/) | Gets or sets the System.Drawing.Color of the font. |
+| [SetColor(const Aspose::Cells::Color\& value)](./setcolor/) | Gets or sets the [Color](../color/) of the font. |
 | [SetDoubleSize(double value)](./setdoublesize/) | Gets and sets the double size of the font. |
 | [SetIsBold(bool value)](./setisbold/) | Gets or sets a value indicating whether the font is bold. |
 | [SetIsItalic(bool value)](./setisitalic/) | Gets or sets a value indicating whether the font is italic. |

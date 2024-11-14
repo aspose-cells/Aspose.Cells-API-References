@@ -19,7 +19,8 @@ void Aspose::Cells::SettableChartGlobalizationSettings::SetAxisUnitName(DisplayU
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | DisplayUnitType | local dependent name |
+| type | DisplayUnitType | The unit type for displaying axis labels. |
+| name | const U16String\& | local dependent name |
 
 ## See Also
 
@@ -41,7 +42,8 @@ void Aspose::Cells::SettableChartGlobalizationSettings::SetAxisUnitName(DisplayU
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | DisplayUnitType | local dependent name |
+| type | DisplayUnitType | The unit type for displaying axis labels. |
+| name | const char16_t* | local dependent name |
 
 ## See Also
 

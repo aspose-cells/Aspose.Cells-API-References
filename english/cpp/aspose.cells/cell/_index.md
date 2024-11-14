@@ -61,6 +61,7 @@ class Cell
 | [GetPrecedents()](./getprecedents/) | Gets all references appearing in this cell's formula. |
 | [GetPrecedentsInCalculation()](./getprecedentsincalculation/) | Gets all precedents(reference to cells in current workbook) used by this cell's formula while calculating it. |
 | [GetR1C1Formula()](./getr1c1formula/) | Gets or sets a R1C1 formula of the [Cell](./). |
+| [GetRichValue()](./getrichvalue/) | Gets rich value of the cell. |
 | [GetRow()](./getrow/) | Gets row number (zero based) of the cell. |
 | [GetSharedStyleIndex()](./getsharedstyleindex/) | Gets cell's shared style index in the style pool. |
 | [GetStringValue(CellValueFormatStrategy formatStrategy)](./getstringvalue/) | Gets the string value by specific formatted strategy. |

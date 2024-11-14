@@ -24,7 +24,7 @@ class Line
 | [GetBeginArrowWidth()](./getbeginarrowwidth/) | Specifies the width of the arrowhead for the begin of a line. |
 | [GetBeginType()](./getbegintype/) | Specifies an arrowhead for the begin of a line. |
 | [GetCapType()](./getcaptype/) | Specifies the ending caps. |
-| [GetColor()](./getcolor/) | Represents the System.Drawing.Color of the line. |
+| [GetColor()](./getcolor/) | Represents the [Color](../../aspose.cells/color/) of the line. |
 | [GetCompoundType()](./getcompoundtype/) | Specifies the compound line type. |
 | [GetDashType()](./getdashtype/) | Specifies the dash line type. |
 | [GetEndArrowLength()](./getendarrowlength/) | Specifies the length of the arrowhead for the end of a line. |
@@ -51,7 +51,7 @@ class Line
 | [SetBeginArrowWidth(MsoArrowheadWidth value)](./setbeginarrowwidth/) | Specifies the width of the arrowhead for the begin of a line. |
 | [SetBeginType(MsoArrowheadStyle value)](./setbegintype/) | Specifies an arrowhead for the begin of a line. |
 | [SetCapType(LineCapType value)](./setcaptype/) | Specifies the ending caps. |
-| [SetColor(const Aspose::Cells::Color\& value)](./setcolor/) | Represents the System.Drawing.Color of the line. |
+| [SetColor(const Aspose::Cells::Color\& value)](./setcolor/) | Represents the [Color](../../aspose.cells/color/) of the line. |
 | [SetCompoundType(MsoLineStyle value)](./setcompoundtype/) | Specifies the compound line type. |
 | [SetDashType(MsoLineDashStyle value)](./setdashtype/) | Specifies the dash line type. |
 | [SetEndArrowLength(MsoArrowheadLength value)](./setendarrowlength/) | Specifies the length of the arrowhead for the end of a line. |

@@ -4,7 +4,7 @@ linktitle: DataSorter
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::DataSorter class. Summary description for DataSorter in C++.'
 type: docs
-weight: 4100
+weight: 4200
 url: /cpp/aspose.cells/datasorter/
 ---
 ## DataSorter class
@@ -20,6 +20,7 @@ class DataSorter
 
 | Method | Description |
 | --- | --- |
+| [AddColorKey(int32_t key, SortOnType type, SortOrder order, const Aspose::Cells::Color\& color)](./addcolorkey/) | Adds color sort key. |
 | [AddKey(int32_t key, SortOrder order)](./addkey/) | Adds sorted column index and sort order. |
 | [AddKey(int32_t key, SortOrder order, const U16String\& customList)](./addkey/) | Adds sorted column index and sort order with custom sort list. |
 | [AddKey(int32_t key, SortOrder order, const char16_t* customList)](./addkey/) | Adds sorted column index and sort order with custom sort list. |

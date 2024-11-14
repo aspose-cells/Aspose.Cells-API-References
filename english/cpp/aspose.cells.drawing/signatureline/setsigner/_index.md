@@ -2,7 +2,7 @@
 title: Aspose::Cells::Drawing::SignatureLine::SetSigner method
 linktitle: SetSigner
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Drawing::SignatureLine::SetSigner method. Gets and sets the signer in C++.'
+description: 'Aspose::Cells::Drawing::SignatureLine::SetSigner method. Gets or sets the signer in C++.'
 type: docs
 weight: 1100
 url: /cpp/aspose.cells.drawing/signatureline/setsigner/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.drawing/signatureline/setsigner/
 ## SignatureLine::SetSigner(const U16String\&) method
 
 
-Gets and sets the signer.
+Gets or sets the signer.
 
 ```cpp
 void Aspose::Cells::Drawing::SignatureLine::SetSigner(const U16String &value)
@@ -40,7 +40,7 @@ if (s3.GetSigner().IsNull() || s3.GetSigner().IsEmpty())
 ## SignatureLine::SetSigner(const char16_t*) method
 
 
-Gets and sets the signer.
+Gets or sets the signer.
 
 ```cpp
 void Aspose::Cells::Drawing::SignatureLine::SetSigner(const char16_t *value)

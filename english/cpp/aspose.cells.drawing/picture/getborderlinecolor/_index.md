@@ -2,7 +2,7 @@
 title: Aspose::Cells::Drawing::Picture::GetBorderLineColor method
 linktitle: GetBorderLineColor
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Drawing::Picture::GetBorderLineColor method. Represents the System.Drawing.Color of the border line of a picture in C++.'
+description: 'Aspose::Cells::Drawing::Picture::GetBorderLineColor method. Represents the Color of the border line of a picture in C++.'
 type: docs
 weight: 1100
 url: /cpp/aspose.cells.drawing/picture/getborderlinecolor/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.drawing/picture/getborderlinecolor/
 ## Picture::GetBorderLineColor method
 
 
-Represents the System.Drawing.Color of the border line of a picture.
+Represents the [Color](../../../aspose.cells/color/) of the border line of a picture.
 
 ```cpp
 Aspose::Cells::Color Aspose::Cells::Drawing::Picture::GetBorderLineColor()

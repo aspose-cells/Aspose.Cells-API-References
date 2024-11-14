@@ -30,6 +30,7 @@ class ShapeCollection
 | [AddCopy(const Shape\& sourceShape, int32_t topRow, int32_t top, int32_t leftColumn, int32_t left)](./addcopy/) | Adds and copy a shape to the worksheet. |
 | [AddEquation(int32_t topRow, int32_t top, int32_t leftColumn, int32_t left, int32_t height, int32_t width)](./addequation/) | Add an equation object to the worksheet. |
 | [AddFreeFloatingShape(MsoDrawingType type, int32_t top, int32_t left, int32_t height, int32_t width, const Vector \<uint8_t\>\& imageData, bool isOriginalSize)](./addfreefloatingshape/) | Adds a free floating shape to the worksheet.Only applies for line/image shape. |
+| [AddFreeform(int32_t upperLeftRow, int32_t top, int32_t upperLeftColumn, int32_t left, int32_t height, int32_t width, const Vector \<ShapePath\>\& paths)](./addfreeform/) | Adds a freeform shape to the worksheet. |
 | [AddGroupBox(int32_t upperLeftRow, int32_t top, int32_t upperLeftColumn, int32_t left, int32_t height, int32_t width)](./addgroupbox/) | Adds a [GroupBox](../groupbox/) to the worksheet. |
 | [AddIcons(int32_t upperLeftRow, int32_t top, int32_t upperLeftColumn, int32_t left, int32_t height, int32_t width, const Vector \<uint8_t\>\& imageByteData, const Vector \<uint8_t\>\& compatibleImageData)](./addicons/) | Adds svg image. |
 | [AddLabel(int32_t upperLeftRow, int32_t top, int32_t upperLeftColumn, int32_t left, int32_t height, int32_t width)](./addlabel/) | Adds a [Label](../label/) to the worksheet. |
@@ -53,6 +54,7 @@ class ShapeCollection
 | [AddShapeInChart(MsoDrawingType type, PlacementType placement, int32_t left, int32_t top, int32_t right, int32_t bottom)](./addshapeinchart/) | Add a shape to chart .All unit is 1/4000 of chart area. |
 | [AddShapeInChartByScale(MsoDrawingType type, PlacementType placement, double left, double top, double right, double bottom)](./addshapeinchartbyscale/) | Add a shape to chart. All unit is percent scale of chart area. |
 | [AddShapeInChartByScale(MsoDrawingType type, PlacementType placement, double left, double top, double right, double bottom, const Vector \<uint8_t\>\& imageData)](./addshapeinchartbyscale/) | Add a shape to chart .All unit is 1/4000 of chart area. |
+| [AddSignatureLine(int32_t upperLeftRow, int32_t upperLeftColumn, const SignatureLine\& signatureLine)](./addsignatureline/) | Adds a Signature [Line](../line/) to the worksheet. |
 | [AddSpinner(int32_t upperLeftRow, int32_t top, int32_t upperLeftColumn, int32_t left, int32_t height, int32_t width)](./addspinner/) | Adds a [Spinner](../spinner/) to the worksheet. |
 | [AddSvg(int32_t upperLeftRow, int32_t top, int32_t upperLeftColumn, int32_t left, int32_t height, int32_t width, const Vector \<uint8_t\>\& svgData, const Vector \<uint8_t\>\& compatibleImageData)](./addsvg/) | Adds svg image. |
 | [AddTextBox(int32_t upperLeftRow, int32_t top, int32_t upperLeftColumn, int32_t left, int32_t height, int32_t width)](./addtextbox/) | Adds a text box to the worksheet. |

@@ -2,7 +2,7 @@
 title: Aspose::Cells::Border::SetColor method
 linktitle: SetColor
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Border::SetColor method. Gets or sets the System.Drawing.Color of the border in C++.'
+description: 'Aspose::Cells::Border::SetColor method. Gets or sets the Color of the border in C++.'
 type: docs
 weight: 900
 url: /cpp/aspose.cells/border/setcolor/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells/border/setcolor/
 ## Border::SetColor method
 
 
-Gets or sets the System.Drawing.Color of the border.
+Gets or sets the [Color](../../color/) of the border.
 
 ```cpp
 void Aspose::Cells::Border::SetColor(const Aspose::Cells::Color &value)

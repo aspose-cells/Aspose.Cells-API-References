@@ -34,7 +34,7 @@ void Aspose::Cells::Pivot::PivotField::GroupBy(double interval, bool newField)
 Group the file by the date group types.
 
 ```cpp
-void Aspose::Cells::Pivot::PivotField::GroupBy(const Date &start, const Date &end, const Vector<PivotGroupByType> &groups, double interval, bool firstAsNewField)
+bool Aspose::Cells::Pivot::PivotField::GroupBy(const Date &start, const Date &end, const Vector<PivotGroupByType> &groups, double interval, bool firstAsNewField)
 ```
 
 
@@ -45,6 +45,10 @@ void Aspose::Cells::Pivot::PivotField::GroupBy(const Date &start, const Date &en
 | groups | const Vector \<PivotGroupByType\>\& | Group types |
 | interval | double | The interval |
 | firstAsNewField | bool | Indicates whether adding a new field to the pivottable. Only for the first group item. |
+
+## ReturnValue
+
+False means this field could not be grouped by date time.
 
 ## See Also
 
@@ -59,7 +63,7 @@ void Aspose::Cells::Pivot::PivotField::GroupBy(const Date &start, const Date &en
 Group the file by number.
 
 ```cpp
-void Aspose::Cells::Pivot::PivotField::GroupBy(double start, double end, double interval, bool newField)
+bool Aspose::Cells::Pivot::PivotField::GroupBy(double start, double end, double interval, bool newField)
 ```
 
 
@@ -69,6 +73,10 @@ void Aspose::Cells::Pivot::PivotField::GroupBy(double start, double end, double 
 | end | double | The end of value |
 | interval | double | The interval |
 | newField | bool | Indicates whether adding a new field to the pivottable |
+
+## ReturnValue
+
+False means this field could not be grouped by date time.
 
 ## See Also
 
@@ -82,7 +90,7 @@ void Aspose::Cells::Pivot::PivotField::GroupBy(double start, double end, double 
 Custom group the field.
 
 ```cpp
-void Aspose::Cells::Pivot::PivotField::GroupBy(const Vector<CustomPiovtFieldGroupItem> &customGroupItems, bool newField)
+bool Aspose::Cells::Pivot::PivotField::GroupBy(const Vector<CustomPiovtFieldGroupItem> &customGroupItems, bool newField)
 ```
 
 
@@ -90,6 +98,10 @@ void Aspose::Cells::Pivot::PivotField::GroupBy(const Vector<CustomPiovtFieldGrou
 | --- | --- | --- |
 | customGroupItems | const Vector \<CustomPiovtFieldGroupItem\>\& | The custom group items. |
 | newField | bool | Indicates whether adding a new field to the pivottable |
+
+## ReturnValue
+
+False means this field could not be grouped by date time.
 
 ## See Also
 

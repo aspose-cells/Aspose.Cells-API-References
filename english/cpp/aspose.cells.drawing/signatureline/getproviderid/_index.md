@@ -2,7 +2,7 @@
 title: Aspose::Cells::Drawing::SignatureLine::GetProviderId method
 linktitle: GetProviderId
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Drawing::SignatureLine::GetProviderId method. Gets and sets the id of signature provider in C++.'
+description: 'Aspose::Cells::Drawing::SignatureLine::GetProviderId method. Gets or sets the id of signature provider in C++.'
 type: docs
 weight: 800
 url: /cpp/aspose.cells.drawing/signatureline/getproviderid/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.drawing/signatureline/getproviderid/
 ## SignatureLine::GetProviderId method
 
 
-Gets and sets the id of signature provider.
+Gets or sets the id of signature provider.
 
 ```cpp
 void Aspose::Cells::Drawing::SignatureLine::GetProviderId(UUID &uuid)

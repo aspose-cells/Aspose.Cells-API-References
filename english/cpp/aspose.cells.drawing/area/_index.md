@@ -22,17 +22,17 @@ class Area
 | --- | --- |
 | [Area(Area_Impl* impl)](./area/) | Constructs from an implementation object. |
 | [Area(const Area\& src)](./area/) | Copy constructor. |
-| [GetBackgroundColor()](./getbackgroundcolor/) | Gets or sets the background System.Drawing.Color of the [Area](./). |
+| [GetBackgroundColor()](./getbackgroundcolor/) | Gets or sets the background [Color](../../aspose.cells/color/) of the [Area](./). |
 | [GetFillFormat()](./getfillformat/) | Represents a [FillFormat](../fillformat/) object that contains fill formatting properties for the specified chart or shape. |
-| [GetForegroundColor()](./getforegroundcolor/) | Gets or sets the foreground System.Drawing.Color. |
+| [GetForegroundColor()](./getforegroundcolor/) | Gets or sets the foreground [Color](../../aspose.cells/color/). |
 | [GetFormatting()](./getformatting/) | Represents the formatting of the area. |
 | [GetInvertIfNegative()](./getinvertifnegative/) | If the property is true and the value of chart point is a negative number, the foreground color and background color will be exchanged. |
 | [GetTransparency()](./gettransparency/) | Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear). |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const Area\& src)](./operator_asm/) | operator= |
-| [SetBackgroundColor(const Aspose::Cells::Color\& value)](./setbackgroundcolor/) | Gets or sets the background System.Drawing.Color of the [Area](./). |
-| [SetForegroundColor(const Aspose::Cells::Color\& value)](./setforegroundcolor/) | Gets or sets the foreground System.Drawing.Color. |
+| [SetBackgroundColor(const Aspose::Cells::Color\& value)](./setbackgroundcolor/) | Gets or sets the background [Color](../../aspose.cells/color/) of the [Area](./). |
+| [SetForegroundColor(const Aspose::Cells::Color\& value)](./setforegroundcolor/) | Gets or sets the foreground [Color](../../aspose.cells/color/). |
 | [SetFormatting(FormattingType value)](./setformatting/) | Represents the formatting of the area. |
 | [SetInvertIfNegative(bool value)](./setinvertifnegative/) | If the property is true and the value of chart point is a negative number, the foreground color and background color will be exchanged. |
 | [SetTransparency(double value)](./settransparency/) | Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear). |

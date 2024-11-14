@@ -25,10 +25,10 @@ class Floor : public Aspose::Cells::Drawing::Area
 | [Floor(Floor_Impl* impl)](./floor/) | Constructs from an implementation object. |
 | [Floor(const Floor\& src)](./floor/) | Copy constructor. |
 | [Floor(const Area\& src)](./floor/) | Constructs from a parent object. |
-| [GetBackgroundColor()](../../aspose.cells.drawing/area/getbackgroundcolor/) | Gets or sets the background System.Drawing.Color of the [Area](../../aspose.cells.drawing/area/). |
+| [GetBackgroundColor()](../../aspose.cells.drawing/area/getbackgroundcolor/) | Gets or sets the background [Color](../../aspose.cells/color/) of the [Area](../../aspose.cells.drawing/area/). |
 | [GetBorder()](./getborder/) | Gets or sets the border Line. |
 | [GetFillFormat()](../../aspose.cells.drawing/area/getfillformat/) | Represents a [FillFormat](../../aspose.cells.drawing/fillformat/) object that contains fill formatting properties for the specified chart or shape. |
-| [GetForegroundColor()](../../aspose.cells.drawing/area/getforegroundcolor/) | Gets or sets the foreground System.Drawing.Color. |
+| [GetForegroundColor()](../../aspose.cells.drawing/area/getforegroundcolor/) | Gets or sets the foreground [Color](../../aspose.cells/color/). |
 | [GetFormatting()](../../aspose.cells.drawing/area/getformatting/) | Represents the formatting of the area. |
 | [GetInvertIfNegative()](../../aspose.cells.drawing/area/getinvertifnegative/) | If the property is true and the value of chart point is a negative number, the foreground color and background color will be exchanged. |
 | [GetTransparency()](../../aspose.cells.drawing/area/gettransparency/) | Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear). |
@@ -36,9 +36,9 @@ class Floor : public Aspose::Cells::Drawing::Area
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const Floor\& src)](./operator_asm/) | operator= |
 | [operator=(const Area\& src)](../../aspose.cells.drawing/area/operator_asm/) | operator= |
-| [SetBackgroundColor(const Aspose::Cells::Color\& value)](../../aspose.cells.drawing/area/setbackgroundcolor/) | Gets or sets the background System.Drawing.Color of the [Area](../../aspose.cells.drawing/area/). |
+| [SetBackgroundColor(const Aspose::Cells::Color\& value)](../../aspose.cells.drawing/area/setbackgroundcolor/) | Gets or sets the background [Color](../../aspose.cells/color/) of the [Area](../../aspose.cells.drawing/area/). |
 | [SetBorder(const Line\& value)](./setborder/) | Gets or sets the border Line. |
-| [SetForegroundColor(const Aspose::Cells::Color\& value)](../../aspose.cells.drawing/area/setforegroundcolor/) | Gets or sets the foreground System.Drawing.Color. |
+| [SetForegroundColor(const Aspose::Cells::Color\& value)](../../aspose.cells.drawing/area/setforegroundcolor/) | Gets or sets the foreground [Color](../../aspose.cells/color/). |
 | [SetFormatting(FormattingType value)](../../aspose.cells.drawing/area/setformatting/) | Represents the formatting of the area. |
 | [SetInvertIfNegative(bool value)](../../aspose.cells.drawing/area/setinvertifnegative/) | If the property is true and the value of chart point is a negative number, the foreground color and background color will be exchanged. |
 | [SetTransparency(double value)](../../aspose.cells.drawing/area/settransparency/) | Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear). |

@@ -20,8 +20,13 @@ class ShapePath
 
 | Method | Description |
 | --- | --- |
+| [ArcTo(float wR, float hR, float stAng, float swAng)](./arcto/) | Appends an elliptical arc to the current figure. The starting point is the end point of the current figure. |
+| [Close()](./close/) | Closes the current figure and starts a new figure. If the current figure contains a sequence of connected lines and curves, the method closes the loop by connecting a line from the endpoint to the starting point. |
+| [CubicBezierTo(float ctrX1, float ctrY1, float ctrX2, float ctrY2, float endX, float endY)](./cubicbezierto/) | Appends a cubic Bézier curve to the current figure. The starting point is the end point of the current figure. |
 | [GetPathSegementList()](./getpathsegementlist/) | Gets [ShapeSegmentPathCollection](../shapesegmentpathcollection/) list. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
+| [LineTo(float x, float y)](./lineto/) | Appends a line segment to the current figure. The starting point is the end point of the current figure. |
+| [MoveTo(float x, float y)](./moveto/) | Starts a new figure from the specified point without closing the current figure. All subsequent points added to the path are added to this new figure. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const ShapePath\& src)](./operator_asm/) | operator= |
 | [ShapePath()](./shapepath/) | Initializes a new instance of the [ShapePath](./) class. |

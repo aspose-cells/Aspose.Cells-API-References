@@ -4,7 +4,7 @@ linktitle: Aspose::Cells::QueryTables
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use Aspose::Cells::QueryTables namespace in C++.'
 type: docs
-weight: 1600
+weight: 1700
 url: /cpp/aspose.cells.querytables/
 ---
 
@@ -21,4 +21,9 @@ url: /cpp/aspose.cells.querytables/
 | [PowerQueryFormulaItem](./powerqueryformulaitem/) | Represents the item of the power query formula. |
 | [PowerQueryFormulaItemCollection](./powerqueryformulaitemcollection/) | Represents all item of the power query formula. |
 | [PowerQueryFormulaParameter](./powerqueryformulaparameter/) | Represents the parameter of power query formula. |
-| [PowerQueryFormulaParameterCollection](./powerqueryformulaparametercollection/) | Represents the parameters of power query formula. |
+| [PowerQueryFormulaParameterCollection](./powerqueryformulaparametercollection/) |  **(Deprecated)** Represents the parameters of power query formula. |
+## Enums
+
+| Enum | Description |
+| --- | --- |
+| [PowerQueryFormulaType](./powerqueryformulatype/) | Represents the type of power query formula. |

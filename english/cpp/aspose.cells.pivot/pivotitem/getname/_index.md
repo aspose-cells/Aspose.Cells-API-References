@@ -4,7 +4,7 @@ linktitle: GetName
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotItem::GetName method. Gets the name of the pivot item in C++.'
 type: docs
-weight: 2300
+weight: 2200
 url: /cpp/aspose.cells.pivot/pivotitem/getname/
 ---
 ## PivotItem::GetName method

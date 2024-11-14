@@ -4,7 +4,7 @@ linktitle: Object
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Object class. Object class in C++.'
 type: docs
-weight: 10500
+weight: 10600
 url: /cpp/aspose.cells/object/
 ---
 ## Object class
@@ -28,6 +28,7 @@ class Object
 | [IsArray1D()](./isarray1d/) const | Checks whether the object is a one-dimensional array. |
 | [IsArray2D()](./isarray2d/) const | Checks whether the object is a two-dimensional array. |
 | [IsBool()](./isbool/) const | Checks whether the object is a bool value. |
+| [IsColor()](./iscolor/) const | Checks whether the object is a [Color](../color/) value. |
 | [IsDate()](./isdate/) const | Checks whether the object is a [Date](../date/) value. |
 | [IsDouble()](./isdouble/) const | Checks whether the object is a double value. |
 | [IsInt32()](./isint32/) const | Checks whether the object is an int32_t value. |
@@ -49,7 +50,8 @@ class Object
 | [Object(uint64_t value)](./object/) | Constructs from an uint64_t value. |
 | [Object(float value)](./object/) | Constructs from a float value. |
 | [Object(double value)](./object/) | Constructs from a double value. |
-| [Object(Date value)](./object/) | Constructs from a [Date](../date/) value. |
+| [Object(const Date\& value)](./object/) | Constructs from a [Date](../date/) value. |
+| [Object(const Aspose::Cells::Color\& value)](./object/) | Constructs from a [Color](../color/) value. |
 | [Object(const U16String\& value)](./object/) | Constructs from [U16String](../u16string/) value. |
 | [Object(const char16_t* value)](./object/) | Constructs from a const char16_t* string. |
 | [Object(const Range\& value)](./object/) | Constructs from a [Range](../range/) value. |
@@ -63,6 +65,7 @@ class Object
 | [ToArray1D()](./toarray1d/) const | Gets the one-dimensional array value. |
 | [ToArray2D()](./toarray2d/) const | Gets the two-dimensional array value. |
 | [ToBool()](./tobool/) const | Gets the bool value. |
+| [ToColor()](./tocolor/) const | Gets the [Color](../color/) value. |
 | [ToDate()](./todate/) const | Gets the [Date](../date/) value. |
 | [ToDouble()](./todouble/) const | Gets the double value. |
 | [ToFloat()](./tofloat/) const | Gets the float value. |

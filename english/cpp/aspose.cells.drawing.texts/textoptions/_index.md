@@ -4,7 +4,7 @@ linktitle: TextOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Texts::TextOptions class. Represents the text options in C++.'
 type: docs
-weight: 900
+weight: 1000
 url: /cpp/aspose.cells.drawing.texts/textoptions/
 ---
 ## TextOptions class
@@ -26,7 +26,7 @@ class TextOptions : public Aspose::Cells::Font
 | [GetArgbColor()](../../aspose.cells/font/getargbcolor/) | Gets and sets the color with a 32-bit ARGB value. |
 | [GetCapsType()](../../aspose.cells/font/getcapstype/) | Gets and sets the text caps type. |
 | [GetCharset()](../../aspose.cells/font/getcharset/) | Represent the character set. |
-| [GetColor()](../../aspose.cells/font/getcolor/) | Gets or sets the System.Drawing.Color of the font. |
+| [GetColor()](../../aspose.cells/font/getcolor/) | Gets or sets the [Color](../../aspose.cells/color/) of the font. |
 | [GetDoubleSize()](../../aspose.cells/font/getdoublesize/) | Gets and sets the double size of the font. |
 | [GetFarEastName()](./getfareastname/) | Gets and sets the FarEast name. |
 | [GetFill()](./getfill/) | Represents the fill format of the text. |
@@ -57,7 +57,7 @@ class TextOptions : public Aspose::Cells::Font
 | [SetArgbColor(int32_t value)](../../aspose.cells/font/setargbcolor/) | Gets and sets the color with a 32-bit ARGB value. |
 | [SetCapsType(TextCapsType value)](../../aspose.cells/font/setcapstype/) | Gets and sets the text caps type. |
 | [SetCharset(int32_t value)](../../aspose.cells/font/setcharset/) | Represent the character set. |
-| [SetColor(const Aspose::Cells::Color\& value)](../../aspose.cells/font/setcolor/) | Gets or sets the System.Drawing.Color of the font. |
+| [SetColor(const Aspose::Cells::Color\& value)](../../aspose.cells/font/setcolor/) | Gets or sets the [Color](../../aspose.cells/color/) of the font. |
 | [SetDoubleSize(double value)](../../aspose.cells/font/setdoublesize/) | Gets and sets the double size of the font. |
 | [SetFarEastName(const U16String\& value)](./setfareastname/) | Gets and sets the FarEast name. |
 | [SetFarEastName(const char16_t* value)](./setfareastname/) | Gets and sets the FarEast name. |

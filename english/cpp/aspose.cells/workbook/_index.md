@@ -4,7 +4,7 @@ linktitle: Workbook
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Workbook class. Represents a root object to create an Excel spreadsheet in C++.'
 type: docs
-weight: 15900
+weight: 16100
 url: /cpp/aspose.cells/workbook/
 ---
 ## Workbook class
@@ -50,6 +50,7 @@ class Workbook
 | [GetCustomXmlParts()](./getcustomxmlparts/) | Represents a Custom XML Data Storage Part (custom XML data within a package). |
 | [GetDataConnections()](./getdataconnections/) | Gets the ExternalConnection collection. |
 | [GetDataMashup()](./getdatamashup/) | Gets mashup data. |
+| [GetDataModel()](./getdatamodel/) | Gets data model in the workbook. |
 | [GetDataSorter()](./getdatasorter/) | Gets a [DataSorter](../datasorter/) object to sort data. |
 | [GetDefaultStyle()](./getdefaultstyle/) | Gets or sets the default [Style](../style/) object of the workbook. |
 | [GetDigitalSignature()](./getdigitalsignature/) | Gets digital signature from file. |

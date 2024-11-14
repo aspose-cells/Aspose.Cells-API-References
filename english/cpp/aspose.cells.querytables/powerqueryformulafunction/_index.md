@@ -24,6 +24,7 @@ class PowerQueryFormulaFunction : public Aspose::Cells::QueryTables::PowerQueryF
 | [GetFormulaDefinition()](../powerqueryformula/getformuladefinition/) | Gets the definition of the power query formula. |
 | [GetName()](../powerqueryformula/getname/) | Gets and sets the name of the power query formula. |
 | [GetPowerQueryFormulaItems()](../powerqueryformula/getpowerqueryformulaitems/) | Gets all items of power query formula. |
+| [GetType()](./gettype/) | Gets the type of power query formula. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const PowerQueryFormulaFunction\& src)](./operator_asm/) | operator= |

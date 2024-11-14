@@ -97,6 +97,7 @@ class OleObject : public Aspose::Cells::Drawing::Shape
 | [GetSpt()](../shape/getspt/) | Specifies an optional number that an application can use to associate the particular shape with a defined shape type. |
 | [GetText()](../shape/gettext/) | Gets and sets the text of this shape. |
 | [GetTextBody()](../shape/gettextbody/) | Gets and sets the setting of the shape's text. |
+| [GetTextBoxOptions()](../shape/gettextboxoptions/) | Gets the text information in the shape. |
 | [GetTextDirection()](../shape/gettextdirection/) | Gets/Sets the direction of the text flow for this object. |
 | [GetTextEffect()](../shape/gettexteffect/) | Returns a [TextEffectFormat](../texteffectformat/) object that contains text-effect formatting properties for the specified shape. Applies to [Shape](../shape/) objects that represent WordArt. |
 | [GetTextHorizontalAlignment()](../shape/gettexthorizontalalignment/) | Gets and sets the text horizontal alignment type of the shape. |

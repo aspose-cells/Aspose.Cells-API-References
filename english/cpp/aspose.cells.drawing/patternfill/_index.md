@@ -21,10 +21,10 @@ class PatternFill
 | Method | Description |
 | --- | --- |
 | [GetBackgroundCellsColor()](./getbackgroundcellscolor/) | Gets and sets the foreground [CellsColor](../../aspose.cells/cellscolor/) object. |
-| [GetBackgroundColor()](./getbackgroundcolor/) | Gets or sets the background System.Drawing.Color of the [Area](../area/). |
+| [GetBackgroundColor()](./getbackgroundcolor/) | Gets or sets the background [Color](../../aspose.cells/color/) of the [Area](../area/). |
 | [GetBackTransparency()](./getbacktransparency/) | Gets or sets the transparency of background color. |
 | [GetForegroundCellsColor()](./getforegroundcellscolor/) | Gets and sets the foreground [CellsColor](../../aspose.cells/cellscolor/) object. |
-| [GetForegroundColor()](./getforegroundcolor/) | Gets or sets the foreground System.Drawing.Color. |
+| [GetForegroundColor()](./getforegroundcolor/) | Gets or sets the foreground [Color](../../aspose.cells/color/). |
 | [GetForeTransparency()](./getforetransparency/) | Gets or sets the transparency of foreground color. |
 | [GetPattern()](./getpattern/) | Gets or sets the fill pattern type. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
@@ -33,10 +33,10 @@ class PatternFill
 | [PatternFill(PatternFill_Impl* impl)](./patternfill/) | Constructs from an implementation object. |
 | [PatternFill(const PatternFill\& src)](./patternfill/) | Copy constructor. |
 | [SetBackgroundCellsColor(const CellsColor\& value)](./setbackgroundcellscolor/) | Gets and sets the foreground [CellsColor](../../aspose.cells/cellscolor/) object. |
-| [SetBackgroundColor(const Aspose::Cells::Color\& value)](./setbackgroundcolor/) | Gets or sets the background System.Drawing.Color of the [Area](../area/). |
+| [SetBackgroundColor(const Aspose::Cells::Color\& value)](./setbackgroundcolor/) | Gets or sets the background [Color](../../aspose.cells/color/) of the [Area](../area/). |
 | [SetBackTransparency(double value)](./setbacktransparency/) | Gets or sets the transparency of background color. |
 | [SetForegroundCellsColor(const CellsColor\& value)](./setforegroundcellscolor/) | Gets and sets the foreground [CellsColor](../../aspose.cells/cellscolor/) object. |
-| [SetForegroundColor(const Aspose::Cells::Color\& value)](./setforegroundcolor/) | Gets or sets the foreground System.Drawing.Color. |
+| [SetForegroundColor(const Aspose::Cells::Color\& value)](./setforegroundcolor/) | Gets or sets the foreground [Color](../../aspose.cells/color/). |
 | [SetForeTransparency(double value)](./setforetransparency/) | Gets or sets the transparency of foreground color. |
 | [SetPattern(FillPattern value)](./setpattern/) | Gets or sets the fill pattern type. |
 | [~PatternFill()](./~patternfill/) | Destructor. |

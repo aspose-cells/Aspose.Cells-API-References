@@ -22,7 +22,6 @@ class DataMashup
 | --- | --- |
 | [DataMashup(DataMashup_Impl* impl)](./datamashup/) | Constructs from an implementation object. |
 | [DataMashup(const DataMashup\& src)](./datamashup/) | Copy constructor. |
-| [GetPowerQueryFormulaParameters()](./getpowerqueryformulaparameters/) | Gets all parameters of power query formulas. |
 | [GetPowerQueryFormulas()](./getpowerqueryformulas/) | Gets all power query formulas. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |

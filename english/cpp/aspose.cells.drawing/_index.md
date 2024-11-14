@@ -4,7 +4,7 @@ linktitle: Aspose::Cells::Drawing
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use Aspose::Cells::Drawing namespace in C++.'
 type: docs
-weight: 400
+weight: 500
 url: /cpp/aspose.cells.drawing/
 ---
 
@@ -132,6 +132,7 @@ url: /cpp/aspose.cells.drawing/
 | [ShapeAnchorType](./shapeanchortype/) | Represents the anchor type. |
 | [ShapeLockType](./shapelocktype/) | Represents type of the property to be locked. |
 | [ShapePathType](./shapepathtype/) | Represents path segment type. |
+| [SignatureType](./signaturetype/) | Specifies the signature type. |
 | [TextOverflowType](./textoverflowtype/) | Represents the way the text vertical or horizontal overflow. |
 | [TextureType](./texturetype/) | Represents the preset texture type. |
 | [WeightType](./weighttype/) | Enumerates the weight types for a picture border or a chart line. |

@@ -28,7 +28,7 @@ class ErrorBar : public Aspose::Cells::Drawing::Line
 | [GetBeginArrowWidth()](../../aspose.cells.drawing/line/getbeginarrowwidth/) | Specifies the width of the arrowhead for the begin of a line. |
 | [GetBeginType()](../../aspose.cells.drawing/line/getbegintype/) | Specifies an arrowhead for the begin of a line. |
 | [GetCapType()](../../aspose.cells.drawing/line/getcaptype/) | Specifies the ending caps. |
-| [GetColor()](../../aspose.cells.drawing/line/getcolor/) | Represents the System.Drawing.Color of the line. |
+| [GetColor()](../../aspose.cells.drawing/line/getcolor/) | Represents the [Color](../../aspose.cells/color/) of the line. |
 | [GetCompoundType()](../../aspose.cells.drawing/line/getcompoundtype/) | Specifies the compound line type. |
 | [GetDashType()](../../aspose.cells.drawing/line/getdashtype/) | Specifies the dash line type. |
 | [GetDisplayType()](./getdisplaytype/) | Represents the display type of error bar. |
@@ -62,7 +62,7 @@ class ErrorBar : public Aspose::Cells::Drawing::Line
 | [SetBeginArrowWidth(MsoArrowheadWidth value)](../../aspose.cells.drawing/line/setbeginarrowwidth/) | Specifies the width of the arrowhead for the begin of a line. |
 | [SetBeginType(MsoArrowheadStyle value)](../../aspose.cells.drawing/line/setbegintype/) | Specifies an arrowhead for the begin of a line. |
 | [SetCapType(LineCapType value)](../../aspose.cells.drawing/line/setcaptype/) | Specifies the ending caps. |
-| [SetColor(const Aspose::Cells::Color\& value)](../../aspose.cells.drawing/line/setcolor/) | Represents the System.Drawing.Color of the line. |
+| [SetColor(const Aspose::Cells::Color\& value)](../../aspose.cells.drawing/line/setcolor/) | Represents the [Color](../../aspose.cells/color/) of the line. |
 | [SetCompoundType(MsoLineStyle value)](../../aspose.cells.drawing/line/setcompoundtype/) | Specifies the compound line type. |
 | [SetDashType(MsoLineDashStyle value)](../../aspose.cells.drawing/line/setdashtype/) | Specifies the dash line type. |
 | [SetDisplayType(ErrorBarDisplayType value)](./setdisplaytype/) | Represents the display type of error bar. |

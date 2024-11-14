@@ -4,7 +4,7 @@ linktitle: WorkbookSettings
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::WorkbookSettings class. Represents all settings of the workbook in C++.'
 type: docs
-weight: 16000
+weight: 16200
 url: /cpp/aspose.cells/workbooksettings/
 ---
 ## WorkbookSettings class
@@ -32,7 +32,9 @@ class WorkbookSettings
 | [GetCrashSave()](./getcrashsave/) | indicates whether the application last saved the workbook file after a crash. |
 | [GetDataExtractLoad()](./getdataextractload/) | indicates whether the application last opened the workbook for data recovery. |
 | [GetDate1904()](./getdate1904/) | Gets or sets a value which represents if the workbook uses the 1904 date system. |
+| [GetDefaultImageResolution()](./getdefaultimageresolution/) | Gets and sets default resolution of image. |
 | [GetDefaultStyleSettings()](./getdefaultstylesettings/) | Gets the settings for default values of style-related properties for this workbook. |
+| [GetDiscardImageEditData()](./getdiscardimageeditdata/) | Indicates whether discarding editting image data. |
 | [GetDisplayDrawingObjects()](./getdisplaydrawingobjects/) | Indicates whether and how to show objects in the workbook. |
 | [GetEnableMacros()](./getenablemacros/) | Enable macros;. |
 | [GetFirstVisibleTab()](./getfirstvisibletab/) | Gets or sets the first visible worksheet tab. |
@@ -48,6 +50,7 @@ class WorkbookSettings
 | [GetNumberGroupSeparator()](./getnumbergroupseparator/) | Gets or sets the character that separates groups of digits to the left of the decimal in numeric values. Default is the group separator of current Region. |
 | [GetPaperSize()](./getpapersize/) | Gets and sets the default print paper size. |
 | [GetPassword()](./getpassword/) | Represents [Workbook](../workbook/) file encryption password. |
+| [GetPropertiesFollowChartPoint()](./getpropertiesfollowchartpoint/) | Indicates whether datapoint properties and datalabels in all charts in this workbook follow their reference. |
 | [GetProtectionType()](./getprotectiontype/) | Gets the protection type of the workbook. |
 | [GetQuotePrefixToStyle()](./getquoteprefixtostyle/) | Indicates whether setting Style.QuotePrefix property when entering the string value(which starts  with single quote mark ) to the cell. |
 | [GetRegion()](./getregion/) | Gets or sets the regional settings for workbook. |
@@ -97,6 +100,8 @@ class WorkbookSettings
 | [SetCrashSave(bool value)](./setcrashsave/) | indicates whether the application last saved the workbook file after a crash. |
 | [SetDataExtractLoad(bool value)](./setdataextractload/) | indicates whether the application last opened the workbook for data recovery. |
 | [SetDate1904(bool value)](./setdate1904/) | Gets or sets a value which represents if the workbook uses the 1904 date system. |
+| [SetDefaultImageResolution(int32_t value)](./setdefaultimageresolution/) | Gets and sets default resolution of image. |
+| [SetDiscardImageEditData(bool value)](./setdiscardimageeditdata/) | Indicates whether discarding editting image data. |
 | [SetDisplayDrawingObjects(DisplayDrawingObjects value)](./setdisplaydrawingobjects/) | Indicates whether and how to show objects in the workbook. |
 | [SetEnableMacros(bool value)](./setenablemacros/) | Enable macros;. |
 | [SetFirstVisibleTab(int32_t value)](./setfirstvisibletab/) | Gets or sets the first visible worksheet tab. |
@@ -116,6 +121,7 @@ class WorkbookSettings
 | [SetPaperSize(PaperSizeType value)](./setpapersize/) | Gets and sets the default print paper size. |
 | [SetPassword(const U16String\& value)](./setpassword/) | Represents [Workbook](../workbook/) file encryption password. |
 | [SetPassword(const char16_t* value)](./setpassword/) | Represents [Workbook](../workbook/) file encryption password. |
+| [SetPropertiesFollowChartPoint(bool value)](./setpropertiesfollowchartpoint/) | Indicates whether datapoint properties and datalabels in all charts in this workbook follow their reference. |
 | [SetQuotePrefixToStyle(bool value)](./setquoteprefixtostyle/) | Indicates whether setting Style.QuotePrefix property when entering the string value(which starts  with single quote mark ) to the cell. |
 | [SetRegion(CountryCode value)](./setregion/) | Gets or sets the regional settings for workbook. |
 | [SetRemovePersonalInformation(bool value)](./setremovepersonalinformation/) | True if personal information can be removed from the specified workbook. |

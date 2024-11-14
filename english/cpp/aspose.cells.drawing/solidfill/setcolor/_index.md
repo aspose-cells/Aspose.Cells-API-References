@@ -2,7 +2,7 @@
 title: Aspose::Cells::Drawing::SolidFill::SetColor method
 linktitle: SetColor
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Drawing::SolidFill::SetColor method. Gets or sets the System.Drawing.Color in C++.'
+description: 'Aspose::Cells::Drawing::SolidFill::SetColor method. Gets or sets the Color in C++.'
 type: docs
 weight: 700
 url: /cpp/aspose.cells.drawing/solidfill/setcolor/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.drawing/solidfill/setcolor/
 ## SolidFill::SetColor method
 
 
-Gets or sets the System.Drawing.Color.
+Gets or sets the [Color](../../../aspose.cells/color/).
 
 ```cpp
 void Aspose::Cells::Drawing::SolidFill::SetColor(const Aspose::Cells::Color &value)

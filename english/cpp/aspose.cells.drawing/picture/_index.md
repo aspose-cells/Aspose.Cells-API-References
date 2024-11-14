@@ -33,7 +33,7 @@ class Picture : public Aspose::Cells::Drawing::Shape
 | [GetAlternativeText()](../shape/getalternativetext/) | Returns or sets the descriptive (alternative) text string of the [Shape](../shape/) object. |
 | [GetAnchorType()](../shape/getanchortype/) | Gets and set the type of the shape anchor placeholder. |
 | [GetAutoShapeType()](../shape/getautoshapetype/) | Gets and sets the auto shape type. |
-| [GetBorderLineColor()](./getborderlinecolor/) | Represents the System.Drawing.Color of the border line of a picture. |
+| [GetBorderLineColor()](./getborderlinecolor/) | Represents the [Color](../../aspose.cells/color/) of the border line of a picture. |
 | [GetBorderWeight()](./getborderweight/) | Gets or sets the weight of the border line of a picture in units of pt. |
 | [GetBottom()](../shape/getbottom/) | Represents the width of the shape's vertical offset from its lower bottom corner row, in unit of pixels. |
 | [GetConnectionPoints()](../shape/getconnectionpoints/) | Get the connection points. |
@@ -99,6 +99,7 @@ class Picture : public Aspose::Cells::Drawing::Shape
 | [GetSpt()](../shape/getspt/) | Specifies an optional number that an application can use to associate the particular shape with a defined shape type. |
 | [GetText()](../shape/gettext/) | Gets and sets the text of this shape. |
 | [GetTextBody()](../shape/gettextbody/) | Gets and sets the setting of the shape's text. |
+| [GetTextBoxOptions()](../shape/gettextboxoptions/) | Gets the text information in the shape. |
 | [GetTextDirection()](../shape/gettextdirection/) | Gets/Sets the direction of the text flow for this object. |
 | [GetTextEffect()](../shape/gettexteffect/) | Returns a [TextEffectFormat](../texteffectformat/) object that contains text-effect formatting properties for the specified shape. Applies to [Shape](../shape/) objects that represent WordArt. |
 | [GetTextHorizontalAlignment()](../shape/gettexthorizontalalignment/) | Gets and sets the text horizontal alignment type of the shape. |
@@ -166,7 +167,7 @@ class Picture : public Aspose::Cells::Drawing::Shape
 | [SetAlternativeText(const char16_t* value)](../shape/setalternativetext/) | Returns or sets the descriptive (alternative) text string of the [Shape](../shape/) object. |
 | [SetAnchorType(ShapeAnchorType value)](../shape/setanchortype/) | Gets and set the type of the shape anchor placeholder. |
 | [SetAutoShapeType(AutoShapeType value)](../shape/setautoshapetype/) | Gets and sets the auto shape type. |
-| [SetBorderLineColor(const Aspose::Cells::Color\& value)](./setborderlinecolor/) | Represents the System.Drawing.Color of the border line of a picture. |
+| [SetBorderLineColor(const Aspose::Cells::Color\& value)](./setborderlinecolor/) | Represents the [Color](../../aspose.cells/color/) of the border line of a picture. |
 | [SetBorderWeight(double value)](./setborderweight/) | Gets or sets the weight of the border line of a picture in units of pt. |
 | [SetBottom(int32_t value)](../shape/setbottom/) | Represents the width of the shape's vertical offset from its lower bottom corner row, in unit of pixels. |
 | [SetCreateId(const UUID\& value)](../shape/setcreateid/) | Gets and sets create id for this shape. |

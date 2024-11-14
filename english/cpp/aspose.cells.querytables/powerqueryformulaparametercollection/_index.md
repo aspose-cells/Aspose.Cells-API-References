@@ -12,6 +12,10 @@ url: /cpp/aspose.cells.querytables/powerqueryformulaparametercollection/
 
 Represents the parameters of power query formula.
 
+
+>Deprecated
+>
+>Use PowerQueryFormulaCollection class, instead. 
 ```cpp
 class PowerQueryFormulaParameterCollection
 ```
@@ -36,6 +40,12 @@ class PowerQueryFormulaParameterCollection
 | Field | Description |
 | --- | --- |
 | [_impl](./_impl/) | The implementation object. |
+## Remarks
+
+
+NOTE: This class is now obsolete. Instead, please use [PowerQueryFormulaCollection](../powerqueryformulacollection/) class. This property will be removed 12 months later since November 2024. **Aspose** apologizes for any inconvenience you may have experienced.
+
+
 ## See Also
 
 * Namespace [Aspose::Cells::QueryTables](../)

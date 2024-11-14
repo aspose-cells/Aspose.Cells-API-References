@@ -2,7 +2,7 @@
 title: Aspose::Cells::Drawing::SignatureLine::SetInstructions method
 linktitle: SetInstructions
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Drawing::SignatureLine::SetInstructions method. Gets and sets the text shown to user at signing time in C++.'
+description: 'Aspose::Cells::Drawing::SignatureLine::SetInstructions method. Gets or sets the text shown to user at signing time in C++.'
 type: docs
 weight: 2300
 url: /cpp/aspose.cells.drawing/signatureline/setinstructions/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.drawing/signatureline/setinstructions/
 ## SignatureLine::SetInstructions(const U16String\&) method
 
 
-Gets and sets the text shown to user at signing time.
+Gets or sets the text shown to user at signing time.
 
 ```cpp
 void Aspose::Cells::Drawing::SignatureLine::SetInstructions(const U16String &value)
@@ -40,7 +40,7 @@ if (s6.GetInstructions().IsNull() || s6.GetInstructions().IsEmpty())
 ## SignatureLine::SetInstructions(const char16_t*) method
 
 
-Gets and sets the text shown to user at signing time.
+Gets or sets the text shown to user at signing time.
 
 ```cpp
 void Aspose::Cells::Drawing::SignatureLine::SetInstructions(const char16_t *value)

@@ -28,6 +28,7 @@ url: /cpp/aspose.cells/
 | [CalculationOptions](./calculationoptions/) | Represents options for calculation. |
 | [Cell](./cell/) | Encapsulates the object that represents a single [Workbook](./workbook/) cell. |
 | [CellArea](./cellarea/) | Represent an area of cells. |
+| [CellRichValue](./cellrichvalue/) | Represents rich value of the cell. |
 | [Cells](./cells/) | Encapsulates a collection of cell relevant objects, such as [Cell](./cell/), [Row](./row/), ...etc. |
 | [CellsColor](./cellscolor/) | Represents all types of color. |
 | [CellsException](./cellsexception/) | The exception that is thrown when [Aspose.Cells](./) specified error occurs. |
@@ -127,6 +128,7 @@ url: /cpp/aspose.cells/
 | [PaginatedSaveOptions](./paginatedsaveoptions/) | Represents the options for pagination. |
 | [PaneCollection](./panecollection/) | Represents all Pane objects shown in the specified window. |
 | [PasteOptions](./pasteoptions/) | Represents the paste special options. |
+| [PclSaveOptions](./pclsaveoptions/) | Represents the options for saving Pcl file. |
 | [PdfSaveOptions](./pdfsaveoptions/) | Represents the options for saving pdf file. |
 | [PptxSaveOptions](./pptxsaveoptions/) | Represents the pptx save options. |
 | [ProtectedRange](./protectedrange/) | A specified range to be allowed to edit when the sheet protection is ON. |
@@ -226,6 +228,7 @@ url: /cpp/aspose.cells/
 | [EmfRenderSetting](./emfrendersetting/) | Setting for rendering Emf metafile. |
 | [EncodingType](./encodingtype/) | Enums supported encoding types. |
 | [EncryptionType](./encryptiontype/) | Encryption Type. Only used by excel2003. We will encrypt 2007/2010 workbook using SHA AES the same as Excel does, and this EncryptionType will be ignored. |
+| [ErrorCellValueType](./errorcellvaluetype/) | Represents a cell value which contains an error. |
 | [ErrorCheckType](./errorchecktype/) | Represents all error check type. |
 | [ExceptionType](./exceptiontype/) | Represents custom exception type code. |
 | [ExternalLinkType](./externallinktype/) | Represents the type of external link. |

@@ -2,7 +2,7 @@
 title: Aspose::Cells::Drawing::SignatureLine::GetEmail method
 linktitle: GetEmail
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Drawing::SignatureLine::GetEmail method. Gets and sets the email of singer in C++.'
+description: 'Aspose::Cells::Drawing::SignatureLine::GetEmail method. Gets or sets the email of singer in C++.'
 type: docs
 weight: 1400
 url: /cpp/aspose.cells.drawing/signatureline/getemail/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.drawing/signatureline/getemail/
 ## SignatureLine::GetEmail method
 
 
-Gets and sets the email of singer.
+Gets or sets the email of singer.
 
 ```cpp
 U16String Aspose::Cells::Drawing::SignatureLine::GetEmail()

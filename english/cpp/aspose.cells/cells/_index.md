@@ -4,7 +4,7 @@ linktitle: Cells
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells class. Encapsulates a collection of cell relevant objects, such as Cell, Row, ...etc in C++.'
 type: docs
-weight: 1500
+weight: 1600
 url: /cpp/aspose.cells/cells/
 ---
 ## Cells class
@@ -201,7 +201,7 @@ class Cells
 | [ShowGroupDetail(bool isVertical, int32_t index)](./showgroupdetail/) | Expands the grouped rows/columns. |
 | [Subtotal(const CellArea\& ca, int32_t groupBy, ConsolidationFunction function, const Vector \<int32_t\>\& totalList)](./subtotal/) | Creates subtotals for the range. |
 | [Subtotal(const CellArea\& ca, int32_t groupBy, ConsolidationFunction function, const Vector \<int32_t\>\& totalList, bool replace, bool pageBreaks, bool summaryBelowData)](./subtotal/) | Creates subtotals for the range. |
-| [TextToColumns(int32_t row, int32_t column, int32_t totalRows, const TxtLoadOptions\& options)](./texttocolumns/) | Splits the text in the column to columns. |
+| [TextToColumns(int32_t row, int32_t column, int32_t totalRows, const TxtLoadOptions\& options)](./texttocolumns/) | Splits content in specified column into multiple columns.. |
 | [UngroupColumns(int32_t firstIndex, int32_t lastIndex)](./ungroupcolumns/) | Ungroups columns. |
 | [UngroupRows(int32_t firstIndex, int32_t lastIndex, bool isAll)](./ungrouprows/) | Ungroups rows. |
 | [UngroupRows(int32_t firstIndex, int32_t lastIndex)](./ungrouprows/) | Ungroups rows. |

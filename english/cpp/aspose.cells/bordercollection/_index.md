@@ -23,13 +23,13 @@ class BorderCollection
 | [BorderCollection(BorderCollection_Impl* impl)](./bordercollection/) | Constructs from an implementation object. |
 | [BorderCollection(const BorderCollection\& src)](./bordercollection/) | Copy constructor. |
 | [Get(BorderType borderType)](./get/) | Gets the [Border](../border/) element at the specified index. |
-| [GetDiagonalColor()](./getdiagonalcolor/) | Gets or sets the System.Drawing.Color of Diagonal lines. |
+| [GetDiagonalColor()](./getdiagonalcolor/) | Gets or sets the [Color](../color/) of Diagonal lines. |
 | [GetDiagonalStyle()](./getdiagonalstyle/) | Gets or sets the style of Diagonal lines. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const BorderCollection\& src)](./operator_asm/) | operator= |
-| [SetColor(const Aspose::Cells::Color\& color)](./setcolor/) | Sets the System.Drawing.Color of all borders in the collection. |
-| [SetDiagonalColor(const Aspose::Cells::Color\& value)](./setdiagonalcolor/) | Gets or sets the System.Drawing.Color of Diagonal lines. |
+| [SetColor(const Aspose::Cells::Color\& color)](./setcolor/) | Sets the [Color](../color/) of all borders in the collection. |
+| [SetDiagonalColor(const Aspose::Cells::Color\& value)](./setdiagonalcolor/) | Gets or sets the [Color](../color/) of Diagonal lines. |
 | [SetDiagonalStyle(CellBorderType value)](./setdiagonalstyle/) | Gets or sets the style of Diagonal lines. |
 | [SetStyle(CellBorderType style)](./setstyle/) | Sets the style of all borders of the collection. |
 | [~BorderCollection()](./~bordercollection/) | Destructor. |

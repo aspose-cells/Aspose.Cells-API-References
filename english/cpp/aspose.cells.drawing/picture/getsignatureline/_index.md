@@ -26,7 +26,7 @@ Aspose::Cells::Startup();
 Workbook workbook;
 Worksheet worksheet = workbook.GetWorksheets().Get(0);
 //Adding a picture at the location of a cell whose row and column indices are 1 in the worksheet. It is "B2" cell
-int imgIndex = worksheet.GetPictures().Add(1, 1, u"example.jpeg");
+int imgIndex = worksheet.GetPictures().Add(1, 1, Vector<uint8_t>(0));
 //Get the inserted picture object
 Picture pic = worksheet.GetPictures().Get(imgIndex);
 // Create signature line object

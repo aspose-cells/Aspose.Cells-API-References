@@ -4,7 +4,7 @@ linktitle: GetFormula
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotItem::GetFormula method. Gets the formula of this calculated item. Only works when this item is calculated item in C++.'
 type: docs
-weight: 1700
+weight: 1600
 url: /cpp/aspose.cells.pivot/pivotitem/getformula/
 ---
 ## PivotItem::GetFormula method

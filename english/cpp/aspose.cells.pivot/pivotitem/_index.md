@@ -29,9 +29,9 @@ class PivotItem
 | [GetPositionInSameParentNode()](./getpositioninsameparentnode/) | Specifying the position index in the PivotItems under the same parent node. |
 | [GetStringValue()](./getstringvalue/) | Gets the string value of the pivot item If the value is null, it will return "". |
 | [GetValue()](./getvalue/) | Gets the value of the pivot item. |
-| [IsFormula()](./isformula/) | Indicates whether this pivot item is a calculated formula item. |
+| [IsCalculatedItem()](./iscalculateditem/) | Indicates whether this pivot item is a calculated formula item. |
+| [IsDetailHidden()](./isdetailhidden/) | Gets and sets whether the detail of this pivot item is hidden. |
 | [IsHidden()](./ishidden/) | Gets and Sets whether the pivot item is hidden. |
-| [IsHideDetail()](./ishidedetail/) | Gets and Sets whether the pivot item hides detail. |
 | [IsMissing()](./ismissing/) | Indicates whether the item is removed from the data source. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | [Move(int32_t count, bool isSameParent)](./move/) | Moves the item up or down. |
@@ -40,9 +40,8 @@ class PivotItem
 | [PivotItem(PivotItem_Impl* impl)](./pivotitem/) | Constructs from an implementation object. |
 | [PivotItem(const PivotItem\& src)](./pivotitem/) | Copy constructor. |
 | [SetIndex(int32_t value)](./setindex/) | Gets the index of the pivot item in cache field. |
-| [SetIsFormula(bool value)](./setisformula/) | Indicates whether this pivot item is a calculated formula item. |
+| [SetIsDetailHidden(bool value)](./setisdetailhidden/) | Gets and sets whether the detail of this pivot item is hidden. |
 | [SetIsHidden(bool value)](./setishidden/) | Gets and Sets whether the pivot item is hidden. |
-| [SetIsHideDetail(bool value)](./setishidedetail/) | Gets and Sets whether the pivot item hides detail. |
 | [SetName(const U16String\& value)](./setname/) | Gets the name of the pivot item. |
 | [SetName(const char16_t* value)](./setname/) | Gets the name of the pivot item. |
 | [SetPosition(int32_t value)](./setposition/) | Specifying the position index in all the PivotItems,not the PivotItems under the same parent node. |

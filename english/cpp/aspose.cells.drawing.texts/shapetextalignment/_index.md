@@ -37,14 +37,14 @@ class ShapeTextAlignment
 | [IsAutoMargin()](./isautomargin/) | Indicates whether the margin of the text frame is automatic. |
 | [IsLockedText()](./islockedtext/) | Indicates whether the shape is locked when worksheet is protected. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
-| [IsTextWrapped()](./istextwrapped/) | Gets and sets the text wrapped type of the shape which contains text. |
+| [IsTextWrapped()](./istextwrapped/) | Gets or sets the text wrapped type of the shape which contains text. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const ShapeTextAlignment\& src)](./operator_asm/) | operator= |
 | [SetAutoSize(bool value)](./setautosize/) | Indicates if size of shape is adjusted automatically according to its content. |
 | [SetBottomMarginPt(double value)](./setbottommarginpt/) | Returns the bottom margin in unit of Points. |
 | [SetIsAutoMargin(bool value)](./setisautomargin/) | Indicates whether the margin of the text frame is automatic. |
 | [SetIsLockedText(bool value)](./setislockedtext/) | Indicates whether the shape is locked when worksheet is protected. |
-| [SetIsTextWrapped(bool value)](./setistextwrapped/) | Gets and sets the text wrapped type of the shape which contains text. |
+| [SetIsTextWrapped(bool value)](./setistextwrapped/) | Gets or sets the text wrapped type of the shape which contains text. |
 | [SetLeftMarginPt(double value)](./setleftmarginpt/) | Returns the left margin in unit of Points. |
 | [SetNumberOfColumns(int32_t value)](./setnumberofcolumns/) | Gets and sets the number of columns of text in the bounding rectangle. |
 | [SetRightMarginPt(double value)](./setrightmarginpt/) | Returns the right margin in unit of Points. |

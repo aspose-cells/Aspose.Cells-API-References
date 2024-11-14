@@ -2,7 +2,7 @@
 title: Aspose::Cells::Drawing::SignatureLine::SetEmail method
 linktitle: SetEmail
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Drawing::SignatureLine::SetEmail method. Gets and sets the email of singer in C++.'
+description: 'Aspose::Cells::Drawing::SignatureLine::SetEmail method. Gets or sets the email of singer in C++.'
 type: docs
 weight: 1500
 url: /cpp/aspose.cells.drawing/signatureline/setemail/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.drawing/signatureline/setemail/
 ## SignatureLine::SetEmail(const U16String\&) method
 
 
-Gets and sets the email of singer.
+Gets or sets the email of singer.
 
 ```cpp
 void Aspose::Cells::Drawing::SignatureLine::SetEmail(const U16String &value)
@@ -40,7 +40,7 @@ if (s5.GetEmail().IsNull() || s5.GetEmail().IsEmpty())
 ## SignatureLine::SetEmail(const char16_t*) method
 
 
-Gets and sets the email of singer.
+Gets or sets the email of singer.
 
 ```cpp
 void Aspose::Cells::Drawing::SignatureLine::SetEmail(const char16_t *value)
