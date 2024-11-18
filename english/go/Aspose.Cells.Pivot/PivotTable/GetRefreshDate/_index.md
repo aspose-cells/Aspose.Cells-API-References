@@ -1,0 +1,28 @@
+---
+title: GetRefreshDate Method 
+linktitle: GetRefreshDate
+second_title: Aspose.Cells for Go API Reference
+description: 'GetRefreshDate method. Encapsulates the function that represents getrefreshdate in Go.'
+type: docs
+weight: 200
+url: /go/aspose.cells.pivot/pivottable/getrefreshdate/
+---
+
+## GetRefreshDate function
+
+Gets the last date time when the PivotTable was refreshed.
+
+```go
+
+func (instance *PivotTable) GetRefreshDate()  (*Date,  error) 
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [PivotTable](../)
+* Namespace [Aspose.Cells.Pivot](../../)
+* Library [Aspose.Cells for Go](../../../)

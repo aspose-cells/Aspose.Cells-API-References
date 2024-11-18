@@ -1,0 +1,28 @@
+---
+title: SetTexture Method 
+linktitle: SetTexture
+second_title: Aspose.Cells for Go API Reference
+description: 'SetTexture method. Encapsulates the function that represents settexture in Go.'
+type: docs
+weight: 200
+url: /go/aspose.cells.drawing/lineformat/settexture/
+---
+
+## SetTexture function
+
+Represents the texture type for the specified fill.
+
+```go
+
+func (instance *LineFormat) SetTexture(value TextureType)  error
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [LineFormat](../)
+* Namespace [Aspose.Cells.Drawing](../../)
+* Library [Aspose.Cells for Go](../../../)

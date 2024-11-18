@@ -1,0 +1,28 @@
+---
+title: SetHeader Method 
+linktitle: SetHeader
+second_title: Aspose.Cells for Go API Reference
+description: 'SetHeader method. Encapsulates the function that represents setheader in Go.'
+type: docs
+weight: 200
+url: /go/aspose.cells/pagesetup/setheader/
+---
+
+## SetHeader function
+
+Sets a script formatting the header of an Excel file.
+
+```go
+
+func (instance *PageSetup) SetHeader_Int_String(section int32, headerscript string)  error
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [PageSetup](../)
+* Namespace [Aspose.Cells](../../)
+* Library [Aspose.Cells for Go](../../../)

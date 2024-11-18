@@ -1,0 +1,28 @@
+---
+title: GetPrecisionAsDisplayed Method 
+linktitle: GetPrecisionAsDisplayed
+second_title: Aspose.Cells for Go API Reference
+description: 'GetPrecisionAsDisplayed method. Encapsulates the function that represents getprecisionasdisplayed in Go.'
+type: docs
+weight: 200
+url: /go/aspose.cells/formulasettings/getprecisionasdisplayed/
+---
+
+## GetPrecisionAsDisplayed function
+
+Whether the precision of calculated result be set as they are displayed while calculating formulas
+
+```go
+
+func (instance *FormulaSettings) GetPrecisionAsDisplayed()  (bool,  error) 
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [FormulaSettings](../)
+* Namespace [Aspose.Cells](../../)
+* Library [Aspose.Cells for Go](../../../)

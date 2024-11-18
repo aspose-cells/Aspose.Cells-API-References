@@ -1,0 +1,33 @@
+---
+title: RevisionInsertSheet Class 
+linktitle: RevisionInsertSheet
+second_title: Aspose.Cells for Go API Reference
+description: 'RevisionInsertSheet class. Encapsulates the object that represents revisioninsertsheet in Go.'
+type: docs
+weight: 200
+url: /go/aspose.cells.revisions/revisioninsertsheet/
+---
+
+## RevisionInsertSheet class
+
+Represents a revision record of a sheet that was inserted.
+
+```go
+
+type RevisionInsertSheet struct 
+
+revisioninsertsheet, _ := asposecells.NewRevisionInsertSheet()
+
+```
+
+## Methods
+
+| Method | Description |
+| --- | --- |
+|[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
+|[GetType](./gettype/) | Gets the type of revision. | 
+|[GetActionType](./getactiontype/) | Gets the action type of the revision. | 
+|[GetName](./getname/) | Gets the name of the worksheet. | 
+|[GetSheetPosition](./getsheetposition/) | Gets the zero based position of the new sheet in the sheet tab bar. | 
+|[GetWorksheet](./getworksheet/) | Gets the worksheet. | 
+|[GetId](./getid/) | Gets the number of this revision. | 

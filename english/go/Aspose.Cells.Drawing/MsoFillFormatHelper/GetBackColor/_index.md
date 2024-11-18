@@ -1,0 +1,28 @@
+---
+title: GetBackColor Method 
+linktitle: GetBackColor
+second_title: Aspose.Cells for Go API Reference
+description: 'GetBackColor method. Encapsulates the function that represents getbackcolor in Go.'
+type: docs
+weight: 200
+url: /go/aspose.cells.drawing/msofillformathelper/getbackcolor/
+---
+
+## GetBackColor function
+
+Gets and sets the file back color.
+
+```go
+
+func (instance *MsoFillFormatHelper) GetBackColor()  (*Color,  error) 
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [MsoFillFormatHelper](../)
+* Namespace [Aspose.Cells.Drawing](../../)
+* Library [Aspose.Cells for Go](../../../)

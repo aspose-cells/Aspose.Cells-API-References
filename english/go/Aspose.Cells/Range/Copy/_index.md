@@ -1,0 +1,28 @@
+---
+title: Copy Method 
+linktitle: Copy
+second_title: Aspose.Cells for Go API Reference
+description: 'Copy method. Encapsulates the function that represents copy in Go.'
+type: docs
+weight: 200
+url: /go/aspose.cells/range/copy/
+---
+
+## Copy function
+
+Copies data (including formulas), formatting, drawing objects etc. from a source range.
+
+```go
+
+func (instance *Range) Copy_Range(range_ *Range)  error
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [Range](../)
+* Namespace [Aspose.Cells](../../)
+* Library [Aspose.Cells for Go](../../../)

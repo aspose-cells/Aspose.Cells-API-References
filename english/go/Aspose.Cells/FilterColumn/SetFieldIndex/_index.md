@@ -1,0 +1,28 @@
+---
+title: SetFieldIndex Method 
+linktitle: SetFieldIndex
+second_title: Aspose.Cells for Go API Reference
+description: 'SetFieldIndex method. Encapsulates the function that represents setfieldindex in Go.'
+type: docs
+weight: 200
+url: /go/aspose.cells/filtercolumn/setfieldindex/
+---
+
+## SetFieldIndex function
+
+Gets and sets the column offset in the range.
+
+```go
+
+func (instance *FilterColumn) SetFieldIndex(value int32)  error
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [FilterColumn](../)
+* Namespace [Aspose.Cells](../../)
+* Library [Aspose.Cells for Go](../../../)

@@ -1,0 +1,28 @@
+---
+title: IsDateTime Method 
+linktitle: IsDateTime
+second_title: Aspose.Cells for Go API Reference
+description: 'IsDateTime method. Encapsulates the function that represents isdatetime in Go.'
+type: docs
+weight: 200
+url: /go/aspose.cells/style/isdatetime/
+---
+
+## IsDateTime function
+
+Indicates whether the number format is a date format.
+
+```go
+
+func (instance *Style) IsDateTime()  (bool,  error) 
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [Style](../)
+* Namespace [Aspose.Cells](../../)
+* Library [Aspose.Cells for Go](../../../)

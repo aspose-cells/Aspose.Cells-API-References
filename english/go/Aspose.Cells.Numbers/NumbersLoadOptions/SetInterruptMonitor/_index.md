@@ -1,0 +1,28 @@
+---
+title: SetInterruptMonitor Method 
+linktitle: SetInterruptMonitor
+second_title: Aspose.Cells for Go API Reference
+description: 'SetInterruptMonitor method. Encapsulates the function that represents setinterruptmonitor in Go.'
+type: docs
+weight: 200
+url: /go/aspose.cells.numbers/numbersloadoptions/setinterruptmonitor/
+---
+
+## SetInterruptMonitor function
+
+Gets and sets the interrupt monitor.
+
+```go
+
+func (instance *NumbersLoadOptions) SetInterruptMonitor(value *AbstractInterruptMonitor)  error
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [NumbersLoadOptions](../)
+* Namespace [Aspose.Cells.Numbers](../../)
+* Library [Aspose.Cells for Go](../../../)

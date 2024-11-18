@@ -1,0 +1,38 @@
+---
+title: ReferredArea Class 
+linktitle: ReferredArea
+second_title: Aspose.Cells for Go API Reference
+description: 'ReferredArea class. Encapsulates the object that represents referredarea in Go.'
+type: docs
+weight: 200
+url: /go/aspose.cells/referredarea/
+---
+
+## ReferredArea class
+
+Represents a referred area by the formula.
+
+```go
+
+type ReferredArea struct 
+
+referredarea, _ := asposecells.NewReferredArea()
+
+```
+
+## Methods
+
+| Method | Description |
+| --- | --- |
+|[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
+|[IsExternalLink](./isexternallink/) | Indicates whether this is an external link. | 
+|[GetExternalFileName](./getexternalfilename/) | Get the external file name if this is an external reference. | 
+|[GetSheetName](./getsheetname/) | Indicates which sheet this reference is in. | 
+|[IsEntireRow](./isentirerow/) | Indicates whether this area contains all columns(entire row). | 
+|[IsEntireColumn](./isentirecolumn/) | Indicates whether this area contains all rows(entire column). | 
+|[IsArea](./isarea/) | Indicates whether this is an area. | 
+|[GetEndColumn](./getendcolumn/) | The end column of the area. | 
+|[GetStartColumn](./getstartcolumn/) | The start column of the area. | 
+|[GetEndRow](./getendrow/) | The end row of the area. | 
+|[GetStartRow](./getstartrow/) | The start row of the area. | 
+|[ToString](./tostring/) | Returns the reference address of this area.Generally it is the address of the reference which may be used in formula, such as "Sheet1!A1:C3". | 

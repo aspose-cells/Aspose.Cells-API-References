@@ -1,0 +1,27 @@
+---
+title: GetCopyFormatType Method 
+linktitle: GetCopyFormatType
+second_title: Aspose.Cells for Go API Reference
+description: 'GetCopyFormatType method. Encapsulates the function that represents getcopyformattype in Go.'
+type: docs
+weight: 200
+url: /go/aspose.cells/insertoptions/getcopyformattype/
+---
+
+## GetCopyFormatType function
+
+
+```go
+
+func (instance *InsertOptions) GetCopyFormatType()  (CopyFormatType,  error) 
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [InsertOptions](../)
+* Namespace [Aspose.Cells](../../)
+* Library [Aspose.Cells for Go](../../../)

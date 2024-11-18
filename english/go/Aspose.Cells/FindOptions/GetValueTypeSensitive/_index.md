@@ -1,0 +1,28 @@
+---
+title: GetValueTypeSensitive Method 
+linktitle: GetValueTypeSensitive
+second_title: Aspose.Cells for Go API Reference
+description: 'GetValueTypeSensitive method. Encapsulates the function that represents getvaluetypesensitive in Go.'
+type: docs
+weight: 200
+url: /go/aspose.cells/findoptions/getvaluetypesensitive/
+---
+
+## GetValueTypeSensitive function
+
+Indicates whether searched cell value type should be same with the searched key.
+
+```go
+
+func (instance *FindOptions) GetValueTypeSensitive()  (bool,  error) 
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [FindOptions](../)
+* Namespace [Aspose.Cells](../../)
+* Library [Aspose.Cells for Go](../../../)

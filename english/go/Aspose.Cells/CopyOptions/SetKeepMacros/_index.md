@@ -1,0 +1,28 @@
+---
+title: SetKeepMacros Method 
+linktitle: SetKeepMacros
+second_title: Aspose.Cells for Go API Reference
+description: 'SetKeepMacros method. Encapsulates the function that represents setkeepmacros in Go.'
+type: docs
+weight: 200
+url: /go/aspose.cells/copyoptions/setkeepmacros/
+---
+
+## SetKeepMacros function
+
+Indicates whether keeping macros;
+
+```go
+
+func (instance *CopyOptions) SetKeepMacros(value bool)  error
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [CopyOptions](../)
+* Namespace [Aspose.Cells](../../)
+* Library [Aspose.Cells for Go](../../../)

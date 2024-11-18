@@ -1,0 +1,28 @@
+---
+title: GetShowInOutlineForm Method 
+linktitle: GetShowInOutlineForm
+second_title: Aspose.Cells for Go API Reference
+description: 'GetShowInOutlineForm method. Encapsulates the function that represents getshowinoutlineform in Go.'
+type: docs
+weight: 200
+url: /go/aspose.cells.pivot/pivotfield/getshowinoutlineform/
+---
+
+## GetShowInOutlineForm function
+
+Indicates whether layout this field in outline form on the Pivot Table view
+
+```go
+
+func (instance *PivotField) GetShowInOutlineForm()  (bool,  error) 
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [PivotField](../)
+* Namespace [Aspose.Cells.Pivot](../../)
+* Library [Aspose.Cells for Go](../../../)

@@ -1,0 +1,28 @@
+---
+title: CreateRange Method 
+linktitle: CreateRange
+second_title: Aspose.Cells for Go API Reference
+description: 'CreateRange method. Encapsulates the function that represents createrange in Go.'
+type: docs
+weight: 200
+url: /go/aspose.cells/cells/createrange/
+---
+
+## CreateRange function
+
+Creates a <see cref="Range"/> object from rows of cells or columns of cells.
+
+```go
+
+func (instance *Cells) CreateRange_Int_Int_Bool(firstindex int32, number int32, isvertical bool)  (*Range,  error) 
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [Cells](../)
+* Namespace [Aspose.Cells](../../)
+* Library [Aspose.Cells for Go](../../../)

@@ -1,0 +1,28 @@
+---
+title: GetForegroundColor Method 
+linktitle: GetForegroundColor
+second_title: Aspose.Cells for Go API Reference
+description: 'GetForegroundColor method. Encapsulates the function that represents getforegroundcolor in Go.'
+type: docs
+weight: 200
+url: /go/aspose.cells/style/getforegroundcolor/
+---
+
+## GetForegroundColor function
+
+Gets or sets a style's foreground color.
+
+```go
+
+func (instance *Style) GetForegroundColor()  (*Color,  error) 
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [Style](../)
+* Namespace [Aspose.Cells](../../)
+* Library [Aspose.Cells for Go](../../../)

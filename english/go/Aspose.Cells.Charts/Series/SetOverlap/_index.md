@@ -1,0 +1,28 @@
+---
+title: SetOverlap Method 
+linktitle: SetOverlap
+second_title: Aspose.Cells for Go API Reference
+description: 'SetOverlap method. Encapsulates the function that represents setoverlap in Go.'
+type: docs
+weight: 200
+url: /go/aspose.cells.charts/series/setoverlap/
+---
+
+## SetOverlap function
+
+Specifies how bars and columns are positioned.Can be a value between – 100 and 100.Applies only to 2-D bar and 2-D column charts.
+
+```go
+
+func (instance *Series) SetOverlap(value int32)  error
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [Series](../)
+* Namespace [Aspose.Cells.Charts](../../)
+* Library [Aspose.Cells for Go](../../../)

@@ -1,0 +1,28 @@
+---
+title: GetPivotTables Method 
+linktitle: GetPivotTables
+second_title: Aspose.Cells for Go API Reference
+description: 'GetPivotTables method. Encapsulates the function that represents getpivottables in Go.'
+type: docs
+weight: 200
+url: /go/aspose.cells/worksheet/getpivottables/
+---
+
+## GetPivotTables function
+
+Gets all pivot tables in this worksheet.
+
+```go
+
+func (instance *Worksheet) GetPivotTables()  (*PivotTableCollection,  error) 
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [Worksheet](../)
+* Namespace [Aspose.Cells](../../)
+* Library [Aspose.Cells for Go](../../../)

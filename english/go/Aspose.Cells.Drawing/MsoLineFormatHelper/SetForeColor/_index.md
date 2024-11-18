@@ -1,0 +1,28 @@
+---
+title: SetForeColor Method 
+linktitle: SetForeColor
+second_title: Aspose.Cells for Go API Reference
+description: 'SetForeColor method. Encapsulates the function that represents setforecolor in Go.'
+type: docs
+weight: 200
+url: /go/aspose.cells.drawing/msolineformathelper/setforecolor/
+---
+
+## SetForeColor function
+
+Gets and sets the border line fore color.
+
+```go
+
+func (instance *MsoLineFormatHelper) SetForeColor(value *Color)  error
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [MsoLineFormatHelper](../)
+* Namespace [Aspose.Cells.Drawing](../../)
+* Library [Aspose.Cells for Go](../../../)

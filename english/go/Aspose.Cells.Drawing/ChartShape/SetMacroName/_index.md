@@ -1,0 +1,28 @@
+---
+title: SetMacroName Method 
+linktitle: SetMacroName
+second_title: Aspose.Cells for Go API Reference
+description: 'SetMacroName method. Encapsulates the function that represents setmacroname in Go.'
+type: docs
+weight: 200
+url: /go/aspose.cells.drawing/chartshape/setmacroname/
+---
+
+## SetMacroName function
+
+Gets and sets the name of macro.
+
+```go
+
+func (instance *ChartShape) SetMacroName_String(value string)  error
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [ChartShape](../)
+* Namespace [Aspose.Cells.Drawing](../../)
+* Library [Aspose.Cells for Go](../../../)

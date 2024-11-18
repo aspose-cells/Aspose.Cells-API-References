@@ -1,0 +1,28 @@
+---
+title: GetSelectedCell Method 
+linktitle: GetSelectedCell
+second_title: Aspose.Cells for Go API Reference
+description: 'GetSelectedCell method. Encapsulates the function that represents getselectedcell in Go.'
+type: docs
+weight: 200
+url: /go/aspose.cells.drawing/combobox/getselectedcell/
+---
+
+## GetSelectedCell function
+
+Gets the selected cell in the input range of the combo box.
+
+```go
+
+func (instance *ComboBox) GetSelectedCell()  (*Cell,  error) 
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [ComboBox](../)
+* Namespace [Aspose.Cells.Drawing](../../)
+* Library [Aspose.Cells for Go](../../../)

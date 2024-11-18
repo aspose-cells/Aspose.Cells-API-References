@@ -1,0 +1,28 @@
+---
+title: GetMaxColumn Method 
+linktitle: GetMaxColumn
+second_title: Aspose.Cells for Go API Reference
+description: 'GetMaxColumn method. Encapsulates the function that represents getmaxcolumn in Go.'
+type: docs
+weight: 200
+url: /go/aspose.cells/workbooksettings/getmaxcolumn/
+---
+
+## GetMaxColumn function
+
+Gets the max column index, zero-based.
+
+```go
+
+func (instance *WorkbookSettings) GetMaxColumn()  (int32,  error) 
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [WorkbookSettings](../)
+* Namespace [Aspose.Cells](../../)
+* Library [Aspose.Cells for Go](../../../)

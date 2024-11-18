@@ -1,0 +1,28 @@
+---
+title: GetDragToHide Method 
+linktitle: GetDragToHide
+second_title: Aspose.Cells for Go API Reference
+description: 'GetDragToHide method. Encapsulates the function that represents getdragtohide in Go.'
+type: docs
+weight: 200
+url: /go/aspose.cells.pivot/pivotfield/getdragtohide/
+---
+
+## GetDragToHide function
+
+Indicates whether the specified field can be dragged to the hide position.The default value is true.
+
+```go
+
+func (instance *PivotField) GetDragToHide()  (bool,  error) 
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [PivotField](../)
+* Namespace [Aspose.Cells.Pivot](../../)
+* Library [Aspose.Cells for Go](../../../)

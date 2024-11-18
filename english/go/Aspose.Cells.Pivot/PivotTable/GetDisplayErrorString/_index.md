@@ -1,0 +1,28 @@
+---
+title: GetDisplayErrorString Method 
+linktitle: GetDisplayErrorString
+second_title: Aspose.Cells for Go API Reference
+description: 'GetDisplayErrorString method. Encapsulates the function that represents getdisplayerrorstring in Go.'
+type: docs
+weight: 200
+url: /go/aspose.cells.pivot/pivottable/getdisplayerrorstring/
+---
+
+## GetDisplayErrorString function
+
+Indicates whether the PivotTable report displays a custom string in cells that contain errors.
+
+```go
+
+func (instance *PivotTable) GetDisplayErrorString()  (bool,  error) 
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [PivotTable](../)
+* Namespace [Aspose.Cells.Pivot](../../)
+* Library [Aspose.Cells for Go](../../../)

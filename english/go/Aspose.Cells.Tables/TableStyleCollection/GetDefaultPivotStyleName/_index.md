@@ -1,0 +1,28 @@
+---
+title: GetDefaultPivotStyleName Method 
+linktitle: GetDefaultPivotStyleName
+second_title: Aspose.Cells for Go API Reference
+description: 'GetDefaultPivotStyleName method. Encapsulates the function that represents getdefaultpivotstylename in Go.'
+type: docs
+weight: 200
+url: /go/aspose.cells.tables/tablestylecollection/getdefaultpivotstylename/
+---
+
+## GetDefaultPivotStyleName function
+
+Gets and sets the  default style name of pivot table .
+
+```go
+
+func (instance *TableStyleCollection) GetDefaultPivotStyleName()  (string,  error) 
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [TableStyleCollection](../)
+* Namespace [Aspose.Cells.Tables](../../)
+* Library [Aspose.Cells for Go](../../../)

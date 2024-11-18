@@ -1,0 +1,28 @@
+---
+title: GetCellRow Method 
+linktitle: GetCellRow
+second_title: Aspose.Cells for Go API Reference
+description: 'GetCellRow method. Encapsulates the function that represents getcellrow in Go.'
+type: docs
+weight: 200
+url: /go/aspose.cells/calculationdata/getcellrow/
+---
+
+## GetCellRow function
+
+Gets the row index of the cell where the function is in.
+
+```go
+
+func (instance *CalculationData) GetCellRow()  (int32,  error) 
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [CalculationData](../)
+* Namespace [Aspose.Cells](../../)
+* Library [Aspose.Cells for Go](../../../)

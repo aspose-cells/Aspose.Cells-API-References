@@ -1,0 +1,28 @@
+---
+title: GetThreeDFormat Method 
+linktitle: GetThreeDFormat
+second_title: Aspose.Cells for Go API Reference
+description: 'GetThreeDFormat method. Encapsulates the function that represents getthreedformat in Go.'
+type: docs
+weight: 200
+url: /go/aspose.cells.drawing/dialog_box/getthreedformat/
+---
+
+## GetThreeDFormat function
+
+Gets and sets 3d format of the shape.
+
+```go
+
+func (instance *Dialog_Box) GetThreeDFormat()  (*ThreeDFormat,  error) 
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [Dialog_Box](../)
+* Namespace [Aspose.Cells.Drawing](../../)
+* Library [Aspose.Cells for Go](../../../)

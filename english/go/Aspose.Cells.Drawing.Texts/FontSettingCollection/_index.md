@@ -1,0 +1,44 @@
+---
+title: FontSettingCollection Class 
+linktitle: FontSettingCollection
+second_title: Aspose.Cells for Go API Reference
+description: 'FontSettingCollection class. Encapsulates the object that represents fontsettingcollection in Go.'
+type: docs
+weight: 200
+url: /go/aspose.cells.drawing.texts/fontsettingcollection/
+---
+
+## FontSettingCollection class
+
+Represents the list of <see cref="FontSetting"/>.
+
+```go
+
+type FontSettingCollection struct 
+
+fontsettingcollection, _ := asposecells.NewFontSettingCollection()
+
+```
+
+## Methods
+
+| Method | Description |
+| --- | --- |
+|[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
+|[SetWordArtStyle](./setwordartstyle/) | Sets the preset WordArt style. | 
+|[GetTextAlignment](./gettextalignment/) | Represents the alignment setting of the text body. | 
+|[GetTextParagraphs](./gettextparagraphs/) | Gets all paragraphs. | 
+|[GetText](./gettext/) | Gets and sets the text of the shape. | 
+|[SetText](./settext/) | Gets and sets the text of the shape. | 
+|[AppendText](./appendtext/) | Appends the text. | 
+|[InsertText](./inserttext/) | Insert index at the position. | 
+|[Replace](./replace/) | Replace the text. | 
+|[Replace](./replace/) | Replace the text. | 
+|[DeleteText](./deletetext/) | Delete some characters. | 
+|[GetHtmlString](./gethtmlstring/) | Gets and sets the html string which contains data and some formats in this shape. | 
+|[SetHtmlString](./sethtmlstring/) | Gets and sets the html string which contains data and some formats in this shape. | 
+|[Format](./format/) | Format the text with font setting. | 
+|[Get](./get/) | Gets the <see cref="FontSetting"/> by the index. | 
+|[Clear](./clear/) | Clear all setting. | 
+|[GetHashCode](./gethashcode/) |  | 
+|[GetCount](./getcount/) |  | 

@@ -1,0 +1,28 @@
+---
+title: GetFont Method 
+linktitle: GetFont
+second_title: Aspose.Cells for Go API Reference
+description: 'GetFont method. Encapsulates the function that represents getfont in Go.'
+type: docs
+weight: 200
+url: /go/aspose.cells.charts/legendentry/getfont/
+---
+
+## GetFont function
+
+Gets a <see cref="Font"/> object of the specified ChartFrame object.
+
+```go
+
+func (instance *LegendEntry) GetFont()  (*Font,  error) 
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [LegendEntry](../)
+* Namespace [Aspose.Cells.Charts](../../)
+* Library [Aspose.Cells for Go](../../../)

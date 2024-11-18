@@ -1,0 +1,28 @@
+---
+title: SetFirstVisibleColumnOfRightPane Method 
+linktitle: SetFirstVisibleColumnOfRightPane
+second_title: Aspose.Cells for Go API Reference
+description: 'SetFirstVisibleColumnOfRightPane method. Encapsulates the function that represents setfirstvisiblecolumnofrightpane in Go.'
+type: docs
+weight: 200
+url: /go/aspose.cells/panecollection/setfirstvisiblecolumnofrightpane/
+---
+
+## SetFirstVisibleColumnOfRightPane function
+
+Gets and sets the first visible column of the right pane.
+
+```go
+
+func (instance *PaneCollection) SetFirstVisibleColumnOfRightPane(value int32)  error
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [PaneCollection](../)
+* Namespace [Aspose.Cells](../../)
+* Library [Aspose.Cells for Go](../../../)

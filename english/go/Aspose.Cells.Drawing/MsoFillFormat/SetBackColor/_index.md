@@ -1,0 +1,28 @@
+---
+title: SetBackColor Method 
+linktitle: SetBackColor
+second_title: Aspose.Cells for Go API Reference
+description: 'SetBackColor method. Encapsulates the function that represents setbackcolor in Go.'
+type: docs
+weight: 200
+url: /go/aspose.cells.drawing/msofillformat/setbackcolor/
+---
+
+## SetBackColor function
+
+Gets and sets the file back color.
+
+```go
+
+func (instance *MsoFillFormat) SetBackColor(value *Color)  error
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [MsoFillFormat](../)
+* Namespace [Aspose.Cells.Drawing](../../)
+* Library [Aspose.Cells for Go](../../../)

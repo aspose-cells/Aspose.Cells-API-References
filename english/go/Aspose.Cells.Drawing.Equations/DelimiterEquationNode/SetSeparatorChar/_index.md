@@ -1,0 +1,28 @@
+---
+title: SetSeparatorChar Method 
+linktitle: SetSeparatorChar
+second_title: Aspose.Cells for Go API Reference
+description: 'SetSeparatorChar method. Encapsulates the function that represents setseparatorchar in Go.'
+type: docs
+weight: 200
+url: /go/aspose.cells.drawing.equations/delimiterequationnode/setseparatorchar/
+---
+
+## SetSeparatorChar function
+
+Delimiter separator character.
+
+```go
+
+func (instance *DelimiterEquationNode) SetSeparatorChar_String(value string)  error
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [DelimiterEquationNode](../)
+* Namespace [Aspose.Cells.Drawing.Equations](../../)
+* Library [Aspose.Cells for Go](../../../)

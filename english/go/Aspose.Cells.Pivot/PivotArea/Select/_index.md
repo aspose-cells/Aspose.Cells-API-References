@@ -1,0 +1,28 @@
+---
+title: Select Method 
+linktitle: Select
+second_title: Aspose.Cells for Go API Reference
+description: 'Select method. Encapsulates the function that represents select in Go.'
+type: docs
+weight: 200
+url: /go/aspose.cells.pivot/pivotarea/select/
+---
+
+## Select function
+
+Select the area with filters.
+
+```go
+
+func (instance *PivotArea) Select(axistype PivotFieldType, fieldposition int32, selectiontype PivotTableSelectionType)  error
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [PivotArea](../)
+* Namespace [Aspose.Cells.Pivot](../../)
+* Library [Aspose.Cells for Go](../../../)

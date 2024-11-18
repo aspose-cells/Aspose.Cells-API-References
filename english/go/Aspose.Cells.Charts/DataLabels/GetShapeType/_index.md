@@ -1,0 +1,28 @@
+---
+title: GetShapeType Method 
+linktitle: GetShapeType
+second_title: Aspose.Cells for Go API Reference
+description: 'GetShapeType method. Encapsulates the function that represents getshapetype in Go.'
+type: docs
+weight: 200
+url: /go/aspose.cells.charts/datalabels/getshapetype/
+---
+
+## GetShapeType function
+
+Gets or sets  shape type of data label.
+
+```go
+
+func (instance *DataLabels) GetShapeType()  (DataLabelShapeType,  error) 
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [DataLabels](../)
+* Namespace [Aspose.Cells.Charts](../../)
+* Library [Aspose.Cells for Go](../../../)
