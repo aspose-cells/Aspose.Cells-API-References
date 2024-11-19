@@ -19,6 +19,11 @@ type CommentCollection struct
 commentcollection, _ := asposecells.NewCommentCollection()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewCommentCollection](./newcommentcollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

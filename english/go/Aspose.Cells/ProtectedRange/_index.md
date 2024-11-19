@@ -19,6 +19,11 @@ type ProtectedRange struct
 protectedrange, _ := asposecells.NewProtectedRange()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewProtectedRange](./newprotectedrange/) | Constructs from an implementation object. | 
 
 ## Methods
 

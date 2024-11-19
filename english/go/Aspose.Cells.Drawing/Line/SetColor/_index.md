@@ -10,7 +10,7 @@ url: /go/aspose.cells.drawing/line/setcolor/
 
 ## SetColor function
 
-Represents the <see cref="System.Drawing.Color"/> of the line.
+Represents the <see cref="Color"/> of the line.
 
 ```go
 

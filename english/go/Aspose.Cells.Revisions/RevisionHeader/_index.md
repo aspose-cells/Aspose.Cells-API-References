@@ -19,6 +19,12 @@ type RevisionHeader struct
 revisionheader, _ := asposecells.NewRevisionHeader()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewRevisionHeader](./newrevisionheader/) | Default constructor. | 
+|[NewRevisionHeader_RevisionHeader](./newrevisionheader_revisionheader/) | Constructs from an implementation object. | 
 
 ## Methods
 

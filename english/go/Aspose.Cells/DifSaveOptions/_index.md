@@ -19,6 +19,13 @@ type DifSaveOptions struct
 difsaveoptions, _ := asposecells.NewDifSaveOptions()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewDifSaveOptions](./newdifsaveoptions/) | Creates the options for saving DIF file. | 
+|[NewDifSaveOptions_DifSaveOptions](./newdifsaveoptions_difsaveoptions/) | Constructs from an implementation object. | 
+|[NewDifSaveOptions_SaveOptions](./newdifsaveoptions_saveoptions/) | Constructs from a parent object. | 
 
 ## Methods
 

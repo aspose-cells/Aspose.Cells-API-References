@@ -19,6 +19,12 @@ type RevisionFormat struct
 revisionformat, _ := asposecells.NewRevisionFormat()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewRevisionFormat_RevisionFormat](./newrevisionformat_revisionformat/) | Constructs from an implementation object. | 
+|[NewRevisionFormat_Revision](./newrevisionformat_revision/) | Constructs from a parent object. | 
 
 ## Methods
 

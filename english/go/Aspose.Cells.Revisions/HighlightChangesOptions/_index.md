@@ -19,6 +19,12 @@ type HighlightChangesOptions struct
 highlightchangesoptions, _ := asposecells.NewHighlightChangesOptions()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewHighlightChangesOptions_Bool_Bool](./newhighlightchangesoptions_bool_bool/) | Represents options of highlighting revsions or changes of shared Excel files. | 
+|[NewHighlightChangesOptions_HighlightChangesOptions](./newhighlightchangesoptions_highlightchangesoptions/) | Constructs from an implementation object. | 
 
 ## Methods
 

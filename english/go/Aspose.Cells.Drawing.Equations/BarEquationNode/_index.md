@@ -19,6 +19,12 @@ type BarEquationNode struct
 barequationnode, _ := asposecells.NewBarEquationNode()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewBarEquationNode_BarEquationNode](./newbarequationnode_barequationnode/) | Constructs from an implementation object. | 
+|[NewBarEquationNode_EquationNode](./newbarequationnode_equationnode/) | Constructs from a parent object. | 
 
 ## Methods
 
@@ -27,10 +33,11 @@ barequationnode, _ := asposecells.NewBarEquationNode()
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[GetBarPosition](./getbarposition/) | This attribute specifies the position of the bar in the bar object | 
 |[SetBarPosition](./setbarposition/) | This attribute specifies the position of the bar in the bar object | 
+|[Equals](./equals/) | Determine whether the current equation node is equal to the specified node | 
 |[GetParentNode](./getparentnode/) | Specifies the parent node of the current node | 
 |[SetParentNode](./setparentnode/) | Specifies the parent node of the current node | 
-|[ToLaTeX](./tolatex/) | Conver this equtation to LaTeX expression. | 
-|[ToMathML](./tomathml/) | Conver this equtation to MathML expression. | 
+|[ToLaTeX](./tolatex/) | Convert this equtation to LaTeX expression. | 
+|[ToMathML](./tomathml/) | Convert this equtation to MathML expression. | 
 |[AddChild](./addchild/) | Insert a node of the specified type at the end of the child node list of the current node. | 
 |[AddChild](./addchild/) | Inserts the specified node at the end of the current node's list of child nodes. | 
 |[InsertChild](./insertchild/) | Inserts a node of the specified type at the specified index position in the current node's child node list. | 

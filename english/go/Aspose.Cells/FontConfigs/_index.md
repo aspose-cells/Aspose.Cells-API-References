@@ -19,6 +19,12 @@ type FontConfigs struct
 fontconfigs, _ := asposecells.NewFontConfigs()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewFontConfigs](./newfontconfigs/) | Default constructor. | 
+|[NewFontConfigs_FontConfigs](./newfontconfigs_fontconfigs/) | Constructs from an implementation object. | 
 
 ## Methods
 

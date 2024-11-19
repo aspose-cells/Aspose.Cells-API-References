@@ -19,6 +19,12 @@ type CustomXmlShape struct
 customxmlshape, _ := asposecells.NewCustomXmlShape()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewCustomXmlShape_CustomXmlShape](./newcustomxmlshape_customxmlshape/) | Constructs from an implementation object. | 
+|[NewCustomXmlShape_Shape](./newcustomxmlshape_shape/) | Constructs from a parent object. | 
 
 ## Methods
 
@@ -198,6 +204,7 @@ customxmlshape, _ := asposecells.NewCustomXmlShape()
 |[SetTextVerticalAlignment](./settextverticalalignment/) | Gets and sets the text vertical alignment type of the shape. | 
 |[GetTextDirection](./gettextdirection/) | Gets/Sets the direction of the text flow for this object. | 
 |[SetTextDirection](./settextdirection/) | Gets/Sets the direction of the text flow for this object. | 
+|[GetTextBoxOptions](./gettextboxoptions/) | Gets the text information in the shape | 
 |[GetActiveXControl](./getactivexcontrol/) | Gets the ActiveX control. | 
 |[RemoveActiveXControl](./removeactivexcontrol/) | Remove activeX control. | 
 |[GetPaths](./getpaths/) | Gets the paths of a custom geometric shape. | 
@@ -207,3 +214,4 @@ customxmlshape, _ := asposecells.NewCustomXmlShape()
 |[IsDecorative](./isdecorative/) | Indicates whether the object is decorative. | 
 |[SetIsDecorative](./setisdecorative/) | Indicates whether the object is decorative. | 
 |[GetResultOfSmartArt](./getresultofsmartart/) | Converting smart art to grouped shapes. | 
+|[IsSameSetting](./issamesetting/) | Returns whether the shape is same. | 

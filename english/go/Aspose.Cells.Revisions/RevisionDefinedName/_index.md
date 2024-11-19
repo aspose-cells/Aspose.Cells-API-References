@@ -19,6 +19,12 @@ type RevisionDefinedName struct
 revisiondefinedname, _ := asposecells.NewRevisionDefinedName()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewRevisionDefinedName_RevisionDefinedName](./newrevisiondefinedname_revisiondefinedname/) | Constructs from an implementation object. | 
+|[NewRevisionDefinedName_Revision](./newrevisiondefinedname_revision/) | Constructs from a parent object. | 
 
 ## Methods
 

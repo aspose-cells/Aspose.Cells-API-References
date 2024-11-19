@@ -19,6 +19,11 @@ type SubtotalSetting struct
 subtotalsetting, _ := asposecells.NewSubtotalSetting()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewSubtotalSetting](./newsubtotalsetting/) | Constructs from an implementation object. | 
 
 ## Methods
 

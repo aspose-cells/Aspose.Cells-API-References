@@ -19,6 +19,12 @@ type DataLabels struct
 datalabels, _ := asposecells.NewDataLabels()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewDataLabels_DataLabels](./newdatalabels_datalabels/) | Constructs from an implementation object. | 
+|[NewDataLabels_ChartTextFrame](./newdatalabels_charttextframe/) | Constructs from a parent object. | 
 
 ## Methods
 

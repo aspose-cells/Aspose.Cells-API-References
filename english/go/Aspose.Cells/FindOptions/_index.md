@@ -19,6 +19,12 @@ type FindOptions struct
 findoptions, _ := asposecells.NewFindOptions()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewFindOptions](./newfindoptions/) | Default constructor. | 
+|[NewFindOptions_FindOptions](./newfindoptions_findoptions/) | Constructs from an implementation object. | 
 
 ## Methods
 
@@ -34,8 +40,8 @@ findoptions, _ := asposecells.NewFindOptions()
 |[IsRangeSet](./israngeset/) | Indicates whether the searched range is set. | 
 |[GetSearchBackward](./getsearchbackward/) | Whether search backward for cells. | 
 |[SetSearchBackward](./setsearchbackward/) | Whether search backward for cells. | 
-|[GetSeachOrderByRows](./getseachorderbyrows/) | Indicates whether search order by rows or columns. | 
-|[SetSeachOrderByRows](./setseachorderbyrows/) | Indicates whether search order by rows or columns. | 
+|[GetSearchOrderByRows](./getsearchorderbyrows/) | Indicates whether search order by rows or columns. | 
+|[SetSearchOrderByRows](./setsearchorderbyrows/) | Indicates whether search order by rows or columns. | 
 |[GetLookInType](./getlookintype/) | Look in type. | 
 |[SetLookInType](./setlookintype/) | Look in type. | 
 |[GetRegexKey](./getregexkey/) | Indicates whether the searched key is regex.If true the searched key will be taken as regex and parsed. Otherwise the key will be parsed according to the rules in ms excel. | 

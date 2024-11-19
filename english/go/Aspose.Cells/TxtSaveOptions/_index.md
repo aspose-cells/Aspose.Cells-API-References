@@ -19,6 +19,14 @@ type TxtSaveOptions struct
 txtsaveoptions, _ := asposecells.NewTxtSaveOptions()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewTxtSaveOptions](./newtxtsaveoptions/) | Creates text file save options. | 
+|[NewTxtSaveOptions_SaveFormat](./newtxtsaveoptions_saveformat/) | Creates text file save options. | 
+|[NewTxtSaveOptions_TxtSaveOptions](./newtxtsaveoptions_txtsaveoptions/) | Constructs from an implementation object. | 
+|[NewTxtSaveOptions_SaveOptions](./newtxtsaveoptions_saveoptions/) | Constructs from a parent object. | 
 
 ## Methods
 

@@ -19,6 +19,12 @@ type Title struct
 title, _ := asposecells.NewTitle()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewTitle_Title](./newtitle_title/) | Constructs from an implementation object. | 
+|[NewTitle_ChartTextFrame](./newtitle_charttextframe/) | Constructs from a parent object. | 
 
 ## Methods
 

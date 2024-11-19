@@ -10,7 +10,7 @@ url: /go/aspose.cells.drawing/picture/getborderlinecolor/
 
 ## GetBorderLineColor function
 
-Represents the <see cref="System.Drawing.Color"/> of the border line of a picture.
+Represents the <see cref="Color"/> of the border line of a picture.
 
 ```go
 

@@ -19,6 +19,11 @@ type SparklineGroup struct
 sparklinegroup, _ := asposecells.NewSparklineGroup()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewSparklineGroup](./newsparklinegroup/) | Constructs from an implementation object. | 
 
 ## Methods
 

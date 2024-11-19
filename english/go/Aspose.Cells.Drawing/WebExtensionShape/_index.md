@@ -19,6 +19,12 @@ type WebExtensionShape struct
 webextensionshape, _ := asposecells.NewWebExtensionShape()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewWebExtensionShape_WebExtensionShape](./newwebextensionshape_webextensionshape/) | Constructs from an implementation object. | 
+|[NewWebExtensionShape_Shape](./newwebextensionshape_shape/) | Constructs from a parent object. | 
 
 ## Methods
 
@@ -200,6 +206,7 @@ webextensionshape, _ := asposecells.NewWebExtensionShape()
 |[SetTextVerticalAlignment](./settextverticalalignment/) | Gets and sets the text vertical alignment type of the shape. | 
 |[GetTextDirection](./gettextdirection/) | Gets/Sets the direction of the text flow for this object. | 
 |[SetTextDirection](./settextdirection/) | Gets/Sets the direction of the text flow for this object. | 
+|[GetTextBoxOptions](./gettextboxoptions/) | Gets the text information in the shape | 
 |[GetActiveXControl](./getactivexcontrol/) | Gets the ActiveX control. | 
 |[RemoveActiveXControl](./removeactivexcontrol/) | Remove activeX control. | 
 |[GetPaths](./getpaths/) | Gets the paths of a custom geometric shape. | 
@@ -209,3 +216,4 @@ webextensionshape, _ := asposecells.NewWebExtensionShape()
 |[IsDecorative](./isdecorative/) | Indicates whether the object is decorative. | 
 |[SetIsDecorative](./setisdecorative/) | Indicates whether the object is decorative. | 
 |[GetResultOfSmartArt](./getresultofsmartart/) | Converting smart art to grouped shapes. | 
+|[IsSameSetting](./issamesetting/) | Returns whether the shape is same. | 

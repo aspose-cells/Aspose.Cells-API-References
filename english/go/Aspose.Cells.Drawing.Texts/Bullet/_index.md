@@ -19,6 +19,11 @@ type Bullet struct
 bullet, _ := asposecells.NewBullet()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewBullet](./newbullet/) | Constructs from an implementation object. | 
 
 ## Methods
 

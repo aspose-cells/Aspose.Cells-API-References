@@ -19,6 +19,12 @@ type PivotFieldGroupSettings struct
 pivotfieldgroupsettings, _ := asposecells.NewPivotFieldGroupSettings()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewPivotFieldGroupSettings](./newpivotfieldgroupsettings/) | Default constructor. | 
+|[NewPivotFieldGroupSettings_PivotFieldGroupSettings](./newpivotfieldgroupsettings_pivotfieldgroupsettings/) | Constructs from an implementation object. | 
 
 ## Methods
 

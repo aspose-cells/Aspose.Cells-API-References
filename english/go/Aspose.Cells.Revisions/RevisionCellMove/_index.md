@@ -19,6 +19,12 @@ type RevisionCellMove struct
 revisioncellmove, _ := asposecells.NewRevisionCellMove()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewRevisionCellMove_RevisionCellMove](./newrevisioncellmove_revisioncellmove/) | Constructs from an implementation object. | 
+|[NewRevisionCellMove_Revision](./newrevisioncellmove_revision/) | Constructs from a parent object. | 
 
 ## Methods
 

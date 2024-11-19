@@ -19,6 +19,11 @@ type AutoFilter struct
 autofilter, _ := asposecells.NewAutoFilter()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewAutoFilter](./newautofilter/) | Constructs from an implementation object. | 
 
 ## Methods
 
@@ -42,6 +47,8 @@ autofilter, _ := asposecells.NewAutoFilter()
 |[AddIconFilter](./addiconfilter/) | Adds an icon filter. | 
 |[MatchBlanks](./matchblanks/) | Match all blank cell in the list. | 
 |[MatchNonBlanks](./matchnonblanks/) | Match all not blank cell in the list. | 
+|[Custom](./custom/) | Filters a list with a custom criteria. | 
+|[Custom](./custom/) | Filters a list with custom criteria. | 
 |[ShowAll](./showall/) | Unhide all rows. | 
 |[RemoveFilter](./removefilter/) | Remove the specific filter. | 
 |[GetShowFilterButton](./getshowfilterbutton/) | Indicates whether the AutoFilter button for this column is visible. | 

@@ -19,6 +19,11 @@ type UnionRange struct
 unionrange, _ := asposecells.NewUnionRange()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewUnionRange](./newunionrange/) | Constructs from an implementation object. | 
 
 ## Methods
 
@@ -32,6 +37,8 @@ unionrange, _ := asposecells.NewUnionRange()
 |[Merge](./merge/) | Combines a range of cells into a single cell. | 
 |[UnMerge](./unmerge/) | Unmerges merged cells of this range. | 
 |[PutValue](./putvalue/) | Puts a value into the range, if appropriate the value will be converted to other data type and cell's number format will be reset. | 
+|[GetValue](./getvalue/) | Gets and sets the values of the range. | 
+|[SetValue](./setvalue/) | Gets and sets the values of the range. | 
 |[GetName](./getname/) | Gets or sets the name of the range. | 
 |[SetName](./setname/) | Gets or sets the name of the range. | 
 |[GetRefersTo](./getrefersto/) | Gets the range's refers to. | 

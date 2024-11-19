@@ -19,6 +19,12 @@ type TableToRangeOptions struct
 tabletorangeoptions, _ := asposecells.NewTableToRangeOptions()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewTableToRangeOptions](./newtabletorangeoptions/) | Default constructor. | 
+|[NewTableToRangeOptions_TableToRangeOptions](./newtabletorangeoptions_tabletorangeoptions/) | Constructs from an implementation object. | 
 
 ## Methods
 

@@ -19,6 +19,12 @@ type PivotArea struct
 pivotarea, _ := asposecells.NewPivotArea()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewPivotArea_PivotTable](./newpivotarea_pivottable/) | Presents the selected area of the PivotTable. | 
+|[NewPivotArea_PivotArea](./newpivotarea_pivotarea/) | Constructs from an implementation object. | 
 
 ## Methods
 

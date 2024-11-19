@@ -19,6 +19,10 @@ type DrawObjectEventHandler struct
 drawobjecteventhandler, _ := asposecells.NewDrawObjectEventHandler()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
 
 ## Methods
 

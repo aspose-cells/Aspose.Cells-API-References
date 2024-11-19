@@ -19,6 +19,11 @@ type Row struct
 row, _ := asposecells.NewRow()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewRow](./newrow/) | Constructs from an implementation object. | 
 
 ## Methods
 
@@ -49,4 +54,5 @@ row, _ := asposecells.NewRow()
 |[GetLastCell](./getlastcell/) | Gets the last cell object in the row. | 
 |[GetLastDataCell](./getlastdatacell/) | Gets the last non-blank cell in the row. | 
 |[ApplyStyle](./applystyle/) | Applies formats for a whole row. | 
+|[Equals](./equals/) | Checks whether this object refers to the same row with another. | 
 |[Equals](./equals/) | Checks whether this object refers to the same row with another row object. | 

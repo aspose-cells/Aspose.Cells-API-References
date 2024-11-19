@@ -19,6 +19,11 @@ type NoneFill struct
 nonefill, _ := asposecells.NewNoneFill()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewNoneFill](./newnonefill/) | Constructs from an implementation object. | 
 
 ## Methods
 

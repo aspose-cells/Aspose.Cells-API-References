@@ -19,6 +19,11 @@ type PivotFormatCondition struct
 pivotformatcondition, _ := asposecells.NewPivotFormatCondition()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewPivotFormatCondition](./newpivotformatcondition/) | Constructs from an implementation object. | 
 
 ## Methods
 

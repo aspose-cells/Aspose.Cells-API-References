@@ -14,7 +14,7 @@ Group the file by number.
 
 ```go
 
-func (instance *PivotField) GroupBy_Double_Double_Double_Bool(start float64, end float64, interval float64, newfield bool)  error
+func (instance *PivotField) GroupBy_Double_Double_Double_Bool(start float64, end float64, interval float64, newfield bool)  (bool,  error) 
 
 ```
 

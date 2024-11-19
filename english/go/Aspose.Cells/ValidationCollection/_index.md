@@ -19,6 +19,11 @@ type ValidationCollection struct
 validationcollection, _ := asposecells.NewValidationCollection()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewValidationCollection](./newvalidationcollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

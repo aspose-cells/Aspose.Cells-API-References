@@ -19,6 +19,12 @@ type PivotAreaFilter struct
 pivotareafilter, _ := asposecells.NewPivotAreaFilter()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewPivotAreaFilter](./newpivotareafilter/) | Default constructor. | 
+|[NewPivotAreaFilter_PivotAreaFilter](./newpivotareafilter_pivotareafilter/) | Constructs from an implementation object. | 
 
 ## Methods
 

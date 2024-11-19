@@ -10,7 +10,7 @@ url: /go/aspose.cells.drawing/signatureline/gettitle/
 
 ## GetTitle function
 
-Gets and sets the title of singer.
+Gets or sets the title of singer.
 
 ```go
 

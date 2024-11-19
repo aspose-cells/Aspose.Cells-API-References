@@ -19,12 +19,19 @@ type ConditionalFormattingValue struct
 conditionalformattingvalue, _ := asposecells.NewConditionalFormattingValue()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewConditionalFormattingValue](./newconditionalformattingvalue/) | Constructs from an implementation object. | 
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
+|[GetValue](./getvalue/) | Get or set the value of this conditional formatting value object.It should be used in conjunction with Type. | 
+|[SetValue](./setvalue/) | Get or set the value of this conditional formatting value object.It should be used in conjunction with Type. | 
 |[GetType](./gettype/) | Get or set the type of this conditional formatting value object.Setting the type to FormatConditionValueType.Min or FormatConditionValueType.Maxwill auto set "Value" to null. | 
 |[SetType](./settype/) | Get or set the type of this conditional formatting value object.Setting the type to FormatConditionValueType.Min or FormatConditionValueType.Maxwill auto set "Value" to null. | 
 |[IsGTE](./isgte/) | Get or set the Greater Than Or Equal flag.Use only for icon sets, determines whether this threshold value usesthe greater than or equal to operator.'false' indicates 'greater than' is used instead of 'greater than or equal to'.Default value is true. | 

@@ -19,6 +19,12 @@ type ChartTextFrame struct
 charttextframe, _ := asposecells.NewChartTextFrame()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewChartTextFrame_ChartTextFrame](./newcharttextframe_charttextframe/) | Constructs from an implementation object. | 
+|[NewChartTextFrame_ChartFrame](./newcharttextframe_chartframe/) | Constructs from a parent object. | 
 
 ## Methods
 

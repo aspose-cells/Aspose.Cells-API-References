@@ -19,6 +19,11 @@ type GroupFill struct
 groupfill, _ := asposecells.NewGroupFill()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewGroupFill](./newgroupfill/) | Constructs from an implementation object. | 
 
 ## Methods
 

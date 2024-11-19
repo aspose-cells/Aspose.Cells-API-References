@@ -19,6 +19,11 @@ type ShapePropertyCollection struct
 shapepropertycollection, _ := asposecells.NewShapePropertyCollection()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewShapePropertyCollection](./newshapepropertycollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

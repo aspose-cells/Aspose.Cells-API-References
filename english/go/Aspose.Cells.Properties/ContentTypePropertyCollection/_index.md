@@ -19,6 +19,11 @@ type ContentTypePropertyCollection struct
 contenttypepropertycollection, _ := asposecells.NewContentTypePropertyCollection()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewContentTypePropertyCollection](./newcontenttypepropertycollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

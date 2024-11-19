@@ -19,6 +19,11 @@ type ShapePathCollection struct
 shapepathcollection, _ := asposecells.NewShapePathCollection()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewShapePathCollection](./newshapepathcollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

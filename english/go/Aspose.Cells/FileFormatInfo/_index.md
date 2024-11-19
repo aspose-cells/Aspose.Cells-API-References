@@ -19,6 +19,12 @@ type FileFormatInfo struct
 fileformatinfo, _ := asposecells.NewFileFormatInfo()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewFileFormatInfo](./newfileformatinfo/) | Default constructor. | 
+|[NewFileFormatInfo_FileFormatInfo](./newfileformatinfo_fileformatinfo/) | Constructs from an implementation object. | 
 
 ## Methods
 

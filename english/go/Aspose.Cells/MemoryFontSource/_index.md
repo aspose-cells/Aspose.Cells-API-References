@@ -19,6 +19,12 @@ type MemoryFontSource struct
 memoryfontsource, _ := asposecells.NewMemoryFontSource()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewMemoryFontSource_MemoryFontSource](./newmemoryfontsource_memoryfontsource/) | Constructs from an implementation object. | 
+|[NewMemoryFontSource_FontSourceBase](./newmemoryfontsource_fontsourcebase/) | Constructs from a parent object. | 
 
 ## Methods
 

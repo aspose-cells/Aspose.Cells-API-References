@@ -19,6 +19,11 @@ type ListColumn struct
 listcolumn, _ := asposecells.NewListColumn()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewListColumn](./newlistcolumn/) | Constructs from an implementation object. | 
 
 ## Methods
 

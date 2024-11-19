@@ -10,7 +10,7 @@ url: /go/aspose.cells.charts/floor/setbackgroundcolor/
 
 ## SetBackgroundColor function
 
-Gets or sets the background <see cref="System.Drawing.Color"/> of the <see cref="Area"/>.
+Gets or sets the background <see cref="Color"/> of the <see cref="Area"/>.
 
 ```go
 

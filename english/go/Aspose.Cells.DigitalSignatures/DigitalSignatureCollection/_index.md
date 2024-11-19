@@ -19,6 +19,12 @@ type DigitalSignatureCollection struct
 digitalsignaturecollection, _ := asposecells.NewDigitalSignatureCollection()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewDigitalSignatureCollection](./newdigitalsignaturecollection/) | The constructor of DigitalSignatureCollection. | 
+|[NewDigitalSignatureCollection_DigitalSignatureCollection](./newdigitalsignaturecollection_digitalsignaturecollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

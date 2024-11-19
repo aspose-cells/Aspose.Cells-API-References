@@ -19,6 +19,12 @@ type TwoColorGradient struct
 twocolorgradient, _ := asposecells.NewTwoColorGradient()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewTwoColorGradient_Color_Color_GradientStyleType_Int](./newtwocolorgradient_color_color_gradientstyletype_int/) |  | 
+|[NewTwoColorGradient_TwoColorGradient](./newtwocolorgradient_twocolorgradient/) | Constructs from an implementation object. | 
 
 ## Methods
 

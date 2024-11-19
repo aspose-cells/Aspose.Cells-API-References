@@ -19,6 +19,11 @@ type Font struct
 font, _ := asposecells.NewFont()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewFont](./newfont/) | Constructs from an implementation object. | 
 
 ## Methods
 
@@ -51,8 +56,8 @@ font, _ := asposecells.NewFont()
 |[SetSize](./setsize/) | Gets or sets the size of the font. | 
 |[GetThemeColor](./getthemecolor/) | Gets and sets the theme color. | 
 |[SetThemeColor](./setthemecolor/) | Gets and sets the theme color. | 
-|[GetColor](./getcolor/) | Gets or sets the <see cref="System.Drawing.Color"/> of the font. | 
-|[SetColor](./setcolor/) | Gets or sets the <see cref="System.Drawing.Color"/> of the font. | 
+|[GetColor](./getcolor/) | Gets or sets the <see cref="Color"/> of the font. | 
+|[SetColor](./setcolor/) | Gets or sets the <see cref="Color"/> of the font. | 
 |[GetArgbColor](./getargbcolor/) | Gets and sets the color with a 32-bit ARGB value. | 
 |[SetArgbColor](./setargbcolor/) | Gets and sets the color with a 32-bit ARGB value. | 
 |[Equals](./equals/) | Checks if two fonts are equals. | 

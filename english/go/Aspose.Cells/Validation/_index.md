@@ -19,6 +19,11 @@ type Validation struct
 validation, _ := asposecells.NewValidation()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewValidation](./newvalidation/) | Constructs from an implementation object. | 
 
 ## Methods
 
@@ -55,6 +60,12 @@ validation, _ := asposecells.NewValidation()
 |[SetFormula1](./setformula1/) | Represents the value or expression associated with the data validation. | 
 |[GetFormula2](./getformula2/) | Represents the value or expression associated with the data validation. | 
 |[SetFormula2](./setformula2/) | Represents the value or expression associated with the data validation. | 
+|[GetListValue](./getlistvalue/) | Get the value for list of the validation for the specified cell. | 
+|[GetValue1](./getvalue1/) | Represents the first value associated with the data validation. | 
+|[SetValue1](./setvalue1/) | Represents the first value associated with the data validation. | 
+|[GetValue2](./getvalue2/) | Represents the second value associated with the data validation. | 
+|[SetValue2](./setvalue2/) | Represents the second value associated with the data validation. | 
+|[GetValue](./getvalue/) | Get the value of validation on the specific cell. | 
 |[GetInCellDropDown](./getincelldropdown/) | Indicates whether data validation displays a drop-down list that contains acceptable values. | 
 |[SetInCellDropDown](./setincelldropdown/) | Indicates whether data validation displays a drop-down list that contains acceptable values. | 
 |[AddArea](./addarea/) | Applies the validation to the area. | 

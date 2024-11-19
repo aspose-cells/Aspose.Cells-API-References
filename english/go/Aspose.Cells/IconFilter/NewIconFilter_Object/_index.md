@@ -1,0 +1,28 @@
+---
+title: IconFilter Constructor 
+linktitle: IconFilter
+second_title: Aspose.Cells for Go API Reference
+description: 'IconFilter constructor. Encapsulates the function that represents newiconfilter_object in Go.'
+type: docs
+weight: 200
+url: /go/aspose.cells/iconfilter/newiconfilter_object/
+---
+
+## NewIconFilter_Object function
+
+Constructs from an Object convertible to this.
+
+```go
+
+func NewIconFilter_Object(obj *Object) ( *IconFilter, error)
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [IconFilter](../)
+* Namespace [Aspose.Cells](../../)
+* Library [Aspose.Cells for Go](../../../)

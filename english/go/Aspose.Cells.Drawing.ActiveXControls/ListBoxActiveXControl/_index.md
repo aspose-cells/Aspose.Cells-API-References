@@ -19,6 +19,12 @@ type ListBoxActiveXControl struct
 listboxactivexcontrol, _ := asposecells.NewListBoxActiveXControl()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewListBoxActiveXControl_ListBoxActiveXControl](./newlistboxactivexcontrol_listboxactivexcontrol/) | Constructs from an implementation object. | 
+|[NewListBoxActiveXControl_ActiveXControl](./newlistboxactivexcontrol_activexcontrol/) | Constructs from a parent object. | 
 
 ## Methods
 

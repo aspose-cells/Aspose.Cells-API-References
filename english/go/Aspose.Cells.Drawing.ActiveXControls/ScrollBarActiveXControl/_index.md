@@ -19,6 +19,12 @@ type ScrollBarActiveXControl struct
 scrollbaractivexcontrol, _ := asposecells.NewScrollBarActiveXControl()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewScrollBarActiveXControl_ScrollBarActiveXControl](./newscrollbaractivexcontrol_scrollbaractivexcontrol/) | Constructs from an implementation object. | 
+|[NewScrollBarActiveXControl_SpinButtonActiveXControl](./newscrollbaractivexcontrol_spinbuttonactivexcontrol/) | Constructs from a parent object. | 
 
 ## Methods
 

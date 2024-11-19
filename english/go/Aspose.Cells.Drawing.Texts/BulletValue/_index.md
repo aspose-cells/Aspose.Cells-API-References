@@ -19,6 +19,11 @@ type BulletValue struct
 bulletvalue, _ := asposecells.NewBulletValue()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewBulletValue](./newbulletvalue/) | Constructs from an implementation object. | 
 
 ## Methods
 

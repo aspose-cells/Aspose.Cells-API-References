@@ -19,6 +19,11 @@ type PaneCollection struct
 panecollection, _ := asposecells.NewPaneCollection()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewPaneCollection](./newpanecollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

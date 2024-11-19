@@ -19,6 +19,12 @@ type PivotTableRefreshOption struct
 pivottablerefreshoption, _ := asposecells.NewPivotTableRefreshOption()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewPivotTableRefreshOption](./newpivottablerefreshoption/) | Represents the options of refreshing data source of the pivot table. | 
+|[NewPivotTableRefreshOption_PivotTableRefreshOption](./newpivottablerefreshoption_pivottablerefreshoption/) | Constructs from an implementation object. | 
 
 ## Methods
 

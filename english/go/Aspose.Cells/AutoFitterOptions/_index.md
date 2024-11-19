@@ -19,6 +19,12 @@ type AutoFitterOptions struct
 autofitteroptions, _ := asposecells.NewAutoFitterOptions()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewAutoFitterOptions](./newautofitteroptions/) | Default constructor. | 
+|[NewAutoFitterOptions_AutoFitterOptions](./newautofitteroptions_autofitteroptions/) | Constructs from an implementation object. | 
 
 ## Methods
 

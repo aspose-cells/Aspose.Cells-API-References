@@ -19,6 +19,12 @@ type TextRunEquationNode struct
 textrunequationnode, _ := asposecells.NewTextRunEquationNode()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewTextRunEquationNode_TextRunEquationNode](./newtextrunequationnode_textrunequationnode/) | Constructs from an implementation object. | 
+|[NewTextRunEquationNode_EquationNode](./newtextrunequationnode_equationnode/) | Constructs from a parent object. | 
 
 ## Methods
 
@@ -27,10 +33,11 @@ textrunequationnode, _ := asposecells.NewTextRunEquationNode()
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[GetText](./gettext/) | Set the content of the text node(Usually a node object per character). | 
 |[SetText](./settext/) | Set the content of the text node(Usually a node object per character). | 
+|[Equals](./equals/) | Determine whether the current equation node is equal to the specified node | 
 |[GetParentNode](./getparentnode/) | Specifies the parent node of the current node | 
 |[SetParentNode](./setparentnode/) | Specifies the parent node of the current node | 
-|[ToLaTeX](./tolatex/) | Conver this equtation to LaTeX expression. | 
-|[ToMathML](./tomathml/) | Conver this equtation to MathML expression. | 
+|[ToLaTeX](./tolatex/) | Convert this equtation to LaTeX expression. | 
+|[ToMathML](./tomathml/) | Convert this equtation to MathML expression. | 
 |[AddChild](./addchild/) | Insert a node of the specified type at the end of the child node list of the current node. | 
 |[AddChild](./addchild/) | Inserts the specified node at the end of the current node's list of child nodes. | 
 |[InsertChild](./insertchild/) | Inserts a node of the specified type at the specified index position in the current node's child node list. | 

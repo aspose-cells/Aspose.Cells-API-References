@@ -19,6 +19,11 @@ type MsoFormatPicture struct
 msoformatpicture, _ := asposecells.NewMsoFormatPicture()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewMsoFormatPicture](./newmsoformatpicture/) | Constructs from an implementation object. | 
 
 ## Methods
 
@@ -56,3 +61,4 @@ msoformatpicture, _ := asposecells.NewMsoFormatPicture()
 |[IsGray](./isgray/) | Indicates whether this picture should display in grayscale. | 
 |[SetIsGray](./setisgray/) | Indicates whether this picture should display in grayscale. | 
 |[GetHashCode](./gethashcode/) | Gets the hash code. | 
+|[Equals](./equals/) |  | 

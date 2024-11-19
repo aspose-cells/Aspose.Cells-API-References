@@ -19,6 +19,11 @@ type HorizontalPageBreak struct
 horizontalpagebreak, _ := asposecells.NewHorizontalPageBreak()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewHorizontalPageBreak](./newhorizontalpagebreak/) | Constructs from an implementation object. | 
 
 ## Methods
 

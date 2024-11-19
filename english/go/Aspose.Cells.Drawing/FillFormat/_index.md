@@ -19,6 +19,11 @@ type FillFormat struct
 fillformat, _ := asposecells.NewFillFormat()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewFillFormat](./newfillformat/) | Constructs from an implementation object. | 
 
 ## Methods
 
@@ -52,4 +57,5 @@ fillformat, _ := asposecells.NewFillFormat()
 |[SetPictureFormatType](./setpictureformattype/) | Gets and sets the picture format type. | 
 |[GetScale](./getscale/) | Gets and sets the picture format scale. | 
 |[SetScale](./setscale/) | Gets and sets the picture format scale. | 
+|[Equals](./equals/) |  | 
 |[GetHashCode](./gethashcode/) | Gets the hash code. | 

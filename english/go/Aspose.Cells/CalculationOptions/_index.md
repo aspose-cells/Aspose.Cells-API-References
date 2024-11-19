@@ -19,6 +19,12 @@ type CalculationOptions struct
 calculationoptions, _ := asposecells.NewCalculationOptions()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewCalculationOptions](./newcalculationoptions/) | Default constructor. | 
+|[NewCalculationOptions_CalculationOptions](./newcalculationoptions_calculationoptions/) | Constructs from an implementation object. | 
 
 ## Methods
 

@@ -19,6 +19,12 @@ type RenderingWatermark struct
 renderingwatermark, _ := asposecells.NewRenderingWatermark()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewRenderingWatermark_String_RenderingFont](./newrenderingwatermark_string_renderingfont/) | Creates instance of text watermark. | 
+|[NewRenderingWatermark_RenderingWatermark](./newrenderingwatermark_renderingwatermark/) | Constructs from an implementation object. | 
 
 ## Methods
 

@@ -19,6 +19,12 @@ type RevisionRenameSheet struct
 revisionrenamesheet, _ := asposecells.NewRevisionRenameSheet()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewRevisionRenameSheet_RevisionRenameSheet](./newrevisionrenamesheet_revisionrenamesheet/) | Constructs from an implementation object. | 
+|[NewRevisionRenameSheet_Revision](./newrevisionrenamesheet_revision/) | Constructs from a parent object. | 
 
 ## Methods
 

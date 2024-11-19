@@ -19,6 +19,12 @@ type ActiveXControl struct
 activexcontrol, _ := asposecells.NewActiveXControl()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewActiveXControl_ActiveXControl](./newactivexcontrol_activexcontrol/) | Constructs from an implementation object. | 
+|[NewActiveXControl_ActiveXControlBase](./newactivexcontrol_activexcontrolbase/) | Constructs from a parent object. | 
 
 ## Methods
 

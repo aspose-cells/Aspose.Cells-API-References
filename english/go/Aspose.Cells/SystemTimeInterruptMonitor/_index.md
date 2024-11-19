@@ -19,6 +19,12 @@ type SystemTimeInterruptMonitor struct
 systemtimeinterruptmonitor, _ := asposecells.NewSystemTimeInterruptMonitor()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewSystemTimeInterruptMonitor_Bool](./newsystemtimeinterruptmonitor_bool/) | Constructs one interruption monitor. | 
+|[NewSystemTimeInterruptMonitor_SystemTimeInterruptMonitor](./newsystemtimeinterruptmonitor_systemtimeinterruptmonitor/) | Constructs from an implementation object. | 
 
 ## Methods
 

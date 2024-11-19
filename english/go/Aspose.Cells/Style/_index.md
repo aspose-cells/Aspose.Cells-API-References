@@ -19,6 +19,11 @@ type Style struct
 style, _ := asposecells.NewStyle()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewStyle](./newstyle/) | Constructs from an implementation object. | 
 
 ## Methods
 
@@ -60,6 +65,7 @@ style, _ := asposecells.NewStyle()
 |[IsProtectionApplied](./isprotectionapplied/) | Indicate whether the protection formatting should be applied. | 
 |[SetIsProtectionApplied](./setisprotectionapplied/) | Indicate whether the protection formatting should be applied. | 
 |[IsModified](./ismodified/) | Checks whether the specified properties of the style have been modified.Used for style of ConditionalFormattings to check whether the specified properties of this style should be used when applying the ConditionalFormattings on a cell. | 
+|[Equals](./equals/) | Determines whether two Style instances are equal. | 
 |[GetHashCode](./gethashcode/) | Serves as a hash function for a Style object. | 
 |[GetIndentLevel](./getindentlevel/) | Represents the indent level for the cell or range. Can only be an integer from 0 to 250. | 
 |[SetIndentLevel](./setindentlevel/) | Represents the indent level for the cell or range. Can only be an integer from 0 to 250. | 

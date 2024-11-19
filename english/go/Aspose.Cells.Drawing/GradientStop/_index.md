@@ -19,6 +19,11 @@ type GradientStop struct
 gradientstop, _ := asposecells.NewGradientStop()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewGradientStop](./newgradientstop/) | Constructs from an implementation object. | 
 
 ## Methods
 

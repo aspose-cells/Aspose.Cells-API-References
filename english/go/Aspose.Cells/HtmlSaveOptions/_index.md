@@ -19,6 +19,14 @@ type HtmlSaveOptions struct
 htmlsaveoptions, _ := asposecells.NewHtmlSaveOptions()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewHtmlSaveOptions](./newhtmlsaveoptions/) | Creates options for saving html file. | 
+|[NewHtmlSaveOptions_SaveFormat](./newhtmlsaveoptions_saveformat/) | Creates options for saving htm file. | 
+|[NewHtmlSaveOptions_HtmlSaveOptions](./newhtmlsaveoptions_htmlsaveoptions/) | Constructs from an implementation object. | 
+|[NewHtmlSaveOptions_SaveOptions](./newhtmlsaveoptions_saveoptions/) | Constructs from a parent object. | 
 
 ## Methods
 
@@ -142,6 +150,10 @@ htmlsaveoptions, _ := asposecells.NewHtmlSaveOptions()
 |[SetIsBorderCollapsed](./setisbordercollapsed/) | Indicates whether the table borders are collapsed.The default value is true. | 
 |[GetEncodeEntityAsCode](./getencodeentityascode/) | Indicates whether the html character entities are replaced with decimal code.(e.g. "&amp;nbsp;" is replaced with "&amp;#160;").The default value is false. | 
 |[SetEncodeEntityAsCode](./setencodeentityascode/) | Indicates whether the html character entities are replaced with decimal code.(e.g. "&amp;nbsp;" is replaced with "&amp;#160;").The default value is false. | 
+|[GetOfficeMathOutputMode](./getofficemathoutputmode/) | Indicates how export OfficeMath objects to HTML, Default value is Image. | 
+|[SetOfficeMathOutputMode](./setofficemathoutputmode/) | Indicates how export OfficeMath objects to HTML, Default value is Image. | 
+|[GetCellNameAttribute](./getcellnameattribute/) | Specifies the attribute that indicates the CellName to be written.(e.g. If the value is "id", then for cell "A1", the output will be:&lt;td id='A1'&gt;).The default value is null. | 
+|[SetCellNameAttribute](./setcellnameattribute/) | Specifies the attribute that indicates the CellName to be written.(e.g. If the value is "id", then for cell "A1", the output will be:&lt;td id='A1'&gt;).The default value is null. | 
 |[GetSaveFormat](./getsaveformat/) | Gets the save file format. | 
 |[GetClearData](./getcleardata/) | Make the workbook empty after saving the file. | 
 |[SetClearData](./setcleardata/) | Make the workbook empty after saving the file. | 

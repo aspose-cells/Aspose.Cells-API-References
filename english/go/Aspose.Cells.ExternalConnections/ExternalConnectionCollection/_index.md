@@ -19,6 +19,11 @@ type ExternalConnectionCollection struct
 externalconnectioncollection, _ := asposecells.NewExternalConnectionCollection()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewExternalConnectionCollection](./newexternalconnectioncollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

@@ -10,7 +10,7 @@ url: /go/aspose.cells.drawing.texts/shapetextalignment/istextwrapped/
 
 ## IsTextWrapped function
 
-Gets and sets the text wrapped type of the shape which contains text.
+Gets or sets the text wrapped type of the shape which contains text.
 
 ```go
 

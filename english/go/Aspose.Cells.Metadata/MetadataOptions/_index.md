@@ -19,6 +19,12 @@ type MetadataOptions struct
 metadataoptions, _ := asposecells.NewMetadataOptions()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewMetadataOptions_MetadataType](./newmetadataoptions_metadatatype/) | Creates an options of loading the metadata. | 
+|[NewMetadataOptions_MetadataOptions](./newmetadataoptions_metadataoptions/) | Constructs from an implementation object. | 
 
 ## Methods
 

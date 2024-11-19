@@ -19,6 +19,13 @@ type PdfSaveOptions struct
 pdfsaveoptions, _ := asposecells.NewPdfSaveOptions()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewPdfSaveOptions](./newpdfsaveoptions/) | Creates the options for saving pdf file. | 
+|[NewPdfSaveOptions_PdfSaveOptions](./newpdfsaveoptions_pdfsaveoptions/) | Constructs from an implementation object. | 
+|[NewPdfSaveOptions_PaginatedSaveOptions](./newpdfsaveoptions_paginatedsaveoptions/) | Constructs from a parent object. | 
 
 ## Methods
 

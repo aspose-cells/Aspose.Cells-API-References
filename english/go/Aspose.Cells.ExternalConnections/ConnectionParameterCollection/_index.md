@@ -19,6 +19,11 @@ type ConnectionParameterCollection struct
 connectionparametercollection, _ := asposecells.NewConnectionParameterCollection()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewConnectionParameterCollection](./newconnectionparametercollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

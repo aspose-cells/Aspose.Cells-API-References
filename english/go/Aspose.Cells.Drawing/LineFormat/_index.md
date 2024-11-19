@@ -19,6 +19,12 @@ type LineFormat struct
 lineformat, _ := asposecells.NewLineFormat()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewLineFormat_LineFormat](./newlineformat_lineformat/) | Constructs from an implementation object. | 
+|[NewLineFormat_FillFormat](./newlineformat_fillformat/) | Constructs from a parent object. | 
 
 ## Methods
 
@@ -26,6 +32,7 @@ lineformat, _ := asposecells.NewLineFormat()
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[GetHashCode](./gethashcode/) | Gets the hash code. | 
+|[Equals](./equals/) | Determines whether this instance has the same value as another specified <see cref="LineFormat"/> object. | 
 |[GetCompoundType](./getcompoundtype/) | Specifies the line compound type. | 
 |[SetCompoundType](./setcompoundtype/) | Specifies the line compound type. | 
 |[GetDashStyle](./getdashstyle/) | Specifies the line dash type. | 

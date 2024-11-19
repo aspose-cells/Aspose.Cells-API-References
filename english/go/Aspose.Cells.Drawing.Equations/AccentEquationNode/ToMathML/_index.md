@@ -10,7 +10,7 @@ url: /go/aspose.cells.drawing.equations/accentequationnode/tomathml/
 
 ## ToMathML function
 
-Conver this equtation to MathML expression.
+Convert this equtation to MathML expression.
 
 ```go
 

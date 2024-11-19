@@ -19,6 +19,12 @@ type VmlShapeGuide struct
 vmlshapeguide, _ := asposecells.NewVmlShapeGuide()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewVmlShapeGuide_VmlShapeGuide](./newvmlshapeguide_vmlshapeguide/) | Constructs from an implementation object. | 
+|[NewVmlShapeGuide_BaseShapeGuide](./newvmlshapeguide_baseshapeguide/) | Constructs from a parent object. | 
 
 ## Methods
 

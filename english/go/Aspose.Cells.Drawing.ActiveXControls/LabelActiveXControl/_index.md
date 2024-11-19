@@ -19,6 +19,12 @@ type LabelActiveXControl struct
 labelactivexcontrol, _ := asposecells.NewLabelActiveXControl()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewLabelActiveXControl_LabelActiveXControl](./newlabelactivexcontrol_labelactivexcontrol/) | Constructs from an implementation object. | 
+|[NewLabelActiveXControl_ActiveXControl](./newlabelactivexcontrol_activexcontrol/) | Constructs from a parent object. | 
 
 ## Methods
 

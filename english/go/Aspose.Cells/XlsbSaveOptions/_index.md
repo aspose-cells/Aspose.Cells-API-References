@@ -19,6 +19,13 @@ type XlsbSaveOptions struct
 xlsbsaveoptions, _ := asposecells.NewXlsbSaveOptions()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewXlsbSaveOptions](./newxlsbsaveoptions/) | Creates xlsb file save options. | 
+|[NewXlsbSaveOptions_XlsbSaveOptions](./newxlsbsaveoptions_xlsbsaveoptions/) | Constructs from an implementation object. | 
+|[NewXlsbSaveOptions_SaveOptions](./newxlsbsaveoptions_saveoptions/) | Constructs from a parent object. | 
 
 ## Methods
 

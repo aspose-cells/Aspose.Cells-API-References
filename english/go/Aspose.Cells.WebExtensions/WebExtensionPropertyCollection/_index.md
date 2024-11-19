@@ -19,6 +19,12 @@ type WebExtensionPropertyCollection struct
 webextensionpropertycollection, _ := asposecells.NewWebExtensionPropertyCollection()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewWebExtensionPropertyCollection](./newwebextensionpropertycollection/) | Default constructor. | 
+|[NewWebExtensionPropertyCollection_WebExtensionPropertyCollection](./newwebextensionpropertycollection_webextensionpropertycollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

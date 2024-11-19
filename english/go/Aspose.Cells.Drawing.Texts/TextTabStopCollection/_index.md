@@ -19,6 +19,12 @@ type TextTabStopCollection struct
 texttabstopcollection, _ := asposecells.NewTextTabStopCollection()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewTextTabStopCollection](./newtexttabstopcollection/) | Default constructor. | 
+|[NewTextTabStopCollection_TextTabStopCollection](./newtexttabstopcollection_texttabstopcollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

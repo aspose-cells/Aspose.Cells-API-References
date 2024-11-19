@@ -19,6 +19,11 @@ type CustomPropertyCollection struct
 custompropertycollection, _ := asposecells.NewCustomPropertyCollection()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewCustomPropertyCollection](./newcustompropertycollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

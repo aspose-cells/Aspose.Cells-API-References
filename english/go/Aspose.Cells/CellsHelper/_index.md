@@ -19,6 +19,10 @@ type CellsHelper struct
 cellshelper, _ := asposecells.NewCellsHelper()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
 
 ## Methods
 

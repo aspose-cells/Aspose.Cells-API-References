@@ -19,6 +19,11 @@ type ChartPoint struct
 chartpoint, _ := asposecells.NewChartPoint()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewChartPoint](./newchartpoint/) | Constructs from an implementation object. | 
 
 ## Methods
 
@@ -33,7 +38,11 @@ chartpoint, _ := asposecells.NewChartPoint()
 |[GetArea](./getarea/) | Gets the <see cref="Area"> area</see>. | 
 |[GetMarker](./getmarker/) | Gets the <see cref="Marker"> marker</see>. | 
 |[GetDataLabels](./getdatalabels/) | Returns a <see cref="DataLabels"/> object that represents the data label associated with this chart point. | 
+|[Get_YValue](./get_yvalue/) | Gets or sets the Y value of the chart point. | 
+|[SetYValue](./setyvalue/) | Gets or sets the Y value of the chart point. | 
 |[GetYValueType](./getyvaluetype/) | Gets Y value type of the chart point. | 
+|[GetXValue](./getxvalue/) | Gets or sets the X value of the chart point. | 
+|[SetXValue](./setxvalue/) | Gets or sets the X value of the chart point. | 
 |[GetXValueType](./getxvaluetype/) | Gets X value type of the chart point. | 
 |[GetShapeProperties](./getshapeproperties/) | Gets the <see cref="ShapePropertyCollection"/> object that holds the visual shape properties of the ChartPoint. | 
 |[IsInSecondaryPlot](./isinsecondaryplot/) | Gets or sets a value indicates whether this data points is in the second pie or baron a pie of pie or bar of pie chart | 

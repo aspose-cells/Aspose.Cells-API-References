@@ -19,6 +19,13 @@ type XmlSaveOptions struct
 xmlsaveoptions, _ := asposecells.NewXmlSaveOptions()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewXmlSaveOptions](./newxmlsaveoptions/) | Creates options for saving xml file. | 
+|[NewXmlSaveOptions_XmlSaveOptions](./newxmlsaveoptions_xmlsaveoptions/) | Constructs from an implementation object. | 
+|[NewXmlSaveOptions_SaveOptions](./newxmlsaveoptions_saveoptions/) | Constructs from a parent object. | 
 
 ## Methods
 

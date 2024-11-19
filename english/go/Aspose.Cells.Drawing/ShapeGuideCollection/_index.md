@@ -19,6 +19,12 @@ type ShapeGuideCollection struct
 shapeguidecollection, _ := asposecells.NewShapeGuideCollection()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewShapeGuideCollection](./newshapeguidecollection/) | Default constructor. | 
+|[NewShapeGuideCollection_ShapeGuideCollection](./newshapeguidecollection_shapeguidecollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

@@ -19,6 +19,11 @@ type NameCollection struct
 namecollection, _ := asposecells.NewNameCollection()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewNameCollection](./newnamecollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

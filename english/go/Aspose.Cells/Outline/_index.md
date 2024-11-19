@@ -19,6 +19,11 @@ type Outline struct
 outline, _ := asposecells.NewOutline()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewOutline](./newoutline/) | Constructs from an implementation object. | 
 
 ## Methods
 

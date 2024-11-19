@@ -19,6 +19,12 @@ type CellsFactory struct
 cellsfactory, _ := asposecells.NewCellsFactory()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewCellsFactory](./newcellsfactory/) | Default constructor. | 
+|[NewCellsFactory_CellsFactory](./newcellsfactory_cellsfactory/) | Constructs from an implementation object. | 
 
 ## Methods
 

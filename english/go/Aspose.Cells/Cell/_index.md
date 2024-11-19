@@ -19,6 +19,11 @@ type Cell struct
 cell, _ := asposecells.NewCell()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewCell](./newcell/) | Constructs from an implementation object. | 
 
 ## Methods
 
@@ -35,6 +40,7 @@ cell, _ := asposecells.NewCell()
 |[PutValue](./putvalue/) | Puts a string value into the cell. | 
 |[PutValue](./putvalue/) | Puts a DateTime value into the cell. | 
 |[GetDateTimeValue](./getdatetimevalue/) | Gets the DateTime value contained in the cell. | 
+|[PutValue](./putvalue/) | Puts an object value into the cell. | 
 |[GetRow](./getrow/) | Gets row number (zero based) of the cell. | 
 |[GetColumn](./getcolumn/) | Gets column number (zero based) of the cell. | 
 |[IsFormula](./isformula/) | Represents if the specified cell contains formula. | 
@@ -67,7 +73,10 @@ cell, _ := asposecells.NewCell()
 |[SetFormulaLocal](./setformulalocal/) | Get the locale formatted formula of the cell. | 
 |[GetR1C1Formula](./getr1c1formula/) | Gets or sets a R1C1 formula of the <see cref="Cell"/>. | 
 |[SetR1C1Formula](./setr1c1formula/) | Gets or sets a R1C1 formula of the <see cref="Cell"/>. | 
+|[SetFormula](./setformula/) | Set the formula and the value(calculated result) of the formula. | 
+|[SetFormula](./setformula/) | Set the formula and the value(calculated result) of the formula. | 
 |[GetFormula](./getformula/) | Get the formula of this cell. | 
+|[SetFormula](./setformula/) | Set the formula and the value(calculated result) of the formula. | 
 |[SetArrayFormula](./setarrayformula/) | Sets an array formula(legacy array formula entered via CTRL+SHIFT+ENTER in ms excel) to a range of cells. | 
 |[SetArrayFormula](./setarrayformula/) | Sets an array formula to a range of cells. | 
 |[SetSharedFormula](./setsharedformula/) | Sets shared formulas to a range of cells. | 
@@ -83,6 +92,8 @@ cell, _ := asposecells.NewCell()
 |[SetDynamicArrayFormula](./setdynamicarrayformula/) | Sets dynamic array formula and make the formula spill into neighboring cells if possible. | 
 |[RemoveArrayFormula](./removearrayformula/) | Remove array formula. | 
 |[Copy](./copy/) | Copies data from a source cell. | 
+|[GetValue](./getvalue/) | Gets/sets the value contained in this cell. | 
+|[SetValue](./setvalue/) | Gets/sets the value contained in this cell. | 
 |[IsStyleSet](./isstyleset/) | Indicates if the cell's style is set. If return false, it means this cell has a default cell format. | 
 |[Characters](./characters/) | Returns a Characters object that represents a range of characters within the cell text. | 
 |[Replace](./replace/) | Replace text of the cell with options. | 
@@ -96,10 +107,14 @@ cell, _ := asposecells.NewCell()
 |[GetHtmlString](./gethtmlstring/) | Gets the html string which contains data and some formats in this cell. | 
 |[ToString](./tostring/) | Returns a string represents the current Cell object. | 
 |[ToJson](./tojson/) | Convert <see cref="Cell"/> to JSON struct data. | 
+|[Equals](./equals/) | Checks whether this object refers to the same cell with another. | 
 |[GetHashCode](./gethashcode/) | Serves as a hash function for a particular type. | 
 |[Equals](./equals/) | Checks whether this object refers to the same cell with another cell object. | 
 |[GetConditionalFormattingResult](./getconditionalformattingresult/) | Get the result of the conditional formatting. | 
 |[GetValidation](./getvalidation/) | Gets the validation applied to this cell. | 
 |[GetValidationValue](./getvalidationvalue/) | Gets the value of validation which applied to this cell. | 
 |[GetTable](./gettable/) | Gets the table which contains this cell. | 
+|[IsCheckBoxStyle](./ischeckboxstyle/) | Indicates whether setting this cell as a check box. | 
+|[SetIsCheckBoxStyle](./setischeckboxstyle/) | Indicates whether setting this cell as a check box. | 
+|[GetRichValue](./getrichvalue/) | Gets rich value of the cell. | 
 |[Dispose](./dispose/) |  | 

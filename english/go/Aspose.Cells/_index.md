@@ -43,6 +43,7 @@ url: /go/aspose.cells/
 |[EmfRenderSetting](./emfrendersetting/) | Setting for rendering Emf metafile. | 
 |[EncodingType](./encodingtype/) | Enums supported encoding types. | 
 |[EncryptionType](./encryptiontype/) | Encryption Type.Only used by excel2003.We will encrypt 2007/2010 workbook using SHA AES the same as Excel does, and this EncryptionType will be ignored. | 
+|[ErrorCellValueType](./errorcellvaluetype/) | Represents a cell value which contains an error. | 
 |[ErrorCheckType](./errorchecktype/) | Represents all error check type. | 
 |[ExceptionType](./exceptiontype/) | Represents custom exception type code. | 
 |[ExternalLinkType](./externallinktype/) | Represents the type of external link. | 
@@ -61,6 +62,7 @@ url: /go/aspose.cells/
 |[HtmlHiddenColDisplayType](./htmlhiddencoldisplaytype/) | Represents two types of showing the hidden columns in html. | 
 |[HtmlHiddenRowDisplayType](./htmlhiddenrowdisplaytype/) | Represents two types of showing the hidden rows in html. | 
 |[HtmlLinkTargetType](./htmllinktargettype/) | Represents the type of target attribute in HTML <a/> tag. | 
+|[HtmlOfficeMathOutputType](./htmlofficemathoutputtype/) | Represents how export OfficeMath to HTML. | 
 |[IconSetType](./iconsettype/) | Icon set type for conditional formatting.The threshold values for triggering the different icons within a set areconfigurable, and the icon order is reversible. | 
 |[LoadDataFilterOptions](./loaddatafilteroptions/) | Represents the options to filter data when loading workbook from template. | 
 |[LoadFormat](./loadformat/) | Represents the load file format. | 
@@ -71,6 +73,7 @@ url: /go/aspose.cells/
 |[MergeEmptyTdType](./mergeemptytdtype/) | Represents the merge type for empty TD element when exporting file to html. | 
 |[NameScopeType](./namescopetype/) | Represents the scope type of defined names. | 
 |[NumberCategoryType](./numbercategorytype/) | Represents category type of cell's number formatting. | 
+|[ObjectType](./objecttype/) | Represents the type of the number. | 
 |[OoxmlCompliance](./ooxmlcompliance/) | Allows to specify which OOXML specification will be used when saving in the Xlsx format. | 
 |[OoxmlCompressionType](./ooxmlcompressiontype/) | The Ooxml compression type | 
 |[OperatorType](./operatortype/) | Represents the operator type of conditional format and data validation. | 
@@ -128,6 +131,7 @@ url: /go/aspose.cells/
 |[CalculationOptions](./calculationoptions/) | Represents options for calculation. |
 |[Cell](./cell/) | Encapsulates the object that represents a single Workbook cell. |
 |[CellArea](./cellarea/) | Represent an area of cells. |
+|[CellRichValue](./cellrichvalue/) | Represents rich value of the cell. |
 |[Cells](./cells/) | Encapsulates a collection of cell relevant objects, such as <see cref="Cell"/>, <see cref="Row"/>, ...etc. |
 |[CellsColor](./cellscolor/) | Represents all types of color. |
 |[CellsFactory](./cellsfactory/) | Utility for instantiating classes of Cells model. |
@@ -201,7 +205,6 @@ url: /go/aspose.cells/
 |[IndividualFontConfigs](./individualfontconfigs/) | Font configs for each <see cref="Workbook"/> object. |
 |[InsertOptions](./insertoptions/) | Represents the options of inserting. |
 |[InterruptMonitor](./interruptmonitor/) | Represents all operator about the interrupt. |
-|[IObject](./iobject/) | Base class. |
 |[JsonLoadOptions](./jsonloadoptions/) | Represents the options of loading json files |
 |[JsonSaveOptions](./jsonsaveoptions/) | Represents the options of saving the workbook as a json file. |
 |[License](./license/) | Provides methods to license the component. |
@@ -213,6 +216,7 @@ url: /go/aspose.cells/
 |[Name](./name/) | Represents a defined name for a range of cells. |
 |[NameCollection](./namecollection/) | Represents a collection of all the <see cref="Name"/> objects in the spreadsheet. |
 |[NegativeBarFormat](./negativebarformat/) | Represents the color settings of the data bars for negative values that are defined by a data bar conditional formatting rule. |
+|[Object](./object/) | Object class. |
 |[OdsLoadOptions](./odsloadoptions/) | Represents the options of loading ods file. |
 |[OdsSaveOptions](./odssaveoptions/) | Represents the options of saving ods file. |
 |[OoxmlSaveOptions](./ooxmlsaveoptions/) | Represents the options of saving office open xml file. |
@@ -221,6 +225,7 @@ url: /go/aspose.cells/
 |[PaginatedSaveOptions](./paginatedsaveoptions/) | Represents the options for pagination. |
 |[PaneCollection](./panecollection/) | Represents all Pane objects shown in the specified window. |
 |[PasteOptions](./pasteoptions/) | Represents the paste special options. |
+|[PclSaveOptions](./pclsaveoptions/) | Represents the options for saving Pcl file. |
 |[PdfSaveOptions](./pdfsaveoptions/) | Represents the options for saving pdf file. |
 |[PptxSaveOptions](./pptxsaveoptions/) | Represents the pptx save options. |
 |[ProtectedRange](./protectedrange/) | A specified range to be allowed to edit when the sheet protection is ON. |

@@ -19,6 +19,11 @@ type TextParagraphCollection struct
 textparagraphcollection, _ := asposecells.NewTextParagraphCollection()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewTextParagraphCollection](./newtextparagraphcollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

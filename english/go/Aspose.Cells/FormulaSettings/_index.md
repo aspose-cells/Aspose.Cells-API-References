@@ -19,6 +19,11 @@ type FormulaSettings struct
 formulasettings, _ := asposecells.NewFormulaSettings()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewFormulaSettings](./newformulasettings/) | Constructs from an implementation object. | 
 
 ## Methods
 

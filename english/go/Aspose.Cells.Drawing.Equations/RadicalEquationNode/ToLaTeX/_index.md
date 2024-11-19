@@ -10,7 +10,7 @@ url: /go/aspose.cells.drawing.equations/radicalequationnode/tolatex/
 
 ## ToLaTeX function
 
-Conver this equtation to LaTeX expression.
+Convert this equtation to LaTeX expression.
 
 ```go
 

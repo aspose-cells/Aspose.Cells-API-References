@@ -19,6 +19,11 @@ type DataBar struct
 databar, _ := asposecells.NewDataBar()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewDataBar](./newdatabar/) | Constructs from an implementation object. | 
 
 ## Methods
 

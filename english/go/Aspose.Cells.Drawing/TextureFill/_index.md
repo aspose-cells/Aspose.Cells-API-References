@@ -19,6 +19,11 @@ type TextureFill struct
 texturefill, _ := asposecells.NewTextureFill()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewTextureFill](./newtexturefill/) | Constructs from an implementation object. | 
 
 ## Methods
 

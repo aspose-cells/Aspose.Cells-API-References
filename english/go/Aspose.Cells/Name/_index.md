@@ -19,6 +19,11 @@ type Name struct
 name, _ := asposecells.NewName()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewName](./newname/) | Constructs from an implementation object. | 
 
 ## Methods
 

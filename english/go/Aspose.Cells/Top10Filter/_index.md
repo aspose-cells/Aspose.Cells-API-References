@@ -19,16 +19,24 @@ type Top10Filter struct
 top10filter, _ := asposecells.NewTop10Filter()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewTop10Filter_Top10Filter](./newtop10filter_top10filter/) | Constructs from an implementation object. | 
+|[NewTop10Filter_Object](./newtop10filter_object/) | Constructs from an Object convertible to this. | 
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
-|[GetIObject](./getiobject/) | Gets the IObject pointer of this object. | 
+|[ToObject](./toobject/) | Gets the Object. | 
 |[IsTop](./istop/) | Indicates whether it's top filter. | 
 |[SetIsTop](./setistop/) | Indicates whether it's top filter. | 
 |[IsPercent](./ispercent/) | Indicates whether the items is percent. | 
 |[SetIsPercent](./setispercent/) | Indicates whether the items is percent. | 
 |[GetItems](./getitems/) | Gets and sets the items of the filter. | 
 |[SetItems](./setitems/) | Gets and sets the items of the filter. | 
+|[GetCriteria](./getcriteria/) |  | 
+|[SetCriteria](./setcriteria/) |  | 

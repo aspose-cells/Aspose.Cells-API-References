@@ -19,6 +19,12 @@ type JsonUtility struct
 jsonutility, _ := asposecells.NewJsonUtility()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewJsonUtility](./newjsonutility/) | Default constructor. | 
+|[NewJsonUtility_JsonUtility](./newjsonutility_jsonutility/) | Constructs from an implementation object. | 
 
 ## Methods
 

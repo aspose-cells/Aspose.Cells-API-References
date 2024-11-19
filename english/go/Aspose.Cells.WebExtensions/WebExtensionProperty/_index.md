@@ -19,6 +19,11 @@ type WebExtensionProperty struct
 webextensionproperty, _ := asposecells.NewWebExtensionProperty()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewWebExtensionProperty](./newwebextensionproperty/) | Constructs from an implementation object. | 
 
 ## Methods
 

@@ -14,7 +14,7 @@ Calculates all formulas in this worksheet.
 
 ```go
 
-func (instance *Worksheet) CalculateFormula(options *CalculationOptions, recursive bool)  error
+func (instance *Worksheet) CalculateFormula_CalculationOptions_Bool(options *CalculationOptions, recursive bool)  error
 
 ```
 

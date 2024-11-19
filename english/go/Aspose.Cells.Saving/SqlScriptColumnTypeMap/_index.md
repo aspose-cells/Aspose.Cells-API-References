@@ -19,6 +19,12 @@ type SqlScriptColumnTypeMap struct
 sqlscriptcolumntypemap, _ := asposecells.NewSqlScriptColumnTypeMap()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewSqlScriptColumnTypeMap](./newsqlscriptcolumntypemap/) | Default constructor. | 
+|[NewSqlScriptColumnTypeMap_SqlScriptColumnTypeMap](./newsqlscriptcolumntypemap_sqlscriptcolumntypemap/) | Constructs from an implementation object. | 
 
 ## Methods
 

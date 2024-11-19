@@ -19,6 +19,11 @@ type SheetSet struct
 sheetset, _ := asposecells.NewSheetSet()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewSheetSet](./newsheetset/) | Constructs from an implementation object. | 
 
 ## Methods
 

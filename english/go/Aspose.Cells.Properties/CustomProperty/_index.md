@@ -19,6 +19,12 @@ type CustomProperty struct
 customproperty, _ := asposecells.NewCustomProperty()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewCustomProperty](./newcustomproperty/) | Default constructor. | 
+|[NewCustomProperty_CustomProperty](./newcustomproperty_customproperty/) | Constructs from an implementation object. | 
 
 ## Methods
 

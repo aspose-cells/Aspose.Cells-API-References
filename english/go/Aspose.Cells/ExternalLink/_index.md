@@ -19,6 +19,11 @@ type ExternalLink struct
 externallink, _ := asposecells.NewExternalLink()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewExternalLink](./newexternallink/) | Constructs from an implementation object. | 
 
 ## Methods
 

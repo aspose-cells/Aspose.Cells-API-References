@@ -19,6 +19,11 @@ type PivotItemCollection struct
 pivotitemcollection, _ := asposecells.NewPivotItemCollection()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewPivotItemCollection](./newpivotitemcollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

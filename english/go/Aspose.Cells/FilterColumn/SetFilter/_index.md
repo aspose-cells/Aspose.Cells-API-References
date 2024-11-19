@@ -14,7 +14,7 @@ Gets and sets the condition of filtering data.
 
 ```go
 
-func (instance *FilterColumn) SetFilter(value *IObject)  error
+func (instance *FilterColumn) SetFilter(value *Object)  error
 
 ```
 

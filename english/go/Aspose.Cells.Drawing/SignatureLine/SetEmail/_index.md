@@ -10,7 +10,7 @@ url: /go/aspose.cells.drawing/signatureline/setemail/
 
 ## SetEmail function
 
-Gets and sets the email of singer.
+Gets or sets the email of singer.
 
 ```go
 

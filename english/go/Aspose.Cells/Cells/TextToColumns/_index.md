@@ -10,11 +10,11 @@ url: /go/aspose.cells/cells/texttocolumns/
 
 ## TextToColumns function
 
-Splits the text in the column to columns.
+Splits content in specified column into multiple columns..
 
 ```go
 
-func (instance *Cells) TextToColumns(row int32, column int32, totalrows int32, options *TxtLoadOptions)  error
+func (instance *Cells) TextToColumns(row int32, column int32, totalrows int32, options *TxtLoadOptions)  (int32,  error) 
 
 ```
 

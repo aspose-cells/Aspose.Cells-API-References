@@ -19,6 +19,12 @@ type MatrixEquationNode struct
 matrixequationnode, _ := asposecells.NewMatrixEquationNode()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewMatrixEquationNode_MatrixEquationNode](./newmatrixequationnode_matrixequationnode/) | Constructs from an implementation object. | 
+|[NewMatrixEquationNode_EquationNode](./newmatrixequationnode_equationnode/) | Constructs from a parent object. | 
 
 ## Methods
 
@@ -29,10 +35,11 @@ matrixequationnode, _ := asposecells.NewMatrixEquationNode()
 |[SetBaseJc](./setbasejc/) | This attribute specifies the justification of the matrix. Text outside of the matrix can be aligned with the bottom, top, or center of a matrix function. Default, the matrix assumes center justification. | 
 |[IsHidePlaceholder](./ishideplaceholder/) | This attribute specifies the Hide Placeholders property on a matrix. When this property is on, placeholders do not appear in the matrix.Default, placeholders do appear such that the locations where text can be inserted are made visible. | 
 |[SetIsHidePlaceholder](./setishideplaceholder/) | This attribute specifies the Hide Placeholders property on a matrix. When this property is on, placeholders do not appear in the matrix.Default, placeholders do appear such that the locations where text can be inserted are made visible. | 
+|[Equals](./equals/) | Determine whether the current equation node is equal to the specified node | 
 |[GetParentNode](./getparentnode/) | Specifies the parent node of the current node | 
 |[SetParentNode](./setparentnode/) | Specifies the parent node of the current node | 
-|[ToLaTeX](./tolatex/) | Conver this equtation to LaTeX expression. | 
-|[ToMathML](./tomathml/) | Conver this equtation to MathML expression. | 
+|[ToLaTeX](./tolatex/) | Convert this equtation to LaTeX expression. | 
+|[ToMathML](./tomathml/) | Convert this equtation to MathML expression. | 
 |[AddChild](./addchild/) | Insert a node of the specified type at the end of the child node list of the current node. | 
 |[AddChild](./addchild/) | Inserts the specified node at the end of the current node's list of child nodes. | 
 |[InsertChild](./insertchild/) | Inserts a node of the specified type at the specified index position in the current node's child node list. | 

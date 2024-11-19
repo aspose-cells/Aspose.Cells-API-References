@@ -19,6 +19,12 @@ type SettablePivotGlobalizationSettings struct
 settablepivotglobalizationsettings, _ := asposecells.NewSettablePivotGlobalizationSettings()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewSettablePivotGlobalizationSettings](./newsettablepivotglobalizationsettings/) | Default constructor. | 
+|[NewSettablePivotGlobalizationSettings_SettablePivotGlobalizationSettings](./newsettablepivotglobalizationsettings_settablepivotglobalizationsettings/) | Constructs from an implementation object. | 
 
 ## Methods
 

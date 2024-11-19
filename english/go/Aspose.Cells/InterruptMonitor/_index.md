@@ -19,6 +19,12 @@ type InterruptMonitor struct
 interruptmonitor, _ := asposecells.NewInterruptMonitor()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewInterruptMonitor](./newinterruptmonitor/) | Default constructor. | 
+|[NewInterruptMonitor_InterruptMonitor](./newinterruptmonitor_interruptmonitor/) | Constructs from an implementation object. | 
 
 ## Methods
 

@@ -19,6 +19,11 @@ type Axis struct
 axis, _ := asposecells.NewAxis()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewAxis](./newaxis/) | Constructs from an implementation object. | 
 
 ## Methods
 
@@ -28,8 +33,12 @@ axis, _ := asposecells.NewAxis()
 |[GetArea](./getarea/) | Gets the <see cref="Area"/>. | 
 |[IsAutomaticMinValue](./isautomaticminvalue/) | Indicates whether the min value is automatically assigned. | 
 |[SetIsAutomaticMinValue](./setisautomaticminvalue/) | Indicates whether the min value is automatically assigned. | 
+|[GetMinValue](./getminvalue/) | Represents the minimum value on the value axis. | 
+|[SetMinValue](./setminvalue/) | Represents the minimum value on the value axis. | 
 |[IsAutomaticMaxValue](./isautomaticmaxvalue/) | Indicates whether the max value is automatically assigned. | 
 |[SetIsAutomaticMaxValue](./setisautomaticmaxvalue/) | Indicates whether the max value is automatically assigned. | 
+|[GetMaxValue](./getmaxvalue/) | Represents the maximum value on the value axis. | 
+|[SetMaxValue](./setmaxvalue/) | Represents the maximum value on the value axis. | 
 |[IsAutomaticMajorUnit](./isautomaticmajorunit/) | Indicates whether the major unit of the axis is automatically assigned. | 
 |[SetIsAutomaticMajorUnit](./setisautomaticmajorunit/) | Indicates whether the major unit of the axis is automatically assigned. | 
 |[GetMajorUnit](./getmajorunit/) | Represents the major units for the axis. | 

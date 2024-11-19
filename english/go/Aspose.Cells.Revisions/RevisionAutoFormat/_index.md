@@ -19,6 +19,12 @@ type RevisionAutoFormat struct
 revisionautoformat, _ := asposecells.NewRevisionAutoFormat()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewRevisionAutoFormat_RevisionAutoFormat](./newrevisionautoformat_revisionautoformat/) | Constructs from an implementation object. | 
+|[NewRevisionAutoFormat_Revision](./newrevisionautoformat_revision/) | Constructs from a parent object. | 
 
 ## Methods
 

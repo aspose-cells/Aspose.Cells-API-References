@@ -19,6 +19,11 @@ type WarningInfo struct
 warninginfo, _ := asposecells.NewWarningInfo()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewWarningInfo](./newwarninginfo/) | Constructs from an implementation object. | 
 
 ## Methods
 
@@ -27,3 +32,6 @@ warninginfo, _ := asposecells.NewWarningInfo()
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[GetWarningType](./getwarningtype/) | Get warning type. | 
 |[GetDescription](./getdescription/) | Get description of warning info. | 
+|[GetErrorObject](./geterrorobject/) | The error object. | 
+|[GetCorrectedObject](./getcorrectedobject/) | Gets and sets the corrected object. | 
+|[SetCorrectedObject](./setcorrectedobject/) | Gets and sets the corrected object. | 

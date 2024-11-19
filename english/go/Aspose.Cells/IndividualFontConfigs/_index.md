@@ -19,6 +19,12 @@ type IndividualFontConfigs struct
 individualfontconfigs, _ := asposecells.NewIndividualFontConfigs()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewIndividualFontConfigs](./newindividualfontconfigs/) | Ctor. | 
+|[NewIndividualFontConfigs_IndividualFontConfigs](./newindividualfontconfigs_individualfontconfigs/) | Constructs from an implementation object. | 
 
 ## Methods
 

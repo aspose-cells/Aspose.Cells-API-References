@@ -19,6 +19,11 @@ type WebExtensionCollection struct
 webextensioncollection, _ := asposecells.NewWebExtensionCollection()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewWebExtensionCollection](./newwebextensioncollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

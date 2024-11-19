@@ -19,6 +19,12 @@ type PivotPageFields struct
 pivotpagefields, _ := asposecells.NewPivotPageFields()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewPivotPageFields](./newpivotpagefields/) | Represents the pivot page field items. | 
+|[NewPivotPageFields_PivotPageFields](./newpivotpagefields_pivotpagefields/) | Constructs from an implementation object. | 
 
 ## Methods
 

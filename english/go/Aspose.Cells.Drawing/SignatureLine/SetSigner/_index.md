@@ -10,7 +10,7 @@ url: /go/aspose.cells.drawing/signatureline/setsigner/
 
 ## SetSigner function
 
-Gets and sets the signer.
+Gets or sets the signer.
 
 ```go
 

@@ -19,6 +19,11 @@ type ChartGlobalizationSettings struct
 chartglobalizationsettings, _ := asposecells.NewChartGlobalizationSettings()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewChartGlobalizationSettings](./newchartglobalizationsettings/) | Default constructor. | 
 
 ## Methods
 

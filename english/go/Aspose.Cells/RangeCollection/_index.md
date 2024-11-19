@@ -19,6 +19,11 @@ type RangeCollection struct
 rangecollection, _ := asposecells.NewRangeCollection()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewRangeCollection](./newrangecollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

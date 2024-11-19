@@ -29,3 +29,4 @@ type OLEDBCommandType int32
 |[TableName](./tablename/) | Specifies a table name | 
 |[DefaultInformation](./defaultinformation/) | Specifies that default information has been given, and it is up to the provider how to interpret. | 
 |[WebBasedList](./webbasedlist/) | Specifies a query which is against a web based List Data Provider. | 
+|[TableCollection](./tablecollection/) | Specifies the table list. | 

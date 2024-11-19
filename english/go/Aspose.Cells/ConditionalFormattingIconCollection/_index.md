@@ -19,6 +19,11 @@ type ConditionalFormattingIconCollection struct
 conditionalformattingiconcollection, _ := asposecells.NewConditionalFormattingIconCollection()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewConditionalFormattingIconCollection](./newconditionalformattingiconcollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

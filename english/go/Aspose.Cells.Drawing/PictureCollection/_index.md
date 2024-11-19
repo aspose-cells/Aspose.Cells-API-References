@@ -19,6 +19,11 @@ type PictureCollection struct
 picturecollection, _ := asposecells.NewPictureCollection()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewPictureCollection](./newpicturecollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

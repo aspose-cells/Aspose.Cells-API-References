@@ -19,6 +19,11 @@ type QueryTableCollection struct
 querytablecollection, _ := asposecells.NewQueryTableCollection()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewQueryTableCollection](./newquerytablecollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

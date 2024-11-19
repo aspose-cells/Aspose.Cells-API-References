@@ -15,6 +15,5 @@ url: /go/aspose.cells.saving/
 | --- | --- |
 |[SqlScriptOperatorType](./sqlscriptoperatortype/) | Represents the type of operating data. | 
 |[EbookSaveOptions](./ebooksaveoptions/) | Represents the options for saving ebook file. |
-|[Numbers35SaveOptions](./numbers35saveoptions/) | Represents the options for saving ebook file. |
 |[SqlScriptColumnTypeMap](./sqlscriptcolumntypemap/) | Represents column type map. |
 |[SqlScriptSaveOptions](./sqlscriptsaveoptions/) | Represents the options of saving sql. |

@@ -19,6 +19,11 @@ type PivotFilterCollection struct
 pivotfiltercollection, _ := asposecells.NewPivotFilterCollection()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewPivotFilterCollection](./newpivotfiltercollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

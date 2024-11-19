@@ -13,6 +13,7 @@ url: /go/aspose.cells.querytables/
 
 | Class | Description |
 | --- | --- |
+|[PowerQueryFormulaType](./powerqueryformulatype/) | Represents the type of power query formula. | 
 |[DataMashup](./datamashup/) | Represents mashup data. |
 |[PowerQueryFormula](./powerqueryformula/) | Represents the definition of power query formula. |
 |[PowerQueryFormulaCollection](./powerqueryformulacollection/) | Represents all power query formulas in the mashup data. |

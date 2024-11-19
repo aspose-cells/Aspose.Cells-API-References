@@ -19,6 +19,11 @@ type PivotOptions struct
 pivotoptions, _ := asposecells.NewPivotOptions()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewPivotOptions](./newpivotoptions/) | Constructs from an implementation object. | 
 
 ## Methods
 

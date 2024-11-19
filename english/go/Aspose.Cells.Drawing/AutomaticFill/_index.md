@@ -19,6 +19,11 @@ type AutomaticFill struct
 automaticfill, _ := asposecells.NewAutomaticFill()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewAutomaticFill](./newautomaticfill/) | Constructs from an implementation object. | 
 
 ## Methods
 

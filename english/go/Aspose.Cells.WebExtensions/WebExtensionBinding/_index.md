@@ -19,6 +19,12 @@ type WebExtensionBinding struct
 webextensionbinding, _ := asposecells.NewWebExtensionBinding()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewWebExtensionBinding](./newwebextensionbinding/) | Default constructor. | 
+|[NewWebExtensionBinding_WebExtensionBinding](./newwebextensionbinding_webextensionbinding/) | Constructs from an implementation object. | 
 
 ## Methods
 

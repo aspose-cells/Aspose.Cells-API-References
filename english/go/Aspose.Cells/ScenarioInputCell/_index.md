@@ -19,6 +19,11 @@ type ScenarioInputCell struct
 scenarioinputcell, _ := asposecells.NewScenarioInputCell()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewScenarioInputCell](./newscenarioinputcell/) | Constructs from an implementation object. | 
 
 ## Methods
 

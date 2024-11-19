@@ -19,14 +19,19 @@ type ShapeTextAlignment struct
 shapetextalignment, _ := asposecells.NewShapeTextAlignment()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewShapeTextAlignment](./newshapetextalignment/) | Constructs from an implementation object. | 
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
-|[IsTextWrapped](./istextwrapped/) | Gets and sets the text wrapped type of the shape which contains text. | 
-|[SetIsTextWrapped](./setistextwrapped/) | Gets and sets the text wrapped type of the shape which contains text. | 
+|[IsTextWrapped](./istextwrapped/) | Gets or sets the text wrapped type of the shape which contains text. | 
+|[SetIsTextWrapped](./setistextwrapped/) | Gets or sets the text wrapped type of the shape which contains text. | 
 |[GetRotateTextWithShape](./getrotatetextwithshape/) | Indicates whether rotating text with shape. | 
 |[SetRotateTextWithShape](./setrotatetextwithshape/) | Indicates whether rotating text with shape. | 
 |[GetTextVerticalOverflow](./gettextverticaloverflow/) | Gets and sets the text vertical overflow type of the text box. | 
@@ -55,4 +60,5 @@ shapetextalignment, _ := asposecells.NewShapeTextAlignment()
 |[SetIsAutoMargin](./setisautomargin/) | Indicates whether the margin of the text frame is automatic. | 
 |[GetNumberOfColumns](./getnumberofcolumns/) | Gets and sets the number of columns of text in the bounding rectangle. | 
 |[SetNumberOfColumns](./setnumberofcolumns/) | Gets and sets the number of columns of text in the bounding rectangle. | 
+|[Equals](./equals/) | Determines whether this instance has the same value as another specified <see cref="ShapeTextAlignment"/> object. | 
 |[GetHashCode](./gethashcode/) |  | 

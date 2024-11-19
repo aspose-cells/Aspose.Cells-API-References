@@ -19,6 +19,12 @@ type SeriesLayoutProperties struct
 serieslayoutproperties, _ := asposecells.NewSeriesLayoutProperties()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewSeriesLayoutProperties](./newserieslayoutproperties/) | Default constructor. | 
+|[NewSeriesLayoutProperties_SeriesLayoutProperties](./newserieslayoutproperties_serieslayoutproperties/) | Constructs from an implementation object. | 
 
 ## Methods
 

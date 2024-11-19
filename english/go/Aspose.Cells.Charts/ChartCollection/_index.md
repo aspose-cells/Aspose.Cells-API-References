@@ -19,6 +19,11 @@ type ChartCollection struct
 chartcollection, _ := asposecells.NewChartCollection()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewChartCollection](./newchartcollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

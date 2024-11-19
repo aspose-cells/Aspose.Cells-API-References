@@ -19,16 +19,23 @@ type FunctionEquationNode struct
 functionequationnode, _ := asposecells.NewFunctionEquationNode()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewFunctionEquationNode_FunctionEquationNode](./newfunctionequationnode_functionequationnode/) | Constructs from an implementation object. | 
+|[NewFunctionEquationNode_EquationNode](./newfunctionequationnode_equationnode/) | Constructs from a parent object. | 
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
+|[Equals](./equals/) | Determine whether the current equation node is equal to the specified node | 
 |[GetParentNode](./getparentnode/) | Specifies the parent node of the current node | 
 |[SetParentNode](./setparentnode/) | Specifies the parent node of the current node | 
-|[ToLaTeX](./tolatex/) | Conver this equtation to LaTeX expression. | 
-|[ToMathML](./tomathml/) | Conver this equtation to MathML expression. | 
+|[ToLaTeX](./tolatex/) | Convert this equtation to LaTeX expression. | 
+|[ToMathML](./tomathml/) | Convert this equtation to MathML expression. | 
 |[AddChild](./addchild/) | Insert a node of the specified type at the end of the child node list of the current node. | 
 |[AddChild](./addchild/) | Inserts the specified node at the end of the current node's list of child nodes. | 
 |[InsertChild](./insertchild/) | Inserts a node of the specified type at the specified index position in the current node's child node list. | 

@@ -19,6 +19,14 @@ type XlsSaveOptions struct
 xlssaveoptions, _ := asposecells.NewXlsSaveOptions()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewXlsSaveOptions](./newxlssaveoptions/) | Creates options for saving Excel 97-2003 xls file. | 
+|[NewXlsSaveOptions_SaveFormat](./newxlssaveoptions_saveformat/) | Creates options for saving Excel 97-2003 xls/xlt file. | 
+|[NewXlsSaveOptions_XlsSaveOptions](./newxlssaveoptions_xlssaveoptions/) | Constructs from an implementation object. | 
+|[NewXlsSaveOptions_SaveOptions](./newxlssaveoptions_saveoptions/) | Constructs from a parent object. | 
 
 ## Methods
 
@@ -27,6 +35,8 @@ xlssaveoptions, _ := asposecells.NewXlsSaveOptions()
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[GetMatchColor](./getmatchcolor/) | Indicates whether matching font color because there are 56 colors in the standard color palette. | 
 |[SetMatchColor](./setmatchcolor/) | Indicates whether matching font color because there are 56 colors in the standard color palette. | 
+|[GetWpsCompatibility](./getwpscompatibility/) | Indicates whether to make the xls more compatible with WPS. | 
+|[SetWpsCompatibility](./setwpscompatibility/) | Indicates whether to make the xls more compatible with WPS. | 
 |[GetSaveFormat](./getsaveformat/) | Gets the save file format. | 
 |[GetClearData](./getcleardata/) | Make the workbook empty after saving the file. | 
 |[SetClearData](./setcleardata/) | Make the workbook empty after saving the file. | 

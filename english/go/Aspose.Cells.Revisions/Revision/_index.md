@@ -19,6 +19,11 @@ type Revision struct
 revision, _ := asposecells.NewRevision()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewRevision](./newrevision/) | Constructs from an implementation object. | 
 
 ## Methods
 

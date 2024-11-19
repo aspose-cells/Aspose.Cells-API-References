@@ -19,6 +19,11 @@ type TickLabels struct
 ticklabels, _ := asposecells.NewTickLabels()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewTickLabels](./newticklabels/) | Constructs from an implementation object. | 
 
 ## Methods
 

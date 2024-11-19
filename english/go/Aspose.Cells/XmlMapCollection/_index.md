@@ -19,6 +19,11 @@ type XmlMapCollection struct
 xmlmapcollection, _ := asposecells.NewXmlMapCollection()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewXmlMapCollection](./newxmlmapcollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

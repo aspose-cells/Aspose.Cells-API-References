@@ -19,6 +19,12 @@ type CommandButtonActiveXControl struct
 commandbuttonactivexcontrol, _ := asposecells.NewCommandButtonActiveXControl()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewCommandButtonActiveXControl_CommandButtonActiveXControl](./newcommandbuttonactivexcontrol_commandbuttonactivexcontrol/) | Constructs from an implementation object. | 
+|[NewCommandButtonActiveXControl_ActiveXControl](./newcommandbuttonactivexcontrol_activexcontrol/) | Constructs from a parent object. | 
 
 ## Methods
 

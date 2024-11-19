@@ -19,6 +19,11 @@ type ShadowEffect struct
 shadoweffect, _ := asposecells.NewShadowEffect()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewShadowEffect](./newshadoweffect/) | Constructs from an implementation object. | 
 
 ## Methods
 

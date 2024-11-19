@@ -19,6 +19,12 @@ type Top10 struct
 top10, _ := asposecells.NewTop10()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewTop10](./newtop10/) | Default constructor. | 
+|[NewTop10_Top10](./newtop10_top10/) | Constructs from an implementation object. | 
 
 ## Methods
 

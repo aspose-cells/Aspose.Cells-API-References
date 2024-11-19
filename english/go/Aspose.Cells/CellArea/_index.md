@@ -19,6 +19,11 @@ type CellArea struct
 cellarea, _ := asposecells.NewCellArea()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewCellArea](./newcellarea/) | Default constructor. | 
 
 ## Methods
 

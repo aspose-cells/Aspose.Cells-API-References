@@ -19,6 +19,12 @@ type PaginatedSaveOptions struct
 paginatedsaveoptions, _ := asposecells.NewPaginatedSaveOptions()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewPaginatedSaveOptions_PaginatedSaveOptions](./newpaginatedsaveoptions_paginatedsaveoptions/) | Constructs from an implementation object. | 
+|[NewPaginatedSaveOptions_SaveOptions](./newpaginatedsaveoptions_saveoptions/) | Constructs from a parent object. | 
 
 ## Methods
 

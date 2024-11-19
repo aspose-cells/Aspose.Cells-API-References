@@ -19,6 +19,14 @@ type OdsLoadOptions struct
 odsloadoptions, _ := asposecells.NewOdsLoadOptions()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewOdsLoadOptions](./newodsloadoptions/) | Represents the options of loading ods file. | 
+|[NewOdsLoadOptions_LoadFormat](./newodsloadoptions_loadformat/) | Represents the options of loading ods file. | 
+|[NewOdsLoadOptions_OdsLoadOptions](./newodsloadoptions_odsloadoptions/) | Constructs from an implementation object. | 
+|[NewOdsLoadOptions_LoadOptions](./newodsloadoptions_loadoptions/) | Constructs from a parent object. | 
 
 ## Methods
 
@@ -29,6 +37,8 @@ odsloadoptions, _ := asposecells.NewOdsLoadOptions()
 |[SetApplyExcelDefaultStyleToHyperlink](./setapplyexceldefaultstyletohyperlink/) | Indicates whether applying the default style of the Excel to hyperlink. | 
 |[GetRefreshPivotTables](./getrefreshpivottables/) | Indicates whether refresh pivot tables when loading file. | 
 |[SetRefreshPivotTables](./setrefreshpivottables/) | Indicates whether refresh pivot tables when loading file. | 
+|[IsClassicPivotTable](./isclassicpivottable/) | Indicates whether the pivot table is classic. | 
+|[SetIsClassicPivotTable](./setisclassicpivottable/) | Indicates whether the pivot table is classic. | 
 |[GetLoadFormat](./getloadformat/) | Gets the load format. | 
 |[GetPassword](./getpassword/) | Gets and set the password of the workbook. | 
 |[SetPassword](./setpassword/) | Gets and set the password of the workbook. | 

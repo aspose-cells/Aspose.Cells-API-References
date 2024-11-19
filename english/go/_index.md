@@ -25,6 +25,7 @@ is_root: true
 |[Aspose.Cells.Pivot](./aspose.cells.pivot/) |  | 
 |[Aspose.Cells.Markup](./aspose.cells.markup/) |  | 
 |[Aspose.Cells.QueryTables](./aspose.cells.querytables/) |  | 
+|[Aspose.Cells.DataModels](./aspose.cells.datamodels/) |  | 
 |[Aspose.Cells.DigitalSignatures](./aspose.cells.digitalsignatures/) |  | 
 |[Aspose.Cells.Rendering](./aspose.cells.rendering/) |  | 
 |[Aspose.Cells.Saving](./aspose.cells.saving/) |  | 

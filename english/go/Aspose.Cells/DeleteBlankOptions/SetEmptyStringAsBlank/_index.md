@@ -10,7 +10,7 @@ url: /go/aspose.cells/deleteblankoptions/setemptystringasblank/
 
 ## SetEmptyStringAsBlank function
 
-Whether one cell will be taken as blank when its value is empty string. Default value is true.
+Whether one cell will be taken as blank when its value is empty string.Default value is true.
 
 ```go
 

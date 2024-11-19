@@ -19,12 +19,18 @@ type CalculationCell struct
 calculationcell, _ := asposecells.NewCalculationCell()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewCalculationCell](./newcalculationcell/) | Constructs from an implementation object. | 
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
+|[SetCalculatedValue](./setcalculatedvalue/) | Sets the calculated value for the cell. | 
 |[GetWorkbook](./getworkbook/) | Gets the Workbook object. | 
 |[GetWorksheet](./getworksheet/) | Gets the Worksheet object where the cell is in. | 
 |[GetCellRow](./getcellrow/) | Gets the row index of the cell. | 

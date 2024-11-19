@@ -19,14 +19,22 @@ type PowerQueryFormulaParameter struct
 powerqueryformulaparameter, _ := asposecells.NewPowerQueryFormulaParameter()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewPowerQueryFormulaParameter_PowerQueryFormulaParameter](./newpowerqueryformulaparameter_powerqueryformulaparameter/) | Constructs from an implementation object. | 
+|[NewPowerQueryFormulaParameter_PowerQueryFormula](./newpowerqueryformulaparameter_powerqueryformula/) | Constructs from a parent object. | 
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
-|[GetName](./getname/) | Gets the name of parameter. | 
-|[SetName](./setname/) | Gets the name of parameter. | 
+|[GetType](./gettype/) | Gets the type of power query formula. | 
 |[GetValue](./getvalue/) | Gets the value of parameter. | 
 |[SetValue](./setvalue/) | Gets the value of parameter. | 
-|[GetParameterDefinition](./getparameterdefinition/) | Gets the definition of the parameter. | 
+|[GetFormulaDefinition](./getformuladefinition/) | Gets the definition of the parameter. | 
+|[GetName](./getname/) | Gets and sets the name of the power query formula. | 
+|[SetName](./setname/) | Gets and sets the name of the power query formula. | 
+|[GetPowerQueryFormulaItems](./getpowerqueryformulaitems/) | Gets all items of power query formula. | 

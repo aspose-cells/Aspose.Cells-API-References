@@ -19,6 +19,11 @@ type VerticalPageBreak struct
 verticalpagebreak, _ := asposecells.NewVerticalPageBreak()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewVerticalPageBreak](./newverticalpagebreak/) | Constructs from an implementation object. | 
 
 ## Methods
 

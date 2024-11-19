@@ -25,4 +25,4 @@ type MergedCellsShrinkType int32
 | --- | --- |
 |[None](./none/) | Leaves the merged cells as it is without any modification. | 
 |[ShrinkToFit](./shrinktofit/) | Shrinks the merged area if needed, by removing rows from the bottom or columns from the right,while ensuring all content remains visible. | 
-|[KeepHeaderOnly](./keepheaderonly/) | Only keeps the header rows/columns of the merged area if needed. | 
+|[KeepHeaderOnly](./keepheaderonly/) | Only keeps the header rows/columns of the merged area when the top-left cell of the merged area is not blank. | 

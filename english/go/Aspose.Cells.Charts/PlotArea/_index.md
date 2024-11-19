@@ -19,6 +19,12 @@ type PlotArea struct
 plotarea, _ := asposecells.NewPlotArea()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewPlotArea_PlotArea](./newplotarea_plotarea/) | Constructs from an implementation object. | 
+|[NewPlotArea_ChartFrame](./newplotarea_chartframe/) | Constructs from a parent object. | 
 
 ## Methods
 

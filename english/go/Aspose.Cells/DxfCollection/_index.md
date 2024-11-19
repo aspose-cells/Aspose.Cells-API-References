@@ -19,6 +19,11 @@ type DxfCollection struct
 dxfcollection, _ := asposecells.NewDxfCollection()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewDxfCollection](./newdxfcollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

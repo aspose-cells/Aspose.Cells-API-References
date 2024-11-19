@@ -19,6 +19,12 @@ type PivotDateTimeRangeGroupSettings struct
 pivotdatetimerangegroupsettings, _ := asposecells.NewPivotDateTimeRangeGroupSettings()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewPivotDateTimeRangeGroupSettings_PivotDateTimeRangeGroupSettings](./newpivotdatetimerangegroupsettings_pivotdatetimerangegroupsettings/) | Constructs from an implementation object. | 
+|[NewPivotDateTimeRangeGroupSettings_PivotFieldGroupSettings](./newpivotdatetimerangegroupsettings_pivotfieldgroupsettings/) | Constructs from a parent object. | 
 
 ## Methods
 

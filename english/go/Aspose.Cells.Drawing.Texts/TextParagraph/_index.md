@@ -19,6 +19,12 @@ type TextParagraph struct
 textparagraph, _ := asposecells.NewTextParagraph()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewTextParagraph_TextParagraph](./newtextparagraph_textparagraph/) | Constructs from an implementation object. | 
+|[NewTextParagraph_FontSetting](./newtextparagraph_fontsetting/) | Constructs from a parent object. | 
 
 ## Methods
 

@@ -19,6 +19,11 @@ type CheckBoxCollection struct
 checkboxcollection, _ := asposecells.NewCheckBoxCollection()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewCheckBoxCollection](./newcheckboxcollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

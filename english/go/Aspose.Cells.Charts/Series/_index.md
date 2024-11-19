@@ -19,6 +19,11 @@ type Series struct
 series, _ := asposecells.NewSeries()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewSeries](./newseries/) | Constructs from an implementation object. | 
 
 ## Methods
 

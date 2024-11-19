@@ -19,6 +19,11 @@ type ChartPointCollection struct
 chartpointcollection, _ := asposecells.NewChartPointCollection()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewChartPointCollection](./newchartpointcollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

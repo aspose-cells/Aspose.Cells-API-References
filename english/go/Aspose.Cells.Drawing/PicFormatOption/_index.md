@@ -19,6 +19,12 @@ type PicFormatOption struct
 picformatoption, _ := asposecells.NewPicFormatOption()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewPicFormatOption](./newpicformatoption/) | Default constructor. | 
+|[NewPicFormatOption_PicFormatOption](./newpicformatoption_picformatoption/) | Constructs from an implementation object. | 
 
 ## Methods
 

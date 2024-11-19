@@ -19,6 +19,11 @@ type DrawObject struct
 drawobject, _ := asposecells.NewDrawObject()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewDrawObject](./newdrawobject/) | Constructs from an implementation object. | 
 
 ## Methods
 

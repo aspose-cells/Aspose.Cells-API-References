@@ -19,6 +19,11 @@ type VbaModule struct
 vbamodule, _ := asposecells.NewVbaModule()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewVbaModule](./newvbamodule/) | Constructs from an implementation object. | 
 
 ## Methods
 

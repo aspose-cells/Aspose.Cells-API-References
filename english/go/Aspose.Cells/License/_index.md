@@ -19,6 +19,11 @@ type License struct
 license, _ := asposecells.NewLicense()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewLicense](./newlicense/) | Default constructor. | 
 
 ## Methods
 

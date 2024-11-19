@@ -19,6 +19,12 @@ type ThreadedCommentAuthorCollection struct
 threadedcommentauthorcollection, _ := asposecells.NewThreadedCommentAuthorCollection()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewThreadedCommentAuthorCollection](./newthreadedcommentauthorcollection/) | Default constructor. | 
+|[NewThreadedCommentAuthorCollection_ThreadedCommentAuthorCollection](./newthreadedcommentauthorcollection_threadedcommentauthorcollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

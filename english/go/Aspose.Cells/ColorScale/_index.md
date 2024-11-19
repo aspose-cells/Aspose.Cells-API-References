@@ -19,6 +19,11 @@ type ColorScale struct
 colorscale, _ := asposecells.NewColorScale()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewColorScale](./newcolorscale/) | Constructs from an implementation object. | 
 
 ## Methods
 

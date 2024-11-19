@@ -19,6 +19,11 @@ type ReferredArea struct
 referredarea, _ := asposecells.NewReferredArea()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewReferredArea](./newreferredarea/) | Constructs from an implementation object. | 
 
 ## Methods
 
@@ -35,4 +40,8 @@ referredarea, _ := asposecells.NewReferredArea()
 |[GetStartColumn](./getstartcolumn/) | The start column of the area. | 
 |[GetEndRow](./getendrow/) | The end row of the area. | 
 |[GetStartRow](./getstartrow/) | The start row of the area. | 
+|[GetValues](./getvalues/) | Gets cell values in this area. | 
+|[GetValues](./getvalues/) | Gets cell values in this area. | 
+|[GetValue](./getvalue/) | Gets cell value with given offset from the top-left of this area. | 
+|[GetValue](./getvalue/) | Gets cell value with given offset from the top-left of this area. | 
 |[ToString](./tostring/) | Returns the reference address of this area.Generally it is the address of the reference which may be used in formula, such as "Sheet1!A1:C3". | 

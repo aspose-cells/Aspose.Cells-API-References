@@ -19,6 +19,11 @@ type Geometry struct
 geometry, _ := asposecells.NewGeometry()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewGeometry](./newgeometry/) | Constructs from an implementation object. | 
 
 ## Methods
 

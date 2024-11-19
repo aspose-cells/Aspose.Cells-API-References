@@ -19,6 +19,12 @@ type RevisionCellChange struct
 revisioncellchange, _ := asposecells.NewRevisionCellChange()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewRevisionCellChange_RevisionCellChange](./newrevisioncellchange_revisioncellchange/) | Constructs from an implementation object. | 
+|[NewRevisionCellChange_Revision](./newrevisioncellchange_revision/) | Constructs from a parent object. | 
 
 ## Methods
 
@@ -32,6 +38,8 @@ revisioncellchange, _ := asposecells.NewRevisionCellChange()
 |[IsNewFormatted](./isnewformatted/) | Indicates whether this cell is new formatted. | 
 |[IsOldFormatted](./isoldformatted/) | Indicates whether this cell is old formatted. | 
 |[GetOldFormula](./getoldformula/) | Gets the old formula. | 
+|[GetOldValue](./getoldvalue/) | Gets old value of the cell. | 
+|[GetNewValue](./getnewvalue/) | Gets new value of the cell. | 
 |[GetNewFormula](./getnewformula/) | Gets the old formula. | 
 |[GetNewStyle](./getnewstyle/) | Gets the new style of the cell. | 
 |[GetOldStyle](./getoldstyle/) | Gets the old style of the cell. | 

@@ -14,7 +14,7 @@ Checks whether this object refers to the same row with another row object.
 
 ```go
 
-func (instance *Row) Equals(row *Row)  (bool,  error) 
+func (instance *Row) Equals_Row(row *Row)  (bool,  error) 
 
 ```
 

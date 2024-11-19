@@ -19,6 +19,11 @@ type ShapeSegmentPath struct
 shapesegmentpath, _ := asposecells.NewShapeSegmentPath()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewShapeSegmentPath](./newshapesegmentpath/) | Constructs from an implementation object. | 
 
 ## Methods
 

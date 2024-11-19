@@ -19,6 +19,12 @@ type CellValue struct
 cellvalue, _ := asposecells.NewCellValue()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewCellValue](./newcellvalue/) | Default constructor. | 
+|[NewCellValue_CellValue](./newcellvalue_cellvalue/) | Constructs from an implementation object. | 
 
 ## Methods
 
@@ -27,3 +33,5 @@ cellvalue, _ := asposecells.NewCellValue()
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[GetType](./gettype/) | Gets/sets the type of cell value. | 
 |[SetType](./settype/) | Gets/sets the type of cell value. | 
+|[GetValue](./getvalue/) | Gets/sets the cell value. | 
+|[SetValue](./setvalue/) | Gets/sets the cell value. | 

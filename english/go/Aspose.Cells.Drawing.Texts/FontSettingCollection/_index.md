@@ -19,6 +19,11 @@ type FontSettingCollection struct
 fontsettingcollection, _ := asposecells.NewFontSettingCollection()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewFontSettingCollection](./newfontsettingcollection/) | Constructs from an implementation object. | 
 
 ## Methods
 
@@ -40,5 +45,6 @@ fontsettingcollection, _ := asposecells.NewFontSettingCollection()
 |[Format](./format/) | Format the text with font setting. | 
 |[Get](./get/) | Gets the <see cref="FontSetting"/> by the index. | 
 |[Clear](./clear/) | Clear all setting. | 
+|[Equals](./equals/) |  | 
 |[GetHashCode](./gethashcode/) |  | 
 |[GetCount](./getcount/) |  | 

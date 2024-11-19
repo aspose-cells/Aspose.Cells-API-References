@@ -10,7 +10,7 @@ url: /go/aspose.cells.drawing.equations/borderboxequationnode/tomathml/
 
 ## ToMathML function
 
-Conver this equtation to MathML expression.
+Convert this equtation to MathML expression.
 
 ```go
 

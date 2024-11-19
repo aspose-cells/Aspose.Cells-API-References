@@ -19,6 +19,11 @@ type Cells struct
 cells, _ := asposecells.NewCells()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewCells](./newcells/) | Constructs from an implementation object. | 
 
 ## Methods
 
@@ -61,7 +66,7 @@ cells, _ := asposecells.NewCells()
 |[SetStandardHeightPixels](./setstandardheightpixels/) | Gets or sets the default row height in this worksheet, in unit of pixels. | 
 |[GetStandardHeightInch](./getstandardheightinch/) | Gets or sets the default row height in this worksheet, in unit of inches. | 
 |[SetStandardHeightInch](./setstandardheightinch/) | Gets or sets the default row height in this worksheet, in unit of inches. | 
-|[TextToColumns](./texttocolumns/) | Splits the text in the column to columns. | 
+|[TextToColumns](./texttocolumns/) | Splits content in specified column into multiple columns.. | 
 |[ImportCSV](./importcsv/) | Import a CSV file to the cells. | 
 |[ImportCSV](./importcsv/) | Import a CSV file to the cells. | 
 |[GetPreserveString](./getpreservestring/) | Gets or sets a value indicating whether all worksheet values are preserved as strings.Default is false. | 
@@ -146,7 +151,7 @@ cells, _ := asposecells.NewCells()
 |[DeleteBlankColumns](./deleteblankcolumns/) | Delete all blank columns which do not contain any data. | 
 |[IsBlankColumn](./isblankcolumn/) | Checks whether given column is blank(does not contain any data). | 
 |[DeleteBlankRows](./deleteblankrows/) | Delete all blank rows which do not contain any data or other object. | 
-|[DeleteBlankRows](./deleteblankrows/) | Delete all blank rows which do not contain any data or other object. | 
+|[DeleteBlankRows](./deleteblankrows/) | Delete all blank rows which do not contain any data or some special objects such as visible comment, pivot table. | 
 |[InsertColumns](./insertcolumns/) | Inserts some columns into the worksheet. | 
 |[InsertColumns](./insertcolumns/) | Inserts some columns into the worksheet. | 
 |[InsertColumn](./insertcolumn/) | Inserts a new column into the worksheet. | 
@@ -166,6 +171,8 @@ cells, _ := asposecells.NewCells()
 |[LinkToXmlMap](./linktoxmlmap/) | Link to a xml map. | 
 |[GetMaxDisplayRange](./getmaxdisplayrange/) | Gets the max range which includes data, merged cells and shapes. | 
 |[GetFirstCell](./getfirstcell/) | Gets the first cell in this worksheet. | 
+|[Find](./find/) | Finds the cell containing with the input object. | 
+|[Find](./find/) | Finds the cell containing with the input object. | 
 |[EndCellInRow](./endcellinrow/) | Gets the last cell in this row. | 
 |[EndCellInColumn](./endcellincolumn/) | Gets the last cell in this column. | 
 |[EndCellInColumn](./endcellincolumn/) | Gets the last cell with maximum column index in this range. | 

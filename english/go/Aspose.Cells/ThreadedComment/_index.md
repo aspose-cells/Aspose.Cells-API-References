@@ -19,6 +19,11 @@ type ThreadedComment struct
 threadedcomment, _ := asposecells.NewThreadedComment()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewThreadedComment](./newthreadedcomment/) | Constructs from an implementation object. | 
 
 ## Methods
 

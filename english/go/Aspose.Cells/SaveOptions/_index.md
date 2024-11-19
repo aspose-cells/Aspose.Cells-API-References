@@ -19,6 +19,11 @@ type SaveOptions struct
 saveoptions, _ := asposecells.NewSaveOptions()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewSaveOptions](./newsaveoptions/) | Constructs from an implementation object. | 
 
 ## Methods
 

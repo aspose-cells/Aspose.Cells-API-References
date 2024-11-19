@@ -19,6 +19,12 @@ type PdfSecurityOptions struct
 pdfsecurityoptions, _ := asposecells.NewPdfSecurityOptions()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewPdfSecurityOptions](./newpdfsecurityoptions/) | The constructor of PdfSecurityOptions | 
+|[NewPdfSecurityOptions_PdfSecurityOptions](./newpdfsecurityoptions_pdfsecurityoptions/) | Constructs from an implementation object. | 
 
 ## Methods
 

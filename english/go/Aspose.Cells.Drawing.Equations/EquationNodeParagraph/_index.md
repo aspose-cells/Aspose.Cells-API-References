@@ -19,6 +19,12 @@ type EquationNodeParagraph struct
 equationnodeparagraph, _ := asposecells.NewEquationNodeParagraph()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewEquationNodeParagraph_EquationNodeParagraph](./newequationnodeparagraph_equationnodeparagraph/) | Constructs from an implementation object. | 
+|[NewEquationNodeParagraph_EquationNode](./newequationnodeparagraph_equationnode/) | Constructs from a parent object. | 
 
 ## Methods
 
@@ -27,10 +33,11 @@ equationnodeparagraph, _ := asposecells.NewEquationNodeParagraph()
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[GetJustification](./getjustification/) | This specifies justification of the math paragraph (a series of adjacent equations within the same paragraph). A math paragraph can be Left Justified, Right Justified, Centered, or Centered as Group. By default, the math paragraph is Centered as Group. This means that the equations can be aligned with respect to each other, but the entire group of equations is centered as a whole. | 
 |[SetJustification](./setjustification/) | This specifies justification of the math paragraph (a series of adjacent equations within the same paragraph). A math paragraph can be Left Justified, Right Justified, Centered, or Centered as Group. By default, the math paragraph is Centered as Group. This means that the equations can be aligned with respect to each other, but the entire group of equations is centered as a whole. | 
+|[Equals](./equals/) | Determine whether the current equation node is equal to the specified node | 
 |[GetParentNode](./getparentnode/) | Specifies the parent node of the current node | 
 |[SetParentNode](./setparentnode/) | Specifies the parent node of the current node | 
-|[ToLaTeX](./tolatex/) | Conver this equtation to LaTeX expression. | 
-|[ToMathML](./tomathml/) | Conver this equtation to MathML expression. | 
+|[ToLaTeX](./tolatex/) | Convert this equtation to LaTeX expression. | 
+|[ToMathML](./tomathml/) | Convert this equtation to MathML expression. | 
 |[AddChild](./addchild/) | Insert a node of the specified type at the end of the child node list of the current node. | 
 |[AddChild](./addchild/) | Inserts the specified node at the end of the current node's list of child nodes. | 
 |[InsertChild](./insertchild/) | Inserts a node of the specified type at the specified index position in the current node's child node list. | 

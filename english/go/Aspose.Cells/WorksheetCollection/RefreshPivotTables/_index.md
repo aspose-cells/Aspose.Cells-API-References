@@ -14,7 +14,7 @@ Refreshes all the PivotTables in the Excel file.
 
 ```go
 
-func (instance *WorksheetCollection) RefreshPivotTables_PivotTableRefreshOption(option *PivotTableRefreshOption)  error
+func (instance *WorksheetCollection) RefreshPivotTables_PivotTableRefreshOption(option *PivotTableRefreshOption)  (bool,  error) 
 
 ```
 

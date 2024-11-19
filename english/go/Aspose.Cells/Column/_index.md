@@ -19,6 +19,11 @@ type Column struct
 column, _ := asposecells.NewColumn()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewColumn](./newcolumn/) | Constructs from an implementation object. | 
 
 ## Methods
 

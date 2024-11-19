@@ -10,11 +10,11 @@ url: /go/aspose.cells/cell/setformula/
 
 ## SetFormula function
 
-Gets or sets a formula of the <see cref="Cell"/>.
+Set the formula and the value(calculated result) of the formula.
 
 ```go
 
-func (instance *Cell) SetFormula_String(value string)  error
+func (instance *Cell) SetFormula_String_FormulaParseOptions_Object(formula string, options *FormulaParseOptions, value *Object)  error
 
 ```
 

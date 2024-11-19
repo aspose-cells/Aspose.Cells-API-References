@@ -10,7 +10,7 @@ url: /go/aspose.cells.drawing/solidfill/getcolor/
 
 ## GetColor function
 
-Gets or sets the <see cref="System.Drawing.Color"/>.
+Gets or sets the <see cref="Color"/>.
 
 ```go
 

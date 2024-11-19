@@ -19,6 +19,11 @@ type SlicerCollection struct
 slicercollection, _ := asposecells.NewSlicerCollection()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewSlicerCollection](./newslicercollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

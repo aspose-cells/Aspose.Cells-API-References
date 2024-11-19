@@ -19,6 +19,12 @@ type CellWatch struct
 cellwatch, _ := asposecells.NewCellWatch()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewCellWatch](./newcellwatch/) | Default constructor. | 
+|[NewCellWatch_CellWatch](./newcellwatch_cellwatch/) | Constructs from an implementation object. | 
 
 ## Methods
 

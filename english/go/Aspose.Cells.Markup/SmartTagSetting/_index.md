@@ -19,6 +19,11 @@ type SmartTagSetting struct
 smarttagsetting, _ := asposecells.NewSmartTagSetting()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewSmartTagSetting](./newsmarttagsetting/) | Constructs from an implementation object. | 
 
 ## Methods
 

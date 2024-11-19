@@ -19,6 +19,11 @@ type WebExtensionReference struct
 webextensionreference, _ := asposecells.NewWebExtensionReference()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewWebExtensionReference](./newwebextensionreference/) | Constructs from an implementation object. | 
 
 ## Methods
 

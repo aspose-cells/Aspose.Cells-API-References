@@ -1,0 +1,28 @@
+---
+title: GetCriteria Method 
+linktitle: GetCriteria
+second_title: Aspose.Cells for Go API Reference
+description: 'GetCriteria method. Encapsulates the function that represents getcriteria in Go.'
+type: docs
+weight: 200
+url: /go/aspose.cells/customfilter/getcriteria/
+---
+
+## GetCriteria function
+
+Gets and sets the criteria.
+
+```go
+
+func (instance *CustomFilter) GetCriteria()  (*Object,  error) 
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [CustomFilter](../)
+* Namespace [Aspose.Cells](../../)
+* Library [Aspose.Cells for Go](../../../)

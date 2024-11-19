@@ -19,6 +19,14 @@ type ImageSaveOptions struct
 imagesaveoptions, _ := asposecells.NewImageSaveOptions()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewImageSaveOptions](./newimagesaveoptions/) | Creates the options for saving image file. | 
+|[NewImageSaveOptions_SaveFormat](./newimagesaveoptions_saveformat/) | Creates the options for saving image file. | 
+|[NewImageSaveOptions_ImageSaveOptions](./newimagesaveoptions_imagesaveoptions/) | Constructs from an implementation object. | 
+|[NewImageSaveOptions_SaveOptions](./newimagesaveoptions_saveoptions/) | Constructs from a parent object. | 
 
 ## Methods
 

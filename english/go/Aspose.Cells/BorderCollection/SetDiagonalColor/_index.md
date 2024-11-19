@@ -10,7 +10,7 @@ url: /go/aspose.cells/bordercollection/setdiagonalcolor/
 
 ## SetDiagonalColor function
 
-Gets or sets the <see cref="System.Drawing.Color"/> of Diagonal lines.
+Gets or sets the <see cref="Color"/> of Diagonal lines.
 
 ```go
 

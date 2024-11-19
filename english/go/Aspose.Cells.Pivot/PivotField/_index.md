@@ -19,6 +19,11 @@ type PivotField struct
 pivotfield, _ := asposecells.NewPivotField()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewPivotField](./newpivotfield/) | Constructs from an implementation object. | 
 
 ## Methods
 
@@ -33,7 +38,7 @@ pivotfield, _ := asposecells.NewPivotField()
 |[GroupBy](./groupby/) | Group the file by number. | 
 |[Ungroup](./ungroup/) | Ungroup the pivot field. | 
 |[IsCalculatedField](./iscalculatedfield/) | Indicates whether the specified PivotTable field is calculated field. | 
-|[GetCalculatedFieldFormula](./getcalculatedfieldformula/) | Get the formula string of the specified calculated field . | 
+|[GetFormula](./getformula/) | Gets formula of the calculated field . | 
 |[GetBaseIndex](./getbaseindex/) | Represents the PivotField index in the base PivotFields. | 
 |[SetBaseIndex](./setbaseindex/) | Represents the PivotField index in the base PivotFields. | 
 |[GetPosition](./getposition/) | Represents the index of <see cref="PivotField"/> in the region. | 

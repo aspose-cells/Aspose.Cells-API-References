@@ -19,6 +19,11 @@ type ChartDataTable struct
 chartdatatable, _ := asposecells.NewChartDataTable()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewChartDataTable](./newchartdatatable/) | Constructs from an implementation object. | 
 
 ## Methods
 

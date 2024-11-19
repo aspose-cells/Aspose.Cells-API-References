@@ -19,6 +19,12 @@ type FontSetting struct
 fontsetting, _ := asposecells.NewFontSetting()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewFontSetting_Int_Int_WorksheetCollection](./newfontsetting_int_int_worksheetcollection/) |  | 
+|[NewFontSetting_FontSetting](./newfontsetting_fontsetting/) | Constructs from an implementation object. | 
 
 ## Methods
 

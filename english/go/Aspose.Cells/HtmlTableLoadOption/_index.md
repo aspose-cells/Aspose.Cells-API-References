@@ -19,6 +19,12 @@ type HtmlTableLoadOption struct
 htmltableloadoption, _ := asposecells.NewHtmlTableLoadOption()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewHtmlTableLoadOption](./newhtmltableloadoption/) | Default constructor. | 
+|[NewHtmlTableLoadOption_HtmlTableLoadOption](./newhtmltableloadoption_htmltableloadoption/) | Constructs from an implementation object. | 
 
 ## Methods
 

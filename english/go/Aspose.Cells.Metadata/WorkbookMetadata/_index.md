@@ -19,6 +19,12 @@ type WorkbookMetadata struct
 workbookmetadata, _ := asposecells.NewWorkbookMetadata()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewWorkbookMetadata_String_MetadataOptions](./newworkbookmetadata_string_metadataoptions/) | Create the meta data object. | 
+|[NewWorkbookMetadata_WorkbookMetadata](./newworkbookmetadata_workbookmetadata/) | Constructs from an implementation object. | 
 
 ## Methods
 

@@ -19,6 +19,12 @@ type Picture struct
 picture, _ := asposecells.NewPicture()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewPicture_Picture](./newpicture_picture/) | Constructs from an implementation object. | 
+|[NewPicture_Shape](./newpicture_shape/) | Constructs from a parent object. | 
 
 ## Methods
 
@@ -30,8 +36,8 @@ picture, _ := asposecells.NewPicture()
 |[PlaceInCell](./placeincell/) | Place this picture in the cell | 
 |[GetOriginalHeight](./getoriginalheight/) | Gets the original height of the picture. | 
 |[GetOriginalWidth](./getoriginalwidth/) | Gets the original width of the picture. | 
-|[GetBorderLineColor](./getborderlinecolor/) | Represents the <see cref="System.Drawing.Color"/> of the border line of a picture. | 
-|[SetBorderLineColor](./setborderlinecolor/) | Represents the <see cref="System.Drawing.Color"/> of the border line of a picture. | 
+|[GetBorderLineColor](./getborderlinecolor/) | Represents the <see cref="Color"/> of the border line of a picture. | 
+|[SetBorderLineColor](./setborderlinecolor/) | Represents the <see cref="Color"/> of the border line of a picture. | 
 |[GetBorderWeight](./getborderweight/) | Gets or sets the weight of the border line of a picture in units of pt. | 
 |[SetBorderWeight](./setborderweight/) | Gets or sets the weight of the border line of a picture in units of pt. | 
 |[GetSourceFullName](./getsourcefullname/) | Gets or sets the path and name of the source file for the linked image. | 
@@ -53,6 +59,7 @@ picture, _ := asposecells.NewPicture()
 |[GetOriginalWidthInch](./getoriginalwidthinch/) | Gets the original width of picture, in unit of inches. | 
 |[GetSignatureLine](./getsignatureline/) | Gets and sets the signature line | 
 |[SetSignatureLine](./setsignatureline/) | Gets and sets the signature line | 
+|[IsSameSetting](./issamesetting/) | Returns whether the shape is same. | 
 |[GetMacroName](./getmacroname/) | Gets and sets the name of macro. | 
 |[SetMacroName](./setmacroname/) | Gets and sets the name of macro. | 
 |[IsEquation](./isequation/) | Indicates whether the shape only contains an equation. | 
@@ -226,6 +233,7 @@ picture, _ := asposecells.NewPicture()
 |[SetTextVerticalAlignment](./settextverticalalignment/) | Gets and sets the text vertical alignment type of the shape. | 
 |[GetTextDirection](./gettextdirection/) | Gets/Sets the direction of the text flow for this object. | 
 |[SetTextDirection](./settextdirection/) | Gets/Sets the direction of the text flow for this object. | 
+|[GetTextBoxOptions](./gettextboxoptions/) | Gets the text information in the shape | 
 |[GetActiveXControl](./getactivexcontrol/) | Gets the ActiveX control. | 
 |[RemoveActiveXControl](./removeactivexcontrol/) | Remove activeX control. | 
 |[GetPaths](./getpaths/) | Gets the paths of a custom geometric shape. | 

@@ -19,13 +19,19 @@ type PowerQueryFormula struct
 powerqueryformula, _ := asposecells.NewPowerQueryFormula()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewPowerQueryFormula](./newpowerqueryformula/) | Constructs from an implementation object. | 
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
-|[GetFormulaDefinition](./getformuladefinition/) | Gets the definition of the power query formula. | 
 |[GetName](./getname/) | Gets and sets the name of the power query formula. | 
 |[SetName](./setname/) | Gets and sets the name of the power query formula. | 
 |[GetPowerQueryFormulaItems](./getpowerqueryformulaitems/) | Gets all items of power query formula. | 
+|[GetType](./gettype/) | Gets the type of this power query formula. | 
+|[GetFormulaDefinition](./getformuladefinition/) | Gets the definition of the power query formula. | 

@@ -19,6 +19,11 @@ type Worksheet struct
 worksheet, _ := asposecells.NewWorksheet()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewWorksheet](./newworksheet/) | Constructs from an implementation object. | 
 
 ## Methods
 
@@ -151,6 +156,9 @@ worksheet, _ := asposecells.NewWorksheet()
 |[StartAccessCache](./startaccesscache/) | Starts the session that uses caches to access the data in this worksheet. | 
 |[CloseAccessCache](./closeaccesscache/) | Closes the session that uses caches to access the data in this worksheet. | 
 |[ConvertFormulaReferenceStyle](./convertformulareferencestyle/) | Converts the formula reference style. | 
+|[CalculateFormula](./calculateformula/) | Calculates a formula. | 
+|[CalculateFormula](./calculateformula/) | Calculates a formula expression directly. | 
+|[CalculateFormula](./calculateformula/) | Calculates a formula expression directly. | 
 |[CalculateFormula](./calculateformula/) | Calculates all formulas in this worksheet. | 
 |[GetCellWatches](./getcellwatches/) | Gets collection of cells on this worksheet being watched in the 'watch window'. | 
 |[RefreshPivotTables](./refreshpivottables/) | Refreshes all the PivotTables in this Worksheet. | 

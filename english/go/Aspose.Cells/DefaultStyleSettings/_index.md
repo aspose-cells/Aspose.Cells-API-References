@@ -19,6 +19,11 @@ type DefaultStyleSettings struct
 defaultstylesettings, _ := asposecells.NewDefaultStyleSettings()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewDefaultStyleSettings](./newdefaultstylesettings/) | Constructs from an implementation object. | 
 
 ## Methods
 

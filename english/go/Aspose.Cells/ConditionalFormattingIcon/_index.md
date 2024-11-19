@@ -19,6 +19,11 @@ type ConditionalFormattingIcon struct
 conditionalformattingicon, _ := asposecells.NewConditionalFormattingIcon()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewConditionalFormattingIcon](./newconditionalformattingicon/) | Constructs from an implementation object. | 
 
 ## Methods
 

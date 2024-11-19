@@ -19,6 +19,11 @@ type WorksheetCollection struct
 worksheetcollection, _ := asposecells.NewWorksheetCollection()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewWorksheetCollection](./newworksheetcollection/) | Constructs from an implementation object. | 
 
 ## Methods
 
@@ -61,6 +66,8 @@ worksheetcollection, _ := asposecells.NewWorksheetCollection()
 |[SetXmlMaps](./setxmlmaps/) | Gets and sets the XML maps in the workbook. | 
 |[GetBuiltInDocumentProperties](./getbuiltindocumentproperties/) | Returns a <see cref="DocumentProperty"/> collection that represents all the built-in document properties of the spreadsheet. | 
 |[GetCustomDocumentProperties](./getcustomdocumentproperties/) | Returns a <see cref="DocumentProperty"/> collection that represents all the custom document properties of the spreadsheet. | 
+|[GetOleSize](./getolesize/) | Gets and Sets displayed size when Workbook file is used as an Ole object. | 
+|[SetOleSize](./setolesize/) | Gets and Sets displayed size when Workbook file is used as an Ole object. | 
 |[SetOleSize](./setolesize/) | Sets displayed size when Workbook file is used as an Ole object. | 
 |[GetExternalLinks](./getexternallinks/) | Represents external links in a workbook. | 
 |[GetTableStyles](./gettablestyles/) | Gets <see cref="TableStyles"/> object. | 

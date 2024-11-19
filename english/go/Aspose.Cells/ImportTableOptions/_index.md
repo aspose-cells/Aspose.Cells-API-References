@@ -19,6 +19,12 @@ type ImportTableOptions struct
 importtableoptions, _ := asposecells.NewImportTableOptions()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewImportTableOptions](./newimporttableoptions/) | Creates the default importing options. | 
+|[NewImportTableOptions_ImportTableOptions](./newimporttableoptions_importtableoptions/) | Constructs from an implementation object. | 
 
 ## Methods
 

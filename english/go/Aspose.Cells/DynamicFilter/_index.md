@@ -19,12 +19,22 @@ type DynamicFilter struct
 dynamicfilter, _ := asposecells.NewDynamicFilter()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewDynamicFilter_DynamicFilter](./newdynamicfilter_dynamicfilter/) | Constructs from an implementation object. | 
+|[NewDynamicFilter_Object](./newdynamicfilter_object/) | Constructs from an Object convertible to this. | 
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
-|[GetIObject](./getiobject/) | Gets the IObject pointer of this object. | 
+|[ToObject](./toobject/) | Gets the Object. | 
 |[GetDynamicFilterType](./getdynamicfiltertype/) | Gets and sets the dynamic filter type. | 
 |[SetDynamicFilterType](./setdynamicfiltertype/) | Gets and sets the dynamic filter type. | 
+|[GetValue](./getvalue/) | Gets and sets the dynamic filter value. | 
+|[SetValue](./setvalue/) | Gets and sets the dynamic filter value. | 
+|[GetMaxValue](./getmaxvalue/) | Gets and sets the dynamic filter max value. | 
+|[SetMaxValue](./setmaxvalue/) | Gets and sets the dynamic filter max value. | 

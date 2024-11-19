@@ -19,6 +19,11 @@ type PivotFieldCollection struct
 pivotfieldcollection, _ := asposecells.NewPivotFieldCollection()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewPivotFieldCollection](./newpivotfieldcollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

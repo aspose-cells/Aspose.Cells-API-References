@@ -19,6 +19,13 @@ type NumbersLoadOptions struct
 numbersloadoptions, _ := asposecells.NewNumbersLoadOptions()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewNumbersLoadOptions](./newnumbersloadoptions/) | Constructor. | 
+|[NewNumbersLoadOptions_NumbersLoadOptions](./newnumbersloadoptions_numbersloadoptions/) | Constructs from an implementation object. | 
+|[NewNumbersLoadOptions_LoadOptions](./newnumbersloadoptions_loadoptions/) | Constructs from a parent object. | 
 
 ## Methods
 

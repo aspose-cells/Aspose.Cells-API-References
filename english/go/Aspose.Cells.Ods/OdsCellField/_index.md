@@ -19,6 +19,11 @@ type OdsCellField struct
 odscellfield, _ := asposecells.NewOdsCellField()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewOdsCellField](./newodscellfield/) | Constructs from an implementation object. | 
 
 ## Methods
 

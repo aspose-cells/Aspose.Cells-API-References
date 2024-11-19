@@ -19,6 +19,11 @@ type RevisionLog struct
 revisionlog, _ := asposecells.NewRevisionLog()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewRevisionLog](./newrevisionlog/) | Constructs from an implementation object. | 
 
 ## Methods
 

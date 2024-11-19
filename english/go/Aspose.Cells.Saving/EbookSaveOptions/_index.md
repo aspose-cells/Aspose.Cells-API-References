@@ -19,6 +19,14 @@ type EbookSaveOptions struct
 ebooksaveoptions, _ := asposecells.NewEbookSaveOptions()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewEbookSaveOptions](./newebooksaveoptions/) | Creates options for saving ebook file. | 
+|[NewEbookSaveOptions_SaveFormat](./newebooksaveoptions_saveformat/) | Creates options for saving ebook file. | 
+|[NewEbookSaveOptions_EbookSaveOptions](./newebooksaveoptions_ebooksaveoptions/) | Constructs from an implementation object. | 
+|[NewEbookSaveOptions_HtmlSaveOptions](./newebooksaveoptions_htmlsaveoptions/) | Constructs from a parent object. | 
 
 ## Methods
 
@@ -142,3 +150,7 @@ ebooksaveoptions, _ := asposecells.NewEbookSaveOptions()
 |[SetIsBorderCollapsed](./setisbordercollapsed/) | Indicates whether the table borders are collapsed.The default value is true. | 
 |[GetEncodeEntityAsCode](./getencodeentityascode/) | Indicates whether the html character entities are replaced with decimal code.(e.g. "&amp;nbsp;" is replaced with "&amp;#160;").The default value is false. | 
 |[SetEncodeEntityAsCode](./setencodeentityascode/) | Indicates whether the html character entities are replaced with decimal code.(e.g. "&amp;nbsp;" is replaced with "&amp;#160;").The default value is false. | 
+|[GetOfficeMathOutputMode](./getofficemathoutputmode/) | Indicates how export OfficeMath objects to HTML, Default value is Image. | 
+|[SetOfficeMathOutputMode](./setofficemathoutputmode/) | Indicates how export OfficeMath objects to HTML, Default value is Image. | 
+|[GetCellNameAttribute](./getcellnameattribute/) | Specifies the attribute that indicates the CellName to be written.(e.g. If the value is "id", then for cell "A1", the output will be:&lt;td id='A1'&gt;).The default value is null. | 
+|[SetCellNameAttribute](./setcellnameattribute/) | Specifies the attribute that indicates the CellName to be written.(e.g. If the value is "id", then for cell "A1", the output will be:&lt;td id='A1'&gt;).The default value is null. | 

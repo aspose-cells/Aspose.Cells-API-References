@@ -19,6 +19,11 @@ type RevisionLogCollection struct
 revisionlogcollection, _ := asposecells.NewRevisionLogCollection()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewRevisionLogCollection](./newrevisionlogcollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

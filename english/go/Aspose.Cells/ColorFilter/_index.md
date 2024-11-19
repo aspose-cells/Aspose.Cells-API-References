@@ -19,13 +19,19 @@ type ColorFilter struct
 colorfilter, _ := asposecells.NewColorFilter()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewColorFilter_ColorFilter](./newcolorfilter_colorfilter/) | Constructs from an implementation object. | 
+|[NewColorFilter_Object](./newcolorfilter_object/) | Constructs from an Object convertible to this. | 
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
-|[GetIObject](./getiobject/) | Gets the IObject pointer of this object. | 
+|[ToObject](./toobject/) | Gets the Object. | 
 |[GetFilterByFillColor](./getfilterbyfillcolor/) | Whether filter by the cell's fill color. | 
 |[SetFilterByFillColor](./setfilterbyfillcolor/) | Whether filter by the cell's fill color. | 
 |[GetColor](./getcolor/) | Gets the color of this filter. | 

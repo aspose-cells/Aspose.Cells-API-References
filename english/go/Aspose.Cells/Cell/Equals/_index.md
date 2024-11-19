@@ -14,7 +14,7 @@ Checks whether this object refers to the same cell with another cell object.
 
 ```go
 
-func (instance *Cell) Equals(cell *Cell)  (bool,  error) 
+func (instance *Cell) Equals_Cell(cell *Cell)  (bool,  error) 
 
 ```
 

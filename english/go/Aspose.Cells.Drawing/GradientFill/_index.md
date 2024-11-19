@@ -19,6 +19,11 @@ type GradientFill struct
 gradientfill, _ := asposecells.NewGradientFill()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewGradientFill](./newgradientfill/) | Constructs from an implementation object. | 
 
 ## Methods
 

@@ -19,6 +19,11 @@ type TrendlineCollection struct
 trendlinecollection, _ := asposecells.NewTrendlineCollection()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewTrendlineCollection](./newtrendlinecollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

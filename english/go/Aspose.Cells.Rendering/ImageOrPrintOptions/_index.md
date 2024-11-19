@@ -19,6 +19,12 @@ type ImageOrPrintOptions struct
 imageorprintoptions, _ := asposecells.NewImageOrPrintOptions()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewImageOrPrintOptions](./newimageorprintoptions/) | Default constructor. | 
+|[NewImageOrPrintOptions_ImageOrPrintOptions](./newimageorprintoptions_imageorprintoptions/) | Constructs from an implementation object. | 
 
 ## Methods
 
@@ -27,10 +33,10 @@ imageorprintoptions, _ := asposecells.NewImageOrPrintOptions()
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[SetPrintWithStatusDialog](./setprintwithstatusdialog/) | If PrintWithStatusDialog = true , there will be a dialog that shows current print status.else no such dialog will show. | 
 |[GetPrintWithStatusDialog](./getprintwithstatusdialog/) | If PrintWithStatusDialog = true , there will be a dialog that shows current print status.else no such dialog will show. | 
-|[GetHorizontalResolution](./gethorizontalresolution/) | Gets or sets the horizontal resolution for generated images, in dots per inch.Applies generating image method except Emf format images. | 
-|[SetHorizontalResolution](./sethorizontalresolution/) | Gets or sets the horizontal resolution for generated images, in dots per inch.Applies generating image method except Emf format images. | 
-|[GetVerticalResolution](./getverticalresolution/) | Gets or sets the vertical  resolution for generated images, in dots per inch.Applies generating image method except Emf format image. | 
-|[SetVerticalResolution](./setverticalresolution/) | Gets or sets the vertical  resolution for generated images, in dots per inch.Applies generating image method except Emf format image. | 
+|[GetHorizontalResolution](./gethorizontalresolution/) | Gets or sets the horizontal resolution for generated images, in dots per inch. | 
+|[SetHorizontalResolution](./sethorizontalresolution/) | Gets or sets the horizontal resolution for generated images, in dots per inch. | 
+|[GetVerticalResolution](./getverticalresolution/) | Gets or sets the vertical resolution for generated images, in dots per inch. | 
+|[SetVerticalResolution](./setverticalresolution/) | Gets or sets the vertical resolution for generated images, in dots per inch. | 
 |[GetTiffCompression](./gettiffcompression/) | Gets or sets the type of compression to apply only when saving pages to the <c>Tiff</c> format. | 
 |[SetTiffCompression](./settiffcompression/) | Gets or sets the type of compression to apply only when saving pages to the <c>Tiff</c> format. | 
 |[GetTiffColorDepth](./gettiffcolordepth/) | Gets or sets bit depth to apply only when saving pages to the <c>Tiff</c> format. | 

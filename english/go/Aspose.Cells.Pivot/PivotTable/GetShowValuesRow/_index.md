@@ -10,7 +10,7 @@ url: /go/aspose.cells.pivot/pivottable/getshowvaluesrow/
 
 ## GetShowValuesRow function
 
-Specifies a boolean value that indicates whether show values row.show the values row
+Indicates whether showing values row.
 
 ```go
 

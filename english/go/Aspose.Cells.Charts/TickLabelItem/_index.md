@@ -19,6 +19,11 @@ type TickLabelItem struct
 ticklabelitem, _ := asposecells.NewTickLabelItem()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewTickLabelItem](./newticklabelitem/) | Constructs from an implementation object. | 
 
 ## Methods
 

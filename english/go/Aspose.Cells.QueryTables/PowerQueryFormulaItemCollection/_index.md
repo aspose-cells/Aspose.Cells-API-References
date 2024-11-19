@@ -19,6 +19,11 @@ type PowerQueryFormulaItemCollection struct
 powerqueryformulaitemcollection, _ := asposecells.NewPowerQueryFormulaItemCollection()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewPowerQueryFormulaItemCollection](./newpowerqueryformulaitemcollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

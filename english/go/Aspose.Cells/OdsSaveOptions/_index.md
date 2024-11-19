@@ -19,6 +19,14 @@ type OdsSaveOptions struct
 odssaveoptions, _ := asposecells.NewOdsSaveOptions()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewOdsSaveOptions](./newodssaveoptions/) | Creates the options of saving ods file. | 
+|[NewOdsSaveOptions_SaveFormat](./newodssaveoptions_saveformat/) | Creates the options of saving ods file. | 
+|[NewOdsSaveOptions_OdsSaveOptions](./newodssaveoptions_odssaveoptions/) | Constructs from an implementation object. | 
+|[NewOdsSaveOptions_SaveOptions](./newodssaveoptions_saveoptions/) | Constructs from a parent object. | 
 
 ## Methods
 
@@ -29,6 +37,8 @@ odssaveoptions, _ := asposecells.NewOdsSaveOptions()
 |[SetGeneratorType](./setgeneratortype/) | Gets and sets the generator of the ods file. | 
 |[GetOdfStrictVersion](./getodfstrictversion/) | Gets and sets the ODF version. | 
 |[SetOdfStrictVersion](./setodfstrictversion/) | Gets and sets the ODF version. | 
+|[GetIgnorePivotTables](./getignorepivottables/) | Indicates whether saving pivot tables. | 
+|[SetIgnorePivotTables](./setignorepivottables/) | Indicates whether saving pivot tables. | 
 |[GetSaveFormat](./getsaveformat/) | Gets the save file format. | 
 |[GetClearData](./getcleardata/) | Make the workbook empty after saving the file. | 
 |[SetClearData](./setcleardata/) | Make the workbook empty after saving the file. | 

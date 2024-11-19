@@ -19,6 +19,11 @@ type ReflectionEffect struct
 reflectioneffect, _ := asposecells.NewReflectionEffect()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewReflectionEffect](./newreflectioneffect/) | Constructs from an implementation object. | 
 
 ## Methods
 

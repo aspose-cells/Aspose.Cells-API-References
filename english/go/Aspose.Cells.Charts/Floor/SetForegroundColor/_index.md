@@ -10,7 +10,7 @@ url: /go/aspose.cells.charts/floor/setforegroundcolor/
 
 ## SetForegroundColor function
 
-Gets or sets the foreground <see cref="System.Drawing.Color"/>.
+Gets or sets the foreground <see cref="Color"/>.
 
 ```go
 

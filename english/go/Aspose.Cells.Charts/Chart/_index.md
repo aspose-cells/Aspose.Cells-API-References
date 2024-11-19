@@ -19,6 +19,11 @@ type Chart struct
 chart, _ := asposecells.NewChart()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewChart](./newchart/) | Constructs from an implementation object. | 
 
 ## Methods
 

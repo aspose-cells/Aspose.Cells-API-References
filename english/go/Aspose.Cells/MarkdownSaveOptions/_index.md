@@ -19,6 +19,13 @@ type MarkdownSaveOptions struct
 markdownsaveoptions, _ := asposecells.NewMarkdownSaveOptions()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewMarkdownSaveOptions](./newmarkdownsaveoptions/) | Creates options for saving markdown document | 
+|[NewMarkdownSaveOptions_MarkdownSaveOptions](./newmarkdownsaveoptions_markdownsaveoptions/) | Constructs from an implementation object. | 
+|[NewMarkdownSaveOptions_SaveOptions](./newmarkdownsaveoptions_saveoptions/) | Constructs from a parent object. | 
 
 ## Methods
 

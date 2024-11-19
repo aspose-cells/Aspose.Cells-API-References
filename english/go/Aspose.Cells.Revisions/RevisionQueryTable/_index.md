@@ -19,6 +19,12 @@ type RevisionQueryTable struct
 revisionquerytable, _ := asposecells.NewRevisionQueryTable()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewRevisionQueryTable_RevisionQueryTable](./newrevisionquerytable_revisionquerytable/) | Constructs from an implementation object. | 
+|[NewRevisionQueryTable_Revision](./newrevisionquerytable_revision/) | Constructs from a parent object. | 
 
 ## Methods
 

@@ -1,0 +1,28 @@
+---
+title: GetValue2 Method 
+linktitle: GetValue2
+second_title: Aspose.Cells for Go API Reference
+description: 'GetValue2 method. Encapsulates the function that represents getvalue2 in Go.'
+type: docs
+weight: 200
+url: /go/aspose.cells/validation/getvalue2/
+---
+
+## GetValue2 function
+
+Represents the second value associated with the data validation.
+
+```go
+
+func (instance *Validation) GetValue2()  (*Object,  error) 
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [Validation](../)
+* Namespace [Aspose.Cells](../../)
+* Library [Aspose.Cells for Go](../../../)

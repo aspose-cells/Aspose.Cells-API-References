@@ -19,6 +19,12 @@ type TilePicOption struct
 tilepicoption, _ := asposecells.NewTilePicOption()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewTilePicOption](./newtilepicoption/) | Default constructor. | 
+|[NewTilePicOption_TilePicOption](./newtilepicoption_tilepicoption/) | Constructs from an implementation object. | 
 
 ## Methods
 

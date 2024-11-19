@@ -19,6 +19,11 @@ type ConditionalFormattingResult struct
 conditionalformattingresult, _ := asposecells.NewConditionalFormattingResult()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewConditionalFormattingResult](./newconditionalformattingresult/) | Constructs from an implementation object. | 
 
 ## Methods
 

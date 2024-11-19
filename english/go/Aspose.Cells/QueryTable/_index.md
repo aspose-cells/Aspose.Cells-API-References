@@ -19,6 +19,11 @@ type QueryTable struct
 querytable, _ := asposecells.NewQueryTable()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewQueryTable](./newquerytable/) | Constructs from an implementation object. | 
 
 ## Methods
 

@@ -19,6 +19,12 @@ type RevisionCellComment struct
 revisioncellcomment, _ := asposecells.NewRevisionCellComment()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewRevisionCellComment_RevisionCellComment](./newrevisioncellcomment_revisioncellcomment/) | Constructs from an implementation object. | 
+|[NewRevisionCellComment_Revision](./newrevisioncellcomment_revision/) | Constructs from a parent object. | 
 
 ## Methods
 

@@ -19,6 +19,12 @@ type ComboBoxActiveXControl struct
 comboboxactivexcontrol, _ := asposecells.NewComboBoxActiveXControl()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewComboBoxActiveXControl_ComboBoxActiveXControl](./newcomboboxactivexcontrol_comboboxactivexcontrol/) | Constructs from an implementation object. | 
+|[NewComboBoxActiveXControl_ActiveXControl](./newcomboboxactivexcontrol_activexcontrol/) | Constructs from a parent object. | 
 
 ## Methods
 

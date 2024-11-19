@@ -19,6 +19,12 @@ type SettableGlobalizationSettings struct
 settableglobalizationsettings, _ := asposecells.NewSettableGlobalizationSettings()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewSettableGlobalizationSettings](./newsettableglobalizationsettings/) | Default constructor. | 
+|[NewSettableGlobalizationSettings_SettableGlobalizationSettings](./newsettableglobalizationsettings_settableglobalizationsettings/) | Constructs from an implementation object. | 
 
 ## Methods
 

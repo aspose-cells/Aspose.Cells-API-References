@@ -19,6 +19,11 @@ type Bevel struct
 bevel, _ := asposecells.NewBevel()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewBevel](./newbevel/) | Constructs from an implementation object. | 
 
 ## Methods
 

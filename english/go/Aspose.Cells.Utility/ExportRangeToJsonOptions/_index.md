@@ -19,6 +19,12 @@ type ExportRangeToJsonOptions struct
 exportrangetojsonoptions, _ := asposecells.NewExportRangeToJsonOptions()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewExportRangeToJsonOptions](./newexportrangetojsonoptions/) | Default constructor. | 
+|[NewExportRangeToJsonOptions_ExportRangeToJsonOptions](./newexportrangetojsonoptions_exportrangetojsonoptions/) | Constructs from an implementation object. | 
 
 ## Methods
 

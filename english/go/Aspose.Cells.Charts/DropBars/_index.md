@@ -19,6 +19,11 @@ type DropBars struct
 dropbars, _ := asposecells.NewDropBars()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewDropBars](./newdropbars/) | Constructs from an implementation object. | 
 
 ## Methods
 

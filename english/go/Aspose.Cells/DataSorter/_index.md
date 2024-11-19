@@ -19,6 +19,11 @@ type DataSorter struct
 datasorter, _ := asposecells.NewDataSorter()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewDataSorter](./newdatasorter/) | Constructs from an implementation object. | 
 
 ## Methods
 
@@ -30,6 +35,8 @@ datasorter, _ := asposecells.NewDataSorter()
 |[GetHasHeaders](./gethasheaders/) | Represents whether the range has headers. | 
 |[SetHasHeaders](./sethasheaders/) | Represents whether the range has headers. | 
 |[AddKey](./addkey/) | Adds sorted column index and sort order. | 
+|[AddKey](./addkey/) | Adds sorted column index and sort order with custom sort list. | 
+|[AddColorKey](./addcolorkey/) | Adds color sort key. | 
 |[AddKey](./addkey/) | Adds sorted column index and sort order with custom sort list. | 
 |[GetKey1](./getkey1/) | Represents first sorted column index(absolute position, column A is 0, B is 1, ...). | 
 |[SetKey1](./setkey1/) | Represents first sorted column index(absolute position, column A is 0, B is 1, ...). | 

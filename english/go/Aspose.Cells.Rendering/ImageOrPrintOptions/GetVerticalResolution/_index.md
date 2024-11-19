@@ -10,7 +10,7 @@ url: /go/aspose.cells.rendering/imageorprintoptions/getverticalresolution/
 
 ## GetVerticalResolution function
 
-Gets or sets the vertical  resolution for generated images, in dots per inch.Applies generating image method except Emf format image.
+Gets or sets the vertical resolution for generated images, in dots per inch.
 
 ```go
 

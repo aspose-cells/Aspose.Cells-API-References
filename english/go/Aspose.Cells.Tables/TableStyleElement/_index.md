@@ -19,6 +19,11 @@ type TableStyleElement struct
 tablestyleelement, _ := asposecells.NewTableStyleElement()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewTableStyleElement](./newtablestyleelement/) | Constructs from an implementation object. | 
 
 ## Methods
 

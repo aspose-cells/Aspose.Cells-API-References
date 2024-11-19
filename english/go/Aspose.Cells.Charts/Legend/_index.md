@@ -19,6 +19,12 @@ type Legend struct
 legend, _ := asposecells.NewLegend()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewLegend_Legend](./newlegend_legend/) | Constructs from an implementation object. | 
+|[NewLegend_ChartTextFrame](./newlegend_charttextframe/) | Constructs from a parent object. | 
 
 ## Methods
 

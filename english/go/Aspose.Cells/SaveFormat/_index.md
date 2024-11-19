@@ -62,3 +62,4 @@ type SaveFormat int32
 |[XHtml](./xhtml/) | Rrepesents XHtml file. | 
 |[Epub](./epub/) | Represents Epub file. | 
 |[Azw3](./azw3/) | Represents Azw3 file. | 
+|[Pcl](./pcl/) | PCL (Printer Command Language) | 

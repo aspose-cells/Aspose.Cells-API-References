@@ -19,6 +19,11 @@ type FontSourceBase struct
 fontsourcebase, _ := asposecells.NewFontSourceBase()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewFontSourceBase](./newfontsourcebase/) | Constructs from an implementation object. | 
 
 ## Methods
 

@@ -19,6 +19,11 @@ type DataBarBorder struct
 databarborder, _ := asposecells.NewDataBarBorder()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewDataBarBorder](./newdatabarborder/) | Constructs from an implementation object. | 
 
 ## Methods
 

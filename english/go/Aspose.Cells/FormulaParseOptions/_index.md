@@ -19,6 +19,12 @@ type FormulaParseOptions struct
 formulaparseoptions, _ := asposecells.NewFormulaParseOptions()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewFormulaParseOptions](./newformulaparseoptions/) | Default constructor. | 
+|[NewFormulaParseOptions_FormulaParseOptions](./newformulaparseoptions_formulaparseoptions/) | Constructs from an implementation object. | 
 
 ## Methods
 

@@ -19,6 +19,11 @@ type TableStyle struct
 tablestyle, _ := asposecells.NewTableStyle()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewTableStyle](./newtablestyle/) | Constructs from an implementation object. | 
 
 ## Methods
 

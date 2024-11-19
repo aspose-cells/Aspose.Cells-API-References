@@ -19,6 +19,11 @@ type TextBoxCollection struct
 textboxcollection, _ := asposecells.NewTextBoxCollection()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewTextBoxCollection](./newtextboxcollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

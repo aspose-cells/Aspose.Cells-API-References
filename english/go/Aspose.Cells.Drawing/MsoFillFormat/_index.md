@@ -19,6 +19,11 @@ type MsoFillFormat struct
 msofillformat, _ := asposecells.NewMsoFillFormat()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewMsoFillFormat](./newmsofillformat/) | Constructs from an implementation object. | 
 
 ## Methods
 

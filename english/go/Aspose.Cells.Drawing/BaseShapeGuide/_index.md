@@ -19,6 +19,11 @@ type BaseShapeGuide struct
 baseshapeguide, _ := asposecells.NewBaseShapeGuide()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewBaseShapeGuide](./newbaseshapeguide/) | Constructs from an implementation object. | 
 
 ## Methods
 

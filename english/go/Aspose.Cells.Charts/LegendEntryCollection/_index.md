@@ -19,6 +19,11 @@ type LegendEntryCollection struct
 legendentrycollection, _ := asposecells.NewLegendEntryCollection()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewLegendEntryCollection](./newlegendentrycollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

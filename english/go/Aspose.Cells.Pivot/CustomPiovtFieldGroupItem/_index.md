@@ -19,6 +19,11 @@ type CustomPiovtFieldGroupItem struct
 custompiovtfieldgroupitem, _ := asposecells.NewCustomPiovtFieldGroupItem()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewCustomPiovtFieldGroupItem](./newcustompiovtfieldgroupitem/) | Constructs from an implementation object. | 
 
 ## Methods
 

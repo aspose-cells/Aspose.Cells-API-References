@@ -19,6 +19,11 @@ type DataMashup struct
 datamashup, _ := asposecells.NewDataMashup()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewDataMashup](./newdatamashup/) | Constructs from an implementation object. | 
 
 ## Methods
 
@@ -26,4 +31,3 @@ datamashup, _ := asposecells.NewDataMashup()
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[GetPowerQueryFormulas](./getpowerqueryformulas/) | Gets all power query formulas. | 
-|[GetPowerQueryFormulaParameters](./getpowerqueryformulaparameters/) | Gets all parameters of power query formulas. | 

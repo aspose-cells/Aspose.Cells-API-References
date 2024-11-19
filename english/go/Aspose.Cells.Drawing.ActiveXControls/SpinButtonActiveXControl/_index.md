@@ -19,6 +19,12 @@ type SpinButtonActiveXControl struct
 spinbuttonactivexcontrol, _ := asposecells.NewSpinButtonActiveXControl()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewSpinButtonActiveXControl_SpinButtonActiveXControl](./newspinbuttonactivexcontrol_spinbuttonactivexcontrol/) | Constructs from an implementation object. | 
+|[NewSpinButtonActiveXControl_ActiveXControl](./newspinbuttonactivexcontrol_activexcontrol/) | Constructs from a parent object. | 
 
 ## Methods
 

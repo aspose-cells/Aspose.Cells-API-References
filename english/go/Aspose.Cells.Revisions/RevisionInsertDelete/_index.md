@@ -19,6 +19,12 @@ type RevisionInsertDelete struct
 revisioninsertdelete, _ := asposecells.NewRevisionInsertDelete()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewRevisionInsertDelete_RevisionInsertDelete](./newrevisioninsertdelete_revisioninsertdelete/) | Constructs from an implementation object. | 
+|[NewRevisionInsertDelete_Revision](./newrevisioninsertdelete_revision/) | Constructs from a parent object. | 
 
 ## Methods
 

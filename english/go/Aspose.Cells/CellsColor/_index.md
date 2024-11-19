@@ -19,6 +19,11 @@ type CellsColor struct
 cellscolor, _ := asposecells.NewCellsColor()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewCellsColor](./newcellscolor/) | Constructs from an implementation object. | 
 
 ## Methods
 

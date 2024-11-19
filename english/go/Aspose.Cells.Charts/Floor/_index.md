@@ -19,6 +19,12 @@ type Floor struct
 floor, _ := asposecells.NewFloor()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewFloor_Floor](./newfloor_floor/) | Constructs from an implementation object. | 
+|[NewFloor_Area](./newfloor_area/) | Constructs from a parent object. | 
 
 ## Methods
 
@@ -27,10 +33,10 @@ floor, _ := asposecells.NewFloor()
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[GetBorder](./getborder/) | Gets or sets the border <see cref="Line"/>. | 
 |[SetBorder](./setborder/) | Gets or sets the border <see cref="Line"/>. | 
-|[GetBackgroundColor](./getbackgroundcolor/) | Gets or sets the background <see cref="System.Drawing.Color"/> of the <see cref="Area"/>. | 
-|[SetBackgroundColor](./setbackgroundcolor/) | Gets or sets the background <see cref="System.Drawing.Color"/> of the <see cref="Area"/>. | 
-|[GetForegroundColor](./getforegroundcolor/) | Gets or sets the foreground <see cref="System.Drawing.Color"/>. | 
-|[SetForegroundColor](./setforegroundcolor/) | Gets or sets the foreground <see cref="System.Drawing.Color"/>. | 
+|[GetBackgroundColor](./getbackgroundcolor/) | Gets or sets the background <see cref="Color"/> of the <see cref="Area"/>. | 
+|[SetBackgroundColor](./setbackgroundcolor/) | Gets or sets the background <see cref="Color"/> of the <see cref="Area"/>. | 
+|[GetForegroundColor](./getforegroundcolor/) | Gets or sets the foreground <see cref="Color"/>. | 
+|[SetForegroundColor](./setforegroundcolor/) | Gets or sets the foreground <see cref="Color"/>. | 
 |[GetFormatting](./getformatting/) | Represents the formatting of the area. | 
 |[SetFormatting](./setformatting/) | Represents the formatting of the area. | 
 |[GetInvertIfNegative](./getinvertifnegative/) | If the property is true and the value of chart point is a negative number,the foreground color and background color will be exchanged. | 

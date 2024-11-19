@@ -19,6 +19,12 @@ type DigitalSignature struct
 digitalsignature, _ := asposecells.NewDigitalSignature()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewDigitalSignature_String_String_String_Date](./newdigitalsignature_string_string_string_date/) | Constructor of DigitalSignature. | 
+|[NewDigitalSignature_DigitalSignature](./newdigitalsignature_digitalsignature/) | Constructs from an implementation object. | 
 
 ## Methods
 

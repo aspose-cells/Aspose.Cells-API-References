@@ -10,7 +10,7 @@ url: /go/aspose.cells.drawing/area/getforegroundcolor/
 
 ## GetForegroundColor function
 
-Gets or sets the foreground <see cref="System.Drawing.Color"/>.
+Gets or sets the foreground <see cref="Color"/>.
 
 ```go
 

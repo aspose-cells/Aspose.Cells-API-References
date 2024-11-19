@@ -19,13 +19,20 @@ type CustomFilterCollection struct
 customfiltercollection, _ := asposecells.NewCustomFilterCollection()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewCustomFilterCollection](./newcustomfiltercollection/) | Constructs new instance. | 
+|[NewCustomFilterCollection_CustomFilterCollection](./newcustomfiltercollection_customfiltercollection/) | Constructs from an implementation object. | 
+|[NewCustomFilterCollection_Object](./newcustomfiltercollection_object/) | Constructs from an Object convertible to this. | 
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
-|[GetIObject](./getiobject/) | Gets the IObject pointer of this object. | 
+|[ToObject](./toobject/) | Gets the Object. | 
 |[GetAnd](./getand/) | Indicates whether the two criteria have an "and" relationship. | 
 |[SetAnd](./setand/) | Indicates whether the two criteria have an "and" relationship. | 
 |[Get](./get/) | Gets the custom filter in the specific index. | 

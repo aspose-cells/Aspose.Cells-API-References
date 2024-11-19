@@ -19,6 +19,12 @@ type ShapePath struct
 shapepath, _ := asposecells.NewShapePath()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewShapePath](./newshapepath/) | Initializes a new instance of the <see cref="ShapePath"/> class. | 
+|[NewShapePath_ShapePath](./newshapepath_shapepath/) | Constructs from an implementation object. | 
 
 ## Methods
 
@@ -26,3 +32,8 @@ shapepath, _ := asposecells.NewShapePath()
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[GetPathSegementList](./getpathsegementlist/) | Gets <see cref="ShapeSegmentPathCollection"/> list | 
+|[MoveTo](./moveto/) | Starts a new figure from the specified point without closing the current figure. All subsequent points added to the path are added to this new figure. | 
+|[LineTo](./lineto/) | Appends a line segment to the current figure. The starting point is the end point of the current figure. | 
+|[CubicBezierTo](./cubicbezierto/) | Appends a cubic Bézier curve to the current figure. The starting point is the end point of the current figure. | 
+|[ArcTo](./arcto/) | Appends an elliptical arc to the current figure. The starting point is the end point of the current figure. | 
+|[Close](./close/) | Closes the current figure and starts a new figure. If the current figure contains a sequence of connected lines and curves, the method closes the loop by connecting a line from the endpoint to the starting point. | 

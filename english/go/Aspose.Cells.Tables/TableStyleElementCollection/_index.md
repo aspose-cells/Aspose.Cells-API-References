@@ -19,6 +19,11 @@ type TableStyleElementCollection struct
 tablestyleelementcollection, _ := asposecells.NewTableStyleElementCollection()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewTableStyleElementCollection](./newtablestyleelementcollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

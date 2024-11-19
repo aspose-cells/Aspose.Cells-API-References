@@ -19,6 +19,13 @@ type FolderFontSource struct
 folderfontsource, _ := asposecells.NewFolderFontSource()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewFolderFontSource_String_Bool](./newfolderfontsource_string_bool/) | Ctor. | 
+|[NewFolderFontSource_FolderFontSource](./newfolderfontsource_folderfontsource/) | Constructs from an implementation object. | 
+|[NewFolderFontSource_FontSourceBase](./newfolderfontsource_fontsourcebase/) | Constructs from a parent object. | 
 
 ## Methods
 

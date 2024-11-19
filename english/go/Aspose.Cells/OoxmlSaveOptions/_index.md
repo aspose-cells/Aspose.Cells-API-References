@@ -19,6 +19,14 @@ type OoxmlSaveOptions struct
 ooxmlsaveoptions, _ := asposecells.NewOoxmlSaveOptions()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewOoxmlSaveOptions](./newooxmlsaveoptions/) | Creates the options for saving office open xml file. | 
+|[NewOoxmlSaveOptions_SaveFormat](./newooxmlsaveoptions_saveformat/) | Creates the options for saving office open xml file. | 
+|[NewOoxmlSaveOptions_OoxmlSaveOptions](./newooxmlsaveoptions_ooxmlsaveoptions/) | Constructs from an implementation object. | 
+|[NewOoxmlSaveOptions_SaveOptions](./newooxmlsaveoptions_saveoptions/) | Constructs from a parent object. | 
 
 ## Methods
 

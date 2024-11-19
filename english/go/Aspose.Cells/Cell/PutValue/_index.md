@@ -10,11 +10,11 @@ url: /go/aspose.cells/cell/putvalue/
 
 ## PutValue function
 
-Puts a DateTime value into the cell.
+Puts an object value into the cell.
 
 ```go
 
-func (instance *Cell) PutValue_Date(datetime *Date)  error
+func (instance *Cell) PutValue_Object(objectvalue *Object)  error
 
 ```
 

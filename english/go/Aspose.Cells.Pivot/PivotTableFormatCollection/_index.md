@@ -19,6 +19,11 @@ type PivotTableFormatCollection struct
 pivottableformatcollection, _ := asposecells.NewPivotTableFormatCollection()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewPivotTableFormatCollection](./newpivottableformatcollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

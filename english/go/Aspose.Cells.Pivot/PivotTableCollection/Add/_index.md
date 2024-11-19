@@ -10,7 +10,7 @@ url: /go/aspose.cells.pivot/pivottablecollection/add/
 
 ## Add function
 
-Adds a new PivotTable Object to the collection from another PivotTable.
+Adds a new PivotTable based on another PivotTable.
 
 ```go
 

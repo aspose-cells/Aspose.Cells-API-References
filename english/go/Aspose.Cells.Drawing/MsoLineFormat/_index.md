@@ -19,6 +19,11 @@ type MsoLineFormat struct
 msolineformat, _ := asposecells.NewMsoLineFormat()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewMsoLineFormat](./newmsolineformat/) | Constructs from an implementation object. | 
 
 ## Methods
 

@@ -19,6 +19,11 @@ type ScenarioCollection struct
 scenariocollection, _ := asposecells.NewScenarioCollection()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewScenarioCollection](./newscenariocollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

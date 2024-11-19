@@ -40,6 +40,7 @@ type LoadFormat int32
 |[Xml](./xml/) | Represents a simple xml file. | 
 |[Epub](./epub/) | Reprents an EPUB file. | 
 |[Azw3](./azw3/) | Represents an AZW3 file. | 
+|[Chm](./chm/) | Represents a CHM file. | 
 |[Unknown](./unknown/) | Represents unrecognized format, cannot be loaded. | 
 |[Image](./image/) | Image | 
 |[Json](./json/) | Json | 

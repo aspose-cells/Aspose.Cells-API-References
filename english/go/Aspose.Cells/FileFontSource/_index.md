@@ -19,6 +19,13 @@ type FileFontSource struct
 filefontsource, _ := asposecells.NewFileFontSource()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewFileFontSource_String](./newfilefontsource_string/) | Ctor. | 
+|[NewFileFontSource_FileFontSource](./newfilefontsource_filefontsource/) | Constructs from an implementation object. | 
+|[NewFileFontSource_FontSourceBase](./newfilefontsource_fontsourcebase/) | Constructs from a parent object. | 
 
 ## Methods
 

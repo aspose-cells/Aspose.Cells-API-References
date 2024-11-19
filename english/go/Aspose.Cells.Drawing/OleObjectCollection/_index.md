@@ -19,6 +19,11 @@ type OleObjectCollection struct
 oleobjectcollection, _ := asposecells.NewOleObjectCollection()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewOleObjectCollection](./newoleobjectcollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

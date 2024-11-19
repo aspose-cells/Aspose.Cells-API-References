@@ -19,6 +19,12 @@ type StyleFlag struct
 styleflag, _ := asposecells.NewStyleFlag()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewStyleFlag](./newstyleflag/) | Constructs an object with all flags as false. | 
+|[NewStyleFlag_StyleFlag](./newstyleflag_styleflag/) | Constructs from an implementation object. | 
 
 ## Methods
 

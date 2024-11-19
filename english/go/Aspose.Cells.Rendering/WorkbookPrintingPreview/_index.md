@@ -19,6 +19,12 @@ type WorkbookPrintingPreview struct
 workbookprintingpreview, _ := asposecells.NewWorkbookPrintingPreview()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewWorkbookPrintingPreview_Workbook_ImageOrPrintOptions](./newworkbookprintingpreview_workbook_imageorprintoptions/) | The construct of WorkbookPrintingPreview | 
+|[NewWorkbookPrintingPreview_WorkbookPrintingPreview](./newworkbookprintingpreview_workbookprintingpreview/) | Constructs from an implementation object. | 
 
 ## Methods
 

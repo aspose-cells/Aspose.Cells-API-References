@@ -19,6 +19,13 @@ type NoneBulletValue struct
 nonebulletvalue, _ := asposecells.NewNoneBulletValue()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewNoneBulletValue](./newnonebulletvalue/) | Default constructor. | 
+|[NewNoneBulletValue_NoneBulletValue](./newnonebulletvalue_nonebulletvalue/) | Constructs from an implementation object. | 
+|[NewNoneBulletValue_BulletValue](./newnonebulletvalue_bulletvalue/) | Constructs from a parent object. | 
 
 ## Methods
 

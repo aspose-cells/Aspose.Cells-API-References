@@ -19,6 +19,11 @@ type OdsCellFieldCollection struct
 odscellfieldcollection, _ := asposecells.NewOdsCellFieldCollection()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewOdsCellFieldCollection](./newodscellfieldcollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

@@ -19,6 +19,13 @@ type JsonSaveOptions struct
 jsonsaveoptions, _ := asposecells.NewJsonSaveOptions()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewJsonSaveOptions](./newjsonsaveoptions/) | Creates options for saving json file. | 
+|[NewJsonSaveOptions_JsonSaveOptions](./newjsonsaveoptions_jsonsaveoptions/) | Constructs from an implementation object. | 
+|[NewJsonSaveOptions_SaveOptions](./newjsonsaveoptions_saveoptions/) | Constructs from a parent object. | 
 
 ## Methods
 

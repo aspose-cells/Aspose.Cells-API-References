@@ -19,6 +19,11 @@ type AdvancedFilter struct
 advancedfilter, _ := asposecells.NewAdvancedFilter()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewAdvancedFilter](./newadvancedfilter/) | Constructs from an implementation object. | 
 
 ## Methods
 

@@ -19,6 +19,12 @@ type DataSorterKeyCollection struct
 datasorterkeycollection, _ := asposecells.NewDataSorterKeyCollection()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewDataSorterKeyCollection](./newdatasorterkeycollection/) | Default constructor. | 
+|[NewDataSorterKeyCollection_DataSorterKeyCollection](./newdatasorterkeycollection_datasorterkeycollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

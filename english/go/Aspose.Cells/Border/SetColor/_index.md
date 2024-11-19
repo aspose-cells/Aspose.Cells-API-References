@@ -10,7 +10,7 @@ url: /go/aspose.cells/border/setcolor/
 
 ## SetColor function
 
-Gets or sets the <see cref="System.Drawing.Color"/> of the border.
+Gets or sets the <see cref="Color"/> of the border.
 
 ```go
 

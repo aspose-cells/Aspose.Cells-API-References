@@ -19,6 +19,12 @@ type PivotDiscreteGroupSettings struct
 pivotdiscretegroupsettings, _ := asposecells.NewPivotDiscreteGroupSettings()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewPivotDiscreteGroupSettings_PivotDiscreteGroupSettings](./newpivotdiscretegroupsettings_pivotdiscretegroupsettings/) | Constructs from an implementation object. | 
+|[NewPivotDiscreteGroupSettings_PivotFieldGroupSettings](./newpivotdiscretegroupsettings_pivotfieldgroupsettings/) | Constructs from a parent object. | 
 
 ## Methods
 

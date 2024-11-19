@@ -19,6 +19,12 @@ type PageStartSavingArgs struct
 pagestartsavingargs, _ := asposecells.NewPageStartSavingArgs()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewPageStartSavingArgs_PageStartSavingArgs](./newpagestartsavingargs_pagestartsavingargs/) | Constructs from an implementation object. | 
+|[NewPageStartSavingArgs_PageSavingArgs](./newpagestartsavingargs_pagesavingargs/) | Constructs from a parent object. | 
 
 ## Methods
 

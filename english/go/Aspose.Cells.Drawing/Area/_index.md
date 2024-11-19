@@ -19,16 +19,21 @@ type Area struct
 area, _ := asposecells.NewArea()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewArea](./newarea/) | Constructs from an implementation object. | 
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
-|[GetBackgroundColor](./getbackgroundcolor/) | Gets or sets the background <see cref="System.Drawing.Color"/> of the <see cref="Area"/>. | 
-|[SetBackgroundColor](./setbackgroundcolor/) | Gets or sets the background <see cref="System.Drawing.Color"/> of the <see cref="Area"/>. | 
-|[GetForegroundColor](./getforegroundcolor/) | Gets or sets the foreground <see cref="System.Drawing.Color"/>. | 
-|[SetForegroundColor](./setforegroundcolor/) | Gets or sets the foreground <see cref="System.Drawing.Color"/>. | 
+|[GetBackgroundColor](./getbackgroundcolor/) | Gets or sets the background <see cref="Color"/> of the <see cref="Area"/>. | 
+|[SetBackgroundColor](./setbackgroundcolor/) | Gets or sets the background <see cref="Color"/> of the <see cref="Area"/>. | 
+|[GetForegroundColor](./getforegroundcolor/) | Gets or sets the foreground <see cref="Color"/>. | 
+|[SetForegroundColor](./setforegroundcolor/) | Gets or sets the foreground <see cref="Color"/>. | 
 |[GetFormatting](./getformatting/) | Represents the formatting of the area. | 
 |[SetFormatting](./setformatting/) | Represents the formatting of the area. | 
 |[GetInvertIfNegative](./getinvertifnegative/) | If the property is true and the value of chart point is a negative number,the foreground color and background color will be exchanged. | 

@@ -19,6 +19,11 @@ type ExternalLinkCollection struct
 externallinkcollection, _ := asposecells.NewExternalLinkCollection()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewExternalLinkCollection](./newexternallinkcollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

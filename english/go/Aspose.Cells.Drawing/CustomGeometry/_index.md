@@ -19,6 +19,12 @@ type CustomGeometry struct
 customgeometry, _ := asposecells.NewCustomGeometry()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewCustomGeometry_CustomGeometry](./newcustomgeometry_customgeometry/) | Constructs from an implementation object. | 
+|[NewCustomGeometry_Geometry](./newcustomgeometry_geometry/) | Constructs from a parent object. | 
 
 ## Methods
 

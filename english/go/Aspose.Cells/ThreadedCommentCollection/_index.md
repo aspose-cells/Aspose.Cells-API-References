@@ -19,6 +19,11 @@ type ThreadedCommentCollection struct
 threadedcommentcollection, _ := asposecells.NewThreadedCommentCollection()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewThreadedCommentCollection](./newthreadedcommentcollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

@@ -19,6 +19,11 @@ type ColorHelper struct
 colorhelper, _ := asposecells.NewColorHelper()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewColorHelper](./newcolorhelper/) | Constructs from an implementation object. | 
 
 ## Methods
 

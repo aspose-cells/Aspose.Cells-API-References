@@ -19,6 +19,14 @@ type DocxSaveOptions struct
 docxsaveoptions, _ := asposecells.NewDocxSaveOptions()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewDocxSaveOptions](./newdocxsaveoptions/) | Represents options of saving .docx file. | 
+|[NewDocxSaveOptions_Bool](./newdocxsaveoptions_bool/) | Represents options of saving .docx file. | 
+|[NewDocxSaveOptions_DocxSaveOptions](./newdocxsaveoptions_docxsaveoptions/) | Constructs from an implementation object. | 
+|[NewDocxSaveOptions_PaginatedSaveOptions](./newdocxsaveoptions_paginatedsaveoptions/) | Constructs from a parent object. | 
 
 ## Methods
 

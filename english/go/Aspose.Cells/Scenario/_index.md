@@ -19,6 +19,11 @@ type Scenario struct
 scenario, _ := asposecells.NewScenario()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewScenario](./newscenario/) | Constructs from an implementation object. | 
 
 ## Methods
 

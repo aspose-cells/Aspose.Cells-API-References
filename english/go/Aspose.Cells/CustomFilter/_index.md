@@ -19,6 +19,11 @@ type CustomFilter struct
 customfilter, _ := asposecells.NewCustomFilter()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewCustomFilter](./newcustomfilter/) | Constructs from an implementation object. | 
 
 ## Methods
 
@@ -27,3 +32,6 @@ customfilter, _ := asposecells.NewCustomFilter()
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[GetFilterOperatorType](./getfilteroperatortype/) | Gets and sets the filter operator type. | 
 |[SetFilterOperatorType](./setfilteroperatortype/) | Gets and sets the filter operator type. | 
+|[GetCriteria](./getcriteria/) | Gets and sets the criteria. | 
+|[SetCriteria](./setcriteria/) | Gets and sets the criteria. | 
+|[SetCriteria](./setcriteria/) | Sets the filter criteria. | 

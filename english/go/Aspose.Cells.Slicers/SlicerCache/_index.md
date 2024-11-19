@@ -19,6 +19,11 @@ type SlicerCache struct
 slicercache, _ := asposecells.NewSlicerCache()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewSlicerCache](./newslicercache/) | Constructs from an implementation object. | 
 
 ## Methods
 

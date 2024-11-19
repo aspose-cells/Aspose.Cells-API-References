@@ -19,6 +19,11 @@ type PowerQueryFormulaItem struct
 powerqueryformulaitem, _ := asposecells.NewPowerQueryFormulaItem()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewPowerQueryFormulaItem](./newpowerqueryformulaitem/) | Constructs from an implementation object. | 
 
 ## Methods
 

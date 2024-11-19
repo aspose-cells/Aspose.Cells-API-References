@@ -19,6 +19,11 @@ type ListObject struct
 listobject, _ := asposecells.NewListObject()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewListObject](./newlistobject/) | Constructs from an implementation object. | 
 
 ## Methods
 
@@ -31,6 +36,8 @@ listobject, _ := asposecells.NewListObject()
 |[GetEndColumn](./getendcolumn/) | Gets the end column of the range. | 
 |[GetListColumns](./getlistcolumns/) | Gets ListColumns of the ListObject. | 
 |[Resize](./resize/) | Resize the range of the list object. | 
+|[PutCellValue](./putcellvalue/) | Put the value to the cell. | 
+|[PutCellValue](./putcellvalue/) | Put the value to the cell. | 
 |[PutCellFormula](./putcellformula/) | Put the formula to the cell in the table. | 
 |[PutCellFormula](./putcellformula/) | Put the formula to the cell in the table. | 
 |[GetShowHeaderRow](./getshowheaderrow/) | Gets and sets whether this ListObject show header row. | 

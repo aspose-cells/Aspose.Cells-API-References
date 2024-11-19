@@ -19,6 +19,12 @@ type PdfBookmarkEntry struct
 pdfbookmarkentry, _ := asposecells.NewPdfBookmarkEntry()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewPdfBookmarkEntry](./newpdfbookmarkentry/) | Default constructor. | 
+|[NewPdfBookmarkEntry_PdfBookmarkEntry](./newpdfbookmarkentry_pdfbookmarkentry/) | Constructs from an implementation object. | 
 
 ## Methods
 

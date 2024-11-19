@@ -19,12 +19,19 @@ type CalculationData struct
 calculationdata, _ := asposecells.NewCalculationData()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewCalculationData](./newcalculationdata/) | Constructs from an implementation object. | 
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
+|[GetCalculatedValue](./getcalculatedvalue/) | Gets or sets the calculated value for this function. | 
+|[SetCalculatedValue](./setcalculatedvalue/) | Gets or sets the calculated value for this function. | 
 |[GetWorkbook](./getworkbook/) | Gets the Workbook object where the function is in. | 
 |[GetWorksheet](./getworksheet/) | Gets the Worksheet object where the function is in. | 
 |[GetCellRow](./getcellrow/) | Gets the row index of the cell where the function is in. | 
@@ -32,4 +39,5 @@ calculationdata, _ := asposecells.NewCalculationData()
 |[GetCell](./getcell/) | Gets the Cell object where the function is in. | 
 |[GetFunctionName](./getfunctionname/) | Gets the function name to be calculated. | 
 |[GetParamCount](./getparamcount/) | Gets the count of parameters | 
+|[GetParamValue](./getparamvalue/) | Gets the represented value object of the parameter at given index. | 
 |[GetParamText](./getparamtext/) | Gets the literal text of the parameter at given index. | 

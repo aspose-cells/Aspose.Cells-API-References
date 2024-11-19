@@ -19,6 +19,11 @@ type XmlDataBinding struct
 xmldatabinding, _ := asposecells.NewXmlDataBinding()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewXmlDataBinding](./newxmldatabinding/) | Constructs from an implementation object. | 
 
 ## Methods
 

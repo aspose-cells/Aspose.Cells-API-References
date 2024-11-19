@@ -19,6 +19,11 @@ type ThreeDFormat struct
 threedformat, _ := asposecells.NewThreeDFormat()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewThreeDFormat](./newthreedformat/) | Constructs from an implementation object. | 
 
 ## Methods
 
@@ -66,3 +71,4 @@ threedformat, _ := asposecells.NewThreeDFormat()
 |[GetPresetCameraType](./getpresetcameratype/) | Gets and sets the extrusion preset camera type. | 
 |[SetPresetCameraType](./setpresetcameratype/) | Gets and sets the extrusion preset camera type. | 
 |[GetHashCode](./gethashcode/) | Gets hashcode. | 
+|[Equals](./equals/) |  | 

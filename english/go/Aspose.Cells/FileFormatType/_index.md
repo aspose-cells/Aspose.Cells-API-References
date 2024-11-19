@@ -80,6 +80,7 @@ type FileFormatType int32
 |[Sxc](./sxc/) | Represents StarOffice Calc Spreadsheet (.sxc) file format. | 
 |[Otp](./otp/) | Represents a OTP file. | 
 |[Numbers35](./numbers35/) | Represents Numbers 3.5 file format since 2014 by Apple Inc | 
+|[Ole](./ole/) | Represents the embedded ole object. | 
 |[Emf](./emf/) | Windows Enhanced Metafile. | 
 |[Wmf](./wmf/) | Windows Metafile. | 
 |[Jpg](./jpg/) | JPEG JFIF. | 
@@ -94,5 +95,6 @@ type FileFormatType int32
 |[Rtf](./rtf/) | Rtf | 
 |[Epub](./epub/) | EPUB | 
 |[Azw3](./azw3/) | AZW3 | 
+|[Chm](./chm/) | CHM | 
 |[Oxps](./oxps/) | OXPS (Open XML Paper Specification) format. | 
 |[GZip](./gzip/) | Rrepesents GZip file. | 

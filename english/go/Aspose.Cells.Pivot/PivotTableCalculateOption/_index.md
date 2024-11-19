@@ -19,6 +19,12 @@ type PivotTableCalculateOption struct
 pivottablecalculateoption, _ := asposecells.NewPivotTableCalculateOption()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewPivotTableCalculateOption](./newpivottablecalculateoption/) | Default constructor. | 
+|[NewPivotTableCalculateOption_PivotTableCalculateOption](./newpivottablecalculateoption_pivottablecalculateoption/) | Constructs from an implementation object. | 
 
 ## Methods
 

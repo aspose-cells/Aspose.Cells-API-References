@@ -19,6 +19,15 @@ type Workbook struct
 workbook, _ := asposecells.NewWorkbook()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewWorkbook](./newworkbook/) | Initializes a new instance of the <see cref="Workbook"/> class. | 
+|[NewWorkbook_FileFormatType](./newworkbook_fileformattype/) | Initializes a new instance of the <see cref="Workbook"/> class. | 
+|[NewWorkbook_String](./newworkbook_string/) | Initializes a new instance of the <see cref="Workbook"/> class and open a file. | 
+|[NewWorkbook_String_LoadOptions](./newworkbook_string_loadoptions/) | Initializes a new instance of the <see cref="Workbook"/> class and open a file. | 
+|[NewWorkbook_Workbook](./newworkbook_workbook/) | Constructs from an implementation object. | 
 
 ## Methods
 
@@ -41,6 +50,8 @@ workbook, _ := asposecells.NewWorkbook()
 |[Replace](./replace/) | Replaces a cell's value with a new string. | 
 |[Replace](./replace/) | Replaces a cell's value with a new integer. | 
 |[Replace](./replace/) | Replaces a cell's value with a new double. | 
+|[Replace](./replace/) | Replaces cells' values with new data. | 
+|[Replace](./replace/) | Replaces cells' values with new data. | 
 |[Replace](./replace/) | Replaces a cell's value with a new string. | 
 |[Copy](./copy/) | Copies another Workbook object. | 
 |[Copy](./copy/) | Copies data from a source Workbook object. | 
@@ -100,4 +111,5 @@ workbook, _ := asposecells.NewWorkbook()
 |[AddDigitalSignature](./adddigitalsignature/) | Adds digital signature to an OOXML spreadsheet file (Excel2007 and later). | 
 |[GetDigitalSignature](./getdigitalsignature/) | Gets digital signature from file. | 
 |[RemovePersonalInformation](./removepersonalinformation/) | Removes personal information. | 
+|[GetDataModel](./getdatamodel/) | Gets data model in the workbook. | 
 |[Dispose](./dispose/) | Performs application-defined tasks associated with freeing, releasing, orresetting unmanaged resources. | 

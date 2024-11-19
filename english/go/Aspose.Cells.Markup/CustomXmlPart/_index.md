@@ -19,6 +19,11 @@ type CustomXmlPart struct
 customxmlpart, _ := asposecells.NewCustomXmlPart()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewCustomXmlPart](./newcustomxmlpart/) | Constructs from an implementation object. | 
 
 ## Methods
 

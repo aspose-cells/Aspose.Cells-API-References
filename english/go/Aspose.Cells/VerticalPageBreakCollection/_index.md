@@ -19,6 +19,11 @@ type VerticalPageBreakCollection struct
 verticalpagebreakcollection, _ := asposecells.NewVerticalPageBreakCollection()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewVerticalPageBreakCollection](./newverticalpagebreakcollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

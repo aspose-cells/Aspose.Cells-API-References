@@ -19,6 +19,11 @@ type ReferredAreaCollection struct
 referredareacollection, _ := asposecells.NewReferredAreaCollection()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewReferredAreaCollection](./newreferredareacollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

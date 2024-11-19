@@ -19,6 +19,12 @@ type CopyOptions struct
 copyoptions, _ := asposecells.NewCopyOptions()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewCopyOptions](./newcopyoptions/) | CopyOptions constructor. | 
+|[NewCopyOptions_CopyOptions](./newcopyoptions_copyoptions/) | Constructs from an implementation object. | 
 
 ## Methods
 

@@ -19,6 +19,11 @@ type Slicer struct
 slicer, _ := asposecells.NewSlicer()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewSlicer](./newslicer/) | Constructs from an implementation object. | 
 
 ## Methods
 

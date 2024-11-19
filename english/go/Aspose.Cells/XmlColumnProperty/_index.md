@@ -19,6 +19,12 @@ type XmlColumnProperty struct
 xmlcolumnproperty, _ := asposecells.NewXmlColumnProperty()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewXmlColumnProperty](./newxmlcolumnproperty/) | Default constructor. | 
+|[NewXmlColumnProperty_XmlColumnProperty](./newxmlcolumnproperty_xmlcolumnproperty/) | Constructs from an implementation object. | 
 
 ## Methods
 

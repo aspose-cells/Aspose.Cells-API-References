@@ -10,7 +10,7 @@ url: /go/aspose.cells.querytables/powerqueryformulaparameter/getname/
 
 ## GetName function
 
-Gets the name of parameter.
+Gets and sets the name of the power query formula.
 
 ```go
 

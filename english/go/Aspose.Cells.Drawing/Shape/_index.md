@@ -19,6 +19,11 @@ type Shape struct
 shape, _ := asposecells.NewShape()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewShape](./newshape/) | Constructs from an implementation object. | 
 
 ## Methods
 
@@ -198,6 +203,7 @@ shape, _ := asposecells.NewShape()
 |[SetTextVerticalAlignment](./settextverticalalignment/) | Gets and sets the text vertical alignment type of the shape. | 
 |[GetTextDirection](./gettextdirection/) | Gets/Sets the direction of the text flow for this object. | 
 |[SetTextDirection](./settextdirection/) | Gets/Sets the direction of the text flow for this object. | 
+|[GetTextBoxOptions](./gettextboxoptions/) | Gets the text information in the shape | 
 |[GetActiveXControl](./getactivexcontrol/) | Gets the ActiveX control. | 
 |[RemoveActiveXControl](./removeactivexcontrol/) | Remove activeX control. | 
 |[GetPaths](./getpaths/) | Gets the paths of a custom geometric shape. | 
@@ -207,3 +213,4 @@ shape, _ := asposecells.NewShape()
 |[IsDecorative](./isdecorative/) | Indicates whether the object is decorative. | 
 |[SetIsDecorative](./setisdecorative/) | Indicates whether the object is decorative. | 
 |[GetResultOfSmartArt](./getresultofsmartart/) | Converting smart art to grouped shapes. | 
+|[IsSameSetting](./issamesetting/) | Returns whether the shape is same. | 

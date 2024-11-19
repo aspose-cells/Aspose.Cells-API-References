@@ -19,6 +19,12 @@ type ThemeColor struct
 themecolor, _ := asposecells.NewThemeColor()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewThemeColor_ThemeColorType_Double](./newthemecolor_themecolortype_double/) |  | 
+|[NewThemeColor_ThemeColor](./newthemecolor_themecolor/) | Constructs from an implementation object. | 
 
 ## Methods
 

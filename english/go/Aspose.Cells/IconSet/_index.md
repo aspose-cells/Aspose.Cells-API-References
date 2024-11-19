@@ -19,6 +19,11 @@ type IconSet struct
 iconset, _ := asposecells.NewIconSet()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewIconSet](./newiconset/) | Constructs from an implementation object. | 
 
 ## Methods
 

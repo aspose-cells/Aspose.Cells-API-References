@@ -19,6 +19,12 @@ type RevisionCustomView struct
 revisioncustomview, _ := asposecells.NewRevisionCustomView()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewRevisionCustomView_RevisionCustomView](./newrevisioncustomview_revisioncustomview/) | Constructs from an implementation object. | 
+|[NewRevisionCustomView_Revision](./newrevisioncustomview_revision/) | Constructs from a parent object. | 
 
 ## Methods
 

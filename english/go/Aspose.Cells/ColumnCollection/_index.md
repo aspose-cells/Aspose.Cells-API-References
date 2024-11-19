@@ -19,6 +19,11 @@ type ColumnCollection struct
 columncollection, _ := asposecells.NewColumnCollection()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewColumnCollection](./newcolumncollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

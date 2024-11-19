@@ -19,6 +19,13 @@ type LoadOptions struct
 loadoptions, _ := asposecells.NewLoadOptions()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewLoadOptions](./newloadoptions/) | Creates an options of loading the file. | 
+|[NewLoadOptions_LoadFormat](./newloadoptions_loadformat/) | Creates an options of loading the file. | 
+|[NewLoadOptions_LoadOptions](./newloadoptions_loadoptions/) | Constructs from an implementation object. | 
 
 ## Methods
 

@@ -19,6 +19,11 @@ type PageSetup struct
 pagesetup, _ := asposecells.NewPageSetup()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewPageSetup](./newpagesetup/) | Constructs from an implementation object. | 
 
 ## Methods
 

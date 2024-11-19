@@ -19,6 +19,11 @@ type PivotGlobalizationSettings struct
 pivotglobalizationsettings, _ := asposecells.NewPivotGlobalizationSettings()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewPivotGlobalizationSettings](./newpivotglobalizationsettings/) | Default constructor. | 
 
 ## Methods
 

@@ -19,6 +19,11 @@ type SlicerCacheItem struct
 slicercacheitem, _ := asposecells.NewSlicerCacheItem()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewSlicerCacheItem](./newslicercacheitem/) | Constructs from an implementation object. | 
 
 ## Methods
 

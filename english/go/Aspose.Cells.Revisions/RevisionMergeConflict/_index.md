@@ -19,6 +19,12 @@ type RevisionMergeConflict struct
 revisionmergeconflict, _ := asposecells.NewRevisionMergeConflict()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewRevisionMergeConflict_RevisionMergeConflict](./newrevisionmergeconflict_revisionmergeconflict/) | Constructs from an implementation object. | 
+|[NewRevisionMergeConflict_Revision](./newrevisionmergeconflict_revision/) | Constructs from a parent object. | 
 
 ## Methods
 

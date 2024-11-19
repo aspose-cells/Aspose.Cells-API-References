@@ -19,6 +19,11 @@ type ErrorCheckOptionCollection struct
 errorcheckoptioncollection, _ := asposecells.NewErrorCheckOptionCollection()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewErrorCheckOptionCollection](./newerrorcheckoptioncollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

@@ -19,6 +19,11 @@ type FilterColumn struct
 filtercolumn, _ := asposecells.NewFilterColumn()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewFilterColumn](./newfiltercolumn/) | Constructs from an implementation object. | 
 
 ## Methods
 

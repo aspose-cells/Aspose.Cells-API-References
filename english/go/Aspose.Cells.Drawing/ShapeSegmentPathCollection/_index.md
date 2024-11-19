@@ -19,6 +19,12 @@ type ShapeSegmentPathCollection struct
 shapesegmentpathcollection, _ := asposecells.NewShapeSegmentPathCollection()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewShapeSegmentPathCollection](./newshapesegmentpathcollection/) | Default constructor. | 
+|[NewShapeSegmentPathCollection_ShapeSegmentPathCollection](./newshapesegmentpathcollection_shapesegmentpathcollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

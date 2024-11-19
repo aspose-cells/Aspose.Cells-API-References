@@ -19,6 +19,11 @@ type SmartTagCollection struct
 smarttagcollection, _ := asposecells.NewSmartTagCollection()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewSmartTagCollection](./newsmarttagcollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

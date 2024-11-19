@@ -19,6 +19,11 @@ type VbaProjectReference struct
 vbaprojectreference, _ := asposecells.NewVbaProjectReference()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewVbaProjectReference](./newvbaprojectreference/) | Constructs from an implementation object. | 
 
 ## Methods
 

@@ -19,6 +19,11 @@ type GlowEffect struct
 gloweffect, _ := asposecells.NewGlowEffect()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewGlowEffect](./newgloweffect/) | Constructs from an implementation object. | 
 
 ## Methods
 

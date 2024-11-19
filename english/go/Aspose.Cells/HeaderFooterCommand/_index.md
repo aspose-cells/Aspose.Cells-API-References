@@ -19,6 +19,11 @@ type HeaderFooterCommand struct
 headerfootercommand, _ := asposecells.NewHeaderFooterCommand()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewHeaderFooterCommand](./newheaderfootercommand/) | Constructs from an implementation object. | 
 
 ## Methods
 

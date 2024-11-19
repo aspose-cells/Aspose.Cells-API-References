@@ -19,6 +19,12 @@ type SettableChartGlobalizationSettings struct
 settablechartglobalizationsettings, _ := asposecells.NewSettableChartGlobalizationSettings()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewSettableChartGlobalizationSettings](./newsettablechartglobalizationsettings/) | Default constructor. | 
+|[NewSettableChartGlobalizationSettings_SettableChartGlobalizationSettings](./newsettablechartglobalizationsettings_settablechartglobalizationsettings/) | Constructs from an implementation object. | 
 
 ## Methods
 

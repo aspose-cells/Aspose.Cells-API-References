@@ -19,6 +19,12 @@ type CheckBoxActiveXControl struct
 checkboxactivexcontrol, _ := asposecells.NewCheckBoxActiveXControl()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewCheckBoxActiveXControl_CheckBoxActiveXControl](./newcheckboxactivexcontrol_checkboxactivexcontrol/) | Constructs from an implementation object. | 
+|[NewCheckBoxActiveXControl_ActiveXControl](./newcheckboxactivexcontrol_activexcontrol/) | Constructs from a parent object. | 
 
 ## Methods
 

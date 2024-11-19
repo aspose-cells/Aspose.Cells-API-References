@@ -19,6 +19,12 @@ type WriteProtection struct
 writeprotection, _ := asposecells.NewWriteProtection()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewWriteProtection](./newwriteprotection/) | Default constructor. | 
+|[NewWriteProtection_WriteProtection](./newwriteprotection_writeprotection/) | Constructs from an implementation object. | 
 
 ## Methods
 

@@ -1,0 +1,28 @@
+---
+title: GetWrapTextInShape Method 
+linktitle: GetWrapTextInShape
+second_title: Aspose.Cells for Go API Reference
+description: 'GetWrapTextInShape method. Encapsulates the function that represents getwraptextinshape in Go.'
+type: docs
+weight: 200
+url: /go/aspose.cells.drawing.texts/textboxoptions/getwraptextinshape/
+---
+
+## GetWrapTextInShape function
+
+Specifies text wrapping within a shape.False - No wrapping will occur on text body.True - Wrapping will occur on text body.
+
+```go
+
+func (instance *TextBoxOptions) GetWrapTextInShape()  (bool,  error) 
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [TextBoxOptions](../)
+* Namespace [Aspose.Cells.Drawing.Texts](../../)
+* Library [Aspose.Cells for Go](../../../)

@@ -19,6 +19,12 @@ type DeleteOptions struct
 deleteoptions, _ := asposecells.NewDeleteOptions()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewDeleteOptions](./newdeleteoptions/) | Default constructor. | 
+|[NewDeleteOptions_DeleteOptions](./newdeleteoptions_deleteoptions/) | Constructs from an implementation object. | 
 
 ## Methods
 

@@ -19,6 +19,11 @@ type WorkbookSettings struct
 workbooksettings, _ := asposecells.NewWorkbookSettings()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewWorkbookSettings](./newworkbooksettings/) | Constructs from an implementation object. | 
 
 ## Methods
 
@@ -136,3 +141,9 @@ workbooksettings, _ := asposecells.NewWorkbookSettings()
 |[GetQuotePrefixToStyle](./getquoteprefixtostyle/) | Indicates whether setting <see cref="Style.QuotePrefix"/> property when entering the string value(which starts  with single quote mark ) to the cell | 
 |[SetQuotePrefixToStyle](./setquoteprefixtostyle/) | Indicates whether setting <see cref="Style.QuotePrefix"/> property when entering the string value(which starts  with single quote mark ) to the cell | 
 |[GetFormulaSettings](./getformulasettings/) | Gets the settings for formula-related features. | 
+|[GetPropertiesFollowChartPoint](./getpropertiesfollowchartpoint/) | Indicates whether datapoint properties and datalabels in all charts in this workbook follow their reference. | 
+|[SetPropertiesFollowChartPoint](./setpropertiesfollowchartpoint/) | Indicates whether datapoint properties and datalabels in all charts in this workbook follow their reference. | 
+|[GetDiscardImageEditData](./getdiscardimageeditdata/) | Indicates whether discarding editting image data. | 
+|[SetDiscardImageEditData](./setdiscardimageeditdata/) | Indicates whether discarding editting image data. | 
+|[GetDefaultImageResolution](./getdefaultimageresolution/) | Gets and sets default resolution of image. | 
+|[SetDefaultImageResolution](./setdefaultimageresolution/) | Gets and sets default resolution of image. | 

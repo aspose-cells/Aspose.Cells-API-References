@@ -19,6 +19,11 @@ type ConditionalFormattingCollection struct
 conditionalformattingcollection, _ := asposecells.NewConditionalFormattingCollection()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewConditionalFormattingCollection](./newconditionalformattingcollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

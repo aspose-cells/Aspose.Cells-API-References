@@ -19,6 +19,11 @@ type RowCollection struct
 rowcollection, _ := asposecells.NewRowCollection()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewRowCollection](./newrowcollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

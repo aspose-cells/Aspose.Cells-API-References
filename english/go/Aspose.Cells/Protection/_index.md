@@ -19,6 +19,11 @@ type Protection struct
 protection, _ := asposecells.NewProtection()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewProtection](./newprotection/) | Constructs from an implementation object. | 
 
 ## Methods
 

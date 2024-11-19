@@ -19,6 +19,12 @@ type ChartShape struct
 chartshape, _ := asposecells.NewChartShape()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewChartShape_ChartShape](./newchartshape_chartshape/) | Constructs from an implementation object. | 
+|[NewChartShape_Shape](./newchartshape_shape/) | Constructs from a parent object. | 
 
 ## Methods
 
@@ -199,6 +205,7 @@ chartshape, _ := asposecells.NewChartShape()
 |[SetTextVerticalAlignment](./settextverticalalignment/) | Gets and sets the text vertical alignment type of the shape. | 
 |[GetTextDirection](./gettextdirection/) | Gets/Sets the direction of the text flow for this object. | 
 |[SetTextDirection](./settextdirection/) | Gets/Sets the direction of the text flow for this object. | 
+|[GetTextBoxOptions](./gettextboxoptions/) | Gets the text information in the shape | 
 |[GetActiveXControl](./getactivexcontrol/) | Gets the ActiveX control. | 
 |[RemoveActiveXControl](./removeactivexcontrol/) | Remove activeX control. | 
 |[GetPaths](./getpaths/) | Gets the paths of a custom geometric shape. | 
@@ -208,3 +215,4 @@ chartshape, _ := asposecells.NewChartShape()
 |[IsDecorative](./isdecorative/) | Indicates whether the object is decorative. | 
 |[SetIsDecorative](./setisdecorative/) | Indicates whether the object is decorative. | 
 |[GetResultOfSmartArt](./getresultofsmartart/) | Converting smart art to grouped shapes. | 
+|[IsSameSetting](./issamesetting/) | Returns whether the shape is same. | 

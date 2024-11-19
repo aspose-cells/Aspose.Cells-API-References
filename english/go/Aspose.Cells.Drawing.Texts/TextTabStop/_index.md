@@ -19,6 +19,11 @@ type TextTabStop struct
 texttabstop, _ := asposecells.NewTextTabStop()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewTextTabStop](./newtexttabstop/) | Constructs from an implementation object. | 
 
 ## Methods
 

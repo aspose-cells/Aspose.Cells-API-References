@@ -19,6 +19,11 @@ type Marker struct
 marker, _ := asposecells.NewMarker()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewMarker](./newmarker/) | Constructs from an implementation object. | 
 
 ## Methods
 

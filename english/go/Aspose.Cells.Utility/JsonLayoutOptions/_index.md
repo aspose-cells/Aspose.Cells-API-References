@@ -19,6 +19,12 @@ type JsonLayoutOptions struct
 jsonlayoutoptions, _ := asposecells.NewJsonLayoutOptions()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewJsonLayoutOptions](./newjsonlayoutoptions/) | Constructor of loading JSON layout options. | 
+|[NewJsonLayoutOptions_JsonLayoutOptions](./newjsonlayoutoptions_jsonlayoutoptions/) | Constructs from an implementation object. | 
 
 ## Methods
 

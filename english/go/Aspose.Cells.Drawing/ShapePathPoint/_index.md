@@ -19,6 +19,11 @@ type ShapePathPoint struct
 shapepathpoint, _ := asposecells.NewShapePathPoint()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewShapePathPoint](./newshapepathpoint/) | Constructs from an implementation object. | 
 
 ## Methods
 

@@ -19,6 +19,12 @@ type AboveAverage struct
 aboveaverage, _ := asposecells.NewAboveAverage()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewAboveAverage](./newaboveaverage/) | Default constructor. | 
+|[NewAboveAverage_AboveAverage](./newaboveaverage_aboveaverage/) | Constructs from an implementation object. | 
 
 ## Methods
 

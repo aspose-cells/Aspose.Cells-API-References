@@ -19,6 +19,12 @@ type ChartArea struct
 chartarea, _ := asposecells.NewChartArea()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewChartArea_ChartArea](./newchartarea_chartarea/) | Constructs from an implementation object. | 
+|[NewChartArea_ChartFrame](./newchartarea_chartframe/) | Constructs from a parent object. | 
 
 ## Methods
 

@@ -19,6 +19,11 @@ type SmartTag struct
 smarttag, _ := asposecells.NewSmartTag()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewSmartTag](./newsmarttag/) | Constructs from an implementation object. | 
 
 ## Methods
 

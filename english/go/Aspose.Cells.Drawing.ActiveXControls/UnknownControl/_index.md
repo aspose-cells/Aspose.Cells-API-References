@@ -19,6 +19,12 @@ type UnknownControl struct
 unknowncontrol, _ := asposecells.NewUnknownControl()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewUnknownControl_UnknownControl](./newunknowncontrol_unknowncontrol/) | Constructs from an implementation object. | 
+|[NewUnknownControl_ActiveXControl](./newunknowncontrol_activexcontrol/) | Constructs from a parent object. | 
 
 ## Methods
 

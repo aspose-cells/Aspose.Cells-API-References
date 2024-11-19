@@ -19,6 +19,11 @@ type Range struct
 range, _ := asposecells.NewRange()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewRange](./newrange/) | Constructs from an implementation object. | 
 
 ## Methods
 
@@ -47,6 +52,8 @@ range, _ := asposecells.NewRange()
 |[Merge](./merge/) | Combines a range of cells into a single cell. | 
 |[UnMerge](./unmerge/) | Unmerges merged cells of this range. | 
 |[PutValue](./putvalue/) | Puts a value into the range, if appropriate the value will be converted to other data type and cell's number format will be reset. | 
+|[GetValue](./getvalue/) | Gets and sets the value of the range. | 
+|[SetValue](./setvalue/) | Gets and sets the value of the range. | 
 |[SetStyle](./setstyle/) | Apply the cell style. | 
 |[ApplyStyle](./applystyle/) | Applies formats for a whole range. | 
 |[SetStyle](./setstyle/) | Sets the style of the range. | 

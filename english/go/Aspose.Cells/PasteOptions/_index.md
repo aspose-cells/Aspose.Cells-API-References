@@ -19,6 +19,12 @@ type PasteOptions struct
 pasteoptions, _ := asposecells.NewPasteOptions()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewPasteOptions](./newpasteoptions/) | Default constructor. | 
+|[NewPasteOptions_PasteOptions](./newpasteoptions_pasteoptions/) | Constructs from an implementation object. | 
 
 ## Methods
 

@@ -19,6 +19,12 @@ type GroupShape struct
 groupshape, _ := asposecells.NewGroupShape()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewGroupShape_GroupShape](./newgroupshape_groupshape/) | Constructs from an implementation object. | 
+|[NewGroupShape_Shape](./newgroupshape_shape/) | Constructs from a parent object. | 
 
 ## Methods
 
@@ -200,6 +206,7 @@ groupshape, _ := asposecells.NewGroupShape()
 |[SetTextVerticalAlignment](./settextverticalalignment/) | Gets and sets the text vertical alignment type of the shape. | 
 |[GetTextDirection](./gettextdirection/) | Gets/Sets the direction of the text flow for this object. | 
 |[SetTextDirection](./settextdirection/) | Gets/Sets the direction of the text flow for this object. | 
+|[GetTextBoxOptions](./gettextboxoptions/) | Gets the text information in the shape | 
 |[GetActiveXControl](./getactivexcontrol/) | Gets the ActiveX control. | 
 |[RemoveActiveXControl](./removeactivexcontrol/) | Remove activeX control. | 
 |[GetPaths](./getpaths/) | Gets the paths of a custom geometric shape. | 
@@ -209,3 +216,4 @@ groupshape, _ := asposecells.NewGroupShape()
 |[IsDecorative](./isdecorative/) | Indicates whether the object is decorative. | 
 |[SetIsDecorative](./setisdecorative/) | Indicates whether the object is decorative. | 
 |[GetResultOfSmartArt](./getresultofsmartart/) | Converting smart art to grouped shapes. | 
+|[IsSameSetting](./issamesetting/) | Returns whether the shape is same. | 

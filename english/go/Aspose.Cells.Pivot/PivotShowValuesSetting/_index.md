@@ -19,6 +19,11 @@ type PivotShowValuesSetting struct
 pivotshowvaluessetting, _ := asposecells.NewPivotShowValuesSetting()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewPivotShowValuesSetting](./newpivotshowvaluessetting/) | Constructs from an implementation object. | 
 
 ## Methods
 

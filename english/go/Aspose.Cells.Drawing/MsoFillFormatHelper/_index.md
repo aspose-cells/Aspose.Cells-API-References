@@ -19,6 +19,11 @@ type MsoFillFormatHelper struct
 msofillformathelper, _ := asposecells.NewMsoFillFormatHelper()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewMsoFillFormatHelper](./newmsofillformathelper/) | Constructs from an implementation object. | 
 
 ## Methods
 

@@ -19,6 +19,11 @@ type VbaProjectReferenceCollection struct
 vbaprojectreferencecollection, _ := asposecells.NewVbaProjectReferenceCollection()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewVbaProjectReferenceCollection](./newvbaprojectreferencecollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

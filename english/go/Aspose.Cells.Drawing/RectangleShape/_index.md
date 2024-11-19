@@ -19,6 +19,12 @@ type RectangleShape struct
 rectangleshape, _ := asposecells.NewRectangleShape()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewRectangleShape_RectangleShape](./newrectangleshape_rectangleshape/) | Constructs from an implementation object. | 
+|[NewRectangleShape_Shape](./newrectangleshape_shape/) | Constructs from a parent object. | 
 
 ## Methods
 
@@ -198,6 +204,7 @@ rectangleshape, _ := asposecells.NewRectangleShape()
 |[SetTextVerticalAlignment](./settextverticalalignment/) | Gets and sets the text vertical alignment type of the shape. | 
 |[GetTextDirection](./gettextdirection/) | Gets/Sets the direction of the text flow for this object. | 
 |[SetTextDirection](./settextdirection/) | Gets/Sets the direction of the text flow for this object. | 
+|[GetTextBoxOptions](./gettextboxoptions/) | Gets the text information in the shape | 
 |[GetActiveXControl](./getactivexcontrol/) | Gets the ActiveX control. | 
 |[RemoveActiveXControl](./removeactivexcontrol/) | Remove activeX control. | 
 |[GetPaths](./getpaths/) | Gets the paths of a custom geometric shape. | 
@@ -207,3 +214,4 @@ rectangleshape, _ := asposecells.NewRectangleShape()
 |[IsDecorative](./isdecorative/) | Indicates whether the object is decorative. | 
 |[SetIsDecorative](./setisdecorative/) | Indicates whether the object is decorative. | 
 |[GetResultOfSmartArt](./getresultofsmartart/) | Converting smart art to grouped shapes. | 
+|[IsSameSetting](./issamesetting/) | Returns whether the shape is same. | 

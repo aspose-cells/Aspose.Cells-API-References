@@ -19,6 +19,12 @@ type WorkbookRender struct
 workbookrender, _ := asposecells.NewWorkbookRender()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewWorkbookRender_Workbook_ImageOrPrintOptions](./newworkbookrender_workbook_imageorprintoptions/) | The construct of WorkbookRender | 
+|[NewWorkbookRender_WorkbookRender](./newworkbookrender_workbookrender/) | Constructs from an implementation object. | 
 
 ## Methods
 

@@ -19,6 +19,12 @@ type RadioButtonActiveXControl struct
 radiobuttonactivexcontrol, _ := asposecells.NewRadioButtonActiveXControl()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewRadioButtonActiveXControl_RadioButtonActiveXControl](./newradiobuttonactivexcontrol_radiobuttonactivexcontrol/) | Constructs from an implementation object. | 
+|[NewRadioButtonActiveXControl_ToggleButtonActiveXControl](./newradiobuttonactivexcontrol_togglebuttonactivexcontrol/) | Constructs from a parent object. | 
 
 ## Methods
 

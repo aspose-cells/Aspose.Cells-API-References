@@ -19,6 +19,11 @@ type WebExtensionTaskPaneCollection struct
 webextensiontaskpanecollection, _ := asposecells.NewWebExtensionTaskPaneCollection()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewWebExtensionTaskPaneCollection](./newwebextensiontaskpanecollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

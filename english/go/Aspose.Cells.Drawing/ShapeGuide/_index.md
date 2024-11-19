@@ -19,6 +19,12 @@ type ShapeGuide struct
 shapeguide, _ := asposecells.NewShapeGuide()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewShapeGuide_ShapeGuide](./newshapeguide_shapeguide/) | Constructs from an implementation object. | 
+|[NewShapeGuide_BaseShapeGuide](./newshapeguide_baseshapeguide/) | Constructs from a parent object. | 
 
 ## Methods
 

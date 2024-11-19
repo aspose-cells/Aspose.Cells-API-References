@@ -19,6 +19,12 @@ type OdsPageBackground struct
 odspagebackground, _ := asposecells.NewOdsPageBackground()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewOdsPageBackground](./newodspagebackground/) | Default constructor. | 
+|[NewOdsPageBackground_OdsPageBackground](./newodspagebackground_odspagebackground/) | Constructs from an implementation object. | 
 
 ## Methods
 

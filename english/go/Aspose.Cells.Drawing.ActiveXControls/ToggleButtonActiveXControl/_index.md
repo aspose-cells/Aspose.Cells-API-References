@@ -19,6 +19,12 @@ type ToggleButtonActiveXControl struct
 togglebuttonactivexcontrol, _ := asposecells.NewToggleButtonActiveXControl()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewToggleButtonActiveXControl_ToggleButtonActiveXControl](./newtogglebuttonactivexcontrol_togglebuttonactivexcontrol/) | Constructs from an implementation object. | 
+|[NewToggleButtonActiveXControl_ActiveXControl](./newtogglebuttonactivexcontrol_activexcontrol/) | Constructs from a parent object. | 
 
 ## Methods
 

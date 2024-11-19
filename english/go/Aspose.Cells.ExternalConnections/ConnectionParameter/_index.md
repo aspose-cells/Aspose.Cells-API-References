@@ -19,6 +19,11 @@ type ConnectionParameter struct
 connectionparameter, _ := asposecells.NewConnectionParameter()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewConnectionParameter](./newconnectionparameter/) | Constructs from an implementation object. | 
 
 ## Methods
 
@@ -37,3 +42,5 @@ connectionparameter, _ := asposecells.NewConnectionParameter()
 |[SetName](./setname/) | The name of the parameter. | 
 |[GetCellReference](./getcellreference/) | Cell reference indicating which cell's value to use for the query parameter. Used only when parameterType is cell. | 
 |[SetCellReference](./setcellreference/) | Cell reference indicating which cell's value to use for the query parameter. Used only when parameterType is cell. | 
+|[GetValue](./getvalue/) | Non-integer numeric value,Integer value,String value or Boolean valueto use as the query parameter. Used only when parameterType is value. | 
+|[SetValue](./setvalue/) | Non-integer numeric value,Integer value,String value or Boolean valueto use as the query parameter. Used only when parameterType is value. | 

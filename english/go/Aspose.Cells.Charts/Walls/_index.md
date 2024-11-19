@@ -19,6 +19,12 @@ type Walls struct
 walls, _ := asposecells.NewWalls()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewWalls_Walls](./newwalls_walls/) | Constructs from an implementation object. | 
+|[NewWalls_Floor](./newwalls_floor/) | Constructs from a parent object. | 
 
 ## Methods
 

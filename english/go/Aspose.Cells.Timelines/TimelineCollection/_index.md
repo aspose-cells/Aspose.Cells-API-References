@@ -19,6 +19,11 @@ type TimelineCollection struct
 timelinecollection, _ := asposecells.NewTimelineCollection()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewTimelineCollection](./newtimelinecollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

@@ -10,7 +10,7 @@ url: /go/aspose.cells/font/getcolor/
 
 ## GetColor function
 
-Gets or sets the <see cref="System.Drawing.Color"/> of the font.
+Gets or sets the <see cref="Color"/> of the font.
 
 ```go
 

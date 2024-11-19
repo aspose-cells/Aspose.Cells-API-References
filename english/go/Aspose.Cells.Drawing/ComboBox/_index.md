@@ -19,6 +19,12 @@ type ComboBox struct
 combobox, _ := asposecells.NewComboBox()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewComboBox_ComboBox](./newcombobox_combobox/) | Constructs from an implementation object. | 
+|[NewComboBox_Shape](./newcombobox_shape/) | Constructs from a parent object. | 
 
 ## Methods
 
@@ -206,6 +212,7 @@ combobox, _ := asposecells.NewComboBox()
 |[SetTextVerticalAlignment](./settextverticalalignment/) | Gets and sets the text vertical alignment type of the shape. | 
 |[GetTextDirection](./gettextdirection/) | Gets/Sets the direction of the text flow for this object. | 
 |[SetTextDirection](./settextdirection/) | Gets/Sets the direction of the text flow for this object. | 
+|[GetTextBoxOptions](./gettextboxoptions/) | Gets the text information in the shape | 
 |[GetActiveXControl](./getactivexcontrol/) | Gets the ActiveX control. | 
 |[RemoveActiveXControl](./removeactivexcontrol/) | Remove activeX control. | 
 |[GetPaths](./getpaths/) | Gets the paths of a custom geometric shape. | 
@@ -215,3 +222,4 @@ combobox, _ := asposecells.NewComboBox()
 |[IsDecorative](./isdecorative/) | Indicates whether the object is decorative. | 
 |[SetIsDecorative](./setisdecorative/) | Indicates whether the object is decorative. | 
 |[GetResultOfSmartArt](./getresultofsmartart/) | Converting smart art to grouped shapes. | 
+|[IsSameSetting](./issamesetting/) | Returns whether the shape is same. | 

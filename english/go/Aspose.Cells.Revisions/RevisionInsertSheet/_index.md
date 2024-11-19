@@ -19,6 +19,12 @@ type RevisionInsertSheet struct
 revisioninsertsheet, _ := asposecells.NewRevisionInsertSheet()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewRevisionInsertSheet_RevisionInsertSheet](./newrevisioninsertsheet_revisioninsertsheet/) | Constructs from an implementation object. | 
+|[NewRevisionInsertSheet_Revision](./newrevisioninsertsheet_revision/) | Constructs from a parent object. | 
 
 ## Methods
 

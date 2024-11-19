@@ -19,13 +19,20 @@ type DateTimeGroupItem struct
 datetimegroupitem, _ := asposecells.NewDateTimeGroupItem()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewDateTimeGroupItem_DateTimeGroupingType_Int_Int_Int_Int_Int_Int](./newdatetimegroupitem_datetimegroupingtype_int_int_int_int_int_int/) |  | 
+|[NewDateTimeGroupItem_DateTimeGroupItem](./newdatetimegroupitem_datetimegroupitem/) | Constructs from an implementation object. | 
+|[NewDateTimeGroupItem_Object](./newdatetimegroupitem_object/) | Constructs from an Object convertible to this. | 
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
-|[GetIObject](./getiobject/) | Gets the IObject pointer of this object. | 
+|[ToObject](./toobject/) | Gets the Object. | 
 |[GetMinValue](./getminvalue/) | Gets the min value. | 
 |[GetDateTimeGroupingType](./getdatetimegroupingtype/) | Gets and sets the group type. | 
 |[SetDateTimeGroupingType](./setdatetimegroupingtype/) | Gets and sets the group type. | 

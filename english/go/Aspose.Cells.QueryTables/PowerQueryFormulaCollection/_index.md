@@ -19,6 +19,11 @@ type PowerQueryFormulaCollection struct
 powerqueryformulacollection, _ := asposecells.NewPowerQueryFormulaCollection()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewPowerQueryFormulaCollection](./newpowerqueryformulacollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

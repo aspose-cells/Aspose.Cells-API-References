@@ -19,6 +19,11 @@ type HyperlinkCollection struct
 hyperlinkcollection, _ := asposecells.NewHyperlinkCollection()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewHyperlinkCollection](./newhyperlinkcollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

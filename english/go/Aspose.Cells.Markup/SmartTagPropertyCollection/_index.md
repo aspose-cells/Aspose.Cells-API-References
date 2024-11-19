@@ -19,6 +19,12 @@ type SmartTagPropertyCollection struct
 smarttagpropertycollection, _ := asposecells.NewSmartTagPropertyCollection()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewSmartTagPropertyCollection](./newsmarttagpropertycollection/) | Default constructor. | 
+|[NewSmartTagPropertyCollection_SmartTagPropertyCollection](./newsmarttagpropertycollection_smarttagpropertycollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

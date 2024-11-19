@@ -19,6 +19,12 @@ type LoadFilter struct
 loadfilter, _ := asposecells.NewLoadFilter()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewLoadFilter](./newloadfilter/) | Constructs one LoadFilter with default filter options LoadDataFilterOptions::All. | 
+|[NewLoadFilter_LoadDataFilterOptions](./newloadfilter_loaddatafilteroptions/) | Constructs one LoadFilter with given filter options. | 
 
 ## Methods
 

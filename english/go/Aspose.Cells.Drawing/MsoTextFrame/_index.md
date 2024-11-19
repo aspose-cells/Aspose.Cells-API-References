@@ -19,6 +19,11 @@ type MsoTextFrame struct
 msotextframe, _ := asposecells.NewMsoTextFrame()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewMsoTextFrame](./newmsotextframe/) | Constructs from an implementation object. | 
 
 ## Methods
 

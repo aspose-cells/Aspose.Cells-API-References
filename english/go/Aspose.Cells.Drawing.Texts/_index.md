@@ -15,6 +15,7 @@ url: /go/aspose.cells.drawing.texts/
 | --- | --- |
 |[BulletType](./bullettype/) | Represents the type of the bullet. | 
 |[LineSpaceSizeType](./linespacesizetype/) | Represents the unit type of line space size. | 
+|[ShapeTextVerticalAlignmentType](./shapetextverticalalignmenttype/) | It corresponds to "Format Shape - Text Options - Text Box - Vertical Alignment" in Excel. | 
 |[TextAutonumberScheme](./textautonumberscheme/) | Represents all automatic number scheme. | 
 |[TextFontAlignType](./textfontaligntype/) | Represents the different types of font alignment. | 
 |[TextNodeType](./textnodetype/) | Represents the node type. | 
@@ -28,6 +29,7 @@ url: /go/aspose.cells.drawing.texts/
 |[NoneBulletValue](./nonebulletvalue/) | Represents no bullet. |
 |[PictureBulletValue](./picturebulletvalue/) | Represents the value of the image bullet. |
 |[ShapeTextAlignment](./shapetextalignment/) | Represents the setting of shape's text alignment; |
+|[TextBoxOptions](./textboxoptions/) | Represents the text options of the shape |
 |[TextOptions](./textoptions/) | Represents the text options. |
 |[TextParagraph](./textparagraph/) | Represents the text paragraph setting. |
 |[TextParagraphCollection](./textparagraphcollection/) | Represents all text paragraph. |

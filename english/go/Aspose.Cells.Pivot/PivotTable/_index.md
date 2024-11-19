@@ -19,6 +19,11 @@ type PivotTable struct
 pivottable, _ := asposecells.NewPivotTable()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewPivotTable](./newpivottable/) | Constructs from an implementation object. | 
 
 ## Methods
 
@@ -115,8 +120,8 @@ pivottable, _ := asposecells.NewPivotTable()
 |[SetShowDataTips](./setshowdatatips/) | Specifies a boolean value that indicates whether tooltips should be displayed for PivotTable data cells. | 
 |[GetShowMemberPropertyTips](./getshowmemberpropertytips/) | Specifies a boolean value that indicates whether member property information should be omitted from PivotTable tooltips. | 
 |[SetShowMemberPropertyTips](./setshowmemberpropertytips/) | Specifies a boolean value that indicates whether member property information should be omitted from PivotTable tooltips. | 
-|[GetShowValuesRow](./getshowvaluesrow/) | Specifies a boolean value that indicates whether show values row.show the values row | 
-|[SetShowValuesRow](./setshowvaluesrow/) | Specifies a boolean value that indicates whether show values row.show the values row | 
+|[GetShowValuesRow](./getshowvaluesrow/) | Indicates whether showing values row. | 
+|[SetShowValuesRow](./setshowvaluesrow/) | Indicates whether showing values row. | 
 |[GetShowEmptyCol](./getshowemptycol/) | Specifies a boolean value that indicates whether to include empty columns in the table | 
 |[SetShowEmptyCol](./setshowemptycol/) | Specifies a boolean value that indicates whether to include empty columns in the table | 
 |[GetShowEmptyRow](./getshowemptyrow/) | Specifies a boolean value that indicates whether to include empty rows in the table. | 
@@ -155,7 +160,6 @@ pivottable, _ := asposecells.NewPivotTable()
 |[GetRefreshDataFlag](./getrefreshdataflag/) | Indicates whether Refreshing Data or not. | 
 |[SetRefreshDataFlag](./setrefreshdataflag/) | Indicates whether Refreshing Data or not. | 
 |[GetSourceType](./getsourcetype/) | Gets the data source type of the pivot table. | 
-|[GetExternalConnectionDataSource](./getexternalconnectiondatasource/) | Gets the external connection data source. | 
 |[RefreshData](./refreshdata/) | Refreshes pivottable's data and setting from it's data source. | 
 |[RefreshData](./refreshdata/) | Refreshes pivottable's data and setting from it's data source with options. | 
 |[CalculateData](./calculatedata/) | Calculates pivottable's data to cells. | 
@@ -165,11 +169,11 @@ pivottable, _ := asposecells.NewPivotTable()
 |[FormatAll](./formatall/) | Format all the cell in the pivottable area | 
 |[FormatRow](./formatrow/) | Format the row data in the pivottable area | 
 |[Format](./format/) | Formats selected area of the PivotTable. | 
-|[ShowDatail](./showdatail/) | Show the detail of one item in the data region to a new Table. | 
+|[ShowDetail](./showdetail/) | Show the detail of one item in the data region to a new Table. | 
 |[GetPivotFormats](./getpivotformats/) | Gets the collection of formats applied to PivotTable. | 
 |[Format](./format/) | Format the cell in the pivottable area | 
-|[GetItemPrintTitles](./getitemprinttitles/) | Indicates whether PivotItem names should be repeated at the top of each printed page. | 
-|[SetItemPrintTitles](./setitemprinttitles/) | Indicates whether PivotItem names should be repeated at the top of each printed page. | 
+|[GetRepeatItemsOnEachPrintedPage](./getrepeatitemsoneachprintedpage/) | Indicates whether pivot item captions on the row area are repeated on each printed page for pivot fields in tabular form. | 
+|[SetRepeatItemsOnEachPrintedPage](./setrepeatitemsoneachprintedpage/) | Indicates whether pivot item captions on the row area are repeated on each printed page for pivot fields in tabular form. | 
 |[GetPrintTitles](./getprinttitles/) | Indicates whether the print titles for the worksheet are set basedon the PivotTable report. The default value is false. | 
 |[SetPrintTitles](./setprinttitles/) | Indicates whether the print titles for the worksheet are set basedon the PivotTable report. The default value is false. | 
 |[GetDisplayImmediateItems](./getdisplayimmediateitems/) | Indicates whether items in the row and column areas are visiblewhen the data area of the PivotTable is empty. The default value is true. | 

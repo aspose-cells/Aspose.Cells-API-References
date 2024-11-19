@@ -19,6 +19,11 @@ type AxisBins struct
 axisbins, _ := asposecells.NewAxisBins()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewAxisBins](./newaxisbins/) | Constructs from an implementation object. | 
 
 ## Methods
 

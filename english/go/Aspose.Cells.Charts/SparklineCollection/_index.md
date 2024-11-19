@@ -19,6 +19,11 @@ type SparklineCollection struct
 sparklinecollection, _ := asposecells.NewSparklineCollection()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewSparklineCollection](./newsparklinecollection/) | Constructs from an implementation object. | 
 
 ## Methods
 
@@ -27,4 +32,5 @@ sparklinecollection, _ := asposecells.NewSparklineCollection()
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[Get](./get/) | Gets the <see cref="Sparkline"/> element at the specified index. | 
 |[Add](./add/) | Add a sparkline. | 
+|[Remove](./remove/) | Removes the sparkline | 
 |[GetCount](./getcount/) |  | 

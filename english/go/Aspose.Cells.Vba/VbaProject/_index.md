@@ -19,6 +19,11 @@ type VbaProject struct
 vbaproject, _ := asposecells.NewVbaProject()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewVbaProject](./newvbaproject/) | Constructs from an implementation object. | 
 
 ## Methods
 

@@ -19,6 +19,11 @@ type NegativeBarFormat struct
 negativebarformat, _ := asposecells.NewNegativeBarFormat()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewNegativeBarFormat](./newnegativebarformat/) | Constructs from an implementation object. | 
 
 ## Methods
 

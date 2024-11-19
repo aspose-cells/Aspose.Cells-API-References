@@ -19,6 +19,12 @@ type ShapePathPointCollection struct
 shapepathpointcollection, _ := asposecells.NewShapePathPointCollection()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewShapePathPointCollection](./newshapepathpointcollection/) | Default constructor. | 
+|[NewShapePathPointCollection_ShapePathPointCollection](./newshapepathpointcollection_shapepathpointcollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

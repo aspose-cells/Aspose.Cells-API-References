@@ -14,7 +14,7 @@ Refreshes pivottable's data and setting from it's data source with options.
 
 ```go
 
-func (instance *PivotTable) RefreshData_PivotTableRefreshOption(option *PivotTableRefreshOption)  error
+func (instance *PivotTable) RefreshData_PivotTableRefreshOption(option *PivotTableRefreshOption)  (PivotRefreshState,  error) 
 
 ```
 

@@ -19,6 +19,13 @@ type SqlScriptSaveOptions struct
 sqlscriptsaveoptions, _ := asposecells.NewSqlScriptSaveOptions()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewSqlScriptSaveOptions](./newsqlscriptsaveoptions/) | Creates options for saving sql file. | 
+|[NewSqlScriptSaveOptions_SqlScriptSaveOptions](./newsqlscriptsaveoptions_sqlscriptsaveoptions/) | Constructs from an implementation object. | 
+|[NewSqlScriptSaveOptions_SaveOptions](./newsqlscriptsaveoptions_saveoptions/) | Constructs from a parent object. | 
 
 ## Methods
 

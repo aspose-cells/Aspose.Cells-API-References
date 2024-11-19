@@ -19,6 +19,11 @@ type DocumentPropertyCollection struct
 documentpropertycollection, _ := asposecells.NewDocumentPropertyCollection()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewDocumentPropertyCollection](./newdocumentpropertycollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

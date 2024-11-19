@@ -19,6 +19,11 @@ type GlobalizationSettings struct
 globalizationsettings, _ := asposecells.NewGlobalizationSettings()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewGlobalizationSettings](./newglobalizationsettings/) | Default constructor. | 
 
 ## Methods
 

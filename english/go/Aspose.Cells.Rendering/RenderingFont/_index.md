@@ -19,6 +19,12 @@ type RenderingFont struct
 renderingfont, _ := asposecells.NewRenderingFont()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewRenderingFont_String_Float](./newrenderingfont_string_float/) | Initializes a new instance of the <see cref="RenderingFont"/> | 
+|[NewRenderingFont_RenderingFont](./newrenderingfont_renderingfont/) | Constructs from an implementation object. | 
 
 ## Methods
 

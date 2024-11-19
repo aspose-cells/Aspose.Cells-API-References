@@ -19,6 +19,11 @@ type PivotTableCollection struct
 pivottablecollection, _ := asposecells.NewPivotTableCollection()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewPivotTableCollection](./newpivottablecollection/) | Constructs from an implementation object. | 
 
 ## Methods
 
@@ -26,12 +31,14 @@ pivottablecollection, _ := asposecells.NewPivotTableCollection()
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[Dispose](./dispose/) | Performs application-defined tasks associated with freeing, releasing, orresetting unmanaged resources. | 
-|[Add](./add/) | Adds a new PivotTable cache to a PivotCaches collection. | 
-|[Add](./add/) | Adds a new PivotTable cache to a PivotCaches collection. | 
-|[Add](./add/) | Adds a new PivotTable cache to a PivotCaches collection. | 
-|[Add](./add/) | Adds a new PivotTable cache to a PivotCaches collection. | 
-|[Add](./add/) | Adds a new PivotTable Object to the collection from another PivotTable. | 
-|[Add](./add/) | Adds a new PivotTable Object to the collection from another PivotTable. | 
+|[Add](./add/) | Adds a new PivotTable. | 
+|[Add](./add/) | Adds a new PivotTable. | 
+|[Add](./add/) | Adds a new PivotTable. | 
+|[Add](./add/) | Adds a new PivotTable. | 
+|[Add](./add/) | Adds a new PivotTable. | 
+|[Add](./add/) | Adds a new PivotTable. | 
+|[Add](./add/) | Adds a new PivotTable based on another PivotTable. | 
+|[Add](./add/) | Adds a new PivotTable based on another PivotTable. | 
 |[Get](./get/) | Gets the PivotTable report by index. | 
 |[Get](./get/) | Gets the PivotTable report by pivottable's name. | 
 |[Get](./get/) | Gets the PivotTable report by pivottable's position. | 

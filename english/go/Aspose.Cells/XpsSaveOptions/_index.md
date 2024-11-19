@@ -19,6 +19,13 @@ type XpsSaveOptions struct
 xpssaveoptions, _ := asposecells.NewXpsSaveOptions()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewXpsSaveOptions](./newxpssaveoptions/) | Creates options for saving xps file. | 
+|[NewXpsSaveOptions_XpsSaveOptions](./newxpssaveoptions_xpssaveoptions/) | Constructs from an implementation object. | 
+|[NewXpsSaveOptions_PaginatedSaveOptions](./newxpssaveoptions_paginatedsaveoptions/) | Constructs from a parent object. | 
 
 ## Methods
 

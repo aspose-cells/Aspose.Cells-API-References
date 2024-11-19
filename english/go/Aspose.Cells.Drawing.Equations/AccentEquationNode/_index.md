@@ -19,6 +19,12 @@ type AccentEquationNode struct
 accentequationnode, _ := asposecells.NewAccentEquationNode()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewAccentEquationNode_AccentEquationNode](./newaccentequationnode_accentequationnode/) | Constructs from an implementation object. | 
+|[NewAccentEquationNode_EquationNode](./newaccentequationnode_equationnode/) | Constructs from a parent object. | 
 
 ## Methods
 
@@ -29,10 +35,11 @@ accentequationnode, _ := asposecells.NewAccentEquationNode()
 |[SetAccentCharacter](./setaccentcharacter/) | This attribute specifies the type of combining diacritical mark attached to the base of the accent function. The default accent character is U+0302.It is strongly recommended to use attribute AccentType to set accent character.Use this property setting if you cannot find the character you need in a known type. | 
 |[GetAccentCharacterType](./getaccentcharactertype/) | Specify combining characters by type value. | 
 |[SetAccentCharacterType](./setaccentcharactertype/) | Specify combining characters by type value. | 
+|[Equals](./equals/) | Determine whether the current equation node is equal to the specified node | 
 |[GetParentNode](./getparentnode/) | Specifies the parent node of the current node | 
 |[SetParentNode](./setparentnode/) | Specifies the parent node of the current node | 
-|[ToLaTeX](./tolatex/) | Conver this equtation to LaTeX expression. | 
-|[ToMathML](./tomathml/) | Conver this equtation to MathML expression. | 
+|[ToLaTeX](./tolatex/) | Convert this equtation to LaTeX expression. | 
+|[ToMathML](./tomathml/) | Convert this equtation to MathML expression. | 
 |[AddChild](./addchild/) | Insert a node of the specified type at the end of the child node list of the current node. | 
 |[AddChild](./addchild/) | Inserts the specified node at the end of the current node's list of child nodes. | 
 |[InsertChild](./insertchild/) | Inserts a node of the specified type at the specified index position in the current node's child node list. | 

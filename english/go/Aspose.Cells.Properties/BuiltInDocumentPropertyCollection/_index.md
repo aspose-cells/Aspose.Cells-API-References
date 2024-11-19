@@ -19,6 +19,12 @@ type BuiltInDocumentPropertyCollection struct
 builtindocumentpropertycollection, _ := asposecells.NewBuiltInDocumentPropertyCollection()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewBuiltInDocumentPropertyCollection_BuiltInDocumentPropertyCollection](./newbuiltindocumentpropertycollection_builtindocumentpropertycollection/) | Constructs from an implementation object. | 
+|[NewBuiltInDocumentPropertyCollection_DocumentPropertyCollection](./newbuiltindocumentpropertycollection_documentpropertycollection/) | Constructs from a parent object. | 
 
 ## Methods
 

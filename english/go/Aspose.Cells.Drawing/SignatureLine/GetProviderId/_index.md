@@ -10,7 +10,7 @@ url: /go/aspose.cells.drawing/signatureline/getproviderid/
 
 ## GetProviderId function
 
-Gets and sets the id of signature provider.
+Gets or sets the id of signature provider.
 
 ```go
 

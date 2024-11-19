@@ -19,6 +19,11 @@ type ShapeCollection struct
 shapecollection, _ := asposecells.NewShapeCollection()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewShapeCollection](./newshapecollection/) | Constructs from an implementation object. | 
 
 ## Methods
 
@@ -65,4 +70,5 @@ shapecollection, _ := asposecells.NewShapeCollection()
 |[Remove](./remove/) | Remove the shape. | 
 |[Clear](./clear/) | Clear all shapes in the worksheet. | 
 |[UpdateSelectedValue](./updateselectedvalue/) | Update the selected value by the value of the linked cell or range of the shape. | 
+|[AddSignatureLine](./addsignatureline/) | Adds a Signature Line to the worksheet. | 
 |[GetCount](./getcount/) |  | 

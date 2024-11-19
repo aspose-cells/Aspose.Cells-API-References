@@ -14,7 +14,7 @@ DateTimeGroupItem or a simple object.
 
 ```go
 
-func (instance *MultipleFilterCollection) Get(index int32)  (*IObject,  error) 
+func (instance *MultipleFilterCollection) Get(index int32)  (*Object,  error) 
 
 ```
 

@@ -19,6 +19,13 @@ type AutoNumberedBulletValue struct
 autonumberedbulletvalue, _ := asposecells.NewAutoNumberedBulletValue()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewAutoNumberedBulletValue](./newautonumberedbulletvalue/) | Default constructor. | 
+|[NewAutoNumberedBulletValue_AutoNumberedBulletValue](./newautonumberedbulletvalue_autonumberedbulletvalue/) | Constructs from an implementation object. | 
+|[NewAutoNumberedBulletValue_BulletValue](./newautonumberedbulletvalue_bulletvalue/) | Constructs from a parent object. | 
 
 ## Methods
 

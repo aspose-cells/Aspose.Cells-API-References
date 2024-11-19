@@ -19,6 +19,12 @@ type ImageActiveXControl struct
 imageactivexcontrol, _ := asposecells.NewImageActiveXControl()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewImageActiveXControl_ImageActiveXControl](./newimageactivexcontrol_imageactivexcontrol/) | Constructs from an implementation object. | 
+|[NewImageActiveXControl_ActiveXControl](./newimageactivexcontrol_activexcontrol/) | Constructs from a parent object. | 
 
 ## Methods
 

@@ -19,6 +19,11 @@ type XmlMap struct
 xmlmap, _ := asposecells.NewXmlMap()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewXmlMap](./newxmlmap/) | Constructs from an implementation object. | 
 
 ## Methods
 

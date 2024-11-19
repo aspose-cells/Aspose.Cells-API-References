@@ -19,6 +19,11 @@ type Hyperlink struct
 hyperlink, _ := asposecells.NewHyperlink()
 
 ```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+|[NewHyperlink](./newhyperlink/) | Constructs from an implementation object. | 
 
 ## Methods
 

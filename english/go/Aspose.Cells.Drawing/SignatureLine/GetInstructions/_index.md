@@ -10,7 +10,7 @@ url: /go/aspose.cells.drawing/signatureline/getinstructions/
 
 ## GetInstructions function
 
-Gets and sets the text shown to user at signing time.
+Gets or sets the text shown to user at signing time.
 
 ```go
 
