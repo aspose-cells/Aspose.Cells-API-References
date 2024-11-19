@@ -14,16 +14,15 @@ Represents an Office Add-in instance.
 
 ```go
 
-type WebExtension struct 
-
-webextension, _ := asposecells.NewWebExtension()
+type WebExtension struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewWebExtension](./newwebextension/) | Constructs from an implementation object. | 
 
 ## Methods
 

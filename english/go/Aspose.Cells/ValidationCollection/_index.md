@@ -14,16 +14,15 @@ Represents data validation collection.
 
 ```go
 
-type ValidationCollection struct 
-
-validationcollection, _ := asposecells.NewValidationCollection()
+type ValidationCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewValidationCollection](./newvalidationcollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

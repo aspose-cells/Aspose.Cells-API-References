@@ -14,16 +14,15 @@ Represents all custom table styles.
 
 ```go
 
-type TableStyleCollection struct 
-
-tablestylecollection, _ := asposecells.NewTableStyleCollection()
+type TableStyleCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewTableStyleCollection](./newtablestylecollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

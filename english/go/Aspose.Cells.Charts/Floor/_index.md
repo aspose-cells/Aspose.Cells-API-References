@@ -14,17 +14,16 @@ Encapsulates the object that represents the floor of a 3-D chart.
 
 ```go
 
-type Floor struct 
-
-floor, _ := asposecells.NewFloor()
+type Floor struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewFloor_Floor](./newfloor_floor/) | Constructs from an implementation object. | 
-|[NewFloor_Area](./newfloor_area/) | Constructs from a parent object. | 
+|[NewFloor](./newfloor/) | Constructs from a parent object. | 
 
 ## Methods
 

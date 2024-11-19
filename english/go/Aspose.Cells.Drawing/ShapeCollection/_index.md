@@ -14,16 +14,15 @@ Represents all the shape in a worksheet/chart.
 
 ```go
 
-type ShapeCollection struct 
-
-shapecollection, _ := asposecells.NewShapeCollection()
+type ShapeCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewShapeCollection](./newshapecollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

@@ -14,16 +14,15 @@ Represents conditional formatting.The FormatConditions can contain up to three c
 
 ```go
 
-type FormatConditionCollection struct 
-
-formatconditioncollection, _ := asposecells.NewFormatConditionCollection()
+type FormatConditionCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewFormatConditionCollection](./newformatconditioncollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

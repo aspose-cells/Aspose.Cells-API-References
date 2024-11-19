@@ -14,16 +14,15 @@ Represents union range.
 
 ```go
 
-type UnionRange struct 
-
-unionrange, _ := asposecells.NewUnionRange()
+type UnionRange struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewUnionRange](./newunionrange/) | Constructs from an implementation object. | 
 
 ## Methods
 

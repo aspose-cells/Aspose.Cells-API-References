@@ -14,9 +14,9 @@ Represents the page background of ods.
 
 ```go
 
-type OdsPageBackground struct 
-
-odspagebackground, _ := asposecells.NewOdsPageBackground()
+type OdsPageBackground struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ odspagebackground, _ := asposecells.NewOdsPageBackground()
 | Method | Description |
 | --- | --- |
 |[NewOdsPageBackground](./newodspagebackground/) | Default constructor. | 
-|[NewOdsPageBackground_OdsPageBackground](./newodspagebackground_odspagebackground/) | Constructs from an implementation object. | 
 
 ## Methods
 

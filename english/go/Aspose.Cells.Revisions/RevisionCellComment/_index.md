@@ -14,17 +14,16 @@ Represents a revision record of a cell comment change.
 
 ```go
 
-type RevisionCellComment struct 
-
-revisioncellcomment, _ := asposecells.NewRevisionCellComment()
+type RevisionCellComment struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewRevisionCellComment_RevisionCellComment](./newrevisioncellcomment_revisioncellcomment/) | Constructs from an implementation object. | 
-|[NewRevisionCellComment_Revision](./newrevisioncellcomment_revision/) | Constructs from a parent object. | 
+|[NewRevisionCellComment](./newrevisioncellcomment/) | Constructs from a parent object. | 
 
 ## Methods
 

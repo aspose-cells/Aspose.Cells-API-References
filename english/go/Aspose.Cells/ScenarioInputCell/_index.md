@@ -14,16 +14,15 @@ Represents input cell for the scenario.
 
 ```go
 
-type ScenarioInputCell struct 
-
-scenarioinputcell, _ := asposecells.NewScenarioInputCell()
+type ScenarioInputCell struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewScenarioInputCell](./newscenarioinputcell/) | Constructs from an implementation object. | 
 
 ## Methods
 

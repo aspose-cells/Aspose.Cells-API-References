@@ -14,17 +14,16 @@ Specifies the properties for a web query source. A web query will retrieve data 
 
 ```go
 
-type WebQueryConnection struct 
-
-webqueryconnection, _ := asposecells.NewWebQueryConnection()
+type WebQueryConnection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewWebQueryConnection_WebQueryConnection](./newwebqueryconnection_webqueryconnection/) | Constructs from an implementation object. | 
-|[NewWebQueryConnection_ExternalConnection](./newwebqueryconnection_externalconnection/) | Constructs from a parent object. | 
+|[NewWebQueryConnection](./newwebqueryconnection/) | Constructs from a parent object. | 
 
 ## Methods
 

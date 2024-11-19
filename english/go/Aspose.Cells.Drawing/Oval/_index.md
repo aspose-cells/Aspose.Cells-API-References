@@ -14,17 +14,16 @@ Represents the oval shape.
 
 ```go
 
-type Oval struct 
-
-oval, _ := asposecells.NewOval()
+type Oval struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewOval_Oval](./newoval_oval/) | Constructs from an implementation object. | 
-|[NewOval_Shape](./newoval_shape/) | Constructs from a parent object. | 
+|[NewOval](./newoval/) | Constructs from a parent object. | 
 
 ## Methods
 

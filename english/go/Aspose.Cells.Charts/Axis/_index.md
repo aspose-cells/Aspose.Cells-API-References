@@ -14,16 +14,15 @@ Encapsulates the object that represents an axis of chart.
 
 ```go
 
-type Axis struct 
-
-axis, _ := asposecells.NewAxis()
+type Axis struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewAxis](./newaxis/) | Constructs from an implementation object. | 
 
 ## Methods
 

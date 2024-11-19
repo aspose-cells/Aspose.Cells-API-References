@@ -14,16 +14,15 @@ Represents the cell field of ods.
 
 ```go
 
-type OdsCellField struct 
-
-odscellfield, _ := asposecells.NewOdsCellField()
+type OdsCellField struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewOdsCellField](./newodscellfield/) | Constructs from an implementation object. | 
 
 ## Methods
 

@@ -14,17 +14,16 @@ just for vmlEncapsulates a shape guide specifies the presence of a shapeguide th
 
 ```go
 
-type VmlShapeGuide struct 
-
-vmlshapeguide, _ := asposecells.NewVmlShapeGuide()
+type VmlShapeGuide struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewVmlShapeGuide_VmlShapeGuide](./newvmlshapeguide_vmlshapeguide/) | Constructs from an implementation object. | 
-|[NewVmlShapeGuide_BaseShapeGuide](./newvmlshapeguide_baseshapeguide/) | Constructs from a parent object. | 
+|[NewVmlShapeGuide](./newvmlshapeguide/) | Constructs from a parent object. | 
 
 ## Methods
 

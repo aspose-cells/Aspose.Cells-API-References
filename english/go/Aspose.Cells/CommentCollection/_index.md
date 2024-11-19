@@ -14,16 +14,15 @@ Encapsulates a collection of <see cref="Comment"/> objects.
 
 ```go
 
-type CommentCollection struct 
-
-commentcollection, _ := asposecells.NewCommentCollection()
+type CommentCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewCommentCollection](./newcommentcollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

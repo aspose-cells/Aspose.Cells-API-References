@@ -14,17 +14,16 @@ Equation node class of unknown type
 
 ```go
 
-type UnknowEquationNode struct 
-
-unknowequationnode, _ := asposecells.NewUnknowEquationNode()
+type UnknowEquationNode struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewUnknowEquationNode_UnknowEquationNode](./newunknowequationnode_unknowequationnode/) | Constructs from an implementation object. | 
-|[NewUnknowEquationNode_EquationNode](./newunknowequationnode_equationnode/) | Constructs from a parent object. | 
+|[NewUnknowEquationNode](./newunknowequationnode/) | Constructs from a parent object. | 
 
 ## Methods
 

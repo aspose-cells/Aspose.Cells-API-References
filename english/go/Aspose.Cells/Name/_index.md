@@ -14,16 +14,15 @@ Represents a defined name for a range of cells.
 
 ```go
 
-type Name struct 
-
-name, _ := asposecells.NewName()
+type Name struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewName](./newname/) | Constructs from an implementation object. | 
 
 ## Methods
 

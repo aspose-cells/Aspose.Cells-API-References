@@ -14,16 +14,15 @@ Represents the calculation relevant data about one cell which is being calculate
 
 ```go
 
-type CalculationCell struct 
-
-calculationcell, _ := asposecells.NewCalculationCell()
+type CalculationCell struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewCalculationCell](./newcalculationcell/) | Constructs from an implementation object. | 
 
 ## Methods
 

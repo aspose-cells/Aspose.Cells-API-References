@@ -14,17 +14,16 @@ Represents error bar of data series.
 
 ```go
 
-type ErrorBar struct 
-
-errorbar, _ := asposecells.NewErrorBar()
+type ErrorBar struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewErrorBar_ErrorBar](./newerrorbar_errorbar/) | Constructs from an implementation object. | 
-|[NewErrorBar_Line](./newerrorbar_line/) | Constructs from a parent object. | 
+|[NewErrorBar](./newerrorbar/) | Constructs from a parent object. | 
 
 ## Methods
 

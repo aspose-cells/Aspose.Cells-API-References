@@ -14,16 +14,15 @@ Describe the ColorScale conditional formatting rule.This conditional formatting 
 
 ```go
 
-type ColorScale struct 
-
-colorscale, _ := asposecells.NewColorScale()
+type ColorScale struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewColorScale](./newcolorscale/) | Constructs from an implementation object. | 
 
 ## Methods
 

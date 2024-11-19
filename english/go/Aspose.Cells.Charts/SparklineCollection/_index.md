@@ -14,16 +14,15 @@ Encapsulates a collection of <see cref="Sparkline"/> objects.
 
 ```go
 
-type SparklineCollection struct 
-
-sparklinecollection, _ := asposecells.NewSparklineCollection()
+type SparklineCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewSparklineCollection](./newsparklinecollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

@@ -14,16 +14,15 @@ Represents the color settings of the data bars for negative values that are defi
 
 ```go
 
-type NegativeBarFormat struct 
-
-negativebarformat, _ := asposecells.NewNegativeBarFormat()
+type NegativeBarFormat struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewNegativeBarFormat](./newnegativebarformat/) | Constructs from an implementation object. | 
 
 ## Methods
 

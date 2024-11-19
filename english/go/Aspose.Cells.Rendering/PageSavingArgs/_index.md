@@ -14,16 +14,15 @@ Info for a page saving process.
 
 ```go
 
-type PageSavingArgs struct 
-
-pagesavingargs, _ := asposecells.NewPageSavingArgs()
+type PageSavingArgs struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewPageSavingArgs](./newpagesavingargs/) | Constructs from an implementation object. | 
 
 ## Methods
 

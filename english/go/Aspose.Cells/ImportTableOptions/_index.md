@@ -14,9 +14,9 @@ Represents the options of importing data into cells.
 
 ```go
 
-type ImportTableOptions struct 
-
-importtableoptions, _ := asposecells.NewImportTableOptions()
+type ImportTableOptions struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ importtableoptions, _ := asposecells.NewImportTableOptions()
 | Method | Description |
 | --- | --- |
 |[NewImportTableOptions](./newimporttableoptions/) | Creates the default importing options. | 
-|[NewImportTableOptions_ImportTableOptions](./newimporttableoptions_importtableoptions/) | Constructs from an implementation object. | 
 
 ## Methods
 

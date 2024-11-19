@@ -14,16 +14,15 @@ Represents the ActiveX control.
 
 ```go
 
-type ActiveXControlBase struct 
-
-activexcontrolbase, _ := asposecells.NewActiveXControlBase()
+type ActiveXControlBase struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewActiveXControlBase](./newactivexcontrolbase/) | Constructs from an implementation object. | 
 
 ## Methods
 

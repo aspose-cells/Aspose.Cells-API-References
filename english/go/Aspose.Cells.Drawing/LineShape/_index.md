@@ -14,17 +14,16 @@ Represents the line shape.
 
 ```go
 
-type LineShape struct 
-
-lineshape, _ := asposecells.NewLineShape()
+type LineShape struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewLineShape_LineShape](./newlineshape_lineshape/) | Constructs from an implementation object. | 
-|[NewLineShape_Shape](./newlineshape_shape/) | Constructs from a parent object. | 
+|[NewLineShape](./newlineshape/) | Constructs from a parent object. | 
 
 ## Methods
 

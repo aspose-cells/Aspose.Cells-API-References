@@ -14,16 +14,15 @@ Summary description of Timeline ViewDue to MS Excel, Excel 2003 does not support
 
 ```go
 
-type Timeline struct 
-
-timeline, _ := asposecells.NewTimeline()
+type Timeline struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewTimeline](./newtimeline/) | Constructs from an implementation object. | 
 
 ## Methods
 

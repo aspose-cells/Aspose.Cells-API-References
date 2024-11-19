@@ -14,16 +14,15 @@ Specifies the collection of all the Slicer objects on the specified worksheet.
 
 ```go
 
-type SlicerCollection struct 
-
-slicercollection, _ := asposecells.NewSlicerCollection()
+type SlicerCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewSlicerCollection](./newslicercollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

@@ -14,9 +14,9 @@ Represents the single TrueType font file stored in the file system.
 
 ```go
 
-type FileFontSource struct 
-
-filefontsource, _ := asposecells.NewFileFontSource()
+type FileFontSource struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ filefontsource, _ := asposecells.NewFileFontSource()
 | Method | Description |
 | --- | --- |
 |[NewFileFontSource_String](./newfilefontsource_string/) | Ctor. | 
-|[NewFileFontSource_FileFontSource](./newfilefontsource_filefontsource/) | Constructs from an implementation object. | 
 |[NewFileFontSource_FontSourceBase](./newfilefontsource_fontsourcebase/) | Constructs from a parent object. | 
 
 ## Methods

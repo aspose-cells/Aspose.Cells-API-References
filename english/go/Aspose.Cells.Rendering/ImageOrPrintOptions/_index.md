@@ -14,9 +14,9 @@ Allows to specify options when rendering worksheet to images, printing worksheet
 
 ```go
 
-type ImageOrPrintOptions struct 
-
-imageorprintoptions, _ := asposecells.NewImageOrPrintOptions()
+type ImageOrPrintOptions struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ imageorprintoptions, _ := asposecells.NewImageOrPrintOptions()
 | Method | Description |
 | --- | --- |
 |[NewImageOrPrintOptions](./newimageorprintoptions/) | Default constructor. | 
-|[NewImageOrPrintOptions_ImageOrPrintOptions](./newimageorprintoptions_imageorprintoptions/) | Constructs from an implementation object. | 
 
 ## Methods
 

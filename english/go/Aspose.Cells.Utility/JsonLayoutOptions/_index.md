@@ -14,9 +14,9 @@ Represents the options of json layout type.
 
 ```go
 
-type JsonLayoutOptions struct 
-
-jsonlayoutoptions, _ := asposecells.NewJsonLayoutOptions()
+type JsonLayoutOptions struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ jsonlayoutoptions, _ := asposecells.NewJsonLayoutOptions()
 | Method | Description |
 | --- | --- |
 |[NewJsonLayoutOptions](./newjsonlayoutoptions/) | Constructor of loading JSON layout options. | 
-|[NewJsonLayoutOptions_JsonLayoutOptions](./newjsonlayoutoptions_jsonlayoutoptions/) | Constructs from an implementation object. | 
 
 ## Methods
 

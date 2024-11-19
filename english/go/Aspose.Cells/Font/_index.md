@@ -14,16 +14,15 @@ Encapsulates the font object used in a spreadsheet.
 
 ```go
 
-type Font struct 
-
-font, _ := asposecells.NewFont()
+type Font struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewFont](./newfont/) | Constructs from an implementation object. | 
 
 ## Methods
 

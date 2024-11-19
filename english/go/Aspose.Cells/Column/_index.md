@@ -14,16 +14,15 @@ Represents a single column in a worksheet.
 
 ```go
 
-type Column struct 
-
-column, _ := asposecells.NewColumn()
+type Column struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewColumn](./newcolumn/) | Constructs from an implementation object. | 
 
 ## Methods
 

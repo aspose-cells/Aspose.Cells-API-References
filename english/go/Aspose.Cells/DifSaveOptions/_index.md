@@ -14,9 +14,9 @@ Represents the options of saving dif file.
 
 ```go
 
-type DifSaveOptions struct 
-
-difsaveoptions, _ := asposecells.NewDifSaveOptions()
+type DifSaveOptions struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ difsaveoptions, _ := asposecells.NewDifSaveOptions()
 | Method | Description |
 | --- | --- |
 |[NewDifSaveOptions](./newdifsaveoptions/) | Creates the options for saving DIF file. | 
-|[NewDifSaveOptions_DifSaveOptions](./newdifsaveoptions_difsaveoptions/) | Constructs from an implementation object. | 
 |[NewDifSaveOptions_SaveOptions](./newdifsaveoptions_saveoptions/) | Constructs from a parent object. | 
 
 ## Methods

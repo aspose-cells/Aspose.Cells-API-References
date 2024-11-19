@@ -14,9 +14,9 @@ Represents the option when import table from html.
 
 ```go
 
-type HtmlTableLoadOption struct 
-
-htmltableloadoption, _ := asposecells.NewHtmlTableLoadOption()
+type HtmlTableLoadOption struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ htmltableloadoption, _ := asposecells.NewHtmlTableLoadOption()
 | Method | Description |
 | --- | --- |
 |[NewHtmlTableLoadOption](./newhtmltableloadoption/) | Default constructor. | 
-|[NewHtmlTableLoadOption_HtmlTableLoadOption](./newhtmltableloadoption_htmltableloadoption/) | Constructs from an implementation object. | 
 
 ## Methods
 

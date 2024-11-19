@@ -14,17 +14,16 @@ Encapsulates the object that represents the chart area in the worksheet.
 
 ```go
 
-type ChartArea struct 
-
-chartarea, _ := asposecells.NewChartArea()
+type ChartArea struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewChartArea_ChartArea](./newchartarea_chartarea/) | Constructs from an implementation object. | 
-|[NewChartArea_ChartFrame](./newchartarea_chartframe/) | Constructs from a parent object. | 
+|[NewChartArea](./newchartarea/) | Constructs from a parent object. | 
 
 ## Methods
 

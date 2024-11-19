@@ -14,16 +14,15 @@ Represents the msodrawing object.
 
 ```go
 
-type Shape struct 
-
-shape, _ := asposecells.NewShape()
+type Shape struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewShape](./newshape/) | Constructs from an implementation object. | 
 
 ## Methods
 

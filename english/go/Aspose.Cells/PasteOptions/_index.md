@@ -14,9 +14,9 @@ Represents the paste special options.
 
 ```go
 
-type PasteOptions struct 
-
-pasteoptions, _ := asposecells.NewPasteOptions()
+type PasteOptions struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ pasteoptions, _ := asposecells.NewPasteOptions()
 | Method | Description |
 | --- | --- |
 |[NewPasteOptions](./newpasteoptions/) | Default constructor. | 
-|[NewPasteOptions_PasteOptions](./newpasteoptions_pasteoptions/) | Constructs from an implementation object. | 
 
 ## Methods
 

@@ -14,17 +14,16 @@ Unknow control.
 
 ```go
 
-type UnknownControl struct 
-
-unknowncontrol, _ := asposecells.NewUnknownControl()
+type UnknownControl struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewUnknownControl_UnknownControl](./newunknowncontrol_unknowncontrol/) | Constructs from an implementation object. | 
-|[NewUnknownControl_ActiveXControl](./newunknowncontrol_activexcontrol/) | Constructs from a parent object. | 
+|[NewUnknownControl](./newunknowncontrol/) | Constructs from a parent object. | 
 
 ## Methods
 

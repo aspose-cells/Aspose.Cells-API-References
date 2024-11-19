@@ -14,9 +14,9 @@ Options for encrypting and access permissions for a PDF document.PDF/A does not 
 
 ```go
 
-type PdfSecurityOptions struct 
-
-pdfsecurityoptions, _ := asposecells.NewPdfSecurityOptions()
+type PdfSecurityOptions struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ pdfsecurityoptions, _ := asposecells.NewPdfSecurityOptions()
 | Method | Description |
 | --- | --- |
 |[NewPdfSecurityOptions](./newpdfsecurityoptions/) | The constructor of PdfSecurityOptions | 
-|[NewPdfSecurityOptions_PdfSecurityOptions](./newpdfsecurityoptions_pdfsecurityoptions/) | Constructs from an implementation object. | 
 
 ## Methods
 

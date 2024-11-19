@@ -14,17 +14,16 @@ This class specifies the Border Box function, consisting of a border drawn aroun
 
 ```go
 
-type BorderBoxEquationNode struct 
-
-borderboxequationnode, _ := asposecells.NewBorderBoxEquationNode()
+type BorderBoxEquationNode struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewBorderBoxEquationNode_BorderBoxEquationNode](./newborderboxequationnode_borderboxequationnode/) | Constructs from an implementation object. | 
-|[NewBorderBoxEquationNode_EquationNode](./newborderboxequationnode_equationnode/) | Constructs from a parent object. | 
+|[NewBorderBoxEquationNode](./newborderboxequationnode/) | Constructs from a parent object. | 
 
 ## Methods
 

@@ -14,17 +14,16 @@ Represents a ToggleButton ActiveX control.
 
 ```go
 
-type ToggleButtonActiveXControl struct 
-
-togglebuttonactivexcontrol, _ := asposecells.NewToggleButtonActiveXControl()
+type ToggleButtonActiveXControl struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewToggleButtonActiveXControl_ToggleButtonActiveXControl](./newtogglebuttonactivexcontrol_togglebuttonactivexcontrol/) | Constructs from an implementation object. | 
-|[NewToggleButtonActiveXControl_ActiveXControl](./newtogglebuttonactivexcontrol_activexcontrol/) | Constructs from a parent object. | 
+|[NewToggleButtonActiveXControl](./newtogglebuttonactivexcontrol/) | Constructs from a parent object. | 
 
 ## Methods
 

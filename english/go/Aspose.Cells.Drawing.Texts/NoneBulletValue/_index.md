@@ -14,9 +14,9 @@ Represents no bullet.
 
 ```go
 
-type NoneBulletValue struct 
-
-nonebulletvalue, _ := asposecells.NewNoneBulletValue()
+type NoneBulletValue struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ nonebulletvalue, _ := asposecells.NewNoneBulletValue()
 | Method | Description |
 | --- | --- |
 |[NewNoneBulletValue](./newnonebulletvalue/) | Default constructor. | 
-|[NewNoneBulletValue_NoneBulletValue](./newnonebulletvalue_nonebulletvalue/) | Constructs from an implementation object. | 
 |[NewNoneBulletValue_BulletValue](./newnonebulletvalue_bulletvalue/) | Constructs from a parent object. | 
 
 ## Methods

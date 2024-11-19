@@ -14,17 +14,16 @@ Represents the control form ComboBox.
 
 ```go
 
-type ComboBox struct 
-
-combobox, _ := asposecells.NewComboBox()
+type ComboBox struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewComboBox_ComboBox](./newcombobox_combobox/) | Constructs from an implementation object. | 
-|[NewComboBox_Shape](./newcombobox_shape/) | Constructs from a parent object. | 
+|[NewComboBox](./newcombobox/) | Constructs from a parent object. | 
 
 ## Methods
 

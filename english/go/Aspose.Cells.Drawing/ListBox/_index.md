@@ -14,17 +14,16 @@ Represents a list box object.
 
 ```go
 
-type ListBox struct 
-
-listbox, _ := asposecells.NewListBox()
+type ListBox struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewListBox_ListBox](./newlistbox_listbox/) | Constructs from an implementation object. | 
-|[NewListBox_Shape](./newlistbox_shape/) | Constructs from a parent object. | 
+|[NewListBox](./newlistbox/) | Constructs from a parent object. | 
 
 ## Methods
 

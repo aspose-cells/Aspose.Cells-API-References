@@ -14,9 +14,9 @@ Represents the options of the smart tag.
 
 ```go
 
-type SmartTagOptions struct 
-
-smarttagoptions, _ := asposecells.NewSmartTagOptions()
+type SmartTagOptions struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ smarttagoptions, _ := asposecells.NewSmartTagOptions()
 | Method | Description |
 | --- | --- |
 |[NewSmartTagOptions](./newsmarttagoptions/) | Default constructor. | 
-|[NewSmartTagOptions_SmartTagOptions](./newsmarttagoptions_smarttagoptions/) | Constructs from an implementation object. | 
 
 ## Methods
 

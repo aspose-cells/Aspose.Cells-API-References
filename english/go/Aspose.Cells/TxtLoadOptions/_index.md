@@ -14,9 +14,9 @@ Represents the options for loading text file.
 
 ```go
 
-type TxtLoadOptions struct 
-
-txtloadoptions, _ := asposecells.NewTxtLoadOptions()
+type TxtLoadOptions struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -25,7 +25,6 @@ txtloadoptions, _ := asposecells.NewTxtLoadOptions()
 | --- | --- |
 |[NewTxtLoadOptions](./newtxtloadoptions/) | Creates the options for loading text file. | 
 |[NewTxtLoadOptions_LoadFormat](./newtxtloadoptions_loadformat/) | Creates the options for loading text file. | 
-|[NewTxtLoadOptions_TxtLoadOptions](./newtxtloadoptions_txtloadoptions/) | Constructs from an implementation object. | 
 |[NewTxtLoadOptions_AbstractTextLoadOptions](./newtxtloadoptions_abstracttextloadoptions/) | Constructs from a parent object. | 
 
 ## Methods

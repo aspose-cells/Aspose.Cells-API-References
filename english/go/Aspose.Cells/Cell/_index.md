@@ -14,16 +14,15 @@ Encapsulates the object that represents a single Workbook cell.
 
 ```go
 
-type Cell struct 
-
-cell, _ := asposecells.NewCell()
+type Cell struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewCell](./newcell/) | Constructs from an implementation object. | 
 
 ## Methods
 

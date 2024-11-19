@@ -14,16 +14,15 @@ A collection of <see cref="XmlMap"/> objects that represent XmlMap information.
 
 ```go
 
-type XmlMapCollection struct 
-
-xmlmapcollection, _ := asposecells.NewXmlMapCollection()
+type XmlMapCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewXmlMapCollection](./newxmlmapcollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

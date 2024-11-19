@@ -14,9 +14,9 @@ Represents the options of loading xml.
 
 ```go
 
-type XmlLoadOptions struct 
-
-xmlloadoptions, _ := asposecells.NewXmlLoadOptions()
+type XmlLoadOptions struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -25,7 +25,6 @@ xmlloadoptions, _ := asposecells.NewXmlLoadOptions()
 | --- | --- |
 |[NewXmlLoadOptions](./newxmlloadoptions/) | Represents the options of loading xml file. | 
 |[NewXmlLoadOptions_LoadFormat](./newxmlloadoptions_loadformat/) | Represents the options of loading xml file. | 
-|[NewXmlLoadOptions_XmlLoadOptions](./newxmlloadoptions_xmlloadoptions/) | Constructs from an implementation object. | 
 |[NewXmlLoadOptions_LoadOptions](./newxmlloadoptions_loadoptions/) | Constructs from a parent object. | 
 
 ## Methods

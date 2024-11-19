@@ -14,16 +14,15 @@ Represents all item of the power query formula.
 
 ```go
 
-type PowerQueryFormulaItemCollection struct 
-
-powerqueryformulaitemcollection, _ := asposecells.NewPowerQueryFormulaItemCollection()
+type PowerQueryFormulaItemCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewPowerQueryFormulaItemCollection](./newpowerqueryformulaitemcollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

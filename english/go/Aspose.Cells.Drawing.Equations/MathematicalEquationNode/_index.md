@@ -14,17 +14,16 @@ This class specifies an equation or mathematical expression. All mathematical te
 
 ```go
 
-type MathematicalEquationNode struct 
-
-mathematicalequationnode, _ := asposecells.NewMathematicalEquationNode()
+type MathematicalEquationNode struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewMathematicalEquationNode_MathematicalEquationNode](./newmathematicalequationnode_mathematicalequationnode/) | Constructs from an implementation object. | 
-|[NewMathematicalEquationNode_EquationNode](./newmathematicalequationnode_equationnode/) | Constructs from a parent object. | 
+|[NewMathematicalEquationNode](./newmathematicalequationnode/) | Constructs from a parent object. | 
 
 ## Methods
 

@@ -14,9 +14,9 @@ Interface to get DrawObject and Bound when rendering.
 
 ```go
 
-type DrawObjectEventHandler struct 
-
-drawobjecteventhandler, _ := asposecells.NewDrawObjectEventHandler()
+type DrawObjectEventHandler struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors

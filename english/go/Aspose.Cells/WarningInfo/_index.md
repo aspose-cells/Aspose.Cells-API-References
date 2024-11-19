@@ -14,16 +14,15 @@ Warning info
 
 ```go
 
-type WarningInfo struct 
-
-warninginfo, _ := asposecells.NewWarningInfo()
+type WarningInfo struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewWarningInfo](./newwarninginfo/) | Constructs from an implementation object. | 
 
 ## Methods
 

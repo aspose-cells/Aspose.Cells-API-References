@@ -14,17 +14,16 @@ Represents two color gradient.
 
 ```go
 
-type TwoColorGradient struct 
-
-twocolorgradient, _ := asposecells.NewTwoColorGradient()
+type TwoColorGradient struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewTwoColorGradient_Color_Color_GradientStyleType_Int](./newtwocolorgradient_color_color_gradientstyletype_int/) |  | 
-|[NewTwoColorGradient_TwoColorGradient](./newtwocolorgradient_twocolorgradient/) | Constructs from an implementation object. | 
+|[NewTwoColorGradient](./newtwocolorgradient/) |  | 
 
 ## Methods
 

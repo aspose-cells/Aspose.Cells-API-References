@@ -14,9 +14,9 @@ Font configs for each <see cref="Workbook"/> object.
 
 ```go
 
-type IndividualFontConfigs struct 
-
-individualfontconfigs, _ := asposecells.NewIndividualFontConfigs()
+type IndividualFontConfigs struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ individualfontconfigs, _ := asposecells.NewIndividualFontConfigs()
 | Method | Description |
 | --- | --- |
 |[NewIndividualFontConfigs](./newindividualfontconfigs/) | Ctor. | 
-|[NewIndividualFontConfigs_IndividualFontConfigs](./newindividualfontconfigs_individualfontconfigs/) | Constructs from an implementation object. | 
 
 ## Methods
 

@@ -14,17 +14,16 @@ This class specifies an accent equation, consisting of a base component and a co
 
 ```go
 
-type AccentEquationNode struct 
-
-accentequationnode, _ := asposecells.NewAccentEquationNode()
+type AccentEquationNode struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewAccentEquationNode_AccentEquationNode](./newaccentequationnode_accentequationnode/) | Constructs from an implementation object. | 
-|[NewAccentEquationNode_EquationNode](./newaccentequationnode_equationnode/) | Constructs from a parent object. | 
+|[NewAccentEquationNode](./newaccentequationnode/) | Constructs from a parent object. | 
 
 ## Methods
 

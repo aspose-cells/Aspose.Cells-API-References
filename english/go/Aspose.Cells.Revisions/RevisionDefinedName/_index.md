@@ -14,17 +14,16 @@ Represents a revision record of a defined name change.
 
 ```go
 
-type RevisionDefinedName struct 
-
-revisiondefinedname, _ := asposecells.NewRevisionDefinedName()
+type RevisionDefinedName struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewRevisionDefinedName_RevisionDefinedName](./newrevisiondefinedname_revisiondefinedname/) | Constructs from an implementation object. | 
-|[NewRevisionDefinedName_Revision](./newrevisiondefinedname_revision/) | Constructs from a parent object. | 
+|[NewRevisionDefinedName](./newrevisiondefinedname/) | Constructs from a parent object. | 
 
 ## Methods
 

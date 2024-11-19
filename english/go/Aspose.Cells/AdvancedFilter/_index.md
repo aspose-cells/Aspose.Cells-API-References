@@ -14,16 +14,15 @@ Represents the settings of advanced filter.
 
 ```go
 
-type AdvancedFilter struct 
-
-advancedfilter, _ := asposecells.NewAdvancedFilter()
+type AdvancedFilter struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewAdvancedFilter](./newadvancedfilter/) | Constructs from an implementation object. | 
 
 ## Methods
 

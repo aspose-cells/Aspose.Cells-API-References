@@ -14,17 +14,16 @@ This class specifies an equation that can optionally be superscript or subscript
 
 ```go
 
-type SubSupEquationNode struct 
-
-subsupequationnode, _ := asposecells.NewSubSupEquationNode()
+type SubSupEquationNode struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewSubSupEquationNode_SubSupEquationNode](./newsubsupequationnode_subsupequationnode/) | Constructs from an implementation object. | 
-|[NewSubSupEquationNode_EquationNode](./newsubsupequationnode_equationnode/) | Constructs from a parent object. | 
+|[NewSubSupEquationNode](./newsubsupequationnode/) | Constructs from a parent object. | 
 
 ## Methods
 

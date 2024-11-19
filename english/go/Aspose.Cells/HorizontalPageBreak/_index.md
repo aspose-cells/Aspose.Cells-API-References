@@ -14,16 +14,15 @@ Encapsulates the object that represents a horizontal page break.
 
 ```go
 
-type HorizontalPageBreak struct 
-
-horizontalpagebreak, _ := asposecells.NewHorizontalPageBreak()
+type HorizontalPageBreak struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewHorizontalPageBreak](./newhorizontalpagebreak/) | Constructs from an implementation object. | 
 
 ## Methods
 

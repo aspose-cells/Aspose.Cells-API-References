@@ -14,17 +14,16 @@ Represents the auto shape and drawing object.
 
 ```go
 
-type CellsDrawing struct 
-
-cellsdrawing, _ := asposecells.NewCellsDrawing()
+type CellsDrawing struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewCellsDrawing_CellsDrawing](./newcellsdrawing_cellsdrawing/) | Constructs from an implementation object. | 
-|[NewCellsDrawing_Shape](./newcellsdrawing_shape/) | Constructs from a parent object. | 
+|[NewCellsDrawing](./newcellsdrawing/) | Constructs from a parent object. | 
 
 ## Methods
 

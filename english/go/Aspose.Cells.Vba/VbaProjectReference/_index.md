@@ -14,16 +14,15 @@ Represents the reference of VBA project.
 
 ```go
 
-type VbaProjectReference struct 
-
-vbaprojectreference, _ := asposecells.NewVbaProjectReference()
+type VbaProjectReference struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewVbaProjectReference](./newvbaprojectreference/) | Constructs from an implementation object. | 
 
 ## Methods
 

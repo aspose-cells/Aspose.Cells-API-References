@@ -14,9 +14,9 @@ Represents options for calculation.
 
 ```go
 
-type CalculationOptions struct 
-
-calculationoptions, _ := asposecells.NewCalculationOptions()
+type CalculationOptions struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ calculationoptions, _ := asposecells.NewCalculationOptions()
 | Method | Description |
 | --- | --- |
 |[NewCalculationOptions](./newcalculationoptions/) | Default constructor. | 
-|[NewCalculationOptions_CalculationOptions](./newcalculationoptions_calculationoptions/) | Constructs from an implementation object. | 
 
 ## Methods
 

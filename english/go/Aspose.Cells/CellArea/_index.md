@@ -14,9 +14,9 @@ Represent an area of cells.
 
 ```go
 
-type CellArea struct 
-
-cellarea, _ := asposecells.NewCellArea()
+type CellArea struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors

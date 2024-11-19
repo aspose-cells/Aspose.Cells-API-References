@@ -14,16 +14,15 @@ represents automatic fill.
 
 ```go
 
-type AutomaticFill struct 
-
-automaticfill, _ := asposecells.NewAutomaticFill()
+type AutomaticFill struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewAutomaticFill](./newautomaticfill/) | Constructs from an implementation object. | 
 
 ## Methods
 

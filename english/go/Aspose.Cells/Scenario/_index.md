@@ -14,16 +14,15 @@ Represents an individual scenario.
 
 ```go
 
-type Scenario struct 
-
-scenario, _ := asposecells.NewScenario()
+type Scenario struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewScenario](./newscenario/) | Constructs from an implementation object. | 
 
 ## Methods
 

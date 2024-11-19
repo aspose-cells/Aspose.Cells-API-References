@@ -14,16 +14,15 @@ Describe the IconSet conditional formatting rule.This conditional formatting rul
 
 ```go
 
-type IconSet struct 
-
-iconset, _ := asposecells.NewIconSet()
+type IconSet struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewIconSet](./newiconset/) | Constructs from an implementation object. | 
 
 ## Methods
 

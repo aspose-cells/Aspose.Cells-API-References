@@ -14,16 +14,15 @@ Represents a referred area by the formula.
 
 ```go
 
-type ReferredArea struct 
-
-referredarea, _ := asposecells.NewReferredArea()
+type ReferredArea struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewReferredArea](./newreferredarea/) | Constructs from an implementation object. | 
 
 ## Methods
 

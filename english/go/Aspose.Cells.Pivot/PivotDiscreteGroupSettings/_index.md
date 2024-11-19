@@ -14,17 +14,16 @@ Rrepsents the discrete group of pivot field
 
 ```go
 
-type PivotDiscreteGroupSettings struct 
-
-pivotdiscretegroupsettings, _ := asposecells.NewPivotDiscreteGroupSettings()
+type PivotDiscreteGroupSettings struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewPivotDiscreteGroupSettings_PivotDiscreteGroupSettings](./newpivotdiscretegroupsettings_pivotdiscretegroupsettings/) | Constructs from an implementation object. | 
-|[NewPivotDiscreteGroupSettings_PivotFieldGroupSettings](./newpivotdiscretegroupsettings_pivotfieldgroupsettings/) | Constructs from a parent object. | 
+|[NewPivotDiscreteGroupSettings](./newpivotdiscretegroupsettings/) | Constructs from a parent object. | 
 
 ## Methods
 

@@ -14,16 +14,15 @@ Represents identify the provider location and version of the extension.
 
 ```go
 
-type WebExtensionReference struct 
-
-webextensionreference, _ := asposecells.NewWebExtensionReference()
+type WebExtensionReference struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewWebExtensionReference](./newwebextensionreference/) | Constructs from an implementation object. | 
 
 ## Methods
 

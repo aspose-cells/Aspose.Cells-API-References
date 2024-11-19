@@ -14,16 +14,15 @@ Represents the property of the cell smart tag.
 
 ```go
 
-type SmartTagProperty struct 
-
-smarttagproperty, _ := asposecells.NewSmartTagProperty()
+type SmartTagProperty struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewSmartTagProperty](./newsmarttagproperty/) | Constructs from an implementation object. | 
 
 ## Methods
 

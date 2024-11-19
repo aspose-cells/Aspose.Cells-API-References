@@ -14,16 +14,15 @@ Represents PivotTable Format Conditions.
 
 ```go
 
-type PivotFormatConditionCollection struct 
-
-pivotformatconditioncollection, _ := asposecells.NewPivotFormatConditionCollection()
+type PivotFormatConditionCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewPivotFormatConditionCollection](./newpivotformatconditioncollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

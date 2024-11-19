@@ -14,9 +14,9 @@ Represents a creation path consisting of a series of moves, lines and curves tha
 
 ```go
 
-type ShapeSegmentPathCollection struct 
-
-shapesegmentpathcollection, _ := asposecells.NewShapeSegmentPathCollection()
+type ShapeSegmentPathCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ shapesegmentpathcollection, _ := asposecells.NewShapeSegmentPathCollection()
 | Method | Description |
 | --- | --- |
 |[NewShapeSegmentPathCollection](./newshapesegmentpathcollection/) | Default constructor. | 
-|[NewShapeSegmentPathCollection_ShapeSegmentPathCollection](./newshapesegmentpathcollection_shapesegmentpathcollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

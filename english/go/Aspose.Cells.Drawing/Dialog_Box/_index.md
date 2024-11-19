@@ -14,17 +14,16 @@ Represents the dialog box.
 
 ```go
 
-type Dialog_Box struct 
-
-dialog_box, _ := asposecells.NewDialog_Box()
+type Dialog_Box struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewDialog_Box_Dialog_Box](./newdialog_box_dialog_box/) | Constructs from an implementation object. | 
-|[NewDialog_Box_Shape](./newdialog_box_shape/) | Constructs from a parent object. | 
+|[NewDialog_Box](./newdialog_box/) | Constructs from a parent object. | 
 
 ## Methods
 

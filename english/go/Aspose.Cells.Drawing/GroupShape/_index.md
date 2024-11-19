@@ -14,17 +14,16 @@ Represents the group shape which contains the individual shapes.
 
 ```go
 
-type GroupShape struct 
-
-groupshape, _ := asposecells.NewGroupShape()
+type GroupShape struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewGroupShape_GroupShape](./newgroupshape_groupshape/) | Constructs from an implementation object. | 
-|[NewGroupShape_Shape](./newgroupshape_shape/) | Constructs from a parent object. | 
+|[NewGroupShape](./newgroupshape/) | Constructs from a parent object. | 
 
 ## Methods
 

@@ -14,9 +14,9 @@ Represents find options.
 
 ```go
 
-type FindOptions struct 
-
-findoptions, _ := asposecells.NewFindOptions()
+type FindOptions struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ findoptions, _ := asposecells.NewFindOptions()
 | Method | Description |
 | --- | --- |
 |[NewFindOptions](./newfindoptions/) | Default constructor. | 
-|[NewFindOptions_FindOptions](./newfindoptions_findoptions/) | Constructs from an implementation object. | 
 
 ## Methods
 

@@ -14,17 +14,16 @@ This class specifies the Function-Apply equation, which consists of a function n
 
 ```go
 
-type FunctionEquationNode struct 
-
-functionequationnode, _ := asposecells.NewFunctionEquationNode()
+type FunctionEquationNode struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewFunctionEquationNode_FunctionEquationNode](./newfunctionequationnode_functionequationnode/) | Constructs from an implementation object. | 
-|[NewFunctionEquationNode_EquationNode](./newfunctionequationnode_equationnode/) | Constructs from a parent object. | 
+|[NewFunctionEquationNode](./newfunctionequationnode/) | Constructs from a parent object. | 
 
 ## Methods
 

@@ -14,16 +14,15 @@ Represents fill formatting for a shape.
 
 ```go
 
-type MsoFillFormatHelper struct 
-
-msofillformathelper, _ := asposecells.NewMsoFillFormatHelper()
+type MsoFillFormatHelper struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewMsoFillFormatHelper](./newmsofillformathelper/) | Constructs from an implementation object. | 
 
 ## Methods
 

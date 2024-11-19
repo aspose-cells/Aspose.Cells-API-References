@@ -14,9 +14,9 @@ Provides helper functions.
 
 ```go
 
-type CellsHelper struct 
-
-cellshelper, _ := asposecells.NewCellsHelper()
+type CellsHelper struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors

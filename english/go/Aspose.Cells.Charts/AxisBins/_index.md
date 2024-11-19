@@ -14,16 +14,15 @@ Represents axis bins
 
 ```go
 
-type AxisBins struct 
-
-axisbins, _ := asposecells.NewAxisBins()
+type AxisBins struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewAxisBins](./newaxisbins/) | Constructs from an implementation object. | 
 
 ## Methods
 

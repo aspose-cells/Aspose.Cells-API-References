@@ -14,17 +14,16 @@ Represents the display unit label.
 
 ```go
 
-type DisplayUnitLabel struct 
-
-displayunitlabel, _ := asposecells.NewDisplayUnitLabel()
+type DisplayUnitLabel struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewDisplayUnitLabel_DisplayUnitLabel](./newdisplayunitlabel_displayunitlabel/) | Constructs from an implementation object. | 
-|[NewDisplayUnitLabel_ChartTextFrame](./newdisplayunitlabel_charttextframe/) | Constructs from a parent object. | 
+|[NewDisplayUnitLabel](./newdisplayunitlabel/) | Constructs from a parent object. | 
 
 ## Methods
 

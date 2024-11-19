@@ -14,16 +14,15 @@ Encapsulates a collection of <see cref="Chart"/> objects.
 
 ```go
 
-type ChartCollection struct 
-
-chartcollection, _ := asposecells.NewChartCollection()
+type ChartCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewChartCollection](./newchartcollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

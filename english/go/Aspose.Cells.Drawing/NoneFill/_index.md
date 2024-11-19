@@ -14,16 +14,15 @@ Represents no fill.
 
 ```go
 
-type NoneFill struct 
-
-nonefill, _ := asposecells.NewNoneFill()
+type NoneFill struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewNoneFill](./newnonefill/) | Constructs from an implementation object. | 
 
 ## Methods
 

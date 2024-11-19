@@ -14,16 +14,15 @@ Specifies the <see cref="ExternalConnection"/> collection
 
 ```go
 
-type ExternalConnectionCollection struct 
-
-externalconnectioncollection, _ := asposecells.NewExternalConnectionCollection()
+type ExternalConnectionCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewExternalConnectionCollection](./newexternalconnectioncollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

@@ -14,17 +14,16 @@ Represents a trendline in a chart.
 
 ```go
 
-type Trendline struct 
-
-trendline, _ := asposecells.NewTrendline()
+type Trendline struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewTrendline_Trendline](./newtrendline_trendline/) | Constructs from an implementation object. | 
-|[NewTrendline_Line](./newtrendline_line/) | Constructs from a parent object. | 
+|[NewTrendline](./newtrendline/) | Constructs from a parent object. | 
 
 ## Methods
 

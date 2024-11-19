@@ -14,17 +14,16 @@ Represents the shape of the comment.
 
 ```go
 
-type CommentShape struct 
-
-commentshape, _ := asposecells.NewCommentShape()
+type CommentShape struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewCommentShape_CommentShape](./newcommentshape_commentshape/) | Constructs from an implementation object. | 
-|[NewCommentShape_Shape](./newcommentshape_shape/) | Constructs from a parent object. | 
+|[NewCommentShape](./newcommentshape/) | Constructs from a parent object. | 
 
 ## Methods
 

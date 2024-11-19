@@ -14,16 +14,15 @@ Represents external links collection in a workbook.
 
 ```go
 
-type ExternalLinkCollection struct 
-
-externallinkcollection, _ := asposecells.NewExternalLinkCollection()
+type ExternalLinkCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewExternalLinkCollection](./newexternallinkcollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

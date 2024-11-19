@@ -14,16 +14,15 @@ Represents an Office Add-in custom property.
 
 ```go
 
-type WebExtensionProperty struct 
-
-webextensionproperty, _ := asposecells.NewWebExtensionProperty()
+type WebExtensionProperty struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewWebExtensionProperty](./newwebextensionproperty/) | Constructs from an implementation object. | 
 
 ## Methods
 

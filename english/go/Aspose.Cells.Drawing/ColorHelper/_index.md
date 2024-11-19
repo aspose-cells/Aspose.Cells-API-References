@@ -14,16 +14,15 @@ Provides helper functions about color.
 
 ```go
 
-type ColorHelper struct 
-
-colorhelper, _ := asposecells.NewColorHelper()
+type ColorHelper struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewColorHelper](./newcolorhelper/) | Constructs from an implementation object. | 
 
 ## Methods
 

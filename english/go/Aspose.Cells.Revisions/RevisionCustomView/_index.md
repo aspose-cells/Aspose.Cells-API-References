@@ -14,17 +14,16 @@ Represents a revision record of adding or removing a custom view to the workbook
 
 ```go
 
-type RevisionCustomView struct 
-
-revisioncustomview, _ := asposecells.NewRevisionCustomView()
+type RevisionCustomView struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewRevisionCustomView_RevisionCustomView](./newrevisioncustomview_revisioncustomview/) | Constructs from an implementation object. | 
-|[NewRevisionCustomView_Revision](./newrevisioncustomview_revision/) | Constructs from a parent object. | 
+|[NewRevisionCustomView](./newrevisioncustomview/) | Constructs from a parent object. | 
 
 ## Methods
 

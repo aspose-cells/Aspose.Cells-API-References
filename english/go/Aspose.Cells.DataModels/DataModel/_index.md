@@ -14,16 +14,15 @@ Represents the data model.
 
 ```go
 
-type DataModel struct 
-
-datamodel, _ := asposecells.NewDataModel()
+type DataModel struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewDataModel](./newdatamodel/) | Constructs from an implementation object. | 
 
 ## Methods
 

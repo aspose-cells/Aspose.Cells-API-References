@@ -14,16 +14,15 @@ Represents all the <see cref="PivotItem"/> objects in the PivotField.
 
 ```go
 
-type PivotItemCollection struct 
-
-pivotitemcollection, _ := asposecells.NewPivotItemCollection()
+type PivotItemCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewPivotItemCollection](./newpivotitemcollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

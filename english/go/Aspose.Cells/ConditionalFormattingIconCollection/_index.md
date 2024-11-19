@@ -14,16 +14,15 @@ Represents  a collection of <see cref="ConditionalFormattingIcon"/> objects.
 
 ```go
 
-type ConditionalFormattingIconCollection struct 
-
-conditionalformattingiconcollection, _ := asposecells.NewConditionalFormattingIconCollection()
+type ConditionalFormattingIconCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewConditionalFormattingIconCollection](./newconditionalformattingiconcollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

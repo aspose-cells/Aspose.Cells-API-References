@@ -14,16 +14,15 @@ Represents the person who creates the threaded comments;
 
 ```go
 
-type ThreadedCommentAuthor struct 
-
-threadedcommentauthor, _ := asposecells.NewThreadedCommentAuthor()
+type ThreadedCommentAuthor struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewThreadedCommentAuthor](./newthreadedcommentauthor/) | Constructs from an implementation object. | 
 
 ## Methods
 

@@ -14,16 +14,15 @@ Encapsulates the object that represents the cell border.
 
 ```go
 
-type Border struct 
-
-border, _ := asposecells.NewBorder()
+type Border struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewBorder](./newborder/) | Constructs from an implementation object. | 
 
 ## Methods
 

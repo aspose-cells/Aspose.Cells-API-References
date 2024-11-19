@@ -14,16 +14,15 @@ This class specifies a reflection effect.
 
 ```go
 
-type ReflectionEffect struct 
-
-reflectioneffect, _ := asposecells.NewReflectionEffect()
+type ReflectionEffect struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewReflectionEffect](./newreflectioneffect/) | Constructs from an implementation object. | 
 
 ## Methods
 

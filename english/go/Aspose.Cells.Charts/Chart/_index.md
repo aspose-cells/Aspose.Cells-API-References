@@ -14,16 +14,15 @@ Encapsulates the object that represents a single Excel chart.
 
 ```go
 
-type Chart struct 
-
-chart, _ := asposecells.NewChart()
+type Chart struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewChart](./newchart/) | Constructs from an implementation object. | 
 
 ## Methods
 

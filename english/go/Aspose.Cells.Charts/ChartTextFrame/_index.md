@@ -14,17 +14,16 @@ Encapsulates the object that represents the frame object which contains text.
 
 ```go
 
-type ChartTextFrame struct 
-
-charttextframe, _ := asposecells.NewChartTextFrame()
+type ChartTextFrame struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewChartTextFrame_ChartTextFrame](./newcharttextframe_charttextframe/) | Constructs from an implementation object. | 
-|[NewChartTextFrame_ChartFrame](./newcharttextframe_chartframe/) | Constructs from a parent object. | 
+|[NewChartTextFrame](./newcharttextframe/) | Constructs from a parent object. | 
 
 ## Methods
 

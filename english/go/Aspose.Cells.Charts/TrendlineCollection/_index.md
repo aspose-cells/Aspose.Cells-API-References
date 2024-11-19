@@ -14,16 +14,15 @@ Represents a collection of all the <see cref="Trendline"/> objects for the speci
 
 ```go
 
-type TrendlineCollection struct 
-
-trendlinecollection, _ := asposecells.NewTrendlineCollection()
+type TrendlineCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewTrendlineCollection](./newtrendlinecollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

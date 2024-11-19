@@ -14,17 +14,16 @@ Encapsulates the object that represents the chart legend.
 
 ```go
 
-type Legend struct 
-
-legend, _ := asposecells.NewLegend()
+type Legend struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewLegend_Legend](./newlegend_legend/) | Constructs from an implementation object. | 
-|[NewLegend_ChartTextFrame](./newlegend_charttextframe/) | Constructs from a parent object. | 
+|[NewLegend](./newlegend/) | Constructs from a parent object. | 
 
 ## Methods
 

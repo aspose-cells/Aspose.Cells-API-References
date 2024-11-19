@@ -14,9 +14,9 @@ Represents flags which indicates applied formatting properties.
 
 ```go
 
-type StyleFlag struct 
-
-styleflag, _ := asposecells.NewStyleFlag()
+type StyleFlag struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ styleflag, _ := asposecells.NewStyleFlag()
 | Method | Description |
 | --- | --- |
 |[NewStyleFlag](./newstyleflag/) | Constructs an object with all flags as false. | 
-|[NewStyleFlag_StyleFlag](./newstyleflag_styleflag/) | Constructs from an implementation object. | 
 
 ## Methods
 

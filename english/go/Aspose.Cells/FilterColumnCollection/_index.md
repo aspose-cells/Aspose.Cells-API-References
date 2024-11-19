@@ -14,16 +14,15 @@ A collection of Filter objects that represents all the filters in an autofiltere
 
 ```go
 
-type FilterColumnCollection struct 
-
-filtercolumncollection, _ := asposecells.NewFilterColumnCollection()
+type FilterColumnCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewFilterColumnCollection](./newfiltercolumncollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

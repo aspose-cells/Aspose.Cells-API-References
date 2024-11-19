@@ -14,17 +14,16 @@ Represents the single TrueType font file stored in memory.
 
 ```go
 
-type MemoryFontSource struct 
-
-memoryfontsource, _ := asposecells.NewMemoryFontSource()
+type MemoryFontSource struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewMemoryFontSource_MemoryFontSource](./newmemoryfontsource_memoryfontsource/) | Constructs from an implementation object. | 
-|[NewMemoryFontSource_FontSourceBase](./newmemoryfontsource_fontsourcebase/) | Constructs from a parent object. | 
+|[NewMemoryFontSource](./newmemoryfontsource/) | Constructs from a parent object. | 
 
 ## Methods
 

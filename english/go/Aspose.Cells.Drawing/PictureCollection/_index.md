@@ -14,16 +14,15 @@ Encapsulates a collection of <see cref="Picture"/> objects.
 
 ```go
 
-type PictureCollection struct 
-
-picturecollection, _ := asposecells.NewPictureCollection()
+type PictureCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewPictureCollection](./newpicturecollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

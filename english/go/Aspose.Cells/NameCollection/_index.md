@@ -14,16 +14,15 @@ Represents a collection of all the <see cref="Name"/> objects in the spreadsheet
 
 ```go
 
-type NameCollection struct 
-
-namecollection, _ := asposecells.NewNameCollection()
+type NameCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewNameCollection](./newnamecollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

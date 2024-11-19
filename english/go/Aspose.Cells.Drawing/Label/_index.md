@@ -14,17 +14,16 @@ Encapsulates the object that represents a label in a spreadsheet.
 
 ```go
 
-type Label struct 
-
-label, _ := asposecells.NewLabel()
+type Label struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewLabel_Label](./newlabel_label/) | Constructs from an implementation object. | 
-|[NewLabel_Shape](./newlabel_shape/) | Constructs from a parent object. | 
+|[NewLabel](./newlabel/) | Constructs from a parent object. | 
 
 ## Methods
 

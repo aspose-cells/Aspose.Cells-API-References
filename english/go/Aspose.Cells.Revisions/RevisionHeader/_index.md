@@ -14,9 +14,9 @@ Represents a list of specific changes that have taken place for this workbook.
 
 ```go
 
-type RevisionHeader struct 
-
-revisionheader, _ := asposecells.NewRevisionHeader()
+type RevisionHeader struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ revisionheader, _ := asposecells.NewRevisionHeader()
 | Method | Description |
 | --- | --- |
 |[NewRevisionHeader](./newrevisionheader/) | Default constructor. | 
-|[NewRevisionHeader_RevisionHeader](./newrevisionheader_revisionheader/) | Constructs from an implementation object. | 
 
 ## Methods
 

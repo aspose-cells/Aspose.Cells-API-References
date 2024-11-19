@@ -14,16 +14,15 @@ Represents a single point in a series in a chart.
 
 ```go
 
-type ChartPoint struct 
-
-chartpoint, _ := asposecells.NewChartPoint()
+type ChartPoint struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewChartPoint](./newchartpoint/) | Constructs from an implementation object. | 
 
 ## Methods
 

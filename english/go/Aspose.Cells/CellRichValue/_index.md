@@ -14,16 +14,15 @@ Represents rich value of the cell.
 
 ```go
 
-type CellRichValue struct 
-
-cellrichvalue, _ := asposecells.NewCellRichValue()
+type CellRichValue struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewCellRichValue](./newcellrichvalue/) | Constructs from an implementation object. | 
 
 ## Methods
 

@@ -14,16 +14,15 @@ Represents all save options
 
 ```go
 
-type SaveOptions struct 
-
-saveoptions, _ := asposecells.NewSaveOptions()
+type SaveOptions struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewSaveOptions](./newsaveoptions/) | Constructs from an implementation object. | 
 
 ## Methods
 

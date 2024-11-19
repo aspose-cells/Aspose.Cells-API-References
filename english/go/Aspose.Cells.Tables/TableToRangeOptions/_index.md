@@ -14,9 +14,9 @@ Represents the options when converting table to range.
 
 ```go
 
-type TableToRangeOptions struct 
-
-tabletorangeoptions, _ := asposecells.NewTableToRangeOptions()
+type TableToRangeOptions struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ tabletorangeoptions, _ := asposecells.NewTableToRangeOptions()
 | Method | Description |
 | --- | --- |
 |[NewTableToRangeOptions](./newtabletorangeoptions/) | Default constructor. | 
-|[NewTableToRangeOptions_TableToRangeOptions](./newtabletorangeoptions_tabletorangeoptions/) | Constructs from an implementation object. | 
 
 ## Methods
 

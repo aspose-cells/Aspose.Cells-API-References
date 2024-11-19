@@ -14,17 +14,16 @@ This class in the equation node is used to store the actual content(a sequence o
 
 ```go
 
-type TextRunEquationNode struct 
-
-textrunequationnode, _ := asposecells.NewTextRunEquationNode()
+type TextRunEquationNode struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewTextRunEquationNode_TextRunEquationNode](./newtextrunequationnode_textrunequationnode/) | Constructs from an implementation object. | 
-|[NewTextRunEquationNode_EquationNode](./newtextrunequationnode_equationnode/) | Constructs from a parent object. | 
+|[NewTextRunEquationNode](./newtextrunequationnode/) | Constructs from a parent object. | 
 
 ## Methods
 

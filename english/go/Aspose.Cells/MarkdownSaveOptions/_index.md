@@ -14,9 +14,9 @@ Represents the save options for markdown.
 
 ```go
 
-type MarkdownSaveOptions struct 
-
-markdownsaveoptions, _ := asposecells.NewMarkdownSaveOptions()
+type MarkdownSaveOptions struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ markdownsaveoptions, _ := asposecells.NewMarkdownSaveOptions()
 | Method | Description |
 | --- | --- |
 |[NewMarkdownSaveOptions](./newmarkdownsaveoptions/) | Creates options for saving markdown document | 
-|[NewMarkdownSaveOptions_MarkdownSaveOptions](./newmarkdownsaveoptions_markdownsaveoptions/) | Constructs from an implementation object. | 
 |[NewMarkdownSaveOptions_SaveOptions](./newmarkdownsaveoptions_saveoptions/) | Constructs from a parent object. | 
 
 ## Methods

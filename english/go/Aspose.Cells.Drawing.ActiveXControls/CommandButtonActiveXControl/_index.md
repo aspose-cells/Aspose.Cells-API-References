@@ -14,17 +14,16 @@ Represents a command button.
 
 ```go
 
-type CommandButtonActiveXControl struct 
-
-commandbuttonactivexcontrol, _ := asposecells.NewCommandButtonActiveXControl()
+type CommandButtonActiveXControl struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewCommandButtonActiveXControl_CommandButtonActiveXControl](./newcommandbuttonactivexcontrol_commandbuttonactivexcontrol/) | Constructs from an implementation object. | 
-|[NewCommandButtonActiveXControl_ActiveXControl](./newcommandbuttonactivexcontrol_activexcontrol/) | Constructs from a parent object. | 
+|[NewCommandButtonActiveXControl](./newcommandbuttonactivexcontrol/) | Constructs from a parent object. | 
 
 ## Methods
 

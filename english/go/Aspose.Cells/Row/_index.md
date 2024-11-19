@@ -14,16 +14,15 @@ Represents a single row in a worksheet.
 
 ```go
 
-type Row struct 
-
-row, _ := asposecells.NewRow()
+type Row struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewRow](./newrow/) | Constructs from an implementation object. | 
 
 ## Methods
 

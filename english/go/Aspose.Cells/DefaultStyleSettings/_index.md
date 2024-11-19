@@ -14,16 +14,15 @@ Settings for the default values of workbook's style properties.
 
 ```go
 
-type DefaultStyleSettings struct 
-
-defaultstylesettings, _ := asposecells.NewDefaultStyleSettings()
+type DefaultStyleSettings struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewDefaultStyleSettings](./newdefaultstylesettings/) | Constructs from an implementation object. | 
 
 ## Methods
 

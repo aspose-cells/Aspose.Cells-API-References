@@ -14,16 +14,15 @@ Contains properties and methods that apply to WordArt objects.
 
 ```go
 
-type TextEffectFormat struct 
-
-texteffectformat, _ := asposecells.NewTextEffectFormat()
+type TextEffectFormat struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewTextEffectFormat](./newtexteffectformat/) | Constructs from an implementation object. | 
 
 ## Methods
 

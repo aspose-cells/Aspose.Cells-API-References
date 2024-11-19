@@ -14,16 +14,15 @@ Represents the list of task pane.
 
 ```go
 
-type WebExtensionTaskPaneCollection struct 
-
-webextensiontaskpanecollection, _ := asposecells.NewWebExtensionTaskPaneCollection()
+type WebExtensionTaskPaneCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewWebExtensionTaskPaneCollection](./newwebextensiontaskpanecollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

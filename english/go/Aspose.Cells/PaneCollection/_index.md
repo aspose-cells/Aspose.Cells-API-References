@@ -14,16 +14,15 @@ Represents all Pane objects shown in the specified window.
 
 ```go
 
-type PaneCollection struct 
-
-panecollection, _ := asposecells.NewPaneCollection()
+type PaneCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewPaneCollection](./newpanecollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

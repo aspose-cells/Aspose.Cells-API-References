@@ -14,16 +14,15 @@ Represents mashup data.
 
 ```go
 
-type DataMashup struct 
-
-datamashup, _ := asposecells.NewDataMashup()
+type DataMashup struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewDataMashup](./newdatamashup/) | Constructs from an implementation object. | 
 
 ## Methods
 

@@ -14,17 +14,16 @@ Represents the numberic range group of the pivot field.
 
 ```go
 
-type PivotNumbericRangeGroupSettings struct 
-
-pivotnumbericrangegroupsettings, _ := asposecells.NewPivotNumbericRangeGroupSettings()
+type PivotNumbericRangeGroupSettings struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewPivotNumbericRangeGroupSettings_PivotNumbericRangeGroupSettings](./newpivotnumbericrangegroupsettings_pivotnumbericrangegroupsettings/) | Constructs from an implementation object. | 
-|[NewPivotNumbericRangeGroupSettings_PivotFieldGroupSettings](./newpivotnumbericrangegroupsettings_pivotfieldgroupsettings/) | Constructs from a parent object. | 
+|[NewPivotNumbericRangeGroupSettings](./newpivotnumbericrangegroupsettings/) | Constructs from a parent object. | 
 
 ## Methods
 

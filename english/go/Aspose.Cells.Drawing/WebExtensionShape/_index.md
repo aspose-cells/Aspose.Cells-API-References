@@ -14,17 +14,16 @@ Represents the shape of web extension.
 
 ```go
 
-type WebExtensionShape struct 
-
-webextensionshape, _ := asposecells.NewWebExtensionShape()
+type WebExtensionShape struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewWebExtensionShape_WebExtensionShape](./newwebextensionshape_webextensionshape/) | Constructs from an implementation object. | 
-|[NewWebExtensionShape_Shape](./newwebextensionshape_shape/) | Constructs from a parent object. | 
+|[NewWebExtensionShape](./newwebextensionshape/) | Constructs from a parent object. | 
 
 ## Methods
 

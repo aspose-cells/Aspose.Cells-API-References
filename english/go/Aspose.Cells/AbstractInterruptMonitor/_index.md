@@ -14,9 +14,9 @@ Monitor for interruption requests in all time-consuming operations.
 
 ```go
 
-type AbstractInterruptMonitor struct 
-
-abstractinterruptmonitor, _ := asposecells.NewAbstractInterruptMonitor()
+type AbstractInterruptMonitor struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors

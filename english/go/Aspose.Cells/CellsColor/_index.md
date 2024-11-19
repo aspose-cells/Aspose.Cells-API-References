@@ -14,16 +14,15 @@ Represents all types of color.
 
 ```go
 
-type CellsColor struct 
-
-cellscolor, _ := asposecells.NewCellsColor()
+type CellsColor struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewCellsColor](./newcellscolor/) | Constructs from an implementation object. | 
 
 ## Methods
 

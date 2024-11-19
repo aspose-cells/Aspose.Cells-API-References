@@ -14,16 +14,15 @@ Represents a filter for a single column. The Filter object is a member of the Fi
 
 ```go
 
-type FilterColumn struct 
-
-filtercolumn, _ := asposecells.NewFilterColumn()
+type FilterColumn struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewFilterColumn](./newfiltercolumn/) | Constructs from an implementation object. | 
 
 ## Methods
 

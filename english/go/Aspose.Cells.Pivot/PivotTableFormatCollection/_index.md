@@ -14,16 +14,15 @@ Represents the collection of formats applied to PivotTable.
 
 ```go
 
-type PivotTableFormatCollection struct 
-
-pivottableformatcollection, _ := asposecells.NewPivotTableFormatCollection()
+type PivotTableFormatCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewPivotTableFormatCollection](./newpivottableformatcollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

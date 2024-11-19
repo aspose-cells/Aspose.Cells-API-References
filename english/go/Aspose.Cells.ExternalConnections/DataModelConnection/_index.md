@@ -14,17 +14,16 @@ Specifies a data model connection
 
 ```go
 
-type DataModelConnection struct 
-
-datamodelconnection, _ := asposecells.NewDataModelConnection()
+type DataModelConnection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewDataModelConnection_DataModelConnection](./newdatamodelconnection_datamodelconnection/) | Constructs from an implementation object. | 
-|[NewDataModelConnection_ExternalConnection](./newdatamodelconnection_externalconnection/) | Constructs from a parent object. | 
+|[NewDataModelConnection](./newdatamodelconnection/) | Constructs from a parent object. | 
 
 ## Methods
 

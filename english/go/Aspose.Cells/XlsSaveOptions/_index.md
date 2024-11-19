@@ -14,9 +14,9 @@ Represents the save options for the Excel 97-2003 file format: xls and xlt.
 
 ```go
 
-type XlsSaveOptions struct 
-
-xlssaveoptions, _ := asposecells.NewXlsSaveOptions()
+type XlsSaveOptions struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -25,7 +25,6 @@ xlssaveoptions, _ := asposecells.NewXlsSaveOptions()
 | --- | --- |
 |[NewXlsSaveOptions](./newxlssaveoptions/) | Creates options for saving Excel 97-2003 xls file. | 
 |[NewXlsSaveOptions_SaveFormat](./newxlssaveoptions_saveformat/) | Creates options for saving Excel 97-2003 xls/xlt file. | 
-|[NewXlsSaveOptions_XlsSaveOptions](./newxlssaveoptions_xlssaveoptions/) | Constructs from an implementation object. | 
 |[NewXlsSaveOptions_SaveOptions](./newxlssaveoptions_saveoptions/) | Constructs from a parent object. | 
 
 ## Methods

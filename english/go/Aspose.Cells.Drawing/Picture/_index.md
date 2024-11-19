@@ -14,17 +14,16 @@ Encapsulates the object that represents a single picture in a spreadsheet.
 
 ```go
 
-type Picture struct 
-
-picture, _ := asposecells.NewPicture()
+type Picture struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewPicture_Picture](./newpicture_picture/) | Constructs from an implementation object. | 
-|[NewPicture_Shape](./newpicture_shape/) | Constructs from a parent object. | 
+|[NewPicture](./newpicture/) | Constructs from a parent object. | 
 
 ## Methods
 

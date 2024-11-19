@@ -14,9 +14,9 @@ Describe the AboveAverage conditional formatting rule.This conditional formattin
 
 ```go
 
-type AboveAverage struct 
-
-aboveaverage, _ := asposecells.NewAboveAverage()
+type AboveAverage struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ aboveaverage, _ := asposecells.NewAboveAverage()
 | Method | Description |
 | --- | --- |
 |[NewAboveAverage](./newaboveaverage/) | Default constructor. | 
-|[NewAboveAverage_AboveAverage](./newaboveaverage_aboveaverage/) | Constructs from an implementation object. | 
 
 ## Methods
 

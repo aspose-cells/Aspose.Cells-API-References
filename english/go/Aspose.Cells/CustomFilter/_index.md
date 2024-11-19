@@ -14,16 +14,15 @@ Represents the custom filter.
 
 ```go
 
-type CustomFilter struct 
-
-customfilter, _ := asposecells.NewCustomFilter()
+type CustomFilter struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewCustomFilter](./newcustomfilter/) | Constructs from an implementation object. | 
 
 ## Methods
 

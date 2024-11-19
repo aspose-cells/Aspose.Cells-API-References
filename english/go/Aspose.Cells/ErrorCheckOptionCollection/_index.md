@@ -14,16 +14,15 @@ Represents all error check option.
 
 ```go
 
-type ErrorCheckOptionCollection struct 
-
-errorcheckoptioncollection, _ := asposecells.NewErrorCheckOptionCollection()
+type ErrorCheckOptionCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewErrorCheckOptionCollection](./newerrorcheckoptioncollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

@@ -14,17 +14,16 @@ Represents a theme color.
 
 ```go
 
-type ThemeColor struct 
-
-themecolor, _ := asposecells.NewThemeColor()
+type ThemeColor struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewThemeColor_ThemeColorType_Double](./newthemecolor_themecolortype_double/) |  | 
-|[NewThemeColor_ThemeColor](./newthemecolor_themecolor/) | Constructs from an implementation object. | 
+|[NewThemeColor](./newthemecolor/) |  | 
 
 ## Methods
 

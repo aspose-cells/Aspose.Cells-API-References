@@ -14,16 +14,15 @@ Represents the settings about showing values as when the ShowDataAs calculation 
 
 ```go
 
-type PivotShowValuesSetting struct 
-
-pivotshowvaluessetting, _ := asposecells.NewPivotShowValuesSetting()
+type PivotShowValuesSetting struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewPivotShowValuesSetting](./newpivotshowvaluessetting/) | Constructs from an implementation object. | 
 
 ## Methods
 

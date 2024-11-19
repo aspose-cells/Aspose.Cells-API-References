@@ -14,9 +14,9 @@ Represents options when importing a html file.
 
 ```go
 
-type HtmlLoadOptions struct 
-
-htmlloadoptions, _ := asposecells.NewHtmlLoadOptions()
+type HtmlLoadOptions struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -25,7 +25,6 @@ htmlloadoptions, _ := asposecells.NewHtmlLoadOptions()
 | --- | --- |
 |[NewHtmlLoadOptions](./newhtmlloadoptions/) | Creates an options of loading the file. | 
 |[NewHtmlLoadOptions_LoadFormat](./newhtmlloadoptions_loadformat/) | Creates an options of loading the file. | 
-|[NewHtmlLoadOptions_HtmlLoadOptions](./newhtmlloadoptions_htmlloadoptions/) | Constructs from an implementation object. | 
 |[NewHtmlLoadOptions_AbstractTextLoadOptions](./newhtmlloadoptions_abstracttextloadoptions/) | Constructs from a parent object. | 
 
 ## Methods

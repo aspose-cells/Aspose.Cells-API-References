@@ -14,16 +14,15 @@ This class specifies the 3D shape properties for a chart element or shape.
 
 ```go
 
-type Format3D struct 
-
-format3d, _ := asposecells.NewFormat3D()
+type Format3D struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewFormat3D](./newformat3d/) | Constructs from an implementation object. | 
 
 ## Methods
 

@@ -14,16 +14,15 @@ Represents all power query formulas in the mashup data.
 
 ```go
 
-type PowerQueryFormulaCollection struct 
-
-powerqueryformulacollection, _ := asposecells.NewPowerQueryFormulaCollection()
+type PowerQueryFormulaCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewPowerQueryFormulaCollection](./newpowerqueryformulacollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

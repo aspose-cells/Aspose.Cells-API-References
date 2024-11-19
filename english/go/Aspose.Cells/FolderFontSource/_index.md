@@ -14,9 +14,9 @@ Represents the folder that contains TrueType font files.
 
 ```go
 
-type FolderFontSource struct 
-
-folderfontsource, _ := asposecells.NewFolderFontSource()
+type FolderFontSource struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ folderfontsource, _ := asposecells.NewFolderFontSource()
 | Method | Description |
 | --- | --- |
 |[NewFolderFontSource_String_Bool](./newfolderfontsource_string_bool/) | Ctor. | 
-|[NewFolderFontSource_FolderFontSource](./newfolderfontsource_folderfontsource/) | Constructs from an implementation object. | 
 |[NewFolderFontSource_FontSourceBase](./newfolderfontsource_fontsourcebase/) | Constructs from a parent object. | 
 
 ## Methods

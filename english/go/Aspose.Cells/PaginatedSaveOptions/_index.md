@@ -14,17 +14,16 @@ Represents the options for pagination.
 
 ```go
 
-type PaginatedSaveOptions struct 
-
-paginatedsaveoptions, _ := asposecells.NewPaginatedSaveOptions()
+type PaginatedSaveOptions struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewPaginatedSaveOptions_PaginatedSaveOptions](./newpaginatedsaveoptions_paginatedsaveoptions/) | Constructs from an implementation object. | 
-|[NewPaginatedSaveOptions_SaveOptions](./newpaginatedsaveoptions_saveoptions/) | Constructs from a parent object. | 
+|[NewPaginatedSaveOptions](./newpaginatedsaveoptions/) | Constructs from a parent object. | 
 
 ## Methods
 

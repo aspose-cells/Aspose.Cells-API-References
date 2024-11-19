@@ -14,16 +14,15 @@ summary description of Slicer View
 
 ```go
 
-type Slicer struct 
-
-slicer, _ := asposecells.NewSlicer()
+type Slicer struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewSlicer](./newslicer/) | Constructs from an implementation object. | 
 
 ## Methods
 

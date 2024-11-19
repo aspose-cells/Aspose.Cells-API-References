@@ -14,9 +14,9 @@ Encapsulates a collection of shape guide
 
 ```go
 
-type ShapeGuideCollection struct 
-
-shapeguidecollection, _ := asposecells.NewShapeGuideCollection()
+type ShapeGuideCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ shapeguidecollection, _ := asposecells.NewShapeGuideCollection()
 | Method | Description |
 | --- | --- |
 |[NewShapeGuideCollection](./newshapeguidecollection/) | Default constructor. | 
-|[NewShapeGuideCollection_ShapeGuideCollection](./newshapeguidecollection_shapeguidecollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

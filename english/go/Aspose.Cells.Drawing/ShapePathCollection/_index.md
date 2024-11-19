@@ -14,16 +14,15 @@ Represents path collection information in NotPrimitive autoshape
 
 ```go
 
-type ShapePathCollection struct 
-
-shapepathcollection, _ := asposecells.NewShapePathCollection()
+type ShapePathCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewShapePathCollection](./newshapepathcollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

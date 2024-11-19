@@ -14,16 +14,15 @@ Represents a single relationship in the spreadsheet data model.
 
 ```go
 
-type DataModelRelationship struct 
-
-datamodelrelationship, _ := asposecells.NewDataModelRelationship()
+type DataModelRelationship struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewDataModelRelationship](./newdatamodelrelationship/) | Constructs from an implementation object. | 
 
 ## Methods
 

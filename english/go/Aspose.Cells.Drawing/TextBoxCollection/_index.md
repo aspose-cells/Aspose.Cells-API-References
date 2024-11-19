@@ -14,16 +14,15 @@ Encapsulates a collection of <see cref="TextBox"/> objects.
 
 ```go
 
-type TextBoxCollection struct 
-
-textboxcollection, _ := asposecells.NewTextBoxCollection()
+type TextBoxCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewTextBoxCollection](./newtextboxcollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

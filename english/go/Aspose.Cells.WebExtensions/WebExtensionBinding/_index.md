@@ -14,9 +14,9 @@ Represents a binding relationship between an Office Add-in and the data in the d
 
 ```go
 
-type WebExtensionBinding struct 
-
-webextensionbinding, _ := asposecells.NewWebExtensionBinding()
+type WebExtensionBinding struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ webextensionbinding, _ := asposecells.NewWebExtensionBinding()
 | Method | Description |
 | --- | --- |
 |[NewWebExtensionBinding](./newwebextensionbinding/) | Default constructor. | 
-|[NewWebExtensionBinding_WebExtensionBinding](./newwebextensionbinding_webextensionbinding/) | Constructs from an implementation object. | 
 
 ## Methods
 

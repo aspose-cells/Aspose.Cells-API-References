@@ -14,9 +14,9 @@ Represents a creation path consisting of a series of moves, lines and curves tha
 
 ```go
 
-type ShapePath struct 
-
-shapepath, _ := asposecells.NewShapePath()
+type ShapePath struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ shapepath, _ := asposecells.NewShapePath()
 | Method | Description |
 | --- | --- |
 |[NewShapePath](./newshapepath/) | Initializes a new instance of the <see cref="ShapePath"/> class. | 
-|[NewShapePath_ShapePath](./newshapepath_shapepath/) | Constructs from an implementation object. | 
 
 ## Methods
 

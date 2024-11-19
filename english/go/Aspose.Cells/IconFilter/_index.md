@@ -14,17 +14,16 @@ Represents icon filter.
 
 ```go
 
-type IconFilter struct 
-
-iconfilter, _ := asposecells.NewIconFilter()
+type IconFilter struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewIconFilter_IconFilter](./newiconfilter_iconfilter/) | Constructs from an implementation object. | 
-|[NewIconFilter_Object](./newiconfilter_object/) | Constructs from an Object convertible to this. | 
+|[NewIconFilter](./newiconfilter/) | Constructs from an Object convertible to this. | 
 
 ## Methods
 

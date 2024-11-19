@@ -14,16 +14,15 @@ Represent summary description of slicer cache
 
 ```go
 
-type SlicerCache struct 
-
-slicercache, _ := asposecells.NewSlicerCache()
+type SlicerCache struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewSlicerCache](./newslicercache/) | Constructs from an implementation object. | 
 
 ## Methods
 

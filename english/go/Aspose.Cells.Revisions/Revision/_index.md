@@ -14,16 +14,15 @@ Represents the revision.
 
 ```go
 
-type Revision struct 
-
-revision, _ := asposecells.NewRevision()
+type Revision struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewRevision](./newrevision/) | Constructs from an implementation object. | 
 
 ## Methods
 

@@ -14,16 +14,15 @@ Represents a Custom XML Data Storage Part (custom XML data within a package).
 
 ```go
 
-type CustomXmlPart struct 
-
-customxmlpart, _ := asposecells.NewCustomXmlPart()
+type CustomXmlPart struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewCustomXmlPart](./newcustomxmlpart/) | Constructs from an implementation object. | 
 
 ## Methods
 

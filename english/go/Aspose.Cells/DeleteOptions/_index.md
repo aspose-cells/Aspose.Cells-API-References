@@ -14,9 +14,9 @@ Represents the setting of deleting rows/columns.
 
 ```go
 
-type DeleteOptions struct 
-
-deleteoptions, _ := asposecells.NewDeleteOptions()
+type DeleteOptions struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ deleteoptions, _ := asposecells.NewDeleteOptions()
 | Method | Description |
 | --- | --- |
 |[NewDeleteOptions](./newdeleteoptions/) | Default constructor. | 
-|[NewDeleteOptions_DeleteOptions](./newdeleteoptions_deleteoptions/) | Constructs from an implementation object. | 
 
 ## Methods
 

@@ -14,17 +14,16 @@ Specifies the Equation-Array function, an object consisting of one or more equat
 
 ```go
 
-type ArrayEquationNode struct 
-
-arrayequationnode, _ := asposecells.NewArrayEquationNode()
+type ArrayEquationNode struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewArrayEquationNode_ArrayEquationNode](./newarrayequationnode_arrayequationnode/) | Constructs from an implementation object. | 
-|[NewArrayEquationNode_EquationNode](./newarrayequationnode_equationnode/) | Constructs from a parent object. | 
+|[NewArrayEquationNode](./newarrayequationnode/) | Constructs from a parent object. | 
 
 ## Methods
 

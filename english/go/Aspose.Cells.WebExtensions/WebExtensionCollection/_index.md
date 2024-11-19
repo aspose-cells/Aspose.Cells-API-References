@@ -14,16 +14,15 @@ Represents the list of web extension.
 
 ```go
 
-type WebExtensionCollection struct 
-
-webextensioncollection, _ := asposecells.NewWebExtensionCollection()
+type WebExtensionCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewWebExtensionCollection](./newwebextensioncollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

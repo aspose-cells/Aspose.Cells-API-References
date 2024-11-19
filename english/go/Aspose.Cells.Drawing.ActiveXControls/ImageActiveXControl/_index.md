@@ -14,17 +14,16 @@ Represents the image control.
 
 ```go
 
-type ImageActiveXControl struct 
-
-imageactivexcontrol, _ := asposecells.NewImageActiveXControl()
+type ImageActiveXControl struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewImageActiveXControl_ImageActiveXControl](./newimageactivexcontrol_imageactivexcontrol/) | Constructs from an implementation object. | 
-|[NewImageActiveXControl_ActiveXControl](./newimageactivexcontrol_activexcontrol/) | Constructs from a parent object. | 
+|[NewImageActiveXControl](./newimageactivexcontrol/) | Constructs from a parent object. | 
 
 ## Methods
 

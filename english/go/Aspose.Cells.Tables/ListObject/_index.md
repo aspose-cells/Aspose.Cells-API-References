@@ -14,16 +14,15 @@ Represents a list object on a worksheet.The ListObject object is a member of the
 
 ```go
 
-type ListObject struct 
-
-listobject, _ := asposecells.NewListObject()
+type ListObject struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewListObject](./newlistobject/) | Constructs from an implementation object. | 
 
 ## Methods
 

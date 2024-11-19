@@ -14,9 +14,9 @@ Represents image save options.For advanced usage, please use <see cref="Workbook
 
 ```go
 
-type ImageSaveOptions struct 
-
-imagesaveoptions, _ := asposecells.NewImageSaveOptions()
+type ImageSaveOptions struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -25,7 +25,6 @@ imagesaveoptions, _ := asposecells.NewImageSaveOptions()
 | --- | --- |
 |[NewImageSaveOptions](./newimagesaveoptions/) | Creates the options for saving image file. | 
 |[NewImageSaveOptions_SaveFormat](./newimagesaveoptions_saveformat/) | Creates the options for saving image file. | 
-|[NewImageSaveOptions_ImageSaveOptions](./newimagesaveoptions_imagesaveoptions/) | Constructs from an implementation object. | 
 |[NewImageSaveOptions_SaveOptions](./newimagesaveoptions_saveoptions/) | Constructs from a parent object. | 
 
 ## Methods

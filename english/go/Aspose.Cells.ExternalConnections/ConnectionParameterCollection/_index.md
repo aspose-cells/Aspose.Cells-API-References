@@ -14,16 +14,15 @@ Specifies the <see cref="ConnectionParameter"/> collection
 
 ```go
 
-type ConnectionParameterCollection struct 
-
-connectionparametercollection, _ := asposecells.NewConnectionParameterCollection()
+type ConnectionParameterCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewConnectionParameterCollection](./newconnectionparametercollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

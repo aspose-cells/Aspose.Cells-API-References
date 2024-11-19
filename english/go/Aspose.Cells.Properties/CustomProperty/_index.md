@@ -14,9 +14,9 @@ Represents identifier information.
 
 ```go
 
-type CustomProperty struct 
-
-customproperty, _ := asposecells.NewCustomProperty()
+type CustomProperty struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ customproperty, _ := asposecells.NewCustomProperty()
 | Method | Description |
 | --- | --- |
 |[NewCustomProperty](./newcustomproperty/) | Default constructor. | 
-|[NewCustomProperty_CustomProperty](./newcustomproperty_customproperty/) | Constructs from an implementation object. | 
 
 ## Methods
 

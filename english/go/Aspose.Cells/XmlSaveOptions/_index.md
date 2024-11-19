@@ -14,9 +14,9 @@ Represents the options of saving the workbook as an xml file.
 
 ```go
 
-type XmlSaveOptions struct 
-
-xmlsaveoptions, _ := asposecells.NewXmlSaveOptions()
+type XmlSaveOptions struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ xmlsaveoptions, _ := asposecells.NewXmlSaveOptions()
 | Method | Description |
 | --- | --- |
 |[NewXmlSaveOptions](./newxmlsaveoptions/) | Creates options for saving xml file. | 
-|[NewXmlSaveOptions_XmlSaveOptions](./newxmlsaveoptions_xmlsaveoptions/) | Constructs from an implementation object. | 
 |[NewXmlSaveOptions_SaveOptions](./newxmlsaveoptions_saveoptions/) | Constructs from a parent object. | 
 
 ## Methods

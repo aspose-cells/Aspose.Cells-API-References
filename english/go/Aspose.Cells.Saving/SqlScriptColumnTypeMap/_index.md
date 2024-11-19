@@ -14,9 +14,9 @@ Represents column type map.
 
 ```go
 
-type SqlScriptColumnTypeMap struct 
-
-sqlscriptcolumntypemap, _ := asposecells.NewSqlScriptColumnTypeMap()
+type SqlScriptColumnTypeMap struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ sqlscriptcolumntypemap, _ := asposecells.NewSqlScriptColumnTypeMap()
 | Method | Description |
 | --- | --- |
 |[NewSqlScriptColumnTypeMap](./newsqlscriptcolumntypemap/) | Default constructor. | 
-|[NewSqlScriptColumnTypeMap_SqlScriptColumnTypeMap](./newsqlscriptcolumntypemap_sqlscriptcolumntypemap/) | Constructs from an implementation object. | 
 
 ## Methods
 

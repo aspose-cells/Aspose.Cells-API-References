@@ -14,9 +14,9 @@ PdfBookmarkEntry is an entry in pdf bookmark.if Text property of current instanc
 
 ```go
 
-type PdfBookmarkEntry struct 
-
-pdfbookmarkentry, _ := asposecells.NewPdfBookmarkEntry()
+type PdfBookmarkEntry struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ pdfbookmarkentry, _ := asposecells.NewPdfBookmarkEntry()
 | Method | Description |
 | --- | --- |
 |[NewPdfBookmarkEntry](./newpdfbookmarkentry/) | Default constructor. | 
-|[NewPdfBookmarkEntry_PdfBookmarkEntry](./newpdfbookmarkentry_pdfbookmarkentry/) | Constructs from an implementation object. | 
 
 ## Methods
 

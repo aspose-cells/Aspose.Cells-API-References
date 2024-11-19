@@ -14,9 +14,9 @@ Represents the properties of series layout.
 
 ```go
 
-type SeriesLayoutProperties struct 
-
-serieslayoutproperties, _ := asposecells.NewSeriesLayoutProperties()
+type SeriesLayoutProperties struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ serieslayoutproperties, _ := asposecells.NewSeriesLayoutProperties()
 | Method | Description |
 | --- | --- |
 |[NewSeriesLayoutProperties](./newserieslayoutproperties/) | Default constructor. | 
-|[NewSeriesLayoutProperties_SeriesLayoutProperties](./newserieslayoutproperties_serieslayoutproperties/) | Constructs from an implementation object. | 
 
 ## Methods
 

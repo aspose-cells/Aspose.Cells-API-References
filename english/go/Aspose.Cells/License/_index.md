@@ -14,9 +14,9 @@ Provides methods to license the component.
 
 ```go
 
-type License struct 
-
-license, _ := asposecells.NewLicense()
+type License struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors

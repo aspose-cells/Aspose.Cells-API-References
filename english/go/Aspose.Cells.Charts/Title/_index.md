@@ -14,17 +14,16 @@ Encapsulates the object that represents the title of chart or axis.
 
 ```go
 
-type Title struct 
-
-title, _ := asposecells.NewTitle()
+type Title struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewTitle_Title](./newtitle_title/) | Constructs from an implementation object. | 
-|[NewTitle_ChartTextFrame](./newtitle_charttextframe/) | Constructs from a parent object. | 
+|[NewTitle](./newtitle/) | Constructs from a parent object. | 
 
 ## Methods
 

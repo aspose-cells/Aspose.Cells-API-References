@@ -14,16 +14,15 @@ Specifies properties about any parameters used with external data connectionsPar
 
 ```go
 
-type ConnectionParameter struct 
-
-connectionparameter, _ := asposecells.NewConnectionParameter()
+type ConnectionParameter struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewConnectionParameter](./newconnectionparameter/) | Constructs from an implementation object. | 
 
 ## Methods
 

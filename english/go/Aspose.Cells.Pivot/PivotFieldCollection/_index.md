@@ -14,16 +14,15 @@ Represents a collection of all the PivotField objectsin the PivotTable's specifi
 
 ```go
 
-type PivotFieldCollection struct 
-
-pivotfieldcollection, _ := asposecells.NewPivotFieldCollection()
+type PivotFieldCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewPivotFieldCollection](./newpivotfieldcollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

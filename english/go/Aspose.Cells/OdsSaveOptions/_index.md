@@ -14,9 +14,9 @@ Represents the options of saving ods file.
 
 ```go
 
-type OdsSaveOptions struct 
-
-odssaveoptions, _ := asposecells.NewOdsSaveOptions()
+type OdsSaveOptions struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -25,7 +25,6 @@ odssaveoptions, _ := asposecells.NewOdsSaveOptions()
 | --- | --- |
 |[NewOdsSaveOptions](./newodssaveoptions/) | Creates the options of saving ods file. | 
 |[NewOdsSaveOptions_SaveFormat](./newodssaveoptions_saveformat/) | Creates the options of saving ods file. | 
-|[NewOdsSaveOptions_OdsSaveOptions](./newodssaveoptions_odssaveoptions/) | Constructs from an implementation object. | 
 |[NewOdsSaveOptions_SaveOptions](./newodssaveoptions_saveoptions/) | Constructs from a parent object. | 
 
 ## Methods

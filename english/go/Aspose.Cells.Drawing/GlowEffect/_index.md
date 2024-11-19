@@ -14,16 +14,15 @@ This class specifies a glow effect, in which a color blurred outlineis added out
 
 ```go
 
-type GlowEffect struct 
-
-gloweffect, _ := asposecells.NewGlowEffect()
+type GlowEffect struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewGlowEffect](./newgloweffect/) | Constructs from an implementation object. | 
 
 ## Methods
 

@@ -14,16 +14,15 @@ Represents the marker in a line chart, scatter chart, or radar chart.
 
 ```go
 
-type Marker struct 
-
-marker, _ := asposecells.NewMarker()
+type Marker struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewMarker](./newmarker/) | Constructs from an implementation object. | 
 
 ## Methods
 

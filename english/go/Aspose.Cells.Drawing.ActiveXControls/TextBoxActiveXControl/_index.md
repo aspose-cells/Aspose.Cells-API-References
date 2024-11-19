@@ -14,17 +14,16 @@ Represents a text box ActiveX control.
 
 ```go
 
-type TextBoxActiveXControl struct 
-
-textboxactivexcontrol, _ := asposecells.NewTextBoxActiveXControl()
+type TextBoxActiveXControl struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewTextBoxActiveXControl_TextBoxActiveXControl](./newtextboxactivexcontrol_textboxactivexcontrol/) | Constructs from an implementation object. | 
-|[NewTextBoxActiveXControl_ActiveXControl](./newtextboxactivexcontrol_activexcontrol/) | Constructs from a parent object. | 
+|[NewTextBoxActiveXControl](./newtextboxactivexcontrol/) | Constructs from a parent object. | 
 
 ## Methods
 

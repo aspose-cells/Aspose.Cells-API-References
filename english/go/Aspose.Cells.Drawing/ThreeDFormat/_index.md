@@ -14,16 +14,15 @@ Represents a shape's three-dimensional formatting.
 
 ```go
 
-type ThreeDFormat struct 
-
-threedformat, _ := asposecells.NewThreeDFormat()
+type ThreeDFormat struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewThreeDFormat](./newthreedformat/) | Constructs from an implementation object. | 
 
 ## Methods
 

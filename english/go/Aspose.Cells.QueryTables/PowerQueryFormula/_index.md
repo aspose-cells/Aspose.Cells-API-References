@@ -14,16 +14,15 @@ Represents the definition of power query formula.
 
 ```go
 
-type PowerQueryFormula struct 
-
-powerqueryformula, _ := asposecells.NewPowerQueryFormula()
+type PowerQueryFormula struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewPowerQueryFormula](./newpowerqueryformula/) | Constructs from an implementation object. | 
 
 ## Methods
 

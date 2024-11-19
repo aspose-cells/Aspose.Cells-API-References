@@ -14,16 +14,15 @@ Represents a bevel of a shape
 
 ```go
 
-type Bevel struct 
-
-bevel, _ := asposecells.NewBevel()
+type Bevel struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewBevel](./newbevel/) | Constructs from an implementation object. | 
 
 ## Methods
 

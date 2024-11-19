@@ -14,17 +14,16 @@ Watermark for rendering.
 
 ```go
 
-type RenderingWatermark struct 
-
-renderingwatermark, _ := asposecells.NewRenderingWatermark()
+type RenderingWatermark struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewRenderingWatermark_String_RenderingFont](./newrenderingwatermark_string_renderingfont/) | Creates instance of text watermark. | 
-|[NewRenderingWatermark_RenderingWatermark](./newrenderingwatermark_renderingwatermark/) | Constructs from an implementation object. | 
+|[NewRenderingWatermark](./newrenderingwatermark/) | Creates instance of text watermark. | 
 
 ## Methods
 

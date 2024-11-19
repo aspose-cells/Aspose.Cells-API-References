@@ -14,9 +14,9 @@ Represents all operator about the interrupt.
 
 ```go
 
-type InterruptMonitor struct 
-
-interruptmonitor, _ := asposecells.NewInterruptMonitor()
+type InterruptMonitor struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ interruptmonitor, _ := asposecells.NewInterruptMonitor()
 | Method | Description |
 | --- | --- |
 |[NewInterruptMonitor](./newinterruptmonitor/) | Default constructor. | 
-|[NewInterruptMonitor_InterruptMonitor](./newinterruptmonitor_interruptmonitor/) | Constructs from an implementation object. | 
 
 ## Methods
 

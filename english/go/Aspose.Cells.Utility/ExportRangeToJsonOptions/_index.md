@@ -14,9 +14,9 @@ Indicates the options that exporting range to json.
 
 ```go
 
-type ExportRangeToJsonOptions struct 
-
-exportrangetojsonoptions, _ := asposecells.NewExportRangeToJsonOptions()
+type ExportRangeToJsonOptions struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ exportrangetojsonoptions, _ := asposecells.NewExportRangeToJsonOptions()
 | Method | Description |
 | --- | --- |
 |[NewExportRangeToJsonOptions](./newexportrangetojsonoptions/) | Default constructor. | 
-|[NewExportRangeToJsonOptions_ExportRangeToJsonOptions](./newexportrangetojsonoptions_exportrangetojsonoptions/) | Constructs from an implementation object. | 
 
 ## Methods
 

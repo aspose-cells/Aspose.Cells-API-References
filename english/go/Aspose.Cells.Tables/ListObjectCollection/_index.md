@@ -14,16 +14,15 @@ Represents a collection of <see cref="ListObject"/> objects in the worksheet.
 
 ```go
 
-type ListObjectCollection struct 
-
-listobjectcollection, _ := asposecells.NewListObjectCollection()
+type ListObjectCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewListObjectCollection](./newlistobjectcollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

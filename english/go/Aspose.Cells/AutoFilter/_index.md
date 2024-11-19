@@ -14,16 +14,15 @@ Represents autofiltering for the specified worksheet.
 
 ```go
 
-type AutoFilter struct 
-
-autofilter, _ := asposecells.NewAutoFilter()
+type AutoFilter struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewAutoFilter](./newautofilter/) | Constructs from an implementation object. | 
 
 ## Methods
 

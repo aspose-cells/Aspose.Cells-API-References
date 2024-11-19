@@ -14,16 +14,15 @@ Represents the list of <see cref="VbaModule"/>
 
 ```go
 
-type VbaModuleCollection struct 
-
-vbamodulecollection, _ := asposecells.NewVbaModuleCollection()
+type VbaModuleCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewVbaModuleCollection](./newvbamodulecollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

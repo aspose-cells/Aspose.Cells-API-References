@@ -14,16 +14,15 @@ Represents a geometric shape.
 
 ```go
 
-type Geometry struct 
-
-geometry, _ := asposecells.NewGeometry()
+type Geometry struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewGeometry](./newgeometry/) | Constructs from an implementation object. | 
 
 ## Methods
 

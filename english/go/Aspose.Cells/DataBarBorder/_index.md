@@ -14,16 +14,15 @@ Represents the border of the data bars specified by a conditional formatting rul
 
 ```go
 
-type DataBarBorder struct 
-
-databarborder, _ := asposecells.NewDataBarBorder()
+type DataBarBorder struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewDataBarBorder](./newdatabarborder/) | Constructs from an implementation object. | 
 
 ## Methods
 

@@ -14,16 +14,15 @@ Encapsulates a collection of <see cref="Border"/> objects.
 
 ```go
 
-type BorderCollection struct 
-
-bordercollection, _ := asposecells.NewBorderCollection()
+type BorderCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewBorderCollection](./newbordercollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

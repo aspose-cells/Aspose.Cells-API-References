@@ -14,16 +14,15 @@ Represents a segment path in a path of the freeform.
 
 ```go
 
-type ShapeSegmentPath struct 
-
-shapesegmentpath, _ := asposecells.NewShapeSegmentPath()
+type ShapeSegmentPath struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewShapeSegmentPath](./newshapesegmentpath/) | Constructs from an implementation object. | 
 
 ## Methods
 

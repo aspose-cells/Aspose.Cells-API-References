@@ -14,17 +14,16 @@ Represents the rectangle shape.
 
 ```go
 
-type RectangleShape struct 
-
-rectangleshape, _ := asposecells.NewRectangleShape()
+type RectangleShape struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewRectangleShape_RectangleShape](./newrectangleshape_rectangleshape/) | Constructs from an implementation object. | 
-|[NewRectangleShape_Shape](./newrectangleshape_shape/) | Constructs from a parent object. | 
+|[NewRectangleShape](./newrectangleshape/) | Constructs from a parent object. | 
 
 ## Methods
 

@@ -14,16 +14,15 @@ Encapsulates a collection of <see cref="Hyperlink"/> objects.
 
 ```go
 
-type HyperlinkCollection struct 
-
-hyperlinkcollection, _ := asposecells.NewHyperlinkCollection()
+type HyperlinkCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewHyperlinkCollection](./newhyperlinkcollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

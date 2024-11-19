@@ -14,16 +14,15 @@ Encapsulates a collection of <see cref="Series"/> objects.
 
 ```go
 
-type SeriesCollection struct 
-
-seriescollection, _ := asposecells.NewSeriesCollection()
+type SeriesCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewSeriesCollection](./newseriescollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

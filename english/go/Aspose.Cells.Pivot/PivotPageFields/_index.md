@@ -14,9 +14,9 @@ Represents the pivot page field itemsif the pivot table data source is consolida
 
 ```go
 
-type PivotPageFields struct 
-
-pivotpagefields, _ := asposecells.NewPivotPageFields()
+type PivotPageFields struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ pivotpagefields, _ := asposecells.NewPivotPageFields()
 | Method | Description |
 | --- | --- |
 |[NewPivotPageFields](./newpivotpagefields/) | Represents the pivot page field items. | 
-|[NewPivotPageFields_PivotPageFields](./newpivotpagefields_pivotpagefields/) | Constructs from an implementation object. | 
 
 ## Methods
 

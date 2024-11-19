@@ -14,16 +14,15 @@ Represents all references of VBA project.
 
 ```go
 
-type VbaProjectReferenceCollection struct 
-
-vbaprojectreferencecollection, _ := asposecells.NewVbaProjectReferenceCollection()
+type VbaProjectReferenceCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewVbaProjectReferenceCollection](./newvbaprojectreferencecollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

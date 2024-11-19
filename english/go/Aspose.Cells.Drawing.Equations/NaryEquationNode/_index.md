@@ -14,17 +14,16 @@ This class specifies an n-ary operator equation consisting of an n-ary operator,
 
 ```go
 
-type NaryEquationNode struct 
-
-naryequationnode, _ := asposecells.NewNaryEquationNode()
+type NaryEquationNode struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewNaryEquationNode_NaryEquationNode](./newnaryequationnode_naryequationnode/) | Constructs from an implementation object. | 
-|[NewNaryEquationNode_EquationNode](./newnaryequationnode_equationnode/) | Constructs from a parent object. | 
+|[NewNaryEquationNode](./newnaryequationnode/) | Constructs from a parent object. | 
 
 ## Methods
 

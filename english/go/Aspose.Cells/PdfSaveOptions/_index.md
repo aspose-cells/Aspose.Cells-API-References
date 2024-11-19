@@ -14,9 +14,9 @@ Represents the options for saving pdf file.
 
 ```go
 
-type PdfSaveOptions struct 
-
-pdfsaveoptions, _ := asposecells.NewPdfSaveOptions()
+type PdfSaveOptions struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ pdfsaveoptions, _ := asposecells.NewPdfSaveOptions()
 | Method | Description |
 | --- | --- |
 |[NewPdfSaveOptions](./newpdfsaveoptions/) | Creates the options for saving pdf file. | 
-|[NewPdfSaveOptions_PdfSaveOptions](./newpdfsaveoptions_pdfsaveoptions/) | Constructs from an implementation object. | 
 |[NewPdfSaveOptions_PaginatedSaveOptions](./newpdfsaveoptions_paginatedsaveoptions/) | Constructs from a parent object. | 
 
 ## Methods

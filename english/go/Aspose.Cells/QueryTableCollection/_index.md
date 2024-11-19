@@ -14,16 +14,15 @@ A collection of <see cref="QueryTableCollection"/> objects that represent QueryT
 
 ```go
 
-type QueryTableCollection struct 
-
-querytablecollection, _ := asposecells.NewQueryTableCollection()
+type QueryTableCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewQueryTableCollection](./newquerytablecollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

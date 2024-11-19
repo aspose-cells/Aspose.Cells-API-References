@@ -14,16 +14,15 @@ This class specifies the shadow effect of the chart element or shape.
 
 ```go
 
-type ShadowEffect struct 
-
-shadoweffect, _ := asposecells.NewShadowEffect()
+type ShadowEffect struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewShadowEffect](./newshadoweffect/) | Constructs from an implementation object. | 
 
 ## Methods
 

@@ -14,9 +14,9 @@ Represents the group setting of pivot field.
 
 ```go
 
-type PivotFieldGroupSettings struct 
-
-pivotfieldgroupsettings, _ := asposecells.NewPivotFieldGroupSettings()
+type PivotFieldGroupSettings struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ pivotfieldgroupsettings, _ := asposecells.NewPivotFieldGroupSettings()
 | Method | Description |
 | --- | --- |
 |[NewPivotFieldGroupSettings](./newpivotfieldgroupsettings/) | Default constructor. | 
-|[NewPivotFieldGroupSettings_PivotFieldGroupSettings](./newpivotfieldgroupsettings_pivotfieldgroupsettings/) | Constructs from an implementation object. | 
 
 ## Methods
 

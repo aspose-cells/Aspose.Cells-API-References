@@ -14,16 +14,15 @@ Represents utility to convert files to other formats.
 
 ```go
 
-type ConversionUtility struct 
-
-conversionutility, _ := asposecells.NewConversionUtility()
+type ConversionUtility struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewConversionUtility](./newconversionutility/) | Constructs from an implementation object. | 
 
 ## Methods
 

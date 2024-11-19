@@ -14,17 +14,16 @@ A collection of custom document properties.
 
 ```go
 
-type CustomDocumentPropertyCollection struct 
-
-customdocumentpropertycollection, _ := asposecells.NewCustomDocumentPropertyCollection()
+type CustomDocumentPropertyCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewCustomDocumentPropertyCollection_CustomDocumentPropertyCollection](./newcustomdocumentpropertycollection_customdocumentpropertycollection/) | Constructs from an implementation object. | 
-|[NewCustomDocumentPropertyCollection_DocumentPropertyCollection](./newcustomdocumentpropertycollection_documentpropertycollection/) | Constructs from a parent object. | 
+|[NewCustomDocumentPropertyCollection](./newcustomdocumentpropertycollection/) | Constructs from a parent object. | 
 
 ## Methods
 

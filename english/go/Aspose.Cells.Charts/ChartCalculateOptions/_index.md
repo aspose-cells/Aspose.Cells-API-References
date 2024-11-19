@@ -14,9 +14,9 @@ Represents the options for calculating chart.
 
 ```go
 
-type ChartCalculateOptions struct 
-
-chartcalculateoptions, _ := asposecells.NewChartCalculateOptions()
+type ChartCalculateOptions struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ chartcalculateoptions, _ := asposecells.NewChartCalculateOptions()
 | Method | Description |
 | --- | --- |
 |[NewChartCalculateOptions](./newchartcalculateoptions/) | Creates the options for calculating chart. | 
-|[NewChartCalculateOptions_ChartCalculateOptions](./newchartcalculateoptions_chartcalculateoptions/) | Constructs from an implementation object. | 
 
 ## Methods
 

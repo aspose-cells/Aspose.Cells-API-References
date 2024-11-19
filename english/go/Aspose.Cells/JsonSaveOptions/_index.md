@@ -14,9 +14,9 @@ Represents the options of saving the workbook as a json file.
 
 ```go
 
-type JsonSaveOptions struct 
-
-jsonsaveoptions, _ := asposecells.NewJsonSaveOptions()
+type JsonSaveOptions struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ jsonsaveoptions, _ := asposecells.NewJsonSaveOptions()
 | Method | Description |
 | --- | --- |
 |[NewJsonSaveOptions](./newjsonsaveoptions/) | Creates options for saving json file. | 
-|[NewJsonSaveOptions_JsonSaveOptions](./newjsonsaveoptions_jsonsaveoptions/) | Constructs from an implementation object. | 
 |[NewJsonSaveOptions_SaveOptions](./newjsonsaveoptions_saveoptions/) | Constructs from a parent object. | 
 
 ## Methods

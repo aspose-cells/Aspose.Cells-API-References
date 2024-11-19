@@ -14,17 +14,16 @@ Workbook printing preview.
 
 ```go
 
-type WorkbookPrintingPreview struct 
-
-workbookprintingpreview, _ := asposecells.NewWorkbookPrintingPreview()
+type WorkbookPrintingPreview struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewWorkbookPrintingPreview_Workbook_ImageOrPrintOptions](./newworkbookprintingpreview_workbook_imageorprintoptions/) | The construct of WorkbookPrintingPreview | 
-|[NewWorkbookPrintingPreview_WorkbookPrintingPreview](./newworkbookprintingpreview_workbookprintingpreview/) | Constructs from an implementation object. | 
+|[NewWorkbookPrintingPreview](./newworkbookprintingpreview/) | The construct of WorkbookPrintingPreview | 
 
 ## Methods
 

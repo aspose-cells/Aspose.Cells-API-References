@@ -14,16 +14,15 @@ Represents Xml map information.
 
 ```go
 
-type XmlMap struct 
-
-xmlmap, _ := asposecells.NewXmlMap()
+type XmlMap struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewXmlMap](./newxmlmap/) | Constructs from an implementation object. | 
 
 ## Methods
 

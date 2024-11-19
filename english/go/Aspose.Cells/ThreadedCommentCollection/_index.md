@@ -14,16 +14,15 @@ Represents the list of threaded comments.
 
 ```go
 
-type ThreadedCommentCollection struct 
-
-threadedcommentcollection, _ := asposecells.NewThreadedCommentCollection()
+type ThreadedCommentCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewThreadedCommentCollection](./newthreadedcommentcollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

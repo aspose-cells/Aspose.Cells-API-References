@@ -14,9 +14,9 @@ Represents the options of loading ods file.
 
 ```go
 
-type OdsLoadOptions struct 
-
-odsloadoptions, _ := asposecells.NewOdsLoadOptions()
+type OdsLoadOptions struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -25,7 +25,6 @@ odsloadoptions, _ := asposecells.NewOdsLoadOptions()
 | --- | --- |
 |[NewOdsLoadOptions](./newodsloadoptions/) | Represents the options of loading ods file. | 
 |[NewOdsLoadOptions_LoadFormat](./newodsloadoptions_loadformat/) | Represents the options of loading ods file. | 
-|[NewOdsLoadOptions_OdsLoadOptions](./newodsloadoptions_odsloadoptions/) | Constructs from an implementation object. | 
 |[NewOdsLoadOptions_LoadOptions](./newodsloadoptions_loadoptions/) | Constructs from a parent object. | 
 
 ## Methods

@@ -14,17 +14,16 @@ This class  specifies the fraction equation, consisting of a numerator and denom
 
 ```go
 
-type FractionEquationNode struct 
-
-fractionequationnode, _ := asposecells.NewFractionEquationNode()
+type FractionEquationNode struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewFractionEquationNode_FractionEquationNode](./newfractionequationnode_fractionequationnode/) | Constructs from an implementation object. | 
-|[NewFractionEquationNode_EquationNode](./newfractionequationnode_equationnode/) | Constructs from a parent object. | 
+|[NewFractionEquationNode](./newfractionequationnode/) | Constructs from a parent object. | 
 
 ## Methods
 

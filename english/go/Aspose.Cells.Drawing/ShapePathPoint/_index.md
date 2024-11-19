@@ -14,16 +14,15 @@ Represents an x-y coordinate within the path coordinate space.
 
 ```go
 
-type ShapePathPoint struct 
-
-shapepathpoint, _ := asposecells.NewShapePathPoint()
+type ShapePathPoint struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewShapePathPoint](./newshapepathpoint/) | Constructs from an implementation object. | 
 
 ## Methods
 

@@ -14,17 +14,16 @@ A collection of built-in document properties.
 
 ```go
 
-type BuiltInDocumentPropertyCollection struct 
-
-builtindocumentpropertycollection, _ := asposecells.NewBuiltInDocumentPropertyCollection()
+type BuiltInDocumentPropertyCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewBuiltInDocumentPropertyCollection_BuiltInDocumentPropertyCollection](./newbuiltindocumentpropertycollection_builtindocumentpropertycollection/) | Constructs from an implementation object. | 
-|[NewBuiltInDocumentPropertyCollection_DocumentPropertyCollection](./newbuiltindocumentpropertycollection_documentpropertycollection/) | Constructs from a parent object. | 
+|[NewBuiltInDocumentPropertyCollection](./newbuiltindocumentpropertycollection/) | Constructs from a parent object. | 
 
 ## Methods
 

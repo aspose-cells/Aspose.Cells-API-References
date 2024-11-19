@@ -14,9 +14,9 @@ Rerepsents the options of calcuating the pivot table.
 
 ```go
 
-type PivotTableCalculateOption struct 
-
-pivottablecalculateoption, _ := asposecells.NewPivotTableCalculateOption()
+type PivotTableCalculateOption struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ pivottablecalculateoption, _ := asposecells.NewPivotTableCalculateOption()
 | Method | Description |
 | --- | --- |
 |[NewPivotTableCalculateOption](./newpivottablecalculateoption/) | Default constructor. | 
-|[NewPivotTableCalculateOption_PivotTableCalculateOption](./newpivottablecalculateoption_pivottablecalculateoption/) | Constructs from an implementation object. | 
 
 ## Methods
 

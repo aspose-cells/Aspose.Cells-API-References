@@ -14,17 +14,16 @@ Encapsulates a shape guide specifies the presence of a shape guide that will be 
 
 ```go
 
-type ShapeGuide struct 
-
-shapeguide, _ := asposecells.NewShapeGuide()
+type ShapeGuide struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewShapeGuide_ShapeGuide](./newshapeguide_shapeguide/) | Constructs from an implementation object. | 
-|[NewShapeGuide_BaseShapeGuide](./newshapeguide_baseshapeguide/) | Constructs from a parent object. | 
+|[NewShapeGuide](./newshapeguide/) | Constructs from a parent object. | 
 
 ## Methods
 

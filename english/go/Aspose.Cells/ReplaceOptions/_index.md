@@ -14,9 +14,9 @@ Represent the replace options.
 
 ```go
 
-type ReplaceOptions struct 
-
-replaceoptions, _ := asposecells.NewReplaceOptions()
+type ReplaceOptions struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ replaceoptions, _ := asposecells.NewReplaceOptions()
 | Method | Description |
 | --- | --- |
 |[NewReplaceOptions](./newreplaceoptions/) | Default constructor. | 
-|[NewReplaceOptions_ReplaceOptions](./newreplaceoptions_replaceoptions/) | Constructs from an implementation object. | 
 
 ## Methods
 

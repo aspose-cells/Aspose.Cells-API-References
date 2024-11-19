@@ -14,9 +14,9 @@ Represents the key list of data sorter.
 
 ```go
 
-type DataSorterKeyCollection struct 
-
-datasorterkeycollection, _ := asposecells.NewDataSorterKeyCollection()
+type DataSorterKeyCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ datasorterkeycollection, _ := asposecells.NewDataSorterKeyCollection()
 | Method | Description |
 | --- | --- |
 |[NewDataSorterKeyCollection](./newdatasorterkeycollection/) | Default constructor. | 
-|[NewDataSorterKeyCollection_DataSorterKeyCollection](./newdatasorterkeycollection_datasorterkeycollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

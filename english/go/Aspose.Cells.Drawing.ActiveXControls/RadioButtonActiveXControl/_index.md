@@ -14,17 +14,16 @@ Represents a RadioButton ActiveX control.
 
 ```go
 
-type RadioButtonActiveXControl struct 
-
-radiobuttonactivexcontrol, _ := asposecells.NewRadioButtonActiveXControl()
+type RadioButtonActiveXControl struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewRadioButtonActiveXControl_RadioButtonActiveXControl](./newradiobuttonactivexcontrol_radiobuttonactivexcontrol/) | Constructs from an implementation object. | 
-|[NewRadioButtonActiveXControl_ToggleButtonActiveXControl](./newradiobuttonactivexcontrol_togglebuttonactivexcontrol/) | Constructs from a parent object. | 
+|[NewRadioButtonActiveXControl](./newradiobuttonactivexcontrol/) | Constructs from a parent object. | 
 
 ## Methods
 

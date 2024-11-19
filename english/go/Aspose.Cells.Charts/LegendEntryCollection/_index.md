@@ -14,16 +14,15 @@ Represents a collection of all the <see cref="LegendEntry"/> objects in the spec
 
 ```go
 
-type LegendEntryCollection struct 
-
-legendentrycollection, _ := asposecells.NewLegendEntryCollection()
+type LegendEntryCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewLegendEntryCollection](./newlegendentrycollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

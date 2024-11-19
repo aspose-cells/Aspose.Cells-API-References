@@ -14,16 +14,15 @@ Represents the gradient stop collection.
 
 ```go
 
-type GradientStopCollection struct 
-
-gradientstopcollection, _ := asposecells.NewGradientStopCollection()
+type GradientStopCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewGradientStopCollection](./newgradientstopcollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

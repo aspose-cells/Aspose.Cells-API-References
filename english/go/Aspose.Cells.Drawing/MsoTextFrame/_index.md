@@ -14,16 +14,15 @@ Represents the text frame in a Shape object.
 
 ```go
 
-type MsoTextFrame struct 
-
-msotextframe, _ := asposecells.NewMsoTextFrame()
+type MsoTextFrame struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewMsoTextFrame](./newmsotextframe/) | Constructs from an implementation object. | 
 
 ## Methods
 

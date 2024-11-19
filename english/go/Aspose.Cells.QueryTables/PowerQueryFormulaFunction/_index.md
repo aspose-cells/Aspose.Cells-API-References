@@ -14,17 +14,16 @@ Represents the function of power query.
 
 ```go
 
-type PowerQueryFormulaFunction struct 
-
-powerqueryformulafunction, _ := asposecells.NewPowerQueryFormulaFunction()
+type PowerQueryFormulaFunction struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewPowerQueryFormulaFunction_PowerQueryFormulaFunction](./newpowerqueryformulafunction_powerqueryformulafunction/) | Constructs from an implementation object. | 
-|[NewPowerQueryFormulaFunction_PowerQueryFormula](./newpowerqueryformulafunction_powerqueryformula/) | Constructs from a parent object. | 
+|[NewPowerQueryFormulaFunction](./newpowerqueryformulafunction/) | Constructs from a parent object. | 
 
 ## Methods
 

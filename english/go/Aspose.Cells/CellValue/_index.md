@@ -14,9 +14,9 @@ Represents the cell value and corresponding type.
 
 ```go
 
-type CellValue struct 
-
-cellvalue, _ := asposecells.NewCellValue()
+type CellValue struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ cellvalue, _ := asposecells.NewCellValue()
 | Method | Description |
 | --- | --- |
 |[NewCellValue](./newcellvalue/) | Default constructor. | 
-|[NewCellValue_CellValue](./newcellvalue_cellvalue/) | Constructs from an implementation object. | 
 
 ## Methods
 

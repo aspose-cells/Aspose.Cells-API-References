@@ -14,17 +14,16 @@ This class specifies a mathematical paragraph containing one or more MathEquatio
 
 ```go
 
-type EquationNodeParagraph struct 
-
-equationnodeparagraph, _ := asposecells.NewEquationNodeParagraph()
+type EquationNodeParagraph struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewEquationNodeParagraph_EquationNodeParagraph](./newequationnodeparagraph_equationnodeparagraph/) | Constructs from an implementation object. | 
-|[NewEquationNodeParagraph_EquationNode](./newequationnodeparagraph_equationnode/) | Constructs from a parent object. | 
+|[NewEquationNodeParagraph](./newequationnodeparagraph/) | Constructs from a parent object. | 
 
 ## Methods
 

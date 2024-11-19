@@ -14,9 +14,9 @@ Represents the parameters of power query formula.
 
 ```go
 
-type PowerQueryFormulaParameterCollection struct 
-
-powerqueryformulaparametercollection, _ := asposecells.NewPowerQueryFormulaParameterCollection()
+type PowerQueryFormulaParameterCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ powerqueryformulaparametercollection, _ := asposecells.NewPowerQueryFormulaParam
 | Method | Description |
 | --- | --- |
 |[NewPowerQueryFormulaParameterCollection](./newpowerqueryformulaparametercollection/) | Default constructor. | 
-|[NewPowerQueryFormulaParameterCollection_PowerQueryFormulaParameterCollection](./newpowerqueryformulaparametercollection_powerqueryformulaparametercollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

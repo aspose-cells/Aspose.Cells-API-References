@@ -14,17 +14,16 @@ Represents a CheckBox ActiveX control.
 
 ```go
 
-type CheckBoxActiveXControl struct 
-
-checkboxactivexcontrol, _ := asposecells.NewCheckBoxActiveXControl()
+type CheckBoxActiveXControl struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewCheckBoxActiveXControl_CheckBoxActiveXControl](./newcheckboxactivexcontrol_checkboxactivexcontrol/) | Constructs from an implementation object. | 
-|[NewCheckBoxActiveXControl_ActiveXControl](./newcheckboxactivexcontrol_activexcontrol/) | Constructs from a parent object. | 
+|[NewCheckBoxActiveXControl](./newcheckboxactivexcontrol/) | Constructs from a parent object. | 
 
 ## Methods
 

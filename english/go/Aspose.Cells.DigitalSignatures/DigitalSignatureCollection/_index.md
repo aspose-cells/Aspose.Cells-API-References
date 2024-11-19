@@ -14,9 +14,9 @@ Provides a collection of digital signatures attached to a document.
 
 ```go
 
-type DigitalSignatureCollection struct 
-
-digitalsignaturecollection, _ := asposecells.NewDigitalSignatureCollection()
+type DigitalSignatureCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ digitalsignaturecollection, _ := asposecells.NewDigitalSignatureCollection()
 | Method | Description |
 | --- | --- |
 |[NewDigitalSignatureCollection](./newdigitalsignaturecollection/) | The constructor of DigitalSignatureCollection. | 
-|[NewDigitalSignatureCollection_DigitalSignatureCollection](./newdigitalsignaturecollection_digitalsignaturecollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

@@ -14,16 +14,15 @@ Represents all elements of the table style.
 
 ```go
 
-type TableStyleElementCollection struct 
-
-tablestyleelementcollection, _ := asposecells.NewTableStyleElementCollection()
+type TableStyleElementCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewTableStyleElementCollection](./newtablestyleelementcollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

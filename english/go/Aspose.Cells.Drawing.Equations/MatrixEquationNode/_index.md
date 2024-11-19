@@ -14,17 +14,16 @@ This class specifies the Matrix equation, consisting of one or more elements lai
 
 ```go
 
-type MatrixEquationNode struct 
-
-matrixequationnode, _ := asposecells.NewMatrixEquationNode()
+type MatrixEquationNode struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewMatrixEquationNode_MatrixEquationNode](./newmatrixequationnode_matrixequationnode/) | Constructs from an implementation object. | 
-|[NewMatrixEquationNode_EquationNode](./newmatrixequationnode_equationnode/) | Constructs from a parent object. | 
+|[NewMatrixEquationNode](./newmatrixequationnode/) | Constructs from a parent object. | 
 
 ## Methods
 

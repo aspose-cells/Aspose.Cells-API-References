@@ -14,9 +14,9 @@ Represents the custom filters.
 
 ```go
 
-type CustomFilterCollection struct 
-
-customfiltercollection, _ := asposecells.NewCustomFilterCollection()
+type CustomFilterCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ customfiltercollection, _ := asposecells.NewCustomFilterCollection()
 | Method | Description |
 | --- | --- |
 |[NewCustomFilterCollection](./newcustomfiltercollection/) | Constructs new instance. | 
-|[NewCustomFilterCollection_CustomFilterCollection](./newcustomfiltercollection_customfiltercollection/) | Constructs from an implementation object. | 
 |[NewCustomFilterCollection_Object](./newcustomfiltercollection_object/) | Constructs from an Object convertible to this. | 
 
 ## Methods

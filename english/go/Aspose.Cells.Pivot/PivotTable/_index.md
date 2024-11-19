@@ -14,16 +14,15 @@ Summary description for PivotTable.
 
 ```go
 
-type PivotTable struct 
-
-pivottable, _ := asposecells.NewPivotTable()
+type PivotTable struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewPivotTable](./newpivottable/) | Constructs from an implementation object. | 
 
 ## Methods
 

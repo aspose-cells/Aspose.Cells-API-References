@@ -14,16 +14,15 @@ This class specifies the visual shape properties for a chart element or shape.
 
 ```go
 
-type ShapePropertyCollection struct 
-
-shapepropertycollection, _ := asposecells.NewShapePropertyCollection()
+type ShapePropertyCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewShapePropertyCollection](./newshapepropertycollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

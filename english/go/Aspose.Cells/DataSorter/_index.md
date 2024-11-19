@@ -14,16 +14,15 @@ Summary description for DataSorter.
 
 ```go
 
-type DataSorter struct 
-
-datasorter, _ := asposecells.NewDataSorter()
+type DataSorter struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewDataSorter](./newdatasorter/) | Constructs from an implementation object. | 
 
 ## Methods
 

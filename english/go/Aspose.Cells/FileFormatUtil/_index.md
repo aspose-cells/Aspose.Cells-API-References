@@ -14,9 +14,9 @@ Provides utility methods for converting file format enums to strings or file ext
 
 ```go
 
-type FileFormatUtil struct 
-
-fileformatutil, _ := asposecells.NewFileFormatUtil()
+type FileFormatUtil struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors

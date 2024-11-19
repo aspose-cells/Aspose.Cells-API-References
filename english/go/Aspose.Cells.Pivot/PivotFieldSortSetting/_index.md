@@ -14,16 +14,15 @@ Represents the setting of sorting pivot fields.
 
 ```go
 
-type PivotFieldSortSetting struct 
-
-pivotfieldsortsetting, _ := asposecells.NewPivotFieldSortSetting()
+type PivotFieldSortSetting struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewPivotFieldSortSetting](./newpivotfieldsortsetting/) | Constructs from an implementation object. | 
 
 ## Methods
 

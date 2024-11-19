@@ -14,16 +14,15 @@ Represents the VBA project.
 
 ```go
 
-type VbaProject struct 
-
-vbaproject, _ := asposecells.NewVbaProject()
+type VbaProject struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewVbaProject](./newvbaproject/) | Constructs from an implementation object. | 
 
 ## Methods
 

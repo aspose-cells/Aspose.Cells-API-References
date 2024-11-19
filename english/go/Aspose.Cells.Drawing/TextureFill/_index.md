@@ -14,16 +14,15 @@ Encapsulates the object that represents texture fill format
 
 ```go
 
-type TextureFill struct 
-
-texturefill, _ := asposecells.NewTextureFill()
+type TextureFill struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewTextureFill](./newtexturefill/) | Constructs from an implementation object. | 
 
 ## Methods
 

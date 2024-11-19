@@ -14,9 +14,9 @@ Represents the options for saving xlsb file.
 
 ```go
 
-type XlsbSaveOptions struct 
-
-xlsbsaveoptions, _ := asposecells.NewXlsbSaveOptions()
+type XlsbSaveOptions struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ xlsbsaveoptions, _ := asposecells.NewXlsbSaveOptions()
 | Method | Description |
 | --- | --- |
 |[NewXlsbSaveOptions](./newxlsbsaveoptions/) | Creates xlsb file save options. | 
-|[NewXlsbSaveOptions_XlsbSaveOptions](./newxlsbsaveoptions_xlsbsaveoptions/) | Constructs from an implementation object. | 
 |[NewXlsbSaveOptions_SaveOptions](./newxlsbsaveoptions_saveoptions/) | Constructs from a parent object. | 
 
 ## Methods

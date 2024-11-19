@@ -14,16 +14,15 @@ Represents the fields of ODS.
 
 ```go
 
-type OdsCellFieldCollection struct 
-
-odscellfieldcollection, _ := asposecells.NewOdsCellFieldCollection()
+type OdsCellFieldCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewOdsCellFieldCollection](./newodscellfieldcollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

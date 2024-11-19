@@ -14,17 +14,16 @@ Represents the arc shape.
 
 ```go
 
-type ArcShape struct 
-
-arcshape, _ := asposecells.NewArcShape()
+type ArcShape struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewArcShape_ArcShape](./newarcshape_arcshape/) | Constructs from an implementation object. | 
-|[NewArcShape_Shape](./newarcshape_shape/) | Constructs from a parent object. | 
+|[NewArcShape](./newarcshape/) | Constructs from a parent object. | 
 
 ## Methods
 

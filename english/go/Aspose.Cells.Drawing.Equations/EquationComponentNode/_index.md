@@ -14,17 +14,16 @@ This class specifies the components of an equation or mathematical expression.Di
 
 ```go
 
-type EquationComponentNode struct 
-
-equationcomponentnode, _ := asposecells.NewEquationComponentNode()
+type EquationComponentNode struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewEquationComponentNode_EquationComponentNode](./newequationcomponentnode_equationcomponentnode/) | Constructs from an implementation object. | 
-|[NewEquationComponentNode_EquationNode](./newequationcomponentnode_equationnode/) | Constructs from a parent object. | 
+|[NewEquationComponentNode](./newequationcomponentnode/) | Constructs from a parent object. | 
 
 ## Methods
 

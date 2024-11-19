@@ -14,16 +14,15 @@ Represents Xml Data Binding information.
 
 ```go
 
-type XmlDataBinding struct 
-
-xmldatabinding, _ := asposecells.NewXmlDataBinding()
+type XmlDataBinding struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewXmlDataBinding](./newxmldatabinding/) | Constructs from an implementation object. | 
 
 ## Methods
 

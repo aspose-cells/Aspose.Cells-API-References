@@ -14,16 +14,15 @@ Represents this fill format should inherit the fill properties of the group.
 
 ```go
 
-type GroupFill struct 
-
-groupfill, _ := asposecells.NewGroupFill()
+type GroupFill struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewGroupFill](./newgroupfill/) | Constructs from an implementation object. | 
 
 ## Methods
 

@@ -14,17 +14,16 @@ represents a revision record of information about a formatting change.
 
 ```go
 
-type RevisionAutoFormat struct 
-
-revisionautoformat, _ := asposecells.NewRevisionAutoFormat()
+type RevisionAutoFormat struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewRevisionAutoFormat_RevisionAutoFormat](./newrevisionautoformat_revisionautoformat/) | Constructs from an implementation object. | 
-|[NewRevisionAutoFormat_Revision](./newrevisionautoformat_revision/) | Constructs from a parent object. | 
+|[NewRevisionAutoFormat](./newrevisionautoformat/) | Constructs from a parent object. | 
 
 ## Methods
 

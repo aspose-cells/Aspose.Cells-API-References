@@ -14,17 +14,16 @@ Represents a radio button.
 
 ```go
 
-type RadioButton struct 
-
-radiobutton, _ := asposecells.NewRadioButton()
+type RadioButton struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewRadioButton_RadioButton](./newradiobutton_radiobutton/) | Constructs from an implementation object. | 
-|[NewRadioButton_Shape](./newradiobutton_shape/) | Constructs from a parent object. | 
+|[NewRadioButton](./newradiobutton/) | Constructs from a parent object. | 
 
 ## Methods
 

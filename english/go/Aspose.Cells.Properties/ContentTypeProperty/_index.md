@@ -14,16 +14,15 @@ Represents identifier information.
 
 ```go
 
-type ContentTypeProperty struct 
-
-contenttypeproperty, _ := asposecells.NewContentTypeProperty()
+type ContentTypeProperty struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewContentTypeProperty](./newcontenttypeproperty/) | Constructs from an implementation object. | 
 
 ## Methods
 

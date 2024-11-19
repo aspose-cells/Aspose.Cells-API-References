@@ -14,16 +14,15 @@ Represents a collection that contains all the points in one series.
 
 ```go
 
-type ChartPointCollection struct 
-
-chartpointcollection, _ := asposecells.NewChartPointCollection()
+type ChartPointCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewChartPointCollection](./newchartpointcollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

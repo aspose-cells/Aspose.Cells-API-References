@@ -14,9 +14,9 @@ Represents the list of web extension properties.
 
 ```go
 
-type WebExtensionPropertyCollection struct 
-
-webextensionpropertycollection, _ := asposecells.NewWebExtensionPropertyCollection()
+type WebExtensionPropertyCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ webextensionpropertycollection, _ := asposecells.NewWebExtensionPropertyCollecti
 | Method | Description |
 | --- | --- |
 |[NewWebExtensionPropertyCollection](./newwebextensionpropertycollection/) | Default constructor. | 
-|[NewWebExtensionPropertyCollection_WebExtensionPropertyCollection](./newwebextensionpropertycollection_webextensionpropertycollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

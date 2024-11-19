@@ -14,16 +14,15 @@ Represents A collection of all the <see cref="ListColumn"/> objects in the speci
 
 ```go
 
-type ListColumnCollection struct 
-
-listcolumncollection, _ := asposecells.NewListColumnCollection()
+type ListColumnCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewListColumnCollection](./newlistcolumncollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

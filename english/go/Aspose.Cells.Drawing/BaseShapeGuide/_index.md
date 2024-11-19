@@ -14,16 +14,15 @@ Represents the shape guide.
 
 ```go
 
-type BaseShapeGuide struct 
-
-baseshapeguide, _ := asposecells.NewBaseShapeGuide()
+type BaseShapeGuide struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewBaseShapeGuide](./newbaseshapeguide/) | Constructs from an implementation object. | 
 
 ## Methods
 

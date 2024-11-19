@@ -14,16 +14,15 @@ Error check setting applied on certain ranges.
 
 ```go
 
-type ErrorCheckOption struct 
-
-errorcheckoption, _ := asposecells.NewErrorCheckOption()
+type ErrorCheckOption struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewErrorCheckOption](./newerrorcheckoption/) | Constructs from an implementation object. | 
 
 ## Methods
 

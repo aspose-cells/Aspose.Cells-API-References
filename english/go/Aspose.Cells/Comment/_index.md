@@ -14,16 +14,15 @@ Encapsulates the object that represents a cell comment.
 
 ```go
 
-type Comment struct 
-
-comment, _ := asposecells.NewComment()
+type Comment struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewComment](./newcomment/) | Constructs from an implementation object. | 
 
 ## Methods
 

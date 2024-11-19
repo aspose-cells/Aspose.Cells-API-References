@@ -14,9 +14,9 @@ Represents the pptx save options.
 
 ```go
 
-type PptxSaveOptions struct 
-
-pptxsaveoptions, _ := asposecells.NewPptxSaveOptions()
+type PptxSaveOptions struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -25,7 +25,6 @@ pptxsaveoptions, _ := asposecells.NewPptxSaveOptions()
 | --- | --- |
 |[NewPptxSaveOptions](./newpptxsaveoptions/) | Represents the pptx save options. | 
 |[NewPptxSaveOptions_Bool](./newpptxsaveoptions_bool/) | Represents options of saving .pptx file. | 
-|[NewPptxSaveOptions_PptxSaveOptions](./newpptxsaveoptions_pptxsaveoptions/) | Constructs from an implementation object. | 
 |[NewPptxSaveOptions_PaginatedSaveOptions](./newpptxsaveoptions_paginatedsaveoptions/) | Constructs from a parent object. | 
 
 ## Methods

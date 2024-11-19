@@ -14,17 +14,16 @@ Represents the meta data.
 
 ```go
 
-type WorkbookMetadata struct 
-
-workbookmetadata, _ := asposecells.NewWorkbookMetadata()
+type WorkbookMetadata struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewWorkbookMetadata_String_MetadataOptions](./newworkbookmetadata_string_metadataoptions/) | Create the meta data object. | 
-|[NewWorkbookMetadata_WorkbookMetadata](./newworkbookmetadata_workbookmetadata/) | Constructs from an implementation object. | 
+|[NewWorkbookMetadata](./newworkbookmetadata/) | Create the meta data object. | 
 
 ## Methods
 

@@ -14,9 +14,9 @@ Contains data returned by <see cref="FileFormatUtil"/> file format detection met
 
 ```go
 
-type FileFormatInfo struct 
-
-fileformatinfo, _ := asposecells.NewFileFormatInfo()
+type FileFormatInfo struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ fileformatinfo, _ := asposecells.NewFileFormatInfo()
 | Method | Description |
 | --- | --- |
 |[NewFileFormatInfo](./newfileformatinfo/) | Default constructor. | 
-|[NewFileFormatInfo_FileFormatInfo](./newfileformatinfo_fileformatinfo/) | Constructs from an implementation object. | 
 
 ## Methods
 

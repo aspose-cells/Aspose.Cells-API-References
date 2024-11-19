@@ -14,16 +14,15 @@ Describes a collection of CFValueObject.Use only for icon sets.
 
 ```go
 
-type ConditionalFormattingValueCollection struct 
-
-conditionalformattingvaluecollection, _ := asposecells.NewConditionalFormattingValueCollection()
+type ConditionalFormattingValueCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewConditionalFormattingValueCollection](./newconditionalformattingvaluecollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

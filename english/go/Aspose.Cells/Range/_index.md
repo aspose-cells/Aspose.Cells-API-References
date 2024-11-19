@@ -14,16 +14,15 @@ Encapsulates the object that represents a range of cells within a spreadsheet.
 
 ```go
 
-type Range struct 
-
-range, _ := asposecells.NewRange()
+type Range struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewRange](./newrange/) | Constructs from an implementation object. | 
 
 ## Methods
 

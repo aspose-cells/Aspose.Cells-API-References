@@ -14,16 +14,15 @@ Encapsulates a collection of <see cref="VerticalPageBreak"/> objects.
 
 ```go
 
-type VerticalPageBreakCollection struct 
-
-verticalpagebreakcollection, _ := asposecells.NewVerticalPageBreakCollection()
+type VerticalPageBreakCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewVerticalPageBreakCollection](./newverticalpagebreakcollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

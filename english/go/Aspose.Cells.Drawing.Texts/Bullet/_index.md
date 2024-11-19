@@ -14,16 +14,15 @@ Represents the bullet points should be applied to a paragraph.
 
 ```go
 
-type Bullet struct 
-
-bullet, _ := asposecells.NewBullet()
+type Bullet struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewBullet](./newbullet/) | Constructs from an implementation object. | 
 
 ## Methods
 

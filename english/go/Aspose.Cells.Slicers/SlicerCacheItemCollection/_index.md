@@ -14,16 +14,15 @@ Represent the collection of SlicerCacheItem
 
 ```go
 
-type SlicerCacheItemCollection struct 
-
-slicercacheitemcollection, _ := asposecells.NewSlicerCacheItemCollection()
+type SlicerCacheItemCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewSlicerCacheItemCollection](./newslicercacheitemcollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

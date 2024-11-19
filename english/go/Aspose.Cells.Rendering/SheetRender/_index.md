@@ -14,17 +14,16 @@ Represents a worksheet render which can render worksheet to various images such 
 
 ```go
 
-type SheetRender struct 
-
-sheetrender, _ := asposecells.NewSheetRender()
+type SheetRender struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewSheetRender_Worksheet_ImageOrPrintOptions](./newsheetrender_worksheet_imageorprintoptions/) | the construct of SheetRender, need worksheet and ImageOrPrintOptions as params | 
-|[NewSheetRender_SheetRender](./newsheetrender_sheetrender/) | Constructs from an implementation object. | 
+|[NewSheetRender](./newsheetrender/) | the construct of SheetRender, need worksheet and ImageOrPrintOptions as params | 
 
 ## Methods
 

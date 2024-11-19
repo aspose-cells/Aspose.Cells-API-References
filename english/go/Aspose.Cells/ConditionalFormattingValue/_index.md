@@ -14,16 +14,15 @@ Describes the values of the interpolation points in a gradient scale, dataBar or
 
 ```go
 
-type ConditionalFormattingValue struct 
-
-conditionalformattingvalue, _ := asposecells.NewConditionalFormattingValue()
+type ConditionalFormattingValue struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewConditionalFormattingValue](./newconditionalformattingvalue/) | Constructs from an implementation object. | 
 
 ## Methods
 

@@ -14,16 +14,15 @@ Represents the master differential formatting records.
 
 ```go
 
-type DxfCollection struct 
-
-dxfcollection, _ := asposecells.NewDxfCollection()
+type DxfCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewDxfCollection](./newdxfcollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

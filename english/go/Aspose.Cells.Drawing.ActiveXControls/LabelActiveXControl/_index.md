@@ -14,17 +14,16 @@ Represents the label ActiveX control.
 
 ```go
 
-type LabelActiveXControl struct 
-
-labelactivexcontrol, _ := asposecells.NewLabelActiveXControl()
+type LabelActiveXControl struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewLabelActiveXControl_LabelActiveXControl](./newlabelactivexcontrol_labelactivexcontrol/) | Constructs from an implementation object. | 
-|[NewLabelActiveXControl_ActiveXControl](./newlabelactivexcontrol_activexcontrol/) | Constructs from a parent object. | 
+|[NewLabelActiveXControl](./newlabelactivexcontrol/) | Constructs from a parent object. | 
 
 ## Methods
 

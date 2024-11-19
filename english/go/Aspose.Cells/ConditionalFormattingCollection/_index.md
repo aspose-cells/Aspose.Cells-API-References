@@ -14,16 +14,15 @@ Encapsulates a collection of <see cref="FormatCondition"/> objects.
 
 ```go
 
-type ConditionalFormattingCollection struct 
-
-conditionalformattingcollection, _ := asposecells.NewConditionalFormattingCollection()
+type ConditionalFormattingCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewConditionalFormattingCollection](./newconditionalformattingcollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

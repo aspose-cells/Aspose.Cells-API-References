@@ -14,17 +14,16 @@ Encapsulates the object that represents a textbox in a spreadsheet.
 
 ```go
 
-type TextBox struct 
-
-textbox, _ := asposecells.NewTextBox()
+type TextBox struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewTextBox_TextBox](./newtextbox_textbox/) | Constructs from an implementation object. | 
-|[NewTextBox_Shape](./newtextbox_shape/) | Constructs from a parent object. | 
+|[NewTextBox](./newtextbox/) | Constructs from a parent object. | 
 
 ## Methods
 

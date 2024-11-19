@@ -14,9 +14,9 @@ Represents the filter of <see cref="PivotArea"/> for <see cref="PivotTable"/>.
 
 ```go
 
-type PivotAreaFilter struct 
-
-pivotareafilter, _ := asposecells.NewPivotAreaFilter()
+type PivotAreaFilter struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ pivotareafilter, _ := asposecells.NewPivotAreaFilter()
 | Method | Description |
 | --- | --- |
 |[NewPivotAreaFilter](./newpivotareafilter/) | Default constructor. | 
-|[NewPivotAreaFilter_PivotAreaFilter](./newpivotareafilter_pivotareafilter/) | Constructs from an implementation object. | 
 
 ## Methods
 

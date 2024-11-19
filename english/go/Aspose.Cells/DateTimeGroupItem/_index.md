@@ -14,9 +14,9 @@ Represents the datetime's group setting.
 
 ```go
 
-type DateTimeGroupItem struct 
-
-datetimegroupitem, _ := asposecells.NewDateTimeGroupItem()
+type DateTimeGroupItem struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ datetimegroupitem, _ := asposecells.NewDateTimeGroupItem()
 | Method | Description |
 | --- | --- |
 |[NewDateTimeGroupItem_DateTimeGroupingType_Int_Int_Int_Int_Int_Int](./newdatetimegroupitem_datetimegroupingtype_int_int_int_int_int_int/) |  | 
-|[NewDateTimeGroupItem_DateTimeGroupItem](./newdatetimegroupitem_datetimegroupitem/) | Constructs from an implementation object. | 
 |[NewDateTimeGroupItem_Object](./newdatetimegroupitem_object/) | Constructs from an Object convertible to this. | 
 
 ## Methods

@@ -14,17 +14,16 @@ Represents the dynamic filter.
 
 ```go
 
-type DynamicFilter struct 
-
-dynamicfilter, _ := asposecells.NewDynamicFilter()
+type DynamicFilter struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewDynamicFilter_DynamicFilter](./newdynamicfilter_dynamicfilter/) | Constructs from an implementation object. | 
-|[NewDynamicFilter_Object](./newdynamicfilter_object/) | Constructs from an Object convertible to this. | 
+|[NewDynamicFilter](./newdynamicfilter/) | Constructs from an Object convertible to this. | 
 
 ## Methods
 

@@ -14,16 +14,15 @@ Represents the collection of all the PivotTable objects on the specified workshe
 
 ```go
 
-type PivotTableCollection struct 
-
-pivottablecollection, _ := asposecells.NewPivotTableCollection()
+type PivotTableCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewPivotTableCollection](./newpivottablecollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

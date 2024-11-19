@@ -14,17 +14,16 @@ This class specifies the radical equation, consisting of an optional degree deg(
 
 ```go
 
-type RadicalEquationNode struct 
-
-radicalequationnode, _ := asposecells.NewRadicalEquationNode()
+type RadicalEquationNode struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewRadicalEquationNode_RadicalEquationNode](./newradicalequationnode_radicalequationnode/) | Constructs from an implementation object. | 
-|[NewRadicalEquationNode_EquationNode](./newradicalequationnode_equationnode/) | Constructs from a parent object. | 
+|[NewRadicalEquationNode](./newradicalequationnode/) | Constructs from a parent object. | 
 
 ## Methods
 

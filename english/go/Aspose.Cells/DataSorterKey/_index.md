@@ -14,16 +14,15 @@ Represents the key of the data sorter.
 
 ```go
 
-type DataSorterKey struct 
-
-datasorterkey, _ := asposecells.NewDataSorterKey()
+type DataSorterKey struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewDataSorterKey](./newdatasorterkey/) | Constructs from an implementation object. | 
 
 ## Methods
 

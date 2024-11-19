@@ -14,16 +14,15 @@ Encapsulates a collection of cell relevant objects, such as <see cref="Cell"/>, 
 
 ```go
 
-type Cells struct 
-
-cells, _ := asposecells.NewCells()
+type Cells struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewCells](./newcells/) | Constructs from an implementation object. | 
 
 ## Methods
 

@@ -14,9 +14,9 @@ Represents the copy options.
 
 ```go
 
-type CopyOptions struct 
-
-copyoptions, _ := asposecells.NewCopyOptions()
+type CopyOptions struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ copyoptions, _ := asposecells.NewCopyOptions()
 | Method | Description |
 | --- | --- |
 |[NewCopyOptions](./newcopyoptions/) | CopyOptions constructor. | 
-|[NewCopyOptions_CopyOptions](./newcopyoptions_copyoptions/) | Constructs from an implementation object. | 
 
 ## Methods
 

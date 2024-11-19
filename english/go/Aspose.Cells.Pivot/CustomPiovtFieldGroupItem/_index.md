@@ -14,16 +14,15 @@ Represents an item of custom grouped field.
 
 ```go
 
-type CustomPiovtFieldGroupItem struct 
-
-custompiovtfieldgroupitem, _ := asposecells.NewCustomPiovtFieldGroupItem()
+type CustomPiovtFieldGroupItem struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewCustomPiovtFieldGroupItem](./newcustompiovtfieldgroupitem/) | Constructs from an implementation object. | 
 
 ## Methods
 

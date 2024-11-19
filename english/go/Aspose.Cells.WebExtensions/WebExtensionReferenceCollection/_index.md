@@ -14,9 +14,9 @@ Represents the list of web extension reference.
 
 ```go
 
-type WebExtensionReferenceCollection struct 
-
-webextensionreferencecollection, _ := asposecells.NewWebExtensionReferenceCollection()
+type WebExtensionReferenceCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ webextensionreferencecollection, _ := asposecells.NewWebExtensionReferenceCollec
 | Method | Description |
 | --- | --- |
 |[NewWebExtensionReferenceCollection](./newwebextensionreferencecollection/) | Default constructor. | 
-|[NewWebExtensionReferenceCollection_WebExtensionReferenceCollection](./newwebextensionreferencecollection_webextensionreferencecollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

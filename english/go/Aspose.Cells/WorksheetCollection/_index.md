@@ -14,16 +14,15 @@ Encapsulates a collection of <see cref="Worksheet"/> objects.
 
 ```go
 
-type WorksheetCollection struct 
-
-worksheetcollection, _ := asposecells.NewWorksheetCollection()
+type WorksheetCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewWorksheetCollection](./newworksheetcollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

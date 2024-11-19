@@ -14,16 +14,15 @@ Represents the relationships.
 
 ```go
 
-type DataModelRelationshipCollection struct 
-
-datamodelrelationshipcollection, _ := asposecells.NewDataModelRelationshipCollection()
+type DataModelRelationshipCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewDataModelRelationshipCollection](./newdatamodelrelationshipcollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

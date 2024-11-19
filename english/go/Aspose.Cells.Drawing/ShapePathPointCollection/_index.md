@@ -14,9 +14,9 @@ Represents all shape path points.
 
 ```go
 
-type ShapePathPointCollection struct 
-
-shapepathpointcollection, _ := asposecells.NewShapePathPointCollection()
+type ShapePathPointCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ shapepathpointcollection, _ := asposecells.NewShapePathPointCollection()
 | Method | Description |
 | --- | --- |
 |[NewShapePathPointCollection](./newshapepathpointcollection/) | Default constructor. | 
-|[NewShapePathPointCollection_ShapePathPointCollection](./newshapepathpointcollection_shapepathpointcollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

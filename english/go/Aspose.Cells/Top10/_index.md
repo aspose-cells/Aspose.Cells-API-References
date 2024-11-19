@@ -14,9 +14,9 @@ Describe the Top10 conditional formatting rule.This conditional formatting rule 
 
 ```go
 
-type Top10 struct 
-
-top10, _ := asposecells.NewTop10()
+type Top10 struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ top10, _ := asposecells.NewTop10()
 | Method | Description |
 | --- | --- |
 |[NewTop10](./newtop10/) | Default constructor. | 
-|[NewTop10_Top10](./newtop10_top10/) | Constructs from an implementation object. | 
 
 ## Methods
 

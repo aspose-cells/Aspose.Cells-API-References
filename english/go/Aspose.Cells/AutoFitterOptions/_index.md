@@ -14,9 +14,9 @@ Represents all auto fitter options.
 
 ```go
 
-type AutoFitterOptions struct 
-
-autofitteroptions, _ := asposecells.NewAutoFitterOptions()
+type AutoFitterOptions struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ autofitteroptions, _ := asposecells.NewAutoFitterOptions()
 | Method | Description |
 | --- | --- |
 |[NewAutoFitterOptions](./newautofitteroptions/) | Default constructor. | 
-|[NewAutoFitterOptions_AutoFitterOptions](./newautofitteroptions_autofitteroptions/) | Constructs from an implementation object. | 
 
 ## Methods
 

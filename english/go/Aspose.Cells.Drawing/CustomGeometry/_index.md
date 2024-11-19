@@ -14,17 +14,16 @@ Represents a custom geometric shape.
 
 ```go
 
-type CustomGeometry struct 
-
-customgeometry, _ := asposecells.NewCustomGeometry()
+type CustomGeometry struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewCustomGeometry_CustomGeometry](./newcustomgeometry_customgeometry/) | Constructs from an implementation object. | 
-|[NewCustomGeometry_Geometry](./newcustomgeometry_geometry/) | Constructs from a parent object. | 
+|[NewCustomGeometry](./newcustomgeometry/) | Constructs from a parent object. | 
 
 ## Methods
 

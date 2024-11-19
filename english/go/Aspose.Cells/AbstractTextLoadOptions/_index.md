@@ -14,17 +14,16 @@ Common options for loading text values
 
 ```go
 
-type AbstractTextLoadOptions struct 
-
-abstracttextloadoptions, _ := asposecells.NewAbstractTextLoadOptions()
+type AbstractTextLoadOptions struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewAbstractTextLoadOptions_AbstractTextLoadOptions](./newabstracttextloadoptions_abstracttextloadoptions/) | Constructs from an implementation object. | 
-|[NewAbstractTextLoadOptions_LoadOptions](./newabstracttextloadoptions_loadoptions/) | Constructs from a parent object. | 
+|[NewAbstractTextLoadOptions](./newabstracttextloadoptions/) | Constructs from a parent object. | 
 
 ## Methods
 

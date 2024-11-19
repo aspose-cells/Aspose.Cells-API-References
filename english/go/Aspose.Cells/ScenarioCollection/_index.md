@@ -14,16 +14,15 @@ Represents the list of scenarios.
 
 ```go
 
-type ScenarioCollection struct 
-
-scenariocollection, _ := asposecells.NewScenarioCollection()
+type ScenarioCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewScenarioCollection](./newscenariocollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

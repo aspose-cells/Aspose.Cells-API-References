@@ -14,16 +14,15 @@ Base class for <see cref="BuiltInDocumentPropertyCollection"/> and <see cref="Cu
 
 ```go
 
-type DocumentPropertyCollection struct 
-
-documentpropertycollection, _ := asposecells.NewDocumentPropertyCollection()
+type DocumentPropertyCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewDocumentPropertyCollection](./newdocumentpropertycollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

@@ -14,9 +14,9 @@ Represents the options of loading Apple Numbers files.
 
 ```go
 
-type NumbersLoadOptions struct 
-
-numbersloadoptions, _ := asposecells.NewNumbersLoadOptions()
+type NumbersLoadOptions struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ numbersloadoptions, _ := asposecells.NewNumbersLoadOptions()
 | Method | Description |
 | --- | --- |
 |[NewNumbersLoadOptions](./newnumbersloadoptions/) | Constructor. | 
-|[NewNumbersLoadOptions_NumbersLoadOptions](./newnumbersloadoptions_numbersloadoptions/) | Constructs from an implementation object. | 
 |[NewNumbersLoadOptions_LoadOptions](./newnumbersloadoptions_loadoptions/) | Constructs from a parent object. | 
 
 ## Methods

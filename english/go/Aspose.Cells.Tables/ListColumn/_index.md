@@ -14,16 +14,15 @@ Represents a column in a Table.
 
 ```go
 
-type ListColumn struct 
-
-listcolumn, _ := asposecells.NewListColumn()
+type ListColumn struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewListColumn](./newlistcolumn/) | Constructs from an implementation object. | 
 
 ## Methods
 

@@ -14,16 +14,15 @@ Encapsulates the object that represents the page setup description.The PageSetup
 
 ```go
 
-type PageSetup struct 
-
-pagesetup, _ := asposecells.NewPageSetup()
+type PageSetup struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewPageSetup](./newpagesetup/) | Constructs from an implementation object. | 
 
 ## Methods
 

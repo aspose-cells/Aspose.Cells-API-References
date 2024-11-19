@@ -14,9 +14,9 @@ Implementation of PivotGlobalizationSettings that supports user to set/change pr
 
 ```go
 
-type SettableChartGlobalizationSettings struct 
-
-settablechartglobalizationsettings, _ := asposecells.NewSettableChartGlobalizationSettings()
+type SettableChartGlobalizationSettings struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ settablechartglobalizationsettings, _ := asposecells.NewSettableChartGlobalizati
 | Method | Description |
 | --- | --- |
 |[NewSettableChartGlobalizationSettings](./newsettablechartglobalizationsettings/) | Default constructor. | 
-|[NewSettableChartGlobalizationSettings_SettableChartGlobalizationSettings](./newsettablechartglobalizationsettings_settablechartglobalizationsettings/) | Constructs from an implementation object. | 
 
 ## Methods
 

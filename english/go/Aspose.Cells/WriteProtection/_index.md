@@ -14,9 +14,9 @@ Specifies write protection settings for a workbook.
 
 ```go
 
-type WriteProtection struct 
-
-writeprotection, _ := asposecells.NewWriteProtection()
+type WriteProtection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ writeprotection, _ := asposecells.NewWriteProtection()
 | Method | Description |
 | --- | --- |
 |[NewWriteProtection](./newwriteprotection/) | Default constructor. | 
-|[NewWriteProtection_WriteProtection](./newwriteprotection_writeprotection/) | Constructs from an implementation object. | 
 
 ## Methods
 

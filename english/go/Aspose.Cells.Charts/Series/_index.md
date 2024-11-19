@@ -14,16 +14,15 @@ Encapsulates the object that represents a single data series in a chart.
 
 ```go
 
-type Series struct 
-
-series, _ := asposecells.NewSeries()
+type Series struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewSeries](./newseries/) | Constructs from an implementation object. | 
 
 ## Methods
 

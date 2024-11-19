@@ -14,9 +14,9 @@ Represents the options of saving sql.
 
 ```go
 
-type SqlScriptSaveOptions struct 
-
-sqlscriptsaveoptions, _ := asposecells.NewSqlScriptSaveOptions()
+type SqlScriptSaveOptions struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ sqlscriptsaveoptions, _ := asposecells.NewSqlScriptSaveOptions()
 | Method | Description |
 | --- | --- |
 |[NewSqlScriptSaveOptions](./newsqlscriptsaveoptions/) | Creates options for saving sql file. | 
-|[NewSqlScriptSaveOptions_SqlScriptSaveOptions](./newsqlscriptsaveoptions_sqlscriptsaveoptions/) | Constructs from an implementation object. | 
 |[NewSqlScriptSaveOptions_SaveOptions](./newsqlscriptsaveoptions_saveoptions/) | Constructs from a parent object. | 
 
 ## Methods

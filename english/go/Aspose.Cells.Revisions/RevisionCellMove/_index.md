@@ -14,17 +14,16 @@ Represents a revision record on a cell(s) that moved.
 
 ```go
 
-type RevisionCellMove struct 
-
-revisioncellmove, _ := asposecells.NewRevisionCellMove()
+type RevisionCellMove struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewRevisionCellMove_RevisionCellMove](./newrevisioncellmove_revisioncellmove/) | Constructs from an implementation object. | 
-|[NewRevisionCellMove_Revision](./newrevisioncellmove_revision/) | Constructs from a parent object. | 
+|[NewRevisionCellMove](./newrevisioncellmove/) | Constructs from a parent object. | 
 
 ## Methods
 

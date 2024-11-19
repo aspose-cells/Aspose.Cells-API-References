@@ -14,17 +14,16 @@ Encapsulates the object that represents the plot area in a chart.
 
 ```go
 
-type PlotArea struct 
-
-plotarea, _ := asposecells.NewPlotArea()
+type PlotArea struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewPlotArea_PlotArea](./newplotarea_plotarea/) | Constructs from an implementation object. | 
-|[NewPlotArea_ChartFrame](./newplotarea_chartframe/) | Constructs from a parent object. | 
+|[NewPlotArea](./newplotarea/) | Constructs from a parent object. | 
 
 ## Methods
 

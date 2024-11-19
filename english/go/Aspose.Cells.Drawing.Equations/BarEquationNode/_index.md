@@ -14,17 +14,16 @@ This class specifies the bar equation, consisting of a base argument and an over
 
 ```go
 
-type BarEquationNode struct 
-
-barequationnode, _ := asposecells.NewBarEquationNode()
+type BarEquationNode struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewBarEquationNode_BarEquationNode](./newbarequationnode_barequationnode/) | Constructs from an implementation object. | 
-|[NewBarEquationNode_EquationNode](./newbarequationnode_equationnode/) | Constructs from a parent object. | 
+|[NewBarEquationNode](./newbarequationnode/) | Constructs from a parent object. | 
 
 ## Methods
 

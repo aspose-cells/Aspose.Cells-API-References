@@ -14,16 +14,15 @@ Encapsulates the object that represents pattern fill format
 
 ```go
 
-type PatternFill struct 
-
-patternfill, _ := asposecells.NewPatternFill()
+type PatternFill struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewPatternFill](./newpatternfill/) | Constructs from an implementation object. | 
 
 ## Methods
 

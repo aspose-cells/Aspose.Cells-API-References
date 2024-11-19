@@ -14,16 +14,15 @@ Specifies an external data connection
 
 ```go
 
-type ExternalConnection struct 
-
-externalconnection, _ := asposecells.NewExternalConnection()
+type ExternalConnection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewExternalConnection](./newexternalconnection/) | Constructs from an implementation object. | 
 
 ## Methods
 

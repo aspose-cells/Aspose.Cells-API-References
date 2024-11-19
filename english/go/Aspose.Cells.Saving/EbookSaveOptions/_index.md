@@ -14,9 +14,9 @@ Represents the options for saving ebook file.
 
 ```go
 
-type EbookSaveOptions struct 
-
-ebooksaveoptions, _ := asposecells.NewEbookSaveOptions()
+type EbookSaveOptions struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -25,7 +25,6 @@ ebooksaveoptions, _ := asposecells.NewEbookSaveOptions()
 | --- | --- |
 |[NewEbookSaveOptions](./newebooksaveoptions/) | Creates options for saving ebook file. | 
 |[NewEbookSaveOptions_SaveFormat](./newebooksaveoptions_saveformat/) | Creates options for saving ebook file. | 
-|[NewEbookSaveOptions_EbookSaveOptions](./newebooksaveoptions_ebooksaveoptions/) | Constructs from an implementation object. | 
 |[NewEbookSaveOptions_HtmlSaveOptions](./newebooksaveoptions_htmlsaveoptions/) | Constructs from a parent object. | 
 
 ## Methods

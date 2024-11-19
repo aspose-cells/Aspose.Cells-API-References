@@ -14,17 +14,16 @@ Represents the text paragraph setting.
 
 ```go
 
-type TextParagraph struct 
-
-textparagraph, _ := asposecells.NewTextParagraph()
+type TextParagraph struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewTextParagraph_TextParagraph](./newtextparagraph_textparagraph/) | Constructs from an implementation object. | 
-|[NewTextParagraph_FontSetting](./newtextparagraph_fontsetting/) | Constructs from a parent object. | 
+|[NewTextParagraph](./newtextparagraph/) | Constructs from a parent object. | 
 
 ## Methods
 

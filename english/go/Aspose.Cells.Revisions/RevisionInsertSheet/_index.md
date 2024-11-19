@@ -14,17 +14,16 @@ Represents a revision record of a sheet that was inserted.
 
 ```go
 
-type RevisionInsertSheet struct 
-
-revisioninsertsheet, _ := asposecells.NewRevisionInsertSheet()
+type RevisionInsertSheet struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewRevisionInsertSheet_RevisionInsertSheet](./newrevisioninsertsheet_revisioninsertsheet/) | Constructs from an implementation object. | 
-|[NewRevisionInsertSheet_Revision](./newrevisioninsertsheet_revision/) | Constructs from a parent object. | 
+|[NewRevisionInsertSheet](./newrevisioninsertsheet/) | Constructs from a parent object. | 
 
 ## Methods
 

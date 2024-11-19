@@ -14,9 +14,9 @@ Represents the additional options when saving the file as the Xps.
 
 ```go
 
-type XpsSaveOptions struct 
-
-xpssaveoptions, _ := asposecells.NewXpsSaveOptions()
+type XpsSaveOptions struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ xpssaveoptions, _ := asposecells.NewXpsSaveOptions()
 | Method | Description |
 | --- | --- |
 |[NewXpsSaveOptions](./newxpssaveoptions/) | Creates options for saving xps file. | 
-|[NewXpsSaveOptions_XpsSaveOptions](./newxpssaveoptions_xpssaveoptions/) | Constructs from an implementation object. | 
 |[NewXpsSaveOptions_PaginatedSaveOptions](./newxpssaveoptions_paginatedsaveoptions/) | Constructs from a parent object. | 
 
 ## Methods

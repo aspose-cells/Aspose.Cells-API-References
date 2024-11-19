@@ -14,16 +14,15 @@ Represents the list of <see cref="FontSetting"/>.
 
 ```go
 
-type FontSettingCollection struct 
-
-fontsettingcollection, _ := asposecells.NewFontSettingCollection()
+type FontSettingCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewFontSettingCollection](./newfontsettingcollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

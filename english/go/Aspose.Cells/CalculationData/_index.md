@@ -14,16 +14,15 @@ Represents the required data when calculating one function, such as function nam
 
 ```go
 
-type CalculationData struct 
-
-calculationdata, _ := asposecells.NewCalculationData()
+type CalculationData struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewCalculationData](./newcalculationdata/) | Constructs from an implementation object. | 
 
 ## Methods
 

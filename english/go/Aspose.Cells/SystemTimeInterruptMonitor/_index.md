@@ -14,17 +14,16 @@ Simple implementation of <see cref="AbstractInterruptMonitor"/> by checking and 
 
 ```go
 
-type SystemTimeInterruptMonitor struct 
-
-systemtimeinterruptmonitor, _ := asposecells.NewSystemTimeInterruptMonitor()
+type SystemTimeInterruptMonitor struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewSystemTimeInterruptMonitor_Bool](./newsystemtimeinterruptmonitor_bool/) | Constructs one interruption monitor. | 
-|[NewSystemTimeInterruptMonitor_SystemTimeInterruptMonitor](./newsystemtimeinterruptmonitor_systemtimeinterruptmonitor/) | Constructs from an implementation object. | 
+|[NewSystemTimeInterruptMonitor](./newsystemtimeinterruptmonitor/) | Constructs one interruption monitor. | 
 
 ## Methods
 

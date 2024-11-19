@@ -14,9 +14,9 @@ Represents the value of the image bullet.
 
 ```go
 
-type PictureBulletValue struct 
-
-picturebulletvalue, _ := asposecells.NewPictureBulletValue()
+type PictureBulletValue struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ picturebulletvalue, _ := asposecells.NewPictureBulletValue()
 | Method | Description |
 | --- | --- |
 |[NewPictureBulletValue](./newpicturebulletvalue/) | Default constructor. | 
-|[NewPictureBulletValue_PictureBulletValue](./newpicturebulletvalue_picturebulletvalue/) | Constructs from an implementation object. | 
 |[NewPictureBulletValue_BulletValue](./newpicturebulletvalue_bulletvalue/) | Constructs from a parent object. | 
 
 ## Methods

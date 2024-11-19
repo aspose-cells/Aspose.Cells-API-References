@@ -14,17 +14,16 @@ Represents the smart art.
 
 ```go
 
-type SmartArtShape struct 
-
-smartartshape, _ := asposecells.NewSmartArtShape()
+type SmartArtShape struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewSmartArtShape_SmartArtShape](./newsmartartshape_smartartshape/) | Constructs from an implementation object. | 
-|[NewSmartArtShape_Shape](./newsmartartshape_shape/) | Constructs from a parent object. | 
+|[NewSmartArtShape](./newsmartartshape/) | Constructs from a parent object. | 
 
 ## Methods
 

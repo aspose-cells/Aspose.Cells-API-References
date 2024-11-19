@@ -14,9 +14,9 @@ Represents the character bullet.
 
 ```go
 
-type CharacterBulletValue struct 
-
-characterbulletvalue, _ := asposecells.NewCharacterBulletValue()
+type CharacterBulletValue struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ characterbulletvalue, _ := asposecells.NewCharacterBulletValue()
 | Method | Description |
 | --- | --- |
 |[NewCharacterBulletValue](./newcharacterbulletvalue/) | Default constructor. | 
-|[NewCharacterBulletValue_CharacterBulletValue](./newcharacterbulletvalue_characterbulletvalue/) | Constructs from an implementation object. | 
 |[NewCharacterBulletValue_BulletValue](./newcharacterbulletvalue_bulletvalue/) | Constructs from a parent object. | 
 
 ## Methods

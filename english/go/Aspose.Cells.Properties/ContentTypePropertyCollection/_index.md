@@ -14,16 +14,15 @@ A collection of <see cref="ContentTypeProperty"/> objects that represent additio
 
 ```go
 
-type ContentTypePropertyCollection struct 
-
-contenttypepropertycollection, _ := asposecells.NewContentTypePropertyCollection()
+type ContentTypePropertyCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewContentTypePropertyCollection](./newcontenttypepropertycollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

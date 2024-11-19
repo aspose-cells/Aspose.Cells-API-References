@@ -14,17 +14,16 @@ Represents a ComboBox ActiveX control.
 
 ```go
 
-type ComboBoxActiveXControl struct 
-
-comboboxactivexcontrol, _ := asposecells.NewComboBoxActiveXControl()
+type ComboBoxActiveXControl struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewComboBoxActiveXControl_ComboBoxActiveXControl](./newcomboboxactivexcontrol_comboboxactivexcontrol/) | Constructs from an implementation object. | 
-|[NewComboBoxActiveXControl_ActiveXControl](./newcomboboxactivexcontrol_activexcontrol/) | Constructs from a parent object. | 
+|[NewComboBoxActiveXControl](./newcomboboxactivexcontrol/) | Constructs from a parent object. | 
 
 ## Methods
 

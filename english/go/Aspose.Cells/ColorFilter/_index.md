@@ -14,17 +14,16 @@ Represents filtering the range by color.
 
 ```go
 
-type ColorFilter struct 
-
-colorfilter, _ := asposecells.NewColorFilter()
+type ColorFilter struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewColorFilter_ColorFilter](./newcolorfilter_colorfilter/) | Constructs from an implementation object. | 
-|[NewColorFilter_Object](./newcolorfilter_object/) | Constructs from an Object convertible to this. | 
+|[NewColorFilter](./newcolorfilter/) | Constructs from an Object convertible to this. | 
 
 ## Methods
 

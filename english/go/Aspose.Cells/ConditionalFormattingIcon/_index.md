@@ -14,16 +14,15 @@ Represents  the custom  icon of conditional formatting rule.
 
 ```go
 
-type ConditionalFormattingIcon struct 
-
-conditionalformattingicon, _ := asposecells.NewConditionalFormattingIcon()
+type ConditionalFormattingIcon struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewConditionalFormattingIcon](./newconditionalformattingicon/) | Constructs from an implementation object. | 
 
 ## Methods
 

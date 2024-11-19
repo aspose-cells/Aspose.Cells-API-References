@@ -14,16 +14,15 @@ Settings of formulas and calculation.
 
 ```go
 
-type FormulaSettings struct 
-
-formulasettings, _ := asposecells.NewFormulaSettings()
+type FormulaSettings struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewFormulaSettings](./newformulasettings/) | Constructs from an implementation object. | 
 
 ## Methods
 

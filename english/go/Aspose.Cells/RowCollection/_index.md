@@ -14,16 +14,15 @@ Collects the <see cref="Row"/> objects that represent the individual rows in a w
 
 ```go
 
-type RowCollection struct 
-
-rowcollection, _ := asposecells.NewRowCollection()
+type RowCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewRowCollection](./newrowcollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

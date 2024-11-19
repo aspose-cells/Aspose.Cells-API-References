@@ -14,17 +14,16 @@ Represents the SpinButton control.
 
 ```go
 
-type SpinButtonActiveXControl struct 
-
-spinbuttonactivexcontrol, _ := asposecells.NewSpinButtonActiveXControl()
+type SpinButtonActiveXControl struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewSpinButtonActiveXControl_SpinButtonActiveXControl](./newspinbuttonactivexcontrol_spinbuttonactivexcontrol/) | Constructs from an implementation object. | 
-|[NewSpinButtonActiveXControl_ActiveXControl](./newspinbuttonactivexcontrol_activexcontrol/) | Constructs from a parent object. | 
+|[NewSpinButtonActiveXControl](./newspinbuttonactivexcontrol/) | Constructs from a parent object. | 
 
 ## Methods
 

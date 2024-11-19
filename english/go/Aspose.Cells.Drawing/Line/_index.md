@@ -14,16 +14,15 @@ Encapsulates the object that represents the line format.
 
 ```go
 
-type Line struct 
-
-line, _ := asposecells.NewLine()
+type Line struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewLine](./newline/) | Constructs from an implementation object. | 
 
 ## Methods
 

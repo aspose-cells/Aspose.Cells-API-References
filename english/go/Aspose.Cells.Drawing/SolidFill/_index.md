@@ -14,16 +14,15 @@ Encapsulates the object that represents solid fill format
 
 ```go
 
-type SolidFill struct 
-
-solidfill, _ := asposecells.NewSolidFill()
+type SolidFill struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewSolidFill](./newsolidfill/) | Constructs from an implementation object. | 
 
 ## Methods
 

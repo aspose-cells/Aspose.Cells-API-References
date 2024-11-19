@@ -14,16 +14,15 @@ Represents a smart tag.
 
 ```go
 
-type SmartTag struct 
-
-smarttag, _ := asposecells.NewSmartTag()
+type SmartTag struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewSmartTag](./newsmarttag/) | Constructs from an implementation object. | 
 
 ## Methods
 

@@ -14,17 +14,16 @@ Represents Custom xml shape ,such as Ink.
 
 ```go
 
-type CustomXmlShape struct 
-
-customxmlshape, _ := asposecells.NewCustomXmlShape()
+type CustomXmlShape struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewCustomXmlShape_CustomXmlShape](./newcustomxmlshape_customxmlshape/) | Constructs from an implementation object. | 
-|[NewCustomXmlShape_Shape](./newcustomxmlshape_shape/) | Constructs from a parent object. | 
+|[NewCustomXmlShape](./newcustomxmlshape/) | Constructs from a parent object. | 
 
 ## Methods
 

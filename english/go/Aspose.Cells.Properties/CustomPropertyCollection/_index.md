@@ -14,16 +14,15 @@ A collection of <see cref="CustomProperty"/> objects that represent additional i
 
 ```go
 
-type CustomPropertyCollection struct 
-
-custompropertycollection, _ := asposecells.NewCustomPropertyCollection()
+type CustomPropertyCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewCustomPropertyCollection](./newcustompropertycollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

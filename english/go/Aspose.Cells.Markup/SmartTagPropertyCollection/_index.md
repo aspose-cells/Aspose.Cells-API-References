@@ -14,9 +14,9 @@ Represents all properties of cell smart tag.
 
 ```go
 
-type SmartTagPropertyCollection struct 
-
-smarttagpropertycollection, _ := asposecells.NewSmartTagPropertyCollection()
+type SmartTagPropertyCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ smarttagpropertycollection, _ := asposecells.NewSmartTagPropertyCollection()
 | Method | Description |
 | --- | --- |
 |[NewSmartTagPropertyCollection](./newsmarttagpropertycollection/) | Default constructor. | 
-|[NewSmartTagPropertyCollection_SmartTagPropertyCollection](./newsmarttagpropertycollection_smarttagpropertycollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

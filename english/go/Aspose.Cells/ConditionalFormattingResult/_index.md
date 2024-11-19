@@ -14,16 +14,15 @@ Represents the result of conditional formatting which applies to a cell.
 
 ```go
 
-type ConditionalFormattingResult struct 
-
-conditionalformattingresult, _ := asposecells.NewConditionalFormattingResult()
+type ConditionalFormattingResult struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewConditionalFormattingResult](./newconditionalformattingresult/) | Constructs from an implementation object. | 
 
 ## Methods
 

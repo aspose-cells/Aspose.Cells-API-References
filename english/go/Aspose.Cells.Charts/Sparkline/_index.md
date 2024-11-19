@@ -14,16 +14,15 @@ A sparkline represents a tiny chart or graphic in a worksheet cell that provides
 
 ```go
 
-type Sparkline struct 
-
-sparkline, _ := asposecells.NewSparkline()
+type Sparkline struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewSparkline](./newsparkline/) | Constructs from an implementation object. | 
 
 ## Methods
 

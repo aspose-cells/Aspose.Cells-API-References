@@ -14,16 +14,15 @@ Represents tab stop.
 
 ```go
 
-type TextTabStop struct 
-
-texttabstop, _ := asposecells.NewTextTabStop()
+type TextTabStop struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewTextTabStop](./newtexttabstop/) | Constructs from an implementation object. | 
 
 ## Methods
 

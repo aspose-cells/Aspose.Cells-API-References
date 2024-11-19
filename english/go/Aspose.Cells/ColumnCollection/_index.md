@@ -14,16 +14,15 @@ Collection of the <see cref="Column"/> objects that represent the individual col
 
 ```go
 
-type ColumnCollection struct 
-
-columncollection, _ := asposecells.NewColumnCollection()
+type ColumnCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewColumnCollection](./newcolumncollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

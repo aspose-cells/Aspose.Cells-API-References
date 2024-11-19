@@ -14,17 +14,16 @@ Represents the top 10 filter.
 
 ```go
 
-type Top10Filter struct 
-
-top10filter, _ := asposecells.NewTop10Filter()
+type Top10Filter struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewTop10Filter_Top10Filter](./newtop10filter_top10filter/) | Constructs from an implementation object. | 
-|[NewTop10Filter_Object](./newtop10filter_object/) | Constructs from an Object convertible to this. | 
+|[NewTop10Filter](./newtop10filter/) | Constructs from an Object convertible to this. | 
 
 ## Methods
 

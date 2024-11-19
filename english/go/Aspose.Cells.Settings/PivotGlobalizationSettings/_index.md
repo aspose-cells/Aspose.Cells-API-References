@@ -14,9 +14,9 @@ Represents the globalization settings for pivot tables.
 
 ```go
 
-type PivotGlobalizationSettings struct 
-
-pivotglobalizationsettings, _ := asposecells.NewPivotGlobalizationSettings()
+type PivotGlobalizationSettings struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors

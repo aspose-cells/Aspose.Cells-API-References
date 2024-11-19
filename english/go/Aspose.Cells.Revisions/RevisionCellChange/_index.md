@@ -14,17 +14,16 @@ Represents the revision that changing cells.
 
 ```go
 
-type RevisionCellChange struct 
-
-revisioncellchange, _ := asposecells.NewRevisionCellChange()
+type RevisionCellChange struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewRevisionCellChange_RevisionCellChange](./newrevisioncellchange_revisioncellchange/) | Constructs from an implementation object. | 
-|[NewRevisionCellChange_Revision](./newrevisioncellchange_revision/) | Constructs from a parent object. | 
+|[NewRevisionCellChange](./newrevisioncellchange/) | Constructs from a parent object. | 
 
 ## Methods
 

@@ -14,17 +14,16 @@ Abstract class for deriving other equation nodes.
 
 ```go
 
-type EquationNode struct 
-
-equationnode, _ := asposecells.NewEquationNode()
+type EquationNode struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewEquationNode_EquationNode](./newequationnode_equationnode/) | Constructs from an implementation object. | 
-|[NewEquationNode_FontSetting](./newequationnode_fontsetting/) | Constructs from a parent object. | 
+|[NewEquationNode](./newequationnode/) | Constructs from a parent object. | 
 
 ## Methods
 

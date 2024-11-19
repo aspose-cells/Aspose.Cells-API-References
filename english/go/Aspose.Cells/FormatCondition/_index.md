@@ -14,16 +14,15 @@ Represents conditional formatting condition.
 
 ```go
 
-type FormatCondition struct 
-
-formatcondition, _ := asposecells.NewFormatCondition()
+type FormatCondition struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewFormatCondition](./newformatcondition/) | Constructs from an implementation object. | 
 
 ## Methods
 

@@ -14,16 +14,15 @@ Describes a set of sheets.
 
 ```go
 
-type SheetSet struct 
-
-sheetset, _ := asposecells.NewSheetSet()
+type SheetSet struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewSheetSet](./newsheetset/) | Constructs from an implementation object. | 
 
 ## Methods
 

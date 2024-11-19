@@ -14,16 +14,15 @@ Represents a item in a PivotField report.
 
 ```go
 
-type PivotItem struct 
-
-pivotitem, _ := asposecells.NewPivotItem()
+type PivotItem struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewPivotItem](./newpivotitem/) | Constructs from an implementation object. | 
 
 ## Methods
 

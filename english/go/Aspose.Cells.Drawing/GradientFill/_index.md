@@ -14,16 +14,15 @@ Represents the gradient fill.
 
 ```go
 
-type GradientFill struct 
-
-gradientfill, _ := asposecells.NewGradientFill()
+type GradientFill struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewGradientFill](./newgradientfill/) | Constructs from an implementation object. | 
 
 ## Methods
 

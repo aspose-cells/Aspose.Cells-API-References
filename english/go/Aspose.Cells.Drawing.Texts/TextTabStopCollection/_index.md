@@ -14,9 +14,9 @@ Represents the list of all tab stops.
 
 ```go
 
-type TextTabStopCollection struct 
-
-texttabstopcollection, _ := asposecells.NewTextTabStopCollection()
+type TextTabStopCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ texttabstopcollection, _ := asposecells.NewTextTabStopCollection()
 | Method | Description |
 | --- | --- |
 |[NewTextTabStopCollection](./newtexttabstopcollection/) | Default constructor. | 
-|[NewTextTabStopCollection_TextTabStopCollection](./newtexttabstopcollection_texttabstopcollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

@@ -14,17 +14,16 @@ Represents a revision of renaming sheet.
 
 ```go
 
-type RevisionRenameSheet struct 
-
-revisionrenamesheet, _ := asposecells.NewRevisionRenameSheet()
+type RevisionRenameSheet struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewRevisionRenameSheet_RevisionRenameSheet](./newrevisionrenamesheet_revisionrenamesheet/) | Constructs from an implementation object. | 
-|[NewRevisionRenameSheet_Revision](./newrevisionrenamesheet_revision/) | Constructs from a parent object. | 
+|[NewRevisionRenameSheet](./newrevisionrenamesheet/) | Constructs from a parent object. | 
 
 ## Methods
 

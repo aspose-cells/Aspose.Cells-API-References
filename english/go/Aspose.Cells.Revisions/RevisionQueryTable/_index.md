@@ -14,17 +14,16 @@ Represents a revision of a query table field change.
 
 ```go
 
-type RevisionQueryTable struct 
-
-revisionquerytable, _ := asposecells.NewRevisionQueryTable()
+type RevisionQueryTable struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewRevisionQueryTable_RevisionQueryTable](./newrevisionquerytable_revisionquerytable/) | Constructs from an implementation object. | 
-|[NewRevisionQueryTable_Revision](./newrevisionquerytable_revision/) | Constructs from a parent object. | 
+|[NewRevisionQueryTable](./newrevisionquerytable/) | Constructs from a parent object. | 
 
 ## Methods
 

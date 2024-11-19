@@ -14,9 +14,9 @@ Represents all persons who .
 
 ```go
 
-type ThreadedCommentAuthorCollection struct 
-
-threadedcommentauthorcollection, _ := asposecells.NewThreadedCommentAuthorCollection()
+type ThreadedCommentAuthorCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ threadedcommentauthorcollection, _ := asposecells.NewThreadedCommentAuthorCollec
 | Method | Description |
 | --- | --- |
 |[NewThreadedCommentAuthorCollection](./newthreadedcommentauthorcollection/) | Default constructor. | 
-|[NewThreadedCommentAuthorCollection_ThreadedCommentAuthorCollection](./newthreadedcommentauthorcollection_threadedcommentauthorcollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

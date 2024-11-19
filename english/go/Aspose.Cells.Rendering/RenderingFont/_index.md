@@ -14,17 +14,16 @@ Font for rendering.
 
 ```go
 
-type RenderingFont struct 
-
-renderingfont, _ := asposecells.NewRenderingFont()
+type RenderingFont struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewRenderingFont_String_Float](./newrenderingfont_string_float/) | Initializes a new instance of the <see cref="RenderingFont"/> | 
-|[NewRenderingFont_RenderingFont](./newrenderingfont_renderingfont/) | Constructs from an implementation object. | 
+|[NewRenderingFont](./newrenderingfont/) | Initializes a new instance of the <see cref="RenderingFont"/> | 
 
 ## Methods
 

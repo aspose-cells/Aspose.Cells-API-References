@@ -14,16 +14,15 @@ Represents all text paragraph.
 
 ```go
 
-type TextParagraphCollection struct 
-
-textparagraphcollection, _ := asposecells.NewTextParagraphCollection()
+type TextParagraphCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewTextParagraphCollection](./newtextparagraphcollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

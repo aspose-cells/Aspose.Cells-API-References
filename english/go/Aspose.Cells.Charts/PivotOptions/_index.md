@@ -14,16 +14,15 @@ Represents a complex type that specifies the pivot controls that appear on the c
 
 ```go
 
-type PivotOptions struct 
-
-pivotoptions, _ := asposecells.NewPivotOptions()
+type PivotOptions struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewPivotOptions](./newpivotoptions/) | Constructs from an implementation object. | 
 
 ## Methods
 

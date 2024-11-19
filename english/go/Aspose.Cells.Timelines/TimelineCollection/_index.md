@@ -14,16 +14,15 @@ Specifies the collection of all the Timeline objects on the specified worksheet.
 
 ```go
 
-type TimelineCollection struct 
-
-timelinecollection, _ := asposecells.NewTimelineCollection()
+type TimelineCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewTimelineCollection](./newtimelinecollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

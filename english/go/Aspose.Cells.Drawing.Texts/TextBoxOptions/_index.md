@@ -14,16 +14,15 @@ Represents the text options of the shape
 
 ```go
 
-type TextBoxOptions struct 
-
-textboxoptions, _ := asposecells.NewTextBoxOptions()
+type TextBoxOptions struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewTextBoxOptions](./newtextboxoptions/) | Constructs from an implementation object. | 
 
 ## Methods
 

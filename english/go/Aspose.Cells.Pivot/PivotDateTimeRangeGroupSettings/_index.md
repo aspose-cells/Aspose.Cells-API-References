@@ -14,17 +14,16 @@ Represents the field grouped by date time range.
 
 ```go
 
-type PivotDateTimeRangeGroupSettings struct 
-
-pivotdatetimerangegroupsettings, _ := asposecells.NewPivotDateTimeRangeGroupSettings()
+type PivotDateTimeRangeGroupSettings struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewPivotDateTimeRangeGroupSettings_PivotDateTimeRangeGroupSettings](./newpivotdatetimerangegroupsettings_pivotdatetimerangegroupsettings/) | Constructs from an implementation object. | 
-|[NewPivotDateTimeRangeGroupSettings_PivotFieldGroupSettings](./newpivotdatetimerangegroupsettings_pivotfieldgroupsettings/) | Constructs from a parent object. | 
+|[NewPivotDateTimeRangeGroupSettings](./newpivotdatetimerangegroupsettings/) | Constructs from a parent object. | 
 
 ## Methods
 

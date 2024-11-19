@@ -14,16 +14,15 @@ Represents a PivotFilter in PivotFilter Collection.
 
 ```go
 
-type PivotFilter struct 
-
-pivotfilter, _ := asposecells.NewPivotFilter()
+type PivotFilter struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewPivotFilter](./newpivotfilter/) | Constructs from an implementation object. | 
 
 ## Methods
 

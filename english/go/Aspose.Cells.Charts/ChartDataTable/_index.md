@@ -14,16 +14,15 @@ Represents a chart data table.
 
 ```go
 
-type ChartDataTable struct 
-
-chartdatatable, _ := asposecells.NewChartDataTable()
+type ChartDataTable struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewChartDataTable](./newchartdatatable/) | Constructs from an implementation object. | 
 
 ## Methods
 

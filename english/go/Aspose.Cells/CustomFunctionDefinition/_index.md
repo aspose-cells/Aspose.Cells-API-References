@@ -14,9 +14,9 @@ Definition of custom function for calculating with user's custom engine.
 
 ```go
 
-type CustomFunctionDefinition struct 
-
-customfunctiondefinition, _ := asposecells.NewCustomFunctionDefinition()
+type CustomFunctionDefinition struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors

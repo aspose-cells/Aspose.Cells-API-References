@@ -14,17 +14,16 @@ This class specifies the Group-Character function, consisting of a character dra
 
 ```go
 
-type GroupCharacterEquationNode struct 
-
-groupcharacterequationnode, _ := asposecells.NewGroupCharacterEquationNode()
+type GroupCharacterEquationNode struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewGroupCharacterEquationNode_GroupCharacterEquationNode](./newgroupcharacterequationnode_groupcharacterequationnode/) | Constructs from an implementation object. | 
-|[NewGroupCharacterEquationNode_EquationNode](./newgroupcharacterequationnode_equationnode/) | Constructs from a parent object. | 
+|[NewGroupCharacterEquationNode](./newgroupcharacterequationnode/) | Constructs from a parent object. | 
 
 ## Methods
 

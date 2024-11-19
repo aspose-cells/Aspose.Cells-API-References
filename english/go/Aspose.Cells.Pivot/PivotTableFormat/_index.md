@@ -14,16 +14,15 @@ Represents the format defined in the PivotTable.
 
 ```go
 
-type PivotTableFormat struct 
-
-pivottableformat, _ := asposecells.NewPivotTableFormat()
+type PivotTableFormat struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewPivotTableFormat](./newpivottableformat/) | Constructs from an implementation object. | 
 
 ## Methods
 

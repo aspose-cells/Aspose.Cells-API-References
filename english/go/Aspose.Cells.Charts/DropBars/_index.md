@@ -14,16 +14,15 @@ Represents the up/down bars in a chart.
 
 ```go
 
-type DropBars struct 
-
-dropbars, _ := asposecells.NewDropBars()
+type DropBars struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewDropBars](./newdropbars/) | Constructs from an implementation object. | 
 
 ## Methods
 

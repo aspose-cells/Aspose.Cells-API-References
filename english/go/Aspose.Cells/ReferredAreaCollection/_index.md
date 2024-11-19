@@ -14,16 +14,15 @@ Represents all referred cells and areas.
 
 ```go
 
-type ReferredAreaCollection struct 
-
-referredareacollection, _ := asposecells.NewReferredAreaCollection()
+type ReferredAreaCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewReferredAreaCollection](./newreferredareacollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

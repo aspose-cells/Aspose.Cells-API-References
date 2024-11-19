@@ -14,17 +14,16 @@ Encapsulates a collection of all the DataLabel objects for the specified Series.
 
 ```go
 
-type DataLabels struct 
-
-datalabels, _ := asposecells.NewDataLabels()
+type DataLabels struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewDataLabels_DataLabels](./newdatalabels_datalabels/) | Constructs from an implementation object. | 
-|[NewDataLabels_ChartTextFrame](./newdatalabels_charttextframe/) | Constructs from a parent object. | 
+|[NewDataLabels](./newdatalabels/) | Constructs from a parent object. | 
 
 ## Methods
 

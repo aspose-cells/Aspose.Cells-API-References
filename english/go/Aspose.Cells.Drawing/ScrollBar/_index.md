@@ -14,17 +14,16 @@ Represents a scroll bar object.
 
 ```go
 
-type ScrollBar struct 
-
-scrollbar, _ := asposecells.NewScrollBar()
+type ScrollBar struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewScrollBar_ScrollBar](./newscrollbar_scrollbar/) | Constructs from an implementation object. | 
-|[NewScrollBar_Shape](./newscrollbar_shape/) | Constructs from a parent object. | 
+|[NewScrollBar](./newscrollbar/) | Constructs from a parent object. | 
 
 ## Methods
 

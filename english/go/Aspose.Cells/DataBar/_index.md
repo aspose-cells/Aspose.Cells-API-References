@@ -14,16 +14,15 @@ Describe the DataBar conditional formatting rule.This conditional formatting rul
 
 ```go
 
-type DataBar struct 
-
-databar, _ := asposecells.NewDataBar()
+type DataBar struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewDataBar](./newdatabar/) | Constructs from an implementation object. | 
 
 ## Methods
 

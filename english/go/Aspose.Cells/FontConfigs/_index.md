@@ -14,9 +14,9 @@ Specifies font settings
 
 ```go
 
-type FontConfigs struct 
-
-fontconfigs, _ := asposecells.NewFontConfigs()
+type FontConfigs struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ fontconfigs, _ := asposecells.NewFontConfigs()
 | Method | Description |
 | --- | --- |
 |[NewFontConfigs](./newfontconfigs/) | Default constructor. | 
-|[NewFontConfigs_FontConfigs](./newfontconfigs_fontconfigs/) | Constructs from an implementation object. | 
 
 ## Methods
 

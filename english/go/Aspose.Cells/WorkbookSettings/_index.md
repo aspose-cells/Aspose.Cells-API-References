@@ -14,16 +14,15 @@ Represents all settings of the workbook.
 
 ```go
 
-type WorkbookSettings struct 
-
-workbooksettings, _ := asposecells.NewWorkbookSettings()
+type WorkbookSettings struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewWorkbookSettings](./newworkbooksettings/) | Constructs from an implementation object. | 
 
 ## Methods
 

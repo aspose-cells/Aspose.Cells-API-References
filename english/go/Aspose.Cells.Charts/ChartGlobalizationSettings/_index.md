@@ -14,9 +14,9 @@ Represents the globalization settings for chart.
 
 ```go
 
-type ChartGlobalizationSettings struct 
-
-chartglobalizationsettings, _ := asposecells.NewChartGlobalizationSettings()
+type ChartGlobalizationSettings struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors

@@ -14,17 +14,16 @@ Represents a Workbook render.The constructor of this class , must be used after 
 
 ```go
 
-type WorkbookRender struct 
-
-workbookrender, _ := asposecells.NewWorkbookRender()
+type WorkbookRender struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewWorkbookRender_Workbook_ImageOrPrintOptions](./newworkbookrender_workbook_imageorprintoptions/) | The construct of WorkbookRender | 
-|[NewWorkbookRender_WorkbookRender](./newworkbookrender_workbookrender/) | Constructs from an implementation object. | 
+|[NewWorkbookRender](./newworkbookrender/) | The construct of WorkbookRender | 
 
 ## Methods
 

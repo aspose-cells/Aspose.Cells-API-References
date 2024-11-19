@@ -14,17 +14,16 @@ Specifies all properties associated with an ODBC or OLE DB external data connect
 
 ```go
 
-type DBConnection struct 
-
-dbconnection, _ := asposecells.NewDBConnection()
+type DBConnection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewDBConnection_DBConnection](./newdbconnection_dbconnection/) | Constructs from an implementation object. | 
-|[NewDBConnection_ExternalConnection](./newdbconnection_externalconnection/) | Constructs from a parent object. | 
+|[NewDBConnection](./newdbconnection/) | Constructs from a parent object. | 
 
 ## Methods
 

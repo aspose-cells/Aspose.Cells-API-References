@@ -14,9 +14,9 @@ Object class.
 
 ```go
 
-type Object struct 
-
-object, _ := asposecells.NewObject()
+type Object struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -33,7 +33,6 @@ object, _ := asposecells.NewObject()
 |[NewObject_Color](./newobject_color/) | Constructs from a Color value. | 
 |[NewObject_String](./newobject_string/) | Constructs from U16String value. | 
 |[NewObject_Range](./newobject_range/) | Constructs from a Range value. | 
-|[NewObject_Object](./newobject_object/) | Copy constructor. | 
 
 ## Methods
 

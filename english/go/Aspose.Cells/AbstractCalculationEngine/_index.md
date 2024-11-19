@@ -14,9 +14,9 @@ Represents user's custom calculation engine to extend the default calculation en
 
 ```go
 
-type AbstractCalculationEngine struct 
-
-abstractcalculationengine, _ := asposecells.NewAbstractCalculationEngine()
+type AbstractCalculationEngine struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors

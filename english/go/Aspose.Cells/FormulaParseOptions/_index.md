@@ -14,9 +14,9 @@ Represents options when parsing formula.
 
 ```go
 
-type FormulaParseOptions struct 
-
-formulaparseoptions, _ := asposecells.NewFormulaParseOptions()
+type FormulaParseOptions struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ formulaparseoptions, _ := asposecells.NewFormulaParseOptions()
 | Method | Description |
 | --- | --- |
 |[NewFormulaParseOptions](./newformulaparseoptions/) | Default constructor. | 
-|[NewFormulaParseOptions_FormulaParseOptions](./newformulaparseoptions_formulaparseoptions/) | Constructs from an implementation object. | 
 
 ## Methods
 

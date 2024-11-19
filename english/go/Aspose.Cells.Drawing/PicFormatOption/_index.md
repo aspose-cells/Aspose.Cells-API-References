@@ -14,9 +14,9 @@ Represents picture format option
 
 ```go
 
-type PicFormatOption struct 
-
-picformatoption, _ := asposecells.NewPicFormatOption()
+type PicFormatOption struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ picformatoption, _ := asposecells.NewPicFormatOption()
 | Method | Description |
 | --- | --- |
 |[NewPicFormatOption](./newpicformatoption/) | Default constructor. | 
-|[NewPicFormatOption_PicFormatOption](./newpicformatoption_picformatoption/) | Constructs from an implementation object. | 
 
 ## Methods
 

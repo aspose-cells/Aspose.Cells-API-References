@@ -14,9 +14,9 @@ Represents the utility class of processing json.
 
 ```go
 
-type JsonUtility struct 
-
-jsonutility, _ := asposecells.NewJsonUtility()
+type JsonUtility struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ jsonutility, _ := asposecells.NewJsonUtility()
 | Method | Description |
 | --- | --- |
 |[NewJsonUtility](./newjsonutility/) | Default constructor. | 
-|[NewJsonUtility_JsonUtility](./newjsonutility_jsonutility/) | Constructs from an implementation object. | 
 
 ## Methods
 

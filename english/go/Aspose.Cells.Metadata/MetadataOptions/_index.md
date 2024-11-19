@@ -14,17 +14,16 @@ Represents the options of loading metadata of the file.
 
 ```go
 
-type MetadataOptions struct 
-
-metadataoptions, _ := asposecells.NewMetadataOptions()
+type MetadataOptions struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewMetadataOptions_MetadataType](./newmetadataoptions_metadatatype/) | Creates an options of loading the metadata. | 
-|[NewMetadataOptions_MetadataOptions](./newmetadataoptions_metadataoptions/) | Constructs from an implementation object. | 
+|[NewMetadataOptions](./newmetadataoptions/) | Creates an options of loading the metadata. | 
 
 ## Methods
 

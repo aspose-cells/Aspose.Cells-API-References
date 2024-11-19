@@ -14,16 +14,15 @@ DrawObject will be initialized and returned when rendering.
 
 ```go
 
-type DrawObject struct 
-
-drawobject, _ := asposecells.NewDrawObject()
+type DrawObject struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewDrawObject](./newdrawobject/) | Constructs from an implementation object. | 
 
 ## Methods
 

@@ -14,9 +14,9 @@ Implementation of GlobalizationSettings that supports user to set/change pre-def
 
 ```go
 
-type SettableGlobalizationSettings struct 
-
-settableglobalizationsettings, _ := asposecells.NewSettableGlobalizationSettings()
+type SettableGlobalizationSettings struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ settableglobalizationsettings, _ := asposecells.NewSettableGlobalizationSettings
 | Method | Description |
 | --- | --- |
 |[NewSettableGlobalizationSettings](./newsettableglobalizationsettings/) | Default constructor. | 
-|[NewSettableGlobalizationSettings_SettableGlobalizationSettings](./newsettableglobalizationsettings_settableglobalizationsettings/) | Constructs from an implementation object. | 
 
 ## Methods
 

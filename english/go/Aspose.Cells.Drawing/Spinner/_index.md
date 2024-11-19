@@ -14,17 +14,16 @@ Represents the Forms control: Spinner.
 
 ```go
 
-type Spinner struct 
-
-spinner, _ := asposecells.NewSpinner()
+type Spinner struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewSpinner_Spinner](./newspinner_spinner/) | Constructs from an implementation object. | 
-|[NewSpinner_Shape](./newspinner_shape/) | Constructs from a parent object. | 
+|[NewSpinner](./newspinner/) | Constructs from a parent object. | 
 
 ## Methods
 

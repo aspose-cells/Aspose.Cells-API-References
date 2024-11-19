@@ -14,16 +14,15 @@ Represents all <see cref="SmartTagCollection"/> object in the worksheet.
 
 ```go
 
-type SmartTagSetting struct 
-
-smarttagsetting, _ := asposecells.NewSmartTagSetting()
+type SmartTagSetting struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewSmartTagSetting](./newsmarttagsetting/) | Constructs from an implementation object. | 
 
 ## Methods
 

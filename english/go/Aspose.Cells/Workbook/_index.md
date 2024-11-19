@@ -14,9 +14,9 @@ Represents a root object to create an Excel spreadsheet.
 
 ```go
 
-type Workbook struct 
-
-workbook, _ := asposecells.NewWorkbook()
+type Workbook struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -27,7 +27,6 @@ workbook, _ := asposecells.NewWorkbook()
 |[NewWorkbook_FileFormatType](./newworkbook_fileformattype/) | Initializes a new instance of the <see cref="Workbook"/> class. | 
 |[NewWorkbook_String](./newworkbook_string/) | Initializes a new instance of the <see cref="Workbook"/> class and open a file. | 
 |[NewWorkbook_String_LoadOptions](./newworkbook_string_loadoptions/) | Initializes a new instance of the <see cref="Workbook"/> class and open a file. | 
-|[NewWorkbook_Workbook](./newworkbook_workbook/) | Constructs from an implementation object. | 
 
 ## Methods
 

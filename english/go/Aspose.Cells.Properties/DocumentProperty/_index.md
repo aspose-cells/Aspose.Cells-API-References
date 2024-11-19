@@ -14,16 +14,15 @@ Represents a custom or built-in document property.
 
 ```go
 
-type DocumentProperty struct 
-
-documentproperty, _ := asposecells.NewDocumentProperty()
+type DocumentProperty struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewDocumentProperty](./newdocumentproperty/) | Constructs from an implementation object. | 
 
 ## Methods
 

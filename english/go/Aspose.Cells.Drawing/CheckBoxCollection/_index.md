@@ -14,16 +14,15 @@ Represents a collection of <see cref="CheckBox"/> objects in a worksheet.
 
 ```go
 
-type CheckBoxCollection struct 
-
-checkboxcollection, _ := asposecells.NewCheckBoxCollection()
+type CheckBoxCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewCheckBoxCollection](./newcheckboxcollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

@@ -14,16 +14,15 @@ Represents the picture format.
 
 ```go
 
-type MsoFormatPicture struct 
-
-msoformatpicture, _ := asposecells.NewMsoFormatPicture()
+type MsoFormatPicture struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewMsoFormatPicture](./newmsoformatpicture/) | Constructs from an implementation object. | 
 
 ## Methods
 

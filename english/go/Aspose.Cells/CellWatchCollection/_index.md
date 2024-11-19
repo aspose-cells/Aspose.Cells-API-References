@@ -14,9 +14,9 @@ Represents the collection of cells on this worksheet being watched in the 'watch
 
 ```go
 
-type CellWatchCollection struct 
-
-cellwatchcollection, _ := asposecells.NewCellWatchCollection()
+type CellWatchCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ cellwatchcollection, _ := asposecells.NewCellWatchCollection()
 | Method | Description |
 | --- | --- |
 |[NewCellWatchCollection](./newcellwatchcollection/) | Default constructor. | 
-|[NewCellWatchCollection_CellWatchCollection](./newcellwatchcollection_cellwatchcollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

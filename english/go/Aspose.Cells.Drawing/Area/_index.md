@@ -14,16 +14,15 @@ Encapsulates the object that represents an area format.
 
 ```go
 
-type Area struct 
-
-area, _ := asposecells.NewArea()
+type Area struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewArea](./newarea/) | Constructs from an implementation object. | 
 
 ## Methods
 

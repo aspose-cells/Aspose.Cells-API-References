@@ -14,16 +14,15 @@ Represents display style of excel document,such as font,color,alignment,border,e
 
 ```go
 
-type Style struct 
-
-style, _ := asposecells.NewStyle()
+type Style struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewStyle](./newstyle/) | Constructs from an implementation object. | 
 
 ## Methods
 

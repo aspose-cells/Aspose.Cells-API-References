@@ -14,17 +14,16 @@ Represents options of highlighting revsions or changes of shared Excel files.
 
 ```go
 
-type HighlightChangesOptions struct 
-
-highlightchangesoptions, _ := asposecells.NewHighlightChangesOptions()
+type HighlightChangesOptions struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewHighlightChangesOptions_Bool_Bool](./newhighlightchangesoptions_bool_bool/) | Represents options of highlighting revsions or changes of shared Excel files. | 
-|[NewHighlightChangesOptions_HighlightChangesOptions](./newhighlightchangesoptions_highlightchangesoptions/) | Constructs from an implementation object. | 
+|[NewHighlightChangesOptions](./newhighlightchangesoptions/) | Represents options of highlighting revsions or changes of shared Excel files. | 
 
 ## Methods
 

@@ -14,17 +14,16 @@ Represents a revision record which indicates that there was a merge conflict.
 
 ```go
 
-type RevisionMergeConflict struct 
-
-revisionmergeconflict, _ := asposecells.NewRevisionMergeConflict()
+type RevisionMergeConflict struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewRevisionMergeConflict_RevisionMergeConflict](./newrevisionmergeconflict_revisionmergeconflict/) | Constructs from an implementation object. | 
-|[NewRevisionMergeConflict_Revision](./newrevisionmergeconflict_revision/) | Constructs from a parent object. | 
+|[NewRevisionMergeConflict](./newrevisionmergeconflict/) | Constructs from a parent object. | 
 
 ## Methods
 

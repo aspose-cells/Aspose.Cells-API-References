@@ -14,9 +14,9 @@ Represents the globalization settings.
 
 ```go
 
-type GlobalizationSettings struct 
-
-globalizationsettings, _ := asposecells.NewGlobalizationSettings()
+type GlobalizationSettings struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors

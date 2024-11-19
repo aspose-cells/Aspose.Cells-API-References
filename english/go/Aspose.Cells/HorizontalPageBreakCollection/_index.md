@@ -14,16 +14,15 @@ Encapsulates a collection of <see cref="HorizontalPageBreak"/> objects.
 
 ```go
 
-type HorizontalPageBreakCollection struct 
-
-horizontalpagebreakcollection, _ := asposecells.NewHorizontalPageBreakCollection()
+type HorizontalPageBreakCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewHorizontalPageBreakCollection](./newhorizontalpagebreakcollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

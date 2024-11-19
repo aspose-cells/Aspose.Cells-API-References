@@ -14,16 +14,15 @@ Encapsulates the object that represents a vertical page break.
 
 ```go
 
-type VerticalPageBreak struct 
-
-verticalpagebreak, _ := asposecells.NewVerticalPageBreak()
+type VerticalPageBreak struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewVerticalPageBreak](./newverticalpagebreak/) | Constructs from an implementation object. | 
 
 ## Methods
 

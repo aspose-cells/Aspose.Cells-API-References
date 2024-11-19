@@ -14,9 +14,9 @@ Utility for instantiating classes of Cells model.
 
 ```go
 
-type CellsFactory struct 
-
-cellsfactory, _ := asposecells.NewCellsFactory()
+type CellsFactory struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ cellsfactory, _ := asposecells.NewCellsFactory()
 | Method | Description |
 | --- | --- |
 |[NewCellsFactory](./newcellsfactory/) | Default constructor. | 
-|[NewCellsFactory_CellsFactory](./newcellsfactory_cellsfactory/) | Constructs from an implementation object. | 
 
 ## Methods
 

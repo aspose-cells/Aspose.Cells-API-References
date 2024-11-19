@@ -14,17 +14,16 @@ Represents the text options.
 
 ```go
 
-type TextOptions struct 
-
-textoptions, _ := asposecells.NewTextOptions()
+type TextOptions struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewTextOptions_TextOptions](./newtextoptions_textoptions/) | Constructs from an implementation object. | 
-|[NewTextOptions_Font](./newtextoptions_font/) | Constructs from a parent object. | 
+|[NewTextOptions](./newtextoptions/) | Constructs from a parent object. | 
 
 ## Methods
 

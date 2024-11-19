@@ -14,9 +14,9 @@ Represents the options for saving html file.
 
 ```go
 
-type HtmlSaveOptions struct 
-
-htmlsaveoptions, _ := asposecells.NewHtmlSaveOptions()
+type HtmlSaveOptions struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -25,7 +25,6 @@ htmlsaveoptions, _ := asposecells.NewHtmlSaveOptions()
 | --- | --- |
 |[NewHtmlSaveOptions](./newhtmlsaveoptions/) | Creates options for saving html file. | 
 |[NewHtmlSaveOptions_SaveFormat](./newhtmlsaveoptions_saveformat/) | Creates options for saving htm file. | 
-|[NewHtmlSaveOptions_HtmlSaveOptions](./newhtmlsaveoptions_htmlsaveoptions/) | Constructs from an implementation object. | 
 |[NewHtmlSaveOptions_SaveOptions](./newhtmlsaveoptions_saveoptions/) | Constructs from a parent object. | 
 
 ## Methods

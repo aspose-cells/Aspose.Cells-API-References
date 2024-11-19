@@ -14,16 +14,15 @@ A specified range to be allowed to edit when the sheet protection is ON.
 
 ```go
 
-type ProtectedRange struct 
-
-protectedrange, _ := asposecells.NewProtectedRange()
+type ProtectedRange struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewProtectedRange](./newprotectedrange/) | Constructs from an implementation object. | 
 
 ## Methods
 

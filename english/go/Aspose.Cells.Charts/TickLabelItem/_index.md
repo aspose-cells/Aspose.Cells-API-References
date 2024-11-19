@@ -14,16 +14,15 @@ Represents a tick label in the chart.
 
 ```go
 
-type TickLabelItem struct 
-
-ticklabelitem, _ := asposecells.NewTickLabelItem()
+type TickLabelItem struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewTickLabelItem](./newticklabelitem/) | Constructs from an implementation object. | 
 
 ## Methods
 

@@ -14,16 +14,15 @@ url: /go/aspose.cells.charts/sparklinegroup/
 
 ```go
 
-type SparklineGroup struct 
-
-sparklinegroup, _ := asposecells.NewSparklineGroup()
+type SparklineGroup struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewSparklineGroup](./newsparklinegroup/) | Constructs from an implementation object. | 
 
 ## Methods
 

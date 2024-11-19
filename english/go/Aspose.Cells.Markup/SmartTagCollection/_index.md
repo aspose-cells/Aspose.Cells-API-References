@@ -14,16 +14,15 @@ Represents all smart tags in the cell.
 
 ```go
 
-type SmartTagCollection struct 
-
-smarttagcollection, _ := asposecells.NewSmartTagCollection()
+type SmartTagCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewSmartTagCollection](./newsmarttagcollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

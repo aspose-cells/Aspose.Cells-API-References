@@ -14,16 +14,15 @@ Represents QueryTable information.
 
 ```go
 
-type QueryTable struct 
-
-querytable, _ := asposecells.NewQueryTable()
+type QueryTable struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewQueryTable](./newquerytable/) | Constructs from an implementation object. | 
 
 ## Methods
 

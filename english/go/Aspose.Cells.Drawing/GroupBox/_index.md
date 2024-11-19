@@ -14,17 +14,16 @@ Encapsulates the object that represents a groupbox in a spreadsheet.
 
 ```go
 
-type GroupBox struct 
-
-groupbox, _ := asposecells.NewGroupBox()
+type GroupBox struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewGroupBox_GroupBox](./newgroupbox_groupbox/) | Constructs from an implementation object. | 
-|[NewGroupBox_Shape](./newgroupbox_shape/) | Constructs from a parent object. | 
+|[NewGroupBox](./newgroupbox/) | Constructs from a parent object. | 
 
 ## Methods
 

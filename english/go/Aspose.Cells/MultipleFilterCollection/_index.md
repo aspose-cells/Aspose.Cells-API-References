@@ -14,9 +14,9 @@ Represents the multiple filter collection.
 
 ```go
 
-type MultipleFilterCollection struct 
-
-multiplefiltercollection, _ := asposecells.NewMultipleFilterCollection()
+type MultipleFilterCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ multiplefiltercollection, _ := asposecells.NewMultipleFilterCollection()
 | Method | Description |
 | --- | --- |
 |[NewMultipleFilterCollection](./newmultiplefiltercollection/) | Constructs one new instance. | 
-|[NewMultipleFilterCollection_MultipleFilterCollection](./newmultiplefiltercollection_multiplefiltercollection/) | Constructs from an implementation object. | 
 |[NewMultipleFilterCollection_Object](./newmultiplefiltercollection_object/) | Constructs from an Object convertible to this. | 
 
 ## Methods

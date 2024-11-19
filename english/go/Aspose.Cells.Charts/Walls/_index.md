@@ -14,17 +14,16 @@ Encapsulates the object that represents the walls of a 3-D chart.
 
 ```go
 
-type Walls struct 
-
-walls, _ := asposecells.NewWalls()
+type Walls struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewWalls_Walls](./newwalls_walls/) | Constructs from an implementation object. | 
-|[NewWalls_Floor](./newwalls_floor/) | Constructs from a parent object. | 
+|[NewWalls](./newwalls/) | Constructs from a parent object. | 
 
 ## Methods
 

@@ -14,16 +14,15 @@ Represents properties of a single table in spreadsheet data model.
 
 ```go
 
-type DataModelTable struct 
-
-datamodeltable, _ := asposecells.NewDataModelTable()
+type DataModelTable struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewDataModelTable](./newdatamodeltable/) | Constructs from an implementation object. | 
 
 ## Methods
 

@@ -14,17 +14,16 @@ This class specifies the box function, which is used to group components of an e
 
 ```go
 
-type BoxEquationNode struct 
-
-boxequationnode, _ := asposecells.NewBoxEquationNode()
+type BoxEquationNode struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewBoxEquationNode_BoxEquationNode](./newboxequationnode_boxequationnode/) | Constructs from an implementation object. | 
-|[NewBoxEquationNode_EquationNode](./newboxequationnode_equationnode/) | Constructs from a parent object. | 
+|[NewBoxEquationNode](./newboxequationnode/) | Constructs from a parent object. | 
 
 ## Methods
 

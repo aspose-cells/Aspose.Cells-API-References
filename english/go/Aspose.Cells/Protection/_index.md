@@ -14,16 +14,15 @@ Represents the various types of protection options available for a worksheet.
 
 ```go
 
-type Protection struct 
-
-protection, _ := asposecells.NewProtection()
+type Protection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewProtection](./newprotection/) | Constructs from an implementation object. | 
 
 ## Methods
 

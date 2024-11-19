@@ -14,17 +14,16 @@ Represents the shape of the chart.Properties and methods for the ChartObject obj
 
 ```go
 
-type ChartShape struct 
-
-chartshape, _ := asposecells.NewChartShape()
+type ChartShape struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewChartShape_ChartShape](./newchartshape_chartshape/) | Constructs from an implementation object. | 
-|[NewChartShape_Shape](./newchartshape_shape/) | Constructs from a parent object. | 
+|[NewChartShape](./newchartshape/) | Constructs from a parent object. | 
 
 ## Methods
 

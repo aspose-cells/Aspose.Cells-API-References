@@ -14,17 +14,16 @@ Represents the Forms control: Button
 
 ```go
 
-type Button struct 
-
-button, _ := asposecells.NewButton()
+type Button struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewButton_Button](./newbutton_button/) | Constructs from an implementation object. | 
-|[NewButton_Shape](./newbutton_shape/) | Constructs from a parent object. | 
+|[NewButton](./newbutton/) | Constructs from a parent object. | 
 
 ## Methods
 

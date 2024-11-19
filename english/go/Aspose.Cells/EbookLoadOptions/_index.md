@@ -14,9 +14,9 @@ Represents options when importing an ebook file.
 
 ```go
 
-type EbookLoadOptions struct 
-
-ebookloadoptions, _ := asposecells.NewEbookLoadOptions()
+type EbookLoadOptions struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -25,7 +25,6 @@ ebookloadoptions, _ := asposecells.NewEbookLoadOptions()
 | --- | --- |
 |[NewEbookLoadOptions](./newebookloadoptions/) | Creates an options of loading the ebook file. | 
 |[NewEbookLoadOptions_LoadFormat](./newebookloadoptions_loadformat/) | Creates an options of loading the ebook file. | 
-|[NewEbookLoadOptions_EbookLoadOptions](./newebookloadoptions_ebookloadoptions/) | Constructs from an implementation object. | 
 |[NewEbookLoadOptions_HtmlLoadOptions](./newebookloadoptions_htmlloadoptions/) | Constructs from a parent object. | 
 
 ## Methods

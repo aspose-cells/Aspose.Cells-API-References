@@ -14,9 +14,9 @@ Represents the filter that provides options for loading data when loading workbo
 
 ```go
 
-type LoadFilter struct 
-
-loadfilter, _ := asposecells.NewLoadFilter()
+type LoadFilter struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors

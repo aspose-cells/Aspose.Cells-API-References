@@ -14,16 +14,15 @@ Represents a legend entry in a chart legend.
 
 ```go
 
-type LegendEntry struct 
-
-legendentry, _ := asposecells.NewLegendEntry()
+type LegendEntry struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewLegendEntry](./newlegendentry/) | Constructs from an implementation object. | 
 
 ## Methods
 

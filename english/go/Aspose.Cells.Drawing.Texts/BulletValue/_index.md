@@ -14,16 +14,15 @@ Represents the value of the bullet.
 
 ```go
 
-type BulletValue struct 
-
-bulletvalue, _ := asposecells.NewBulletValue()
+type BulletValue struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewBulletValue](./newbulletvalue/) | Constructs from an implementation object. | 
 
 ## Methods
 

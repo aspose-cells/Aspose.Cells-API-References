@@ -14,17 +14,16 @@ Represents a range of characters within the cell text.
 
 ```go
 
-type FontSetting struct 
-
-fontsetting, _ := asposecells.NewFontSetting()
+type FontSetting struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewFontSetting_Int_Int_WorksheetCollection](./newfontsetting_int_int_worksheetcollection/) |  | 
-|[NewFontSetting_FontSetting](./newfontsetting_fontsetting/) | Constructs from an implementation object. | 
+|[NewFontSetting](./newfontsetting/) |  | 
 
 ## Methods
 

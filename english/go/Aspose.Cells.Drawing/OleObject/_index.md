@@ -14,17 +14,16 @@ Represents an OleObject in a worksheet.
 
 ```go
 
-type OleObject struct 
-
-oleobject, _ := asposecells.NewOleObject()
+type OleObject struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewOleObject_OleObject](./newoleobject_oleobject/) | Constructs from an implementation object. | 
-|[NewOleObject_Shape](./newoleobject_shape/) | Constructs from a parent object. | 
+|[NewOleObject](./newoleobject/) | Constructs from a parent object. | 
 
 ## Methods
 

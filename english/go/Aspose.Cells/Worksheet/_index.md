@@ -14,16 +14,15 @@ Encapsulates the object that represents a single worksheet.
 
 ```go
 
-type Worksheet struct 
-
-worksheet, _ := asposecells.NewWorksheet()
+type Worksheet struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewWorksheet](./newworksheet/) | Constructs from an implementation object. | 
 
 ## Methods
 

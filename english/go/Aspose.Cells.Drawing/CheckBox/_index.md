@@ -14,17 +14,16 @@ Represents a check box object in a worksheet.
 
 ```go
 
-type CheckBox struct 
-
-checkbox, _ := asposecells.NewCheckBox()
+type CheckBox struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewCheckBox_CheckBox](./newcheckbox_checkbox/) | Constructs from an implementation object. | 
-|[NewCheckBox_Shape](./newcheckbox_shape/) | Constructs from a parent object. | 
+|[NewCheckBox](./newcheckbox/) | Constructs from a parent object. | 
 
 ## Methods
 

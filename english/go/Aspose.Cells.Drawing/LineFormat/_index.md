@@ -14,17 +14,16 @@ Represents all setting of the line.
 
 ```go
 
-type LineFormat struct 
-
-lineformat, _ := asposecells.NewLineFormat()
+type LineFormat struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewLineFormat_LineFormat](./newlineformat_lineformat/) | Constructs from an implementation object. | 
-|[NewLineFormat_FillFormat](./newlineformat_fillformat/) | Constructs from a parent object. | 
+|[NewLineFormat](./newlineformat/) | Constructs from a parent object. | 
 
 ## Methods
 

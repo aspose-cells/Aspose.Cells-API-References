@@ -14,9 +14,9 @@ Represents the options for saving Pcl file.
 
 ```go
 
-type PclSaveOptions struct 
-
-pclsaveoptions, _ := asposecells.NewPclSaveOptions()
+type PclSaveOptions struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ pclsaveoptions, _ := asposecells.NewPclSaveOptions()
 | Method | Description |
 | --- | --- |
 |[NewPclSaveOptions](./newpclsaveoptions/) | Creates the options for saving pdf file. | 
-|[NewPclSaveOptions_PclSaveOptions](./newpclsaveoptions_pclsaveoptions/) | Constructs from an implementation object. | 
 |[NewPclSaveOptions_PaginatedSaveOptions](./newpclsaveoptions_paginatedsaveoptions/) | Constructs from a parent object. | 
 
 ## Methods

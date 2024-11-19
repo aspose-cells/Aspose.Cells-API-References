@@ -14,16 +14,15 @@ Represents embedded OLE objects.
 
 ```go
 
-type OleObjectCollection struct 
-
-oleobjectcollection, _ := asposecells.NewOleObjectCollection()
+type OleObjectCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewOleObjectCollection](./newoleobjectcollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

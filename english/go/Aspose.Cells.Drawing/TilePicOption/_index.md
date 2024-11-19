@@ -14,9 +14,9 @@ Represents tile picture as texture.
 
 ```go
 
-type TilePicOption struct 
-
-tilepicoption, _ := asposecells.NewTilePicOption()
+type TilePicOption struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ tilepicoption, _ := asposecells.NewTilePicOption()
 | Method | Description |
 | --- | --- |
 |[NewTilePicOption](./newtilepicoption/) | Default constructor. | 
-|[NewTilePicOption_TilePicOption](./newtilepicoption_tilepicoption/) | Constructs from an implementation object. | 
 
 ## Methods
 

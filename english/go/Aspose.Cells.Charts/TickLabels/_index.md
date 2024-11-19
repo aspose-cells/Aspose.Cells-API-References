@@ -14,16 +14,15 @@ Represents the tick-mark labels associated with tick marks on a chart axis.
 
 ```go
 
-type TickLabels struct 
-
-ticklabels, _ := asposecells.NewTickLabels()
+type TickLabels struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewTickLabels](./newticklabels/) | Constructs from an implementation object. | 
 
 ## Methods
 

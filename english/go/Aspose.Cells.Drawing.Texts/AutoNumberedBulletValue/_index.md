@@ -14,9 +14,9 @@ Represents automatic numbered bullet.
 
 ```go
 
-type AutoNumberedBulletValue struct 
-
-autonumberedbulletvalue, _ := asposecells.NewAutoNumberedBulletValue()
+type AutoNumberedBulletValue struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ autonumberedbulletvalue, _ := asposecells.NewAutoNumberedBulletValue()
 | Method | Description |
 | --- | --- |
 |[NewAutoNumberedBulletValue](./newautonumberedbulletvalue/) | Default constructor. | 
-|[NewAutoNumberedBulletValue_AutoNumberedBulletValue](./newautonumberedbulletvalue_autonumberedbulletvalue/) | Constructs from an implementation object. | 
 |[NewAutoNumberedBulletValue_BulletValue](./newautonumberedbulletvalue_bulletvalue/) | Constructs from a parent object. | 
 
 ## Methods

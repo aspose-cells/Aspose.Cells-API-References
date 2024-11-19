@@ -14,16 +14,15 @@ Encapsulates a collection of <see cref="ProtectedRange"/> objects.
 
 ```go
 
-type ProtectedRangeCollection struct 
-
-protectedrangecollection, _ := asposecells.NewProtectedRangeCollection()
+type ProtectedRangeCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewProtectedRangeCollection](./newprotectedrangecollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

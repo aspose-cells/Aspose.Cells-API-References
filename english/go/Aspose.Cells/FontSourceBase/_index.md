@@ -14,16 +14,15 @@ This is an abstract base class for the classes that allow the user to specify va
 
 ```go
 
-type FontSourceBase struct 
-
-fontsourcebase, _ := asposecells.NewFontSourceBase()
+type FontSourceBase struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewFontSourceBase](./newfontsourcebase/) | Constructs from an implementation object. | 
 
 ## Methods
 

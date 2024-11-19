@@ -14,9 +14,9 @@ Represents the options of loading the file.
 
 ```go
 
-type LoadOptions struct 
-
-loadoptions, _ := asposecells.NewLoadOptions()
+type LoadOptions struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -25,7 +25,6 @@ loadoptions, _ := asposecells.NewLoadOptions()
 | --- | --- |
 |[NewLoadOptions](./newloadoptions/) | Creates an options of loading the file. | 
 |[NewLoadOptions_LoadFormat](./newloadoptions_loadformat/) | Creates an options of loading the file. | 
-|[NewLoadOptions_LoadOptions](./newloadoptions_loadoptions/) | Constructs from an implementation object. | 
 
 ## Methods
 

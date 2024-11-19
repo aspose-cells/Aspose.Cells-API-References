@@ -14,9 +14,9 @@ Represent the signature line.
 
 ```go
 
-type SignatureLine struct 
-
-signatureline, _ := asposecells.NewSignatureLine()
+type SignatureLine struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ signatureline, _ := asposecells.NewSignatureLine()
 | Method | Description |
 | --- | --- |
 |[NewSignatureLine](./newsignatureline/) | Default constructor. | 
-|[NewSignatureLine_SignatureLine](./newsignatureline_signatureline/) | Constructs from an implementation object. | 
 
 ## Methods
 

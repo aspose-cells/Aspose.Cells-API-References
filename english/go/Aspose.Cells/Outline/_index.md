@@ -14,16 +14,15 @@ Represents an outline on a worksheet.
 
 ```go
 
-type Outline struct 
-
-outline, _ := asposecells.NewOutline()
+type Outline struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewOutline](./newoutline/) | Constructs from an implementation object. | 
 
 ## Methods
 

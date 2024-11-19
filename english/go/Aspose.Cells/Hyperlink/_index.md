@@ -14,16 +14,15 @@ Encapsulates the object that represents a hyperlink.
 
 ```go
 
-type Hyperlink struct 
-
-hyperlink, _ := asposecells.NewHyperlink()
+type Hyperlink struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewHyperlink](./newhyperlink/) | Constructs from an implementation object. | 
 
 ## Methods
 

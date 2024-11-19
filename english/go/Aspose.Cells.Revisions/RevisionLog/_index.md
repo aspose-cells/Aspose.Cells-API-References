@@ -14,16 +14,15 @@ Represents the revision log.
 
 ```go
 
-type RevisionLog struct 
-
-revisionlog, _ := asposecells.NewRevisionLog()
+type RevisionLog struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewRevisionLog](./newrevisionlog/) | Constructs from an implementation object. | 
 
 ## Methods
 

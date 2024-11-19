@@ -14,16 +14,15 @@ Represents the command of header/footer
 
 ```go
 
-type HeaderFooterCommand struct 
-
-headerfootercommand, _ := asposecells.NewHeaderFooterCommand()
+type HeaderFooterCommand struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewHeaderFooterCommand](./newheaderfootercommand/) | Constructs from an implementation object. | 
 
 ## Methods
 

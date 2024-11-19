@@ -14,17 +14,16 @@ This class specifies the limit function.
 
 ```go
 
-type LimLowUppEquationNode struct 
-
-limlowuppequationnode, _ := asposecells.NewLimLowUppEquationNode()
+type LimLowUppEquationNode struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewLimLowUppEquationNode_LimLowUppEquationNode](./newlimlowuppequationnode_limlowuppequationnode/) | Constructs from an implementation object. | 
-|[NewLimLowUppEquationNode_EquationNode](./newlimlowuppequationnode_equationnode/) | Constructs from a parent object. | 
+|[NewLimLowUppEquationNode](./newlimlowuppequationnode/) | Constructs from a parent object. | 
 
 ## Methods
 

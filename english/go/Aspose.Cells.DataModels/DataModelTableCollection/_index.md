@@ -14,16 +14,15 @@ Represents the list of the data model table.
 
 ```go
 
-type DataModelTableCollection struct 
-
-datamodeltablecollection, _ := asposecells.NewDataModelTableCollection()
+type DataModelTableCollection struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewDataModelTableCollection](./newdatamodeltablecollection/) | Constructs from an implementation object. | 
 
 ## Methods
 

@@ -14,17 +14,16 @@ This class specifies the delimiter equation, consisting of opening and closing d
 
 ```go
 
-type DelimiterEquationNode struct 
-
-delimiterequationnode, _ := asposecells.NewDelimiterEquationNode()
+type DelimiterEquationNode struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewDelimiterEquationNode_DelimiterEquationNode](./newdelimiterequationnode_delimiterequationnode/) | Constructs from an implementation object. | 
-|[NewDelimiterEquationNode_EquationNode](./newdelimiterequationnode_equationnode/) | Constructs from a parent object. | 
+|[NewDelimiterEquationNode](./newdelimiterequationnode/) | Constructs from a parent object. | 
 
 ## Methods
 

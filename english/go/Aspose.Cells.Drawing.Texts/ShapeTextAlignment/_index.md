@@ -14,16 +14,15 @@ Represents the setting of shape's text alignment;
 
 ```go
 
-type ShapeTextAlignment struct 
-
-shapetextalignment, _ := asposecells.NewShapeTextAlignment()
+type ShapeTextAlignment struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewShapeTextAlignment](./newshapetextalignment/) | Constructs from an implementation object. | 
 
 ## Methods
 

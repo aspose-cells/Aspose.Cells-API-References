@@ -14,16 +14,15 @@ Represents line and arrowhead formatting.
 
 ```go
 
-type MsoLineFormat struct 
-
-msolineformat, _ := asposecells.NewMsoLineFormat()
+type MsoLineFormat struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
 
 | Method | Description |
 | --- | --- |
-|[NewMsoLineFormat](./newmsolineformat/) | Constructs from an implementation object. | 
 
 ## Methods
 

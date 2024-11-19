@@ -14,9 +14,9 @@ Represents the options of loading json files
 
 ```go
 
-type JsonLoadOptions struct 
-
-jsonloadoptions, _ := asposecells.NewJsonLoadOptions()
+type JsonLoadOptions struct  {
+	ptr unsafe.Pointer
+}
 
 ```
 ## Constructors
@@ -24,7 +24,6 @@ jsonloadoptions, _ := asposecells.NewJsonLoadOptions()
 | Method | Description |
 | --- | --- |
 |[NewJsonLoadOptions](./newjsonloadoptions/) | Creates an options of loading the file. | 
-|[NewJsonLoadOptions_JsonLoadOptions](./newjsonloadoptions_jsonloadoptions/) | Constructs from an implementation object. | 
 |[NewJsonLoadOptions_LoadOptions](./newjsonloadoptions_loadoptions/) | Constructs from a parent object. | 
 
 ## Methods
