@@ -1,0 +1,28 @@
+---
+title: SetCalculationMode Method 
+linktitle: SetCalculationMode
+second_title: Aspose.Cells for Go API Reference
+description: 'SetCalculationMode method. Encapsulates the function that represents setcalculationmode in Go.'
+type: docs
+weight: 200
+url: /go/formulasettings/setcalculationmode/
+---
+
+## SetCalculationMode function
+
+Gets or sets the mode for workbook calculation in ms excel.
+
+```go
+
+func (instance *FormulaSettings) SetCalculationMode(value CalcModeType)  error
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [FormulaSettings](../)
+* Namespace [Aspose.Cells](../../)
+* Library [Aspose.Cells for Go](../../../)

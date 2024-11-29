@@ -1,0 +1,28 @@
+---
+title: SetExportWorksheetCSSSeparately Method 
+linktitle: SetExportWorksheetCSSSeparately
+second_title: Aspose.Cells for Go API Reference
+description: 'SetExportWorksheetCSSSeparately method. Encapsulates the function that represents setexportworksheetcssseparately in Go.'
+type: docs
+weight: 200
+url: /go/ebooksaveoptions/setexportworksheetcssseparately/
+---
+
+## SetExportWorksheetCSSSeparately function
+
+Indicating whether export the worksheet css separately.The default value is false.
+
+```go
+
+func (instance *EbookSaveOptions) SetExportWorksheetCSSSeparately(value bool)  error
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [EbookSaveOptions](../)
+* Namespace [Aspose.Cells.Saving](../../)
+* Library [Aspose.Cells for Go](../../../)

@@ -1,0 +1,28 @@
+---
+title: SpinButtonActiveXControl Constructor 
+linktitle: SpinButtonActiveXControl
+second_title: Aspose.Cells for Go API Reference
+description: 'SpinButtonActiveXControl constructor. Encapsulates the function that represents newspinbuttonactivexcontrol in Go.'
+type: docs
+weight: 200
+url: /go/spinbuttonactivexcontrol/newspinbuttonactivexcontrol/
+---
+
+## NewSpinButtonActiveXControl function
+
+Constructs from a parent object.
+
+```go
+
+func NewSpinButtonActiveXControl(src *ActiveXControl) ( *SpinButtonActiveXControl, error)
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [SpinButtonActiveXControl](../)
+* Namespace [Aspose.Cells.Drawing.ActiveXControls](../../)
+* Library [Aspose.Cells for Go](../../../)

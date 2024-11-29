@@ -1,0 +1,28 @@
+---
+title: GetSignatureLine Method 
+linktitle: GetSignatureLine
+second_title: Aspose.Cells for Go API Reference
+description: 'GetSignatureLine method. Encapsulates the function that represents getsignatureline in Go.'
+type: docs
+weight: 200
+url: /go/picture/getsignatureline/
+---
+
+## GetSignatureLine function
+
+Gets and sets the signature line
+
+```go
+
+func (instance *Picture) GetSignatureLine()  (*SignatureLine,  error) 
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [Picture](../)
+* Namespace [Aspose.Cells.Drawing](../../)
+* Library [Aspose.Cells for Go](../../../)

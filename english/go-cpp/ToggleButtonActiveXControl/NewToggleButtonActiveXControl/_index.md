@@ -1,0 +1,28 @@
+---
+title: ToggleButtonActiveXControl Constructor 
+linktitle: ToggleButtonActiveXControl
+second_title: Aspose.Cells for Go API Reference
+description: 'ToggleButtonActiveXControl constructor. Encapsulates the function that represents newtogglebuttonactivexcontrol in Go.'
+type: docs
+weight: 200
+url: /go/togglebuttonactivexcontrol/newtogglebuttonactivexcontrol/
+---
+
+## NewToggleButtonActiveXControl function
+
+Constructs from a parent object.
+
+```go
+
+func NewToggleButtonActiveXControl(src *ActiveXControl) ( *ToggleButtonActiveXControl, error)
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [ToggleButtonActiveXControl](../)
+* Namespace [Aspose.Cells.Drawing.ActiveXControls](../../)
+* Library [Aspose.Cells for Go](../../../)

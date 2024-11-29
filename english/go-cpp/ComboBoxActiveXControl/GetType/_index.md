@@ -1,0 +1,28 @@
+---
+title: GetType Method 
+linktitle: GetType
+second_title: Aspose.Cells for Go API Reference
+description: 'GetType method. Encapsulates the function that represents gettype in Go.'
+type: docs
+weight: 200
+url: /go/comboboxactivexcontrol/gettype/
+---
+
+## GetType function
+
+Gets the type of the ActiveX control.
+
+```go
+
+func (instance *ComboBoxActiveXControl) GetType()  (ControlType,  error) 
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [ComboBoxActiveXControl](../)
+* Namespace [Aspose.Cells.Drawing.ActiveXControls](../../)
+* Library [Aspose.Cells for Go](../../../)

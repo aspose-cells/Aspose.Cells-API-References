@@ -1,0 +1,28 @@
+---
+title: IsLocked Method 
+linktitle: IsLocked
+second_title: Aspose.Cells for Go API Reference
+description: 'IsLocked method. Encapsulates the function that represents islocked in Go.'
+type: docs
+weight: 200
+url: /go/arcshape/islocked/
+---
+
+## IsLocked function
+
+True means the object can not be modified when the sheet is protected.Note that this value is meaningful only if the worksheet or objects in the worksheet are protected.
+
+```go
+
+func (instance *ArcShape) IsLocked()  (bool,  error) 
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [ArcShape](../)
+* Namespace [Aspose.Cells.Drawing](../../)
+* Library [Aspose.Cells for Go](../../../)

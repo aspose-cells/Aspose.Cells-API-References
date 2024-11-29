@@ -1,0 +1,28 @@
+---
+title: SetMaxColumnCount Method 
+linktitle: SetMaxColumnCount
+second_title: Aspose.Cells for Go API Reference
+description: 'SetMaxColumnCount method. Encapsulates the function that represents setmaxcolumncount in Go.'
+type: docs
+weight: 200
+url: /go/txtloadoptions/setmaxcolumncount/
+---
+
+## SetMaxColumnCount function
+
+The maximum count of columns to be imported for one sheet.
+
+```go
+
+func (instance *TxtLoadOptions) SetMaxColumnCount(value int32)  error
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [TxtLoadOptions](../)
+* Namespace [Aspose.Cells](../../)
+* Library [Aspose.Cells for Go](../../../)

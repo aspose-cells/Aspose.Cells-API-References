@@ -1,0 +1,28 @@
+---
+title: GetEndArrowheadLength Method 
+linktitle: GetEndArrowheadLength
+second_title: Aspose.Cells for Go API Reference
+description: 'GetEndArrowheadLength method. Encapsulates the function that represents getendarrowheadlength in Go.'
+type: docs
+weight: 200
+url: /go/lineformat/getendarrowheadlength/
+---
+
+## GetEndArrowheadLength function
+
+Gets and sets the end arrow length type of the line.
+
+```go
+
+func (instance *LineFormat) GetEndArrowheadLength()  (MsoArrowheadLength,  error) 
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [LineFormat](../)
+* Namespace [Aspose.Cells.Drawing](../../)
+* Library [Aspose.Cells for Go](../../../)

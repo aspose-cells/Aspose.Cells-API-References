@@ -1,0 +1,28 @@
+---
+title: GetAllowSelectingUnlockedCell Method 
+linktitle: GetAllowSelectingUnlockedCell
+second_title: Aspose.Cells for Go API Reference
+description: 'GetAllowSelectingUnlockedCell method. Encapsulates the function that represents getallowselectingunlockedcell in Go.'
+type: docs
+weight: 200
+url: /go/protection/getallowselectingunlockedcell/
+---
+
+## GetAllowSelectingUnlockedCell function
+
+Represents if the user is allowed to select unlocked cells on a protected worksheet.
+
+```go
+
+func (instance *Protection) GetAllowSelectingUnlockedCell()  (bool,  error) 
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [Protection](../)
+* Namespace [Aspose.Cells](../../)
+* Library [Aspose.Cells for Go](../../../)

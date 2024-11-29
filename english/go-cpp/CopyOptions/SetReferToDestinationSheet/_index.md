@@ -1,0 +1,28 @@
+---
+title: SetReferToDestinationSheet Method 
+linktitle: SetReferToDestinationSheet
+second_title: Aspose.Cells for Go API Reference
+description: 'SetReferToDestinationSheet method. Encapsulates the function that represents setrefertodestinationsheet in Go.'
+type: docs
+weight: 200
+url: /go/copyoptions/setrefertodestinationsheet/
+---
+
+## SetReferToDestinationSheet function
+
+When copying the range in the same file and the chart refers to the source sheet,False means the copied chart's data source will not be changed.True means the copied chart's data source refers to the destination sheet.
+
+```go
+
+func (instance *CopyOptions) SetReferToDestinationSheet(value bool)  error
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [CopyOptions](../)
+* Namespace [Aspose.Cells](../../)
+* Library [Aspose.Cells for Go](../../../)

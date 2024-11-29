@@ -1,0 +1,28 @@
+---
+title: SetIsShapeColor Method 
+linktitle: SetIsShapeColor
+second_title: Aspose.Cells for Go API Reference
+description: 'SetIsShapeColor method. Encapsulates the function that represents setisshapecolor in Go.'
+type: docs
+weight: 200
+url: /go/cellscolor/setisshapecolor/
+---
+
+## SetIsShapeColor function
+
+Gets and set the color which should apply to cell or shape.
+
+```go
+
+func (instance *CellsColor) SetIsShapeColor(value bool)  error
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [CellsColor](../)
+* Namespace [Aspose.Cells](../../)
+* Library [Aspose.Cells for Go](../../../)

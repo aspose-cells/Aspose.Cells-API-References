@@ -1,0 +1,28 @@
+---
+title: SetIsEnabled Method 
+linktitle: SetIsEnabled
+second_title: Aspose.Cells for Go API Reference
+description: 'SetIsEnabled method. Encapsulates the function that represents setisenabled in Go.'
+type: docs
+weight: 200
+url: /go/togglebuttonactivexcontrol/setisenabled/
+---
+
+## SetIsEnabled function
+
+Indicates whether the control can receive the focus and respond to user-generated events.
+
+```go
+
+func (instance *ToggleButtonActiveXControl) SetIsEnabled(value bool)  error
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [ToggleButtonActiveXControl](../)
+* Namespace [Aspose.Cells.Drawing.ActiveXControls](../../)
+* Library [Aspose.Cells for Go](../../../)

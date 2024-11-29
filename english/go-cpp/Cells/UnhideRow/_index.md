@@ -1,0 +1,28 @@
+---
+title: UnhideRow Method 
+linktitle: UnhideRow
+second_title: Aspose.Cells for Go API Reference
+description: 'UnhideRow method. Encapsulates the function that represents unhiderow in Go.'
+type: docs
+weight: 200
+url: /go/cells/unhiderow/
+---
+
+## UnhideRow function
+
+Unhides a row.
+
+```go
+
+func (instance *Cells) UnhideRow(row int32, height float64)  error
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [Cells](../)
+* Namespace [Aspose.Cells](../../)
+* Library [Aspose.Cells for Go](../../../)

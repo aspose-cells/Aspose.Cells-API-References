@@ -1,0 +1,28 @@
+---
+title: SetColumn Method 
+linktitle: SetColumn
+second_title: Aspose.Cells for Go API Reference
+description: 'SetColumn method. Encapsulates the function that represents setcolumn in Go.'
+type: docs
+weight: 200
+url: /go/odscellfield/setcolumn/
+---
+
+## SetColumn function
+
+Get and sets the column index of the cell.
+
+```go
+
+func (instance *OdsCellField) SetColumn(value int32)  error
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [OdsCellField](../)
+* Namespace [Aspose.Cells.Ods](../../)
+* Library [Aspose.Cells for Go](../../../)

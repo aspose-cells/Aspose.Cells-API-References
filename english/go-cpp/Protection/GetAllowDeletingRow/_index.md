@@ -1,0 +1,28 @@
+---
+title: GetAllowDeletingRow Method 
+linktitle: GetAllowDeletingRow
+second_title: Aspose.Cells for Go API Reference
+description: 'GetAllowDeletingRow method. Encapsulates the function that represents getallowdeletingrow in Go.'
+type: docs
+weight: 200
+url: /go/protection/getallowdeletingrow/
+---
+
+## GetAllowDeletingRow function
+
+Represents if the deletion of rows is allowed on a protected worksheet.
+
+```go
+
+func (instance *Protection) GetAllowDeletingRow()  (bool,  error) 
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [Protection](../)
+* Namespace [Aspose.Cells](../../)
+* Library [Aspose.Cells for Go](../../../)

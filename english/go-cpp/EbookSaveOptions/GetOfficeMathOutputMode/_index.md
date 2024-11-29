@@ -1,0 +1,28 @@
+---
+title: GetOfficeMathOutputMode Method 
+linktitle: GetOfficeMathOutputMode
+second_title: Aspose.Cells for Go API Reference
+description: 'GetOfficeMathOutputMode method. Encapsulates the function that represents getofficemathoutputmode in Go.'
+type: docs
+weight: 200
+url: /go/ebooksaveoptions/getofficemathoutputmode/
+---
+
+## GetOfficeMathOutputMode function
+
+Indicates how export OfficeMath objects to HTML, Default value is Image.
+
+```go
+
+func (instance *EbookSaveOptions) GetOfficeMathOutputMode()  (HtmlOfficeMathOutputType,  error) 
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [EbookSaveOptions](../)
+* Namespace [Aspose.Cells.Saving](../../)
+* Library [Aspose.Cells for Go](../../../)

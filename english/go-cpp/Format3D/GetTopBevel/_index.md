@@ -1,0 +1,28 @@
+---
+title: GetTopBevel Method 
+linktitle: GetTopBevel
+second_title: Aspose.Cells for Go API Reference
+description: 'GetTopBevel method. Encapsulates the function that represents gettopbevel in Go.'
+type: docs
+weight: 200
+url: /go/format3d/gettopbevel/
+---
+
+## GetTopBevel function
+
+Gets the <see cref="Bevel"/> object that holds the properties associated with defining a bevel on the top or front face of a shape.
+
+```go
+
+func (instance *Format3D) GetTopBevel()  (*Bevel,  error) 
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [Format3D](../)
+* Namespace [Aspose.Cells.Drawing](../../)
+* Library [Aspose.Cells for Go](../../../)

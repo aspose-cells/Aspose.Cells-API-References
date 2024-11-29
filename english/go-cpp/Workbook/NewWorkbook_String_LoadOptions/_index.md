@@ -1,0 +1,28 @@
+---
+title: Workbook Constructor 
+linktitle: Workbook
+second_title: Aspose.Cells for Go API Reference
+description: 'Workbook constructor. Encapsulates the function that represents newworkbook_string_loadoptions in Go.'
+type: docs
+weight: 200
+url: /go/workbook/newworkbook_string_loadoptions/
+---
+
+## NewWorkbook_String_LoadOptions function
+
+Initializes a new instance of the <see cref="Workbook"/> class and open a file.
+
+```go
+
+func NewWorkbook_String_LoadOptions(file string, loadoptions *LoadOptions) ( *Workbook, error)
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [Workbook](../)
+* Namespace [Aspose.Cells](../../)
+* Library [Aspose.Cells for Go](../../../)

@@ -1,0 +1,28 @@
+---
+title: SetDropZonesVisible Method 
+linktitle: SetDropZonesVisible
+second_title: Aspose.Cells for Go API Reference
+description: 'SetDropZonesVisible method. Encapsulates the function that represents setdropzonesvisible in Go.'
+type: docs
+weight: 200
+url: /go/pivotoptions/setdropzonesvisible/
+---
+
+## SetDropZonesVisible function
+
+Specifies whether any pivot controls can appear on the pivot chart.
+
+```go
+
+func (instance *PivotOptions) SetDropZonesVisible(value bool)  error
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [PivotOptions](../)
+* Namespace [Aspose.Cells.Charts](../../)
+* Library [Aspose.Cells for Go](../../../)

@@ -1,0 +1,28 @@
+---
+title: GetShowTableStyleRowStripes Method 
+linktitle: GetShowTableStyleRowStripes
+second_title: Aspose.Cells for Go API Reference
+description: 'GetShowTableStyleRowStripes method. Encapsulates the function that represents getshowtablestylerowstripes in Go.'
+type: docs
+weight: 200
+url: /go/listobject/getshowtablestylerowstripes/
+---
+
+## GetShowTableStyleRowStripes function
+
+Indicates whether row stripe formatting is applied.
+
+```go
+
+func (instance *ListObject) GetShowTableStyleRowStripes()  (bool,  error) 
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [ListObject](../)
+* Namespace [Aspose.Cells.Tables](../../)
+* Library [Aspose.Cells for Go](../../../)

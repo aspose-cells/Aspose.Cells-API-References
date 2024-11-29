@@ -1,0 +1,28 @@
+---
+title: ToInt Method 
+linktitle: ToInt
+second_title: Aspose.Cells for Go API Reference
+description: 'ToInt method. Encapsulates the function that represents toint in Go.'
+type: docs
+weight: 200
+url: /go/documentproperty/toint/
+---
+
+## ToInt function
+
+Returns the property value as integer.
+
+```go
+
+func (instance *DocumentProperty) ToInt()  (int32,  error) 
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [DocumentProperty](../)
+* Namespace [Aspose.Cells.Properties](../../)
+* Library [Aspose.Cells for Go](../../../)

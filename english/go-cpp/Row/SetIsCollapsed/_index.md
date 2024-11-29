@@ -1,0 +1,28 @@
+---
+title: SetIsCollapsed Method 
+linktitle: SetIsCollapsed
+second_title: Aspose.Cells for Go API Reference
+description: 'SetIsCollapsed method. Encapsulates the function that represents setiscollapsed in Go.'
+type: docs
+weight: 200
+url: /go/row/setiscollapsed/
+---
+
+## SetIsCollapsed function
+
+whether the row is collapsed
+
+```go
+
+func (instance *Row) SetIsCollapsed(value bool)  error
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [Row](../)
+* Namespace [Aspose.Cells](../../)
+* Library [Aspose.Cells for Go](../../../)

@@ -1,0 +1,28 @@
+---
+title: SetFitToPagesTall Method 
+linktitle: SetFitToPagesTall
+second_title: Aspose.Cells for Go API Reference
+description: 'SetFitToPagesTall method. Encapsulates the function that represents setfittopagestall in Go.'
+type: docs
+weight: 200
+url: /go/pagesetup/setfittopagestall/
+---
+
+## SetFitToPagesTall function
+
+Represents  the number of pages tall the worksheet will be scaled to when it's printed.The default value is 1.
+
+```go
+
+func (instance *PageSetup) SetFitToPagesTall(value int32)  error
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [PageSetup](../)
+* Namespace [Aspose.Cells](../../)
+* Library [Aspose.Cells for Go](../../../)

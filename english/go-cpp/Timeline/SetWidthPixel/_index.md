@@ -1,0 +1,28 @@
+---
+title: SetWidthPixel Method 
+linktitle: SetWidthPixel
+second_title: Aspose.Cells for Go API Reference
+description: 'SetWidthPixel method. Encapsulates the function that represents setwidthpixel in Go.'
+type: docs
+weight: 200
+url: /go/timeline/setwidthpixel/
+---
+
+## SetWidthPixel function
+
+Returns or sets the width of the specified timeline, in pixels.
+
+```go
+
+func (instance *Timeline) SetWidthPixel(value int32)  error
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [Timeline](../)
+* Namespace [Aspose.Cells.Timelines](../../)
+* Library [Aspose.Cells for Go](../../../)

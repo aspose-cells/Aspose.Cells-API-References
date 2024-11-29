@@ -1,0 +1,28 @@
+---
+title: SetTopMarginPt Method 
+linktitle: SetTopMarginPt
+second_title: Aspose.Cells for Go API Reference
+description: 'SetTopMarginPt method. Encapsulates the function that represents settopmarginpt in Go.'
+type: docs
+weight: 200
+url: /go/msotextframe/settopmarginpt/
+---
+
+## SetTopMarginPt function
+
+Returns the top margin in unit of Points
+
+```go
+
+func (instance *MsoTextFrame) SetTopMarginPt(value float64)  error
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [MsoTextFrame](../)
+* Namespace [Aspose.Cells.Drawing](../../)
+* Library [Aspose.Cells for Go](../../../)

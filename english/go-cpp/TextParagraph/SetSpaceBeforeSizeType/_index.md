@@ -1,0 +1,28 @@
+---
+title: SetSpaceBeforeSizeType Method 
+linktitle: SetSpaceBeforeSizeType
+second_title: Aspose.Cells for Go API Reference
+description: 'SetSpaceBeforeSizeType method. Encapsulates the function that represents setspacebeforesizetype in Go.'
+type: docs
+weight: 200
+url: /go/textparagraph/setspacebeforesizetype/
+---
+
+## SetSpaceBeforeSizeType function
+
+Gets and sets the amount of vertical white space that will be present before a paragraph.
+
+```go
+
+func (instance *TextParagraph) SetSpaceBeforeSizeType(value LineSpaceSizeType)  error
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [TextParagraph](../)
+* Namespace [Aspose.Cells.Drawing.Texts](../../)
+* Library [Aspose.Cells for Go](../../../)

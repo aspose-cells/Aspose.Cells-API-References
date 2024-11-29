@@ -1,0 +1,28 @@
+---
+title: AsDouble Method 
+linktitle: AsDouble
+second_title: Aspose.Cells for Go API Reference
+description: 'AsDouble method. Encapsulates the function that represents asdouble in Go.'
+type: docs
+weight: 200
+url: /go/object/asdouble/
+---
+
+## AsDouble function
+
+Converts the object to a double value, if object is number type.
+
+```go
+
+func (instance *Object) AsDouble()  (float64,  error) 
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [Object](../)
+* Namespace [Aspose.Cells](../../)
+* Library [Aspose.Cells for Go](../../../)

@@ -1,0 +1,28 @@
+---
+title: IsNull Method 
+linktitle: IsNull
+second_title: Aspose.Cells for Go API Reference
+description: 'IsNull method. Encapsulates the function that represents isnull in Go.'
+type: docs
+weight: 200
+url: /go/textparagraphcollection/isnull/
+---
+
+## IsNull function
+
+Checks whether the implementation object is nullptr.
+
+```go
+
+func (instance *TextParagraphCollection) IsNull()  (bool,  error) 
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [TextParagraphCollection](../)
+* Namespace [Aspose.Cells.Drawing.Texts](../../)
+* Library [Aspose.Cells for Go](../../../)

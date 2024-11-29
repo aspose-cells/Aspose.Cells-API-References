@@ -1,0 +1,28 @@
+---
+title: GetSlicers Method 
+linktitle: GetSlicers
+second_title: Aspose.Cells for Go API Reference
+description: 'GetSlicers method. Encapsulates the function that represents getslicers in Go.'
+type: docs
+weight: 200
+url: /go/worksheet/getslicers/
+---
+
+## GetSlicers function
+
+Get the Slicer collection in the worksheet
+
+```go
+
+func (instance *Worksheet) GetSlicers()  (*SlicerCollection,  error) 
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [Worksheet](../)
+* Namespace [Aspose.Cells](../../)
+* Library [Aspose.Cells for Go](../../../)

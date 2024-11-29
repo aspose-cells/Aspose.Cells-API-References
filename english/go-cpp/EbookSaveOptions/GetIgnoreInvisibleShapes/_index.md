@@ -1,0 +1,28 @@
+---
+title: GetIgnoreInvisibleShapes Method 
+linktitle: GetIgnoreInvisibleShapes
+second_title: Aspose.Cells for Go API Reference
+description: 'GetIgnoreInvisibleShapes method. Encapsulates the function that represents getignoreinvisibleshapes in Go.'
+type: docs
+weight: 200
+url: /go/ebooksaveoptions/getignoreinvisibleshapes/
+---
+
+## GetIgnoreInvisibleShapes function
+
+Indicate whether exporting those not visible shapes
+
+```go
+
+func (instance *EbookSaveOptions) GetIgnoreInvisibleShapes()  (bool,  error) 
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [EbookSaveOptions](../)
+* Namespace [Aspose.Cells.Saving](../../)
+* Library [Aspose.Cells for Go](../../../)

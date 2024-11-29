@@ -1,0 +1,28 @@
+---
+title: AddRegisteredReference Method 
+linktitle: AddRegisteredReference
+second_title: Aspose.Cells for Go API Reference
+description: 'AddRegisteredReference method. Encapsulates the function that represents addregisteredreference in Go.'
+type: docs
+weight: 200
+url: /go/vbaprojectreferencecollection/addregisteredreference/
+---
+
+## AddRegisteredReference function
+
+Add a reference to an Automation type library.
+
+```go
+
+func (instance *VbaProjectReferenceCollection) AddRegisteredReference(name string, libid string)  (int32,  error) 
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [VbaProjectReferenceCollection](../)
+* Namespace [Aspose.Cells.Vba](../../)
+* Library [Aspose.Cells for Go](../../../)

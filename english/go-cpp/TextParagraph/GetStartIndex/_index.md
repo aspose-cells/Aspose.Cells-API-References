@@ -1,0 +1,28 @@
+---
+title: GetStartIndex Method 
+linktitle: GetStartIndex
+second_title: Aspose.Cells for Go API Reference
+description: 'GetStartIndex method. Encapsulates the function that represents getstartindex in Go.'
+type: docs
+weight: 200
+url: /go/textparagraph/getstartindex/
+---
+
+## GetStartIndex function
+
+Gets the start index of the characters.
+
+```go
+
+func (instance *TextParagraph) GetStartIndex()  (int32,  error) 
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [TextParagraph](../)
+* Namespace [Aspose.Cells.Drawing.Texts](../../)
+* Library [Aspose.Cells for Go](../../../)
