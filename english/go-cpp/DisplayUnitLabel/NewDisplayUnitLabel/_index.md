@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'DisplayUnitLabel constructor. Encapsulates the function that represents newdisplayunitlabel in Go.'
 type: docs
 weight: 200
-url: /go/displayunitlabel/newdisplayunitlabel/
+url: /go-cpp/displayunitlabel/newdisplayunitlabel/
 ---
 
 ## NewDisplayUnitLabel function

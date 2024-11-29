@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetCustomPropertiesExport method. Encapsulates the function that represents setcustompropertiesexport in Go.'
 type: docs
 weight: 200
-url: /go/pdfsaveoptions/setcustompropertiesexport/
+url: /go-cpp/pdfsaveoptions/setcustompropertiesexport/
 ---
 
 ## SetCustomPropertiesExport function

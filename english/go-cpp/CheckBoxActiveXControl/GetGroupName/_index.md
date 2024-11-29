@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetGroupName method. Encapsulates the function that represents getgroupname in Go.'
 type: docs
 weight: 200
-url: /go/checkboxactivexcontrol/getgroupname/
+url: /go-cpp/checkboxactivexcontrol/getgroupname/
 ---
 
 ## GetGroupName function

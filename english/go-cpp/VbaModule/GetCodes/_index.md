@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetCodes method. Encapsulates the function that represents getcodes in Go.'
 type: docs
 weight: 200
-url: /go/vbamodule/getcodes/
+url: /go-cpp/vbamodule/getcodes/
 ---
 
 ## GetCodes function

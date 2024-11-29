@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetIMEMode method. Encapsulates the function that represents getimemode in Go.'
 type: docs
 weight: 200
-url: /go/comboboxactivexcontrol/getimemode/
+url: /go-cpp/comboboxactivexcontrol/getimemode/
 ---
 
 ## GetIMEMode function

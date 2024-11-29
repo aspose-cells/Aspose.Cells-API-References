@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsHtmlTables method. Encapsulates the function that represents ishtmltables in Go.'
 type: docs
 weight: 200
-url: /go/webqueryconnection/ishtmltables/
+url: /go-cpp/webqueryconnection/ishtmltables/
 ---
 
 ## IsHtmlTables function

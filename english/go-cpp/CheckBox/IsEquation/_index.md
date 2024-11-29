@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsEquation method. Encapsulates the function that represents isequation in Go.'
 type: docs
 weight: 200
-url: /go/checkbox/isequation/
+url: /go-cpp/checkbox/isequation/
 ---
 
 ## IsEquation function

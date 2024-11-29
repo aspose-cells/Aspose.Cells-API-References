@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetCopyFormatType method. Encapsulates the function that represents getcopyformattype in Go.'
 type: docs
 weight: 200
-url: /go/insertoptions/getcopyformattype/
+url: /go-cpp/insertoptions/getcopyformattype/
 ---
 
 ## GetCopyFormatType function

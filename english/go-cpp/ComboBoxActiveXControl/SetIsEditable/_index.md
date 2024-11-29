@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsEditable method. Encapsulates the function that represents setiseditable in Go.'
 type: docs
 weight: 200
-url: /go/comboboxactivexcontrol/setiseditable/
+url: /go-cpp/comboboxactivexcontrol/setiseditable/
 ---
 
 ## SetIsEditable function

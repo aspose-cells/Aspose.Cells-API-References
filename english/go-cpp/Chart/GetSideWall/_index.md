@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetSideWall method. Encapsulates the function that represents getsidewall in Go.'
 type: docs
 weight: 200
-url: /go/chart/getsidewall/
+url: /go-cpp/chart/getsidewall/
 ---
 
 ## GetSideWall function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetStandardHeightPixels method. Encapsulates the function that represents setstandardheightpixels in Go.'
 type: docs
 weight: 200
-url: /go/cells/setstandardheightpixels/
+url: /go-cpp/cells/setstandardheightpixels/
 ---
 
 ## SetStandardHeightPixels function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'DataBarNegativeColorType enum. Encapsulates the object that represents databarnegativecolortype in Go.'
 type: docs
 weight: 200
-url: /go/databarnegativecolortype/
+url: /go-cpp/databarnegativecolortype/
 ---
 
 ## DataBarNegativeColorType Enum

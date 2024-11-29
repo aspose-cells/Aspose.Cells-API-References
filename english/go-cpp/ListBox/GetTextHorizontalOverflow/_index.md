@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTextHorizontalOverflow method. Encapsulates the function that represents gettexthorizontaloverflow in Go.'
 type: docs
 weight: 200
-url: /go/listbox/gettexthorizontaloverflow/
+url: /go-cpp/listbox/gettexthorizontaloverflow/
 ---
 
 ## GetTextHorizontalOverflow function

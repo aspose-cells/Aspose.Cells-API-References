@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetDiscardImageEditData method. Encapsulates the function that represents getdiscardimageeditdata in Go.'
 type: docs
 weight: 200
-url: /go/workbooksettings/getdiscardimageeditdata/
+url: /go-cpp/workbooksettings/getdiscardimageeditdata/
 ---
 
 ## GetDiscardImageEditData function

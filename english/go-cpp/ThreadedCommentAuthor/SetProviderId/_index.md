@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetProviderId method. Encapsulates the function that represents setproviderid in Go.'
 type: docs
 weight: 200
-url: /go/threadedcommentauthor/setproviderid/
+url: /go-cpp/threadedcommentauthor/setproviderid/
 ---
 
 ## SetProviderId function

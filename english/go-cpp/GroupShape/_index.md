@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GroupShape class. Encapsulates the object that represents groupshape in Go.'
 type: docs
 weight: 200
-url: /go/groupshape/
+url: /go-cpp/groupshape/
 ---
 
 ## GroupShape class

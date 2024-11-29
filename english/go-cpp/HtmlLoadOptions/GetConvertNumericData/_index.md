@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetConvertNumericData method. Encapsulates the function that represents getconvertnumericdata in Go.'
 type: docs
 weight: 200
-url: /go/htmlloadoptions/getconvertnumericdata/
+url: /go-cpp/htmlloadoptions/getconvertnumericdata/
 ---
 
 ## GetConvertNumericData function

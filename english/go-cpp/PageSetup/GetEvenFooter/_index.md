@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetEvenFooter method. Encapsulates the function that represents getevenfooter in Go.'
 type: docs
 weight: 200
-url: /go/pagesetup/getevenfooter/
+url: /go-cpp/pagesetup/getevenfooter/
 ---
 
 ## GetEvenFooter function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetWords method. Encapsulates the function that represents getwords in Go.'
 type: docs
 weight: 200
-url: /go/builtindocumentpropertycollection/getwords/
+url: /go-cpp/builtindocumentpropertycollection/getwords/
 ---
 
 ## GetWords function

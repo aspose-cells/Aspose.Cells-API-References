@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTotalRows method. Encapsulates the function that represents gettotalrows in Go.'
 type: docs
 weight: 200
-url: /go/importtableoptions/gettotalrows/
+url: /go-cpp/importtableoptions/gettotalrows/
 ---
 
 ## GetTotalRows function

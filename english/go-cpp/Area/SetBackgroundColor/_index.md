@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetBackgroundColor method. Encapsulates the function that represents setbackgroundcolor in Go.'
 type: docs
 weight: 200
-url: /go/area/setbackgroundcolor/
+url: /go-cpp/area/setbackgroundcolor/
 ---
 
 ## SetBackgroundColor function

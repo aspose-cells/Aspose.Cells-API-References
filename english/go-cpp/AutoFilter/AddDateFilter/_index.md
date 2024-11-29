@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'AddDateFilter method. Encapsulates the function that represents adddatefilter in Go.'
 type: docs
 weight: 200
-url: /go/autofilter/adddatefilter/
+url: /go-cpp/autofilter/adddatefilter/
 ---
 
 ## AddDateFilter function

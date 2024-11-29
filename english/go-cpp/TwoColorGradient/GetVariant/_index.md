@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetVariant method. Encapsulates the function that represents getvariant in Go.'
 type: docs
 weight: 200
-url: /go/twocolorgradient/getvariant/
+url: /go-cpp/twocolorgradient/getvariant/
 ---
 
 ## GetVariant function

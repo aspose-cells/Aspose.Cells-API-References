@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetSqlType method. Encapsulates the function that represents getsqltype in Go.'
 type: docs
 weight: 200
-url: /go/connectionparameter/getsqltype/
+url: /go-cpp/connectionparameter/getsqltype/
 ---
 
 ## GetSqlType function

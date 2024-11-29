@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetOperatorType method. Encapsulates the function that represents setoperatortype in Go.'
 type: docs
 weight: 200
-url: /go/sqlscriptsaveoptions/setoperatortype/
+url: /go-cpp/sqlscriptsaveoptions/setoperatortype/
 ---
 
 ## SetOperatorType function

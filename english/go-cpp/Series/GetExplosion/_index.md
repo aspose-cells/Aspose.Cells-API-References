@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetExplosion method. Encapsulates the function that represents getexplosion in Go.'
 type: docs
 weight: 200
-url: /go/series/getexplosion/
+url: /go-cpp/series/getexplosion/
 ---
 
 ## GetExplosion function

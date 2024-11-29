@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetShowValue method. Encapsulates the function that represents getshowvalue in Go.'
 type: docs
 weight: 200
-url: /go/datalabels/getshowvalue/
+url: /go-cpp/datalabels/getshowvalue/
 ---
 
 ## GetShowValue function

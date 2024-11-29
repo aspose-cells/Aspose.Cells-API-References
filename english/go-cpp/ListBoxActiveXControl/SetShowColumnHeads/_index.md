@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetShowColumnHeads method. Encapsulates the function that represents setshowcolumnheads in Go.'
 type: docs
 weight: 200
-url: /go/listboxactivexcontrol/setshowcolumnheads/
+url: /go-cpp/listboxactivexcontrol/setshowcolumnheads/
 ---
 
 ## SetShowColumnHeads function

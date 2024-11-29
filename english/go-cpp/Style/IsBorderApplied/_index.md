@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsBorderApplied method. Encapsulates the function that represents isborderapplied in Go.'
 type: docs
 weight: 200
-url: /go/style/isborderapplied/
+url: /go-cpp/style/isborderapplied/
 ---
 
 ## IsBorderApplied function

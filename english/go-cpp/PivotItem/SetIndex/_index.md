@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIndex method. Encapsulates the function that represents setindex in Go.'
 type: docs
 weight: 200
-url: /go/pivotitem/setindex/
+url: /go-cpp/pivotitem/setindex/
 ---
 
 ## SetIndex function

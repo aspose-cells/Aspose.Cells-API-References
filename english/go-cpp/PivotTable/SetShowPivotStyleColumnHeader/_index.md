@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetShowPivotStyleColumnHeader method. Encapsulates the function that represents setshowpivotstylecolumnheader in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/setshowpivotstylecolumnheader/
+url: /go-cpp/pivottable/setshowpivotstylecolumnheader/
 ---
 
 ## SetShowPivotStyleColumnHeader function

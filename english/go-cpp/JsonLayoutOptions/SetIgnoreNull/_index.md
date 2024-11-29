@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIgnoreNull method. Encapsulates the function that represents setignorenull in Go.'
 type: docs
 weight: 200
-url: /go/jsonlayoutoptions/setignorenull/
+url: /go-cpp/jsonlayoutoptions/setignorenull/
 ---
 
 ## SetIgnoreNull function

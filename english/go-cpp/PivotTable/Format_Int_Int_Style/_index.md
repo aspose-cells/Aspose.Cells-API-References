@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Format_Int_Int_Style method. Encapsulates the function that represents format in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/format_int_int_style/
+url: /go-cpp/pivottable/format_int_int_style/
 ---
 
 ## Format_Int_Int_Style function

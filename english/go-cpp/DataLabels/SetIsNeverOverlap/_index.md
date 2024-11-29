@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsNeverOverlap method. Encapsulates the function that represents setisneveroverlap in Go.'
 type: docs
 weight: 200
-url: /go/datalabels/setisneveroverlap/
+url: /go-cpp/datalabels/setisneveroverlap/
 ---
 
 ## SetIsNeverOverlap function

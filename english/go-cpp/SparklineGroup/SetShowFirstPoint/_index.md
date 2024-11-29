@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetShowFirstPoint method. Encapsulates the function that represents setshowfirstpoint in Go.'
 type: docs
 weight: 200
-url: /go/sparklinegroup/setshowfirstpoint/
+url: /go-cpp/sparklinegroup/setshowfirstpoint/
 ---
 
 ## SetShowFirstPoint function

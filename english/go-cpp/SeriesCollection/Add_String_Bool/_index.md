@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Add_String_Bool method. Encapsulates the function that represents add in Go.'
 type: docs
 weight: 200
-url: /go/seriescollection/add_string_bool/
+url: /go-cpp/seriescollection/add_string_bool/
 ---
 
 ## Add_String_Bool function

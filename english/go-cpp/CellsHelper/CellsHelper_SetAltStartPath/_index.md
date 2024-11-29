@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'CellsHelper_SetAltStartPath method. Encapsulates the function that represents setaltstartpath in Go.'
 type: docs
 weight: 200
-url: /go/cellshelper/cellshelper_setaltstartpath/
+url: /go-cpp/cellshelper/cellshelper_setaltstartpath/
 ---
 
 ## CellsHelper_SetAltStartPath function

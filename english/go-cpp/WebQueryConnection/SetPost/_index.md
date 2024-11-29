@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetPost method. Encapsulates the function that represents setpost in Go.'
 type: docs
 weight: 200
-url: /go/webqueryconnection/setpost/
+url: /go-cpp/webqueryconnection/setpost/
 ---
 
 ## SetPost function

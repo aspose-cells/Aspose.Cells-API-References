@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetRefreshOnLoad method. Encapsulates the function that represents getrefreshonload in Go.'
 type: docs
 weight: 200
-url: /go/datamodelconnection/getrefreshonload/
+url: /go-cpp/datamodelconnection/getrefreshonload/
 ---
 
 ## GetRefreshOnLoad function

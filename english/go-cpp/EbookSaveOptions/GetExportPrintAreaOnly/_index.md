@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetExportPrintAreaOnly method. Encapsulates the function that represents getexportprintareaonly in Go.'
 type: docs
 weight: 200
-url: /go/ebooksaveoptions/getexportprintareaonly/
+url: /go-cpp/ebooksaveoptions/getexportprintareaonly/
 ---
 
 ## GetExportPrintAreaOnly function

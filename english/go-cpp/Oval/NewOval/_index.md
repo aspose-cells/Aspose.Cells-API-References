@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Oval constructor. Encapsulates the function that represents newoval in Go.'
 type: docs
 weight: 200
-url: /go/oval/newoval/
+url: /go-cpp/oval/newoval/
 ---
 
 ## NewOval function

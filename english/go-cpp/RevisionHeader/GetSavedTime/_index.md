@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetSavedTime method. Encapsulates the function that represents getsavedtime in Go.'
 type: docs
 weight: 200
-url: /go/revisionheader/getsavedtime/
+url: /go-cpp/revisionheader/getsavedtime/
 ---
 
 ## GetSavedTime function

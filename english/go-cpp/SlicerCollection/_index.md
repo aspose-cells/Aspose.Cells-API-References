@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SlicerCollection class. Encapsulates the object that represents slicercollection in Go.'
 type: docs
 weight: 200
-url: /go/slicercollection/
+url: /go-cpp/slicercollection/
 ---
 
 ## SlicerCollection class

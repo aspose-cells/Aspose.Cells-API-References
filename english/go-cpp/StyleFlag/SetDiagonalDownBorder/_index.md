@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetDiagonalDownBorder method. Encapsulates the function that represents setdiagonaldownborder in Go.'
 type: docs
 weight: 200
-url: /go/styleflag/setdiagonaldownborder/
+url: /go-cpp/styleflag/setdiagonaldownborder/
 ---
 
 ## SetDiagonalDownBorder function

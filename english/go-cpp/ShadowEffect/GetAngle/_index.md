@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetAngle method. Encapsulates the function that represents getangle in Go.'
 type: docs
 weight: 200
-url: /go/shadoweffect/getangle/
+url: /go-cpp/shadoweffect/getangle/
 ---
 
 ## GetAngle function

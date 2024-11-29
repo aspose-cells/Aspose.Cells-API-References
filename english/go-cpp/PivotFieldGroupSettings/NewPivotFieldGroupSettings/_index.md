@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'PivotFieldGroupSettings constructor. Encapsulates the function that represents newpivotfieldgroupsettings in Go.'
 type: docs
 weight: 200
-url: /go/pivotfieldgroupsettings/newpivotfieldgroupsettings/
+url: /go-cpp/pivotfieldgroupsettings/newpivotfieldgroupsettings/
 ---
 
 ## NewPivotFieldGroupSettings function

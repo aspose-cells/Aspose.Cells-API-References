@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'AbstractTextLoadOptions class. Encapsulates the object that represents abstracttextloadoptions in Go.'
 type: docs
 weight: 200
-url: /go/abstracttextloadoptions/
+url: /go-cpp/abstracttextloadoptions/
 ---
 
 ## AbstractTextLoadOptions class

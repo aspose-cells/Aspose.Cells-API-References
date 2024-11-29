@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetShowHorizontalAxis method. Encapsulates the function that represents getshowhorizontalaxis in Go.'
 type: docs
 weight: 200
-url: /go/sparklinegroup/getshowhorizontalaxis/
+url: /go-cpp/sparklinegroup/getshowhorizontalaxis/
 ---
 
 ## GetShowHorizontalAxis function

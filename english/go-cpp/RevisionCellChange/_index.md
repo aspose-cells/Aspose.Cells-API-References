@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'RevisionCellChange class. Encapsulates the object that represents revisioncellchange in Go.'
 type: docs
 weight: 200
-url: /go/revisioncellchange/
+url: /go-cpp/revisioncellchange/
 ---
 
 ## RevisionCellChange class

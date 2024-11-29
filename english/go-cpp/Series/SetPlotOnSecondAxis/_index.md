@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetPlotOnSecondAxis method. Encapsulates the function that represents setplotonsecondaxis in Go.'
 type: docs
 weight: 200
-url: /go/series/setplotonsecondaxis/
+url: /go-cpp/series/setplotonsecondaxis/
 ---
 
 ## SetPlotOnSecondAxis function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'CellsHelper_SetLibraryPath method. Encapsulates the function that represents setlibrarypath in Go.'
 type: docs
 weight: 200
-url: /go/cellshelper/cellshelper_setlibrarypath/
+url: /go-cpp/cellshelper/cellshelper_setlibrarypath/
 ---
 
 ## CellsHelper_SetLibraryPath function

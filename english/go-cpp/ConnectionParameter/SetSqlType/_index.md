@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetSqlType method. Encapsulates the function that represents setsqltype in Go.'
 type: docs
 weight: 200
-url: /go/connectionparameter/setsqltype/
+url: /go-cpp/connectionparameter/setsqltype/
 ---
 
 ## SetSqlType function

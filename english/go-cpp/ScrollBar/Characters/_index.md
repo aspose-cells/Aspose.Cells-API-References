@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Characters method. Encapsulates the function that represents characters in Go.'
 type: docs
 weight: 200
-url: /go/scrollbar/characters/
+url: /go-cpp/scrollbar/characters/
 ---
 
 ## Characters function

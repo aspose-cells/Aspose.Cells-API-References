@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsTripleState method. Encapsulates the function that represents setistriplestate in Go.'
 type: docs
 weight: 200
-url: /go/radiobuttonactivexcontrol/setistriplestate/
+url: /go-cpp/radiobuttonactivexcontrol/setistriplestate/
 ---
 
 ## SetIsTripleState function

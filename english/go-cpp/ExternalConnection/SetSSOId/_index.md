@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetSSOId method. Encapsulates the function that represents setssoid in Go.'
 type: docs
 weight: 200
-url: /go/externalconnection/setssoid/
+url: /go-cpp/externalconnection/setssoid/
 ---
 
 ## SetSSOId function

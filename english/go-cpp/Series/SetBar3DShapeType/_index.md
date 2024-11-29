@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetBar3DShapeType method. Encapsulates the function that represents setbar3dshapetype in Go.'
 type: docs
 weight: 200
-url: /go/series/setbar3dshapetype/
+url: /go-cpp/series/setbar3dshapetype/
 ---
 
 ## SetBar3DShapeType function

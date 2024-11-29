@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetDelimiterShape method. Encapsulates the function that represents getdelimitershape in Go.'
 type: docs
 weight: 200
-url: /go/delimiterequationnode/getdelimitershape/
+url: /go-cpp/delimiterequationnode/getdelimitershape/
 ---
 
 ## GetDelimiterShape function

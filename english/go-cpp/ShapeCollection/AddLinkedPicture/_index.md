@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'AddLinkedPicture method. Encapsulates the function that represents addlinkedpicture in Go.'
 type: docs
 weight: 200
-url: /go/shapecollection/addlinkedpicture/
+url: /go-cpp/shapecollection/addlinkedpicture/
 ---
 
 ## AddLinkedPicture function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsMultipleFieldFilters method. Encapsulates the function that represents setismultiplefieldfilters in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/setismultiplefieldfilters/
+url: /go-cpp/pivottable/setismultiplefieldfilters/
 ---
 
 ## SetIsMultipleFieldFilters function

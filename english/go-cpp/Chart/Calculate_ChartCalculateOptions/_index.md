@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Calculate_ChartCalculateOptions method. Encapsulates the function that represents calculate in Go.'
 type: docs
 weight: 200
-url: /go/chart/calculate_chartcalculateoptions/
+url: /go-cpp/chart/calculate_chartcalculateoptions/
 ---
 
 ## Calculate_ChartCalculateOptions function

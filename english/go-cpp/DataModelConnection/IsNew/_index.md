@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsNew method. Encapsulates the function that represents isnew in Go.'
 type: docs
 weight: 200
-url: /go/datamodelconnection/isnew/
+url: /go-cpp/datamodelconnection/isnew/
 ---
 
 ## IsNew function

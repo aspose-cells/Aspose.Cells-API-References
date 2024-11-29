@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsCellReferedByChart method. Encapsulates the function that represents iscellreferedbychart in Go.'
 type: docs
 weight: 200
-url: /go/chart/iscellreferedbychart/
+url: /go-cpp/chart/iscellreferedbychart/
 ---
 
 ## IsCellReferedByChart function

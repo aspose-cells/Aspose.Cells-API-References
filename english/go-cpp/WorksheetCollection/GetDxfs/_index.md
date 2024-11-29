@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetDxfs method. Encapsulates the function that represents getdxfs in Go.'
 type: docs
 weight: 200
-url: /go/worksheetcollection/getdxfs/
+url: /go-cpp/worksheetcollection/getdxfs/
 ---
 
 ## GetDxfs function

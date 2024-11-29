@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetAutoScaleFont method. Encapsulates the function that represents getautoscalefont in Go.'
 type: docs
 weight: 200
-url: /go/plotarea/getautoscalefont/
+url: /go-cpp/plotarea/getautoscalefont/
 ---
 
 ## GetAutoScaleFont function

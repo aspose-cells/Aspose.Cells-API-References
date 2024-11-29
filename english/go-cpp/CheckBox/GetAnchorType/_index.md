@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetAnchorType method. Encapsulates the function that represents getanchortype in Go.'
 type: docs
 weight: 200
-url: /go/checkbox/getanchortype/
+url: /go-cpp/checkbox/getanchortype/
 ---
 
 ## GetAnchorType function

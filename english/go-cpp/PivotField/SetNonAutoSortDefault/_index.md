@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetNonAutoSortDefault method. Encapsulates the function that represents setnonautosortdefault in Go.'
 type: docs
 weight: 200
-url: /go/pivotfield/setnonautosortdefault/
+url: /go-cpp/pivotfield/setnonautosortdefault/
 ---
 
 ## SetNonAutoSortDefault function

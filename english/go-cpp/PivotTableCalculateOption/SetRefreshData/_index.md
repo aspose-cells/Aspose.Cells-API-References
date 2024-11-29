@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetRefreshData method. Encapsulates the function that represents setrefreshdata in Go.'
 type: docs
 weight: 200
-url: /go/pivottablecalculateoption/setrefreshdata/
+url: /go-cpp/pivottablecalculateoption/setrefreshdata/
 ---
 
 ## SetRefreshData function

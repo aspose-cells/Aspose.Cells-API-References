@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetWidthInShape method. Encapsulates the function that represents getwidthinshape in Go.'
 type: docs
 weight: 200
-url: /go/commentshape/getwidthinshape/
+url: /go-cpp/commentshape/getwidthinshape/
 ---
 
 ## GetWidthInShape function

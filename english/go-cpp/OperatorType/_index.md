@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'OperatorType enum. Encapsulates the object that represents operatortype in Go.'
 type: docs
 weight: 200
-url: /go/operatortype/
+url: /go-cpp/operatortype/
 ---
 
 ## OperatorType Enum

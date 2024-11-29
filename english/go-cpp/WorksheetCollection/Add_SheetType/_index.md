@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Add_SheetType method. Encapsulates the function that represents add in Go.'
 type: docs
 weight: 200
-url: /go/worksheetcollection/add_sheettype/
+url: /go-cpp/worksheetcollection/add_sheettype/
 ---
 
 ## Add_SheetType function

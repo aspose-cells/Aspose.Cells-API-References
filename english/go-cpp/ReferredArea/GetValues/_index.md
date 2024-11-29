@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetValues method. Encapsulates the function that represents getvalues in Go.'
 type: docs
 weight: 200
-url: /go/referredarea/getvalues/
+url: /go-cpp/referredarea/getvalues/
 ---
 
 ## GetValues function

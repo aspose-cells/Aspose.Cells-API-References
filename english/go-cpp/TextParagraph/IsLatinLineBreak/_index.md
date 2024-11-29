@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsLatinLineBreak method. Encapsulates the function that represents islatinlinebreak in Go.'
 type: docs
 weight: 200
-url: /go/textparagraph/islatinlinebreak/
+url: /go-cpp/textparagraph/islatinlinebreak/
 ---
 
 ## IsLatinLineBreak function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetPlotArea method. Encapsulates the function that represents getplotarea in Go.'
 type: docs
 weight: 200
-url: /go/chart/getplotarea/
+url: /go-cpp/chart/getplotarea/
 ---
 
 ## GetPlotArea function

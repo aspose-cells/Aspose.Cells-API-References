@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ShowDetail method. Encapsulates the function that represents showdetail in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/showdetail/
+url: /go-cpp/pivottable/showdetail/
 ---
 
 ## ShowDetail function

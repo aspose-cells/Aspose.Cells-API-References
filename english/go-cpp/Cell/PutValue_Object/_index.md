@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'PutValue_Object method. Encapsulates the function that represents putvalue in Go.'
 type: docs
 weight: 200
-url: /go/cell/putvalue_object/
+url: /go-cpp/cell/putvalue_object/
 ---
 
 ## PutValue_Object function

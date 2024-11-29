@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetDashStyle method. Encapsulates the function that represents getdashstyle in Go.'
 type: docs
 weight: 200
-url: /go/msolineformat/getdashstyle/
+url: /go-cpp/msolineformat/getdashstyle/
 ---
 
 ## GetDashStyle function

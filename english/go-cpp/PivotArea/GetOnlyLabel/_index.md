@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetOnlyLabel method. Encapsulates the function that represents getonlylabel in Go.'
 type: docs
 weight: 200
-url: /go/pivotarea/getonlylabel/
+url: /go-cpp/pivotarea/getonlylabel/
 ---
 
 ## GetOnlyLabel function

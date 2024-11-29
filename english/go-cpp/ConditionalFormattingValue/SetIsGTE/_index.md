@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsGTE method. Encapsulates the function that represents setisgte in Go.'
 type: docs
 weight: 200
-url: /go/conditionalformattingvalue/setisgte/
+url: /go-cpp/conditionalformattingvalue/setisgte/
 ---
 
 ## SetIsGTE function

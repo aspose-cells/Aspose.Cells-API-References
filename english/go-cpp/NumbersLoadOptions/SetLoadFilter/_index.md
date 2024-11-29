@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetLoadFilter method. Encapsulates the function that represents setloadfilter in Go.'
 type: docs
 weight: 200
-url: /go/numbersloadoptions/setloadfilter/
+url: /go-cpp/numbersloadoptions/setloadfilter/
 ---
 
 ## SetLoadFilter function

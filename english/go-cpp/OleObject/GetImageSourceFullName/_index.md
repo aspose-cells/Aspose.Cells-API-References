@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetImageSourceFullName method. Encapsulates the function that represents getimagesourcefullname in Go.'
 type: docs
 weight: 200
-url: /go/oleobject/getimagesourcefullname/
+url: /go-cpp/oleobject/getimagesourcefullname/
 ---
 
 ## GetImageSourceFullName function

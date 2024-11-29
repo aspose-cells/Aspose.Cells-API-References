@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetRotationZ method. Encapsulates the function that represents setrotationz in Go.'
 type: docs
 weight: 200
-url: /go/threedformat/setrotationz/
+url: /go-cpp/threedformat/setrotationz/
 ---
 
 ## SetRotationZ function

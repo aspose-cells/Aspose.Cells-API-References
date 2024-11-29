@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetMaxValue method. Encapsulates the function that represents getmaxvalue in Go.'
 type: docs
 weight: 200
-url: /go/axis/getmaxvalue/
+url: /go-cpp/axis/getmaxvalue/
 ---
 
 ## GetMaxValue function

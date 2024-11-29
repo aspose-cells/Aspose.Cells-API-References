@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetBorderStyle method. Encapsulates the function that represents setborderstyle in Go.'
 type: docs
 weight: 200
-url: /go/labelactivexcontrol/setborderstyle/
+url: /go-cpp/labelactivexcontrol/setborderstyle/
 ---
 
 ## SetBorderStyle function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetSorter method. Encapsulates the function that represents getsorter in Go.'
 type: docs
 weight: 200
-url: /go/autofilter/getsorter/
+url: /go-cpp/autofilter/getsorter/
 ---
 
 ## GetSorter function

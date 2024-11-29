@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'RadicalEquationNode class. Encapsulates the object that represents radicalequationnode in Go.'
 type: docs
 weight: 200
-url: /go/radicalequationnode/
+url: /go-cpp/radicalequationnode/
 ---
 
 ## RadicalEquationNode class

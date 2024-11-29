@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'TextBoxActiveXControl constructor. Encapsulates the function that represents newtextboxactivexcontrol in Go.'
 type: docs
 weight: 200
-url: /go/textboxactivexcontrol/newtextboxactivexcontrol/
+url: /go-cpp/textboxactivexcontrol/newtextboxactivexcontrol/
 ---
 
 ## NewTextBoxActiveXControl function

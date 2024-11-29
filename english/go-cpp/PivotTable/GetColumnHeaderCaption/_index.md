@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetColumnHeaderCaption method. Encapsulates the function that represents getcolumnheadercaption in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/getcolumnheadercaption/
+url: /go-cpp/pivottable/getcolumnheadercaption/
 ---
 
 ## GetColumnHeaderCaption function

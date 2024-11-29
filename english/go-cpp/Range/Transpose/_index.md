@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Transpose method. Encapsulates the function that represents transpose in Go.'
 type: docs
 weight: 200
-url: /go/range/transpose/
+url: /go-cpp/range/transpose/
 ---
 
 ## Transpose function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetShowMarkerTTop method. Encapsulates the function that represents setshowmarkerttop in Go.'
 type: docs
 weight: 200
-url: /go/errorbar/setshowmarkerttop/
+url: /go-cpp/errorbar/setshowmarkerttop/
 ---
 
 ## SetShowMarkerTTop function

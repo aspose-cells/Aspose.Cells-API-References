@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetSheetSet method. Encapsulates the function that represents getsheetset in Go.'
 type: docs
 weight: 200
-url: /go/imageorprintoptions/getsheetset/
+url: /go-cpp/imageorprintoptions/getsheetset/
 ---
 
 ## GetSheetSet function

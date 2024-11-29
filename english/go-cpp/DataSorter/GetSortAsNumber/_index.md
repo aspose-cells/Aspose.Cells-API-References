@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetSortAsNumber method. Encapsulates the function that represents getsortasnumber in Go.'
 type: docs
 weight: 200
-url: /go/datasorter/getsortasnumber/
+url: /go-cpp/datasorter/getsortasnumber/
 ---
 
 ## GetSortAsNumber function

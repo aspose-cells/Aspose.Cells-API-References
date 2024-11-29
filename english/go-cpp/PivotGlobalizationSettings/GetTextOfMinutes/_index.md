@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTextOfMinutes method. Encapsulates the function that represents gettextofminutes in Go.'
 type: docs
 weight: 200
-url: /go/pivotglobalizationsettings/gettextofminutes/
+url: /go-cpp/pivotglobalizationsettings/gettextofminutes/
 ---
 
 ## GetTextOfMinutes function

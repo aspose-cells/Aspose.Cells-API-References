@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetOdcFile method. Encapsulates the function that represents getodcfile in Go.'
 type: docs
 weight: 200
-url: /go/externalconnection/getodcfile/
+url: /go-cpp/externalconnection/getodcfile/
 ---
 
 ## GetOdcFile function

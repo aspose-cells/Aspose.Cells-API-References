@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetIconId method. Encapsulates the function that represents geticonid in Go.'
 type: docs
 weight: 200
-url: /go/datasorterkey/geticonid/
+url: /go-cpp/datasorterkey/geticonid/
 ---
 
 ## GetIconId function

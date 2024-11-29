@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetStandardWidthPixels method. Encapsulates the function that represents setstandardwidthpixels in Go.'
 type: docs
 weight: 200
-url: /go/cells/setstandardwidthpixels/
+url: /go-cpp/cells/setstandardwidthpixels/
 ---
 
 ## SetStandardWidthPixels function

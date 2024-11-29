@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetLayoutOptions method. Encapsulates the function that represents setlayoutoptions in Go.'
 type: docs
 weight: 200
-url: /go/jsonloadoptions/setlayoutoptions/
+url: /go-cpp/jsonloadoptions/setlayoutoptions/
 ---
 
 ## SetLayoutOptions function

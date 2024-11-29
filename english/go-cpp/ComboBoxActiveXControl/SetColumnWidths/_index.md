@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetColumnWidths method. Encapsulates the function that represents setcolumnwidths in Go.'
 type: docs
 weight: 200
-url: /go/comboboxactivexcontrol/setcolumnwidths/
+url: /go-cpp/comboboxactivexcontrol/setcolumnwidths/
 ---
 
 ## SetColumnWidths function

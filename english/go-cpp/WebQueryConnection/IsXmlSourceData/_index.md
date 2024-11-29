@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsXmlSourceData method. Encapsulates the function that represents isxmlsourcedata in Go.'
 type: docs
 weight: 200
-url: /go/webqueryconnection/isxmlsourcedata/
+url: /go-cpp/webqueryconnection/isxmlsourcedata/
 ---
 
 ## IsXmlSourceData function

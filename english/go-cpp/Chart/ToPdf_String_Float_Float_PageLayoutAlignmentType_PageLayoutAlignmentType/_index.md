@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ToPdf_String_Float_Float_PageLayoutAlignmentType_PageLayoutAlignmentType method. Encapsulates the function that represents topdf in Go.'
 type: docs
 weight: 200
-url: /go/chart/topdf_string_float_float_pagelayoutalignmenttype_pagelayoutalignmenttype/
+url: /go-cpp/chart/topdf_string_float_float_pagelayoutalignmenttype_pagelayoutalignmenttype/
 ---
 
 ## ToPdf_String_Float_Float_PageLayoutAlignmentType_PageLayoutAlignmentType function

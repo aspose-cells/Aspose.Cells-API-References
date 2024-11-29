@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ImageSaveOptions class. Encapsulates the object that represents imagesaveoptions in Go.'
 type: docs
 weight: 200
-url: /go/imagesaveoptions/
+url: /go-cpp/imagesaveoptions/
 ---
 
 ## ImageSaveOptions class

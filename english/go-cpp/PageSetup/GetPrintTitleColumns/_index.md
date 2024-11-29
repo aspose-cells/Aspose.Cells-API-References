@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetPrintTitleColumns method. Encapsulates the function that represents getprinttitlecolumns in Go.'
 type: docs
 weight: 200
-url: /go/pagesetup/getprinttitlecolumns/
+url: /go-cpp/pagesetup/getprinttitlecolumns/
 ---
 
 ## GetPrintTitleColumns function

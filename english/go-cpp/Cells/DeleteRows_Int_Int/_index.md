@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'DeleteRows_Int_Int method. Encapsulates the function that represents deleterows in Go.'
 type: docs
 weight: 200
-url: /go/cells/deleterows_int_int/
+url: /go-cpp/cells/deleterows_int_int/
 ---
 
 ## DeleteRows_Int_Int function

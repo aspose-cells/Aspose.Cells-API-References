@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetShowTableStyleLastColumn method. Encapsulates the function that represents getshowtablestylelastcolumn in Go.'
 type: docs
 weight: 200
-url: /go/listobject/getshowtablestylelastcolumn/
+url: /go-cpp/listobject/getshowtablestylelastcolumn/
 ---
 
 ## GetShowTableStyleLastColumn function

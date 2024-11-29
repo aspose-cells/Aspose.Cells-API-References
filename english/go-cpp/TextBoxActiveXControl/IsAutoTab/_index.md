@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsAutoTab method. Encapsulates the function that represents isautotab in Go.'
 type: docs
 weight: 200
-url: /go/textboxactivexcontrol/isautotab/
+url: /go-cpp/textboxactivexcontrol/isautotab/
 ---
 
 ## IsAutoTab function

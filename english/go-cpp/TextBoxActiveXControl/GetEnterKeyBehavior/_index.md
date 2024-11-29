@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetEnterKeyBehavior method. Encapsulates the function that represents getenterkeybehavior in Go.'
 type: docs
 weight: 200
-url: /go/textboxactivexcontrol/getenterkeybehavior/
+url: /go-cpp/textboxactivexcontrol/getenterkeybehavior/
 ---
 
 ## GetEnterKeyBehavior function

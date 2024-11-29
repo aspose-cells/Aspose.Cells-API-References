@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ImportXml_String_String_Int_Int method. Encapsulates the function that represents importxml in Go.'
 type: docs
 weight: 200
-url: /go/workbook/importxml_string_string_int_int/
+url: /go-cpp/workbook/importxml_string_string_int_int/
 ---
 
 ## ImportXml_String_String_Int_Int function

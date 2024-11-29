@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'RemoveCondition method. Encapsulates the function that represents removecondition in Go.'
 type: docs
 weight: 200
-url: /go/formatconditioncollection/removecondition/
+url: /go-cpp/formatconditioncollection/removecondition/
 ---
 
 ## RemoveCondition function

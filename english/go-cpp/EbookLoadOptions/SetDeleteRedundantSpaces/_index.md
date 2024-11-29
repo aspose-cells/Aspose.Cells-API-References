@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetDeleteRedundantSpaces method. Encapsulates the function that represents setdeleteredundantspaces in Go.'
 type: docs
 weight: 200
-url: /go/ebookloadoptions/setdeleteredundantspaces/
+url: /go-cpp/ebookloadoptions/setdeleteredundantspaces/
 ---
 
 ## SetDeleteRedundantSpaces function

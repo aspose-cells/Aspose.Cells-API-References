@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsFlippedHorizontally method. Encapsulates the function that represents isflippedhorizontally in Go.'
 type: docs
 weight: 200
-url: /go/arcshape/isflippedhorizontally/
+url: /go-cpp/arcshape/isflippedhorizontally/
 ---
 
 ## IsFlippedHorizontally function

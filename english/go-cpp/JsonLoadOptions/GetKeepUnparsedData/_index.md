@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetKeepUnparsedData method. Encapsulates the function that represents getkeepunparseddata in Go.'
 type: docs
 weight: 200
-url: /go/jsonloadoptions/getkeepunparseddata/
+url: /go-cpp/jsonloadoptions/getkeepunparseddata/
 ---
 
 ## GetKeepUnparsedData function

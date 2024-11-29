@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetNSeries method. Encapsulates the function that represents getnseries in Go.'
 type: docs
 weight: 200
-url: /go/chart/getnseries/
+url: /go-cpp/chart/getnseries/
 ---
 
 ## GetNSeries function

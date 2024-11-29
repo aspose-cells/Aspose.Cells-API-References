@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetArrayRange method. Encapsulates the function that represents getarrayrange in Go.'
 type: docs
 weight: 200
-url: /go/cell/getarrayrange/
+url: /go-cpp/cell/getarrayrange/
 ---
 
 ## GetArrayRange function

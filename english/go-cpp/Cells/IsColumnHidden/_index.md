@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsColumnHidden method. Encapsulates the function that represents iscolumnhidden in Go.'
 type: docs
 weight: 200
-url: /go/cells/iscolumnhidden/
+url: /go-cpp/cells/iscolumnhidden/
 ---
 
 ## IsColumnHidden function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetEmfRenderSetting method. Encapsulates the function that represents getemfrendersetting in Go.'
 type: docs
 weight: 200
-url: /go/pclsaveoptions/getemfrendersetting/
+url: /go-cpp/pclsaveoptions/getemfrendersetting/
 ---
 
 ## GetEmfRenderSetting function

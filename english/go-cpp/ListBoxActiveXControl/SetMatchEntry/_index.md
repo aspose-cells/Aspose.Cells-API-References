@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetMatchEntry method. Encapsulates the function that represents setmatchentry in Go.'
 type: docs
 weight: 200
-url: /go/listboxactivexcontrol/setmatchentry/
+url: /go-cpp/listboxactivexcontrol/setmatchentry/
 ---
 
 ## SetMatchEntry function

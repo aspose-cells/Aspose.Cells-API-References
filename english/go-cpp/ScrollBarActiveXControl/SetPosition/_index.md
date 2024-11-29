@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetPosition method. Encapsulates the function that represents setposition in Go.'
 type: docs
 weight: 200
-url: /go/scrollbaractivexcontrol/setposition/
+url: /go-cpp/scrollbaractivexcontrol/setposition/
 ---
 
 ## SetPosition function

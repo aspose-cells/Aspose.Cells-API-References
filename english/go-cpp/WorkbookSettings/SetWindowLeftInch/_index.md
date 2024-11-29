@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetWindowLeftInch method. Encapsulates the function that represents setwindowleftinch in Go.'
 type: docs
 weight: 200
-url: /go/workbooksettings/setwindowleftinch/
+url: /go-cpp/workbooksettings/setwindowleftinch/
 ---
 
 ## SetWindowLeftInch function

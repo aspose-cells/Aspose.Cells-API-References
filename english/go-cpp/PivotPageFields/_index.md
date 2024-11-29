@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'PivotPageFields class. Encapsulates the object that represents pivotpagefields in Go.'
 type: docs
 weight: 200
-url: /go/pivotpagefields/
+url: /go-cpp/pivotpagefields/
 ---
 
 ## PivotPageFields class

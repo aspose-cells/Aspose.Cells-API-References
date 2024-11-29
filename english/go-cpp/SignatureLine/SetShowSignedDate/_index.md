@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetShowSignedDate method. Encapsulates the function that represents setshowsigneddate in Go.'
 type: docs
 weight: 200
-url: /go/signatureline/setshowsigneddate/
+url: /go-cpp/signatureline/setshowsigneddate/
 ---
 
 ## SetShowSignedDate function

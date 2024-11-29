@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'RefreshDynamicArrayFormulas_Bool_CalculationOptions method. Encapsulates the function that represents refreshdynamicarrayformulas in Go.'
 type: docs
 weight: 200
-url: /go/workbook/refreshdynamicarrayformulas_bool_calculationoptions/
+url: /go-cpp/workbook/refreshdynamicarrayformulas_bool_calculationoptions/
 ---
 
 ## RefreshDynamicArrayFormulas_Bool_CalculationOptions function

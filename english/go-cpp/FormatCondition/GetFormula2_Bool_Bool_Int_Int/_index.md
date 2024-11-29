@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetFormula2_Bool_Bool_Int_Int method. Encapsulates the function that represents getformula2 in Go.'
 type: docs
 weight: 200
-url: /go/formatcondition/getformula2_bool_bool_int_int/
+url: /go-cpp/formatcondition/getformula2_bool_bool_int_int/
 ---
 
 ## GetFormula2_Bool_Bool_Int_Int function

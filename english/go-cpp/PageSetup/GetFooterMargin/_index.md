@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetFooterMargin method. Encapsulates the function that represents getfootermargin in Go.'
 type: docs
 weight: 200
-url: /go/pagesetup/getfootermargin/
+url: /go-cpp/pagesetup/getfootermargin/
 ---
 
 ## GetFooterMargin function

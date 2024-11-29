@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetSortType method. Encapsulates the function that represents getsorttype in Go.'
 type: docs
 weight: 200
-url: /go/pivotfieldsortsetting/getsorttype/
+url: /go-cpp/pivotfieldsortsetting/getsorttype/
 ---
 
 ## GetSortType function

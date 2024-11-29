@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetAddress method. Encapsulates the function that represents getaddress in Go.'
 type: docs
 weight: 200
-url: /go/hyperlink/getaddress/
+url: /go-cpp/hyperlink/getaddress/
 ---
 
 ## GetAddress function

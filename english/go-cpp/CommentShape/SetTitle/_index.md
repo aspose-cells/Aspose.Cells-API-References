@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetTitle method. Encapsulates the function that represents settitle in Go.'
 type: docs
 weight: 200
-url: /go/commentshape/settitle/
+url: /go-cpp/commentshape/settitle/
 ---
 
 ## SetTitle function

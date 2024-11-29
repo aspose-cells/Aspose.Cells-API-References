@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetRight method. Encapsulates the function that represents getright in Go.'
 type: docs
 weight: 200
-url: /go/cellsdrawing/getright/
+url: /go-cpp/cellsdrawing/getright/
 ---
 
 ## GetRight function

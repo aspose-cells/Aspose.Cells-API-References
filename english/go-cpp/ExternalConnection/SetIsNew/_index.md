@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsNew method. Encapsulates the function that represents setisnew in Go.'
 type: docs
 weight: 200
-url: /go/externalconnection/setisnew/
+url: /go-cpp/externalconnection/setisnew/
 ---
 
 ## SetIsNew function

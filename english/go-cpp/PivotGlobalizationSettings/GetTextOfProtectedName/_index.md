@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTextOfProtectedName method. Encapsulates the function that represents gettextofprotectedname in Go.'
 type: docs
 weight: 200
-url: /go/pivotglobalizationsettings/gettextofprotectedname/
+url: /go-cpp/pivotglobalizationsettings/gettextofprotectedname/
 ---
 
 ## GetTextOfProtectedName function

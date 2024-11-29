@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetRotation method. Encapsulates the function that represents setrotation in Go.'
 type: docs
 weight: 200
-url: /go/renderingwatermark/setrotation/
+url: /go-cpp/renderingwatermark/setrotation/
 ---
 
 ## SetRotation function

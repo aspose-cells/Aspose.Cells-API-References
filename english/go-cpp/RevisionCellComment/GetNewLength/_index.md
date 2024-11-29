@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetNewLength method. Encapsulates the function that represents getnewlength in Go.'
 type: docs
 weight: 200
-url: /go/revisioncellcomment/getnewlength/
+url: /go-cpp/revisioncellcomment/getnewlength/
 ---
 
 ## GetNewLength function

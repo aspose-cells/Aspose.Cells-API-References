@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetUrl method. Encapsulates the function that represents geturl in Go.'
 type: docs
 weight: 200
-url: /go/xmldatabinding/geturl/
+url: /go-cpp/xmldatabinding/geturl/
 ---
 
 ## GetUrl function

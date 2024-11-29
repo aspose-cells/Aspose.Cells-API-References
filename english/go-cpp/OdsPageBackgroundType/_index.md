@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'OdsPageBackgroundType enum. Encapsulates the object that represents odspagebackgroundtype in Go.'
 type: docs
 weight: 200
-url: /go/odspagebackgroundtype/
+url: /go-cpp/odspagebackgroundtype/
 ---
 
 ## OdsPageBackgroundType Enum

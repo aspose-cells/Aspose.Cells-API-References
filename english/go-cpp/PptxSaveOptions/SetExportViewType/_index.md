@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetExportViewType method. Encapsulates the function that represents setexportviewtype in Go.'
 type: docs
 weight: 200
-url: /go/pptxsaveoptions/setexportviewtype/
+url: /go-cpp/pptxsaveoptions/setexportviewtype/
 ---
 
 ## SetExportViewType function

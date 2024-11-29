@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetMeasureFldIndex method. Encapsulates the function that represents setmeasurefldindex in Go.'
 type: docs
 weight: 200
-url: /go/pivotfilter/setmeasurefldindex/
+url: /go-cpp/pivotfilter/setmeasurefldindex/
 ---
 
 ## SetMeasureFldIndex function

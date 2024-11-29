@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetAlignmentType method. Encapsulates the function that represents getalignmenttype in Go.'
 type: docs
 weight: 200
-url: /go/ticklabels/getalignmenttype/
+url: /go-cpp/ticklabels/getalignmenttype/
 ---
 
 ## GetAlignmentType function

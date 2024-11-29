@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'NoneBulletValue constructor. Encapsulates the function that represents newnonebulletvalue_bulletvalue in Go.'
 type: docs
 weight: 200
-url: /go/nonebulletvalue/newnonebulletvalue_bulletvalue/
+url: /go-cpp/nonebulletvalue/newnonebulletvalue_bulletvalue/
 ---
 
 ## NewNoneBulletValue_BulletValue function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsColor method. Encapsulates the function that represents iscolor in Go.'
 type: docs
 weight: 200
-url: /go/object/iscolor/
+url: /go-cpp/object/iscolor/
 ---
 
 ## IsColor function

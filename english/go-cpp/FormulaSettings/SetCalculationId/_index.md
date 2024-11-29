@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetCalculationId method. Encapsulates the function that represents setcalculationid in Go.'
 type: docs
 weight: 200
-url: /go/formulasettings/setcalculationid/
+url: /go-cpp/formulasettings/setcalculationid/
 ---
 
 ## SetCalculationId function

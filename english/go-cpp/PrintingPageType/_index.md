@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'PrintingPageType enum. Encapsulates the object that represents printingpagetype in Go.'
 type: docs
 weight: 200
-url: /go/printingpagetype/
+url: /go-cpp/printingpagetype/
 ---
 
 ## PrintingPageType Enum

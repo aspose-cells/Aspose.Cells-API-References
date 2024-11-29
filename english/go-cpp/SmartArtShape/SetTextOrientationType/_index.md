@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetTextOrientationType method. Encapsulates the function that represents settextorientationtype in Go.'
 type: docs
 weight: 200
-url: /go/smartartshape/settextorientationtype/
+url: /go-cpp/smartartshape/settextorientationtype/
 ---
 
 ## SetTextOrientationType function

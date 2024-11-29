@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetEnd method. Encapsulates the function that represents getend in Go.'
 type: docs
 weight: 200
-url: /go/pivotdatetimerangegroupsettings/getend/
+url: /go-cpp/pivotdatetimerangegroupsettings/getend/
 ---
 
 ## GetEnd function

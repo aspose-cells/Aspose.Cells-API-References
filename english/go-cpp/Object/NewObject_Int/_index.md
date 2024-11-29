@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Object constructor. Encapsulates the function that represents newobject_int in Go.'
 type: docs
 weight: 200
-url: /go/object/newobject_int/
+url: /go-cpp/object/newobject_int/
 ---
 
 ## NewObject_Int function

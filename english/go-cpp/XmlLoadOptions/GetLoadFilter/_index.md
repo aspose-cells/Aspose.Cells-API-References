@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetLoadFilter method. Encapsulates the function that represents getloadfilter in Go.'
 type: docs
 weight: 200
-url: /go/xmlloadoptions/getloadfilter/
+url: /go-cpp/xmlloadoptions/getloadfilter/
 ---
 
 ## GetLoadFilter function

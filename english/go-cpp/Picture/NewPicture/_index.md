@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Picture constructor. Encapsulates the function that represents newpicture in Go.'
 type: docs
 weight: 200
-url: /go/picture/newpicture/
+url: /go-cpp/picture/newpicture/
 ---
 
 ## NewPicture function

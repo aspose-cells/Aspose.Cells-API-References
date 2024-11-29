@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetCreateTable method. Encapsulates the function that represents getcreatetable in Go.'
 type: docs
 weight: 200
-url: /go/sqlscriptsaveoptions/getcreatetable/
+url: /go-cpp/sqlscriptsaveoptions/getcreatetable/
 ---
 
 ## GetCreateTable function

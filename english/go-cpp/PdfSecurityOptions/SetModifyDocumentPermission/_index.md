@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetModifyDocumentPermission method. Encapsulates the function that represents setmodifydocumentpermission in Go.'
 type: docs
 weight: 200
-url: /go/pdfsecurityoptions/setmodifydocumentpermission/
+url: /go-cpp/pdfsecurityoptions/setmodifydocumentpermission/
 ---
 
 ## SetModifyDocumentPermission function

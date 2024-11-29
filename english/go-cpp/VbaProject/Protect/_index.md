@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Protect method. Encapsulates the function that represents protect in Go.'
 type: docs
 weight: 200
-url: /go/vbaproject/protect/
+url: /go-cpp/vbaproject/protect/
 ---
 
 ## Protect function

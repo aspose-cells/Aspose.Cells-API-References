@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'FilterColumnCollection class. Encapsulates the object that represents filtercolumncollection in Go.'
 type: docs
 weight: 200
-url: /go/filtercolumncollection/
+url: /go-cpp/filtercolumncollection/
 ---
 
 ## FilterColumnCollection class

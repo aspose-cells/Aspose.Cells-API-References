@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsAspectRatioLocked method. Encapsulates the function that represents isaspectratiolocked in Go.'
 type: docs
 weight: 200
-url: /go/textbox/isaspectratiolocked/
+url: /go-cpp/textbox/isaspectratiolocked/
 ---
 
 ## IsAspectRatioLocked function

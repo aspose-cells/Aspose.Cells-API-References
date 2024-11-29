@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetOdcFile method. Encapsulates the function that represents setodcfile in Go.'
 type: docs
 weight: 200
-url: /go/datamodelconnection/setodcfile/
+url: /go-cpp/datamodelconnection/setodcfile/
 ---
 
 ## SetOdcFile function

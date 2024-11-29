@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetShapeTextVerticalAlignment method. Encapsulates the function that represents getshapetextverticalalignment in Go.'
 type: docs
 weight: 200
-url: /go/textboxoptions/getshapetextverticalalignment/
+url: /go-cpp/textboxoptions/getshapetextverticalalignment/
 ---
 
 ## GetShapeTextVerticalAlignment function

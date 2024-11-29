@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetStdDev method. Encapsulates the function that represents getstddev in Go.'
 type: docs
 weight: 200
-url: /go/aboveaverage/getstddev/
+url: /go-cpp/aboveaverage/getstddev/
 ---
 
 ## GetStdDev function

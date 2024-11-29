@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsAutomaticSize method. Encapsulates the function that represents isautomaticsize in Go.'
 type: docs
 weight: 200
-url: /go/charttextframe/isautomaticsize/
+url: /go-cpp/charttextframe/isautomaticsize/
 ---
 
 ## IsAutomaticSize function

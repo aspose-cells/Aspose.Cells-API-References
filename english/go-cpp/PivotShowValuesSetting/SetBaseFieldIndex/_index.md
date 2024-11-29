@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetBaseFieldIndex method. Encapsulates the function that represents setbasefieldindex in Go.'
 type: docs
 weight: 200
-url: /go/pivotshowvaluessetting/setbasefieldindex/
+url: /go-cpp/pivotshowvaluessetting/setbasefieldindex/
 ---
 
 ## SetBaseFieldIndex function

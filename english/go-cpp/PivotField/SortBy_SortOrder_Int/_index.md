@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SortBy_SortOrder_Int method. Encapsulates the function that represents sortby in Go.'
 type: docs
 weight: 200
-url: /go/pivotfield/sortby_sortorder_int/
+url: /go-cpp/pivotfield/sortby_sortorder_int/
 ---
 
 ## SortBy_SortOrder_Int function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'AddLine method. Encapsulates the function that represents addline in Go.'
 type: docs
 weight: 200
-url: /go/shapecollection/addline/
+url: /go-cpp/shapecollection/addline/
 ---
 
 ## AddLine function

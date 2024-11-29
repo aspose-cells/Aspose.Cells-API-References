@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetListRows method. Encapsulates the function that represents setlistrows in Go.'
 type: docs
 weight: 200
-url: /go/comboboxactivexcontrol/setlistrows/
+url: /go-cpp/comboboxactivexcontrol/setlistrows/
 ---
 
 ## SetListRows function

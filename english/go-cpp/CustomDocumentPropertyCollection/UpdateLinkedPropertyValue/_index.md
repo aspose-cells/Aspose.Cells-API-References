@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'UpdateLinkedPropertyValue method. Encapsulates the function that represents updatelinkedpropertyvalue in Go.'
 type: docs
 weight: 200
-url: /go/customdocumentpropertycollection/updatelinkedpropertyvalue/
+url: /go-cpp/customdocumentpropertycollection/updatelinkedpropertyvalue/
 ---
 
 ## UpdateLinkedPropertyValue function

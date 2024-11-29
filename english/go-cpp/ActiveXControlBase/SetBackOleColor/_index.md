@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetBackOleColor method. Encapsulates the function that represents setbackolecolor in Go.'
 type: docs
 weight: 200
-url: /go/activexcontrolbase/setbackolecolor/
+url: /go-cpp/activexcontrolbase/setbackolecolor/
 ---
 
 ## SetBackOleColor function

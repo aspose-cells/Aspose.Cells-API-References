@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetReverse method. Encapsulates the function that represents setreverse in Go.'
 type: docs
 weight: 200
-url: /go/iconset/setreverse/
+url: /go-cpp/iconset/setreverse/
 ---
 
 ## SetReverse function

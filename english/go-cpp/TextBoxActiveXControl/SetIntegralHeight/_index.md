@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIntegralHeight method. Encapsulates the function that represents setintegralheight in Go.'
 type: docs
 weight: 200
-url: /go/textboxactivexcontrol/setintegralheight/
+url: /go-cpp/textboxactivexcontrol/setintegralheight/
 ---
 
 ## SetIntegralHeight function

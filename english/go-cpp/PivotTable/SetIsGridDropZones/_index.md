@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsGridDropZones method. Encapsulates the function that represents setisgriddropzones in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/setisgriddropzones/
+url: /go-cpp/pivottable/setisgriddropzones/
 ---
 
 ## SetIsGridDropZones function

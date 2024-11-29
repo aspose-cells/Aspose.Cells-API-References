@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTopCrop method. Encapsulates the function that represents gettopcrop in Go.'
 type: docs
 weight: 200
-url: /go/msoformatpicture/gettopcrop/
+url: /go-cpp/msoformatpicture/gettopcrop/
 ---
 
 ## GetTopCrop function

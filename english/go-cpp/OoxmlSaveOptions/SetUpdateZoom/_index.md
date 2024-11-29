@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetUpdateZoom method. Encapsulates the function that represents setupdatezoom in Go.'
 type: docs
 weight: 200
-url: /go/ooxmlsaveoptions/setupdatezoom/
+url: /go-cpp/ooxmlsaveoptions/setupdatezoom/
 ---
 
 ## SetUpdateZoom function

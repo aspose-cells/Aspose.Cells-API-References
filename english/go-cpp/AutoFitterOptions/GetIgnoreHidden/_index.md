@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetIgnoreHidden method. Encapsulates the function that represents getignorehidden in Go.'
 type: docs
 weight: 200
-url: /go/autofitteroptions/getignorehidden/
+url: /go-cpp/autofitteroptions/getignorehidden/
 ---
 
 ## GetIgnoreHidden function

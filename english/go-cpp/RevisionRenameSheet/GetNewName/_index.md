@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetNewName method. Encapsulates the function that represents getnewname in Go.'
 type: docs
 weight: 200
-url: /go/revisionrenamesheet/getnewname/
+url: /go-cpp/revisionrenamesheet/getnewname/
 ---
 
 ## GetNewName function

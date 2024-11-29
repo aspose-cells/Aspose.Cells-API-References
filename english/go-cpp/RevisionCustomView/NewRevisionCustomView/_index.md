@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'RevisionCustomView constructor. Encapsulates the function that represents newrevisioncustomview in Go.'
 type: docs
 weight: 200
-url: /go/revisioncustomview/newrevisioncustomview/
+url: /go-cpp/revisioncustomview/newrevisioncustomview/
 ---
 
 ## NewRevisionCustomView function

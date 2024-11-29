@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetSpacing method. Encapsulates the function that represents getspacing in Go.'
 type: docs
 weight: 200
-url: /go/textoptions/getspacing/
+url: /go-cpp/textoptions/getspacing/
 ---
 
 ## GetSpacing function

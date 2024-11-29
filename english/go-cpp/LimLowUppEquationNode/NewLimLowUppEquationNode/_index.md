@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'LimLowUppEquationNode constructor. Encapsulates the function that represents newlimlowuppequationnode in Go.'
 type: docs
 weight: 200
-url: /go/limlowuppequationnode/newlimlowuppequationnode/
+url: /go-cpp/limlowuppequationnode/newlimlowuppequationnode/
 ---
 
 ## NewLimLowUppEquationNode function

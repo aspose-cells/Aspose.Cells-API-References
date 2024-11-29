@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetRefreshChartCache method. Encapsulates the function that represents getrefreshchartcache in Go.'
 type: docs
 weight: 200
-url: /go/sqlscriptsaveoptions/getrefreshchartcache/
+url: /go-cpp/sqlscriptsaveoptions/getrefreshchartcache/
 ---
 
 ## GetRefreshChartCache function

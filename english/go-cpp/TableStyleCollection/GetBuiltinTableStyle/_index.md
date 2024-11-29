@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetBuiltinTableStyle method. Encapsulates the function that represents getbuiltintablestyle in Go.'
 type: docs
 weight: 200
-url: /go/tablestylecollection/getbuiltintablestyle/
+url: /go-cpp/tablestylecollection/getbuiltintablestyle/
 ---
 
 ## GetBuiltinTableStyle function

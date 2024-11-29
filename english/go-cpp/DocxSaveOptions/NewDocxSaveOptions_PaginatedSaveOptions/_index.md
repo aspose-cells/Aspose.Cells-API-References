@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'DocxSaveOptions constructor. Encapsulates the function that represents newdocxsaveoptions_paginatedsaveoptions in Go.'
 type: docs
 weight: 200
-url: /go/docxsaveoptions/newdocxsaveoptions_paginatedsaveoptions/
+url: /go-cpp/docxsaveoptions/newdocxsaveoptions_paginatedsaveoptions/
 ---
 
 ## NewDocxSaveOptions_PaginatedSaveOptions function

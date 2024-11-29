@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SmartTagPropertyCollection constructor. Encapsulates the function that represents newsmarttagpropertycollection in Go.'
 type: docs
 weight: 200
-url: /go/smarttagpropertycollection/newsmarttagpropertycollection/
+url: /go-cpp/smarttagpropertycollection/newsmarttagpropertycollection/
 ---
 
 ## NewSmartTagPropertyCollection function

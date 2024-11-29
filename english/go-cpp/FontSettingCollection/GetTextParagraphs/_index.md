@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTextParagraphs method. Encapsulates the function that represents gettextparagraphs in Go.'
 type: docs
 weight: 200
-url: /go/fontsettingcollection/gettextparagraphs/
+url: /go-cpp/fontsettingcollection/gettextparagraphs/
 ---
 
 ## GetTextParagraphs function

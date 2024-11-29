@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'AddR1C1 method. Encapsulates the function that represents addr1c1 in Go.'
 type: docs
 weight: 200
-url: /go/seriescollection/addr1c1/
+url: /go-cpp/seriescollection/addr1c1/
 ---
 
 ## AddR1C1 function

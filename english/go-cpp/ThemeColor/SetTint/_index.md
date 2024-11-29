@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetTint method. Encapsulates the function that represents settint in Go.'
 type: docs
 weight: 200
-url: /go/themecolor/settint/
+url: /go-cpp/themecolor/settint/
 ---
 
 ## SetTint function

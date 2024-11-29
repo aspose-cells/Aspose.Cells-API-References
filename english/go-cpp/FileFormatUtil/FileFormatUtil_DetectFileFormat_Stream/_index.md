@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'FileFormatUtil_DetectFileFormat_Stream method. Encapsulates the function that represents detectfileformat in Go.'
 type: docs
 weight: 200
-url: /go/fileformatutil/fileformatutil_detectfileformat_stream/
+url: /go-cpp/fileformatutil/fileformatutil_detectfileformat_stream/
 ---
 
 ## FileFormatUtil_DetectFileFormat_Stream function

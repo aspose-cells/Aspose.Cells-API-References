@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetBorderColorType method. Encapsulates the function that represents getbordercolortype in Go.'
 type: docs
 weight: 200
-url: /go/negativebarformat/getbordercolortype/
+url: /go-cpp/negativebarformat/getbordercolortype/
 ---
 
 ## GetBorderColorType function

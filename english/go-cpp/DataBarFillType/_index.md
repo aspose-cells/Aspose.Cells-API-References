@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'DataBarFillType enum. Encapsulates the object that represents databarfilltype in Go.'
 type: docs
 weight: 200
-url: /go/databarfilltype/
+url: /go-cpp/databarfilltype/
 ---
 
 ## DataBarFillType Enum

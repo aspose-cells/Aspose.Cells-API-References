@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetDefaultImageResolution method. Encapsulates the function that represents getdefaultimageresolution in Go.'
 type: docs
 weight: 200
-url: /go/workbooksettings/getdefaultimageresolution/
+url: /go-cpp/workbooksettings/getdefaultimageresolution/
 ---
 
 ## GetDefaultImageResolution function

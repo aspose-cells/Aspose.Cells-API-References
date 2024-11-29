@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'JsonLayoutOptions constructor. Encapsulates the function that represents newjsonlayoutoptions in Go.'
 type: docs
 weight: 200
-url: /go/jsonlayoutoptions/newjsonlayoutoptions/
+url: /go-cpp/jsonlayoutoptions/newjsonlayoutoptions/
 ---
 
 ## NewJsonLayoutOptions function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ShowValuesAs method. Encapsulates the function that represents showvaluesas in Go.'
 type: docs
 weight: 200
-url: /go/pivotfield/showvaluesas/
+url: /go-cpp/pivotfield/showvaluesas/
 ---
 
 ## ShowValuesAs function

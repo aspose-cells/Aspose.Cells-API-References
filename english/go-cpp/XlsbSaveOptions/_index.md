@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'XlsbSaveOptions class. Encapsulates the object that represents xlsbsaveoptions in Go.'
 type: docs
 weight: 200
-url: /go/xlsbsaveoptions/
+url: /go-cpp/xlsbsaveoptions/
 ---
 
 ## XlsbSaveOptions class

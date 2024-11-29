@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsTiled method. Encapsulates the function that represents istiled in Go.'
 type: docs
 weight: 200
-url: /go/imageactivexcontrol/istiled/
+url: /go-cpp/imageactivexcontrol/istiled/
 ---
 
 ## IsTiled function

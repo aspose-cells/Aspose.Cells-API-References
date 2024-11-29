@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetThreadedCommentAuthors method. Encapsulates the function that represents getthreadedcommentauthors in Go.'
 type: docs
 weight: 200
-url: /go/worksheetcollection/getthreadedcommentauthors/
+url: /go-cpp/worksheetcollection/getthreadedcommentauthors/
 ---
 
 ## GetThreadedCommentAuthors function

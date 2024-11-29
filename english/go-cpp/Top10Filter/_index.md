@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Top10Filter class. Encapsulates the object that represents top10filter in Go.'
 type: docs
 weight: 200
-url: /go/top10filter/
+url: /go-cpp/top10filter/
 ---
 
 ## Top10Filter class

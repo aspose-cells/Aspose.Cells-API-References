@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetNewFormula method. Encapsulates the function that represents getnewformula in Go.'
 type: docs
 weight: 200
-url: /go/revisioncellchange/getnewformula/
+url: /go-cpp/revisioncellchange/getnewformula/
 ---
 
 ## GetNewFormula function

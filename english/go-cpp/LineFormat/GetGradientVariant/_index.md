@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetGradientVariant method. Encapsulates the function that represents getgradientvariant in Go.'
 type: docs
 weight: 200
-url: /go/lineformat/getgradientvariant/
+url: /go-cpp/lineformat/getgradientvariant/
 ---
 
 ## GetGradientVariant function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsFillApplied method. Encapsulates the function that represents isfillapplied in Go.'
 type: docs
 weight: 200
-url: /go/style/isfillapplied/
+url: /go-cpp/style/isfillapplied/
 ---
 
 ## IsFillApplied function

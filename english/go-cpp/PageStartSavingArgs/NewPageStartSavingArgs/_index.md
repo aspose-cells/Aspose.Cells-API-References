@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'PageStartSavingArgs constructor. Encapsulates the function that represents newpagestartsavingargs in Go.'
 type: docs
 weight: 200
-url: /go/pagestartsavingargs/newpagestartsavingargs/
+url: /go-cpp/pagestartsavingargs/newpagestartsavingargs/
 ---
 
 ## NewPageStartSavingArgs function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'AddTextBoxInChart method. Encapsulates the function that represents addtextboxinchart in Go.'
 type: docs
 weight: 200
-url: /go/shapecollection/addtextboxinchart/
+url: /go-cpp/shapecollection/addtextboxinchart/
 ---
 
 ## AddTextBoxInChart function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'AddFieldToArea_PivotFieldType_String method. Encapsulates the function that represents addfieldtoarea in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/addfieldtoarea_pivotfieldtype_string/
+url: /go-cpp/pivottable/addfieldtoarea_pivotfieldtype_string/
 ---
 
 ## AddFieldToArea_PivotFieldType_String function

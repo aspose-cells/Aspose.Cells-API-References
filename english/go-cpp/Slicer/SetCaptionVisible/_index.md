@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetCaptionVisible method. Encapsulates the function that represents setcaptionvisible in Go.'
 type: docs
 weight: 200
-url: /go/slicer/setcaptionvisible/
+url: /go-cpp/slicer/setcaptionvisible/
 ---
 
 ## SetCaptionVisible function

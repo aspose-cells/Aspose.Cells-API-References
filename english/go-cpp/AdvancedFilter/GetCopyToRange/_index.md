@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetCopyToRange method. Encapsulates the function that represents getcopytorange in Go.'
 type: docs
 weight: 200
-url: /go/advancedfilter/getcopytorange/
+url: /go-cpp/advancedfilter/getcopytorange/
 ---
 
 ## GetCopyToRange function

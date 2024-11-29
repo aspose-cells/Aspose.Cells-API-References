@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SheetRender constructor. Encapsulates the function that represents newsheetrender in Go.'
 type: docs
 weight: 200
-url: /go/sheetrender/newsheetrender/
+url: /go-cpp/sheetrender/newsheetrender/
 ---
 
 ## NewSheetRender function

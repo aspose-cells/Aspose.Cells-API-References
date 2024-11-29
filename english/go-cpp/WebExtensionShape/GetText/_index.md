@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetText method. Encapsulates the function that represents gettext in Go.'
 type: docs
 weight: 200
-url: /go/webextensionshape/gettext/
+url: /go-cpp/webextensionshape/gettext/
 ---
 
 ## GetText function

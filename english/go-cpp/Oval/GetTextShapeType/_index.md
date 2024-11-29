@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTextShapeType method. Encapsulates the function that represents gettextshapetype in Go.'
 type: docs
 weight: 200
-url: /go/oval/gettextshapetype/
+url: /go-cpp/oval/gettextshapetype/
 ---
 
 ## GetTextShapeType function

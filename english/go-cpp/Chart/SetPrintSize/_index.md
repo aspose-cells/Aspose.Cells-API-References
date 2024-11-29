@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetPrintSize method. Encapsulates the function that represents setprintsize in Go.'
 type: docs
 weight: 200
-url: /go/chart/setprintsize/
+url: /go-cpp/chart/setprintsize/
 ---
 
 ## SetPrintSize function

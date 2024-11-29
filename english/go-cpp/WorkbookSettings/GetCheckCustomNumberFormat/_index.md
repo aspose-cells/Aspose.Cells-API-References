@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetCheckCustomNumberFormat method. Encapsulates the function that represents getcheckcustomnumberformat in Go.'
 type: docs
 weight: 200
-url: /go/workbooksettings/getcheckcustomnumberformat/
+url: /go-cpp/workbooksettings/getcheckcustomnumberformat/
 ---
 
 ## GetCheckCustomNumberFormat function

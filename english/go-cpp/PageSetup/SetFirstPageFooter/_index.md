@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetFirstPageFooter method. Encapsulates the function that represents setfirstpagefooter in Go.'
 type: docs
 weight: 200
-url: /go/pagesetup/setfirstpagefooter/
+url: /go-cpp/pagesetup/setfirstpagefooter/
 ---
 
 ## SetFirstPageFooter function

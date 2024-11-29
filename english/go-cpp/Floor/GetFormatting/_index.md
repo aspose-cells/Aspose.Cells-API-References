@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetFormatting method. Encapsulates the function that represents getformatting in Go.'
 type: docs
 weight: 200
-url: /go/floor/getformatting/
+url: /go-cpp/floor/getformatting/
 ---
 
 ## GetFormatting function

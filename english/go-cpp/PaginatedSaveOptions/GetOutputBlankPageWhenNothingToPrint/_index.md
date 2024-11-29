@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetOutputBlankPageWhenNothingToPrint method. Encapsulates the function that represents getoutputblankpagewhennothingtoprint in Go.'
 type: docs
 weight: 200
-url: /go/paginatedsaveoptions/getoutputblankpagewhennothingtoprint/
+url: /go-cpp/paginatedsaveoptions/getoutputblankpagewhennothingtoprint/
 ---
 
 ## GetOutputBlankPageWhenNothingToPrint function

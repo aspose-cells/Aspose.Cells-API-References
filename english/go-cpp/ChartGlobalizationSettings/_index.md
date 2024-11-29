@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ChartGlobalizationSettings class. Encapsulates the object that represents chartglobalizationsettings in Go.'
 type: docs
 weight: 200
-url: /go/chartglobalizationsettings/
+url: /go-cpp/chartglobalizationsettings/
 ---
 
 ## ChartGlobalizationSettings class

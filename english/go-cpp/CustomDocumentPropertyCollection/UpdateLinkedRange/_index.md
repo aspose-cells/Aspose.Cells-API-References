@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'UpdateLinkedRange method. Encapsulates the function that represents updatelinkedrange in Go.'
 type: docs
 weight: 200
-url: /go/customdocumentpropertycollection/updatelinkedrange/
+url: /go-cpp/customdocumentpropertycollection/updatelinkedrange/
 ---
 
 ## UpdateLinkedRange function

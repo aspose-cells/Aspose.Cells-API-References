@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIgnoreError method. Encapsulates the function that represents setignoreerror in Go.'
 type: docs
 weight: 200
-url: /go/pptxsaveoptions/setignoreerror/
+url: /go-cpp/pptxsaveoptions/setignoreerror/
 ---
 
 ## SetIgnoreError function

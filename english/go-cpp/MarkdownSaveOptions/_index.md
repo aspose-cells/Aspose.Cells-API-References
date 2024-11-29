@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'MarkdownSaveOptions class. Encapsulates the object that represents markdownsaveoptions in Go.'
 type: docs
 weight: 200
-url: /go/markdownsaveoptions/
+url: /go-cpp/markdownsaveoptions/
 ---
 
 ## MarkdownSaveOptions class

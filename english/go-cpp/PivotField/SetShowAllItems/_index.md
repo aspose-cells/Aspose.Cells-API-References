@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetShowAllItems method. Encapsulates the function that represents setshowallitems in Go.'
 type: docs
 weight: 200
-url: /go/pivotfield/setshowallitems/
+url: /go-cpp/pivotfield/setshowallitems/
 ---
 
 ## SetShowAllItems function

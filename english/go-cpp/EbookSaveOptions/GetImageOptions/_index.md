@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetImageOptions method. Encapsulates the function that represents getimageoptions in Go.'
 type: docs
 weight: 200
-url: /go/ebooksaveoptions/getimageoptions/
+url: /go-cpp/ebooksaveoptions/getimageoptions/
 ---
 
 ## GetImageOptions function

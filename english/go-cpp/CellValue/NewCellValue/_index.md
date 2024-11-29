@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'CellValue constructor. Encapsulates the function that represents newcellvalue in Go.'
 type: docs
 weight: 200
-url: /go/cellvalue/newcellvalue/
+url: /go-cpp/cellvalue/newcellvalue/
 ---
 
 ## NewCellValue function

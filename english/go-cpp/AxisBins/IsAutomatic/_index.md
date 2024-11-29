@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsAutomatic method. Encapsulates the function that represents isautomatic in Go.'
 type: docs
 weight: 200
-url: /go/axisbins/isautomatic/
+url: /go-cpp/axisbins/isautomatic/
 ---
 
 ## IsAutomatic function

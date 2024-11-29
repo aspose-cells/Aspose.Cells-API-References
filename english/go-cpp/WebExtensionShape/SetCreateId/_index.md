@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetCreateId method. Encapsulates the function that represents setcreateid in Go.'
 type: docs
 weight: 200
-url: /go/webextensionshape/setcreateid/
+url: /go-cpp/webextensionshape/setcreateid/
 ---
 
 ## SetCreateId function

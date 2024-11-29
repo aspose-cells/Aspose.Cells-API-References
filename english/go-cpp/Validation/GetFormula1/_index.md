@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetFormula1 method. Encapsulates the function that represents getformula1 in Go.'
 type: docs
 weight: 200
-url: /go/validation/getformula1/
+url: /go-cpp/validation/getformula1/
 ---
 
 ## GetFormula1 function

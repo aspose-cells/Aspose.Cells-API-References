@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetShowConnectorLines method. Encapsulates the function that represents setshowconnectorlines in Go.'
 type: docs
 weight: 200
-url: /go/serieslayoutproperties/setshowconnectorlines/
+url: /go-cpp/serieslayoutproperties/setshowconnectorlines/
 ---
 
 ## SetShowConnectorLines function

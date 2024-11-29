@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetBlur method. Encapsulates the function that represents setblur in Go.'
 type: docs
 weight: 200
-url: /go/reflectioneffect/setblur/
+url: /go-cpp/reflectioneffect/setblur/
 ---
 
 ## SetBlur function

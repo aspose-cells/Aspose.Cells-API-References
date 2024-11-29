@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetPathType method. Encapsulates the function that represents getpathtype in Go.'
 type: docs
 weight: 200
-url: /go/externallink/getpathtype/
+url: /go-cpp/externallink/getpathtype/
 ---
 
 ## GetPathType function

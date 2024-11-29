@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'AutoFilter class. Encapsulates the object that represents autofilter in Go.'
 type: docs
 weight: 200
-url: /go/autofilter/
+url: /go-cpp/autofilter/
 ---
 
 ## AutoFilter class

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsNillable method. Encapsulates the function that represents setisnillable in Go.'
 type: docs
 weight: 200
-url: /go/contenttypeproperty/setisnillable/
+url: /go-cpp/contenttypeproperty/setisnillable/
 ---
 
 ## SetIsNillable function

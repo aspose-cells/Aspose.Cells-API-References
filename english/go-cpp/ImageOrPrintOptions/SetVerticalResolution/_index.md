@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetVerticalResolution method. Encapsulates the function that represents setverticalresolution in Go.'
 type: docs
 weight: 200
-url: /go/imageorprintoptions/setverticalresolution/
+url: /go-cpp/imageorprintoptions/setverticalresolution/
 ---
 
 ## SetVerticalResolution function

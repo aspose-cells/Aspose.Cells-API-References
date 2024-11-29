@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetTextOfMultipleItems method. Encapsulates the function that represents settextofmultipleitems in Go.'
 type: docs
 weight: 200
-url: /go/settablepivotglobalizationsettings/settextofmultipleitems/
+url: /go-cpp/settablepivotglobalizationsettings/settextofmultipleitems/
 ---
 
 ## SetTextOfMultipleItems function

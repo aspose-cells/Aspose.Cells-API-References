@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SheetPrintingPreview class. Encapsulates the object that represents sheetprintingpreview in Go.'
 type: docs
 weight: 200
-url: /go/sheetprintingpreview/
+url: /go-cpp/sheetprintingpreview/
 ---
 
 ## SheetPrintingPreview class

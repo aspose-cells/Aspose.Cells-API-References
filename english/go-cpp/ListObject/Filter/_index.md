@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Filter method. Encapsulates the function that represents filter in Go.'
 type: docs
 weight: 200
-url: /go/listobject/filter/
+url: /go-cpp/listobject/filter/
 ---
 
 ## Filter function

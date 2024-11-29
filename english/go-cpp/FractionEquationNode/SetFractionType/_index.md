@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetFractionType method. Encapsulates the function that represents setfractiontype in Go.'
 type: docs
 weight: 200
-url: /go/fractionequationnode/setfractiontype/
+url: /go-cpp/fractionequationnode/setfractiontype/
 ---
 
 ## SetFractionType function

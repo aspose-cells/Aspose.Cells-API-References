@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetList method. Encapsulates the function that represents getlist in Go.'
 type: docs
 weight: 200
-url: /go/slicercache/getlist/
+url: /go-cpp/slicercache/getlist/
 ---
 
 ## GetList function

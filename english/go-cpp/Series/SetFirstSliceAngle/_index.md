@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetFirstSliceAngle method. Encapsulates the function that represents setfirstsliceangle in Go.'
 type: docs
 weight: 200
-url: /go/series/setfirstsliceangle/
+url: /go-cpp/series/setfirstsliceangle/
 ---
 
 ## SetFirstSliceAngle function

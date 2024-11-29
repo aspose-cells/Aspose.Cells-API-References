@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'CalculationPrecisionStrategy enum. Encapsulates the object that represents calculationprecisionstrategy in Go.'
 type: docs
 weight: 200
-url: /go/calculationprecisionstrategy/
+url: /go-cpp/calculationprecisionstrategy/
 ---
 
 ## CalculationPrecisionStrategy Enum

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetLightingDirection method. Encapsulates the function that represents setlightingdirection in Go.'
 type: docs
 weight: 200
-url: /go/threedformat/setlightingdirection/
+url: /go-cpp/threedformat/setlightingdirection/
 ---
 
 ## SetLightingDirection function

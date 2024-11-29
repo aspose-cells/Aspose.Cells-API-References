@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetSourceFile method. Encapsulates the function that represents getsourcefile in Go.'
 type: docs
 weight: 200
-url: /go/webqueryconnection/getsourcefile/
+url: /go-cpp/webqueryconnection/getsourcefile/
 ---
 
 ## GetSourceFile function

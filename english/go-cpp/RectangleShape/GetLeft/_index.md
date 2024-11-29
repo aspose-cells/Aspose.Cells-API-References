@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetLeft method. Encapsulates the function that represents getleft in Go.'
 type: docs
 weight: 200
-url: /go/rectangleshape/getleft/
+url: /go-cpp/rectangleshape/getleft/
 ---
 
 ## GetLeft function

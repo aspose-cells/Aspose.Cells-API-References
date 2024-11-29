@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetMinute method. Encapsulates the function that represents setminute in Go.'
 type: docs
 weight: 200
-url: /go/datetimegroupitem/setminute/
+url: /go-cpp/datetimegroupitem/setminute/
 ---
 
 ## SetMinute function

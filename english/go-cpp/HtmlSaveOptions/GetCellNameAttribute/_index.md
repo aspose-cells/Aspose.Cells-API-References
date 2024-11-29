@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetCellNameAttribute method. Encapsulates the function that represents getcellnameattribute in Go.'
 type: docs
 weight: 200
-url: /go/htmlsaveoptions/getcellnameattribute/
+url: /go-cpp/htmlsaveoptions/getcellnameattribute/
 ---
 
 ## GetCellNameAttribute function

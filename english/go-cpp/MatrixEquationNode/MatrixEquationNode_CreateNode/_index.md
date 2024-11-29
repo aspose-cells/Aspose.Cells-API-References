@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'MatrixEquationNode_CreateNode method. Encapsulates the function that represents createnode in Go.'
 type: docs
 weight: 200
-url: /go/matrixequationnode/matrixequationnode_createnode/
+url: /go-cpp/matrixequationnode/matrixequationnode_createnode/
 ---
 
 ## MatrixEquationNode_CreateNode function

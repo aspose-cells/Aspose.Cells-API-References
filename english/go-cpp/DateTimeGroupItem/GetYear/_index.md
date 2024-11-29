@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetYear method. Encapsulates the function that represents getyear in Go.'
 type: docs
 weight: 200
-url: /go/datetimegroupitem/getyear/
+url: /go-cpp/datetimegroupitem/getyear/
 ---
 
 ## GetYear function

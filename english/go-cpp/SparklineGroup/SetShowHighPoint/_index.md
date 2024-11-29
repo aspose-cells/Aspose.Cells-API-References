@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetShowHighPoint method. Encapsulates the function that represents setshowhighpoint in Go.'
 type: docs
 weight: 200
-url: /go/sparklinegroup/setshowhighpoint/
+url: /go-cpp/sparklinegroup/setshowhighpoint/
 ---
 
 ## SetShowHighPoint function

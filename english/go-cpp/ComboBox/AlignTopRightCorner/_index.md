@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'AlignTopRightCorner method. Encapsulates the function that represents aligntoprightcorner in Go.'
 type: docs
 weight: 200
-url: /go/combobox/aligntoprightcorner/
+url: /go-cpp/combobox/aligntoprightcorner/
 ---
 
 ## AlignTopRightCorner function

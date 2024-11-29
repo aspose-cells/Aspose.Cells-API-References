@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GroupColumns_Int_Int method. Encapsulates the function that represents groupcolumns in Go.'
 type: docs
 weight: 200
-url: /go/cells/groupcolumns_int_int/
+url: /go-cpp/cells/groupcolumns_int_int/
 ---
 
 ## GroupColumns_Int_Int function

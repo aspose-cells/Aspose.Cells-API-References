@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'BackgroundType enum. Encapsulates the object that represents backgroundtype in Go.'
 type: docs
 weight: 200
-url: /go/backgroundtype/
+url: /go-cpp/backgroundtype/
 ---
 
 ## BackgroundType Enum

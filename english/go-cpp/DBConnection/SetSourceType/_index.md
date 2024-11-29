@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetSourceType method. Encapsulates the function that represents setsourcetype in Go.'
 type: docs
 weight: 200
-url: /go/dbconnection/setsourcetype/
+url: /go-cpp/dbconnection/setsourcetype/
 ---
 
 ## SetSourceType function

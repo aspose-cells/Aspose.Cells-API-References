@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetDrawObjectEventHandler method. Encapsulates the function that represents getdrawobjecteventhandler in Go.'
 type: docs
 weight: 200
-url: /go/paginatedsaveoptions/getdrawobjecteventhandler/
+url: /go-cpp/paginatedsaveoptions/getdrawobjecteventhandler/
 ---
 
 ## GetDrawObjectEventHandler function

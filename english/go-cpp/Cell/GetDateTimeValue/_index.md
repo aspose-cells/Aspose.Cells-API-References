@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetDateTimeValue method. Encapsulates the function that represents getdatetimevalue in Go.'
 type: docs
 weight: 200
-url: /go/cell/getdatetimevalue/
+url: /go-cpp/cell/getdatetimevalue/
 ---
 
 ## GetDateTimeValue function

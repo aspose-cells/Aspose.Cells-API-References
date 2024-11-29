@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetOnlyUseConnectionFile method. Encapsulates the function that represents setonlyuseconnectionfile in Go.'
 type: docs
 weight: 200
-url: /go/webqueryconnection/setonlyuseconnectionfile/
+url: /go-cpp/webqueryconnection/setonlyuseconnectionfile/
 ---
 
 ## SetOnlyUseConnectionFile function

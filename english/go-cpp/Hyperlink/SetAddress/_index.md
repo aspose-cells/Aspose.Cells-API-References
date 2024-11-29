@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetAddress method. Encapsulates the function that represents setaddress in Go.'
 type: docs
 weight: 200
-url: /go/hyperlink/setaddress/
+url: /go-cpp/hyperlink/setaddress/
 ---
 
 ## SetAddress function

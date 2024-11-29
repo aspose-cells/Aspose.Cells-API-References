@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetColorScaleResult method. Encapsulates the function that represents getcolorscaleresult in Go.'
 type: docs
 weight: 200
-url: /go/conditionalformattingresult/getcolorscaleresult/
+url: /go-cpp/conditionalformattingresult/getcolorscaleresult/
 ---
 
 ## GetColorScaleResult function

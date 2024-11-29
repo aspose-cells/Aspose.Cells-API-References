@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetTabId method. Encapsulates the function that represents settabid in Go.'
 type: docs
 weight: 200
-url: /go/worksheet/settabid/
+url: /go-cpp/worksheet/settabid/
 ---
 
 ## SetTabId function

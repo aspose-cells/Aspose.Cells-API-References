@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTableRowTypeOfData method. Encapsulates the function that represents gettablerowtypeofdata in Go.'
 type: docs
 weight: 200
-url: /go/globalizationsettings/gettablerowtypeofdata/
+url: /go-cpp/globalizationsettings/gettablerowtypeofdata/
 ---
 
 ## GetTableRowTypeOfData function

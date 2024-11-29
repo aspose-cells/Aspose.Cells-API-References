@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetRevisionNumber method. Encapsulates the function that represents setrevisionnumber in Go.'
 type: docs
 weight: 200
-url: /go/builtindocumentpropertycollection/setrevisionnumber/
+url: /go-cpp/builtindocumentpropertycollection/setrevisionnumber/
 ---
 
 ## SetRevisionNumber function

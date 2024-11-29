@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'RemoveFormulas method. Encapsulates the function that represents removeformulas in Go.'
 type: docs
 weight: 200
-url: /go/cells/removeformulas/
+url: /go-cpp/cells/removeformulas/
 ---
 
 ## RemoveFormulas function

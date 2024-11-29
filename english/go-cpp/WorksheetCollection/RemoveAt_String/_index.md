@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'RemoveAt_String method. Encapsulates the function that represents removeat in Go.'
 type: docs
 weight: 200
-url: /go/worksheetcollection/removeat_string/
+url: /go-cpp/worksheetcollection/removeat_string/
 ---
 
 ## RemoveAt_String function

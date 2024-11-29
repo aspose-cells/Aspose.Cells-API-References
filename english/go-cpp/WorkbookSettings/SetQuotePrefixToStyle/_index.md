@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetQuotePrefixToStyle method. Encapsulates the function that represents setquoteprefixtostyle in Go.'
 type: docs
 weight: 200
-url: /go/workbooksettings/setquoteprefixtostyle/
+url: /go-cpp/workbooksettings/setquoteprefixtostyle/
 ---
 
 ## SetQuotePrefixToStyle function

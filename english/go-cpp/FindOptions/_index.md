@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'FindOptions class. Encapsulates the object that represents findoptions in Go.'
 type: docs
 weight: 200
-url: /go/findoptions/
+url: /go-cpp/findoptions/
 ---
 
 ## FindOptions class

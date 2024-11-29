@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GroupShape constructor. Encapsulates the function that represents newgroupshape in Go.'
 type: docs
 weight: 200
-url: /go/groupshape/newgroupshape/
+url: /go-cpp/groupshape/newgroupshape/
 ---
 
 ## NewGroupShape function

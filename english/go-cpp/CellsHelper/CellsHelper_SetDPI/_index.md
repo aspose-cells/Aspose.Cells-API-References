@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'CellsHelper_SetDPI method. Encapsulates the function that represents setdpi in Go.'
 type: docs
 weight: 200
-url: /go/cellshelper/cellshelper_setdpi/
+url: /go-cpp/cellshelper/cellshelper_setdpi/
 ---
 
 ## CellsHelper_SetDPI function

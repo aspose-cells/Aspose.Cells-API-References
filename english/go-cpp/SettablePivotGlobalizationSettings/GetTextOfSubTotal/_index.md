@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTextOfSubTotal method. Encapsulates the function that represents gettextofsubtotal in Go.'
 type: docs
 weight: 200
-url: /go/settablepivotglobalizationsettings/gettextofsubtotal/
+url: /go-cpp/settablepivotglobalizationsettings/gettextofsubtotal/
 ---
 
 ## GetTextOfSubTotal function

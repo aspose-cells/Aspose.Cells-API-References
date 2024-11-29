@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetGroupBy method. Encapsulates the function that represents getgroupby in Go.'
 type: docs
 weight: 200
-url: /go/subtotalsetting/getgroupby/
+url: /go-cpp/subtotalsetting/getgroupby/
 ---
 
 ## GetGroupBy function

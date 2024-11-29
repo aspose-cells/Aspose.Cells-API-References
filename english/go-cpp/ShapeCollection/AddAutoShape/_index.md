@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'AddAutoShape method. Encapsulates the function that represents addautoshape in Go.'
 type: docs
 weight: 200
-url: /go/shapecollection/addautoshape/
+url: /go-cpp/shapecollection/addautoshape/
 ---
 
 ## AddAutoShape function

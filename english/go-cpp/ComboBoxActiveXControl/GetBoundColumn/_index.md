@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetBoundColumn method. Encapsulates the function that represents getboundcolumn in Go.'
 type: docs
 weight: 200
-url: /go/comboboxactivexcontrol/getboundcolumn/
+url: /go-cpp/comboboxactivexcontrol/getboundcolumn/
 ---
 
 ## GetBoundColumn function

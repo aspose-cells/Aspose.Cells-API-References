@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'TextOptions class. Encapsulates the object that represents textoptions in Go.'
 type: docs
 weight: 200
-url: /go/textoptions/
+url: /go-cpp/textoptions/
 ---
 
 ## TextOptions class

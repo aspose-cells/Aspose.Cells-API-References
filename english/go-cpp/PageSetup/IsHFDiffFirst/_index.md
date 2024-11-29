@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsHFDiffFirst method. Encapsulates the function that represents ishfdifffirst in Go.'
 type: docs
 weight: 200
-url: /go/pagesetup/ishfdifffirst/
+url: /go-cpp/pagesetup/ishfdifffirst/
 ---
 
 ## IsHFDiffFirst function

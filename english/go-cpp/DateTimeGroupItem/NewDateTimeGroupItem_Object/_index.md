@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'DateTimeGroupItem constructor. Encapsulates the function that represents newdatetimegroupitem_object in Go.'
 type: docs
 weight: 200
-url: /go/datetimegroupitem/newdatetimegroupitem_object/
+url: /go-cpp/datetimegroupitem/newdatetimegroupitem_object/
 ---
 
 ## NewDateTimeGroupItem_Object function

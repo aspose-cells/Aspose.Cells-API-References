@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetHasRadarAxisLabels method. Encapsulates the function that represents gethasradaraxislabels in Go.'
 type: docs
 weight: 200
-url: /go/series/gethasradaraxislabels/
+url: /go-cpp/series/gethasradaraxislabels/
 ---
 
 ## GetHasRadarAxisLabels function

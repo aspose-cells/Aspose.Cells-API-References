@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetMultiThreadReading method. Encapsulates the function that represents setmultithreadreading in Go.'
 type: docs
 weight: 200
-url: /go/cells/setmultithreadreading/
+url: /go-cpp/cells/setmultithreadreading/
 ---
 
 ## SetMultiThreadReading function

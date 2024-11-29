@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetListFillRange method. Encapsulates the function that represents getlistfillrange in Go.'
 type: docs
 weight: 200
-url: /go/activexcontrol/getlistfillrange/
+url: /go-cpp/activexcontrol/getlistfillrange/
 ---
 
 ## GetListFillRange function

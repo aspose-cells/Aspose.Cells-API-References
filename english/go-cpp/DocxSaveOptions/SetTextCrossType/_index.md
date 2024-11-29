@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetTextCrossType method. Encapsulates the function that represents settextcrosstype in Go.'
 type: docs
 weight: 200
-url: /go/docxsaveoptions/settextcrosstype/
+url: /go-cpp/docxsaveoptions/settextcrosstype/
 ---
 
 ## SetTextCrossType function

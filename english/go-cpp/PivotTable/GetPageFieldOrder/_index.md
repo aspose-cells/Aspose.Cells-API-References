@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetPageFieldOrder method. Encapsulates the function that represents getpagefieldorder in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/getpagefieldorder/
+url: /go-cpp/pivottable/getpagefieldorder/
 ---
 
 ## GetPageFieldOrder function

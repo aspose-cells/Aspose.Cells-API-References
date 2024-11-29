@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTotalEditingTime method. Encapsulates the function that represents gettotaleditingtime in Go.'
 type: docs
 weight: 200
-url: /go/builtindocumentpropertycollection/gettotaleditingtime/
+url: /go-cpp/builtindocumentpropertycollection/gettotaleditingtime/
 ---
 
 ## GetTotalEditingTime function

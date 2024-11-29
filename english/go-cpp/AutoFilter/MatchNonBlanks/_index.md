@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'MatchNonBlanks method. Encapsulates the function that represents matchnonblanks in Go.'
 type: docs
 weight: 200
-url: /go/autofilter/matchnonblanks/
+url: /go-cpp/autofilter/matchnonblanks/
 ---
 
 ## MatchNonBlanks function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'PivotTableStyleType enum. Encapsulates the object that represents pivottablestyletype in Go.'
 type: docs
 weight: 200
-url: /go/pivottablestyletype/
+url: /go-cpp/pivottablestyletype/
 ---
 
 ## PivotTableStyleType Enum

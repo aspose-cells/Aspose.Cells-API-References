@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'LookInType enum. Encapsulates the object that represents lookintype in Go.'
 type: docs
 weight: 200
-url: /go/lookintype/
+url: /go-cpp/lookintype/
 ---
 
 ## LookInType Enum

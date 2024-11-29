@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'CheckColumn method. Encapsulates the function that represents checkcolumn in Go.'
 type: docs
 weight: 200
-url: /go/cells/checkcolumn/
+url: /go-cpp/cells/checkcolumn/
 ---
 
 ## CheckColumn function

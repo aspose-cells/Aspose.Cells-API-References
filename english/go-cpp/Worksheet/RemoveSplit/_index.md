@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'RemoveSplit method. Encapsulates the function that represents removesplit in Go.'
 type: docs
 weight: 200
-url: /go/worksheet/removesplit/
+url: /go-cpp/worksheet/removesplit/
 ---
 
 ## RemoveSplit function

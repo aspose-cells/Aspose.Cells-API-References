@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetAutoShowCount method. Encapsulates the function that represents setautoshowcount in Go.'
 type: docs
 weight: 200
-url: /go/pivotfield/setautoshowcount/
+url: /go-cpp/pivotfield/setautoshowcount/
 ---
 
 ## SetAutoShowCount function

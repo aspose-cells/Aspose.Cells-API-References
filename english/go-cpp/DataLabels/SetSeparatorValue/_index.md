@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetSeparatorValue method. Encapsulates the function that represents setseparatorvalue in Go.'
 type: docs
 weight: 200
-url: /go/datalabels/setseparatorvalue/
+url: /go-cpp/datalabels/setseparatorvalue/
 ---
 
 ## SetSeparatorValue function

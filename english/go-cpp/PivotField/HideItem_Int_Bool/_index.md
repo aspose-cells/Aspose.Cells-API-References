@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'HideItem_Int_Bool method. Encapsulates the function that represents hideitem in Go.'
 type: docs
 weight: 200
-url: /go/pivotfield/hideitem_int_bool/
+url: /go-cpp/pivotfield/hideitem_int_bool/
 ---
 
 ## HideItem_Int_Bool function

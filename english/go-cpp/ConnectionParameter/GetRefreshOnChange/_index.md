@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetRefreshOnChange method. Encapsulates the function that represents getrefreshonchange in Go.'
 type: docs
 weight: 200
-url: /go/connectionparameter/getrefreshonchange/
+url: /go-cpp/connectionparameter/getrefreshonchange/
 ---
 
 ## GetRefreshOnChange function

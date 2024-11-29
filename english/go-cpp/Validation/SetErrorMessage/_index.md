@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetErrorMessage method. Encapsulates the function that represents seterrormessage in Go.'
 type: docs
 weight: 200
-url: /go/validation/seterrormessage/
+url: /go-cpp/validation/seterrormessage/
 ---
 
 ## SetErrorMessage function

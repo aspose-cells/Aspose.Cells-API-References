@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetQuality method. Encapsulates the function that represents getquality in Go.'
 type: docs
 weight: 200
-url: /go/imageorprintoptions/getquality/
+url: /go-cpp/imageorprintoptions/getquality/
 ---
 
 ## GetQuality function

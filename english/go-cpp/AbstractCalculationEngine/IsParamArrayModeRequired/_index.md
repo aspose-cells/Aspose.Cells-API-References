@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsParamArrayModeRequired method. Encapsulates the function that represents isparamarraymoderequired in Go.'
 type: docs
 weight: 200
-url: /go/abstractcalculationengine/isparamarraymoderequired/
+url: /go-cpp/abstractcalculationengine/isparamarraymoderequired/
 ---
 
 ## IsParamArrayModeRequired function

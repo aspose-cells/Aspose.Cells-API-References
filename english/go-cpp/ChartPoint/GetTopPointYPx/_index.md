@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTopPointYPx method. Encapsulates the function that represents gettoppointypx in Go.'
 type: docs
 weight: 200
-url: /go/chartpoint/gettoppointypx/
+url: /go-cpp/chartpoint/gettoppointypx/
 ---
 
 ## GetTopPointYPx function

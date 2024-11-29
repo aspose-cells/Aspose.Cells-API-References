@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetDefaultY method. Encapsulates the function that represents getdefaulty in Go.'
 type: docs
 weight: 200
-url: /go/plotarea/getdefaulty/
+url: /go-cpp/plotarea/getdefaulty/
 ---
 
 ## GetDefaultY function

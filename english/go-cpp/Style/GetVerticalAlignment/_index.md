@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetVerticalAlignment method. Encapsulates the function that represents getverticalalignment in Go.'
 type: docs
 weight: 200
-url: /go/style/getverticalalignment/
+url: /go-cpp/style/getverticalalignment/
 ---
 
 ## GetVerticalAlignment function

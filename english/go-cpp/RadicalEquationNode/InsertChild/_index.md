@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'InsertChild method. Encapsulates the function that represents insertchild in Go.'
 type: docs
 weight: 200
-url: /go/radicalequationnode/insertchild/
+url: /go-cpp/radicalequationnode/insertchild/
 ---
 
 ## InsertChild function

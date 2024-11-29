@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetFontScript method. Encapsulates the function that represents getfontscript in Go.'
 type: docs
 weight: 200
-url: /go/styleflag/getfontscript/
+url: /go-cpp/styleflag/getfontscript/
 ---
 
 ## GetFontScript function

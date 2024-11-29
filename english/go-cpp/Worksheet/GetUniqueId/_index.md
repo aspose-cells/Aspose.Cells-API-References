@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetUniqueId method. Encapsulates the function that represents getuniqueid in Go.'
 type: docs
 weight: 200
-url: /go/worksheet/getuniqueid/
+url: /go-cpp/worksheet/getuniqueid/
 ---
 
 ## GetUniqueId function

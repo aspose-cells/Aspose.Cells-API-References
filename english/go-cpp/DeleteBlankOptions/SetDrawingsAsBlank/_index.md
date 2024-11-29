@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetDrawingsAsBlank method. Encapsulates the function that represents setdrawingsasblank in Go.'
 type: docs
 weight: 200
-url: /go/deleteblankoptions/setdrawingsasblank/
+url: /go-cpp/deleteblankoptions/setdrawingsasblank/
 ---
 
 ## SetDrawingsAsBlank function

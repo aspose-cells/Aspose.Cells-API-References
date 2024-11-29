@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Add_ConditionalFormattingIcon method. Encapsulates the function that represents add in Go.'
 type: docs
 weight: 200
-url: /go/conditionalformattingiconcollection/add_conditionalformattingicon/
+url: /go-cpp/conditionalformattingiconcollection/add_conditionalformattingicon/
 ---
 
 ## Add_ConditionalFormattingIcon function

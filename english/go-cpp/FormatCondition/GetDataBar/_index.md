@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetDataBar method. Encapsulates the function that represents getdatabar in Go.'
 type: docs
 weight: 200
-url: /go/formatcondition/getdatabar/
+url: /go-cpp/formatcondition/getdatabar/
 ---
 
 ## GetDataBar function

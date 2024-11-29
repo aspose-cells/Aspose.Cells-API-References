@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetForegroundThemeColor method. Encapsulates the function that represents setforegroundthemecolor in Go.'
 type: docs
 weight: 200
-url: /go/style/setforegroundthemecolor/
+url: /go-cpp/style/setforegroundthemecolor/
 ---
 
 ## SetForegroundThemeColor function

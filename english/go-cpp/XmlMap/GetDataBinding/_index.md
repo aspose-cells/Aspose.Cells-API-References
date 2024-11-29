@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetDataBinding method. Encapsulates the function that represents getdatabinding in Go.'
 type: docs
 weight: 200
-url: /go/xmlmap/getdatabinding/
+url: /go-cpp/xmlmap/getdatabinding/
 ---
 
 ## GetDataBinding function

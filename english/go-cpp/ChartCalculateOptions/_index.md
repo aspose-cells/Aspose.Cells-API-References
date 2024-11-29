@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ChartCalculateOptions class. Encapsulates the object that represents chartcalculateoptions in Go.'
 type: docs
 weight: 200
-url: /go/chartcalculateoptions/
+url: /go-cpp/chartcalculateoptions/
 ---
 
 ## ChartCalculateOptions class

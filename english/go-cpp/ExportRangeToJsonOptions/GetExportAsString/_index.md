@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetExportAsString method. Encapsulates the function that represents getexportasstring in Go.'
 type: docs
 weight: 200
-url: /go/exportrangetojsonoptions/getexportasstring/
+url: /go-cpp/exportrangetojsonoptions/getexportasstring/
 ---
 
 ## GetExportAsString function

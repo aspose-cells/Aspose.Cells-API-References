@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetDisplayStringValue method. Encapsulates the function that represents getdisplaystringvalue in Go.'
 type: docs
 weight: 200
-url: /go/cell/getdisplaystringvalue/
+url: /go-cpp/cell/getdisplaystringvalue/
 ---
 
 ## GetDisplayStringValue function

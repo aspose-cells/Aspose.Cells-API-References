@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetSpecialEffect method. Encapsulates the function that represents getspecialeffect in Go.'
 type: docs
 weight: 200
-url: /go/checkboxactivexcontrol/getspecialeffect/
+url: /go-cpp/checkboxactivexcontrol/getspecialeffect/
 ---
 
 ## GetSpecialEffect function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetGridlineType method. Encapsulates the function that represents getgridlinetype in Go.'
 type: docs
 weight: 200
-url: /go/paginatedsaveoptions/getgridlinetype/
+url: /go-cpp/paginatedsaveoptions/getgridlinetype/
 ---
 
 ## GetGridlineType function

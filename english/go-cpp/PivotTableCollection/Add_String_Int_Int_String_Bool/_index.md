@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Add_String_Int_Int_String_Bool method. Encapsulates the function that represents add in Go.'
 type: docs
 weight: 200
-url: /go/pivottablecollection/add_string_int_int_string_bool/
+url: /go-cpp/pivottablecollection/add_string_int_int_string_bool/
 ---
 
 ## Add_String_Int_Int_String_Bool function

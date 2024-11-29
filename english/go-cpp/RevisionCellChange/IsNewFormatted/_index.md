@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsNewFormatted method. Encapsulates the function that represents isnewformatted in Go.'
 type: docs
 weight: 200
-url: /go/revisioncellchange/isnewformatted/
+url: /go-cpp/revisioncellchange/isnewformatted/
 ---
 
 ## IsNewFormatted function

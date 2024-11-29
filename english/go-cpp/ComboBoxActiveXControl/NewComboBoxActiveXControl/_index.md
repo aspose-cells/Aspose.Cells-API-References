@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ComboBoxActiveXControl constructor. Encapsulates the function that represents newcomboboxactivexcontrol in Go.'
 type: docs
 weight: 200
-url: /go/comboboxactivexcontrol/newcomboboxactivexcontrol/
+url: /go-cpp/comboboxactivexcontrol/newcomboboxactivexcontrol/
 ---
 
 ## NewComboBoxActiveXControl function

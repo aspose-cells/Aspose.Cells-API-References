@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetPrintingPageType method. Encapsulates the function that represents setprintingpagetype in Go.'
 type: docs
 weight: 200
-url: /go/pdfsaveoptions/setprintingpagetype/
+url: /go-cpp/pdfsaveoptions/setprintingpagetype/
 ---
 
 ## SetPrintingPageType function

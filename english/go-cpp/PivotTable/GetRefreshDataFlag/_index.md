@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetRefreshDataFlag method. Encapsulates the function that represents getrefreshdataflag in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/getrefreshdataflag/
+url: /go-cpp/pivottable/getrefreshdataflag/
 ---
 
 ## GetRefreshDataFlag function

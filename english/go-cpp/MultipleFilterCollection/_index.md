@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'MultipleFilterCollection class. Encapsulates the object that represents multiplefiltercollection in Go.'
 type: docs
 weight: 200
-url: /go/multiplefiltercollection/
+url: /go-cpp/multiplefiltercollection/
 ---
 
 ## MultipleFilterCollection class

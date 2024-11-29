@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetActiveSheetIndex method. Encapsulates the function that represents getactivesheetindex in Go.'
 type: docs
 weight: 200
-url: /go/worksheetcollection/getactivesheetindex/
+url: /go-cpp/worksheetcollection/getactivesheetindex/
 ---
 
 ## GetActiveSheetIndex function

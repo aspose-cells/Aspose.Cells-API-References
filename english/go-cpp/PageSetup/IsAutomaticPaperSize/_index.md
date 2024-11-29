@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsAutomaticPaperSize method. Encapsulates the function that represents isautomaticpapersize in Go.'
 type: docs
 weight: 200
-url: /go/pagesetup/isautomaticpapersize/
+url: /go-cpp/pagesetup/isautomaticpapersize/
 ---
 
 ## IsAutomaticPaperSize function

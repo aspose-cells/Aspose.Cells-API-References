@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetCssStyles method. Encapsulates the function that represents setcssstyles in Go.'
 type: docs
 weight: 200
-url: /go/ebooksaveoptions/setcssstyles/
+url: /go-cpp/ebooksaveoptions/setcssstyles/
 ---
 
 ## SetCssStyles function

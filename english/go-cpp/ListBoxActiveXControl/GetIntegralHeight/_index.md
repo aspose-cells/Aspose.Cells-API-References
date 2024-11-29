@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetIntegralHeight method. Encapsulates the function that represents getintegralheight in Go.'
 type: docs
 weight: 200
-url: /go/listboxactivexcontrol/getintegralheight/
+url: /go-cpp/listboxactivexcontrol/getintegralheight/
 ---
 
 ## GetIntegralHeight function

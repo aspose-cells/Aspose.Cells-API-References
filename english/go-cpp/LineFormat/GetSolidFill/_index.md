@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetSolidFill method. Encapsulates the function that represents getsolidfill in Go.'
 type: docs
 weight: 200
-url: /go/lineformat/getsolidfill/
+url: /go-cpp/lineformat/getsolidfill/
 ---
 
 ## GetSolidFill function

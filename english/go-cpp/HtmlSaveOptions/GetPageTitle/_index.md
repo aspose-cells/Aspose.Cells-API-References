@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetPageTitle method. Encapsulates the function that represents getpagetitle in Go.'
 type: docs
 weight: 200
-url: /go/htmlsaveoptions/getpagetitle/
+url: /go-cpp/htmlsaveoptions/getpagetitle/
 ---
 
 ## GetPageTitle function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetDisplayEquation method. Encapsulates the function that represents getdisplayequation in Go.'
 type: docs
 weight: 200
-url: /go/trendline/getdisplayequation/
+url: /go-cpp/trendline/getdisplayequation/
 ---
 
 ## GetDisplayEquation function

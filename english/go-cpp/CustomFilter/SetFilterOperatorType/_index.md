@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetFilterOperatorType method. Encapsulates the function that represents setfilteroperatortype in Go.'
 type: docs
 weight: 200
-url: /go/customfilter/setfilteroperatortype/
+url: /go-cpp/customfilter/setfilteroperatortype/
 ---
 
 ## SetFilterOperatorType function

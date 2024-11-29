@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'HighlightChangesOptions class. Encapsulates the object that represents highlightchangesoptions in Go.'
 type: docs
 weight: 200
-url: /go/highlightchangesoptions/
+url: /go-cpp/highlightchangesoptions/
 ---
 
 ## HighlightChangesOptions class

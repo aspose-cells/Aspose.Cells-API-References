@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsByCategory method. Encapsulates the function that represents isbycategory in Go.'
 type: docs
 weight: 200
-url: /go/axisbins/isbycategory/
+url: /go-cpp/axisbins/isbycategory/
 ---
 
 ## IsByCategory function

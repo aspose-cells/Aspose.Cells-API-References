@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'CellsHelper_GetTextWidth method. Encapsulates the function that represents gettextwidth in Go.'
 type: docs
 weight: 200
-url: /go/cellshelper/cellshelper_gettextwidth/
+url: /go-cpp/cellshelper/cellshelper_gettextwidth/
 ---
 
 ## CellsHelper_GetTextWidth function

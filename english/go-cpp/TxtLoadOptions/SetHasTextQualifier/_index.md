@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetHasTextQualifier method. Encapsulates the function that represents sethastextqualifier in Go.'
 type: docs
 weight: 200
-url: /go/txtloadoptions/sethastextqualifier/
+url: /go-cpp/txtloadoptions/sethastextqualifier/
 ---
 
 ## SetHasTextQualifier function

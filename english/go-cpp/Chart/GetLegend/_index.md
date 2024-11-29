@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetLegend method. Encapsulates the function that represents getlegend in Go.'
 type: docs
 weight: 200
-url: /go/chart/getlegend/
+url: /go-cpp/chart/getlegend/
 ---
 
 ## GetLegend function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'PivotAreaFilterCollection class. Encapsulates the object that represents pivotareafiltercollection in Go.'
 type: docs
 weight: 200
-url: /go/pivotareafiltercollection/
+url: /go-cpp/pivotareafiltercollection/
 ---
 
 ## PivotAreaFilterCollection class

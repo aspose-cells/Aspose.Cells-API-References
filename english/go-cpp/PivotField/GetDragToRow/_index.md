@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetDragToRow method. Encapsulates the function that represents getdragtorow in Go.'
 type: docs
 weight: 200
-url: /go/pivotfield/getdragtorow/
+url: /go-cpp/pivotfield/getdragtorow/
 ---
 
 ## GetDragToRow function

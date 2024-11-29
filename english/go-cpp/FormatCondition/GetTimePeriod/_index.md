@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTimePeriod method. Encapsulates the function that represents gettimeperiod in Go.'
 type: docs
 weight: 200
-url: /go/formatcondition/gettimeperiod/
+url: /go-cpp/formatcondition/gettimeperiod/
 ---
 
 ## GetTimePeriod function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetBuiltInDocumentProperties method. Encapsulates the function that represents getbuiltindocumentproperties in Go.'
 type: docs
 weight: 200
-url: /go/workbookmetadata/getbuiltindocumentproperties/
+url: /go-cpp/workbookmetadata/getbuiltindocumentproperties/
 ---
 
 ## GetBuiltInDocumentProperties function

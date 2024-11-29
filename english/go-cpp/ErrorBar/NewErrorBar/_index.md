@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ErrorBar constructor. Encapsulates the function that represents newerrorbar in Go.'
 type: docs
 weight: 200
-url: /go/errorbar/newerrorbar/
+url: /go-cpp/errorbar/newerrorbar/
 ---
 
 ## NewErrorBar function

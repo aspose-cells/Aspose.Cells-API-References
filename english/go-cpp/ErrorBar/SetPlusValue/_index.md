@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetPlusValue method. Encapsulates the function that represents setplusvalue in Go.'
 type: docs
 weight: 200
-url: /go/errorbar/setplusvalue/
+url: /go-cpp/errorbar/setplusvalue/
 ---
 
 ## SetPlusValue function

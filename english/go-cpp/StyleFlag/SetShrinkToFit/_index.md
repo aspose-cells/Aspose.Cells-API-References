@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetShrinkToFit method. Encapsulates the function that represents setshrinktofit in Go.'
 type: docs
 weight: 200
-url: /go/styleflag/setshrinktofit/
+url: /go-cpp/styleflag/setshrinktofit/
 ---
 
 ## SetShrinkToFit function

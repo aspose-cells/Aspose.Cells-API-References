@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetUpdateSmartArt method. Encapsulates the function that represents getupdatesmartart in Go.'
 type: docs
 weight: 200
-url: /go/imagesaveoptions/getupdatesmartart/
+url: /go-cpp/imagesaveoptions/getupdatesmartart/
 ---
 
 ## GetUpdateSmartArt function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetSearchBackward method. Encapsulates the function that represents setsearchbackward in Go.'
 type: docs
 weight: 200
-url: /go/findoptions/setsearchbackward/
+url: /go-cpp/findoptions/setsearchbackward/
 ---
 
 ## SetSearchBackward function

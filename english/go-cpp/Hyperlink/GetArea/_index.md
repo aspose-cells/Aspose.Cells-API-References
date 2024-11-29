@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetArea method. Encapsulates the function that represents getarea in Go.'
 type: docs
 weight: 200
-url: /go/hyperlink/getarea/
+url: /go-cpp/hyperlink/getarea/
 ---
 
 ## GetArea function

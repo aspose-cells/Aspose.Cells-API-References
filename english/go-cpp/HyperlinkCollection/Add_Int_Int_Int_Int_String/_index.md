@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Add_Int_Int_Int_Int_String method. Encapsulates the function that represents add in Go.'
 type: docs
 weight: 200
-url: /go/hyperlinkcollection/add_int_int_int_int_string/
+url: /go-cpp/hyperlinkcollection/add_int_int_int_int_string/
 ---
 
 ## Add_Int_Int_Int_Int_String function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTopPixel method. Encapsulates the function that represents gettoppixel in Go.'
 type: docs
 weight: 200
-url: /go/slicer/gettoppixel/
+url: /go-cpp/slicer/gettoppixel/
 ---
 
 ## GetTopPixel function

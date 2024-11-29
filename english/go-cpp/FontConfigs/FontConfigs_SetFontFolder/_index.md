@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'FontConfigs_SetFontFolder method. Encapsulates the function that represents setfontfolder in Go.'
 type: docs
 weight: 200
-url: /go/fontconfigs/fontconfigs_setfontfolder/
+url: /go-cpp/fontconfigs/fontconfigs_setfontfolder/
 ---
 
 ## FontConfigs_SetFontFolder function

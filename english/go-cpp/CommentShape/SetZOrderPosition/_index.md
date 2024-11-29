@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetZOrderPosition method. Encapsulates the function that represents setzorderposition in Go.'
 type: docs
 weight: 200
-url: /go/commentshape/setzorderposition/
+url: /go-cpp/commentshape/setzorderposition/
 ---
 
 ## SetZOrderPosition function

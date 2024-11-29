@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'RowCollection class. Encapsulates the object that represents rowcollection in Go.'
 type: docs
 weight: 200
-url: /go/rowcollection/
+url: /go-cpp/rowcollection/
 ---
 
 ## RowCollection class

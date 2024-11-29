@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SparklineType enum. Encapsulates the object that represents sparklinetype in Go.'
 type: docs
 weight: 200
-url: /go/sparklinetype/
+url: /go-cpp/sparklinetype/
 ---
 
 ## SparklineType Enum

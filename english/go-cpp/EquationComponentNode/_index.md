@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'EquationComponentNode class. Encapsulates the object that represents equationcomponentnode in Go.'
 type: docs
 weight: 200
-url: /go/equationcomponentnode/
+url: /go-cpp/equationcomponentnode/
 ---
 
 ## EquationComponentNode class

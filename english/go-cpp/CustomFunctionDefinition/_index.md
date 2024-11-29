@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'CustomFunctionDefinition class. Encapsulates the object that represents customfunctiondefinition in Go.'
 type: docs
 weight: 200
-url: /go/customfunctiondefinition/
+url: /go-cpp/customfunctiondefinition/
 ---
 
 ## CustomFunctionDefinition class

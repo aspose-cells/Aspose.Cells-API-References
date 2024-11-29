@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetBackgroundRefresh method. Encapsulates the function that represents getbackgroundrefresh in Go.'
 type: docs
 weight: 200
-url: /go/dbconnection/getbackgroundrefresh/
+url: /go-cpp/dbconnection/getbackgroundrefresh/
 ---
 
 ## GetBackgroundRefresh function

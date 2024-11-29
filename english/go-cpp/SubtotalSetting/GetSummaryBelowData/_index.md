@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetSummaryBelowData method. Encapsulates the function that represents getsummarybelowdata in Go.'
 type: docs
 weight: 200
-url: /go/subtotalsetting/getsummarybelowdata/
+url: /go-cpp/subtotalsetting/getsummarybelowdata/
 ---
 
 ## GetSummaryBelowData function

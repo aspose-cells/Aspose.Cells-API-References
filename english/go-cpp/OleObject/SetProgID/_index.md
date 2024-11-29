@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetProgID method. Encapsulates the function that represents setprogid in Go.'
 type: docs
 weight: 200
-url: /go/oleobject/setprogid/
+url: /go-cpp/oleobject/setprogid/
 ---
 
 ## SetProgID function

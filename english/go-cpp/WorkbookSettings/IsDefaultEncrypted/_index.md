@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsDefaultEncrypted method. Encapsulates the function that represents isdefaultencrypted in Go.'
 type: docs
 weight: 200
-url: /go/workbooksettings/isdefaultencrypted/
+url: /go-cpp/workbooksettings/isdefaultencrypted/
 ---
 
 ## IsDefaultEncrypted function

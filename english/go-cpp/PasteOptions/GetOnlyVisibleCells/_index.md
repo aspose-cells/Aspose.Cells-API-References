@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetOnlyVisibleCells method. Encapsulates the function that represents getonlyvisiblecells in Go.'
 type: docs
 weight: 200
-url: /go/pasteoptions/getonlyvisiblecells/
+url: /go-cpp/pasteoptions/getonlyvisiblecells/
 ---
 
 ## GetOnlyVisibleCells function

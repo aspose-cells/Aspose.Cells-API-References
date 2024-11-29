@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetHeight method. Encapsulates the function that represents setheight in Go.'
 type: docs
 weight: 200
-url: /go/cellsdrawing/setheight/
+url: /go-cpp/cellsdrawing/setheight/
 ---
 
 ## SetHeight function

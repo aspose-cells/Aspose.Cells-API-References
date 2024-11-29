@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetLockedProperty method. Encapsulates the function that represents getlockedproperty in Go.'
 type: docs
 weight: 200
-url: /go/label/getlockedproperty/
+url: /go-cpp/label/getlockedproperty/
 ---
 
 ## GetLockedProperty function

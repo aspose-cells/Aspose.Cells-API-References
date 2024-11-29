@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SmartTagProperty class. Encapsulates the object that represents smarttagproperty in Go.'
 type: docs
 weight: 200
-url: /go/smarttagproperty/
+url: /go-cpp/smarttagproperty/
 ---
 
 ## SmartTagProperty class

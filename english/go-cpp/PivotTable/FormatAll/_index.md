@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'FormatAll method. Encapsulates the function that represents formatall in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/formatall/
+url: /go-cpp/pivottable/formatall/
 ---
 
 ## FormatAll function

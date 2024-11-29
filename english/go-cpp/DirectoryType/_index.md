@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'DirectoryType enum. Encapsulates the object that represents directorytype in Go.'
 type: docs
 weight: 200
-url: /go/directorytype/
+url: /go-cpp/directorytype/
 ---
 
 ## DirectoryType Enum

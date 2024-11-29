@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetDataConnections method. Encapsulates the function that represents getdataconnections in Go.'
 type: docs
 weight: 200
-url: /go/workbook/getdataconnections/
+url: /go-cpp/workbook/getdataconnections/
 ---
 
 ## GetDataConnections function

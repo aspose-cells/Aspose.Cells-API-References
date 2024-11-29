@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetCountLarge method. Encapsulates the function that represents getcountlarge in Go.'
 type: docs
 weight: 200
-url: /go/cells/getcountlarge/
+url: /go-cpp/cells/getcountlarge/
 ---
 
 ## GetCountLarge function

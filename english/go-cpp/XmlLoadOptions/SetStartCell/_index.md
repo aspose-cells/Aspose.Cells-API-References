@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetStartCell method. Encapsulates the function that represents setstartcell in Go.'
 type: docs
 weight: 200
-url: /go/xmlloadoptions/setstartcell/
+url: /go-cpp/xmlloadoptions/setstartcell/
 ---
 
 ## SetStartCell function

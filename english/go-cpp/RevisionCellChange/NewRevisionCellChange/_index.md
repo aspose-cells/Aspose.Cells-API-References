@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'RevisionCellChange constructor. Encapsulates the function that represents newrevisioncellchange in Go.'
 type: docs
 weight: 200
-url: /go/revisioncellchange/newrevisioncellchange/
+url: /go-cpp/revisioncellchange/newrevisioncellchange/
 ---
 
 ## NewRevisionCellChange function

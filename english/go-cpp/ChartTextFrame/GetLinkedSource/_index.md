@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetLinkedSource method. Encapsulates the function that represents getlinkedsource in Go.'
 type: docs
 weight: 200
-url: /go/charttextframe/getlinkedsource/
+url: /go-cpp/charttextframe/getlinkedsource/
 ---
 
 ## GetLinkedSource function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetForeTransparency method. Encapsulates the function that represents getforetransparency in Go.'
 type: docs
 weight: 200
-url: /go/patternfill/getforetransparency/
+url: /go-cpp/patternfill/getforetransparency/
 ---
 
 ## GetForeTransparency function

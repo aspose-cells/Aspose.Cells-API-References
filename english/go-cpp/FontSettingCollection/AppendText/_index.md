@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'AppendText method. Encapsulates the function that represents appendtext in Go.'
 type: docs
 weight: 200
-url: /go/fontsettingcollection/appendtext/
+url: /go-cpp/fontsettingcollection/appendtext/
 ---
 
 ## AppendText function

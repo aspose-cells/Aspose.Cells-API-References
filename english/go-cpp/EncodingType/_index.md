@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'EncodingType enum. Encapsulates the object that represents encodingtype in Go.'
 type: docs
 weight: 200
-url: /go/encodingtype/
+url: /go-cpp/encodingtype/
 ---
 
 ## EncodingType Enum

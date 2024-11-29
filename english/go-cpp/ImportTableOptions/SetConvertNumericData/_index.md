@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetConvertNumericData method. Encapsulates the function that represents setconvertnumericdata in Go.'
 type: docs
 weight: 200
-url: /go/importtableoptions/setconvertnumericdata/
+url: /go-cpp/importtableoptions/setconvertnumericdata/
 ---
 
 ## SetConvertNumericData function

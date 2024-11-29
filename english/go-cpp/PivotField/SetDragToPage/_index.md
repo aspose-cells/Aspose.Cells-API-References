@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetDragToPage method. Encapsulates the function that represents setdragtopage in Go.'
 type: docs
 weight: 200
-url: /go/pivotfield/setdragtopage/
+url: /go-cpp/pivotfield/setdragtopage/
 ---
 
 ## SetDragToPage function

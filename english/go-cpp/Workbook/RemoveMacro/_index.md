@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'RemoveMacro method. Encapsulates the function that represents removemacro in Go.'
 type: docs
 weight: 200
-url: /go/workbook/removemacro/
+url: /go-cpp/workbook/removemacro/
 ---
 
 ## RemoveMacro function

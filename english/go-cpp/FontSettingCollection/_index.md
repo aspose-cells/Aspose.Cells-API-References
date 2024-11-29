@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'FontSettingCollection class. Encapsulates the object that represents fontsettingcollection in Go.'
 type: docs
 weight: 200
-url: /go/fontsettingcollection/
+url: /go-cpp/fontsettingcollection/
 ---
 
 ## FontSettingCollection class

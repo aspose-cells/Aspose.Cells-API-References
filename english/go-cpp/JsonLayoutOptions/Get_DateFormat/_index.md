@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Get_DateFormat method. Encapsulates the function that represents get_dateformat in Go.'
 type: docs
 weight: 200
-url: /go/jsonlayoutoptions/get_dateformat/
+url: /go-cpp/jsonlayoutoptions/get_dateformat/
 ---
 
 ## Get_DateFormat function

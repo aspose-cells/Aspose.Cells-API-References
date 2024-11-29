@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetMsoDrawingType method. Encapsulates the function that represents getmsodrawingtype in Go.'
 type: docs
 weight: 200
-url: /go/spinner/getmsodrawingtype/
+url: /go-cpp/spinner/getmsodrawingtype/
 ---
 
 ## GetMsoDrawingType function

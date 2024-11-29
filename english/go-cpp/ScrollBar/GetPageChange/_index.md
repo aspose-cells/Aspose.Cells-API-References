@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetPageChange method. Encapsulates the function that represents getpagechange in Go.'
 type: docs
 weight: 200
-url: /go/scrollbar/getpagechange/
+url: /go-cpp/scrollbar/getpagechange/
 ---
 
 ## GetPageChange function

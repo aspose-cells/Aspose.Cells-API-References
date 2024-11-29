@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ExportRangeToJsonOptions constructor. Encapsulates the function that represents newexportrangetojsonoptions in Go.'
 type: docs
 weight: 200
-url: /go/exportrangetojsonoptions/newexportrangetojsonoptions/
+url: /go-cpp/exportrangetojsonoptions/newexportrangetojsonoptions/
 ---
 
 ## NewExportRangeToJsonOptions function

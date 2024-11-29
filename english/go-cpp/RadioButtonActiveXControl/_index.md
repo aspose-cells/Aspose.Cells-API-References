@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'RadioButtonActiveXControl class. Encapsulates the object that represents radiobuttonactivexcontrol in Go.'
 type: docs
 weight: 200
-url: /go/radiobuttonactivexcontrol/
+url: /go-cpp/radiobuttonactivexcontrol/
 ---
 
 ## RadioButtonActiveXControl class

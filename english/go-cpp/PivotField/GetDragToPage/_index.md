@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetDragToPage method. Encapsulates the function that represents getdragtopage in Go.'
 type: docs
 weight: 200
-url: /go/pivotfield/getdragtopage/
+url: /go-cpp/pivotfield/getdragtopage/
 ---
 
 ## GetDragToPage function

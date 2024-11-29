@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'InitPivotItems method. Encapsulates the function that represents initpivotitems in Go.'
 type: docs
 weight: 200
-url: /go/pivotfield/initpivotitems/
+url: /go-cpp/pivotfield/initpivotitems/
 ---
 
 ## InitPivotItems function

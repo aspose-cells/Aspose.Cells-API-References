@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetOriginalSheetIndex method. Encapsulates the function that represents getoriginalsheetindex in Go.'
 type: docs
 weight: 200
-url: /go/htmltableloadoption/getoriginalsheetindex/
+url: /go-cpp/htmltableloadoption/getoriginalsheetindex/
 ---
 
 ## GetOriginalSheetIndex function

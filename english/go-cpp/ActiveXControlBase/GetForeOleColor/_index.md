@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetForeOleColor method. Encapsulates the function that represents getforeolecolor in Go.'
 type: docs
 weight: 200
-url: /go/activexcontrolbase/getforeolecolor/
+url: /go-cpp/activexcontrolbase/getforeolecolor/
 ---
 
 ## GetForeOleColor function

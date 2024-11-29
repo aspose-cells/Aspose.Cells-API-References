@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ShowInCompactForm method. Encapsulates the function that represents showincompactform in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/showincompactform/
+url: /go-cpp/pivottable/showincompactform/
 ---
 
 ## ShowInCompactForm function

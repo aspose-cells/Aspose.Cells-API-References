@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetSelectionType method. Encapsulates the function that represents getselectiontype in Go.'
 type: docs
 weight: 200
-url: /go/listbox/getselectiontype/
+url: /go-cpp/listbox/getselectiontype/
 ---
 
 ## GetSelectionType function

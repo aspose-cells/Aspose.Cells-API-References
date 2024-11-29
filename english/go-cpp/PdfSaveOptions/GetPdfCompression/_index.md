@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetPdfCompression method. Encapsulates the function that represents getpdfcompression in Go.'
 type: docs
 weight: 200
-url: /go/pdfsaveoptions/getpdfcompression/
+url: /go-cpp/pdfsaveoptions/getpdfcompression/
 ---
 
 ## GetPdfCompression function

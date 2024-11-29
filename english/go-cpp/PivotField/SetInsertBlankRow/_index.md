@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetInsertBlankRow method. Encapsulates the function that represents setinsertblankrow in Go.'
 type: docs
 weight: 200
-url: /go/pivotfield/setinsertblankrow/
+url: /go-cpp/pivotfield/setinsertblankrow/
 ---
 
 ## SetInsertBlankRow function

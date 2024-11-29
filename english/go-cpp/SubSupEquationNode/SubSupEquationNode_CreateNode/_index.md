@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SubSupEquationNode_CreateNode method. Encapsulates the function that represents createnode in Go.'
 type: docs
 weight: 200
-url: /go/subsupequationnode/subsupequationnode_createnode/
+url: /go-cpp/subsupequationnode/subsupequationnode_createnode/
 ---
 
 ## SubSupEquationNode_CreateNode function

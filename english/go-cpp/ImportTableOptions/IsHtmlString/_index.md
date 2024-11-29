@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsHtmlString method. Encapsulates the function that represents ishtmlstring in Go.'
 type: docs
 weight: 200
-url: /go/importtableoptions/ishtmlstring/
+url: /go-cpp/importtableoptions/ishtmlstring/
 ---
 
 ## IsHtmlString function

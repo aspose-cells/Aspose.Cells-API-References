@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetMarker method. Encapsulates the function that represents getmarker in Go.'
 type: docs
 weight: 200
-url: /go/series/getmarker/
+url: /go-cpp/series/getmarker/
 ---
 
 ## GetMarker function

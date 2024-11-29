@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ImageBinarizationMethod enum. Encapsulates the object that represents imagebinarizationmethod in Go.'
 type: docs
 weight: 200
-url: /go/imagebinarizationmethod/
+url: /go-cpp/imagebinarizationmethod/
 ---
 
 ## ImageBinarizationMethod Enum

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetIgnoreError method. Encapsulates the function that represents getignoreerror in Go.'
 type: docs
 weight: 200
-url: /go/xpssaveoptions/getignoreerror/
+url: /go-cpp/xpssaveoptions/getignoreerror/
 ---
 
 ## GetIgnoreError function

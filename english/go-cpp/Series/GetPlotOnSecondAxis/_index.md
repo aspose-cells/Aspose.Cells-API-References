@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetPlotOnSecondAxis method. Encapsulates the function that represents getplotonsecondaxis in Go.'
 type: docs
 weight: 200
-url: /go/series/getplotonsecondaxis/
+url: /go-cpp/series/getplotonsecondaxis/
 ---
 
 ## GetPlotOnSecondAxis function

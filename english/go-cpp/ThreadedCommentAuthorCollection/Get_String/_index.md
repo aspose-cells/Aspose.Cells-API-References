@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Get_String method. Encapsulates the function that represents get in Go.'
 type: docs
 weight: 200
-url: /go/threadedcommentauthorcollection/get_string/
+url: /go-cpp/threadedcommentauthorcollection/get_string/
 ---
 
 ## Get_String function

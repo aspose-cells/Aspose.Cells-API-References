@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetAlignments method. Encapsulates the function that represents setalignments in Go.'
 type: docs
 weight: 200
-url: /go/styleflag/setalignments/
+url: /go-cpp/styleflag/setalignments/
 ---
 
 ## SetAlignments function

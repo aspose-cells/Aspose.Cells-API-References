@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetDisplayAsIcon method. Encapsulates the function that represents getdisplayasicon in Go.'
 type: docs
 weight: 200
-url: /go/oleobject/getdisplayasicon/
+url: /go-cpp/oleobject/getdisplayasicon/
 ---
 
 ## GetDisplayAsIcon function

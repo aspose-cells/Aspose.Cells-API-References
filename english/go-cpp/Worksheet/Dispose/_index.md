@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Dispose method. Encapsulates the function that represents dispose in Go.'
 type: docs
 weight: 200
-url: /go/worksheet/dispose/
+url: /go-cpp/worksheet/dispose/
 ---
 
 ## Dispose function

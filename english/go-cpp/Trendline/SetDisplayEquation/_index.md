@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetDisplayEquation method. Encapsulates the function that represents setdisplayequation in Go.'
 type: docs
 weight: 200
-url: /go/trendline/setdisplayequation/
+url: /go-cpp/trendline/setdisplayequation/
 ---
 
 ## SetDisplayEquation function

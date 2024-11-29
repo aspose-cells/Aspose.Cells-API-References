@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetPageIndex method. Encapsulates the function that represents setpageindex in Go.'
 type: docs
 weight: 200
-url: /go/imageorprintoptions/setpageindex/
+url: /go-cpp/imageorprintoptions/setpageindex/
 ---
 
 ## SetPageIndex function

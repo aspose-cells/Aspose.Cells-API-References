@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetHtmlText method. Encapsulates the function that represents sethtmltext in Go.'
 type: docs
 weight: 200
-url: /go/spinner/sethtmltext/
+url: /go-cpp/spinner/sethtmltext/
 ---
 
 ## SetHtmlText function

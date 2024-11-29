@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetDisplayNaAsBlank method. Encapsulates the function that represents getdisplaynaasblank in Go.'
 type: docs
 weight: 200
-url: /go/chart/getdisplaynaasblank/
+url: /go-cpp/chart/getdisplaynaasblank/
 ---
 
 ## GetDisplayNaAsBlank function

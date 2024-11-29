@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ShapeTextAlignment class. Encapsulates the object that represents shapetextalignment in Go.'
 type: docs
 weight: 200
-url: /go/shapetextalignment/
+url: /go-cpp/shapetextalignment/
 ---
 
 ## ShapeTextAlignment class

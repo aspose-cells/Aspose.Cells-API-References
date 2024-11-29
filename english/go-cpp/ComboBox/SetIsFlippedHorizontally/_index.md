@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsFlippedHorizontally method. Encapsulates the function that represents setisflippedhorizontally in Go.'
 type: docs
 weight: 200
-url: /go/combobox/setisflippedhorizontally/
+url: /go-cpp/combobox/setisflippedhorizontally/
 ---
 
 ## SetIsFlippedHorizontally function

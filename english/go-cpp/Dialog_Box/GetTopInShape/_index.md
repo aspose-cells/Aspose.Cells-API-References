@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTopInShape method. Encapsulates the function that represents gettopinshape in Go.'
 type: docs
 weight: 200
-url: /go/dialog_box/gettopinshape/
+url: /go-cpp/dialog_box/gettopinshape/
 ---
 
 ## GetTopInShape function

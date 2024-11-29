@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'MsoLineStyle enum. Encapsulates the object that represents msolinestyle in Go.'
 type: docs
 weight: 200
-url: /go/msolinestyle/
+url: /go-cpp/msolinestyle/
 ---
 
 ## MsoLineStyle Enum

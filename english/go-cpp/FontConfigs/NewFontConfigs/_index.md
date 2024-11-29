@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'FontConfigs constructor. Encapsulates the function that represents newfontconfigs in Go.'
 type: docs
 weight: 200
-url: /go/fontconfigs/newfontconfigs/
+url: /go-cpp/fontconfigs/newfontconfigs/
 ---
 
 ## NewFontConfigs function

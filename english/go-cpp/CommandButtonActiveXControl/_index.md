@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'CommandButtonActiveXControl class. Encapsulates the object that represents commandbuttonactivexcontrol in Go.'
 type: docs
 weight: 200
-url: /go/commandbuttonactivexcontrol/
+url: /go-cpp/commandbuttonactivexcontrol/
 ---
 
 ## CommandButtonActiveXControl class

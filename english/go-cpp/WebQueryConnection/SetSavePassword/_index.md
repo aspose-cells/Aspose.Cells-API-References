@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetSavePassword method. Encapsulates the function that represents setsavepassword in Go.'
 type: docs
 weight: 200
-url: /go/webqueryconnection/setsavepassword/
+url: /go-cpp/webqueryconnection/setsavepassword/
 ---
 
 ## SetSavePassword function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'BarEquationNode class. Encapsulates the object that represents barequationnode in Go.'
 type: docs
 weight: 200
-url: /go/barequationnode/
+url: /go-cpp/barequationnode/
 ---
 
 ## BarEquationNode class

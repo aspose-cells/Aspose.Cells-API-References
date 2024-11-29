@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsPrintable method. Encapsulates the function that represents setisprintable in Go.'
 type: docs
 weight: 200
-url: /go/customxmlshape/setisprintable/
+url: /go-cpp/customxmlshape/setisprintable/
 ---
 
 ## SetIsPrintable function

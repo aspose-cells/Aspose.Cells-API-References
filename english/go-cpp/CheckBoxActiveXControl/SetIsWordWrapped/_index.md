@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsWordWrapped method. Encapsulates the function that represents setiswordwrapped in Go.'
 type: docs
 weight: 200
-url: /go/checkboxactivexcontrol/setiswordwrapped/
+url: /go-cpp/checkboxactivexcontrol/setiswordwrapped/
 ---
 
 ## SetIsWordWrapped function

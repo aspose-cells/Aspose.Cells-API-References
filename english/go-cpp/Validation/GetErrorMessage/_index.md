@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetErrorMessage method. Encapsulates the function that represents geterrormessage in Go.'
 type: docs
 weight: 200
-url: /go/validation/geterrormessage/
+url: /go-cpp/validation/geterrormessage/
 ---
 
 ## GetErrorMessage function

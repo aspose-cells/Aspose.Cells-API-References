@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'AddWordArt method. Encapsulates the function that represents addwordart in Go.'
 type: docs
 weight: 200
-url: /go/shapecollection/addwordart/
+url: /go-cpp/shapecollection/addwordart/
 ---
 
 ## AddWordArt function

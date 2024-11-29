@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetMinValue method. Encapsulates the function that represents getminvalue in Go.'
 type: docs
 weight: 200
-url: /go/axis/getminvalue/
+url: /go-cpp/axis/getminvalue/
 ---
 
 ## GetMinValue function

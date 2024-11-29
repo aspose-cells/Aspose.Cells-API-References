@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetListObjects method. Encapsulates the function that represents getlistobjects in Go.'
 type: docs
 weight: 200
-url: /go/worksheet/getlistobjects/
+url: /go-cpp/worksheet/getlistobjects/
 ---
 
 ## GetListObjects function

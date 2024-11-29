@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetDeleted method. Encapsulates the function that represents setdeleted in Go.'
 type: docs
 weight: 200
-url: /go/smarttag/setdeleted/
+url: /go-cpp/smarttag/setdeleted/
 ---
 
 ## SetDeleted function

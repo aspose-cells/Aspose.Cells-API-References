@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetReferToSheetWithSameName method. Encapsulates the function that represents getrefertosheetwithsamename in Go.'
 type: docs
 weight: 200
-url: /go/copyoptions/getrefertosheetwithsamename/
+url: /go-cpp/copyoptions/getrefertosheetwithsamename/
 ---
 
 ## GetReferToSheetWithSameName function

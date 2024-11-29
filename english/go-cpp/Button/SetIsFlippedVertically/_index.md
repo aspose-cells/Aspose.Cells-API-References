@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsFlippedVertically method. Encapsulates the function that represents setisflippedvertically in Go.'
 type: docs
 weight: 200
-url: /go/button/setisflippedvertically/
+url: /go-cpp/button/setisflippedvertically/
 ---
 
 ## SetIsFlippedVertically function

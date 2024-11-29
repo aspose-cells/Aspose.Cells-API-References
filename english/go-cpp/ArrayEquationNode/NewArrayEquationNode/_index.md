@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ArrayEquationNode constructor. Encapsulates the function that represents newarrayequationnode in Go.'
 type: docs
 weight: 200
-url: /go/arrayequationnode/newarrayequationnode/
+url: /go-cpp/arrayequationnode/newarrayequationnode/
 ---
 
 ## NewArrayEquationNode function

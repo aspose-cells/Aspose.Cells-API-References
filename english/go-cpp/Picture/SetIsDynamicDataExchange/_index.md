@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsDynamicDataExchange method. Encapsulates the function that represents setisdynamicdataexchange in Go.'
 type: docs
 weight: 200
-url: /go/picture/setisdynamicdataexchange/
+url: /go-cpp/picture/setisdynamicdataexchange/
 ---
 
 ## SetIsDynamicDataExchange function

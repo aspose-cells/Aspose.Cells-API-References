@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GroupBox class. Encapsulates the object that represents groupbox in Go.'
 type: docs
 weight: 200
-url: /go/groupbox/
+url: /go-cpp/groupbox/
 ---
 
 ## GroupBox class

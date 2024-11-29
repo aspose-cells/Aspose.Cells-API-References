@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetPageFieldOrder method. Encapsulates the function that represents setpagefieldorder in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/setpagefieldorder/
+url: /go-cpp/pivottable/setpagefieldorder/
 ---
 
 ## SetPageFieldOrder function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetInnerArcEndPointXPx method. Encapsulates the function that represents getinnerarcendpointxpx in Go.'
 type: docs
 weight: 200
-url: /go/chartpoint/getinnerarcendpointxpx/
+url: /go-cpp/chartpoint/getinnerarcendpointxpx/
 ---
 
 ## GetInnerArcEndPointXPx function

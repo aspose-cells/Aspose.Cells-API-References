@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'RemoveRange method. Encapsulates the function that represents removerange in Go.'
 type: docs
 weight: 200
-url: /go/errorcheckoption/removerange/
+url: /go-cpp/errorcheckoption/removerange/
 ---
 
 ## RemoveRange function

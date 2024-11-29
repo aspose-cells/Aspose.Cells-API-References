@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'TickLabelItem class. Encapsulates the object that represents ticklabelitem in Go.'
 type: docs
 weight: 200
-url: /go/ticklabelitem/
+url: /go-cpp/ticklabelitem/
 ---
 
 ## TickLabelItem class

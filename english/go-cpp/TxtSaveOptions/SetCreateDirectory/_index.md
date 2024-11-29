@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetCreateDirectory method. Encapsulates the function that represents setcreatedirectory in Go.'
 type: docs
 weight: 200
-url: /go/txtsaveoptions/setcreatedirectory/
+url: /go-cpp/txtsaveoptions/setcreatedirectory/
 ---
 
 ## SetCreateDirectory function

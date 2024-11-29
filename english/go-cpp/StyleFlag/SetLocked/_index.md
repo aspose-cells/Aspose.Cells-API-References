@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetLocked method. Encapsulates the function that represents setlocked in Go.'
 type: docs
 weight: 200
-url: /go/styleflag/setlocked/
+url: /go-cpp/styleflag/setlocked/
 ---
 
 ## SetLocked function

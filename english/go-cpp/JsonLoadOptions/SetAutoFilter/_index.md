@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetAutoFilter method. Encapsulates the function that represents setautofilter in Go.'
 type: docs
 weight: 200
-url: /go/jsonloadoptions/setautofilter/
+url: /go-cpp/jsonloadoptions/setautofilter/
 ---
 
 ## SetAutoFilter function

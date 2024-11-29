@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetEndArrowheadLength method. Encapsulates the function that represents setendarrowheadlength in Go.'
 type: docs
 weight: 200
-url: /go/lineformat/setendarrowheadlength/
+url: /go-cpp/lineformat/setendarrowheadlength/
 ---
 
 ## SetEndArrowheadLength function

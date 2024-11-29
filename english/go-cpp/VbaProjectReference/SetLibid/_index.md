@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetLibid method. Encapsulates the function that represents setlibid in Go.'
 type: docs
 weight: 200
-url: /go/vbaprojectreference/setlibid/
+url: /go-cpp/vbaprojectreference/setlibid/
 ---
 
 ## SetLibid function

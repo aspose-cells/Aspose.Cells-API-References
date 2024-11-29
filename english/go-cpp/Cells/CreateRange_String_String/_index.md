@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'CreateRange_String_String method. Encapsulates the function that represents createrange in Go.'
 type: docs
 weight: 200
-url: /go/cells/createrange_string_string/
+url: /go-cpp/cells/createrange_string_string/
 ---
 
 ## CreateRange_String_String function

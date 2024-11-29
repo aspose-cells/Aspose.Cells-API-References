@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetConnectionName method. Encapsulates the function that represents getconnectionname in Go.'
 type: docs
 weight: 200
-url: /go/datamodeltable/getconnectionname/
+url: /go-cpp/datamodeltable/getconnectionname/
 ---
 
 ## GetConnectionName function

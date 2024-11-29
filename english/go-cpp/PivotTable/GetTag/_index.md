@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTag method. Encapsulates the function that represents gettag in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/gettag/
+url: /go-cpp/pivottable/gettag/
 ---
 
 ## GetTag function

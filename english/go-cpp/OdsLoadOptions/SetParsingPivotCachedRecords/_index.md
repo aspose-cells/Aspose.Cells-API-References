@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetParsingPivotCachedRecords method. Encapsulates the function that represents setparsingpivotcachedrecords in Go.'
 type: docs
 weight: 200
-url: /go/odsloadoptions/setparsingpivotcachedrecords/
+url: /go-cpp/odsloadoptions/setparsingpivotcachedrecords/
 ---
 
 ## SetParsingPivotCachedRecords function

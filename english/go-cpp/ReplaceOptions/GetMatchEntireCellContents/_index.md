@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetMatchEntireCellContents method. Encapsulates the function that represents getmatchentirecellcontents in Go.'
 type: docs
 weight: 200
-url: /go/replaceoptions/getmatchentirecellcontents/
+url: /go-cpp/replaceoptions/getmatchentirecellcontents/
 ---
 
 ## GetMatchEntireCellContents function

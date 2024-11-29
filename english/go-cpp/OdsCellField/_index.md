@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'OdsCellField class. Encapsulates the object that represents odscellfield in Go.'
 type: docs
 weight: 200
-url: /go/odscellfield/
+url: /go-cpp/odscellfield/
 ---
 
 ## OdsCellField class

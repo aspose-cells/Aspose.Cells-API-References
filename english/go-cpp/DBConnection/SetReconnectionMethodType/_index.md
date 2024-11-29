@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetReconnectionMethodType method. Encapsulates the function that represents setreconnectionmethodtype in Go.'
 type: docs
 weight: 200
-url: /go/dbconnection/setreconnectionmethodtype/
+url: /go-cpp/dbconnection/setreconnectionmethodtype/
 ---
 
 ## SetReconnectionMethodType function

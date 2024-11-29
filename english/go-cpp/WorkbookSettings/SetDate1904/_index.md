@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetDate1904 method. Encapsulates the function that represents setdate1904 in Go.'
 type: docs
 weight: 200
-url: /go/workbooksettings/setdate1904/
+url: /go-cpp/workbooksettings/setdate1904/
 ---
 
 ## SetDate1904 function

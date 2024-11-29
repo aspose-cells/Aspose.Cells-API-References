@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'HideColumns method. Encapsulates the function that represents hidecolumns in Go.'
 type: docs
 weight: 200
-url: /go/cells/hidecolumns/
+url: /go-cpp/cells/hidecolumns/
 ---
 
 ## HideColumns function

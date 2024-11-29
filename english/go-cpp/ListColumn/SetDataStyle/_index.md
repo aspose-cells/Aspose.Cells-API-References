@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetDataStyle method. Encapsulates the function that represents setdatastyle in Go.'
 type: docs
 weight: 200
-url: /go/listcolumn/setdatastyle/
+url: /go-cpp/listcolumn/setdatastyle/
 ---
 
 ## SetDataStyle function

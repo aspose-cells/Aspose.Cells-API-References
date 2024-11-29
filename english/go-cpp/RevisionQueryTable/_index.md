@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'RevisionQueryTable class. Encapsulates the object that represents revisionquerytable in Go.'
 type: docs
 weight: 200
-url: /go/revisionquerytable/
+url: /go-cpp/revisionquerytable/
 ---
 
 ## RevisionQueryTable class

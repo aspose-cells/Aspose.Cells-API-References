@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsAutoSubtotals method. Encapsulates the function that represents isautosubtotals in Go.'
 type: docs
 weight: 200
-url: /go/pivotfield/isautosubtotals/
+url: /go-cpp/pivotfield/isautosubtotals/
 ---
 
 ## IsAutoSubtotals function

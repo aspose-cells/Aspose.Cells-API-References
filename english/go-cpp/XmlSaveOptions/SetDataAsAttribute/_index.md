@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetDataAsAttribute method. Encapsulates the function that represents setdataasattribute in Go.'
 type: docs
 weight: 200
-url: /go/xmlsaveoptions/setdataasattribute/
+url: /go-cpp/xmlsaveoptions/setdataasattribute/
 ---
 
 ## SetDataAsAttribute function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsDynamicArrayFormula method. Encapsulates the function that represents isdynamicarrayformula in Go.'
 type: docs
 weight: 200
-url: /go/cell/isdynamicarrayformula/
+url: /go-cpp/cell/isdynamicarrayformula/
 ---
 
 ## IsDynamicArrayFormula function

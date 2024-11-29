@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'StartSheet method. Encapsulates the function that represents startsheet in Go.'
 type: docs
 weight: 200
-url: /go/loadfilter/startsheet/
+url: /go-cpp/loadfilter/startsheet/
 ---
 
 ## StartSheet function

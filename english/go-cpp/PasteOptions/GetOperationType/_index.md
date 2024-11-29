@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetOperationType method. Encapsulates the function that represents getoperationtype in Go.'
 type: docs
 weight: 200
-url: /go/pasteoptions/getoperationtype/
+url: /go-cpp/pasteoptions/getoperationtype/
 ---
 
 ## GetOperationType function

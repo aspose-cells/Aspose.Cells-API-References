@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTimelines method. Encapsulates the function that represents gettimelines in Go.'
 type: docs
 weight: 200
-url: /go/worksheet/gettimelines/
+url: /go-cpp/worksheet/gettimelines/
 ---
 
 ## GetTimelines function

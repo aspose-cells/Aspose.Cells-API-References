@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GroupBy_Double_Double_Double_Bool method. Encapsulates the function that represents groupby in Go.'
 type: docs
 weight: 200
-url: /go/pivotfield/groupby_double_double_double_bool/
+url: /go-cpp/pivotfield/groupby_double_double_double_bool/
 ---
 
 ## GroupBy_Double_Double_Double_Bool function

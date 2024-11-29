@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ToBool method. Encapsulates the function that represents tobool in Go.'
 type: docs
 weight: 200
-url: /go/documentproperty/tobool/
+url: /go-cpp/documentproperty/tobool/
 ---
 
 ## ToBool function

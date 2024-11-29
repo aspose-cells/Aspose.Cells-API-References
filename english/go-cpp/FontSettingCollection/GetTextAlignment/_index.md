@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTextAlignment method. Encapsulates the function that represents gettextalignment in Go.'
 type: docs
 weight: 200
-url: /go/fontsettingcollection/gettextalignment/
+url: /go-cpp/fontsettingcollection/gettextalignment/
 ---
 
 ## GetTextAlignment function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetParsingPivotCachedRecords method. Encapsulates the function that represents getparsingpivotcachedrecords in Go.'
 type: docs
 weight: 200
-url: /go/abstracttextloadoptions/getparsingpivotcachedrecords/
+url: /go-cpp/abstracttextloadoptions/getparsingpivotcachedrecords/
 ---
 
 ## GetParsingPivotCachedRecords function

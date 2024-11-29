@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetTopInch method. Encapsulates the function that represents settopinch in Go.'
 type: docs
 weight: 200
-url: /go/listbox/settopinch/
+url: /go-cpp/listbox/settopinch/
 ---
 
 ## SetTopInch function

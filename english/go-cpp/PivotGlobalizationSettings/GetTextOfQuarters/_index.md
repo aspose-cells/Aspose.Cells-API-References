@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTextOfQuarters method. Encapsulates the function that represents gettextofquarters in Go.'
 type: docs
 weight: 200
-url: /go/pivotglobalizationsettings/gettextofquarters/
+url: /go-cpp/pivotglobalizationsettings/gettextofquarters/
 ---
 
 ## GetTextOfQuarters function

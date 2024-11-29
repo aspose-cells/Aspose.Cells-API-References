@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'TotalsCalculation enum. Encapsulates the object that represents totalscalculation in Go.'
 type: docs
 weight: 200
-url: /go/totalscalculation/
+url: /go-cpp/totalscalculation/
 ---
 
 ## TotalsCalculation Enum

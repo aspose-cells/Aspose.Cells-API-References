@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetSettings method. Encapsulates the function that represents getsettings in Go.'
 type: docs
 weight: 200
-url: /go/workbook/getsettings/
+url: /go-cpp/workbook/getsettings/
 ---
 
 ## GetSettings function

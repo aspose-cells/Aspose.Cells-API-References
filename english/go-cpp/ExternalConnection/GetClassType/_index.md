@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetClassType method. Encapsulates the function that represents getclasstype in Go.'
 type: docs
 weight: 200
-url: /go/externalconnection/getclasstype/
+url: /go-cpp/externalconnection/getclasstype/
 ---
 
 ## GetClassType function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetMergeLabels method. Encapsulates the function that represents getmergelabels in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/getmergelabels/
+url: /go-cpp/pivottable/getmergelabels/
 ---
 
 ## GetMergeLabels function

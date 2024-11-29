@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetCachedFileFolder method. Encapsulates the function that represents getcachedfilefolder in Go.'
 type: docs
 weight: 200
-url: /go/xmlsaveoptions/getcachedfilefolder/
+url: /go-cpp/xmlsaveoptions/getcachedfilefolder/
 ---
 
 ## GetCachedFileFolder function

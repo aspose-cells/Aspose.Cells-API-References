@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetRotWithShape method. Encapsulates the function that represents getrotwithshape in Go.'
 type: docs
 weight: 200
-url: /go/reflectioneffect/getrotwithshape/
+url: /go-cpp/reflectioneffect/getrotwithshape/
 ---
 
 ## GetRotWithShape function

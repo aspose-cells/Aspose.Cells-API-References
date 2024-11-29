@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetShowLowPoint method. Encapsulates the function that represents setshowlowpoint in Go.'
 type: docs
 weight: 200
-url: /go/sparklinegroup/setshowlowpoint/
+url: /go-cpp/sparklinegroup/setshowlowpoint/
 ---
 
 ## SetShowLowPoint function

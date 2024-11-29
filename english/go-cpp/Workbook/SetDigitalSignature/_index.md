@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetDigitalSignature method. Encapsulates the function that represents setdigitalsignature in Go.'
 type: docs
 weight: 200
-url: /go/workbook/setdigitalsignature/
+url: /go-cpp/workbook/setdigitalsignature/
 ---
 
 ## SetDigitalSignature function

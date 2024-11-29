@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetProtection method. Encapsulates the function that represents getprotection in Go.'
 type: docs
 weight: 200
-url: /go/worksheet/getprotection/
+url: /go-cpp/worksheet/getprotection/
 ---
 
 ## GetProtection function

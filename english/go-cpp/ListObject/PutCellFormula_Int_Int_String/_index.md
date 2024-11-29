@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'PutCellFormula_Int_Int_String method. Encapsulates the function that represents putcellformula in Go.'
 type: docs
 weight: 200
-url: /go/listobject/putcellformula_int_int_string/
+url: /go-cpp/listobject/putcellformula_int_int_string/
 ---
 
 ## PutCellFormula_Int_Int_String function

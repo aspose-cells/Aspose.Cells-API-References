@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetOnlyData method. Encapsulates the function that represents setonlydata in Go.'
 type: docs
 weight: 200
-url: /go/pivotarea/setonlydata/
+url: /go-cpp/pivotarea/setonlydata/
 ---
 
 ## SetOnlyData function

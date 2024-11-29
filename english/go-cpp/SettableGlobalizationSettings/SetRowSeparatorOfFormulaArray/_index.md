@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetRowSeparatorOfFormulaArray method. Encapsulates the function that represents setrowseparatorofformulaarray in Go.'
 type: docs
 weight: 200
-url: /go/settableglobalizationsettings/setrowseparatorofformulaarray/
+url: /go-cpp/settableglobalizationsettings/setrowseparatorofformulaarray/
 ---
 
 ## SetRowSeparatorOfFormulaArray function

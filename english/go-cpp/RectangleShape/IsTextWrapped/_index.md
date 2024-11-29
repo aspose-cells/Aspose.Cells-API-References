@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsTextWrapped method. Encapsulates the function that represents istextwrapped in Go.'
 type: docs
 weight: 200
-url: /go/rectangleshape/istextwrapped/
+url: /go-cpp/rectangleshape/istextwrapped/
 ---
 
 ## IsTextWrapped function

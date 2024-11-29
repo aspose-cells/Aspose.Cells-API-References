@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsTripleState method. Encapsulates the function that represents istriplestate in Go.'
 type: docs
 weight: 200
-url: /go/checkboxactivexcontrol/istriplestate/
+url: /go-cpp/checkboxactivexcontrol/istriplestate/
 ---
 
 ## IsTripleState function

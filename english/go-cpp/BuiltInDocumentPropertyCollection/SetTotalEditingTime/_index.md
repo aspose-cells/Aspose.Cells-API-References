@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetTotalEditingTime method. Encapsulates the function that represents settotaleditingtime in Go.'
 type: docs
 weight: 200
-url: /go/builtindocumentpropertycollection/settotaleditingtime/
+url: /go-cpp/builtindocumentpropertycollection/settotaleditingtime/
 ---
 
 ## SetTotalEditingTime function

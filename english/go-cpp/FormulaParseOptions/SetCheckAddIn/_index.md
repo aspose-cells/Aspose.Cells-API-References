@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetCheckAddIn method. Encapsulates the function that represents setcheckaddin in Go.'
 type: docs
 weight: 200
-url: /go/formulaparseoptions/setcheckaddin/
+url: /go-cpp/formulaparseoptions/setcheckaddin/
 ---
 
 ## SetCheckAddIn function

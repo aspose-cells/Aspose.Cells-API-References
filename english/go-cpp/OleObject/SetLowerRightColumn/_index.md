@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetLowerRightColumn method. Encapsulates the function that represents setlowerrightcolumn in Go.'
 type: docs
 weight: 200
-url: /go/oleobject/setlowerrightcolumn/
+url: /go-cpp/oleobject/setlowerrightcolumn/
 ---
 
 ## SetLowerRightColumn function

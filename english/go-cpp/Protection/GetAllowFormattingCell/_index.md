@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetAllowFormattingCell method. Encapsulates the function that represents getallowformattingcell in Go.'
 type: docs
 weight: 200
-url: /go/protection/getallowformattingcell/
+url: /go-cpp/protection/getallowformattingcell/
 ---
 
 ## GetAllowFormattingCell function

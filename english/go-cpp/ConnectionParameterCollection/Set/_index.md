@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Set method. Encapsulates the function that represents set in Go.'
 type: docs
 weight: 200
-url: /go/connectionparametercollection/set/
+url: /go-cpp/connectionparametercollection/set/
 ---
 
 ## Set function

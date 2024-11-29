@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsDeletingRangeEnabled method. Encapsulates the function that represents isdeletingrangeenabled in Go.'
 type: docs
 weight: 200
-url: /go/cells/isdeletingrangeenabled/
+url: /go-cpp/cells/isdeletingrangeenabled/
 ---
 
 ## IsDeletingRangeEnabled function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetHiddenColDisplayType method. Encapsulates the function that represents sethiddencoldisplaytype in Go.'
 type: docs
 weight: 200
-url: /go/htmlsaveoptions/sethiddencoldisplaytype/
+url: /go-cpp/htmlsaveoptions/sethiddencoldisplaytype/
 ---
 
 ## SetHiddenColDisplayType function

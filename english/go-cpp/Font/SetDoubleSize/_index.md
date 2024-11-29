@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetDoubleSize method. Encapsulates the function that represents setdoublesize in Go.'
 type: docs
 weight: 200
-url: /go/font/setdoublesize/
+url: /go-cpp/font/setdoublesize/
 ---
 
 ## SetDoubleSize function

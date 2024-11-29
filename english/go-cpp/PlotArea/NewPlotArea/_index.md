@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'PlotArea constructor. Encapsulates the function that represents newplotarea in Go.'
 type: docs
 weight: 200
-url: /go/plotarea/newplotarea/
+url: /go-cpp/plotarea/newplotarea/
 ---
 
 ## NewPlotArea function

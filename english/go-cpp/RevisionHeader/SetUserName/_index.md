@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetUserName method. Encapsulates the function that represents setusername in Go.'
 type: docs
 weight: 200
-url: /go/revisionheader/setusername/
+url: /go-cpp/revisionheader/setusername/
 ---
 
 ## SetUserName function

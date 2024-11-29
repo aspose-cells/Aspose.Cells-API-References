@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetAutoScaleFont method. Encapsulates the function that represents setautoscalefont in Go.'
 type: docs
 weight: 200
-url: /go/legendentry/setautoscalefont/
+url: /go-cpp/legendentry/setautoscalefont/
 ---
 
 ## SetAutoScaleFont function

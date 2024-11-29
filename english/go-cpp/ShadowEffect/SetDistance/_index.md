@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetDistance method. Encapsulates the function that represents setdistance in Go.'
 type: docs
 weight: 200
-url: /go/shadoweffect/setdistance/
+url: /go-cpp/shadoweffect/setdistance/
 ---
 
 ## SetDistance function

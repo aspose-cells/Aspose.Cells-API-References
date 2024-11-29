@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetFirstVisibleColumn method. Encapsulates the function that represents setfirstvisiblecolumn in Go.'
 type: docs
 weight: 200
-url: /go/worksheet/setfirstvisiblecolumn/
+url: /go-cpp/worksheet/setfirstvisiblecolumn/
 ---
 
 ## SetFirstVisibleColumn function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ImportCSV_String_TxtLoadOptions_Int_Int method. Encapsulates the function that represents importcsv in Go.'
 type: docs
 weight: 200
-url: /go/cells/importcsv_string_txtloadoptions_int_int/
+url: /go-cpp/cells/importcsv_string_txtloadoptions_int_int/
 ---
 
 ## ImportCSV_String_TxtLoadOptions_Int_Int function

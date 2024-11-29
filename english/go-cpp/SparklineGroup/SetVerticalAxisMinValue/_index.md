@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetVerticalAxisMinValue method. Encapsulates the function that represents setverticalaxisminvalue in Go.'
 type: docs
 weight: 200
-url: /go/sparklinegroup/setverticalaxisminvalue/
+url: /go-cpp/sparklinegroup/setverticalaxisminvalue/
 ---
 
 ## SetVerticalAxisMinValue function

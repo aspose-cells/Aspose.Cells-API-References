@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'TableStyleElement class. Encapsulates the object that represents tablestyleelement in Go.'
 type: docs
 weight: 200
-url: /go/tablestyleelement/
+url: /go-cpp/tablestyleelement/
 ---
 
 ## TableStyleElement class

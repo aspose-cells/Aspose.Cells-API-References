@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetCriteriaRange method. Encapsulates the function that represents getcriteriarange in Go.'
 type: docs
 weight: 200
-url: /go/advancedfilter/getcriteriarange/
+url: /go-cpp/advancedfilter/getcriteriarange/
 ---
 
 ## GetCriteriaRange function

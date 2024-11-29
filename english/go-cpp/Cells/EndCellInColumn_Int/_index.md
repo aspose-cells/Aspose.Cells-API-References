@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'EndCellInColumn_Int method. Encapsulates the function that represents endcellincolumn in Go.'
 type: docs
 weight: 200
-url: /go/cells/endcellincolumn_int/
+url: /go-cpp/cells/endcellincolumn_int/
 ---
 
 ## EndCellInColumn_Int function

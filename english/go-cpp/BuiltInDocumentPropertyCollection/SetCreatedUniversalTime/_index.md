@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetCreatedUniversalTime method. Encapsulates the function that represents setcreateduniversaltime in Go.'
 type: docs
 weight: 200
-url: /go/builtindocumentpropertycollection/setcreateduniversaltime/
+url: /go-cpp/builtindocumentpropertycollection/setcreateduniversaltime/
 ---
 
 ## SetCreatedUniversalTime function

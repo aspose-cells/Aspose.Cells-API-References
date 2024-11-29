@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetHAlignment method. Encapsulates the function that represents sethalignment in Go.'
 type: docs
 weight: 200
-url: /go/renderingwatermark/sethalignment/
+url: /go-cpp/renderingwatermark/sethalignment/
 ---
 
 ## SetHAlignment function

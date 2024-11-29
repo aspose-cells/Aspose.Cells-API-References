@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetUrl method. Encapsulates the function that represents seturl in Go.'
 type: docs
 weight: 200
-url: /go/webqueryconnection/seturl/
+url: /go-cpp/webqueryconnection/seturl/
 ---
 
 ## SetUrl function

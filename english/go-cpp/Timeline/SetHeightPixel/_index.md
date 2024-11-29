@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetHeightPixel method. Encapsulates the function that represents setheightpixel in Go.'
 type: docs
 weight: 200
-url: /go/timeline/setheightpixel/
+url: /go-cpp/timeline/setheightpixel/
 ---
 
 ## SetHeightPixel function

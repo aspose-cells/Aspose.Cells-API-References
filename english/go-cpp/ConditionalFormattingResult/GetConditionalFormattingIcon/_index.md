@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetConditionalFormattingIcon method. Encapsulates the function that represents getconditionalformattingicon in Go.'
 type: docs
 weight: 200
-url: /go/conditionalformattingresult/getconditionalformattingicon/
+url: /go-cpp/conditionalformattingresult/getconditionalformattingicon/
 ---
 
 ## GetConditionalFormattingIcon function

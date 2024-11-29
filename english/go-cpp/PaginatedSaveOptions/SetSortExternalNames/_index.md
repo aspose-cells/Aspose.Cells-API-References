@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetSortExternalNames method. Encapsulates the function that represents setsortexternalnames in Go.'
 type: docs
 weight: 200
-url: /go/paginatedsaveoptions/setsortexternalnames/
+url: /go-cpp/paginatedsaveoptions/setsortexternalnames/
 ---
 
 ## SetSortExternalNames function

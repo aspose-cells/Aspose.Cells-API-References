@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsTextNoFill method. Encapsulates the function that represents istextnofill in Go.'
 type: docs
 weight: 200
-url: /go/legendentry/istextnofill/
+url: /go-cpp/legendentry/istextnofill/
 ---
 
 ## IsTextNoFill function

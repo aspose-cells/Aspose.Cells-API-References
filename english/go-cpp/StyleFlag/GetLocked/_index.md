@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetLocked method. Encapsulates the function that represents getlocked in Go.'
 type: docs
 weight: 200
-url: /go/styleflag/getlocked/
+url: /go-cpp/styleflag/getlocked/
 ---
 
 ## GetLocked function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetShowBubbleSize method. Encapsulates the function that represents getshowbubblesize in Go.'
 type: docs
 weight: 200
-url: /go/datalabels/getshowbubblesize/
+url: /go-cpp/datalabels/getshowbubblesize/
 ---
 
 ## GetShowBubbleSize function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetFormulas method. Encapsulates the function that represents setformulas in Go.'
 type: docs
 weight: 200
-url: /go/formatcondition/setformulas/
+url: /go-cpp/formatcondition/setformulas/
 ---
 
 ## SetFormulas function

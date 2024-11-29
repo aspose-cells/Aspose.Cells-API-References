@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetSelectedIndex method. Encapsulates the function that represents setselectedindex in Go.'
 type: docs
 weight: 200
-url: /go/combobox/setselectedindex/
+url: /go-cpp/combobox/setselectedindex/
 ---
 
 ## SetSelectedIndex function

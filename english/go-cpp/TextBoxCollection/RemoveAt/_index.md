@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'RemoveAt method. Encapsulates the function that represents removeat in Go.'
 type: docs
 weight: 200
-url: /go/textboxcollection/removeat/
+url: /go-cpp/textboxcollection/removeat/
 ---
 
 ## RemoveAt function

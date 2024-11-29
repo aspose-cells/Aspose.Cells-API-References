@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ConvertToRange_TableToRangeOptions method. Encapsulates the function that represents converttorange in Go.'
 type: docs
 weight: 200
-url: /go/listobject/converttorange_tabletorangeoptions/
+url: /go-cpp/listobject/converttorange_tabletorangeoptions/
 ---
 
 ## ConvertToRange_TableToRangeOptions function

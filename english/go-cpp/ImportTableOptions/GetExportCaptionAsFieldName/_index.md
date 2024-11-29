@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetExportCaptionAsFieldName method. Encapsulates the function that represents getexportcaptionasfieldname in Go.'
 type: docs
 weight: 200
-url: /go/importtableoptions/getexportcaptionasfieldname/
+url: /go-cpp/importtableoptions/getexportcaptionasfieldname/
 ---
 
 ## GetExportCaptionAsFieldName function

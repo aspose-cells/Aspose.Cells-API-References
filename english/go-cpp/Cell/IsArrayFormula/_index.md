@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsArrayFormula method. Encapsulates the function that represents isarrayformula in Go.'
 type: docs
 weight: 200
-url: /go/cell/isarrayformula/
+url: /go-cpp/cell/isarrayformula/
 ---
 
 ## IsArrayFormula function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetInsertRows method. Encapsulates the function that represents setinsertrows in Go.'
 type: docs
 weight: 200
-url: /go/importtableoptions/setinsertrows/
+url: /go-cpp/importtableoptions/setinsertrows/
 ---
 
 ## SetInsertRows function

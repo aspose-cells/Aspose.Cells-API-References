@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsBlank method. Encapsulates the function that represents isblank in Go.'
 type: docs
 weight: 200
-url: /go/row/isblank/
+url: /go-cpp/row/isblank/
 ---
 
 ## IsBlank function

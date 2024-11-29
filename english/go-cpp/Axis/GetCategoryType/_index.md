@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetCategoryType method. Encapsulates the function that represents getcategorytype in Go.'
 type: docs
 weight: 200
-url: /go/axis/getcategorytype/
+url: /go-cpp/axis/getcategorytype/
 ---
 
 ## GetCategoryType function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsMultiEncoded method. Encapsulates the function that represents ismultiencoded in Go.'
 type: docs
 weight: 200
-url: /go/txtloadoptions/ismultiencoded/
+url: /go-cpp/txtloadoptions/ismultiencoded/
 ---
 
 ## IsMultiEncoded function

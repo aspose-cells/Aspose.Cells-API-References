@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetCopyNames method. Encapsulates the function that represents getcopynames in Go.'
 type: docs
 weight: 200
-url: /go/copyoptions/getcopynames/
+url: /go-cpp/copyoptions/getcopynames/
 ---
 
 ## GetCopyNames function

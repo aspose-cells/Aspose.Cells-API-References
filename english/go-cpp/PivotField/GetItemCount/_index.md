@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetItemCount method. Encapsulates the function that represents getitemcount in Go.'
 type: docs
 weight: 200
-url: /go/pivotfield/getitemcount/
+url: /go-cpp/pivotfield/getitemcount/
 ---
 
 ## GetItemCount function

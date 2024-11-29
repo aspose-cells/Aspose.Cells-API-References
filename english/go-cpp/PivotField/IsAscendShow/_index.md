@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsAscendShow method. Encapsulates the function that represents isascendshow in Go.'
 type: docs
 weight: 200
-url: /go/pivotfield/isascendshow/
+url: /go-cpp/pivotfield/isascendshow/
 ---
 
 ## IsAscendShow function

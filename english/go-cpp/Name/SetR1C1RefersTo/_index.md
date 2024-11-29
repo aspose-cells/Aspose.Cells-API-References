@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetR1C1RefersTo method. Encapsulates the function that represents setr1c1refersto in Go.'
 type: docs
 weight: 200
-url: /go/name/setr1c1refersto/
+url: /go-cpp/name/setr1c1refersto/
 ---
 
 ## SetR1C1RefersTo function

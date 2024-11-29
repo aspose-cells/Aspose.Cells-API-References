@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'MultipleFilterCollection constructor. Encapsulates the function that represents newmultiplefiltercollection_object in Go.'
 type: docs
 weight: 200
-url: /go/multiplefiltercollection/newmultiplefiltercollection_object/
+url: /go-cpp/multiplefiltercollection/newmultiplefiltercollection_object/
 ---
 
 ## NewMultipleFilterCollection_Object function

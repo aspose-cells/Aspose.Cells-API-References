@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ColorScale class. Encapsulates the object that represents colorscale in Go.'
 type: docs
 weight: 200
-url: /go/colorscale/
+url: /go-cpp/colorscale/
 ---
 
 ## ColorScale class

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'FractionEquationNode class. Encapsulates the object that represents fractionequationnode in Go.'
 type: docs
 weight: 200
-url: /go/fractionequationnode/
+url: /go-cpp/fractionequationnode/
 ---
 
 ## FractionEquationNode class

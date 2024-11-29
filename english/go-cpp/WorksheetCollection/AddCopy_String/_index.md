@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'AddCopy_String method. Encapsulates the function that represents addcopy in Go.'
 type: docs
 weight: 200
-url: /go/worksheetcollection/addcopy_string/
+url: /go-cpp/worksheetcollection/addcopy_string/
 ---
 
 ## AddCopy_String function

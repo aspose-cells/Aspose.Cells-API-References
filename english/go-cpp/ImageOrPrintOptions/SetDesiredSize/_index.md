@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetDesiredSize method. Encapsulates the function that represents setdesiredsize in Go.'
 type: docs
 weight: 200
-url: /go/imageorprintoptions/setdesiredsize/
+url: /go-cpp/imageorprintoptions/setdesiredsize/
 ---
 
 ## SetDesiredSize function

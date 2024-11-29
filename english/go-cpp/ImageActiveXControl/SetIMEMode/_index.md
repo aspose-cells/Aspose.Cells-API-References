@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIMEMode method. Encapsulates the function that represents setimemode in Go.'
 type: docs
 weight: 200
-url: /go/imageactivexcontrol/setimemode/
+url: /go-cpp/imageactivexcontrol/setimemode/
 ---
 
 ## SetIMEMode function

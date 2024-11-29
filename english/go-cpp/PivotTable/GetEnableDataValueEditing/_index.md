@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetEnableDataValueEditing method. Encapsulates the function that represents getenabledatavalueediting in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/getenabledatavalueediting/
+url: /go-cpp/pivottable/getenabledatavalueediting/
 ---
 
 ## GetEnableDataValueEditing function

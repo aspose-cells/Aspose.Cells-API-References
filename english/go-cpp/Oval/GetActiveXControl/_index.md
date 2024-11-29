@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetActiveXControl method. Encapsulates the function that represents getactivexcontrol in Go.'
 type: docs
 weight: 200
-url: /go/oval/getactivexcontrol/
+url: /go-cpp/oval/getactivexcontrol/
 ---
 
 ## GetActiveXControl function

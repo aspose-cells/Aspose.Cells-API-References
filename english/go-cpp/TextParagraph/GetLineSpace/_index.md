@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetLineSpace method. Encapsulates the function that represents getlinespace in Go.'
 type: docs
 weight: 200
-url: /go/textparagraph/getlinespace/
+url: /go-cpp/textparagraph/getlinespace/
 ---
 
 ## GetLineSpace function

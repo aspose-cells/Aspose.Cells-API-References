@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Legend class. Encapsulates the object that represents legend in Go.'
 type: docs
 weight: 200
-url: /go/legend/
+url: /go-cpp/legend/
 ---
 
 ## Legend class

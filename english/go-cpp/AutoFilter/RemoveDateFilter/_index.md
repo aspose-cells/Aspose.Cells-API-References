@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'RemoveDateFilter method. Encapsulates the function that represents removedatefilter in Go.'
 type: docs
 weight: 200
-url: /go/autofilter/removedatefilter/
+url: /go-cpp/autofilter/removedatefilter/
 ---
 
 ## RemoveDateFilter function

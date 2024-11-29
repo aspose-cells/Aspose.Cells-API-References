@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SheetSet_GetActive method. Encapsulates the function that represents getactive in Go.'
 type: docs
 weight: 200
-url: /go/sheetset/sheetset_getactive/
+url: /go-cpp/sheetset/sheetset_getactive/
 ---
 
 ## SheetSet_GetActive function

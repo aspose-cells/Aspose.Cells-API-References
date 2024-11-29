@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetLeftCropInch method. Encapsulates the function that represents setleftcropinch in Go.'
 type: docs
 weight: 200
-url: /go/msoformatpicture/setleftcropinch/
+url: /go-cpp/msoformatpicture/setleftcropinch/
 ---
 
 ## SetLeftCropInch function

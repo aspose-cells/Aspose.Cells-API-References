@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetReverse method. Encapsulates the function that represents getreverse in Go.'
 type: docs
 weight: 200
-url: /go/iconset/getreverse/
+url: /go-cpp/iconset/getreverse/
 ---
 
 ## GetReverse function

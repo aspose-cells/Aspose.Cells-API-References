@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetOffset method. Encapsulates the function that represents getoffset in Go.'
 type: docs
 weight: 200
-url: /go/range/getoffset/
+url: /go-cpp/range/getoffset/
 ---
 
 ## GetOffset function

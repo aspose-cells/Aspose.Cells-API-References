@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ChangePalette method. Encapsulates the function that represents changepalette in Go.'
 type: docs
 weight: 200
-url: /go/workbook/changepalette/
+url: /go-cpp/workbook/changepalette/
 ---
 
 ## ChangePalette function

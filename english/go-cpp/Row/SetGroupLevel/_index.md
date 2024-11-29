@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetGroupLevel method. Encapsulates the function that represents setgrouplevel in Go.'
 type: docs
 weight: 200
-url: /go/row/setgrouplevel/
+url: /go-cpp/row/setgrouplevel/
 ---
 
 ## SetGroupLevel function

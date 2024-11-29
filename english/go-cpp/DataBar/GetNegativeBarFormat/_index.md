@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetNegativeBarFormat method. Encapsulates the function that represents getnegativebarformat in Go.'
 type: docs
 weight: 200
-url: /go/databar/getnegativebarformat/
+url: /go-cpp/databar/getnegativebarformat/
 ---
 
 ## GetNegativeBarFormat function

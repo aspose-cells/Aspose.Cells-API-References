@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Shape class. Encapsulates the object that represents shape in Go.'
 type: docs
 weight: 200
-url: /go/shape/
+url: /go-cpp/shape/
 ---
 
 ## Shape class

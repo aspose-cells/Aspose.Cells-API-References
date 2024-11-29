@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetMaxRowHeight method. Encapsulates the function that represents getmaxrowheight in Go.'
 type: docs
 weight: 200
-url: /go/autofitteroptions/getmaxrowheight/
+url: /go-cpp/autofitteroptions/getmaxrowheight/
 ---
 
 ## GetMaxRowHeight function

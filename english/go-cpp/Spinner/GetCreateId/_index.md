@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetCreateId method. Encapsulates the function that represents getcreateid in Go.'
 type: docs
 weight: 200
-url: /go/spinner/getcreateid/
+url: /go-cpp/spinner/getcreateid/
 ---
 
 ## GetCreateId function

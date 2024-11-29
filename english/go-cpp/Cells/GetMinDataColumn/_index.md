@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetMinDataColumn method. Encapsulates the function that represents getmindatacolumn in Go.'
 type: docs
 weight: 200
-url: /go/cells/getmindatacolumn/
+url: /go-cpp/cells/getmindatacolumn/
 ---
 
 ## GetMinDataColumn function

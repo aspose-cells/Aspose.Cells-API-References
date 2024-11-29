@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetShowTabs method. Encapsulates the function that represents setshowtabs in Go.'
 type: docs
 weight: 200
-url: /go/workbooksettings/setshowtabs/
+url: /go-cpp/workbooksettings/setshowtabs/
 ---
 
 ## SetShowTabs function

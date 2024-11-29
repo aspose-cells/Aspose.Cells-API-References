@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsAutomaticColor method. Encapsulates the function that represents isautomaticcolor in Go.'
 type: docs
 weight: 200
-url: /go/trendline/isautomaticcolor/
+url: /go-cpp/trendline/isautomaticcolor/
 ---
 
 ## IsAutomaticColor function

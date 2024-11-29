@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetOrientation method. Encapsulates the function that represents getorientation in Go.'
 type: docs
 weight: 200
-url: /go/scrollbaractivexcontrol/getorientation/
+url: /go-cpp/scrollbaractivexcontrol/getorientation/
 ---
 
 ## GetOrientation function

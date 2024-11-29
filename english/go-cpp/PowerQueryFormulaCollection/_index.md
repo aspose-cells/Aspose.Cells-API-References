@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'PowerQueryFormulaCollection class. Encapsulates the object that represents powerqueryformulacollection in Go.'
 type: docs
 weight: 200
-url: /go/powerqueryformulacollection/
+url: /go-cpp/powerqueryformulacollection/
 ---
 
 ## PowerQueryFormulaCollection class

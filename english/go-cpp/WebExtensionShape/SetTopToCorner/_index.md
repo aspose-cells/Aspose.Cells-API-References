@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetTopToCorner method. Encapsulates the function that represents settoptocorner in Go.'
 type: docs
 weight: 200
-url: /go/webextensionshape/settoptocorner/
+url: /go-cpp/webextensionshape/settoptocorner/
 ---
 
 ## SetTopToCorner function

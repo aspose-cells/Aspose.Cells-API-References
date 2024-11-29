@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetParse method. Encapsulates the function that represents setparse in Go.'
 type: docs
 weight: 200
-url: /go/formulaparseoptions/setparse/
+url: /go-cpp/formulaparseoptions/setparse/
 ---
 
 ## SetParse function

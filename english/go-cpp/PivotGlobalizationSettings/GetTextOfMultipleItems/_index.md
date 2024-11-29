@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTextOfMultipleItems method. Encapsulates the function that represents gettextofmultipleitems in Go.'
 type: docs
 weight: 200
-url: /go/pivotglobalizationsettings/gettextofmultipleitems/
+url: /go-cpp/pivotglobalizationsettings/gettextofmultipleitems/
 ---
 
 ## GetTextOfMultipleItems function

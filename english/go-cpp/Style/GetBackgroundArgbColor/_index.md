@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetBackgroundArgbColor method. Encapsulates the function that represents getbackgroundargbcolor in Go.'
 type: docs
 weight: 200
-url: /go/style/getbackgroundargbcolor/
+url: /go-cpp/style/getbackgroundargbcolor/
 ---
 
 ## GetBackgroundArgbColor function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetDescription method. Encapsulates the function that represents getdescription in Go.'
 type: docs
 weight: 200
-url: /go/warninginfo/getdescription/
+url: /go-cpp/warninginfo/getdescription/
 ---
 
 ## GetDescription function

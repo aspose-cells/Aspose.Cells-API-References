@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetContourColor method. Encapsulates the function that represents getcontourcolor in Go.'
 type: docs
 weight: 200
-url: /go/threedformat/getcontourcolor/
+url: /go-cpp/threedformat/getcontourcolor/
 ---
 
 ## GetContourColor function

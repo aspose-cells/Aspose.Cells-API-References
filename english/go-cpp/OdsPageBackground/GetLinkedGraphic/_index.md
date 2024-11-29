@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetLinkedGraphic method. Encapsulates the function that represents getlinkedgraphic in Go.'
 type: docs
 weight: 200
-url: /go/odspagebackground/getlinkedgraphic/
+url: /go-cpp/odspagebackground/getlinkedgraphic/
 ---
 
 ## GetLinkedGraphic function

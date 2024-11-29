@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetEncryptDocumentProperties method. Encapsulates the function that represents setencryptdocumentproperties in Go.'
 type: docs
 weight: 200
-url: /go/jsonsaveoptions/setencryptdocumentproperties/
+url: /go-cpp/jsonsaveoptions/setencryptdocumentproperties/
 ---
 
 ## SetEncryptDocumentProperties function

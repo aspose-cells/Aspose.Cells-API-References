@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'WorkbookMetadata constructor. Encapsulates the function that represents newworkbookmetadata in Go.'
 type: docs
 weight: 200
-url: /go/workbookmetadata/newworkbookmetadata/
+url: /go-cpp/workbookmetadata/newworkbookmetadata/
 ---
 
 ## NewWorkbookMetadata function

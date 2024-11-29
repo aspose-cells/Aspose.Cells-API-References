@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SlicerCache class. Encapsulates the object that represents slicercache in Go.'
 type: docs
 weight: 200
-url: /go/slicercache/
+url: /go-cpp/slicercache/
 ---
 
 ## SlicerCache class

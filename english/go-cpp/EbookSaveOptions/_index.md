@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'EbookSaveOptions class. Encapsulates the object that represents ebooksaveoptions in Go.'
 type: docs
 weight: 200
-url: /go/ebooksaveoptions/
+url: /go-cpp/ebooksaveoptions/
 ---
 
 ## EbookSaveOptions class

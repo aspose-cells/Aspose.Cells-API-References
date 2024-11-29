@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsLine method. Encapsulates the function that represents setisline in Go.'
 type: docs
 weight: 200
-url: /go/signatureline/setisline/
+url: /go-cpp/signatureline/setisline/
 ---
 
 ## SetIsLine function

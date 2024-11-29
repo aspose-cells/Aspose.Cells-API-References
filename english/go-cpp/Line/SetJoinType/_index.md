@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetJoinType method. Encapsulates the function that represents setjointype in Go.'
 type: docs
 weight: 200
-url: /go/line/setjointype/
+url: /go-cpp/line/setjointype/
 ---
 
 ## SetJoinType function

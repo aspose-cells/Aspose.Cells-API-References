@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsOpen method. Encapsulates the function that represents setisopen in Go.'
 type: docs
 weight: 200
-url: /go/pdfbookmarkentry/setisopen/
+url: /go-cpp/pdfbookmarkentry/setisopen/
 ---
 
 ## SetIsOpen function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Object class. Encapsulates the object that represents object in Go.'
 type: docs
 weight: 200
-url: /go/object/
+url: /go-cpp/object/
 ---
 
 ## Object class

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsDefaultRowHeightMatched method. Encapsulates the function that represents isdefaultrowheightmatched in Go.'
 type: docs
 weight: 200
-url: /go/cells/isdefaultrowheightmatched/
+url: /go-cpp/cells/isdefaultrowheightmatched/
 ---
 
 ## IsDefaultRowHeightMatched function

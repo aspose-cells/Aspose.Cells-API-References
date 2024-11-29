@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetRibbonXml method. Encapsulates the function that represents setribbonxml in Go.'
 type: docs
 weight: 200
-url: /go/workbook/setribbonxml/
+url: /go-cpp/workbook/setribbonxml/
 ---
 
 ## SetRibbonXml function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetIconSetType method. Encapsulates the function that represents geticonsettype in Go.'
 type: docs
 weight: 200
-url: /go/datasorterkey/geticonsettype/
+url: /go-cpp/datasorterkey/geticonsettype/
 ---
 
 ## GetIconSetType function

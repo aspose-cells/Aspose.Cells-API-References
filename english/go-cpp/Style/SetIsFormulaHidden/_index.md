@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsFormulaHidden method. Encapsulates the function that represents setisformulahidden in Go.'
 type: docs
 weight: 200
-url: /go/style/setisformulahidden/
+url: /go-cpp/style/setisformulahidden/
 ---
 
 ## SetIsFormulaHidden function

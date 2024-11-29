@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTableRowTypeOfTotals method. Encapsulates the function that represents gettablerowtypeoftotals in Go.'
 type: docs
 weight: 200
-url: /go/settableglobalizationsettings/gettablerowtypeoftotals/
+url: /go-cpp/settableglobalizationsettings/gettablerowtypeoftotals/
 ---
 
 ## GetTableRowTypeOfTotals function

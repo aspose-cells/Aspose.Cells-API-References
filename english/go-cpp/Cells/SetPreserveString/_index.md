@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetPreserveString method. Encapsulates the function that represents setpreservestring in Go.'
 type: docs
 weight: 200
-url: /go/cells/setpreservestring/
+url: /go-cpp/cells/setpreservestring/
 ---
 
 ## SetPreserveString function

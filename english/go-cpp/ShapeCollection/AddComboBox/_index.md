@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'AddComboBox method. Encapsulates the function that represents addcombobox in Go.'
 type: docs
 weight: 200
-url: /go/shapecollection/addcombobox/
+url: /go-cpp/shapecollection/addcombobox/
 ---
 
 ## AddComboBox function

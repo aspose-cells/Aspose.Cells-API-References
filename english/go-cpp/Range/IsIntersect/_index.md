@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsIntersect method. Encapsulates the function that represents isintersect in Go.'
 type: docs
 weight: 200
-url: /go/range/isintersect/
+url: /go-cpp/range/isintersect/
 ---
 
 ## IsIntersect function

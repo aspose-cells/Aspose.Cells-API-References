@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ColorFilter class. Encapsulates the object that represents colorfilter in Go.'
 type: docs
 weight: 200
-url: /go/colorfilter/
+url: /go-cpp/colorfilter/
 ---
 
 ## ColorFilter class

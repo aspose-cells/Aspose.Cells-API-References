@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetAlertStyle method. Encapsulates the function that represents setalertstyle in Go.'
 type: docs
 weight: 200
-url: /go/validation/setalertstyle/
+url: /go-cpp/validation/setalertstyle/
 ---
 
 ## SetAlertStyle function

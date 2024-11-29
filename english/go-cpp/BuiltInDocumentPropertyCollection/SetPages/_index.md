@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetPages method. Encapsulates the function that represents setpages in Go.'
 type: docs
 weight: 200
-url: /go/builtindocumentpropertycollection/setpages/
+url: /go-cpp/builtindocumentpropertycollection/setpages/
 ---
 
 ## SetPages function

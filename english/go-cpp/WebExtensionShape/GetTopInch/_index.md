@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTopInch method. Encapsulates the function that represents gettopinch in Go.'
 type: docs
 weight: 200
-url: /go/webextensionshape/gettopinch/
+url: /go-cpp/webextensionshape/gettopinch/
 ---
 
 ## GetTopInch function

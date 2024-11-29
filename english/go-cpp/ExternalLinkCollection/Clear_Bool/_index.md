@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Clear_Bool method. Encapsulates the function that represents clear in Go.'
 type: docs
 weight: 200
-url: /go/externallinkcollection/clear_bool/
+url: /go-cpp/externallinkcollection/clear_bool/
 ---
 
 ## Clear_Bool function

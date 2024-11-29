@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsErrorValue method. Encapsulates the function that represents iserrorvalue in Go.'
 type: docs
 weight: 200
-url: /go/cell/iserrorvalue/
+url: /go-cpp/cell/iserrorvalue/
 ---
 
 ## IsErrorValue function

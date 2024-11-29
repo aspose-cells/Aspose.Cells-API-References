@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetSelectedCell method. Encapsulates the function that represents getselectedcell in Go.'
 type: docs
 weight: 200
-url: /go/combobox/getselectedcell/
+url: /go-cpp/combobox/getselectedcell/
 ---
 
 ## GetSelectedCell function

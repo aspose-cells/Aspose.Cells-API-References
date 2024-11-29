@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetFirstVisibleColumn method. Encapsulates the function that represents getfirstvisiblecolumn in Go.'
 type: docs
 weight: 200
-url: /go/worksheet/getfirstvisiblecolumn/
+url: /go-cpp/worksheet/getfirstvisiblecolumn/
 ---
 
 ## GetFirstVisibleColumn function

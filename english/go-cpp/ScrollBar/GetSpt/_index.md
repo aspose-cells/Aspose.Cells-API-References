@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetSpt method. Encapsulates the function that represents getspt in Go.'
 type: docs
 weight: 200
-url: /go/scrollbar/getspt/
+url: /go-cpp/scrollbar/getspt/
 ---
 
 ## GetSpt function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'HtmlSaveOptions class. Encapsulates the object that represents htmlsaveoptions in Go.'
 type: docs
 weight: 200
-url: /go/htmlsaveoptions/
+url: /go-cpp/htmlsaveoptions/
 ---
 
 ## HtmlSaveOptions class

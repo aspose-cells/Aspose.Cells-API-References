@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetShowPercentage method. Encapsulates the function that represents setshowpercentage in Go.'
 type: docs
 weight: 200
-url: /go/datalabels/setshowpercentage/
+url: /go-cpp/datalabels/setshowpercentage/
 ---
 
 ## SetShowPercentage function

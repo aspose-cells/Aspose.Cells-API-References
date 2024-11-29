@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetExtrusionHeight method. Encapsulates the function that represents getextrusionheight in Go.'
 type: docs
 weight: 200
-url: /go/threedformat/getextrusionheight/
+url: /go-cpp/threedformat/getextrusionheight/
 ---
 
 ## GetExtrusionHeight function

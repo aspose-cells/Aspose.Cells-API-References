@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetBeginArrowWidth method. Encapsulates the function that represents setbeginarrowwidth in Go.'
 type: docs
 weight: 200
-url: /go/errorbar/setbeginarrowwidth/
+url: /go-cpp/errorbar/setbeginarrowwidth/
 ---
 
 ## SetBeginArrowWidth function

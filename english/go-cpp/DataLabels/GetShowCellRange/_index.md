@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetShowCellRange method. Encapsulates the function that represents getshowcellrange in Go.'
 type: docs
 weight: 200
-url: /go/datalabels/getshowcellrange/
+url: /go-cpp/datalabels/getshowcellrange/
 ---
 
 ## GetShowCellRange function

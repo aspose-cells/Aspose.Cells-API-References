@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetMetadataType method. Encapsulates the function that represents getmetadatatype in Go.'
 type: docs
 weight: 200
-url: /go/metadataoptions/getmetadatatype/
+url: /go-cpp/metadataoptions/getmetadatatype/
 ---
 
 ## GetMetadataType function

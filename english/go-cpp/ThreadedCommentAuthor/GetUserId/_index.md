@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetUserId method. Encapsulates the function that represents getuserid in Go.'
 type: docs
 weight: 200
-url: /go/threadedcommentauthor/getuserid/
+url: /go-cpp/threadedcommentauthor/getuserid/
 ---
 
 ## GetUserId function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsDropdownVisible method. Encapsulates the function that represents isdropdownvisible in Go.'
 type: docs
 weight: 200
-url: /go/filtercolumn/isdropdownvisible/
+url: /go-cpp/filtercolumn/isdropdownvisible/
 ---
 
 ## IsDropdownVisible function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsFieldNameShown method. Encapsulates the function that represents setisfieldnameshown in Go.'
 type: docs
 weight: 200
-url: /go/importtableoptions/setisfieldnameshown/
+url: /go-cpp/importtableoptions/setisfieldnameshown/
 ---
 
 ## SetIsFieldNameShown function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetShowCompact method. Encapsulates the function that represents setshowcompact in Go.'
 type: docs
 weight: 200
-url: /go/pivotfield/setshowcompact/
+url: /go-cpp/pivotfield/setshowcompact/
 ---
 
 ## SetShowCompact function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'BarEquationNode constructor. Encapsulates the function that represents newbarequationnode in Go.'
 type: docs
 weight: 200
-url: /go/barequationnode/newbarequationnode/
+url: /go-cpp/barequationnode/newbarequationnode/
 ---
 
 ## NewBarEquationNode function

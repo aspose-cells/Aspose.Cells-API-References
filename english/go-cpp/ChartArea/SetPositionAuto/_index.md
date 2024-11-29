@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetPositionAuto method. Encapsulates the function that represents setpositionauto in Go.'
 type: docs
 weight: 200
-url: /go/chartarea/setpositionauto/
+url: /go-cpp/chartarea/setpositionauto/
 ---
 
 ## SetPositionAuto function

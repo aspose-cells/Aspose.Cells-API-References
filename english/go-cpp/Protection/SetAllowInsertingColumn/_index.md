@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetAllowInsertingColumn method. Encapsulates the function that represents setallowinsertingcolumn in Go.'
 type: docs
 weight: 200
-url: /go/protection/setallowinsertingcolumn/
+url: /go-cpp/protection/setallowinsertingcolumn/
 ---
 
 ## SetAllowInsertingColumn function

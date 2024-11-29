@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetBarPosition method. Encapsulates the function that represents getbarposition in Go.'
 type: docs
 weight: 200
-url: /go/barequationnode/getbarposition/
+url: /go-cpp/barequationnode/getbarposition/
 ---
 
 ## GetBarPosition function

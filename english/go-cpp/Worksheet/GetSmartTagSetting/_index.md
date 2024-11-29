@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetSmartTagSetting method. Encapsulates the function that represents getsmarttagsetting in Go.'
 type: docs
 weight: 200
-url: /go/worksheet/getsmarttagsetting/
+url: /go-cpp/worksheet/getsmarttagsetting/
 ---
 
 ## GetSmartTagSetting function

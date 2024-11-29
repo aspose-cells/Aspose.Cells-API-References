@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetSignTime method. Encapsulates the function that represents setsigntime in Go.'
 type: docs
 weight: 200
-url: /go/digitalsignature/setsigntime/
+url: /go-cpp/digitalsignature/setsigntime/
 ---
 
 ## SetSignTime function

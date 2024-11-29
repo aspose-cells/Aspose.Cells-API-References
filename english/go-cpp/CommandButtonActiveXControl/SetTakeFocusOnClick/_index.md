@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetTakeFocusOnClick method. Encapsulates the function that represents settakefocusonclick in Go.'
 type: docs
 weight: 200
-url: /go/commandbuttonactivexcontrol/settakefocusonclick/
+url: /go-cpp/commandbuttonactivexcontrol/settakefocusonclick/
 ---
 
 ## SetTakeFocusOnClick function

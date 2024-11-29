@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetLegendTotalName method. Encapsulates the function that represents getlegendtotalname in Go.'
 type: docs
 weight: 200
-url: /go/settablechartglobalizationsettings/getlegendtotalname/
+url: /go-cpp/settablechartglobalizationsettings/getlegendtotalname/
 ---
 
 ## GetLegendTotalName function

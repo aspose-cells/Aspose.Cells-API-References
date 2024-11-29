@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsAutoWordSelected method. Encapsulates the function that represents isautowordselected in Go.'
 type: docs
 weight: 200
-url: /go/comboboxactivexcontrol/isautowordselected/
+url: /go-cpp/comboboxactivexcontrol/isautowordselected/
 ---
 
 ## IsAutoWordSelected function

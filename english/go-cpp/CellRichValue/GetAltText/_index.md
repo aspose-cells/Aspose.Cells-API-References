@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetAltText method. Encapsulates the function that represents getalttext in Go.'
 type: docs
 weight: 200
-url: /go/cellrichvalue/getalttext/
+url: /go-cpp/cellrichvalue/getalttext/
 ---
 
 ## GetAltText function

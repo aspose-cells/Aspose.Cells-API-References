@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetXmlMapName method. Encapsulates the function that represents getxmlmapname in Go.'
 type: docs
 weight: 200
-url: /go/xmlsaveoptions/getxmlmapname/
+url: /go-cpp/xmlsaveoptions/getxmlmapname/
 ---
 
 ## GetXmlMapName function

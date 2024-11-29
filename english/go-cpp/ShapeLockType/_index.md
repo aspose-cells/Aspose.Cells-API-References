@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ShapeLockType enum. Encapsulates the object that represents shapelocktype in Go.'
 type: docs
 weight: 200
-url: /go/shapelocktype/
+url: /go-cpp/shapelocktype/
 ---
 
 ## ShapeLockType Enum

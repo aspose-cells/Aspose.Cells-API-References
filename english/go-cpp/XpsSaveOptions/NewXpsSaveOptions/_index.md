@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'XpsSaveOptions constructor. Encapsulates the function that represents newxpssaveoptions in Go.'
 type: docs
 weight: 200
-url: /go/xpssaveoptions/newxpssaveoptions/
+url: /go-cpp/xpssaveoptions/newxpssaveoptions/
 ---
 
 ## NewXpsSaveOptions function

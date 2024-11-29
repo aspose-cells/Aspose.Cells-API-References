@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetLinkedCell_Bool_Bool method. Encapsulates the function that represents getlinkedcell in Go.'
 type: docs
 weight: 200
-url: /go/picture/getlinkedcell_bool_bool/
+url: /go-cpp/picture/getlinkedcell_bool_bool/
 ---
 
 ## GetLinkedCell_Bool_Bool function

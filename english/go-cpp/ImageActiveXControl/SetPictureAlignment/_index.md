@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetPictureAlignment method. Encapsulates the function that represents setpicturealignment in Go.'
 type: docs
 weight: 200
-url: /go/imageactivexcontrol/setpicturealignment/
+url: /go-cpp/imageactivexcontrol/setpicturealignment/
 ---
 
 ## SetPictureAlignment function

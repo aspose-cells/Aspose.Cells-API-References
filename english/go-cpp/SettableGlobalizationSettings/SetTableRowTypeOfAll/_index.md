@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetTableRowTypeOfAll method. Encapsulates the function that represents settablerowtypeofall in Go.'
 type: docs
 weight: 200
-url: /go/settableglobalizationsettings/settablerowtypeofall/
+url: /go-cpp/settableglobalizationsettings/settablerowtypeofall/
 ---
 
 ## SetTableRowTypeOfAll function

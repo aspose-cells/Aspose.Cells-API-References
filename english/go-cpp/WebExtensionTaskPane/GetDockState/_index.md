@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetDockState method. Encapsulates the function that represents getdockstate in Go.'
 type: docs
 weight: 200
-url: /go/webextensiontaskpane/getdockstate/
+url: /go-cpp/webextensiontaskpane/getdockstate/
 ---
 
 ## GetDockState function

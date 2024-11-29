@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'TextCapsType enum. Encapsulates the object that represents textcapstype in Go.'
 type: docs
 weight: 200
-url: /go/textcapstype/
+url: /go-cpp/textcapstype/
 ---
 
 ## TextCapsType Enum

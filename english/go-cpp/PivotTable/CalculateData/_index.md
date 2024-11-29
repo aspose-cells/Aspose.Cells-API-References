@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'CalculateData method. Encapsulates the function that represents calculatedata in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/calculatedata/
+url: /go-cpp/pivottable/calculatedata/
 ---
 
 ## CalculateData function

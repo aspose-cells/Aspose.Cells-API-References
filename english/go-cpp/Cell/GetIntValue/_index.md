@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetIntValue method. Encapsulates the function that represents getintvalue in Go.'
 type: docs
 weight: 200
-url: /go/cell/getintvalue/
+url: /go-cpp/cell/getintvalue/
 ---
 
 ## GetIntValue function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetLeftInShape method. Encapsulates the function that represents getleftinshape in Go.'
 type: docs
 weight: 200
-url: /go/arcshape/getleftinshape/
+url: /go-cpp/arcshape/getleftinshape/
 ---
 
 ## GetLeftInShape function

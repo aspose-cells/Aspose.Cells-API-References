@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'CopyOptions constructor. Encapsulates the function that represents newcopyoptions in Go.'
 type: docs
 weight: 200
-url: /go/copyoptions/newcopyoptions/
+url: /go-cpp/copyoptions/newcopyoptions/
 ---
 
 ## NewCopyOptions function

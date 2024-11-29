@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetInsideBorders method. Encapsulates the function that represents setinsideborders in Go.'
 type: docs
 weight: 200
-url: /go/range/setinsideborders/
+url: /go-cpp/range/setinsideborders/
 ---
 
 ## SetInsideBorders function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetPresetCameraType method. Encapsulates the function that represents getpresetcameratype in Go.'
 type: docs
 weight: 200
-url: /go/threedformat/getpresetcameratype/
+url: /go-cpp/threedformat/getpresetcameratype/
 ---
 
 ## GetPresetCameraType function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetActiveSheetName method. Encapsulates the function that represents setactivesheetname in Go.'
 type: docs
 weight: 200
-url: /go/worksheetcollection/setactivesheetname/
+url: /go-cpp/worksheetcollection/setactivesheetname/
 ---
 
 ## SetActiveSheetName function

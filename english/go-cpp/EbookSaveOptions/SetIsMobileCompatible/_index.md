@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsMobileCompatible method. Encapsulates the function that represents setismobilecompatible in Go.'
 type: docs
 weight: 200
-url: /go/ebooksaveoptions/setismobilecompatible/
+url: /go-cpp/ebooksaveoptions/setismobilecompatible/
 ---
 
 ## SetIsMobileCompatible function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetEnableWizard method. Encapsulates the function that represents getenablewizard in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/getenablewizard/
+url: /go-cpp/pivottable/getenablewizard/
 ---
 
 ## GetEnableWizard function

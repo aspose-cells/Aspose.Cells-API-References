@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GradientStop class. Encapsulates the object that represents gradientstop in Go.'
 type: docs
 weight: 200
-url: /go/gradientstop/
+url: /go-cpp/gradientstop/
 ---
 
 ## GradientStop class

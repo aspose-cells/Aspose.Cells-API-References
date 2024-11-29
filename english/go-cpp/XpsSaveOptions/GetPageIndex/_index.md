@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetPageIndex method. Encapsulates the function that represents getpageindex in Go.'
 type: docs
 weight: 200
-url: /go/xpssaveoptions/getpageindex/
+url: /go-cpp/xpssaveoptions/getpageindex/
 ---
 
 ## GetPageIndex function

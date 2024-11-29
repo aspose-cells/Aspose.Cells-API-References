@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'RadicalEquationNode_CreateNode method. Encapsulates the function that represents createnode in Go.'
 type: docs
 weight: 200
-url: /go/radicalequationnode/radicalequationnode_createnode/
+url: /go-cpp/radicalequationnode/radicalequationnode_createnode/
 ---
 
 ## RadicalEquationNode_CreateNode function

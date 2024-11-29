@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetTextOrientationType method. Encapsulates the function that represents settextorientationtype in Go.'
 type: docs
 weight: 200
-url: /go/dialog_box/settextorientationtype/
+url: /go-cpp/dialog_box/settextorientationtype/
 ---
 
 ## SetTextOrientationType function

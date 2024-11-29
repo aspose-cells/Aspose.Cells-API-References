@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsStyleSet method. Encapsulates the function that represents isstyleset in Go.'
 type: docs
 weight: 200
-url: /go/cell/isstyleset/
+url: /go-cpp/cell/isstyleset/
 ---
 
 ## IsStyleSet function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetMidColor method. Encapsulates the function that represents getmidcolor in Go.'
 type: docs
 weight: 200
-url: /go/colorscale/getmidcolor/
+url: /go-cpp/colorscale/getmidcolor/
 ---
 
 ## GetMidColor function

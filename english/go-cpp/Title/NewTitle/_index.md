@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Title constructor. Encapsulates the function that represents newtitle in Go.'
 type: docs
 weight: 200
-url: /go/title/newtitle/
+url: /go-cpp/title/newtitle/
 ---
 
 ## NewTitle function

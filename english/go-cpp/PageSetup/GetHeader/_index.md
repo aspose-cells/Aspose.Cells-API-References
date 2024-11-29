@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetHeader method. Encapsulates the function that represents getheader in Go.'
 type: docs
 weight: 200
-url: /go/pagesetup/getheader/
+url: /go-cpp/pagesetup/getheader/
 ---
 
 ## GetHeader function

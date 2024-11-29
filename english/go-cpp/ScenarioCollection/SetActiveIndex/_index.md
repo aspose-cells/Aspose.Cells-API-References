@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetActiveIndex method. Encapsulates the function that represents setactiveindex in Go.'
 type: docs
 weight: 200
-url: /go/scenariocollection/setactiveindex/
+url: /go-cpp/scenariocollection/setactiveindex/
 ---
 
 ## SetActiveIndex function

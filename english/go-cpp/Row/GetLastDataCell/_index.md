@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetLastDataCell method. Encapsulates the function that represents getlastdatacell in Go.'
 type: docs
 weight: 200
-url: /go/row/getlastdatacell/
+url: /go-cpp/row/getlastdatacell/
 ---
 
 ## GetLastDataCell function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'DataModelRelationship class. Encapsulates the object that represents datamodelrelationship in Go.'
 type: docs
 weight: 200
-url: /go/datamodelrelationship/
+url: /go-cpp/datamodelrelationship/
 ---
 
 ## DataModelRelationship class

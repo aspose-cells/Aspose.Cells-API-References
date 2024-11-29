@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'PictureCollection class. Encapsulates the object that represents picturecollection in Go.'
 type: docs
 weight: 200
-url: /go/picturecollection/
+url: /go-cpp/picturecollection/
 ---
 
 ## PictureCollection class

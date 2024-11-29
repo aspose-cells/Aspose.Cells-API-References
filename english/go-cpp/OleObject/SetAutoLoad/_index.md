@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetAutoLoad method. Encapsulates the function that represents setautoload in Go.'
 type: docs
 weight: 200
-url: /go/oleobject/setautoload/
+url: /go-cpp/oleobject/setautoload/
 ---
 
 ## SetAutoLoad function

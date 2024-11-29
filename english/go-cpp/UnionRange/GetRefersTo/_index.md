@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetRefersTo method. Encapsulates the function that represents getrefersto in Go.'
 type: docs
 weight: 200
-url: /go/unionrange/getrefersto/
+url: /go-cpp/unionrange/getrefersto/
 ---
 
 ## GetRefersTo function

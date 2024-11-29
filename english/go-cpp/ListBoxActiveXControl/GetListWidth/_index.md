@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetListWidth method. Encapsulates the function that represents getlistwidth in Go.'
 type: docs
 weight: 200
-url: /go/listboxactivexcontrol/getlistwidth/
+url: /go-cpp/listboxactivexcontrol/getlistwidth/
 ---
 
 ## GetListWidth function

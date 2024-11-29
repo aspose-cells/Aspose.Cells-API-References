@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetLine method. Encapsulates the function that represents getline in Go.'
 type: docs
 weight: 200
-url: /go/chartshape/getline/
+url: /go-cpp/chartshape/getline/
 ---
 
 ## GetLine function

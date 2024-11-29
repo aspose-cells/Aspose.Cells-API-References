@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'CustomGeometry constructor. Encapsulates the function that represents newcustomgeometry in Go.'
 type: docs
 weight: 200
-url: /go/customgeometry/newcustomgeometry/
+url: /go-cpp/customgeometry/newcustomgeometry/
 ---
 
 ## NewCustomGeometry function

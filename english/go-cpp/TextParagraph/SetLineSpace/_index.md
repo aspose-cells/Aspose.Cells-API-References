@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetLineSpace method. Encapsulates the function that represents setlinespace in Go.'
 type: docs
 weight: 200
-url: /go/textparagraph/setlinespace/
+url: /go-cpp/textparagraph/setlinespace/
 ---
 
 ## SetLineSpace function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetRelationships method. Encapsulates the function that represents getrelationships in Go.'
 type: docs
 weight: 200
-url: /go/datamodel/getrelationships/
+url: /go-cpp/datamodel/getrelationships/
 ---
 
 ## GetRelationships function

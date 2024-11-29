@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'PivotDateTimeRangeGroupSettings constructor. Encapsulates the function that represents newpivotdatetimerangegroupsettings in Go.'
 type: docs
 weight: 200
-url: /go/pivotdatetimerangegroupsettings/newpivotdatetimerangegroupsettings/
+url: /go-cpp/pivotdatetimerangegroupsettings/newpivotdatetimerangegroupsettings/
 ---
 
 ## NewPivotDateTimeRangeGroupSettings function

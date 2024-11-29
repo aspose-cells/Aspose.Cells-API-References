@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetLanguage method. Encapsulates the function that represents getlanguage in Go.'
 type: docs
 weight: 200
-url: /go/builtindocumentpropertycollection/getlanguage/
+url: /go-cpp/builtindocumentpropertycollection/getlanguage/
 ---
 
 ## GetLanguage function

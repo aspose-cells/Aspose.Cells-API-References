@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetCenterVertically method. Encapsulates the function that represents getcentervertically in Go.'
 type: docs
 weight: 200
-url: /go/pagesetup/getcentervertically/
+url: /go-cpp/pagesetup/getcentervertically/
 ---
 
 ## GetCenterVertically function

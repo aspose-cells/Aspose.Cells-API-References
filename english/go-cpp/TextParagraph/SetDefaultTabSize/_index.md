@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetDefaultTabSize method. Encapsulates the function that represents setdefaulttabsize in Go.'
 type: docs
 weight: 200
-url: /go/textparagraph/setdefaulttabsize/
+url: /go-cpp/textparagraph/setdefaulttabsize/
 ---
 
 ## SetDefaultTabSize function

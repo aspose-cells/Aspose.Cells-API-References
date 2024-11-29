@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetRelativeLibid method. Encapsulates the function that represents getrelativelibid in Go.'
 type: docs
 weight: 200
-url: /go/vbaprojectreference/getrelativelibid/
+url: /go-cpp/vbaprojectreference/getrelativelibid/
 ---
 
 ## GetRelativeLibid function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ActiveXPersistenceType enum. Encapsulates the object that represents activexpersistencetype in Go.'
 type: docs
 weight: 200
-url: /go/activexpersistencetype/
+url: /go-cpp/activexpersistencetype/
 ---
 
 ## ActiveXPersistenceType Enum

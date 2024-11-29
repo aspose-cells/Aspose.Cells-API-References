@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetYErrorBar method. Encapsulates the function that represents getyerrorbar in Go.'
 type: docs
 weight: 200
-url: /go/series/getyerrorbar/
+url: /go-cpp/series/getyerrorbar/
 ---
 
 ## GetYErrorBar function

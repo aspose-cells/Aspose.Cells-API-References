@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'VbaModule class. Encapsulates the object that represents vbamodule in Go.'
 type: docs
 weight: 200
-url: /go/vbamodule/
+url: /go-cpp/vbamodule/
 ---
 
 ## VbaModule class

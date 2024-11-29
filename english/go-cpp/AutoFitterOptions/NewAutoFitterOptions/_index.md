@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'AutoFitterOptions constructor. Encapsulates the function that represents newautofitteroptions in Go.'
 type: docs
 weight: 200
-url: /go/autofitteroptions/newautofitteroptions/
+url: /go-cpp/autofitteroptions/newautofitteroptions/
 ---
 
 ## NewAutoFitterOptions function

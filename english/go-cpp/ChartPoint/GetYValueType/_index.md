@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetYValueType method. Encapsulates the function that represents getyvaluetype in Go.'
 type: docs
 weight: 200
-url: /go/chartpoint/getyvaluetype/
+url: /go-cpp/chartpoint/getyvaluetype/
 ---
 
 ## GetYValueType function

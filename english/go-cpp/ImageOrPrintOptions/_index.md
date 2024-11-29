@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ImageOrPrintOptions class. Encapsulates the object that represents imageorprintoptions in Go.'
 type: docs
 weight: 200
-url: /go/imageorprintoptions/
+url: /go-cpp/imageorprintoptions/
 ---
 
 ## ImageOrPrintOptions class

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsBottom method. Encapsulates the function that represents setisbottom in Go.'
 type: docs
 weight: 200
-url: /go/top10/setisbottom/
+url: /go-cpp/top10/setisbottom/
 ---
 
 ## SetIsBottom function

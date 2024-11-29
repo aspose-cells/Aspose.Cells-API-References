@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetTrimTailingBlankCells method. Encapsulates the function that represents settrimtailingblankcells in Go.'
 type: docs
 weight: 200
-url: /go/txtsaveoptions/settrimtailingblankcells/
+url: /go-cpp/txtsaveoptions/settrimtailingblankcells/
 ---
 
 ## SetTrimTailingBlankCells function

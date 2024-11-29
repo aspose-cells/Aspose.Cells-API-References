@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetIgnoreTitle method. Encapsulates the function that represents getignoretitle in Go.'
 type: docs
 weight: 200
-url: /go/jsonlayoutoptions/getignoretitle/
+url: /go-cpp/jsonlayoutoptions/getignoretitle/
 ---
 
 ## GetIgnoreTitle function

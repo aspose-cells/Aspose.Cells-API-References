@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetXValue method. Encapsulates the function that represents getxvalue in Go.'
 type: docs
 weight: 200
-url: /go/chartpoint/getxvalue/
+url: /go-cpp/chartpoint/getxvalue/
 ---
 
 ## GetXValue function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetHeightPt method. Encapsulates the function that represents getheightpt in Go.'
 type: docs
 weight: 200
-url: /go/smartartshape/getheightpt/
+url: /go-cpp/smartartshape/getheightpt/
 ---
 
 ## GetHeightPt function

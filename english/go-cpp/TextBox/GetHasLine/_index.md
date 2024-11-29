@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetHasLine method. Encapsulates the function that represents gethasline in Go.'
 type: docs
 weight: 200
-url: /go/textbox/gethasline/
+url: /go-cpp/textbox/gethasline/
 ---
 
 ## GetHasLine function

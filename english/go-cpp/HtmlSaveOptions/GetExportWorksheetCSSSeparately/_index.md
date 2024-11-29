@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetExportWorksheetCSSSeparately method. Encapsulates the function that represents getexportworksheetcssseparately in Go.'
 type: docs
 weight: 200
-url: /go/htmlsaveoptions/getexportworksheetcssseparately/
+url: /go-cpp/htmlsaveoptions/getexportworksheetcssseparately/
 ---
 
 ## GetExportWorksheetCSSSeparately function

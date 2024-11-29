@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetTextOfAll method. Encapsulates the function that represents settextofall in Go.'
 type: docs
 weight: 200
-url: /go/settablepivotglobalizationsettings/settextofall/
+url: /go-cpp/settablepivotglobalizationsettings/settextofall/
 ---
 
 ## SetTextOfAll function

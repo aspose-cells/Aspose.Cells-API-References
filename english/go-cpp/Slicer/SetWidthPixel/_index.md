@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetWidthPixel method. Encapsulates the function that represents setwidthpixel in Go.'
 type: docs
 weight: 200
-url: /go/slicer/setwidthpixel/
+url: /go-cpp/slicer/setwidthpixel/
 ---
 
 ## SetWidthPixel function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsCheckBoxStyle method. Encapsulates the function that represents setischeckboxstyle in Go.'
 type: docs
 weight: 200
-url: /go/cell/setischeckboxstyle/
+url: /go-cpp/cell/setischeckboxstyle/
 ---
 
 ## SetIsCheckBoxStyle function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetCellShading method. Encapsulates the function that represents getcellshading in Go.'
 type: docs
 weight: 200
-url: /go/styleflag/getcellshading/
+url: /go-cpp/styleflag/getcellshading/
 ---
 
 ## GetCellShading function

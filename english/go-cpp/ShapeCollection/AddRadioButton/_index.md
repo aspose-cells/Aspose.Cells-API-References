@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'AddRadioButton method. Encapsulates the function that represents addradiobutton in Go.'
 type: docs
 weight: 200
-url: /go/shapecollection/addradiobutton/
+url: /go-cpp/shapecollection/addradiobutton/
 ---
 
 ## AddRadioButton function

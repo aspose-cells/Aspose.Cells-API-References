@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetCount method. Encapsulates the function that represents setcount in Go.'
 type: docs
 weight: 200
-url: /go/axisbins/setcount/
+url: /go-cpp/axisbins/setcount/
 ---
 
 ## SetCount function

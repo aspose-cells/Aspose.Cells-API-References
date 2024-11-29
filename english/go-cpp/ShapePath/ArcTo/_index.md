@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ArcTo method. Encapsulates the function that represents arcto in Go.'
 type: docs
 weight: 200
-url: /go/shapepath/arcto/
+url: /go-cpp/shapepath/arcto/
 ---
 
 ## ArcTo function

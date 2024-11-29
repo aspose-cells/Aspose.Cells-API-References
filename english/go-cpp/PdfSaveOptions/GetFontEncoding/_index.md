@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetFontEncoding method. Encapsulates the function that represents getfontencoding in Go.'
 type: docs
 weight: 200
-url: /go/pdfsaveoptions/getfontencoding/
+url: /go-cpp/pdfsaveoptions/getfontencoding/
 ---
 
 ## GetFontEncoding function

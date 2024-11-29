@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetFunction method. Encapsulates the function that represents setfunction in Go.'
 type: docs
 weight: 200
-url: /go/pivotfield/setfunction/
+url: /go-cpp/pivotfield/setfunction/
 ---
 
 ## SetFunction function

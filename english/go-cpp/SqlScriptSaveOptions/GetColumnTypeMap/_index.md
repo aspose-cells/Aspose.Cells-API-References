@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetColumnTypeMap method. Encapsulates the function that represents getcolumntypemap in Go.'
 type: docs
 weight: 200
-url: /go/sqlscriptsaveoptions/getcolumntypemap/
+url: /go-cpp/sqlscriptsaveoptions/getcolumntypemap/
 ---
 
 ## GetColumnTypeMap function

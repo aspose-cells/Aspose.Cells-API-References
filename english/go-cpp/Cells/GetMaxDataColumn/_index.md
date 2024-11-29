@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetMaxDataColumn method. Encapsulates the function that represents getmaxdatacolumn in Go.'
 type: docs
 weight: 200
-url: /go/cells/getmaxdatacolumn/
+url: /go-cpp/cells/getmaxdatacolumn/
 ---
 
 ## GetMaxDataColumn function

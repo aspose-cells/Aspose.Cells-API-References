@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ConditionalFormattingValue class. Encapsulates the object that represents conditionalformattingvalue in Go.'
 type: docs
 weight: 200
-url: /go/conditionalformattingvalue/
+url: /go-cpp/conditionalformattingvalue/
 ---
 
 ## ConditionalFormattingValue class

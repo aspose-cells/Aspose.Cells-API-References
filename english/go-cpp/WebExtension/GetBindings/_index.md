@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetBindings method. Encapsulates the function that represents getbindings in Go.'
 type: docs
 weight: 200
-url: /go/webextension/getbindings/
+url: /go-cpp/webextension/getbindings/
 ---
 
 ## GetBindings function

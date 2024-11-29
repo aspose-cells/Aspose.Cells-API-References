@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'RevisionFormat class. Encapsulates the object that represents revisionformat in Go.'
 type: docs
 weight: 200
-url: /go/revisionformat/
+url: /go-cpp/revisionformat/
 ---
 
 ## RevisionFormat class

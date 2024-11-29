@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetPdfCompression method. Encapsulates the function that represents setpdfcompression in Go.'
 type: docs
 weight: 200
-url: /go/pdfsaveoptions/setpdfcompression/
+url: /go-cpp/pdfsaveoptions/setpdfcompression/
 ---
 
 ## SetPdfCompression function

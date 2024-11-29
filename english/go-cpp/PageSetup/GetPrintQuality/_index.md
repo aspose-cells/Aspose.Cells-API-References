@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetPrintQuality method. Encapsulates the function that represents getprintquality in Go.'
 type: docs
 weight: 200
-url: /go/pagesetup/getprintquality/
+url: /go-cpp/pagesetup/getprintquality/
 ---
 
 ## GetPrintQuality function

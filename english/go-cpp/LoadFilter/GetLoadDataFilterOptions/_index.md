@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetLoadDataFilterOptions method. Encapsulates the function that represents getloaddatafilteroptions in Go.'
 type: docs
 weight: 200
-url: /go/loadfilter/getloaddatafilteroptions/
+url: /go-cpp/loadfilter/getloaddatafilteroptions/
 ---
 
 ## GetLoadDataFilterOptions function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetMinorUnitScale method. Encapsulates the function that represents getminorunitscale in Go.'
 type: docs
 weight: 200
-url: /go/axis/getminorunitscale/
+url: /go-cpp/axis/getminorunitscale/
 ---
 
 ## GetMinorUnitScale function

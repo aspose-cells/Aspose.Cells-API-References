@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetObjectSourceFullName method. Encapsulates the function that represents setobjectsourcefullname in Go.'
 type: docs
 weight: 200
-url: /go/oleobject/setobjectsourcefullname/
+url: /go-cpp/oleobject/setobjectsourcefullname/
 ---
 
 ## SetObjectSourceFullName function

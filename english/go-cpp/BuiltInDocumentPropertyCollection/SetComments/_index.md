@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetComments method. Encapsulates the function that represents setcomments in Go.'
 type: docs
 weight: 200
-url: /go/builtindocumentpropertycollection/setcomments/
+url: /go-cpp/builtindocumentpropertycollection/setcomments/
 ---
 
 ## SetComments function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'DataLabelShapeType enum. Encapsulates the object that represents datalabelshapetype in Go.'
 type: docs
 weight: 200
-url: /go/datalabelshapetype/
+url: /go-cpp/datalabelshapetype/
 ---
 
 ## DataLabelShapeType Enum

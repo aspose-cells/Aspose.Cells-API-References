@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'AddPageBreaks method. Encapsulates the function that represents addpagebreaks in Go.'
 type: docs
 weight: 200
-url: /go/worksheet/addpagebreaks/
+url: /go-cpp/worksheet/addpagebreaks/
 ---
 
 ## AddPageBreaks function

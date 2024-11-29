@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetStartColumn method. Encapsulates the function that represents getstartcolumn in Go.'
 type: docs
 weight: 200
-url: /go/listobject/getstartcolumn/
+url: /go-cpp/listobject/getstartcolumn/
 ---
 
 ## GetStartColumn function

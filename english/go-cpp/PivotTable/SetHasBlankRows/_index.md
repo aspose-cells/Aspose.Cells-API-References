@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetHasBlankRows method. Encapsulates the function that represents sethasblankrows in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/sethasblankrows/
+url: /go-cpp/pivottable/sethasblankrows/
 ---
 
 ## SetHasBlankRows function

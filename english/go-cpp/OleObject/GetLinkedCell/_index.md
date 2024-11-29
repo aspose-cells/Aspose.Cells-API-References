@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetLinkedCell method. Encapsulates the function that represents getlinkedcell in Go.'
 type: docs
 weight: 200
-url: /go/oleobject/getlinkedcell/
+url: /go-cpp/oleobject/getlinkedcell/
 ---
 
 ## GetLinkedCell function

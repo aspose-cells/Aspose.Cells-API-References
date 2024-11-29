@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetFormatStrategy method. Encapsulates the function that represents setformatstrategy in Go.'
 type: docs
 weight: 200
-url: /go/txtsaveoptions/setformatstrategy/
+url: /go-cpp/txtsaveoptions/setformatstrategy/
 ---
 
 ## SetFormatStrategy function

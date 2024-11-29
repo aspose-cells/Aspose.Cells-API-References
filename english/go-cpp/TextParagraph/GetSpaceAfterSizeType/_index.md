@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetSpaceAfterSizeType method. Encapsulates the function that represents getspaceaftersizetype in Go.'
 type: docs
 weight: 200
-url: /go/textparagraph/getspaceaftersizetype/
+url: /go-cpp/textparagraph/getspaceaftersizetype/
 ---
 
 ## GetSpaceAfterSizeType function

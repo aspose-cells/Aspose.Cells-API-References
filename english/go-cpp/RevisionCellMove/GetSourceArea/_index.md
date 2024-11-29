@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetSourceArea method. Encapsulates the function that represents getsourcearea in Go.'
 type: docs
 weight: 200
-url: /go/revisioncellmove/getsourcearea/
+url: /go-cpp/revisioncellmove/getsourcearea/
 ---
 
 ## GetSourceArea function

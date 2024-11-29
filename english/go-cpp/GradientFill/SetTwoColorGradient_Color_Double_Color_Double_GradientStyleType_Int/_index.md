@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetTwoColorGradient_Color_Double_Color_Double_GradientStyleType_Int method. Encapsulates the function that represents settwocolorgradient in Go.'
 type: docs
 weight: 200
-url: /go/gradientfill/settwocolorgradient_color_double_color_double_gradientstyletype_int/
+url: /go-cpp/gradientfill/settwocolorgradient_color_double_color_double_gradientstyletype_int/
 ---
 
 ## SetTwoColorGradient_Color_Double_Color_Double_GradientStyleType_Int function

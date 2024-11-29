@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTrimLeadingBlankRowAndColumn method. Encapsulates the function that represents gettrimleadingblankrowandcolumn in Go.'
 type: docs
 weight: 200
-url: /go/txtsaveoptions/gettrimleadingblankrowandcolumn/
+url: /go-cpp/txtsaveoptions/gettrimleadingblankrowandcolumn/
 ---
 
 ## GetTrimLeadingBlankRowAndColumn function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetColumnCount method. Encapsulates the function that represents setcolumncount in Go.'
 type: docs
 weight: 200
-url: /go/listboxactivexcontrol/setcolumncount/
+url: /go-cpp/listboxactivexcontrol/setcolumncount/
 ---
 
 ## SetColumnCount function

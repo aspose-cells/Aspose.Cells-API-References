@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsXl2000 method. Encapsulates the function that represents isxl2000 in Go.'
 type: docs
 weight: 200
-url: /go/webqueryconnection/isxl2000/
+url: /go-cpp/webqueryconnection/isxl2000/
 ---
 
 ## IsXl2000 function

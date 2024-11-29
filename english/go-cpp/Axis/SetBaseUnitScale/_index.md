@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetBaseUnitScale method. Encapsulates the function that represents setbaseunitscale in Go.'
 type: docs
 weight: 200
-url: /go/axis/setbaseunitscale/
+url: /go-cpp/axis/setbaseunitscale/
 ---
 
 ## SetBaseUnitScale function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'RevisionFormat constructor. Encapsulates the function that represents newrevisionformat in Go.'
 type: docs
 weight: 200
-url: /go/revisionformat/newrevisionformat/
+url: /go-cpp/revisionformat/newrevisionformat/
 ---
 
 ## NewRevisionFormat function

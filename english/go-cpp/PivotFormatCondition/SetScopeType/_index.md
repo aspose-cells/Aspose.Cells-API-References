@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetScopeType method. Encapsulates the function that represents setscopetype in Go.'
 type: docs
 weight: 200
-url: /go/pivotformatcondition/setscopetype/
+url: /go-cpp/pivotformatcondition/setscopetype/
 ---
 
 ## SetScopeType function

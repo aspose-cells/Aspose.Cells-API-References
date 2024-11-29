@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetTextVerticalAlignment method. Encapsulates the function that represents settextverticalalignment in Go.'
 type: docs
 weight: 200
-url: /go/label/settextverticalalignment/
+url: /go-cpp/label/settextverticalalignment/
 ---
 
 ## SetTextVerticalAlignment function

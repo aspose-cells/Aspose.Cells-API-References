@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetCenterHorizontally method. Encapsulates the function that represents setcenterhorizontally in Go.'
 type: docs
 weight: 200
-url: /go/pagesetup/setcenterhorizontally/
+url: /go-cpp/pagesetup/setcenterhorizontally/
 ---
 
 ## SetCenterHorizontally function

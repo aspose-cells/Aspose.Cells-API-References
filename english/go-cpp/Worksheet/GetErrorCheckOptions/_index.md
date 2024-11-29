@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetErrorCheckOptions method. Encapsulates the function that represents geterrorcheckoptions in Go.'
 type: docs
 weight: 200
-url: /go/worksheet/geterrorcheckoptions/
+url: /go-cpp/worksheet/geterrorcheckoptions/
 ---
 
 ## GetErrorCheckOptions function

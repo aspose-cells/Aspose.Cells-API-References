@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetAnchorType method. Encapsulates the function that represents setanchortype in Go.'
 type: docs
 weight: 200
-url: /go/commentshape/setanchortype/
+url: /go-cpp/commentshape/setanchortype/
 ---
 
 ## SetAnchorType function

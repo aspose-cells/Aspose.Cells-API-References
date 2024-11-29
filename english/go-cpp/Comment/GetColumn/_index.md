@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetColumn method. Encapsulates the function that represents getcolumn in Go.'
 type: docs
 weight: 200
-url: /go/comment/getcolumn/
+url: /go-cpp/comment/getcolumn/
 ---
 
 ## GetColumn function

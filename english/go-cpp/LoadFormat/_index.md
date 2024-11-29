@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'LoadFormat enum. Encapsulates the object that represents loadformat in Go.'
 type: docs
 weight: 200
-url: /go/loadformat/
+url: /go-cpp/loadformat/
 ---
 
 ## LoadFormat Enum

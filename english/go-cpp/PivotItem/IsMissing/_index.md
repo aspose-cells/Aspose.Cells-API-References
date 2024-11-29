@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsMissing method. Encapsulates the function that represents ismissing in Go.'
 type: docs
 weight: 200
-url: /go/pivotitem/ismissing/
+url: /go-cpp/pivotitem/ismissing/
 ---
 
 ## IsMissing function

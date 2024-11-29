@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetInnerHeight method. Encapsulates the function that represents setinnerheight in Go.'
 type: docs
 weight: 200
-url: /go/plotarea/setinnerheight/
+url: /go-cpp/plotarea/setinnerheight/
 ---
 
 ## SetInnerHeight function

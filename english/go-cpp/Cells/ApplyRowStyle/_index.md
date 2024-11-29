@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ApplyRowStyle method. Encapsulates the function that represents applyrowstyle in Go.'
 type: docs
 weight: 200
-url: /go/cells/applyrowstyle/
+url: /go-cpp/cells/applyrowstyle/
 ---
 
 ## ApplyRowStyle function

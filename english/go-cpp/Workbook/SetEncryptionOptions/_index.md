@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetEncryptionOptions method. Encapsulates the function that represents setencryptionoptions in Go.'
 type: docs
 weight: 200
-url: /go/workbook/setencryptionoptions/
+url: /go-cpp/workbook/setencryptionoptions/
 ---
 
 ## SetEncryptionOptions function

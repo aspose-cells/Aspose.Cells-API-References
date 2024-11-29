@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'AccentEquationNode constructor. Encapsulates the function that represents newaccentequationnode in Go.'
 type: docs
 weight: 200
-url: /go/accentequationnode/newaccentequationnode/
+url: /go-cpp/accentequationnode/newaccentequationnode/
 ---
 
 ## NewAccentEquationNode function

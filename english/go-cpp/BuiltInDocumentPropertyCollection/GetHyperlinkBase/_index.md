@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetHyperlinkBase method. Encapsulates the function that represents gethyperlinkbase in Go.'
 type: docs
 weight: 200
-url: /go/builtindocumentpropertycollection/gethyperlinkbase/
+url: /go-cpp/builtindocumentpropertycollection/gethyperlinkbase/
 ---
 
 ## GetHyperlinkBase function

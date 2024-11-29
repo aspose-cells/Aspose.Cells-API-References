@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetTemplate method. Encapsulates the function that represents settemplate in Go.'
 type: docs
 weight: 200
-url: /go/builtindocumentpropertycollection/settemplate/
+url: /go-cpp/builtindocumentpropertycollection/settemplate/
 ---
 
 ## SetTemplate function

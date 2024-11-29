@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetAltTextDescription method. Encapsulates the function that represents getalttextdescription in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/getalttextdescription/
+url: /go-cpp/pivottable/getalttextdescription/
 ---
 
 ## GetAltTextDescription function

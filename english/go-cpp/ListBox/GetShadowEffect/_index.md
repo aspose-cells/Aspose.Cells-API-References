@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetShadowEffect method. Encapsulates the function that represents getshadoweffect in Go.'
 type: docs
 weight: 200
-url: /go/listbox/getshadoweffect/
+url: /go-cpp/listbox/getshadoweffect/
 ---
 
 ## GetShadowEffect function

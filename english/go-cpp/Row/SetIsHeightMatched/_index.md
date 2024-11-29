@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsHeightMatched method. Encapsulates the function that represents setisheightmatched in Go.'
 type: docs
 weight: 200
-url: /go/row/setisheightmatched/
+url: /go-cpp/row/setisheightmatched/
 ---
 
 ## SetIsHeightMatched function

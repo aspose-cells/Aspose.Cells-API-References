@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ValidatePassword method. Encapsulates the function that represents validatepassword in Go.'
 type: docs
 weight: 200
-url: /go/writeprotection/validatepassword/
+url: /go-cpp/writeprotection/validatepassword/
 ---
 
 ## ValidatePassword function

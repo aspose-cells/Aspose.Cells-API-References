@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetInputTitle method. Encapsulates the function that represents getinputtitle in Go.'
 type: docs
 weight: 200
-url: /go/validation/getinputtitle/
+url: /go-cpp/validation/getinputtitle/
 ---
 
 ## GetInputTitle function

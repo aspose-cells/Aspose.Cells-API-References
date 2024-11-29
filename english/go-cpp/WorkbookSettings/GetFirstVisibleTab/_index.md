@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetFirstVisibleTab method. Encapsulates the function that represents getfirstvisibletab in Go.'
 type: docs
 weight: 200
-url: /go/workbooksettings/getfirstvisibletab/
+url: /go-cpp/workbooksettings/getfirstvisibletab/
 ---
 
 ## GetFirstVisibleTab function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetQuotePrefix method. Encapsulates the function that represents setquoteprefix in Go.'
 type: docs
 weight: 200
-url: /go/styleflag/setquoteprefix/
+url: /go-cpp/styleflag/setquoteprefix/
 ---
 
 ## SetQuotePrefix function

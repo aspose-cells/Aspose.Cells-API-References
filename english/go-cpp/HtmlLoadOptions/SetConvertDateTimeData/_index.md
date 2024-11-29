@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetConvertDateTimeData method. Encapsulates the function that represents setconvertdatetimedata in Go.'
 type: docs
 weight: 200
-url: /go/htmlloadoptions/setconvertdatetimedata/
+url: /go-cpp/htmlloadoptions/setconvertdatetimedata/
 ---
 
 ## SetConvertDateTimeData function

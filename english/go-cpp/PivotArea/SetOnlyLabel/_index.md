@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetOnlyLabel method. Encapsulates the function that represents setonlylabel in Go.'
 type: docs
 weight: 200
-url: /go/pivotarea/setonlylabel/
+url: /go-cpp/pivotarea/setonlylabel/
 ---
 
 ## SetOnlyLabel function

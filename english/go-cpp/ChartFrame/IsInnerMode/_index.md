@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsInnerMode method. Encapsulates the function that represents isinnermode in Go.'
 type: docs
 weight: 200
-url: /go/chartframe/isinnermode/
+url: /go-cpp/chartframe/isinnermode/
 ---
 
 ## IsInnerMode function

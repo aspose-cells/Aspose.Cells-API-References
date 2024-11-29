@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetOnlyArea method. Encapsulates the function that represents getonlyarea in Go.'
 type: docs
 weight: 200
-url: /go/imageorprintoptions/getonlyarea/
+url: /go-cpp/imageorprintoptions/getonlyarea/
 ---
 
 ## GetOnlyArea function

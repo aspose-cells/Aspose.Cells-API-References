@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetMinorUnit method. Encapsulates the function that represents setminorunit in Go.'
 type: docs
 weight: 200
-url: /go/axis/setminorunit/
+url: /go-cpp/axis/setminorunit/
 ---
 
 ## SetMinorUnit function

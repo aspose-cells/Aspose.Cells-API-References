@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetFieldType method. Encapsulates the function that represents getfieldtype in Go.'
 type: docs
 weight: 200
-url: /go/odscellfield/getfieldtype/
+url: /go-cpp/odscellfield/getfieldtype/
 ---
 
 ## GetFieldType function

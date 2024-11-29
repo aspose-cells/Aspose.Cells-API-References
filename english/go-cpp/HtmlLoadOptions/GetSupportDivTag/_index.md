@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetSupportDivTag method. Encapsulates the function that represents getsupportdivtag in Go.'
 type: docs
 weight: 200
-url: /go/htmlloadoptions/getsupportdivtag/
+url: /go-cpp/htmlloadoptions/getsupportdivtag/
 ---
 
 ## GetSupportDivTag function

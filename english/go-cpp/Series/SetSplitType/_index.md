@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetSplitType method. Encapsulates the function that represents setsplittype in Go.'
 type: docs
 weight: 200
-url: /go/series/setsplittype/
+url: /go-cpp/series/setsplittype/
 ---
 
 ## SetSplitType function

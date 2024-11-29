@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsGroup method. Encapsulates the function that represents isgroup in Go.'
 type: docs
 weight: 200
-url: /go/chartshape/isgroup/
+url: /go-cpp/chartshape/isgroup/
 ---
 
 ## IsGroup function

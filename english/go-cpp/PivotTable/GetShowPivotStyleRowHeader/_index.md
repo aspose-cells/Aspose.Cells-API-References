@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetShowPivotStyleRowHeader method. Encapsulates the function that represents getshowpivotstylerowheader in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/getshowpivotstylerowheader/
+url: /go-cpp/pivottable/getshowpivotstylerowheader/
 ---
 
 ## GetShowPivotStyleRowHeader function

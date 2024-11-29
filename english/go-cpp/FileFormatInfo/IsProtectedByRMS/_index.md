@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsProtectedByRMS method. Encapsulates the function that represents isprotectedbyrms in Go.'
 type: docs
 weight: 200
-url: /go/fileformatinfo/isprotectedbyrms/
+url: /go-cpp/fileformatinfo/isprotectedbyrms/
 ---
 
 ## IsProtectedByRMS function

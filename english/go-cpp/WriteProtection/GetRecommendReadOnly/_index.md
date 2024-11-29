@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetRecommendReadOnly method. Encapsulates the function that represents getrecommendreadonly in Go.'
 type: docs
 weight: 200
-url: /go/writeprotection/getrecommendreadonly/
+url: /go-cpp/writeprotection/getrecommendreadonly/
 ---
 
 ## GetRecommendReadOnly function

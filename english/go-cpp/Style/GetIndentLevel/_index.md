@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetIndentLevel method. Encapsulates the function that represents getindentlevel in Go.'
 type: docs
 weight: 200
-url: /go/style/getindentlevel/
+url: /go-cpp/style/getindentlevel/
 ---
 
 ## GetIndentLevel function

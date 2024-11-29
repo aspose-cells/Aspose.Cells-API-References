@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetXAdESType method. Encapsulates the function that represents setxadestype in Go.'
 type: docs
 weight: 200
-url: /go/digitalsignature/setxadestype/
+url: /go-cpp/digitalsignature/setxadestype/
 ---
 
 ## SetXAdESType function

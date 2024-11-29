@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetSeparator method. Encapsulates the function that represents setseparator in Go.'
 type: docs
 weight: 200
-url: /go/txtloadoptions/setseparator/
+url: /go-cpp/txtloadoptions/setseparator/
 ---
 
 ## SetSeparator function

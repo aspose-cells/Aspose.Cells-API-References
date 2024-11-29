@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetSpecialEffect method. Encapsulates the function that represents setspecialeffect in Go.'
 type: docs
 weight: 200
-url: /go/radiobuttonactivexcontrol/setspecialeffect/
+url: /go-cpp/radiobuttonactivexcontrol/setspecialeffect/
 ---
 
 ## SetSpecialEffect function

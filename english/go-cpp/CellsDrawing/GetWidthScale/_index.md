@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetWidthScale method. Encapsulates the function that represents getwidthscale in Go.'
 type: docs
 weight: 200
-url: /go/cellsdrawing/getwidthscale/
+url: /go-cpp/cellsdrawing/getwidthscale/
 ---
 
 ## GetWidthScale function

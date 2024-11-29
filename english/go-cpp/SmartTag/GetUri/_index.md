@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetUri method. Encapsulates the function that represents geturi in Go.'
 type: docs
 weight: 200
-url: /go/smarttag/geturi/
+url: /go-cpp/smarttag/geturi/
 ---
 
 ## GetUri function

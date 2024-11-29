@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Add_IconSetType_Int method. Encapsulates the function that represents add in Go.'
 type: docs
 weight: 200
-url: /go/conditionalformattingiconcollection/add_iconsettype_int/
+url: /go-cpp/conditionalformattingiconcollection/add_iconsettype_int/
 ---
 
 ## Add_IconSetType_Int function

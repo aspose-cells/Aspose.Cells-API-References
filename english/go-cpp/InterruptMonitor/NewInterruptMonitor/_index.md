@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'InterruptMonitor constructor. Encapsulates the function that represents newinterruptmonitor in Go.'
 type: docs
 weight: 200
-url: /go/interruptmonitor/newinterruptmonitor/
+url: /go-cpp/interruptmonitor/newinterruptmonitor/
 ---
 
 ## NewInterruptMonitor function

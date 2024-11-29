@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'CheckBoxActiveXControl constructor. Encapsulates the function that represents newcheckboxactivexcontrol in Go.'
 type: docs
 weight: 200
-url: /go/checkboxactivexcontrol/newcheckboxactivexcontrol/
+url: /go-cpp/checkboxactivexcontrol/newcheckboxactivexcontrol/
 ---
 
 ## NewCheckBoxActiveXControl function

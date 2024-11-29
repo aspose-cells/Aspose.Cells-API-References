@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetElevation method. Encapsulates the function that represents getelevation in Go.'
 type: docs
 weight: 200
-url: /go/chart/getelevation/
+url: /go-cpp/chart/getelevation/
 ---
 
 ## GetElevation function

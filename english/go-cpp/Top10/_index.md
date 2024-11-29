@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Top10 class. Encapsulates the object that represents top10 in Go.'
 type: docs
 weight: 200
-url: /go/top10/
+url: /go-cpp/top10/
 ---
 
 ## Top10 class

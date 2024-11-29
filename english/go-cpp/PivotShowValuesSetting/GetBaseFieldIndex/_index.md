@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetBaseFieldIndex method. Encapsulates the function that represents getbasefieldindex in Go.'
 type: docs
 weight: 200
-url: /go/pivotshowvaluessetting/getbasefieldindex/
+url: /go-cpp/pivotshowvaluessetting/getbasefieldindex/
 ---
 
 ## GetBaseFieldIndex function

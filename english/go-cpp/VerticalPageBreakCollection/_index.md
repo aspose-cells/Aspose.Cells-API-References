@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'VerticalPageBreakCollection class. Encapsulates the object that represents verticalpagebreakcollection in Go.'
 type: docs
 weight: 200
-url: /go/verticalpagebreakcollection/
+url: /go-cpp/verticalpagebreakcollection/
 ---
 
 ## VerticalPageBreakCollection class

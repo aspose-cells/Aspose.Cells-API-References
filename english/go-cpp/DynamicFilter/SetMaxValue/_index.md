@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetMaxValue method. Encapsulates the function that represents setmaxvalue in Go.'
 type: docs
 weight: 200
-url: /go/dynamicfilter/setmaxvalue/
+url: /go-cpp/dynamicfilter/setmaxvalue/
 ---
 
 ## SetMaxValue function

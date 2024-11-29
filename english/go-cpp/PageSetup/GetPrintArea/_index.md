@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetPrintArea method. Encapsulates the function that represents getprintarea in Go.'
 type: docs
 weight: 200
-url: /go/pagesetup/getprintarea/
+url: /go-cpp/pagesetup/getprintarea/
 ---
 
 ## GetPrintArea function

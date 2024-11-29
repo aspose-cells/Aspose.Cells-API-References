@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetBarPosition method. Encapsulates the function that represents setbarposition in Go.'
 type: docs
 weight: 200
-url: /go/barequationnode/setbarposition/
+url: /go-cpp/barequationnode/setbarposition/
 ---
 
 ## SetBarPosition function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetDefaultEditLanguage method. Encapsulates the function that represents getdefaulteditlanguage in Go.'
 type: docs
 weight: 200
-url: /go/pclsaveoptions/getdefaulteditlanguage/
+url: /go-cpp/pclsaveoptions/getdefaulteditlanguage/
 ---
 
 ## GetDefaultEditLanguage function

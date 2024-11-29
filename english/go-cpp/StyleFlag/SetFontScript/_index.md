@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetFontScript method. Encapsulates the function that represents setfontscript in Go.'
 type: docs
 weight: 200
-url: /go/styleflag/setfontscript/
+url: /go-cpp/styleflag/setfontscript/
 ---
 
 ## SetFontScript function

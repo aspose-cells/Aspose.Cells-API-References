@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetNotes method. Encapsulates the function that represents getnotes in Go.'
 type: docs
 weight: 200
-url: /go/threadedcomment/getnotes/
+url: /go-cpp/threadedcomment/getnotes/
 ---
 
 ## GetNotes function

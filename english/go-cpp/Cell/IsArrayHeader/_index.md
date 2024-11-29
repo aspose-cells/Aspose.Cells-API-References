@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsArrayHeader method. Encapsulates the function that represents isarrayheader in Go.'
 type: docs
 weight: 200
-url: /go/cell/isarrayheader/
+url: /go-cpp/cell/isarrayheader/
 ---
 
 ## IsArrayHeader function

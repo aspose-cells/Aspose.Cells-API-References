@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetRefreshOnChange method. Encapsulates the function that represents setrefreshonchange in Go.'
 type: docs
 weight: 200
-url: /go/connectionparameter/setrefreshonchange/
+url: /go-cpp/connectionparameter/setrefreshonchange/
 ---
 
 ## SetRefreshOnChange function

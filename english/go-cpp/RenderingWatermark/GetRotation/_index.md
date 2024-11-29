@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetRotation method. Encapsulates the function that represents getrotation in Go.'
 type: docs
 weight: 200
-url: /go/renderingwatermark/getrotation/
+url: /go-cpp/renderingwatermark/getrotation/
 ---
 
 ## GetRotation function

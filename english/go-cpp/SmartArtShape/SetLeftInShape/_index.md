@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetLeftInShape method. Encapsulates the function that represents setleftinshape in Go.'
 type: docs
 weight: 200
-url: /go/smartartshape/setleftinshape/
+url: /go-cpp/smartartshape/setleftinshape/
 ---
 
 ## SetLeftInShape function

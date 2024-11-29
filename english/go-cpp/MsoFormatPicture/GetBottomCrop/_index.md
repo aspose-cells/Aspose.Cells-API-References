@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetBottomCrop method. Encapsulates the function that represents getbottomcrop in Go.'
 type: docs
 weight: 200
-url: /go/msoformatpicture/getbottomcrop/
+url: /go-cpp/msoformatpicture/getbottomcrop/
 ---
 
 ## GetBottomCrop function

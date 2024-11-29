@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetPresentationPreference method. Encapsulates the function that represents setpresentationpreference in Go.'
 type: docs
 weight: 200
-url: /go/htmlsaveoptions/setpresentationpreference/
+url: /go-cpp/htmlsaveoptions/setpresentationpreference/
 ---
 
 ## SetPresentationPreference function

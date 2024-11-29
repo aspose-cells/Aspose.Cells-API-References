@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SparklineGroup class. Encapsulates the object that represents sparklinegroup in Go.'
 type: docs
 weight: 200
-url: /go/sparklinegroup/
+url: /go-cpp/sparklinegroup/
 ---
 
 ## SparklineGroup class

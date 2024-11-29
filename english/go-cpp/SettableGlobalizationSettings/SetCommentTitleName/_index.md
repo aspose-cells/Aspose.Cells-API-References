@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetCommentTitleName method. Encapsulates the function that represents setcommenttitlename in Go.'
 type: docs
 weight: 200
-url: /go/settableglobalizationsettings/setcommenttitlename/
+url: /go-cpp/settableglobalizationsettings/setcommenttitlename/
 ---
 
 ## SetCommentTitleName function

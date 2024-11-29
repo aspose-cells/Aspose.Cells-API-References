@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetMapChartProjectionType method. Encapsulates the function that represents getmapchartprojectiontype in Go.'
 type: docs
 weight: 200
-url: /go/serieslayoutproperties/getmapchartprojectiontype/
+url: /go-cpp/serieslayoutproperties/getmapchartprojectiontype/
 ---
 
 ## GetMapChartProjectionType function

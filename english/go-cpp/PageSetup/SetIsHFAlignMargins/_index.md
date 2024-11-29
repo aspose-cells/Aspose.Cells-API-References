@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsHFAlignMargins method. Encapsulates the function that represents setishfalignmargins in Go.'
 type: docs
 weight: 200
-url: /go/pagesetup/setishfalignmargins/
+url: /go-cpp/pagesetup/setishfalignmargins/
 ---
 
 ## SetIsHFAlignMargins function

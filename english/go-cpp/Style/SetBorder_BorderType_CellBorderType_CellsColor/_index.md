@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetBorder_BorderType_CellBorderType_CellsColor method. Encapsulates the function that represents setborder in Go.'
 type: docs
 weight: 200
-url: /go/style/setborder_bordertype_cellbordertype_cellscolor/
+url: /go-cpp/style/setborder_bordertype_cellbordertype_cellscolor/
 ---
 
 ## SetBorder_BorderType_CellBorderType_CellsColor function

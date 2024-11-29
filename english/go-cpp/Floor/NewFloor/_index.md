@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Floor constructor. Encapsulates the function that represents newfloor in Go.'
 type: docs
 weight: 200
-url: /go/floor/newfloor/
+url: /go-cpp/floor/newfloor/
 ---
 
 ## NewFloor function

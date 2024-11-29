@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsLogarithmic method. Encapsulates the function that represents setislogarithmic in Go.'
 type: docs
 weight: 200
-url: /go/axis/setislogarithmic/
+url: /go-cpp/axis/setislogarithmic/
 ---
 
 ## SetIsLogarithmic function

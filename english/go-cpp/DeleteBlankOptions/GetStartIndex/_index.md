@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetStartIndex method. Encapsulates the function that represents getstartindex in Go.'
 type: docs
 weight: 200
-url: /go/deleteblankoptions/getstartindex/
+url: /go-cpp/deleteblankoptions/getstartindex/
 ---
 
 ## GetStartIndex function

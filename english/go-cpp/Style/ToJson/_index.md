@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ToJson method. Encapsulates the function that represents tojson in Go.'
 type: docs
 weight: 200
-url: /go/style/tojson/
+url: /go-cpp/style/tojson/
 ---
 
 ## ToJson function

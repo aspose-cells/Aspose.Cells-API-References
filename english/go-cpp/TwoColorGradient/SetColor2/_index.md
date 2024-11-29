@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetColor2 method. Encapsulates the function that represents setcolor2 in Go.'
 type: docs
 weight: 200
-url: /go/twocolorgradient/setcolor2/
+url: /go-cpp/twocolorgradient/setcolor2/
 ---
 
 ## SetColor2 function

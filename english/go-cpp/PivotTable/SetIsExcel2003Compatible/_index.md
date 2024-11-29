@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsExcel2003Compatible method. Encapsulates the function that represents setisexcel2003compatible in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/setisexcel2003compatible/
+url: /go-cpp/pivottable/setisexcel2003compatible/
 ---
 
 ## SetIsExcel2003Compatible function

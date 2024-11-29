@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetPrintDrill method. Encapsulates the function that represents getprintdrill in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/getprintdrill/
+url: /go-cpp/pivottable/getprintdrill/
 ---
 
 ## GetPrintDrill function

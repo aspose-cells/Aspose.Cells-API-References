@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'JsonUtility_ExportRangeToJson method. Encapsulates the function that represents exportrangetojson in Go.'
 type: docs
 weight: 200
-url: /go/jsonutility/jsonutility_exportrangetojson/
+url: /go-cpp/jsonutility/jsonutility_exportrangetojson/
 ---
 
 ## JsonUtility_ExportRangeToJson function

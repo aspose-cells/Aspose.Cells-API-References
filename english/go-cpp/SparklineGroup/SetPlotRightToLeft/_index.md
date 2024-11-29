@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetPlotRightToLeft method. Encapsulates the function that represents setplotrighttoleft in Go.'
 type: docs
 weight: 200
-url: /go/sparklinegroup/setplotrighttoleft/
+url: /go-cpp/sparklinegroup/setplotrighttoleft/
 ---
 
 ## SetPlotRightToLeft function

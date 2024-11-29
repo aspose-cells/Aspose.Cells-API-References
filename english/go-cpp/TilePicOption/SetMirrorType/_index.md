@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetMirrorType method. Encapsulates the function that represents setmirrortype in Go.'
 type: docs
 weight: 200
-url: /go/tilepicoption/setmirrortype/
+url: /go-cpp/tilepicoption/setmirrortype/
 ---
 
 ## SetMirrorType function

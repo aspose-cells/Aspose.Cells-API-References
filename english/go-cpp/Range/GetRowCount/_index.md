@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetRowCount method. Encapsulates the function that represents getrowcount in Go.'
 type: docs
 weight: 200
-url: /go/range/getrowcount/
+url: /go-cpp/range/getrowcount/
 ---
 
 ## GetRowCount function

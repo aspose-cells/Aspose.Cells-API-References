@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetStyle method. Encapsulates the function that represents getstyle in Go.'
 type: docs
 weight: 200
-url: /go/revisionformat/getstyle/
+url: /go-cpp/revisionformat/getstyle/
 ---
 
 ## GetStyle function

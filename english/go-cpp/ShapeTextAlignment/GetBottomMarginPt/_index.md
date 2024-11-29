@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetBottomMarginPt method. Encapsulates the function that represents getbottommarginpt in Go.'
 type: docs
 weight: 200
-url: /go/shapetextalignment/getbottommarginpt/
+url: /go-cpp/shapetextalignment/getbottommarginpt/
 ---
 
 ## GetBottomMarginPt function

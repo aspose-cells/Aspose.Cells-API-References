@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetExportActiveWorksheetOnly method. Encapsulates the function that represents setexportactiveworksheetonly in Go.'
 type: docs
 weight: 200
-url: /go/htmlsaveoptions/setexportactiveworksheetonly/
+url: /go-cpp/htmlsaveoptions/setexportactiveworksheetonly/
 ---
 
 ## SetExportActiveWorksheetOnly function

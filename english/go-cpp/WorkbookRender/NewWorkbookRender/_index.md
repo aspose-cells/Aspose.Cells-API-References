@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'WorkbookRender constructor. Encapsulates the function that represents newworkbookrender in Go.'
 type: docs
 weight: 200
-url: /go/workbookrender/newworkbookrender/
+url: /go-cpp/workbookrender/newworkbookrender/
 ---
 
 ## NewWorkbookRender function

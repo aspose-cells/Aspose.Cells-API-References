@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SparklineAxisMinMaxType enum. Encapsulates the object that represents sparklineaxisminmaxtype in Go.'
 type: docs
 weight: 200
-url: /go/sparklineaxisminmaxtype/
+url: /go-cpp/sparklineaxisminmaxtype/
 ---
 
 ## SparklineAxisMinMaxType Enum

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetDataFieldHeaderName method. Encapsulates the function that represents getdatafieldheadername in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/getdatafieldheadername/
+url: /go-cpp/pivottable/getdatafieldheadername/
 ---
 
 ## GetDataFieldHeaderName function

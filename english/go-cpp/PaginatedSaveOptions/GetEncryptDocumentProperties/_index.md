@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetEncryptDocumentProperties method. Encapsulates the function that represents getencryptdocumentproperties in Go.'
 type: docs
 weight: 200
-url: /go/paginatedsaveoptions/getencryptdocumentproperties/
+url: /go-cpp/paginatedsaveoptions/getencryptdocumentproperties/
 ---
 
 ## GetEncryptDocumentProperties function

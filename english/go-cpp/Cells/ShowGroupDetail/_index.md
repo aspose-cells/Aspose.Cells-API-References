@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ShowGroupDetail method. Encapsulates the function that represents showgroupdetail in Go.'
 type: docs
 weight: 200
-url: /go/cells/showgroupdetail/
+url: /go-cpp/cells/showgroupdetail/
 ---
 
 ## ShowGroupDetail function

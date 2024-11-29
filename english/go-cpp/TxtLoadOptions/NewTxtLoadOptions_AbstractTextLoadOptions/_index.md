@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'TxtLoadOptions constructor. Encapsulates the function that represents newtxtloadoptions_abstracttextloadoptions in Go.'
 type: docs
 weight: 200
-url: /go/txtloadoptions/newtxtloadoptions_abstracttextloadoptions/
+url: /go-cpp/txtloadoptions/newtxtloadoptions_abstracttextloadoptions/
 ---
 
 ## NewTxtLoadOptions_AbstractTextLoadOptions function

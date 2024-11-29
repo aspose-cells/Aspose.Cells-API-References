@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'DeleteText method. Encapsulates the function that represents deletetext in Go.'
 type: docs
 weight: 200
-url: /go/fontsettingcollection/deletetext/
+url: /go-cpp/fontsettingcollection/deletetext/
 ---
 
 ## DeleteText function

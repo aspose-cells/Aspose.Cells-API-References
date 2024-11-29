@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetSignificantDigits method. Encapsulates the function that represents getsignificantdigits in Go.'
 type: docs
 weight: 200
-url: /go/workbooksettings/getsignificantdigits/
+url: /go-cpp/workbooksettings/getsignificantdigits/
 ---
 
 ## GetSignificantDigits function

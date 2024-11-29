@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetLinksUpToDate method. Encapsulates the function that represents getlinksuptodate in Go.'
 type: docs
 weight: 200
-url: /go/builtindocumentpropertycollection/getlinksuptodate/
+url: /go-cpp/builtindocumentpropertycollection/getlinksuptodate/
 ---
 
 ## GetLinksUpToDate function

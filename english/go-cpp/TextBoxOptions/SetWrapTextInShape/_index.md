@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetWrapTextInShape method. Encapsulates the function that represents setwraptextinshape in Go.'
 type: docs
 weight: 200
-url: /go/textboxoptions/setwraptextinshape/
+url: /go-cpp/textboxoptions/setwraptextinshape/
 ---
 
 ## SetWrapTextInShape function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetY method. Encapsulates the function that represents sety in Go.'
 type: docs
 weight: 200
-url: /go/charttextframe/sety/
+url: /go-cpp/charttextframe/sety/
 ---
 
 ## SetY function

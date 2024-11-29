@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetExportDataOptions method. Encapsulates the function that represents setexportdataoptions in Go.'
 type: docs
 weight: 200
-url: /go/htmlsaveoptions/setexportdataoptions/
+url: /go-cpp/htmlsaveoptions/setexportdataoptions/
 ---
 
 ## SetExportDataOptions function

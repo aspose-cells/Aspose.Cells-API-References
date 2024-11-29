@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetPrimaryKey method. Encapsulates the function that represents getprimarykey in Go.'
 type: docs
 weight: 200
-url: /go/sqlscriptsaveoptions/getprimarykey/
+url: /go-cpp/sqlscriptsaveoptions/getprimarykey/
 ---
 
 ## GetPrimaryKey function

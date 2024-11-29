@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetHeaderRowsCount method. Encapsulates the function that represents getheaderrowscount in Go.'
 type: docs
 weight: 200
-url: /go/txtloadoptions/getheaderrowscount/
+url: /go-cpp/txtloadoptions/getheaderrowscount/
 ---
 
 ## GetHeaderRowsCount function

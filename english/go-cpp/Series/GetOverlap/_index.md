@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetOverlap method. Encapsulates the function that represents getoverlap in Go.'
 type: docs
 weight: 200
-url: /go/series/getoverlap/
+url: /go-cpp/series/getoverlap/
 ---
 
 ## GetOverlap function

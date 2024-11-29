@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetRevisions method. Encapsulates the function that represents getrevisions in Go.'
 type: docs
 weight: 200
-url: /go/revisionlog/getrevisions/
+url: /go-cpp/revisionlog/getrevisions/
 ---
 
 ## GetRevisions function

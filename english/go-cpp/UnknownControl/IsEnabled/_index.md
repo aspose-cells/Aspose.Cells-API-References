@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsEnabled method. Encapsulates the function that represents isenabled in Go.'
 type: docs
 weight: 200
-url: /go/unknowncontrol/isenabled/
+url: /go-cpp/unknowncontrol/isenabled/
 ---
 
 ## IsEnabled function

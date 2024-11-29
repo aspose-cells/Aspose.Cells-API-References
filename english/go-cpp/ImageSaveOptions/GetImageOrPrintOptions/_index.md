@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetImageOrPrintOptions method. Encapsulates the function that represents getimageorprintoptions in Go.'
 type: docs
 weight: 200
-url: /go/imagesaveoptions/getimageorprintoptions/
+url: /go-cpp/imagesaveoptions/getimageorprintoptions/
 ---
 
 ## GetImageOrPrintOptions function

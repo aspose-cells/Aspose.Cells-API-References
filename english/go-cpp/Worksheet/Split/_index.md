@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Split method. Encapsulates the function that represents split in Go.'
 type: docs
 weight: 200
-url: /go/worksheet/split/
+url: /go-cpp/worksheet/split/
 ---
 
 ## Split function

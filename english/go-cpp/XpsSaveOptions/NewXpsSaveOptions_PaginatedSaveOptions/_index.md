@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'XpsSaveOptions constructor. Encapsulates the function that represents newxpssaveoptions_paginatedsaveoptions in Go.'
 type: docs
 weight: 200
-url: /go/xpssaveoptions/newxpssaveoptions_paginatedsaveoptions/
+url: /go-cpp/xpssaveoptions/newxpssaveoptions_paginatedsaveoptions/
 ---
 
 ## NewXpsSaveOptions_PaginatedSaveOptions function

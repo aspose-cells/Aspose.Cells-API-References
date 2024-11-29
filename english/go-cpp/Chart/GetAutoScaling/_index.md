@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetAutoScaling method. Encapsulates the function that represents getautoscaling in Go.'
 type: docs
 weight: 200
-url: /go/chart/getautoscaling/
+url: /go-cpp/chart/getautoscaling/
 ---
 
 ## GetAutoScaling function

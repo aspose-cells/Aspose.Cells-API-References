@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetActiveSheetIndex method. Encapsulates the function that represents setactivesheetindex in Go.'
 type: docs
 weight: 200
-url: /go/worksheetcollection/setactivesheetindex/
+url: /go-cpp/worksheetcollection/setactivesheetindex/
 ---
 
 ## SetActiveSheetIndex function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetDisplayNumberFormat method. Encapsulates the function that represents getdisplaynumberformat in Go.'
 type: docs
 weight: 200
-url: /go/ticklabels/getdisplaynumberformat/
+url: /go-cpp/ticklabels/getdisplaynumberformat/
 ---
 
 ## GetDisplayNumberFormat function

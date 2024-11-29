@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'EquationFractionType enum. Encapsulates the object that represents equationfractiontype in Go.'
 type: docs
 weight: 200
-url: /go/equationfractiontype/
+url: /go-cpp/equationfractiontype/
 ---
 
 ## EquationFractionType Enum

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsHScrollBarVisible method. Encapsulates the function that represents setishscrollbarvisible in Go.'
 type: docs
 weight: 200
-url: /go/workbooksettings/setishscrollbarvisible/
+url: /go-cpp/workbooksettings/setishscrollbarvisible/
 ---
 
 ## SetIsHScrollBarVisible function

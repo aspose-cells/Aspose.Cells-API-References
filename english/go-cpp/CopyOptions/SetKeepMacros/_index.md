@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetKeepMacros method. Encapsulates the function that represents setkeepmacros in Go.'
 type: docs
 weight: 200
-url: /go/copyoptions/setkeepmacros/
+url: /go-cpp/copyoptions/setkeepmacros/
 ---
 
 ## SetKeepMacros function

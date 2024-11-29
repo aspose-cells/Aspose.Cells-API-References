@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'HorizontalPageBreakCollection class. Encapsulates the object that represents horizontalpagebreakcollection in Go.'
 type: docs
 weight: 200
-url: /go/horizontalpagebreakcollection/
+url: /go-cpp/horizontalpagebreakcollection/
 ---
 
 ## HorizontalPageBreakCollection class

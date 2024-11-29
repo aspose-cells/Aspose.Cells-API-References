@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetFirstVisibleRow method. Encapsulates the function that represents setfirstvisiblerow in Go.'
 type: docs
 weight: 200
-url: /go/worksheet/setfirstvisiblerow/
+url: /go-cpp/worksheet/setfirstvisiblerow/
 ---
 
 ## SetFirstVisibleRow function

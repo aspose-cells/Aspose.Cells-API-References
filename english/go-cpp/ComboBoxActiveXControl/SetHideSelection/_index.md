@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetHideSelection method. Encapsulates the function that represents sethideselection in Go.'
 type: docs
 weight: 200
-url: /go/comboboxactivexcontrol/sethideselection/
+url: /go-cpp/comboboxactivexcontrol/sethideselection/
 ---
 
 ## SetHideSelection function

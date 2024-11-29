@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetInnerWidth method. Encapsulates the function that represents setinnerwidth in Go.'
 type: docs
 weight: 200
-url: /go/plotarea/setinnerwidth/
+url: /go-cpp/plotarea/setinnerwidth/
 ---
 
 ## SetInnerWidth function

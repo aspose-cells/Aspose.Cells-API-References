@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetDate1904 method. Encapsulates the function that represents getdate1904 in Go.'
 type: docs
 weight: 200
-url: /go/workbooksettings/getdate1904/
+url: /go-cpp/workbooksettings/getdate1904/
 ---
 
 ## GetDate1904 function

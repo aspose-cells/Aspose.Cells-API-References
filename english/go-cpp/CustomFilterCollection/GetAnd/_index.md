@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetAnd method. Encapsulates the function that represents getand in Go.'
 type: docs
 weight: 200
-url: /go/customfiltercollection/getand/
+url: /go-cpp/customfiltercollection/getand/
 ---
 
 ## GetAnd function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetMidCfvo method. Encapsulates the function that represents getmidcfvo in Go.'
 type: docs
 weight: 200
-url: /go/colorscale/getmidcfvo/
+url: /go-cpp/colorscale/getmidcfvo/
 ---
 
 ## GetMidCfvo function

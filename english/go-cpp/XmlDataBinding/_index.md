@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'XmlDataBinding class. Encapsulates the object that represents xmldatabinding in Go.'
 type: docs
 weight: 200
-url: /go/xmldatabinding/
+url: /go-cpp/xmldatabinding/
 ---
 
 ## XmlDataBinding class

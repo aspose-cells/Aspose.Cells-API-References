@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetStandardHeaderFooterFontStyleName method. Encapsulates the function that represents setstandardheaderfooterfontstylename in Go.'
 type: docs
 weight: 200
-url: /go/settableglobalizationsettings/setstandardheaderfooterfontstylename/
+url: /go-cpp/settableglobalizationsettings/setstandardheaderfooterfontstylename/
 ---
 
 ## SetStandardHeaderFooterFontStyleName function

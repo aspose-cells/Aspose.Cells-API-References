@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetAutoShapeType method. Encapsulates the function that represents setautoshapetype in Go.'
 type: docs
 weight: 200
-url: /go/dialog_box/setautoshapetype/
+url: /go-cpp/dialog_box/setautoshapetype/
 ---
 
 ## SetAutoShapeType function

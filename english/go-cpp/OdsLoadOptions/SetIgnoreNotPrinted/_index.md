@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIgnoreNotPrinted method. Encapsulates the function that represents setignorenotprinted in Go.'
 type: docs
 weight: 200
-url: /go/odsloadoptions/setignorenotprinted/
+url: /go-cpp/odsloadoptions/setignorenotprinted/
 ---
 
 ## SetIgnoreNotPrinted function

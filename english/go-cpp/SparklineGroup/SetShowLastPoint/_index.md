@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetShowLastPoint method. Encapsulates the function that represents setshowlastpoint in Go.'
 type: docs
 weight: 200
-url: /go/sparklinegroup/setshowlastpoint/
+url: /go-cpp/sparklinegroup/setshowlastpoint/
 ---
 
 ## SetShowLastPoint function

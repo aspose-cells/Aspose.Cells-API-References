@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ExternalLink class. Encapsulates the object that represents externallink in Go.'
 type: docs
 weight: 200
-url: /go/externallink/
+url: /go-cpp/externallink/
 ---
 
 ## ExternalLink class

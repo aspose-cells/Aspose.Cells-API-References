@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Remove method. Encapsulates the function that represents remove in Go.'
 type: docs
 weight: 200
-url: /go/equationnode/remove/
+url: /go-cpp/equationnode/remove/
 ---
 
 ## Remove function

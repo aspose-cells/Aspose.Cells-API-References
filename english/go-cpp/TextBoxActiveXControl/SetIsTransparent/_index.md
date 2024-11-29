@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsTransparent method. Encapsulates the function that represents setistransparent in Go.'
 type: docs
 weight: 200
-url: /go/textboxactivexcontrol/setistransparent/
+url: /go-cpp/textboxactivexcontrol/setistransparent/
 ---
 
 ## SetIsTransparent function

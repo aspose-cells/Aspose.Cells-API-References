@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetShapeHeight method. Encapsulates the function that represents getshapeheight in Go.'
 type: docs
 weight: 200
-url: /go/chartpoint/getshapeheight/
+url: /go-cpp/chartpoint/getshapeheight/
 ---
 
 ## GetShapeHeight function

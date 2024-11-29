@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'FormattingType enum. Encapsulates the object that represents formattingtype in Go.'
 type: docs
 weight: 200
-url: /go/formattingtype/
+url: /go-cpp/formattingtype/
 ---
 
 ## FormattingType Enum

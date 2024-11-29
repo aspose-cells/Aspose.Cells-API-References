@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTextOrientationType method. Encapsulates the function that represents gettextorientationtype in Go.'
 type: docs
 weight: 200
-url: /go/oleobject/gettextorientationtype/
+url: /go-cpp/oleobject/gettextorientationtype/
 ---
 
 ## GetTextOrientationType function

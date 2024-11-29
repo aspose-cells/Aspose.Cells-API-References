@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetBottomBorder method. Encapsulates the function that represents getbottomborder in Go.'
 type: docs
 weight: 200
-url: /go/styleflag/getbottomborder/
+url: /go-cpp/styleflag/getbottomborder/
 ---
 
 ## GetBottomBorder function

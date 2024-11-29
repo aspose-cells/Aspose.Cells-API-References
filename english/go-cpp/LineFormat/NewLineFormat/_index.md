@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'LineFormat constructor. Encapsulates the function that represents newlineformat in Go.'
 type: docs
 weight: 200
-url: /go/lineformat/newlineformat/
+url: /go-cpp/lineformat/newlineformat/
 ---
 
 ## NewLineFormat function

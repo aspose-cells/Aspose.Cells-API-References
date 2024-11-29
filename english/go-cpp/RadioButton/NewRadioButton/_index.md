@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'RadioButton constructor. Encapsulates the function that represents newradiobutton in Go.'
 type: docs
 weight: 200
-url: /go/radiobutton/newradiobutton/
+url: /go-cpp/radiobutton/newradiobutton/
 ---
 
 ## NewRadioButton function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetPanes method. Encapsulates the function that represents getpanes in Go.'
 type: docs
 weight: 200
-url: /go/worksheet/getpanes/
+url: /go-cpp/worksheet/getpanes/
 ---
 
 ## GetPanes function

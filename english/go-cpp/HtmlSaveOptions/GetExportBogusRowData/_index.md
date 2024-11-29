@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetExportBogusRowData method. Encapsulates the function that represents getexportbogusrowdata in Go.'
 type: docs
 weight: 200
-url: /go/htmlsaveoptions/getexportbogusrowdata/
+url: /go-cpp/htmlsaveoptions/getexportbogusrowdata/
 ---
 
 ## GetExportBogusRowData function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetShadow method. Encapsulates the function that represents setshadow in Go.'
 type: docs
 weight: 200
-url: /go/charttextframe/setshadow/
+url: /go-cpp/charttextframe/setshadow/
 ---
 
 ## SetShadow function

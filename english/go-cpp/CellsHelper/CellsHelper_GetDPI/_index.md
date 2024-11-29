@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'CellsHelper_GetDPI method. Encapsulates the function that represents getdpi in Go.'
 type: docs
 weight: 200
-url: /go/cellshelper/cellshelper_getdpi/
+url: /go-cpp/cellshelper/cellshelper_getdpi/
 ---
 
 ## CellsHelper_GetDPI function

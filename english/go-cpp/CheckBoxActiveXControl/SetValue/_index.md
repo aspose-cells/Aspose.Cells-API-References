@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetValue method. Encapsulates the function that represents setvalue in Go.'
 type: docs
 weight: 200
-url: /go/checkboxactivexcontrol/setvalue/
+url: /go-cpp/checkboxactivexcontrol/setvalue/
 ---
 
 ## SetValue function

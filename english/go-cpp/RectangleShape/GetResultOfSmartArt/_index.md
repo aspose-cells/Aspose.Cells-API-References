@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetResultOfSmartArt method. Encapsulates the function that represents getresultofsmartart in Go.'
 type: docs
 weight: 200
-url: /go/rectangleshape/getresultofsmartart/
+url: /go-cpp/rectangleshape/getresultofsmartart/
 ---
 
 ## GetResultOfSmartArt function

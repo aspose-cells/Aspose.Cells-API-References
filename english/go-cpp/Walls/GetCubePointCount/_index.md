@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetCubePointCount method. Encapsulates the function that represents getcubepointcount in Go.'
 type: docs
 weight: 200
-url: /go/walls/getcubepointcount/
+url: /go-cpp/walls/getcubepointcount/
 ---
 
 ## GetCubePointCount function

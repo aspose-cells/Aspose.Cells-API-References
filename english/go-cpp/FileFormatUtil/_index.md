@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'FileFormatUtil class. Encapsulates the object that represents fileformatutil in Go.'
 type: docs
 weight: 200
-url: /go/fileformatutil/
+url: /go-cpp/fileformatutil/
 ---
 
 ## FileFormatUtil class

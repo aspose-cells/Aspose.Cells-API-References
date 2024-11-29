@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetUserId method. Encapsulates the function that represents setuserid in Go.'
 type: docs
 weight: 200
-url: /go/threadedcommentauthor/setuserid/
+url: /go-cpp/threadedcommentauthor/setuserid/
 ---
 
 ## SetUserId function

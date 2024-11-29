@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsRepeatItemLabels method. Encapsulates the function that represents isrepeatitemlabels in Go.'
 type: docs
 weight: 200
-url: /go/pivotfield/isrepeatitemlabels/
+url: /go-cpp/pivotfield/isrepeatitemlabels/
 ---
 
 ## IsRepeatItemLabels function

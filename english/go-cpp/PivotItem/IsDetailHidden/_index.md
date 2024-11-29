@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsDetailHidden method. Encapsulates the function that represents isdetailhidden in Go.'
 type: docs
 weight: 200
-url: /go/pivotitem/isdetailhidden/
+url: /go-cpp/pivotitem/isdetailhidden/
 ---
 
 ## IsDetailHidden function

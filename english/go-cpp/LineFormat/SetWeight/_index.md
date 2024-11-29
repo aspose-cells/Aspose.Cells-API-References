@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetWeight method. Encapsulates the function that represents setweight in Go.'
 type: docs
 weight: 200
-url: /go/lineformat/setweight/
+url: /go-cpp/lineformat/setweight/
 ---
 
 ## SetWeight function

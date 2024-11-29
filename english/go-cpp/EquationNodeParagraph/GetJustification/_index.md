@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetJustification method. Encapsulates the function that represents getjustification in Go.'
 type: docs
 weight: 200
-url: /go/equationnodeparagraph/getjustification/
+url: /go-cpp/equationnodeparagraph/getjustification/
 ---
 
 ## GetJustification function

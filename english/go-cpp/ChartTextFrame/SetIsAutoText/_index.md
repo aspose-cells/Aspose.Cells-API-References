@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsAutoText method. Encapsulates the function that represents setisautotext in Go.'
 type: docs
 weight: 200
-url: /go/charttextframe/setisautotext/
+url: /go-cpp/charttextframe/setisautotext/
 ---
 
 ## SetIsAutoText function

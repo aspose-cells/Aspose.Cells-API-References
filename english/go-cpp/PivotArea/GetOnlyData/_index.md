@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetOnlyData method. Encapsulates the function that represents getonlydata in Go.'
 type: docs
 weight: 200
-url: /go/pivotarea/getonlydata/
+url: /go-cpp/pivotarea/getonlydata/
 ---
 
 ## GetOnlyData function

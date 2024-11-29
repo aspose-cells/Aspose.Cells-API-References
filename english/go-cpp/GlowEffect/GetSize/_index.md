@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetSize method. Encapsulates the function that represents getsize in Go.'
 type: docs
 weight: 200
-url: /go/gloweffect/getsize/
+url: /go-cpp/gloweffect/getsize/
 ---
 
 ## GetSize function

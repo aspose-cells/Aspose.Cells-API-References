@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetDragToColumn method. Encapsulates the function that represents setdragtocolumn in Go.'
 type: docs
 weight: 200
-url: /go/pivotfield/setdragtocolumn/
+url: /go-cpp/pivotfield/setdragtocolumn/
 ---
 
 ## SetDragToColumn function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetTextOfGrandTotal method. Encapsulates the function that represents settextofgrandtotal in Go.'
 type: docs
 weight: 200
-url: /go/settablepivotglobalizationsettings/settextofgrandtotal/
+url: /go-cpp/settablepivotglobalizationsettings/settextofgrandtotal/
 ---
 
 ## SetTextOfGrandTotal function

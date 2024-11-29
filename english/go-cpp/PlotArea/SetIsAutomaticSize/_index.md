@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsAutomaticSize method. Encapsulates the function that represents setisautomaticsize in Go.'
 type: docs
 weight: 200
-url: /go/plotarea/setisautomaticsize/
+url: /go-cpp/plotarea/setisautomaticsize/
 ---
 
 ## SetIsAutomaticSize function

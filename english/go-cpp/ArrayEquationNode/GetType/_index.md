@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetType method. Encapsulates the function that represents gettype in Go.'
 type: docs
 weight: 200
-url: /go/arrayequationnode/gettype/
+url: /go-cpp/arrayequationnode/gettype/
 ---
 
 ## GetType function

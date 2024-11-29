@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'FormatArea method. Encapsulates the function that represents formatarea in Go.'
 type: docs
 weight: 200
-url: /go/pivottableformatcollection/formatarea/
+url: /go-cpp/pivottableformatcollection/formatarea/
 ---
 
 ## FormatArea function

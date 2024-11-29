@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetText method. Encapsulates the function that represents settext in Go.'
 type: docs
 weight: 200
-url: /go/lineshape/settext/
+url: /go-cpp/lineshape/settext/
 ---
 
 ## SetText function

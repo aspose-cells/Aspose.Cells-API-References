@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetDoughnutHoleSize method. Encapsulates the function that represents getdoughnutholesize in Go.'
 type: docs
 weight: 200
-url: /go/series/getdoughnutholesize/
+url: /go-cpp/series/getdoughnutholesize/
 ---
 
 ## GetDoughnutHoleSize function

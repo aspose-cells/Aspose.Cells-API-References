@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetCustomFormat method. Encapsulates the function that represents setcustomformat in Go.'
 type: docs
 weight: 200
-url: /go/odscellfield/setcustomformat/
+url: /go-cpp/odscellfield/setcustomformat/
 ---
 
 ## SetCustomFormat function

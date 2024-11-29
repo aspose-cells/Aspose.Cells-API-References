@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetConnectionString method. Encapsulates the function that represents setconnectionstring in Go.'
 type: docs
 weight: 200
-url: /go/webqueryconnection/setconnectionstring/
+url: /go-cpp/webqueryconnection/setconnectionstring/
 ---
 
 ## SetConnectionString function

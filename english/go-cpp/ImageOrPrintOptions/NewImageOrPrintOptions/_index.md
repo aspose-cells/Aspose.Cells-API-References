@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ImageOrPrintOptions constructor. Encapsulates the function that represents newimageorprintoptions in Go.'
 type: docs
 weight: 200
-url: /go/imageorprintoptions/newimageorprintoptions/
+url: /go-cpp/imageorprintoptions/newimageorprintoptions/
 ---
 
 ## NewImageOrPrintOptions function

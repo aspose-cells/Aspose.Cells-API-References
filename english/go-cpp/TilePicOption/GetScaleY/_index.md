@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetScaleY method. Encapsulates the function that represents getscaley in Go.'
 type: docs
 weight: 200
-url: /go/tilepicoption/getscaley/
+url: /go-cpp/tilepicoption/getscaley/
 ---
 
 ## GetScaleY function

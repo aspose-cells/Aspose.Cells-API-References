@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetEvenHeader method. Encapsulates the function that represents getevenheader in Go.'
 type: docs
 weight: 200
-url: /go/pagesetup/getevenheader/
+url: /go-cpp/pagesetup/getevenheader/
 ---
 
 ## GetEvenHeader function

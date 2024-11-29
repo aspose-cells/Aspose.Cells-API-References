@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsFilled method. Encapsulates the function that represents isfilled in Go.'
 type: docs
 weight: 200
-url: /go/customxmlshape/isfilled/
+url: /go-cpp/customxmlshape/isfilled/
 ---
 
 ## IsFilled function

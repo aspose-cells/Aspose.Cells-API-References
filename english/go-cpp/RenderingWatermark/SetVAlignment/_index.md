@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetVAlignment method. Encapsulates the function that represents setvalignment in Go.'
 type: docs
 weight: 200
-url: /go/renderingwatermark/setvalignment/
+url: /go-cpp/renderingwatermark/setvalignment/
 ---
 
 ## SetVAlignment function

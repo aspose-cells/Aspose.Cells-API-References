@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'CreateRange_Int_Int_Int_Int method. Encapsulates the function that represents createrange in Go.'
 type: docs
 weight: 200
-url: /go/cells/createrange_int_int_int_int/
+url: /go-cpp/cells/createrange_int_int_int_int/
 ---
 
 ## CreateRange_Int_Int_Int_Int function

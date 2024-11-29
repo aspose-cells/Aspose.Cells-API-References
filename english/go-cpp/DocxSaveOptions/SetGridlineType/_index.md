@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetGridlineType method. Encapsulates the function that represents setgridlinetype in Go.'
 type: docs
 weight: 200
-url: /go/docxsaveoptions/setgridlinetype/
+url: /go-cpp/docxsaveoptions/setgridlinetype/
 ---
 
 ## SetGridlineType function

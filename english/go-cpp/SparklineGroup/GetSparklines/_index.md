@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetSparklines method. Encapsulates the function that represents getsparklines in Go.'
 type: docs
 weight: 200
-url: /go/sparklinegroup/getsparklines/
+url: /go-cpp/sparklinegroup/getsparklines/
 ---
 
 ## GetSparklines function

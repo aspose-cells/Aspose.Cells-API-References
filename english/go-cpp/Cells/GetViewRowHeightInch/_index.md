@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetViewRowHeightInch method. Encapsulates the function that represents getviewrowheightinch in Go.'
 type: docs
 weight: 200
-url: /go/cells/getviewrowheightinch/
+url: /go-cpp/cells/getviewrowheightinch/
 ---
 
 ## GetViewRowHeightInch function

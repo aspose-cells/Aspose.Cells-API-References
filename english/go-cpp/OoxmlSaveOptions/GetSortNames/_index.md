@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetSortNames method. Encapsulates the function that represents getsortnames in Go.'
 type: docs
 weight: 200
-url: /go/ooxmlsaveoptions/getsortnames/
+url: /go-cpp/ooxmlsaveoptions/getsortnames/
 ---
 
 ## GetSortNames function

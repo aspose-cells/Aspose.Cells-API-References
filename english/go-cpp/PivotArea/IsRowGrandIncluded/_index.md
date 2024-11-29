@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsRowGrandIncluded method. Encapsulates the function that represents isrowgrandincluded in Go.'
 type: docs
 weight: 200
-url: /go/pivotarea/isrowgrandincluded/
+url: /go-cpp/pivotarea/isrowgrandincluded/
 ---
 
 ## IsRowGrandIncluded function

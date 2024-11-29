@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetBookmark method. Encapsulates the function that represents setbookmark in Go.'
 type: docs
 weight: 200
-url: /go/pdfsaveoptions/setbookmark/
+url: /go-cpp/pdfsaveoptions/setbookmark/
 ---
 
 ## SetBookmark function

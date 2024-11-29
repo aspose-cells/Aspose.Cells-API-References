@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetAxisType method. Encapsulates the function that represents getaxistype in Go.'
 type: docs
 weight: 200
-url: /go/pivotarea/getaxistype/
+url: /go-cpp/pivotarea/getaxistype/
 ---
 
 ## GetAxisType function

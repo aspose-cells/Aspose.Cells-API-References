@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetName method. Encapsulates the function that represents getname in Go.'
 type: docs
 weight: 200
-url: /go/pivotfilter/getname/
+url: /go-cpp/pivotfilter/getname/
 ---
 
 ## GetName function

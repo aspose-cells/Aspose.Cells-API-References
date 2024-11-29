@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetFontItalic method. Encapsulates the function that represents getfontitalic in Go.'
 type: docs
 weight: 200
-url: /go/styleflag/getfontitalic/
+url: /go-cpp/styleflag/getfontitalic/
 ---
 
 ## GetFontItalic function

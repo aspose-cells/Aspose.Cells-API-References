@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsSubscript method. Encapsulates the function that represents setissubscript in Go.'
 type: docs
 weight: 200
-url: /go/font/setissubscript/
+url: /go-cpp/font/setissubscript/
 ---
 
 ## SetIsSubscript function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetFontSize method. Encapsulates the function that represents getfontsize in Go.'
 type: docs
 weight: 200
-url: /go/defaultstylesettings/getfontsize/
+url: /go-cpp/defaultstylesettings/getfontsize/
 ---
 
 ## GetFontSize function

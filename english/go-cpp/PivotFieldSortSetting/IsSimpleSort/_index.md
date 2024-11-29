@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsSimpleSort method. Encapsulates the function that represents issimplesort in Go.'
 type: docs
 weight: 200
-url: /go/pivotfieldsortsetting/issimplesort/
+url: /go-cpp/pivotfieldsortsetting/issimplesort/
 ---
 
 ## IsSimpleSort function

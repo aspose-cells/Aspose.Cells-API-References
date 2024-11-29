@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetDisplayDrawingObjects method. Encapsulates the function that represents getdisplaydrawingobjects in Go.'
 type: docs
 weight: 200
-url: /go/workbooksettings/getdisplaydrawingobjects/
+url: /go-cpp/workbooksettings/getdisplaydrawingobjects/
 ---
 
 ## GetDisplayDrawingObjects function

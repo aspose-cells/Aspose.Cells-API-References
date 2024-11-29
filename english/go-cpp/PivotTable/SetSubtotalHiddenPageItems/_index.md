@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetSubtotalHiddenPageItems method. Encapsulates the function that represents setsubtotalhiddenpageitems in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/setsubtotalhiddenpageitems/
+url: /go-cpp/pivottable/setsubtotalhiddenpageitems/
 ---
 
 ## SetSubtotalHiddenPageItems function

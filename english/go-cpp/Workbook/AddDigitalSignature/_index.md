@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'AddDigitalSignature method. Encapsulates the function that represents adddigitalsignature in Go.'
 type: docs
 weight: 200
-url: /go/workbook/adddigitalsignature/
+url: /go-cpp/workbook/adddigitalsignature/
 ---
 
 ## AddDigitalSignature function

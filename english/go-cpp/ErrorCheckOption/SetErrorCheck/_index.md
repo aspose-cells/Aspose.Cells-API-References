@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetErrorCheck method. Encapsulates the function that represents seterrorcheck in Go.'
 type: docs
 weight: 200
-url: /go/errorcheckoption/seterrorcheck/
+url: /go-cpp/errorcheckoption/seterrorcheck/
 ---
 
 ## SetErrorCheck function

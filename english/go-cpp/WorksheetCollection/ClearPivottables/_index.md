@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ClearPivottables method. Encapsulates the function that represents clearpivottables in Go.'
 type: docs
 weight: 200
-url: /go/worksheetcollection/clearpivottables/
+url: /go-cpp/worksheetcollection/clearpivottables/
 ---
 
 ## ClearPivottables function

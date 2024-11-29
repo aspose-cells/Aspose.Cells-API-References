@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetCalculationType method. Encapsulates the function that represents setcalculationtype in Go.'
 type: docs
 weight: 200
-url: /go/pivotshowvaluessetting/setcalculationtype/
+url: /go-cpp/pivotshowvaluessetting/setcalculationtype/
 ---
 
 ## SetCalculationType function

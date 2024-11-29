@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTextBoxes method. Encapsulates the function that represents gettextboxes in Go.'
 type: docs
 weight: 200
-url: /go/worksheet/gettextboxes/
+url: /go-cpp/worksheet/gettextboxes/
 ---
 
 ## GetTextBoxes function

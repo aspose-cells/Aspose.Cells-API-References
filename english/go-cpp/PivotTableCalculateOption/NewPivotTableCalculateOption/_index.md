@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'PivotTableCalculateOption constructor. Encapsulates the function that represents newpivottablecalculateoption in Go.'
 type: docs
 weight: 200
-url: /go/pivottablecalculateoption/newpivottablecalculateoption/
+url: /go-cpp/pivottablecalculateoption/newpivottablecalculateoption/
 ---
 
 ## NewPivotTableCalculateOption function

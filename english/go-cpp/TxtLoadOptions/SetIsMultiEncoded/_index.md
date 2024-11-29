@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsMultiEncoded method. Encapsulates the function that represents setismultiencoded in Go.'
 type: docs
 weight: 200
-url: /go/txtloadoptions/setismultiencoded/
+url: /go-cpp/txtloadoptions/setismultiencoded/
 ---
 
 ## SetIsMultiEncoded function

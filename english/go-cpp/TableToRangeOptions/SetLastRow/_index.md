@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetLastRow method. Encapsulates the function that represents setlastrow in Go.'
 type: docs
 weight: 200
-url: /go/tabletorangeoptions/setlastrow/
+url: /go-cpp/tabletorangeoptions/setlastrow/
 ---
 
 ## SetLastRow function

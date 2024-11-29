@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsPercent method. Encapsulates the function that represents ispercent in Go.'
 type: docs
 weight: 200
-url: /go/style/ispercent/
+url: /go-cpp/style/ispercent/
 ---
 
 ## IsPercent function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetExtendToNextSheet method. Encapsulates the function that represents getextendtonextsheet in Go.'
 type: docs
 weight: 200
-url: /go/txtloadoptions/getextendtonextsheet/
+url: /go-cpp/txtloadoptions/getextendtonextsheet/
 ---
 
 ## GetExtendToNextSheet function

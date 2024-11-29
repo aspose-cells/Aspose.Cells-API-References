@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsByCategory method. Encapsulates the function that represents setisbycategory in Go.'
 type: docs
 weight: 200
-url: /go/axisbins/setisbycategory/
+url: /go-cpp/axisbins/setisbycategory/
 ---
 
 ## SetIsByCategory function

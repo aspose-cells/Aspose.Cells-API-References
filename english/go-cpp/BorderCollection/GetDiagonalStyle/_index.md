@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetDiagonalStyle method. Encapsulates the function that represents getdiagonalstyle in Go.'
 type: docs
 weight: 200
-url: /go/bordercollection/getdiagonalstyle/
+url: /go-cpp/bordercollection/getdiagonalstyle/
 ---
 
 ## GetDiagonalStyle function

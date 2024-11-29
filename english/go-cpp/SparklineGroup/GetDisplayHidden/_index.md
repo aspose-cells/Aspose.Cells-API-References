@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetDisplayHidden method. Encapsulates the function that represents getdisplayhidden in Go.'
 type: docs
 weight: 200
-url: /go/sparklinegroup/getdisplayhidden/
+url: /go-cpp/sparklinegroup/getdisplayhidden/
 ---
 
 ## GetDisplayHidden function

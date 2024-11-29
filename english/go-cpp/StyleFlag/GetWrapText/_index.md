@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetWrapText method. Encapsulates the function that represents getwraptext in Go.'
 type: docs
 weight: 200
-url: /go/styleflag/getwraptext/
+url: /go-cpp/styleflag/getwraptext/
 ---
 
 ## GetWrapText function

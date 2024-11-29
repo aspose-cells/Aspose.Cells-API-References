@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetGapDepth method. Encapsulates the function that represents getgapdepth in Go.'
 type: docs
 weight: 200
-url: /go/chart/getgapdepth/
+url: /go-cpp/chart/getgapdepth/
 ---
 
 ## GetGapDepth function

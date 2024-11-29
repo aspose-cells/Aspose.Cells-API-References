@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetExportDocumentStructure method. Encapsulates the function that represents setexportdocumentstructure in Go.'
 type: docs
 weight: 200
-url: /go/pdfsaveoptions/setexportdocumentstructure/
+url: /go-cpp/pdfsaveoptions/setexportdocumentstructure/
 ---
 
 ## SetExportDocumentStructure function

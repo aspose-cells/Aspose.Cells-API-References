@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'TextParagraphCollection class. Encapsulates the object that represents textparagraphcollection in Go.'
 type: docs
 weight: 200
-url: /go/textparagraphcollection/
+url: /go-cpp/textparagraphcollection/
 ---
 
 ## TextParagraphCollection class

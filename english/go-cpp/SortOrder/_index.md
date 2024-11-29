@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SortOrder enum. Encapsulates the object that represents sortorder in Go.'
 type: docs
 weight: 200
-url: /go/sortorder/
+url: /go-cpp/sortorder/
 ---
 
 ## SortOrder Enum

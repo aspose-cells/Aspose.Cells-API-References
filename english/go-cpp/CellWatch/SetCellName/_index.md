@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetCellName method. Encapsulates the function that represents setcellname in Go.'
 type: docs
 weight: 200
-url: /go/cellwatch/setcellname/
+url: /go-cpp/cellwatch/setcellname/
 ---
 
 ## SetCellName function

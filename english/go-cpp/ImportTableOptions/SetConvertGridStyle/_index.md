@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetConvertGridStyle method. Encapsulates the function that represents setconvertgridstyle in Go.'
 type: docs
 weight: 200
-url: /go/importtableoptions/setconvertgridstyle/
+url: /go-cpp/importtableoptions/setconvertgridstyle/
 ---
 
 ## SetConvertGridStyle function

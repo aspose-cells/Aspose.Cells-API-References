@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsDate method. Encapsulates the function that represents isdate in Go.'
 type: docs
 weight: 200
-url: /go/object/isdate/
+url: /go-cpp/object/isdate/
 ---
 
 ## IsDate function

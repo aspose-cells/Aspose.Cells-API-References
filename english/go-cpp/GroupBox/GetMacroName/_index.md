@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetMacroName method. Encapsulates the function that represents getmacroname in Go.'
 type: docs
 weight: 200
-url: /go/groupbox/getmacroname/
+url: /go-cpp/groupbox/getmacroname/
 ---
 
 ## GetMacroName function

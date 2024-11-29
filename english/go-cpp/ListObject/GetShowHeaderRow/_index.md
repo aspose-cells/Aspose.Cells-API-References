@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetShowHeaderRow method. Encapsulates the function that represents getshowheaderrow in Go.'
 type: docs
 weight: 200
-url: /go/listobject/getshowheaderrow/
+url: /go-cpp/listobject/getshowheaderrow/
 ---
 
 ## GetShowHeaderRow function

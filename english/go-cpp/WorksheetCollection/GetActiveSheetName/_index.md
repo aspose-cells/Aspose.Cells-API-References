@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetActiveSheetName method. Encapsulates the function that represents getactivesheetname in Go.'
 type: docs
 weight: 200
-url: /go/worksheetcollection/getactivesheetname/
+url: /go-cpp/worksheetcollection/getactivesheetname/
 ---
 
 ## GetActiveSheetName function

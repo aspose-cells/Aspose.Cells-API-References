@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetBackTransparency method. Encapsulates the function that represents setbacktransparency in Go.'
 type: docs
 weight: 200
-url: /go/patternfill/setbacktransparency/
+url: /go-cpp/patternfill/setbacktransparency/
 ---
 
 ## SetBackTransparency function

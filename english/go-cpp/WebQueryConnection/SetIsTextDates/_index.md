@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsTextDates method. Encapsulates the function that represents setistextdates in Go.'
 type: docs
 weight: 200
-url: /go/webqueryconnection/setistextdates/
+url: /go-cpp/webqueryconnection/setistextdates/
 ---
 
 ## SetIsTextDates function

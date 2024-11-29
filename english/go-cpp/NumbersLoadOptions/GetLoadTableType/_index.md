@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetLoadTableType method. Encapsulates the function that represents getloadtabletype in Go.'
 type: docs
 weight: 200
-url: /go/numbersloadoptions/getloadtabletype/
+url: /go-cpp/numbersloadoptions/getloadtabletype/
 ---
 
 ## GetLoadTableType function

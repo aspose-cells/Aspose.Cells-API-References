@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ArrayEquationNode class. Encapsulates the object that represents arrayequationnode in Go.'
 type: docs
 weight: 200
-url: /go/arrayequationnode/
+url: /go-cpp/arrayequationnode/
 ---
 
 ## ArrayEquationNode class

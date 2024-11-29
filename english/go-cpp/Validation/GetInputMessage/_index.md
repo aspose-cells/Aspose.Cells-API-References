@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetInputMessage method. Encapsulates the function that represents getinputmessage in Go.'
 type: docs
 weight: 200
-url: /go/validation/getinputmessage/
+url: /go-cpp/validation/getinputmessage/
 ---
 
 ## GetInputMessage function

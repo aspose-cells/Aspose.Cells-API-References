@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetFont method. Encapsulates the function that represents setfont in Go.'
 type: docs
 weight: 200
-url: /go/picture/setfont/
+url: /go-cpp/picture/setfont/
 ---
 
 ## SetFont function

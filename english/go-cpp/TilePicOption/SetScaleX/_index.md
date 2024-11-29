@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetScaleX method. Encapsulates the function that represents setscalex in Go.'
 type: docs
 weight: 200
-url: /go/tilepicoption/setscalex/
+url: /go-cpp/tilepicoption/setscalex/
 ---
 
 ## SetScaleX function

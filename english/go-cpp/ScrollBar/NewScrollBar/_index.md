@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ScrollBar constructor. Encapsulates the function that represents newscrollbar in Go.'
 type: docs
 weight: 200
-url: /go/scrollbar/newscrollbar/
+url: /go-cpp/scrollbar/newscrollbar/
 ---
 
 ## NewScrollBar function

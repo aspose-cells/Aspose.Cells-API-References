@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsTableFormula method. Encapsulates the function that represents istableformula in Go.'
 type: docs
 weight: 200
-url: /go/cell/istableformula/
+url: /go-cpp/cell/istableformula/
 ---
 
 ## IsTableFormula function

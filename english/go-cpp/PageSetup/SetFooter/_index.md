@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetFooter method. Encapsulates the function that represents setfooter in Go.'
 type: docs
 weight: 200
-url: /go/pagesetup/setfooter/
+url: /go-cpp/pagesetup/setfooter/
 ---
 
 ## SetFooter function

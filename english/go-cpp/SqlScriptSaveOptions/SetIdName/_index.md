@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIdName method. Encapsulates the function that represents setidname in Go.'
 type: docs
 weight: 200
-url: /go/sqlscriptsaveoptions/setidname/
+url: /go-cpp/sqlscriptsaveoptions/setidname/
 ---
 
 ## SetIdName function

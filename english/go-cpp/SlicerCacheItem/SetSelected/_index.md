@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetSelected method. Encapsulates the function that represents setselected in Go.'
 type: docs
 weight: 200
-url: /go/slicercacheitem/setselected/
+url: /go-cpp/slicercacheitem/setselected/
 ---
 
 ## SetSelected function

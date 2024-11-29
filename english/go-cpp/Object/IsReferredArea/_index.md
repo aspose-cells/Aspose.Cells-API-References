@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsReferredArea method. Encapsulates the function that represents isreferredarea in Go.'
 type: docs
 weight: 200
-url: /go/object/isreferredarea/
+url: /go-cpp/object/isreferredarea/
 ---
 
 ## IsReferredArea function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetExternalConnection method. Encapsulates the function that represents getexternalconnection in Go.'
 type: docs
 weight: 200
-url: /go/querytable/getexternalconnection/
+url: /go-cpp/querytable/getexternalconnection/
 ---
 
 ## GetExternalConnection function

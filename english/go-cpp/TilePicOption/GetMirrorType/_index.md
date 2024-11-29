@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetMirrorType method. Encapsulates the function that represents getmirrortype in Go.'
 type: docs
 weight: 200
-url: /go/tilepicoption/getmirrortype/
+url: /go-cpp/tilepicoption/getmirrortype/
 ---
 
 ## GetMirrorType function

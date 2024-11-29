@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetSelectedIndex method. Encapsulates the function that represents getselectedindex in Go.'
 type: docs
 weight: 200
-url: /go/listbox/getselectedindex/
+url: /go-cpp/listbox/getselectedindex/
 ---
 
 ## GetSelectedIndex function

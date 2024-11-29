@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTop method. Encapsulates the function that represents gettop in Go.'
 type: docs
 weight: 200
-url: /go/cellsdrawing/gettop/
+url: /go-cpp/cellsdrawing/gettop/
 ---
 
 ## GetTop function

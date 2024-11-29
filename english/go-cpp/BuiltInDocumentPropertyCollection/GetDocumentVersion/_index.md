@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetDocumentVersion method. Encapsulates the function that represents getdocumentversion in Go.'
 type: docs
 weight: 200
-url: /go/builtindocumentpropertycollection/getdocumentversion/
+url: /go-cpp/builtindocumentpropertycollection/getdocumentversion/
 ---
 
 ## GetDocumentVersion function

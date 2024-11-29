@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetDashType method. Encapsulates the function that represents getdashtype in Go.'
 type: docs
 weight: 200
-url: /go/errorbar/getdashtype/
+url: /go-cpp/errorbar/getdashtype/
 ---
 
 ## GetDashType function

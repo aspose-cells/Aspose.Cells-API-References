@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ClearMergedCells method. Encapsulates the function that represents clearmergedcells in Go.'
 type: docs
 weight: 200
-url: /go/cells/clearmergedcells/
+url: /go-cpp/cells/clearmergedcells/
 ---
 
 ## ClearMergedCells function

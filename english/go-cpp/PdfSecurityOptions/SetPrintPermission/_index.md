@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetPrintPermission method. Encapsulates the function that represents setprintpermission in Go.'
 type: docs
 weight: 200
-url: /go/pdfsecurityoptions/setprintpermission/
+url: /go-cpp/pdfsecurityoptions/setprintpermission/
 ---
 
 ## SetPrintPermission function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ColorFilter constructor. Encapsulates the function that represents newcolorfilter in Go.'
 type: docs
 weight: 200
-url: /go/colorfilter/newcolorfilter/
+url: /go-cpp/colorfilter/newcolorfilter/
 ---
 
 ## NewColorFilter function

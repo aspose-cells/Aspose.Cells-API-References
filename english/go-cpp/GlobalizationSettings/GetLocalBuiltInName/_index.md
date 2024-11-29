@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetLocalBuiltInName method. Encapsulates the function that represents getlocalbuiltinname in Go.'
 type: docs
 weight: 200
-url: /go/globalizationsettings/getlocalbuiltinname/
+url: /go-cpp/globalizationsettings/getlocalbuiltinname/
 ---
 
 ## GetLocalBuiltInName function

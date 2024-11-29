@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SwitchRowColumn method. Encapsulates the function that represents switchrowcolumn in Go.'
 type: docs
 weight: 200
-url: /go/chart/switchrowcolumn/
+url: /go-cpp/chart/switchrowcolumn/
 ---
 
 ## SwitchRowColumn function

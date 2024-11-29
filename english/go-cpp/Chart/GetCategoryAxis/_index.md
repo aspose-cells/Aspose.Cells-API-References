@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetCategoryAxis method. Encapsulates the function that represents getcategoryaxis in Go.'
 type: docs
 weight: 200
-url: /go/chart/getcategoryaxis/
+url: /go-cpp/chart/getcategoryaxis/
 ---
 
 ## GetCategoryAxis function

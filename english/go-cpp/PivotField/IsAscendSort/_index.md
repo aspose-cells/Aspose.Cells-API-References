@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsAscendSort method. Encapsulates the function that represents isascendsort in Go.'
 type: docs
 weight: 200
-url: /go/pivotfield/isascendsort/
+url: /go-cpp/pivotfield/isascendsort/
 ---
 
 ## IsAscendSort function

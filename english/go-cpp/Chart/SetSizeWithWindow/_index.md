@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetSizeWithWindow method. Encapsulates the function that represents setsizewithwindow in Go.'
 type: docs
 weight: 200
-url: /go/chart/setsizewithwindow/
+url: /go-cpp/chart/setsizewithwindow/
 ---
 
 ## SetSizeWithWindow function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'RevisionRenameSheet class. Encapsulates the object that represents revisionrenamesheet in Go.'
 type: docs
 weight: 200
-url: /go/revisionrenamesheet/
+url: /go-cpp/revisionrenamesheet/
 ---
 
 ## RevisionRenameSheet class

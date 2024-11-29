@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'OdsSaveOptions constructor. Encapsulates the function that represents newodssaveoptions_saveoptions in Go.'
 type: docs
 weight: 200
-url: /go/odssaveoptions/newodssaveoptions_saveoptions/
+url: /go-cpp/odssaveoptions/newodssaveoptions_saveoptions/
 ---
 
 ## NewOdsSaveOptions_SaveOptions function

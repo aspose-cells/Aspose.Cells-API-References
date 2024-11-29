@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ErrorCellValueType enum. Encapsulates the object that represents errorcellvaluetype in Go.'
 type: docs
 weight: 200
-url: /go/errorcellvaluetype/
+url: /go-cpp/errorcellvaluetype/
 ---
 
 ## ErrorCellValueType Enum

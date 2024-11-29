@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetMaxDisplayRange method. Encapsulates the function that represents getmaxdisplayrange in Go.'
 type: docs
 weight: 200
-url: /go/cells/getmaxdisplayrange/
+url: /go-cpp/cells/getmaxdisplayrange/
 ---
 
 ## GetMaxDisplayRange function

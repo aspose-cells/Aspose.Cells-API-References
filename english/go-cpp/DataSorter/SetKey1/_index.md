@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetKey1 method. Encapsulates the function that represents setkey1 in Go.'
 type: docs
 weight: 200
-url: /go/datasorter/setkey1/
+url: /go-cpp/datasorter/setkey1/
 ---
 
 ## SetKey1 function

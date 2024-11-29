@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsOutlineShown method. Encapsulates the function that represents setisoutlineshown in Go.'
 type: docs
 weight: 200
-url: /go/worksheet/setisoutlineshown/
+url: /go-cpp/worksheet/setisoutlineshown/
 ---
 
 ## SetIsOutlineShown function

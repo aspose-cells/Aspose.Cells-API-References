@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsInsertPageBreaksBetweenItems method. Encapsulates the function that represents isinsertpagebreaksbetweenitems in Go.'
 type: docs
 weight: 200
-url: /go/pivotfield/isinsertpagebreaksbetweenitems/
+url: /go-cpp/pivotfield/isinsertpagebreaksbetweenitems/
 ---
 
 ## IsInsertPageBreaksBetweenItems function

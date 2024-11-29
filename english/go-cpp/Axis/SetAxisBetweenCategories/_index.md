@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetAxisBetweenCategories method. Encapsulates the function that represents setaxisbetweencategories in Go.'
 type: docs
 weight: 200
-url: /go/axis/setaxisbetweencategories/
+url: /go-cpp/axis/setaxisbetweencategories/
 ---
 
 ## SetAxisBetweenCategories function

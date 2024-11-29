@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTransitionEntry method. Encapsulates the function that represents gettransitionentry in Go.'
 type: docs
 weight: 200
-url: /go/worksheet/gettransitionentry/
+url: /go-cpp/worksheet/gettransitionentry/
 ---
 
 ## GetTransitionEntry function

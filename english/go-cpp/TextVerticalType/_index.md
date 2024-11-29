@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'TextVerticalType enum. Encapsulates the object that represents textverticaltype in Go.'
 type: docs
 weight: 200
-url: /go/textverticaltype/
+url: /go-cpp/textverticaltype/
 ---
 
 ## TextVerticalType Enum

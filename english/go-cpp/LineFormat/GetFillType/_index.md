@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetFillType method. Encapsulates the function that represents getfilltype in Go.'
 type: docs
 weight: 200
-url: /go/lineformat/getfilltype/
+url: /go-cpp/lineformat/getfilltype/
 ---
 
 ## GetFillType function

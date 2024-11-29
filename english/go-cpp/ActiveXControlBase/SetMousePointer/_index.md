@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetMousePointer method. Encapsulates the function that represents setmousepointer in Go.'
 type: docs
 weight: 200
-url: /go/activexcontrolbase/setmousepointer/
+url: /go-cpp/activexcontrolbase/setmousepointer/
 ---
 
 ## SetMousePointer function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetLargeChange method. Encapsulates the function that represents getlargechange in Go.'
 type: docs
 weight: 200
-url: /go/scrollbaractivexcontrol/getlargechange/
+url: /go-cpp/scrollbaractivexcontrol/getlargechange/
 ---
 
 ## GetLargeChange function

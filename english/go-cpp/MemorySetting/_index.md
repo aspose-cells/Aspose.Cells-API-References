@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'MemorySetting enum. Encapsulates the object that represents memorysetting in Go.'
 type: docs
 weight: 200
-url: /go/memorysetting/
+url: /go-cpp/memorysetting/
 ---
 
 ## MemorySetting Enum

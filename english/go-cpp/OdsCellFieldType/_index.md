@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'OdsCellFieldType enum. Encapsulates the object that represents odscellfieldtype in Go.'
 type: docs
 weight: 200
-url: /go/odscellfieldtype/
+url: /go-cpp/odscellfieldtype/
 ---
 
 ## OdsCellFieldType Enum

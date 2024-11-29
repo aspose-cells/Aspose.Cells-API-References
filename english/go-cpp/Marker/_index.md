@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Marker class. Encapsulates the object that represents marker in Go.'
 type: docs
 weight: 200
-url: /go/marker/
+url: /go-cpp/marker/
 ---
 
 ## Marker class

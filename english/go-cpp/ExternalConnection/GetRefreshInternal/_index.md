@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetRefreshInternal method. Encapsulates the function that represents getrefreshinternal in Go.'
 type: docs
 weight: 200
-url: /go/externalconnection/getrefreshinternal/
+url: /go-cpp/externalconnection/getrefreshinternal/
 ---
 
 ## GetRefreshInternal function

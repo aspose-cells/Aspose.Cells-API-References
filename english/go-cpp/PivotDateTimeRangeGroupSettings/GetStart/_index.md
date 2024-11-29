@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetStart method. Encapsulates the function that represents getstart in Go.'
 type: docs
 weight: 200
-url: /go/pivotdatetimerangegroupsettings/getstart/
+url: /go-cpp/pivotdatetimerangegroupsettings/getstart/
 ---
 
 ## GetStart function

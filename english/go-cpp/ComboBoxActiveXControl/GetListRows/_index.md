@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetListRows method. Encapsulates the function that represents getlistrows in Go.'
 type: docs
 weight: 200
-url: /go/comboboxactivexcontrol/getlistrows/
+url: /go-cpp/comboboxactivexcontrol/getlistrows/
 ---
 
 ## GetListRows function

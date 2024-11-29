@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetHour method. Encapsulates the function that represents sethour in Go.'
 type: docs
 weight: 200
-url: /go/datetimegroupitem/sethour/
+url: /go-cpp/datetimegroupitem/sethour/
 ---
 
 ## SetHour function

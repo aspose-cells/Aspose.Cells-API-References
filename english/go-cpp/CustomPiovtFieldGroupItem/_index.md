@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'CustomPiovtFieldGroupItem class. Encapsulates the object that represents custompiovtfieldgroupitem in Go.'
 type: docs
 weight: 200
-url: /go/custompiovtfieldgroupitem/
+url: /go-cpp/custompiovtfieldgroupitem/
 ---
 
 ## CustomPiovtFieldGroupItem class

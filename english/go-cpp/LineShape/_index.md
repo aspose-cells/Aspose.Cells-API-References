@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'LineShape class. Encapsulates the object that represents lineshape in Go.'
 type: docs
 weight: 200
-url: /go/lineshape/
+url: /go-cpp/lineshape/
 ---
 
 ## LineShape class

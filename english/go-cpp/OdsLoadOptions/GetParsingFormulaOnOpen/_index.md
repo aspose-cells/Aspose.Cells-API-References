@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetParsingFormulaOnOpen method. Encapsulates the function that represents getparsingformulaonopen in Go.'
 type: docs
 weight: 200
-url: /go/odsloadoptions/getparsingformulaonopen/
+url: /go-cpp/odsloadoptions/getparsingformulaonopen/
 ---
 
 ## GetParsingFormulaOnOpen function

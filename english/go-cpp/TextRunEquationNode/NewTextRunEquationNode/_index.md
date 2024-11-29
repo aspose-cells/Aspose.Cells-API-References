@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'TextRunEquationNode constructor. Encapsulates the function that represents newtextrunequationnode in Go.'
 type: docs
 weight: 200
-url: /go/textrunequationnode/newtextrunequationnode/
+url: /go-cpp/textrunequationnode/newtextrunequationnode/
 ---
 
 ## NewTextRunEquationNode function

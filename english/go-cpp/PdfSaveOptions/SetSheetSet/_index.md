@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetSheetSet method. Encapsulates the function that represents setsheetset in Go.'
 type: docs
 weight: 200
-url: /go/pdfsaveoptions/setsheetset/
+url: /go-cpp/pdfsaveoptions/setsheetset/
 ---
 
 ## SetSheetSet function

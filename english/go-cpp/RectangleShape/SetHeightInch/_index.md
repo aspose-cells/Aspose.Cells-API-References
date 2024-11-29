@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetHeightInch method. Encapsulates the function that represents setheightinch in Go.'
 type: docs
 weight: 200
-url: /go/rectangleshape/setheightinch/
+url: /go-cpp/rectangleshape/setheightinch/
 ---
 
 ## SetHeightInch function

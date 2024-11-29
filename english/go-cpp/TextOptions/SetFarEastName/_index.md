@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetFarEastName method. Encapsulates the function that represents setfareastname in Go.'
 type: docs
 weight: 200
-url: /go/textoptions/setfareastname/
+url: /go-cpp/textoptions/setfareastname/
 ---
 
 ## SetFarEastName function

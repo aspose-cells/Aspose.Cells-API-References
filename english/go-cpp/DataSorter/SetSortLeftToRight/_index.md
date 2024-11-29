@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetSortLeftToRight method. Encapsulates the function that represents setsortlefttoright in Go.'
 type: docs
 weight: 200
-url: /go/datasorter/setsortlefttoright/
+url: /go-cpp/datasorter/setsortlefttoright/
 ---
 
 ## SetSortLeftToRight function

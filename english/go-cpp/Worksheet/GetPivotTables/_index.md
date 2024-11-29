@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetPivotTables method. Encapsulates the function that represents getpivottables in Go.'
 type: docs
 weight: 200
-url: /go/worksheet/getpivottables/
+url: /go-cpp/worksheet/getpivottables/
 ---
 
 ## GetPivotTables function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetId method. Encapsulates the function that represents setid in Go.'
 type: docs
 weight: 200
-url: /go/webextensionbinding/setid/
+url: /go-cpp/webextensionbinding/setid/
 ---
 
 ## SetId function

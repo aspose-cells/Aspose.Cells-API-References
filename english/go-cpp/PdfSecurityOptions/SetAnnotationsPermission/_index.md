@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetAnnotationsPermission method. Encapsulates the function that represents setannotationspermission in Go.'
 type: docs
 weight: 200
-url: /go/pdfsecurityoptions/setannotationspermission/
+url: /go-cpp/pdfsecurityoptions/setannotationspermission/
 ---
 
 ## SetAnnotationsPermission function

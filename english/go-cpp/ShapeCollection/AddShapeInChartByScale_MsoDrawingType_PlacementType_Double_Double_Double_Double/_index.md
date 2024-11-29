@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'AddShapeInChartByScale_MsoDrawingType_PlacementType_Double_Double_Double_Double method. Encapsulates the function that represents addshapeinchartbyscale in Go.'
 type: docs
 weight: 200
-url: /go/shapecollection/addshapeinchartbyscale_msodrawingtype_placementtype_double_double_double_double/
+url: /go-cpp/shapecollection/addshapeinchartbyscale_msodrawingtype_placementtype_double_double_double_double/
 ---
 
 ## AddShapeInChartByScale_MsoDrawingType_PlacementType_Double_Double_Double_Double function

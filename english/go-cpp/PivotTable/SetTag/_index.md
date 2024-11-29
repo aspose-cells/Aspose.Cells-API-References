@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetTag method. Encapsulates the function that represents settag in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/settag/
+url: /go-cpp/pivottable/settag/
 ---
 
 ## SetTag function

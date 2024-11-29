@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetConnectionId method. Encapsulates the function that represents getconnectionid in Go.'
 type: docs
 weight: 200
-url: /go/querytable/getconnectionid/
+url: /go-cpp/querytable/getconnectionid/
 ---
 
 ## GetConnectionId function

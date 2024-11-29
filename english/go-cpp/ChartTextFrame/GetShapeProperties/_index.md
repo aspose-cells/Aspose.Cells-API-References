@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetShapeProperties method. Encapsulates the function that represents getshapeproperties in Go.'
 type: docs
 weight: 200
-url: /go/charttextframe/getshapeproperties/
+url: /go-cpp/charttextframe/getshapeproperties/
 ---
 
 ## GetShapeProperties function

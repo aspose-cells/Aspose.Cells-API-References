@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'DataModelConnection constructor. Encapsulates the function that represents newdatamodelconnection in Go.'
 type: docs
 weight: 200
-url: /go/datamodelconnection/newdatamodelconnection/
+url: /go-cpp/datamodelconnection/newdatamodelconnection/
 ---
 
 ## NewDataModelConnection function

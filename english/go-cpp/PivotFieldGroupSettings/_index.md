@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'PivotFieldGroupSettings class. Encapsulates the object that represents pivotfieldgroupsettings in Go.'
 type: docs
 weight: 200
-url: /go/pivotfieldgroupsettings/
+url: /go-cpp/pivotfieldgroupsettings/
 ---
 
 ## PivotFieldGroupSettings class

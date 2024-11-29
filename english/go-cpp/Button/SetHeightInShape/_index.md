@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetHeightInShape method. Encapsulates the function that represents setheightinshape in Go.'
 type: docs
 weight: 200
-url: /go/button/setheightinshape/
+url: /go-cpp/button/setheightinshape/
 ---
 
 ## SetHeightInShape function

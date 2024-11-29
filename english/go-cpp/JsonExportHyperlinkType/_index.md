@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'JsonExportHyperlinkType enum. Encapsulates the object that represents jsonexporthyperlinktype in Go.'
 type: docs
 weight: 200
-url: /go/jsonexporthyperlinktype/
+url: /go-cpp/jsonexporthyperlinktype/
 ---
 
 ## JsonExportHyperlinkType Enum

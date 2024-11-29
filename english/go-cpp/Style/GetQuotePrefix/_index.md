@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetQuotePrefix method. Encapsulates the function that represents getquoteprefix in Go.'
 type: docs
 weight: 200
-url: /go/style/getquoteprefix/
+url: /go-cpp/style/getquoteprefix/
 ---
 
 ## GetQuotePrefix function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'OLEDBCommandType enum. Encapsulates the object that represents oledbcommandtype in Go.'
 type: docs
 weight: 200
-url: /go/oledbcommandtype/
+url: /go-cpp/oledbcommandtype/
 ---
 
 ## OLEDBCommandType Enum

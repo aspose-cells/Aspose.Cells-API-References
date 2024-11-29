@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetTableName method. Encapsulates the function that represents settablename in Go.'
 type: docs
 weight: 200
-url: /go/sqlscriptsaveoptions/settablename/
+url: /go-cpp/sqlscriptsaveoptions/settablename/
 ---
 
 ## SetTableName function

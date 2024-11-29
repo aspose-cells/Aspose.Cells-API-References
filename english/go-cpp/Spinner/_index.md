@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Spinner class. Encapsulates the object that represents spinner in Go.'
 type: docs
 weight: 200
-url: /go/spinner/
+url: /go-cpp/spinner/
 ---
 
 ## Spinner class

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetDefaultSheetName method. Encapsulates the function that represents getdefaultsheetname in Go.'
 type: docs
 weight: 200
-url: /go/globalizationsettings/getdefaultsheetname/
+url: /go-cpp/globalizationsettings/getdefaultsheetname/
 ---
 
 ## GetDefaultSheetName function

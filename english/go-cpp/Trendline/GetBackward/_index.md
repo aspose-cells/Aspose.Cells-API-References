@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetBackward method. Encapsulates the function that represents getbackward in Go.'
 type: docs
 weight: 200
-url: /go/trendline/getbackward/
+url: /go-cpp/trendline/getbackward/
 ---
 
 ## GetBackward function

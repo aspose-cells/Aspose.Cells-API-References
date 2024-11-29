@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsEqualAverage method. Encapsulates the function that represents isequalaverage in Go.'
 type: docs
 weight: 200
-url: /go/aboveaverage/isequalaverage/
+url: /go-cpp/aboveaverage/isequalaverage/
 ---
 
 ## IsEqualAverage function

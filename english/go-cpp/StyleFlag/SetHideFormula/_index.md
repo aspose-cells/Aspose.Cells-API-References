@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetHideFormula method. Encapsulates the function that represents sethideformula in Go.'
 type: docs
 weight: 200
-url: /go/styleflag/sethideformula/
+url: /go-cpp/styleflag/sethideformula/
 ---
 
 ## SetHideFormula function

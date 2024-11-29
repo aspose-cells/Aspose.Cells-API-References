@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'PutValue_String_Bool method. Encapsulates the function that represents putvalue in Go.'
 type: docs
 weight: 200
-url: /go/cell/putvalue_string_bool/
+url: /go-cpp/cell/putvalue_string_bool/
 ---
 
 ## PutValue_String_Bool function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'PlaceInCell method. Encapsulates the function that represents placeincell in Go.'
 type: docs
 weight: 200
-url: /go/picture/placeincell/
+url: /go-cpp/picture/placeincell/
 ---
 
 ## PlaceInCell function

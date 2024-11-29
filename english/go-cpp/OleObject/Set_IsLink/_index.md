@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Set_IsLink method. Encapsulates the function that represents set_islink in Go.'
 type: docs
 weight: 200
-url: /go/oleobject/set_islink/
+url: /go-cpp/oleobject/set_islink/
 ---
 
 ## Set_IsLink function

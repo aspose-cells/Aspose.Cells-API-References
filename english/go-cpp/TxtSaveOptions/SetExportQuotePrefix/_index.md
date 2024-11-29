@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetExportQuotePrefix method. Encapsulates the function that represents setexportquoteprefix in Go.'
 type: docs
 weight: 200
-url: /go/txtsaveoptions/setexportquoteprefix/
+url: /go-cpp/txtsaveoptions/setexportquoteprefix/
 ---
 
 ## SetExportQuotePrefix function

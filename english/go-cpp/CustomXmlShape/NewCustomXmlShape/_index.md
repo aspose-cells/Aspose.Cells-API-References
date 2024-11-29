@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'CustomXmlShape constructor. Encapsulates the function that represents newcustomxmlshape in Go.'
 type: docs
 weight: 200
-url: /go/customxmlshape/newcustomxmlshape/
+url: /go-cpp/customxmlshape/newcustomxmlshape/
 ---
 
 ## NewCustomXmlShape function

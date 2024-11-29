@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetChartArea method. Encapsulates the function that represents getchartarea in Go.'
 type: docs
 weight: 200
-url: /go/chart/getchartarea/
+url: /go-cpp/chart/getchartarea/
 ---
 
 ## GetChartArea function

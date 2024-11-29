@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetOffsetX method. Encapsulates the function that represents getoffsetx in Go.'
 type: docs
 weight: 200
-url: /go/renderingwatermark/getoffsetx/
+url: /go-cpp/renderingwatermark/getoffsetx/
 ---
 
 ## GetOffsetX function

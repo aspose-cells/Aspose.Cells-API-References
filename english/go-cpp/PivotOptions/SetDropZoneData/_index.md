@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetDropZoneData method. Encapsulates the function that represents setdropzonedata in Go.'
 type: docs
 weight: 200
-url: /go/pivotoptions/setdropzonedata/
+url: /go-cpp/pivotoptions/setdropzonedata/
 ---
 
 ## SetDropZoneData function

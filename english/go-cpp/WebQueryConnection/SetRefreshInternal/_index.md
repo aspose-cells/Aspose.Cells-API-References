@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetRefreshInternal method. Encapsulates the function that represents setrefreshinternal in Go.'
 type: docs
 weight: 200
-url: /go/webqueryconnection/setrefreshinternal/
+url: /go-cpp/webqueryconnection/setrefreshinternal/
 ---
 
 ## SetRefreshInternal function

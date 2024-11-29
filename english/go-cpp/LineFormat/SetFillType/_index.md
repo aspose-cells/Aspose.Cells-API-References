@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetFillType method. Encapsulates the function that represents setfilltype in Go.'
 type: docs
 weight: 200
-url: /go/lineformat/setfilltype/
+url: /go-cpp/lineformat/setfilltype/
 ---
 
 ## SetFillType function

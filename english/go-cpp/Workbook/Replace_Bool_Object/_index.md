@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Replace_Bool_Object method. Encapsulates the function that represents replace in Go.'
 type: docs
 weight: 200
-url: /go/workbook/replace_bool_object/
+url: /go-cpp/workbook/replace_bool_object/
 ---
 
 ## Replace_Bool_Object function

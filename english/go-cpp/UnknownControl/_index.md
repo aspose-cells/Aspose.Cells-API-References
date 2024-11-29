@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'UnknownControl class. Encapsulates the object that represents unknowncontrol in Go.'
 type: docs
 weight: 200
-url: /go/unknowncontrol/
+url: /go-cpp/unknowncontrol/
 ---
 
 ## UnknownControl class

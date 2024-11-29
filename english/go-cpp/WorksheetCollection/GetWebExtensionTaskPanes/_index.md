@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetWebExtensionTaskPanes method. Encapsulates the function that represents getwebextensiontaskpanes in Go.'
 type: docs
 weight: 200
-url: /go/worksheetcollection/getwebextensiontaskpanes/
+url: /go-cpp/worksheetcollection/getwebextensiontaskpanes/
 ---
 
 ## GetWebExtensionTaskPanes function

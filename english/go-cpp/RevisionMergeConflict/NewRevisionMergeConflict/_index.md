@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'RevisionMergeConflict constructor. Encapsulates the function that represents newrevisionmergeconflict in Go.'
 type: docs
 weight: 200
-url: /go/revisionmergeconflict/newrevisionmergeconflict/
+url: /go-cpp/revisionmergeconflict/newrevisionmergeconflict/
 ---
 
 ## NewRevisionMergeConflict function

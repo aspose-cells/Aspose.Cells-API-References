@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'PutValue_Int method. Encapsulates the function that represents putvalue in Go.'
 type: docs
 weight: 200
-url: /go/cell/putvalue_int/
+url: /go-cpp/cell/putvalue_int/
 ---
 
 ## PutValue_Int function

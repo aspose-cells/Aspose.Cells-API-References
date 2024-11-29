@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetExtrusionColor method. Encapsulates the function that represents setextrusioncolor in Go.'
 type: docs
 weight: 200
-url: /go/threedformat/setextrusioncolor/
+url: /go-cpp/threedformat/setextrusioncolor/
 ---
 
 ## SetExtrusionColor function

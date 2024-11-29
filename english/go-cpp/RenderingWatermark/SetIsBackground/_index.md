@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsBackground method. Encapsulates the function that represents setisbackground in Go.'
 type: docs
 weight: 200
-url: /go/renderingwatermark/setisbackground/
+url: /go-cpp/renderingwatermark/setisbackground/
 ---
 
 ## SetIsBackground function

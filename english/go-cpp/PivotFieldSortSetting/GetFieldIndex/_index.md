@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetFieldIndex method. Encapsulates the function that represents getfieldindex in Go.'
 type: docs
 weight: 200
-url: /go/pivotfieldsortsetting/getfieldindex/
+url: /go-cpp/pivotfieldsortsetting/getfieldindex/
 ---
 
 ## GetFieldIndex function

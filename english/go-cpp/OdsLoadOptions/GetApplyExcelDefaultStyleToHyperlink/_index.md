@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetApplyExcelDefaultStyleToHyperlink method. Encapsulates the function that represents getapplyexceldefaultstyletohyperlink in Go.'
 type: docs
 weight: 200
-url: /go/odsloadoptions/getapplyexceldefaultstyletohyperlink/
+url: /go-cpp/odsloadoptions/getapplyexceldefaultstyletohyperlink/
 ---
 
 ## GetApplyExcelDefaultStyleToHyperlink function

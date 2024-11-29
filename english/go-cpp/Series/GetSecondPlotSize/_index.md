@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetSecondPlotSize method. Encapsulates the function that represents getsecondplotsize in Go.'
 type: docs
 weight: 200
-url: /go/series/getsecondplotsize/
+url: /go-cpp/series/getsecondplotsize/
 ---
 
 ## GetSecondPlotSize function

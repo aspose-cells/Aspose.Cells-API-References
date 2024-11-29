@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'MsoArrowheadLength enum. Encapsulates the object that represents msoarrowheadlength in Go.'
 type: docs
 weight: 200
-url: /go/msoarrowheadlength/
+url: /go-cpp/msoarrowheadlength/
 ---
 
 ## MsoArrowheadLength Enum

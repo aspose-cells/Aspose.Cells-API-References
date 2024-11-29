@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsColorVaried method. Encapsulates the function that represents setiscolorvaried in Go.'
 type: docs
 weight: 200
-url: /go/seriescollection/setiscolorvaried/
+url: /go-cpp/seriescollection/setiscolorvaried/
 ---
 
 ## SetIsColorVaried function

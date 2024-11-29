@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsExternalLink method. Encapsulates the function that represents isexternallink in Go.'
 type: docs
 weight: 200
-url: /go/referredarea/isexternallink/
+url: /go-cpp/referredarea/isexternallink/
 ---
 
 ## IsExternalLink function

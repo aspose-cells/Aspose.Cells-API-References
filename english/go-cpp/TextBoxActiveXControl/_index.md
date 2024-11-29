@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'TextBoxActiveXControl class. Encapsulates the object that represents textboxactivexcontrol in Go.'
 type: docs
 weight: 200
-url: /go/textboxactivexcontrol/
+url: /go-cpp/textboxactivexcontrol/
 ---
 
 ## TextBoxActiveXControl class

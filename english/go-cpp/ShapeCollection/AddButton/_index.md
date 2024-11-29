@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'AddButton method. Encapsulates the function that represents addbutton in Go.'
 type: docs
 weight: 200
-url: /go/shapecollection/addbutton/
+url: /go-cpp/shapecollection/addbutton/
 ---
 
 ## AddButton function

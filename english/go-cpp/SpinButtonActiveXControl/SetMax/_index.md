@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetMax method. Encapsulates the function that represents setmax in Go.'
 type: docs
 weight: 200
-url: /go/spinbuttonactivexcontrol/setmax/
+url: /go-cpp/spinbuttonactivexcontrol/setmax/
 ---
 
 ## SetMax function

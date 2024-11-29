@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'PivotDiscreteGroupSettings constructor. Encapsulates the function that represents newpivotdiscretegroupsettings in Go.'
 type: docs
 weight: 200
-url: /go/pivotdiscretegroupsettings/newpivotdiscretegroupsettings/
+url: /go-cpp/pivotdiscretegroupsettings/newpivotdiscretegroupsettings/
 ---
 
 ## NewPivotDiscreteGroupSettings function

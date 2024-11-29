@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetShowTableStyleLastColumn method. Encapsulates the function that represents setshowtablestylelastcolumn in Go.'
 type: docs
 weight: 200
-url: /go/listobject/setshowtablestylelastcolumn/
+url: /go-cpp/listobject/setshowtablestylelastcolumn/
 ---
 
 ## SetShowTableStyleLastColumn function

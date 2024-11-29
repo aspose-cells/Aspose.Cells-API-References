@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'WebExtensionBinding class. Encapsulates the object that represents webextensionbinding in Go.'
 type: docs
 weight: 200
-url: /go/webextensionbinding/
+url: /go-cpp/webextensionbinding/
 ---
 
 ## WebExtensionBinding class

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetXmlMaps method. Encapsulates the function that represents getxmlmaps in Go.'
 type: docs
 weight: 200
-url: /go/worksheetcollection/getxmlmaps/
+url: /go-cpp/worksheetcollection/getxmlmaps/
 ---
 
 ## GetXmlMaps function

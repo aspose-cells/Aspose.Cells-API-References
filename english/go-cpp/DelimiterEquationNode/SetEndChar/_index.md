@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetEndChar method. Encapsulates the function that represents setendchar in Go.'
 type: docs
 weight: 200
-url: /go/delimiterequationnode/setendchar/
+url: /go-cpp/delimiterequationnode/setendchar/
 ---
 
 ## SetEndChar function

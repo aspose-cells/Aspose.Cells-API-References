@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetPattern method. Encapsulates the function that represents setpattern in Go.'
 type: docs
 weight: 200
-url: /go/style/setpattern/
+url: /go-cpp/style/setpattern/
 ---
 
 ## SetPattern function

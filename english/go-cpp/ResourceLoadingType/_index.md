@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ResourceLoadingType enum. Encapsulates the object that represents resourceloadingtype in Go.'
 type: docs
 weight: 200
-url: /go/resourceloadingtype/
+url: /go-cpp/resourceloadingtype/
 ---
 
 ## ResourceLoadingType Enum

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'AutoFitWrappedTextType enum. Encapsulates the object that represents autofitwrappedtexttype in Go.'
 type: docs
 weight: 200
-url: /go/autofitwrappedtexttype/
+url: /go-cpp/autofitwrappedtexttype/
 ---
 
 ## AutoFitWrappedTextType Enum

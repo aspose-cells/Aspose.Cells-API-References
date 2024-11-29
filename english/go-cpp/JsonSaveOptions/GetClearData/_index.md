@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetClearData method. Encapsulates the function that represents getcleardata in Go.'
 type: docs
 weight: 200
-url: /go/jsonsaveoptions/getcleardata/
+url: /go-cpp/jsonsaveoptions/getcleardata/
 ---
 
 ## GetClearData function

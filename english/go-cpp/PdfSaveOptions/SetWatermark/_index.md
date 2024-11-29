@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetWatermark method. Encapsulates the function that represents setwatermark in Go.'
 type: docs
 weight: 200
-url: /go/pdfsaveoptions/setwatermark/
+url: /go-cpp/pdfsaveoptions/setwatermark/
 ---
 
 ## SetWatermark function

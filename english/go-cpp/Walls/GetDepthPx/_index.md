@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetDepthPx method. Encapsulates the function that represents getdepthpx in Go.'
 type: docs
 weight: 200
-url: /go/walls/getdepthpx/
+url: /go-cpp/walls/getdepthpx/
 ---
 
 ## GetDepthPx function

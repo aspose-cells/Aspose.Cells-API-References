@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetAlternativeDescription method. Encapsulates the function that represents setalternativedescription in Go.'
 type: docs
 weight: 200
-url: /go/listobject/setalternativedescription/
+url: /go-cpp/listobject/setalternativedescription/
 ---
 
 ## SetAlternativeDescription function

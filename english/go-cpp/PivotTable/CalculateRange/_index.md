@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'CalculateRange method. Encapsulates the function that represents calculaterange in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/calculaterange/
+url: /go-cpp/pivottable/calculaterange/
 ---
 
 ## CalculateRange function

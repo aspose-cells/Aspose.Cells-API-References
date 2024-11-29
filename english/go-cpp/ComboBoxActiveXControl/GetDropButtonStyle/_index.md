@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetDropButtonStyle method. Encapsulates the function that represents getdropbuttonstyle in Go.'
 type: docs
 weight: 200
-url: /go/comboboxactivexcontrol/getdropbuttonstyle/
+url: /go-cpp/comboboxactivexcontrol/getdropbuttonstyle/
 ---
 
 ## GetDropButtonStyle function

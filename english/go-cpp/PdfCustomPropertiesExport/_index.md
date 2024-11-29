@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'PdfCustomPropertiesExport enum. Encapsulates the object that represents pdfcustompropertiesexport in Go.'
 type: docs
 weight: 200
-url: /go/pdfcustompropertiesexport/
+url: /go-cpp/pdfcustompropertiesexport/
 ---
 
 ## PdfCustomPropertiesExport Enum

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'PivotFilterType enum. Encapsulates the object that represents pivotfiltertype in Go.'
 type: docs
 weight: 200
-url: /go/pivotfiltertype/
+url: /go-cpp/pivotfiltertype/
 ---
 
 ## PivotFilterType Enum

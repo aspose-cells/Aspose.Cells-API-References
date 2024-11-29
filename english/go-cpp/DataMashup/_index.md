@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'DataMashup class. Encapsulates the object that represents datamashup in Go.'
 type: docs
 weight: 200
-url: /go/datamashup/
+url: /go-cpp/datamashup/
 ---
 
 ## DataMashup class

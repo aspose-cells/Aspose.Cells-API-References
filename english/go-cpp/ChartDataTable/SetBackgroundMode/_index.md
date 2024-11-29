@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetBackgroundMode method. Encapsulates the function that represents setbackgroundmode in Go.'
 type: docs
 weight: 200
-url: /go/chartdatatable/setbackgroundmode/
+url: /go-cpp/chartdatatable/setbackgroundmode/
 ---
 
 ## SetBackgroundMode function

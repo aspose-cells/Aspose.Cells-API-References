@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'UnionRange class. Encapsulates the object that represents unionrange in Go.'
 type: docs
 weight: 200
-url: /go/unionrange/
+url: /go-cpp/unionrange/
 ---
 
 ## UnionRange class

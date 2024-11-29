@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetDisplayRSquared method. Encapsulates the function that represents setdisplayrsquared in Go.'
 type: docs
 weight: 200
-url: /go/trendline/setdisplayrsquared/
+url: /go-cpp/trendline/setdisplayrsquared/
 ---
 
 ## SetDisplayRSquared function

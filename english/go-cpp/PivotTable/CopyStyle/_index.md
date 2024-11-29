@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'CopyStyle method. Encapsulates the function that represents copystyle in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/copystyle/
+url: /go-cpp/pivottable/copystyle/
 ---
 
 ## CopyStyle function

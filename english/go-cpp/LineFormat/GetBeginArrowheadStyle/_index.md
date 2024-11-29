@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetBeginArrowheadStyle method. Encapsulates the function that represents getbeginarrowheadstyle in Go.'
 type: docs
 weight: 200
-url: /go/lineformat/getbeginarrowheadstyle/
+url: /go-cpp/lineformat/getbeginarrowheadstyle/
 ---
 
 ## GetBeginArrowheadStyle function

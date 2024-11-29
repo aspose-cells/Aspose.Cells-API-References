@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetSeriesByOrder method. Encapsulates the function that represents getseriesbyorder in Go.'
 type: docs
 weight: 200
-url: /go/seriescollection/getseriesbyorder/
+url: /go-cpp/seriescollection/getseriesbyorder/
 ---
 
 ## GetSeriesByOrder function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetPowerQueryFormulaItems method. Encapsulates the function that represents getpowerqueryformulaitems in Go.'
 type: docs
 weight: 200
-url: /go/powerqueryformulaparameter/getpowerqueryformulaitems/
+url: /go-cpp/powerqueryformulaparameter/getpowerqueryformulaitems/
 ---
 
 ## GetPowerQueryFormulaItems function

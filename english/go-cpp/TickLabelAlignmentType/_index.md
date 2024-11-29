@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'TickLabelAlignmentType enum. Encapsulates the object that represents ticklabelalignmenttype in Go.'
 type: docs
 weight: 200
-url: /go/ticklabelalignmenttype/
+url: /go-cpp/ticklabelalignmenttype/
 ---
 
 ## TickLabelAlignmentType Enum

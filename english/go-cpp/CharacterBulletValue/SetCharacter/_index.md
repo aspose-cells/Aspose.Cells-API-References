@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetCharacter method. Encapsulates the function that represents setcharacter in Go.'
 type: docs
 weight: 200
-url: /go/characterbulletvalue/setcharacter/
+url: /go-cpp/characterbulletvalue/setcharacter/
 ---
 
 ## SetCharacter function

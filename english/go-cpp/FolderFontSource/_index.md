@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'FolderFontSource class. Encapsulates the object that represents folderfontsource in Go.'
 type: docs
 weight: 200
-url: /go/folderfontsource/
+url: /go-cpp/folderfontsource/
 ---
 
 ## FolderFontSource class

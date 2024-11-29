@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'XlsSaveOptions constructor. Encapsulates the function that represents newxlssaveoptions_saveoptions in Go.'
 type: docs
 weight: 200
-url: /go/xlssaveoptions/newxlssaveoptions_saveoptions/
+url: /go-cpp/xlssaveoptions/newxlssaveoptions_saveoptions/
 ---
 
 ## NewXlsSaveOptions_SaveOptions function

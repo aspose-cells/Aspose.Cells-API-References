@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetSignTime method. Encapsulates the function that represents getsigntime in Go.'
 type: docs
 weight: 200
-url: /go/digitalsignature/getsigntime/
+url: /go-cpp/digitalsignature/getsigntime/
 ---
 
 ## GetSignTime function

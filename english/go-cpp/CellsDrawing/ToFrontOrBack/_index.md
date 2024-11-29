@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ToFrontOrBack method. Encapsulates the function that represents tofrontorback in Go.'
 type: docs
 weight: 200
-url: /go/cellsdrawing/tofrontorback/
+url: /go-cpp/cellsdrawing/tofrontorback/
 ---
 
 ## ToFrontOrBack function

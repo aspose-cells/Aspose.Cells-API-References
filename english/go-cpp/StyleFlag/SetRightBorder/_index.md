@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetRightBorder method. Encapsulates the function that represents setrightborder in Go.'
 type: docs
 weight: 200
-url: /go/styleflag/setrightborder/
+url: /go-cpp/styleflag/setrightborder/
 ---
 
 ## SetRightBorder function

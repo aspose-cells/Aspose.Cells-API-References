@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTotalsCalculation method. Encapsulates the function that represents gettotalscalculation in Go.'
 type: docs
 weight: 200
-url: /go/listcolumn/gettotalscalculation/
+url: /go-cpp/listcolumn/gettotalscalculation/
 ---
 
 ## GetTotalsCalculation function

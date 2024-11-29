@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTextBody method. Encapsulates the function that represents gettextbody in Go.'
 type: docs
 weight: 200
-url: /go/combobox/gettextbody/
+url: /go-cpp/combobox/gettextbody/
 ---
 
 ## GetTextBody function

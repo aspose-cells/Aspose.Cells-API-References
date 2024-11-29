@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'CreateRange method. Encapsulates the function that represents createrange in Go.'
 type: docs
 weight: 200
-url: /go/worksheetcollection/createrange/
+url: /go-cpp/worksheetcollection/createrange/
 ---
 
 ## CreateRange function

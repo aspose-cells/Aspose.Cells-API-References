@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetOnCategoryAxisPointCount method. Encapsulates the function that represents getoncategoryaxispointcount in Go.'
 type: docs
 weight: 200
-url: /go/chartpoint/getoncategoryaxispointcount/
+url: /go-cpp/chartpoint/getoncategoryaxispointcount/
 ---
 
 ## GetOnCategoryAxisPointCount function

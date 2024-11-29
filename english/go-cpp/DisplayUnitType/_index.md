@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'DisplayUnitType enum. Encapsulates the object that represents displayunittype in Go.'
 type: docs
 weight: 200
-url: /go/displayunittype/
+url: /go-cpp/displayunittype/
 ---
 
 ## DisplayUnitType Enum

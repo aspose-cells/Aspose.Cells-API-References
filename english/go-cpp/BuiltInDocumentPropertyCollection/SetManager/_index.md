@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetManager method. Encapsulates the function that represents setmanager in Go.'
 type: docs
 weight: 200
-url: /go/builtindocumentpropertycollection/setmanager/
+url: /go-cpp/builtindocumentpropertycollection/setmanager/
 ---
 
 ## SetManager function

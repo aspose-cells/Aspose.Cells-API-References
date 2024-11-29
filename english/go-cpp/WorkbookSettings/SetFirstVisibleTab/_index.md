@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetFirstVisibleTab method. Encapsulates the function that represents setfirstvisibletab in Go.'
 type: docs
 weight: 200
-url: /go/workbooksettings/setfirstvisibletab/
+url: /go-cpp/workbooksettings/setfirstvisibletab/
 ---
 
 ## SetFirstVisibleTab function

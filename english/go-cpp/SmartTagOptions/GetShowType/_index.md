@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetShowType method. Encapsulates the function that represents getshowtype in Go.'
 type: docs
 weight: 200
-url: /go/smarttagoptions/getshowtype/
+url: /go-cpp/smarttagoptions/getshowtype/
 ---
 
 ## GetShowType function

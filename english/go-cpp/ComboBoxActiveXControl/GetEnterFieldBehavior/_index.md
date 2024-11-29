@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetEnterFieldBehavior method. Encapsulates the function that represents getenterfieldbehavior in Go.'
 type: docs
 weight: 200
-url: /go/comboboxactivexcontrol/getenterfieldbehavior/
+url: /go-cpp/comboboxactivexcontrol/getenterfieldbehavior/
 ---
 
 ## GetEnterFieldBehavior function

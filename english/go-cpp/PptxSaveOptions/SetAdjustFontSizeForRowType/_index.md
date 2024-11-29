@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetAdjustFontSizeForRowType method. Encapsulates the function that represents setadjustfontsizeforrowtype in Go.'
 type: docs
 weight: 200
-url: /go/pptxsaveoptions/setadjustfontsizeforrowtype/
+url: /go-cpp/pptxsaveoptions/setadjustfontsizeforrowtype/
 ---
 
 ## SetAdjustFontSizeForRowType function

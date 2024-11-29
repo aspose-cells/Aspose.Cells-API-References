@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetTreatConsecutiveDelimitersAsOne method. Encapsulates the function that represents settreatconsecutivedelimitersasone in Go.'
 type: docs
 weight: 200
-url: /go/txtloadoptions/settreatconsecutivedelimitersasone/
+url: /go-cpp/txtloadoptions/settreatconsecutivedelimitersasone/
 ---
 
 ## SetTreatConsecutiveDelimitersAsOne function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Add_String_String_String_String_String method. Encapsulates the function that represents add in Go.'
 type: docs
 weight: 200
-url: /go/hyperlinkcollection/add_string_string_string_string_string/
+url: /go-cpp/hyperlinkcollection/add_string_string_string_string_string/
 ---
 
 ## Add_String_String_String_String_String function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetEmbedSmartTags method. Encapsulates the function that represents setembedsmarttags in Go.'
 type: docs
 weight: 200
-url: /go/smarttagoptions/setembedsmarttags/
+url: /go-cpp/smarttagoptions/setembedsmarttags/
 ---
 
 ## SetEmbedSmartTags function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetGamma method. Encapsulates the function that represents setgamma in Go.'
 type: docs
 weight: 200
-url: /go/msoformatpicture/setgamma/
+url: /go-cpp/msoformatpicture/setgamma/
 ---
 
 ## SetGamma function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetNameOfApplication method. Encapsulates the function that represents setnameofapplication in Go.'
 type: docs
 weight: 200
-url: /go/builtindocumentpropertycollection/setnameofapplication/
+url: /go-cpp/builtindocumentpropertycollection/setnameofapplication/
 ---
 
 ## SetNameOfApplication function

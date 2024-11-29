@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetOldLength method. Encapsulates the function that represents getoldlength in Go.'
 type: docs
 weight: 200
-url: /go/revisioncellcomment/getoldlength/
+url: /go-cpp/revisioncellcomment/getoldlength/
 ---
 
 ## GetOldLength function

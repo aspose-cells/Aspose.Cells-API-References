@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetSubject method. Encapsulates the function that represents setsubject in Go.'
 type: docs
 weight: 200
-url: /go/builtindocumentpropertycollection/setsubject/
+url: /go-cpp/builtindocumentpropertycollection/setsubject/
 ---
 
 ## SetSubject function

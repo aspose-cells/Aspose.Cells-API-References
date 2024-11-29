@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetValue method. Encapsulates the function that represents setvalue in Go.'
 type: docs
 weight: 200
-url: /go/range/setvalue/
+url: /go-cpp/range/setvalue/
 ---
 
 ## SetValue function

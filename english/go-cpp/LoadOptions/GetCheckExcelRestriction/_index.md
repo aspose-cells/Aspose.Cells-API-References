@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetCheckExcelRestriction method. Encapsulates the function that represents getcheckexcelrestriction in Go.'
 type: docs
 weight: 200
-url: /go/loadoptions/getcheckexcelrestriction/
+url: /go-cpp/loadoptions/getcheckexcelrestriction/
 ---
 
 ## GetCheckExcelRestriction function

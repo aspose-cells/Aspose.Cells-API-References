@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetSearchOrderByRows method. Encapsulates the function that represents setsearchorderbyrows in Go.'
 type: docs
 weight: 200
-url: /go/findoptions/setsearchorderbyrows/
+url: /go-cpp/findoptions/setsearchorderbyrows/
 ---
 
 ## SetSearchOrderByRows function

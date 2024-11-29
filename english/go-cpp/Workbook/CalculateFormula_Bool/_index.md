@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'CalculateFormula_Bool method. Encapsulates the function that represents calculateformula in Go.'
 type: docs
 weight: 200
-url: /go/workbook/calculateformula_bool/
+url: /go-cpp/workbook/calculateformula_bool/
 ---
 
 ## CalculateFormula_Bool function

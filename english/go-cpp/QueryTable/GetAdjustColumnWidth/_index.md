@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetAdjustColumnWidth method. Encapsulates the function that represents getadjustcolumnwidth in Go.'
 type: docs
 weight: 200
-url: /go/querytable/getadjustcolumnwidth/
+url: /go-cpp/querytable/getadjustcolumnwidth/
 ---
 
 ## GetAdjustColumnWidth function

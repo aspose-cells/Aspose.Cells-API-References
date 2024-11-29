@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetBottomCrop method. Encapsulates the function that represents setbottomcrop in Go.'
 type: docs
 weight: 200
-url: /go/msoformatpicture/setbottomcrop/
+url: /go-cpp/msoformatpicture/setbottomcrop/
 ---
 
 ## SetBottomCrop function

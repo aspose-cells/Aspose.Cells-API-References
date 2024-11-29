@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetPrintComments method. Encapsulates the function that represents getprintcomments in Go.'
 type: docs
 weight: 200
-url: /go/pagesetup/getprintcomments/
+url: /go-cpp/pagesetup/getprintcomments/
 ---
 
 ## GetPrintComments function

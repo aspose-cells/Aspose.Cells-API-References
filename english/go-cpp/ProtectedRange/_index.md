@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ProtectedRange class. Encapsulates the object that represents protectedrange in Go.'
 type: docs
 weight: 200
-url: /go/protectedrange/
+url: /go-cpp/protectedrange/
 ---
 
 ## ProtectedRange class

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetAllowInsertingRow method. Encapsulates the function that represents setallowinsertingrow in Go.'
 type: docs
 weight: 200
-url: /go/protection/setallowinsertingrow/
+url: /go-cpp/protection/setallowinsertingrow/
 ---
 
 ## SetAllowInsertingRow function

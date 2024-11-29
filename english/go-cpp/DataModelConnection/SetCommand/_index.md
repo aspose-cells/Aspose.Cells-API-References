@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetCommand method. Encapsulates the function that represents setcommand in Go.'
 type: docs
 weight: 200
-url: /go/datamodelconnection/setcommand/
+url: /go-cpp/datamodelconnection/setcommand/
 ---
 
 ## SetCommand function

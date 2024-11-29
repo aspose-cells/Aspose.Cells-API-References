@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetGroupChr method. Encapsulates the function that represents getgroupchr in Go.'
 type: docs
 weight: 200
-url: /go/groupcharacterequationnode/getgroupchr/
+url: /go-cpp/groupcharacterequationnode/getgroupchr/
 ---
 
 ## GetGroupChr function

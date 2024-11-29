@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetExcludeUnusedStyles method. Encapsulates the function that represents setexcludeunusedstyles in Go.'
 type: docs
 weight: 200
-url: /go/htmlsaveoptions/setexcludeunusedstyles/
+url: /go-cpp/htmlsaveoptions/setexcludeunusedstyles/
 ---
 
 ## SetExcludeUnusedStyles function

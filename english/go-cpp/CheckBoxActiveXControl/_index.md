@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'CheckBoxActiveXControl class. Encapsulates the object that represents checkboxactivexcontrol in Go.'
 type: docs
 weight: 200
-url: /go/checkboxactivexcontrol/
+url: /go-cpp/checkboxactivexcontrol/
 ---
 
 ## CheckBoxActiveXControl class

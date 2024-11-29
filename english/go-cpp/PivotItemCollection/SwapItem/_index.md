@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SwapItem method. Encapsulates the function that represents swapitem in Go.'
 type: docs
 weight: 200
-url: /go/pivotitemcollection/swapitem/
+url: /go-cpp/pivotitemcollection/swapitem/
 ---
 
 ## SwapItem function

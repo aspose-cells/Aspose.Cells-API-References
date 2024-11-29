@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetSelectionMargin method. Encapsulates the function that represents setselectionmargin in Go.'
 type: docs
 weight: 200
-url: /go/comboboxactivexcontrol/setselectionmargin/
+url: /go-cpp/comboboxactivexcontrol/setselectionmargin/
 ---
 
 ## SetSelectionMargin function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTextOfGrandTotal method. Encapsulates the function that represents gettextofgrandtotal in Go.'
 type: docs
 weight: 200
-url: /go/settablepivotglobalizationsettings/gettextofgrandtotal/
+url: /go-cpp/settablepivotglobalizationsettings/gettextofgrandtotal/
 ---
 
 ## GetTextOfGrandTotal function

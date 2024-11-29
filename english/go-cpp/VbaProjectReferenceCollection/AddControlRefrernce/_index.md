@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'AddControlRefrernce method. Encapsulates the function that represents addcontrolrefrernce in Go.'
 type: docs
 weight: 200
-url: /go/vbaprojectreferencecollection/addcontrolrefrernce/
+url: /go-cpp/vbaprojectreferencecollection/addcontrolrefrernce/
 ---
 
 ## AddControlRefrernce function

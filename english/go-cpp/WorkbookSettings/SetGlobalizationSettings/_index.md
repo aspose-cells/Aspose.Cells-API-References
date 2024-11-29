@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetGlobalizationSettings method. Encapsulates the function that represents setglobalizationsettings in Go.'
 type: docs
 weight: 200
-url: /go/workbooksettings/setglobalizationsettings/
+url: /go-cpp/workbooksettings/setglobalizationsettings/
 ---
 
 ## SetGlobalizationSettings function

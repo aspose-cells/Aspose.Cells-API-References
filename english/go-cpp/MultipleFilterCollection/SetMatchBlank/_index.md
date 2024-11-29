@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetMatchBlank method. Encapsulates the function that represents setmatchblank in Go.'
 type: docs
 weight: 200
-url: /go/multiplefiltercollection/setmatchblank/
+url: /go-cpp/multiplefiltercollection/setmatchblank/
 ---
 
 ## SetMatchBlank function

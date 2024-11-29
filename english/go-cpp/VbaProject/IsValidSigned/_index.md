@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsValidSigned method. Encapsulates the function that represents isvalidsigned in Go.'
 type: docs
 weight: 200
-url: /go/vbaproject/isvalidsigned/
+url: /go-cpp/vbaproject/isvalidsigned/
 ---
 
 ## IsValidSigned function

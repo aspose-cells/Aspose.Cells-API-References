@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'DateTimeGroupingType enum. Encapsulates the object that represents datetimegroupingtype in Go.'
 type: docs
 weight: 200
-url: /go/datetimegroupingtype/
+url: /go-cpp/datetimegroupingtype/
 ---
 
 ## DateTimeGroupingType Enum

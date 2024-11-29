@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'CellsHelper class. Encapsulates the object that represents cellshelper in Go.'
 type: docs
 weight: 200
-url: /go/cellshelper/
+url: /go-cpp/cellshelper/
 ---
 
 ## CellsHelper class

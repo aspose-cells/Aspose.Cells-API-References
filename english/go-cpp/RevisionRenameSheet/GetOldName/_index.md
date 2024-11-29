@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetOldName method. Encapsulates the function that represents getoldname in Go.'
 type: docs
 weight: 200
-url: /go/revisionrenamesheet/getoldname/
+url: /go-cpp/revisionrenamesheet/getoldname/
 ---
 
 ## GetOldName function

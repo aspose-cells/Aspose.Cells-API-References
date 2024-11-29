@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetPrintCopies method. Encapsulates the function that represents setprintcopies in Go.'
 type: docs
 weight: 200
-url: /go/pagesetup/setprintcopies/
+url: /go-cpp/pagesetup/setprintcopies/
 ---
 
 ## SetPrintCopies function

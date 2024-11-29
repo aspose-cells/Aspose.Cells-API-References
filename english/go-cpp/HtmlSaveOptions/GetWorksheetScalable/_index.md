@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetWorksheetScalable method. Encapsulates the function that represents getworksheetscalable in Go.'
 type: docs
 weight: 200
-url: /go/htmlsaveoptions/getworksheetscalable/
+url: /go-cpp/htmlsaveoptions/getworksheetscalable/
 ---
 
 ## GetWorksheetScalable function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetPrimaryKeyTable method. Encapsulates the function that represents getprimarykeytable in Go.'
 type: docs
 weight: 200
-url: /go/datamodelrelationship/getprimarykeytable/
+url: /go-cpp/datamodelrelationship/getprimarykeytable/
 ---
 
 ## GetPrimaryKeyTable function

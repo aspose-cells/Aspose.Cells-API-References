@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetDisplayErrorString method. Encapsulates the function that represents getdisplayerrorstring in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/getdisplayerrorstring/
+url: /go-cpp/pivottable/getdisplayerrorstring/
 ---
 
 ## GetDisplayErrorString function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetPrintArea method. Encapsulates the function that represents setprintarea in Go.'
 type: docs
 weight: 200
-url: /go/pagesetup/setprintarea/
+url: /go-cpp/pagesetup/setprintarea/
 ---
 
 ## SetPrintArea function

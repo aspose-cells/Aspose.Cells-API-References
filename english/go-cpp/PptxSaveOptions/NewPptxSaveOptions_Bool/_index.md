@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'PptxSaveOptions constructor. Encapsulates the function that represents newpptxsaveoptions_bool in Go.'
 type: docs
 weight: 200
-url: /go/pptxsaveoptions/newpptxsaveoptions_bool/
+url: /go-cpp/pptxsaveoptions/newpptxsaveoptions_bool/
 ---
 
 ## NewPptxSaveOptions_Bool function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'TrendlineType enum. Encapsulates the object that represents trendlinetype in Go.'
 type: docs
 weight: 200
-url: /go/trendlinetype/
+url: /go-cpp/trendlinetype/
 ---
 
 ## TrendlineType Enum

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsVerticalValues method. Encapsulates the function that represents isverticalvalues in Go.'
 type: docs
 weight: 200
-url: /go/series/isverticalvalues/
+url: /go-cpp/series/isverticalvalues/
 ---
 
 ## IsVerticalValues function

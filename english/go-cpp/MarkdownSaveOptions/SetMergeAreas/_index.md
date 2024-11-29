@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetMergeAreas method. Encapsulates the function that represents setmergeareas in Go.'
 type: docs
 weight: 200
-url: /go/markdownsaveoptions/setmergeareas/
+url: /go-cpp/markdownsaveoptions/setmergeareas/
 ---
 
 ## SetMergeAreas function

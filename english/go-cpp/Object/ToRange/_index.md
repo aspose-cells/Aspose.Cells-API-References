@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ToRange method. Encapsulates the function that represents torange in Go.'
 type: docs
 weight: 200
-url: /go/object/torange/
+url: /go-cpp/object/torange/
 ---
 
 ## ToRange function

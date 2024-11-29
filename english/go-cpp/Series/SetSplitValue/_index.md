@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetSplitValue method. Encapsulates the function that represents setsplitvalue in Go.'
 type: docs
 weight: 200
-url: /go/series/setsplitvalue/
+url: /go-cpp/series/setsplitvalue/
 ---
 
 ## SetSplitValue function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetAppref method. Encapsulates the function that represents getappref in Go.'
 type: docs
 weight: 200
-url: /go/webextensionbinding/getappref/
+url: /go-cpp/webextensionbinding/getappref/
 ---
 
 ## GetAppref function

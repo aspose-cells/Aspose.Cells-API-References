@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetCorrectedObject method. Encapsulates the function that represents setcorrectedobject in Go.'
 type: docs
 weight: 200
-url: /go/warninginfo/setcorrectedobject/
+url: /go-cpp/warninginfo/setcorrectedobject/
 ---
 
 ## SetCorrectedObject function

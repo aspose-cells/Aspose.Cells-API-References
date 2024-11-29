@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetScaleCrop method. Encapsulates the function that represents setscalecrop in Go.'
 type: docs
 weight: 200
-url: /go/builtindocumentpropertycollection/setscalecrop/
+url: /go-cpp/builtindocumentpropertycollection/setscalecrop/
 ---
 
 ## SetScaleCrop function

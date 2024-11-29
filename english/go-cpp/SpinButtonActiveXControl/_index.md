@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SpinButtonActiveXControl class. Encapsulates the object that represents spinbuttonactivexcontrol in Go.'
 type: docs
 weight: 200
-url: /go/spinbuttonactivexcontrol/
+url: /go-cpp/spinbuttonactivexcontrol/
 ---
 
 ## SpinButtonActiveXControl class

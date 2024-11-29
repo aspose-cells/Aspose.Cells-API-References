@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetCountOfStylesInPool method. Encapsulates the function that represents getcountofstylesinpool in Go.'
 type: docs
 weight: 200
-url: /go/workbook/getcountofstylesinpool/
+url: /go-cpp/workbook/getcountofstylesinpool/
 ---
 
 ## GetCountOfStylesInPool function

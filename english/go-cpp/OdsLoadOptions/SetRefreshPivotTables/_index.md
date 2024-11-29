@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetRefreshPivotTables method. Encapsulates the function that represents setrefreshpivottables in Go.'
 type: docs
 weight: 200
-url: /go/odsloadoptions/setrefreshpivottables/
+url: /go-cpp/odsloadoptions/setrefreshpivottables/
 ---
 
 ## SetRefreshPivotTables function

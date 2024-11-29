@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetCellsColor method. Encapsulates the function that represents setcellscolor in Go.'
 type: docs
 weight: 200
-url: /go/solidfill/setcellscolor/
+url: /go-cpp/solidfill/setcellscolor/
 ---
 
 ## SetCellsColor function

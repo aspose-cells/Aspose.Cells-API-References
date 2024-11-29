@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetImageType method. Encapsulates the function that represents getimagetype in Go.'
 type: docs
 weight: 200
-url: /go/picture/getimagetype/
+url: /go-cpp/picture/getimagetype/
 ---
 
 ## GetImageType function

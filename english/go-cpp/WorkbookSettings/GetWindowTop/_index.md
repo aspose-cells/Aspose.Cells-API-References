@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetWindowTop method. Encapsulates the function that represents getwindowtop in Go.'
 type: docs
 weight: 200
-url: /go/workbooksettings/getwindowtop/
+url: /go-cpp/workbooksettings/getwindowtop/
 ---
 
 ## GetWindowTop function

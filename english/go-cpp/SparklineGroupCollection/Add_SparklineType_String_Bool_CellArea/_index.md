@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Add_SparklineType_String_Bool_CellArea method. Encapsulates the function that represents add in Go.'
 type: docs
 weight: 200
-url: /go/sparklinegroupcollection/add_sparklinetype_string_bool_cellarea/
+url: /go-cpp/sparklinegroupcollection/add_sparklinetype_string_bool_cellarea/
 ---
 
 ## Add_SparklineType_String_Bool_CellArea function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetRowGrand method. Encapsulates the function that represents getrowgrand in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/getrowgrand/
+url: /go-cpp/pivottable/getrowgrand/
 ---
 
 ## GetRowGrand function

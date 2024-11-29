@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetUpdateReference method. Encapsulates the function that represents getupdatereference in Go.'
 type: docs
 weight: 200
-url: /go/deleteoptions/getupdatereference/
+url: /go-cpp/deleteoptions/getupdatereference/
 ---
 
 ## GetUpdateReference function

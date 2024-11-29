@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetType method. Encapsulates the function that represents gettype in Go.'
 type: docs
 weight: 200
-url: /go/commentshape/gettype/
+url: /go-cpp/commentshape/gettype/
 ---
 
 ## GetType function

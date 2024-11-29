@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetShowPercentage method. Encapsulates the function that represents getshowpercentage in Go.'
 type: docs
 weight: 200
-url: /go/datalabels/getshowpercentage/
+url: /go-cpp/datalabels/getshowpercentage/
 ---
 
 ## GetShowPercentage function

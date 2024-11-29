@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetOtherName method. Encapsulates the function that represents getothername in Go.'
 type: docs
 weight: 200
-url: /go/chartglobalizationsettings/getothername/
+url: /go-cpp/chartglobalizationsettings/getothername/
 ---
 
 ## GetOtherName function

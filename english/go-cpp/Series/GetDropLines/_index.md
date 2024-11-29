@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetDropLines method. Encapsulates the function that represents getdroplines in Go.'
 type: docs
 weight: 200
-url: /go/series/getdroplines/
+url: /go-cpp/series/getdroplines/
 ---
 
 ## GetDropLines function

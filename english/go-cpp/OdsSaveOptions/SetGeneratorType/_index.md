@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetGeneratorType method. Encapsulates the function that represents setgeneratortype in Go.'
 type: docs
 weight: 200
-url: /go/odssaveoptions/setgeneratortype/
+url: /go-cpp/odssaveoptions/setgeneratortype/
 ---
 
 ## SetGeneratorType function

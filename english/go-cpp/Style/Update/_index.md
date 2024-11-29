@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Update method. Encapsulates the function that represents update in Go.'
 type: docs
 weight: 200
-url: /go/style/update/
+url: /go-cpp/style/update/
 ---
 
 ## Update function

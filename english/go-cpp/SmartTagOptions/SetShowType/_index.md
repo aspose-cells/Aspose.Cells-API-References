@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetShowType method. Encapsulates the function that represents setshowtype in Go.'
 type: docs
 weight: 200
-url: /go/smarttagoptions/setshowtype/
+url: /go-cpp/smarttagoptions/setshowtype/
 ---
 
 ## SetShowType function

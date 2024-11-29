@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetHidePivotFieldButtons method. Encapsulates the function that represents sethidepivotfieldbuttons in Go.'
 type: docs
 weight: 200
-url: /go/chart/sethidepivotfieldbuttons/
+url: /go-cpp/chart/sethidepivotfieldbuttons/
 ---
 
 ## SetHidePivotFieldButtons function

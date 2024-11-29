@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetShowValue method. Encapsulates the function that represents setshowvalue in Go.'
 type: docs
 weight: 200
-url: /go/datalabels/setshowvalue/
+url: /go-cpp/datalabels/setshowvalue/
 ---
 
 ## SetShowValue function

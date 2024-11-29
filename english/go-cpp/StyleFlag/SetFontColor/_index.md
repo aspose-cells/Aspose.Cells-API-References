@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetFontColor method. Encapsulates the function that represents setfontcolor in Go.'
 type: docs
 weight: 200
-url: /go/styleflag/setfontcolor/
+url: /go-cpp/styleflag/setfontcolor/
 ---
 
 ## SetFontColor function

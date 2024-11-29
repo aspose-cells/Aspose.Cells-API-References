@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetEmail method. Encapsulates the function that represents setemail in Go.'
 type: docs
 weight: 200
-url: /go/signatureline/setemail/
+url: /go-cpp/signatureline/setemail/
 ---
 
 ## SetEmail function

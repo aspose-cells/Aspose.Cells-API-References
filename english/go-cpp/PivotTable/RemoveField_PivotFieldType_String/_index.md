@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'RemoveField_PivotFieldType_String method. Encapsulates the function that represents removefield in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/removefield_pivotfieldtype_string/
+url: /go-cpp/pivottable/removefield_pivotfieldtype_string/
 ---
 
 ## RemoveField_PivotFieldType_String function

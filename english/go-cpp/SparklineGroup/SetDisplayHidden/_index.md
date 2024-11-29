@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetDisplayHidden method. Encapsulates the function that represents setdisplayhidden in Go.'
 type: docs
 weight: 200
-url: /go/sparklinegroup/setdisplayhidden/
+url: /go-cpp/sparklinegroup/setdisplayhidden/
 ---
 
 ## SetDisplayHidden function

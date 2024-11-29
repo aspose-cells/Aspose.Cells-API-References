@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetZoom method. Encapsulates the function that represents setzoom in Go.'
 type: docs
 weight: 200
-url: /go/pagesetup/setzoom/
+url: /go-cpp/pagesetup/setzoom/
 ---
 
 ## SetZoom function

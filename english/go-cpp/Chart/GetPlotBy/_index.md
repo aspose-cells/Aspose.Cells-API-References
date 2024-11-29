@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetPlotBy method. Encapsulates the function that represents getplotby in Go.'
 type: docs
 weight: 200
-url: /go/chart/getplotby/
+url: /go-cpp/chart/getplotby/
 ---
 
 ## GetPlotBy function

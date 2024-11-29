@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetListStyle method. Encapsulates the function that represents getliststyle in Go.'
 type: docs
 weight: 200
-url: /go/listboxactivexcontrol/getliststyle/
+url: /go-cpp/listboxactivexcontrol/getliststyle/
 ---
 
 ## GetListStyle function

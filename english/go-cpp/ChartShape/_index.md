@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ChartShape class. Encapsulates the object that represents chartshape in Go.'
 type: docs
 weight: 200
-url: /go/chartshape/
+url: /go-cpp/chartshape/
 ---
 
 ## ChartShape class

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsAboveAverage method. Encapsulates the function that represents setisaboveaverage in Go.'
 type: docs
 weight: 200
-url: /go/aboveaverage/setisaboveaverage/
+url: /go-cpp/aboveaverage/setisaboveaverage/
 ---
 
 ## SetIsAboveAverage function

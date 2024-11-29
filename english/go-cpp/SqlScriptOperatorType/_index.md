@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SqlScriptOperatorType enum. Encapsulates the object that represents sqlscriptoperatortype in Go.'
 type: docs
 weight: 200
-url: /go/sqlscriptoperatortype/
+url: /go-cpp/sqlscriptoperatortype/
 ---
 
 ## SqlScriptOperatorType Enum

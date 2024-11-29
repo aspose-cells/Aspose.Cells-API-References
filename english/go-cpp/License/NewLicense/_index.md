@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'License constructor. Encapsulates the function that represents newlicense in Go.'
 type: docs
 weight: 200
-url: /go/license/newlicense/
+url: /go-cpp/license/newlicense/
 ---
 
 ## NewLicense function

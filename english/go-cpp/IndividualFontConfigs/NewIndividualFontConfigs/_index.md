@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IndividualFontConfigs constructor. Encapsulates the function that represents newindividualfontconfigs in Go.'
 type: docs
 weight: 200
-url: /go/individualfontconfigs/newindividualfontconfigs/
+url: /go-cpp/individualfontconfigs/newindividualfontconfigs/
 ---
 
 ## NewIndividualFontConfigs function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetLabel method. Encapsulates the function that represents setlabel in Go.'
 type: docs
 weight: 200
-url: /go/oleobject/setlabel/
+url: /go-cpp/oleobject/setlabel/
 ---
 
 ## SetLabel function

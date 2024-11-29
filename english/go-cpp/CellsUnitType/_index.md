@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'CellsUnitType enum. Encapsulates the object that represents cellsunittype in Go.'
 type: docs
 weight: 200
-url: /go/cellsunittype/
+url: /go-cpp/cellsunittype/
 ---
 
 ## CellsUnitType Enum

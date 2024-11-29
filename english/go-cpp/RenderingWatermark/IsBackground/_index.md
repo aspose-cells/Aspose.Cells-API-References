@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsBackground method. Encapsulates the function that represents isbackground in Go.'
 type: docs
 weight: 200
-url: /go/renderingwatermark/isbackground/
+url: /go-cpp/renderingwatermark/isbackground/
 ---
 
 ## IsBackground function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTitle method. Encapsulates the function that represents gettitle in Go.'
 type: docs
 weight: 200
-url: /go/spinner/gettitle/
+url: /go-cpp/spinner/gettitle/
 ---
 
 ## GetTitle function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SelectRange method. Encapsulates the function that represents selectrange in Go.'
 type: docs
 weight: 200
-url: /go/worksheet/selectrange/
+url: /go-cpp/worksheet/selectrange/
 ---
 
 ## SelectRange function

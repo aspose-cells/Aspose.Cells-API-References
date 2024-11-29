@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetListStyle method. Encapsulates the function that represents setliststyle in Go.'
 type: docs
 weight: 200
-url: /go/listboxactivexcontrol/setliststyle/
+url: /go-cpp/listboxactivexcontrol/setliststyle/
 ---
 
 ## SetListStyle function

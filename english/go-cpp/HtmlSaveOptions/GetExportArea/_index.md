@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetExportArea method. Encapsulates the function that represents getexportarea in Go.'
 type: docs
 weight: 200
-url: /go/htmlsaveoptions/getexportarea/
+url: /go-cpp/htmlsaveoptions/getexportarea/
 ---
 
 ## GetExportArea function

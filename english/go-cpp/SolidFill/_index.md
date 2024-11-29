@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SolidFill class. Encapsulates the object that represents solidfill in Go.'
 type: docs
 weight: 200
-url: /go/solidfill/
+url: /go-cpp/solidfill/
 ---
 
 ## SolidFill class

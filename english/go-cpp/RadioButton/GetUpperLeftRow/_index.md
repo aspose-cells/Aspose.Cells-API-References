@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetUpperLeftRow method. Encapsulates the function that represents getupperleftrow in Go.'
 type: docs
 weight: 200
-url: /go/radiobutton/getupperleftrow/
+url: /go-cpp/radiobutton/getupperleftrow/
 ---
 
 ## GetUpperLeftRow function

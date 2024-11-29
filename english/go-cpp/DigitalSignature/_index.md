@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'DigitalSignature class. Encapsulates the object that represents digitalsignature in Go.'
 type: docs
 weight: 200
-url: /go/digitalsignature/
+url: /go-cpp/digitalsignature/
 ---
 
 ## DigitalSignature class

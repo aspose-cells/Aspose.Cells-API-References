@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetDirectionType method. Encapsulates the function that represents setdirectiontype in Go.'
 type: docs
 weight: 200
-url: /go/ticklabels/setdirectiontype/
+url: /go-cpp/ticklabels/setdirectiontype/
 ---
 
 ## SetDirectionType function

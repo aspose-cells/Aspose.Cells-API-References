@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetEntireRow method. Encapsulates the function that represents getentirerow in Go.'
 type: docs
 weight: 200
-url: /go/range/getentirerow/
+url: /go-cpp/range/getentirerow/
 ---
 
 ## GetEntireRow function

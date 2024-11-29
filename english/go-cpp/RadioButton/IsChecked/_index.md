@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsChecked method. Encapsulates the function that represents ischecked in Go.'
 type: docs
 weight: 200
-url: /go/radiobutton/ischecked/
+url: /go-cpp/radiobutton/ischecked/
 ---
 
 ## IsChecked function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIgnoreHidden method. Encapsulates the function that represents setignorehidden in Go.'
 type: docs
 weight: 200
-url: /go/autofitteroptions/setignorehidden/
+url: /go-cpp/autofitteroptions/setignorehidden/
 ---
 
 ## SetIgnoreHidden function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsTextNoFill method. Encapsulates the function that represents setistextnofill in Go.'
 type: docs
 weight: 200
-url: /go/legendentry/setistextnofill/
+url: /go-cpp/legendentry/setistextnofill/
 ---
 
 ## SetIsTextNoFill function

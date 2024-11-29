@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetTexture method. Encapsulates the function that represents settexture in Go.'
 type: docs
 weight: 200
-url: /go/lineformat/settexture/
+url: /go-cpp/lineformat/settexture/
 ---
 
 ## SetTexture function

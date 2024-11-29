@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetWallsAndGridlines2D method. Encapsulates the function that represents getwallsandgridlines2d in Go.'
 type: docs
 weight: 200
-url: /go/chart/getwallsandgridlines2d/
+url: /go-cpp/chart/getwallsandgridlines2d/
 ---
 
 ## GetWallsAndGridlines2D function

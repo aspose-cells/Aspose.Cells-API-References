@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Label class. Encapsulates the object that represents label in Go.'
 type: docs
 weight: 200
-url: /go/label/
+url: /go-cpp/label/
 ---
 
 ## Label class

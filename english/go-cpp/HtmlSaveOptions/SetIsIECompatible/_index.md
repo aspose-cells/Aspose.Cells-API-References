@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsIECompatible method. Encapsulates the function that represents setisiecompatible in Go.'
 type: docs
 weight: 200
-url: /go/htmlsaveoptions/setisiecompatible/
+url: /go-cpp/htmlsaveoptions/setisiecompatible/
 ---
 
 ## SetIsIECompatible function

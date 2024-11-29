@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetBeginChar method. Encapsulates the function that represents setbeginchar in Go.'
 type: docs
 weight: 200
-url: /go/delimiterequationnode/setbeginchar/
+url: /go-cpp/delimiterequationnode/setbeginchar/
 ---
 
 ## SetBeginChar function

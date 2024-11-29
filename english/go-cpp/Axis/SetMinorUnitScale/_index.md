@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetMinorUnitScale method. Encapsulates the function that represents setminorunitscale in Go.'
 type: docs
 weight: 200
-url: /go/axis/setminorunitscale/
+url: /go-cpp/axis/setminorunitscale/
 ---
 
 ## SetMinorUnitScale function

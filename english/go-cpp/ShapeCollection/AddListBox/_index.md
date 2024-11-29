@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'AddListBox method. Encapsulates the function that represents addlistbox in Go.'
 type: docs
 weight: 200
-url: /go/shapecollection/addlistbox/
+url: /go-cpp/shapecollection/addlistbox/
 ---
 
 ## AddListBox function

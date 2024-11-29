@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetListFillRange method. Encapsulates the function that represents setlistfillrange in Go.'
 type: docs
 weight: 200
-url: /go/activexcontrolbase/setlistfillrange/
+url: /go-cpp/activexcontrolbase/setlistfillrange/
 ---
 
 ## SetListFillRange function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetBeginArrowheadWidth method. Encapsulates the function that represents getbeginarrowheadwidth in Go.'
 type: docs
 weight: 200
-url: /go/lineformat/getbeginarrowheadwidth/
+url: /go-cpp/lineformat/getbeginarrowheadwidth/
 ---
 
 ## GetBeginArrowheadWidth function

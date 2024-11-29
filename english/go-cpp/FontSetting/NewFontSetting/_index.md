@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'FontSetting constructor. Encapsulates the function that represents newfontsetting in Go.'
 type: docs
 weight: 200
-url: /go/fontsetting/newfontsetting/
+url: /go-cpp/fontsetting/newfontsetting/
 ---
 
 ## NewFontSetting function

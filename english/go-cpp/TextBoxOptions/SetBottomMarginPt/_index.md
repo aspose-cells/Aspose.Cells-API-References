@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetBottomMarginPt method. Encapsulates the function that represents setbottommarginpt in Go.'
 type: docs
 weight: 200
-url: /go/textboxoptions/setbottommarginpt/
+url: /go-cpp/textboxoptions/setbottommarginpt/
 ---
 
 ## SetBottomMarginPt function

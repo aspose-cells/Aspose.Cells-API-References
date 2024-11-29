@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'PivotFormatConditionCollection class. Encapsulates the object that represents pivotformatconditioncollection in Go.'
 type: docs
 weight: 200
-url: /go/pivotformatconditioncollection/
+url: /go-cpp/pivotformatconditioncollection/
 ---
 
 ## PivotFormatConditionCollection class

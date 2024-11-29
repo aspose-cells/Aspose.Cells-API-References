@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetFontAlignType method. Encapsulates the function that represents getfontaligntype in Go.'
 type: docs
 weight: 200
-url: /go/textparagraph/getfontaligntype/
+url: /go-cpp/textparagraph/getfontaligntype/
 ---
 
 ## GetFontAlignType function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetCriteria_FilterOperatorType_Object method. Encapsulates the function that represents setcriteria in Go.'
 type: docs
 weight: 200
-url: /go/customfilter/setcriteria_filteroperatortype_object/
+url: /go-cpp/customfilter/setcriteria_filteroperatortype_object/
 ---
 
 ## SetCriteria_FilterOperatorType_Object function

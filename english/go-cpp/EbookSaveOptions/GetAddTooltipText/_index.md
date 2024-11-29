@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetAddTooltipText method. Encapsulates the function that represents getaddtooltiptext in Go.'
 type: docs
 weight: 200
-url: /go/ebooksaveoptions/getaddtooltiptext/
+url: /go-cpp/ebooksaveoptions/getaddtooltiptext/
 ---
 
 ## GetAddTooltipText function

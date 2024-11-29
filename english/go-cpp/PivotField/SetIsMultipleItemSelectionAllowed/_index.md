@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsMultipleItemSelectionAllowed method. Encapsulates the function that represents setismultipleitemselectionallowed in Go.'
 type: docs
 weight: 200
-url: /go/pivotfield/setismultipleitemselectionallowed/
+url: /go-cpp/pivotfield/setismultipleitemselectionallowed/
 ---
 
 ## SetIsMultipleItemSelectionAllowed function

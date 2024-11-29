@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetSeriesName method. Encapsulates the function that represents setseriesname in Go.'
 type: docs
 weight: 200
-url: /go/settablechartglobalizationsettings/setseriesname/
+url: /go-cpp/settablechartglobalizationsettings/setseriesname/
 ---
 
 ## SetSeriesName function

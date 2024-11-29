@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'CustomXmlShape class. Encapsulates the object that represents customxmlshape in Go.'
 type: docs
 weight: 200
-url: /go/customxmlshape/
+url: /go-cpp/customxmlshape/
 ---
 
 ## CustomXmlShape class

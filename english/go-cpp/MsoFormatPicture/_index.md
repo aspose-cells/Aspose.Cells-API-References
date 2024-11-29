@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'MsoFormatPicture class. Encapsulates the object that represents msoformatpicture in Go.'
 type: docs
 weight: 200
-url: /go/msoformatpicture/
+url: /go-cpp/msoformatpicture/
 ---
 
 ## MsoFormatPicture class

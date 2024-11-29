@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetSortExternalNames method. Encapsulates the function that represents getsortexternalnames in Go.'
 type: docs
 weight: 200
-url: /go/odssaveoptions/getsortexternalnames/
+url: /go-cpp/odssaveoptions/getsortexternalnames/
 ---
 
 ## GetSortExternalNames function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsChecked method. Encapsulates the function that represents setischecked in Go.'
 type: docs
 weight: 200
-url: /go/radiobutton/setischecked/
+url: /go-cpp/radiobutton/setischecked/
 ---
 
 ## SetIsChecked function

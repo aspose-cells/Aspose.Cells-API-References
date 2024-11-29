@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetF method. Encapsulates the function that represents getf in Go.'
 type: docs
 weight: 200
-url: /go/powerqueryformulafunction/getf/
+url: /go-cpp/powerqueryformulafunction/getf/
 ---
 
 ## GetF function

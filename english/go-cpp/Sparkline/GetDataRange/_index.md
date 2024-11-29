@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetDataRange method. Encapsulates the function that represents getdatarange in Go.'
 type: docs
 weight: 200
-url: /go/sparkline/getdatarange/
+url: /go-cpp/sparkline/getdatarange/
 ---
 
 ## GetDataRange function

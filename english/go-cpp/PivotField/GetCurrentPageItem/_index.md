@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetCurrentPageItem method. Encapsulates the function that represents getcurrentpageitem in Go.'
 type: docs
 weight: 200
-url: /go/pivotfield/getcurrentpageitem/
+url: /go-cpp/pivotfield/getcurrentpageitem/
 ---
 
 ## GetCurrentPageItem function

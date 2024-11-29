@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'WarningType enum. Encapsulates the object that represents warningtype in Go.'
 type: docs
 weight: 200
-url: /go/warningtype/
+url: /go-cpp/warningtype/
 ---
 
 ## WarningType Enum

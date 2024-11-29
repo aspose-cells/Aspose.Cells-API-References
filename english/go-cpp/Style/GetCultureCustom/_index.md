@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetCultureCustom method. Encapsulates the function that represents getculturecustom in Go.'
 type: docs
 weight: 200
-url: /go/style/getculturecustom/
+url: /go-cpp/style/getculturecustom/
 ---
 
 ## GetCultureCustom function

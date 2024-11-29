@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetAxisColor method. Encapsulates the function that represents setaxiscolor in Go.'
 type: docs
 weight: 200
-url: /go/databar/setaxiscolor/
+url: /go-cpp/databar/setaxiscolor/
 ---
 
 ## SetAxisColor function

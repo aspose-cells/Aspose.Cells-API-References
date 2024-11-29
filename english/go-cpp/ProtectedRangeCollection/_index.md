@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ProtectedRangeCollection class. Encapsulates the object that represents protectedrangecollection in Go.'
 type: docs
 weight: 200
-url: /go/protectedrangecollection/
+url: /go-cpp/protectedrangecollection/
 ---
 
 ## ProtectedRangeCollection class

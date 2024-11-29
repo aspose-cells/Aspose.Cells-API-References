@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetHasHorizontalBorder method. Encapsulates the function that represents gethashorizontalborder in Go.'
 type: docs
 weight: 200
-url: /go/chartdatatable/gethashorizontalborder/
+url: /go-cpp/chartdatatable/gethashorizontalborder/
 ---
 
 ## GetHasHorizontalBorder function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetColumnWidths method. Encapsulates the function that represents getcolumnwidths in Go.'
 type: docs
 weight: 200
-url: /go/comboboxactivexcontrol/getcolumnwidths/
+url: /go-cpp/comboboxactivexcontrol/getcolumnwidths/
 ---
 
 ## GetColumnWidths function

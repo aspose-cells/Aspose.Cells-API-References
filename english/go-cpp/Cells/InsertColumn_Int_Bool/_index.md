@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'InsertColumn_Int_Bool method. Encapsulates the function that represents insertcolumn in Go.'
 type: docs
 weight: 200
-url: /go/cells/insertcolumn_int_bool/
+url: /go-cpp/cells/insertcolumn_int_bool/
 ---
 
 ## InsertColumn_Int_Bool function

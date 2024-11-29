@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetElevation method. Encapsulates the function that represents setelevation in Go.'
 type: docs
 weight: 200
-url: /go/chart/setelevation/
+url: /go-cpp/chart/setelevation/
 ---
 
 ## SetElevation function

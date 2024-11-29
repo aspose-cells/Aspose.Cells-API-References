@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'FileFormatUtil_IsTemplateFormat method. Encapsulates the function that represents istemplateformat in Go.'
 type: docs
 weight: 200
-url: /go/fileformatutil/fileformatutil_istemplateformat/
+url: /go-cpp/fileformatutil/fileformatutil_istemplateformat/
 ---
 
 ## FileFormatUtil_IsTemplateFormat function

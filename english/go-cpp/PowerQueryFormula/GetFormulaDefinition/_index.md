@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetFormulaDefinition method. Encapsulates the function that represents getformuladefinition in Go.'
 type: docs
 weight: 200
-url: /go/powerqueryformula/getformuladefinition/
+url: /go-cpp/powerqueryformula/getformuladefinition/
 ---
 
 ## GetFormulaDefinition function

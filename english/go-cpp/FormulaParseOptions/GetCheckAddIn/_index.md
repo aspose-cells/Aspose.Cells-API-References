@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetCheckAddIn method. Encapsulates the function that represents getcheckaddin in Go.'
 type: docs
 weight: 200
-url: /go/formulaparseoptions/getcheckaddin/
+url: /go-cpp/formulaparseoptions/getcheckaddin/
 ---
 
 ## GetCheckAddIn function

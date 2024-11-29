@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTextOfDays method. Encapsulates the function that represents gettextofdays in Go.'
 type: docs
 weight: 200
-url: /go/pivotglobalizationsettings/gettextofdays/
+url: /go-cpp/pivotglobalizationsettings/gettextofdays/
 ---
 
 ## GetTextOfDays function

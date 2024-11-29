@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetBorders method. Encapsulates the function that represents getborders in Go.'
 type: docs
 weight: 200
-url: /go/styleflag/getborders/
+url: /go-cpp/styleflag/getborders/
 ---
 
 ## GetBorders function

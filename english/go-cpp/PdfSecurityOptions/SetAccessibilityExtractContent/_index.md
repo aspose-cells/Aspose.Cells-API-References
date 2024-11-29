@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetAccessibilityExtractContent method. Encapsulates the function that represents setaccessibilityextractcontent in Go.'
 type: docs
 weight: 200
-url: /go/pdfsecurityoptions/setaccessibilityextractcontent/
+url: /go-cpp/pdfsecurityoptions/setaccessibilityextractcontent/
 ---
 
 ## SetAccessibilityExtractContent function

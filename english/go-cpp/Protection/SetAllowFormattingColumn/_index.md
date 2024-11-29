@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetAllowFormattingColumn method. Encapsulates the function that represents setallowformattingcolumn in Go.'
 type: docs
 weight: 200
-url: /go/protection/setallowformattingcolumn/
+url: /go-cpp/protection/setallowformattingcolumn/
 ---
 
 ## SetAllowFormattingColumn function

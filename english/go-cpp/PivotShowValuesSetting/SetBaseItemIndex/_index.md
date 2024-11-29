@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetBaseItemIndex method. Encapsulates the function that represents setbaseitemindex in Go.'
 type: docs
 weight: 200
-url: /go/pivotshowvaluessetting/setbaseitemindex/
+url: /go-cpp/pivotshowvaluessetting/setbaseitemindex/
 ---
 
 ## SetBaseItemIndex function

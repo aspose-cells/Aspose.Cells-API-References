@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IconSetType enum. Encapsulates the object that represents iconsettype in Go.'
 type: docs
 weight: 200
-url: /go/iconsettype/
+url: /go-cpp/iconsettype/
 ---
 
 ## IconSetType Enum

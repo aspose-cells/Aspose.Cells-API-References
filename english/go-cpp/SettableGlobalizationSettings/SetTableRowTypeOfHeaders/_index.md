@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetTableRowTypeOfHeaders method. Encapsulates the function that represents settablerowtypeofheaders in Go.'
 type: docs
 weight: 200
-url: /go/settableglobalizationsettings/settablerowtypeofheaders/
+url: /go-cpp/settableglobalizationsettings/settablerowtypeofheaders/
 ---
 
 ## SetTableRowTypeOfHeaders function

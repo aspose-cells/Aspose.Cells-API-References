@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'AddByBaseIndex method. Encapsulates the function that represents addbybaseindex in Go.'
 type: docs
 weight: 200
-url: /go/pivotfieldcollection/addbybaseindex/
+url: /go-cpp/pivotfieldcollection/addbybaseindex/
 ---
 
 ## AddByBaseIndex function

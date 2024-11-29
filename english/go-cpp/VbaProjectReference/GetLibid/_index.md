@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetLibid method. Encapsulates the function that represents getlibid in Go.'
 type: docs
 weight: 200
-url: /go/vbaprojectreference/getlibid/
+url: /go-cpp/vbaprojectreference/getlibid/
 ---
 
 ## GetLibid function

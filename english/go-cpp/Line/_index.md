@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Line class. Encapsulates the object that represents line in Go.'
 type: docs
 weight: 200
-url: /go/line/
+url: /go-cpp/line/
 ---
 
 ## Line class

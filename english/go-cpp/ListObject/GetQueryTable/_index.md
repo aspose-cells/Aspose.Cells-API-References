@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetQueryTable method. Encapsulates the function that represents getquerytable in Go.'
 type: docs
 weight: 200
-url: /go/listobject/getquerytable/
+url: /go-cpp/listobject/getquerytable/
 ---
 
 ## GetQueryTable function

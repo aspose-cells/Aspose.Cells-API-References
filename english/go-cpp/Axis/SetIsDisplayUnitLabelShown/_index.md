@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsDisplayUnitLabelShown method. Encapsulates the function that represents setisdisplayunitlabelshown in Go.'
 type: docs
 weight: 200
-url: /go/axis/setisdisplayunitlabelshown/
+url: /go-cpp/axis/setisdisplayunitlabelshown/
 ---
 
 ## SetIsDisplayUnitLabelShown function

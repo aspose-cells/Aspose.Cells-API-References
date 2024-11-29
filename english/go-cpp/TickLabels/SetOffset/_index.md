@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetOffset method. Encapsulates the function that represents setoffset in Go.'
 type: docs
 weight: 200
-url: /go/ticklabels/setoffset/
+url: /go-cpp/ticklabels/setoffset/
 ---
 
 ## SetOffset function

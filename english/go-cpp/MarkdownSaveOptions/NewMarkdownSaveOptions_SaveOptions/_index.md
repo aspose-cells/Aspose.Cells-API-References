@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'MarkdownSaveOptions constructor. Encapsulates the function that represents newmarkdownsaveoptions_saveoptions in Go.'
 type: docs
 weight: 200
-url: /go/markdownsaveoptions/newmarkdownsaveoptions_saveoptions/
+url: /go-cpp/markdownsaveoptions/newmarkdownsaveoptions_saveoptions/
 ---
 
 ## NewMarkdownSaveOptions_SaveOptions function

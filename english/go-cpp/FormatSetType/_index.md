@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'FormatSetType enum. Encapsulates the object that represents formatsettype in Go.'
 type: docs
 weight: 200
-url: /go/formatsettype/
+url: /go-cpp/formatsettype/
 ---
 
 ## FormatSetType Enum

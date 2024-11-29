@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetBeginType method. Encapsulates the function that represents setbegintype in Go.'
 type: docs
 weight: 200
-url: /go/line/setbegintype/
+url: /go-cpp/line/setbegintype/
 ---
 
 ## SetBeginType function

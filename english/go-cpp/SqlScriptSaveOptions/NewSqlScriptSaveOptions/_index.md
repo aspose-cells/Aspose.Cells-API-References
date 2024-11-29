@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SqlScriptSaveOptions constructor. Encapsulates the function that represents newsqlscriptsaveoptions in Go.'
 type: docs
 weight: 200
-url: /go/sqlscriptsaveoptions/newsqlscriptsaveoptions/
+url: /go-cpp/sqlscriptsaveoptions/newsqlscriptsaveoptions/
 ---
 
 ## NewSqlScriptSaveOptions function

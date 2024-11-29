@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetHighPointColor method. Encapsulates the function that represents gethighpointcolor in Go.'
 type: docs
 weight: 200
-url: /go/sparklinegroup/gethighpointcolor/
+url: /go-cpp/sparklinegroup/gethighpointcolor/
 ---
 
 ## GetHighPointColor function

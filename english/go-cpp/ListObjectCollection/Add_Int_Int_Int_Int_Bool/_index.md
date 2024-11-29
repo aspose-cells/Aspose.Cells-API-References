@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Add_Int_Int_Int_Int_Bool method. Encapsulates the function that represents add in Go.'
 type: docs
 weight: 200
-url: /go/listobjectcollection/add_int_int_int_int_bool/
+url: /go-cpp/listobjectcollection/add_int_int_int_int_bool/
 ---
 
 ## Add_Int_Int_Int_Int_Bool function

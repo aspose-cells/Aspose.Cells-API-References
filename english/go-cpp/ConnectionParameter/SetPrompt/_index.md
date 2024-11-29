@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetPrompt method. Encapsulates the function that represents setprompt in Go.'
 type: docs
 weight: 200
-url: /go/connectionparameter/setprompt/
+url: /go-cpp/connectionparameter/setprompt/
 ---
 
 ## SetPrompt function

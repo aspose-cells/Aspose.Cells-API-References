@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Add_String_Double method. Encapsulates the function that represents add in Go.'
 type: docs
 weight: 200
-url: /go/customdocumentpropertycollection/add_string_double/
+url: /go-cpp/customdocumentpropertycollection/add_string_double/
 ---
 
 ## Add_String_Double function

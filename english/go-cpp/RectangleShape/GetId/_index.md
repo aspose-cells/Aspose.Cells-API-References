@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetId method. Encapsulates the function that represents getid in Go.'
 type: docs
 weight: 200
-url: /go/rectangleshape/getid/
+url: /go-cpp/rectangleshape/getid/
 ---
 
 ## GetId function

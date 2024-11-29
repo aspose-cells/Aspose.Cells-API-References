@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'VisibilityType enum. Encapsulates the object that represents visibilitytype in Go.'
 type: docs
 weight: 200
-url: /go/visibilitytype/
+url: /go-cpp/visibilitytype/
 ---
 
 ## VisibilityType Enum

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetTextShapeType method. Encapsulates the function that represents settextshapetype in Go.'
 type: docs
 weight: 200
-url: /go/combobox/settextshapetype/
+url: /go-cpp/combobox/settextshapetype/
 ---
 
 ## SetTextShapeType function

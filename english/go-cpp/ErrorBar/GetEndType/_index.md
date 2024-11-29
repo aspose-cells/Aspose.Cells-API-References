@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetEndType method. Encapsulates the function that represents getendtype in Go.'
 type: docs
 weight: 200
-url: /go/errorbar/getendtype/
+url: /go-cpp/errorbar/getendtype/
 ---
 
 ## GetEndType function

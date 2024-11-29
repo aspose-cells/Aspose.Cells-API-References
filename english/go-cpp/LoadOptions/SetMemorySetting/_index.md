@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetMemorySetting method. Encapsulates the function that represents setmemorysetting in Go.'
 type: docs
 weight: 200
-url: /go/loadoptions/setmemorysetting/
+url: /go-cpp/loadoptions/setmemorysetting/
 ---
 
 ## SetMemorySetting function

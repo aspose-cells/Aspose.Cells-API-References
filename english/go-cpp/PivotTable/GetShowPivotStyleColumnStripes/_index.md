@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetShowPivotStyleColumnStripes method. Encapsulates the function that represents getshowpivotstylecolumnstripes in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/getshowpivotstylecolumnstripes/
+url: /go-cpp/pivottable/getshowpivotstylecolumnstripes/
 ---
 
 ## GetShowPivotStyleColumnStripes function

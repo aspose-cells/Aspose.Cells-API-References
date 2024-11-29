@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetCharacterEncoding method. Encapsulates the function that represents setcharacterencoding in Go.'
 type: docs
 weight: 200
-url: /go/calculationoptions/setcharacterencoding/
+url: /go-cpp/calculationoptions/setcharacterencoding/
 ---
 
 ## SetCharacterEncoding function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'HyperlinkCollection class. Encapsulates the object that represents hyperlinkcollection in Go.'
 type: docs
 weight: 200
-url: /go/hyperlinkcollection/
+url: /go-cpp/hyperlinkcollection/
 ---
 
 ## HyperlinkCollection class

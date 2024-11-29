@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetBoundColumn method. Encapsulates the function that represents setboundcolumn in Go.'
 type: docs
 weight: 200
-url: /go/comboboxactivexcontrol/setboundcolumn/
+url: /go-cpp/comboboxactivexcontrol/setboundcolumn/
 ---
 
 ## SetBoundColumn function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetShowAllItems method. Encapsulates the function that represents getshowallitems in Go.'
 type: docs
 weight: 200
-url: /go/pivotfield/getshowallitems/
+url: /go-cpp/pivotfield/getshowallitems/
 ---
 
 ## GetShowAllItems function

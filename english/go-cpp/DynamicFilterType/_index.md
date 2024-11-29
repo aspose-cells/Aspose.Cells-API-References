@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'DynamicFilterType enum. Encapsulates the object that represents dynamicfiltertype in Go.'
 type: docs
 weight: 200
-url: /go/dynamicfiltertype/
+url: /go-cpp/dynamicfiltertype/
 ---
 
 ## DynamicFilterType Enum

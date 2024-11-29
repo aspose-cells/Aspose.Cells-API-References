@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Add_PivotTable_String_Int method. Encapsulates the function that represents add in Go.'
 type: docs
 weight: 200
-url: /go/timelinecollection/add_pivottable_string_int/
+url: /go-cpp/timelinecollection/add_pivottable_string_int/
 ---
 
 ## Add_PivotTable_String_Int function

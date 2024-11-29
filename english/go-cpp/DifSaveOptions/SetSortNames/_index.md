@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetSortNames method. Encapsulates the function that represents setsortnames in Go.'
 type: docs
 weight: 200
-url: /go/difsaveoptions/setsortnames/
+url: /go-cpp/difsaveoptions/setsortnames/
 ---
 
 ## SetSortNames function

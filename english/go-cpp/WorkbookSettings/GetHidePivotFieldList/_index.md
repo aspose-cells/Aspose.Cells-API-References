@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetHidePivotFieldList method. Encapsulates the function that represents gethidepivotfieldlist in Go.'
 type: docs
 weight: 200
-url: /go/workbooksettings/gethidepivotfieldlist/
+url: /go-cpp/workbooksettings/gethidepivotfieldlist/
 ---
 
 ## GetHidePivotFieldList function

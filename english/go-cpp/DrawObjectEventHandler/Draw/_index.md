@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Draw method. Encapsulates the function that represents draw in Go.'
 type: docs
 weight: 200
-url: /go/drawobjecteventhandler/draw/
+url: /go-cpp/drawobjecteventhandler/draw/
 ---
 
 ## Draw function

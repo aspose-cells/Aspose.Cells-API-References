@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'FractionEquationNode_CreateNode method. Encapsulates the function that represents createnode in Go.'
 type: docs
 weight: 200
-url: /go/fractionequationnode/fractionequationnode_createnode/
+url: /go-cpp/fractionequationnode/fractionequationnode_createnode/
 ---
 
 ## FractionEquationNode_CreateNode function

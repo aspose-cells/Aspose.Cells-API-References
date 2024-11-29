@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsBottom method. Encapsulates the function that represents isbottom in Go.'
 type: docs
 weight: 200
-url: /go/top10/isbottom/
+url: /go-cpp/top10/isbottom/
 ---
 
 ## IsBottom function

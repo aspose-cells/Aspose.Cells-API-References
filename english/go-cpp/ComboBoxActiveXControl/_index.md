@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ComboBoxActiveXControl class. Encapsulates the object that represents comboboxactivexcontrol in Go.'
 type: docs
 weight: 200
-url: /go/comboboxactivexcontrol/
+url: /go-cpp/comboboxactivexcontrol/
 ---
 
 ## ComboBoxActiveXControl class

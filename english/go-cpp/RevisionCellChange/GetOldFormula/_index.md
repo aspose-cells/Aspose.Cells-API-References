@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetOldFormula method. Encapsulates the function that represents getoldformula in Go.'
 type: docs
 weight: 200
-url: /go/revisioncellchange/getoldformula/
+url: /go-cpp/revisioncellchange/getoldformula/
 ---
 
 ## GetOldFormula function

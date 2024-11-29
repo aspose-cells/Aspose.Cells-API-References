@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetInnerHeight method. Encapsulates the function that represents getinnerheight in Go.'
 type: docs
 weight: 200
-url: /go/plotarea/getinnerheight/
+url: /go-cpp/plotarea/getinnerheight/
 ---
 
 ## GetInnerHeight function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetLeftPixel method. Encapsulates the function that represents setleftpixel in Go.'
 type: docs
 weight: 200
-url: /go/slicer/setleftpixel/
+url: /go-cpp/slicer/setleftpixel/
 ---
 
 ## SetLeftPixel function

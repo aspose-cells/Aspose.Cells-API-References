@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'PictureBulletValue class. Encapsulates the object that represents picturebulletvalue in Go.'
 type: docs
 weight: 200
-url: /go/picturebulletvalue/
+url: /go-cpp/picturebulletvalue/
 ---
 
 ## PictureBulletValue class

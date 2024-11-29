@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetMarkersColor method. Encapsulates the function that represents setmarkerscolor in Go.'
 type: docs
 weight: 200
-url: /go/sparklinegroup/setmarkerscolor/
+url: /go-cpp/sparklinegroup/setmarkerscolor/
 ---
 
 ## SetMarkersColor function

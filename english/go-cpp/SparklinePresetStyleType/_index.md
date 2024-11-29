@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SparklinePresetStyleType enum. Encapsulates the object that represents sparklinepresetstyletype in Go.'
 type: docs
 weight: 200
-url: /go/sparklinepresetstyletype/
+url: /go-cpp/sparklinepresetstyletype/
 ---
 
 ## SparklinePresetStyleType Enum

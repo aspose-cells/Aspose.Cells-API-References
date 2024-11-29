@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetSheetIndex method. Encapsulates the function that represents setsheetindex in Go.'
 type: docs
 weight: 200
-url: /go/name/setsheetindex/
+url: /go-cpp/name/setsheetindex/
 ---
 
 ## SetSheetIndex function

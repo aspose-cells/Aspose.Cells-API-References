@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ToString method. Encapsulates the function that represents tostring in Go.'
 type: docs
 weight: 200
-url: /go/referredarea/tostring/
+url: /go-cpp/referredarea/tostring/
 ---
 
 ## ToString function

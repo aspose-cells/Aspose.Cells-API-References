@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsIntervalLeftClosed method. Encapsulates the function that represents setisintervalleftclosed in Go.'
 type: docs
 weight: 200
-url: /go/serieslayoutproperties/setisintervalleftclosed/
+url: /go-cpp/serieslayoutproperties/setisintervalleftclosed/
 ---
 
 ## SetIsIntervalLeftClosed function

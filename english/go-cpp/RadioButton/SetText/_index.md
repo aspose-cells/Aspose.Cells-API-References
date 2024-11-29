@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetText method. Encapsulates the function that represents settext in Go.'
 type: docs
 weight: 200
-url: /go/radiobutton/settext/
+url: /go-cpp/radiobutton/settext/
 ---
 
 ## SetText function

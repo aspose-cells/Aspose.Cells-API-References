@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetNumberCategoryType method. Encapsulates the function that represents getnumbercategorytype in Go.'
 type: docs
 weight: 200
-url: /go/cell/getnumbercategorytype/
+url: /go-cpp/cell/getnumbercategorytype/
 ---
 
 ## GetNumberCategoryType function

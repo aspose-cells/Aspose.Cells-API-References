@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'FontConfigs_GetPreferSystemFontSubstitutes method. Encapsulates the function that represents getprefersystemfontsubstitutes in Go.'
 type: docs
 weight: 200
-url: /go/fontconfigs/fontconfigs_getprefersystemfontsubstitutes/
+url: /go-cpp/fontconfigs/fontconfigs_getprefersystemfontsubstitutes/
 ---
 
 ## FontConfigs_GetPreferSystemFontSubstitutes function

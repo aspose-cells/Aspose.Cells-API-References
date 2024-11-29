@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetValue_Int_Int method. Encapsulates the function that represents getvalue in Go.'
 type: docs
 weight: 200
-url: /go/referredarea/getvalue_int_int/
+url: /go-cpp/referredarea/getvalue_int_int/
 ---
 
 ## GetValue_Int_Int function

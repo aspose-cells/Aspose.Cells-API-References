@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'CalculationCell class. Encapsulates the object that represents calculationcell in Go.'
 type: docs
 weight: 200
-url: /go/calculationcell/
+url: /go-cpp/calculationcell/
 ---
 
 ## CalculationCell class

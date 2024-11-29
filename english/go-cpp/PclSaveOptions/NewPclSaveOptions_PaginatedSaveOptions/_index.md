@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'PclSaveOptions constructor. Encapsulates the function that represents newpclsaveoptions_paginatedsaveoptions in Go.'
 type: docs
 weight: 200
-url: /go/pclsaveoptions/newpclsaveoptions_paginatedsaveoptions/
+url: /go-cpp/pclsaveoptions/newpclsaveoptions_paginatedsaveoptions/
 ---
 
 ## NewPclSaveOptions_PaginatedSaveOptions function

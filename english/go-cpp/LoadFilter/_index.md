@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'LoadFilter class. Encapsulates the object that represents loadfilter in Go.'
 type: docs
 weight: 200
-url: /go/loadfilter/
+url: /go-cpp/loadfilter/
 ---
 
 ## LoadFilter class

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetTranspose method. Encapsulates the function that represents settranspose in Go.'
 type: docs
 weight: 200
-url: /go/pasteoptions/settranspose/
+url: /go-cpp/pasteoptions/settranspose/
 ---
 
 ## SetTranspose function

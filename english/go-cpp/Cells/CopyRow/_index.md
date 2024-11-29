@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'CopyRow method. Encapsulates the function that represents copyrow in Go.'
 type: docs
 weight: 200
-url: /go/cells/copyrow/
+url: /go-cpp/cells/copyrow/
 ---
 
 ## CopyRow function

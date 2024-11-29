@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetOwnerPassword method. Encapsulates the function that represents getownerpassword in Go.'
 type: docs
 weight: 200
-url: /go/pdfsecurityoptions/getownerpassword/
+url: /go-cpp/pdfsecurityoptions/getownerpassword/
 ---
 
 ## GetOwnerPassword function

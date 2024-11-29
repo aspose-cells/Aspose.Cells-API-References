@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetProgID method. Encapsulates the function that represents getprogid in Go.'
 type: docs
 weight: 200
-url: /go/oleobject/getprogid/
+url: /go-cpp/oleobject/getprogid/
 ---
 
 ## GetProgID function

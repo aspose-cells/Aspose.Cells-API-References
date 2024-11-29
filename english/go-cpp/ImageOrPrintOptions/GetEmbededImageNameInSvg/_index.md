@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetEmbededImageNameInSvg method. Encapsulates the function that represents getembededimagenameinsvg in Go.'
 type: docs
 weight: 200
-url: /go/imageorprintoptions/getembededimagenameinsvg/
+url: /go-cpp/imageorprintoptions/getembededimagenameinsvg/
 ---
 
 ## GetEmbededImageNameInSvg function

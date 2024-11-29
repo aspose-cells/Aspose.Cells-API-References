@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetStoreType method. Encapsulates the function that represents getstoretype in Go.'
 type: docs
 weight: 200
-url: /go/webextensionreference/getstoretype/
+url: /go-cpp/webextensionreference/getstoretype/
 ---
 
 ## GetStoreType function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetCellName method. Encapsulates the function that represents getcellname in Go.'
 type: docs
 weight: 200
-url: /go/cellwatch/getcellname/
+url: /go-cpp/cellwatch/getcellname/
 ---
 
 ## GetCellName function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsLockedText method. Encapsulates the function that represents islockedtext in Go.'
 type: docs
 weight: 200
-url: /go/shapetextalignment/islockedtext/
+url: /go-cpp/shapetextalignment/islockedtext/
 ---
 
 ## IsLockedText function

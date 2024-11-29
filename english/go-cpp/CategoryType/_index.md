@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'CategoryType enum. Encapsulates the object that represents categorytype in Go.'
 type: docs
 weight: 200
-url: /go/categorytype/
+url: /go-cpp/categorytype/
 ---
 
 ## CategoryType Enum

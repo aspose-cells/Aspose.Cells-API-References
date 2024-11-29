@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetShadow method. Encapsulates the function that represents getshadow in Go.'
 type: docs
 weight: 200
-url: /go/combobox/getshadow/
+url: /go-cpp/combobox/getshadow/
 ---
 
 ## GetShadow function

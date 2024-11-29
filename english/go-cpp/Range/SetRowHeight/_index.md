@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetRowHeight method. Encapsulates the function that represents setrowheight in Go.'
 type: docs
 weight: 200
-url: /go/range/setrowheight/
+url: /go-cpp/range/setrowheight/
 ---
 
 ## SetRowHeight function

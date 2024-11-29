@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTickLabelPosition method. Encapsulates the function that represents getticklabelposition in Go.'
 type: docs
 weight: 200
-url: /go/axis/getticklabelposition/
+url: /go-cpp/axis/getticklabelposition/
 ---
 
 ## GetTickLabelPosition function

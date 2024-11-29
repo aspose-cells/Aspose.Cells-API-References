@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'PivotShowValuesSetting class. Encapsulates the object that represents pivotshowvaluessetting in Go.'
 type: docs
 weight: 200
-url: /go/pivotshowvaluessetting/
+url: /go-cpp/pivotshowvaluessetting/
 ---
 
 ## PivotShowValuesSetting class

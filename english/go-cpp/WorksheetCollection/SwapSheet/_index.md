@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SwapSheet method. Encapsulates the function that represents swapsheet in Go.'
 type: docs
 weight: 200
-url: /go/worksheetcollection/swapsheet/
+url: /go-cpp/worksheetcollection/swapsheet/
 ---
 
 ## SwapSheet function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'PivotFieldSubtotalType enum. Encapsulates the object that represents pivotfieldsubtotaltype in Go.'
 type: docs
 weight: 200
-url: /go/pivotfieldsubtotaltype/
+url: /go-cpp/pivotfieldsubtotaltype/
 ---
 
 ## PivotFieldSubtotalType Enum

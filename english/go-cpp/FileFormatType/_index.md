@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'FileFormatType enum. Encapsulates the object that represents fileformattype in Go.'
 type: docs
 weight: 200
-url: /go/fileformattype/
+url: /go-cpp/fileformattype/
 ---
 
 ## FileFormatType Enum

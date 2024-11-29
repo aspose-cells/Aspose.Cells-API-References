@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetWindowTopCM method. Encapsulates the function that represents setwindowtopcm in Go.'
 type: docs
 weight: 200
-url: /go/workbooksettings/setwindowtopcm/
+url: /go-cpp/workbooksettings/setwindowtopcm/
 ---
 
 ## SetWindowTopCM function

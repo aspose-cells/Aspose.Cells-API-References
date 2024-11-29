@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ControlListStyle enum. Encapsulates the object that represents controlliststyle in Go.'
 type: docs
 weight: 200
-url: /go/controlliststyle/
+url: /go-cpp/controlliststyle/
 ---
 
 ## ControlListStyle Enum

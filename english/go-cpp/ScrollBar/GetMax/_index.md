@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetMax method. Encapsulates the function that represents getmax in Go.'
 type: docs
 weight: 200
-url: /go/scrollbar/getmax/
+url: /go-cpp/scrollbar/getmax/
 ---
 
 ## GetMax function

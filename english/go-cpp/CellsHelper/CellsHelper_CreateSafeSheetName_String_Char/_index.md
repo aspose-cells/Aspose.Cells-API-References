@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'CellsHelper_CreateSafeSheetName_String_Char method. Encapsulates the function that represents createsafesheetname in Go.'
 type: docs
 weight: 200
-url: /go/cellshelper/cellshelper_createsafesheetname_string_char/
+url: /go-cpp/cellshelper/cellshelper_createsafesheetname_string_char/
 ---
 
 ## CellsHelper_CreateSafeSheetName_String_Char function

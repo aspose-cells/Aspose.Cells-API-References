@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'PivotFieldSortSetting class. Encapsulates the object that represents pivotfieldsortsetting in Go.'
 type: docs
 weight: 200
-url: /go/pivotfieldsortsetting/
+url: /go-cpp/pivotfieldsortsetting/
 ---
 
 ## PivotFieldSortSetting class

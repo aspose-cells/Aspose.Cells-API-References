@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsSelected method. Encapsulates the function that represents isselected in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/isselected/
+url: /go-cpp/pivottable/isselected/
 ---
 
 ## IsSelected function

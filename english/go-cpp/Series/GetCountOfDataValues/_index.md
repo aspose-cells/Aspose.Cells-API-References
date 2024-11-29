@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetCountOfDataValues method. Encapsulates the function that represents getcountofdatavalues in Go.'
 type: docs
 weight: 200
-url: /go/series/getcountofdatavalues/
+url: /go-cpp/series/getcountofdatavalues/
 ---
 
 ## GetCountOfDataValues function

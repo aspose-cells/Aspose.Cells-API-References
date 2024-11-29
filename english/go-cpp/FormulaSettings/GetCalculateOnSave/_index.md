@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetCalculateOnSave method. Encapsulates the function that represents getcalculateonsave in Go.'
 type: docs
 weight: 200
-url: /go/formulasettings/getcalculateonsave/
+url: /go-cpp/formulasettings/getcalculateonsave/
 ---
 
 ## GetCalculateOnSave function

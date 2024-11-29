@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetErrorString method. Encapsulates the function that represents seterrorstring in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/seterrorstring/
+url: /go-cpp/pivottable/seterrorstring/
 ---
 
 ## SetErrorString function

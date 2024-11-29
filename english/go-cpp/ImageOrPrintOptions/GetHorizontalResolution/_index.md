@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetHorizontalResolution method. Encapsulates the function that represents gethorizontalresolution in Go.'
 type: docs
 weight: 200
-url: /go/imageorprintoptions/gethorizontalresolution/
+url: /go-cpp/imageorprintoptions/gethorizontalresolution/
 ---
 
 ## GetHorizontalResolution function

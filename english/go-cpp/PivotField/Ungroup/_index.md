@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Ungroup method. Encapsulates the function that represents ungroup in Go.'
 type: docs
 weight: 200
-url: /go/pivotfield/ungroup/
+url: /go-cpp/pivotfield/ungroup/
 ---
 
 ## Ungroup function

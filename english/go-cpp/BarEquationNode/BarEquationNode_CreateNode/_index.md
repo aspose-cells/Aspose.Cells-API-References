@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'BarEquationNode_CreateNode method. Encapsulates the function that represents createnode in Go.'
 type: docs
 weight: 200
-url: /go/barequationnode/barequationnode_createnode/
+url: /go-cpp/barequationnode/barequationnode_createnode/
 ---
 
 ## BarEquationNode_CreateNode function

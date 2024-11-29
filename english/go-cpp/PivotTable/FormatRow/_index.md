@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'FormatRow method. Encapsulates the function that represents formatrow in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/formatrow/
+url: /go-cpp/pivottable/formatrow/
 ---
 
 ## FormatRow function

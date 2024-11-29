@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'RevisionCellComment constructor. Encapsulates the function that represents newrevisioncellcomment in Go.'
 type: docs
 weight: 200
-url: /go/revisioncellcomment/newrevisioncellcomment/
+url: /go-cpp/revisioncellcomment/newrevisioncellcomment/
 ---
 
 ## NewRevisionCellComment function

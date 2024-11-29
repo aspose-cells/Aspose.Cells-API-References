@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetWebExtension method. Encapsulates the function that represents setwebextension in Go.'
 type: docs
 weight: 200
-url: /go/webextensiontaskpane/setwebextension/
+url: /go-cpp/webextensiontaskpane/setwebextension/
 ---
 
 ## SetWebExtension function

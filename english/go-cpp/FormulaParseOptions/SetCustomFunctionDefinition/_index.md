@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetCustomFunctionDefinition method. Encapsulates the function that represents setcustomfunctiondefinition in Go.'
 type: docs
 weight: 200
-url: /go/formulaparseoptions/setcustomfunctiondefinition/
+url: /go-cpp/formulaparseoptions/setcustomfunctiondefinition/
 ---
 
 ## SetCustomFunctionDefinition function

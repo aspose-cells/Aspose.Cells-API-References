@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetCustomDocumentProperties method. Encapsulates the function that represents getcustomdocumentproperties in Go.'
 type: docs
 weight: 200
-url: /go/workbookmetadata/getcustomdocumentproperties/
+url: /go-cpp/workbookmetadata/getcustomdocumentproperties/
 ---
 
 ## GetCustomDocumentProperties function

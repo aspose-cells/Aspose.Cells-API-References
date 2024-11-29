@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsAutomaticMinValue method. Encapsulates the function that represents isautomaticminvalue in Go.'
 type: docs
 weight: 200
-url: /go/axis/isautomaticminvalue/
+url: /go-cpp/axis/isautomaticminvalue/
 ---
 
 ## IsAutomaticMinValue function

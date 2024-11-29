@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetSSOId method. Encapsulates the function that represents getssoid in Go.'
 type: docs
 weight: 200
-url: /go/externalconnection/getssoid/
+url: /go-cpp/externalconnection/getssoid/
 ---
 
 ## GetSSOId function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetColumnCharacterWidth method. Encapsulates the function that represents getcolumncharacterwidth in Go.'
 type: docs
 weight: 200
-url: /go/copyoptions/getcolumncharacterwidth/
+url: /go-cpp/copyoptions/getcolumncharacterwidth/
 ---
 
 ## GetColumnCharacterWidth function

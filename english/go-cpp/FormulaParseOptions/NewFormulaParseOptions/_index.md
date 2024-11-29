@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'FormulaParseOptions constructor. Encapsulates the function that represents newformulaparseoptions in Go.'
 type: docs
 weight: 200
-url: /go/formulaparseoptions/newformulaparseoptions/
+url: /go-cpp/formulaparseoptions/newformulaparseoptions/
 ---
 
 ## NewFormulaParseOptions function

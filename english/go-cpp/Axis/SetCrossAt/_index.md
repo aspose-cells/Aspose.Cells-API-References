@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetCrossAt method. Encapsulates the function that represents setcrossat in Go.'
 type: docs
 weight: 200
-url: /go/axis/setcrossat/
+url: /go-cpp/axis/setcrossat/
 ---
 
 ## SetCrossAt function

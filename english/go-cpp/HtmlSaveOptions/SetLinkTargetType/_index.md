@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetLinkTargetType method. Encapsulates the function that represents setlinktargettype in Go.'
 type: docs
 weight: 200
-url: /go/htmlsaveoptions/setlinktargettype/
+url: /go-cpp/htmlsaveoptions/setlinktargettype/
 ---
 
 ## SetLinkTargetType function

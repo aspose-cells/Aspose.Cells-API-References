@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'AddCalculatedField_String_String_Bool method. Encapsulates the function that represents addcalculatedfield in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/addcalculatedfield_string_string_bool/
+url: /go-cpp/pivottable/addcalculatedfield_string_string_bool/
 ---
 
 ## AddCalculatedField_String_String_Bool function

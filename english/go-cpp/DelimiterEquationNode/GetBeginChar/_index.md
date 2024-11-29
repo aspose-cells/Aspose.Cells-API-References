@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetBeginChar method. Encapsulates the function that represents getbeginchar in Go.'
 type: docs
 weight: 200
-url: /go/delimiterequationnode/getbeginchar/
+url: /go-cpp/delimiterequationnode/getbeginchar/
 ---
 
 ## GetBeginChar function

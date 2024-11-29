@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'FontSourceBase class. Encapsulates the object that represents fontsourcebase in Go.'
 type: docs
 weight: 200
-url: /go/fontsourcebase/
+url: /go-cpp/fontsourcebase/
 ---
 
 ## FontSourceBase class

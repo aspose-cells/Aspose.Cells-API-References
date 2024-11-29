@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetTopBorder method. Encapsulates the function that represents settopborder in Go.'
 type: docs
 weight: 200
-url: /go/styleflag/settopborder/
+url: /go-cpp/styleflag/settopborder/
 ---
 
 ## SetTopBorder function

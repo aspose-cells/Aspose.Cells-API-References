@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetFilterByFillColor method. Encapsulates the function that represents getfilterbyfillcolor in Go.'
 type: docs
 weight: 200
-url: /go/colorfilter/getfilterbyfillcolor/
+url: /go-cpp/colorfilter/getfilterbyfillcolor/
 ---
 
 ## GetFilterByFillColor function

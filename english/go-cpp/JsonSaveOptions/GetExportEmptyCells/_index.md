@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetExportEmptyCells method. Encapsulates the function that represents getexportemptycells in Go.'
 type: docs
 weight: 200
-url: /go/jsonsaveoptions/getexportemptycells/
+url: /go-cpp/jsonsaveoptions/getexportemptycells/
 ---
 
 ## GetExportEmptyCells function

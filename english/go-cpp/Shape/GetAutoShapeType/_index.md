@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetAutoShapeType method. Encapsulates the function that represents getautoshapetype in Go.'
 type: docs
 weight: 200
-url: /go/shape/getautoshapetype/
+url: /go-cpp/shape/getautoshapetype/
 ---
 
 ## GetAutoShapeType function

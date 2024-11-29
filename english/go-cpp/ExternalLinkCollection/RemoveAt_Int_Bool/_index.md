@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'RemoveAt_Int_Bool method. Encapsulates the function that represents removeat in Go.'
 type: docs
 weight: 200
-url: /go/externallinkcollection/removeat_int_bool/
+url: /go-cpp/externallinkcollection/removeat_int_bool/
 ---
 
 ## RemoveAt_Int_Bool function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'AddLinkToContent method. Encapsulates the function that represents addlinktocontent in Go.'
 type: docs
 weight: 200
-url: /go/customdocumentpropertycollection/addlinktocontent/
+url: /go-cpp/customdocumentpropertycollection/addlinktocontent/
 ---
 
 ## AddLinkToContent function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetShowLastPoint method. Encapsulates the function that represents getshowlastpoint in Go.'
 type: docs
 weight: 200
-url: /go/sparklinegroup/getshowlastpoint/
+url: /go-cpp/sparklinegroup/getshowlastpoint/
 ---
 
 ## GetShowLastPoint function

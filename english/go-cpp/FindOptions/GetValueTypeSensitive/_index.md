@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetValueTypeSensitive method. Encapsulates the function that represents getvaluetypesensitive in Go.'
 type: docs
 weight: 200
-url: /go/findoptions/getvaluetypesensitive/
+url: /go-cpp/findoptions/getvaluetypesensitive/
 ---
 
 ## GetValueTypeSensitive function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ArcShape class. Encapsulates the object that represents arcshape in Go.'
 type: docs
 weight: 200
-url: /go/arcshape/
+url: /go-cpp/arcshape/
 ---
 
 ## ArcShape class

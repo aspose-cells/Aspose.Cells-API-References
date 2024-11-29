@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsAutomaticMajorUnit method. Encapsulates the function that represents setisautomaticmajorunit in Go.'
 type: docs
 weight: 200
-url: /go/axis/setisautomaticmajorunit/
+url: /go-cpp/axis/setisautomaticmajorunit/
 ---
 
 ## SetIsAutomaticMajorUnit function

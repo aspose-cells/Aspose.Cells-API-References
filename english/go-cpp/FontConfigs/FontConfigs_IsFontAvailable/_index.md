@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'FontConfigs_IsFontAvailable method. Encapsulates the function that represents isfontavailable in Go.'
 type: docs
 weight: 200
-url: /go/fontconfigs/fontconfigs_isfontavailable/
+url: /go-cpp/fontconfigs/fontconfigs_isfontavailable/
 ---
 
 ## FontConfigs_IsFontAvailable function

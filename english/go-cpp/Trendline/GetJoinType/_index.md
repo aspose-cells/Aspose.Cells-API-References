@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetJoinType method. Encapsulates the function that represents getjointype in Go.'
 type: docs
 weight: 200
-url: /go/trendline/getjointype/
+url: /go-cpp/trendline/getjointype/
 ---
 
 ## GetJoinType function

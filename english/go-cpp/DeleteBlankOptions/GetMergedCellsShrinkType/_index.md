@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetMergedCellsShrinkType method. Encapsulates the function that represents getmergedcellsshrinktype in Go.'
 type: docs
 weight: 200
-url: /go/deleteblankoptions/getmergedcellsshrinktype/
+url: /go-cpp/deleteblankoptions/getmergedcellsshrinktype/
 ---
 
 ## GetMergedCellsShrinkType function

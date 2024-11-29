@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetWidthInShape method. Encapsulates the function that represents setwidthinshape in Go.'
 type: docs
 weight: 200
-url: /go/oval/setwidthinshape/
+url: /go-cpp/oval/setwidthinshape/
 ---
 
 ## SetWidthInShape function

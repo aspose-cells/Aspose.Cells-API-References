@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'PivotLineType enum. Encapsulates the object that represents pivotlinetype in Go.'
 type: docs
 weight: 200
-url: /go/pivotlinetype/
+url: /go-cpp/pivotlinetype/
 ---
 
 ## PivotLineType Enum

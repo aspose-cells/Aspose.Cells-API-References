@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Equals method. Encapsulates the function that represents equals in Go.'
 type: docs
 weight: 200
-url: /go/delimiterequationnode/equals/
+url: /go-cpp/delimiterequationnode/equals/
 ---
 
 ## Equals function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'OdsLoadOptions class. Encapsulates the object that represents odsloadoptions in Go.'
 type: docs
 weight: 200
-url: /go/odsloadoptions/
+url: /go-cpp/odsloadoptions/
 ---
 
 ## OdsLoadOptions class

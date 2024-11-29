@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetChrType method. Encapsulates the function that represents setchrtype in Go.'
 type: docs
 weight: 200
-url: /go/groupcharacterequationnode/setchrtype/
+url: /go-cpp/groupcharacterequationnode/setchrtype/
 ---
 
 ## SetChrType function

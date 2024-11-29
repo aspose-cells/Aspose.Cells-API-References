@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'PutValue_Double method. Encapsulates the function that represents putvalue in Go.'
 type: docs
 weight: 200
-url: /go/cell/putvalue_double/
+url: /go-cpp/cell/putvalue_double/
 ---
 
 ## PutValue_Double function

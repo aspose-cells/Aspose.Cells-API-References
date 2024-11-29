@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetMaxRowCount method. Encapsulates the function that represents getmaxrowcount in Go.'
 type: docs
 weight: 200
-url: /go/txtloadoptions/getmaxrowcount/
+url: /go-cpp/txtloadoptions/getmaxrowcount/
 ---
 
 ## GetMaxRowCount function

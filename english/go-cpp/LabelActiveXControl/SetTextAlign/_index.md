@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetTextAlign method. Encapsulates the function that represents settextalign in Go.'
 type: docs
 weight: 200
-url: /go/labelactivexcontrol/settextalign/
+url: /go-cpp/labelactivexcontrol/settextalign/
 ---
 
 ## SetTextAlign function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetRegion method. Encapsulates the function that represents getregion in Go.'
 type: docs
 weight: 200
-url: /go/numbersloadoptions/getregion/
+url: /go-cpp/numbersloadoptions/getregion/
 ---
 
 ## GetRegion function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsJsBrowserCompatible method. Encapsulates the function that represents setisjsbrowsercompatible in Go.'
 type: docs
 weight: 200
-url: /go/ebooksaveoptions/setisjsbrowsercompatible/
+url: /go-cpp/ebooksaveoptions/setisjsbrowsercompatible/
 ---
 
 ## SetIsJsBrowserCompatible function

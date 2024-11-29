@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'MatrixEquationNode class. Encapsulates the object that represents matrixequationnode in Go.'
 type: docs
 weight: 200
-url: /go/matrixequationnode/
+url: /go-cpp/matrixequationnode/
 ---
 
 ## MatrixEquationNode class

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetCustom_String method. Encapsulates the function that represents setcustom in Go.'
 type: docs
 weight: 200
-url: /go/style/setcustom_string/
+url: /go-cpp/style/setcustom_string/
 ---
 
 ## SetCustom_String function

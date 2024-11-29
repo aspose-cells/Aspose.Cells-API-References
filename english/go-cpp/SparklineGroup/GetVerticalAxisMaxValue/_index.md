@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetVerticalAxisMaxValue method. Encapsulates the function that represents getverticalaxismaxvalue in Go.'
 type: docs
 weight: 200
-url: /go/sparklinegroup/getverticalaxismaxvalue/
+url: /go-cpp/sparklinegroup/getverticalaxismaxvalue/
 ---
 
 ## GetVerticalAxisMaxValue function

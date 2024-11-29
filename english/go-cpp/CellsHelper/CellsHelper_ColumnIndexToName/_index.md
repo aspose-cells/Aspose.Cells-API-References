@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'CellsHelper_ColumnIndexToName method. Encapsulates the function that represents columnindextoname in Go.'
 type: docs
 weight: 200
-url: /go/cellshelper/cellshelper_columnindextoname/
+url: /go-cpp/cellshelper/cellshelper_columnindextoname/
 ---
 
 ## CellsHelper_ColumnIndexToName function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetBackgroundThemeColor method. Encapsulates the function that represents getbackgroundthemecolor in Go.'
 type: docs
 weight: 200
-url: /go/style/getbackgroundthemecolor/
+url: /go-cpp/style/getbackgroundthemecolor/
 ---
 
 ## GetBackgroundThemeColor function

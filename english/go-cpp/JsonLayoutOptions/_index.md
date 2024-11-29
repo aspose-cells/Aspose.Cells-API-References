@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'JsonLayoutOptions class. Encapsulates the object that represents jsonlayoutoptions in Go.'
 type: docs
 weight: 200
-url: /go/jsonlayoutoptions/
+url: /go-cpp/jsonlayoutoptions/
 ---
 
 ## JsonLayoutOptions class

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetPrintHeadings method. Encapsulates the function that represents getprintheadings in Go.'
 type: docs
 weight: 200
-url: /go/pagesetup/getprintheadings/
+url: /go-cpp/pagesetup/getprintheadings/
 ---
 
 ## GetPrintHeadings function

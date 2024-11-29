@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetDefaultHeight method. Encapsulates the function that represents getdefaultheight in Go.'
 type: docs
 weight: 200
-url: /go/chartarea/getdefaultheight/
+url: /go-cpp/chartarea/getdefaultheight/
 ---
 
 ## GetDefaultHeight function

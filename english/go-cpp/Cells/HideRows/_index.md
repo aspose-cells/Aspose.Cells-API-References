@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'HideRows method. Encapsulates the function that represents hiderows in Go.'
 type: docs
 weight: 200
-url: /go/cells/hiderows/
+url: /go-cpp/cells/hiderows/
 ---
 
 ## HideRows function

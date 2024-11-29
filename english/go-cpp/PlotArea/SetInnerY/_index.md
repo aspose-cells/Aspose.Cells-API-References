@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetInnerY method. Encapsulates the function that represents setinnery in Go.'
 type: docs
 weight: 200
-url: /go/plotarea/setinnery/
+url: /go-cpp/plotarea/setinnery/
 ---
 
 ## SetInnerY function

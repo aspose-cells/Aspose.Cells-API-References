@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetFontEncoding method. Encapsulates the function that represents setfontencoding in Go.'
 type: docs
 weight: 200
-url: /go/pdfsaveoptions/setfontencoding/
+url: /go-cpp/pdfsaveoptions/setfontencoding/
 ---
 
 ## SetFontEncoding function

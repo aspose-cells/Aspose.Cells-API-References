@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetCreateDirectory method. Encapsulates the function that represents getcreatedirectory in Go.'
 type: docs
 weight: 200
-url: /go/sqlscriptsaveoptions/getcreatedirectory/
+url: /go-cpp/sqlscriptsaveoptions/getcreatedirectory/
 ---
 
 ## GetCreateDirectory function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ControlType enum. Encapsulates the object that represents controltype in Go.'
 type: docs
 weight: 200
-url: /go/controltype/
+url: /go-cpp/controltype/
 ---
 
 ## ControlType Enum

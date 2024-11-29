@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IndividualFontConfigs class. Encapsulates the object that represents individualfontconfigs in Go.'
 type: docs
 weight: 200
-url: /go/individualfontconfigs/
+url: /go-cpp/individualfontconfigs/
 ---
 
 ## IndividualFontConfigs class

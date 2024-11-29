@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Trendline class. Encapsulates the object that represents trendline in Go.'
 type: docs
 weight: 200
-url: /go/trendline/
+url: /go-cpp/trendline/
 ---
 
 ## Trendline class

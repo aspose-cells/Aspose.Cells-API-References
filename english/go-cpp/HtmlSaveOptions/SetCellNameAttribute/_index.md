@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetCellNameAttribute method. Encapsulates the function that represents setcellnameattribute in Go.'
 type: docs
 weight: 200
-url: /go/htmlsaveoptions/setcellnameattribute/
+url: /go-cpp/htmlsaveoptions/setcellnameattribute/
 ---
 
 ## SetCellNameAttribute function

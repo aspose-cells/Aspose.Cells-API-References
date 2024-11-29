@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetWindowLeftInch method. Encapsulates the function that represents getwindowleftinch in Go.'
 type: docs
 weight: 200
-url: /go/workbooksettings/getwindowleftinch/
+url: /go-cpp/workbooksettings/getwindowleftinch/
 ---
 
 ## GetWindowLeftInch function

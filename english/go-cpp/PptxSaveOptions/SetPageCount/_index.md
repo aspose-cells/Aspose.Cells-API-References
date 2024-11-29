@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetPageCount method. Encapsulates the function that represents setpagecount in Go.'
 type: docs
 weight: 200
-url: /go/pptxsaveoptions/setpagecount/
+url: /go-cpp/pptxsaveoptions/setpagecount/
 ---
 
 ## SetPageCount function

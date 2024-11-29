@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIgnoreLinksToOriginalFile method. Encapsulates the function that represents setignorelinkstooriginalfile in Go.'
 type: docs
 weight: 200
-url: /go/pasteoptions/setignorelinkstooriginalfile/
+url: /go-cpp/pasteoptions/setignorelinkstooriginalfile/
 ---
 
 ## SetIgnoreLinksToOriginalFile function

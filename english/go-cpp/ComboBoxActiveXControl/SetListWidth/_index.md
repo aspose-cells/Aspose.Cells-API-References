@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetListWidth method. Encapsulates the function that represents setlistwidth in Go.'
 type: docs
 weight: 200
-url: /go/comboboxactivexcontrol/setlistwidth/
+url: /go-cpp/comboboxactivexcontrol/setlistwidth/
 ---
 
 ## SetListWidth function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetPivotTableStyleType method. Encapsulates the function that represents setpivottablestyletype in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/setpivottablestyletype/
+url: /go-cpp/pivottable/setpivottablestyletype/
 ---
 
 ## SetPivotTableStyleType function

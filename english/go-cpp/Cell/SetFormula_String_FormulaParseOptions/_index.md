@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetFormula_String_FormulaParseOptions method. Encapsulates the function that represents setformula in Go.'
 type: docs
 weight: 200
-url: /go/cell/setformula_string_formulaparseoptions/
+url: /go-cpp/cell/setformula_string_formulaparseoptions/
 ---
 
 ## SetFormula_String_FormulaParseOptions function

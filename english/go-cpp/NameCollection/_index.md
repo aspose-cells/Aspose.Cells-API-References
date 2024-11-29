@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'NameCollection class. Encapsulates the object that represents namecollection in Go.'
 type: docs
 weight: 200
-url: /go/namecollection/
+url: /go-cpp/namecollection/
 ---
 
 ## NameCollection class

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetTextOfTotal method. Encapsulates the function that represents settextoftotal in Go.'
 type: docs
 weight: 200
-url: /go/settablepivotglobalizationsettings/settextoftotal/
+url: /go-cpp/settablepivotglobalizationsettings/settextoftotal/
 ---
 
 ## SetTextOfTotal function

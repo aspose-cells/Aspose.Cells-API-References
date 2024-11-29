@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsWordWrapped method. Encapsulates the function that represents iswordwrapped in Go.'
 type: docs
 weight: 200
-url: /go/labelactivexcontrol/iswordwrapped/
+url: /go-cpp/labelactivexcontrol/iswordwrapped/
 ---
 
 ## IsWordWrapped function

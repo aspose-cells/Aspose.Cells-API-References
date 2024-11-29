@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'PivotTableFormatCollection class. Encapsulates the object that represents pivottableformatcollection in Go.'
 type: docs
 weight: 200
-url: /go/pivottableformatcollection/
+url: /go-cpp/pivottableformatcollection/
 ---
 
 ## PivotTableFormatCollection class

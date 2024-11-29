@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ClearContents_Int_Int_Int_Int method. Encapsulates the function that represents clearcontents in Go.'
 type: docs
 weight: 200
-url: /go/cells/clearcontents_int_int_int_int/
+url: /go-cpp/cells/clearcontents_int_int_int_int/
 ---
 
 ## ClearContents_Int_Int_Int_Int function

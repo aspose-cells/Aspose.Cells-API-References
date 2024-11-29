@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Interrupt method. Encapsulates the function that represents interrupt in Go.'
 type: docs
 weight: 200
-url: /go/interruptmonitor/interrupt/
+url: /go-cpp/interruptmonitor/interrupt/
 ---
 
 ## Interrupt function

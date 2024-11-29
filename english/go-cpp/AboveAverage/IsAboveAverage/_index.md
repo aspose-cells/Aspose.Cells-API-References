@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsAboveAverage method. Encapsulates the function that represents isaboveaverage in Go.'
 type: docs
 weight: 200
-url: /go/aboveaverage/isaboveaverage/
+url: /go-cpp/aboveaverage/isaboveaverage/
 ---
 
 ## IsAboveAverage function

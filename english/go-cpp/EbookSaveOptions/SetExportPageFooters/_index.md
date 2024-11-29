@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetExportPageFooters method. Encapsulates the function that represents setexportpagefooters in Go.'
 type: docs
 weight: 200
-url: /go/ebooksaveoptions/setexportpagefooters/
+url: /go-cpp/ebooksaveoptions/setexportpagefooters/
 ---
 
 ## SetExportPageFooters function

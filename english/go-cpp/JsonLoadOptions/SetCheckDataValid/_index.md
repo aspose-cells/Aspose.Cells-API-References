@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetCheckDataValid method. Encapsulates the function that represents setcheckdatavalid in Go.'
 type: docs
 weight: 200
-url: /go/jsonloadoptions/setcheckdatavalid/
+url: /go-cpp/jsonloadoptions/setcheckdatavalid/
 ---
 
 ## SetCheckDataValid function

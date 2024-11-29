@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetUpdateSmartArt method. Encapsulates the function that represents setupdatesmartart in Go.'
 type: docs
 weight: 200
-url: /go/markdownsaveoptions/setupdatesmartart/
+url: /go-cpp/markdownsaveoptions/setupdatesmartart/
 ---
 
 ## SetUpdateSmartArt function

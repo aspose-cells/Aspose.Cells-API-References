@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'OoxmlCompressionType enum. Encapsulates the object that represents ooxmlcompressiontype in Go.'
 type: docs
 weight: 200
-url: /go/ooxmlcompressiontype/
+url: /go-cpp/ooxmlcompressiontype/
 ---
 
 ## OoxmlCompressionType Enum

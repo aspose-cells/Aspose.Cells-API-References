@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetUpdateLinksType method. Encapsulates the function that represents setupdatelinkstype in Go.'
 type: docs
 weight: 200
-url: /go/workbooksettings/setupdatelinkstype/
+url: /go-cpp/workbooksettings/setupdatelinkstype/
 ---
 
 ## SetUpdateLinksType function

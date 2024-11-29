@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'PivotConditionFormatRuleType enum. Encapsulates the object that represents pivotconditionformatruletype in Go.'
 type: docs
 weight: 200
-url: /go/pivotconditionformatruletype/
+url: /go-cpp/pivotconditionformatruletype/
 ---
 
 ## PivotConditionFormatRuleType Enum

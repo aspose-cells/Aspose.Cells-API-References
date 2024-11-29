@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTableLoadOptions method. Encapsulates the function that represents gettableloadoptions in Go.'
 type: docs
 weight: 200
-url: /go/ebookloadoptions/gettableloadoptions/
+url: /go-cpp/ebookloadoptions/gettableloadoptions/
 ---
 
 ## GetTableLoadOptions function

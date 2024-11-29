@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetDisplayNullString method. Encapsulates the function that represents getdisplaynullstring in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/getdisplaynullstring/
+url: /go-cpp/pivottable/getdisplaynullstring/
 ---
 
 ## GetDisplayNullString function

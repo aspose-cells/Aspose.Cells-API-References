@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetFooterMarginInch method. Encapsulates the function that represents getfootermargininch in Go.'
 type: docs
 weight: 200
-url: /go/pagesetup/getfootermargininch/
+url: /go-cpp/pagesetup/getfootermargininch/
 ---
 
 ## GetFooterMarginInch function

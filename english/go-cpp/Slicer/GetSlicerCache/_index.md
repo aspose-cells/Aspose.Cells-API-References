@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetSlicerCache method. Encapsulates the function that represents getslicercache in Go.'
 type: docs
 weight: 200
-url: /go/slicer/getslicercache/
+url: /go-cpp/slicer/getslicercache/
 ---
 
 ## GetSlicerCache function

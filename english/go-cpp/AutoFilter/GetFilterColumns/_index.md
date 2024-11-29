@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetFilterColumns method. Encapsulates the function that represents getfiltercolumns in Go.'
 type: docs
 weight: 200
-url: /go/autofilter/getfiltercolumns/
+url: /go-cpp/autofilter/getfiltercolumns/
 ---
 
 ## GetFilterColumns function

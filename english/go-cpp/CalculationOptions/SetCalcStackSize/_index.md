@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetCalcStackSize method. Encapsulates the function that represents setcalcstacksize in Go.'
 type: docs
 weight: 200
-url: /go/calculationoptions/setcalcstacksize/
+url: /go-cpp/calculationoptions/setcalcstacksize/
 ---
 
 ## SetCalcStackSize function

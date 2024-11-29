@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetCalculationMode method. Encapsulates the function that represents setcalculationmode in Go.'
 type: docs
 weight: 200
-url: /go/formulasettings/setcalculationmode/
+url: /go-cpp/formulasettings/setcalculationmode/
 ---
 
 ## SetCalculationMode function

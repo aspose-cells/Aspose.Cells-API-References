@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetHorizontalAxisDateRange method. Encapsulates the function that represents gethorizontalaxisdaterange in Go.'
 type: docs
 weight: 200
-url: /go/sparklinegroup/gethorizontalaxisdaterange/
+url: /go-cpp/sparklinegroup/gethorizontalaxisdaterange/
 ---
 
 ## GetHorizontalAxisDateRange function

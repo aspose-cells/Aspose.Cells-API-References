@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetAddBlankLineBetweenRows method. Encapsulates the function that represents getaddblanklinebetweenrows in Go.'
 type: docs
 weight: 200
-url: /go/sqlscriptsaveoptions/getaddblanklinebetweenrows/
+url: /go-cpp/sqlscriptsaveoptions/getaddblanklinebetweenrows/
 ---
 
 ## GetAddBlankLineBetweenRows function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetLeftMargin method. Encapsulates the function that represents getleftmargin in Go.'
 type: docs
 weight: 200
-url: /go/pagesetup/getleftmargin/
+url: /go-cpp/pagesetup/getleftmargin/
 ---
 
 ## GetLeftMargin function

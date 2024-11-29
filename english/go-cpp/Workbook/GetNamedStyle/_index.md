@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetNamedStyle method. Encapsulates the function that represents getnamedstyle in Go.'
 type: docs
 weight: 200
-url: /go/workbook/getnamedstyle/
+url: /go-cpp/workbook/getnamedstyle/
 ---
 
 ## GetNamedStyle function

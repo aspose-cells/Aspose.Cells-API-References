@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'PowerQueryFormulaItem class. Encapsulates the object that represents powerqueryformulaitem in Go.'
 type: docs
 weight: 200
-url: /go/powerqueryformulaitem/
+url: /go-cpp/powerqueryformulaitem/
 ---
 
 ## PowerQueryFormulaItem class

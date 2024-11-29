@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetErrorTitle method. Encapsulates the function that represents geterrortitle in Go.'
 type: docs
 weight: 200
-url: /go/validation/geterrortitle/
+url: /go-cpp/validation/geterrortitle/
 ---
 
 ## GetErrorTitle function

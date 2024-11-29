@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetPowerQueryFormulas method. Encapsulates the function that represents getpowerqueryformulas in Go.'
 type: docs
 weight: 200
-url: /go/datamashup/getpowerqueryformulas/
+url: /go-cpp/datamashup/getpowerqueryformulas/
 ---
 
 ## GetPowerQueryFormulas function

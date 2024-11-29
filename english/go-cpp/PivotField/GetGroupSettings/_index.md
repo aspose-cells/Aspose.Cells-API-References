@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetGroupSettings method. Encapsulates the function that represents getgroupsettings in Go.'
 type: docs
 weight: 200
-url: /go/pivotfield/getgroupsettings/
+url: /go-cpp/pivotfield/getgroupsettings/
 ---
 
 ## GetGroupSettings function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetShowInput method. Encapsulates the function that represents getshowinput in Go.'
 type: docs
 weight: 200
-url: /go/validation/getshowinput/
+url: /go-cpp/validation/getshowinput/
 ---
 
 ## GetShowInput function

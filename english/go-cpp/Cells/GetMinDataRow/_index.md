@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetMinDataRow method. Encapsulates the function that represents getmindatarow in Go.'
 type: docs
 weight: 200
-url: /go/cells/getmindatarow/
+url: /go-cpp/cells/getmindatarow/
 ---
 
 ## GetMinDataRow function

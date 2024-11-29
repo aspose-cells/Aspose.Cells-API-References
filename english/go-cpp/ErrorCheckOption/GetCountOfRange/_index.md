@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetCountOfRange method. Encapsulates the function that represents getcountofrange in Go.'
 type: docs
 weight: 200
-url: /go/errorcheckoption/getcountofrange/
+url: /go-cpp/errorcheckoption/getcountofrange/
 ---
 
 ## GetCountOfRange function

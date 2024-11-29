@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetPresetStyle method. Encapsulates the function that represents getpresetstyle in Go.'
 type: docs
 weight: 200
-url: /go/sparklinegroup/getpresetstyle/
+url: /go-cpp/sparklinegroup/getpresetstyle/
 ---
 
 ## GetPresetStyle function

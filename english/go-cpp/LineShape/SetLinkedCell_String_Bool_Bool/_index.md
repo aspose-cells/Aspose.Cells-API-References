@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetLinkedCell_String_Bool_Bool method. Encapsulates the function that represents setlinkedcell in Go.'
 type: docs
 weight: 200
-url: /go/lineshape/setlinkedcell_string_bool_bool/
+url: /go-cpp/lineshape/setlinkedcell_string_bool_bool/
 ---
 
 ## SetLinkedCell_String_Bool_Bool function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTableRange1 method. Encapsulates the function that represents gettablerange1 in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/gettablerange1/
+url: /go-cpp/pivottable/gettablerange1/
 ---
 
 ## GetTableRange1 function

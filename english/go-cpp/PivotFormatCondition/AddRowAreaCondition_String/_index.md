@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'AddRowAreaCondition_String method. Encapsulates the function that represents addrowareacondition in Go.'
 type: docs
 weight: 200
-url: /go/pivotformatcondition/addrowareacondition_string/
+url: /go-cpp/pivotformatcondition/addrowareacondition_string/
 ---
 
 ## AddRowAreaCondition_String function

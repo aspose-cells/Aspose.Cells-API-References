@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetCharset method. Encapsulates the function that represents setcharset in Go.'
 type: docs
 weight: 200
-url: /go/font/setcharset/
+url: /go-cpp/font/setcharset/
 ---
 
 ## SetCharset function

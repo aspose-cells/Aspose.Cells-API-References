@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Font class. Encapsulates the object that represents font in Go.'
 type: docs
 weight: 200
-url: /go/font/
+url: /go-cpp/font/
 ---
 
 ## Font class

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetDaysPreservingHistory method. Encapsulates the function that represents getdayspreservinghistory in Go.'
 type: docs
 weight: 200
-url: /go/revisionlogcollection/getdayspreservinghistory/
+url: /go-cpp/revisionlogcollection/getdayspreservinghistory/
 ---
 
 ## GetDaysPreservingHistory function

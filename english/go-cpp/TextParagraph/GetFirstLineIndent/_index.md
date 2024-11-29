@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetFirstLineIndent method. Encapsulates the function that represents getfirstlineindent in Go.'
 type: docs
 weight: 200
-url: /go/textparagraph/getfirstlineindent/
+url: /go-cpp/textparagraph/getfirstlineindent/
 ---
 
 ## GetFirstLineIndent function

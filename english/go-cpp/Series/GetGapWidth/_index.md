@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetGapWidth method. Encapsulates the function that represents getgapwidth in Go.'
 type: docs
 weight: 200
-url: /go/series/getgapwidth/
+url: /go-cpp/series/getgapwidth/
 ---
 
 ## GetGapWidth function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'TextAlignmentType enum. Encapsulates the object that represents textalignmenttype in Go.'
 type: docs
 weight: 200
-url: /go/textalignmenttype/
+url: /go-cpp/textalignmenttype/
 ---
 
 ## TextAlignmentType Enum

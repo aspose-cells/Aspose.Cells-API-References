@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetVariant method. Encapsulates the function that represents setvariant in Go.'
 type: docs
 weight: 200
-url: /go/twocolorgradient/setvariant/
+url: /go-cpp/twocolorgradient/setvariant/
 ---
 
 ## SetVariant function

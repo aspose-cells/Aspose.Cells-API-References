@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ChartMarkerType enum. Encapsulates the object that represents chartmarkertype in Go.'
 type: docs
 weight: 200
-url: /go/chartmarkertype/
+url: /go-cpp/chartmarkertype/
 ---
 
 ## ChartMarkerType Enum

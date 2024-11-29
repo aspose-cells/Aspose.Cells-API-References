@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetInvertIfNegative method. Encapsulates the function that represents setinvertifnegative in Go.'
 type: docs
 weight: 200
-url: /go/area/setinvertifnegative/
+url: /go-cpp/area/setinvertifnegative/
 ---
 
 ## SetInvertIfNegative function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'FillFormat class. Encapsulates the object that represents fillformat in Go.'
 type: docs
 weight: 200
-url: /go/fillformat/
+url: /go-cpp/fillformat/
 ---
 
 ## FillFormat class

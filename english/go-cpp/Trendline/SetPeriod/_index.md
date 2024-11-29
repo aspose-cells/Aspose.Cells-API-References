@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetPeriod method. Encapsulates the function that represents setperiod in Go.'
 type: docs
 weight: 200
-url: /go/trendline/setperiod/
+url: /go-cpp/trendline/setperiod/
 ---
 
 ## SetPeriod function

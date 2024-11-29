@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetXmlMaps method. Encapsulates the function that represents setxmlmaps in Go.'
 type: docs
 weight: 200
-url: /go/worksheetcollection/setxmlmaps/
+url: /go-cpp/worksheetcollection/setxmlmaps/
 ---
 
 ## SetXmlMaps function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsChartDataChanged method. Encapsulates the function that represents ischartdatachanged in Go.'
 type: docs
 weight: 200
-url: /go/chart/ischartdatachanged/
+url: /go-cpp/chart/ischartdatachanged/
 ---
 
 ## IsChartDataChanged function

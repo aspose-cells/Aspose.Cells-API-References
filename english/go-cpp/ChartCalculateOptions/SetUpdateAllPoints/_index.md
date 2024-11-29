@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetUpdateAllPoints method. Encapsulates the function that represents setupdateallpoints in Go.'
 type: docs
 weight: 200
-url: /go/chartcalculateoptions/setupdateallpoints/
+url: /go-cpp/chartcalculateoptions/setupdateallpoints/
 ---
 
 ## SetUpdateAllPoints function

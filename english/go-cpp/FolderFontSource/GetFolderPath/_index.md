@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetFolderPath method. Encapsulates the function that represents getfolderpath in Go.'
 type: docs
 weight: 200
-url: /go/folderfontsource/getfolderpath/
+url: /go-cpp/folderfontsource/getfolderpath/
 ---
 
 ## GetFolderPath function

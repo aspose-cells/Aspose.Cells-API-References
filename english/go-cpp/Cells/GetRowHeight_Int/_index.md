@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetRowHeight_Int method. Encapsulates the function that represents getrowheight in Go.'
 type: docs
 weight: 200
-url: /go/cells/getrowheight_int/
+url: /go-cpp/cells/getrowheight_int/
 ---
 
 ## GetRowHeight_Int function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Clear method. Encapsulates the function that represents clear in Go.'
 type: docs
 weight: 200
-url: /go/chartpointcollection/clear/
+url: /go-cpp/chartpointcollection/clear/
 ---
 
 ## Clear function

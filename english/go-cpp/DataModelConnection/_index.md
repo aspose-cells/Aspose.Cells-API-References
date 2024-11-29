@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'DataModelConnection class. Encapsulates the object that represents datamodelconnection in Go.'
 type: docs
 weight: 200
-url: /go/datamodelconnection/
+url: /go-cpp/datamodelconnection/
 ---
 
 ## DataModelConnection class

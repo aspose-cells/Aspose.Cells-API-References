@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetParentNode method. Encapsulates the function that represents getparentnode in Go.'
 type: docs
 weight: 200
-url: /go/arrayequationnode/getparentnode/
+url: /go-cpp/arrayequationnode/getparentnode/
 ---
 
 ## GetParentNode function

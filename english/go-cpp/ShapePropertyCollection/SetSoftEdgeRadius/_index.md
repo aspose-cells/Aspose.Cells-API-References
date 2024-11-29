@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetSoftEdgeRadius method. Encapsulates the function that represents setsoftedgeradius in Go.'
 type: docs
 weight: 200
-url: /go/shapepropertycollection/setsoftedgeradius/
+url: /go-cpp/shapepropertycollection/setsoftedgeradius/
 ---
 
 ## SetSoftEdgeRadius function

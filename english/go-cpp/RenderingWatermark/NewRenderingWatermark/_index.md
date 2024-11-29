@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'RenderingWatermark constructor. Encapsulates the function that represents newrenderingwatermark in Go.'
 type: docs
 weight: 200
-url: /go/renderingwatermark/newrenderingwatermark/
+url: /go-cpp/renderingwatermark/newrenderingwatermark/
 ---
 
 ## NewRenderingWatermark function

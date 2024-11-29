@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetYValue method. Encapsulates the function that represents setyvalue in Go.'
 type: docs
 weight: 200
-url: /go/chartpoint/setyvalue/
+url: /go-cpp/chartpoint/setyvalue/
 ---
 
 ## SetYValue function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'TwoColorGradient constructor. Encapsulates the function that represents newtwocolorgradient in Go.'
 type: docs
 weight: 200
-url: /go/twocolorgradient/newtwocolorgradient/
+url: /go-cpp/twocolorgradient/newtwocolorgradient/
 ---
 
 ## NewTwoColorGradient function

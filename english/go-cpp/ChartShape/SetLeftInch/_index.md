@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetLeftInch method. Encapsulates the function that represents setleftinch in Go.'
 type: docs
 weight: 200
-url: /go/chartshape/setleftinch/
+url: /go-cpp/chartshape/setleftinch/
 ---
 
 ## SetLeftInch function

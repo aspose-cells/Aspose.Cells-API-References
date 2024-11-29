@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetLanguageCode method. Encapsulates the function that represents setlanguagecode in Go.'
 type: docs
 weight: 200
-url: /go/odsloadoptions/setlanguagecode/
+url: /go-cpp/odsloadoptions/setlanguagecode/
 ---
 
 ## SetLanguageCode function

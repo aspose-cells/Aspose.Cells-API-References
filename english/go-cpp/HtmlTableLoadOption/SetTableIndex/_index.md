@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetTableIndex method. Encapsulates the function that represents settableindex in Go.'
 type: docs
 weight: 200
-url: /go/htmltableloadoption/settableindex/
+url: /go-cpp/htmltableloadoption/settableindex/
 ---
 
 ## SetTableIndex function

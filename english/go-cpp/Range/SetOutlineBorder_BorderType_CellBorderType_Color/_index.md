@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetOutlineBorder_BorderType_CellBorderType_Color method. Encapsulates the function that represents setoutlineborder in Go.'
 type: docs
 weight: 200
-url: /go/range/setoutlineborder_bordertype_cellbordertype_color/
+url: /go-cpp/range/setoutlineborder_bordertype_cellbordertype_color/
 ---
 
 ## SetOutlineBorder_BorderType_CellBorderType_Color function

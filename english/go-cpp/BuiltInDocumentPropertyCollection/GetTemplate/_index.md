@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTemplate method. Encapsulates the function that represents gettemplate in Go.'
 type: docs
 weight: 200
-url: /go/builtindocumentpropertycollection/gettemplate/
+url: /go-cpp/builtindocumentpropertycollection/gettemplate/
 ---
 
 ## GetTemplate function

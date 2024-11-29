@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetOutline method. Encapsulates the function that represents getoutline in Go.'
 type: docs
 weight: 200
-url: /go/textoptions/getoutline/
+url: /go-cpp/textoptions/getoutline/
 ---
 
 ## GetOutline function

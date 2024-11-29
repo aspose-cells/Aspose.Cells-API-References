@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'AutoFitColumns_AutoFitterOptions method. Encapsulates the function that represents autofitcolumns in Go.'
 type: docs
 weight: 200
-url: /go/worksheet/autofitcolumns_autofitteroptions/
+url: /go-cpp/worksheet/autofitcolumns_autofitteroptions/
 ---
 
 ## AutoFitColumns_AutoFitterOptions function

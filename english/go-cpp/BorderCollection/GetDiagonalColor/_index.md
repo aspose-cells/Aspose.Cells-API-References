@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetDiagonalColor method. Encapsulates the function that represents getdiagonalcolor in Go.'
 type: docs
 weight: 200
-url: /go/bordercollection/getdiagonalcolor/
+url: /go-cpp/bordercollection/getdiagonalcolor/
 ---
 
 ## GetDiagonalColor function

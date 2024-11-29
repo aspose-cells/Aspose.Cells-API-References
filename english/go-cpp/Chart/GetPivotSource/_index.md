@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetPivotSource method. Encapsulates the function that represents getpivotsource in Go.'
 type: docs
 weight: 200
-url: /go/chart/getpivotsource/
+url: /go-cpp/chart/getpivotsource/
 ---
 
 ## GetPivotSource function

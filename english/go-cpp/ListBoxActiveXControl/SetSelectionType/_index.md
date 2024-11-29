@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetSelectionType method. Encapsulates the function that represents setselectiontype in Go.'
 type: docs
 weight: 200
-url: /go/listboxactivexcontrol/setselectiontype/
+url: /go-cpp/listboxactivexcontrol/setselectiontype/
 ---
 
 ## SetSelectionType function

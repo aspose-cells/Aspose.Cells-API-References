@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Format_PivotArea_Style method. Encapsulates the function that represents format in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/format_pivotarea_style/
+url: /go-cpp/pivottable/format_pivotarea_style/
 ---
 
 ## Format_PivotArea_Style function

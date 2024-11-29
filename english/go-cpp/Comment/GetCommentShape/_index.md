@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetCommentShape method. Encapsulates the function that represents getcommentshape in Go.'
 type: docs
 weight: 200
-url: /go/comment/getcommentshape/
+url: /go-cpp/comment/getcommentshape/
 ---
 
 ## GetCommentShape function

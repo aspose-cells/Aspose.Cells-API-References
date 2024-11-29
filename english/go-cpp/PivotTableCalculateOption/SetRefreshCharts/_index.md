@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetRefreshCharts method. Encapsulates the function that represents setrefreshcharts in Go.'
 type: docs
 weight: 200
-url: /go/pivottablecalculateoption/setrefreshcharts/
+url: /go-cpp/pivottablecalculateoption/setrefreshcharts/
 ---
 
 ## SetRefreshCharts function

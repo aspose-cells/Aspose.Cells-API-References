@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetKeepAlive method. Encapsulates the function that represents getkeepalive in Go.'
 type: docs
 weight: 200
-url: /go/datamodelconnection/getkeepalive/
+url: /go-cpp/datamodelconnection/getkeepalive/
 ---
 
 ## GetKeepAlive function

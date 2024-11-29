@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'CellsColor class. Encapsulates the object that represents cellscolor in Go.'
 type: docs
 weight: 200
-url: /go/cellscolor/
+url: /go-cpp/cellscolor/
 ---
 
 ## CellsColor class

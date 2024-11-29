@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetHour method. Encapsulates the function that represents gethour in Go.'
 type: docs
 weight: 200
-url: /go/datetimegroupitem/gethour/
+url: /go-cpp/datetimegroupitem/gethour/
 ---
 
 ## GetHour function

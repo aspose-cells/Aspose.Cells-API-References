@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetDisableDownlevelRevealedComments method. Encapsulates the function that represents getdisabledownlevelrevealedcomments in Go.'
 type: docs
 weight: 200
-url: /go/ebooksaveoptions/getdisabledownlevelrevealedcomments/
+url: /go-cpp/ebooksaveoptions/getdisabledownlevelrevealedcomments/
 ---
 
 ## GetDisableDownlevelRevealedComments function

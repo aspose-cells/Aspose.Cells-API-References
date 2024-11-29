@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetCopyFormatType method. Encapsulates the function that represents setcopyformattype in Go.'
 type: docs
 weight: 200
-url: /go/insertoptions/setcopyformattype/
+url: /go-cpp/insertoptions/setcopyformattype/
 ---
 
 ## SetCopyFormatType function

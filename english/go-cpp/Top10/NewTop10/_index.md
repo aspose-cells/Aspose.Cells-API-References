@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Top10 constructor. Encapsulates the function that represents newtop10 in Go.'
 type: docs
 weight: 200
-url: /go/top10/newtop10/
+url: /go-cpp/top10/newtop10/
 ---
 
 ## NewTop10 function

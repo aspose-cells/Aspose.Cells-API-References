@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTranspose method. Encapsulates the function that represents gettranspose in Go.'
 type: docs
 weight: 200
-url: /go/pasteoptions/gettranspose/
+url: /go-cpp/pasteoptions/gettranspose/
 ---
 
 ## GetTranspose function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetRowHeaderCaption method. Encapsulates the function that represents setrowheadercaption in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/setrowheadercaption/
+url: /go-cpp/pivottable/setrowheadercaption/
 ---
 
 ## SetRowHeaderCaption function

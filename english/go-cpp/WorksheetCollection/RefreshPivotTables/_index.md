@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'RefreshPivotTables method. Encapsulates the function that represents refreshpivottables in Go.'
 type: docs
 weight: 200
-url: /go/worksheetcollection/refreshpivottables/
+url: /go-cpp/worksheetcollection/refreshpivottables/
 ---
 
 ## RefreshPivotTables function

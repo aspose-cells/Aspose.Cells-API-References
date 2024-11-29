@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetMousePointer method. Encapsulates the function that represents getmousepointer in Go.'
 type: docs
 weight: 200
-url: /go/activexcontrolbase/getmousepointer/
+url: /go-cpp/activexcontrolbase/getmousepointer/
 ---
 
 ## GetMousePointer function

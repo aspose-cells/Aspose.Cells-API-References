@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetFieldId method. Encapsulates the function that represents getfieldid in Go.'
 type: docs
 weight: 200
-url: /go/revisionquerytable/getfieldid/
+url: /go-cpp/revisionquerytable/getfieldid/
 ---
 
 ## GetFieldId function

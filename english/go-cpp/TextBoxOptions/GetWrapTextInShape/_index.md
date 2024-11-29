@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetWrapTextInShape method. Encapsulates the function that represents getwraptextinshape in Go.'
 type: docs
 weight: 200
-url: /go/textboxoptions/getwraptextinshape/
+url: /go-cpp/textboxoptions/getwraptextinshape/
 ---
 
 ## GetWrapTextInShape function

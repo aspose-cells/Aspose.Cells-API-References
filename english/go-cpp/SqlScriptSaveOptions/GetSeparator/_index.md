@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetSeparator method. Encapsulates the function that represents getseparator in Go.'
 type: docs
 weight: 200
-url: /go/sqlscriptsaveoptions/getseparator/
+url: /go-cpp/sqlscriptsaveoptions/getseparator/
 ---
 
 ## GetSeparator function

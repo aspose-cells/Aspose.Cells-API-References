@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GridlineType enum. Encapsulates the object that represents gridlinetype in Go.'
 type: docs
 weight: 200
-url: /go/gridlinetype/
+url: /go-cpp/gridlinetype/
 ---
 
 ## GridlineType Enum

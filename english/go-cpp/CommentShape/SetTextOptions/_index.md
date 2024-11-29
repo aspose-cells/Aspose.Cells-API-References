@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetTextOptions method. Encapsulates the function that represents settextoptions in Go.'
 type: docs
 weight: 200
-url: /go/commentshape/settextoptions/
+url: /go-cpp/commentshape/settextoptions/
 ---
 
 ## SetTextOptions function

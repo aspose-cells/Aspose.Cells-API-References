@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetShowError method. Encapsulates the function that represents setshowerror in Go.'
 type: docs
 weight: 200
-url: /go/validation/setshowerror/
+url: /go-cpp/validation/setshowerror/
 ---
 
 ## SetShowError function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetLayoutProperties method. Encapsulates the function that represents getlayoutproperties in Go.'
 type: docs
 weight: 200
-url: /go/series/getlayoutproperties/
+url: /go-cpp/series/getlayoutproperties/
 ---
 
 ## GetLayoutProperties function

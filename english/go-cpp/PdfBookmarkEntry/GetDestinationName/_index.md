@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetDestinationName method. Encapsulates the function that represents getdestinationname in Go.'
 type: docs
 weight: 200
-url: /go/pdfbookmarkentry/getdestinationname/
+url: /go-cpp/pdfbookmarkentry/getdestinationname/
 ---
 
 ## GetDestinationName function

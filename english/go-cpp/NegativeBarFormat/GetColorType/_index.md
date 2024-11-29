@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetColorType method. Encapsulates the function that represents getcolortype in Go.'
 type: docs
 weight: 200
-url: /go/negativebarformat/getcolortype/
+url: /go-cpp/negativebarformat/getcolortype/
 ---
 
 ## GetColorType function

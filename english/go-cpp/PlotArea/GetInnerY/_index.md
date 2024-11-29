@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetInnerY method. Encapsulates the function that represents getinnery in Go.'
 type: docs
 weight: 200
-url: /go/plotarea/getinnery/
+url: /go-cpp/plotarea/getinnery/
 ---
 
 ## GetInnerY function

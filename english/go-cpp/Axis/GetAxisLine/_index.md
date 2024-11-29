@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetAxisLine method. Encapsulates the function that represents getaxisline in Go.'
 type: docs
 weight: 200
-url: /go/axis/getaxisline/
+url: /go-cpp/axis/getaxisline/
 ---
 
 ## GetAxisLine function

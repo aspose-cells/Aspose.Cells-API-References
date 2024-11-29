@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetPlotEmptyCellsType method. Encapsulates the function that represents getplotemptycellstype in Go.'
 type: docs
 weight: 200
-url: /go/sparklinegroup/getplotemptycellstype/
+url: /go-cpp/sparklinegroup/getplotemptycellstype/
 ---
 
 ## GetPlotEmptyCellsType function

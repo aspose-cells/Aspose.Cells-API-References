@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'PageSetup class. Encapsulates the object that represents pagesetup in Go.'
 type: docs
 weight: 200
-url: /go/pagesetup/
+url: /go-cpp/pagesetup/
 ---
 
 ## PageSetup class

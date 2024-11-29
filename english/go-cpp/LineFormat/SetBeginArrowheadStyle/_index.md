@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetBeginArrowheadStyle method. Encapsulates the function that represents setbeginarrowheadstyle in Go.'
 type: docs
 weight: 200
-url: /go/lineformat/setbeginarrowheadstyle/
+url: /go-cpp/lineformat/setbeginarrowheadstyle/
 ---
 
 ## SetBeginArrowheadStyle function

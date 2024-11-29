@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetCommentTitleName method. Encapsulates the function that represents getcommenttitlename in Go.'
 type: docs
 weight: 200
-url: /go/settableglobalizationsettings/getcommenttitlename/
+url: /go-cpp/settableglobalizationsettings/getcommenttitlename/
 ---
 
 ## GetCommentTitleName function

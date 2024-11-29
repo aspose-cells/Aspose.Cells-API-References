@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ShapeSegmentPathCollection constructor. Encapsulates the function that represents newshapesegmentpathcollection in Go.'
 type: docs
 weight: 200
-url: /go/shapesegmentpathcollection/newshapesegmentpathcollection/
+url: /go-cpp/shapesegmentpathcollection/newshapesegmentpathcollection/
 ---
 
 ## NewShapeSegmentPathCollection function

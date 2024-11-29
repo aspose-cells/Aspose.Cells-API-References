@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetBottomMarginInch method. Encapsulates the function that represents setbottommargininch in Go.'
 type: docs
 weight: 200
-url: /go/pagesetup/setbottommargininch/
+url: /go-cpp/pagesetup/setbottommargininch/
 ---
 
 ## SetBottomMarginInch function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Combine method. Encapsulates the function that represents combine in Go.'
 type: docs
 weight: 200
-url: /go/workbook/combine/
+url: /go-cpp/workbook/combine/
 ---
 
 ## Combine function

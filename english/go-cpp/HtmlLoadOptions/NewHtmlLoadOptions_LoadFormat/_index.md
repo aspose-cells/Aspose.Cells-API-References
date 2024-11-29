@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'HtmlLoadOptions constructor. Encapsulates the function that represents newhtmlloadoptions_loadformat in Go.'
 type: docs
 weight: 200
-url: /go/htmlloadoptions/newhtmlloadoptions_loadformat/
+url: /go-cpp/htmlloadoptions/newhtmlloadoptions_loadformat/
 ---
 
 ## NewHtmlLoadOptions_LoadFormat function

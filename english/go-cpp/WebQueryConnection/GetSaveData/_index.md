@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetSaveData method. Encapsulates the function that represents getsavedata in Go.'
 type: docs
 weight: 200
-url: /go/webqueryconnection/getsavedata/
+url: /go-cpp/webqueryconnection/getsavedata/
 ---
 
 ## GetSaveData function

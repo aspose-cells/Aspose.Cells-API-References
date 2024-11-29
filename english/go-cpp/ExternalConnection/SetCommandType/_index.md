@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetCommandType method. Encapsulates the function that represents setcommandtype in Go.'
 type: docs
 weight: 200
-url: /go/externalconnection/setcommandtype/
+url: /go-cpp/externalconnection/setcommandtype/
 ---
 
 ## SetCommandType function

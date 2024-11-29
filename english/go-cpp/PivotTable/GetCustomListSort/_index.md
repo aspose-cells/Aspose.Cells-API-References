@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetCustomListSort method. Encapsulates the function that represents getcustomlistsort in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/getcustomlistsort/
+url: /go-cpp/pivottable/getcustomlistsort/
 ---
 
 ## GetCustomListSort function

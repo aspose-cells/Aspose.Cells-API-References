@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsAutoTickLabelSpacing method. Encapsulates the function that represents setisautoticklabelspacing in Go.'
 type: docs
 weight: 200
-url: /go/axis/setisautoticklabelspacing/
+url: /go-cpp/axis/setisautoticklabelspacing/
 ---
 
 ## SetIsAutoTickLabelSpacing function

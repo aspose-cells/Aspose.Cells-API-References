@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetLatinName method. Encapsulates the function that represents setlatinname in Go.'
 type: docs
 weight: 200
-url: /go/textoptions/setlatinname/
+url: /go-cpp/textoptions/setlatinname/
 ---
 
 ## SetLatinName function

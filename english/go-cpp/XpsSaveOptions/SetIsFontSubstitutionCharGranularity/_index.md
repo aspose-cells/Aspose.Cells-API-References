@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsFontSubstitutionCharGranularity method. Encapsulates the function that represents setisfontsubstitutionchargranularity in Go.'
 type: docs
 weight: 200
-url: /go/xpssaveoptions/setisfontsubstitutionchargranularity/
+url: /go-cpp/xpssaveoptions/setisfontsubstitutionchargranularity/
 ---
 
 ## SetIsFontSubstitutionCharGranularity function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetStoreType method. Encapsulates the function that represents setstoretype in Go.'
 type: docs
 weight: 200
-url: /go/webextensionreference/setstoretype/
+url: /go-cpp/webextensionreference/setstoretype/
 ---
 
 ## SetStoreType function

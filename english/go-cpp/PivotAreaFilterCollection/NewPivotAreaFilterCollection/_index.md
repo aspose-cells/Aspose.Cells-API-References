@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'PivotAreaFilterCollection constructor. Encapsulates the function that represents newpivotareafiltercollection in Go.'
 type: docs
 weight: 200
-url: /go/pivotareafiltercollection/newpivotareafiltercollection/
+url: /go-cpp/pivotareafiltercollection/newpivotareafiltercollection/
 ---
 
 ## NewPivotAreaFilterCollection function

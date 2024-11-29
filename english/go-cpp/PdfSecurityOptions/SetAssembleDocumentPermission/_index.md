@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetAssembleDocumentPermission method. Encapsulates the function that represents setassembledocumentpermission in Go.'
 type: docs
 weight: 200
-url: /go/pdfsecurityoptions/setassembledocumentpermission/
+url: /go-cpp/pdfsecurityoptions/setassembledocumentpermission/
 ---
 
 ## SetAssembleDocumentPermission function

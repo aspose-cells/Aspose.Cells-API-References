@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsErrorCheck method. Encapsulates the function that represents iserrorcheck in Go.'
 type: docs
 weight: 200
-url: /go/errorcheckoption/iserrorcheck/
+url: /go-cpp/errorcheckoption/iserrorcheck/
 ---
 
 ## IsErrorCheck function

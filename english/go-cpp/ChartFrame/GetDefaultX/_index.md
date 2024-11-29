@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetDefaultX method. Encapsulates the function that represents getdefaultx in Go.'
 type: docs
 weight: 200
-url: /go/chartframe/getdefaultx/
+url: /go-cpp/chartframe/getdefaultx/
 ---
 
 ## GetDefaultX function

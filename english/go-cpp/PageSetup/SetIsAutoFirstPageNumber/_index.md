@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsAutoFirstPageNumber method. Encapsulates the function that represents setisautofirstpagenumber in Go.'
 type: docs
 weight: 200
-url: /go/pagesetup/setisautofirstpagenumber/
+url: /go-cpp/pagesetup/setisautofirstpagenumber/
 ---
 
 ## SetIsAutoFirstPageNumber function

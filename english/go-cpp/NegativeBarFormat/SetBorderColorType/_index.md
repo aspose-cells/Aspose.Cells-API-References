@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetBorderColorType method. Encapsulates the function that represents setbordercolortype in Go.'
 type: docs
 weight: 200
-url: /go/negativebarformat/setbordercolortype/
+url: /go-cpp/negativebarformat/setbordercolortype/
 ---
 
 ## SetBorderColorType function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTotalsRowLabel method. Encapsulates the function that represents gettotalsrowlabel in Go.'
 type: docs
 weight: 200
-url: /go/listcolumn/gettotalsrowlabel/
+url: /go-cpp/listcolumn/gettotalsrowlabel/
 ---
 
 ## GetTotalsRowLabel function

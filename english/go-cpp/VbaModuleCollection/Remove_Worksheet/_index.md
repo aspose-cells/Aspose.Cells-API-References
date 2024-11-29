@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Remove_Worksheet method. Encapsulates the function that represents remove in Go.'
 type: docs
 weight: 200
-url: /go/vbamodulecollection/remove_worksheet/
+url: /go-cpp/vbamodulecollection/remove_worksheet/
 ---
 
 ## Remove_Worksheet function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetArgb method. Encapsulates the function that represents getargb in Go.'
 type: docs
 weight: 200
-url: /go/cellscolor/getargb/
+url: /go-cpp/cellscolor/getargb/
 ---
 
 ## GetArgb function

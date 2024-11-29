@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetWidthCM method. Encapsulates the function that represents setwidthcm in Go.'
 type: docs
 weight: 200
-url: /go/textbox/setwidthcm/
+url: /go-cpp/textbox/setwidthcm/
 ---
 
 ## SetWidthCM function

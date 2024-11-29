@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetAlternativeDescription method. Encapsulates the function that represents getalternativedescription in Go.'
 type: docs
 weight: 200
-url: /go/listobject/getalternativedescription/
+url: /go-cpp/listobject/getalternativedescription/
 ---
 
 ## GetAlternativeDescription function

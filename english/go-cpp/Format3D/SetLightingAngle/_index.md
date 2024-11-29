@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetLightingAngle method. Encapsulates the function that represents setlightingangle in Go.'
 type: docs
 weight: 200
-url: /go/format3d/setlightingangle/
+url: /go-cpp/format3d/setlightingangle/
 ---
 
 ## SetLightingAngle function

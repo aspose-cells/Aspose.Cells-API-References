@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetIgnoreBlank method. Encapsulates the function that represents getignoreblank in Go.'
 type: docs
 weight: 200
-url: /go/validation/getignoreblank/
+url: /go-cpp/validation/getignoreblank/
 ---
 
 ## GetIgnoreBlank function

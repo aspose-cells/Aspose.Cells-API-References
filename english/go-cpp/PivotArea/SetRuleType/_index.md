@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetRuleType method. Encapsulates the function that represents setruletype in Go.'
 type: docs
 weight: 200
-url: /go/pivotarea/setruletype/
+url: /go-cpp/pivotarea/setruletype/
 ---
 
 ## SetRuleType function

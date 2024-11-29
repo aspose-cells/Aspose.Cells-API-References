@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'PlacementType enum. Encapsulates the object that represents placementtype in Go.'
 type: docs
 weight: 200
-url: /go/placementtype/
+url: /go-cpp/placementtype/
 ---
 
 ## PlacementType Enum

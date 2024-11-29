@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetShowValuesRow method. Encapsulates the function that represents getshowvaluesrow in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/getshowvaluesrow/
+url: /go-cpp/pivottable/getshowvaluesrow/
 ---
 
 ## GetShowValuesRow function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetUpdateZoom method. Encapsulates the function that represents getupdatezoom in Go.'
 type: docs
 weight: 200
-url: /go/ooxmlsaveoptions/getupdatezoom/
+url: /go-cpp/ooxmlsaveoptions/getupdatezoom/
 ---
 
 ## GetUpdateZoom function

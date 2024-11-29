@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetPropertiesFollowChartPoint method. Encapsulates the function that represents setpropertiesfollowchartpoint in Go.'
 type: docs
 weight: 200
-url: /go/workbooksettings/setpropertiesfollowchartpoint/
+url: /go-cpp/workbooksettings/setpropertiesfollowchartpoint/
 ---
 
 ## SetPropertiesFollowChartPoint function

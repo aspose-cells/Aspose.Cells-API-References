@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetPages method. Encapsulates the function that represents getpages in Go.'
 type: docs
 weight: 200
-url: /go/builtindocumentpropertycollection/getpages/
+url: /go-cpp/builtindocumentpropertycollection/getpages/
 ---
 
 ## GetPages function

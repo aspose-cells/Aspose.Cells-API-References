@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetOdsCellFields method. Encapsulates the function that represents getodscellfields in Go.'
 type: docs
 weight: 200
-url: /go/cells/getodscellfields/
+url: /go-cpp/cells/getodscellfields/
 ---
 
 ## GetOdsCellFields function

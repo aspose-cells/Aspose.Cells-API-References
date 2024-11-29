@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsEnabled method. Encapsulates the function that represents setisenabled in Go.'
 type: docs
 weight: 200
-url: /go/togglebuttonactivexcontrol/setisenabled/
+url: /go-cpp/togglebuttonactivexcontrol/setisenabled/
 ---
 
 ## SetIsEnabled function

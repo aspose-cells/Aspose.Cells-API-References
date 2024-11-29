@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetShiftFirstRowDown method. Encapsulates the function that represents setshiftfirstrowdown in Go.'
 type: docs
 weight: 200
-url: /go/importtableoptions/setshiftfirstrowdown/
+url: /go-cpp/importtableoptions/setshiftfirstrowdown/
 ---
 
 ## SetShiftFirstRowDown function

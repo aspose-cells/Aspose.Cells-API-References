@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'UpdateLinksType enum. Encapsulates the object that represents updatelinkstype in Go.'
 type: docs
 weight: 200
-url: /go/updatelinkstype/
+url: /go-cpp/updatelinkstype/
 ---
 
 ## UpdateLinksType Enum

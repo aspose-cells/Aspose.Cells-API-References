@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetRightMargin method. Encapsulates the function that represents getrightmargin in Go.'
 type: docs
 weight: 200
-url: /go/textparagraph/getrightmargin/
+url: /go-cpp/textparagraph/getrightmargin/
 ---
 
 ## GetRightMargin function

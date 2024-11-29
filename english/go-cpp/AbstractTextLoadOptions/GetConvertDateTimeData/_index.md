@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetConvertDateTimeData method. Encapsulates the function that represents getconvertdatetimedata in Go.'
 type: docs
 weight: 200
-url: /go/abstracttextloadoptions/getconvertdatetimedata/
+url: /go-cpp/abstracttextloadoptions/getconvertdatetimedata/
 ---
 
 ## GetConvertDateTimeData function

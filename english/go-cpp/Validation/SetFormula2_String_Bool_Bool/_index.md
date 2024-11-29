@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetFormula2_String_Bool_Bool method. Encapsulates the function that represents setformula2 in Go.'
 type: docs
 weight: 200
-url: /go/validation/setformula2_string_bool_bool/
+url: /go-cpp/validation/setformula2_string_bool_bool/
 ---
 
 ## SetFormula2_String_Bool_Bool function

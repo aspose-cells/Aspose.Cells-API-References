@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetEmbedOoxmlAsOleObject method. Encapsulates the function that represents getembedooxmlasoleobject in Go.'
 type: docs
 weight: 200
-url: /go/ooxmlsaveoptions/getembedooxmlasoleobject/
+url: /go-cpp/ooxmlsaveoptions/getembedooxmlasoleobject/
 ---
 
 ## GetEmbedOoxmlAsOleObject function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetRange method. Encapsulates the function that represents setrange in Go.'
 type: docs
 weight: 200
-url: /go/findoptions/setrange/
+url: /go-cpp/findoptions/setrange/
 ---
 
 ## SetRange function

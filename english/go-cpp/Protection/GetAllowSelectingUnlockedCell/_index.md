@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetAllowSelectingUnlockedCell method. Encapsulates the function that represents getallowselectingunlockedcell in Go.'
 type: docs
 weight: 200
-url: /go/protection/getallowselectingunlockedcell/
+url: /go-cpp/protection/getallowselectingunlockedcell/
 ---
 
 ## GetAllowSelectingUnlockedCell function

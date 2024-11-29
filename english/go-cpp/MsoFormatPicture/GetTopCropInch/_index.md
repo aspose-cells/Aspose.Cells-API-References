@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTopCropInch method. Encapsulates the function that represents gettopcropinch in Go.'
 type: docs
 weight: 200
-url: /go/msoformatpicture/gettopcropinch/
+url: /go-cpp/msoformatpicture/gettopcropinch/
 ---
 
 ## GetTopCropInch function

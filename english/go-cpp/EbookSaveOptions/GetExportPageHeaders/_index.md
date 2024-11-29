@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetExportPageHeaders method. Encapsulates the function that represents getexportpageheaders in Go.'
 type: docs
 weight: 200
-url: /go/ebooksaveoptions/getexportpageheaders/
+url: /go-cpp/ebooksaveoptions/getexportpageheaders/
 ---
 
 ## GetExportPageHeaders function

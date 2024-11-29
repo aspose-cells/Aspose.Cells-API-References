@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetMemberPropertyFieldIndex method. Encapsulates the function that represents setmemberpropertyfieldindex in Go.'
 type: docs
 weight: 200
-url: /go/pivotfilter/setmemberpropertyfieldindex/
+url: /go-cpp/pivotfilter/setmemberpropertyfieldindex/
 ---
 
 ## SetMemberPropertyFieldIndex function

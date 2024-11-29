@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetXValues method. Encapsulates the function that represents setxvalues in Go.'
 type: docs
 weight: 200
-url: /go/series/setxvalues/
+url: /go-cpp/series/setxvalues/
 ---
 
 ## SetXValues function

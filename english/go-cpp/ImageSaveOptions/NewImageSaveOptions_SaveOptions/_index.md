@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ImageSaveOptions constructor. Encapsulates the function that represents newimagesaveoptions_saveoptions in Go.'
 type: docs
 weight: 200
-url: /go/imagesaveoptions/newimagesaveoptions_saveoptions/
+url: /go-cpp/imagesaveoptions/newimagesaveoptions_saveoptions/
 ---
 
 ## NewImageSaveOptions_SaveOptions function

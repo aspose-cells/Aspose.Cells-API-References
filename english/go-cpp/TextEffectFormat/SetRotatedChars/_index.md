@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetRotatedChars method. Encapsulates the function that represents setrotatedchars in Go.'
 type: docs
 weight: 200
-url: /go/texteffectformat/setrotatedchars/
+url: /go-cpp/texteffectformat/setrotatedchars/
 ---
 
 ## SetRotatedChars function

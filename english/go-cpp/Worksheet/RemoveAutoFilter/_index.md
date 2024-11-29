@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'RemoveAutoFilter method. Encapsulates the function that represents removeautofilter in Go.'
 type: docs
 weight: 200
-url: /go/worksheet/removeautofilter/
+url: /go-cpp/worksheet/removeautofilter/
 ---
 
 ## RemoveAutoFilter function

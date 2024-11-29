@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetAccelerator method. Encapsulates the function that represents setaccelerator in Go.'
 type: docs
 weight: 200
-url: /go/checkboxactivexcontrol/setaccelerator/
+url: /go-cpp/checkboxactivexcontrol/setaccelerator/
 ---
 
 ## SetAccelerator function

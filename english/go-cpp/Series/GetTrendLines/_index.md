@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTrendLines method. Encapsulates the function that represents gettrendlines in Go.'
 type: docs
 weight: 200
-url: /go/series/gettrendlines/
+url: /go-cpp/series/gettrendlines/
 ---
 
 ## GetTrendLines function

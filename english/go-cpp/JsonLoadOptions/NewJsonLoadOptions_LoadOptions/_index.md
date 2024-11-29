@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'JsonLoadOptions constructor. Encapsulates the function that represents newjsonloadoptions_loadoptions in Go.'
 type: docs
 weight: 200
-url: /go/jsonloadoptions/newjsonloadoptions_loadoptions/
+url: /go-cpp/jsonloadoptions/newjsonloadoptions_loadoptions/
 ---
 
 ## NewJsonLoadOptions_LoadOptions function

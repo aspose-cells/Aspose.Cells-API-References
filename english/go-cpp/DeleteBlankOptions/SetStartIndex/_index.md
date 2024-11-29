@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetStartIndex method. Encapsulates the function that represents setstartindex in Go.'
 type: docs
 weight: 200
-url: /go/deleteblankoptions/setstartindex/
+url: /go-cpp/deleteblankoptions/setstartindex/
 ---
 
 ## SetStartIndex function

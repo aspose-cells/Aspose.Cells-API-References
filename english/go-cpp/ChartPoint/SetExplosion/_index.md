@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetExplosion method. Encapsulates the function that represents setexplosion in Go.'
 type: docs
 weight: 200
-url: /go/chartpoint/setexplosion/
+url: /go-cpp/chartpoint/setexplosion/
 ---
 
 ## SetExplosion function

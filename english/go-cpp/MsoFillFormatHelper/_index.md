@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'MsoFillFormatHelper class. Encapsulates the object that represents msofillformathelper in Go.'
 type: docs
 weight: 200
-url: /go/msofillformathelper/
+url: /go-cpp/msofillformathelper/
 ---
 
 ## MsoFillFormatHelper class

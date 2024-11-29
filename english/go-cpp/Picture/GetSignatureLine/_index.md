@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetSignatureLine method. Encapsulates the function that represents getsignatureline in Go.'
 type: docs
 weight: 200
-url: /go/picture/getsignatureline/
+url: /go-cpp/picture/getsignatureline/
 ---
 
 ## GetSignatureLine function

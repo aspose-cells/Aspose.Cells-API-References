@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetRelativeToOriginalPictureSize method. Encapsulates the function that represents getrelativetooriginalpicturesize in Go.'
 type: docs
 weight: 200
-url: /go/smartartshape/getrelativetooriginalpicturesize/
+url: /go-cpp/smartartshape/getrelativetooriginalpicturesize/
 ---
 
 ## GetRelativeToOriginalPictureSize function

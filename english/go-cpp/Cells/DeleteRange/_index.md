@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'DeleteRange method. Encapsulates the function that represents deleterange in Go.'
 type: docs
 weight: 200
-url: /go/cells/deleterange/
+url: /go-cpp/cells/deleterange/
 ---
 
 ## DeleteRange function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Name class. Encapsulates the object that represents name in Go.'
 type: docs
 weight: 200
-url: /go/name/
+url: /go-cpp/name/
 ---
 
 ## Name class

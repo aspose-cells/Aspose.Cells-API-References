@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Sort method. Encapsulates the function that represents sort in Go.'
 type: docs
 weight: 200
-url: /go/namecollection/sort/
+url: /go-cpp/namecollection/sort/
 ---
 
 ## Sort function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Remove_String method. Encapsulates the function that represents remove in Go.'
 type: docs
 weight: 200
-url: /go/namecollection/remove_string/
+url: /go-cpp/namecollection/remove_string/
 ---
 
 ## Remove_String function

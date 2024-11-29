@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetContentStatus method. Encapsulates the function that represents getcontentstatus in Go.'
 type: docs
 weight: 200
-url: /go/builtindocumentpropertycollection/getcontentstatus/
+url: /go-cpp/builtindocumentpropertycollection/getcontentstatus/
 ---
 
 ## GetContentStatus function

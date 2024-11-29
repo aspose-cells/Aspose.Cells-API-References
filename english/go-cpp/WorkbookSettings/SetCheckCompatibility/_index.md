@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetCheckCompatibility method. Encapsulates the function that represents setcheckcompatibility in Go.'
 type: docs
 weight: 200
-url: /go/workbooksettings/setcheckcompatibility/
+url: /go-cpp/workbooksettings/setcheckcompatibility/
 ---
 
 ## SetCheckCompatibility function

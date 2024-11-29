@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsReferred method. Encapsulates the function that represents isreferred in Go.'
 type: docs
 weight: 200
-url: /go/externallink/isreferred/
+url: /go-cpp/externallink/isreferred/
 ---
 
 ## IsReferred function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'BorderBoxEquationNode_CreateNode method. Encapsulates the function that represents createnode in Go.'
 type: docs
 weight: 200
-url: /go/borderboxequationnode/borderboxequationnode_createnode/
+url: /go-cpp/borderboxequationnode/borderboxequationnode_createnode/
 ---
 
 ## BorderBoxEquationNode_CreateNode function

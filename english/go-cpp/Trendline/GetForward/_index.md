@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetForward method. Encapsulates the function that represents getforward in Go.'
 type: docs
 weight: 200
-url: /go/trendline/getforward/
+url: /go-cpp/trendline/getforward/
 ---
 
 ## GetForward function

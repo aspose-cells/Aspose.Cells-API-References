@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetExportAllSheets method. Encapsulates the function that represents getexportallsheets in Go.'
 type: docs
 weight: 200
-url: /go/txtsaveoptions/getexportallsheets/
+url: /go-cpp/txtsaveoptions/getexportallsheets/
 ---
 
 ## GetExportAllSheets function

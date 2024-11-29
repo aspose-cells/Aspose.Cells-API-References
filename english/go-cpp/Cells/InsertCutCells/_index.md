@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'InsertCutCells method. Encapsulates the function that represents insertcutcells in Go.'
 type: docs
 weight: 200
-url: /go/cells/insertcutcells/
+url: /go-cpp/cells/insertcutcells/
 ---
 
 ## InsertCutCells function

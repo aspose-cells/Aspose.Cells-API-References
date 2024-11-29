@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetExportDocumentProperties method. Encapsulates the function that represents setexportdocumentproperties in Go.'
 type: docs
 weight: 200
-url: /go/ebooksaveoptions/setexportdocumentproperties/
+url: /go-cpp/ebooksaveoptions/setexportdocumentproperties/
 ---
 
 ## SetExportDocumentProperties function

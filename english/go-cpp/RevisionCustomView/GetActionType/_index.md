@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetActionType method. Encapsulates the function that represents getactiontype in Go.'
 type: docs
 weight: 200
-url: /go/revisioncustomview/getactiontype/
+url: /go-cpp/revisioncustomview/getactiontype/
 ---
 
 ## GetActionType function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Union_UnionRange method. Encapsulates the function that represents union in Go.'
 type: docs
 weight: 200
-url: /go/unionrange/union_unionrange/
+url: /go-cpp/unionrange/union_unionrange/
 ---
 
 ## Union_UnionRange function

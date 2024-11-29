@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetDepthPercent method. Encapsulates the function that represents getdepthpercent in Go.'
 type: docs
 weight: 200
-url: /go/chart/getdepthpercent/
+url: /go-cpp/chart/getdepthpercent/
 ---
 
 ## GetDepthPercent function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Protect_ProtectionType method. Encapsulates the function that represents protect in Go.'
 type: docs
 weight: 200
-url: /go/worksheet/protect_protectiontype/
+url: /go-cpp/worksheet/protect_protectiontype/
 ---
 
 ## Protect_ProtectionType function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'PdfSecurityOptions class. Encapsulates the object that represents pdfsecurityoptions in Go.'
 type: docs
 weight: 200
-url: /go/pdfsecurityoptions/
+url: /go-cpp/pdfsecurityoptions/
 ---
 
 ## PdfSecurityOptions class

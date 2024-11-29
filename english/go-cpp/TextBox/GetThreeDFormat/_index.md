@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetThreeDFormat method. Encapsulates the function that represents getthreedformat in Go.'
 type: docs
 weight: 200
-url: /go/textbox/getthreedformat/
+url: /go-cpp/textbox/getthreedformat/
 ---
 
 ## GetThreeDFormat function

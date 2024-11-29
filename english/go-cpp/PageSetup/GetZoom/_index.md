@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetZoom method. Encapsulates the function that represents getzoom in Go.'
 type: docs
 weight: 200
-url: /go/pagesetup/getzoom/
+url: /go-cpp/pagesetup/getzoom/
 ---
 
 ## GetZoom function

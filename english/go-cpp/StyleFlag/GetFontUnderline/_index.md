@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetFontUnderline method. Encapsulates the function that represents getfontunderline in Go.'
 type: docs
 weight: 200
-url: /go/styleflag/getfontunderline/
+url: /go-cpp/styleflag/getfontunderline/
 ---
 
 ## GetFontUnderline function

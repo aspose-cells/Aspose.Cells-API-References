@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetWindowWidthInch method. Encapsulates the function that represents setwindowwidthinch in Go.'
 type: docs
 weight: 200
-url: /go/workbooksettings/setwindowwidthinch/
+url: /go-cpp/workbooksettings/setwindowwidthinch/
 ---
 
 ## SetWindowWidthInch function

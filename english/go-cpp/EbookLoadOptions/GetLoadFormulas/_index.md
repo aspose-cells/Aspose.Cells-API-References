@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetLoadFormulas method. Encapsulates the function that represents getloadformulas in Go.'
 type: docs
 weight: 200
-url: /go/ebookloadoptions/getloadformulas/
+url: /go-cpp/ebookloadoptions/getloadformulas/
 ---
 
 ## GetLoadFormulas function

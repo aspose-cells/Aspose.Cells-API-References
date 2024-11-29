@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetLastSavedBy method. Encapsulates the function that represents getlastsavedby in Go.'
 type: docs
 weight: 200
-url: /go/builtindocumentpropertycollection/getlastsavedby/
+url: /go-cpp/builtindocumentpropertycollection/getlastsavedby/
 ---
 
 ## GetLastSavedBy function

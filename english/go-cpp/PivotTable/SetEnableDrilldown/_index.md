@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetEnableDrilldown method. Encapsulates the function that represents setenabledrilldown in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/setenabledrilldown/
+url: /go-cpp/pivottable/setenabledrilldown/
 ---
 
 ## SetEnableDrilldown function

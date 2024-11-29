@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetSeparatorString method. Encapsulates the function that represents getseparatorstring in Go.'
 type: docs
 weight: 200
-url: /go/txtloadoptions/getseparatorstring/
+url: /go-cpp/txtloadoptions/getseparatorstring/
 ---
 
 ## GetSeparatorString function

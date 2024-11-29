@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'RevisionLogCollection class. Encapsulates the object that represents revisionlogcollection in Go.'
 type: docs
 weight: 200
-url: /go/revisionlogcollection/
+url: /go-cpp/revisionlogcollection/
 ---
 
 ## RevisionLogCollection class

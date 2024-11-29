@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetCalculateOnOpen method. Encapsulates the function that represents getcalculateonopen in Go.'
 type: docs
 weight: 200
-url: /go/formulasettings/getcalculateonopen/
+url: /go-cpp/formulasettings/getcalculateonopen/
 ---
 
 ## GetCalculateOnOpen function

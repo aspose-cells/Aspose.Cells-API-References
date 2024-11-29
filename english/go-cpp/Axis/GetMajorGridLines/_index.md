@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetMajorGridLines method. Encapsulates the function that represents getmajorgridlines in Go.'
 type: docs
 weight: 200
-url: /go/axis/getmajorgridlines/
+url: /go-cpp/axis/getmajorgridlines/
 ---
 
 ## GetMajorGridLines function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetFadeDirection method. Encapsulates the function that represents getfadedirection in Go.'
 type: docs
 weight: 200
-url: /go/reflectioneffect/getfadedirection/
+url: /go-cpp/reflectioneffect/getfadedirection/
 ---
 
 ## GetFadeDirection function

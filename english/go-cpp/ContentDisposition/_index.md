@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ContentDisposition enum. Encapsulates the object that represents contentdisposition in Go.'
 type: docs
 weight: 200
-url: /go/contentdisposition/
+url: /go-cpp/contentdisposition/
 ---
 
 ## ContentDisposition Enum

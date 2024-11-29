@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'FontConfigs_SetDefaultFontName method. Encapsulates the function that represents setdefaultfontname in Go.'
 type: docs
 weight: 200
-url: /go/fontconfigs/fontconfigs_setdefaultfontname/
+url: /go-cpp/fontconfigs/fontconfigs_setdefaultfontname/
 ---
 
 ## FontConfigs_SetDefaultFontName function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetBorderWeight method. Encapsulates the function that represents getborderweight in Go.'
 type: docs
 weight: 200
-url: /go/picture/getborderweight/
+url: /go-cpp/picture/getborderweight/
 ---
 
 ## GetBorderWeight function

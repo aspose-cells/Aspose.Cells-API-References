@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ToUInt32 method. Encapsulates the function that represents touint32 in Go.'
 type: docs
 weight: 200
-url: /go/object/touint32/
+url: /go-cpp/object/touint32/
 ---
 
 ## ToUInt32 function

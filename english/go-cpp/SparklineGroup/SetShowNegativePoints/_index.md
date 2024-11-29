@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetShowNegativePoints method. Encapsulates the function that represents setshownegativepoints in Go.'
 type: docs
 weight: 200
-url: /go/sparklinegroup/setshownegativepoints/
+url: /go-cpp/sparklinegroup/setshownegativepoints/
 ---
 
 ## SetShowNegativePoints function

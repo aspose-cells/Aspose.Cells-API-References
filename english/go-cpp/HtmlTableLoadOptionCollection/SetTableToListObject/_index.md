@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetTableToListObject method. Encapsulates the function that represents settabletolistobject in Go.'
 type: docs
 weight: 200
-url: /go/htmltableloadoptioncollection/settabletolistobject/
+url: /go-cpp/htmltableloadoptioncollection/settabletolistobject/
 ---
 
 ## SetTableToListObject function

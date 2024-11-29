@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetShowInput method. Encapsulates the function that represents setshowinput in Go.'
 type: docs
 weight: 200
-url: /go/validation/setshowinput/
+url: /go-cpp/validation/setshowinput/
 ---
 
 ## SetShowInput function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'EquationNode constructor. Encapsulates the function that represents newequationnode in Go.'
 type: docs
 weight: 200
-url: /go/equationnode/newequationnode/
+url: /go-cpp/equationnode/newequationnode/
 ---
 
 ## NewEquationNode function

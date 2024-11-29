@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetSeriesColor method. Encapsulates the function that represents getseriescolor in Go.'
 type: docs
 weight: 200
-url: /go/sparklinegroup/getseriescolor/
+url: /go-cpp/sparklinegroup/getseriescolor/
 ---
 
 ## GetSeriesColor function

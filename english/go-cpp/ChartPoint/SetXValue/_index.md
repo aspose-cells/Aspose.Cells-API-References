@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetXValue method. Encapsulates the function that represents setxvalue in Go.'
 type: docs
 weight: 200
-url: /go/chartpoint/setxvalue/
+url: /go-cpp/chartpoint/setxvalue/
 ---
 
 ## SetXValue function

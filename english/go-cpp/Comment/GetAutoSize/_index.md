@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetAutoSize method. Encapsulates the function that represents getautosize in Go.'
 type: docs
 weight: 200
-url: /go/comment/getautosize/
+url: /go-cpp/comment/getautosize/
 ---
 
 ## GetAutoSize function

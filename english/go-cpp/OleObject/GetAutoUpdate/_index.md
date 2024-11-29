@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetAutoUpdate method. Encapsulates the function that represents getautoupdate in Go.'
 type: docs
 weight: 200
-url: /go/oleobject/getautoupdate/
+url: /go-cpp/oleobject/getautoupdate/
 ---
 
 ## GetAutoUpdate function

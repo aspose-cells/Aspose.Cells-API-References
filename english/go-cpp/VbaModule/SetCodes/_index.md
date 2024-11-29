@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetCodes method. Encapsulates the function that represents setcodes in Go.'
 type: docs
 weight: 200
-url: /go/vbamodule/setcodes/
+url: /go-cpp/vbamodule/setcodes/
 ---
 
 ## SetCodes function

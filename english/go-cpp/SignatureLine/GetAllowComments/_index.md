@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetAllowComments method. Encapsulates the function that represents getallowcomments in Go.'
 type: docs
 weight: 200
-url: /go/signatureline/getallowcomments/
+url: /go-cpp/signatureline/getallowcomments/
 ---
 
 ## GetAllowComments function

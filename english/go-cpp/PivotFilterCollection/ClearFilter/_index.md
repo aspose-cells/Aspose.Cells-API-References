@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ClearFilter method. Encapsulates the function that represents clearfilter in Go.'
 type: docs
 weight: 200
-url: /go/pivotfiltercollection/clearfilter/
+url: /go-cpp/pivotfiltercollection/clearfilter/
 ---
 
 ## ClearFilter function

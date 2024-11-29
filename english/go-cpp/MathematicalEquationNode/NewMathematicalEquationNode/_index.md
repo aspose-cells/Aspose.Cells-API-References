@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'MathematicalEquationNode constructor. Encapsulates the function that represents newmathematicalequationnode in Go.'
 type: docs
 weight: 200
-url: /go/mathematicalequationnode/newmathematicalequationnode/
+url: /go-cpp/mathematicalequationnode/newmathematicalequationnode/
 ---
 
 ## NewMathematicalEquationNode function

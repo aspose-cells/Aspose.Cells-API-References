@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'XAdESType enum. Encapsulates the object that represents xadestype in Go.'
 type: docs
 weight: 200
-url: /go/xadestype/
+url: /go-cpp/xadestype/
 ---
 
 ## XAdESType Enum

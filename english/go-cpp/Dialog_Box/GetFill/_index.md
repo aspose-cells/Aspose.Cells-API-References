@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetFill method. Encapsulates the function that represents getfill in Go.'
 type: docs
 weight: 200
-url: /go/dialog_box/getfill/
+url: /go-cpp/dialog_box/getfill/
 ---
 
 ## GetFill function

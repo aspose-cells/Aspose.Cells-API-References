@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsHideSubscript method. Encapsulates the function that represents ishidesubscript in Go.'
 type: docs
 weight: 200
-url: /go/naryequationnode/ishidesubscript/
+url: /go-cpp/naryequationnode/ishidesubscript/
 ---
 
 ## IsHideSubscript function

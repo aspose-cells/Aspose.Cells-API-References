@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsArea method. Encapsulates the function that represents isarea in Go.'
 type: docs
 weight: 200
-url: /go/referredarea/isarea/
+url: /go-cpp/referredarea/isarea/
 ---
 
 ## IsArea function

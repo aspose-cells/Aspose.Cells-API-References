@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'AddTableStyle method. Encapsulates the function that represents addtablestyle in Go.'
 type: docs
 weight: 200
-url: /go/tablestylecollection/addtablestyle/
+url: /go-cpp/tablestylecollection/addtablestyle/
 ---
 
 ## AddTableStyle function

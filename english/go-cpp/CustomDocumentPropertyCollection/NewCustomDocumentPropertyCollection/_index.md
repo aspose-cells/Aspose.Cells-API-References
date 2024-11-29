@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'CustomDocumentPropertyCollection constructor. Encapsulates the function that represents newcustomdocumentpropertycollection in Go.'
 type: docs
 weight: 200
-url: /go/customdocumentpropertycollection/newcustomdocumentpropertycollection/
+url: /go-cpp/customdocumentpropertycollection/newcustomdocumentpropertycollection/
 ---
 
 ## NewCustomDocumentPropertyCollection function

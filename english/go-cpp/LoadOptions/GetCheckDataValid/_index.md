@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetCheckDataValid method. Encapsulates the function that represents getcheckdatavalid in Go.'
 type: docs
 weight: 200
-url: /go/loadoptions/getcheckdatavalid/
+url: /go-cpp/loadoptions/getcheckdatavalid/
 ---
 
 ## GetCheckDataValid function

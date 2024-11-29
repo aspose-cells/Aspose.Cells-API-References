@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetEmail method. Encapsulates the function that represents getemail in Go.'
 type: docs
 weight: 200
-url: /go/signatureline/getemail/
+url: /go-cpp/signatureline/getemail/
 ---
 
 ## GetEmail function

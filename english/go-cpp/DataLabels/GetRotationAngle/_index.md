@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetRotationAngle method. Encapsulates the function that represents getrotationangle in Go.'
 type: docs
 weight: 200
-url: /go/datalabels/getrotationangle/
+url: /go-cpp/datalabels/getrotationangle/
 ---
 
 ## GetRotationAngle function

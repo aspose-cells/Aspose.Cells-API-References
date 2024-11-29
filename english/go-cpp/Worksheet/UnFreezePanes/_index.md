@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'UnFreezePanes method. Encapsulates the function that represents unfreezepanes in Go.'
 type: docs
 weight: 200
-url: /go/worksheet/unfreezepanes/
+url: /go-cpp/worksheet/unfreezepanes/
 ---
 
 ## UnFreezePanes function

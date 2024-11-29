@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetHtmlText method. Encapsulates the function that represents gethtmltext in Go.'
 type: docs
 weight: 200
-url: /go/cellsdrawing/gethtmltext/
+url: /go-cpp/cellsdrawing/gethtmltext/
 ---
 
 ## GetHtmlText function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetOptions method. Encapsulates the function that represents getoptions in Go.'
 type: docs
 weight: 200
-url: /go/workbookmetadata/getoptions/
+url: /go-cpp/workbookmetadata/getoptions/
 ---
 
 ## GetOptions function

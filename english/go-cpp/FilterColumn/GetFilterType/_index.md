@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetFilterType method. Encapsulates the function that represents getfiltertype in Go.'
 type: docs
 weight: 200
-url: /go/filtercolumn/getfiltertype/
+url: /go-cpp/filtercolumn/getfiltertype/
 ---
 
 ## GetFilterType function

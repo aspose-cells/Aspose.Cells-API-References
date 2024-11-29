@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetPerspective method. Encapsulates the function that represents getperspective in Go.'
 type: docs
 weight: 200
-url: /go/threedformat/getperspective/
+url: /go-cpp/threedformat/getperspective/
 ---
 
 ## GetPerspective function

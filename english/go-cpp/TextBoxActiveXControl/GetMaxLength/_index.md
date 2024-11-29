@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetMaxLength method. Encapsulates the function that represents getmaxlength in Go.'
 type: docs
 weight: 200
-url: /go/textboxactivexcontrol/getmaxlength/
+url: /go-cpp/textboxactivexcontrol/getmaxlength/
 ---
 
 ## GetMaxLength function

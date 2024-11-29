@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetOldStyle method. Encapsulates the function that represents getoldstyle in Go.'
 type: docs
 weight: 200
-url: /go/revisioncellchange/getoldstyle/
+url: /go-cpp/revisioncellchange/getoldstyle/
 ---
 
 ## GetOldStyle function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetXmlMap method. Encapsulates the function that represents getxmlmap in Go.'
 type: docs
 weight: 200
-url: /go/listobject/getxmlmap/
+url: /go-cpp/listobject/getxmlmap/
 ---
 
 ## GetXmlMap function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetMarkersColor method. Encapsulates the function that represents getmarkerscolor in Go.'
 type: docs
 weight: 200
-url: /go/sparklinegroup/getmarkerscolor/
+url: /go-cpp/sparklinegroup/getmarkerscolor/
 ---
 
 ## GetMarkersColor function

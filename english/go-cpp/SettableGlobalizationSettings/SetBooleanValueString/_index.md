@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetBooleanValueString method. Encapsulates the function that represents setbooleanvaluestring in Go.'
 type: docs
 weight: 200
-url: /go/settableglobalizationsettings/setbooleanvaluestring/
+url: /go-cpp/settableglobalizationsettings/setbooleanvaluestring/
 ---
 
 ## SetBooleanValueString function

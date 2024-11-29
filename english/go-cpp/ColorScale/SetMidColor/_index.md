@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetMidColor method. Encapsulates the function that represents setmidcolor in Go.'
 type: docs
 weight: 200
-url: /go/colorscale/setmidcolor/
+url: /go-cpp/colorscale/setmidcolor/
 ---
 
 ## SetMidColor function

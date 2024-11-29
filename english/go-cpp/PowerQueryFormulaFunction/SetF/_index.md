@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetF method. Encapsulates the function that represents setf in Go.'
 type: docs
 weight: 200
-url: /go/powerqueryformulafunction/setf/
+url: /go-cpp/powerqueryformulafunction/setf/
 ---
 
 ## SetF function

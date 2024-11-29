@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetCrossFilterType method. Encapsulates the function that represents getcrossfiltertype in Go.'
 type: docs
 weight: 200
-url: /go/slicercache/getcrossfiltertype/
+url: /go-cpp/slicercache/getcrossfiltertype/
 ---
 
 ## GetCrossFilterType function

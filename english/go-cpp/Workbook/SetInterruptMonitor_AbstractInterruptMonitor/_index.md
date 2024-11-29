@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetInterruptMonitor_AbstractInterruptMonitor method. Encapsulates the function that represents setinterruptmonitor in Go.'
 type: docs
 weight: 200
-url: /go/workbook/setinterruptmonitor_abstractinterruptmonitor/
+url: /go-cpp/workbook/setinterruptmonitor_abstractinterruptmonitor/
 ---
 
 ## SetInterruptMonitor_AbstractInterruptMonitor function

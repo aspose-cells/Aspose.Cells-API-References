@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Merge_Int_Int_Int_Int_Bool_Bool method. Encapsulates the function that represents merge in Go.'
 type: docs
 weight: 200
-url: /go/cells/merge_int_int_int_int_bool_bool/
+url: /go-cpp/cells/merge_int_int_int_int_bool_bool/
 ---
 
 ## Merge_Int_Int_Int_Int_Bool_Bool function

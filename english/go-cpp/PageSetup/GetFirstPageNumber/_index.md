@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetFirstPageNumber method. Encapsulates the function that represents getfirstpagenumber in Go.'
 type: docs
 weight: 200
-url: /go/pagesetup/getfirstpagenumber/
+url: /go-cpp/pagesetup/getfirstpagenumber/
 ---
 
 ## GetFirstPageNumber function

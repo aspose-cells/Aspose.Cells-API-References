@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetSecond method. Encapsulates the function that represents getsecond in Go.'
 type: docs
 weight: 200
-url: /go/datetimegroupitem/getsecond/
+url: /go-cpp/datetimegroupitem/getsecond/
 ---
 
 ## GetSecond function

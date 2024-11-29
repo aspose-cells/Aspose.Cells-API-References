@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetRefreshedByWho method. Encapsulates the function that represents getrefreshedbywho in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/getrefreshedbywho/
+url: /go-cpp/pivottable/getrefreshedbywho/
 ---
 
 ## GetRefreshedByWho function

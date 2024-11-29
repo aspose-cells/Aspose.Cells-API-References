@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetLeftCM method. Encapsulates the function that represents setleftcm in Go.'
 type: docs
 weight: 200
-url: /go/commentshape/setleftcm/
+url: /go-cpp/commentshape/setleftcm/
 ---
 
 ## SetLeftCM function

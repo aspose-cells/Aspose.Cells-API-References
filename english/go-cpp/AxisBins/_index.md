@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'AxisBins class. Encapsulates the object that represents axisbins in Go.'
 type: docs
 weight: 200
-url: /go/axisbins/
+url: /go-cpp/axisbins/
 ---
 
 ## AxisBins class

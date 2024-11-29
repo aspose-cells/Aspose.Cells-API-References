@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetInnerWidth method. Encapsulates the function that represents getinnerwidth in Go.'
 type: docs
 weight: 200
-url: /go/plotarea/getinnerwidth/
+url: /go-cpp/plotarea/getinnerwidth/
 ---
 
 ## GetInnerWidth function

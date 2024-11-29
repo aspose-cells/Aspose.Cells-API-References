@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Get method. Encapsulates the function that represents get in Go.'
 type: docs
 weight: 200
-url: /go/row/get/
+url: /go-cpp/row/get/
 ---
 
 ## Get function

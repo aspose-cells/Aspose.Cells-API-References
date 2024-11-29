@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetErrorString method. Encapsulates the function that represents geterrorstring in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/geterrorstring/
+url: /go-cpp/pivottable/geterrorstring/
 ---
 
 ## GetErrorString function

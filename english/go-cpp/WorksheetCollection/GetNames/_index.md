@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetNames method. Encapsulates the function that represents getnames in Go.'
 type: docs
 weight: 200
-url: /go/worksheetcollection/getnames/
+url: /go-cpp/worksheetcollection/getnames/
 ---
 
 ## GetNames function

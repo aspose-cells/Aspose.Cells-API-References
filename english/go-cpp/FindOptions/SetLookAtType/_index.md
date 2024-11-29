@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetLookAtType method. Encapsulates the function that represents setlookattype in Go.'
 type: docs
 weight: 200
-url: /go/findoptions/setlookattype/
+url: /go-cpp/findoptions/setlookattype/
 ---
 
 ## SetLookAtType function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'PivotPageFields constructor. Encapsulates the function that represents newpivotpagefields in Go.'
 type: docs
 weight: 200
-url: /go/pivotpagefields/newpivotpagefields/
+url: /go-cpp/pivotpagefields/newpivotpagefields/
 ---
 
 ## NewPivotPageFields function

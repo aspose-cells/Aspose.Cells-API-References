@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ReConnectionMethodType enum. Encapsulates the object that represents reconnectionmethodtype in Go.'
 type: docs
 weight: 200
-url: /go/reconnectionmethodtype/
+url: /go-cpp/reconnectionmethodtype/
 ---
 
 ## ReConnectionMethodType Enum

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'AutomaticFill class. Encapsulates the object that represents automaticfill in Go.'
 type: docs
 weight: 200
-url: /go/automaticfill/
+url: /go-cpp/automaticfill/
 ---
 
 ## AutomaticFill class

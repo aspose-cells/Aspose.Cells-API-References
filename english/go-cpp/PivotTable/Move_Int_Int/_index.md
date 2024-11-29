@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Move_Int_Int method. Encapsulates the function that represents move in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/move_int_int/
+url: /go-cpp/pivottable/move_int_int/
 ---
 
 ## Move_Int_Int function

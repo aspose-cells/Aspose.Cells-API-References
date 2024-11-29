@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'TextRunEquationNode_CreateNode method. Encapsulates the function that represents createnode in Go.'
 type: docs
 weight: 200
-url: /go/textrunequationnode/textrunequationnode_createnode/
+url: /go-cpp/textrunequationnode/textrunequationnode_createnode/
 ---
 
 ## TextRunEquationNode_CreateNode function

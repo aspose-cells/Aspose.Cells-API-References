@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetFooter method. Encapsulates the function that represents getfooter in Go.'
 type: docs
 weight: 200
-url: /go/pagesetup/getfooter/
+url: /go-cpp/pagesetup/getfooter/
 ---
 
 ## GetFooter function

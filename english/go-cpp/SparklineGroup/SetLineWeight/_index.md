@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetLineWeight method. Encapsulates the function that represents setlineweight in Go.'
 type: docs
 weight: 200
-url: /go/sparklinegroup/setlineweight/
+url: /go-cpp/sparklinegroup/setlineweight/
 ---
 
 ## SetLineWeight function

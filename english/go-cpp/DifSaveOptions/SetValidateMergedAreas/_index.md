@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetValidateMergedAreas method. Encapsulates the function that represents setvalidatemergedareas in Go.'
 type: docs
 weight: 200
-url: /go/difsaveoptions/setvalidatemergedareas/
+url: /go-cpp/difsaveoptions/setvalidatemergedareas/
 ---
 
 ## SetValidateMergedAreas function

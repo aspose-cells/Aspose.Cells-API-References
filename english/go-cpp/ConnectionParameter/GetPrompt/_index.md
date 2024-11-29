@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetPrompt method. Encapsulates the function that represents getprompt in Go.'
 type: docs
 weight: 200
-url: /go/connectionparameter/getprompt/
+url: /go-cpp/connectionparameter/getprompt/
 ---
 
 ## GetPrompt function

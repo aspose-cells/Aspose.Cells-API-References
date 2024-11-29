@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'RemovePersonalInformation method. Encapsulates the function that represents removepersonalinformation in Go.'
 type: docs
 weight: 200
-url: /go/workbook/removepersonalinformation/
+url: /go-cpp/workbook/removepersonalinformation/
 ---
 
 ## RemovePersonalInformation function

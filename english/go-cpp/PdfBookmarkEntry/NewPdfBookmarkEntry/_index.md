@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'PdfBookmarkEntry constructor. Encapsulates the function that represents newpdfbookmarkentry in Go.'
 type: docs
 weight: 200
-url: /go/pdfbookmarkentry/newpdfbookmarkentry/
+url: /go-cpp/pdfbookmarkentry/newpdfbookmarkentry/
 ---
 
 ## NewPdfBookmarkEntry function

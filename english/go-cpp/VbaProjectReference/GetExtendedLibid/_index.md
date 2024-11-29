@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetExtendedLibid method. Encapsulates the function that represents getextendedlibid in Go.'
 type: docs
 weight: 200
-url: /go/vbaprojectreference/getextendedlibid/
+url: /go-cpp/vbaprojectreference/getextendedlibid/
 ---
 
 ## GetExtendedLibid function

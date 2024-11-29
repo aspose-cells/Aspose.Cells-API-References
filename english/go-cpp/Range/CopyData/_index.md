@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'CopyData method. Encapsulates the function that represents copydata in Go.'
 type: docs
 weight: 200
-url: /go/range/copydata/
+url: /go-cpp/range/copydata/
 ---
 
 ## CopyData function

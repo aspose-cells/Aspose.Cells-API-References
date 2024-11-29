@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'CreateStyle method. Encapsulates the function that represents createstyle in Go.'
 type: docs
 weight: 200
-url: /go/workbook/createstyle/
+url: /go-cpp/workbook/createstyle/
 ---
 
 ## CreateStyle function

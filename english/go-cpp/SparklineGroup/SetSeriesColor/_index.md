@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetSeriesColor method. Encapsulates the function that represents setseriescolor in Go.'
 type: docs
 weight: 200
-url: /go/sparklinegroup/setseriescolor/
+url: /go-cpp/sparklinegroup/setseriescolor/
 ---
 
 ## SetSeriesColor function

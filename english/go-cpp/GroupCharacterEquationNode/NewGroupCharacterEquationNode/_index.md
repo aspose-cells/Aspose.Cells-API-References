@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GroupCharacterEquationNode constructor. Encapsulates the function that represents newgroupcharacterequationnode in Go.'
 type: docs
 weight: 200
-url: /go/groupcharacterequationnode/newgroupcharacterequationnode/
+url: /go-cpp/groupcharacterequationnode/newgroupcharacterequationnode/
 ---
 
 ## NewGroupCharacterEquationNode function

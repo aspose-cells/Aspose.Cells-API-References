@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetQuartileCalculation method. Encapsulates the function that represents setquartilecalculation in Go.'
 type: docs
 weight: 200
-url: /go/serieslayoutproperties/setquartilecalculation/
+url: /go-cpp/serieslayoutproperties/setquartilecalculation/
 ---
 
 ## SetQuartileCalculation function

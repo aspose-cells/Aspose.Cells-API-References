@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetShowNegativeBubbles method. Encapsulates the function that represents setshownegativebubbles in Go.'
 type: docs
 weight: 200
-url: /go/series/setshownegativebubbles/
+url: /go-cpp/series/setshownegativebubbles/
 ---
 
 ## SetShowNegativeBubbles function

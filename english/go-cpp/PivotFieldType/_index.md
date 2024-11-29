@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'PivotFieldType enum. Encapsulates the object that represents pivotfieldtype in Go.'
 type: docs
 weight: 200
-url: /go/pivotfieldtype/
+url: /go-cpp/pivotfieldtype/
 ---
 
 ## PivotFieldType Enum

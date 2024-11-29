@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsDragBehaviorEnabled method. Encapsulates the function that represents isdragbehaviorenabled in Go.'
 type: docs
 weight: 200
-url: /go/comboboxactivexcontrol/isdragbehaviorenabled/
+url: /go-cpp/comboboxactivexcontrol/isdragbehaviorenabled/
 ---
 
 ## IsDragBehaviorEnabled function

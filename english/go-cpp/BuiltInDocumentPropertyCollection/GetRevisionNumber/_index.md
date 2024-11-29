@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetRevisionNumber method. Encapsulates the function that represents getrevisionnumber in Go.'
 type: docs
 weight: 200
-url: /go/builtindocumentpropertycollection/getrevisionnumber/
+url: /go-cpp/builtindocumentpropertycollection/getrevisionnumber/
 ---
 
 ## GetRevisionNumber function

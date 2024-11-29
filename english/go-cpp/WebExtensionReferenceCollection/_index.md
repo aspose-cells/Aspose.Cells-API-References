@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'WebExtensionReferenceCollection class. Encapsulates the object that represents webextensionreferencecollection in Go.'
 type: docs
 weight: 200
-url: /go/webextensionreferencecollection/
+url: /go-cpp/webextensionreferencecollection/
 ---
 
 ## WebExtensionReferenceCollection class

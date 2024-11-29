@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetKeepSeparatorsForBlankRow method. Encapsulates the function that represents getkeepseparatorsforblankrow in Go.'
 type: docs
 weight: 200
-url: /go/txtsaveoptions/getkeepseparatorsforblankrow/
+url: /go-cpp/txtsaveoptions/getkeepseparatorsforblankrow/
 ---
 
 ## GetKeepSeparatorsForBlankRow function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'MsoPresetTextEffect enum. Encapsulates the object that represents msopresettexteffect in Go.'
 type: docs
 weight: 200
-url: /go/msopresettexteffect/
+url: /go-cpp/msopresettexteffect/
 ---
 
 ## MsoPresetTextEffect Enum

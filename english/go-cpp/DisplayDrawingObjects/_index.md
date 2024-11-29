@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'DisplayDrawingObjects enum. Encapsulates the object that represents displaydrawingobjects in Go.'
 type: docs
 weight: 200
-url: /go/displaydrawingobjects/
+url: /go-cpp/displaydrawingobjects/
 ---
 
 ## DisplayDrawingObjects Enum

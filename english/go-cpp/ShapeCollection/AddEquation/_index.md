@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'AddEquation method. Encapsulates the function that represents addequation in Go.'
 type: docs
 weight: 200
-url: /go/shapecollection/addequation/
+url: /go-cpp/shapecollection/addequation/
 ---
 
 ## AddEquation function

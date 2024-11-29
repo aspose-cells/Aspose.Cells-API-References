@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetDestinationArea method. Encapsulates the function that represents getdestinationarea in Go.'
 type: docs
 weight: 200
-url: /go/revisioncellmove/getdestinationarea/
+url: /go-cpp/revisioncellmove/getdestinationarea/
 ---
 
 ## GetDestinationArea function

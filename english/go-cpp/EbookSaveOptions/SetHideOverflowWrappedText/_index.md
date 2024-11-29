@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetHideOverflowWrappedText method. Encapsulates the function that represents sethideoverflowwrappedtext in Go.'
 type: docs
 weight: 200
-url: /go/ebooksaveoptions/sethideoverflowwrappedtext/
+url: /go-cpp/ebooksaveoptions/sethideoverflowwrappedtext/
 ---
 
 ## SetHideOverflowWrappedText function

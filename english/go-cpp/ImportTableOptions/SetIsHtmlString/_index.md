@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsHtmlString method. Encapsulates the function that represents setishtmlstring in Go.'
 type: docs
 weight: 200
-url: /go/importtableoptions/setishtmlstring/
+url: /go-cpp/importtableoptions/setishtmlstring/
 ---
 
 ## SetIsHtmlString function

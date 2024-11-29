@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetFontConfigs method. Encapsulates the function that represents getfontconfigs in Go.'
 type: docs
 weight: 200
-url: /go/abstracttextloadoptions/getfontconfigs/
+url: /go-cpp/abstracttextloadoptions/getfontconfigs/
 ---
 
 ## GetFontConfigs function

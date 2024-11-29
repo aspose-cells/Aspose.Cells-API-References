@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetLinkedCell method. Encapsulates the function that represents setlinkedcell in Go.'
 type: docs
 weight: 200
-url: /go/activexcontrolbase/setlinkedcell/
+url: /go-cpp/activexcontrolbase/setlinkedcell/
 ---
 
 ## SetLinkedCell function

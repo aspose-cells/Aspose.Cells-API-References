@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetMaxIteration method. Encapsulates the function that represents getmaxiteration in Go.'
 type: docs
 weight: 200
-url: /go/formulasettings/getmaxiteration/
+url: /go-cpp/formulasettings/getmaxiteration/
 ---
 
 ## GetMaxIteration function

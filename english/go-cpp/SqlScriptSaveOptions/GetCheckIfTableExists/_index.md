@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetCheckIfTableExists method. Encapsulates the function that represents getcheckiftableexists in Go.'
 type: docs
 weight: 200
-url: /go/sqlscriptsaveoptions/getcheckiftableexists/
+url: /go-cpp/sqlscriptsaveoptions/getcheckiftableexists/
 ---
 
 ## GetCheckIfTableExists function

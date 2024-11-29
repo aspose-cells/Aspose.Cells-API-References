@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetCustomFunctionDefinition method. Encapsulates the function that represents getcustomfunctiondefinition in Go.'
 type: docs
 weight: 200
-url: /go/formulaparseoptions/getcustomfunctiondefinition/
+url: /go-cpp/formulaparseoptions/getcustomfunctiondefinition/
 ---
 
 ## GetCustomFunctionDefinition function

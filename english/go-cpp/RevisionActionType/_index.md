@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'RevisionActionType enum. Encapsulates the object that represents revisionactiontype in Go.'
 type: docs
 weight: 200
-url: /go/revisionactiontype/
+url: /go-cpp/revisionactiontype/
 ---
 
 ## RevisionActionType Enum

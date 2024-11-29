@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetChartDataTable method. Encapsulates the function that represents getchartdatatable in Go.'
 type: docs
 weight: 200
-url: /go/chart/getchartdatatable/
+url: /go-cpp/chart/getchartdatatable/
 ---
 
 ## GetChartDataTable function

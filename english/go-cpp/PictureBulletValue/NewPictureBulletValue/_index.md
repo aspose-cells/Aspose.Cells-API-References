@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'PictureBulletValue constructor. Encapsulates the function that represents newpicturebulletvalue in Go.'
 type: docs
 weight: 200
-url: /go/picturebulletvalue/newpicturebulletvalue/
+url: /go-cpp/picturebulletvalue/newpicturebulletvalue/
 ---
 
 ## NewPictureBulletValue function

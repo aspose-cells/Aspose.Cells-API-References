@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetBaseUnitScale method. Encapsulates the function that represents getbaseunitscale in Go.'
 type: docs
 weight: 200
-url: /go/axis/getbaseunitscale/
+url: /go-cpp/axis/getbaseunitscale/
 ---
 
 ## GetBaseUnitScale function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'HideItem_String_Bool method. Encapsulates the function that represents hideitem in Go.'
 type: docs
 weight: 200
-url: /go/pivotfield/hideitem_string_bool/
+url: /go-cpp/pivotfield/hideitem_string_bool/
 ---
 
 ## HideItem_String_Bool function

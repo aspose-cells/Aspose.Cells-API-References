@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SmartTagOptions constructor. Encapsulates the function that represents newsmarttagoptions in Go.'
 type: docs
 weight: 200
-url: /go/smarttagoptions/newsmarttagoptions/
+url: /go-cpp/smarttagoptions/newsmarttagoptions/
 ---
 
 ## NewSmartTagOptions function

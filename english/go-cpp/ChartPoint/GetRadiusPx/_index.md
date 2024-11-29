@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetRadiusPx method. Encapsulates the function that represents getradiuspx in Go.'
 type: docs
 weight: 200
-url: /go/chartpoint/getradiuspx/
+url: /go-cpp/chartpoint/getradiuspx/
 ---
 
 ## GetRadiusPx function

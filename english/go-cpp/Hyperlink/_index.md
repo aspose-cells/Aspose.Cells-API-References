@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Hyperlink class. Encapsulates the object that represents hyperlink in Go.'
 type: docs
 weight: 200
-url: /go/hyperlink/
+url: /go-cpp/hyperlink/
 ---
 
 ## Hyperlink class

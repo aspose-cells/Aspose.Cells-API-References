@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetFontBold method. Encapsulates the function that represents getfontbold in Go.'
 type: docs
 weight: 200
-url: /go/styleflag/getfontbold/
+url: /go-cpp/styleflag/getfontbold/
 ---
 
 ## GetFontBold function

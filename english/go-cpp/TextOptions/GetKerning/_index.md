@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetKerning method. Encapsulates the function that represents getkerning in Go.'
 type: docs
 weight: 200
-url: /go/textoptions/getkerning/
+url: /go-cpp/textoptions/getkerning/
 ---
 
 ## GetKerning function

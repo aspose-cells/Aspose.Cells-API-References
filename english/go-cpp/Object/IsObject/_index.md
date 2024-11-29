@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsObject method. Encapsulates the function that represents isobject in Go.'
 type: docs
 weight: 200
-url: /go/object/isobject/
+url: /go-cpp/object/isobject/
 ---
 
 ## IsObject function

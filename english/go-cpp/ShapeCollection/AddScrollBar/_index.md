@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'AddScrollBar method. Encapsulates the function that represents addscrollbar in Go.'
 type: docs
 weight: 200
-url: /go/shapecollection/addscrollbar/
+url: /go-cpp/shapecollection/addscrollbar/
 ---
 
 ## AddScrollBar function

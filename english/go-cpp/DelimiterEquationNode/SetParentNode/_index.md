@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetParentNode method. Encapsulates the function that represents setparentnode in Go.'
 type: docs
 weight: 200
-url: /go/delimiterequationnode/setparentnode/
+url: /go-cpp/delimiterequationnode/setparentnode/
 ---
 
 ## SetParentNode function

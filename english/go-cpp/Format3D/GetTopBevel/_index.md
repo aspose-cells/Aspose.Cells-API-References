@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTopBevel method. Encapsulates the function that represents gettopbevel in Go.'
 type: docs
 weight: 200
-url: /go/format3d/gettopbevel/
+url: /go-cpp/format3d/gettopbevel/
 ---
 
 ## GetTopBevel function

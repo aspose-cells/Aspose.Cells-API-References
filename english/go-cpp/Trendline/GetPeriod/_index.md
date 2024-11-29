@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetPeriod method. Encapsulates the function that represents getperiod in Go.'
 type: docs
 weight: 200
-url: /go/trendline/getperiod/
+url: /go-cpp/trendline/getperiod/
 ---
 
 ## GetPeriod function

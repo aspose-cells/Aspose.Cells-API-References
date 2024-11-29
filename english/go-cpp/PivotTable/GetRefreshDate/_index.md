@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetRefreshDate method. Encapsulates the function that represents getrefreshdate in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/getrefreshdate/
+url: /go-cpp/pivottable/getrefreshdate/
 ---
 
 ## GetRefreshDate function

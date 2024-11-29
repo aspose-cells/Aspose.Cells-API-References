@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsShapeColor method. Encapsulates the function that represents setisshapecolor in Go.'
 type: docs
 weight: 200
-url: /go/cellscolor/setisshapecolor/
+url: /go-cpp/cellscolor/setisshapecolor/
 ---
 
 ## SetIsShapeColor function

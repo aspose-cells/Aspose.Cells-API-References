@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetQuoteType method. Encapsulates the function that represents getquotetype in Go.'
 type: docs
 weight: 200
-url: /go/txtsaveoptions/getquotetype/
+url: /go-cpp/txtsaveoptions/getquotetype/
 ---
 
 ## GetQuoteType function

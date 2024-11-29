@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetOpacity method. Encapsulates the function that represents getopacity in Go.'
 type: docs
 weight: 200
-url: /go/renderingwatermark/getopacity/
+url: /go-cpp/renderingwatermark/getopacity/
 ---
 
 ## GetOpacity function

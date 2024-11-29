@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetOnlyAuto method. Encapsulates the function that represents getonlyauto in Go.'
 type: docs
 weight: 200
-url: /go/autofitteroptions/getonlyauto/
+url: /go-cpp/autofitteroptions/getonlyauto/
 ---
 
 ## GetOnlyAuto function

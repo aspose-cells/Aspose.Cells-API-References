@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetHideOverflowWrappedText method. Encapsulates the function that represents gethideoverflowwrappedtext in Go.'
 type: docs
 weight: 200
-url: /go/htmlsaveoptions/gethideoverflowwrappedtext/
+url: /go-cpp/htmlsaveoptions/gethideoverflowwrappedtext/
 ---
 
 ## GetHideOverflowWrappedText function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetElementStyle method. Encapsulates the function that represents setelementstyle in Go.'
 type: docs
 weight: 200
-url: /go/tablestyleelement/setelementstyle/
+url: /go-cpp/tablestyleelement/setelementstyle/
 ---
 
 ## SetElementStyle function

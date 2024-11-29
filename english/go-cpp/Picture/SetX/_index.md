@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetX method. Encapsulates the function that represents setx in Go.'
 type: docs
 weight: 200
-url: /go/picture/setx/
+url: /go-cpp/picture/setx/
 ---
 
 ## SetX function

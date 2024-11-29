@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetRanges method. Encapsulates the function that represents getranges in Go.'
 type: docs
 weight: 200
-url: /go/cells/getranges/
+url: /go-cpp/cells/getranges/
 ---
 
 ## GetRanges function

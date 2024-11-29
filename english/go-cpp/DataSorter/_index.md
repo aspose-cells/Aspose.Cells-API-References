@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'DataSorter class. Encapsulates the object that represents datasorter in Go.'
 type: docs
 weight: 200
-url: /go/datasorter/
+url: /go-cpp/datasorter/
 ---
 
 ## DataSorter class

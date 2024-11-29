@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'PresetThemeGradientType enum. Encapsulates the object that represents presetthemegradienttype in Go.'
 type: docs
 weight: 200
-url: /go/presetthemegradienttype/
+url: /go-cpp/presetthemegradienttype/
 ---
 
 ## PresetThemeGradientType Enum

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetIndent method. Encapsulates the function that represents getindent in Go.'
 type: docs
 weight: 200
-url: /go/exportrangetojsonoptions/getindent/
+url: /go-cpp/exportrangetojsonoptions/getindent/
 ---
 
 ## GetIndent function

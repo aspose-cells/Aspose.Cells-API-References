@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetSigner method. Encapsulates the function that represents setsigner in Go.'
 type: docs
 weight: 200
-url: /go/signatureline/setsigner/
+url: /go-cpp/signatureline/setsigner/
 ---
 
 ## SetSigner function

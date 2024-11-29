@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetFontBold method. Encapsulates the function that represents setfontbold in Go.'
 type: docs
 weight: 200
-url: /go/texteffectformat/setfontbold/
+url: /go-cpp/texteffectformat/setfontbold/
 ---
 
 ## SetFontBold function

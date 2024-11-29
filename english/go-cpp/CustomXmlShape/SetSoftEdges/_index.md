@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetSoftEdges method. Encapsulates the function that represents setsoftedges in Go.'
 type: docs
 weight: 200
-url: /go/customxmlshape/setsoftedges/
+url: /go-cpp/customxmlshape/setsoftedges/
 ---
 
 ## SetSoftEdges function

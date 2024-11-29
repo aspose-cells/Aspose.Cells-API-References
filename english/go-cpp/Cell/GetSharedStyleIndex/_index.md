@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetSharedStyleIndex method. Encapsulates the function that represents getsharedstyleindex in Go.'
 type: docs
 weight: 200
-url: /go/cell/getsharedstyleindex/
+url: /go-cpp/cell/getsharedstyleindex/
 ---
 
 ## GetSharedStyleIndex function

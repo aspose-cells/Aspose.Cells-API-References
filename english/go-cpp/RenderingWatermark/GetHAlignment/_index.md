@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetHAlignment method. Encapsulates the function that represents gethalignment in Go.'
 type: docs
 weight: 200
-url: /go/renderingwatermark/gethalignment/
+url: /go-cpp/renderingwatermark/gethalignment/
 ---
 
 ## GetHAlignment function

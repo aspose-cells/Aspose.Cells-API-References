@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsBiLevel method. Encapsulates the function that represents isbilevel in Go.'
 type: docs
 weight: 200
-url: /go/msoformatpicture/isbilevel/
+url: /go-cpp/msoformatpicture/isbilevel/
 ---
 
 ## IsBiLevel function

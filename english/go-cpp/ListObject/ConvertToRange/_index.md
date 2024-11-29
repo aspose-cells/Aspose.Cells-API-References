@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ConvertToRange method. Encapsulates the function that represents converttorange in Go.'
 type: docs
 weight: 200
-url: /go/listobject/converttorange/
+url: /go-cpp/listobject/converttorange/
 ---
 
 ## ConvertToRange function

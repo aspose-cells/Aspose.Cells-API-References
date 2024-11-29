@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetUpperLeftColumn method. Encapsulates the function that represents setupperleftcolumn in Go.'
 type: docs
 weight: 200
-url: /go/combobox/setupperleftcolumn/
+url: /go-cpp/combobox/setupperleftcolumn/
 ---
 
 ## SetUpperLeftColumn function

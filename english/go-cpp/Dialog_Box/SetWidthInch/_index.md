@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetWidthInch method. Encapsulates the function that represents setwidthinch in Go.'
 type: docs
 weight: 200
-url: /go/dialog_box/setwidthinch/
+url: /go-cpp/dialog_box/setwidthinch/
 ---
 
 ## SetWidthInch function

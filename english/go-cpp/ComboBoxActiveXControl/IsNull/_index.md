@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsNull method. Encapsulates the function that represents isnull in Go.'
 type: docs
 weight: 200
-url: /go/comboboxactivexcontrol/isnull/
+url: /go-cpp/comboboxactivexcontrol/isnull/
 ---
 
 ## IsNull function

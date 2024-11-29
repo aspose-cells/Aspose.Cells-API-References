@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetUpdateAdjacentCellsBorder method. Encapsulates the function that represents setupdateadjacentcellsborder in Go.'
 type: docs
 weight: 200
-url: /go/workbooksettings/setupdateadjacentcellsborder/
+url: /go-cpp/workbooksettings/setupdateadjacentcellsborder/
 ---
 
 ## SetUpdateAdjacentCellsBorder function

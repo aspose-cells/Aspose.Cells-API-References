@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsPlotOrderReversed method. Encapsulates the function that represents isplotorderreversed in Go.'
 type: docs
 weight: 200
-url: /go/axis/isplotorderreversed/
+url: /go-cpp/axis/isplotorderreversed/
 ---
 
 ## IsPlotOrderReversed function

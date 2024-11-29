@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetPivotOptions method. Encapsulates the function that represents getpivotoptions in Go.'
 type: docs
 weight: 200
-url: /go/chart/getpivotoptions/
+url: /go-cpp/chart/getpivotoptions/
 ---
 
 ## GetPivotOptions function

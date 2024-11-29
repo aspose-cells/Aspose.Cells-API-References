@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsGradient method. Encapsulates the function that represents isgradient in Go.'
 type: docs
 weight: 200
-url: /go/style/isgradient/
+url: /go-cpp/style/isgradient/
 ---
 
 ## IsGradient function

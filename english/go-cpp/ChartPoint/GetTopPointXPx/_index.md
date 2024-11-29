@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTopPointXPx method. Encapsulates the function that represents gettoppointxpx in Go.'
 type: docs
 weight: 200
-url: /go/chartpoint/gettoppointxpx/
+url: /go-cpp/chartpoint/gettoppointxpx/
 ---
 
 ## GetTopPointXPx function

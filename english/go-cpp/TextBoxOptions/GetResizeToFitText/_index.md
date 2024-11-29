@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetResizeToFitText method. Encapsulates the function that represents getresizetofittext in Go.'
 type: docs
 weight: 200
-url: /go/textboxoptions/getresizetofittext/
+url: /go-cpp/textboxoptions/getresizetofittext/
 ---
 
 ## GetResizeToFitText function

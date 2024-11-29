@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetGradientColorType method. Encapsulates the function that represents getgradientcolortype in Go.'
 type: docs
 weight: 200
-url: /go/fillformat/getgradientcolortype/
+url: /go-cpp/fillformat/getgradientcolortype/
 ---
 
 ## GetGradientColorType function

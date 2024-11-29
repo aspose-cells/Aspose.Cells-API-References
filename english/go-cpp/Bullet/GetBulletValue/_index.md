@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetBulletValue method. Encapsulates the function that represents getbulletvalue in Go.'
 type: docs
 weight: 200
-url: /go/bullet/getbulletvalue/
+url: /go-cpp/bullet/getbulletvalue/
 ---
 
 ## GetBulletValue function

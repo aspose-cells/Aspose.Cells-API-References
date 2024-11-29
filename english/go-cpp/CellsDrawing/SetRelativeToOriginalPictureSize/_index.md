@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetRelativeToOriginalPictureSize method. Encapsulates the function that represents setrelativetooriginalpicturesize in Go.'
 type: docs
 weight: 200
-url: /go/cellsdrawing/setrelativetooriginalpicturesize/
+url: /go-cpp/cellsdrawing/setrelativetooriginalpicturesize/
 ---
 
 ## SetRelativeToOriginalPictureSize function

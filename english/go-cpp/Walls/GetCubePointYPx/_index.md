@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetCubePointYPx method. Encapsulates the function that represents getcubepointypx in Go.'
 type: docs
 weight: 200
-url: /go/walls/getcubepointypx/
+url: /go-cpp/walls/getcubepointypx/
 ---
 
 ## GetCubePointYPx function

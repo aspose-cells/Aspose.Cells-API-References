@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetPictures method. Encapsulates the function that represents getpictures in Go.'
 type: docs
 weight: 200
-url: /go/worksheet/getpictures/
+url: /go-cpp/worksheet/getpictures/
 ---
 
 ## GetPictures function

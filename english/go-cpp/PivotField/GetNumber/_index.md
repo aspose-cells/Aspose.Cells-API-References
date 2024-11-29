@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetNumber method. Encapsulates the function that represents getnumber in Go.'
 type: docs
 weight: 200
-url: /go/pivotfield/getnumber/
+url: /go-cpp/pivotfield/getnumber/
 ---
 
 ## GetNumber function

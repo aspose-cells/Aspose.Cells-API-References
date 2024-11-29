@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetCustomFormat method. Encapsulates the function that represents getcustomformat in Go.'
 type: docs
 weight: 200
-url: /go/odscellfield/getcustomformat/
+url: /go-cpp/odscellfield/getcustomformat/
 ---
 
 ## GetCustomFormat function

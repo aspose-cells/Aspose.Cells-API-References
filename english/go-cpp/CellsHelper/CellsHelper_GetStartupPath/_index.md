@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'CellsHelper_GetStartupPath method. Encapsulates the function that represents getstartuppath in Go.'
 type: docs
 weight: 200
-url: /go/cellshelper/cellshelper_getstartuppath/
+url: /go-cpp/cellshelper/cellshelper_getstartuppath/
 ---
 
 ## CellsHelper_GetStartupPath function

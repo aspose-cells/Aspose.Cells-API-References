@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetNumberOfColumns method. Encapsulates the function that represents getnumberofcolumns in Go.'
 type: docs
 weight: 200
-url: /go/slicer/getnumberofcolumns/
+url: /go-cpp/slicer/getnumberofcolumns/
 ---
 
 ## GetNumberOfColumns function

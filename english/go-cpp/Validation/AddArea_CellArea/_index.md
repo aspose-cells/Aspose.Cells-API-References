@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'AddArea_CellArea method. Encapsulates the function that represents addarea in Go.'
 type: docs
 weight: 200
-url: /go/validation/addarea_cellarea/
+url: /go-cpp/validation/addarea_cellarea/
 ---
 
 ## AddArea_CellArea function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'TextRunEquationNode class. Encapsulates the object that represents textrunequationnode in Go.'
 type: docs
 weight: 200
-url: /go/textrunequationnode/
+url: /go-cpp/textrunequationnode/
 ---
 
 ## TextRunEquationNode class

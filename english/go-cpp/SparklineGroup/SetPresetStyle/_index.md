@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetPresetStyle method. Encapsulates the function that represents setpresetstyle in Go.'
 type: docs
 weight: 200
-url: /go/sparklinegroup/setpresetstyle/
+url: /go-cpp/sparklinegroup/setpresetstyle/
 ---
 
 ## SetPresetStyle function

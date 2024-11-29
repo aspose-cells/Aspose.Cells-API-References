@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'QueryTable class. Encapsulates the object that represents querytable in Go.'
 type: docs
 weight: 200
-url: /go/querytable/
+url: /go-cpp/querytable/
 ---
 
 ## QueryTable class

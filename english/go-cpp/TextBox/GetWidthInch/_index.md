@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetWidthInch method. Encapsulates the function that represents getwidthinch in Go.'
 type: docs
 weight: 200
-url: /go/textbox/getwidthinch/
+url: /go-cpp/textbox/getwidthinch/
 ---
 
 ## GetWidthInch function

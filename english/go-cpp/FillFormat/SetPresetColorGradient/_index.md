@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetPresetColorGradient method. Encapsulates the function that represents setpresetcolorgradient in Go.'
 type: docs
 weight: 200
-url: /go/fillformat/setpresetcolorgradient/
+url: /go-cpp/fillformat/setpresetcolorgradient/
 ---
 
 ## SetPresetColorGradient function

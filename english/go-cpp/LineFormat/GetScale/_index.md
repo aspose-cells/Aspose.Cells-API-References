@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetScale method. Encapsulates the function that represents getscale in Go.'
 type: docs
 weight: 200
-url: /go/lineformat/getscale/
+url: /go-cpp/lineformat/getscale/
 ---
 
 ## GetScale function

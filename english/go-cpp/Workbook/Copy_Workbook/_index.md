@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Copy_Workbook method. Encapsulates the function that represents copy in Go.'
 type: docs
 weight: 200
-url: /go/workbook/copy_workbook/
+url: /go-cpp/workbook/copy_workbook/
 ---
 
 ## Copy_Workbook function

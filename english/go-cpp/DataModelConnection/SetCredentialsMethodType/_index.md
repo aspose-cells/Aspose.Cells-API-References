@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetCredentialsMethodType method. Encapsulates the function that represents setcredentialsmethodtype in Go.'
 type: docs
 weight: 200
-url: /go/datamodelconnection/setcredentialsmethodtype/
+url: /go-cpp/datamodelconnection/setcredentialsmethodtype/
 ---
 
 ## SetCredentialsMethodType function

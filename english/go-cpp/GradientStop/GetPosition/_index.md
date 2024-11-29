@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetPosition method. Encapsulates the function that represents getposition in Go.'
 type: docs
 weight: 200
-url: /go/gradientstop/getposition/
+url: /go-cpp/gradientstop/getposition/
 ---
 
 ## GetPosition function

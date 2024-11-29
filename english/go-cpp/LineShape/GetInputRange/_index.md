@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetInputRange method. Encapsulates the function that represents getinputrange in Go.'
 type: docs
 weight: 200
-url: /go/lineshape/getinputrange/
+url: /go-cpp/lineshape/getinputrange/
 ---
 
 ## GetInputRange function

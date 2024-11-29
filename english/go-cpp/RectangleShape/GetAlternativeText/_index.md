@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetAlternativeText method. Encapsulates the function that represents getalternativetext in Go.'
 type: docs
 weight: 200
-url: /go/rectangleshape/getalternativetext/
+url: /go-cpp/rectangleshape/getalternativetext/
 ---
 
 ## GetAlternativeText function

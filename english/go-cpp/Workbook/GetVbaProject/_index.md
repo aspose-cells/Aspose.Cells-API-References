@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetVbaProject method. Encapsulates the function that represents getvbaproject in Go.'
 type: docs
 weight: 200
-url: /go/workbook/getvbaproject/
+url: /go-cpp/workbook/getvbaproject/
 ---
 
 ## GetVbaProject function

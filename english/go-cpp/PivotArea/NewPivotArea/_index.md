@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'PivotArea constructor. Encapsulates the function that represents newpivotarea in Go.'
 type: docs
 weight: 200
-url: /go/pivotarea/newpivotarea/
+url: /go-cpp/pivotarea/newpivotarea/
 ---
 
 ## NewPivotArea function

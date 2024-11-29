@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetOleSize_Int_Int_Int_Int method. Encapsulates the function that represents setolesize in Go.'
 type: docs
 weight: 200
-url: /go/worksheetcollection/setolesize_int_int_int_int/
+url: /go-cpp/worksheetcollection/setolesize_int_int_int_int/
 ---
 
 ## SetOleSize_Int_Int_Int_Int function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetOriginalWidthCM method. Encapsulates the function that represents getoriginalwidthcm in Go.'
 type: docs
 weight: 200
-url: /go/picture/getoriginalwidthcm/
+url: /go-cpp/picture/getoriginalwidthcm/
 ---
 
 ## GetOriginalWidthCM function

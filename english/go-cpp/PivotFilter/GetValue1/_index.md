@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetValue1 method. Encapsulates the function that represents getvalue1 in Go.'
 type: docs
 weight: 200
-url: /go/pivotfilter/getvalue1/
+url: /go-cpp/pivotfilter/getvalue1/
 ---
 
 ## GetValue1 function

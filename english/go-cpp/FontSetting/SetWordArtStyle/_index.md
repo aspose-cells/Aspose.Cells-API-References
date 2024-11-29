@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetWordArtStyle method. Encapsulates the function that represents setwordartstyle in Go.'
 type: docs
 weight: 200
-url: /go/fontsetting/setwordartstyle/
+url: /go-cpp/fontsetting/setwordartstyle/
 ---
 
 ## SetWordArtStyle function

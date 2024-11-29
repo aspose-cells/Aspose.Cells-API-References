@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetDynamicArrayFormula_String_FormulaParseOptions_Bool method. Encapsulates the function that represents setdynamicarrayformula in Go.'
 type: docs
 weight: 200
-url: /go/cell/setdynamicarrayformula_string_formulaparseoptions_bool/
+url: /go-cpp/cell/setdynamicarrayformula_string_formulaparseoptions_bool/
 ---
 
 ## SetDynamicArrayFormula_String_FormulaParseOptions_Bool function

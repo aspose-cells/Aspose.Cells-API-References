@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetDisplayNullString method. Encapsulates the function that represents setdisplaynullstring in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/setdisplaynullstring/
+url: /go-cpp/pivottable/setdisplaynullstring/
 ---
 
 ## SetDisplayNullString function

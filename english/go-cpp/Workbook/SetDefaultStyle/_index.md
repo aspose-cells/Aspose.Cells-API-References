@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetDefaultStyle method. Encapsulates the function that represents setdefaultstyle in Go.'
 type: docs
 weight: 200
-url: /go/workbook/setdefaultstyle/
+url: /go-cpp/workbook/setdefaultstyle/
 ---
 
 ## SetDefaultStyle function

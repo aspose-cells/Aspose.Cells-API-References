@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetAlwaysExportAsJsonObject method. Encapsulates the function that represents setalwaysexportasjsonobject in Go.'
 type: docs
 weight: 200
-url: /go/jsonsaveoptions/setalwaysexportasjsonobject/
+url: /go-cpp/jsonsaveoptions/setalwaysexportasjsonobject/
 ---
 
 ## SetAlwaysExportAsJsonObject function

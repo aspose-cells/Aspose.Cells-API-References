@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetCaption method. Encapsulates the function that represents getcaption in Go.'
 type: docs
 weight: 200
-url: /go/commandbuttonactivexcontrol/getcaption/
+url: /go-cpp/commandbuttonactivexcontrol/getcaption/
 ---
 
 ## GetCaption function

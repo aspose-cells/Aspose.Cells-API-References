@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetShowDrill method. Encapsulates the function that represents getshowdrill in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/getshowdrill/
+url: /go-cpp/pivottable/getshowdrill/
 ---
 
 ## GetShowDrill function

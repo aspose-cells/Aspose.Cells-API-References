@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ChartSplitType enum. Encapsulates the object that represents chartsplittype in Go.'
 type: docs
 weight: 200
-url: /go/chartsplittype/
+url: /go-cpp/chartsplittype/
 ---
 
 ## ChartSplitType Enum

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'NameScopeType enum. Encapsulates the object that represents namescopetype in Go.'
 type: docs
 weight: 200
-url: /go/namescopetype/
+url: /go-cpp/namescopetype/
 ---
 
 ## NameScopeType Enum

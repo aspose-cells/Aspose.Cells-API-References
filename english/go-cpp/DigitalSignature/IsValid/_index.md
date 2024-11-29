@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsValid method. Encapsulates the function that represents isvalid in Go.'
 type: docs
 weight: 200
-url: /go/digitalsignature/isvalid/
+url: /go-cpp/digitalsignature/isvalid/
 ---
 
 ## IsValid function

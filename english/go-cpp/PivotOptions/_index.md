@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'PivotOptions class. Encapsulates the object that represents pivotoptions in Go.'
 type: docs
 weight: 200
-url: /go/pivotoptions/
+url: /go-cpp/pivotoptions/
 ---
 
 ## PivotOptions class

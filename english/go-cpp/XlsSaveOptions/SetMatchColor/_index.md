@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetMatchColor method. Encapsulates the function that represents setmatchcolor in Go.'
 type: docs
 weight: 200
-url: /go/xlssaveoptions/setmatchcolor/
+url: /go-cpp/xlssaveoptions/setmatchcolor/
 ---
 
 ## SetMatchColor function

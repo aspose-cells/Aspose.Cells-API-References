@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetLowerDeltaY method. Encapsulates the function that represents setlowerdeltay in Go.'
 type: docs
 weight: 200
-url: /go/label/setlowerdeltay/
+url: /go-cpp/label/setlowerdeltay/
 ---
 
 ## SetLowerDeltaY function

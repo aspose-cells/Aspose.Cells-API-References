@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'PutValue_Date method. Encapsulates the function that represents putvalue in Go.'
 type: docs
 weight: 200
-url: /go/cell/putvalue_date/
+url: /go-cpp/cell/putvalue_date/
 ---
 
 ## PutValue_Date function

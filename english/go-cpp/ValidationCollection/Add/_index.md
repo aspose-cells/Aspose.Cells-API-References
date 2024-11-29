@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Add method. Encapsulates the function that represents add in Go.'
 type: docs
 weight: 200
-url: /go/validationcollection/add/
+url: /go-cpp/validationcollection/add/
 ---
 
 ## Add function

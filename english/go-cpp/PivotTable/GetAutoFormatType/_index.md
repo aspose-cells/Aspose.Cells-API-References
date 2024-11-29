@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetAutoFormatType method. Encapsulates the function that represents getautoformattype in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/getautoformattype/
+url: /go-cpp/pivottable/getautoformattype/
 ---
 
 ## GetAutoFormatType function

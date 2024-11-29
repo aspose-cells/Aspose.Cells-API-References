@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTextOfMonths method. Encapsulates the function that represents gettextofmonths in Go.'
 type: docs
 weight: 200
-url: /go/pivotglobalizationsettings/gettextofmonths/
+url: /go-cpp/pivotglobalizationsettings/gettextofmonths/
 ---
 
 ## GetTextOfMonths function

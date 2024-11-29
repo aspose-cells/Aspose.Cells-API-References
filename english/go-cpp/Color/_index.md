@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Color struct. Encapsulates the object that represents color in Go.'
 type: docs
 weight: 200
-url: /go/color/
+url: /go-cpp/color/
 ---
 
 ## Color Struct

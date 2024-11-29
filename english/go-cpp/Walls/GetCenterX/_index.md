@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetCenterX method. Encapsulates the function that represents getcenterx in Go.'
 type: docs
 weight: 200
-url: /go/walls/getcenterx/
+url: /go-cpp/walls/getcenterx/
 ---
 
 ## GetCenterX function

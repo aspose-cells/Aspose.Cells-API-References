@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetTextOfDataFieldHeader method. Encapsulates the function that represents settextofdatafieldheader in Go.'
 type: docs
 weight: 200
-url: /go/settablepivotglobalizationsettings/settextofdatafieldheader/
+url: /go-cpp/settablepivotglobalizationsettings/settextofdatafieldheader/
 ---
 
 ## SetTextOfDataFieldHeader function

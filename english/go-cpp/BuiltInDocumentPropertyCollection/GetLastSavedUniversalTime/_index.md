@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetLastSavedUniversalTime method. Encapsulates the function that represents getlastsaveduniversaltime in Go.'
 type: docs
 weight: 200
-url: /go/builtindocumentpropertycollection/getlastsaveduniversaltime/
+url: /go-cpp/builtindocumentpropertycollection/getlastsaveduniversaltime/
 ---
 
 ## GetLastSavedUniversalTime function

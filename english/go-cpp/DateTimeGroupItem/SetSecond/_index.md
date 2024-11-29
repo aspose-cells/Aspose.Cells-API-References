@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetSecond method. Encapsulates the function that represents setsecond in Go.'
 type: docs
 weight: 200
-url: /go/datetimegroupitem/setsecond/
+url: /go-cpp/datetimegroupitem/setsecond/
 ---
 
 ## SetSecond function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetTabPosition method. Encapsulates the function that represents settabposition in Go.'
 type: docs
 weight: 200
-url: /go/texttabstop/settabposition/
+url: /go-cpp/texttabstop/settabposition/
 ---
 
 ## SetTabPosition function

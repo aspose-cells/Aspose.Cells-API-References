@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetDigitalSignature method. Encapsulates the function that represents getdigitalsignature in Go.'
 type: docs
 weight: 200
-url: /go/workbook/getdigitalsignature/
+url: /go-cpp/workbook/getdigitalsignature/
 ---
 
 ## GetDigitalSignature function

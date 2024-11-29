@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetRotatedChars method. Encapsulates the function that represents getrotatedchars in Go.'
 type: docs
 weight: 200
-url: /go/texteffectformat/getrotatedchars/
+url: /go-cpp/texteffectformat/getrotatedchars/
 ---
 
 ## GetRotatedChars function

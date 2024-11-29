@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'CheckCell method. Encapsulates the function that represents checkcell in Go.'
 type: docs
 weight: 200
-url: /go/cells/checkcell/
+url: /go-cpp/cells/checkcell/
 ---
 
 ## CheckCell function

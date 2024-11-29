@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetCurrentPerson method. Encapsulates the function that represents setcurrentperson in Go.'
 type: docs
 weight: 200
-url: /go/threadedcommentauthorcollection/setcurrentperson/
+url: /go-cpp/threadedcommentauthorcollection/setcurrentperson/
 ---
 
 ## SetCurrentPerson function

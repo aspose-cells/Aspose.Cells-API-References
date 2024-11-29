@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetCompliance method. Encapsulates the function that represents getcompliance in Go.'
 type: docs
 weight: 200
-url: /go/workbooksettings/getcompliance/
+url: /go-cpp/workbooksettings/getcompliance/
 ---
 
 ## GetCompliance function

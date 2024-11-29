@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetLockedAspectRatio method. Encapsulates the function that represents setlockedaspectratio in Go.'
 type: docs
 weight: 200
-url: /go/slicer/setlockedaspectratio/
+url: /go-cpp/slicer/setlockedaspectratio/
 ---
 
 ## SetLockedAspectRatio function

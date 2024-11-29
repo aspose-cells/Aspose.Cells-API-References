@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTextOfRowLabels method. Encapsulates the function that represents gettextofrowlabels in Go.'
 type: docs
 weight: 200
-url: /go/settablepivotglobalizationsettings/gettextofrowlabels/
+url: /go-cpp/settablepivotglobalizationsettings/gettextofrowlabels/
 ---
 
 ## GetTextOfRowLabels function

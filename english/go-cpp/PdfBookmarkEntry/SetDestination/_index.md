@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetDestination method. Encapsulates the function that represents setdestination in Go.'
 type: docs
 weight: 200
-url: /go/pdfbookmarkentry/setdestination/
+url: /go-cpp/pdfbookmarkentry/setdestination/
 ---
 
 ## SetDestination function

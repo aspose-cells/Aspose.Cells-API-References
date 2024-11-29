@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'PdfSaveOptions class. Encapsulates the object that represents pdfsaveoptions in Go.'
 type: docs
 weight: 200
-url: /go/pdfsaveoptions/
+url: /go-cpp/pdfsaveoptions/
 ---
 
 ## PdfSaveOptions class

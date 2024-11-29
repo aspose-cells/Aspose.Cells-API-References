@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'HtmlExportDataOptions enum. Encapsulates the object that represents htmlexportdataoptions in Go.'
 type: docs
 weight: 200
-url: /go/htmlexportdataoptions/
+url: /go-cpp/htmlexportdataoptions/
 ---
 
 ## HtmlExportDataOptions Enum

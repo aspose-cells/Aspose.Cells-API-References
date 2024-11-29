@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetPrimaryKey method. Encapsulates the function that represents setprimarykey in Go.'
 type: docs
 weight: 200
-url: /go/sqlscriptsaveoptions/setprimarykey/
+url: /go-cpp/sqlscriptsaveoptions/setprimarykey/
 ---
 
 ## SetPrimaryKey function

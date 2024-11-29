@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetTextQualifier method. Encapsulates the function that represents settextqualifier in Go.'
 type: docs
 weight: 200
-url: /go/txtloadoptions/settextqualifier/
+url: /go-cpp/txtloadoptions/settextqualifier/
 ---
 
 ## SetTextQualifier function

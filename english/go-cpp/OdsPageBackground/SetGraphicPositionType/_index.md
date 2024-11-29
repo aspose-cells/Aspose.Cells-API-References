@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetGraphicPositionType method. Encapsulates the function that represents setgraphicpositiontype in Go.'
 type: docs
 weight: 200
-url: /go/odspagebackground/setgraphicpositiontype/
+url: /go-cpp/odspagebackground/setgraphicpositiontype/
 ---
 
 ## SetGraphicPositionType function

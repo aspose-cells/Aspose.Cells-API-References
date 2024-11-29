@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'TargetModeType enum. Encapsulates the object that represents targetmodetype in Go.'
 type: docs
 weight: 200
-url: /go/targetmodetype/
+url: /go-cpp/targetmodetype/
 ---
 
 ## TargetModeType Enum

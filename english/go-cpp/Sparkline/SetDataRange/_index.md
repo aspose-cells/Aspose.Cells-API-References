@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetDataRange method. Encapsulates the function that represents setdatarange in Go.'
 type: docs
 weight: 200
-url: /go/sparkline/setdatarange/
+url: /go-cpp/sparkline/setdatarange/
 ---
 
 ## SetDataRange function

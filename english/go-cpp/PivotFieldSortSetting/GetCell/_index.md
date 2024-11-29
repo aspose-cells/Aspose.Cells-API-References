@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetCell method. Encapsulates the function that represents getcell in Go.'
 type: docs
 weight: 200
-url: /go/pivotfieldsortsetting/getcell/
+url: /go-cpp/pivotfieldsortsetting/getcell/
 ---
 
 ## GetCell function

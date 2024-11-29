@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetTopPixel method. Encapsulates the function that represents settoppixel in Go.'
 type: docs
 weight: 200
-url: /go/timeline/settoppixel/
+url: /go-cpp/timeline/settoppixel/
 ---
 
 ## SetTopPixel function

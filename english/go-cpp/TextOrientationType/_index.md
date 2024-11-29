@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'TextOrientationType enum. Encapsulates the object that represents textorientationtype in Go.'
 type: docs
 weight: 200
-url: /go/textorientationtype/
+url: /go-cpp/textorientationtype/
 ---
 
 ## TextOrientationType Enum

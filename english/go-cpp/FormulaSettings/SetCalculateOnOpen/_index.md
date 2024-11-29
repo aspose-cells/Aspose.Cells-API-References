@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetCalculateOnOpen method. Encapsulates the function that represents setcalculateonopen in Go.'
 type: docs
 weight: 200
-url: /go/formulasettings/setcalculateonopen/
+url: /go-cpp/formulasettings/setcalculateonopen/
 ---
 
 ## SetCalculateOnOpen function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetOverflow method. Encapsulates the function that represents getoverflow in Go.'
 type: docs
 weight: 200
-url: /go/axisbins/getoverflow/
+url: /go-cpp/axisbins/getoverflow/
 ---
 
 ## GetOverflow function

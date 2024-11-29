@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'CellArea class. Encapsulates the object that represents cellarea in Go.'
 type: docs
 weight: 200
-url: /go/cellarea/
+url: /go-cpp/cellarea/
 ---
 
 ## CellArea class

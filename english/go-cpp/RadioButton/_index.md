@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'RadioButton class. Encapsulates the object that represents radiobutton in Go.'
 type: docs
 weight: 200
-url: /go/radiobutton/
+url: /go-cpp/radiobutton/
 ---
 
 ## RadioButton class

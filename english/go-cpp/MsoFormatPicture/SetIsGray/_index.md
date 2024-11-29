@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsGray method. Encapsulates the function that represents setisgray in Go.'
 type: docs
 weight: 200
-url: /go/msoformatpicture/setisgray/
+url: /go-cpp/msoformatpicture/setisgray/
 ---
 
 ## SetIsGray function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTextBoxOptions method. Encapsulates the function that represents gettextboxoptions in Go.'
 type: docs
 weight: 200
-url: /go/checkbox/gettextboxoptions/
+url: /go-cpp/checkbox/gettextboxoptions/
 ---
 
 ## GetTextBoxOptions function

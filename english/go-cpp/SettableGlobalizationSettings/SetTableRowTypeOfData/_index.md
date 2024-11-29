@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetTableRowTypeOfData method. Encapsulates the function that represents settablerowtypeofdata in Go.'
 type: docs
 weight: 200
-url: /go/settableglobalizationsettings/settablerowtypeofdata/
+url: /go-cpp/settableglobalizationsettings/settablerowtypeofdata/
 ---
 
 ## SetTableRowTypeOfData function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetPicturePosition method. Encapsulates the function that represents getpictureposition in Go.'
 type: docs
 weight: 200
-url: /go/commandbuttonactivexcontrol/getpictureposition/
+url: /go-cpp/commandbuttonactivexcontrol/getpictureposition/
 ---
 
 ## GetPicturePosition function

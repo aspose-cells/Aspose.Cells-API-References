@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetShapeYPx method. Encapsulates the function that represents getshapeypx in Go.'
 type: docs
 weight: 200
-url: /go/chartpoint/getshapeypx/
+url: /go-cpp/chartpoint/getshapeypx/
 ---
 
 ## GetShapeYPx function

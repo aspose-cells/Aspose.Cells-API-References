@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetChild method. Encapsulates the function that represents getchild in Go.'
 type: docs
 weight: 200
-url: /go/delimiterequationnode/getchild/
+url: /go-cpp/delimiterequationnode/getchild/
 ---
 
 ## GetChild function

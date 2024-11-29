@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetLinkType method. Encapsulates the function that represents getlinktype in Go.'
 type: docs
 weight: 200
-url: /go/hyperlink/getlinktype/
+url: /go-cpp/hyperlink/getlinktype/
 ---
 
 ## GetLinkType function

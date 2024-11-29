@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetTabAlignment method. Encapsulates the function that represents settabalignment in Go.'
 type: docs
 weight: 200
-url: /go/texttabstop/settabalignment/
+url: /go-cpp/texttabstop/settabalignment/
 ---
 
 ## SetTabAlignment function

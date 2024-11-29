@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetBeginArrowheadLength method. Encapsulates the function that represents setbeginarrowheadlength in Go.'
 type: docs
 weight: 200
-url: /go/lineformat/setbeginarrowheadlength/
+url: /go-cpp/lineformat/setbeginarrowheadlength/
 ---
 
 ## SetBeginArrowheadLength function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetAllowEditingContent method. Encapsulates the function that represents setalloweditingcontent in Go.'
 type: docs
 weight: 200
-url: /go/protection/setalloweditingcontent/
+url: /go-cpp/protection/setalloweditingcontent/
 ---
 
 ## SetAllowEditingContent function

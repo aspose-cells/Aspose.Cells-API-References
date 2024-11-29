@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'JsonUtility constructor. Encapsulates the function that represents newjsonutility in Go.'
 type: docs
 weight: 200
-url: /go/jsonutility/newjsonutility/
+url: /go-cpp/jsonutility/newjsonutility/
 ---
 
 ## NewJsonUtility function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetCellShading method. Encapsulates the function that represents setcellshading in Go.'
 type: docs
 weight: 200
-url: /go/styleflag/setcellshading/
+url: /go-cpp/styleflag/setcellshading/
 ---
 
 ## SetCellShading function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetDragToColumn method. Encapsulates the function that represents getdragtocolumn in Go.'
 type: docs
 weight: 200
-url: /go/pivotfield/getdragtocolumn/
+url: /go-cpp/pivotfield/getdragtocolumn/
 ---
 
 ## GetDragToColumn function

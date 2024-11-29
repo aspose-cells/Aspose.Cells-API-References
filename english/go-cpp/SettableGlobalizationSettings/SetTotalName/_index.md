@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetTotalName method. Encapsulates the function that represents settotalname in Go.'
 type: docs
 weight: 200
-url: /go/settableglobalizationsettings/settotalname/
+url: /go-cpp/settableglobalizationsettings/settotalname/
 ---
 
 ## SetTotalName function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetLeftCM method. Encapsulates the function that represents getleftcm in Go.'
 type: docs
 weight: 200
-url: /go/shape/getleftcm/
+url: /go-cpp/shape/getleftcm/
 ---
 
 ## GetLeftCM function

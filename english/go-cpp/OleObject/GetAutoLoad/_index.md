@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetAutoLoad method. Encapsulates the function that represents getautoload in Go.'
 type: docs
 weight: 200
-url: /go/oleobject/getautoload/
+url: /go-cpp/oleobject/getautoload/
 ---
 
 ## GetAutoLoad function

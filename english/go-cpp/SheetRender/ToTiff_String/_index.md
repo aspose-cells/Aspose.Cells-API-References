@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ToTiff_String method. Encapsulates the function that represents totiff in Go.'
 type: docs
 weight: 200
-url: /go/sheetrender/totiff_string/
+url: /go-cpp/sheetrender/totiff_string/
 ---
 
 ## ToTiff_String function

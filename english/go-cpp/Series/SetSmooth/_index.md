@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetSmooth method. Encapsulates the function that represents setsmooth in Go.'
 type: docs
 weight: 200
-url: /go/series/setsmooth/
+url: /go-cpp/series/setsmooth/
 ---
 
 ## SetSmooth function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetHeightInShape method. Encapsulates the function that represents getheightinshape in Go.'
 type: docs
 weight: 200
-url: /go/commentshape/getheightinshape/
+url: /go-cpp/commentshape/getheightinshape/
 ---
 
 ## GetHeightInShape function

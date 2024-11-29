@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetColorIndex method. Encapsulates the function that represents setcolorindex in Go.'
 type: docs
 weight: 200
-url: /go/cellscolor/setcolorindex/
+url: /go-cpp/cellscolor/setcolorindex/
 ---
 
 ## SetColorIndex function

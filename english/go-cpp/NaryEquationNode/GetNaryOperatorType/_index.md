@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetNaryOperatorType method. Encapsulates the function that represents getnaryoperatortype in Go.'
 type: docs
 weight: 200
-url: /go/naryequationnode/getnaryoperatortype/
+url: /go-cpp/naryequationnode/getnaryoperatortype/
 ---
 
 ## GetNaryOperatorType function

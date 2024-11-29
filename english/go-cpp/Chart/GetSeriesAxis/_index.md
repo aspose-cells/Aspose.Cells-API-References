@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetSeriesAxis method. Encapsulates the function that represents getseriesaxis in Go.'
 type: docs
 weight: 200
-url: /go/chart/getseriesaxis/
+url: /go-cpp/chart/getseriesaxis/
 ---
 
 ## GetSeriesAxis function

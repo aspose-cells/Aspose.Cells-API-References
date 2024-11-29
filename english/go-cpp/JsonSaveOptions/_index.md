@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'JsonSaveOptions class. Encapsulates the object that represents jsonsaveoptions in Go.'
 type: docs
 weight: 200
-url: /go/jsonsaveoptions/
+url: /go-cpp/jsonsaveoptions/
 ---
 
 ## JsonSaveOptions class

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'XmlColumnProperty class. Encapsulates the object that represents xmlcolumnproperty in Go.'
 type: docs
 weight: 200
-url: /go/xmlcolumnproperty/
+url: /go-cpp/xmlcolumnproperty/
 ---
 
 ## XmlColumnProperty class

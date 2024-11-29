@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetStyleType method. Encapsulates the function that represents getstyletype in Go.'
 type: docs
 weight: 200
-url: /go/slicer/getstyletype/
+url: /go-cpp/slicer/getstyletype/
 ---
 
 ## GetStyleType function

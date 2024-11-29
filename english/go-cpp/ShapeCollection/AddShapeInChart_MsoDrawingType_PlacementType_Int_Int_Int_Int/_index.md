@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'AddShapeInChart_MsoDrawingType_PlacementType_Int_Int_Int_Int method. Encapsulates the function that represents addshapeinchart in Go.'
 type: docs
 weight: 200
-url: /go/shapecollection/addshapeinchart_msodrawingtype_placementtype_int_int_int_int/
+url: /go-cpp/shapecollection/addshapeinchart_msodrawingtype_placementtype_int_int_int_int/
 ---
 
 ## AddShapeInChart_MsoDrawingType_PlacementType_Int_Int_Int_Int function

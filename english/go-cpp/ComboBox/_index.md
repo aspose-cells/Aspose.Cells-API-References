@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ComboBox class. Encapsulates the object that represents combobox in Go.'
 type: docs
 weight: 200
-url: /go/combobox/
+url: /go-cpp/combobox/
 ---
 
 ## ComboBox class

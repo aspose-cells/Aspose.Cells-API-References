@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIgnoreInvisibleShapes method. Encapsulates the function that represents setignoreinvisibleshapes in Go.'
 type: docs
 weight: 200
-url: /go/htmlsaveoptions/setignoreinvisibleshapes/
+url: /go-cpp/htmlsaveoptions/setignoreinvisibleshapes/
 ---
 
 ## SetIgnoreInvisibleShapes function

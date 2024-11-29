@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetFadeDirection method. Encapsulates the function that represents setfadedirection in Go.'
 type: docs
 weight: 200
-url: /go/reflectioneffect/setfadedirection/
+url: /go-cpp/reflectioneffect/setfadedirection/
 ---
 
 ## SetFadeDirection function

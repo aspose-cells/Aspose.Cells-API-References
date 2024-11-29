@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'NegativeBarFormat class. Encapsulates the object that represents negativebarformat in Go.'
 type: docs
 weight: 200
-url: /go/negativebarformat/
+url: /go-cpp/negativebarformat/
 ---
 
 ## NegativeBarFormat class

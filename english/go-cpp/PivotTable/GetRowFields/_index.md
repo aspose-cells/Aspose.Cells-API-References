@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetRowFields method. Encapsulates the function that represents getrowfields in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/getrowfields/
+url: /go-cpp/pivottable/getrowfields/
 ---
 
 ## GetRowFields function

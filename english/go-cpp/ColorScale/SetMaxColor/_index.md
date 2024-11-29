@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetMaxColor method. Encapsulates the function that represents setmaxcolor in Go.'
 type: docs
 weight: 200
-url: /go/colorscale/setmaxcolor/
+url: /go-cpp/colorscale/setmaxcolor/
 ---
 
 ## SetMaxColor function

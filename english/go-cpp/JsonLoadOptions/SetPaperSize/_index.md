@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetPaperSize method. Encapsulates the function that represents setpapersize in Go.'
 type: docs
 weight: 200
-url: /go/jsonloadoptions/setpapersize/
+url: /go-cpp/jsonloadoptions/setpapersize/
 ---
 
 ## SetPaperSize function

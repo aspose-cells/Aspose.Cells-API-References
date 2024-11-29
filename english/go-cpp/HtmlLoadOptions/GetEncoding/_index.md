@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetEncoding method. Encapsulates the function that represents getencoding in Go.'
 type: docs
 weight: 200
-url: /go/htmlloadoptions/getencoding/
+url: /go-cpp/htmlloadoptions/getencoding/
 ---
 
 ## GetEncoding function

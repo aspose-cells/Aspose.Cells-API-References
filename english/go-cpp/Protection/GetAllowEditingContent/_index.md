@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetAllowEditingContent method. Encapsulates the function that represents getalloweditingcontent in Go.'
 type: docs
 weight: 200
-url: /go/protection/getalloweditingcontent/
+url: /go-cpp/protection/getalloweditingcontent/
 ---
 
 ## GetAllowEditingContent function

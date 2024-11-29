@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTextOfDataFieldHeader method. Encapsulates the function that represents gettextofdatafieldheader in Go.'
 type: docs
 weight: 200
-url: /go/settablepivotglobalizationsettings/gettextofdatafieldheader/
+url: /go-cpp/settablepivotglobalizationsettings/gettextofdatafieldheader/
 ---
 
 ## GetTextOfDataFieldHeader function

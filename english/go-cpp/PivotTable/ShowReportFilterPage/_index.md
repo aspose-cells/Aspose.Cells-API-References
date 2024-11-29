@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ShowReportFilterPage method. Encapsulates the function that represents showreportfilterpage in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/showreportfilterpage/
+url: /go-cpp/pivottable/showreportfilterpage/
 ---
 
 ## ShowReportFilterPage function

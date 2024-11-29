@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetBackColor method. Encapsulates the function that represents setbackcolor in Go.'
 type: docs
 weight: 200
-url: /go/msolineformat/setbackcolor/
+url: /go-cpp/msolineformat/setbackcolor/
 ---
 
 ## SetBackColor function

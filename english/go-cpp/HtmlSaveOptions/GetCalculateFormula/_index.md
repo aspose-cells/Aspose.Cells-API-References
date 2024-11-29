@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetCalculateFormula method. Encapsulates the function that represents getcalculateformula in Go.'
 type: docs
 weight: 200
-url: /go/htmlsaveoptions/getcalculateformula/
+url: /go-cpp/htmlsaveoptions/getcalculateformula/
 ---
 
 ## GetCalculateFormula function

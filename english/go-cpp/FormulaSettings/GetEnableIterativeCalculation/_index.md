@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetEnableIterativeCalculation method. Encapsulates the function that represents getenableiterativecalculation in Go.'
 type: docs
 weight: 200
-url: /go/formulasettings/getenableiterativecalculation/
+url: /go-cpp/formulasettings/getenableiterativecalculation/
 ---
 
 ## GetEnableIterativeCalculation function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetSlicers method. Encapsulates the function that represents getslicers in Go.'
 type: docs
 weight: 200
-url: /go/worksheet/getslicers/
+url: /go-cpp/worksheet/getslicers/
 ---
 
 ## GetSlicers function

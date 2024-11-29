@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetPrintSize method. Encapsulates the function that represents getprintsize in Go.'
 type: docs
 weight: 200
-url: /go/chart/getprintsize/
+url: /go-cpp/chart/getprintsize/
 ---
 
 ## GetPrintSize function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetPasswordChar method. Encapsulates the function that represents setpasswordchar in Go.'
 type: docs
 weight: 200
-url: /go/textboxactivexcontrol/setpasswordchar/
+url: /go-cpp/textboxactivexcontrol/setpasswordchar/
 ---
 
 ## SetPasswordChar function

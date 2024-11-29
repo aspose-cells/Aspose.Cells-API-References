@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetLocalFunctionName method. Encapsulates the function that represents getlocalfunctionname in Go.'
 type: docs
 weight: 200
-url: /go/globalizationsettings/getlocalfunctionname/
+url: /go-cpp/globalizationsettings/getlocalfunctionname/
 ---
 
 ## GetLocalFunctionName function

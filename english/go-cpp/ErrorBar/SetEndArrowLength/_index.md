@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetEndArrowLength method. Encapsulates the function that represents setendarrowlength in Go.'
 type: docs
 weight: 200
-url: /go/errorbar/setendarrowlength/
+url: /go-cpp/errorbar/setendarrowlength/
 ---
 
 ## SetEndArrowLength function

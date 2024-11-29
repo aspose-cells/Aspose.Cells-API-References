@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'PaneStateType enum. Encapsulates the object that represents panestatetype in Go.'
 type: docs
 weight: 200
-url: /go/panestatetype/
+url: /go-cpp/panestatetype/
 ---
 
 ## PaneStateType Enum

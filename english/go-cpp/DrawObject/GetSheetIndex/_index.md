@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetSheetIndex method. Encapsulates the function that represents getsheetindex in Go.'
 type: docs
 weight: 200
-url: /go/drawobject/getsheetindex/
+url: /go-cpp/drawobject/getsheetindex/
 ---
 
 ## GetSheetIndex function

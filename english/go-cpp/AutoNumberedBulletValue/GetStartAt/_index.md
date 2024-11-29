@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetStartAt method. Encapsulates the function that represents getstartat in Go.'
 type: docs
 weight: 200
-url: /go/autonumberedbulletvalue/getstartat/
+url: /go-cpp/autonumberedbulletvalue/getstartat/
 ---
 
 ## GetStartAt function

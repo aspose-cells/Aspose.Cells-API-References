@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'CreateUnionRange method. Encapsulates the function that represents createunionrange in Go.'
 type: docs
 weight: 200
-url: /go/worksheetcollection/createunionrange/
+url: /go-cpp/worksheetcollection/createunionrange/
 ---
 
 ## CreateUnionRange function

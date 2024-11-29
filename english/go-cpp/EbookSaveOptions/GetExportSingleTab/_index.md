@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetExportSingleTab method. Encapsulates the function that represents getexportsingletab in Go.'
 type: docs
 weight: 200
-url: /go/ebooksaveoptions/getexportsingletab/
+url: /go-cpp/ebooksaveoptions/getexportsingletab/
 ---
 
 ## GetExportSingleTab function

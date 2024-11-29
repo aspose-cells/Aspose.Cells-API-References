@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsLine method. Encapsulates the function that represents isline in Go.'
 type: docs
 weight: 200
-url: /go/signatureline/isline/
+url: /go-cpp/signatureline/isline/
 ---
 
 ## IsLine function

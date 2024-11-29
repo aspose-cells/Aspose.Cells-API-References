@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'EbookLoadOptions constructor. Encapsulates the function that represents newebookloadoptions_htmlloadoptions in Go.'
 type: docs
 weight: 200
-url: /go/ebookloadoptions/newebookloadoptions_htmlloadoptions/
+url: /go-cpp/ebookloadoptions/newebookloadoptions_htmlloadoptions/
 ---
 
 ## NewEbookLoadOptions_HtmlLoadOptions function

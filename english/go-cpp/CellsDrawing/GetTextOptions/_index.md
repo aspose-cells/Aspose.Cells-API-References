@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTextOptions method. Encapsulates the function that represents gettextoptions in Go.'
 type: docs
 weight: 200
-url: /go/cellsdrawing/gettextoptions/
+url: /go-cpp/cellsdrawing/gettextoptions/
 ---
 
 ## GetTextOptions function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetForeOleColor method. Encapsulates the function that represents setforeolecolor in Go.'
 type: docs
 weight: 200
-url: /go/activexcontrol/setforeolecolor/
+url: /go-cpp/activexcontrol/setforeolecolor/
 ---
 
 ## SetForeOleColor function

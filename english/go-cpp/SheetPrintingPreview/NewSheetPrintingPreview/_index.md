@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SheetPrintingPreview constructor. Encapsulates the function that represents newsheetprintingpreview in Go.'
 type: docs
 weight: 200
-url: /go/sheetprintingpreview/newsheetprintingpreview/
+url: /go-cpp/sheetprintingpreview/newsheetprintingpreview/
 ---
 
 ## NewSheetPrintingPreview function

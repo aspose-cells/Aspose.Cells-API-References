@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'NumbersLoadOptions constructor. Encapsulates the function that represents newnumbersloadoptions in Go.'
 type: docs
 weight: 200
-url: /go/numbersloadoptions/newnumbersloadoptions/
+url: /go-cpp/numbersloadoptions/newnumbersloadoptions/
 ---
 
 ## NewNumbersLoadOptions function

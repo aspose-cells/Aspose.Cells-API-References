@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetScaleCrop method. Encapsulates the function that represents getscalecrop in Go.'
 type: docs
 weight: 200
-url: /go/builtindocumentpropertycollection/getscalecrop/
+url: /go-cpp/builtindocumentpropertycollection/getscalecrop/
 ---
 
 ## GetScaleCrop function

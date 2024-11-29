@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetCompoundType method. Encapsulates the function that represents getcompoundtype in Go.'
 type: docs
 weight: 200
-url: /go/line/getcompoundtype/
+url: /go-cpp/line/getcompoundtype/
 ---
 
 ## GetCompoundType function

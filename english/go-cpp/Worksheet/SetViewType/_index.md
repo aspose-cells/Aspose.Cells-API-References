@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetViewType method. Encapsulates the function that represents setviewtype in Go.'
 type: docs
 weight: 200
-url: /go/worksheet/setviewtype/
+url: /go-cpp/worksheet/setviewtype/
 ---
 
 ## SetViewType function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsSuperscript method. Encapsulates the function that represents setissuperscript in Go.'
 type: docs
 weight: 200
-url: /go/font/setissuperscript/
+url: /go-cpp/font/setissuperscript/
 ---
 
 ## SetIsSuperscript function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetValidateMergedAreas method. Encapsulates the function that represents getvalidatemergedareas in Go.'
 type: docs
 weight: 200
-url: /go/odssaveoptions/getvalidatemergedareas/
+url: /go-cpp/odssaveoptions/getvalidatemergedareas/
 ---
 
 ## GetValidateMergedAreas function

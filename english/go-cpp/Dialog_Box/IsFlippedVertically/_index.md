@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsFlippedVertically method. Encapsulates the function that represents isflippedvertically in Go.'
 type: docs
 weight: 200
-url: /go/dialog_box/isflippedvertically/
+url: /go-cpp/dialog_box/isflippedvertically/
 ---
 
 ## IsFlippedVertically function

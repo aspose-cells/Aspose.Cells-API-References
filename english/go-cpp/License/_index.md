@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'License class. Encapsulates the object that represents license in Go.'
 type: docs
 weight: 200
-url: /go/license/
+url: /go-cpp/license/
 ---
 
 ## License class

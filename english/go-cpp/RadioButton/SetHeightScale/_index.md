@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetHeightScale method. Encapsulates the function that represents setheightscale in Go.'
 type: docs
 weight: 200
-url: /go/radiobutton/setheightscale/
+url: /go-cpp/radiobutton/setheightscale/
 ---
 
 ## SetHeightScale function

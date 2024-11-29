@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetCompressionType method. Encapsulates the function that represents getcompressiontype in Go.'
 type: docs
 weight: 200
-url: /go/xlsbsaveoptions/getcompressiontype/
+url: /go-cpp/xlsbsaveoptions/getcompressiontype/
 ---
 
 ## GetCompressionType function

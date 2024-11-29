@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetTextHorizontalAlignment method. Encapsulates the function that represents settexthorizontalalignment in Go.'
 type: docs
 weight: 200
-url: /go/radiobutton/settexthorizontalalignment/
+url: /go-cpp/radiobutton/settexthorizontalalignment/
 ---
 
 ## SetTextHorizontalAlignment function

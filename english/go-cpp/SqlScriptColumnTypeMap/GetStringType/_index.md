@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetStringType method. Encapsulates the function that represents getstringtype in Go.'
 type: docs
 weight: 200
-url: /go/sqlscriptcolumntypemap/getstringtype/
+url: /go-cpp/sqlscriptcolumntypemap/getstringtype/
 ---
 
 ## GetStringType function

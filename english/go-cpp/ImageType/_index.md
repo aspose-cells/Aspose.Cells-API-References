@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ImageType enum. Encapsulates the object that represents imagetype in Go.'
 type: docs
 weight: 200
-url: /go/imagetype/
+url: /go-cpp/imagetype/
 ---
 
 ## ImageType Enum

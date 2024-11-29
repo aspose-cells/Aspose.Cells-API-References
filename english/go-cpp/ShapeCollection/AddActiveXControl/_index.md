@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'AddActiveXControl method. Encapsulates the function that represents addactivexcontrol in Go.'
 type: docs
 weight: 200
-url: /go/shapecollection/addactivexcontrol/
+url: /go-cpp/shapecollection/addactivexcontrol/
 ---
 
 ## AddActiveXControl function

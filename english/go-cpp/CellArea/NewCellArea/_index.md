@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'CellArea constructor. Encapsulates the function that represents newcellarea in Go.'
 type: docs
 weight: 200
-url: /go/cellarea/newcellarea/
+url: /go-cpp/cellarea/newcellarea/
 ---
 
 ## NewCellArea function

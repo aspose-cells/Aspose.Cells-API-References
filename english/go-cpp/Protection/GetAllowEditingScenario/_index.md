@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetAllowEditingScenario method. Encapsulates the function that represents getalloweditingscenario in Go.'
 type: docs
 weight: 200
-url: /go/protection/getalloweditingscenario/
+url: /go-cpp/protection/getalloweditingscenario/
 ---
 
 ## GetAllowEditingScenario function

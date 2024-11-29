@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetLowPointColor method. Encapsulates the function that represents setlowpointcolor in Go.'
 type: docs
 weight: 200
-url: /go/sparklinegroup/setlowpointcolor/
+url: /go-cpp/sparklinegroup/setlowpointcolor/
 ---
 
 ## SetLowPointColor function

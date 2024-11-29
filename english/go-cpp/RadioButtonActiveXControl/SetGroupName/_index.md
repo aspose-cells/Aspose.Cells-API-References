@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetGroupName method. Encapsulates the function that represents setgroupname in Go.'
 type: docs
 weight: 200
-url: /go/radiobuttonactivexcontrol/setgroupname/
+url: /go-cpp/radiobuttonactivexcontrol/setgroupname/
 ---
 
 ## SetGroupName function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetShowLegend method. Encapsulates the function that represents setshowlegend in Go.'
 type: docs
 weight: 200
-url: /go/chart/setshowlegend/
+url: /go-cpp/chart/setshowlegend/
 ---
 
 ## SetShowLegend function

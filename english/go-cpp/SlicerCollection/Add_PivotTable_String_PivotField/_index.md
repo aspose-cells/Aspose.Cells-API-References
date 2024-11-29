@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Add_PivotTable_String_PivotField method. Encapsulates the function that represents add in Go.'
 type: docs
 weight: 200
-url: /go/slicercollection/add_pivottable_string_pivotfield/
+url: /go-cpp/slicercollection/add_pivottable_string_pivotfield/
 ---
 
 ## Add_PivotTable_String_PivotField function

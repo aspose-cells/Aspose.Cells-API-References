@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetPictureFormatType method. Encapsulates the function that represents setpictureformattype in Go.'
 type: docs
 weight: 200
-url: /go/lineformat/setpictureformattype/
+url: /go-cpp/lineformat/setpictureformattype/
 ---
 
 ## SetPictureFormatType function

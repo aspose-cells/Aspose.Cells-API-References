@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetOptimizationType method. Encapsulates the function that represents getoptimizationtype in Go.'
 type: docs
 weight: 200
-url: /go/pdfsaveoptions/getoptimizationtype/
+url: /go-cpp/pdfsaveoptions/getoptimizationtype/
 ---
 
 ## GetOptimizationType function

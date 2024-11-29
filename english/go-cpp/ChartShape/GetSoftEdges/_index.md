@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetSoftEdges method. Encapsulates the function that represents getsoftedges in Go.'
 type: docs
 weight: 200
-url: /go/chartshape/getsoftedges/
+url: /go-cpp/chartshape/getsoftedges/
 ---
 
 ## GetSoftEdges function

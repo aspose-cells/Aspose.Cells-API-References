@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'TxtSaveOptions constructor. Encapsulates the function that represents newtxtsaveoptions_saveformat in Go.'
 type: docs
 weight: 200
-url: /go/txtsaveoptions/newtxtsaveoptions_saveformat/
+url: /go-cpp/txtsaveoptions/newtxtsaveoptions_saveformat/
 ---
 
 ## NewTxtSaveOptions_SaveFormat function

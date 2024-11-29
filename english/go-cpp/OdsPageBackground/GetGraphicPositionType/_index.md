@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetGraphicPositionType method. Encapsulates the function that represents getgraphicpositiontype in Go.'
 type: docs
 weight: 200
-url: /go/odspagebackground/getgraphicpositiontype/
+url: /go-cpp/odspagebackground/getgraphicpositiontype/
 ---
 
 ## GetGraphicPositionType function

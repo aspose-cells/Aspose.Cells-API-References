@@ -3,7 +3,7 @@ title: Aspose.Cells for Go
 linktitle: Aspose.Cells for Go
 type: docs
 weight: 10
-url: /go/
+url: /go-cpp/
 keywords: "Aspose.Cells for Go, Aspose Cells, Aspose API Reference."
 description: "Aspose.Cells is a class library that can be used by developers for various platforms for a variety of document processing tasks."
 is_root: true

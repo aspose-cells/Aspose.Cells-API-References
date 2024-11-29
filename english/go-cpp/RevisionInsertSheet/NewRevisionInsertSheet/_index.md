@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'RevisionInsertSheet constructor. Encapsulates the function that represents newrevisioninsertsheet in Go.'
 type: docs
 weight: 200
-url: /go/revisioninsertsheet/newrevisioninsertsheet/
+url: /go-cpp/revisioninsertsheet/newrevisioninsertsheet/
 ---
 
 ## NewRevisionInsertSheet function

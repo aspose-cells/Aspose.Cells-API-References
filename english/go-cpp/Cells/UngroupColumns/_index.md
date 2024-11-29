@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'UngroupColumns method. Encapsulates the function that represents ungroupcolumns in Go.'
 type: docs
 weight: 200
-url: /go/cells/ungroupcolumns/
+url: /go-cpp/cells/ungroupcolumns/
 ---
 
 ## UngroupColumns function

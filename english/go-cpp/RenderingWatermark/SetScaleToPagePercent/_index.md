@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetScaleToPagePercent method. Encapsulates the function that represents setscaletopagepercent in Go.'
 type: docs
 weight: 200
-url: /go/renderingwatermark/setscaletopagepercent/
+url: /go-cpp/renderingwatermark/setscaletopagepercent/
 ---
 
 ## SetScaleToPagePercent function

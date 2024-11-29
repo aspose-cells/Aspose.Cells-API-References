@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetCheckAllDataForColumnType method. Encapsulates the function that represents setcheckalldataforcolumntype in Go.'
 type: docs
 weight: 200
-url: /go/sqlscriptsaveoptions/setcheckalldataforcolumntype/
+url: /go-cpp/sqlscriptsaveoptions/setcheckalldataforcolumntype/
 ---
 
 ## SetCheckAllDataForColumnType function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetAlertStyle method. Encapsulates the function that represents getalertstyle in Go.'
 type: docs
 weight: 200
-url: /go/validation/getalertstyle/
+url: /go-cpp/validation/getalertstyle/
 ---
 
 ## GetAlertStyle function

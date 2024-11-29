@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetZOrderPosition method. Encapsulates the function that represents getzorderposition in Go.'
 type: docs
 weight: 200
-url: /go/combobox/getzorderposition/
+url: /go-cpp/combobox/getzorderposition/
 ---
 
 ## GetZOrderPosition function

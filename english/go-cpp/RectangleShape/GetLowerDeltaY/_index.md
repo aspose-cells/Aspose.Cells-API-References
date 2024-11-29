@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetLowerDeltaY method. Encapsulates the function that represents getlowerdeltay in Go.'
 type: docs
 weight: 200
-url: /go/rectangleshape/getlowerdeltay/
+url: /go-cpp/rectangleshape/getlowerdeltay/
 ---
 
 ## GetLowerDeltaY function

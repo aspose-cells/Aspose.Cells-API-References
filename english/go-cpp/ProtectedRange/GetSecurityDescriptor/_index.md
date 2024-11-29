@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetSecurityDescriptor method. Encapsulates the function that represents getsecuritydescriptor in Go.'
 type: docs
 weight: 200
-url: /go/protectedrange/getsecuritydescriptor/
+url: /go-cpp/protectedrange/getsecuritydescriptor/
 ---
 
 ## GetSecurityDescriptor function

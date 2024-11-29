@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetConvertNumericOrDate method. Encapsulates the function that represents getconvertnumericordate in Go.'
 type: docs
 weight: 200
-url: /go/jsonlayoutoptions/getconvertnumericordate/
+url: /go-cpp/jsonlayoutoptions/getconvertnumericordate/
 ---
 
 ## GetConvertNumericOrDate function

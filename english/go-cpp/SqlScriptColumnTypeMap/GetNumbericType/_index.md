@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetNumbericType method. Encapsulates the function that represents getnumberictype in Go.'
 type: docs
 weight: 200
-url: /go/sqlscriptcolumntypemap/getnumberictype/
+url: /go-cpp/sqlscriptcolumntypemap/getnumberictype/
 ---
 
 ## GetNumbericType function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetBaseItemPositionType method. Encapsulates the function that represents getbaseitempositiontype in Go.'
 type: docs
 weight: 200
-url: /go/pivotshowvaluessetting/getbaseitempositiontype/
+url: /go-cpp/pivotshowvaluessetting/getbaseitempositiontype/
 ---
 
 ## GetBaseItemPositionType function

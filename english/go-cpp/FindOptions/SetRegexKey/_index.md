@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetRegexKey method. Encapsulates the function that represents setregexkey in Go.'
 type: docs
 weight: 200
-url: /go/findoptions/setregexkey/
+url: /go-cpp/findoptions/setregexkey/
 ---
 
 ## SetRegexKey function

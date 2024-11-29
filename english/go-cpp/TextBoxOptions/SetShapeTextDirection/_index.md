@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetShapeTextDirection method. Encapsulates the function that represents setshapetextdirection in Go.'
 type: docs
 weight: 200
-url: /go/textboxoptions/setshapetextdirection/
+url: /go-cpp/textboxoptions/setshapetextdirection/
 ---
 
 ## SetShapeTextDirection function

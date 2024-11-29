@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetMajorTickMark method. Encapsulates the function that represents getmajortickmark in Go.'
 type: docs
 weight: 200
-url: /go/axis/getmajortickmark/
+url: /go-cpp/axis/getmajortickmark/
 ---
 
 ## GetMajorTickMark function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetIgnorePivotTables method. Encapsulates the function that represents getignorepivottables in Go.'
 type: docs
 weight: 200
-url: /go/odssaveoptions/getignorepivottables/
+url: /go-cpp/odssaveoptions/getignorepivottables/
 ---
 
 ## GetIgnorePivotTables function

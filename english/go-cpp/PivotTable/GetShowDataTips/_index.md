@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetShowDataTips method. Encapsulates the function that represents getshowdatatips in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/getshowdatatips/
+url: /go-cpp/pivottable/getshowdatatips/
 ---
 
 ## GetShowDataTips function

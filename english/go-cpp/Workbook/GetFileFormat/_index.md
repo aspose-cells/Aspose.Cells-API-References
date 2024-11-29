@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetFileFormat method. Encapsulates the function that represents getfileformat in Go.'
 type: docs
 weight: 200
-url: /go/workbook/getfileformat/
+url: /go-cpp/workbook/getfileformat/
 ---
 
 ## GetFileFormat function

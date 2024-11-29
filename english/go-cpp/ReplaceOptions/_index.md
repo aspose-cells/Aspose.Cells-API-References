@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ReplaceOptions class. Encapsulates the object that represents replaceoptions in Go.'
 type: docs
 weight: 200
-url: /go/replaceoptions/
+url: /go-cpp/replaceoptions/
 ---
 
 ## ReplaceOptions class

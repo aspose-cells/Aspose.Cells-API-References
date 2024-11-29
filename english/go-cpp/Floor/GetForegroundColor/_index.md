@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetForegroundColor method. Encapsulates the function that represents getforegroundcolor in Go.'
 type: docs
 weight: 200
-url: /go/floor/getforegroundcolor/
+url: /go-cpp/floor/getforegroundcolor/
 ---
 
 ## GetForegroundColor function

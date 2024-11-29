@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsGridlinesVisible method. Encapsulates the function that represents isgridlinesvisible in Go.'
 type: docs
 weight: 200
-url: /go/worksheet/isgridlinesvisible/
+url: /go-cpp/worksheet/isgridlinesvisible/
 ---
 
 ## IsGridlinesVisible function

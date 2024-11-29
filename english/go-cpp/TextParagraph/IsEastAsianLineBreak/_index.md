@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsEastAsianLineBreak method. Encapsulates the function that represents iseastasianlinebreak in Go.'
 type: docs
 weight: 200
-url: /go/textparagraph/iseastasianlinebreak/
+url: /go-cpp/textparagraph/iseastasianlinebreak/
 ---
 
 ## IsEastAsianLineBreak function

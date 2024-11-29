@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsMultiLine method. Encapsulates the function that represents ismultiline in Go.'
 type: docs
 weight: 200
-url: /go/textboxactivexcontrol/ismultiline/
+url: /go-cpp/textboxactivexcontrol/ismultiline/
 ---
 
 ## IsMultiLine function

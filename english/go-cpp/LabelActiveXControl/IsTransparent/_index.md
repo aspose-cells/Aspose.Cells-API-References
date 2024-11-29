@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsTransparent method. Encapsulates the function that represents istransparent in Go.'
 type: docs
 weight: 200
-url: /go/labelactivexcontrol/istransparent/
+url: /go-cpp/labelactivexcontrol/istransparent/
 ---
 
 ## IsTransparent function

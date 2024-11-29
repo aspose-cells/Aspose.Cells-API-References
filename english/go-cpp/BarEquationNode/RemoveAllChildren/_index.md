@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'RemoveAllChildren method. Encapsulates the function that represents removeallchildren in Go.'
 type: docs
 weight: 200
-url: /go/barequationnode/removeallchildren/
+url: /go-cpp/barequationnode/removeallchildren/
 ---
 
 ## RemoveAllChildren function

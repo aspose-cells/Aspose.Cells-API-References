@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetFormatting method. Encapsulates the function that represents setformatting in Go.'
 type: docs
 weight: 200
-url: /go/area/setformatting/
+url: /go-cpp/area/setformatting/
 ---
 
 ## SetFormatting function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsFullPathLink method. Encapsulates the function that represents isfullpathlink in Go.'
 type: docs
 weight: 200
-url: /go/htmlsaveoptions/isfullpathlink/
+url: /go-cpp/htmlsaveoptions/isfullpathlink/
 ---
 
 ## IsFullPathLink function

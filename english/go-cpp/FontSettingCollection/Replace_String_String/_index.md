@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Replace_String_String method. Encapsulates the function that represents replace in Go.'
 type: docs
 weight: 200
-url: /go/fontsettingcollection/replace_string_string/
+url: /go-cpp/fontsettingcollection/replace_string_string/
 ---
 
 ## Replace_String_String function

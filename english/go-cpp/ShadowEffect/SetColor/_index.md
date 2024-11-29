@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetColor method. Encapsulates the function that represents setcolor in Go.'
 type: docs
 weight: 200
-url: /go/shadoweffect/setcolor/
+url: /go-cpp/shadoweffect/setcolor/
 ---
 
 ## SetColor function

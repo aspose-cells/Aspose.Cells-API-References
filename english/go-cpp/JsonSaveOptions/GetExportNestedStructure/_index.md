@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetExportNestedStructure method. Encapsulates the function that represents getexportnestedstructure in Go.'
 type: docs
 weight: 200
-url: /go/jsonsaveoptions/getexportnestedstructure/
+url: /go-cpp/jsonsaveoptions/getexportnestedstructure/
 ---
 
 ## GetExportNestedStructure function

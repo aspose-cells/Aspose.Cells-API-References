@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SpreadsheetML2003SaveOptions constructor. Encapsulates the function that represents newspreadsheetml2003saveoptions_saveoptions in Go.'
 type: docs
 weight: 200
-url: /go/spreadsheetml2003saveoptions/newspreadsheetml2003saveoptions_saveoptions/
+url: /go-cpp/spreadsheetml2003saveoptions/newspreadsheetml2003saveoptions_saveoptions/
 ---
 
 ## NewSpreadsheetML2003SaveOptions_SaveOptions function

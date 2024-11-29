@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetCommand method. Encapsulates the function that represents getcommand in Go.'
 type: docs
 weight: 200
-url: /go/dbconnection/getcommand/
+url: /go-cpp/dbconnection/getcommand/
 ---
 
 ## GetCommand function

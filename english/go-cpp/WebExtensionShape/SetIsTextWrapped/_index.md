@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsTextWrapped method. Encapsulates the function that represents setistextwrapped in Go.'
 type: docs
 weight: 200
-url: /go/webextensionshape/setistextwrapped/
+url: /go-cpp/webextensionshape/setistextwrapped/
 ---
 
 ## SetIsTextWrapped function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetCapType method. Encapsulates the function that represents setcaptype in Go.'
 type: docs
 weight: 200
-url: /go/errorbar/setcaptype/
+url: /go-cpp/errorbar/setcaptype/
 ---
 
 ## SetCapType function

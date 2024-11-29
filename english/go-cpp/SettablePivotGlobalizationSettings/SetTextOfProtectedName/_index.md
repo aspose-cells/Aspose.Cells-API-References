@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetTextOfProtectedName method. Encapsulates the function that represents settextofprotectedname in Go.'
 type: docs
 weight: 200
-url: /go/settablepivotglobalizationsettings/settextofprotectedname/
+url: /go-cpp/settablepivotglobalizationsettings/settextofprotectedname/
 ---
 
 ## SetTextOfProtectedName function

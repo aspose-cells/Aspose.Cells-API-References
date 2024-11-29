@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsColorInPalette method. Encapsulates the function that represents iscolorinpalette in Go.'
 type: docs
 weight: 200
-url: /go/workbook/iscolorinpalette/
+url: /go-cpp/workbook/iscolorinpalette/
 ---
 
 ## IsColorInPalette function

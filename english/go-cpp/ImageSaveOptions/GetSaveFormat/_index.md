@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetSaveFormat method. Encapsulates the function that represents getsaveformat in Go.'
 type: docs
 weight: 200
-url: /go/imagesaveoptions/getsaveformat/
+url: /go-cpp/imagesaveoptions/getsaveformat/
 ---
 
 ## GetSaveFormat function

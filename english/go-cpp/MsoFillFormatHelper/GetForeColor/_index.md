@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetForeColor method. Encapsulates the function that represents getforecolor in Go.'
 type: docs
 weight: 200
-url: /go/msofillformathelper/getforecolor/
+url: /go-cpp/msofillformathelper/getforecolor/
 ---
 
 ## GetForeColor function

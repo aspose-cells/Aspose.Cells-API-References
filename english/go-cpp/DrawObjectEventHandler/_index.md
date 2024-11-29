@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'DrawObjectEventHandler class. Encapsulates the object that represents drawobjecteventhandler in Go.'
 type: docs
 weight: 200
-url: /go/drawobjecteventhandler/
+url: /go-cpp/drawobjecteventhandler/
 ---
 
 ## DrawObjectEventHandler class

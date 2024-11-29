@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetShowMarkers method. Encapsulates the function that represents setshowmarkers in Go.'
 type: docs
 weight: 200
-url: /go/sparklinegroup/setshowmarkers/
+url: /go-cpp/sparklinegroup/setshowmarkers/
 ---
 
 ## SetShowMarkers function

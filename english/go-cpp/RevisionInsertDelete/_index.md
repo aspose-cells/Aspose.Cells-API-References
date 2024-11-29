@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'RevisionInsertDelete class. Encapsulates the object that represents revisioninsertdelete in Go.'
 type: docs
 weight: 200
-url: /go/revisioninsertdelete/
+url: /go-cpp/revisioninsertdelete/
 ---
 
 ## RevisionInsertDelete class

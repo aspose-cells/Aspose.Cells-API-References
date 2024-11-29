@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'AddKey_Int_SortOrder method. Encapsulates the function that represents addkey in Go.'
 type: docs
 weight: 200
-url: /go/datasorter/addkey_int_sortorder/
+url: /go-cpp/datasorter/addkey_int_sortorder/
 ---
 
 ## AddKey_Int_SortOrder function

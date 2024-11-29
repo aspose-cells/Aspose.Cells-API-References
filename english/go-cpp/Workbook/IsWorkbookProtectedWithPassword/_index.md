@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsWorkbookProtectedWithPassword method. Encapsulates the function that represents isworkbookprotectedwithpassword in Go.'
 type: docs
 weight: 200
-url: /go/workbook/isworkbookprotectedwithpassword/
+url: /go-cpp/workbook/isworkbookprotectedwithpassword/
 ---
 
 ## IsWorkbookProtectedWithPassword function

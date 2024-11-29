@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetAttachedFilesUrlPrefix method. Encapsulates the function that represents getattachedfilesurlprefix in Go.'
 type: docs
 weight: 200
-url: /go/ebooksaveoptions/getattachedfilesurlprefix/
+url: /go-cpp/ebooksaveoptions/getattachedfilesurlprefix/
 ---
 
 ## GetAttachedFilesUrlPrefix function

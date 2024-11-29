@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetShowTotals method. Encapsulates the function that represents setshowtotals in Go.'
 type: docs
 weight: 200
-url: /go/listobject/setshowtotals/
+url: /go-cpp/listobject/setshowtotals/
 ---
 
 ## SetShowTotals function

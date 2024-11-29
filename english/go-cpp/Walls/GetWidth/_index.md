@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetWidth method. Encapsulates the function that represents getwidth in Go.'
 type: docs
 weight: 200
-url: /go/walls/getwidth/
+url: /go-cpp/walls/getwidth/
 ---
 
 ## GetWidth function

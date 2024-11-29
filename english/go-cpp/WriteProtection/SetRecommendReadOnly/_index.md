@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetRecommendReadOnly method. Encapsulates the function that represents setrecommendreadonly in Go.'
 type: docs
 weight: 200
-url: /go/writeprotection/setrecommendreadonly/
+url: /go-cpp/writeprotection/setrecommendreadonly/
 ---
 
 ## SetRecommendReadOnly function

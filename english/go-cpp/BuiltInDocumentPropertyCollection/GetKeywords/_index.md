@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetKeywords method. Encapsulates the function that represents getkeywords in Go.'
 type: docs
 weight: 200
-url: /go/builtindocumentpropertycollection/getkeywords/
+url: /go-cpp/builtindocumentpropertycollection/getkeywords/
 ---
 
 ## GetKeywords function

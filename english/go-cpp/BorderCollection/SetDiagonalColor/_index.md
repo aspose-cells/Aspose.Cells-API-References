@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetDiagonalColor method. Encapsulates the function that represents setdiagonalcolor in Go.'
 type: docs
 weight: 200
-url: /go/bordercollection/setdiagonalcolor/
+url: /go-cpp/bordercollection/setdiagonalcolor/
 ---
 
 ## SetDiagonalColor function

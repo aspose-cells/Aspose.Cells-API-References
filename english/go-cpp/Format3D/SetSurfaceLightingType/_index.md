@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetSurfaceLightingType method. Encapsulates the function that represents setsurfacelightingtype in Go.'
 type: docs
 weight: 200
-url: /go/format3d/setsurfacelightingtype/
+url: /go-cpp/format3d/setsurfacelightingtype/
 ---
 
 ## SetSurfaceLightingType function

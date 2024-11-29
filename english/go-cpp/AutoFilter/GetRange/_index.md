@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetRange method. Encapsulates the function that represents getrange in Go.'
 type: docs
 weight: 200
-url: /go/autofilter/getrange/
+url: /go-cpp/autofilter/getrange/
 ---
 
 ## GetRange function

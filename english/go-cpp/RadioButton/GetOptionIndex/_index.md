@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetOptionIndex method. Encapsulates the function that represents getoptionindex in Go.'
 type: docs
 weight: 200
-url: /go/radiobutton/getoptionindex/
+url: /go-cpp/radiobutton/getoptionindex/
 ---
 
 ## GetOptionIndex function

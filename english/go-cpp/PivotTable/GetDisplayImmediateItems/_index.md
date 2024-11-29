@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetDisplayImmediateItems method. Encapsulates the function that represents getdisplayimmediateitems in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/getdisplayimmediateitems/
+url: /go-cpp/pivottable/getdisplayimmediateitems/
 ---
 
 ## GetDisplayImmediateItems function

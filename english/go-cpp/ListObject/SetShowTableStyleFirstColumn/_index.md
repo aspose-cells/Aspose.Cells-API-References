@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetShowTableStyleFirstColumn method. Encapsulates the function that represents setshowtablestylefirstcolumn in Go.'
 type: docs
 weight: 200
-url: /go/listobject/setshowtablestylefirstcolumn/
+url: /go-cpp/listobject/setshowtablestylefirstcolumn/
 ---
 
 ## SetShowTableStyleFirstColumn function

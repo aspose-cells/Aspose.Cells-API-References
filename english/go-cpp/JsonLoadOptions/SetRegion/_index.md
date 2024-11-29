@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetRegion method. Encapsulates the function that represents setregion in Go.'
 type: docs
 weight: 200
-url: /go/jsonloadoptions/setregion/
+url: /go-cpp/jsonloadoptions/setregion/
 ---
 
 ## SetRegion function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetHeaderMargin method. Encapsulates the function that represents setheadermargin in Go.'
 type: docs
 weight: 200
-url: /go/pagesetup/setheadermargin/
+url: /go-cpp/pagesetup/setheadermargin/
 ---
 
 ## SetHeaderMargin function

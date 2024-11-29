@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetColumn method. Encapsulates the function that represents setcolumn in Go.'
 type: docs
 weight: 200
-url: /go/odscellfield/setcolumn/
+url: /go-cpp/odscellfield/setcolumn/
 ---
 
 ## SetColumn function

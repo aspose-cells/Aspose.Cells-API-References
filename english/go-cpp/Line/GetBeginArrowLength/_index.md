@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetBeginArrowLength method. Encapsulates the function that represents getbeginarrowlength in Go.'
 type: docs
 weight: 200
-url: /go/line/getbeginarrowlength/
+url: /go-cpp/line/getbeginarrowlength/
 ---
 
 ## GetBeginArrowLength function

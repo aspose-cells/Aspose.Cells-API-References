@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'TableToRangeOptions class. Encapsulates the object that represents tabletorangeoptions in Go.'
 type: docs
 weight: 200
-url: /go/tabletorangeoptions/
+url: /go-cpp/tabletorangeoptions/
 ---
 
 ## TableToRangeOptions class

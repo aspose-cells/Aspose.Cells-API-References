@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'CharacterBulletValue class. Encapsulates the object that represents characterbulletvalue in Go.'
 type: docs
 weight: 200
-url: /go/characterbulletvalue/
+url: /go-cpp/characterbulletvalue/
 ---
 
 ## CharacterBulletValue class

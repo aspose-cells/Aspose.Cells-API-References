@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'FileFormatUtil_ExtensionToSaveFormat method. Encapsulates the function that represents extensiontosaveformat in Go.'
 type: docs
 weight: 200
-url: /go/fileformatutil/fileformatutil_extensiontosaveformat/
+url: /go-cpp/fileformatutil/fileformatutil_extensiontosaveformat/
 ---
 
 ## FileFormatUtil_ExtensionToSaveFormat function

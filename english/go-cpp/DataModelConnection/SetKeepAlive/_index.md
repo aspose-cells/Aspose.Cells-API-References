@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetKeepAlive method. Encapsulates the function that represents setkeepalive in Go.'
 type: docs
 weight: 200
-url: /go/datamodelconnection/setkeepalive/
+url: /go-cpp/datamodelconnection/setkeepalive/
 ---
 
 ## SetKeepAlive function

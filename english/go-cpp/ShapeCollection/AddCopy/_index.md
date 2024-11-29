@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'AddCopy method. Encapsulates the function that represents addcopy in Go.'
 type: docs
 weight: 200
-url: /go/shapecollection/addcopy/
+url: /go-cpp/shapecollection/addcopy/
 ---
 
 ## AddCopy function

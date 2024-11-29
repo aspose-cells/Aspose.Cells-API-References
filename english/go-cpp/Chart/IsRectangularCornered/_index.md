@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsRectangularCornered method. Encapsulates the function that represents isrectangularcornered in Go.'
 type: docs
 weight: 200
-url: /go/chart/isrectangularcornered/
+url: /go-cpp/chart/isrectangularcornered/
 ---
 
 ## IsRectangularCornered function

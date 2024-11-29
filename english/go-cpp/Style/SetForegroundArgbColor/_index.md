@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetForegroundArgbColor method. Encapsulates the function that represents setforegroundargbcolor in Go.'
 type: docs
 weight: 200
-url: /go/style/setforegroundargbcolor/
+url: /go-cpp/style/setforegroundargbcolor/
 ---
 
 ## SetForegroundArgbColor function

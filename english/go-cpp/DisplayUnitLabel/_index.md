@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'DisplayUnitLabel class. Encapsulates the object that represents displayunitlabel in Go.'
 type: docs
 weight: 200
-url: /go/displayunitlabel/
+url: /go-cpp/displayunitlabel/
 ---
 
 ## DisplayUnitLabel class

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetBorderStyle method. Encapsulates the function that represents getborderstyle in Go.'
 type: docs
 weight: 200
-url: /go/textboxactivexcontrol/getborderstyle/
+url: /go-cpp/textboxactivexcontrol/getborderstyle/
 ---
 
 ## GetBorderStyle function

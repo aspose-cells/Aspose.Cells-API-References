@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Get_Int_Int method. Encapsulates the function that represents get in Go.'
 type: docs
 weight: 200
-url: /go/pivottablecollection/get_int_int/
+url: /go-cpp/pivottablecollection/get_int_int/
 ---
 
 ## Get_Int_Int function

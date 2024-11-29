@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetFontAlignType method. Encapsulates the function that represents setfontaligntype in Go.'
 type: docs
 weight: 200
-url: /go/textparagraph/setfontaligntype/
+url: /go-cpp/textparagraph/setfontaligntype/
 ---
 
 ## SetFontAlignType function

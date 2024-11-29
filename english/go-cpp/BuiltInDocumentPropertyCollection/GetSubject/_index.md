@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetSubject method. Encapsulates the function that represents getsubject in Go.'
 type: docs
 weight: 200
-url: /go/builtindocumentpropertycollection/getsubject/
+url: /go-cpp/builtindocumentpropertycollection/getsubject/
 ---
 
 ## GetSubject function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsDigitallySigned method. Encapsulates the function that represents isdigitallysigned in Go.'
 type: docs
 weight: 200
-url: /go/workbook/isdigitallysigned/
+url: /go-cpp/workbook/isdigitallysigned/
 ---
 
 ## IsDigitallySigned function

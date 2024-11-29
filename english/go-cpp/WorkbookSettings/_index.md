@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'WorkbookSettings class. Encapsulates the object that represents workbooksettings in Go.'
 type: docs
 weight: 200
-url: /go/workbooksettings/
+url: /go-cpp/workbooksettings/
 ---
 
 ## WorkbookSettings class

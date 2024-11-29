@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetInputRange_String method. Encapsulates the function that represents setinputrange in Go.'
 type: docs
 weight: 200
-url: /go/label/setinputrange_string/
+url: /go-cpp/label/setinputrange_string/
 ---
 
 ## SetInputRange_String function

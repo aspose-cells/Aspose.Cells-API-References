@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SubtotalSetting class. Encapsulates the object that represents subtotalsetting in Go.'
 type: docs
 weight: 200
-url: /go/subtotalsetting/
+url: /go-cpp/subtotalsetting/
 ---
 
 ## SubtotalSetting class

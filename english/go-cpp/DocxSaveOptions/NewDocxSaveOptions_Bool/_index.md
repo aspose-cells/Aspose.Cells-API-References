@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'DocxSaveOptions constructor. Encapsulates the function that represents newdocxsaveoptions_bool in Go.'
 type: docs
 weight: 200
-url: /go/docxsaveoptions/newdocxsaveoptions_bool/
+url: /go-cpp/docxsaveoptions/newdocxsaveoptions_bool/
 ---
 
 ## NewDocxSaveOptions_Bool function

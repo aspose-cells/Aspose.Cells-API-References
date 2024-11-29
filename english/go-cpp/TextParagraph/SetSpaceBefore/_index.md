@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetSpaceBefore method. Encapsulates the function that represents setspacebefore in Go.'
 type: docs
 weight: 200
-url: /go/textparagraph/setspacebefore/
+url: /go-cpp/textparagraph/setspacebefore/
 ---
 
 ## SetSpaceBefore function

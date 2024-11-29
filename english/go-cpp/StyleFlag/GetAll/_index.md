@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetAll method. Encapsulates the function that represents getall in Go.'
 type: docs
 weight: 200
-url: /go/styleflag/getall/
+url: /go-cpp/styleflag/getall/
 ---
 
 ## GetAll function

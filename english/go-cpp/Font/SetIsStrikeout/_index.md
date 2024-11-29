@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsStrikeout method. Encapsulates the function that represents setisstrikeout in Go.'
 type: docs
 weight: 200
-url: /go/font/setisstrikeout/
+url: /go-cpp/font/setisstrikeout/
 ---
 
 ## SetIsStrikeout function

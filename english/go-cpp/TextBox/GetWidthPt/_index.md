@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetWidthPt method. Encapsulates the function that represents getwidthpt in Go.'
 type: docs
 weight: 200
-url: /go/textbox/getwidthpt/
+url: /go-cpp/textbox/getwidthpt/
 ---
 
 ## GetWidthPt function

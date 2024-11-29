@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetEmbedAttachments method. Encapsulates the function that represents getembedattachments in Go.'
 type: docs
 weight: 200
-url: /go/pdfsaveoptions/getembedattachments/
+url: /go-cpp/pdfsaveoptions/getembedattachments/
 ---
 
 ## GetEmbedAttachments function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetMemorySetting method. Encapsulates the function that represents getmemorysetting in Go.'
 type: docs
 weight: 200
-url: /go/workbooksettings/getmemorysetting/
+url: /go-cpp/workbooksettings/getmemorysetting/
 ---
 
 ## GetMemorySetting function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetSaveAsSingleFile method. Encapsulates the function that represents setsaveassinglefile in Go.'
 type: docs
 weight: 200
-url: /go/htmlsaveoptions/setsaveassinglefile/
+url: /go-cpp/htmlsaveoptions/setsaveassinglefile/
 ---
 
 ## SetSaveAsSingleFile function

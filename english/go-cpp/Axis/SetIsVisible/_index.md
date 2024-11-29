@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsVisible method. Encapsulates the function that represents setisvisible in Go.'
 type: docs
 weight: 200
-url: /go/axis/setisvisible/
+url: /go-cpp/axis/setisvisible/
 ---
 
 ## SetIsVisible function

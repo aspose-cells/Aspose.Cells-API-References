@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetShowTableStyleColumnStripes method. Encapsulates the function that represents setshowtablestylecolumnstripes in Go.'
 type: docs
 weight: 200
-url: /go/listobject/setshowtablestylecolumnstripes/
+url: /go-cpp/listobject/setshowtablestylecolumnstripes/
 ---
 
 ## SetShowTableStyleColumnStripes function

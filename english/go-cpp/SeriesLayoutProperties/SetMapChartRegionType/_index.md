@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetMapChartRegionType method. Encapsulates the function that represents setmapchartregiontype in Go.'
 type: docs
 weight: 200
-url: /go/serieslayoutproperties/setmapchartregiontype/
+url: /go-cpp/serieslayoutproperties/setmapchartregiontype/
 ---
 
 ## SetMapChartRegionType function

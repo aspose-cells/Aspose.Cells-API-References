@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetPreserveString method. Encapsulates the function that represents getpreservestring in Go.'
 type: docs
 weight: 200
-url: /go/cells/getpreservestring/
+url: /go-cpp/cells/getpreservestring/
 ---
 
 ## GetPreserveString function

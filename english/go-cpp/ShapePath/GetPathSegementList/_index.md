@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetPathSegementList method. Encapsulates the function that represents getpathsegementlist in Go.'
 type: docs
 weight: 200
-url: /go/shapepath/getpathsegementlist/
+url: /go-cpp/shapepath/getpathsegementlist/
 ---
 
 ## GetPathSegementList function

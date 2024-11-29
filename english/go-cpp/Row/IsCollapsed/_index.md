@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsCollapsed method. Encapsulates the function that represents iscollapsed in Go.'
 type: docs
 weight: 200
-url: /go/row/iscollapsed/
+url: /go-cpp/row/iscollapsed/
 ---
 
 ## IsCollapsed function

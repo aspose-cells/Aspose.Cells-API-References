@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetShowFirstPoint method. Encapsulates the function that represents getshowfirstpoint in Go.'
 type: docs
 weight: 200
-url: /go/sparklinegroup/getshowfirstpoint/
+url: /go-cpp/sparklinegroup/getshowfirstpoint/
 ---
 
 ## GetShowFirstPoint function

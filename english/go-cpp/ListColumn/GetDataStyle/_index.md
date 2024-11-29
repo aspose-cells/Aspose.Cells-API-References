@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetDataStyle method. Encapsulates the function that represents getdatastyle in Go.'
 type: docs
 weight: 200
-url: /go/listcolumn/getdatastyle/
+url: /go-cpp/listcolumn/getdatastyle/
 ---
 
 ## GetDataStyle function

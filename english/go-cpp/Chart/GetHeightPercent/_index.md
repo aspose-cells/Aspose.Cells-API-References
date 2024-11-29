@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetHeightPercent method. Encapsulates the function that represents getheightpercent in Go.'
 type: docs
 weight: 200
-url: /go/chart/getheightpercent/
+url: /go-cpp/chart/getheightpercent/
 ---
 
 ## GetHeightPercent function

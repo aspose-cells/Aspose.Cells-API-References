@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetDefaultX method. Encapsulates the function that represents getdefaultx in Go.'
 type: docs
 weight: 200
-url: /go/plotarea/getdefaultx/
+url: /go-cpp/plotarea/getdefaultx/
 ---
 
 ## GetDefaultX function

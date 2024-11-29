@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetNaryGrow method. Encapsulates the function that represents getnarygrow in Go.'
 type: docs
 weight: 200
-url: /go/naryequationnode/getnarygrow/
+url: /go-cpp/naryequationnode/getnarygrow/
 ---
 
 ## GetNaryGrow function

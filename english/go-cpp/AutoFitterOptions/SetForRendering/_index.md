@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetForRendering method. Encapsulates the function that represents setforrendering in Go.'
 type: docs
 weight: 200
-url: /go/autofitteroptions/setforrendering/
+url: /go-cpp/autofitteroptions/setforrendering/
 ---
 
 ## SetForRendering function

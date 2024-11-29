@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetScaleX method. Encapsulates the function that represents getscalex in Go.'
 type: docs
 weight: 200
-url: /go/tilepicoption/getscalex/
+url: /go-cpp/tilepicoption/getscalex/
 ---
 
 ## GetScaleX function

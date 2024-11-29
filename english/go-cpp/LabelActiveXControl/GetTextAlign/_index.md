@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTextAlign method. Encapsulates the function that represents gettextalign in Go.'
 type: docs
 weight: 200
-url: /go/labelactivexcontrol/gettextalign/
+url: /go-cpp/labelactivexcontrol/gettextalign/
 ---
 
 ## GetTextAlign function

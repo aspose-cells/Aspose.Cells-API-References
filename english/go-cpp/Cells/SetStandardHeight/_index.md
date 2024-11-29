@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetStandardHeight method. Encapsulates the function that represents setstandardheight in Go.'
 type: docs
 weight: 200
-url: /go/cells/setstandardheight/
+url: /go-cpp/cells/setstandardheight/
 ---
 
 ## SetStandardHeight function

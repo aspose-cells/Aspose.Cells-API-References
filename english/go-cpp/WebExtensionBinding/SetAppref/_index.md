@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetAppref method. Encapsulates the function that represents setappref in Go.'
 type: docs
 weight: 200
-url: /go/webextensionbinding/setappref/
+url: /go-cpp/webextensionbinding/setappref/
 ---
 
 ## SetAppref function

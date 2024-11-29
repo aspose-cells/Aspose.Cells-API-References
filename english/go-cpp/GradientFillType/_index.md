@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GradientFillType enum. Encapsulates the object that represents gradientfilltype in Go.'
 type: docs
 weight: 200
-url: /go/gradientfilltype/
+url: /go-cpp/gradientfilltype/
 ---
 
 ## GradientFillType Enum

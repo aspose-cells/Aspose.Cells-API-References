@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetValue1 method. Encapsulates the function that represents setvalue1 in Go.'
 type: docs
 weight: 200
-url: /go/validation/setvalue1/
+url: /go-cpp/validation/setvalue1/
 ---
 
 ## SetValue1 function

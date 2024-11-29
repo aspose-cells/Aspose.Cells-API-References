@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GlowEffect class. Encapsulates the object that represents gloweffect in Go.'
 type: docs
 weight: 200
-url: /go/gloweffect/
+url: /go-cpp/gloweffect/
 ---
 
 ## GlowEffect class

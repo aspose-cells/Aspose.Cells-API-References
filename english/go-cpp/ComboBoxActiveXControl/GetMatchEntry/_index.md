@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetMatchEntry method. Encapsulates the function that represents getmatchentry in Go.'
 type: docs
 weight: 200
-url: /go/comboboxactivexcontrol/getmatchentry/
+url: /go-cpp/comboboxactivexcontrol/getmatchentry/
 ---
 
 ## GetMatchEntry function

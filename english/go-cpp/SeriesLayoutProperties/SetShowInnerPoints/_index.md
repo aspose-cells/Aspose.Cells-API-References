@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetShowInnerPoints method. Encapsulates the function that represents setshowinnerpoints in Go.'
 type: docs
 weight: 200
-url: /go/serieslayoutproperties/setshowinnerpoints/
+url: /go-cpp/serieslayoutproperties/setshowinnerpoints/
 ---
 
 ## SetShowInnerPoints function

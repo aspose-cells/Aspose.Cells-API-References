@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTopToCorner method. Encapsulates the function that represents gettoptocorner in Go.'
 type: docs
 weight: 200
-url: /go/textbox/gettoptocorner/
+url: /go-cpp/textbox/gettoptocorner/
 ---
 
 ## GetTopToCorner function

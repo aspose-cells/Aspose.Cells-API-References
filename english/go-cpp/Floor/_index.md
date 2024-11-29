@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Floor class. Encapsulates the object that represents floor in Go.'
 type: docs
 weight: 200
-url: /go/floor/
+url: /go-cpp/floor/
 ---
 
 ## Floor class

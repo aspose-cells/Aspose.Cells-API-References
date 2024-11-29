@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetOfficeMathOutputMode method. Encapsulates the function that represents getofficemathoutputmode in Go.'
 type: docs
 weight: 200
-url: /go/ebooksaveoptions/getofficemathoutputmode/
+url: /go-cpp/ebooksaveoptions/getofficemathoutputmode/
 ---
 
 ## GetOfficeMathOutputMode function

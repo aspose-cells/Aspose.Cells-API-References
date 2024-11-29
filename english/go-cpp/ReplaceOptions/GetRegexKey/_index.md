@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetRegexKey method. Encapsulates the function that represents getregexkey in Go.'
 type: docs
 weight: 200
-url: /go/replaceoptions/getregexkey/
+url: /go-cpp/replaceoptions/getregexkey/
 ---
 
 ## GetRegexKey function

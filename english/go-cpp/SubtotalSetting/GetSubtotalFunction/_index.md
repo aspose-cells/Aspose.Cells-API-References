@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetSubtotalFunction method. Encapsulates the function that represents getsubtotalfunction in Go.'
 type: docs
 weight: 200
-url: /go/subtotalsetting/getsubtotalfunction/
+url: /go-cpp/subtotalsetting/getsubtotalfunction/
 ---
 
 ## GetSubtotalFunction function

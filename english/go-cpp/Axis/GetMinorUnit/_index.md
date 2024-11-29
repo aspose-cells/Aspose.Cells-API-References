@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetMinorUnit method. Encapsulates the function that represents getminorunit in Go.'
 type: docs
 weight: 200
-url: /go/axis/getminorunit/
+url: /go-cpp/axis/getminorunit/
 ---
 
 ## GetMinorUnit function

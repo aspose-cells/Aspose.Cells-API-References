@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'LabelPositionType enum. Encapsulates the object that represents labelpositiontype in Go.'
 type: docs
 weight: 200
-url: /go/labelpositiontype/
+url: /go-cpp/labelpositiontype/
 ---
 
 ## LabelPositionType Enum

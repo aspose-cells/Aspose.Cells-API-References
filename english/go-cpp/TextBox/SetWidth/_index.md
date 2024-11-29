@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetWidth method. Encapsulates the function that represents setwidth in Go.'
 type: docs
 weight: 200
-url: /go/textbox/setwidth/
+url: /go-cpp/textbox/setwidth/
 ---
 
 ## SetWidth function

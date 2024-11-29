@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetForeTransparency method. Encapsulates the function that represents setforetransparency in Go.'
 type: docs
 weight: 200
-url: /go/patternfill/setforetransparency/
+url: /go-cpp/patternfill/setforetransparency/
 ---
 
 ## SetForeTransparency function

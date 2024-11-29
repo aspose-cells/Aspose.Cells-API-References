@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsIncludeNewItemsInFilter method. Encapsulates the function that represents isincludenewitemsinfilter in Go.'
 type: docs
 weight: 200
-url: /go/pivotfield/isincludenewitemsinfilter/
+url: /go-cpp/pivotfield/isincludenewitemsinfilter/
 ---
 
 ## IsIncludeNewItemsInFilter function

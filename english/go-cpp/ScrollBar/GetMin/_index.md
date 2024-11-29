@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetMin method. Encapsulates the function that represents getmin in Go.'
 type: docs
 weight: 200
-url: /go/scrollbar/getmin/
+url: /go-cpp/scrollbar/getmin/
 ---
 
 ## GetMin function

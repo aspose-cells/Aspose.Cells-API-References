@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetColumnCount method. Encapsulates the function that represents getcolumncount in Go.'
 type: docs
 weight: 200
-url: /go/unionrange/getcolumncount/
+url: /go-cpp/unionrange/getcolumncount/
 ---
 
 ## GetColumnCount function

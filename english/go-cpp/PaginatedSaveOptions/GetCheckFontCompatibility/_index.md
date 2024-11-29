@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetCheckFontCompatibility method. Encapsulates the function that represents getcheckfontcompatibility in Go.'
 type: docs
 weight: 200
-url: /go/paginatedsaveoptions/getcheckfontcompatibility/
+url: /go-cpp/paginatedsaveoptions/getcheckfontcompatibility/
 ---
 
 ## GetCheckFontCompatibility function

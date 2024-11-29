@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetExportFormula method. Encapsulates the function that represents getexportformula in Go.'
 type: docs
 weight: 200
-url: /go/ebooksaveoptions/getexportformula/
+url: /go-cpp/ebooksaveoptions/getexportformula/
 ---
 
 ## GetExportFormula function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetLoadFormat method. Encapsulates the function that represents getloadformat in Go.'
 type: docs
 weight: 200
-url: /go/jsonloadoptions/getloadformat/
+url: /go-cpp/jsonloadoptions/getloadformat/
 ---
 
 ## GetLoadFormat function

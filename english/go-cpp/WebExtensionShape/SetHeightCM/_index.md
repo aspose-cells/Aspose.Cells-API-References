@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetHeightCM method. Encapsulates the function that represents setheightcm in Go.'
 type: docs
 weight: 200
-url: /go/webextensionshape/setheightcm/
+url: /go-cpp/webextensionshape/setheightcm/
 ---
 
 ## SetHeightCM function

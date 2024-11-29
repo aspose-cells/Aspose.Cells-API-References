@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetRowGrand method. Encapsulates the function that represents setrowgrand in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/setrowgrand/
+url: /go-cpp/pivottable/setrowgrand/
 ---
 
 ## SetRowGrand function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTableStyles method. Encapsulates the function that represents gettablestyles in Go.'
 type: docs
 weight: 200
-url: /go/worksheetcollection/gettablestyles/
+url: /go-cpp/worksheetcollection/gettablestyles/
 ---
 
 ## GetTableStyles function

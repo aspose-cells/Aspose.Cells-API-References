@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetCompressionType method. Encapsulates the function that represents setcompressiontype in Go.'
 type: docs
 weight: 200
-url: /go/xlsbsaveoptions/setcompressiontype/
+url: /go-cpp/xlsbsaveoptions/setcompressiontype/
 ---
 
 ## SetCompressionType function

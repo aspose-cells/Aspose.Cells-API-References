@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetOneColorGradient method. Encapsulates the function that represents setonecolorgradient in Go.'
 type: docs
 weight: 200
-url: /go/msofillformat/setonecolorgradient/
+url: /go-cpp/msofillformat/setonecolorgradient/
 ---
 
 ## SetOneColorGradient function

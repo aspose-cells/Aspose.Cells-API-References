@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'RemoveUnusedStyles method. Encapsulates the function that represents removeunusedstyles in Go.'
 type: docs
 weight: 200
-url: /go/workbook/removeunusedstyles/
+url: /go-cpp/workbook/removeunusedstyles/
 ---
 
 ## RemoveUnusedStyles function

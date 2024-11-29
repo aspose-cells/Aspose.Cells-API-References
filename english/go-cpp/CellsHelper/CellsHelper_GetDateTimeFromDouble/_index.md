@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'CellsHelper_GetDateTimeFromDouble method. Encapsulates the function that represents getdatetimefromdouble in Go.'
 type: docs
 weight: 200
-url: /go/cellshelper/cellshelper_getdatetimefromdouble/
+url: /go-cpp/cellshelper/cellshelper_getdatetimefromdouble/
 ---
 
 ## CellsHelper_GetDateTimeFromDouble function

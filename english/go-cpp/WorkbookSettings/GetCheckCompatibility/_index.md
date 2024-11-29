@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetCheckCompatibility method. Encapsulates the function that represents getcheckcompatibility in Go.'
 type: docs
 weight: 200
-url: /go/workbooksettings/getcheckcompatibility/
+url: /go-cpp/workbooksettings/getcheckcompatibility/
 ---
 
 ## GetCheckCompatibility function

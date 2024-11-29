@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetDoubleValue method. Encapsulates the function that represents getdoublevalue in Go.'
 type: docs
 weight: 200
-url: /go/cell/getdoublevalue/
+url: /go-cpp/cell/getdoublevalue/
 ---
 
 ## GetDoubleValue function

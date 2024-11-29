@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetLeftBorder method. Encapsulates the function that represents getleftborder in Go.'
 type: docs
 weight: 200
-url: /go/styleflag/getleftborder/
+url: /go-cpp/styleflag/getleftborder/
 ---
 
 ## GetLeftBorder function

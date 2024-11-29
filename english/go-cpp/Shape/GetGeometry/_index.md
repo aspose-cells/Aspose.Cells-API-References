@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetGeometry method. Encapsulates the function that represents getgeometry in Go.'
 type: docs
 weight: 200
-url: /go/shape/getgeometry/
+url: /go-cpp/shape/getgeometry/
 ---
 
 ## GetGeometry function

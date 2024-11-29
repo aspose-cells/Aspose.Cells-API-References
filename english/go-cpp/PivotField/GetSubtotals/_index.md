@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetSubtotals method. Encapsulates the function that represents getsubtotals in Go.'
 type: docs
 weight: 200
-url: /go/pivotfield/getsubtotals/
+url: /go-cpp/pivotfield/getsubtotals/
 ---
 
 ## GetSubtotals function

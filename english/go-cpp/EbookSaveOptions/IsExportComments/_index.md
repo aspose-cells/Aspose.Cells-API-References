@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsExportComments method. Encapsulates the function that represents isexportcomments in Go.'
 type: docs
 weight: 200
-url: /go/ebooksaveoptions/isexportcomments/
+url: /go-cpp/ebooksaveoptions/isexportcomments/
 ---
 
 ## IsExportComments function

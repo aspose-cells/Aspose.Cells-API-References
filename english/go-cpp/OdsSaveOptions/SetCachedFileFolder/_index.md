@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetCachedFileFolder method. Encapsulates the function that represents setcachedfilefolder in Go.'
 type: docs
 weight: 200
-url: /go/odssaveoptions/setcachedfilefolder/
+url: /go-cpp/odssaveoptions/setcachedfilefolder/
 ---
 
 ## SetCachedFileFolder function

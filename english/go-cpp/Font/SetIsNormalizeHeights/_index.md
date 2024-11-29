@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsNormalizeHeights method. Encapsulates the function that represents setisnormalizeheights in Go.'
 type: docs
 weight: 200
-url: /go/font/setisnormalizeheights/
+url: /go-cpp/font/setisnormalizeheights/
 ---
 
 ## SetIsNormalizeHeights function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'RevisionAutoFormat class. Encapsulates the object that represents revisionautoformat in Go.'
 type: docs
 weight: 200
-url: /go/revisionautoformat/
+url: /go-cpp/revisionautoformat/
 ---
 
 ## RevisionAutoFormat class

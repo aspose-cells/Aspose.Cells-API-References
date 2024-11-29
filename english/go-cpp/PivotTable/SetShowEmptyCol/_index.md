@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetShowEmptyCol method. Encapsulates the function that represents setshowemptycol in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/setshowemptycol/
+url: /go-cpp/pivottable/setshowemptycol/
 ---
 
 ## SetShowEmptyCol function

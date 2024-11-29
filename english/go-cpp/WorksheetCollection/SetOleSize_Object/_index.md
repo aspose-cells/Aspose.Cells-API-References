@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetOleSize_Object method. Encapsulates the function that represents setolesize in Go.'
 type: docs
 weight: 200
-url: /go/worksheetcollection/setolesize_object/
+url: /go-cpp/worksheetcollection/setolesize_object/
 ---
 
 ## SetOleSize_Object function

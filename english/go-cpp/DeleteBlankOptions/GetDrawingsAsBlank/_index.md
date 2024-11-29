@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetDrawingsAsBlank method. Encapsulates the function that represents getdrawingsasblank in Go.'
 type: docs
 weight: 200
-url: /go/deleteblankoptions/getdrawingsasblank/
+url: /go-cpp/deleteblankoptions/getdrawingsasblank/
 ---
 
 ## GetDrawingsAsBlank function

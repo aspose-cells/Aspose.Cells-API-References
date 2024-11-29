@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ShapeSegmentPath class. Encapsulates the object that represents shapesegmentpath in Go.'
 type: docs
 weight: 200
-url: /go/shapesegmentpath/
+url: /go-cpp/shapesegmentpath/
 ---
 
 ## ShapeSegmentPath class

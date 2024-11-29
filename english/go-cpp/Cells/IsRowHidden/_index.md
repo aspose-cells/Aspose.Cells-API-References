@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsRowHidden method. Encapsulates the function that represents isrowhidden in Go.'
 type: docs
 weight: 200
-url: /go/cells/isrowhidden/
+url: /go-cpp/cells/isrowhidden/
 ---
 
 ## IsRowHidden function

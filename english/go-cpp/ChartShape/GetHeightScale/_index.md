@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetHeightScale method. Encapsulates the function that represents getheightscale in Go.'
 type: docs
 weight: 200
-url: /go/chartshape/getheightscale/
+url: /go-cpp/chartshape/getheightscale/
 ---
 
 ## GetHeightScale function

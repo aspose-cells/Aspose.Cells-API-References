@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetReference method. Encapsulates the function that represents getreference in Go.'
 type: docs
 weight: 200
-url: /go/webextension/getreference/
+url: /go-cpp/webextension/getreference/
 ---
 
 ## GetReference function

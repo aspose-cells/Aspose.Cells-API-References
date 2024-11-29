@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetPrintCopies method. Encapsulates the function that represents getprintcopies in Go.'
 type: docs
 weight: 200
-url: /go/pagesetup/getprintcopies/
+url: /go-cpp/pagesetup/getprintcopies/
 ---
 
 ## GetPrintCopies function

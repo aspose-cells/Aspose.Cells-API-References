@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'OdsSaveOptions class. Encapsulates the object that represents odssaveoptions in Go.'
 type: docs
 weight: 200
-url: /go/odssaveoptions/
+url: /go-cpp/odssaveoptions/
 ---
 
 ## OdsSaveOptions class

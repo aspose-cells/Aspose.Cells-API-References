@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'EbookSaveOptions constructor. Encapsulates the function that represents newebooksaveoptions_htmlsaveoptions in Go.'
 type: docs
 weight: 200
-url: /go/ebooksaveoptions/newebooksaveoptions_htmlsaveoptions/
+url: /go-cpp/ebooksaveoptions/newebooksaveoptions_htmlsaveoptions/
 ---
 
 ## NewEbookSaveOptions_HtmlSaveOptions function

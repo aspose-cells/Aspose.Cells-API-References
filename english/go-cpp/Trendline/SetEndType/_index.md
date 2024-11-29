@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetEndType method. Encapsulates the function that represents setendtype in Go.'
 type: docs
 weight: 200
-url: /go/trendline/setendtype/
+url: /go-cpp/trendline/setendtype/
 ---
 
 ## SetEndType function

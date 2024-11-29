@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetCategory method. Encapsulates the function that represents getcategory in Go.'
 type: docs
 weight: 200
-url: /go/builtindocumentpropertycollection/getcategory/
+url: /go-cpp/builtindocumentpropertycollection/getcategory/
 ---
 
 ## GetCategory function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetContrast method. Encapsulates the function that represents setcontrast in Go.'
 type: docs
 weight: 200
-url: /go/msoformatpicture/setcontrast/
+url: /go-cpp/msoformatpicture/setcontrast/
 ---
 
 ## SetContrast function

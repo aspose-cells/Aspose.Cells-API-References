@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetOrder2 method. Encapsulates the function that represents getorder2 in Go.'
 type: docs
 weight: 200
-url: /go/datasorter/getorder2/
+url: /go-cpp/datasorter/getorder2/
 ---
 
 ## GetOrder2 function

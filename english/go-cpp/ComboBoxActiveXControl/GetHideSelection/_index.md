@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetHideSelection method. Encapsulates the function that represents gethideselection in Go.'
 type: docs
 weight: 200
-url: /go/comboboxactivexcontrol/gethideselection/
+url: /go-cpp/comboboxactivexcontrol/gethideselection/
 ---
 
 ## GetHideSelection function

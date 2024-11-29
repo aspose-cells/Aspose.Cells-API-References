@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetActiveCell method. Encapsulates the function that represents setactivecell in Go.'
 type: docs
 weight: 200
-url: /go/worksheet/setactivecell/
+url: /go-cpp/worksheet/setactivecell/
 ---
 
 ## SetActiveCell function

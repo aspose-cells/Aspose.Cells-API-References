@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetFormula1_String method. Encapsulates the function that represents setformula1 in Go.'
 type: docs
 weight: 200
-url: /go/validation/setformula1_string/
+url: /go-cpp/validation/setformula1_string/
 ---
 
 ## SetFormula1_String function

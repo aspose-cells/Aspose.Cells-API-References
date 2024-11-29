@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'RadioButtonActiveXControl constructor. Encapsulates the function that represents newradiobuttonactivexcontrol in Go.'
 type: docs
 weight: 200
-url: /go/radiobuttonactivexcontrol/newradiobuttonactivexcontrol/
+url: /go-cpp/radiobuttonactivexcontrol/newradiobuttonactivexcontrol/
 ---
 
 ## NewRadioButtonActiveXControl function

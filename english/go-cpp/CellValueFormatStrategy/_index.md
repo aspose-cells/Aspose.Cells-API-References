@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'CellValueFormatStrategy enum. Encapsulates the object that represents cellvalueformatstrategy in Go.'
 type: docs
 weight: 200
-url: /go/cellvalueformatstrategy/
+url: /go-cpp/cellvalueformatstrategy/
 ---
 
 ## CellValueFormatStrategy Enum

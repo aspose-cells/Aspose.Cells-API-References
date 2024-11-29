@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetRank method. Encapsulates the function that represents getrank in Go.'
 type: docs
 weight: 200
-url: /go/top10/getrank/
+url: /go-cpp/top10/getrank/
 ---
 
 ## GetRank function

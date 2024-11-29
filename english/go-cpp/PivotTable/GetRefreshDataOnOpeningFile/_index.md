@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetRefreshDataOnOpeningFile method. Encapsulates the function that represents getrefreshdataonopeningfile in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/getrefreshdataonopeningfile/
+url: /go-cpp/pivottable/getrefreshdataonopeningfile/
 ---
 
 ## GetRefreshDataOnOpeningFile function

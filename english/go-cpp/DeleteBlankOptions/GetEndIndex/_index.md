@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetEndIndex method. Encapsulates the function that represents getendindex in Go.'
 type: docs
 weight: 200
-url: /go/deleteblankoptions/getendindex/
+url: /go-cpp/deleteblankoptions/getendindex/
 ---
 
 ## GetEndIndex function

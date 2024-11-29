@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetPivotFormatConditions method. Encapsulates the function that represents getpivotformatconditions in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/getpivotformatconditions/
+url: /go-cpp/pivottable/getpivotformatconditions/
 ---
 
 ## GetPivotFormatConditions function

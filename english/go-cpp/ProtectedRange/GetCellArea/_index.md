@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetCellArea method. Encapsulates the function that represents getcellarea in Go.'
 type: docs
 weight: 200
-url: /go/protectedrange/getcellarea/
+url: /go-cpp/protectedrange/getcellarea/
 ---
 
 ## GetCellArea function

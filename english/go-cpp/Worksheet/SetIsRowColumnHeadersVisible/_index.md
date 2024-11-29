@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsRowColumnHeadersVisible method. Encapsulates the function that represents setisrowcolumnheadersvisible in Go.'
 type: docs
 weight: 200
-url: /go/worksheet/setisrowcolumnheadersvisible/
+url: /go-cpp/worksheet/setisrowcolumnheadersvisible/
 ---
 
 ## SetIsRowColumnHeadersVisible function

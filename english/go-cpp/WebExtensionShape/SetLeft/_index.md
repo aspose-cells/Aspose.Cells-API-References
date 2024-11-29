@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetLeft method. Encapsulates the function that represents setleft in Go.'
 type: docs
 weight: 200
-url: /go/webextensionshape/setleft/
+url: /go-cpp/webextensionshape/setleft/
 ---
 
 ## SetLeft function

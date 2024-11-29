@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ErrorCheckOption class. Encapsulates the object that represents errorcheckoption in Go.'
 type: docs
 weight: 200
-url: /go/errorcheckoption/
+url: /go-cpp/errorcheckoption/
 ---
 
 ## ErrorCheckOption class

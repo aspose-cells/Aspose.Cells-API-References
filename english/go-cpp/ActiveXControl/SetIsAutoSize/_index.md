@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsAutoSize method. Encapsulates the function that represents setisautosize in Go.'
 type: docs
 weight: 200
-url: /go/activexcontrol/setisautosize/
+url: /go-cpp/activexcontrol/setisautosize/
 ---
 
 ## SetIsAutoSize function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetDoughnutInnerRadius method. Encapsulates the function that represents getdoughnutinnerradius in Go.'
 type: docs
 weight: 200
-url: /go/chartpoint/getdoughnutinnerradius/
+url: /go-cpp/chartpoint/getdoughnutinnerradius/
 ---
 
 ## GetDoughnutInnerRadius function

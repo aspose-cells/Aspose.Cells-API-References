@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetExportCellCoordinate method. Encapsulates the function that represents setexportcellcoordinate in Go.'
 type: docs
 weight: 200
-url: /go/ebooksaveoptions/setexportcellcoordinate/
+url: /go-cpp/ebooksaveoptions/setexportcellcoordinate/
 ---
 
 ## SetExportCellCoordinate function

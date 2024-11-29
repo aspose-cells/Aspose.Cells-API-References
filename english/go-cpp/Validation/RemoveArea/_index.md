@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'RemoveArea method. Encapsulates the function that represents removearea in Go.'
 type: docs
 weight: 200
-url: /go/validation/removearea/
+url: /go-cpp/validation/removearea/
 ---
 
 ## RemoveArea function

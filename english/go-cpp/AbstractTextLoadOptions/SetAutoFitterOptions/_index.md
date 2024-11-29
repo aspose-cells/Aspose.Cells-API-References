@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetAutoFitterOptions method. Encapsulates the function that represents setautofitteroptions in Go.'
 type: docs
 weight: 200
-url: /go/abstracttextloadoptions/setautofitteroptions/
+url: /go-cpp/abstracttextloadoptions/setautofitteroptions/
 ---
 
 ## SetAutoFitterOptions function

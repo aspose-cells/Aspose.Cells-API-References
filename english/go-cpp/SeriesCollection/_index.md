@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SeriesCollection class. Encapsulates the object that represents seriescollection in Go.'
 type: docs
 weight: 200
-url: /go/seriescollection/
+url: /go-cpp/seriescollection/
 ---
 
 ## SeriesCollection class

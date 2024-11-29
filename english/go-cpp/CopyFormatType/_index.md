@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'CopyFormatType enum. Encapsulates the object that represents copyformattype in Go.'
 type: docs
 weight: 200
-url: /go/copyformattype/
+url: /go-cpp/copyformattype/
 ---
 
 ## CopyFormatType Enum

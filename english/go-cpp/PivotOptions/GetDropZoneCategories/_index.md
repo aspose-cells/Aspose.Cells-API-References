@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetDropZoneCategories method. Encapsulates the function that represents getdropzonecategories in Go.'
 type: docs
 weight: 200
-url: /go/pivotoptions/getdropzonecategories/
+url: /go-cpp/pivotoptions/getdropzonecategories/
 ---
 
 ## GetDropZoneCategories function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetPrintErrors method. Encapsulates the function that represents getprinterrors in Go.'
 type: docs
 weight: 200
-url: /go/pagesetup/getprinterrors/
+url: /go-cpp/pagesetup/getprinterrors/
 ---
 
 ## GetPrintErrors function

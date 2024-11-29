@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetAxisBetweenCategories method. Encapsulates the function that represents getaxisbetweencategories in Go.'
 type: docs
 weight: 200
-url: /go/axis/getaxisbetweencategories/
+url: /go-cpp/axis/getaxisbetweencategories/
 ---
 
 ## GetAxisBetweenCategories function

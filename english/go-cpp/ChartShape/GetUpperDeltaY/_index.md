@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetUpperDeltaY method. Encapsulates the function that represents getupperdeltay in Go.'
 type: docs
 weight: 200
-url: /go/chartshape/getupperdeltay/
+url: /go-cpp/chartshape/getupperdeltay/
 ---
 
 ## GetUpperDeltaY function

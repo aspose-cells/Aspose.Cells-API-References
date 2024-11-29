@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetColumnTypeMap method. Encapsulates the function that represents setcolumntypemap in Go.'
 type: docs
 weight: 200
-url: /go/sqlscriptsaveoptions/setcolumntypemap/
+url: /go-cpp/sqlscriptsaveoptions/setcolumntypemap/
 ---
 
 ## SetColumnTypeMap function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Merge method. Encapsulates the function that represents merge in Go.'
 type: docs
 weight: 200
-url: /go/unionrange/merge/
+url: /go-cpp/unionrange/merge/
 ---
 
 ## Merge function

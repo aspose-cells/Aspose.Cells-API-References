@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetShared method. Encapsulates the function that represents getshared in Go.'
 type: docs
 weight: 200
-url: /go/workbooksettings/getshared/
+url: /go-cpp/workbooksettings/getshared/
 ---
 
 ## GetShared function

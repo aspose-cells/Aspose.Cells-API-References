@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetAccentCharacterType method. Encapsulates the function that represents getaccentcharactertype in Go.'
 type: docs
 weight: 200
-url: /go/accentequationnode/getaccentcharactertype/
+url: /go-cpp/accentequationnode/getaccentcharactertype/
 ---
 
 ## GetAccentCharacterType function

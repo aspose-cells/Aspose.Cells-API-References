@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'AddPivotConnection method. Encapsulates the function that represents addpivotconnection in Go.'
 type: docs
 weight: 200
-url: /go/slicer/addpivotconnection/
+url: /go-cpp/slicer/addpivotconnection/
 ---
 
 ## AddPivotConnection function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'CustomFilter class. Encapsulates the object that represents customfilter in Go.'
 type: docs
 weight: 200
-url: /go/customfilter/
+url: /go-cpp/customfilter/
 ---
 
 ## CustomFilter class

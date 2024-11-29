@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetShowColumnHeads method. Encapsulates the function that represents getshowcolumnheads in Go.'
 type: docs
 weight: 200
-url: /go/comboboxactivexcontrol/getshowcolumnheads/
+url: /go-cpp/comboboxactivexcontrol/getshowcolumnheads/
 ---
 
 ## GetShowColumnHeads function

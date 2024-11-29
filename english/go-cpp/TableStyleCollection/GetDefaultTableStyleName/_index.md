@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetDefaultTableStyleName method. Encapsulates the function that represents getdefaulttablestylename in Go.'
 type: docs
 weight: 200
-url: /go/tablestylecollection/getdefaulttablestylename/
+url: /go-cpp/tablestylecollection/getdefaulttablestylename/
 ---
 
 ## GetDefaultTableStyleName function

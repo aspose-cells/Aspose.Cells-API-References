@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetBuiltInPreference method. Encapsulates the function that represents setbuiltinpreference in Go.'
 type: docs
 weight: 200
-url: /go/defaultstylesettings/setbuiltinpreference/
+url: /go-cpp/defaultstylesettings/setbuiltinpreference/
 ---
 
 ## SetBuiltInPreference function

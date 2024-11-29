@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetHashCode method. Encapsulates the function that represents gethashcode in Go.'
 type: docs
 weight: 200
-url: /go/threedformat/gethashcode/
+url: /go-cpp/threedformat/gethashcode/
 ---
 
 ## GetHashCode function

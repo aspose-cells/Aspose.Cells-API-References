@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetTextColumn method. Encapsulates the function that represents settextcolumn in Go.'
 type: docs
 weight: 200
-url: /go/listboxactivexcontrol/settextcolumn/
+url: /go-cpp/listboxactivexcontrol/settextcolumn/
 ---
 
 ## SetTextColumn function

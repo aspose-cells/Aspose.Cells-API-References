@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetInvertIfNegative method. Encapsulates the function that represents getinvertifnegative in Go.'
 type: docs
 weight: 200
-url: /go/floor/getinvertifnegative/
+url: /go-cpp/floor/getinvertifnegative/
 ---
 
 ## GetInvertIfNegative function

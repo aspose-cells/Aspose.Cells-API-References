@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetCalculationMode method. Encapsulates the function that represents getcalculationmode in Go.'
 type: docs
 weight: 200
-url: /go/formulasettings/getcalculationmode/
+url: /go-cpp/formulasettings/getcalculationmode/
 ---
 
 ## GetCalculationMode function

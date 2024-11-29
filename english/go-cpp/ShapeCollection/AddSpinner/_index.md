@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'AddSpinner method. Encapsulates the function that represents addspinner in Go.'
 type: docs
 weight: 200
-url: /go/shapecollection/addspinner/
+url: /go-cpp/shapecollection/addspinner/
 ---
 
 ## AddSpinner function

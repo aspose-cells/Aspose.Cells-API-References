@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetGroup method. Encapsulates the function that represents getgroup in Go.'
 type: docs
 weight: 200
-url: /go/smartartshape/getgroup/
+url: /go-cpp/smartartshape/getgroup/
 ---
 
 ## GetGroup function

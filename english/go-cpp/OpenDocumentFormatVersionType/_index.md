@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'OpenDocumentFormatVersionType enum. Encapsulates the object that represents opendocumentformatversiontype in Go.'
 type: docs
 weight: 200
-url: /go/opendocumentformatversiontype/
+url: /go-cpp/opendocumentformatversiontype/
 ---
 
 ## OpenDocumentFormatVersionType Enum

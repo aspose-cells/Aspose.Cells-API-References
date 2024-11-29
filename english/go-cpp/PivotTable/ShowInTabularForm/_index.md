@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ShowInTabularForm method. Encapsulates the function that represents showintabularform in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/showintabularform/
+url: /go-cpp/pivottable/showintabularform/
 ---
 
 ## ShowInTabularForm function

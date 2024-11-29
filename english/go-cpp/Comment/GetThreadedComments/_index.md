@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetThreadedComments method. Encapsulates the function that represents getthreadedcomments in Go.'
 type: docs
 weight: 200
-url: /go/comment/getthreadedcomments/
+url: /go-cpp/comment/getthreadedcomments/
 ---
 
 ## GetThreadedComments function

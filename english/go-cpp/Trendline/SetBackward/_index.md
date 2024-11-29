@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetBackward method. Encapsulates the function that represents setbackward in Go.'
 type: docs
 weight: 200
-url: /go/trendline/setbackward/
+url: /go-cpp/trendline/setbackward/
 ---
 
 ## SetBackward function

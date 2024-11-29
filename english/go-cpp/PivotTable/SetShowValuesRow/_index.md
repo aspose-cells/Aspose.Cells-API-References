@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetShowValuesRow method. Encapsulates the function that represents setshowvaluesrow in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/setshowvaluesrow/
+url: /go-cpp/pivottable/setshowvaluesrow/
 ---
 
 ## SetShowValuesRow function

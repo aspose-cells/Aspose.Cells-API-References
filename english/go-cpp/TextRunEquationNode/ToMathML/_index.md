@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ToMathML method. Encapsulates the function that represents tomathml in Go.'
 type: docs
 weight: 200
-url: /go/textrunequationnode/tomathml/
+url: /go-cpp/textrunequationnode/tomathml/
 ---
 
 ## ToMathML function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetHeightPt method. Encapsulates the function that represents setheightpt in Go.'
 type: docs
 weight: 200
-url: /go/chartshape/setheightpt/
+url: /go-cpp/chartshape/setheightpt/
 ---
 
 ## SetHeightPt function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsSameSettings method. Encapsulates the function that represents setissamesettings in Go.'
 type: docs
 weight: 200
-url: /go/webqueryconnection/setissamesettings/
+url: /go-cpp/webqueryconnection/setissamesettings/
 ---
 
 ## SetIsSameSettings function

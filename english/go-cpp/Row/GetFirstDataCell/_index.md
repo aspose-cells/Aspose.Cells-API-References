@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetFirstDataCell method. Encapsulates the function that represents getfirstdatacell in Go.'
 type: docs
 weight: 200
-url: /go/row/getfirstdatacell/
+url: /go-cpp/row/getfirstdatacell/
 ---
 
 ## GetFirstDataCell function

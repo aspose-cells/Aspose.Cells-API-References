@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsHFDiffFirst method. Encapsulates the function that represents setishfdifffirst in Go.'
 type: docs
 weight: 200
-url: /go/pagesetup/setishfdifffirst/
+url: /go-cpp/pagesetup/setishfdifffirst/
 ---
 
 ## SetIsHFDiffFirst function

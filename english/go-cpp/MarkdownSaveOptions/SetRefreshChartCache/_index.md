@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetRefreshChartCache method. Encapsulates the function that represents setrefreshchartcache in Go.'
 type: docs
 weight: 200
-url: /go/markdownsaveoptions/setrefreshchartcache/
+url: /go-cpp/markdownsaveoptions/setrefreshchartcache/
 ---
 
 ## SetRefreshChartCache function

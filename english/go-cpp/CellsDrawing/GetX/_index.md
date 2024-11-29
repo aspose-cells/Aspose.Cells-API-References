@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetX method. Encapsulates the function that represents getx in Go.'
 type: docs
 weight: 200
-url: /go/cellsdrawing/getx/
+url: /go-cpp/cellsdrawing/getx/
 ---
 
 ## GetX function

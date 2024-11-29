@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetInstructions method. Encapsulates the function that represents getinstructions in Go.'
 type: docs
 weight: 200
-url: /go/signatureline/getinstructions/
+url: /go-cpp/signatureline/getinstructions/
 ---
 
 ## GetInstructions function

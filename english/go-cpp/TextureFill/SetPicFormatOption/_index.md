@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetPicFormatOption method. Encapsulates the function that represents setpicformatoption in Go.'
 type: docs
 weight: 200
-url: /go/texturefill/setpicformatoption/
+url: /go-cpp/texturefill/setpicformatoption/
 ---
 
 ## SetPicFormatOption function

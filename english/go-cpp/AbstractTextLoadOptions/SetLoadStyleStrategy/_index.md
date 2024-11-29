@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetLoadStyleStrategy method. Encapsulates the function that represents setloadstylestrategy in Go.'
 type: docs
 weight: 200
-url: /go/abstracttextloadoptions/setloadstylestrategy/
+url: /go-cpp/abstracttextloadoptions/setloadstylestrategy/
 ---
 
 ## SetLoadStyleStrategy function

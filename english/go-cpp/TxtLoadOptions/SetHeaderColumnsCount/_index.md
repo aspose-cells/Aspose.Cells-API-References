@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetHeaderColumnsCount method. Encapsulates the function that represents setheadercolumnscount in Go.'
 type: docs
 weight: 200
-url: /go/txtloadoptions/setheadercolumnscount/
+url: /go-cpp/txtloadoptions/setheadercolumnscount/
 ---
 
 ## SetHeaderColumnsCount function

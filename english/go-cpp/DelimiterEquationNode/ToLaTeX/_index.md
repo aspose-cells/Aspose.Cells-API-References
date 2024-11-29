@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ToLaTeX method. Encapsulates the function that represents tolatex in Go.'
 type: docs
 weight: 200
-url: /go/delimiterequationnode/tolatex/
+url: /go-cpp/delimiterequationnode/tolatex/
 ---
 
 ## ToLaTeX function

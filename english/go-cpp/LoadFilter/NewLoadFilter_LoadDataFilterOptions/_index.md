@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'LoadFilter constructor. Encapsulates the function that represents newloadfilter_loaddatafilteroptions in Go.'
 type: docs
 weight: 200
-url: /go/loadfilter/newloadfilter_loaddatafilteroptions/
+url: /go-cpp/loadfilter/newloadfilter_loaddatafilteroptions/
 ---
 
 ## NewLoadFilter_LoadDataFilterOptions function

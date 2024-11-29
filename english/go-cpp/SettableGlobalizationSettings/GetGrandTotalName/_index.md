@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetGrandTotalName method. Encapsulates the function that represents getgrandtotalname in Go.'
 type: docs
 weight: 200
-url: /go/settableglobalizationsettings/getgrandtotalname/
+url: /go-cpp/settableglobalizationsettings/getgrandtotalname/
 ---
 
 ## GetGrandTotalName function

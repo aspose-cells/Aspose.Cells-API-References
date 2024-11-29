@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'DefaultEditLanguage enum. Encapsulates the object that represents defaulteditlanguage in Go.'
 type: docs
 weight: 200
-url: /go/defaulteditlanguage/
+url: /go-cpp/defaulteditlanguage/
 ---
 
 ## DefaultEditLanguage Enum

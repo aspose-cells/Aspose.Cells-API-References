@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetBackgroundMode method. Encapsulates the function that represents getbackgroundmode in Go.'
 type: docs
 weight: 200
-url: /go/legendentry/getbackgroundmode/
+url: /go-cpp/legendentry/getbackgroundmode/
 ---
 
 ## GetBackgroundMode function

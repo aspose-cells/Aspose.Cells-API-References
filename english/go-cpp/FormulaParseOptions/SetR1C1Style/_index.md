@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetR1C1Style method. Encapsulates the function that represents setr1c1style in Go.'
 type: docs
 weight: 200
-url: /go/formulaparseoptions/setr1c1style/
+url: /go-cpp/formulaparseoptions/setr1c1style/
 ---
 
 ## SetR1C1Style function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetPlacement method. Encapsulates the function that represents getplacement in Go.'
 type: docs
 weight: 200
-url: /go/textbox/getplacement/
+url: /go-cpp/textbox/getplacement/
 ---
 
 ## GetPlacement function

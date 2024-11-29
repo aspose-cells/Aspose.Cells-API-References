@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'PageStartSavingArgs class. Encapsulates the object that represents pagestartsavingargs in Go.'
 type: docs
 weight: 200
-url: /go/pagestartsavingargs/
+url: /go-cpp/pagestartsavingargs/
 ---
 
 ## PageStartSavingArgs class

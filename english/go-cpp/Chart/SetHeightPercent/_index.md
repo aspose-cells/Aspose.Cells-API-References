@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetHeightPercent method. Encapsulates the function that represents setheightpercent in Go.'
 type: docs
 weight: 200
-url: /go/chart/setheightpercent/
+url: /go-cpp/chart/setheightpercent/
 ---
 
 ## SetHeightPercent function

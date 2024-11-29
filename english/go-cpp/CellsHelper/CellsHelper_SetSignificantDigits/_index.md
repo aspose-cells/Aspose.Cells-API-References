@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'CellsHelper_SetSignificantDigits method. Encapsulates the function that represents setsignificantdigits in Go.'
 type: docs
 weight: 200
-url: /go/cellshelper/cellshelper_setsignificantdigits/
+url: /go-cpp/cellshelper/cellshelper_setsignificantdigits/
 ---
 
 ## CellsHelper_SetSignificantDigits function

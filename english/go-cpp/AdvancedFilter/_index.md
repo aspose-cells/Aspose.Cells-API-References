@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'AdvancedFilter class. Encapsulates the object that represents advancedfilter in Go.'
 type: docs
 weight: 200
-url: /go/advancedfilter/
+url: /go-cpp/advancedfilter/
 ---
 
 ## AdvancedFilter class

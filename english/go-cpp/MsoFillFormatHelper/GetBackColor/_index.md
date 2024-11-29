@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetBackColor method. Encapsulates the function that represents getbackcolor in Go.'
 type: docs
 weight: 200
-url: /go/msofillformathelper/getbackcolor/
+url: /go-cpp/msofillformathelper/getbackcolor/
 ---
 
 ## GetBackColor function

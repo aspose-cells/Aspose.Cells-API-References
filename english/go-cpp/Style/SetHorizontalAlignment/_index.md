@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetHorizontalAlignment method. Encapsulates the function that represents sethorizontalalignment in Go.'
 type: docs
 weight: 200
-url: /go/style/sethorizontalalignment/
+url: /go-cpp/style/sethorizontalalignment/
 ---
 
 ## SetHorizontalAlignment function

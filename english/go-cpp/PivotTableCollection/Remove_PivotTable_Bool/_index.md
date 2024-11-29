@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Remove_PivotTable_Bool method. Encapsulates the function that represents remove in Go.'
 type: docs
 weight: 200
-url: /go/pivottablecollection/remove_pivottable_bool/
+url: /go-cpp/pivottablecollection/remove_pivottable_bool/
 ---
 
 ## Remove_PivotTable_Bool function

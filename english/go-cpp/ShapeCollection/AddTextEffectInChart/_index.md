@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'AddTextEffectInChart method. Encapsulates the function that represents addtexteffectinchart in Go.'
 type: docs
 weight: 200
-url: /go/shapecollection/addtexteffectinchart/
+url: /go-cpp/shapecollection/addtexteffectinchart/
 ---
 
 ## AddTextEffectInChart function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'AddRowAreaCondition_PivotField method. Encapsulates the function that represents addrowareacondition in Go.'
 type: docs
 weight: 200
-url: /go/pivotformatcondition/addrowareacondition_pivotfield/
+url: /go-cpp/pivotformatcondition/addrowareacondition_pivotfield/
 ---
 
 ## AddRowAreaCondition_PivotField function

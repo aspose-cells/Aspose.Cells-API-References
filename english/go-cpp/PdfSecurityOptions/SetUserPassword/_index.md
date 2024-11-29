@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetUserPassword method. Encapsulates the function that represents setuserpassword in Go.'
 type: docs
 weight: 200
-url: /go/pdfsecurityoptions/setuserpassword/
+url: /go-cpp/pdfsecurityoptions/setuserpassword/
 ---
 
 ## SetUserPassword function

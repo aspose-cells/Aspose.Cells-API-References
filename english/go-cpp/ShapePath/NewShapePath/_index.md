@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ShapePath constructor. Encapsulates the function that represents newshapepath in Go.'
 type: docs
 weight: 200
-url: /go/shapepath/newshapepath/
+url: /go-cpp/shapepath/newshapepath/
 ---
 
 ## NewShapePath function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsColorVaried method. Encapsulates the function that represents iscolorvaried in Go.'
 type: docs
 weight: 200
-url: /go/seriescollection/iscolorvaried/
+url: /go-cpp/seriescollection/iscolorvaried/
 ---
 
 ## IsColorVaried function

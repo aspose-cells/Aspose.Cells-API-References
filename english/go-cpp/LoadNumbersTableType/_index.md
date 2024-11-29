@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'LoadNumbersTableType enum. Encapsulates the object that represents loadnumberstabletype in Go.'
 type: docs
 weight: 200
-url: /go/loadnumberstabletype/
+url: /go-cpp/loadnumberstabletype/
 ---
 
 ## LoadNumbersTableType Enum

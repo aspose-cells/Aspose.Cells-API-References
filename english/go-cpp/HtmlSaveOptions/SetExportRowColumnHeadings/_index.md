@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetExportRowColumnHeadings method. Encapsulates the function that represents setexportrowcolumnheadings in Go.'
 type: docs
 weight: 200
-url: /go/htmlsaveoptions/setexportrowcolumnheadings/
+url: /go-cpp/htmlsaveoptions/setexportrowcolumnheadings/
 ---
 
 ## SetExportRowColumnHeadings function

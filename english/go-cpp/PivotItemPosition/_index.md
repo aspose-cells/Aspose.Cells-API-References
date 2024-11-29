@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'PivotItemPosition enum. Encapsulates the object that represents pivotitemposition in Go.'
 type: docs
 weight: 200
-url: /go/pivotitemposition/
+url: /go-cpp/pivotitemposition/
 ---
 
 ## PivotItemPosition Enum

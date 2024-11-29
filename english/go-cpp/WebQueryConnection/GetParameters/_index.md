@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetParameters method. Encapsulates the function that represents getparameters in Go.'
 type: docs
 weight: 200
-url: /go/webqueryconnection/getparameters/
+url: /go-cpp/webqueryconnection/getparameters/
 ---
 
 ## GetParameters function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsLocked method. Encapsulates the function that represents islocked in Go.'
 type: docs
 weight: 200
-url: /go/smartartshape/islocked/
+url: /go-cpp/smartartshape/islocked/
 ---
 
 ## IsLocked function

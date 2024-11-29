@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetShowMarkers method. Encapsulates the function that represents getshowmarkers in Go.'
 type: docs
 weight: 200
-url: /go/sparklinegroup/getshowmarkers/
+url: /go-cpp/sparklinegroup/getshowmarkers/
 ---
 
 ## GetShowMarkers function

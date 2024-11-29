@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetExportArea method. Encapsulates the function that represents setexportarea in Go.'
 type: docs
 weight: 200
-url: /go/xmlsaveoptions/setexportarea/
+url: /go-cpp/xmlsaveoptions/setexportarea/
 ---
 
 ## SetExportArea function

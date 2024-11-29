@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsGeneratedName method. Encapsulates the function that represents isgeneratedname in Go.'
 type: docs
 weight: 200
-url: /go/documentproperty/isgeneratedname/
+url: /go-cpp/documentproperty/isgeneratedname/
 ---
 
 ## IsGeneratedName function

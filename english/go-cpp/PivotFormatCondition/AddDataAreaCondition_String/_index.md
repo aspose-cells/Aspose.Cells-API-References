@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'AddDataAreaCondition_String method. Encapsulates the function that represents adddataareacondition in Go.'
 type: docs
 weight: 200
-url: /go/pivotformatcondition/adddataareacondition_string/
+url: /go-cpp/pivotformatcondition/adddataareacondition_string/
 ---
 
 ## AddDataAreaCondition_String function

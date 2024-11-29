@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetListSeparator method. Encapsulates the function that represents getlistseparator in Go.'
 type: docs
 weight: 200
-url: /go/globalizationsettings/getlistseparator/
+url: /go-cpp/globalizationsettings/getlistseparator/
 ---
 
 ## GetListSeparator function

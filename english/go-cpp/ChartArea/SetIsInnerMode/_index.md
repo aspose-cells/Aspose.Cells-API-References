@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsInnerMode method. Encapsulates the function that represents setisinnermode in Go.'
 type: docs
 weight: 200
-url: /go/chartarea/setisinnermode/
+url: /go-cpp/chartarea/setisinnermode/
 ---
 
 ## SetIsInnerMode function

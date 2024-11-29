@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'AutoShapeType enum. Encapsulates the object that represents autoshapetype in Go.'
 type: docs
 weight: 200
-url: /go/autoshapetype/
+url: /go-cpp/autoshapetype/
 ---
 
 ## AutoShapeType Enum

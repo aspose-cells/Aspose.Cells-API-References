@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetUpperLeftRow method. Encapsulates the function that represents setupperleftrow in Go.'
 type: docs
 weight: 200
-url: /go/listbox/setupperleftrow/
+url: /go-cpp/listbox/setupperleftrow/
 ---
 
 ## SetUpperLeftRow function

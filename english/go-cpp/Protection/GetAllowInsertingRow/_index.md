@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetAllowInsertingRow method. Encapsulates the function that represents getallowinsertingrow in Go.'
 type: docs
 weight: 200
-url: /go/protection/getallowinsertingrow/
+url: /go-cpp/protection/getallowinsertingrow/
 ---
 
 ## GetAllowInsertingRow function

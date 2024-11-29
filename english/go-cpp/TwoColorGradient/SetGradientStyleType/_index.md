@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetGradientStyleType method. Encapsulates the function that represents setgradientstyletype in Go.'
 type: docs
 weight: 200
-url: /go/twocolorgradient/setgradientstyletype/
+url: /go-cpp/twocolorgradient/setgradientstyletype/
 ---
 
 ## SetGradientStyleType function

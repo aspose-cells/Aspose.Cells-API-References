@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsXml method. Encapsulates the function that represents setisxml in Go.'
 type: docs
 weight: 200
-url: /go/webqueryconnection/setisxml/
+url: /go-cpp/webqueryconnection/setisxml/
 ---
 
 ## SetIsXml function

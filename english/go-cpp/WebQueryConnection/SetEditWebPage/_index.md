@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetEditWebPage method. Encapsulates the function that represents seteditwebpage in Go.'
 type: docs
 weight: 200
-url: /go/webqueryconnection/seteditwebpage/
+url: /go-cpp/webqueryconnection/seteditwebpage/
 ---
 
 ## SetEditWebPage function

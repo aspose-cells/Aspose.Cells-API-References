@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIntercept method. Encapsulates the function that represents setintercept in Go.'
 type: docs
 weight: 200
-url: /go/trendline/setintercept/
+url: /go-cpp/trendline/setintercept/
 ---
 
 ## SetIntercept function

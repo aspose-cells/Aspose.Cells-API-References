@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetHorizontalAxisColor method. Encapsulates the function that represents gethorizontalaxiscolor in Go.'
 type: docs
 weight: 200
-url: /go/sparklinegroup/gethorizontalaxiscolor/
+url: /go-cpp/sparklinegroup/gethorizontalaxiscolor/
 ---
 
 ## GetHorizontalAxisColor function

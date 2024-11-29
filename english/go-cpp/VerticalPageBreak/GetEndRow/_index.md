@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetEndRow method. Encapsulates the function that represents getendrow in Go.'
 type: docs
 weight: 200
-url: /go/verticalpagebreak/getendrow/
+url: /go-cpp/verticalpagebreak/getendrow/
 ---
 
 ## GetEndRow function

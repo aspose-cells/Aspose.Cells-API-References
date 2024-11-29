@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetAboveAverage method. Encapsulates the function that represents getaboveaverage in Go.'
 type: docs
 weight: 200
-url: /go/formatcondition/getaboveaverage/
+url: /go-cpp/formatcondition/getaboveaverage/
 ---
 
 ## GetAboveAverage function

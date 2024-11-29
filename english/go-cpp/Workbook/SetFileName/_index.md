@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetFileName method. Encapsulates the function that represents setfilename in Go.'
 type: docs
 weight: 200
-url: /go/workbook/setfilename/
+url: /go-cpp/workbook/setfilename/
 ---
 
 ## SetFileName function

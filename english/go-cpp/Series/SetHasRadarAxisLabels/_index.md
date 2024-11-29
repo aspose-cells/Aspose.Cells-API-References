@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetHasRadarAxisLabels method. Encapsulates the function that represents sethasradaraxislabels in Go.'
 type: docs
 weight: 200
-url: /go/series/sethasradaraxislabels/
+url: /go-cpp/series/sethasradaraxislabels/
 ---
 
 ## SetHasRadarAxisLabels function

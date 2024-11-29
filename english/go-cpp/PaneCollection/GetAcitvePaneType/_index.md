@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetAcitvePaneType method. Encapsulates the function that represents getacitvepanetype in Go.'
 type: docs
 weight: 200
-url: /go/panecollection/getacitvepanetype/
+url: /go-cpp/panecollection/getacitvepanetype/
 ---
 
 ## GetAcitvePaneType function

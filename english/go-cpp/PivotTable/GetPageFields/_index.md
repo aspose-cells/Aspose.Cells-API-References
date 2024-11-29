@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetPageFields method. Encapsulates the function that represents getpagefields in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/getpagefields/
+url: /go-cpp/pivottable/getpagefields/
 ---
 
 ## GetPageFields function

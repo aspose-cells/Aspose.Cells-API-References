@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'RemoveAt_Int method. Encapsulates the function that represents removeat in Go.'
 type: docs
 weight: 200
-url: /go/pivottablecollection/removeat_int/
+url: /go-cpp/pivottablecollection/removeat_int/
 ---
 
 ## RemoveAt_Int function

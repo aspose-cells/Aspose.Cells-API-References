@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsPercent method. Encapsulates the function that represents setispercent in Go.'
 type: docs
 weight: 200
-url: /go/top10filter/setispercent/
+url: /go-cpp/top10filter/setispercent/
 ---
 
 ## SetIsPercent function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GradientColorType enum. Encapsulates the object that represents gradientcolortype in Go.'
 type: docs
 weight: 200
-url: /go/gradientcolortype/
+url: /go-cpp/gradientcolortype/
 ---
 
 ## GradientColorType Enum

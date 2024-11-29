@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetArcStartPointYPx method. Encapsulates the function that represents getarcstartpointypx in Go.'
 type: docs
 weight: 200
-url: /go/chartpoint/getarcstartpointypx/
+url: /go-cpp/chartpoint/getarcstartpointypx/
 ---
 
 ## GetArcStartPointYPx function

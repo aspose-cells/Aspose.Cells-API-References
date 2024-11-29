@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetErrorObject method. Encapsulates the function that represents geterrorobject in Go.'
 type: docs
 weight: 200
-url: /go/warninginfo/geterrorobject/
+url: /go-cpp/warninginfo/geterrorobject/
 ---
 
 ## GetErrorObject function

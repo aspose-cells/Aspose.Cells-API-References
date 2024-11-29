@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTextColumn method. Encapsulates the function that represents gettextcolumn in Go.'
 type: docs
 weight: 200
-url: /go/comboboxactivexcontrol/gettextcolumn/
+url: /go-cpp/comboboxactivexcontrol/gettextcolumn/
 ---
 
 ## GetTextColumn function

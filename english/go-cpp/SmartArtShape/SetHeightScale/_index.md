@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetHeightScale method. Encapsulates the function that represents setheightscale in Go.'
 type: docs
 weight: 200
-url: /go/smartartshape/setheightscale/
+url: /go-cpp/smartartshape/setheightscale/
 ---
 
 ## SetHeightScale function

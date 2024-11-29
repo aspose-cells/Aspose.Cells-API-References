@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetAlignment method. Encapsulates the function that represents getalignment in Go.'
 type: docs
 weight: 200
-url: /go/checkboxactivexcontrol/getalignment/
+url: /go-cpp/checkboxactivexcontrol/getalignment/
 ---
 
 ## GetAlignment function

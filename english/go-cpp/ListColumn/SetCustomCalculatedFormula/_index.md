@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetCustomCalculatedFormula method. Encapsulates the function that represents setcustomcalculatedformula in Go.'
 type: docs
 weight: 200
-url: /go/listcolumn/setcustomcalculatedformula/
+url: /go-cpp/listcolumn/setcustomcalculatedformula/
 ---
 
 ## SetCustomCalculatedFormula function

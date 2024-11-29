@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetOffsetY method. Encapsulates the function that represents getoffsety in Go.'
 type: docs
 weight: 200
-url: /go/tilepicoption/getoffsety/
+url: /go-cpp/tilepicoption/getoffsety/
 ---
 
 ## GetOffsetY function

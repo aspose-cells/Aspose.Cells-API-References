@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsHFDiffOddEven method. Encapsulates the function that represents setishfdiffoddeven in Go.'
 type: docs
 weight: 200
-url: /go/pagesetup/setishfdiffoddeven/
+url: /go-cpp/pagesetup/setishfdiffoddeven/
 ---
 
 ## SetIsHFDiffOddEven function

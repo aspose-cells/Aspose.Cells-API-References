@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Copy_Range method. Encapsulates the function that represents copy in Go.'
 type: docs
 weight: 200
-url: /go/range/copy_range/
+url: /go-cpp/range/copy_range/
 ---
 
 ## Copy_Range function

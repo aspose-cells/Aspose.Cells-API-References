@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetEmfRenderSetting method. Encapsulates the function that represents setemfrendersetting in Go.'
 type: docs
 weight: 200
-url: /go/pdfsaveoptions/setemfrendersetting/
+url: /go-cpp/pdfsaveoptions/setemfrendersetting/
 ---
 
 ## SetEmfRenderSetting function

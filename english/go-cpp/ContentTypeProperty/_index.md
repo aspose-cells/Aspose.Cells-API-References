@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ContentTypeProperty class. Encapsulates the object that represents contenttypeproperty in Go.'
 type: docs
 weight: 200
-url: /go/contenttypeproperty/
+url: /go-cpp/contenttypeproperty/
 ---
 
 ## ContentTypeProperty class

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetBackgroundRefresh method. Encapsulates the function that represents setbackgroundrefresh in Go.'
 type: docs
 weight: 200
-url: /go/webqueryconnection/setbackgroundrefresh/
+url: /go-cpp/webqueryconnection/setbackgroundrefresh/
 ---
 
 ## SetBackgroundRefresh function

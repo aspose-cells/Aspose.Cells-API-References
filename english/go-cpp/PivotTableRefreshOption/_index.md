@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'PivotTableRefreshOption class. Encapsulates the object that represents pivottablerefreshoption in Go.'
 type: docs
 weight: 200
-url: /go/pivottablerefreshoption/
+url: /go-cpp/pivottablerefreshoption/
 ---
 
 ## PivotTableRefreshOption class

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsHangingPunctuation method. Encapsulates the function that represents setishangingpunctuation in Go.'
 type: docs
 weight: 200
-url: /go/textparagraph/setishangingpunctuation/
+url: /go-cpp/textparagraph/setishangingpunctuation/
 ---
 
 ## SetIsHangingPunctuation function

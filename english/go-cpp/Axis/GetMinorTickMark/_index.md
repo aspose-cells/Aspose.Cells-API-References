@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetMinorTickMark method. Encapsulates the function that represents getminortickmark in Go.'
 type: docs
 weight: 200
-url: /go/axis/getminortickmark/
+url: /go-cpp/axis/getminortickmark/
 ---
 
 ## GetMinorTickMark function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'MetadataOptions constructor. Encapsulates the function that represents newmetadataoptions in Go.'
 type: docs
 weight: 200
-url: /go/metadataoptions/newmetadataoptions/
+url: /go-cpp/metadataoptions/newmetadataoptions/
 ---
 
 ## NewMetadataOptions function

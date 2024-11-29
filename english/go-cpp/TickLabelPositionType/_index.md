@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'TickLabelPositionType enum. Encapsulates the object that represents ticklabelpositiontype in Go.'
 type: docs
 weight: 200
-url: /go/ticklabelpositiontype/
+url: /go-cpp/ticklabelpositiontype/
 ---
 
 ## TickLabelPositionType Enum

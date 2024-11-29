@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetNonAutoSortDefault method. Encapsulates the function that represents getnonautosortdefault in Go.'
 type: docs
 weight: 200
-url: /go/pivotfield/getnonautosortdefault/
+url: /go-cpp/pivotfield/getnonautosortdefault/
 ---
 
 ## GetNonAutoSortDefault function

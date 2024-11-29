@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetCapsType method. Encapsulates the function that represents getcapstype in Go.'
 type: docs
 weight: 200
-url: /go/font/getcapstype/
+url: /go-cpp/font/getcapstype/
 ---
 
 ## GetCapsType function

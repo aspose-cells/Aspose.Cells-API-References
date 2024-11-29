@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetFilterOperatorType method. Encapsulates the function that represents getfilteroperatortype in Go.'
 type: docs
 weight: 200
-url: /go/customfilter/getfilteroperatortype/
+url: /go-cpp/customfilter/getfilteroperatortype/
 ---
 
 ## GetFilterOperatorType function

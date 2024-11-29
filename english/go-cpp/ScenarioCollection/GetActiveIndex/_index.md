@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetActiveIndex method. Encapsulates the function that represents getactiveindex in Go.'
 type: docs
 weight: 200
-url: /go/scenariocollection/getactiveindex/
+url: /go-cpp/scenariocollection/getactiveindex/
 ---
 
 ## GetActiveIndex function

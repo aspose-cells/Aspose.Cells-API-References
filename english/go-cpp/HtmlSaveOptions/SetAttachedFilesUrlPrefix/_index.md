@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetAttachedFilesUrlPrefix method. Encapsulates the function that represents setattachedfilesurlprefix in Go.'
 type: docs
 weight: 200
-url: /go/htmlsaveoptions/setattachedfilesurlprefix/
+url: /go-cpp/htmlsaveoptions/setattachedfilesurlprefix/
 ---
 
 ## SetAttachedFilesUrlPrefix function

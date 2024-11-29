@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'CopyInRange method. Encapsulates the function that represents copyinrange in Go.'
 type: docs
 weight: 200
-url: /go/shapecollection/copyinrange/
+url: /go-cpp/shapecollection/copyinrange/
 ---
 
 ## CopyInRange function

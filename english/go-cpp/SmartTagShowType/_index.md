@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SmartTagShowType enum. Encapsulates the object that represents smarttagshowtype in Go.'
 type: docs
 weight: 200
-url: /go/smarttagshowtype/
+url: /go-cpp/smarttagshowtype/
 ---
 
 ## SmartTagShowType Enum

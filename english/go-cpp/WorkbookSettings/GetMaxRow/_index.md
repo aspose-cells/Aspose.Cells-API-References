@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetMaxRow method. Encapsulates the function that represents getmaxrow in Go.'
 type: docs
 weight: 200
-url: /go/workbooksettings/getmaxrow/
+url: /go-cpp/workbooksettings/getmaxrow/
 ---
 
 ## GetMaxRow function

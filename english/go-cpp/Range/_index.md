@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Range class. Encapsulates the object that represents range in Go.'
 type: docs
 weight: 200
-url: /go/range/
+url: /go-cpp/range/
 ---
 
 ## Range class

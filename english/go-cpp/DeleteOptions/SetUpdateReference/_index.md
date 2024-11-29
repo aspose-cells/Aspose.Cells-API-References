@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetUpdateReference method. Encapsulates the function that represents setupdatereference in Go.'
 type: docs
 weight: 200
-url: /go/deleteoptions/setupdatereference/
+url: /go-cpp/deleteoptions/setupdatereference/
 ---
 
 ## SetUpdateReference function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetFullText method. Encapsulates the function that represents getfulltext in Go.'
 type: docs
 weight: 200
-url: /go/name/getfulltext/
+url: /go-cpp/name/getfulltext/
 ---
 
 ## GetFullText function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetAllowTextToOverflow method. Encapsulates the function that represents setallowtexttooverflow in Go.'
 type: docs
 weight: 200
-url: /go/textboxoptions/setallowtexttooverflow/
+url: /go-cpp/textboxoptions/setallowtexttooverflow/
 ---
 
 ## SetAllowTextToOverflow function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SqlDataType enum. Encapsulates the object that represents sqldatatype in Go.'
 type: docs
 weight: 200
-url: /go/sqldatatype/
+url: /go-cpp/sqldatatype/
 ---
 
 ## SqlDataType Enum

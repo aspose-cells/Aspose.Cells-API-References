@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsHiddenItem method. Encapsulates the function that represents ishiddenitem in Go.'
 type: docs
 weight: 200
-url: /go/pivotfield/ishiddenitem/
+url: /go-cpp/pivotfield/ishiddenitem/
 ---
 
 ## IsHiddenItem function

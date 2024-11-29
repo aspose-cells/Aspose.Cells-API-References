@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetLeftToCorner method. Encapsulates the function that represents getlefttocorner in Go.'
 type: docs
 weight: 200
-url: /go/rectangleshape/getlefttocorner/
+url: /go-cpp/rectangleshape/getlefttocorner/
 ---
 
 ## GetLeftToCorner function

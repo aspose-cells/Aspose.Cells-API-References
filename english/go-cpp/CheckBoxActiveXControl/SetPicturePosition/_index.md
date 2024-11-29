@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetPicturePosition method. Encapsulates the function that represents setpictureposition in Go.'
 type: docs
 weight: 200
-url: /go/checkboxactivexcontrol/setpictureposition/
+url: /go-cpp/checkboxactivexcontrol/setpictureposition/
 ---
 
 ## SetPicturePosition function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'TextDirectionType enum. Encapsulates the object that represents textdirectiontype in Go.'
 type: docs
 weight: 200
-url: /go/textdirectiontype/
+url: /go-cpp/textdirectiontype/
 ---
 
 ## TextDirectionType Enum

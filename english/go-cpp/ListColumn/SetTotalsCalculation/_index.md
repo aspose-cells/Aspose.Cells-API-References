@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetTotalsCalculation method. Encapsulates the function that represents settotalscalculation in Go.'
 type: docs
 weight: 200
-url: /go/listcolumn/settotalscalculation/
+url: /go-cpp/listcolumn/settotalscalculation/
 ---
 
 ## SetTotalsCalculation function

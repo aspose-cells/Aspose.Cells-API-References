@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetExternalLinks method. Encapsulates the function that represents getexternallinks in Go.'
 type: docs
 weight: 200
-url: /go/worksheetcollection/getexternallinks/
+url: /go-cpp/worksheetcollection/getexternallinks/
 ---
 
 ## GetExternalLinks function

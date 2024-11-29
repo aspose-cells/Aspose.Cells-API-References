@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'AccentEquationNode class. Encapsulates the object that represents accentequationnode in Go.'
 type: docs
 weight: 200
-url: /go/accentequationnode/
+url: /go-cpp/accentequationnode/
 ---
 
 ## AccentEquationNode class

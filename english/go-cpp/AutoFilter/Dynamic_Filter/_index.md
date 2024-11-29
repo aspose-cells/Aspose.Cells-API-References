@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Dynamic_Filter method. Encapsulates the function that represents dynamic_filter in Go.'
 type: docs
 weight: 200
-url: /go/autofilter/dynamic_filter/
+url: /go-cpp/autofilter/dynamic_filter/
 ---
 
 ## Dynamic_Filter function

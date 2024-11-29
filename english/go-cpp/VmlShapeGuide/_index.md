@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'VmlShapeGuide class. Encapsulates the object that represents vmlshapeguide in Go.'
 type: docs
 weight: 200
-url: /go/vmlshapeguide/
+url: /go-cpp/vmlshapeguide/
 ---
 
 ## VmlShapeGuide class

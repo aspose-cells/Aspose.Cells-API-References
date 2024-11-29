@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetRootElementName method. Encapsulates the function that represents getrootelementname in Go.'
 type: docs
 weight: 200
-url: /go/xmlmap/getrootelementname/
+url: /go-cpp/xmlmap/getrootelementname/
 ---
 
 ## GetRootElementName function

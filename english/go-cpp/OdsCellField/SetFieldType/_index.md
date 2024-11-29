@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetFieldType method. Encapsulates the function that represents setfieldtype in Go.'
 type: docs
 weight: 200
-url: /go/odscellfield/setfieldtype/
+url: /go-cpp/odscellfield/setfieldtype/
 ---
 
 ## SetFieldType function

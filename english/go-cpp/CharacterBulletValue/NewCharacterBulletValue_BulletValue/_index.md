@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'CharacterBulletValue constructor. Encapsulates the function that represents newcharacterbulletvalue_bulletvalue in Go.'
 type: docs
 weight: 200
-url: /go/characterbulletvalue/newcharacterbulletvalue_bulletvalue/
+url: /go-cpp/characterbulletvalue/newcharacterbulletvalue_bulletvalue/
 ---
 
 ## NewCharacterBulletValue_BulletValue function

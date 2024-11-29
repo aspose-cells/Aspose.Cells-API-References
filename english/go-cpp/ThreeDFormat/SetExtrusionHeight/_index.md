@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetExtrusionHeight method. Encapsulates the function that represents setextrusionheight in Go.'
 type: docs
 weight: 200
-url: /go/threedformat/setextrusionheight/
+url: /go-cpp/threedformat/setextrusionheight/
 ---
 
 ## SetExtrusionHeight function

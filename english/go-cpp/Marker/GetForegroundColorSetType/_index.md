@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetForegroundColorSetType method. Encapsulates the function that represents getforegroundcolorsettype in Go.'
 type: docs
 weight: 200
-url: /go/marker/getforegroundcolorsettype/
+url: /go-cpp/marker/getforegroundcolorsettype/
 ---
 
 ## GetForegroundColorSetType function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTextCrossType method. Encapsulates the function that represents gettextcrosstype in Go.'
 type: docs
 weight: 200
-url: /go/pptxsaveoptions/gettextcrosstype/
+url: /go-cpp/pptxsaveoptions/gettextcrosstype/
 ---
 
 ## GetTextCrossType function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'VmlShapeGuide constructor. Encapsulates the function that represents newvmlshapeguide in Go.'
 type: docs
 weight: 200
-url: /go/vmlshapeguide/newvmlshapeguide/
+url: /go-cpp/vmlshapeguide/newvmlshapeguide/
 ---
 
 ## NewVmlShapeGuide function

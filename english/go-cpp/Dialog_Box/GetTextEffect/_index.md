@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTextEffect method. Encapsulates the function that represents gettexteffect in Go.'
 type: docs
 weight: 200
-url: /go/dialog_box/gettexteffect/
+url: /go-cpp/dialog_box/gettexteffect/
 ---
 
 ## GetTextEffect function

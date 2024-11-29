@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetDisplayRightToLeft method. Encapsulates the function that represents setdisplayrighttoleft in Go.'
 type: docs
 weight: 200
-url: /go/worksheet/setdisplayrighttoleft/
+url: /go-cpp/worksheet/setdisplayrighttoleft/
 ---
 
 ## SetDisplayRightToLeft function

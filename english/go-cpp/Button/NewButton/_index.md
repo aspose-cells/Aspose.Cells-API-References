@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Button constructor. Encapsulates the function that represents newbutton in Go.'
 type: docs
 weight: 200
-url: /go/button/newbutton/
+url: /go-cpp/button/newbutton/
 ---
 
 ## NewButton function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetDragToData method. Encapsulates the function that represents setdragtodata in Go.'
 type: docs
 weight: 200
-url: /go/pivotfield/setdragtodata/
+url: /go-cpp/pivotfield/setdragtodata/
 ---
 
 ## SetDragToData function

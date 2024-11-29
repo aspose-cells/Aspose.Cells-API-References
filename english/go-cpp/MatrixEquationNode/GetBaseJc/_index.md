@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetBaseJc method. Encapsulates the function that represents getbasejc in Go.'
 type: docs
 weight: 200
-url: /go/matrixequationnode/getbasejc/
+url: /go-cpp/matrixequationnode/getbasejc/
 ---
 
 ## GetBaseJc function

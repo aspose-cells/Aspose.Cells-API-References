@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetExportCaptionAsFieldName method. Encapsulates the function that represents setexportcaptionasfieldname in Go.'
 type: docs
 weight: 200
-url: /go/importtableoptions/setexportcaptionasfieldname/
+url: /go-cpp/importtableoptions/setexportcaptionasfieldname/
 ---
 
 ## SetExportCaptionAsFieldName function

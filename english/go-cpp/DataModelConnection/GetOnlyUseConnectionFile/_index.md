@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetOnlyUseConnectionFile method. Encapsulates the function that represents getonlyuseconnectionfile in Go.'
 type: docs
 weight: 200
-url: /go/datamodelconnection/getonlyuseconnectionfile/
+url: /go-cpp/datamodelconnection/getonlyuseconnectionfile/
 ---
 
 ## GetOnlyUseConnectionFile function

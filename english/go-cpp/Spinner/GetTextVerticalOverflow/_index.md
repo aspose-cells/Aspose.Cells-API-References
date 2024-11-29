@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTextVerticalOverflow method. Encapsulates the function that represents gettextverticaloverflow in Go.'
 type: docs
 weight: 200
-url: /go/spinner/gettextverticaloverflow/
+url: /go-cpp/spinner/gettextverticaloverflow/
 ---
 
 ## GetTextVerticalOverflow function

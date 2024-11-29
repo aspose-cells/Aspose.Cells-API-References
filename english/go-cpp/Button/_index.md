@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Button class. Encapsulates the object that represents button in Go.'
 type: docs
 weight: 200
-url: /go/button/
+url: /go-cpp/button/
 ---
 
 ## Button class

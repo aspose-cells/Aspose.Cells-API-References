@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'PropertyType enum. Encapsulates the object that represents propertytype in Go.'
 type: docs
 weight: 200
-url: /go/propertytype/
+url: /go-cpp/propertytype/
 ---
 
 ## PropertyType Enum

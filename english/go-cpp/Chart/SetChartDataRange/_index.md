@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetChartDataRange method. Encapsulates the function that represents setchartdatarange in Go.'
 type: docs
 weight: 200
-url: /go/chart/setchartdatarange/
+url: /go-cpp/chart/setchartdatarange/
 ---
 
 ## SetChartDataRange function

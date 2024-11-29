@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetFontColor method. Encapsulates the function that represents getfontcolor in Go.'
 type: docs
 weight: 200
-url: /go/styleflag/getfontcolor/
+url: /go-cpp/styleflag/getfontcolor/
 ---
 
 ## GetFontColor function

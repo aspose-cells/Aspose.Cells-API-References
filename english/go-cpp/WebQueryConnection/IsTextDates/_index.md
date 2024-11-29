@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsTextDates method. Encapsulates the function that represents istextdates in Go.'
 type: docs
 weight: 200
-url: /go/webqueryconnection/istextdates/
+url: /go-cpp/webqueryconnection/istextdates/
 ---
 
 ## IsTextDates function

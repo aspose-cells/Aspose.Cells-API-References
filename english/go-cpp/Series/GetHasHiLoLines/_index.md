@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetHasHiLoLines method. Encapsulates the function that represents gethashilolines in Go.'
 type: docs
 weight: 200
-url: /go/series/gethashilolines/
+url: /go-cpp/series/gethashilolines/
 ---
 
 ## GetHasHiLoLines function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTop10 method. Encapsulates the function that represents gettop10 in Go.'
 type: docs
 weight: 200
-url: /go/formatcondition/gettop10/
+url: /go-cpp/formatcondition/gettop10/
 ---
 
 ## GetTop10 function

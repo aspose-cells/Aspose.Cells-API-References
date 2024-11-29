@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetMinValue method. Encapsulates the function that represents setminvalue in Go.'
 type: docs
 weight: 200
-url: /go/axis/setminvalue/
+url: /go-cpp/axis/setminvalue/
 ---
 
 ## SetMinValue function

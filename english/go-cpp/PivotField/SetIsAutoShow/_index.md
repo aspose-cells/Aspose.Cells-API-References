@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsAutoShow method. Encapsulates the function that represents setisautoshow in Go.'
 type: docs
 weight: 200
-url: /go/pivotfield/setisautoshow/
+url: /go-cpp/pivotfield/setisautoshow/
 ---
 
 ## SetIsAutoShow function

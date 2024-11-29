@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetLogBase method. Encapsulates the function that represents setlogbase in Go.'
 type: docs
 weight: 200
-url: /go/axis/setlogbase/
+url: /go-cpp/axis/setlogbase/
 ---
 
 ## SetLogBase function

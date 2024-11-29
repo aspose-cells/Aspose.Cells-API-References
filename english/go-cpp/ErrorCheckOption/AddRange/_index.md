@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'AddRange method. Encapsulates the function that represents addrange in Go.'
 type: docs
 weight: 200
-url: /go/errorcheckoption/addrange/
+url: /go-cpp/errorcheckoption/addrange/
 ---
 
 ## AddRange function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'TimeUnit enum. Encapsulates the object that represents timeunit in Go.'
 type: docs
 weight: 200
-url: /go/timeunit/
+url: /go-cpp/timeunit/
 ---
 
 ## TimeUnit Enum

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetRichValue method. Encapsulates the function that represents getrichvalue in Go.'
 type: docs
 weight: 200
-url: /go/cell/getrichvalue/
+url: /go-cpp/cell/getrichvalue/
 ---
 
 ## GetRichValue function

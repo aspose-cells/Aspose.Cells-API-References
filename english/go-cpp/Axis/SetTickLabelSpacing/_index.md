@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetTickLabelSpacing method. Encapsulates the function that represents setticklabelspacing in Go.'
 type: docs
 weight: 200
-url: /go/axis/setticklabelspacing/
+url: /go-cpp/axis/setticklabelspacing/
 ---
 
 ## SetTickLabelSpacing function

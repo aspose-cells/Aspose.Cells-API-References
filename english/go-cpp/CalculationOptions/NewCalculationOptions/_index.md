@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'CalculationOptions constructor. Encapsulates the function that represents newcalculationoptions in Go.'
 type: docs
 weight: 200
-url: /go/calculationoptions/newcalculationoptions/
+url: /go-cpp/calculationoptions/newcalculationoptions/
 ---
 
 ## NewCalculationOptions function

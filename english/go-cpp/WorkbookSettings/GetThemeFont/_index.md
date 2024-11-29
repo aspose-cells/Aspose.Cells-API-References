@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetThemeFont method. Encapsulates the function that represents getthemefont in Go.'
 type: docs
 weight: 200
-url: /go/workbooksettings/getthemefont/
+url: /go-cpp/workbooksettings/getthemefont/
 ---
 
 ## GetThemeFont function

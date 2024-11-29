@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'PageEndSavingArgs constructor. Encapsulates the function that represents newpageendsavingargs in Go.'
 type: docs
 weight: 200
-url: /go/pageendsavingargs/newpageendsavingargs/
+url: /go-cpp/pageendsavingargs/newpageendsavingargs/
 ---
 
 ## NewPageEndSavingArgs function

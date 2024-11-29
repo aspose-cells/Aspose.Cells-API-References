@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsNillable method. Encapsulates the function that represents isnillable in Go.'
 type: docs
 weight: 200
-url: /go/contenttypeproperty/isnillable/
+url: /go-cpp/contenttypeproperty/isnillable/
 ---
 
 ## IsNillable function

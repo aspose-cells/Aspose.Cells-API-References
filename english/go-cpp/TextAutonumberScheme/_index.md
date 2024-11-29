@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'TextAutonumberScheme enum. Encapsulates the object that represents textautonumberscheme in Go.'
 type: docs
 weight: 200
-url: /go/textautonumberscheme/
+url: /go-cpp/textautonumberscheme/
 ---
 
 ## TextAutonumberScheme Enum

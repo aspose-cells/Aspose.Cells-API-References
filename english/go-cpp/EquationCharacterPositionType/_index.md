@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'EquationCharacterPositionType enum. Encapsulates the object that represents equationcharacterpositiontype in Go.'
 type: docs
 weight: 200
-url: /go/equationcharacterpositiontype/
+url: /go-cpp/equationcharacterpositiontype/
 ---
 
 ## EquationCharacterPositionType Enum

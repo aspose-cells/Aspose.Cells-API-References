@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIs3ColorScale method. Encapsulates the function that represents setis3colorscale in Go.'
 type: docs
 weight: 200
-url: /go/colorscale/setis3colorscale/
+url: /go-cpp/colorscale/setis3colorscale/
 ---
 
 ## SetIs3ColorScale function

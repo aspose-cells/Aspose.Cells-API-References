@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetBooleanValueString method. Encapsulates the function that represents getbooleanvaluestring in Go.'
 type: docs
 weight: 200
-url: /go/globalizationsettings/getbooleanvaluestring/
+url: /go-cpp/globalizationsettings/getbooleanvaluestring/
 ---
 
 ## GetBooleanValueString function

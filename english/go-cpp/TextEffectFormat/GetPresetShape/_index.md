@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetPresetShape method. Encapsulates the function that represents getpresetshape in Go.'
 type: docs
 weight: 200
-url: /go/texteffectformat/getpresetshape/
+url: /go-cpp/texteffectformat/getpresetshape/
 ---
 
 ## GetPresetShape function

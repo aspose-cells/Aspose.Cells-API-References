@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'WriteProtection constructor. Encapsulates the function that represents newwriteprotection in Go.'
 type: docs
 weight: 200
-url: /go/writeprotection/newwriteprotection/
+url: /go-cpp/writeprotection/newwriteprotection/
 ---
 
 ## NewWriteProtection function

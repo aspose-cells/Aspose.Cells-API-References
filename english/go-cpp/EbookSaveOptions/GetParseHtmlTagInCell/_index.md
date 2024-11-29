@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetParseHtmlTagInCell method. Encapsulates the function that represents getparsehtmltagincell in Go.'
 type: docs
 weight: 200
-url: /go/ebooksaveoptions/getparsehtmltagincell/
+url: /go-cpp/ebooksaveoptions/getparsehtmltagincell/
 ---
 
 ## GetParseHtmlTagInCell function

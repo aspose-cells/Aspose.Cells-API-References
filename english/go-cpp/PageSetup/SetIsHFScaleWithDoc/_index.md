@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsHFScaleWithDoc method. Encapsulates the function that represents setishfscalewithdoc in Go.'
 type: docs
 weight: 200
-url: /go/pagesetup/setishfscalewithdoc/
+url: /go-cpp/pagesetup/setishfscalewithdoc/
 ---
 
 ## SetIsHFScaleWithDoc function

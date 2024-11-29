@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsAutoFormat method. Encapsulates the function that represents isautoformat in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/isautoformat/
+url: /go-cpp/pivottable/isautoformat/
 ---
 
 ## IsAutoFormat function

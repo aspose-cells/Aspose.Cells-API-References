@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetFitToPagesTall method. Encapsulates the function that represents getfittopagestall in Go.'
 type: docs
 weight: 200
-url: /go/pagesetup/getfittopagestall/
+url: /go-cpp/pagesetup/getfittopagestall/
 ---
 
 ## GetFitToPagesTall function

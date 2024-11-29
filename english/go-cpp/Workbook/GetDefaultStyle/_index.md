@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetDefaultStyle method. Encapsulates the function that represents getdefaultstyle in Go.'
 type: docs
 weight: 200
-url: /go/workbook/getdefaultstyle/
+url: /go-cpp/workbook/getdefaultstyle/
 ---
 
 ## GetDefaultStyle function

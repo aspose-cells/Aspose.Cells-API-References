@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'LinkToXmlMap method. Encapsulates the function that represents linktoxmlmap in Go.'
 type: docs
 weight: 200
-url: /go/cells/linktoxmlmap/
+url: /go-cpp/cells/linktoxmlmap/
 ---
 
 ## LinkToXmlMap function

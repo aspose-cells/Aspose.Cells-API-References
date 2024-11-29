@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetExportGridLines method. Encapsulates the function that represents getexportgridlines in Go.'
 type: docs
 weight: 200
-url: /go/htmlsaveoptions/getexportgridlines/
+url: /go-cpp/htmlsaveoptions/getexportgridlines/
 ---
 
 ## GetExportGridLines function

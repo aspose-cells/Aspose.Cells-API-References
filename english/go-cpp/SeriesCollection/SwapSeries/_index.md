@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SwapSeries method. Encapsulates the function that represents swapseries in Go.'
 type: docs
 weight: 200
-url: /go/seriescollection/swapseries/
+url: /go-cpp/seriescollection/swapseries/
 ---
 
 ## SwapSeries function

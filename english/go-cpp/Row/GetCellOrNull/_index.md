@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetCellOrNull method. Encapsulates the function that represents getcellornull in Go.'
 type: docs
 weight: 200
-url: /go/row/getcellornull/
+url: /go-cpp/row/getcellornull/
 ---
 
 ## GetCellOrNull function

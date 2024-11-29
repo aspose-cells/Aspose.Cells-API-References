@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'WorkbookPrintingPreview class. Encapsulates the object that represents workbookprintingpreview in Go.'
 type: docs
 weight: 200
-url: /go/workbookprintingpreview/
+url: /go-cpp/workbookprintingpreview/
 ---
 
 ## WorkbookPrintingPreview class

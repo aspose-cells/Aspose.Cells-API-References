@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetVerticalAxisMinValue method. Encapsulates the function that represents getverticalaxisminvalue in Go.'
 type: docs
 weight: 200
-url: /go/sparklinegroup/getverticalaxisminvalue/
+url: /go-cpp/sparklinegroup/getverticalaxisminvalue/
 ---
 
 ## GetVerticalAxisMinValue function

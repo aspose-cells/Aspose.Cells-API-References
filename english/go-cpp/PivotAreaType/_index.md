@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'PivotAreaType enum. Encapsulates the object that represents pivotareatype in Go.'
 type: docs
 weight: 200
-url: /go/pivotareatype/
+url: /go-cpp/pivotareatype/
 ---
 
 ## PivotAreaType Enum

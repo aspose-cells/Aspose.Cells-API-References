@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsSharedFormula method. Encapsulates the function that represents issharedformula in Go.'
 type: docs
 weight: 200
-url: /go/cell/issharedformula/
+url: /go-cpp/cell/issharedformula/
 ---
 
 ## IsSharedFormula function

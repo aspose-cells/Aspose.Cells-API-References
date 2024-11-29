@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetForeignKeyColumn method. Encapsulates the function that represents getforeignkeycolumn in Go.'
 type: docs
 weight: 200
-url: /go/datamodelrelationship/getforeignkeycolumn/
+url: /go-cpp/datamodelrelationship/getforeignkeycolumn/
 ---
 
 ## GetForeignKeyColumn function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Find_Object_Cell_FindOptions method. Encapsulates the function that represents find in Go.'
 type: docs
 weight: 200
-url: /go/cells/find_object_cell_findoptions/
+url: /go-cpp/cells/find_object_cell_findoptions/
 ---
 
 ## Find_Object_Cell_FindOptions function

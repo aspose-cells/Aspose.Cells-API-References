@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Add_String_Date method. Encapsulates the function that represents add in Go.'
 type: docs
 weight: 200
-url: /go/customdocumentpropertycollection/add_string_date/
+url: /go-cpp/customdocumentpropertycollection/add_string_date/
 ---
 
 ## Add_String_Date function

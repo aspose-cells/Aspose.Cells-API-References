@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetChart method. Encapsulates the function that represents getchart in Go.'
 type: docs
 weight: 200
-url: /go/chartshape/getchart/
+url: /go-cpp/chartshape/getchart/
 ---
 
 ## GetChart function

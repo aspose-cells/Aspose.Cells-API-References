@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetNote method. Encapsulates the function that represents getnote in Go.'
 type: docs
 weight: 200
-url: /go/comment/getnote/
+url: /go-cpp/comment/getnote/
 ---
 
 ## GetNote function

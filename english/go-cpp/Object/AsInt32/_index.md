@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'AsInt32 method. Encapsulates the function that represents asint32 in Go.'
 type: docs
 weight: 200
-url: /go/object/asint32/
+url: /go-cpp/object/asint32/
 ---
 
 ## AsInt32 function

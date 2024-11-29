@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'AddChild_EquationNodeType method. Encapsulates the function that represents addchild in Go.'
 type: docs
 weight: 200
-url: /go/barequationnode/addchild_equationnodetype/
+url: /go-cpp/barequationnode/addchild_equationnodetype/
 ---
 
 ## AddChild_EquationNodeType function

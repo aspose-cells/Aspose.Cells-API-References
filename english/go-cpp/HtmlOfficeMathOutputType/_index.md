@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'HtmlOfficeMathOutputType enum. Encapsulates the object that represents htmlofficemathoutputtype in Go.'
 type: docs
 weight: 200
-url: /go/htmlofficemathoutputtype/
+url: /go-cpp/htmlofficemathoutputtype/
 ---
 
 ## HtmlOfficeMathOutputType Enum

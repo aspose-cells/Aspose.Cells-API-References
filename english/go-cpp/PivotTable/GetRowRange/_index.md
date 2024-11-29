@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetRowRange method. Encapsulates the function that represents getrowrange in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/getrowrange/
+url: /go-cpp/pivottable/getrowrange/
 ---
 
 ## GetRowRange function

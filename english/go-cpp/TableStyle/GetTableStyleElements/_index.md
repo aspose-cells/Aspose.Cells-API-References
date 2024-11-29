@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTableStyleElements method. Encapsulates the function that represents gettablestyleelements in Go.'
 type: docs
 weight: 200
-url: /go/tablestyle/gettablestyleelements/
+url: /go-cpp/tablestyle/gettablestyleelements/
 ---
 
 ## GetTableStyleElements function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetPerspective method. Encapsulates the function that represents setperspective in Go.'
 type: docs
 weight: 200
-url: /go/threedformat/setperspective/
+url: /go-cpp/threedformat/setperspective/
 ---
 
 ## SetPerspective function

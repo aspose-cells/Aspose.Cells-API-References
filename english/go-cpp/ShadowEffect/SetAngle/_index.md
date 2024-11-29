@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetAngle method. Encapsulates the function that represents setangle in Go.'
 type: docs
 weight: 200
-url: /go/shadoweffect/setangle/
+url: /go-cpp/shadoweffect/setangle/
 ---
 
 ## SetAngle function

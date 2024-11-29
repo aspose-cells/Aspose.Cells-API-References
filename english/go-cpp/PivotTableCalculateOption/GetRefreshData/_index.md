@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetRefreshData method. Encapsulates the function that represents getrefreshdata in Go.'
 type: docs
 weight: 200
-url: /go/pivottablecalculateoption/getrefreshdata/
+url: /go-cpp/pivottablecalculateoption/getrefreshdata/
 ---
 
 ## GetRefreshData function

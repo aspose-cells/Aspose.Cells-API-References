@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetMin method. Encapsulates the function that represents setmin in Go.'
 type: docs
 weight: 200
-url: /go/spinner/setmin/
+url: /go-cpp/spinner/setmin/
 ---
 
 ## SetMin function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'XmlColumnProperty constructor. Encapsulates the function that represents newxmlcolumnproperty in Go.'
 type: docs
 weight: 200
-url: /go/xmlcolumnproperty/newxmlcolumnproperty/
+url: /go-cpp/xmlcolumnproperty/newxmlcolumnproperty/
 ---
 
 ## NewXmlColumnProperty function

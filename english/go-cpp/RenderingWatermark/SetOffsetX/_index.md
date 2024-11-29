@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetOffsetX method. Encapsulates the function that represents setoffsetx in Go.'
 type: docs
 weight: 200
-url: /go/renderingwatermark/setoffsetx/
+url: /go-cpp/renderingwatermark/setoffsetx/
 ---
 
 ## SetOffsetX function

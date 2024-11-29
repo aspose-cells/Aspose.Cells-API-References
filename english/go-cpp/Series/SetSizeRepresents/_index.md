@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetSizeRepresents method. Encapsulates the function that represents setsizerepresents in Go.'
 type: docs
 weight: 200
-url: /go/series/setsizerepresents/
+url: /go-cpp/series/setsizerepresents/
 ---
 
 ## SetSizeRepresents function

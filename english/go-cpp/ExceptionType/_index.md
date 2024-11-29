@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ExceptionType enum. Encapsulates the object that represents exceptiontype in Go.'
 type: docs
 weight: 200
-url: /go/exceptiontype/
+url: /go-cpp/exceptiontype/
 ---
 
 ## ExceptionType Enum

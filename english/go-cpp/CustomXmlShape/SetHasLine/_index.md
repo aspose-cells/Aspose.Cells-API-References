@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetHasLine method. Encapsulates the function that represents sethasline in Go.'
 type: docs
 weight: 200
-url: /go/customxmlshape/sethasline/
+url: /go-cpp/customxmlshape/sethasline/
 ---
 
 ## SetHasLine function

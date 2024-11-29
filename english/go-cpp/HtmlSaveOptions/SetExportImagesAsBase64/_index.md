@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetExportImagesAsBase64 method. Encapsulates the function that represents setexportimagesasbase64 in Go.'
 type: docs
 weight: 200
-url: /go/htmlsaveoptions/setexportimagesasbase64/
+url: /go-cpp/htmlsaveoptions/setexportimagesasbase64/
 ---
 
 ## SetExportImagesAsBase64 function

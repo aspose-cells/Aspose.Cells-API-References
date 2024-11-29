@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'VbaProjectReferenceType enum. Encapsulates the object that represents vbaprojectreferencetype in Go.'
 type: docs
 weight: 200
-url: /go/vbaprojectreferencetype/
+url: /go-cpp/vbaprojectreferencetype/
 ---
 
 ## VbaProjectReferenceType Enum

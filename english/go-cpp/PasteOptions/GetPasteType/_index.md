@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetPasteType method. Encapsulates the function that represents getpastetype in Go.'
 type: docs
 weight: 200
-url: /go/pasteoptions/getpastetype/
+url: /go-cpp/pasteoptions/getpastetype/
 ---
 
 ## GetPasteType function

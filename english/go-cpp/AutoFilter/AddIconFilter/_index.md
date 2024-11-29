@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'AddIconFilter method. Encapsulates the function that represents addiconfilter in Go.'
 type: docs
 weight: 200
-url: /go/autofilter/addiconfilter/
+url: /go-cpp/autofilter/addiconfilter/
 ---
 
 ## AddIconFilter function

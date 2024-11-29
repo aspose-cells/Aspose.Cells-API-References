@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'AddPrinterFont method. Encapsulates the function that represents addprinterfont in Go.'
 type: docs
 weight: 200
-url: /go/pclsaveoptions/addprinterfont/
+url: /go-cpp/pclsaveoptions/addprinterfont/
 ---
 
 ## AddPrinterFont function

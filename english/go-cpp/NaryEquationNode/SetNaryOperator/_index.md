@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetNaryOperator method. Encapsulates the function that represents setnaryoperator in Go.'
 type: docs
 weight: 200
-url: /go/naryequationnode/setnaryoperator/
+url: /go-cpp/naryequationnode/setnaryoperator/
 ---
 
 ## SetNaryOperator function

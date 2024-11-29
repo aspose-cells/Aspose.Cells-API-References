@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetTopCM method. Encapsulates the function that represents settopcm in Go.'
 type: docs
 weight: 200
-url: /go/textbox/settopcm/
+url: /go-cpp/textbox/settopcm/
 ---
 
 ## SetTopCM function

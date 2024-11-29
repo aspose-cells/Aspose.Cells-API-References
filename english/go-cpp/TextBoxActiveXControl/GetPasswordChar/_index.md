@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetPasswordChar method. Encapsulates the function that represents getpasswordchar in Go.'
 type: docs
 weight: 200
-url: /go/textboxactivexcontrol/getpasswordchar/
+url: /go-cpp/textboxactivexcontrol/getpasswordchar/
 ---
 
 ## GetPasswordChar function

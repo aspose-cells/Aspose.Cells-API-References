@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetFloatValue method. Encapsulates the function that represents getfloatvalue in Go.'
 type: docs
 weight: 200
-url: /go/cell/getfloatvalue/
+url: /go-cpp/cell/getfloatvalue/
 ---
 
 ## GetFloatValue function

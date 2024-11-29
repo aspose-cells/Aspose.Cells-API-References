@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsArray1D method. Encapsulates the function that represents isarray1d in Go.'
 type: docs
 weight: 200
-url: /go/object/isarray1d/
+url: /go-cpp/object/isarray1d/
 ---
 
 ## IsArray1D function

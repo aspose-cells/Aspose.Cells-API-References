@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'FindOptions constructor. Encapsulates the function that represents newfindoptions in Go.'
 type: docs
 weight: 200
-url: /go/findoptions/newfindoptions/
+url: /go-cpp/findoptions/newfindoptions/
 ---
 
 ## NewFindOptions function

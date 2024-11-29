@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'RevisionInsertDelete constructor. Encapsulates the function that represents newrevisioninsertdelete in Go.'
 type: docs
 weight: 200
-url: /go/revisioninsertdelete/newrevisioninsertdelete/
+url: /go-cpp/revisioninsertdelete/newrevisioninsertdelete/
 ---
 
 ## NewRevisionInsertDelete function

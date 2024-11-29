@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'PrintOrderType enum. Encapsulates the object that represents printordertype in Go.'
 type: docs
 weight: 200
-url: /go/printordertype/
+url: /go-cpp/printordertype/
 ---
 
 ## PrintOrderType Enum

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetSelected method. Encapsulates the function that represents getselected in Go.'
 type: docs
 weight: 200
-url: /go/pivotareafilter/getselected/
+url: /go-cpp/pivotareafilter/getselected/
 ---
 
 ## GetSelected function

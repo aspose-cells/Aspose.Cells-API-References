@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetArrayAsTable method. Encapsulates the function that represents setarrayastable in Go.'
 type: docs
 weight: 200
-url: /go/jsonlayoutoptions/setarrayastable/
+url: /go-cpp/jsonlayoutoptions/setarrayastable/
 ---
 
 ## SetArrayAsTable function

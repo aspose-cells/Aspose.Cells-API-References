@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetUpperLeftColumn method. Encapsulates the function that represents getupperleftcolumn in Go.'
 type: docs
 weight: 200
-url: /go/scrollbar/getupperleftcolumn/
+url: /go-cpp/scrollbar/getupperleftcolumn/
 ---
 
 ## GetUpperLeftColumn function

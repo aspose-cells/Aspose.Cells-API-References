@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'WarningInfo class. Encapsulates the object that represents warninginfo in Go.'
 type: docs
 weight: 200
-url: /go/warninginfo/
+url: /go-cpp/warninginfo/
 ---
 
 ## WarningInfo class

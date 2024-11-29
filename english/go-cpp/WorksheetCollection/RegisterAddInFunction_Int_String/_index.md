@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'RegisterAddInFunction_Int_String method. Encapsulates the function that represents registeraddinfunction in Go.'
 type: docs
 weight: 200
-url: /go/worksheetcollection/registeraddinfunction_int_string/
+url: /go-cpp/worksheetcollection/registeraddinfunction_int_string/
 ---
 
 ## RegisterAddInFunction_Int_String function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetLastPrinted method. Encapsulates the function that represents setlastprinted in Go.'
 type: docs
 weight: 200
-url: /go/builtindocumentpropertycollection/setlastprinted/
+url: /go-cpp/builtindocumentpropertycollection/setlastprinted/
 ---
 
 ## SetLastPrinted function

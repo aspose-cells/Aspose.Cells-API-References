@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsDecorative method. Encapsulates the function that represents setisdecorative in Go.'
 type: docs
 weight: 200
-url: /go/webextensionshape/setisdecorative/
+url: /go-cpp/webextensionshape/setisdecorative/
 ---
 
 ## SetIsDecorative function

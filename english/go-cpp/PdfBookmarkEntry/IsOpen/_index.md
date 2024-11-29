@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsOpen method. Encapsulates the function that represents isopen in Go.'
 type: docs
 weight: 200
-url: /go/pdfbookmarkentry/isopen/
+url: /go-cpp/pdfbookmarkentry/isopen/
 ---
 
 ## IsOpen function

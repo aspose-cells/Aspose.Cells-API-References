@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetBubbleSizes method. Encapsulates the function that represents setbubblesizes in Go.'
 type: docs
 weight: 200
-url: /go/series/setbubblesizes/
+url: /go-cpp/series/setbubblesizes/
 ---
 
 ## SetBubbleSizes function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'AutoFitRow_Int_Int_Int method. Encapsulates the function that represents autofitrow in Go.'
 type: docs
 weight: 200
-url: /go/worksheet/autofitrow_int_int_int/
+url: /go-cpp/worksheet/autofitrow_int_int_int/
 ---
 
 ## AutoFitRow_Int_Int_Int function

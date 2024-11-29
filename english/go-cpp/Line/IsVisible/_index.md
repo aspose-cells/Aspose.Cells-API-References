@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsVisible method. Encapsulates the function that represents isvisible in Go.'
 type: docs
 weight: 200
-url: /go/line/isvisible/
+url: /go-cpp/line/isvisible/
 ---
 
 ## IsVisible function

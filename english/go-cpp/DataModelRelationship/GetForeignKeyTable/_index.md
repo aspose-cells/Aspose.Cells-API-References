@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetForeignKeyTable method. Encapsulates the function that represents getforeignkeytable in Go.'
 type: docs
 weight: 200
-url: /go/datamodelrelationship/getforeignkeytable/
+url: /go-cpp/datamodelrelationship/getforeignkeytable/
 ---
 
 ## GetForeignKeyTable function

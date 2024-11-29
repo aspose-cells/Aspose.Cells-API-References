@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'OoxmlSaveOptions class. Encapsulates the object that represents ooxmlsaveoptions in Go.'
 type: docs
 weight: 200
-url: /go/ooxmlsaveoptions/
+url: /go-cpp/ooxmlsaveoptions/
 ---
 
 ## OoxmlSaveOptions class

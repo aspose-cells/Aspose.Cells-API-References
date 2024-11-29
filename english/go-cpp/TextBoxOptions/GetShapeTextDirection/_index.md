@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetShapeTextDirection method. Encapsulates the function that represents getshapetextdirection in Go.'
 type: docs
 weight: 200
-url: /go/textboxoptions/getshapetextdirection/
+url: /go-cpp/textboxoptions/getshapetextdirection/
 ---
 
 ## GetShapeTextDirection function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetIgnoreUselessShapes method. Encapsulates the function that represents getignoreuselessshapes in Go.'
 type: docs
 weight: 200
-url: /go/loadoptions/getignoreuselessshapes/
+url: /go-cpp/loadoptions/getignoreuselessshapes/
 ---
 
 ## GetIgnoreUselessShapes function

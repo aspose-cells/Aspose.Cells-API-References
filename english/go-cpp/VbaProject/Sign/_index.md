@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Sign method. Encapsulates the function that represents sign in Go.'
 type: docs
 weight: 200
-url: /go/vbaproject/sign/
+url: /go-cpp/vbaproject/sign/
 ---
 
 ## Sign function

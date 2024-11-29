@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsGridlinesVisible method. Encapsulates the function that represents setisgridlinesvisible in Go.'
 type: docs
 weight: 200
-url: /go/worksheet/setisgridlinesvisible/
+url: /go-cpp/worksheet/setisgridlinesvisible/
 ---
 
 ## SetIsGridlinesVisible function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'LineFormat class. Encapsulates the object that represents lineformat in Go.'
 type: docs
 weight: 200
-url: /go/lineformat/
+url: /go-cpp/lineformat/
 ---
 
 ## LineFormat class

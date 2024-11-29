@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetHasSeriesLines method. Encapsulates the function that represents gethasserieslines in Go.'
 type: docs
 weight: 200
-url: /go/series/gethasserieslines/
+url: /go-cpp/series/gethasserieslines/
 ---
 
 ## GetHasSeriesLines function

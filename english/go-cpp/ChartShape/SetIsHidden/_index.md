@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsHidden method. Encapsulates the function that represents setishidden in Go.'
 type: docs
 weight: 200
-url: /go/chartshape/setishidden/
+url: /go-cpp/chartshape/setishidden/
 ---
 
 ## SetIsHidden function

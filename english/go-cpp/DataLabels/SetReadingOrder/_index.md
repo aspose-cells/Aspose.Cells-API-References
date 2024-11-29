@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetReadingOrder method. Encapsulates the function that represents setreadingorder in Go.'
 type: docs
 weight: 200
-url: /go/datalabels/setreadingorder/
+url: /go-cpp/datalabels/setreadingorder/
 ---
 
 ## SetReadingOrder function

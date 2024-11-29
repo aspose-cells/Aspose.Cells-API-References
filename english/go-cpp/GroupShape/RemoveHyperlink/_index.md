@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'RemoveHyperlink method. Encapsulates the function that represents removehyperlink in Go.'
 type: docs
 weight: 200
-url: /go/groupshape/removehyperlink/
+url: /go-cpp/groupshape/removehyperlink/
 ---
 
 ## RemoveHyperlink function

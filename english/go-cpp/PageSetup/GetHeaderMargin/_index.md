@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetHeaderMargin method. Encapsulates the function that represents getheadermargin in Go.'
 type: docs
 weight: 200
-url: /go/pagesetup/getheadermargin/
+url: /go-cpp/pagesetup/getheadermargin/
 ---
 
 ## GetHeaderMargin function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetHasMacro method. Encapsulates the function that represents gethasmacro in Go.'
 type: docs
 weight: 200
-url: /go/workbook/gethasmacro/
+url: /go-cpp/workbook/gethasmacro/
 ---
 
 ## GetHasMacro function

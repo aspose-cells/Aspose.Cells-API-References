@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetSavedTime method. Encapsulates the function that represents setsavedtime in Go.'
 type: docs
 weight: 200
-url: /go/revisionheader/setsavedtime/
+url: /go-cpp/revisionheader/setsavedtime/
 ---
 
 ## SetSavedTime function

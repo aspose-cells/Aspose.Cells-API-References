@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetReadingOrder method. Encapsulates the function that represents getreadingorder in Go.'
 type: docs
 weight: 200
-url: /go/legend/getreadingorder/
+url: /go-cpp/legend/getreadingorder/
 ---
 
 ## GetReadingOrder function

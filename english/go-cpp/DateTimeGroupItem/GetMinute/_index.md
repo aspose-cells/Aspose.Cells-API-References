@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetMinute method. Encapsulates the function that represents getminute in Go.'
 type: docs
 weight: 200
-url: /go/datetimegroupitem/getminute/
+url: /go-cpp/datetimegroupitem/getminute/
 ---
 
 ## GetMinute function

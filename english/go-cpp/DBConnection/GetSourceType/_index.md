@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetSourceType method. Encapsulates the function that represents getsourcetype in Go.'
 type: docs
 weight: 200
-url: /go/dbconnection/getsourcetype/
+url: /go-cpp/dbconnection/getsourcetype/
 ---
 
 ## GetSourceType function

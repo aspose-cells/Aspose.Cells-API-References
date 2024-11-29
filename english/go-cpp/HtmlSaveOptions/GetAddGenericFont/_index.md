@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetAddGenericFont method. Encapsulates the function that represents getaddgenericfont in Go.'
 type: docs
 weight: 200
-url: /go/htmlsaveoptions/getaddgenericfont/
+url: /go-cpp/htmlsaveoptions/getaddgenericfont/
 ---
 
 ## GetAddGenericFont function

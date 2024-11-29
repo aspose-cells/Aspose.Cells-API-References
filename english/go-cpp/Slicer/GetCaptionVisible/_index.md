@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetCaptionVisible method. Encapsulates the function that represents getcaptionvisible in Go.'
 type: docs
 weight: 200
-url: /go/slicer/getcaptionvisible/
+url: /go-cpp/slicer/getcaptionvisible/
 ---
 
 ## GetCaptionVisible function

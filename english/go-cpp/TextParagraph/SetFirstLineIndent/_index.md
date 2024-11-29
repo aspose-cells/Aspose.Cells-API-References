@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetFirstLineIndent method. Encapsulates the function that represents setfirstlineindent in Go.'
 type: docs
 weight: 200
-url: /go/textparagraph/setfirstlineindent/
+url: /go-cpp/textparagraph/setfirstlineindent/
 ---
 
 ## SetFirstLineIndent function

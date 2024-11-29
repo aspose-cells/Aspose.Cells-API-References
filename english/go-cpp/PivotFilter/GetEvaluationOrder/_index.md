@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetEvaluationOrder method. Encapsulates the function that represents getevaluationorder in Go.'
 type: docs
 weight: 200
-url: /go/pivotfilter/getevaluationorder/
+url: /go-cpp/pivotfilter/getevaluationorder/
 ---
 
 ## GetEvaluationOrder function

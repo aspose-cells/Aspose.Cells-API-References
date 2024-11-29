@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'CubicBezierTo method. Encapsulates the function that represents cubicbezierto in Go.'
 type: docs
 weight: 200
-url: /go/shapepath/cubicbezierto/
+url: /go-cpp/shapepath/cubicbezierto/
 ---
 
 ## CubicBezierTo function

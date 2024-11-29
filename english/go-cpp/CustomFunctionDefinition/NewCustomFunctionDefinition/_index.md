@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'CustomFunctionDefinition constructor. Encapsulates the function that represents newcustomfunctiondefinition in Go.'
 type: docs
 weight: 200
-url: /go/customfunctiondefinition/newcustomfunctiondefinition/
+url: /go-cpp/customfunctiondefinition/newcustomfunctiondefinition/
 ---
 
 ## NewCustomFunctionDefinition function

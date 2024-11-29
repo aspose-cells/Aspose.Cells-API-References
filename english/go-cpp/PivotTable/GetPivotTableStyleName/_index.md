@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetPivotTableStyleName method. Encapsulates the function that represents getpivottablestylename in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/getpivottablestylename/
+url: /go-cpp/pivottable/getpivottablestylename/
 ---
 
 ## GetPivotTableStyleName function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'WebExtensionPropertyCollection constructor. Encapsulates the function that represents newwebextensionpropertycollection in Go.'
 type: docs
 weight: 200
-url: /go/webextensionpropertycollection/newwebextensionpropertycollection/
+url: /go-cpp/webextensionpropertycollection/newwebextensionpropertycollection/
 ---
 
 ## NewWebExtensionPropertyCollection function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsIndentedFormatting method. Encapsulates the function that represents setisindentedformatting in Go.'
 type: docs
 weight: 200
-url: /go/spreadsheetml2003saveoptions/setisindentedformatting/
+url: /go-cpp/spreadsheetml2003saveoptions/setisindentedformatting/
 ---
 
 ## SetIsIndentedFormatting function

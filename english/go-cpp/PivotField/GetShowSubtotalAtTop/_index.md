@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetShowSubtotalAtTop method. Encapsulates the function that represents getshowsubtotalattop in Go.'
 type: docs
 weight: 200
-url: /go/pivotfield/getshowsubtotalattop/
+url: /go-cpp/pivotfield/getshowsubtotalattop/
 ---
 
 ## GetShowSubtotalAtTop function

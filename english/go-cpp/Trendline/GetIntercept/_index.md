@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetIntercept method. Encapsulates the function that represents getintercept in Go.'
 type: docs
 weight: 200
-url: /go/trendline/getintercept/
+url: /go-cpp/trendline/getintercept/
 ---
 
 ## GetIntercept function

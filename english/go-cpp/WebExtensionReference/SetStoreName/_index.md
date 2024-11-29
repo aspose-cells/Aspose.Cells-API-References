@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetStoreName method. Encapsulates the function that represents setstorename in Go.'
 type: docs
 weight: 200
-url: /go/webextensionreference/setstorename/
+url: /go-cpp/webextensionreference/setstorename/
 ---
 
 ## SetStoreName function

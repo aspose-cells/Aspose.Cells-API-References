@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'CredentialsMethodType enum. Encapsulates the object that represents credentialsmethodtype in Go.'
 type: docs
 weight: 200
-url: /go/credentialsmethodtype/
+url: /go-cpp/credentialsmethodtype/
 ---
 
 ## CredentialsMethodType Enum

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetBorderOleColor method. Encapsulates the function that represents setborderolecolor in Go.'
 type: docs
 weight: 200
-url: /go/listboxactivexcontrol/setborderolecolor/
+url: /go-cpp/listboxactivexcontrol/setborderolecolor/
 ---
 
 ## SetBorderOleColor function

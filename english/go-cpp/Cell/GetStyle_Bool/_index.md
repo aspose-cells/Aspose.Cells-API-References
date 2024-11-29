@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetStyle_Bool method. Encapsulates the function that represents getstyle in Go.'
 type: docs
 weight: 200
-url: /go/cell/getstyle_bool/
+url: /go-cpp/cell/getstyle_bool/
 ---
 
 ## GetStyle_Bool function

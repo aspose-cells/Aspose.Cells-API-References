@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ImportTableOptions constructor. Encapsulates the function that represents newimporttableoptions in Go.'
 type: docs
 weight: 200
-url: /go/importtableoptions/newimporttableoptions/
+url: /go-cpp/importtableoptions/newimporttableoptions/
 ---
 
 ## NewImportTableOptions function

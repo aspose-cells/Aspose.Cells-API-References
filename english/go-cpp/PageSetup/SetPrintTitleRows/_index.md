@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetPrintTitleRows method. Encapsulates the function that represents setprinttitlerows in Go.'
 type: docs
 weight: 200
-url: /go/pagesetup/setprinttitlerows/
+url: /go-cpp/pagesetup/setprinttitlerows/
 ---
 
 ## SetPrintTitleRows function

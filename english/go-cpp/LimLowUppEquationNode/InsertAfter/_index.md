@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'InsertAfter method. Encapsulates the function that represents insertafter in Go.'
 type: docs
 weight: 200
-url: /go/limlowuppequationnode/insertafter/
+url: /go-cpp/limlowuppequationnode/insertafter/
 ---
 
 ## InsertAfter function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GroupRows_Int_Int method. Encapsulates the function that represents grouprows in Go.'
 type: docs
 weight: 200
-url: /go/cells/grouprows_int_int/
+url: /go-cpp/cells/grouprows_int_int/
 ---
 
 ## GroupRows_Int_Int function

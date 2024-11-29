@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetDragToHide method. Encapsulates the function that represents getdragtohide in Go.'
 type: docs
 weight: 200
-url: /go/pivotfield/getdragtohide/
+url: /go-cpp/pivotfield/getdragtohide/
 ---
 
 ## GetDragToHide function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'CellRichValue class. Encapsulates the object that represents cellrichvalue in Go.'
 type: docs
 weight: 200
-url: /go/cellrichvalue/
+url: /go-cpp/cellrichvalue/
 ---
 
 ## CellRichValue class

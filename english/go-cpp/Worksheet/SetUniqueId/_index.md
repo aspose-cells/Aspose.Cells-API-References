@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetUniqueId method. Encapsulates the function that represents setuniqueid in Go.'
 type: docs
 weight: 200
-url: /go/worksheet/setuniqueid/
+url: /go-cpp/worksheet/setuniqueid/
 ---
 
 ## SetUniqueId function

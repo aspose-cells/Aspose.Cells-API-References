@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetHasHeaders method. Encapsulates the function that represents gethasheaders in Go.'
 type: docs
 weight: 200
-url: /go/datasorter/gethasheaders/
+url: /go-cpp/datasorter/gethasheaders/
 ---
 
 ## GetHasHeaders function

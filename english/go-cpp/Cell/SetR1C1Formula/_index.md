@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetR1C1Formula method. Encapsulates the function that represents setr1c1formula in Go.'
 type: docs
 weight: 200
-url: /go/cell/setr1c1formula/
+url: /go-cpp/cell/setr1c1formula/
 ---
 
 ## SetR1C1Formula function

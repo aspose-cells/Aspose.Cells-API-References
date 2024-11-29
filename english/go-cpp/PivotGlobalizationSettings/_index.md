@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'PivotGlobalizationSettings class. Encapsulates the object that represents pivotglobalizationsettings in Go.'
 type: docs
 weight: 200
-url: /go/pivotglobalizationsettings/
+url: /go-cpp/pivotglobalizationsettings/
 ---
 
 ## PivotGlobalizationSettings class

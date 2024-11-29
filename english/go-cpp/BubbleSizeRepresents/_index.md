@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'BubbleSizeRepresents enum. Encapsulates the object that represents bubblesizerepresents in Go.'
 type: docs
 weight: 200
-url: /go/bubblesizerepresents/
+url: /go-cpp/bubblesizerepresents/
 ---
 
 ## BubbleSizeRepresents Enum

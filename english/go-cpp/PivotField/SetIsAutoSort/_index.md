@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsAutoSort method. Encapsulates the function that represents setisautosort in Go.'
 type: docs
 weight: 200
-url: /go/pivotfield/setisautosort/
+url: /go-cpp/pivotfield/setisautosort/
 ---
 
 ## SetIsAutoSort function

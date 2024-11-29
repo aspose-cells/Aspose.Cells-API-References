@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetAxisPosition method. Encapsulates the function that represents getaxisposition in Go.'
 type: docs
 weight: 200
-url: /go/databar/getaxisposition/
+url: /go-cpp/databar/getaxisposition/
 ---
 
 ## GetAxisPosition function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetDisplayType method. Encapsulates the function that represents setdisplaytype in Go.'
 type: docs
 weight: 200
-url: /go/errorbar/setdisplaytype/
+url: /go-cpp/errorbar/setdisplaytype/
 ---
 
 ## SetDisplayType function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetRightMarginPt method. Encapsulates the function that represents getrightmarginpt in Go.'
 type: docs
 weight: 200
-url: /go/msotextframe/getrightmarginpt/
+url: /go-cpp/msotextframe/getrightmarginpt/
 ---
 
 ## GetRightMarginPt function

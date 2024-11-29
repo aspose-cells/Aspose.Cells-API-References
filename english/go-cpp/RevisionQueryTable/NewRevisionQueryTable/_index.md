@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'RevisionQueryTable constructor. Encapsulates the function that represents newrevisionquerytable in Go.'
 type: docs
 weight: 200
-url: /go/revisionquerytable/newrevisionquerytable/
+url: /go-cpp/revisionquerytable/newrevisionquerytable/
 ---
 
 ## NewRevisionQueryTable function

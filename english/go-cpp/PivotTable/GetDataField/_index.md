@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetDataField method. Encapsulates the function that represents getdatafield in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/getdatafield/
+url: /go-cpp/pivottable/getdatafield/
 ---
 
 ## GetDataField function

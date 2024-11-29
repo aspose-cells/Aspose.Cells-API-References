@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetAxisUnitName method. Encapsulates the function that represents setaxisunitname in Go.'
 type: docs
 weight: 200
-url: /go/settablechartglobalizationsettings/setaxisunitname/
+url: /go-cpp/settablechartglobalizationsettings/setaxisunitname/
 ---
 
 ## SetAxisUnitName function

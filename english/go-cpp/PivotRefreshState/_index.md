@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'PivotRefreshState enum. Encapsulates the object that represents pivotrefreshstate in Go.'
 type: docs
 weight: 200
-url: /go/pivotrefreshstate/
+url: /go-cpp/pivotrefreshstate/
 ---
 
 ## PivotRefreshState Enum

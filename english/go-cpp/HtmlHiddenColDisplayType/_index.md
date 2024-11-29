@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'HtmlHiddenColDisplayType enum. Encapsulates the object that represents htmlhiddencoldisplaytype in Go.'
 type: docs
 weight: 200
-url: /go/htmlhiddencoldisplaytype/
+url: /go-cpp/htmlhiddencoldisplaytype/
 ---
 
 ## HtmlHiddenColDisplayType Enum

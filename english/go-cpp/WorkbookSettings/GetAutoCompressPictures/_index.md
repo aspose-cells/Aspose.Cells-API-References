@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetAutoCompressPictures method. Encapsulates the function that represents getautocompresspictures in Go.'
 type: docs
 weight: 200
-url: /go/workbooksettings/getautocompresspictures/
+url: /go-cpp/workbooksettings/getautocompresspictures/
 ---
 
 ## GetAutoCompressPictures function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetDashType method. Encapsulates the function that represents setdashtype in Go.'
 type: docs
 weight: 200
-url: /go/errorbar/setdashtype/
+url: /go-cpp/errorbar/setdashtype/
 ---
 
 ## SetDashType function

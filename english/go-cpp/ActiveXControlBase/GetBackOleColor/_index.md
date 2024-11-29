@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetBackOleColor method. Encapsulates the function that represents getbackolecolor in Go.'
 type: docs
 weight: 200
-url: /go/activexcontrolbase/getbackolecolor/
+url: /go-cpp/activexcontrolbase/getbackolecolor/
 ---
 
 ## GetBackOleColor function

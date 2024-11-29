@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsAspectRatioLocked method. Encapsulates the function that represents setisaspectratiolocked in Go.'
 type: docs
 weight: 200
-url: /go/rectangleshape/setisaspectratiolocked/
+url: /go-cpp/rectangleshape/setisaspectratiolocked/
 ---
 
 ## SetIsAspectRatioLocked function

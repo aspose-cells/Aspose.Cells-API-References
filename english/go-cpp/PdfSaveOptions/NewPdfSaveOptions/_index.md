@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'PdfSaveOptions constructor. Encapsulates the function that represents newpdfsaveoptions in Go.'
 type: docs
 weight: 200
-url: /go/pdfsaveoptions/newpdfsaveoptions/
+url: /go-cpp/pdfsaveoptions/newpdfsaveoptions/
 ---
 
 ## NewPdfSaveOptions function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ChartShape constructor. Encapsulates the function that represents newchartshape in Go.'
 type: docs
 weight: 200
-url: /go/chartshape/newchartshape/
+url: /go-cpp/chartshape/newchartshape/
 ---
 
 ## NewChartShape function

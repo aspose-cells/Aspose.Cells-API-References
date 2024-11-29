@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetInsertRows method. Encapsulates the function that represents getinsertrows in Go.'
 type: docs
 weight: 200
-url: /go/importtableoptions/getinsertrows/
+url: /go-cpp/importtableoptions/getinsertrows/
 ---
 
 ## GetInsertRows function

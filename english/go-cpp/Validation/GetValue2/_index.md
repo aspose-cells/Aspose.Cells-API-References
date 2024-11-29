@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetValue2 method. Encapsulates the function that represents getvalue2 in Go.'
 type: docs
 weight: 200
-url: /go/validation/getvalue2/
+url: /go-cpp/validation/getvalue2/
 ---
 
 ## GetValue2 function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'LightRigDirectionType enum. Encapsulates the object that represents lightrigdirectiontype in Go.'
 type: docs
 weight: 200
-url: /go/lightrigdirectiontype/
+url: /go-cpp/lightrigdirectiontype/
 ---
 
 ## LightRigDirectionType Enum

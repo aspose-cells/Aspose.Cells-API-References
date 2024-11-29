@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'StyleFlag class. Encapsulates the object that represents styleflag in Go.'
 type: docs
 weight: 200
-url: /go/styleflag/
+url: /go-cpp/styleflag/
 ---
 
 ## StyleFlag class

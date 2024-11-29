@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'FreezePanes_Int_Int_Int_Int method. Encapsulates the function that represents freezepanes in Go.'
 type: docs
 weight: 200
-url: /go/worksheet/freezepanes_int_int_int_int/
+url: /go-cpp/worksheet/freezepanes_int_int_int_int/
 ---
 
 ## FreezePanes_Int_Int_Int_Int function

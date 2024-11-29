@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Row class. Encapsulates the object that represents row in Go.'
 type: docs
 weight: 200
-url: /go/row/
+url: /go-cpp/row/
 ---
 
 ## Row class

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetShapeWidthPx method. Encapsulates the function that represents getshapewidthpx in Go.'
 type: docs
 weight: 200
-url: /go/chartpoint/getshapewidthpx/
+url: /go-cpp/chartpoint/getshapewidthpx/
 ---
 
 ## GetShapeWidthPx function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Move_String method. Encapsulates the function that represents move in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/move_string/
+url: /go-cpp/pivottable/move_string/
 ---
 
 ## Move_String function

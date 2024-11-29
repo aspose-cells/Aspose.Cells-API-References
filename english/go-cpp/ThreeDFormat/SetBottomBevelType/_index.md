@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetBottomBevelType method. Encapsulates the function that represents setbottombeveltype in Go.'
 type: docs
 weight: 200
-url: /go/threedformat/setbottombeveltype/
+url: /go-cpp/threedformat/setbottombeveltype/
 ---
 
 ## SetBottomBevelType function

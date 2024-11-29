@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetEndArrowheadWidth method. Encapsulates the function that represents getendarrowheadwidth in Go.'
 type: docs
 weight: 200
-url: /go/lineformat/getendarrowheadwidth/
+url: /go-cpp/lineformat/getendarrowheadwidth/
 ---
 
 ## GetEndArrowheadWidth function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTotalPages method. Encapsulates the function that represents gettotalpages in Go.'
 type: docs
 weight: 200
-url: /go/drawobject/gettotalpages/
+url: /go-cpp/drawobject/gettotalpages/
 ---
 
 ## GetTotalPages function

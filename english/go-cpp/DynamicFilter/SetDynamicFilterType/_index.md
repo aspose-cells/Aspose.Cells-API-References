@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetDynamicFilterType method. Encapsulates the function that represents setdynamicfiltertype in Go.'
 type: docs
 weight: 200
-url: /go/dynamicfilter/setdynamicfiltertype/
+url: /go-cpp/dynamicfilter/setdynamicfiltertype/
 ---
 
 ## SetDynamicFilterType function

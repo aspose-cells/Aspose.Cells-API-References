@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetReferToDestinationSheet method. Encapsulates the function that represents getrefertodestinationsheet in Go.'
 type: docs
 weight: 200
-url: /go/copyoptions/getrefertodestinationsheet/
+url: /go-cpp/copyoptions/getrefertodestinationsheet/
 ---
 
 ## GetReferToDestinationSheet function

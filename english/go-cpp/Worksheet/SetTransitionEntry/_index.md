@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetTransitionEntry method. Encapsulates the function that represents settransitionentry in Go.'
 type: docs
 weight: 200
-url: /go/worksheet/settransitionentry/
+url: /go-cpp/worksheet/settransitionentry/
 ---
 
 ## SetTransitionEntry function

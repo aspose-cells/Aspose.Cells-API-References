@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetOnlyAuto method. Encapsulates the function that represents setonlyauto in Go.'
 type: docs
 weight: 200
-url: /go/autofitteroptions/setonlyauto/
+url: /go-cpp/autofitteroptions/setonlyauto/
 ---
 
 ## SetOnlyAuto function

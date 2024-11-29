@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'MoveTo method. Encapsulates the function that represents moveto in Go.'
 type: docs
 weight: 200
-url: /go/worksheet/moveto/
+url: /go-cpp/worksheet/moveto/
 ---
 
 ## MoveTo function

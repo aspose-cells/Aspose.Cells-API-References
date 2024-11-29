@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'PageLayoutAlignmentType enum. Encapsulates the object that represents pagelayoutalignmenttype in Go.'
 type: docs
 weight: 200
-url: /go/pagelayoutalignmenttype/
+url: /go-cpp/pagelayoutalignmenttype/
 ---
 
 ## PageLayoutAlignmentType Enum

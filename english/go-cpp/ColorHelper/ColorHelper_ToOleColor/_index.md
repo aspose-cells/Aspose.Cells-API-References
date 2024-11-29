@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ColorHelper_ToOleColor method. Encapsulates the function that represents toolecolor in Go.'
 type: docs
 weight: 200
-url: /go/colorhelper/colorhelper_toolecolor/
+url: /go-cpp/colorhelper/colorhelper_toolecolor/
 ---
 
 ## ColorHelper_ToOleColor function

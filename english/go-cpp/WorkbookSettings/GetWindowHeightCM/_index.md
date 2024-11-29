@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetWindowHeightCM method. Encapsulates the function that represents getwindowheightcm in Go.'
 type: docs
 weight: 200
-url: /go/workbooksettings/getwindowheightcm/
+url: /go-cpp/workbooksettings/getwindowheightcm/
 ---
 
 ## GetWindowHeightCM function

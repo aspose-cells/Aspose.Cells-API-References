@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsEncrypted method. Encapsulates the function that represents isencrypted in Go.'
 type: docs
 weight: 200
-url: /go/fileformatinfo/isencrypted/
+url: /go-cpp/fileformatinfo/isencrypted/
 ---
 
 ## IsEncrypted function

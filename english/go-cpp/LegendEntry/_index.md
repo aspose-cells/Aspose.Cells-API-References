@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'LegendEntry class. Encapsulates the object that represents legendentry in Go.'
 type: docs
 weight: 200
-url: /go/legendentry/
+url: /go-cpp/legendentry/
 ---
 
 ## LegendEntry class

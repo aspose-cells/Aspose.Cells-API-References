@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetAuthor method. Encapsulates the function that represents setauthor in Go.'
 type: docs
 weight: 200
-url: /go/writeprotection/setauthor/
+url: /go-cpp/writeprotection/setauthor/
 ---
 
 ## SetAuthor function

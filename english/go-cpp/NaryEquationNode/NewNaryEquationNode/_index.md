@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'NaryEquationNode constructor. Encapsulates the function that represents newnaryequationnode in Go.'
 type: docs
 weight: 200
-url: /go/naryequationnode/newnaryequationnode/
+url: /go-cpp/naryequationnode/newnaryequationnode/
 ---
 
 ## NewNaryEquationNode function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetUnderlineColor method. Encapsulates the function that represents setunderlinecolor in Go.'
 type: docs
 weight: 200
-url: /go/textoptions/setunderlinecolor/
+url: /go-cpp/textoptions/setunderlinecolor/
 ---
 
 ## SetUnderlineColor function

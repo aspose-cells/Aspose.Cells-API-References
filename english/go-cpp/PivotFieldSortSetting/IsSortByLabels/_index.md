@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsSortByLabels method. Encapsulates the function that represents issortbylabels in Go.'
 type: docs
 weight: 200
-url: /go/pivotfieldsortsetting/issortbylabels/
+url: /go-cpp/pivotfieldsortsetting/issortbylabels/
 ---
 
 ## IsSortByLabels function

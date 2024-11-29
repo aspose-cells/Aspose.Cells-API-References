@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetName method. Encapsulates the function that represents setname in Go.'
 type: docs
 weight: 200
-url: /go/chartshape/setname/
+url: /go-cpp/chartshape/setname/
 ---
 
 ## SetName function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'HtmlLoadOptions constructor. Encapsulates the function that represents newhtmlloadoptions_abstracttextloadoptions in Go.'
 type: docs
 weight: 200
-url: /go/htmlloadoptions/newhtmlloadoptions_abstracttextloadoptions/
+url: /go-cpp/htmlloadoptions/newhtmlloadoptions_abstracttextloadoptions/
 ---
 
 ## NewHtmlLoadOptions_AbstractTextLoadOptions function

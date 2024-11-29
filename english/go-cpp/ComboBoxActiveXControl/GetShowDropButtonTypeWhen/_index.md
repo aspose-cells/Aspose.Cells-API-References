@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetShowDropButtonTypeWhen method. Encapsulates the function that represents getshowdropbuttontypewhen in Go.'
 type: docs
 weight: 200
-url: /go/comboboxactivexcontrol/getshowdropbuttontypewhen/
+url: /go-cpp/comboboxactivexcontrol/getshowdropbuttontypewhen/
 ---
 
 ## GetShowDropButtonTypeWhen function

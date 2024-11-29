@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Get_UserName method. Encapsulates the function that represents get_username in Go.'
 type: docs
 weight: 200
-url: /go/revisionheader/get_username/
+url: /go-cpp/revisionheader/get_username/
 ---
 
 ## Get_UserName function

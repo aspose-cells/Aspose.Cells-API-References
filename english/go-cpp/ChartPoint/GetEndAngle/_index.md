@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetEndAngle method. Encapsulates the function that represents getendangle in Go.'
 type: docs
 weight: 200
-url: /go/chartpoint/getendangle/
+url: /go-cpp/chartpoint/getendangle/
 ---
 
 ## GetEndAngle function

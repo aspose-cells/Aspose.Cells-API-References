@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ColumnCollection class. Encapsulates the object that represents columncollection in Go.'
 type: docs
 weight: 200
-url: /go/columncollection/
+url: /go-cpp/columncollection/
 ---
 
 ## ColumnCollection class

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'DynamicFilter constructor. Encapsulates the function that represents newdynamicfilter in Go.'
 type: docs
 weight: 200
-url: /go/dynamicfilter/newdynamicfilter/
+url: /go-cpp/dynamicfilter/newdynamicfilter/
 ---
 
 ## NewDynamicFilter function

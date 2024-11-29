@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'CheckBox constructor. Encapsulates the function that represents newcheckbox in Go.'
 type: docs
 weight: 200
-url: /go/checkbox/newcheckbox/
+url: /go-cpp/checkbox/newcheckbox/
 ---
 
 ## NewCheckBox function

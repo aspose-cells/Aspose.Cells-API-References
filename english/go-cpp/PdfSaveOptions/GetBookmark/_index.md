@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetBookmark method. Encapsulates the function that represents getbookmark in Go.'
 type: docs
 weight: 200
-url: /go/pdfsaveoptions/getbookmark/
+url: /go-cpp/pdfsaveoptions/getbookmark/
 ---
 
 ## GetBookmark function

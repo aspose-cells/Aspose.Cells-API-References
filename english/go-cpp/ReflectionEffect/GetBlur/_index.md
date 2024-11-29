@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetBlur method. Encapsulates the function that represents getblur in Go.'
 type: docs
 weight: 200
-url: /go/reflectioneffect/getblur/
+url: /go-cpp/reflectioneffect/getblur/
 ---
 
 ## GetBlur function

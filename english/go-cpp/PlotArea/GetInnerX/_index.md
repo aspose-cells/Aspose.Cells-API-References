@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetInnerX method. Encapsulates the function that represents getinnerx in Go.'
 type: docs
 weight: 200
-url: /go/plotarea/getinnerx/
+url: /go-cpp/plotarea/getinnerx/
 ---
 
 ## GetInnerX function

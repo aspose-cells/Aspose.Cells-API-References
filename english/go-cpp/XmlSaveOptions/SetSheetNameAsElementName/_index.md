@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetSheetNameAsElementName method. Encapsulates the function that represents setsheetnameaselementname in Go.'
 type: docs
 weight: 200
-url: /go/xmlsaveoptions/setsheetnameaselementname/
+url: /go-cpp/xmlsaveoptions/setsheetnameaselementname/
 ---
 
 ## SetSheetNameAsElementName function

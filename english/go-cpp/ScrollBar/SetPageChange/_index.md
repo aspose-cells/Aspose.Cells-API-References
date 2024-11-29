@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetPageChange method. Encapsulates the function that represents setpagechange in Go.'
 type: docs
 weight: 200
-url: /go/scrollbar/setpagechange/
+url: /go-cpp/scrollbar/setpagechange/
 ---
 
 ## SetPageChange function

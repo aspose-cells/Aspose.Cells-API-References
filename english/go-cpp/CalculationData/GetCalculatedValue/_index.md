@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetCalculatedValue method. Encapsulates the function that represents getcalculatedvalue in Go.'
 type: docs
 weight: 200
-url: /go/calculationdata/getcalculatedvalue/
+url: /go-cpp/calculationdata/getcalculatedvalue/
 ---
 
 ## GetCalculatedValue function

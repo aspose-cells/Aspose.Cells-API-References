@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetEvenFooter method. Encapsulates the function that represents setevenfooter in Go.'
 type: docs
 weight: 200
-url: /go/pagesetup/setevenfooter/
+url: /go-cpp/pagesetup/setevenfooter/
 ---
 
 ## SetEvenFooter function

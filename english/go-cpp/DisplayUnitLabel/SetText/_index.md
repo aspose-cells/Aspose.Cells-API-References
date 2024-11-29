@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetText method. Encapsulates the function that represents settext in Go.'
 type: docs
 weight: 200
-url: /go/displayunitlabel/settext/
+url: /go-cpp/displayunitlabel/settext/
 ---
 
 ## SetText function

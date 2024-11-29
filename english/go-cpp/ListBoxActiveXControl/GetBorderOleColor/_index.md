@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetBorderOleColor method. Encapsulates the function that represents getborderolecolor in Go.'
 type: docs
 weight: 200
-url: /go/listboxactivexcontrol/getborderolecolor/
+url: /go-cpp/listboxactivexcontrol/getborderolecolor/
 ---
 
 ## GetBorderOleColor function

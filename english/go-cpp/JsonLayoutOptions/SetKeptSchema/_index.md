@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetKeptSchema method. Encapsulates the function that represents setkeptschema in Go.'
 type: docs
 weight: 200
-url: /go/jsonlayoutoptions/setkeptschema/
+url: /go-cpp/jsonlayoutoptions/setkeptschema/
 ---
 
 ## SetKeptSchema function

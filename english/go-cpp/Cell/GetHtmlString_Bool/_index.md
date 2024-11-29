@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetHtmlString_Bool method. Encapsulates the function that represents gethtmlstring in Go.'
 type: docs
 weight: 200
-url: /go/cell/gethtmlstring_bool/
+url: /go-cpp/cell/gethtmlstring_bool/
 ---
 
 ## GetHtmlString_Bool function

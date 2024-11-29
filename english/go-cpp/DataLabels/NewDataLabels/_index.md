@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'DataLabels constructor. Encapsulates the function that represents newdatalabels in Go.'
 type: docs
 weight: 200
-url: /go/datalabels/newdatalabels/
+url: /go-cpp/datalabels/newdatalabels/
 ---
 
 ## NewDataLabels function

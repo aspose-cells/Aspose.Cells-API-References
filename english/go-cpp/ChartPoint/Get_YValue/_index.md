@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Get_YValue method. Encapsulates the function that represents get_yvalue in Go.'
 type: docs
 weight: 200
-url: /go/chartpoint/get_yvalue/
+url: /go-cpp/chartpoint/get_yvalue/
 ---
 
 ## Get_YValue function

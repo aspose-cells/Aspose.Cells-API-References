@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetRepairLoad method. Encapsulates the function that represents setrepairload in Go.'
 type: docs
 weight: 200
-url: /go/workbooksettings/setrepairload/
+url: /go-cpp/workbooksettings/setrepairload/
 ---
 
 ## SetRepairLoad function

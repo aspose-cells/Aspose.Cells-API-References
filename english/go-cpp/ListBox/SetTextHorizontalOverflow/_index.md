@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetTextHorizontalOverflow method. Encapsulates the function that represents settexthorizontaloverflow in Go.'
 type: docs
 weight: 200
-url: /go/listbox/settexthorizontaloverflow/
+url: /go-cpp/listbox/settexthorizontaloverflow/
 ---
 
 ## SetTextHorizontalOverflow function

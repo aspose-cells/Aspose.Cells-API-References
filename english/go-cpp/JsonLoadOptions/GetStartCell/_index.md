@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetStartCell method. Encapsulates the function that represents getstartcell in Go.'
 type: docs
 weight: 200
-url: /go/jsonloadoptions/getstartcell/
+url: /go-cpp/jsonloadoptions/getstartcell/
 ---
 
 ## GetStartCell function

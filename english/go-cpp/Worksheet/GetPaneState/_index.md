@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetPaneState method. Encapsulates the function that represents getpanestate in Go.'
 type: docs
 weight: 200
-url: /go/worksheet/getpanestate/
+url: /go-cpp/worksheet/getpanestate/
 ---
 
 ## GetPaneState function

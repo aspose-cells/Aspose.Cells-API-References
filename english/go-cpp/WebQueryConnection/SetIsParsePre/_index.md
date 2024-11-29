@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsParsePre method. Encapsulates the function that represents setisparsepre in Go.'
 type: docs
 weight: 200
-url: /go/webqueryconnection/setisparsepre/
+url: /go-cpp/webqueryconnection/setisparsepre/
 ---
 
 ## SetIsParsePre function

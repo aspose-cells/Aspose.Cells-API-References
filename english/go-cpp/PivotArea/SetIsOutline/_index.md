@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsOutline method. Encapsulates the function that represents setisoutline in Go.'
 type: docs
 weight: 200
-url: /go/pivotarea/setisoutline/
+url: /go-cpp/pivotarea/setisoutline/
 ---
 
 ## SetIsOutline function

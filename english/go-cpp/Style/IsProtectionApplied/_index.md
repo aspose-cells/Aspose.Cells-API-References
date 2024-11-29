@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsProtectionApplied method. Encapsulates the function that represents isprotectionapplied in Go.'
 type: docs
 weight: 200
-url: /go/style/isprotectionapplied/
+url: /go-cpp/style/isprotectionapplied/
 ---
 
 ## IsProtectionApplied function

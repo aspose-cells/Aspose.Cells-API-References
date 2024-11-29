@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetContentStatus method. Encapsulates the function that represents setcontentstatus in Go.'
 type: docs
 weight: 200
-url: /go/builtindocumentpropertycollection/setcontentstatus/
+url: /go-cpp/builtindocumentpropertycollection/setcontentstatus/
 ---
 
 ## SetContentStatus function

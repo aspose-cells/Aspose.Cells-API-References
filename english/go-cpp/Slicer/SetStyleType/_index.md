@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetStyleType method. Encapsulates the function that represents setstyletype in Go.'
 type: docs
 weight: 200
-url: /go/slicer/setstyletype/
+url: /go-cpp/slicer/setstyletype/
 ---
 
 ## SetStyleType function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetWindowLeft method. Encapsulates the function that represents setwindowleft in Go.'
 type: docs
 weight: 200
-url: /go/workbooksettings/setwindowleft/
+url: /go-cpp/workbooksettings/setwindowleft/
 ---
 
 ## SetWindowLeft function

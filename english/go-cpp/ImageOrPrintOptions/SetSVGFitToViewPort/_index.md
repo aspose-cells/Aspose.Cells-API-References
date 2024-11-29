@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetSVGFitToViewPort method. Encapsulates the function that represents setsvgfittoviewport in Go.'
 type: docs
 weight: 200
-url: /go/imageorprintoptions/setsvgfittoviewport/
+url: /go-cpp/imageorprintoptions/setsvgfittoviewport/
 ---
 
 ## SetSVGFitToViewPort function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'BuiltinStyleType enum. Encapsulates the object that represents builtinstyletype in Go.'
 type: docs
 weight: 200
-url: /go/builtinstyletype/
+url: /go-cpp/builtinstyletype/
 ---
 
 ## BuiltinStyleType Enum

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetCssStyles method. Encapsulates the function that represents getcssstyles in Go.'
 type: docs
 weight: 200
-url: /go/htmlsaveoptions/getcssstyles/
+url: /go-cpp/htmlsaveoptions/getcssstyles/
 ---
 
 ## GetCssStyles function

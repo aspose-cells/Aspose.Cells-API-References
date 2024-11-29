@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'PresetMaterialType enum. Encapsulates the object that represents presetmaterialtype in Go.'
 type: docs
 weight: 200
-url: /go/presetmaterialtype/
+url: /go-cpp/presetmaterialtype/
 ---
 
 ## PresetMaterialType Enum

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GroupBox constructor. Encapsulates the function that represents newgroupbox in Go.'
 type: docs
 weight: 200
-url: /go/groupbox/newgroupbox/
+url: /go-cpp/groupbox/newgroupbox/
 ---
 
 ## NewGroupBox function

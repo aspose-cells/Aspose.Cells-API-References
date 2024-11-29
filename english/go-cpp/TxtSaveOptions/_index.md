@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'TxtSaveOptions class. Encapsulates the object that represents txtsaveoptions in Go.'
 type: docs
 weight: 200
-url: /go/txtsaveoptions/
+url: /go-cpp/txtsaveoptions/
 ---
 
 ## TxtSaveOptions class

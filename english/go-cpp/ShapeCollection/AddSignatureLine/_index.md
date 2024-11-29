@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'AddSignatureLine method. Encapsulates the function that represents addsignatureline in Go.'
 type: docs
 weight: 200
-url: /go/shapecollection/addsignatureline/
+url: /go-cpp/shapecollection/addsignatureline/
 ---
 
 ## AddSignatureLine function

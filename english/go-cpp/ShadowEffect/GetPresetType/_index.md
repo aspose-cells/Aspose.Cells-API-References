@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetPresetType method. Encapsulates the function that represents getpresettype in Go.'
 type: docs
 weight: 200
-url: /go/shadoweffect/getpresettype/
+url: /go-cpp/shadoweffect/getpresettype/
 ---
 
 ## GetPresetType function

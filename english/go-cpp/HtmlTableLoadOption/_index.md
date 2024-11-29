@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'HtmlTableLoadOption class. Encapsulates the object that represents htmltableloadoption in Go.'
 type: docs
 weight: 200
-url: /go/htmltableloadoption/
+url: /go-cpp/htmltableloadoption/
 ---
 
 ## HtmlTableLoadOption class

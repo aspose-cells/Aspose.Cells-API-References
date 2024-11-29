@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetMacroName method. Encapsulates the function that represents setmacroname in Go.'
 type: docs
 weight: 200
-url: /go/commentshape/setmacroname/
+url: /go-cpp/commentshape/setmacroname/
 ---
 
 ## SetMacroName function

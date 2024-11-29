@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetNumber method. Encapsulates the function that represents setnumber in Go.'
 type: docs
 weight: 200
-url: /go/ticklabels/setnumber/
+url: /go-cpp/ticklabels/setnumber/
 ---
 
 ## SetNumber function

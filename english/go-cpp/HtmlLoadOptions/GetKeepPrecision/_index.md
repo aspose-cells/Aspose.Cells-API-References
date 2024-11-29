@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetKeepPrecision method. Encapsulates the function that represents getkeepprecision in Go.'
 type: docs
 weight: 200
-url: /go/htmlloadoptions/getkeepprecision/
+url: /go-cpp/htmlloadoptions/getkeepprecision/
 ---
 
 ## GetKeepPrecision function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetWpsCompatibility method. Encapsulates the function that represents getwpscompatibility in Go.'
 type: docs
 weight: 200
-url: /go/xlssaveoptions/getwpscompatibility/
+url: /go-cpp/xlssaveoptions/getwpscompatibility/
 ---
 
 ## GetWpsCompatibility function

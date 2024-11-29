@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'UpdateSelectedValue method. Encapsulates the function that represents updateselectedvalue in Go.'
 type: docs
 weight: 200
-url: /go/chartshape/updateselectedvalue/
+url: /go-cpp/chartshape/updateselectedvalue/
 ---
 
 ## UpdateSelectedValue function

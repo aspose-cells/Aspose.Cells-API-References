@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetAuthor method. Encapsulates the function that represents getauthor in Go.'
 type: docs
 weight: 200
-url: /go/threadedcomment/getauthor/
+url: /go-cpp/threadedcomment/getauthor/
 ---
 
 ## GetAuthor function

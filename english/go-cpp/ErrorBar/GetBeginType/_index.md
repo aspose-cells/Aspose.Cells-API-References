@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetBeginType method. Encapsulates the function that represents getbegintype in Go.'
 type: docs
 weight: 200
-url: /go/errorbar/getbegintype/
+url: /go-cpp/errorbar/getbegintype/
 ---
 
 ## GetBeginType function

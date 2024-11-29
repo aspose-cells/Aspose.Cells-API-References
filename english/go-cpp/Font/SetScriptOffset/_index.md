@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetScriptOffset method. Encapsulates the function that represents setscriptoffset in Go.'
 type: docs
 weight: 200
-url: /go/font/setscriptoffset/
+url: /go-cpp/font/setscriptoffset/
 ---
 
 ## SetScriptOffset function

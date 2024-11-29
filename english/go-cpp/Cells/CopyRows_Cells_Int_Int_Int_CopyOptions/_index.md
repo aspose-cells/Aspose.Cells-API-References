@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'CopyRows_Cells_Int_Int_Int_CopyOptions method. Encapsulates the function that represents copyrows in Go.'
 type: docs
 weight: 200
-url: /go/cells/copyrows_cells_int_int_int_copyoptions/
+url: /go-cpp/cells/copyrows_cells_int_int_int_copyoptions/
 ---
 
 ## CopyRows_Cells_Int_Int_Int_CopyOptions function

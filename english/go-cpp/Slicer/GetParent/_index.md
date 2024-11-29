@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetParent method. Encapsulates the function that represents getparent in Go.'
 type: docs
 weight: 200
-url: /go/slicer/getparent/
+url: /go-cpp/slicer/getparent/
 ---
 
 ## GetParent function

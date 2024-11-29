@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetFreezedPanes method. Encapsulates the function that represents getfreezedpanes in Go.'
 type: docs
 weight: 200
-url: /go/worksheet/getfreezedpanes/
+url: /go-cpp/worksheet/getfreezedpanes/
 ---
 
 ## GetFreezedPanes function

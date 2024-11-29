@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetMarkerSizePx method. Encapsulates the function that represents setmarkersizepx in Go.'
 type: docs
 weight: 200
-url: /go/marker/setmarkersizepx/
+url: /go-cpp/marker/setmarkersizepx/
 ---
 
 ## SetMarkerSizePx function

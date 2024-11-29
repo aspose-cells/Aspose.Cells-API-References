@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetConditionalAreas method. Encapsulates the function that represents setconditionalareas in Go.'
 type: docs
 weight: 200
-url: /go/pivotformatcondition/setconditionalareas/
+url: /go-cpp/pivotformatcondition/setconditionalareas/
 ---
 
 ## SetConditionalAreas function

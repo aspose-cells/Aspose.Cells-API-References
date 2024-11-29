@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetBackWall method. Encapsulates the function that represents getbackwall in Go.'
 type: docs
 weight: 200
-url: /go/chart/getbackwall/
+url: /go-cpp/chart/getbackwall/
 ---
 
 ## GetBackWall function

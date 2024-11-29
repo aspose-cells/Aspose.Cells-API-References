@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'AddWebVideoPlayer method. Encapsulates the function that represents addwebvideoplayer in Go.'
 type: docs
 weight: 200
-url: /go/webextensioncollection/addwebvideoplayer/
+url: /go-cpp/webextensioncollection/addwebvideoplayer/
 ---
 
 ## AddWebVideoPlayer function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetColor2 method. Encapsulates the function that represents getcolor2 in Go.'
 type: docs
 weight: 200
-url: /go/twocolorgradient/getcolor2/
+url: /go-cpp/twocolorgradient/getcolor2/
 ---
 
 ## GetColor2 function

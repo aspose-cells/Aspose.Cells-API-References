@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'AddLabel method. Encapsulates the function that represents addlabel in Go.'
 type: docs
 weight: 200
-url: /go/shapecollection/addlabel/
+url: /go-cpp/shapecollection/addlabel/
 ---
 
 ## AddLabel function

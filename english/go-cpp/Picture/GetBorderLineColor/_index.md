@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetBorderLineColor method. Encapsulates the function that represents getborderlinecolor in Go.'
 type: docs
 weight: 200
-url: /go/picture/getborderlinecolor/
+url: /go-cpp/picture/getborderlinecolor/
 ---
 
 ## GetBorderLineColor function

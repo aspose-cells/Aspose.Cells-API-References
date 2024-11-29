@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GroupCharacterEquationNode_CreateNode method. Encapsulates the function that represents createnode in Go.'
 type: docs
 weight: 200
-url: /go/groupcharacterequationnode/groupcharacterequationnode_createnode/
+url: /go-cpp/groupcharacterequationnode/groupcharacterequationnode_createnode/
 ---
 
 ## GroupCharacterEquationNode_CreateNode function

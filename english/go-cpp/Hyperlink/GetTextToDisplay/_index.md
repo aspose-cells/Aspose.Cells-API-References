@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTextToDisplay method. Encapsulates the function that represents gettexttodisplay in Go.'
 type: docs
 weight: 200
-url: /go/hyperlink/gettexttodisplay/
+url: /go-cpp/hyperlink/gettexttodisplay/
 ---
 
 ## GetTextToDisplay function

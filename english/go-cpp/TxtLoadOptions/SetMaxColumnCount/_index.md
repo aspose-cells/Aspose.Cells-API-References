@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetMaxColumnCount method. Encapsulates the function that represents setmaxcolumncount in Go.'
 type: docs
 weight: 200
-url: /go/txtloadoptions/setmaxcolumncount/
+url: /go-cpp/txtloadoptions/setmaxcolumncount/
 ---
 
 ## SetMaxColumnCount function

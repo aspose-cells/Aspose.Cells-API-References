@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'CopyTheme method. Encapsulates the function that represents copytheme in Go.'
 type: docs
 weight: 200
-url: /go/workbook/copytheme/
+url: /go-cpp/workbook/copytheme/
 ---
 
 ## CopyTheme function

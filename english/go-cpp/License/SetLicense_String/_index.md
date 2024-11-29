@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetLicense_String method. Encapsulates the function that represents setlicense in Go.'
 type: docs
 weight: 200
-url: /go/license/setlicense_string/
+url: /go-cpp/license/setlicense_string/
 ---
 
 ## SetLicense_String function

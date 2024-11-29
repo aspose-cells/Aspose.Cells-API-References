@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsRichText method. Encapsulates the function that represents isrichtext in Go.'
 type: docs
 weight: 200
-url: /go/dialog_box/isrichtext/
+url: /go-cpp/dialog_box/isrichtext/
 ---
 
 ## IsRichText function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetLeftInch method. Encapsulates the function that represents getleftinch in Go.'
 type: docs
 weight: 200
-url: /go/customxmlshape/getleftinch/
+url: /go-cpp/customxmlshape/getleftinch/
 ---
 
 ## GetLeftInch function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'LoadDataFilterOptions enum. Encapsulates the object that represents loaddatafilteroptions in Go.'
 type: docs
 weight: 200
-url: /go/loaddatafilteroptions/
+url: /go-cpp/loaddatafilteroptions/
 ---
 
 ## LoadDataFilterOptions Enum

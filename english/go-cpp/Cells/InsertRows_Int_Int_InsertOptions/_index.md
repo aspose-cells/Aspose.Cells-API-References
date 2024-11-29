@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'InsertRows_Int_Int_InsertOptions method. Encapsulates the function that represents insertrows in Go.'
 type: docs
 weight: 200
-url: /go/cells/insertrows_int_int_insertoptions/
+url: /go-cpp/cells/insertrows_int_int_insertoptions/
 ---
 
 ## InsertRows_Int_Int_InsertOptions function

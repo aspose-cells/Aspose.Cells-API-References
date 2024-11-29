@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetInnerX method. Encapsulates the function that represents setinnerx in Go.'
 type: docs
 weight: 200
-url: /go/plotarea/setinnerx/
+url: /go-cpp/plotarea/setinnerx/
 ---
 
 ## SetInnerX function

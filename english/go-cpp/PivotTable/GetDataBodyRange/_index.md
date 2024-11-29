@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetDataBodyRange method. Encapsulates the function that represents getdatabodyrange in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/getdatabodyrange/
+url: /go-cpp/pivottable/getdatabodyrange/
 ---
 
 ## GetDataBodyRange function

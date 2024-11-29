@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTerminateWithoutException method. Encapsulates the function that represents getterminatewithoutexception in Go.'
 type: docs
 weight: 200
-url: /go/systemtimeinterruptmonitor/getterminatewithoutexception/
+url: /go-cpp/systemtimeinterruptmonitor/getterminatewithoutexception/
 ---
 
 ## GetTerminateWithoutException function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetFontUnderline method. Encapsulates the function that represents setfontunderline in Go.'
 type: docs
 weight: 200
-url: /go/styleflag/setfontunderline/
+url: /go-cpp/styleflag/setfontunderline/
 ---
 
 ## SetFontUnderline function

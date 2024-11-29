@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetInputMessage method. Encapsulates the function that represents setinputmessage in Go.'
 type: docs
 weight: 200
-url: /go/validation/setinputmessage/
+url: /go-cpp/validation/setinputmessage/
 ---
 
 ## SetInputMessage function

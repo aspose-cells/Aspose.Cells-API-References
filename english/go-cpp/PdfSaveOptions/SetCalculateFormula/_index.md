@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetCalculateFormula method. Encapsulates the function that represents setcalculateformula in Go.'
 type: docs
 weight: 200
-url: /go/pdfsaveoptions/setcalculateformula/
+url: /go-cpp/pdfsaveoptions/setcalculateformula/
 ---
 
 ## SetCalculateFormula function

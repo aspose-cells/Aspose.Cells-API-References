@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetLeftInch method. Encapsulates the function that represents setleftinch in Go.'
 type: docs
 weight: 200
-url: /go/radiobutton/setleftinch/
+url: /go-cpp/radiobutton/setleftinch/
 ---
 
 ## SetLeftInch function

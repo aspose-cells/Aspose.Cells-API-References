@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetPivotItems method. Encapsulates the function that represents getpivotitems in Go.'
 type: docs
 weight: 200
-url: /go/pivotfield/getpivotitems/
+url: /go-cpp/pivotfield/getpivotitems/
 ---
 
 ## GetPivotItems function

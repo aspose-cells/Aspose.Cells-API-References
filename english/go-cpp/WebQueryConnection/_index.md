@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'WebQueryConnection class. Encapsulates the object that represents webqueryconnection in Go.'
 type: docs
 weight: 200
-url: /go/webqueryconnection/
+url: /go-cpp/webqueryconnection/
 ---
 
 ## WebQueryConnection class

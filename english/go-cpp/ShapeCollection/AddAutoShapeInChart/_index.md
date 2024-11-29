@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'AddAutoShapeInChart method. Encapsulates the function that represents addautoshapeinchart in Go.'
 type: docs
 weight: 200
-url: /go/shapecollection/addautoshapeinchart/
+url: /go-cpp/shapecollection/addautoshapeinchart/
 ---
 
 ## AddAutoShapeInChart function

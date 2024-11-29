@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetRangeByName_String_Int_Bool method. Encapsulates the function that represents getrangebyname in Go.'
 type: docs
 weight: 200
-url: /go/worksheetcollection/getrangebyname_string_int_bool/
+url: /go-cpp/worksheetcollection/getrangebyname_string_int_bool/
 ---
 
 ## GetRangeByName_String_Int_Bool function

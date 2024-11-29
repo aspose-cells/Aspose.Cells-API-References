@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsBorderCollapsed method. Encapsulates the function that represents setisbordercollapsed in Go.'
 type: docs
 weight: 200
-url: /go/htmlsaveoptions/setisbordercollapsed/
+url: /go-cpp/htmlsaveoptions/setisbordercollapsed/
 ---
 
 ## SetIsBorderCollapsed function

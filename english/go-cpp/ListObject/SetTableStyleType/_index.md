@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetTableStyleType method. Encapsulates the function that represents settablestyletype in Go.'
 type: docs
 weight: 200
-url: /go/listobject/settablestyletype/
+url: /go-cpp/listobject/settablestyletype/
 ---
 
 ## SetTableStyleType function

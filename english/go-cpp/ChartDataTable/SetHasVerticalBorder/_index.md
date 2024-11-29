@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetHasVerticalBorder method. Encapsulates the function that represents sethasverticalborder in Go.'
 type: docs
 weight: 200
-url: /go/chartdatatable/sethasverticalborder/
+url: /go-cpp/chartdatatable/sethasverticalborder/
 ---
 
 ## SetHasVerticalBorder function

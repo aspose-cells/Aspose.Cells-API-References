@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetOnCategoryAxisPointXPx method. Encapsulates the function that represents getoncategoryaxispointxpx in Go.'
 type: docs
 weight: 200
-url: /go/chartpoint/getoncategoryaxispointxpx/
+url: /go-cpp/chartpoint/getoncategoryaxispointxpx/
 ---
 
 ## GetOnCategoryAxisPointXPx function

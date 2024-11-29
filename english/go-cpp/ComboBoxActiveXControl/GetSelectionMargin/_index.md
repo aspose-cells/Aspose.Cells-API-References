@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetSelectionMargin method. Encapsulates the function that represents getselectionmargin in Go.'
 type: docs
 weight: 200
-url: /go/comboboxactivexcontrol/getselectionmargin/
+url: /go-cpp/comboboxactivexcontrol/getselectionmargin/
 ---
 
 ## GetSelectionMargin function

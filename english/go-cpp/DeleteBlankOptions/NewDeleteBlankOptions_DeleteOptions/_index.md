@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'DeleteBlankOptions constructor. Encapsulates the function that represents newdeleteblankoptions_deleteoptions in Go.'
 type: docs
 weight: 200
-url: /go/deleteblankoptions/newdeleteblankoptions_deleteoptions/
+url: /go-cpp/deleteblankoptions/newdeleteblankoptions_deleteoptions/
 ---
 
 ## NewDeleteBlankOptions_DeleteOptions function

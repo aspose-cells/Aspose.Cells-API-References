@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetTrimLeadingBlankRowAndColumn method. Encapsulates the function that represents settrimleadingblankrowandcolumn in Go.'
 type: docs
 weight: 200
-url: /go/txtsaveoptions/settrimleadingblankrowandcolumn/
+url: /go-cpp/txtsaveoptions/settrimleadingblankrowandcolumn/
 ---
 
 ## SetTrimLeadingBlankRowAndColumn function

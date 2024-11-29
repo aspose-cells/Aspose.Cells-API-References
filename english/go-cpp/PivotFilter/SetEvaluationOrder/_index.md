@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetEvaluationOrder method. Encapsulates the function that represents setevaluationorder in Go.'
 type: docs
 weight: 200
-url: /go/pivotfilter/setevaluationorder/
+url: /go-cpp/pivotfilter/setevaluationorder/
 ---
 
 ## SetEvaluationOrder function

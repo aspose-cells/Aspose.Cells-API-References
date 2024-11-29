@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsSelected method. Encapsulates the function that represents setisselected in Go.'
 type: docs
 weight: 200
-url: /go/worksheet/setisselected/
+url: /go-cpp/worksheet/setisselected/
 ---
 
 ## SetIsSelected function

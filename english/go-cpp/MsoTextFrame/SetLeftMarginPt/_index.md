@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetLeftMarginPt method. Encapsulates the function that represents setleftmarginpt in Go.'
 type: docs
 weight: 200
-url: /go/msotextframe/setleftmarginpt/
+url: /go-cpp/msotextframe/setleftmarginpt/
 ---
 
 ## SetLeftMarginPt function

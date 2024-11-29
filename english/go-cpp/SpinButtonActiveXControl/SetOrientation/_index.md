@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetOrientation method. Encapsulates the function that represents setorientation in Go.'
 type: docs
 weight: 200
-url: /go/spinbuttonactivexcontrol/setorientation/
+url: /go-cpp/spinbuttonactivexcontrol/setorientation/
 ---
 
 ## SetOrientation function

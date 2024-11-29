@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'MsoDrawingType enum. Encapsulates the object that represents msodrawingtype in Go.'
 type: docs
 weight: 200
-url: /go/msodrawingtype/
+url: /go-cpp/msodrawingtype/
 ---
 
 ## MsoDrawingType Enum

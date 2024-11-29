@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetStartAt method. Encapsulates the function that represents setstartat in Go.'
 type: docs
 weight: 200
-url: /go/autonumberedbulletvalue/setstartat/
+url: /go-cpp/autonumberedbulletvalue/setstartat/
 ---
 
 ## SetStartAt function

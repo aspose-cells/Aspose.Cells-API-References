@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetPrintPermission method. Encapsulates the function that represents getprintpermission in Go.'
 type: docs
 weight: 200
-url: /go/pdfsecurityoptions/getprintpermission/
+url: /go-cpp/pdfsecurityoptions/getprintpermission/
 ---
 
 ## GetPrintPermission function

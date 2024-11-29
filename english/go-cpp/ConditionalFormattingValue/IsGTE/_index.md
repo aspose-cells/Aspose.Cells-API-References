@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsGTE method. Encapsulates the function that represents isgte in Go.'
 type: docs
 weight: 200
-url: /go/conditionalformattingvalue/isgte/
+url: /go-cpp/conditionalformattingvalue/isgte/
 ---
 
 ## IsGTE function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsMultipleFieldFilters method. Encapsulates the function that represents ismultiplefieldfilters in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/ismultiplefieldfilters/
+url: /go-cpp/pivottable/ismultiplefieldfilters/
 ---
 
 ## IsMultipleFieldFilters function

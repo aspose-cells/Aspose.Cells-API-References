@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetToExcelStruct method. Encapsulates the function that represents gettoexcelstruct in Go.'
 type: docs
 weight: 200
-url: /go/jsonsaveoptions/gettoexcelstruct/
+url: /go-cpp/jsonsaveoptions/gettoexcelstruct/
 ---
 
 ## GetToExcelStruct function

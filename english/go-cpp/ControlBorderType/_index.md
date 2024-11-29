@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ControlBorderType enum. Encapsulates the object that represents controlbordertype in Go.'
 type: docs
 weight: 200
-url: /go/controlbordertype/
+url: /go-cpp/controlbordertype/
 ---
 
 ## ControlBorderType Enum

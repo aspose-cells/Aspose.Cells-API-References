@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetDropButtonStyle method. Encapsulates the function that represents setdropbuttonstyle in Go.'
 type: docs
 weight: 200
-url: /go/comboboxactivexcontrol/setdropbuttonstyle/
+url: /go-cpp/comboboxactivexcontrol/setdropbuttonstyle/
 ---
 
 ## SetDropButtonStyle function

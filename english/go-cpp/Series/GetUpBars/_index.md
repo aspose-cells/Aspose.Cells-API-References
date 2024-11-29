@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetUpBars method. Encapsulates the function that represents getupbars in Go.'
 type: docs
 weight: 200
-url: /go/series/getupbars/
+url: /go-cpp/series/getupbars/
 ---
 
 ## GetUpBars function

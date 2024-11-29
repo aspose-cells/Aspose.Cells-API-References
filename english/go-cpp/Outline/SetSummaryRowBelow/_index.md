@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetSummaryRowBelow method. Encapsulates the function that represents setsummaryrowbelow in Go.'
 type: docs
 weight: 200
-url: /go/outline/setsummaryrowbelow/
+url: /go-cpp/outline/setsummaryrowbelow/
 ---
 
 ## SetSummaryRowBelow function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetCodeName method. Encapsulates the function that represents setcodename in Go.'
 type: docs
 weight: 200
-url: /go/worksheet/setcodename/
+url: /go-cpp/worksheet/setcodename/
 ---
 
 ## SetCodeName function

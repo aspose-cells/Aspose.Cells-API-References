@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'UnprotectSharedWorkbook method. Encapsulates the function that represents unprotectsharedworkbook in Go.'
 type: docs
 weight: 200
-url: /go/workbook/unprotectsharedworkbook/
+url: /go-cpp/workbook/unprotectsharedworkbook/
 ---
 
 ## UnprotectSharedWorkbook function

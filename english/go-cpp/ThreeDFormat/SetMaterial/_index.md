@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetMaterial method. Encapsulates the function that represents setmaterial in Go.'
 type: docs
 weight: 200
-url: /go/threedformat/setmaterial/
+url: /go-cpp/threedformat/setmaterial/
 ---
 
 ## SetMaterial function

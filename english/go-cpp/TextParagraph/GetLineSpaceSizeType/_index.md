@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetLineSpaceSizeType method. Encapsulates the function that represents getlinespacesizetype in Go.'
 type: docs
 weight: 200
-url: /go/textparagraph/getlinespacesizetype/
+url: /go-cpp/textparagraph/getlinespacesizetype/
 ---
 
 ## GetLineSpaceSizeType function

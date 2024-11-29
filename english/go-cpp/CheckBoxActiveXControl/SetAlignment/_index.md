@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetAlignment method. Encapsulates the function that represents setalignment in Go.'
 type: docs
 weight: 200
-url: /go/checkboxactivexcontrol/setalignment/
+url: /go-cpp/checkboxactivexcontrol/setalignment/
 ---
 
 ## SetAlignment function

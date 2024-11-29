@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetWindowWidthInch method. Encapsulates the function that represents getwindowwidthinch in Go.'
 type: docs
 weight: 200
-url: /go/workbooksettings/getwindowwidthinch/
+url: /go-cpp/workbooksettings/getwindowwidthinch/
 ---
 
 ## GetWindowWidthInch function

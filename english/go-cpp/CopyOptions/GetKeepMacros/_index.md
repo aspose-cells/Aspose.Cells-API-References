@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetKeepMacros method. Encapsulates the function that represents getkeepmacros in Go.'
 type: docs
 weight: 200
-url: /go/copyoptions/getkeepmacros/
+url: /go-cpp/copyoptions/getkeepmacros/
 ---
 
 ## GetKeepMacros function

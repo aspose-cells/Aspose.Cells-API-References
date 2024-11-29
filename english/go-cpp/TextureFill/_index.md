@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'TextureFill class. Encapsulates the object that represents texturefill in Go.'
 type: docs
 weight: 200
-url: /go/texturefill/
+url: /go-cpp/texturefill/
 ---
 
 ## TextureFill class

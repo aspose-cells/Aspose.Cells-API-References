@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetHasSeriesLines method. Encapsulates the function that represents sethasserieslines in Go.'
 type: docs
 weight: 200
-url: /go/series/sethasserieslines/
+url: /go-cpp/series/sethasserieslines/
 ---
 
 ## SetHasSeriesLines function

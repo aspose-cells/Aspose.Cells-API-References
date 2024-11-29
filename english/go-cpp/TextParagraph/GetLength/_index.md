@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetLength method. Encapsulates the function that represents getlength in Go.'
 type: docs
 weight: 200
-url: /go/textparagraph/getlength/
+url: /go-cpp/textparagraph/getlength/
 ---
 
 ## GetLength function

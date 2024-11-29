@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetPageScale method. Encapsulates the function that represents getpagescale in Go.'
 type: docs
 weight: 200
-url: /go/sheetrender/getpagescale/
+url: /go-cpp/sheetrender/getpagescale/
 ---
 
 ## GetPageScale function

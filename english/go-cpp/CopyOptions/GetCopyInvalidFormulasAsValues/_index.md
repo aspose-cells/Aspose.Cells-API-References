@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetCopyInvalidFormulasAsValues method. Encapsulates the function that represents getcopyinvalidformulasasvalues in Go.'
 type: docs
 weight: 200
-url: /go/copyoptions/getcopyinvalidformulasasvalues/
+url: /go-cpp/copyoptions/getcopyinvalidformulasasvalues/
 ---
 
 ## GetCopyInvalidFormulasAsValues function

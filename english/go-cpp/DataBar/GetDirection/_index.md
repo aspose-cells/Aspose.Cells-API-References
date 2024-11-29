@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetDirection method. Encapsulates the function that represents getdirection in Go.'
 type: docs
 weight: 200
-url: /go/databar/getdirection/
+url: /go-cpp/databar/getdirection/
 ---
 
 ## GetDirection function

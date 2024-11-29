@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetMapChartRegionType method. Encapsulates the function that represents getmapchartregiontype in Go.'
 type: docs
 weight: 200
-url: /go/serieslayoutproperties/getmapchartregiontype/
+url: /go-cpp/serieslayoutproperties/getmapchartregiontype/
 ---
 
 ## GetMapChartRegionType function

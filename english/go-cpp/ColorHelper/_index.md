@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ColorHelper class. Encapsulates the object that represents colorhelper in Go.'
 type: docs
 weight: 200
-url: /go/colorhelper/
+url: /go-cpp/colorhelper/
 ---
 
 ## ColorHelper class

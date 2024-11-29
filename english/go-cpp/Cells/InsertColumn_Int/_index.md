@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'InsertColumn_Int method. Encapsulates the function that represents insertcolumn in Go.'
 type: docs
 weight: 200
-url: /go/cells/insertcolumn_int/
+url: /go-cpp/cells/insertcolumn_int/
 ---
 
 ## InsertColumn_Int function

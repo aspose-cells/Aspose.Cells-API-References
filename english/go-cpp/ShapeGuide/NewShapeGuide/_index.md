@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ShapeGuide constructor. Encapsulates the function that represents newshapeguide in Go.'
 type: docs
 weight: 200
-url: /go/shapeguide/newshapeguide/
+url: /go-cpp/shapeguide/newshapeguide/
 ---
 
 ## NewShapeGuide function

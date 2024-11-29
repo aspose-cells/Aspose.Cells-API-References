@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetCopyNames method. Encapsulates the function that represents setcopynames in Go.'
 type: docs
 weight: 200
-url: /go/copyoptions/setcopynames/
+url: /go-cpp/copyoptions/setcopynames/
 ---
 
 ## SetCopyNames function

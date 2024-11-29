@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'PivotItemCollection class. Encapsulates the object that represents pivotitemcollection in Go.'
 type: docs
 weight: 200
-url: /go/pivotitemcollection/
+url: /go-cpp/pivotitemcollection/
 ---
 
 ## PivotItemCollection class

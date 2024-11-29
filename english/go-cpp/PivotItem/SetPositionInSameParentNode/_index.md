@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetPositionInSameParentNode method. Encapsulates the function that represents setpositioninsameparentnode in Go.'
 type: docs
 weight: 200
-url: /go/pivotitem/setpositioninsameparentnode/
+url: /go-cpp/pivotitem/setpositioninsameparentnode/
 ---
 
 ## SetPositionInSameParentNode function

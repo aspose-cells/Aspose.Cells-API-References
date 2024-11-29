@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetOriginalDataSource method. Encapsulates the function that represents getoriginaldatasource in Go.'
 type: docs
 weight: 200
-url: /go/externallink/getoriginaldatasource/
+url: /go-cpp/externallink/getoriginaldatasource/
 ---
 
 ## GetOriginalDataSource function

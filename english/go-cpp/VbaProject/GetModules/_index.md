@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetModules method. Encapsulates the function that represents getmodules in Go.'
 type: docs
 weight: 200
-url: /go/vbaproject/getmodules/
+url: /go-cpp/vbaproject/getmodules/
 ---
 
 ## GetModules function

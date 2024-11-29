@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetEmptyFormulaValueAsBlank method. Encapsulates the function that represents getemptyformulavalueasblank in Go.'
 type: docs
 weight: 200
-url: /go/deleteblankoptions/getemptyformulavalueasblank/
+url: /go-cpp/deleteblankoptions/getemptyformulavalueasblank/
 ---
 
 ## GetEmptyFormulaValueAsBlank function

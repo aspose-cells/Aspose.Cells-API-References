@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetOperator method. Encapsulates the function that represents getoperator in Go.'
 type: docs
 weight: 200
-url: /go/formatcondition/getoperator/
+url: /go-cpp/formatcondition/getoperator/
 ---
 
 ## GetOperator function

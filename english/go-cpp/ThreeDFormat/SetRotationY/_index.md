@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetRotationY method. Encapsulates the function that represents setrotationy in Go.'
 type: docs
 weight: 200
-url: /go/threedformat/setrotationy/
+url: /go-cpp/threedformat/setrotationy/
 ---
 
 ## SetRotationY function

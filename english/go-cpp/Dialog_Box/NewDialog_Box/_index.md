@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Dialog_Box constructor. Encapsulates the function that represents newdialog_box in Go.'
 type: docs
 weight: 200
-url: /go/dialog_box/newdialog_box/
+url: /go-cpp/dialog_box/newdialog_box/
 ---
 
 ## NewDialog_Box function

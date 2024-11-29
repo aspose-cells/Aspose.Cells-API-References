@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'TextToColumns method. Encapsulates the function that represents texttocolumns in Go.'
 type: docs
 weight: 200
-url: /go/cells/texttocolumns/
+url: /go-cpp/cells/texttocolumns/
 ---
 
 ## TextToColumns function

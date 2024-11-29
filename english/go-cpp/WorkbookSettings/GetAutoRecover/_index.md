@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetAutoRecover method. Encapsulates the function that represents getautorecover in Go.'
 type: docs
 weight: 200
-url: /go/workbooksettings/getautorecover/
+url: /go-cpp/workbooksettings/getautorecover/
 ---
 
 ## GetAutoRecover function

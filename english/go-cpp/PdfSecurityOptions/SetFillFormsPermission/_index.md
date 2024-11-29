@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetFillFormsPermission method. Encapsulates the function that represents setfillformspermission in Go.'
 type: docs
 weight: 200
-url: /go/pdfsecurityoptions/setfillformspermission/
+url: /go-cpp/pdfsecurityoptions/setfillformspermission/
 ---
 
 ## SetFillFormsPermission function

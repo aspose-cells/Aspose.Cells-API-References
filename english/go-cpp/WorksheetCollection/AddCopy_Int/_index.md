@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'AddCopy_Int method. Encapsulates the function that represents addcopy in Go.'
 type: docs
 weight: 200
-url: /go/worksheetcollection/addcopy_int/
+url: /go-cpp/worksheetcollection/addcopy_int/
 ---
 
 ## AddCopy_Int function

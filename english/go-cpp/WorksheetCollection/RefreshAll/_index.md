@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'RefreshAll method. Encapsulates the function that represents refreshall in Go.'
 type: docs
 weight: 200
-url: /go/worksheetcollection/refreshall/
+url: /go-cpp/worksheetcollection/refreshall/
 ---
 
 ## RefreshAll function

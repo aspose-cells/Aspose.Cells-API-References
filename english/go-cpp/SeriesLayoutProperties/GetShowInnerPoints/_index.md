@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetShowInnerPoints method. Encapsulates the function that represents getshowinnerpoints in Go.'
 type: docs
 weight: 200
-url: /go/serieslayoutproperties/getshowinnerpoints/
+url: /go-cpp/serieslayoutproperties/getshowinnerpoints/
 ---
 
 ## GetShowInnerPoints function

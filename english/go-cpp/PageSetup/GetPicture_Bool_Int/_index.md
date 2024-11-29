@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetPicture_Bool_Int method. Encapsulates the function that represents getpicture in Go.'
 type: docs
 weight: 200
-url: /go/pagesetup/getpicture_bool_int/
+url: /go-cpp/pagesetup/getpicture_bool_int/
 ---
 
 ## GetPicture_Bool_Int function

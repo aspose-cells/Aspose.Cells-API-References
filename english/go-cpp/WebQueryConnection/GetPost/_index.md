@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetPost method. Encapsulates the function that represents getpost in Go.'
 type: docs
 weight: 200
-url: /go/webqueryconnection/getpost/
+url: /go-cpp/webqueryconnection/getpost/
 ---
 
 ## GetPost function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'CommandButtonActiveXControl constructor. Encapsulates the function that represents newcommandbuttonactivexcontrol in Go.'
 type: docs
 weight: 200
-url: /go/commandbuttonactivexcontrol/newcommandbuttonactivexcontrol/
+url: /go-cpp/commandbuttonactivexcontrol/newcommandbuttonactivexcontrol/
 ---
 
 ## NewCommandButtonActiveXControl function

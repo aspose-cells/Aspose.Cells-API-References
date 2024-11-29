@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsOutline method. Encapsulates the function that represents isoutline in Go.'
 type: docs
 weight: 200
-url: /go/pivotarea/isoutline/
+url: /go-cpp/pivotarea/isoutline/
 ---
 
 ## IsOutline function

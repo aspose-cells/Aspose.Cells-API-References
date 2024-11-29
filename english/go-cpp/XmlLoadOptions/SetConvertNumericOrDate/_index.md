@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetConvertNumericOrDate method. Encapsulates the function that represents setconvertnumericordate in Go.'
 type: docs
 weight: 200
-url: /go/xmlloadoptions/setconvertnumericordate/
+url: /go-cpp/xmlloadoptions/setconvertnumericordate/
 ---
 
 ## SetConvertNumericOrDate function

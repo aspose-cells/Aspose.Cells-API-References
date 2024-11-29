@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetHeightInShape method. Encapsulates the function that represents getheightinshape in Go.'
 type: docs
 weight: 200
-url: /go/radiobutton/getheightinshape/
+url: /go-cpp/radiobutton/getheightinshape/
 ---
 
 ## GetHeightInShape function

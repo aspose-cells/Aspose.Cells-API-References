@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTickMarkSpacing method. Encapsulates the function that represents gettickmarkspacing in Go.'
 type: docs
 weight: 200
-url: /go/axis/gettickmarkspacing/
+url: /go-cpp/axis/gettickmarkspacing/
 ---
 
 ## GetTickMarkSpacing function

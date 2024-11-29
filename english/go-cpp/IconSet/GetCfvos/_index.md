@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetCfvos method. Encapsulates the function that represents getcfvos in Go.'
 type: docs
 weight: 200
-url: /go/iconset/getcfvos/
+url: /go-cpp/iconset/getcfvos/
 ---
 
 ## GetCfvos function

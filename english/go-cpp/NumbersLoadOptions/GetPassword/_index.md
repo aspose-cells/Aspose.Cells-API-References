@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetPassword method. Encapsulates the function that represents getpassword in Go.'
 type: docs
 weight: 200
-url: /go/numbersloadoptions/getpassword/
+url: /go-cpp/numbersloadoptions/getpassword/
 ---
 
 ## GetPassword function

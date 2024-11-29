@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'BevelPresetType enum. Encapsulates the object that represents bevelpresettype in Go.'
 type: docs
 weight: 200
-url: /go/bevelpresettype/
+url: /go-cpp/bevelpresettype/
 ---
 
 ## BevelPresetType Enum

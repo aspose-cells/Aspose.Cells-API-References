@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'CellsFactory constructor. Encapsulates the function that represents newcellsfactory in Go.'
 type: docs
 weight: 200
-url: /go/cellsfactory/newcellsfactory/
+url: /go-cpp/cellsfactory/newcellsfactory/
 ---
 
 ## NewCellsFactory function

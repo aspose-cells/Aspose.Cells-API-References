@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetOpacity method. Encapsulates the function that represents setopacity in Go.'
 type: docs
 weight: 200
-url: /go/renderingwatermark/setopacity/
+url: /go-cpp/renderingwatermark/setopacity/
 ---
 
 ## SetOpacity function

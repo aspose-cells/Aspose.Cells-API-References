@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'AddCondition_FormatConditionType_OperatorType_String_String method. Encapsulates the function that represents addcondition in Go.'
 type: docs
 weight: 200
-url: /go/formatconditioncollection/addcondition_formatconditiontype_operatortype_string_string/
+url: /go-cpp/formatconditioncollection/addcondition_formatconditiontype_operatortype_string_string/
 ---
 
 ## AddCondition_FormatConditionType_OperatorType_String_String function

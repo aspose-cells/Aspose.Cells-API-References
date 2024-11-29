@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetEnableFieldDialog method. Encapsulates the function that represents getenablefielddialog in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/getenablefielddialog/
+url: /go-cpp/pivottable/getenablefielddialog/
 ---
 
 ## GetEnableFieldDialog function

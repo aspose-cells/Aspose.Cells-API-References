@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetHasMorePages method. Encapsulates the function that represents sethasmorepages in Go.'
 type: docs
 weight: 200
-url: /go/pageendsavingargs/sethasmorepages/
+url: /go-cpp/pageendsavingargs/sethasmorepages/
 ---
 
 ## SetHasMorePages function

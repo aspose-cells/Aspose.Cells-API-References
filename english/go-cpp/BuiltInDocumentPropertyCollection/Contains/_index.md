@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Contains method. Encapsulates the function that represents contains in Go.'
 type: docs
 weight: 200
-url: /go/builtindocumentpropertycollection/contains/
+url: /go-cpp/builtindocumentpropertycollection/contains/
 ---
 
 ## Contains function

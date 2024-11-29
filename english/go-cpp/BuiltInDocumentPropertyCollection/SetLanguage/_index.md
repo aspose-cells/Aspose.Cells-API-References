@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetLanguage method. Encapsulates the function that represents setlanguage in Go.'
 type: docs
 weight: 200
-url: /go/builtindocumentpropertycollection/setlanguage/
+url: /go-cpp/builtindocumentpropertycollection/setlanguage/
 ---
 
 ## SetLanguage function

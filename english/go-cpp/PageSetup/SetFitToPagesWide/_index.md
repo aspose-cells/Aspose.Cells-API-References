@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetFitToPagesWide method. Encapsulates the function that represents setfittopageswide in Go.'
 type: docs
 weight: 200
-url: /go/pagesetup/setfittopageswide/
+url: /go-cpp/pagesetup/setfittopageswide/
 ---
 
 ## SetFitToPagesWide function

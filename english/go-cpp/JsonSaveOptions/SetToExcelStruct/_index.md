@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetToExcelStruct method. Encapsulates the function that represents settoexcelstruct in Go.'
 type: docs
 weight: 200
-url: /go/jsonsaveoptions/settoexcelstruct/
+url: /go-cpp/jsonsaveoptions/settoexcelstruct/
 ---
 
 ## SetToExcelStruct function

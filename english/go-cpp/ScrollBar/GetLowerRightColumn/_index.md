@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetLowerRightColumn method. Encapsulates the function that represents getlowerrightcolumn in Go.'
 type: docs
 weight: 200
-url: /go/scrollbar/getlowerrightcolumn/
+url: /go-cpp/scrollbar/getlowerrightcolumn/
 ---
 
 ## GetLowerRightColumn function

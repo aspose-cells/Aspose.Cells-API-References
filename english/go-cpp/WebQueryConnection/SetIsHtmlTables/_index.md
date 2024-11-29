@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsHtmlTables method. Encapsulates the function that represents setishtmltables in Go.'
 type: docs
 weight: 200
-url: /go/webqueryconnection/setishtmltables/
+url: /go-cpp/webqueryconnection/setishtmltables/
 ---
 
 ## SetIsHtmlTables function

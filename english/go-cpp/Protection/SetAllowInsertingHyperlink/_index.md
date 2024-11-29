@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetAllowInsertingHyperlink method. Encapsulates the function that represents setallowinsertinghyperlink in Go.'
 type: docs
 weight: 200
-url: /go/protection/setallowinsertinghyperlink/
+url: /go-cpp/protection/setallowinsertinghyperlink/
 ---
 
 ## SetAllowInsertingHyperlink function

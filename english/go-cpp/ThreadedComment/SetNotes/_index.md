@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetNotes method. Encapsulates the function that represents setnotes in Go.'
 type: docs
 weight: 200
-url: /go/threadedcomment/setnotes/
+url: /go-cpp/threadedcomment/setnotes/
 ---
 
 ## SetNotes function

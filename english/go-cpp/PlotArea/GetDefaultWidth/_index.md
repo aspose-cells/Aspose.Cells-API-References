@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetDefaultWidth method. Encapsulates the function that represents getdefaultwidth in Go.'
 type: docs
 weight: 200
-url: /go/plotarea/getdefaultwidth/
+url: /go-cpp/plotarea/getdefaultwidth/
 ---
 
 ## GetDefaultWidth function

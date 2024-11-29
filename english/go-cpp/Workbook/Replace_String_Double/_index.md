@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Replace_String_Double method. Encapsulates the function that represents replace in Go.'
 type: docs
 weight: 200
-url: /go/workbook/replace_string_double/
+url: /go-cpp/workbook/replace_string_double/
 ---
 
 ## Replace_String_Double function

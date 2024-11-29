@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'CellValue class. Encapsulates the object that represents cellvalue in Go.'
 type: docs
 weight: 200
-url: /go/cellvalue/
+url: /go-cpp/cellvalue/
 ---
 
 ## CellValue class

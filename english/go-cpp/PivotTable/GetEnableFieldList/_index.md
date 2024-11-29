@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetEnableFieldList method. Encapsulates the function that represents getenablefieldlist in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/getenablefieldlist/
+url: /go-cpp/pivottable/getenablefieldlist/
 ---
 
 ## GetEnableFieldList function

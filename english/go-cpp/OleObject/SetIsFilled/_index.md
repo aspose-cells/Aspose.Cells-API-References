@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsFilled method. Encapsulates the function that represents setisfilled in Go.'
 type: docs
 weight: 200
-url: /go/oleobject/setisfilled/
+url: /go-cpp/oleobject/setisfilled/
 ---
 
 ## SetIsFilled function

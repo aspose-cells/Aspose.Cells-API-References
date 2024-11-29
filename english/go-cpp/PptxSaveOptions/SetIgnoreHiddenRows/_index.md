@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIgnoreHiddenRows method. Encapsulates the function that represents setignorehiddenrows in Go.'
 type: docs
 weight: 200
-url: /go/pptxsaveoptions/setignorehiddenrows/
+url: /go-cpp/pptxsaveoptions/setignorehiddenrows/
 ---
 
 ## SetIgnoreHiddenRows function

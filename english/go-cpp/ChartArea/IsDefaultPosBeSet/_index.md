@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsDefaultPosBeSet method. Encapsulates the function that represents isdefaultposbeset in Go.'
 type: docs
 weight: 200
-url: /go/chartarea/isdefaultposbeset/
+url: /go-cpp/chartarea/isdefaultposbeset/
 ---
 
 ## IsDefaultPosBeSet function

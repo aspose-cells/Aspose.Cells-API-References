@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetProviderId method. Encapsulates the function that represents getproviderid in Go.'
 type: docs
 weight: 200
-url: /go/digitalsignature/getproviderid/
+url: /go-cpp/digitalsignature/getproviderid/
 ---
 
 ## GetProviderId function

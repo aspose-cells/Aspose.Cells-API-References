@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetOleSize method. Encapsulates the function that represents getolesize in Go.'
 type: docs
 weight: 200
-url: /go/worksheetcollection/getolesize/
+url: /go-cpp/worksheetcollection/getolesize/
 ---
 
 ## GetOleSize function

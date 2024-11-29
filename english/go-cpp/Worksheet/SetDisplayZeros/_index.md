@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetDisplayZeros method. Encapsulates the function that represents setdisplayzeros in Go.'
 type: docs
 weight: 200
-url: /go/worksheet/setdisplayzeros/
+url: /go-cpp/worksheet/setdisplayzeros/
 ---
 
 ## SetDisplayZeros function

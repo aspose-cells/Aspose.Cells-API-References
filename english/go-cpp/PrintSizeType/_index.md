@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'PrintSizeType enum. Encapsulates the object that represents printsizetype in Go.'
 type: docs
 weight: 200
-url: /go/printsizetype/
+url: /go-cpp/printsizetype/
 ---
 
 ## PrintSizeType Enum

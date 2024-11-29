@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ToInt32 method. Encapsulates the function that represents toint32 in Go.'
 type: docs
 weight: 200
-url: /go/object/toint32/
+url: /go-cpp/object/toint32/
 ---
 
 ## ToInt32 function

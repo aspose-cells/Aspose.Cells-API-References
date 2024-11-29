@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetFilters method. Encapsulates the function that represents getfilters in Go.'
 type: docs
 weight: 200
-url: /go/pivotarea/getfilters/
+url: /go-cpp/pivotarea/getfilters/
 ---
 
 ## GetFilters function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ClearHeaderFooter method. Encapsulates the function that represents clearheaderfooter in Go.'
 type: docs
 weight: 200
-url: /go/pagesetup/clearheaderfooter/
+url: /go-cpp/pagesetup/clearheaderfooter/
 ---
 
 ## ClearHeaderFooter function

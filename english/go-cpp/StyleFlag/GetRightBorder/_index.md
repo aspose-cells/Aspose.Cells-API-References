@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetRightBorder method. Encapsulates the function that represents getrightborder in Go.'
 type: docs
 weight: 200
-url: /go/styleflag/getrightborder/
+url: /go-cpp/styleflag/getrightborder/
 ---
 
 ## GetRightBorder function

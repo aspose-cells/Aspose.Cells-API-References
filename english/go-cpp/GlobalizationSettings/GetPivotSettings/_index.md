@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetPivotSettings method. Encapsulates the function that represents getpivotsettings in Go.'
 type: docs
 weight: 200
-url: /go/globalizationsettings/getpivotsettings/
+url: /go-cpp/globalizationsettings/getpivotsettings/
 ---
 
 ## GetPivotSettings function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetSaveData method. Encapsulates the function that represents setsavedata in Go.'
 type: docs
 weight: 200
-url: /go/datamodelconnection/setsavedata/
+url: /go-cpp/datamodelconnection/setsavedata/
 ---
 
 ## SetSaveData function

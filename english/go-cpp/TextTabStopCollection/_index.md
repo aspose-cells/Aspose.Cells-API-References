@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'TextTabStopCollection class. Encapsulates the object that represents texttabstopcollection in Go.'
 type: docs
 weight: 200
-url: /go/texttabstopcollection/
+url: /go-cpp/texttabstopcollection/
 ---
 
 ## TextTabStopCollection class

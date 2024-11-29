@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetFormatStrategy method. Encapsulates the function that represents getformatstrategy in Go.'
 type: docs
 weight: 200
-url: /go/markdownsaveoptions/getformatstrategy/
+url: /go-cpp/markdownsaveoptions/getformatstrategy/
 ---
 
 ## GetFormatStrategy function

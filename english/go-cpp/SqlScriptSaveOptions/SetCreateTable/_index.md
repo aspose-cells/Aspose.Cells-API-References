@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetCreateTable method. Encapsulates the function that represents setcreatetable in Go.'
 type: docs
 weight: 200
-url: /go/sqlscriptsaveoptions/setcreatetable/
+url: /go-cpp/sqlscriptsaveoptions/setcreatetable/
 ---
 
 ## SetCreateTable function

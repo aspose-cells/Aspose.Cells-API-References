@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetRotationX method. Encapsulates the function that represents setrotationx in Go.'
 type: docs
 weight: 200
-url: /go/threedformat/setrotationx/
+url: /go-cpp/threedformat/setrotationx/
 ---
 
 ## SetRotationX function

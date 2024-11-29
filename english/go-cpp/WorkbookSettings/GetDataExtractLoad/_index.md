@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetDataExtractLoad method. Encapsulates the function that represents getdataextractload in Go.'
 type: docs
 weight: 200
-url: /go/workbooksettings/getdataextractload/
+url: /go-cpp/workbooksettings/getdataextractload/
 ---
 
 ## GetDataExtractLoad function

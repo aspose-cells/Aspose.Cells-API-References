@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetListColumns method. Encapsulates the function that represents getlistcolumns in Go.'
 type: docs
 weight: 200
-url: /go/listobject/getlistcolumns/
+url: /go-cpp/listobject/getlistcolumns/
 ---
 
 ## GetListColumns function

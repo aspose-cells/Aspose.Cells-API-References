@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsAutomatic method. Encapsulates the function that represents setisautomatic in Go.'
 type: docs
 weight: 200
-url: /go/axisbins/setisautomatic/
+url: /go-cpp/axisbins/setisautomatic/
 ---
 
 ## SetIsAutomatic function

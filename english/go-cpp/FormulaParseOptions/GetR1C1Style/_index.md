@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetR1C1Style method. Encapsulates the function that represents getr1c1style in Go.'
 type: docs
 weight: 200
-url: /go/formulaparseoptions/getr1c1style/
+url: /go-cpp/formulaparseoptions/getr1c1style/
 ---
 
 ## GetR1C1Style function

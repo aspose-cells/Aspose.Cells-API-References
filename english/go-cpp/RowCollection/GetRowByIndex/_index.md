@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetRowByIndex method. Encapsulates the function that represents getrowbyindex in Go.'
 type: docs
 weight: 200
-url: /go/rowcollection/getrowbyindex/
+url: /go-cpp/rowcollection/getrowbyindex/
 ---
 
 ## GetRowByIndex function

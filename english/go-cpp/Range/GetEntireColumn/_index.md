@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetEntireColumn method. Encapsulates the function that represents getentirecolumn in Go.'
 type: docs
 weight: 200
-url: /go/range/getentirecolumn/
+url: /go-cpp/range/getentirecolumn/
 ---
 
 ## GetEntireColumn function

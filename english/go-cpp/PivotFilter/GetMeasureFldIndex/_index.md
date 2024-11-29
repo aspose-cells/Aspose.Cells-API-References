@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetMeasureFldIndex method. Encapsulates the function that represents getmeasurefldindex in Go.'
 type: docs
 weight: 200
-url: /go/pivotfilter/getmeasurefldindex/
+url: /go-cpp/pivotfilter/getmeasurefldindex/
 ---
 
 ## GetMeasureFldIndex function

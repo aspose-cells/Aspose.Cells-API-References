@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetStdDev method. Encapsulates the function that represents setstddev in Go.'
 type: docs
 weight: 200
-url: /go/aboveaverage/setstddev/
+url: /go-cpp/aboveaverage/setstddev/
 ---
 
 ## SetStdDev function

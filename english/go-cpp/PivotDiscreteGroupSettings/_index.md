@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'PivotDiscreteGroupSettings class. Encapsulates the object that represents pivotdiscretegroupsettings in Go.'
 type: docs
 weight: 200
-url: /go/pivotdiscretegroupsettings/
+url: /go-cpp/pivotdiscretegroupsettings/
 ---
 
 ## PivotDiscreteGroupSettings class

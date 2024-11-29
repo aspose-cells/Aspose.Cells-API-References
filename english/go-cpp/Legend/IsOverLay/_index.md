@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsOverLay method. Encapsulates the function that represents isoverlay in Go.'
 type: docs
 weight: 200
-url: /go/legend/isoverlay/
+url: /go-cpp/legend/isoverlay/
 ---
 
 ## IsOverLay function

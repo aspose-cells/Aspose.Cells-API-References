@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetStandardBuiltInName method. Encapsulates the function that represents setstandardbuiltinname in Go.'
 type: docs
 weight: 200
-url: /go/settableglobalizationsettings/setstandardbuiltinname/
+url: /go-cpp/settableglobalizationsettings/setstandardbuiltinname/
 ---
 
 ## SetStandardBuiltInName function

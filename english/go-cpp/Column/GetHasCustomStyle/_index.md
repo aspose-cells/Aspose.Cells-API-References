@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetHasCustomStyle method. Encapsulates the function that represents gethascustomstyle in Go.'
 type: docs
 weight: 200
-url: /go/column/gethascustomstyle/
+url: /go-cpp/column/gethascustomstyle/
 ---
 
 ## GetHasCustomStyle function

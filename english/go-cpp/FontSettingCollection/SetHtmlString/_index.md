@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetHtmlString method. Encapsulates the function that represents sethtmlstring in Go.'
 type: docs
 weight: 200
-url: /go/fontsettingcollection/sethtmlstring/
+url: /go-cpp/fontsettingcollection/sethtmlstring/
 ---
 
 ## SetHtmlString function

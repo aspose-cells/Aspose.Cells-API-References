@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetConnectionString method. Encapsulates the function that represents getconnectionstring in Go.'
 type: docs
 weight: 200
-url: /go/dbconnection/getconnectionstring/
+url: /go-cpp/dbconnection/getconnectionstring/
 ---
 
 ## GetConnectionString function

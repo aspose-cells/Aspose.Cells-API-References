@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'EquationNodeParagraph class. Encapsulates the object that represents equationnodeparagraph in Go.'
 type: docs
 weight: 200
-url: /go/equationnodeparagraph/
+url: /go-cpp/equationnodeparagraph/
 ---
 
 ## EquationNodeParagraph class

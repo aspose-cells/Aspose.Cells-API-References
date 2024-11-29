@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'StartAccessCache method. Encapsulates the function that represents startaccesscache in Go.'
 type: docs
 weight: 200
-url: /go/worksheet/startaccesscache/
+url: /go-cpp/worksheet/startaccesscache/
 ---
 
 ## StartAccessCache function

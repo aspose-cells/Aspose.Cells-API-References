@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetHasHeaderRow method. Encapsulates the function that represents gethasheaderrow in Go.'
 type: docs
 weight: 200
-url: /go/jsonsaveoptions/gethasheaderrow/
+url: /go-cpp/jsonsaveoptions/gethasheaderrow/
 ---
 
 ## GetHasHeaderRow function

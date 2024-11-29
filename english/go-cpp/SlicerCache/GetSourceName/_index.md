@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetSourceName method. Encapsulates the function that represents getsourcename in Go.'
 type: docs
 weight: 200
-url: /go/slicercache/getsourcename/
+url: /go-cpp/slicercache/getsourcename/
 ---
 
 ## GetSourceName function

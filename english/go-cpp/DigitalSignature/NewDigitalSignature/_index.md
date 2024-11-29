@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'DigitalSignature constructor. Encapsulates the function that represents newdigitalsignature in Go.'
 type: docs
 weight: 200
-url: /go/digitalsignature/newdigitalsignature/
+url: /go-cpp/digitalsignature/newdigitalsignature/
 ---
 
 ## NewDigitalSignature function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetOdfStrictVersion method. Encapsulates the function that represents getodfstrictversion in Go.'
 type: docs
 weight: 200
-url: /go/odssaveoptions/getodfstrictversion/
+url: /go-cpp/odssaveoptions/getodfstrictversion/
 ---
 
 ## GetOdfStrictVersion function

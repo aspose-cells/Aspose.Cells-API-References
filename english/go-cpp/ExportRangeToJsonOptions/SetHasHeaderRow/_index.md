@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetHasHeaderRow method. Encapsulates the function that represents sethasheaderrow in Go.'
 type: docs
 weight: 200
-url: /go/exportrangetojsonoptions/sethasheaderrow/
+url: /go-cpp/exportrangetojsonoptions/sethasheaderrow/
 ---
 
 ## SetHasHeaderRow function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'FunctionEquationNode_CreateNode method. Encapsulates the function that represents createnode in Go.'
 type: docs
 weight: 200
-url: /go/functionequationnode/functionequationnode_createnode/
+url: /go-cpp/functionequationnode/functionequationnode_createnode/
 ---
 
 ## FunctionEquationNode_CreateNode function

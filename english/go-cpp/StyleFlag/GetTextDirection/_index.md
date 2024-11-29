@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTextDirection method. Encapsulates the function that represents gettextdirection in Go.'
 type: docs
 weight: 200
-url: /go/styleflag/gettextdirection/
+url: /go-cpp/styleflag/gettextdirection/
 ---
 
 ## GetTextDirection function

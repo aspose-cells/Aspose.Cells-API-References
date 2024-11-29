@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetLinkedCell_String method. Encapsulates the function that represents setlinkedcell in Go.'
 type: docs
 weight: 200
-url: /go/listbox/setlinkedcell_string/
+url: /go-cpp/listbox/setlinkedcell_string/
 ---
 
 ## SetLinkedCell_String function

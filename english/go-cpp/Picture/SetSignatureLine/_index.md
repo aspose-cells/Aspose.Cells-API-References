@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetSignatureLine method. Encapsulates the function that represents setsignatureline in Go.'
 type: docs
 weight: 200
-url: /go/picture/setsignatureline/
+url: /go-cpp/picture/setsignatureline/
 ---
 
 ## SetSignatureLine function

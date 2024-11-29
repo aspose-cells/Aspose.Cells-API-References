@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetFormatDataIgnoreColumnWidth method. Encapsulates the function that represents getformatdataignorecolumnwidth in Go.'
 type: docs
 weight: 200
-url: /go/htmlsaveoptions/getformatdataignorecolumnwidth/
+url: /go-cpp/htmlsaveoptions/getformatdataignorecolumnwidth/
 ---
 
 ## GetFormatDataIgnoreColumnWidth function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'TextTabAlignmentType enum. Encapsulates the object that represents texttabalignmenttype in Go.'
 type: docs
 weight: 200
-url: /go/texttabalignmenttype/
+url: /go-cpp/texttabalignmenttype/
 ---
 
 ## TextTabAlignmentType Enum

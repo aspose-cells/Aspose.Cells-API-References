@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetFractionType method. Encapsulates the function that represents getfractiontype in Go.'
 type: docs
 weight: 200
-url: /go/fractionequationnode/getfractiontype/
+url: /go-cpp/fractionequationnode/getfractiontype/
 ---
 
 ## GetFractionType function

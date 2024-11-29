@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SheetType enum. Encapsulates the object that represents sheettype in Go.'
 type: docs
 weight: 200
-url: /go/sheettype/
+url: /go-cpp/sheettype/
 ---
 
 ## SheetType Enum

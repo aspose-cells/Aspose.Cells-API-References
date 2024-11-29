@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetStartAngle method. Encapsulates the function that represents getstartangle in Go.'
 type: docs
 weight: 200
-url: /go/chartpoint/getstartangle/
+url: /go-cpp/chartpoint/getstartangle/
 ---
 
 ## GetStartAngle function

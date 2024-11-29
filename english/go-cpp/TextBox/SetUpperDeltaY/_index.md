@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetUpperDeltaY method. Encapsulates the function that represents setupperdeltay in Go.'
 type: docs
 weight: 200
-url: /go/textbox/setupperdeltay/
+url: /go-cpp/textbox/setupperdeltay/
 ---
 
 ## SetUpperDeltaY function

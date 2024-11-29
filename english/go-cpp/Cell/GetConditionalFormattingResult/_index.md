@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetConditionalFormattingResult method. Encapsulates the function that represents getconditionalformattingresult in Go.'
 type: docs
 weight: 200
-url: /go/cell/getconditionalformattingresult/
+url: /go-cpp/cell/getconditionalformattingresult/
 ---
 
 ## GetConditionalFormattingResult function

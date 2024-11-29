@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetLegendDecreaseName method. Encapsulates the function that represents getlegenddecreasename in Go.'
 type: docs
 weight: 200
-url: /go/settablechartglobalizationsettings/getlegenddecreasename/
+url: /go-cpp/settablechartglobalizationsettings/getlegenddecreasename/
 ---
 
 ## GetLegendDecreaseName function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetGradient method. Encapsulates the function that represents setgradient in Go.'
 type: docs
 weight: 200
-url: /go/gradientfill/setgradient/
+url: /go-cpp/gradientfill/setgradient/
 ---
 
 ## SetGradient function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetExportDataOptions method. Encapsulates the function that represents getexportdataoptions in Go.'
 type: docs
 weight: 200
-url: /go/htmlsaveoptions/getexportdataoptions/
+url: /go-cpp/htmlsaveoptions/getexportdataoptions/
 ---
 
 ## GetExportDataOptions function

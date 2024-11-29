@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetCenterY method. Encapsulates the function that represents getcentery in Go.'
 type: docs
 weight: 200
-url: /go/walls/getcentery/
+url: /go-cpp/walls/getcentery/
 ---
 
 ## GetCenterY function

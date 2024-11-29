@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTexture method. Encapsulates the function that represents gettexture in Go.'
 type: docs
 weight: 200
-url: /go/msofillformathelper/gettexture/
+url: /go-cpp/msofillformathelper/gettexture/
 ---
 
 ## GetTexture function

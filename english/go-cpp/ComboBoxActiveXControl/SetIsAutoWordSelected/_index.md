@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsAutoWordSelected method. Encapsulates the function that represents setisautowordselected in Go.'
 type: docs
 weight: 200
-url: /go/comboboxactivexcontrol/setisautowordselected/
+url: /go-cpp/comboboxactivexcontrol/setisautowordselected/
 ---
 
 ## SetIsAutoWordSelected function

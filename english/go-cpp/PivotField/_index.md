@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'PivotField class. Encapsulates the object that represents pivotfield in Go.'
 type: docs
 weight: 200
-url: /go/pivotfield/
+url: /go-cpp/pivotfield/
 ---
 
 ## PivotField class

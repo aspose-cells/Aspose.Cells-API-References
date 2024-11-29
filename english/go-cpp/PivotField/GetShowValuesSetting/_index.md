@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetShowValuesSetting method. Encapsulates the function that represents getshowvaluessetting in Go.'
 type: docs
 weight: 200
-url: /go/pivotfield/getshowvaluessetting/
+url: /go-cpp/pivotfield/getshowvaluessetting/
 ---
 
 ## GetShowValuesSetting function

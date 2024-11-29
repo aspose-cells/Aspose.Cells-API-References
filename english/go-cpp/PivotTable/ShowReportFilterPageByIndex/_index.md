@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ShowReportFilterPageByIndex method. Encapsulates the function that represents showreportfilterpagebyindex in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/showreportfilterpagebyindex/
+url: /go-cpp/pivottable/showreportfilterpagebyindex/
 ---
 
 ## ShowReportFilterPageByIndex function

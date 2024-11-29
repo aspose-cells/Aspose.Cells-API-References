@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ChartTextFrame constructor. Encapsulates the function that represents newcharttextframe in Go.'
 type: docs
 weight: 200
-url: /go/charttextframe/newcharttextframe/
+url: /go-cpp/charttextframe/newcharttextframe/
 ---
 
 ## NewChartTextFrame function

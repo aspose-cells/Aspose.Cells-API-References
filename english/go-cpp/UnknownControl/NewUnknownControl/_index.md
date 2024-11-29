@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'UnknownControl constructor. Encapsulates the function that represents newunknowncontrol in Go.'
 type: docs
 weight: 200
-url: /go/unknowncontrol/newunknowncontrol/
+url: /go-cpp/unknowncontrol/newunknowncontrol/
 ---
 
 ## NewUnknownControl function

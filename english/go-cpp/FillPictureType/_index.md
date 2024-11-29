@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'FillPictureType enum. Encapsulates the object that represents fillpicturetype in Go.'
 type: docs
 weight: 200
-url: /go/fillpicturetype/
+url: /go-cpp/fillpicturetype/
 ---
 
 ## FillPictureType Enum

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'RemoveActiveXControl method. Encapsulates the function that represents removeactivexcontrol in Go.'
 type: docs
 weight: 200
-url: /go/scrollbar/removeactivexcontrol/
+url: /go-cpp/scrollbar/removeactivexcontrol/
 ---
 
 ## RemoveActiveXControl function

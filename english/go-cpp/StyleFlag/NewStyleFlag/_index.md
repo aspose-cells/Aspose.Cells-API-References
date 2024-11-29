@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'StyleFlag constructor. Encapsulates the function that represents newstyleflag in Go.'
 type: docs
 weight: 200
-url: /go/styleflag/newstyleflag/
+url: /go-cpp/styleflag/newstyleflag/
 ---
 
 ## NewStyleFlag function

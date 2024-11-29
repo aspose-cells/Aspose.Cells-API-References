@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetFunctionName method. Encapsulates the function that represents getfunctionname in Go.'
 type: docs
 weight: 200
-url: /go/calculationdata/getfunctionname/
+url: /go-cpp/calculationdata/getfunctionname/
 ---
 
 ## GetFunctionName function

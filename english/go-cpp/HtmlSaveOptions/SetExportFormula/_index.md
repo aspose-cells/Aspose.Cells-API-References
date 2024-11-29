@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetExportFormula method. Encapsulates the function that represents setexportformula in Go.'
 type: docs
 weight: 200
-url: /go/htmlsaveoptions/setexportformula/
+url: /go-cpp/htmlsaveoptions/setexportformula/
 ---
 
 ## SetExportFormula function

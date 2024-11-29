@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'AccentEquationNode_CreateNode method. Encapsulates the function that represents createnode in Go.'
 type: docs
 weight: 200
-url: /go/accentequationnode/accentequationnode_createnode/
+url: /go-cpp/accentequationnode/accentequationnode_createnode/
 ---
 
 ## AccentEquationNode_CreateNode function

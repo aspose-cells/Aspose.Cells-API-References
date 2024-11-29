@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'NumbersLoadOptions class. Encapsulates the object that represents numbersloadoptions in Go.'
 type: docs
 weight: 200
-url: /go/numbersloadoptions/
+url: /go-cpp/numbersloadoptions/
 ---
 
 ## NumbersLoadOptions class

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetDefaultWidth method. Encapsulates the function that represents getdefaultwidth in Go.'
 type: docs
 weight: 200
-url: /go/chartarea/getdefaultwidth/
+url: /go-cpp/chartarea/getdefaultwidth/
 ---
 
 ## GetDefaultWidth function

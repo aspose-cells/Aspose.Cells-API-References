@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'UnknowEquationNode constructor. Encapsulates the function that represents newunknowequationnode in Go.'
 type: docs
 weight: 200
-url: /go/unknowequationnode/newunknowequationnode/
+url: /go-cpp/unknowequationnode/newunknowequationnode/
 ---
 
 ## NewUnknowEquationNode function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetCreatedTime method. Encapsulates the function that represents getcreatedtime in Go.'
 type: docs
 weight: 200
-url: /go/builtindocumentpropertycollection/getcreatedtime/
+url: /go-cpp/builtindocumentpropertycollection/getcreatedtime/
 ---
 
 ## GetCreatedTime function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'RemoveDigitalSignature method. Encapsulates the function that represents removedigitalsignature in Go.'
 type: docs
 weight: 200
-url: /go/workbook/removedigitalsignature/
+url: /go-cpp/workbook/removedigitalsignature/
 ---
 
 ## RemoveDigitalSignature function

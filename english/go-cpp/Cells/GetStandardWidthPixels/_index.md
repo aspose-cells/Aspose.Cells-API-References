@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetStandardWidthPixels method. Encapsulates the function that represents getstandardwidthpixels in Go.'
 type: docs
 weight: 200
-url: /go/cells/getstandardwidthpixels/
+url: /go-cpp/cells/getstandardwidthpixels/
 ---
 
 ## GetStandardWidthPixels function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'MathematicalEquationNode class. Encapsulates the object that represents mathematicalequationnode in Go.'
 type: docs
 weight: 200
-url: /go/mathematicalequationnode/
+url: /go-cpp/mathematicalequationnode/
 ---
 
 ## MathematicalEquationNode class

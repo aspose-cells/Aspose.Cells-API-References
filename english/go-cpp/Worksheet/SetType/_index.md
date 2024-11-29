@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetType method. Encapsulates the function that represents settype in Go.'
 type: docs
 weight: 200
-url: /go/worksheet/settype/
+url: /go-cpp/worksheet/settype/
 ---
 
 ## SetType function

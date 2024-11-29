@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ValidationCollection class. Encapsulates the object that represents validationcollection in Go.'
 type: docs
 weight: 200
-url: /go/validationcollection/
+url: /go-cpp/validationcollection/
 ---
 
 ## ValidationCollection class

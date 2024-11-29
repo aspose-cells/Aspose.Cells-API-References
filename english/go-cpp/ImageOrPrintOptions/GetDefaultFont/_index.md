@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetDefaultFont method. Encapsulates the function that represents getdefaultfont in Go.'
 type: docs
 weight: 200
-url: /go/imageorprintoptions/getdefaultfont/
+url: /go-cpp/imageorprintoptions/getdefaultfont/
 ---
 
 ## GetDefaultFont function

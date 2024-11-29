@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetAlternativeText method. Encapsulates the function that represents setalternativetext in Go.'
 type: docs
 weight: 200
-url: /go/scrollbar/setalternativetext/
+url: /go-cpp/scrollbar/setalternativetext/
 ---
 
 ## SetAlternativeText function

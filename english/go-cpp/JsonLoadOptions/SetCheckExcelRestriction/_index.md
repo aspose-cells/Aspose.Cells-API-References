@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetCheckExcelRestriction method. Encapsulates the function that represents setcheckexcelrestriction in Go.'
 type: docs
 weight: 200
-url: /go/jsonloadoptions/setcheckexcelrestriction/
+url: /go-cpp/jsonloadoptions/setcheckexcelrestriction/
 ---
 
 ## SetCheckExcelRestriction function

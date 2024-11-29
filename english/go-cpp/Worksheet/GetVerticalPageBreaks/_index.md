@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetVerticalPageBreaks method. Encapsulates the function that represents getverticalpagebreaks in Go.'
 type: docs
 weight: 200
-url: /go/worksheet/getverticalpagebreaks/
+url: /go-cpp/worksheet/getverticalpagebreaks/
 ---
 
 ## GetVerticalPageBreaks function

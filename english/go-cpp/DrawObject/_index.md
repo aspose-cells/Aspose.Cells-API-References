@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'DrawObject class. Encapsulates the object that represents drawobject in Go.'
 type: docs
 weight: 200
-url: /go/drawobject/
+url: /go-cpp/drawobject/
 ---
 
 ## DrawObject class

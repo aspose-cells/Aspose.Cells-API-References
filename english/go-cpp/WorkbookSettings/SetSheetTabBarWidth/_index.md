@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetSheetTabBarWidth method. Encapsulates the function that represents setsheettabbarwidth in Go.'
 type: docs
 weight: 200
-url: /go/workbooksettings/setsheettabbarwidth/
+url: /go-cpp/workbooksettings/setsheettabbarwidth/
 ---
 
 ## SetSheetTabBarWidth function

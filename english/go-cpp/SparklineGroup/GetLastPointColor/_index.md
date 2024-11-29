@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetLastPointColor method. Encapsulates the function that represents getlastpointcolor in Go.'
 type: docs
 weight: 200
-url: /go/sparklinegroup/getlastpointcolor/
+url: /go-cpp/sparklinegroup/getlastpointcolor/
 ---
 
 ## GetLastPointColor function

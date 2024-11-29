@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTwoColorGradientSetting method. Encapsulates the function that represents gettwocolorgradientsetting in Go.'
 type: docs
 weight: 200
-url: /go/style/gettwocolorgradientsetting/
+url: /go-cpp/style/gettwocolorgradientsetting/
 ---
 
 ## GetTwoColorGradientSetting function

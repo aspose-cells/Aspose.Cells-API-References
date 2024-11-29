@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ClearFormats_Int_Int_Int_Int method. Encapsulates the function that represents clearformats in Go.'
 type: docs
 weight: 200
-url: /go/cells/clearformats_int_int_int_int/
+url: /go-cpp/cells/clearformats_int_int_int_int/
 ---
 
 ## ClearFormats_Int_Int_Int_Int function

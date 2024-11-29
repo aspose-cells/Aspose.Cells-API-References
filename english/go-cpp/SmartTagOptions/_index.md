@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SmartTagOptions class. Encapsulates the object that represents smarttagoptions in Go.'
 type: docs
 weight: 200
-url: /go/smarttagoptions/
+url: /go-cpp/smarttagoptions/
 ---
 
 ## SmartTagOptions class

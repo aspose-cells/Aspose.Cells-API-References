@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsDegHide method. Encapsulates the function that represents isdeghide in Go.'
 type: docs
 weight: 200
-url: /go/radicalequationnode/isdeghide/
+url: /go-cpp/radicalequationnode/isdeghide/
 ---
 
 ## IsDegHide function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetCompoundType method. Encapsulates the function that represents setcompoundtype in Go.'
 type: docs
 weight: 200
-url: /go/trendline/setcompoundtype/
+url: /go-cpp/trendline/setcompoundtype/
 ---
 
 ## SetCompoundType function

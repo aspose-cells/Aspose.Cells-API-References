@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Replace_Int_Object method. Encapsulates the function that represents replace in Go.'
 type: docs
 weight: 200
-url: /go/workbook/replace_int_object/
+url: /go-cpp/workbook/replace_int_object/
 ---
 
 ## Replace_Int_Object function

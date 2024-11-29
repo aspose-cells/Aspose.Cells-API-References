@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetCriteria method. Encapsulates the function that represents setcriteria in Go.'
 type: docs
 weight: 200
-url: /go/top10filter/setcriteria/
+url: /go-cpp/top10filter/setcriteria/
 ---
 
 ## SetCriteria function

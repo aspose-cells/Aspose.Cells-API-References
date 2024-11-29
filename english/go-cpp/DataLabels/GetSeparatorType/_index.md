@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetSeparatorType method. Encapsulates the function that represents getseparatortype in Go.'
 type: docs
 weight: 200
-url: /go/datalabels/getseparatortype/
+url: /go-cpp/datalabels/getseparatortype/
 ---
 
 ## GetSeparatorType function

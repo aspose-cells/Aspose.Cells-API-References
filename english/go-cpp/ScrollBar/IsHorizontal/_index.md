@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsHorizontal method. Encapsulates the function that represents ishorizontal in Go.'
 type: docs
 weight: 200
-url: /go/scrollbar/ishorizontal/
+url: /go-cpp/scrollbar/ishorizontal/
 ---
 
 ## IsHorizontal function

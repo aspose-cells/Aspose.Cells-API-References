@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'TextTabStopCollection constructor. Encapsulates the function that represents newtexttabstopcollection in Go.'
 type: docs
 weight: 200
-url: /go/texttabstopcollection/newtexttabstopcollection/
+url: /go-cpp/texttabstopcollection/newtexttabstopcollection/
 ---
 
 ## NewTextTabStopCollection function

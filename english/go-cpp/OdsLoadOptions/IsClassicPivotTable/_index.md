@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsClassicPivotTable method. Encapsulates the function that represents isclassicpivottable in Go.'
 type: docs
 weight: 200
-url: /go/odsloadoptions/isclassicpivottable/
+url: /go-cpp/odsloadoptions/isclassicpivottable/
 ---
 
 ## IsClassicPivotTable function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'MsoLineFormat class. Encapsulates the object that represents msolineformat in Go.'
 type: docs
 weight: 200
-url: /go/msolineformat/
+url: /go-cpp/msolineformat/
 ---
 
 ## MsoLineFormat class

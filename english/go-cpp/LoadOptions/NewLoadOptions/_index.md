@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'LoadOptions constructor. Encapsulates the function that represents newloadoptions in Go.'
 type: docs
 weight: 200
-url: /go/loadoptions/newloadoptions/
+url: /go-cpp/loadoptions/newloadoptions/
 ---
 
 ## NewLoadOptions function

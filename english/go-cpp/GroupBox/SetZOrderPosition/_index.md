@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetZOrderPosition method. Encapsulates the function that represents setzorderposition in Go.'
 type: docs
 weight: 200
-url: /go/groupbox/setzorderposition/
+url: /go-cpp/groupbox/setzorderposition/
 ---
 
 ## SetZOrderPosition function

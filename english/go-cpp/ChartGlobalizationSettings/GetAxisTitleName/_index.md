@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetAxisTitleName method. Encapsulates the function that represents getaxistitlename in Go.'
 type: docs
 weight: 200
-url: /go/chartglobalizationsettings/getaxistitlename/
+url: /go-cpp/chartglobalizationsettings/getaxistitlename/
 ---
 
 ## GetAxisTitleName function

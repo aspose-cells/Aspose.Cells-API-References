@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetInputTitle method. Encapsulates the function that represents setinputtitle in Go.'
 type: docs
 weight: 200
-url: /go/validation/setinputtitle/
+url: /go-cpp/validation/setinputtitle/
 ---
 
 ## SetInputTitle function

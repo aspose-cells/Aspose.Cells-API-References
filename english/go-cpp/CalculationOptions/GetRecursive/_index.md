@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetRecursive method. Encapsulates the function that represents getrecursive in Go.'
 type: docs
 weight: 200
-url: /go/calculationoptions/getrecursive/
+url: /go-cpp/calculationoptions/getrecursive/
 ---
 
 ## GetRecursive function

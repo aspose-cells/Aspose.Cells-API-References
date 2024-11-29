@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'DataBar class. Encapsulates the object that represents databar in Go.'
 type: docs
 weight: 200
-url: /go/databar/
+url: /go-cpp/databar/
 ---
 
 ## DataBar class

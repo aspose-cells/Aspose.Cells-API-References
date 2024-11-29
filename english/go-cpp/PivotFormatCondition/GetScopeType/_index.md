@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetScopeType method. Encapsulates the function that represents getscopetype in Go.'
 type: docs
 weight: 200
-url: /go/pivotformatcondition/getscopetype/
+url: /go-cpp/pivotformatcondition/getscopetype/
 ---
 
 ## GetScopeType function

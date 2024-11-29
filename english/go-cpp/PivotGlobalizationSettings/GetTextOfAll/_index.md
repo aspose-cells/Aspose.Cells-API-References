@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTextOfAll method. Encapsulates the function that represents gettextofall in Go.'
 type: docs
 weight: 200
-url: /go/pivotglobalizationsettings/gettextofall/
+url: /go-cpp/pivotglobalizationsettings/gettextofall/
 ---
 
 ## GetTextOfAll function

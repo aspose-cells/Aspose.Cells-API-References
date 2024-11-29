@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetDataSorter method. Encapsulates the function that represents getdatasorter in Go.'
 type: docs
 weight: 200
-url: /go/workbook/getdatasorter/
+url: /go-cpp/workbook/getdatasorter/
 ---
 
 ## GetDataSorter function

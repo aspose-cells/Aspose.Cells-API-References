@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'CalculateFormula_String_CalculationOptions method. Encapsulates the function that represents calculateformula in Go.'
 type: docs
 weight: 200
-url: /go/worksheet/calculateformula_string_calculationoptions/
+url: /go-cpp/worksheet/calculateformula_string_calculationoptions/
 ---
 
 ## CalculateFormula_String_CalculationOptions function

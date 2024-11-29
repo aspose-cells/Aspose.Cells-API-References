@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsFlippedHorizontally method. Encapsulates the function that represents setisflippedhorizontally in Go.'
 type: docs
 weight: 200
-url: /go/chartshape/setisflippedhorizontally/
+url: /go-cpp/chartshape/setisflippedhorizontally/
 ---
 
 ## SetIsFlippedHorizontally function

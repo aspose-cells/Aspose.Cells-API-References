@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTreatQuotePrefixAsValue method. Encapsulates the function that represents gettreatquoteprefixasvalue in Go.'
 type: docs
 weight: 200
-url: /go/txtloadoptions/gettreatquoteprefixasvalue/
+url: /go-cpp/txtloadoptions/gettreatquoteprefixasvalue/
 ---
 
 ## GetTreatQuotePrefixAsValue function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsShapeColor method. Encapsulates the function that represents isshapecolor in Go.'
 type: docs
 weight: 200
-url: /go/cellscolor/isshapecolor/
+url: /go-cpp/cellscolor/isshapecolor/
 ---
 
 ## IsShapeColor function

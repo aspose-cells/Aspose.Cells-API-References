@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetShapeType method. Encapsulates the function that represents setshapetype in Go.'
 type: docs
 weight: 200
-url: /go/datalabels/setshapetype/
+url: /go-cpp/datalabels/setshapetype/
 ---
 
 ## SetShapeType function

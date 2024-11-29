@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetAllowUsingPivotTable method. Encapsulates the function that represents setallowusingpivottable in Go.'
 type: docs
 weight: 200
-url: /go/protection/setallowusingpivottable/
+url: /go-cpp/protection/setallowusingpivottable/
 ---
 
 ## SetAllowUsingPivotTable function

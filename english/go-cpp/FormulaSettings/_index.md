@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'FormulaSettings class. Encapsulates the object that represents formulasettings in Go.'
 type: docs
 weight: 200
-url: /go/formulasettings/
+url: /go-cpp/formulasettings/
 ---
 
 ## FormulaSettings class

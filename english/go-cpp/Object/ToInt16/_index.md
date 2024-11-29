@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ToInt16 method. Encapsulates the function that represents toint16 in Go.'
 type: docs
 weight: 200
-url: /go/object/toint16/
+url: /go-cpp/object/toint16/
 ---
 
 ## ToInt16 function

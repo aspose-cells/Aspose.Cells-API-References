@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetOrder2 method. Encapsulates the function that represents setorder2 in Go.'
 type: docs
 weight: 200
-url: /go/datasorter/setorder2/
+url: /go-cpp/datasorter/setorder2/
 ---
 
 ## SetOrder2 function

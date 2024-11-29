@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetInvariantCustom method. Encapsulates the function that represents getinvariantcustom in Go.'
 type: docs
 weight: 200
-url: /go/style/getinvariantcustom/
+url: /go-cpp/style/getinvariantcustom/
 ---
 
 ## GetInvariantCustom function

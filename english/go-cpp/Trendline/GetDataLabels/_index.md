@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetDataLabels method. Encapsulates the function that represents getdatalabels in Go.'
 type: docs
 weight: 200
-url: /go/trendline/getdatalabels/
+url: /go-cpp/trendline/getdatalabels/
 ---
 
 ## GetDataLabels function

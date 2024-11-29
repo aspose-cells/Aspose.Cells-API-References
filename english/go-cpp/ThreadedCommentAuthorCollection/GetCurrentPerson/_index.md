@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetCurrentPerson method. Encapsulates the function that represents getcurrentperson in Go.'
 type: docs
 weight: 200
-url: /go/threadedcommentauthorcollection/getcurrentperson/
+url: /go-cpp/threadedcommentauthorcollection/getcurrentperson/
 ---
 
 ## GetCurrentPerson function

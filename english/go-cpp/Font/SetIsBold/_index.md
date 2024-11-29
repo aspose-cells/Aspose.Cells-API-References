@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsBold method. Encapsulates the function that represents setisbold in Go.'
 type: docs
 weight: 200
-url: /go/font/setisbold/
+url: /go-cpp/font/setisbold/
 ---
 
 ## SetIsBold function

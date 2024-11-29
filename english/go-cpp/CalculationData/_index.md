@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'CalculationData class. Encapsulates the object that represents calculationdata in Go.'
 type: docs
 weight: 200
-url: /go/calculationdata/
+url: /go-cpp/calculationdata/
 ---
 
 ## CalculationData class

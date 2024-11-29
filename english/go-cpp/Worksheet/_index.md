@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Worksheet class. Encapsulates the object that represents worksheet in Go.'
 type: docs
 weight: 200
-url: /go/worksheet/
+url: /go-cpp/worksheet/
 ---
 
 ## Worksheet class

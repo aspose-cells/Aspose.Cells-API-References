@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetFirstColumn method. Encapsulates the function that represents getfirstcolumn in Go.'
 type: docs
 weight: 200
-url: /go/unionrange/getfirstcolumn/
+url: /go-cpp/unionrange/getfirstcolumn/
 ---
 
 ## GetFirstColumn function

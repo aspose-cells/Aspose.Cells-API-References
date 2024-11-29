@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'BuiltInDocumentPropertyCollection constructor. Encapsulates the function that represents newbuiltindocumentpropertycollection in Go.'
 type: docs
 weight: 200
-url: /go/builtindocumentpropertycollection/newbuiltindocumentpropertycollection/
+url: /go-cpp/builtindocumentpropertycollection/newbuiltindocumentpropertycollection/
 ---
 
 ## NewBuiltInDocumentPropertyCollection function

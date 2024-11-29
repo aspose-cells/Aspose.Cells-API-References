@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsAscendShow method. Encapsulates the function that represents setisascendshow in Go.'
 type: docs
 weight: 200
-url: /go/pivotfield/setisascendshow/
+url: /go-cpp/pivotfield/setisascendshow/
 ---
 
 ## SetIsAscendShow function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetCrashSave method. Encapsulates the function that represents setcrashsave in Go.'
 type: docs
 weight: 200
-url: /go/workbooksettings/setcrashsave/
+url: /go-cpp/workbooksettings/setcrashsave/
 ---
 
 ## SetCrashSave function

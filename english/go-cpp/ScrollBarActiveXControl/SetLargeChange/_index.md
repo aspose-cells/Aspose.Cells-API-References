@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetLargeChange method. Encapsulates the function that represents setlargechange in Go.'
 type: docs
 weight: 200
-url: /go/scrollbaractivexcontrol/setlargechange/
+url: /go-cpp/scrollbaractivexcontrol/setlargechange/
 ---
 
 ## SetLargeChange function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetHeightPx method. Encapsulates the function that represents getheightpx in Go.'
 type: docs
 weight: 200
-url: /go/walls/getheightpx/
+url: /go-cpp/walls/getheightpx/
 ---
 
 ## GetHeightPx function

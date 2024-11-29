@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetForward method. Encapsulates the function that represents setforward in Go.'
 type: docs
 weight: 200
-url: /go/trendline/setforward/
+url: /go-cpp/trendline/setforward/
 ---
 
 ## SetForward function

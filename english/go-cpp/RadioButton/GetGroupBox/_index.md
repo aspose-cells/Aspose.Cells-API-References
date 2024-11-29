@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetGroupBox method. Encapsulates the function that represents getgroupbox in Go.'
 type: docs
 weight: 200
-url: /go/radiobutton/getgroupbox/
+url: /go-cpp/radiobutton/getgroupbox/
 ---
 
 ## GetGroupBox function

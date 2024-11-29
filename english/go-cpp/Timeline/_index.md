@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Timeline class. Encapsulates the object that represents timeline in Go.'
 type: docs
 weight: 200
-url: /go/timeline/
+url: /go-cpp/timeline/
 ---
 
 ## Timeline class

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetCount method. Encapsulates the function that represents getcount in Go.'
 type: docs
 weight: 200
-url: /go/webextensionreferencecollection/getcount/
+url: /go-cpp/webextensionreferencecollection/getcount/
 ---
 
 ## GetCount function

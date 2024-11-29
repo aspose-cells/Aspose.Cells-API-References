@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'AddOval method. Encapsulates the function that represents addoval in Go.'
 type: docs
 weight: 200
-url: /go/shapecollection/addoval/
+url: /go-cpp/shapecollection/addoval/
 ---
 
 ## AddOval function

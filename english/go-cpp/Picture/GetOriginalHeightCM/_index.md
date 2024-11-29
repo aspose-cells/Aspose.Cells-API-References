@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetOriginalHeightCM method. Encapsulates the function that represents getoriginalheightcm in Go.'
 type: docs
 weight: 200
-url: /go/picture/getoriginalheightcm/
+url: /go-cpp/picture/getoriginalheightcm/
 ---
 
 ## GetOriginalHeightCM function

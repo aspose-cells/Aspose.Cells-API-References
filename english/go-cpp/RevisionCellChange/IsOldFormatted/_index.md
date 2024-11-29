@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsOldFormatted method. Encapsulates the function that represents isoldformatted in Go.'
 type: docs
 weight: 200
-url: /go/revisioncellchange/isoldformatted/
+url: /go-cpp/revisioncellchange/isoldformatted/
 ---
 
 ## IsOldFormatted function

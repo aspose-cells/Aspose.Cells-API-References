@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'PresetCameraType enum. Encapsulates the object that represents presetcameratype in Go.'
 type: docs
 weight: 200
-url: /go/presetcameratype/
+url: /go-cpp/presetcameratype/
 ---
 
 ## PresetCameraType Enum

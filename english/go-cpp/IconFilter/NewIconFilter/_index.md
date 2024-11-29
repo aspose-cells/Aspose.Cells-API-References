@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IconFilter constructor. Encapsulates the function that represents newiconfilter in Go.'
 type: docs
 weight: 200
-url: /go/iconfilter/newiconfilter/
+url: /go-cpp/iconfilter/newiconfilter/
 ---
 
 ## NewIconFilter function

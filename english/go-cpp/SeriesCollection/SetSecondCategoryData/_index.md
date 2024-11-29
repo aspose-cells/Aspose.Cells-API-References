@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetSecondCategoryData method. Encapsulates the function that represents setsecondcategorydata in Go.'
 type: docs
 weight: 200
-url: /go/seriescollection/setsecondcategorydata/
+url: /go-cpp/seriescollection/setsecondcategorydata/
 ---
 
 ## SetSecondCategoryData function

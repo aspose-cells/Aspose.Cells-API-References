@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'BulletType enum. Encapsulates the object that represents bullettype in Go.'
 type: docs
 weight: 200
-url: /go/bullettype/
+url: /go-cpp/bullettype/
 ---
 
 ## BulletType Enum

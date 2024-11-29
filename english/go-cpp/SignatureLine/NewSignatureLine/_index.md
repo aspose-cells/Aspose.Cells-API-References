@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SignatureLine constructor. Encapsulates the function that represents newsignatureline in Go.'
 type: docs
 weight: 200
-url: /go/signatureline/newsignatureline/
+url: /go-cpp/signatureline/newsignatureline/
 ---
 
 ## NewSignatureLine function

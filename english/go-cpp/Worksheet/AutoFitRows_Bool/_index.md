@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'AutoFitRows_Bool method. Encapsulates the function that represents autofitrows in Go.'
 type: docs
 weight: 200
-url: /go/worksheet/autofitrows_bool/
+url: /go-cpp/worksheet/autofitrows_bool/
 ---
 
 ## AutoFitRows_Bool function

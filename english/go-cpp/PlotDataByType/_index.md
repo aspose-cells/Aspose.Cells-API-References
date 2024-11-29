@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'PlotDataByType enum. Encapsulates the object that represents plotdatabytype in Go.'
 type: docs
 weight: 200
-url: /go/plotdatabytype/
+url: /go-cpp/plotdatabytype/
 ---
 
 ## PlotDataByType Enum

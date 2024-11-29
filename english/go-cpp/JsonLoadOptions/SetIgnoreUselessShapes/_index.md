@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIgnoreUselessShapes method. Encapsulates the function that represents setignoreuselessshapes in Go.'
 type: docs
 weight: 200
-url: /go/jsonloadoptions/setignoreuselessshapes/
+url: /go-cpp/jsonloadoptions/setignoreuselessshapes/
 ---
 
 ## SetIgnoreUselessShapes function

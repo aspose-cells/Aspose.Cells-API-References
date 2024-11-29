@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetConnectionDescription method. Encapsulates the function that represents getconnectiondescription in Go.'
 type: docs
 weight: 200
-url: /go/datamodelconnection/getconnectiondescription/
+url: /go-cpp/datamodelconnection/getconnectiondescription/
 ---
 
 ## GetConnectionDescription function

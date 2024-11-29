@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetInputRange_Bool_Bool method. Encapsulates the function that represents getinputrange in Go.'
 type: docs
 weight: 200
-url: /go/chartshape/getinputrange_bool_bool/
+url: /go-cpp/chartshape/getinputrange_bool_bool/
 ---
 
 ## GetInputRange_Bool_Bool function

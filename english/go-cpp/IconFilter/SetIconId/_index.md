@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIconId method. Encapsulates the function that represents seticonid in Go.'
 type: docs
 weight: 200
-url: /go/iconfilter/seticonid/
+url: /go-cpp/iconfilter/seticonid/
 ---
 
 ## SetIconId function

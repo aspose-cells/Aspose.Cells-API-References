@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'CountryCode enum. Encapsulates the object that represents countrycode in Go.'
 type: docs
 weight: 200
-url: /go/countrycode/
+url: /go-cpp/countrycode/
 ---
 
 ## CountryCode Enum

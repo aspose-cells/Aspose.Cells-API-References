@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetContentType method. Encapsulates the function that represents getcontenttype in Go.'
 type: docs
 weight: 200
-url: /go/builtindocumentpropertycollection/getcontenttype/
+url: /go-cpp/builtindocumentpropertycollection/getcontenttype/
 ---
 
 ## GetContentType function

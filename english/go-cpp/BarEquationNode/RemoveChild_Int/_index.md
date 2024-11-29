@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'RemoveChild_Int method. Encapsulates the function that represents removechild in Go.'
 type: docs
 weight: 200
-url: /go/barequationnode/removechild_int/
+url: /go-cpp/barequationnode/removechild_int/
 ---
 
 ## RemoveChild_Int function

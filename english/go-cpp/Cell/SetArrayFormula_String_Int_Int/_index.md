@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetArrayFormula_String_Int_Int method. Encapsulates the function that represents setarrayformula in Go.'
 type: docs
 weight: 200
-url: /go/cell/setarrayformula_string_int_int/
+url: /go-cpp/cell/setarrayformula_string_int_int/
 ---
 
 ## SetArrayFormula_String_Int_Int function

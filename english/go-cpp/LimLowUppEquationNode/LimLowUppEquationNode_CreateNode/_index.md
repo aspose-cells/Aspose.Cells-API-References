@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'LimLowUppEquationNode_CreateNode method. Encapsulates the function that represents createnode in Go.'
 type: docs
 weight: 200
-url: /go/limlowuppequationnode/limlowuppequationnode_createnode/
+url: /go-cpp/limlowuppequationnode/limlowuppequationnode_createnode/
 ---
 
 ## LimLowUppEquationNode_CreateNode function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetOtherName method. Encapsulates the function that represents setothername in Go.'
 type: docs
 weight: 200
-url: /go/settablechartglobalizationsettings/setothername/
+url: /go-cpp/settablechartglobalizationsettings/setothername/
 ---
 
 ## SetOtherName function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetTextOfSubTotal method. Encapsulates the function that represents settextofsubtotal in Go.'
 type: docs
 weight: 200
-url: /go/settablepivotglobalizationsettings/settextofsubtotal/
+url: /go-cpp/settablepivotglobalizationsettings/settextofsubtotal/
 ---
 
 ## SetTextOfSubTotal function

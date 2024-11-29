@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IndexOf method. Encapsulates the function that represents indexof in Go.'
 type: docs
 weight: 200
-url: /go/documentpropertycollection/indexof/
+url: /go-cpp/documentpropertycollection/indexof/
 ---
 
 ## IndexOf function

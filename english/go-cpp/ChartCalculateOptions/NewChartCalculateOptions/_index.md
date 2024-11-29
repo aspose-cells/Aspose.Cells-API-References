@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ChartCalculateOptions constructor. Encapsulates the function that represents newchartcalculateoptions in Go.'
 type: docs
 weight: 200
-url: /go/chartcalculateoptions/newchartcalculateoptions/
+url: /go-cpp/chartcalculateoptions/newchartcalculateoptions/
 ---
 
 ## NewChartCalculateOptions function

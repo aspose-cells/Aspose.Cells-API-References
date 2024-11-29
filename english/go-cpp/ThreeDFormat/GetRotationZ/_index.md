@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetRotationZ method. Encapsulates the function that represents getrotationz in Go.'
 type: docs
 weight: 200
-url: /go/threedformat/getrotationz/
+url: /go-cpp/threedformat/getrotationz/
 ---
 
 ## GetRotationZ function

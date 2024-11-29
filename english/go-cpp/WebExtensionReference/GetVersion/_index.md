@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetVersion method. Encapsulates the function that represents getversion in Go.'
 type: docs
 weight: 200
-url: /go/webextensionreference/getversion/
+url: /go-cpp/webextensionreference/getversion/
 ---
 
 ## GetVersion function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SpinButtonActiveXControl constructor. Encapsulates the function that represents newspinbuttonactivexcontrol in Go.'
 type: docs
 weight: 200
-url: /go/spinbuttonactivexcontrol/newspinbuttonactivexcontrol/
+url: /go-cpp/spinbuttonactivexcontrol/newspinbuttonactivexcontrol/
 ---
 
 ## NewSpinButtonActiveXControl function

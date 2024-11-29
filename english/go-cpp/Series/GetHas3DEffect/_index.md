@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetHas3DEffect method. Encapsulates the function that represents gethas3deffect in Go.'
 type: docs
 weight: 200
-url: /go/series/gethas3deffect/
+url: /go-cpp/series/gethas3deffect/
 ---
 
 ## GetHas3DEffect function

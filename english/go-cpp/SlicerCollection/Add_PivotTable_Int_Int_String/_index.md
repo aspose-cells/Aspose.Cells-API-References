@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Add_PivotTable_Int_Int_String method. Encapsulates the function that represents add in Go.'
 type: docs
 weight: 200
-url: /go/slicercollection/add_pivottable_int_int_string/
+url: /go-cpp/slicercollection/add_pivottable_int_int_string/
 ---
 
 ## Add_PivotTable_Int_Int_String function

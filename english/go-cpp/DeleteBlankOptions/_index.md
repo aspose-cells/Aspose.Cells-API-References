@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'DeleteBlankOptions class. Encapsulates the object that represents deleteblankoptions in Go.'
 type: docs
 weight: 200
-url: /go/deleteblankoptions/
+url: /go-cpp/deleteblankoptions/
 ---
 
 ## DeleteBlankOptions class

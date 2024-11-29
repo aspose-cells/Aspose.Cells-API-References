@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'RemoveDuplicates method. Encapsulates the function that represents removeduplicates in Go.'
 type: docs
 weight: 200
-url: /go/cells/removeduplicates/
+url: /go-cpp/cells/removeduplicates/
 ---
 
 ## RemoveDuplicates function

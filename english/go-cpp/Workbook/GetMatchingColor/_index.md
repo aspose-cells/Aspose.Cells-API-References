@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetMatchingColor method. Encapsulates the function that represents getmatchingcolor in Go.'
 type: docs
 weight: 200
-url: /go/workbook/getmatchingcolor/
+url: /go-cpp/workbook/getmatchingcolor/
 ---
 
 ## GetMatchingColor function

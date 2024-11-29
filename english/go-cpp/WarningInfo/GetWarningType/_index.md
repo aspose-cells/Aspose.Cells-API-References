@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetWarningType method. Encapsulates the function that represents getwarningtype in Go.'
 type: docs
 weight: 200
-url: /go/warninginfo/getwarningtype/
+url: /go-cpp/warninginfo/getwarningtype/
 ---
 
 ## GetWarningType function

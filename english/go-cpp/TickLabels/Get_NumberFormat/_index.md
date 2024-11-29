@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Get_NumberFormat method. Encapsulates the function that represents get_numberformat in Go.'
 type: docs
 weight: 200
-url: /go/ticklabels/get_numberformat/
+url: /go-cpp/ticklabels/get_numberformat/
 ---
 
 ## Get_NumberFormat function

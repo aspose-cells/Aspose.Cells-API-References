@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetMinusValue method. Encapsulates the function that represents getminusvalue in Go.'
 type: docs
 weight: 200
-url: /go/errorbar/getminusvalue/
+url: /go-cpp/errorbar/getminusvalue/
 ---
 
 ## GetMinusValue function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetWindowLeftCM method. Encapsulates the function that represents getwindowleftcm in Go.'
 type: docs
 weight: 200
-url: /go/workbooksettings/getwindowleftcm/
+url: /go-cpp/workbooksettings/getwindowleftcm/
 ---
 
 ## GetWindowLeftCM function

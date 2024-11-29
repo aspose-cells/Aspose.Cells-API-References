@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'CheckRow method. Encapsulates the function that represents checkrow in Go.'
 type: docs
 weight: 200
-url: /go/cells/checkrow/
+url: /go-cpp/cells/checkrow/
 ---
 
 ## CheckRow function

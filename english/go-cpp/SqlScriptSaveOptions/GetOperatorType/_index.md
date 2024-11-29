@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetOperatorType method. Encapsulates the function that represents getoperatortype in Go.'
 type: docs
 weight: 200
-url: /go/sqlscriptsaveoptions/getoperatortype/
+url: /go-cpp/sqlscriptsaveoptions/getoperatortype/
 ---
 
 ## GetOperatorType function

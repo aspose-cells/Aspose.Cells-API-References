@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsSigned method. Encapsulates the function that represents issigned in Go.'
 type: docs
 weight: 200
-url: /go/vbaproject/issigned/
+url: /go-cpp/vbaproject/issigned/
 ---
 
 ## IsSigned function

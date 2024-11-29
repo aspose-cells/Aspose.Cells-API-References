@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'FontConfigs class. Encapsulates the object that represents fontconfigs in Go.'
 type: docs
 weight: 200
-url: /go/fontconfigs/
+url: /go-cpp/fontconfigs/
 ---
 
 ## FontConfigs class

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Replace method. Encapsulates the function that represents replace in Go.'
 type: docs
 weight: 200
-url: /go/worksheet/replace/
+url: /go-cpp/worksheet/replace/
 ---
 
 ## Replace function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'TableStyleCollection class. Encapsulates the object that represents tablestylecollection in Go.'
 type: docs
 weight: 200
-url: /go/tablestylecollection/
+url: /go-cpp/tablestylecollection/
 ---
 
 ## TableStyleCollection class

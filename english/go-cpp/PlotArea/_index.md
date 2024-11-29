@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'PlotArea class. Encapsulates the object that represents plotarea in Go.'
 type: docs
 weight: 200
-url: /go/plotarea/
+url: /go-cpp/plotarea/
 ---
 
 ## PlotArea class

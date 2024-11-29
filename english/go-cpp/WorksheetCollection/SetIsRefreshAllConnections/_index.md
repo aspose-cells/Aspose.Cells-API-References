@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsRefreshAllConnections method. Encapsulates the function that represents setisrefreshallconnections in Go.'
 type: docs
 weight: 200
-url: /go/worksheetcollection/setisrefreshallconnections/
+url: /go-cpp/worksheetcollection/setisrefreshallconnections/
 ---
 
 ## SetIsRefreshAllConnections function

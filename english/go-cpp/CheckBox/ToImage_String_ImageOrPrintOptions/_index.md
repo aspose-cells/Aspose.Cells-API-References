@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ToImage_String_ImageOrPrintOptions method. Encapsulates the function that represents toimage in Go.'
 type: docs
 weight: 200
-url: /go/checkbox/toimage_string_imageorprintoptions/
+url: /go-cpp/checkbox/toimage_string_imageorprintoptions/
 ---
 
 ## ToImage_String_ImageOrPrintOptions function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'DeleteColumns method. Encapsulates the function that represents deletecolumns in Go.'
 type: docs
 weight: 200
-url: /go/cells/deletecolumns/
+url: /go-cpp/cells/deletecolumns/
 ---
 
 ## DeleteColumns function

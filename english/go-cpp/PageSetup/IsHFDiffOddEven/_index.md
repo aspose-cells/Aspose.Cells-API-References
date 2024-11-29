@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsHFDiffOddEven method. Encapsulates the function that represents ishfdiffoddeven in Go.'
 type: docs
 weight: 200
-url: /go/pagesetup/ishfdiffoddeven/
+url: /go-cpp/pagesetup/ishfdiffoddeven/
 ---
 
 ## IsHFDiffOddEven function

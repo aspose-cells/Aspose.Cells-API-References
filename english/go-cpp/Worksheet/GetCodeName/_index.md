@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetCodeName method. Encapsulates the function that represents getcodename in Go.'
 type: docs
 weight: 200
-url: /go/worksheet/getcodename/
+url: /go-cpp/worksheet/getcodename/
 ---
 
 ## GetCodeName function

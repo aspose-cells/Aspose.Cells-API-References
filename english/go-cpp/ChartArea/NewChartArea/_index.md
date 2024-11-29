@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ChartArea constructor. Encapsulates the function that represents newchartarea in Go.'
 type: docs
 weight: 200
-url: /go/chartarea/newchartarea/
+url: /go-cpp/chartarea/newchartarea/
 ---
 
 ## NewChartArea function

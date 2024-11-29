@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'PaneCollection class. Encapsulates the object that represents panecollection in Go.'
 type: docs
 weight: 200
-url: /go/panecollection/
+url: /go-cpp/panecollection/
 ---
 
 ## PaneCollection class

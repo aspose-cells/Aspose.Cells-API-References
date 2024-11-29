@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsWriteProtected method. Encapsulates the function that represents iswriteprotected in Go.'
 type: docs
 weight: 200
-url: /go/writeprotection/iswriteprotected/
+url: /go-cpp/writeprotection/iswriteprotected/
 ---
 
 ## IsWriteProtected function

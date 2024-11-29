@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'CellsHelper_GetVersion method. Encapsulates the function that represents getversion in Go.'
 type: docs
 weight: 200
-url: /go/cellshelper/cellshelper_getversion/
+url: /go-cpp/cellshelper/cellshelper_getversion/
 ---
 
 ## CellsHelper_GetVersion function

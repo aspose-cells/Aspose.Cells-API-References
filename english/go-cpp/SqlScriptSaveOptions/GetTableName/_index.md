@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTableName method. Encapsulates the function that represents gettablename in Go.'
 type: docs
 weight: 200
-url: /go/sqlscriptsaveoptions/gettablename/
+url: /go-cpp/sqlscriptsaveoptions/gettablename/
 ---
 
 ## GetTableName function

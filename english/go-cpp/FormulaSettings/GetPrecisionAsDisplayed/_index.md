@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetPrecisionAsDisplayed method. Encapsulates the function that represents getprecisionasdisplayed in Go.'
 type: docs
 weight: 200
-url: /go/formulasettings/getprecisionasdisplayed/
+url: /go-cpp/formulasettings/getprecisionasdisplayed/
 ---
 
 ## GetPrecisionAsDisplayed function

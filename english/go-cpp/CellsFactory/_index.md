@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'CellsFactory class. Encapsulates the object that represents cellsfactory in Go.'
 type: docs
 weight: 200
-url: /go/cellsfactory/
+url: /go-cpp/cellsfactory/
 ---
 
 ## CellsFactory class

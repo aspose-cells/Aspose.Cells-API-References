@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetCellByDisplayName method. Encapsulates the function that represents getcellbydisplayname in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/getcellbydisplayname/
+url: /go-cpp/pivottable/getcellbydisplayname/
 ---
 
 ## GetCellByDisplayName function

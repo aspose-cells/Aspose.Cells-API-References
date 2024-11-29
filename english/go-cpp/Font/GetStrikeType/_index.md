@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetStrikeType method. Encapsulates the function that represents getstriketype in Go.'
 type: docs
 weight: 200
-url: /go/font/getstriketype/
+url: /go-cpp/font/getstriketype/
 ---
 
 ## GetStrikeType function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ConsolidationFunction enum. Encapsulates the object that represents consolidationfunction in Go.'
 type: docs
 weight: 200
-url: /go/consolidationfunction/
+url: /go-cpp/consolidationfunction/
 ---
 
 ## ConsolidationFunction Enum

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetExportCommentsType method. Encapsulates the function that represents getexportcommentstype in Go.'
 type: docs
 weight: 200
-url: /go/htmlsaveoptions/getexportcommentstype/
+url: /go-cpp/htmlsaveoptions/getexportcommentstype/
 ---
 
 ## GetExportCommentsType function

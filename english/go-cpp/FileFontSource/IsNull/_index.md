@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsNull method. Encapsulates the function that represents isnull in Go.'
 type: docs
 weight: 200
-url: /go/filefontsource/isnull/
+url: /go-cpp/filefontsource/isnull/
 ---
 
 ## IsNull function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetWindowTopInch method. Encapsulates the function that represents setwindowtopinch in Go.'
 type: docs
 weight: 200
-url: /go/workbooksettings/setwindowtopinch/
+url: /go-cpp/workbooksettings/setwindowtopinch/
 ---
 
 ## SetWindowTopInch function

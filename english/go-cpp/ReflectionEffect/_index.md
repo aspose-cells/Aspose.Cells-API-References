@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ReflectionEffect class. Encapsulates the object that represents reflectioneffect in Go.'
 type: docs
 weight: 200
-url: /go/reflectioneffect/
+url: /go-cpp/reflectioneffect/
 ---
 
 ## ReflectionEffect class

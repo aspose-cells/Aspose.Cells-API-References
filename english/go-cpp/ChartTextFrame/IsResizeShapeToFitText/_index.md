@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsResizeShapeToFitText method. Encapsulates the function that represents isresizeshapetofittext in Go.'
 type: docs
 weight: 200
-url: /go/charttextframe/isresizeshapetofittext/
+url: /go-cpp/charttextframe/isresizeshapetofittext/
 ---
 
 ## IsResizeShapeToFitText function

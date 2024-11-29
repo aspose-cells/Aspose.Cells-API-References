@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetNumberGroupSeparator method. Encapsulates the function that represents getnumbergroupseparator in Go.'
 type: docs
 weight: 200
-url: /go/workbooksettings/getnumbergroupseparator/
+url: /go-cpp/workbooksettings/getnumbergroupseparator/
 ---
 
 ## GetNumberGroupSeparator function

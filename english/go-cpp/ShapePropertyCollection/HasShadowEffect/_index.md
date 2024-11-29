@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'HasShadowEffect method. Encapsulates the function that represents hasshadoweffect in Go.'
 type: docs
 weight: 200
-url: /go/shapepropertycollection/hasshadoweffect/
+url: /go-cpp/shapepropertycollection/hasshadoweffect/
 ---
 
 ## HasShadowEffect function

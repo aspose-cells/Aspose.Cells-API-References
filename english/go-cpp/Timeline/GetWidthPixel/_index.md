@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetWidthPixel method. Encapsulates the function that represents getwidthpixel in Go.'
 type: docs
 weight: 200
-url: /go/timeline/getwidthpixel/
+url: /go-cpp/timeline/getwidthpixel/
 ---
 
 ## GetWidthPixel function

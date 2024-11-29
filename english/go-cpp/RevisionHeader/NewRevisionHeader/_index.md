@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'RevisionHeader constructor. Encapsulates the function that represents newrevisionheader in Go.'
 type: docs
 weight: 200
-url: /go/revisionheader/newrevisionheader/
+url: /go-cpp/revisionheader/newrevisionheader/
 ---
 
 ## NewRevisionHeader function

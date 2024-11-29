@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetConditionalFormattingColorScale method. Encapsulates the function that represents getconditionalformattingcolorscale in Go.'
 type: docs
 weight: 200
-url: /go/conditionalformattingresult/getconditionalformattingcolorscale/
+url: /go-cpp/conditionalformattingresult/getconditionalformattingcolorscale/
 ---
 
 ## GetConditionalFormattingColorScale function

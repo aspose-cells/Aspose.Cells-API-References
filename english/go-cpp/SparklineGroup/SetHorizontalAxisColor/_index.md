@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetHorizontalAxisColor method. Encapsulates the function that represents sethorizontalaxiscolor in Go.'
 type: docs
 weight: 200
-url: /go/sparklinegroup/sethorizontalaxiscolor/
+url: /go-cpp/sparklinegroup/sethorizontalaxiscolor/
 ---
 
 ## SetHorizontalAxisColor function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetCurrentValue method. Encapsulates the function that represents getcurrentvalue in Go.'
 type: docs
 weight: 200
-url: /go/spinner/getcurrentvalue/
+url: /go-cpp/spinner/getcurrentvalue/
 ---
 
 ## GetCurrentValue function

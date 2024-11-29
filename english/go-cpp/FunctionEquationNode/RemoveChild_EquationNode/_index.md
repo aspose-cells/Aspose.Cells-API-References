@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'RemoveChild_EquationNode method. Encapsulates the function that represents removechild in Go.'
 type: docs
 weight: 200
-url: /go/functionequationnode/removechild_equationnode/
+url: /go-cpp/functionequationnode/removechild_equationnode/
 ---
 
 ## RemoveChild_EquationNode function

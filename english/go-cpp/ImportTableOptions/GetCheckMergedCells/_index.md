@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetCheckMergedCells method. Encapsulates the function that represents getcheckmergedcells in Go.'
 type: docs
 weight: 200
-url: /go/importtableoptions/getcheckmergedcells/
+url: /go-cpp/importtableoptions/getcheckmergedcells/
 ---
 
 ## GetCheckMergedCells function

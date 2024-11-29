@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetShowInOutlineForm method. Encapsulates the function that represents setshowinoutlineform in Go.'
 type: docs
 weight: 200
-url: /go/pivotfield/setshowinoutlineform/
+url: /go-cpp/pivotfield/setshowinoutlineform/
 ---
 
 ## SetShowInOutlineForm function

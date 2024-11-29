@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsNameAuto method. Encapsulates the function that represents setisnameauto in Go.'
 type: docs
 weight: 200
-url: /go/trendline/setisnameauto/
+url: /go-cpp/trendline/setisnameauto/
 ---
 
 ## SetIsNameAuto function

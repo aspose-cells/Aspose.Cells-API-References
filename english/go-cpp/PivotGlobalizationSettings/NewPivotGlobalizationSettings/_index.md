@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'PivotGlobalizationSettings constructor. Encapsulates the function that represents newpivotglobalizationsettings in Go.'
 type: docs
 weight: 200
-url: /go/pivotglobalizationsettings/newpivotglobalizationsettings/
+url: /go-cpp/pivotglobalizationsettings/newpivotglobalizationsettings/
 ---
 
 ## NewPivotGlobalizationSettings function

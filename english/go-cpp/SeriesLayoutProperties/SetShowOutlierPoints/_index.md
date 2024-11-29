@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetShowOutlierPoints method. Encapsulates the function that represents setshowoutlierpoints in Go.'
 type: docs
 weight: 200
-url: /go/serieslayoutproperties/setshowoutlierpoints/
+url: /go-cpp/serieslayoutproperties/setshowoutlierpoints/
 ---
 
 ## SetShowOutlierPoints function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetLineSeparator method. Encapsulates the function that represents getlineseparator in Go.'
 type: docs
 weight: 200
-url: /go/markdownsaveoptions/getlineseparator/
+url: /go-cpp/markdownsaveoptions/getlineseparator/
 ---
 
 ## GetLineSeparator function

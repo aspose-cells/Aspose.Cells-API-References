@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetGuid method. Encapsulates the function that represents getguid in Go.'
 type: docs
 weight: 200
-url: /go/revisioncustomview/getguid/
+url: /go-cpp/revisioncustomview/getguid/
 ---
 
 ## GetGuid function

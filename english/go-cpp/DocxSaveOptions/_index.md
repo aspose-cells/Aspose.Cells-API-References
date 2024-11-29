@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'DocxSaveOptions class. Encapsulates the object that represents docxsaveoptions in Go.'
 type: docs
 weight: 200
-url: /go/docxsaveoptions/
+url: /go-cpp/docxsaveoptions/
 ---
 
 ## DocxSaveOptions class

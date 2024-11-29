@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetAlignmentType method. Encapsulates the function that represents setalignmenttype in Go.'
 type: docs
 weight: 200
-url: /go/textparagraph/setalignmenttype/
+url: /go-cpp/textparagraph/setalignmenttype/
 ---
 
 ## SetAlignmentType function

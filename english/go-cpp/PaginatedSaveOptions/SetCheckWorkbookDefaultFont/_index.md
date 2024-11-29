@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetCheckWorkbookDefaultFont method. Encapsulates the function that represents setcheckworkbookdefaultfont in Go.'
 type: docs
 weight: 200
-url: /go/paginatedsaveoptions/setcheckworkbookdefaultfont/
+url: /go-cpp/paginatedsaveoptions/setcheckworkbookdefaultfont/
 ---
 
 ## SetCheckWorkbookDefaultFont function

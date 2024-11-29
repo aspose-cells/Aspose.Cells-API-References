@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsFullPathLink method. Encapsulates the function that represents setisfullpathlink in Go.'
 type: docs
 weight: 200
-url: /go/htmlsaveoptions/setisfullpathlink/
+url: /go-cpp/htmlsaveoptions/setisfullpathlink/
 ---
 
 ## SetIsFullPathLink function

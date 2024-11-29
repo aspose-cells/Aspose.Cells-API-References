@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SmartArtShape class. Encapsulates the object that represents smartartshape in Go.'
 type: docs
 weight: 200
-url: /go/smartartshape/
+url: /go-cpp/smartartshape/
 ---
 
 ## SmartArtShape class

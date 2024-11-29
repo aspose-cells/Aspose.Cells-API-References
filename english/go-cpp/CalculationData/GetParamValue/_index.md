@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetParamValue method. Encapsulates the function that represents getparamvalue in Go.'
 type: docs
 weight: 200
-url: /go/calculationdata/getparamvalue/
+url: /go-cpp/calculationdata/getparamvalue/
 ---
 
 ## GetParamValue function

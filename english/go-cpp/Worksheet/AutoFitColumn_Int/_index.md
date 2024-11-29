@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'AutoFitColumn_Int method. Encapsulates the function that represents autofitcolumn in Go.'
 type: docs
 weight: 200
-url: /go/worksheet/autofitcolumn_int/
+url: /go-cpp/worksheet/autofitcolumn_int/
 ---
 
 ## AutoFitColumn_Int function

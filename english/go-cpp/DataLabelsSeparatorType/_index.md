@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'DataLabelsSeparatorType enum. Encapsulates the object that represents datalabelsseparatortype in Go.'
 type: docs
 weight: 200
-url: /go/datalabelsseparatortype/
+url: /go-cpp/datalabelsseparatortype/
 ---
 
 ## DataLabelsSeparatorType Enum

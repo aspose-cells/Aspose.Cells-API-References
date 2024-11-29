@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsInGroup method. Encapsulates the function that represents isingroup in Go.'
 type: docs
 weight: 200
-url: /go/lineshape/isingroup/
+url: /go-cpp/lineshape/isingroup/
 ---
 
 ## IsInGroup function

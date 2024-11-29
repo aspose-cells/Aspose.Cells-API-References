@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTopMarginPt method. Encapsulates the function that represents gettopmarginpt in Go.'
 type: docs
 weight: 200
-url: /go/textboxoptions/gettopmarginpt/
+url: /go-cpp/textboxoptions/gettopmarginpt/
 ---
 
 ## GetTopMarginPt function

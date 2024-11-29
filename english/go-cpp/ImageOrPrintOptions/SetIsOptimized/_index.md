@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsOptimized method. Encapsulates the function that represents setisoptimized in Go.'
 type: docs
 weight: 200
-url: /go/imageorprintoptions/setisoptimized/
+url: /go-cpp/imageorprintoptions/setisoptimized/
 ---
 
 ## SetIsOptimized function

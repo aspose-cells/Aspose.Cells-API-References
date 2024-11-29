@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTint method. Encapsulates the function that represents gettint in Go.'
 type: docs
 weight: 200
-url: /go/themecolor/gettint/
+url: /go-cpp/themecolor/gettint/
 ---
 
 ## GetTint function

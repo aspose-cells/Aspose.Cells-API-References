@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTopCM method. Encapsulates the function that represents gettopcm in Go.'
 type: docs
 weight: 200
-url: /go/chartshape/gettopcm/
+url: /go-cpp/chartshape/gettopcm/
 ---
 
 ## GetTopCM function

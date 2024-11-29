@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetDefaultEditLanguage method. Encapsulates the function that represents setdefaulteditlanguage in Go.'
 type: docs
 weight: 200
-url: /go/imageorprintoptions/setdefaulteditlanguage/
+url: /go-cpp/imageorprintoptions/setdefaulteditlanguage/
 ---
 
 ## SetDefaultEditLanguage function

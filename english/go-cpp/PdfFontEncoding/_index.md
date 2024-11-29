@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'PdfFontEncoding enum. Encapsulates the object that represents pdffontencoding in Go.'
 type: docs
 weight: 200
-url: /go/pdffontencoding/
+url: /go-cpp/pdffontencoding/
 ---
 
 ## PdfFontEncoding Enum

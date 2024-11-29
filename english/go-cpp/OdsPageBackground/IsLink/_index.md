@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsLink method. Encapsulates the function that represents islink in Go.'
 type: docs
 weight: 200
-url: /go/odspagebackground/islink/
+url: /go-cpp/odspagebackground/islink/
 ---
 
 ## IsLink function

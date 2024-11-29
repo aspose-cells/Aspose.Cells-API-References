@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTextOfRange method. Encapsulates the function that represents gettextofrange in Go.'
 type: docs
 weight: 200
-url: /go/pivotglobalizationsettings/gettextofrange/
+url: /go-cpp/pivotglobalizationsettings/gettextofrange/
 ---
 
 ## GetTextOfRange function

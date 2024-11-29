@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Characters_Int_Int method. Encapsulates the function that represents characters in Go.'
 type: docs
 weight: 200
-url: /go/title/characters_int_int/
+url: /go-cpp/title/characters_int_int/
 ---
 
 ## Characters_Int_Int function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetSheetName method. Encapsulates the function that represents getsheetname in Go.'
 type: docs
 weight: 200
-url: /go/referredarea/getsheetname/
+url: /go-cpp/referredarea/getsheetname/
 ---
 
 ## GetSheetName function

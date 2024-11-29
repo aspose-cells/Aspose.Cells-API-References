@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetCalculateOnSave method. Encapsulates the function that represents setcalculateonsave in Go.'
 type: docs
 weight: 200
-url: /go/formulasettings/setcalculateonsave/
+url: /go-cpp/formulasettings/setcalculateonsave/
 ---
 
 ## SetCalculateOnSave function

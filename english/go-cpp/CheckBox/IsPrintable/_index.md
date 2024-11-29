@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsPrintable method. Encapsulates the function that represents isprintable in Go.'
 type: docs
 weight: 200
-url: /go/checkbox/isprintable/
+url: /go-cpp/checkbox/isprintable/
 ---
 
 ## IsPrintable function

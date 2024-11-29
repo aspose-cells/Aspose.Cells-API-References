@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetColorType method. Encapsulates the function that represents setcolortype in Go.'
 type: docs
 weight: 200
-url: /go/negativebarformat/setcolortype/
+url: /go-cpp/negativebarformat/setcolortype/
 ---
 
 ## SetColorType function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetInputCells method. Encapsulates the function that represents getinputcells in Go.'
 type: docs
 weight: 200
-url: /go/scenario/getinputcells/
+url: /go-cpp/scenario/getinputcells/
 ---
 
 ## GetInputCells function

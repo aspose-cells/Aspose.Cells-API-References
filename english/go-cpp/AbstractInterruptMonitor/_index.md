@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'AbstractInterruptMonitor class. Encapsulates the object that represents abstractinterruptmonitor in Go.'
 type: docs
 weight: 200
-url: /go/abstractinterruptmonitor/
+url: /go-cpp/abstractinterruptmonitor/
 ---
 
 ## AbstractInterruptMonitor class

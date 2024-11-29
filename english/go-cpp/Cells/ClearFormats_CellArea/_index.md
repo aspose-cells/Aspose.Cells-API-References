@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ClearFormats_CellArea method. Encapsulates the function that represents clearformats in Go.'
 type: docs
 weight: 200
-url: /go/cells/clearformats_cellarea/
+url: /go-cpp/cells/clearformats_cellarea/
 ---
 
 ## ClearFormats_CellArea function

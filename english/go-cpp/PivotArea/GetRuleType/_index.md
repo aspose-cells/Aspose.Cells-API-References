@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetRuleType method. Encapsulates the function that represents getruletype in Go.'
 type: docs
 weight: 200
-url: /go/pivotarea/getruletype/
+url: /go-cpp/pivotarea/getruletype/
 ---
 
 ## GetRuleType function

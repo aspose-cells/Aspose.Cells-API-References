@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'FunctionEquationNode class. Encapsulates the object that represents functionequationnode in Go.'
 type: docs
 weight: 200
-url: /go/functionequationnode/
+url: /go-cpp/functionequationnode/
 ---
 
 ## FunctionEquationNode class

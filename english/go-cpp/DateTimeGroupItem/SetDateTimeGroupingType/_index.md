@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetDateTimeGroupingType method. Encapsulates the function that represents setdatetimegroupingtype in Go.'
 type: docs
 weight: 200
-url: /go/datetimegroupitem/setdatetimegroupingtype/
+url: /go-cpp/datetimegroupitem/setdatetimegroupingtype/
 ---
 
 ## SetDateTimeGroupingType function

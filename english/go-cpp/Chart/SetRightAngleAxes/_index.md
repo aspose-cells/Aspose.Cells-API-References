@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetRightAngleAxes method. Encapsulates the function that represents setrightangleaxes in Go.'
 type: docs
 weight: 200
-url: /go/chart/setrightangleaxes/
+url: /go-cpp/chart/setrightangleaxes/
 ---
 
 ## SetRightAngleAxes function

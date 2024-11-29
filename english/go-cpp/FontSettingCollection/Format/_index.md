@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Format method. Encapsulates the function that represents format in Go.'
 type: docs
 weight: 200
-url: /go/fontsettingcollection/format/
+url: /go-cpp/fontsettingcollection/format/
 ---
 
 ## Format function

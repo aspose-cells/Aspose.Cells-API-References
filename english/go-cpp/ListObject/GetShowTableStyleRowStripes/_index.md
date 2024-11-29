@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetShowTableStyleRowStripes method. Encapsulates the function that represents getshowtablestylerowstripes in Go.'
 type: docs
 weight: 200
-url: /go/listobject/getshowtablestylerowstripes/
+url: /go-cpp/listobject/getshowtablestylerowstripes/
 ---
 
 ## GetShowTableStyleRowStripes function

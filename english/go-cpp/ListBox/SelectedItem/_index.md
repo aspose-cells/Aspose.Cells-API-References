@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SelectedItem method. Encapsulates the function that represents selecteditem in Go.'
 type: docs
 weight: 200
-url: /go/listbox/selecteditem/
+url: /go-cpp/listbox/selecteditem/
 ---
 
 ## SelectedItem function

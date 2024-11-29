@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetExportAsString method. Encapsulates the function that represents setexportasstring in Go.'
 type: docs
 weight: 200
-url: /go/jsonsaveoptions/setexportasstring/
+url: /go-cpp/jsonsaveoptions/setexportasstring/
 ---
 
 ## SetExportAsString function

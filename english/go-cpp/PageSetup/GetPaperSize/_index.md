@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetPaperSize method. Encapsulates the function that represents getpapersize in Go.'
 type: docs
 weight: 200
-url: /go/pagesetup/getpapersize/
+url: /go-cpp/pagesetup/getpapersize/
 ---
 
 ## GetPaperSize function

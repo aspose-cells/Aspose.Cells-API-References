@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'OleObject constructor. Encapsulates the function that represents newoleobject in Go.'
 type: docs
 weight: 200
-url: /go/oleobject/newoleobject/
+url: /go-cpp/oleobject/newoleobject/
 ---
 
 ## NewOleObject function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'MemoryFontSource class. Encapsulates the object that represents memoryfontsource in Go.'
 type: docs
 weight: 200
-url: /go/memoryfontsource/
+url: /go-cpp/memoryfontsource/
 ---
 
 ## MemoryFontSource class

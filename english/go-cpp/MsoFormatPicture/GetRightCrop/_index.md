@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetRightCrop method. Encapsulates the function that represents getrightcrop in Go.'
 type: docs
 weight: 200
-url: /go/msoformatpicture/getrightcrop/
+url: /go-cpp/msoformatpicture/getrightcrop/
 ---
 
 ## GetRightCrop function

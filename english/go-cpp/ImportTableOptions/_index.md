@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ImportTableOptions class. Encapsulates the object that represents importtableoptions in Go.'
 type: docs
 weight: 200
-url: /go/importtableoptions/
+url: /go-cpp/importtableoptions/
 ---
 
 ## ImportTableOptions class

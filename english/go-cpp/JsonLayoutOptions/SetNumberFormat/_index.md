@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetNumberFormat method. Encapsulates the function that represents setnumberformat in Go.'
 type: docs
 weight: 200
-url: /go/jsonlayoutoptions/setnumberformat/
+url: /go-cpp/jsonlayoutoptions/setnumberformat/
 ---
 
 ## SetNumberFormat function

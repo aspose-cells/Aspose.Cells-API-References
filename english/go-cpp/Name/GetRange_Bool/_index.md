@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetRange_Bool method. Encapsulates the function that represents getrange in Go.'
 type: docs
 weight: 200
-url: /go/name/getrange_bool/
+url: /go-cpp/name/getrange_bool/
 ---
 
 ## GetRange_Bool function

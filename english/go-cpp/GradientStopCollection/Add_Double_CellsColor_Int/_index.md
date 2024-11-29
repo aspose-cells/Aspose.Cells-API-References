@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Add_Double_CellsColor_Int method. Encapsulates the function that represents add in Go.'
 type: docs
 weight: 200
-url: /go/gradientstopcollection/add_double_cellscolor_int/
+url: /go-cpp/gradientstopcollection/add_double_cellscolor_int/
 ---
 
 ## Add_Double_CellsColor_Int function

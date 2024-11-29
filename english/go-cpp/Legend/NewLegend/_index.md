@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Legend constructor. Encapsulates the function that represents newlegend in Go.'
 type: docs
 weight: 200
-url: /go/legend/newlegend/
+url: /go-cpp/legend/newlegend/
 ---
 
 ## NewLegend function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetPreserveFormatting method. Encapsulates the function that represents getpreserveformatting in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/getpreserveformatting/
+url: /go-cpp/pivottable/getpreserveformatting/
 ---
 
 ## GetPreserveFormatting function

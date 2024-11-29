@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'UnMerge method. Encapsulates the function that represents unmerge in Go.'
 type: docs
 weight: 200
-url: /go/unionrange/unmerge/
+url: /go-cpp/unionrange/unmerge/
 ---
 
 ## UnMerge function

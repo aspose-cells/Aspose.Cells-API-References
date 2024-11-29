@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetTopBevelWidth method. Encapsulates the function that represents settopbevelwidth in Go.'
 type: docs
 weight: 200
-url: /go/threedformat/settopbevelwidth/
+url: /go-cpp/threedformat/settopbevelwidth/
 ---
 
 ## SetTopBevelWidth function

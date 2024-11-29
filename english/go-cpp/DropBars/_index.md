@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'DropBars class. Encapsulates the object that represents dropbars in Go.'
 type: docs
 weight: 200
-url: /go/dropbars/
+url: /go-cpp/dropbars/
 ---
 
 ## DropBars class

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetBorderWidthPx method. Encapsulates the function that represents getborderwidthpx in Go.'
 type: docs
 weight: 200
-url: /go/chartpoint/getborderwidthpx/
+url: /go-cpp/chartpoint/getborderwidthpx/
 ---
 
 ## GetBorderWidthPx function

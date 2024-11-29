@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Scenario class. Encapsulates the object that represents scenario in Go.'
 type: docs
 weight: 200
-url: /go/scenario/
+url: /go-cpp/scenario/
 ---
 
 ## Scenario class

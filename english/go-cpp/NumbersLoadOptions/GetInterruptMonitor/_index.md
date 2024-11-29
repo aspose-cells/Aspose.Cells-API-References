@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetInterruptMonitor method. Encapsulates the function that represents getinterruptmonitor in Go.'
 type: docs
 weight: 200
-url: /go/numbersloadoptions/getinterruptmonitor/
+url: /go-cpp/numbersloadoptions/getinterruptmonitor/
 ---
 
 ## GetInterruptMonitor function

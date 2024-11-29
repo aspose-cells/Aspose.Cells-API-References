@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'RemoveArea_Int_Int_Int_Int method. Encapsulates the function that represents removearea in Go.'
 type: docs
 weight: 200
-url: /go/formatconditioncollection/removearea_int_int_int_int/
+url: /go-cpp/formatconditioncollection/removearea_int_int_int_int/
 ---
 
 ## RemoveArea_Int_Int_Int_Int function

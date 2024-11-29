@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetOverLay method. Encapsulates the function that represents setoverlay in Go.'
 type: docs
 weight: 200
-url: /go/title/setoverlay/
+url: /go-cpp/title/setoverlay/
 ---
 
 ## SetOverLay function

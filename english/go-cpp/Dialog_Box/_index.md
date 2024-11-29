@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Dialog_Box class. Encapsulates the object that represents dialog_box in Go.'
 type: docs
 weight: 200
-url: /go/dialog_box/
+url: /go-cpp/dialog_box/
 ---
 
 ## Dialog_Box class

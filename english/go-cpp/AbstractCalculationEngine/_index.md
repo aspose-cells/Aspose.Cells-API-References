@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'AbstractCalculationEngine class. Encapsulates the object that represents abstractcalculationengine in Go.'
 type: docs
 weight: 200
-url: /go/abstractcalculationengine/
+url: /go-cpp/abstractcalculationengine/
 ---
 
 ## AbstractCalculationEngine class

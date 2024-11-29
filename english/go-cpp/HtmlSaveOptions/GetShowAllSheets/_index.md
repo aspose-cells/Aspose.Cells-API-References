@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetShowAllSheets method. Encapsulates the function that represents getshowallsheets in Go.'
 type: docs
 weight: 200
-url: /go/htmlsaveoptions/getshowallsheets/
+url: /go-cpp/htmlsaveoptions/getshowallsheets/
 ---
 
 ## GetShowAllSheets function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'DelimiterEquationNode_CreateNode method. Encapsulates the function that represents createnode in Go.'
 type: docs
 weight: 200
-url: /go/delimiterequationnode/delimiterequationnode_createnode/
+url: /go-cpp/delimiterequationnode/delimiterequationnode_createnode/
 ---
 
 ## DelimiterEquationNode_CreateNode function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'OdsLoadOptions constructor. Encapsulates the function that represents newodsloadoptions in Go.'
 type: docs
 weight: 200
-url: /go/odsloadoptions/newodsloadoptions/
+url: /go-cpp/odsloadoptions/newodsloadoptions/
 ---
 
 ## NewOdsLoadOptions function

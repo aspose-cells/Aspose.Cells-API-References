@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetSplitValue method. Encapsulates the function that represents getsplitvalue in Go.'
 type: docs
 weight: 200
-url: /go/series/getsplitvalue/
+url: /go-cpp/series/getsplitvalue/
 ---
 
 ## GetSplitValue function

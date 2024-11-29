@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetWidthPt method. Encapsulates the function that represents setwidthpt in Go.'
 type: docs
 weight: 200
-url: /go/commentshape/setwidthpt/
+url: /go-cpp/commentshape/setwidthpt/
 ---
 
 ## SetWidthPt function

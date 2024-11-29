@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetTextVerticalType method. Encapsulates the function that represents settextverticaltype in Go.'
 type: docs
 weight: 200
-url: /go/shapetextalignment/settextverticaltype/
+url: /go-cpp/shapetextalignment/settextverticaltype/
 ---
 
 ## SetTextVerticalType function

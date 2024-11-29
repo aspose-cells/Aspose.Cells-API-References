@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetRefersTo_String method. Encapsulates the function that represents setrefersto in Go.'
 type: docs
 weight: 200
-url: /go/name/setrefersto_string/
+url: /go-cpp/name/setrefersto_string/
 ---
 
 ## SetRefersTo_String function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetWindowHeight method. Encapsulates the function that represents setwindowheight in Go.'
 type: docs
 weight: 200
-url: /go/workbooksettings/setwindowheight/
+url: /go-cpp/workbooksettings/setwindowheight/
 ---
 
 ## SetWindowHeight function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'InsertBefore method. Encapsulates the function that represents insertbefore in Go.'
 type: docs
 weight: 200
-url: /go/naryequationnode/insertbefore/
+url: /go-cpp/naryequationnode/insertbefore/
 ---
 
 ## InsertBefore function

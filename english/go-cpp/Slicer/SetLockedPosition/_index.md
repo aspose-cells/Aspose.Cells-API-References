@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetLockedPosition method. Encapsulates the function that represents setlockedposition in Go.'
 type: docs
 weight: 200
-url: /go/slicer/setlockedposition/
+url: /go-cpp/slicer/setlockedposition/
 ---
 
 ## SetLockedPosition function

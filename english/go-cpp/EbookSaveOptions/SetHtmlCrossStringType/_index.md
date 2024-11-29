@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetHtmlCrossStringType method. Encapsulates the function that represents sethtmlcrossstringtype in Go.'
 type: docs
 weight: 200
-url: /go/ebooksaveoptions/sethtmlcrossstringtype/
+url: /go-cpp/ebooksaveoptions/sethtmlcrossstringtype/
 ---
 
 ## SetHtmlCrossStringType function

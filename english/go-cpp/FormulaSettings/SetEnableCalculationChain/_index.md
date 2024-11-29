@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetEnableCalculationChain method. Encapsulates the function that represents setenablecalculationchain in Go.'
 type: docs
 weight: 200
-url: /go/formulasettings/setenablecalculationchain/
+url: /go-cpp/formulasettings/setenablecalculationchain/
 ---
 
 ## SetEnableCalculationChain function

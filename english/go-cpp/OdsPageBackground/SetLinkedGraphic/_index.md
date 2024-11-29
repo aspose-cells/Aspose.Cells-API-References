@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetLinkedGraphic method. Encapsulates the function that represents setlinkedgraphic in Go.'
 type: docs
 weight: 200
-url: /go/odspagebackground/setlinkedgraphic/
+url: /go-cpp/odspagebackground/setlinkedgraphic/
 ---
 
 ## SetLinkedGraphic function

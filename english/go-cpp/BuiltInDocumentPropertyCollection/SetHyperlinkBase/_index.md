@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetHyperlinkBase method. Encapsulates the function that represents sethyperlinkbase in Go.'
 type: docs
 weight: 200
-url: /go/builtindocumentpropertycollection/sethyperlinkbase/
+url: /go-cpp/builtindocumentpropertycollection/sethyperlinkbase/
 ---
 
 ## SetHyperlinkBase function

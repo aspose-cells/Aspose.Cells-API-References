@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetSubtotals method. Encapsulates the function that represents setsubtotals in Go.'
 type: docs
 weight: 200
-url: /go/pivotfield/setsubtotals/
+url: /go-cpp/pivotfield/setsubtotals/
 ---
 
 ## SetSubtotals function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetFormatPicture method. Encapsulates the function that represents getformatpicture in Go.'
 type: docs
 weight: 200
-url: /go/dialog_box/getformatpicture/
+url: /go-cpp/dialog_box/getformatpicture/
 ---
 
 ## GetFormatPicture function

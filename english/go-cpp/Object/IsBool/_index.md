@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsBool method. Encapsulates the function that represents isbool in Go.'
 type: docs
 weight: 200
-url: /go/object/isbool/
+url: /go-cpp/object/isbool/
 ---
 
 ## IsBool function

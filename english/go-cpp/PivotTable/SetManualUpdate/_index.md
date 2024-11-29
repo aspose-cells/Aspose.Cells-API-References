@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetManualUpdate method. Encapsulates the function that represents setmanualupdate in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/setmanualupdate/
+url: /go-cpp/pivottable/setmanualupdate/
 ---
 
 ## SetManualUpdate function

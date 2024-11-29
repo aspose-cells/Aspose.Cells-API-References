@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Add_HtmlTableLoadOption method. Encapsulates the function that represents add in Go.'
 type: docs
 weight: 200
-url: /go/htmltableloadoptioncollection/add_htmltableloadoption/
+url: /go-cpp/htmltableloadoptioncollection/add_htmltableloadoption/
 ---
 
 ## Add_HtmlTableLoadOption function

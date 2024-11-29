@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GroupCharacterEquationNode class. Encapsulates the object that represents groupcharacterequationnode in Go.'
 type: docs
 weight: 200
-url: /go/groupcharacterequationnode/
+url: /go-cpp/groupcharacterequationnode/
 ---
 
 ## GroupCharacterEquationNode class

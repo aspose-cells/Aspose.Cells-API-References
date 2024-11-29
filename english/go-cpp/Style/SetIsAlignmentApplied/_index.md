@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsAlignmentApplied method. Encapsulates the function that represents setisalignmentapplied in Go.'
 type: docs
 weight: 200
-url: /go/style/setisalignmentapplied/
+url: /go-cpp/style/setisalignmentapplied/
 ---
 
 ## SetIsAlignmentApplied function

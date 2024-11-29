@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetPivotFilters method. Encapsulates the function that represents getpivotfilters in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/getpivotfilters/
+url: /go-cpp/pivottable/getpivotfilters/
 ---
 
 ## GetPivotFilters function

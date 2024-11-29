@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTables method. Encapsulates the function that represents gettables in Go.'
 type: docs
 weight: 200
-url: /go/datamodel/gettables/
+url: /go-cpp/datamodel/gettables/
 ---
 
 ## GetTables function

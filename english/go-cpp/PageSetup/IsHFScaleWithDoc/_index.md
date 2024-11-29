@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsHFScaleWithDoc method. Encapsulates the function that represents ishfscalewithdoc in Go.'
 type: docs
 weight: 200
-url: /go/pagesetup/ishfscalewithdoc/
+url: /go-cpp/pagesetup/ishfscalewithdoc/
 ---
 
 ## IsHFScaleWithDoc function

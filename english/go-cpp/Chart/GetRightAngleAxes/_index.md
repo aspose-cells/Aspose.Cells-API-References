@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetRightAngleAxes method. Encapsulates the function that represents getrightangleaxes in Go.'
 type: docs
 weight: 200
-url: /go/chart/getrightangleaxes/
+url: /go-cpp/chart/getrightangleaxes/
 ---
 
 ## GetRightAngleAxes function

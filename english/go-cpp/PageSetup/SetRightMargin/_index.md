@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetRightMargin method. Encapsulates the function that represents setrightmargin in Go.'
 type: docs
 weight: 200
-url: /go/pagesetup/setrightmargin/
+url: /go-cpp/pagesetup/setrightmargin/
 ---
 
 ## SetRightMargin function

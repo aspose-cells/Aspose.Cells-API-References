@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ReferredAreaCollection class. Encapsulates the object that represents referredareacollection in Go.'
 type: docs
 weight: 200
-url: /go/referredareacollection/
+url: /go-cpp/referredareacollection/
 ---
 
 ## ReferredAreaCollection class

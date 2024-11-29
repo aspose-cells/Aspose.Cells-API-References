@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTextQualifier method. Encapsulates the function that represents gettextqualifier in Go.'
 type: docs
 weight: 200
-url: /go/txtloadoptions/gettextqualifier/
+url: /go-cpp/txtloadoptions/gettextqualifier/
 ---
 
 ## GetTextQualifier function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ParseFormulas method. Encapsulates the function that represents parseformulas in Go.'
 type: docs
 weight: 200
-url: /go/workbook/parseformulas/
+url: /go-cpp/workbook/parseformulas/
 ---
 
 ## ParseFormulas function

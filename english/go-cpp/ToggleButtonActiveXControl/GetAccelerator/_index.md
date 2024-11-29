@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetAccelerator method. Encapsulates the function that represents getaccelerator in Go.'
 type: docs
 weight: 200
-url: /go/togglebuttonactivexcontrol/getaccelerator/
+url: /go-cpp/togglebuttonactivexcontrol/getaccelerator/
 ---
 
 ## GetAccelerator function

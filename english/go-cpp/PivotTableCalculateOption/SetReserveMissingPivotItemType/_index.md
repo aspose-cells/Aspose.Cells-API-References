@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetReserveMissingPivotItemType method. Encapsulates the function that represents setreservemissingpivotitemtype in Go.'
 type: docs
 weight: 200
-url: /go/pivottablecalculateoption/setreservemissingpivotitemtype/
+url: /go-cpp/pivottablecalculateoption/setreservemissingpivotitemtype/
 ---
 
 ## SetReserveMissingPivotItemType function

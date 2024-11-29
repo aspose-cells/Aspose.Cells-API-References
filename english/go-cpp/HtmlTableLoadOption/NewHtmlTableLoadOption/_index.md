@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'HtmlTableLoadOption constructor. Encapsulates the function that represents newhtmltableloadoption in Go.'
 type: docs
 weight: 200
-url: /go/htmltableloadoption/newhtmltableloadoption/
+url: /go-cpp/htmltableloadoption/newhtmltableloadoption/
 ---
 
 ## NewHtmlTableLoadOption function

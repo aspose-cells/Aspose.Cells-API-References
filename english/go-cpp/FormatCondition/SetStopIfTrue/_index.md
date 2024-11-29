@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetStopIfTrue method. Encapsulates the function that represents setstopiftrue in Go.'
 type: docs
 weight: 200
-url: /go/formatcondition/setstopiftrue/
+url: /go-cpp/formatcondition/setstopiftrue/
 ---
 
 ## SetStopIfTrue function

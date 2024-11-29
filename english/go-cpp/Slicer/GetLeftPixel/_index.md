@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetLeftPixel method. Encapsulates the function that represents getleftpixel in Go.'
 type: docs
 weight: 200
-url: /go/slicer/getleftpixel/
+url: /go-cpp/slicer/getleftpixel/
 ---
 
 ## GetLeftPixel function

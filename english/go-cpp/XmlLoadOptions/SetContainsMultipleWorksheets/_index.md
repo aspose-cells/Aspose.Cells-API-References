@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetContainsMultipleWorksheets method. Encapsulates the function that represents setcontainsmultipleworksheets in Go.'
 type: docs
 weight: 200
-url: /go/xmlloadoptions/setcontainsmultipleworksheets/
+url: /go-cpp/xmlloadoptions/setcontainsmultipleworksheets/
 ---
 
 ## SetContainsMultipleWorksheets function

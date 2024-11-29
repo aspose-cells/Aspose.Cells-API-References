@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetODSPageBackground method. Encapsulates the function that represents getodspagebackground in Go.'
 type: docs
 weight: 200
-url: /go/pagesetup/getodspagebackground/
+url: /go-cpp/pagesetup/getodspagebackground/
 ---
 
 ## GetODSPageBackground function

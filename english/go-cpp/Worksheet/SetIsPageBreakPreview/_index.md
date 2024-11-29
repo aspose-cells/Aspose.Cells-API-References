@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsPageBreakPreview method. Encapsulates the function that represents setispagebreakpreview in Go.'
 type: docs
 weight: 200
-url: /go/worksheet/setispagebreakpreview/
+url: /go-cpp/worksheet/setispagebreakpreview/
 ---
 
 ## SetIsPageBreakPreview function

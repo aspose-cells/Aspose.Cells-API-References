@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'CellWatchCollection constructor. Encapsulates the function that represents newcellwatchcollection in Go.'
 type: docs
 weight: 200
-url: /go/cellwatchcollection/newcellwatchcollection/
+url: /go-cpp/cellwatchcollection/newcellwatchcollection/
 ---
 
 ## NewCellWatchCollection function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetSummaryRowBelow method. Encapsulates the function that represents getsummaryrowbelow in Go.'
 type: docs
 weight: 200
-url: /go/outline/getsummaryrowbelow/
+url: /go-cpp/outline/getsummaryrowbelow/
 ---
 
 ## GetSummaryRowBelow function

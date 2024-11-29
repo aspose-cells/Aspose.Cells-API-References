@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsExpImageToTempDir method. Encapsulates the function that represents isexpimagetotempdir in Go.'
 type: docs
 weight: 200
-url: /go/htmlsaveoptions/isexpimagetotempdir/
+url: /go-cpp/htmlsaveoptions/isexpimagetotempdir/
 ---
 
 ## IsExpImageToTempDir function

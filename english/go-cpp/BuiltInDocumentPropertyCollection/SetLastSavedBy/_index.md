@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetLastSavedBy method. Encapsulates the function that represents setlastsavedby in Go.'
 type: docs
 weight: 200
-url: /go/builtindocumentpropertycollection/setlastsavedby/
+url: /go-cpp/builtindocumentpropertycollection/setlastsavedby/
 ---
 
 ## SetLastSavedBy function

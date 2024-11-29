@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetLockedProperty method. Encapsulates the function that represents setlockedproperty in Go.'
 type: docs
 weight: 200
-url: /go/listbox/setlockedproperty/
+url: /go-cpp/listbox/setlockedproperty/
 ---
 
 ## SetLockedProperty function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetCriteria method. Encapsulates the function that represents getcriteria in Go.'
 type: docs
 weight: 200
-url: /go/customfilter/getcriteria/
+url: /go-cpp/customfilter/getcriteria/
 ---
 
 ## GetCriteria function

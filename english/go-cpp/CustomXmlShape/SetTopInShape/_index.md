@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetTopInShape method. Encapsulates the function that represents settopinshape in Go.'
 type: docs
 weight: 200
-url: /go/customxmlshape/settopinshape/
+url: /go-cpp/customxmlshape/settopinshape/
 ---
 
 ## SetTopInShape function

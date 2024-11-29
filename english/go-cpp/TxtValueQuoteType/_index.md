@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'TxtValueQuoteType enum. Encapsulates the object that represents txtvaluequotetype in Go.'
 type: docs
 weight: 200
-url: /go/txtvaluequotetype/
+url: /go-cpp/txtvaluequotetype/
 ---
 
 ## TxtValueQuoteType Enum

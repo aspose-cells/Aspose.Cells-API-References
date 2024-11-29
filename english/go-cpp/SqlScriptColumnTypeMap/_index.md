@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SqlScriptColumnTypeMap class. Encapsulates the object that represents sqlscriptcolumntypemap in Go.'
 type: docs
 weight: 200
-url: /go/sqlscriptcolumntypemap/
+url: /go-cpp/sqlscriptcolumntypemap/
 ---
 
 ## SqlScriptColumnTypeMap class

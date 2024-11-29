@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetTotalsRowLabel method. Encapsulates the function that represents settotalsrowlabel in Go.'
 type: docs
 weight: 200
-url: /go/listcolumn/settotalsrowlabel/
+url: /go-cpp/listcolumn/settotalsrowlabel/
 ---
 
 ## SetTotalsRowLabel function

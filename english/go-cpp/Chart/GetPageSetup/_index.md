@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetPageSetup method. Encapsulates the function that represents getpagesetup in Go.'
 type: docs
 weight: 200
-url: /go/chart/getpagesetup/
+url: /go-cpp/chart/getpagesetup/
 ---
 
 ## GetPageSetup function

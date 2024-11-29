@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'WebExtensionStoreType enum. Encapsulates the object that represents webextensionstoretype in Go.'
 type: docs
 weight: 200
-url: /go/webextensionstoretype/
+url: /go-cpp/webextensionstoretype/
 ---
 
 ## WebExtensionStoreType Enum

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetName method. Encapsulates the function that represents setname in Go.'
 type: docs
 weight: 200
-url: /go/powerqueryformulaparameter/setname/
+url: /go-cpp/powerqueryformulaparameter/setname/
 ---
 
 ## SetName function

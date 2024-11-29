@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetCustomUnit method. Encapsulates the function that represents getcustomunit in Go.'
 type: docs
 weight: 200
-url: /go/axis/getcustomunit/
+url: /go-cpp/axis/getcustomunit/
 ---
 
 ## GetCustomUnit function

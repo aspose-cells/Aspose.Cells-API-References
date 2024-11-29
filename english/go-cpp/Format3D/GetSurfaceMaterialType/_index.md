@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetSurfaceMaterialType method. Encapsulates the function that represents getsurfacematerialtype in Go.'
 type: docs
 weight: 200
-url: /go/format3d/getsurfacematerialtype/
+url: /go-cpp/format3d/getsurfacematerialtype/
 ---
 
 ## GetSurfaceMaterialType function

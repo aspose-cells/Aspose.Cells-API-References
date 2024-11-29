@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetResultRange method. Encapsulates the function that represents getresultrange in Go.'
 type: docs
 weight: 200
-url: /go/querytable/getresultrange/
+url: /go-cpp/querytable/getresultrange/
 ---
 
 ## GetResultRange function

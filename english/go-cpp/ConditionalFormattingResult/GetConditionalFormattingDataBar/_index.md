@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetConditionalFormattingDataBar method. Encapsulates the function that represents getconditionalformattingdatabar in Go.'
 type: docs
 weight: 200
-url: /go/conditionalformattingresult/getconditionalformattingdatabar/
+url: /go-cpp/conditionalformattingresult/getconditionalformattingdatabar/
 ---
 
 ## GetConditionalFormattingDataBar function

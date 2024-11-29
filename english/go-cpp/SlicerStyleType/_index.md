@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SlicerStyleType enum. Encapsulates the object that represents slicerstyletype in Go.'
 type: docs
 weight: 200
-url: /go/slicerstyletype/
+url: /go-cpp/slicerstyletype/
 ---
 
 ## SlicerStyleType Enum

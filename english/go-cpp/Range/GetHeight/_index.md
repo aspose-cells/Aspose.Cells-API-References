@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetHeight method. Encapsulates the function that represents getheight in Go.'
 type: docs
 weight: 200
-url: /go/range/getheight/
+url: /go-cpp/range/getheight/
 ---
 
 ## GetHeight function

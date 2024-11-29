@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetLowerDeltaX method. Encapsulates the function that represents getlowerdeltax in Go.'
 type: docs
 weight: 200
-url: /go/oleobject/getlowerdeltax/
+url: /go-cpp/oleobject/getlowerdeltax/
 ---
 
 ## GetLowerDeltaX function

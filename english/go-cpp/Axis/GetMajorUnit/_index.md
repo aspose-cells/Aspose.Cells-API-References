@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetMajorUnit method. Encapsulates the function that represents getmajorunit in Go.'
 type: docs
 weight: 200
-url: /go/axis/getmajorunit/
+url: /go-cpp/axis/getmajorunit/
 ---
 
 ## GetMajorUnit function

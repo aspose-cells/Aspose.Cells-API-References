@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetReconnectionMethodType method. Encapsulates the function that represents getreconnectionmethodtype in Go.'
 type: docs
 weight: 200
-url: /go/datamodelconnection/getreconnectionmethodtype/
+url: /go-cpp/datamodelconnection/getreconnectionmethodtype/
 ---
 
 ## GetReconnectionMethodType function

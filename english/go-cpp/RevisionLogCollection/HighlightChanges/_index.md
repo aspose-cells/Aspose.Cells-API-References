@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'HighlightChanges method. Encapsulates the function that represents highlightchanges in Go.'
 type: docs
 weight: 200
-url: /go/revisionlogcollection/highlightchanges/
+url: /go-cpp/revisionlogcollection/highlightchanges/
 ---
 
 ## HighlightChanges function

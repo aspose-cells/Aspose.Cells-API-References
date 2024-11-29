@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetLocaleDependent method. Encapsulates the function that represents getlocaledependent in Go.'
 type: docs
 weight: 200
-url: /go/formulaparseoptions/getlocaledependent/
+url: /go-cpp/formulaparseoptions/getlocaledependent/
 ---
 
 ## GetLocaleDependent function

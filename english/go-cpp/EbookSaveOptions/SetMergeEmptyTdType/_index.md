@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetMergeEmptyTdType method. Encapsulates the function that represents setmergeemptytdtype in Go.'
 type: docs
 weight: 200
-url: /go/ebooksaveoptions/setmergeemptytdtype/
+url: /go-cpp/ebooksaveoptions/setmergeemptytdtype/
 ---
 
 ## SetMergeEmptyTdType function

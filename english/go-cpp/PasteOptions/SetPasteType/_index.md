@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetPasteType method. Encapsulates the function that represents setpastetype in Go.'
 type: docs
 weight: 200
-url: /go/pasteoptions/setpastetype/
+url: /go-cpp/pasteoptions/setpastetype/
 ---
 
 ## SetPasteType function

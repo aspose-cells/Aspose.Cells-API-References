@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetAlignments method. Encapsulates the function that represents getalignments in Go.'
 type: docs
 weight: 200
-url: /go/styleflag/getalignments/
+url: /go-cpp/styleflag/getalignments/
 ---
 
 ## GetAlignments function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Replace_Int_Int_String method. Encapsulates the function that represents replace in Go.'
 type: docs
 weight: 200
-url: /go/fontsettingcollection/replace_int_int_string/
+url: /go-cpp/fontsettingcollection/replace_int_int_string/
 ---
 
 ## Replace_Int_Int_String function

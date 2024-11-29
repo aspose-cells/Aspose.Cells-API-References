@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'DataModel class. Encapsulates the object that represents datamodel in Go.'
 type: docs
 weight: 200
-url: /go/datamodel/
+url: /go-cpp/datamodel/
 ---
 
 ## DataModel class

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetCaption method. Encapsulates the function that represents setcaption in Go.'
 type: docs
 weight: 200
-url: /go/checkboxactivexcontrol/setcaption/
+url: /go-cpp/checkboxactivexcontrol/setcaption/
 ---
 
 ## SetCaption function

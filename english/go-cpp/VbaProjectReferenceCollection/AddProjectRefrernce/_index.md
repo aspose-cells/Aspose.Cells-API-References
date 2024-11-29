@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'AddProjectRefrernce method. Encapsulates the function that represents addprojectrefrernce in Go.'
 type: docs
 weight: 200
-url: /go/vbaprojectreferencecollection/addprojectrefrernce/
+url: /go-cpp/vbaprojectreferencecollection/addprojectrefrernce/
 ---
 
 ## AddProjectRefrernce function

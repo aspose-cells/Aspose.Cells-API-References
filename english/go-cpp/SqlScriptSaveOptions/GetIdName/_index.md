@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetIdName method. Encapsulates the function that represents getidname in Go.'
 type: docs
 weight: 200
-url: /go/sqlscriptsaveoptions/getidname/
+url: /go-cpp/sqlscriptsaveoptions/getidname/
 ---
 
 ## GetIdName function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GradientStyleType enum. Encapsulates the object that represents gradientstyletype in Go.'
 type: docs
 weight: 200
-url: /go/gradientstyletype/
+url: /go-cpp/gradientstyletype/
 ---
 
 ## GradientStyleType Enum

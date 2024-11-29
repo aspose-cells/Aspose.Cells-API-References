@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetFormulaLocal method. Encapsulates the function that represents getformulalocal in Go.'
 type: docs
 weight: 200
-url: /go/cell/getformulalocal/
+url: /go-cpp/cell/getformulalocal/
 ---
 
 ## GetFormulaLocal function

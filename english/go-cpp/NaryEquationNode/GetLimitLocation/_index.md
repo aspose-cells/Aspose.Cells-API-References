@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetLimitLocation method. Encapsulates the function that represents getlimitlocation in Go.'
 type: docs
 weight: 200
-url: /go/naryequationnode/getlimitlocation/
+url: /go-cpp/naryequationnode/getlimitlocation/
 ---
 
 ## GetLimitLocation function

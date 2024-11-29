@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetChartObject method. Encapsulates the function that represents getchartobject in Go.'
 type: docs
 weight: 200
-url: /go/chart/getchartobject/
+url: /go-cpp/chart/getchartobject/
 ---
 
 ## GetChartObject function

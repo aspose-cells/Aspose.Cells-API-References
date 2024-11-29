@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetMaxIteration method. Encapsulates the function that represents setmaxiteration in Go.'
 type: docs
 weight: 200
-url: /go/formulasettings/setmaxiteration/
+url: /go-cpp/formulasettings/setmaxiteration/
 ---
 
 ## SetMaxIteration function

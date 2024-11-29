@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'FileFormatUtil_LoadFormatToExtension method. Encapsulates the function that represents loadformattoextension in Go.'
 type: docs
 weight: 200
-url: /go/fileformatutil/fileformatutil_loadformattoextension/
+url: /go-cpp/fileformatutil/fileformatutil_loadformattoextension/
 ---
 
 ## FileFormatUtil_LoadFormatToExtension function

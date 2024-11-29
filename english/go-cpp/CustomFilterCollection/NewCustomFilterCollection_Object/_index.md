@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'CustomFilterCollection constructor. Encapsulates the function that represents newcustomfiltercollection_object in Go.'
 type: docs
 weight: 200
-url: /go/customfiltercollection/newcustomfiltercollection_object/
+url: /go-cpp/customfiltercollection/newcustomfiltercollection_object/
 ---
 
 ## NewCustomFilterCollection_Object function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetExportCellName method. Encapsulates the function that represents getexportcellname in Go.'
 type: docs
 weight: 200
-url: /go/ooxmlsaveoptions/getexportcellname/
+url: /go-cpp/ooxmlsaveoptions/getexportcellname/
 ---
 
 ## GetExportCellName function

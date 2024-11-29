@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetMinusValue method. Encapsulates the function that represents setminusvalue in Go.'
 type: docs
 weight: 200
-url: /go/errorbar/setminusvalue/
+url: /go-cpp/errorbar/setminusvalue/
 ---
 
 ## SetMinusValue function

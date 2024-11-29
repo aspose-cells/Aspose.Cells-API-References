@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsNumber method. Encapsulates the function that represents isnumber in Go.'
 type: docs
 weight: 200
-url: /go/object/isnumber/
+url: /go-cpp/object/isnumber/
 ---
 
 ## IsNumber function

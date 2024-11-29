@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'CopyColumns_Cells_Int_Int_Int method. Encapsulates the function that represents copycolumns in Go.'
 type: docs
 weight: 200
-url: /go/cells/copycolumns_cells_int_int_int/
+url: /go-cpp/cells/copycolumns_cells_int_int_int/
 ---
 
 ## CopyColumns_Cells_Int_Int_Int function

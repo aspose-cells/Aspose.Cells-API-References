@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetMergeAreas method. Encapsulates the function that represents getmergeareas in Go.'
 type: docs
 weight: 200
-url: /go/spreadsheetml2003saveoptions/getmergeareas/
+url: /go-cpp/spreadsheetml2003saveoptions/getmergeareas/
 ---
 
 ## GetMergeAreas function

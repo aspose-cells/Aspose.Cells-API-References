@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetSavePassword method. Encapsulates the function that represents getsavepassword in Go.'
 type: docs
 weight: 200
-url: /go/dbconnection/getsavepassword/
+url: /go-cpp/dbconnection/getsavepassword/
 ---
 
 ## GetSavePassword function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetNumberFormatLinked method. Encapsulates the function that represents setnumberformatlinked in Go.'
 type: docs
 weight: 200
-url: /go/datalabels/setnumberformatlinked/
+url: /go-cpp/datalabels/setnumberformatlinked/
 ---
 
 ## SetNumberFormatLinked function

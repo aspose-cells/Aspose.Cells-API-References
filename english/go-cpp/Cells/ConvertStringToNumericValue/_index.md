@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ConvertStringToNumericValue method. Encapsulates the function that represents convertstringtonumericvalue in Go.'
 type: docs
 weight: 200
-url: /go/cells/convertstringtonumericvalue/
+url: /go-cpp/cells/convertstringtonumericvalue/
 ---
 
 ## ConvertStringToNumericValue function

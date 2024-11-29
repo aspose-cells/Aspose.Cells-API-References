@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetOnePagePerSheet method. Encapsulates the function that represents getonepagepersheet in Go.'
 type: docs
 weight: 200
-url: /go/docxsaveoptions/getonepagepersheet/
+url: /go-cpp/docxsaveoptions/getonepagepersheet/
 ---
 
 ## GetOnePagePerSheet function

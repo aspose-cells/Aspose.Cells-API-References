@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetFirstPageHeader method. Encapsulates the function that represents setfirstpageheader in Go.'
 type: docs
 weight: 200
-url: /go/pagesetup/setfirstpageheader/
+url: /go-cpp/pagesetup/setfirstpageheader/
 ---
 
 ## SetFirstPageHeader function

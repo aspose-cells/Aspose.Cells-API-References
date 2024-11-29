@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetAutofitColumnWidthOnUpdate method. Encapsulates the function that represents getautofitcolumnwidthonupdate in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/getautofitcolumnwidthonupdate/
+url: /go-cpp/pivottable/getautofitcolumnwidthonupdate/
 ---
 
 ## GetAutofitColumnWidthOnUpdate function

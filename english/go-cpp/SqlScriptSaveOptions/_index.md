@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SqlScriptSaveOptions class. Encapsulates the object that represents sqlscriptsaveoptions in Go.'
 type: docs
 weight: 200
-url: /go/sqlscriptsaveoptions/
+url: /go-cpp/sqlscriptsaveoptions/
 ---
 
 ## SqlScriptSaveOptions class

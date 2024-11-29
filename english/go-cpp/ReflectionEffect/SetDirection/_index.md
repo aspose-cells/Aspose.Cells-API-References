@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetDirection method. Encapsulates the function that represents setdirection in Go.'
 type: docs
 weight: 200
-url: /go/reflectioneffect/setdirection/
+url: /go-cpp/reflectioneffect/setdirection/
 ---
 
 ## SetDirection function

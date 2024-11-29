@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetSecurityOptions method. Encapsulates the function that represents setsecurityoptions in Go.'
 type: docs
 weight: 200
-url: /go/pdfsaveoptions/setsecurityoptions/
+url: /go-cpp/pdfsaveoptions/setsecurityoptions/
 ---
 
 ## SetSecurityOptions function

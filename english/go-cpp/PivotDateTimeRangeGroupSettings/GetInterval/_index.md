@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetInterval method. Encapsulates the function that represents getinterval in Go.'
 type: docs
 weight: 200
-url: /go/pivotdatetimerangegroupsettings/getinterval/
+url: /go-cpp/pivotdatetimerangegroupsettings/getinterval/
 ---
 
 ## GetInterval function

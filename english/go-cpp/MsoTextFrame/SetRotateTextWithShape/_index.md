@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetRotateTextWithShape method. Encapsulates the function that represents setrotatetextwithshape in Go.'
 type: docs
 weight: 200
-url: /go/msotextframe/setrotatetextwithshape/
+url: /go-cpp/msotextframe/setrotatetextwithshape/
 ---
 
 ## SetRotateTextWithShape function

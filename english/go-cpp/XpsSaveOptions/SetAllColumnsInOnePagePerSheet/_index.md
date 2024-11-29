@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetAllColumnsInOnePagePerSheet method. Encapsulates the function that represents setallcolumnsinonepagepersheet in Go.'
 type: docs
 weight: 200
-url: /go/xpssaveoptions/setallcolumnsinonepagepersheet/
+url: /go-cpp/xpssaveoptions/setallcolumnsinonepagepersheet/
 ---
 
 ## SetAllColumnsInOnePagePerSheet function

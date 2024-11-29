@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetFirstRow method. Encapsulates the function that represents getfirstrow in Go.'
 type: docs
 weight: 200
-url: /go/unionrange/getfirstrow/
+url: /go-cpp/unionrange/getfirstrow/
 ---
 
 ## GetFirstRow function

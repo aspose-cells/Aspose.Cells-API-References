@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Refresh method. Encapsulates the function that represents refresh in Go.'
 type: docs
 weight: 200
-url: /go/slicer/refresh/
+url: /go-cpp/slicer/refresh/
 ---
 
 ## Refresh function

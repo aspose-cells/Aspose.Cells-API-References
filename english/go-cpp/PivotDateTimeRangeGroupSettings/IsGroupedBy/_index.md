@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsGroupedBy method. Encapsulates the function that represents isgroupedby in Go.'
 type: docs
 weight: 200
-url: /go/pivotdatetimerangegroupsettings/isgroupedby/
+url: /go-cpp/pivotdatetimerangegroupsettings/isgroupedby/
 ---
 
 ## IsGroupedBy function

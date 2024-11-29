@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'BorderBoxEquationNode class. Encapsulates the object that represents borderboxequationnode in Go.'
 type: docs
 weight: 200
-url: /go/borderboxequationnode/
+url: /go-cpp/borderboxequationnode/
 ---
 
 ## BorderBoxEquationNode class

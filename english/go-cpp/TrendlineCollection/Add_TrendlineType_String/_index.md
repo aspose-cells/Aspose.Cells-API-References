@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Add_TrendlineType_String method. Encapsulates the function that represents add in Go.'
 type: docs
 weight: 200
-url: /go/trendlinecollection/add_trendlinetype_string/
+url: /go-cpp/trendlinecollection/add_trendlinetype_string/
 ---
 
 ## Add_TrendlineType_String function

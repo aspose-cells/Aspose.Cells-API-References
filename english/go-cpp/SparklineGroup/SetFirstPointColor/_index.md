@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetFirstPointColor method. Encapsulates the function that represents setfirstpointcolor in Go.'
 type: docs
 weight: 200
-url: /go/sparklinegroup/setfirstpointcolor/
+url: /go-cpp/sparklinegroup/setfirstpointcolor/
 ---
 
 ## SetFirstPointColor function

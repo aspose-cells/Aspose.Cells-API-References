@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'CellWatchCollection class. Encapsulates the object that represents cellwatchcollection in Go.'
 type: docs
 weight: 200
-url: /go/cellwatchcollection/
+url: /go-cpp/cellwatchcollection/
 ---
 
 ## CellWatchCollection class

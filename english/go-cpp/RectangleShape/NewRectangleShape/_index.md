@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'RectangleShape constructor. Encapsulates the function that represents newrectangleshape in Go.'
 type: docs
 weight: 200
-url: /go/rectangleshape/newrectangleshape/
+url: /go-cpp/rectangleshape/newrectangleshape/
 ---
 
 ## NewRectangleShape function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetWeight method. Encapsulates the function that represents getweight in Go.'
 type: docs
 weight: 200
-url: /go/errorbar/getweight/
+url: /go-cpp/errorbar/getweight/
 ---
 
 ## GetWeight function

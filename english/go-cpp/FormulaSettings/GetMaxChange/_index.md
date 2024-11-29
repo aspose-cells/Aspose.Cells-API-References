@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetMaxChange method. Encapsulates the function that represents getmaxchange in Go.'
 type: docs
 weight: 200
-url: /go/formulasettings/getmaxchange/
+url: /go-cpp/formulasettings/getmaxchange/
 ---
 
 ## GetMaxChange function

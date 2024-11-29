@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTargetSheetIndex method. Encapsulates the function that represents gettargetsheetindex in Go.'
 type: docs
 weight: 200
-url: /go/htmltableloadoption/gettargetsheetindex/
+url: /go-cpp/htmltableloadoption/gettargetsheetindex/
 ---
 
 ## GetTargetSheetIndex function

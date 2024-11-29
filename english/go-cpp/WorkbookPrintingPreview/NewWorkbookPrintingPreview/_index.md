@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'WorkbookPrintingPreview constructor. Encapsulates the function that represents newworkbookprintingpreview in Go.'
 type: docs
 weight: 200
-url: /go/workbookprintingpreview/newworkbookprintingpreview/
+url: /go-cpp/workbookprintingpreview/newworkbookprintingpreview/
 ---
 
 ## NewWorkbookPrintingPreview function

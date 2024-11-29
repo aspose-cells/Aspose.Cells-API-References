@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Compare method. Encapsulates the function that represents compare in Go.'
 type: docs
 weight: 200
-url: /go/globalizationsettings/compare/
+url: /go-cpp/globalizationsettings/compare/
 ---
 
 ## Compare function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetHiddenRowDisplayType method. Encapsulates the function that represents gethiddenrowdisplaytype in Go.'
 type: docs
 weight: 200
-url: /go/ebooksaveoptions/gethiddenrowdisplaytype/
+url: /go-cpp/ebooksaveoptions/gethiddenrowdisplaytype/
 ---
 
 ## GetHiddenRowDisplayType function

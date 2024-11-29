@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'PaginatedSaveOptions class. Encapsulates the object that represents paginatedsaveoptions in Go.'
 type: docs
 weight: 200
-url: /go/paginatedsaveoptions/
+url: /go-cpp/paginatedsaveoptions/
 ---
 
 ## PaginatedSaveOptions class

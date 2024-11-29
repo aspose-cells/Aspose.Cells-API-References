@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetLowerRightRow method. Encapsulates the function that represents setlowerrightrow in Go.'
 type: docs
 weight: 200
-url: /go/chartshape/setlowerrightrow/
+url: /go-cpp/chartshape/setlowerrightrow/
 ---
 
 ## SetLowerRightRow function

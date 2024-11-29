@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ShapeTextVerticalAlignmentType enum. Encapsulates the object that represents shapetextverticalalignmenttype in Go.'
 type: docs
 weight: 200
-url: /go/shapetextverticalalignmenttype/
+url: /go-cpp/shapetextverticalalignmenttype/
 ---
 
 ## ShapeTextVerticalAlignmentType Enum

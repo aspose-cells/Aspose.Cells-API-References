@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'PdfCompressionCore enum. Encapsulates the object that represents pdfcompressioncore in Go.'
 type: docs
 weight: 200
-url: /go/pdfcompressioncore/
+url: /go-cpp/pdfcompressioncore/
 ---
 
 ## PdfCompressionCore Enum

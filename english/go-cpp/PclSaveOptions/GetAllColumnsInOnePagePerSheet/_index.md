@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetAllColumnsInOnePagePerSheet method. Encapsulates the function that represents getallcolumnsinonepagepersheet in Go.'
 type: docs
 weight: 200
-url: /go/pclsaveoptions/getallcolumnsinonepagepersheet/
+url: /go-cpp/pclsaveoptions/getallcolumnsinonepagepersheet/
 ---
 
 ## GetAllColumnsInOnePagePerSheet function

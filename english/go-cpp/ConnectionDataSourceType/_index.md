@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ConnectionDataSourceType enum. Encapsulates the object that represents connectiondatasourcetype in Go.'
 type: docs
 weight: 200
-url: /go/connectiondatasourcetype/
+url: /go-cpp/connectiondatasourcetype/
 ---
 
 ## ConnectionDataSourceType Enum

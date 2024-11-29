@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'BorderBoxEquationNode constructor. Encapsulates the function that represents newborderboxequationnode in Go.'
 type: docs
 weight: 200
-url: /go/borderboxequationnode/newborderboxequationnode/
+url: /go-cpp/borderboxequationnode/newborderboxequationnode/
 ---
 
 ## NewBorderBoxEquationNode function

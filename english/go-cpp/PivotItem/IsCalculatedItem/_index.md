@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsCalculatedItem method. Encapsulates the function that represents iscalculateditem in Go.'
 type: docs
 weight: 200
-url: /go/pivotitem/iscalculateditem/
+url: /go-cpp/pivotitem/iscalculateditem/
 ---
 
 ## IsCalculatedItem function

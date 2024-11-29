@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsHorizontal method. Encapsulates the function that represents setishorizontal in Go.'
 type: docs
 weight: 200
-url: /go/spinner/setishorizontal/
+url: /go-cpp/spinner/setishorizontal/
 ---
 
 ## SetIsHorizontal function

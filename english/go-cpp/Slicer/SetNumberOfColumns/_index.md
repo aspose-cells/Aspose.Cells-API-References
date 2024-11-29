@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetNumberOfColumns method. Encapsulates the function that represents setnumberofcolumns in Go.'
 type: docs
 weight: 200
-url: /go/slicer/setnumberofcolumns/
+url: /go-cpp/slicer/setnumberofcolumns/
 ---
 
 ## SetNumberOfColumns function

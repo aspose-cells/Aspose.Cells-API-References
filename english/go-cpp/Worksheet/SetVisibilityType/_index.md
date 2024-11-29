@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetVisibilityType method. Encapsulates the function that represents setvisibilitytype in Go.'
 type: docs
 weight: 200
-url: /go/worksheet/setvisibilitytype/
+url: /go-cpp/worksheet/setvisibilitytype/
 ---
 
 ## SetVisibilityType function

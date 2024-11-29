@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetPlacement method. Encapsulates the function that represents getplacement in Go.'
 type: docs
 weight: 200
-url: /go/slicer/getplacement/
+url: /go-cpp/slicer/getplacement/
 ---
 
 ## GetPlacement function

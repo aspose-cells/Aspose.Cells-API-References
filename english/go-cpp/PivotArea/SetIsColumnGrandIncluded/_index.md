@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsColumnGrandIncluded method. Encapsulates the function that represents setiscolumngrandincluded in Go.'
 type: docs
 weight: 200
-url: /go/pivotarea/setiscolumngrandincluded/
+url: /go-cpp/pivotarea/setiscolumngrandincluded/
 ---
 
 ## SetIsColumnGrandIncluded function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'UpdateCustomFunctionDefinition method. Encapsulates the function that represents updatecustomfunctiondefinition in Go.'
 type: docs
 weight: 200
-url: /go/workbook/updatecustomfunctiondefinition/
+url: /go-cpp/workbook/updatecustomfunctiondefinition/
 ---
 
 ## UpdateCustomFunctionDefinition function

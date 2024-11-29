@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Geometry class. Encapsulates the object that represents geometry in Go.'
 type: docs
 weight: 200
-url: /go/geometry/
+url: /go-cpp/geometry/
 ---
 
 ## Geometry class

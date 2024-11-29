@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetHasHeaders method. Encapsulates the function that represents sethasheaders in Go.'
 type: docs
 weight: 200
-url: /go/datasorter/sethasheaders/
+url: /go-cpp/datasorter/sethasheaders/
 ---
 
 ## SetHasHeaders function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'TextOptions constructor. Encapsulates the function that represents newtextoptions in Go.'
 type: docs
 weight: 200
-url: /go/textoptions/newtextoptions/
+url: /go-cpp/textoptions/newtextoptions/
 ---
 
 ## NewTextOptions function

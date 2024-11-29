@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetSmallChange method. Encapsulates the function that represents setsmallchange in Go.'
 type: docs
 weight: 200
-url: /go/scrollbaractivexcontrol/setsmallchange/
+url: /go-cpp/scrollbaractivexcontrol/setsmallchange/
 ---
 
 ## SetSmallChange function

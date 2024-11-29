@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetTotalRows method. Encapsulates the function that represents settotalrows in Go.'
 type: docs
 weight: 200
-url: /go/importtableoptions/settotalrows/
+url: /go-cpp/importtableoptions/settotalrows/
 ---
 
 ## SetTotalRows function

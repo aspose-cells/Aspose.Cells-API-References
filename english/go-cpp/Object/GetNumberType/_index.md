@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetNumberType method. Encapsulates the function that represents getnumbertype in Go.'
 type: docs
 weight: 200
-url: /go/object/getnumbertype/
+url: /go-cpp/object/getnumbertype/
 ---
 
 ## GetNumberType function

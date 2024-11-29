@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetBuildVersion method. Encapsulates the function that represents getbuildversion in Go.'
 type: docs
 weight: 200
-url: /go/workbooksettings/getbuildversion/
+url: /go-cpp/workbooksettings/getbuildversion/
 ---
 
 ## GetBuildVersion function

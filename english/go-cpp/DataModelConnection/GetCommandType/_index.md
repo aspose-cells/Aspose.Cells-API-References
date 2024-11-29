@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetCommandType method. Encapsulates the function that represents getcommandtype in Go.'
 type: docs
 weight: 200
-url: /go/datamodelconnection/getcommandtype/
+url: /go-cpp/datamodelconnection/getcommandtype/
 ---
 
 ## GetCommandType function

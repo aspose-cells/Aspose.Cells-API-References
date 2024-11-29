@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'TxtLoadOptions class. Encapsulates the object that represents txtloadoptions in Go.'
 type: docs
 weight: 200
-url: /go/txtloadoptions/
+url: /go-cpp/txtloadoptions/
 ---
 
 ## TxtLoadOptions class

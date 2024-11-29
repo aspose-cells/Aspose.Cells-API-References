@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetPictureFormatType method. Encapsulates the function that represents getpictureformattype in Go.'
 type: docs
 weight: 200
-url: /go/texturefill/getpictureformattype/
+url: /go-cpp/texturefill/getpictureformattype/
 ---
 
 ## GetPictureFormatType function

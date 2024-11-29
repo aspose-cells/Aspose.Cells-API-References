@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetComment method. Encapsulates the function that represents getcomment in Go.'
 type: docs
 weight: 200
-url: /go/name/getcomment/
+url: /go-cpp/name/getcomment/
 ---
 
 ## GetComment function

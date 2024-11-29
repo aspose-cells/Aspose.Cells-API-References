@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'AutoNumberedBulletValue constructor. Encapsulates the function that represents newautonumberedbulletvalue in Go.'
 type: docs
 weight: 200
-url: /go/autonumberedbulletvalue/newautonumberedbulletvalue/
+url: /go-cpp/autonumberedbulletvalue/newautonumberedbulletvalue/
 ---
 
 ## NewAutoNumberedBulletValue function

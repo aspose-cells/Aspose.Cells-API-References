@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsItalic method. Encapsulates the function that represents setisitalic in Go.'
 type: docs
 weight: 200
-url: /go/font/setisitalic/
+url: /go-cpp/font/setisitalic/
 ---
 
 ## SetIsItalic function

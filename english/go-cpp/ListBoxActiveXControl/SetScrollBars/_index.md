@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetScrollBars method. Encapsulates the function that represents setscrollbars in Go.'
 type: docs
 weight: 200
-url: /go/listboxactivexcontrol/setscrollbars/
+url: /go-cpp/listboxactivexcontrol/setscrollbars/
 ---
 
 ## SetScrollBars function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetXAdESType method. Encapsulates the function that represents getxadestype in Go.'
 type: docs
 weight: 200
-url: /go/digitalsignature/getxadestype/
+url: /go-cpp/digitalsignature/getxadestype/
 ---
 
 ## GetXAdESType function

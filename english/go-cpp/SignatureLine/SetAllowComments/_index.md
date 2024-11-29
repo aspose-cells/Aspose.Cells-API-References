@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetAllowComments method. Encapsulates the function that represents setallowcomments in Go.'
 type: docs
 weight: 200
-url: /go/signatureline/setallowcomments/
+url: /go-cpp/signatureline/setallowcomments/
 ---
 
 ## SetAllowComments function

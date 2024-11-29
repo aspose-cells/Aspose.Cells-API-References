@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'LineCapType enum. Encapsulates the object that represents linecaptype in Go.'
 type: docs
 weight: 200
-url: /go/linecaptype/
+url: /go-cpp/linecaptype/
 ---
 
 ## LineCapType Enum

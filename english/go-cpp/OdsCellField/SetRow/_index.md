@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetRow method. Encapsulates the function that represents setrow in Go.'
 type: docs
 weight: 200
-url: /go/odscellfield/setrow/
+url: /go-cpp/odscellfield/setrow/
 ---
 
 ## SetRow function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetWindowLeftCM method. Encapsulates the function that represents setwindowleftcm in Go.'
 type: docs
 weight: 200
-url: /go/workbooksettings/setwindowleftcm/
+url: /go-cpp/workbooksettings/setwindowleftcm/
 ---
 
 ## SetWindowLeftCM function

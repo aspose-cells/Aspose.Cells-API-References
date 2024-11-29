@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetMaterial method. Encapsulates the function that represents getmaterial in Go.'
 type: docs
 weight: 200
-url: /go/threedformat/getmaterial/
+url: /go-cpp/threedformat/getmaterial/
 ---
 
 ## GetMaterial function

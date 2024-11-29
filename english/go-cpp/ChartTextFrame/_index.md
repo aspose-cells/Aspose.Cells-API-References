@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ChartTextFrame class. Encapsulates the object that represents charttextframe in Go.'
 type: docs
 weight: 200
-url: /go/charttextframe/
+url: /go-cpp/charttextframe/
 ---
 
 ## ChartTextFrame class

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'UngroupRows_Int_Int method. Encapsulates the function that represents ungrouprows in Go.'
 type: docs
 weight: 200
-url: /go/cells/ungrouprows_int_int/
+url: /go-cpp/cells/ungrouprows_int_int/
 ---
 
 ## UngroupRows_Int_Int function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetDropZoneFilter method. Encapsulates the function that represents setdropzonefilter in Go.'
 type: docs
 weight: 200
-url: /go/pivotoptions/setdropzonefilter/
+url: /go-cpp/pivotoptions/setdropzonefilter/
 ---
 
 ## SetDropZoneFilter function

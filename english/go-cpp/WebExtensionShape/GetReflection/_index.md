@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetReflection method. Encapsulates the function that represents getreflection in Go.'
 type: docs
 weight: 200
-url: /go/webextensionshape/getreflection/
+url: /go-cpp/webextensionshape/getreflection/
 ---
 
 ## GetReflection function

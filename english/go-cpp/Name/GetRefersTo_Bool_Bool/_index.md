@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetRefersTo_Bool_Bool method. Encapsulates the function that represents getrefersto in Go.'
 type: docs
 weight: 200
-url: /go/name/getrefersto_bool_bool/
+url: /go-cpp/name/getrefersto_bool_bool/
 ---
 
 ## GetRefersTo_Bool_Bool function

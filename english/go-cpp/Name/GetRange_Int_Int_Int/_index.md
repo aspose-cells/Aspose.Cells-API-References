@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetRange_Int_Int_Int method. Encapsulates the function that represents getrange in Go.'
 type: docs
 weight: 200
-url: /go/name/getrange_int_int_int/
+url: /go-cpp/name/getrange_int_int_int/
 ---
 
 ## GetRange_Int_Int_Int function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Select method. Encapsulates the function that represents select in Go.'
 type: docs
 weight: 200
-url: /go/pivotarea/select/
+url: /go-cpp/pivotarea/select/
 ---
 
 ## Select function

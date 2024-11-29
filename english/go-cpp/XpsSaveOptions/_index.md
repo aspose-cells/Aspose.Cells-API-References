@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'XpsSaveOptions class. Encapsulates the object that represents xpssaveoptions in Go.'
 type: docs
 weight: 200
-url: /go/xpssaveoptions/
+url: /go-cpp/xpssaveoptions/
 ---
 
 ## XpsSaveOptions class

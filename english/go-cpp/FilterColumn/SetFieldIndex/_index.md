@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetFieldIndex method. Encapsulates the function that represents setfieldindex in Go.'
 type: docs
 weight: 200
-url: /go/filtercolumn/setfieldindex/
+url: /go-cpp/filtercolumn/setfieldindex/
 ---
 
 ## SetFieldIndex function

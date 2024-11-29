@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetChartDataRange method. Encapsulates the function that represents getchartdatarange in Go.'
 type: docs
 weight: 200
-url: /go/chart/getchartdatarange/
+url: /go-cpp/chart/getchartdatarange/
 ---
 
 ## GetChartDataRange function

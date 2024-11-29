@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'LoadOptions class. Encapsulates the object that represents loadoptions in Go.'
 type: docs
 weight: 200
-url: /go/loadoptions/
+url: /go-cpp/loadoptions/
 ---
 
 ## LoadOptions class

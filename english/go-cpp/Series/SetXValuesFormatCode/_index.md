@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetXValuesFormatCode method. Encapsulates the function that represents setxvaluesformatcode in Go.'
 type: docs
 weight: 200
-url: /go/series/setxvaluesformatcode/
+url: /go-cpp/series/setxvaluesformatcode/
 ---
 
 ## SetXValuesFormatCode function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetBottom method. Encapsulates the function that represents getbottom in Go.'
 type: docs
 weight: 200
-url: /go/customxmlshape/getbottom/
+url: /go-cpp/customxmlshape/getbottom/
 ---
 
 ## GetBottom function

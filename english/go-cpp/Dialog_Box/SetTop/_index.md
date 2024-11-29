@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetTop method. Encapsulates the function that represents settop in Go.'
 type: docs
 weight: 200
-url: /go/dialog_box/settop/
+url: /go-cpp/dialog_box/settop/
 ---
 
 ## SetTop function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'PivotTableRefreshOption constructor. Encapsulates the function that represents newpivottablerefreshoption in Go.'
 type: docs
 weight: 200
-url: /go/pivottablerefreshoption/newpivottablerefreshoption/
+url: /go-cpp/pivottablerefreshoption/newpivottablerefreshoption/
 ---
 
 ## NewPivotTableRefreshOption function

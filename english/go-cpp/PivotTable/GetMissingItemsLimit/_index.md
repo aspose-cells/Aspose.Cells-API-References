@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetMissingItemsLimit method. Encapsulates the function that represents getmissingitemslimit in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/getmissingitemslimit/
+url: /go-cpp/pivottable/getmissingitemslimit/
 ---
 
 ## GetMissingItemsLimit function

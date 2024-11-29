@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Bullet class. Encapsulates the object that represents bullet in Go.'
 type: docs
 weight: 200
-url: /go/bullet/
+url: /go-cpp/bullet/
 ---
 
 ## Bullet class

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Protection class. Encapsulates the object that represents protection in Go.'
 type: docs
 weight: 200
-url: /go/protection/
+url: /go-cpp/protection/
 ---
 
 ## Protection class

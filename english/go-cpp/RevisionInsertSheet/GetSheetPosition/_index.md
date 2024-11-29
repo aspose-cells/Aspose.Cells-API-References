@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetSheetPosition method. Encapsulates the function that represents getsheetposition in Go.'
 type: docs
 weight: 200
-url: /go/revisioninsertsheet/getsheetposition/
+url: /go-cpp/revisioninsertsheet/getsheetposition/
 ---
 
 ## GetSheetPosition function

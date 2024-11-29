@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetEncoding method. Encapsulates the function that represents setencoding in Go.'
 type: docs
 weight: 200
-url: /go/vbaproject/setencoding/
+url: /go-cpp/vbaproject/setencoding/
 ---
 
 ## SetEncoding function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ClearData method. Encapsulates the function that represents cleardata in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/cleardata/
+url: /go-cpp/pivottable/cleardata/
 ---
 
 ## ClearData function

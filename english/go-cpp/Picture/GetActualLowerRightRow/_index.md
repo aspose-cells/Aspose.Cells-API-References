@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetActualLowerRightRow method. Encapsulates the function that represents getactuallowerrightrow in Go.'
 type: docs
 weight: 200
-url: /go/picture/getactuallowerrightrow/
+url: /go-cpp/picture/getactuallowerrightrow/
 ---
 
 ## GetActualLowerRightRow function

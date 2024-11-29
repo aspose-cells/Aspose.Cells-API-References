@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetAltTextTitle method. Encapsulates the function that represents setalttexttitle in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/setalttexttitle/
+url: /go-cpp/pivottable/setalttexttitle/
 ---
 
 ## SetAltTextTitle function

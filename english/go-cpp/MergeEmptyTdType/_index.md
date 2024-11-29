@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'MergeEmptyTdType enum. Encapsulates the object that represents mergeemptytdtype in Go.'
 type: docs
 weight: 200
-url: /go/mergeemptytdtype/
+url: /go-cpp/mergeemptytdtype/
 ---
 
 ## MergeEmptyTdType Enum

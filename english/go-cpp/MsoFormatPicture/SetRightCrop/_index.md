@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetRightCrop method. Encapsulates the function that represents setrightcrop in Go.'
 type: docs
 weight: 200
-url: /go/msoformatpicture/setrightcrop/
+url: /go-cpp/msoformatpicture/setrightcrop/
 ---
 
 ## SetRightCrop function

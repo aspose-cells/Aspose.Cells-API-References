@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetSeparatorType method. Encapsulates the function that represents setseparatortype in Go.'
 type: docs
 weight: 200
-url: /go/datalabels/setseparatortype/
+url: /go-cpp/datalabels/setseparatortype/
 ---
 
 ## SetSeparatorType function

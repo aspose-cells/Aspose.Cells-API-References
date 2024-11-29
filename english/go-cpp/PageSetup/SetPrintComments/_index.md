@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetPrintComments method. Encapsulates the function that represents setprintcomments in Go.'
 type: docs
 weight: 200
-url: /go/pagesetup/setprintcomments/
+url: /go-cpp/pagesetup/setprintcomments/
 ---
 
 ## SetPrintComments function

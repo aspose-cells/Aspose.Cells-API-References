@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ExternalConnectionClassType enum. Encapsulates the object that represents externalconnectionclasstype in Go.'
 type: docs
 weight: 200
-url: /go/externalconnectionclasstype/
+url: /go-cpp/externalconnectionclasstype/
 ---
 
 ## ExternalConnectionClassType Enum

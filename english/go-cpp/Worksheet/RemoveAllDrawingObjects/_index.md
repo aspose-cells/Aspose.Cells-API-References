@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'RemoveAllDrawingObjects method. Encapsulates the function that represents removealldrawingobjects in Go.'
 type: docs
 weight: 200
-url: /go/worksheet/removealldrawingobjects/
+url: /go-cpp/worksheet/removealldrawingobjects/
 ---
 
 ## RemoveAllDrawingObjects function

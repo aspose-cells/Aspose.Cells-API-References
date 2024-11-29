@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Save_String method. Encapsulates the function that represents save in Go.'
 type: docs
 weight: 200
-url: /go/workbook/save_string/
+url: /go-cpp/workbook/save_string/
 ---
 
 ## Save_String function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Copy method. Encapsulates the function that represents copy in Go.'
 type: docs
 weight: 200
-url: /go/cell/copy/
+url: /go-cpp/cell/copy/
 ---
 
 ## Copy function

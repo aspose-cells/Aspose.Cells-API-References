@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetTextEffect method. Encapsulates the function that represents settexteffect in Go.'
 type: docs
 weight: 200
-url: /go/texteffectformat/settexteffect/
+url: /go-cpp/texteffectformat/settexteffect/
 ---
 
 ## SetTextEffect function

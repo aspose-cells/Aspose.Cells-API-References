@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetScanSubFolders method. Encapsulates the function that represents getscansubfolders in Go.'
 type: docs
 weight: 200
-url: /go/folderfontsource/getscansubfolders/
+url: /go-cpp/folderfontsource/getscansubfolders/
 ---
 
 ## GetScanSubFolders function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetCalculatedValue method. Encapsulates the function that represents setcalculatedvalue in Go.'
 type: docs
 weight: 200
-url: /go/calculationdata/setcalculatedvalue/
+url: /go-cpp/calculationdata/setcalculatedvalue/
 ---
 
 ## SetCalculatedValue function

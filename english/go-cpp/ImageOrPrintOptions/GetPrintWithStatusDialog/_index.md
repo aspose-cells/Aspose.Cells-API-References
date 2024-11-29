@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetPrintWithStatusDialog method. Encapsulates the function that represents getprintwithstatusdialog in Go.'
 type: docs
 weight: 200
-url: /go/imageorprintoptions/getprintwithstatusdialog/
+url: /go-cpp/imageorprintoptions/getprintwithstatusdialog/
 ---
 
 ## GetPrintWithStatusDialog function

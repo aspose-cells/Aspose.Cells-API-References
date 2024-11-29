@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsAutomaticMaxValue method. Encapsulates the function that represents isautomaticmaxvalue in Go.'
 type: docs
 weight: 200
-url: /go/axis/isautomaticmaxvalue/
+url: /go-cpp/axis/isautomaticmaxvalue/
 ---
 
 ## IsAutomaticMaxValue function

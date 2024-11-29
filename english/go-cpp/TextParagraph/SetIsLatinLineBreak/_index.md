@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsLatinLineBreak method. Encapsulates the function that represents setislatinlinebreak in Go.'
 type: docs
 weight: 200
-url: /go/textparagraph/setislatinlinebreak/
+url: /go-cpp/textparagraph/setislatinlinebreak/
 ---
 
 ## SetIsLatinLineBreak function

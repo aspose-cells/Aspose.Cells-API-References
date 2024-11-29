@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'CalcModeType enum. Encapsulates the object that represents calcmodetype in Go.'
 type: docs
 weight: 200
-url: /go/calcmodetype/
+url: /go-cpp/calcmodetype/
 ---
 
 ## CalcModeType Enum

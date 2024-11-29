@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetColumnSeparatorOfFormulaArray method. Encapsulates the function that represents getcolumnseparatorofformulaarray in Go.'
 type: docs
 weight: 200
-url: /go/globalizationsettings/getcolumnseparatorofformulaarray/
+url: /go-cpp/globalizationsettings/getcolumnseparatorofformulaarray/
 ---
 
 ## GetColumnSeparatorOfFormulaArray function

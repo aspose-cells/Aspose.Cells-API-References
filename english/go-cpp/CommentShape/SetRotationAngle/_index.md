@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetRotationAngle method. Encapsulates the function that represents setrotationangle in Go.'
 type: docs
 weight: 200
-url: /go/commentshape/setrotationangle/
+url: /go-cpp/commentshape/setrotationangle/
 ---
 
 ## SetRotationAngle function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetSkipBlanks method. Encapsulates the function that represents getskipblanks in Go.'
 type: docs
 weight: 200
-url: /go/pasteoptions/getskipblanks/
+url: /go-cpp/pasteoptions/getskipblanks/
 ---
 
 ## GetSkipBlanks function

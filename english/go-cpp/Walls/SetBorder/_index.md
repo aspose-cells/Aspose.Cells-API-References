@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetBorder method. Encapsulates the function that represents setborder in Go.'
 type: docs
 weight: 200
-url: /go/walls/setborder/
+url: /go-cpp/walls/setborder/
 ---
 
 ## SetBorder function

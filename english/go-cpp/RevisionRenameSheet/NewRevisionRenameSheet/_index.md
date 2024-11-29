@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'RevisionRenameSheet constructor. Encapsulates the function that represents newrevisionrenamesheet in Go.'
 type: docs
 weight: 200
-url: /go/revisionrenamesheet/newrevisionrenamesheet/
+url: /go-cpp/revisionrenamesheet/newrevisionrenamesheet/
 ---
 
 ## NewRevisionRenameSheet function

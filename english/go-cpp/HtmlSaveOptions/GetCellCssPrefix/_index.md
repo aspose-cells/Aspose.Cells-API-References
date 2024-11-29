@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetCellCssPrefix method. Encapsulates the function that represents getcellcssprefix in Go.'
 type: docs
 weight: 200
-url: /go/htmlsaveoptions/getcellcssprefix/
+url: /go-cpp/htmlsaveoptions/getcellcssprefix/
 ---
 
 ## GetCellCssPrefix function

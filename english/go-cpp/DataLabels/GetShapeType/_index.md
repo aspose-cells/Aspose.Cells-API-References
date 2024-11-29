@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetShapeType method. Encapsulates the function that represents getshapetype in Go.'
 type: docs
 weight: 200
-url: /go/datalabels/getshapetype/
+url: /go-cpp/datalabels/getshapetype/
 ---
 
 ## GetShapeType function

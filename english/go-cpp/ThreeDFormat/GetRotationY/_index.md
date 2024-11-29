@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetRotationY method. Encapsulates the function that represents getrotationy in Go.'
 type: docs
 weight: 200
-url: /go/threedformat/getrotationy/
+url: /go-cpp/threedformat/getrotationy/
 ---
 
 ## GetRotationY function

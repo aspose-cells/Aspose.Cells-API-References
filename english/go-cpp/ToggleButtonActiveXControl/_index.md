@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ToggleButtonActiveXControl class. Encapsulates the object that represents togglebuttonactivexcontrol in Go.'
 type: docs
 weight: 200
-url: /go/togglebuttonactivexcontrol/
+url: /go-cpp/togglebuttonactivexcontrol/
 ---
 
 ## ToggleButtonActiveXControl class

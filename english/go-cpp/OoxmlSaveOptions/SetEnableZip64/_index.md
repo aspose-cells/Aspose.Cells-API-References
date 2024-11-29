@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetEnableZip64 method. Encapsulates the function that represents setenablezip64 in Go.'
 type: docs
 weight: 200
-url: /go/ooxmlsaveoptions/setenablezip64/
+url: /go-cpp/ooxmlsaveoptions/setenablezip64/
 ---
 
 ## SetEnableZip64 function

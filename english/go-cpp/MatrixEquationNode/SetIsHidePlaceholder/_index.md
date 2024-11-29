@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsHidePlaceholder method. Encapsulates the function that represents setishideplaceholder in Go.'
 type: docs
 weight: 200
-url: /go/matrixequationnode/setishideplaceholder/
+url: /go-cpp/matrixequationnode/setishideplaceholder/
 ---
 
 ## SetIsHidePlaceholder function

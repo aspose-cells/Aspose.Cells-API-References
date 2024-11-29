@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetLeftToCorner method. Encapsulates the function that represents setlefttocorner in Go.'
 type: docs
 weight: 200
-url: /go/webextensionshape/setlefttocorner/
+url: /go-cpp/webextensionshape/setlefttocorner/
 ---
 
 ## SetLeftToCorner function

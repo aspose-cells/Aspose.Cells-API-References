@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetPaths method. Encapsulates the function that represents getpaths in Go.'
 type: docs
 weight: 200
-url: /go/customgeometry/getpaths/
+url: /go-cpp/customgeometry/getpaths/
 ---
 
 ## GetPaths function

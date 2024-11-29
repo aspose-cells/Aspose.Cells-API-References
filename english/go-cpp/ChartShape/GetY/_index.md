@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetY method. Encapsulates the function that represents gety in Go.'
 type: docs
 weight: 200
-url: /go/chartshape/gety/
+url: /go-cpp/chartshape/gety/
 ---
 
 ## GetY function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetSecondCommand method. Encapsulates the function that represents getsecondcommand in Go.'
 type: docs
 weight: 200
-url: /go/dbconnection/getsecondcommand/
+url: /go-cpp/dbconnection/getsecondcommand/
 ---
 
 ## GetSecondCommand function

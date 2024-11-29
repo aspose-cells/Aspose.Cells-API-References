@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetDisplayAsIcon method. Encapsulates the function that represents setdisplayasicon in Go.'
 type: docs
 weight: 200
-url: /go/oleobject/setdisplayasicon/
+url: /go-cpp/oleobject/setdisplayasicon/
 ---
 
 ## SetDisplayAsIcon function

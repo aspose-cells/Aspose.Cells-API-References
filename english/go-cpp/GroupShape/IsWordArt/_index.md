@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsWordArt method. Encapsulates the function that represents iswordart in Go.'
 type: docs
 weight: 200
-url: /go/groupshape/iswordart/
+url: /go-cpp/groupshape/iswordart/
 ---
 
 ## IsWordArt function

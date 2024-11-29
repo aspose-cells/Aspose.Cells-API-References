@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'HeaderFooterCommand class. Encapsulates the object that represents headerfootercommand in Go.'
 type: docs
 weight: 200
-url: /go/headerfootercommand/
+url: /go-cpp/headerfootercommand/
 ---
 
 ## HeaderFooterCommand class

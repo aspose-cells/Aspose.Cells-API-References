@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetAll method. Encapsulates the function that represents setall in Go.'
 type: docs
 weight: 200
-url: /go/styleflag/setall/
+url: /go-cpp/styleflag/setall/
 ---
 
 ## SetAll function

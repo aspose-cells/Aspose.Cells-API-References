@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ErrorBar class. Encapsulates the object that represents errorbar in Go.'
 type: docs
 weight: 200
-url: /go/errorbar/
+url: /go-cpp/errorbar/
 ---
 
 ## ErrorBar class

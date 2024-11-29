@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetPlacement method. Encapsulates the function that represents setplacement in Go.'
 type: docs
 weight: 200
-url: /go/dialog_box/setplacement/
+url: /go-cpp/dialog_box/setplacement/
 ---
 
 ## SetPlacement function

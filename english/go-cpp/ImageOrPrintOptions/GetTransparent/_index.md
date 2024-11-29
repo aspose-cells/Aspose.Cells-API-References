@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTransparent method. Encapsulates the function that represents gettransparent in Go.'
 type: docs
 weight: 200
-url: /go/imageorprintoptions/gettransparent/
+url: /go-cpp/imageorprintoptions/gettransparent/
 ---
 
 ## GetTransparent function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SmartTagSetting class. Encapsulates the object that represents smarttagsetting in Go.'
 type: docs
 weight: 200
-url: /go/smarttagsetting/
+url: /go-cpp/smarttagsetting/
 ---
 
 ## SmartTagSetting class

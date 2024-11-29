@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'TextBox class. Encapsulates the object that represents textbox in Go.'
 type: docs
 weight: 200
-url: /go/textbox/
+url: /go-cpp/textbox/
 ---
 
 ## TextBox class

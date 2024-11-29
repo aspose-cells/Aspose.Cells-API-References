@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetDisableDownlevelRevealedComments method. Encapsulates the function that represents setdisabledownlevelrevealedcomments in Go.'
 type: docs
 weight: 200
-url: /go/htmlsaveoptions/setdisabledownlevelrevealedcomments/
+url: /go-cpp/htmlsaveoptions/setdisabledownlevelrevealedcomments/
 ---
 
 ## SetDisableDownlevelRevealedComments function

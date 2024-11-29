@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetDropDownLines method. Encapsulates the function that represents getdropdownlines in Go.'
 type: docs
 weight: 200
-url: /go/combobox/getdropdownlines/
+url: /go-cpp/combobox/getdropdownlines/
 ---
 
 ## GetDropDownLines function

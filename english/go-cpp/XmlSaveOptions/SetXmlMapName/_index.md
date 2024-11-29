@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetXmlMapName method. Encapsulates the function that represents setxmlmapname in Go.'
 type: docs
 weight: 200
-url: /go/xmlsaveoptions/setxmlmapname/
+url: /go-cpp/xmlsaveoptions/setxmlmapname/
 ---
 
 ## SetXmlMapName function

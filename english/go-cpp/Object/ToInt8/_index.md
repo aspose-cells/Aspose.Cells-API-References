@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ToInt8 method. Encapsulates the function that represents toint8 in Go.'
 type: docs
 weight: 200
-url: /go/object/toint8/
+url: /go-cpp/object/toint8/
 ---
 
 ## ToInt8 function

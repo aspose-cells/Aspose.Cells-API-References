@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'HideDetail method. Encapsulates the function that represents hidedetail in Go.'
 type: docs
 weight: 200
-url: /go/pivotfield/hidedetail/
+url: /go-cpp/pivotfield/hidedetail/
 ---
 
 ## HideDetail function

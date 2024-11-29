@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetTextVerticalOverflow method. Encapsulates the function that represents settextverticaloverflow in Go.'
 type: docs
 weight: 200
-url: /go/lineshape/settextverticaloverflow/
+url: /go-cpp/lineshape/settextverticaloverflow/
 ---
 
 ## SetTextVerticalOverflow function

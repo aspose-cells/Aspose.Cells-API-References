@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetUpperDeltaX method. Encapsulates the function that represents getupperdeltax in Go.'
 type: docs
 weight: 200
-url: /go/chartshape/getupperdeltax/
+url: /go-cpp/chartshape/getupperdeltax/
 ---
 
 ## GetUpperDeltaX function

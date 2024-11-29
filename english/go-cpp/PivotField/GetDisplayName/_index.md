@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetDisplayName method. Encapsulates the function that represents getdisplayname in Go.'
 type: docs
 weight: 200
-url: /go/pivotfield/getdisplayname/
+url: /go-cpp/pivotfield/getdisplayname/
 ---
 
 ## GetDisplayName function

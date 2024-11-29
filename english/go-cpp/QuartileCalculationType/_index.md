@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'QuartileCalculationType enum. Encapsulates the object that represents quartilecalculationtype in Go.'
 type: docs
 weight: 200
-url: /go/quartilecalculationtype/
+url: /go-cpp/quartilecalculationtype/
 ---
 
 ## QuartileCalculationType Enum

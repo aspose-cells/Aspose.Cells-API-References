@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'StartMonitor method. Encapsulates the function that represents startmonitor in Go.'
 type: docs
 weight: 200
-url: /go/systemtimeinterruptmonitor/startmonitor/
+url: /go-cpp/systemtimeinterruptmonitor/startmonitor/
 ---
 
 ## StartMonitor function

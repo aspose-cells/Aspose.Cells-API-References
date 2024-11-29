@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Unprotect_String method. Encapsulates the function that represents unprotect in Go.'
 type: docs
 weight: 200
-url: /go/worksheet/unprotect_string/
+url: /go-cpp/worksheet/unprotect_string/
 ---
 
 ## Unprotect_String function

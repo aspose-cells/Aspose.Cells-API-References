@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetMultipleWorksheets method. Encapsulates the function that represents setmultipleworksheets in Go.'
 type: docs
 weight: 200
-url: /go/jsonloadoptions/setmultipleworksheets/
+url: /go-cpp/jsonloadoptions/setmultipleworksheets/
 ---
 
 ## SetMultipleWorksheets function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsRulerVisible method. Encapsulates the function that represents isrulervisible in Go.'
 type: docs
 weight: 200
-url: /go/worksheet/isrulervisible/
+url: /go-cpp/worksheet/isrulervisible/
 ---
 
 ## IsRulerVisible function

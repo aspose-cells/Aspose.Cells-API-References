@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsRangeSet method. Encapsulates the function that represents israngeset in Go.'
 type: docs
 weight: 200
-url: /go/findoptions/israngeset/
+url: /go-cpp/findoptions/israngeset/
 ---
 
 ## IsRangeSet function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetFloor method. Encapsulates the function that represents getfloor in Go.'
 type: docs
 weight: 200
-url: /go/chart/getfloor/
+url: /go-cpp/chart/getfloor/
 ---
 
 ## GetFloor function

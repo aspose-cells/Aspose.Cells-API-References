@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'HasGlowEffect method. Encapsulates the function that represents hasgloweffect in Go.'
 type: docs
 weight: 200
-url: /go/shapepropertycollection/hasgloweffect/
+url: /go-cpp/shapepropertycollection/hasgloweffect/
 ---
 
 ## HasGlowEffect function

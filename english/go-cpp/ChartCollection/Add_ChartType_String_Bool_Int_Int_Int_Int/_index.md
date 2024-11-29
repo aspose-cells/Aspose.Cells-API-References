@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Add_ChartType_String_Bool_Int_Int_Int_Int method. Encapsulates the function that represents add in Go.'
 type: docs
 weight: 200
-url: /go/chartcollection/add_charttype_string_bool_int_int_int_int/
+url: /go-cpp/chartcollection/add_charttype_string_bool_int_int_int_int/
 ---
 
 ## Add_ChartType_String_Bool_Int_Int_Int_Int function

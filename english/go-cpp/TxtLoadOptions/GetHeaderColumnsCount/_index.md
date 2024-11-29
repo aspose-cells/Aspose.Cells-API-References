@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetHeaderColumnsCount method. Encapsulates the function that represents getheadercolumnscount in Go.'
 type: docs
 weight: 200
-url: /go/txtloadoptions/getheadercolumnscount/
+url: /go-cpp/txtloadoptions/getheadercolumnscount/
 ---
 
 ## GetHeaderColumnsCount function

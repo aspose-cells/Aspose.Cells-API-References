@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetFontSize method. Encapsulates the function that represents setfontsize in Go.'
 type: docs
 weight: 200
-url: /go/texteffectformat/setfontsize/
+url: /go-cpp/texteffectformat/setfontsize/
 ---
 
 ## SetFontSize function

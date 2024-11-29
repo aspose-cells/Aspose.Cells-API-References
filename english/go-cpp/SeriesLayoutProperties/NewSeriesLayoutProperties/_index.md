@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SeriesLayoutProperties constructor. Encapsulates the function that represents newserieslayoutproperties in Go.'
 type: docs
 weight: 200
-url: /go/serieslayoutproperties/newserieslayoutproperties/
+url: /go-cpp/serieslayoutproperties/newserieslayoutproperties/
 ---
 
 ## NewSeriesLayoutProperties function

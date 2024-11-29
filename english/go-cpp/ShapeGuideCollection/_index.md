@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ShapeGuideCollection class. Encapsulates the object that represents shapeguidecollection in Go.'
 type: docs
 weight: 200
-url: /go/shapeguidecollection/
+url: /go-cpp/shapeguidecollection/
 ---
 
 ## ShapeGuideCollection class

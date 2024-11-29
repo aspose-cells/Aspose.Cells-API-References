@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetDataAsAttribute method. Encapsulates the function that represents getdataasattribute in Go.'
 type: docs
 weight: 200
-url: /go/xmlsaveoptions/getdataasattribute/
+url: /go-cpp/xmlsaveoptions/getdataasattribute/
 ---
 
 ## GetDataAsAttribute function

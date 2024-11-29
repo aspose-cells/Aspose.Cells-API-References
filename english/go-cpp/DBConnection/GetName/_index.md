@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetName method. Encapsulates the function that represents getname in Go.'
 type: docs
 weight: 200
-url: /go/dbconnection/getname/
+url: /go-cpp/dbconnection/getname/
 ---
 
 ## GetName function

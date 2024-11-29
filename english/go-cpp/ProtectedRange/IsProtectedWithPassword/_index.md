@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsProtectedWithPassword method. Encapsulates the function that represents isprotectedwithpassword in Go.'
 type: docs
 weight: 200
-url: /go/protectedrange/isprotectedwithpassword/
+url: /go-cpp/protectedrange/isprotectedwithpassword/
 ---
 
 ## IsProtectedWithPassword function

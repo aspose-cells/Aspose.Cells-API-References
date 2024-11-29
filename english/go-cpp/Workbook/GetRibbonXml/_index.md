@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetRibbonXml method. Encapsulates the function that represents getribbonxml in Go.'
 type: docs
 weight: 200
-url: /go/workbook/getribbonxml/
+url: /go-cpp/workbook/getribbonxml/
 ---
 
 ## GetRibbonXml function

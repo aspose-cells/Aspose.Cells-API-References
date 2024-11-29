@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'DeleteInRange method. Encapsulates the function that represents deleteinrange in Go.'
 type: docs
 weight: 200
-url: /go/shapecollection/deleteinrange/
+url: /go-cpp/shapecollection/deleteinrange/
 ---
 
 ## DeleteInRange function

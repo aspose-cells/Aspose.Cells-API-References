@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetKey1 method. Encapsulates the function that represents getkey1 in Go.'
 type: docs
 weight: 200
-url: /go/datasorter/getkey1/
+url: /go-cpp/datasorter/getkey1/
 ---
 
 ## GetKey1 function

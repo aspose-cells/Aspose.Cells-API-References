@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ToDate method. Encapsulates the function that represents todate in Go.'
 type: docs
 weight: 200
-url: /go/object/todate/
+url: /go-cpp/object/todate/
 ---
 
 ## ToDate function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetShapeY method. Encapsulates the function that represents getshapey in Go.'
 type: docs
 weight: 200
-url: /go/chartpoint/getshapey/
+url: /go-cpp/chartpoint/getshapey/
 ---
 
 ## GetShapeY function

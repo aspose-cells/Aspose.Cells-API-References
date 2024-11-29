@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetBorderLineColor method. Encapsulates the function that represents setborderlinecolor in Go.'
 type: docs
 weight: 200
-url: /go/picture/setborderlinecolor/
+url: /go-cpp/picture/setborderlinecolor/
 ---
 
 ## SetBorderLineColor function

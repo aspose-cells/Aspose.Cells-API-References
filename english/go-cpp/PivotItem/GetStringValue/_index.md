@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetStringValue method. Encapsulates the function that represents getstringvalue in Go.'
 type: docs
 weight: 200
-url: /go/pivotitem/getstringvalue/
+url: /go-cpp/pivotitem/getstringvalue/
 ---
 
 ## GetStringValue function

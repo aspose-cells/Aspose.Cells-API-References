@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'DBConnection constructor. Encapsulates the function that represents newdbconnection in Go.'
 type: docs
 weight: 200
-url: /go/dbconnection/newdbconnection/
+url: /go-cpp/dbconnection/newdbconnection/
 ---
 
 ## NewDBConnection function

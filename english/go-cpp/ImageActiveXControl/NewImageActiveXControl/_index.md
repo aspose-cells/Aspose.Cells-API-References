@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ImageActiveXControl constructor. Encapsulates the function that represents newimageactivexcontrol in Go.'
 type: docs
 weight: 200
-url: /go/imageactivexcontrol/newimageactivexcontrol/
+url: /go-cpp/imageactivexcontrol/newimageactivexcontrol/
 ---
 
 ## NewImageActiveXControl function

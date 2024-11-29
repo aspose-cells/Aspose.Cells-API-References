@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'PasteOperationType enum. Encapsulates the object that represents pasteoperationtype in Go.'
 type: docs
 weight: 200
-url: /go/pasteoperationtype/
+url: /go-cpp/pasteoperationtype/
 ---
 
 ## PasteOperationType Enum

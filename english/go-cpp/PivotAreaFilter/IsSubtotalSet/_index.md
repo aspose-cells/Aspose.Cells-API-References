@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsSubtotalSet method. Encapsulates the function that represents issubtotalset in Go.'
 type: docs
 weight: 200
-url: /go/pivotareafilter/issubtotalset/
+url: /go-cpp/pivotareafilter/issubtotalset/
 ---
 
 ## IsSubtotalSet function

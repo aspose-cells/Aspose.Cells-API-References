@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsModified method. Encapsulates the function that represents ismodified in Go.'
 type: docs
 weight: 200
-url: /go/style/ismodified/
+url: /go-cpp/style/ismodified/
 ---
 
 ## IsModified function

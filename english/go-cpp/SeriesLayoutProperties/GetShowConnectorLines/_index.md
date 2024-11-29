@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetShowConnectorLines method. Encapsulates the function that represents getshowconnectorlines in Go.'
 type: docs
 weight: 200
-url: /go/serieslayoutproperties/getshowconnectorlines/
+url: /go-cpp/serieslayoutproperties/getshowconnectorlines/
 ---
 
 ## GetShowConnectorLines function

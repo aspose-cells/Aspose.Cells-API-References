@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ClearGlowEffect method. Encapsulates the function that represents cleargloweffect in Go.'
 type: docs
 weight: 200
-url: /go/shapepropertycollection/cleargloweffect/
+url: /go-cpp/shapepropertycollection/cleargloweffect/
 ---
 
 ## ClearGlowEffect function

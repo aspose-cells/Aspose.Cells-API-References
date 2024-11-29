@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetHyperlink method. Encapsulates the function that represents gethyperlink in Go.'
 type: docs
 weight: 200
-url: /go/scrollbar/gethyperlink/
+url: /go-cpp/scrollbar/gethyperlink/
 ---
 
 ## GetHyperlink function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetShowNegativeBubbles method. Encapsulates the function that represents getshownegativebubbles in Go.'
 type: docs
 weight: 200
-url: /go/series/getshownegativebubbles/
+url: /go-cpp/series/getshownegativebubbles/
 ---
 
 ## GetShowNegativeBubbles function

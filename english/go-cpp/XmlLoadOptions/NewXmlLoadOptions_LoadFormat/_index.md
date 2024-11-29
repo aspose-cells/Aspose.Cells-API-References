@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'XmlLoadOptions constructor. Encapsulates the function that represents newxmlloadoptions_loadformat in Go.'
 type: docs
 weight: 200
-url: /go/xmlloadoptions/newxmlloadoptions_loadformat/
+url: /go-cpp/xmlloadoptions/newxmlloadoptions_loadformat/
 ---
 
 ## NewXmlLoadOptions_LoadFormat function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetHtmlFormat method. Encapsulates the function that represents gethtmlformat in Go.'
 type: docs
 weight: 200
-url: /go/webqueryconnection/gethtmlformat/
+url: /go-cpp/webqueryconnection/gethtmlformat/
 ---
 
 ## GetHtmlFormat function

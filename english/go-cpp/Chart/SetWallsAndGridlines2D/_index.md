@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetWallsAndGridlines2D method. Encapsulates the function that represents setwallsandgridlines2d in Go.'
 type: docs
 weight: 200
-url: /go/chart/setwallsandgridlines2d/
+url: /go-cpp/chart/setwallsandgridlines2d/
 ---
 
 ## SetWallsAndGridlines2D function

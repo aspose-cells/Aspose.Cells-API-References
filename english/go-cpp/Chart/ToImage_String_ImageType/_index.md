@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ToImage_String_ImageType method. Encapsulates the function that represents toimage in Go.'
 type: docs
 weight: 200
-url: /go/chart/toimage_string_imagetype/
+url: /go-cpp/chart/toimage_string_imagetype/
 ---
 
 ## ToImage_String_ImageType function

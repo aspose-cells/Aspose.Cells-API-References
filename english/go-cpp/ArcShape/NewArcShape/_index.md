@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ArcShape constructor. Encapsulates the function that represents newarcshape in Go.'
 type: docs
 weight: 200
-url: /go/arcshape/newarcshape/
+url: /go-cpp/arcshape/newarcshape/
 ---
 
 ## NewArcShape function

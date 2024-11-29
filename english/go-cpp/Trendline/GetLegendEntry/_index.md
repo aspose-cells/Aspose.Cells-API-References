@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetLegendEntry method. Encapsulates the function that represents getlegendentry in Go.'
 type: docs
 weight: 200
-url: /go/trendline/getlegendentry/
+url: /go-cpp/trendline/getlegendentry/
 ---
 
 ## GetLegendEntry function

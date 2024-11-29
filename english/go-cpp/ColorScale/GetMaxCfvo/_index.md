@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetMaxCfvo method. Encapsulates the function that represents getmaxcfvo in Go.'
 type: docs
 weight: 200
-url: /go/colorscale/getmaxcfvo/
+url: /go-cpp/colorscale/getmaxcfvo/
 ---
 
 ## GetMaxCfvo function

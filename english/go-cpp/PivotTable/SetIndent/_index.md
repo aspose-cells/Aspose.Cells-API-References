@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIndent method. Encapsulates the function that represents setindent in Go.'
 type: docs
 weight: 200
-url: /go/pivottable/setindent/
+url: /go-cpp/pivottable/setindent/
 ---
 
 ## SetIndent function

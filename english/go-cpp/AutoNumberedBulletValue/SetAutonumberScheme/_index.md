@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetAutonumberScheme method. Encapsulates the function that represents setautonumberscheme in Go.'
 type: docs
 weight: 200
-url: /go/autonumberedbulletvalue/setautonumberscheme/
+url: /go-cpp/autonumberedbulletvalue/setautonumberscheme/
 ---
 
 ## SetAutonumberScheme function

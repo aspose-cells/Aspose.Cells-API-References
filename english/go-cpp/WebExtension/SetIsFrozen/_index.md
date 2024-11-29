@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsFrozen method. Encapsulates the function that represents setisfrozen in Go.'
 type: docs
 weight: 200
-url: /go/webextension/setisfrozen/
+url: /go-cpp/webextension/setisfrozen/
 ---
 
 ## SetIsFrozen function

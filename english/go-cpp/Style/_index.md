@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Style class. Encapsulates the object that represents style in Go.'
 type: docs
 weight: 200
-url: /go/style/
+url: /go-cpp/style/
 ---
 
 ## Style class

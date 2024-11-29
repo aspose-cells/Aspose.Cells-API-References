@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'Label constructor. Encapsulates the function that represents newlabel in Go.'
 type: docs
 weight: 200
-url: /go/label/newlabel/
+url: /go-cpp/label/newlabel/
 ---
 
 ## NewLabel function

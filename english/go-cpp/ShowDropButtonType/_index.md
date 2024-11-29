@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ShowDropButtonType enum. Encapsulates the object that represents showdropbuttontype in Go.'
 type: docs
 weight: 200
-url: /go/showdropbuttontype/
+url: /go-cpp/showdropbuttontype/
 ---
 
 ## ShowDropButtonType Enum

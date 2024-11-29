@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetExportViewType method. Encapsulates the function that represents getexportviewtype in Go.'
 type: docs
 weight: 200
-url: /go/pptxsaveoptions/getexportviewtype/
+url: /go-cpp/pptxsaveoptions/getexportviewtype/
 ---
 
 ## GetExportViewType function

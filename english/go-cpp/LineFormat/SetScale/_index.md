@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetScale method. Encapsulates the function that represents setscale in Go.'
 type: docs
 weight: 200
-url: /go/lineformat/setscale/
+url: /go-cpp/lineformat/setscale/
 ---
 
 ## SetScale function

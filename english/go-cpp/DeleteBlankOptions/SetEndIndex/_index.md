@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetEndIndex method. Encapsulates the function that represents setendindex in Go.'
 type: docs
 weight: 200
-url: /go/deleteblankoptions/setendindex/
+url: /go-cpp/deleteblankoptions/setendindex/
 ---
 
 ## SetEndIndex function

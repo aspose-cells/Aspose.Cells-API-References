@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'PageOrientationType enum. Encapsulates the object that represents pageorientationtype in Go.'
 type: docs
 weight: 200
-url: /go/pageorientationtype/
+url: /go-cpp/pageorientationtype/
 ---
 
 ## PageOrientationType Enum

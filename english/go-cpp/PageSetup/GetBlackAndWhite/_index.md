@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetBlackAndWhite method. Encapsulates the function that represents getblackandwhite in Go.'
 type: docs
 weight: 200
-url: /go/pagesetup/getblackandwhite/
+url: /go-cpp/pagesetup/getblackandwhite/
 ---
 
 ## GetBlackAndWhite function

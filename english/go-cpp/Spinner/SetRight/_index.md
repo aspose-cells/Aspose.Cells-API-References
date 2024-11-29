@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetRight method. Encapsulates the function that represents setright in Go.'
 type: docs
 weight: 200
-url: /go/spinner/setright/
+url: /go-cpp/spinner/setright/
 ---
 
 ## SetRight function

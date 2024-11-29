@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetBrightness method. Encapsulates the function that represents setbrightness in Go.'
 type: docs
 weight: 200
-url: /go/msoformatpicture/setbrightness/
+url: /go-cpp/msoformatpicture/setbrightness/
 ---
 
 ## SetBrightness function

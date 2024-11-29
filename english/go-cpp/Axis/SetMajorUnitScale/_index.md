@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetMajorUnitScale method. Encapsulates the function that represents setmajorunitscale in Go.'
 type: docs
 weight: 200
-url: /go/axis/setmajorunitscale/
+url: /go-cpp/axis/setmajorunitscale/
 ---
 
 ## SetMajorUnitScale function

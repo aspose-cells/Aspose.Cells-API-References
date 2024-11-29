@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetContourColor method. Encapsulates the function that represents setcontourcolor in Go.'
 type: docs
 weight: 200
-url: /go/threedformat/setcontourcolor/
+url: /go-cpp/threedformat/setcontourcolor/
 ---
 
 ## SetContourColor function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetChartTitleName method. Encapsulates the function that represents setcharttitlename in Go.'
 type: docs
 weight: 200
-url: /go/settablechartglobalizationsettings/setcharttitlename/
+url: /go-cpp/settablechartglobalizationsettings/setcharttitlename/
 ---
 
 ## SetChartTitleName function

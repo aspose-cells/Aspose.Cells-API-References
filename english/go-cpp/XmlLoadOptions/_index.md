@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'XmlLoadOptions class. Encapsulates the object that represents xmlloadoptions in Go.'
 type: docs
 weight: 200
-url: /go/xmlloadoptions/
+url: /go-cpp/xmlloadoptions/
 ---
 
 ## XmlLoadOptions class

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetPrintingPage method. Encapsulates the function that represents setprintingpage in Go.'
 type: docs
 weight: 200
-url: /go/imageorprintoptions/setprintingpage/
+url: /go-cpp/imageorprintoptions/setprintingpage/
 ---
 
 ## SetPrintingPage function

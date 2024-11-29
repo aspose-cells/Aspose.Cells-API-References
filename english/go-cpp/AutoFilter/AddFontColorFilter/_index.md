@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'AddFontColorFilter method. Encapsulates the function that represents addfontcolorfilter in Go.'
 type: docs
 weight: 200
-url: /go/autofilter/addfontcolorfilter/
+url: /go-cpp/autofilter/addfontcolorfilter/
 ---
 
 ## AddFontColorFilter function

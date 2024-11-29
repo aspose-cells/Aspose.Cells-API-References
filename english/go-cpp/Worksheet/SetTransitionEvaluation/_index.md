@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetTransitionEvaluation method. Encapsulates the function that represents settransitionevaluation in Go.'
 type: docs
 weight: 200
-url: /go/worksheet/settransitionevaluation/
+url: /go-cpp/worksheet/settransitionevaluation/
 ---
 
 ## SetTransitionEvaluation function

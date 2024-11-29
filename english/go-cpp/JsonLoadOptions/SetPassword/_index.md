@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetPassword method. Encapsulates the function that represents setpassword in Go.'
 type: docs
 weight: 200
-url: /go/jsonloadoptions/setpassword/
+url: /go-cpp/jsonloadoptions/setpassword/
 ---
 
 ## SetPassword function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsAutomaticMinorUnit method. Encapsulates the function that represents isautomaticminorunit in Go.'
 type: docs
 weight: 200
-url: /go/axis/isautomaticminorunit/
+url: /go-cpp/axis/isautomaticminorunit/
 ---
 
 ## IsAutomaticMinorUnit function

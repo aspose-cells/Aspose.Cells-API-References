@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'ThreeDFormat class. Encapsulates the object that represents threedformat in Go.'
 type: docs
 weight: 200
-url: /go/threedformat/
+url: /go-cpp/threedformat/
 ---
 
 ## ThreeDFormat class

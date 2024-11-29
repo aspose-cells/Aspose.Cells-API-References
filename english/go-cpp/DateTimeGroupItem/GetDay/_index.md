@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetDay method. Encapsulates the function that represents getday in Go.'
 type: docs
 weight: 200
-url: /go/datetimegroupitem/getday/
+url: /go-cpp/datetimegroupitem/getday/
 ---
 
 ## GetDay function

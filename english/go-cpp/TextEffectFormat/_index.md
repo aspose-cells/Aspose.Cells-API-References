@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'TextEffectFormat class. Encapsulates the object that represents texteffectformat in Go.'
 type: docs
 weight: 200
-url: /go/texteffectformat/
+url: /go-cpp/texteffectformat/
 ---
 
 ## TextEffectFormat class

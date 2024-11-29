@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetThemeColor method. Encapsulates the function that represents setthemecolor in Go.'
 type: docs
 weight: 200
-url: /go/cellscolor/setthemecolor/
+url: /go-cpp/cellscolor/setthemecolor/
 ---
 
 ## SetThemeColor function

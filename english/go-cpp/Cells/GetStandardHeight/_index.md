@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetStandardHeight method. Encapsulates the function that represents getstandardheight in Go.'
 type: docs
 weight: 200
-url: /go/cells/getstandardheight/
+url: /go-cpp/cells/getstandardheight/
 ---
 
 ## GetStandardHeight function

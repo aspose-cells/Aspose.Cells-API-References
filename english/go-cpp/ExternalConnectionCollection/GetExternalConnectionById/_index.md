@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetExternalConnectionById method. Encapsulates the function that represents getexternalconnectionbyid in Go.'
 type: docs
 weight: 200
-url: /go/externalconnectioncollection/getexternalconnectionbyid/
+url: /go-cpp/externalconnectioncollection/getexternalconnectionbyid/
 ---
 
 ## GetExternalConnectionById function

@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsExpImageToTempDir method. Encapsulates the function that represents setisexpimagetotempdir in Go.'
 type: docs
 weight: 200
-url: /go/ebooksaveoptions/setisexpimagetotempdir/
+url: /go-cpp/ebooksaveoptions/setisexpimagetotempdir/
 ---
 
 ## SetIsExpImageToTempDir function

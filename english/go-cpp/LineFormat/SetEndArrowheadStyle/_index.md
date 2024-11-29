@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetEndArrowheadStyle method. Encapsulates the function that represents setendarrowheadstyle in Go.'
 type: docs
 weight: 200
-url: /go/lineformat/setendarrowheadstyle/
+url: /go-cpp/lineformat/setendarrowheadstyle/
 ---
 
 ## SetEndArrowheadStyle function

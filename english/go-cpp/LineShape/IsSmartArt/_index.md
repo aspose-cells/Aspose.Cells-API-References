@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'IsSmartArt method. Encapsulates the function that represents issmartart in Go.'
 type: docs
 weight: 200
-url: /go/lineshape/issmartart/
+url: /go-cpp/lineshape/issmartart/
 ---
 
 ## IsSmartArt function

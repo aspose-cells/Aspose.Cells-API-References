@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetStrikeType method. Encapsulates the function that represents setstriketype in Go.'
 type: docs
 weight: 200
-url: /go/font/setstriketype/
+url: /go-cpp/font/setstriketype/
 ---
 
 ## SetStrikeType function

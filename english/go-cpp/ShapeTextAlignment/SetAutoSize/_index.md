@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetAutoSize method. Encapsulates the function that represents setautosize in Go.'
 type: docs
 weight: 200
-url: /go/shapetextalignment/setautosize/
+url: /go-cpp/shapetextalignment/setautosize/
 ---
 
 ## SetAutoSize function

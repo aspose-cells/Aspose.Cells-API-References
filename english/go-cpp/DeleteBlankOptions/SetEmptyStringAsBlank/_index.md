@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetEmptyStringAsBlank method. Encapsulates the function that represents setemptystringasblank in Go.'
 type: docs
 weight: 200
-url: /go/deleteblankoptions/setemptystringasblank/
+url: /go-cpp/deleteblankoptions/setemptystringasblank/
 ---
 
 ## SetEmptyStringAsBlank function

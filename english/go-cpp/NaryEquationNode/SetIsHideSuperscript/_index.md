@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'SetIsHideSuperscript method. Encapsulates the function that represents setishidesuperscript in Go.'
 type: docs
 weight: 200
-url: /go/naryequationnode/setishidesuperscript/
+url: /go-cpp/naryequationnode/setishidesuperscript/
 ---
 
 ## SetIsHideSuperscript function

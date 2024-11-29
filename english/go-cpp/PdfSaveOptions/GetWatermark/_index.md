@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetWatermark method. Encapsulates the function that represents getwatermark in Go.'
 type: docs
 weight: 200
-url: /go/pdfsaveoptions/getwatermark/
+url: /go-cpp/pdfsaveoptions/getwatermark/
 ---
 
 ## GetWatermark function

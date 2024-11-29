@@ -5,7 +5,7 @@ second_title: Aspose.Cells for Go API Reference
 description: 'GetTiffCompression method. Encapsulates the function that represents gettiffcompression in Go.'
 type: docs
 weight: 200
-url: /go/imageorprintoptions/gettiffcompression/
+url: /go-cpp/imageorprintoptions/gettiffcompression/
 ---
 
 ## GetTiffCompression function
