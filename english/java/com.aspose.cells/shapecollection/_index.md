@@ -973,11 +973,11 @@ Adds a Signature Line to the worksheet.
 ```
          SignatureLine wSignatureLine = new SignatureLine();
          wSignatureLine.setAllowComments(true);
-         wSignatureLine.setEmail("dsltak@gmail.com");
+         wSignatureLine.setEmail("example@example.com");
          wSignatureLine.setInstructions("Sign to confirm the excel content.");
          wSignatureLine.setLine(true);
          wSignatureLine.setShowSignedDate(true);
-         wSignatureLine.setSigner("TAKYU");
+         wSignatureLine.setSigner("User");
          wSignatureLine.setTitle("tester");
          //wSignatureLine.SignatureLineType = SignatureType.Stamp;
          Picture signatureLine1 = shapes.addSignatureLine(0, 0, wSignatureLine);

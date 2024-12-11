@@ -27,6 +27,7 @@ Represents the options for saving pdf file.
 | [getBookmark()](#getBookmark--) | Gets the [PdfBookmarkEntry](../../com.aspose.cells/pdfbookmarkentry) object. |
 | [getCachedFileFolder()](#getCachedFileFolder--) | The cached file folder is used to store some large data. |
 | [getCalculateFormula()](#getCalculateFormula--) | Indicates whether to calculate formulas before saving pdf file. |
+| [getCheckExcelRestriction()](#getCheckExcelRestriction--) | Whether check restriction of excel file when user modify cells related objects. |
 | [getCheckFontCompatibility()](#getCheckFontCompatibility--) | Indicates whether to check font compatibility for every character in text. |
 | [getCheckWorkbookDefaultFont()](#getCheckWorkbookDefaultFont--) | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. |
 | [getClass()](#getClass--) |  |
@@ -77,6 +78,7 @@ Represents the options for saving pdf file.
 | [setBookmark(PdfBookmarkEntry value)](#setBookmark-com.aspose.cells.PdfBookmarkEntry-) | Sets the [PdfBookmarkEntry](../../com.aspose.cells/pdfbookmarkentry) object. |
 | [setCachedFileFolder(String value)](#setCachedFileFolder-java.lang.String-) | The cached file folder is used to store some large data. |
 | [setCalculateFormula(boolean value)](#setCalculateFormula-boolean-) | Indicates whether to calculate formulas before saving pdf file. |
+| [setCheckExcelRestriction(boolean value)](#setCheckExcelRestriction-boolean-) | Whether check restriction of excel file when user modify cells related objects. |
 | [setCheckFontCompatibility(boolean value)](#setCheckFontCompatibility-boolean-) | Indicates whether to check font compatibility for every character in text. |
 | [setCheckWorkbookDefaultFont(boolean value)](#setCheckWorkbookDefaultFont-boolean-) | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. |
 | [setClearData(boolean value)](#setClearData-boolean-) | Make the workbook empty after saving the file. |
@@ -187,6 +189,16 @@ Indicates whether to calculate formulas before saving pdf file.
 **Remarks**
 
 The default value is false.
+
+**Returns:**
+boolean
+### getCheckExcelRestriction() {#getCheckExcelRestriction--}
+```
+public boolean getCheckExcelRestriction()
+```
+
+
+Whether check restriction of excel file when user modify cells related objects. For example, excel does not allow inputting string value longer than 32K. When you input a value longer than 32K, it will be truncated.
 
 **Returns:**
 boolean
@@ -960,6 +972,19 @@ Indicates whether to calculate formulas before saving pdf file.
 **Remarks**
 
 The default value is false.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setCheckExcelRestriction(boolean value) {#setCheckExcelRestriction-boolean-}
+```
+public void setCheckExcelRestriction(boolean value)
+```
+
+
+Whether check restriction of excel file when user modify cells related objects. For example, excel does not allow inputting string value longer than 32K. When you input a value longer than 32K, it will be truncated.
 
 **Parameters:**
 | Parameter | Type | Description |

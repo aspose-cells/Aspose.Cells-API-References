@@ -60,10 +60,8 @@ Represents a PivotFilter in PivotFilter Collection.
  
          pivot.setPivotTableStyleType(PivotTableStyleType.PIVOT_TABLE_STYLE_MEDIUM_10);
  
-         //Add PivotFilter
-         int index = pivot.getPivotFilters().add(0, PivotFilterType.COUNT);
-         PivotFilter filter = pivot.getPivotFilters().get(index);
-         filter.getAutoFilter().filterTop10(0, false, false, 2);
+         //Add top 10 filter
+          pivot.getBaseFields().get(0).filterTop10(0, PivotFilterType.COUNT,false,2);
  
          pivot.refreshData();
          pivot.calculateData();
@@ -79,14 +77,22 @@ Represents a PivotFilter in PivotFilter Collection.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAutoFilter()](#getAutoFilter--) | Gets the autofilter of the pivot filter. |
 | [getClass()](#getClass--) |  |
+| [getDateTimeValues()](#getDateTimeValues--) | Gets values of the number filter. |
 | [getEvaluationOrder()](#getEvaluationOrder--) | Gets the Evaluation Order of the pivot filter. |
-| [getFieldIndex()](#getFieldIndex--) | Gets the field index of the pivot filter. |
+| [getFieldIndex()](#getFieldIndex--) | Gets the index of source field which this pivot filter is applied to. |
+| [getFilterCategory()](#getFilterCategory--) | Gets the category of this filter. |
 | [getFilterType()](#getFilterType--) | Gets the autofilter type of the pivot filter. |
+| [getLabels()](#getLabels--) | Gets labels of the caption filter. |
+| [getMeasureCubeFieldIndex()](#getMeasureCubeFieldIndex--) | Specifies the index of the measure cube field. |
 | [getMeasureFldIndex()](#getMeasureFldIndex--) | Gets the measure field index of the pivot filter. |
 | [getMemberPropertyFieldIndex()](#getMemberPropertyFieldIndex--) | Gets the member property field index of the pivot filter. |
 | [getName()](#getName--) | Gets the name of the pivot filter. |
+| [getNumberValues()](#getNumberValues--) | Gets values of the number filter. |
+| [getTop10Value()](#getTop10Value--) | Gets top 10 setting of the filter. |
+| [getUseWholeDay()](#getUseWholeDay--) | Indicates whether uses whole days in its filtering criteria. |
 | [getValue1()](#getValue1--) | Gets the string value1 of the label pivot filter. |
 | [getValue2()](#getValue2--) | Gets the string value2 of the label pivot filter. |
+| [getValueFieldIndex()](#getValueFieldIndex--) | Gets the index of value field in the value region. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -94,8 +100,10 @@ Represents a PivotFilter in PivotFilter Collection.
 | [setMeasureFldIndex(int value)](#setMeasureFldIndex-int-) | Gets the measure field index of the pivot filter. |
 | [setMemberPropertyFieldIndex(int value)](#setMemberPropertyFieldIndex-int-) | Gets the member property field index of the pivot filter. |
 | [setName(String value)](#setName-java.lang.String-) | Gets the name of the pivot filter. |
+| [setUseWholeDay(boolean value)](#setUseWholeDay-boolean-) | Indicates whether uses whole days in its filtering criteria. |
 | [setValue1(String value)](#setValue1-java.lang.String-) | Gets the string value1 of the label pivot filter. |
 | [setValue2(String value)](#setValue2-java.lang.String-) | Gets the string value2 of the label pivot filter. |
+| [setValueFieldIndex(int value)](#setValueFieldIndex-int-) | Gets the index of value field in the value region. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -123,6 +131,10 @@ public AutoFilter getAutoFilter()
 
 Gets the autofilter of the pivot filter.
 
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use FilterLabel, FilterValue,FilterDate or FilterTop10 method. This method will be removed 12 months later since November 2024. Aspose apologizes for any inconvenience you may have experienced.
+
 **Returns:**
 [AutoFilter](../../com.aspose.cells/autofilter)
 ### getClass() {#getClass--}
@@ -135,6 +147,16 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
+### getDateTimeValues() {#getDateTimeValues--}
+```
+public DateTime[] getDateTimeValues()
+```
+
+
+Gets values of the number filter.
+
+**Returns:**
+com.aspose.cells.DateTime[] - 
 ### getEvaluationOrder() {#getEvaluationOrder--}
 ```
 public int getEvaluationOrder()
@@ -151,7 +173,19 @@ public int getFieldIndex()
 ```
 
 
-Gets the field index of the pivot filter.
+Gets the index of source field which this pivot filter is applied to.
+
+**Returns:**
+int
+### getFilterCategory() {#getFilterCategory--}
+```
+public int getFilterCategory()
+```
+
+
+Gets the category of this filter.
+
+See [FilterCategory](../../com.aspose.cells/filtercategory).
 
 **Returns:**
 int
@@ -167,6 +201,26 @@ See [PivotFilterType](../../com.aspose.cells/pivotfiltertype).
 
 **Returns:**
 int
+### getLabels() {#getLabels--}
+```
+public String[] getLabels()
+```
+
+
+Gets labels of the caption filter.
+
+**Returns:**
+java.lang.String[] - 
+### getMeasureCubeFieldIndex() {#getMeasureCubeFieldIndex--}
+```
+public int getMeasureCubeFieldIndex()
+```
+
+
+Specifies the index of the measure cube field. this property is used only by filters in OLAP pivots and specifies on which measure a value filter should apply.
+
+**Returns:**
+int
 ### getMeasureFldIndex() {#getMeasureFldIndex--}
 ```
 public int getMeasureFldIndex()
@@ -174,6 +228,10 @@ public int getMeasureFldIndex()
 
 
 Gets the measure field index of the pivot filter.
+
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use PivotFilter.ValueFieldIndex property. This method will be removed 12 months later since November 2024. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
@@ -197,6 +255,36 @@ Gets the name of the pivot filter.
 
 **Returns:**
 java.lang.String
+### getNumberValues() {#getNumberValues--}
+```
+public double[] getNumberValues()
+```
+
+
+Gets values of the number filter.
+
+**Returns:**
+double[] - 
+### getTop10Value() {#getTop10Value--}
+```
+public Top10Filter getTop10Value()
+```
+
+
+Gets top 10 setting of the filter.
+
+**Returns:**
+[Top10Filter](../../com.aspose.cells/top10filter)
+### getUseWholeDay() {#getUseWholeDay--}
+```
+public boolean getUseWholeDay()
+```
+
+
+Indicates whether uses whole days in its filtering criteria.
+
+**Returns:**
+boolean
 ### getValue1() {#getValue1--}
 ```
 public String getValue1()
@@ -217,6 +305,16 @@ Gets the string value2 of the label pivot filter.
 
 **Returns:**
 java.lang.String
+### getValueFieldIndex() {#getValueFieldIndex--}
+```
+public int getValueFieldIndex()
+```
+
+
+Gets the index of value field in the value region.
+
+**Returns:**
+int
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -264,6 +362,10 @@ public void setMeasureFldIndex(int value)
 
 Gets the measure field index of the pivot filter.
 
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use PivotFilter.ValueFieldIndex property. This method will be removed 12 months later since November 2024. Aspose apologizes for any inconvenience you may have experienced.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -295,6 +397,19 @@ Gets the name of the pivot filter.
 | --- | --- | --- |
 | value | java.lang.String |  |
 
+### setUseWholeDay(boolean value) {#setUseWholeDay-boolean-}
+```
+public void setUseWholeDay(boolean value)
+```
+
+
+Indicates whether uses whole days in its filtering criteria.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
 ### setValue1(String value) {#setValue1-java.lang.String-}
 ```
 public void setValue1(String value)
@@ -320,6 +435,19 @@ Gets the string value2 of the label pivot filter.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
+
+### setValueFieldIndex(int value) {#setValueFieldIndex-int-}
+```
+public void setValueFieldIndex(int value)
+```
+
+
+Gets the index of value field in the value region.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
 
 ### toString() {#toString--}
 ```

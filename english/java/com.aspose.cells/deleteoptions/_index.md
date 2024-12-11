@@ -24,10 +24,12 @@ Represents the setting of deleting rows/columns.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
+| [getFormulaChangeMonitor()](#getFormulaChangeMonitor--) | Gets the monitor for tracking changes caused by the deletion. |
 | [getUpdateReference()](#getUpdateReference--) | Indicates if update references in other worksheets. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
+| [setFormulaChangeMonitor(AbstractFormulaChangeMonitor value)](#setFormulaChangeMonitor-com.aspose.cells.AbstractFormulaChangeMonitor-) | Sets the monitor for tracking changes caused by the deletion. |
 | [setUpdateReference(boolean value)](#setUpdateReference-boolean-) | Indicates if update references in other worksheets. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -64,6 +66,16 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
+### getFormulaChangeMonitor() {#getFormulaChangeMonitor--}
+```
+public AbstractFormulaChangeMonitor getFormulaChangeMonitor()
+```
+
+
+Gets the monitor for tracking changes caused by the deletion.
+
+**Returns:**
+[AbstractFormulaChangeMonitor](../../com.aspose.cells/abstractformulachangemonitor)
 ### getUpdateReference() {#getUpdateReference--}
 ```
 public boolean getUpdateReference()
@@ -99,6 +111,19 @@ public final native void notifyAll()
 
 
 
+
+### setFormulaChangeMonitor(AbstractFormulaChangeMonitor value) {#setFormulaChangeMonitor-com.aspose.cells.AbstractFormulaChangeMonitor-}
+```
+public void setFormulaChangeMonitor(AbstractFormulaChangeMonitor value)
+```
+
+
+Sets the monitor for tracking changes caused by the deletion.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [AbstractFormulaChangeMonitor](../../com.aspose.cells/abstractformulachangemonitor) |  |
 
 ### setUpdateReference(boolean value) {#setUpdateReference-boolean-}
 ```

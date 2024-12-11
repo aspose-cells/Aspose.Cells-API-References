@@ -19,6 +19,10 @@ Represents a collection of all the PivotFilter objects
 | --- | --- |
 | [add(int fieldIndex, int type)](#add-int-int-) | Adds a PivotFilter Object to the specific type |
 | [add(Object o)](#add-java.lang.Object-) | Adds an item to the CollectionBase instance. |
+| [addDateFilter(int baseFieldIndex, int type, DateTime dateTime1, DateTime dateTime2)](#addDateFilter-int-int-com.aspose.cells.DateTime-com.aspose.cells.DateTime-) | Filters by date setting of row or column pivot field. |
+| [addLabelFilter(int baseFieldIndex, int type, String label1, String label2)](#addLabelFilter-int-int-java.lang.String-java.lang.String-) | Filters by captions of row or column pivot field. |
+| [addTop10Filter(int baseFieldIndex, int valueFieldIndex, int type, boolean isTop, int itemCount)](#addTop10Filter-int-int-int-boolean-int-) | Filters by values of data pivot field. |
+| [addValueFilter(int baseFieldIndex, int valueFieldIndex, int type, double value1, double value2)](#addValueFilter-int-int-int-double-double-) | Filters by values of data pivot field. |
 | [clear()](#clear--) | Removes all objects from the CollectionBase instance. |
 | [clearFilter(int fieldIndex)](#clearFilter-int-) | Clear PivotFilter from the specific PivotField |
 | [contains(Object o)](#contains-java.lang.Object-) | Return whether instance contains this object |
@@ -44,6 +48,10 @@ public int add(int fieldIndex, int type)
 
 Adds a PivotFilter Object to the specific type
 
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use PivotFilterCollection.AddValueFilter(),AddTop10Filter(),AddLabelFilter() and AddDateFilter() methods. This method will be removed 12 months later since November 2024. Aspose apologizes for any inconvenience you may have experienced.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -67,6 +75,80 @@ Adds an item to the CollectionBase instance.
 
 **Returns:**
 int - The position into which the new element was inserted.
+### addDateFilter(int baseFieldIndex, int type, DateTime dateTime1, DateTime dateTime2) {#addDateFilter-int-int-com.aspose.cells.DateTime-com.aspose.cells.DateTime-}
+```
+public PivotFilter addDateFilter(int baseFieldIndex, int type, DateTime dateTime1, DateTime dateTime2)
+```
+
+
+Filters by date setting of row or column pivot field.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| baseFieldIndex | int | The index of field in the source. |
+| type | int | [PivotFilterType](../../com.aspose.cells/pivotfiltertype). The type of filtering data. |
+| dateTime1 | [DateTime](../../com.aspose.cells/datetime) | The date label of filter condition |
+| dateTime2 | [DateTime](../../com.aspose.cells/datetime) | The upper-bound date label of between filter condition |
+
+**Returns:**
+[PivotFilter](../../com.aspose.cells/pivotfilter)
+### addLabelFilter(int baseFieldIndex, int type, String label1, String label2) {#addLabelFilter-int-int-java.lang.String-java.lang.String-}
+```
+public PivotFilter addLabelFilter(int baseFieldIndex, int type, String label1, String label2)
+```
+
+
+Filters by captions of row or column pivot field.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| baseFieldIndex | int | The index of field in the source. |
+| type | int | [PivotFilterType](../../com.aspose.cells/pivotfiltertype). The type of filtering data. |
+| label1 | java.lang.String | The label of filter condition |
+| label2 | java.lang.String | The upper-bound label of between filter condition |
+
+**Returns:**
+[PivotFilter](../../com.aspose.cells/pivotfilter)
+### addTop10Filter(int baseFieldIndex, int valueFieldIndex, int type, boolean isTop, int itemCount) {#addTop10Filter-int-int-int-boolean-int-}
+```
+public PivotFilter addTop10Filter(int baseFieldIndex, int valueFieldIndex, int type, boolean isTop, int itemCount)
+```
+
+
+Filters by values of data pivot field.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| baseFieldIndex | int | The index of field in the source. |
+| valueFieldIndex | int | The index of data field in the data region. |
+| type | int | [PivotFilterType](../../com.aspose.cells/pivotfiltertype). The type of filtering data. Only can be Count,Sum and Percent. |
+| isTop | boolean | Indicates whether filter from top or bottom |
+| itemCount | int | The item count |
+
+**Returns:**
+[PivotFilter](../../com.aspose.cells/pivotfilter)
+### addValueFilter(int baseFieldIndex, int valueFieldIndex, int type, double value1, double value2) {#addValueFilter-int-int-int-double-double-}
+```
+public PivotFilter addValueFilter(int baseFieldIndex, int valueFieldIndex, int type, double value1, double value2)
+```
+
+
+Filters by values of data pivot field.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| baseFieldIndex | int | The index of field in the source. |
+| valueFieldIndex | int | The index of value field in the value region. |
+| type | int | [PivotFilterType](../../com.aspose.cells/pivotfiltertype). The type of filtering data. |
+| value1 | double | The value of filter condition |
+| value2 | double | The upper-bound value of between filter condition |
+
+**Returns:**
+[PivotFilter](../../com.aspose.cells/pivotfilter)
 ### clear() {#clear--}
 ```
 public void clear()

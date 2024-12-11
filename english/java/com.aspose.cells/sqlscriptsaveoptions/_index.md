@@ -26,6 +26,7 @@ Represents the options of saving sql.
 | [getAddBlankLineBetweenRows()](#getAddBlankLineBetweenRows--) | Insert blank line between each data. |
 | [getCachedFileFolder()](#getCachedFileFolder--) | The cached file folder is used to store some large data. |
 | [getCheckAllDataForColumnType()](#getCheckAllDataForColumnType--) | Check all data to find columns' data type. |
+| [getCheckExcelRestriction()](#getCheckExcelRestriction--) | Whether check restriction of excel file when user modify cells related objects. |
 | [getCheckIfTableExists()](#getCheckIfTableExists--) | Check if the table name exists before creating |
 | [getClass()](#getClass--) |  |
 | [getClearData()](#getClearData--) | Make the workbook empty after saving the file. |
@@ -57,6 +58,7 @@ Represents the options of saving sql.
 | [setAddBlankLineBetweenRows(boolean value)](#setAddBlankLineBetweenRows-boolean-) | Insert blank line between each data. |
 | [setCachedFileFolder(String value)](#setCachedFileFolder-java.lang.String-) | The cached file folder is used to store some large data. |
 | [setCheckAllDataForColumnType(boolean value)](#setCheckAllDataForColumnType-boolean-) | Check all data to find columns' data type. |
+| [setCheckExcelRestriction(boolean value)](#setCheckExcelRestriction-boolean-) | Whether check restriction of excel file when user modify cells related objects. |
 | [setCheckIfTableExists(boolean value)](#setCheckIfTableExists-boolean-) | Check if the table name exists before creating |
 | [setClearData(boolean value)](#setClearData-boolean-) | Make the workbook empty after saving the file. |
 | [setColumnTypeMap(SqlScriptColumnTypeMap value)](#setColumnTypeMap-com.aspose.cells.SqlScriptColumnTypeMap-) | Sets the map of column type for different database. |
@@ -142,6 +144,16 @@ Check all data to find columns' data type.
 **Remarks**
 
 The default value is false, we only check the first row for performance. If this property is true and the columns contains mixed value type, the columns' type will be text.
+
+**Returns:**
+boolean
+### getCheckExcelRestriction() {#getCheckExcelRestriction--}
+```
+public boolean getCheckExcelRestriction()
+```
+
+
+Whether check restriction of excel file when user modify cells related objects. For example, excel does not allow inputting string value longer than 32K. When you input a value longer than 32K, it will be truncated.
 
 **Returns:**
 boolean
@@ -498,6 +510,19 @@ Check all data to find columns' data type.
 **Remarks**
 
 The default value is false, we only check the first row for performance. If this property is true and the columns contains mixed value type, the columns' type will be text.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setCheckExcelRestriction(boolean value) {#setCheckExcelRestriction-boolean-}
+```
+public void setCheckExcelRestriction(boolean value)
+```
+
+
+Whether check restriction of excel file when user modify cells related objects. For example, excel does not allow inputting string value longer than 32K. When you input a value longer than 32K, it will be truncated.
 
 **Parameters:**
 | Parameter | Type | Description |

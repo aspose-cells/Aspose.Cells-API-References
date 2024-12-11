@@ -26,6 +26,7 @@ Represents the save options for csv/tab delimited/other text format.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAlwaysQuoted()](#getAlwaysQuoted--) | Indicates whether always adding '"' for each field. |
 | [getCachedFileFolder()](#getCachedFileFolder--) | The cached file folder is used to store some large data. |
+| [getCheckExcelRestriction()](#getCheckExcelRestriction--) | Whether check restriction of excel file when user modify cells related objects. |
 | [getClass()](#getClass--) |  |
 | [getClearData()](#getClearData--) | Make the workbook empty after saving the file. |
 | [getCreateDirectory()](#getCreateDirectory--) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
@@ -55,6 +56,7 @@ Represents the save options for csv/tab delimited/other text format.
 | [notifyAll()](#notifyAll--) |  |
 | [setAlwaysQuoted(boolean value)](#setAlwaysQuoted-boolean-) | Indicates whether always adding '"' for each field. |
 | [setCachedFileFolder(String value)](#setCachedFileFolder-java.lang.String-) | The cached file folder is used to store some large data. |
+| [setCheckExcelRestriction(boolean value)](#setCheckExcelRestriction-boolean-) | Whether check restriction of excel file when user modify cells related objects. |
 | [setClearData(boolean value)](#setClearData-boolean-) | Make the workbook empty after saving the file. |
 | [setCreateDirectory(boolean value)](#setCreateDirectory-boolean-) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [setEncoding(Encoding value)](#setEncoding-com.aspose.cells.Encoding-) | Sets the default encoding. |
@@ -141,6 +143,16 @@ The cached file folder is used to store some large data.
 
 **Returns:**
 java.lang.String
+### getCheckExcelRestriction() {#getCheckExcelRestriction--}
+```
+public boolean getCheckExcelRestriction()
+```
+
+
+Whether check restriction of excel file when user modify cells related objects. For example, excel does not allow inputting string value longer than 32K. When you input a value longer than 32K, it will be truncated.
+
+**Returns:**
+boolean
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -478,6 +490,19 @@ The cached file folder is used to store some large data.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
+
+### setCheckExcelRestriction(boolean value) {#setCheckExcelRestriction-boolean-}
+```
+public void setCheckExcelRestriction(boolean value)
+```
+
+
+Whether check restriction of excel file when user modify cells related objects. For example, excel does not allow inputting string value longer than 32K. When you input a value longer than 32K, it will be truncated.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### setClearData(boolean value) {#setClearData-boolean-}
 ```

@@ -28,6 +28,7 @@ Represents the setting of deleting blank cells/rows/columns.
 | [getEmptyFormulaValueAsBlank()](#getEmptyFormulaValueAsBlank--) | Whether one cell will be taken as blank when it is formula and the calculated result is null or empty string. |
 | [getEmptyStringAsBlank()](#getEmptyStringAsBlank--) | Whether one cell will be taken as blank when its value is empty string. |
 | [getEndIndex()](#getEndIndex--) | Specifies the end row/column index(inclusive) of the range to check and delete blank rows/columns. |
+| [getFormulaChangeMonitor()](#getFormulaChangeMonitor--) | Gets the monitor for tracking changes caused by the deletion. |
 | [getMergedCellsShrinkType()](#getMergedCellsShrinkType--) | Indicates how to process merged cells when deleting blank rows/columns. |
 | [getStartIndex()](#getStartIndex--) | Specifies the start row/column index of the range to check and delete blank rows/columns. |
 | [getUpdateReference()](#getUpdateReference--) | Indicates if update references in other worksheets. |
@@ -38,6 +39,7 @@ Represents the setting of deleting blank cells/rows/columns.
 | [setEmptyFormulaValueAsBlank(boolean value)](#setEmptyFormulaValueAsBlank-boolean-) | Whether one cell will be taken as blank when it is formula and the calculated result is null or empty string. |
 | [setEmptyStringAsBlank(boolean value)](#setEmptyStringAsBlank-boolean-) | Whether one cell will be taken as blank when its value is empty string. |
 | [setEndIndex(int value)](#setEndIndex-int-) | Specifies the end row/column index(inclusive) of the range to check and delete blank rows/columns. |
+| [setFormulaChangeMonitor(AbstractFormulaChangeMonitor value)](#setFormulaChangeMonitor-com.aspose.cells.AbstractFormulaChangeMonitor-) | Sets the monitor for tracking changes caused by the deletion. |
 | [setMergedCellsShrinkType(int value)](#setMergedCellsShrinkType-int-) | Indicates how to process merged cells when deleting blank rows/columns. |
 | [setStartIndex(int value)](#setStartIndex-int-) | Specifies the start row/column index of the range to check and delete blank rows/columns. |
 | [setUpdateReference(boolean value)](#setUpdateReference-boolean-) | Indicates if update references in other worksheets. |
@@ -124,6 +126,16 @@ Specifies the end row/column index(inclusive) of the range to check and delete b
 
 **Returns:**
 int
+### getFormulaChangeMonitor() {#getFormulaChangeMonitor--}
+```
+public AbstractFormulaChangeMonitor getFormulaChangeMonitor()
+```
+
+
+Gets the monitor for tracking changes caused by the deletion.
+
+**Returns:**
+[AbstractFormulaChangeMonitor](../../com.aspose.cells/abstractformulachangemonitor)
 ### getMergedCellsShrinkType() {#getMergedCellsShrinkType--}
 ```
 public int getMergedCellsShrinkType()
@@ -251,6 +263,19 @@ Specifies the end row/column index(inclusive) of the range to check and delete b
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
+
+### setFormulaChangeMonitor(AbstractFormulaChangeMonitor value) {#setFormulaChangeMonitor-com.aspose.cells.AbstractFormulaChangeMonitor-}
+```
+public void setFormulaChangeMonitor(AbstractFormulaChangeMonitor value)
+```
+
+
+Sets the monitor for tracking changes caused by the deletion.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [AbstractFormulaChangeMonitor](../../com.aspose.cells/abstractformulachangemonitor) |  |
 
 ### setMergedCellsShrinkType(int value) {#setMergedCellsShrinkType-int-}
 ```

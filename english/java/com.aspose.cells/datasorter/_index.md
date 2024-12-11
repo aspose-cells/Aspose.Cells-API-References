@@ -48,6 +48,7 @@ Summary description for DataSorter.
 
 | Method | Description |
 | --- | --- |
+| [addColorKey(int key, int type, int order, Color color)](#addColorKey-int-int-int-com.aspose.cells.Color-) | Adds color sort key. |
 | [addKey(int key, int order)](#addKey-int-int-) | Adds sorted column index and sort order. |
 | [addKey(int key, int type, int order, Object customList)](#addKey-int-int-int-java.lang.Object-) | Adds sorted column index and sort order with custom sort list. |
 | [addKey(int key, int order, String customList)](#addKey-int-int-java.lang.String-) | Adds sorted column index and sort order with custom sort list. |
@@ -86,6 +87,22 @@ Summary description for DataSorter.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### addColorKey(int key, int type, int order, Color color) {#addColorKey-int-int-int-com.aspose.cells.Color-}
+```
+public void addColorKey(int key, int type, int order, Color color)
+```
+
+
+Adds color sort key.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| key | int | The sorted column index(absolute position, column A is 0, B is 1, ...) |
+| type | int | [SortOnType](../../com.aspose.cells/sortontype). The sorted color value type. |
+| order | int | [SortOrder](../../com.aspose.cells/sortorder). The sort order. |
+| color | [Color](../../com.aspose.cells/color) | The custom sort color. |
+
 ### addKey(int key, int order) {#addKey-int-int-}
 ```
 public void addKey(int key, int order)

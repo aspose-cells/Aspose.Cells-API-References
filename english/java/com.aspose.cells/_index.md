@@ -17,6 +17,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [AboveAverage](../com.aspose.cells/aboveaverage) | Describe the AboveAverage conditional formatting rule. |
 | [AbstractCalculationEngine](../com.aspose.cells/abstractcalculationengine) | Represents user's custom calculation engine to extend the default calculation engine of Aspose.Cells. |
 | [AbstractCalculationMonitor](../com.aspose.cells/abstractcalculationmonitor) | Monitor for user to track the progress of formula calculation. |
+| [AbstractFormulaChangeMonitor](../com.aspose.cells/abstractformulachangemonitor) | Monitor for user to track the change of formulas during certain operations. |
 | [AbstractGlobalizationSettings](../com.aspose.cells/abstractglobalizationsettings) | Represents the globalization settings. |
 | [AbstractInterruptMonitor](../com.aspose.cells/abstractinterruptmonitor) | Monitor for interruption requests in all time-consuming operations. |
 | [AbstractTextLoadOptions](../com.aspose.cells/abstracttextloadoptions) | Common options for loading text values |
@@ -254,6 +255,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [FillPattern](../com.aspose.cells/fillpattern) | Enumerates shape fill pattern types. |
 | [FillPictureType](../com.aspose.cells/fillpicturetype) | Represents the picture fill type. |
 | [FillType](../com.aspose.cells/filltype) | Fill format type. |
+| [FilterCategory](../com.aspose.cells/filtercategory) | Represents the category of the filter. |
 | [FilterColumn](../com.aspose.cells/filtercolumn) | Represents a filter for a single column. |
 | [FilterColumnCollection](../com.aspose.cells/filtercolumncollection) | A collection of Filter objects that represents all the filters in an autofiltered range. |
 | [FilterOperatorType](../com.aspose.cells/filteroperatortype) | Custom Filter operator type. |
