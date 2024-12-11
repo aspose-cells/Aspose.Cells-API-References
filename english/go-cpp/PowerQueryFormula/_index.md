@@ -29,6 +29,7 @@ type PowerQueryFormula struct  {
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
+|[GetGroupName](./getgroupname/) | Gets the name of group which contains this power query formula. | 
 |[GetName](./getname/) | Gets and sets the name of the power query formula. | 
 |[SetName](./setname/) | Gets and sets the name of the power query formula. | 
 |[GetPowerQueryFormulaItems](./getpowerqueryformulaitems/) | Gets all items of power query formula. | 

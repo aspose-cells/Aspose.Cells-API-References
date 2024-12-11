@@ -34,3 +34,5 @@ type InsertOptions struct  {
 |[SetCopyFormatType](./setcopyformattype/) |  | 
 |[GetUpdateReference](./getupdatereference/) | Indicates if references in other worksheets will be updated. | 
 |[SetUpdateReference](./setupdatereference/) | Indicates if references in other worksheets will be updated. | 
+|[GetFormulaChangeMonitor](./getformulachangemonitor/) | Gets/sets the monitor for tracking changes caused by the insertion. | 
+|[SetFormulaChangeMonitor](./setformulachangemonitor/) | Gets/sets the monitor for tracking changes caused by the insertion. | 

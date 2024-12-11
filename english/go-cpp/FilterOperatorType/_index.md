@@ -34,3 +34,5 @@ type FilterOperatorType int32
 |[EndsWith](./endswith/) | Ends with the text. | 
 |[Contains](./contains/) | Contains the text. | 
 |[NotContains](./notcontains/) | Not contains the text. | 
+|[NotBeginsWith](./notbeginswith/) | Not begins with the text. | 
+|[NotEndsWith](./notendswith/) | Not ends with the text. | 

@@ -45,3 +45,5 @@ type DeleteBlankOptions struct  {
 |[SetEndIndex](./setendindex/) | Specifies the end row/column index(inclusive) of the range to check and delete blank rows/columns.Default value is -1 and -1 means the maximum range of all objects(cells, drawings, ...) that need to be checked. | 
 |[GetUpdateReference](./getupdatereference/) | Indicates if update references in other worksheets. | 
 |[SetUpdateReference](./setupdatereference/) | Indicates if update references in other worksheets. | 
+|[GetFormulaChangeMonitor](./getformulachangemonitor/) | Gets/sets the monitor for tracking changes caused by the deletion. | 
+|[SetFormulaChangeMonitor](./setformulachangemonitor/) | Gets/sets the monitor for tracking changes caused by the deletion. | 

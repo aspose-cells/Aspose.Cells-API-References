@@ -40,37 +40,37 @@ type PivotFilterType int32
 |[Count](./count/) | Indicates the "count" filter. | 
 |[DateBetween](./datebetween/) | Indicates the "between" filter for date values. | 
 |[DateEqual](./dateequal/) | Indicates the "equals" filter for date values. | 
-|[DateNewerThan](./datenewerthan/) | Indicates the "newer than" filter for date values. | 
-|[DateNewerThanOrEqual](./datenewerthanorequal/) | Indicates the "newer than or equal to" filter for date values. | 
+|[DateAfter](./dateafter/) | Indicates the "after" filter for date values. | 
+|[DateAfterOrEqual](./dateafterorequal/) | Indicates the "after or equal to" filter for date values. | 
 |[DateNotBetween](./datenotbetween/) | Indicates the "not between" filter for date values. | 
 |[DateNotEqual](./datenotequal/) | Indicates the "does not equal" filter for date values. | 
-|[DateOlderThan](./dateolderthan/) | Indicates the "older than" filter for date values. | 
-|[DateOlderThanOrEqual](./dateolderthanorequal/) | Indicates the "older than or equal to" filter for date values. | 
+|[DateBefore](./datebefore/) | Indicates the "before" filter for date values. | 
+|[DateBeforeOrEqual](./datebeforeorequal/) | Indicates the "before or equal to" filter for date values. | 
 |[LastMonth](./lastmonth/) | Indicates the "last month" filter for date values. | 
 |[LastQuarter](./lastquarter/) | Indicates the "last quarter" filter for date values. | 
 |[LastWeek](./lastweek/) | Indicates the "last week" filter for date values. | 
 |[LastYear](./lastyear/) | Indicates the "last year" filter for date values. | 
-|[M1](./m1/) | Indicates the "January" filter for date values. | 
-|[M2](./m2/) | Indicates the "February" filter for date values. | 
-|[M3](./m3/) | Indicates the "March" filter for date values. | 
-|[M4](./m4/) | Indicates the "April" filter for date values. | 
-|[M5](./m5/) | Indicates the "May" filter for date values. | 
-|[M6](./m6/) | Indicates the "June" filter for date values. | 
-|[M7](./m7/) | Indicates the "July" filter for date values. | 
-|[M8](./m8/) | Indicates the "August" filter for date values. | 
-|[M9](./m9/) | Indicates the "September" filter for date values. | 
-|[M10](./m10/) | Indicates the "October" filter for date values. | 
-|[M11](./m11/) | Indicates the "November" filter for date values. | 
-|[M12](./m12/) | Indicates the "December" filter for date values. | 
+|[January](./january/) | Indicates the "January" filter for date values. | 
+|[February](./february/) | Indicates the "February" filter for date values. | 
+|[March](./march/) | Indicates the "March" filter for date values. | 
+|[April](./april/) | Indicates the "April" filter for date values. | 
+|[May](./may/) | Indicates the "May" filter for date values. | 
+|[June](./june/) | Indicates the "June" filter for date values. | 
+|[July](./july/) | Indicates the "July" filter for date values. | 
+|[August](./august/) | Indicates the "August" filter for date values. | 
+|[September](./september/) | Indicates the "September" filter for date values. | 
+|[October](./october/) | Indicates the "October" filter for date values. | 
+|[November](./november/) | Indicates the "November" filter for date values. | 
+|[December](./december/) | Indicates the "December" filter for date values. | 
 |[NextMonth](./nextmonth/) | Indicates the "next month" filter for date values. | 
 |[NextQuarter](./nextquarter/) | Indicates the "next quarter" for date values. | 
 |[NextWeek](./nextweek/) | Indicates the "next week" for date values. | 
 |[NextYear](./nextyear/) | Indicates the "next year" filter for date values. | 
 |[Percent](./percent/) | Indicates the "percent" filter for numeric values. | 
-|[Q1](./q1/) | Indicates the "first quarter" filter for date values. | 
-|[Q2](./q2/) | Indicates the "second quarter" filter for date values. | 
-|[Q3](./q3/) | Indicates the "third quarter" filter for date values. | 
-|[Q4](./q4/) | Indicates the "fourth quarter" filter for date values. | 
+|[Quarter1](./quarter1/) | Indicates the "first quarter" filter for date values. | 
+|[Quarter2](./quarter2/) | Indicates the "second quarter" filter for date values. | 
+|[Quarter3](./quarter3/) | Indicates the "third quarter" filter for date values. | 
+|[Quarter4](./quarter4/) | Indicates the "fourth quarter" filter for date values. | 
 |[Sum](./sum/) | Indicates the "sum" filter for numeric values. | 
 |[ThisMonth](./thismonth/) | Indicates the "this month" filter for date values. | 
 |[ThisQuarter](./thisquarter/) | Indicates the "this quarter" filter for date values. | 
@@ -89,3 +89,4 @@ type PivotFilterType int32
 |[ValueNotEqual](./valuenotequal/) | Indicates the "value not equal" filter for text and numeric values. | 
 |[YearToDate](./yeartodate/) | Indicates the "year-to-date" filter for date values. | 
 |[Yesterday](./yesterday/) | Indicates the "yesterday" filter for date values. | 
+|[None](./none/) | No filter. | 

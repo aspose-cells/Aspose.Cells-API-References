@@ -10,7 +10,7 @@ url: /go-cpp/pivotfilter/getfieldindex/
 
 ## GetFieldIndex function
 
-Gets the field index of the pivot filter.
+Gets the index of source field which this pivot filter is applied to.
 
 ```go
 

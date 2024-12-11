@@ -10,7 +10,7 @@ url: /go-cpp/cells/deleterows_int_int/
 
 ## DeleteRows_Int_Int function
 
-Deletes several rows.
+Deletes multiple rows.
 
 ```go
 

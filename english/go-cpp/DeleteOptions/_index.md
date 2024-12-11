@@ -32,3 +32,5 @@ type DeleteOptions struct  {
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[GetUpdateReference](./getupdatereference/) | Indicates if update references in other worksheets. | 
 |[SetUpdateReference](./setupdatereference/) | Indicates if update references in other worksheets. | 
+|[GetFormulaChangeMonitor](./getformulachangemonitor/) | Gets/sets the monitor for tracking changes caused by the deletion. | 
+|[SetFormulaChangeMonitor](./setformulachangemonitor/) | Gets/sets the monitor for tracking changes caused by the deletion. | 

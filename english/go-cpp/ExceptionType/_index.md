@@ -48,3 +48,7 @@ type ExceptionType int32
 |[UndisclosedInformation](./undisclosedinformation/) | Files contains some undisclosed information. | 
 |[FileCorrupted](./filecorrupted/) | File content is corrupted. | 
 |[Internal](./internal/) | Internal exception. | 
+|[DefinedName](./definedname/) | Invalid defined name | 
+|[Font](./font/) | Invalid font | 
+|[AutoFilter](./autofilter/) | Invalid auto filter setting. | 
+|[FontSubstitution](./fontsubstitution/) | Font substitution warning typewhen a font has not been found, this warning type can be get. | 

@@ -153,3 +153,5 @@ type EbookSaveOptions struct  {
 |[SetOfficeMathOutputMode](./setofficemathoutputmode/) | Indicates how export OfficeMath objects to HTML, Default value is Image. | 
 |[GetCellNameAttribute](./getcellnameattribute/) | Specifies the attribute that indicates the CellName to be written.(e.g. If the value is "id", then for cell "A1", the output will be:&lt;td id='A1'&gt;).The default value is null. | 
 |[SetCellNameAttribute](./setcellnameattribute/) | Specifies the attribute that indicates the CellName to be written.(e.g. If the value is "id", then for cell "A1", the output will be:&lt;td id='A1'&gt;).The default value is null. | 
+|[GetDisableCss](./getdisablecss/) | Indicates whether only inline styles are applied, without relying on CSS.The default value is false. | 
+|[SetDisableCss](./setdisablecss/) | Indicates whether only inline styles are applied, without relying on CSS.The default value is false. | 

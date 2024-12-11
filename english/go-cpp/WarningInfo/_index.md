@@ -29,7 +29,7 @@ type WarningInfo struct  {
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
-|[GetWarningType](./getwarningtype/) | Get warning type. | 
+|[GetType](./gettype/) | Get warning type. | 
 |[GetDescription](./getdescription/) | Get description of warning info. | 
 |[GetErrorObject](./geterrorobject/) | The error object. | 
 |[GetCorrectedObject](./getcorrectedobject/) | Gets and sets the corrected object. | 

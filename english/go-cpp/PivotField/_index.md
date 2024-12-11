@@ -31,16 +31,23 @@ type PivotField struct  {
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[GetPivotItems](./getpivotitems/) | Gets the pivot items of the pivot field | 
 |[GetGroupSettings](./getgroupsettings/) | Gets the group settings of the pivot field. | 
-|[GetPivotFilterByType](./getpivotfilterbytype/) | Gets the pivot filter of the pivot field by type | 
 |[InitPivotItems](./initpivotitems/) | Init the pivot items of the pivot field | 
 |[GroupBy_Double_Bool](./groupby_double_bool/) | Automatically group the field with internal | 
 |[GroupBy_Double_Double_Double_Bool](./groupby_double_double_double_bool/) | Group the file by number. | 
 |[Ungroup](./ungroup/) | Ungroup the pivot field. | 
+|[GetPivotFilterByType](./getpivotfilterbytype/) | Gets the pivot filter of the pivot field by type | 
+|[ClearFilter](./clearfilter/) | Clears filter setting on this pivot field. | 
+|[FilterTop10](./filtertop10/) | Filters by values of data pivot field. | 
+|[FilterByValue](./filterbyvalue/) | Filters by values of data pivot field. | 
+|[FilterByLabel](./filterbylabel/) | Filters by captions of row or column pivot field. | 
+|[FilterByDate](./filterbydate/) | Filters by date setting of row or column pivot field. | 
 |[IsCalculatedField](./iscalculatedfield/) | Indicates whether the specified PivotTable field is calculated field. | 
 |[GetFormula](./getformula/) | Gets formula of the calculated field . | 
+|[IsValueFields](./isvaluefields/) | Indicates whether this field represents values fields. | 
 |[GetBaseIndex](./getbaseindex/) | Represents the PivotField index in the base PivotFields. | 
 |[SetBaseIndex](./setbaseindex/) | Represents the PivotField index in the base PivotFields. | 
 |[GetPosition](./getposition/) | Represents the index of <see cref="PivotField"/> in the region. | 
+|[GetRegionType](./getregiontype/) | Specifies the region of the PivotTable that this field is displayed. | 
 |[GetName](./getname/) | Represents the name of PivotField. | 
 |[SetName](./setname/) | Represents the name of PivotField. | 
 |[GetDisplayName](./getdisplayname/) | Represents the PivotField display name. | 

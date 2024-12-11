@@ -153,6 +153,8 @@ type HtmlSaveOptions struct  {
 |[SetOfficeMathOutputMode](./setofficemathoutputmode/) | Indicates how export OfficeMath objects to HTML, Default value is Image. | 
 |[GetCellNameAttribute](./getcellnameattribute/) | Specifies the attribute that indicates the CellName to be written.(e.g. If the value is "id", then for cell "A1", the output will be:&lt;td id='A1'&gt;).The default value is null. | 
 |[SetCellNameAttribute](./setcellnameattribute/) | Specifies the attribute that indicates the CellName to be written.(e.g. If the value is "id", then for cell "A1", the output will be:&lt;td id='A1'&gt;).The default value is null. | 
+|[GetDisableCss](./getdisablecss/) | Indicates whether only inline styles are applied, without relying on CSS.The default value is false. | 
+|[SetDisableCss](./setdisablecss/) | Indicates whether only inline styles are applied, without relying on CSS.The default value is false. | 
 |[GetSaveFormat](./getsaveformat/) | Gets the save file format. | 
 |[GetClearData](./getcleardata/) | Make the workbook empty after saving the file. | 
 |[SetClearData](./setcleardata/) | Make the workbook empty after saving the file. | 
@@ -170,6 +172,8 @@ type HtmlSaveOptions struct  {
 |[SetSortExternalNames](./setsortexternalnames/) | Indicates whether sorting external defined names before saving file. | 
 |[GetRefreshChartCache](./getrefreshchartcache/) | Indicates whether refreshing chart cache data | 
 |[SetRefreshChartCache](./setrefreshchartcache/) | Indicates whether refreshing chart cache data | 
+|[GetCheckExcelRestriction](./getcheckexcelrestriction/) | Whether check restriction of excel file when user modify cells related objects.For example, excel does not allow inputting string value longer than 32K.When you input a value longer than 32K, it will be truncated. | 
+|[SetCheckExcelRestriction](./setcheckexcelrestriction/) | Whether check restriction of excel file when user modify cells related objects.For example, excel does not allow inputting string value longer than 32K.When you input a value longer than 32K, it will be truncated. | 
 |[GetUpdateSmartArt](./getupdatesmartart/) | Indicates whether updating smart art setting.The default value is false. | 
 |[SetUpdateSmartArt](./setupdatesmartart/) | Indicates whether updating smart art setting.The default value is false. | 
 |[GetEncryptDocumentProperties](./getencryptdocumentproperties/) | Indicates whether encrypt document properties when saving as .xls file.The default value is true. | 

@@ -55,6 +55,8 @@ type OdsSaveOptions struct  {
 |[SetSortExternalNames](./setsortexternalnames/) | Indicates whether sorting external defined names before saving file. | 
 |[GetRefreshChartCache](./getrefreshchartcache/) | Indicates whether refreshing chart cache data | 
 |[SetRefreshChartCache](./setrefreshchartcache/) | Indicates whether refreshing chart cache data | 
+|[GetCheckExcelRestriction](./getcheckexcelrestriction/) | Whether check restriction of excel file when user modify cells related objects.For example, excel does not allow inputting string value longer than 32K.When you input a value longer than 32K, it will be truncated. | 
+|[SetCheckExcelRestriction](./setcheckexcelrestriction/) | Whether check restriction of excel file when user modify cells related objects.For example, excel does not allow inputting string value longer than 32K.When you input a value longer than 32K, it will be truncated. | 
 |[GetUpdateSmartArt](./getupdatesmartart/) | Indicates whether updating smart art setting.The default value is false. | 
 |[SetUpdateSmartArt](./setupdatesmartart/) | Indicates whether updating smart art setting.The default value is false. | 
 |[GetEncryptDocumentProperties](./getencryptdocumentproperties/) | Indicates whether encrypt document properties when saving as .xls file.The default value is true. | 

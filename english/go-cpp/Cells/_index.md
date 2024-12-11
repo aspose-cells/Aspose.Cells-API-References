@@ -140,12 +140,14 @@ type Cells struct  {
 |[GroupRows_Int_Int](./grouprows_int_int/) | Groups rows. | 
 |[DeleteColumn_Int_Bool](./deletecolumn_int_bool/) | Deletes a column. | 
 |[DeleteColumn_Int](./deletecolumn_int/) | Deletes a column. | 
-|[DeleteColumns](./deletecolumns/) | Deletes several columns. | 
+|[DeleteColumns_Int_Int_Bool](./deletecolumns_int_int_bool/) | Deletes several columns. | 
+|[DeleteColumns_Int_Int_DeleteOptions](./deletecolumns_int_int_deleteoptions/) | Deletes several columns. | 
 |[IsDeletingRangeEnabled](./isdeletingrangeenabled/) | Check whether the range could be deleted. | 
 |[DeleteRow_Int](./deleterow_int/) | Deletes a row. | 
-|[DeleteRows_Int_Int](./deleterows_int_int/) | Deletes several rows. | 
 |[DeleteRow_Int_Bool](./deleterow_int_bool/) | Deletes a row. | 
+|[DeleteRows_Int_Int](./deleterows_int_int/) | Deletes multiple rows. | 
 |[DeleteRows_Int_Int_Bool](./deleterows_int_int_bool/) | Deletes multiple rows in the worksheet. | 
+|[DeleteRows_Int_Int_DeleteOptions](./deleterows_int_int_deleteoptions/) | Deletes multiple rows in the worksheet. | 
 |[DeleteBlankColumns](./deleteblankcolumns/) | Delete all blank columns which do not contain any data. | 
 |[DeleteBlankColumns_DeleteOptions](./deleteblankcolumns_deleteoptions/) | Delete all blank columns which do not contain any data. | 
 |[IsBlankColumn](./isblankcolumn/) | Checks whether given column is blank(does not contain any data). | 
@@ -153,6 +155,7 @@ type Cells struct  {
 |[DeleteBlankRows_DeleteOptions](./deleteblankrows_deleteoptions/) | Delete all blank rows which do not contain any data or some special objects such as visible comment, pivot table. | 
 |[InsertColumns_Int_Int](./insertcolumns_int_int/) | Inserts some columns into the worksheet. | 
 |[InsertColumns_Int_Int_Bool](./insertcolumns_int_int_bool/) | Inserts some columns into the worksheet. | 
+|[InsertColumns_Int_Int_InsertOptions](./insertcolumns_int_int_insertoptions/) | Inserts some columns into the worksheet. | 
 |[InsertColumn_Int_Bool](./insertcolumn_int_bool/) | Inserts a new column into the worksheet. | 
 |[InsertColumn_Int](./insertcolumn_int/) | Inserts a new column into the worksheet. | 
 |[InsertRows_Int_Int_Bool](./insertrows_int_int_bool/) | Inserts multiple rows into the worksheet. | 
