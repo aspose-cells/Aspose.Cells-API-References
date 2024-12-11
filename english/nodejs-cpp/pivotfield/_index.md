@@ -22,9 +22,11 @@ class PivotField;
 | [getPivotItems()](#getPivotItems--)| Gets the pivot items of the pivot field |
 | [getGroupSettings()](#getGroupSettings--)| Gets the group settings of the pivot field. |
 | [isCalculatedField()](#isCalculatedField--)| Indicates whether the specified PivotTable field is calculated field. |
+| [isValueFields()](#isValueFields--)| Indicates whether this field represents values fields. |
 | [getBaseIndex()](#getBaseIndex--)| Represents the PivotField index in the base PivotFields. |
 | [setBaseIndex(number)](#setBaseIndex-number-)| Represents the PivotField index in the base PivotFields. |
 | [getPosition()](#getPosition--)| Represents the index of [PivotField](../pivotfield/) in the region. |
+| [getRegionType()](#getRegionType--)| Specifies the region of the PivotTable that this field is displayed. |
 | [getName()](#getName--)| Represents the name of PivotField. |
 | [setName(string)](#setName-string-)| Represents the name of PivotField. |
 | [getDisplayName()](#getDisplayName--)| Represents the PivotField display name. |
@@ -88,14 +90,19 @@ class PivotField;
 | [getItemCount()](#getItemCount--)| Gets the count of the base items in this pivot field. |
 | [getShowCompact()](#getShowCompact--)| Indicates whether display labels from the next field in the same column on the Pivot Table view |
 | [setShowCompact(boolean)](#setShowCompact-boolean-)| Indicates whether display labels from the next field in the same column on the Pivot Table view |
-| [getPivotFilterByType(PivotFilterType)](#getPivotFilterByType-pivotfiltertype-)| Gets the pivot filter of the pivot field by type |
-| [getFilters()](#getFilters--)| Gets all pivot filters of this pivot field. |
 | [initPivotItems()](#initPivotItems--)| Init the pivot items of the pivot field |
 | [groupBy(number, boolean)](#groupBy-number-boolean-)| Automatically group the field with internal |
 | [groupBy(Date, Date, PivotGroupByType[], number, boolean)](#groupBy-date-date-pivotgroupbytypearray-number-boolean-)| Group the file by the date group types. |
 | [groupBy(number, number, number, boolean)](#groupBy-number-number-number-boolean-)| Group the file by number. |
 | [groupBy(CustomPiovtFieldGroupItem[], boolean)](#groupBy-custompiovtfieldgroupitemarray-boolean-)| Custom group the field. |
 | [ungroup()](#ungroup--)| Ungroup the pivot field. |
+| [getPivotFilterByType(PivotFilterType)](#getPivotFilterByType-pivotfiltertype-)| Gets the pivot filter of the pivot field by type |
+| [getFilters()](#getFilters--)| Gets all pivot filters of this pivot field. |
+| [clearFilter()](#clearFilter--)| Clears filter setting on this pivot field. |
+| [filterTop10(number, PivotFilterType, boolean, number)](#filterTop10-number-pivotfiltertype-boolean-number-)| Filters by values of data pivot field. |
+| [filterByValue(number, PivotFilterType, number, number)](#filterByValue-number-pivotfiltertype-number-number-)| Filters by values of data pivot field. |
+| [filterByLabel(PivotFilterType, string, string)](#filterByLabel-pivotfiltertype-string-string-)| Filters by captions of row or column pivot field. |
+| [filterByDate(PivotFilterType, Date, Date)](#filterByDate-pivotfiltertype-date-date-)| Filters by date setting of row or column pivot field. |
 | [getFormula()](#getFormula--)| Gets formula of the calculated field . |
 | [setSubtotals(PivotFieldSubtotalType, boolean)](#setSubtotals-pivotfieldsubtotaltype-boolean-)| Sets whether the specified field shows that subtotals. |
 | [getSubtotals(PivotFieldSubtotalType)](#getSubtotals-pivotfieldsubtotaltype-)| Indicates whether showing specified subtotal. |
@@ -151,6 +158,15 @@ isCalculatedField() : boolean;
 ```
 
 
+### isValueFields() {#isValueFields--}
+
+Indicates whether this field represents values fields.
+
+```javascript
+isValueFields() : boolean;
+```
+
+
 ### getBaseIndex() {#getBaseIndex--}
 
 Represents the PivotField index in the base PivotFields.
@@ -181,6 +197,19 @@ Represents the index of [PivotField](../pivotfield/) in the region.
 getPosition() : number;
 ```
 
+
+### getRegionType() {#getRegionType--}
+
+Specifies the region of the PivotTable that this field is displayed.
+
+```javascript
+getRegionType() : PivotFieldType;
+```
+
+
+**Returns**
+
+[PivotFieldType](../pivotfieldtype/)
 
 ### getName() {#getName--}
 
@@ -893,36 +922,6 @@ setShowCompact(value: boolean) : void;
 | --- | --- | --- |
 | value | boolean | The value to set. |
 
-### getPivotFilterByType(PivotFilterType) {#getPivotFilterByType-pivotfiltertype-}
-
-Gets the pivot filter of the pivot field by type
-
-```javascript
-getPivotFilterByType(type: PivotFilterType) : PivotFilter;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| type | [PivotFilterType](../pivotfiltertype/) |  |
-
-**Returns**
-
-[PivotFilter](../pivotfilter/)
-
-### getFilters() {#getFilters--}
-
-Gets all pivot filters of this pivot field.
-
-```javascript
-getFilters() : PivotFilter[];
-```
-
-
-**Returns**
-
-[PivotFilter](../pivotfilter/)[]
-
 ### initPivotItems() {#initPivotItems--}
 
 Init the pivot items of the pivot field
@@ -1013,6 +1012,123 @@ Ungroup the pivot field.
 ungroup() : void;
 ```
 
+
+### getPivotFilterByType(PivotFilterType) {#getPivotFilterByType-pivotfiltertype-}
+
+Gets the pivot filter of the pivot field by type
+
+```javascript
+getPivotFilterByType(type: PivotFilterType) : PivotFilter;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| type | [PivotFilterType](../pivotfiltertype/) |  |
+
+**Returns**
+
+[PivotFilter](../pivotfilter/)
+
+### getFilters() {#getFilters--}
+
+Gets all pivot filters of this pivot field.
+
+```javascript
+getFilters() : PivotFilter[];
+```
+
+
+**Returns**
+
+[PivotFilter](../pivotfilter/)[]
+
+### clearFilter() {#clearFilter--}
+
+Clears filter setting on this pivot field.
+
+```javascript
+clearFilter() : void;
+```
+
+
+### filterTop10(number, PivotFilterType, boolean, number) {#filterTop10-number-pivotfiltertype-boolean-number-}
+
+Filters by values of data pivot field.
+
+```javascript
+filterTop10(valueFieldIndex: number, type: PivotFilterType, isTop: boolean, itemCount: number) : PivotFilter;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| valueFieldIndex | number | The index of data field  in the data region. |
+| type | [PivotFilterType](../pivotfiltertype/) | The type of filtering data. Only can be Count,Sum and Percent. |
+| isTop | boolean | Indicates whether filter from top or bottom |
+| itemCount | number | The item count |
+
+**Returns**
+
+[PivotFilter](../pivotfilter/)
+
+### filterByValue(number, PivotFilterType, number, number) {#filterByValue-number-pivotfiltertype-number-number-}
+
+Filters by values of data pivot field.
+
+```javascript
+filterByValue(valueFieldIndex: number, type: PivotFilterType, value1: number, value2: number) : PivotFilter;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| valueFieldIndex | number | The index of value field in the value region. |
+| type | [PivotFilterType](../pivotfiltertype/) | The type of filtering data. |
+| value1 | number | The value of filter condition |
+| value2 | number | The upper-bound value of between filter condition |
+
+**Returns**
+
+[PivotFilter](../pivotfilter/)
+
+### filterByLabel(PivotFilterType, string, string) {#filterByLabel-pivotfiltertype-string-string-}
+
+Filters by captions of row or column pivot field.
+
+```javascript
+filterByLabel(type: PivotFilterType, label1: string, label2: string) : PivotFilter;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| type | [PivotFilterType](../pivotfiltertype/) | The type of filtering data. |
+| label1 | string | The label of filter condition |
+| label2 | string | The upper-bound label of between filter condition |
+
+**Returns**
+
+[PivotFilter](../pivotfilter/)
+
+### filterByDate(PivotFilterType, Date, Date) {#filterByDate-pivotfiltertype-date-date-}
+
+Filters by date setting of row or column pivot field.
+
+```javascript
+filterByDate(type: PivotFilterType, dateTime1: Date, dateTime2: Date) : PivotFilter;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| type | [PivotFilterType](../pivotfiltertype/) | The type of filtering data. |
+| dateTime1 | Date | The date label of filter condition |
+| dateTime2 | Date | The upper-bound date label of between filter condition |
+
+**Returns**
+
+[PivotFilter](../pivotfilter/)
 
 ### getFormula() {#getFormula--}
 

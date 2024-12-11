@@ -1,0 +1,52 @@
+﻿---
+title: AbstractFormulaChangeMonitor
+second_title: Aspose.Cells for Node.js via C++ API Reference
+description: Monitor for user to track the change of formulas during certain operations.
+type: docs
+url: /nodejs-cpp/abstractformulachangemonitor/
+---
+
+## AbstractFormulaChangeMonitor class
+
+Monitor for user to track the change of formulas during certain operations.
+
+```javascript
+class AbstractFormulaChangeMonitor;
+```
+
+### Remarks
+For example, while deleting/inserting range of cells, formulas of other cells may be changed because of the shift of references.
+
+## Methods
+
+| Method | Description |
+| --- | --- |
+| [onCellFormulaChanged(number, number, number)](#onCellFormulaChanged-number-number-number-)| The event that will be triggered when the formula in a cell is changed. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+
+### onCellFormulaChanged(number, number, number) {#onCellFormulaChanged-number-number-number-}
+
+The event that will be triggered when the formula in a cell is changed.
+
+```javascript
+onCellFormulaChanged(sheetIndex: number, rowIndex: number, columnIndex: number) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sheetIndex | number | The sheet index of the changed cell |
+| rowIndex | number | The row index of the changed cell |
+| columnIndex | number | The column index of the changed cell |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
+
+

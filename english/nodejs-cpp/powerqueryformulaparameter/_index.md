@@ -30,6 +30,7 @@ class PowerQueryFormulaParameter extends PowerQueryFormula;
 | [setValue(string)](#setValue-string-)| Gets the value of parameter. |
 | [getFormulaDefinition()](#getFormulaDefinition--)| Gets the definition of the parameter. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+| [getGroupName()](#getGroupName--)| Gets the name of group which contains this power query formula. |
 | [getName()](#getName--)| Gets and sets the name of the power query formula. |
 | [setName(string)](#setName-string-)| Gets and sets the name of the power query formula. |
 | [getPowerQueryFormulaItems()](#getPowerQueryFormulaItems--)| Gets all items of power query formula. |
@@ -98,6 +99,15 @@ Checks whether the implementation object is null.
 
 ```javascript
 isNull() : boolean;
+```
+
+
+### getGroupName() {#getGroupName--}
+
+Gets the name of group which contains this power query formula.
+
+```javascript
+getGroupName() : string;
 ```
 
 

@@ -33,6 +33,8 @@ class ReplaceOptions;
 | [setRegexKey(boolean)](#setRegexKey-boolean-)| Indicates whether the searched key is regex. If true then the searched key will be taken as regex. |
 | [getFontSettings()](#getFontSettings--)| The rich formatted settings for the replaced text. |
 | [setFontSettings(FontSetting[])](#setFontSettings-fontsettingarray-)| The rich formatted settings for the replaced text. |
+| [getStyleFlags()](#getStyleFlags--)| Gets and sets flags of applying font settings. |
+| [setStyleFlags(StyleFlag[])](#setStyleFlags-styleflagarray-)| Gets and sets flags of applying font settings. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -144,6 +146,32 @@ setFontSettings(value: FontSetting[]) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [FontSetting](../fontsetting/)[] | The value to set. |
+
+### getStyleFlags() {#getStyleFlags--}
+
+Gets and sets flags of applying font settings.
+
+```javascript
+getStyleFlags() : StyleFlag[];
+```
+
+
+**Returns**
+
+[StyleFlag](../styleflag/)[]
+
+### setStyleFlags(StyleFlag[]) {#setStyleFlags-styleflagarray-}
+
+Gets and sets flags of applying font settings.
+
+```javascript
+setStyleFlags(value: StyleFlag[]) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [StyleFlag](../styleflag/)[] | The value to set. |
 
 ### isNull() {#isNull--}
 
