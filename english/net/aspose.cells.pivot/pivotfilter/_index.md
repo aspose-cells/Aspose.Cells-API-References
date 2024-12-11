@@ -17,15 +17,28 @@ public class PivotFilter
 
 | Name | Description |
 | --- | --- |
-| [AutoFilter](../../aspose.cells.pivot/pivotfilter/autofilter/) { get; } | Gets the autofilter of the pivot filter. |
+| [AutoFilter](../../aspose.cells.pivot/pivotfilter/autofilter/) { get; } | (**Obsolete.**) Gets the autofilter of the pivot filter. |
 | [EvaluationOrder](../../aspose.cells.pivot/pivotfilter/evaluationorder/) { get; set; } | Gets the Evaluation Order of the pivot filter. |
-| [FieldIndex](../../aspose.cells.pivot/pivotfilter/fieldindex/) { get; } | Gets the field index of the pivot filter. |
+| [FieldIndex](../../aspose.cells.pivot/pivotfilter/fieldindex/) { get; } | Gets the index of source field which this pivot filter is applied to. |
+| [FilterCategory](../../aspose.cells.pivot/pivotfilter/filtercategory/) { get; } | Gets the category of this filter. |
 | [FilterType](../../aspose.cells.pivot/pivotfilter/filtertype/) { get; } | Gets the autofilter type of the pivot filter. |
-| [MeasureFldIndex](../../aspose.cells.pivot/pivotfilter/measurefldindex/) { get; set; } | Gets the measure field index of the pivot filter. |
+| [MeasureCubeFieldIndex](../../aspose.cells.pivot/pivotfilter/measurecubefieldindex/) { get; } | Specifies the index of the measure cube field. this property is used only by filters in OLAP pivots and specifies on which measure a value filter should apply. |
+| [MeasureFldIndex](../../aspose.cells.pivot/pivotfilter/measurefldindex/) { get; set; } | (**Obsolete.**) Gets the measure field index of the pivot filter. |
 | [MemberPropertyFieldIndex](../../aspose.cells.pivot/pivotfilter/memberpropertyfieldindex/) { get; set; } | Gets the member property field index of the pivot filter. |
 | [Name](../../aspose.cells.pivot/pivotfilter/name/) { get; set; } | Gets the name of the pivot filter. |
+| [UseWholeDay](../../aspose.cells.pivot/pivotfilter/usewholeday/) { get; set; } | Indicates whether uses whole days in its filtering criteria. |
 | [Value1](../../aspose.cells.pivot/pivotfilter/value1/) { get; set; } | Gets the string value1 of the label pivot filter. |
 | [Value2](../../aspose.cells.pivot/pivotfilter/value2/) { get; set; } | Gets the string value2 of the label pivot filter. |
+| [ValueFieldIndex](../../aspose.cells.pivot/pivotfilter/valuefieldindex/) { get; set; } | Gets the index of value field in the value region. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [GetDateTimeValues](../../aspose.cells.pivot/pivotfilter/getdatetimevalues/)() | Gets values of the number filter. |
+| [GetLabels](../../aspose.cells.pivot/pivotfilter/getlabels/)() | Gets labels of the caption filter. |
+| [GetNumberValues](../../aspose.cells.pivot/pivotfilter/getnumbervalues/)() | Gets values of the number filter. |
+| [GetTop10Value](../../aspose.cells.pivot/pivotfilter/gettop10value/)() | Gets top 10 setting of the filter. |
 
 ### Examples
 
@@ -76,10 +89,8 @@ pivot.AddFieldToArea(PivotFieldType.Data, "amount");
 
 pivot.PivotTableStyleType = PivotTableStyleType.PivotTableStyleMedium10;
 
-//Add PivotFilter
-int index = pivot.PivotFilters.Add(0, PivotFilterType.Count);
-PivotFilter filter = pivot.PivotFilters[index];
-filter.AutoFilter.FilterTop10(0, false, false, 2);
+//Add top 10 filter
+ pivot.BaseFields[0].Filter.FilterTop10(0, PivotFilterType.Count,false,2);
 
 pivot.RefreshData();
 pivot.CalculateData();
@@ -134,9 +145,7 @@ Pivot.AddFieldToArea(PivotFieldType.Data, "amount")
 pivot.PivotTableStyleType = PivotTableStyleType.PivotTableStyleMedium10
 
 'Add PivotFilter
-Dim filterIndex As Int32 = pivot.PivotFilters.Add(0, PivotFilterType.Count)
-Dim filter As PivotFilter = pivot.PivotFilters(filterIndex)
-filter.AutoFilter.FilterTop10(0, False, False, 2)
+pivot.BaseFields(0).Filter.FilterTop10(0, PivotFilterType.Count,false,2)
 
 pivot.RefreshData()
 pivot.CalculateData()

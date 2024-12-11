@@ -26,7 +26,11 @@ public class PivotFilterCollection : CollectionBase<PivotFilter>
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.cells.pivot/pivotfiltercollection/add/)(int, PivotFilterType) | Adds a PivotFilter Object to the specific type |
+| [Add](../../aspose.cells.pivot/pivotfiltercollection/add/)(int, PivotFilterType) | (**Obsolete.**) Adds a PivotFilter Object to the specific type |
+| [AddDateFilter](../../aspose.cells.pivot/pivotfiltercollection/adddatefilter/)(int, PivotFilterType, DateTime, DateTime) | Filters by date setting of row or column pivot field. |
+| [AddLabelFilter](../../aspose.cells.pivot/pivotfiltercollection/addlabelfilter/)(int, PivotFilterType, string, string) | Filters by captions of row or column pivot field. |
+| [AddTop10Filter](../../aspose.cells.pivot/pivotfiltercollection/addtop10filter/)(int, int, PivotFilterType, bool, int) | Filters by values of data pivot field. |
+| [AddValueFilter](../../aspose.cells.pivot/pivotfiltercollection/addvaluefilter/)(int, int, PivotFilterType, double, double) | Filters by values of data pivot field. |
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(PivotFilter) |  |
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(PivotFilter, IComparer&lt;PivotFilter&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(int, int, PivotFilter, IComparer&lt;PivotFilter&gt;) |  |

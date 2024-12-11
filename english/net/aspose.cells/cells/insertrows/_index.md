@@ -39,7 +39,7 @@ public void InsertRows(int rowIndex, int totalRows, InsertOptions options)
 | --- | --- | --- |
 | rowIndex | Int32 | Row index. |
 | totalRows | Int32 | Number of rows to be inserted. |
-| options | InsertOptions | Indicates if references in other worksheets will be updated. |
+| options | InsertOptions | Options for inserting operation. |
 
 ### See Also
 
