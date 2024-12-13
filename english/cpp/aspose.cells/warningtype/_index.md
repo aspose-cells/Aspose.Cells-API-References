@@ -4,7 +4,7 @@ linktitle: WarningType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::WarningType enum. WaringType in C++.'
 type: docs
-weight: 27000
+weight: 27900
 url: /cpp/aspose.cells/warningtype/
 ---
 ## WarningType enum
@@ -12,6 +12,10 @@ url: /cpp/aspose.cells/warningtype/
 
 WaringType.
 
+
+>Deprecated
+>
+>Use ExceptionType enum, instead. 
 ```cpp
 enum class WarningType
 ```
@@ -31,6 +35,12 @@ enum class WarningType
 | InvalidData | 8 | <br>Invalid data. |
 | Formula | 9 | <br>Invalid formula. |
 | InvalidOperator | 10 | <br>Invalid operator. |
+
+## Remarks
+
+
+NOTE: This enum is now obsolete. Instead, please use ExceptionType enum, instead. This property will be removed 12 months later since December 2024. **Aspose** apologizes for any inconvenience you may have experienced.
+
 
 ## See Also
 

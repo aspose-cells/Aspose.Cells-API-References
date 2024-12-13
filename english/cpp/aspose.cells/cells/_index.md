@@ -4,7 +4,7 @@ linktitle: Cells
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells class. Encapsulates a collection of cell relevant objects, such as Cell, Row, ...etc in C++.'
 type: docs
-weight: 1600
+weight: 1700
 url: /cpp/aspose.cells/cells/
 ---
 ## Cells class
@@ -59,11 +59,13 @@ class Cells
 | [DeleteColumn(int32_t columnIndex, bool updateReference)](./deletecolumn/) | Deletes a column. |
 | [DeleteColumn(int32_t columnIndex)](./deletecolumn/) | Deletes a column. |
 | [DeleteColumns(int32_t columnIndex, int32_t totalColumns, bool updateReference)](./deletecolumns/) | Deletes several columns. |
+| [DeleteColumns(int32_t columnIndex, int32_t totalColumns, const DeleteOptions\& options)](./deletecolumns/) | Deletes several columns. |
 | [DeleteRange(int32_t startRow, int32_t startColumn, int32_t endRow, int32_t endColumn, ShiftType shiftType)](./deleterange/) | Deletes a range of cells and shift cells according to the shift option. |
 | [DeleteRow(int32_t rowIndex)](./deleterow/) | Deletes a row. |
 | [DeleteRow(int32_t rowIndex, bool updateReference)](./deleterow/) | Deletes a row. |
-| [DeleteRows(int32_t rowIndex, int32_t totalRows)](./deleterows/) | Deletes several rows. |
+| [DeleteRows(int32_t rowIndex, int32_t totalRows)](./deleterows/) | Deletes multiple rows. |
 | [DeleteRows(int32_t rowIndex, int32_t totalRows, bool updateReference)](./deleterows/) | Deletes multiple rows in the worksheet. |
+| [DeleteRows(int32_t rowIndex, int32_t totalRows, const DeleteOptions\& options)](./deleterows/) | Deletes multiple rows in the worksheet. |
 | [Dispose()](./dispose/) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [EndCellInColumn(int16_t columnIndex)](./endcellincolumn/) | Gets the last cell in this column. |
 | [EndCellInColumn(int32_t startRow, int32_t endRow, int16_t startColumn, int16_t endColumn)](./endcellincolumn/) | Gets the last cell with maximum column index in this range. |
@@ -151,6 +153,7 @@ class Cells
 | [InsertColumn(int32_t columnIndex)](./insertcolumn/) | Inserts a new column into the worksheet. |
 | [InsertColumns(int32_t columnIndex, int32_t totalColumns)](./insertcolumns/) | Inserts some columns into the worksheet. |
 | [InsertColumns(int32_t columnIndex, int32_t totalColumns, bool updateReference)](./insertcolumns/) | Inserts some columns into the worksheet. |
+| [InsertColumns(int32_t columnIndex, int32_t totalColumns, const InsertOptions\& options)](./insertcolumns/) | Inserts some columns into the worksheet. |
 | [InsertCutCells(const Range\& cutRange, int32_t row, int32_t column, ShiftType shiftType)](./insertcutcells/) | Insert cut range. |
 | [InsertRange(const CellArea\& area, int32_t shiftNumber, ShiftType shiftType, bool updateReference)](./insertrange/) | Inserts a range of cells and shift cells according to the shift option. |
 | [InsertRange(const CellArea\& area, ShiftType shiftType)](./insertrange/) | Inserts a range of cells and shift cells according to the shift option. |

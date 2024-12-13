@@ -4,7 +4,7 @@ linktitle: PdfSaveOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::PdfSaveOptions class. Represents the options for saving pdf file in C++.'
 type: docs
-weight: 11400
+weight: 11700
 url: /cpp/aspose.cells/pdfsaveoptions/
 ---
 ## PdfSaveOptions class
@@ -24,6 +24,7 @@ class PdfSaveOptions : public Aspose::Cells::PaginatedSaveOptions
 | [GetBookmark()](./getbookmark/) | Gets and sets the [PdfBookmarkEntry](../) object. |
 | [GetCachedFileFolder()](../saveoptions/getcachedfilefolder/) | The cached file folder is used to store some large data. |
 | [GetCalculateFormula()](./getcalculateformula/) | Indicates whether to calculate formulas before saving pdf file. |
+| [GetCheckExcelRestriction()](../saveoptions/getcheckexcelrestriction/) | Whether check restriction of excel file when user modify cells related objects. For example, excel does not allow inputting string value longer than 32K. When you input a value longer than 32K, it will be truncated. |
 | [GetCheckFontCompatibility()](../paginatedsaveoptions/getcheckfontcompatibility/) | Indicates whether to check font compatibility for every character in text. |
 | [GetCheckWorkbookDefaultFont()](../paginatedsaveoptions/getcheckworkbookdefaultfont/) | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. Set this to true to try to use workbook's default font to show these characters first. |
 | [GetClearData()](../saveoptions/getcleardata/) | Make the workbook empty after saving the file. |
@@ -84,6 +85,7 @@ class PdfSaveOptions : public Aspose::Cells::PaginatedSaveOptions
 | [SetCachedFileFolder(const U16String\& value)](../saveoptions/setcachedfilefolder/) | The cached file folder is used to store some large data. |
 | [SetCachedFileFolder(const char16_t* value)](../saveoptions/setcachedfilefolder/) | The cached file folder is used to store some large data. |
 | [SetCalculateFormula(bool value)](./setcalculateformula/) | Indicates whether to calculate formulas before saving pdf file. |
+| [SetCheckExcelRestriction(bool value)](../saveoptions/setcheckexcelrestriction/) | Whether check restriction of excel file when user modify cells related objects. For example, excel does not allow inputting string value longer than 32K. When you input a value longer than 32K, it will be truncated. |
 | [SetCheckFontCompatibility(bool value)](../paginatedsaveoptions/setcheckfontcompatibility/) | Indicates whether to check font compatibility for every character in text. |
 | [SetCheckWorkbookDefaultFont(bool value)](../paginatedsaveoptions/setcheckworkbookdefaultfont/) | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. Set this to true to try to use workbook's default font to show these characters first. |
 | [SetClearData(bool value)](../saveoptions/setcleardata/) | Make the workbook empty after saving the file. |

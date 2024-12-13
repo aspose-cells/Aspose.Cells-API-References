@@ -4,7 +4,7 @@ linktitle: ReplaceOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ReplaceOptions class. Represent the replace options in C++.'
 type: docs
-weight: 12500
+weight: 12800
 url: /cpp/aspose.cells/replaceoptions/
 ---
 ## ReplaceOptions class
@@ -24,6 +24,7 @@ class ReplaceOptions
 | [GetFontSettings()](./getfontsettings/) | The rich formatted settings for the replaced text. |
 | [GetMatchEntireCellContents()](./getmatchentirecellcontents/) | Indicates whether to match entire cells contents. |
 | [GetRegexKey()](./getregexkey/) | Indicates whether the searched key is regex. If true then the searched key will be taken as regex. |
+| [GetStyleFlags()](./getstyleflags/) | Gets and sets flags of applying font settings. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const ReplaceOptions\& src)](./operator_asm/) | operator= |
@@ -34,6 +35,7 @@ class ReplaceOptions
 | [SetFontSettings(const Vector \<FontSetting\>\& value)](./setfontsettings/) | The rich formatted settings for the replaced text. |
 | [SetMatchEntireCellContents(bool value)](./setmatchentirecellcontents/) | Indicates whether to match entire cells contents. |
 | [SetRegexKey(bool value)](./setregexkey/) | Indicates whether the searched key is regex. If true then the searched key will be taken as regex. |
+| [SetStyleFlags(const Vector \<StyleFlag\>\& value)](./setstyleflags/) | Gets and sets flags of applying font settings. |
 | [~ReplaceOptions()](./~replaceoptions/) | Destructor. |
 ## Fields
 

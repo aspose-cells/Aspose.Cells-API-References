@@ -4,7 +4,7 @@ linktitle: HtmlSaveOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::HtmlSaveOptions class. Represents the options for saving html file in C++.'
 type: docs
-weight: 7800
+weight: 8000
 url: /cpp/aspose.cells/htmlsaveoptions/
 ---
 ## HtmlSaveOptions class
@@ -28,10 +28,12 @@ class HtmlSaveOptions : public Aspose::Cells::SaveOptions
 | [GetCalculateFormula()](./getcalculateformula/) | Indicates whether to calculate formulas before saving html file. |
 | [GetCellCssPrefix()](./getcellcssprefix/) | Gets and sets the prefix of the css name,the default value is "". |
 | [GetCellNameAttribute()](./getcellnameattribute/) | Specifies the attribute that indicates the CellName to be written. (e.g. If the value is "id", then for cell "A1", the output will be:<td id='A1'>). The default value is null. |
+| [GetCheckExcelRestriction()](../saveoptions/getcheckexcelrestriction/) | Whether check restriction of excel file when user modify cells related objects. For example, excel does not allow inputting string value longer than 32K. When you input a value longer than 32K, it will be truncated. |
 | [GetClearData()](../saveoptions/getcleardata/) | Make the workbook empty after saving the file. |
 | [GetCreateDirectory()](../saveoptions/getcreatedirectory/) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [GetCssStyles()](./getcssstyles/) | Gets or sets the additional css styles for the formatter. Only works when SaveAsSingleFile is True. |
 | [GetDefaultFontName()](./getdefaultfontname/) | Specify the default font name for exporting html, the default font will be used when the font of style is not existing, If this property is null, [Aspose.Cells](../) will use universal font which have the same family with the original font, the default value is null. |
+| [GetDisableCss()](./getdisablecss/) | Indicates whether only inline styles are applied, without relying on CSS. The default value is false. |
 | [GetDisableDownlevelRevealedComments()](./getdisabledownlevelrevealedcomments/) | Indicates if disable Downlevel-revealed conditional comments when exporting file to html, the default value is false. |
 | [GetEncodeEntityAsCode()](./getencodeentityascode/) | Indicates whether the html character entities are replaced with decimal code. (e.g. "&amp;nbsp;" is replaced with "&amp;#160;"). The default value is false. |
 | [GetEncoding()](./getencoding/) | If not set,use Encoding.UTF8 as default enconding type. |
@@ -119,12 +121,14 @@ class HtmlSaveOptions : public Aspose::Cells::SaveOptions
 | [SetCellCssPrefix(const char16_t* value)](./setcellcssprefix/) | Gets and sets the prefix of the css name,the default value is "". |
 | [SetCellNameAttribute(const U16String\& value)](./setcellnameattribute/) | Specifies the attribute that indicates the CellName to be written. (e.g. If the value is "id", then for cell "A1", the output will be:<td id='A1'>). The default value is null. |
 | [SetCellNameAttribute(const char16_t* value)](./setcellnameattribute/) | Specifies the attribute that indicates the CellName to be written. (e.g. If the value is "id", then for cell "A1", the output will be:<td id='A1'>). The default value is null. |
+| [SetCheckExcelRestriction(bool value)](../saveoptions/setcheckexcelrestriction/) | Whether check restriction of excel file when user modify cells related objects. For example, excel does not allow inputting string value longer than 32K. When you input a value longer than 32K, it will be truncated. |
 | [SetClearData(bool value)](../saveoptions/setcleardata/) | Make the workbook empty after saving the file. |
 | [SetCreateDirectory(bool value)](../saveoptions/setcreatedirectory/) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [SetCssStyles(const U16String\& value)](./setcssstyles/) | Gets or sets the additional css styles for the formatter. Only works when SaveAsSingleFile is True. |
 | [SetCssStyles(const char16_t* value)](./setcssstyles/) | Gets or sets the additional css styles for the formatter. Only works when SaveAsSingleFile is True. |
 | [SetDefaultFontName(const U16String\& value)](./setdefaultfontname/) | Specify the default font name for exporting html, the default font will be used when the font of style is not existing, If this property is null, [Aspose.Cells](../) will use universal font which have the same family with the original font, the default value is null. |
 | [SetDefaultFontName(const char16_t* value)](./setdefaultfontname/) | Specify the default font name for exporting html, the default font will be used when the font of style is not existing, If this property is null, [Aspose.Cells](../) will use universal font which have the same family with the original font, the default value is null. |
+| [SetDisableCss(bool value)](./setdisablecss/) | Indicates whether only inline styles are applied, without relying on CSS. The default value is false. |
 | [SetDisableDownlevelRevealedComments(bool value)](./setdisabledownlevelrevealedcomments/) | Indicates if disable Downlevel-revealed conditional comments when exporting file to html, the default value is false. |
 | [SetEncodeEntityAsCode(bool value)](./setencodeentityascode/) | Indicates whether the html character entities are replaced with decimal code. (e.g. "&amp;nbsp;" is replaced with "&amp;#160;"). The default value is false. |
 | [SetEncoding(EncodingType value)](./setencoding/) | If not set,use Encoding.UTF8 as default enconding type. |

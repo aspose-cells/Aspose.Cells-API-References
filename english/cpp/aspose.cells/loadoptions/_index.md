@@ -4,7 +4,7 @@ linktitle: LoadOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::LoadOptions class. Represents the options of loading the file in C++.'
 type: docs
-weight: 9900
+weight: 10000
 url: /cpp/aspose.cells/loadoptions/
 ---
 ## LoadOptions class

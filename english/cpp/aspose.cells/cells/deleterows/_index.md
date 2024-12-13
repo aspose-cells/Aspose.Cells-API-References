@@ -2,15 +2,15 @@
 title: Aspose::Cells::Cells::DeleteRows method
 linktitle: DeleteRows
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Cells::DeleteRows method. Deletes several rows in C++.'
+description: 'Aspose::Cells::Cells::DeleteRows method. Deletes multiple rows in C++.'
 type: docs
-weight: 11100
+weight: 11200
 url: /cpp/aspose.cells/cells/deleterows/
 ---
 ## Cells::DeleteRows(int32_t, int32_t) method
 
 
-Deletes several rows.
+Deletes multiple rows.
 
 ```cpp
 bool Aspose::Cells::Cells::DeleteRows(int32_t rowIndex, int32_t totalRows)
@@ -55,6 +55,33 @@ bool Aspose::Cells::Cells::DeleteRows(int32_t rowIndex, int32_t totalRows, bool 
 ## See Also
 
 * Class [Vector](../../vector/)
+* Class [Cells](../)
+* Namespace [Aspose::Cells](../../)
+* Library [Aspose.Cells for C++](../../../)
+## Cells::DeleteRows(int32_t, int32_t, const DeleteOptions\&) method
+
+
+Deletes multiple rows in the worksheet.
+
+```cpp
+bool Aspose::Cells::Cells::DeleteRows(int32_t rowIndex, int32_t totalRows, const DeleteOptions &options)
+```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| rowIndex | int32_t | Index of the first row to be deleted. |
+| totalRows | int32_t | Count of rows to be deleted. |
+| options | const DeleteOptions\& | Options for the deleting operation |
+
+## ReturnValue
+
+
+
+## See Also
+
+* Class [Vector](../../vector/)
+* Class [DeleteOptions](../../deleteoptions/)
 * Class [Cells](../)
 * Namespace [Aspose::Cells](../../)
 * Library [Aspose.Cells for C++](../../../)

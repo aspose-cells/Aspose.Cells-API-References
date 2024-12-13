@@ -22,6 +22,7 @@ class PowerQueryFormulaFunction : public Aspose::Cells::QueryTables::PowerQueryF
 | --- | --- |
 | [GetF()](./getf/) | Gets and sets the definition of function. |
 | [GetFormulaDefinition()](../powerqueryformula/getformuladefinition/) | Gets the definition of the power query formula. |
+| [GetGroupName()](../powerqueryformula/getgroupname/) | Gets the name of group which contains this power query formula. |
 | [GetName()](../powerqueryformula/getname/) | Gets and sets the name of the power query formula. |
 | [GetPowerQueryFormulaItems()](../powerqueryformula/getpowerqueryformulaitems/) | Gets all items of power query formula. |
 | [GetType()](./gettype/) | Gets the type of power query formula. |
