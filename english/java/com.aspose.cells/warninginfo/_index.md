@@ -22,6 +22,7 @@ Warning info
 | [getCorrectedObject()](#getCorrectedObject--) | Gets the corrected object. |
 | [getDescription()](#getDescription--) | Get description of warning info. |
 | [getErrorObject()](#getErrorObject--) | The error object. |
+| [getType()](#getType--) | Get warning type. |
 | [getWarningType()](#getWarningType--) | Get warning type. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -86,6 +87,18 @@ The error object.
 
 **Returns:**
 java.lang.Object
+### getType() {#getType--}
+```
+public int getType()
+```
+
+
+Get warning type.
+
+See [ExceptionType](../../com.aspose.cells/exceptiontype).
+
+**Returns:**
+int
 ### getWarningType() {#getWarningType--}
 ```
 public int getWarningType()
@@ -95,6 +108,10 @@ public int getWarningType()
 Get warning type.
 
 See [WarningType](../../com.aspose.cells/warningtype).
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use WarningInfo.Type property, instead. This property will be removed 12 months later since December 2024. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int

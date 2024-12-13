@@ -8,6 +8,8 @@ url: /nodejs-cpp/warningtype/
 
 ## WarningType enumeration
 WaringType
+### Remarks
+NOTE: This enum is now obsolete. Instead, please use ExceptionType enum, instead. This property will be removed 12 months later since December 2024. Aspose apologizes for any inconvenience you may have experienced.
 ### Values
 | Name | Value | Description |
 | --- | --- | --- |

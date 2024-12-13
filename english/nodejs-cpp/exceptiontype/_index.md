@@ -36,4 +36,8 @@ Represents custom exception type code.
 | UndisclosedInformation | `22` | Files contains some undisclosed information. |
 | FileCorrupted | `23` | File content is corrupted. |
 | Internal | `24` | Internal exception. |
+| DefinedName | `25` | Invalid defined name |
+| Font | `26` | Invalid font |
+| AutoFilter | `27` | Invalid auto filter setting. |
+| FontSubstitution | `28` | Font substitution warning type when a font has not been found, this warning type can be get. |
 

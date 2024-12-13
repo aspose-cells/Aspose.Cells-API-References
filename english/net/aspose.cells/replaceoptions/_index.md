@@ -27,6 +27,7 @@ public class ReplaceOptions
 | [FontSettings](../../aspose.cells/replaceoptions/fontsettings/) { get; set; } | The rich formatted settings for the replaced text. |
 | [MatchEntireCellContents](../../aspose.cells/replaceoptions/matchentirecellcontents/) { get; set; } | Indicates whether to match entire cells contents |
 | [RegexKey](../../aspose.cells/replaceoptions/regexkey/) { get; set; } | Indicates whether the searched key is regex. If true then the searched key will be taken as regex. |
+| [StyleFlags](../../aspose.cells/replaceoptions/styleflags/) { get; set; } | Gets and sets flags of applying font settings. |
 
 ### Examples
 

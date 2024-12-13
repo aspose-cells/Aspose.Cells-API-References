@@ -1,0 +1,32 @@
+---
+title: AbstractFormulaChangeMonitor Class 
+linktitle: AbstractFormulaChangeMonitor
+second_title: Aspose.Cells for Go API Reference
+description: 'AbstractFormulaChangeMonitor class. Encapsulates the object that represents abstractformulachangemonitor in Go.'
+type: docs
+weight: 200
+url: /go-cpp/abstractformulachangemonitor/
+---
+
+## AbstractFormulaChangeMonitor class
+
+Monitor for user to track the change of formulas during certain operations.
+
+```go
+
+type AbstractFormulaChangeMonitor struct  {
+	ptr unsafe.Pointer
+}
+
+```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+
+## Methods
+
+| Method | Description |
+| --- | --- |
+|[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
+|[OnCellFormulaChanged](./oncellformulachanged/) | The event that will be triggered when the formula in a cell is changed. | 

@@ -1,0 +1,28 @@
+---
+title: GetPivotFormats Method 
+linktitle: GetPivotFormats
+second_title: Aspose.Cells for Go API Reference
+description: 'GetPivotFormats method. Encapsulates the function that represents getpivotformats in Go.'
+type: docs
+weight: 200
+url: /go-cpp/pivottable/getpivotformats/
+---
+
+## GetPivotFormats function
+
+Gets the collection of formats applied to PivotTable.
+
+```go
+
+func (instance *PivotTable) GetPivotFormats()  (*PivotTableFormatCollection,  error) 
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [PivotTable](../)
+* Namespace [Aspose.Cells.Pivot](../../)
+* Library [Aspose.Cells for Go](../../../)

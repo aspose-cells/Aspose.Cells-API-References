@@ -1,0 +1,28 @@
+---
+title: SetFractionType Method 
+linktitle: SetFractionType
+second_title: Aspose.Cells for Go API Reference
+description: 'SetFractionType method. Encapsulates the function that represents setfractiontype in Go.'
+type: docs
+weight: 200
+url: /go-cpp/fractionequationnode/setfractiontype/
+---
+
+## SetFractionType function
+
+This specifies the type of fraction ; the default is 'Bar'.
+
+```go
+
+func (instance *FractionEquationNode) SetFractionType(value EquationFractionType)  error
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [FractionEquationNode](../)
+* Namespace [Aspose.Cells.Drawing.Equations](../../)
+* Library [Aspose.Cells for Go](../../../)

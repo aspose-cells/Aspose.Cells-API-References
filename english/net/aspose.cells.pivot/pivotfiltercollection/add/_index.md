@@ -10,6 +10,8 @@ url: /net/aspose.cells.pivot/pivotfiltercollection/add/
 Adds a PivotFilter Object to the specific type
 
 ```csharp
+[Obsolete("Use PivotFilterCollection.AddValueFilter(),AddTop10Filter(),AddLabelFilter() and AddDateFilter() methods,instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public int Add(int fieldIndex, PivotFilterType type)
 ```
 
@@ -21,6 +23,10 @@ public int Add(int fieldIndex, PivotFilterType type)
 ### Return Value
 
 the index of the PivotFilter Object in this PivotFilterCollection.
+
+### Remarks
+
+NOTE: This method is now obsolete. Instead, please use PivotFilterCollection.AddValueFilter(),AddTop10Filter(),AddLabelFilter() and AddDateFilter() methods. This method will be removed 12 months later since November 2024. Aspose apologizes for any inconvenience you may have experienced.
 
 ### See Also
 

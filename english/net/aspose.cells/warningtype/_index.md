@@ -1,15 +1,15 @@
 ---
 title: Enum WarningType
 second_title: Aspose.Cells for .NET API Reference
-description: Aspose.Cells.WarningType enum. WaringType
+description: Aspose.Cells.WarningType enum. 
 type: docs
 url: /net/aspose.cells/warningtype/
 ---
 ## WarningType enumeration
 
-WaringType
-
 ```csharp
+[Obsolete("Use ExceptionType enum, instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public enum WarningType
 ```
 
@@ -17,17 +17,17 @@ public enum WarningType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| FontSubstitution | `0` | Font substitution warning type when a font has not been found, this warning type can be get. |
-| DuplicateDefinedName | `1` | Duplicate defined name is found in the file. |
-| UnsupportedFileFormat | `2` | Unsupported file format. |
-| InvalidTextOfDefinedName | `3` | Invalid text of the defined name. |
-| InvalidFontName | `4` | Invalid the font name. |
-| InvalidAutoFilterRange | `5` | Invalid autofilter range. |
-| IO | `6` | The file is corrupted. |
-| Limitation | `7` | Out of MS Excel limitation error. |
-| InvalidData | `8` | Invalid data. |
-| Formula | `9` | Invalid formula. |
-| InvalidOperator | `10` | Invalid operator. |
+| FontSubstitution | `0` |  |
+| DuplicateDefinedName | `1` |  |
+| UnsupportedFileFormat | `2` |  |
+| InvalidTextOfDefinedName | `3` |  |
+| InvalidFontName | `4` |  |
+| InvalidAutoFilterRange | `5` |  |
+| IO | `6` |  |
+| Limitation | `7` |  |
+| InvalidData | `8` |  |
+| Formula | `9` |  |
+| InvalidOperator | `10` |  |
 
 ### See Also
 

@@ -4,7 +4,7 @@ linktitle: SetName
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotFilter::SetName method. Gets the name of the pivot filter in C++.'
 type: docs
-weight: 1800
+weight: 2800
 url: /cpp/aspose.cells.pivot/pivotfilter/setname/
 ---
 ## PivotFilter::SetName(const U16String\&) method

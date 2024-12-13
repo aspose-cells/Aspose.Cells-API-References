@@ -4,7 +4,7 @@ linktitle: DeleteOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::DeleteOptions class. Represents the setting of deleting rows/columns in C++.'
 type: docs
-weight: 4700
+weight: 4900
 url: /cpp/aspose.cells/deleteoptions/
 ---
 ## DeleteOptions class
@@ -23,10 +23,12 @@ class DeleteOptions
 | [DeleteOptions()](./deleteoptions/) | Default constructor. |
 | [DeleteOptions(DeleteOptions_Impl* impl)](./deleteoptions/) | Constructs from an implementation object. |
 | [DeleteOptions(const DeleteOptions\& src)](./deleteoptions/) | Copy constructor. |
+| [GetFormulaChangeMonitor()](./getformulachangemonitor/) | Gets/sets the monitor for tracking changes caused by the deletion. |
 | [GetUpdateReference()](./getupdatereference/) | Indicates if update references in other worksheets. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const DeleteOptions\& src)](./operator_asm/) | operator= |
+| [SetFormulaChangeMonitor(const AbstractFormulaChangeMonitor\& value)](./setformulachangemonitor/) | Gets/sets the monitor for tracking changes caused by the deletion. |
 | [SetUpdateReference(bool value)](./setupdatereference/) | Indicates if update references in other worksheets. |
 | [~DeleteOptions()](./~deleteoptions/) | Destructor. |
 ## Fields

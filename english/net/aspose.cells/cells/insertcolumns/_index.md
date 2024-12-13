@@ -26,7 +26,7 @@ public void InsertColumns(int columnIndex, int totalColumns)
 
 ---
 
-## InsertColumns(int, int, bool) {#insertcolumns_1}
+## InsertColumns(int, int, bool) {#insertcolumns_2}
 
 Inserts some columns into the worksheet.
 
@@ -42,6 +42,29 @@ public void InsertColumns(int columnIndex, int totalColumns, bool updateReferenc
 
 ### See Also
 
+* class [Cells](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## InsertColumns(int, int, InsertOptions) {#insertcolumns_1}
+
+Inserts some columns into the worksheet.
+
+```csharp
+public void InsertColumns(int columnIndex, int totalColumns, InsertOptions options)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| columnIndex | Int32 | Column index. |
+| totalColumns | Int32 | The number of columns. |
+| options | InsertOptions | The options for inserting operation. |
+
+### See Also
+
+* class [InsertOptions](../../insertoptions/)
 * class [Cells](../)
 * namespace [Aspose.Cells](../../../aspose.cells/)
 * assembly [Aspose.Cells](../../../)

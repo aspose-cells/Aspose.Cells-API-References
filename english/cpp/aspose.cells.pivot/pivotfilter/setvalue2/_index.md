@@ -4,7 +4,7 @@ linktitle: SetValue2
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotFilter::SetValue2 method. Gets the string value2 of the label pivot filter in C++.'
 type: docs
-weight: 1200
+weight: 1900
 url: /cpp/aspose.cells.pivot/pivotfilter/setvalue2/
 ---
 ## PivotFilter::SetValue2(const U16String\&) method

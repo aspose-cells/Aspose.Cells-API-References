@@ -4,7 +4,7 @@ linktitle: FilterOperatorType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::FilterOperatorType enum. Custom Filter operator type in C++.'
 type: docs
-weight: 20700
+weight: 21200
 url: /cpp/aspose.cells/filteroperatortype/
 ---
 ## FilterOperatorType enum
@@ -31,6 +31,8 @@ enum class FilterOperatorType
 | EndsWith | 8 | <br>Ends with the text. |
 | Contains | 9 | <br>Contains the text. |
 | NotContains | 10 | <br>Not contains the text. |
+| NotBeginsWith | 11 | <br>Not begins with the text. |
+| NotEndsWith | 12 | <br>Not ends with the text. |
 
 ## See Also
 

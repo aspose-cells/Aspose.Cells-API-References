@@ -1,13 +1,13 @@
 ---
 title: Cells.DeleteRows
 second_title: Aspose.Cells for .NET API Reference
-description: Cells method. Deletes several rows
+description: Cells method. Deletes multiple rows
 type: docs
 url: /net/aspose.cells/cells/deleterows/
 ---
 ## DeleteRows(int, int) {#deleterows}
 
-Deletes several rows.
+Deletes multiple rows.
 
 ```csharp
 public bool DeleteRows(int rowIndex, int totalRows)
@@ -30,7 +30,7 @@ If the deleted range contains the top part(not whole) of the table(ListObject), 
 
 ---
 
-## DeleteRows(int, int, bool) {#deleterows_1}
+## DeleteRows(int, int, bool) {#deleterows_2}
 
 Deletes multiple rows in the worksheet.
 
@@ -46,6 +46,29 @@ public bool DeleteRows(int rowIndex, int totalRows, bool updateReference)
 
 ### See Also
 
+* class [Cells](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## DeleteRows(int, int, DeleteOptions) {#deleterows_1}
+
+Deletes multiple rows in the worksheet.
+
+```csharp
+public bool DeleteRows(int rowIndex, int totalRows, DeleteOptions options)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| rowIndex | Int32 | Index of the first row to be deleted. |
+| totalRows | Int32 | Count of rows to be deleted. |
+| options | DeleteOptions | Options for the deleting operation |
+
+### See Also
+
+* class [DeleteOptions](../../deleteoptions/)
 * class [Cells](../)
 * namespace [Aspose.Cells](../../../aspose.cells/)
 * assembly [Aspose.Cells](../../../)

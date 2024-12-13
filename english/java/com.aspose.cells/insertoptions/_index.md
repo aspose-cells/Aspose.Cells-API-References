@@ -25,11 +25,13 @@ Represents the options of inserting.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getCopyFormatType()](#getCopyFormatType--) | See [CopyFormatType](../../com.aspose.cells/copyformattype). |
+| [getFormulaChangeMonitor()](#getFormulaChangeMonitor--) | Gets the monitor for tracking changes caused by the insertion. |
 | [getUpdateReference()](#getUpdateReference--) | Indicates if references in other worksheets will be updated. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setCopyFormatType(int value)](#setCopyFormatType-int-) | See [CopyFormatType](../../com.aspose.cells/copyformattype). |
+| [setFormulaChangeMonitor(AbstractFormulaChangeMonitor value)](#setFormulaChangeMonitor-com.aspose.cells.AbstractFormulaChangeMonitor-) | Sets the monitor for tracking changes caused by the insertion. |
 | [setUpdateReference(boolean value)](#setUpdateReference-boolean-) | Indicates if references in other worksheets will be updated. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -76,6 +78,16 @@ See [CopyFormatType](../../com.aspose.cells/copyformattype).
 
 **Returns:**
 int
+### getFormulaChangeMonitor() {#getFormulaChangeMonitor--}
+```
+public AbstractFormulaChangeMonitor getFormulaChangeMonitor()
+```
+
+
+Gets the monitor for tracking changes caused by the insertion.
+
+**Returns:**
+[AbstractFormulaChangeMonitor](../../com.aspose.cells/abstractformulachangemonitor)
 ### getUpdateReference() {#getUpdateReference--}
 ```
 public boolean getUpdateReference()
@@ -124,6 +136,19 @@ See [CopyFormatType](../../com.aspose.cells/copyformattype).
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
+
+### setFormulaChangeMonitor(AbstractFormulaChangeMonitor value) {#setFormulaChangeMonitor-com.aspose.cells.AbstractFormulaChangeMonitor-}
+```
+public void setFormulaChangeMonitor(AbstractFormulaChangeMonitor value)
+```
+
+
+Sets the monitor for tracking changes caused by the insertion.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [AbstractFormulaChangeMonitor](../../com.aspose.cells/abstractformulachangemonitor) |  |
 
 ### setUpdateReference(boolean value) {#setUpdateReference-boolean-}
 ```

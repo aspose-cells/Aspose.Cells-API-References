@@ -1,0 +1,28 @@
+---
+title: GetDisplayName Method 
+linktitle: GetDisplayName
+second_title: Aspose.Cells for Go API Reference
+description: 'GetDisplayName method. Encapsulates the function that represents getdisplayname in Go.'
+type: docs
+weight: 200
+url: /go-cpp/pivotfield/getdisplayname/
+---
+
+## GetDisplayName function
+
+Represents the PivotField display name.
+
+```go
+
+func (instance *PivotField) GetDisplayName()  (string,  error) 
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [PivotField](../)
+* Namespace [Aspose.Cells.Pivot](../../)
+* Library [Aspose.Cells for Go](../../../)

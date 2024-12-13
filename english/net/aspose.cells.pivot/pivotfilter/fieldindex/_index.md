@@ -1,13 +1,13 @@
 ---
 title: PivotFilter.FieldIndex
 second_title: Aspose.Cells for .NET API Reference
-description: PivotFilter property. Gets the field index of the pivot filter
+description: PivotFilter property. Gets the index of source field which this pivot filter is applied to
 type: docs
 url: /net/aspose.cells.pivot/pivotfilter/fieldindex/
 ---
 ## PivotFilter.FieldIndex property
 
-Gets the field index of the pivot filter.
+Gets the index of source field which this pivot filter is applied to.
 
 ```csharp
 public int FieldIndex { get; }

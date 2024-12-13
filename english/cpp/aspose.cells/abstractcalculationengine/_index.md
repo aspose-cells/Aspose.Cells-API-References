@@ -34,6 +34,48 @@ class AbstractCalculationEngine
 
 
 User should not modify any part of the [Workbook](../workbook/) directly in this implementation(except the calculated result of the custom function, which can be set by CalculationData.CalculatedValue property). Otherwise unexpected result or Exception may be caused. If user needs to change other data than calculated result in the implementation for some custom functions, for example, change cell's formula, style, ...etc., user should gather those data in this implementation and change them out of the scope of formula calculation.
+
+## Examples
+
+
+```cpp
+Aspose::Cells::Startup();
+class MyEngine : public AbstractCalculationEngine
+{
+public:
+    void Calculate(CalculationData& data)
+    {
+        U16String funcName = data.GetFunctionName();
+        if ("MYFUNC" == funcName)
+        {
+            //do calculation for MYFUNC here
+            int count = data.GetParamCount();
+            Object res;
+            for (int i = 0; i < count; i++)
+            {
+                Object pv = data.GetParamValue(i);
+                if (pv.IsReferredArea())
+                {
+                    ReferredArea ra = pv.ToReferredArea();
+                    pv = ra.GetValue(0, 0);
+                }
+                //process the parameter here
+                //res = ...;
+            }
+            data.SetCalculatedValue(res);
+        }
+    }
+};
+
+Workbook wb(u"custom_calc.xlsx");
+MyEngine myEngine;
+CalculationOptions opts;
+opts.SetCustomEngine(&myEngine);
+wb.CalculateFormula(opts);
+
+Aspose::Cells::Cleanup();
+```
+
 ## See Also
 
 * Namespace [Aspose::Cells](../)

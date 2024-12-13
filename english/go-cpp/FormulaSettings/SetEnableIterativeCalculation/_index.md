@@ -1,0 +1,28 @@
+---
+title: SetEnableIterativeCalculation Method 
+linktitle: SetEnableIterativeCalculation
+second_title: Aspose.Cells for Go API Reference
+description: 'SetEnableIterativeCalculation method. Encapsulates the function that represents setenableiterativecalculation in Go.'
+type: docs
+weight: 200
+url: /go-cpp/formulasettings/setenableiterativecalculation/
+---
+
+## SetEnableIterativeCalculation function
+
+Indicates whether enable iterative calculation to resolve circular references.
+
+```go
+
+func (instance *FormulaSettings) SetEnableIterativeCalculation(value bool)  error
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [FormulaSettings](../)
+* Namespace [Aspose.Cells](../../)
+* Library [Aspose.Cells for Go](../../../)

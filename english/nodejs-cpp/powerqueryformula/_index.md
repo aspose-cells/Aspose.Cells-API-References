@@ -19,12 +19,22 @@ class PowerQueryFormula;
 
 | Method | Description |
 | --- | --- |
+| [getGroupName()](#getGroupName--)| Gets the name of group which contains this power query formula. |
 | [getName()](#getName--)| Gets and sets the name of the power query formula. |
 | [setName(string)](#setName-string-)| Gets and sets the name of the power query formula. |
 | [getPowerQueryFormulaItems()](#getPowerQueryFormulaItems--)| Gets all items of power query formula. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getType()](#getType--)| Gets the type of this power query formula. |
 | [getFormulaDefinition()](#getFormulaDefinition--)| Gets the definition of the power query formula. |
+
+
+### getGroupName() {#getGroupName--}
+
+Gets the name of group which contains this power query formula.
+
+```javascript
+getGroupName() : string;
+```
 
 
 ### getName() {#getName--}

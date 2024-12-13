@@ -77,6 +77,7 @@ public class GridJsWorkbook
 | --- | --- |
 | static [CacheImp](../../aspose.cells.gridjs/gridjsworkbook/cacheimp/) | Custom implemention for cache storage,If you want to store cache in stream way ,you need to set and implement it. |
 | static [CalculateEngine](../../aspose.cells.gridjs/gridjsworkbook/calculateengine/) | Custom implemention for calculation engine ,If you want to do custom calculation, you need to set and implement it. |
+| static [UpdateMonitor](../../aspose.cells.gridjs/gridjsworkbook/updatemonitor/) | Gets/Sets the update monitor to track update operation |
 
 ### See Also
 

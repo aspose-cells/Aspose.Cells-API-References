@@ -43,7 +43,7 @@ Represents all settings of the workbook.
 | [getDate1904()](#getDate1904--) | Gets a value which represents if the workbook uses the 1904 date system. |
 | [getDefaultImageResolution()](#getDefaultImageResolution--) | Gets default resolution of image. |
 | [getDefaultStyleSettings()](#getDefaultStyleSettings--) | Gets the settings for default values of style-related properties for this workbook. |
-| [getDiscardImageEditData()](#getDiscardImageEditData--) | Inidcates whether discarding editting image data. |
+| [getDiscardImageEditData()](#getDiscardImageEditData--) | Indicates whether discarding editting image data. |
 | [getDisplayDrawingObjects()](#getDisplayDrawingObjects--) | Indicates whether and how to show objects in the workbook. |
 | [getEnableMacros()](#getEnableMacros--) | Enable macros; |
 | [getFirstVisibleTab()](#getFirstVisibleTab--) | Gets the first visible worksheet tab. |
@@ -112,7 +112,7 @@ Represents all settings of the workbook.
 | [setDate1904(boolean value)](#setDate1904-boolean-) | Sets a value which represents if the workbook uses the 1904 date system. |
 | [setDefaultEncrypted(boolean value)](#setDefaultEncrypted-boolean-) | Indicates whether encrypting the workbook with default password if Structure and Windows of the workbook are locked. |
 | [setDefaultImageResolution(int value)](#setDefaultImageResolution-int-) | Sets default resolution of image. |
-| [setDiscardImageEditData(boolean value)](#setDiscardImageEditData-boolean-) | Inidcates whether discarding editting image data. |
+| [setDiscardImageEditData(boolean value)](#setDiscardImageEditData-boolean-) | Indicates whether discarding editting image data. |
 | [setDisplayDrawingObjects(int value)](#setDisplayDrawingObjects-int-) | Indicates whether and how to show objects in the workbook. |
 | [setEnableMacros(boolean value)](#setEnableMacros-boolean-) | Enable macros; |
 | [setFirstVisibleTab(int value)](#setFirstVisibleTab-int-) | Sets the first visible worksheet tab. |
@@ -344,7 +344,7 @@ public boolean getDiscardImageEditData()
 ```
 
 
-Inidcates whether discarding editting image data.
+Indicates whether discarding editting image data.
 
 **Returns:**
 boolean
@@ -1195,7 +1195,7 @@ public void setDiscardImageEditData(boolean value)
 ```
 
 
-Inidcates whether discarding editting image data.
+Indicates whether discarding editting image data.
 
 **Parameters:**
 | Parameter | Type | Description |

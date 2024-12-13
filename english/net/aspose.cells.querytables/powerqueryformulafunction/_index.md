@@ -19,6 +19,7 @@ public class PowerQueryFormulaFunction : PowerQueryFormula
 | --- | --- |
 | [F](../../aspose.cells.querytables/powerqueryformulafunction/f/) { get; set; } | Gets and sets the definition of function. |
 | virtual [FormulaDefinition](../../aspose.cells.querytables/powerqueryformula/formuladefinition/) { get; } | Gets the definition of the power query formula.(Inherited from [`PowerQueryFormula`](../powerqueryformula/).) |
+| [GroupName](../../aspose.cells.querytables/powerqueryformula/groupname/) { get; } | Gets the name of group which contains this power query formula.(Inherited from [`PowerQueryFormula`](../powerqueryformula/).) |
 | [Name](../../aspose.cells.querytables/powerqueryformula/name/) { get; set; } | Gets and sets the name of the power query formula.(Inherited from [`PowerQueryFormula`](../powerqueryformula/).) |
 | [PowerQueryFormulaItems](../../aspose.cells.querytables/powerqueryformula/powerqueryformulaitems/) { get; } | Gets all items of power query formula.(Inherited from [`PowerQueryFormula`](../powerqueryformula/).) |
 | override [Type](../../aspose.cells.querytables/powerqueryformulafunction/type/) { get; } | Gets the type of power query formula. |

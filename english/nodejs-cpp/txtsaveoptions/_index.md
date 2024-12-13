@@ -71,6 +71,8 @@ class TxtSaveOptions extends SaveOptions;
 | [setRefreshChartCache(boolean)](#setRefreshChartCache-boolean-)| Indicates whether refreshing chart cache data |
 | [setWarningCallback(IWarningCallback)](#setWarningCallback-iwarningcallback-)| Gets or sets warning callback. |
 | [getWarningCallback()](#getWarningCallback--)| Gets or sets warning callback. |
+| [getCheckExcelRestriction()](#getCheckExcelRestriction--)| Whether check restriction of excel file when user modify cells related objects. For example, excel does not allow inputting string value longer than 32K. When you input a value longer than 32K, it will be truncated. |
+| [setCheckExcelRestriction(boolean)](#setCheckExcelRestriction-boolean-)| Whether check restriction of excel file when user modify cells related objects. For example, excel does not allow inputting string value longer than 32K. When you input a value longer than 32K, it will be truncated. |
 | [getUpdateSmartArt()](#getUpdateSmartArt--)| Indicates whether updating smart art setting. The default value is false. |
 | [setUpdateSmartArt(boolean)](#setUpdateSmartArt-boolean-)| Indicates whether updating smart art setting. The default value is false. |
 | [getEncryptDocumentProperties()](#getEncryptDocumentProperties--)| Indicates whether encrypt document properties when saving as .xls file. The default value is true. |
@@ -675,6 +677,28 @@ getWarningCallback() : IWarningCallback;
 **Returns**
 
 [IWarningCallback](../iwarningcallback/)
+
+### getCheckExcelRestriction() {#getCheckExcelRestriction--}
+
+Whether check restriction of excel file when user modify cells related objects. For example, excel does not allow inputting string value longer than 32K. When you input a value longer than 32K, it will be truncated.
+
+```javascript
+getCheckExcelRestriction() : boolean;
+```
+
+
+### setCheckExcelRestriction(boolean) {#setCheckExcelRestriction-boolean-}
+
+Whether check restriction of excel file when user modify cells related objects. For example, excel does not allow inputting string value longer than 32K. When you input a value longer than 32K, it will be truncated.
+
+```javascript
+setCheckExcelRestriction(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
 
 ### getUpdateSmartArt() {#getUpdateSmartArt--}
 
