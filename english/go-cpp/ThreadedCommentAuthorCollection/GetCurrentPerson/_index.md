@@ -1,7 +1,7 @@
 ---
 title: GetCurrentPerson Method 
 linktitle: GetCurrentPerson
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetCurrentPerson method. Encapsulates the function that represents getcurrentperson in Go.'
 type: docs
 weight: 200

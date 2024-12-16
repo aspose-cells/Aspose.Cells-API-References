@@ -1,7 +1,7 @@
 ---
 title: GetOnlyAuto Method 
 linktitle: GetOnlyAuto
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetOnlyAuto method. Encapsulates the function that represents getonlyauto in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: FilterCategory Enum 
 linktitle: FilterCategory
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'FilterCategory enum. Encapsulates the object that represents filtercategory in Go.'
 type: docs
 weight: 200

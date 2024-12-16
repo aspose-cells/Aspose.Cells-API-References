@@ -1,7 +1,7 @@
 ---
 title: ShapePathPoint Class 
 linktitle: ShapePathPoint
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ShapePathPoint class. Encapsulates the object that represents shapepathpoint in Go.'
 type: docs
 weight: 200

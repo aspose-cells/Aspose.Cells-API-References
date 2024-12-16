@@ -1,7 +1,7 @@
 ---
 title: TimePeriodType Enum 
 linktitle: TimePeriodType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'TimePeriodType enum. Encapsulates the object that represents timeperiodtype in Go.'
 type: docs
 weight: 200

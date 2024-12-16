@@ -1,7 +1,7 @@
 ---
 title: GetFirstCell Method 
 linktitle: GetFirstCell
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetFirstCell method. Encapsulates the function that represents getfirstcell in Go.'
 type: docs
 weight: 200

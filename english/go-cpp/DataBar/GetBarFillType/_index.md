@@ -1,7 +1,7 @@
 ---
 title: GetBarFillType Method 
 linktitle: GetBarFillType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetBarFillType method. Encapsulates the function that represents getbarfilltype in Go.'
 type: docs
 weight: 200

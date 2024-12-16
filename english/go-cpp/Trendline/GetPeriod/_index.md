@@ -1,7 +1,7 @@
 ---
 title: GetPeriod Method 
 linktitle: GetPeriod
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetPeriod method. Encapsulates the function that represents getperiod in Go.'
 type: docs
 weight: 200

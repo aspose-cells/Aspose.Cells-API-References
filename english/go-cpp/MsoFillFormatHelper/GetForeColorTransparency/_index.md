@@ -1,7 +1,7 @@
 ---
 title: GetForeColorTransparency Method 
 linktitle: GetForeColorTransparency
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetForeColorTransparency method. Encapsulates the function that represents getforecolortransparency in Go.'
 type: docs
 weight: 200

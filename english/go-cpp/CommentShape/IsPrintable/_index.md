@@ -1,7 +1,7 @@
 ---
 title: IsPrintable Method 
 linktitle: IsPrintable
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsPrintable method. Encapsulates the function that represents isprintable in Go.'
 type: docs
 weight: 200

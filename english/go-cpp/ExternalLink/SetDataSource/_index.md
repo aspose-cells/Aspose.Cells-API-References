@@ -1,7 +1,7 @@
 ---
 title: SetDataSource Method 
 linktitle: SetDataSource
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetDataSource method. Encapsulates the function that represents setdatasource in Go.'
 type: docs
 weight: 200

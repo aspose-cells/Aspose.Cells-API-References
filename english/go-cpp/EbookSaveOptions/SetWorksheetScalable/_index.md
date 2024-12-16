@@ -1,7 +1,7 @@
 ---
 title: SetWorksheetScalable Method 
 linktitle: SetWorksheetScalable
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetWorksheetScalable method. Encapsulates the function that represents setworksheetscalable in Go.'
 type: docs
 weight: 200

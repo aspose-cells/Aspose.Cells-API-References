@@ -1,7 +1,7 @@
 ---
 title: Add_SparklineType Method 
 linktitle: Add
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'Add_SparklineType method. Encapsulates the function that represents add in Go.'
 type: docs
 weight: 200

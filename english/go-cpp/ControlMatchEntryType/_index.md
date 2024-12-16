@@ -1,7 +1,7 @@
 ---
 title: ControlMatchEntryType Enum 
 linktitle: ControlMatchEntryType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ControlMatchEntryType enum. Encapsulates the object that represents controlmatchentrytype in Go.'
 type: docs
 weight: 200

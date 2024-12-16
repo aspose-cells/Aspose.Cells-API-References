@@ -1,7 +1,7 @@
 ---
 title: GetPresetShape Method 
 linktitle: GetPresetShape
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetPresetShape method. Encapsulates the function that represents getpresetshape in Go.'
 type: docs
 weight: 200

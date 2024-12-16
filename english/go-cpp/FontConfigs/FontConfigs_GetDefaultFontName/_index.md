@@ -1,7 +1,7 @@
 ---
 title: FontConfigs_GetDefaultFontName Method 
 linktitle: GetDefaultFontName
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'FontConfigs_GetDefaultFontName method. Encapsulates the function that represents getdefaultfontname in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetDefaultY Method 
 linktitle: GetDefaultY
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetDefaultY method. Encapsulates the function that represents getdefaulty in Go.'
 type: docs
 weight: 200

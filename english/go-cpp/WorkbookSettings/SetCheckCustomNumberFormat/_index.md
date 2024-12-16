@@ -1,7 +1,7 @@
 ---
 title: SetCheckCustomNumberFormat Method 
 linktitle: SetCheckCustomNumberFormat
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetCheckCustomNumberFormat method. Encapsulates the function that represents setcheckcustomnumberformat in Go.'
 type: docs
 weight: 200

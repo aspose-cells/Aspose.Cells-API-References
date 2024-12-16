@@ -1,7 +1,7 @@
 ---
 title: LookAtType Enum 
 linktitle: LookAtType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'LookAtType enum. Encapsulates the object that represents lookattype in Go.'
 type: docs
 weight: 200

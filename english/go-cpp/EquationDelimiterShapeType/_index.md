@@ -1,7 +1,7 @@
 ---
 title: EquationDelimiterShapeType Enum 
 linktitle: EquationDelimiterShapeType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'EquationDelimiterShapeType enum. Encapsulates the object that represents equationdelimitershapetype in Go.'
 type: docs
 weight: 200

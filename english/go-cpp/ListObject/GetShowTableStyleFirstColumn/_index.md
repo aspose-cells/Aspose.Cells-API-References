@@ -1,7 +1,7 @@
 ---
 title: GetShowTableStyleFirstColumn Method 
 linktitle: GetShowTableStyleFirstColumn
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetShowTableStyleFirstColumn method. Encapsulates the function that represents getshowtablestylefirstcolumn in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: SetStandardFunctionName Method 
 linktitle: SetStandardFunctionName
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetStandardFunctionName method. Encapsulates the function that represents setstandardfunctionname in Go.'
 type: docs
 weight: 200

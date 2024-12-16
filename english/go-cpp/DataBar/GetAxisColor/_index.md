@@ -1,7 +1,7 @@
 ---
 title: GetAxisColor Method 
 linktitle: GetAxisColor
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetAxisColor method. Encapsulates the function that represents getaxiscolor in Go.'
 type: docs
 weight: 200

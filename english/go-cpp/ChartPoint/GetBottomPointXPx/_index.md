@@ -1,7 +1,7 @@
 ---
 title: GetBottomPointXPx Method 
 linktitle: GetBottomPointXPx
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetBottomPointXPx method. Encapsulates the function that represents getbottompointxpx in Go.'
 type: docs
 weight: 200

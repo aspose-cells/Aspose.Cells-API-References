@@ -1,7 +1,7 @@
 ---
 title: SetShowType Method 
 linktitle: SetShowType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetShowType method. Encapsulates the function that represents setshowtype in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: CustomProperty Constructor 
 linktitle: CustomProperty
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'CustomProperty constructor. Encapsulates the function that represents newcustomproperty in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: SignatureLine Constructor 
 linktitle: SignatureLine
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SignatureLine constructor. Encapsulates the function that represents newsignatureline in Go.'
 type: docs
 weight: 200

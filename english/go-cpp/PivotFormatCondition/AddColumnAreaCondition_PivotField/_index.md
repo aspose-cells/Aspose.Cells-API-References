@@ -1,7 +1,7 @@
 ---
 title: AddColumnAreaCondition_PivotField Method 
 linktitle: AddColumnAreaCondition
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'AddColumnAreaCondition_PivotField method. Encapsulates the function that represents addcolumnareacondition in Go.'
 type: docs
 weight: 200

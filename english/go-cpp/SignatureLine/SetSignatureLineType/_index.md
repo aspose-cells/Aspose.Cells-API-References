@@ -1,7 +1,7 @@
 ---
 title: SetSignatureLineType Method 
 linktitle: SetSignatureLineType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetSignatureLineType method. Encapsulates the function that represents setsignaturelinetype in Go.'
 type: docs
 weight: 200

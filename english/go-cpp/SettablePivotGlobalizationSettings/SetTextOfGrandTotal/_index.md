@@ -1,7 +1,7 @@
 ---
 title: SetTextOfGrandTotal Method 
 linktitle: SetTextOfGrandTotal
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetTextOfGrandTotal method. Encapsulates the function that represents settextofgrandtotal in Go.'
 type: docs
 weight: 200

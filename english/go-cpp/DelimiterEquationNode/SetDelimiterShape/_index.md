@@ -1,7 +1,7 @@
 ---
 title: SetDelimiterShape Method 
 linktitle: SetDelimiterShape
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetDelimiterShape method. Encapsulates the function that represents setdelimitershape in Go.'
 type: docs
 weight: 200

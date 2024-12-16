@@ -1,7 +1,7 @@
 ---
 title: GetCenterY Method 
 linktitle: GetCenterY
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetCenterY method. Encapsulates the function that represents getcentery in Go.'
 type: docs
 weight: 200

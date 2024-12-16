@@ -1,7 +1,7 @@
 ---
 title: GetAxisUnitName Method 
 linktitle: GetAxisUnitName
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetAxisUnitName method. Encapsulates the function that represents getaxisunitname in Go.'
 type: docs
 weight: 200

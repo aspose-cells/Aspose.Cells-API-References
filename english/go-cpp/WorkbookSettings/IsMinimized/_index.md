@@ -1,7 +1,7 @@
 ---
 title: IsMinimized Method 
 linktitle: IsMinimized
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsMinimized method. Encapsulates the function that represents isminimized in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: SetWidthScalable Method 
 linktitle: SetWidthScalable
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetWidthScalable method. Encapsulates the function that represents setwidthscalable in Go.'
 type: docs
 weight: 200

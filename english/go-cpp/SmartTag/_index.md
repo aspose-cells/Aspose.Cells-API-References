@@ -1,7 +1,7 @@
 ---
 title: SmartTag Class 
 linktitle: SmartTag
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SmartTag class. Encapsulates the object that represents smarttag in Go.'
 type: docs
 weight: 200

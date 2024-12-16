@@ -1,7 +1,7 @@
 ---
 title: GetMergedRange Method 
 linktitle: GetMergedRange
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetMergedRange method. Encapsulates the function that represents getmergedrange in Go.'
 type: docs
 weight: 200

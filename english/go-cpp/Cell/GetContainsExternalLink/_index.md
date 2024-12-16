@@ -1,7 +1,7 @@
 ---
 title: GetContainsExternalLink Method 
 linktitle: GetContainsExternalLink
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetContainsExternalLink method. Encapsulates the function that represents getcontainsexternallink in Go.'
 type: docs
 weight: 200

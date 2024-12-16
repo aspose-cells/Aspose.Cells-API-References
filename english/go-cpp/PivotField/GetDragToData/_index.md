@@ -1,7 +1,7 @@
 ---
 title: GetDragToData Method 
 linktitle: GetDragToData
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetDragToData method. Encapsulates the function that represents getdragtodata in Go.'
 type: docs
 weight: 200

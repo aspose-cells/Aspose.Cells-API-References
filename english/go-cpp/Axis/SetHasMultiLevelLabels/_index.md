@@ -1,7 +1,7 @@
 ---
 title: SetHasMultiLevelLabels Method 
 linktitle: SetHasMultiLevelLabels
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetHasMultiLevelLabels method. Encapsulates the function that represents sethasmultilevellabels in Go.'
 type: docs
 weight: 200

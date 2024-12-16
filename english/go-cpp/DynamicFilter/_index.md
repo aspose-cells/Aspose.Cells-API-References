@@ -1,7 +1,7 @@
 ---
 title: DynamicFilter Class 
 linktitle: DynamicFilter
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'DynamicFilter class. Encapsulates the object that represents dynamicfilter in Go.'
 type: docs
 weight: 200

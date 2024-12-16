@@ -1,7 +1,7 @@
 ---
 title: GetValuesFormatCode Method 
 linktitle: GetValuesFormatCode
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetValuesFormatCode method. Encapsulates the function that represents getvaluesformatcode in Go.'
 type: docs
 weight: 200

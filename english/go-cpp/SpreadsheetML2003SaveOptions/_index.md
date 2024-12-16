@@ -1,7 +1,7 @@
 ---
 title: SpreadsheetML2003SaveOptions Class 
 linktitle: SpreadsheetML2003SaveOptions
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SpreadsheetML2003SaveOptions class. Encapsulates the object that represents spreadsheetml2003saveoptions in Go.'
 type: docs
 weight: 200

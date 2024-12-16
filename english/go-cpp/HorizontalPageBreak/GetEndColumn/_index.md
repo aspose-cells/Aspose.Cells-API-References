@@ -1,7 +1,7 @@
 ---
 title: GetEndColumn Method 
 linktitle: GetEndColumn
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetEndColumn method. Encapsulates the function that represents getendcolumn in Go.'
 type: docs
 weight: 200

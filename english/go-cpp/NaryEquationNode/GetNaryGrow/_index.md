@@ -1,7 +1,7 @@
 ---
 title: GetNaryGrow Method 
 linktitle: GetNaryGrow
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetNaryGrow method. Encapsulates the function that represents getnarygrow in Go.'
 type: docs
 weight: 200

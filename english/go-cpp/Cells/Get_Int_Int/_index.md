@@ -1,7 +1,7 @@
 ---
 title: Get_Int_Int Method 
 linktitle: Get
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'Get_Int_Int method. Encapsulates the function that represents get in Go.'
 type: docs
 weight: 200

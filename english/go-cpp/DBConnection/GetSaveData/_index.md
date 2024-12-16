@@ -1,7 +1,7 @@
 ---
 title: GetSaveData Method 
 linktitle: GetSaveData
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetSaveData method. Encapsulates the function that represents getsavedata in Go.'
 type: docs
 weight: 200

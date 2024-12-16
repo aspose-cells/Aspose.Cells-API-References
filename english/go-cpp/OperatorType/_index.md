@@ -1,7 +1,7 @@
 ---
 title: OperatorType Enum 
 linktitle: OperatorType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'OperatorType enum. Encapsulates the object that represents operatortype in Go.'
 type: docs
 weight: 200

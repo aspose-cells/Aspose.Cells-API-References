@@ -1,7 +1,7 @@
 ---
 title: SetSurfaceLightingType Method 
 linktitle: SetSurfaceLightingType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetSurfaceLightingType method. Encapsulates the function that represents setsurfacelightingtype in Go.'
 type: docs
 weight: 200

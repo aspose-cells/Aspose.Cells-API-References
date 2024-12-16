@@ -1,7 +1,7 @@
 ---
 title: Chart Class 
 linktitle: Chart
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'Chart class. Encapsulates the object that represents chart in Go.'
 type: docs
 weight: 200

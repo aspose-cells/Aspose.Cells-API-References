@@ -1,7 +1,7 @@
 ---
 title: GetWebExtension Method 
 linktitle: GetWebExtension
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetWebExtension method. Encapsulates the function that represents getwebextension in Go.'
 type: docs
 weight: 200

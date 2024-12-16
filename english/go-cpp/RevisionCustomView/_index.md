@@ -1,7 +1,7 @@
 ---
 title: RevisionCustomView Class 
 linktitle: RevisionCustomView
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'RevisionCustomView class. Encapsulates the object that represents revisioncustomview in Go.'
 type: docs
 weight: 200

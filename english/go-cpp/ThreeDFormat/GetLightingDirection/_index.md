@@ -1,7 +1,7 @@
 ---
 title: GetLightingDirection Method 
 linktitle: GetLightingDirection
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetLightingDirection method. Encapsulates the function that represents getlightingdirection in Go.'
 type: docs
 weight: 200

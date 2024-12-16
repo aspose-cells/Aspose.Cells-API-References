@@ -1,7 +1,7 @@
 ---
 title: GetFileFormat Method 
 linktitle: GetFileFormat
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetFileFormat method. Encapsulates the function that represents getfileformat in Go.'
 type: docs
 weight: 200

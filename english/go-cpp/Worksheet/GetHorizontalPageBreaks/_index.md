@@ -1,7 +1,7 @@
 ---
 title: GetHorizontalPageBreaks Method 
 linktitle: GetHorizontalPageBreaks
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetHorizontalPageBreaks method. Encapsulates the function that represents gethorizontalpagebreaks in Go.'
 type: docs
 weight: 200

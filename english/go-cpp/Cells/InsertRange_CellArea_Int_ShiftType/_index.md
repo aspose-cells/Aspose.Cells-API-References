@@ -1,7 +1,7 @@
 ---
 title: InsertRange_CellArea_Int_ShiftType Method 
 linktitle: InsertRange
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'InsertRange_CellArea_Int_ShiftType method. Encapsulates the function that represents insertrange in Go.'
 type: docs
 weight: 200

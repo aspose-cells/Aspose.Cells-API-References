@@ -1,7 +1,7 @@
 ---
 title: SetShowPivotStyleColumnStripes Method 
 linktitle: SetShowPivotStyleColumnStripes
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetShowPivotStyleColumnStripes method. Encapsulates the function that represents setshowpivotstylecolumnstripes in Go.'
 type: docs
 weight: 200

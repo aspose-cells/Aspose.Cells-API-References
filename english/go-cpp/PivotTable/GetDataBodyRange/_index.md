@@ -1,7 +1,7 @@
 ---
 title: GetDataBodyRange Method 
 linktitle: GetDataBodyRange
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetDataBodyRange method. Encapsulates the function that represents getdatabodyrange in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: FindOptions Constructor 
 linktitle: FindOptions
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'FindOptions constructor. Encapsulates the function that represents newfindoptions in Go.'
 type: docs
 weight: 200

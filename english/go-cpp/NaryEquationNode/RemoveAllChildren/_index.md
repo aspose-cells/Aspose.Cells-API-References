@@ -1,7 +1,7 @@
 ---
 title: RemoveAllChildren Method 
 linktitle: RemoveAllChildren
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'RemoveAllChildren method. Encapsulates the function that represents removeallchildren in Go.'
 type: docs
 weight: 200

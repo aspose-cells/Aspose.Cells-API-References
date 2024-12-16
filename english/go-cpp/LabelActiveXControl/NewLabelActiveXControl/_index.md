@@ -1,7 +1,7 @@
 ---
 title: LabelActiveXControl Constructor 
 linktitle: LabelActiveXControl
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'LabelActiveXControl constructor. Encapsulates the function that represents newlabelactivexcontrol in Go.'
 type: docs
 weight: 200

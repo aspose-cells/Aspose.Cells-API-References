@@ -1,7 +1,7 @@
 ---
 title: GetErrorValue Method 
 linktitle: GetErrorValue
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetErrorValue method. Encapsulates the function that represents geterrorvalue in Go.'
 type: docs
 weight: 200

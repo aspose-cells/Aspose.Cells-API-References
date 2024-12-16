@@ -1,7 +1,7 @@
 ---
 title: SetScaleToPagePercent Method 
 linktitle: SetScaleToPagePercent
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetScaleToPagePercent method. Encapsulates the function that represents setscaletopagepercent in Go.'
 type: docs
 weight: 200

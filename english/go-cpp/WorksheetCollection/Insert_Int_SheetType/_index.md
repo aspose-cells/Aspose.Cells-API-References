@@ -1,7 +1,7 @@
 ---
 title: Insert_Int_SheetType Method 
 linktitle: Insert
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'Insert_Int_SheetType method. Encapsulates the function that represents insert in Go.'
 type: docs
 weight: 200

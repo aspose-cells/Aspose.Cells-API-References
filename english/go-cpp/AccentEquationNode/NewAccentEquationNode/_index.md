@@ -1,7 +1,7 @@
 ---
 title: AccentEquationNode Constructor 
 linktitle: AccentEquationNode
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'AccentEquationNode constructor. Encapsulates the function that represents newaccentequationnode in Go.'
 type: docs
 weight: 200

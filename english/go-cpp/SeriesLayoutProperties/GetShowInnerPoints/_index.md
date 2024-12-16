@@ -1,7 +1,7 @@
 ---
 title: GetShowInnerPoints Method 
 linktitle: GetShowInnerPoints
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetShowInnerPoints method. Encapsulates the function that represents getshowinnerpoints in Go.'
 type: docs
 weight: 200

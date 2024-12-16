@@ -1,7 +1,7 @@
 ---
 title: GetTwiddledlibid Method 
 linktitle: GetTwiddledlibid
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetTwiddledlibid method. Encapsulates the function that represents gettwiddledlibid in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: SetIsGray Method 
 linktitle: SetIsGray
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetIsGray method. Encapsulates the function that represents setisgray in Go.'
 type: docs
 weight: 200

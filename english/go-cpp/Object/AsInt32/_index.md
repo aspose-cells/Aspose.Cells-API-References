@@ -1,7 +1,7 @@
 ---
 title: AsInt32 Method 
 linktitle: AsInt32
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'AsInt32 method. Encapsulates the function that represents asint32 in Go.'
 type: docs
 weight: 200

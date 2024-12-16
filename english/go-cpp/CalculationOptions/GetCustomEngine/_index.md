@@ -1,7 +1,7 @@
 ---
 title: GetCustomEngine Method 
 linktitle: GetCustomEngine
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetCustomEngine method. Encapsulates the function that represents getcustomengine in Go.'
 type: docs
 weight: 200

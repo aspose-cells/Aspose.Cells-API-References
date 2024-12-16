@@ -1,7 +1,7 @@
 ---
 title: SetTableToListObject Method 
 linktitle: SetTableToListObject
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetTableToListObject method. Encapsulates the function that represents settabletolistobject in Go.'
 type: docs
 weight: 200

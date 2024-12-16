@@ -1,7 +1,7 @@
 ---
 title: GetFileName Method 
 linktitle: GetFileName
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetFileName method. Encapsulates the function that represents getfilename in Go.'
 type: docs
 weight: 200

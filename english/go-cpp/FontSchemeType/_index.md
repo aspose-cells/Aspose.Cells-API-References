@@ -1,7 +1,7 @@
 ---
 title: FontSchemeType Enum 
 linktitle: FontSchemeType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'FontSchemeType enum. Encapsulates the object that represents fontschemetype in Go.'
 type: docs
 weight: 200

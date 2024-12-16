@@ -1,7 +1,7 @@
 ---
 title: GetTransitionEvaluation Method 
 linktitle: GetTransitionEvaluation
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetTransitionEvaluation method. Encapsulates the function that represents gettransitionevaluation in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetIgnoreRootAttributes Method 
 linktitle: GetIgnoreRootAttributes
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetIgnoreRootAttributes method. Encapsulates the function that represents getignorerootattributes in Go.'
 type: docs
 weight: 200

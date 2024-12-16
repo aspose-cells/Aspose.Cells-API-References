@@ -1,7 +1,7 @@
 ---
 title: GetTextOfHours Method 
 linktitle: GetTextOfHours
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetTextOfHours method. Encapsulates the function that represents gettextofhours in Go.'
 type: docs
 weight: 200

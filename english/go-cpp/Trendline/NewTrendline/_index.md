@@ -1,7 +1,7 @@
 ---
 title: Trendline Constructor 
 linktitle: Trendline
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'Trendline constructor. Encapsulates the function that represents newtrendline in Go.'
 type: docs
 weight: 200

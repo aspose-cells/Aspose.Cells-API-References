@@ -1,7 +1,7 @@
 ---
 title: GetHeaderMarginInch Method 
 linktitle: GetHeaderMarginInch
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetHeaderMarginInch method. Encapsulates the function that represents getheadermargininch in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetWpsCompatibility Method 
 linktitle: GetWpsCompatibility
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetWpsCompatibility method. Encapsulates the function that represents getwpscompatibility in Go.'
 type: docs
 weight: 200

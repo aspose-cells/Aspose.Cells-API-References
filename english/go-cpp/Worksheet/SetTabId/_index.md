@@ -1,7 +1,7 @@
 ---
 title: SetTabId Method 
 linktitle: SetTabId
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetTabId method. Encapsulates the function that represents settabid in Go.'
 type: docs
 weight: 200

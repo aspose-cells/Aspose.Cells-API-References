@@ -1,7 +1,7 @@
 ---
 title: GetForceFullCalculation Method 
 linktitle: GetForceFullCalculation
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetForceFullCalculation method. Encapsulates the function that represents getforcefullcalculation in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: RevisionInsertSheet Class 
 linktitle: RevisionInsertSheet
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'RevisionInsertSheet class. Encapsulates the object that represents revisioninsertsheet in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: AddEquation Method 
 linktitle: AddEquation
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'AddEquation method. Encapsulates the function that represents addequation in Go.'
 type: docs
 weight: 200

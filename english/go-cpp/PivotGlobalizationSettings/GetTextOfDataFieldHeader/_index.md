@@ -1,7 +1,7 @@
 ---
 title: GetTextOfDataFieldHeader Method 
 linktitle: GetTextOfDataFieldHeader
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetTextOfDataFieldHeader method. Encapsulates the function that represents gettextofdatafieldheader in Go.'
 type: docs
 weight: 200

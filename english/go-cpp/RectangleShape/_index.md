@@ -1,7 +1,7 @@
 ---
 title: RectangleShape Class 
 linktitle: RectangleShape
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'RectangleShape class. Encapsulates the object that represents rectangleshape in Go.'
 type: docs
 weight: 200

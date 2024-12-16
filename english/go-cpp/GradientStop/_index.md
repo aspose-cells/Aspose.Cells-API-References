@@ -1,7 +1,7 @@
 ---
 title: GradientStop Class 
 linktitle: GradientStop
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GradientStop class. Encapsulates the object that represents gradientstop in Go.'
 type: docs
 weight: 200

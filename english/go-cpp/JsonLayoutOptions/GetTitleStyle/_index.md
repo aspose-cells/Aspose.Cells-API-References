@@ -1,7 +1,7 @@
 ---
 title: GetTitleStyle Method 
 linktitle: GetTitleStyle
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetTitleStyle method. Encapsulates the function that represents gettitlestyle in Go.'
 type: docs
 weight: 200

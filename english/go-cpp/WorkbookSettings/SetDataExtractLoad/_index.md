@@ -1,7 +1,7 @@
 ---
 title: SetDataExtractLoad Method 
 linktitle: SetDataExtractLoad
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetDataExtractLoad method. Encapsulates the function that represents setdataextractload in Go.'
 type: docs
 weight: 200

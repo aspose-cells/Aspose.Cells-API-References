@@ -1,7 +1,7 @@
 ---
 title: GetOperatorType Method 
 linktitle: GetOperatorType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetOperatorType method. Encapsulates the function that represents getoperatortype in Go.'
 type: docs
 weight: 200

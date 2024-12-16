@@ -1,7 +1,7 @@
 ---
 title: GetBottomBevelType Method 
 linktitle: GetBottomBevelType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetBottomBevelType method. Encapsulates the function that represents getbottombeveltype in Go.'
 type: docs
 weight: 200

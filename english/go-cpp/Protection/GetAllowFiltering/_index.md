@@ -1,7 +1,7 @@
 ---
 title: GetAllowFiltering Method 
 linktitle: GetAllowFiltering
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetAllowFiltering method. Encapsulates the function that represents getallowfiltering in Go.'
 type: docs
 weight: 200

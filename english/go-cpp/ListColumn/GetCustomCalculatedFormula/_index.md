@@ -1,7 +1,7 @@
 ---
 title: GetCustomCalculatedFormula Method 
 linktitle: GetCustomCalculatedFormula
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetCustomCalculatedFormula method. Encapsulates the function that represents getcustomcalculatedformula in Go.'
 type: docs
 weight: 200

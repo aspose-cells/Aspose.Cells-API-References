@@ -1,7 +1,7 @@
 ---
 title: SetWeightPx Method 
 linktitle: SetWeightPx
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetWeightPx method. Encapsulates the function that represents setweightpx in Go.'
 type: docs
 weight: 200

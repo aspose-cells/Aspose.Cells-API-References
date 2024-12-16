@@ -1,7 +1,7 @@
 ---
 title: InsertCutCells Method 
 linktitle: InsertCutCells
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'InsertCutCells method. Encapsulates the function that represents insertcutcells in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetDeleteRedundantSpaces Method 
 linktitle: GetDeleteRedundantSpaces
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetDeleteRedundantSpaces method. Encapsulates the function that represents getdeleteredundantspaces in Go.'
 type: docs
 weight: 200

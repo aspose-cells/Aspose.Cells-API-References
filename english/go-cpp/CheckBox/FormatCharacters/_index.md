@@ -1,7 +1,7 @@
 ---
 title: FormatCharacters Method 
 linktitle: FormatCharacters
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'FormatCharacters method. Encapsulates the function that represents formatcharacters in Go.'
 type: docs
 weight: 200

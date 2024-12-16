@@ -1,7 +1,7 @@
 ---
 title: ListColumnCollection Class 
 linktitle: ListColumnCollection
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ListColumnCollection class. Encapsulates the object that represents listcolumncollection in Go.'
 type: docs
 weight: 200

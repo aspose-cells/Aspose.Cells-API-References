@@ -1,7 +1,7 @@
 ---
 title: SetLockedPosition Method 
 linktitle: SetLockedPosition
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetLockedPosition method. Encapsulates the function that represents setlockedposition in Go.'
 type: docs
 weight: 200

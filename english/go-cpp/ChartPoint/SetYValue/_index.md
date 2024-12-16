@@ -1,7 +1,7 @@
 ---
 title: SetYValue Method 
 linktitle: SetYValue
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetYValue method. Encapsulates the function that represents setyvalue in Go.'
 type: docs
 weight: 200

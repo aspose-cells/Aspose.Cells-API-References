@@ -1,7 +1,7 @@
 ---
 title: SetCopyInvalidFormulasAsValues Method 
 linktitle: SetCopyInvalidFormulasAsValues
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetCopyInvalidFormulasAsValues method. Encapsulates the function that represents setcopyinvalidformulasasvalues in Go.'
 type: docs
 weight: 200

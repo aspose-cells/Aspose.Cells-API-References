@@ -1,7 +1,7 @@
 ---
 title: SetStartId Method 
 linktitle: SetStartId
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetStartId method. Encapsulates the function that represents setstartid in Go.'
 type: docs
 weight: 200

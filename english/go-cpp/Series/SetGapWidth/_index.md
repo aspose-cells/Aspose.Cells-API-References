@@ -1,7 +1,7 @@
 ---
 title: SetGapWidth Method 
 linktitle: SetGapWidth
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetGapWidth method. Encapsulates the function that represents setgapwidth in Go.'
 type: docs
 weight: 200

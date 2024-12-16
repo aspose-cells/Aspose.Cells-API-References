@@ -1,7 +1,7 @@
 ---
 title: SetPageFieldOrder Method 
 linktitle: SetPageFieldOrder
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetPageFieldOrder method. Encapsulates the function that represents setpagefieldorder in Go.'
 type: docs
 weight: 200

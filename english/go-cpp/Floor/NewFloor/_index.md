@@ -1,7 +1,7 @@
 ---
 title: Floor Constructor 
 linktitle: Floor
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'Floor constructor. Encapsulates the function that represents newfloor in Go.'
 type: docs
 weight: 200

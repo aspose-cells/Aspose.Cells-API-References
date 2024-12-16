@@ -1,7 +1,7 @@
 ---
 title: IsOpen Method 
 linktitle: IsOpen
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsOpen method. Encapsulates the function that represents isopen in Go.'
 type: docs
 weight: 200

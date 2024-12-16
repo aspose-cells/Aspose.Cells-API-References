@@ -1,7 +1,7 @@
 ---
 title: GetStandardWidthInch Method 
 linktitle: GetStandardWidthInch
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetStandardWidthInch method. Encapsulates the function that represents getstandardwidthinch in Go.'
 type: docs
 weight: 200

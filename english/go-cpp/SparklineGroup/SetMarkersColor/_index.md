@@ -1,7 +1,7 @@
 ---
 title: SetMarkersColor Method 
 linktitle: SetMarkersColor
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetMarkersColor method. Encapsulates the function that represents setmarkerscolor in Go.'
 type: docs
 weight: 200

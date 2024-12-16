@@ -1,7 +1,7 @@
 ---
 title: ExternalLinkType Enum 
 linktitle: ExternalLinkType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ExternalLinkType enum. Encapsulates the object that represents externallinktype in Go.'
 type: docs
 weight: 200

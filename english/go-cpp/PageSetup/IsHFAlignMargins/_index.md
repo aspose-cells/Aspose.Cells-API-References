@@ -1,7 +1,7 @@
 ---
 title: IsHFAlignMargins Method 
 linktitle: IsHFAlignMargins
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsHFAlignMargins method. Encapsulates the function that represents ishfalignmargins in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: FormatArea Method 
 linktitle: FormatArea
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'FormatArea method. Encapsulates the function that represents formatarea in Go.'
 type: docs
 weight: 200

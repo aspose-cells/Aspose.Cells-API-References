@@ -1,7 +1,7 @@
 ---
 title: GetResultRange Method 
 linktitle: GetResultRange
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetResultRange method. Encapsulates the function that represents getresultrange in Go.'
 type: docs
 weight: 200

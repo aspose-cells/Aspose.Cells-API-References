@@ -1,7 +1,7 @@
 ---
 title: ScenarioInputCellCollection Class 
 linktitle: ScenarioInputCellCollection
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ScenarioInputCellCollection class. Encapsulates the object that represents scenarioinputcellcollection in Go.'
 type: docs
 weight: 200

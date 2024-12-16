@@ -1,7 +1,7 @@
 ---
 title: FontConfigs_SetPreferSystemFontSubstitutes Method 
 linktitle: SetPreferSystemFontSubstitutes
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'FontConfigs_SetPreferSystemFontSubstitutes method. Encapsulates the function that represents setprefersystemfontsubstitutes in Go.'
 type: docs
 weight: 200

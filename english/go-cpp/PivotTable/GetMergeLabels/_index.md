@@ -1,7 +1,7 @@
 ---
 title: GetMergeLabels Method 
 linktitle: GetMergeLabels
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetMergeLabels method. Encapsulates the function that represents getmergelabels in Go.'
 type: docs
 weight: 200

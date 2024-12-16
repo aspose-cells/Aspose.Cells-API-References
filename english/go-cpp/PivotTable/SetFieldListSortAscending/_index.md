@@ -1,7 +1,7 @@
 ---
 title: SetFieldListSortAscending Method 
 linktitle: SetFieldListSortAscending
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetFieldListSortAscending method. Encapsulates the function that represents setfieldlistsortascending in Go.'
 type: docs
 weight: 200

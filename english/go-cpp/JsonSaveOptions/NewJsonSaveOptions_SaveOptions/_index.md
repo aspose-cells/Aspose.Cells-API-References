@@ -1,7 +1,7 @@
 ---
 title: JsonSaveOptions Constructor 
 linktitle: JsonSaveOptions
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'JsonSaveOptions constructor. Encapsulates the function that represents newjsonsaveoptions_saveoptions in Go.'
 type: docs
 weight: 200

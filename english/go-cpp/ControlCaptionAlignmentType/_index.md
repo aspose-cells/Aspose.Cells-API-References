@@ -1,7 +1,7 @@
 ---
 title: ControlCaptionAlignmentType Enum 
 linktitle: ControlCaptionAlignmentType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ControlCaptionAlignmentType enum. Encapsulates the object that represents controlcaptionalignmenttype in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: Protect_ProtectionType_String_String Method 
 linktitle: Protect
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'Protect_ProtectionType_String_String method. Encapsulates the function that represents protect in Go.'
 type: docs
 weight: 200

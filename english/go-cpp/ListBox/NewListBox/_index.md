@@ -1,7 +1,7 @@
 ---
 title: ListBox Constructor 
 linktitle: ListBox
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ListBox constructor. Encapsulates the function that represents newlistbox in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: SetIsBackground Method 
 linktitle: SetIsBackground
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetIsBackground method. Encapsulates the function that represents setisbackground in Go.'
 type: docs
 weight: 200

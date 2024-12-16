@@ -1,7 +1,7 @@
 ---
 title: GetRotationX Method 
 linktitle: GetRotationX
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetRotationX method. Encapsulates the function that represents getrotationx in Go.'
 type: docs
 weight: 200

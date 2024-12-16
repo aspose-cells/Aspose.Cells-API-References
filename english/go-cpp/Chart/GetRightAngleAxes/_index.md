@@ -1,7 +1,7 @@
 ---
 title: GetRightAngleAxes Method 
 linktitle: GetRightAngleAxes
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetRightAngleAxes method. Encapsulates the function that represents getrightangleaxes in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: PutCellValue_Int_Int_Object Method 
 linktitle: PutCellValue
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'PutCellValue_Int_Int_Object method. Encapsulates the function that represents putcellvalue in Go.'
 type: docs
 weight: 200

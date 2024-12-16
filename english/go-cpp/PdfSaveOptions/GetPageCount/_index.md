@@ -1,7 +1,7 @@
 ---
 title: GetPageCount Method 
 linktitle: GetPageCount
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetPageCount method. Encapsulates the function that represents getpagecount in Go.'
 type: docs
 weight: 200

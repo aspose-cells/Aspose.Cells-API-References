@@ -1,7 +1,7 @@
 ---
 title: DrawObjectEnum Enum 
 linktitle: DrawObjectEnum
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'DrawObjectEnum enum. Encapsulates the object that represents drawobjectenum in Go.'
 type: docs
 weight: 200

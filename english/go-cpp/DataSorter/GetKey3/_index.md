@@ -1,7 +1,7 @@
 ---
 title: GetKey3 Method 
 linktitle: GetKey3
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetKey3 method. Encapsulates the function that represents getkey3 in Go.'
 type: docs
 weight: 200

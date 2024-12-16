@@ -1,7 +1,7 @@
 ---
 title: SetTitleStyle Method 
 linktitle: SetTitleStyle
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetTitleStyle method. Encapsulates the function that represents settitlestyle in Go.'
 type: docs
 weight: 200

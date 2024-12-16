@@ -1,7 +1,7 @@
 ---
 title: GetTextOrientationType Method 
 linktitle: GetTextOrientationType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetTextOrientationType method. Encapsulates the function that represents gettextorientationtype in Go.'
 type: docs
 weight: 200

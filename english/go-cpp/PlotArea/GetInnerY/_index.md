@@ -1,7 +1,7 @@
 ---
 title: GetInnerY Method 
 linktitle: GetInnerY
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetInnerY method. Encapsulates the function that represents getinnery in Go.'
 type: docs
 weight: 200

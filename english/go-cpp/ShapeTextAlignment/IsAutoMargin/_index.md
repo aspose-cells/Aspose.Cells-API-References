@@ -1,7 +1,7 @@
 ---
 title: IsAutoMargin Method 
 linktitle: IsAutoMargin
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsAutoMargin method. Encapsulates the function that represents isautomargin in Go.'
 type: docs
 weight: 200

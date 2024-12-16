@@ -1,7 +1,7 @@
 ---
 title: SetPicFormatOption Method 
 linktitle: SetPicFormatOption
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetPicFormatOption method. Encapsulates the function that represents setpicformatoption in Go.'
 type: docs
 weight: 200

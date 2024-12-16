@@ -1,7 +1,7 @@
 ---
 title: GetTextBoxOptions Method 
 linktitle: GetTextBoxOptions
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetTextBoxOptions method. Encapsulates the function that represents gettextboxoptions in Go.'
 type: docs
 weight: 200

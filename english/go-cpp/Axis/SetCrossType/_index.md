@@ -1,7 +1,7 @@
 ---
 title: SetCrossType Method 
 linktitle: SetCrossType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetCrossType method. Encapsulates the function that represents setcrosstype in Go.'
 type: docs
 weight: 200

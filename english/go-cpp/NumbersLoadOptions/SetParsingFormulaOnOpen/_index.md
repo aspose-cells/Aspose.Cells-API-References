@@ -1,7 +1,7 @@
 ---
 title: SetParsingFormulaOnOpen Method 
 linktitle: SetParsingFormulaOnOpen
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetParsingFormulaOnOpen method. Encapsulates the function that represents setparsingformulaonopen in Go.'
 type: docs
 weight: 200

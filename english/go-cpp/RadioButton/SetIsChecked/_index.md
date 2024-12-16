@@ -1,7 +1,7 @@
 ---
 title: SetIsChecked Method 
 linktitle: SetIsChecked
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetIsChecked method. Encapsulates the function that represents setischecked in Go.'
 type: docs
 weight: 200

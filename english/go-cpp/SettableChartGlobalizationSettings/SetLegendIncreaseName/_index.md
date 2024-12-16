@@ -1,7 +1,7 @@
 ---
 title: SetLegendIncreaseName Method 
 linktitle: SetLegendIncreaseName
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetLegendIncreaseName method. Encapsulates the function that represents setlegendincreasename in Go.'
 type: docs
 weight: 200

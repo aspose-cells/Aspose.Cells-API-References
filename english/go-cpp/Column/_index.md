@@ -1,7 +1,7 @@
 ---
 title: Column Class 
 linktitle: Column
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'Column class. Encapsulates the object that represents column in Go.'
 type: docs
 weight: 200

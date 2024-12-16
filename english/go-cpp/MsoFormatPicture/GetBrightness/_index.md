@@ -1,7 +1,7 @@
 ---
 title: GetBrightness Method 
 linktitle: GetBrightness
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetBrightness method. Encapsulates the function that represents getbrightness in Go.'
 type: docs
 weight: 200

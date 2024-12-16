@@ -1,7 +1,7 @@
 ---
 title: GetTreatConsecutiveDelimitersAsOne Method 
 linktitle: GetTreatConsecutiveDelimitersAsOne
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetTreatConsecutiveDelimitersAsOne method. Encapsulates the function that represents gettreatconsecutivedelimitersasone in Go.'
 type: docs
 weight: 200

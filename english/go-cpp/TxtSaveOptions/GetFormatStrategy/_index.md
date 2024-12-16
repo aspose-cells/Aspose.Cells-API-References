@@ -1,7 +1,7 @@
 ---
 title: GetFormatStrategy Method 
 linktitle: GetFormatStrategy
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetFormatStrategy method. Encapsulates the function that represents getformatstrategy in Go.'
 type: docs
 weight: 200

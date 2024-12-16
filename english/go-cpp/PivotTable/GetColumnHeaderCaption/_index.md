@@ -1,7 +1,7 @@
 ---
 title: GetColumnHeaderCaption Method 
 linktitle: GetColumnHeaderCaption
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetColumnHeaderCaption method. Encapsulates the function that represents getcolumnheadercaption in Go.'
 type: docs
 weight: 200

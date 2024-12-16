@@ -1,7 +1,7 @@
 ---
 title: GetSeparatorChar Method 
 linktitle: GetSeparatorChar
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetSeparatorChar method. Encapsulates the function that represents getseparatorchar in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: WebExtensionTaskPane Class 
 linktitle: WebExtensionTaskPane
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'WebExtensionTaskPane class. Encapsulates the object that represents webextensiontaskpane in Go.'
 type: docs
 weight: 200

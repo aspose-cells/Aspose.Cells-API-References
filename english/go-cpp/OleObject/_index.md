@@ -1,7 +1,7 @@
 ---
 title: OleObject Class 
 linktitle: OleObject
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'OleObject class. Encapsulates the object that represents oleobject in Go.'
 type: docs
 weight: 200

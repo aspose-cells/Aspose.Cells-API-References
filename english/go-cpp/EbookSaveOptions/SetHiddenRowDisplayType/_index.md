@@ -1,7 +1,7 @@
 ---
 title: SetHiddenRowDisplayType Method 
 linktitle: SetHiddenRowDisplayType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetHiddenRowDisplayType method. Encapsulates the function that represents sethiddenrowdisplaytype in Go.'
 type: docs
 weight: 200

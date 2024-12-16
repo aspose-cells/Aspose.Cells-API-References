@@ -1,7 +1,7 @@
 ---
 title: GetVerticalAxisMaxValueType Method 
 linktitle: GetVerticalAxisMaxValueType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetVerticalAxisMaxValueType method. Encapsulates the function that represents getverticalaxismaxvaluetype in Go.'
 type: docs
 weight: 200

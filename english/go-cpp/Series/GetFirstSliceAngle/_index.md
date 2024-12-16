@@ -1,7 +1,7 @@
 ---
 title: GetFirstSliceAngle Method 
 linktitle: GetFirstSliceAngle
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetFirstSliceAngle method. Encapsulates the function that represents getfirstsliceangle in Go.'
 type: docs
 weight: 200

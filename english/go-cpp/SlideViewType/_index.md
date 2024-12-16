@@ -1,7 +1,7 @@
 ---
 title: SlideViewType Enum 
 linktitle: SlideViewType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SlideViewType enum. Encapsulates the object that represents slideviewtype in Go.'
 type: docs
 weight: 200

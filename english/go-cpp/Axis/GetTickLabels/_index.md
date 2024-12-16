@@ -1,7 +1,7 @@
 ---
 title: GetTickLabels Method 
 linktitle: GetTickLabels
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetTickLabels method. Encapsulates the function that represents getticklabels in Go.'
 type: docs
 weight: 200

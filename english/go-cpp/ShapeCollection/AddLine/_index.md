@@ -1,7 +1,7 @@
 ---
 title: AddLine Method 
 linktitle: AddLine
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'AddLine method. Encapsulates the function that represents addline in Go.'
 type: docs
 weight: 200

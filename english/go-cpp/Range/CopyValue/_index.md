@@ -1,7 +1,7 @@
 ---
 title: CopyValue Method 
 linktitle: CopyValue
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'CopyValue method. Encapsulates the function that represents copyvalue in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: SetColumn Method 
 linktitle: SetColumn
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetColumn method. Encapsulates the function that represents setcolumn in Go.'
 type: docs
 weight: 200

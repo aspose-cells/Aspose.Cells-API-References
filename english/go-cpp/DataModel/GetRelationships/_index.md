@@ -1,7 +1,7 @@
 ---
 title: GetRelationships Method 
 linktitle: GetRelationships
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetRelationships method. Encapsulates the function that represents getrelationships in Go.'
 type: docs
 weight: 200

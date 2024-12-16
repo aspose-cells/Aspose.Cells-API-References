@@ -1,7 +1,7 @@
 ---
 title: IsEditable Method 
 linktitle: IsEditable
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsEditable method. Encapsulates the function that represents iseditable in Go.'
 type: docs
 weight: 200

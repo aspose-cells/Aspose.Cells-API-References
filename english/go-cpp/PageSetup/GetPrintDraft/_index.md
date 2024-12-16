@@ -1,7 +1,7 @@
 ---
 title: GetPrintDraft Method 
 linktitle: GetPrintDraft
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetPrintDraft method. Encapsulates the function that represents getprintdraft in Go.'
 type: docs
 weight: 200

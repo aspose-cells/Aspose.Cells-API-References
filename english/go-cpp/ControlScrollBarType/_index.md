@@ -1,7 +1,7 @@
 ---
 title: ControlScrollBarType Enum 
 linktitle: ControlScrollBarType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ControlScrollBarType enum. Encapsulates the object that represents controlscrollbartype in Go.'
 type: docs
 weight: 200

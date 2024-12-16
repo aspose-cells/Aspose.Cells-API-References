@@ -1,7 +1,7 @@
 ---
 title: SetKeepUnparsedData Method 
 linktitle: SetKeepUnparsedData
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetKeepUnparsedData method. Encapsulates the function that represents setkeepunparseddata in Go.'
 type: docs
 weight: 200

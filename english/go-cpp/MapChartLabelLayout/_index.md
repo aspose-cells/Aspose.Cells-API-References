@@ -1,7 +1,7 @@
 ---
 title: MapChartLabelLayout Enum 
 linktitle: MapChartLabelLayout
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'MapChartLabelLayout enum. Encapsulates the object that represents mapchartlabellayout in Go.'
 type: docs
 weight: 200

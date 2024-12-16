@@ -1,7 +1,7 @@
 ---
 title: ConditionalFormattingValueCollection Class 
 linktitle: ConditionalFormattingValueCollection
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ConditionalFormattingValueCollection class. Encapsulates the object that represents conditionalformattingvaluecollection in Go.'
 type: docs
 weight: 200

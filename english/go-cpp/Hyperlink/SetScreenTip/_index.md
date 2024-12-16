@@ -1,7 +1,7 @@
 ---
 title: SetScreenTip Method 
 linktitle: SetScreenTip
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetScreenTip method. Encapsulates the function that represents setscreentip in Go.'
 type: docs
 weight: 200

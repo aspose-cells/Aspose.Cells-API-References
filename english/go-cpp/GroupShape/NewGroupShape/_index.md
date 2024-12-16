@@ -1,7 +1,7 @@
 ---
 title: GroupShape Constructor 
 linktitle: GroupShape
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GroupShape constructor. Encapsulates the function that represents newgroupshape in Go.'
 type: docs
 weight: 200

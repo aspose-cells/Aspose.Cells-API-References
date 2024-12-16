@@ -1,7 +1,7 @@
 ---
 title: GetBubbleScale Method 
 linktitle: GetBubbleScale
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetBubbleScale method. Encapsulates the function that represents getbubblescale in Go.'
 type: docs
 weight: 200

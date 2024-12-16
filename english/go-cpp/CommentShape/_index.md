@@ -1,7 +1,7 @@
 ---
 title: CommentShape Class 
 linktitle: CommentShape
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'CommentShape class. Encapsulates the object that represents commentshape in Go.'
 type: docs
 weight: 200

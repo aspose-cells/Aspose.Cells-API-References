@@ -1,7 +1,7 @@
 ---
 title: ShowAll Method 
 linktitle: ShowAll
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ShowAll method. Encapsulates the function that represents showall in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: IsIntervalLeftClosed Method 
 linktitle: IsIntervalLeftClosed
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsIntervalLeftClosed method. Encapsulates the function that represents isintervalleftclosed in Go.'
 type: docs
 weight: 200

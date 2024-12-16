@@ -1,7 +1,7 @@
 ---
 title: GetTopPointCount Method 
 linktitle: GetTopPointCount
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetTopPointCount method. Encapsulates the function that represents gettoppointcount in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: SetRotWithShape Method 
 linktitle: SetRotWithShape
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetRotWithShape method. Encapsulates the function that represents setrotwithshape in Go.'
 type: docs
 weight: 200

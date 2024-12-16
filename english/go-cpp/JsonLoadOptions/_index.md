@@ -1,7 +1,7 @@
 ---
 title: JsonLoadOptions Class 
 linktitle: JsonLoadOptions
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'JsonLoadOptions class. Encapsulates the object that represents jsonloadoptions in Go.'
 type: docs
 weight: 200

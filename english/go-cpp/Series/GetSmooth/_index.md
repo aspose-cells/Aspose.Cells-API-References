@@ -1,7 +1,7 @@
 ---
 title: GetSmooth Method 
 linktitle: GetSmooth
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetSmooth method. Encapsulates the function that represents getsmooth in Go.'
 type: docs
 weight: 200

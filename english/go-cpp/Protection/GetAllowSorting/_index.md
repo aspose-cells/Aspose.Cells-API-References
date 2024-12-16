@@ -1,7 +1,7 @@
 ---
 title: GetAllowSorting Method 
 linktitle: GetAllowSorting
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetAllowSorting method. Encapsulates the function that represents getallowsorting in Go.'
 type: docs
 weight: 200

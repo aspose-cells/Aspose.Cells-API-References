@@ -1,7 +1,7 @@
 ---
 title: SetDisplayDocTitle Method 
 linktitle: SetDisplayDocTitle
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetDisplayDocTitle method. Encapsulates the function that represents setdisplaydoctitle in Go.'
 type: docs
 weight: 200

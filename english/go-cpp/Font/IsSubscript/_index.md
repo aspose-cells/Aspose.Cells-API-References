@@ -1,7 +1,7 @@
 ---
 title: IsSubscript Method 
 linktitle: IsSubscript
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsSubscript method. Encapsulates the function that represents issubscript in Go.'
 type: docs
 weight: 200

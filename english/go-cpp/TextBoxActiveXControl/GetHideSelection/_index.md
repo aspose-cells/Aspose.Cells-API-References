@@ -1,7 +1,7 @@
 ---
 title: GetHideSelection Method 
 linktitle: GetHideSelection
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetHideSelection method. Encapsulates the function that represents gethideselection in Go.'
 type: docs
 weight: 200

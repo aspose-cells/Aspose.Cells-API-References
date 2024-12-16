@@ -1,7 +1,7 @@
 ---
 title: ToInt Method 
 linktitle: ToInt
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ToInt method. Encapsulates the function that represents toint in Go.'
 type: docs
 weight: 200

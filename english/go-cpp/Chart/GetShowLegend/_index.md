@@ -1,7 +1,7 @@
 ---
 title: GetShowLegend Method 
 linktitle: GetShowLegend
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetShowLegend method. Encapsulates the function that represents getshowlegend in Go.'
 type: docs
 weight: 200

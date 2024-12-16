@@ -1,7 +1,7 @@
 ---
 title: AddFieldToArea_PivotFieldType_String Method 
 linktitle: AddFieldToArea
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'AddFieldToArea_PivotFieldType_String method. Encapsulates the function that represents addfieldtoarea in Go.'
 type: docs
 weight: 200

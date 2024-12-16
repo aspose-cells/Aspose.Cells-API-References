@@ -1,7 +1,7 @@
 ---
 title: GetLogBase Method 
 linktitle: GetLogBase
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetLogBase method. Encapsulates the function that represents getlogbase in Go.'
 type: docs
 weight: 200

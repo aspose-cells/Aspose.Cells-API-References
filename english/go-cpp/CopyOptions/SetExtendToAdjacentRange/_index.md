@@ -1,7 +1,7 @@
 ---
 title: SetExtendToAdjacentRange Method 
 linktitle: SetExtendToAdjacentRange
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetExtendToAdjacentRange method. Encapsulates the function that represents setextendtoadjacentrange in Go.'
 type: docs
 weight: 200

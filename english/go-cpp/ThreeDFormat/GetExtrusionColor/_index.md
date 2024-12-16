@@ -1,7 +1,7 @@
 ---
 title: GetExtrusionColor Method 
 linktitle: GetExtrusionColor
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetExtrusionColor method. Encapsulates the function that represents getextrusioncolor in Go.'
 type: docs
 weight: 200

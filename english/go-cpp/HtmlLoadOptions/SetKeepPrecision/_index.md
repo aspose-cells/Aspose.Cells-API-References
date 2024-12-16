@@ -1,7 +1,7 @@
 ---
 title: SetKeepPrecision Method 
 linktitle: SetKeepPrecision
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetKeepPrecision method. Encapsulates the function that represents setkeepprecision in Go.'
 type: docs
 weight: 200

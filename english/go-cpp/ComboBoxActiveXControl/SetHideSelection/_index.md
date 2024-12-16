@@ -1,7 +1,7 @@
 ---
 title: SetHideSelection Method 
 linktitle: SetHideSelection
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetHideSelection method. Encapsulates the function that represents sethideselection in Go.'
 type: docs
 weight: 200

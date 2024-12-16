@@ -1,7 +1,7 @@
 ---
 title: MsoLineDashStyle Enum 
 linktitle: MsoLineDashStyle
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'MsoLineDashStyle enum. Encapsulates the object that represents msolinedashstyle in Go.'
 type: docs
 weight: 200

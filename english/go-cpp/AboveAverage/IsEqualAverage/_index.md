@@ -1,7 +1,7 @@
 ---
 title: IsEqualAverage Method 
 linktitle: IsEqualAverage
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsEqualAverage method. Encapsulates the function that represents isequalaverage in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetExtrusionHeight Method 
 linktitle: GetExtrusionHeight
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetExtrusionHeight method. Encapsulates the function that represents getextrusionheight in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: SetMinorTickMark Method 
 linktitle: SetMinorTickMark
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetMinorTickMark method. Encapsulates the function that represents setminortickmark in Go.'
 type: docs
 weight: 200

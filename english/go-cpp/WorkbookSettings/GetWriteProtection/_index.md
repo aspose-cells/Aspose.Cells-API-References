@@ -1,7 +1,7 @@
 ---
 title: GetWriteProtection Method 
 linktitle: GetWriteProtection
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetWriteProtection method. Encapsulates the function that represents getwriteprotection in Go.'
 type: docs
 weight: 200

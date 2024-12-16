@@ -1,7 +1,7 @@
 ---
 title: Move Method 
 linktitle: Move
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'Move method. Encapsulates the function that represents move in Go.'
 type: docs
 weight: 200

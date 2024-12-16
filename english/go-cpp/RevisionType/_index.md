@@ -1,7 +1,7 @@
 ---
 title: RevisionType Enum 
 linktitle: RevisionType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'RevisionType enum. Encapsulates the object that represents revisiontype in Go.'
 type: docs
 weight: 200

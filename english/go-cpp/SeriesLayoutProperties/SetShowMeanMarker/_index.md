@@ -1,7 +1,7 @@
 ---
 title: SetShowMeanMarker Method 
 linktitle: SetShowMeanMarker
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetShowMeanMarker method. Encapsulates the function that represents setshowmeanmarker in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetDestination Method 
 linktitle: GetDestination
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetDestination method. Encapsulates the function that represents getdestination in Go.'
 type: docs
 weight: 200

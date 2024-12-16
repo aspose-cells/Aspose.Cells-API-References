@@ -1,7 +1,7 @@
 ---
 title: GetLockedAspectRatio Method 
 linktitle: GetLockedAspectRatio
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetLockedAspectRatio method. Encapsulates the function that represents getlockedaspectratio in Go.'
 type: docs
 weight: 200

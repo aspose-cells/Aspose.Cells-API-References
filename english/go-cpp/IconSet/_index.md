@@ -1,7 +1,7 @@
 ---
 title: IconSet Class 
 linktitle: IconSet
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IconSet class. Encapsulates the object that represents iconset in Go.'
 type: docs
 weight: 200

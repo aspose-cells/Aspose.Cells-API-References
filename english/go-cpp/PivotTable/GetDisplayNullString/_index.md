@@ -1,7 +1,7 @@
 ---
 title: GetDisplayNullString Method 
 linktitle: GetDisplayNullString
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetDisplayNullString method. Encapsulates the function that represents getdisplaynullstring in Go.'
 type: docs
 weight: 200

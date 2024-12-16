@@ -1,7 +1,7 @@
 ---
 title: SetIsTripleState Method 
 linktitle: SetIsTripleState
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetIsTripleState method. Encapsulates the function that represents setistriplestate in Go.'
 type: docs
 weight: 200

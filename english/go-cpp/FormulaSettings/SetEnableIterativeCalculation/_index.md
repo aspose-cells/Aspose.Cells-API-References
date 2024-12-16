@@ -1,7 +1,7 @@
 ---
 title: SetEnableIterativeCalculation Method 
 linktitle: SetEnableIterativeCalculation
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetEnableIterativeCalculation method. Encapsulates the function that represents setenableiterativecalculation in Go.'
 type: docs
 weight: 200

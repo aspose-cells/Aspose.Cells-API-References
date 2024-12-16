@@ -1,7 +1,7 @@
 ---
 title: SetBeginChar Method 
 linktitle: SetBeginChar
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetBeginChar method. Encapsulates the function that represents setbeginchar in Go.'
 type: docs
 weight: 200

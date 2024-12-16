@@ -1,7 +1,7 @@
 ---
 title: InterruptMonitor Class 
 linktitle: InterruptMonitor
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'InterruptMonitor class. Encapsulates the object that represents interruptmonitor in Go.'
 type: docs
 weight: 200

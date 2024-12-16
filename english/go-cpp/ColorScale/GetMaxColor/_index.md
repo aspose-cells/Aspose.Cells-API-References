@@ -1,7 +1,7 @@
 ---
 title: GetMaxColor Method 
 linktitle: GetMaxColor
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetMaxColor method. Encapsulates the function that represents getmaxcolor in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetEmptyStringAsBlank Method 
 linktitle: GetEmptyStringAsBlank
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetEmptyStringAsBlank method. Encapsulates the function that represents getemptystringasblank in Go.'
 type: docs
 weight: 200

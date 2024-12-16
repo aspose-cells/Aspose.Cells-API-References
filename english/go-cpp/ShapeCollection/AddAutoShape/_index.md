@@ -1,7 +1,7 @@
 ---
 title: AddAutoShape Method 
 linktitle: AddAutoShape
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'AddAutoShape method. Encapsulates the function that represents addautoshape in Go.'
 type: docs
 weight: 200

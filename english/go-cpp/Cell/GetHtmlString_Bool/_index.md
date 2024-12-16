@@ -1,7 +1,7 @@
 ---
 title: GetHtmlString_Bool Method 
 linktitle: GetHtmlString
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetHtmlString_Bool method. Encapsulates the function that represents gethtmlstring in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: BulletValue Class 
 linktitle: BulletValue
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'BulletValue class. Encapsulates the object that represents bulletvalue in Go.'
 type: docs
 weight: 200

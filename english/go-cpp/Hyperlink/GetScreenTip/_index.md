@@ -1,7 +1,7 @@
 ---
 title: GetScreenTip Method 
 linktitle: GetScreenTip
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetScreenTip method. Encapsulates the function that represents getscreentip in Go.'
 type: docs
 weight: 200

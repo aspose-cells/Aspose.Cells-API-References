@@ -1,7 +1,7 @@
 ---
 title: BorderType Enum 
 linktitle: BorderType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'BorderType enum. Encapsulates the object that represents bordertype in Go.'
 type: docs
 weight: 200

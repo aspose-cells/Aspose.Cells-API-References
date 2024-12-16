@@ -1,7 +1,7 @@
 ---
 title: DataModelTable Class 
 linktitle: DataModelTable
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'DataModelTable class. Encapsulates the object that represents datamodeltable in Go.'
 type: docs
 weight: 200

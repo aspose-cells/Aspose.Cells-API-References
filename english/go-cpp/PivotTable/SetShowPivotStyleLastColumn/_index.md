@@ -1,7 +1,7 @@
 ---
 title: SetShowPivotStyleLastColumn Method 
 linktitle: SetShowPivotStyleLastColumn
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetShowPivotStyleLastColumn method. Encapsulates the function that represents setshowpivotstylelastcolumn in Go.'
 type: docs
 weight: 200

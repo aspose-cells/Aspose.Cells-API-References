@@ -1,7 +1,7 @@
 ---
 title: GetLastCell Method 
 linktitle: GetLastCell
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetLastCell method. Encapsulates the function that represents getlastcell in Go.'
 type: docs
 weight: 200

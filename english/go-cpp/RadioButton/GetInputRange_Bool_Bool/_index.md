@@ -1,7 +1,7 @@
 ---
 title: GetInputRange_Bool_Bool Method 
 linktitle: GetInputRange
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetInputRange_Bool_Bool method. Encapsulates the function that represents getinputrange in Go.'
 type: docs
 weight: 200

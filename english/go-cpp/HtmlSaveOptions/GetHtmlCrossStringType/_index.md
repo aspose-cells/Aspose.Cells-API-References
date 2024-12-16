@@ -1,7 +1,7 @@
 ---
 title: GetHtmlCrossStringType Method 
 linktitle: GetHtmlCrossStringType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetHtmlCrossStringType method. Encapsulates the function that represents gethtmlcrossstringtype in Go.'
 type: docs
 weight: 200

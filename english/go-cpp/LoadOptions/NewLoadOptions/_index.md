@@ -1,7 +1,7 @@
 ---
 title: LoadOptions Constructor 
 linktitle: LoadOptions
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'LoadOptions constructor. Encapsulates the function that represents newloadoptions in Go.'
 type: docs
 weight: 200

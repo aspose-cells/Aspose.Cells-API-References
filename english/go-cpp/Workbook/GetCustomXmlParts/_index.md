@@ -1,7 +1,7 @@
 ---
 title: GetCustomXmlParts Method 
 linktitle: GetCustomXmlParts
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetCustomXmlParts method. Encapsulates the function that represents getcustomxmlparts in Go.'
 type: docs
 weight: 200

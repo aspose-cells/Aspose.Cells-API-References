@@ -1,7 +1,7 @@
 ---
 title: GetVisibilityType Method 
 linktitle: GetVisibilityType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetVisibilityType method. Encapsulates the function that represents getvisibilitytype in Go.'
 type: docs
 weight: 200

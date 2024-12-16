@@ -1,7 +1,7 @@
 ---
 title: SetViewColumnWidthPixel Method 
 linktitle: SetViewColumnWidthPixel
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetViewColumnWidthPixel method. Encapsulates the function that represents setviewcolumnwidthpixel in Go.'
 type: docs
 weight: 200

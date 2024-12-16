@@ -1,7 +1,7 @@
 ---
 title: GetAllowInsertingColumn Method 
 linktitle: GetAllowInsertingColumn
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetAllowInsertingColumn method. Encapsulates the function that represents getallowinsertingcolumn in Go.'
 type: docs
 weight: 200

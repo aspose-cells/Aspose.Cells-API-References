@@ -1,7 +1,7 @@
 ---
 title: PlotEmptyCellsType Enum 
 linktitle: PlotEmptyCellsType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'PlotEmptyCellsType enum. Encapsulates the object that represents plotemptycellstype in Go.'
 type: docs
 weight: 200

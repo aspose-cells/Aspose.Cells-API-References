@@ -1,7 +1,7 @@
 ---
 title: PivotArea Constructor 
 linktitle: PivotArea
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'PivotArea constructor. Encapsulates the function that represents newpivotarea in Go.'
 type: docs
 weight: 200

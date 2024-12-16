@@ -1,7 +1,7 @@
 ---
 title: GetEnterFieldBehavior Method 
 linktitle: GetEnterFieldBehavior
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetEnterFieldBehavior method. Encapsulates the function that represents getenterfieldbehavior in Go.'
 type: docs
 weight: 200

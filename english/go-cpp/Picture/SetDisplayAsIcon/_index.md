@@ -1,7 +1,7 @@
 ---
 title: SetDisplayAsIcon Method 
 linktitle: SetDisplayAsIcon
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetDisplayAsIcon method. Encapsulates the function that represents setdisplayasicon in Go.'
 type: docs
 weight: 200

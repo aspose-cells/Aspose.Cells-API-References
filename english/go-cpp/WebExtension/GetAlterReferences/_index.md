@@ -1,7 +1,7 @@
 ---
 title: GetAlterReferences Method 
 linktitle: GetAlterReferences
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetAlterReferences method. Encapsulates the function that represents getalterreferences in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetWeightPx Method 
 linktitle: GetWeightPx
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetWeightPx method. Encapsulates the function that represents getweightpx in Go.'
 type: docs
 weight: 200

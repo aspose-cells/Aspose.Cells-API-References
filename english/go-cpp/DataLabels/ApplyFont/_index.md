@@ -1,7 +1,7 @@
 ---
 title: ApplyFont Method 
 linktitle: ApplyFont
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ApplyFont method. Encapsulates the function that represents applyfont in Go.'
 type: docs
 weight: 200

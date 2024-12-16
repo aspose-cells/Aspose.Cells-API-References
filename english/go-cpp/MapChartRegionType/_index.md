@@ -1,7 +1,7 @@
 ---
 title: MapChartRegionType Enum 
 linktitle: MapChartRegionType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'MapChartRegionType enum. Encapsulates the object that represents mapchartregiontype in Go.'
 type: docs
 weight: 200

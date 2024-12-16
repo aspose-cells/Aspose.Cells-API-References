@@ -1,7 +1,7 @@
 ---
 title: AddRegisteredReference Method 
 linktitle: AddRegisteredReference
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'AddRegisteredReference method. Encapsulates the function that represents addregisteredreference in Go.'
 type: docs
 weight: 200

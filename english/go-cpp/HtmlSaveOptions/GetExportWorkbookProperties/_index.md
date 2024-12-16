@@ -1,7 +1,7 @@
 ---
 title: GetExportWorkbookProperties Method 
 linktitle: GetExportWorkbookProperties
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetExportWorkbookProperties method. Encapsulates the function that represents getexportworkbookproperties in Go.'
 type: docs
 weight: 200

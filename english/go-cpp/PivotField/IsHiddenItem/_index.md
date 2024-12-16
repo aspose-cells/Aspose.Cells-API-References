@@ -1,7 +1,7 @@
 ---
 title: IsHiddenItem Method 
 linktitle: IsHiddenItem
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsHiddenItem method. Encapsulates the function that represents ishiddenitem in Go.'
 type: docs
 weight: 200

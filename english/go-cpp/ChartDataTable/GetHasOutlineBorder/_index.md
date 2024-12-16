@@ -1,7 +1,7 @@
 ---
 title: GetHasOutlineBorder Method 
 linktitle: GetHasOutlineBorder
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetHasOutlineBorder method. Encapsulates the function that represents gethasoutlineborder in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: SetShowError Method 
 linktitle: SetShowError
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetShowError method. Encapsulates the function that represents setshowerror in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: SetDashStyle Method 
 linktitle: SetDashStyle
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetDashStyle method. Encapsulates the function that represents setdashstyle in Go.'
 type: docs
 weight: 200

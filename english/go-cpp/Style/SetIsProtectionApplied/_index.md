@@ -1,7 +1,7 @@
 ---
 title: SetIsProtectionApplied Method 
 linktitle: SetIsProtectionApplied
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetIsProtectionApplied method. Encapsulates the function that represents setisprotectionapplied in Go.'
 type: docs
 weight: 200

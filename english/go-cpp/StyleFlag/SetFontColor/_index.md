@@ -1,7 +1,7 @@
 ---
 title: SetFontColor Method 
 linktitle: SetFontColor
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetFontColor method. Encapsulates the function that represents setfontcolor in Go.'
 type: docs
 weight: 200

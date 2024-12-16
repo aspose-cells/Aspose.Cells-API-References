@@ -1,7 +1,7 @@
 ---
 title: DataBarBorder Class 
 linktitle: DataBarBorder
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'DataBarBorder class. Encapsulates the object that represents databarborder in Go.'
 type: docs
 weight: 200

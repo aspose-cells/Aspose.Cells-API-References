@@ -1,7 +1,7 @@
 ---
 title: SetAllowDeletingRow Method 
 linktitle: SetAllowDeletingRow
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetAllowDeletingRow method. Encapsulates the function that represents setallowdeletingrow in Go.'
 type: docs
 weight: 200

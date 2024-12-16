@@ -1,7 +1,7 @@
 ---
 title: GetPowerQueryFormula Method 
 linktitle: GetPowerQueryFormula
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetPowerQueryFormula method. Encapsulates the function that represents getpowerqueryformula in Go.'
 type: docs
 weight: 200

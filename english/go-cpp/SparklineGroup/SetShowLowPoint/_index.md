@@ -1,7 +1,7 @@
 ---
 title: SetShowLowPoint Method 
 linktitle: SetShowLowPoint
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetShowLowPoint method. Encapsulates the function that represents setshowlowpoint in Go.'
 type: docs
 weight: 200

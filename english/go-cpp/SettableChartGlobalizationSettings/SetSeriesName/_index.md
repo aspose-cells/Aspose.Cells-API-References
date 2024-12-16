@@ -1,7 +1,7 @@
 ---
 title: SetSeriesName Method 
 linktitle: SetSeriesName
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetSeriesName method. Encapsulates the function that represents setseriesname in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: CalculateFormula_CalculationOptions_Bool Method 
 linktitle: CalculateFormula
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'CalculateFormula_CalculationOptions_Bool method. Encapsulates the function that represents calculateformula in Go.'
 type: docs
 weight: 200

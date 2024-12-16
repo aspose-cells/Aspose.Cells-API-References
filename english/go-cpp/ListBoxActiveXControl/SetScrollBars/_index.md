@@ -1,7 +1,7 @@
 ---
 title: SetScrollBars Method 
 linktitle: SetScrollBars
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetScrollBars method. Encapsulates the function that represents setscrollbars in Go.'
 type: docs
 weight: 200

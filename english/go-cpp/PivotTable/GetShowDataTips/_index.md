@@ -1,7 +1,7 @@
 ---
 title: GetShowDataTips Method 
 linktitle: GetShowDataTips
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetShowDataTips method. Encapsulates the function that represents getshowdatatips in Go.'
 type: docs
 weight: 200

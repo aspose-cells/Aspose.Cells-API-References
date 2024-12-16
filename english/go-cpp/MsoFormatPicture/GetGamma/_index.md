@@ -1,7 +1,7 @@
 ---
 title: GetGamma Method 
 linktitle: GetGamma
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetGamma method. Encapsulates the function that represents getgamma in Go.'
 type: docs
 weight: 200

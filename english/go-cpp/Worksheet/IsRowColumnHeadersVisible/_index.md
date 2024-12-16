@@ -1,7 +1,7 @@
 ---
 title: IsRowColumnHeadersVisible Method 
 linktitle: IsRowColumnHeadersVisible
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsRowColumnHeadersVisible method. Encapsulates the function that represents isrowcolumnheadersvisible in Go.'
 type: docs
 weight: 200

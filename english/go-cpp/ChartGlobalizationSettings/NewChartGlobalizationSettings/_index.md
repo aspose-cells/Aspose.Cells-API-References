@@ -1,7 +1,7 @@
 ---
 title: ChartGlobalizationSettings Constructor 
 linktitle: ChartGlobalizationSettings
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ChartGlobalizationSettings constructor. Encapsulates the function that represents newchartglobalizationsettings in Go.'
 type: docs
 weight: 200

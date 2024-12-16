@@ -1,7 +1,7 @@
 ---
 title: GetZOrderPosition Method 
 linktitle: GetZOrderPosition
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetZOrderPosition method. Encapsulates the function that represents getzorderposition in Go.'
 type: docs
 weight: 200

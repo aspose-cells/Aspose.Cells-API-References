@@ -1,7 +1,7 @@
 ---
 title: SetOnlyData Method 
 linktitle: SetOnlyData
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetOnlyData method. Encapsulates the function that represents setonlydata in Go.'
 type: docs
 weight: 200

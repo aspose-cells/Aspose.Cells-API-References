@@ -1,7 +1,7 @@
 ---
 title: SetHorizontalAxisDateRange Method 
 linktitle: SetHorizontalAxisDateRange
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetHorizontalAxisDateRange method. Encapsulates the function that represents sethorizontalaxisdaterange in Go.'
 type: docs
 weight: 200

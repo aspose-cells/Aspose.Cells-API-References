@@ -1,7 +1,7 @@
 ---
 title: SetMonth Method 
 linktitle: SetMonth
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetMonth method. Encapsulates the function that represents setmonth in Go.'
 type: docs
 weight: 200

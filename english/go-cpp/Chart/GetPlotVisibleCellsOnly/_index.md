@@ -1,7 +1,7 @@
 ---
 title: GetPlotVisibleCellsOnly Method 
 linktitle: GetPlotVisibleCellsOnly
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetPlotVisibleCellsOnly method. Encapsulates the function that represents getplotvisiblecellsonly in Go.'
 type: docs
 weight: 200

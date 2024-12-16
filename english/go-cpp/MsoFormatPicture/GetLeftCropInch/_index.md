@@ -1,7 +1,7 @@
 ---
 title: GetLeftCropInch Method 
 linktitle: GetLeftCropInch
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetLeftCropInch method. Encapsulates the function that represents getleftcropinch in Go.'
 type: docs
 weight: 200

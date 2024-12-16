@@ -1,7 +1,7 @@
 ---
 title: GetKeyLength Method 
 linktitle: GetKeyLength
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetKeyLength method. Encapsulates the function that represents getkeylength in Go.'
 type: docs
 weight: 200

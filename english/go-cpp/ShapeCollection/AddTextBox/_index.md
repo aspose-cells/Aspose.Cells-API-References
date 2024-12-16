@@ -1,7 +1,7 @@
 ---
 title: AddTextBox Method 
 linktitle: AddTextBox
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'AddTextBox method. Encapsulates the function that represents addtextbox in Go.'
 type: docs
 weight: 200

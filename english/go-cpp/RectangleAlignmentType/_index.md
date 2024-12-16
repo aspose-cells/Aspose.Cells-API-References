@@ -1,7 +1,7 @@
 ---
 title: RectangleAlignmentType Enum 
 linktitle: RectangleAlignmentType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'RectangleAlignmentType enum. Encapsulates the object that represents rectanglealignmenttype in Go.'
 type: docs
 weight: 200

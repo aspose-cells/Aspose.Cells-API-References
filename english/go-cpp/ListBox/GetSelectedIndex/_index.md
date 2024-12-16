@@ -1,7 +1,7 @@
 ---
 title: GetSelectedIndex Method 
 linktitle: GetSelectedIndex
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetSelectedIndex method. Encapsulates the function that represents getselectedindex in Go.'
 type: docs
 weight: 200

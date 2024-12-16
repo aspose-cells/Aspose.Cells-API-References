@@ -1,7 +1,7 @@
 ---
 title: CustomGeometry Constructor 
 linktitle: CustomGeometry
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'CustomGeometry constructor. Encapsulates the function that represents newcustomgeometry in Go.'
 type: docs
 weight: 200

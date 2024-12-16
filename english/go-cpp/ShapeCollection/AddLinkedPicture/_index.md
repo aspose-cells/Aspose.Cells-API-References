@@ -1,7 +1,7 @@
 ---
 title: AddLinkedPicture Method 
 linktitle: AddLinkedPicture
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'AddLinkedPicture method. Encapsulates the function that represents addlinkedpicture in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: CustomPropertyCollection Class 
 linktitle: CustomPropertyCollection
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'CustomPropertyCollection class. Encapsulates the object that represents custompropertycollection in Go.'
 type: docs
 weight: 200

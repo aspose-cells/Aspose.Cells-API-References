@@ -1,7 +1,7 @@
 ---
 title: SetAutoFitMergedCellsType Method 
 linktitle: SetAutoFitMergedCellsType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetAutoFitMergedCellsType method. Encapsulates the function that represents setautofitmergedcellstype in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: SetShowPivotStyleRowHeader Method 
 linktitle: SetShowPivotStyleRowHeader
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetShowPivotStyleRowHeader method. Encapsulates the function that represents setshowpivotstylerowheader in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: CellsDrawing Constructor 
 linktitle: CellsDrawing
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'CellsDrawing constructor. Encapsulates the function that represents newcellsdrawing in Go.'
 type: docs
 weight: 200

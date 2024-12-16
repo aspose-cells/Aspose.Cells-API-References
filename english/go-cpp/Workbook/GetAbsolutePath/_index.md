@@ -1,7 +1,7 @@
 ---
 title: GetAbsolutePath Method 
 linktitle: GetAbsolutePath
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetAbsolutePath method. Encapsulates the function that represents getabsolutepath in Go.'
 type: docs
 weight: 200

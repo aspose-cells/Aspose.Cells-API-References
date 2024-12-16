@@ -1,7 +1,7 @@
 ---
 title: FileFormatUtil_SaveFormatToExtension Method 
 linktitle: SaveFormatToExtension
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'FileFormatUtil_SaveFormatToExtension method. Encapsulates the function that represents saveformattoextension in Go.'
 type: docs
 weight: 200

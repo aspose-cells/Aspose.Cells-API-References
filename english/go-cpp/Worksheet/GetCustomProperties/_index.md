@@ -1,7 +1,7 @@
 ---
 title: GetCustomProperties Method 
 linktitle: GetCustomProperties
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetCustomProperties method. Encapsulates the function that represents getcustomproperties in Go.'
 type: docs
 weight: 200

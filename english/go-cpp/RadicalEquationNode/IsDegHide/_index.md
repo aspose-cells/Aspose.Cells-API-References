@@ -1,7 +1,7 @@
 ---
 title: IsDegHide Method 
 linktitle: IsDegHide
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsDegHide method. Encapsulates the function that represents isdeghide in Go.'
 type: docs
 weight: 200

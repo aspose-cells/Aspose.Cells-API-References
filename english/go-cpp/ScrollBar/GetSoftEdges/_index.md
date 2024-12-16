@@ -1,7 +1,7 @@
 ---
 title: GetSoftEdges Method 
 linktitle: GetSoftEdges
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetSoftEdges method. Encapsulates the function that represents getsoftedges in Go.'
 type: docs
 weight: 200

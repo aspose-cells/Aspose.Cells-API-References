@@ -1,7 +1,7 @@
 ---
 title: AbstractTextLoadOptions Constructor 
 linktitle: AbstractTextLoadOptions
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'AbstractTextLoadOptions constructor. Encapsulates the function that represents newabstracttextloadoptions in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: SetSheetNameAsElementName Method 
 linktitle: SetSheetNameAsElementName
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetSheetNameAsElementName method. Encapsulates the function that represents setsheetnameaselementname in Go.'
 type: docs
 weight: 200

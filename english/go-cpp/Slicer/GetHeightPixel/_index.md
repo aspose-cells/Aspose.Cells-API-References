@@ -1,7 +1,7 @@
 ---
 title: GetHeightPixel Method 
 linktitle: GetHeightPixel
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetHeightPixel method. Encapsulates the function that represents getheightpixel in Go.'
 type: docs
 weight: 200

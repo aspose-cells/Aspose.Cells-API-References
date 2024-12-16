@@ -1,7 +1,7 @@
 ---
 title: GetForward Method 
 linktitle: GetForward
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetForward method. Encapsulates the function that represents getforward in Go.'
 type: docs
 weight: 200

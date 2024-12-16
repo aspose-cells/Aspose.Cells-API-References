@@ -1,7 +1,7 @@
 ---
 title: FontSourceType Enum 
 linktitle: FontSourceType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'FontSourceType enum. Encapsulates the object that represents fontsourcetype in Go.'
 type: docs
 weight: 200

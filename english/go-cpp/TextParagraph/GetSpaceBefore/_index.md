@@ -1,7 +1,7 @@
 ---
 title: GetSpaceBefore Method 
 linktitle: GetSpaceBefore
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetSpaceBefore method. Encapsulates the function that represents getspacebefore in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: SetExportWorkbookProperties Method 
 linktitle: SetExportWorkbookProperties
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetExportWorkbookProperties method. Encapsulates the function that represents setexportworkbookproperties in Go.'
 type: docs
 weight: 200

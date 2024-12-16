@@ -1,7 +1,7 @@
 ---
 title: SetBackgroundThemeColor Method 
 linktitle: SetBackgroundThemeColor
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetBackgroundThemeColor method. Encapsulates the function that represents setbackgroundthemecolor in Go.'
 type: docs
 weight: 200

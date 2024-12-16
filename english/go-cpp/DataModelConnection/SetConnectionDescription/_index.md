@@ -1,7 +1,7 @@
 ---
 title: SetConnectionDescription Method 
 linktitle: SetConnectionDescription
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetConnectionDescription method. Encapsulates the function that represents setconnectiondescription in Go.'
 type: docs
 weight: 200

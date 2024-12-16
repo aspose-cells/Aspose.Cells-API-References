@@ -1,7 +1,7 @@
 ---
 title: SetEnterKeyBehavior Method 
 linktitle: SetEnterKeyBehavior
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetEnterKeyBehavior method. Encapsulates the function that represents setenterkeybehavior in Go.'
 type: docs
 weight: 200

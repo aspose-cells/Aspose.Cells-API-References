@@ -1,7 +1,7 @@
 ---
 title: SetIsMultiLine Method 
 linktitle: SetIsMultiLine
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetIsMultiLine method. Encapsulates the function that represents setismultiline in Go.'
 type: docs
 weight: 200

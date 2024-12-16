@@ -1,7 +1,7 @@
 ---
 title: SetUpperDeltaX Method 
 linktitle: SetUpperDeltaX
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetUpperDeltaX method. Encapsulates the function that represents setupperdeltax in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: LineJoinType Enum 
 linktitle: LineJoinType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'LineJoinType enum. Encapsulates the object that represents linejointype in Go.'
 type: docs
 weight: 200

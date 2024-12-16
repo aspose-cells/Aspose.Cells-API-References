@@ -1,7 +1,7 @@
 ---
 title: GetCalcStackSize Method 
 linktitle: GetCalcStackSize
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetCalcStackSize method. Encapsulates the function that represents getcalcstacksize in Go.'
 type: docs
 weight: 200

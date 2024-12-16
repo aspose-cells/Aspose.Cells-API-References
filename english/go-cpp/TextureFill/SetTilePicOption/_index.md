@@ -1,7 +1,7 @@
 ---
 title: SetTilePicOption Method 
 linktitle: SetTilePicOption
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetTilePicOption method. Encapsulates the function that represents settilepicoption in Go.'
 type: docs
 weight: 200

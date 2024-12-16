@@ -1,7 +1,7 @@
 ---
 title: GetTopMarginPt Method 
 linktitle: GetTopMarginPt
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetTopMarginPt method. Encapsulates the function that represents gettopmarginpt in Go.'
 type: docs
 weight: 200

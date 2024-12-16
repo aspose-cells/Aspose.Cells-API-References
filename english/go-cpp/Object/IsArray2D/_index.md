@@ -1,7 +1,7 @@
 ---
 title: IsArray2D Method 
 linktitle: IsArray2D
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsArray2D method. Encapsulates the function that represents isarray2d in Go.'
 type: docs
 weight: 200

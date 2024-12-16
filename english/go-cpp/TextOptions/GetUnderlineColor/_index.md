@@ -1,7 +1,7 @@
 ---
 title: GetUnderlineColor Method 
 linktitle: GetUnderlineColor
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetUnderlineColor method. Encapsulates the function that represents getunderlinecolor in Go.'
 type: docs
 weight: 200

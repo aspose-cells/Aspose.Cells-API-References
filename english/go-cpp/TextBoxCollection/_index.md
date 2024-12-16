@@ -1,7 +1,7 @@
 ---
 title: TextBoxCollection Class 
 linktitle: TextBoxCollection
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'TextBoxCollection class. Encapsulates the object that represents textboxcollection in Go.'
 type: docs
 weight: 200

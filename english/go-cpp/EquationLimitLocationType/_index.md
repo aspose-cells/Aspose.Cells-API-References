@@ -1,7 +1,7 @@
 ---
 title: EquationLimitLocationType Enum 
 linktitle: EquationLimitLocationType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'EquationLimitLocationType enum. Encapsulates the object that represents equationlimitlocationtype in Go.'
 type: docs
 weight: 200

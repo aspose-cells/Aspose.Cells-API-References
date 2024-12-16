@@ -1,7 +1,7 @@
 ---
 title: SetElementStyle Method 
 linktitle: SetElementStyle
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetElementStyle method. Encapsulates the function that represents setelementstyle in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: IsCustom Method 
 linktitle: IsCustom
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsCustom method. Encapsulates the function that represents iscustom in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetTopPointYPx Method 
 linktitle: GetTopPointYPx
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetTopPointYPx method. Encapsulates the function that represents gettoppointypx in Go.'
 type: docs
 weight: 200

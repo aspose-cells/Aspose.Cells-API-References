@@ -1,7 +1,7 @@
 ---
 title: GetWrapText Method 
 linktitle: GetWrapText
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetWrapText method. Encapsulates the function that represents getwraptext in Go.'
 type: docs
 weight: 200

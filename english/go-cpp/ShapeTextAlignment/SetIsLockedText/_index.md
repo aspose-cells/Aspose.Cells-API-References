@@ -1,7 +1,7 @@
 ---
 title: SetIsLockedText Method 
 linktitle: SetIsLockedText
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetIsLockedText method. Encapsulates the function that represents setislockedtext in Go.'
 type: docs
 weight: 200

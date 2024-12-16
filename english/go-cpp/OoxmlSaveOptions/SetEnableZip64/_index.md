@@ -1,7 +1,7 @@
 ---
 title: SetEnableZip64 Method 
 linktitle: SetEnableZip64
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetEnableZip64 method. Encapsulates the function that represents setenablezip64 in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: RemoveArea Method 
 linktitle: RemoveArea
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'RemoveArea method. Encapsulates the function that represents removearea in Go.'
 type: docs
 weight: 200

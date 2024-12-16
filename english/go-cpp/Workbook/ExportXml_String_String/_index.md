@@ -1,7 +1,7 @@
 ---
 title: ExportXml_String_String Method 
 linktitle: ExportXml
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ExportXml_String_String method. Encapsulates the function that represents exportxml in Go.'
 type: docs
 weight: 200

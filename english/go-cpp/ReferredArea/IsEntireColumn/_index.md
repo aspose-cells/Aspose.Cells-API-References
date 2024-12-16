@@ -1,7 +1,7 @@
 ---
 title: IsEntireColumn Method 
 linktitle: IsEntireColumn
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsEntireColumn method. Encapsulates the function that represents isentirecolumn in Go.'
 type: docs
 weight: 200

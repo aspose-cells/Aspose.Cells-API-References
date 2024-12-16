@@ -1,7 +1,7 @@
 ---
 title: GetTilePicOption Method 
 linktitle: GetTilePicOption
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetTilePicOption method. Encapsulates the function that represents gettilepicoption in Go.'
 type: docs
 weight: 200

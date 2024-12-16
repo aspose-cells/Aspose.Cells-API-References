@@ -1,7 +1,7 @@
 ---
 title: RemoveDuplicates_Int_Int_Int_Int Method 
 linktitle: RemoveDuplicates
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'RemoveDuplicates_Int_Int_Int_Int method. Encapsulates the function that represents removeduplicates in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: SetEnableWizard Method 
 linktitle: SetEnableWizard
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetEnableWizard method. Encapsulates the function that represents setenablewizard in Go.'
 type: docs
 weight: 200

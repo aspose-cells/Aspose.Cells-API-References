@@ -1,7 +1,7 @@
 ---
 title: SetAllowEditingScenario Method 
 linktitle: SetAllowEditingScenario
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetAllowEditingScenario method. Encapsulates the function that represents setalloweditingscenario in Go.'
 type: docs
 weight: 200

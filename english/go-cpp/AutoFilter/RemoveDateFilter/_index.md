@@ -1,7 +1,7 @@
 ---
 title: RemoveDateFilter Method 
 linktitle: RemoveDateFilter
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'RemoveDateFilter method. Encapsulates the function that represents removedatefilter in Go.'
 type: docs
 weight: 200

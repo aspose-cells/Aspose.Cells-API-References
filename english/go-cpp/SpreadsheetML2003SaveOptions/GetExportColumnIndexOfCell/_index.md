@@ -1,7 +1,7 @@
 ---
 title: GetExportColumnIndexOfCell Method 
 linktitle: GetExportColumnIndexOfCell
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetExportColumnIndexOfCell method. Encapsulates the function that represents getexportcolumnindexofcell in Go.'
 type: docs
 weight: 200

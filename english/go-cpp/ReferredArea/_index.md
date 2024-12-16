@@ -1,7 +1,7 @@
 ---
 title: ReferredArea Class 
 linktitle: ReferredArea
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ReferredArea class. Encapsulates the object that represents referredarea in Go.'
 type: docs
 weight: 200

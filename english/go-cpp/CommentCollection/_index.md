@@ -1,7 +1,7 @@
 ---
 title: CommentCollection Class 
 linktitle: CommentCollection
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'CommentCollection class. Encapsulates the object that represents commentcollection in Go.'
 type: docs
 weight: 200

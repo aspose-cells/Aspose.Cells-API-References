@@ -1,7 +1,7 @@
 ---
 title: GetContentType Method 
 linktitle: GetContentType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetContentType method. Encapsulates the function that represents getcontenttype in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: SetSharedFormula_String_Int_Int Method 
 linktitle: SetSharedFormula
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetSharedFormula_String_Int_Int method. Encapsulates the function that represents setsharedformula in Go.'
 type: docs
 weight: 200

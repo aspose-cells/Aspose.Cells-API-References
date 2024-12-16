@@ -1,7 +1,7 @@
 ---
 title: CopyCommentsInRange Method 
 linktitle: CopyCommentsInRange
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'CopyCommentsInRange method. Encapsulates the function that represents copycommentsinrange in Go.'
 type: docs
 weight: 200

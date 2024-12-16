@@ -1,7 +1,7 @@
 ---
 title: GetWidthPx Method 
 linktitle: GetWidthPx
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetWidthPx method. Encapsulates the function that represents getwidthpx in Go.'
 type: docs
 weight: 200

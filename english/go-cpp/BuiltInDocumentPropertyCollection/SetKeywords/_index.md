@@ -1,7 +1,7 @@
 ---
 title: SetKeywords Method 
 linktitle: SetKeywords
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetKeywords method. Encapsulates the function that represents setkeywords in Go.'
 type: docs
 weight: 200

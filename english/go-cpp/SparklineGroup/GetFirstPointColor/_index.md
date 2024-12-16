@@ -1,7 +1,7 @@
 ---
 title: GetFirstPointColor Method 
 linktitle: GetFirstPointColor
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetFirstPointColor method. Encapsulates the function that represents getfirstpointcolor in Go.'
 type: docs
 weight: 200

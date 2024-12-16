@@ -1,7 +1,7 @@
 ---
 title: GetBackgroundRefresh Method 
 linktitle: GetBackgroundRefresh
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetBackgroundRefresh method. Encapsulates the function that represents getbackgroundrefresh in Go.'
 type: docs
 weight: 200

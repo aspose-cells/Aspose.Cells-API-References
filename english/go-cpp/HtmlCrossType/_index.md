@@ -1,7 +1,7 @@
 ---
 title: HtmlCrossType Enum 
 linktitle: HtmlCrossType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'HtmlCrossType enum. Encapsulates the object that represents htmlcrosstype in Go.'
 type: docs
 weight: 200

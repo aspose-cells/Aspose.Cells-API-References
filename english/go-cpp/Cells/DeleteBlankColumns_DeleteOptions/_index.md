@@ -1,7 +1,7 @@
 ---
 title: DeleteBlankColumns_DeleteOptions Method 
 linktitle: DeleteBlankColumns
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'DeleteBlankColumns_DeleteOptions method. Encapsulates the function that represents deleteblankcolumns in Go.'
 type: docs
 weight: 200

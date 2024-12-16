@@ -1,7 +1,7 @@
 ---
 title: SetAutoLoad Method 
 linktitle: SetAutoLoad
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetAutoLoad method. Encapsulates the function that represents setautoload in Go.'
 type: docs
 weight: 200

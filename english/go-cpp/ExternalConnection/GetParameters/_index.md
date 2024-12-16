@@ -1,7 +1,7 @@
 ---
 title: GetParameters Method 
 linktitle: GetParameters
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetParameters method. Encapsulates the function that represents getparameters in Go.'
 type: docs
 weight: 200

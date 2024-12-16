@@ -1,7 +1,7 @@
 ---
 title: SetLocalFunctionName Method 
 linktitle: SetLocalFunctionName
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetLocalFunctionName method. Encapsulates the function that represents setlocalfunctionname in Go.'
 type: docs
 weight: 200

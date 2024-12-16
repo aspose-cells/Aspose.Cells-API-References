@@ -1,7 +1,7 @@
 ---
 title: Legend Constructor 
 linktitle: Legend
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'Legend constructor. Encapsulates the function that represents newlegend in Go.'
 type: docs
 weight: 200

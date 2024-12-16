@@ -1,7 +1,7 @@
 ---
 title: SetRank Method 
 linktitle: SetRank
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetRank method. Encapsulates the function that represents setrank in Go.'
 type: docs
 weight: 200

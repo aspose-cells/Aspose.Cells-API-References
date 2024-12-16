@@ -1,7 +1,7 @@
 ---
 title: Advanced_Filter Method 
 linktitle: Advanced_Filter
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'Advanced_Filter method. Encapsulates the function that represents advanced_filter in Go.'
 type: docs
 weight: 200

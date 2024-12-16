@@ -1,7 +1,7 @@
 ---
 title: SetTiffColorDepth Method 
 linktitle: SetTiffColorDepth
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetTiffColorDepth method. Encapsulates the function that represents settiffcolordepth in Go.'
 type: docs
 weight: 200

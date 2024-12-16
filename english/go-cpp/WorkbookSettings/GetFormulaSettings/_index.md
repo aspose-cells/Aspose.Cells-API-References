@@ -1,7 +1,7 @@
 ---
 title: GetFormulaSettings Method 
 linktitle: GetFormulaSettings
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetFormulaSettings method. Encapsulates the function that represents getformulasettings in Go.'
 type: docs
 weight: 200

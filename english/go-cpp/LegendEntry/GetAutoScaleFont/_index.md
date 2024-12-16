@@ -1,7 +1,7 @@
 ---
 title: GetAutoScaleFont Method 
 linktitle: GetAutoScaleFont
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetAutoScaleFont method. Encapsulates the function that represents getautoscalefont in Go.'
 type: docs
 weight: 200

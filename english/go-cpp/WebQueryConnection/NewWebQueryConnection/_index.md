@@ -1,7 +1,7 @@
 ---
 title: WebQueryConnection Constructor 
 linktitle: WebQueryConnection
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'WebQueryConnection constructor. Encapsulates the function that represents newwebqueryconnection in Go.'
 type: docs
 weight: 200

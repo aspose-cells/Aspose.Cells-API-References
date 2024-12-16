@@ -1,7 +1,7 @@
 ---
 title: SetLargeChange Method 
 linktitle: SetLargeChange
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetLargeChange method. Encapsulates the function that represents setlargechange in Go.'
 type: docs
 weight: 200

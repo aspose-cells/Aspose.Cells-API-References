@@ -1,7 +1,7 @@
 ---
 title: XmlMapCollection Class 
 linktitle: XmlMapCollection
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'XmlMapCollection class. Encapsulates the object that represents xmlmapcollection in Go.'
 type: docs
 weight: 200

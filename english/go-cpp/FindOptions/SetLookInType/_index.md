@@ -1,7 +1,7 @@
 ---
 title: SetLookInType Method 
 linktitle: SetLookInType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetLookInType method. Encapsulates the function that represents setlookintype in Go.'
 type: docs
 weight: 200

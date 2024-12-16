@@ -1,7 +1,7 @@
 ---
 title: Spinner Constructor 
 linktitle: Spinner
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'Spinner constructor. Encapsulates the function that represents newspinner in Go.'
 type: docs
 weight: 200

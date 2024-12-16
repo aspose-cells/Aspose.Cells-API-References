@@ -1,7 +1,7 @@
 ---
 title: GetOptionIndex Method 
 linktitle: GetOptionIndex
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetOptionIndex method. Encapsulates the function that represents getoptionindex in Go.'
 type: docs
 weight: 200

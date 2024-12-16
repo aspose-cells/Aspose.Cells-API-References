@@ -1,7 +1,7 @@
 ---
 title: GetValidations Method 
 linktitle: GetValidations
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetValidations method. Encapsulates the function that represents getvalidations in Go.'
 type: docs
 weight: 200

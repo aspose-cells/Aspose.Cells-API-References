@@ -1,7 +1,7 @@
 ---
 title: SetImageResample Method 
 linktitle: SetImageResample
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetImageResample method. Encapsulates the function that represents setimageresample in Go.'
 type: docs
 weight: 200

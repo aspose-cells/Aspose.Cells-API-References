@@ -1,7 +1,7 @@
 ---
 title: SetSaveData Method 
 linktitle: SetSaveData
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetSaveData method. Encapsulates the function that represents setsavedata in Go.'
 type: docs
 weight: 200

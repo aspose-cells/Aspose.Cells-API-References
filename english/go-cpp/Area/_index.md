@@ -1,7 +1,7 @@
 ---
 title: Area Class 
 linktitle: Area
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'Area class. Encapsulates the object that represents area in Go.'
 type: docs
 weight: 200

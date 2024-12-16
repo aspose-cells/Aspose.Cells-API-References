@@ -1,7 +1,7 @@
 ---
 title: GetMapLabelLayout Method 
 linktitle: GetMapLabelLayout
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetMapLabelLayout method. Encapsulates the function that represents getmaplabellayout in Go.'
 type: docs
 weight: 200

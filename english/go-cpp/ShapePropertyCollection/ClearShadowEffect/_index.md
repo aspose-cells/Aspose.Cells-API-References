@@ -1,7 +1,7 @@
 ---
 title: ClearShadowEffect Method 
 linktitle: ClearShadowEffect
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ClearShadowEffect method. Encapsulates the function that represents clearshadoweffect in Go.'
 type: docs
 weight: 200

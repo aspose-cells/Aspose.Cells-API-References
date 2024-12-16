@@ -1,7 +1,7 @@
 ---
 title: SetShowInOutlineForm Method 
 linktitle: SetShowInOutlineForm
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetShowInOutlineForm method. Encapsulates the function that represents setshowinoutlineform in Go.'
 type: docs
 weight: 200

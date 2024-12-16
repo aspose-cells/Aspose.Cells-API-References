@@ -1,7 +1,7 @@
 ---
 title: SetIsColumnGrandIncluded Method 
 linktitle: SetIsColumnGrandIncluded
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetIsColumnGrandIncluded method. Encapsulates the function that represents setiscolumngrandincluded in Go.'
 type: docs
 weight: 200

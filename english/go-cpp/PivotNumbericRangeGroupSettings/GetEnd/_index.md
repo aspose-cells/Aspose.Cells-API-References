@@ -1,7 +1,7 @@
 ---
 title: GetEnd Method 
 linktitle: GetEnd
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetEnd method. Encapsulates the function that represents getend in Go.'
 type: docs
 weight: 200

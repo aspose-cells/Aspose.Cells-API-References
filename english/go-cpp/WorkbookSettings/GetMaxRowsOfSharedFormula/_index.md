@@ -1,7 +1,7 @@
 ---
 title: GetMaxRowsOfSharedFormula Method 
 linktitle: GetMaxRowsOfSharedFormula
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetMaxRowsOfSharedFormula method. Encapsulates the function that represents getmaxrowsofsharedformula in Go.'
 type: docs
 weight: 200

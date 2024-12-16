@@ -1,7 +1,7 @@
 ---
 title: GetBottomBevelWidth Method 
 linktitle: GetBottomBevelWidth
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetBottomBevelWidth method. Encapsulates the function that represents getbottombevelwidth in Go.'
 type: docs
 weight: 200

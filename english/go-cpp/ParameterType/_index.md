@@ -1,7 +1,7 @@
 ---
 title: ParameterType Enum 
 linktitle: ParameterType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ParameterType enum. Encapsulates the object that represents parametertype in Go.'
 type: docs
 weight: 200

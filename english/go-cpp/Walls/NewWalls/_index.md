@@ -1,7 +1,7 @@
 ---
 title: Walls Constructor 
 linktitle: Walls
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'Walls constructor. Encapsulates the function that represents newwalls in Go.'
 type: docs
 weight: 200

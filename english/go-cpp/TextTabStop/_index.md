@@ -1,7 +1,7 @@
 ---
 title: TextTabStop Class 
 linktitle: TextTabStop
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'TextTabStop class. Encapsulates the object that represents texttabstop in Go.'
 type: docs
 weight: 200

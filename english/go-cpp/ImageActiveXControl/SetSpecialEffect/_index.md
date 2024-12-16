@@ -1,7 +1,7 @@
 ---
 title: SetSpecialEffect Method 
 linktitle: SetSpecialEffect
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetSpecialEffect method. Encapsulates the function that represents setspecialeffect in Go.'
 type: docs
 weight: 200

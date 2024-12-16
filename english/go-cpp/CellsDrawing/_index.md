@@ -1,7 +1,7 @@
 ---
 title: CellsDrawing Class 
 linktitle: CellsDrawing
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'CellsDrawing class. Encapsulates the object that represents cellsdrawing in Go.'
 type: docs
 weight: 200

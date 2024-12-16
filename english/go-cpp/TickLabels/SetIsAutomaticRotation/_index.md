@@ -1,7 +1,7 @@
 ---
 title: SetIsAutomaticRotation Method 
 linktitle: SetIsAutomaticRotation
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetIsAutomaticRotation method. Encapsulates the function that represents setisautomaticrotation in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetPaperWidth Method 
 linktitle: GetPaperWidth
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetPaperWidth method. Encapsulates the function that represents getpaperwidth in Go.'
 type: docs
 weight: 200

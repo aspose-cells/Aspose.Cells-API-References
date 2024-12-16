@@ -1,7 +1,7 @@
 ---
 title: SetOverflow Method 
 linktitle: SetOverflow
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetOverflow method. Encapsulates the function that represents setoverflow in Go.'
 type: docs
 weight: 200

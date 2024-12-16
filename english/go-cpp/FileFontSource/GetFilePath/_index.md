@@ -1,7 +1,7 @@
 ---
 title: GetFilePath Method 
 linktitle: GetFilePath
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetFilePath method. Encapsulates the function that represents getfilepath in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetShrinkToFit Method 
 linktitle: GetShrinkToFit
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetShrinkToFit method. Encapsulates the function that represents getshrinktofit in Go.'
 type: docs
 weight: 200

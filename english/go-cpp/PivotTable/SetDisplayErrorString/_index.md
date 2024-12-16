@@ -1,7 +1,7 @@
 ---
 title: SetDisplayErrorString Method 
 linktitle: SetDisplayErrorString
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetDisplayErrorString method. Encapsulates the function that represents setdisplayerrorstring in Go.'
 type: docs
 weight: 200

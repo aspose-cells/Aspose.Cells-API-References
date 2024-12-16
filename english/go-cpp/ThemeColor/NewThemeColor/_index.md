@@ -1,7 +1,7 @@
 ---
 title: ThemeColor Constructor 
 linktitle: ThemeColor
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ThemeColor constructor. Encapsulates the function that represents newthemecolor in Go.'
 type: docs
 weight: 200

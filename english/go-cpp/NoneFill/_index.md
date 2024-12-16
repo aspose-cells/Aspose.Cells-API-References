@@ -1,7 +1,7 @@
 ---
 title: NoneFill Class 
 linktitle: NoneFill
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'NoneFill class. Encapsulates the object that represents nonefill in Go.'
 type: docs
 weight: 200

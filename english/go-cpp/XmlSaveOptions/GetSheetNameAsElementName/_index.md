@@ -1,7 +1,7 @@
 ---
 title: GetSheetNameAsElementName Method 
 linktitle: GetSheetNameAsElementName
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetSheetNameAsElementName method. Encapsulates the function that represents getsheetnameaselementname in Go.'
 type: docs
 weight: 200

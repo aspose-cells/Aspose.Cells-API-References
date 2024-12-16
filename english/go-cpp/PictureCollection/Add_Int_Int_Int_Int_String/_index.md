@@ -1,7 +1,7 @@
 ---
 title: Add_Int_Int_Int_Int_String Method 
 linktitle: Add
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'Add_Int_Int_Int_Int_String method. Encapsulates the function that represents add in Go.'
 type: docs
 weight: 200

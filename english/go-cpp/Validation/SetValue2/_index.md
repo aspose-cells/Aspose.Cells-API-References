@@ -1,7 +1,7 @@
 ---
 title: SetValue2 Method 
 linktitle: SetValue2
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetValue2 method. Encapsulates the function that represents setvalue2 in Go.'
 type: docs
 weight: 200

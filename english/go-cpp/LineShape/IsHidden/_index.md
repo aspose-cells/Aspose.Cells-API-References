@@ -1,7 +1,7 @@
 ---
 title: IsHidden Method 
 linktitle: IsHidden
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsHidden method. Encapsulates the function that represents ishidden in Go.'
 type: docs
 weight: 200

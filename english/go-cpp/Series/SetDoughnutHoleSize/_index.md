@@ -1,7 +1,7 @@
 ---
 title: SetDoughnutHoleSize Method 
 linktitle: SetDoughnutHoleSize
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetDoughnutHoleSize method. Encapsulates the function that represents setdoughnutholesize in Go.'
 type: docs
 weight: 200

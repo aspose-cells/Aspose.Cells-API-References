@@ -1,7 +1,7 @@
 ---
 title: PclSaveOptions Constructor 
 linktitle: PclSaveOptions
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'PclSaveOptions constructor. Encapsulates the function that represents newpclsaveoptions in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: IsCheckBoxStyle Method 
 linktitle: IsCheckBoxStyle
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsCheckBoxStyle method. Encapsulates the function that represents ischeckboxstyle in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetTableCssId Method 
 linktitle: GetTableCssId
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetTableCssId method. Encapsulates the function that represents gettablecssid in Go.'
 type: docs
 weight: 200

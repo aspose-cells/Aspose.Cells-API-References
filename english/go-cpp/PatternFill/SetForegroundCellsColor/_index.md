@@ -1,7 +1,7 @@
 ---
 title: SetForegroundCellsColor Method 
 linktitle: SetForegroundCellsColor
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetForegroundCellsColor method. Encapsulates the function that represents setforegroundcellscolor in Go.'
 type: docs
 weight: 200

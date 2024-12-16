@@ -1,7 +1,7 @@
 ---
 title: SetBottomBorder Method 
 linktitle: SetBottomBorder
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetBottomBorder method. Encapsulates the function that represents setbottomborder in Go.'
 type: docs
 weight: 200

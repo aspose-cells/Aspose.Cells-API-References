@@ -1,7 +1,7 @@
 ---
 title: IsEntireRow Method 
 linktitle: IsEntireRow
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsEntireRow method. Encapsulates the function that represents isentirerow in Go.'
 type: docs
 weight: 200

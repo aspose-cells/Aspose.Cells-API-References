@@ -1,7 +1,7 @@
 ---
 title: SetParseHtmlTagInCell Method 
 linktitle: SetParseHtmlTagInCell
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetParseHtmlTagInCell method. Encapsulates the function that represents setparsehtmltagincell in Go.'
 type: docs
 weight: 200

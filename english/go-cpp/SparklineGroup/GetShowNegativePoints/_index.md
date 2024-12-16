@@ -1,7 +1,7 @@
 ---
 title: GetShowNegativePoints Method 
 linktitle: GetShowNegativePoints
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetShowNegativePoints method. Encapsulates the function that represents getshownegativepoints in Go.'
 type: docs
 weight: 200

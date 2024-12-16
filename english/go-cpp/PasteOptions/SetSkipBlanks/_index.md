@@ -1,7 +1,7 @@
 ---
 title: SetSkipBlanks Method 
 linktitle: SetSkipBlanks
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetSkipBlanks method. Encapsulates the function that represents setskipblanks in Go.'
 type: docs
 weight: 200

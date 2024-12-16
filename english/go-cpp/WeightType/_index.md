@@ -1,7 +1,7 @@
 ---
 title: WeightType Enum 
 linktitle: WeightType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'WeightType enum. Encapsulates the object that represents weighttype in Go.'
 type: docs
 weight: 200

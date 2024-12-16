@@ -1,7 +1,7 @@
 ---
 title: GetSecondCategoryData Method 
 linktitle: GetSecondCategoryData
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetSecondCategoryData method. Encapsulates the function that represents getsecondcategorydata in Go.'
 type: docs
 weight: 200

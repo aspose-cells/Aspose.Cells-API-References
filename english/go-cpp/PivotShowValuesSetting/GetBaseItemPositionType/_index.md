@@ -1,7 +1,7 @@
 ---
 title: GetBaseItemPositionType Method 
 linktitle: GetBaseItemPositionType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetBaseItemPositionType method. Encapsulates the function that represents getbaseitempositiontype in Go.'
 type: docs
 weight: 200

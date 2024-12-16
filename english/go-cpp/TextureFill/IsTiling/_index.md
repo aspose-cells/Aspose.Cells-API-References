@@ -1,7 +1,7 @@
 ---
 title: IsTiling Method 
 linktitle: IsTiling
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsTiling method. Encapsulates the function that represents istiling in Go.'
 type: docs
 weight: 200

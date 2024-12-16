@@ -1,7 +1,7 @@
 ---
 title: AddControlRefrernce Method 
 linktitle: AddControlRefrernce
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'AddControlRefrernce method. Encapsulates the function that represents addcontrolrefrernce in Go.'
 type: docs
 weight: 200

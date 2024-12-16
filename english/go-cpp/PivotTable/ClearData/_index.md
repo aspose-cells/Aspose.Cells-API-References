@@ -1,7 +1,7 @@
 ---
 title: ClearData Method 
 linktitle: ClearData
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ClearData method. Encapsulates the function that represents cleardata in Go.'
 type: docs
 weight: 200

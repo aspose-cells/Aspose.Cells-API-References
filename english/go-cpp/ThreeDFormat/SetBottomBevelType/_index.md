@@ -1,7 +1,7 @@
 ---
 title: SetBottomBevelType Method 
 linktitle: SetBottomBevelType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetBottomBevelType method. Encapsulates the function that represents setbottombeveltype in Go.'
 type: docs
 weight: 200

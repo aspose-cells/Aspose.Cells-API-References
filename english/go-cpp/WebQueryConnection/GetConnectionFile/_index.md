@@ -1,7 +1,7 @@
 ---
 title: GetConnectionFile Method 
 linktitle: GetConnectionFile
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetConnectionFile method. Encapsulates the function that represents getconnectionfile in Go.'
 type: docs
 weight: 200

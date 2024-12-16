@@ -1,7 +1,7 @@
 ---
 title: GetTheme Method 
 linktitle: GetTheme
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetTheme method. Encapsulates the function that represents gettheme in Go.'
 type: docs
 weight: 200

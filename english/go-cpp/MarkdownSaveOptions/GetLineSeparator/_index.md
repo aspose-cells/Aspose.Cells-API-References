@@ -1,7 +1,7 @@
 ---
 title: GetLineSeparator Method 
 linktitle: GetLineSeparator
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetLineSeparator method. Encapsulates the function that represents getlineseparator in Go.'
 type: docs
 weight: 200

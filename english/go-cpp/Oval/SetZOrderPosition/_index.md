@@ -1,7 +1,7 @@
 ---
 title: SetZOrderPosition Method 
 linktitle: SetZOrderPosition
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetZOrderPosition method. Encapsulates the function that represents setzorderposition in Go.'
 type: docs
 weight: 200

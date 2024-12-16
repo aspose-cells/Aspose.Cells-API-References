@@ -1,7 +1,7 @@
 ---
 title: SetShowNegativeBubbles Method 
 linktitle: SetShowNegativeBubbles
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetShowNegativeBubbles method. Encapsulates the function that represents setshownegativebubbles in Go.'
 type: docs
 weight: 200

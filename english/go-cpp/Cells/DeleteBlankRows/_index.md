@@ -1,7 +1,7 @@
 ---
 title: DeleteBlankRows Method 
 linktitle: DeleteBlankRows
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'DeleteBlankRows method. Encapsulates the function that represents deleteblankrows in Go.'
 type: docs
 weight: 200

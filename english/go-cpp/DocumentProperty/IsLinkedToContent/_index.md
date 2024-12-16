@@ -1,7 +1,7 @@
 ---
 title: IsLinkedToContent Method 
 linktitle: IsLinkedToContent
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsLinkedToContent method. Encapsulates the function that represents islinkedtocontent in Go.'
 type: docs
 weight: 200

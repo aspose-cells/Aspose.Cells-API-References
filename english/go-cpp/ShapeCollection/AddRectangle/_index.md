@@ -1,7 +1,7 @@
 ---
 title: AddRectangle Method 
 linktitle: AddRectangle
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'AddRectangle method. Encapsulates the function that represents addrectangle in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetIgnoreNotPrinted Method 
 linktitle: GetIgnoreNotPrinted
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetIgnoreNotPrinted method. Encapsulates the function that represents getignorenotprinted in Go.'
 type: docs
 weight: 200

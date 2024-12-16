@@ -1,7 +1,7 @@
 ---
 title: GetColor1 Method 
 linktitle: GetColor1
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetColor1 method. Encapsulates the function that represents getcolor1 in Go.'
 type: docs
 weight: 200

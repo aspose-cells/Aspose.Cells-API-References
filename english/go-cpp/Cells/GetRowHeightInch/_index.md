@@ -1,7 +1,7 @@
 ---
 title: GetRowHeightInch Method 
 linktitle: GetRowHeightInch
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetRowHeightInch method. Encapsulates the function that represents getrowheightinch in Go.'
 type: docs
 weight: 200

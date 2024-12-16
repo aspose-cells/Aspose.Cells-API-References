@@ -1,7 +1,7 @@
 ---
 title: GetPageTitle Method 
 linktitle: GetPageTitle
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetPageTitle method. Encapsulates the function that represents getpagetitle in Go.'
 type: docs
 weight: 200

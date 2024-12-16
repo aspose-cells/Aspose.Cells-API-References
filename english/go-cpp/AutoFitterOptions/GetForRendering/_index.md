@@ -1,7 +1,7 @@
 ---
 title: GetForRendering Method 
 linktitle: GetForRendering
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetForRendering method. Encapsulates the function that represents getforrendering in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetNotes Method 
 linktitle: GetNotes
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetNotes method. Encapsulates the function that represents getnotes in Go.'
 type: docs
 weight: 200

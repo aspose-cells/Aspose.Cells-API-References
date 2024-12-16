@@ -1,7 +1,7 @@
 ---
 title: IsCalculatedField Method 
 linktitle: IsCalculatedField
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsCalculatedField method. Encapsulates the function that represents iscalculatedfield in Go.'
 type: docs
 weight: 200

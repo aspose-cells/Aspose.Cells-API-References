@@ -1,7 +1,7 @@
 ---
 title: AddRange Method 
 linktitle: AddRange
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'AddRange method. Encapsulates the function that represents addrange in Go.'
 type: docs
 weight: 200

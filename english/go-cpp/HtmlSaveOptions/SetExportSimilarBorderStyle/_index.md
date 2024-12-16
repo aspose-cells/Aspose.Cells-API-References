@@ -1,7 +1,7 @@
 ---
 title: SetExportSimilarBorderStyle Method 
 linktitle: SetExportSimilarBorderStyle
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetExportSimilarBorderStyle method. Encapsulates the function that represents setexportsimilarborderstyle in Go.'
 type: docs
 weight: 200

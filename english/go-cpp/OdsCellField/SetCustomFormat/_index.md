@@ -1,7 +1,7 @@
 ---
 title: SetCustomFormat Method 
 linktitle: SetCustomFormat
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetCustomFormat method. Encapsulates the function that represents setcustomformat in Go.'
 type: docs
 weight: 200

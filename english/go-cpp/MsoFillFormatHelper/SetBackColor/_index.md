@@ -1,7 +1,7 @@
 ---
 title: SetBackColor Method 
 linktitle: SetBackColor
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetBackColor method. Encapsulates the function that represents setbackcolor in Go.'
 type: docs
 weight: 200

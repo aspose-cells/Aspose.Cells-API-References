@@ -1,7 +1,7 @@
 ---
 title: CellsHelper_IsCloudPlatform Method 
 linktitle: IsCloudPlatform
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'CellsHelper_IsCloudPlatform method. Encapsulates the function that represents iscloudplatform in Go.'
 type: docs
 weight: 200

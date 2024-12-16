@@ -1,7 +1,7 @@
 ---
 title: GetTableIndex Method 
 linktitle: GetTableIndex
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetTableIndex method. Encapsulates the function that represents gettableindex in Go.'
 type: docs
 weight: 200

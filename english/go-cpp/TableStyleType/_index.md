@@ -1,7 +1,7 @@
 ---
 title: TableStyleType Enum 
 linktitle: TableStyleType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'TableStyleType enum. Encapsulates the object that represents tablestyletype in Go.'
 type: docs
 weight: 200

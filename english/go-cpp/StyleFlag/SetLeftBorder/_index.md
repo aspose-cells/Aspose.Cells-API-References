@@ -1,7 +1,7 @@
 ---
 title: SetLeftBorder Method 
 linktitle: SetLeftBorder
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetLeftBorder method. Encapsulates the function that represents setleftborder in Go.'
 type: docs
 weight: 200

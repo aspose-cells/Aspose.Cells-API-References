@@ -1,7 +1,7 @@
 ---
 title: SetExplosion Method 
 linktitle: SetExplosion
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetExplosion method. Encapsulates the function that represents setexplosion in Go.'
 type: docs
 weight: 200

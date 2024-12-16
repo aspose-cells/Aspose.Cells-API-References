@@ -1,7 +1,7 @@
 ---
 title: SetBold Method 
 linktitle: SetBold
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetBold method. Encapsulates the function that represents setbold in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetFontName Method 
 linktitle: GetFontName
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetFontName method. Encapsulates the function that represents getfontname in Go.'
 type: docs
 weight: 200

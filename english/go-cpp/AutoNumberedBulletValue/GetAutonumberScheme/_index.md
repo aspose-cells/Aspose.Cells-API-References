@@ -1,7 +1,7 @@
 ---
 title: GetAutonumberScheme Method 
 linktitle: GetAutonumberScheme
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetAutonumberScheme method. Encapsulates the function that represents getautonumberscheme in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: SetBorderWeight Method 
 linktitle: SetBorderWeight
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetBorderWeight method. Encapsulates the function that represents setborderweight in Go.'
 type: docs
 weight: 200

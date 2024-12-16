@@ -1,7 +1,7 @@
 ---
 title: SetLocaleDependent Method 
 linktitle: SetLocaleDependent
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetLocaleDependent method. Encapsulates the function that represents setlocaledependent in Go.'
 type: docs
 weight: 200

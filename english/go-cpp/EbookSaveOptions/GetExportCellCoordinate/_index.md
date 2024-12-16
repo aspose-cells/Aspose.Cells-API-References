@@ -1,7 +1,7 @@
 ---
 title: GetExportCellCoordinate Method 
 linktitle: GetExportCellCoordinate
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetExportCellCoordinate method. Encapsulates the function that represents getexportcellcoordinate in Go.'
 type: docs
 weight: 200

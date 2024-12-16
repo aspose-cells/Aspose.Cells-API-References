@@ -1,7 +1,7 @@
 ---
 title: SetAxisPosition Method 
 linktitle: SetAxisPosition
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetAxisPosition method. Encapsulates the function that represents setaxisposition in Go.'
 type: docs
 weight: 200

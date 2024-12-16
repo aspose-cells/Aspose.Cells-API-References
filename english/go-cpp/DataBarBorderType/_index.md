@@ -1,7 +1,7 @@
 ---
 title: DataBarBorderType Enum 
 linktitle: DataBarBorderType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'DataBarBorderType enum. Encapsulates the object that represents databarbordertype in Go.'
 type: docs
 weight: 200

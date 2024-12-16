@@ -1,7 +1,7 @@
 ---
 title: GetR1C1RefersTo Method 
 linktitle: GetR1C1RefersTo
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetR1C1RefersTo method. Encapsulates the function that represents getr1c1refersto in Go.'
 type: docs
 weight: 200

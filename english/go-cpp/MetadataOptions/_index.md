@@ -1,7 +1,7 @@
 ---
 title: MetadataOptions Class 
 linktitle: MetadataOptions
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'MetadataOptions class. Encapsulates the object that represents metadataoptions in Go.'
 type: docs
 weight: 200

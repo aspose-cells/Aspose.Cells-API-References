@@ -1,7 +1,7 @@
 ---
 title: SetCustomEngine Method 
 linktitle: SetCustomEngine
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetCustomEngine method. Encapsulates the function that represents setcustomengine in Go.'
 type: docs
 weight: 200

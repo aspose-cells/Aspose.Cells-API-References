@@ -1,7 +1,7 @@
 ---
 title: SetCrossAt Method 
 linktitle: SetCrossAt
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetCrossAt method. Encapsulates the function that represents setcrossat in Go.'
 type: docs
 weight: 200

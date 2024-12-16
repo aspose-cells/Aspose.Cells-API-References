@@ -1,7 +1,7 @@
 ---
 title: SetDisableCss Method 
 linktitle: SetDisableCss
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetDisableCss method. Encapsulates the function that represents setdisablecss in Go.'
 type: docs
 weight: 200

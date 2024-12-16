@@ -1,7 +1,7 @@
 ---
 title: SetIsWordWrapped Method 
 linktitle: SetIsWordWrapped
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetIsWordWrapped method. Encapsulates the function that represents setiswordwrapped in Go.'
 type: docs
 weight: 200

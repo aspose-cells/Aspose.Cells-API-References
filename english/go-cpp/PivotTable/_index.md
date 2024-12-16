@@ -1,7 +1,7 @@
 ---
 title: PivotTable Class 
 linktitle: PivotTable
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'PivotTable class. Encapsulates the object that represents pivottable in Go.'
 type: docs
 weight: 200

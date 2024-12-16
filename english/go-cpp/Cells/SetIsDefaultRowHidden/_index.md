@@ -1,7 +1,7 @@
 ---
 title: SetIsDefaultRowHidden Method 
 linktitle: SetIsDefaultRowHidden
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetIsDefaultRowHidden method. Encapsulates the function that represents setisdefaultrowhidden in Go.'
 type: docs
 weight: 200

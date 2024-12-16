@@ -1,7 +1,7 @@
 ---
 title: SetRelativeLibid Method 
 linktitle: SetRelativeLibid
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetRelativeLibid method. Encapsulates the function that represents setrelativelibid in Go.'
 type: docs
 weight: 200

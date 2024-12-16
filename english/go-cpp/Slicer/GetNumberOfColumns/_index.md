@@ -1,7 +1,7 @@
 ---
 title: GetNumberOfColumns Method 
 linktitle: GetNumberOfColumns
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetNumberOfColumns method. Encapsulates the function that represents getnumberofcolumns in Go.'
 type: docs
 weight: 200

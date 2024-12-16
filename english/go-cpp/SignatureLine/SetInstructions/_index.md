@@ -1,7 +1,7 @@
 ---
 title: SetInstructions Method 
 linktitle: SetInstructions
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetInstructions method. Encapsulates the function that represents setinstructions in Go.'
 type: docs
 weight: 200

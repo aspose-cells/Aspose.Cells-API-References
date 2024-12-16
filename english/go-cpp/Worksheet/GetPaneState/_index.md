@@ -1,7 +1,7 @@
 ---
 title: GetPaneState Method 
 linktitle: GetPaneState
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetPaneState method. Encapsulates the function that represents getpanestate in Go.'
 type: docs
 weight: 200

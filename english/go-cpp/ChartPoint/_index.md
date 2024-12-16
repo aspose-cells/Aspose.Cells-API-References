@@ -1,7 +1,7 @@
 ---
 title: ChartPoint Class 
 linktitle: ChartPoint
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ChartPoint class. Encapsulates the object that represents chartpoint in Go.'
 type: docs
 weight: 200

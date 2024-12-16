@@ -1,7 +1,7 @@
 ---
 title: SetHasDropLines Method 
 linktitle: SetHasDropLines
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetHasDropLines method. Encapsulates the function that represents sethasdroplines in Go.'
 type: docs
 weight: 200

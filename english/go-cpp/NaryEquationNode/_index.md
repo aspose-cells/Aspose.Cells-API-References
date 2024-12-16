@@ -1,7 +1,7 @@
 ---
 title: NaryEquationNode Class 
 linktitle: NaryEquationNode
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'NaryEquationNode class. Encapsulates the object that represents naryequationnode in Go.'
 type: docs
 weight: 200

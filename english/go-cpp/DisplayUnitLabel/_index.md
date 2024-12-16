@@ -1,7 +1,7 @@
 ---
 title: DisplayUnitLabel Class 
 linktitle: DisplayUnitLabel
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'DisplayUnitLabel class. Encapsulates the object that represents displayunitlabel in Go.'
 type: docs
 weight: 200

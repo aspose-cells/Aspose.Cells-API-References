@@ -1,7 +1,7 @@
 ---
 title: GetMinorGridLines Method 
 linktitle: GetMinorGridLines
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetMinorGridLines method. Encapsulates the function that represents getminorgridlines in Go.'
 type: docs
 weight: 200

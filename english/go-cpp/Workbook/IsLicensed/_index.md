@@ -1,7 +1,7 @@
 ---
 title: IsLicensed Method 
 linktitle: IsLicensed
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsLicensed method. Encapsulates the function that represents islicensed in Go.'
 type: docs
 weight: 200

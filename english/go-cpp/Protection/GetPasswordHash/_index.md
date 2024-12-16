@@ -1,7 +1,7 @@
 ---
 title: GetPasswordHash Method 
 linktitle: GetPasswordHash
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetPasswordHash method. Encapsulates the function that represents getpasswordhash in Go.'
 type: docs
 weight: 200

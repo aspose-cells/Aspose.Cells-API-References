@@ -1,7 +1,7 @@
 ---
 title: GetPrecisionAsDisplayed Method 
 linktitle: GetPrecisionAsDisplayed
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetPrecisionAsDisplayed method. Encapsulates the function that represents getprecisionasdisplayed in Go.'
 type: docs
 weight: 200

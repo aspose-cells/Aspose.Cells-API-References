@@ -1,7 +1,7 @@
 ---
 title: SetHeaderRowsCount Method 
 linktitle: SetHeaderRowsCount
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetHeaderRowsCount method. Encapsulates the function that represents setheaderrowscount in Go.'
 type: docs
 weight: 200

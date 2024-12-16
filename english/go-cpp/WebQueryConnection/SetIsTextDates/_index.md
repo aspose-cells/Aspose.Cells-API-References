@@ -1,7 +1,7 @@
 ---
 title: SetIsTextDates Method 
 linktitle: SetIsTextDates
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetIsTextDates method. Encapsulates the function that represents setistextdates in Go.'
 type: docs
 weight: 200

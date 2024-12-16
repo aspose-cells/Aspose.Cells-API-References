@@ -1,7 +1,7 @@
 ---
 title: SetLink Method 
 linktitle: SetLink
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetLink method. Encapsulates the function that represents setlink in Go.'
 type: docs
 weight: 200

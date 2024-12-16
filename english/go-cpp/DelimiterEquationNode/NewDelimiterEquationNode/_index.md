@@ -1,7 +1,7 @@
 ---
 title: DelimiterEquationNode Constructor 
 linktitle: DelimiterEquationNode
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'DelimiterEquationNode constructor. Encapsulates the function that represents newdelimiterequationnode in Go.'
 type: docs
 weight: 200

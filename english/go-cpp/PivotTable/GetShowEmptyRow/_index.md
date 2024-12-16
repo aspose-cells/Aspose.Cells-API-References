@@ -1,7 +1,7 @@
 ---
 title: GetShowEmptyRow Method 
 linktitle: GetShowEmptyRow
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetShowEmptyRow method. Encapsulates the function that represents getshowemptyrow in Go.'
 type: docs
 weight: 200

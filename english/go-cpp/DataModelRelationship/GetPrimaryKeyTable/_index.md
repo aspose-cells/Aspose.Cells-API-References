@@ -1,7 +1,7 @@
 ---
 title: GetPrimaryKeyTable Method 
 linktitle: GetPrimaryKeyTable
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetPrimaryKeyTable method. Encapsulates the function that represents getprimarykeytable in Go.'
 type: docs
 weight: 200

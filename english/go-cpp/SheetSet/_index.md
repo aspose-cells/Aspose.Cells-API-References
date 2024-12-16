@@ -1,7 +1,7 @@
 ---
 title: SheetSet Class 
 linktitle: SheetSet
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SheetSet class. Encapsulates the object that represents sheetset in Go.'
 type: docs
 weight: 200

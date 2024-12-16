@@ -1,7 +1,7 @@
 ---
 title: SetIsAutomatic Method 
 linktitle: SetIsAutomatic
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetIsAutomatic method. Encapsulates the function that represents setisautomatic in Go.'
 type: docs
 weight: 200

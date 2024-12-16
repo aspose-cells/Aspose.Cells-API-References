@@ -1,7 +1,7 @@
 ---
 title: GetForegroundThemeColor Method 
 linktitle: GetForegroundThemeColor
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetForegroundThemeColor method. Encapsulates the function that represents getforegroundthemecolor in Go.'
 type: docs
 weight: 200

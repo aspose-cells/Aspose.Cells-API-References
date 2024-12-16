@@ -1,7 +1,7 @@
 ---
 title: SetDockState Method 
 linktitle: SetDockState
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetDockState method. Encapsulates the function that represents setdockstate in Go.'
 type: docs
 weight: 200

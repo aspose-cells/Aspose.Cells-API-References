@@ -1,7 +1,7 @@
 ---
 title: IsLatinLineBreak Method 
 linktitle: IsLatinLineBreak
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsLatinLineBreak method. Encapsulates the function that represents islatinlinebreak in Go.'
 type: docs
 weight: 200

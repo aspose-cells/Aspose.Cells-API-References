@@ -1,7 +1,7 @@
 ---
 title: IsGTE Method 
 linktitle: IsGTE
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsGTE method. Encapsulates the function that represents isgte in Go.'
 type: docs
 weight: 200

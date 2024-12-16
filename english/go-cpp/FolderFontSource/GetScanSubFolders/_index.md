@@ -1,7 +1,7 @@
 ---
 title: GetScanSubFolders Method 
 linktitle: GetScanSubFolders
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetScanSubFolders method. Encapsulates the function that represents getscansubfolders in Go.'
 type: docs
 weight: 200

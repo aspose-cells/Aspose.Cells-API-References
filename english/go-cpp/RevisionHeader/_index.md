@@ -1,7 +1,7 @@
 ---
 title: RevisionHeader Class 
 linktitle: RevisionHeader
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'RevisionHeader class. Encapsulates the object that represents revisionheader in Go.'
 type: docs
 weight: 200

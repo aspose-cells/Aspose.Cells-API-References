@@ -1,7 +1,7 @@
 ---
 title: GetHtmlText Method 
 linktitle: GetHtmlText
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetHtmlText method. Encapsulates the function that represents gethtmltext in Go.'
 type: docs
 weight: 200

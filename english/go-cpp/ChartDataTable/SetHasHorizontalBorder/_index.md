@@ -1,7 +1,7 @@
 ---
 title: SetHasHorizontalBorder Method 
 linktitle: SetHasHorizontalBorder
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetHasHorizontalBorder method. Encapsulates the function that represents sethashorizontalborder in Go.'
 type: docs
 weight: 200

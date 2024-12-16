@@ -1,7 +1,7 @@
 ---
 title: GetShowAllItems Method 
 linktitle: GetShowAllItems
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetShowAllItems method. Encapsulates the function that represents getshowallitems in Go.'
 type: docs
 weight: 200

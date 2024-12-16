@@ -1,7 +1,7 @@
 ---
 title: SetImageScalable Method 
 linktitle: SetImageScalable
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetImageScalable method. Encapsulates the function that represents setimagescalable in Go.'
 type: docs
 weight: 200

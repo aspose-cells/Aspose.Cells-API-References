@@ -1,7 +1,7 @@
 ---
 title: SetFileFormatType Method 
 linktitle: SetFileFormatType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetFileFormatType method. Encapsulates the function that represents setfileformattype in Go.'
 type: docs
 weight: 200

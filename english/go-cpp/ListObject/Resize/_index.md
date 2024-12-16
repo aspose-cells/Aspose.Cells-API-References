@@ -1,7 +1,7 @@
 ---
 title: Resize Method 
 linktitle: Resize
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'Resize method. Encapsulates the function that represents resize in Go.'
 type: docs
 weight: 200

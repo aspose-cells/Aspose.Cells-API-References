@@ -1,7 +1,7 @@
 ---
 title: IsGray Method 
 linktitle: IsGray
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsGray method. Encapsulates the function that represents isgray in Go.'
 type: docs
 weight: 200

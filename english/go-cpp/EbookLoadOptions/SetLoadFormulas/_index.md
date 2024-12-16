@@ -1,7 +1,7 @@
 ---
 title: SetLoadFormulas Method 
 linktitle: SetLoadFormulas
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetLoadFormulas method. Encapsulates the function that represents setloadformulas in Go.'
 type: docs
 weight: 200

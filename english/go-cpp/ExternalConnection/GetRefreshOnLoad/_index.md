@@ -1,7 +1,7 @@
 ---
 title: GetRefreshOnLoad Method 
 linktitle: GetRefreshOnLoad
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetRefreshOnLoad method. Encapsulates the function that represents getrefreshonload in Go.'
 type: docs
 weight: 200

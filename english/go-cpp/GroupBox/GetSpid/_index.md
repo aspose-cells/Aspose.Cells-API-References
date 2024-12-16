@@ -1,7 +1,7 @@
 ---
 title: GetSpid Method 
 linktitle: GetSpid
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetSpid method. Encapsulates the function that represents getspid in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetWindowLeftCM Method 
 linktitle: GetWindowLeftCM
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetWindowLeftCM method. Encapsulates the function that represents getwindowleftcm in Go.'
 type: docs
 weight: 200

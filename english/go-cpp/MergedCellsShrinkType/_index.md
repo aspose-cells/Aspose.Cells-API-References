@@ -1,7 +1,7 @@
 ---
 title: MergedCellsShrinkType Enum 
 linktitle: MergedCellsShrinkType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'MergedCellsShrinkType enum. Encapsulates the object that represents mergedcellsshrinktype in Go.'
 type: docs
 weight: 200

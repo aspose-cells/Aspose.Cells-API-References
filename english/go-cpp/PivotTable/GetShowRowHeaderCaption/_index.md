@@ -1,7 +1,7 @@
 ---
 title: GetShowRowHeaderCaption Method 
 linktitle: GetShowRowHeaderCaption
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetShowRowHeaderCaption method. Encapsulates the function that represents getshowrowheadercaption in Go.'
 type: docs
 weight: 200

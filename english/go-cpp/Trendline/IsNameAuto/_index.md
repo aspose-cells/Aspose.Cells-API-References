@@ -1,7 +1,7 @@
 ---
 title: IsNameAuto Method 
 linktitle: IsNameAuto
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsNameAuto method. Encapsulates the function that represents isnameauto in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: IsProtected Method 
 linktitle: IsProtected
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsProtected method. Encapsulates the function that represents isprotected in Go.'
 type: docs
 weight: 200

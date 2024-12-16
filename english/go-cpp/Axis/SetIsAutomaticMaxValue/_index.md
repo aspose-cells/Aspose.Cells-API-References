@@ -1,7 +1,7 @@
 ---
 title: SetIsAutomaticMaxValue Method 
 linktitle: SetIsAutomaticMaxValue
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetIsAutomaticMaxValue method. Encapsulates the function that represents setisautomaticmaxvalue in Go.'
 type: docs
 weight: 200

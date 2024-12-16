@@ -1,7 +1,7 @@
 ---
 title: SetTableRowTypeOfTotals Method 
 linktitle: SetTableRowTypeOfTotals
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetTableRowTypeOfTotals method. Encapsulates the function that represents settablerowtypeoftotals in Go.'
 type: docs
 weight: 200

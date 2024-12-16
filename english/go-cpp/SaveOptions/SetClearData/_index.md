@@ -1,7 +1,7 @@
 ---
 title: SetClearData Method 
 linktitle: SetClearData
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetClearData method. Encapsulates the function that represents setcleardata in Go.'
 type: docs
 weight: 200

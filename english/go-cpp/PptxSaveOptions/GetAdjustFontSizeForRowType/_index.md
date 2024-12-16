@@ -1,7 +1,7 @@
 ---
 title: GetAdjustFontSizeForRowType Method 
 linktitle: GetAdjustFontSizeForRowType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetAdjustFontSizeForRowType method. Encapsulates the function that represents getadjustfontsizeforrowtype in Go.'
 type: docs
 weight: 200

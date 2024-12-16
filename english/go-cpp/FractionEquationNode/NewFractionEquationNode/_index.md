@@ -1,7 +1,7 @@
 ---
 title: FractionEquationNode Constructor 
 linktitle: FractionEquationNode
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'FractionEquationNode constructor. Encapsulates the function that represents newfractionequationnode in Go.'
 type: docs
 weight: 200

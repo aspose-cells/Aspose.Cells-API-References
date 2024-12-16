@@ -1,7 +1,7 @@
 ---
 title: SetAutoFitWrappedTextType Method 
 linktitle: SetAutoFitWrappedTextType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetAutoFitWrappedTextType method. Encapsulates the function that represents setautofitwrappedtexttype in Go.'
 type: docs
 weight: 200

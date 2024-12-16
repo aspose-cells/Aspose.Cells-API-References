@@ -1,7 +1,7 @@
 ---
 title: GetWindowWidth Method 
 linktitle: GetWindowWidth
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetWindowWidth method. Encapsulates the function that represents getwindowwidth in Go.'
 type: docs
 weight: 200

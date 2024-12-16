@@ -1,7 +1,7 @@
 ---
 title: SetRuleType Method 
 linktitle: SetRuleType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetRuleType method. Encapsulates the function that represents setruletype in Go.'
 type: docs
 weight: 200

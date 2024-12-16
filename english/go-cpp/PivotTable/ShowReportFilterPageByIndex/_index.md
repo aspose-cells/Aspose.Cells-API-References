@@ -1,7 +1,7 @@
 ---
 title: ShowReportFilterPageByIndex Method 
 linktitle: ShowReportFilterPageByIndex
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ShowReportFilterPageByIndex method. Encapsulates the function that represents showreportfilterpagebyindex in Go.'
 type: docs
 weight: 200

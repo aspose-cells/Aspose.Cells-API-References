@@ -1,7 +1,7 @@
 ---
 title: SetTiffBinarizationMethod Method 
 linktitle: SetTiffBinarizationMethod
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetTiffBinarizationMethod method. Encapsulates the function that represents settiffbinarizationmethod in Go.'
 type: docs
 weight: 200

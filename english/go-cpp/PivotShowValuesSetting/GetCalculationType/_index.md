@@ -1,7 +1,7 @@
 ---
 title: GetCalculationType Method 
 linktitle: GetCalculationType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetCalculationType method. Encapsulates the function that represents getcalculationtype in Go.'
 type: docs
 weight: 200

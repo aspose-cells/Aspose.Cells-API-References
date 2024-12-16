@@ -1,7 +1,7 @@
 ---
 title: SetAutoRecover Method 
 linktitle: SetAutoRecover
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetAutoRecover method. Encapsulates the function that represents setautorecover in Go.'
 type: docs
 weight: 200

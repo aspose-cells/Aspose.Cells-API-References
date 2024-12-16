@@ -1,7 +1,7 @@
 ---
 title: SetManager Method 
 linktitle: SetManager
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetManager method. Encapsulates the function that represents setmanager in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: IsAutoSubtotals Method 
 linktitle: IsAutoSubtotals
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsAutoSubtotals method. Encapsulates the function that represents isautosubtotals in Go.'
 type: docs
 weight: 200

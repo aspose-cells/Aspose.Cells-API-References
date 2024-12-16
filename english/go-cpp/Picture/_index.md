@@ -1,7 +1,7 @@
 ---
 title: Picture Class 
 linktitle: Picture
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'Picture class. Encapsulates the object that represents picture in Go.'
 type: docs
 weight: 200

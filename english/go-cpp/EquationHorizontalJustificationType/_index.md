@@ -1,7 +1,7 @@
 ---
 title: EquationHorizontalJustificationType Enum 
 linktitle: EquationHorizontalJustificationType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'EquationHorizontalJustificationType enum. Encapsulates the object that represents equationhorizontaljustificationtype in Go.'
 type: docs
 weight: 200

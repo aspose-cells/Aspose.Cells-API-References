@@ -1,7 +1,7 @@
 ---
 title: GetHideFormula Method 
 linktitle: GetHideFormula
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetHideFormula method. Encapsulates the function that represents gethideformula in Go.'
 type: docs
 weight: 200

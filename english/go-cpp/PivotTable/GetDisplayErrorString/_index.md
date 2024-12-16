@@ -1,7 +1,7 @@
 ---
 title: GetDisplayErrorString Method 
 linktitle: GetDisplayErrorString
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetDisplayErrorString method. Encapsulates the function that represents getdisplayerrorstring in Go.'
 type: docs
 weight: 200

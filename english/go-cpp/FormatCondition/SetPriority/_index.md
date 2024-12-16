@@ -1,7 +1,7 @@
 ---
 title: SetPriority Method 
 linktitle: SetPriority
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetPriority method. Encapsulates the function that represents setpriority in Go.'
 type: docs
 weight: 200

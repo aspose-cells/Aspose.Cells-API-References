@@ -1,7 +1,7 @@
 ---
 title: RangeCollection Class 
 linktitle: RangeCollection
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'RangeCollection class. Encapsulates the object that represents rangecollection in Go.'
 type: docs
 weight: 200

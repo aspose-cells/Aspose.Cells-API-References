@@ -1,7 +1,7 @@
 ---
 title: SetRightAngleAxes Method 
 linktitle: SetRightAngleAxes
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetRightAngleAxes method. Encapsulates the function that represents setrightangleaxes in Go.'
 type: docs
 weight: 200

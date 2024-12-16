@@ -1,7 +1,7 @@
 ---
 title: IsInnerMode Method 
 linktitle: IsInnerMode
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsInnerMode method. Encapsulates the function that represents isinnermode in Go.'
 type: docs
 weight: 200

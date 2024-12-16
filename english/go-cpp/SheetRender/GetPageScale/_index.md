@@ -1,7 +1,7 @@
 ---
 title: GetPageScale Method 
 linktitle: GetPageScale
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetPageScale method. Encapsulates the function that represents getpagescale in Go.'
 type: docs
 weight: 200

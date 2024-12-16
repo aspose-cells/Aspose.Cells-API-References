@@ -1,7 +1,7 @@
 ---
 title: SetIsAutomaticMinorUnit Method 
 linktitle: SetIsAutomaticMinorUnit
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetIsAutomaticMinorUnit method. Encapsulates the function that represents setisautomaticminorunit in Go.'
 type: docs
 weight: 200

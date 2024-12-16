@@ -1,7 +1,7 @@
 ---
 title: GetDockState Method 
 linktitle: GetDockState
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetDockState method. Encapsulates the function that represents getdockstate in Go.'
 type: docs
 weight: 200

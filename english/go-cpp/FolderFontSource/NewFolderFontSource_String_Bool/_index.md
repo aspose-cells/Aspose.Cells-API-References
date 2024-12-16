@@ -1,7 +1,7 @@
 ---
 title: FolderFontSource Constructor 
 linktitle: FolderFontSource
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'FolderFontSource constructor. Encapsulates the function that represents newfolderfontsource_string_bool in Go.'
 type: docs
 weight: 200

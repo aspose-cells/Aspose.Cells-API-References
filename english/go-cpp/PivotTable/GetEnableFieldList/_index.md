@@ -1,7 +1,7 @@
 ---
 title: GetEnableFieldList Method 
 linktitle: GetEnableFieldList
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetEnableFieldList method. Encapsulates the function that represents getenablefieldlist in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetCells Method 
 linktitle: GetCells
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetCells method. Encapsulates the function that represents getcells in Go.'
 type: docs
 weight: 200

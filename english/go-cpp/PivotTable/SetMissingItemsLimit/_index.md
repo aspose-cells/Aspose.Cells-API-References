@@ -1,7 +1,7 @@
 ---
 title: SetMissingItemsLimit Method 
 linktitle: SetMissingItemsLimit
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetMissingItemsLimit method. Encapsulates the function that represents setmissingitemslimit in Go.'
 type: docs
 weight: 200

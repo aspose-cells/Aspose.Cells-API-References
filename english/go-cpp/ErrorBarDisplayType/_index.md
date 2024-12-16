@@ -1,7 +1,7 @@
 ---
 title: ErrorBarDisplayType Enum 
 linktitle: ErrorBarDisplayType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ErrorBarDisplayType enum. Encapsulates the object that represents errorbardisplaytype in Go.'
 type: docs
 weight: 200

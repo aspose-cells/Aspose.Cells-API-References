@@ -1,7 +1,7 @@
 ---
 title: GetInnerHeight Method 
 linktitle: GetInnerHeight
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetInnerHeight method. Encapsulates the function that represents getinnerheight in Go.'
 type: docs
 weight: 200

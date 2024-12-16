@@ -1,7 +1,7 @@
 ---
 title: GetTextParagraphs Method 
 linktitle: GetTextParagraphs
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetTextParagraphs method. Encapsulates the function that represents gettextparagraphs in Go.'
 type: docs
 weight: 200

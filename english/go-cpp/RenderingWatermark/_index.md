@@ -1,7 +1,7 @@
 ---
 title: RenderingWatermark Class 
 linktitle: RenderingWatermark
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'RenderingWatermark class. Encapsulates the object that represents renderingwatermark in Go.'
 type: docs
 weight: 200

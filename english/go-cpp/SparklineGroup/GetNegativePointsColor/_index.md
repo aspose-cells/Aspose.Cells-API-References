@@ -1,7 +1,7 @@
 ---
 title: GetNegativePointsColor Method 
 linktitle: GetNegativePointsColor
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetNegativePointsColor method. Encapsulates the function that represents getnegativepointscolor in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: SetBackgroundArgbColor Method 
 linktitle: SetBackgroundArgbColor
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetBackgroundArgbColor method. Encapsulates the function that represents setbackgroundargbcolor in Go.'
 type: docs
 weight: 200

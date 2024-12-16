@@ -1,7 +1,7 @@
 ---
 title: SetHasOutlineBorder Method 
 linktitle: SetHasOutlineBorder
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetHasOutlineBorder method. Encapsulates the function that represents sethasoutlineborder in Go.'
 type: docs
 weight: 200

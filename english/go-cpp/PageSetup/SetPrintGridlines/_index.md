@@ -1,7 +1,7 @@
 ---
 title: SetPrintGridlines Method 
 linktitle: SetPrintGridlines
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetPrintGridlines method. Encapsulates the function that represents setprintgridlines in Go.'
 type: docs
 weight: 200

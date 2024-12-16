@@ -1,7 +1,7 @@
 ---
 title: ShowGroupDetail Method 
 linktitle: ShowGroupDetail
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ShowGroupDetail method. Encapsulates the function that represents showgroupdetail in Go.'
 type: docs
 weight: 200

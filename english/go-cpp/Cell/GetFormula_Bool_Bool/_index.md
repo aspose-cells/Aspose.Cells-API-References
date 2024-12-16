@@ -1,7 +1,7 @@
 ---
 title: GetFormula_Bool_Bool Method 
 linktitle: GetFormula
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetFormula_Bool_Bool method. Encapsulates the function that represents getformula in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: TextureType Enum 
 linktitle: TextureType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'TextureType enum. Encapsulates the object that represents texturetype in Go.'
 type: docs
 weight: 200

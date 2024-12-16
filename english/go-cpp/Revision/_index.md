@@ -1,7 +1,7 @@
 ---
 title: Revision Class 
 linktitle: Revision
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'Revision class. Encapsulates the object that represents revision in Go.'
 type: docs
 weight: 200

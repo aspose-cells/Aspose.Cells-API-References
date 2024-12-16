@@ -1,7 +1,7 @@
 ---
 title: SetInnerHeight Method 
 linktitle: SetInnerHeight
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetInnerHeight method. Encapsulates the function that represents setinnerheight in Go.'
 type: docs
 weight: 200

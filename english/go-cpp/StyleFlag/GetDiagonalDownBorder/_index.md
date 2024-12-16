@@ -1,7 +1,7 @@
 ---
 title: GetDiagonalDownBorder Method 
 linktitle: GetDiagonalDownBorder
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetDiagonalDownBorder method. Encapsulates the function that represents getdiagonaldownborder in Go.'
 type: docs
 weight: 200

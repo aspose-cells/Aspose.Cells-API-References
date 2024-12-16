@@ -1,7 +1,7 @@
 ---
 title: GetSavedTime Method 
 linktitle: GetSavedTime
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetSavedTime method. Encapsulates the function that represents getsavedtime in Go.'
 type: docs
 weight: 200

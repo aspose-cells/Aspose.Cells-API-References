@@ -1,7 +1,7 @@
 ---
 title: SetColumnTypeMap Method 
 linktitle: SetColumnTypeMap
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetColumnTypeMap method. Encapsulates the function that represents setcolumntypemap in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetBeginArrowWidth Method 
 linktitle: GetBeginArrowWidth
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetBeginArrowWidth method. Encapsulates the function that represents getbeginarrowwidth in Go.'
 type: docs
 weight: 200

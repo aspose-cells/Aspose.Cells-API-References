@@ -1,7 +1,7 @@
 ---
 title: SetCustomTotalsRowFormula Method 
 linktitle: SetCustomTotalsRowFormula
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetCustomTotalsRowFormula method. Encapsulates the function that represents setcustomtotalsrowformula in Go.'
 type: docs
 weight: 200

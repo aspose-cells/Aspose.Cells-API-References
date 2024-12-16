@@ -1,7 +1,7 @@
 ---
 title: GetRefreshDate Method 
 linktitle: GetRefreshDate
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetRefreshDate method. Encapsulates the function that represents getrefreshdate in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetCreatedTime Method 
 linktitle: GetCreatedTime
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetCreatedTime method. Encapsulates the function that represents getcreatedtime in Go.'
 type: docs
 weight: 200

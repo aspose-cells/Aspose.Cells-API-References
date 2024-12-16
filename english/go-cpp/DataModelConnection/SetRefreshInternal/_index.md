@@ -1,7 +1,7 @@
 ---
 title: SetRefreshInternal Method 
 linktitle: SetRefreshInternal
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetRefreshInternal method. Encapsulates the function that represents setrefreshinternal in Go.'
 type: docs
 weight: 200

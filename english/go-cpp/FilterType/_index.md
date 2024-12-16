@@ -1,7 +1,7 @@
 ---
 title: FilterType Enum 
 linktitle: FilterType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'FilterType enum. Encapsulates the object that represents filtertype in Go.'
 type: docs
 weight: 200

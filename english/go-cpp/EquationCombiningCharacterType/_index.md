@@ -1,7 +1,7 @@
 ---
 title: EquationCombiningCharacterType Enum 
 linktitle: EquationCombiningCharacterType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'EquationCombiningCharacterType enum. Encapsulates the object that represents equationcombiningcharactertype in Go.'
 type: docs
 weight: 200

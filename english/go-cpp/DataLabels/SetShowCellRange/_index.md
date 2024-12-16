@@ -1,7 +1,7 @@
 ---
 title: SetShowCellRange Method 
 linktitle: SetShowCellRange
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetShowCellRange method. Encapsulates the function that represents setshowcellrange in Go.'
 type: docs
 weight: 200

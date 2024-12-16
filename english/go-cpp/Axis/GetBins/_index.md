@@ -1,7 +1,7 @@
 ---
 title: GetBins Method 
 linktitle: GetBins
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetBins method. Encapsulates the function that represents getbins in Go.'
 type: docs
 weight: 200

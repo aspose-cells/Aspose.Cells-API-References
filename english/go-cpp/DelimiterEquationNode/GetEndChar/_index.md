@@ -1,7 +1,7 @@
 ---
 title: GetEndChar Method 
 linktitle: GetEndChar
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetEndChar method. Encapsulates the function that represents getendchar in Go.'
 type: docs
 weight: 200

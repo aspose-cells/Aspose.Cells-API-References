@@ -1,7 +1,7 @@
 ---
 title: SetLineStyle Method 
 linktitle: SetLineStyle
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetLineStyle method. Encapsulates the function that represents setlinestyle in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: AddPivotTableStyle Method 
 linktitle: AddPivotTableStyle
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'AddPivotTableStyle method. Encapsulates the function that represents addpivottablestyle in Go.'
 type: docs
 weight: 200

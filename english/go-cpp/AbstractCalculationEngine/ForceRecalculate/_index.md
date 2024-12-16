@@ -1,7 +1,7 @@
 ---
 title: ForceRecalculate Method 
 linktitle: ForceRecalculate
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ForceRecalculate method. Encapsulates the function that represents forcerecalculate in Go.'
 type: docs
 weight: 200

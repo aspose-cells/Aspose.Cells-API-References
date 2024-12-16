@@ -1,7 +1,7 @@
 ---
 title: SetElevation Method 
 linktitle: SetElevation
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetElevation method. Encapsulates the function that represents setelevation in Go.'
 type: docs
 weight: 200

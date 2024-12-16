@@ -1,7 +1,7 @@
 ---
 title: IsOutlineShown Method 
 linktitle: IsOutlineShown
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsOutlineShown method. Encapsulates the function that represents isoutlineshown in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: LightRigType Enum 
 linktitle: LightRigType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'LightRigType enum. Encapsulates the object that represents lightrigtype in Go.'
 type: docs
 weight: 200

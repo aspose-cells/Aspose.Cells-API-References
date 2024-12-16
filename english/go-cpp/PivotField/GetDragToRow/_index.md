@@ -1,7 +1,7 @@
 ---
 title: GetDragToRow Method 
 linktitle: GetDragToRow
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetDragToRow method. Encapsulates the function that represents getdragtorow in Go.'
 type: docs
 weight: 200

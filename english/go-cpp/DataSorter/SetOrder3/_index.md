@@ -1,7 +1,7 @@
 ---
 title: SetOrder3 Method 
 linktitle: SetOrder3
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetOrder3 method. Encapsulates the function that represents setorder3 in Go.'
 type: docs
 weight: 200

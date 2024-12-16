@@ -1,7 +1,7 @@
 ---
 title: SetExportPrintAreaOnly Method 
 linktitle: SetExportPrintAreaOnly
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetExportPrintAreaOnly method. Encapsulates the function that represents setexportprintareaonly in Go.'
 type: docs
 weight: 200

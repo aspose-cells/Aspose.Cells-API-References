@@ -1,7 +1,7 @@
 ---
 title: SetTableRowTypeOfCurrent Method 
 linktitle: SetTableRowTypeOfCurrent
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetTableRowTypeOfCurrent method. Encapsulates the function that represents settablerowtypeofcurrent in Go.'
 type: docs
 weight: 200

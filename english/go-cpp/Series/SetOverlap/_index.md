@@ -1,7 +1,7 @@
 ---
 title: SetOverlap Method 
 linktitle: SetOverlap
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetOverlap method. Encapsulates the function that represents setoverlap in Go.'
 type: docs
 weight: 200

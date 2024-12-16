@@ -1,7 +1,7 @@
 ---
 title: GetIgnoreHiddenRows Method 
 linktitle: GetIgnoreHiddenRows
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetIgnoreHiddenRows method. Encapsulates the function that represents getignorehiddenrows in Go.'
 type: docs
 weight: 200

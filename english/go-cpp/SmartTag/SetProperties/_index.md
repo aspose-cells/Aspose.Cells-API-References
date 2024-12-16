@@ -1,7 +1,7 @@
 ---
 title: SetProperties Method 
 linktitle: SetProperties
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetProperties method. Encapsulates the function that represents setproperties in Go.'
 type: docs
 weight: 200

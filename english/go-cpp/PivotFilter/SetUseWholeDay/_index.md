@@ -1,7 +1,7 @@
 ---
 title: SetUseWholeDay Method 
 linktitle: SetUseWholeDay
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetUseWholeDay method. Encapsulates the function that represents setusewholeday in Go.'
 type: docs
 weight: 200

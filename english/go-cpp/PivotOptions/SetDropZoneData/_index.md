@@ -1,7 +1,7 @@
 ---
 title: SetDropZoneData Method 
 linktitle: SetDropZoneData
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetDropZoneData method. Encapsulates the function that represents setdropzonedata in Go.'
 type: docs
 weight: 200

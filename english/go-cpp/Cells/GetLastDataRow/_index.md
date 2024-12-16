@@ -1,7 +1,7 @@
 ---
 title: GetLastDataRow Method 
 linktitle: GetLastDataRow
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetLastDataRow method. Encapsulates the function that represents getlastdatarow in Go.'
 type: docs
 weight: 200

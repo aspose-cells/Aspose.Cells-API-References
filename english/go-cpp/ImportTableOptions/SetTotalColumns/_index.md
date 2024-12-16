@@ -1,7 +1,7 @@
 ---
 title: SetTotalColumns Method 
 linktitle: SetTotalColumns
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetTotalColumns method. Encapsulates the function that represents settotalcolumns in Go.'
 type: docs
 weight: 200

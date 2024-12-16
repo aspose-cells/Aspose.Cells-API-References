@@ -1,7 +1,7 @@
 ---
 title: ToDouble Method 
 linktitle: ToDouble
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ToDouble method. Encapsulates the function that represents todouble in Go.'
 type: docs
 weight: 200

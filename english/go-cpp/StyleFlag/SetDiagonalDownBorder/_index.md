@@ -1,7 +1,7 @@
 ---
 title: SetDiagonalDownBorder Method 
 linktitle: SetDiagonalDownBorder
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetDiagonalDownBorder method. Encapsulates the function that represents setdiagonaldownborder in Go.'
 type: docs
 weight: 200

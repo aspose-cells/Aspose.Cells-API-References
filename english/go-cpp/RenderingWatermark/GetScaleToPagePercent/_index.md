@@ -1,7 +1,7 @@
 ---
 title: GetScaleToPagePercent Method 
 linktitle: GetScaleToPagePercent
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetScaleToPagePercent method. Encapsulates the function that represents getscaletopagepercent in Go.'
 type: docs
 weight: 200

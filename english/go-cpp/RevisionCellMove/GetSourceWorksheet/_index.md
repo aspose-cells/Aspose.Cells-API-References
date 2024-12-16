@@ -1,7 +1,7 @@
 ---
 title: GetSourceWorksheet Method 
 linktitle: GetSourceWorksheet
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetSourceWorksheet method. Encapsulates the function that represents getsourceworksheet in Go.'
 type: docs
 weight: 200

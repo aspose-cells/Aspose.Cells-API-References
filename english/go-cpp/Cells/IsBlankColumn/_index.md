@@ -1,7 +1,7 @@
 ---
 title: IsBlankColumn Method 
 linktitle: IsBlankColumn
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsBlankColumn method. Encapsulates the function that represents isblankcolumn in Go.'
 type: docs
 weight: 200

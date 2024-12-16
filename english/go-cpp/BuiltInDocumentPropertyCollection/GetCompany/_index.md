@@ -1,7 +1,7 @@
 ---
 title: GetCompany Method 
 linktitle: GetCompany
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetCompany method. Encapsulates the function that represents getcompany in Go.'
 type: docs
 weight: 200

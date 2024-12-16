@@ -1,7 +1,7 @@
 ---
 title: GetDisableCss Method 
 linktitle: GetDisableCss
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetDisableCss method. Encapsulates the function that represents getdisablecss in Go.'
 type: docs
 weight: 200

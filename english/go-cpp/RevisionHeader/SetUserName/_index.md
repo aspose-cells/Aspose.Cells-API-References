@@ -1,7 +1,7 @@
 ---
 title: SetUserName Method 
 linktitle: SetUserName
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetUserName method. Encapsulates the function that represents setusername in Go.'
 type: docs
 weight: 200

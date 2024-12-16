@@ -1,7 +1,7 @@
 ---
 title: SetSurfaceMaterialType Method 
 linktitle: SetSurfaceMaterialType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetSurfaceMaterialType method. Encapsulates the function that represents setsurfacematerialtype in Go.'
 type: docs
 weight: 200

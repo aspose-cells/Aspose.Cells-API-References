@@ -1,7 +1,7 @@
 ---
 title: RemoveAt_String Method 
 linktitle: RemoveAt
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'RemoveAt_String method. Encapsulates the function that represents removeat in Go.'
 type: docs
 weight: 200

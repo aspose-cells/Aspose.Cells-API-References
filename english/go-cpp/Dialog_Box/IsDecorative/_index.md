@@ -1,7 +1,7 @@
 ---
 title: IsDecorative Method 
 linktitle: IsDecorative
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsDecorative method. Encapsulates the function that represents isdecorative in Go.'
 type: docs
 weight: 200

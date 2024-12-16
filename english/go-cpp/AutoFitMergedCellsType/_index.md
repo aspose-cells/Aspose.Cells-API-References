@@ -1,7 +1,7 @@
 ---
 title: AutoFitMergedCellsType Enum 
 linktitle: AutoFitMergedCellsType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'AutoFitMergedCellsType enum. Encapsulates the object that represents autofitmergedcellstype in Go.'
 type: docs
 weight: 200

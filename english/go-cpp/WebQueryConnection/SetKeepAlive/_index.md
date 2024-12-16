@@ -1,7 +1,7 @@
 ---
 title: SetKeepAlive Method 
 linktitle: SetKeepAlive
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetKeepAlive method. Encapsulates the function that represents setkeepalive in Go.'
 type: docs
 weight: 200

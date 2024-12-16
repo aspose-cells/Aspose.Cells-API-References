@@ -1,7 +1,7 @@
 ---
 title: SetNumberDecimalSeparator Method 
 linktitle: SetNumberDecimalSeparator
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetNumberDecimalSeparator method. Encapsulates the function that represents setnumberdecimalseparator in Go.'
 type: docs
 weight: 200

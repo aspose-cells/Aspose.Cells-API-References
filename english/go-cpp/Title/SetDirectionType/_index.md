@@ -1,7 +1,7 @@
 ---
 title: SetDirectionType Method 
 linktitle: SetDirectionType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetDirectionType method. Encapsulates the function that represents setdirectiontype in Go.'
 type: docs
 weight: 200

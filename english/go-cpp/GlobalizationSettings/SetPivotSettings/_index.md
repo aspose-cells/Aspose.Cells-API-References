@@ -1,7 +1,7 @@
 ---
 title: SetPivotSettings Method 
 linktitle: SetPivotSettings
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetPivotSettings method. Encapsulates the function that represents setpivotsettings in Go.'
 type: docs
 weight: 200

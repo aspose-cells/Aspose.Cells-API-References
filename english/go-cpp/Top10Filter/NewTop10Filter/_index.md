@@ -1,7 +1,7 @@
 ---
 title: Top10Filter Constructor 
 linktitle: Top10Filter
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'Top10Filter constructor. Encapsulates the function that represents newtop10filter in Go.'
 type: docs
 weight: 200

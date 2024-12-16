@@ -1,7 +1,7 @@
 ---
 title: CalculateData Method 
 linktitle: CalculateData
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'CalculateData method. Encapsulates the function that represents calculatedata in Go.'
 type: docs
 weight: 200

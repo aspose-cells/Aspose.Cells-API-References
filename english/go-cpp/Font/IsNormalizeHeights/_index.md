@@ -1,7 +1,7 @@
 ---
 title: IsNormalizeHeights Method 
 linktitle: IsNormalizeHeights
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsNormalizeHeights method. Encapsulates the function that represents isnormalizeheights in Go.'
 type: docs
 weight: 200

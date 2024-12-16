@@ -1,7 +1,7 @@
 ---
 title: SetPageChange Method 
 linktitle: SetPageChange
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetPageChange method. Encapsulates the function that represents setpagechange in Go.'
 type: docs
 weight: 200

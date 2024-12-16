@@ -1,7 +1,7 @@
 ---
 title: SetHasFormula Method 
 linktitle: SetHasFormula
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetHasFormula method. Encapsulates the function that represents sethasformula in Go.'
 type: docs
 weight: 200

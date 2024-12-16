@@ -1,7 +1,7 @@
 ---
 title: SetReverse Method 
 linktitle: SetReverse
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetReverse method. Encapsulates the function that represents setreverse in Go.'
 type: docs
 weight: 200

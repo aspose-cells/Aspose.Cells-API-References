@@ -1,7 +1,7 @@
 ---
 title: GetShowCategoryName Method 
 linktitle: GetShowCategoryName
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetShowCategoryName method. Encapsulates the function that represents getshowcategoryname in Go.'
 type: docs
 weight: 200

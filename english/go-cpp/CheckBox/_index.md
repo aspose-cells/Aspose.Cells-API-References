@@ -1,7 +1,7 @@
 ---
 title: CheckBox Class 
 linktitle: CheckBox
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'CheckBox class. Encapsulates the object that represents checkbox in Go.'
 type: docs
 weight: 200

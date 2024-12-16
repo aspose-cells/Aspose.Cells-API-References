@@ -1,7 +1,7 @@
 ---
 title: GetFarEastName Method 
 linktitle: GetFarEastName
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetFarEastName method. Encapsulates the function that represents getfareastname in Go.'
 type: docs
 weight: 200

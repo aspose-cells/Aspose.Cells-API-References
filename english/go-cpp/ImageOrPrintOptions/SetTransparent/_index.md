@@ -1,7 +1,7 @@
 ---
 title: SetTransparent Method 
 linktitle: SetTransparent
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetTransparent method. Encapsulates the function that represents settransparent in Go.'
 type: docs
 weight: 200

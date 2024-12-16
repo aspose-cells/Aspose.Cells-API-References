@@ -1,7 +1,7 @@
 ---
 title: SetWindowHeightCM Method 
 linktitle: SetWindowHeightCM
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetWindowHeightCM method. Encapsulates the function that represents setwindowheightcm in Go.'
 type: docs
 weight: 200

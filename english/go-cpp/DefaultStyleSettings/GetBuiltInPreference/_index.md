@@ -1,7 +1,7 @@
 ---
 title: GetBuiltInPreference Method 
 linktitle: GetBuiltInPreference
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetBuiltInPreference method. Encapsulates the function that represents getbuiltinpreference in Go.'
 type: docs
 weight: 200

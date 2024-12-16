@@ -1,7 +1,7 @@
 ---
 title: IsChecked Method 
 linktitle: IsChecked
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsChecked method. Encapsulates the function that represents ischecked in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: ExternalConnection Class 
 linktitle: ExternalConnection
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ExternalConnection class. Encapsulates the object that represents externalconnection in Go.'
 type: docs
 weight: 200

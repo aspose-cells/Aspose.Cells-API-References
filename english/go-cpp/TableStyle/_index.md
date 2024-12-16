@@ -1,7 +1,7 @@
 ---
 title: TableStyle Class 
 linktitle: TableStyle
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'TableStyle class. Encapsulates the object that represents tablestyle in Go.'
 type: docs
 weight: 200

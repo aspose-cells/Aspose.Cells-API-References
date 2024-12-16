@@ -1,7 +1,7 @@
 ---
 title: SetDisplayZeros Method 
 linktitle: SetDisplayZeros
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetDisplayZeros method. Encapsulates the function that represents setdisplayzeros in Go.'
 type: docs
 weight: 200

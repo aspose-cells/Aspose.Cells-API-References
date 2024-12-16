@@ -1,7 +1,7 @@
 ---
 title: SetNumberOfColumns Method 
 linktitle: SetNumberOfColumns
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetNumberOfColumns method. Encapsulates the function that represents setnumberofcolumns in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: TextParagraph Constructor 
 linktitle: TextParagraph
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'TextParagraph constructor. Encapsulates the function that represents newtextparagraph in Go.'
 type: docs
 weight: 200

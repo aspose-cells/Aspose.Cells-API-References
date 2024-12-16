@@ -1,7 +1,7 @@
 ---
 title: SetPrintSize Method 
 linktitle: SetPrintSize
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetPrintSize method. Encapsulates the function that represents setprintsize in Go.'
 type: docs
 weight: 200

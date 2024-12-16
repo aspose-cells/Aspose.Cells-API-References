@@ -1,7 +1,7 @@
 ---
 title: GetColumnGrand Method 
 linktitle: GetColumnGrand
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetColumnGrand method. Encapsulates the function that represents getcolumngrand in Go.'
 type: docs
 weight: 200

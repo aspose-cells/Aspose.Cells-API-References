@@ -1,7 +1,7 @@
 ---
 title: TxtLoadStyleStrategy Enum 
 linktitle: TxtLoadStyleStrategy
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'TxtLoadStyleStrategy enum. Encapsulates the object that represents txtloadstylestrategy in Go.'
 type: docs
 weight: 200

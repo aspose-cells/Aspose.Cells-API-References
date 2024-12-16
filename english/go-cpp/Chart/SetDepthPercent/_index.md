@@ -1,7 +1,7 @@
 ---
 title: SetDepthPercent Method 
 linktitle: SetDepthPercent
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetDepthPercent method. Encapsulates the function that represents setdepthpercent in Go.'
 type: docs
 weight: 200

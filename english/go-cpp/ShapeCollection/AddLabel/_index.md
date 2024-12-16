@@ -1,7 +1,7 @@
 ---
 title: AddLabel Method 
 linktitle: AddLabel
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'AddLabel method. Encapsulates the function that represents addlabel in Go.'
 type: docs
 weight: 200

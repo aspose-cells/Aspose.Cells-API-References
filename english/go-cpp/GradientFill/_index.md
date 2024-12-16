@@ -1,7 +1,7 @@
 ---
 title: GradientFill Class 
 linktitle: GradientFill
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GradientFill class. Encapsulates the object that represents gradientfill in Go.'
 type: docs
 weight: 200

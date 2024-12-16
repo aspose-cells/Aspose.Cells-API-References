@@ -1,7 +1,7 @@
 ---
 title: SetShowMeanLine Method 
 linktitle: SetShowMeanLine
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetShowMeanLine method. Encapsulates the function that represents setshowmeanline in Go.'
 type: docs
 weight: 200

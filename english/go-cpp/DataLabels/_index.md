@@ -1,7 +1,7 @@
 ---
 title: DataLabels Class 
 linktitle: DataLabels
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'DataLabels class. Encapsulates the object that represents datalabels in Go.'
 type: docs
 weight: 200

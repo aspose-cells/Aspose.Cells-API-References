@@ -1,7 +1,7 @@
 ---
 title: GetShowHorizontalAxis Method 
 linktitle: GetShowHorizontalAxis
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetShowHorizontalAxis method. Encapsulates the function that represents getshowhorizontalaxis in Go.'
 type: docs
 weight: 200

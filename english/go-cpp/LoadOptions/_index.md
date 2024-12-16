@@ -1,7 +1,7 @@
 ---
 title: LoadOptions Class 
 linktitle: LoadOptions
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'LoadOptions class. Encapsulates the object that represents loadoptions in Go.'
 type: docs
 weight: 200

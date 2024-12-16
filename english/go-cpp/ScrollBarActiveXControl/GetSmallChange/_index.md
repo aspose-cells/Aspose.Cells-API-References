@@ -1,7 +1,7 @@
 ---
 title: GetSmallChange Method 
 linktitle: GetSmallChange
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetSmallChange method. Encapsulates the function that represents getsmallchange in Go.'
 type: docs
 weight: 200

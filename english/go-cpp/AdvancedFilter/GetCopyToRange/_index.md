@@ -1,7 +1,7 @@
 ---
 title: GetCopyToRange Method 
 linktitle: GetCopyToRange
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetCopyToRange method. Encapsulates the function that represents getcopytorange in Go.'
 type: docs
 weight: 200

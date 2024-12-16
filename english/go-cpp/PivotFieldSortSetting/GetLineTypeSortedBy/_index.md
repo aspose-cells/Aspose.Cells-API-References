@@ -1,7 +1,7 @@
 ---
 title: GetLineTypeSortedBy Method 
 linktitle: GetLineTypeSortedBy
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetLineTypeSortedBy method. Encapsulates the function that represents getlinetypesortedby in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: SetBlackAndWhite Method 
 linktitle: SetBlackAndWhite
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetBlackAndWhite method. Encapsulates the function that represents setblackandwhite in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetMaxDataRow Method 
 linktitle: GetMaxDataRow
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetMaxDataRow method. Encapsulates the function that represents getmaxdatarow in Go.'
 type: docs
 weight: 200

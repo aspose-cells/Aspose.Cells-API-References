@@ -1,7 +1,7 @@
 ---
 title: GetPresentationPreference Method 
 linktitle: GetPresentationPreference
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetPresentationPreference method. Encapsulates the function that represents getpresentationpreference in Go.'
 type: docs
 weight: 200

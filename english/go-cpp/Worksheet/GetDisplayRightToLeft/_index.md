@@ -1,7 +1,7 @@
 ---
 title: GetDisplayRightToLeft Method 
 linktitle: GetDisplayRightToLeft
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetDisplayRightToLeft method. Encapsulates the function that represents getdisplayrighttoleft in Go.'
 type: docs
 weight: 200

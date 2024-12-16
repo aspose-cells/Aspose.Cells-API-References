@@ -1,7 +1,7 @@
 ---
 title: IsNumericValue Method 
 linktitle: IsNumericValue
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsNumericValue method. Encapsulates the function that represents isnumericvalue in Go.'
 type: docs
 weight: 200

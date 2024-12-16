@@ -1,7 +1,7 @@
 ---
 title: GetFullQualityPrintPermission Method 
 linktitle: GetFullQualityPrintPermission
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetFullQualityPrintPermission method. Encapsulates the function that represents getfullqualityprintpermission in Go.'
 type: docs
 weight: 200

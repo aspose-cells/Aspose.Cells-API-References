@@ -1,7 +1,7 @@
 ---
 title: ToFloat Method 
 linktitle: ToFloat
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ToFloat method. Encapsulates the function that represents tofloat in Go.'
 type: docs
 weight: 200

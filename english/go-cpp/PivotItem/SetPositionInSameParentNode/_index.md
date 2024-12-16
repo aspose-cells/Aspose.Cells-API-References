@@ -1,7 +1,7 @@
 ---
 title: SetPositionInSameParentNode Method 
 linktitle: SetPositionInSameParentNode
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetPositionInSameParentNode method. Encapsulates the function that represents setpositioninsameparentnode in Go.'
 type: docs
 weight: 200

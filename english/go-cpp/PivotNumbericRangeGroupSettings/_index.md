@@ -1,7 +1,7 @@
 ---
 title: PivotNumbericRangeGroupSettings Class 
 linktitle: PivotNumbericRangeGroupSettings
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'PivotNumbericRangeGroupSettings class. Encapsulates the object that represents pivotnumbericrangegroupsettings in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: Custom_Int_FilterOperatorType_Object_Bool_FilterOperatorType_Object Method 
 linktitle: Custom
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'Custom_Int_FilterOperatorType_Object_Bool_FilterOperatorType_Object method. Encapsulates the function that represents custom in Go.'
 type: docs
 weight: 200

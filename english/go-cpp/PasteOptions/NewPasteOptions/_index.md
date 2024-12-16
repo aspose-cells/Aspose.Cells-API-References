@@ -1,7 +1,7 @@
 ---
 title: PasteOptions Constructor 
 linktitle: PasteOptions
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'PasteOptions constructor. Encapsulates the function that represents newpasteoptions in Go.'
 type: docs
 weight: 200

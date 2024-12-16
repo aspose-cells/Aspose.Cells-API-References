@@ -1,7 +1,7 @@
 ---
 title: GetThreadedComments_String Method 
 linktitle: GetThreadedComments
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetThreadedComments_String method. Encapsulates the function that represents getthreadedcomments in Go.'
 type: docs
 weight: 200

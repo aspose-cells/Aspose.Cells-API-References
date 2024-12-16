@@ -1,7 +1,7 @@
 ---
 title: SetOnlyVisibleCells Method 
 linktitle: SetOnlyVisibleCells
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetOnlyVisibleCells method. Encapsulates the function that represents setonlyvisiblecells in Go.'
 type: docs
 weight: 200

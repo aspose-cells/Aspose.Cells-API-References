@@ -1,7 +1,7 @@
 ---
 title: SetLowerDeltaX Method 
 linktitle: SetLowerDeltaX
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetLowerDeltaX method. Encapsulates the function that represents setlowerdeltax in Go.'
 type: docs
 weight: 200

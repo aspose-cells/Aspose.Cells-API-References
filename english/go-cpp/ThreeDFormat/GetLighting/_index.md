@@ -1,7 +1,7 @@
 ---
 title: GetLighting Method 
 linktitle: GetLighting
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetLighting method. Encapsulates the function that represents getlighting in Go.'
 type: docs
 weight: 200

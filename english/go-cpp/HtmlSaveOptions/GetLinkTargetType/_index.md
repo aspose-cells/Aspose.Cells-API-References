@@ -1,7 +1,7 @@
 ---
 title: GetLinkTargetType Method 
 linktitle: GetLinkTargetType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetLinkTargetType method. Encapsulates the function that represents getlinktargettype in Go.'
 type: docs
 weight: 200

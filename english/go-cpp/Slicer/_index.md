@@ -1,7 +1,7 @@
 ---
 title: Slicer Class 
 linktitle: Slicer
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'Slicer class. Encapsulates the object that represents slicer in Go.'
 type: docs
 weight: 200

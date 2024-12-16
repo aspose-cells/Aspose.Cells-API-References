@@ -1,7 +1,7 @@
 ---
 title: GetDisplayImmediateItems Method 
 linktitle: GetDisplayImmediateItems
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetDisplayImmediateItems method. Encapsulates the function that represents getdisplayimmediateitems in Go.'
 type: docs
 weight: 200

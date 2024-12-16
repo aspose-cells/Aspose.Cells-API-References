@@ -1,7 +1,7 @@
 ---
 title: SetAddGenericFont Method 
 linktitle: SetAddGenericFont
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetAddGenericFont method. Encapsulates the function that represents setaddgenericfont in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetWidthScalable Method 
 linktitle: GetWidthScalable
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetWidthScalable method. Encapsulates the function that represents getwidthscalable in Go.'
 type: docs
 weight: 200

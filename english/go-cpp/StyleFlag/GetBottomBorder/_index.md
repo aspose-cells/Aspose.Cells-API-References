@@ -1,7 +1,7 @@
 ---
 title: GetBottomBorder Method 
 linktitle: GetBottomBorder
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetBottomBorder method. Encapsulates the function that represents getbottomborder in Go.'
 type: docs
 weight: 200

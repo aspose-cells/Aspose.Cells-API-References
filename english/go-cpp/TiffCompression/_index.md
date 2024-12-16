@@ -1,7 +1,7 @@
 ---
 title: TiffCompression Enum 
 linktitle: TiffCompression
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'TiffCompression enum. Encapsulates the object that represents tiffcompression in Go.'
 type: docs
 weight: 200

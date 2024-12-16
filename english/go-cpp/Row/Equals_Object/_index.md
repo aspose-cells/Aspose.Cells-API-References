@@ -1,7 +1,7 @@
 ---
 title: Equals_Object Method 
 linktitle: Equals
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'Equals_Object method. Encapsulates the function that represents equals in Go.'
 type: docs
 weight: 200

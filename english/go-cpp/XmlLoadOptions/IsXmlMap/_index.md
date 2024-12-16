@@ -1,7 +1,7 @@
 ---
 title: IsXmlMap Method 
 linktitle: IsXmlMap
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsXmlMap method. Encapsulates the function that represents isxmlmap in Go.'
 type: docs
 weight: 200

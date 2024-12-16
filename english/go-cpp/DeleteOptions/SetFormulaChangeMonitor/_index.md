@@ -1,7 +1,7 @@
 ---
 title: SetFormulaChangeMonitor Method 
 linktitle: SetFormulaChangeMonitor
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetFormulaChangeMonitor method. Encapsulates the function that represents setformulachangemonitor in Go.'
 type: docs
 weight: 200

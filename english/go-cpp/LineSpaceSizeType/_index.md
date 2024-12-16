@@ -1,7 +1,7 @@
 ---
 title: LineSpaceSizeType Enum 
 linktitle: LineSpaceSizeType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'LineSpaceSizeType enum. Encapsulates the object that represents linespacesizetype in Go.'
 type: docs
 weight: 200

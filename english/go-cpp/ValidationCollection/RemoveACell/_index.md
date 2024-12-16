@@ -1,7 +1,7 @@
 ---
 title: RemoveACell Method 
 linktitle: RemoveACell
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'RemoveACell method. Encapsulates the function that represents removeacell in Go.'
 type: docs
 weight: 200

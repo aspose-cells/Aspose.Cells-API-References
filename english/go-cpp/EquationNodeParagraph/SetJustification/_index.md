@@ -1,7 +1,7 @@
 ---
 title: SetJustification Method 
 linktitle: SetJustification
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetJustification method. Encapsulates the function that represents setjustification in Go.'
 type: docs
 weight: 200

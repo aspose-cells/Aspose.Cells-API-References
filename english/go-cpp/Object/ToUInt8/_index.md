@@ -1,7 +1,7 @@
 ---
 title: ToUInt8 Method 
 linktitle: ToUInt8
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ToUInt8 method. Encapsulates the function that represents touint8 in Go.'
 type: docs
 weight: 200

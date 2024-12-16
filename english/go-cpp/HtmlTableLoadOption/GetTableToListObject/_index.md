@@ -1,7 +1,7 @@
 ---
 title: GetTableToListObject Method 
 linktitle: GetTableToListObject
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetTableToListObject method. Encapsulates the function that represents gettabletolistobject in Go.'
 type: docs
 weight: 200

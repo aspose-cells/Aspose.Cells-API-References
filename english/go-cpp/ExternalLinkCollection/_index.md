@@ -1,7 +1,7 @@
 ---
 title: ExternalLinkCollection Class 
 linktitle: ExternalLinkCollection
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ExternalLinkCollection class. Encapsulates the object that represents externallinkcollection in Go.'
 type: docs
 weight: 200

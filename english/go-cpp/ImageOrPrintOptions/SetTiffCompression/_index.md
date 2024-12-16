@@ -1,7 +1,7 @@
 ---
 title: SetTiffCompression Method 
 linktitle: SetTiffCompression
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetTiffCompression method. Encapsulates the function that represents settiffcompression in Go.'
 type: docs
 weight: 200

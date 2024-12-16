@@ -1,7 +1,7 @@
 ---
 title: PdfSaveOptions Constructor 
 linktitle: PdfSaveOptions
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'PdfSaveOptions constructor. Encapsulates the function that represents newpdfsaveoptions_paginatedsaveoptions in Go.'
 type: docs
 weight: 200

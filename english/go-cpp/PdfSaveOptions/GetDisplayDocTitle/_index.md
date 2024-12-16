@@ -1,7 +1,7 @@
 ---
 title: GetDisplayDocTitle Method 
 linktitle: GetDisplayDocTitle
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetDisplayDocTitle method. Encapsulates the function that represents getdisplaydoctitle in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: TextStrikeType Enum 
 linktitle: TextStrikeType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'TextStrikeType enum. Encapsulates the object that represents textstriketype in Go.'
 type: docs
 weight: 200

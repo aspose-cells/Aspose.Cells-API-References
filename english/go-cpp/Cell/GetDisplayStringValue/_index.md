@@ -1,7 +1,7 @@
 ---
 title: GetDisplayStringValue Method 
 linktitle: GetDisplayStringValue
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetDisplayStringValue method. Encapsulates the function that represents getdisplaystringvalue in Go.'
 type: docs
 weight: 200

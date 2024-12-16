@@ -1,7 +1,7 @@
 ---
 title: SetShowAllItems Method 
 linktitle: SetShowAllItems
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetShowAllItems method. Encapsulates the function that represents setshowallitems in Go.'
 type: docs
 weight: 200

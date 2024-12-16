@@ -1,7 +1,7 @@
 ---
 title: WorkbookRender Class 
 linktitle: WorkbookRender
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'WorkbookRender class. Encapsulates the object that represents workbookrender in Go.'
 type: docs
 weight: 200

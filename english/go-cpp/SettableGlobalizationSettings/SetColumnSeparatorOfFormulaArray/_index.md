@@ -1,7 +1,7 @@
 ---
 title: SetColumnSeparatorOfFormulaArray Method 
 linktitle: SetColumnSeparatorOfFormulaArray
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetColumnSeparatorOfFormulaArray method. Encapsulates the function that represents setcolumnseparatorofformulaarray in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: SetBeginArrowheadWidth Method 
 linktitle: SetBeginArrowheadWidth
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetBeginArrowheadWidth method. Encapsulates the function that represents setbeginarrowheadwidth in Go.'
 type: docs
 weight: 200

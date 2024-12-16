@@ -1,7 +1,7 @@
 ---
 title: SetArrayAsTable Method 
 linktitle: SetArrayAsTable
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetArrayAsTable method. Encapsulates the function that represents setarrayastable in Go.'
 type: docs
 weight: 200

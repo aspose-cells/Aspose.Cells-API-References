@@ -1,7 +1,7 @@
 ---
 title: SetInCellDropDown Method 
 linktitle: SetInCellDropDown
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetInCellDropDown method. Encapsulates the function that represents setincelldropdown in Go.'
 type: docs
 weight: 200

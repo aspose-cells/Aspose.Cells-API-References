@@ -1,7 +1,7 @@
 ---
 title: SetForegroundColorSetType Method 
 linktitle: SetForegroundColorSetType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetForegroundColorSetType method. Encapsulates the function that represents setforegroundcolorsettype in Go.'
 type: docs
 weight: 200

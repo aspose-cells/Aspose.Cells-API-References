@@ -1,7 +1,7 @@
 ---
 title: HasAxis Method 
 linktitle: HasAxis
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'HasAxis method. Encapsulates the function that represents hasaxis in Go.'
 type: docs
 weight: 200

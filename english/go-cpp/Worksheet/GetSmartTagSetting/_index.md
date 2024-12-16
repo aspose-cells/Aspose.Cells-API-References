@@ -1,7 +1,7 @@
 ---
 title: GetSmartTagSetting Method 
 linktitle: GetSmartTagSetting
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetSmartTagSetting method. Encapsulates the function that represents getsmarttagsetting in Go.'
 type: docs
 weight: 200

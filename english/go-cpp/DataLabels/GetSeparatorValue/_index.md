@@ -1,7 +1,7 @@
 ---
 title: GetSeparatorValue Method 
 linktitle: GetSeparatorValue
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetSeparatorValue method. Encapsulates the function that represents getseparatorvalue in Go.'
 type: docs
 weight: 200

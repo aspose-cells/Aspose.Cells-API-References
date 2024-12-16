@@ -1,7 +1,7 @@
 ---
 title: GetRowHeightPixel Method 
 linktitle: GetRowHeightPixel
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetRowHeightPixel method. Encapsulates the function that represents getrowheightpixel in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: ShowInTabularForm Method 
 linktitle: ShowInTabularForm
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ShowInTabularForm method. Encapsulates the function that represents showintabularform in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: DateTimeGroupItem Constructor 
 linktitle: DateTimeGroupItem
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'DateTimeGroupItem constructor. Encapsulates the function that represents newdatetimegroupitem_datetimegroupingtype_int_int_int_int_int_int in Go.'
 type: docs
 weight: 200

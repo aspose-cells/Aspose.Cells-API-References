@@ -1,7 +1,7 @@
 ---
 title: FormatConditionCollection Class 
 linktitle: FormatConditionCollection
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'FormatConditionCollection class. Encapsulates the object that represents formatconditioncollection in Go.'
 type: docs
 weight: 200

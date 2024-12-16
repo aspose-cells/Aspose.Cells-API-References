@@ -1,7 +1,7 @@
 ---
 title: SetWindowTopInch Method 
 linktitle: SetWindowTopInch
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetWindowTopInch method. Encapsulates the function that represents setwindowtopinch in Go.'
 type: docs
 weight: 200

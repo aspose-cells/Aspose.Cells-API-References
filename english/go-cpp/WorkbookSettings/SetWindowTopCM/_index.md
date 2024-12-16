@@ -1,7 +1,7 @@
 ---
 title: SetWindowTopCM Method 
 linktitle: SetWindowTopCM
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetWindowTopCM method. Encapsulates the function that represents setwindowtopcm in Go.'
 type: docs
 weight: 200

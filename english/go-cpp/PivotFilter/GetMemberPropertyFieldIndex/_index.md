@@ -1,7 +1,7 @@
 ---
 title: GetMemberPropertyFieldIndex Method 
 linktitle: GetMemberPropertyFieldIndex
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetMemberPropertyFieldIndex method. Encapsulates the function that represents getmemberpropertyfieldindex in Go.'
 type: docs
 weight: 200

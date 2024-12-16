@@ -1,7 +1,7 @@
 ---
 title: GetPivotTableStyleType Method 
 linktitle: GetPivotTableStyleType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetPivotTableStyleType method. Encapsulates the function that represents getpivottablestyletype in Go.'
 type: docs
 weight: 200

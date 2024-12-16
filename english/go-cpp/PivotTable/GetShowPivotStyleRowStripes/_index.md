@@ -1,7 +1,7 @@
 ---
 title: GetShowPivotStyleRowStripes Method 
 linktitle: GetShowPivotStyleRowStripes
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetShowPivotStyleRowStripes method. Encapsulates the function that represents getshowpivotstylerowstripes in Go.'
 type: docs
 weight: 200

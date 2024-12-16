@@ -1,7 +1,7 @@
 ---
 title: OdsGeneratorType Enum 
 linktitle: OdsGeneratorType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'OdsGeneratorType enum. Encapsulates the object that represents odsgeneratortype in Go.'
 type: docs
 weight: 200

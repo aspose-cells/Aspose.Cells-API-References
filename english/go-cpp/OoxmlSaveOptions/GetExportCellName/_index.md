@@ -1,7 +1,7 @@
 ---
 title: GetExportCellName Method 
 linktitle: GetExportCellName
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetExportCellName method. Encapsulates the function that represents getexportcellname in Go.'
 type: docs
 weight: 200

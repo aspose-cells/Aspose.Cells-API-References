@@ -1,7 +1,7 @@
 ---
 title: SetLastPrintedUniversalTime Method 
 linktitle: SetLastPrintedUniversalTime
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetLastPrintedUniversalTime method. Encapsulates the function that represents setlastprinteduniversaltime in Go.'
 type: docs
 weight: 200

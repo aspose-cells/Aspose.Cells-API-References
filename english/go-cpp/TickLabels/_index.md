@@ -1,7 +1,7 @@
 ---
 title: TickLabels Class 
 linktitle: TickLabels
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'TickLabels class. Encapsulates the object that represents ticklabels in Go.'
 type: docs
 weight: 200

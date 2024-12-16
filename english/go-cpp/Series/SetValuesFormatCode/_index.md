@@ -1,7 +1,7 @@
 ---
 title: SetValuesFormatCode Method 
 linktitle: SetValuesFormatCode
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetValuesFormatCode method. Encapsulates the function that represents setvaluesformatcode in Go.'
 type: docs
 weight: 200

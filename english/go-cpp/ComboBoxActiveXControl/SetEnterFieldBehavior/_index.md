@@ -1,7 +1,7 @@
 ---
 title: SetEnterFieldBehavior Method 
 linktitle: SetEnterFieldBehavior
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetEnterFieldBehavior method. Encapsulates the function that represents setenterfieldbehavior in Go.'
 type: docs
 weight: 200

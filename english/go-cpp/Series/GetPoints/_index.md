@@ -1,7 +1,7 @@
 ---
 title: GetPoints Method 
 linktitle: GetPoints
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetPoints method. Encapsulates the function that represents getpoints in Go.'
 type: docs
 weight: 200

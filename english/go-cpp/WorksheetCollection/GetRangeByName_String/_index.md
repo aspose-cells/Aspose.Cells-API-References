@@ -1,7 +1,7 @@
 ---
 title: GetRangeByName_String Method 
 linktitle: GetRangeByName
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetRangeByName_String method. Encapsulates the function that represents getrangebyname in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: SetSchemeType Method 
 linktitle: SetSchemeType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetSchemeType method. Encapsulates the function that represents setschemetype in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: SetStartIndex Method 
 linktitle: SetStartIndex
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetStartIndex method. Encapsulates the function that represents setstartindex in Go.'
 type: docs
 weight: 200
