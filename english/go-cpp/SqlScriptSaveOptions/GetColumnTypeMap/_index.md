@@ -1,7 +1,7 @@
 ---
 title: GetColumnTypeMap Method 
 linktitle: GetColumnTypeMap
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetColumnTypeMap method. Encapsulates the function that represents getcolumntypemap in Go.'
 type: docs
 weight: 200

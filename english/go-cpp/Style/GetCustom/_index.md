@@ -1,7 +1,7 @@
 ---
 title: GetCustom Method 
 linktitle: GetCustom
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetCustom method. Encapsulates the function that represents getcustom in Go.'
 type: docs
 weight: 200

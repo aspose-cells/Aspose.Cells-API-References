@@ -1,7 +1,7 @@
 ---
 title: RevisionMergeConflict Class 
 linktitle: RevisionMergeConflict
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'RevisionMergeConflict class. Encapsulates the object that represents revisionmergeconflict in Go.'
 type: docs
 weight: 200

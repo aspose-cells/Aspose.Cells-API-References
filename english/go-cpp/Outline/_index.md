@@ -1,7 +1,7 @@
 ---
 title: Outline Class 
 linktitle: Outline
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'Outline class. Encapsulates the object that represents outline in Go.'
 type: docs
 weight: 200

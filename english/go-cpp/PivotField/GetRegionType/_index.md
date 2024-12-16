@@ -1,7 +1,7 @@
 ---
 title: GetRegionType Method 
 linktitle: GetRegionType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetRegionType method. Encapsulates the function that represents getregiontype in Go.'
 type: docs
 weight: 200

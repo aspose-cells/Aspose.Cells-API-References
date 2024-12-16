@@ -1,7 +1,7 @@
 ---
 title: OdsLoadOptions Constructor 
 linktitle: OdsLoadOptions
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'OdsLoadOptions constructor. Encapsulates the function that represents newodsloadoptions in Go.'
 type: docs
 weight: 200

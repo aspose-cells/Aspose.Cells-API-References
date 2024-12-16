@@ -1,7 +1,7 @@
 ---
 title: AddCheckBox Method 
 linktitle: AddCheckBox
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'AddCheckBox method. Encapsulates the function that represents addcheckbox in Go.'
 type: docs
 weight: 200

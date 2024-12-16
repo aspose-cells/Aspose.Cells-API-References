@@ -1,7 +1,7 @@
 ---
 title: XmlMap Class 
 linktitle: XmlMap
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'XmlMap class. Encapsulates the object that represents xmlmap in Go.'
 type: docs
 weight: 200

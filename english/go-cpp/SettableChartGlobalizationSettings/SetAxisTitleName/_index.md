@@ -1,7 +1,7 @@
 ---
 title: SetAxisTitleName Method 
 linktitle: SetAxisTitleName
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetAxisTitleName method. Encapsulates the function that represents setaxistitlename in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: SetExportViewType Method 
 linktitle: SetExportViewType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetExportViewType method. Encapsulates the function that represents setexportviewtype in Go.'
 type: docs
 weight: 200

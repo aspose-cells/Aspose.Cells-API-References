@@ -1,7 +1,7 @@
 ---
 title: CellsFactory Constructor 
 linktitle: CellsFactory
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'CellsFactory constructor. Encapsulates the function that represents newcellsfactory in Go.'
 type: docs
 weight: 200

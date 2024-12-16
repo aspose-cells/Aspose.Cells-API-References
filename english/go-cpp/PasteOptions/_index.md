@@ -1,7 +1,7 @@
 ---
 title: PasteOptions Class 
 linktitle: PasteOptions
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'PasteOptions class. Encapsulates the object that represents pasteoptions in Go.'
 type: docs
 weight: 200

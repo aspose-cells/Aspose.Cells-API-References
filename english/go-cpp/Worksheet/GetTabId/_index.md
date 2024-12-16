@@ -1,7 +1,7 @@
 ---
 title: GetTabId Method 
 linktitle: GetTabId
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetTabId method. Encapsulates the function that represents gettabid in Go.'
 type: docs
 weight: 200

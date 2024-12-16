@@ -1,7 +1,7 @@
 ---
 title: TextNodeType Enum 
 linktitle: TextNodeType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'TextNodeType enum. Encapsulates the object that represents textnodetype in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: SetIsCollapsed Method 
 linktitle: SetIsCollapsed
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetIsCollapsed method. Encapsulates the function that represents setiscollapsed in Go.'
 type: docs
 weight: 200

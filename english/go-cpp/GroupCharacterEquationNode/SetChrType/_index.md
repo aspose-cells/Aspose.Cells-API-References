@@ -1,7 +1,7 @@
 ---
 title: SetChrType Method 
 linktitle: SetChrType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetChrType method. Encapsulates the function that represents setchrtype in Go.'
 type: docs
 weight: 200

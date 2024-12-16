@@ -1,7 +1,7 @@
 ---
 title: CopyColumn Method 
 linktitle: CopyColumn
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'CopyColumn method. Encapsulates the function that represents copycolumn in Go.'
 type: docs
 weight: 200

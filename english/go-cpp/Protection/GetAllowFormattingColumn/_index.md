@@ -1,7 +1,7 @@
 ---
 title: GetAllowFormattingColumn Method 
 linktitle: GetAllowFormattingColumn
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetAllowFormattingColumn method. Encapsulates the function that represents getallowformattingcolumn in Go.'
 type: docs
 weight: 200

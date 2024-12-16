@@ -1,7 +1,7 @@
 ---
 title: SetOwnerPassword Method 
 linktitle: SetOwnerPassword
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetOwnerPassword method. Encapsulates the function that represents setownerpassword in Go.'
 type: docs
 weight: 200

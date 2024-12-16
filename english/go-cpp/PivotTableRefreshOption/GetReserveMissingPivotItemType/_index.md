@@ -1,7 +1,7 @@
 ---
 title: GetReserveMissingPivotItemType Method 
 linktitle: GetReserveMissingPivotItemType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetReserveMissingPivotItemType method. Encapsulates the function that represents getreservemissingpivotitemtype in Go.'
 type: docs
 weight: 200

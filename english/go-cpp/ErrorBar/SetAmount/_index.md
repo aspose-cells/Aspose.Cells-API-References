@@ -1,7 +1,7 @@
 ---
 title: SetAmount Method 
 linktitle: SetAmount
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetAmount method. Encapsulates the function that represents setamount in Go.'
 type: docs
 weight: 200

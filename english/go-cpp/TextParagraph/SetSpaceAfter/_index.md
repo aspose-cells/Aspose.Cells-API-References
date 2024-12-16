@@ -1,7 +1,7 @@
 ---
 title: SetSpaceAfter Method 
 linktitle: SetSpaceAfter
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetSpaceAfter method. Encapsulates the function that represents setspaceafter in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetBottomMarginPt Method 
 linktitle: GetBottomMarginPt
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetBottomMarginPt method. Encapsulates the function that represents getbottommarginpt in Go.'
 type: docs
 weight: 200

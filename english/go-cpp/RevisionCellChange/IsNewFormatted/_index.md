@@ -1,7 +1,7 @@
 ---
 title: IsNewFormatted Method 
 linktitle: IsNewFormatted
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsNewFormatted method. Encapsulates the function that represents isnewformatted in Go.'
 type: docs
 weight: 200

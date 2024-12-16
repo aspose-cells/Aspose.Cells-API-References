@@ -1,7 +1,7 @@
 ---
 title: ShapePathType Enum 
 linktitle: ShapePathType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ShapePathType enum. Encapsulates the object that represents shapepathtype in Go.'
 type: docs
 weight: 200

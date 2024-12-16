@@ -1,7 +1,7 @@
 ---
 title: SetMatchColor Method 
 linktitle: SetMatchColor
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetMatchColor method. Encapsulates the function that represents setmatchcolor in Go.'
 type: docs
 weight: 200

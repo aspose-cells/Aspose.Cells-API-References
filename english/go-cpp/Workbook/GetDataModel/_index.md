@@ -1,7 +1,7 @@
 ---
 title: GetDataModel Method 
 linktitle: GetDataModel
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetDataModel method. Encapsulates the function that represents getdatamodel in Go.'
 type: docs
 weight: 200

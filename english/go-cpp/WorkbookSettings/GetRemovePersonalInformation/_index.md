@@ -1,7 +1,7 @@
 ---
 title: GetRemovePersonalInformation Method 
 linktitle: GetRemovePersonalInformation
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetRemovePersonalInformation method. Encapsulates the function that represents getremovepersonalinformation in Go.'
 type: docs
 weight: 200

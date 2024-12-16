@@ -1,7 +1,7 @@
 ---
 title: GetDefaultX Method 
 linktitle: GetDefaultX
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetDefaultX method. Encapsulates the function that represents getdefaultx in Go.'
 type: docs
 weight: 200

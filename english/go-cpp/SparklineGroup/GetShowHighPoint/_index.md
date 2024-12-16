@@ -1,7 +1,7 @@
 ---
 title: GetShowHighPoint Method 
 linktitle: GetShowHighPoint
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetShowHighPoint method. Encapsulates the function that represents getshowhighpoint in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: SetIconId Method 
 linktitle: SetIconId
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetIconId method. Encapsulates the function that represents seticonid in Go.'
 type: docs
 weight: 200

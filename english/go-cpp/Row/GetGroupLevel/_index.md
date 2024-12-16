@@ -1,7 +1,7 @@
 ---
 title: GetGroupLevel Method 
 linktitle: GetGroupLevel
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetGroupLevel method. Encapsulates the function that represents getgrouplevel in Go.'
 type: docs
 weight: 200

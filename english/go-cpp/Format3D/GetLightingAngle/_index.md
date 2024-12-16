@@ -1,7 +1,7 @@
 ---
 title: GetLightingAngle Method 
 linktitle: GetLightingAngle
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetLightingAngle method. Encapsulates the function that represents getlightingangle in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: SetOtherName Method 
 linktitle: SetOtherName
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetOtherName method. Encapsulates the function that represents setothername in Go.'
 type: docs
 weight: 200

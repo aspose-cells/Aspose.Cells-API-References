@@ -1,7 +1,7 @@
 ---
 title: SetShowDataTips Method 
 linktitle: SetShowDataTips
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetShowDataTips method. Encapsulates the function that represents setshowdatatips in Go.'
 type: docs
 weight: 200

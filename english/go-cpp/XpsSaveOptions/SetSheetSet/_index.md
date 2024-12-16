@@ -1,7 +1,7 @@
 ---
 title: SetSheetSet Method 
 linktitle: SetSheetSet
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetSheetSet method. Encapsulates the function that represents setsheetset in Go.'
 type: docs
 weight: 200

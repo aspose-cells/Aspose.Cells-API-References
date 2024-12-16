@@ -1,7 +1,7 @@
 ---
 title: ValidationType Enum 
 linktitle: ValidationType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ValidationType enum. Encapsulates the object that represents validationtype in Go.'
 type: docs
 weight: 200

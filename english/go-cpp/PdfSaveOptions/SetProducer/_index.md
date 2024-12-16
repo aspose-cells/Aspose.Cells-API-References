@@ -1,7 +1,7 @@
 ---
 title: SetProducer Method 
 linktitle: SetProducer
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetProducer method. Encapsulates the function that represents setproducer in Go.'
 type: docs
 weight: 200

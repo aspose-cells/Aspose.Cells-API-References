@@ -1,7 +1,7 @@
 ---
 title: GetAddTooltipText Method 
 linktitle: GetAddTooltipText
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetAddTooltipText method. Encapsulates the function that represents getaddtooltiptext in Go.'
 type: docs
 weight: 200

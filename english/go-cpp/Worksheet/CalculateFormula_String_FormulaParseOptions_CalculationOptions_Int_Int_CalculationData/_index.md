@@ -1,7 +1,7 @@
 ---
 title: CalculateFormula_String_FormulaParseOptions_CalculationOptions_Int_Int_CalculationData Method 
 linktitle: CalculateFormula
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'CalculateFormula_String_FormulaParseOptions_CalculationOptions_Int_Int_CalculationData method. Encapsulates the function that represents calculateformula in Go.'
 type: docs
 weight: 200

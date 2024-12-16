@@ -1,7 +1,7 @@
 ---
 title: SetDistance Method 
 linktitle: SetDistance
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetDistance method. Encapsulates the function that represents setdistance in Go.'
 type: docs
 weight: 200

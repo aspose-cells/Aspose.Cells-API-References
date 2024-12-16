@@ -1,7 +1,7 @@
 ---
 title: SetSignTime Method 
 linktitle: SetSignTime
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetSignTime method. Encapsulates the function that represents setsigntime in Go.'
 type: docs
 weight: 200

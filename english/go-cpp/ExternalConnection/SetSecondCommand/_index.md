@@ -1,7 +1,7 @@
 ---
 title: SetSecondCommand Method 
 linktitle: SetSecondCommand
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetSecondCommand method. Encapsulates the function that represents setsecondcommand in Go.'
 type: docs
 weight: 200

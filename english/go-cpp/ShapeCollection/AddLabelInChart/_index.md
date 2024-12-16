@@ -1,7 +1,7 @@
 ---
 title: AddLabelInChart Method 
 linktitle: AddLabelInChart
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'AddLabelInChart method. Encapsulates the function that represents addlabelinchart in Go.'
 type: docs
 weight: 200

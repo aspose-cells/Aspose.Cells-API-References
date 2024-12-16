@@ -1,7 +1,7 @@
 ---
 title: IsInt32 Method 
 linktitle: IsInt32
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsInt32 method. Encapsulates the function that represents isint32 in Go.'
 type: docs
 weight: 200

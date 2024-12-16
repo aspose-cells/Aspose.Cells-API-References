@@ -1,7 +1,7 @@
 ---
 title: SetAngle Method 
 linktitle: SetAngle
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetAngle method. Encapsulates the function that represents setangle in Go.'
 type: docs
 weight: 200

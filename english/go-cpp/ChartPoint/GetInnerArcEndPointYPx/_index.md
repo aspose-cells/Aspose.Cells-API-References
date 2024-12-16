@@ -1,7 +1,7 @@
 ---
 title: GetInnerArcEndPointYPx Method 
 linktitle: GetInnerArcEndPointYPx
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetInnerArcEndPointYPx method. Encapsulates the function that represents getinnerarcendpointypx in Go.'
 type: docs
 weight: 200

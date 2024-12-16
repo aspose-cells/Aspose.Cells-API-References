@@ -1,7 +1,7 @@
 ---
 title: GetBar3DShapeType Method 
 linktitle: GetBar3DShapeType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetBar3DShapeType method. Encapsulates the function that represents getbar3dshapetype in Go.'
 type: docs
 weight: 200

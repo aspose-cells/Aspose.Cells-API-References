@@ -1,7 +1,7 @@
 ---
 title: IsFrozen Method 
 linktitle: IsFrozen
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsFrozen method. Encapsulates the function that represents isfrozen in Go.'
 type: docs
 weight: 200

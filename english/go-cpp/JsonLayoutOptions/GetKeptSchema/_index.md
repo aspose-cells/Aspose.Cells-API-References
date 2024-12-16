@@ -1,7 +1,7 @@
 ---
 title: GetKeptSchema Method 
 linktitle: GetKeptSchema
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetKeptSchema method. Encapsulates the function that represents getkeptschema in Go.'
 type: docs
 weight: 200

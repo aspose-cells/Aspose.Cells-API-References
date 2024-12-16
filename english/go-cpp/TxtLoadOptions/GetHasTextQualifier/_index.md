@@ -1,7 +1,7 @@
 ---
 title: GetHasTextQualifier Method 
 linktitle: GetHasTextQualifier
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetHasTextQualifier method. Encapsulates the function that represents gethastextqualifier in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: SetNameOfApplication Method 
 linktitle: SetNameOfApplication
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetNameOfApplication method. Encapsulates the function that represents setnameofapplication in Go.'
 type: docs
 weight: 200

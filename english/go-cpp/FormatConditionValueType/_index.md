@@ -1,7 +1,7 @@
 ---
 title: FormatConditionValueType Enum 
 linktitle: FormatConditionValueType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'FormatConditionValueType enum. Encapsulates the object that represents formatconditionvaluetype in Go.'
 type: docs
 weight: 200

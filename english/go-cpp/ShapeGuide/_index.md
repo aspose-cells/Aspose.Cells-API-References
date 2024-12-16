@@ -1,7 +1,7 @@
 ---
 title: ShapeGuide Class 
 linktitle: ShapeGuide
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ShapeGuide class. Encapsulates the object that represents shapeguide in Go.'
 type: docs
 weight: 200

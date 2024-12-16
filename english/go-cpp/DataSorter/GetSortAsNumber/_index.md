@@ -1,7 +1,7 @@
 ---
 title: GetSortAsNumber Method 
 linktitle: GetSortAsNumber
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetSortAsNumber method. Encapsulates the function that represents getsortasnumber in Go.'
 type: docs
 weight: 200

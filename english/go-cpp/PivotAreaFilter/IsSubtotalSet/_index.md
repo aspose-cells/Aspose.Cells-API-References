@@ -1,7 +1,7 @@
 ---
 title: IsSubtotalSet Method 
 linktitle: IsSubtotalSet
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsSubtotalSet method. Encapsulates the function that represents issubtotalset in Go.'
 type: docs
 weight: 200

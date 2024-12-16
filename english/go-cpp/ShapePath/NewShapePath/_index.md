@@ -1,7 +1,7 @@
 ---
 title: ShapePath Constructor 
 linktitle: ShapePath
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ShapePath constructor. Encapsulates the function that represents newshapepath in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: IsXml Method 
 linktitle: IsXml
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsXml method. Encapsulates the function that represents isxml in Go.'
 type: docs
 weight: 200

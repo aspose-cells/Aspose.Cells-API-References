@@ -1,7 +1,7 @@
 ---
 title: SetBaseJc Method 
 linktitle: SetBaseJc
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetBaseJc method. Encapsulates the function that represents setbasejc in Go.'
 type: docs
 weight: 200

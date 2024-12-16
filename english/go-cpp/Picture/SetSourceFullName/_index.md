@@ -1,7 +1,7 @@
 ---
 title: SetSourceFullName Method 
 linktitle: SetSourceFullName
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetSourceFullName method. Encapsulates the function that represents setsourcefullname in Go.'
 type: docs
 weight: 200

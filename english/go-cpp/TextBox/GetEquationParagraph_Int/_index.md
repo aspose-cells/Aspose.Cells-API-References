@@ -1,7 +1,7 @@
 ---
 title: GetEquationParagraph_Int Method 
 linktitle: GetEquationParagraph
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetEquationParagraph_Int method. Encapsulates the function that represents getequationparagraph in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: SetRowHeightPixel Method 
 linktitle: SetRowHeightPixel
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetRowHeightPixel method. Encapsulates the function that represents setrowheightpixel in Go.'
 type: docs
 weight: 200

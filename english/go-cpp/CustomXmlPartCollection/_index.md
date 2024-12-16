@@ -1,7 +1,7 @@
 ---
 title: CustomXmlPartCollection Class 
 linktitle: CustomXmlPartCollection
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'CustomXmlPartCollection class. Encapsulates the object that represents customxmlpartcollection in Go.'
 type: docs
 weight: 200

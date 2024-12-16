@@ -1,7 +1,7 @@
 ---
 title: IsAutomaticColor Method 
 linktitle: IsAutomaticColor
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsAutomaticColor method. Encapsulates the function that represents isautomaticcolor in Go.'
 type: docs
 weight: 200

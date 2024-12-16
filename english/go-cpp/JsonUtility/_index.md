@@ -1,7 +1,7 @@
 ---
 title: JsonUtility Class 
 linktitle: JsonUtility
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'JsonUtility class. Encapsulates the object that represents jsonutility in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetOrder1 Method 
 linktitle: GetOrder1
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetOrder1 method. Encapsulates the function that represents getorder1 in Go.'
 type: docs
 weight: 200

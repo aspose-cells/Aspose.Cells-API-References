@@ -1,7 +1,7 @@
 ---
 title: SetIsNameAuto Method 
 linktitle: SetIsNameAuto
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetIsNameAuto method. Encapsulates the function that represents setisnameauto in Go.'
 type: docs
 weight: 200

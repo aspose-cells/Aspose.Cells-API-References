@@ -1,7 +1,7 @@
 ---
 title: SetBackward Method 
 linktitle: SetBackward
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetBackward method. Encapsulates the function that represents setbackward in Go.'
 type: docs
 weight: 200

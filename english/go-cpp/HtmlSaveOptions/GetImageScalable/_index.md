@@ -1,7 +1,7 @@
 ---
 title: GetImageScalable Method 
 linktitle: GetImageScalable
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetImageScalable method. Encapsulates the function that represents getimagescalable in Go.'
 type: docs
 weight: 200

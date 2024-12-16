@@ -1,7 +1,7 @@
 ---
 title: InsertOptions Constructor 
 linktitle: InsertOptions
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'InsertOptions constructor. Encapsulates the function that represents newinsertoptions in Go.'
 type: docs
 weight: 200

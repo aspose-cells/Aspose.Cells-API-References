@@ -1,7 +1,7 @@
 ---
 title: SetIndent Method 
 linktitle: SetIndent
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetIndent method. Encapsulates the function that represents setindent in Go.'
 type: docs
 weight: 200

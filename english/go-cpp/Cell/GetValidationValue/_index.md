@@ -1,7 +1,7 @@
 ---
 title: GetValidationValue Method 
 linktitle: GetValidationValue
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetValidationValue method. Encapsulates the function that represents getvalidationvalue in Go.'
 type: docs
 weight: 200

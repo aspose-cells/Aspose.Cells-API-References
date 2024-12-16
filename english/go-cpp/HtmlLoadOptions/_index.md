@@ -1,7 +1,7 @@
 ---
 title: HtmlLoadOptions Class 
 linktitle: HtmlLoadOptions
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'HtmlLoadOptions class. Encapsulates the object that represents htmlloadoptions in Go.'
 type: docs
 weight: 200

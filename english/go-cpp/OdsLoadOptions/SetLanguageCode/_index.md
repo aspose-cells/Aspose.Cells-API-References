@@ -1,7 +1,7 @@
 ---
 title: SetLanguageCode Method 
 linktitle: SetLanguageCode
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetLanguageCode method. Encapsulates the function that represents setlanguagecode in Go.'
 type: docs
 weight: 200

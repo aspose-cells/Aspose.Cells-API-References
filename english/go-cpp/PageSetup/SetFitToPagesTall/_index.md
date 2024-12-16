@@ -1,7 +1,7 @@
 ---
 title: SetFitToPagesTall Method 
 linktitle: SetFitToPagesTall
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetFitToPagesTall method. Encapsulates the function that represents setfittopagestall in Go.'
 type: docs
 weight: 200

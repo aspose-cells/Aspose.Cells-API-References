@@ -1,10 +1,10 @@
 ---
-title: Aspose.Cells for Go
-linktitle: Aspose.Cells for Go
+title: Aspose.Cells for Go via C++
+linktitle: Aspose.Cells for Go via C++
 type: docs
 weight: 10
 url: /go-cpp/
-keywords: "Aspose.Cells for Go, Aspose Cells, Aspose API Reference."
+keywords: "Aspose.Cells for Go via C++, Aspose Cells, Aspose API Reference."
 description: "Aspose.Cells is a class library that can be used by developers for various platforms for a variety of document processing tasks."
 is_root: true
 ---

@@ -1,7 +1,7 @@
 ---
 title: GetPictureFormatType Method 
 linktitle: GetPictureFormatType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetPictureFormatType method. Encapsulates the function that represents getpictureformattype in Go.'
 type: docs
 weight: 200

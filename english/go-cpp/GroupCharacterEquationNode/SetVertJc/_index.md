@@ -1,7 +1,7 @@
 ---
 title: SetVertJc Method 
 linktitle: SetVertJc
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetVertJc method. Encapsulates the function that represents setvertjc in Go.'
 type: docs
 weight: 200

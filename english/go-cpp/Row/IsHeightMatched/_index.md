@@ -1,7 +1,7 @@
 ---
 title: IsHeightMatched Method 
 linktitle: IsHeightMatched
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsHeightMatched method. Encapsulates the function that represents isheightmatched in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: SetCategoryData Method 
 linktitle: SetCategoryData
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetCategoryData method. Encapsulates the function that represents setcategorydata in Go.'
 type: docs
 weight: 200

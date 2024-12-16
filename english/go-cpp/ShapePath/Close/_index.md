@@ -1,7 +1,7 @@
 ---
 title: Close Method 
 linktitle: Close
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'Close method. Encapsulates the function that represents close in Go.'
 type: docs
 weight: 200

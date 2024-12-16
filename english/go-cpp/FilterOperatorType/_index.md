@@ -1,7 +1,7 @@
 ---
 title: FilterOperatorType Enum 
 linktitle: FilterOperatorType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'FilterOperatorType enum. Encapsulates the object that represents filteroperatortype in Go.'
 type: docs
 weight: 200

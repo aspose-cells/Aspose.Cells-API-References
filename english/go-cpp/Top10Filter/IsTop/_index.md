@@ -1,7 +1,7 @@
 ---
 title: IsTop Method 
 linktitle: IsTop
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsTop method. Encapsulates the function that represents istop in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: SetSkipEmptyRows Method 
 linktitle: SetSkipEmptyRows
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetSkipEmptyRows method. Encapsulates the function that represents setskipemptyrows in Go.'
 type: docs
 weight: 200

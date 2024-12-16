@@ -1,7 +1,7 @@
 ---
 title: GetWorksheets Method 
 linktitle: GetWorksheets
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetWorksheets method. Encapsulates the function that represents getworksheets in Go.'
 type: docs
 weight: 200

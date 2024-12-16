@@ -1,7 +1,7 @@
 ---
 title: UnhideRow Method 
 linktitle: UnhideRow
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'UnhideRow method. Encapsulates the function that represents unhiderow in Go.'
 type: docs
 weight: 200

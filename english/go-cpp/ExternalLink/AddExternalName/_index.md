@@ -1,7 +1,7 @@
 ---
 title: AddExternalName Method 
 linktitle: AddExternalName
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'AddExternalName method. Encapsulates the function that represents addexternalname in Go.'
 type: docs
 weight: 200

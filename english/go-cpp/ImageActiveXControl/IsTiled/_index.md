@@ -1,7 +1,7 @@
 ---
 title: IsTiled Method 
 linktitle: IsTiled
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsTiled method. Encapsulates the function that represents istiled in Go.'
 type: docs
 weight: 200

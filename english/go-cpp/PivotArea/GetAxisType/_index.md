@@ -1,7 +1,7 @@
 ---
 title: GetAxisType Method 
 linktitle: GetAxisType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetAxisType method. Encapsulates the function that represents getaxistype in Go.'
 type: docs
 weight: 200

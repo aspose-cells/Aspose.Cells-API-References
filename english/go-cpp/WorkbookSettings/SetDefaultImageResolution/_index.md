@@ -1,7 +1,7 @@
 ---
 title: SetDefaultImageResolution Method 
 linktitle: SetDefaultImageResolution
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetDefaultImageResolution method. Encapsulates the function that represents setdefaultimageresolution in Go.'
 type: docs
 weight: 200

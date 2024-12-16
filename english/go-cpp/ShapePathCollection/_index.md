@@ -1,7 +1,7 @@
 ---
 title: ShapePathCollection Class 
 linktitle: ShapePathCollection
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ShapePathCollection class. Encapsulates the object that represents shapepathcollection in Go.'
 type: docs
 weight: 200

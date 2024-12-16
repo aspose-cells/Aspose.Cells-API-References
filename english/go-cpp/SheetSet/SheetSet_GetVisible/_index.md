@@ -1,7 +1,7 @@
 ---
 title: SheetSet_GetVisible Method 
 linktitle: GetVisible
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SheetSet_GetVisible method. Encapsulates the function that represents getvisible in Go.'
 type: docs
 weight: 200

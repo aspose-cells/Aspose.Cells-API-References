@@ -1,7 +1,7 @@
 ---
 title: GetMonth Method 
 linktitle: GetMonth
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetMonth method. Encapsulates the function that represents getmonth in Go.'
 type: docs
 weight: 200

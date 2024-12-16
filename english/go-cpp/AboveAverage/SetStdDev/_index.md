@@ -1,7 +1,7 @@
 ---
 title: SetStdDev Method 
 linktitle: SetStdDev
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetStdDev method. Encapsulates the function that represents setstddev in Go.'
 type: docs
 weight: 200

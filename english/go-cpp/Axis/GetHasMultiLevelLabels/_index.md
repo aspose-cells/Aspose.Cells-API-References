@@ -1,7 +1,7 @@
 ---
 title: GetHasMultiLevelLabels Method 
 linktitle: GetHasMultiLevelLabels
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetHasMultiLevelLabels method. Encapsulates the function that represents gethasmultilevellabels in Go.'
 type: docs
 weight: 200

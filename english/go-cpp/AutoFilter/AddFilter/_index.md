@@ -1,7 +1,7 @@
 ---
 title: AddFilter Method 
 linktitle: AddFilter
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'AddFilter method. Encapsulates the function that represents addfilter in Go.'
 type: docs
 weight: 200

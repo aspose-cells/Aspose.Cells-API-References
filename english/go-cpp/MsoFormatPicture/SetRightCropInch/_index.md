@@ -1,7 +1,7 @@
 ---
 title: SetRightCropInch Method 
 linktitle: SetRightCropInch
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetRightCropInch method. Encapsulates the function that represents setrightcropinch in Go.'
 type: docs
 weight: 200

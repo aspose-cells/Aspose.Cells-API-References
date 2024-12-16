@@ -1,7 +1,7 @@
 ---
 title: GetConnectionName Method 
 linktitle: GetConnectionName
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetConnectionName method. Encapsulates the function that represents getconnectionname in Go.'
 type: docs
 weight: 200

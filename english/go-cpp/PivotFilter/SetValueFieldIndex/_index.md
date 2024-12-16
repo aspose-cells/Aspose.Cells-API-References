@@ -1,7 +1,7 @@
 ---
 title: SetValueFieldIndex Method 
 linktitle: SetValueFieldIndex
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetValueFieldIndex method. Encapsulates the function that represents setvaluefieldindex in Go.'
 type: docs
 weight: 200

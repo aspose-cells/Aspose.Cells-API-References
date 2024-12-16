@@ -1,7 +1,7 @@
 ---
 title: SetCurrentValue Method 
 linktitle: SetCurrentValue
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetCurrentValue method. Encapsulates the function that represents setcurrentvalue in Go.'
 type: docs
 weight: 200

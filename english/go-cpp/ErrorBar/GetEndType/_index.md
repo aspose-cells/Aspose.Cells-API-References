@@ -1,7 +1,7 @@
 ---
 title: GetEndType Method 
 linktitle: GetEndType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetEndType method. Encapsulates the function that represents getendtype in Go.'
 type: docs
 weight: 200

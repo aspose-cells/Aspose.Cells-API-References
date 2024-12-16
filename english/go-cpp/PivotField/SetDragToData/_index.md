@@ -1,7 +1,7 @@
 ---
 title: SetDragToData Method 
 linktitle: SetDragToData
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetDragToData method. Encapsulates the function that represents setdragtodata in Go.'
 type: docs
 weight: 200

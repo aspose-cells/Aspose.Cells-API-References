@@ -1,7 +1,7 @@
 ---
 title: GetEditWebPage Method 
 linktitle: GetEditWebPage
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetEditWebPage method. Encapsulates the function that represents geteditwebpage in Go.'
 type: docs
 weight: 200

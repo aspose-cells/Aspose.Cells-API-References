@@ -1,7 +1,7 @@
 ---
 title: SetAllowEditingObject Method 
 linktitle: SetAllowEditingObject
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetAllowEditingObject method. Encapsulates the function that represents setalloweditingobject in Go.'
 type: docs
 weight: 200

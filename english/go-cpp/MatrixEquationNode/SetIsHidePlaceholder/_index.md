@@ -1,7 +1,7 @@
 ---
 title: SetIsHidePlaceholder Method 
 linktitle: SetIsHidePlaceholder
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetIsHidePlaceholder method. Encapsulates the function that represents setishideplaceholder in Go.'
 type: docs
 weight: 200

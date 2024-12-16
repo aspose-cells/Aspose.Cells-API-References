@@ -1,7 +1,7 @@
 ---
 title: QueryTableCollection Class 
 linktitle: QueryTableCollection
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'QueryTableCollection class. Encapsulates the object that represents querytablecollection in Go.'
 type: docs
 weight: 200

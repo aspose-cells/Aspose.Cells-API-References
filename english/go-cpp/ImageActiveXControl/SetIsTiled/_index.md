@@ -1,7 +1,7 @@
 ---
 title: SetIsTiled Method 
 linktitle: SetIsTiled
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetIsTiled method. Encapsulates the function that represents setistiled in Go.'
 type: docs
 weight: 200

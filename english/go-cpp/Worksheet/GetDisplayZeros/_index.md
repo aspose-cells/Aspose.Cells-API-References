@@ -1,7 +1,7 @@
 ---
 title: GetDisplayZeros Method 
 linktitle: GetDisplayZeros
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetDisplayZeros method. Encapsulates the function that represents getdisplayzeros in Go.'
 type: docs
 weight: 200

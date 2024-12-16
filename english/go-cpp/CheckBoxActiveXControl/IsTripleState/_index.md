@@ -1,7 +1,7 @@
 ---
 title: IsTripleState Method 
 linktitle: IsTripleState
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsTripleState method. Encapsulates the function that represents istriplestate in Go.'
 type: docs
 weight: 200

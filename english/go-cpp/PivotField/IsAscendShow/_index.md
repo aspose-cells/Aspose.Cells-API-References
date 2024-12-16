@@ -1,7 +1,7 @@
 ---
 title: IsAscendShow Method 
 linktitle: IsAscendShow
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsAscendShow method. Encapsulates the function that represents isascendshow in Go.'
 type: docs
 weight: 200

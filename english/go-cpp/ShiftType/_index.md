@@ -1,7 +1,7 @@
 ---
 title: ShiftType Enum 
 linktitle: ShiftType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ShiftType enum. Encapsulates the object that represents shifttype in Go.'
 type: docs
 weight: 200

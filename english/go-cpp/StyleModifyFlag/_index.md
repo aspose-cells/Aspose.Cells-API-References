@@ -1,7 +1,7 @@
 ---
 title: StyleModifyFlag Enum 
 linktitle: StyleModifyFlag
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'StyleModifyFlag enum. Encapsulates the object that represents stylemodifyflag in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetShapeAdjustValues Method 
 linktitle: GetShapeAdjustValues
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetShapeAdjustValues method. Encapsulates the function that represents getshapeadjustvalues in Go.'
 type: docs
 weight: 200

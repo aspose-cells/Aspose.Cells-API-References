@@ -1,7 +1,7 @@
 ---
 title: GetMeasureCubeFieldIndex Method 
 linktitle: GetMeasureCubeFieldIndex
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetMeasureCubeFieldIndex method. Encapsulates the function that represents getmeasurecubefieldindex in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: AddDataAreaCondition_String Method 
 linktitle: AddDataAreaCondition
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'AddDataAreaCondition_String method. Encapsulates the function that represents adddataareacondition in Go.'
 type: docs
 weight: 200

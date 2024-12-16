@@ -1,7 +1,7 @@
 ---
 title: GetCalculationMode Method 
 linktitle: GetCalculationMode
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetCalculationMode method. Encapsulates the function that represents getcalculationmode in Go.'
 type: docs
 weight: 200

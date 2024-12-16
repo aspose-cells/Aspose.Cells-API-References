@@ -1,7 +1,7 @@
 ---
 title: GetPatternFill Method 
 linktitle: GetPatternFill
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetPatternFill method. Encapsulates the function that represents getpatternfill in Go.'
 type: docs
 weight: 200

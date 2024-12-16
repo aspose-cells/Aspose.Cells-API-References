@@ -1,7 +1,7 @@
 ---
 title: FileFormatInfo Class 
 linktitle: FileFormatInfo
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'FileFormatInfo class. Encapsulates the object that represents fileformatinfo in Go.'
 type: docs
 weight: 200

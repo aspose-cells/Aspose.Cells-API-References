@@ -1,7 +1,7 @@
 ---
 title: ControlPicturePositionType Enum 
 linktitle: ControlPicturePositionType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ControlPicturePositionType enum. Encapsulates the object that represents controlpicturepositiontype in Go.'
 type: docs
 weight: 200

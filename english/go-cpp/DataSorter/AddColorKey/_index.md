@@ -1,7 +1,7 @@
 ---
 title: AddColorKey Method 
 linktitle: AddColorKey
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'AddColorKey method. Encapsulates the function that represents addcolorkey in Go.'
 type: docs
 weight: 200

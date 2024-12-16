@@ -1,7 +1,7 @@
 ---
 title: SetAlignments Method 
 linktitle: SetAlignments
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetAlignments method. Encapsulates the function that represents setalignments in Go.'
 type: docs
 weight: 200

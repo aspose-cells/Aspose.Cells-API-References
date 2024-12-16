@@ -1,7 +1,7 @@
 ---
 title: GetUnderflow Method 
 linktitle: GetUnderflow
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetUnderflow method. Encapsulates the function that represents getunderflow in Go.'
 type: docs
 weight: 200

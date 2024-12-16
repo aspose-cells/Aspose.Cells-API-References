@@ -1,7 +1,7 @@
 ---
 title: GetMaxChange Method 
 linktitle: GetMaxChange
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetMaxChange method. Encapsulates the function that represents getmaxchange in Go.'
 type: docs
 weight: 200

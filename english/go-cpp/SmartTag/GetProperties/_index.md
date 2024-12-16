@@ -1,7 +1,7 @@
 ---
 title: GetProperties Method 
 linktitle: GetProperties
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetProperties method. Encapsulates the function that represents getproperties in Go.'
 type: docs
 weight: 200

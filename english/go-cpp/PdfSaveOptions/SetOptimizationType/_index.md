@@ -1,7 +1,7 @@
 ---
 title: SetOptimizationType Method 
 linktitle: SetOptimizationType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetOptimizationType method. Encapsulates the function that represents setoptimizationtype in Go.'
 type: docs
 weight: 200

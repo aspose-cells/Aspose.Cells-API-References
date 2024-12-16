@@ -1,7 +1,7 @@
 ---
 title: SetLinksUpToDate Method 
 linktitle: SetLinksUpToDate
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetLinksUpToDate method. Encapsulates the function that represents setlinksuptodate in Go.'
 type: docs
 weight: 200

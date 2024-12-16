@@ -1,7 +1,7 @@
 ---
 title: GetListRows Method 
 linktitle: GetListRows
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetListRows method. Encapsulates the function that represents getlistrows in Go.'
 type: docs
 weight: 200

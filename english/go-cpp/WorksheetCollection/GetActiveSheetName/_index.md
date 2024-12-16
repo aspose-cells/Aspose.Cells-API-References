@@ -1,7 +1,7 @@
 ---
 title: GetActiveSheetName Method 
 linktitle: GetActiveSheetName
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetActiveSheetName method. Encapsulates the function that represents getactivesheetname in Go.'
 type: docs
 weight: 200

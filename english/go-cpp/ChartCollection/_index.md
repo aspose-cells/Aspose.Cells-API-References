@@ -1,7 +1,7 @@
 ---
 title: ChartCollection Class 
 linktitle: ChartCollection
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ChartCollection class. Encapsulates the object that represents chartcollection in Go.'
 type: docs
 weight: 200

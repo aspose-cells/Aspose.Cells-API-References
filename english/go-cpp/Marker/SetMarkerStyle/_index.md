@@ -1,7 +1,7 @@
 ---
 title: SetMarkerStyle Method 
 linktitle: SetMarkerStyle
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetMarkerStyle method. Encapsulates the function that represents setmarkerstyle in Go.'
 type: docs
 weight: 200

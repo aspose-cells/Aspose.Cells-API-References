@@ -1,7 +1,7 @@
 ---
 title: PaperSizeType Enum 
 linktitle: PaperSizeType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'PaperSizeType enum. Encapsulates the object that represents papersizetype in Go.'
 type: docs
 weight: 200

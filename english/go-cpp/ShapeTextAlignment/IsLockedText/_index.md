@@ -1,7 +1,7 @@
 ---
 title: IsLockedText Method 
 linktitle: IsLockedText
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsLockedText method. Encapsulates the function that represents islockedtext in Go.'
 type: docs
 weight: 200

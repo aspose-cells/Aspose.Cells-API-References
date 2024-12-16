@@ -1,7 +1,7 @@
 ---
 title: SetColumnWidth Method 
 linktitle: SetColumnWidth
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetColumnWidth method. Encapsulates the function that represents setcolumnwidth in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: SetTextOfColumnLabels Method 
 linktitle: SetTextOfColumnLabels
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetTextOfColumnLabels method. Encapsulates the function that represents settextofcolumnlabels in Go.'
 type: docs
 weight: 200

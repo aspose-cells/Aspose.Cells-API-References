@@ -1,7 +1,7 @@
 ---
 title: GetCheckBoxes Method 
 linktitle: GetCheckBoxes
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetCheckBoxes method. Encapsulates the function that represents getcheckboxes in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetTextOfYears Method 
 linktitle: GetTextOfYears
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetTextOfYears method. Encapsulates the function that represents gettextofyears in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetLabel Method 
 linktitle: GetLabel
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetLabel method. Encapsulates the function that represents getlabel in Go.'
 type: docs
 weight: 200

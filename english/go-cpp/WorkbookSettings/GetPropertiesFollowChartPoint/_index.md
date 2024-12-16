@@ -1,7 +1,7 @@
 ---
 title: GetPropertiesFollowChartPoint Method 
 linktitle: GetPropertiesFollowChartPoint
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetPropertiesFollowChartPoint method. Encapsulates the function that represents getpropertiesfollowchartpoint in Go.'
 type: docs
 weight: 200

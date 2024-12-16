@@ -1,7 +1,7 @@
 ---
 title: SetIsXmlMap Method 
 linktitle: SetIsXmlMap
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetIsXmlMap method. Encapsulates the function that represents setisxmlmap in Go.'
 type: docs
 weight: 200

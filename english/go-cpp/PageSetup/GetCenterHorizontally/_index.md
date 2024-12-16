@@ -1,7 +1,7 @@
 ---
 title: GetCenterHorizontally Method 
 linktitle: GetCenterHorizontally
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetCenterHorizontally method. Encapsulates the function that represents getcenterhorizontally in Go.'
 type: docs
 weight: 200

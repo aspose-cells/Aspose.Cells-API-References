@@ -1,7 +1,7 @@
 ---
 title: GetEmbedSmartTags Method 
 linktitle: GetEmbedSmartTags
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetEmbedSmartTags method. Encapsulates the function that represents getembedsmarttags in Go.'
 type: docs
 weight: 200

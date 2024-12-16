@@ -1,7 +1,7 @@
 ---
 title: HideGroupDetail Method 
 linktitle: HideGroupDetail
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'HideGroupDetail method. Encapsulates the function that represents hidegroupdetail in Go.'
 type: docs
 weight: 200

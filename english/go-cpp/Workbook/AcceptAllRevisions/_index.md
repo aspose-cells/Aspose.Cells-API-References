@@ -1,7 +1,7 @@
 ---
 title: AcceptAllRevisions Method 
 linktitle: AcceptAllRevisions
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'AcceptAllRevisions method. Encapsulates the function that represents acceptallrevisions in Go.'
 type: docs
 weight: 200

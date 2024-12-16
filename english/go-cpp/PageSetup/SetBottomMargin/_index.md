@@ -1,7 +1,7 @@
 ---
 title: SetBottomMargin Method 
 linktitle: SetBottomMargin
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetBottomMargin method. Encapsulates the function that represents setbottommargin in Go.'
 type: docs
 weight: 200

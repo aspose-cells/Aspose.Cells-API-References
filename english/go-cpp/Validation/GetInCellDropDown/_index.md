@@ -1,7 +1,7 @@
 ---
 title: GetInCellDropDown Method 
 linktitle: GetInCellDropDown
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetInCellDropDown method. Encapsulates the function that represents getincelldropdown in Go.'
 type: docs
 weight: 200

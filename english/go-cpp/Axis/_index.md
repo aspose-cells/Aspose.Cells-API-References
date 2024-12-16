@@ -1,7 +1,7 @@
 ---
 title: Axis Class 
 linktitle: Axis
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'Axis class. Encapsulates the object that represents axis in Go.'
 type: docs
 weight: 200

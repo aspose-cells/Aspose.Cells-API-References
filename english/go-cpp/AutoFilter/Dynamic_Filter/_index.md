@@ -1,7 +1,7 @@
 ---
 title: Dynamic_Filter Method 
 linktitle: Dynamic_Filter
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'Dynamic_Filter method. Encapsulates the function that represents dynamic_filter in Go.'
 type: docs
 weight: 200

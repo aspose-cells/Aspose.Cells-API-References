@@ -1,7 +1,7 @@
 ---
 title: EquationVerticalJustificationType Enum 
 linktitle: EquationVerticalJustificationType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'EquationVerticalJustificationType enum. Encapsulates the object that represents equationverticaljustificationtype in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetFormatConditions Method 
 linktitle: GetFormatConditions
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetFormatConditions method. Encapsulates the function that represents getformatconditions in Go.'
 type: docs
 weight: 200

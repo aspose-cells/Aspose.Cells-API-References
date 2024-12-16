@@ -1,7 +1,7 @@
 ---
 title: GetListValue Method 
 linktitle: GetListValue
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetListValue method. Encapsulates the function that represents getlistvalue in Go.'
 type: docs
 weight: 200

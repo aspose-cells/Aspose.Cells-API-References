@@ -1,7 +1,7 @@
 ---
 title: AddFloatingChart Method 
 linktitle: AddFloatingChart
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'AddFloatingChart method. Encapsulates the function that represents addfloatingchart in Go.'
 type: docs
 weight: 200

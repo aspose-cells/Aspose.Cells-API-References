@@ -1,7 +1,7 @@
 ---
 title: SetPivotSource Method 
 linktitle: SetPivotSource
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetPivotSource method. Encapsulates the function that represents setpivotsource in Go.'
 type: docs
 weight: 200

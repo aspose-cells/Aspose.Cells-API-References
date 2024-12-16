@@ -1,7 +1,7 @@
 ---
 title: CommandButtonActiveXControl Constructor 
 linktitle: CommandButtonActiveXControl
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'CommandButtonActiveXControl constructor. Encapsulates the function that represents newcommandbuttonactivexcontrol in Go.'
 type: docs
 weight: 200

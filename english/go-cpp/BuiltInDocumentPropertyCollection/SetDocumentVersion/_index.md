@@ -1,7 +1,7 @@
 ---
 title: SetDocumentVersion Method 
 linktitle: SetDocumentVersion
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetDocumentVersion method. Encapsulates the function that represents setdocumentversion in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: SetMarkerSize Method 
 linktitle: SetMarkerSize
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetMarkerSize method. Encapsulates the function that represents setmarkersize in Go.'
 type: docs
 weight: 200

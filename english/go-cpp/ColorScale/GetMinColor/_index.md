@@ -1,7 +1,7 @@
 ---
 title: GetMinColor Method 
 linktitle: GetMinColor
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetMinColor method. Encapsulates the function that represents getmincolor in Go.'
 type: docs
 weight: 200

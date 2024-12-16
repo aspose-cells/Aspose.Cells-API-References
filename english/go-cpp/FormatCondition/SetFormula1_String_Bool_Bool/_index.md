@@ -1,7 +1,7 @@
 ---
 title: SetFormula1_String_Bool_Bool Method 
 linktitle: SetFormula1
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetFormula1_String_Bool_Bool method. Encapsulates the function that represents setformula1 in Go.'
 type: docs
 weight: 200

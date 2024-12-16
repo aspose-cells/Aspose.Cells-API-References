@@ -1,7 +1,7 @@
 ---
 title: SetMinColor Method 
 linktitle: SetMinColor
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetMinColor method. Encapsulates the function that represents setmincolor in Go.'
 type: docs
 weight: 200

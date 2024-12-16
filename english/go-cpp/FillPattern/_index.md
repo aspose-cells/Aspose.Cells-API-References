@@ -1,7 +1,7 @@
 ---
 title: FillPattern Enum 
 linktitle: FillPattern
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'FillPattern enum. Encapsulates the object that represents fillpattern in Go.'
 type: docs
 weight: 200

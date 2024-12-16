@@ -1,7 +1,7 @@
 ---
 title: EbookSaveOptions Constructor 
 linktitle: EbookSaveOptions
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'EbookSaveOptions constructor. Encapsulates the function that represents newebooksaveoptions in Go.'
 type: docs
 weight: 200

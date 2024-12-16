@@ -1,7 +1,7 @@
 ---
 title: SetTotalEditingTime Method 
 linktitle: SetTotalEditingTime
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetTotalEditingTime method. Encapsulates the function that represents settotaleditingtime in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetTopBevelWidth Method 
 linktitle: GetTopBevelWidth
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetTopBevelWidth method. Encapsulates the function that represents gettopbevelwidth in Go.'
 type: docs
 weight: 200

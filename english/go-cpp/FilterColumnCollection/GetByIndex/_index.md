@@ -1,7 +1,7 @@
 ---
 title: GetByIndex Method 
 linktitle: GetByIndex
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetByIndex method. Encapsulates the function that represents getbyindex in Go.'
 type: docs
 weight: 200

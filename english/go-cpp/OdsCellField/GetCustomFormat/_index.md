@@ -1,7 +1,7 @@
 ---
 title: GetCustomFormat Method 
 linktitle: GetCustomFormat
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetCustomFormat method. Encapsulates the function that represents getcustomformat in Go.'
 type: docs
 weight: 200

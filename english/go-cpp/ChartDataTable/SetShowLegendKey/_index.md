@@ -1,7 +1,7 @@
 ---
 title: SetShowLegendKey Method 
 linktitle: SetShowLegendKey
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetShowLegendKey method. Encapsulates the function that represents setshowlegendkey in Go.'
 type: docs
 weight: 200

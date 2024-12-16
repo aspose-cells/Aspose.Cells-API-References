@@ -1,7 +1,7 @@
 ---
 title: GetSecondCategoryAxis Method 
 linktitle: GetSecondCategoryAxis
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetSecondCategoryAxis method. Encapsulates the function that represents getsecondcategoryaxis in Go.'
 type: docs
 weight: 200

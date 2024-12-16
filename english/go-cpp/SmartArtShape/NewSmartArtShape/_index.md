@@ -1,7 +1,7 @@
 ---
 title: SmartArtShape Constructor 
 linktitle: SmartArtShape
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SmartArtShape constructor. Encapsulates the function that represents newsmartartshape in Go.'
 type: docs
 weight: 200

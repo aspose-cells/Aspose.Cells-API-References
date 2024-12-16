@@ -1,7 +1,7 @@
 ---
 title: GetLockedPosition Method 
 linktitle: GetLockedPosition
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetLockedPosition method. Encapsulates the function that represents getlockedposition in Go.'
 type: docs
 weight: 200

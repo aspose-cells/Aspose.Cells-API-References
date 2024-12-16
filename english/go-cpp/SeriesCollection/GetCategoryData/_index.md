@@ -1,7 +1,7 @@
 ---
 title: GetCategoryData Method 
 linktitle: GetCategoryData
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetCategoryData method. Encapsulates the function that represents getcategorydata in Go.'
 type: docs
 weight: 200

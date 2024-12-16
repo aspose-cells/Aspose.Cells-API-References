@@ -1,7 +1,7 @@
 ---
 title: GetSortSetting Method 
 linktitle: GetSortSetting
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetSortSetting method. Encapsulates the function that represents getsortsetting in Go.'
 type: docs
 weight: 200

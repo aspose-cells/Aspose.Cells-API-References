@@ -1,7 +1,7 @@
 ---
 title: GetShowCellRange Method 
 linktitle: GetShowCellRange
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetShowCellRange method. Encapsulates the function that represents getshowcellrange in Go.'
 type: docs
 weight: 200

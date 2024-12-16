@@ -1,7 +1,7 @@
 ---
 title: SetImageType Method 
 linktitle: SetImageType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetImageType method. Encapsulates the function that represents setimagetype in Go.'
 type: docs
 weight: 200

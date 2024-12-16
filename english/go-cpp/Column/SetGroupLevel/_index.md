@@ -1,7 +1,7 @@
 ---
 title: SetGroupLevel Method 
 linktitle: SetGroupLevel
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetGroupLevel method. Encapsulates the function that represents setgrouplevel in Go.'
 type: docs
 weight: 200

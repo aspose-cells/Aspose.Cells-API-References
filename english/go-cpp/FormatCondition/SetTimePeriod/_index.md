@@ -1,7 +1,7 @@
 ---
 title: SetTimePeriod Method 
 linktitle: SetTimePeriod
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetTimePeriod method. Encapsulates the function that represents settimeperiod in Go.'
 type: docs
 weight: 200

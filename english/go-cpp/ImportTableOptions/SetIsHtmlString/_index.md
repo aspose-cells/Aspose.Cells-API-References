@@ -1,7 +1,7 @@
 ---
 title: SetIsHtmlString Method 
 linktitle: SetIsHtmlString
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetIsHtmlString method. Encapsulates the function that represents setishtmlstring in Go.'
 type: docs
 weight: 200

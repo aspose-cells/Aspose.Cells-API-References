@@ -1,7 +1,7 @@
 ---
 title: LoadFilter Class 
 linktitle: LoadFilter
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'LoadFilter class. Encapsulates the object that represents loadfilter in Go.'
 type: docs
 weight: 200

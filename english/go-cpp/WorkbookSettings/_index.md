@@ -1,7 +1,7 @@
 ---
 title: WorkbookSettings Class 
 linktitle: WorkbookSettings
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'WorkbookSettings class. Encapsulates the object that represents workbooksettings in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: MatrixEquationNode Constructor 
 linktitle: MatrixEquationNode
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'MatrixEquationNode constructor. Encapsulates the function that represents newmatrixequationnode in Go.'
 type: docs
 weight: 200

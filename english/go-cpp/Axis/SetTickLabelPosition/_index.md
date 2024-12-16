@@ -1,7 +1,7 @@
 ---
 title: SetTickLabelPosition Method 
 linktitle: SetTickLabelPosition
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetTickLabelPosition method. Encapsulates the function that represents setticklabelposition in Go.'
 type: docs
 weight: 200

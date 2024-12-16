@@ -1,7 +1,7 @@
 ---
 title: GetChartSettings Method 
 linktitle: GetChartSettings
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetChartSettings method. Encapsulates the function that represents getchartsettings in Go.'
 type: docs
 weight: 200

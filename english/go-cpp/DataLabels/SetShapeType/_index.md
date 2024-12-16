@@ -1,7 +1,7 @@
 ---
 title: SetShapeType Method 
 linktitle: SetShapeType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetShapeType method. Encapsulates the function that represents setshapetype in Go.'
 type: docs
 weight: 200

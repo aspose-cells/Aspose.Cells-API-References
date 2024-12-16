@@ -1,7 +1,7 @@
 ---
 title: ControlScrollOrientation Enum 
 linktitle: ControlScrollOrientation
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ControlScrollOrientation enum. Encapsulates the object that represents controlscrollorientation in Go.'
 type: docs
 weight: 200

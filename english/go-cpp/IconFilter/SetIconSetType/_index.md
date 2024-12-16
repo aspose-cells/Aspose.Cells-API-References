@@ -1,7 +1,7 @@
 ---
 title: SetIconSetType Method 
 linktitle: SetIconSetType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetIconSetType method. Encapsulates the function that represents seticonsettype in Go.'
 type: docs
 weight: 200

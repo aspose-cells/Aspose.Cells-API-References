@@ -1,7 +1,7 @@
 ---
 title: ToReferredArea Method 
 linktitle: ToReferredArea
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ToReferredArea method. Encapsulates the function that represents toreferredarea in Go.'
 type: docs
 weight: 200

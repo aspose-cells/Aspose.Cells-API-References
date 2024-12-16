@@ -1,7 +1,7 @@
 ---
 title: SetFileName Method 
 linktitle: SetFileName
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetFileName method. Encapsulates the function that represents setfilename in Go.'
 type: docs
 weight: 200

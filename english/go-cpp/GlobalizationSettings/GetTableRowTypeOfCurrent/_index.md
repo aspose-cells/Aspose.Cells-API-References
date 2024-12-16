@@ -1,7 +1,7 @@
 ---
 title: GetTableRowTypeOfCurrent Method 
 linktitle: GetTableRowTypeOfCurrent
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetTableRowTypeOfCurrent method. Encapsulates the function that represents gettablerowtypeofcurrent in Go.'
 type: docs
 weight: 200

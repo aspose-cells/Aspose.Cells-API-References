@@ -1,7 +1,7 @@
 ---
 title: RevisionDefinedName Constructor 
 linktitle: RevisionDefinedName
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'RevisionDefinedName constructor. Encapsulates the function that represents newrevisiondefinedname in Go.'
 type: docs
 weight: 200

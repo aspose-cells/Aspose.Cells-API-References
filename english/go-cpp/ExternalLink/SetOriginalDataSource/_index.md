@@ -1,7 +1,7 @@
 ---
 title: SetOriginalDataSource Method 
 linktitle: SetOriginalDataSource
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetOriginalDataSource method. Encapsulates the function that represents setoriginaldatasource in Go.'
 type: docs
 weight: 200

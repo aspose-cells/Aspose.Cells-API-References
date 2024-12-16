@@ -1,7 +1,7 @@
 ---
 title: PrintErrorsType Enum 
 linktitle: PrintErrorsType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'PrintErrorsType enum. Encapsulates the object that represents printerrorstype in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: IsRange Method 
 linktitle: IsRange
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsRange method. Encapsulates the function that represents isrange in Go.'
 type: docs
 weight: 200

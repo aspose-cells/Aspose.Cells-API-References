@@ -1,7 +1,7 @@
 ---
 title: RemoveFilter_Int_String Method 
 linktitle: RemoveFilter
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'RemoveFilter_Int_String method. Encapsulates the function that represents removefilter in Go.'
 type: docs
 weight: 200

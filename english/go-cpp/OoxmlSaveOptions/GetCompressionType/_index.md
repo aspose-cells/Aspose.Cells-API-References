@@ -1,7 +1,7 @@
 ---
 title: GetCompressionType Method 
 linktitle: GetCompressionType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetCompressionType method. Encapsulates the function that represents getcompressiontype in Go.'
 type: docs
 weight: 200

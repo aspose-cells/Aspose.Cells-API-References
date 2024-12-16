@@ -1,7 +1,7 @@
 ---
 title: SetLastSavedTime Method 
 linktitle: SetLastSavedTime
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetLastSavedTime method. Encapsulates the function that represents setlastsavedtime in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: SetNullString Method 
 linktitle: SetNullString
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetNullString method. Encapsulates the function that represents setnullstring in Go.'
 type: docs
 weight: 200

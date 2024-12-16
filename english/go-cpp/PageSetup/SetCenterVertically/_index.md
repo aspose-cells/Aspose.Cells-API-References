@@ -1,7 +1,7 @@
 ---
 title: SetCenterVertically Method 
 linktitle: SetCenterVertically
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetCenterVertically method. Encapsulates the function that represents setcentervertically in Go.'
 type: docs
 weight: 200

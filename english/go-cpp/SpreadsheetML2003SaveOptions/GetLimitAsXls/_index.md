@@ -1,7 +1,7 @@
 ---
 title: GetLimitAsXls Method 
 linktitle: GetLimitAsXls
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetLimitAsXls method. Encapsulates the function that represents getlimitasxls in Go.'
 type: docs
 weight: 200

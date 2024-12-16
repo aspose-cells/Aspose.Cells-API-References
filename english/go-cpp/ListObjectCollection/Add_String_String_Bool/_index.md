@@ -1,7 +1,7 @@
 ---
 title: Add_String_String_Bool Method 
 linktitle: Add
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'Add_String_String_Bool method. Encapsulates the function that represents add in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetPriority Method 
 linktitle: GetPriority
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetPriority method. Encapsulates the function that represents getpriority in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetOriginalWidth Method 
 linktitle: GetOriginalWidth
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetOriginalWidth method. Encapsulates the function that represents getoriginalwidth in Go.'
 type: docs
 weight: 200

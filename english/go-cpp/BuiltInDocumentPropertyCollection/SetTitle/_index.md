@@ -1,7 +1,7 @@
 ---
 title: SetTitle Method 
 linktitle: SetTitle
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetTitle method. Encapsulates the function that represents settitle in Go.'
 type: docs
 weight: 200

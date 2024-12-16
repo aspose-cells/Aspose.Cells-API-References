@@ -1,7 +1,7 @@
 ---
 title: GetGradientStyleType Method 
 linktitle: GetGradientStyleType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetGradientStyleType method. Encapsulates the function that represents getgradientstyletype in Go.'
 type: docs
 weight: 200

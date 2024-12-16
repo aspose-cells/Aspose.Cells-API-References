@@ -1,7 +1,7 @@
 ---
 title: GetBottomCropInch Method 
 linktitle: GetBottomCropInch
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetBottomCropInch method. Encapsulates the function that represents getbottomcropinch in Go.'
 type: docs
 weight: 200

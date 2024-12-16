@@ -1,7 +1,7 @@
 ---
 title: GetDisplayRSquared Method 
 linktitle: GetDisplayRSquared
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetDisplayRSquared method. Encapsulates the function that represents getdisplayrsquared in Go.'
 type: docs
 weight: 200

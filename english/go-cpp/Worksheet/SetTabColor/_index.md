@@ -1,7 +1,7 @@
 ---
 title: SetTabColor Method 
 linktitle: SetTabColor
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetTabColor method. Encapsulates the function that represents settabcolor in Go.'
 type: docs
 weight: 200

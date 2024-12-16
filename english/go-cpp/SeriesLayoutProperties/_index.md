@@ -1,7 +1,7 @@
 ---
 title: SeriesLayoutProperties Class 
 linktitle: SeriesLayoutProperties
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SeriesLayoutProperties class. Encapsulates the object that represents serieslayoutproperties in Go.'
 type: docs
 weight: 200

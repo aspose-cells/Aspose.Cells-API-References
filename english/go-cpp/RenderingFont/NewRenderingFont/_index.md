@@ -1,7 +1,7 @@
 ---
 title: RenderingFont Constructor 
 linktitle: RenderingFont
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'RenderingFont constructor. Encapsulates the function that represents newrenderingfont in Go.'
 type: docs
 weight: 200

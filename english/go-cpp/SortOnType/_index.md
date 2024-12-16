@@ -1,7 +1,7 @@
 ---
 title: SortOnType Enum 
 linktitle: SortOnType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SortOnType enum. Encapsulates the object that represents sortontype in Go.'
 type: docs
 weight: 200

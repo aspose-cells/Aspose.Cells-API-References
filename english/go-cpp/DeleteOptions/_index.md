@@ -1,7 +1,7 @@
 ---
 title: DeleteOptions Class 
 linktitle: DeleteOptions
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'DeleteOptions class. Encapsulates the object that represents deleteoptions in Go.'
 type: docs
 weight: 200

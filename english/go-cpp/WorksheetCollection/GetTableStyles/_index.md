@@ -1,7 +1,7 @@
 ---
 title: GetTableStyles Method 
 linktitle: GetTableStyles
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetTableStyles method. Encapsulates the function that represents gettablestyles in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetDataSource Method 
 linktitle: GetDataSource
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetDataSource method. Encapsulates the function that represents getdatasource in Go.'
 type: docs
 weight: 200

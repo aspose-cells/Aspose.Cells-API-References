@@ -1,7 +1,7 @@
 ---
 title: SetMousePointer Method 
 linktitle: SetMousePointer
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetMousePointer method. Encapsulates the function that represents setmousepointer in Go.'
 type: docs
 weight: 200

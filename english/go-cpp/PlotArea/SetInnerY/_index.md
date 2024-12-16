@@ -1,7 +1,7 @@
 ---
 title: SetInnerY Method 
 linktitle: SetInnerY
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetInnerY method. Encapsulates the function that represents setinnery in Go.'
 type: docs
 weight: 200

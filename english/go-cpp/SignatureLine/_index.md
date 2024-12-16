@@ -1,7 +1,7 @@
 ---
 title: SignatureLine Class 
 linktitle: SignatureLine
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SignatureLine class. Encapsulates the object that represents signatureline in Go.'
 type: docs
 weight: 200

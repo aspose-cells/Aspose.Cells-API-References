@@ -1,7 +1,7 @@
 ---
 title: GetPresetColor Method 
 linktitle: GetPresetColor
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetPresetColor method. Encapsulates the function that represents getpresetcolor in Go.'
 type: docs
 weight: 200

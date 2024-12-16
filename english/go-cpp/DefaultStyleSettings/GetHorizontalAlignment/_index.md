@@ -1,7 +1,7 @@
 ---
 title: GetHorizontalAlignment Method 
 linktitle: GetHorizontalAlignment
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetHorizontalAlignment method. Encapsulates the function that represents gethorizontalalignment in Go.'
 type: docs
 weight: 200

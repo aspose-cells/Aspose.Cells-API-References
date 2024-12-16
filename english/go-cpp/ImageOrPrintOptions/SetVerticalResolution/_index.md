@@ -1,7 +1,7 @@
 ---
 title: SetVerticalResolution Method 
 linktitle: SetVerticalResolution
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetVerticalResolution method. Encapsulates the function that represents setverticalresolution in Go.'
 type: docs
 weight: 200

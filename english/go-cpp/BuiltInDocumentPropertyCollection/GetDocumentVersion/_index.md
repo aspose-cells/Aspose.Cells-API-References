@@ -1,7 +1,7 @@
 ---
 title: GetDocumentVersion Method 
 linktitle: GetDocumentVersion
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetDocumentVersion method. Encapsulates the function that represents getdocumentversion in Go.'
 type: docs
 weight: 200

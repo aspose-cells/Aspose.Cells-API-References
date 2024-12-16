@@ -1,7 +1,7 @@
 ---
 title: GetMultipleWorksheets Method 
 linktitle: GetMultipleWorksheets
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetMultipleWorksheets method. Encapsulates the function that represents getmultipleworksheets in Go.'
 type: docs
 weight: 200

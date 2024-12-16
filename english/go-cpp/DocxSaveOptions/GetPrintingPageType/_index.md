@@ -1,7 +1,7 @@
 ---
 title: GetPrintingPageType Method 
 linktitle: GetPrintingPageType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetPrintingPageType method. Encapsulates the function that represents getprintingpagetype in Go.'
 type: docs
 weight: 200

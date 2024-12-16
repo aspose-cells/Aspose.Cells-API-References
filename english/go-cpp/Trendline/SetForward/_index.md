@@ -1,7 +1,7 @@
 ---
 title: SetForward Method 
 linktitle: SetForward
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetForward method. Encapsulates the function that represents setforward in Go.'
 type: docs
 weight: 200

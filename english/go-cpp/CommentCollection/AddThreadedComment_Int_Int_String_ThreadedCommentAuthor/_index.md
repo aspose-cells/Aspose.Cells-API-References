@@ -1,7 +1,7 @@
 ---
 title: AddThreadedComment_Int_Int_String_ThreadedCommentAuthor Method 
 linktitle: AddThreadedComment
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'AddThreadedComment_Int_Int_String_ThreadedCommentAuthor method. Encapsulates the function that represents addthreadedcomment in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetExportImagesAsBase64 Method 
 linktitle: GetExportImagesAsBase64
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetExportImagesAsBase64 method. Encapsulates the function that represents getexportimagesasbase64 in Go.'
 type: docs
 weight: 200

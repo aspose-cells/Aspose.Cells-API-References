@@ -1,7 +1,7 @@
 ---
 title: GroupFill Class 
 linktitle: GroupFill
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GroupFill class. Encapsulates the object that represents groupfill in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: FontSetting Class 
 linktitle: FontSetting
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'FontSetting class. Encapsulates the object that represents fontsetting in Go.'
 type: docs
 weight: 200

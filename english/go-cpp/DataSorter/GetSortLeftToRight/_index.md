@@ -1,7 +1,7 @@
 ---
 title: GetSortLeftToRight Method 
 linktitle: GetSortLeftToRight
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetSortLeftToRight method. Encapsulates the function that represents getsortlefttoright in Go.'
 type: docs
 weight: 200

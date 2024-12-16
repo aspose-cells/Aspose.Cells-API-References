@@ -1,7 +1,7 @@
 ---
 title: AddOleObjectWithLinkedImage Method 
 linktitle: AddOleObjectWithLinkedImage
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'AddOleObjectWithLinkedImage method. Encapsulates the function that represents addoleobjectwithlinkedimage in Go.'
 type: docs
 weight: 200

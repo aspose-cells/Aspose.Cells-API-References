@@ -1,7 +1,7 @@
 ---
 title: GetMarkerStyle Method 
 linktitle: GetMarkerStyle
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetMarkerStyle method. Encapsulates the function that represents getmarkerstyle in Go.'
 type: docs
 weight: 200

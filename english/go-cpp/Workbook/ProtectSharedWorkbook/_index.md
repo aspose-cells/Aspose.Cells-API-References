@@ -1,7 +1,7 @@
 ---
 title: ProtectSharedWorkbook Method 
 linktitle: ProtectSharedWorkbook
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ProtectSharedWorkbook method. Encapsulates the function that represents protectsharedworkbook in Go.'
 type: docs
 weight: 200

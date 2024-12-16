@@ -1,7 +1,7 @@
 ---
 title: GetPrintDrill Method 
 linktitle: GetPrintDrill
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetPrintDrill method. Encapsulates the function that represents getprintdrill in Go.'
 type: docs
 weight: 200

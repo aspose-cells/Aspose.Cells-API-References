@@ -1,7 +1,7 @@
 ---
 title: GetCellsColor Method 
 linktitle: GetCellsColor
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetCellsColor method. Encapsulates the function that represents getcellscolor in Go.'
 type: docs
 weight: 200

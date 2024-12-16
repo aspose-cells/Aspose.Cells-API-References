@@ -1,7 +1,7 @@
 ---
 title: GetHasUpDownBars Method 
 linktitle: GetHasUpDownBars
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetHasUpDownBars method. Encapsulates the function that represents gethasupdownbars in Go.'
 type: docs
 weight: 200

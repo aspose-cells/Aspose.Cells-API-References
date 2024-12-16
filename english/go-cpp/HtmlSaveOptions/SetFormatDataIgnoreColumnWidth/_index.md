@@ -1,7 +1,7 @@
 ---
 title: SetFormatDataIgnoreColumnWidth Method 
 linktitle: SetFormatDataIgnoreColumnWidth
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetFormatDataIgnoreColumnWidth method. Encapsulates the function that represents setformatdataignorecolumnwidth in Go.'
 type: docs
 weight: 200

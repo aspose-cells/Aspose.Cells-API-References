@@ -1,7 +1,7 @@
 ---
 title: GetOffset Method 
 linktitle: GetOffset
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetOffset method. Encapsulates the function that represents getoffset in Go.'
 type: docs
 weight: 200

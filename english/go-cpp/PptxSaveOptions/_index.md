@@ -1,7 +1,7 @@
 ---
 title: PptxSaveOptions Class 
 linktitle: PptxSaveOptions
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'PptxSaveOptions class. Encapsulates the object that represents pptxsaveoptions in Go.'
 type: docs
 weight: 200

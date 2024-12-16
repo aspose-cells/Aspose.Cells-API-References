@@ -1,7 +1,7 @@
 ---
 title: SetAddTooltipText Method 
 linktitle: SetAddTooltipText
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetAddTooltipText method. Encapsulates the function that represents setaddtooltiptext in Go.'
 type: docs
 weight: 200

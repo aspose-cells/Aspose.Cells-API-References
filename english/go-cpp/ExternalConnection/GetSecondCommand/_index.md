@@ -1,7 +1,7 @@
 ---
 title: GetSecondCommand Method 
 linktitle: GetSecondCommand
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetSecondCommand method. Encapsulates the function that represents getsecondcommand in Go.'
 type: docs
 weight: 200

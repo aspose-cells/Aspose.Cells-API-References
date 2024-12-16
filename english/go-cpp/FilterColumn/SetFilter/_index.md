@@ -1,7 +1,7 @@
 ---
 title: SetFilter Method 
 linktitle: SetFilter
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetFilter method. Encapsulates the function that represents setfilter in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetConditionalStyle Method 
 linktitle: GetConditionalStyle
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetConditionalStyle method. Encapsulates the function that represents getconditionalstyle in Go.'
 type: docs
 weight: 200

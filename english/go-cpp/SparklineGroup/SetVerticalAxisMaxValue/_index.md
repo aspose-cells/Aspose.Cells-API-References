@@ -1,7 +1,7 @@
 ---
 title: SetVerticalAxisMaxValue Method 
 linktitle: SetVerticalAxisMaxValue
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetVerticalAxisMaxValue method. Encapsulates the function that represents setverticalaxismaxvalue in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: SetCommand Method 
 linktitle: SetCommand
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetCommand method. Encapsulates the function that represents setcommand in Go.'
 type: docs
 weight: 200

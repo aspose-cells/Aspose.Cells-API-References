@@ -1,7 +1,7 @@
 ---
 title: GetAutoScaling Method 
 linktitle: GetAutoScaling
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetAutoScaling method. Encapsulates the function that represents getautoscaling in Go.'
 type: docs
 weight: 200

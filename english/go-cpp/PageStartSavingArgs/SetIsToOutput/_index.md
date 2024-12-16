@@ -1,7 +1,7 @@
 ---
 title: SetIsToOutput Method 
 linktitle: SetIsToOutput
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetIsToOutput method. Encapsulates the function that represents setistooutput in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: SetExportColumnIndexOfCell Method 
 linktitle: SetExportColumnIndexOfCell
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetExportColumnIndexOfCell method. Encapsulates the function that represents setexportcolumnindexofcell in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetIslockedForViewing Method 
 linktitle: GetIslockedForViewing
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetIslockedForViewing method. Encapsulates the function that represents getislockedforviewing in Go.'
 type: docs
 weight: 200

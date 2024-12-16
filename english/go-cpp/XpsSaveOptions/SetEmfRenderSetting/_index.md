@@ -1,7 +1,7 @@
 ---
 title: SetEmfRenderSetting Method 
 linktitle: SetEmfRenderSetting
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetEmfRenderSetting method. Encapsulates the function that represents setemfrendersetting in Go.'
 type: docs
 weight: 200

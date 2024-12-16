@@ -1,7 +1,7 @@
 ---
 title: SubSupEquationNode Class 
 linktitle: SubSupEquationNode
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SubSupEquationNode class. Encapsulates the object that represents subsupequationnode in Go.'
 type: docs
 weight: 200

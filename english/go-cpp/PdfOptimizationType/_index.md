@@ -1,7 +1,7 @@
 ---
 title: PdfOptimizationType Enum 
 linktitle: PdfOptimizationType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'PdfOptimizationType enum. Encapsulates the object that represents pdfoptimizationtype in Go.'
 type: docs
 weight: 200

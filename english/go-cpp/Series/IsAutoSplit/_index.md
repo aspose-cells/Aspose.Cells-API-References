@@ -1,7 +1,7 @@
 ---
 title: IsAutoSplit Method 
 linktitle: IsAutoSplit
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsAutoSplit method. Encapsulates the function that represents isautosplit in Go.'
 type: docs
 weight: 200

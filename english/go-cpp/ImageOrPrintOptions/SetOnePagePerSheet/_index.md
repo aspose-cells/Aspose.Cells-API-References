@@ -1,7 +1,7 @@
 ---
 title: SetOnePagePerSheet Method 
 linktitle: SetOnePagePerSheet
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetOnePagePerSheet method. Encapsulates the function that represents setonepagepersheet in Go.'
 type: docs
 weight: 200

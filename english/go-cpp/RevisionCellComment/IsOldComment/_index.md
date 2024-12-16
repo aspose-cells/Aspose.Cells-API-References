@@ -1,7 +1,7 @@
 ---
 title: IsOldComment Method 
 linktitle: IsOldComment
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsOldComment method. Encapsulates the function that represents isoldcomment in Go.'
 type: docs
 weight: 200

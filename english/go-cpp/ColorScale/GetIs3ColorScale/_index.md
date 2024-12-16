@@ -1,7 +1,7 @@
 ---
 title: GetIs3ColorScale Method 
 linktitle: GetIs3ColorScale
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetIs3ColorScale method. Encapsulates the function that represents getis3colorscale in Go.'
 type: docs
 weight: 200

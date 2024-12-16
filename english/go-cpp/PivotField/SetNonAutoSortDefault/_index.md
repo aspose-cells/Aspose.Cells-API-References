@@ -1,7 +1,7 @@
 ---
 title: SetNonAutoSortDefault Method 
 linktitle: SetNonAutoSortDefault
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetNonAutoSortDefault method. Encapsulates the function that represents setnonautosortdefault in Go.'
 type: docs
 weight: 200

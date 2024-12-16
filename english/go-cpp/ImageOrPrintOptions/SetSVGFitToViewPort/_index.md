@@ -1,7 +1,7 @@
 ---
 title: SetSVGFitToViewPort Method 
 linktitle: SetSVGFitToViewPort
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetSVGFitToViewPort method. Encapsulates the function that represents setsvgfittoviewport in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetMatchEntry Method 
 linktitle: GetMatchEntry
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetMatchEntry method. Encapsulates the function that represents getmatchentry in Go.'
 type: docs
 weight: 200

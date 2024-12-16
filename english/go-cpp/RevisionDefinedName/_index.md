@@ -1,7 +1,7 @@
 ---
 title: RevisionDefinedName Class 
 linktitle: RevisionDefinedName
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'RevisionDefinedName class. Encapsulates the object that represents revisiondefinedname in Go.'
 type: docs
 weight: 200

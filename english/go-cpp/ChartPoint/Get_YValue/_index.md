@@ -1,7 +1,7 @@
 ---
 title: Get_YValue Method 
 linktitle: Get_YValue
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'Get_YValue method. Encapsulates the function that represents get_yvalue in Go.'
 type: docs
 weight: 200

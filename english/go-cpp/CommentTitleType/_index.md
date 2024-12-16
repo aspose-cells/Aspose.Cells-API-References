@@ -1,7 +1,7 @@
 ---
 title: CommentTitleType Enum 
 linktitle: CommentTitleType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'CommentTitleType enum. Encapsulates the object that represents commenttitletype in Go.'
 type: docs
 weight: 200

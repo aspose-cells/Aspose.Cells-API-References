@@ -1,7 +1,7 @@
 ---
 title: GetActiveIndex Method 
 linktitle: GetActiveIndex
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetActiveIndex method. Encapsulates the function that represents getactiveindex in Go.'
 type: docs
 weight: 200

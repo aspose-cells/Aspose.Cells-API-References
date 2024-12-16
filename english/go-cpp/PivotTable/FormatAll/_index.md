@@ -1,7 +1,7 @@
 ---
 title: FormatAll Method 
 linktitle: FormatAll
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'FormatAll method. Encapsulates the function that represents formatall in Go.'
 type: docs
 weight: 200

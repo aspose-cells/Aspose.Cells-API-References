@@ -1,7 +1,7 @@
 ---
 title: SetContourColor Method 
 linktitle: SetContourColor
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetContourColor method. Encapsulates the function that represents setcontourcolor in Go.'
 type: docs
 weight: 200

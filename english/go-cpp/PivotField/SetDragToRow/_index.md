@@ -1,7 +1,7 @@
 ---
 title: SetDragToRow Method 
 linktitle: SetDragToRow
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetDragToRow method. Encapsulates the function that represents setdragtorow in Go.'
 type: docs
 weight: 200

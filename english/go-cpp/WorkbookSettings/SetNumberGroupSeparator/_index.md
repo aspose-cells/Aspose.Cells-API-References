@@ -1,7 +1,7 @@
 ---
 title: SetNumberGroupSeparator Method 
 linktitle: SetNumberGroupSeparator
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetNumberGroupSeparator method. Encapsulates the function that represents setnumbergroupseparator in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: SetIsPercentScale Method 
 linktitle: SetIsPercentScale
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetIsPercentScale method. Encapsulates the function that represents setispercentscale in Go.'
 type: docs
 weight: 200

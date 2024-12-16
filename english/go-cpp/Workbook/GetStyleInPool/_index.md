@@ -1,7 +1,7 @@
 ---
 title: GetStyleInPool Method 
 linktitle: GetStyleInPool
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetStyleInPool method. Encapsulates the function that represents getstyleinpool in Go.'
 type: docs
 weight: 200

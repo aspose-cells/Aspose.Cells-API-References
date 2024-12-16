@@ -1,7 +1,7 @@
 ---
 title: AddTextEffect Method 
 linktitle: AddTextEffect
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'AddTextEffect method. Encapsulates the function that represents addtexteffect in Go.'
 type: docs
 weight: 200

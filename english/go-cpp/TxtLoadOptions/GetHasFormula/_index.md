@@ -1,7 +1,7 @@
 ---
 title: GetHasFormula Method 
 linktitle: GetHasFormula
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetHasFormula method. Encapsulates the function that represents gethasformula in Go.'
 type: docs
 weight: 200

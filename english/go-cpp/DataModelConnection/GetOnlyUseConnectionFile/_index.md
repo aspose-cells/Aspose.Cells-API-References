@@ -1,7 +1,7 @@
 ---
 title: GetOnlyUseConnectionFile Method 
 linktitle: GetOnlyUseConnectionFile
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetOnlyUseConnectionFile method. Encapsulates the function that represents getonlyuseconnectionfile in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: DigitalSignature Constructor 
 linktitle: DigitalSignature
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'DigitalSignature constructor. Encapsulates the function that represents newdigitalsignature in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: IsHideSuperscript Method 
 linktitle: IsHideSuperscript
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsHideSuperscript method. Encapsulates the function that represents ishidesuperscript in Go.'
 type: docs
 weight: 200

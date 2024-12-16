@@ -1,7 +1,7 @@
 ---
 title: SetDateFormat Method 
 linktitle: SetDateFormat
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetDateFormat method. Encapsulates the function that represents setdateformat in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetSaveAsSingleFile Method 
 linktitle: GetSaveAsSingleFile
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetSaveAsSingleFile method. Encapsulates the function that represents getsaveassinglefile in Go.'
 type: docs
 weight: 200

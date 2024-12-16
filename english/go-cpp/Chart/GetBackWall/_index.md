@@ -1,7 +1,7 @@
 ---
 title: GetBackWall Method 
 linktitle: GetBackWall
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetBackWall method. Encapsulates the function that represents getbackwall in Go.'
 type: docs
 weight: 200

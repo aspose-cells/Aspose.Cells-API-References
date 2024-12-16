@@ -1,7 +1,7 @@
 ---
 title: GetWindowHeight Method 
 linktitle: GetWindowHeight
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetWindowHeight method. Encapsulates the function that represents getwindowheight in Go.'
 type: docs
 weight: 200

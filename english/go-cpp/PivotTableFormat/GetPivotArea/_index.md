@@ -1,7 +1,7 @@
 ---
 title: GetPivotArea Method 
 linktitle: GetPivotArea
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetPivotArea method. Encapsulates the function that represents getpivotarea in Go.'
 type: docs
 weight: 200

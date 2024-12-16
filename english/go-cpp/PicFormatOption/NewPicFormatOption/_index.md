@@ -1,7 +1,7 @@
 ---
 title: PicFormatOption Constructor 
 linktitle: PicFormatOption
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'PicFormatOption constructor. Encapsulates the function that represents newpicformatoption in Go.'
 type: docs
 weight: 200

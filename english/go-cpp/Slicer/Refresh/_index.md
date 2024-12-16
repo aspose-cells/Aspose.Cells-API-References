@@ -1,7 +1,7 @@
 ---
 title: Refresh Method 
 linktitle: Refresh
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'Refresh method. Encapsulates the function that represents refresh in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: SetWidthCM Method 
 linktitle: SetWidthCM
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetWidthCM method. Encapsulates the function that represents setwidthcm in Go.'
 type: docs
 weight: 200

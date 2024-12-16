@@ -1,7 +1,7 @@
 ---
 title: HighlightChangesOptions Constructor 
 linktitle: HighlightChangesOptions
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'HighlightChangesOptions constructor. Encapsulates the function that represents newhighlightchangesoptions in Go.'
 type: docs
 weight: 200

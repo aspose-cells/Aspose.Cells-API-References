@@ -1,7 +1,7 @@
 ---
 title: GetBottomPointCount Method 
 linktitle: GetBottomPointCount
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetBottomPointCount method. Encapsulates the function that represents getbottompointcount in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: SetMinorUnitScale Method 
 linktitle: SetMinorUnitScale
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetMinorUnitScale method. Encapsulates the function that represents setminorunitscale in Go.'
 type: docs
 weight: 200

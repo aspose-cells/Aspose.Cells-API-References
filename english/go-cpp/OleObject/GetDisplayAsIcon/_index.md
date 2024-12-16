@@ -1,7 +1,7 @@
 ---
 title: GetDisplayAsIcon Method 
 linktitle: GetDisplayAsIcon
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetDisplayAsIcon method. Encapsulates the function that represents getdisplayasicon in Go.'
 type: docs
 weight: 200

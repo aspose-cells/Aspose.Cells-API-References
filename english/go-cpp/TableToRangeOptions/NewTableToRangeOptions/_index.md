@@ -1,7 +1,7 @@
 ---
 title: TableToRangeOptions Constructor 
 linktitle: TableToRangeOptions
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'TableToRangeOptions constructor. Encapsulates the function that represents newtabletorangeoptions in Go.'
 type: docs
 weight: 200

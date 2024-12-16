@@ -1,7 +1,7 @@
 ---
 title: SetIsConsecutive Method 
 linktitle: SetIsConsecutive
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetIsConsecutive method. Encapsulates the function that represents setisconsecutive in Go.'
 type: docs
 weight: 200

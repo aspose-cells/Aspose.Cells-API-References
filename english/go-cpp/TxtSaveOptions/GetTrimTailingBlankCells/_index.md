@@ -1,7 +1,7 @@
 ---
 title: GetTrimTailingBlankCells Method 
 linktitle: GetTrimTailingBlankCells
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetTrimTailingBlankCells method. Encapsulates the function that represents gettrimtailingblankcells in Go.'
 type: docs
 weight: 200

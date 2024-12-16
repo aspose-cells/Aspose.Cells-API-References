@@ -1,7 +1,7 @@
 ---
 title: SetBottomCropInch Method 
 linktitle: SetBottomCropInch
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetBottomCropInch method. Encapsulates the function that represents setbottomcropinch in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: SetLastPointColor Method 
 linktitle: SetLastPointColor
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetLastPointColor method. Encapsulates the function that represents setlastpointcolor in Go.'
 type: docs
 weight: 200

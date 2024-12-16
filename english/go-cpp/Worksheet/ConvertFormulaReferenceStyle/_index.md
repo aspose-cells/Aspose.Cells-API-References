@@ -1,7 +1,7 @@
 ---
 title: ConvertFormulaReferenceStyle Method 
 linktitle: ConvertFormulaReferenceStyle
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ConvertFormulaReferenceStyle method. Encapsulates the function that represents convertformulareferencestyle in Go.'
 type: docs
 weight: 200

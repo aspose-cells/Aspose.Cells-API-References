@@ -1,7 +1,7 @@
 ---
 title: GetShowFirstPoint Method 
 linktitle: GetShowFirstPoint
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetShowFirstPoint method. Encapsulates the function that represents getshowfirstpoint in Go.'
 type: docs
 weight: 200

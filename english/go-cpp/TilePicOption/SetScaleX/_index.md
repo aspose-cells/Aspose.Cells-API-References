@@ -1,7 +1,7 @@
 ---
 title: SetScaleX Method 
 linktitle: SetScaleX
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetScaleX method. Encapsulates the function that represents setscalex in Go.'
 type: docs
 weight: 200

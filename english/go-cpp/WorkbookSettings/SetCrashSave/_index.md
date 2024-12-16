@@ -1,7 +1,7 @@
 ---
 title: SetCrashSave Method 
 linktitle: SetCrashSave
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetCrashSave method. Encapsulates the function that represents setcrashsave in Go.'
 type: docs
 weight: 200

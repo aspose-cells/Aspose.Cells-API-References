@@ -1,7 +1,7 @@
 ---
 title: GetRefreshedByWho Method 
 linktitle: GetRefreshedByWho
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetRefreshedByWho method. Encapsulates the function that represents getrefreshedbywho in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: SetLogBase Method 
 linktitle: SetLogBase
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetLogBase method. Encapsulates the function that represents setlogbase in Go.'
 type: docs
 weight: 200

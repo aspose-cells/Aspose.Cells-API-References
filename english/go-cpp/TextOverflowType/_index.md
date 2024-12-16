@@ -1,7 +1,7 @@
 ---
 title: TextOverflowType Enum 
 linktitle: TextOverflowType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'TextOverflowType enum. Encapsulates the object that represents textoverflowtype in Go.'
 type: docs
 weight: 200

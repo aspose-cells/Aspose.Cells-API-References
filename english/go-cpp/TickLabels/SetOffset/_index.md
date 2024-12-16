@@ -1,7 +1,7 @@
 ---
 title: SetOffset Method 
 linktitle: SetOffset
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetOffset method. Encapsulates the function that represents setoffset in Go.'
 type: docs
 weight: 200

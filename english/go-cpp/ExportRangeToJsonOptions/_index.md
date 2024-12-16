@@ -1,7 +1,7 @@
 ---
 title: ExportRangeToJsonOptions Class 
 linktitle: ExportRangeToJsonOptions
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ExportRangeToJsonOptions class. Encapsulates the object that represents exportrangetojsonoptions in Go.'
 type: docs
 weight: 200

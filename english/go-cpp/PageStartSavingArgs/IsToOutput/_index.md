@@ -1,7 +1,7 @@
 ---
 title: IsToOutput Method 
 linktitle: IsToOutput
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsToOutput method. Encapsulates the function that represents istooutput in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: IsHangingPunctuation Method 
 linktitle: IsHangingPunctuation
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsHangingPunctuation method. Encapsulates the function that represents ishangingpunctuation in Go.'
 type: docs
 weight: 200

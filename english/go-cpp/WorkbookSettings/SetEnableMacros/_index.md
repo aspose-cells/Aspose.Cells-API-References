@@ -1,7 +1,7 @@
 ---
 title: SetEnableMacros Method 
 linktitle: SetEnableMacros
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetEnableMacros method. Encapsulates the function that represents setenablemacros in Go.'
 type: docs
 weight: 200

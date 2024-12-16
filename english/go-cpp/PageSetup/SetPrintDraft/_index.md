@@ -1,7 +1,7 @@
 ---
 title: SetPrintDraft Method 
 linktitle: SetPrintDraft
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetPrintDraft method. Encapsulates the function that represents setprintdraft in Go.'
 type: docs
 weight: 200

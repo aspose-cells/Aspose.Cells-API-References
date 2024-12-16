@@ -1,7 +1,7 @@
 ---
 title: ToPdf_String Method 
 linktitle: ToPdf
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ToPdf_String method. Encapsulates the function that represents topdf in Go.'
 type: docs
 weight: 200

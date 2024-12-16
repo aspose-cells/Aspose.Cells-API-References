@@ -1,7 +1,7 @@
 ---
 title: GetAlternativeDescription Method 
 linktitle: GetAlternativeDescription
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetAlternativeDescription method. Encapsulates the function that represents getalternativedescription in Go.'
 type: docs
 weight: 200

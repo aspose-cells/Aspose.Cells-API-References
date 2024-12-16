@@ -1,7 +1,7 @@
 ---
 title: SetIsXmlSourceData Method 
 linktitle: SetIsXmlSourceData
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetIsXmlSourceData method. Encapsulates the function that represents setisxmlsourcedata in Go.'
 type: docs
 weight: 200

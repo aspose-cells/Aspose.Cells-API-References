@@ -1,7 +1,7 @@
 ---
 title: GetSelectionMargin Method 
 linktitle: GetSelectionMargin
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetSelectionMargin method. Encapsulates the function that represents getselectionmargin in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetCrashSave Method 
 linktitle: GetCrashSave
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetCrashSave method. Encapsulates the function that represents getcrashsave in Go.'
 type: docs
 weight: 200

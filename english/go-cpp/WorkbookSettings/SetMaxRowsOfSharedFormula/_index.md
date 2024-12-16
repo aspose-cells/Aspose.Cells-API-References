@@ -1,7 +1,7 @@
 ---
 title: SetMaxRowsOfSharedFormula Method 
 linktitle: SetMaxRowsOfSharedFormula
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetMaxRowsOfSharedFormula method. Encapsulates the function that represents setmaxrowsofsharedformula in Go.'
 type: docs
 weight: 200

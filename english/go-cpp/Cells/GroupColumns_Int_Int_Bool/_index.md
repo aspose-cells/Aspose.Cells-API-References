@@ -1,7 +1,7 @@
 ---
 title: GroupColumns_Int_Int_Bool Method 
 linktitle: GroupColumns
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GroupColumns_Int_Int_Bool method. Encapsulates the function that represents groupcolumns in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetScaleCrop Method 
 linktitle: GetScaleCrop
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetScaleCrop method. Encapsulates the function that represents getscalecrop in Go.'
 type: docs
 weight: 200

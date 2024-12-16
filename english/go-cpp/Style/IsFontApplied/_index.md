@@ -1,7 +1,7 @@
 ---
 title: IsFontApplied Method 
 linktitle: IsFontApplied
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsFontApplied method. Encapsulates the function that represents isfontapplied in Go.'
 type: docs
 weight: 200

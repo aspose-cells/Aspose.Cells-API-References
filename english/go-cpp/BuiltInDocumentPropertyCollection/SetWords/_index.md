@@ -1,7 +1,7 @@
 ---
 title: SetWords Method 
 linktitle: SetWords
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetWords method. Encapsulates the function that represents setwords in Go.'
 type: docs
 weight: 200

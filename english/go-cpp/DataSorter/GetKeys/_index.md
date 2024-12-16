@@ -1,7 +1,7 @@
 ---
 title: GetKeys Method 
 linktitle: GetKeys
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetKeys method. Encapsulates the function that represents getkeys in Go.'
 type: docs
 weight: 200

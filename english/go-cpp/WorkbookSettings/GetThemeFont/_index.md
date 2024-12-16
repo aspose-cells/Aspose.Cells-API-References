@@ -1,7 +1,7 @@
 ---
 title: GetThemeFont Method 
 linktitle: GetThemeFont
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetThemeFont method. Encapsulates the function that represents getthemefont in Go.'
 type: docs
 weight: 200

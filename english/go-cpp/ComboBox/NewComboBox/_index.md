@@ -1,7 +1,7 @@
 ---
 title: ComboBox Constructor 
 linktitle: ComboBox
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ComboBox constructor. Encapsulates the function that represents newcombobox in Go.'
 type: docs
 weight: 200

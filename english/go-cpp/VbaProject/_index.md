@@ -1,7 +1,7 @@
 ---
 title: VbaProject Class 
 linktitle: VbaProject
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'VbaProject class. Encapsulates the object that represents vbaproject in Go.'
 type: docs
 weight: 200

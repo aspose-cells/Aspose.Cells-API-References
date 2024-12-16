@@ -1,7 +1,7 @@
 ---
 title: GetViewType Method 
 linktitle: GetViewType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetViewType method. Encapsulates the function that represents getviewtype in Go.'
 type: docs
 weight: 200

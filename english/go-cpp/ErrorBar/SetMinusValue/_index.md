@@ -1,7 +1,7 @@
 ---
 title: SetMinusValue Method 
 linktitle: SetMinusValue
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetMinusValue method. Encapsulates the function that represents setminusvalue in Go.'
 type: docs
 weight: 200

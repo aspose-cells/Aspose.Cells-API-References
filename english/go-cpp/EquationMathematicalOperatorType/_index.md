@@ -1,7 +1,7 @@
 ---
 title: EquationMathematicalOperatorType Enum 
 linktitle: EquationMathematicalOperatorType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'EquationMathematicalOperatorType enum. Encapsulates the object that represents equationmathematicaloperatortype in Go.'
 type: docs
 weight: 200

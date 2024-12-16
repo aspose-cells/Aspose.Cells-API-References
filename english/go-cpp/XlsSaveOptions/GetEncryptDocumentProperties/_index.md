@@ -1,7 +1,7 @@
 ---
 title: GetEncryptDocumentProperties Method 
 linktitle: GetEncryptDocumentProperties
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetEncryptDocumentProperties method. Encapsulates the function that represents getencryptdocumentproperties in Go.'
 type: docs
 weight: 200

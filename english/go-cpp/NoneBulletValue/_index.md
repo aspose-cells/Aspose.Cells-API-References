@@ -1,7 +1,7 @@
 ---
 title: NoneBulletValue Class 
 linktitle: NoneBulletValue
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'NoneBulletValue class. Encapsulates the object that represents nonebulletvalue in Go.'
 type: docs
 weight: 200

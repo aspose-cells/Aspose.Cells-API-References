@@ -1,7 +1,7 @@
 ---
 title: GetRefreshData Method 
 linktitle: GetRefreshData
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetRefreshData method. Encapsulates the function that represents getrefreshdata in Go.'
 type: docs
 weight: 200

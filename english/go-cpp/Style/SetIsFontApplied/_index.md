@@ -1,7 +1,7 @@
 ---
 title: SetIsFontApplied Method 
 linktitle: SetIsFontApplied
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetIsFontApplied method. Encapsulates the function that represents setisfontapplied in Go.'
 type: docs
 weight: 200

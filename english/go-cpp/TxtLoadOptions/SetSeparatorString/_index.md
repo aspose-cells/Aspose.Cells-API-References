@@ -1,7 +1,7 @@
 ---
 title: SetSeparatorString Method 
 linktitle: SetSeparatorString
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetSeparatorString method. Encapsulates the function that represents setseparatorstring in Go.'
 type: docs
 weight: 200

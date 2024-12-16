@@ -1,7 +1,7 @@
 ---
 title: SetIsGTE Method 
 linktitle: SetIsGTE
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetIsGTE method. Encapsulates the function that represents setisgte in Go.'
 type: docs
 weight: 200

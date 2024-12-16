@@ -1,7 +1,7 @@
 ---
 title: SetFooterMarginInch Method 
 linktitle: SetFooterMarginInch
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetFooterMarginInch method. Encapsulates the function that represents setfootermargininch in Go.'
 type: docs
 weight: 200

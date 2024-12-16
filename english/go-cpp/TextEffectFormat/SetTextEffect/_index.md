@@ -1,7 +1,7 @@
 ---
 title: SetTextEffect Method 
 linktitle: SetTextEffect
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetTextEffect method. Encapsulates the function that represents settexteffect in Go.'
 type: docs
 weight: 200

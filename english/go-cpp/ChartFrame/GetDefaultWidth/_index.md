@@ -1,7 +1,7 @@
 ---
 title: GetDefaultWidth Method 
 linktitle: GetDefaultWidth
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetDefaultWidth method. Encapsulates the function that represents getdefaultwidth in Go.'
 type: docs
 weight: 200

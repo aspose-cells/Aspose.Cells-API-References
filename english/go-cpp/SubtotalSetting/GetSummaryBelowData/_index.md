@@ -1,7 +1,7 @@
 ---
 title: GetSummaryBelowData Method 
 linktitle: GetSummaryBelowData
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetSummaryBelowData method. Encapsulates the function that represents getsummarybelowdata in Go.'
 type: docs
 weight: 200

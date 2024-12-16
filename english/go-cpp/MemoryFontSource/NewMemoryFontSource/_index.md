@@ -1,7 +1,7 @@
 ---
 title: MemoryFontSource Constructor 
 linktitle: MemoryFontSource
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'MemoryFontSource constructor. Encapsulates the function that represents newmemoryfontsource in Go.'
 type: docs
 weight: 200

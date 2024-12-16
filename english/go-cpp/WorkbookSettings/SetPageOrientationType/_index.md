@@ -1,7 +1,7 @@
 ---
 title: SetPageOrientationType Method 
 linktitle: SetPageOrientationType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetPageOrientationType method. Encapsulates the function that represents setpageorientationtype in Go.'
 type: docs
 weight: 200

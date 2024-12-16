@@ -1,7 +1,7 @@
 ---
 title: DxfCollection Class 
 linktitle: DxfCollection
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'DxfCollection class. Encapsulates the object that represents dxfcollection in Go.'
 type: docs
 weight: 200

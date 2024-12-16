@@ -1,7 +1,7 @@
 ---
 title: GetShapeWidthPx Method 
 linktitle: GetShapeWidthPx
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetShapeWidthPx method. Encapsulates the function that represents getshapewidthpx in Go.'
 type: docs
 weight: 200

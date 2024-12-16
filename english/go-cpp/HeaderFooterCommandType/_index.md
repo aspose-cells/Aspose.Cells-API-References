@@ -1,7 +1,7 @@
 ---
 title: HeaderFooterCommandType Enum 
 linktitle: HeaderFooterCommandType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'HeaderFooterCommandType enum. Encapsulates the object that represents headerfootercommandtype in Go.'
 type: docs
 weight: 200

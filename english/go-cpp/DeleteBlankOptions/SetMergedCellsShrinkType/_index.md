@@ -1,7 +1,7 @@
 ---
 title: SetMergedCellsShrinkType Method 
 linktitle: SetMergedCellsShrinkType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetMergedCellsShrinkType method. Encapsulates the function that represents setmergedcellsshrinktype in Go.'
 type: docs
 weight: 200

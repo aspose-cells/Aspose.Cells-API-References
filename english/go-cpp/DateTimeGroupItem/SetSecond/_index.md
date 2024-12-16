@@ -1,7 +1,7 @@
 ---
 title: SetSecond Method 
 linktitle: SetSecond
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetSecond method. Encapsulates the function that represents setsecond in Go.'
 type: docs
 weight: 200

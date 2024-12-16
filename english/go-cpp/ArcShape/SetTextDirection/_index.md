@@ -1,7 +1,7 @@
 ---
 title: SetTextDirection Method 
 linktitle: SetTextDirection
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetTextDirection method. Encapsulates the function that represents settextdirection in Go.'
 type: docs
 weight: 200

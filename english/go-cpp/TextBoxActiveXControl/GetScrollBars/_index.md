@@ -1,7 +1,7 @@
 ---
 title: GetScrollBars Method 
 linktitle: GetScrollBars
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetScrollBars method. Encapsulates the function that represents getscrollbars in Go.'
 type: docs
 weight: 200

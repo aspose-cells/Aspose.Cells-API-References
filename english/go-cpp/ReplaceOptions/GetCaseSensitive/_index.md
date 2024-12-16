@@ -1,7 +1,7 @@
 ---
 title: GetCaseSensitive Method 
 linktitle: GetCaseSensitive
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetCaseSensitive method. Encapsulates the function that represents getcasesensitive in Go.'
 type: docs
 weight: 200

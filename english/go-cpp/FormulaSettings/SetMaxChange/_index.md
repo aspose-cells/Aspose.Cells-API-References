@@ -1,7 +1,7 @@
 ---
 title: SetMaxChange Method 
 linktitle: SetMaxChange
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetMaxChange method. Encapsulates the function that represents setmaxchange in Go.'
 type: docs
 weight: 200

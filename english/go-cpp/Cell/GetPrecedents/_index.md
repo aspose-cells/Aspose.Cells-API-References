@@ -1,7 +1,7 @@
 ---
 title: GetPrecedents Method 
 linktitle: GetPrecedents
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetPrecedents method. Encapsulates the function that represents getprecedents in Go.'
 type: docs
 weight: 200

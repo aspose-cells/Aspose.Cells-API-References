@@ -1,7 +1,7 @@
 ---
 title: CellWatch Constructor 
 linktitle: CellWatch
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'CellWatch constructor. Encapsulates the function that represents newcellwatch in Go.'
 type: docs
 weight: 200

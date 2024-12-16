@@ -1,7 +1,7 @@
 ---
 title: MoveRange Method 
 linktitle: MoveRange
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'MoveRange method. Encapsulates the function that represents moverange in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: SetAltTextTitle Method 
 linktitle: SetAltTextTitle
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetAltTextTitle method. Encapsulates the function that represents setalttexttitle in Go.'
 type: docs
 weight: 200

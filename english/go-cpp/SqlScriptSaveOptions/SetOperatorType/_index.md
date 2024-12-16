@@ -1,7 +1,7 @@
 ---
 title: SetOperatorType Method 
 linktitle: SetOperatorType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetOperatorType method. Encapsulates the function that represents setoperatortype in Go.'
 type: docs
 weight: 200

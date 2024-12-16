@@ -1,7 +1,7 @@
 ---
 title: SetIsDefaultEncrypted Method 
 linktitle: SetIsDefaultEncrypted
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetIsDefaultEncrypted method. Encapsulates the function that represents setisdefaultencrypted in Go.'
 type: docs
 weight: 200

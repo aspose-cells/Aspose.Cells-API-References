@@ -1,7 +1,7 @@
 ---
 title: SetIsNillable Method 
 linktitle: SetIsNillable
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetIsNillable method. Encapsulates the function that represents setisnillable in Go.'
 type: docs
 weight: 200

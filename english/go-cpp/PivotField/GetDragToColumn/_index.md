@@ -1,7 +1,7 @@
 ---
 title: GetDragToColumn Method 
 linktitle: GetDragToColumn
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetDragToColumn method. Encapsulates the function that represents getdragtocolumn in Go.'
 type: docs
 weight: 200

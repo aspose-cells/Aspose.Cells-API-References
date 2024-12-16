@@ -1,7 +1,7 @@
 ---
 title: GetMergeEmptyTdType Method 
 linktitle: GetMergeEmptyTdType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetMergeEmptyTdType method. Encapsulates the function that represents getmergeemptytdtype in Go.'
 type: docs
 weight: 200

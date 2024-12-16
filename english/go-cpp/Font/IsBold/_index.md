@@ -1,7 +1,7 @@
 ---
 title: IsBold Method 
 linktitle: IsBold
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsBold method. Encapsulates the function that represents isbold in Go.'
 type: docs
 weight: 200

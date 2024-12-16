@@ -1,7 +1,7 @@
 ---
 title: GradientStopCollection Class 
 linktitle: GradientStopCollection
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GradientStopCollection class. Encapsulates the object that represents gradientstopcollection in Go.'
 type: docs
 weight: 200

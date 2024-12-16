@@ -1,7 +1,7 @@
 ---
 title: AxisType Enum 
 linktitle: AxisType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'AxisType enum. Encapsulates the object that represents axistype in Go.'
 type: docs
 weight: 200

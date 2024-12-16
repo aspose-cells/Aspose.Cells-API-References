@@ -1,7 +1,7 @@
 ---
 title: GetBullet Method 
 linktitle: GetBullet
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetBullet method. Encapsulates the function that represents getbullet in Go.'
 type: docs
 weight: 200

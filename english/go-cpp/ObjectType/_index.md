@@ -1,7 +1,7 @@
 ---
 title: ObjectType Enum 
 linktitle: ObjectType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ObjectType enum. Encapsulates the object that represents objecttype in Go.'
 type: docs
 weight: 200

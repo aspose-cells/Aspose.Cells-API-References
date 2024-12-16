@@ -1,7 +1,7 @@
 ---
 title: SetEmbedStandardWindowsFonts Method 
 linktitle: SetEmbedStandardWindowsFonts
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetEmbedStandardWindowsFonts method. Encapsulates the function that represents setembedstandardwindowsfonts in Go.'
 type: docs
 weight: 200

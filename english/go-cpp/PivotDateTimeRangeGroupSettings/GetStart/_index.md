@@ -1,7 +1,7 @@
 ---
 title: GetStart Method 
 linktitle: GetStart
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetStart method. Encapsulates the function that represents getstart in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: SetAutoFormatType Method 
 linktitle: SetAutoFormatType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetAutoFormatType method. Encapsulates the function that represents setautoformattype in Go.'
 type: docs
 weight: 200

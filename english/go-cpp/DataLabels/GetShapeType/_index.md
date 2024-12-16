@@ -1,7 +1,7 @@
 ---
 title: GetShapeType Method 
 linktitle: GetShapeType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetShapeType method. Encapsulates the function that represents getshapetype in Go.'
 type: docs
 weight: 200

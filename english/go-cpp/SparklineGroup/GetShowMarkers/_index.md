@@ -1,7 +1,7 @@
 ---
 title: GetShowMarkers Method 
 linktitle: GetShowMarkers
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetShowMarkers method. Encapsulates the function that represents getshowmarkers in Go.'
 type: docs
 weight: 200

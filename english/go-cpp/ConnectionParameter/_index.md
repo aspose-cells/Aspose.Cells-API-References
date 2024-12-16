@@ -1,7 +1,7 @@
 ---
 title: ConnectionParameter Class 
 linktitle: ConnectionParameter
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ConnectionParameter class. Encapsulates the object that represents connectionparameter in Go.'
 type: docs
 weight: 200

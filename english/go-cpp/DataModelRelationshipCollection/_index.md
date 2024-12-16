@@ -1,7 +1,7 @@
 ---
 title: DataModelRelationshipCollection Class 
 linktitle: DataModelRelationshipCollection
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'DataModelRelationshipCollection class. Encapsulates the object that represents datamodelrelationshipcollection in Go.'
 type: docs
 weight: 200

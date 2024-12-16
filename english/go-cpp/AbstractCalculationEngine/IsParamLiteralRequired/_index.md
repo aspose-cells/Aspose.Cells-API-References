@@ -1,7 +1,7 @@
 ---
 title: IsParamLiteralRequired Method 
 linktitle: IsParamLiteralRequired
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsParamLiteralRequired method. Encapsulates the function that represents isparamliteralrequired in Go.'
 type: docs
 weight: 200

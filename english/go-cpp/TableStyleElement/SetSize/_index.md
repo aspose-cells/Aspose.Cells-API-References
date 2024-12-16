@@ -1,7 +1,7 @@
 ---
 title: SetSize Method 
 linktitle: SetSize
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetSize method. Encapsulates the function that represents setsize in Go.'
 type: docs
 weight: 200

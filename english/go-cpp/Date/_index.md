@@ -1,7 +1,7 @@
 ---
 title: Date Struct 
 linktitle: Date
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'Date struct. Encapsulates the object that represents date in Go.'
 type: docs
 weight: 200

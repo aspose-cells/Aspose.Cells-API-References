@@ -1,7 +1,7 @@
 ---
 title: SetLighting Method 
 linktitle: SetLighting
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetLighting method. Encapsulates the function that represents setlighting in Go.'
 type: docs
 weight: 200

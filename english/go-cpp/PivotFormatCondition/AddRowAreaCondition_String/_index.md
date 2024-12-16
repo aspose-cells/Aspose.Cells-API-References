@@ -1,7 +1,7 @@
 ---
 title: AddRowAreaCondition_String Method 
 linktitle: AddRowAreaCondition
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'AddRowAreaCondition_String method. Encapsulates the function that represents addrowareacondition in Go.'
 type: docs
 weight: 200

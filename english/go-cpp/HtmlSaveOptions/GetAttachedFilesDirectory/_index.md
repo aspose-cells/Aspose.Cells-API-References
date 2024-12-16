@@ -1,7 +1,7 @@
 ---
 title: GetAttachedFilesDirectory Method 
 linktitle: GetAttachedFilesDirectory
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetAttachedFilesDirectory method. Encapsulates the function that represents getattachedfilesdirectory in Go.'
 type: docs
 weight: 200

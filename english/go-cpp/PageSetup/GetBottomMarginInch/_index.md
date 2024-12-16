@@ -1,7 +1,7 @@
 ---
 title: GetBottomMarginInch Method 
 linktitle: GetBottomMarginInch
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetBottomMarginInch method. Encapsulates the function that represents getbottommargininch in Go.'
 type: docs
 weight: 200

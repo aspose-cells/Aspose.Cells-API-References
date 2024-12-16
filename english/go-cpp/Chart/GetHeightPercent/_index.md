@@ -1,7 +1,7 @@
 ---
 title: GetHeightPercent Method 
 linktitle: GetHeightPercent
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetHeightPercent method. Encapsulates the function that represents getheightpercent in Go.'
 type: docs
 weight: 200

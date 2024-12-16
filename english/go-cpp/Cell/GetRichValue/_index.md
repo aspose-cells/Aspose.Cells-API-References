@@ -1,7 +1,7 @@
 ---
 title: GetRichValue Method 
 linktitle: GetRichValue
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetRichValue method. Encapsulates the function that represents getrichvalue in Go.'
 type: docs
 weight: 200

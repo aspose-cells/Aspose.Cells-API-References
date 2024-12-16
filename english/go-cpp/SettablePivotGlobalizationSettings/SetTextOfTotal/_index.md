@@ -1,7 +1,7 @@
 ---
 title: SetTextOfTotal Method 
 linktitle: SetTextOfTotal
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetTextOfTotal method. Encapsulates the function that represents settextoftotal in Go.'
 type: docs
 weight: 200

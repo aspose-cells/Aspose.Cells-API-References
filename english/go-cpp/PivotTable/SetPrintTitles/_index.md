@@ -1,7 +1,7 @@
 ---
 title: SetPrintTitles Method 
 linktitle: SetPrintTitles
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetPrintTitles method. Encapsulates the function that represents setprinttitles in Go.'
 type: docs
 weight: 200

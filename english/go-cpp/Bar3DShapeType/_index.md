@@ -1,7 +1,7 @@
 ---
 title: Bar3DShapeType Enum 
 linktitle: Bar3DShapeType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'Bar3DShapeType enum. Encapsulates the object that represents bar3dshapetype in Go.'
 type: docs
 weight: 200

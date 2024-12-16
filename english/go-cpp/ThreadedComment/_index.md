@@ -1,7 +1,7 @@
 ---
 title: ThreadedComment Class 
 linktitle: ThreadedComment
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ThreadedComment class. Encapsulates the object that represents threadedcomment in Go.'
 type: docs
 weight: 200

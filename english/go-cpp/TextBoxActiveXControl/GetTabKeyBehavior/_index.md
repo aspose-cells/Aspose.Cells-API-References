@@ -1,7 +1,7 @@
 ---
 title: GetTabKeyBehavior Method 
 linktitle: GetTabKeyBehavior
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetTabKeyBehavior method. Encapsulates the function that represents gettabkeybehavior in Go.'
 type: docs
 weight: 200

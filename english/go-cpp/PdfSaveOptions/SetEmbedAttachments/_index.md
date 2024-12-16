@@ -1,7 +1,7 @@
 ---
 title: SetEmbedAttachments Method 
 linktitle: SetEmbedAttachments
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetEmbedAttachments method. Encapsulates the function that represents setembedattachments in Go.'
 type: docs
 weight: 200

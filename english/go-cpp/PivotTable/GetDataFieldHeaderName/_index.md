@@ -1,7 +1,7 @@
 ---
 title: GetDataFieldHeaderName Method 
 linktitle: GetDataFieldHeaderName
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetDataFieldHeaderName method. Encapsulates the function that represents getdatafieldheadername in Go.'
 type: docs
 weight: 200

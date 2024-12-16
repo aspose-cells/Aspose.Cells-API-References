@@ -1,7 +1,7 @@
 ---
 title: GetRefreshPivotTables Method 
 linktitle: GetRefreshPivotTables
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetRefreshPivotTables method. Encapsulates the function that represents getrefreshpivottables in Go.'
 type: docs
 weight: 200

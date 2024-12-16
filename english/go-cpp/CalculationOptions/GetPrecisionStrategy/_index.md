@@ -1,7 +1,7 @@
 ---
 title: GetPrecisionStrategy Method 
 linktitle: GetPrecisionStrategy
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetPrecisionStrategy method. Encapsulates the function that represents getprecisionstrategy in Go.'
 type: docs
 weight: 200

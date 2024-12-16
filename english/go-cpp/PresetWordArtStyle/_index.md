@@ -1,7 +1,7 @@
 ---
 title: PresetWordArtStyle Enum 
 linktitle: PresetWordArtStyle
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'PresetWordArtStyle enum. Encapsulates the object that represents presetwordartstyle in Go.'
 type: docs
 weight: 200

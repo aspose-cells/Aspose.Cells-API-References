@@ -1,7 +1,7 @@
 ---
 title: SetIsFillApplied Method 
 linktitle: SetIsFillApplied
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetIsFillApplied method. Encapsulates the function that represents setisfillapplied in Go.'
 type: docs
 weight: 200

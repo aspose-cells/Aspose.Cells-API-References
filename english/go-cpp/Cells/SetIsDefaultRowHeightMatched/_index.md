@@ -1,7 +1,7 @@
 ---
 title: SetIsDefaultRowHeightMatched Method 
 linktitle: SetIsDefaultRowHeightMatched
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetIsDefaultRowHeightMatched method. Encapsulates the function that represents setisdefaultrowheightmatched in Go.'
 type: docs
 weight: 200

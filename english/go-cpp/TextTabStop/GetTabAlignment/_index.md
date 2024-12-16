@@ -1,7 +1,7 @@
 ---
 title: GetTabAlignment Method 
 linktitle: GetTabAlignment
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetTabAlignment method. Encapsulates the function that represents gettabalignment in Go.'
 type: docs
 weight: 200

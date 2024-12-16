@@ -1,7 +1,7 @@
 ---
 title: RevisionCollection Class 
 linktitle: RevisionCollection
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'RevisionCollection class. Encapsulates the object that represents revisioncollection in Go.'
 type: docs
 weight: 200

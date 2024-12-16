@@ -1,7 +1,7 @@
 ---
 title: SetAccessibilityExtractContent Method 
 linktitle: SetAccessibilityExtractContent
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetAccessibilityExtractContent method. Encapsulates the function that represents setaccessibilityextractcontent in Go.'
 type: docs
 weight: 200

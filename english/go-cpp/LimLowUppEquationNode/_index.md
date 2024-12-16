@@ -1,7 +1,7 @@
 ---
 title: LimLowUppEquationNode Class 
 linktitle: LimLowUppEquationNode
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'LimLowUppEquationNode class. Encapsulates the object that represents limlowuppequationnode in Go.'
 type: docs
 weight: 200

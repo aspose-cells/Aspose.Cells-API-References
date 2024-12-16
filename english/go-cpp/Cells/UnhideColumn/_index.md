@@ -1,7 +1,7 @@
 ---
 title: UnhideColumn Method 
 linktitle: UnhideColumn
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'UnhideColumn method. Encapsulates the function that represents unhidecolumn in Go.'
 type: docs
 weight: 200

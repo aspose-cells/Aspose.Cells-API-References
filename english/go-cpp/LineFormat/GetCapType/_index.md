@@ -1,7 +1,7 @@
 ---
 title: GetCapType Method 
 linktitle: GetCapType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetCapType method. Encapsulates the function that represents getcaptype in Go.'
 type: docs
 weight: 200

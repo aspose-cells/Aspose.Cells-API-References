@@ -1,7 +1,7 @@
 ---
 title: ListObjectCollection Class 
 linktitle: ListObjectCollection
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ListObjectCollection class. Encapsulates the object that represents listobjectcollection in Go.'
 type: docs
 weight: 200

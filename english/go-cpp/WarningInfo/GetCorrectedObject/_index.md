@@ -1,7 +1,7 @@
 ---
 title: GetCorrectedObject Method 
 linktitle: GetCorrectedObject
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetCorrectedObject method. Encapsulates the function that represents getcorrectedobject in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: WriteProtection Class 
 linktitle: WriteProtection
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'WriteProtection class. Encapsulates the object that represents writeprotection in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetPreserveFormatting Method 
 linktitle: GetPreserveFormatting
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetPreserveFormatting method. Encapsulates the function that represents getpreserveformatting in Go.'
 type: docs
 weight: 200

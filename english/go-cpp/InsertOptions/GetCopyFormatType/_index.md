@@ -1,7 +1,7 @@
 ---
 title: GetCopyFormatType Method 
 linktitle: GetCopyFormatType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetCopyFormatType method. Encapsulates the function that represents getcopyformattype in Go.'
 type: docs
 weight: 200

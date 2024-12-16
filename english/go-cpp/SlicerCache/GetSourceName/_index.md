@@ -1,7 +1,7 @@
 ---
 title: GetSourceName Method 
 linktitle: GetSourceName
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetSourceName method. Encapsulates the function that represents getsourcename in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: IsAutoSort Method 
 linktitle: IsAutoSort
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsAutoSort method. Encapsulates the function that represents isautosort in Go.'
 type: docs
 weight: 200

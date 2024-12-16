@@ -1,7 +1,7 @@
 ---
 title: SetShared Method 
 linktitle: SetShared
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetShared method. Encapsulates the function that represents setshared in Go.'
 type: docs
 weight: 200

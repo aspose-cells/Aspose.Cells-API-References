@@ -1,7 +1,7 @@
 ---
 title: GetShapeHeight Method 
 linktitle: GetShapeHeight
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetShapeHeight method. Encapsulates the function that represents getshapeheight in Go.'
 type: docs
 weight: 200

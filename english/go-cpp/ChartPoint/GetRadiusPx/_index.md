@@ -1,7 +1,7 @@
 ---
 title: GetRadiusPx Method 
 linktitle: GetRadiusPx
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetRadiusPx method. Encapsulates the function that represents getradiuspx in Go.'
 type: docs
 weight: 200

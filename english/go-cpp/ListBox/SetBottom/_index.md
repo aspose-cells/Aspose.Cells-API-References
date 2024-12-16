@@ -1,7 +1,7 @@
 ---
 title: SetBottom Method 
 linktitle: SetBottom
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetBottom method. Encapsulates the function that represents setbottom in Go.'
 type: docs
 weight: 200

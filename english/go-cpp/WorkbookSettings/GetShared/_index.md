@@ -1,7 +1,7 @@
 ---
 title: GetShared Method 
 linktitle: GetShared
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetShared method. Encapsulates the function that represents getshared in Go.'
 type: docs
 weight: 200

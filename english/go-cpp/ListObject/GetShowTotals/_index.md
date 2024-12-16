@@ -1,7 +1,7 @@
 ---
 title: GetShowTotals Method 
 linktitle: GetShowTotals
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetShowTotals method. Encapsulates the function that represents getshowtotals in Go.'
 type: docs
 weight: 200

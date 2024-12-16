@@ -1,7 +1,7 @@
 ---
 title: GetPictureSizeMode Method 
 linktitle: GetPictureSizeMode
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetPictureSizeMode method. Encapsulates the function that represents getpicturesizemode in Go.'
 type: docs
 weight: 200

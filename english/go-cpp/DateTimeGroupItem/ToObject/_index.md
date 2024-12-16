@@ -1,7 +1,7 @@
 ---
 title: ToObject Method 
 linktitle: ToObject
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ToObject method. Encapsulates the function that represents toobject in Go.'
 type: docs
 weight: 200

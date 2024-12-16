@@ -1,7 +1,7 @@
 ---
 title: PresetThemeGradientType Enum 
 linktitle: PresetThemeGradientType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'PresetThemeGradientType enum. Encapsulates the object that represents presetthemegradienttype in Go.'
 type: docs
 weight: 200

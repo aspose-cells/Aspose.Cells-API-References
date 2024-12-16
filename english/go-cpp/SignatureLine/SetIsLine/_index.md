@@ -1,7 +1,7 @@
 ---
 title: SetIsLine Method 
 linktitle: SetIsLine
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetIsLine method. Encapsulates the function that represents setisline in Go.'
 type: docs
 weight: 200

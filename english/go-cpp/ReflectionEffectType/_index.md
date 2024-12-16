@@ -1,7 +1,7 @@
 ---
 title: ReflectionEffectType Enum 
 linktitle: ReflectionEffectType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ReflectionEffectType enum. Encapsulates the object that represents reflectioneffecttype in Go.'
 type: docs
 weight: 200

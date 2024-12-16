@@ -1,7 +1,7 @@
 ---
 title: SetPrintWithStatusDialog Method 
 linktitle: SetPrintWithStatusDialog
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetPrintWithStatusDialog method. Encapsulates the function that represents setprintwithstatusdialog in Go.'
 type: docs
 weight: 200

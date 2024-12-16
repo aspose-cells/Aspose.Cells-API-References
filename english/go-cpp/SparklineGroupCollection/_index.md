@@ -1,7 +1,7 @@
 ---
 title: SparklineGroupCollection Class 
 linktitle: SparklineGroupCollection
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SparklineGroupCollection class. Encapsulates the object that represents sparklinegroupcollection in Go.'
 type: docs
 weight: 200

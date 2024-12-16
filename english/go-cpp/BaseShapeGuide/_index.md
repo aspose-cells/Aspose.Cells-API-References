@@ -1,7 +1,7 @@
 ---
 title: BaseShapeGuide Class 
 linktitle: BaseShapeGuide
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'BaseShapeGuide class. Encapsulates the object that represents baseshapeguide in Go.'
 type: docs
 weight: 200

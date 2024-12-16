@@ -1,7 +1,7 @@
 ---
 title: SetBuildVersion Method 
 linktitle: SetBuildVersion
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetBuildVersion method. Encapsulates the function that represents setbuildversion in Go.'
 type: docs
 weight: 200

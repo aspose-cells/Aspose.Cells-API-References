@@ -1,7 +1,7 @@
 ---
 title: SheetSet_GetAll Method 
 linktitle: GetAll
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SheetSet_GetAll method. Encapsulates the function that represents getall in Go.'
 type: docs
 weight: 200

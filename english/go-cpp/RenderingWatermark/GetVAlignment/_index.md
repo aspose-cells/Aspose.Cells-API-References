@@ -1,7 +1,7 @@
 ---
 title: GetVAlignment Method 
 linktitle: GetVAlignment
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetVAlignment method. Encapsulates the function that represents getvalignment in Go.'
 type: docs
 weight: 200

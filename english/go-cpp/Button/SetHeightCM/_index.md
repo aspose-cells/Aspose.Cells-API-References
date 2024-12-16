@@ -1,7 +1,7 @@
 ---
 title: SetHeightCM Method 
 linktitle: SetHeightCM
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetHeightCM method. Encapsulates the function that represents setheightcm in Go.'
 type: docs
 weight: 200

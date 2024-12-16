@@ -1,7 +1,7 @@
 ---
 title: GetSecondValueAxis Method 
 linktitle: GetSecondValueAxis
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetSecondValueAxis method. Encapsulates the function that represents getsecondvalueaxis in Go.'
 type: docs
 weight: 200

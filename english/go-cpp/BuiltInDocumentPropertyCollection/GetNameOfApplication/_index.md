@@ -1,7 +1,7 @@
 ---
 title: GetNameOfApplication Method 
 linktitle: GetNameOfApplication
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetNameOfApplication method. Encapsulates the function that represents getnameofapplication in Go.'
 type: docs
 weight: 200

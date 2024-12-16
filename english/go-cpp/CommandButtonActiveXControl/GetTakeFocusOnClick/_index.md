@@ -1,7 +1,7 @@
 ---
 title: GetTakeFocusOnClick Method 
 linktitle: GetTakeFocusOnClick
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetTakeFocusOnClick method. Encapsulates the function that represents gettakefocusonclick in Go.'
 type: docs
 weight: 200

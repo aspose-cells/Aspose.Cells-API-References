@@ -1,7 +1,7 @@
 ---
 title: GetDaysPreservingHistory Method 
 linktitle: GetDaysPreservingHistory
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetDaysPreservingHistory method. Encapsulates the function that represents getdayspreservinghistory in Go.'
 type: docs
 weight: 200

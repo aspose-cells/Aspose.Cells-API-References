@@ -1,7 +1,7 @@
 ---
 title: Comment Class 
 linktitle: Comment
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'Comment class. Encapsulates the object that represents comment in Go.'
 type: docs
 weight: 200

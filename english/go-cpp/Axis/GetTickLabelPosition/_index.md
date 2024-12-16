@@ -1,7 +1,7 @@
 ---
 title: GetTickLabelPosition Method 
 linktitle: GetTickLabelPosition
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetTickLabelPosition method. Encapsulates the function that represents getticklabelposition in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetStartRow Method 
 linktitle: GetStartRow
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetStartRow method. Encapsulates the function that represents getstartrow in Go.'
 type: docs
 weight: 200

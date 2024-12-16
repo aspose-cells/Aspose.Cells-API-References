@@ -1,7 +1,7 @@
 ---
 title: GetShapeY Method 
 linktitle: GetShapeY
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetShapeY method. Encapsulates the function that represents getshapey in Go.'
 type: docs
 weight: 200

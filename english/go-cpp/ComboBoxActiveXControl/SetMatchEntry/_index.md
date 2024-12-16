@@ -1,7 +1,7 @@
 ---
 title: SetMatchEntry Method 
 linktitle: SetMatchEntry
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetMatchEntry method. Encapsulates the function that represents setmatchentry in Go.'
 type: docs
 weight: 200

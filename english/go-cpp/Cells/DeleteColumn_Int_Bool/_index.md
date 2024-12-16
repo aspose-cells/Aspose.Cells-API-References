@@ -1,7 +1,7 @@
 ---
 title: DeleteColumn_Int_Bool Method 
 linktitle: DeleteColumn
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'DeleteColumn_Int_Bool method. Encapsulates the function that represents deletecolumn in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetFormat3D Method 
 linktitle: GetFormat3D
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetFormat3D method. Encapsulates the function that represents getformat3d in Go.'
 type: docs
 weight: 200

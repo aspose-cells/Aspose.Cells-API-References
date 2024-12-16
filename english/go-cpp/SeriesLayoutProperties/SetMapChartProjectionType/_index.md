@@ -1,7 +1,7 @@
 ---
 title: SetMapChartProjectionType Method 
 linktitle: SetMapChartProjectionType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetMapChartProjectionType method. Encapsulates the function that represents setmapchartprojectiontype in Go.'
 type: docs
 weight: 200

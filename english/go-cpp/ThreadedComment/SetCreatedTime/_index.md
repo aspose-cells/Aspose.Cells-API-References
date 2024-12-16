@@ -1,7 +1,7 @@
 ---
 title: SetCreatedTime Method 
 linktitle: SetCreatedTime
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetCreatedTime method. Encapsulates the function that represents setcreatedtime in Go.'
 type: docs
 weight: 200

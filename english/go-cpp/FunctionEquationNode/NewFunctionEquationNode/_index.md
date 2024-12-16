@@ -1,7 +1,7 @@
 ---
 title: FunctionEquationNode Constructor 
 linktitle: FunctionEquationNode
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'FunctionEquationNode constructor. Encapsulates the function that represents newfunctionequationnode in Go.'
 type: docs
 weight: 200

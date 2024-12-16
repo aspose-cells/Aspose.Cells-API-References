@@ -1,7 +1,7 @@
 ---
 title: GetCenterYPx Method 
 linktitle: GetCenterYPx
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetCenterYPx method. Encapsulates the function that represents getcenterypx in Go.'
 type: docs
 weight: 200

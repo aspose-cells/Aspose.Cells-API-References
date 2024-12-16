@@ -1,7 +1,7 @@
 ---
 title: DBConnection Class 
 linktitle: DBConnection
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'DBConnection class. Encapsulates the object that represents dbconnection in Go.'
 type: docs
 weight: 200

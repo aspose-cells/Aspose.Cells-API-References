@@ -1,7 +1,7 @@
 ---
 title: GetEnableFieldDialog Method 
 linktitle: GetEnableFieldDialog
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetEnableFieldDialog method. Encapsulates the function that represents getenablefielddialog in Go.'
 type: docs
 weight: 200

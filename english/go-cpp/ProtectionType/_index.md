@@ -1,7 +1,7 @@
 ---
 title: ProtectionType Enum 
 linktitle: ProtectionType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ProtectionType enum. Encapsulates the object that represents protectiontype in Go.'
 type: docs
 weight: 200

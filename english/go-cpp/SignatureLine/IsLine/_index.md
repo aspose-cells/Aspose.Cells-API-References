@@ -1,7 +1,7 @@
 ---
 title: IsLine Method 
 linktitle: IsLine
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsLine method. Encapsulates the function that represents isline in Go.'
 type: docs
 weight: 200

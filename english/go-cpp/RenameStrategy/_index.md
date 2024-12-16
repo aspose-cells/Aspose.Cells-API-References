@@ -1,7 +1,7 @@
 ---
 title: RenameStrategy Enum 
 linktitle: RenameStrategy
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'RenameStrategy enum. Encapsulates the object that represents renamestrategy in Go.'
 type: docs
 weight: 200

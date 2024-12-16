@@ -1,7 +1,7 @@
 ---
 title: InsertColumn_Int_Bool Method 
 linktitle: InsertColumn
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'InsertColumn_Int_Bool method. Encapsulates the function that represents insertcolumn in Go.'
 type: docs
 weight: 200

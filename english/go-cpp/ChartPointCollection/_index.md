@@ -1,7 +1,7 @@
 ---
 title: ChartPointCollection Class 
 linktitle: ChartPointCollection
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ChartPointCollection class. Encapsulates the object that represents chartpointcollection in Go.'
 type: docs
 weight: 200

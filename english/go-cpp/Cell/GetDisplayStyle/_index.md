@@ -1,7 +1,7 @@
 ---
 title: GetDisplayStyle Method 
 linktitle: GetDisplayStyle
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetDisplayStyle method. Encapsulates the function that represents getdisplaystyle in Go.'
 type: docs
 weight: 200

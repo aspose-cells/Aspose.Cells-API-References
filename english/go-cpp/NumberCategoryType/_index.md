@@ -1,7 +1,7 @@
 ---
 title: NumberCategoryType Enum 
 linktitle: NumberCategoryType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'NumberCategoryType enum. Encapsulates the object that represents numbercategorytype in Go.'
 type: docs
 weight: 200

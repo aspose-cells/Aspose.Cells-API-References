@@ -1,7 +1,7 @@
 ---
 title: GetUser Method 
 linktitle: GetUser
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetUser method. Encapsulates the function that represents getuser in Go.'
 type: docs
 weight: 200

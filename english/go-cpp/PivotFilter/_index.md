@@ -1,7 +1,7 @@
 ---
 title: PivotFilter Class 
 linktitle: PivotFilter
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'PivotFilter class. Encapsulates the object that represents pivotfilter in Go.'
 type: docs
 weight: 200

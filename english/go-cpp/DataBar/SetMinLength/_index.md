@@ -1,7 +1,7 @@
 ---
 title: SetMinLength Method 
 linktitle: SetMinLength
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetMinLength method. Encapsulates the function that represents setminlength in Go.'
 type: docs
 weight: 200

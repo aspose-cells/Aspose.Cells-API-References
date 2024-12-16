@@ -1,7 +1,7 @@
 ---
 title: VerticalPageBreak Class 
 linktitle: VerticalPageBreak
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'VerticalPageBreak class. Encapsulates the object that represents verticalpagebreak in Go.'
 type: docs
 weight: 200

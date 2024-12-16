@@ -1,7 +1,7 @@
 ---
 title: MatchNonBlanks Method 
 linktitle: MatchNonBlanks
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'MatchNonBlanks method. Encapsulates the function that represents matchnonblanks in Go.'
 type: docs
 weight: 200

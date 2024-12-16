@@ -1,7 +1,7 @@
 ---
 title: GetProcessBuiltInFunctions Method 
 linktitle: GetProcessBuiltInFunctions
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetProcessBuiltInFunctions method. Encapsulates the function that represents getprocessbuiltinfunctions in Go.'
 type: docs
 weight: 200

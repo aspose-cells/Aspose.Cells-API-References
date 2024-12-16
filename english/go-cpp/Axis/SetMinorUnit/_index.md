@@ -1,7 +1,7 @@
 ---
 title: SetMinorUnit Method 
 linktitle: SetMinorUnit
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetMinorUnit method. Encapsulates the function that represents setminorunit in Go.'
 type: docs
 weight: 200

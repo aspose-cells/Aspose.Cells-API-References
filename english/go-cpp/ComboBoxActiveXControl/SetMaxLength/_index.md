@@ -1,7 +1,7 @@
 ---
 title: SetMaxLength Method 
 linktitle: SetMaxLength
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetMaxLength method. Encapsulates the function that represents setmaxlength in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: RevisionAutoFormat Constructor 
 linktitle: RevisionAutoFormat
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'RevisionAutoFormat constructor. Encapsulates the function that represents newrevisionautoformat in Go.'
 type: docs
 weight: 200

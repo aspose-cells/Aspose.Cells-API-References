@@ -1,7 +1,7 @@
 ---
 title: PivotFieldDataDisplayFormat Enum 
 linktitle: PivotFieldDataDisplayFormat
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'PivotFieldDataDisplayFormat enum. Encapsulates the object that represents pivotfielddatadisplayformat in Go.'
 type: docs
 weight: 200

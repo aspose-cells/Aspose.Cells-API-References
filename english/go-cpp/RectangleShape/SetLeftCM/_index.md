@@ -1,7 +1,7 @@
 ---
 title: SetLeftCM Method 
 linktitle: SetLeftCM
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetLeftCM method. Encapsulates the function that represents setleftcm in Go.'
 type: docs
 weight: 200

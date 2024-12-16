@@ -1,7 +1,7 @@
 ---
 title: SetEncodeEntityAsCode Method 
 linktitle: SetEncodeEntityAsCode
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetEncodeEntityAsCode method. Encapsulates the function that represents setencodeentityascode in Go.'
 type: docs
 weight: 200

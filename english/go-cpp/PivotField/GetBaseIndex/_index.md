@@ -1,7 +1,7 @@
 ---
 title: GetBaseIndex Method 
 linktitle: GetBaseIndex
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetBaseIndex method. Encapsulates the function that represents getbaseindex in Go.'
 type: docs
 weight: 200

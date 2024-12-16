@@ -1,7 +1,7 @@
 ---
 title: GetCommandType Method 
 linktitle: GetCommandType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetCommandType method. Encapsulates the function that represents getcommandtype in Go.'
 type: docs
 weight: 200

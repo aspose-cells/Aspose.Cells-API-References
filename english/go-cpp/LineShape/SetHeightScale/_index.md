@@ -1,7 +1,7 @@
 ---
 title: SetHeightScale Method 
 linktitle: SetHeightScale
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetHeightScale method. Encapsulates the function that represents setheightscale in Go.'
 type: docs
 weight: 200

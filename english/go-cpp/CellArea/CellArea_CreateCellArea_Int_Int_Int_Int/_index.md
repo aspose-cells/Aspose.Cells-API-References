@@ -1,7 +1,7 @@
 ---
 title: CellArea_CreateCellArea_Int_Int_Int_Int Method 
 linktitle: CreateCellArea
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'CellArea_CreateCellArea_Int_Int_Int_Int method. Encapsulates the function that represents createcellarea in Go.'
 type: docs
 weight: 200

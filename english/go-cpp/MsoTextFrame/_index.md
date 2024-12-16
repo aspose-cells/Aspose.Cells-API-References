@@ -1,7 +1,7 @@
 ---
 title: MsoTextFrame Class 
 linktitle: MsoTextFrame
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'MsoTextFrame class. Encapsulates the object that represents msotextframe in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: SetDefaultTableStyleName Method 
 linktitle: SetDefaultTableStyleName
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetDefaultTableStyleName method. Encapsulates the function that represents setdefaulttablestylename in Go.'
 type: docs
 weight: 200

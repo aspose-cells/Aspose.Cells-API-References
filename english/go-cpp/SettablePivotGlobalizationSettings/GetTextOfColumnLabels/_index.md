@@ -1,7 +1,7 @@
 ---
 title: GetTextOfColumnLabels Method 
 linktitle: GetTextOfColumnLabels
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetTextOfColumnLabels method. Encapsulates the function that represents gettextofcolumnlabels in Go.'
 type: docs
 weight: 200

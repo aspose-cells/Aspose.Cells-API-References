@@ -1,7 +1,7 @@
 ---
 title: GetSchemeType Method 
 linktitle: GetSchemeType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetSchemeType method. Encapsulates the function that represents getschemetype in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetDisplayType Method 
 linktitle: GetDisplayType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetDisplayType method. Encapsulates the function that represents getdisplaytype in Go.'
 type: docs
 weight: 200

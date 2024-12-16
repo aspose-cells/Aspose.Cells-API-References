@@ -1,7 +1,7 @@
 ---
 title: AddSpinner Method 
 linktitle: AddSpinner
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'AddSpinner method. Encapsulates the function that represents addspinner in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: SmartTagPropertyCollection Class 
 linktitle: SmartTagPropertyCollection
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SmartTagPropertyCollection class. Encapsulates the object that represents smarttagpropertycollection in Go.'
 type: docs
 weight: 200

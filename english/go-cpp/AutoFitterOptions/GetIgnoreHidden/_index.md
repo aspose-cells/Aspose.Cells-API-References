@@ -1,7 +1,7 @@
 ---
 title: GetIgnoreHidden Method 
 linktitle: GetIgnoreHidden
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetIgnoreHidden method. Encapsulates the function that represents getignorehidden in Go.'
 type: docs
 weight: 200

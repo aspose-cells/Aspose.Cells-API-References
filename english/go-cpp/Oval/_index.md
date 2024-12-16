@@ -1,7 +1,7 @@
 ---
 title: Oval Class 
 linktitle: Oval
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'Oval class. Encapsulates the object that represents oval in Go.'
 type: docs
 weight: 200

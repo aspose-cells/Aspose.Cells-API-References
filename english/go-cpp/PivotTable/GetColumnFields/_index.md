@@ -1,7 +1,7 @@
 ---
 title: GetColumnFields Method 
 linktitle: GetColumnFields
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetColumnFields method. Encapsulates the function that represents getcolumnfields in Go.'
 type: docs
 weight: 200

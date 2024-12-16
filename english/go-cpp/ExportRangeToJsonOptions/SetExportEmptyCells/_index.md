@@ -1,7 +1,7 @@
 ---
 title: SetExportEmptyCells Method 
 linktitle: SetExportEmptyCells
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetExportEmptyCells method. Encapsulates the function that represents setexportemptycells in Go.'
 type: docs
 weight: 200

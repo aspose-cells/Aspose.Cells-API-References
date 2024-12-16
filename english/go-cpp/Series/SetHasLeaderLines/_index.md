@@ -1,7 +1,7 @@
 ---
 title: SetHasLeaderLines Method 
 linktitle: SetHasLeaderLines
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetHasLeaderLines method. Encapsulates the function that represents sethasleaderlines in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: SetListSeparator Method 
 linktitle: SetListSeparator
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetListSeparator method. Encapsulates the function that represents setlistseparator in Go.'
 type: docs
 weight: 200

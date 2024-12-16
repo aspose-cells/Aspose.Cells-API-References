@@ -1,7 +1,7 @@
 ---
 title: SetVisibilityType Method 
 linktitle: SetVisibilityType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetVisibilityType method. Encapsulates the function that represents setvisibilitytype in Go.'
 type: docs
 weight: 200

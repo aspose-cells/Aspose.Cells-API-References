@@ -1,7 +1,7 @@
 ---
 title: GetTableRowTypeOfHeaders Method 
 linktitle: GetTableRowTypeOfHeaders
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetTableRowTypeOfHeaders method. Encapsulates the function that represents gettablerowtypeofheaders in Go.'
 type: docs
 weight: 200

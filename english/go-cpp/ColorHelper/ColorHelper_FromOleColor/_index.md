@@ -1,7 +1,7 @@
 ---
 title: ColorHelper_FromOleColor Method 
 linktitle: FromOleColor
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ColorHelper_FromOleColor method. Encapsulates the function that represents fromolecolor in Go.'
 type: docs
 weight: 200

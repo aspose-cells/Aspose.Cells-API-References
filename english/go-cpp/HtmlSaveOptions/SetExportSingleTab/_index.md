@@ -1,7 +1,7 @@
 ---
 title: SetExportSingleTab Method 
 linktitle: SetExportSingleTab
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetExportSingleTab method. Encapsulates the function that represents setexportsingletab in Go.'
 type: docs
 weight: 200

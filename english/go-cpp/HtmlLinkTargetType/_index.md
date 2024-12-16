@@ -1,7 +1,7 @@
 ---
 title: HtmlLinkTargetType Enum 
 linktitle: HtmlLinkTargetType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'HtmlLinkTargetType enum. Encapsulates the object that represents htmllinktargettype in Go.'
 type: docs
 weight: 200

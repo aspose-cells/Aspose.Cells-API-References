@@ -1,7 +1,7 @@
 ---
 title: GetSeriesAxis Method 
 linktitle: GetSeriesAxis
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetSeriesAxis method. Encapsulates the function that represents getseriesaxis in Go.'
 type: docs
 weight: 200

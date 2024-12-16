@@ -1,7 +1,7 @@
 ---
 title: SetShowAllSheets Method 
 linktitle: SetShowAllSheets
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetShowAllSheets method. Encapsulates the function that represents setshowallsheets in Go.'
 type: docs
 weight: 200

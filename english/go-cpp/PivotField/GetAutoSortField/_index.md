@@ -1,7 +1,7 @@
 ---
 title: GetAutoSortField Method 
 linktitle: GetAutoSortField
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetAutoSortField method. Encapsulates the function that represents getautosortfield in Go.'
 type: docs
 weight: 200

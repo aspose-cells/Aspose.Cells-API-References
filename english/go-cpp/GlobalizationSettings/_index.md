@@ -1,7 +1,7 @@
 ---
 title: GlobalizationSettings Class 
 linktitle: GlobalizationSettings
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GlobalizationSettings class. Encapsulates the object that represents globalizationsettings in Go.'
 type: docs
 weight: 200

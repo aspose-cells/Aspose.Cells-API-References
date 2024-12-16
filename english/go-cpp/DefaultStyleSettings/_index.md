@@ -1,7 +1,7 @@
 ---
 title: DefaultStyleSettings Class 
 linktitle: DefaultStyleSettings
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'DefaultStyleSettings class. Encapsulates the object that represents defaultstylesettings in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: SetIsMultipleItemSelectionAllowed Method 
 linktitle: SetIsMultipleItemSelectionAllowed
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetIsMultipleItemSelectionAllowed method. Encapsulates the function that represents setismultipleitemselectionallowed in Go.'
 type: docs
 weight: 200

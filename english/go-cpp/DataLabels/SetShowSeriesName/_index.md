@@ -1,7 +1,7 @@
 ---
 title: SetShowSeriesName Method 
 linktitle: SetShowSeriesName
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetShowSeriesName method. Encapsulates the function that represents setshowseriesname in Go.'
 type: docs
 weight: 200

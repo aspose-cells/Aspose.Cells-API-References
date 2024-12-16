@@ -1,7 +1,7 @@
 ---
 title: GetConditionalFormattingIcon Method 
 linktitle: GetConditionalFormattingIcon
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetConditionalFormattingIcon method. Encapsulates the function that represents getconditionalformattingicon in Go.'
 type: docs
 weight: 200

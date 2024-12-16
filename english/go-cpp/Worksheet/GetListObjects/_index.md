@@ -1,7 +1,7 @@
 ---
 title: GetListObjects Method 
 linktitle: GetListObjects
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetListObjects method. Encapsulates the function that represents getlistobjects in Go.'
 type: docs
 weight: 200

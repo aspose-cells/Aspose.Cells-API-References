@@ -1,7 +1,7 @@
 ---
 title: FormulaParseOptions Class 
 linktitle: FormulaParseOptions
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'FormulaParseOptions class. Encapsulates the object that represents formulaparseoptions in Go.'
 type: docs
 weight: 200

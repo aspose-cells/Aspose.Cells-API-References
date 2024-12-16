@@ -1,7 +1,7 @@
 ---
 title: License Class 
 linktitle: License
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'License class. Encapsulates the object that represents license in Go.'
 type: docs
 weight: 200

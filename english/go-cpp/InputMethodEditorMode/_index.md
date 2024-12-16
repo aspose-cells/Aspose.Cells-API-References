@@ -1,7 +1,7 @@
 ---
 title: InputMethodEditorMode Enum 
 linktitle: InputMethodEditorMode
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'InputMethodEditorMode enum. Encapsulates the object that represents inputmethodeditormode in Go.'
 type: docs
 weight: 200

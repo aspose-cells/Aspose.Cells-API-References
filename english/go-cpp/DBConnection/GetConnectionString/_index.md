@@ -1,7 +1,7 @@
 ---
 title: GetConnectionString Method 
 linktitle: GetConnectionString
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetConnectionString method. Encapsulates the function that represents getconnectionstring in Go.'
 type: docs
 weight: 200

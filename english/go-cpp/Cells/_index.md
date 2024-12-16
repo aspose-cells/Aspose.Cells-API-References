@@ -1,7 +1,7 @@
 ---
 title: Cells Class 
 linktitle: Cells
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'Cells class. Encapsulates the object that represents cells in Go.'
 type: docs
 weight: 200

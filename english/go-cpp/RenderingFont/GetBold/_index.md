@@ -1,7 +1,7 @@
 ---
 title: GetBold Method 
 linktitle: GetBold
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetBold method. Encapsulates the function that represents getbold in Go.'
 type: docs
 weight: 200

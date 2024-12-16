@@ -1,7 +1,7 @@
 ---
 title: GetBaseJc Method 
 linktitle: GetBaseJc
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetBaseJc method. Encapsulates the function that represents getbasejc in Go.'
 type: docs
 weight: 200

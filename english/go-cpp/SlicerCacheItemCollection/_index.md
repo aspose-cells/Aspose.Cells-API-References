@@ -1,7 +1,7 @@
 ---
 title: SlicerCacheItemCollection Class 
 linktitle: SlicerCacheItemCollection
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SlicerCacheItemCollection class. Encapsulates the object that represents slicercacheitemcollection in Go.'
 type: docs
 weight: 200

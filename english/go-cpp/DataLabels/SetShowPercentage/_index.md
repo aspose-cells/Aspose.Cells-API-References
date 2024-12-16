@@ -1,7 +1,7 @@
 ---
 title: SetShowPercentage Method 
 linktitle: SetShowPercentage
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetShowPercentage method. Encapsulates the function that represents setshowpercentage in Go.'
 type: docs
 weight: 200

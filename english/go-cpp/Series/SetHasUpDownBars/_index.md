@@ -1,7 +1,7 @@
 ---
 title: SetHasUpDownBars Method 
 linktitle: SetHasUpDownBars
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetHasUpDownBars method. Encapsulates the function that represents sethasupdownbars in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: SetIsFormulaHidden Method 
 linktitle: SetIsFormulaHidden
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetIsFormulaHidden method. Encapsulates the function that represents setisformulahidden in Go.'
 type: docs
 weight: 200

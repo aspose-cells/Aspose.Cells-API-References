@@ -1,7 +1,7 @@
 ---
 title: SetColumnCount Method 
 linktitle: SetColumnCount
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetColumnCount method. Encapsulates the function that represents setcolumncount in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetRefreshOnChange Method 
 linktitle: GetRefreshOnChange
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetRefreshOnChange method. Encapsulates the function that represents getrefreshonchange in Go.'
 type: docs
 weight: 200

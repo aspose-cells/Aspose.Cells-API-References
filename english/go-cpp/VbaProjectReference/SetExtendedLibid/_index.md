@@ -1,7 +1,7 @@
 ---
 title: SetExtendedLibid Method 
 linktitle: SetExtendedLibid
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetExtendedLibid method. Encapsulates the function that represents setextendedlibid in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetLineWeight Method 
 linktitle: GetLineWeight
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetLineWeight method. Encapsulates the function that represents getlineweight in Go.'
 type: docs
 weight: 200

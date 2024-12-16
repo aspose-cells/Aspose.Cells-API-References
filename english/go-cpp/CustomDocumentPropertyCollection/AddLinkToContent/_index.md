@@ -1,7 +1,7 @@
 ---
 title: AddLinkToContent Method 
 linktitle: AddLinkToContent
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'AddLinkToContent method. Encapsulates the function that represents addlinktocontent in Go.'
 type: docs
 weight: 200

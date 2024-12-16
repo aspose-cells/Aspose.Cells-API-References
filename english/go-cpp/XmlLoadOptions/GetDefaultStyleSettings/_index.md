@@ -1,7 +1,7 @@
 ---
 title: GetDefaultStyleSettings Method 
 linktitle: GetDefaultStyleSettings
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetDefaultStyleSettings method. Encapsulates the function that represents getdefaultstylesettings in Go.'
 type: docs
 weight: 200

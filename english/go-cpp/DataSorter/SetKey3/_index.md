@@ -1,7 +1,7 @@
 ---
 title: SetKey3 Method 
 linktitle: SetKey3
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetKey3 method. Encapsulates the function that represents setkey3 in Go.'
 type: docs
 weight: 200

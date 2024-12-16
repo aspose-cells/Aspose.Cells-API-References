@@ -1,7 +1,7 @@
 ---
 title: SetIsDropdownVisible Method 
 linktitle: SetIsDropdownVisible
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetIsDropdownVisible method. Encapsulates the function that represents setisdropdownvisible in Go.'
 type: docs
 weight: 200

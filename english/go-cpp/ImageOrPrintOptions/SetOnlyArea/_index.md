@@ -1,7 +1,7 @@
 ---
 title: SetOnlyArea Method 
 linktitle: SetOnlyArea
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetOnlyArea method. Encapsulates the function that represents setonlyarea in Go.'
 type: docs
 weight: 200

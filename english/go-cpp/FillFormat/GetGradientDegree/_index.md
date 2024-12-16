@@ -1,7 +1,7 @@
 ---
 title: GetGradientDegree Method 
 linktitle: GetGradientDegree
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetGradientDegree method. Encapsulates the function that represents getgradientdegree in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetShowType Method 
 linktitle: GetShowType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetShowType method. Encapsulates the function that represents getshowtype in Go.'
 type: docs
 weight: 200

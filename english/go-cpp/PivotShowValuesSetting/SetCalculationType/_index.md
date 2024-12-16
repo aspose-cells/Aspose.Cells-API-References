@@ -1,7 +1,7 @@
 ---
 title: SetCalculationType Method 
 linktitle: SetCalculationType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetCalculationType method. Encapsulates the function that represents setcalculationtype in Go.'
 type: docs
 weight: 200

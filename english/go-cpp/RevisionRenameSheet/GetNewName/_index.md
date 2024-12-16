@@ -1,7 +1,7 @@
 ---
 title: GetNewName Method 
 linktitle: GetNewName
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetNewName method. Encapsulates the function that represents getnewname in Go.'
 type: docs
 weight: 200

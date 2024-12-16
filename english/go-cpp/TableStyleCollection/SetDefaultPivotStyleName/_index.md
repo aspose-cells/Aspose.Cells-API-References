@@ -1,7 +1,7 @@
 ---
 title: SetDefaultPivotStyleName Method 
 linktitle: SetDefaultPivotStyleName
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetDefaultPivotStyleName method. Encapsulates the function that represents setdefaultpivotstylename in Go.'
 type: docs
 weight: 200

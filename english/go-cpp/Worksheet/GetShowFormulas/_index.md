@@ -1,7 +1,7 @@
 ---
 title: GetShowFormulas Method 
 linktitle: GetShowFormulas
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetShowFormulas method. Encapsulates the function that represents getshowformulas in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: TxtLoadOptions Class 
 linktitle: TxtLoadOptions
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'TxtLoadOptions class. Encapsulates the object that represents txtloadoptions in Go.'
 type: docs
 weight: 200

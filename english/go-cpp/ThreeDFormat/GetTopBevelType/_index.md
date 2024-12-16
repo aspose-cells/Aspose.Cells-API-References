@@ -1,7 +1,7 @@
 ---
 title: GetTopBevelType Method 
 linktitle: GetTopBevelType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetTopBevelType method. Encapsulates the function that represents gettopbeveltype in Go.'
 type: docs
 weight: 200

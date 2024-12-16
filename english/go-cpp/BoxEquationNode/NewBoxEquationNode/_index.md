@@ -1,7 +1,7 @@
 ---
 title: BoxEquationNode Constructor 
 linktitle: BoxEquationNode
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'BoxEquationNode constructor. Encapsulates the function that represents newboxequationnode in Go.'
 type: docs
 weight: 200

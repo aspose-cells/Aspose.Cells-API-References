@@ -1,7 +1,7 @@
 ---
 title: SetExportCellName Method 
 linktitle: SetExportCellName
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetExportCellName method. Encapsulates the function that represents setexportcellname in Go.'
 type: docs
 weight: 200

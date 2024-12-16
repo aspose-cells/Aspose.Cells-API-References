@@ -1,7 +1,7 @@
 ---
 title: GetInnerX Method 
 linktitle: GetInnerX
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetInnerX method. Encapsulates the function that represents getinnerx in Go.'
 type: docs
 weight: 200

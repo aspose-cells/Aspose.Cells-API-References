@@ -1,7 +1,7 @@
 ---
 title: GetEncodeEntityAsCode Method 
 linktitle: GetEncodeEntityAsCode
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetEncodeEntityAsCode method. Encapsulates the function that represents getencodeentityascode in Go.'
 type: docs
 weight: 200

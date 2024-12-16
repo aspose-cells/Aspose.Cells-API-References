@@ -1,7 +1,7 @@
 ---
 title: EncryptionType Enum 
 linktitle: EncryptionType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'EncryptionType enum. Encapsulates the object that represents encryptiontype in Go.'
 type: docs
 weight: 200

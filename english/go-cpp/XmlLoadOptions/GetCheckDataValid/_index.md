@@ -1,7 +1,7 @@
 ---
 title: GetCheckDataValid Method 
 linktitle: GetCheckDataValid
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetCheckDataValid method. Encapsulates the function that represents getcheckdatavalid in Go.'
 type: docs
 weight: 200

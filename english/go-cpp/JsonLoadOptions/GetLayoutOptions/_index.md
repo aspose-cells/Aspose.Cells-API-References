@@ -1,7 +1,7 @@
 ---
 title: GetLayoutOptions Method 
 linktitle: GetLayoutOptions
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetLayoutOptions method. Encapsulates the function that represents getlayoutoptions in Go.'
 type: docs
 weight: 200

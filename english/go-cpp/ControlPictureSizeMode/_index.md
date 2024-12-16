@@ -1,7 +1,7 @@
 ---
 title: ControlPictureSizeMode Enum 
 linktitle: ControlPictureSizeMode
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ControlPictureSizeMode enum. Encapsulates the object that represents controlpicturesizemode in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetMemorySetting Method 
 linktitle: GetMemorySetting
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetMemorySetting method. Encapsulates the function that represents getmemorysetting in Go.'
 type: docs
 weight: 200

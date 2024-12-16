@@ -1,7 +1,7 @@
 ---
 title: RenderingFont Class 
 linktitle: RenderingFont
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'RenderingFont class. Encapsulates the object that represents renderingfont in Go.'
 type: docs
 weight: 200

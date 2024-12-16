@@ -1,7 +1,7 @@
 ---
 title: GetTop10Value Method 
 linktitle: GetTop10Value
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetTop10Value method. Encapsulates the function that represents gettop10value in Go.'
 type: docs
 weight: 200

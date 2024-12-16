@@ -1,7 +1,7 @@
 ---
 title: AutoFitterOptions Class 
 linktitle: AutoFitterOptions
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'AutoFitterOptions class. Encapsulates the object that represents autofitteroptions in Go.'
 type: docs
 weight: 200

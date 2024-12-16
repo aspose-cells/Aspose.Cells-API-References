@@ -1,7 +1,7 @@
 ---
 title: IsNeverOverlap Method 
 linktitle: IsNeverOverlap
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsNeverOverlap method. Encapsulates the function that represents isneveroverlap in Go.'
 type: docs
 weight: 200

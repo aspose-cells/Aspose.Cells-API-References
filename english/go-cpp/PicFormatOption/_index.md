@@ -1,7 +1,7 @@
 ---
 title: PicFormatOption Class 
 linktitle: PicFormatOption
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'PicFormatOption class. Encapsulates the object that represents picformatoption in Go.'
 type: docs
 weight: 200

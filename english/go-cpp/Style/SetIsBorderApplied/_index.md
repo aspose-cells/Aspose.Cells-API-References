@@ -1,7 +1,7 @@
 ---
 title: SetIsBorderApplied Method 
 linktitle: SetIsBorderApplied
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetIsBorderApplied method. Encapsulates the function that represents setisborderapplied in Go.'
 type: docs
 weight: 200

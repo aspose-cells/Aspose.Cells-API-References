@@ -1,7 +1,7 @@
 ---
 title: SetPrintErrors Method 
 linktitle: SetPrintErrors
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetPrintErrors method. Encapsulates the function that represents setprinterrors in Go.'
 type: docs
 weight: 200

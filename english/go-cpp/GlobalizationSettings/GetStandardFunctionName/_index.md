@@ -1,7 +1,7 @@
 ---
 title: GetStandardFunctionName Method 
 linktitle: GetStandardFunctionName
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetStandardFunctionName method. Encapsulates the function that represents getstandardfunctionname in Go.'
 type: docs
 weight: 200

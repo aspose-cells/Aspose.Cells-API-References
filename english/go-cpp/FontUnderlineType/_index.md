@@ -1,7 +1,7 @@
 ---
 title: FontUnderlineType Enum 
 linktitle: FontUnderlineType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'FontUnderlineType enum. Encapsulates the object that represents fontunderlinetype in Go.'
 type: docs
 weight: 200

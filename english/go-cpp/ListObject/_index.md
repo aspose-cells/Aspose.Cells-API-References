@@ -1,7 +1,7 @@
 ---
 title: ListObject Class 
 linktitle: ListObject
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ListObject class. Encapsulates the object that represents listobject in Go.'
 type: docs
 weight: 200

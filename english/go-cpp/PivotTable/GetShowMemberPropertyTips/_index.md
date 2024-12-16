@@ -1,7 +1,7 @@
 ---
 title: GetShowMemberPropertyTips Method 
 linktitle: GetShowMemberPropertyTips
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetShowMemberPropertyTips method. Encapsulates the function that represents getshowmemberpropertytips in Go.'
 type: docs
 weight: 200

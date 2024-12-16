@@ -1,7 +1,7 @@
 ---
 title: SetDropZoneFilter Method 
 linktitle: SetDropZoneFilter
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetDropZoneFilter method. Encapsulates the function that represents setdropzonefilter in Go.'
 type: docs
 weight: 200

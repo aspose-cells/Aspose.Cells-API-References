@@ -1,7 +1,7 @@
 ---
 title: GetListSeparator Method 
 linktitle: GetListSeparator
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetListSeparator method. Encapsulates the function that represents getlistseparator in Go.'
 type: docs
 weight: 200

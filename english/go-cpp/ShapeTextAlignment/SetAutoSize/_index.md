@@ -1,7 +1,7 @@
 ---
 title: SetAutoSize Method 
 linktitle: SetAutoSize
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetAutoSize method. Encapsulates the function that represents setautosize in Go.'
 type: docs
 weight: 200

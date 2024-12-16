@@ -1,7 +1,7 @@
 ---
 title: SetPlotRightToLeft Method 
 linktitle: SetPlotRightToLeft
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetPlotRightToLeft method. Encapsulates the function that represents setplotrighttoleft in Go.'
 type: docs
 weight: 200

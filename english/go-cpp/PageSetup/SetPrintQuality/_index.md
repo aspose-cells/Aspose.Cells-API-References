@@ -1,7 +1,7 @@
 ---
 title: SetPrintQuality Method 
 linktitle: SetPrintQuality
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetPrintQuality method. Encapsulates the function that represents setprintquality in Go.'
 type: docs
 weight: 200

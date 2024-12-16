@@ -1,7 +1,7 @@
 ---
 title: GetNamedStyle Method 
 linktitle: GetNamedStyle
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetNamedStyle method. Encapsulates the function that represents getnamedstyle in Go.'
 type: docs
 weight: 200

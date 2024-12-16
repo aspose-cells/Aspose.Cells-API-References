@@ -1,7 +1,7 @@
 ---
 title: SetTexture Method 
 linktitle: SetTexture
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetTexture method. Encapsulates the function that represents settexture in Go.'
 type: docs
 weight: 200

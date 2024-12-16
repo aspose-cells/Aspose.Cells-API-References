@@ -1,7 +1,7 @@
 ---
 title: SetAbsolutePath Method 
 linktitle: SetAbsolutePath
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetAbsolutePath method. Encapsulates the function that represents setabsolutepath in Go.'
 type: docs
 weight: 200

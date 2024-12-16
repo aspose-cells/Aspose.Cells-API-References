@@ -1,7 +1,7 @@
 ---
 title: GetOnlyLabel Method 
 linktitle: GetOnlyLabel
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetOnlyLabel method. Encapsulates the function that represents getonlylabel in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetCurrentPage Method 
 linktitle: GetCurrentPage
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetCurrentPage method. Encapsulates the function that represents getcurrentpage in Go.'
 type: docs
 weight: 200

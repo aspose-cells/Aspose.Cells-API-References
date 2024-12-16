@@ -1,7 +1,7 @@
 ---
 title: CheckBoxCollection Class 
 linktitle: CheckBoxCollection
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'CheckBoxCollection class. Encapsulates the object that represents checkboxcollection in Go.'
 type: docs
 weight: 200

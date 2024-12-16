@@ -1,7 +1,7 @@
 ---
 title: SetReconnectionMethodType Method 
 linktitle: SetReconnectionMethodType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetReconnectionMethodType method. Encapsulates the function that represents setreconnectionmethodtype in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetMetadataTable Method 
 linktitle: GetMetadataTable
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetMetadataTable method. Encapsulates the function that represents getmetadatatable in Go.'
 type: docs
 weight: 200

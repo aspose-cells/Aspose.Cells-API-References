@@ -1,7 +1,7 @@
 ---
 title: AbstractFormulaChangeMonitor Class 
 linktitle: AbstractFormulaChangeMonitor
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'AbstractFormulaChangeMonitor class. Encapsulates the object that represents abstractformulachangemonitor in Go.'
 type: docs
 weight: 200

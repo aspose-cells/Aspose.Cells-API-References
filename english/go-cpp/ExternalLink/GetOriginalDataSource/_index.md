@@ -1,7 +1,7 @@
 ---
 title: GetOriginalDataSource Method 
 linktitle: GetOriginalDataSource
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetOriginalDataSource method. Encapsulates the function that represents getoriginaldatasource in Go.'
 type: docs
 weight: 200

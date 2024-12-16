@@ -1,7 +1,7 @@
 ---
 title: DateTimeGroupItem Class 
 linktitle: DateTimeGroupItem
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'DateTimeGroupItem class. Encapsulates the object that represents datetimegroupitem in Go.'
 type: docs
 weight: 200

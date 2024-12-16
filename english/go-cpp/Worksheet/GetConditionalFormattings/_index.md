@@ -1,7 +1,7 @@
 ---
 title: GetConditionalFormattings Method 
 linktitle: GetConditionalFormattings
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetConditionalFormattings method. Encapsulates the function that represents getconditionalformattings in Go.'
 type: docs
 weight: 200

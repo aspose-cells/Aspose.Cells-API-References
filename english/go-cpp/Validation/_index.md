@@ -1,7 +1,7 @@
 ---
 title: Validation Class 
 linktitle: Validation
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'Validation class. Encapsulates the object that represents validation in Go.'
 type: docs
 weight: 200

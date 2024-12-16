@@ -1,7 +1,7 @@
 ---
 title: SelectByID Method 
 linktitle: SelectByID
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SelectByID method. Encapsulates the function that represents selectbyid in Go.'
 type: docs
 weight: 200

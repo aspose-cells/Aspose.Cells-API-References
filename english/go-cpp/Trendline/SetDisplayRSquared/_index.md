@@ -1,7 +1,7 @@
 ---
 title: SetDisplayRSquared Method 
 linktitle: SetDisplayRSquared
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetDisplayRSquared method. Encapsulates the function that represents setdisplayrsquared in Go.'
 type: docs
 weight: 200

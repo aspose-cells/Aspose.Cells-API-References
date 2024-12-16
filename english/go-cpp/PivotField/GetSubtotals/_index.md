@@ -1,7 +1,7 @@
 ---
 title: GetSubtotals Method 
 linktitle: GetSubtotals
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetSubtotals method. Encapsulates the function that represents getsubtotals in Go.'
 type: docs
 weight: 200

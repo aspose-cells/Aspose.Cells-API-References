@@ -1,7 +1,7 @@
 ---
 title: GetRepeatItemsOnEachPrintedPage Method 
 linktitle: GetRepeatItemsOnEachPrintedPage
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetRepeatItemsOnEachPrintedPage method. Encapsulates the function that represents getrepeatitemsoneachprintedpage in Go.'
 type: docs
 weight: 200

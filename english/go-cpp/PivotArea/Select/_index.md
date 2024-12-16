@@ -1,7 +1,7 @@
 ---
 title: Select Method 
 linktitle: Select
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'Select method. Encapsulates the function that represents select in Go.'
 type: docs
 weight: 200

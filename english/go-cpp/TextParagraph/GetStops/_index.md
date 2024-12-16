@@ -1,7 +1,7 @@
 ---
 title: GetStops Method 
 linktitle: GetStops
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetStops method. Encapsulates the function that represents getstops in Go.'
 type: docs
 weight: 200

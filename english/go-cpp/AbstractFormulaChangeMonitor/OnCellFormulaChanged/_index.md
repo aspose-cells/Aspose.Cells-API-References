@@ -1,7 +1,7 @@
 ---
 title: OnCellFormulaChanged Method 
 linktitle: OnCellFormulaChanged
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'OnCellFormulaChanged method. Encapsulates the function that represents oncellformulachanged in Go.'
 type: docs
 weight: 200

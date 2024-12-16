@@ -1,7 +1,7 @@
 ---
 title: CubicBezierTo Method 
 linktitle: CubicBezierTo
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'CubicBezierTo method. Encapsulates the function that represents cubicbezierto in Go.'
 type: docs
 weight: 200

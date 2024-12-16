@@ -1,7 +1,7 @@
 ---
 title: GetDefaultTabSize Method 
 linktitle: GetDefaultTabSize
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetDefaultTabSize method. Encapsulates the function that represents getdefaulttabsize in Go.'
 type: docs
 weight: 200

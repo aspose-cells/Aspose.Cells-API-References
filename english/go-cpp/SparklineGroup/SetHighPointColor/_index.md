@@ -1,7 +1,7 @@
 ---
 title: SetHighPointColor Method 
 linktitle: SetHighPointColor
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetHighPointColor method. Encapsulates the function that represents sethighpointcolor in Go.'
 type: docs
 weight: 200

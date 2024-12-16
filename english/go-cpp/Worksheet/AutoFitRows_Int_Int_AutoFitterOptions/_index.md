@@ -1,7 +1,7 @@
 ---
 title: AutoFitRows_Int_Int_AutoFitterOptions Method 
 linktitle: AutoFitRows
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'AutoFitRows_Int_Int_AutoFitterOptions method. Encapsulates the function that represents autofitrows in Go.'
 type: docs
 weight: 200

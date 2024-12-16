@@ -1,7 +1,7 @@
 ---
 title: SparklineType Enum 
 linktitle: SparklineType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SparklineType enum. Encapsulates the object that represents sparklinetype in Go.'
 type: docs
 weight: 200

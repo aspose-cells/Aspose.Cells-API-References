@@ -1,7 +1,7 @@
 ---
 title: GetPageFieldWrapCount Method 
 linktitle: GetPageFieldWrapCount
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetPageFieldWrapCount method. Encapsulates the function that represents getpagefieldwrapcount in Go.'
 type: docs
 weight: 200

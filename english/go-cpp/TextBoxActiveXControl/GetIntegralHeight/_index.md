@@ -1,7 +1,7 @@
 ---
 title: GetIntegralHeight Method 
 linktitle: GetIntegralHeight
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetIntegralHeight method. Encapsulates the function that represents getintegralheight in Go.'
 type: docs
 weight: 200

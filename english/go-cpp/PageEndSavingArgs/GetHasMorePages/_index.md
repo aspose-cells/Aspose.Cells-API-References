@@ -1,7 +1,7 @@
 ---
 title: GetHasMorePages Method 
 linktitle: GetHasMorePages
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetHasMorePages method. Encapsulates the function that represents gethasmorepages in Go.'
 type: docs
 weight: 200

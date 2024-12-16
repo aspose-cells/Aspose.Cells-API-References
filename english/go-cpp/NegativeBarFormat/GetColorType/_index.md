@@ -1,7 +1,7 @@
 ---
 title: GetColorType Method 
 linktitle: GetColorType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetColorType method. Encapsulates the function that represents getcolortype in Go.'
 type: docs
 weight: 200

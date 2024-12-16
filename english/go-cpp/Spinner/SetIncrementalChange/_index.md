@@ -1,7 +1,7 @@
 ---
 title: SetIncrementalChange Method 
 linktitle: SetIncrementalChange
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetIncrementalChange method. Encapsulates the function that represents setincrementalchange in Go.'
 type: docs
 weight: 200

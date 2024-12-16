@@ -1,7 +1,7 @@
 ---
 title: FunctionEquationNode Class 
 linktitle: FunctionEquationNode
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'FunctionEquationNode class. Encapsulates the object that represents functionequationnode in Go.'
 type: docs
 weight: 200

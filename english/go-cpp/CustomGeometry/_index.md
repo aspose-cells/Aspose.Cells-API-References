@@ -1,7 +1,7 @@
 ---
 title: CustomGeometry Class 
 linktitle: CustomGeometry
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'CustomGeometry class. Encapsulates the object that represents customgeometry in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: SetTableIndex Method 
 linktitle: SetTableIndex
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetTableIndex method. Encapsulates the function that represents settableindex in Go.'
 type: docs
 weight: 200

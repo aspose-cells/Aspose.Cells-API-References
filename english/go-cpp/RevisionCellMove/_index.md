@@ -1,7 +1,7 @@
 ---
 title: RevisionCellMove Class 
 linktitle: RevisionCellMove
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'RevisionCellMove class. Encapsulates the object that represents revisioncellmove in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: PivotOptions Class 
 linktitle: PivotOptions
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'PivotOptions class. Encapsulates the object that represents pivotoptions in Go.'
 type: docs
 weight: 200

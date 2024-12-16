@@ -1,7 +1,7 @@
 ---
 title: GetDisplayHidden Method 
 linktitle: GetDisplayHidden
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetDisplayHidden method. Encapsulates the function that represents getdisplayhidden in Go.'
 type: docs
 weight: 200

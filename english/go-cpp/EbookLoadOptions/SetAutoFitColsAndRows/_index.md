@@ -1,7 +1,7 @@
 ---
 title: SetAutoFitColsAndRows Method 
 linktitle: SetAutoFitColsAndRows
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetAutoFitColsAndRows method. Encapsulates the function that represents setautofitcolsandrows in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: SetTopInch Method 
 linktitle: SetTopInch
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetTopInch method. Encapsulates the function that represents settopinch in Go.'
 type: docs
 weight: 200

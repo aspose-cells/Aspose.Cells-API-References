@@ -1,7 +1,7 @@
 ---
 title: SetRefreshCharts Method 
 linktitle: SetRefreshCharts
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetRefreshCharts method. Encapsulates the function that represents setrefreshcharts in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: IsHorizontal Method 
 linktitle: IsHorizontal
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsHorizontal method. Encapsulates the function that represents ishorizontal in Go.'
 type: docs
 weight: 200

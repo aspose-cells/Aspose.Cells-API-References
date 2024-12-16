@@ -1,7 +1,7 @@
 ---
 title: GetNumberDecimalSeparator Method 
 linktitle: GetNumberDecimalSeparator
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetNumberDecimalSeparator method. Encapsulates the function that represents getnumberdecimalseparator in Go.'
 type: docs
 weight: 200

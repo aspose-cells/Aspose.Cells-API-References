@@ -1,7 +1,7 @@
 ---
 title: DigitalSignatureCollection Class 
 linktitle: DigitalSignatureCollection
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'DigitalSignatureCollection class. Encapsulates the object that represents digitalsignaturecollection in Go.'
 type: docs
 weight: 200

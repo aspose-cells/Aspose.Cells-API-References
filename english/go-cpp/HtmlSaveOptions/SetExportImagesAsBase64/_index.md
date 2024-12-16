@@ -1,7 +1,7 @@
 ---
 title: SetExportImagesAsBase64 Method 
 linktitle: SetExportImagesAsBase64
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetExportImagesAsBase64 method. Encapsulates the function that represents setexportimagesasbase64 in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: EquationComponentNode Constructor 
 linktitle: EquationComponentNode
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'EquationComponentNode constructor. Encapsulates the function that represents newequationcomponentnode in Go.'
 type: docs
 weight: 200

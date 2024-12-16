@@ -1,7 +1,7 @@
 ---
 title: SetOneColorGradient Method 
 linktitle: SetOneColorGradient
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetOneColorGradient method. Encapsulates the function that represents setonecolorgradient in Go.'
 type: docs
 weight: 200

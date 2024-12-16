@@ -1,7 +1,7 @@
 ---
 title: CopyOptions Class 
 linktitle: CopyOptions
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'CopyOptions class. Encapsulates the object that represents copyoptions in Go.'
 type: docs
 weight: 200

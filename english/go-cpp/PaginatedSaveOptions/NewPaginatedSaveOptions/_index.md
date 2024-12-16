@@ -1,7 +1,7 @@
 ---
 title: PaginatedSaveOptions Constructor 
 linktitle: PaginatedSaveOptions
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'PaginatedSaveOptions constructor. Encapsulates the function that represents newpaginatedsaveoptions in Go.'
 type: docs
 weight: 200

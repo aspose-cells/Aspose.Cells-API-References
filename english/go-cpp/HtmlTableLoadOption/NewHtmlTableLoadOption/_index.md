@@ -1,7 +1,7 @@
 ---
 title: HtmlTableLoadOption Constructor 
 linktitle: HtmlTableLoadOption
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'HtmlTableLoadOption constructor. Encapsulates the function that represents newhtmltableloadoption in Go.'
 type: docs
 weight: 200

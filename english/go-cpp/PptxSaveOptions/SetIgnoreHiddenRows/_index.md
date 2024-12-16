@@ -1,7 +1,7 @@
 ---
 title: SetIgnoreHiddenRows Method 
 linktitle: SetIgnoreHiddenRows
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetIgnoreHiddenRows method. Encapsulates the function that represents setignorehiddenrows in Go.'
 type: docs
 weight: 200

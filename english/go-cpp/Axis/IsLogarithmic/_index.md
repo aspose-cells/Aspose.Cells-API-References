@@ -1,7 +1,7 @@
 ---
 title: IsLogarithmic Method 
 linktitle: IsLogarithmic
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsLogarithmic method. Encapsulates the function that represents islogarithmic in Go.'
 type: docs
 weight: 200

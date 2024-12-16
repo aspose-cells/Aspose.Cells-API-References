@@ -1,7 +1,7 @@
 ---
 title: FilterByDate Method 
 linktitle: FilterByDate
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'FilterByDate method. Encapsulates the function that represents filterbydate in Go.'
 type: docs
 weight: 200

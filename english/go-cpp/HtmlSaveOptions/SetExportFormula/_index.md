@@ -1,7 +1,7 @@
 ---
 title: SetExportFormula Method 
 linktitle: SetExportFormula
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetExportFormula method. Encapsulates the function that represents setexportformula in Go.'
 type: docs
 weight: 200

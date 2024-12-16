@@ -1,7 +1,7 @@
 ---
 title: GetParentNode Method 
 linktitle: GetParentNode
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetParentNode method. Encapsulates the function that represents getparentnode in Go.'
 type: docs
 weight: 200

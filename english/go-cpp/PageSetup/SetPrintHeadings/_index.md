@@ -1,7 +1,7 @@
 ---
 title: SetPrintHeadings Method 
 linktitle: SetPrintHeadings
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetPrintHeadings method. Encapsulates the function that represents setprintheadings in Go.'
 type: docs
 weight: 200

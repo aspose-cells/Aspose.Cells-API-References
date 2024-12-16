@@ -1,7 +1,7 @@
 ---
 title: GetDateFormat Method 
 linktitle: GetDateFormat
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetDateFormat method. Encapsulates the function that represents getdateformat in Go.'
 type: docs
 weight: 200

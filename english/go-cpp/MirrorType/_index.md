@@ -1,7 +1,7 @@
 ---
 title: MirrorType Enum 
 linktitle: MirrorType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'MirrorType enum. Encapsulates the object that represents mirrortype in Go.'
 type: docs
 weight: 200

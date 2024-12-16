@@ -1,7 +1,7 @@
 ---
 title: ControlMousePointerType Enum 
 linktitle: ControlMousePointerType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ControlMousePointerType enum. Encapsulates the object that represents controlmousepointertype in Go.'
 type: docs
 weight: 200

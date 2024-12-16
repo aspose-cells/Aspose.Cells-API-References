@@ -1,7 +1,7 @@
 ---
 title: IndividualFontConfigs Constructor 
 linktitle: IndividualFontConfigs
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IndividualFontConfigs constructor. Encapsulates the function that represents newindividualfontconfigs in Go.'
 type: docs
 weight: 200

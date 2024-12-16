@@ -1,7 +1,7 @@
 ---
 title: SetDrawObjectEventHandler Method 
 linktitle: SetDrawObjectEventHandler
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetDrawObjectEventHandler method. Encapsulates the function that represents setdrawobjecteventhandler in Go.'
 type: docs
 weight: 200

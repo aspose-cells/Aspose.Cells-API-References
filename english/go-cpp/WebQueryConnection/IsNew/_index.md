@@ -1,7 +1,7 @@
 ---
 title: IsNew Method 
 linktitle: IsNew
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsNew method. Encapsulates the function that represents isnew in Go.'
 type: docs
 weight: 200

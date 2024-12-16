@@ -1,7 +1,7 @@
 ---
 title: ActiveXControlBase Class 
 linktitle: ActiveXControlBase
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ActiveXControlBase class. Encapsulates the object that represents activexcontrolbase in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: SetNaryGrow Method 
 linktitle: SetNaryGrow
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetNaryGrow method. Encapsulates the function that represents setnarygrow in Go.'
 type: docs
 weight: 200

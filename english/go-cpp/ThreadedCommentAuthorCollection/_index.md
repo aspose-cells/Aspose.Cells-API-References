@@ -1,7 +1,7 @@
 ---
 title: ThreadedCommentAuthorCollection Class 
 linktitle: ThreadedCommentAuthorCollection
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ThreadedCommentAuthorCollection class. Encapsulates the object that represents threadedcommentauthorcollection in Go.'
 type: docs
 weight: 200

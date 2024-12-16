@@ -1,7 +1,7 @@
 ---
 title: GetLowPointColor Method 
 linktitle: GetLowPointColor
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetLowPointColor method. Encapsulates the function that represents getlowpointcolor in Go.'
 type: docs
 weight: 200

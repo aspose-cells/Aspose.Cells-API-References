@@ -1,7 +1,7 @@
 ---
 title: GetShowFilterButton Method 
 linktitle: GetShowFilterButton
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetShowFilterButton method. Encapsulates the function that represents getshowfilterbutton in Go.'
 type: docs
 weight: 200

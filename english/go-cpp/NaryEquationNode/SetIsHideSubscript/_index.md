@@ -1,7 +1,7 @@
 ---
 title: SetIsHideSubscript Method 
 linktitle: SetIsHideSubscript
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetIsHideSubscript method. Encapsulates the function that represents setishidesubscript in Go.'
 type: docs
 weight: 200

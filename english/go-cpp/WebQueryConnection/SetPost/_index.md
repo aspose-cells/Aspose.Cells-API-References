@@ -1,7 +1,7 @@
 ---
 title: SetPost Method 
 linktitle: SetPost
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetPost method. Encapsulates the function that represents setpost in Go.'
 type: docs
 weight: 200

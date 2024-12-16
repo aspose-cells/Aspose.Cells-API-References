@@ -1,7 +1,7 @@
 ---
 title: DeleteColumns_Int_Int_DeleteOptions Method 
 linktitle: DeleteColumns
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'DeleteColumns_Int_Int_DeleteOptions method. Encapsulates the function that represents deletecolumns in Go.'
 type: docs
 weight: 200

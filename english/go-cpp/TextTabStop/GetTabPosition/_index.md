@@ -1,7 +1,7 @@
 ---
 title: GetTabPosition Method 
 linktitle: GetTabPosition
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetTabPosition method. Encapsulates the function that represents gettabposition in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: SetTextHorizontalAlignment Method 
 linktitle: SetTextHorizontalAlignment
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetTextHorizontalAlignment method. Encapsulates the function that represents settexthorizontalalignment in Go.'
 type: docs
 weight: 200

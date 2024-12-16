@@ -1,7 +1,7 @@
 ---
 title: SetShowDataTable Method 
 linktitle: SetShowDataTable
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetShowDataTable method. Encapsulates the function that represents setshowdatatable in Go.'
 type: docs
 weight: 200

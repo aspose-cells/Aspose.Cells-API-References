@@ -1,7 +1,7 @@
 ---
 title: GetRelativeLibid Method 
 linktitle: GetRelativeLibid
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetRelativeLibid method. Encapsulates the function that represents getrelativelibid in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: BoxEquationNode Class 
 linktitle: BoxEquationNode
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'BoxEquationNode class. Encapsulates the object that represents boxequationnode in Go.'
 type: docs
 weight: 200

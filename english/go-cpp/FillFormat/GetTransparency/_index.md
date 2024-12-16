@@ -1,7 +1,7 @@
 ---
 title: GetTransparency Method 
 linktitle: GetTransparency
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetTransparency method. Encapsulates the function that represents gettransparency in Go.'
 type: docs
 weight: 200

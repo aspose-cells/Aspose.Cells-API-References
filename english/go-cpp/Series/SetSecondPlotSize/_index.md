@@ -1,7 +1,7 @@
 ---
 title: SetSecondPlotSize Method 
 linktitle: SetSecondPlotSize
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetSecondPlotSize method. Encapsulates the function that represents setsecondplotsize in Go.'
 type: docs
 weight: 200

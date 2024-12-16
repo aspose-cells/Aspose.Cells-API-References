@@ -1,7 +1,7 @@
 ---
 title: GetTextBoxes Method 
 linktitle: GetTextBoxes
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetTextBoxes method. Encapsulates the function that represents gettextboxes in Go.'
 type: docs
 weight: 200

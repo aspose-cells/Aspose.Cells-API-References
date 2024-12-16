@@ -1,7 +1,7 @@
 ---
 title: SetBubbleScale Method 
 linktitle: SetBubbleScale
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetBubbleScale method. Encapsulates the function that represents setbubblescale in Go.'
 type: docs
 weight: 200

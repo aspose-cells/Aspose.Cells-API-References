@@ -1,7 +1,7 @@
 ---
 title: GetFontScript Method 
 linktitle: GetFontScript
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetFontScript method. Encapsulates the function that represents getfontscript in Go.'
 type: docs
 weight: 200

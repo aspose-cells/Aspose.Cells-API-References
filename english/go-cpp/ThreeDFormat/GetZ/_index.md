@@ -1,7 +1,7 @@
 ---
 title: GetZ Method 
 linktitle: GetZ
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetZ method. Encapsulates the function that represents getz in Go.'
 type: docs
 weight: 200

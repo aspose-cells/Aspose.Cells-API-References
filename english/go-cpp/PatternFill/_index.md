@@ -1,7 +1,7 @@
 ---
 title: PatternFill Class 
 linktitle: PatternFill
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'PatternFill class. Encapsulates the object that represents patternfill in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: ToInt64 Method 
 linktitle: ToInt64
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ToInt64 method. Encapsulates the function that represents toint64 in Go.'
 type: docs
 weight: 200

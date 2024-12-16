@@ -1,7 +1,7 @@
 ---
 title: SetDropDownLines Method 
 linktitle: SetDropDownLines
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetDropDownLines method. Encapsulates the function that represents setdropdownlines in Go.'
 type: docs
 weight: 200

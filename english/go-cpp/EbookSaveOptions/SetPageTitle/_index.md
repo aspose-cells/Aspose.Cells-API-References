@@ -1,7 +1,7 @@
 ---
 title: SetPageTitle Method 
 linktitle: SetPageTitle
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetPageTitle method. Encapsulates the function that represents setpagetitle in Go.'
 type: docs
 weight: 200

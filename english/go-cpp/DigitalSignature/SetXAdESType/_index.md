@@ -1,7 +1,7 @@
 ---
 title: SetXAdESType Method 
 linktitle: SetXAdESType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetXAdESType method. Encapsulates the function that represents setxadestype in Go.'
 type: docs
 weight: 200

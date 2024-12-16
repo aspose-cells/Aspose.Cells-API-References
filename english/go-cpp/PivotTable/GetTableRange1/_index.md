@@ -1,7 +1,7 @@
 ---
 title: GetTableRange1 Method 
 linktitle: GetTableRange1
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetTableRange1 method. Encapsulates the function that represents gettablerange1 in Go.'
 type: docs
 weight: 200

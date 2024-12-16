@@ -1,7 +1,7 @@
 ---
 title: GetFirstPageFooter Method 
 linktitle: GetFirstPageFooter
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetFirstPageFooter method. Encapsulates the function that represents getfirstpagefooter in Go.'
 type: docs
 weight: 200
