@@ -4,7 +4,7 @@ linktitle: SetValue1
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotFilter::SetValue1 method. Gets the string value1 of the label pivot filter in C++.'
 type: docs
-weight: 1000
+weight: 1700
 url: /cpp/aspose.cells.pivot/pivotfilter/setvalue1/
 ---
 ## PivotFilter::SetValue1(const U16String\&) method

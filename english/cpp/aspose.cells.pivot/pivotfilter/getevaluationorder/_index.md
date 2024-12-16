@@ -4,7 +4,7 @@ linktitle: GetEvaluationOrder
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotFilter::GetEvaluationOrder method. Gets the Evaluation Order of the pivot filter in C++.'
 type: docs
-weight: 1900
+weight: 2900
 url: /cpp/aspose.cells.pivot/pivotfilter/getevaluationorder/
 ---
 ## PivotFilter::GetEvaluationOrder method

@@ -26,7 +26,9 @@ Custom Filter operator type.
 | [LESS_OR_EQUAL](#LESS-OR-EQUAL) | Represents LessOrEqual operator. |
 | [LESS_THAN](#LESS-THAN) | Represents LessThan operator. |
 | [NONE](#NONE) | Represents no comparison. |
+| [NOT_BEGINS_WITH](#NOT-BEGINS-WITH) | Not begins with the text. |
 | [NOT_CONTAINS](#NOT-CONTAINS) | Not contains the text. |
+| [NOT_ENDS_WITH](#NOT-ENDS-WITH) | Not ends with the text. |
 | [NOT_EQUAL](#NOT-EQUAL) | Represents NotEqual operator. |
 ## Methods
 
@@ -113,6 +115,14 @@ public static final int NONE
 
 Represents no comparison.
 
+### NOT_BEGINS_WITH {#NOT-BEGINS-WITH}
+```
+public static final int NOT_BEGINS_WITH
+```
+
+
+Not begins with the text.
+
 ### NOT_CONTAINS {#NOT-CONTAINS}
 ```
 public static final int NOT_CONTAINS
@@ -120,6 +130,14 @@ public static final int NOT_CONTAINS
 
 
 Not contains the text.
+
+### NOT_ENDS_WITH {#NOT-ENDS-WITH}
+```
+public static final int NOT_ENDS_WITH
+```
+
+
+Not ends with the text.
 
 ### NOT_EQUAL {#NOT-EQUAL}
 ```

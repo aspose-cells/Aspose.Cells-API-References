@@ -20,6 +20,7 @@ Represents the parameter of power query formula.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getFormulaDefinition()](#getFormulaDefinition--) | Gets the definition of the parameter. |
+| [getGroupName()](#getGroupName--) | Gets the name of group which contains this power query formula. |
 | [getName()](#getName--) | Gets the name of the power query formula. |
 | [getParameterDefinition()](#getParameterDefinition--) | Gets the definition of the parameter. |
 | [getPowerQueryFormulaItems()](#getPowerQueryFormulaItems--) | Gets all items of power query formula. |
@@ -66,6 +67,16 @@ public String getFormulaDefinition()
 
 
 Gets the definition of the parameter.
+
+**Returns:**
+java.lang.String
+### getGroupName() {#getGroupName--}
+```
+public String getGroupName()
+```
+
+
+Gets the name of group which contains this power query formula.
 
 **Returns:**
 java.lang.String

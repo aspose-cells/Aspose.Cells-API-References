@@ -13,6 +13,7 @@ is_root: true
 | --- | --- |
 | [AboveAverage](./aboveaverage) | Describe the AboveAverage conditional formatting rule. This conditional formatting rule highlights cells that are above or below the average for all values in the range. |
 | [AbstractCalculationEngine](./abstractcalculationengine) | Represents user's custom calculation engine to extend the default calculation engine of Aspose.Cells. |
+| [AbstractFormulaChangeMonitor](./abstractformulachangemonitor) | Monitor for user to track the change of formulas during certain operations. |
 | [AbstractInterruptMonitor](./abstractinterruptmonitor) | Monitor for interruption requests in all time-consuming operations. |
 | [AbstractTextLoadOptions](./abstracttextloadoptions) | Common options for loading text values |
 | [AccentEquationNode](./accentequationnode) | This class specifies an accent equation, consisting of a base component and a combining diacritic. |
@@ -581,6 +582,7 @@ is_root: true
 | [FillPattern](./fillpattern) | Enumerates shape fill pattern types. |
 | [FillPictureType](./fillpicturetype) | Represents the picture fill type. |
 | [FillType](./filltype) | Fill format type. |
+| [FilterCategory](./filtercategory) | Represents the category of the filter. |
 | [FilterOperatorType](./filteroperatortype) | Custom Filter operator type. |
 | [FilterType](./filtertype) | The filter type. |
 | [FontSchemeType](./fontschemetype) | Represents the scheme type of the font. |

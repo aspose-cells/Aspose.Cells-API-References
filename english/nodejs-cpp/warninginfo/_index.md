@@ -19,7 +19,7 @@ class WarningInfo;
 
 | Method | Description |
 | --- | --- |
-| [getWarningType()](#getWarningType--)| Get warning type. |
+| [getType()](#getType--)| Get warning type. |
 | [getDescription()](#getDescription--)| Get description of warning info. |
 | [getErrorObject()](#getErrorObject--)| The error object. |
 | [getCorrectedObject()](#getCorrectedObject--)| Gets and sets the corrected object. |
@@ -27,18 +27,18 @@ class WarningInfo;
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
-### getWarningType() {#getWarningType--}
+### getType() {#getType--}
 
 Get warning type.
 
 ```javascript
-getWarningType() : WarningType;
+getType() : ExceptionType;
 ```
 
 
 **Returns**
 
-[WarningType](../warningtype/)
+[ExceptionType](../exceptiontype/)
 
 ### getDescription() {#getDescription--}
 

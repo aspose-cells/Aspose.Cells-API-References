@@ -45,6 +45,7 @@ public class PivotField
 | [IsInsertPageBreaksBetweenItems](../../aspose.cells.pivot/pivotfield/isinsertpagebreaksbetweenitems/) { get; set; } | Indicates whether inserting page breaks after each item. The default value is false. |
 | [IsMultipleItemSelectionAllowed](../../aspose.cells.pivot/pivotfield/ismultipleitemselectionallowed/) { get; set; } | indicates whether the field can have multiple items selected in the page field The default value is false. |
 | [IsRepeatItemLabels](../../aspose.cells.pivot/pivotfield/isrepeatitemlabels/) { get; set; } | Indicates whether repeating labels of the field in the region. The default value is false. |
+| [IsValueFields](../../aspose.cells.pivot/pivotfield/isvaluefields/) { get; } | Indicates whether this field represents values fields. |
 | [ItemCount](../../aspose.cells.pivot/pivotfield/itemcount/) { get; } | Gets the count of the base items in this pivot field. |
 | [Items](../../aspose.cells.pivot/pivotfield/items/) { get; } | Get all labels of pivot items in this field. |
 | [Name](../../aspose.cells.pivot/pivotfield/name/) { get; set; } | Represents the name of PivotField. |
@@ -55,6 +56,7 @@ public class PivotField
 | [PivotItems](../../aspose.cells.pivot/pivotfield/pivotitems/) { get; } | Gets the pivot items of the pivot field |
 | [Position](../../aspose.cells.pivot/pivotfield/position/) { get; } | Represents the index of `PivotField` in the region. |
 | [Range](../../aspose.cells.pivot/pivotfield/range/) { get; } | (**Obsolete.**) Gets the group range of the pivot field |
+| [RegionType](../../aspose.cells.pivot/pivotfield/regiontype/) { get; } | Specifies the region of the PivotTable that this field is displayed. |
 | [ShowAllItems](../../aspose.cells.pivot/pivotfield/showallitems/) { get; set; } | Indicates whether all items displays in the PivotTable report, even if they don't contain summary data. show items with no data The default value is false. |
 | [ShowCompact](../../aspose.cells.pivot/pivotfield/showcompact/) { get; set; } | Indicates whether display labels from the next field in the same column on the Pivot Table view |
 | [ShowInOutlineForm](../../aspose.cells.pivot/pivotfield/showinoutlineform/) { get; set; } | Indicates whether layout this field in outline form on the Pivot Table view |
@@ -67,6 +69,11 @@ public class PivotField
 | Name | Description |
 | --- | --- |
 | [AddCalculatedItem](../../aspose.cells.pivot/pivotfield/addcalculateditem/)(string, string) | Add a calculated formula item to the pivot field. |
+| [ClearFilter](../../aspose.cells.pivot/pivotfield/clearfilter/)() | Clears filter setting on this pivot field. |
+| [FilterByDate](../../aspose.cells.pivot/pivotfield/filterbydate/)(PivotFilterType, DateTime, DateTime) | Filters by date setting of row or column pivot field. |
+| [FilterByLabel](../../aspose.cells.pivot/pivotfield/filterbylabel/)(PivotFilterType, string, string) | Filters by captions of row or column pivot field. |
+| [FilterByValue](../../aspose.cells.pivot/pivotfield/filterbyvalue/)(int, PivotFilterType, double, double) | Filters by values of data pivot field. |
+| [FilterTop10](../../aspose.cells.pivot/pivotfield/filtertop10/)(int, PivotFilterType, bool, int) | Filters by values of data pivot field. |
 | [GetCalculatedFieldFormula](../../aspose.cells.pivot/pivotfield/getcalculatedfieldformula/)() | (**Obsolete.**) Get the formula string of the specified calculated field . |
 | [GetFilters](../../aspose.cells.pivot/pivotfield/getfilters/)() | Gets all pivot filters of this pivot field. |
 | [GetFormula](../../aspose.cells.pivot/pivotfield/getformula/)() | Gets formula of the calculated field . |

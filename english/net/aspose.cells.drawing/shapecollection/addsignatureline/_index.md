@@ -26,14 +26,14 @@ public Picture AddSignatureLine(int upperLeftRow, int upperLeftColumn, Signature
 [C#]
 SignatureLine wSignatureLine = new SignatureLine();
 wSignatureLine.AllowComments = true;
-wSignatureLine.Email = "dsltak@gmail.com";
+wSignatureLine.Email = "example@example.com";
 wSignatureLine.Instructions = "Sign to confirm the excel content.";
 wSignatureLine.IsLine = true;
 wSignatureLine.ShowSignedDate = true;
-wSignatureLine.Signer = "TAKYU";
+wSignatureLine.Signer = "User";
 wSignatureLine.Title = "tester";
 //wSignatureLine.SignatureLineType = SignatureType.Stamp;
-Picture signatureLine1 = gWS.Shapes.AddSignatureLine(0, 0, wSignatureLine);
+Picture signatureLine1 = shapes.AddSignatureLine(0, 0, wSignatureLine);
 
 ```
 

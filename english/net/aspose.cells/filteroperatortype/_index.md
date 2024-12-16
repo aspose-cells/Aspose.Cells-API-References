@@ -28,6 +28,8 @@ public enum FilterOperatorType
 | EndsWith | `8` | Ends with the text. |
 | Contains | `9` | Contains the text. |
 | NotContains | `10` | Not contains the text. |
+| NotBeginsWith | `11` | Not begins with the text. |
+| NotEndsWith | `12` | Not ends with the text. |
 
 ### See Also
 

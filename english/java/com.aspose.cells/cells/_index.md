@@ -85,11 +85,13 @@ Encapsulates a collection of cell relevant objects, such as [Cell](../../com.asp
 | [deleteColumn(int columnIndex)](#deleteColumn-int-) | Deletes a column. |
 | [deleteColumn(int columnIndex, boolean updateReference)](#deleteColumn-int-boolean-) | Deletes a column. |
 | [deleteColumns(int columnIndex, int totalColumns, boolean updateReference)](#deleteColumns-int-int-boolean-) | Deletes several columns. |
+| [deleteColumns(int columnIndex, int totalColumns, DeleteOptions options)](#deleteColumns-int-int-com.aspose.cells.DeleteOptions-) | Deletes several columns. |
 | [deleteRange(int startRow, int startColumn, int endRow, int endColumn, int shiftType)](#deleteRange-int-int-int-int-int-) | Deletes a range of cells and shift cells according to the shift option. |
 | [deleteRow(int rowIndex)](#deleteRow-int-) | Deletes a row. |
 | [deleteRow(int rowIndex, boolean updateReference)](#deleteRow-int-boolean-) | Deletes a row. |
-| [deleteRows(int rowIndex, int totalRows)](#deleteRows-int-int-) | Deletes several rows. |
+| [deleteRows(int rowIndex, int totalRows)](#deleteRows-int-int-) | Deletes multiple rows. |
 | [deleteRows(int rowIndex, int totalRows, boolean updateReference)](#deleteRows-int-int-boolean-) | Deletes multiple rows in the worksheet. |
+| [deleteRows(int rowIndex, int totalRows, DeleteOptions options)](#deleteRows-int-int-com.aspose.cells.DeleteOptions-) | Deletes multiple rows in the worksheet. |
 | [dispose()](#dispose--) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [endCellInColumn(int startRow, int endRow, short startColumn, short endColumn)](#endCellInColumn-int-int-short-short-) | Gets the last cell with maximum column index in this range. |
 | [endCellInColumn(short columnIndex)](#endCellInColumn-short-) | Gets the last cell in this column. |
@@ -199,6 +201,7 @@ Encapsulates a collection of cell relevant objects, such as [Cell](../../com.asp
 | [insertColumn(int columnIndex, boolean updateReference)](#insertColumn-int-boolean-) | Inserts a new column into the worksheet. |
 | [insertColumns(int columnIndex, int totalColumns)](#insertColumns-int-int-) | Inserts some columns into the worksheet. |
 | [insertColumns(int columnIndex, int totalColumns, boolean updateReference)](#insertColumns-int-int-boolean-) | Inserts some columns into the worksheet. |
+| [insertColumns(int columnIndex, int totalColumns, InsertOptions options)](#insertColumns-int-int-com.aspose.cells.InsertOptions-) | Inserts some columns into the worksheet. |
 | [insertCutCells(Range cutRange, int row, int column, int shiftType)](#insertCutCells-com.aspose.cells.Range-int-int-int-) | Insert cut range. |
 | [insertRange(CellArea area, int shiftType)](#insertRange-com.aspose.cells.CellArea-int-) | Inserts a range of cells and shift cells according to the shift option. |
 | [insertRange(CellArea area, int shiftNumber, int shiftType)](#insertRange-com.aspose.cells.CellArea-int-int-) | Inserts a range of cells and shift cells according to the shift option. |
@@ -760,6 +763,21 @@ Deletes several columns.
 | totalColumns | int | Count of columns to be deleted. |
 | updateReference | boolean | Indicates whether update references in other worksheets. |
 
+### deleteColumns(int columnIndex, int totalColumns, DeleteOptions options) {#deleteColumns-int-int-com.aspose.cells.DeleteOptions-}
+```
+public void deleteColumns(int columnIndex, int totalColumns, DeleteOptions options)
+```
+
+
+Deletes several columns.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| columnIndex | int | Index of the first column to be deleted. |
+| totalColumns | int | Count of columns to be deleted. |
+| options | [DeleteOptions](../../com.aspose.cells/deleteoptions) | Options for the deleting operation |
+
 ### deleteRange(int startRow, int startColumn, int endRow, int endColumn, int shiftType) {#deleteRange-int-int-int-int-int-}
 ```
 public void deleteRange(int startRow, int startColumn, int endRow, int endColumn, int shiftType)
@@ -810,7 +828,7 @@ public boolean deleteRows(int rowIndex, int totalRows)
 ```
 
 
-Deletes several rows.
+Deletes multiple rows.
 
 **Remarks**
 
@@ -838,6 +856,23 @@ Deletes multiple rows in the worksheet.
 | rowIndex | int | Index of the first row to be deleted. |
 | totalRows | int | Count of rows to be deleted. |
 | updateReference | boolean | Indicates whether update references in other worksheets. |
+
+**Returns:**
+boolean - 
+### deleteRows(int rowIndex, int totalRows, DeleteOptions options) {#deleteRows-int-int-com.aspose.cells.DeleteOptions-}
+```
+public boolean deleteRows(int rowIndex, int totalRows, DeleteOptions options)
+```
+
+
+Deletes multiple rows in the worksheet.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| rowIndex | int | Index of the first row to be deleted. |
+| totalRows | int | Count of rows to be deleted. |
+| options | [DeleteOptions](../../com.aspose.cells/deleteoptions) | Options for the deleting operation |
 
 **Returns:**
 boolean - 
@@ -2481,6 +2516,21 @@ Inserts some columns into the worksheet.
 | totalColumns | int | The number of columns. |
 | updateReference | boolean | Indicates if references in other worksheets will be updated. |
 
+### insertColumns(int columnIndex, int totalColumns, InsertOptions options) {#insertColumns-int-int-com.aspose.cells.InsertOptions-}
+```
+public void insertColumns(int columnIndex, int totalColumns, InsertOptions options)
+```
+
+
+Inserts some columns into the worksheet.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| columnIndex | int | Column index. |
+| totalColumns | int | The number of columns. |
+| options | [InsertOptions](../../com.aspose.cells/insertoptions) | The options for inserting operation. |
+
 ### insertCutCells(Range cutRange, int row, int column, int shiftType) {#insertCutCells-com.aspose.cells.Range-int-int-int-}
 ```
 public void insertCutCells(Range cutRange, int row, int column, int shiftType)
@@ -2597,7 +2647,7 @@ Inserts multiple rows into the worksheet.
 | --- | --- | --- |
 | rowIndex | int | Row index. |
 | totalRows | int | Number of rows to be inserted. |
-| options | [InsertOptions](../../com.aspose.cells/insertoptions) | Indicates if references in other worksheets will be updated. |
+| options | [InsertOptions](../../com.aspose.cells/insertoptions) | Options for inserting operation. |
 
 ### isBlankColumn(int columnIndex) {#isBlankColumn-int-}
 ```

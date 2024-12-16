@@ -164,11 +164,13 @@ cells.merge(5, 4, 2, 2);
 | [deleteColumn(number, boolean)](#deleteColumn-number-boolean-)| Deletes a column. |
 | [deleteColumn(number)](#deleteColumn-number-)| Deletes a column. |
 | [deleteColumns(number, number, boolean)](#deleteColumns-number-number-boolean-)| Deletes several columns. |
+| [deleteColumns(number, number, DeleteOptions)](#deleteColumns-number-number-deleteoptions-)| Deletes several columns. |
 | [isDeletingRangeEnabled(number, number, number, number)](#isDeletingRangeEnabled-number-number-number-number-)| Check whether the range could be deleted. |
 | [deleteRow(number)](#deleteRow-number-)| Deletes a row. |
 | [deleteRow(number, boolean)](#deleteRow-number-boolean-)| Deletes a row. |
-| [deleteRows(number, number)](#deleteRows-number-number-)| Deletes several rows. |
+| [deleteRows(number, number)](#deleteRows-number-number-)| Deletes multiple rows. |
 | [deleteRows(number, number, boolean)](#deleteRows-number-number-boolean-)| Deletes multiple rows in the worksheet. |
+| [deleteRows(number, number, DeleteOptions)](#deleteRows-number-number-deleteoptions-)| Deletes multiple rows in the worksheet. |
 | [deleteBlankColumns()](#deleteBlankColumns--)| Delete all blank columns which do not contain any data. |
 | [deleteBlankColumns(DeleteOptions)](#deleteBlankColumns-deleteoptions-)| Delete all blank columns which do not contain any data. |
 | [isBlankColumn(number)](#isBlankColumn-number-)| Checks whether given column is blank(does not contain any data). |
@@ -176,6 +178,7 @@ cells.merge(5, 4, 2, 2);
 | [deleteBlankRows(DeleteOptions)](#deleteBlankRows-deleteoptions-)| Delete all blank rows which do not contain any data or some special objects such as visible comment, pivot table. |
 | [insertColumns(number, number)](#insertColumns-number-number-)| Inserts some columns into the worksheet. |
 | [insertColumns(number, number, boolean)](#insertColumns-number-number-boolean-)| Inserts some columns into the worksheet. |
+| [insertColumns(number, number, InsertOptions)](#insertColumns-number-number-insertoptions-)| Inserts some columns into the worksheet. |
 | [insertColumn(number, boolean)](#insertColumn-number-boolean-)| Inserts a new column into the worksheet. |
 | [insertColumn(number)](#insertColumn-number-)| Inserts a new column into the worksheet. |
 | [insertRows(number, number, boolean)](#insertRows-number-number-boolean-)| Inserts multiple rows into the worksheet. |
@@ -2138,6 +2141,21 @@ deleteColumns(columnIndex: number, totalColumns: number, updateReference: boolea
 | totalColumns | number | Count of columns to be deleted. |
 | updateReference | boolean | Indicates whether update references in other worksheets. |
 
+### deleteColumns(number, number, DeleteOptions) {#deleteColumns-number-number-deleteoptions-}
+
+Deletes several columns.
+
+```javascript
+deleteColumns(columnIndex: number, totalColumns: number, options: DeleteOptions) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| columnIndex | number | Index of the first column to be deleted. |
+| totalColumns | number | Count of columns to be deleted. |
+| options | [DeleteOptions](../deleteoptions/) | Options for the deleting operation |
+
 ### isDeletingRangeEnabled(number, number, number, number) {#isDeletingRangeEnabled-number-number-number-number-}
 
 Check whether the range could be deleted.
@@ -2183,7 +2201,7 @@ deleteRow(rowIndex: number, updateReference: boolean) : void;
 
 ### deleteRows(number, number) {#deleteRows-number-number-}
 
-Deletes several rows.
+Deletes multiple rows.
 
 ```javascript
 deleteRows(rowIndex: number, totalRows: number) : boolean;
@@ -2213,6 +2231,21 @@ deleteRows(rowIndex: number, totalRows: number, updateReference: boolean) : bool
 | rowIndex | number | Index of the first row to be deleted. |
 | totalRows | number | Count of rows to be deleted. |
 | updateReference | boolean | Indicates whether update references in other worksheets. |
+
+### deleteRows(number, number, DeleteOptions) {#deleteRows-number-number-deleteoptions-}
+
+Deletes multiple rows in the worksheet.
+
+```javascript
+deleteRows(rowIndex: number, totalRows: number, options: DeleteOptions) : boolean;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| rowIndex | number | Index of the first row to be deleted. |
+| totalRows | number | Count of rows to be deleted. |
+| options | [DeleteOptions](../deleteoptions/) | Options for the deleting operation |
 
 ### deleteBlankColumns() {#deleteBlankColumns--}
 
@@ -2308,6 +2341,21 @@ insertColumns(columnIndex: number, totalColumns: number, updateReference: boolea
 | totalColumns | number | The number of columns. |
 | updateReference | boolean | Indicates if references in other worksheets will be updated. |
 
+### insertColumns(number, number, InsertOptions) {#insertColumns-number-number-insertoptions-}
+
+Inserts some columns into the worksheet.
+
+```javascript
+insertColumns(columnIndex: number, totalColumns: number, options: InsertOptions) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| columnIndex | number | Column index. |
+| totalColumns | number | The number of columns. |
+| options | [InsertOptions](../insertoptions/) | The options for inserting operation. |
+
 ### insertColumn(number, boolean) {#insertColumn-number-boolean-}
 
 Inserts a new column into the worksheet.
@@ -2363,7 +2411,7 @@ insertRows(rowIndex: number, totalRows: number, options: InsertOptions) : void;
 | --- | --- | --- |
 | rowIndex | number | Row index. |
 | totalRows | number | Number of rows to be inserted. |
-| options | [InsertOptions](../insertoptions/) | Indicates if references in other worksheets will be updated. |
+| options | [InsertOptions](../insertoptions/) | Options for inserting operation. |
 
 ### insertRows(number, number) {#insertRows-number-number-}
 

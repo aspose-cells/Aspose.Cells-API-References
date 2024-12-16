@@ -76,7 +76,12 @@ Represents a field in a PivotTable report.
 | Method | Description |
 | --- | --- |
 | [addCalculatedItem(String name, String formula)](#addCalculatedItem-java.lang.String-java.lang.String-) | Add a calculated formula item to the pivot field. |
+| [clearFilter()](#clearFilter--) | Clears filter setting on this pivot field. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [filterByDate(int type, DateTime dateTime1, DateTime dateTime2)](#filterByDate-int-com.aspose.cells.DateTime-com.aspose.cells.DateTime-) | Filters by date setting of row or column pivot field. |
+| [filterByLabel(int type, String label1, String label2)](#filterByLabel-int-java.lang.String-java.lang.String-) | Filters by captions of row or column pivot field. |
+| [filterByValue(int valueFieldIndex, int type, double value1, double value2)](#filterByValue-int-int-double-double-) | Filters by values of data pivot field. |
+| [filterTop10(int valueFieldIndex, int type, boolean isTop, int itemCount)](#filterTop10-int-int-boolean-int-) | Filters by values of data pivot field. |
 | [getAutoShowCount()](#getAutoShowCount--) | Represent the number of top or bottom items that are automatically shown in the specified PivotTable field. |
 | [getAutoShowField()](#getAutoShowField--) | Represents auto show field index. -1 means PivotField itself. |
 | [getAutoSortField()](#getAutoSortField--) | Represents the index of field which is auto sorted |
@@ -111,6 +116,7 @@ Represents a field in a PivotTable report.
 | [getPivotItems()](#getPivotItems--) | Gets the pivot items of the pivot field |
 | [getPosition()](#getPosition--) | Represents the index of [PivotField](../../com.aspose.cells/pivotfield) in the region. |
 | [getRange()](#getRange--) | Gets the group range of the pivot field |
+| [getRegionType()](#getRegionType--) | Specifies the region of the PivotTable that this field is displayed. |
 | [getShowAllItems()](#getShowAllItems--) | Indicates whether all items displays in the PivotTable report, even if they don't contain summary data. |
 | [getShowCompact()](#getShowCompact--) | Indicates whether display labels from the next field in the same column on the Pivot Table view |
 | [getShowInOutlineForm()](#getShowInOutlineForm--) | Indicates whether layout this field in outline form on the Pivot Table view |
@@ -140,6 +146,7 @@ Represents a field in a PivotTable report.
 | [isInsertPageBreaksBetweenItems()](#isInsertPageBreaksBetweenItems--) | Indicates whether inserting page breaks after each item. |
 | [isMultipleItemSelectionAllowed()](#isMultipleItemSelectionAllowed--) | indicates whether the field can have multiple items selected in the page field The default value is false. |
 | [isRepeatItemLabels()](#isRepeatItemLabels--) | Indicates whether repeating labels of the field in the region. |
+| [isValueFields()](#isValueFields--) | Indicates whether this field represents values fields. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setAscendShow(boolean value)](#setAscendShow-boolean-) | Indicates whether the specified PivotTable field is autoshown ascending. |
@@ -203,6 +210,14 @@ Only supports to add calculated item to Row/Column field.
 | name | java.lang.String | The item's name. |
 | formula | java.lang.String | The formula of pivot item. |
 
+### clearFilter() {#clearFilter--}
+```
+public void clearFilter()
+```
+
+
+Clears filter setting on this pivot field.
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -218,6 +233,76 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### filterByDate(int type, DateTime dateTime1, DateTime dateTime2) {#filterByDate-int-com.aspose.cells.DateTime-com.aspose.cells.DateTime-}
+```
+public PivotFilter filterByDate(int type, DateTime dateTime1, DateTime dateTime2)
+```
+
+
+Filters by date setting of row or column pivot field.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| type | int | [PivotFilterType](../../com.aspose.cells/pivotfiltertype). The type of filtering data. |
+| dateTime1 | [DateTime](../../com.aspose.cells/datetime) | The date label of filter condition |
+| dateTime2 | [DateTime](../../com.aspose.cells/datetime) | The upper-bound date label of between filter condition |
+
+**Returns:**
+[PivotFilter](../../com.aspose.cells/pivotfilter)
+### filterByLabel(int type, String label1, String label2) {#filterByLabel-int-java.lang.String-java.lang.String-}
+```
+public PivotFilter filterByLabel(int type, String label1, String label2)
+```
+
+
+Filters by captions of row or column pivot field.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| type | int | [PivotFilterType](../../com.aspose.cells/pivotfiltertype). The type of filtering data. |
+| label1 | java.lang.String | The label of filter condition |
+| label2 | java.lang.String | The upper-bound label of between filter condition |
+
+**Returns:**
+[PivotFilter](../../com.aspose.cells/pivotfilter)
+### filterByValue(int valueFieldIndex, int type, double value1, double value2) {#filterByValue-int-int-double-double-}
+```
+public PivotFilter filterByValue(int valueFieldIndex, int type, double value1, double value2)
+```
+
+
+Filters by values of data pivot field.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| valueFieldIndex | int | The index of value field in the value region. |
+| type | int | [PivotFilterType](../../com.aspose.cells/pivotfiltertype). The type of filtering data. |
+| value1 | double | The value of filter condition |
+| value2 | double | The upper-bound value of between filter condition |
+
+**Returns:**
+[PivotFilter](../../com.aspose.cells/pivotfilter)
+### filterTop10(int valueFieldIndex, int type, boolean isTop, int itemCount) {#filterTop10-int-int-boolean-int-}
+```
+public PivotFilter filterTop10(int valueFieldIndex, int type, boolean isTop, int itemCount)
+```
+
+
+Filters by values of data pivot field.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| valueFieldIndex | int | The index of data field in the data region. |
+| type | int | [PivotFilterType](../../com.aspose.cells/pivotfiltertype). The type of filtering data. Only can be Count,Sum and Percent. |
+| isTop | boolean | Indicates whether filter from top or bottom |
+| itemCount | int | The item count |
+
+**Returns:**
+[PivotFilter](../../com.aspose.cells/pivotfilter)
 ### getAutoShowCount() {#getAutoShowCount--}
 ```
 public int getAutoShowCount()
@@ -601,6 +686,18 @@ NOTE: This method is now obsolete. Instead, please use PivotField.GroupSettings 
 
 **Returns:**
 [SxRng](../../com.aspose.cells/sxrng)
+### getRegionType() {#getRegionType--}
+```
+public int getRegionType()
+```
+
+
+Specifies the region of the PivotTable that this field is displayed.
+
+See [PivotFieldType](../../com.aspose.cells/pivotfieldtype).
+
+**Returns:**
+int
 ### getShowAllItems() {#getShowAllItems--}
 ```
 public boolean getShowAllItems()
@@ -947,6 +1044,16 @@ public boolean isRepeatItemLabels()
 
 
 Indicates whether repeating labels of the field in the region. The default value is false.
+
+**Returns:**
+boolean
+### isValueFields() {#isValueFields--}
+```
+public boolean isValueFields()
+```
+
+
+Indicates whether this field represents values fields.
 
 **Returns:**
 boolean

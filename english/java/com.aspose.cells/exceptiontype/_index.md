@@ -17,12 +17,16 @@ Represents custom exception type code.
 
 | Field | Description |
 | --- | --- |
+| [AUTO_FILTER](#AUTO-FILTER) | Invalid auto filter setting. |
 | [CHART](#CHART) | Invalid chart setting. |
 | [CONDITIONAL_FORMATTING](#CONDITIONAL-FORMATTING) | Invalid data validation setting. |
 | [DATA_TYPE](#DATA-TYPE) | Invalid data type setting. |
 | [DATA_VALIDATION](#DATA-VALIDATION) | Invalid data validation setting. |
+| [DEFINED_NAME](#DEFINED-NAME) | Invalid defined name |
 | [FILE_CORRUPTED](#FILE-CORRUPTED) | File content is corrupted. |
 | [FILE_FORMAT](#FILE-FORMAT) | Invalid file format. |
+| [FONT](#FONT) | Invalid font |
+| [FONT_SUBSTITUTION](#FONT-SUBSTITUTION) | Font substitution warning type when a font has not been found, this warning type can be get. |
 | [FORMULA](#FORMULA) | Invalid formula. |
 | [INCORRECT_PASSWORD](#INCORRECT-PASSWORD) | Incorrect password. |
 | [INTERRUPTED](#INTERRUPTED) | The process is interrupted. |
@@ -54,6 +58,14 @@ Represents custom exception type code.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### AUTO_FILTER {#AUTO-FILTER}
+```
+public static final int AUTO_FILTER
+```
+
+
+Invalid auto filter setting.
+
 ### CHART {#CHART}
 ```
 public static final int CHART
@@ -86,6 +98,14 @@ public static final int DATA_VALIDATION
 
 Invalid data validation setting.
 
+### DEFINED_NAME {#DEFINED-NAME}
+```
+public static final int DEFINED_NAME
+```
+
+
+Invalid defined name
+
 ### FILE_CORRUPTED {#FILE-CORRUPTED}
 ```
 public static final int FILE_CORRUPTED
@@ -101,6 +121,22 @@ public static final int FILE_FORMAT
 
 
 Invalid file format.
+
+### FONT {#FONT}
+```
+public static final int FONT
+```
+
+
+Invalid font
+
+### FONT_SUBSTITUTION {#FONT-SUBSTITUTION}
+```
+public static final int FONT_SUBSTITUTION
+```
+
+
+Font substitution warning type when a font has not been found, this warning type can be get.
 
 ### FORMULA {#FORMULA}
 ```

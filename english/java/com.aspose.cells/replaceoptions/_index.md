@@ -28,6 +28,7 @@ Represent the replace options.
 | [getFontSettings()](#getFontSettings--) | The rich formatted settings for the replaced text. |
 | [getMatchEntireCellContents()](#getMatchEntireCellContents--) | Indicates whether to match entire cells contents |
 | [getRegexKey()](#getRegexKey--) | Indicates whether the searched key is regex. |
+| [getStyleFlags()](#getStyleFlags--) | Gets flags of applying font settings. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -35,6 +36,7 @@ Represent the replace options.
 | [setFontSettings(FontSetting[] value)](#setFontSettings-com.aspose.cells.FontSetting---) | The rich formatted settings for the replaced text. |
 | [setMatchEntireCellContents(boolean value)](#setMatchEntireCellContents-boolean-) | Indicates whether to match entire cells contents |
 | [setRegexKey(boolean value)](#setRegexKey-boolean-) | Indicates whether the searched key is regex. |
+| [setStyleFlags(StyleFlag[] value)](#setStyleFlags-com.aspose.cells.StyleFlag---) | Sets flags of applying font settings. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -114,6 +116,16 @@ Indicates whether the searched key is regex. If true then the searched key will 
 
 **Returns:**
 boolean
+### getStyleFlags() {#getStyleFlags--}
+```
+public StyleFlag[] getStyleFlags()
+```
+
+
+Gets flags of applying font settings.
+
+**Returns:**
+com.aspose.cells.StyleFlag[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -195,6 +207,19 @@ Indicates whether the searched key is regex. If true then the searched key will 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
+
+### setStyleFlags(StyleFlag[] value) {#setStyleFlags-com.aspose.cells.StyleFlag---}
+```
+public void setStyleFlags(StyleFlag[] value)
+```
+
+
+Sets flags of applying font settings.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [StyleFlag\[\]](../../com.aspose.cells/styleflag) |  |
 
 ### toString() {#toString--}
 ```

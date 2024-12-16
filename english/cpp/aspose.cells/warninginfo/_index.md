@@ -4,7 +4,7 @@ linktitle: WarningInfo
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::WarningInfo class. Warning info in C++.'
 type: docs
-weight: 15800
+weight: 16100
 url: /cpp/aspose.cells/warninginfo/
 ---
 ## WarningInfo class
@@ -23,7 +23,7 @@ class WarningInfo
 | [GetCorrectedObject()](./getcorrectedobject/) | Gets and sets the corrected object. |
 | [GetDescription()](./getdescription/) | Get description of warning info. |
 | [GetErrorObject()](./geterrorobject/) | The error object. |
-| [GetWarningType()](./getwarningtype/) | Get warning type. |
+| [GetType()](./gettype/) | Get warning type. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const WarningInfo\& src)](./operator_asm/) | operator= |

@@ -24,4 +24,5 @@ Provides simple apis to view or edit spreadsheet file through json operation.
 | [GridJsWorkbook](../com.aspose.gridjs/gridjsworkbook) | Represents the main entry class for GridJs |
 | [GridLoadFormat](../com.aspose.gridjs/gridloadformat) | Represents the load file format. |
 | [GridReferredArea](../com.aspose.gridjs/gridreferredarea) | Represents a referred area by the formula. |
+| [GridUpdateMonitor](../com.aspose.gridjs/gridupdatemonitor) | Monitor for user to track the change of update operation. |
 | [GridWorkbookSettings](../com.aspose.gridjs/gridworkbooksettings) | Represents the settings of the workbook. |

@@ -21,6 +21,7 @@ Represents the function of power query.
 | [getClass()](#getClass--) |  |
 | [getF()](#getF--) | Gets the definition of function. |
 | [getFormulaDefinition()](#getFormulaDefinition--) | Gets the definition of the power query formula. |
+| [getGroupName()](#getGroupName--) | Gets the name of group which contains this power query formula. |
 | [getName()](#getName--) | Gets the name of the power query formula. |
 | [getPowerQueryFormulaItems()](#getPowerQueryFormulaItems--) | Gets all items of power query formula. |
 | [getType()](#getType--) | Gets the type of power query formula. |
@@ -75,6 +76,16 @@ public String getFormulaDefinition()
 
 
 Gets the definition of the power query formula.
+
+**Returns:**
+java.lang.String
+### getGroupName() {#getGroupName--}
+```
+public String getGroupName()
+```
+
+
+Gets the name of group which contains this power query formula.
 
 **Returns:**
 java.lang.String

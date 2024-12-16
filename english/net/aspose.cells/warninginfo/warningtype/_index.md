@@ -10,8 +10,14 @@ url: /net/aspose.cells/warninginfo/warningtype/
 Get warning type.
 
 ```csharp
+[Obsolete("Use WarningInfo.Type property, instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public WarningType WarningType { get; }
 ```
+
+### Remarks
+
+NOTE: This member is now obsolete. Instead, please use WarningInfo.Type property, instead. This property will be removed 12 months later since December 2024. Aspose apologizes for any inconvenience you may have experienced.
 
 ### See Also
 

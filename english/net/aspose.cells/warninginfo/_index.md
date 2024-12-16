@@ -20,7 +20,8 @@ public class WarningInfo
 | [CorrectedObject](../../aspose.cells/warninginfo/correctedobject/) { get; set; } | Gets and sets the corrected object. |
 | [Description](../../aspose.cells/warninginfo/description/) { get; } | Get description of warning info. |
 | [ErrorObject](../../aspose.cells/warninginfo/errorobject/) { get; } | The error object. |
-| [WarningType](../../aspose.cells/warninginfo/warningtype/) { get; } | Get warning type. |
+| [Type](../../aspose.cells/warninginfo/type/) { get; } | Get warning type. |
+| [WarningType](../../aspose.cells/warninginfo/warningtype/) { get; } | (**Obsolete.**) Get warning type. |
 
 ### See Also
 

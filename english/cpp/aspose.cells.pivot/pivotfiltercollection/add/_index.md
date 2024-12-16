@@ -12,6 +12,10 @@ url: /cpp/aspose.cells.pivot/pivotfiltercollection/add/
 
 Adds a [PivotFilter](../../pivotfilter/)[Object](../../../aspose.cells/object/) to the specific type.
 
+
+>Deprecated
+>
+>Use PivotFilterCollection.AddValueFilter(),AddTop10Filter(),AddLabelFilter() and AddDateFilter() methods,instead. 
 ```cpp
 int32_t Aspose::Cells::Pivot::PivotFilterCollection::Add(int32_t fieldIndex, PivotFilterType type)
 ```
@@ -25,6 +29,12 @@ int32_t Aspose::Cells::Pivot::PivotFilterCollection::Add(int32_t fieldIndex, Piv
 ## ReturnValue
 
 the index of the [PivotFilter](../../pivotfilter/)[Object](../../../aspose.cells/object/) in this [PivotFilterCollection](../).
+## Remarks
+
+
+
+NOTE: This method is now obsolete. Instead, please use [PivotFilterCollection.AddValueFilter()](../addvaluefilter/),[AddTop10Filter()](../addtop10filter/),[AddLabelFilter()](../addlabelfilter/) and [AddDateFilter()](../adddatefilter/) methods. This method will be removed 12 months later since November 2024. **Aspose** apologizes for any inconvenience you may have experienced. 
+
 
 ## See Also
 

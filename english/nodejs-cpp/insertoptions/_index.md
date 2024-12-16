@@ -29,6 +29,8 @@ class InsertOptions;
 | [setCopyFormatType(CopyFormatType)](#setCopyFormatType-copyformattype-)|  |
 | [getUpdateReference()](#getUpdateReference--)| Indicates if references in other worksheets will be updated. |
 | [setUpdateReference(boolean)](#setUpdateReference-boolean-)| Indicates if references in other worksheets will be updated. |
+| [getFormulaChangeMonitor()](#getFormulaChangeMonitor--)| Gets/sets the monitor for tracking changes caused by the insertion. |
+| [setFormulaChangeMonitor(AbstractFormulaChangeMonitor)](#setFormulaChangeMonitor-abstractformulachangemonitor-)| Gets/sets the monitor for tracking changes caused by the insertion. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -88,6 +90,32 @@ setUpdateReference(value: boolean) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The value to set. |
+
+### getFormulaChangeMonitor() {#getFormulaChangeMonitor--}
+
+Gets/sets the monitor for tracking changes caused by the insertion.
+
+```javascript
+getFormulaChangeMonitor() : AbstractFormulaChangeMonitor;
+```
+
+
+**Returns**
+
+[AbstractFormulaChangeMonitor](../abstractformulachangemonitor/)
+
+### setFormulaChangeMonitor(AbstractFormulaChangeMonitor) {#setFormulaChangeMonitor-abstractformulachangemonitor-}
+
+Gets/sets the monitor for tracking changes caused by the insertion.
+
+```javascript
+setFormulaChangeMonitor(value: AbstractFormulaChangeMonitor) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [AbstractFormulaChangeMonitor](../abstractformulachangemonitor/) | The value to set. |
 
 ### isNull() {#isNull--}
 

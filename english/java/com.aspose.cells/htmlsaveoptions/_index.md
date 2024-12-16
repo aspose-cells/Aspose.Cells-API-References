@@ -32,11 +32,13 @@ Represents the options for saving html file.
 | [getCalculateFormula()](#getCalculateFormula--) | Indicates whether to calculate formulas before saving html file. |
 | [getCellCssPrefix()](#getCellCssPrefix--) | Gets the prefix of the css name,the default value is "". |
 | [getCellNameAttribute()](#getCellNameAttribute--) | Specifies the attribute that indicates the CellName to be written. |
+| [getCheckExcelRestriction()](#getCheckExcelRestriction--) | Whether check restriction of excel file when user modify cells related objects. |
 | [getClass()](#getClass--) |  |
 | [getClearData()](#getClearData--) | Make the workbook empty after saving the file. |
 | [getCreateDirectory()](#getCreateDirectory--) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [getCssStyles()](#getCssStyles--) | Gets the additional css styles for the formatter. |
 | [getDefaultFontName()](#getDefaultFontName--) | Specify the default font name for exporting html, the default font will be used when the font of style is not existing, If this property is null, Aspose.Cells will use universal font which have the same family with the original font, the default value is null. |
+| [getDisableCss()](#getDisableCss--) | Indicates whether only inline styles are applied, without relying on CSS. |
 | [getDisableDownlevelRevealedComments()](#getDisableDownlevelRevealedComments--) | Indicates if disable Downlevel-revealed conditional comments when exporting file to html, the default value is false. |
 | [getEncodeEntityAsCode()](#getEncodeEntityAsCode--) | Indicates whether the html character entities are replaced with decimal code. |
 | [getEncoding()](#getEncoding--) | If not set,use Encoding.UTF8 as default enconding type. |
@@ -115,10 +117,12 @@ Represents the options for saving html file.
 | [setCalculateFormula(boolean value)](#setCalculateFormula-boolean-) | Indicates whether to calculate formulas before saving html file. |
 | [setCellCssPrefix(String value)](#setCellCssPrefix-java.lang.String-) | Sets the prefix of the css name,the default value is "". |
 | [setCellNameAttribute(String value)](#setCellNameAttribute-java.lang.String-) | Specifies the attribute that indicates the CellName to be written. |
+| [setCheckExcelRestriction(boolean value)](#setCheckExcelRestriction-boolean-) | Whether check restriction of excel file when user modify cells related objects. |
 | [setClearData(boolean value)](#setClearData-boolean-) | Make the workbook empty after saving the file. |
 | [setCreateDirectory(boolean value)](#setCreateDirectory-boolean-) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [setCssStyles(String value)](#setCssStyles-java.lang.String-) | Sets the additional css styles for the formatter. |
 | [setDefaultFontName(String value)](#setDefaultFontName-java.lang.String-) | Specify the default font name for exporting html, the default font will be used when the font of style is not existing, If this property is null, Aspose.Cells will use universal font which have the same family with the original font, the default value is null. |
+| [setDisableCss(boolean value)](#setDisableCss-boolean-) | Indicates whether only inline styles are applied, without relying on CSS. |
 | [setDisableDownlevelRevealedComments(boolean value)](#setDisableDownlevelRevealedComments-boolean-) | Indicates if disable Downlevel-revealed conditional comments when exporting file to html, the default value is false. |
 | [setEncodeEntityAsCode(boolean value)](#setEncodeEntityAsCode-boolean-) | Indicates whether the html character entities are replaced with decimal code. |
 | [setEncoding(Encoding value)](#setEncoding-com.aspose.cells.Encoding-) | If not set,use Encoding.UTF8 as default enconding type. |
@@ -306,6 +310,16 @@ Specifies the attribute that indicates the CellName to be written. (e.g. If the 
 
 **Returns:**
 java.lang.String
+### getCheckExcelRestriction() {#getCheckExcelRestriction--}
+```
+public boolean getCheckExcelRestriction()
+```
+
+
+Whether check restriction of excel file when user modify cells related objects. For example, excel does not allow inputting string value longer than 32K. When you input a value longer than 32K, it will be truncated.
+
+**Returns:**
+boolean
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -360,6 +374,16 @@ Specify the default font name for exporting html, the default font will be used 
 
 **Returns:**
 java.lang.String
+### getDisableCss() {#getDisableCss--}
+```
+public boolean getDisableCss()
+```
+
+
+Indicates whether only inline styles are applied, without relying on CSS. The default value is false.
+
+**Returns:**
+boolean
 ### getDisableDownlevelRevealedComments() {#getDisableDownlevelRevealedComments--}
 ```
 public boolean getDisableDownlevelRevealedComments()
@@ -1237,6 +1261,19 @@ Specifies the attribute that indicates the CellName to be written. (e.g. If the 
 | --- | --- | --- |
 | value | java.lang.String |  |
 
+### setCheckExcelRestriction(boolean value) {#setCheckExcelRestriction-boolean-}
+```
+public void setCheckExcelRestriction(boolean value)
+```
+
+
+Whether check restriction of excel file when user modify cells related objects. For example, excel does not allow inputting string value longer than 32K. When you input a value longer than 32K, it will be truncated.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
 ### setClearData(boolean value) {#setClearData-boolean-}
 ```
 public void setClearData(boolean value)
@@ -1292,6 +1329,19 @@ Specify the default font name for exporting html, the default font will be used 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
+
+### setDisableCss(boolean value) {#setDisableCss-boolean-}
+```
+public void setDisableCss(boolean value)
+```
+
+
+Indicates whether only inline styles are applied, without relying on CSS. The default value is false.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### setDisableDownlevelRevealedComments(boolean value) {#setDisableDownlevelRevealedComments-boolean-}
 ```

@@ -142,7 +142,7 @@ Specifies the data sources for external links used in formulas.
 
 **Remarks**
 
-Like [Workbook.updateLinkedDataSource(Workbook[])](../../com.aspose.cells/workbook\#updateLinkedDataSource-Workbook---), here you may specify data sources for external links used in formulas to be calculated, especially those used in INDIRECT function. For those external links used in INDIRECT function, they are not taken as part of the external links of the workbook and cannot be updated by [Workbook.updateLinkedDataSource(Workbook[])](../../com.aspose.cells/workbook\#updateLinkedDataSource-Workbook---).
+Like [Workbook.updateLinkedDataSource(Workbook[])](../../com.aspose.cells/workbook\#updateLinkedDataSource-Workbook---), here you may specify data sources for external links used in formulas to be calculated, especially those used in INDIRECT function. For those external links used in INDIRECT function, they are not taken as part of the external links of the workbook and cannot be updated by [Workbook.updateLinkedDataSource(Workbook[])](../../com.aspose.cells/workbook\#updateLinkedDataSource-Workbook---). The match of those workbooks with external links is determined by [Workbook.getFileName()](../../com.aspose.cells/workbook\#getFileName--) and [ExternalLink.getDataSource()](../../com.aspose.cells/externallink\#getDataSource--). So please make sure [Workbook.getFileName()](../../com.aspose.cells/workbook\#getFileName--) has been specified with the proper value(generally it should be same with corresponding [ExternalLink.getDataSource()](../../com.aspose.cells/externallink\#getDataSource--)) for every workbook so they can be linked as expected.
 
 **Returns:**
 com.aspose.cells.Workbook[]
@@ -273,7 +273,7 @@ Specifies the data sources for external links used in formulas.
 
 **Remarks**
 
-Like [Workbook.updateLinkedDataSource(Workbook[])](../../com.aspose.cells/workbook\#updateLinkedDataSource-Workbook---), here you may specify data sources for external links used in formulas to be calculated, especially those used in INDIRECT function. For those external links used in INDIRECT function, they are not taken as part of the external links of the workbook and cannot be updated by [Workbook.updateLinkedDataSource(Workbook[])](../../com.aspose.cells/workbook\#updateLinkedDataSource-Workbook---).
+Like [Workbook.updateLinkedDataSource(Workbook[])](../../com.aspose.cells/workbook\#updateLinkedDataSource-Workbook---), here you may specify data sources for external links used in formulas to be calculated, especially those used in INDIRECT function. For those external links used in INDIRECT function, they are not taken as part of the external links of the workbook and cannot be updated by [Workbook.updateLinkedDataSource(Workbook[])](../../com.aspose.cells/workbook\#updateLinkedDataSource-Workbook---). The match of those workbooks with external links is determined by [Workbook.getFileName()](../../com.aspose.cells/workbook\#getFileName--) and [ExternalLink.getDataSource()](../../com.aspose.cells/externallink\#getDataSource--). So please make sure [Workbook.getFileName()](../../com.aspose.cells/workbook\#getFileName--) has been specified with the proper value(generally it should be same with corresponding [ExternalLink.getDataSource()](../../com.aspose.cells/externallink\#getDataSource--)) for every workbook so they can be linked as expected.
 
 **Parameters:**
 | Parameter | Type | Description |

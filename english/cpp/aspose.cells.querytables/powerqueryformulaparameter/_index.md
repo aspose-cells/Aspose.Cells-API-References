@@ -21,6 +21,7 @@ class PowerQueryFormulaParameter : public Aspose::Cells::QueryTables::PowerQuery
 | Method | Description |
 | --- | --- |
 | [GetFormulaDefinition()](./getformuladefinition/) | Gets the definition of the parameter. |
+| [GetGroupName()](../powerqueryformula/getgroupname/) | Gets the name of group which contains this power query formula. |
 | [GetName()](../powerqueryformula/getname/) | Gets and sets the name of the power query formula. |
 | [GetPowerQueryFormulaItems()](../powerqueryformula/getpowerqueryformulaitems/) | Gets all items of power query formula. |
 | [GetType()](./gettype/) | Gets the type of power query formula. |

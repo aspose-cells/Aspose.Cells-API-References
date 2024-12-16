@@ -23,6 +23,7 @@ public class DeleteOptions
 
 | Name | Description |
 | --- | --- |
+| [FormulaChangeMonitor](../../aspose.cells/deleteoptions/formulachangemonitor/) { get; set; } | Gets/sets the monitor for tracking changes caused by the deletion. |
 | [UpdateReference](../../aspose.cells/deleteoptions/updatereference/) { get; set; } | Indicates if update references in other worksheets. |
 
 ### Examples
