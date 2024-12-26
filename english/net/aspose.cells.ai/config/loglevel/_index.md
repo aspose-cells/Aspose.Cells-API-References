@@ -7,7 +7,7 @@ url: /net/aspose.cells.ai/config/loglevel/
 ---
 ## Config.LogLevel field
 
-whether to add log
+Whether to add log
 
 ```csharp
 public static LogLevel LogLevel;
