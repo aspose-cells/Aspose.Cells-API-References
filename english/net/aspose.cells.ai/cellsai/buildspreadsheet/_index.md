@@ -41,7 +41,7 @@ String outfile = "D:\\Sales Report Top3.xlsx";
 String inputfile = "D:\\Sales Report Year.xlsx";
 await cellsAI.BuildSpreadsheet(userRequest, inputfile, outfile);
 
-String userRequest = "Add a new column named "Ranking" and fill in the content of this column based on the students' total scores ranking.";
+String userRequest = "Add a new column named \"Ranking\" and fill in the content of this column based on the students' total scores ranking.";
 String outfile = "D:\\student_score_with_rank.xlsx";
 String inputfile = "D:\\student_score.xlsx";
 await cellsAI.BuildSpreadsheet(userRequest, inputfile, outfile);
