@@ -1,13 +1,13 @@
 ---
 title: Class Model
 second_title: Aspose.Cells for .NET API Reference
-description: Aspose.Cells.AI.Model class. Represents a AI model
+description: Aspose.Cells.AI.Model class. Represents the AI model
 type: docs
 url: /net/aspose.cells.ai/model/
 ---
 ## Model class
 
-Represents a AI model
+Represents the AI model
 
 ```csharp
 public class Model
