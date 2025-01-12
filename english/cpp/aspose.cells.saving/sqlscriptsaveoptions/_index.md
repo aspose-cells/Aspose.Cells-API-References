@@ -23,6 +23,7 @@ class SqlScriptSaveOptions : public Aspose::Cells::SaveOptions
 | [GetAddBlankLineBetweenRows()](./getaddblanklinebetweenrows/) | Insert blank line between each data. |
 | [GetCachedFileFolder()](../../aspose.cells/saveoptions/getcachedfilefolder/) | The cached file folder is used to store some large data. |
 | [GetCheckAllDataForColumnType()](./getcheckalldataforcolumntype/) | Check all data to find columns' data type. |
+| [GetCheckExcelRestriction()](../../aspose.cells/saveoptions/getcheckexcelrestriction/) | Whether check restriction of excel file when user modify cells related objects. For example, excel does not allow inputting string value longer than 32K. When you input a value longer than 32K, it will be truncated. |
 | [GetCheckIfTableExists()](./getcheckiftableexists/) | Check if the table name exists before creating. |
 | [GetClearData()](../../aspose.cells/saveoptions/getcleardata/) | Make the workbook empty after saving the file. |
 | [GetColumnTypeMap()](./getcolumntypemap/) | Gets and sets the map of column type for different database. |
@@ -57,6 +58,7 @@ class SqlScriptSaveOptions : public Aspose::Cells::SaveOptions
 | [SetCachedFileFolder(const U16String\& value)](../../aspose.cells/saveoptions/setcachedfilefolder/) | The cached file folder is used to store some large data. |
 | [SetCachedFileFolder(const char16_t* value)](../../aspose.cells/saveoptions/setcachedfilefolder/) | The cached file folder is used to store some large data. |
 | [SetCheckAllDataForColumnType(bool value)](./setcheckalldataforcolumntype/) | Check all data to find columns' data type. |
+| [SetCheckExcelRestriction(bool value)](../../aspose.cells/saveoptions/setcheckexcelrestriction/) | Whether check restriction of excel file when user modify cells related objects. For example, excel does not allow inputting string value longer than 32K. When you input a value longer than 32K, it will be truncated. |
 | [SetCheckIfTableExists(bool value)](./setcheckiftableexists/) | Check if the table name exists before creating. |
 | [SetClearData(bool value)](../../aspose.cells/saveoptions/setcleardata/) | Make the workbook empty after saving the file. |
 | [SetColumnTypeMap(const SqlScriptColumnTypeMap\& value)](./setcolumntypemap/) | Gets and sets the map of column type for different database. |

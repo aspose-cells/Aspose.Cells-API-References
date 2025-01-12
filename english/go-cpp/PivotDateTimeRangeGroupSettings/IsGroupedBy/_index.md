@@ -1,7 +1,7 @@
 ---
 title: IsGroupedBy Method 
 linktitle: IsGroupedBy
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsGroupedBy method. Encapsulates the function that represents isgroupedby in Go.'
 type: docs
 weight: 200

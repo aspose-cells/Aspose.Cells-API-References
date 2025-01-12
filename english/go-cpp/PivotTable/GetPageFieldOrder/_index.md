@@ -1,7 +1,7 @@
 ---
 title: GetPageFieldOrder Method 
 linktitle: GetPageFieldOrder
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetPageFieldOrder method. Encapsulates the function that represents getpagefieldorder in Go.'
 type: docs
 weight: 200

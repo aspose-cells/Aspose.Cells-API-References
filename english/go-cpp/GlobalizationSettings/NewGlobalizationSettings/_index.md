@@ -1,7 +1,7 @@
 ---
 title: GlobalizationSettings Constructor 
 linktitle: GlobalizationSettings
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GlobalizationSettings constructor. Encapsulates the function that represents newglobalizationsettings in Go.'
 type: docs
 weight: 200

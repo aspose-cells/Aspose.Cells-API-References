@@ -1,7 +1,7 @@
 ---
 title: Dialog_Box Constructor 
 linktitle: Dialog_Box
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'Dialog_Box constructor. Encapsulates the function that represents newdialog_box in Go.'
 type: docs
 weight: 200

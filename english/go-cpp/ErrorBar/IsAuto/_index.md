@@ -1,7 +1,7 @@
 ---
 title: IsAuto Method 
 linktitle: IsAuto
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsAuto method. Encapsulates the function that represents isauto in Go.'
 type: docs
 weight: 200

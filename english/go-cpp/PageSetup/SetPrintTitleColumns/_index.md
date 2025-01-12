@@ -1,7 +1,7 @@
 ---
 title: SetPrintTitleColumns Method 
 linktitle: SetPrintTitleColumns
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetPrintTitleColumns method. Encapsulates the function that represents setprinttitlecolumns in Go.'
 type: docs
 weight: 200

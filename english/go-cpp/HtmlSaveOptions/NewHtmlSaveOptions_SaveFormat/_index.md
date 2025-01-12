@@ -1,7 +1,7 @@
 ---
 title: HtmlSaveOptions Constructor 
 linktitle: HtmlSaveOptions
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'HtmlSaveOptions constructor. Encapsulates the function that represents newhtmlsaveoptions_saveformat in Go.'
 type: docs
 weight: 200

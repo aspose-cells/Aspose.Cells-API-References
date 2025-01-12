@@ -1,7 +1,7 @@
 ---
 title: GetNewValue Method 
 linktitle: GetNewValue
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetNewValue method. Encapsulates the function that represents getnewvalue in Go.'
 type: docs
 weight: 200

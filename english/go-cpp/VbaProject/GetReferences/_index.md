@@ -1,7 +1,7 @@
 ---
 title: GetReferences Method 
 linktitle: GetReferences
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetReferences method. Encapsulates the function that represents getreferences in Go.'
 type: docs
 weight: 200

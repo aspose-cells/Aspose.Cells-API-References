@@ -1,7 +1,7 @@
 ---
 title: GetBackgroundColor Method 
 linktitle: GetBackgroundColor
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetBackgroundColor method. Encapsulates the function that represents getbackgroundcolor in Go.'
 type: docs
 weight: 200

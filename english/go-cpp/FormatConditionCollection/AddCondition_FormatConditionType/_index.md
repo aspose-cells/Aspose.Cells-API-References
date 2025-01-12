@@ -1,7 +1,7 @@
 ---
 title: AddCondition_FormatConditionType Method 
 linktitle: AddCondition
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'AddCondition_FormatConditionType method. Encapsulates the function that represents addcondition in Go.'
 type: docs
 weight: 200

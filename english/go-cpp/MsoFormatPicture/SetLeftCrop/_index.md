@@ -1,7 +1,7 @@
 ---
 title: SetLeftCrop Method 
 linktitle: SetLeftCrop
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetLeftCrop method. Encapsulates the function that represents setleftcrop in Go.'
 type: docs
 weight: 200

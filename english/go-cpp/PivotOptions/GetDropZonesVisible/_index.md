@@ -1,7 +1,7 @@
 ---
 title: GetDropZonesVisible Method 
 linktitle: GetDropZonesVisible
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetDropZonesVisible method. Encapsulates the function that represents getdropzonesvisible in Go.'
 type: docs
 weight: 200

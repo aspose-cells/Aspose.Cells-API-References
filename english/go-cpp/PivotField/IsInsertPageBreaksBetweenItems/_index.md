@@ -1,7 +1,7 @@
 ---
 title: IsInsertPageBreaksBetweenItems Method 
 linktitle: IsInsertPageBreaksBetweenItems
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsInsertPageBreaksBetweenItems method. Encapsulates the function that represents isinsertpagebreaksbetweenitems in Go.'
 type: docs
 weight: 200

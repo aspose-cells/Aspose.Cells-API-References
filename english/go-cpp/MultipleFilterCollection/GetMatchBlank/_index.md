@@ -1,7 +1,7 @@
 ---
 title: GetMatchBlank Method 
 linktitle: GetMatchBlank
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetMatchBlank method. Encapsulates the function that represents getmatchblank in Go.'
 type: docs
 weight: 200

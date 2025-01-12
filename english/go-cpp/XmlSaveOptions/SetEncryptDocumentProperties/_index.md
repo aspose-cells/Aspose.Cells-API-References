@@ -1,7 +1,7 @@
 ---
 title: SetEncryptDocumentProperties Method 
 linktitle: SetEncryptDocumentProperties
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetEncryptDocumentProperties method. Encapsulates the function that represents setencryptdocumentproperties in Go.'
 type: docs
 weight: 200

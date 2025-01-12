@@ -1,7 +1,7 @@
 ---
 title: GradientDirectionType Enum 
 linktitle: GradientDirectionType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GradientDirectionType enum. Encapsulates the object that represents gradientdirectiontype in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetModifyDocumentPermission Method 
 linktitle: GetModifyDocumentPermission
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetModifyDocumentPermission method. Encapsulates the function that represents getmodifydocumentpermission in Go.'
 type: docs
 weight: 200

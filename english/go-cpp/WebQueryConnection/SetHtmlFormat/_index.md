@@ -1,7 +1,7 @@
 ---
 title: SetHtmlFormat Method 
 linktitle: SetHtmlFormat
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetHtmlFormat method. Encapsulates the function that represents sethtmlformat in Go.'
 type: docs
 weight: 200

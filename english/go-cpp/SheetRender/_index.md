@@ -1,7 +1,7 @@
 ---
 title: SheetRender Class 
 linktitle: SheetRender
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SheetRender class. Encapsulates the object that represents sheetrender in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: AutoFillType Enum 
 linktitle: AutoFillType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'AutoFillType enum. Encapsulates the object that represents autofilltype in Go.'
 type: docs
 weight: 200

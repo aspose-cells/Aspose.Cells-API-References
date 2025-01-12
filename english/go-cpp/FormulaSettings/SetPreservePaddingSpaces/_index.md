@@ -1,7 +1,7 @@
 ---
 title: SetPreservePaddingSpaces Method 
 linktitle: SetPreservePaddingSpaces
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetPreservePaddingSpaces method. Encapsulates the function that represents setpreservepaddingspaces in Go.'
 type: docs
 weight: 200

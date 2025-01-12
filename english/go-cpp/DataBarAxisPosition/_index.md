@@ -1,7 +1,7 @@
 ---
 title: DataBarAxisPosition Enum 
 linktitle: DataBarAxisPosition
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'DataBarAxisPosition enum. Encapsulates the object that represents databaraxisposition in Go.'
 type: docs
 weight: 200

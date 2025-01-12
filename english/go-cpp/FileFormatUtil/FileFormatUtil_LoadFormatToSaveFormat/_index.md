@@ -1,7 +1,7 @@
 ---
 title: FileFormatUtil_LoadFormatToSaveFormat Method 
 linktitle: LoadFormatToSaveFormat
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'FileFormatUtil_LoadFormatToSaveFormat method. Encapsulates the function that represents loadformattosaveformat in Go.'
 type: docs
 weight: 200

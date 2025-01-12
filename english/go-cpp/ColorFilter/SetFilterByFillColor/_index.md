@@ -1,7 +1,7 @@
 ---
 title: SetFilterByFillColor Method 
 linktitle: SetFilterByFillColor
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetFilterByFillColor method. Encapsulates the function that represents setfilterbyfillcolor in Go.'
 type: docs
 weight: 200

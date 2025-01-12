@@ -1,7 +1,7 @@
 ---
 title: GetUpperDeltaX Method 
 linktitle: GetUpperDeltaX
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetUpperDeltaX method. Encapsulates the function that represents getupperdeltax in Go.'
 type: docs
 weight: 200

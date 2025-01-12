@@ -1,7 +1,7 @@
 ---
 title: GetStandardWidthPixels Method 
 linktitle: GetStandardWidthPixels
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetStandardWidthPixels method. Encapsulates the function that represents getstandardwidthpixels in Go.'
 type: docs
 weight: 200

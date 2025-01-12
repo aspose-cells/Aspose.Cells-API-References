@@ -1,7 +1,7 @@
 ---
 title: SetIsAutoTab Method 
 linktitle: SetIsAutoTab
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetIsAutoTab method. Encapsulates the function that represents setisautotab in Go.'
 type: docs
 weight: 200

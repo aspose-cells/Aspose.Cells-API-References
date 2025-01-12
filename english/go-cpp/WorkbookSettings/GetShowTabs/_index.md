@@ -1,7 +1,7 @@
 ---
 title: GetShowTabs Method 
 linktitle: GetShowTabs
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetShowTabs method. Encapsulates the function that represents getshowtabs in Go.'
 type: docs
 weight: 200

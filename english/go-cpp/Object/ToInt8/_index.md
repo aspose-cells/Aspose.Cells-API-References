@@ -1,7 +1,7 @@
 ---
 title: ToInt8 Method 
 linktitle: ToInt8
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ToInt8 method. Encapsulates the function that represents toint8 in Go.'
 type: docs
 weight: 200

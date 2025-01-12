@@ -1,7 +1,7 @@
 ---
 title: GetDynamicFilterType Method 
 linktitle: GetDynamicFilterType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetDynamicFilterType method. Encapsulates the function that represents getdynamicfiltertype in Go.'
 type: docs
 weight: 200

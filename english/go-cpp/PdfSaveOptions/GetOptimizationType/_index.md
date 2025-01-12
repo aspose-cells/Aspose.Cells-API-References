@@ -1,7 +1,7 @@
 ---
 title: GetOptimizationType Method 
 linktitle: GetOptimizationType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetOptimizationType method. Encapsulates the function that represents getoptimizationtype in Go.'
 type: docs
 weight: 200

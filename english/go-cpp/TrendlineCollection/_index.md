@@ -1,7 +1,7 @@
 ---
 title: TrendlineCollection Class 
 linktitle: TrendlineCollection
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'TrendlineCollection class. Encapsulates the object that represents trendlinecollection in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetExportHiddenWorksheet Method 
 linktitle: GetExportHiddenWorksheet
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetExportHiddenWorksheet method. Encapsulates the function that represents getexporthiddenworksheet in Go.'
 type: docs
 weight: 200

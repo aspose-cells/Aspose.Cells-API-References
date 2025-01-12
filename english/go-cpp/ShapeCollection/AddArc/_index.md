@@ -1,7 +1,7 @@
 ---
 title: AddArc Method 
 linktitle: AddArc
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'AddArc method. Encapsulates the function that represents addarc in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetOleSize Method 
 linktitle: GetOleSize
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetOleSize method. Encapsulates the function that represents getolesize in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: SetGraphicType Method 
 linktitle: SetGraphicType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetGraphicType method. Encapsulates the function that represents setgraphictype in Go.'
 type: docs
 weight: 200

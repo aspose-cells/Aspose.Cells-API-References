@@ -1,7 +1,7 @@
 ---
 title: ShowDetail Method 
 linktitle: ShowDetail
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ShowDetail method. Encapsulates the function that represents showdetail in Go.'
 type: docs
 weight: 200

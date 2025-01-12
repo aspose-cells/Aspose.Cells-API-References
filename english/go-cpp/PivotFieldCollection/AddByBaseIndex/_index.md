@@ -1,7 +1,7 @@
 ---
 title: AddByBaseIndex Method 
 linktitle: AddByBaseIndex
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'AddByBaseIndex method. Encapsulates the function that represents addbybaseindex in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetProviderId Method 
 linktitle: GetProviderId
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetProviderId method. Encapsulates the function that represents getproviderid in Go.'
 type: docs
 weight: 200

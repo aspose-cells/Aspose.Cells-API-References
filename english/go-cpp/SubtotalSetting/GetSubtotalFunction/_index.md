@@ -1,7 +1,7 @@
 ---
 title: GetSubtotalFunction Method 
 linktitle: GetSubtotalFunction
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetSubtotalFunction method. Encapsulates the function that represents getsubtotalfunction in Go.'
 type: docs
 weight: 200

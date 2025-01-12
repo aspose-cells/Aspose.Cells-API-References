@@ -1,7 +1,7 @@
 ---
 title: GetValueAxis Method 
 linktitle: GetValueAxis
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetValueAxis method. Encapsulates the function that represents getvalueaxis in Go.'
 type: docs
 weight: 200

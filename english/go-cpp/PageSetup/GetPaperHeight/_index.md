@@ -1,7 +1,7 @@
 ---
 title: GetPaperHeight Method 
 linktitle: GetPaperHeight
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetPaperHeight method. Encapsulates the function that represents getpaperheight in Go.'
 type: docs
 weight: 200

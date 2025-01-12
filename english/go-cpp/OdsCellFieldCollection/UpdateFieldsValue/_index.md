@@ -1,7 +1,7 @@
 ---
 title: UpdateFieldsValue Method 
 linktitle: UpdateFieldsValue
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'UpdateFieldsValue method. Encapsulates the function that represents updatefieldsvalue in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: SetShowSubtotalAtTop Method 
 linktitle: SetShowSubtotalAtTop
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetShowSubtotalAtTop method. Encapsulates the function that represents setshowsubtotalattop in Go.'
 type: docs
 weight: 200

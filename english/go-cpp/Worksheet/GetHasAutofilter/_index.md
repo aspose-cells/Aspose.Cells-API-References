@@ -1,7 +1,7 @@
 ---
 title: GetHasAutofilter Method 
 linktitle: GetHasAutofilter
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetHasAutofilter method. Encapsulates the function that represents gethasautofilter in Go.'
 type: docs
 weight: 200

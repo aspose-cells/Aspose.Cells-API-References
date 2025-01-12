@@ -1,7 +1,7 @@
 ---
 title: GetCredentialsMethodType Method 
 linktitle: GetCredentialsMethodType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetCredentialsMethodType method. Encapsulates the function that represents getcredentialsmethodtype in Go.'
 type: docs
 weight: 200

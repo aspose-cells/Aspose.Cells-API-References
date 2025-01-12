@@ -1,7 +1,7 @@
 ---
 title: SetDiagonalUpBorder Method 
 linktitle: SetDiagonalUpBorder
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetDiagonalUpBorder method. Encapsulates the function that represents setdiagonalupborder in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: SetMaxRowCount Method 
 linktitle: SetMaxRowCount
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetMaxRowCount method. Encapsulates the function that represents setmaxrowcount in Go.'
 type: docs
 weight: 200

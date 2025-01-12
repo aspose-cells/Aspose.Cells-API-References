@@ -1,7 +1,7 @@
 ---
 title: SettableGlobalizationSettings Class 
 linktitle: SettableGlobalizationSettings
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SettableGlobalizationSettings class. Encapsulates the object that represents settableglobalizationsettings in Go.'
 type: docs
 weight: 200

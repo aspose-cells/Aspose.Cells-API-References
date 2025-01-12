@@ -1,7 +1,7 @@
 ---
 title: SetShowDrill Method 
 linktitle: SetShowDrill
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetShowDrill method. Encapsulates the function that represents setshowdrill in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetSigner Method 
 linktitle: GetSigner
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetSigner method. Encapsulates the function that represents getsigner in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetShowOutlierPoints Method 
 linktitle: GetShowOutlierPoints
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetShowOutlierPoints method. Encapsulates the function that represents getshowoutlierpoints in Go.'
 type: docs
 weight: 200

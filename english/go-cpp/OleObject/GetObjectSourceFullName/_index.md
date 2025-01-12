@@ -1,7 +1,7 @@
 ---
 title: GetObjectSourceFullName Method 
 linktitle: GetObjectSourceFullName
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetObjectSourceFullName method. Encapsulates the function that represents getobjectsourcefullname in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: OoxmlSaveOptions Constructor 
 linktitle: OoxmlSaveOptions
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'OoxmlSaveOptions constructor. Encapsulates the function that represents newooxmlsaveoptions in Go.'
 type: docs
 weight: 200

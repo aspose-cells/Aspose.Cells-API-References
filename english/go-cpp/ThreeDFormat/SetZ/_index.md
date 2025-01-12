@@ -1,7 +1,7 @@
 ---
 title: SetZ Method 
 linktitle: SetZ
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetZ method. Encapsulates the function that represents setz in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: CustomFilterCollection Class 
 linktitle: CustomFilterCollection
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'CustomFilterCollection class. Encapsulates the object that represents customfiltercollection in Go.'
 type: docs
 weight: 200

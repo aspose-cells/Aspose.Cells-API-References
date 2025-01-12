@@ -1,7 +1,7 @@
 ---
 title: GetCurrentRegion Method 
 linktitle: GetCurrentRegion
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetCurrentRegion method. Encapsulates the function that represents getcurrentregion in Go.'
 type: docs
 weight: 200

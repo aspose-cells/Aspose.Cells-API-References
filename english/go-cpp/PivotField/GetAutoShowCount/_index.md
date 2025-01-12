@@ -1,7 +1,7 @@
 ---
 title: GetAutoShowCount Method 
 linktitle: GetAutoShowCount
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetAutoShowCount method. Encapsulates the function that represents getautoshowcount in Go.'
 type: docs
 weight: 200

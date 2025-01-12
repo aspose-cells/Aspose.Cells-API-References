@@ -1,7 +1,7 @@
 ---
 title: MsoArrowheadStyle Enum 
 linktitle: MsoArrowheadStyle
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'MsoArrowheadStyle enum. Encapsulates the object that represents msoarrowheadstyle in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetBorderOleColor Method 
 linktitle: GetBorderOleColor
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetBorderOleColor method. Encapsulates the function that represents getborderolecolor in Go.'
 type: docs
 weight: 200

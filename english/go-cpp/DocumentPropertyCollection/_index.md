@@ -1,7 +1,7 @@
 ---
 title: DocumentPropertyCollection Class 
 linktitle: DocumentPropertyCollection
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'DocumentPropertyCollection class. Encapsulates the object that represents documentpropertycollection in Go.'
 type: docs
 weight: 200

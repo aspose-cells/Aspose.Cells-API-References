@@ -1,7 +1,7 @@
 ---
 title: SetTemplate Method 
 linktitle: SetTemplate
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetTemplate method. Encapsulates the function that represents settemplate in Go.'
 type: docs
 weight: 200

@@ -16,6 +16,7 @@ url: /cpp/aspose.cells/
 | --- | --- |
 | [AboveAverage](./aboveaverage/) | Describe the [AboveAverage](./aboveaverage/) conditional formatting rule. This conditional formatting rule highlights cells that are above or below the average for all values in the range. |
 | [AbstractCalculationEngine](./abstractcalculationengine/) | Represents user's custom calculation engine to extend the default calculation engine of [Aspose.Cells](./). |
+| [AbstractFormulaChangeMonitor](./abstractformulachangemonitor/) | Monitor for user to track the change of formulas during certain operations. |
 | [AbstractInterruptMonitor](./abstractinterruptmonitor/) | Monitor for interruption requests in all time-consuming operations. |
 | [AbstractTextLoadOptions](./abstracttextloadoptions/) | Common options for loading text values. |
 | [AdvancedFilter](./advancedfilter/) | Represents the settings of advanced filter. |
@@ -233,6 +234,7 @@ url: /cpp/aspose.cells/
 | [ExceptionType](./exceptiontype/) | Represents custom exception type code. |
 | [ExternalLinkType](./externallinktype/) | Represents the type of external link. |
 | [FileFormatType](./fileformattype/) | Represents the file format types. |
+| [FilterCategory](./filtercategory/) | Represents the category of the filter. |
 | [FilterOperatorType](./filteroperatortype/) | Custom Filter operator type. |
 | [FilterType](./filtertype/) | The filter type. |
 | [FontSchemeType](./fontschemetype/) | Represents the scheme type of the font. |
@@ -300,7 +302,7 @@ url: /cpp/aspose.cells/
 | [ValidationType](./validationtype/) | Represents data validation type. |
 | [ViewType](./viewtype/) | Represents the view type of the worksheet. |
 | [VisibilityType](./visibilitytype/) | Represents the states for sheet visibility. |
-| [WarningType](./warningtype/) | WaringType. |
+| [WarningType](./warningtype/) |  **(Deprecated)** WaringType. |
 ## Typedefs
 
 | Typedef | Description |

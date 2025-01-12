@@ -1,7 +1,7 @@
 ---
 title: PivotArea Class 
 linktitle: PivotArea
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'PivotArea class. Encapsulates the object that represents pivotarea in Go.'
 type: docs
 weight: 200

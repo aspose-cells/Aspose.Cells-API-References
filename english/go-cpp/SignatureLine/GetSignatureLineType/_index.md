@@ -1,7 +1,7 @@
 ---
 title: GetSignatureLineType Method 
 linktitle: GetSignatureLineType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetSignatureLineType method. Encapsulates the function that represents getsignaturelinetype in Go.'
 type: docs
 weight: 200

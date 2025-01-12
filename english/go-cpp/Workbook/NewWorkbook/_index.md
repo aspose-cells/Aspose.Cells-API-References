@@ -1,7 +1,7 @@
 ---
 title: Workbook Constructor 
 linktitle: Workbook
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'Workbook constructor. Encapsulates the function that represents newworkbook in Go.'
 type: docs
 weight: 200

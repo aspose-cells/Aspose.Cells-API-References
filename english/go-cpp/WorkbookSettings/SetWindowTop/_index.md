@@ -1,7 +1,7 @@
 ---
 title: SetWindowTop Method 
 linktitle: SetWindowTop
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetWindowTop method. Encapsulates the function that represents setwindowtop in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: WorkbookMetadata Class 
 linktitle: WorkbookMetadata
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'WorkbookMetadata class. Encapsulates the object that represents workbookmetadata in Go.'
 type: docs
 weight: 200

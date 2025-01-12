@@ -87,12 +87,14 @@ public class Cells : IDisposable, IEnumerable
 | [DeleteBlankRows](../../aspose.cells/cells/deleteblankrows/#deleteblankrows_1)(DeleteOptions) | Delete all blank rows which do not contain any data or some special objects such as visible comment, pivot table. |
 | [DeleteColumn](../../aspose.cells/cells/deletecolumn/#deletecolumn)(int) | Deletes a column. |
 | [DeleteColumn](../../aspose.cells/cells/deletecolumn/#deletecolumn_1)(int, bool) | Deletes a column. |
-| [DeleteColumns](../../aspose.cells/cells/deletecolumns/)(int, int, bool) | Deletes several columns. |
+| [DeleteColumns](../../aspose.cells/cells/deletecolumns/#deletecolumns_1)(int, int, bool) | Deletes several columns. |
+| [DeleteColumns](../../aspose.cells/cells/deletecolumns/#deletecolumns)(int, int, DeleteOptions) | Deletes several columns. |
 | [DeleteRange](../../aspose.cells/cells/deleterange/)(int, int, int, int, ShiftType) | Deletes a range of cells and shift cells according to the shift option. |
 | [DeleteRow](../../aspose.cells/cells/deleterow/#deleterow)(int) | Deletes a row. |
 | [DeleteRow](../../aspose.cells/cells/deleterow/#deleterow_1)(int, bool) | Deletes a row. |
-| [DeleteRows](../../aspose.cells/cells/deleterows/#deleterows)(int, int) | Deletes several rows. |
-| [DeleteRows](../../aspose.cells/cells/deleterows/#deleterows_1)(int, int, bool) | Deletes multiple rows in the worksheet. |
+| [DeleteRows](../../aspose.cells/cells/deleterows/#deleterows)(int, int) | Deletes multiple rows. |
+| [DeleteRows](../../aspose.cells/cells/deleterows/#deleterows_2)(int, int, bool) | Deletes multiple rows in the worksheet. |
+| [DeleteRows](../../aspose.cells/cells/deleterows/#deleterows_1)(int, int, DeleteOptions) | Deletes multiple rows in the worksheet. |
 | [Dispose](../../aspose.cells/cells/dispose/)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [EndCellInColumn](../../aspose.cells/cells/endcellincolumn/#endcellincolumn)(short) | Gets the last cell in this column. |
 | [EndCellInColumn](../../aspose.cells/cells/endcellincolumn/#endcellincolumn_1)(int, int, short, short) | Gets the last cell with maximum column index in this range. |
@@ -180,7 +182,8 @@ public class Cells : IDisposable, IEnumerable
 | [InsertColumn](../../aspose.cells/cells/insertcolumn/#insertcolumn)(int) | Inserts a new column into the worksheet. |
 | [InsertColumn](../../aspose.cells/cells/insertcolumn/#insertcolumn_1)(int, bool) | Inserts a new column into the worksheet. |
 | [InsertColumns](../../aspose.cells/cells/insertcolumns/#insertcolumns)(int, int) | Inserts some columns into the worksheet. |
-| [InsertColumns](../../aspose.cells/cells/insertcolumns/#insertcolumns_1)(int, int, bool) | Inserts some columns into the worksheet. |
+| [InsertColumns](../../aspose.cells/cells/insertcolumns/#insertcolumns_2)(int, int, bool) | Inserts some columns into the worksheet. |
+| [InsertColumns](../../aspose.cells/cells/insertcolumns/#insertcolumns_1)(int, int, InsertOptions) | Inserts some columns into the worksheet. |
 | [InsertCutCells](../../aspose.cells/cells/insertcutcells/)(Range, int, int, ShiftType) | Insert cut range. |
 | [InsertRange](../../aspose.cells/cells/insertrange/#insertrange)(CellArea, ShiftType) | Inserts a range of cells and shift cells according to the shift option. |
 | [InsertRange](../../aspose.cells/cells/insertrange/#insertrange_1)(CellArea, int, ShiftType) | Inserts a range of cells and shift cells according to the shift option. |

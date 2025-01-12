@@ -1,7 +1,7 @@
 ---
 title: GetChrType Method 
 linktitle: GetChrType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetChrType method. Encapsulates the function that represents getchrtype in Go.'
 type: docs
 weight: 200

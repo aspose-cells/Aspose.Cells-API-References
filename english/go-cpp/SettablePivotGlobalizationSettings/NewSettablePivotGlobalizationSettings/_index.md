@@ -1,7 +1,7 @@
 ---
 title: SettablePivotGlobalizationSettings Constructor 
 linktitle: SettablePivotGlobalizationSettings
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SettablePivotGlobalizationSettings constructor. Encapsulates the function that represents newsettablepivotglobalizationsettings in Go.'
 type: docs
 weight: 200

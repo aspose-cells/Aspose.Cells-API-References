@@ -1,7 +1,7 @@
 ---
 title: SetNaryOperatorType Method 
 linktitle: SetNaryOperatorType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetNaryOperatorType method. Encapsulates the function that represents setnaryoperatortype in Go.'
 type: docs
 weight: 200

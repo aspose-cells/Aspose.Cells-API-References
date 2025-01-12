@@ -1,7 +1,7 @@
 ---
 title: GetPrimaryKeyColumn Method 
 linktitle: GetPrimaryKeyColumn
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetPrimaryKeyColumn method. Encapsulates the function that represents getprimarykeycolumn in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: SetPrimaryKey Method 
 linktitle: SetPrimaryKey
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetPrimaryKey method. Encapsulates the function that represents setprimarykey in Go.'
 type: docs
 weight: 200

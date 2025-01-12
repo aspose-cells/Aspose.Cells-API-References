@@ -1,7 +1,7 @@
 ---
 title: SetHasLine Method 
 linktitle: SetHasLine
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetHasLine method. Encapsulates the function that represents sethasline in Go.'
 type: docs
 weight: 200

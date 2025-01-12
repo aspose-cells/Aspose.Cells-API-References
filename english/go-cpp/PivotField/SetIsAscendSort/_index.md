@@ -1,7 +1,7 @@
 ---
 title: SetIsAscendSort Method 
 linktitle: SetIsAscendSort
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetIsAscendSort method. Encapsulates the function that represents setisascendsort in Go.'
 type: docs
 weight: 200

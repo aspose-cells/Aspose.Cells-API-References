@@ -1,7 +1,7 @@
 ---
 title: GetNewStyle Method 
 linktitle: GetNewStyle
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetNewStyle method. Encapsulates the function that represents getnewstyle in Go.'
 type: docs
 weight: 200

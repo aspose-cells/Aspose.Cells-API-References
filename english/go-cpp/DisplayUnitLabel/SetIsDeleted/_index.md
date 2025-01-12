@@ -1,7 +1,7 @@
 ---
 title: SetIsDeleted Method 
 linktitle: SetIsDeleted
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetIsDeleted method. Encapsulates the function that represents setisdeleted in Go.'
 type: docs
 weight: 200

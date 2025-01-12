@@ -1,7 +1,7 @@
 ---
 title: SetFontName Method 
 linktitle: SetFontName
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetFontName method. Encapsulates the function that represents setfontname in Go.'
 type: docs
 weight: 200

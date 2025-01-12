@@ -1,7 +1,7 @@
 ---
 title: RemoveField_PivotFieldType_Int Method 
 linktitle: RemoveField
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'RemoveField_PivotFieldType_Int method. Encapsulates the function that represents removefield in Go.'
 type: docs
 weight: 200

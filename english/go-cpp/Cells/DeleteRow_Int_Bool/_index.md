@@ -1,7 +1,7 @@
 ---
 title: DeleteRow_Int_Bool Method 
 linktitle: DeleteRow
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'DeleteRow_Int_Bool method. Encapsulates the function that represents deleterow in Go.'
 type: docs
 weight: 200

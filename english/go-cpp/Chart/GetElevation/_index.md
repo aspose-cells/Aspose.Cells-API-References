@@ -1,7 +1,7 @@
 ---
 title: GetElevation Method 
 linktitle: GetElevation
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetElevation method. Encapsulates the function that represents getelevation in Go.'
 type: docs
 weight: 200

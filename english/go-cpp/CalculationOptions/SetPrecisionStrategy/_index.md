@@ -1,7 +1,7 @@
 ---
 title: SetPrecisionStrategy Method 
 linktitle: SetPrecisionStrategy
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetPrecisionStrategy method. Encapsulates the function that represents setprecisionstrategy in Go.'
 type: docs
 weight: 200

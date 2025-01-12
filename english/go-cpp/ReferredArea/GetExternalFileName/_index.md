@@ -1,7 +1,7 @@
 ---
 title: GetExternalFileName Method 
 linktitle: GetExternalFileName
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetExternalFileName method. Encapsulates the function that represents getexternalfilename in Go.'
 type: docs
 weight: 200

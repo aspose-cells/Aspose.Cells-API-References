@@ -1,7 +1,7 @@
 ---
 title: ClearSparklines Method 
 linktitle: ClearSparklines
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ClearSparklines method. Encapsulates the function that represents clearsparklines in Go.'
 type: docs
 weight: 200

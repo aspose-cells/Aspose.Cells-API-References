@@ -1,7 +1,7 @@
 ---
 title: SetOperator Method 
 linktitle: SetOperator
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetOperator method. Encapsulates the function that represents setoperator in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: SetHasBlankRows Method 
 linktitle: SetHasBlankRows
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetHasBlankRows method. Encapsulates the function that represents sethasblankrows in Go.'
 type: docs
 weight: 200

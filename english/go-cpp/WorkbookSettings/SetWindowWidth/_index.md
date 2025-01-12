@@ -1,7 +1,7 @@
 ---
 title: SetWindowWidth Method 
 linktitle: SetWindowWidth
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetWindowWidth method. Encapsulates the function that represents setwindowwidth in Go.'
 type: docs
 weight: 200

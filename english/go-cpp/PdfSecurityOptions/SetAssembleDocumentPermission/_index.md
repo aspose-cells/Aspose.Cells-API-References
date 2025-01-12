@@ -1,7 +1,7 @@
 ---
 title: SetAssembleDocumentPermission Method 
 linktitle: SetAssembleDocumentPermission
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetAssembleDocumentPermission method. Encapsulates the function that represents setassembledocumentpermission in Go.'
 type: docs
 weight: 200

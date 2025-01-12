@@ -1,7 +1,7 @@
 ---
 title: SetExportAllColumnIndexes Method 
 linktitle: SetExportAllColumnIndexes
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetExportAllColumnIndexes method. Encapsulates the function that represents setexportallcolumnindexes in Go.'
 type: docs
 weight: 200

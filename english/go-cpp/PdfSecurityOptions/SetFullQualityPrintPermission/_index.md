@@ -1,7 +1,7 @@
 ---
 title: SetFullQualityPrintPermission Method 
 linktitle: SetFullQualityPrintPermission
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetFullQualityPrintPermission method. Encapsulates the function that represents setfullqualityprintpermission in Go.'
 type: docs
 weight: 200

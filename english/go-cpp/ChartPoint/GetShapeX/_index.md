@@ -1,7 +1,7 @@
 ---
 title: GetShapeX Method 
 linktitle: GetShapeX
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetShapeX method. Encapsulates the function that represents getshapex in Go.'
 type: docs
 weight: 200

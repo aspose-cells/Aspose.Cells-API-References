@@ -1,7 +1,7 @@
 ---
 title: AsDouble Method 
 linktitle: AsDouble
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'AsDouble method. Encapsulates the function that represents asdouble in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetDisplayNumberFormat Method 
 linktitle: GetDisplayNumberFormat
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetDisplayNumberFormat method. Encapsulates the function that represents getdisplaynumberformat in Go.'
 type: docs
 weight: 200

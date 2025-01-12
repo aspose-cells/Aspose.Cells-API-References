@@ -1,7 +1,7 @@
 ---
 title: ToColor Method 
 linktitle: ToColor
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ToColor method. Encapsulates the function that represents tocolor in Go.'
 type: docs
 weight: 200

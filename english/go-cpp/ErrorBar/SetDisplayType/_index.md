@@ -1,7 +1,7 @@
 ---
 title: SetDisplayType Method 
 linktitle: SetDisplayType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetDisplayType method. Encapsulates the function that represents setdisplaytype in Go.'
 type: docs
 weight: 200

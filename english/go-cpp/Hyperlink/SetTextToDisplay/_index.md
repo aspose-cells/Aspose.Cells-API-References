@@ -1,7 +1,7 @@
 ---
 title: SetTextToDisplay Method 
 linktitle: SetTextToDisplay
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetTextToDisplay method. Encapsulates the function that represents settexttodisplay in Go.'
 type: docs
 weight: 200

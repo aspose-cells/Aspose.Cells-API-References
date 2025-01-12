@@ -1,7 +1,7 @@
 ---
 title: SetExportDocumentProperties Method 
 linktitle: SetExportDocumentProperties
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetExportDocumentProperties method. Encapsulates the function that represents setexportdocumentproperties in Go.'
 type: docs
 weight: 200

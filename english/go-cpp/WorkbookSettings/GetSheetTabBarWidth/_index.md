@@ -1,7 +1,7 @@
 ---
 title: GetSheetTabBarWidth Method 
 linktitle: GetSheetTabBarWidth
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetSheetTabBarWidth method. Encapsulates the function that represents getsheettabbarwidth in Go.'
 type: docs
 weight: 200

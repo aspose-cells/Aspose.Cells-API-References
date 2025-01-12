@@ -1,7 +1,7 @@
 ---
 title: HtmlLoadOptions Constructor 
 linktitle: HtmlLoadOptions
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'HtmlLoadOptions constructor. Encapsulates the function that represents newhtmlloadoptions in Go.'
 type: docs
 weight: 200

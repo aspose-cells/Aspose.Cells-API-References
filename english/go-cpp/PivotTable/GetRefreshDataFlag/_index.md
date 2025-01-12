@@ -1,7 +1,7 @@
 ---
 title: GetRefreshDataFlag Method 
 linktitle: GetRefreshDataFlag
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetRefreshDataFlag method. Encapsulates the function that represents getrefreshdataflag in Go.'
 type: docs
 weight: 200

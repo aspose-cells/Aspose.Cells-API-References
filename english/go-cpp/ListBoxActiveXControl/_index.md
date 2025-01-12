@@ -1,7 +1,7 @@
 ---
 title: ListBoxActiveXControl Class 
 linktitle: ListBoxActiveXControl
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ListBoxActiveXControl class. Encapsulates the object that represents listboxactivexcontrol in Go.'
 type: docs
 weight: 200

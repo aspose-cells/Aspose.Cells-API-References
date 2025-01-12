@@ -1,7 +1,7 @@
 ---
 title: WebExtensionShape Constructor 
 linktitle: WebExtensionShape
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'WebExtensionShape constructor. Encapsulates the function that represents newwebextensionshape in Go.'
 type: docs
 weight: 200

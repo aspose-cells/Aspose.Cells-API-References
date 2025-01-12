@@ -1,7 +1,7 @@
 ---
 title: SetIsFiltered Method 
 linktitle: SetIsFiltered
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetIsFiltered method. Encapsulates the function that represents setisfiltered in Go.'
 type: docs
 weight: 200

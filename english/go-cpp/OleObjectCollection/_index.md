@@ -1,7 +1,7 @@
 ---
 title: OleObjectCollection Class 
 linktitle: OleObjectCollection
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'OleObjectCollection class. Encapsulates the object that represents oleobjectcollection in Go.'
 type: docs
 weight: 200

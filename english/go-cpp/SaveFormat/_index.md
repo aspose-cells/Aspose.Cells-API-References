@@ -1,7 +1,7 @@
 ---
 title: SaveFormat Enum 
 linktitle: SaveFormat
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SaveFormat enum. Encapsulates the object that represents saveformat in Go.'
 type: docs
 weight: 200

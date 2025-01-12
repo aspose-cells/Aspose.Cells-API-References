@@ -1,7 +1,7 @@
 ---
 title: CustomPaperSize Method 
 linktitle: CustomPaperSize
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'CustomPaperSize method. Encapsulates the function that represents custompapersize in Go.'
 type: docs
 weight: 200

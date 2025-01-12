@@ -1,7 +1,7 @@
 ---
 title: GetContourColor Method 
 linktitle: GetContourColor
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetContourColor method. Encapsulates the function that represents getcontourcolor in Go.'
 type: docs
 weight: 200

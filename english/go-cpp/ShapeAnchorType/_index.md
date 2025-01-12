@@ -1,7 +1,7 @@
 ---
 title: ShapeAnchorType Enum 
 linktitle: ShapeAnchorType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ShapeAnchorType enum. Encapsulates the object that represents shapeanchortype in Go.'
 type: docs
 weight: 200

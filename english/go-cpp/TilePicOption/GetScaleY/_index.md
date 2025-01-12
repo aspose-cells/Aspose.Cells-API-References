@@ -1,7 +1,7 @@
 ---
 title: GetScaleY Method 
 linktitle: GetScaleY
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetScaleY method. Encapsulates the function that represents getscaley in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: CellsHelper_GetLibraryPath Method 
 linktitle: GetLibraryPath
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'CellsHelper_GetLibraryPath method. Encapsulates the function that represents getlibrarypath in Go.'
 type: docs
 weight: 200

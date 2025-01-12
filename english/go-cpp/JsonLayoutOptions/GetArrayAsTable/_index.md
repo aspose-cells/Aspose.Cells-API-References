@@ -1,7 +1,7 @@
 ---
 title: GetArrayAsTable Method 
 linktitle: GetArrayAsTable
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetArrayAsTable method. Encapsulates the function that represents getarrayastable in Go.'
 type: docs
 weight: 200

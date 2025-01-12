@@ -1,7 +1,7 @@
 ---
 title: ReplaceOptions Constructor 
 linktitle: ReplaceOptions
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ReplaceOptions constructor. Encapsulates the function that represents newreplaceoptions in Go.'
 type: docs
 weight: 200

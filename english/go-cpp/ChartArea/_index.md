@@ -1,7 +1,7 @@
 ---
 title: ChartArea Class 
 linktitle: ChartArea
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ChartArea class. Encapsulates the object that represents chartarea in Go.'
 type: docs
 weight: 200

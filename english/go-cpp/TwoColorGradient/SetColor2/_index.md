@@ -1,7 +1,7 @@
 ---
 title: SetColor2 Method 
 linktitle: SetColor2
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetColor2 method. Encapsulates the function that represents setcolor2 in Go.'
 type: docs
 weight: 200

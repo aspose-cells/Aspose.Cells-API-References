@@ -1,7 +1,7 @@
 ---
 title: SetStandardHeightInch Method 
 linktitle: SetStandardHeightInch
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetStandardHeightInch method. Encapsulates the function that represents setstandardheightinch in Go.'
 type: docs
 weight: 200

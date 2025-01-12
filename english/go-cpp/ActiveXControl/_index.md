@@ -1,7 +1,7 @@
 ---
 title: ActiveXControl Class 
 linktitle: ActiveXControl
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ActiveXControl class. Encapsulates the object that represents activexcontrol in Go.'
 type: docs
 weight: 200

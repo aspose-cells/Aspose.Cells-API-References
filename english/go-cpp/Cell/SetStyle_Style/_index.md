@@ -1,7 +1,7 @@
 ---
 title: SetStyle_Style Method 
 linktitle: SetStyle
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetStyle_Style method. Encapsulates the function that represents setstyle in Go.'
 type: docs
 weight: 200

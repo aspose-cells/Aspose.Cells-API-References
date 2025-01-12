@@ -1,7 +1,7 @@
 ---
 title: Delete Method 
 linktitle: Delete
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'Delete method. Encapsulates the function that represents delete in Go.'
 type: docs
 weight: 200

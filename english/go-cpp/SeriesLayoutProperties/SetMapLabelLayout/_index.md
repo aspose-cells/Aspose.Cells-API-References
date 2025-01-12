@@ -1,7 +1,7 @@
 ---
 title: SetMapLabelLayout Method 
 linktitle: SetMapLabelLayout
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetMapLabelLayout method. Encapsulates the function that represents setmaplabellayout in Go.'
 type: docs
 weight: 200

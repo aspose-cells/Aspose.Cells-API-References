@@ -1,7 +1,7 @@
 ---
 title: GetExtractContentPermission Method 
 linktitle: GetExtractContentPermission
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetExtractContentPermission method. Encapsulates the function that represents getextractcontentpermission in Go.'
 type: docs
 weight: 200

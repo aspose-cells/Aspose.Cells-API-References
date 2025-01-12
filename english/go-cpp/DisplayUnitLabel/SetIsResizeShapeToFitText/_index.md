@@ -1,7 +1,7 @@
 ---
 title: SetIsResizeShapeToFitText Method 
 linktitle: SetIsResizeShapeToFitText
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetIsResizeShapeToFitText method. Encapsulates the function that represents setisresizeshapetofittext in Go.'
 type: docs
 weight: 200

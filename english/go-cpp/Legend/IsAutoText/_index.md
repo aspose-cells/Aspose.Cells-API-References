@@ -1,7 +1,7 @@
 ---
 title: IsAutoText Method 
 linktitle: IsAutoText
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsAutoText method. Encapsulates the function that represents isautotext in Go.'
 type: docs
 weight: 200

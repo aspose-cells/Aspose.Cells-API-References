@@ -1,7 +1,7 @@
 ---
 title: GetPresetType Method 
 linktitle: GetPresetType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetPresetType method. Encapsulates the function that represents getpresettype in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetFilteredNSeries Method 
 linktitle: GetFilteredNSeries
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetFilteredNSeries method. Encapsulates the function that represents getfilterednseries in Go.'
 type: docs
 weight: 200

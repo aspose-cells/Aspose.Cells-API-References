@@ -1,7 +1,7 @@
 ---
 title: PivotMissingItemLimitType Enum 
 linktitle: PivotMissingItemLimitType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'PivotMissingItemLimitType enum. Encapsulates the object that represents pivotmissingitemlimittype in Go.'
 type: docs
 weight: 200

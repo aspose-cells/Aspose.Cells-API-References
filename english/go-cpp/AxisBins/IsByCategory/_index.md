@@ -1,7 +1,7 @@
 ---
 title: IsByCategory Method 
 linktitle: IsByCategory
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsByCategory method. Encapsulates the function that represents isbycategory in Go.'
 type: docs
 weight: 200

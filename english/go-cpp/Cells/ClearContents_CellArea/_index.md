@@ -1,7 +1,7 @@
 ---
 title: ClearContents_CellArea Method 
 linktitle: ClearContents
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ClearContents_CellArea method. Encapsulates the function that represents clearcontents in Go.'
 type: docs
 weight: 200

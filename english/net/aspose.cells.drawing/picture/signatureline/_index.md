@@ -22,14 +22,14 @@ public SignatureLine SignatureLine { get; set; }
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.Worksheets[0];
 //Adding a picture at the location of a cell whose row and column indices are 1 in the worksheet. It is "B2" cell
-int imgIndex = worksheet.Pictures.Add(1, 1, (Stream)null);
+int imgIndex = worksheet.Pictures.Add(1, 1, (string)null);
 //Get the inserted picture object
 Picture pic = worksheet.Pictures[imgIndex];
 // Create signature line object
 SignatureLine s = new SignatureLine();
-s.Signer = "Simon Zhao";
-s.Title = "Development Lead";
-s.Email = "Simon.Zhao@aspose.com";
+s.Signer = "Simon";
+s.Title = "Development";
+s.Email = "simon@aspose.com";
 // Assign the signature line object to Picture.
 pic.SignatureLine = s;
 //Save the excel file.

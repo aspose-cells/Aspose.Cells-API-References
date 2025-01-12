@@ -1,7 +1,7 @@
 ---
 title: GetEnableDataValueEditing Method 
 linktitle: GetEnableDataValueEditing
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetEnableDataValueEditing method. Encapsulates the function that represents getenabledatavalueediting in Go.'
 type: docs
 weight: 200

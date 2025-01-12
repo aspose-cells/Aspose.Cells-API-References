@@ -1,7 +1,7 @@
 ---
 title: PresetShadowType Enum 
 linktitle: PresetShadowType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'PresetShadowType enum. Encapsulates the object that represents presetshadowtype in Go.'
 type: docs
 weight: 200

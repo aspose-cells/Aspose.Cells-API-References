@@ -1,7 +1,7 @@
 ---
 title: SetVerticalAxisMinValue Method 
 linktitle: SetVerticalAxisMinValue
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetVerticalAxisMinValue method. Encapsulates the function that represents setverticalaxisminvalue in Go.'
 type: docs
 weight: 200

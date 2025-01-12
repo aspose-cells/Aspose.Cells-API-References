@@ -1,7 +1,7 @@
 ---
 title: SetDataAsAttribute Method 
 linktitle: SetDataAsAttribute
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetDataAsAttribute method. Encapsulates the function that represents setdataasattribute in Go.'
 type: docs
 weight: 200

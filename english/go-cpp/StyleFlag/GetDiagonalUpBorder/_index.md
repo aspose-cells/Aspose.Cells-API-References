@@ -1,7 +1,7 @@
 ---
 title: GetDiagonalUpBorder Method 
 linktitle: GetDiagonalUpBorder
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetDiagonalUpBorder method. Encapsulates the function that represents getdiagonalupborder in Go.'
 type: docs
 weight: 200

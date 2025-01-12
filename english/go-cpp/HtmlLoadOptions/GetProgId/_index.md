@@ -1,7 +1,7 @@
 ---
 title: GetProgId Method 
 linktitle: GetProgId
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetProgId method. Encapsulates the function that represents getprogid in Go.'
 type: docs
 weight: 200

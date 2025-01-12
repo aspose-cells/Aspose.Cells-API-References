@@ -1,7 +1,7 @@
 ---
 title: SignatureType Enum 
 linktitle: SignatureType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SignatureType enum. Encapsulates the object that represents signaturetype in Go.'
 type: docs
 weight: 200

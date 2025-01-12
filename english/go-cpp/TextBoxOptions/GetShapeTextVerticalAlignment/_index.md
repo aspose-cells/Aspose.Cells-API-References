@@ -1,7 +1,7 @@
 ---
 title: GetShapeTextVerticalAlignment Method 
 linktitle: GetShapeTextVerticalAlignment
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetShapeTextVerticalAlignment method. Encapsulates the function that represents getshapetextverticalalignment in Go.'
 type: docs
 weight: 200

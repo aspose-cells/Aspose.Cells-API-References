@@ -1,7 +1,7 @@
 ---
 title: InsertOptions Class 
 linktitle: InsertOptions
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'InsertOptions class. Encapsulates the object that represents insertoptions in Go.'
 type: docs
 weight: 200

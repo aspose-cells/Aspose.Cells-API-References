@@ -1,7 +1,7 @@
 ---
 title: AddChild_EquationNode Method 
 linktitle: AddChild
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'AddChild_EquationNode method. Encapsulates the function that represents addchild in Go.'
 type: docs
 weight: 200

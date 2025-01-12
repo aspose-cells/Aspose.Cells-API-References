@@ -1,7 +1,7 @@
 ---
 title: RemovePivotConnection Method 
 linktitle: RemovePivotConnection
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'RemovePivotConnection method. Encapsulates the function that represents removepivotconnection in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: AddHyperlink Method 
 linktitle: AddHyperlink
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'AddHyperlink method. Encapsulates the function that represents addhyperlink in Go.'
 type: docs
 weight: 200

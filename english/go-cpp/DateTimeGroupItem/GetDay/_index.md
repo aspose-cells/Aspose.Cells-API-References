@@ -1,7 +1,7 @@
 ---
 title: GetDay Method 
 linktitle: GetDay
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetDay method. Encapsulates the function that represents getday in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetRightMarginInch Method 
 linktitle: GetRightMarginInch
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetRightMarginInch method. Encapsulates the function that represents getrightmargininch in Go.'
 type: docs
 weight: 200

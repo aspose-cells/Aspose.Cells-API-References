@@ -1,7 +1,7 @@
 ---
 title: GetCellWatches Method 
 linktitle: GetCellWatches
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetCellWatches method. Encapsulates the function that represents getcellwatches in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetColorIndex Method 
 linktitle: GetColorIndex
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetColorIndex method. Encapsulates the function that represents getcolorindex in Go.'
 type: docs
 weight: 200

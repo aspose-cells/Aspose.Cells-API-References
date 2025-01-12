@@ -1,7 +1,7 @@
 ---
 title: ApplyStyleToRange Method 
 linktitle: ApplyStyleToRange
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ApplyStyleToRange method. Encapsulates the function that represents applystyletorange in Go.'
 type: docs
 weight: 200

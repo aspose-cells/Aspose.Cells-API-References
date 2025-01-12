@@ -1,7 +1,7 @@
 ---
 title: GetDragToHide Method 
 linktitle: GetDragToHide
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetDragToHide method. Encapsulates the function that represents getdragtohide in Go.'
 type: docs
 weight: 200

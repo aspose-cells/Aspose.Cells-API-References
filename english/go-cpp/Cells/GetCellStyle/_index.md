@@ -1,7 +1,7 @@
 ---
 title: GetCellStyle Method 
 linktitle: GetCellStyle
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetCellStyle method. Encapsulates the function that represents getcellstyle in Go.'
 type: docs
 weight: 200

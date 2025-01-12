@@ -1,7 +1,7 @@
 ---
 title: SetDisplayUnit Method 
 linktitle: SetDisplayUnit
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetDisplayUnit method. Encapsulates the function that represents setdisplayunit in Go.'
 type: docs
 weight: 200

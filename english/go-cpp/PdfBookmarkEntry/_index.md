@@ -1,7 +1,7 @@
 ---
 title: PdfBookmarkEntry Class 
 linktitle: PdfBookmarkEntry
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'PdfBookmarkEntry class. Encapsulates the object that represents pdfbookmarkentry in Go.'
 type: docs
 weight: 200

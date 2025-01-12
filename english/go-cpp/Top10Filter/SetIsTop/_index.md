@@ -1,7 +1,7 @@
 ---
 title: SetIsTop Method 
 linktitle: SetIsTop
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetIsTop method. Encapsulates the function that represents setistop in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetTextureFill Method 
 linktitle: GetTextureFill
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetTextureFill method. Encapsulates the function that represents gettexturefill in Go.'
 type: docs
 weight: 200

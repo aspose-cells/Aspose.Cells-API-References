@@ -1,7 +1,7 @@
 ---
 title: GetParamCount Method 
 linktitle: GetParamCount
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetParamCount method. Encapsulates the function that represents getparamcount in Go.'
 type: docs
 weight: 200

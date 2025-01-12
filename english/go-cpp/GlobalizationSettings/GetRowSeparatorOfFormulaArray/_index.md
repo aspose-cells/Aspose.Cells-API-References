@@ -1,7 +1,7 @@
 ---
 title: GetRowSeparatorOfFormulaArray Method 
 linktitle: GetRowSeparatorOfFormulaArray
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetRowSeparatorOfFormulaArray method. Encapsulates the function that represents getrowseparatorofformulaarray in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: CommentShape Constructor 
 linktitle: CommentShape
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'CommentShape constructor. Encapsulates the function that represents newcommentshape in Go.'
 type: docs
 weight: 200

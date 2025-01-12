@@ -1,7 +1,7 @@
 ---
 title: SetGroupName Method 
 linktitle: SetGroupName
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetGroupName method. Encapsulates the function that represents setgroupname in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetMinCfvo Method 
 linktitle: GetMinCfvo
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetMinCfvo method. Encapsulates the function that represents getmincfvo in Go.'
 type: docs
 weight: 200

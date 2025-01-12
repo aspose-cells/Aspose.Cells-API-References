@@ -1,7 +1,7 @@
 ---
 title: GetColumnByIndex Method 
 linktitle: GetColumnByIndex
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetColumnByIndex method. Encapsulates the function that represents getcolumnbyindex in Go.'
 type: docs
 weight: 200

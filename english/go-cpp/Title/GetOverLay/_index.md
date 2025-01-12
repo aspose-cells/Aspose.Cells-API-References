@@ -1,7 +1,7 @@
 ---
 title: GetOverLay Method 
 linktitle: GetOverLay
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetOverLay method. Encapsulates the function that represents getoverlay in Go.'
 type: docs
 weight: 200

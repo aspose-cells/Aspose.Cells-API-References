@@ -1,7 +1,7 @@
 ---
 title: GetTextVerticalType Method 
 linktitle: GetTextVerticalType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetTextVerticalType method. Encapsulates the function that represents gettextverticaltype in Go.'
 type: docs
 weight: 200

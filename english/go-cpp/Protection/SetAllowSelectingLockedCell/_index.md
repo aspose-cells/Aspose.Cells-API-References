@@ -1,7 +1,7 @@
 ---
 title: SetAllowSelectingLockedCell Method 
 linktitle: SetAllowSelectingLockedCell
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetAllowSelectingLockedCell method. Encapsulates the function that represents setallowselectinglockedcell in Go.'
 type: docs
 weight: 200

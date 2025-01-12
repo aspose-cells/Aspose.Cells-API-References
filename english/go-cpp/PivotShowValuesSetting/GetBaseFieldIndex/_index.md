@@ -1,7 +1,7 @@
 ---
 title: GetBaseFieldIndex Method 
 linktitle: GetBaseFieldIndex
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetBaseFieldIndex method. Encapsulates the function that represents getbasefieldindex in Go.'
 type: docs
 weight: 200

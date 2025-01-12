@@ -1,7 +1,7 @@
 ---
 title: IsThreadedComment Method 
 linktitle: IsThreadedComment
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsThreadedComment method. Encapsulates the function that represents isthreadedcomment in Go.'
 type: docs
 weight: 200

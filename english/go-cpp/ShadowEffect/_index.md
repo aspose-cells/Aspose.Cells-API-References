@@ -1,7 +1,7 @@
 ---
 title: ShadowEffect Class 
 linktitle: ShadowEffect
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ShadowEffect class. Encapsulates the object that represents shadoweffect in Go.'
 type: docs
 weight: 200

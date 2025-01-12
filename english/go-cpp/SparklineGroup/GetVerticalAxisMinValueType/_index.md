@@ -1,7 +1,7 @@
 ---
 title: GetVerticalAxisMinValueType Method 
 linktitle: GetVerticalAxisMinValueType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetVerticalAxisMinValueType method. Encapsulates the function that represents getverticalaxisminvaluetype in Go.'
 type: docs
 weight: 200

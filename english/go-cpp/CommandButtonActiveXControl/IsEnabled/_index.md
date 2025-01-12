@@ -1,7 +1,7 @@
 ---
 title: IsEnabled Method 
 linktitle: IsEnabled
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsEnabled method. Encapsulates the function that represents isenabled in Go.'
 type: docs
 weight: 200

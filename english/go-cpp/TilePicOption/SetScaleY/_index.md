@@ -1,7 +1,7 @@
 ---
 title: SetScaleY Method 
 linktitle: SetScaleY
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetScaleY method. Encapsulates the function that represents setscaley in Go.'
 type: docs
 weight: 200

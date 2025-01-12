@@ -1,7 +1,7 @@
 ---
 title: SetBaseUnitScale Method 
 linktitle: SetBaseUnitScale
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetBaseUnitScale method. Encapsulates the function that represents setbaseunitscale in Go.'
 type: docs
 weight: 200

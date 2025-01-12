@@ -1,7 +1,7 @@
 ---
 title: GetRow Method 
 linktitle: GetRow
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetRow method. Encapsulates the function that represents getrow in Go.'
 type: docs
 weight: 200

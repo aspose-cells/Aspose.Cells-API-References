@@ -1,7 +1,7 @@
 ---
 title: GetGradientStops Method 
 linktitle: GetGradientStops
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetGradientStops method. Encapsulates the function that represents getgradientstops in Go.'
 type: docs
 weight: 200

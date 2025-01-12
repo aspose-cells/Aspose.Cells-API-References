@@ -1,7 +1,7 @@
 ---
 title: SetEnableFieldList Method 
 linktitle: SetEnableFieldList
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetEnableFieldList method. Encapsulates the function that represents setenablefieldlist in Go.'
 type: docs
 weight: 200

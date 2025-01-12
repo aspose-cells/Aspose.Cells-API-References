@@ -1,7 +1,7 @@
 ---
 title: SetPageCount Method 
 linktitle: SetPageCount
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetPageCount method. Encapsulates the function that represents setpagecount in Go.'
 type: docs
 weight: 200

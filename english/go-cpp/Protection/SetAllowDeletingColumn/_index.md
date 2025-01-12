@@ -1,7 +1,7 @@
 ---
 title: SetAllowDeletingColumn Method 
 linktitle: SetAllowDeletingColumn
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetAllowDeletingColumn method. Encapsulates the function that represents setallowdeletingcolumn in Go.'
 type: docs
 weight: 200

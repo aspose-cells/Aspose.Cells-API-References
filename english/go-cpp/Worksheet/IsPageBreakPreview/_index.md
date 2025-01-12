@@ -1,7 +1,7 @@
 ---
 title: IsPageBreakPreview Method 
 linktitle: IsPageBreakPreview
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsPageBreakPreview method. Encapsulates the function that represents ispagebreakpreview in Go.'
 type: docs
 weight: 200

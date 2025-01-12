@@ -1,7 +1,7 @@
 ---
 title: SetDay Method 
 linktitle: SetDay
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetDay method. Encapsulates the function that represents setday in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: SetExtrusionHeight Method 
 linktitle: SetExtrusionHeight
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetExtrusionHeight method. Encapsulates the function that represents setextrusionheight in Go.'
 type: docs
 weight: 200

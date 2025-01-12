@@ -1,7 +1,7 @@
 ---
 title: SetDestinationName Method 
 linktitle: SetDestinationName
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetDestinationName method. Encapsulates the function that represents setdestinationname in Go.'
 type: docs
 weight: 200

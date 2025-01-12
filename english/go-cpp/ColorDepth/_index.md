@@ -1,7 +1,7 @@
 ---
 title: ColorDepth Enum 
 linktitle: ColorDepth
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ColorDepth enum. Encapsulates the object that represents colordepth in Go.'
 type: docs
 weight: 200

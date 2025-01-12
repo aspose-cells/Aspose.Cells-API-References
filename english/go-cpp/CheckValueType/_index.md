@@ -1,7 +1,7 @@
 ---
 title: CheckValueType Enum 
 linktitle: CheckValueType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'CheckValueType enum. Encapsulates the object that represents checkvaluetype in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: PutCellFormula_Int_Int_String_Bool Method 
 linktitle: PutCellFormula
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'PutCellFormula_Int_Int_String_Bool method. Encapsulates the function that represents putcellformula in Go.'
 type: docs
 weight: 200

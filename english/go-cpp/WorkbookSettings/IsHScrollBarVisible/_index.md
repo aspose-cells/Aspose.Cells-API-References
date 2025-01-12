@@ -1,7 +1,7 @@
 ---
 title: IsHScrollBarVisible Method 
 linktitle: IsHScrollBarVisible
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsHScrollBarVisible method. Encapsulates the function that represents ishscrollbarvisible in Go.'
 type: docs
 weight: 200

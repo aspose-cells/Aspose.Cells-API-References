@@ -1,7 +1,7 @@
 ---
 title: GetWidthCM Method 
 linktitle: GetWidthCM
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetWidthCM method. Encapsulates the function that represents getwidthcm in Go.'
 type: docs
 weight: 200

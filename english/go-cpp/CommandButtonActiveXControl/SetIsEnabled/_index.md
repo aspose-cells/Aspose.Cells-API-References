@@ -1,7 +1,7 @@
 ---
 title: SetIsEnabled Method 
 linktitle: SetIsEnabled
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetIsEnabled method. Encapsulates the function that represents setisenabled in Go.'
 type: docs
 weight: 200

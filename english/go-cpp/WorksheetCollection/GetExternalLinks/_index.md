@@ -1,7 +1,7 @@
 ---
 title: GetExternalLinks Method 
 linktitle: GetExternalLinks
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetExternalLinks method. Encapsulates the function that represents getexternallinks in Go.'
 type: docs
 weight: 200

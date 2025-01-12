@@ -1,7 +1,7 @@
 ---
 title: IsInterruptionRequested Method 
 linktitle: IsInterruptionRequested
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsInterruptionRequested method. Encapsulates the function that represents isinterruptionrequested in Go.'
 type: docs
 weight: 200

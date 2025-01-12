@@ -1,7 +1,7 @@
 ---
 title: SetCategoryType Method 
 linktitle: SetCategoryType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetCategoryType method. Encapsulates the function that represents setcategorytype in Go.'
 type: docs
 weight: 200

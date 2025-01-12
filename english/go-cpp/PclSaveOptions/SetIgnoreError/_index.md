@@ -1,7 +1,7 @@
 ---
 title: SetIgnoreError Method 
 linktitle: SetIgnoreError
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetIgnoreError method. Encapsulates the function that represents setignoreerror in Go.'
 type: docs
 weight: 200

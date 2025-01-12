@@ -1,7 +1,7 @@
 ---
 title: IsDouble Method 
 linktitle: IsDouble
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsDouble method. Encapsulates the function that represents isdouble in Go.'
 type: docs
 weight: 200

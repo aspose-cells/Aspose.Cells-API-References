@@ -1,7 +1,7 @@
 ---
 title: SetAcitvePaneType Method 
 linktitle: SetAcitvePaneType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetAcitvePaneType method. Encapsulates the function that represents setacitvepanetype in Go.'
 type: docs
 weight: 200

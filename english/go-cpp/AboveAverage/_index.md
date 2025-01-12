@@ -1,7 +1,7 @@
 ---
 title: AboveAverage Class 
 linktitle: AboveAverage
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'AboveAverage class. Encapsulates the object that represents aboveaverage in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetSplitType Method 
 linktitle: GetSplitType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetSplitType method. Encapsulates the function that represents getsplittype in Go.'
 type: docs
 weight: 200

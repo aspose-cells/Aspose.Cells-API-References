@@ -1,7 +1,7 @@
 ---
 title: VerifyPassword Method 
 linktitle: VerifyPassword
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'VerifyPassword method. Encapsulates the function that represents verifypassword in Go.'
 type: docs
 weight: 200

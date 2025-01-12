@@ -1,7 +1,7 @@
 ---
 title: SetTargetSheetIndex Method 
 linktitle: SetTargetSheetIndex
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetTargetSheetIndex method. Encapsulates the function that represents settargetsheetindex in Go.'
 type: docs
 weight: 200

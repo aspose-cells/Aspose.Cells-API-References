@@ -1,7 +1,7 @@
 ---
 title: SetAnd Method 
 linktitle: SetAnd
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetAnd method. Encapsulates the function that represents setand in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetStoreName Method 
 linktitle: GetStoreName
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetStoreName method. Encapsulates the function that represents getstorename in Go.'
 type: docs
 weight: 200

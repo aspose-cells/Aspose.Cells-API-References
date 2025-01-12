@@ -1,7 +1,7 @@
 ---
 title: TilePicOption Class 
 linktitle: TilePicOption
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'TilePicOption class. Encapsulates the object that represents tilepicoption in Go.'
 type: docs
 weight: 200

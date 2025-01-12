@@ -1,7 +1,7 @@
 ---
 title: RemoveUnusedStyles Method 
 linktitle: RemoveUnusedStyles
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'RemoveUnusedStyles method. Encapsulates the function that represents removeunusedstyles in Go.'
 type: docs
 weight: 200

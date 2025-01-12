@@ -1,7 +1,7 @@
 ---
 title: GetStandardHeaderFooterFontStyleName Method 
 linktitle: GetStandardHeaderFooterFontStyleName
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetStandardHeaderFooterFontStyleName method. Encapsulates the function that represents getstandardheaderfooterfontstylename in Go.'
 type: docs
 weight: 200

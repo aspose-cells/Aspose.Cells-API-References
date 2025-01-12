@@ -1,7 +1,7 @@
 ---
 title: GetTextToDisplay Method 
 linktitle: GetTextToDisplay
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetTextToDisplay method. Encapsulates the function that represents gettexttodisplay in Go.'
 type: docs
 weight: 200

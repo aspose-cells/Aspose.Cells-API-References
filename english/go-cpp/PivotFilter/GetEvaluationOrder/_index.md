@@ -1,7 +1,7 @@
 ---
 title: GetEvaluationOrder Method 
 linktitle: GetEvaluationOrder
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetEvaluationOrder method. Encapsulates the function that represents getevaluationorder in Go.'
 type: docs
 weight: 200

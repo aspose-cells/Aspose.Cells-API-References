@@ -1,7 +1,7 @@
 ---
 title: SetAllowFiltering Method 
 linktitle: SetAllowFiltering
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetAllowFiltering method. Encapsulates the function that represents setallowfiltering in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: VbaProjectReferenceCollection Class 
 linktitle: VbaProjectReferenceCollection
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'VbaProjectReferenceCollection class. Encapsulates the object that represents vbaprojectreferencecollection in Go.'
 type: docs
 weight: 200

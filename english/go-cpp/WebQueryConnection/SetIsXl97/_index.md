@@ -1,7 +1,7 @@
 ---
 title: SetIsXl97 Method 
 linktitle: SetIsXl97
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetIsXl97 method. Encapsulates the function that represents setisxl97 in Go.'
 type: docs
 weight: 200

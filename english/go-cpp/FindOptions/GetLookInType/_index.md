@@ -1,7 +1,7 @@
 ---
 title: GetLookInType Method 
 linktitle: GetLookInType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetLookInType method. Encapsulates the function that represents getlookintype in Go.'
 type: docs
 weight: 200

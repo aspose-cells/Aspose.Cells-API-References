@@ -1,7 +1,7 @@
 ---
 title: GetEndIndex Method 
 linktitle: GetEndIndex
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetEndIndex method. Encapsulates the function that represents getendindex in Go.'
 type: docs
 weight: 200

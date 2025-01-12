@@ -4,7 +4,7 @@ linktitle: InsertRows
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::InsertRows method. Inserts multiple rows into the worksheet in C++.'
 type: docs
-weight: 11700
+weight: 11800
 url: /cpp/aspose.cells/cells/insertrows/
 ---
 ## Cells::InsertRows(int32_t, int32_t, bool) method
@@ -43,7 +43,7 @@ void Aspose::Cells::Cells::InsertRows(int32_t rowIndex, int32_t totalRows, const
 | --- | --- | --- |
 | rowIndex | int32_t | [Row](../../row/) index. |
 | totalRows | int32_t | Number of rows to be inserted. |
-| options | const InsertOptions\& | Indicates if references in other worksheets will be updated. |
+| options | const InsertOptions\& | Options for inserting operation. |
 
 ## See Also
 

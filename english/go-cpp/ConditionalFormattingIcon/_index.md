@@ -1,7 +1,7 @@
 ---
 title: ConditionalFormattingIcon Class 
 linktitle: ConditionalFormattingIcon
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ConditionalFormattingIcon class. Encapsulates the object that represents conditionalformattingicon in Go.'
 type: docs
 weight: 200

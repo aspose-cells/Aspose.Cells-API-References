@@ -1,7 +1,7 @@
 ---
 title: CellValueType Enum 
 linktitle: CellValueType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'CellValueType enum. Encapsulates the object that represents cellvaluetype in Go.'
 type: docs
 weight: 200

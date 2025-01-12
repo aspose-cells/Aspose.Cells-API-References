@@ -1,7 +1,7 @@
 ---
 title: SetDisplayEquation Method 
 linktitle: SetDisplayEquation
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetDisplayEquation method. Encapsulates the function that represents setdisplayequation in Go.'
 type: docs
 weight: 200

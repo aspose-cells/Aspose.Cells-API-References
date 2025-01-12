@@ -1,7 +1,7 @@
 ---
 title: GetSummaryColumnRight Method 
 linktitle: GetSummaryColumnRight
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetSummaryColumnRight method. Encapsulates the function that represents getsummarycolumnright in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: SmartTagOptions Constructor 
 linktitle: SmartTagOptions
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SmartTagOptions constructor. Encapsulates the function that represents newsmarttagoptions in Go.'
 type: docs
 weight: 200

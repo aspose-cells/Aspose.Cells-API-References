@@ -1,7 +1,7 @@
 ---
 title: GetColumnWidths Method 
 linktitle: GetColumnWidths
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetColumnWidths method. Encapsulates the function that represents getcolumnwidths in Go.'
 type: docs
 weight: 200

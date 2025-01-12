@@ -1,7 +1,7 @@
 ---
 title: GetCheckCompatibility Method 
 linktitle: GetCheckCompatibility
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetCheckCompatibility method. Encapsulates the function that represents getcheckcompatibility in Go.'
 type: docs
 weight: 200

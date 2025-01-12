@@ -1,7 +1,7 @@
 ---
 title: IsXl97 Method 
 linktitle: IsXl97
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsXl97 method. Encapsulates the function that represents isxl97 in Go.'
 type: docs
 weight: 200

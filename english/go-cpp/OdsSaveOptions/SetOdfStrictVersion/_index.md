@@ -1,7 +1,7 @@
 ---
 title: SetOdfStrictVersion Method 
 linktitle: SetOdfStrictVersion
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetOdfStrictVersion method. Encapsulates the function that represents setodfstrictversion in Go.'
 type: docs
 weight: 200

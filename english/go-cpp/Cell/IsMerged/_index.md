@@ -1,7 +1,7 @@
 ---
 title: IsMerged Method 
 linktitle: IsMerged
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsMerged method. Encapsulates the function that represents ismerged in Go.'
 type: docs
 weight: 200

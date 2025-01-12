@@ -1,7 +1,7 @@
 ---
 title: IsFormula Method 
 linktitle: IsFormula
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsFormula method. Encapsulates the function that represents isformula in Go.'
 type: docs
 weight: 200

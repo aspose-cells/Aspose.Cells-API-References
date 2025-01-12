@@ -1,7 +1,7 @@
 ---
 title: SetTickMarkSpacing Method 
 linktitle: SetTickMarkSpacing
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetTickMarkSpacing method. Encapsulates the function that represents settickmarkspacing in Go.'
 type: docs
 weight: 200

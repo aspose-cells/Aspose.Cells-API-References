@@ -1,7 +1,7 @@
 ---
 title: Format3D Class 
 linktitle: Format3D
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'Format3D class. Encapsulates the object that represents format3d in Go.'
 type: docs
 weight: 200

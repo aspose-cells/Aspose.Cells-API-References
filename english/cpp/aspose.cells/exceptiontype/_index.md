@@ -4,7 +4,7 @@ linktitle: ExceptionType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ExceptionType enum. Represents custom exception type code in C++.'
 type: docs
-weight: 20400
+weight: 20800
 url: /cpp/aspose.cells/exceptiontype/
 ---
 ## ExceptionType enum
@@ -45,6 +45,10 @@ enum class ExceptionType
 | UndisclosedInformation | 22 | <br>Files contains some undisclosed information. |
 | FileCorrupted | 23 | <br>File content is corrupted. |
 | Internal | 24 | <br>Internal exception. |
+| DefinedName | 25 | <br>Invalid defined name. |
+| Font | 26 | <br>Invalid font. |
+| AutoFilter | 27 | <br>Invalid auto filter setting. |
+| FontSubstitution | 28 | <br>[Font](../font/) substitution warning type when a font has not been found, this warning type can be get. |
 
 ## See Also
 

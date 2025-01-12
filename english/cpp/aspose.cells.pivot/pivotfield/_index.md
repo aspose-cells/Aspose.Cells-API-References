@@ -22,6 +22,12 @@ class PivotField
 | --- | --- |
 | [AddCalculatedItem(const U16String\& name, const U16String\& formula)](./addcalculateditem/) | Add a calculated formula item to the pivot field. |
 | [AddCalculatedItem(const char16_t* name, const char16_t* formula)](./addcalculateditem/) | Add a calculated formula item to the pivot field. |
+| [ClearFilter()](./clearfilter/) | Clears filter setting on this pivot field. |
+| [FilterByDate(PivotFilterType type, const Date\& dateTime1, const Date\& dateTime2)](./filterbydate/) | Filters by date setting of row or column pivot field. |
+| [FilterByLabel(PivotFilterType type, const U16String\& label1, const U16String\& label2)](./filterbylabel/) | Filters by captions of row or column pivot field. |
+| [FilterByLabel(PivotFilterType type, const char16_t* label1, const char16_t* label2)](./filterbylabel/) | Filters by captions of row or column pivot field. |
+| [FilterByValue(int32_t valueFieldIndex, PivotFilterType type, double value1, double value2)](./filterbyvalue/) | Filters by values of data pivot field. |
+| [FilterTop10(int32_t valueFieldIndex, PivotFilterType type, bool isTop, int32_t itemCount)](./filtertop10/) | Filters by values of data pivot field. |
 | [Get_NumberFormat()](./get_numberformat/) | Represents the custom display format of numbers and dates. |
 | [GetAutoShowCount()](./getautoshowcount/) | Represent the number of top or bottom items that are automatically shown in the specified [PivotTable](../pivottable/) field. |
 | [GetAutoShowField()](./getautoshowfield/) | Represents auto show field index. -1 means [PivotField](./) itself. It should be the index of the data fields. |
@@ -48,6 +54,7 @@ class PivotField
 | [GetPivotFilterByType(PivotFilterType type)](./getpivotfilterbytype/) | Gets the pivot filter of the pivot field by type. |
 | [GetPivotItems()](./getpivotitems/) | Gets the pivot items of the pivot field. |
 | [GetPosition()](./getposition/) | Represents the index of [PivotField](./) in the region. |
+| [GetRegionType()](./getregiontype/) | Specifies the region of the [PivotTable](../pivottable/) that this field is displayed. |
 | [GetShowAllItems()](./getshowallitems/) | Indicates whether all items displays in the [PivotTable](../pivottable/) report, even if they don't contain summary data. show items with no data The default value is false. |
 | [GetShowCompact()](./getshowcompact/) | Indicates whether display labels from the next field in the same column on the [Pivot](../) Table view. |
 | [GetShowInOutlineForm()](./getshowinoutlineform/) | Indicates whether layout this field in outline form on the [Pivot](../) Table view. |
@@ -78,6 +85,7 @@ class PivotField
 | [IsMultipleItemSelectionAllowed()](./ismultipleitemselectionallowed/) | indicates whether the field can have multiple items selected in the page field The default value is false. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | [IsRepeatItemLabels()](./isrepeatitemlabels/) | Indicates whether repeating labels of the field in the region. The default value is false. |
+| [IsValueFields()](./isvaluefields/) | Indicates whether this field represents values fields. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const PivotField\& src)](./operator_asm/) | operator= |
 | [PivotField(PivotField_Impl* impl)](./pivotfield/) | Constructs from an implementation object. |

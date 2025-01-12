@@ -1,7 +1,7 @@
 ---
 title: SetTwiddledlibid Method 
 linktitle: SetTwiddledlibid
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetTwiddledlibid method. Encapsulates the function that represents settwiddledlibid in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: SetIsOpen Method 
 linktitle: SetIsOpen
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetIsOpen method. Encapsulates the function that represents setisopen in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: ColorHelper_ToOleColor Method 
 linktitle: ToOleColor
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ColorHelper_ToOleColor method. Encapsulates the function that represents toolecolor in Go.'
 type: docs
 weight: 200

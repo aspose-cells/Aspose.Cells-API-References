@@ -1,7 +1,7 @@
 ---
 title: GetBeginArrowheadLength Method 
 linktitle: GetBeginArrowheadLength
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetBeginArrowheadLength method. Encapsulates the function that represents getbeginarrowheadlength in Go.'
 type: docs
 weight: 200

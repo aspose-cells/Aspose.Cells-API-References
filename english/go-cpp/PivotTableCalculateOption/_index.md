@@ -1,7 +1,7 @@
 ---
 title: PivotTableCalculateOption Class 
 linktitle: PivotTableCalculateOption
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'PivotTableCalculateOption class. Encapsulates the object that represents pivottablecalculateoption in Go.'
 type: docs
 weight: 200

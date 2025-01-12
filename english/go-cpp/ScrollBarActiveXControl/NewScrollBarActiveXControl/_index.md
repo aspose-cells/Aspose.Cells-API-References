@@ -1,7 +1,7 @@
 ---
 title: ScrollBarActiveXControl Constructor 
 linktitle: ScrollBarActiveXControl
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ScrollBarActiveXControl constructor. Encapsulates the function that represents newscrollbaractivexcontrol in Go.'
 type: docs
 weight: 200

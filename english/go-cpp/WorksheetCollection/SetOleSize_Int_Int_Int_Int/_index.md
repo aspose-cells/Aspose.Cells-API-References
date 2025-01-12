@@ -1,7 +1,7 @@
 ---
 title: SetOleSize_Int_Int_Int_Int Method 
 linktitle: SetOleSize
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetOleSize_Int_Int_Int_Int method. Encapsulates the function that represents setolesize in Go.'
 type: docs
 weight: 200

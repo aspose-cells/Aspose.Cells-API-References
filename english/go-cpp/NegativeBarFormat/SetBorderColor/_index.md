@@ -1,7 +1,7 @@
 ---
 title: SetBorderColor Method 
 linktitle: SetBorderColor
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetBorderColor method. Encapsulates the function that represents setbordercolor in Go.'
 type: docs
 weight: 200

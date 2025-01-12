@@ -1,7 +1,7 @@
 ---
 title: AddGroupBox Method 
 linktitle: AddGroupBox
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'AddGroupBox method. Encapsulates the function that represents addgroupbox in Go.'
 type: docs
 weight: 200

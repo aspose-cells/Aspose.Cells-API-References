@@ -1,7 +1,7 @@
 ---
 title: LineType Enum 
 linktitle: LineType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'LineType enum. Encapsulates the object that represents linetype in Go.'
 type: docs
 weight: 200

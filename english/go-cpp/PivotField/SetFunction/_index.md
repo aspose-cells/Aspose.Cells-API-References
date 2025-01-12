@@ -1,7 +1,7 @@
 ---
 title: SetFunction Method 
 linktitle: SetFunction
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetFunction method. Encapsulates the function that represents setfunction in Go.'
 type: docs
 weight: 200

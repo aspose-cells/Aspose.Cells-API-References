@@ -1,7 +1,7 @@
 ---
 title: SetSeparatorValue Method 
 linktitle: SetSeparatorValue
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetSeparatorValue method. Encapsulates the function that represents setseparatorvalue in Go.'
 type: docs
 weight: 200

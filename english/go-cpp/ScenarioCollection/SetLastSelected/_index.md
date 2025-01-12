@@ -1,7 +1,7 @@
 ---
 title: SetLastSelected Method 
 linktitle: SetLastSelected
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetLastSelected method. Encapsulates the function that represents setlastselected in Go.'
 type: docs
 weight: 200

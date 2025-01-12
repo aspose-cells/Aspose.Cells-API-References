@@ -1,7 +1,7 @@
 ---
 title: IsNumber Method 
 linktitle: IsNumber
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsNumber method. Encapsulates the function that represents isnumber in Go.'
 type: docs
 weight: 200

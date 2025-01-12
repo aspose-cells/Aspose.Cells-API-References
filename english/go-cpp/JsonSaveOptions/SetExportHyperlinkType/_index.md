@@ -1,7 +1,7 @@
 ---
 title: SetExportHyperlinkType Method 
 linktitle: SetExportHyperlinkType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetExportHyperlinkType method. Encapsulates the function that represents setexporthyperlinktype in Go.'
 type: docs
 weight: 200

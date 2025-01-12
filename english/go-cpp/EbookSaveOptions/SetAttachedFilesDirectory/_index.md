@@ -1,7 +1,7 @@
 ---
 title: SetAttachedFilesDirectory Method 
 linktitle: SetAttachedFilesDirectory
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetAttachedFilesDirectory method. Encapsulates the function that represents setattachedfilesdirectory in Go.'
 type: docs
 weight: 200

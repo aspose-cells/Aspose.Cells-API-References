@@ -1,7 +1,7 @@
 ---
 title: SetTextOfProtectedName Method 
 linktitle: SetTextOfProtectedName
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetTextOfProtectedName method. Encapsulates the function that represents settextofprotectedname in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: SetIsInnerMode Method 
 linktitle: SetIsInnerMode
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetIsInnerMode method. Encapsulates the function that represents setisinnermode in Go.'
 type: docs
 weight: 200

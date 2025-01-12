@@ -1,7 +1,7 @@
 ---
 title: ArcShape Constructor 
 linktitle: ArcShape
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ArcShape constructor. Encapsulates the function that represents newarcshape in Go.'
 type: docs
 weight: 200

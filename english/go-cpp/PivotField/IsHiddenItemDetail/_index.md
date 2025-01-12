@@ -1,7 +1,7 @@
 ---
 title: IsHiddenItemDetail Method 
 linktitle: IsHiddenItemDetail
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsHiddenItemDetail method. Encapsulates the function that represents ishiddenitemdetail in Go.'
 type: docs
 weight: 200

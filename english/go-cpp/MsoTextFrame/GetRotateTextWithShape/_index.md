@@ -1,7 +1,7 @@
 ---
 title: GetRotateTextWithShape Method 
 linktitle: GetRotateTextWithShape
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetRotateTextWithShape method. Encapsulates the function that represents getrotatetextwithshape in Go.'
 type: docs
 weight: 200

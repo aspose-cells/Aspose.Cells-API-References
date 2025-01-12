@@ -1,7 +1,7 @@
 ---
 title: SetShowSignedDate Method 
 linktitle: SetShowSignedDate
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetShowSignedDate method. Encapsulates the function that represents setshowsigneddate in Go.'
 type: docs
 weight: 200

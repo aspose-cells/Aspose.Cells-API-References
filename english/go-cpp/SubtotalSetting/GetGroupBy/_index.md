@@ -1,7 +1,7 @@
 ---
 title: GetGroupBy Method 
 linktitle: GetGroupBy
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetGroupBy method. Encapsulates the function that represents getgroupby in Go.'
 type: docs
 weight: 200

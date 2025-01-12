@@ -1,7 +1,7 @@
 ---
 title: SetWidthScale Method 
 linktitle: SetWidthScale
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetWidthScale method. Encapsulates the function that represents setwidthscale in Go.'
 type: docs
 weight: 200

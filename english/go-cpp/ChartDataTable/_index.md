@@ -1,7 +1,7 @@
 ---
 title: ChartDataTable Class 
 linktitle: ChartDataTable
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ChartDataTable class. Encapsulates the object that represents chartdatatable in Go.'
 type: docs
 weight: 200

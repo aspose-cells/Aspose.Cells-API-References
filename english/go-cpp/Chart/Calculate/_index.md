@@ -1,7 +1,7 @@
 ---
 title: Calculate Method 
 linktitle: Calculate
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'Calculate method. Encapsulates the function that represents calculate in Go.'
 type: docs
 weight: 200

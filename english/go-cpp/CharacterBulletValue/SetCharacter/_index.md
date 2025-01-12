@@ -1,7 +1,7 @@
 ---
 title: SetCharacter Method 
 linktitle: SetCharacter
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetCharacter method. Encapsulates the function that represents setcharacter in Go.'
 type: docs
 weight: 200

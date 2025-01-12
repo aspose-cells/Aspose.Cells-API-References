@@ -1,7 +1,7 @@
 ---
 title: ShowReportFilterPage Method 
 linktitle: ShowReportFilterPage
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ShowReportFilterPage method. Encapsulates the function that represents showreportfilterpage in Go.'
 type: docs
 weight: 200

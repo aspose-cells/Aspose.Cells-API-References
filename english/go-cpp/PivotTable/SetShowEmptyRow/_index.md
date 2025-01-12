@@ -1,7 +1,7 @@
 ---
 title: SetShowEmptyRow Method 
 linktitle: SetShowEmptyRow
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetShowEmptyRow method. Encapsulates the function that represents setshowemptyrow in Go.'
 type: docs
 weight: 200

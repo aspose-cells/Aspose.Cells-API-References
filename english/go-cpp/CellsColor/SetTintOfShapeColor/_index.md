@@ -1,7 +1,7 @@
 ---
 title: SetTintOfShapeColor Method 
 linktitle: SetTintOfShapeColor
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetTintOfShapeColor method. Encapsulates the function that represents settintofshapecolor in Go.'
 type: docs
 weight: 200

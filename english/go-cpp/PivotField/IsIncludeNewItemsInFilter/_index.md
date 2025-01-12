@@ -1,7 +1,7 @@
 ---
 title: IsIncludeNewItemsInFilter Method 
 linktitle: IsIncludeNewItemsInFilter
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsIncludeNewItemsInFilter method. Encapsulates the function that represents isincludenewitemsinfilter in Go.'
 type: docs
 weight: 200

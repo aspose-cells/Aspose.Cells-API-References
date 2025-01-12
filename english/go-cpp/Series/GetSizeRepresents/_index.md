@@ -1,7 +1,7 @@
 ---
 title: GetSizeRepresents Method 
 linktitle: GetSizeRepresents
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetSizeRepresents method. Encapsulates the function that represents getsizerepresents in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetHeightCM Method 
 linktitle: GetHeightCM
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetHeightCM method. Encapsulates the function that represents getheightcm in Go.'
 type: docs
 weight: 200

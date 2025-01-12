@@ -1,7 +1,7 @@
 ---
 title: SetShowMarkers Method 
 linktitle: SetShowMarkers
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetShowMarkers method. Encapsulates the function that represents setshowmarkers in Go.'
 type: docs
 weight: 200

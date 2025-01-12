@@ -1,7 +1,7 @@
 ---
 title: SlicerCacheCrossFilterType Enum 
 linktitle: SlicerCacheCrossFilterType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SlicerCacheCrossFilterType enum. Encapsulates the object that represents slicercachecrossfiltertype in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: StyleFlag Constructor 
 linktitle: StyleFlag
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'StyleFlag constructor. Encapsulates the function that represents newstyleflag in Go.'
 type: docs
 weight: 200

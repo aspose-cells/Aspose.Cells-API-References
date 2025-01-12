@@ -1,7 +1,7 @@
 ---
 title: PdfCompliance Enum 
 linktitle: PdfCompliance
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'PdfCompliance enum. Encapsulates the object that represents pdfcompliance in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: IsDateTime Method 
 linktitle: IsDateTime
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsDateTime method. Encapsulates the function that represents isdatetime in Go.'
 type: docs
 weight: 200

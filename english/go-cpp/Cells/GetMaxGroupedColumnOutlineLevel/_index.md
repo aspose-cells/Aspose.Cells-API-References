@@ -1,7 +1,7 @@
 ---
 title: GetMaxGroupedColumnOutlineLevel Method 
 linktitle: GetMaxGroupedColumnOutlineLevel
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetMaxGroupedColumnOutlineLevel method. Encapsulates the function that represents getmaxgroupedcolumnoutlinelevel in Go.'
 type: docs
 weight: 200

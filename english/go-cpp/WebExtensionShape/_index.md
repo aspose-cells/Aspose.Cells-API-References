@@ -1,7 +1,7 @@
 ---
 title: WebExtensionShape Class 
 linktitle: WebExtensionShape
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'WebExtensionShape class. Encapsulates the object that represents webextensionshape in Go.'
 type: docs
 weight: 200

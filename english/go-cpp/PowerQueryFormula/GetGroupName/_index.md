@@ -1,7 +1,7 @@
 ---
 title: GetGroupName Method 
 linktitle: GetGroupName
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetGroupName method. Encapsulates the function that represents getgroupname in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: RemoveCondition Method 
 linktitle: RemoveCondition
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'RemoveCondition method. Encapsulates the function that represents removecondition in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: SetCheckFontCompatibility Method 
 linktitle: SetCheckFontCompatibility
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetCheckFontCompatibility method. Encapsulates the function that represents setcheckfontcompatibility in Go.'
 type: docs
 weight: 200

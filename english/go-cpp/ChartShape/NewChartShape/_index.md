@@ -1,7 +1,7 @@
 ---
 title: ChartShape Constructor 
 linktitle: ChartShape
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ChartShape constructor. Encapsulates the function that represents newchartshape in Go.'
 type: docs
 weight: 200

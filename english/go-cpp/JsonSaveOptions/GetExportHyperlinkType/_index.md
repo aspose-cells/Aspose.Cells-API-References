@@ -1,7 +1,7 @@
 ---
 title: GetExportHyperlinkType Method 
 linktitle: GetExportHyperlinkType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetExportHyperlinkType method. Encapsulates the function that represents getexporthyperlinktype in Go.'
 type: docs
 weight: 200

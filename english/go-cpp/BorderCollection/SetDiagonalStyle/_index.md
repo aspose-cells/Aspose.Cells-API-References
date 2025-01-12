@@ -1,7 +1,7 @@
 ---
 title: SetDiagonalStyle Method 
 linktitle: SetDiagonalStyle
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetDiagonalStyle method. Encapsulates the function that represents setdiagonalstyle in Go.'
 type: docs
 weight: 200

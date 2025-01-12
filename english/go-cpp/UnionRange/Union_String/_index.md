@@ -1,7 +1,7 @@
 ---
 title: Union_String Method 
 linktitle: Union
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'Union_String method. Encapsulates the function that represents union in Go.'
 type: docs
 weight: 200

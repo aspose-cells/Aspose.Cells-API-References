@@ -1,7 +1,7 @@
 ---
 title: LineShape Constructor 
 linktitle: LineShape
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'LineShape constructor. Encapsulates the function that represents newlineshape in Go.'
 type: docs
 weight: 200

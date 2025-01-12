@@ -1,7 +1,7 @@
 ---
 title: SetMinute Method 
 linktitle: SetMinute
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetMinute method. Encapsulates the function that represents setminute in Go.'
 type: docs
 weight: 200

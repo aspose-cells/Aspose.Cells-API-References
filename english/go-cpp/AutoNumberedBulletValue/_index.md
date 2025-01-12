@@ -1,7 +1,7 @@
 ---
 title: AutoNumberedBulletValue Class 
 linktitle: AutoNumberedBulletValue
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'AutoNumberedBulletValue class. Encapsulates the object that represents autonumberedbulletvalue in Go.'
 type: docs
 weight: 200

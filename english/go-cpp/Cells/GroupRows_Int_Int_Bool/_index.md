@@ -1,7 +1,7 @@
 ---
 title: GroupRows_Int_Int_Bool Method 
 linktitle: GroupRows
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GroupRows_Int_Int_Bool method. Encapsulates the function that represents grouprows in Go.'
 type: docs
 weight: 200

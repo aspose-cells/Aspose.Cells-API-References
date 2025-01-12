@@ -1,7 +1,7 @@
 ---
 title: GetMultiThreadReading Method 
 linktitle: GetMultiThreadReading
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetMultiThreadReading method. Encapsulates the function that represents getmultithreadreading in Go.'
 type: docs
 weight: 200

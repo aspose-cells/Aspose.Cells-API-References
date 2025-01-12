@@ -1,7 +1,7 @@
 ---
 title: GetUserPassword Method 
 linktitle: GetUserPassword
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetUserPassword method. Encapsulates the function that represents getuserpassword in Go.'
 type: docs
 weight: 200

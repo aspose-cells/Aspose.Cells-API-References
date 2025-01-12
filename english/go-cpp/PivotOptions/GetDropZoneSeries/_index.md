@@ -1,7 +1,7 @@
 ---
 title: GetDropZoneSeries Method 
 linktitle: GetDropZoneSeries
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetDropZoneSeries method. Encapsulates the function that represents getdropzoneseries in Go.'
 type: docs
 weight: 200

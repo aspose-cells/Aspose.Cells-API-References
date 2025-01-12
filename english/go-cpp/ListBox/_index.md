@@ -1,7 +1,7 @@
 ---
 title: ListBox Class 
 linktitle: ListBox
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ListBox class. Encapsulates the object that represents listbox in Go.'
 type: docs
 weight: 200

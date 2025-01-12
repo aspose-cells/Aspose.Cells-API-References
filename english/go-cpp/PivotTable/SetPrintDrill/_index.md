@@ -1,7 +1,7 @@
 ---
 title: SetPrintDrill Method 
 linktitle: SetPrintDrill
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetPrintDrill method. Encapsulates the function that represents setprintdrill in Go.'
 type: docs
 weight: 200

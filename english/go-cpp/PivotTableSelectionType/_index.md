@@ -1,7 +1,7 @@
 ---
 title: PivotTableSelectionType Enum 
 linktitle: PivotTableSelectionType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'PivotTableSelectionType enum. Encapsulates the object that represents pivottableselectiontype in Go.'
 type: docs
 weight: 200

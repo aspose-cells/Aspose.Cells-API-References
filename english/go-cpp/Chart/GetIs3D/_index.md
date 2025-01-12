@@ -1,7 +1,7 @@
 ---
 title: GetIs3D Method 
 linktitle: GetIs3D
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetIs3D method. Encapsulates the function that represents getis3d in Go.'
 type: docs
 weight: 200

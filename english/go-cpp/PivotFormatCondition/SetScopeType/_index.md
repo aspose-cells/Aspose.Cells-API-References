@@ -1,7 +1,7 @@
 ---
 title: SetScopeType Method 
 linktitle: SetScopeType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetScopeType method. Encapsulates the function that represents setscopetype in Go.'
 type: docs
 weight: 200

@@ -46,9 +46,9 @@ Worksheet worksheet = workbook.Worksheets[0];
 
 // Create signature line object
 SignatureLine s = new SignatureLine();
-s.Signer = "Simon Zhao";
-s.Title = "Development Lead";
-s.Email = "Simon.Zhao@aspose.com";
+s.Signer = "Simon";
+s.Title = "Development";
+s.Email = "simon@aspose.com";
 s.Instructions = "Sign to confirm the excel content.";
 
 // Adds a Signature Line to the worksheet.

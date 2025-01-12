@@ -1,7 +1,7 @@
 ---
 title: ToDateTime Method 
 linktitle: ToDateTime
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ToDateTime method. Encapsulates the function that represents todatetime in Go.'
 type: docs
 weight: 200

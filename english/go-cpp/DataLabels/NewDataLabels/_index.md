@@ -1,7 +1,7 @@
 ---
 title: DataLabels Constructor 
 linktitle: DataLabels
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'DataLabels constructor. Encapsulates the function that represents newdatalabels in Go.'
 type: docs
 weight: 200

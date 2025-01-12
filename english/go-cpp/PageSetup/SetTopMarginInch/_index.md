@@ -1,7 +1,7 @@
 ---
 title: SetTopMarginInch Method 
 linktitle: SetTopMarginInch
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetTopMarginInch method. Encapsulates the function that represents settopmargininch in Go.'
 type: docs
 weight: 200

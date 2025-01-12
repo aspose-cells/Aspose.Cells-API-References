@@ -1,7 +1,7 @@
 ---
 title: GetStopIfTrue Method 
 linktitle: GetStopIfTrue
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetStopIfTrue method. Encapsulates the function that represents getstopiftrue in Go.'
 type: docs
 weight: 200

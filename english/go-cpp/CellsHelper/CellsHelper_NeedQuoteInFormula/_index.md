@@ -1,7 +1,7 @@
 ---
 title: CellsHelper_NeedQuoteInFormula Method 
 linktitle: NeedQuoteInFormula
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'CellsHelper_NeedQuoteInFormula method. Encapsulates the function that represents needquoteinformula in Go.'
 type: docs
 weight: 200

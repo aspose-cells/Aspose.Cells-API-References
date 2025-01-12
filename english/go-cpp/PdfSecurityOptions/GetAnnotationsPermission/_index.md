@@ -1,7 +1,7 @@
 ---
 title: GetAnnotationsPermission Method 
 linktitle: GetAnnotationsPermission
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetAnnotationsPermission method. Encapsulates the function that represents getannotationspermission in Go.'
 type: docs
 weight: 200

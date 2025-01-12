@@ -1,7 +1,7 @@
 ---
 title: Format_Int_Int_Style Method 
 linktitle: Format
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'Format_Int_Int_Style method. Encapsulates the function that represents format in Go.'
 type: docs
 weight: 200

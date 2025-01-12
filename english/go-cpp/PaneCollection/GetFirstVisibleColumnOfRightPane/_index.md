@@ -1,7 +1,7 @@
 ---
 title: GetFirstVisibleColumnOfRightPane Method 
 linktitle: GetFirstVisibleColumnOfRightPane
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetFirstVisibleColumnOfRightPane method. Encapsulates the function that represents getfirstvisiblecolumnofrightpane in Go.'
 type: docs
 weight: 200

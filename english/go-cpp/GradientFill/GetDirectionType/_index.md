@@ -1,7 +1,7 @@
 ---
 title: GetDirectionType Method 
 linktitle: GetDirectionType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetDirectionType method. Encapsulates the function that represents getdirectiontype in Go.'
 type: docs
 weight: 200

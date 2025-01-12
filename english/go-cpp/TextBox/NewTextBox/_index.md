@@ -1,7 +1,7 @@
 ---
 title: TextBox Constructor 
 linktitle: TextBox
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'TextBox constructor. Encapsulates the function that represents newtextbox in Go.'
 type: docs
 weight: 200

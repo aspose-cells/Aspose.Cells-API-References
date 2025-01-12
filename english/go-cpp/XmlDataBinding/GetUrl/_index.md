@@ -1,7 +1,7 @@
 ---
 title: GetUrl Method 
 linktitle: GetUrl
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetUrl method. Encapsulates the function that represents geturl in Go.'
 type: docs
 weight: 200

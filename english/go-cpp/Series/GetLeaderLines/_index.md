@@ -1,7 +1,7 @@
 ---
 title: GetLeaderLines Method 
 linktitle: GetLeaderLines
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetLeaderLines method. Encapsulates the function that represents getleaderlines in Go.'
 type: docs
 weight: 200

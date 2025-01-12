@@ -1,7 +1,7 @@
 ---
 title: CopySettings Method 
 linktitle: CopySettings
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'CopySettings method. Encapsulates the function that represents copysettings in Go.'
 type: docs
 weight: 200

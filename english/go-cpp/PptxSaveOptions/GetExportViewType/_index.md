@@ -1,7 +1,7 @@
 ---
 title: GetExportViewType Method 
 linktitle: GetExportViewType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetExportViewType method. Encapsulates the function that represents getexportviewtype in Go.'
 type: docs
 weight: 200

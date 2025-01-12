@@ -1,7 +1,7 @@
 ---
 title: GetAccentCharacter Method 
 linktitle: GetAccentCharacter
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetAccentCharacter method. Encapsulates the function that represents getaccentcharacter in Go.'
 type: docs
 weight: 200

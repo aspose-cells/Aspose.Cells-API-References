@@ -1,7 +1,7 @@
 ---
 title: ThemeColorType Enum 
 linktitle: ThemeColorType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ThemeColorType enum. Encapsulates the object that represents themecolortype in Go.'
 type: docs
 weight: 200

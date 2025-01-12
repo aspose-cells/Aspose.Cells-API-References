@@ -1,7 +1,7 @@
 ---
 title: ChartLineFormattingType Enum 
 linktitle: ChartLineFormattingType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ChartLineFormattingType enum. Encapsulates the object that represents chartlineformattingtype in Go.'
 type: docs
 weight: 200

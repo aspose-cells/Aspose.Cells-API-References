@@ -1,7 +1,7 @@
 ---
 title: SetEmbededImageNameInSvg Method 
 linktitle: SetEmbededImageNameInSvg
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetEmbededImageNameInSvg method. Encapsulates the function that represents setembededimagenameinsvg in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: SetFooter Method 
 linktitle: SetFooter
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetFooter method. Encapsulates the function that represents setfooter in Go.'
 type: docs
 weight: 200

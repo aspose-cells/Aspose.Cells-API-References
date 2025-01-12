@@ -1,7 +1,7 @@
 ---
 title: GetScenarios Method 
 linktitle: GetScenarios
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetScenarios method. Encapsulates the function that represents getscenarios in Go.'
 type: docs
 weight: 200

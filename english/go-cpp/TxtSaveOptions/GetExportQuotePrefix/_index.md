@@ -1,7 +1,7 @@
 ---
 title: GetExportQuotePrefix Method 
 linktitle: GetExportQuotePrefix
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetExportQuotePrefix method. Encapsulates the function that represents getexportquoteprefix in Go.'
 type: docs
 weight: 200

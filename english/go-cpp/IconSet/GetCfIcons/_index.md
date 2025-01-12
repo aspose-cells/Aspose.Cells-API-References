@@ -1,7 +1,7 @@
 ---
 title: GetCfIcons Method 
 linktitle: GetCfIcons
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetCfIcons method. Encapsulates the function that represents getcficons in Go.'
 type: docs
 weight: 200

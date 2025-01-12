@@ -1,7 +1,7 @@
 ---
 title: SetMultipleWorksheets Method 
 linktitle: SetMultipleWorksheets
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetMultipleWorksheets method. Encapsulates the function that represents setmultipleworksheets in Go.'
 type: docs
 weight: 200

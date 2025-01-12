@@ -1,7 +1,7 @@
 ---
 title: SetVisible Method 
 linktitle: SetVisible
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetVisible method. Encapsulates the function that represents setvisible in Go.'
 type: docs
 weight: 200

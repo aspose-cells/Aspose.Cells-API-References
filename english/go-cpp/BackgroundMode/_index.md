@@ -1,7 +1,7 @@
 ---
 title: BackgroundMode Enum 
 linktitle: BackgroundMode
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'BackgroundMode enum. Encapsulates the object that represents backgroundmode in Go.'
 type: docs
 weight: 200

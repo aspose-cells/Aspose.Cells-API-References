@@ -1,7 +1,7 @@
 ---
 title: ShowInCompactForm Method 
 linktitle: ShowInCompactForm
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ShowInCompactForm method. Encapsulates the function that represents showincompactform in Go.'
 type: docs
 weight: 200

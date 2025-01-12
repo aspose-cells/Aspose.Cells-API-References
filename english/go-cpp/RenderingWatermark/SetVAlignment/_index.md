@@ -1,7 +1,7 @@
 ---
 title: SetVAlignment Method 
 linktitle: SetVAlignment
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetVAlignment method. Encapsulates the function that represents setvalignment in Go.'
 type: docs
 weight: 200

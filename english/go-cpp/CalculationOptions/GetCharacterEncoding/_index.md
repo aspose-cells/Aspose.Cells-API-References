@@ -1,7 +1,7 @@
 ---
 title: GetCharacterEncoding Method 
 linktitle: GetCharacterEncoding
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetCharacterEncoding method. Encapsulates the function that represents getcharacterencoding in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: SetKeyLength Method 
 linktitle: SetKeyLength
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetKeyLength method. Encapsulates the function that represents setkeylength in Go.'
 type: docs
 weight: 200

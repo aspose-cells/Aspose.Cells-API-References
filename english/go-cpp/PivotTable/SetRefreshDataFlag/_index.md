@@ -1,7 +1,7 @@
 ---
 title: SetRefreshDataFlag Method 
 linktitle: SetRefreshDataFlag
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetRefreshDataFlag method. Encapsulates the function that represents setrefreshdataflag in Go.'
 type: docs
 weight: 200

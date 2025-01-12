@@ -1,7 +1,7 @@
 ---
 title: DifSaveOptions Constructor 
 linktitle: DifSaveOptions
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'DifSaveOptions constructor. Encapsulates the function that represents newdifsaveoptions in Go.'
 type: docs
 weight: 200

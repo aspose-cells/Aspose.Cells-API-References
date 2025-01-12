@@ -1,7 +1,7 @@
 ---
 title: SetIsTiling Method 
 linktitle: SetIsTiling
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetIsTiling method. Encapsulates the function that represents setistiling in Go.'
 type: docs
 weight: 200

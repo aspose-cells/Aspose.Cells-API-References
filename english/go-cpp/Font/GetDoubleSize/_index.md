@@ -1,7 +1,7 @@
 ---
 title: GetDoubleSize Method 
 linktitle: GetDoubleSize
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetDoubleSize method. Encapsulates the function that represents getdoublesize in Go.'
 type: docs
 weight: 200

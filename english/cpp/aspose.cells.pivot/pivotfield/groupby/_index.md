@@ -4,7 +4,7 @@ linktitle: GroupBy
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotField::GroupBy method. Automatically group the field with internal in C++.'
 type: docs
-weight: 1100
+weight: 900
 url: /cpp/aspose.cells.pivot/pivotfield/groupby/
 ---
 ## PivotField::GroupBy(double, bool) method

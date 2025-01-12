@@ -1,7 +1,7 @@
 ---
 title: SetErrorTitle Method 
 linktitle: SetErrorTitle
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetErrorTitle method. Encapsulates the function that represents seterrortitle in Go.'
 type: docs
 weight: 200

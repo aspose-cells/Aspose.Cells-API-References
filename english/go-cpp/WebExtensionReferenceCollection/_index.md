@@ -1,7 +1,7 @@
 ---
 title: WebExtensionReferenceCollection Class 
 linktitle: WebExtensionReferenceCollection
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'WebExtensionReferenceCollection class. Encapsulates the object that represents webextensionreferencecollection in Go.'
 type: docs
 weight: 200

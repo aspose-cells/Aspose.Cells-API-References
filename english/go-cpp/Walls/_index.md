@@ -1,7 +1,7 @@
 ---
 title: Walls Class 
 linktitle: Walls
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'Walls class. Encapsulates the object that represents walls in Go.'
 type: docs
 weight: 200

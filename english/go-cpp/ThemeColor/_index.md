@@ -1,7 +1,7 @@
 ---
 title: ThemeColor Class 
 linktitle: ThemeColor
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ThemeColor class. Encapsulates the object that represents themecolor in Go.'
 type: docs
 weight: 200

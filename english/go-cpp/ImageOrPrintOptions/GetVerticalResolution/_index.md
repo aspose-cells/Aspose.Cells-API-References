@@ -1,7 +1,7 @@
 ---
 title: GetVerticalResolution Method 
 linktitle: GetVerticalResolution
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetVerticalResolution method. Encapsulates the function that represents getverticalresolution in Go.'
 type: docs
 weight: 200

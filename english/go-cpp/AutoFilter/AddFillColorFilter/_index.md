@@ -1,7 +1,7 @@
 ---
 title: AddFillColorFilter Method 
 linktitle: AddFillColorFilter
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'AddFillColorFilter method. Encapsulates the function that represents addfillcolorfilter in Go.'
 type: docs
 weight: 200

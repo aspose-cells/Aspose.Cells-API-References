@@ -1,7 +1,7 @@
 ---
 title: GetTotalColumns Method 
 linktitle: GetTotalColumns
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetTotalColumns method. Encapsulates the function that represents gettotalcolumns in Go.'
 type: docs
 weight: 200

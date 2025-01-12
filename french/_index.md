@@ -5,6 +5,7 @@ type: docs
 weight: 10
 description: "Aspose.Cells est une API facile à utiliser pour créer, convertir et traiter des fichiers Excel. Créez votre application basée sur Excel dans .NET, Java, C++ et d'autres plates-formes."
 url: /fr/
+override_menu: true
 ---
 
 ## Aspose.Cells pour .NET

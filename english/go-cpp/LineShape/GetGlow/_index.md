@@ -1,7 +1,7 @@
 ---
 title: GetGlow Method 
 linktitle: GetGlow
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetGlow method. Encapsulates the function that represents getglow in Go.'
 type: docs
 weight: 200

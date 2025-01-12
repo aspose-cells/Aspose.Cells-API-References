@@ -1,7 +1,7 @@
 ---
 title: SetExtrusionColor Method 
 linktitle: SetExtrusionColor
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetExtrusionColor method. Encapsulates the function that represents setextrusioncolor in Go.'
 type: docs
 weight: 200

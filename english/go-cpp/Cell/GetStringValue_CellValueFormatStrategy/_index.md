@@ -1,7 +1,7 @@
 ---
 title: GetStringValue_CellValueFormatStrategy Method 
 linktitle: GetStringValue
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetStringValue_CellValueFormatStrategy method. Encapsulates the function that represents getstringvalue in Go.'
 type: docs
 weight: 200

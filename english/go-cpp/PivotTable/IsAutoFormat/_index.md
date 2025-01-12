@@ -1,7 +1,7 @@
 ---
 title: IsAutoFormat Method 
 linktitle: IsAutoFormat
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsAutoFormat method. Encapsulates the function that represents isautoformat in Go.'
 type: docs
 weight: 200

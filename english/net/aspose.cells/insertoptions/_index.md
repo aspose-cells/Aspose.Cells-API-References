@@ -24,6 +24,7 @@ public class InsertOptions
 | Name | Description |
 | --- | --- |
 | [CopyFormatType](../../aspose.cells/insertoptions/copyformattype/) { get; set; } |  |
+| [FormulaChangeMonitor](../../aspose.cells/insertoptions/formulachangemonitor/) { get; set; } | Gets/sets the monitor for tracking changes caused by the insertion. |
 | [UpdateReference](../../aspose.cells/insertoptions/updatereference/) { get; set; } | Indicates if references in other worksheets will be updated. |
 
 ### Examples

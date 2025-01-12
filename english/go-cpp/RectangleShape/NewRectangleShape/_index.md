@@ -1,7 +1,7 @@
 ---
 title: RectangleShape Constructor 
 linktitle: RectangleShape
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'RectangleShape constructor. Encapsulates the function that represents newrectangleshape in Go.'
 type: docs
 weight: 200

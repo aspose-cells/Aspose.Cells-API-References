@@ -1,7 +1,7 @@
 ---
 title: IsJsBrowserCompatible Method 
 linktitle: IsJsBrowserCompatible
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsJsBrowserCompatible method. Encapsulates the function that represents isjsbrowsercompatible in Go.'
 type: docs
 weight: 200

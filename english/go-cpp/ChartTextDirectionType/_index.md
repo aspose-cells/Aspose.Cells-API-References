@@ -1,7 +1,7 @@
 ---
 title: ChartTextDirectionType Enum 
 linktitle: ChartTextDirectionType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ChartTextDirectionType enum. Encapsulates the object that represents charttextdirectiontype in Go.'
 type: docs
 weight: 200

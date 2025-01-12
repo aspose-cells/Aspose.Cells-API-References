@@ -1,7 +1,7 @@
 ---
 title: Border Class 
 linktitle: Border
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'Border class. Encapsulates the object that represents border in Go.'
 type: docs
 weight: 200

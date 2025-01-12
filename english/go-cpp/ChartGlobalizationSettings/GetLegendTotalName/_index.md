@@ -1,7 +1,7 @@
 ---
 title: GetLegendTotalName Method 
 linktitle: GetLegendTotalName
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetLegendTotalName method. Encapsulates the function that represents getlegendtotalname in Go.'
 type: docs
 weight: 200

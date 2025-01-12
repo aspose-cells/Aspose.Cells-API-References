@@ -1,7 +1,7 @@
 ---
 title: SetEnableDrilldown Method 
 linktitle: SetEnableDrilldown
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetEnableDrilldown method. Encapsulates the function that represents setenabledrilldown in Go.'
 type: docs
 weight: 200

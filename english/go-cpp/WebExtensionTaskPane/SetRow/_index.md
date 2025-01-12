@@ -1,7 +1,7 @@
 ---
 title: SetRow Method 
 linktitle: SetRow
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetRow method. Encapsulates the function that represents setrow in Go.'
 type: docs
 weight: 200

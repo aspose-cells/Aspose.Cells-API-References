@@ -1,7 +1,7 @@
 ---
 title: IsProtectedByRMS Method 
 linktitle: IsProtectedByRMS
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsProtectedByRMS method. Encapsulates the function that represents isprotectedbyrms in Go.'
 type: docs
 weight: 200

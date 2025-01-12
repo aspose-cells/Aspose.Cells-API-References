@@ -1,7 +1,7 @@
 ---
 title: ScrollBar Class 
 linktitle: ScrollBar
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ScrollBar class. Encapsulates the object that represents scrollbar in Go.'
 type: docs
 weight: 200

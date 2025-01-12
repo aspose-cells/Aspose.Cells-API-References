@@ -1,7 +1,7 @@
 ---
 title: ViewType Enum 
 linktitle: ViewType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ViewType enum. Encapsulates the object that represents viewtype in Go.'
 type: docs
 weight: 200

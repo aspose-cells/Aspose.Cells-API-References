@@ -1,7 +1,7 @@
 ---
 title: GetDistance Method 
 linktitle: GetDistance
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetDistance method. Encapsulates the function that represents getdistance in Go.'
 type: docs
 weight: 200

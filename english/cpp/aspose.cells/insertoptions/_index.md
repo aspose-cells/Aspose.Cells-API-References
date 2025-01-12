@@ -4,7 +4,7 @@ linktitle: InsertOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::InsertOptions class. Represents the options of inserting in C++.'
 type: docs
-weight: 8900
+weight: 9100
 url: /cpp/aspose.cells/insertoptions/
 ---
 ## InsertOptions class
@@ -21,6 +21,7 @@ class InsertOptions
 | Method | Description |
 | --- | --- |
 | [GetCopyFormatType()](./getcopyformattype/) |  |
+| [GetFormulaChangeMonitor()](./getformulachangemonitor/) | Gets/sets the monitor for tracking changes caused by the insertion. |
 | [GetUpdateReference()](./getupdatereference/) | Indicates if references in other worksheets will be updated. |
 | [InsertOptions()](./insertoptions/) | Default constructor. |
 | [InsertOptions(InsertOptions_Impl* impl)](./insertoptions/) | Constructs from an implementation object. |
@@ -29,6 +30,7 @@ class InsertOptions
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const InsertOptions\& src)](./operator_asm/) | operator= |
 | [SetCopyFormatType(CopyFormatType value)](./setcopyformattype/) |  |
+| [SetFormulaChangeMonitor(const AbstractFormulaChangeMonitor\& value)](./setformulachangemonitor/) | Gets/sets the monitor for tracking changes caused by the insertion. |
 | [SetUpdateReference(bool value)](./setupdatereference/) | Indicates if references in other worksheets will be updated. |
 | [~InsertOptions()](./~insertoptions/) | Destructor. |
 ## Fields

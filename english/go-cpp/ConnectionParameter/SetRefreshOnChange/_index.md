@@ -1,7 +1,7 @@
 ---
 title: SetRefreshOnChange Method 
 linktitle: SetRefreshOnChange
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetRefreshOnChange method. Encapsulates the function that represents setrefreshonchange in Go.'
 type: docs
 weight: 200

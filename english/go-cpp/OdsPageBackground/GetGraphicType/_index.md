@@ -1,7 +1,7 @@
 ---
 title: GetGraphicType Method 
 linktitle: GetGraphicType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetGraphicType method. Encapsulates the function that represents getgraphictype in Go.'
 type: docs
 weight: 200

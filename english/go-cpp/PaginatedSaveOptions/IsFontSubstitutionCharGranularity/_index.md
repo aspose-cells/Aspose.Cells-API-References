@@ -1,7 +1,7 @@
 ---
 title: IsFontSubstitutionCharGranularity Method 
 linktitle: IsFontSubstitutionCharGranularity
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsFontSubstitutionCharGranularity method. Encapsulates the function that represents isfontsubstitutionchargranularity in Go.'
 type: docs
 weight: 200

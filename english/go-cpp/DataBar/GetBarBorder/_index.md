@@ -1,7 +1,7 @@
 ---
 title: GetBarBorder Method 
 linktitle: GetBarBorder
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetBarBorder method. Encapsulates the function that represents getbarborder in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: SetTableCssId Method 
 linktitle: SetTableCssId
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetTableCssId method. Encapsulates the function that represents settablecssid in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: ConversionUtility_Convert_String_LoadOptions_String_SaveOptions Method 
 linktitle: Convert
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ConversionUtility_Convert_String_LoadOptions_String_SaveOptions method. Encapsulates the function that represents convert in Go.'
 type: docs
 weight: 200

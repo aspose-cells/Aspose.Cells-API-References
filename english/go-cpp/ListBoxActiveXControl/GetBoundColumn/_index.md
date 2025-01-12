@@ -1,7 +1,7 @@
 ---
 title: GetBoundColumn Method 
 linktitle: GetBoundColumn
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetBoundColumn method. Encapsulates the function that represents getboundcolumn in Go.'
 type: docs
 weight: 200

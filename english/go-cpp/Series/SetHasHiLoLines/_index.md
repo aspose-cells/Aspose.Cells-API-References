@@ -1,7 +1,7 @@
 ---
 title: SetHasHiLoLines Method 
 linktitle: SetHasHiLoLines
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetHasHiLoLines method. Encapsulates the function that represents sethashilolines in Go.'
 type: docs
 weight: 200

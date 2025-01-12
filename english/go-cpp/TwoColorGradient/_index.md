@@ -1,7 +1,7 @@
 ---
 title: TwoColorGradient Class 
 linktitle: TwoColorGradient
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'TwoColorGradient class. Encapsulates the object that represents twocolorgradient in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: SetManualUpdate Method 
 linktitle: SetManualUpdate
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetManualUpdate method. Encapsulates the function that represents setmanualupdate in Go.'
 type: docs
 weight: 200

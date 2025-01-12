@@ -1,7 +1,7 @@
 ---
 title: PasteType Enum 
 linktitle: PasteType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'PasteType enum. Encapsulates the object that represents pastetype in Go.'
 type: docs
 weight: 200

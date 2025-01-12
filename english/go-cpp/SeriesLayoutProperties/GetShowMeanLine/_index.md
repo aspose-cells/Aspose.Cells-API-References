@@ -1,7 +1,7 @@
 ---
 title: GetShowMeanLine Method 
 linktitle: GetShowMeanLine
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetShowMeanLine method. Encapsulates the function that represents getshowmeanline in Go.'
 type: docs
 weight: 200

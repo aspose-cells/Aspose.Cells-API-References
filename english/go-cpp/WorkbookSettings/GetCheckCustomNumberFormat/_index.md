@@ -1,7 +1,7 @@
 ---
 title: GetCheckCustomNumberFormat Method 
 linktitle: GetCheckCustomNumberFormat
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetCheckCustomNumberFormat method. Encapsulates the function that represents getcheckcustomnumberformat in Go.'
 type: docs
 weight: 200

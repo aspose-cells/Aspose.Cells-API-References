@@ -1,7 +1,7 @@
 ---
 title: SlicerCacheItemSortType Enum 
 linktitle: SlicerCacheItemSortType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SlicerCacheItemSortType enum. Encapsulates the object that represents slicercacheitemsorttype in Go.'
 type: docs
 weight: 200

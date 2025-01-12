@@ -1,7 +1,7 @@
 ---
 title: SetFirstVisibleRowOfBottomPane Method 
 linktitle: SetFirstVisibleRowOfBottomPane
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetFirstVisibleRowOfBottomPane method. Encapsulates the function that represents setfirstvisiblerowofbottompane in Go.'
 type: docs
 weight: 200

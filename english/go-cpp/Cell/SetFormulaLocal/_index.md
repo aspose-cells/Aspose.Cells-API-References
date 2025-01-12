@@ -1,7 +1,7 @@
 ---
 title: SetFormulaLocal Method 
 linktitle: SetFormulaLocal
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetFormulaLocal method. Encapsulates the function that represents setformulalocal in Go.'
 type: docs
 weight: 200

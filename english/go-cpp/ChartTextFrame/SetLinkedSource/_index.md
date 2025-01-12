@@ -1,7 +1,7 @@
 ---
 title: SetLinkedSource Method 
 linktitle: SetLinkedSource
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetLinkedSource method. Encapsulates the function that represents setlinkedsource in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: TextCrossType Enum 
 linktitle: TextCrossType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'TextCrossType enum. Encapsulates the object that represents textcrosstype in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: UnknowEquationNode Class 
 linktitle: UnknowEquationNode
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'UnknowEquationNode class. Encapsulates the object that represents unknowequationnode in Go.'
 type: docs
 weight: 200

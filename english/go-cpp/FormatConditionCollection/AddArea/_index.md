@@ -1,7 +1,7 @@
 ---
 title: AddArea Method 
 linktitle: AddArea
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'AddArea method. Encapsulates the function that represents addarea in Go.'
 type: docs
 weight: 200

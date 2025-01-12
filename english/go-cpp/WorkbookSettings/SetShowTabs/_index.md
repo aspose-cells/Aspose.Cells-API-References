@@ -1,7 +1,7 @@
 ---
 title: SetShowTabs Method 
 linktitle: SetShowTabs
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetShowTabs method. Encapsulates the function that represents setshowtabs in Go.'
 type: docs
 weight: 200

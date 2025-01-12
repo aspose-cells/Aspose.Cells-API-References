@@ -1,7 +1,7 @@
 ---
 title: HideItem_Int_Bool Method 
 linktitle: HideItem
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'HideItem_Int_Bool method. Encapsulates the function that represents hideitem in Go.'
 type: docs
 weight: 200

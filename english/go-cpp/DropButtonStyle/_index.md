@@ -1,7 +1,7 @@
 ---
 title: DropButtonStyle Enum 
 linktitle: DropButtonStyle
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'DropButtonStyle enum. Encapsulates the object that represents dropbuttonstyle in Go.'
 type: docs
 weight: 200

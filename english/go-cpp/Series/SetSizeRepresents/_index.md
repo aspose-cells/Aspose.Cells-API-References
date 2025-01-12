@@ -1,7 +1,7 @@
 ---
 title: SetSizeRepresents Method 
 linktitle: SetSizeRepresents
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetSizeRepresents method. Encapsulates the function that represents setsizerepresents in Go.'
 type: docs
 weight: 200

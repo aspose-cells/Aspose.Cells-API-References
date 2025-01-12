@@ -1,7 +1,7 @@
 ---
 title: SetSourceFile Method 
 linktitle: SetSourceFile
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetSourceFile method. Encapsulates the function that represents setsourcefile in Go.'
 type: docs
 weight: 200

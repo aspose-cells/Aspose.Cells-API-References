@@ -1,7 +1,7 @@
 ---
 title: GetHasDropLines Method 
 linktitle: GetHasDropLines
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetHasDropLines method. Encapsulates the function that represents gethasdroplines in Go.'
 type: docs
 weight: 200

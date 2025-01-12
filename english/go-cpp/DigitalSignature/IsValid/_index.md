@@ -1,7 +1,7 @@
 ---
 title: IsValid Method 
 linktitle: IsValid
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsValid method. Encapsulates the function that represents isvalid in Go.'
 type: docs
 weight: 200

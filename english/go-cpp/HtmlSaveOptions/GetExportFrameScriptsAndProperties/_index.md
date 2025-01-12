@@ -1,7 +1,7 @@
 ---
 title: GetExportFrameScriptsAndProperties Method 
 linktitle: GetExportFrameScriptsAndProperties
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetExportFrameScriptsAndProperties method. Encapsulates the function that represents getexportframescriptsandproperties in Go.'
 type: docs
 weight: 200

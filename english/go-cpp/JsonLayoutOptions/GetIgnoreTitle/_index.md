@@ -1,7 +1,7 @@
 ---
 title: GetIgnoreTitle Method 
 linktitle: GetIgnoreTitle
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetIgnoreTitle method. Encapsulates the function that represents getignoretitle in Go.'
 type: docs
 weight: 200

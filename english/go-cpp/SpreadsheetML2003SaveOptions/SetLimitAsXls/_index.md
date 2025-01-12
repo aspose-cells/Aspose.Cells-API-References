@@ -1,7 +1,7 @@
 ---
 title: SetLimitAsXls Method 
 linktitle: SetLimitAsXls
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetLimitAsXls method. Encapsulates the function that represents setlimitasxls in Go.'
 type: docs
 weight: 200

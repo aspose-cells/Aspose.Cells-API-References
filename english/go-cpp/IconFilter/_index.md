@@ -1,7 +1,7 @@
 ---
 title: IconFilter Class 
 linktitle: IconFilter
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IconFilter class. Encapsulates the object that represents iconfilter in Go.'
 type: docs
 weight: 200

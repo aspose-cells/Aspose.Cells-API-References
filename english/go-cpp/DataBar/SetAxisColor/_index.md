@@ -1,7 +1,7 @@
 ---
 title: SetAxisColor Method 
 linktitle: SetAxisColor
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetAxisColor method. Encapsulates the function that represents setaxiscolor in Go.'
 type: docs
 weight: 200

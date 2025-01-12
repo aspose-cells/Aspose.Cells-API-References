@@ -1,7 +1,7 @@
 ---
 title: GetEvaluatedPageCount Method 
 linktitle: GetEvaluatedPageCount
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetEvaluatedPageCount method. Encapsulates the function that represents getevaluatedpagecount in Go.'
 type: docs
 weight: 200

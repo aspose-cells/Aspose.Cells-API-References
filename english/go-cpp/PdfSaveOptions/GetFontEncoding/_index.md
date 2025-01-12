@@ -1,7 +1,7 @@
 ---
 title: GetFontEncoding Method 
 linktitle: GetFontEncoding
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetFontEncoding method. Encapsulates the function that represents getfontencoding in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetRightCrop Method 
 linktitle: GetRightCrop
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetRightCrop method. Encapsulates the function that represents getrightcrop in Go.'
 type: docs
 weight: 200

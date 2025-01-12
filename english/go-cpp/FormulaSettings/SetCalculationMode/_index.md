@@ -1,7 +1,7 @@
 ---
 title: SetCalculationMode Method 
 linktitle: SetCalculationMode
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetCalculationMode method. Encapsulates the function that represents setcalculationmode in Go.'
 type: docs
 weight: 200

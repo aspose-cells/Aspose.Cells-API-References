@@ -1,7 +1,7 @@
 ---
 title: SetAutoSortField Method 
 linktitle: SetAutoSortField
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetAutoSortField method. Encapsulates the function that represents setautosortfield in Go.'
 type: docs
 weight: 200

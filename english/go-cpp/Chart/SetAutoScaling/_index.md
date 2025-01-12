@@ -1,7 +1,7 @@
 ---
 title: SetAutoScaling Method 
 linktitle: SetAutoScaling
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetAutoScaling method. Encapsulates the function that represents setautoscaling in Go.'
 type: docs
 weight: 200

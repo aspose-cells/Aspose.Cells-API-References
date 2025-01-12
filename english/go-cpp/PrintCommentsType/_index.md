@@ -1,7 +1,7 @@
 ---
 title: PrintCommentsType Enum 
 linktitle: PrintCommentsType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'PrintCommentsType enum. Encapsulates the object that represents printcommentstype in Go.'
 type: docs
 weight: 200

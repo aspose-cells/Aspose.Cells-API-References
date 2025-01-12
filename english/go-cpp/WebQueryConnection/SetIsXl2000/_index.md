@@ -1,7 +1,7 @@
 ---
 title: SetIsXl2000 Method 
 linktitle: SetIsXl2000
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetIsXl2000 method. Encapsulates the function that represents setisxl2000 in Go.'
 type: docs
 weight: 200

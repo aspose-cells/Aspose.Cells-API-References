@@ -1,7 +1,7 @@
 ---
 title: SelectionType Enum 
 linktitle: SelectionType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SelectionType enum. Encapsulates the object that represents selectiontype in Go.'
 type: docs
 weight: 200

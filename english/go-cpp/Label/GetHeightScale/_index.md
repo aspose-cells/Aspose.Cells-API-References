@@ -1,7 +1,7 @@
 ---
 title: GetHeightScale Method 
 linktitle: GetHeightScale
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetHeightScale method. Encapsulates the function that represents getheightscale in Go.'
 type: docs
 weight: 200

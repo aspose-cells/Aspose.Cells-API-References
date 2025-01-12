@@ -1,7 +1,7 @@
 ---
 title: GetGlowEffect Method 
 linktitle: GetGlowEffect
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetGlowEffect method. Encapsulates the function that represents getgloweffect in Go.'
 type: docs
 weight: 200

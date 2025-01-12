@@ -1,7 +1,7 @@
 ---
 title: IsNumberFormatApplied Method 
 linktitle: IsNumberFormatApplied
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsNumberFormatApplied method. Encapsulates the function that represents isnumberformatapplied in Go.'
 type: docs
 weight: 200

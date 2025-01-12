@@ -1,7 +1,7 @@
 ---
 title: EndCellInRow_Int Method 
 linktitle: EndCellInRow
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'EndCellInRow_Int method. Encapsulates the function that represents endcellinrow in Go.'
 type: docs
 weight: 200

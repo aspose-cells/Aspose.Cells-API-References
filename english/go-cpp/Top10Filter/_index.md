@@ -1,7 +1,7 @@
 ---
 title: Top10Filter Class 
 linktitle: Top10Filter
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'Top10Filter class. Encapsulates the object that represents top10filter in Go.'
 type: docs
 weight: 200

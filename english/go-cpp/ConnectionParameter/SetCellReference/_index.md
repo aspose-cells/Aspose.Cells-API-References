@@ -1,7 +1,7 @@
 ---
 title: SetCellReference Method 
 linktitle: SetCellReference
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetCellReference method. Encapsulates the function that represents setcellreference in Go.'
 type: docs
 weight: 200

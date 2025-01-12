@@ -1,7 +1,7 @@
 ---
 title: SetOrientation Method 
 linktitle: SetOrientation
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetOrientation method. Encapsulates the function that represents setorientation in Go.'
 type: docs
 weight: 200

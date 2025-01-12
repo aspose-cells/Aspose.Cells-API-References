@@ -1,7 +1,7 @@
 ---
 title: GetRowGrand Method 
 linktitle: GetRowGrand
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetRowGrand method. Encapsulates the function that represents getrowgrand in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetTextOfGrandTotal Method 
 linktitle: GetTextOfGrandTotal
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetTextOfGrandTotal method. Encapsulates the function that represents gettextofgrandtotal in Go.'
 type: docs
 weight: 200

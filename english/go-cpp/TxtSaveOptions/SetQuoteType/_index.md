@@ -1,7 +1,7 @@
 ---
 title: SetQuoteType Method 
 linktitle: SetQuoteType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetQuoteType method. Encapsulates the function that represents setquotetype in Go.'
 type: docs
 weight: 200

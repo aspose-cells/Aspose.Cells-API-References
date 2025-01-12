@@ -1,7 +1,7 @@
 ---
 title: SetCustomPropertiesExport Method 
 linktitle: SetCustomPropertiesExport
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetCustomPropertiesExport method. Encapsulates the function that represents setcustompropertiesexport in Go.'
 type: docs
 weight: 200

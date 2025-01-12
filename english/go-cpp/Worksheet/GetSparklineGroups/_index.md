@@ -1,7 +1,7 @@
 ---
 title: GetSparklineGroups Method 
 linktitle: GetSparklineGroups
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetSparklineGroups method. Encapsulates the function that represents getsparklinegroups in Go.'
 type: docs
 weight: 200

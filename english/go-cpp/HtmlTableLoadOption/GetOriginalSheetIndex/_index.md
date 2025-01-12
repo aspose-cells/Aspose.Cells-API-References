@@ -1,7 +1,7 @@
 ---
 title: GetOriginalSheetIndex Method 
 linktitle: GetOriginalSheetIndex
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetOriginalSheetIndex method. Encapsulates the function that represents getoriginalsheetindex in Go.'
 type: docs
 weight: 200

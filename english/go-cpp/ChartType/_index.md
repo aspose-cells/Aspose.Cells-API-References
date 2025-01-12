@@ -1,7 +1,7 @@
 ---
 title: ChartType Enum 
 linktitle: ChartType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ChartType enum. Encapsulates the object that represents charttype in Go.'
 type: docs
 weight: 200

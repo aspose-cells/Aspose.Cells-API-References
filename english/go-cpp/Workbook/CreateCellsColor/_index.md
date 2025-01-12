@@ -1,7 +1,7 @@
 ---
 title: CreateCellsColor Method 
 linktitle: CreateCellsColor
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'CreateCellsColor method. Encapsulates the function that represents createcellscolor in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: SetIsInSecondaryPlot Method 
 linktitle: SetIsInSecondaryPlot
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetIsInSecondaryPlot method. Encapsulates the function that represents setisinsecondaryplot in Go.'
 type: docs
 weight: 200

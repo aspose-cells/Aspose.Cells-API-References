@@ -1,7 +1,7 @@
 ---
 title: SetBorders Method 
 linktitle: SetBorders
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetBorders method. Encapsulates the function that represents setborders in Go.'
 type: docs
 weight: 200

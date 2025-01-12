@@ -1,7 +1,7 @@
 ---
 title: GetDataMashup Method 
 linktitle: GetDataMashup
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetDataMashup method. Encapsulates the function that represents getdatamashup in Go.'
 type: docs
 weight: 200

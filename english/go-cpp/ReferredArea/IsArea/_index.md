@@ -1,7 +1,7 @@
 ---
 title: IsArea Method 
 linktitle: IsArea
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsArea method. Encapsulates the function that represents isarea in Go.'
 type: docs
 weight: 200

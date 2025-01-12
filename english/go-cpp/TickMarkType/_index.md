@@ -1,7 +1,7 @@
 ---
 title: TickMarkType Enum 
 linktitle: TickMarkType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'TickMarkType enum. Encapsulates the object that represents tickmarktype in Go.'
 type: docs
 weight: 200

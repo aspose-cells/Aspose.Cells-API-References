@@ -1,7 +1,7 @@
 ---
 title: SwapItem Method 
 linktitle: SwapItem
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SwapItem method. Encapsulates the function that represents swapitem in Go.'
 type: docs
 weight: 200

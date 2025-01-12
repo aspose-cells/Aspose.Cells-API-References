@@ -1,7 +1,7 @@
 ---
 title: GetVertJc Method 
 linktitle: GetVertJc
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetVertJc method. Encapsulates the function that represents getvertjc in Go.'
 type: docs
 weight: 200

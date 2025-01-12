@@ -1,7 +1,7 @@
 ---
 title: GetGradientColor1 Method 
 linktitle: GetGradientColor1
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetGradientColor1 method. Encapsulates the function that represents getgradientcolor1 in Go.'
 type: docs
 weight: 200

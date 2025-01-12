@@ -1,7 +1,7 @@
 ---
 title: GetBorderWidthPx Method 
 linktitle: GetBorderWidthPx
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetBorderWidthPx method. Encapsulates the function that represents getborderwidthpx in Go.'
 type: docs
 weight: 200

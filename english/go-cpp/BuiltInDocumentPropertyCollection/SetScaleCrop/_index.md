@@ -1,7 +1,7 @@
 ---
 title: SetScaleCrop Method 
 linktitle: SetScaleCrop
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetScaleCrop method. Encapsulates the function that represents setscalecrop in Go.'
 type: docs
 weight: 200

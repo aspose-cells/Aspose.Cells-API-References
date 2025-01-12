@@ -1,7 +1,7 @@
 ---
 title: GetTiffColorDepth Method 
 linktitle: GetTiffColorDepth
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetTiffColorDepth method. Encapsulates the function that represents gettiffcolordepth in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GroupShape Class 
 linktitle: GroupShape
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GroupShape class. Encapsulates the object that represents groupshape in Go.'
 type: docs
 weight: 200

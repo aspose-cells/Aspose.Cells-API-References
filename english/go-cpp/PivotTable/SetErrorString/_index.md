@@ -1,7 +1,7 @@
 ---
 title: SetErrorString Method 
 linktitle: SetErrorString
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetErrorString method. Encapsulates the function that represents seterrorstring in Go.'
 type: docs
 weight: 200

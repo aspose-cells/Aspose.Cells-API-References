@@ -1,7 +1,7 @@
 ---
 title: SetDaysPreservingHistory Method 
 linktitle: SetDaysPreservingHistory
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetDaysPreservingHistory method. Encapsulates the function that represents setdayspreservinghistory in Go.'
 type: docs
 weight: 200

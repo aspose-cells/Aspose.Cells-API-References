@@ -1,7 +1,7 @@
 ---
 title: GetFirstVisibleTab Method 
 linktitle: GetFirstVisibleTab
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetFirstVisibleTab method. Encapsulates the function that represents getfirstvisibletab in Go.'
 type: docs
 weight: 200

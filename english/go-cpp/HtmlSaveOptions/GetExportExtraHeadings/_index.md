@@ -1,7 +1,7 @@
 ---
 title: GetExportExtraHeadings Method 
 linktitle: GetExportExtraHeadings
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetExportExtraHeadings method. Encapsulates the function that represents getexportextraheadings in Go.'
 type: docs
 weight: 200

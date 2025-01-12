@@ -1,7 +1,7 @@
 ---
 title: GetParse Method 
 linktitle: GetParse
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetParse method. Encapsulates the function that represents getparse in Go.'
 type: docs
 weight: 200

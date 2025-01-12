@@ -1,7 +1,7 @@
 ---
 title: GetNumber Method 
 linktitle: GetNumber
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetNumber method. Encapsulates the function that represents getnumber in Go.'
 type: docs
 weight: 200

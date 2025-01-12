@@ -1,7 +1,7 @@
 ---
 title: SetLineSpaceSizeType Method 
 linktitle: SetLineSpaceSizeType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetLineSpaceSizeType method. Encapsulates the function that represents setlinespacesizetype in Go.'
 type: docs
 weight: 200

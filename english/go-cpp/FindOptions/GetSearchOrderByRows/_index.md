@@ -1,7 +1,7 @@
 ---
 title: GetSearchOrderByRows Method 
 linktitle: GetSearchOrderByRows
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetSearchOrderByRows method. Encapsulates the function that represents getsearchorderbyrows in Go.'
 type: docs
 weight: 200

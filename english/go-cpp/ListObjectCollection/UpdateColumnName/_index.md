@@ -1,7 +1,7 @@
 ---
 title: UpdateColumnName Method 
 linktitle: UpdateColumnName
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'UpdateColumnName method. Encapsulates the function that represents updatecolumnname in Go.'
 type: docs
 weight: 200

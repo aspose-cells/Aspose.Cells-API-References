@@ -1,7 +1,7 @@
 ---
 title: GetModules Method 
 linktitle: GetModules
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetModules method. Encapsulates the function that represents getmodules in Go.'
 type: docs
 weight: 200

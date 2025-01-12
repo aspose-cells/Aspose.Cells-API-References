@@ -1,7 +1,7 @@
 ---
 title: SetShowFormulas Method 
 linktitle: SetShowFormulas
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetShowFormulas method. Encapsulates the function that represents setshowformulas in Go.'
 type: docs
 weight: 200

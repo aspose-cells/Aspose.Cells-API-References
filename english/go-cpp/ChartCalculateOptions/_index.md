@@ -1,7 +1,7 @@
 ---
 title: ChartCalculateOptions Class 
 linktitle: ChartCalculateOptions
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ChartCalculateOptions class. Encapsulates the object that represents chartcalculateoptions in Go.'
 type: docs
 weight: 200

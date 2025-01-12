@@ -1,7 +1,7 @@
 ---
 title: GetListRange Method 
 linktitle: GetListRange
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetListRange method. Encapsulates the function that represents getlistrange in Go.'
 type: docs
 weight: 200

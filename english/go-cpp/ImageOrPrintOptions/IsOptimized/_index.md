@@ -1,7 +1,7 @@
 ---
 title: IsOptimized Method 
 linktitle: IsOptimized
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsOptimized method. Encapsulates the function that represents isoptimized in Go.'
 type: docs
 weight: 200

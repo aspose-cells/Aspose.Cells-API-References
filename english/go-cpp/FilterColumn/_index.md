@@ -1,7 +1,7 @@
 ---
 title: FilterColumn Class 
 linktitle: FilterColumn
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'FilterColumn class. Encapsulates the object that represents filtercolumn in Go.'
 type: docs
 weight: 200

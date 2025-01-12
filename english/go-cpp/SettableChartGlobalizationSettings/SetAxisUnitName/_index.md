@@ -1,7 +1,7 @@
 ---
 title: SetAxisUnitName Method 
 linktitle: SetAxisUnitName
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetAxisUnitName method. Encapsulates the function that represents setaxisunitname in Go.'
 type: docs
 weight: 200

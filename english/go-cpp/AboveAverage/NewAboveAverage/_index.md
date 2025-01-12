@@ -1,7 +1,7 @@
 ---
 title: AboveAverage Constructor 
 linktitle: AboveAverage
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'AboveAverage constructor. Encapsulates the function that represents newaboveaverage in Go.'
 type: docs
 weight: 200

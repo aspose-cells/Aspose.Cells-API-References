@@ -1,7 +1,7 @@
 ---
 title: ClearComments Method 
 linktitle: ClearComments
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ClearComments method. Encapsulates the function that represents clearcomments in Go.'
 type: docs
 weight: 200

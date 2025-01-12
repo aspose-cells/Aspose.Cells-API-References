@@ -1,7 +1,7 @@
 ---
 title: SetPresentationPreference Method 
 linktitle: SetPresentationPreference
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetPresentationPreference method. Encapsulates the function that represents setpresentationpreference in Go.'
 type: docs
 weight: 200

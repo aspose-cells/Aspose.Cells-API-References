@@ -1,7 +1,7 @@
 ---
 title: GetOriginalHeightInch Method 
 linktitle: GetOriginalHeightInch
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetOriginalHeightInch method. Encapsulates the function that represents getoriginalheightinch in Go.'
 type: docs
 weight: 200

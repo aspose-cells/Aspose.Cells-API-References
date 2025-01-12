@@ -1,7 +1,7 @@
 ---
 title: IsString Method 
 linktitle: IsString
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsString method. Encapsulates the function that represents isstring in Go.'
 type: docs
 weight: 200

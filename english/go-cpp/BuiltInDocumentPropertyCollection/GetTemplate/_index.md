@@ -1,7 +1,7 @@
 ---
 title: GetTemplate Method 
 linktitle: GetTemplate
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetTemplate method. Encapsulates the function that represents gettemplate in Go.'
 type: docs
 weight: 200

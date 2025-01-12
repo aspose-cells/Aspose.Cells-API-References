@@ -1,7 +1,7 @@
 ---
 title: Top10 Constructor 
 linktitle: Top10
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'Top10 constructor. Encapsulates the function that represents newtop10 in Go.'
 type: docs
 weight: 200

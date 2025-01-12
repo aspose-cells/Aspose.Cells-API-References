@@ -1,7 +1,7 @@
 ---
 title: GetProtectionType Method 
 linktitle: GetProtectionType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetProtectionType method. Encapsulates the function that represents getprotectiontype in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: FilterTop10 Method 
 linktitle: FilterTop10
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'FilterTop10 method. Encapsulates the function that represents filtertop10 in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: ControlSpecialEffectType Enum 
 linktitle: ControlSpecialEffectType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ControlSpecialEffectType enum. Encapsulates the object that represents controlspecialeffecttype in Go.'
 type: docs
 weight: 200

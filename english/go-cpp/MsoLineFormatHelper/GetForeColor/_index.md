@@ -1,7 +1,7 @@
 ---
 title: GetForeColor Method 
 linktitle: GetForeColor
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetForeColor method. Encapsulates the function that represents getforecolor in Go.'
 type: docs
 weight: 200

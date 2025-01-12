@@ -1,7 +1,7 @@
 ---
 title: AddActiveXControl Method 
 linktitle: AddActiveXControl
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'AddActiveXControl method. Encapsulates the function that represents addactivexcontrol in Go.'
 type: docs
 weight: 200

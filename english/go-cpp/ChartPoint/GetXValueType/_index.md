@@ -1,7 +1,7 @@
 ---
 title: GetXValueType Method 
 linktitle: GetXValueType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetXValueType method. Encapsulates the function that represents getxvaluetype in Go.'
 type: docs
 weight: 200

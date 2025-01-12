@@ -1,7 +1,7 @@
 ---
 title: AutoFill_Range_AutoFillType Method 
 linktitle: AutoFill
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'AutoFill_Range_AutoFillType method. Encapsulates the function that represents autofill in Go.'
 type: docs
 weight: 200

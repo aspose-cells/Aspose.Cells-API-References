@@ -1,7 +1,7 @@
 ---
 title: IsFiltered Method 
 linktitle: IsFiltered
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsFiltered method. Encapsulates the function that represents isfiltered in Go.'
 type: docs
 weight: 200

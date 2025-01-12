@@ -1,7 +1,7 @@
 ---
 title: SetBaseItemPositionType Method 
 linktitle: SetBaseItemPositionType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetBaseItemPositionType method. Encapsulates the function that represents setbaseitempositiontype in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: SetRepeatItemsOnEachPrintedPage Method 
 linktitle: SetRepeatItemsOnEachPrintedPage
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetRepeatItemsOnEachPrintedPage method. Encapsulates the function that represents setrepeatitemsoneachprintedpage in Go.'
 type: docs
 weight: 200

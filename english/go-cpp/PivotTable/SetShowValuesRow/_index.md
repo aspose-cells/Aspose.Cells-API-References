@@ -1,7 +1,7 @@
 ---
 title: SetShowValuesRow Method 
 linktitle: SetShowValuesRow
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetShowValuesRow method. Encapsulates the function that represents setshowvaluesrow in Go.'
 type: docs
 weight: 200

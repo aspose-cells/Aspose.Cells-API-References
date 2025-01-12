@@ -6,6 +6,7 @@ type: docs
 weight: 10
 description: "Aspose.Cells API Reference - Excel processing and spreadsheet management made easy. Powerful features for data manipulation, formatting, formulas, and chart generation."
 url: /
+override_menu: true
 ---
 
 ## Aspose.Cells for .NET: A Comprehensive API Reference for Excel Processing

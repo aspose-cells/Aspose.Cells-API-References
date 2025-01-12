@@ -1,7 +1,7 @@
 ---
 title: SetIsEastAsianLineBreak Method 
 linktitle: SetIsEastAsianLineBreak
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetIsEastAsianLineBreak method. Encapsulates the function that represents setiseastasianlinebreak in Go.'
 type: docs
 weight: 200

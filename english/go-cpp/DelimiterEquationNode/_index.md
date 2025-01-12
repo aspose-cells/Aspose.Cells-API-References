@@ -1,7 +1,7 @@
 ---
 title: DelimiterEquationNode Class 
 linktitle: DelimiterEquationNode
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'DelimiterEquationNode class. Encapsulates the object that represents delimiterequationnode in Go.'
 type: docs
 weight: 200

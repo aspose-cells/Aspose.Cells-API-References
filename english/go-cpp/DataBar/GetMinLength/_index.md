@@ -1,7 +1,7 @@
 ---
 title: GetMinLength Method 
 linktitle: GetMinLength
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetMinLength method. Encapsulates the function that represents getminlength in Go.'
 type: docs
 weight: 200

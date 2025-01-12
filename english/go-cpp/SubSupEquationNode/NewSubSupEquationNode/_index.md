@@ -1,7 +1,7 @@
 ---
 title: SubSupEquationNode Constructor 
 linktitle: SubSupEquationNode
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SubSupEquationNode constructor. Encapsulates the function that represents newsubsupequationnode in Go.'
 type: docs
 weight: 200

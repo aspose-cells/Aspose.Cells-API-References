@@ -1,7 +1,7 @@
 ---
 title: PivotAreaFilter Constructor 
 linktitle: PivotAreaFilter
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'PivotAreaFilter constructor. Encapsulates the function that represents newpivotareafilter in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetFilterCategory Method 
 linktitle: GetFilterCategory
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetFilterCategory method. Encapsulates the function that represents getfiltercategory in Go.'
 type: docs
 weight: 200

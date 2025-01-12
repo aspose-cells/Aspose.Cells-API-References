@@ -1,7 +1,7 @@
 ---
 title: SetFormulas Method 
 linktitle: SetFormulas
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetFormulas method. Encapsulates the function that represents setformulas in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetDeleted Method 
 linktitle: GetDeleted
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetDeleted method. Encapsulates the function that represents getdeleted in Go.'
 type: docs
 weight: 200

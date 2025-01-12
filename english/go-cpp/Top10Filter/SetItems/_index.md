@@ -1,7 +1,7 @@
 ---
 title: SetItems Method 
 linktitle: SetItems
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetItems method. Encapsulates the function that represents setitems in Go.'
 type: docs
 weight: 200

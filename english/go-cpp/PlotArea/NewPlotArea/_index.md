@@ -1,7 +1,7 @@
 ---
 title: PlotArea Constructor 
 linktitle: PlotArea
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'PlotArea constructor. Encapsulates the function that represents newplotarea in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: RevisionLog Class 
 linktitle: RevisionLog
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'RevisionLog class. Encapsulates the object that represents revisionlog in Go.'
 type: docs
 weight: 200

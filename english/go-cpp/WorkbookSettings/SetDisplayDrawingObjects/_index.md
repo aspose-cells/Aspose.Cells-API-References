@@ -1,7 +1,7 @@
 ---
 title: SetDisplayDrawingObjects Method 
 linktitle: SetDisplayDrawingObjects
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetDisplayDrawingObjects method. Encapsulates the function that represents setdisplaydrawingobjects in Go.'
 type: docs
 weight: 200

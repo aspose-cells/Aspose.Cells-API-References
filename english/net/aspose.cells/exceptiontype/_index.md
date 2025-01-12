@@ -41,6 +41,10 @@ public enum ExceptionType
 | UnsupportedStream | `21` | Unsupported stream to be opened. |
 | UndisclosedInformation | `22` | Files contains some undisclosed information. |
 | FileCorrupted | `23` | File content is corrupted. |
+| DefinedName | `25` | Invalid defined name |
+| Font | `26` | Invalid font |
+| AutoFilter | `27` | Invalid auto filter setting. |
+| FontSubstitution | `28` | Font substitution warning type when a font has not been found, this warning type can be get. |
 
 ### Examples
 

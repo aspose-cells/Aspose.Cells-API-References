@@ -1,7 +1,7 @@
 ---
 title: FormatCondition Class 
 linktitle: FormatCondition
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'FormatCondition class. Encapsulates the object that represents formatcondition in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetLargeChange Method 
 linktitle: GetLargeChange
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetLargeChange method. Encapsulates the function that represents getlargechange in Go.'
 type: docs
 weight: 200

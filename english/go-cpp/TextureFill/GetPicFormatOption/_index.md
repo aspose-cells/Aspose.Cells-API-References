@@ -1,7 +1,7 @@
 ---
 title: GetPicFormatOption Method 
 linktitle: GetPicFormatOption
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetPicFormatOption method. Encapsulates the function that represents getpicformatoption in Go.'
 type: docs
 weight: 200

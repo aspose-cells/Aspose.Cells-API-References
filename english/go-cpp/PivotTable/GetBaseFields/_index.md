@@ -1,7 +1,7 @@
 ---
 title: GetBaseFields Method 
 linktitle: GetBaseFields
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetBaseFields method. Encapsulates the function that represents getbasefields in Go.'
 type: docs
 weight: 200

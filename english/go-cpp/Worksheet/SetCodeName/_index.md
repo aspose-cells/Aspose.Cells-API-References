@@ -1,7 +1,7 @@
 ---
 title: SetCodeName Method 
 linktitle: SetCodeName
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetCodeName method. Encapsulates the function that represents setcodename in Go.'
 type: docs
 weight: 200

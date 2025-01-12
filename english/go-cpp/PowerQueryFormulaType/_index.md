@@ -1,7 +1,7 @@
 ---
 title: PowerQueryFormulaType Enum 
 linktitle: PowerQueryFormulaType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'PowerQueryFormulaType enum. Encapsulates the object that represents powerqueryformulatype in Go.'
 type: docs
 weight: 200

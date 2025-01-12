@@ -1,7 +1,7 @@
 ---
 title: GetLimitLocation Method 
 linktitle: GetLimitLocation
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetLimitLocation method. Encapsulates the function that represents getlimitlocation in Go.'
 type: docs
 weight: 200

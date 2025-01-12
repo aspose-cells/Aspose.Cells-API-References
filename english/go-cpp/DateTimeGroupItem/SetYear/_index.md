@@ -1,7 +1,7 @@
 ---
 title: SetYear Method 
 linktitle: SetYear
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetYear method. Encapsulates the function that represents setyear in Go.'
 type: docs
 weight: 200

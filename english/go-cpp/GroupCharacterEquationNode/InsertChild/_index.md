@@ -1,7 +1,7 @@
 ---
 title: InsertChild Method 
 linktitle: InsertChild
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'InsertChild method. Encapsulates the function that represents insertchild in Go.'
 type: docs
 weight: 200

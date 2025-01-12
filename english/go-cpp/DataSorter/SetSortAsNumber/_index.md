@@ -1,7 +1,7 @@
 ---
 title: SetSortAsNumber Method 
 linktitle: SetSortAsNumber
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetSortAsNumber method. Encapsulates the function that represents setsortasnumber in Go.'
 type: docs
 weight: 200

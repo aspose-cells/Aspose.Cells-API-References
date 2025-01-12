@@ -1,7 +1,7 @@
 ---
 title: GetStringType Method 
 linktitle: GetStringType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetStringType method. Encapsulates the function that represents getstringtype in Go.'
 type: docs
 weight: 200

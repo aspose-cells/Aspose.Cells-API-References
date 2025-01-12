@@ -1,7 +1,7 @@
 ---
 title: IsExcel2003Compatible Method 
 linktitle: IsExcel2003Compatible
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsExcel2003Compatible method. Encapsulates the function that represents isexcel2003compatible in Go.'
 type: docs
 weight: 200

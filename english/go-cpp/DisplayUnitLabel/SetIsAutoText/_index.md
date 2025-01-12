@@ -1,7 +1,7 @@
 ---
 title: SetIsAutoText Method 
 linktitle: SetIsAutoText
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetIsAutoText method. Encapsulates the function that represents setisautotext in Go.'
 type: docs
 weight: 200

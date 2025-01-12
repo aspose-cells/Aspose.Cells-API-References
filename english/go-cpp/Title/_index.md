@@ -1,7 +1,7 @@
 ---
 title: Title Class 
 linktitle: Title
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'Title class. Encapsulates the object that represents title in Go.'
 type: docs
 weight: 200

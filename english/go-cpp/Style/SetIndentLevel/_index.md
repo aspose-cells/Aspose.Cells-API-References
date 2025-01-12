@@ -1,7 +1,7 @@
 ---
 title: SetIndentLevel Method 
 linktitle: SetIndentLevel
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetIndentLevel method. Encapsulates the function that represents setindentlevel in Go.'
 type: docs
 weight: 200

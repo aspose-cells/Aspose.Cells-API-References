@@ -1,7 +1,7 @@
 ---
 title: PclSaveOptions Class 
 linktitle: PclSaveOptions
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'PclSaveOptions class. Encapsulates the object that represents pclsaveoptions in Go.'
 type: docs
 weight: 200

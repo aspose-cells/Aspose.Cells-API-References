@@ -1,7 +1,7 @@
 ---
 title: ReserveMissingPivotItemType Enum 
 linktitle: ReserveMissingPivotItemType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ReserveMissingPivotItemType enum. Encapsulates the object that represents reservemissingpivotitemtype in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: SetIsGradient Method 
 linktitle: SetIsGradient
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetIsGradient method. Encapsulates the function that represents setisgradient in Go.'
 type: docs
 weight: 200

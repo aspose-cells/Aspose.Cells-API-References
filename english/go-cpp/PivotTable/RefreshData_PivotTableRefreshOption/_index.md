@@ -1,7 +1,7 @@
 ---
 title: RefreshData_PivotTableRefreshOption Method 
 linktitle: RefreshData
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'RefreshData_PivotTableRefreshOption method. Encapsulates the function that represents refreshdata in Go.'
 type: docs
 weight: 200

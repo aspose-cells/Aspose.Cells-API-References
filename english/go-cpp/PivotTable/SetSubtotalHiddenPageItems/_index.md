@@ -1,7 +1,7 @@
 ---
 title: SetSubtotalHiddenPageItems Method 
 linktitle: SetSubtotalHiddenPageItems
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetSubtotalHiddenPageItems method. Encapsulates the function that represents setsubtotalhiddenpageitems in Go.'
 type: docs
 weight: 200

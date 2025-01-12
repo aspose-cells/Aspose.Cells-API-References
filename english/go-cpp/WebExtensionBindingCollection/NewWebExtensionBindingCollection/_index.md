@@ -1,7 +1,7 @@
 ---
 title: WebExtensionBindingCollection Constructor 
 linktitle: WebExtensionBindingCollection
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'WebExtensionBindingCollection constructor. Encapsulates the function that represents newwebextensionbindingcollection in Go.'
 type: docs
 weight: 200

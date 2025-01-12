@@ -1,7 +1,7 @@
 ---
 title: GetSecurityOptions Method 
 linktitle: GetSecurityOptions
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetSecurityOptions method. Encapsulates the function that represents getsecurityoptions in Go.'
 type: docs
 weight: 200

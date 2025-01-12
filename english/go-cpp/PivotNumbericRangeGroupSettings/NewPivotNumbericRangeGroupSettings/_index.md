@@ -1,7 +1,7 @@
 ---
 title: PivotNumbericRangeGroupSettings Constructor 
 linktitle: PivotNumbericRangeGroupSettings
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'PivotNumbericRangeGroupSettings constructor. Encapsulates the function that represents newpivotnumbericrangegroupsettings in Go.'
 type: docs
 weight: 200

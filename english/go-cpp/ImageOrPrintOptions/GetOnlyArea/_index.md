@@ -1,7 +1,7 @@
 ---
 title: GetOnlyArea Method 
 linktitle: GetOnlyArea
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetOnlyArea method. Encapsulates the function that represents getonlyarea in Go.'
 type: docs
 weight: 200

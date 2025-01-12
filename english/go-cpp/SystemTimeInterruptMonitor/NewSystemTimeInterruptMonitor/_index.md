@@ -1,7 +1,7 @@
 ---
 title: SystemTimeInterruptMonitor Constructor 
 linktitle: SystemTimeInterruptMonitor
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SystemTimeInterruptMonitor constructor. Encapsulates the function that represents newsystemtimeinterruptmonitor in Go.'
 type: docs
 weight: 200

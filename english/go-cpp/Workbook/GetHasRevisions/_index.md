@@ -1,7 +1,7 @@
 ---
 title: GetHasRevisions Method 
 linktitle: GetHasRevisions
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetHasRevisions method. Encapsulates the function that represents gethasrevisions in Go.'
 type: docs
 weight: 200

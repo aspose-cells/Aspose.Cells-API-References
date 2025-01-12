@@ -1,7 +1,7 @@
 ---
 title: HtmlFormatHandlingType Enum 
 linktitle: HtmlFormatHandlingType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'HtmlFormatHandlingType enum. Encapsulates the object that represents htmlformathandlingtype in Go.'
 type: docs
 weight: 200

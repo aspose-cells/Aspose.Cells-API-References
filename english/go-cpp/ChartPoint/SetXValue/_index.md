@@ -1,7 +1,7 @@
 ---
 title: SetXValue Method 
 linktitle: SetXValue
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetXValue method. Encapsulates the function that represents setxvalue in Go.'
 type: docs
 weight: 200

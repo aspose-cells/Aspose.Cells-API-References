@@ -1,7 +1,7 @@
 ---
 title: GetHasBorders Method 
 linktitle: GetHasBorders
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetHasBorders method. Encapsulates the function that represents gethasborders in Go.'
 type: docs
 weight: 200

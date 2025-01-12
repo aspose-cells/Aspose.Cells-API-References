@@ -1,7 +1,7 @@
 ---
 title: SetNumberFormatLinked Method 
 linktitle: SetNumberFormatLinked
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetNumberFormatLinked method. Encapsulates the function that represents setnumberformatlinked in Go.'
 type: docs
 weight: 200

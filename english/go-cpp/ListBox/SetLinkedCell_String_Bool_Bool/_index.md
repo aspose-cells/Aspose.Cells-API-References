@@ -1,7 +1,7 @@
 ---
 title: SetLinkedCell_String_Bool_Bool Method 
 linktitle: SetLinkedCell
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetLinkedCell_String_Bool_Bool method. Encapsulates the function that represents setlinkedcell in Go.'
 type: docs
 weight: 200

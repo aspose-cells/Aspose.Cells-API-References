@@ -1,7 +1,7 @@
 ---
 title: GetDigitalSignature Method 
 linktitle: GetDigitalSignature
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetDigitalSignature method. Encapsulates the function that represents getdigitalsignature in Go.'
 type: docs
 weight: 200

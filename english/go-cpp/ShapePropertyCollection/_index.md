@@ -1,7 +1,7 @@
 ---
 title: ShapePropertyCollection Class 
 linktitle: ShapePropertyCollection
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ShapePropertyCollection class. Encapsulates the object that represents shapepropertycollection in Go.'
 type: docs
 weight: 200

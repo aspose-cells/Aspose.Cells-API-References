@@ -1,7 +1,7 @@
 ---
 title: GetTableStyleName Method 
 linktitle: GetTableStyleName
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetTableStyleName method. Encapsulates the function that represents gettablestylename in Go.'
 type: docs
 weight: 200

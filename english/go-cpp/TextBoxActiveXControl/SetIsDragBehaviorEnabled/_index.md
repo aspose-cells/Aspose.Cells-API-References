@@ -1,7 +1,7 @@
 ---
 title: SetIsDragBehaviorEnabled Method 
 linktitle: SetIsDragBehaviorEnabled
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetIsDragBehaviorEnabled method. Encapsulates the function that represents setisdragbehaviorenabled in Go.'
 type: docs
 weight: 200

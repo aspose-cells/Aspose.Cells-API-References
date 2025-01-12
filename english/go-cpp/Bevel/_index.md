@@ -1,7 +1,7 @@
 ---
 title: Bevel Class 
 linktitle: Bevel
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'Bevel class. Encapsulates the object that represents bevel in Go.'
 type: docs
 weight: 200

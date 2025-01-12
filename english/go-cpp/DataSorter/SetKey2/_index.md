@@ -1,7 +1,7 @@
 ---
 title: SetKey2 Method 
 linktitle: SetKey2
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetKey2 method. Encapsulates the function that represents setkey2 in Go.'
 type: docs
 weight: 200

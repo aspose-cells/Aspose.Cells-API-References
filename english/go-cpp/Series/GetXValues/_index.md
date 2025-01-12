@@ -1,7 +1,7 @@
 ---
 title: GetXValues Method 
 linktitle: GetXValues
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetXValues method. Encapsulates the function that represents getxvalues in Go.'
 type: docs
 weight: 200

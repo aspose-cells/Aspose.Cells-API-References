@@ -1,7 +1,7 @@
 ---
 title: MetadataType Enum 
 linktitle: MetadataType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'MetadataType enum. Encapsulates the object that represents metadatatype in Go.'
 type: docs
 weight: 200

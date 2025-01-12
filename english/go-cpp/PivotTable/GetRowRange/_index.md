@@ -1,7 +1,7 @@
 ---
 title: GetRowRange Method 
 linktitle: GetRowRange
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetRowRange method. Encapsulates the function that represents getrowrange in Go.'
 type: docs
 weight: 200

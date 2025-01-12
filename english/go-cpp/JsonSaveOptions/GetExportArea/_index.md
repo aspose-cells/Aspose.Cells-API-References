@@ -1,7 +1,7 @@
 ---
 title: GetExportArea Method 
 linktitle: GetExportArea
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetExportArea method. Encapsulates the function that represents getexportarea in Go.'
 type: docs
 weight: 200

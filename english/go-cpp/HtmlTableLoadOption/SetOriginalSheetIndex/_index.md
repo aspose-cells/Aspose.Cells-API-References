@@ -1,7 +1,7 @@
 ---
 title: SetOriginalSheetIndex Method 
 linktitle: SetOriginalSheetIndex
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetOriginalSheetIndex method. Encapsulates the function that represents setoriginalsheetindex in Go.'
 type: docs
 weight: 200

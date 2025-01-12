@@ -1,7 +1,7 @@
 ---
 title: GetExcludeUnusedStyles Method 
 linktitle: GetExcludeUnusedStyles
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetExcludeUnusedStyles method. Encapsulates the function that represents getexcludeunusedstyles in Go.'
 type: docs
 weight: 200

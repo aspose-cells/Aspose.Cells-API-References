@@ -1,7 +1,7 @@
 ---
 title: GetFontStrike Method 
 linktitle: GetFontStrike
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetFontStrike method. Encapsulates the function that represents getfontstrike in Go.'
 type: docs
 weight: 200

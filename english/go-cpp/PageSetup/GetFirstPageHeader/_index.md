@@ -1,7 +1,7 @@
 ---
 title: GetFirstPageHeader Method 
 linktitle: GetFirstPageHeader
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetFirstPageHeader method. Encapsulates the function that represents getfirstpageheader in Go.'
 type: docs
 weight: 200

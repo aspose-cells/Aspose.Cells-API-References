@@ -1,7 +1,7 @@
 ---
 title: SetPatternColor Method 
 linktitle: SetPatternColor
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetPatternColor method. Encapsulates the function that represents setpatterncolor in Go.'
 type: docs
 weight: 200

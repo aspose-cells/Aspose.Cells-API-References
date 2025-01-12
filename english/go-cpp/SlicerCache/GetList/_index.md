@@ -1,7 +1,7 @@
 ---
 title: GetList Method 
 linktitle: GetList
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetList method. Encapsulates the function that represents getlist in Go.'
 type: docs
 weight: 200

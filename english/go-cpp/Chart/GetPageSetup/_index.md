@@ -1,7 +1,7 @@
 ---
 title: GetPageSetup Method 
 linktitle: GetPageSetup
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetPageSetup method. Encapsulates the function that represents getpagesetup in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetPreserveString Method 
 linktitle: GetPreserveString
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetPreserveString method. Encapsulates the function that represents getpreservestring in Go.'
 type: docs
 weight: 200

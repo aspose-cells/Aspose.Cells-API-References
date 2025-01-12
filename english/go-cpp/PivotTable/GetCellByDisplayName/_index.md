@@ -1,7 +1,7 @@
 ---
 title: GetCellByDisplayName Method 
 linktitle: GetCellByDisplayName
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetCellByDisplayName method. Encapsulates the function that represents getcellbydisplayname in Go.'
 type: docs
 weight: 200

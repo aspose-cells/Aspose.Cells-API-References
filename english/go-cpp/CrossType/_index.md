@@ -1,7 +1,7 @@
 ---
 title: CrossType Enum 
 linktitle: CrossType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'CrossType enum. Encapsulates the object that represents crosstype in Go.'
 type: docs
 weight: 200

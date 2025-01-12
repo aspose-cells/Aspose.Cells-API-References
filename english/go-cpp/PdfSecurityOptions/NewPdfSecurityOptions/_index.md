@@ -1,7 +1,7 @@
 ---
 title: PdfSecurityOptions Constructor 
 linktitle: PdfSecurityOptions
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'PdfSecurityOptions constructor. Encapsulates the function that represents newpdfsecurityoptions in Go.'
 type: docs
 weight: 200

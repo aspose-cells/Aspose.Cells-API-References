@@ -1,7 +1,7 @@
 ---
 title: GetTotalRows Method 
 linktitle: GetTotalRows
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetTotalRows method. Encapsulates the function that represents gettotalrows in Go.'
 type: docs
 weight: 200

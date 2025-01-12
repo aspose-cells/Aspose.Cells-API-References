@@ -1,7 +1,7 @@
 ---
 title: RevisionRenameSheet Class 
 linktitle: RevisionRenameSheet
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'RevisionRenameSheet class. Encapsulates the object that represents revisionrenamesheet in Go.'
 type: docs
 weight: 200

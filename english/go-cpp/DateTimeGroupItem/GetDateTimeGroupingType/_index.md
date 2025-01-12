@@ -1,7 +1,7 @@
 ---
 title: GetDateTimeGroupingType Method 
 linktitle: GetDateTimeGroupingType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetDateTimeGroupingType method. Encapsulates the function that represents getdatetimegroupingtype in Go.'
 type: docs
 weight: 200

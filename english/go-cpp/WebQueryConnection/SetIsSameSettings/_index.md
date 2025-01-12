@@ -1,7 +1,7 @@
 ---
 title: SetIsSameSettings Method 
 linktitle: SetIsSameSettings
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetIsSameSettings method. Encapsulates the function that represents setissamesettings in Go.'
 type: docs
 weight: 200

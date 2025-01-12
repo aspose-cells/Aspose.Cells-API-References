@@ -1,7 +1,7 @@
 ---
 title: GetLatinName Method 
 linktitle: GetLatinName
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetLatinName method. Encapsulates the function that represents getlatinname in Go.'
 type: docs
 weight: 200

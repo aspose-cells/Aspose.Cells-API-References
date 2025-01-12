@@ -1,7 +1,7 @@
 ---
 title: GetOldValue Method 
 linktitle: GetOldValue
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetOldValue method. Encapsulates the function that represents getoldvalue in Go.'
 type: docs
 weight: 200

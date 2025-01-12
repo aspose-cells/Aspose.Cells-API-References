@@ -1,7 +1,7 @@
 ---
 title: GetDisplayUnitLabel Method 
 linktitle: GetDisplayUnitLabel
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetDisplayUnitLabel method. Encapsulates the function that represents getdisplayunitlabel in Go.'
 type: docs
 weight: 200

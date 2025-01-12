@@ -1,7 +1,7 @@
 ---
 title: FontSetting Constructor 
 linktitle: FontSetting
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'FontSetting constructor. Encapsulates the function that represents newfontsetting in Go.'
 type: docs
 weight: 200

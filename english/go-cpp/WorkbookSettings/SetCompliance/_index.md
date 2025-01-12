@@ -1,7 +1,7 @@
 ---
 title: SetCompliance Method 
 linktitle: SetCompliance
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetCompliance method. Encapsulates the function that represents setcompliance in Go.'
 type: docs
 weight: 200

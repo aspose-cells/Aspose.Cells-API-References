@@ -1,7 +1,7 @@
 ---
 title: SetIsMinimized Method 
 linktitle: SetIsMinimized
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetIsMinimized method. Encapsulates the function that represents setisminimized in Go.'
 type: docs
 weight: 200

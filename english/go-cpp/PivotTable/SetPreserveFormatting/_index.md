@@ -1,7 +1,7 @@
 ---
 title: SetPreserveFormatting Method 
 linktitle: SetPreserveFormatting
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetPreserveFormatting method. Encapsulates the function that represents setpreserveformatting in Go.'
 type: docs
 weight: 200

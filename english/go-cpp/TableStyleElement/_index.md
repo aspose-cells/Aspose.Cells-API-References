@@ -1,7 +1,7 @@
 ---
 title: TableStyleElement Class 
 linktitle: TableStyleElement
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'TableStyleElement class. Encapsulates the object that represents tablestyleelement in Go.'
 type: docs
 weight: 200

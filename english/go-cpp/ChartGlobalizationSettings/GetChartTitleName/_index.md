@@ -1,7 +1,7 @@
 ---
 title: GetChartTitleName Method 
 linktitle: GetChartTitleName
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetChartTitleName method. Encapsulates the function that represents getcharttitlename in Go.'
 type: docs
 weight: 200

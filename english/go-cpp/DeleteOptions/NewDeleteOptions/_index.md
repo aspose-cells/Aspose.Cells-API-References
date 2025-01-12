@@ -1,7 +1,7 @@
 ---
 title: DeleteOptions Constructor 
 linktitle: DeleteOptions
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'DeleteOptions constructor. Encapsulates the function that represents newdeleteoptions in Go.'
 type: docs
 weight: 200

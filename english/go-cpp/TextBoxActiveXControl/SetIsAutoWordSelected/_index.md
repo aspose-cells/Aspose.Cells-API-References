@@ -1,7 +1,7 @@
 ---
 title: SetIsAutoWordSelected Method 
 linktitle: SetIsAutoWordSelected
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetIsAutoWordSelected method. Encapsulates the function that represents setisautowordselected in Go.'
 type: docs
 weight: 200

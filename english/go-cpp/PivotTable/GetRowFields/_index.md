@@ -1,7 +1,7 @@
 ---
 title: GetRowFields Method 
 linktitle: GetRowFields
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetRowFields method. Encapsulates the function that represents getrowfields in Go.'
 type: docs
 weight: 200

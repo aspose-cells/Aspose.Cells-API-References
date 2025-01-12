@@ -1,7 +1,7 @@
 ---
 title: LegendPositionType Enum 
 linktitle: LegendPositionType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'LegendPositionType enum. Encapsulates the object that represents legendpositiontype in Go.'
 type: docs
 weight: 200

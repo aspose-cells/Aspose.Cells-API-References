@@ -1,7 +1,7 @@
 ---
 title: GetCheckedValue Method 
 linktitle: GetCheckedValue
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetCheckedValue method. Encapsulates the function that represents getcheckedvalue in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetValue2 Method 
 linktitle: GetValue2
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetValue2 method. Encapsulates the function that represents getvalue2 in Go.'
 type: docs
 weight: 200

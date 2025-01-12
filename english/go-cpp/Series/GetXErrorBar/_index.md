@@ -1,7 +1,7 @@
 ---
 title: GetXErrorBar Method 
 linktitle: GetXErrorBar
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetXErrorBar method. Encapsulates the function that represents getxerrorbar in Go.'
 type: docs
 weight: 200

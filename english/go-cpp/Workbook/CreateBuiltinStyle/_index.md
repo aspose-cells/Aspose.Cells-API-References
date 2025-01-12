@@ -1,7 +1,7 @@
 ---
 title: CreateBuiltinStyle Method 
 linktitle: CreateBuiltinStyle
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'CreateBuiltinStyle method. Encapsulates the function that represents createbuiltinstyle in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: SetBaseFieldIndex Method 
 linktitle: SetBaseFieldIndex
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetBaseFieldIndex method. Encapsulates the function that represents setbasefieldindex in Go.'
 type: docs
 weight: 200

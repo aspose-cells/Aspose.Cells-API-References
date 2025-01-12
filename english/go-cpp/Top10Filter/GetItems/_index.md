@@ -1,7 +1,7 @@
 ---
 title: GetItems Method 
 linktitle: GetItems
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetItems method. Encapsulates the function that represents getitems in Go.'
 type: docs
 weight: 200

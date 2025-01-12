@@ -1,7 +1,7 @@
 ---
 title: SetIsIndentedFormatting Method 
 linktitle: SetIsIndentedFormatting
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetIsIndentedFormatting method. Encapsulates the function that represents setisindentedformatting in Go.'
 type: docs
 weight: 200

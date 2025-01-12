@@ -1,7 +1,7 @@
 ---
 title: GetPreservePaddingSpaces Method 
 linktitle: GetPreservePaddingSpaces
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetPreservePaddingSpaces method. Encapsulates the function that represents getpreservepaddingspaces in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: EquationNodeType Enum 
 linktitle: EquationNodeType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'EquationNodeType enum. Encapsulates the object that represents equationnodetype in Go.'
 type: docs
 weight: 200

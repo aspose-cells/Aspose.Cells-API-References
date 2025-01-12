@@ -1,7 +1,7 @@
 ---
 title: IsConsecutive Method 
 linktitle: IsConsecutive
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsConsecutive method. Encapsulates the function that represents isconsecutive in Go.'
 type: docs
 weight: 200

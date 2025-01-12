@@ -1,7 +1,7 @@
 ---
 title: GetEmbedStandardWindowsFonts Method 
 linktitle: GetEmbedStandardWindowsFonts
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetEmbedStandardWindowsFonts method. Encapsulates the function that represents getembedstandardwindowsfonts in Go.'
 type: docs
 weight: 200

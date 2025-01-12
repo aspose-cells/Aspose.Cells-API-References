@@ -1,7 +1,7 @@
 ---
 title: GetHiLoLines Method 
 linktitle: GetHiLoLines
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetHiLoLines method. Encapsulates the function that represents gethilolines in Go.'
 type: docs
 weight: 200

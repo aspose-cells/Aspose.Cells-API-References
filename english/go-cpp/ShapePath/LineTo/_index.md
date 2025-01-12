@@ -1,7 +1,7 @@
 ---
 title: LineTo Method 
 linktitle: LineTo
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'LineTo method. Encapsulates the function that represents lineto in Go.'
 type: docs
 weight: 200

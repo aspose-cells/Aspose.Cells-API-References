@@ -1,7 +1,7 @@
 ---
 title: SetAllowFormattingRow Method 
 linktitle: SetAllowFormattingRow
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetAllowFormattingRow method. Encapsulates the function that represents setallowformattingrow in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: SetAutoShowField Method 
 linktitle: SetAutoShowField
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetAutoShowField method. Encapsulates the function that represents setautoshowfield in Go.'
 type: docs
 weight: 200

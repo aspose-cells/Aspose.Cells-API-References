@@ -1,7 +1,7 @@
 ---
 title: IsValueFields Method 
 linktitle: IsValueFields
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsValueFields method. Encapsulates the function that represents isvaluefields in Go.'
 type: docs
 weight: 200

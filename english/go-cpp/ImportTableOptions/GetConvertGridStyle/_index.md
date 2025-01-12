@@ -1,7 +1,7 @@
 ---
 title: GetConvertGridStyle Method 
 linktitle: GetConvertGridStyle
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetConvertGridStyle method. Encapsulates the function that represents getconvertgridstyle in Go.'
 type: docs
 weight: 200

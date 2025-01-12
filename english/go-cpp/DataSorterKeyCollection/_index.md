@@ -1,7 +1,7 @@
 ---
 title: DataSorterKeyCollection Class 
 linktitle: DataSorterKeyCollection
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'DataSorterKeyCollection class. Encapsulates the object that represents datasorterkeycollection in Go.'
 type: docs
 weight: 200

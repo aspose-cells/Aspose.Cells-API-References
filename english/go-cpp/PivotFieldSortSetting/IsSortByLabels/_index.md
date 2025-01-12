@@ -1,7 +1,7 @@
 ---
 title: IsSortByLabels Method 
 linktitle: IsSortByLabels
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'IsSortByLabels method. Encapsulates the function that represents issortbylabels in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: FileFontSource Constructor 
 linktitle: FileFontSource
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'FileFontSource constructor. Encapsulates the function that represents newfilefontsource_string in Go.'
 type: docs
 weight: 200

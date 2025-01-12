@@ -1,7 +1,7 @@
 ---
 title: GetEmbedOoxmlAsOleObject Method 
 linktitle: GetEmbedOoxmlAsOleObject
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetEmbedOoxmlAsOleObject method. Encapsulates the function that represents getembedooxmlasoleobject in Go.'
 type: docs
 weight: 200

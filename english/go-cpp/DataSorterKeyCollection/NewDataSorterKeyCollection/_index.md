@@ -1,7 +1,7 @@
 ---
 title: DataSorterKeyCollection Constructor 
 linktitle: DataSorterKeyCollection
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'DataSorterKeyCollection constructor. Encapsulates the function that represents newdatasorterkeycollection in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: OoxmlCompliance Enum 
 linktitle: OoxmlCompliance
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'OoxmlCompliance enum. Encapsulates the object that represents ooxmlcompliance in Go.'
 type: docs
 weight: 200

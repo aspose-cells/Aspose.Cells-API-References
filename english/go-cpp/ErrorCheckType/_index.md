@@ -1,7 +1,7 @@
 ---
 title: ErrorCheckType Enum 
 linktitle: ErrorCheckType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ErrorCheckType enum. Encapsulates the object that represents errorchecktype in Go.'
 type: docs
 weight: 200

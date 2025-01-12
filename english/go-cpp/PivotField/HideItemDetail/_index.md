@@ -1,7 +1,7 @@
 ---
 title: HideItemDetail Method 
 linktitle: HideItemDetail
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'HideItemDetail method. Encapsulates the function that represents hideitemdetail in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetValues_Bool Method 
 linktitle: GetValues
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetValues_Bool method. Encapsulates the function that represents getvalues in Go.'
 type: docs
 weight: 200

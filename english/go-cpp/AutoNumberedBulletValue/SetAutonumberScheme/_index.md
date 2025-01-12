@@ -1,7 +1,7 @@
 ---
 title: SetAutonumberScheme Method 
 linktitle: SetAutonumberScheme
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetAutonumberScheme method. Encapsulates the function that represents setautonumberscheme in Go.'
 type: docs
 weight: 200

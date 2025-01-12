@@ -1,7 +1,7 @@
 ---
 title: GetTiffBinarizationMethod Method 
 linktitle: GetTiffBinarizationMethod
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetTiffBinarizationMethod method. Encapsulates the function that represents gettiffbinarizationmethod in Go.'
 type: docs
 weight: 200

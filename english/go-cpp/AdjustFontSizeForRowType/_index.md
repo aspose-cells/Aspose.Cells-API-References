@@ -1,7 +1,7 @@
 ---
 title: AdjustFontSizeForRowType Enum 
 linktitle: AdjustFontSizeForRowType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'AdjustFontSizeForRowType enum. Encapsulates the object that represents adjustfontsizeforrowtype in Go.'
 type: docs
 weight: 200

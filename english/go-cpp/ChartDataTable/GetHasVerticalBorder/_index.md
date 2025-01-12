@@ -1,7 +1,7 @@
 ---
 title: GetHasVerticalBorder Method 
 linktitle: GetHasVerticalBorder
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetHasVerticalBorder method. Encapsulates the function that represents gethasverticalborder in Go.'
 type: docs
 weight: 200

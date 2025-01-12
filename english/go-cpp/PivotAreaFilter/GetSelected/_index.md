@@ -1,7 +1,7 @@
 ---
 title: GetSelected Method 
 linktitle: GetSelected
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetSelected method. Encapsulates the function that represents getselected in Go.'
 type: docs
 weight: 200

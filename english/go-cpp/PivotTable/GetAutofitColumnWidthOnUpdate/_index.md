@@ -1,7 +1,7 @@
 ---
 title: GetAutofitColumnWidthOnUpdate Method 
 linktitle: GetAutofitColumnWidthOnUpdate
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetAutofitColumnWidthOnUpdate method. Encapsulates the function that represents getautofitcolumnwidthonupdate in Go.'
 type: docs
 weight: 200

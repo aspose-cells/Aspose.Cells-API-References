@@ -1,7 +1,7 @@
 ---
 title: GetColumns Method 
 linktitle: GetColumns
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetColumns method. Encapsulates the function that represents getcolumns in Go.'
 type: docs
 weight: 200

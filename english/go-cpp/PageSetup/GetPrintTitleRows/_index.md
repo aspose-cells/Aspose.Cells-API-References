@@ -1,7 +1,7 @@
 ---
 title: GetPrintTitleRows Method 
 linktitle: GetPrintTitleRows
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetPrintTitleRows method. Encapsulates the function that represents getprinttitlerows in Go.'
 type: docs
 weight: 200

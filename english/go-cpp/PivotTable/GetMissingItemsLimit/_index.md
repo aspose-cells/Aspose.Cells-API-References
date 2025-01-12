@@ -1,7 +1,7 @@
 ---
 title: GetMissingItemsLimit Method 
 linktitle: GetMissingItemsLimit
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetMissingItemsLimit method. Encapsulates the function that represents getmissingitemslimit in Go.'
 type: docs
 weight: 200

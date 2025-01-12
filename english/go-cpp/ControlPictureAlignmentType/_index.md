@@ -1,7 +1,7 @@
 ---
 title: ControlPictureAlignmentType Enum 
 linktitle: ControlPictureAlignmentType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'ControlPictureAlignmentType enum. Encapsulates the object that represents controlpicturealignmenttype in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetEquationType Method 
 linktitle: GetEquationType
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetEquationType method. Encapsulates the function that represents getequationtype in Go.'
 type: docs
 weight: 200

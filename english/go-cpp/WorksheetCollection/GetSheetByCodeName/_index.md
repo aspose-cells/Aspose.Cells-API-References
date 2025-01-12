@@ -1,7 +1,7 @@
 ---
 title: GetSheetByCodeName Method 
 linktitle: GetSheetByCodeName
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetSheetByCodeName method. Encapsulates the function that represents getsheetbycodename in Go.'
 type: docs
 weight: 200

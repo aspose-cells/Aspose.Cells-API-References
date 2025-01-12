@@ -1,7 +1,7 @@
 ---
 title: SetHas3DEffect Method 
 linktitle: SetHas3DEffect
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetHas3DEffect method. Encapsulates the function that represents sethas3deffect in Go.'
 type: docs
 weight: 200

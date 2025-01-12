@@ -1,7 +1,7 @@
 ---
 title: GetPattern Method 
 linktitle: GetPattern
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetPattern method. Encapsulates the function that represents getpattern in Go.'
 type: docs
 weight: 200

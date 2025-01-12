@@ -1,7 +1,7 @@
 ---
 title: SetEndIndex Method 
 linktitle: SetEndIndex
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetEndIndex method. Encapsulates the function that represents setendindex in Go.'
 type: docs
 weight: 200

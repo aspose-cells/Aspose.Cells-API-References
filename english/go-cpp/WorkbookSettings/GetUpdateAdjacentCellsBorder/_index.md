@@ -1,7 +1,7 @@
 ---
 title: GetUpdateAdjacentCellsBorder Method 
 linktitle: GetUpdateAdjacentCellsBorder
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetUpdateAdjacentCellsBorder method. Encapsulates the function that represents getupdateadjacentcellsborder in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: GetCalculationId Method 
 linktitle: GetCalculationId
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetCalculationId method. Encapsulates the function that represents getcalculationid in Go.'
 type: docs
 weight: 200

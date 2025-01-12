@@ -5,6 +5,7 @@ type: docs
 weight: 10
 description: "Aspose.Cells عبارة عن واجهات برمجة تطبيقات سهلة الاستخدام لإنشاء ملفات Excel وتحويلها ومعالجتها. أنشئ تطبيقك المستند إلى Excel في .NET و Java و C ++ والمزيد من الأنظمة الأساسية."
 url: /ar/
+override_menu: true
 ---
 
 ## Aspose.Cells لـ .NET

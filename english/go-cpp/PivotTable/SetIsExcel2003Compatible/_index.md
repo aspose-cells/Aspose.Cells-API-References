@@ -1,7 +1,7 @@
 ---
 title: SetIsExcel2003Compatible Method 
 linktitle: SetIsExcel2003Compatible
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetIsExcel2003Compatible method. Encapsulates the function that represents setisexcel2003compatible in Go.'
 type: docs
 weight: 200

@@ -1,7 +1,7 @@
 ---
 title: SetShowHeaderRow Method 
 linktitle: SetShowHeaderRow
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetShowHeaderRow method. Encapsulates the function that represents setshowheaderrow in Go.'
 type: docs
 weight: 200

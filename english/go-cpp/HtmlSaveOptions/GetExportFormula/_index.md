@@ -1,7 +1,7 @@
 ---
 title: GetExportFormula Method 
 linktitle: GetExportFormula
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetExportFormula method. Encapsulates the function that represents getexportformula in Go.'
 type: docs
 weight: 200

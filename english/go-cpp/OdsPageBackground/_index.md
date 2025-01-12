@@ -1,7 +1,7 @@
 ---
 title: OdsPageBackground Class 
 linktitle: OdsPageBackground
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'OdsPageBackground class. Encapsulates the object that represents odspagebackground in Go.'
 type: docs
 weight: 200

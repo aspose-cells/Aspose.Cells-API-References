@@ -1,7 +1,7 @@
 ---
 title: GetLastPrinted Method 
 linktitle: GetLastPrinted
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetLastPrinted method. Encapsulates the function that represents getlastprinted in Go.'
 type: docs
 weight: 200

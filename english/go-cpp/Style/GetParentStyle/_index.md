@@ -1,7 +1,7 @@
 ---
 title: GetParentStyle Method 
 linktitle: GetParentStyle
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'GetParentStyle method. Encapsulates the function that represents getparentstyle in Go.'
 type: docs
 weight: 200

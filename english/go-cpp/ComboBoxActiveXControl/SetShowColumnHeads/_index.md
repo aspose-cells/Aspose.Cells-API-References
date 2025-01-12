@@ -1,7 +1,7 @@
 ---
 title: SetShowColumnHeads Method 
 linktitle: SetShowColumnHeads
-second_title: Aspose.Cells for Go API Reference
+second_title: Aspose.Cells for Go via C++ API Reference
 description: 'SetShowColumnHeads method. Encapsulates the function that represents setshowcolumnheads in Go.'
 type: docs
 weight: 200
