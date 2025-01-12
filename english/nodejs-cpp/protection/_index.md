@@ -59,16 +59,16 @@ worksheet.getProtection().setAllowSelectingUnlockedCell(true);
 | [setAllowEditingObject(boolean)](#setAllowEditingObject-boolean-)| Represents if the user is allowed to manipulate drawing objects on a protected worksheet. |
 | [getAllowEditingScenario()](#getAllowEditingScenario--)| Represents if the user is allowed to edit scenarios on a protected worksheet. |
 | [setAllowEditingScenario(boolean)](#setAllowEditingScenario-boolean-)| Represents if the user is allowed to edit scenarios on a protected worksheet. |
-| [getPassword()](#getPassword--)| Represents the password to protect the worksheet. |
-| [setPassword(string)](#setPassword-string-)| Represents the password to protect the worksheet. |
-| [isProtectedWithPassword()](#isProtectedWithPassword--)| Indicates whether the worksheets is protected with password. |
 | [getAllowSelectingLockedCell()](#getAllowSelectingLockedCell--)| Represents if the user is allowed to select locked cells on a protected worksheet. |
 | [setAllowSelectingLockedCell(boolean)](#setAllowSelectingLockedCell-boolean-)| Represents if the user is allowed to select locked cells on a protected worksheet. |
 | [getAllowSelectingUnlockedCell()](#getAllowSelectingUnlockedCell--)| Represents if the user is allowed to select unlocked cells on a protected worksheet. |
 | [setAllowSelectingUnlockedCell(boolean)](#setAllowSelectingUnlockedCell-boolean-)| Represents if the user is allowed to select unlocked cells on a protected worksheet. |
+| [getPassword()](#getPassword--)| Represents the password to protect the worksheet. |
+| [setPassword(string)](#setPassword-string-)| Represents the password to protect the worksheet. |
+| [isProtectedWithPassword()](#isProtectedWithPassword--)| Indicates whether the worksheets is protected with password. |
 | [copy(Protection)](#copy-protection-)| Copy protection info. |
-| [getPasswordHash()](#getPasswordHash--)| Gets the hash of current password. |
 | [verifyPassword(string)](#verifyPassword-string-)| Verifies password. |
+| [getPasswordHash()](#getPasswordHash--)| Gets the hash of current password. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -396,45 +396,6 @@ setAllowEditingScenario(value: boolean) : void;
 | --- | --- | --- |
 | value | boolean | The value to set. |
 
-### getPassword() {#getPassword--}
-
-Represents the password to protect the worksheet.
-
-```javascript
-getPassword() : string;
-```
-
-
-**Remarks**
-
-If password is set to null or blank string, you can unprotect the worksheet or workbook without using a password. Otherwise, you must specify the password to unprotect the worksheet or workbook.
-
-### setPassword(string) {#setPassword-string-}
-
-Represents the password to protect the worksheet.
-
-```javascript
-setPassword(value: string) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | string | The value to set. |
-
-**Remarks**
-
-If password is set to null or blank string, you can unprotect the worksheet or workbook without using a password. Otherwise, you must specify the password to unprotect the worksheet or workbook.
-
-### isProtectedWithPassword() {#isProtectedWithPassword--}
-
-Indicates whether the worksheets is protected with password.
-
-```javascript
-isProtectedWithPassword() : boolean;
-```
-
-
 ### getAllowSelectingLockedCell() {#getAllowSelectingLockedCell--}
 
 Represents if the user is allowed to select locked cells on a protected worksheet.
@@ -479,6 +440,45 @@ setAllowSelectingUnlockedCell(value: boolean) : void;
 | --- | --- | --- |
 | value | boolean | The value to set. |
 
+### getPassword() {#getPassword--}
+
+Represents the password to protect the worksheet.
+
+```javascript
+getPassword() : string;
+```
+
+
+**Remarks**
+
+If password is set to null or blank string, you can unprotect the worksheet or workbook without using a password. Otherwise, you must specify the password to unprotect the worksheet or workbook.
+
+### setPassword(string) {#setPassword-string-}
+
+Represents the password to protect the worksheet.
+
+```javascript
+setPassword(value: string) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | string | The value to set. |
+
+**Remarks**
+
+If password is set to null or blank string, you can unprotect the worksheet or workbook without using a password. Otherwise, you must specify the password to unprotect the worksheet or workbook.
+
+### isProtectedWithPassword() {#isProtectedWithPassword--}
+
+Indicates whether the worksheets is protected with password.
+
+```javascript
+isProtectedWithPassword() : boolean;
+```
+
+
 ### copy(Protection) {#copy-protection-}
 
 Copy protection info.
@@ -492,15 +492,6 @@ copy(source: Protection) : void;
 | --- | --- | --- |
 | source | [Protection](../protection/) |  |
 
-### getPasswordHash() {#getPasswordHash--}
-
-Gets the hash of current password.
-
-```javascript
-getPasswordHash() : number;
-```
-
-
 ### verifyPassword(string) {#verifyPassword-string-}
 
 Verifies password.
@@ -513,6 +504,15 @@ verifyPassword(password: string) : boolean;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | password | string | The password. |
+
+### getPasswordHash() {#getPasswordHash--}
+
+Gets the hash of current password.
+
+```javascript
+getPasswordHash() : number;
+```
+
 
 ### isNull() {#isNull--}
 

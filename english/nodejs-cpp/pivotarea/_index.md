@@ -41,6 +41,9 @@ class PivotArea;
 | [isOutline()](#isOutline--)| Indicates whether the rule refers to an area that is in outline mode. |
 | [setIsOutline(boolean)](#setIsOutline-boolean-)| Indicates whether the rule refers to an area that is in outline mode. |
 | [select(PivotFieldType, number, PivotTableSelectionType)](#select-pivotfieldtype-number-pivottableselectiontype-)| Select the area with filters. |
+| [selectField(PivotFieldType, string)](#selectField-pivotfieldtype-string-)| Select a field in the region as an area. |
+| [selectField(PivotFieldType, PivotField)](#selectField-pivotfieldtype-pivotfield-)| Select a field in the region as an area. |
+| [getCellAreas()](#getCellAreas--)| Gets cell areas of this pivot area. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -246,6 +249,47 @@ select(axisType: PivotFieldType, fieldPosition: number, selectionType: PivotTabl
 | axisType | [PivotFieldType](../pivotfieldtype/) | The region of the PivotTable to which this rule applies. |
 | fieldPosition | number | Position of the field within the axis to which this rule applies. |
 | selectionType | [PivotTableSelectionType](../pivottableselectiontype/) | Specifies what can be selected in a PivotTable during a structured selection. |
+
+### selectField(PivotFieldType, string) {#selectField-pivotfieldtype-string-}
+
+Select a field in the region as an area.
+
+```javascript
+selectField(axisType: PivotFieldType, fieldName: string) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| axisType | [PivotFieldType](../pivotfieldtype/) | The region type. |
+| fieldName | string | The name of pivot field. |
+
+### selectField(PivotFieldType, PivotField) {#selectField-pivotfieldtype-pivotfield-}
+
+Select a field in the region as an area.
+
+```javascript
+selectField(axisType: PivotFieldType, field: PivotField) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| axisType | [PivotFieldType](../pivotfieldtype/) | The region type. |
+| field | [PivotField](../pivotfield/) | The pivot field. |
+
+### getCellAreas() {#getCellAreas--}
+
+Gets cell areas of this pivot area.
+
+```javascript
+getCellAreas() : CellArea[];
+```
+
+
+**Returns**
+
+[CellArea](../cellarea/)[]
 
 ### isNull() {#isNull--}
 

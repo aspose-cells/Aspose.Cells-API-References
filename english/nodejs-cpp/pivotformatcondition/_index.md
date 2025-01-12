@@ -14,16 +14,18 @@ Represents a PivotTable Format Condition in PivotFormatCondition Collection.
 class PivotFormatCondition;
 ```
 
+### Remarks
+NOTE: This class is now obsolete. Instead, please use PivotConditional class. This method will be removed 12 months later since December 2024. Aspose apologizes for any inconvenience you may have experienced.
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getScopeType()](#getScopeType--)| Get and set scope type for the pivot table condition format . |
-| [setScopeType(PivotConditionFormatScopeType)](#setScopeType-pivotconditionformatscopetype-)| Get and set scope type for the pivot table condition format . |
+| [getScopeType()](#getScopeType--)| Get and set scope type for the pivot table conditional format . |
+| [setScopeType(PivotConditionFormatScopeType)](#setScopeType-pivotconditionformatscopetype-)| Get and set scope type for the pivot table conditional format . |
 | [getRuleType()](#getRuleType--)| Get and set rule type for the pivot table condition format . |
 | [setRuleType(PivotConditionFormatRuleType)](#setRuleType-pivotconditionformatruletype-)| Get and set rule type for the pivot table condition format . |
-| [getFormatConditions()](#getFormatConditions--)| Get formatconditions for the pivot table condition format . |
+| [getFormatConditions()](#getFormatConditions--)| Get conditions for the pivot table conditional format . |
 | [addDataAreaCondition(string)](#addDataAreaCondition-string-)| Adds PivotTable conditional format limit in the data fields. |
 | [addDataAreaCondition(PivotField)](#addDataAreaCondition-pivotfield-)| Adds PivotTable conditional format limit in the data fields. |
 | [addRowAreaCondition(string)](#addRowAreaCondition-string-)| Adds PivotTable conditional format limit in the row fields. |
@@ -36,7 +38,7 @@ class PivotFormatCondition;
 
 ### getScopeType() {#getScopeType--}
 
-Get and set scope type for the pivot table condition format .
+Get and set scope type for the pivot table conditional format .
 
 ```javascript
 getScopeType() : PivotConditionFormatScopeType;
@@ -49,7 +51,7 @@ getScopeType() : PivotConditionFormatScopeType;
 
 ### setScopeType(PivotConditionFormatScopeType) {#setScopeType-pivotconditionformatscopetype-}
 
-Get and set scope type for the pivot table condition format .
+Get and set scope type for the pivot table conditional format .
 
 ```javascript
 setScopeType(value: PivotConditionFormatScopeType) : void;
@@ -88,7 +90,7 @@ setRuleType(value: PivotConditionFormatRuleType) : void;
 
 ### getFormatConditions() {#getFormatConditions--}
 
-Get formatconditions for the pivot table condition format .
+Get conditions for the pivot table conditional format .
 
 ```javascript
 getFormatConditions() : FormatConditionCollection;

@@ -180,6 +180,8 @@ class EbookSaveOptions extends HtmlSaveOptions;
 | [setCellNameAttribute(string)](#setCellNameAttribute-string-)| Specifies the attribute that indicates the CellName to be written. (e.g. If the value is "id", then for cell "A1", the output will be:&lt;td id='A1'&gt;). The default value is null. |
 | [getDisableCss()](#getDisableCss--)| Indicates whether only inline styles are applied, without relying on CSS. The default value is false. |
 | [setDisableCss(boolean)](#setDisableCss-boolean-)| Indicates whether only inline styles are applied, without relying on CSS. The default value is false. |
+| [getEnableCssCustomProperties()](#getEnableCssCustomProperties--)| Optimize the output of html by using CSS custom properties. For example, for the scenario that there are multiple occurences for one base64 image, with custom property the image data only needs to be saved once so the performance of the resultant html can be improved. The default value is false. |
+| [setEnableCssCustomProperties(boolean)](#setEnableCssCustomProperties-boolean-)| Optimize the output of html by using CSS custom properties. For example, for the scenario that there are multiple occurences for one base64 image, with custom property the image data only needs to be saved once so the performance of the resultant html can be improved. The default value is false. |
 
 
 ### constructor() {#constructor--}
@@ -2047,6 +2049,28 @@ Indicates whether only inline styles are applied, without relying on CSS. The de
 
 ```javascript
 setDisableCss(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+### getEnableCssCustomProperties() {#getEnableCssCustomProperties--}
+
+Optimize the output of html by using CSS custom properties. For example, for the scenario that there are multiple occurences for one base64 image, with custom property the image data only needs to be saved once so the performance of the resultant html can be improved. The default value is false.
+
+```javascript
+getEnableCssCustomProperties() : boolean;
+```
+
+
+### setEnableCssCustomProperties(boolean) {#setEnableCssCustomProperties-boolean-}
+
+Optimize the output of html by using CSS custom properties. For example, for the scenario that there are multiple occurences for one base64 image, with custom property the image data only needs to be saved once so the performance of the resultant html can be improved. The default value is false.
+
+```javascript
+setEnableCssCustomProperties(value: boolean) : void;
 ```
 
 **Parameters:**

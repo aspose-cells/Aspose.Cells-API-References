@@ -11,7 +11,7 @@ url: /nodejs-cpp/abstractformulachangemonitor/
 Monitor for user to track the change of formulas during certain operations.
 
 ```javascript
-class AbstractFormulaChangeMonitor;
+abstract class AbstractFormulaChangeMonitor;
 ```
 
 ### Remarks
@@ -22,7 +22,6 @@ For example, while deleting/inserting range of cells, formulas of other cells ma
 | Method | Description |
 | --- | --- |
 | [onCellFormulaChanged(number, number, number)](#onCellFormulaChanged-number-number-number-)| The event that will be triggered when the formula in a cell is changed. |
-| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### onCellFormulaChanged(number, number, number) {#onCellFormulaChanged-number-number-number-}
@@ -39,14 +38,5 @@ onCellFormulaChanged(sheetIndex: number, rowIndex: number, columnIndex: number) 
 | sheetIndex | number | The sheet index of the changed cell |
 | rowIndex | number | The row index of the changed cell |
 | columnIndex | number | The column index of the changed cell |
-
-### isNull() {#isNull--}
-
-Checks whether the implementation object is null.
-
-```javascript
-isNull() : boolean;
-```
-
 
 
