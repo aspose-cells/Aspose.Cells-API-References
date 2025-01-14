@@ -40,6 +40,7 @@ Represents the options for saving ebook file.
 | [getDefaultFontName()](#getDefaultFontName--) | Specify the default font name for exporting html, the default font will be used when the font of style is not existing, If this property is null, Aspose.Cells will use universal font which have the same family with the original font, the default value is null. |
 | [getDisableCss()](#getDisableCss--) | Indicates whether only inline styles are applied, without relying on CSS. |
 | [getDisableDownlevelRevealedComments()](#getDisableDownlevelRevealedComments--) | Indicates if disable Downlevel-revealed conditional comments when exporting file to html, the default value is false. |
+| [getEnableCssCustomProperties()](#getEnableCssCustomProperties--) | Optimize the output of html by using CSS custom properties. |
 | [getEncodeEntityAsCode()](#getEncodeEntityAsCode--) | Indicates whether the html character entities are replaced with decimal code. |
 | [getEncoding()](#getEncoding--) | If not set,use Encoding.UTF8 as default enconding type. |
 | [getEncryptDocumentProperties()](#getEncryptDocumentProperties--) | Indicates whether encrypt document properties when saving as .xls file. |
@@ -124,6 +125,7 @@ Represents the options for saving ebook file.
 | [setDefaultFontName(String value)](#setDefaultFontName-java.lang.String-) | Specify the default font name for exporting html, the default font will be used when the font of style is not existing, If this property is null, Aspose.Cells will use universal font which have the same family with the original font, the default value is null. |
 | [setDisableCss(boolean value)](#setDisableCss-boolean-) | Indicates whether only inline styles are applied, without relying on CSS. |
 | [setDisableDownlevelRevealedComments(boolean value)](#setDisableDownlevelRevealedComments-boolean-) | Indicates if disable Downlevel-revealed conditional comments when exporting file to html, the default value is false. |
+| [setEnableCssCustomProperties(boolean value)](#setEnableCssCustomProperties-boolean-) | Optimize the output of html by using CSS custom properties. |
 | [setEncodeEntityAsCode(boolean value)](#setEncodeEntityAsCode-boolean-) | Indicates whether the html character entities are replaced with decimal code. |
 | [setEncoding(Encoding value)](#setEncoding-com.aspose.cells.Encoding-) | If not set,use Encoding.UTF8 as default enconding type. |
 | [setEncryptDocumentProperties(boolean value)](#setEncryptDocumentProperties-boolean-) | Indicates whether encrypt document properties when saving as .xls file. |
@@ -391,6 +393,16 @@ public boolean getDisableDownlevelRevealedComments()
 
 
 Indicates if disable Downlevel-revealed conditional comments when exporting file to html, the default value is false.
+
+**Returns:**
+boolean
+### getEnableCssCustomProperties() {#getEnableCssCustomProperties--}
+```
+public boolean getEnableCssCustomProperties()
+```
+
+
+Optimize the output of html by using CSS custom properties. For example, for the scenario that there are multiple occurences for one base64 image, with custom property the image data only needs to be saved once so the performance of the resultant html can be improved. The default value is false.
 
 **Returns:**
 boolean
@@ -1350,6 +1362,19 @@ public void setDisableDownlevelRevealedComments(boolean value)
 
 
 Indicates if disable Downlevel-revealed conditional comments when exporting file to html, the default value is false.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setEnableCssCustomProperties(boolean value) {#setEnableCssCustomProperties-boolean-}
+```
+public void setEnableCssCustomProperties(boolean value)
+```
+
+
+Optimize the output of html by using CSS custom properties. For example, for the scenario that there are multiple occurences for one base64 image, with custom property the image data only needs to be saved once so the performance of the resultant html can be improved. The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -28,7 +28,9 @@ Utility to build ICellsDataTable from custom objects for user's convenience.
 | [getInstance(Object[] vals, boolean vertial)](#getInstance-java.lang.Object---boolean-) | Creates ICellsDataTable from given sequence of objects. |
 | [getInstance(Object[] vals, String[] columnNames)](#getInstance-java.lang.Object---java.lang.String---) | Creates ICellsDataTable from given sequence of objects. |
 | [getInstance(Object[][] vals)](#getInstance-java.lang.Object-----) | Creates ICellsDataTable from given 2D array. |
+| [getInstance(Object[][] vals, boolean hasHeader, String[] columnNames)](#getInstance-java.lang.Object-----boolean-java.lang.String---) | Creates ICellsDataTable from given sequence of objects. |
 | [getInstance(Collection collection)](#getInstance-java.util.Collection-) | Creates ICellsDataTable from given collection. |
+| [getInstance(Collection collection, boolean hasHeader)](#getInstance-java.util.Collection-boolean-) | Creates ICellsDataTable from given collection. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -202,6 +204,23 @@ Creates ICellsDataTable from given 2D array.
 
 **Returns:**
 [ICellsDataTable](../../com.aspose.cells/icellsdatatable) - Instance of ICellsDataTable
+### getInstance(Object[][] vals, boolean hasHeader, String[] columnNames) {#getInstance-java.lang.Object-----boolean-java.lang.String---}
+```
+public ICellsDataTable getInstance(Object[][] vals, boolean hasHeader, String[] columnNames)
+```
+
+
+Creates ICellsDataTable from given sequence of objects.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| vals | java.lang.Object[][] | objects to build table |
+| hasHeader | boolean | Indicates whether the first row is header row. |
+| columnNames | java.lang.String[] | Column names of the table. Its length can only be either 1(build table by the objects vertically) or length of the objects(build table by the objects horizontally) |
+
+**Returns:**
+[ICellsDataTable](../../com.aspose.cells/icellsdatatable) - Instance of ICellsDataTable
 ### getInstance(Collection collection) {#getInstance-java.util.Collection-}
 ```
 public ICellsDataTable getInstance(Collection collection)
@@ -214,6 +233,22 @@ Creates ICellsDataTable from given collection.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | collection | java.util.Collection | the collection to build table |
+
+**Returns:**
+[ICellsDataTable](../../com.aspose.cells/icellsdatatable) - Instance of ICellsDataTable
+### getInstance(Collection collection, boolean hasHeader) {#getInstance-java.util.Collection-boolean-}
+```
+public ICellsDataTable getInstance(Collection collection, boolean hasHeader)
+```
+
+
+Creates ICellsDataTable from given collection.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| collection | java.util.Collection | the collection to build table |
+| hasHeader | boolean | Indicates whether the first row is header |
 
 **Returns:**
 [ICellsDataTable](../../com.aspose.cells/icellsdatatable) - Instance of ICellsDataTable

@@ -105,10 +105,12 @@ Summary description for PivotTable.
 | [dispose()](#dispose--) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fields(int fieldType)](#fields-int-) | Gets the specific fields by the field type. |
+| [format(CellArea ca, Style style)](#format-com.aspose.cells.CellArea-com.aspose.cells.Style-) | Formats selected area of the PivotTable. |
 | [format(PivotArea pivotArea, Style style)](#format-com.aspose.cells.PivotArea-com.aspose.cells.Style-) | Formats selected area of the PivotTable. |
 | [format(int row, int column, Style style)](#format-int-int-com.aspose.cells.Style-) | Format the cell in the pivottable area |
 | [formatAll(Style style)](#formatAll-com.aspose.cells.Style-) | Format all the cell in the pivottable area |
 | [formatRow(int row, Style style)](#formatRow-int-com.aspose.cells.Style-) | Format the row data in the pivottable area |
+| [getAllowMultipleFiltersPerField()](#getAllowMultipleFiltersPerField--) | Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them. |
 | [getAltTextDescription()](#getAltTextDescription--) | Gets the description of the alt text. |
 | [getAltTextTitle()](#getAltTextTitle--) | Gets the title of the alter text. |
 | [getAutoFormatType()](#getAutoFormatType--) | Gets the auto format type of PivotTable. |
@@ -121,6 +123,7 @@ Summary description for PivotTable.
 | [getColumnGrand()](#getColumnGrand--) | Indicates whether the PivotTable report shows grand totals for columns. |
 | [getColumnHeaderCaption()](#getColumnHeaderCaption--) | Gets the Column Header Caption of the PivotTable. |
 | [getColumnRange()](#getColumnRange--) | Returns a CellArea object that represents the range that contains the column area in the PivotTable report. |
+| [getConditionalFormats()](#getConditionalFormats--) | Gets the conditional formats of the pivot table. |
 | [getCustomListSort()](#getCustomListSort--) | Indicates whether consider built-in custom list when sort data |
 | [getDataBodyRange()](#getDataBodyRange--) | Returns a [CellArea](../../com.aspose.cells/cellarea) object that represents the range that contains the data area in the list between the header row and the insert row. |
 | [getDataField()](#getDataField--) | Gets a [PivotField](../../com.aspose.cells/pivotfield) object that represents all the data fields in a PivotTable. |
@@ -133,14 +136,15 @@ Summary description for PivotTable.
 | [getEnableDataValueEditing()](#getEnableDataValueEditing--) | Specifies a boolean value that indicates whether the user is allowed to edit the cells in the data area of the pivottable. |
 | [getEnableDrilldown()](#getEnableDrilldown--) | Gets whether drilldown is enabled. |
 | [getEnableFieldDialog()](#getEnableFieldDialog--) | Indicates whether the PivotTable Field dialog box is available when the user double-clicks the PivotTable field. |
-| [getEnableFieldList()](#getEnableFieldList--) | Gets whether enable the field list for the PivotTable. |
+| [getEnableFieldList()](#getEnableFieldList--) | Indicates whether the field list for the PivotTable is available on the view of Excel. |
 | [getEnableWizard()](#getEnableWizard--) | Indicates whether the PivotTable Wizard is available. |
 | [getErrorString()](#getErrorString--) | Gets the string displayed in cells that contain errors when the DisplayErrorString property is true.The default value is an empty string. |
 | [getExternalConnectionDataSource()](#getExternalConnectionDataSource--) | Gets the external connection data source. |
 | [getFieldListSortAscending()](#getFieldListSortAscending--) | Indicates whether fields in the PivotTable are sorted in non-default order in the field list. |
 | [getFields(int fieldType)](#getFields-int-) | Gets the specific pivot field list by the region. |
-| [getGrandTotalName()](#getGrandTotalName--) | Returns the text string label that is displayed in the grand total column or row heading. |
-| [getHorizontalBreaks()](#getHorizontalBreaks--) | get pivot table row index list of horizontal pagebreaks |
+| [getGrandTotalName()](#getGrandTotalName--) | Returns the label that is displayed in the grand total column or row heading. |
+| [getHorizontalBreaks()](#getHorizontalBreaks--) | Gets pivot table row index list of horizontal page breaks |
+| [getHorizontalPageBreaks()](#getHorizontalPageBreaks--) | Gets horizontal page breaks of this pivot table. |
 | [getIndent()](#getIndent--) | Specifies the indentation increment for compact axis and can be used to set the Report Layout to Compact Form. |
 | [getItemPrintTitles()](#getItemPrintTitles--) | Indicates whether PivotItem names should be repeated at the top of each printed page. |
 | [getManualUpdate()](#getManualUpdate--) | Indicates whether the PivotTable report is recalculated only at the user's request. |
@@ -152,7 +156,7 @@ Summary description for PivotTable.
 | [getPageFieldOrder()](#getPageFieldOrder--) | Gets the order in which page fields are added to the PivotTable report's layout. |
 | [getPageFieldWrapCount()](#getPageFieldWrapCount--) | Gets the number of page fields in each column or row in the PivotTable report. |
 | [getPageFields()](#getPageFields--) | Returns a PivotFields object that are currently shown as page fields. |
-| [getPivotFilters()](#getPivotFilters--) | Returns a list of pivot filters. |
+| [getPivotFilters()](#getPivotFilters--) | Returns all filters of pivot fields in the pivot table. |
 | [getPivotFormatConditions()](#getPivotFormatConditions--) | Gets the Format Conditions of the pivot table. |
 | [getPivotFormats()](#getPivotFormats--) | Gets the collection of formats applied to PivotTable. |
 | [getPivotTableStyleName()](#getPivotTableStyleName--) | Gets the pivottable style name. |
@@ -166,20 +170,22 @@ Summary description for PivotTable.
 | [getRefreshedByWho()](#getRefreshedByWho--) | Gets the name of the last user who refreshed this PivotTable |
 | [getRepeatItemsOnEachPrintedPage()](#getRepeatItemsOnEachPrintedPage--) | Indicates whether pivot item captions on the row area are repeated on each printed page for pivot fields in tabular form. |
 | [getRowFields()](#getRowFields--) | Returns a PivotFields object that are currently shown as row fields. |
-| [getRowGrand()](#getRowGrand--) | Indicates whether the PivotTable report shows grand totals for rows. |
+| [getRowGrand()](#getRowGrand--) | Indicates whether to show grand totals for rows of this pivot table. |
 | [getRowHeaderCaption()](#getRowHeaderCaption--) | Gets the Row Header Caption of the PivotTable. |
 | [getRowRange()](#getRowRange--) | Returns a CellArea object that represents the range that contains the row area in the PivotTable report. |
 | [getSaveData()](#getSaveData--) | Indicates whether data for the PivotTable report is saved with the workbook. |
+| [getShowColumnGrandTotals()](#getShowColumnGrandTotals--) | Indicates whether to show grand totals for columns of this pivot table. |
 | [getShowDataTips()](#getShowDataTips--) | Specifies a boolean value that indicates whether tooltips should be displayed for PivotTable data cells. |
 | [getShowDrill()](#getShowDrill--) | Gets whether showing expand/collapse buttons. |
-| [getShowEmptyCol()](#getShowEmptyCol--) | Specifies a boolean value that indicates whether to include empty columns in the table |
-| [getShowEmptyRow()](#getShowEmptyRow--) | Specifies a boolean value that indicates whether to include empty rows in the table. |
+| [getShowEmptyCol()](#getShowEmptyCol--) | Indicates whether to include empty columns in the table |
+| [getShowEmptyRow()](#getShowEmptyRow--) | Indicates whether to include empty rows in the table. |
 | [getShowMemberPropertyTips()](#getShowMemberPropertyTips--) | Specifies a boolean value that indicates whether member property information should be omitted from PivotTable tooltips. |
 | [getShowPivotStyleColumnHeader()](#getShowPivotStyleColumnHeader--) | Indicates whether the column header in the pivot table should have the style applied. |
 | [getShowPivotStyleColumnStripes()](#getShowPivotStyleColumnStripes--) | Indicates whether stripe formatting is applied for column. |
 | [getShowPivotStyleLastColumn()](#getShowPivotStyleLastColumn--) | Indicates whether the column formatting is applied. |
 | [getShowPivotStyleRowHeader()](#getShowPivotStyleRowHeader--) | Indicates whether the row header in the pivot table should have the style applied. |
 | [getShowPivotStyleRowStripes()](#getShowPivotStyleRowStripes--) | Indicates whether row stripe formatting is applied. |
+| [getShowRowGrandTotals()](#getShowRowGrandTotals--) | Indicates whether to show grand totals for rows of the pivot table. |
 | [getShowRowHeaderCaption()](#getShowRowHeaderCaption--) | Indicates whether row header caption is shown in the PivotTable report Indicates whether Display field captions and filter drop downs |
 | [getShowValuesRow()](#getShowValuesRow--) | Indicates whether showing values row. |
 | [getSource()](#getSource--) | Get pivottable's source data. |
@@ -198,6 +204,8 @@ Summary description for PivotTable.
 | [isSelected()](#isSelected--) | Indicates whether this PivotTable is selected. |
 | [move(int row, int column)](#move-int-int-) | Moves the PivotTable to a different location in the worksheet. |
 | [move(String destCellName)](#move-java.lang.String-) | Moves the PivotTable to a different location in the worksheet. |
+| [moveTo(int row, int column)](#moveTo-int-int-) | Moves the PivotTable to a different location in the worksheet. |
+| [moveTo(String destCellName)](#moveTo-java.lang.String-) | Moves the PivotTable to a different location in the worksheet. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [refreshData()](#refreshData--) | Refreshes pivottable's data and setting from it's data source. |
@@ -205,6 +213,8 @@ Summary description for PivotTable.
 | [removeField(int fieldType, PivotField pivotField)](#removeField-int-com.aspose.cells.PivotField-) | Remove field from specific field area |
 | [removeField(int fieldType, int baseFieldIndex)](#removeField-int-int-) | Removes a field from specific field area |
 | [removeField(int fieldType, String fieldName)](#removeField-int-java.lang.String-) | Removes a field from specific field area |
+| [selectArea(CellArea ca)](#selectArea-com.aspose.cells.CellArea-) | Select an area of pivot table view. |
+| [setAllowMultipleFiltersPerField(boolean value)](#setAllowMultipleFiltersPerField-boolean-) | Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them. |
 | [setAltTextDescription(String value)](#setAltTextDescription-java.lang.String-) | Gets the description of the alt text. |
 | [setAltTextTitle(String value)](#setAltTextTitle-java.lang.String-) | Sets the title of the alter text. |
 | [setAutoFormat(boolean value)](#setAutoFormat-boolean-) | Indicates whether the PivotTable report is automatically formatted. |
@@ -223,12 +233,12 @@ Summary description for PivotTable.
 | [setEnableDataValueEditing(boolean value)](#setEnableDataValueEditing-boolean-) | Specifies a boolean value that indicates whether the user is allowed to edit the cells in the data area of the pivottable. |
 | [setEnableDrilldown(boolean value)](#setEnableDrilldown-boolean-) | Gets whether drilldown is enabled. |
 | [setEnableFieldDialog(boolean value)](#setEnableFieldDialog-boolean-) | Indicates whether the PivotTable Field dialog box is available when the user double-clicks the PivotTable field. |
-| [setEnableFieldList(boolean value)](#setEnableFieldList-boolean-) | Gets whether enable the field list for the PivotTable. |
+| [setEnableFieldList(boolean value)](#setEnableFieldList-boolean-) | Indicates whether the field list for the PivotTable is available on the view of Excel. |
 | [setEnableWizard(boolean value)](#setEnableWizard-boolean-) | Indicates whether the PivotTable Wizard is available. |
 | [setErrorString(String value)](#setErrorString-java.lang.String-) | Gets the string displayed in cells that contain errors when the DisplayErrorString property is true.The default value is an empty string. |
 | [setExcel2003Compatible(boolean value)](#setExcel2003Compatible-boolean-) | Specifies whether the PivotTable is compatible for Excel2003 when refreshing PivotTable, if true, a string must be less than or equal to 255 characters, so if the string is greater than 255 characters, it will be truncated. if false, a string will not have the aforementioned restriction. |
 | [setFieldListSortAscending(boolean value)](#setFieldListSortAscending-boolean-) | Indicates whether fields in the PivotTable are sorted in non-default order in the field list. |
-| [setGrandTotalName(String value)](#setGrandTotalName-java.lang.String-) | Returns the text string label that is displayed in the grand total column or row heading. |
+| [setGrandTotalName(String value)](#setGrandTotalName-java.lang.String-) | Returns the label that is displayed in the grand total column or row heading. |
 | [setGridDropZones(boolean value)](#setGridDropZones-boolean-) | Indicates whether the PivotTable report displays classic pivottable layout. |
 | [setHasBlankRows(boolean value)](#setHasBlankRows-boolean-) | Indicates whether to add blank rows. |
 | [setIndent(int value)](#setIndent-int-) | Specifies the indentation increment for compact axis and can be used to set the Report Layout to Compact Form. |
@@ -253,20 +263,22 @@ Summary description for PivotTable.
 | [setRefreshDataFlag(boolean value)](#setRefreshDataFlag-boolean-) | Indicates whether Refreshing Data or not. |
 | [setRefreshDataOnOpeningFile(boolean value)](#setRefreshDataOnOpeningFile-boolean-) | Indicates whether Refresh Data when Opening File. |
 | [setRepeatItemsOnEachPrintedPage(boolean value)](#setRepeatItemsOnEachPrintedPage-boolean-) | Indicates whether pivot item captions on the row area are repeated on each printed page for pivot fields in tabular form. |
-| [setRowGrand(boolean value)](#setRowGrand-boolean-) | Indicates whether the PivotTable report shows grand totals for rows. |
+| [setRowGrand(boolean value)](#setRowGrand-boolean-) | Indicates whether to show grand totals for rows of this pivot table. |
 | [setRowHeaderCaption(String value)](#setRowHeaderCaption-java.lang.String-) | Gets the Row Header Caption of the PivotTable. |
 | [setSaveData(boolean value)](#setSaveData-boolean-) | Indicates whether data for the PivotTable report is saved with the workbook. |
 | [setSelected(boolean value)](#setSelected-boolean-) | Indicates whether this PivotTable is selected. |
+| [setShowColumnGrandTotals(boolean value)](#setShowColumnGrandTotals-boolean-) | Indicates whether to show grand totals for columns of this pivot table. |
 | [setShowDataTips(boolean value)](#setShowDataTips-boolean-) | Specifies a boolean value that indicates whether tooltips should be displayed for PivotTable data cells. |
 | [setShowDrill(boolean value)](#setShowDrill-boolean-) | Sets whether showing expand/collapse buttons. |
-| [setShowEmptyCol(boolean value)](#setShowEmptyCol-boolean-) | Specifies a boolean value that indicates whether to include empty columns in the table |
-| [setShowEmptyRow(boolean value)](#setShowEmptyRow-boolean-) | Specifies a boolean value that indicates whether to include empty rows in the table. |
+| [setShowEmptyCol(boolean value)](#setShowEmptyCol-boolean-) | Indicates whether to include empty columns in the table |
+| [setShowEmptyRow(boolean value)](#setShowEmptyRow-boolean-) | Indicates whether to include empty rows in the table. |
 | [setShowMemberPropertyTips(boolean value)](#setShowMemberPropertyTips-boolean-) | Specifies a boolean value that indicates whether member property information should be omitted from PivotTable tooltips. |
 | [setShowPivotStyleColumnHeader(boolean value)](#setShowPivotStyleColumnHeader-boolean-) | Indicates whether the column header in the pivot table should have the style applied. |
 | [setShowPivotStyleColumnStripes(boolean value)](#setShowPivotStyleColumnStripes-boolean-) | Indicates whether stripe formatting is applied for column. |
 | [setShowPivotStyleLastColumn(boolean value)](#setShowPivotStyleLastColumn-boolean-) | Indicates whether the column formatting is applied. |
 | [setShowPivotStyleRowHeader(boolean value)](#setShowPivotStyleRowHeader-boolean-) | Indicates whether the row header in the pivot table should have the style applied. |
 | [setShowPivotStyleRowStripes(boolean value)](#setShowPivotStyleRowStripes-boolean-) | Indicates whether row stripe formatting is applied. |
+| [setShowRowGrandTotals(boolean value)](#setShowRowGrandTotals-boolean-) | Indicates whether to show grand totals for rows of the pivot table. |
 | [setShowRowHeaderCaption(boolean value)](#setShowRowHeaderCaption-boolean-) | Indicates whether row header caption is shown in the PivotTable report Indicates whether Display field captions and filter drop downs |
 | [setShowValuesRow(boolean value)](#setShowValuesRow-boolean-) | Indicates whether showing values row. |
 | [setSubtotalHiddenPageItems(boolean value)](#setSubtotalHiddenPageItems-boolean-) | Indicates whether hidden page field items in the PivotTable report are included in row and column subtotals, block totals, and grand totals. |
@@ -404,7 +416,7 @@ public void changeDataSource(String[] source)
 ```
 
 
-Set pivottable's source data. Sheet1!$A$1:$C$3
+Set pivottable's source data.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -478,6 +490,20 @@ NOTE: This method is now obsolete. Instead, please use PivotField.GetFields() me
 
 **Returns:**
 [PivotFieldCollection](../../com.aspose.cells/pivotfieldcollection) - the specific field collection
+### format(CellArea ca, Style style) {#format-com.aspose.cells.CellArea-com.aspose.cells.Style-}
+```
+public void format(CellArea ca, Style style)
+```
+
+
+Formats selected area of the PivotTable.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ca | [CellArea](../../com.aspose.cells/cellarea) | The range of the cells. |
+| style | [Style](../../com.aspose.cells/style) | The style |
+
 ### format(PivotArea pivotArea, Style style) {#format-com.aspose.cells.PivotArea-com.aspose.cells.Style-}
 ```
 public void format(PivotArea pivotArea, Style style)
@@ -489,8 +515,8 @@ Formats selected area of the PivotTable.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pivotArea | [PivotArea](../../com.aspose.cells/pivotarea) |  |
-| style | [Style](../../com.aspose.cells/style) |  |
+| pivotArea | [PivotArea](../../com.aspose.cells/pivotarea) | The selected pivot view area. |
+| style | [Style](../../com.aspose.cells/style) | The formatted setting. |
 
 ### format(int row, int column, Style style) {#format-int-int-com.aspose.cells.Style-}
 ```
@@ -534,6 +560,16 @@ Format the row data in the pivottable area
 | row | int | Row Index of the Row object |
 | style | [Style](../../com.aspose.cells/style) | Style which is to format |
 
+### getAllowMultipleFiltersPerField() {#getAllowMultipleFiltersPerField--}
+```
+public boolean getAllowMultipleFiltersPerField()
+```
+
+
+Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them.
+
+**Returns:**
+boolean
 ### getAltTextDescription() {#getAltTextDescription--}
 ```
 public String getAltTextDescription()
@@ -639,6 +675,10 @@ public boolean getColumnGrand()
 
 Indicates whether the PivotTable report shows grand totals for columns.
 
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotTable.ShowColumnGrandTotals method. This method will be removed 12 months later since December 2024. Aspose apologizes for any inconvenience you may have experienced.
+
 **Returns:**
 boolean
 ### getColumnHeaderCaption() {#getColumnHeaderCaption--}
@@ -661,6 +701,16 @@ Returns a CellArea object that represents the range that contains the column are
 
 **Returns:**
 [CellArea](../../com.aspose.cells/cellarea)
+### getConditionalFormats() {#getConditionalFormats--}
+```
+public PivotConditionalFormatCollection getConditionalFormats()
+```
+
+
+Gets the conditional formats of the pivot table.
+
+**Returns:**
+[PivotConditionalFormatCollection](../../com.aspose.cells/pivotconditionalformatcollection)
 ### getCustomListSort() {#getCustomListSort--}
 ```
 public boolean getCustomListSort()
@@ -787,7 +837,7 @@ public boolean getEnableFieldList()
 ```
 
 
-Gets whether enable the field list for the PivotTable.
+Indicates whether the field list for the PivotTable is available on the view of Excel.
 
 **Returns:**
 boolean
@@ -821,7 +871,7 @@ Gets the external connection data source.
 
 **Remarks**
 
-NOTE: This property is now obsolete. Instead, please use pivotTable.GetSourceDataConnections() method. This method will be removed 12 months later since October 2024. Aspose apologizes for any inconvenience you may have experienced.
+NOTE: This property is now obsolete. Instead, please use PivotTable.GetSourceDataConnections() method. This method will be removed 12 months later since October 2024. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 [ExternalConnection](../../com.aspose.cells/externalconnection)
@@ -856,7 +906,7 @@ public String getGrandTotalName()
 ```
 
 
-Returns the text string label that is displayed in the grand total column or row heading. The default value is the string "Grand Total".
+Returns the label that is displayed in the grand total column or row heading. The default value is the string "Grand Total".
 
 **Returns:**
 java.lang.String
@@ -866,10 +916,24 @@ public ArrayList getHorizontalBreaks()
 ```
 
 
-get pivot table row index list of horizontal pagebreaks
+Gets pivot table row index list of horizontal page breaks
+
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use PivotTable.GetHorizontalPageBreaks() method. This method will be removed 12 months later since December 2024. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 java.util.ArrayList - 
+### getHorizontalPageBreaks() {#getHorizontalPageBreaks--}
+```
+public int[] getHorizontalPageBreaks()
+```
+
+
+Gets horizontal page breaks of this pivot table.
+
+**Returns:**
+int[] - 
 ### getIndent() {#getIndent--}
 ```
 public int getIndent()
@@ -994,7 +1058,7 @@ public PivotFilterCollection getPivotFilters()
 ```
 
 
-Returns a list of pivot filters.
+Returns all filters of pivot fields in the pivot table.
 
 **Returns:**
 [PivotFilterCollection](../../com.aspose.cells/pivotfiltercollection)
@@ -1005,6 +1069,10 @@ public PivotFormatConditionCollection getPivotFormatConditions()
 
 
 Gets the Format Conditions of the pivot table.
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotTable.ConditionalFormats property. This method will be removed 12 months later since December 2024. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 [PivotFormatConditionCollection](../../com.aspose.cells/pivotformatconditioncollection)
@@ -1078,6 +1146,10 @@ public boolean getRefreshDataFlag()
 
 Indicates whether Refreshing Data or not.
 
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, This method will be removed 12 months later since December 2024. Aspose apologizes for any inconvenience you may have experienced.
+
 **Returns:**
 boolean
 ### getRefreshDataOnOpeningFile() {#getRefreshDataOnOpeningFile--}
@@ -1136,7 +1208,11 @@ public boolean getRowGrand()
 ```
 
 
-Indicates whether the PivotTable report shows grand totals for rows.
+Indicates whether to show grand totals for rows of this pivot table.
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotTable.ShowRowGrandTotals method. This method will be removed 12 months later since December 2024. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 boolean
@@ -1170,6 +1246,16 @@ Indicates whether data for the PivotTable report is saved with the workbook.
 
 **Returns:**
 boolean
+### getShowColumnGrandTotals() {#getShowColumnGrandTotals--}
+```
+public boolean getShowColumnGrandTotals()
+```
+
+
+Indicates whether to show grand totals for columns of this pivot table.
+
+**Returns:**
+boolean
 ### getShowDataTips() {#getShowDataTips--}
 ```
 public boolean getShowDataTips()
@@ -1196,7 +1282,7 @@ public boolean getShowEmptyCol()
 ```
 
 
-Specifies a boolean value that indicates whether to include empty columns in the table
+Indicates whether to include empty columns in the table
 
 **Returns:**
 boolean
@@ -1206,7 +1292,7 @@ public boolean getShowEmptyRow()
 ```
 
 
-Specifies a boolean value that indicates whether to include empty rows in the table.
+Indicates whether to include empty rows in the table.
 
 **Returns:**
 boolean
@@ -1267,6 +1353,16 @@ public boolean getShowPivotStyleRowStripes()
 
 
 Indicates whether row stripe formatting is applied.
+
+**Returns:**
+boolean
+### getShowRowGrandTotals() {#getShowRowGrandTotals--}
+```
+public boolean getShowRowGrandTotals()
+```
+
+
+Indicates whether to show grand totals for rows of the pivot table.
 
 **Returns:**
 boolean
@@ -1420,6 +1516,10 @@ public boolean isMultipleFieldFilters()
 
 Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them.
 
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotTable.AllowMultipleFiltersPerField property. This method will be removed 12 months later since December 2024. Aspose apologizes for any inconvenience you may have experienced.
+
 **Returns:**
 boolean
 ### isSelected() {#isSelected--}
@@ -1440,6 +1540,10 @@ public void move(int row, int column)
 
 Moves the PivotTable to a different location in the worksheet.
 
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotTable.MoveTo() method. This method will be removed 12 months later since December 2024. Aspose apologizes for any inconvenience you may have experienced.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -1449,6 +1553,37 @@ Moves the PivotTable to a different location in the worksheet.
 ### move(String destCellName) {#move-java.lang.String-}
 ```
 public void move(String destCellName)
+```
+
+
+Moves the PivotTable to a different location in the worksheet.
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotTable.MoveTo() method. This method will be removed 12 months later since December 2024. Aspose apologizes for any inconvenience you may have experienced.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| destCellName | java.lang.String | the dest cell name. |
+
+### moveTo(int row, int column) {#moveTo-int-int-}
+```
+public void moveTo(int row, int column)
+```
+
+
+Moves the PivotTable to a different location in the worksheet.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| row | int | row index. |
+| column | int | column index. |
+
+### moveTo(String destCellName) {#moveTo-java.lang.String-}
+```
+public void moveTo(String destCellName)
 ```
 
 
@@ -1545,6 +1680,34 @@ Removes a field from specific field area
 | --- | --- | --- |
 | fieldType | int | [PivotFieldType](../../com.aspose.cells/pivotfieldtype). The fields area type. |
 | fieldName | java.lang.String | The name in the base fields. |
+
+### selectArea(CellArea ca) {#selectArea-com.aspose.cells.CellArea-}
+```
+public PivotAreaCollection selectArea(CellArea ca)
+```
+
+
+Select an area of pivot table view.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ca | [CellArea](../../com.aspose.cells/cellarea) | The cell area. |
+
+**Returns:**
+[PivotAreaCollection](../../com.aspose.cells/pivotareacollection) - 
+### setAllowMultipleFiltersPerField(boolean value) {#setAllowMultipleFiltersPerField-boolean-}
+```
+public void setAllowMultipleFiltersPerField(boolean value)
+```
+
+
+Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### setAltTextDescription(String value) {#setAltTextDescription-java.lang.String-}
 ```
@@ -1654,6 +1817,10 @@ public void setColumnGrand(boolean value)
 
 
 Indicates whether the PivotTable report shows grand totals for columns.
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotTable.ShowColumnGrandTotals method. This method will be removed 12 months later since December 2024. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1796,7 +1963,7 @@ public void setEnableFieldList(boolean value)
 ```
 
 
-Gets whether enable the field list for the PivotTable.
+Indicates whether the field list for the PivotTable is available on the view of Excel.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1861,7 +2028,7 @@ public void setGrandTotalName(String value)
 ```
 
 
-Returns the text string label that is displayed in the grand total column or row heading. The default value is the string "Grand Total".
+Returns the label that is displayed in the grand total column or row heading. The default value is the string "Grand Total".
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2057,6 +2224,10 @@ public void setMultipleFieldFilters(boolean value)
 
 Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them.
 
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotTable.AllowMultipleFiltersPerField property. This method will be removed 12 months later since December 2024. Aspose apologizes for any inconvenience you may have experienced.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -2191,6 +2362,10 @@ public void setRefreshDataFlag(boolean value)
 
 Indicates whether Refreshing Data or not.
 
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, This method will be removed 12 months later since December 2024. Aspose apologizes for any inconvenience you may have experienced.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -2228,7 +2403,11 @@ public void setRowGrand(boolean value)
 ```
 
 
-Indicates whether the PivotTable report shows grand totals for rows.
+Indicates whether to show grand totals for rows of this pivot table.
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotTable.ShowRowGrandTotals method. This method will be removed 12 months later since December 2024. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2274,6 +2453,19 @@ Indicates whether this PivotTable is selected.
 | --- | --- | --- |
 | value | boolean |  |
 
+### setShowColumnGrandTotals(boolean value) {#setShowColumnGrandTotals-boolean-}
+```
+public void setShowColumnGrandTotals(boolean value)
+```
+
+
+Indicates whether to show grand totals for columns of this pivot table.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
 ### setShowDataTips(boolean value) {#setShowDataTips-boolean-}
 ```
 public void setShowDataTips(boolean value)
@@ -2306,7 +2498,7 @@ public void setShowEmptyCol(boolean value)
 ```
 
 
-Specifies a boolean value that indicates whether to include empty columns in the table
+Indicates whether to include empty columns in the table
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2319,7 +2511,7 @@ public void setShowEmptyRow(boolean value)
 ```
 
 
-Specifies a boolean value that indicates whether to include empty rows in the table.
+Indicates whether to include empty rows in the table.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2398,6 +2590,19 @@ public void setShowPivotStyleRowStripes(boolean value)
 
 
 Indicates whether row stripe formatting is applied.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setShowRowGrandTotals(boolean value) {#setShowRowGrandTotals-boolean-}
+```
+public void setShowRowGrandTotals(boolean value)
+```
+
+
+Indicates whether to show grand totals for rows of the pivot table.
 
 **Parameters:**
 | Parameter | Type | Description |

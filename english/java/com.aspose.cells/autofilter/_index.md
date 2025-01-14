@@ -44,7 +44,8 @@ Represents autofiltering for the specified worksheet.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [filter(int fieldIndex, String criteria)](#filter-int-java.lang.String-) | Filters a list with specified criteria. |
 | [filterTop10(int fieldIndex, boolean isTop, boolean isPercent, int itemCount)](#filterTop10-int-boolean-boolean-int-) | Filter the top 10 item in the list |
-| [getCellArea()](#getCellArea--) | Gets the [CellArea](../../com.aspose.cells/cellarea) where the specified AutoFilter applies to. |
+| [getCellArea()](#getCellArea--) | Gets the [CellArea](../../com.aspose.cells/cellarea) where the this AutoFilter applies to. |
+| [getCellArea(boolean refreshAppliedRange)](#getCellArea-boolean-) | Gets the [CellArea](../../com.aspose.cells/cellarea) where the specified AutoFilter applies to. |
 | [getClass()](#getClass--) |  |
 | [getFilterColumns()](#getFilterColumns--) | Gets the collection of the filter columns. |
 | [getRange()](#getRange--) | Represents the range to which the specified AutoFilter applies. |
@@ -261,10 +262,25 @@ public CellArea getCellArea()
 ```
 
 
-Gets the [CellArea](../../com.aspose.cells/cellarea) where the specified AutoFilter applies to.
+Gets the [CellArea](../../com.aspose.cells/cellarea) where the this AutoFilter applies to.
 
 **Returns:**
-[CellArea](../../com.aspose.cells/cellarea) - 
+[CellArea](../../com.aspose.cells/cellarea) - the area this filter applies to
+### getCellArea(boolean refreshAppliedRange) {#getCellArea-boolean-}
+```
+public CellArea getCellArea(boolean refreshAppliedRange)
+```
+
+
+Gets the [CellArea](../../com.aspose.cells/cellarea) where the specified AutoFilter applies to.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| refreshAppliedRange | boolean | Whether refresh the applied range. For the applied range of auto filter, the last row may change when cells data changes. If this flag is true, then the last row of the range will be re-calculated according to current cells data. |
+
+**Returns:**
+[CellArea](../../com.aspose.cells/cellarea) - the area this filter applies to
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
