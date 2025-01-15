@@ -24,5 +24,4 @@ func (instance *OdsCellFieldCollection) Get_Int(index int32)  (*OdsCellField,  e
 ## See Also
 
 * Class [OdsCellFieldCollection](../)
-* Namespace [Aspose.Cells.Ods](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

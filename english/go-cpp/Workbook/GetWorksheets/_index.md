@@ -10,7 +10,7 @@ url: /go-cpp/workbook/getworksheets/
 
 ## GetWorksheets function
 
-Gets the <see cref="WorksheetCollection"/> collection in the spreadsheet.
+Gets the WorksheetCollection collection in the spreadsheet.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *Workbook) GetWorksheets()  (*WorksheetCollection,  error)
 ## See Also
 
 * Class [Workbook](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

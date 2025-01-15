@@ -24,5 +24,4 @@ func (instance *SmartArtShape) SetLockedProperty(type_ ShapeLockType, value bool
 ## See Also
 
 * Class [SmartArtShape](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

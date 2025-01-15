@@ -24,5 +24,4 @@ func (instance *ActiveXControlBase) SetMousePointer(value ControlMousePointerTyp
 ## See Also
 
 * Class [ActiveXControlBase](../)
-* Namespace [Aspose.Cells.Drawing.ActiveXControls](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

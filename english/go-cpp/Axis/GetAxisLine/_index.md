@@ -24,5 +24,4 @@ func (instance *Axis) GetAxisLine()  (*Line,  error)
 ## See Also
 
 * Class [Axis](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *HtmlTableLoadOption) GetId()  (string,  error)
 ## See Also
 
 * Class [HtmlTableLoadOption](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

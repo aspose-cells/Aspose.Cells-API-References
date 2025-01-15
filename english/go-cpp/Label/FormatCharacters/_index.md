@@ -24,5 +24,4 @@ func (instance *Label) FormatCharacters(startindex int32, length int32, font *Fo
 ## See Also
 
 * Class [Label](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

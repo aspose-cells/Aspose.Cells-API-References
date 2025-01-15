@@ -24,5 +24,4 @@ func (instance *DocxSaveOptions) SetIsFontSubstitutionCharGranularity(value bool
 ## See Also
 
 * Class [DocxSaveOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

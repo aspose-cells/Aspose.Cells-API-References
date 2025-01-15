@@ -24,5 +24,4 @@ func NewTop10Filter(obj *Object) ( *Top10Filter, error)
 ## See Also
 
 * Class [Top10Filter](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

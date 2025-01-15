@@ -24,5 +24,4 @@ func (instance *DataSorter) AddColorKey(key int32, type_ SortOnType, order SortO
 ## See Also
 
 * Class [DataSorter](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

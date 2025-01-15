@@ -1,25 +1,15 @@
 ---
 title: PivotFormatConditionCollection.Add
 second_title: Aspose.Cells for .NET API Reference
-description: PivotFormatConditionCollection method. Adds a pivot FormatCondition to the collection
+description: PivotFormatConditionCollection method. 
 type: docs
 url: /net/aspose.cells.pivot/pivotformatconditioncollection/add/
 ---
 ## PivotFormatConditionCollection.Add method
 
-Adds a pivot FormatCondition to the collection.
-
 ```csharp
 public int Add()
 ```
-
-### Return Value
-
-pivot FormatCondition object index.
-
-### Remarks
-
-not supported
 
 ### See Also
 

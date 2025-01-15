@@ -10,7 +10,7 @@ url: /go-cpp/series/getshapeproperties/
 
 ## GetShapeProperties function
 
-Gets the <see cref="ShapePropertyCollection"/> object that holds the visual shape properties of the Series.
+Gets the ShapePropertyCollection object that holds the visual shape properties of the Series.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *Series) GetShapeProperties()  (*ShapePropertyCollection,  error)
 ## See Also
 
 * Class [Series](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

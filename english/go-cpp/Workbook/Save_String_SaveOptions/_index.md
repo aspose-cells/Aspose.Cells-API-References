@@ -24,5 +24,4 @@ func (instance *Workbook) Save_String_SaveOptions(filename string, saveoptions *
 ## See Also
 
 * Class [Workbook](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

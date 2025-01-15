@@ -24,5 +24,4 @@ func (instance *DisplayUnitLabel) IsTextWrapped()  (bool,  error)
 ## See Also
 
 * Class [DisplayUnitLabel](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

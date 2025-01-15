@@ -24,5 +24,4 @@ func (instance *MetadataOptions) GetMetadataType()  (MetadataType,  error)
 ## See Also
 
 * Class [MetadataOptions](../)
-* Namespace [Aspose.Cells.Metadata](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *Dialog_Box) SetTextVerticalOverflow(value TextOverflowType)  err
 ## See Also
 
 * Class [Dialog_Box](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

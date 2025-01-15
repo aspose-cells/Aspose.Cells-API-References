@@ -24,5 +24,4 @@ func (instance *Series) GetOverlap()  (int32,  error)
 ## See Also
 
 * Class [Series](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *WebExtensionShape) GetRight()  (int32,  error)
 ## See Also
 
 * Class [WebExtensionShape](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

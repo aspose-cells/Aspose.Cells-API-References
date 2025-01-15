@@ -24,5 +24,4 @@ func (instance *RadicalEquationNode) SetParentNode(value *EquationNode)  error
 ## See Also
 
 * Class [RadicalEquationNode](../)
-* Namespace [Aspose.Cells.Drawing.Equations](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

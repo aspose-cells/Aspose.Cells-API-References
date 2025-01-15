@@ -24,5 +24,4 @@ func (instance *DBConnection) SetIsNew(value bool)  error
 ## See Also
 
 * Class [DBConnection](../)
-* Namespace [Aspose.Cells.ExternalConnections](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

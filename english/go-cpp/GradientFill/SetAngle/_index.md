@@ -24,5 +24,4 @@ func (instance *GradientFill) SetAngle(value float32)  error
 ## See Also
 
 * Class [GradientFill](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *WebExtensionPropertyCollection) Get_Int(index int32)  (*WebExten
 ## See Also
 
 * Class [WebExtensionPropertyCollection](../)
-* Namespace [Aspose.Cells.WebExtensions](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

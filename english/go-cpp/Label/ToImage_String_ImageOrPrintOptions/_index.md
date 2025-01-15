@@ -24,5 +24,4 @@ func (instance *Label) ToImage_String_ImageOrPrintOptions(imagefile string, opti
 ## See Also
 
 * Class [Label](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

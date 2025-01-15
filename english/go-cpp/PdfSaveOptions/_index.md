@@ -33,8 +33,8 @@ type PdfSaveOptions struct  {
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[GetEmbedStandardWindowsFonts](./getembedstandardwindowsfonts/) | True to embed true type fonts.Affects only ASCII characters 32-127.Fonts for character codes greater than 127 are always embedded.Fonts are always embedded for PDF/A-1a, PDF/A-1b standard.Default is true. | 
 |[SetEmbedStandardWindowsFonts](./setembedstandardwindowsfonts/) | True to embed true type fonts.Affects only ASCII characters 32-127.Fonts for character codes greater than 127 are always embedded.Fonts are always embedded for PDF/A-1a, PDF/A-1b standard.Default is true. | 
-|[GetBookmark](./getbookmark/) | Gets and sets the <see cref ="PdfBookmarkEntry">PdfBookmarkEntry</see> object. | 
-|[SetBookmark](./setbookmark/) | Gets and sets the <see cref ="PdfBookmarkEntry">PdfBookmarkEntry</see> object. | 
+|[GetBookmark](./getbookmark/) | Gets and sets the PdfBookmarkEntry</see> object. | 
+|[SetBookmark](./setbookmark/) | Gets and sets the PdfBookmarkEntry</see> object. | 
 |[GetCompliance](./getcompliance/) | Gets or sets the PDF standards compliance level for output documents. | 
 |[SetCompliance](./setcompliance/) | Gets or sets the PDF standards compliance level for output documents. | 
 |[GetSecurityOptions](./getsecurityoptions/) | Set this options, when security is need in xls2pdf result. | 
@@ -50,8 +50,8 @@ type PdfSaveOptions struct  {
 |[SetProducer](./setproducer/) | Gets and sets producer of generated pdf document. | 
 |[GetOptimizationType](./getoptimizationtype/) | Gets and sets pdf optimization type. | 
 |[SetOptimizationType](./setoptimizationtype/) | Gets and sets pdf optimization type. | 
-|[GetCustomPropertiesExport](./getcustompropertiesexport/) | Gets or sets a value determining the way <see cref="CustomDocumentPropertyCollection"/> are exported to PDF file. Default value is None. | 
-|[SetCustomPropertiesExport](./setcustompropertiesexport/) | Gets or sets a value determining the way <see cref="CustomDocumentPropertyCollection"/> are exported to PDF file. Default value is None. | 
+|[GetCustomPropertiesExport](./getcustompropertiesexport/) | Gets or sets a value determining the way CustomDocumentPropertyCollection are exported to PDF file. Default value is None. | 
+|[SetCustomPropertiesExport](./setcustompropertiesexport/) | Gets or sets a value determining the way CustomDocumentPropertyCollection are exported to PDF file. Default value is None. | 
 |[GetExportDocumentStructure](./getexportdocumentstructure/) | Indicates whether to export document structure. | 
 |[SetExportDocumentStructure](./setexportdocumentstructure/) | Indicates whether to export document structure. | 
 |[GetDisplayDocTitle](./getdisplaydoctitle/) | Indicates whether the window's title bar should display the document title. | 
@@ -90,8 +90,8 @@ type PdfSaveOptions struct  {
 |[SetTextCrossType](./settextcrosstype/) | Gets or sets displaying text type when the text width is larger than cell width. | 
 |[GetDefaultEditLanguage](./getdefaulteditlanguage/) | Gets or sets default edit language. | 
 |[SetDefaultEditLanguage](./setdefaulteditlanguage/) | Gets or sets default edit language. | 
-|[GetSheetSet](./getsheetset/) | Gets or sets the sheets to render. Default is all visible sheets in the workbook: <see cref="Aspose.Cells.Rendering.SheetSet.Visible"/>. | 
-|[SetSheetSet](./setsheetset/) | Gets or sets the sheets to render. Default is all visible sheets in the workbook: <see cref="Aspose.Cells.Rendering.SheetSet.Visible"/>. | 
+|[GetSheetSet](./getsheetset/) | Gets or sets the sheets to render. Default is all visible sheets in the workbook: Aspose.Cells.Rendering.SheetSet.Visible. | 
+|[SetSheetSet](./setsheetset/) | Gets or sets the sheets to render. Default is all visible sheets in the workbook: Aspose.Cells.Rendering.SheetSet.Visible. | 
 |[GetDrawObjectEventHandler](./getdrawobjecteventhandler/) | Implements this interface to get DrawObject and Bound when rendering. | 
 |[SetDrawObjectEventHandler](./setdrawobjecteventhandler/) | Implements this interface to get DrawObject and Bound when rendering. | 
 |[GetEmfRenderSetting](./getemfrendersetting/) | Setting for rendering Emf metafile. | 

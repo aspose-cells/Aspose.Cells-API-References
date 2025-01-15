@@ -24,5 +24,4 @@ func (instance *DelimiterEquationNode) InsertBefore(equationtype EquationNodeTyp
 ## See Also
 
 * Class [DelimiterEquationNode](../)
-* Namespace [Aspose.Cells.Drawing.Equations](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *EquationNode) GetChild(index int32)  (*EquationNode,  error)
 ## See Also
 
 * Class [EquationNode](../)
-* Namespace [Aspose.Cells.Drawing.Equations](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

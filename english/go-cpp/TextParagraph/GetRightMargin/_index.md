@@ -24,5 +24,4 @@ func (instance *TextParagraph) GetRightMargin()  (float64,  error)
 ## See Also
 
 * Class [TextParagraph](../)
-* Namespace [Aspose.Cells.Drawing.Texts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

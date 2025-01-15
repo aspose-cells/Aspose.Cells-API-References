@@ -23,7 +23,7 @@ type RenderingFont struct  {
 
 | Method | Description |
 | --- | --- |
-|[NewRenderingFont](./newrenderingfont/) | Initializes a new instance of the <see cref="RenderingFont"/> | 
+|[NewRenderingFont](./newrenderingfont/) | Initializes a new instance of the RenderingFont | 
 
 ## Methods
 

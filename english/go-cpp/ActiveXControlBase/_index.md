@@ -29,7 +29,9 @@ type ActiveXControlBase struct  {
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
-|[GetWorkbook](./getworkbook/) | Gets the <see cref="Workbook"/> object. | 
+|[GetWorkbook](./getworkbook/) | Gets the Workbook object. | 
+|[GetMouseIcon](./getmouseicon/) | Gets and sets a custom icon to display as the mouse pointer for the control. | 
+|[SetMouseIcon](./setmouseicon/) | Gets and sets a custom icon to display as the mouse pointer for the control. | 
 |[GetMousePointer](./getmousepointer/) | Gets and sets the type of icon displayed as the mouse pointer for the control. | 
 |[SetMousePointer](./setmousepointer/) | Gets and sets the type of icon displayed as the mouse pointer for the control. | 
 |[GetLinkedCell](./getlinkedcell/) | Gets and sets the linked cell. | 
@@ -49,3 +51,4 @@ type ActiveXControlBase struct  {
 |[SetIsVisible](./setisvisible/) | Indicates whether this control is visible. | 
 |[GetShadow](./getshadow/) | Indicates whether to show a shadow. | 
 |[SetShadow](./setshadow/) | Indicates whether to show a shadow. | 
+|[GetData](./getdata/) | Gets and sets the binary data of the control. | 

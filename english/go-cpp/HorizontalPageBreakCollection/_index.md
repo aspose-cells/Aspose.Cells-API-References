@@ -29,8 +29,8 @@ type HorizontalPageBreakCollection struct  {
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
-|[Get_Int](./get_int/) | Gets the <see cref="HorizontalPageBreak"/> element at the specified index. | 
-|[Get_String](./get_string/) | Gets the <see cref="HorizontalPageBreak"/> element with the specified cell name. | 
+|[Get_Int](./get_int/) | Gets the HorizontalPageBreak element at the specified index. | 
+|[Get_String](./get_string/) | Gets the HorizontalPageBreak element with the specified cell name. | 
 |[Add_Int_Int_Int](./add_int_int_int/) | Adds a horizontal page break to the collection. | 
 |[Add_Int](./add_int/) | Adds a horizontal page break to the collection. | 
 |[Add_Int_Int](./add_int_int/) | Adds a horizontal page break to the collection. | 

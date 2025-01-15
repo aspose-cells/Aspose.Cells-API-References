@@ -10,7 +10,7 @@ url: /go-cpp/chart/getfloor/
 
 ## GetFloor function
 
-Returns a <see cref="Floor"/> object that represents the walls of a 3-D chart.
+Returns a Floor object that represents the walls of a 3-D chart.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *Chart) GetFloor()  (*Floor,  error)
 ## See Also
 
 * Class [Chart](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

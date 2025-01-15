@@ -24,5 +24,4 @@ func (instance *SeriesLayoutProperties) GetShowConnectorLines()  (bool,  error)
 ## See Also
 
 * Class [SeriesLayoutProperties](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

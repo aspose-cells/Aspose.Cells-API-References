@@ -24,5 +24,4 @@ func (instance *PivotPageFields) GetPageFieldCount()  (int32,  error)
 ## See Also
 
 * Class [PivotPageFields](../)
-* Namespace [Aspose.Cells.Pivot](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

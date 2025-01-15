@@ -10,7 +10,7 @@ url: /go-cpp/lineformat/getgradientfill/
 
 ## GetGradientFill function
 
-Gets <see cref="GradientFill"/> object.
+Gets GradientFill object.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *LineFormat) GetGradientFill()  (*GradientFill,  error)
 ## See Also
 
 * Class [LineFormat](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

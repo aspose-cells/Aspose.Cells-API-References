@@ -24,5 +24,4 @@ func (instance *GroupShape) MoveToRange(upperleftrow int32, upperleftcolumn int3
 ## See Also
 
 * Class [GroupShape](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *SmartArtShape) SetLinkedCell_String_Bool_Bool(formula string, is
 ## See Also
 
 * Class [SmartArtShape](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

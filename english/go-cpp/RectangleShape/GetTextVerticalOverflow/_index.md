@@ -24,5 +24,4 @@ func (instance *RectangleShape) GetTextVerticalOverflow()  (TextOverflowType,  e
 ## See Also
 
 * Class [RectangleShape](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

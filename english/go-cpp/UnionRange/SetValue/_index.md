@@ -24,5 +24,4 @@ func (instance *UnionRange) SetValue(value *Object)  error
 ## See Also
 
 * Class [UnionRange](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

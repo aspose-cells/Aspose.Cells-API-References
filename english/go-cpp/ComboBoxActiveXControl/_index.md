@@ -86,5 +86,6 @@ type ComboBoxActiveXControl struct  {
 |[GetFont](./getfont/) | Represents the font of the control. | 
 |[GetTextAlign](./gettextalign/) | Represents how to align the text used by the control. | 
 |[SetTextAlign](./settextalign/) | Represents how to align the text used by the control. | 
+|[GetData](./getdata/) | Gets and sets the binary data of the control. | 
 |[IsAutoSize](./isautosize/) | Indicates whether the control will automatically resize to display its entire contents. | 
 |[SetIsAutoSize](./setisautosize/) | Indicates whether the control will automatically resize to display its entire contents. | 

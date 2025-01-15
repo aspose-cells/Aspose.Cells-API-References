@@ -24,5 +24,4 @@ func (instance *PivotFormatConditionCollection) Get(index int32)  (*PivotFormatC
 ## See Also
 
 * Class [PivotFormatConditionCollection](../)
-* Namespace [Aspose.Cells.Pivot](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *ShapeCollection) AddTextEffect(effect MsoPresetTextEffect, text 
 ## See Also
 
 * Class [ShapeCollection](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

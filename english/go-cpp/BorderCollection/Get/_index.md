@@ -10,7 +10,7 @@ url: /go-cpp/bordercollection/get/
 
 ## Get function
 
-Gets the <see cref="Border"/> element at the specified index.
+Gets the Border element at the specified index.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *BorderCollection) Get(bordertype BorderType)  (*Border,  error)
 ## See Also
 
 * Class [BorderCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

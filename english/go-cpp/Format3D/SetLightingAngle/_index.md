@@ -24,5 +24,4 @@ func (instance *Format3D) SetLightingAngle(value float64)  error
 ## See Also
 
 * Class [Format3D](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

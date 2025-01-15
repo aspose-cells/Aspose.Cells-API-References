@@ -24,5 +24,4 @@ func (instance *RadioButtonActiveXControl) SetAlignment(value ControlCaptionAlig
 ## See Also
 
 * Class [RadioButtonActiveXControl](../)
-* Namespace [Aspose.Cells.Drawing.ActiveXControls](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

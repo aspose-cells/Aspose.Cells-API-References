@@ -10,7 +10,7 @@ url: /go-cpp/externalconnectioncollection/set/
 
 ## Set function
 
-Gets the <see cref="ExternalConnection"/> element at the specified index.
+Gets the ExternalConnection element at the specified index.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *ExternalConnectionCollection) Set(value *ExternalConnection, ind
 ## See Also
 
 * Class [ExternalConnectionCollection](../)
-* Namespace [Aspose.Cells.ExternalConnections](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

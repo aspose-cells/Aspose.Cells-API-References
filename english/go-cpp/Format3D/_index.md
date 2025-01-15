@@ -29,7 +29,7 @@ type Format3D struct  {
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
-|[GetTopBevel](./gettopbevel/) | Gets the <see cref="Bevel"/> object that holds the properties associated with defining a bevel on the top or front face of a shape. | 
+|[GetTopBevel](./gettopbevel/) | Gets the Bevel object that holds the properties associated with defining a bevel on the top or front face of a shape. | 
 |[HasTopBevelData](./hastopbeveldata/) | Indicates if the shape has top bevel data. | 
 |[GetSurfaceMaterialType](./getsurfacematerialtype/) | Gets and sets the material type which is combined with the lighting properties to give the final look and feel of a shape.Default value is PresetMaterialType.WarmMatte. | 
 |[SetSurfaceMaterialType](./setsurfacematerialtype/) | Gets and sets the material type which is combined with the lighting properties to give the final look and feel of a shape.Default value is PresetMaterialType.WarmMatte. | 

@@ -24,5 +24,4 @@ func (instance *GlobalizationSettings) GetTableRowTypeOfHeaders()  (string,  err
 ## See Also
 
 * Class [GlobalizationSettings](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

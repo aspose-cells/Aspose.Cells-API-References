@@ -24,5 +24,4 @@ func (instance *Timeline) SetLeftPixel(value int32)  error
 ## See Also
 
 * Class [Timeline](../)
-* Namespace [Aspose.Cells.Timelines](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

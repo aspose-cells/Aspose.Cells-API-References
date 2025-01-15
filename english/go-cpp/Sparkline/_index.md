@@ -34,3 +34,4 @@ type Sparkline struct  {
 |[GetRow](./getrow/) | Gets the row index of the sparkline. | 
 |[GetColumn](./getcolumn/) | Gets the column index of the sparkline. | 
 |[ToImage_String_ImageOrPrintOptions](./toimage_string_imageorprintoptions/) | Converts a sparkline to an image. | 
+|[ToImage_ImageOrPrintOptions](./toimage_imageorprintoptions/) | Converts a sparkline to an image. | 

@@ -24,5 +24,4 @@ func (instance *GroupBox) GetTextBoxOptions()  (*TextBoxOptions,  error)
 ## See Also
 
 * Class [GroupBox](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

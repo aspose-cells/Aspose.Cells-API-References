@@ -10,7 +10,7 @@ url: /go-cpp/externallinkcollection/get/
 
 ## Get function
 
-Gets the <see cref="ExternalLink"/> element at the specified index.
+Gets the ExternalLink element at the specified index.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *ExternalLinkCollection) Get(index int32)  (*ExternalLink,  error
 ## See Also
 
 * Class [ExternalLinkCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

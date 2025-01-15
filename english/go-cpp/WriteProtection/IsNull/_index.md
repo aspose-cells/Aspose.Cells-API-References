@@ -24,5 +24,4 @@ func (instance *WriteProtection) IsNull()  (bool,  error)
 ## See Also
 
 * Class [WriteProtection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

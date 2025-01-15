@@ -24,5 +24,4 @@ func (instance *PivotField) HideItem_String_Bool(itemvalue string, ishidden bool
 ## See Also
 
 * Class [PivotField](../)
-* Namespace [Aspose.Cells.Pivot](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

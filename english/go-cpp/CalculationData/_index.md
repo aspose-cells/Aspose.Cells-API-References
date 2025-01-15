@@ -39,4 +39,5 @@ type CalculationData struct  {
 |[GetFunctionName](./getfunctionname/) | Gets the function name to be calculated. | 
 |[GetParamCount](./getparamcount/) | Gets the count of parameters | 
 |[GetParamValue](./getparamvalue/) | Gets the represented value object of the parameter at given index. | 
+|[GetParamValueInArrayMode](./getparamvalueinarraymode/) | Gets the value(s) of the parameter at given index.If the parameter is some kind of expression that needs to be calculated,then it will be calculated in array mode. | 
 |[GetParamText](./getparamtext/) | Gets the literal text of the parameter at given index. | 

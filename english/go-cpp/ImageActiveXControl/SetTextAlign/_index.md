@@ -24,5 +24,4 @@ func (instance *ImageActiveXControl) SetTextAlign(value TextAlignmentType)  erro
 ## See Also
 
 * Class [ImageActiveXControl](../)
-* Namespace [Aspose.Cells.Drawing.ActiveXControls](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

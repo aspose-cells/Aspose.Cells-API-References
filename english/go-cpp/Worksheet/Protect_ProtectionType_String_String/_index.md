@@ -24,5 +24,4 @@ func (instance *Worksheet) Protect_ProtectionType_String_String(type_ Protection
 ## See Also
 
 * Class [Worksheet](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

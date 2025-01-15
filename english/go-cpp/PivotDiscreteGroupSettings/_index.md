@@ -31,3 +31,4 @@ type PivotDiscreteGroupSettings struct  {
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[GetType](./gettype/) | Gets the group type. | 
+|[GetItems](./getitems/) | Gets the discrete items. | 

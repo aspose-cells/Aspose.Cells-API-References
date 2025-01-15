@@ -24,5 +24,4 @@ func (instance *CustomPropertyCollection) Get_Int(index int32)  (*CustomProperty
 ## See Also
 
 * Class [CustomPropertyCollection](../)
-* Namespace [Aspose.Cells.Properties](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

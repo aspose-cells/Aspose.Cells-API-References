@@ -10,7 +10,7 @@ url: /go-cpp/cells/get_string/
 
 ## Get_String function
 
-Gets the <see cref="Cell"/> element at the specified cell name.
+Gets the Cell element at the specified cell name.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *Cells) Get_String(cellname string)  (*Cell,  error)
 ## See Also
 
 * Class [Cells](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

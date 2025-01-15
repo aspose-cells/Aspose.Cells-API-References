@@ -10,7 +10,7 @@ url: /go-cpp/sparklinegroupcollection/add_sparklinetype/
 
 ## Add_SparklineType function
 
-Adds an <see cref="SparklineGroup"/> with a <see cref="Sparkline"/> to the collection.
+Adds an SparklineGroup with a Sparkline to the collection.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *SparklineGroupCollection) Add_SparklineType(type_ SparklineType)
 ## See Also
 
 * Class [SparklineGroupCollection](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

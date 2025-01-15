@@ -48,5 +48,5 @@ type SettablePivotGlobalizationSettings struct  {
 |[SetTextOfEmptyData](./settextofemptydata/) | Sets the text of "(blank)" label in the PivotTable. | 
 |[GetTextOfDataFieldHeader](./gettextofdatafieldheader/) | Gets the the text of the value area field header in the PivotTable. | 
 |[SetTextOfDataFieldHeader](./settextofdatafieldheader/) | Sets the the text of the value area field header in the PivotTable. | 
-|[GetTextOfSubTotal](./gettextofsubtotal/) | Gets the text of <see cref="PivotFieldSubtotalType"/> type in the PivotTable. | 
-|[SetTextOfSubTotal](./settextofsubtotal/) | Sets the text of <see cref="PivotFieldSubtotalType"/> type in the PivotTable. | 
+|[GetTextOfSubTotal](./gettextofsubtotal/) | Gets the text of PivotFieldSubtotalType type in the PivotTable. | 
+|[SetTextOfSubTotal](./settextofsubtotal/) | Sets the text of PivotFieldSubtotalType type in the PivotTable. | 

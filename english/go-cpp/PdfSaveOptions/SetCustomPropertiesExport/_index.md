@@ -10,7 +10,7 @@ url: /go-cpp/pdfsaveoptions/setcustompropertiesexport/
 
 ## SetCustomPropertiesExport function
 
-Gets or sets a value determining the way <see cref="CustomDocumentPropertyCollection"/> are exported to PDF file. Default value is None.
+Gets or sets a value determining the way CustomDocumentPropertyCollection are exported to PDF file. Default value is None.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *PdfSaveOptions) SetCustomPropertiesExport(value PdfCustomPropert
 ## See Also
 
 * Class [PdfSaveOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

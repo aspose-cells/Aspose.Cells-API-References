@@ -24,5 +24,4 @@ func (instance *ThreadedCommentAuthor) GetName()  (string,  error)
 ## See Also
 
 * Class [ThreadedCommentAuthor](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

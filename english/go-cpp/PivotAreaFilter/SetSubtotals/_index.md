@@ -24,5 +24,4 @@ func (instance *PivotAreaFilter) SetSubtotals(subtotaltype PivotFieldSubtotalTyp
 ## See Also
 
 * Class [PivotAreaFilter](../)
-* Namespace [Aspose.Cells.Pivot](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

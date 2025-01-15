@@ -24,5 +24,4 @@ func (instance *FormulaParseOptions) GetCheckAddIn()  (bool,  error)
 ## See Also
 
 * Class [FormulaParseOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

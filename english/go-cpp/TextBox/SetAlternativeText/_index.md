@@ -10,7 +10,7 @@ url: /go-cpp/textbox/setalternativetext/
 
 ## SetAlternativeText function
 
-Returns or sets the descriptive (alternative) text string of the <see cref="Shape"/> object.
+Returns or sets the descriptive (alternative) text string of the Shape object.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *TextBox) SetAlternativeText(value string)  error
 ## See Also
 
 * Class [TextBox](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

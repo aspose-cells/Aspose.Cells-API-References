@@ -24,5 +24,4 @@ func (instance *PivotField) SortBy_SortOrder_Int_PivotLineType_String(sorttype S
 ## See Also
 
 * Class [PivotField](../)
-* Namespace [Aspose.Cells.Pivot](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

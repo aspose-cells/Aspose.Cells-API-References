@@ -24,5 +24,4 @@ func (instance *UnionRange) GetRefersTo()  (string,  error)
 ## See Also
 
 * Class [UnionRange](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

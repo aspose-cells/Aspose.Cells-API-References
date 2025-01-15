@@ -24,5 +24,4 @@ func (instance *AccentEquationNode) AddChild_EquationNodeType(equationtype Equat
 ## See Also
 
 * Class [AccentEquationNode](../)
-* Namespace [Aspose.Cells.Drawing.Equations](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *ThreeDFormat) SetMaterial(value PresetMaterialType)  error
 ## See Also
 
 * Class [ThreeDFormat](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

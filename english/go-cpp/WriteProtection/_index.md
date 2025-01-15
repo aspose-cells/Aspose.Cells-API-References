@@ -23,7 +23,6 @@ type WriteProtection struct  {
 
 | Method | Description |
 | --- | --- |
-|[NewWriteProtection](./newwriteprotection/) | Default constructor. | 
 
 ## Methods
 

@@ -59,5 +59,5 @@ type ShapeTextAlignment struct  {
 |[SetIsAutoMargin](./setisautomargin/) | Indicates whether the margin of the text frame is automatic. | 
 |[GetNumberOfColumns](./getnumberofcolumns/) | Gets and sets the number of columns of text in the bounding rectangle. | 
 |[SetNumberOfColumns](./setnumberofcolumns/) | Gets and sets the number of columns of text in the bounding rectangle. | 
-|[Equals](./equals/) | Determines whether this instance has the same value as another specified <see cref="ShapeTextAlignment"/> object. | 
+|[Equals](./equals/) | Determines whether this instance has the same value as another specified ShapeTextAlignment object. | 
 |[GetHashCode](./gethashcode/) |  | 

@@ -24,5 +24,4 @@ func (instance *TextureFill) SetType(value TextureType)  error
 ## See Also
 
 * Class [TextureFill](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

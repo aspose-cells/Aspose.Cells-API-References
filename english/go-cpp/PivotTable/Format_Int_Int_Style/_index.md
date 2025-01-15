@@ -24,5 +24,4 @@ func (instance *PivotTable) Format_Int_Int_Style(row int32, column int32, style 
 ## See Also
 
 * Class [PivotTable](../)
-* Namespace [Aspose.Cells.Pivot](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

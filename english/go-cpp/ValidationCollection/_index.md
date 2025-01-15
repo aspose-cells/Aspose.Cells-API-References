@@ -30,7 +30,7 @@ type ValidationCollection struct  {
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[Add](./add/) | Adds a data validation to the collection. | 
-|[Get](./get/) | Gets the <see cref="Validation"/> element at the specified index. | 
+|[Get](./get/) | Gets the Validation element at the specified index. | 
 |[RemoveACell](./removeacell/) | Removes all validation setting on the cell. | 
 |[RemoveArea](./removearea/) | Removes all validation setting on the range.. | 
 |[GetValidationInCell](./getvalidationincell/) | Gets the validation applied to given cell. | 

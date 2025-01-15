@@ -24,5 +24,4 @@ func (instance *SettableGlobalizationSettings) GetErrorValueString(err string)  
 ## See Also
 
 * Class [SettableGlobalizationSettings](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

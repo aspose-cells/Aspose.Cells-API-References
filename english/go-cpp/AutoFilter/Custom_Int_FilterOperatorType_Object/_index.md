@@ -24,5 +24,4 @@ func (instance *AutoFilter) Custom_Int_FilterOperatorType_Object(fieldindex int3
 ## See Also
 
 * Class [AutoFilter](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

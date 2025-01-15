@@ -24,5 +24,4 @@ func (instance *MathematicalEquationNode) AddChild_EquationNodeType(equationtype
 ## See Also
 
 * Class [MathematicalEquationNode](../)
-* Namespace [Aspose.Cells.Drawing.Equations](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

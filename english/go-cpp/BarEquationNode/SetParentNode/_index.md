@@ -24,5 +24,4 @@ func (instance *BarEquationNode) SetParentNode(value *EquationNode)  error
 ## See Also
 
 * Class [BarEquationNode](../)
-* Namespace [Aspose.Cells.Drawing.Equations](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

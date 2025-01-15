@@ -24,5 +24,4 @@ func (instance *NaryEquationNode) AddChild_EquationNodeType(equationtype Equatio
 ## See Also
 
 * Class [NaryEquationNode](../)
-* Namespace [Aspose.Cells.Drawing.Equations](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

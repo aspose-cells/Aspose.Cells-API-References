@@ -24,5 +24,4 @@ func (instance *AutoFilter) AddFillColorFilter(fieldindex int32, pattern Backgro
 ## See Also
 
 * Class [AutoFilter](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

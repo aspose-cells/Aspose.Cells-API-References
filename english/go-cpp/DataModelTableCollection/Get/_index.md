@@ -24,5 +24,4 @@ func (instance *DataModelTableCollection) Get(index int32)  (*DataModelTable,  e
 ## See Also
 
 * Class [DataModelTableCollection](../)
-* Namespace [Aspose.Cells.DataModels](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

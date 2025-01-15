@@ -24,5 +24,4 @@ func (instance *QueryTableCollection) Get(index int32)  (*QueryTable,  error)
 ## See Also
 
 * Class [QueryTableCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

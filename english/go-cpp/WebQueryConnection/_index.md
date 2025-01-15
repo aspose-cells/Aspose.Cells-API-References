@@ -30,7 +30,7 @@ type WebQueryConnection struct  {
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
-|[GetClassType](./getclasstype/) | Gets the type of this <see cref="ExternalConnection"/> object. | 
+|[GetClassType](./getclasstype/) | Gets the type of this ExternalConnection object. | 
 |[IsXml](./isxml/) | true if the web query source is XML (versus HTML), otherwise false. | 
 |[SetIsXml](./setisxml/) | true if the web query source is XML (versus HTML), otherwise false. | 
 |[IsXl97](./isxl97/) | This flag exists for backward compatibility with older existing spreadsheet files, and is setto true if this web query was created in Microsoft Excel 97.This is an optional attribute that can be ignored. | 
@@ -93,7 +93,7 @@ type WebQueryConnection struct  {
 |[SetCredentialsMethodType](./setcredentialsmethodtype/) | Specifies the authentication method to be used when establishing (or re-establishing) the connection. | 
 |[GetBackgroundRefresh](./getbackgroundrefresh/) | Indicates whether the connection can be refreshed in the background (asynchronously).true if preferred usage of the connection is to refresh asynchronously in the background;false if preferred usage of the connection is to refresh synchronously in the foreground. | 
 |[SetBackgroundRefresh](./setbackgroundrefresh/) | Indicates whether the connection can be refreshed in the background (asynchronously).true if preferred usage of the connection is to refresh asynchronously in the background;false if preferred usage of the connection is to refresh synchronously in the foreground. | 
-|[GetParameters](./getparameters/) | Gets <see cref="ConnectionParameterCollection"/> for an ODBC or web query. | 
+|[GetParameters](./getparameters/) | Gets ConnectionParameterCollection for an ODBC or web query. | 
 |[GetPowerQueryFormula](./getpowerqueryformula/) | Gets the definition of power query formula. | 
 |[GetCommand](./getcommand/) | The string containing the database command to pass to the data provider API that willinteract with the external source in order to retrieve data | 
 |[SetCommand](./setcommand/) | The string containing the database command to pass to the data provider API that willinteract with the external source in order to retrieve data | 

@@ -10,7 +10,7 @@ url: /go-cpp/cells/createrange_int_int_bool/
 
 ## CreateRange_Int_Int_Bool function
 
-Creates a <see cref="Range"/> object from rows of cells or columns of cells.
+Creates a Range object from rows of cells or columns of cells.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *Cells) CreateRange_Int_Int_Bool(firstindex int32, number int32, 
 ## See Also
 
 * Class [Cells](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

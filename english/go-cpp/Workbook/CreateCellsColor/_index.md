@@ -10,7 +10,7 @@ url: /go-cpp/workbook/createcellscolor/
 
 ## CreateCellsColor function
 
-Creates a <see cref="CellsColor"/> object.
+Creates a CellsColor object.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *Workbook) CreateCellsColor()  (*CellsColor,  error)
 ## See Also
 
 * Class [Workbook](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

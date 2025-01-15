@@ -24,5 +24,4 @@ func (instance *LoadFilter) SetLoadDataFilterOptions(value LoadDataFilterOptions
 ## See Also
 
 * Class [LoadFilter](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *Object) AsInt32()  (int32,  error)
 ## See Also
 
 * Class [Object](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

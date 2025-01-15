@@ -24,5 +24,4 @@ func (instance *TextRunEquationNode) AddChild_EquationNodeType(equationtype Equa
 ## See Also
 
 * Class [TextRunEquationNode](../)
-* Namespace [Aspose.Cells.Drawing.Equations](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

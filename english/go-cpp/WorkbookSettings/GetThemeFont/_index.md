@@ -24,5 +24,4 @@ func (instance *WorkbookSettings) GetThemeFont(type_ FontSchemeType)  (string,  
 ## See Also
 
 * Class [WorkbookSettings](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

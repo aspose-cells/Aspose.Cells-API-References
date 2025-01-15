@@ -24,5 +24,4 @@ func (instance *Workbook) Replace_String_String(placeholder string, newvalue str
 ## See Also
 
 * Class [Workbook](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -454,11 +454,14 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [PictureBulletValue](../com.aspose.cells/picturebulletvalue) | Represents the value of the image bullet. |
 | [PictureCollection](../com.aspose.cells/picturecollection) | Encapsulates a collection of [Picture](../com.aspose.cells/picture) objects. |
 | [PivotArea](../com.aspose.cells/pivotarea) | Presents the selected area of the PivotTable. |
+| [PivotAreaCollection](../com.aspose.cells/pivotareacollection) | Represents a list of pivot area. |
 | [PivotAreaFilter](../com.aspose.cells/pivotareafilter) | Represents the filter of [PivotArea](../com.aspose.cells/pivotarea) for [PivotTable](../com.aspose.cells/pivottable). |
 | [PivotAreaFilterCollection](../com.aspose.cells/pivotareafiltercollection) | Represents the list of filters for [PivotArea](../com.aspose.cells/pivotarea) |
 | [PivotAreaType](../com.aspose.cells/pivotareatype) | Indicates the type of rule being used to describe an area or aspect of the PivotTable. |
 | [PivotConditionFormatRuleType](../com.aspose.cells/pivotconditionformatruletype) | Represents PivotTable condition formatting rule type. |
 | [PivotConditionFormatScopeType](../com.aspose.cells/pivotconditionformatscopetype) | Represents PivotTable condition formatting scope type. |
+| [PivotConditionalFormat](../com.aspose.cells/pivotconditionalformat) | Represents a PivotTable Format Condition in PivotFormatCondition Collection. |
+| [PivotConditionalFormatCollection](../com.aspose.cells/pivotconditionalformatcollection) | Represents all conditional formats of pivot table. |
 | [PivotDateTimeRangeGroupSettings](../com.aspose.cells/pivotdatetimerangegroupsettings) | Represents the field grouped by date time range. |
 | [PivotDiscreteGroupSettings](../com.aspose.cells/pivotdiscretegroupsettings) | Rrepsents the discrete group of pivot field |
 | [PivotField](../com.aspose.cells/pivotfield) | Represents a field in a PivotTable report. |

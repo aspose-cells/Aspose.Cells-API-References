@@ -24,5 +24,4 @@ func (instance *CheckBoxCollection) Add(upperleftrow int32, upperleftcolumn int3
 ## See Also
 
 * Class [CheckBoxCollection](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

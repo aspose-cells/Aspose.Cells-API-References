@@ -24,5 +24,4 @@ func (instance *PivotFieldSortSetting) GetLineTypeSortedBy()  (PivotLineType,  e
 ## See Also
 
 * Class [PivotFieldSortSetting](../)
-* Namespace [Aspose.Cells.Pivot](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

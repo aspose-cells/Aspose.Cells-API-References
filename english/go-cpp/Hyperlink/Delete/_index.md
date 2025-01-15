@@ -24,5 +24,4 @@ func (instance *Hyperlink) Delete()  error
 ## See Also
 
 * Class [Hyperlink](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

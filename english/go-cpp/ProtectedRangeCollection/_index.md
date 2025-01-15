@@ -29,6 +29,6 @@ type ProtectedRangeCollection struct  {
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
-|[Get](./get/) | Gets the <see cref="ProtectedRange"/> element at the specified index. | 
-|[Add](./add/) | Adds a <see cref="ProtectedRange"/> item to the collection. | 
+|[Get](./get/) | Gets the ProtectedRange element at the specified index. | 
+|[Add](./add/) | Adds a ProtectedRange item to the collection. | 
 |[GetCount](./getcount/) |  | 

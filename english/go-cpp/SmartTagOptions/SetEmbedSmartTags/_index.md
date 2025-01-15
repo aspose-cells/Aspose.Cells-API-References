@@ -24,5 +24,4 @@ func (instance *SmartTagOptions) SetEmbedSmartTags(value bool)  error
 ## See Also
 
 * Class [SmartTagOptions](../)
-* Namespace [Aspose.Cells.Markup](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

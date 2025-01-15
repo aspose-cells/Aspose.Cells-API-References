@@ -24,5 +24,4 @@ func (instance *PivotDateTimeRangeGroupSettings) GetInterval()  (float64,  error
 ## See Also
 
 * Class [PivotDateTimeRangeGroupSettings](../)
-* Namespace [Aspose.Cells.Pivot](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func FractionEquationNode_CreateNode(equationtype EquationNodeType, workbook *Wo
 ## See Also
 
 * Class [FractionEquationNode](../)
-* Namespace [Aspose.Cells.Drawing.Equations](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

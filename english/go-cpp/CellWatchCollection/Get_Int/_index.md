@@ -10,7 +10,7 @@ url: /go-cpp/cellwatchcollection/get_int/
 
 ## Get_Int function
 
-Gets and sets <see cref="CellWatch"/> by index.
+Gets and sets CellWatch by index.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *CellWatchCollection) Get_Int(index int32)  (*CellWatch,  error)
 ## See Also
 
 * Class [CellWatchCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *ShapeCollection) CopyCommentsInRange(shapes *ShapeCollection, ca
 ## See Also
 
 * Class [ShapeCollection](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

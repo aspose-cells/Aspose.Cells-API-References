@@ -24,5 +24,4 @@ func NewSheetRender(worksheet *Worksheet, options *ImageOrPrintOptions) ( *Sheet
 ## See Also
 
 * Class [SheetRender](../)
-* Namespace [Aspose.Cells.Rendering](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

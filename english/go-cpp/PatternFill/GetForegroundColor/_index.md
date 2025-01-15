@@ -10,7 +10,7 @@ url: /go-cpp/patternfill/getforegroundcolor/
 
 ## GetForegroundColor function
 
-Gets or sets the foreground <see cref="Color"/>.
+Gets or sets the foreground Color.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *PatternFill) GetForegroundColor()  (*Color,  error)
 ## See Also
 
 * Class [PatternFill](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

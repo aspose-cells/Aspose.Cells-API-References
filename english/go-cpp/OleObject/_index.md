@@ -30,12 +30,19 @@ type OleObject struct  {
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
+|[SetEmbeddedObject_Bool_Stream_String_Bool_String](./setembeddedobject_bool_stream_string_bool_string/) | Sets embedded object data. | 
+|[SetEmbeddedObject_Bool_Stream_String_Bool_String_Bool](./setembeddedobject_bool_stream_string_bool_string_bool/) | Sets embedded object data. | 
 |[IsAutoSize](./isautosize/) | True indicates that the size of the ole object will be auto changed as the size of snapshot of the embedded contentwhen the ole object is activated. | 
 |[SetIsAutoSize](./setisautosize/) | True indicates that the size of the ole object will be auto changed as the size of snapshot of the embedded contentwhen the ole object is activated. | 
 |[IsLink](./islink/) | Returns true if the OleObject links to the file. | 
 |[Set_IsLink](./set_islink/) | Returns true if the OleObject links to the file. | 
 |[GetDisplayAsIcon](./getdisplayasicon/) | True if the specified object is displayed as an iconand the image will not be auto changed. | 
 |[SetDisplayAsIcon](./setdisplayasicon/) | True if the specified object is displayed as an iconand the image will not be auto changed. | 
+|[GetImageData](./getimagedata/) | Represents image of ole object as byte array. | 
+|[SetImageData](./setimagedata/) | Represents image of ole object as byte array. | 
+|[GetObjectData](./getobjectdata/) | Represents embedded ole object data as byte array. | 
+|[SetObjectData](./setobjectdata/) | Represents embedded ole object data as byte array. | 
+|[GetFullObjectBin](./getfullobjectbin/) | Gets the full embedded ole object binary data in the template file. | 
 |[GetImageSourceFullName](./getimagesourcefullname/) | Gets or sets the path and name of the source file for the linked image. | 
 |[SetImageSourceFullName](./setimagesourcefullname/) | Gets or sets the path and name of the source file for the linked image. | 
 |[SetNativeSourceFullName](./setnativesourcefullname/) | Sets the ole native source full file name with path. | 
@@ -51,6 +58,8 @@ type OleObject struct  {
 |[SetAutoUpdate](./setautoupdate/) | Specifies whether the link to the OleObject is automatically updated or not. | 
 |[GetAutoLoad](./getautoload/) | Specifies whether the host application for the embedded object shall be called to loadthe object data automatically when the parent workbook is opened. | 
 |[SetAutoLoad](./setautoload/) | Specifies whether the host application for the embedded object shall be called to loadthe object data automatically when the parent workbook is opened. | 
+|[GetClassIdentifier](./getclassidentifier/) | Gets and sets the class identifier of the embedded object.It means which application opens the embedded file. | 
+|[SetClassIdentifier](./setclassidentifier/) | Gets and sets the class identifier of the embedded object.It means which application opens the embedded file. | 
 |[GetImageType](./getimagetype/) | Gets the image format of the ole object. | 
 |[GetMacroName](./getmacroname/) | Gets and sets the name of macro. | 
 |[SetMacroName](./setmacroname/) | Gets and sets the name of macro. | 
@@ -61,15 +70,15 @@ type OleObject struct  {
 |[SetZOrderPosition](./setzorderposition/) | Returns the position of a shape in the z-order. | 
 |[GetName](./getname/) | Gets and sets the name of the shape. | 
 |[SetName](./setname/) | Gets and sets the name of the shape. | 
-|[GetAlternativeText](./getalternativetext/) | Returns or sets the descriptive (alternative) text string of the <see cref="Shape"/> object. | 
-|[SetAlternativeText](./setalternativetext/) | Returns or sets the descriptive (alternative) text string of the <see cref="Shape"/> object. | 
+|[GetAlternativeText](./getalternativetext/) | Returns or sets the descriptive (alternative) text string of the Shape object. | 
+|[SetAlternativeText](./setalternativetext/) | Returns or sets the descriptive (alternative) text string of the Shape object. | 
 |[GetTitle](./gettitle/) | Specifies the title (caption) of the current shape object. | 
 |[SetTitle](./settitle/) | Specifies the title (caption) of the current shape object. | 
 |[GetLine](./getline/) | Gets line style | 
-|[GetFill](./getfill/) | Returns a <see cref="FillFormat"/> object that contains fill formatting properties for the specified shape. | 
-|[GetShadowEffect](./getshadoweffect/) | Represents a <see cref="Drawing.ShadowEffect"/> object that specifies shadow effect for the chart element or shape. | 
-|[GetReflection](./getreflection/) | Represents a <see cref="ReflectionEffect"/> object that specifies reflection effect for the chart element or shape. | 
-|[GetGlow](./getglow/) | Represents a <see cref="GlowEffect"/> object that specifies glow effect for the chart element or shape. | 
+|[GetFill](./getfill/) | Returns a FillFormat object that contains fill formatting properties for the specified shape. | 
+|[GetShadowEffect](./getshadoweffect/) | Represents a Drawing.ShadowEffect object that specifies shadow effect for the chart element or shape. | 
+|[GetReflection](./getreflection/) | Represents a ReflectionEffect object that specifies reflection effect for the chart element or shape. | 
+|[GetGlow](./getglow/) | Represents a GlowEffect object that specifies glow effect for the chart element or shape. | 
 |[GetSoftEdges](./getsoftedges/) | Gets and sets the radius of blur to apply to the edges, in unit of points. | 
 |[SetSoftEdges](./setsoftedges/) | Gets and sets the radius of blur to apply to the edges, in unit of points. | 
 |[GetThreeDFormat](./getthreedformat/) | Gets and sets 3d format of the shape. | 
@@ -90,7 +99,7 @@ type OleObject struct  {
 |[GetId](./getid/) | Gets the identifier of this shape. | 
 |[GetSpid](./getspid/) | Specifies an optional string identifier that an application can use to identify the particular shape. | 
 |[GetSpt](./getspt/) | Specifies an optional number that an application can use to associate the particular shape with a defined shape type. | 
-|[GetWorksheet](./getworksheet/) | Gets the <see cref="Worksheet"/> object which contains this shape. | 
+|[GetWorksheet](./getworksheet/) | Gets the Worksheet object which contains this shape. | 
 |[IsGroup](./isgroup/) | Indicates whether this shape is a group shape. | 
 |[IsInGroup](./isingroup/) | Indicates whether the shape is grouped. | 
 |[IsWordArt](./iswordart/) | Indicates whether this shape is a word art. | 
@@ -185,7 +194,10 @@ type OleObject struct  {
 |[IsFlippedVertically](./isflippedvertically/) | Gets and sets whether shape is vertically flipped . | 
 |[SetIsFlippedVertically](./setisflippedvertically/) | Gets and sets whether shape is vertically flipped . | 
 |[GetActualLowerRightRow](./getactuallowerrightrow/) | Get the actual bottom row. | 
+|[GetConnectionPoints](./getconnectionpoints/) | Get the connection points | 
+|[ToImage_Stream_ImageType](./toimage_stream_imagetype/) | Creates the shape image and saves it to a stream in the specified format. | 
 |[ToImage_String_ImageOrPrintOptions](./toimage_string_imageorprintoptions/) | Saves the shape to a file. | 
+|[ToImage_ImageOrPrintOptions](./toimage_imageorprintoptions/) | Saves the shape to a stream. | 
 |[GetRelativeToOriginalPictureSize](./getrelativetooriginalpicturesize/) | Indicates whether shape is relative to original picture size. | 
 |[SetRelativeToOriginalPictureSize](./setrelativetooriginalpicturesize/) | Indicates whether shape is relative to original picture size. | 
 |[GetLinkedCell](./getlinkedcell/) | Gets or sets the worksheet range linked to the control's value. | 
@@ -204,6 +216,7 @@ type OleObject struct  {
 |[SetFont](./setfont/) | Represents the font of shape. | 
 |[GetTextOptions](./gettextoptions/) | Represents the text options of the shape. | 
 |[SetTextOptions](./settextoptions/) | Represents the text options of the shape. | 
+|[CalculateTextSize](./calculatetextsize/) | Recalculate the text area | 
 |[GetText](./gettext/) | Gets and sets the text of this shape. | 
 |[SetText](./settext/) | Gets and sets the text of this shape. | 
 |[IsRichText](./isrichtext/) | Whether or not the text is rich text. | 
@@ -211,6 +224,7 @@ type OleObject struct  {
 |[SetHtmlText](./sethtmltext/) | Gets and sets the html string which contains data and some formats in this textbox. | 
 |[FormatCharacters](./formatcharacters/) | Formats some characters with the font setting. | 
 |[Characters](./characters/) | Returns a Characters object that represents a range of characters within the text. | 
+|[GetRichFormattings](./getrichformattings/) | Returns all Characters objectsthat represents a range of characters within the text . | 
 |[GetTextVerticalOverflow](./gettextverticaloverflow/) | Gets and sets the text vertical overflow type of the shape which contains text. | 
 |[SetTextVerticalOverflow](./settextverticaloverflow/) | Gets and sets the text vertical overflow type of the shape which contains text. | 
 |[GetTextHorizontalOverflow](./gettexthorizontaloverflow/) | Gets and sets the text horizontal overflow type of the shape which contains text. | 
@@ -226,6 +240,7 @@ type OleObject struct  {
 |[GetTextDirection](./gettextdirection/) | Gets/Sets the direction of the text flow for this object. | 
 |[SetTextDirection](./settextdirection/) | Gets/Sets the direction of the text flow for this object. | 
 |[GetTextBoxOptions](./gettextboxoptions/) | Gets the text information in the shape | 
+|[GetControlData](./getcontroldata/) | Gets the data of control. | 
 |[GetActiveXControl](./getactivexcontrol/) | Gets the ActiveX control. | 
 |[RemoveActiveXControl](./removeactivexcontrol/) | Remove activeX control. | 
 |[GetPaths](./getpaths/) | Gets the paths of a custom geometric shape. | 
@@ -234,5 +249,6 @@ type OleObject struct  {
 |[SetCreateId](./setcreateid/) | Gets and sets create id for this shape. | 
 |[IsDecorative](./isdecorative/) | Indicates whether the object is decorative. | 
 |[SetIsDecorative](./setisdecorative/) | Indicates whether the object is decorative. | 
+|[GetActualBox](./getactualbox/) | Get the actual position and size of the shape (after applying rotation, flip, etc.) | 
 |[GetResultOfSmartArt](./getresultofsmartart/) | Converting smart art to grouped shapes. | 
 |[IsSameSetting](./issamesetting/) | Returns whether the shape is same. | 

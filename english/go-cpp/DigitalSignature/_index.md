@@ -23,7 +23,8 @@ type DigitalSignature struct  {
 
 | Method | Description |
 | --- | --- |
-|[NewDigitalSignature](./newdigitalsignature/) | Constructor of DigitalSignature. | 
+|[NewDigitalSignature_Stream_String_String_Date](./newdigitalsignature_stream_string_string_date/) | Constructor of DigitalSignature. | 
+|[NewDigitalSignature_String_String_String_Date](./newdigitalsignature_string_string_string_date/) | Constructor of DigitalSignature. | 
 
 ## Methods
 
@@ -38,6 +39,8 @@ type DigitalSignature struct  {
 |[SetId](./setid/) | Specifies a GUID which can be cross-referenced with the GUID of the signature line stored in the document content.Default value is Empty (all zeroes) Guid. | 
 |[GetText](./gettext/) | Specifies the text of actual signature in the digital signature.Default value is Empty. | 
 |[SetText](./settext/) | Specifies the text of actual signature in the digital signature.Default value is Empty. | 
+|[GetImage](./getimage/) | Specifies an image for the digital signature.Default value is null. | 
+|[SetImage](./setimage/) | Specifies an image for the digital signature.Default value is null. | 
 |[GetProviderId](./getproviderid/) | Specifies the class ID of the signature provider.Default value is Empty (all zeroes) Guid. | 
 |[SetProviderId](./setproviderid/) | Specifies the class ID of the signature provider.Default value is Empty (all zeroes) Guid. | 
 |[IsValid](./isvalid/) | If this digital signature is valid and the document has not been tampered with,this value will be true. | 

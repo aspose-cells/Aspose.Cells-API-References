@@ -24,5 +24,4 @@ func (instance *LoadOptions) GetLoadFormat()  (LoadFormat,  error)
 ## See Also
 
 * Class [LoadOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

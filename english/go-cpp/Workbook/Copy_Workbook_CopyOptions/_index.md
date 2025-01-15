@@ -24,5 +24,4 @@ func (instance *Workbook) Copy_Workbook_CopyOptions(source *Workbook, copyoption
 ## See Also
 
 * Class [Workbook](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *ChartArea) SetBackgroundMode(value BackgroundMode)  error
 ## See Also
 
 * Class [ChartArea](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

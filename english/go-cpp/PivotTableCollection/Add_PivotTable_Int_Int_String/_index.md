@@ -24,5 +24,4 @@ func (instance *PivotTableCollection) Add_PivotTable_Int_Int_String(pivottable *
 ## See Also
 
 * Class [PivotTableCollection](../)
-* Namespace [Aspose.Cells.Pivot](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

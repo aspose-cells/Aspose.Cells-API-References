@@ -24,5 +24,4 @@ func (instance *Range) GetLeft()  (float64,  error)
 ## See Also
 
 * Class [Range](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

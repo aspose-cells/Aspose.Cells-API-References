@@ -10,7 +10,7 @@ url: /go-cpp/pivotformatcondition/getformatconditions/
 
 ## GetFormatConditions function
 
-Get formatconditions for the pivot table condition format .
+Get conditions for the pivot table conditional format .
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *PivotFormatCondition) GetFormatConditions()  (*FormatConditionCo
 ## See Also
 
 * Class [PivotFormatCondition](../)
-* Namespace [Aspose.Cells.Pivot](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

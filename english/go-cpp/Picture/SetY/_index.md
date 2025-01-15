@@ -24,5 +24,4 @@ func (instance *Picture) SetY(value int32)  error
 ## See Also
 
 * Class [Picture](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *ThreadedCommentCollection) Add(text string, author *ThreadedComm
 ## See Also
 
 * Class [ThreadedCommentCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

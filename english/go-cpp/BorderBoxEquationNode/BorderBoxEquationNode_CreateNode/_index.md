@@ -24,5 +24,4 @@ func BorderBoxEquationNode_CreateNode(equationtype EquationNodeType, workbook *W
 ## See Also
 
 * Class [BorderBoxEquationNode](../)
-* Namespace [Aspose.Cells.Drawing.Equations](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *MsoTextFrame) SetAutoSize(value bool)  error
 ## See Also
 
 * Class [MsoTextFrame](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

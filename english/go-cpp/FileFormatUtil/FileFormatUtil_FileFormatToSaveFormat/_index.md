@@ -24,5 +24,4 @@ func FileFormatUtil_FileFormatToSaveFormat(format FileFormatType)  (SaveFormat, 
 ## See Also
 
 * Class [FileFormatUtil](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

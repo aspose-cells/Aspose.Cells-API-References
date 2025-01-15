@@ -10,7 +10,7 @@ url: /go-cpp/worksheet/getscenarios/
 
 ## GetScenarios function
 
-Gets the collection of <see cref="Scenario"/>.
+Gets the collection of Scenario.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *Worksheet) GetScenarios()  (*ScenarioCollection,  error)
 ## See Also
 
 * Class [Worksheet](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

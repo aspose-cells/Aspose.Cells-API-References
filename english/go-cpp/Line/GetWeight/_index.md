@@ -10,7 +10,7 @@ url: /go-cpp/line/getweight/
 
 ## GetWeight function
 
-Gets or sets the <see cref="WeightType"/> of the line.
+Gets or sets the WeightType of the line.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *Line) GetWeight()  (WeightType,  error)
 ## See Also
 
 * Class [Line](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

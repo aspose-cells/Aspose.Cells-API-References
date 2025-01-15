@@ -24,5 +24,4 @@ func (instance *DBConnection) GetId()  (int32,  error)
 ## See Also
 
 * Class [DBConnection](../)
-* Namespace [Aspose.Cells.ExternalConnections](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

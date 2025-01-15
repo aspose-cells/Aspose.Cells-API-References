@@ -24,5 +24,4 @@ func (instance *LineShape) Characters(startindex int32, length int32)  (*FontSet
 ## See Also
 
 * Class [LineShape](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func ConversionUtility_Convert_String_String(source string, saveas string)  erro
 ## See Also
 
 * Class [ConversionUtility](../)
-* Namespace [Aspose.Cells.Utility](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

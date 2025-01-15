@@ -24,5 +24,4 @@ func (instance *AutoNumberedBulletValue) SetStartAt(value int32)  error
 ## See Also
 
 * Class [AutoNumberedBulletValue](../)
-* Namespace [Aspose.Cells.Drawing.Texts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

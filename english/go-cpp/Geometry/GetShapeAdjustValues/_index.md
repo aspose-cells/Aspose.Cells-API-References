@@ -24,5 +24,4 @@ func (instance *Geometry) GetShapeAdjustValues()  (*ShapeGuideCollection,  error
 ## See Also
 
 * Class [Geometry](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

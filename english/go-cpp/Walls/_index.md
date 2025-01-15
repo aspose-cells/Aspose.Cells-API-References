@@ -43,5 +43,5 @@ type Walls struct  {
 |[GetCubePointCount](./getcubepointcount/) | Gets the number of cube points after calls Chart.Calculate() method. | 
 |[GetCubePointXPx](./getcubepointxpx/) | Gets x-coordinate of the apex point of walls cube after calls Chart.Calculate() method.The number of apex points of walls cube is eight | 
 |[GetCubePointYPx](./getcubepointypx/) | Gets y-coordinate of the apex point of walls cube after calls Chart.Calculate() method.The number of apex points of walls cube is eight. | 
-|[GetBorder](./getborder/) | Gets or sets the border <see cref="Line"/>. | 
-|[SetBorder](./setborder/) | Gets or sets the border <see cref="Line"/>. | 
+|[GetBorder](./getborder/) | Gets or sets the border Line. | 
+|[SetBorder](./setborder/) | Gets or sets the border Line. | 

@@ -24,5 +24,4 @@ func (instance *NegativeBarFormat) GetColorType()  (DataBarNegativeColorType,  e
 ## See Also
 
 * Class [NegativeBarFormat](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -95,7 +95,6 @@ cells.merge(5, 4, 2, 2);
 | [createRange(string)](#createRange-string-)| Creates a [Range](../range/) object from an address of the range. |
 | [createRange(number, number, boolean)](#createRange-number-number-boolean-)| Creates a [Range](../range/) object from rows of cells or columns of cells. |
 | [clear()](#clear--)| Clears all data of the worksheet. |
-| [importObjectArray(object[], number, number, boolean, number)](#importObjectArray-objectarray-number-number-boolean-number-)| Imports an array of data into a worksheet. |
 | [importFormulaArray(string[], number, number, boolean)](#importFormulaArray-stringarray-number-number-boolean-)| Imports an array of formula into a worksheet. |
 | [textToColumns(number, number, number, TxtLoadOptions)](#textToColumns-number-number-number-txtloadoptions-)| Splits content in specified column into multiple columns.. |
 | [importCSV(string, string, boolean, number, number)](#importCSV-string-string-boolean-number-number-)| Import a CSV file to the cells. |
@@ -1029,23 +1028,6 @@ Clears all data of the worksheet.
 clear() : void;
 ```
 
-
-### importObjectArray(object[], number, number, boolean, number) {#importObjectArray-objectarray-number-number-boolean-number-}
-
-Imports an array of data into a worksheet.
-
-```javascript
-importObjectArray(objArray: object[], firstRow: number, firstColumn: number, isVertical: boolean, skip: number) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| objArray | object[] | Data array. |
-| firstRow | number | The row number of the first cell to import in. |
-| firstColumn | number | The column number of the first cell to import in. |
-| isVertical | boolean | Specifies to import data vertically or horizontally. |
-| skip | number | Skipped number of rows or columns. |
 
 ### importFormulaArray(string[], number, number, boolean) {#importFormulaArray-stringarray-number-number-boolean-}
 

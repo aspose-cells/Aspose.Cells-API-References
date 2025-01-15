@@ -10,7 +10,7 @@ url: /go-cpp/smarttagpropertycollection/get_string/
 
 ## Get_String function
 
-Gets a <see cref="SmartTagProperty"/> object by the name of the property.
+Gets a SmartTagProperty object by the name of the property.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *SmartTagPropertyCollection) Get_String(name string)  (*SmartTagP
 ## See Also
 
 * Class [SmartTagPropertyCollection](../)
-* Namespace [Aspose.Cells.Markup](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *TextBox) SetIsDecorative(value bool)  error
 ## See Also
 
 * Class [TextBox](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

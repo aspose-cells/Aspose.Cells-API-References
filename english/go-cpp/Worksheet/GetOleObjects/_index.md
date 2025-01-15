@@ -10,7 +10,7 @@ url: /go-cpp/worksheet/getoleobjects/
 
 ## GetOleObjects function
 
-Represents a collection of <see cref="OleObject"/> in a worksheet.
+Represents a collection of OleObject in a worksheet.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *Worksheet) GetOleObjects()  (*OleObjectCollection,  error)
 ## See Also
 
 * Class [Worksheet](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

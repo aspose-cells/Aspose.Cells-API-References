@@ -10,7 +10,7 @@ url: /go-cpp/groupshape/getreflection/
 
 ## GetReflection function
 
-Represents a <see cref="ReflectionEffect"/> object that specifies reflection effect for the chart element or shape.
+Represents a ReflectionEffect object that specifies reflection effect for the chart element or shape.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *GroupShape) GetReflection()  (*ReflectionEffect,  error)
 ## See Also
 
 * Class [GroupShape](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

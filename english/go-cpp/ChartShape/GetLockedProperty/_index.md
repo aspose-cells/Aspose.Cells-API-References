@@ -24,5 +24,4 @@ func (instance *ChartShape) GetLockedProperty(type_ ShapeLockType)  (bool,  erro
 ## See Also
 
 * Class [ChartShape](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

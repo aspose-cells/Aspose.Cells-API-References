@@ -24,5 +24,4 @@ func (instance *Cells) Find_Object_Cell(what *Object, previouscell *Cell)  (*Cel
 ## See Also
 
 * Class [Cells](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

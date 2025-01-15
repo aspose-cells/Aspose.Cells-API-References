@@ -24,5 +24,4 @@ func (instance *ErrorCheckOptionCollection) Add()  (int32,  error)
 ## See Also
 
 * Class [ErrorCheckOptionCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

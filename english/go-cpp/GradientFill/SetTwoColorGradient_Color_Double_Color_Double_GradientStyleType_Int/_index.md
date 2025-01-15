@@ -24,5 +24,4 @@ func (instance *GradientFill) SetTwoColorGradient_Color_Double_Color_Double_Grad
 ## See Also
 
 * Class [GradientFill](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

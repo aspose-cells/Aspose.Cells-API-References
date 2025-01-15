@@ -10,7 +10,7 @@ url: /go-cpp/smarttagsetting/get_int/
 
 ## Get_Int function
 
-Gets a <see cref="SmartTagCollection"/> object by the index.
+Gets a SmartTagCollection object by the index.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *SmartTagSetting) Get_Int(index int32)  (*SmartTagCollection,  er
 ## See Also
 
 * Class [SmartTagSetting](../)
-* Namespace [Aspose.Cells.Markup](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

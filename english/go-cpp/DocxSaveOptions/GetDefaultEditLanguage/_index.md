@@ -24,5 +24,4 @@ func (instance *DocxSaveOptions) GetDefaultEditLanguage()  (DefaultEditLanguage,
 ## See Also
 
 * Class [DocxSaveOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

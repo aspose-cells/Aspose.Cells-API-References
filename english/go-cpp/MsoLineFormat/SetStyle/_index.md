@@ -24,5 +24,4 @@ func (instance *MsoLineFormat) SetStyle(value MsoLineStyle)  error
 ## See Also
 
 * Class [MsoLineFormat](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *PivotField) GroupBy_Double_Double_Double_Bool(start float64, end
 ## See Also
 
 * Class [PivotField](../)
-* Namespace [Aspose.Cells.Pivot](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

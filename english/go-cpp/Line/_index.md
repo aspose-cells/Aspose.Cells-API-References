@@ -51,14 +51,14 @@ type Line struct  {
 |[SetEndArrowWidth](./setendarrowwidth/) | Specifies the width of the arrowhead for the end of a line. | 
 |[GetThemeColor](./getthemecolor/) | Gets and sets the theme color. | 
 |[SetThemeColor](./setthemecolor/) | Gets and sets the theme color. | 
-|[GetColor](./getcolor/) | Represents the <see cref="Color"/> of the line. | 
-|[SetColor](./setcolor/) | Represents the <see cref="Color"/> of the line. | 
+|[GetColor](./getcolor/) | Represents the Color of the line. | 
+|[SetColor](./setcolor/) | Represents the Color of the line. | 
 |[GetTransparency](./gettransparency/) | Returns or sets the degree of transparency of the line as a value from 0.0 (opaque) through 1.0 (clear). | 
 |[SetTransparency](./settransparency/) | Returns or sets the degree of transparency of the line as a value from 0.0 (opaque) through 1.0 (clear). | 
 |[GetStyle](./getstyle/) | Represents the style of the line. | 
 |[SetStyle](./setstyle/) | Represents the style of the line. | 
-|[GetWeight](./getweight/) | Gets or sets the <see cref="WeightType"/> of the line. | 
-|[SetWeight](./setweight/) | Gets or sets the <see cref="WeightType"/> of the line. | 
+|[GetWeight](./getweight/) | Gets or sets the WeightType of the line. | 
+|[SetWeight](./setweight/) | Gets or sets the WeightType of the line. | 
 |[GetWeightPt](./getweightpt/) | Gets or sets the weight of the line in unit of points. | 
 |[SetWeightPt](./setweightpt/) | Gets or sets the weight of the line in unit of points. | 
 |[GetWeightPx](./getweightpx/) | Gets or sets the weight of the line in unit of pixels. | 

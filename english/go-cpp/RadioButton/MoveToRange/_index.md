@@ -24,5 +24,4 @@ func (instance *RadioButton) MoveToRange(upperleftrow int32, upperleftcolumn int
 ## See Also
 
 * Class [RadioButton](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

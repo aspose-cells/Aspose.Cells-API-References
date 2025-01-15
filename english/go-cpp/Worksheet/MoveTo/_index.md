@@ -24,5 +24,4 @@ func (instance *Worksheet) MoveTo(index int32)  error
 ## See Also
 
 * Class [Worksheet](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

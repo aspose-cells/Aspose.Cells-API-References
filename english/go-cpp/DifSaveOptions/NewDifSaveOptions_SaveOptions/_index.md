@@ -24,5 +24,4 @@ func NewDifSaveOptions_SaveOptions(src *SaveOptions) ( *DifSaveOptions, error)
 ## See Also
 
 * Class [DifSaveOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

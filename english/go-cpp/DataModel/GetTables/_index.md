@@ -24,5 +24,4 @@ func (instance *DataModel) GetTables()  (*DataModelTableCollection,  error)
 ## See Also
 
 * Class [DataModel](../)
-* Namespace [Aspose.Cells.DataModels](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

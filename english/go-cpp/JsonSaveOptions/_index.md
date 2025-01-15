@@ -35,6 +35,10 @@ type JsonSaveOptions struct  {
 |[SetExportHyperlinkType](./setexporthyperlinktype/) | Represents the type of exporting hyperlink to json. | 
 |[GetSkipEmptyRows](./getskipemptyrows/) | Indicates whether skipping emtpy rows. | 
 |[SetSkipEmptyRows](./setskipemptyrows/) | Indicates whether skipping emtpy rows. | 
+|[GetSheetIndexes](./getsheetindexes/) | Represents the indexes of exported sheets. | 
+|[SetSheetIndexes](./setsheetindexes/) | Represents the indexes of exported sheets. | 
+|[GetSchemas](./getschemas/) | The original json schema of each worksheet. | 
+|[SetSchemas](./setschemas/) | The original json schema of each worksheet. | 
 |[GetExportArea](./getexportarea/) | Gets or sets the exporting range. | 
 |[SetExportArea](./setexportarea/) | Gets or sets the exporting range. | 
 |[GetHasHeaderRow](./gethasheaderrow/) | Indicates whether the range contains header row. | 

@@ -24,5 +24,4 @@ func NewExportRangeToJsonOptions() ( *ExportRangeToJsonOptions, error)
 ## See Also
 
 * Class [ExportRangeToJsonOptions](../)
-* Namespace [Aspose.Cells.Utility](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func NewXlsbSaveOptions_SaveOptions(src *SaveOptions) ( *XlsbSaveOptions, error)
 ## See Also
 
 * Class [XlsbSaveOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

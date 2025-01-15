@@ -30,7 +30,7 @@ type DBConnection struct  {
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
-|[GetClassType](./getclasstype/) | Gets the type of this <see cref="ExternalConnection"/> object. | 
+|[GetClassType](./getclasstype/) | Gets the type of this ExternalConnection object. | 
 |[GetConnectionString](./getconnectionstring/) | The connection information string is used to make contact with an OLE DB or ODBC data source. | 
 |[SetConnectionString](./setconnectionstring/) | The connection information string is used to make contact with an OLE DB or ODBC data source. | 
 |[GetPowerQueryFormula](./getpowerqueryformula/) | Gets the definition of power query formula. | 
@@ -75,5 +75,5 @@ type DBConnection struct  {
 |[SetCredentialsMethodType](./setcredentialsmethodtype/) | Specifies the authentication method to be used when establishing (or re-establishing) the connection. | 
 |[GetBackgroundRefresh](./getbackgroundrefresh/) | Indicates whether the connection can be refreshed in the background (asynchronously).true if preferred usage of the connection is to refresh asynchronously in the background;false if preferred usage of the connection is to refresh synchronously in the foreground. | 
 |[SetBackgroundRefresh](./setbackgroundrefresh/) | Indicates whether the connection can be refreshed in the background (asynchronously).true if preferred usage of the connection is to refresh asynchronously in the background;false if preferred usage of the connection is to refresh synchronously in the foreground. | 
-|[GetParameters](./getparameters/) | Gets <see cref="ConnectionParameterCollection"/> for an ODBC or web query. | 
+|[GetParameters](./getparameters/) | Gets ConnectionParameterCollection for an ODBC or web query. | 
 |[GetConnectionFile](./getconnectionfile/) | Gets the connection file. | 

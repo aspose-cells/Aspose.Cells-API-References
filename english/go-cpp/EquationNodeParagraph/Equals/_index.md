@@ -24,5 +24,4 @@ func (instance *EquationNodeParagraph) Equals(obj *Object)  (bool,  error)
 ## See Also
 
 * Class [EquationNodeParagraph](../)
-* Namespace [Aspose.Cells.Drawing.Equations](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

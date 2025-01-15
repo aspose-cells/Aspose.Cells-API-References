@@ -31,7 +31,7 @@ type LegendEntry struct  {
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[IsDeleted](./isdeleted/) | Gets and sets whether the legend entry is deleted. | 
 |[SetIsDeleted](./setisdeleted/) | Gets and sets whether the legend entry is deleted. | 
-|[GetFont](./getfont/) | Gets a <see cref="Font"/> object of the specified ChartFrame object. | 
+|[GetFont](./getfont/) | Gets a Font object of the specified ChartFrame object. | 
 |[IsTextNoFill](./istextnofill/) | Gets or sets no fill of the text. | 
 |[SetIsTextNoFill](./setistextnofill/) | Gets or sets no fill of the text. | 
 |[GetAutoScaleFont](./getautoscalefont/) | True if the text in the object changes font size when the object size changes.The default value is True. | 

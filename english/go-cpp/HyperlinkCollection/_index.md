@@ -32,7 +32,7 @@ type HyperlinkCollection struct  {
 |[Add_Int_Int_Int_Int_String](./add_int_int_int_int_string/) | Adds a hyperlink to a specified cell or a range of cells. | 
 |[Add_String_Int_Int_String](./add_string_int_int_string/) | Adds a hyperlink to a specified cell or a range of cells. | 
 |[Add_String_String_String_String_String](./add_string_string_string_string_string/) | Adds a hyperlink to a specified cell or a range of cells. | 
-|[Get](./get/) | Gets the <see cref="Hyperlink"/> element at the specified index. | 
+|[Get](./get/) | Gets the Hyperlink element at the specified index. | 
 |[RemoveAt](./removeat/) | Remove the hyperlink  at the specified index in this collection. | 
 |[Clear](./clear/) | Clears all hyperlinks. | 
 |[GetCount](./getcount/) |  | 

@@ -24,5 +24,4 @@ func (instance *AbstractTextLoadOptions) GetRegion()  (CountryCode,  error)
 ## See Also
 
 * Class [AbstractTextLoadOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

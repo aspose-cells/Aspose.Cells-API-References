@@ -24,5 +24,4 @@ func (instance *PivotTable) ShowDetail(rowoffset int32, columnoffset int32, news
 ## See Also
 
 * Class [PivotTable](../)
-* Namespace [Aspose.Cells.Pivot](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

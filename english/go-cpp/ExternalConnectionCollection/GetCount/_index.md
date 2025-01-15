@@ -23,5 +23,4 @@ func (instance *ExternalConnectionCollection) GetCount()  (int32,  error)
 ## See Also
 
 * Class [ExternalConnectionCollection](../)
-* Namespace [Aspose.Cells.ExternalConnections](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

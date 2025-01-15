@@ -10,7 +10,7 @@ url: /go-cpp/chartarea/getfont/
 
 ## GetFont function
 
-Gets a <see cref="Font"/> object of the specified chartarea object.
+Gets a Font object of the specified chartarea object.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *ChartArea) GetFont()  (*Font,  error)
 ## See Also
 
 * Class [ChartArea](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

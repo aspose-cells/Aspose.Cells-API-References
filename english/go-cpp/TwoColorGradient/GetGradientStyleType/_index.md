@@ -24,5 +24,4 @@ func (instance *TwoColorGradient) GetGradientStyleType()  (GradientStyleType,  e
 ## See Also
 
 * Class [TwoColorGradient](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

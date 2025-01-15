@@ -24,5 +24,4 @@ func (instance *ThreadedComment) IsNull()  (bool,  error)
 ## See Also
 
 * Class [ThreadedComment](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

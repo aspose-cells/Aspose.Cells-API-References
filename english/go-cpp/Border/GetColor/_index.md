@@ -10,7 +10,7 @@ url: /go-cpp/border/getcolor/
 
 ## GetColor function
 
-Gets or sets the <see cref="Color"/> of the border.
+Gets or sets the Color of the border.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *Border) GetColor()  (*Color,  error)
 ## See Also
 
 * Class [Border](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

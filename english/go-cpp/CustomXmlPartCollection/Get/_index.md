@@ -24,5 +24,4 @@ func (instance *CustomXmlPartCollection) Get(index int32)  (*CustomXmlPart,  err
 ## See Also
 
 * Class [CustomXmlPartCollection](../)
-* Namespace [Aspose.Cells.Markup](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

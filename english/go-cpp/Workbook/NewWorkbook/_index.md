@@ -10,7 +10,7 @@ url: /go-cpp/workbook/newworkbook/
 
 ## NewWorkbook function
 
-Initializes a new instance of the <see cref="Workbook"/> class.
+Initializes a new instance of the Workbook class.
 
 ```go
 
@@ -24,5 +24,4 @@ func NewWorkbook() ( *Workbook, error)
 ## See Also
 
 * Class [Workbook](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

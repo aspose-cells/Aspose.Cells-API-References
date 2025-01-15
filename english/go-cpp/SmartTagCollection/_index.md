@@ -31,6 +31,6 @@ type SmartTagCollection struct  {
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[GetRow](./getrow/) | Gets the row of the cell smart tags. | 
 |[GetColumn](./getcolumn/) | Gets the column of the cell smart tags. | 
-|[Get](./get/) | Gets a <see cref="SmartTag"/> object at the specific index | 
+|[Get](./get/) | Gets a SmartTag object at the specific index | 
 |[Add](./add/) | Adds a smart tag. | 
 |[GetCount](./getcount/) |  | 

@@ -24,5 +24,4 @@ func (instance *FormatCondition) GetFormula1_Bool_Bool(isr1c1 bool, islocal bool
 ## See Also
 
 * Class [FormatCondition](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

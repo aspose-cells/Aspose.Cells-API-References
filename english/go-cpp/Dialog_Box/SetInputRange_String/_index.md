@@ -24,5 +24,4 @@ func (instance *Dialog_Box) SetInputRange_String(value string)  error
 ## See Also
 
 * Class [Dialog_Box](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

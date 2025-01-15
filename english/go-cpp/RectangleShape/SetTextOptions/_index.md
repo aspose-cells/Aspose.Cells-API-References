@@ -24,5 +24,4 @@ func (instance *RectangleShape) SetTextOptions(value *TextOptions)  error
 ## See Also
 
 * Class [RectangleShape](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

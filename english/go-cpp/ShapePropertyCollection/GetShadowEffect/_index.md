@@ -10,7 +10,7 @@ url: /go-cpp/shapepropertycollection/getshadoweffect/
 
 ## GetShadowEffect function
 
-Represents a <see cref="ShadowEffect"/> object that specifies shadow effect for the chart element or shape.
+Represents a ShadowEffect object that specifies shadow effect for the chart element or shape.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *ShapePropertyCollection) GetShadowEffect()  (*ShadowEffect,  err
 ## See Also
 
 * Class [ShapePropertyCollection](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

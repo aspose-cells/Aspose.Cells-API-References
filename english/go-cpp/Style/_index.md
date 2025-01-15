@@ -38,7 +38,7 @@ type Style struct  {
 |[GetPattern](./getpattern/) | Gets or sets the cell background pattern type. | 
 |[SetPattern](./setpattern/) | Gets or sets the cell background pattern type. | 
 |[SetPatternColor](./setpatterncolor/) | Sets the background color. | 
-|[GetBorders](./getborders/) | Gets the <see cref="BorderCollection"/> of the style. | 
+|[GetBorders](./getborders/) | Gets the BorderCollection of the style. | 
 |[GetBackgroundColor](./getbackgroundcolor/) | Gets or sets a style's background color. | 
 |[SetBackgroundColor](./setbackgroundcolor/) | Gets or sets a style's background color. | 
 |[GetBackgroundArgbColor](./getbackgroundargbcolor/) | Gets and sets the background color with a 32-bit ARGB value. | 
@@ -68,7 +68,7 @@ type Style struct  {
 |[GetHashCode](./gethashcode/) | Serves as a hash function for a Style object. | 
 |[GetIndentLevel](./getindentlevel/) | Represents the indent level for the cell or range. Can only be an integer from 0 to 250. | 
 |[SetIndentLevel](./setindentlevel/) | Represents the indent level for the cell or range. Can only be an integer from 0 to 250. | 
-|[GetFont](./getfont/) | Gets a <see cref="Font"/> object. | 
+|[GetFont](./getfont/) | Gets a Font object. | 
 |[GetRotationAngle](./getrotationangle/) | Represents text rotation angle. | 
 |[SetRotationAngle](./setrotationangle/) | Represents text rotation angle. | 
 |[GetHorizontalAlignment](./gethorizontalalignment/) | Gets or sets the horizontal alignment type of the text in a cell. | 
@@ -105,4 +105,4 @@ type Style struct  {
 |[GetTwoColorGradientSetting](./gettwocolorgradientsetting/) | Get the two-color gradient setting. | 
 |[IsPercent](./ispercent/) | Indicates whether the number format is a percent format. | 
 |[IsDateTime](./isdatetime/) | Indicates whether the number format is a date format. | 
-|[ToJson](./tojson/) | Convert <see cref="Style"/> to JSON struct data. | 
+|[ToJson](./tojson/) | Convert Style to JSON struct data. | 

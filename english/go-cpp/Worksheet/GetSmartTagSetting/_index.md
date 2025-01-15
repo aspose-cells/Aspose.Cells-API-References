@@ -10,7 +10,7 @@ url: /go-cpp/worksheet/getsmarttagsetting/
 
 ## GetSmartTagSetting function
 
-Gets all <see cref="SmartTagCollection"/> objects of the worksheet.
+Gets all SmartTagCollection objects of the worksheet.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *Worksheet) GetSmartTagSetting()  (*SmartTagSetting,  error)
 ## See Also
 
 * Class [Worksheet](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

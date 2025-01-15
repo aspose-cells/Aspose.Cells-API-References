@@ -10,7 +10,7 @@ url: /go-cpp/pivotitemcollection/get_string/
 
 ## Get_String function
 
-Gets the <see cref="PivotItem"/> by the specific name.
+Gets the PivotItem by the specific name.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *PivotItemCollection) Get_String(itemvalue string)  (*PivotItem, 
 ## See Also
 
 * Class [PivotItemCollection](../)
-* Namespace [Aspose.Cells.Pivot](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

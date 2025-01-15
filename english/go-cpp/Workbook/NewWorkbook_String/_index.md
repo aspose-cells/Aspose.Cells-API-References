@@ -10,7 +10,7 @@ url: /go-cpp/workbook/newworkbook_string/
 
 ## NewWorkbook_String function
 
-Initializes a new instance of the <see cref="Workbook"/> class and open a file.
+Initializes a new instance of the Workbook class and open a file.
 
 ```go
 
@@ -24,5 +24,4 @@ func NewWorkbook_String(file string) ( *Workbook, error)
 ## See Also
 
 * Class [Workbook](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

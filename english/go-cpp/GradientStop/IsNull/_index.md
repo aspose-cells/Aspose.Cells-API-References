@@ -24,5 +24,4 @@ func (instance *GradientStop) IsNull()  (bool,  error)
 ## See Also
 
 * Class [GradientStop](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

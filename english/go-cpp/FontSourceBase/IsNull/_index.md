@@ -24,5 +24,4 @@ func (instance *FontSourceBase) IsNull()  (bool,  error)
 ## See Also
 
 * Class [FontSourceBase](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

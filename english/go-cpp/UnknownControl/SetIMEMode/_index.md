@@ -24,5 +24,4 @@ func (instance *UnknownControl) SetIMEMode(value InputMethodEditorMode)  error
 ## See Also
 
 * Class [UnknownControl](../)
-* Namespace [Aspose.Cells.Drawing.ActiveXControls](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

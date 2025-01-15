@@ -24,5 +24,4 @@ func (instance *XpsSaveOptions) SetAllColumnsInOnePagePerSheet(value bool)  erro
 ## See Also
 
 * Class [XpsSaveOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

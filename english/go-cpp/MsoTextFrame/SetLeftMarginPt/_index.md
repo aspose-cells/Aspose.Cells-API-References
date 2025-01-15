@@ -24,5 +24,4 @@ func (instance *MsoTextFrame) SetLeftMarginPt(value float64)  error
 ## See Also
 
 * Class [MsoTextFrame](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

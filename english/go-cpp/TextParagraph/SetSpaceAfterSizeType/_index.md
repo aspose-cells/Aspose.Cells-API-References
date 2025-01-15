@@ -24,5 +24,4 @@ func (instance *TextParagraph) SetSpaceAfterSizeType(value LineSpaceSizeType)  e
 ## See Also
 
 * Class [TextParagraph](../)
-* Namespace [Aspose.Cells.Drawing.Texts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

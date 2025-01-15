@@ -43,6 +43,8 @@ type RadioButtonActiveXControl struct  {
 |[SetPicturePosition](./setpictureposition/) | Gets and set the location of the control's picture relative to its caption. | 
 |[GetSpecialEffect](./getspecialeffect/) | Gets and sets the special effect of the control. | 
 |[SetSpecialEffect](./setspecialeffect/) | Gets and sets the special effect of the control. | 
+|[GetPicture](./getpicture/) | Gets and sets the data of the picture. | 
+|[SetPicture](./setpicture/) | Gets and sets the data of the picture. | 
 |[GetAccelerator](./getaccelerator/) | Gets and sets the accelerator key for the control. | 
 |[SetAccelerator](./setaccelerator/) | Gets and sets the accelerator key for the control. | 
 |[GetValue](./getvalue/) | Indicates if the control is checked or not. | 

@@ -10,7 +10,7 @@ url: /go-cpp/textoptions/getshadow/
 
 ## GetShadow function
 
-Represents a <see cref="ShadowEffect"/> object that specifies shadow effect for the chart element or shape.
+Represents a ShadowEffect object that specifies shadow effect for the chart element or shape.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *TextOptions) GetShadow()  (*ShadowEffect,  error)
 ## See Also
 
 * Class [TextOptions](../)
-* Namespace [Aspose.Cells.Drawing.Texts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

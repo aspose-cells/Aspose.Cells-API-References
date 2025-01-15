@@ -24,5 +24,4 @@ func (instance *Label) SetY(value int32)  error
 ## See Also
 
 * Class [Label](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

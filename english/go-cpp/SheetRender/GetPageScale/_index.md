@@ -10,7 +10,7 @@ url: /go-cpp/sheetrender/getpagescale/
 
 ## GetPageScale function
 
-Gets calculated page scale of the sheet.Returns the set scale if <see cref="PageSetup.Zoom"/> is set. Otherwise, returns the calculated scale according to <see cref="PageSetup.FitToPagesWide"/> and <see cref="PageSetup.FitToPagesTall"/>.
+Gets calculated page scale of the sheet.Returns the set scale if PageSetup.Zoom is set. Otherwise, returns the calculated scale according to PageSetup.FitToPagesWide and PageSetup.FitToPagesTall.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *SheetRender) GetPageScale()  (float64,  error)
 ## See Also
 
 * Class [SheetRender](../)
-* Namespace [Aspose.Cells.Rendering](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

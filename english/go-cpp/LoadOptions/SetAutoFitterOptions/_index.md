@@ -24,5 +24,4 @@ func (instance *LoadOptions) SetAutoFitterOptions(value *AutoFitterOptions)  err
 ## See Also
 
 * Class [LoadOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

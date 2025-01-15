@@ -24,5 +24,4 @@ func (instance *HtmlSaveOptions) GetCalculateFormula()  (bool,  error)
 ## See Also
 
 * Class [HtmlSaveOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

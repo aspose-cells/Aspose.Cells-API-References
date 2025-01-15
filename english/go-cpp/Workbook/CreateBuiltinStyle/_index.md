@@ -24,5 +24,4 @@ func (instance *Workbook) CreateBuiltinStyle(type_ BuiltinStyleType)  (*Style,  
 ## See Also
 
 * Class [Workbook](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

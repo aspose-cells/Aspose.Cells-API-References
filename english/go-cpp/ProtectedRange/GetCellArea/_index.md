@@ -10,7 +10,7 @@ url: /go-cpp/protectedrange/getcellarea/
 
 ## GetCellArea function
 
-Gets the <see cref="CellArea"/> object represents the cell area to be protected.
+Gets the CellArea object represents the cell area to be protected.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *ProtectedRange) GetCellArea()  (*CellArea,  error)
 ## See Also
 
 * Class [ProtectedRange](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

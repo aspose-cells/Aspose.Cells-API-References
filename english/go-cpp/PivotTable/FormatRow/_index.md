@@ -24,5 +24,4 @@ func (instance *PivotTable) FormatRow(row int32, style *Style)  error
 ## See Also
 
 * Class [PivotTable](../)
-* Namespace [Aspose.Cells.Pivot](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

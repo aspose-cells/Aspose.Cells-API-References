@@ -24,5 +24,4 @@ func (instance *PaneCollection) SetFirstVisibleColumnOfRightPane(value int32)  e
 ## See Also
 
 * Class [PaneCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

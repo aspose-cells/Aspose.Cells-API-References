@@ -10,7 +10,7 @@ url: /go-cpp/renderingfont/newrenderingfont/
 
 ## NewRenderingFont function
 
-Initializes a new instance of the <see cref="RenderingFont"/>
+Initializes a new instance of the RenderingFont
 
 ```go
 
@@ -24,5 +24,4 @@ func NewRenderingFont(fontname string, fontsize float32) ( *RenderingFont, error
 ## See Also
 
 * Class [RenderingFont](../)
-* Namespace [Aspose.Cells.Rendering](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

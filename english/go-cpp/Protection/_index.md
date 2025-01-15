@@ -58,12 +58,12 @@ type Protection struct  {
 |[SetAllowEditingObject](./setalloweditingobject/) | Represents if the user is allowed to manipulate drawing objects on a protected worksheet. | 
 |[GetAllowEditingScenario](./getalloweditingscenario/) | Represents if the user is allowed to edit scenarios on a protected worksheet. | 
 |[SetAllowEditingScenario](./setalloweditingscenario/) | Represents if the user is allowed to edit scenarios on a protected worksheet. | 
-|[GetPassword](./getpassword/) | Represents the password to protect the worksheet. | 
-|[SetPassword](./setpassword/) | Represents the password to protect the worksheet. | 
-|[GetPasswordHash](./getpasswordhash/) | Gets the hash of current password. | 
-|[IsProtectedWithPassword](./isprotectedwithpassword/) | Indicates whether the worksheets is protected with password. | 
-|[VerifyPassword](./verifypassword/) | Verifies password. | 
 |[GetAllowSelectingLockedCell](./getallowselectinglockedcell/) | Represents if the user is allowed to select locked cells on a protected worksheet. | 
 |[SetAllowSelectingLockedCell](./setallowselectinglockedcell/) | Represents if the user is allowed to select locked cells on a protected worksheet. | 
 |[GetAllowSelectingUnlockedCell](./getallowselectingunlockedcell/) | Represents if the user is allowed to select unlocked cells on a protected worksheet. | 
 |[SetAllowSelectingUnlockedCell](./setallowselectingunlockedcell/) | Represents if the user is allowed to select unlocked cells on a protected worksheet. | 
+|[GetPassword](./getpassword/) | Represents the password to protect the worksheet. | 
+|[SetPassword](./setpassword/) | Represents the password to protect the worksheet. | 
+|[IsProtectedWithPassword](./isprotectedwithpassword/) | Indicates whether the worksheets is protected with password. | 
+|[VerifyPassword](./verifypassword/) | Verifies password. | 
+|[GetPasswordHash](./getpasswordhash/) | Gets the hash of current password. | 

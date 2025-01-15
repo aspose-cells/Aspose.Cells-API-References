@@ -24,5 +24,4 @@ func (instance *TimelineCollection) Add_PivotTable_String_PivotField(pivot *Pivo
 ## See Also
 
 * Class [TimelineCollection](../)
-* Namespace [Aspose.Cells.Timelines](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

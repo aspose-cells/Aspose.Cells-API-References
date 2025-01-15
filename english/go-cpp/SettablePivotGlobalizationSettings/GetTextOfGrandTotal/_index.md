@@ -24,5 +24,4 @@ func (instance *SettablePivotGlobalizationSettings) GetTextOfGrandTotal()  (stri
 ## See Also
 
 * Class [SettablePivotGlobalizationSettings](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

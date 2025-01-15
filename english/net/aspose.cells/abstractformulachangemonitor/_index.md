@@ -29,7 +29,7 @@ For example, while deleting/inserting range of cells, formulas of other cells ma
 [C#]
 Workbook wb = new Workbook("template.xlsx");
 InsertOptions options = new InsertOptions();
-options.CellChangeMonitor = new MyFormulaChangeMonitor(wb.Worksheets);
+options.FormulaChangeMonitor = new MyFormulaChangeMonitor(wb.Worksheets);
 wb.Worksheets[0].Cells.InsertRows(0, 2, options);
 
 class MyFormulaChangeMonitor : AbstractFormulaChangeMonitor
@@ -37,7 +37,7 @@ class MyFormulaChangeMonitor : AbstractFormulaChangeMonitor
     private readonly WorksheetCollection mWorksheets;
     public MyFormulaChangeMonitor(WorksheetCollection worksheets)
     {
-        mWorksheets = worksheet;
+        mWorksheets = worksheets;
     }
     public override void OnCellFormulaChanged(int sheetIndex, int rowIndex, int columnIndex)
     {

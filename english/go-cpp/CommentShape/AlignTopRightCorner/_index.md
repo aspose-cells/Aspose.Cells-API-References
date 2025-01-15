@@ -24,5 +24,4 @@ func (instance *CommentShape) AlignTopRightCorner(toprow int32, rightcolumn int3
 ## See Also
 
 * Class [CommentShape](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

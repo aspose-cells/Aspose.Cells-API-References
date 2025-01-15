@@ -24,5 +24,4 @@ func (instance *CustomFilter) SetCriteria_FilterOperatorType_Object(filteroperat
 ## See Also
 
 * Class [CustomFilter](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

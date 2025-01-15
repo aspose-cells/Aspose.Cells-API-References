@@ -24,5 +24,4 @@ func (instance *ListObject) PutCellValue_Int_Int_Object_Bool(rowoffset int32, co
 ## See Also
 
 * Class [ListObject](../)
-* Namespace [Aspose.Cells.Tables](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

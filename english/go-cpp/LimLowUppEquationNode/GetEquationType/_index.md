@@ -24,5 +24,4 @@ func (instance *LimLowUppEquationNode) GetEquationType()  (EquationNodeType,  er
 ## See Also
 
 * Class [LimLowUppEquationNode](../)
-* Namespace [Aspose.Cells.Drawing.Equations](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

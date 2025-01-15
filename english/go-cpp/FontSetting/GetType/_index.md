@@ -24,5 +24,4 @@ func (instance *FontSetting) GetType()  (TextNodeType,  error)
 ## See Also
 
 * Class [FontSetting](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

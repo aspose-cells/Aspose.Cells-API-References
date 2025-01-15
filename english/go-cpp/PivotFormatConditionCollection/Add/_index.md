@@ -24,5 +24,4 @@ func (instance *PivotFormatConditionCollection) Add()  (int32,  error)
 ## See Also
 
 * Class [PivotFormatConditionCollection](../)
-* Namespace [Aspose.Cells.Pivot](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

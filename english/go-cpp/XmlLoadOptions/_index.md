@@ -77,8 +77,8 @@ type XmlLoadOptions struct  {
 |[SetAutoFitterOptions](./setautofitteroptions/) | Gets and sets the auto fitter options | 
 |[GetAutoFilter](./getautofilter/) | Indicates whether auto filtering the data when loading the files. | 
 |[SetAutoFilter](./setautofilter/) | Indicates whether auto filtering the data when loading the files. | 
-|[GetFontConfigs](./getfontconfigs/) | Gets and sets individual font configs.Only works for the <see cref="Workbook"/> which uses this <see cref="LoadOptions"/> to load. | 
-|[SetFontConfigs](./setfontconfigs/) | Gets and sets individual font configs.Only works for the <see cref="Workbook"/> which uses this <see cref="LoadOptions"/> to load. | 
+|[GetFontConfigs](./getfontconfigs/) | Gets and sets individual font configs.Only works for the Workbook which uses this LoadOptions to load. | 
+|[SetFontConfigs](./setfontconfigs/) | Gets and sets individual font configs.Only works for the Workbook which uses this LoadOptions to load. | 
 |[GetIgnoreUselessShapes](./getignoreuselessshapes/) | Indicates whether ignoring useless shapes. | 
 |[SetIgnoreUselessShapes](./setignoreuselessshapes/) | Indicates whether ignoring useless shapes. | 
 |[GetPreservePaddingSpacesInFormula](./getpreservepaddingspacesinformula/) | Indicates whether preserve those spaces and line breaks that are padded between formula tokenswhile getting and setting formulas.Default value is false. | 

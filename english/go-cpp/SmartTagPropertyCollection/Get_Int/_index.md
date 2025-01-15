@@ -10,7 +10,7 @@ url: /go-cpp/smarttagpropertycollection/get_int/
 
 ## Get_Int function
 
-Gets a <see cref="SmartTagProperty"/> object.
+Gets a SmartTagProperty object.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *SmartTagPropertyCollection) Get_Int(index int32)  (*SmartTagProp
 ## See Also
 
 * Class [SmartTagPropertyCollection](../)
-* Namespace [Aspose.Cells.Markup](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -10,7 +10,7 @@ url: /go-cpp/vbamodulecollection/get_int/
 
 ## Get_Int function
 
-Gets <see cref="VbaModule"/> in the list by the index.
+Gets VbaModule in the list by the index.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *VbaModuleCollection) Get_Int(index int32)  (*VbaModule,  error)
 ## See Also
 
 * Class [VbaModuleCollection](../)
-* Namespace [Aspose.Cells.Vba](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

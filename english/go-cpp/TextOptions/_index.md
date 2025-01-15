@@ -40,7 +40,7 @@ type TextOptions struct  {
 |[SetFarEastName](./setfareastname/) | Gets and sets the FarEast name. | 
 |[GetFill](./getfill/) | Represents the fill format of the text. | 
 |[GetOutline](./getoutline/) | Represents the outline format of the text. | 
-|[GetShadow](./getshadow/) | Represents a <see cref="ShadowEffect"/> object that specifies shadow effect for the chart element or shape. | 
+|[GetShadow](./getshadow/) | Represents a ShadowEffect object that specifies shadow effect for the chart element or shape. | 
 |[GetUnderlineColor](./getunderlinecolor/) | Gets or sets the color of underline. | 
 |[SetUnderlineColor](./setunderlinecolor/) | Gets or sets the color of underline. | 
 |[GetKerning](./getkerning/) | Specifies the minimum font size at which character kerning will occur for this text run. | 

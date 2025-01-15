@@ -24,5 +24,4 @@ func (instance *Validation) GetValue(row int32, column int32, isvalue1 bool)  (*
 ## See Also
 
 * Class [Validation](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

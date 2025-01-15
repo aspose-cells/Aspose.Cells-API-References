@@ -24,5 +24,4 @@ func (instance *ActiveXControl) GetLinkedCell()  (string,  error)
 ## See Also
 
 * Class [ActiveXControl](../)
-* Namespace [Aspose.Cells.Drawing.ActiveXControls](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

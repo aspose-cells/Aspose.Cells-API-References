@@ -24,5 +24,4 @@ func (instance *PivotAreaFilterCollection) IsNull()  (bool,  error)
 ## See Also
 
 * Class [PivotAreaFilterCollection](../)
-* Namespace [Aspose.Cells.Pivot](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

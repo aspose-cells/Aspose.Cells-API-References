@@ -24,5 +24,4 @@ func (instance *LoadOptions) SetLoadFilter(value *LoadFilter)  error
 ## See Also
 
 * Class [LoadOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

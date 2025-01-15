@@ -24,5 +24,4 @@ func (instance *Border) SetThemeColor(value *ThemeColor)  error
 ## See Also
 
 * Class [Border](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

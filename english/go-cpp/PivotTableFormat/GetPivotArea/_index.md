@@ -24,5 +24,4 @@ func (instance *PivotTableFormat) GetPivotArea()  (*PivotArea,  error)
 ## See Also
 
 * Class [PivotTableFormat](../)
-* Namespace [Aspose.Cells.Pivot](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

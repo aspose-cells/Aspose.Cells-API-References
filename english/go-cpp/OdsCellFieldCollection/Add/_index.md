@@ -24,5 +24,4 @@ func (instance *OdsCellFieldCollection) Add(row int32, column int32, fieldtype O
 ## See Also
 
 * Class [OdsCellFieldCollection](../)
-* Namespace [Aspose.Cells.Ods](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -10,7 +10,7 @@ url: /go-cpp/pivotfield/getposition/
 
 ## GetPosition function
 
-Represents the index of <see cref="PivotField"/> in the region.
+Represents the index of PivotField in the region.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *PivotField) GetPosition()  (int32,  error)
 ## See Also
 
 * Class [PivotField](../)
-* Namespace [Aspose.Cells.Pivot](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

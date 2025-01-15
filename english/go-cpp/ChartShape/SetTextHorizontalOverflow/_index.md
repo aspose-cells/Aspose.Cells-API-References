@@ -24,5 +24,4 @@ func (instance *ChartShape) SetTextHorizontalOverflow(value TextOverflowType)  e
 ## See Also
 
 * Class [ChartShape](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -10,7 +10,7 @@ url: /go-cpp/pivottable/setgrandtotalname/
 
 ## SetGrandTotalName function
 
-Returns the text string label that is displayed in the grand total column or row heading.The default value is the string "Grand Total".
+Returns the label that is displayed in the grand total column or row heading.The default value is the string "Grand Total".
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *PivotTable) SetGrandTotalName(value string)  error
 ## See Also
 
 * Class [PivotTable](../)
-* Namespace [Aspose.Cells.Pivot](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

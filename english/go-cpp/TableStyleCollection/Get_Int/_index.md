@@ -24,5 +24,4 @@ func (instance *TableStyleCollection) Get_Int(index int32)  (*TableStyle,  error
 ## See Also
 
 * Class [TableStyleCollection](../)
-* Namespace [Aspose.Cells.Tables](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

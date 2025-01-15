@@ -24,5 +24,4 @@ func (instance *DigitalSignature) SetId(value *UUID)  error
 ## See Also
 
 * Class [DigitalSignature](../)
-* Namespace [Aspose.Cells.DigitalSignatures](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

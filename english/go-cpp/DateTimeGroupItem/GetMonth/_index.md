@@ -24,5 +24,4 @@ func (instance *DateTimeGroupItem) GetMonth()  (int32,  error)
 ## See Also
 
 * Class [DateTimeGroupItem](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

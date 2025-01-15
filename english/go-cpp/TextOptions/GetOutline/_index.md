@@ -24,5 +24,4 @@ func (instance *TextOptions) GetOutline()  (*LineFormat,  error)
 ## See Also
 
 * Class [TextOptions](../)
-* Namespace [Aspose.Cells.Drawing.Texts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

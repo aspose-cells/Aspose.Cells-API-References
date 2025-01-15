@@ -10,7 +10,7 @@ url: /go-cpp/pivottable/getcellbydisplayname/
 
 ## GetCellByDisplayName function
 
-Gets the <see cref="Cell"/> object by the display name of PivotField.
+Gets the Cell object by the display name of PivotField.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *PivotTable) GetCellByDisplayName(displayname string)  (*Cell,  e
 ## See Also
 
 * Class [PivotTable](../)
-* Namespace [Aspose.Cells.Pivot](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

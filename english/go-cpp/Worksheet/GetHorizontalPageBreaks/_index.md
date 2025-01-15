@@ -10,7 +10,7 @@ url: /go-cpp/worksheet/gethorizontalpagebreaks/
 
 ## GetHorizontalPageBreaks function
 
-Gets the <see cref="HorizontalPageBreakCollection"/> collection.
+Gets the HorizontalPageBreakCollection collection.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *Worksheet) GetHorizontalPageBreaks()  (*HorizontalPageBreakColle
 ## See Also
 
 * Class [Worksheet](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *WebExtensionCollection) Add()  (int32,  error)
 ## See Also
 
 * Class [WebExtensionCollection](../)
-* Namespace [Aspose.Cells.WebExtensions](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *Marker) SetForegroundColor(value *Color)  error
 ## See Also
 
 * Class [Marker](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

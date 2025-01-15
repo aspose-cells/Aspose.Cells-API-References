@@ -24,5 +24,4 @@ func (instance *Range) AddHyperlink(address string, texttodisplay string, screen
 ## See Also
 
 * Class [Range](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

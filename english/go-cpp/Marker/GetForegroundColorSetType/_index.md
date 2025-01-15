@@ -24,5 +24,4 @@ func (instance *Marker) GetForegroundColorSetType()  (FormattingType,  error)
 ## See Also
 
 * Class [Marker](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *ExternalLinkCollection) RemoveAt_Int_Bool(index int32, updateref
 ## See Also
 
 * Class [ExternalLinkCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

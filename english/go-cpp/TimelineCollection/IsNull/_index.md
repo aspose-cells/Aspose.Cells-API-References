@@ -24,5 +24,4 @@ func (instance *TimelineCollection) IsNull()  (bool,  error)
 ## See Also
 
 * Class [TimelineCollection](../)
-* Namespace [Aspose.Cells.Timelines](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

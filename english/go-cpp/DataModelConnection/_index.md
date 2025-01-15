@@ -30,11 +30,11 @@ type DataModelConnection struct  {
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
-|[GetClassType](./getclasstype/) | Gets the type of this <see cref="ExternalConnection"/> object. | 
+|[GetClassType](./getclasstype/) | Gets the type of this ExternalConnection object. | 
 |[GetCommand](./getcommand/) | The string containing the database command to pass to the data provider API that willinteract with the external source in order to retrieve data | 
 |[SetCommand](./setcommand/) | The string containing the database command to pass to the data provider API that willinteract with the external source in order to retrieve data | 
-|[GetCommandType](./getcommandtype/) | Returns <see cref="OLEDBCommandType"/> type. | 
-|[SetCommandType](./setcommandtype/) | Returns <see cref="OLEDBCommandType"/> type. | 
+|[GetCommandType](./getcommandtype/) | Returns OLEDBCommandType type. | 
+|[SetCommandType](./setcommandtype/) | Returns OLEDBCommandType type. | 
 |[GetConnectionString](./getconnectionstring/) | The connection information string is used to make contact with an OLE DB or ODBC data source. | 
 |[SetConnectionString](./setconnectionstring/) | The connection information string is used to make contact with an OLE DB or ODBC data source. | 
 |[GetId](./getid/) | Gets the id of the connection. | 
@@ -72,7 +72,7 @@ type DataModelConnection struct  {
 |[SetCredentialsMethodType](./setcredentialsmethodtype/) | Specifies the authentication method to be used when establishing (or re-establishing) the connection. | 
 |[GetBackgroundRefresh](./getbackgroundrefresh/) | Indicates whether the connection can be refreshed in the background (asynchronously).true if preferred usage of the connection is to refresh asynchronously in the background;false if preferred usage of the connection is to refresh synchronously in the foreground. | 
 |[SetBackgroundRefresh](./setbackgroundrefresh/) | Indicates whether the connection can be refreshed in the background (asynchronously).true if preferred usage of the connection is to refresh asynchronously in the background;false if preferred usage of the connection is to refresh synchronously in the foreground. | 
-|[GetParameters](./getparameters/) | Gets <see cref="ConnectionParameterCollection"/> for an ODBC or web query. | 
+|[GetParameters](./getparameters/) | Gets ConnectionParameterCollection for an ODBC or web query. | 
 |[GetPowerQueryFormula](./getpowerqueryformula/) | Gets the definition of power query formula. | 
 |[GetConnectionFile](./getconnectionfile/) | Gets the connection file. | 
 |[GetSecondCommand](./getsecondcommand/) | Specifies a second command text string that is persisted when PivotTable server-basedpage fields are in use.For ODBC connections, serverCommand is usually a broader query than command (noWHERE clause is present in the former). Based on these 2 commands(Command and ServerCommand),parameter UI can be populated and parameterized queries can be constructed | 

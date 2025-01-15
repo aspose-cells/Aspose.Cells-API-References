@@ -24,5 +24,4 @@ func (instance *SmartArtShape) MoveToRange(upperleftrow int32, upperleftcolumn i
 ## See Also
 
 * Class [SmartArtShape](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

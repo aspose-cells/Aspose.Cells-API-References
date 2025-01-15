@@ -24,5 +24,4 @@ func (instance *Object) ToBool()  (bool,  error)
 ## See Also
 
 * Class [Object](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -67,6 +67,7 @@ The following example loads a Workbook from an Excel file named designer.xls and
 | [createBuiltinStyle(int type)](#createBuiltinStyle-int-) | Creates built-in style by given type. |
 | [createCellsColor()](#createCellsColor--) | Creates a [CellsColor](../../com.aspose.cells/cellscolor) object. |
 | [createStyle()](#createStyle--) | Creates a new style. |
+| [createStyle(boolean cloneDefaultStyle)](#createStyle-boolean-) | Creates a new style. |
 | [customTheme(String themeName, Color[] colors)](#customTheme-java.lang.String-com.aspose.cells.Color---) | Customs the theme. |
 | [dispose()](#dispose--) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
@@ -505,6 +506,21 @@ public Style createStyle()
 
 
 Creates a new style.
+
+**Returns:**
+[Style](../../com.aspose.cells/style) - Returns a style object.
+### createStyle(boolean cloneDefaultStyle) {#createStyle-boolean-}
+```
+public Style createStyle(boolean cloneDefaultStyle)
+```
+
+
+Creates a new style.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| cloneDefaultStyle | boolean | Incidates whether clones the default style |
 
 **Returns:**
 [Style](../../com.aspose.cells/style) - Returns a style object.

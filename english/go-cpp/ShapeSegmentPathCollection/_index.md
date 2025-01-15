@@ -31,5 +31,5 @@ type ShapeSegmentPathCollection struct  {
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[Add](./add/) | Add a segment path in creation path. | 
-|[Get](./get/) | Gets <see cref="ShapeSegmentPath"/> object. | 
+|[Get](./get/) | Gets ShapeSegmentPath object. | 
 |[GetCount](./getcount/) |  | 

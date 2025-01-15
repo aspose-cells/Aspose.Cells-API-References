@@ -10,7 +10,7 @@ url: /go-cpp/pivottableformatcollection/add/
 
 ## Add function
 
-Add a <see cref="PivotTableFormat"/>.
+Add a PivotTableFormat.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *PivotTableFormatCollection) Add()  (int32,  error)
 ## See Also
 
 * Class [PivotTableFormatCollection](../)
-* Namespace [Aspose.Cells.Pivot](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

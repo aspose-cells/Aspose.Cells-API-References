@@ -24,5 +24,4 @@ func (instance *EbookSaveOptions) GetExportSingleTab()  (bool,  error)
 ## See Also
 
 * Class [EbookSaveOptions](../)
-* Namespace [Aspose.Cells.Saving](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

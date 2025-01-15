@@ -24,5 +24,4 @@ func (instance *Cells) EndCellInRow_Int_Int_Int_Int(startrow int32, endrow int32
 ## See Also
 
 * Class [Cells](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

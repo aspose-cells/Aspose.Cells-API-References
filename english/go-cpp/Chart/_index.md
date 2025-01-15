@@ -55,11 +55,12 @@ type Chart struct  {
 |[GetShapes](./getshapes/) | Returns all drawing shapes in this chart. | 
 |[GetPrintSize](./getprintsize/) | Gets and sets the printed chart size. | 
 |[SetPrintSize](./setprintsize/) | Gets and sets the printed chart size. | 
+|[ChangeTemplate](./changetemplate/) | Change chart type with preset template. | 
 |[GetType](./gettype/) | Gets or sets a chart's type. | 
 |[SetType](./settype/) | Gets or sets a chart's type. | 
 |[Move](./move/) | Moves the chart to a specified location. | 
-|[GetNSeries](./getnseries/) | Gets a <see cref="SeriesCollection"/> collection representing the data series in the chart. | 
-|[GetFilteredNSeries](./getfilterednseries/) | Gets a <see cref="SeriesCollection"/> collection representing the data series that are filtered in the chart. | 
+|[GetNSeries](./getnseries/) | Gets a SeriesCollection collection representing the data series in the chart. | 
+|[GetFilteredNSeries](./getfilterednseries/) | Gets a SeriesCollection collection representing the data series that are filtered in the chart. | 
 |[GetTitle](./gettitle/) | Gets the chart's title. | 
 |[GetSubTitle](./getsubtitle/) | Gets the chart's sub-title.Only for ODS format file. | 
 |[GetPlotArea](./getplotarea/) | Gets the chart's plot area which includes axis tick labels. | 
@@ -85,10 +86,10 @@ type Chart struct  {
 |[SetGapDepth](./setgapdepth/) | Gets or sets the distance between the data series in a 3-D chart, as a percentage of the marker width.The value of this property must be between 0 and 500. | 
 |[Calculate](./calculate/) | Calculates the custom position of plot area, axes if the position of them are auto assigned. | 
 |[Calculate_ChartCalculateOptions](./calculate_chartcalculateoptions/) | Calculates the custom position of plot area, axes if the position of them are auto assigned, with Chart Calculate Options. | 
-|[GetFloor](./getfloor/) | Returns a <see cref="Floor"/> object that represents the walls of a 3-D chart. | 
-|[GetWalls](./getwalls/) | Returns a <see cref="Walls"/> object that represents the walls of a 3-D chart. | 
-|[GetBackWall](./getbackwall/) | Returns a <see cref="Walls"/> object that represents the back wall of a 3-D chart. | 
-|[GetSideWall](./getsidewall/) | Returns a <see cref="Walls"/> object that represents the side wall of a 3-D chart. | 
+|[GetFloor](./getfloor/) | Returns a Floor object that represents the walls of a 3-D chart. | 
+|[GetWalls](./getwalls/) | Returns a Walls object that represents the walls of a 3-D chart. | 
+|[GetBackWall](./getbackwall/) | Returns a Walls object that represents the back wall of a 3-D chart. | 
+|[GetSideWall](./getsidewall/) | Returns a Walls object that represents the side wall of a 3-D chart. | 
 |[GetWallsAndGridlines2D](./getwallsandgridlines2d/) | True if gridlines are drawn two-dimensionally on a 3-D chart. | 
 |[SetWallsAndGridlines2D](./setwallsandgridlines2d/) | True if gridlines are drawn two-dimensionally on a 3-D chart. | 
 |[GetRotationAngle](./getrotationangle/) | Represents the rotation of the 3-D chart view (the rotation of the plot area around the z-axis, in degrees). | 
@@ -109,9 +110,15 @@ type Chart struct  {
 |[ToImage_String](./toimage_string/) | Creates the chart image and saves it to a file.The extension of the file name determines the format of the image. | 
 |[ToImage_String_ImageType](./toimage_string_imagetype/) | Creates the chart image and saves it to a file in the specified image type. | 
 |[ToImage_String_Int](./toimage_string_int/) | Creates the chart image and saves it to a file in the Jpeg format. | 
+|[ToImage_Int](./toimage_int/) | Creates the chart image and saves it to a stream in the Jpeg format. | 
+|[ToImage_ImageType](./toimage_imagetype/) | Creates the chart image and saves it to a stream in the specified format. | 
 |[ToPdf_String](./topdf_string/) | Saves the chart to a pdf file. | 
 |[ToPdf_String_Float_Float_PageLayoutAlignmentType_PageLayoutAlignmentType](./topdf_string_float_float_pagelayoutalignmenttype_pagelayoutalignmenttype/) | Saves the chart to a pdf file. | 
+|[ToPdf](./topdf/) | Creates the chart pdf and saves it to a stream. | 
+|[ToPdf_Float_Float_PageLayoutAlignmentType_PageLayoutAlignmentType](./topdf_float_float_pagelayoutalignmenttype_pagelayoutalignmenttype/) | Creates the chart pdf and saves it to a stream. | 
 |[ToImage_String_ImageOrPrintOptions](./toimage_string_imageorprintoptions/) | Creates the chart image and saves it to a file.The extension of the file name determines the format of the image. | 
+|[ToImage_ImageOrPrintOptions](./toimage_imageorprintoptions/) | Creates the chart image and saves it to a stream in the specified format. | 
+|[GetActualSize](./getactualsize/) | Gets actual size of chart in unit of pixels. | 
 |[GetPlacement](./getplacement/) | Represents the way the chart is attached to the cells below it. | 
 |[SetPlacement](./setplacement/) | Represents the way the chart is attached to the cells below it. | 
 |[GetPageSetup](./getpagesetup/) | Represents the page setup description in this chart. | 

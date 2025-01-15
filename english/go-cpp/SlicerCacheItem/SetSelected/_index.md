@@ -24,5 +24,4 @@ func (instance *SlicerCacheItem) SetSelected(value bool)  error
 ## See Also
 
 * Class [SlicerCacheItem](../)
-* Namespace [Aspose.Cells.Slicers](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *StyleFlag) GetIndent()  (bool,  error)
 ## See Also
 
 * Class [StyleFlag](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

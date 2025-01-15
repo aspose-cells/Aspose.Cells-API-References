@@ -24,5 +24,4 @@ func (instance *CalculationData) GetCalculatedValue()  (*Object,  error)
 ## See Also
 
 * Class [CalculationData](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

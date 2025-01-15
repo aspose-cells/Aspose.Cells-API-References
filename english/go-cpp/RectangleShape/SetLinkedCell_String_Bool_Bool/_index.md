@@ -24,5 +24,4 @@ func (instance *RectangleShape) SetLinkedCell_String_Bool_Bool(formula string, i
 ## See Also
 
 * Class [RectangleShape](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

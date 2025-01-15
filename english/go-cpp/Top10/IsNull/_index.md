@@ -24,5 +24,4 @@ func (instance *Top10) IsNull()  (bool,  error)
 ## See Also
 
 * Class [Top10](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

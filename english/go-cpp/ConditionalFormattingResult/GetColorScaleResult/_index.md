@@ -24,5 +24,4 @@ func (instance *ConditionalFormattingResult) GetColorScaleResult()  (*Color,  er
 ## See Also
 
 * Class [ConditionalFormattingResult](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

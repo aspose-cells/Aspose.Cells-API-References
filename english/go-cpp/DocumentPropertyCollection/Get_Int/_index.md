@@ -10,7 +10,7 @@ url: /go-cpp/documentpropertycollection/get_int/
 
 ## Get_Int function
 
-Returns a <see cref="DocumentProperty"/> object by index.
+Returns a DocumentProperty object by index.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *DocumentPropertyCollection) Get_Int(index int32)  (*DocumentProp
 ## See Also
 
 * Class [DocumentPropertyCollection](../)
-* Namespace [Aspose.Cells.Properties](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

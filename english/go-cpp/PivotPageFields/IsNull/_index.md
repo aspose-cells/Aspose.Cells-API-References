@@ -24,5 +24,4 @@ func (instance *PivotPageFields) IsNull()  (bool,  error)
 ## See Also
 
 * Class [PivotPageFields](../)
-* Namespace [Aspose.Cells.Pivot](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

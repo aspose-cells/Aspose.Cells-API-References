@@ -24,5 +24,4 @@ func (instance *Chart) ToImage_String(imagefile string)  error
 ## See Also
 
 * Class [Chart](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

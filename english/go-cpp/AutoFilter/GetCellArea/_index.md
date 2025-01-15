@@ -10,7 +10,7 @@ url: /go-cpp/autofilter/getcellarea/
 
 ## GetCellArea function
 
-Gets the <see cref="CellArea"/> where the specified AutoFilter applies to.
+Gets the CellArea where the this AutoFilter applies to.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *AutoFilter) GetCellArea()  (*CellArea,  error)
 ## See Also
 
 * Class [AutoFilter](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

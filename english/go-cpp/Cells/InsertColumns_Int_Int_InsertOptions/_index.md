@@ -24,5 +24,4 @@ func (instance *Cells) InsertColumns_Int_Int_InsertOptions(columnindex int32, to
 ## See Also
 
 * Class [Cells](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

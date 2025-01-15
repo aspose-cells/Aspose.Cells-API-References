@@ -24,5 +24,4 @@ func (instance *WorkbookSettings) SetNumberGroupSeparator(value byte)  error
 ## See Also
 
 * Class [WorkbookSettings](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

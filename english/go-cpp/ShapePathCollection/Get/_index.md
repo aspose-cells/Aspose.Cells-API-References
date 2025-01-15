@@ -24,5 +24,4 @@ func (instance *ShapePathCollection) Get(index int32)  (*ShapePath,  error)
 ## See Also
 
 * Class [ShapePathCollection](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *RectangleShape) GetHasLine()  (bool,  error)
 ## See Also
 
 * Class [RectangleShape](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *AutoNumberedBulletValue) SetAutonumberScheme(value TextAutonumbe
 ## See Also
 
 * Class [AutoNumberedBulletValue](../)
-* Namespace [Aspose.Cells.Drawing.Texts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

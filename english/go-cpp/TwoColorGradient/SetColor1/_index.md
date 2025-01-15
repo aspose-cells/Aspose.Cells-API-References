@@ -24,5 +24,4 @@ func (instance *TwoColorGradient) SetColor1(value *Color)  error
 ## See Also
 
 * Class [TwoColorGradient](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

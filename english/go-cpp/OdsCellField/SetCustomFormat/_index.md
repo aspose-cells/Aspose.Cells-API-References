@@ -24,5 +24,4 @@ func (instance *OdsCellField) SetCustomFormat(value string)  error
 ## See Also
 
 * Class [OdsCellField](../)
-* Namespace [Aspose.Cells.Ods](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

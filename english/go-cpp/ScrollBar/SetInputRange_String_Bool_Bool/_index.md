@@ -24,5 +24,4 @@ func (instance *ScrollBar) SetInputRange_String_Bool_Bool(formula string, isr1c1
 ## See Also
 
 * Class [ScrollBar](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

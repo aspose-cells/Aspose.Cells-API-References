@@ -24,5 +24,4 @@ func (instance *SettableChartGlobalizationSettings) GetSeriesName()  (string,  e
 ## See Also
 
 * Class [SettableChartGlobalizationSettings](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

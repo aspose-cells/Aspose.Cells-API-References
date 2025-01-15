@@ -10,7 +10,7 @@ url: /go-cpp/pivotglobalizationsettings/gettextofsubtotal/
 
 ## GetTextOfSubTotal function
 
-Gets the text of <see cref="PivotFieldSubtotalType"/> type in the PivotTable.
+Gets the text of PivotFieldSubtotalType type in the PivotTable.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *PivotGlobalizationSettings) GetTextOfSubTotal(subtotaltype Pivot
 ## See Also
 
 * Class [PivotGlobalizationSettings](../)
-* Namespace [Aspose.Cells.Settings](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

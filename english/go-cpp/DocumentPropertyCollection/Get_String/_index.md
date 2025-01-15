@@ -10,7 +10,7 @@ url: /go-cpp/documentpropertycollection/get_string/
 
 ## Get_String function
 
-Returns a <see cref="DocumentProperty"/> object by the name of the property.
+Returns a DocumentProperty object by the name of the property.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *DocumentPropertyCollection) Get_String(name string)  (*DocumentP
 ## See Also
 
 * Class [DocumentPropertyCollection](../)
-* Namespace [Aspose.Cells.Properties](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

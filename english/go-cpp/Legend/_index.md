@@ -33,6 +33,7 @@ type Legend struct  {
 |[GetPosition](./getposition/) | Gets or sets the legend position type. | 
 |[SetPosition](./setposition/) | Gets or sets the legend position type. | 
 |[GetLegendEntries](./getlegendentries/) | Gets a collection of all the LegendEntry objects in the specified chart legend.Setting the legend entries of the surface chart is not supported.So it will return null if the chart type is surface chart type. | 
+|[GetLegendLabels](./getlegendlabels/) | Gets the labels of the legend entries after call Chart.Calculate() method. | 
 |[IsOverLay](./isoverlay/) | Gets or sets whether showing the legend without overlapping the chart. | 
 |[SetIsOverLay](./setisoverlay/) | Gets or sets whether showing the legend without overlapping the chart. | 
 |[IsDeleted](./isdeleted/) | Indicates whether this data labels is deleted. | 

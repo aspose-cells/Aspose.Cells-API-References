@@ -24,5 +24,4 @@ func (instance *Label) GetTextBody()  (*FontSettingCollection,  error)
 ## See Also
 
 * Class [Label](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

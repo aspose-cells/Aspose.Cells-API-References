@@ -24,5 +24,4 @@ func (instance *ActiveXControlBase) SetHeight(value float64)  error
 ## See Also
 
 * Class [ActiveXControlBase](../)
-* Namespace [Aspose.Cells.Drawing.ActiveXControls](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

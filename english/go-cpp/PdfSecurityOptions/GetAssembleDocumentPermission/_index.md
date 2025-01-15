@@ -10,7 +10,7 @@ url: /go-cpp/pdfsecurityoptions/getassembledocumentpermission/
 
 ## GetAssembleDocumentPermission function
 
-Indicates whether to allow to assemble the document (insert, rotate, or delete pages and create bookmarks or thumbnail images),even if <see cref="ModifyDocumentPermission"/> is clear.
+Indicates whether to allow to assemble the document (insert, rotate, or delete pages and create bookmarks or thumbnail images),even if ModifyDocumentPermission is clear.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *PdfSecurityOptions) GetAssembleDocumentPermission()  (bool,  err
 ## See Also
 
 * Class [PdfSecurityOptions](../)
-* Namespace [Aspose.Cells.Rendering.PdfSecurity](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

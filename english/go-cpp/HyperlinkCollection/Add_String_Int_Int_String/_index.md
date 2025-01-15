@@ -24,5 +24,4 @@ func (instance *HyperlinkCollection) Add_String_Int_Int_String(cellname string, 
 ## See Also
 
 * Class [HyperlinkCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

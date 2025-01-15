@@ -24,5 +24,4 @@ func (instance *RevisionInsertDelete) GetRevisions()  (*RevisionCollection,  err
 ## See Also
 
 * Class [RevisionInsertDelete](../)
-* Namespace [Aspose.Cells.Revisions](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

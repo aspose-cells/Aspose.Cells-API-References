@@ -24,5 +24,4 @@ func NewTxtLoadOptions_LoadFormat(loadformat LoadFormat) ( *TxtLoadOptions, erro
 ## See Also
 
 * Class [TxtLoadOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *WebExtensionShape) GetLockedProperty(type_ ShapeLockType)  (bool
 ## See Also
 
 * Class [WebExtensionShape](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

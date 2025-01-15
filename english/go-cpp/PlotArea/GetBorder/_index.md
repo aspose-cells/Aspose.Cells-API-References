@@ -10,7 +10,7 @@ url: /go-cpp/plotarea/getborder/
 
 ## GetBorder function
 
-Gets the <see cref="Line">border</see>.
+Gets the Line</see>.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *PlotArea) GetBorder()  (*Line,  error)
 ## See Also
 
 * Class [PlotArea](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

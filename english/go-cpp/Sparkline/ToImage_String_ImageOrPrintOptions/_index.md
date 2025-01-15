@@ -24,5 +24,4 @@ func (instance *Sparkline) ToImage_String_ImageOrPrintOptions(filename string, o
 ## See Also
 
 * Class [Sparkline](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

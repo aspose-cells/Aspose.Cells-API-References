@@ -24,5 +24,4 @@ func (instance *IndividualFontConfigs) SetFontFolder(fontfolder string, recursiv
 ## See Also
 
 * Class [IndividualFontConfigs](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

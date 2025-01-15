@@ -10,7 +10,7 @@ url: /go-cpp/cells/getcolumns/
 
 ## GetColumns function
 
-Gets the collection of <see cref="Column"/> objects that represents the individual columns in this worksheet.
+Gets the collection of Column objects that represents the individual columns in this worksheet.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *Cells) GetColumns()  (*ColumnCollection,  error)
 ## See Also
 
 * Class [Cells](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

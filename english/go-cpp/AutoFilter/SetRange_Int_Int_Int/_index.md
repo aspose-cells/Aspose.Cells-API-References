@@ -24,5 +24,4 @@ func (instance *AutoFilter) SetRange_Int_Int_Int(row int32, startcolumn int32, e
 ## See Also
 
 * Class [AutoFilter](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,6 +24,7 @@ Presents the selected area of the PivotTable.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAxisType()](#getAxisType--) | Gets the region of the PivotTable to which this rule applies. |
+| [getCellAreas()](#getCellAreas--) | Gets cell areas of this pivot area. |
 | [getClass()](#getClass--) |  |
 | [getFilters()](#getFilters--) | Gets all filters for this PivotArea. |
 | [getOnlyData()](#getOnlyData--) | Indicates whether only the data values (in the data area of the view) for an item selection are selected and does not include the item labels. |
@@ -36,6 +37,8 @@ Presents the selected area of the PivotTable.
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [select(int axisType, int fieldPosition, int selectionType)](#select-int-int-int-) | Select the area with filters. |
+| [selectField(int axisType, PivotField field)](#selectField-int-com.aspose.cells.PivotField-) | Select a field in the region as an area. |
+| [selectField(int axisType, String fieldName)](#selectField-int-java.lang.String-) | Select a field in the region as an area. |
 | [setAxisType(int value)](#setAxisType-int-) | Sets the region of the PivotTable to which this rule applies. |
 | [setColumnGrandIncluded(boolean value)](#setColumnGrandIncluded-boolean-) | Indicates whether the column grand total is included. |
 | [setOnlyData(boolean value)](#setOnlyData-boolean-) | Indicates whether only the data values (in the data area of the view) for an item selection are selected and does not include the item labels. |
@@ -87,6 +90,16 @@ See [PivotFieldType](../../com.aspose.cells/pivotfieldtype).
 
 **Returns:**
 int
+### getCellAreas() {#getCellAreas--}
+```
+public CellArea[] getCellAreas()
+```
+
+
+Gets cell areas of this pivot area.
+
+**Returns:**
+com.aspose.cells.CellArea[] - 
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -209,6 +222,34 @@ Select the area with filters.
 | axisType | int | [PivotFieldType](../../com.aspose.cells/pivotfieldtype). The region of the PivotTable to which this rule applies. |
 | fieldPosition | int | Position of the field within the axis to which this rule applies. |
 | selectionType | int | [PivotTableSelectionType](../../com.aspose.cells/pivottableselectiontype). Specifies what can be selected in a PivotTable during a structured selection. |
+
+### selectField(int axisType, PivotField field) {#selectField-int-com.aspose.cells.PivotField-}
+```
+public void selectField(int axisType, PivotField field)
+```
+
+
+Select a field in the region as an area.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| axisType | int | [PivotFieldType](../../com.aspose.cells/pivotfieldtype). The region type. |
+| field | [PivotField](../../com.aspose.cells/pivotfield) | The pivot field. |
+
+### selectField(int axisType, String fieldName) {#selectField-int-java.lang.String-}
+```
+public void selectField(int axisType, String fieldName)
+```
+
+
+Select a field in the region as an area.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| axisType | int | [PivotFieldType](../../com.aspose.cells/pivotfieldtype). The region type. |
+| fieldName | java.lang.String | The name of pivot field. |
 
 ### setAxisType(int value) {#setAxisType-int-}
 ```

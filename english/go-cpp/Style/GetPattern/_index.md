@@ -24,5 +24,4 @@ func (instance *Style) GetPattern()  (BackgroundType,  error)
 ## See Also
 
 * Class [Style](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

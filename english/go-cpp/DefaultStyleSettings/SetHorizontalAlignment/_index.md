@@ -24,5 +24,4 @@ func (instance *DefaultStyleSettings) SetHorizontalAlignment(value TextAlignment
 ## See Also
 
 * Class [DefaultStyleSettings](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

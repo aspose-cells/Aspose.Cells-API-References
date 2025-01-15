@@ -24,5 +24,4 @@ func (instance *ChartPoint) GetXValueType()  (CellValueType,  error)
 ## See Also
 
 * Class [ChartPoint](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

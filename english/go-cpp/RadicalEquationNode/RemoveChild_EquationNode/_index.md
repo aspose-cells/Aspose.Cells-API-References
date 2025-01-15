@@ -24,5 +24,4 @@ func (instance *RadicalEquationNode) RemoveChild_EquationNode(node *EquationNode
 ## See Also
 
 * Class [RadicalEquationNode](../)
-* Namespace [Aspose.Cells.Drawing.Equations](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

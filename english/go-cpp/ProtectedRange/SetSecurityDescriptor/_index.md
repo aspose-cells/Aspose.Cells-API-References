@@ -24,5 +24,4 @@ func (instance *ProtectedRange) SetSecurityDescriptor(value string)  error
 ## See Also
 
 * Class [ProtectedRange](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

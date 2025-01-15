@@ -29,5 +29,5 @@ type DropBars struct  {
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
-|[GetBorder](./getborder/) | Gets the border <see cref="Line"/>. | 
-|[GetArea](./getarea/) | Gets the <see cref="Area"/>. | 
+|[GetBorder](./getborder/) | Gets the border Line. | 
+|[GetArea](./getarea/) | Gets the Area. | 

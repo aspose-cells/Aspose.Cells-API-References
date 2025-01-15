@@ -67,6 +67,7 @@ type Validation struct  {
 |[GetValue](./getvalue/) | Get the value of validation on the specific cell. | 
 |[GetInCellDropDown](./getincelldropdown/) | Indicates whether data validation displays a drop-down list that contains acceptable values. | 
 |[SetInCellDropDown](./setincelldropdown/) | Indicates whether data validation displays a drop-down list that contains acceptable values. | 
+|[GetAreas](./getareas/) | Gets all CellArea which contain the data validation settings. | 
 |[AddArea_CellArea](./addarea_cellarea/) | Applies the validation to the area. | 
 |[AddArea_CellArea_Bool_Bool](./addarea_cellarea_bool_bool/) | Applies the validation to the area. | 
 |[RemoveArea](./removearea/) | Remove the validation settings in the range. | 

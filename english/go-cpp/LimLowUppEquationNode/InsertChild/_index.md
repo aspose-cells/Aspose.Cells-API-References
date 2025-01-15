@@ -24,5 +24,4 @@ func (instance *LimLowUppEquationNode) InsertChild(index int32, equationtype Equ
 ## See Also
 
 * Class [LimLowUppEquationNode](../)
-* Namespace [Aspose.Cells.Drawing.Equations](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

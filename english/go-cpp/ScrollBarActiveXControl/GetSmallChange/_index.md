@@ -24,5 +24,4 @@ func (instance *ScrollBarActiveXControl) GetSmallChange()  (int32,  error)
 ## See Also
 
 * Class [ScrollBarActiveXControl](../)
-* Namespace [Aspose.Cells.Drawing.ActiveXControls](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

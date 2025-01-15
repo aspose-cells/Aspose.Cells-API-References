@@ -24,5 +24,4 @@ func NewWorkbookRender(workbook *Workbook, options *ImageOrPrintOptions) ( *Work
 ## See Also
 
 * Class [WorkbookRender](../)
-* Namespace [Aspose.Cells.Rendering](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

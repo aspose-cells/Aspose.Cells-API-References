@@ -24,5 +24,4 @@ func (instance *ListColumn) GetRange()  (*Range,  error)
 ## See Also
 
 * Class [ListColumn](../)
-* Namespace [Aspose.Cells.Tables](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

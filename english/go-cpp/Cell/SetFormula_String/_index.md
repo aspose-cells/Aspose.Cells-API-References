@@ -10,7 +10,7 @@ url: /go-cpp/cell/setformula_string/
 
 ## SetFormula_String function
 
-Gets or sets a formula of the <see cref="Cell"/>.
+Gets or sets a formula of the Cell.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *Cell) SetFormula_String(value string)  error
 ## See Also
 
 * Class [Cell](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

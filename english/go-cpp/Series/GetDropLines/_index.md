@@ -10,7 +10,7 @@ url: /go-cpp/series/getdroplines/
 
 ## GetDropLines function
 
-Returns a <see cref="Line"/> object that represents the drop lines for a series on the line chart or area chart.Applies only to line chart or area charts.
+Returns a Line object that represents the drop lines for a series on the line chart or area chart.Applies only to line chart or area charts.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *Series) GetDropLines()  (*Line,  error)
 ## See Also
 
 * Class [Series](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

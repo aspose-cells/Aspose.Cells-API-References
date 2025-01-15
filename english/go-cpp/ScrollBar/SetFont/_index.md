@@ -24,5 +24,4 @@ func (instance *ScrollBar) SetFont(value *Font)  error
 ## See Also
 
 * Class [ScrollBar](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

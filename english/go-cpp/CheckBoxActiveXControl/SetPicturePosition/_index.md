@@ -24,5 +24,4 @@ func (instance *CheckBoxActiveXControl) SetPicturePosition(value ControlPictureP
 ## See Also
 
 * Class [CheckBoxActiveXControl](../)
-* Namespace [Aspose.Cells.Drawing.ActiveXControls](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

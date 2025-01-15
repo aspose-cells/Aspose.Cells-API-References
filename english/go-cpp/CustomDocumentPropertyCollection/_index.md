@@ -38,10 +38,10 @@ type CustomDocumentPropertyCollection struct  {
 |[AddLinkToContent](./addlinktocontent/) | Creates a new custom document property which links to content. | 
 |[UpdateLinkedPropertyValue](./updatelinkedpropertyvalue/) | Update custom document property value which links to content. | 
 |[UpdateLinkedRange](./updatelinkedrange/) | Update custom document property value to linked range. | 
-|[Get_Int](./get_int/) | Returns a <see cref="DocumentProperty"/> object by index. | 
+|[Get_Int](./get_int/) | Returns a DocumentProperty object by index. | 
 |[Contains](./contains/) | Returns true if a property with the specified name exists in the collection. | 
 |[IndexOf](./indexof/) | Gets the index of a property by name. | 
 |[Remove](./remove/) | Removes a property with the specified name from the collection. | 
 |[RemoveAt](./removeat/) | Removes a property at the specified index. | 
-|[Get_String](./get_string/) | Returns a <see cref="DocumentProperty"/> object by the name of the property. | 
+|[Get_String](./get_string/) | Returns a DocumentProperty object by the name of the property. | 
 |[GetCount](./getcount/) |  | 

@@ -24,5 +24,4 @@ func (instance *HighlightChangesOptions) IsNull()  (bool,  error)
 ## See Also
 
 * Class [HighlightChangesOptions](../)
-* Namespace [Aspose.Cells.Revisions](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

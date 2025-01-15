@@ -24,5 +24,4 @@ func (instance *PivotTable) AddCalculatedField_String_String_Bool(name string, f
 ## See Also
 
 * Class [PivotTable](../)
-* Namespace [Aspose.Cells.Pivot](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

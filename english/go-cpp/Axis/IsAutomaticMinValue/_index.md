@@ -24,5 +24,4 @@ func (instance *Axis) IsAutomaticMinValue()  (bool,  error)
 ## See Also
 
 * Class [Axis](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

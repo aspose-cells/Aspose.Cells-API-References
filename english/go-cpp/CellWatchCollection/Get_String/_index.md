@@ -10,7 +10,7 @@ url: /go-cpp/cellwatchcollection/get_string/
 
 ## Get_String function
 
-Gets and sets <see cref="CellWatch"/> by the name of the cell.
+Gets and sets CellWatch by the name of the cell.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *CellWatchCollection) Get_String(cellname string)  (*CellWatch,  
 ## See Also
 
 * Class [CellWatchCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

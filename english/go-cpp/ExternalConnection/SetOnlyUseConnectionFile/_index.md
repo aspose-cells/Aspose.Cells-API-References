@@ -24,5 +24,4 @@ func (instance *ExternalConnection) SetOnlyUseConnectionFile(value bool)  error
 ## See Also
 
 * Class [ExternalConnection](../)
-* Namespace [Aspose.Cells.ExternalConnections](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

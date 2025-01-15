@@ -24,5 +24,4 @@ func (instance *PageSetup) SetFooter(section int32, footerscript string)  error
 ## See Also
 
 * Class [PageSetup](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

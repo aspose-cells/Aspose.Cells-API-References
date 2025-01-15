@@ -24,5 +24,4 @@ func (instance *Cells) DeleteColumns_Int_Int_DeleteOptions(columnindex int32, to
 ## See Also
 
 * Class [Cells](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *Range) CopyValue(range_ *Range)  error
 ## See Also
 
 * Class [Range](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

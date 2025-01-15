@@ -24,5 +24,4 @@ func (instance *Cells) InsertRows_Int_Int(rowindex int32, totalrows int32)  erro
 ## See Also
 
 * Class [Cells](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

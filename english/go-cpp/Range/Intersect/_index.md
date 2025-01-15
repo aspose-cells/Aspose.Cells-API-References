@@ -10,7 +10,7 @@ url: /go-cpp/range/intersect/
 
 ## Intersect function
 
-Returns a <see cref="Range"/> object that represents the rectangular intersection of two ranges.
+Returns a Range object that represents the rectangular intersection of two ranges.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *Range) Intersect(range_ *Range)  (*Range,  error)
 ## See Also
 
 * Class [Range](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

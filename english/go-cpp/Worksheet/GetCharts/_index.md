@@ -10,7 +10,7 @@ url: /go-cpp/worksheet/getcharts/
 
 ## GetCharts function
 
-Gets a <see cref="Chart"/> collection
+Gets a Chart collection
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *Worksheet) GetCharts()  (*ChartCollection,  error)
 ## See Also
 
 * Class [Worksheet](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

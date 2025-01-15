@@ -30,5 +30,5 @@ type CheckBoxCollection struct  {
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[Add](./add/) | Adds a checkBox to the collection. | 
-|[Get](./get/) | Gets the <see cref="CheckBox"/> element at the specified index. | 
+|[Get](./get/) | Gets the CheckBox element at the specified index. | 
 |[GetCount](./getcount/) |  | 

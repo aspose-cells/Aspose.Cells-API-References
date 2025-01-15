@@ -24,5 +24,4 @@ func NewNumbersLoadOptions_LoadOptions(src *LoadOptions) ( *NumbersLoadOptions, 
 ## See Also
 
 * Class [NumbersLoadOptions](../)
-* Namespace [Aspose.Cells.Numbers](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

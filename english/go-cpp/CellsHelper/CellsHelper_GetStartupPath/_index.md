@@ -24,5 +24,4 @@ func CellsHelper_GetStartupPath()  (string,  error)
 ## See Also
 
 * Class [CellsHelper](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

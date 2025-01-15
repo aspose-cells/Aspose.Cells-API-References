@@ -24,5 +24,4 @@ func (instance *SmartArtShape) SetIsPrintable(value bool)  error
 ## See Also
 
 * Class [SmartArtShape](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

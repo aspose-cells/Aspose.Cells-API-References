@@ -24,5 +24,4 @@ func (instance *VbaModule) GetCodes()  (string,  error)
 ## See Also
 
 * Class [VbaModule](../)
-* Namespace [Aspose.Cells.Vba](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

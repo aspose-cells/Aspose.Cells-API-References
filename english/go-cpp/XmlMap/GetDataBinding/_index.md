@@ -10,7 +10,7 @@ url: /go-cpp/xmlmap/getdatabinding/
 
 ## GetDataBinding function
 
-Gets an <see cref="XmlDataBinding"/> of this map.
+Gets an XmlDataBinding of this map.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *XmlMap) GetDataBinding()  (*XmlDataBinding,  error)
 ## See Also
 
 * Class [XmlMap](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

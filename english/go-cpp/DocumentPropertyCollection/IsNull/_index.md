@@ -24,5 +24,4 @@ func (instance *DocumentPropertyCollection) IsNull()  (bool,  error)
 ## See Also
 
 * Class [DocumentPropertyCollection](../)
-* Namespace [Aspose.Cells.Properties](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

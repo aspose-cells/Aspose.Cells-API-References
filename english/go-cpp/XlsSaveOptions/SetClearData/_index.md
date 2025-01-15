@@ -24,5 +24,4 @@ func (instance *XlsSaveOptions) SetClearData(value bool)  error
 ## See Also
 
 * Class [XlsSaveOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

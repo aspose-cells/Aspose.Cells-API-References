@@ -24,5 +24,4 @@ func (instance *Title) Characters_Int_Int(startindex int32, length int32)  (*Fon
 ## See Also
 
 * Class [Title](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

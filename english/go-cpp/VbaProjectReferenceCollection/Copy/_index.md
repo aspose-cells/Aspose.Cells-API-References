@@ -24,5 +24,4 @@ func (instance *VbaProjectReferenceCollection) Copy(source *VbaProjectReferenceC
 ## See Also
 
 * Class [VbaProjectReferenceCollection](../)
-* Namespace [Aspose.Cells.Vba](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

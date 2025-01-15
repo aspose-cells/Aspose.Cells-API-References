@@ -24,5 +24,4 @@ func (instance *ScrollBar) GetTextOrientationType()  (TextOrientationType,  erro
 ## See Also
 
 * Class [ScrollBar](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

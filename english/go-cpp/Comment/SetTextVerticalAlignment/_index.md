@@ -24,5 +24,4 @@ func (instance *Comment) SetTextVerticalAlignment(value TextAlignmentType)  erro
 ## See Also
 
 * Class [Comment](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *Workbook) GetCountOfStylesInPool()  (int32,  error)
 ## See Also
 
 * Class [Workbook](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

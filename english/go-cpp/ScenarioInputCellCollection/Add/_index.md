@@ -24,5 +24,4 @@ func (instance *ScenarioInputCellCollection) Add(row int32, column int32, value 
 ## See Also
 
 * Class [ScenarioInputCellCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

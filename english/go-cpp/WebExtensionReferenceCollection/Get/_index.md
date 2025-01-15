@@ -24,5 +24,4 @@ func (instance *WebExtensionReferenceCollection) Get(index int32)  (*WebExtensio
 ## See Also
 
 * Class [WebExtensionReferenceCollection](../)
-* Namespace [Aspose.Cells.WebExtensions](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

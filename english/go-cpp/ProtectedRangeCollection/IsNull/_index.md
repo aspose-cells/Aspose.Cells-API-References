@@ -24,5 +24,4 @@ func (instance *ProtectedRangeCollection) IsNull()  (bool,  error)
 ## See Also
 
 * Class [ProtectedRangeCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

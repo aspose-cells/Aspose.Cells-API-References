@@ -10,7 +10,7 @@ url: /go-cpp/shapepropertycollection/getgloweffect/
 
 ## GetGlowEffect function
 
-Represents a <see cref="GlowEffect"/> object that specifies glow effect for the chart element or shape.
+Represents a GlowEffect object that specifies glow effect for the chart element or shape.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *ShapePropertyCollection) GetGlowEffect()  (*GlowEffect,  error)
 ## See Also
 
 * Class [ShapePropertyCollection](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

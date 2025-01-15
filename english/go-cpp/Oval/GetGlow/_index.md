@@ -10,7 +10,7 @@ url: /go-cpp/oval/getglow/
 
 ## GetGlow function
 
-Represents a <see cref="GlowEffect"/> object that specifies glow effect for the chart element or shape.
+Represents a GlowEffect object that specifies glow effect for the chart element or shape.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *Oval) GetGlow()  (*GlowEffect,  error)
 ## See Also
 
 * Class [Oval](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

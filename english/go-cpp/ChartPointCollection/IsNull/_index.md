@@ -24,5 +24,4 @@ func (instance *ChartPointCollection) IsNull()  (bool,  error)
 ## See Also
 
 * Class [ChartPointCollection](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

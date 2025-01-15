@@ -55,8 +55,8 @@ type Font struct  {
 |[SetSize](./setsize/) | Gets or sets the size of the font. | 
 |[GetThemeColor](./getthemecolor/) | Gets and sets the theme color. | 
 |[SetThemeColor](./setthemecolor/) | Gets and sets the theme color. | 
-|[GetColor](./getcolor/) | Gets or sets the <see cref="Color"/> of the font. | 
-|[SetColor](./setcolor/) | Gets or sets the <see cref="Color"/> of the font. | 
+|[GetColor](./getcolor/) | Gets or sets the Color of the font. | 
+|[SetColor](./setcolor/) | Gets or sets the Color of the font. | 
 |[GetArgbColor](./getargbcolor/) | Gets and sets the color with a 32-bit ARGB value. | 
 |[SetArgbColor](./setargbcolor/) | Gets and sets the color with a 32-bit ARGB value. | 
 |[Equals](./equals/) | Checks if two fonts are equals. | 
@@ -65,5 +65,5 @@ type Font struct  {
 |[GetSchemeType](./getschemetype/) | Gets and sets the scheme type of the font. | 
 |[SetSchemeType](./setschemetype/) | Gets and sets the scheme type of the font. | 
 |[ToString](./tostring/) | Returns a string represents the current Cell object. | 
-|[GetName](./getname/) | Gets  or sets the name of the <see cref="Font"/>. | 
-|[SetName](./setname/) | Gets  or sets the name of the <see cref="Font"/>. | 
+|[GetName](./getname/) | Gets  or sets the name of the Font. | 
+|[SetName](./setname/) | Gets  or sets the name of the Font. | 

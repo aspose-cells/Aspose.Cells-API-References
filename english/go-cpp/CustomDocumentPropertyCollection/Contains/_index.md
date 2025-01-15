@@ -24,5 +24,4 @@ func (instance *CustomDocumentPropertyCollection) Contains(name string)  (bool, 
 ## See Also
 
 * Class [CustomDocumentPropertyCollection](../)
-* Namespace [Aspose.Cells.Properties](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

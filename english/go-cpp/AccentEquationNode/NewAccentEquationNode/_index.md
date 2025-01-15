@@ -24,5 +24,4 @@ func NewAccentEquationNode(src *EquationNode) ( *AccentEquationNode, error)
 ## See Also
 
 * Class [AccentEquationNode](../)
-* Namespace [Aspose.Cells.Drawing.Equations](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

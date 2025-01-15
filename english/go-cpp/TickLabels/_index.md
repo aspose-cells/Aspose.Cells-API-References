@@ -29,7 +29,7 @@ type TickLabels struct  {
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
-|[GetFont](./getfont/) | Returns a <see cref="Font"/> object that represents the font of the specified TickLabels object. | 
+|[GetFont](./getfont/) | Returns a Font object that represents the font of the specified TickLabels object. | 
 |[GetAutoScaleFont](./getautoscalefont/) | True if the text in the object changes font size when the object size changes. The default value is True. | 
 |[SetAutoScaleFont](./setautoscalefont/) | True if the text in the object changes font size when the object size changes. The default value is True. | 
 |[GetBackgroundMode](./getbackgroundmode/) | Gets and sets the display mode of the background | 
@@ -51,5 +51,6 @@ type TickLabels struct  {
 |[SetReadingOrder](./setreadingorder/) | Represents text reading order. | 
 |[GetDirectionType](./getdirectiontype/) | Gets and sets the direction of text. | 
 |[SetDirectionType](./setdirectiontype/) | Gets and sets the direction of text. | 
+|[GetTickLabelItems](./getticklabelitems/) | Gets the display tick labels of the axis. | 
 |[GetAlignmentType](./getalignmenttype/) | Gets and sets the text alignment for the tick labels on the axis. | 
 |[SetAlignmentType](./setalignmenttype/) | Gets and sets the text alignment for the tick labels on the axis. | 

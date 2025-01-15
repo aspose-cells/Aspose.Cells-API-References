@@ -24,5 +24,4 @@ func (instance *Cells) IsDeletingRangeEnabled(startrow int32, startcolumn int32,
 ## See Also
 
 * Class [Cells](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

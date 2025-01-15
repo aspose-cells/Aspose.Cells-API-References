@@ -24,5 +24,4 @@ func (instance *PivotFilter) GetFilterCategory()  (FilterCategory,  error)
 ## See Also
 
 * Class [PivotFilter](../)
-* Namespace [Aspose.Cells.Pivot](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

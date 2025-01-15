@@ -24,5 +24,4 @@ func (instance *Trendline) GetCapType()  (LineCapType,  error)
 ## See Also
 
 * Class [Trendline](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

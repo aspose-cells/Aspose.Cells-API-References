@@ -10,7 +10,7 @@ url: /go-cpp/trendlinecollection/add_trendlinetype_string/
 
 ## Add_TrendlineType_String function
 
-Adds a <see cref="Trendline"/> object to this collection with specified type and name.
+Adds a Trendline object to this collection with specified type and name.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *TrendlineCollection) Add_TrendlineType_String(type_ TrendlineTyp
 ## See Also
 
 * Class [TrendlineCollection](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

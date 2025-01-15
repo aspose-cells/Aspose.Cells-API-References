@@ -24,5 +24,4 @@ func NewFolderFontSource_FontSourceBase(src *FontSourceBase) ( *FolderFontSource
 ## See Also
 
 * Class [FolderFontSource](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

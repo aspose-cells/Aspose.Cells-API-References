@@ -24,5 +24,4 @@ func (instance *LineFormat) SetEndArrowheadWidth(value MsoArrowheadWidth)  error
 ## See Also
 
 * Class [LineFormat](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

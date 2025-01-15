@@ -10,7 +10,7 @@ url: /go-cpp/pdfsaveoptions/setbookmark/
 
 ## SetBookmark function
 
-Gets and sets the <see cref ="PdfBookmarkEntry">PdfBookmarkEntry</see> object.
+Gets and sets the PdfBookmarkEntry</see> object.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *PdfSaveOptions) SetBookmark(value *PdfBookmarkEntry)  error
 ## See Also
 
 * Class [PdfSaveOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

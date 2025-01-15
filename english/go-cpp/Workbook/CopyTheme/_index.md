@@ -24,5 +24,4 @@ func (instance *Workbook) CopyTheme(source *Workbook)  error
 ## See Also
 
 * Class [Workbook](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

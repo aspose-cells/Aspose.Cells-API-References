@@ -24,5 +24,4 @@ func (instance *SlicerCollection) Get_Int(index int32)  (*Slicer,  error)
 ## See Also
 
 * Class [SlicerCollection](../)
-* Namespace [Aspose.Cells.Slicers](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

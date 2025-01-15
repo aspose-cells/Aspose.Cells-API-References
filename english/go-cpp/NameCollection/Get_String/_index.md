@@ -10,7 +10,7 @@ url: /go-cpp/namecollection/get_string/
 
 ## Get_String function
 
-Gets the <see cref="Name"/> element with the specified name.
+Gets the Name element with the specified name.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *NameCollection) Get_String(text string)  (*Name,  error)
 ## See Also
 
 * Class [NameCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

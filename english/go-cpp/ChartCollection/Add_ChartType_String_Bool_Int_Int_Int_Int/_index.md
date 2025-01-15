@@ -24,5 +24,4 @@ func (instance *ChartCollection) Add_ChartType_String_Bool_Int_Int_Int_Int(type_
 ## See Also
 
 * Class [ChartCollection](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *TextRunEquationNode) InsertChild(index int32, equationtype Equat
 ## See Also
 
 * Class [TextRunEquationNode](../)
-* Namespace [Aspose.Cells.Drawing.Equations](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

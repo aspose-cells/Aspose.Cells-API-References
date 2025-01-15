@@ -24,5 +24,4 @@ func (instance *ConditionalFormattingValueCollection) Get(index int32)  (*Condit
 ## See Also
 
 * Class [ConditionalFormattingValueCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

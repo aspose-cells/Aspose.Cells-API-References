@@ -24,5 +24,4 @@ func (instance *DeleteOptions) IsNull()  (bool,  error)
 ## See Also
 
 * Class [DeleteOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

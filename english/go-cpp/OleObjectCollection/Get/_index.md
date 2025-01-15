@@ -10,7 +10,7 @@ url: /go-cpp/oleobjectcollection/get/
 
 ## Get function
 
-Gets the <see cref="OleObject"/> element at the specified index.
+Gets the OleObject element at the specified index.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *OleObjectCollection) Get(index int32)  (*OleObject,  error)
 ## See Also
 
 * Class [OleObjectCollection](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

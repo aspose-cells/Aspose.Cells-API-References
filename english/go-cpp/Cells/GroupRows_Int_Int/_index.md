@@ -24,5 +24,4 @@ func (instance *Cells) GroupRows_Int_Int(firstindex int32, lastindex int32)  err
 ## See Also
 
 * Class [Cells](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

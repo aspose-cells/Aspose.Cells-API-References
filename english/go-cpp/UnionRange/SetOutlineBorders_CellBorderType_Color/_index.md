@@ -24,5 +24,4 @@ func (instance *UnionRange) SetOutlineBorders_CellBorderType_Color(borderstyle C
 ## See Also
 
 * Class [UnionRange](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

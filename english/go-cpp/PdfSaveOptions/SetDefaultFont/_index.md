@@ -24,5 +24,4 @@ func (instance *PdfSaveOptions) SetDefaultFont(value string)  error
 ## See Also
 
 * Class [PdfSaveOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *Walls) GetCubePointXPx(index int32)  (float32,  error)
 ## See Also
 
 * Class [Walls](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

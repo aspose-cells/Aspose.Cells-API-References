@@ -10,7 +10,7 @@ url: /go-cpp/format3d/gettopbevel/
 
 ## GetTopBevel function
 
-Gets the <see cref="Bevel"/> object that holds the properties associated with defining a bevel on the top or front face of a shape.
+Gets the Bevel object that holds the properties associated with defining a bevel on the top or front face of a shape.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *Format3D) GetTopBevel()  (*Bevel,  error)
 ## See Also
 
 * Class [Format3D](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

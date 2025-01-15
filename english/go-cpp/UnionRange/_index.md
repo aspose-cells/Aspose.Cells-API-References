@@ -42,11 +42,13 @@ type UnionRange struct  {
 |[SetName](./setname/) | Gets or sets the name of the range. | 
 |[GetRefersTo](./getrefersto/) | Gets the range's refers to. | 
 |[GetHasRange](./gethasrange/) | Indicates whether this has range. | 
+|[GetHyperlinks](./gethyperlinks/) | Gets all hyperlink in the range. | 
 |[SetStyle](./setstyle/) | Sets the style of the range. | 
 |[ApplyStyle](./applystyle/) | Applies formats for a whole range. | 
 |[Copy](./copy/) | Copying the range with paste special options. | 
 |[GetCellCount](./getcellcount/) | Gets all cell count in the range. | 
 |[GetRangeCount](./getrangecount/) | Gets the count of the ranges. | 
+|[GetRanges](./getranges/) | Gets all union ranges. | 
 |[SetOutlineBorders_CellBorderType_Color](./setoutlineborders_cellbordertype_color/) | Sets the outline borders around a range of cells with same border style and color. | 
 |[Intersect_String](./intersect_string/) | Intersects another range. | 
 |[Intersect_UnionRange](./intersect_unionrange/) | Intersects another range. | 

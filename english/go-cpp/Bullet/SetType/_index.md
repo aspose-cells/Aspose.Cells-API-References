@@ -24,5 +24,4 @@ func (instance *Bullet) SetType(value BulletType)  error
 ## See Also
 
 * Class [Bullet](../)
-* Namespace [Aspose.Cells.Drawing.Texts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

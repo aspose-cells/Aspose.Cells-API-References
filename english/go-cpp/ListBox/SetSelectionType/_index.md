@@ -24,5 +24,4 @@ func (instance *ListBox) SetSelectionType(value SelectionType)  error
 ## See Also
 
 * Class [ListBox](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

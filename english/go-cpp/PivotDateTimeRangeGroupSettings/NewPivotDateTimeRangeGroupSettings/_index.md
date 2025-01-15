@@ -24,5 +24,4 @@ func NewPivotDateTimeRangeGroupSettings(src *PivotFieldGroupSettings) ( *PivotDa
 ## See Also
 
 * Class [PivotDateTimeRangeGroupSettings](../)
-* Namespace [Aspose.Cells.Pivot](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *WebExtensionCollection) AddWebVideoPlayer(url string, autoplay b
 ## See Also
 
 * Class [WebExtensionCollection](../)
-* Namespace [Aspose.Cells.WebExtensions](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

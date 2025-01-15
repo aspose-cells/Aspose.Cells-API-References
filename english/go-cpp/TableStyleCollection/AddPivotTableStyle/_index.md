@@ -24,5 +24,4 @@ func (instance *TableStyleCollection) AddPivotTableStyle(name string)  (int32,  
 ## See Also
 
 * Class [TableStyleCollection](../)
-* Namespace [Aspose.Cells.Tables](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

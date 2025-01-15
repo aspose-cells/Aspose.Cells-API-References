@@ -24,5 +24,4 @@ func (instance *ThreadedCommentAuthorCollection) Get_String(name string)  (*Thre
 ## See Also
 
 * Class [ThreadedCommentAuthorCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

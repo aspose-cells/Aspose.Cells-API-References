@@ -24,5 +24,4 @@ func (instance *Workbook) ImportXml_String_String_Int_Int(url string, sheetname 
 ## See Also
 
 * Class [Workbook](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

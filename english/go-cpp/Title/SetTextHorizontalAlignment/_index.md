@@ -24,5 +24,4 @@ func (instance *Title) SetTextHorizontalAlignment(value TextAlignmentType)  erro
 ## See Also
 
 * Class [Title](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

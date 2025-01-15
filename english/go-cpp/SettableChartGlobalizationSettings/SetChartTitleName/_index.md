@@ -24,5 +24,4 @@ func (instance *SettableChartGlobalizationSettings) SetChartTitleName(name strin
 ## See Also
 
 * Class [SettableChartGlobalizationSettings](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

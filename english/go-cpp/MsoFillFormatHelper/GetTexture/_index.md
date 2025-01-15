@@ -24,5 +24,4 @@ func (instance *MsoFillFormatHelper) GetTexture()  (TextureType,  error)
 ## See Also
 
 * Class [MsoFillFormatHelper](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

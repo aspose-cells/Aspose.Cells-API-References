@@ -24,5 +24,4 @@ func (instance *PivotTableRefreshOption) GetReserveMissingPivotItemType()  (Rese
 ## See Also
 
 * Class [PivotTableRefreshOption](../)
-* Namespace [Aspose.Cells.Pivot](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

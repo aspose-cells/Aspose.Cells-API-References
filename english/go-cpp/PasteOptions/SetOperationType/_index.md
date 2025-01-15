@@ -24,5 +24,4 @@ func (instance *PasteOptions) SetOperationType(value PasteOperationType)  error
 ## See Also
 
 * Class [PasteOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

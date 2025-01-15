@@ -30,6 +30,6 @@ type XmlMapCollection struct  {
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[Get](./get/) | Gets the xml map by the specific index. | 
-|[Add](./add/) | Add a <see cref="XmlMap"/> by the url/path of a xml/xsd file. | 
+|[Add](./add/) | Add a XmlMap by the url/path of a xml/xsd file. | 
 |[Clear](./clear/) | Removes all XmlMaps. | 
 |[GetCount](./getcount/) |  | 

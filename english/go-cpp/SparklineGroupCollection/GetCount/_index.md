@@ -23,5 +23,4 @@ func (instance *SparklineGroupCollection) GetCount()  (int32,  error)
 ## See Also
 
 * Class [SparklineGroupCollection](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

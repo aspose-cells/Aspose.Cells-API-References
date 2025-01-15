@@ -24,5 +24,4 @@ func (instance *Line) GetTransparency()  (float64,  error)
 ## See Also
 
 * Class [Line](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

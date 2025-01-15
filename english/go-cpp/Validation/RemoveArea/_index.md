@@ -24,5 +24,4 @@ func (instance *Validation) RemoveArea(cellarea *CellArea)  error
 ## See Also
 
 * Class [Validation](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

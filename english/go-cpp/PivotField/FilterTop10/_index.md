@@ -24,5 +24,4 @@ func (instance *PivotField) FilterTop10(valuefieldindex int32, type_ PivotFilter
 ## See Also
 
 * Class [PivotField](../)
-* Namespace [Aspose.Cells.Pivot](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

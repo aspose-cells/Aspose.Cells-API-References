@@ -10,7 +10,7 @@ url: /go-cpp/systemtimeinterruptmonitor/getterminatewithoutexception/
 
 ## GetTerminateWithoutException function
 
-See <see cref="AbstractInterruptMonitor.TerminateWithoutException"/>.This property is specified by user when constructing this monitor instance.
+See AbstractInterruptMonitor.TerminateWithoutException.This property is specified by user when constructing this monitor instance.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *SystemTimeInterruptMonitor) GetTerminateWithoutException()  (boo
 ## See Also
 
 * Class [SystemTimeInterruptMonitor](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

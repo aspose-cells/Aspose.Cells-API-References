@@ -24,5 +24,4 @@ func NewOdsSaveOptions_SaveFormat(saveformat SaveFormat) ( *OdsSaveOptions, erro
 ## See Also
 
 * Class [OdsSaveOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *DocumentProperty) ToDouble()  (float64,  error)
 ## See Also
 
 * Class [DocumentProperty](../)
-* Namespace [Aspose.Cells.Properties](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

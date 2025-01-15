@@ -24,5 +24,4 @@ func (instance *PivotFilterCollection) Get(index int32)  (*PivotFilter,  error)
 ## See Also
 
 * Class [PivotFilterCollection](../)
-* Namespace [Aspose.Cells.Pivot](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

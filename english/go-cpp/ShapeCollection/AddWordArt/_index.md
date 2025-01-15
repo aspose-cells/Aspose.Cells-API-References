@@ -24,5 +24,4 @@ func (instance *ShapeCollection) AddWordArt(style PresetWordArtStyle, text strin
 ## See Also
 
 * Class [ShapeCollection](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

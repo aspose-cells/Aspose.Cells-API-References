@@ -24,5 +24,4 @@ func (instance *Cell) IsTableFormula()  (bool,  error)
 ## See Also
 
 * Class [Cell](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

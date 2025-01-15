@@ -24,5 +24,4 @@ func NewBarEquationNode(src *EquationNode) ( *BarEquationNode, error)
 ## See Also
 
 * Class [BarEquationNode](../)
-* Namespace [Aspose.Cells.Drawing.Equations](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

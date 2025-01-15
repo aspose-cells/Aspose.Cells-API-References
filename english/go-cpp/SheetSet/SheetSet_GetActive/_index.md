@@ -24,5 +24,4 @@ func SheetSet_GetActive()  (*SheetSet,  error)
 ## See Also
 
 * Class [SheetSet](../)
-* Namespace [Aspose.Cells.Rendering](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

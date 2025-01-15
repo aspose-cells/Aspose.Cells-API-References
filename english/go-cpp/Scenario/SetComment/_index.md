@@ -24,5 +24,4 @@ func (instance *Scenario) SetComment(value string)  error
 ## See Also
 
 * Class [Scenario](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

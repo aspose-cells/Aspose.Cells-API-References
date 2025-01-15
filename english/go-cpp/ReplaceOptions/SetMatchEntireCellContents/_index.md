@@ -24,5 +24,4 @@ func (instance *ReplaceOptions) SetMatchEntireCellContents(value bool)  error
 ## See Also
 
 * Class [ReplaceOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

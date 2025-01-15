@@ -24,5 +24,4 @@ func (instance *SettableGlobalizationSettings) GetLocalBuiltInName(standardname 
 ## See Also
 
 * Class [SettableGlobalizationSettings](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

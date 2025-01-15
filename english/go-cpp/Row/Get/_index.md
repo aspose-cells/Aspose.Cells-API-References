@@ -24,5 +24,4 @@ func (instance *Row) Get(column int32)  (*Cell,  error)
 ## See Also
 
 * Class [Row](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

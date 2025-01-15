@@ -10,7 +10,7 @@ url: /go-cpp/series/getmarker/
 
 ## GetMarker function
 
-Gets the <see cref="Marker">marker</see>.
+Gets the Marker</see>.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *Series) GetMarker()  (*Marker,  error)
 ## See Also
 
 * Class [Series](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *VbaModuleCollection) Remove_Worksheet(sheet *Worksheet)  error
 ## See Also
 
 * Class [VbaModuleCollection](../)
-* Namespace [Aspose.Cells.Vba](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

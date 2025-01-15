@@ -24,5 +24,4 @@ func (instance *CheckBox) SetLinkedCell_String_Bool_Bool(formula string, isr1c1 
 ## See Also
 
 * Class [CheckBox](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

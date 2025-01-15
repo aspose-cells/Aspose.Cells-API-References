@@ -24,5 +24,4 @@ func (instance *ShapeCollection) AddTextBoxInChart(top int32, left int32, height
 ## See Also
 
 * Class [ShapeCollection](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

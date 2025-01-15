@@ -24,5 +24,4 @@ func (instance *GroupCharacterEquationNode) Equals(obj *Object)  (bool,  error)
 ## See Also
 
 * Class [GroupCharacterEquationNode](../)
-* Namespace [Aspose.Cells.Drawing.Equations](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

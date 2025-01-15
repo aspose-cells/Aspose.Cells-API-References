@@ -24,5 +24,4 @@ func (instance *AdvancedFilter) GetCriteriaRange()  (string,  error)
 ## See Also
 
 * Class [AdvancedFilter](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -40,8 +40,8 @@ type ImageOrPrintOptions struct  {
 |[SetTiffCompression](./settiffcompression/) | Gets or sets the type of compression to apply only when saving pages to the <c>Tiff</c> format. | 
 |[GetTiffColorDepth](./gettiffcolordepth/) | Gets or sets bit depth to apply only when saving pages to the <c>Tiff</c> format. | 
 |[SetTiffColorDepth](./settiffcolordepth/) | Gets or sets bit depth to apply only when saving pages to the <c>Tiff</c> format. | 
-|[GetTiffBinarizationMethod](./gettiffbinarizationmethod/) | Gets or sets method used while converting images to 1 bpp formatwhen <see cref="ImageType"/> is Tiff and <see cref="TiffCompression"/> is equal to Ccitt3 or Ccitt4. | 
-|[SetTiffBinarizationMethod](./settiffbinarizationmethod/) | Gets or sets method used while converting images to 1 bpp formatwhen <see cref="ImageType"/> is Tiff and <see cref="TiffCompression"/> is equal to Ccitt3 or Ccitt4. | 
+|[GetTiffBinarizationMethod](./gettiffbinarizationmethod/) | Gets or sets method used while converting images to 1 bpp formatwhen ImageType is Tiff and TiffCompression is equal to Ccitt3 or Ccitt4. | 
+|[SetTiffBinarizationMethod](./settiffbinarizationmethod/) | Gets or sets method used while converting images to 1 bpp formatwhen ImageType is Tiff and TiffCompression is equal to Ccitt3 or Ccitt4. | 
 |[GetPrintingPage](./getprintingpage/) | Indicates which pages will not be printed. | 
 |[SetPrintingPage](./setprintingpage/) | Indicates which pages will not be printed. | 
 |[GetQuality](./getquality/) | Gets or sets a value determining the quality of the generated  imagesto apply only when saving pages to the <c>Jpeg</c> format. The default value is 100 | 
@@ -83,7 +83,7 @@ type ImageOrPrintOptions struct  {
 |[SetTextCrossType](./settextcrosstype/) | Gets or sets displaying text type when the text width is larger than cell width. | 
 |[GetDefaultEditLanguage](./getdefaulteditlanguage/) | Gets or sets default edit language. | 
 |[SetDefaultEditLanguage](./setdefaulteditlanguage/) | Gets or sets default edit language. | 
-|[GetSheetSet](./getsheetset/) | Gets or sets the sheets to render. Default is all visible sheets in the workbook: <see cref="Aspose.Cells.Rendering.SheetSet.Visible"/>. | 
-|[SetSheetSet](./setsheetset/) | Gets or sets the sheets to render. Default is all visible sheets in the workbook: <see cref="Aspose.Cells.Rendering.SheetSet.Visible"/>. | 
+|[GetSheetSet](./getsheetset/) | Gets or sets the sheets to render. Default is all visible sheets in the workbook: Aspose.Cells.Rendering.SheetSet.Visible. | 
+|[SetSheetSet](./setsheetset/) | Gets or sets the sheets to render. Default is all visible sheets in the workbook: Aspose.Cells.Rendering.SheetSet.Visible. | 
 |[GetEmfRenderSetting](./getemfrendersetting/) | Setting for rendering Emf metafile. | 
 |[SetEmfRenderSetting](./setemfrendersetting/) | Setting for rendering Emf metafile. | 

@@ -24,5 +24,4 @@ func (instance *XmlLoadOptions) GetDefaultStyleSettings()  (*DefaultStyleSetting
 ## See Also
 
 * Class [XmlLoadOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

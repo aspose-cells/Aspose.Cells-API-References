@@ -24,5 +24,4 @@ func (instance *FilterColumn) IsNull()  (bool,  error)
 ## See Also
 
 * Class [FilterColumn](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

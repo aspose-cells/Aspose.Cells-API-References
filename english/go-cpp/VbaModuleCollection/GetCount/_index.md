@@ -23,5 +23,4 @@ func (instance *VbaModuleCollection) GetCount()  (int32,  error)
 ## See Also
 
 * Class [VbaModuleCollection](../)
-* Namespace [Aspose.Cells.Vba](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

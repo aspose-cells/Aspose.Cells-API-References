@@ -10,7 +10,7 @@ url: /go-cpp/worksheet/getverticalpagebreaks/
 
 ## GetVerticalPageBreaks function
 
-Gets the <see cref="VerticalPageBreakCollection"/> collection.
+Gets the VerticalPageBreakCollection collection.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *Worksheet) GetVerticalPageBreaks()  (*VerticalPageBreakCollectio
 ## See Also
 
 * Class [Worksheet](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -10,14 +10,14 @@ url: /net/aspose.cells.pivot/pivottable/externalconnectiondatasource/
 Gets the external connection data source.
 
 ```csharp
-[Obsolete("Use pivotTable.GetSourceDataConnections() method instead.")]
+[Obsolete("Use PivotTable.GetSourceDataConnections() method instead.")]
 [EditorBrowsable(EditorBrowsableState.Never)]
 public ExternalConnection ExternalConnectionDataSource { get; }
 ```
 
 ### Remarks
 
-NOTE: This property is now obsolete. Instead, please use pivotTable.GetSourceDataConnections() method. This method will be removed 12 months later since October 2024. Aspose apologizes for any inconvenience you may have experienced.
+NOTE: This property is now obsolete. Instead, please use PivotTable.GetSourceDataConnections() method. This method will be removed 12 months later since October 2024. Aspose apologizes for any inconvenience you may have experienced.
 
 ### See Also
 

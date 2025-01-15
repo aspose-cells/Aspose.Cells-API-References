@@ -24,5 +24,4 @@ func (instance *ShapeCollection) AddButton(upperleftrow int32, top int32, upperl
 ## See Also
 
 * Class [ShapeCollection](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

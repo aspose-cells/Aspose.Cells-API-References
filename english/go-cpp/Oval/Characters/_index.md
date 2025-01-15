@@ -24,5 +24,4 @@ func (instance *Oval) Characters(startindex int32, length int32)  (*FontSetting,
 ## See Also
 
 * Class [Oval](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -10,7 +10,7 @@ url: /go-cpp/chartpoint/getshapeproperties/
 
 ## GetShapeProperties function
 
-Gets the <see cref="ShapePropertyCollection"/> object that holds the visual shape properties of the ChartPoint.
+Gets the ShapePropertyCollection object that holds the visual shape properties of the ChartPoint.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *ChartPoint) GetShapeProperties()  (*ShapePropertyCollection,  er
 ## See Also
 
 * Class [ChartPoint](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

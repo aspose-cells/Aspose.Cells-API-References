@@ -24,5 +24,4 @@ func NewDateTimeGroupItem_Object(obj *Object) ( *DateTimeGroupItem, error)
 ## See Also
 
 * Class [DateTimeGroupItem](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -41,6 +41,8 @@ type ImageActiveXControl struct  {
 |[SetPictureSizeMode](./setpicturesizemode/) | Gets and sets how to display the picture. | 
 |[GetSpecialEffect](./getspecialeffect/) | Gets and sets the special effect of the control. | 
 |[SetSpecialEffect](./setspecialeffect/) | Gets and sets the special effect of the control. | 
+|[GetPicture](./getpicture/) | Gets and sets the data of the picture. | 
+|[SetPicture](./setpicture/) | Gets and sets the data of the picture. | 
 |[GetPictureAlignment](./getpicturealignment/) | Gets and sets the alignment of the picture inside the Form or Image. | 
 |[SetPictureAlignment](./setpicturealignment/) | Gets and sets the alignment of the picture inside the Form or Image. | 
 |[IsTiled](./istiled/) | Indicates whether the picture is tiled across the background. | 
@@ -56,3 +58,4 @@ type ImageActiveXControl struct  {
 |[GetFont](./getfont/) | Represents the font of the control. | 
 |[GetTextAlign](./gettextalign/) | Represents how to align the text used by the control. | 
 |[SetTextAlign](./settextalign/) | Represents how to align the text used by the control. | 
+|[GetData](./getdata/) | Gets and sets the binary data of the control. | 

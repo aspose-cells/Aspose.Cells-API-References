@@ -24,5 +24,4 @@ func JsonUtility_ExportRangeToJson(range_ *Range, options *JsonSaveOptions)  (st
 ## See Also
 
 * Class [JsonUtility](../)
-* Namespace [Aspose.Cells.Utility](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

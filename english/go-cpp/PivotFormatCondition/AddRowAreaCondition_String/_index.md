@@ -24,5 +24,4 @@ func (instance *PivotFormatCondition) AddRowAreaCondition_String(fieldname strin
 ## See Also
 
 * Class [PivotFormatCondition](../)
-* Namespace [Aspose.Cells.Pivot](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

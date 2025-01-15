@@ -24,5 +24,4 @@ func (instance *ConditionalFormattingValue) SetType(value FormatConditionValueTy
 ## See Also
 
 * Class [ConditionalFormattingValue](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

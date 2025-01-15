@@ -24,5 +24,4 @@ func (instance *ErrorCheckOption) GetRange(index int32)  (*CellArea,  error)
 ## See Also
 
 * Class [ErrorCheckOption](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

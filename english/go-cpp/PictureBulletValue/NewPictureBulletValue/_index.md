@@ -24,5 +24,4 @@ func NewPictureBulletValue() ( *PictureBulletValue, error)
 ## See Also
 
 * Class [PictureBulletValue](../)
-* Namespace [Aspose.Cells.Drawing.Texts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

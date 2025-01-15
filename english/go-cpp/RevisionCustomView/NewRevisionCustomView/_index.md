@@ -24,5 +24,4 @@ func NewRevisionCustomView(src *Revision) ( *RevisionCustomView, error)
 ## See Also
 
 * Class [RevisionCustomView](../)
-* Namespace [Aspose.Cells.Revisions](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

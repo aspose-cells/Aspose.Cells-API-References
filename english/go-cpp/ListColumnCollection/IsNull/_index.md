@@ -24,5 +24,4 @@ func (instance *ListColumnCollection) IsNull()  (bool,  error)
 ## See Also
 
 * Class [ListColumnCollection](../)
-* Namespace [Aspose.Cells.Tables](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

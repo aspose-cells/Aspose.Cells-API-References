@@ -24,5 +24,4 @@ func (instance *PivotItemCollection) Get_Int(index int32)  (*PivotItem,  error)
 ## See Also
 
 * Class [PivotItemCollection](../)
-* Namespace [Aspose.Cells.Pivot](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

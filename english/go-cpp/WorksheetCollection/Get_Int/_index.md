@@ -10,7 +10,7 @@ url: /go-cpp/worksheetcollection/get_int/
 
 ## Get_Int function
 
-Gets the <see cref="Worksheet"/> element at the specified index.
+Gets the Worksheet element at the specified index.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *WorksheetCollection) Get_Int(index int32)  (*Worksheet,  error)
 ## See Also
 
 * Class [WorksheetCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

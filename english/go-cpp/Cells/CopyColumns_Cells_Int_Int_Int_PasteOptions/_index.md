@@ -24,5 +24,4 @@ func (instance *Cells) CopyColumns_Cells_Int_Int_Int_PasteOptions(sourcecells0 *
 ## See Also
 
 * Class [Cells](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

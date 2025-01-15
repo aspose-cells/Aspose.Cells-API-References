@@ -24,5 +24,4 @@ func (instance *Bevel) SetWidth(value float64)  error
 ## See Also
 
 * Class [Bevel](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

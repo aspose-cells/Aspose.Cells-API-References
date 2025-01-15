@@ -24,5 +24,4 @@ func (instance *Style) SetPatternColor(pattern BackgroundType, color1 *Color, co
 ## See Also
 
 * Class [Style](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func GroupCharacterEquationNode_CreateNode(equationtype EquationNodeType, workbo
 ## See Also
 
 * Class [GroupCharacterEquationNode](../)
-* Namespace [Aspose.Cells.Drawing.Equations](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

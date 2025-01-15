@@ -10,7 +10,7 @@ url: /go-cpp/workbook/getvbaproject/
 
 ## GetVbaProject function
 
-Gets the <see cref="VbaProject"/> in a spreadsheet.
+Gets the VbaProject in a spreadsheet.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *Workbook) GetVbaProject()  (*VbaProject,  error)
 ## See Also
 
 * Class [Workbook](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

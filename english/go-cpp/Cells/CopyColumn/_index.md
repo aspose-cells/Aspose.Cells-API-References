@@ -24,5 +24,4 @@ func (instance *Cells) CopyColumn(sourcecells *Cells, sourcecolumnindex int32, d
 ## See Also
 
 * Class [Cells](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

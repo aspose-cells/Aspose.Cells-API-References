@@ -10,7 +10,7 @@ url: /go-cpp/xpssaveoptions/setsheetset/
 
 ## SetSheetSet function
 
-Gets or sets the sheets to render. Default is all visible sheets in the workbook: <see cref="Aspose.Cells.Rendering.SheetSet.Visible"/>.
+Gets or sets the sheets to render. Default is all visible sheets in the workbook: Aspose.Cells.Rendering.SheetSet.Visible.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *XpsSaveOptions) SetSheetSet(value *SheetSet)  error
 ## See Also
 
 * Class [XpsSaveOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

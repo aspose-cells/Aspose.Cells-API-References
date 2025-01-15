@@ -23,5 +23,4 @@ func NewDateTimeGroupItem_DateTimeGroupingType_Int_Int_Int_Int_Int_Int(type_ Dat
 ## See Also
 
 * Class [DateTimeGroupItem](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

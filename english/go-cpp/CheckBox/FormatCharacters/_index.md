@@ -24,5 +24,4 @@ func (instance *CheckBox) FormatCharacters(startindex int32, length int32, font 
 ## See Also
 
 * Class [CheckBox](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

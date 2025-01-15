@@ -24,5 +24,4 @@ func (instance *AbstractFormulaChangeMonitor) OnCellFormulaChanged(sheetindex in
 ## See Also
 
 * Class [AbstractFormulaChangeMonitor](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

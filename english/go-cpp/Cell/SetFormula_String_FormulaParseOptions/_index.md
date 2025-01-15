@@ -24,5 +24,4 @@ func (instance *Cell) SetFormula_String_FormulaParseOptions(formula string, opti
 ## See Also
 
 * Class [Cell](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

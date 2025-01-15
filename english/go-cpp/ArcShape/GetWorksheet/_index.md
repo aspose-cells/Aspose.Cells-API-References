@@ -10,7 +10,7 @@ url: /go-cpp/arcshape/getworksheet/
 
 ## GetWorksheet function
 
-Gets the <see cref="Worksheet"/> object which contains this shape.
+Gets the Worksheet object which contains this shape.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *ArcShape) GetWorksheet()  (*Worksheet,  error)
 ## See Also
 
 * Class [ArcShape](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *Oval) ToImage_String_ImageOrPrintOptions(imagefile string, optio
 ## See Also
 
 * Class [Oval](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *Cells) DeleteRow_Int_Bool(rowindex int32, updatereference bool) 
 ## See Also
 
 * Class [Cells](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

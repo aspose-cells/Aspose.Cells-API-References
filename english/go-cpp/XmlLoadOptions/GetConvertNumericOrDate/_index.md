@@ -24,5 +24,4 @@ func (instance *XmlLoadOptions) GetConvertNumericOrDate()  (bool,  error)
 ## See Also
 
 * Class [XmlLoadOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

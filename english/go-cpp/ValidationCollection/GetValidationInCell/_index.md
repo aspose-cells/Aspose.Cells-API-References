@@ -24,5 +24,4 @@ func (instance *ValidationCollection) GetValidationInCell(row int32, column int3
 ## See Also
 
 * Class [ValidationCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

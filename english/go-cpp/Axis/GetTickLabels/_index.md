@@ -10,7 +10,7 @@ url: /go-cpp/axis/getticklabels/
 
 ## GetTickLabels function
 
-Returns a <see cref="TickLabels"/> object that represents the tick-mark labels for the specified axis.
+Returns a TickLabels object that represents the tick-mark labels for the specified axis.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *Axis) GetTickLabels()  (*TickLabels,  error)
 ## See Also
 
 * Class [Axis](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

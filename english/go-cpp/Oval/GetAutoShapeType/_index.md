@@ -24,5 +24,4 @@ func (instance *Oval) GetAutoShapeType()  (AutoShapeType,  error)
 ## See Also
 
 * Class [Oval](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

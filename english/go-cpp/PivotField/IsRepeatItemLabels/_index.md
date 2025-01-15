@@ -24,5 +24,4 @@ func (instance *PivotField) IsRepeatItemLabels()  (bool,  error)
 ## See Also
 
 * Class [PivotField](../)
-* Namespace [Aspose.Cells.Pivot](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *Spinner) MoveToRange(upperleftrow int32, upperleftcolumn int32, 
 ## See Also
 
 * Class [Spinner](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

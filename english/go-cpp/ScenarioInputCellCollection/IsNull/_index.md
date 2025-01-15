@@ -24,5 +24,4 @@ func (instance *ScenarioInputCellCollection) IsNull()  (bool,  error)
 ## See Also
 
 * Class [ScenarioInputCellCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

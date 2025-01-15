@@ -24,5 +24,4 @@ func (instance *TextBoxOptions) SetRightMarginPt(value float64)  error
 ## See Also
 
 * Class [TextBoxOptions](../)
-* Namespace [Aspose.Cells.Drawing.Texts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -10,7 +10,7 @@ url: /go-cpp/errorcheckoptioncollection/get/
 
 ## Get function
 
-Gets <see cref="ErrorCheckOption"/> object by the given index.
+Gets ErrorCheckOption object by the given index.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *ErrorCheckOptionCollection) Get(index int32)  (*ErrorCheckOption
 ## See Also
 
 * Class [ErrorCheckOptionCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -10,7 +10,7 @@ url: /go-cpp/solidfill/setcellscolor/
 
 ## SetCellsColor function
 
-Gets and sets the <see cref="CellsColor"/> object.
+Gets and sets the CellsColor object.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *SolidFill) SetCellsColor(value *CellsColor)  error
 ## See Also
 
 * Class [SolidFill](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

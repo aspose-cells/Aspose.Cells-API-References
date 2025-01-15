@@ -24,5 +24,4 @@ func (instance *DeleteOptions) GetFormulaChangeMonitor()  (*AbstractFormulaChang
 ## See Also
 
 * Class [DeleteOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

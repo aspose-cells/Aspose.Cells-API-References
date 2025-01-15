@@ -24,5 +24,4 @@ func (instance *Picture) SetMacroName(value string)  error
 ## See Also
 
 * Class [Picture](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

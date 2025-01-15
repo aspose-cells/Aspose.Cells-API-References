@@ -24,5 +24,4 @@ func (instance *TableStyleElementCollection) Get_TableStyleElementType(type_ Tab
 ## See Also
 
 * Class [TableStyleElementCollection](../)
-* Namespace [Aspose.Cells.Tables](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

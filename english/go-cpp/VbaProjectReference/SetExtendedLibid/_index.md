@@ -24,5 +24,4 @@ func (instance *VbaProjectReference) SetExtendedLibid(value string)  error
 ## See Also
 
 * Class [VbaProjectReference](../)
-* Namespace [Aspose.Cells.Vba](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

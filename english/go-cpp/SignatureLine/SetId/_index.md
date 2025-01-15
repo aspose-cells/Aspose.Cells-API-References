@@ -24,5 +24,4 @@ func (instance *SignatureLine) SetId(value *UUID)  error
 ## See Also
 
 * Class [SignatureLine](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

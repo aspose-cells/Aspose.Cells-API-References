@@ -24,5 +24,4 @@ func (instance *RectangleShape) GetLinkedCell_Bool_Bool(isr1c1 bool, islocal boo
 ## See Also
 
 * Class [RectangleShape](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -68,7 +68,7 @@ type ListObject struct  {
 |[SetTableStyleType](./settablestyletype/) | Gets and the built-in table style. | 
 |[GetTableStyleName](./gettablestylename/) | Gets and sets the table style name. | 
 |[SetTableStyleName](./settablestylename/) | Gets and sets the table style name. | 
-|[GetXmlMap](./getxmlmap/) | Gets an <see cref="XmlMap"/> used for this list. | 
+|[GetXmlMap](./getxmlmap/) | Gets an XmlMap used for this list. | 
 |[GetAlternativeText](./getalternativetext/) | Gets and sets the alternative text. | 
 |[SetAlternativeText](./setalternativetext/) | Gets and sets the alternative text. | 
 |[GetAlternativeDescription](./getalternativedescription/) | Gets and sets the alternative description. | 

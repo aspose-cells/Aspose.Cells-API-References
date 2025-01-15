@@ -24,5 +24,4 @@ func (instance *JsonSaveOptions) SetRefreshChartCache(value bool)  error
 ## See Also
 
 * Class [JsonSaveOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

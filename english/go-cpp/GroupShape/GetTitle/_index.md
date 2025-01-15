@@ -24,5 +24,4 @@ func (instance *GroupShape) GetTitle()  (string,  error)
 ## See Also
 
 * Class [GroupShape](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *MsoFormatPicture) SetLeftCropInch(value float64)  error
 ## See Also
 
 * Class [MsoFormatPicture](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

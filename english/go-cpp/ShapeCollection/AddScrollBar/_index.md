@@ -24,5 +24,4 @@ func (instance *ShapeCollection) AddScrollBar(upperleftrow int32, top int32, upp
 ## See Also
 
 * Class [ShapeCollection](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

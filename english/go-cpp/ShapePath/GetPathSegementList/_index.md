@@ -10,7 +10,7 @@ url: /go-cpp/shapepath/getpathsegementlist/
 
 ## GetPathSegementList function
 
-Gets <see cref="ShapeSegmentPathCollection"/> list
+Gets ShapeSegmentPathCollection list
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *ShapePath) GetPathSegementList()  (*ShapeSegmentPathCollection, 
 ## See Also
 
 * Class [ShapePath](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

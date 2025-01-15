@@ -24,5 +24,4 @@ func (instance *TextBoxActiveXControl) GetTextAlign()  (TextAlignmentType,  erro
 ## See Also
 
 * Class [TextBoxActiveXControl](../)
-* Namespace [Aspose.Cells.Drawing.ActiveXControls](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

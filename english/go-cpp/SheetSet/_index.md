@@ -23,6 +23,8 @@ type SheetSet struct  {
 
 | Method | Description |
 | --- | --- |
+|[NewSheetSet_int32Array](./newsheetset_int32array/) | Creates a sheet set based on exact sheet indexes. | 
+|[NewSheetSet_stringArray](./newsheetset_stringarray/) | Creates a sheet set based on exact sheet names. | 
 
 ## Methods
 

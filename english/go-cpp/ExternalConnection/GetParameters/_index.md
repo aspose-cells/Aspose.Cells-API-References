@@ -10,7 +10,7 @@ url: /go-cpp/externalconnection/getparameters/
 
 ## GetParameters function
 
-Gets <see cref="ConnectionParameterCollection"/> for an ODBC or web query.
+Gets ConnectionParameterCollection for an ODBC or web query.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *ExternalConnection) GetParameters()  (*ConnectionParameterCollec
 ## See Also
 
 * Class [ExternalConnection](../)
-* Namespace [Aspose.Cells.ExternalConnections](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

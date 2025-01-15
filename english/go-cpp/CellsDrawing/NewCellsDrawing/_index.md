@@ -24,5 +24,4 @@ func NewCellsDrawing(src *Shape) ( *CellsDrawing, error)
 ## See Also
 
 * Class [CellsDrawing](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

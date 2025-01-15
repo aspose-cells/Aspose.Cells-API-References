@@ -24,5 +24,4 @@ func (instance *HtmlSaveOptions) GetLinkTargetType()  (HtmlLinkTargetType,  erro
 ## See Also
 
 * Class [HtmlSaveOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

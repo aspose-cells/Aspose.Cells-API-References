@@ -24,5 +24,4 @@ func (instance *DataModelConnection) SetName(value string)  error
 ## See Also
 
 * Class [DataModelConnection](../)
-* Namespace [Aspose.Cells.ExternalConnections](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

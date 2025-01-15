@@ -29,7 +29,7 @@ type TrendlineCollection struct  {
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
-|[Add_TrendlineType](./add_trendlinetype/) | Adds a <see cref="Trendline"/> object to this collection with specified type. | 
-|[Add_TrendlineType_String](./add_trendlinetype_string/) | Adds a <see cref="Trendline"/> object to this collection with specified type and name. | 
-|[Get](./get/) | Gets a <see cref="Trendline"/> object by its index. | 
+|[Add_TrendlineType](./add_trendlinetype/) | Adds a Trendline object to this collection with specified type. | 
+|[Add_TrendlineType_String](./add_trendlinetype_string/) | Adds a Trendline object to this collection with specified type and name. | 
+|[Get](./get/) | Gets a Trendline object by its index. | 
 |[GetCount](./getcount/) |  | 

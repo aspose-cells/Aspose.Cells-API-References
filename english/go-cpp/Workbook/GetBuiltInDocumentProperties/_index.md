@@ -10,7 +10,7 @@ url: /go-cpp/workbook/getbuiltindocumentproperties/
 
 ## GetBuiltInDocumentProperties function
 
-Returns a <see cref="DocumentProperty"/> collection that represents all the built-in document properties of the spreadsheet.
+Returns a DocumentProperty collection that represents all the built-in document properties of the spreadsheet.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *Workbook) GetBuiltInDocumentProperties()  (*BuiltInDocumentPrope
 ## See Also
 
 * Class [Workbook](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

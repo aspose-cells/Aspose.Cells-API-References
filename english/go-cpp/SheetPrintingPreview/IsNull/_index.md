@@ -24,5 +24,4 @@ func (instance *SheetPrintingPreview) IsNull()  (bool,  error)
 ## See Also
 
 * Class [SheetPrintingPreview](../)
-* Namespace [Aspose.Cells.Rendering](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

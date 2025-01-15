@@ -24,5 +24,4 @@ func (instance *WarningInfo) GetType()  (ExceptionType,  error)
 ## See Also
 
 * Class [WarningInfo](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

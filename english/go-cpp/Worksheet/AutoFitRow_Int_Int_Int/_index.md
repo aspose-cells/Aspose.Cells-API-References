@@ -24,5 +24,4 @@ func (instance *Worksheet) AutoFitRow_Int_Int_Int(rowindex int32, firstcolumn in
 ## See Also
 
 * Class [Worksheet](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

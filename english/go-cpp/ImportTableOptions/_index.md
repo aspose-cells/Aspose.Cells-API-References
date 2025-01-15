@@ -44,10 +44,17 @@ type ImportTableOptions struct  {
 |[SetExportCaptionAsFieldName](./setexportcaptionasfieldname/) | Indicates whether exporting caption as field name | 
 |[GetDateFormat](./getdateformat/) | Gets or sets date format string for cells with imported datetime values. | 
 |[SetDateFormat](./setdateformat/) | Gets or sets date format string for cells with imported datetime values. | 
+|[GetNumberFormats](./getnumberformats/) | Gets or sets the number formats | 
+|[SetNumberFormats](./setnumberformats/) | Gets or sets the number formats | 
+|[GetIsFormulas](./getisformulas/) | Indicates whether the data are formulas. | 
+|[SetIsFormulas](./setisformulas/) | Indicates whether the data are formulas. | 
 |[GetTotalRows](./gettotalrows/) | Gets or sets total row count to import from data source. -1 means all rows of given data source. | 
 |[SetTotalRows](./settotalrows/) | Gets or sets total row count to import from data source. -1 means all rows of given data source. | 
 |[GetTotalColumns](./gettotalcolumns/) | Gets or sets total column count to import from data source. -1 means all rows of given data source. | 
 |[SetTotalColumns](./settotalcolumns/) | Gets or sets total column count to import from data source. -1 means all rows of given data source. | 
+|[GetColumnIndexes](./getcolumnindexes/) | Gets or sets the columns(0-based) to import from data source. null means all columns should be imported. | 
+|[SetColumnIndexes](./setcolumnindexes/) | Gets or sets the columns(0-based) to import from data source. null means all columns should be imported. | 
+|[GetDefaultValues](./getdefaultvalues/) | Default value for the value in the table is null. | 
 |[IsHtmlString](./ishtmlstring/) | Indicates whether the value contains html tags. | 
 |[SetIsHtmlString](./setishtmlstring/) | Indicates whether the value contains html tags. | 
 |[GetCheckMergedCells](./getcheckmergedcells/) | Indicates whether checking merged cells. | 

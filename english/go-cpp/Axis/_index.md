@@ -29,7 +29,7 @@ type Axis struct  {
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
-|[GetArea](./getarea/) | Gets the <see cref="Area"/>. | 
+|[GetArea](./getarea/) | Gets the Area. | 
 |[IsAutomaticMinValue](./isautomaticminvalue/) | Indicates whether the min value is automatically assigned. | 
 |[SetIsAutomaticMinValue](./setisautomaticminvalue/) | Indicates whether the min value is automatically assigned. | 
 |[GetMinValue](./getminvalue/) | Represents the minimum value on the value axis. | 
@@ -55,8 +55,8 @@ type Axis struct  {
 |[SetTickLabelPosition](./setticklabelposition/) | Represents the position of tick-mark labels on the specified axis. | 
 |[GetCrossAt](./getcrossat/) | Represents the point on the value axis where the category axis crosses it. | 
 |[SetCrossAt](./setcrossat/) | Represents the point on the value axis where the category axis crosses it. | 
-|[GetCrossType](./getcrosstype/) | Represents the <see cref="CrossType"/> on the specified axis where the other axis crosses. | 
-|[SetCrossType](./setcrosstype/) | Represents the <see cref="CrossType"/> on the specified axis where the other axis crosses. | 
+|[GetCrossType](./getcrosstype/) | Represents the CrossType on the specified axis where the other axis crosses. | 
+|[SetCrossType](./setcrosstype/) | Represents the CrossType on the specified axis where the other axis crosses. | 
 |[GetLogBase](./getlogbase/) | Represents the logarithmic base. Default value is 10.Only applies for Excel2007. | 
 |[SetLogBase](./setlogbase/) | Represents the logarithmic base. Default value is 10.Only applies for Excel2007. | 
 |[IsLogarithmic](./islogarithmic/) | Represents if the value axis scale type is logarithmic or not. | 
@@ -65,7 +65,7 @@ type Axis struct  {
 |[SetIsPlotOrderReversed](./setisplotorderreversed/) | Represents if Microsoft Excel plots data points from last to first. | 
 |[GetAxisBetweenCategories](./getaxisbetweencategories/) | Represents if the value axis crosses the category axis between categories. | 
 |[SetAxisBetweenCategories](./setaxisbetweencategories/) | Represents if the value axis crosses the category axis between categories. | 
-|[GetTickLabels](./getticklabels/) | Returns a <see cref="TickLabels"/> object that represents the tick-mark labels for the specified axis. | 
+|[GetTickLabels](./getticklabels/) | Returns a TickLabels object that represents the tick-mark labels for the specified axis. | 
 |[GetTickLabelSpacing](./getticklabelspacing/) | Represents the number of categories or series between tick-mark labels. Applies only to category and series axes. | 
 |[SetTickLabelSpacing](./setticklabelspacing/) | Represents the number of categories or series between tick-mark labels. Applies only to category and series axes. | 
 |[IsAutoTickLabelSpacing](./isautoticklabelspacing/) | Indicates whether the spacing of tick label is automatic | 
@@ -94,4 +94,5 @@ type Axis struct  {
 |[GetMinorGridLines](./getminorgridlines/) | Represents minor gridlines on a chart axis. | 
 |[GetHasMultiLevelLabels](./gethasmultilevellabels/) | Indicates whether the labels shall be shown as multi level. | 
 |[SetHasMultiLevelLabels](./sethasmultilevellabels/) | Indicates whether the labels shall be shown as multi level. | 
+|[GetAxisTexts](./getaxistexts/) | Gets the labels of the axis after call Chart.Calculate() method. | 
 |[GetBins](./getbins/) | Represents bins on a chart(Histogram/Pareto) axis | 

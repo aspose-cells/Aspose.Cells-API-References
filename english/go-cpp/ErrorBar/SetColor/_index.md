@@ -10,7 +10,7 @@ url: /go-cpp/errorbar/setcolor/
 
 ## SetColor function
 
-Represents the <see cref="Color"/> of the line.
+Represents the Color of the line.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *ErrorBar) SetColor(value *Color)  error
 ## See Also
 
 * Class [ErrorBar](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

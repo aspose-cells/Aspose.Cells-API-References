@@ -24,5 +24,4 @@ func (instance *PdfSaveOptions) SetImageResample(desiredppi int32, jpegquality i
 ## See Also
 
 * Class [PdfSaveOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

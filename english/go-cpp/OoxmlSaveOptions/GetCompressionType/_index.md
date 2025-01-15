@@ -24,5 +24,4 @@ func (instance *OoxmlSaveOptions) GetCompressionType()  (OoxmlCompressionType,  
 ## See Also
 
 * Class [OoxmlSaveOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

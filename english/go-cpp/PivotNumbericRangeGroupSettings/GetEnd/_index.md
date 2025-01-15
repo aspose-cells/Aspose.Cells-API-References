@@ -24,5 +24,4 @@ func (instance *PivotNumbericRangeGroupSettings) GetEnd()  (float64,  error)
 ## See Also
 
 * Class [PivotNumbericRangeGroupSettings](../)
-* Namespace [Aspose.Cells.Pivot](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

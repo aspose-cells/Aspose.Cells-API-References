@@ -24,5 +24,4 @@ func (instance *WebExtensionPropertyCollection) RemoveAt(name string)  error
 ## See Also
 
 * Class [WebExtensionPropertyCollection](../)
-* Namespace [Aspose.Cells.WebExtensions](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

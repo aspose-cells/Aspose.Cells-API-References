@@ -24,5 +24,4 @@ func (instance *NumbersLoadOptions) SetMemorySetting(value MemorySetting)  error
 ## See Also
 
 * Class [NumbersLoadOptions](../)
-* Namespace [Aspose.Cells.Numbers](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

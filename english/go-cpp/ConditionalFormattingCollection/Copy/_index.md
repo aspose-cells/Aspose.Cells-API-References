@@ -24,5 +24,4 @@ func (instance *ConditionalFormattingCollection) Copy(cfs *ConditionalFormatting
 ## See Also
 
 * Class [ConditionalFormattingCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

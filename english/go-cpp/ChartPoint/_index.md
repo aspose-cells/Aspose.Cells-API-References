@@ -33,17 +33,17 @@ type ChartPoint struct  {
 |[SetExplosion](./setexplosion/) | The distance of an open pie slice from the center of the pie chart is expressed as a percentage of the pie diameter. | 
 |[GetShadow](./getshadow/) | True if the chartpoint has a shadow. | 
 |[SetShadow](./setshadow/) | True if the chartpoint has a shadow. | 
-|[GetBorder](./getborder/) | Gets the <see cref="Line"> border</see>. | 
-|[GetArea](./getarea/) | Gets the <see cref="Area"> area</see>. | 
-|[GetMarker](./getmarker/) | Gets the <see cref="Marker"> marker</see>. | 
-|[GetDataLabels](./getdatalabels/) | Returns a <see cref="DataLabels"/> object that represents the data label associated with this chart point. | 
+|[GetBorder](./getborder/) | Gets the Line</see>. | 
+|[GetArea](./getarea/) | Gets the Area</see>. | 
+|[GetMarker](./getmarker/) | Gets the Marker</see>. | 
+|[GetDataLabels](./getdatalabels/) | Returns a DataLabels object that represents the data label associated with this chart point. | 
 |[Get_YValue](./get_yvalue/) | Gets or sets the Y value of the chart point. | 
 |[SetYValue](./setyvalue/) | Gets or sets the Y value of the chart point. | 
 |[GetYValueType](./getyvaluetype/) | Gets Y value type of the chart point. | 
 |[GetXValue](./getxvalue/) | Gets or sets the X value of the chart point. | 
 |[SetXValue](./setxvalue/) | Gets or sets the X value of the chart point. | 
 |[GetXValueType](./getxvaluetype/) | Gets X value type of the chart point. | 
-|[GetShapeProperties](./getshapeproperties/) | Gets the <see cref="ShapePropertyCollection"/> object that holds the visual shape properties of the ChartPoint. | 
+|[GetShapeProperties](./getshapeproperties/) | Gets the ShapePropertyCollection object that holds the visual shape properties of the ChartPoint. | 
 |[IsInSecondaryPlot](./isinsecondaryplot/) | Gets or sets a value indicates whether this data points is in the second pie or baron a pie of pie or bar of pie chart | 
 |[SetIsInSecondaryPlot](./setisinsecondaryplot/) | Gets or sets a value indicates whether this data points is in the second pie or baron a pie of pie or bar of pie chart | 
 |[GetShapeX](./getshapex/) | Gets the x coordinate of the upper left corner in units of 1/4000 of chart's width after calls Chart.Calculate() method. | 

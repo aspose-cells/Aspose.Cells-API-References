@@ -10,7 +10,7 @@ url: /go-cpp/htmltableloadoptioncollection/get/
 
 ## Get function
 
-Gets the <see cref="HtmlTableLoadOption"/> element at the specified index.
+Gets the HtmlTableLoadOption element at the specified index.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *HtmlTableLoadOptionCollection) Get(index int32)  (*HtmlTableLoad
 ## See Also
 
 * Class [HtmlTableLoadOptionCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

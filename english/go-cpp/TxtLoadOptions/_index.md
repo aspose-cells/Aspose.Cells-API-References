@@ -46,8 +46,8 @@ type TxtLoadOptions struct  {
 |[SetTextQualifier](./settextqualifier/) | Specifies the text qualifier for cell values. Default qualifier is '"'. | 
 |[GetTreatConsecutiveDelimitersAsOne](./gettreatconsecutivedelimitersasone/) | Whether consecutive delimiters should be treated as one. | 
 |[SetTreatConsecutiveDelimitersAsOne](./settreatconsecutivedelimitersasone/) | Whether consecutive delimiters should be treated as one. | 
-|[GetTreatQuotePrefixAsValue](./gettreatquoteprefixasvalue/) | Indicates whether the leading single quote sign should be taken as part of the value of one cell.Default is true. If it is false, the leading single quote will be removed from corresponding cell's valueand <see cref="Style.QuotePrefix"/> will be set as true for the cell. | 
-|[SetTreatQuotePrefixAsValue](./settreatquoteprefixasvalue/) | Indicates whether the leading single quote sign should be taken as part of the value of one cell.Default is true. If it is false, the leading single quote will be removed from corresponding cell's valueand <see cref="Style.QuotePrefix"/> will be set as true for the cell. | 
+|[GetTreatQuotePrefixAsValue](./gettreatquoteprefixasvalue/) | Indicates whether the leading single quote sign should be taken as part of the value of one cell.Default is true. If it is false, the leading single quote will be removed from corresponding cell's valueand Style.QuotePrefix will be set as true for the cell. | 
+|[SetTreatQuotePrefixAsValue](./settreatquoteprefixasvalue/) | Indicates whether the leading single quote sign should be taken as part of the value of one cell.Default is true. If it is false, the leading single quote will be removed from corresponding cell's valueand Style.QuotePrefix will be set as true for the cell. | 
 |[GetExtendToNextSheet](./getextendtonextsheet/) | Whether extends data to next sheet when the rows or columns of data exceed limit.Default is false. | 
 |[SetExtendToNextSheet](./setextendtonextsheet/) | Whether extends data to next sheet when the rows or columns of data exceed limit.Default is false. | 
 |[GetHeaderRowsCount](./getheaderrowscount/) | The count of header rows to be repeated for extended sheets. | 

@@ -24,5 +24,4 @@ func (instance *BorderBoxEquationNode) InsertChild(index int32, equationtype Equ
 ## See Also
 
 * Class [BorderBoxEquationNode](../)
-* Namespace [Aspose.Cells.Drawing.Equations](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

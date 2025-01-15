@@ -24,5 +24,4 @@ func (instance *SmartArtShape) SetInputRange_String_Bool_Bool(formula string, is
 ## See Also
 
 * Class [SmartArtShape](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

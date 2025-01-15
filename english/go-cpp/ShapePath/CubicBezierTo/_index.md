@@ -24,5 +24,4 @@ func (instance *ShapePath) CubicBezierTo(ctrx1 float32, ctry1 float32, ctrx2 flo
 ## See Also
 
 * Class [ShapePath](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

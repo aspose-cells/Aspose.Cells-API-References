@@ -24,5 +24,4 @@ func (instance *ArcShape) Characters(startindex int32, length int32)  (*FontSett
 ## See Also
 
 * Class [ArcShape](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

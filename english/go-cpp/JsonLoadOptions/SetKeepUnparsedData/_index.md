@@ -24,5 +24,4 @@ func (instance *JsonLoadOptions) SetKeepUnparsedData(value bool)  error
 ## See Also
 
 * Class [JsonLoadOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

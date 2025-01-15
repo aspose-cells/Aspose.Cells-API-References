@@ -10,7 +10,7 @@ url: /go-cpp/combobox/getshadoweffect/
 
 ## GetShadowEffect function
 
-Represents a <see cref="Drawing.ShadowEffect"/> object that specifies shadow effect for the chart element or shape.
+Represents a Drawing.ShadowEffect object that specifies shadow effect for the chart element or shape.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *ComboBox) GetShadowEffect()  (*ShadowEffect,  error)
 ## See Also
 
 * Class [ComboBox](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

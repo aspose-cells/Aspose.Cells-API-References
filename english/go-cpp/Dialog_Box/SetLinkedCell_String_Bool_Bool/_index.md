@@ -24,5 +24,4 @@ func (instance *Dialog_Box) SetLinkedCell_String_Bool_Bool(formula string, isr1c
 ## See Also
 
 * Class [Dialog_Box](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

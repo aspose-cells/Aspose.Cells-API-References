@@ -24,5 +24,4 @@ func (instance *PptxSaveOptions) SetIsFontSubstitutionCharGranularity(value bool
 ## See Also
 
 * Class [PptxSaveOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *ListBoxActiveXControl) SetListWidth(value float64)  error
 ## See Also
 
 * Class [ListBoxActiveXControl](../)
-* Namespace [Aspose.Cells.Drawing.ActiveXControls](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

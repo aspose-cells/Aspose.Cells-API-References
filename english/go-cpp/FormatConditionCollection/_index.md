@@ -29,6 +29,7 @@ type FormatConditionCollection struct  {
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
+|[Add](./add/) | Adds a formatting condition and effected cell rang to the FormatConditionsThe FormatConditions can contain up to three conditional formats.References to the other sheets are not allowed in the formulas of conditional formatting. | 
 |[AddArea](./addarea/) | Adds a conditional formatted cell range. | 
 |[AddCondition_FormatConditionType_OperatorType_String_String](./addcondition_formatconditiontype_operatortype_string_string/) | Adds a formatting condition. | 
 |[AddCondition_FormatConditionType](./addcondition_formatconditiontype/) | Add a format condition. | 

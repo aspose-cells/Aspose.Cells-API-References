@@ -24,5 +24,4 @@ func (instance *Cell) InsertText(index int32, text string)  error
 ## See Also
 
 * Class [Cell](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

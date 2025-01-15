@@ -10,7 +10,7 @@ url: /go-cpp/floor/getbackgroundcolor/
 
 ## GetBackgroundColor function
 
-Gets or sets the background <see cref="Color"/> of the <see cref="Area"/>.
+Gets or sets the background Color of the Area.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *Floor) GetBackgroundColor()  (*Color,  error)
 ## See Also
 
 * Class [Floor](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

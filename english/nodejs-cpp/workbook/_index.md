@@ -94,6 +94,7 @@ workbook.save("output/result.xls", saveOptions);
 | [saveToStream()](#saveToStream--)| Saves Excel file to a MemoryStream object and returns it. |
 | [removeUnusedStyles()](#removeUnusedStyles--)| Remove all unused styles. |
 | [createStyle()](#createStyle--)| Creates a new style. |
+| [createStyle(boolean)](#createStyle-boolean-)| Creates a new style. |
 | [createBuiltinStyle(BuiltinStyleType)](#createBuiltinStyle-builtinstyletype-)| Creates built-in style by given type. |
 | [createCellsColor()](#createCellsColor--)| Creates a [CellsColor](../cellscolor/) object. |
 | [replace(string, string)](#replace-string-string-)| Replaces a cell's value with a new string. |
@@ -838,6 +839,23 @@ Creates a new style.
 createStyle() : Style;
 ```
 
+
+**Returns**
+
+Returns a style object.
+
+### createStyle(boolean) {#createStyle-boolean-}
+
+Creates a new style.
+
+```javascript
+createStyle(cloneDefaultStyle: boolean) : Style;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| cloneDefaultStyle | boolean | Incidates whether clones the default style |
 
 **Returns**
 

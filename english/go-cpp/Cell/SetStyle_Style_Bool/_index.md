@@ -24,5 +24,4 @@ func (instance *Cell) SetStyle_Style_Bool(style *Style, explicitflag bool)  erro
 ## See Also
 
 * Class [Cell](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

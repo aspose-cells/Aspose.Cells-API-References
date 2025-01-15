@@ -24,5 +24,4 @@ func (instance *Cells) ApplyRowStyle(row int32, style *Style, flag *StyleFlag)  
 ## See Also
 
 * Class [Cells](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

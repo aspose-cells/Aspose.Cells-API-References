@@ -23,11 +23,13 @@ type MemoryFontSource struct  {
 
 | Method | Description |
 | --- | --- |
-|[NewMemoryFontSource](./newmemoryfontsource/) | Constructs from a parent object. | 
+|[NewMemoryFontSource_Stream](./newmemoryfontsource_stream/) | Ctor. | 
+|[NewMemoryFontSource_FontSourceBase](./newmemoryfontsource_fontsourcebase/) | Constructs from a parent object. | 
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
+|[GetFontData](./getfontdata/) | Binary font data. | 
 |[GetType](./gettype/) | Returns the type of the font source. | 

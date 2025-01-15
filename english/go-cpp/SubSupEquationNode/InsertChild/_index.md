@@ -24,5 +24,4 @@ func (instance *SubSupEquationNode) InsertChild(index int32, equationtype Equati
 ## See Also
 
 * Class [SubSupEquationNode](../)
-* Namespace [Aspose.Cells.Drawing.Equations](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

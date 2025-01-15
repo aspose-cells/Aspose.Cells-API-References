@@ -24,5 +24,4 @@ func (instance *ConditionalFormattingResult) GetConditionalStyle()  (*Style,  er
 ## See Also
 
 * Class [ConditionalFormattingResult](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

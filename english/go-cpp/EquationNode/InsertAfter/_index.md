@@ -24,5 +24,4 @@ func (instance *EquationNode) InsertAfter(equationtype EquationNodeType)  (*Equa
 ## See Also
 
 * Class [EquationNode](../)
-* Namespace [Aspose.Cells.Drawing.Equations](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

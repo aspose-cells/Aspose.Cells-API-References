@@ -10,7 +10,7 @@ url: /go-cpp/font/setname/
 
 ## SetName function
 
-Gets  or sets the name of the <see cref="Font"/>.
+Gets  or sets the name of the Font.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *Font) SetName(value string)  error
 ## See Also
 
 * Class [Font](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

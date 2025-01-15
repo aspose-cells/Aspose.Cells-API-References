@@ -24,5 +24,4 @@ func (instance *GradientStopCollection) Set(value *GradientStop, index int32)  e
 ## See Also
 
 * Class [GradientStopCollection](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func NewEquationComponentNode(src *EquationNode) ( *EquationComponentNode, error
 ## See Also
 
 * Class [EquationComponentNode](../)
-* Namespace [Aspose.Cells.Drawing.Equations](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

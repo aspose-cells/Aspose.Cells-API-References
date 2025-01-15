@@ -24,5 +24,4 @@ func (instance *Spinner) GetMsoDrawingType()  (MsoDrawingType,  error)
 ## See Also
 
 * Class [Spinner](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

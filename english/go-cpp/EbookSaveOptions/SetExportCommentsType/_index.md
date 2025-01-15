@@ -24,5 +24,4 @@ func (instance *EbookSaveOptions) SetExportCommentsType(value PrintCommentsType)
 ## See Also
 
 * Class [EbookSaveOptions](../)
-* Namespace [Aspose.Cells.Saving](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -23,5 +23,4 @@ func NewFontSetting(startindex int32, length int32, sheets *WorksheetCollection)
 ## See Also
 
 * Class [FontSetting](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *ImageSaveOptions) GetCachedFileFolder()  (string,  error)
 ## See Also
 
 * Class [ImageSaveOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

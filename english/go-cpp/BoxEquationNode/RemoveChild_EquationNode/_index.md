@@ -24,5 +24,4 @@ func (instance *BoxEquationNode) RemoveChild_EquationNode(node *EquationNode)  e
 ## See Also
 
 * Class [BoxEquationNode](../)
-* Namespace [Aspose.Cells.Drawing.Equations](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

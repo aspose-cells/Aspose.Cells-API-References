@@ -24,5 +24,4 @@ func (instance *CustomFilter) GetFilterOperatorType()  (FilterOperatorType,  err
 ## See Also
 
 * Class [CustomFilter](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

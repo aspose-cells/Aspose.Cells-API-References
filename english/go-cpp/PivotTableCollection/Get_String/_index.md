@@ -24,5 +24,4 @@ func (instance *PivotTableCollection) Get_String(name string)  (*PivotTable,  er
 ## See Also
 
 * Class [PivotTableCollection](../)
-* Namespace [Aspose.Cells.Pivot](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

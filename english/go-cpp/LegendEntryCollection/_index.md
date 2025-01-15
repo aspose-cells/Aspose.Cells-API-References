@@ -29,5 +29,5 @@ type LegendEntryCollection struct  {
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
-|[Get](./get/) | Gets the <see cref="LegendEntry"/> element at the specified index. | 
+|[Get](./get/) | Gets the LegendEntry element at the specified index. | 
 |[GetCount](./getcount/) |  | 

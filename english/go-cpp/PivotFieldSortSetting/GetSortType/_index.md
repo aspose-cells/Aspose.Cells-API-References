@@ -10,7 +10,7 @@ url: /go-cpp/pivotfieldsortsetting/getsorttype/
 
 ## GetSortType function
 
-Represents the <see cref="SortOrder"/>.
+Represents the SortOrder.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *PivotFieldSortSetting) GetSortType()  (SortOrder,  error)
 ## See Also
 
 * Class [PivotFieldSortSetting](../)
-* Namespace [Aspose.Cells.Pivot](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

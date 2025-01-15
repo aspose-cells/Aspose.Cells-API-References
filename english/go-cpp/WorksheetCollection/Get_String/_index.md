@@ -10,7 +10,7 @@ url: /go-cpp/worksheetcollection/get_string/
 
 ## Get_String function
 
-Gets the <see cref="Worksheet"/> element with the specified name.
+Gets the Worksheet element with the specified name.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *WorksheetCollection) Get_String(sheetname string)  (*Worksheet, 
 ## See Also
 
 * Class [WorksheetCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

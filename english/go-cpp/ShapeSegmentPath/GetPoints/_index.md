@@ -24,5 +24,4 @@ func (instance *ShapeSegmentPath) GetPoints()  (*ShapePathPointCollection,  erro
 ## See Also
 
 * Class [ShapeSegmentPath](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -10,7 +10,7 @@ url: /go-cpp/chartdatatable/getfont/
 
 ## GetFont function
 
-Gets a <see cref="Font"/> object which represents the font setting of the specified chart data table.
+Gets a Font object which represents the font setting of the specified chart data table.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *ChartDataTable) GetFont()  (*Font,  error)
 ## See Also
 
 * Class [ChartDataTable](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

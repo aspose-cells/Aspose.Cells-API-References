@@ -24,5 +24,4 @@ func (instance *WorksheetCollection) AddCopy_Int(sheetindex int32)  (int32,  err
 ## See Also
 
 * Class [WorksheetCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

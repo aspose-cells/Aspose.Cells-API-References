@@ -24,5 +24,4 @@ func (instance *WebExtensionTaskPane) SetRow(value int32)  error
 ## See Also
 
 * Class [WebExtensionTaskPane](../)
-* Namespace [Aspose.Cells.WebExtensions](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

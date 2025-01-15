@@ -24,5 +24,4 @@ func (instance *BoxEquationNode) GetParentNode()  (*EquationNode,  error)
 ## See Also
 
 * Class [BoxEquationNode](../)
-* Namespace [Aspose.Cells.Drawing.Equations](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *CustomPiovtFieldGroupItem) IsNull()  (bool,  error)
 ## See Also
 
 * Class [CustomPiovtFieldGroupItem](../)
-* Namespace [Aspose.Cells.Pivot](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

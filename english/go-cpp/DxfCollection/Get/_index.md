@@ -24,5 +24,4 @@ func (instance *DxfCollection) Get(index int32)  (*Style,  error)
 ## See Also
 
 * Class [DxfCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

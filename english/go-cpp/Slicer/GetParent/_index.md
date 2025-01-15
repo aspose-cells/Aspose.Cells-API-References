@@ -10,7 +10,7 @@ url: /go-cpp/slicer/getparent/
 
 ## GetParent function
 
-Returns the <see cref="Worksheet"/> object which contains this slicer. Read-only.
+Returns the Worksheet object which contains this slicer. Read-only.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *Slicer) GetParent()  (*Worksheet,  error)
 ## See Also
 
 * Class [Slicer](../)
-* Namespace [Aspose.Cells.Slicers](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

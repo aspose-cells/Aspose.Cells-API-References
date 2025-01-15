@@ -24,5 +24,4 @@ func (instance *CommentShape) GetSpid()  (string,  error)
 ## See Also
 
 * Class [CommentShape](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

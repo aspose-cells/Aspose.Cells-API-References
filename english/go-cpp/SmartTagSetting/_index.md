@@ -29,9 +29,9 @@ type SmartTagSetting struct  {
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
-|[Add_Int_Int](./add_int_int/) | Adds a <see cref="SmartTagCollection"/> object to a cell. | 
+|[Add_Int_Int](./add_int_int/) | Adds a SmartTagCollection object to a cell. | 
 |[Add_String](./add_string/) | Add a cell smart tags. | 
-|[Get_Int](./get_int/) | Gets a <see cref="SmartTagCollection"/> object by the index. | 
-|[Get_Int_Int](./get_int_int/) | Gets the <see cref="SmartTagCollection"/> object of the cell. | 
-|[Get_String](./get_string/) | Gets the <see cref="SmartTagCollection"/> object of the cell. | 
+|[Get_Int](./get_int/) | Gets a SmartTagCollection object by the index. | 
+|[Get_Int_Int](./get_int_int/) | Gets the SmartTagCollection object of the cell. | 
+|[Get_String](./get_string/) | Gets the SmartTagCollection object of the cell. | 
 |[GetCount](./getcount/) |  | 

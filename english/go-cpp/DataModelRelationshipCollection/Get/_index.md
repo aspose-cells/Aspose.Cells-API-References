@@ -24,5 +24,4 @@ func (instance *DataModelRelationshipCollection) Get(index int32)  (*DataModelRe
 ## See Also
 
 * Class [DataModelRelationshipCollection](../)
-* Namespace [Aspose.Cells.DataModels](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

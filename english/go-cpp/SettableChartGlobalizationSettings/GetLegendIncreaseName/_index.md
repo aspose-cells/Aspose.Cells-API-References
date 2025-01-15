@@ -24,5 +24,4 @@ func (instance *SettableChartGlobalizationSettings) GetLegendIncreaseName()  (st
 ## See Also
 
 * Class [SettableChartGlobalizationSettings](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

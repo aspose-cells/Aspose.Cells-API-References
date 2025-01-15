@@ -24,5 +24,4 @@ func (instance *OleObject) GetTextDirection()  (TextDirectionType,  error)
 ## See Also
 
 * Class [OleObject](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

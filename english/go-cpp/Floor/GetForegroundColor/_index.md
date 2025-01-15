@@ -10,7 +10,7 @@ url: /go-cpp/floor/getforegroundcolor/
 
 ## GetForegroundColor function
 
-Gets or sets the foreground <see cref="Color"/>.
+Gets or sets the foreground Color.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *Floor) GetForegroundColor()  (*Color,  error)
 ## See Also
 
 * Class [Floor](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

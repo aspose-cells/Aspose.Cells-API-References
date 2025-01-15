@@ -24,5 +24,4 @@ func (instance *ExternalConnection) GetCommand()  (string,  error)
 ## See Also
 
 * Class [ExternalConnection](../)
-* Namespace [Aspose.Cells.ExternalConnections](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -10,7 +10,7 @@ url: /go-cpp/horizontalpagebreakcollection/get_string/
 
 ## Get_String function
 
-Gets the <see cref="HorizontalPageBreak"/> element with the specified cell name.
+Gets the HorizontalPageBreak element with the specified cell name.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *HorizontalPageBreakCollection) Get_String(cellname string)  (*Ho
 ## See Also
 
 * Class [HorizontalPageBreakCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

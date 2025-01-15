@@ -24,5 +24,4 @@ func (instance *OdsCellFieldCollection) UpdateFieldsValue()  error
 ## See Also
 
 * Class [OdsCellFieldCollection](../)
-* Namespace [Aspose.Cells.Ods](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

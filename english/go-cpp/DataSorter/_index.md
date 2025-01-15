@@ -37,6 +37,7 @@ type DataSorter struct  {
 |[AddKey_Int_SortOrder_String](./addkey_int_sortorder_string/) | Adds sorted column index and sort order with custom sort list. | 
 |[AddColorKey](./addcolorkey/) | Adds color sort key. | 
 |[AddKey_Int_SortOnType_SortOrder_Object](./addkey_int_sortontype_sortorder_object/) | Adds sorted column index and sort order with custom sort list. | 
+|[AddKey_Int_SortOrder_stringArray](./addkey_int_sortorder_stringarray/) | Adds sorted column index and sort order with custom sort list. | 
 |[GetKey1](./getkey1/) | Represents first sorted column index(absolute position, column A is 0, B is 1, ...). | 
 |[SetKey1](./setkey1/) | Represents first sorted column index(absolute position, column A is 0, B is 1, ...). | 
 |[GetOrder1](./getorder1/) | Represents sort order of the first key. | 
@@ -55,3 +56,6 @@ type DataSorter struct  {
 |[SetCaseSensitive](./setcasesensitive/) | Gets and sets whether case sensitive when comparing string. | 
 |[GetSortAsNumber](./getsortasnumber/) | Indicates whether sorting anything that looks like a number. | 
 |[SetSortAsNumber](./setsortasnumber/) | Indicates whether sorting anything that looks like a number. | 
+|[Sort_Cells_Int_Int_Int_Int](./sort_cells_int_int_int_int/) | Sorts the data of the area. | 
+|[Sort_Cells_CellArea](./sort_cells_cellarea/) | Sort the data of the area. | 
+|[Sort](./sort/) | Sort the data in the range. | 

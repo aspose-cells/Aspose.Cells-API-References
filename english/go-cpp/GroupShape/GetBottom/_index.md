@@ -24,5 +24,4 @@ func (instance *GroupShape) GetBottom()  (int32,  error)
 ## See Also
 
 * Class [GroupShape](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

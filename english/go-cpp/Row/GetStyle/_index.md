@@ -24,5 +24,4 @@ func (instance *Row) GetStyle()  (*Style,  error)
 ## See Also
 
 * Class [Row](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

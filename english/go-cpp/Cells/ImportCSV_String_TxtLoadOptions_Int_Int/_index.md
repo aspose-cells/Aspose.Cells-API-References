@@ -24,5 +24,4 @@ func (instance *Cells) ImportCSV_String_TxtLoadOptions_Int_Int(filename string, 
 ## See Also
 
 * Class [Cells](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

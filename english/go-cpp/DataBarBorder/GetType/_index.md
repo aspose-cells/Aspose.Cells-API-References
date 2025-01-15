@@ -24,5 +24,4 @@ func (instance *DataBarBorder) GetType()  (DataBarBorderType,  error)
 ## See Also
 
 * Class [DataBarBorder](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

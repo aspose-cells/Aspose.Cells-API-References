@@ -24,5 +24,4 @@ func (instance *ArcShape) SetInputRange_String(value string)  error
 ## See Also
 
 * Class [ArcShape](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

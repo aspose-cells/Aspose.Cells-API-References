@@ -31,5 +31,5 @@ type FilterColumnCollection struct  {
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[RemoveAt](./removeat/) |  | 
 |[GetByIndex](./getbyindex/) | Returns a single Filter object from a collection. | 
-|[Get](./get/) | Gets <see cref="FilterColumn"/> object at the special field. | 
+|[Get](./get/) | Gets FilterColumn object at the special field. | 
 |[GetCount](./getcount/) |  | 

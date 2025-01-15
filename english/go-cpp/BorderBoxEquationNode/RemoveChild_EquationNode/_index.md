@@ -24,5 +24,4 @@ func (instance *BorderBoxEquationNode) RemoveChild_EquationNode(node *EquationNo
 ## See Also
 
 * Class [BorderBoxEquationNode](../)
-* Namespace [Aspose.Cells.Drawing.Equations](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

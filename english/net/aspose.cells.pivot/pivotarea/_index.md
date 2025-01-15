@@ -36,7 +36,10 @@ public class PivotArea
 
 | Name | Description |
 | --- | --- |
+| [GetCellAreas](../../aspose.cells.pivot/pivotarea/getcellareas/)() | Gets cell areas of this pivot area. |
 | [Select](../../aspose.cells.pivot/pivotarea/select/)(PivotFieldType, int, PivotTableSelectionType) | Select the area with filters. |
+| [SelectField](../../aspose.cells.pivot/pivotarea/selectfield/#selectfield)(PivotFieldType, PivotField) | Select a field in the region as an area. |
+| [SelectField](../../aspose.cells.pivot/pivotarea/selectfield/#selectfield_1)(PivotFieldType, string) | Select a field in the region as an area. |
 
 ### Examples
 

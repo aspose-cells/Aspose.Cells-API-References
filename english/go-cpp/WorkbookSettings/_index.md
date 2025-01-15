@@ -113,8 +113,8 @@ type WorkbookSettings struct  {
 |[SetWindowHeightCM](./setwindowheightcm/) | The height of the window, in unit of centimeter. | 
 |[GetUpdateAdjacentCellsBorder](./getupdateadjacentcellsborder/) | Indicates whether update adjacent cells' border. | 
 |[SetUpdateAdjacentCellsBorder](./setupdateadjacentcellsborder/) | Indicates whether update adjacent cells' border. | 
-|[GetSignificantDigits](./getsignificantdigits/) | Gets and sets the number of significant digits.The default value is <see cref="CellsHelper.SignificantDigits"/>. | 
-|[SetSignificantDigits](./setsignificantdigits/) | Gets and sets the number of significant digits.The default value is <see cref="CellsHelper.SignificantDigits"/>. | 
+|[GetSignificantDigits](./getsignificantdigits/) | Gets and sets the number of significant digits.The default value is CellsHelper.SignificantDigits. | 
+|[SetSignificantDigits](./setsignificantdigits/) | Gets and sets the number of significant digits.The default value is CellsHelper.SignificantDigits. | 
 |[GetCheckCompatibility](./getcheckcompatibility/) | Indicates whether check compatibility with earlier versions when saving workbook. | 
 |[SetCheckCompatibility](./setcheckcompatibility/) | Indicates whether check compatibility with earlier versions when saving workbook. | 
 |[GetCheckExcelRestriction](./getcheckexcelrestriction/) | Whether check restriction of excel file when user modify cells related objects.For example, excel does not allow inputting string value longer than 32K.When you input a value longer than 32K such as by Cell.PutValue(string), if this property is true, you will get an Exception.If this property is false, we will accept your input string value as the cell's value so that lateryou can output the complete string value for other file formats such as CSV.However, if you have set such kind of value that is invalid for excel file format,you should not save the workbook as excel file format later. Otherwise there may be unexpected error for the generated excel file. | 
@@ -137,8 +137,8 @@ type WorkbookSettings struct  {
 |[SetMaxRowsOfSharedFormula](./setmaxrowsofsharedformula/) | Gets and sets the max row number of shared formula. | 
 |[GetCompliance](./getcompliance/) | Specifies the OOXML version for the output document. The default value is Ecma376_2006. | 
 |[SetCompliance](./setcompliance/) | Specifies the OOXML version for the output document. The default value is Ecma376_2006. | 
-|[GetQuotePrefixToStyle](./getquoteprefixtostyle/) | Indicates whether setting <see cref="Style.QuotePrefix"/> property when entering the string value(which starts  with single quote mark ) to the cell | 
-|[SetQuotePrefixToStyle](./setquoteprefixtostyle/) | Indicates whether setting <see cref="Style.QuotePrefix"/> property when entering the string value(which starts  with single quote mark ) to the cell | 
+|[GetQuotePrefixToStyle](./getquoteprefixtostyle/) | Indicates whether setting Style.QuotePrefix property when entering the string value(which starts  with single quote mark ) to the cell | 
+|[SetQuotePrefixToStyle](./setquoteprefixtostyle/) | Indicates whether setting Style.QuotePrefix property when entering the string value(which starts  with single quote mark ) to the cell | 
 |[GetFormulaSettings](./getformulasettings/) | Gets the settings for formula-related features. | 
 |[GetPropertiesFollowChartPoint](./getpropertiesfollowchartpoint/) | Indicates whether datapoint properties and datalabels in all charts in this workbook follow their reference. | 
 |[SetPropertiesFollowChartPoint](./setpropertiesfollowchartpoint/) | Indicates whether datapoint properties and datalabels in all charts in this workbook follow their reference. | 

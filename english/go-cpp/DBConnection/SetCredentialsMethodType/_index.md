@@ -24,5 +24,4 @@ func (instance *DBConnection) SetCredentialsMethodType(value CredentialsMethodTy
 ## See Also
 
 * Class [DBConnection](../)
-* Namespace [Aspose.Cells.ExternalConnections](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

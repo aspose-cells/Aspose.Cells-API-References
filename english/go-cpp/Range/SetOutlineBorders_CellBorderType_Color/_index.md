@@ -24,5 +24,4 @@ func (instance *Range) SetOutlineBorders_CellBorderType_Color(borderstyle CellBo
 ## See Also
 
 * Class [Range](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

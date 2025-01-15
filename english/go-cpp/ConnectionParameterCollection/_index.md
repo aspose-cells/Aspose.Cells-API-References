@@ -29,7 +29,7 @@ type ConnectionParameterCollection struct  {
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
-|[Get_Int](./get_int/) | Gets the <see cref="ConnectionParameter"/> element at the specified index. | 
-|[Set](./set/) | Gets the <see cref="ConnectionParameter"/> element at the specified index. | 
-|[Get_String](./get_string/) | Gets the <see cref="ConnectionParameter"/> element with the specified name. | 
+|[Get_Int](./get_int/) | Gets the ConnectionParameter element at the specified index. | 
+|[Set](./set/) | Gets the ConnectionParameter element at the specified index. | 
+|[Get_String](./get_string/) | Gets the ConnectionParameter element with the specified name. | 
 |[GetCount](./getcount/) |  | 

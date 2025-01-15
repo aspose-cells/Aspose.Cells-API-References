@@ -10,7 +10,7 @@ url: /go-cpp/revisionlogcollection/get/
 
 ## Get function
 
-Gets <see cref="RevisionLog"/> by index.
+Gets RevisionLog by index.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *RevisionLogCollection) Get(index int32)  (*RevisionLog,  error)
 ## See Also
 
 * Class [RevisionLogCollection](../)
-* Namespace [Aspose.Cells.Revisions](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

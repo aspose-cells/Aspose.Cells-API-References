@@ -24,5 +24,4 @@ func (instance *CalculationOptions) GetCharacterEncoding()  (EncodingType,  erro
 ## See Also
 
 * Class [CalculationOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

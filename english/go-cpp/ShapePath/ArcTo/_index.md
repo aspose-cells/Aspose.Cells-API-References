@@ -24,5 +24,4 @@ func (instance *ShapePath) ArcTo(wr float32, hr float32, stang float32, swang fl
 ## See Also
 
 * Class [ShapePath](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

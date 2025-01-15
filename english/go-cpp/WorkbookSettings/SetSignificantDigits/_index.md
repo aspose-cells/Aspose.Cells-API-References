@@ -10,7 +10,7 @@ url: /go-cpp/workbooksettings/setsignificantdigits/
 
 ## SetSignificantDigits function
 
-Gets and sets the number of significant digits.The default value is <see cref="CellsHelper.SignificantDigits"/>.
+Gets and sets the number of significant digits.The default value is CellsHelper.SignificantDigits.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *WorkbookSettings) SetSignificantDigits(value int32)  error
 ## See Also
 
 * Class [WorkbookSettings](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

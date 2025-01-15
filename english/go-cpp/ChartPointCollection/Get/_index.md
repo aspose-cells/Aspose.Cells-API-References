@@ -10,7 +10,7 @@ url: /go-cpp/chartpointcollection/get/
 
 ## Get function
 
-Gets the <see cref="ChartPoint"/> element at the specified index in the series.
+Gets the ChartPoint element at the specified index in the series.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *ChartPointCollection) Get(index int32)  (*ChartPoint,  error)
 ## See Also
 
 * Class [ChartPointCollection](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

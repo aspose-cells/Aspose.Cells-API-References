@@ -10,7 +10,7 @@ url: /go-cpp/abstractcalculationengine/isparamarraymoderequired/
 
 ## IsParamArrayModeRequired function
 
-Indicates whether this engine needs the parameter to be calculated in array mode. Default value is false.If <see cref="CalculationData.GetParamValueInArrayMode(int, int, int)"/> is required when calculating customfunctions and user has not updated the definition for them(by <see cref="Workbook.UpdateCustomFunctionDefinition(CustomFunctionDefinition)"/>),this property needs to be set as true.
+Indicates whether this engine needs the parameter to be calculated in array mode. Default value is false.If CalculationData.GetParamValueInArrayMode(int, int, int) is required when calculating customfunctions and user has not updated the definition for them(by Workbook.UpdateCustomFunctionDefinition(CustomFunctionDefinition)),this property needs to be set as true.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *AbstractCalculationEngine) IsParamArrayModeRequired()  (bool,  e
 ## See Also
 
 * Class [AbstractCalculationEngine](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

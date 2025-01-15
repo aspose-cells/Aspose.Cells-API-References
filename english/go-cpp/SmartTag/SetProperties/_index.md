@@ -24,5 +24,4 @@ func (instance *SmartTag) SetProperties(value *SmartTagPropertyCollection)  erro
 ## See Also
 
 * Class [SmartTag](../)
-* Namespace [Aspose.Cells.Markup](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

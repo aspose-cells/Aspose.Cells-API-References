@@ -29,7 +29,7 @@ type SparklineCollection struct  {
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
-|[Get](./get/) | Gets the <see cref="Sparkline"/> element at the specified index. | 
+|[Get](./get/) | Gets the Sparkline element at the specified index. | 
 |[Add](./add/) | Add a sparkline. | 
 |[Remove](./remove/) | Removes the sparkline | 
 |[GetCount](./getcount/) |  | 

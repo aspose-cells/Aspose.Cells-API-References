@@ -24,5 +24,4 @@ func (instance *CustomPropertyCollection) Add(name string, value string)  (int32
 ## See Also
 
 * Class [CustomPropertyCollection](../)
-* Namespace [Aspose.Cells.Properties](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

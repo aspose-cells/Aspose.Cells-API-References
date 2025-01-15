@@ -10,7 +10,7 @@ url: /go-cpp/texttabstopcollection/get/
 
 ## Get function
 
-Gets <see cref="TextTabStop"/> by the index.
+Gets TextTabStop by the index.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *TextTabStopCollection) Get(index int32)  (*TextTabStop,  error)
 ## See Also
 
 * Class [TextTabStopCollection](../)
-* Namespace [Aspose.Cells.Drawing.Texts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

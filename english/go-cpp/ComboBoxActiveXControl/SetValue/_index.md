@@ -24,5 +24,4 @@ func (instance *ComboBoxActiveXControl) SetValue(value string)  error
 ## See Also
 
 * Class [ComboBoxActiveXControl](../)
-* Namespace [Aspose.Cells.Drawing.ActiveXControls](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

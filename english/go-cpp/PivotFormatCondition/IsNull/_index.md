@@ -24,5 +24,4 @@ func (instance *PivotFormatCondition) IsNull()  (bool,  error)
 ## See Also
 
 * Class [PivotFormatCondition](../)
-* Namespace [Aspose.Cells.Pivot](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

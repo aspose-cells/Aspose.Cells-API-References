@@ -24,5 +24,4 @@ func (instance *PivotTable) SetPivotTableStyleType(value PivotTableStyleType)  e
 ## See Also
 
 * Class [PivotTable](../)
-* Namespace [Aspose.Cells.Pivot](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

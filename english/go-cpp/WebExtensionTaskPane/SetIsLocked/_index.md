@@ -24,5 +24,4 @@ func (instance *WebExtensionTaskPane) SetIsLocked(value bool)  error
 ## See Also
 
 * Class [WebExtensionTaskPane](../)
-* Namespace [Aspose.Cells.WebExtensions](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

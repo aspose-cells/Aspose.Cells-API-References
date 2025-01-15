@@ -24,5 +24,4 @@ func (instance *Name) SetRefersTo_String_Bool_Bool(refersto string, isr1c1 bool,
 ## See Also
 
 * Class [Name](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

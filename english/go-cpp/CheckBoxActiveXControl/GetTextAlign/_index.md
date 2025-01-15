@@ -24,5 +24,4 @@ func (instance *CheckBoxActiveXControl) GetTextAlign()  (TextAlignmentType,  err
 ## See Also
 
 * Class [CheckBoxActiveXControl](../)
-* Namespace [Aspose.Cells.Drawing.ActiveXControls](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

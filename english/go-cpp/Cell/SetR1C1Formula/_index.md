@@ -10,7 +10,7 @@ url: /go-cpp/cell/setr1c1formula/
 
 ## SetR1C1Formula function
 
-Gets or sets a R1C1 formula of the <see cref="Cell"/>.
+Gets or sets a R1C1 formula of the Cell.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *Cell) SetR1C1Formula(value string)  error
 ## See Also
 
 * Class [Cell](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -10,7 +10,7 @@ url: /go-cpp/scenariocollection/get/
 
 ## Get function
 
-Gets the <see cref="Scenario"/> object by the index.
+Gets the Scenario object by the index.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *ScenarioCollection) Get(index int32)  (*Scenario,  error)
 ## See Also
 
 * Class [ScenarioCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

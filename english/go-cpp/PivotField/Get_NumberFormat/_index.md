@@ -24,5 +24,4 @@ func (instance *PivotField) Get_NumberFormat()  (string,  error)
 ## See Also
 
 * Class [PivotField](../)
-* Namespace [Aspose.Cells.Pivot](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

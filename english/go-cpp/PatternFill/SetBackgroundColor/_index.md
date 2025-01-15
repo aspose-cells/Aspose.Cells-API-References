@@ -10,7 +10,7 @@ url: /go-cpp/patternfill/setbackgroundcolor/
 
 ## SetBackgroundColor function
 
-Gets or sets the background <see cref="Color"/> of the <see cref="Area"/>.
+Gets or sets the background Color of the Area.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *PatternFill) SetBackgroundColor(value *Color)  error
 ## See Also
 
 * Class [PatternFill](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

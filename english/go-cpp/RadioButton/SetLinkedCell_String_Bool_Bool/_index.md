@@ -24,5 +24,4 @@ func (instance *RadioButton) SetLinkedCell_String_Bool_Bool(formula string, isr1
 ## See Also
 
 * Class [RadioButton](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

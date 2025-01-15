@@ -24,5 +24,4 @@ func (instance *PivotDateTimeRangeGroupSettings) IsGroupedBy(type_ PivotGroupByT
 ## See Also
 
 * Class [PivotDateTimeRangeGroupSettings](../)
-* Namespace [Aspose.Cells.Pivot](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

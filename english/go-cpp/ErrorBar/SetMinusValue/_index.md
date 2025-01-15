@@ -24,5 +24,4 @@ func (instance *ErrorBar) SetMinusValue(value string)  error
 ## See Also
 
 * Class [ErrorBar](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

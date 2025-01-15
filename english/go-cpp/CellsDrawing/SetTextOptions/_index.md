@@ -24,5 +24,4 @@ func (instance *CellsDrawing) SetTextOptions(value *TextOptions)  error
 ## See Also
 
 * Class [CellsDrawing](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

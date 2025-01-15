@@ -24,5 +24,4 @@ func (instance *ExternalLink) SetDataSource(value string)  error
 ## See Also
 
 * Class [ExternalLink](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

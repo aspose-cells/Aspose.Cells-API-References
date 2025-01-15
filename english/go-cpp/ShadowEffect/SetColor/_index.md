@@ -24,5 +24,4 @@ func (instance *ShadowEffect) SetColor(value *CellsColor)  error
 ## See Also
 
 * Class [ShadowEffect](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *PivotTable) GetIndent()  (int32,  error)
 ## See Also
 
 * Class [PivotTable](../)
-* Namespace [Aspose.Cells.Pivot](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

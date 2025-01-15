@@ -24,5 +24,4 @@ func (instance *ArrayEquationNode) GetType()  (TextNodeType,  error)
 ## See Also
 
 * Class [ArrayEquationNode](../)
-* Namespace [Aspose.Cells.Drawing.Equations](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

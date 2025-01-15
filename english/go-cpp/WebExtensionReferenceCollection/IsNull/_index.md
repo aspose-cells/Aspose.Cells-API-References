@@ -24,5 +24,4 @@ func (instance *WebExtensionReferenceCollection) IsNull()  (bool,  error)
 ## See Also
 
 * Class [WebExtensionReferenceCollection](../)
-* Namespace [Aspose.Cells.WebExtensions](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

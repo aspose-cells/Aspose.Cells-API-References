@@ -10,7 +10,7 @@ url: /go-cpp/pdfsecurityoptions/setmodifydocumentpermission/
 
 ## SetModifyDocumentPermission function
 
-Indicates whether to allow to modify the contents of the document by operations other than those controlledby <see cref="AnnotationsPermission"/>, <see cref="FillFormsPermission"/> and <see cref="AssembleDocumentPermission"/>.
+Indicates whether to allow to modify the contents of the document by operations other than those controlledby AnnotationsPermission, FillFormsPermission and AssembleDocumentPermission.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *PdfSecurityOptions) SetModifyDocumentPermission(value bool)  err
 ## See Also
 
 * Class [PdfSecurityOptions](../)
-* Namespace [Aspose.Cells.Rendering.PdfSecurity](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

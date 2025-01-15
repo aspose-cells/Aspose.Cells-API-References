@@ -24,5 +24,4 @@ func (instance *TimelineCollection) Get_String(name string)  (*Timeline,  error)
 ## See Also
 
 * Class [TimelineCollection](../)
-* Namespace [Aspose.Cells.Timelines](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

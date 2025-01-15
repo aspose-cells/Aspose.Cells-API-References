@@ -24,5 +24,4 @@ func NewRevisionMergeConflict(src *Revision) ( *RevisionMergeConflict, error)
 ## See Also
 
 * Class [RevisionMergeConflict](../)
-* Namespace [Aspose.Cells.Revisions](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

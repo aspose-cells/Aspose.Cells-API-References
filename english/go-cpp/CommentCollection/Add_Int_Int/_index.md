@@ -24,5 +24,4 @@ func (instance *CommentCollection) Add_Int_Int(row int32, column int32)  (int32,
 ## See Also
 
 * Class [CommentCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *TextEffectFormat) SetTextEffect(effect MsoPresetTextEffect)  err
 ## See Also
 
 * Class [TextEffectFormat](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

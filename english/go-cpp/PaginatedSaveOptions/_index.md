@@ -58,8 +58,8 @@ type PaginatedSaveOptions struct  {
 |[SetTextCrossType](./settextcrosstype/) | Gets or sets displaying text type when the text width is larger than cell width. | 
 |[GetDefaultEditLanguage](./getdefaulteditlanguage/) | Gets or sets default edit language. | 
 |[SetDefaultEditLanguage](./setdefaulteditlanguage/) | Gets or sets default edit language. | 
-|[GetSheetSet](./getsheetset/) | Gets or sets the sheets to render. Default is all visible sheets in the workbook: <see cref="Aspose.Cells.Rendering.SheetSet.Visible"/>. | 
-|[SetSheetSet](./setsheetset/) | Gets or sets the sheets to render. Default is all visible sheets in the workbook: <see cref="Aspose.Cells.Rendering.SheetSet.Visible"/>. | 
+|[GetSheetSet](./getsheetset/) | Gets or sets the sheets to render. Default is all visible sheets in the workbook: Aspose.Cells.Rendering.SheetSet.Visible. | 
+|[SetSheetSet](./setsheetset/) | Gets or sets the sheets to render. Default is all visible sheets in the workbook: Aspose.Cells.Rendering.SheetSet.Visible. | 
 |[GetDrawObjectEventHandler](./getdrawobjecteventhandler/) | Implements this interface to get DrawObject and Bound when rendering. | 
 |[SetDrawObjectEventHandler](./setdrawobjecteventhandler/) | Implements this interface to get DrawObject and Bound when rendering. | 
 |[GetEmfRenderSetting](./getemfrendersetting/) | Setting for rendering Emf metafile. | 

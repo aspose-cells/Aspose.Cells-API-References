@@ -24,5 +24,4 @@ func (instance *SlicerCacheItemCollection) Get(index int32)  (*SlicerCacheItem, 
 ## See Also
 
 * Class [SlicerCacheItemCollection](../)
-* Namespace [Aspose.Cells.Slicers](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

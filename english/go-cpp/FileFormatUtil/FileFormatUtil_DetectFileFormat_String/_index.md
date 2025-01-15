@@ -24,5 +24,4 @@ func FileFormatUtil_DetectFileFormat_String(filepath string)  (*FileFormatInfo, 
 ## See Also
 
 * Class [FileFormatUtil](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

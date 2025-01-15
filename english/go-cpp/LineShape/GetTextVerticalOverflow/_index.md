@@ -24,5 +24,4 @@ func (instance *LineShape) GetTextVerticalOverflow()  (TextOverflowType,  error)
 ## See Also
 
 * Class [LineShape](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

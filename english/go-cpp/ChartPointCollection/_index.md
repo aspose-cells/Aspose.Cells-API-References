@@ -32,4 +32,4 @@ type ChartPointCollection struct  {
 |[Clear](./clear/) | Remove all setting of the chart points. | 
 |[RemoveAt](./removeat/) | Removes point at the index of the series.. | 
 |[GetCount](./getcount/) | Gets the count of the chart point. | 
-|[Get](./get/) | Gets the <see cref="ChartPoint"/> element at the specified index in the series. | 
+|[Get](./get/) | Gets the ChartPoint element at the specified index in the series. | 

@@ -24,5 +24,4 @@ func (instance *Label) MoveToRange(upperleftrow int32, upperleftcolumn int32, lo
 ## See Also
 
 * Class [Label](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

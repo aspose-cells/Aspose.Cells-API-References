@@ -10,7 +10,7 @@ url: /go-cpp/shapesegmentpathcollection/get/
 
 ## Get function
 
-Gets <see cref="ShapeSegmentPath"/> object.
+Gets ShapeSegmentPath object.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *ShapeSegmentPathCollection) Get(index int32)  (*ShapeSegmentPath
 ## See Also
 
 * Class [ShapeSegmentPathCollection](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *WorksheetCollection) GetSheetByCodeName(codename string)  (*Work
 ## See Also
 
 * Class [WorksheetCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -23,6 +23,7 @@ type CustomPiovtFieldGroupItem struct  {
 
 | Method | Description |
 | --- | --- |
+|[NewCustomPiovtFieldGroupItem](./newcustompiovtfieldgroupitem/) | The constructor of custom group item of pivot field. | 
 
 ## Methods
 

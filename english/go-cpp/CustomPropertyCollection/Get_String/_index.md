@@ -24,5 +24,4 @@ func (instance *CustomPropertyCollection) Get_String(name string)  (*CustomPrope
 ## See Also
 
 * Class [CustomPropertyCollection](../)
-* Namespace [Aspose.Cells.Properties](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

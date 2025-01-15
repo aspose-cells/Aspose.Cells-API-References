@@ -24,5 +24,4 @@ func (instance *HtmlTableLoadOption) GetTableIndex()  (int32,  error)
 ## See Also
 
 * Class [HtmlTableLoadOption](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

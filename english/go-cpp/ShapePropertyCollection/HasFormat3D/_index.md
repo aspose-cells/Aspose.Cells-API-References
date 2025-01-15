@@ -24,5 +24,4 @@ func (instance *ShapePropertyCollection) HasFormat3D()  (bool,  error)
 ## See Also
 
 * Class [ShapePropertyCollection](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

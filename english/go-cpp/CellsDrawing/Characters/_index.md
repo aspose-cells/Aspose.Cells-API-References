@@ -24,5 +24,4 @@ func (instance *CellsDrawing) Characters(startindex int32, length int32)  (*Font
 ## See Also
 
 * Class [CellsDrawing](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

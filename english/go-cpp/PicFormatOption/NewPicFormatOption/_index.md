@@ -24,5 +24,4 @@ func NewPicFormatOption() ( *PicFormatOption, error)
 ## See Also
 
 * Class [PicFormatOption](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

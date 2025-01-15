@@ -24,5 +24,4 @@ func (instance *Protection) Copy(source *Protection)  error
 ## See Also
 
 * Class [Protection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

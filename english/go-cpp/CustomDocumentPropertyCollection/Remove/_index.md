@@ -24,5 +24,4 @@ func (instance *CustomDocumentPropertyCollection) Remove(name string)  error
 ## See Also
 
 * Class [CustomDocumentPropertyCollection](../)
-* Namespace [Aspose.Cells.Properties](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

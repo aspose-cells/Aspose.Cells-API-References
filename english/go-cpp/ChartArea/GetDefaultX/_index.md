@@ -24,5 +24,4 @@ func (instance *ChartArea) GetDefaultX()  (int32,  error)
 ## See Also
 
 * Class [ChartArea](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *PivotField) HideItem_Int_Bool(index int32, ishidden bool)  error
 ## See Also
 
 * Class [PivotField](../)
-* Namespace [Aspose.Cells.Pivot](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

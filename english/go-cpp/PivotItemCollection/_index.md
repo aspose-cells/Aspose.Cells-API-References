@@ -30,6 +30,6 @@ type PivotItemCollection struct  {
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[Get_Int](./get_int/) | Gets the PivotItem Object at the specific index. | 
-|[Get_String](./get_string/) | Gets the <see cref="PivotItem"/> by the specific name. | 
+|[Get_String](./get_string/) | Gets the PivotItem by the specific name. | 
 |[GetCount](./getcount/) | Gets the count of the pivot items. | 
 |[SwapItem](./swapitem/) | Directly swap two items. | 

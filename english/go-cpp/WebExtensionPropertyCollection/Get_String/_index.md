@@ -24,5 +24,4 @@ func (instance *WebExtensionPropertyCollection) Get_String(name string)  (*WebEx
 ## See Also
 
 * Class [WebExtensionPropertyCollection](../)
-* Namespace [Aspose.Cells.WebExtensions](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

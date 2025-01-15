@@ -10,7 +10,7 @@ url: /go-cpp/workbook/getcontenttypeproperties/
 
 ## GetContentTypeProperties function
 
-Gets the list of  <see cref="ContentTypeProperty"/> objects in the workbook.
+Gets the list of  ContentTypeProperty objects in the workbook.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *Workbook) GetContentTypeProperties()  (*ContentTypePropertyColle
 ## See Also
 
 * Class [Workbook](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

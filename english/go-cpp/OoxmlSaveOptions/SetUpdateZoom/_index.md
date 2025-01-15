@@ -24,5 +24,4 @@ func (instance *OoxmlSaveOptions) SetUpdateZoom(value bool)  error
 ## See Also
 
 * Class [OoxmlSaveOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

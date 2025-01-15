@@ -24,5 +24,4 @@ func (instance *AutoFilter) SetShowFilterButton(value bool)  error
 ## See Also
 
 * Class [AutoFilter](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

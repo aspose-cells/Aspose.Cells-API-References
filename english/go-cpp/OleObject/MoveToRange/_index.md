@@ -24,5 +24,4 @@ func (instance *OleObject) MoveToRange(upperleftrow int32, upperleftcolumn int32
 ## See Also
 
 * Class [OleObject](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

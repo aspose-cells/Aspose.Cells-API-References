@@ -34,4 +34,5 @@ type PivotDateTimeRangeGroupSettings struct  {
 |[GetStart](./getstart/) | Gets the start date time of the group. | 
 |[GetEnd](./getend/) | Gets the end date time of the group. | 
 |[GetInterval](./getinterval/) | Gets the internal of the group. | 
+|[GetGroupByTypes](./getgroupbytypes/) | Gets the types of grouping by date time. | 
 |[IsGroupedBy](./isgroupedby/) | Check whether the field is grouped by the type. | 

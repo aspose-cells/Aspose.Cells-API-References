@@ -24,5 +24,4 @@ func (instance *PageSetup) Copy(source *PageSetup, copyoptions *CopyOptions)  er
 ## See Also
 
 * Class [PageSetup](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

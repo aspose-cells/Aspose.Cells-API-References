@@ -24,5 +24,4 @@ func (instance *RevisionCellChange) GetRow()  (int32,  error)
 ## See Also
 
 * Class [RevisionCellChange](../)
-* Namespace [Aspose.Cells.Revisions](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

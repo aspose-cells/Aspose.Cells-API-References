@@ -24,5 +24,4 @@ func (instance *HorizontalPageBreak) IsNull()  (bool,  error)
 ## See Also
 
 * Class [HorizontalPageBreak](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

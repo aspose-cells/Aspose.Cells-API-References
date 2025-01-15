@@ -24,5 +24,4 @@ func (instance *TableStyleElement) GetSize()  (int32,  error)
 ## See Also
 
 * Class [TableStyleElement](../)
-* Namespace [Aspose.Cells.Tables](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

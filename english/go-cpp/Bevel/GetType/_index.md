@@ -24,5 +24,4 @@ func (instance *Bevel) GetType()  (BevelPresetType,  error)
 ## See Also
 
 * Class [Bevel](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

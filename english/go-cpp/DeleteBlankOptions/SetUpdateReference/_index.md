@@ -24,5 +24,4 @@ func (instance *DeleteBlankOptions) SetUpdateReference(value bool)  error
 ## See Also
 
 * Class [DeleteBlankOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

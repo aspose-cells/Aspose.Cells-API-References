@@ -24,5 +24,4 @@ func (instance *Row) Equals_Row(row *Row)  (bool,  error)
 ## See Also
 
 * Class [Row](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

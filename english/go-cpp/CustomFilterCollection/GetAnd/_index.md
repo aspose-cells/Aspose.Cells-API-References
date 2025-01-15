@@ -24,5 +24,4 @@ func (instance *CustomFilterCollection) GetAnd()  (bool,  error)
 ## See Also
 
 * Class [CustomFilterCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

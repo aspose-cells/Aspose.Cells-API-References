@@ -29,6 +29,6 @@ type ColumnCollection struct  {
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
-|[GetColumnByIndex](./getcolumnbyindex/) | Gets the <see cref="Column"/> object by the position in the list. | 
-|[Get](./get/) | Gets a <see cref="Column"/> object by column index.The Column object of given column index will be instantiated if it does not exist before. | 
+|[GetColumnByIndex](./getcolumnbyindex/) | Gets the Column object by the position in the list. | 
+|[Get](./get/) | Gets a Column object by column index.The Column object of given column index will be instantiated if it does not exist before. | 
 |[GetCount](./getcount/) |  | 

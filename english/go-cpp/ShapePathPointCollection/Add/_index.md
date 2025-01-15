@@ -24,5 +24,4 @@ func (instance *ShapePathPointCollection) Add(x int32, y int32)  (int32,  error)
 ## See Also
 
 * Class [ShapePathPointCollection](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

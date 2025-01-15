@@ -24,5 +24,4 @@ func (instance *OdsPageBackground) IsNull()  (bool,  error)
 ## See Also
 
 * Class [OdsPageBackground](../)
-* Namespace [Aspose.Cells.Ods](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

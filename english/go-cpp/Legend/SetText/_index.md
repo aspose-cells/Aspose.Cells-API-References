@@ -24,5 +24,4 @@ func (instance *Legend) SetText(value string)  error
 ## See Also
 
 * Class [Legend](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

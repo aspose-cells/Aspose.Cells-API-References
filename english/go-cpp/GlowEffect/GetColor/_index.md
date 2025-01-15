@@ -24,5 +24,4 @@ func (instance *GlowEffect) GetColor()  (*CellsColor,  error)
 ## See Also
 
 * Class [GlowEffect](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

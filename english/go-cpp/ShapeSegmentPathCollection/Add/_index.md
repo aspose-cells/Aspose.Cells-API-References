@@ -24,5 +24,4 @@ func (instance *ShapeSegmentPathCollection) Add(type_ ShapePathType)  (int32,  e
 ## See Also
 
 * Class [ShapeSegmentPathCollection](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *Cell) Characters(startindex int32, length int32)  (*FontSetting,
 ## See Also
 
 * Class [Cell](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

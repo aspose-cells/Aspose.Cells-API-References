@@ -24,5 +24,4 @@ func (instance *SlicerCache) IsNull()  (bool,  error)
 ## See Also
 
 * Class [SlicerCache](../)
-* Namespace [Aspose.Cells.Slicers](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

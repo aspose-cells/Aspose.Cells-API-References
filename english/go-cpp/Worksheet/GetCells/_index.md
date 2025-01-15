@@ -10,7 +10,7 @@ url: /go-cpp/worksheet/getcells/
 
 ## GetCells function
 
-Gets the <see cref="Cells"/> collection.
+Gets the Cells collection.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *Worksheet) GetCells()  (*Cells,  error)
 ## See Also
 
 * Class [Worksheet](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

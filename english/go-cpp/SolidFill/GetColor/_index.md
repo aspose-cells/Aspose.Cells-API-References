@@ -10,7 +10,7 @@ url: /go-cpp/solidfill/getcolor/
 
 ## GetColor function
 
-Gets or sets the <see cref="Color"/>.
+Gets or sets the Color.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *SolidFill) GetColor()  (*Color,  error)
 ## See Also
 
 * Class [SolidFill](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

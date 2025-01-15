@@ -24,5 +24,4 @@ func (instance *RevisionRenameSheet) GetOldName()  (string,  error)
 ## See Also
 
 * Class [RevisionRenameSheet](../)
-* Namespace [Aspose.Cells.Revisions](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

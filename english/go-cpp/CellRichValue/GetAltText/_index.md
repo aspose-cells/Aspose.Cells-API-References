@@ -24,5 +24,4 @@ func (instance *CellRichValue) GetAltText()  (string,  error)
 ## See Also
 
 * Class [CellRichValue](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

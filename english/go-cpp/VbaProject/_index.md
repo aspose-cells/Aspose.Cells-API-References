@@ -31,6 +31,7 @@ type VbaProject struct  {
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[Sign](./sign/) | Sign this VBA project by a DigitalSignature | 
 |[IsValidSigned](./isvalidsigned/) | Indicates whether the signature of VBA project is valid or not. | 
+|[GetCertRawData](./getcertrawdata/) | Gets certificate raw data if this VBA project is signed. | 
 |[GetEncoding](./getencoding/) | Gets and sets the encoding of VBA project. | 
 |[SetEncoding](./setencoding/) | Gets and sets the encoding of VBA project. | 
 |[GetName](./getname/) | Gets and sets the name of the VBA project. | 
@@ -40,6 +41,6 @@ type VbaProject struct  {
 |[IsProtected](./isprotected/) | Indicates whether this VBA project is protected. | 
 |[GetIslockedForViewing](./getislockedforviewing/) | Indicates whether this VBA project is locked for viewing. | 
 |[Copy](./copy/) | Copy VBA project from other file. | 
-|[GetModules](./getmodules/) | Gets all <see cref="VbaModule"/> objects. | 
+|[GetModules](./getmodules/) | Gets all VbaModule objects. | 
 |[GetReferences](./getreferences/) | Gets all references of VBA project. | 
 |[ValidatePassword](./validatepassword/) | Validates protection password. | 

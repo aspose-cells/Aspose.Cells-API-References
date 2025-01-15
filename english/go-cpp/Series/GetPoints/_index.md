@@ -24,5 +24,4 @@ func (instance *Series) GetPoints()  (*ChartPointCollection,  error)
 ## See Also
 
 * Class [Series](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

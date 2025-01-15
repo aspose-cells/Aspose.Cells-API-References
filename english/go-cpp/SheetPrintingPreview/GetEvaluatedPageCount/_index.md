@@ -24,5 +24,4 @@ func (instance *SheetPrintingPreview) GetEvaluatedPageCount()  (int32,  error)
 ## See Also
 
 * Class [SheetPrintingPreview](../)
-* Namespace [Aspose.Cells.Rendering](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

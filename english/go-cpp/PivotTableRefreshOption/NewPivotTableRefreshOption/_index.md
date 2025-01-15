@@ -24,5 +24,4 @@ func NewPivotTableRefreshOption() ( *PivotTableRefreshOption, error)
 ## See Also
 
 * Class [PivotTableRefreshOption](../)
-* Namespace [Aspose.Cells.Pivot](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

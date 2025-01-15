@@ -24,5 +24,4 @@ func (instance *ExportRangeToJsonOptions) SetExportEmptyCells(value bool)  error
 ## See Also
 
 * Class [ExportRangeToJsonOptions](../)
-* Namespace [Aspose.Cells.Utility](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *WebQueryConnection) GetUrl()  (string,  error)
 ## See Also
 
 * Class [WebQueryConnection](../)
-* Namespace [Aspose.Cells.ExternalConnections](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

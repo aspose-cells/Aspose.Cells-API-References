@@ -24,5 +24,4 @@ func (instance *SpreadsheetML2003SaveOptions) SetIsIndentedFormatting(value bool
 ## See Also
 
 * Class [SpreadsheetML2003SaveOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *Oval) SetTextShapeType(value AutoShapeType)  error
 ## See Also
 
 * Class [Oval](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

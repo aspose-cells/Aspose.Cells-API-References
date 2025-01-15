@@ -10,7 +10,7 @@ url: /go-cpp/lineformat/getpatternfill/
 
 ## GetPatternFill function
 
-Gets <see cref="PatternFill"/> object.
+Gets PatternFill object.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *LineFormat) GetPatternFill()  (*PatternFill,  error)
 ## See Also
 
 * Class [LineFormat](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

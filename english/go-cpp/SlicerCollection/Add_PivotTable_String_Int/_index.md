@@ -24,5 +24,4 @@ func (instance *SlicerCollection) Add_PivotTable_String_Int(pivot *PivotTable, d
 ## See Also
 
 * Class [SlicerCollection](../)
-* Namespace [Aspose.Cells.Slicers](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

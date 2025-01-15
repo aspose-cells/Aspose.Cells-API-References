@@ -23,7 +23,8 @@ type RenderingWatermark struct  {
 
 | Method | Description |
 | --- | --- |
-|[NewRenderingWatermark](./newrenderingwatermark/) | Creates instance of text watermark. | 
+|[NewRenderingWatermark_String_RenderingFont](./newrenderingwatermark_string_renderingfont/) | Creates instance of text watermark. | 
+|[NewRenderingWatermark_Stream](./newrenderingwatermark_stream/) | Creates instance of image watermark. | 
 
 ## Methods
 
@@ -40,11 +41,12 @@ type RenderingWatermark struct  {
 |[SetIsBackground](./setisbackground/) | Indicates whether the watermark is placed behind page contents. | 
 |[GetText](./gettext/) | Gets text of the watermark. | 
 |[GetFont](./getfont/) | Gets font of the watermark. | 
+|[GetImage](./getimage/) | Gets image of the watermark. | 
 |[GetHAlignment](./gethalignment/) | Gets or sets horizontal alignment of the watermark to the page. | 
 |[SetHAlignment](./sethalignment/) | Gets or sets horizontal alignment of the watermark to the page. | 
 |[GetVAlignment](./getvalignment/) | Gets or sets vertical alignment of the watermark to the page. | 
 |[SetVAlignment](./setvalignment/) | Gets or sets vertical alignment of the watermark to the page. | 
-|[GetOffsetX](./getoffsetx/) | Gets or sets offset value to <see cref="HAlignment"/> | 
-|[SetOffsetX](./setoffsetx/) | Gets or sets offset value to <see cref="HAlignment"/> | 
-|[GetOffsetY](./getoffsety/) | Gets or sets offset value to <see cref="VAlignment"/> | 
-|[SetOffsetY](./setoffsety/) | Gets or sets offset value to <see cref="VAlignment"/> | 
+|[GetOffsetX](./getoffsetx/) | Gets or sets offset value to HAlignment | 
+|[SetOffsetX](./setoffsetx/) | Gets or sets offset value to HAlignment | 
+|[GetOffsetY](./getoffsety/) | Gets or sets offset value to VAlignment | 
+|[SetOffsetY](./setoffsety/) | Gets or sets offset value to VAlignment | 

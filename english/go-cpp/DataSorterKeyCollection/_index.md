@@ -30,5 +30,5 @@ type DataSorterKeyCollection struct  {
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
-|[Get](./get/) | Gets and sets <see cref="DataSorterKey"/> by index. | 
+|[Get](./get/) | Gets and sets DataSorterKey by index. | 
 |[GetCount](./getcount/) |  | 

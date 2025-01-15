@@ -10,7 +10,7 @@ url: /go-cpp/fillformat/getsolidfill/
 
 ## GetSolidFill function
 
-Gets <see cref="SolidFill"/> object.
+Gets SolidFill object.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *FillFormat) GetSolidFill()  (*SolidFill,  error)
 ## See Also
 
 * Class [FillFormat](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

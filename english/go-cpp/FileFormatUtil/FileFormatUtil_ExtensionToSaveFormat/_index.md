@@ -24,5 +24,4 @@ func FileFormatUtil_ExtensionToSaveFormat(extension string)  (SaveFormat,  error
 ## See Also
 
 * Class [FileFormatUtil](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

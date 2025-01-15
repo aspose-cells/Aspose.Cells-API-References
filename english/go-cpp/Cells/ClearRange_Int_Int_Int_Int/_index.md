@@ -24,5 +24,4 @@ func (instance *Cells) ClearRange_Int_Int_Int_Int(startrow int32, startcolumn in
 ## See Also
 
 * Class [Cells](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

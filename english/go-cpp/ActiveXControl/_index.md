@@ -41,9 +41,12 @@ type ActiveXControl struct  {
 |[GetFont](./getfont/) | Represents the font of the control. | 
 |[GetTextAlign](./gettextalign/) | Represents how to align the text used by the control. | 
 |[SetTextAlign](./settextalign/) | Represents how to align the text used by the control. | 
+|[GetData](./getdata/) | Gets and sets the binary data of the control. | 
 |[IsAutoSize](./isautosize/) | Indicates whether the control will automatically resize to display its entire contents. | 
 |[SetIsAutoSize](./setisautosize/) | Indicates whether the control will automatically resize to display its entire contents. | 
-|[GetWorkbook](./getworkbook/) | Gets the <see cref="Workbook"/> object. | 
+|[GetWorkbook](./getworkbook/) | Gets the Workbook object. | 
+|[GetMouseIcon](./getmouseicon/) | Gets and sets a custom icon to display as the mouse pointer for the control. | 
+|[SetMouseIcon](./setmouseicon/) | Gets and sets a custom icon to display as the mouse pointer for the control. | 
 |[GetMousePointer](./getmousepointer/) | Gets and sets the type of icon displayed as the mouse pointer for the control. | 
 |[SetMousePointer](./setmousepointer/) | Gets and sets the type of icon displayed as the mouse pointer for the control. | 
 |[GetLinkedCell](./getlinkedcell/) | Gets and sets the linked cell. | 

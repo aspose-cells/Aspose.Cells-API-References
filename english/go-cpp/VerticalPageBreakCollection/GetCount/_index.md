@@ -23,5 +23,4 @@ func (instance *VerticalPageBreakCollection) GetCount()  (int32,  error)
 ## See Also
 
 * Class [VerticalPageBreakCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

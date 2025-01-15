@@ -24,5 +24,4 @@ func (instance *CellsDrawing) ToImage_String_ImageOrPrintOptions(imagefile strin
 ## See Also
 
 * Class [CellsDrawing](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

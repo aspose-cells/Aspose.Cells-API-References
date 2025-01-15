@@ -24,5 +24,4 @@ func (instance *PivotShowValuesSetting) GetBaseItemPositionType()  (PivotItemPos
 ## See Also
 
 * Class [PivotShowValuesSetting](../)
-* Namespace [Aspose.Cells.Pivot](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

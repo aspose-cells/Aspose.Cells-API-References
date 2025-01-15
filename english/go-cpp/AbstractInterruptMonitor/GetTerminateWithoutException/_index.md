@@ -10,7 +10,7 @@ url: /go-cpp/abstractinterruptmonitor/getterminatewithoutexception/
 
 ## GetTerminateWithoutException function
 
-When procedure is interrupted, whether terminate the procedure quietly or throw an Exception.Default is false, that is, when <see cref="IsInterruptionRequested"/> is true,a <see cref="CellsException"/> with code <see cref="ExceptionType.Interrupted"/> will be thrown.
+When procedure is interrupted, whether terminate the procedure quietly or throw an Exception.Default is false, that is, when IsInterruptionRequested is true,a CellsException with code ExceptionType.Interrupted will be thrown.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *AbstractInterruptMonitor) GetTerminateWithoutException()  (bool,
 ## See Also
 
 * Class [AbstractInterruptMonitor](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

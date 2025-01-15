@@ -36,7 +36,8 @@ public class AutoFilter
 | [DynamicFilter](../../aspose.cells/autofilter/dynamicfilter/)(int, DynamicFilterType) | Adds a dynamic filter. |
 | [Filter](../../aspose.cells/autofilter/filter/)(int, string) | Filters a list with specified criteria. |
 | [FilterTop10](../../aspose.cells/autofilter/filtertop10/)(int, bool, bool, int) | Filter the top 10 item in the list |
-| [GetCellArea](../../aspose.cells/autofilter/getcellarea/)() | Gets the [`CellArea`](../cellarea/) where the specified AutoFilter applies to. |
+| [GetCellArea](../../aspose.cells/autofilter/getcellarea/#getcellarea)() | Gets the [`CellArea`](../cellarea/) where the this AutoFilter applies to. |
+| [GetCellArea](../../aspose.cells/autofilter/getcellarea/#getcellarea_1)(bool) | Gets the [`CellArea`](../cellarea/) where the specified AutoFilter applies to. |
 | [MatchBlanks](../../aspose.cells/autofilter/matchblanks/)(int) | Match all blank cell in the list. |
 | [MatchNonBlanks](../../aspose.cells/autofilter/matchnonblanks/)(int) | Match all not blank cell in the list. |
 | [Refresh](../../aspose.cells/autofilter/refresh/#refresh)() | Refresh auto filters to hide or unhide the rows. |

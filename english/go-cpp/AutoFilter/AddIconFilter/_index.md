@@ -24,5 +24,4 @@ func (instance *AutoFilter) AddIconFilter(fieldindex int32, iconsettype IconSetT
 ## See Also
 
 * Class [AutoFilter](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

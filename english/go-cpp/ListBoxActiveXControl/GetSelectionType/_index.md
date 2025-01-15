@@ -24,5 +24,4 @@ func (instance *ListBoxActiveXControl) GetSelectionType()  (SelectionType,  erro
 ## See Also
 
 * Class [ListBoxActiveXControl](../)
-* Namespace [Aspose.Cells.Drawing.ActiveXControls](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

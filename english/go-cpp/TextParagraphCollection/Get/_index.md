@@ -10,7 +10,7 @@ url: /go-cpp/textparagraphcollection/get/
 
 ## Get function
 
-Gets the <see cref="TextParagraph"/> object at specific index.
+Gets the TextParagraph object at specific index.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *TextParagraphCollection) Get(index int32)  (*TextParagraph,  err
 ## See Also
 
 * Class [TextParagraphCollection](../)
-* Namespace [Aspose.Cells.Drawing.Texts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

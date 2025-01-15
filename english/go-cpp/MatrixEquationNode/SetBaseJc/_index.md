@@ -24,5 +24,4 @@ func (instance *MatrixEquationNode) SetBaseJc(value EquationVerticalJustificatio
 ## See Also
 
 * Class [MatrixEquationNode](../)
-* Namespace [Aspose.Cells.Drawing.Equations](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

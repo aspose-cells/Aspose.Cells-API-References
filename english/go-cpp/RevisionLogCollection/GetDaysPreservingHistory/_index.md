@@ -24,5 +24,4 @@ func (instance *RevisionLogCollection) GetDaysPreservingHistory()  (int32,  erro
 ## See Also
 
 * Class [RevisionLogCollection](../)
-* Namespace [Aspose.Cells.Revisions](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

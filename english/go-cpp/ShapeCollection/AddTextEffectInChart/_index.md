@@ -24,5 +24,4 @@ func (instance *ShapeCollection) AddTextEffectInChart(effect MsoPresetTextEffect
 ## See Also
 
 * Class [ShapeCollection](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

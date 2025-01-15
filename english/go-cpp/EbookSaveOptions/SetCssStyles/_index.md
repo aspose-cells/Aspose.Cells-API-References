@@ -10,7 +10,7 @@ url: /go-cpp/ebooksaveoptions/setcssstyles/
 
 ## SetCssStyles function
 
-Gets or sets the additional css styles for the formatter.Only works when <see cref="SaveAsSingleFile"/> is True.
+Gets or sets the additional css styles for the formatter.Only works when SaveAsSingleFile is True.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *EbookSaveOptions) SetCssStyles(value string)  error
 ## See Also
 
 * Class [EbookSaveOptions](../)
-* Namespace [Aspose.Cells.Saving](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

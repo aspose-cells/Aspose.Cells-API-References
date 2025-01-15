@@ -24,5 +24,4 @@ func (instance *MultipleFilterCollection) IsNull()  (bool,  error)
 ## See Also
 
 * Class [MultipleFilterCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

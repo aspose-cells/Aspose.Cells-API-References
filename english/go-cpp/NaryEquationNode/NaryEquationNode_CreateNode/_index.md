@@ -24,5 +24,4 @@ func NaryEquationNode_CreateNode(equationtype EquationNodeType, workbook *Workbo
 ## See Also
 
 * Class [NaryEquationNode](../)
-* Namespace [Aspose.Cells.Drawing.Equations](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

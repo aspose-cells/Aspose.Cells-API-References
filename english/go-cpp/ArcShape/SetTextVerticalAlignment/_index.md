@@ -24,5 +24,4 @@ func (instance *ArcShape) SetTextVerticalAlignment(value TextAlignmentType)  err
 ## See Also
 
 * Class [ArcShape](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

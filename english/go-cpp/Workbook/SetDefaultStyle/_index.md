@@ -10,7 +10,7 @@ url: /go-cpp/workbook/setdefaultstyle/
 
 ## SetDefaultStyle function
 
-Gets or sets the default <see cref="Style"/> object of the workbook.
+Gets or sets the default Style object of the workbook.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *Workbook) SetDefaultStyle(value *Style)  error
 ## See Also
 
 * Class [Workbook](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

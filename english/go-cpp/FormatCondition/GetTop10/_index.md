@@ -24,5 +24,4 @@ func (instance *FormatCondition) GetTop10()  (*Top10,  error)
 ## See Also
 
 * Class [FormatCondition](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *PivotTableCalculateOption) SetRefreshCharts(value bool)  error
 ## See Also
 
 * Class [PivotTableCalculateOption](../)
-* Namespace [Aspose.Cells.Pivot](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

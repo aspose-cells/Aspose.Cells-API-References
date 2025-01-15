@@ -24,5 +24,4 @@ func (instance *ExternalConnection) SetConnectionDescription(value string)  erro
 ## See Also
 
 * Class [ExternalConnection](../)
-* Namespace [Aspose.Cells.ExternalConnections](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

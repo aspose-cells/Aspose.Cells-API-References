@@ -24,5 +24,4 @@ func (instance *Name) GetRange_Bool(recalculate bool)  (*Range,  error)
 ## See Also
 
 * Class [Name](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -33,6 +33,6 @@ type ScenarioCollection struct  {
 |[SetActiveIndex](./setactiveindex/) | Gets and sets which scenario is selected. | 
 |[GetLastSelected](./getlastselected/) | Indicates which scenario was last selected by the user to be run/shown. | 
 |[SetLastSelected](./setlastselected/) | Indicates which scenario was last selected by the user to be run/shown. | 
-|[Get](./get/) | Gets the <see cref="Scenario"/> object by the index. | 
+|[Get](./get/) | Gets the Scenario object by the index. | 
 |[Add](./add/) | Adds a scenario. | 
 |[GetCount](./getcount/) |  | 

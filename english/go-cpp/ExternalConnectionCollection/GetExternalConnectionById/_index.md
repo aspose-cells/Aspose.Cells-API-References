@@ -10,7 +10,7 @@ url: /go-cpp/externalconnectioncollection/getexternalconnectionbyid/
 
 ## GetExternalConnectionById function
 
-Gets the <see cref="ExternalConnection"/> element with the specified id.
+Gets the ExternalConnection element with the specified id.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *ExternalConnectionCollection) GetExternalConnectionById(connid i
 ## See Also
 
 * Class [ExternalConnectionCollection](../)
-* Namespace [Aspose.Cells.ExternalConnections](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

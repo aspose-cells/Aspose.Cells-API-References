@@ -31,6 +31,8 @@ type TextureFill struct  {
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[GetType](./gettype/) | Gets and sets the texture type | 
 |[SetType](./settype/) | Gets and sets the texture type | 
+|[GetImageData](./getimagedata/) | Gets and sets the image data of the fill. | 
+|[SetImageData](./setimagedata/) | Gets and sets the image data of the fill. | 
 |[IsTiling](./istiling/) | Indicates whether tile picture as texture. | 
 |[SetIsTiling](./setistiling/) | Indicates whether tile picture as texture. | 
 |[GetPicFormatOption](./getpicformatoption/) | Gets or sets picture format option. | 

@@ -24,5 +24,4 @@ func (instance *ComboBox) MoveToRange(upperleftrow int32, upperleftcolumn int32,
 ## See Also
 
 * Class [ComboBox](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *ColorFilter) GetFilterByFillColor()  (bool,  error)
 ## See Also
 
 * Class [ColorFilter](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

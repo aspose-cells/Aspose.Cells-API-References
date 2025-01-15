@@ -24,5 +24,4 @@ func (instance *VbaProject) Protect(islockedforviewing bool, password string)  e
 ## See Also
 
 * Class [VbaProject](../)
-* Namespace [Aspose.Cells.Vba](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

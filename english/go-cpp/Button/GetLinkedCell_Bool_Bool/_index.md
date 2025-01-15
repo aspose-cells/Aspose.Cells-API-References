@@ -24,5 +24,4 @@ func (instance *Button) GetLinkedCell_Bool_Bool(isr1c1 bool, islocal bool)  (str
 ## See Also
 
 * Class [Button](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

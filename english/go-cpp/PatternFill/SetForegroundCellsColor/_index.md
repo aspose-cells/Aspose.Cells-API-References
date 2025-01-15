@@ -10,7 +10,7 @@ url: /go-cpp/patternfill/setforegroundcellscolor/
 
 ## SetForegroundCellsColor function
 
-Gets and sets the foreground <see cref="CellsColor"/> object.
+Gets and sets the foreground CellsColor object.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *PatternFill) SetForegroundCellsColor(value *CellsColor)  error
 ## See Also
 
 * Class [PatternFill](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

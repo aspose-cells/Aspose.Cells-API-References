@@ -24,5 +24,4 @@ func (instance *RevisionAutoFormat) GetWorksheet()  (*Worksheet,  error)
 ## See Also
 
 * Class [RevisionAutoFormat](../)
-* Namespace [Aspose.Cells.Revisions](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -29,9 +29,12 @@ type VbaModuleCollection struct  {
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
+|[AddDesignerStorage](./adddesignerstorage/) |  | 
+|[GetDesignerStorage](./getdesignerstorage/) | Represents the data of Designer. | 
 |[Add_Worksheet](./add_worksheet/) | Adds module for a worksheet. | 
-|[Get_Int](./get_int/) | Gets <see cref="VbaModule"/> in the list by the index. | 
+|[AddUserForm](./adduserform/) | Inser user form into VBA Project. | 
+|[Get_Int](./get_int/) | Gets VbaModule in the list by the index. | 
 |[Remove_Worksheet](./remove_worksheet/) | Removes module for a worksheet. | 
 |[Remove_String](./remove_string/) | Remove the module by the name | 
-|[Get_String](./get_string/) | Gets <see cref="VbaModule"/> in the list by the name. | 
+|[Get_String](./get_string/) | Gets VbaModule in the list by the name. | 
 |[GetCount](./getcount/) |  | 

@@ -23,5 +23,4 @@ func (instance *TextTabStopCollection) GetCount()  (int32,  error)
 ## See Also
 
 * Class [TextTabStopCollection](../)
-* Namespace [Aspose.Cells.Drawing.Texts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

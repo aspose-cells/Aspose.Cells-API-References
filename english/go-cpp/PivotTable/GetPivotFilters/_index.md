@@ -10,7 +10,7 @@ url: /go-cpp/pivottable/getpivotfilters/
 
 ## GetPivotFilters function
 
-Returns a list of pivot filters.
+Returns all filters of pivot fields in the pivot table.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *PivotTable) GetPivotFilters()  (*PivotFilterCollection,  error)
 ## See Also
 
 * Class [PivotTable](../)
-* Namespace [Aspose.Cells.Pivot](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

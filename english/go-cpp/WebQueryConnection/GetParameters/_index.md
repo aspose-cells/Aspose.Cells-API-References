@@ -10,7 +10,7 @@ url: /go-cpp/webqueryconnection/getparameters/
 
 ## GetParameters function
 
-Gets <see cref="ConnectionParameterCollection"/> for an ODBC or web query.
+Gets ConnectionParameterCollection for an ODBC or web query.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *WebQueryConnection) GetParameters()  (*ConnectionParameterCollec
 ## See Also
 
 * Class [WebQueryConnection](../)
-* Namespace [Aspose.Cells.ExternalConnections](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

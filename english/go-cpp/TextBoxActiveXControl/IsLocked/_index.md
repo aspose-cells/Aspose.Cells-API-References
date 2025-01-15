@@ -24,5 +24,4 @@ func (instance *TextBoxActiveXControl) IsLocked()  (bool,  error)
 ## See Also
 
 * Class [TextBoxActiveXControl](../)
-* Namespace [Aspose.Cells.Drawing.ActiveXControls](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

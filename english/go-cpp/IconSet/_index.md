@@ -29,7 +29,7 @@ type IconSet struct  {
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
-|[GetCfIcons](./getcficons/) | Get the<see cref="ConditionalFormattingIcon"/> from the collection | 
+|[GetCfIcons](./getcficons/) | Get theConditionalFormattingIcon from the collection | 
 |[GetCfvos](./getcfvos/) | Get the CFValueObjects instance. | 
 |[GetType](./gettype/) | Get or Set the icon set type to display.Setting the type will auto check if the current Cfvos's count isaccord with the new type. If not accord, old Cfvos will be cleaned anddefault Cfvos will be added. | 
 |[SetType](./settype/) | Get or Set the icon set type to display.Setting the type will auto check if the current Cfvos's count isaccord with the new type. If not accord, old Cfvos will be cleaned anddefault Cfvos will be added. | 

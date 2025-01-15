@@ -33,19 +33,20 @@ type Cells struct  {
 |[Dispose](./dispose/) | Performs application-defined tasks associated with freeing, releasing, orresetting unmanaged resources. | 
 |[GetCount](./getcount/) | Gets the total count of instantiated Cell objects. | 
 |[GetCountLarge](./getcountlarge/) | Gets the total count of instantiated Cell objects. | 
-|[GetRows](./getrows/) | Gets the collection of <see cref="Row"/> objects that represents the individual rows in this worksheet. | 
-|[CheckCell](./checkcell/) | Gets the <see cref="Cell"/> element or null at the specified cell row index and column index. | 
-|[CheckRow](./checkrow/) | Gets the <see cref="Row"/> element or null at the specified cell row index. | 
-|[CheckColumn](./checkcolumn/) | Gets the <see cref="Column"/> element or null at the specified column index. | 
+|[GetRows](./getrows/) | Gets the collection of Row objects that represents the individual rows in this worksheet. | 
+|[GetMergedAreas](./getmergedareas/) | Gets all merged cells. | 
+|[CheckCell](./checkcell/) | Gets the Cell element or null at the specified cell row index and column index. | 
+|[CheckRow](./checkrow/) | Gets the Row element or null at the specified cell row index. | 
+|[CheckColumn](./checkcolumn/) | Gets the Column element or null at the specified column index. | 
 |[IsRowHidden](./isrowhidden/) | Checks whether a row at given index is hidden. | 
 |[IsColumnHidden](./iscolumnhidden/) | Checks whether a column at given index is hidden. | 
 |[AddRange](./addrange/) | Adds a range object reference to cells | 
-|[CreateRange_String_String](./createrange_string_string/) | Creates a <see cref="Range"/> object from a range of cells. | 
-|[CreateRange_Int_Int_Int_Int](./createrange_int_int_int_int/) | Creates a <see cref="Range"/> object from a range of cells. | 
-|[CreateRange_String](./createrange_string/) | Creates a <see cref="Range"/> object from an address of the range. | 
-|[CreateRange_Int_Int_Bool](./createrange_int_int_bool/) | Creates a <see cref="Range"/> object from rows of cells or columns of cells. | 
-|[Get_Int_Int](./get_int_int/) | Gets the <see cref="Cell"/> element at the specified cell row index and column index. | 
-|[Get_String](./get_string/) | Gets the <see cref="Cell"/> element at the specified cell name. | 
+|[CreateRange_String_String](./createrange_string_string/) | Creates a Range object from a range of cells. | 
+|[CreateRange_Int_Int_Int_Int](./createrange_int_int_int_int/) | Creates a Range object from a range of cells. | 
+|[CreateRange_String](./createrange_string/) | Creates a Range object from an address of the range. | 
+|[CreateRange_Int_Int_Bool](./createrange_int_int_bool/) | Creates a Range object from rows of cells or columns of cells. | 
+|[Get_Int_Int](./get_int_int/) | Gets the Cell element at the specified cell row index and column index. | 
+|[Get_String](./get_string/) | Gets the Cell element at the specified cell name. | 
 |[GetMultiThreadReading](./getmultithreadreading/) | Gets or sets whether the cells data model should support Multi-Thread reading.Default value of this property is false. | 
 |[SetMultiThreadReading](./setmultithreadreading/) | Gets or sets whether the cells data model should support Multi-Thread reading.Default value of this property is false. | 
 |[GetMemorySetting](./getmemorysetting/) | Gets or sets the memory usage option for this cells. | 
@@ -65,9 +66,12 @@ type Cells struct  {
 |[SetStandardHeightPixels](./setstandardheightpixels/) | Gets or sets the default row height in this worksheet, in unit of pixels. | 
 |[GetStandardHeightInch](./getstandardheightinch/) | Gets or sets the default row height in this worksheet, in unit of inches. | 
 |[SetStandardHeightInch](./setstandardheightinch/) | Gets or sets the default row height in this worksheet, in unit of inches. | 
+|[ImportFormulaArray](./importformulaarray/) | Imports an array of formula into a worksheet. | 
 |[TextToColumns](./texttocolumns/) | Splits content in specified column into multiple columns.. | 
 |[ImportCSV_String_String_Bool_Int_Int](./importcsv_string_string_bool_int_int/) | Import a CSV file to the cells. | 
+|[ImportCSV_Stream_String_Bool_Int_Int](./importcsv_stream_string_bool_int_int/) | Import a CSV file to the cells. | 
 |[ImportCSV_String_TxtLoadOptions_Int_Int](./importcsv_string_txtloadoptions_int_int/) | Import a CSV file to the cells. | 
+|[ImportCSV_Stream_TxtLoadOptions_Int_Int](./importcsv_stream_txtloadoptions_int_int/) | Import a CSV file to the cells. | 
 |[GetPreserveString](./getpreservestring/) | Gets or sets a value indicating whether all worksheet values are preserved as strings.Default is false. | 
 |[SetPreserveString](./setpreservestring/) | Gets or sets a value indicating whether all worksheet values are preserved as strings.Default is false. | 
 |[Merge_Int_Int_Int_Int](./merge_int_int_int_int/) | Merges a specified range of cells into a single cell. | 
@@ -113,7 +117,7 @@ type Cells struct  {
 |[SetIsDefaultRowHeightMatched](./setisdefaultrowheightmatched/) | Indicates that row height and default font height matches | 
 |[IsDefaultRowHidden](./isdefaultrowhidden/) | Indicates whether the row is default hidden. | 
 |[SetIsDefaultRowHidden](./setisdefaultrowhidden/) | Indicates whether the row is default hidden. | 
-|[GetColumns](./getcolumns/) | Gets the collection of <see cref="Column"/> objects that represents the individual columns in this worksheet. | 
+|[GetColumns](./getcolumns/) | Gets the collection of Column objects that represents the individual columns in this worksheet. | 
 |[ApplyColumnStyle](./applycolumnstyle/) | Applies formats for a whole column. | 
 |[ApplyRowStyle](./applyrowstyle/) | Applies formats for a whole row. | 
 |[ApplyStyle](./applystyle/) | Applies formats for a whole worksheet. | 
@@ -162,7 +166,7 @@ type Cells struct  {
 |[InsertRows_Int_Int_InsertOptions](./insertrows_int_int_insertoptions/) | Inserts multiple rows into the worksheet. | 
 |[InsertRows_Int_Int](./insertrows_int_int/) | Inserts multiple rows into the worksheet. | 
 |[InsertRow](./insertrow/) | Inserts a new row into the worksheet. | 
-|[GetRanges](./getranges/) | Gets the collection of <see cref="Range"/> objects created at run time. | 
+|[GetRanges](./getranges/) | Gets the collection of Range objects created at run time. | 
 |[ClearRange_CellArea](./clearrange_cellarea/) | Clears contents and formatting of a range. | 
 |[ClearRange_Int_Int_Int_Int](./clearrange_int_int_int_int/) | Clears contents and formatting of a range. | 
 |[ClearContents_CellArea](./clearcontents_cellarea/) | Clears contents of a range. | 
@@ -185,9 +189,14 @@ type Cells struct  {
 |[InsertRange_CellArea_ShiftType](./insertrange_cellarea_shifttype/) | Inserts a range of cells and shift cells according to the shift option. | 
 |[InsertRange_CellArea_Int_ShiftType](./insertrange_cellarea_int_shifttype/) | Inserts a range of cells and shift cells according to the shift option. | 
 |[DeleteRange](./deleterange/) | Deletes a range of cells and shift cells according to the shift option. | 
+|[ExportArray](./exportarray/) | Exports data in the Cells collection to a two-dimension array object. | 
 |[RetrieveSubtotalSetting](./retrievesubtotalsetting/) | Retrieves subtotals setting of the range. | 
+|[Subtotal_CellArea_Int_ConsolidationFunction_int32Array](./subtotal_cellarea_int_consolidationfunction_int32array/) | Creates subtotals for the range. | 
+|[Subtotal_CellArea_Int_ConsolidationFunction_int32Array_Bool_Bool_Bool](./subtotal_cellarea_int_consolidationfunction_int32array_bool_bool_bool/) | Creates subtotals for the range. | 
 |[RemoveFormulas](./removeformulas/) | Removes all formula and replaces with the value of the formula. | 
 |[RemoveDuplicates](./removeduplicates/) | Removes duplicate rows in the sheet. | 
 |[RemoveDuplicates_Int_Int_Int_Int](./removeduplicates_int_int_int_int/) | Removes duplicate values in the range. | 
+|[RemoveDuplicates_Int_Int_Int_Int_Bool_int32Array](./removeduplicates_int_int_int_int_bool_int32array/) | Removes duplicate data of the range. | 
 |[ConvertStringToNumericValue](./convertstringtonumericvalue/) | Converts all string data in the worksheet to numeric value if possible. | 
+|[GetDependents](./getdependents/) | Get all cells which refer to the specific cell. | 
 |[GetCellStyle](./getcellstyle/) | Get the style of given cell. | 

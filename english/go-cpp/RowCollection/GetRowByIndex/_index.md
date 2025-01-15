@@ -24,5 +24,4 @@ func (instance *RowCollection) GetRowByIndex(index int32)  (*Row,  error)
 ## See Also
 
 * Class [RowCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *PivotItemCollection) IsNull()  (bool,  error)
 ## See Also
 
 * Class [PivotItemCollection](../)
-* Namespace [Aspose.Cells.Pivot](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

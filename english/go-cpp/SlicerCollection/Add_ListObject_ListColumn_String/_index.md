@@ -24,5 +24,4 @@ func (instance *SlicerCollection) Add_ListObject_ListColumn_String(table *ListOb
 ## See Also
 
 * Class [SlicerCollection](../)
-* Namespace [Aspose.Cells.Slicers](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *TickLabels) SetDirectionType(value ChartTextDirectionType)  erro
 ## See Also
 
 * Class [TickLabels](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

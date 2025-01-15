@@ -10,7 +10,7 @@ url: /go-cpp/fillformat/getgradientfill/
 
 ## GetGradientFill function
 
-Gets <see cref="GradientFill"/> object.
+Gets GradientFill object.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *FillFormat) GetGradientFill()  (*GradientFill,  error)
 ## See Also
 
 * Class [FillFormat](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

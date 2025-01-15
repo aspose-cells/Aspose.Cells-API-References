@@ -24,5 +24,4 @@ func (instance *PowerQueryFormulaParameterCollection) IsNull()  (bool,  error)
 ## See Also
 
 * Class [PowerQueryFormulaParameterCollection](../)
-* Namespace [Aspose.Cells.QueryTables](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

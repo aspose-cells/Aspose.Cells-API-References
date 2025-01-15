@@ -23,5 +23,4 @@ func (instance *DataModelRelationshipCollection) GetCount()  (int32,  error)
 ## See Also
 
 * Class [DataModelRelationshipCollection](../)
-* Namespace [Aspose.Cells.DataModels](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

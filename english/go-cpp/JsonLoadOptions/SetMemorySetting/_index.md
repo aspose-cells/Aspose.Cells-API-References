@@ -24,5 +24,4 @@ func (instance *JsonLoadOptions) SetMemorySetting(value MemorySetting)  error
 ## See Also
 
 * Class [JsonLoadOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

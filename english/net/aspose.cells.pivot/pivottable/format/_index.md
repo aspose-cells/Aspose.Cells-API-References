@@ -5,7 +5,7 @@ description: PivotTable method. Formats selected area of the PivotTable
 type: docs
 url: /net/aspose.cells.pivot/pivottable/format/
 ---
-## Format(PivotArea, Style) {#format}
+## Format(PivotArea, Style) {#format_1}
 
 Formats selected area of the PivotTable.
 
@@ -15,8 +15,8 @@ public void Format(PivotArea pivotArea, Style style)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pivotArea | PivotArea |  |
-| style | Style |  |
+| pivotArea | PivotArea | The selected pivot view area. |
+| style | Style | The formatted setting. |
 
 ### See Also
 
@@ -28,7 +28,30 @@ public void Format(PivotArea pivotArea, Style style)
 
 ---
 
-## Format(int, int, Style) {#format_1}
+## Format(CellArea, Style) {#format}
+
+Formats selected area of the PivotTable.
+
+```csharp
+public void Format(CellArea ca, Style style)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ca | CellArea | The range of the cells. |
+| style | Style | The style |
+
+### See Also
+
+* struct [CellArea](../../../aspose.cells/cellarea/)
+* class [Style](../../../aspose.cells/style/)
+* class [PivotTable](../)
+* namespace [Aspose.Cells.Pivot](../../../aspose.cells.pivot/)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## Format(int, int, Style) {#format_2}
 
 Format the cell in the pivottable area
 

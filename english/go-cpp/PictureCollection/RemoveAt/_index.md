@@ -24,5 +24,4 @@ func (instance *PictureCollection) RemoveAt(index int32)  error
 ## See Also
 
 * Class [PictureCollection](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

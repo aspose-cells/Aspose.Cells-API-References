@@ -42,7 +42,7 @@ type FontSettingCollection struct  {
 |[GetHtmlString](./gethtmlstring/) | Gets and sets the html string which contains data and some formats in this shape. | 
 |[SetHtmlString](./sethtmlstring/) | Gets and sets the html string which contains data and some formats in this shape. | 
 |[Format](./format/) | Format the text with font setting. | 
-|[Get](./get/) | Gets the <see cref="FontSetting"/> by the index. | 
+|[Get](./get/) | Gets the FontSetting by the index. | 
 |[Clear](./clear/) | Clear all setting. | 
 |[Equals](./equals/) |  | 
 |[GetHashCode](./gethashcode/) |  | 

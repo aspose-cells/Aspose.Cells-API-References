@@ -24,5 +24,4 @@ func (instance *SubSupEquationNode) GetType()  (TextNodeType,  error)
 ## See Also
 
 * Class [SubSupEquationNode](../)
-* Namespace [Aspose.Cells.Drawing.Equations](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

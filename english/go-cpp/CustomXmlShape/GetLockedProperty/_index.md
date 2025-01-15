@@ -24,5 +24,4 @@ func (instance *CustomXmlShape) GetLockedProperty(type_ ShapeLockType)  (bool,  
 ## See Also
 
 * Class [CustomXmlShape](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

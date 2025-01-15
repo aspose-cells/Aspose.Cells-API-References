@@ -24,5 +24,4 @@ func (instance *Cells) TextToColumns(row int32, column int32, totalrows int32, o
 ## See Also
 
 * Class [Cells](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

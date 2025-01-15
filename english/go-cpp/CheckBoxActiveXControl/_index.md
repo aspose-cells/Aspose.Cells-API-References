@@ -43,6 +43,8 @@ type CheckBoxActiveXControl struct  {
 |[SetPicturePosition](./setpictureposition/) | Gets and set the location of the control's picture relative to its caption. | 
 |[GetSpecialEffect](./getspecialeffect/) | Gets and sets the special effect of the control. | 
 |[SetSpecialEffect](./setspecialeffect/) | Gets and sets the special effect of the control. | 
+|[GetPicture](./getpicture/) | Gets and sets the data of the picture. | 
+|[SetPicture](./setpicture/) | Gets and sets the data of the picture. | 
 |[GetAccelerator](./getaccelerator/) | Gets and sets the accelerator key for the control. | 
 |[SetAccelerator](./setaccelerator/) | Gets and sets the accelerator key for the control. | 
 |[GetValue](./getvalue/) | Indicates if the control is checked or not. | 
@@ -60,5 +62,6 @@ type CheckBoxActiveXControl struct  {
 |[GetFont](./getfont/) | Represents the font of the control. | 
 |[GetTextAlign](./gettextalign/) | Represents how to align the text used by the control. | 
 |[SetTextAlign](./settextalign/) | Represents how to align the text used by the control. | 
+|[GetData](./getdata/) | Gets and sets the binary data of the control. | 
 |[IsAutoSize](./isautosize/) | Indicates whether the control will automatically resize to display its entire contents. | 
 |[SetIsAutoSize](./setisautosize/) | Indicates whether the control will automatically resize to display its entire contents. | 

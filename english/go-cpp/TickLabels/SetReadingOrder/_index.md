@@ -24,5 +24,4 @@ func (instance *TickLabels) SetReadingOrder(value TextDirectionType)  error
 ## See Also
 
 * Class [TickLabels](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *Chart) HasAxis(aixstype AxisType, isprimary bool)  (bool,  error
 ## See Also
 
 * Class [Chart](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

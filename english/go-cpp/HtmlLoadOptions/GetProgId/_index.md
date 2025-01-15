@@ -24,5 +24,4 @@ func (instance *HtmlLoadOptions) GetProgId()  (string,  error)
 ## See Also
 
 * Class [HtmlLoadOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -10,7 +10,7 @@ url: /go-cpp/scenarioinputcellcollection/get/
 
 ## Get function
 
-Gets <see cref="ScenarioInputCell"/> by index in the list.
+Gets ScenarioInputCell by index in the list.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *ScenarioInputCellCollection) Get(index int32)  (*ScenarioInputCe
 ## See Also
 
 * Class [ScenarioInputCellCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

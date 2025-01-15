@@ -24,5 +24,4 @@ func (instance *RevisionLog) GetRevisions()  (*RevisionCollection,  error)
 ## See Also
 
 * Class [RevisionLog](../)
-* Namespace [Aspose.Cells.Revisions](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

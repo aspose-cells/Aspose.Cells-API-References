@@ -24,5 +24,4 @@ func (instance *RevisionCustomView) GetWorksheet()  (*Worksheet,  error)
 ## See Also
 
 * Class [RevisionCustomView](../)
-* Namespace [Aspose.Cells.Revisions](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

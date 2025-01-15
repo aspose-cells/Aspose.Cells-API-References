@@ -24,5 +24,4 @@ func (instance *MathematicalEquationNode) GetChild(index int32)  (*EquationNode,
 ## See Also
 
 * Class [MathematicalEquationNode](../)
-* Namespace [Aspose.Cells.Drawing.Equations](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *DataModelConnection) SetOnlyUseConnectionFile(value bool)  error
 ## See Also
 
 * Class [DataModelConnection](../)
-* Namespace [Aspose.Cells.ExternalConnections](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

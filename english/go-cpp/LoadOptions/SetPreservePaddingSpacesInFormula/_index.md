@@ -24,5 +24,4 @@ func (instance *LoadOptions) SetPreservePaddingSpacesInFormula(value bool)  erro
 ## See Also
 
 * Class [LoadOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

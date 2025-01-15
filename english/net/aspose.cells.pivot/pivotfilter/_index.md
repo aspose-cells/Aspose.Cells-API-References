@@ -90,7 +90,7 @@ pivot.AddFieldToArea(PivotFieldType.Data, "amount");
 pivot.PivotTableStyleType = PivotTableStyleType.PivotTableStyleMedium10;
 
 //Add top 10 filter
- pivot.BaseFields[0].Filter.FilterTop10(0, PivotFilterType.Count,false,2);
+ pivot.BaseFields[0].FilterTop10(0, PivotFilterType.Count,false,2);
 
 pivot.RefreshData();
 pivot.CalculateData();

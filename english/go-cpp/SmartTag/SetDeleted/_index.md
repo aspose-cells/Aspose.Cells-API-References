@@ -24,5 +24,4 @@ func (instance *SmartTag) SetDeleted(value bool)  error
 ## See Also
 
 * Class [SmartTag](../)
-* Namespace [Aspose.Cells.Markup](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)
