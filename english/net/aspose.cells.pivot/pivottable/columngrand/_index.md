@@ -10,8 +10,14 @@ url: /net/aspose.cells.pivot/pivottable/columngrand/
 Indicates whether the PivotTable report shows grand totals for columns.
 
 ```csharp
+[Obsolete("Use PivotTable.ShowColumnGrandTotals property instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public bool ColumnGrand { get; set; }
 ```
+
+### Remarks
+
+NOTE: This property is now obsolete. Instead, please use PivotTable.ShowColumnGrandTotals method. This method will be removed 12 months later since December 2024. Aspose apologizes for any inconvenience you may have experienced.
 
 ### See Also
 

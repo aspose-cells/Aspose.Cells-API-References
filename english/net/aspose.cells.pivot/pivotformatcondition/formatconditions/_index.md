@@ -1,13 +1,11 @@
 ---
 title: PivotFormatCondition.FormatConditions
 second_title: Aspose.Cells for .NET API Reference
-description: PivotFormatCondition property. Get formatconditions for the pivot table condition format 
+description: PivotFormatCondition property. 
 type: docs
 url: /net/aspose.cells.pivot/pivotformatcondition/formatconditions/
 ---
 ## PivotFormatCondition.FormatConditions property
-
-Get formatconditions for the pivot table condition format .
 
 ```csharp
 public FormatConditionCollection FormatConditions { get; }

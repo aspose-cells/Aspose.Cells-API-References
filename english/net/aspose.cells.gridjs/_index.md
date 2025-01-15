@@ -5,7 +5,7 @@ description: The Aspose.Cells.GridJs namespace encapsulates all classes of GridJ
 type: docs
 url: /net/aspose.cells.gridjs/
 ---
-The **Aspose.Cells.GridJs** namespace encapsulates all classes of GridJs, providing simple APIs for viewing or editing spreadsheet files through JSON operations..
+The **Aspose.Cells.GridJs** namespace encapsulates all classes of GridJs, providing simple APIs for viewing or editing spreadsheet files through JSON operations.
 
 ## Classes
 

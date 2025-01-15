@@ -13,8 +13,11 @@ The **Aspose.Cells.Pivot** namespace contains all classes of rendering and manip
 | --- | --- |
 | [CustomPiovtFieldGroupItem](./custompiovtfieldgroupitem/) | Represents an item of custom grouped field. |
 | [PivotArea](./pivotarea/) | Presents the selected area of the PivotTable. |
+| [PivotAreaCollection](./pivotareacollection/) | Represents a list of pivot area. |
 | [PivotAreaFilter](./pivotareafilter/) | Represents the filter of [`PivotArea`](../aspose.cells.pivot/pivotarea/) for [`PivotTable`](../aspose.cells.pivot/pivottable/). |
 | [PivotAreaFilterCollection](./pivotareafiltercollection/) | Represents the list of filters for [`PivotArea`](../aspose.cells.pivot/pivotarea/) |
+| [PivotConditionalFormat](./pivotconditionalformat/) | Represents a PivotTable Format Condition in PivotFormatCondition Collection. |
+| [PivotConditionalFormatCollection](./pivotconditionalformatcollection/) | Represents all conditional formats of pivot table. |
 | [PivotDateTimeRangeGroupSettings](./pivotdatetimerangegroupsettings/) | Represents the field grouped by date time range. |
 | [PivotDiscreteGroupSettings](./pivotdiscretegroupsettings/) | Rrepsents the discrete group of pivot field |
 | [PivotField](./pivotfield/) | Represents a field in a PivotTable report. |
@@ -23,8 +26,8 @@ The **Aspose.Cells.Pivot** namespace contains all classes of rendering and manip
 | [PivotFieldSortSetting](./pivotfieldsortsetting/) | Represents the setting of sorting pivot fields. |
 | [PivotFilter](./pivotfilter/) | Represents a PivotFilter in PivotFilter Collection. |
 | [PivotFilterCollection](./pivotfiltercollection/) | Represents a collection of all the PivotFilter objects |
-| [PivotFormatCondition](./pivotformatcondition/) | Represents a PivotTable Format Condition in PivotFormatCondition Collection. |
-| [PivotFormatConditionCollection](./pivotformatconditioncollection/) | Represents PivotTable Format Conditions. |
+| [PivotFormatCondition](./pivotformatcondition/) |  |
+| [PivotFormatConditionCollection](./pivotformatconditioncollection/) |  |
 | [PivotItem](./pivotitem/) | Represents a item in a PivotField report. |
 | [PivotItemCollection](./pivotitemcollection/) | Represents all the [`PivotItem`](../aspose.cells.pivot/pivotitem/) objects in the PivotField. |
 | [PivotNumbericRangeGroupSettings](./pivotnumbericrangegroupsettings/) | Represents the numberic range group of the pivot field. |

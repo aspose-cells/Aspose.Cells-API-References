@@ -13,12 +13,6 @@ Specifies write protection settings for a workbook.
 public class WriteProtection
 ```
 
-## Constructors
-
-| Name | Description |
-| --- | --- |
-| [WriteProtection](writeprotection/)() | The default constructor. |
-
 ## Properties
 
 | Name | Description |
