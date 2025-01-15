@@ -24,5 +24,4 @@ func (instance *EquationComponentNode) RemoveChild_EquationNode(node *EquationNo
 ## See Also
 
 * Class [EquationComponentNode](../)
-* Namespace [Aspose.Cells.Drawing.Equations](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -10,7 +10,7 @@ url: /go-cpp/chart/getfilterednseries/
 
 ## GetFilteredNSeries function
 
-Gets a <see cref="SeriesCollection"/> collection representing the data series that are filtered in the chart.
+Gets a SeriesCollection collection representing the data series that are filtered in the chart.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *Chart) GetFilteredNSeries()  (*SeriesCollection,  error)
 ## See Also
 
 * Class [Chart](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

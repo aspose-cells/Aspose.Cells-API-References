@@ -24,5 +24,4 @@ func (instance *AbstractTextLoadOptions) GetParsingFormulaOnOpen()  (bool,  erro
 ## See Also
 
 * Class [AbstractTextLoadOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func NewSubSupEquationNode(src *EquationNode) ( *SubSupEquationNode, error)
 ## See Also
 
 * Class [SubSupEquationNode](../)
-* Namespace [Aspose.Cells.Drawing.Equations](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

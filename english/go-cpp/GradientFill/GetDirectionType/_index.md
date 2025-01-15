@@ -24,5 +24,4 @@ func (instance *GradientFill) GetDirectionType()  (GradientDirectionType,  error
 ## See Also
 
 * Class [GradientFill](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

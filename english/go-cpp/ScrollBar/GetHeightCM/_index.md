@@ -24,5 +24,4 @@ func (instance *ScrollBar) GetHeightCM()  (float64,  error)
 ## See Also
 
 * Class [ScrollBar](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

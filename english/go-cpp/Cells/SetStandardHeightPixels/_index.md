@@ -24,5 +24,4 @@ func (instance *Cells) SetStandardHeightPixels(value int32)  error
 ## See Also
 
 * Class [Cells](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

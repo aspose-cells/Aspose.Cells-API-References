@@ -24,5 +24,4 @@ func (instance *Style) SetBorder_BorderType_CellBorderType_CellsColor(bordertype
 ## See Also
 
 * Class [Style](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

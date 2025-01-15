@@ -10,7 +10,7 @@ url: /go-cpp/cell/tojson/
 
 ## ToJson function
 
-Convert <see cref="Cell"/> to JSON struct data.
+Convert Cell to JSON struct data.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *Cell) ToJson()  (string,  error)
 ## See Also
 
 * Class [Cell](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

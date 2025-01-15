@@ -24,5 +24,4 @@ func (instance *VerticalPageBreakCollection) Add_String(cellname string)  (int32
 ## See Also
 
 * Class [VerticalPageBreakCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

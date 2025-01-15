@@ -24,5 +24,4 @@ func NewXmlColumnProperty() ( *XmlColumnProperty, error)
 ## See Also
 
 * Class [XmlColumnProperty](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

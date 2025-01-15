@@ -24,5 +24,4 @@ func (instance *TextTabStopCollection) IsNull()  (bool,  error)
 ## See Also
 
 * Class [TextTabStopCollection](../)
-* Namespace [Aspose.Cells.Drawing.Texts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

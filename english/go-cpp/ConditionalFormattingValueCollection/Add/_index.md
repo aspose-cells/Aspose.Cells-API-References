@@ -10,7 +10,7 @@ url: /go-cpp/conditionalformattingvaluecollection/add/
 
 ## Add function
 
-Adds <see cref="ConditionalFormattingValue"/> object.
+Adds ConditionalFormattingValue object.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *ConditionalFormattingValueCollection) Add(type_ FormatConditionV
 ## See Also
 
 * Class [ConditionalFormattingValueCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

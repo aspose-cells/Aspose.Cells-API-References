@@ -24,5 +24,4 @@ func (instance *XlsSaveOptions) GetSortNames()  (bool,  error)
 ## See Also
 
 * Class [XlsSaveOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

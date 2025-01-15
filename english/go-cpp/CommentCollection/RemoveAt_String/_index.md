@@ -24,5 +24,4 @@ func (instance *CommentCollection) RemoveAt_String(cellname string)  error
 ## See Also
 
 * Class [CommentCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

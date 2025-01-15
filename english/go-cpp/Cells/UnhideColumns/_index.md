@@ -24,5 +24,4 @@ func (instance *Cells) UnhideColumns(column int32, totalcolumns int32, width flo
 ## See Also
 
 * Class [Cells](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

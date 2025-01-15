@@ -71,3 +71,5 @@ type Object struct  {
 |[ToColor](./tocolor/) | Gets the Color value. | 
 |[ToRange](./torange/) | Gets the Range value. | 
 |[ToReferredArea](./toreferredarea/) | Gets the ReferredArea value. | 
+|[ToArray1D](./toarray1d/) | Gets the one-dimensional array value. | 
+|[ToArray2D](./toarray2d/) | Gets the two-dimensional array value. | 

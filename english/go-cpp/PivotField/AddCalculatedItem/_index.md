@@ -24,5 +24,4 @@ func (instance *PivotField) AddCalculatedItem(name string, formula string)  erro
 ## See Also
 
 * Class [PivotField](../)
-* Namespace [Aspose.Cells.Pivot](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

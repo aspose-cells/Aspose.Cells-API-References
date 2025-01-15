@@ -24,5 +24,4 @@ func (instance *FractionEquationNode) ToMathML()  (string,  error)
 ## See Also
 
 * Class [FractionEquationNode](../)
-* Namespace [Aspose.Cells.Drawing.Equations](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

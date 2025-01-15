@@ -24,5 +24,4 @@ func (instance *ThemeColor) GetColorType()  (ThemeColorType,  error)
 ## See Also
 
 * Class [ThemeColor](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

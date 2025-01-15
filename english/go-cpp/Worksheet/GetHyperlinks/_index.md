@@ -10,7 +10,7 @@ url: /go-cpp/worksheet/gethyperlinks/
 
 ## GetHyperlinks function
 
-Gets the <see cref="HyperlinkCollection"/> collection.
+Gets the HyperlinkCollection collection.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *Worksheet) GetHyperlinks()  (*HyperlinkCollection,  error)
 ## See Also
 
 * Class [Worksheet](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

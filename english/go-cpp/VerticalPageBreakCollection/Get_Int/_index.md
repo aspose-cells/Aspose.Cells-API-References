@@ -10,7 +10,7 @@ url: /go-cpp/verticalpagebreakcollection/get_int/
 
 ## Get_Int function
 
-Gets the <see cref="VerticalPageBreak"/> element at the specified index.
+Gets the VerticalPageBreak element at the specified index.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *VerticalPageBreakCollection) Get_Int(index int32)  (*VerticalPag
 ## See Also
 
 * Class [VerticalPageBreakCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

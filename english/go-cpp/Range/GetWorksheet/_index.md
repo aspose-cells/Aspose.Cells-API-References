@@ -10,7 +10,7 @@ url: /go-cpp/range/getworksheet/
 
 ## GetWorksheet function
 
-Gets the <see cref="Worksheet"/>object which contains this range.
+Gets the Worksheetobject which contains this range.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *Range) GetWorksheet()  (*Worksheet,  error)
 ## See Also
 
 * Class [Range](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

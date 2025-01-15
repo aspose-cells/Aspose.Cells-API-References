@@ -10,7 +10,7 @@ url: /go-cpp/sparklinegroup/getsparklines/
 
 ## GetSparklines function
 
-Gets the collection of <see cref="Sparkline"/> object.
+Gets the collection of Sparkline object.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *SparklineGroup) GetSparklines()  (*SparklineCollection,  error)
 ## See Also
 
 * Class [SparklineGroup](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

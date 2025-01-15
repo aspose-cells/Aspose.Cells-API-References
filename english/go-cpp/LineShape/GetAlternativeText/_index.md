@@ -10,7 +10,7 @@ url: /go-cpp/lineshape/getalternativetext/
 
 ## GetAlternativeText function
 
-Returns or sets the descriptive (alternative) text string of the <see cref="Shape"/> object.
+Returns or sets the descriptive (alternative) text string of the Shape object.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *LineShape) GetAlternativeText()  (string,  error)
 ## See Also
 
 * Class [LineShape](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *WriteProtection) GetAuthor()  (string,  error)
 ## See Also
 
 * Class [WriteProtection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

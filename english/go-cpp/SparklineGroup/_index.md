@@ -32,7 +32,7 @@ type SparklineGroup struct  {
 |[ResetRanges](./resetranges/) | Resets the data range and location range of the sparkline group.This method will clear original sparkline items in the group and creates new sparkline items for the new ranges. | 
 |[GetPresetStyle](./getpresetstyle/) | Gets and sets the preset style type of the sparkline group. | 
 |[SetPresetStyle](./setpresetstyle/) | Gets and sets the preset style type of the sparkline group. | 
-|[GetSparklines](./getsparklines/) | Gets the collection of <see cref="Sparkline"/> object. | 
+|[GetSparklines](./getsparklines/) | Gets the collection of Sparkline object. | 
 |[GetType](./gettype/) | Indicates the sparkline type of the sparkline group. | 
 |[SetType](./settype/) | Indicates the sparkline type of the sparkline group. | 
 |[GetPlotEmptyCellsType](./getplotemptycellstype/) | Indicates how to plot empty cells. | 

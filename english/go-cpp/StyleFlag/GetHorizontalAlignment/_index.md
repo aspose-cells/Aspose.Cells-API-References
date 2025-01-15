@@ -24,5 +24,4 @@ func (instance *StyleFlag) GetHorizontalAlignment()  (bool,  error)
 ## See Also
 
 * Class [StyleFlag](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

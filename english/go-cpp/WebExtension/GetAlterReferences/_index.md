@@ -24,5 +24,4 @@ func (instance *WebExtension) GetAlterReferences()  (*WebExtensionReferenceColle
 ## See Also
 
 * Class [WebExtension](../)
-* Namespace [Aspose.Cells.WebExtensions](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

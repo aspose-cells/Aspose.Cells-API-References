@@ -29,8 +29,8 @@ type ExternalConnectionCollection struct  {
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
-|[Get_Int](./get_int/) | Gets the <see cref="ExternalConnection"/> element at the specified index. | 
-|[Set](./set/) | Gets the <see cref="ExternalConnection"/> element at the specified index. | 
-|[Get_String](./get_string/) | Gets the <see cref="ExternalConnection"/> element with the specified name. | 
-|[GetExternalConnectionById](./getexternalconnectionbyid/) | Gets the <see cref="ExternalConnection"/> element with the specified id. | 
+|[Get_Int](./get_int/) | Gets the ExternalConnection element at the specified index. | 
+|[Set](./set/) | Gets the ExternalConnection element at the specified index. | 
+|[Get_String](./get_string/) | Gets the ExternalConnection element with the specified name. | 
+|[GetExternalConnectionById](./getexternalconnectionbyid/) | Gets the ExternalConnection element with the specified id. | 
 |[GetCount](./getcount/) |  | 

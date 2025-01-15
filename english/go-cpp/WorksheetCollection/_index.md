@@ -34,11 +34,11 @@ type WorksheetCollection struct  {
 |[GetThreadedCommentAuthors](./getthreadedcommentauthors/) | Gets the list of threaded comment authors. | 
 |[IsRefreshAllConnections](./isrefreshallconnections/) | Indicates whether refresh all connections on opening file in MS Excel. | 
 |[SetIsRefreshAllConnections](./setisrefreshallconnections/) | Indicates whether refresh all connections on opening file in MS Excel. | 
-|[CreateRange](./createrange/) | Creates a <see cref="Range"/> object from an address of the range. | 
-|[CreateUnionRange](./createunionrange/) | Creates a <see cref="Range"/> object from an address of the range. | 
+|[CreateRange](./createrange/) | Creates a Range object from an address of the range. | 
+|[CreateUnionRange](./createunionrange/) | Creates a Range object from an address of the range. | 
 |[GetNames](./getnames/) | Gets the collection of all the Name objects in the spreadsheet. | 
-|[Get_Int](./get_int/) | Gets the <see cref="Worksheet"/> element at the specified index. | 
-|[Get_String](./get_string/) | Gets the <see cref="Worksheet"/> element with the specified name. | 
+|[Get_Int](./get_int/) | Gets the Worksheet element at the specified index. | 
+|[Get_String](./get_string/) | Gets the Worksheet element with the specified name. | 
 |[GetSheetByCodeName](./getsheetbycodename/) | Gets the worksheet by the code name. | 
 |[GetActiveSheetName](./getactivesheetname/) | Represents the name of active worksheet when the spreadsheet is opened. | 
 |[SetActiveSheetName](./setactivesheetname/) | Represents the name of active worksheet when the spreadsheet is opened. | 
@@ -60,16 +60,18 @@ type WorksheetCollection struct  {
 |[AddCopy_Int](./addcopy_int/) | Adds a worksheet to the collection and copies data from an existed worksheet. | 
 |[GetDxfs](./getdxfs/) | Gets the master differential formatting records. | 
 |[GetRangeByName_String](./getrangebyname_string/) | Gets Range object by pre-defined name. | 
-|[GetRangeByName_String_Int_Bool](./getrangebyname_string_int_bool/) | Gets <see cref="Range"/> by pre-defined name or table's name | 
+|[GetRangeByName_String_Int_Bool](./getrangebyname_string_int_bool/) | Gets Range by pre-defined name or table's name | 
+|[GetNamedRanges](./getnamedranges/) | Gets all pre-defined named ranges in the spreadsheet. | 
+|[GetNamedRangesAndTables](./getnamedrangesandtables/) | Gets all pre-defined named ranges in the spreadsheet. | 
 |[GetXmlMaps](./getxmlmaps/) | Gets and sets the XML maps in the workbook. | 
 |[SetXmlMaps](./setxmlmaps/) | Gets and sets the XML maps in the workbook. | 
-|[GetBuiltInDocumentProperties](./getbuiltindocumentproperties/) | Returns a <see cref="DocumentProperty"/> collection that represents all the built-in document properties of the spreadsheet. | 
-|[GetCustomDocumentProperties](./getcustomdocumentproperties/) | Returns a <see cref="DocumentProperty"/> collection that represents all the custom document properties of the spreadsheet. | 
+|[GetBuiltInDocumentProperties](./getbuiltindocumentproperties/) | Returns a DocumentProperty collection that represents all the built-in document properties of the spreadsheet. | 
+|[GetCustomDocumentProperties](./getcustomdocumentproperties/) | Returns a DocumentProperty collection that represents all the custom document properties of the spreadsheet. | 
 |[GetOleSize](./getolesize/) | Gets and Sets displayed size when Workbook file is used as an Ole object. | 
 |[SetOleSize_Object](./setolesize_object/) | Gets and Sets displayed size when Workbook file is used as an Ole object. | 
 |[SetOleSize_Int_Int_Int_Int](./setolesize_int_int_int_int/) | Sets displayed size when Workbook file is used as an Ole object. | 
 |[GetExternalLinks](./getexternallinks/) | Represents external links in a workbook. | 
-|[GetTableStyles](./gettablestyles/) | Gets <see cref="TableStyles"/> object. | 
+|[GetTableStyles](./gettablestyles/) | Gets TableStyles object. | 
 |[ClearPivottables](./clearpivottables/) | Clears pivot tables from the spreadsheet. | 
 |[GetRevisionLogs](./getrevisionlogs/) | Represents revision logs. | 
 |[RefreshAll](./refreshall/) | Refresh all pivot tables and charts with pivot source. | 

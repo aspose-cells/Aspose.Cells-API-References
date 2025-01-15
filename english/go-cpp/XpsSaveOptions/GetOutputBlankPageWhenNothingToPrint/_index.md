@@ -24,5 +24,4 @@ func (instance *XpsSaveOptions) GetOutputBlankPageWhenNothingToPrint()  (bool,  
 ## See Also
 
 * Class [XpsSaveOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

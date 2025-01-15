@@ -24,5 +24,4 @@ func (instance *Dialog_Box) AlignTopRightCorner(toprow int32, rightcolumn int32)
 ## See Also
 
 * Class [Dialog_Box](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *Shape) SetLinkedCell_String_Bool_Bool(formula string, isr1c1 boo
 ## See Also
 
 * Class [Shape](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

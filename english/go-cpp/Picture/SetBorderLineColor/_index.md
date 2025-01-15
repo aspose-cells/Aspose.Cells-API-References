@@ -10,7 +10,7 @@ url: /go-cpp/picture/setborderlinecolor/
 
 ## SetBorderLineColor function
 
-Represents the <see cref="Color"/> of the border line of a picture.
+Represents the Color of the border line of a picture.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *Picture) SetBorderLineColor(value *Color)  error
 ## See Also
 
 * Class [Picture](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

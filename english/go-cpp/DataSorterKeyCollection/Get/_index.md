@@ -10,7 +10,7 @@ url: /go-cpp/datasorterkeycollection/get/
 
 ## Get function
 
-Gets and sets <see cref="DataSorterKey"/> by index.
+Gets and sets DataSorterKey by index.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *DataSorterKeyCollection) Get(index int32)  (*DataSorterKey,  err
 ## See Also
 
 * Class [DataSorterKeyCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

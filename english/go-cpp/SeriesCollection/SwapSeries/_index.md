@@ -24,5 +24,4 @@ func (instance *SeriesCollection) SwapSeries(sourceindex int32, destindex int32)
 ## See Also
 
 * Class [SeriesCollection](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

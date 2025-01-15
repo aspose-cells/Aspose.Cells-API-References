@@ -10,7 +10,7 @@ url: /go-cpp/trendlinecollection/get/
 
 ## Get function
 
-Gets a <see cref="Trendline"/> object by its index.
+Gets a Trendline object by its index.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *TrendlineCollection) Get(index int32)  (*Trendline,  error)
 ## See Also
 
 * Class [TrendlineCollection](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func NewTextBox(src *Shape) ( *TextBox, error)
 ## See Also
 
 * Class [TextBox](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

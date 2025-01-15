@@ -24,5 +24,4 @@ func (instance *CellsDrawing) GetLockedProperty(type_ ShapeLockType)  (bool,  er
 ## See Also
 
 * Class [CellsDrawing](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

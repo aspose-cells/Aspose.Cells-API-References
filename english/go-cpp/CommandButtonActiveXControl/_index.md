@@ -35,6 +35,8 @@ type CommandButtonActiveXControl struct  {
 |[SetCaption](./setcaption/) | Gets and set the descriptive text that appears on a control. | 
 |[GetPicturePosition](./getpictureposition/) | Gets and set the location of the control's picture relative to its caption. | 
 |[SetPicturePosition](./setpictureposition/) | Gets and set the location of the control's picture relative to its caption. | 
+|[GetPicture](./getpicture/) | Gets and sets the data of the picture. | 
+|[SetPicture](./setpicture/) | Gets and sets the data of the picture. | 
 |[GetAccelerator](./getaccelerator/) | Gets and sets the accelerator key for the control. | 
 |[SetAccelerator](./setaccelerator/) | Gets and sets the accelerator key for the control. | 
 |[GetTakeFocusOnClick](./gettakefocusonclick/) | Indicates whether the control takes the focus when clicked. | 
@@ -52,5 +54,6 @@ type CommandButtonActiveXControl struct  {
 |[GetFont](./getfont/) | Represents the font of the control. | 
 |[GetTextAlign](./gettextalign/) | Represents how to align the text used by the control. | 
 |[SetTextAlign](./settextalign/) | Represents how to align the text used by the control. | 
+|[GetData](./getdata/) | Gets and sets the binary data of the control. | 
 |[IsAutoSize](./isautosize/) | Indicates whether the control will automatically resize to display its entire contents. | 
 |[SetIsAutoSize](./setisautosize/) | Indicates whether the control will automatically resize to display its entire contents. | 

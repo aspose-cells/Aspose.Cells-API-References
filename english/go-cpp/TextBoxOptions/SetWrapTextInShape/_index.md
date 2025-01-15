@@ -24,5 +24,4 @@ func (instance *TextBoxOptions) SetWrapTextInShape(value bool)  error
 ## See Also
 
 * Class [TextBoxOptions](../)
-* Namespace [Aspose.Cells.Drawing.Texts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

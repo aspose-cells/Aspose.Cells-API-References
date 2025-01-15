@@ -10,7 +10,7 @@ url: /go-cpp/datamodelconnection/getclasstype/
 
 ## GetClassType function
 
-Gets the type of this <see cref="ExternalConnection"/> object.
+Gets the type of this ExternalConnection object.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *DataModelConnection) GetClassType()  (ExternalConnectionClassTyp
 ## See Also
 
 * Class [DataModelConnection](../)
-* Namespace [Aspose.Cells.ExternalConnections](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

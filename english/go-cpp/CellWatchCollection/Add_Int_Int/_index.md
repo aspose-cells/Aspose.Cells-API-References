@@ -10,7 +10,7 @@ url: /go-cpp/cellwatchcollection/add_int_int/
 
 ## Add_Int_Int function
 
-Adds <see cref="CellWatch"/> with row and column.
+Adds CellWatch with row and column.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *CellWatchCollection) Add_Int_Int(row int32, column int32)  (int3
 ## See Also
 
 * Class [CellWatchCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

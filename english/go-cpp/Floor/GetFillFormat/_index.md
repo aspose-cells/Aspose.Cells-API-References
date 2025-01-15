@@ -10,7 +10,7 @@ url: /go-cpp/floor/getfillformat/
 
 ## GetFillFormat function
 
-Represents a <see cref="FillFormat"/> object that contains fill formatting properties for the specified chart or shape.
+Represents a FillFormat object that contains fill formatting properties for the specified chart or shape.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *Floor) GetFillFormat()  (*FillFormat,  error)
 ## See Also
 
 * Class [Floor](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

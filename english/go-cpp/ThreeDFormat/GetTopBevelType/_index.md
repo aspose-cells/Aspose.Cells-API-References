@@ -24,5 +24,4 @@ func (instance *ThreeDFormat) GetTopBevelType()  (BevelType,  error)
 ## See Also
 
 * Class [ThreeDFormat](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *SparklineGroup) SetShowMarkers(value bool)  error
 ## See Also
 
 * Class [SparklineGroup](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

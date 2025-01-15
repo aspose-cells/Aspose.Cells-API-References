@@ -24,5 +24,4 @@ func (instance *ChartFrame) SetX(value int32)  error
 ## See Also
 
 * Class [ChartFrame](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

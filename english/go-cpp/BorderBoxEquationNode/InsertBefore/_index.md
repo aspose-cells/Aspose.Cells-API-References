@@ -24,5 +24,4 @@ func (instance *BorderBoxEquationNode) InsertBefore(equationtype EquationNodeTyp
 ## See Also
 
 * Class [BorderBoxEquationNode](../)
-* Namespace [Aspose.Cells.Drawing.Equations](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

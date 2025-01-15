@@ -24,5 +24,4 @@ func (instance *TableToRangeOptions) GetLastRow()  (int32,  error)
 ## See Also
 
 * Class [TableToRangeOptions](../)
-* Namespace [Aspose.Cells.Tables](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

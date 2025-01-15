@@ -24,5 +24,4 @@ func (instance *CellsDrawing) SetTextVerticalOverflow(value TextOverflowType)  e
 ## See Also
 
 * Class [CellsDrawing](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

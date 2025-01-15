@@ -24,5 +24,4 @@ func (instance *ConditionalFormattingCollection) RemoveArea(startrow int32, star
 ## See Also
 
 * Class [ConditionalFormattingCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

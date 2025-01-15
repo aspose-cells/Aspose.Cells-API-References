@@ -24,5 +24,4 @@ func (instance *EquationNodeParagraph) GetType()  (TextNodeType,  error)
 ## See Also
 
 * Class [EquationNodeParagraph](../)
-* Namespace [Aspose.Cells.Drawing.Equations](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

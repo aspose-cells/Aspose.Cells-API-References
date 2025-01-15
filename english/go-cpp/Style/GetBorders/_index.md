@@ -10,7 +10,7 @@ url: /go-cpp/style/getborders/
 
 ## GetBorders function
 
-Gets the <see cref="BorderCollection"/> of the style.
+Gets the BorderCollection of the style.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *Style) GetBorders()  (*BorderCollection,  error)
 ## See Also
 
 * Class [Style](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

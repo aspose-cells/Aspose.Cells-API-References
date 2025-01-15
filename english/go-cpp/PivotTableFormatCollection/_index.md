@@ -30,6 +30,6 @@ type PivotTableFormatCollection struct  {
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[Get](./get/) | Gets the format by the index. | 
-|[Add](./add/) | Add a <see cref="PivotTableFormat"/>. | 
+|[Add](./add/) | Add a PivotTableFormat. | 
 |[FormatArea](./formatarea/) | Formats selected area. | 
 |[GetCount](./getcount/) |  | 

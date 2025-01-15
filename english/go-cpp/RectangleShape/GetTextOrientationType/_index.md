@@ -24,5 +24,4 @@ func (instance *RectangleShape) GetTextOrientationType()  (TextOrientationType, 
 ## See Also
 
 * Class [RectangleShape](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

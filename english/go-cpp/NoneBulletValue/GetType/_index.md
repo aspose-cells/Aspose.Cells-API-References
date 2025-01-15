@@ -24,5 +24,4 @@ func (instance *NoneBulletValue) GetType()  (BulletType,  error)
 ## See Also
 
 * Class [NoneBulletValue](../)
-* Namespace [Aspose.Cells.Drawing.Texts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

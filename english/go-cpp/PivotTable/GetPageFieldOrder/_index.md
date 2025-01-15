@@ -24,5 +24,4 @@ func (instance *PivotTable) GetPageFieldOrder()  (PrintOrderType,  error)
 ## See Also
 
 * Class [PivotTable](../)
-* Namespace [Aspose.Cells.Pivot](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

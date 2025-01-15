@@ -24,5 +24,4 @@ func RadicalEquationNode_CreateNode(equationtype EquationNodeType, workbook *Wor
 ## See Also
 
 * Class [RadicalEquationNode](../)
-* Namespace [Aspose.Cells.Drawing.Equations](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

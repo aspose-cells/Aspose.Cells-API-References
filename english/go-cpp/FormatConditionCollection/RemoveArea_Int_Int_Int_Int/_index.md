@@ -24,5 +24,4 @@ func (instance *FormatConditionCollection) RemoveArea_Int_Int_Int_Int(startrow i
 ## See Also
 
 * Class [FormatConditionCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

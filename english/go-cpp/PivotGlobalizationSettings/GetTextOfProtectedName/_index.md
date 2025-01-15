@@ -24,5 +24,4 @@ func (instance *PivotGlobalizationSettings) GetTextOfProtectedName(protectedname
 ## See Also
 
 * Class [PivotGlobalizationSettings](../)
-* Namespace [Aspose.Cells.Settings](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

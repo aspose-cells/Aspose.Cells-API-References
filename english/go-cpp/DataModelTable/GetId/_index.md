@@ -24,5 +24,4 @@ func (instance *DataModelTable) GetId()  (string,  error)
 ## See Also
 
 * Class [DataModelTable](../)
-* Namespace [Aspose.Cells.DataModels](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

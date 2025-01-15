@@ -24,5 +24,4 @@ func (instance *FractionEquationNode) InsertChild(index int32, equationtype Equa
 ## See Also
 
 * Class [FractionEquationNode](../)
-* Namespace [Aspose.Cells.Drawing.Equations](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

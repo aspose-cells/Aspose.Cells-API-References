@@ -24,5 +24,4 @@ func (instance *CustomXmlShape) SetInputRange_String_Bool_Bool(formula string, i
 ## See Also
 
 * Class [CustomXmlShape](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

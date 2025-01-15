@@ -10,7 +10,7 @@ url: /go-cpp/workbooksettings/getquoteprefixtostyle/
 
 ## GetQuotePrefixToStyle function
 
-Indicates whether setting <see cref="Style.QuotePrefix"/> property when entering the string value(which starts  with single quote mark ) to the cell
+Indicates whether setting Style.QuotePrefix property when entering the string value(which starts  with single quote mark ) to the cell
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *WorkbookSettings) GetQuotePrefixToStyle()  (bool,  error)
 ## See Also
 
 * Class [WorkbookSettings](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

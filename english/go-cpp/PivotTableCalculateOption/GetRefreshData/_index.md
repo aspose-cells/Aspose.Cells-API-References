@@ -24,5 +24,4 @@ func (instance *PivotTableCalculateOption) GetRefreshData()  (bool,  error)
 ## See Also
 
 * Class [PivotTableCalculateOption](../)
-* Namespace [Aspose.Cells.Pivot](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

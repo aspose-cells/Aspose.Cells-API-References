@@ -28,5 +28,4 @@ type AbstractFormulaChangeMonitor struct  {
 
 | Method | Description |
 | --- | --- |
-|[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[OnCellFormulaChanged](./oncellformulachanged/) | The event that will be triggered when the formula in a cell is changed. | 

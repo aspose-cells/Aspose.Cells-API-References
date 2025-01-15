@@ -24,5 +24,4 @@ func (instance *Slicer) GetWidth()  (float64,  error)
 ## See Also
 
 * Class [Slicer](../)
-* Namespace [Aspose.Cells.Slicers](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

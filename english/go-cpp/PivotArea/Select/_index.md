@@ -24,5 +24,4 @@ func (instance *PivotArea) Select(axistype PivotFieldType, fieldposition int32, 
 ## See Also
 
 * Class [PivotArea](../)
-* Namespace [Aspose.Cells.Pivot](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

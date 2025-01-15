@@ -10,7 +10,7 @@ url: /go-cpp/docxsaveoptions/getsheetset/
 
 ## GetSheetSet function
 
-Gets or sets the sheets to render. Default is all visible sheets in the workbook: <see cref="Aspose.Cells.Rendering.SheetSet.Visible"/>.
+Gets or sets the sheets to render. Default is all visible sheets in the workbook: Aspose.Cells.Rendering.SheetSet.Visible.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *DocxSaveOptions) GetSheetSet()  (*SheetSet,  error)
 ## See Also
 
 * Class [DocxSaveOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

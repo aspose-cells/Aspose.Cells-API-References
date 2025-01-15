@@ -24,5 +24,4 @@ func (instance *Cells) InsertRows_Int_Int_InsertOptions(rowindex int32, totalrow
 ## See Also
 
 * Class [Cells](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

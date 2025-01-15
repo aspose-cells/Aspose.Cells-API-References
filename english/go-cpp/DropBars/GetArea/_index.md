@@ -10,7 +10,7 @@ url: /go-cpp/dropbars/getarea/
 
 ## GetArea function
 
-Gets the <see cref="Area"/>.
+Gets the Area.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *DropBars) GetArea()  (*Area,  error)
 ## See Also
 
 * Class [DropBars](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *AbstractTextLoadOptions) SetPaperSize(type_ PaperSizeType)  erro
 ## See Also
 
 * Class [AbstractTextLoadOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

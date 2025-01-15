@@ -24,5 +24,4 @@ func (instance *Chart) SetPrintSize(value PrintSizeType)  error
 ## See Also
 
 * Class [Chart](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

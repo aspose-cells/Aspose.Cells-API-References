@@ -24,5 +24,4 @@ func (instance *UnknowEquationNode) InsertChild(index int32, equationtype Equati
 ## See Also
 
 * Class [UnknowEquationNode](../)
-* Namespace [Aspose.Cells.Drawing.Equations](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

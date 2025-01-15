@@ -24,5 +24,4 @@ func (instance *DataLabels) IsAutomaticRotation()  (bool,  error)
 ## See Also
 
 * Class [DataLabels](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

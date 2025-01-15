@@ -24,5 +24,4 @@ func (instance *Range) PutValue(stringvalue string, isconverted bool, setstyle b
 ## See Also
 
 * Class [Range](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

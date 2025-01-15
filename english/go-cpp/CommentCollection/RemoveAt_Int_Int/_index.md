@@ -24,5 +24,4 @@ func (instance *CommentCollection) RemoveAt_Int_Int(row int32, column int32)  er
 ## See Also
 
 * Class [CommentCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

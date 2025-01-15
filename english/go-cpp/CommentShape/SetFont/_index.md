@@ -24,5 +24,4 @@ func (instance *CommentShape) SetFont(value *Font)  error
 ## See Also
 
 * Class [CommentShape](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

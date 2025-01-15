@@ -24,5 +24,4 @@ func (instance *ColorScale) GetIs3ColorScale()  (bool,  error)
 ## See Also
 
 * Class [ColorScale](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

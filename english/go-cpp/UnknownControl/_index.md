@@ -30,6 +30,8 @@ type UnknownControl struct  {
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
+|[GetRelationshipData](./getrelationshipdata/) | Gets the related data. | 
+|[GetData](./getdata/) | Gets and sets the binary data of the control. | 
 |[GetType](./gettype/) | Gets the type of the ActiveX control. | 
 |[IsEnabled](./isenabled/) | Indicates whether the control can receive the focus and respond to user-generated events. | 
 |[SetIsEnabled](./setisenabled/) | Indicates whether the control can receive the focus and respond to user-generated events. | 

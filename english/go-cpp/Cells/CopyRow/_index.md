@@ -24,5 +24,4 @@ func (instance *Cells) CopyRow(sourcecells *Cells, sourcerowindex int32, destina
 ## See Also
 
 * Class [Cells](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

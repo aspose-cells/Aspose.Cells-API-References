@@ -24,5 +24,4 @@ func (instance *NegativeBarFormat) SetColor(value *Color)  error
 ## See Also
 
 * Class [NegativeBarFormat](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func NewSmartTagPropertyCollection() ( *SmartTagPropertyCollection, error)
 ## See Also
 
 * Class [SmartTagPropertyCollection](../)
-* Namespace [Aspose.Cells.Markup](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

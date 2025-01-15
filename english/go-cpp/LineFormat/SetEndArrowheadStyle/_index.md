@@ -24,5 +24,4 @@ func (instance *LineFormat) SetEndArrowheadStyle(value MsoArrowheadStyle)  error
 ## See Also
 
 * Class [LineFormat](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

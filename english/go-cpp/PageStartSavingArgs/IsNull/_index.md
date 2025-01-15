@@ -24,5 +24,4 @@ func (instance *PageStartSavingArgs) IsNull()  (bool,  error)
 ## See Also
 
 * Class [PageStartSavingArgs](../)
-* Namespace [Aspose.Cells.Rendering](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

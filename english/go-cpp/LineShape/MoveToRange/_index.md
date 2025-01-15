@@ -24,5 +24,4 @@ func (instance *LineShape) MoveToRange(upperleftrow int32, upperleftcolumn int32
 ## See Also
 
 * Class [LineShape](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

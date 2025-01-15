@@ -24,5 +24,4 @@ func (instance *PivotItem) IsHidden()  (bool,  error)
 ## See Also
 
 * Class [PivotItem](../)
-* Namespace [Aspose.Cells.Pivot](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

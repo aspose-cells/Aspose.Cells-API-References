@@ -10,7 +10,7 @@ url: /go-cpp/iconset/getcficons/
 
 ## GetCfIcons function
 
-Get the<see cref="ConditionalFormattingIcon"/> from the collection
+Get theConditionalFormattingIcon from the collection
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *IconSet) GetCfIcons()  (*ConditionalFormattingIconCollection,  e
 ## See Also
 
 * Class [IconSet](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

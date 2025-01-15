@@ -24,5 +24,4 @@ func NewFolderFontSource_String_Bool(folderpath string, scansubfolders bool) ( *
 ## See Also
 
 * Class [FolderFontSource](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

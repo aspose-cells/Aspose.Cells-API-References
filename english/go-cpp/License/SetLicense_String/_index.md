@@ -24,5 +24,4 @@ func (instance *License) SetLicense_String(licensename string)  error
 ## See Also
 
 * Class [License](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

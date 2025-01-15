@@ -24,5 +24,4 @@ func (instance *CustomXmlShape) ToImage_String_ImageOrPrintOptions(imagefile str
 ## See Also
 
 * Class [CustomXmlShape](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

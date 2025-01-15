@@ -24,5 +24,4 @@ func (instance *Area) GetFormatting()  (FormattingType,  error)
 ## See Also
 
 * Class [Area](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

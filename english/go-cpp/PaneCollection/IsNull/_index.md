@@ -24,5 +24,4 @@ func (instance *PaneCollection) IsNull()  (bool,  error)
 ## See Also
 
 * Class [PaneCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

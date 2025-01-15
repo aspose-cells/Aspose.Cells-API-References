@@ -24,5 +24,4 @@ func (instance *PivotFilterCollection) AddValueFilter(basefieldindex int32, valu
 ## See Also
 
 * Class [PivotFilterCollection](../)
-* Namespace [Aspose.Cells.Pivot](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

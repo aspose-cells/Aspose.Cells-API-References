@@ -10,7 +10,7 @@ url: /go-cpp/powerqueryformulaitemcollection/get_string/
 
 ## Get_String function
 
-Gets <see cref=" PowerQueryFormulaItem"/> by the name of the item.
+Gets  PowerQueryFormulaItem by the name of the item.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *PowerQueryFormulaItemCollection) Get_String(name string)  (*Powe
 ## See Also
 
 * Class [PowerQueryFormulaItemCollection](../)
-* Namespace [Aspose.Cells.QueryTables](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

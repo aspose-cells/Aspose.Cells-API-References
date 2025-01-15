@@ -24,5 +24,4 @@ func (instance *Cells) DeleteRange(startrow int32, startcolumn int32, endrow int
 ## See Also
 
 * Class [Cells](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

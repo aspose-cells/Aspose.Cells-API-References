@@ -10,7 +10,7 @@ url: /go-cpp/protectedrangecollection/add/
 
 ## Add function
 
-Adds a <see cref="ProtectedRange"/> item to the collection.
+Adds a ProtectedRange item to the collection.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *ProtectedRangeCollection) Add(name string, startrow int32, start
 ## See Also
 
 * Class [ProtectedRangeCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *LoadOptions) IsNull()  (bool,  error)
 ## See Also
 
 * Class [LoadOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

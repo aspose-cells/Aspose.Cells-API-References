@@ -24,5 +24,4 @@ func (instance *ErrorCheckOption) RemoveRange(index int32)  error
 ## See Also
 
 * Class [ErrorCheckOption](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

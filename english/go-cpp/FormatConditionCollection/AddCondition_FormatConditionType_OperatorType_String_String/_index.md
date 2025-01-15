@@ -24,5 +24,4 @@ func (instance *FormatConditionCollection) AddCondition_FormatConditionType_Oper
 ## See Also
 
 * Class [FormatConditionCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

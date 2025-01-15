@@ -24,5 +24,4 @@ func (instance *Oval) SetAnchorType(value ShapeAnchorType)  error
 ## See Also
 
 * Class [Oval](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

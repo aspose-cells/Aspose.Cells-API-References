@@ -24,5 +24,4 @@ func (instance *FormatCondition) SetFormulas(formula1 string, formula2 string, i
 ## See Also
 
 * Class [FormatCondition](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

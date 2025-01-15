@@ -24,5 +24,4 @@ func (instance *BuiltInDocumentPropertyCollection) SetLanguage(value string)  er
 ## See Also
 
 * Class [BuiltInDocumentPropertyCollection](../)
-* Namespace [Aspose.Cells.Properties](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

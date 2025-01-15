@@ -24,5 +24,4 @@ func (instance *DataSorter) AddKey_Int_SortOrder(key int32, order SortOrder)  er
 ## See Also
 
 * Class [DataSorter](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

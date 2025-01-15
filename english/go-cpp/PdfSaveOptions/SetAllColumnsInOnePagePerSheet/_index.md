@@ -24,5 +24,4 @@ func (instance *PdfSaveOptions) SetAllColumnsInOnePagePerSheet(value bool)  erro
 ## See Also
 
 * Class [PdfSaveOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

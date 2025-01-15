@@ -24,5 +24,4 @@ func (instance *Name) GetComment()  (string,  error)
 ## See Also
 
 * Class [Name](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

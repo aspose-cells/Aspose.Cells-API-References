@@ -31,6 +31,8 @@ type XmlSaveOptions struct  {
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
+|[GetSheetIndexes](./getsheetindexes/) | Represents the indexes of exported sheets. | 
+|[SetSheetIndexes](./setsheetindexes/) | Represents the indexes of exported sheets. | 
 |[GetExportArea](./getexportarea/) | Gets or sets the exporting range. | 
 |[SetExportArea](./setexportarea/) | Gets or sets the exporting range. | 
 |[GetHasHeaderRow](./gethasheaderrow/) | Indicates whether the range contains header row. | 

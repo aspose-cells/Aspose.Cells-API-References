@@ -24,5 +24,4 @@ func (instance *NameCollection) Clear()  error
 ## See Also
 
 * Class [NameCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

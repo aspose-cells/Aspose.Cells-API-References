@@ -24,5 +24,4 @@ func (instance *TickLabels) IsAutomaticRotation()  (bool,  error)
 ## See Also
 
 * Class [TickLabels](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

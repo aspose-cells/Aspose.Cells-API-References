@@ -24,5 +24,4 @@ func (instance *AutoFilter) FilterTop10(fieldindex int32, istop bool, ispercent 
 ## See Also
 
 * Class [AutoFilter](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

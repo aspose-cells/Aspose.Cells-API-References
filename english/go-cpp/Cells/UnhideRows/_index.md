@@ -24,5 +24,4 @@ func (instance *Cells) UnhideRows(row int32, totalrows int32, height float64)  e
 ## See Also
 
 * Class [Cells](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

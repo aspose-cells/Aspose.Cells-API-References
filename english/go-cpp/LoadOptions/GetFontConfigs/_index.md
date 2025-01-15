@@ -10,7 +10,7 @@ url: /go-cpp/loadoptions/getfontconfigs/
 
 ## GetFontConfigs function
 
-Gets and sets individual font configs.Only works for the <see cref="Workbook"/> which uses this <see cref="LoadOptions"/> to load.
+Gets and sets individual font configs.Only works for the Workbook which uses this LoadOptions to load.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *LoadOptions) GetFontConfigs()  (*IndividualFontConfigs,  error)
 ## See Also
 
 * Class [LoadOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

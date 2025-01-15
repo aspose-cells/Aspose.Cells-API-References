@@ -10,7 +10,7 @@ url: /go-cpp/oleobject/getreflection/
 
 ## GetReflection function
 
-Represents a <see cref="ReflectionEffect"/> object that specifies reflection effect for the chart element or shape.
+Represents a ReflectionEffect object that specifies reflection effect for the chart element or shape.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *OleObject) GetReflection()  (*ReflectionEffect,  error)
 ## See Also
 
 * Class [OleObject](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

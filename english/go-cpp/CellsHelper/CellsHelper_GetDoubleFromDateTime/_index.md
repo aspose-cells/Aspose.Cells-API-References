@@ -24,5 +24,4 @@ func CellsHelper_GetDoubleFromDateTime(datetime *Date, date1904 bool)  (float64,
 ## See Also
 
 * Class [CellsHelper](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -10,7 +10,7 @@ url: /go-cpp/seriescollection/add_string_bool_bool/
 
 ## Add_String_Bool_Bool function
 
-Adds the <see cref="Series"/> collection to a chart.
+Adds the Series collection to a chart.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *SeriesCollection) Add_String_Bool_Bool(area string, isvertical b
 ## See Also
 
 * Class [SeriesCollection](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

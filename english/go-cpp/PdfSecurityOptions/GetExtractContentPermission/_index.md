@@ -10,7 +10,7 @@ url: /go-cpp/pdfsecurityoptions/getextractcontentpermission/
 
 ## GetExtractContentPermission function
 
-Indicates whether to allow to copy or otherwise extract text and graphics from the documentby operations other than that controlled by <see cref="AccessibilityExtractContent"/>.
+Indicates whether to allow to copy or otherwise extract text and graphics from the documentby operations other than that controlled by AccessibilityExtractContent.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *PdfSecurityOptions) GetExtractContentPermission()  (bool,  error
 ## See Also
 
 * Class [PdfSecurityOptions](../)
-* Namespace [Aspose.Cells.Rendering.PdfSecurity](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

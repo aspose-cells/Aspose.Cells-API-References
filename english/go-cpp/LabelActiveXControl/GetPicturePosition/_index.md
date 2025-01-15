@@ -24,5 +24,4 @@ func (instance *LabelActiveXControl) GetPicturePosition()  (ControlPicturePositi
 ## See Also
 
 * Class [LabelActiveXControl](../)
-* Namespace [Aspose.Cells.Drawing.ActiveXControls](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

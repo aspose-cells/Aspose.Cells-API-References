@@ -10,7 +10,7 @@ url: /go-cpp/worksheet/gettextboxes/
 
 ## GetTextBoxes function
 
-Gets a <see cref="TextBox"/> collection.
+Gets a TextBox collection.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *Worksheet) GetTextBoxes()  (*TextBoxCollection,  error)
 ## See Also
 
 * Class [Worksheet](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

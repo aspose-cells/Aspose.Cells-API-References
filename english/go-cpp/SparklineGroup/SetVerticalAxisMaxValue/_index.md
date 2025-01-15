@@ -24,5 +24,4 @@ func (instance *SparklineGroup) SetVerticalAxisMaxValue(value float64)  error
 ## See Also
 
 * Class [SparklineGroup](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

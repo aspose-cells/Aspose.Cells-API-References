@@ -24,5 +24,4 @@ func (instance *Validation) GetFormula2_Bool_Bool_Int_Int(isr1c1 bool, islocal b
 ## See Also
 
 * Class [Validation](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

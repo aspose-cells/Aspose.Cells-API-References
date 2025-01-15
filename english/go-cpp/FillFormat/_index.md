@@ -33,10 +33,10 @@ type FillFormat struct  {
 |[SetFillType](./setfilltype/) | Gets and sets fill type | 
 |[GetTransparency](./gettransparency/) | Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear). | 
 |[SetTransparency](./settransparency/) | Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear). | 
-|[GetGradientFill](./getgradientfill/) | Gets <see cref="GradientFill"/> object. | 
-|[GetTextureFill](./gettexturefill/) | Gets <see cref="TextureFill"/> object. | 
-|[GetSolidFill](./getsolidfill/) | Gets <see cref="SolidFill"/> object. | 
-|[GetPatternFill](./getpatternfill/) | Gets <see cref="PatternFill"/> object. | 
+|[GetGradientFill](./getgradientfill/) | Gets GradientFill object. | 
+|[GetTextureFill](./gettexturefill/) | Gets TextureFill object. | 
+|[GetSolidFill](./getsolidfill/) | Gets SolidFill object. | 
+|[GetPatternFill](./getpatternfill/) | Gets PatternFill object. | 
 |[GetGradientColorType](./getgradientcolortype/) | Returns the gradient color type for the specified fill. | 
 |[GetGradientStyle](./getgradientstyle/) | Returns the gradient style for the specified fill. | 
 |[GetGradientColor1](./getgradientcolor1/) | Returns the gradient color 1 for the specified fill. | 
@@ -56,5 +56,7 @@ type FillFormat struct  {
 |[SetPictureFormatType](./setpictureformattype/) | Gets and sets the picture format type. | 
 |[GetScale](./getscale/) | Gets and sets the picture format scale. | 
 |[SetScale](./setscale/) | Gets and sets the picture format scale. | 
+|[GetImageData](./getimagedata/) | Gets and sets the picture image data. | 
+|[SetImageData](./setimagedata/) | Gets and sets the picture image data. | 
 |[Equals](./equals/) |  | 
 |[GetHashCode](./gethashcode/) | Gets the hash code. | 

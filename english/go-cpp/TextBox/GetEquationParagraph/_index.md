@@ -24,5 +24,4 @@ func (instance *TextBox) GetEquationParagraph()  (*EquationNode,  error)
 ## See Also
 
 * Class [TextBox](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

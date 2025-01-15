@@ -10,7 +10,7 @@ url: /go-cpp/style/getfont/
 
 ## GetFont function
 
-Gets a <see cref="Font"/> object.
+Gets a Font object.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *Style) GetFont()  (*Font,  error)
 ## See Also
 
 * Class [Style](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

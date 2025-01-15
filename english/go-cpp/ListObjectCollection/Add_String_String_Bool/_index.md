@@ -24,5 +24,4 @@ func (instance *ListObjectCollection) Add_String_String_Bool(startcell string, e
 ## See Also
 
 * Class [ListObjectCollection](../)
-* Namespace [Aspose.Cells.Tables](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

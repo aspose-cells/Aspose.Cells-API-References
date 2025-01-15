@@ -24,5 +24,4 @@ func (instance *XpsSaveOptions) GetOnePagePerSheet()  (bool,  error)
 ## See Also
 
 * Class [XpsSaveOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

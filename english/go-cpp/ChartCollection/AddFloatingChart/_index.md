@@ -24,5 +24,4 @@ func (instance *ChartCollection) AddFloatingChart(type_ ChartType, left int32, t
 ## See Also
 
 * Class [ChartCollection](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

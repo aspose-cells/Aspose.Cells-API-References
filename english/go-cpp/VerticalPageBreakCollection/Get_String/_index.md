@@ -10,7 +10,7 @@ url: /go-cpp/verticalpagebreakcollection/get_string/
 
 ## Get_String function
 
-Gets the <see cref="VerticalPageBreak"/> element with the specified cell name.
+Gets the VerticalPageBreak element with the specified cell name.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *VerticalPageBreakCollection) Get_String(cellname string)  (*Vert
 ## See Also
 
 * Class [VerticalPageBreakCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

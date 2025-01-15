@@ -23,5 +23,4 @@ func (instance *SmartTagPropertyCollection) GetCount()  (int32,  error)
 ## See Also
 
 * Class [SmartTagPropertyCollection](../)
-* Namespace [Aspose.Cells.Markup](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

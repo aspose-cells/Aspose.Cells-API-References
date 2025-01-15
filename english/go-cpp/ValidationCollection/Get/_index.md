@@ -10,7 +10,7 @@ url: /go-cpp/validationcollection/get/
 
 ## Get function
 
-Gets the <see cref="Validation"/> element at the specified index.
+Gets the Validation element at the specified index.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *ValidationCollection) Get(index int32)  (*Validation,  error)
 ## See Also
 
 * Class [ValidationCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

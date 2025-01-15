@@ -24,5 +24,4 @@ func (instance *PivotOptions) SetDropZonesVisible(value bool)  error
 ## See Also
 
 * Class [PivotOptions](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

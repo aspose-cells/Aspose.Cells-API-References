@@ -10,7 +10,7 @@ url: /go-cpp/chart/getsidewall/
 
 ## GetSideWall function
 
-Returns a <see cref="Walls"/> object that represents the side wall of a 3-D chart.
+Returns a Walls object that represents the side wall of a 3-D chart.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *Chart) GetSideWall()  (*Walls,  error)
 ## See Also
 
 * Class [Chart](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

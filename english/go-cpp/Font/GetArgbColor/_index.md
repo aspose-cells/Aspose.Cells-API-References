@@ -24,5 +24,4 @@ func (instance *Font) GetArgbColor()  (int32,  error)
 ## See Also
 
 * Class [Font](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

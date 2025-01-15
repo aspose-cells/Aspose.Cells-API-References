@@ -10,7 +10,7 @@ url: /go-cpp/datamodelconnection/getcommandtype/
 
 ## GetCommandType function
 
-Returns <see cref="OLEDBCommandType"/> type.
+Returns OLEDBCommandType type.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *DataModelConnection) GetCommandType()  (OLEDBCommandType,  error
 ## See Also
 
 * Class [DataModelConnection](../)
-* Namespace [Aspose.Cells.ExternalConnections](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

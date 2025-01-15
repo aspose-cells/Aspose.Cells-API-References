@@ -24,5 +24,4 @@ func NewMetadataOptions(metadatatype MetadataType) ( *MetadataOptions, error)
 ## See Also
 
 * Class [MetadataOptions](../)
-* Namespace [Aspose.Cells.Metadata](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

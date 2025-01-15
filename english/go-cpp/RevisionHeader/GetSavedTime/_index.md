@@ -24,5 +24,4 @@ func (instance *RevisionHeader) GetSavedTime()  (*Date,  error)
 ## See Also
 
 * Class [RevisionHeader](../)
-* Namespace [Aspose.Cells.Revisions](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

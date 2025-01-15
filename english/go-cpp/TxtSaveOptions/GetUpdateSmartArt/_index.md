@@ -24,5 +24,4 @@ func (instance *TxtSaveOptions) GetUpdateSmartArt()  (bool,  error)
 ## See Also
 
 * Class [TxtSaveOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

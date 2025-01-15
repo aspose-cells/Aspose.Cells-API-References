@@ -24,5 +24,4 @@ func (instance *DataModelRelationship) GetPrimaryKeyColumn()  (string,  error)
 ## See Also
 
 * Class [DataModelRelationship](../)
-* Namespace [Aspose.Cells.DataModels](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

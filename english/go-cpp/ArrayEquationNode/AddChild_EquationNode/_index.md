@@ -24,5 +24,4 @@ func (instance *ArrayEquationNode) AddChild_EquationNode(node *EquationNode)  er
 ## See Also
 
 * Class [ArrayEquationNode](../)
-* Namespace [Aspose.Cells.Drawing.Equations](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *WorksheetCollection) Insert_Int_SheetType_String(index int32, sh
 ## See Also
 
 * Class [WorksheetCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

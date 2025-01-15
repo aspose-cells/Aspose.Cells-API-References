@@ -24,5 +24,4 @@ func (instance *Chart) GetSubTitle()  (*Title,  error)
 ## See Also
 
 * Class [Chart](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

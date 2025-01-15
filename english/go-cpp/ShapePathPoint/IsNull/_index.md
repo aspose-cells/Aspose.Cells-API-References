@@ -24,5 +24,4 @@ func (instance *ShapePathPoint) IsNull()  (bool,  error)
 ## See Also
 
 * Class [ShapePathPoint](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

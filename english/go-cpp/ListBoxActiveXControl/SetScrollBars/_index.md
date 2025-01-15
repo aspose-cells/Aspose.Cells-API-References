@@ -24,5 +24,4 @@ func (instance *ListBoxActiveXControl) SetScrollBars(value ControlScrollBarType)
 ## See Also
 
 * Class [ListBoxActiveXControl](../)
-* Namespace [Aspose.Cells.Drawing.ActiveXControls](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

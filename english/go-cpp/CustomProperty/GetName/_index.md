@@ -24,5 +24,4 @@ func (instance *CustomProperty) GetName()  (string,  error)
 ## See Also
 
 * Class [CustomProperty](../)
-* Namespace [Aspose.Cells.Properties](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

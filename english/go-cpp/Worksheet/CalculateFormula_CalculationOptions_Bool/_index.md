@@ -24,5 +24,4 @@ func (instance *Worksheet) CalculateFormula_CalculationOptions_Bool(options *Cal
 ## See Also
 
 * Class [Worksheet](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

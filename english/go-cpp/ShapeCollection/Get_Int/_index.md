@@ -10,7 +10,7 @@ url: /go-cpp/shapecollection/get_int/
 
 ## Get_Int function
 
-Gets the <see cref="Shape"/> object at the specific index in the list.
+Gets the Shape object at the specific index in the list.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *ShapeCollection) Get_Int(index int32)  (*Shape,  error)
 ## See Also
 
 * Class [ShapeCollection](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *ShapePathPointCollection) Get(index int32)  (*ShapePathPoint,  e
 ## See Also
 
 * Class [ShapePathPointCollection](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

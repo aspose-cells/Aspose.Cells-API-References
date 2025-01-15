@@ -30,4 +30,5 @@ type CellRichValue struct  {
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[GetErrorValue](./geterrorvalue/) | Gets the error value type of the cell. | 
+|[GetImage](./getimage/) | Gets the image data of the cell. | 
 |[GetAltText](./getalttext/) | Gets the alt text associated with the image. | 

@@ -10,7 +10,7 @@ url: /go-cpp/fontsettingcollection/get/
 
 ## Get function
 
-Gets the <see cref="FontSetting"/> by the index.
+Gets the FontSetting by the index.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *FontSettingCollection) Get(index int32)  (*FontSetting,  error)
 ## See Also
 
 * Class [FontSettingCollection](../)
-* Namespace [Aspose.Cells.Drawing.Texts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

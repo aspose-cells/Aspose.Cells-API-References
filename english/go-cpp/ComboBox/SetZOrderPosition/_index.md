@@ -24,5 +24,4 @@ func (instance *ComboBox) SetZOrderPosition(value int32)  error
 ## See Also
 
 * Class [ComboBox](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

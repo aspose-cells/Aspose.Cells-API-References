@@ -24,5 +24,4 @@ func (instance *ColorFilter) SetFilterByFillColor(value bool)  error
 ## See Also
 
 * Class [ColorFilter](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

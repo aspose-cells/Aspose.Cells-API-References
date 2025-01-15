@@ -24,5 +24,4 @@ func (instance *MarkdownSaveOptions) SetMergeAreas(value bool)  error
 ## See Also
 
 * Class [MarkdownSaveOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

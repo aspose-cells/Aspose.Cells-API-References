@@ -30,4 +30,6 @@ type PivotPageFields struct  {
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
+|[AddPageField](./addpagefield/) | Adds a page field. | 
 |[GetPageFieldCount](./getpagefieldcount/) | Gets the number of page fields. | 
+|[AddIdentify](./addidentify/) | Sets which item label in each page field to use to identify the data range.The pageItemIndex.Length must be equal to PageFieldCount, so please add the page field first. | 

@@ -24,5 +24,4 @@ func (instance *DefaultStyleSettings) SetFontName(value string)  error
 ## See Also
 
 * Class [DefaultStyleSettings](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

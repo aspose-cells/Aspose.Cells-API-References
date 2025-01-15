@@ -24,5 +24,4 @@ func (instance *RenderingWatermark) GetRotation()  (float32,  error)
 ## See Also
 
 * Class [RenderingWatermark](../)
-* Namespace [Aspose.Cells.Rendering](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

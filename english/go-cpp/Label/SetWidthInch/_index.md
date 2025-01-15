@@ -24,5 +24,4 @@ func (instance *Label) SetWidthInch(value float64)  error
 ## See Also
 
 * Class [Label](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

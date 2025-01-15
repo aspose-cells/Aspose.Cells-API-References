@@ -24,5 +24,4 @@ func (instance *WebExtensionShape) ToImage_String_ImageOrPrintOptions(imagefile 
 ## See Also
 
 * Class [WebExtensionShape](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

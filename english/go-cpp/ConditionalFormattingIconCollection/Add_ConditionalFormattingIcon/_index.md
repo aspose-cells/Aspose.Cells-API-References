@@ -10,7 +10,7 @@ url: /go-cpp/conditionalformattingiconcollection/add_conditionalformattingicon/
 
 ## Add_ConditionalFormattingIcon function
 
-Adds <see cref="ConditionalFormattingIcon"/> object.
+Adds ConditionalFormattingIcon object.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *ConditionalFormattingIconCollection) Add_ConditionalFormattingIc
 ## See Also
 
 * Class [ConditionalFormattingIconCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

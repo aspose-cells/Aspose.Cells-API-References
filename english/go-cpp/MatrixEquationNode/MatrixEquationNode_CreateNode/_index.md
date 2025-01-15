@@ -24,5 +24,4 @@ func MatrixEquationNode_CreateNode(equationtype EquationNodeType, workbook *Work
 ## See Also
 
 * Class [MatrixEquationNode](../)
-* Namespace [Aspose.Cells.Drawing.Equations](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -10,7 +10,7 @@ url: /go-cpp/dropbars/getborder/
 
 ## GetBorder function
 
-Gets the border <see cref="Line"/>.
+Gets the border Line.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *DropBars) GetBorder()  (*Line,  error)
 ## See Also
 
 * Class [DropBars](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

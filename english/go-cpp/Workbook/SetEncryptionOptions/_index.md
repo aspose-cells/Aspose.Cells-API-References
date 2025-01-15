@@ -24,5 +24,4 @@ func (instance *Workbook) SetEncryptionOptions(encryptiontype EncryptionType, ke
 ## See Also
 
 * Class [Workbook](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

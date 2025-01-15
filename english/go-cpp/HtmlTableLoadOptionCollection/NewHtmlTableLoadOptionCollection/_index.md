@@ -24,5 +24,4 @@ func NewHtmlTableLoadOptionCollection() ( *HtmlTableLoadOptionCollection, error)
 ## See Also
 
 * Class [HtmlTableLoadOptionCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

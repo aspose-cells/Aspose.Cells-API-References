@@ -24,5 +24,4 @@ func (instance *FormatCondition) GetFormula2_Bool_Bool_Int_Int(isr1c1 bool, islo
 ## See Also
 
 * Class [FormatCondition](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

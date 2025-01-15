@@ -24,5 +24,4 @@ func (instance *RevisionMergeConflict) GetId()  (int32,  error)
 ## See Also
 
 * Class [RevisionMergeConflict](../)
-* Namespace [Aspose.Cells.Revisions](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

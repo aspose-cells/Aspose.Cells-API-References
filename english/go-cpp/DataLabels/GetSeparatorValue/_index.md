@@ -24,5 +24,4 @@ func (instance *DataLabels) GetSeparatorValue()  (string,  error)
 ## See Also
 
 * Class [DataLabels](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

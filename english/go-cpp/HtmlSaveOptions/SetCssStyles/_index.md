@@ -10,7 +10,7 @@ url: /go-cpp/htmlsaveoptions/setcssstyles/
 
 ## SetCssStyles function
 
-Gets or sets the additional css styles for the formatter.Only works when <see cref="SaveAsSingleFile"/> is True.
+Gets or sets the additional css styles for the formatter.Only works when SaveAsSingleFile is True.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *HtmlSaveOptions) SetCssStyles(value string)  error
 ## See Also
 
 * Class [HtmlSaveOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

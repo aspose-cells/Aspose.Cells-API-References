@@ -23,5 +23,4 @@ func (instance *CustomFilterCollection) GetCount()  (int32,  error)
 ## See Also
 
 * Class [CustomFilterCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

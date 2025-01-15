@@ -10,7 +10,7 @@ url: /go-cpp/smarttagcollection/get/
 
 ## Get function
 
-Gets a <see cref="SmartTag"/> object at the specific index
+Gets a SmartTag object at the specific index
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *SmartTagCollection) Get(index int32)  (*SmartTag,  error)
 ## See Also
 
 * Class [SmartTagCollection](../)
-* Namespace [Aspose.Cells.Markup](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

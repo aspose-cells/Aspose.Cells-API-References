@@ -24,5 +24,4 @@ func (instance *VbaProjectReferenceCollection) AddProjectRefrernce(name string, 
 ## See Also
 
 * Class [VbaProjectReferenceCollection](../)
-* Namespace [Aspose.Cells.Vba](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *TxtLoadOptions) GetLoadStyleStrategy()  (TxtLoadStyleStrategy,  
 ## See Also
 
 * Class [TxtLoadOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -10,7 +10,7 @@ url: /go-cpp/rectangleshape/getworksheet/
 
 ## GetWorksheet function
 
-Gets the <see cref="Worksheet"/> object which contains this shape.
+Gets the Worksheet object which contains this shape.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *RectangleShape) GetWorksheet()  (*Worksheet,  error)
 ## See Also
 
 * Class [RectangleShape](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

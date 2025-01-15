@@ -24,5 +24,4 @@ func (instance *Axis) SetTickMarkSpacing(value int32)  error
 ## See Also
 
 * Class [Axis](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

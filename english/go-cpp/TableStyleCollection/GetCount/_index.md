@@ -23,5 +23,4 @@ func (instance *TableStyleCollection) GetCount()  (int32,  error)
 ## See Also
 
 * Class [TableStyleCollection](../)
-* Namespace [Aspose.Cells.Tables](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

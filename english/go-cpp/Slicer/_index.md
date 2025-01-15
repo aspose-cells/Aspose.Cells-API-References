@@ -47,7 +47,7 @@ type Slicer struct  {
 |[SetLockedPosition](./setlockedposition/) | Indicates whether the specified slicer can be moved or resized by using the user interface. | 
 |[Refresh](./refresh/) | Refreshing the slicer.Meanwhile, Refreshing and Calculating  relative PivotTables. | 
 |[GetSlicerCache](./getslicercache/) | Returns the SlicerCache object associated with the slicer. Read-only. | 
-|[GetParent](./getparent/) | Returns the <see cref="Worksheet"/> object which contains this slicer. Read-only. | 
+|[GetParent](./getparent/) | Returns the Worksheet object which contains this slicer. Read-only. | 
 |[GetStyleType](./getstyletype/) | Specify the type of Built-in slicer stylethe default type is SlicerStyleLight1 | 
 |[SetStyleType](./setstyletype/) | Specify the type of Built-in slicer stylethe default type is SlicerStyleLight1 | 
 |[GetName](./getname/) | Returns or sets the name of the specified slicer | 

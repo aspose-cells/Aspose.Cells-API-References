@@ -24,5 +24,4 @@ func (instance *Validation) RemoveACell(row int32, column int32)  error
 ## See Also
 
 * Class [Validation](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

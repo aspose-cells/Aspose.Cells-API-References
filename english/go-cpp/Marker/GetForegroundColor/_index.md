@@ -24,5 +24,4 @@ func (instance *Marker) GetForegroundColor()  (*Color,  error)
 ## See Also
 
 * Class [Marker](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

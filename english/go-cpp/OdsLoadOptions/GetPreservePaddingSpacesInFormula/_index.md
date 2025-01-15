@@ -24,5 +24,4 @@ func (instance *OdsLoadOptions) GetPreservePaddingSpacesInFormula()  (bool,  err
 ## See Also
 
 * Class [OdsLoadOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

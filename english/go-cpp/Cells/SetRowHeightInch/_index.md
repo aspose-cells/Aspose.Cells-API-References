@@ -24,5 +24,4 @@ func (instance *Cells) SetRowHeightInch(row int32, inches float64)  error
 ## See Also
 
 * Class [Cells](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

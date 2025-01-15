@@ -50,8 +50,8 @@ type TxtSaveOptions struct  {
 |[SetKeepSeparatorsForBlankRow](./setkeepseparatorsforblankrow/) | Indicates whether separators should be output for blank row.Default value is false so by default the content for blank row will be empty. | 
 |[GetExportArea](./getexportarea/) | The range of cells to be exported. | 
 |[SetExportArea](./setexportarea/) | The range of cells to be exported. | 
-|[GetExportQuotePrefix](./getexportquoteprefix/) | Indicates whether the single quote sign should be exported as part of the value of one cellwhen <see cref="Style.QuotePrefix"/> is true for it. Default is false. | 
-|[SetExportQuotePrefix](./setexportquoteprefix/) | Indicates whether the single quote sign should be exported as part of the value of one cellwhen <see cref="Style.QuotePrefix"/> is true for it. Default is false. | 
+|[GetExportQuotePrefix](./getexportquoteprefix/) | Indicates whether the single quote sign should be exported as part of the value of one cellwhen Style.QuotePrefix is true for it. Default is false. | 
+|[SetExportQuotePrefix](./setexportquoteprefix/) | Indicates whether the single quote sign should be exported as part of the value of one cellwhen Style.QuotePrefix is true for it. Default is false. | 
 |[GetExportAllSheets](./getexportallsheets/) | Indicates whether exporting all sheets to the text file.If it is false, only export the activesheet, just like MS Excel. | 
 |[SetExportAllSheets](./setexportallsheets/) | Indicates whether exporting all sheets to the text file.If it is false, only export the activesheet, just like MS Excel. | 
 |[GetSaveFormat](./getsaveformat/) | Gets the save file format. | 

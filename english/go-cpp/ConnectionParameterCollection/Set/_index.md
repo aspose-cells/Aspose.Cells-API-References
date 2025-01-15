@@ -10,7 +10,7 @@ url: /go-cpp/connectionparametercollection/set/
 
 ## Set function
 
-Gets the <see cref="ConnectionParameter"/> element at the specified index.
+Gets the ConnectionParameter element at the specified index.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *ConnectionParameterCollection) Set(value *ConnectionParameter, i
 ## See Also
 
 * Class [ConnectionParameterCollection](../)
-* Namespace [Aspose.Cells.ExternalConnections](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

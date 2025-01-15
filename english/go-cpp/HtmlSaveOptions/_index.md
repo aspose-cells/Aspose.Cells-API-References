@@ -141,8 +141,8 @@ type HtmlSaveOptions struct  {
 |[SetIsJsBrowserCompatible](./setisjsbrowsercompatible/) | Indicates whether JavaScript is compatible with browsers that do not support JavaScript.The default value is true. | 
 |[IsMobileCompatible](./ismobilecompatible/) | Indicates whether the output HTML is compatible with mobile devices.The default value is false. | 
 |[SetIsMobileCompatible](./setismobilecompatible/) | Indicates whether the output HTML is compatible with mobile devices.The default value is false. | 
-|[GetCssStyles](./getcssstyles/) | Gets or sets the additional css styles for the formatter.Only works when <see cref="SaveAsSingleFile"/> is True. | 
-|[SetCssStyles](./setcssstyles/) | Gets or sets the additional css styles for the formatter.Only works when <see cref="SaveAsSingleFile"/> is True. | 
+|[GetCssStyles](./getcssstyles/) | Gets or sets the additional css styles for the formatter.Only works when SaveAsSingleFile is True. | 
+|[SetCssStyles](./setcssstyles/) | Gets or sets the additional css styles for the formatter.Only works when SaveAsSingleFile is True. | 
 |[GetHideOverflowWrappedText](./gethideoverflowwrappedtext/) | Indicates whether to hide overflow text when the cell format is set to wrap text.The default value is false | 
 |[SetHideOverflowWrappedText](./sethideoverflowwrappedtext/) | Indicates whether to hide overflow text when the cell format is set to wrap text.The default value is false | 
 |[IsBorderCollapsed](./isbordercollapsed/) | Indicates whether the table borders are collapsed.The default value is true. | 
@@ -155,6 +155,8 @@ type HtmlSaveOptions struct  {
 |[SetCellNameAttribute](./setcellnameattribute/) | Specifies the attribute that indicates the CellName to be written.(e.g. If the value is "id", then for cell "A1", the output will be:&lt;td id='A1'&gt;).The default value is null. | 
 |[GetDisableCss](./getdisablecss/) | Indicates whether only inline styles are applied, without relying on CSS.The default value is false. | 
 |[SetDisableCss](./setdisablecss/) | Indicates whether only inline styles are applied, without relying on CSS.The default value is false. | 
+|[GetEnableCssCustomProperties](./getenablecsscustomproperties/) | Optimize the output of html by using CSS custom properties. For example, for the scenario that there are multiple occurences for one base64 image, with custom property the image data only needs to be saved once so the performance of the resultant html can be improved.The default value is false. | 
+|[SetEnableCssCustomProperties](./setenablecsscustomproperties/) | Optimize the output of html by using CSS custom properties. For example, for the scenario that there are multiple occurences for one base64 image, with custom property the image data only needs to be saved once so the performance of the resultant html can be improved.The default value is false. | 
 |[GetSaveFormat](./getsaveformat/) | Gets the save file format. | 
 |[GetClearData](./getcleardata/) | Make the workbook empty after saving the file. | 
 |[SetClearData](./setcleardata/) | Make the workbook empty after saving the file. | 

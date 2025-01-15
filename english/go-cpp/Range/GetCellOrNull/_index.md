@@ -10,7 +10,7 @@ url: /go-cpp/range/getcellornull/
 
 ## GetCellOrNull function
 
-Gets <see cref="Cell"/> object or null in this range.
+Gets Cell object or null in this range.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *Range) GetCellOrNull(rowoffset int32, columnoffset int32)  (*Cel
 ## See Also
 
 * Class [Range](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

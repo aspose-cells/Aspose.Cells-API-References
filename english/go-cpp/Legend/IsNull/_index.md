@@ -24,5 +24,4 @@ func (instance *Legend) IsNull()  (bool,  error)
 ## See Also
 
 * Class [Legend](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -10,7 +10,7 @@ url: /go-cpp/powerqueryformulacollection/get_int/
 
 ## Get_Int function
 
-Gets <see cref=" PowerQueryFormula"/> by the index in the list.
+Gets  PowerQueryFormula by the index in the list.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *PowerQueryFormulaCollection) Get_Int(index int32)  (*PowerQueryF
 ## See Also
 
 * Class [PowerQueryFormulaCollection](../)
-* Namespace [Aspose.Cells.QueryTables](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

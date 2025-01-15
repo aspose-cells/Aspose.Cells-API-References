@@ -24,5 +24,4 @@ func (instance *OdsSaveOptions) GetSortNames()  (bool,  error)
 ## See Also
 
 * Class [OdsSaveOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

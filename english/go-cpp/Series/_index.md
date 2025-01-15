@@ -63,7 +63,7 @@ type Series struct  {
 |[GetDataLabels](./getdatalabels/) | Represents the DataLabels object for the specified ASeries. | 
 |[GetType](./gettype/) | Gets or sets a data series' type. | 
 |[SetType](./settype/) | Gets or sets a data series' type. | 
-|[GetMarker](./getmarker/) | Gets the <see cref="Marker">marker</see>. | 
+|[GetMarker](./getmarker/) | Gets the Marker</see>. | 
 |[GetPlotOnSecondAxis](./getplotonsecondaxis/) | Indicates if this series is plotted on second value axis. | 
 |[SetPlotOnSecondAxis](./setplotonsecondaxis/) | Indicates if this series is plotted on second value axis. | 
 |[GetXErrorBar](./getxerrorbar/) | Represents X direction error bar of the series. | 
@@ -76,11 +76,11 @@ type Series struct  {
 |[GetSeriesLines](./getserieslines/) | Returns a SeriesLines object that represents the series lines for a stacked bar chart or a stacked column chart.Applies only to stacked bar and stacked column charts. | 
 |[GetHasDropLines](./gethasdroplines/) | True if the chart has drop lines.Applies only to line chart or area charts. | 
 |[SetHasDropLines](./sethasdroplines/) | True if the chart has drop lines.Applies only to line chart or area charts. | 
-|[GetDropLines](./getdroplines/) | Returns a <see cref="Line"/> object that represents the drop lines for a series on the line chart or area chart.Applies only to line chart or area charts. | 
+|[GetDropLines](./getdroplines/) | Returns a Line object that represents the drop lines for a series on the line chart or area chart.Applies only to line chart or area charts. | 
 |[GetHasUpDownBars](./gethasupdownbars/) | True if a line chart has up and down bars.Applies only to line charts. | 
 |[SetHasUpDownBars](./sethasupdownbars/) | True if a line chart has up and down bars.Applies only to line charts. | 
 |[GetUpBars](./getupbars/) | Returns an DropBars object that represents the up bars on a line chart.Applies only to line charts. | 
-|[GetDownBars](./getdownbars/) | Returns a <see cref="DropBars"/> object that represents the down bars on a line chart.Applies only to line charts. | 
+|[GetDownBars](./getdownbars/) | Returns a DropBars object that represents the down bars on a line chart.Applies only to line charts. | 
 |[IsColorVaried](./iscolorvaried/) | Represents if the color of points is varied.The chart must contain only one series. | 
 |[SetIsColorVaried](./setiscolorvaried/) | Represents if the color of points is varied.The chart must contain only one series. | 
 |[GetGapWidth](./getgapwidth/) | Returns or sets the space between bar or column clusters, as a percentage of the bar or column width.The value of this property must be between 0 and 500. | 
@@ -112,4 +112,4 @@ type Series struct  {
 |[SetHasLeaderLines](./sethasleaderlines/) | True if the series has leader lines. | 
 |[GetLeaderLines](./getleaderlines/) | Represents leader lines on a chart. Leader lines connect data labels to data points.This object isn’t a collection; there’s no object that represents a single leader line. | 
 |[GetLegendEntry](./getlegendentry/) | Gets the legend entry according to this series. | 
-|[GetShapeProperties](./getshapeproperties/) | Gets the <see cref="ShapePropertyCollection"/> object that holds the visual shape properties of the Series. | 
+|[GetShapeProperties](./getshapeproperties/) | Gets the ShapePropertyCollection object that holds the visual shape properties of the Series. | 

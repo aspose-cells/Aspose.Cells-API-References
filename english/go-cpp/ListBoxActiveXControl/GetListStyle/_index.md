@@ -24,5 +24,4 @@ func (instance *ListBoxActiveXControl) GetListStyle()  (ControlListStyle,  error
 ## See Also
 
 * Class [ListBoxActiveXControl](../)
-* Namespace [Aspose.Cells.Drawing.ActiveXControls](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

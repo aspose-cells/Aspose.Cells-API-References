@@ -24,5 +24,4 @@ func (instance *ListColumnCollection) Get_String(name string)  (*ListColumn,  er
 ## See Also
 
 * Class [ListColumnCollection](../)
-* Namespace [Aspose.Cells.Tables](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

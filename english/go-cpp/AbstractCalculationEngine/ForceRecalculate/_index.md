@@ -24,5 +24,4 @@ func (instance *AbstractCalculationEngine) ForceRecalculate(functionname string)
 ## See Also
 
 * Class [AbstractCalculationEngine](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

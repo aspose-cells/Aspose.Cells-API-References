@@ -24,5 +24,4 @@ func (instance *FormatCondition) GetStopIfTrue()  (bool,  error)
 ## See Also
 
 * Class [FormatCondition](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

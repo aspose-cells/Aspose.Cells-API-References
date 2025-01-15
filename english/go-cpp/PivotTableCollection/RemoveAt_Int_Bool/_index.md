@@ -24,5 +24,4 @@ func (instance *PivotTableCollection) RemoveAt_Int_Bool(index int32, keepdata bo
 ## See Also
 
 * Class [PivotTableCollection](../)
-* Namespace [Aspose.Cells.Pivot](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

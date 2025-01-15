@@ -24,5 +24,4 @@ func (instance *MarkdownSaveOptions) GetSaveFormat()  (SaveFormat,  error)
 ## See Also
 
 * Class [MarkdownSaveOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

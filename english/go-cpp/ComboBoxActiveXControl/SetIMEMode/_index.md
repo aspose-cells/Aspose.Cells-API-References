@@ -24,5 +24,4 @@ func (instance *ComboBoxActiveXControl) SetIMEMode(value InputMethodEditorMode) 
 ## See Also
 
 * Class [ComboBoxActiveXControl](../)
-* Namespace [Aspose.Cells.Drawing.ActiveXControls](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

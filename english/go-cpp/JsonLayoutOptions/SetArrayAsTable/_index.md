@@ -24,5 +24,4 @@ func (instance *JsonLayoutOptions) SetArrayAsTable(value bool)  error
 ## See Also
 
 * Class [JsonLayoutOptions](../)
-* Namespace [Aspose.Cells.Utility](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

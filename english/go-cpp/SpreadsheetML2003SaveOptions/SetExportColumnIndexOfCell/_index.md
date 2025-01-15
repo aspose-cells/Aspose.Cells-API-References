@@ -24,5 +24,4 @@ func (instance *SpreadsheetML2003SaveOptions) SetExportColumnIndexOfCell(value b
 ## See Also
 
 * Class [SpreadsheetML2003SaveOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

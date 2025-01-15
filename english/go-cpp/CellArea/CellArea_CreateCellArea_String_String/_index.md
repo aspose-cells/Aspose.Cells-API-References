@@ -24,5 +24,4 @@ func CellArea_CreateCellArea_String_String(startcellname string, endcellname str
 ## See Also
 
 * Class [CellArea](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

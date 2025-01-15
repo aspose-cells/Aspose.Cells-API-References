@@ -29,6 +29,8 @@ type FileFormatUtil struct  {
 | Method | Description |
 | --- | --- |
 |[FileFormatUtil_DetectFileFormat_Stream](./fileformatutil_detectfileformat_stream/) | Detects and returns the information about a format of an excel stored in a stream. | 
+|[FileFormatUtil_DetectFileFormat_Stream_String](./fileformatutil_detectfileformat_stream_string/) | Detects and returns the information about a format of an excel stored in a stream. | 
+|[FileFormatUtil_VerifyPassword](./fileformatutil_verifypassword/) | Detects and returns the information about a format of an excel stored in a stream. | 
 |[FileFormatUtil_DetectFileFormat_String](./fileformatutil_detectfileformat_string/) | Detects and returns the information about a format of an excel stored in a file. | 
 |[FileFormatUtil_DetectFileFormat_String_String](./fileformatutil_detectfileformat_string_string/) | Detects and returns the information about a format of an excel stored in a file. | 
 |[FileFormatUtil_FileFormatToSaveFormat](./fileformatutil_fileformattosaveformat/) | Converting file format to save format. | 

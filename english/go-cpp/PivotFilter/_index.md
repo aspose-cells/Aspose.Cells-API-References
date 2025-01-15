@@ -34,6 +34,9 @@ type PivotFilter struct  {
 |[GetFilterType](./getfiltertype/) | Gets the autofilter type of the pivot filter. | 
 |[GetFieldIndex](./getfieldindex/) | Gets the index of source field which this pivot filter is applied to. | 
 |[GetTop10Value](./gettop10value/) | Gets top 10 setting of the filter. | 
+|[GetLabels](./getlabels/) | Gets labels of the caption filter. | 
+|[GetNumberValues](./getnumbervalues/) | Gets values of the number filter. | 
+|[GetDateTimeValues](./getdatetimevalues/) | Gets values of the number filter. | 
 |[GetFilterCategory](./getfiltercategory/) | Gets the category of this filter. | 
 |[GetValue1](./getvalue1/) | Gets the string value1 of the label pivot filter. | 
 |[SetValue1](./setvalue1/) | Gets the string value1 of the label pivot filter. | 

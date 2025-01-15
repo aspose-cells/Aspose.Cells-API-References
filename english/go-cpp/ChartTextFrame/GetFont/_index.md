@@ -10,7 +10,7 @@ url: /go-cpp/charttextframe/getfont/
 
 ## GetFont function
 
-Gets a <see cref="Font"/> object of the specified ChartFrame object.
+Gets a Font object of the specified ChartFrame object.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *ChartTextFrame) GetFont()  (*Font,  error)
 ## See Also
 
 * Class [ChartTextFrame](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

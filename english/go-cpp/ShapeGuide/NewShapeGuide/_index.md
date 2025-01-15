@@ -24,5 +24,4 @@ func NewShapeGuide(src *BaseShapeGuide) ( *ShapeGuide, error)
 ## See Also
 
 * Class [ShapeGuide](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

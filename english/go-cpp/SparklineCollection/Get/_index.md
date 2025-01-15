@@ -10,7 +10,7 @@ url: /go-cpp/sparklinecollection/get/
 
 ## Get function
 
-Gets the <see cref="Sparkline"/> element at the specified index.
+Gets the Sparkline element at the specified index.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *SparklineCollection) Get(index int32)  (*Sparkline,  error)
 ## See Also
 
 * Class [SparklineCollection](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

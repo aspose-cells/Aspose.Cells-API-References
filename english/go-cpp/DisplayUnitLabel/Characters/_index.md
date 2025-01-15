@@ -24,5 +24,4 @@ func (instance *DisplayUnitLabel) Characters(startindex int32, length int32)  (*
 ## See Also
 
 * Class [DisplayUnitLabel](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

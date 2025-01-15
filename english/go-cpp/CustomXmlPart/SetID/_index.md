@@ -24,5 +24,4 @@ func (instance *CustomXmlPart) SetID(value string)  error
 ## See Also
 
 * Class [CustomXmlPart](../)
-* Namespace [Aspose.Cells.Markup](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

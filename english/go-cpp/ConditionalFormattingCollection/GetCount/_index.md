@@ -23,5 +23,4 @@ func (instance *ConditionalFormattingCollection) GetCount()  (int32,  error)
 ## See Also
 
 * Class [ConditionalFormattingCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

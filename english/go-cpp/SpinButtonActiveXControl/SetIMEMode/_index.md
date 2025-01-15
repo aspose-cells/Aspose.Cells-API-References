@@ -24,5 +24,4 @@ func (instance *SpinButtonActiveXControl) SetIMEMode(value InputMethodEditorMode
 ## See Also
 
 * Class [SpinButtonActiveXControl](../)
-* Namespace [Aspose.Cells.Drawing.ActiveXControls](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

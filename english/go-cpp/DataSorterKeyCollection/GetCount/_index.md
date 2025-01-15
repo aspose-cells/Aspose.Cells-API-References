@@ -23,5 +23,4 @@ func (instance *DataSorterKeyCollection) GetCount()  (int32,  error)
 ## See Also
 
 * Class [DataSorterKeyCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

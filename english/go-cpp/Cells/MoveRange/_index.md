@@ -24,5 +24,4 @@ func (instance *Cells) MoveRange(sourcearea *CellArea, destrow int32, destcolumn
 ## See Also
 
 * Class [Cells](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

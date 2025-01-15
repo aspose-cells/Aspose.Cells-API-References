@@ -53,6 +53,8 @@ type PageSetup struct  {
 |[SetHeaderMargin](./setheadermargin/) | Represents the distance from the top of the page to the header, in unit of centimeters. | 
 |[GetHeaderMarginInch](./getheadermargininch/) | Represents the distance from the top of the page to the header, in unit of inches. | 
 |[SetHeaderMarginInch](./setheadermargininch/) | Represents the distance from the top of the page to the header, in unit of inches. | 
+|[GetPrinterSettings](./getprintersettings/) | Gets and sets the settings of the default printer. | 
+|[SetPrinterSettings](./setprintersettings/) | Gets and sets the settings of the default printer. | 
 |[GetLeftMargin](./getleftmargin/) | Represents the size of the left margin, in unit of centimeters. | 
 |[SetLeftMargin](./setleftmargin/) | Represents the size of the left margin, in unit of centimeters. | 
 |[GetLeftMarginInch](./getleftmargininch/) | Represents the size of the left margin, in unit of inches. | 
@@ -106,6 +108,7 @@ type PageSetup struct  {
 |[SetPrintCopies](./setprintcopies/) | Get and sets number of copies to print. | 
 |[ClearHeaderFooter](./clearheaderfooter/) | Clears header and footer setting. | 
 |[GetHeader](./getheader/) | Gets a script formatting the header of an Excel file. | 
+|[GetCommands](./getcommands/) | Gets all commands of header or footer. | 
 |[GetFooter](./getfooter/) | Gets a script formatting the footer of an Excel file. | 
 |[SetHeader](./setheader/) | Sets a script formatting the header of an Excel file. | 
 |[SetFooter](./setfooter/) | Sets a script formatting the footer of an Excel file. | 
@@ -125,5 +128,8 @@ type PageSetup struct  {
 |[SetIsHFScaleWithDoc](./setishfscalewithdoc/) | Indicates whether header and footer are scaled with document scaling.Only applies for Excel 2007. | 
 |[IsHFAlignMargins](./ishfalignmargins/) | Indicates whether header and footer margins are aligned with the page margins.If this property is true, the left header and footer will be aligned with the left margin,and the right header and footer will be aligned with the right margin.This option is enabled by default. | 
 |[SetIsHFAlignMargins](./setishfalignmargins/) | Indicates whether header and footer margins are aligned with the page margins.If this property is true, the left header and footer will be aligned with the left margin,and the right header and footer will be aligned with the right margin.This option is enabled by default. | 
-|[GetPicture_Bool_Int](./getpicture_bool_int/) | Gets the <see cref="Picture"/> object of the header / footer. | 
-|[GetPicture_Bool_Bool_Bool_Int](./getpicture_bool_bool_bool_int/) | Gets the <see cref="Picture"/> object of the header / footer. | 
+|[SetHeaderPicture](./setheaderpicture/) | Sets an image in the header of a worksheet. | 
+|[SetFooterPicture](./setfooterpicture/) | Sets an image in the footer of a worksheet. | 
+|[SetPicture](./setpicture/) | Sets an image in the header/footer of a worksheet. | 
+|[GetPicture_Bool_Int](./getpicture_bool_int/) | Gets the Picture object of the header / footer. | 
+|[GetPicture_Bool_Bool_Bool_Int](./getpicture_bool_bool_bool_int/) | Gets the Picture object of the header / footer. | 

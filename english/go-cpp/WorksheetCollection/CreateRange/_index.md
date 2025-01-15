@@ -10,7 +10,7 @@ url: /go-cpp/worksheetcollection/createrange/
 
 ## CreateRange function
 
-Creates a <see cref="Range"/> object from an address of the range.
+Creates a Range object from an address of the range.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *WorksheetCollection) CreateRange(address string, sheetindex int3
 ## See Also
 
 * Class [WorksheetCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

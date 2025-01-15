@@ -29,9 +29,9 @@ type SparklineGroupCollection struct  {
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
-|[Get](./get/) | Gets the <see cref="SparklineGroup"/> element at the specified index. | 
-|[Add_SparklineType](./add_sparklinetype/) | Adds an <see cref="SparklineGroup"/> with a <see cref="Sparkline"/> to the collection. | 
-|[Add_SparklineType_String_Bool_CellArea](./add_sparklinetype_string_bool_cellarea/) | Adds an <see cref="SparklineGroup"/> with <see cref="Sparkline"/> to the collection. | 
+|[Get](./get/) | Gets the SparklineGroup element at the specified index. | 
+|[Add_SparklineType](./add_sparklinetype/) | Adds an SparklineGroup with a Sparkline to the collection. | 
+|[Add_SparklineType_String_Bool_CellArea](./add_sparklinetype_string_bool_cellarea/) | Adds an SparklineGroup with Sparkline to the collection. | 
 |[ClearSparklines](./clearsparklines/) | Clears the sparklines that is inside an area of cells. | 
 |[ClearSparklineGroups](./clearsparklinegroups/) | Clears the sparkline groups that overlaps an area of cells. | 
 |[GetCount](./getcount/) |  | 

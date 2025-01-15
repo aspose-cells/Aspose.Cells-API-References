@@ -55,6 +55,8 @@ type SqlScriptSaveOptions struct  {
 |[SetTableName](./settablename/) | Gets and sets the table name. | 
 |[GetExportAsString](./getexportasstring/) | Indicates whether exporting all data as string value. | 
 |[SetExportAsString](./setexportasstring/) | Indicates whether exporting all data as string value. | 
+|[GetSheetIndexes](./getsheetindexes/) | Represents the indexes of exported sheets. | 
+|[SetSheetIndexes](./setsheetindexes/) | Represents the indexes of exported sheets. | 
 |[GetExportArea](./getexportarea/) | Gets or sets the exporting range. | 
 |[SetExportArea](./setexportarea/) | Gets or sets the exporting range. | 
 |[GetHasHeaderRow](./gethasheaderrow/) | Indicates whether the range contains header row. | 

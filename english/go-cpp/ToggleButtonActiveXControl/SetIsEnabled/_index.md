@@ -24,5 +24,4 @@ func (instance *ToggleButtonActiveXControl) SetIsEnabled(value bool)  error
 ## See Also
 
 * Class [ToggleButtonActiveXControl](../)
-* Namespace [Aspose.Cells.Drawing.ActiveXControls](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

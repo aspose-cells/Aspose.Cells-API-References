@@ -24,5 +24,4 @@ func (instance *ErrorBar) SetDashType(value MsoLineDashStyle)  error
 ## See Also
 
 * Class [ErrorBar](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

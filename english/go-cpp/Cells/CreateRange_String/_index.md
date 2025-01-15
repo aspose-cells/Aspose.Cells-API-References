@@ -10,7 +10,7 @@ url: /go-cpp/cells/createrange_string/
 
 ## CreateRange_String function
 
-Creates a <see cref="Range"/> object from an address of the range.
+Creates a Range object from an address of the range.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *Cells) CreateRange_String(address string)  (*Range,  error)
 ## See Also
 
 * Class [Cells](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

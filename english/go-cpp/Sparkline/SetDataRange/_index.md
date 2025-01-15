@@ -24,5 +24,4 @@ func (instance *Sparkline) SetDataRange(value string)  error
 ## See Also
 
 * Class [Sparkline](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

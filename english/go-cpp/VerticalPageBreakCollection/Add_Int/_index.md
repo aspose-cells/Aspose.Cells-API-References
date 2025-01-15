@@ -24,5 +24,4 @@ func (instance *VerticalPageBreakCollection) Add_Int(column int32)  (int32,  err
 ## See Also
 
 * Class [VerticalPageBreakCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

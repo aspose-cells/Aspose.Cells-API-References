@@ -24,5 +24,4 @@ func NewWebExtensionReferenceCollection() ( *WebExtensionReferenceCollection, er
 ## See Also
 
 * Class [WebExtensionReferenceCollection](../)
-* Namespace [Aspose.Cells.WebExtensions](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

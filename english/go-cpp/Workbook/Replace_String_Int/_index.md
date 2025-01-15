@@ -24,5 +24,4 @@ func (instance *Workbook) Replace_String_Int(placeholder string, newvalue int32)
 ## See Also
 
 * Class [Workbook](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

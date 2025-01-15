@@ -24,5 +24,4 @@ func (instance *Spinner) SetIncrementalChange(value int32)  error
 ## See Also
 
 * Class [Spinner](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

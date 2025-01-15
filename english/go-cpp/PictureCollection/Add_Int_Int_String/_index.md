@@ -24,5 +24,4 @@ func (instance *PictureCollection) Add_Int_Int_String(upperleftrow int32, upperl
 ## See Also
 
 * Class [PictureCollection](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

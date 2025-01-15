@@ -59,6 +59,7 @@ type Cell struct  {
 |[GetHeightOfValue](./getheightofvalue/) | Gets the height of the value in unit of pixels. | 
 |[GetDisplayStyle](./getdisplaystyle/) | Gets the display style of the cell.If this cell is also affected by other settings such as conditional formatting, list objects, etc.,then the display style may be different from cell.GetStyle(). | 
 |[GetDisplayStyle_Bool](./getdisplaystyle_bool/) | Gets the display style of the cell.If the cell is conditional formatted, the display style is not same as the cell.GetStyle(). | 
+|[GetFormatConditions](./getformatconditions/) | Gets format conditions which applies to this cell. | 
 |[GetStyle](./getstyle/) | Gets the cell style. | 
 |[GetStyle_Bool](./getstyle_bool/) | If checkBorders is true, check whether other cells' borders will effect the style of this cell. | 
 |[SetStyle_Style](./setstyle_style/) | Sets the cell style. | 
@@ -66,12 +67,12 @@ type Cell struct  {
 |[SetStyle_Style_StyleFlag](./setstyle_style_styleflag/) | Apply the cell style based on flags. | 
 |[GetHasCustomStyle](./gethascustomstyle/) | Indicates whether this cell has custom style settings(different from the default one inheritedfrom corresponding row, column, or workbook). | 
 |[GetSharedStyleIndex](./getsharedstyleindex/) | Gets cell's shared style index in the style pool. | 
-|[GetFormula](./getformula/) | Gets or sets a formula of the <see cref="Cell"/>. | 
-|[SetFormula_String](./setformula_string/) | Gets or sets a formula of the <see cref="Cell"/>. | 
+|[GetFormula](./getformula/) | Gets or sets a formula of the Cell. | 
+|[SetFormula_String](./setformula_string/) | Gets or sets a formula of the Cell. | 
 |[GetFormulaLocal](./getformulalocal/) | Get the locale formatted formula of the cell. | 
 |[SetFormulaLocal](./setformulalocal/) | Get the locale formatted formula of the cell. | 
-|[GetR1C1Formula](./getr1c1formula/) | Gets or sets a R1C1 formula of the <see cref="Cell"/>. | 
-|[SetR1C1Formula](./setr1c1formula/) | Gets or sets a R1C1 formula of the <see cref="Cell"/>. | 
+|[GetR1C1Formula](./getr1c1formula/) | Gets or sets a R1C1 formula of the Cell. | 
+|[SetR1C1Formula](./setr1c1formula/) | Gets or sets a R1C1 formula of the Cell. | 
 |[SetFormula_String_Object](./setformula_string_object/) | Set the formula and the value(calculated result) of the formula. | 
 |[SetFormula_String_FormulaParseOptions](./setformula_string_formulaparseoptions/) | Set the formula and the value(calculated result) of the formula. | 
 |[GetFormula_Bool_Bool](./getformula_bool_bool/) | Get the formula of this cell. | 
@@ -82,6 +83,7 @@ type Cell struct  {
 |[SetSharedFormula_String_Int_Int_FormulaParseOptions](./setsharedformula_string_int_int_formulaparseoptions/) | Sets shared formulas to a range of cells. | 
 |[GetContainsExternalLink](./getcontainsexternallink/) | Indicates whether this cell contains an external link.Only applies when the cell is a formula cell. | 
 |[GetPrecedents](./getprecedents/) | Gets all references appearing in this cell's formula. | 
+|[GetDependents](./getdependents/) | Get all cells whose formula references to this cell directly. | 
 |[IsArrayHeader](./isarrayheader/) | Indicates the cell's formula is an array formulaand it is the first cell of the array. | 
 |[IsDynamicArrayFormula](./isdynamicarrayformula/) | Indicates whether the cell's formula is dynamic array formula(true) or legacy array formula(false). | 
 |[GetArrayRange](./getarrayrange/) | Gets the array range if the cell's formula is an array formula. | 
@@ -98,14 +100,16 @@ type Cell struct  {
 |[Replace](./replace/) | Replace text of the cell with options. | 
 |[InsertText](./inserttext/) | Insert some characters to the cell.If the cell is rich formatted, this method could keep the original formatting. | 
 |[IsRichText](./isrichtext/) | Indicates whether the string value of this cell is a rich formatted text. | 
+|[GetCharacters](./getcharacters/) | Returns all Characters objectsthat represents a range of characters within the cell text. | 
+|[GetCharacters_Bool](./getcharacters_bool/) | Returns all Characters objectsthat represents a range of characters within the cell text. | 
 |[IsMerged](./ismerged/) | Checks if a cell is part of a merged range or not. | 
-|[GetMergedRange](./getmergedrange/) | Returns a <see cref="Range"/> object which represents a merged range. | 
+|[GetMergedRange](./getmergedrange/) | Returns a Range object which represents a merged range. | 
 |[GetComment](./getcomment/) | Gets the comment of this cell. | 
 |[GetHtmlString](./gethtmlstring/) | Gets and sets the html string which contains data and some formats in this cell. | 
 |[SetHtmlString](./sethtmlstring/) | Gets and sets the html string which contains data and some formats in this cell. | 
 |[GetHtmlString_Bool](./gethtmlstring_bool/) | Gets the html string which contains data and some formats in this cell. | 
 |[ToString](./tostring/) | Returns a string represents the current Cell object. | 
-|[ToJson](./tojson/) | Convert <see cref="Cell"/> to JSON struct data. | 
+|[ToJson](./tojson/) | Convert Cell to JSON struct data. | 
 |[Equals_Object](./equals_object/) | Checks whether this object refers to the same cell with another. | 
 |[GetHashCode](./gethashcode/) | Serves as a hash function for a particular type. | 
 |[Equals_Cell](./equals_cell/) | Checks whether this object refers to the same cell with another cell object. | 
@@ -116,4 +120,6 @@ type Cell struct  {
 |[IsCheckBoxStyle](./ischeckboxstyle/) | Indicates whether setting this cell as a check box. | 
 |[SetIsCheckBoxStyle](./setischeckboxstyle/) | Indicates whether setting this cell as a check box. | 
 |[GetRichValue](./getrichvalue/) | Gets rich value of the cell. | 
+|[GetEmbeddedImage](./getembeddedimage/) | Gets and sets the embeddedn image in the cell. | 
+|[SetEmbeddedImage](./setembeddedimage/) | Gets and sets the embeddedn image in the cell. | 
 |[Dispose](./dispose/) |  | 

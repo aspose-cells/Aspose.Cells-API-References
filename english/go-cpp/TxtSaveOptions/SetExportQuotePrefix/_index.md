@@ -10,7 +10,7 @@ url: /go-cpp/txtsaveoptions/setexportquoteprefix/
 
 ## SetExportQuotePrefix function
 
-Indicates whether the single quote sign should be exported as part of the value of one cellwhen <see cref="Style.QuotePrefix"/> is true for it. Default is false.
+Indicates whether the single quote sign should be exported as part of the value of one cellwhen Style.QuotePrefix is true for it. Default is false.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *TxtSaveOptions) SetExportQuotePrefix(value bool)  error
 ## See Also
 
 * Class [TxtSaveOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *PclSaveOptions) IsFontSubstitutionCharGranularity()  (bool,  err
 ## See Also
 
 * Class [PclSaveOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

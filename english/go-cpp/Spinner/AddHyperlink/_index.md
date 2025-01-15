@@ -24,5 +24,4 @@ func (instance *Spinner) AddHyperlink(address string)  (*Hyperlink,  error)
 ## See Also
 
 * Class [Spinner](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

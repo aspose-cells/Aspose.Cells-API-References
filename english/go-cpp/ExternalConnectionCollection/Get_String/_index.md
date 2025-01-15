@@ -10,7 +10,7 @@ url: /go-cpp/externalconnectioncollection/get_string/
 
 ## Get_String function
 
-Gets the <see cref="ExternalConnection"/> element with the specified name.
+Gets the ExternalConnection element with the specified name.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *ExternalConnectionCollection) Get_String(connectionname string) 
 ## See Also
 
 * Class [ExternalConnectionCollection](../)
-* Namespace [Aspose.Cells.ExternalConnections](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

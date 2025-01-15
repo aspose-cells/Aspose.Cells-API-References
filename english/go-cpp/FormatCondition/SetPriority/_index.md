@@ -24,5 +24,4 @@ func (instance *FormatCondition) SetPriority(value int32)  error
 ## See Also
 
 * Class [FormatCondition](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func EquationNode_CreateNode(equationtype EquationNodeType, workbook *Workbook, 
 ## See Also
 
 * Class [EquationNode](../)
-* Namespace [Aspose.Cells.Drawing.Equations](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

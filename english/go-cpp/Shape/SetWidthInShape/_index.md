@@ -24,5 +24,4 @@ func (instance *Shape) SetWidthInShape(value int32)  error
 ## See Also
 
 * Class [Shape](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

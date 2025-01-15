@@ -24,5 +24,4 @@ func (instance *SqlScriptSaveOptions) GetSaveFormat()  (SaveFormat,  error)
 ## See Also
 
 * Class [SqlScriptSaveOptions](../)
-* Namespace [Aspose.Cells.Saving](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

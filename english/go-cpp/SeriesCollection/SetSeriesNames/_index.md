@@ -24,5 +24,4 @@ func (instance *SeriesCollection) SetSeriesNames(startindex int32, area string, 
 ## See Also
 
 * Class [SeriesCollection](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

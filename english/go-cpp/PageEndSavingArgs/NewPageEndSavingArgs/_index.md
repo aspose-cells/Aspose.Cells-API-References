@@ -24,5 +24,4 @@ func NewPageEndSavingArgs(src *PageSavingArgs) ( *PageEndSavingArgs, error)
 ## See Also
 
 * Class [PageEndSavingArgs](../)
-* Namespace [Aspose.Cells.Rendering](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

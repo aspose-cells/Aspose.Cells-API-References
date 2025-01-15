@@ -10,7 +10,7 @@ url: /go-cpp/worksheetcollection/getcustomdocumentproperties/
 
 ## GetCustomDocumentProperties function
 
-Returns a <see cref="DocumentProperty"/> collection that represents all the custom document properties of the spreadsheet.
+Returns a DocumentProperty collection that represents all the custom document properties of the spreadsheet.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *WorksheetCollection) GetCustomDocumentProperties()  (*CustomDocu
 ## See Also
 
 * Class [WorksheetCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

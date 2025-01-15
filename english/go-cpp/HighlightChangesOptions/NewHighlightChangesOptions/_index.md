@@ -24,5 +24,4 @@ func NewHighlightChangesOptions(highlightonscreen bool, listonnewsheet bool) ( *
 ## See Also
 
 * Class [HighlightChangesOptions](../)
-* Namespace [Aspose.Cells.Revisions](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

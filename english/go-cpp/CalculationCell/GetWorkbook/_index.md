@@ -24,5 +24,4 @@ func (instance *CalculationCell) GetWorkbook()  (*Workbook,  error)
 ## See Also
 
 * Class [CalculationCell](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

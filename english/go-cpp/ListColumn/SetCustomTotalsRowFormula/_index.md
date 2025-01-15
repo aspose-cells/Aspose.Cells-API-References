@@ -24,5 +24,4 @@ func (instance *ListColumn) SetCustomTotalsRowFormula(formula string, isr1c1 boo
 ## See Also
 
 * Class [ListColumn](../)
-* Namespace [Aspose.Cells.Tables](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

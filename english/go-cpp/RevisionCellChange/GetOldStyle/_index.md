@@ -24,5 +24,4 @@ func (instance *RevisionCellChange) GetOldStyle()  (*Style,  error)
 ## See Also
 
 * Class [RevisionCellChange](../)
-* Namespace [Aspose.Cells.Revisions](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *ChartPoint) GetOnCategoryAxisPointXPx(index int32)  (float32,  e
 ## See Also
 
 * Class [ChartPoint](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

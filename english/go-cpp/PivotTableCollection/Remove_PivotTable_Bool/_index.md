@@ -24,5 +24,4 @@ func (instance *PivotTableCollection) Remove_PivotTable_Bool(pivottable *PivotTa
 ## See Also
 
 * Class [PivotTableCollection](../)
-* Namespace [Aspose.Cells.Pivot](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

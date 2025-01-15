@@ -32,9 +32,10 @@ type Range struct  {
 |[AutoFill_Range](./autofill_range/) | Automaticall fill the target range. | 
 |[AutoFill_Range_AutoFillType](./autofill_range_autofilltype/) | Automaticall fill the target range. | 
 |[GetCurrentRegion](./getcurrentregion/) | Returns a Range object that represents the current region.The current region is a range bounded by any combination of blank rows and blank columns. | 
+|[GetHyperlinks](./gethyperlinks/) | Gets all hyperlink in the range. | 
 |[AddHyperlink](./addhyperlink/) | Adds a hyperlink to a specified cell or a range of cells. | 
 |[IsIntersect](./isintersect/) | Indicates whether the range is intersect. | 
-|[Intersect](./intersect/) | Returns a <see cref="Range"/> object that represents the rectangular intersection of two ranges. | 
+|[Intersect](./intersect/) | Returns a Range object that represents the rectangular intersection of two ranges. | 
 |[GetRowCount](./getrowcount/) | Gets the count of rows in the range. | 
 |[GetColumnCount](./getcolumncount/) | Gets the count of columns in the range. | 
 |[GetName](./getname/) | Gets or sets the name of the range. | 
@@ -72,11 +73,13 @@ type Range struct  {
 |[Copy_Range_PasteOptions](./copy_range_pasteoptions/) | Copying the range with paste special options. | 
 |[Transpose](./transpose/) | Transpose (rotate) data from rows to columns or vice versa. | 
 |[Copy_Range](./copy_range/) | Copies data (including formulas), formatting, drawing objects etc. from a source range. | 
-|[Get](./get/) | Gets <see cref="Cell"/> object in this range. | 
-|[GetCellOrNull](./getcellornull/) | Gets <see cref="Cell"/> object or null in this range. | 
-|[GetOffset](./getoffset/) | Gets <see cref="Range"/> range by offset. | 
+|[Get](./get/) | Gets Cell object in this range. | 
+|[GetCellOrNull](./getcellornull/) | Gets Cell object or null in this range. | 
+|[GetOffset](./getoffset/) | Gets Range range by offset. | 
 |[GetEntireColumn](./getentirecolumn/) | Gets a Range object that represents the entire column (or columns) that contains the specified range. | 
 |[GetEntireRow](./getentirerow/) | Gets a Range object that represents the entire row (or rows) that contains the specified range. | 
-|[GetWorksheet](./getworksheet/) | Gets the <see cref="Worksheet"/>object which contains this range. | 
+|[GetWorksheet](./getworksheet/) | Gets the Worksheetobject which contains this range. | 
 |[ToString](./tostring/) | Returns a string represents the current Range object. | 
+|[ToImage](./toimage/) | Converts the range to image. | 
 |[ToJson](./tojson/) | Convert the range to JSON value. | 
+|[ToHtml](./tohtml/) | Convert the range to html . | 

@@ -24,5 +24,4 @@ func (instance *Validation) AddArea_CellArea_Bool_Bool(cellarea *CellArea, check
 ## See Also
 
 * Class [Validation](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

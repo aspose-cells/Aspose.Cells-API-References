@@ -24,5 +24,4 @@ func (instance *DataModel) IsNull()  (bool,  error)
 ## See Also
 
 * Class [DataModel](../)
-* Namespace [Aspose.Cells.DataModels](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

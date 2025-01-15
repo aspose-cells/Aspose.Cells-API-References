@@ -24,5 +24,4 @@ func (instance *Border) SetLineStyle(value CellBorderType)  error
 ## See Also
 
 * Class [Border](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

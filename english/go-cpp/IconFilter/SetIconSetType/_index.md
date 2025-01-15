@@ -24,5 +24,4 @@ func (instance *IconFilter) SetIconSetType(value IconSetType)  error
 ## See Also
 
 * Class [IconFilter](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

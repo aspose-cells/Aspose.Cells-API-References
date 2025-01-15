@@ -10,7 +10,7 @@ url: /go-cpp/columncollection/getcolumnbyindex/
 
 ## GetColumnByIndex function
 
-Gets the <see cref="Column"/> object by the position in the list.
+Gets the Column object by the position in the list.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *ColumnCollection) GetColumnByIndex(index int32)  (*Column,  erro
 ## See Also
 
 * Class [ColumnCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

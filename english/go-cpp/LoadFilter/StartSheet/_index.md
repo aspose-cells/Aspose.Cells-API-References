@@ -24,5 +24,4 @@ func (instance *LoadFilter) StartSheet(sheet *Worksheet)  error
 ## See Also
 
 * Class [LoadFilter](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

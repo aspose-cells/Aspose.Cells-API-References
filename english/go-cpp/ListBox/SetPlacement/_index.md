@@ -24,5 +24,4 @@ func (instance *ListBox) SetPlacement(value PlacementType)  error
 ## See Also
 
 * Class [ListBox](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

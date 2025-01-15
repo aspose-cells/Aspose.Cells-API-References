@@ -10,7 +10,7 @@ url: /go-cpp/columncollection/get/
 
 ## Get function
 
-Gets a <see cref="Column"/> object by column index.The Column object of given column index will be instantiated if it does not exist before.
+Gets a Column object by column index.The Column object of given column index will be instantiated if it does not exist before.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *ColumnCollection) Get(columnindex int32)  (*Column,  error)
 ## See Also
 
 * Class [ColumnCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

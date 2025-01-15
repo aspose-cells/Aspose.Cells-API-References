@@ -24,5 +24,4 @@ func (instance *DrawObject) GetSheetIndex()  (int32,  error)
 ## See Also
 
 * Class [DrawObject](../)
-* Namespace [Aspose.Cells.Rendering](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *PivotFormatCondition) SetRuleType(value PivotConditionFormatRule
 ## See Also
 
 * Class [PivotFormatCondition](../)
-* Namespace [Aspose.Cells.Pivot](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

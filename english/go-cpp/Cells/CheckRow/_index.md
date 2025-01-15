@@ -10,7 +10,7 @@ url: /go-cpp/cells/checkrow/
 
 ## CheckRow function
 
-Gets the <see cref="Row"/> element or null at the specified cell row index.
+Gets the Row element or null at the specified cell row index.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *Cells) CheckRow(row int32)  (*Row,  error)
 ## See Also
 
 * Class [Cells](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

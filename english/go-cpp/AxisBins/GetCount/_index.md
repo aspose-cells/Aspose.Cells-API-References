@@ -24,5 +24,4 @@ func (instance *AxisBins) GetCount()  (int32,  error)
 ## See Also
 
 * Class [AxisBins](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

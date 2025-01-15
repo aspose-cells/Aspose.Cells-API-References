@@ -24,5 +24,4 @@ func (instance *ConversionUtility) IsNull()  (bool,  error)
 ## See Also
 
 * Class [ConversionUtility](../)
-* Namespace [Aspose.Cells.Utility](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

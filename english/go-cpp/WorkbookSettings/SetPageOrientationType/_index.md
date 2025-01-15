@@ -24,5 +24,4 @@ func (instance *WorkbookSettings) SetPageOrientationType(pageorientationtype Pag
 ## See Also
 
 * Class [WorkbookSettings](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

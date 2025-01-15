@@ -24,5 +24,4 @@ func (instance *WorksheetCollection) SetOleSize_Object(value *Object)  error
 ## See Also
 
 * Class [WorksheetCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

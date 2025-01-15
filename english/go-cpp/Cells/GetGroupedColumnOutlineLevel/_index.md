@@ -24,5 +24,4 @@ func (instance *Cells) GetGroupedColumnOutlineLevel(columnindex int32)  (int32, 
 ## See Also
 
 * Class [Cells](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

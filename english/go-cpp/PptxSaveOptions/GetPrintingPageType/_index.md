@@ -24,5 +24,4 @@ func (instance *PptxSaveOptions) GetPrintingPageType()  (PrintingPageType,  erro
 ## See Also
 
 * Class [PptxSaveOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

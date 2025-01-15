@@ -24,5 +24,4 @@ func (instance *GradientFill) SetOneColorGradient(color *Color, degree float64, 
 ## See Also
 
 * Class [GradientFill](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -30,3 +30,4 @@ type CustomFunctionDefinition struct  {
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
+|[GetArrayModeParameters](./getarraymodeparameters/) | Gets the indices of given custom function's parameters that need to be calculated in array mode. | 

@@ -24,5 +24,4 @@ func (instance *RenderingFont) GetColor()  (*Color,  error)
 ## See Also
 
 * Class [RenderingFont](../)
-* Namespace [Aspose.Cells.Rendering](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

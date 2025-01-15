@@ -24,5 +24,4 @@ func NewComboBoxActiveXControl(src *ActiveXControl) ( *ComboBoxActiveXControl, e
 ## See Also
 
 * Class [ComboBoxActiveXControl](../)
-* Namespace [Aspose.Cells.Drawing.ActiveXControls](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *Cells) InsertRange_CellArea_ShiftType(area *CellArea, shifttype 
 ## See Also
 
 * Class [Cells](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

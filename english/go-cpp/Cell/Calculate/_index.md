@@ -24,5 +24,4 @@ func (instance *Cell) Calculate(options *CalculationOptions)  error
 ## See Also
 
 * Class [Cell](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

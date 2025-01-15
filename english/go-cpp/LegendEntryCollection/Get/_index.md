@@ -10,7 +10,7 @@ url: /go-cpp/legendentrycollection/get/
 
 ## Get function
 
-Gets the <see cref="LegendEntry"/> element at the specified index.
+Gets the LegendEntry element at the specified index.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *LegendEntryCollection) Get(index int32)  (*LegendEntry,  error)
 ## See Also
 
 * Class [LegendEntryCollection](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

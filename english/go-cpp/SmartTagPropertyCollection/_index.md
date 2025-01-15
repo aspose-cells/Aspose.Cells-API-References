@@ -30,7 +30,7 @@ type SmartTagPropertyCollection struct  {
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
-|[Get_Int](./get_int/) | Gets a <see cref="SmartTagProperty"/> object. | 
-|[Get_String](./get_string/) | Gets a <see cref="SmartTagProperty"/> object by the name of the property. | 
+|[Get_Int](./get_int/) | Gets a SmartTagProperty object. | 
+|[Get_String](./get_string/) | Gets a SmartTagProperty object by the name of the property. | 
 |[Add](./add/) | Adds a property of cell's smart tag. | 
 |[GetCount](./getcount/) |  | 

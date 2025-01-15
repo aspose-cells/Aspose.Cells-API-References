@@ -24,5 +24,4 @@ func (instance *ChartShape) ToImage_String_ImageOrPrintOptions(imagefile string,
 ## See Also
 
 * Class [ChartShape](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *PatternFill) GetPattern()  (FillPattern,  error)
 ## See Also
 
 * Class [PatternFill](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

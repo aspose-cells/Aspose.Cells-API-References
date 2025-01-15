@@ -24,5 +24,4 @@ func (instance *MsoFillFormatHelper) GetBackColor()  (*Color,  error)
 ## See Also
 
 * Class [MsoFillFormatHelper](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

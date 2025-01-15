@@ -29,6 +29,6 @@ type ErrorCheckOptionCollection struct  {
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
-|[Get](./get/) | Gets <see cref="ErrorCheckOption"/> object by the given index. | 
+|[Get](./get/) | Gets ErrorCheckOption object by the given index. | 
 |[Add](./add/) | Add an error check option. | 
 |[GetCount](./getcount/) |  | 

@@ -24,5 +24,4 @@ func (instance *CustomDocumentPropertyCollection) Add_String_String(name string,
 ## See Also
 
 * Class [CustomDocumentPropertyCollection](../)
-* Namespace [Aspose.Cells.Properties](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

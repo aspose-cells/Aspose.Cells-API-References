@@ -24,5 +24,4 @@ func (instance *CustomXmlPartCollection) SelectByID(id string)  (*CustomXmlPart,
 ## See Also
 
 * Class [CustomXmlPartCollection](../)
-* Namespace [Aspose.Cells.Markup](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

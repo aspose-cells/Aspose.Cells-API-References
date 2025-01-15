@@ -24,5 +24,4 @@ func (instance *UnionRange) Intersect_UnionRange(unionrange *UnionRange)  (*Unio
 ## See Also
 
 * Class [UnionRange](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

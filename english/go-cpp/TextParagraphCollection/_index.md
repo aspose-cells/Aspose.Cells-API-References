@@ -30,4 +30,4 @@ type TextParagraphCollection struct  {
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[GetCount](./getcount/) | Gets the count of text paragraphs. | 
-|[Get](./get/) | Gets the <see cref="TextParagraph"/> object at specific index. | 
+|[Get](./get/) | Gets the TextParagraph object at specific index. | 

@@ -10,7 +10,7 @@ url: /go-cpp/protectedrangecollection/get/
 
 ## Get function
 
-Gets the <see cref="ProtectedRange"/> element at the specified index.
+Gets the ProtectedRange element at the specified index.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *ProtectedRangeCollection) Get(index int32)  (*ProtectedRange,  e
 ## See Also
 
 * Class [ProtectedRangeCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -29,8 +29,8 @@ type Marker struct  {
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
-|[GetBorder](./getborder/) | Gets the <see cref="Line">border</see>. | 
-|[GetArea](./getarea/) | Gets the <see cref="Area">area</see>. | 
+|[GetBorder](./getborder/) | Gets the Line</see>. | 
+|[GetArea](./getarea/) | Gets the Area</see>. | 
 |[GetMarkerStyle](./getmarkerstyle/) | Represents the marker style. Applies to line chart, scatter chart, or radar chart. | 
 |[SetMarkerStyle](./setmarkerstyle/) | Represents the marker style. Applies to line chart, scatter chart, or radar chart. | 
 |[GetMarkerSize](./getmarkersize/) | Represents the marker size in unit of points. Applies to line chart, scatter chart, or radar chart. | 

@@ -24,5 +24,4 @@ func (instance *ShapePathCollection) Add()  (int32,  error)
 ## See Also
 
 * Class [ShapePathCollection](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

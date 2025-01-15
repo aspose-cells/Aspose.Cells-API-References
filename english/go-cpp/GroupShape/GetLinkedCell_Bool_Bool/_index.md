@@ -24,5 +24,4 @@ func (instance *GroupShape) GetLinkedCell_Bool_Bool(isr1c1 bool, islocal bool)  
 ## See Also
 
 * Class [GroupShape](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

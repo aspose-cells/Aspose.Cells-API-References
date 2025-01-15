@@ -24,5 +24,4 @@ func AccentEquationNode_CreateNode(equationtype EquationNodeType, workbook *Work
 ## See Also
 
 * Class [AccentEquationNode](../)
-* Namespace [Aspose.Cells.Drawing.Equations](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

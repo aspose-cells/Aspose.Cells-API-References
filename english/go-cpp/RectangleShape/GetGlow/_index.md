@@ -10,7 +10,7 @@ url: /go-cpp/rectangleshape/getglow/
 
 ## GetGlow function
 
-Represents a <see cref="GlowEffect"/> object that specifies glow effect for the chart element or shape.
+Represents a GlowEffect object that specifies glow effect for the chart element or shape.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *RectangleShape) GetGlow()  (*GlowEffect,  error)
 ## See Also
 
 * Class [RectangleShape](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

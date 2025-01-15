@@ -24,5 +24,4 @@ func (instance *VbaProjectReferenceCollection) Get(i int32)  (*VbaProjectReferen
 ## See Also
 
 * Class [VbaProjectReferenceCollection](../)
-* Namespace [Aspose.Cells.Vba](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

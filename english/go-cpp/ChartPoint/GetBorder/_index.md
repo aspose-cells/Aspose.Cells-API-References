@@ -10,7 +10,7 @@ url: /go-cpp/chartpoint/getborder/
 
 ## GetBorder function
 
-Gets the <see cref="Line"> border</see>.
+Gets the Line</see>.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *ChartPoint) GetBorder()  (*Line,  error)
 ## See Also
 
 * Class [ChartPoint](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

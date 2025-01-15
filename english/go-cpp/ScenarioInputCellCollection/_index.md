@@ -29,6 +29,6 @@ type ScenarioInputCellCollection struct  {
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
-|[Get](./get/) | Gets <see cref="ScenarioInputCell"/> by index in the list. | 
+|[Get](./get/) | Gets ScenarioInputCell by index in the list. | 
 |[Add](./add/) | Adds an input cell. | 
 |[GetCount](./getcount/) |  | 

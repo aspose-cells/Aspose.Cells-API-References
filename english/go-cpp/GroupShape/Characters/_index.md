@@ -24,5 +24,4 @@ func (instance *GroupShape) Characters(startindex int32, length int32)  (*FontSe
 ## See Also
 
 * Class [GroupShape](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

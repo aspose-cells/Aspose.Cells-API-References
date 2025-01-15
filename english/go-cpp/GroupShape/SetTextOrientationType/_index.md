@@ -24,5 +24,4 @@ func (instance *GroupShape) SetTextOrientationType(value TextOrientationType)  e
 ## See Also
 
 * Class [GroupShape](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

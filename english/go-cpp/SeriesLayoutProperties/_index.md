@@ -40,6 +40,8 @@ type SeriesLayoutProperties struct  {
 |[SetShowMeanMarker](./setshowmeanmarker/) | Indicates whether showing markers denoting the mean. | 
 |[GetShowInnerPoints](./getshowinnerpoints/) | Indicates whether showing non-outlier data points. | 
 |[SetShowInnerPoints](./setshowinnerpoints/) | Indicates whether showing non-outlier data points. | 
+|[GetSubtotals](./getsubtotals/) | Represents the index of a subtotal data point. | 
+|[SetSubtotals](./setsubtotals/) | Represents the index of a subtotal data point. | 
 |[GetQuartileCalculation](./getquartilecalculation/) | Represents the statistical properties for the series. | 
 |[SetQuartileCalculation](./setquartilecalculation/) | Represents the statistical properties for the series. | 
 |[GetMapLabelLayout](./getmaplabellayout/) | Gets and sets the layout of map labels. | 

@@ -24,5 +24,4 @@ func (instance *DrawObject) GetCell()  (*Cell,  error)
 ## See Also
 
 * Class [DrawObject](../)
-* Namespace [Aspose.Cells.Rendering](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -10,7 +10,7 @@ url: /go-cpp/namecollection/get_int/
 
 ## Get_Int function
 
-Gets the <see cref="Name"/> element at the specified index.
+Gets the Name element at the specified index.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *NameCollection) Get_Int(index int32)  (*Name,  error)
 ## See Also
 
 * Class [NameCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

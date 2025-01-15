@@ -24,5 +24,4 @@ func (instance *RadioButtonActiveXControl) GetAccelerator()  (byte,  error)
 ## See Also
 
 * Class [RadioButtonActiveXControl](../)
-* Namespace [Aspose.Cells.Drawing.ActiveXControls](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *SpreadsheetML2003SaveOptions) GetCreateDirectory()  (bool,  erro
 ## See Also
 
 * Class [SpreadsheetML2003SaveOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

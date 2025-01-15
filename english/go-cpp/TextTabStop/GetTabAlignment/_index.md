@@ -24,5 +24,4 @@ func (instance *TextTabStop) GetTabAlignment()  (TextTabAlignmentType,  error)
 ## See Also
 
 * Class [TextTabStop](../)
-* Namespace [Aspose.Cells.Drawing.Texts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

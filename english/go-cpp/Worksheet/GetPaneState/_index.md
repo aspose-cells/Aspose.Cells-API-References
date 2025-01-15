@@ -24,5 +24,4 @@ func (instance *Worksheet) GetPaneState()  (PaneStateType,  error)
 ## See Also
 
 * Class [Worksheet](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

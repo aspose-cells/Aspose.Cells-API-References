@@ -24,5 +24,4 @@ func (instance *AutoFitterOptions) GetForRendering()  (bool,  error)
 ## See Also
 
 * Class [AutoFitterOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

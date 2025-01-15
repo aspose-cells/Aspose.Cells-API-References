@@ -10,7 +10,7 @@ url: /go-cpp/lineformat/gettexturefill/
 
 ## GetTextureFill function
 
-Gets <see cref="TextureFill"/> object.
+Gets TextureFill object.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *LineFormat) GetTextureFill()  (*TextureFill,  error)
 ## See Also
 
 * Class [LineFormat](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *ActiveXControl) GetForeOleColor()  (int32,  error)
 ## See Also
 
 * Class [ActiveXControl](../)
-* Namespace [Aspose.Cells.Drawing.ActiveXControls](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

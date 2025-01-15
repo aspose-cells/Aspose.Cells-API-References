@@ -24,5 +24,4 @@ func (instance *PptxSaveOptions) SetDrawObjectEventHandler(value *DrawObjectEven
 ## See Also
 
 * Class [PptxSaveOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

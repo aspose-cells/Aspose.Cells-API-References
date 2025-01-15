@@ -24,5 +24,4 @@ func (instance *LoadOptions) SetInterruptMonitor(value *AbstractInterruptMonitor
 ## See Also
 
 * Class [LoadOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

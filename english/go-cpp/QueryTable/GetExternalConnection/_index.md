@@ -24,5 +24,4 @@ func (instance *QueryTable) GetExternalConnection()  (*ExternalConnection,  erro
 ## See Also
 
 * Class [QueryTable](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

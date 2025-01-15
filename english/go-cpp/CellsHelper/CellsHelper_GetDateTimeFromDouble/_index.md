@@ -24,5 +24,4 @@ func CellsHelper_GetDateTimeFromDouble(doublevalue float64, date1904 bool)  (*Da
 ## See Also
 
 * Class [CellsHelper](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

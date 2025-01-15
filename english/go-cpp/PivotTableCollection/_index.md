@@ -38,6 +38,8 @@ type PivotTableCollection struct  {
 |[Add_String_String_String_Bool_Bool](./add_string_string_string_bool_bool/) | Adds a new PivotTable. | 
 |[Add_PivotTable_String_String](./add_pivottable_string_string/) | Adds a new PivotTable based on another PivotTable. | 
 |[Add_PivotTable_Int_Int_String](./add_pivottable_int_int_string/) | Adds a new PivotTable based on another PivotTable. | 
+|[Add_stringArray_Bool_PivotPageFields_String_String](./add_stringarray_bool_pivotpagefields_string_string/) | Adds a new PivotTable Object to the collection with multiple consolidation ranges as data source. | 
+|[Add_stringArray_Bool_PivotPageFields_Int_Int_String](./add_stringarray_bool_pivotpagefields_int_int_string/) | Adds a new PivotTable Object to the collection with multiple consolidation ranges as data source. | 
 |[Get_Int](./get_int/) | Gets the PivotTable report by index. | 
 |[Get_String](./get_string/) | Gets the PivotTable report by pivottable's name. | 
 |[Get_Int_Int](./get_int_int/) | Gets the PivotTable report by pivottable's position. | 

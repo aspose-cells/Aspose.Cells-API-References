@@ -24,5 +24,4 @@ func (instance *GroupShape) GetTextVerticalOverflow()  (TextOverflowType,  error
 ## See Also
 
 * Class [GroupShape](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

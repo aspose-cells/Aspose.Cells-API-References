@@ -24,5 +24,4 @@ func NewCellsFactory() ( *CellsFactory, error)
 ## See Also
 
 * Class [CellsFactory](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

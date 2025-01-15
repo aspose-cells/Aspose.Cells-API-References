@@ -24,5 +24,4 @@ func (instance *Cells) SetViewColumnWidthPixel(column int32, pixels int32)  erro
 ## See Also
 
 * Class [Cells](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

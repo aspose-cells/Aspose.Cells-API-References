@@ -24,5 +24,4 @@ func (instance *Series) SetBar3DShapeType(value Bar3DShapeType)  error
 ## See Also
 
 * Class [Series](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

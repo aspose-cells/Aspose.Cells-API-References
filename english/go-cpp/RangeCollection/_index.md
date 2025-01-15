@@ -29,6 +29,6 @@ type RangeCollection struct  {
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
-|[Get](./get/) | Gets the <see cref="Range"/> element at the specified index. | 
-|[Add](./add/) | Adds a <see cref="Range"/> item to the collection. | 
+|[Get](./get/) | Gets the Range element at the specified index. | 
+|[Add](./add/) | Adds a Range item to the collection. | 
 |[GetCount](./getcount/) |  | 

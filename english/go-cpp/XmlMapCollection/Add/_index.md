@@ -10,7 +10,7 @@ url: /go-cpp/xmlmapcollection/add/
 
 ## Add function
 
-Add a <see cref="XmlMap"/> by the url/path of a xml/xsd file.
+Add a XmlMap by the url/path of a xml/xsd file.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *XmlMapCollection) Add(url string)  (int32,  error)
 ## See Also
 
 * Class [XmlMapCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *IconSet) SetType(value IconSetType)  error
 ## See Also
 
 * Class [IconSet](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

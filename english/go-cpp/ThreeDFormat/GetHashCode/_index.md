@@ -24,5 +24,4 @@ func (instance *ThreeDFormat) GetHashCode()  (int32,  error)
 ## See Also
 
 * Class [ThreeDFormat](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

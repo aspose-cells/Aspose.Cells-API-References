@@ -24,5 +24,4 @@ func (instance *Range) Copy_Range_PasteOptions(range_ *Range, options *PasteOpti
 ## See Also
 
 * Class [Range](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

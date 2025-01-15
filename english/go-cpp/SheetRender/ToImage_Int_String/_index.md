@@ -24,5 +24,4 @@ func (instance *SheetRender) ToImage_Int_String(pageindex int32, filename string
 ## See Also
 
 * Class [SheetRender](../)
-* Namespace [Aspose.Cells.Rendering](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

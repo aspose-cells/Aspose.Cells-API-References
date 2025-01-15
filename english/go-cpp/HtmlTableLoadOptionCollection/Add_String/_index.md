@@ -24,5 +24,4 @@ func (instance *HtmlTableLoadOptionCollection) Add_String(tableid string)  (int3
 ## See Also
 
 * Class [HtmlTableLoadOptionCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

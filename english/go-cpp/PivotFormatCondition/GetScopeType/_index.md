@@ -10,7 +10,7 @@ url: /go-cpp/pivotformatcondition/getscopetype/
 
 ## GetScopeType function
 
-Get and set scope type for the pivot table condition format .
+Get and set scope type for the pivot table conditional format .
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *PivotFormatCondition) GetScopeType()  (PivotConditionFormatScope
 ## See Also
 
 * Class [PivotFormatCondition](../)
-* Namespace [Aspose.Cells.Pivot](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

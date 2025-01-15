@@ -24,5 +24,4 @@ func NewObject_Byte(value byte) ( *Object, error)
 ## See Also
 
 * Class [Object](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

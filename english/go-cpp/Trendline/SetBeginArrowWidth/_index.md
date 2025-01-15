@@ -24,5 +24,4 @@ func (instance *Trendline) SetBeginArrowWidth(value MsoArrowheadWidth)  error
 ## See Also
 
 * Class [Trendline](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *Cell) SetSharedFormula_String_Int_Int(sharedformula string, rown
 ## See Also
 
 * Class [Cell](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

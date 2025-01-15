@@ -24,5 +24,4 @@ func (instance *RevisionRenameSheet) GetType()  (RevisionType,  error)
 ## See Also
 
 * Class [RevisionRenameSheet](../)
-* Namespace [Aspose.Cells.Revisions](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

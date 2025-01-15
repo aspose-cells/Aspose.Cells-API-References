@@ -49,3 +49,4 @@ type DataBar struct  {
 |[SetMaxLength](./setmaxlength/) | Represents the max length of data bar . | 
 |[GetShowValue](./getshowvalue/) | Get or set the flag indicating whether to show the values of the cells on which this data bar is applied.Default value is true. | 
 |[SetShowValue](./setshowvalue/) | Get or set the flag indicating whether to show the values of the cells on which this data bar is applied.Default value is true. | 
+|[ToImage](./toimage/) | Render data bar in cell to image byte array. | 

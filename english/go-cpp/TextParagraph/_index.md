@@ -63,6 +63,7 @@ type TextParagraph struct  {
 |[SetAlignmentType](./setalignmenttype/) | Gets and sets the text horizontal alignment type of the paragraph. | 
 |[GetDefaultTabSize](./getdefaulttabsize/) | Gets and sets the default size for a tab character within this paragraph. | 
 |[SetDefaultTabSize](./setdefaulttabsize/) | Gets and sets the default size for a tab character within this paragraph. | 
+|[GetChildren](./getchildren/) | Gets all text runs in this paragraph.If this paragraph is empty, return paragraph itself. | 
 |[GetStartIndex](./getstartindex/) | Gets the start index of the characters. | 
 |[GetLength](./getlength/) | Gets the length of the characters. | 
 |[GetFont](./getfont/) | Returns the font of this object. | 

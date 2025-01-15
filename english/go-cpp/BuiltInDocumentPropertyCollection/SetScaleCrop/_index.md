@@ -24,5 +24,4 @@ func (instance *BuiltInDocumentPropertyCollection) SetScaleCrop(value bool)  err
 ## See Also
 
 * Class [BuiltInDocumentPropertyCollection](../)
-* Namespace [Aspose.Cells.Properties](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

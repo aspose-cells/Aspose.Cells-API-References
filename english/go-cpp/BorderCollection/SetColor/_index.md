@@ -10,7 +10,7 @@ url: /go-cpp/bordercollection/setcolor/
 
 ## SetColor function
 
-Sets the <see cref="Color"/> of all borders in the collection.
+Sets the Color of all borders in the collection.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *BorderCollection) SetColor(color *Color)  error
 ## See Also
 
 * Class [BorderCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -41,3 +41,5 @@ type OdsPageBackground struct  {
 |[IsLink](./islink/) | Indicates whether it's a linked graphic. | 
 |[GetLinkedGraphic](./getlinkedgraphic/) | Gets and sets the linked graphic path. | 
 |[SetLinkedGraphic](./setlinkedgraphic/) | Gets and sets the linked graphic path. | 
+|[GetGraphicData](./getgraphicdata/) | Gets and sets the graphic data. | 
+|[SetGraphicData](./setgraphicdata/) | Gets and sets the graphic data. | 

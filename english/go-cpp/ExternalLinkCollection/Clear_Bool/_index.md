@@ -24,5 +24,4 @@ func (instance *ExternalLinkCollection) Clear_Bool(updatereferencesaslocal bool)
 ## See Also
 
 * Class [ExternalLinkCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

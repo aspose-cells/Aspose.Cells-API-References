@@ -10,7 +10,7 @@ url: /go-cpp/plotarea/getarea/
 
 ## GetArea function
 
-Gets the <see cref="Area">area</see>.
+Gets the Area</see>.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *PlotArea) GetArea()  (*Area,  error)
 ## See Also
 
 * Class [PlotArea](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *ReferredArea) ToString()  (string,  error)
 ## See Also
 
 * Class [ReferredArea](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

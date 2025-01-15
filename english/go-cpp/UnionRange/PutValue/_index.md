@@ -24,5 +24,4 @@ func (instance *UnionRange) PutValue(stringvalue string, isconverted bool, setst
 ## See Also
 
 * Class [UnionRange](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

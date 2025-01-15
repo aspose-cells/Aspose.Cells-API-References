@@ -24,5 +24,4 @@ func (instance *Picture) GetLine()  (*LineFormat,  error)
 ## See Also
 
 * Class [Picture](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

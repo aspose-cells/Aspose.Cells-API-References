@@ -10,7 +10,7 @@ url: /go-cpp/shapecollection/get_string/
 
 ## Get_String function
 
-Gets the <see cref="Shape"/> object by the name of the shape.
+Gets the Shape object by the name of the shape.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *ShapeCollection) Get_String(name string)  (*Shape,  error)
 ## See Also
 
 * Class [ShapeCollection](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

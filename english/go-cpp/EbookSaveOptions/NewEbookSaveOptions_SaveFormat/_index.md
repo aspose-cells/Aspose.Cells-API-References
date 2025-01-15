@@ -24,5 +24,4 @@ func NewEbookSaveOptions_SaveFormat(saveformat SaveFormat) ( *EbookSaveOptions, 
 ## See Also
 
 * Class [EbookSaveOptions](../)
-* Namespace [Aspose.Cells.Saving](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

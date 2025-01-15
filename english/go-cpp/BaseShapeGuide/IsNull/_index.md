@@ -24,5 +24,4 @@ func (instance *BaseShapeGuide) IsNull()  (bool,  error)
 ## See Also
 
 * Class [BaseShapeGuide](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

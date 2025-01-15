@@ -24,5 +24,4 @@ func (instance *MatrixEquationNode) RemoveChild_Int(index int32)  error
 ## See Also
 
 * Class [MatrixEquationNode](../)
-* Namespace [Aspose.Cells.Drawing.Equations](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

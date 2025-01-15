@@ -10,7 +10,7 @@ url: /go-cpp/bordercollection/getdiagonalcolor/
 
 ## GetDiagonalColor function
 
-Gets or sets the <see cref="Color"/> of Diagonal lines.
+Gets or sets the Color of Diagonal lines.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *BorderCollection) GetDiagonalColor()  (*Color,  error)
 ## See Also
 
 * Class [BorderCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

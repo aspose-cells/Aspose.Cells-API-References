@@ -10,6 +10,7 @@ url: /go-cpp/pivotformatconditioncollection/getcount/
 
 ## GetCount function
 
+Gets the count of conditional formats.
 
 ```go
 
@@ -23,5 +24,4 @@ func (instance *PivotFormatConditionCollection) GetCount()  (int32,  error)
 ## See Also
 
 * Class [PivotFormatConditionCollection](../)
-* Namespace [Aspose.Cells.Pivot](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

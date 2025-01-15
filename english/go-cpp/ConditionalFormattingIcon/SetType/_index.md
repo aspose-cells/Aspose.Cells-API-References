@@ -24,5 +24,4 @@ func (instance *ConditionalFormattingIcon) SetType(value IconSetType)  error
 ## See Also
 
 * Class [ConditionalFormattingIcon](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

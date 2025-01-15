@@ -24,5 +24,4 @@ func (instance *SmartTagSetting) Add_String(cellname string)  (int32,  error)
 ## See Also
 
 * Class [SmartTagSetting](../)
-* Namespace [Aspose.Cells.Markup](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

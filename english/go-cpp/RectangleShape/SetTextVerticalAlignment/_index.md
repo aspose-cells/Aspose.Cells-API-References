@@ -24,5 +24,4 @@ func (instance *RectangleShape) SetTextVerticalAlignment(value TextAlignmentType
 ## See Also
 
 * Class [RectangleShape](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

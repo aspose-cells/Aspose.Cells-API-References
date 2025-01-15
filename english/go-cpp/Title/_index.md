@@ -40,6 +40,7 @@ type Title struct  {
 |[SetY](./sety/) | Gets or sets the y coordinate of the upper left corner in units of 1/4000 of the chart area. | 
 |[GetOverLay](./getoverlay/) | Represents overlay centered title on chart without resizing chart. | 
 |[SetOverLay](./setoverlay/) | Represents overlay centered title on chart without resizing chart. | 
+|[Characters](./characters/) | Gets rich text formatting of this Title. | 
 |[Characters_Int_Int](./characters_int_int/) | Returns a Characters object that represents a range of characters within the text. | 
 |[IsDeleted](./isdeleted/) | Indicates whether this data labels is deleted. | 
 |[SetIsDeleted](./setisdeleted/) | Indicates whether this data labels is deleted. | 

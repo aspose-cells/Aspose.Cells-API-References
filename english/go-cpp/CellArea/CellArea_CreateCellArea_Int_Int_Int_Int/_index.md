@@ -24,5 +24,4 @@ func CellArea_CreateCellArea_Int_Int_Int_Int(startrow int32, startcolumn int32, 
 ## See Also
 
 * Class [CellArea](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

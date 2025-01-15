@@ -24,5 +24,4 @@ func (instance *GradientFill) GetGradientStops()  (*GradientStopCollection,  err
 ## See Also
 
 * Class [GradientFill](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

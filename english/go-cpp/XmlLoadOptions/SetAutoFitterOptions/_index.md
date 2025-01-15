@@ -24,5 +24,4 @@ func (instance *XmlLoadOptions) SetAutoFitterOptions(value *AutoFitterOptions)  
 ## See Also
 
 * Class [XmlLoadOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

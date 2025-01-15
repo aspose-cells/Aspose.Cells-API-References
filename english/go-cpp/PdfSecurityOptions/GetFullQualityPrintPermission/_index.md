@@ -24,5 +24,4 @@ func (instance *PdfSecurityOptions) GetFullQualityPrintPermission()  (bool,  err
 ## See Also
 
 * Class [PdfSecurityOptions](../)
-* Namespace [Aspose.Cells.Rendering.PdfSecurity](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

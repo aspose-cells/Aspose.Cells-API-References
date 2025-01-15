@@ -24,5 +24,4 @@ func (instance *PaneCollection) SetAcitvePaneType(value RectangleAlignmentType) 
 ## See Also
 
 * Class [PaneCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

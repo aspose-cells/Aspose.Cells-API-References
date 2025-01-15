@@ -30,4 +30,8 @@ type IndividualFontConfigs struct  {
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
+|[SetFontSubstitutes](./setfontsubstitutes/) | Font substitute names for given original font name. | 
+|[GetFontSubstitutes](./getfontsubstitutes/) | Returns array containing font substitute names to be used if original font is not presented. | 
 |[SetFontFolder](./setfontfolder/) | Sets the fonts folder | 
+|[SetFontFolders](./setfontfolders/) | Sets the fonts folders | 
+|[GetFontSources](./getfontsources/) | Gets a copy of the array that contains the list of sources | 

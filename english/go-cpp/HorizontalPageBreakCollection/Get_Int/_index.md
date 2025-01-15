@@ -10,7 +10,7 @@ url: /go-cpp/horizontalpagebreakcollection/get_int/
 
 ## Get_Int function
 
-Gets the <see cref="HorizontalPageBreak"/> element at the specified index.
+Gets the HorizontalPageBreak element at the specified index.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *HorizontalPageBreakCollection) Get_Int(index int32)  (*Horizonta
 ## See Also
 
 * Class [HorizontalPageBreakCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *DataModelConnection) GetSourceType()  (ConnectionDataSourceType,
 ## See Also
 
 * Class [DataModelConnection](../)
-* Namespace [Aspose.Cells.ExternalConnections](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *FormulaSettings) SetPrecisionAsDisplayed(value bool)  error
 ## See Also
 
 * Class [FormulaSettings](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

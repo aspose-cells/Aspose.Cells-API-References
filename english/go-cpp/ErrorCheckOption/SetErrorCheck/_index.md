@@ -24,5 +24,4 @@ func (instance *ErrorCheckOption) SetErrorCheck(errorchecktype ErrorCheckType, i
 ## See Also
 
 * Class [ErrorCheckOption](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

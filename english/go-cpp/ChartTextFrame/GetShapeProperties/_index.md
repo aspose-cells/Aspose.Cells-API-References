@@ -10,7 +10,7 @@ url: /go-cpp/charttextframe/getshapeproperties/
 
 ## GetShapeProperties function
 
-Gets the <see cref="ShapeProperties"/> object.
+Gets the ShapeProperties object.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *ChartTextFrame) GetShapeProperties()  (*ShapePropertyCollection,
 ## See Also
 
 * Class [ChartTextFrame](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

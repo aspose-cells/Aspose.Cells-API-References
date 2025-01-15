@@ -24,5 +24,4 @@ func (instance *FolderFontSource) IsNull()  (bool,  error)
 ## See Also
 
 * Class [FolderFontSource](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *RadicalEquationNode) GetEquationType()  (EquationNodeType,  erro
 ## See Also
 
 * Class [RadicalEquationNode](../)
-* Namespace [Aspose.Cells.Drawing.Equations](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *WorkbookSettings) SetUpdateAdjacentCellsBorder(value bool)  erro
 ## See Also
 
 * Class [WorkbookSettings](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

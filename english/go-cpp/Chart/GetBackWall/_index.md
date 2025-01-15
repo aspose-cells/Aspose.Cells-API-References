@@ -10,7 +10,7 @@ url: /go-cpp/chart/getbackwall/
 
 ## GetBackWall function
 
-Returns a <see cref="Walls"/> object that represents the back wall of a 3-D chart.
+Returns a Walls object that represents the back wall of a 3-D chart.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *Chart) GetBackWall()  (*Walls,  error)
 ## See Also
 
 * Class [Chart](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

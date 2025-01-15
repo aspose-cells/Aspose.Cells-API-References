@@ -23,5 +23,4 @@ func (instance *DelimiterEquationNode) SetNaryGrow(value bool)  error
 ## See Also
 
 * Class [DelimiterEquationNode](../)
-* Namespace [Aspose.Cells.Drawing.Equations](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

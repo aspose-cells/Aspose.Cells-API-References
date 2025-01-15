@@ -10,7 +10,7 @@ url: /go-cpp/picturecollection/get/
 
 ## Get function
 
-Gets the <see cref="Picture"/> element at the specified index.
+Gets the Picture element at the specified index.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *PictureCollection) Get(index int32)  (*Picture,  error)
 ## See Also
 
 * Class [PictureCollection](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

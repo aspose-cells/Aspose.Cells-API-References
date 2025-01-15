@@ -24,5 +24,4 @@ func (instance *MatrixEquationNode) InsertChild(index int32, equationtype Equati
 ## See Also
 
 * Class [MatrixEquationNode](../)
-* Namespace [Aspose.Cells.Drawing.Equations](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

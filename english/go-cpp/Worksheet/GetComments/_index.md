@@ -10,7 +10,7 @@ url: /go-cpp/worksheet/getcomments/
 
 ## GetComments function
 
-Gets the <see cref="Comment"/> collection.
+Gets the Comment collection.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *Worksheet) GetComments()  (*CommentCollection,  error)
 ## See Also
 
 * Class [Worksheet](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

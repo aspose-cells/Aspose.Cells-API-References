@@ -10,7 +10,7 @@ url: /go-cpp/rangecollection/get/
 
 ## Get function
 
-Gets the <see cref="Range"/> element at the specified index.
+Gets the Range element at the specified index.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *RangeCollection) Get(index int32)  (*Range,  error)
 ## See Also
 
 * Class [RangeCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

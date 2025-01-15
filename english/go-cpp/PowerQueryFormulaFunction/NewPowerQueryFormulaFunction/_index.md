@@ -24,5 +24,4 @@ func NewPowerQueryFormulaFunction(src *PowerQueryFormula) ( *PowerQueryFormulaFu
 ## See Also
 
 * Class [PowerQueryFormulaFunction](../)
-* Namespace [Aspose.Cells.QueryTables](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

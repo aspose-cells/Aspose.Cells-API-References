@@ -24,5 +24,4 @@ func (instance *Worksheet) FreezePanes_String_Int_Int(cellname string, freezedro
 ## See Also
 
 * Class [Worksheet](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -10,7 +10,7 @@ url: /go-cpp/smarttagsetting/add_int_int/
 
 ## Add_Int_Int function
 
-Adds a <see cref="SmartTagCollection"/> object to a cell.
+Adds a SmartTagCollection object to a cell.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *SmartTagSetting) Add_Int_Int(row int32, column int32)  (int32,  
 ## See Also
 
 * Class [SmartTagSetting](../)
-* Namespace [Aspose.Cells.Markup](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

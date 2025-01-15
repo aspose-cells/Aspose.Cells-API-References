@@ -24,5 +24,4 @@ func NewPdfBookmarkEntry() ( *PdfBookmarkEntry, error)
 ## See Also
 
 * Class [PdfBookmarkEntry](../)
-* Namespace [Aspose.Cells.Rendering](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

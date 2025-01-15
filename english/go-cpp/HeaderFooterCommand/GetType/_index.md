@@ -24,5 +24,4 @@ func (instance *HeaderFooterCommand) GetType()  (HeaderFooterCommandType,  error
 ## See Also
 
 * Class [HeaderFooterCommand](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

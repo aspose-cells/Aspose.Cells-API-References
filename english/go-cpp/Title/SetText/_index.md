@@ -24,5 +24,4 @@ func (instance *Title) SetText(value string)  error
 ## See Also
 
 * Class [Title](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

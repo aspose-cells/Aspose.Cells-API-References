@@ -24,5 +24,4 @@ func (instance *ConditionalFormattingIconCollection) Get(index int32)  (*Conditi
 ## See Also
 
 * Class [ConditionalFormattingIconCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

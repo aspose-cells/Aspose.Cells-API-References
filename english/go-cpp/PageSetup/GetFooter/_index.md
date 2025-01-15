@@ -24,5 +24,4 @@ func (instance *PageSetup) GetFooter(section int32)  (string,  error)
 ## See Also
 
 * Class [PageSetup](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

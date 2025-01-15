@@ -24,5 +24,4 @@ func (instance *Font) SetUnderline(value FontUnderlineType)  error
 ## See Also
 
 * Class [Font](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

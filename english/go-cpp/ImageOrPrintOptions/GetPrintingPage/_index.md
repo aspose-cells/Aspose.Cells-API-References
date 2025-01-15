@@ -24,5 +24,4 @@ func (instance *ImageOrPrintOptions) GetPrintingPage()  (PrintingPageType,  erro
 ## See Also
 
 * Class [ImageOrPrintOptions](../)
-* Namespace [Aspose.Cells.Rendering](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

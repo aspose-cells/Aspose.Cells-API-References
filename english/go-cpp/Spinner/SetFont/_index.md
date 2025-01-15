@@ -24,5 +24,4 @@ func (instance *Spinner) SetFont(value *Font)  error
 ## See Also
 
 * Class [Spinner](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

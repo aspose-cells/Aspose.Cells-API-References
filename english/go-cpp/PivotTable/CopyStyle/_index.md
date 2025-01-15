@@ -24,5 +24,4 @@ func (instance *PivotTable) CopyStyle(pivottable *PivotTable)  error
 ## See Also
 
 * Class [PivotTable](../)
-* Namespace [Aspose.Cells.Pivot](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

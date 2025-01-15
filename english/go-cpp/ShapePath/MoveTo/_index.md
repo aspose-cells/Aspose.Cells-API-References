@@ -24,5 +24,4 @@ func (instance *ShapePath) MoveTo(x float32, y float32)  error
 ## See Also
 
 * Class [ShapePath](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

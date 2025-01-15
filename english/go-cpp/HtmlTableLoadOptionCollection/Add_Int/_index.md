@@ -24,5 +24,4 @@ func (instance *HtmlTableLoadOptionCollection) Add_Int(tableindex int32)  (int32
 ## See Also
 
 * Class [HtmlTableLoadOptionCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *RevisionCellMove) IsNull()  (bool,  error)
 ## See Also
 
 * Class [RevisionCellMove](../)
-* Namespace [Aspose.Cells.Revisions](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *FormatConditionCollection) IsNull()  (bool,  error)
 ## See Also
 
 * Class [FormatConditionCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -10,7 +10,7 @@ url: /go-cpp/axis/getarea/
 
 ## GetArea function
 
-Gets the <see cref="Area"/>.
+Gets the Area.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *Axis) GetArea()  (*Area,  error)
 ## See Also
 
 * Class [Axis](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -32,3 +32,5 @@ type PictureBulletValue struct  {
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[GetType](./gettype/) | Gets the type of the bullet's value. | 
+|[GetImageData](./getimagedata/) | Gets and sets image data of the bullet. | 
+|[SetImageData](./setimagedata/) | Gets and sets image data of the bullet. | 

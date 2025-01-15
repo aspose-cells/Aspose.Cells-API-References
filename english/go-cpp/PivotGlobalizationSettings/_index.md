@@ -39,6 +39,8 @@ type PivotGlobalizationSettings struct  {
 |[GetTextOfRowLabels](./gettextofrowlabels/) | Gets the text of "Row Labels" label in the PivotTable. | 
 |[GetTextOfEmptyData](./gettextofemptydata/) | Gets the text of "(blank)" label in the PivotTable. | 
 |[GetTextOfDataFieldHeader](./gettextofdatafieldheader/) | Gets the the text of the value area field header in the PivotTable. | 
+|[GetShortTextOf12Months](./getshorttextof12months/) | Gets all short formatted string of 12 months. | 
+|[GetTextOf4Quaters](./gettextof4quaters/) | Gets the local text of 4 Quaters. | 
 |[GetTextOfYears](./gettextofyears/) | Gets the local text of "Years". | 
 |[GetTextOfQuarters](./gettextofquarters/) | Get the local text of "Quarters". | 
 |[GetTextOfMonths](./gettextofmonths/) | Gets the local text of "Months". | 
@@ -47,4 +49,4 @@ type PivotGlobalizationSettings struct  {
 |[GetTextOfMinutes](./gettextofminutes/) | Gets the local text of "Minutes". | 
 |[GetTextOfSeconds](./gettextofseconds/) | Gets the local text of "Seconds" | 
 |[GetTextOfRange](./gettextofrange/) | Gets the local text of "Range" | 
-|[GetTextOfSubTotal](./gettextofsubtotal/) | Gets the text of <see cref="PivotFieldSubtotalType"/> type in the PivotTable. | 
+|[GetTextOfSubTotal](./gettextofsubtotal/) | Gets the text of PivotFieldSubtotalType type in the PivotTable. | 

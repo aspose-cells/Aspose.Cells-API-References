@@ -32,4 +32,4 @@ type XmlMap struct  {
 |[GetName](./getname/) | Returns or sets the name of the object. | 
 |[SetName](./setname/) | Returns or sets the name of the object. | 
 |[GetRootElementName](./getrootelementname/) | Gets root element name. | 
-|[GetDataBinding](./getdatabinding/) | Gets an <see cref="XmlDataBinding"/> of this map. | 
+|[GetDataBinding](./getdatabinding/) | Gets an XmlDataBinding of this map. | 

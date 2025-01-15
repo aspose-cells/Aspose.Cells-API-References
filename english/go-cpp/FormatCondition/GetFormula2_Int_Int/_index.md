@@ -24,5 +24,4 @@ func (instance *FormatCondition) GetFormula2_Int_Int(row int32, column int32)  (
 ## See Also
 
 * Class [FormatCondition](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

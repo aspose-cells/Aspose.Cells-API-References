@@ -24,5 +24,4 @@ func (instance *XmlMapCollection) Get(index int32)  (*XmlMap,  error)
 ## See Also
 
 * Class [XmlMapCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *FilterColumnCollection) GetByIndex(index int32)  (*FilterColumn,
 ## See Also
 
 * Class [FilterColumnCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -10,7 +10,7 @@ url: /go-cpp/imageorprintoptions/settiffbinarizationmethod/
 
 ## SetTiffBinarizationMethod function
 
-Gets or sets method used while converting images to 1 bpp formatwhen <see cref="ImageType"/> is Tiff and <see cref="TiffCompression"/> is equal to Ccitt3 or Ccitt4.
+Gets or sets method used while converting images to 1 bpp formatwhen ImageType is Tiff and TiffCompression is equal to Ccitt3 or Ccitt4.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *ImageOrPrintOptions) SetTiffBinarizationMethod(value ImageBinari
 ## See Also
 
 * Class [ImageOrPrintOptions](../)
-* Namespace [Aspose.Cells.Rendering](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

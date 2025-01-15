@@ -24,5 +24,4 @@ func (instance *UnionRange) Copy(range_ *UnionRange, options *PasteOptions)  err
 ## See Also
 
 * Class [UnionRange](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

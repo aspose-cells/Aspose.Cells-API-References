@@ -24,5 +24,4 @@ func (instance *DifSaveOptions) SetCreateDirectory(value bool)  error
 ## See Also
 
 * Class [DifSaveOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

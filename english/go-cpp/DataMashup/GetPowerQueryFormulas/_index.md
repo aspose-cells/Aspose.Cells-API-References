@@ -24,5 +24,4 @@ func (instance *DataMashup) GetPowerQueryFormulas()  (*PowerQueryFormulaCollecti
 ## See Also
 
 * Class [DataMashup](../)
-* Namespace [Aspose.Cells.QueryTables](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

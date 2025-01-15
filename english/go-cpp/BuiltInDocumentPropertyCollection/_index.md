@@ -30,8 +30,8 @@ type BuiltInDocumentPropertyCollection struct  {
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
-|[Get_String](./get_string/) | Returns a <see cref="DocumentProperty"/> object by the name of the property. | 
-|[Get_Int](./get_int/) | Returns a <see cref="DocumentProperty"/> object by index. | 
+|[Get_String](./get_string/) | Returns a DocumentProperty object by the name of the property. | 
+|[Get_Int](./get_int/) | Returns a DocumentProperty object by index. | 
 |[GetLanguage](./getlanguage/) | Gets or sets the document's language. | 
 |[SetLanguage](./setlanguage/) | Gets or sets the document's language. | 
 |[GetAuthor](./getauthor/) | Gets or sets the name of the document's author. | 

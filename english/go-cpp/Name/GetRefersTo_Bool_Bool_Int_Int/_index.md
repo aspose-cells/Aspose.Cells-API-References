@@ -24,5 +24,4 @@ func (instance *Name) GetRefersTo_Bool_Bool_Int_Int(isr1c1 bool, islocal bool, r
 ## See Also
 
 * Class [Name](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

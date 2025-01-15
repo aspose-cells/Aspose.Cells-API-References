@@ -24,5 +24,4 @@ func (instance *ImageActiveXControl) SetPictureSizeMode(value ControlPictureSize
 ## See Also
 
 * Class [ImageActiveXControl](../)
-* Namespace [Aspose.Cells.Drawing.ActiveXControls](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

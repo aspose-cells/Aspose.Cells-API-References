@@ -10,7 +10,7 @@ url: /go-cpp/cells/checkcolumn/
 
 ## CheckColumn function
 
-Gets the <see cref="Column"/> element or null at the specified column index.
+Gets the Column element or null at the specified column index.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *Cells) CheckColumn(columnindex int32)  (*Column,  error)
 ## See Also
 
 * Class [Cells](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

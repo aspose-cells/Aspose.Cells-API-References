@@ -10,7 +10,7 @@ url: /go-cpp/workbook/getdataconnections/
 
 ## GetDataConnections function
 
-Gets the <see cref="ExternalConnection"/> collection.
+Gets the ExternalConnection collection.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *Workbook) GetDataConnections()  (*ExternalConnectionCollection, 
 ## See Also
 
 * Class [Workbook](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

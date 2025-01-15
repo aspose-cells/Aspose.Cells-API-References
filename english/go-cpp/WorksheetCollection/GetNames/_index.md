@@ -24,5 +24,4 @@ func (instance *WorksheetCollection) GetNames()  (*NameCollection,  error)
 ## See Also
 
 * Class [WorksheetCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

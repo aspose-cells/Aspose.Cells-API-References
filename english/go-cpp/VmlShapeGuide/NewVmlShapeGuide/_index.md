@@ -24,5 +24,4 @@ func NewVmlShapeGuide(src *BaseShapeGuide) ( *VmlShapeGuide, error)
 ## See Also
 
 * Class [VmlShapeGuide](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

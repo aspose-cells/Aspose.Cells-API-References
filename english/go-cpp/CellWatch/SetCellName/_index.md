@@ -24,5 +24,4 @@ func (instance *CellWatch) SetCellName(value string)  error
 ## See Also
 
 * Class [CellWatch](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

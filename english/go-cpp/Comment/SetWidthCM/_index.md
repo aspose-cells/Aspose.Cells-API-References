@@ -24,5 +24,4 @@ func (instance *Comment) SetWidthCM(value float64)  error
 ## See Also
 
 * Class [Comment](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

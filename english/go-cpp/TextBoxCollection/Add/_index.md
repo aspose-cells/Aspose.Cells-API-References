@@ -24,5 +24,4 @@ func (instance *TextBoxCollection) Add(upperleftrow int32, upperleftcolumn int32
 ## See Also
 
 * Class [TextBoxCollection](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

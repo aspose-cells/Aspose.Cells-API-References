@@ -24,5 +24,4 @@ func (instance *RevisionCollection) IsNull()  (bool,  error)
 ## See Also
 
 * Class [RevisionCollection](../)
-* Namespace [Aspose.Cells.Revisions](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

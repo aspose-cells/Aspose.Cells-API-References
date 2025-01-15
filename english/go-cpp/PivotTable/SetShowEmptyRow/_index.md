@@ -10,7 +10,7 @@ url: /go-cpp/pivottable/setshowemptyrow/
 
 ## SetShowEmptyRow function
 
-Specifies a boolean value that indicates whether to include empty rows in the table.
+Indicates whether to include empty rows in the table.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *PivotTable) SetShowEmptyRow(value bool)  error
 ## See Also
 
 * Class [PivotTable](../)
-* Namespace [Aspose.Cells.Pivot](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

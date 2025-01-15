@@ -24,5 +24,4 @@ func (instance *PlotArea) IsNull()  (bool,  error)
 ## See Also
 
 * Class [PlotArea](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *Spinner) GetRight()  (int32,  error)
 ## See Also
 
 * Class [Spinner](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

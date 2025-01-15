@@ -24,5 +24,4 @@ func (instance *BorderBoxEquationNode) Equals(obj *Object)  (bool,  error)
 ## See Also
 
 * Class [BorderBoxEquationNode](../)
-* Namespace [Aspose.Cells.Drawing.Equations](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

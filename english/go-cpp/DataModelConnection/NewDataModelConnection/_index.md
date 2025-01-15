@@ -24,5 +24,4 @@ func NewDataModelConnection(src *ExternalConnection) ( *DataModelConnection, err
 ## See Also
 
 * Class [DataModelConnection](../)
-* Namespace [Aspose.Cells.ExternalConnections](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

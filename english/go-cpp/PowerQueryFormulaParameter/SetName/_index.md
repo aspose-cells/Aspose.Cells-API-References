@@ -24,5 +24,4 @@ func (instance *PowerQueryFormulaParameter) SetName(value string)  error
 ## See Also
 
 * Class [PowerQueryFormulaParameter](../)
-* Namespace [Aspose.Cells.QueryTables](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

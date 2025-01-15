@@ -24,5 +24,4 @@ func (instance *DataBar) GetColor()  (*Color,  error)
 ## See Also
 
 * Class [DataBar](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

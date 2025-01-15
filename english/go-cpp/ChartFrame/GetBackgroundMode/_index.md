@@ -24,5 +24,4 @@ func (instance *ChartFrame) GetBackgroundMode()  (BackgroundMode,  error)
 ## See Also
 
 * Class [ChartFrame](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

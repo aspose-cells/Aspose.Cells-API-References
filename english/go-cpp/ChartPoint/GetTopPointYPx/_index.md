@@ -24,5 +24,4 @@ func (instance *ChartPoint) GetTopPointYPx(index int32)  (float32,  error)
 ## See Also
 
 * Class [ChartPoint](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

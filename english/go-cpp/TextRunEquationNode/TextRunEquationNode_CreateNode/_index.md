@@ -24,5 +24,4 @@ func TextRunEquationNode_CreateNode(equationtype EquationNodeType, workbook *Wor
 ## See Also
 
 * Class [TextRunEquationNode](../)
-* Namespace [Aspose.Cells.Drawing.Equations](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

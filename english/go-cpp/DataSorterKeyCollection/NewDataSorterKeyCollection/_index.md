@@ -24,5 +24,4 @@ func NewDataSorterKeyCollection() ( *DataSorterKeyCollection, error)
 ## See Also
 
 * Class [DataSorterKeyCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

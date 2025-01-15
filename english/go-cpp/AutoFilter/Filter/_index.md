@@ -24,5 +24,4 @@ func (instance *AutoFilter) Filter(fieldindex int32, criteria string)  error
 ## See Also
 
 * Class [AutoFilter](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *PivotDiscreteGroupSettings) IsNull()  (bool,  error)
 ## See Also
 
 * Class [PivotDiscreteGroupSettings](../)
-* Namespace [Aspose.Cells.Pivot](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

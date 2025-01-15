@@ -10,7 +10,7 @@ url: /go-cpp/pagesetup/getpicture_bool_int/
 
 ## GetPicture_Bool_Int function
 
-Gets the <see cref="Picture"/> object of the header / footer.
+Gets the Picture object of the header / footer.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *PageSetup) GetPicture_Bool_Int(isheader bool, section int32)  (*
 ## See Also
 
 * Class [PageSetup](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

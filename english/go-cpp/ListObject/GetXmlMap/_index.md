@@ -10,7 +10,7 @@ url: /go-cpp/listobject/getxmlmap/
 
 ## GetXmlMap function
 
-Gets an <see cref="XmlMap"/> used for this list.
+Gets an XmlMap used for this list.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *ListObject) GetXmlMap()  (*XmlMap,  error)
 ## See Also
 
 * Class [ListObject](../)
-* Namespace [Aspose.Cells.Tables](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

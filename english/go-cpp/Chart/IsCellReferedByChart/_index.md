@@ -24,5 +24,4 @@ func (instance *Chart) IsCellReferedByChart(sheetindex int32, rowindex int32, co
 ## See Also
 
 * Class [Chart](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

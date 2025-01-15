@@ -24,5 +24,4 @@ func (instance *NaryEquationNode) InsertChild(index int32, equationtype Equation
 ## See Also
 
 * Class [NaryEquationNode](../)
-* Namespace [Aspose.Cells.Drawing.Equations](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

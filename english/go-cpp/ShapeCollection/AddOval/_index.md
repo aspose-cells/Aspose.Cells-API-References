@@ -24,5 +24,4 @@ func (instance *ShapeCollection) AddOval(upperleftrow int32, top int32, upperlef
 ## See Also
 
 * Class [ShapeCollection](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

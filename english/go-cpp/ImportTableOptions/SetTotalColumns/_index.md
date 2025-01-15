@@ -24,5 +24,4 @@ func (instance *ImportTableOptions) SetTotalColumns(value int32)  error
 ## See Also
 
 * Class [ImportTableOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -10,7 +10,7 @@ url: /go-cpp/activexcontrolbase/getworkbook/
 
 ## GetWorkbook function
 
-Gets the <see cref="Workbook"/> object.
+Gets the Workbook object.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *ActiveXControlBase) GetWorkbook()  (*Workbook,  error)
 ## See Also
 
 * Class [ActiveXControlBase](../)
-* Namespace [Aspose.Cells.Drawing.ActiveXControls](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

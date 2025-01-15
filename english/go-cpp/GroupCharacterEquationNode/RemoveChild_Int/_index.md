@@ -24,5 +24,4 @@ func (instance *GroupCharacterEquationNode) RemoveChild_Int(index int32)  error
 ## See Also
 
 * Class [GroupCharacterEquationNode](../)
-* Namespace [Aspose.Cells.Drawing.Equations](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

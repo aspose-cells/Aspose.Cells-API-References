@@ -10,7 +10,7 @@ url: /go-cpp/sparklinegroupcollection/add_sparklinetype_string_bool_cellarea/
 
 ## Add_SparklineType_String_Bool_CellArea function
 
-Adds an <see cref="SparklineGroup"/> with <see cref="Sparkline"/> to the collection.
+Adds an SparklineGroup with Sparkline to the collection.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *SparklineGroupCollection) Add_SparklineType_String_Bool_CellArea
 ## See Also
 
 * Class [SparklineGroupCollection](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

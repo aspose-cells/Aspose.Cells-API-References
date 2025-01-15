@@ -24,5 +24,4 @@ func (instance *SettableGlobalizationSettings) SetRowSeparatorOfFormulaArray(c b
 ## See Also
 
 * Class [SettableGlobalizationSettings](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

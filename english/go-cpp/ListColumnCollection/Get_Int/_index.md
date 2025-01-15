@@ -24,5 +24,4 @@ func (instance *ListColumnCollection) Get_Int(index int32)  (*ListColumn,  error
 ## See Also
 
 * Class [ListColumnCollection](../)
-* Namespace [Aspose.Cells.Tables](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

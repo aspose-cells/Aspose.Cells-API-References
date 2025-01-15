@@ -24,5 +24,4 @@ func ArrayEquationNode_CreateNode(equationtype EquationNodeType, workbook *Workb
 ## See Also
 
 * Class [ArrayEquationNode](../)
-* Namespace [Aspose.Cells.Drawing.Equations](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

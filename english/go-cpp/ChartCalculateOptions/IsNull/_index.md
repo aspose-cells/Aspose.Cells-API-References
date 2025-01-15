@@ -24,5 +24,4 @@ func (instance *ChartCalculateOptions) IsNull()  (bool,  error)
 ## See Also
 
 * Class [ChartCalculateOptions](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

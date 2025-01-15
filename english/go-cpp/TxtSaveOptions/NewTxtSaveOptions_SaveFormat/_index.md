@@ -24,5 +24,4 @@ func NewTxtSaveOptions_SaveFormat(saveformat SaveFormat) ( *TxtSaveOptions, erro
 ## See Also
 
 * Class [TxtSaveOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

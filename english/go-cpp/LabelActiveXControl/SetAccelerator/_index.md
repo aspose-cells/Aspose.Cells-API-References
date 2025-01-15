@@ -24,5 +24,4 @@ func (instance *LabelActiveXControl) SetAccelerator(value byte)  error
 ## See Also
 
 * Class [LabelActiveXControl](../)
-* Namespace [Aspose.Cells.Drawing.ActiveXControls](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *ErrorBar) SetEndArrowWidth(value MsoArrowheadWidth)  error
 ## See Also
 
 * Class [ErrorBar](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

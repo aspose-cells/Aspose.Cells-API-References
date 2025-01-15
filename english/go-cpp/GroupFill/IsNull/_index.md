@@ -24,5 +24,4 @@ func (instance *GroupFill) IsNull()  (bool,  error)
 ## See Also
 
 * Class [GroupFill](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

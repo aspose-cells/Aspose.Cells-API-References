@@ -10,7 +10,7 @@ url: /go-cpp/vbaproject/getmodules/
 
 ## GetModules function
 
-Gets all <see cref="VbaModule"/> objects.
+Gets all VbaModule objects.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *VbaProject) GetModules()  (*VbaModuleCollection,  error)
 ## See Also
 
 * Class [VbaProject](../)
-* Namespace [Aspose.Cells.Vba](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

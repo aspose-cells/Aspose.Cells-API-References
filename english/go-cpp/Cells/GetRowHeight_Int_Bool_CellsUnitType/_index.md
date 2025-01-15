@@ -24,5 +24,4 @@ func (instance *Cells) GetRowHeight_Int_Bool_CellsUnitType(row int32, isoriginal
 ## See Also
 
 * Class [Cells](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

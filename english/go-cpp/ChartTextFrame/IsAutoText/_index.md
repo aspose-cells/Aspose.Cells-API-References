@@ -24,5 +24,4 @@ func (instance *ChartTextFrame) IsAutoText()  (bool,  error)
 ## See Also
 
 * Class [ChartTextFrame](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *Trendline) SetFormattingType(value ChartLineFormattingType)  err
 ## See Also
 
 * Class [Trendline](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

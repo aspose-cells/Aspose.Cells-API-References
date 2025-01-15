@@ -24,5 +24,4 @@ func (instance *ScrollBarActiveXControl) SetOrientation(value ControlScrollOrien
 ## See Also
 
 * Class [ScrollBarActiveXControl](../)
-* Namespace [Aspose.Cells.Drawing.ActiveXControls](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

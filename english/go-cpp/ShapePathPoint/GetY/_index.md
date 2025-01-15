@@ -24,5 +24,4 @@ func (instance *ShapePathPoint) GetY()  (int32,  error)
 ## See Also
 
 * Class [ShapePathPoint](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *SpinButtonActiveXControl) GetOrientation()  (ControlScrollOrient
 ## See Also
 
 * Class [SpinButtonActiveXControl](../)
-* Namespace [Aspose.Cells.Drawing.ActiveXControls](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

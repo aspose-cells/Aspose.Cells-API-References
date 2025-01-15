@@ -24,5 +24,4 @@ func (instance *ShadowEffect) GetColor()  (*CellsColor,  error)
 ## See Also
 
 * Class [ShadowEffect](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

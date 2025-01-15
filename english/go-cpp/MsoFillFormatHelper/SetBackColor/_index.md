@@ -24,5 +24,4 @@ func (instance *MsoFillFormatHelper) SetBackColor(value *Color)  error
 ## See Also
 
 * Class [MsoFillFormatHelper](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

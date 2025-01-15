@@ -24,5 +24,4 @@ func (instance *XmlMap) GetName()  (string,  error)
 ## See Also
 
 * Class [XmlMap](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

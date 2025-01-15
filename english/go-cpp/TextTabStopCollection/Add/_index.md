@@ -24,5 +24,4 @@ func (instance *TextTabStopCollection) Add(tabalignment TextTabAlignmentType, ta
 ## See Also
 
 * Class [TextTabStopCollection](../)
-* Namespace [Aspose.Cells.Drawing.Texts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

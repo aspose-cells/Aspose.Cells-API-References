@@ -10,7 +10,7 @@ url: /go-cpp/pivottable/setenablefieldlist/
 
 ## SetEnableFieldList function
 
-Gets whether enable the field list for the PivotTable.
+Indicates whether the field list for the PivotTable is available on the view of Excel.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *PivotTable) SetEnableFieldList(value bool)  error
 ## See Also
 
 * Class [PivotTable](../)
-* Namespace [Aspose.Cells.Pivot](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *ProtectedRange) AddArea(startrow int32, startcolumn int32, endro
 ## See Also
 
 * Class [ProtectedRange](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

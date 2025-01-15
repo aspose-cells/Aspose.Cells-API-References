@@ -10,7 +10,7 @@ url: /go-cpp/shape/getfill/
 
 ## GetFill function
 
-Returns a <see cref="FillFormat"/> object that contains fill formatting properties for the specified shape.
+Returns a FillFormat object that contains fill formatting properties for the specified shape.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *Shape) GetFill()  (*FillFormat,  error)
 ## See Also
 
 * Class [Shape](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

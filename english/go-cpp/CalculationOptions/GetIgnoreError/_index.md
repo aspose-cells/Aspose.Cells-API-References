@@ -24,5 +24,4 @@ func (instance *CalculationOptions) GetIgnoreError()  (bool,  error)
 ## See Also
 
 * Class [CalculationOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

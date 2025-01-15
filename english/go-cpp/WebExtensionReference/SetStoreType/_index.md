@@ -24,5 +24,4 @@ func (instance *WebExtensionReference) SetStoreType(value WebExtensionStoreType)
 ## See Also
 
 * Class [WebExtensionReference](../)
-* Namespace [Aspose.Cells.WebExtensions](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

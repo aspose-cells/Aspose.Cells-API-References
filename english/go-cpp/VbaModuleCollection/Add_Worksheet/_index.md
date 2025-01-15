@@ -24,5 +24,4 @@ func (instance *VbaModuleCollection) Add_Worksheet(sheet *Worksheet)  (int32,  e
 ## See Also
 
 * Class [VbaModuleCollection](../)
-* Namespace [Aspose.Cells.Vba](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

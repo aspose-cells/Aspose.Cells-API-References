@@ -24,5 +24,4 @@ func (instance *ChartTextFrame) Characters(startindex int32, length int32)  (*Fo
 ## See Also
 
 * Class [ChartTextFrame](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

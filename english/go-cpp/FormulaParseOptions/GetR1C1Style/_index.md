@@ -24,5 +24,4 @@ func (instance *FormulaParseOptions) GetR1C1Style()  (bool,  error)
 ## See Also
 
 * Class [FormulaParseOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

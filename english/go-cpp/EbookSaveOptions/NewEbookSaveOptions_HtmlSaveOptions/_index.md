@@ -24,5 +24,4 @@ func NewEbookSaveOptions_HtmlSaveOptions(src *HtmlSaveOptions) ( *EbookSaveOptio
 ## See Also
 
 * Class [EbookSaveOptions](../)
-* Namespace [Aspose.Cells.Saving](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

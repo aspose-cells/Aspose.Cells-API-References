@@ -24,5 +24,4 @@ func FontConfigs_SetFontFolder(fontfolder string, recursive bool)  error
 ## See Also
 
 * Class [FontConfigs](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

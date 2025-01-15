@@ -24,5 +24,4 @@ func (instance *RectangleShape) SetHeightScale(value int32)  error
 ## See Also
 
 * Class [RectangleShape](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

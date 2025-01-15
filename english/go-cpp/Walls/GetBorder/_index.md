@@ -10,7 +10,7 @@ url: /go-cpp/walls/getborder/
 
 ## GetBorder function
 
-Gets or sets the border <see cref="Line"/>.
+Gets or sets the border Line.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *Walls) GetBorder()  (*Line,  error)
 ## See Also
 
 * Class [Walls](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

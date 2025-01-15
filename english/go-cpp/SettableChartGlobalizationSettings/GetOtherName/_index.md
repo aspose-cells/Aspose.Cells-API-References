@@ -24,5 +24,4 @@ func (instance *SettableChartGlobalizationSettings) GetOtherName()  (string,  er
 ## See Also
 
 * Class [SettableChartGlobalizationSettings](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

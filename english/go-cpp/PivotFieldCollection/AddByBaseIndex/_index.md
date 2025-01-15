@@ -24,5 +24,4 @@ func (instance *PivotFieldCollection) AddByBaseIndex(basefieldindex int32)  (int
 ## See Also
 
 * Class [PivotFieldCollection](../)
-* Namespace [Aspose.Cells.Pivot](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

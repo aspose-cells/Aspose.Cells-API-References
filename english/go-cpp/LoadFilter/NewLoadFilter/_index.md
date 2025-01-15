@@ -24,5 +24,4 @@ func NewLoadFilter() ( *LoadFilter, error)
 ## See Also
 
 * Class [LoadFilter](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

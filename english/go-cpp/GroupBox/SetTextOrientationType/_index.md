@@ -24,5 +24,4 @@ func (instance *GroupBox) SetTextOrientationType(value TextOrientationType)  err
 ## See Also
 
 * Class [GroupBox](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

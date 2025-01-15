@@ -10,7 +10,7 @@ url: /go-cpp/settablepivotglobalizationsettings/settextofsubtotal/
 
 ## SetTextOfSubTotal function
 
-Sets the text of <see cref="PivotFieldSubtotalType"/> type in the PivotTable.
+Sets the text of PivotFieldSubtotalType type in the PivotTable.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *SettablePivotGlobalizationSettings) SetTextOfSubTotal(subtotalty
 ## See Also
 
 * Class [SettablePivotGlobalizationSettings](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

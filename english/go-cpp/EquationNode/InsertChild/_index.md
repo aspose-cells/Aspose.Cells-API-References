@@ -24,5 +24,4 @@ func (instance *EquationNode) InsertChild(index int32, equationtype EquationNode
 ## See Also
 
 * Class [EquationNode](../)
-* Namespace [Aspose.Cells.Drawing.Equations](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

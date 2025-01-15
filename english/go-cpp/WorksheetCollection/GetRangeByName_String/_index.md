@@ -24,5 +24,4 @@ func (instance *WorksheetCollection) GetRangeByName_String(rangename string)  (*
 ## See Also
 
 * Class [WorksheetCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

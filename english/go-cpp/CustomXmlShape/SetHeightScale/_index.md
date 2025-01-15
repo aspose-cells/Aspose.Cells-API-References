@@ -24,5 +24,4 @@ func (instance *CustomXmlShape) SetHeightScale(value int32)  error
 ## See Also
 
 * Class [CustomXmlShape](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

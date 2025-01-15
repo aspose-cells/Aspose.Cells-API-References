@@ -24,5 +24,4 @@ func (instance *Comment) SetAutoSize(value bool)  error
 ## See Also
 
 * Class [Comment](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

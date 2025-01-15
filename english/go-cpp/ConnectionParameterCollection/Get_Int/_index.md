@@ -10,7 +10,7 @@ url: /go-cpp/connectionparametercollection/get_int/
 
 ## Get_Int function
 
-Gets the <see cref="ConnectionParameter"/> element at the specified index.
+Gets the ConnectionParameter element at the specified index.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *ConnectionParameterCollection) Get_Int(index int32)  (*Connectio
 ## See Also
 
 * Class [ConnectionParameterCollection](../)
-* Namespace [Aspose.Cells.ExternalConnections](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *CustomProperty) SetValue(value string)  error
 ## See Also
 
 * Class [CustomProperty](../)
-* Namespace [Aspose.Cells.Properties](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

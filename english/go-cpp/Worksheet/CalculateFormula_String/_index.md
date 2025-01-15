@@ -24,5 +24,4 @@ func (instance *Worksheet) CalculateFormula_String(formula string)  (*Object,  e
 ## See Also
 
 * Class [Worksheet](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

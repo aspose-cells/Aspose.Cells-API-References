@@ -24,5 +24,4 @@ func (instance *ShapeGuideCollection) Get(index int32)  (*ShapeGuide,  error)
 ## See Also
 
 * Class [ShapeGuideCollection](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

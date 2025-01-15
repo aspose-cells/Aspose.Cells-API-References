@@ -10,7 +10,7 @@ url: /go-cpp/checkboxcollection/get/
 
 ## Get function
 
-Gets the <see cref="CheckBox"/> element at the specified index.
+Gets the CheckBox element at the specified index.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *CheckBoxCollection) Get(index int32)  (*CheckBox,  error)
 ## See Also
 
 * Class [CheckBoxCollection](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

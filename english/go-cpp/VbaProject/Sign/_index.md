@@ -24,5 +24,4 @@ func (instance *VbaProject) Sign(digitalsignature *DigitalSignature)  error
 ## See Also
 
 * Class [VbaProject](../)
-* Namespace [Aspose.Cells.Vba](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

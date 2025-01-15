@@ -10,7 +10,7 @@ url: /go-cpp/worksheet/getpictures/
 
 ## GetPictures function
 
-Gets a <see cref="Picture"/> collection.
+Gets a Picture collection.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *Worksheet) GetPictures()  (*PictureCollection,  error)
 ## See Also
 
 * Class [Worksheet](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *SparklineCollection) IsNull()  (bool,  error)
 ## See Also
 
 * Class [SparklineCollection](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *Floor) SetInvertIfNegative(value bool)  error
 ## See Also
 
 * Class [Floor](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

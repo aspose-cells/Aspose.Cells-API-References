@@ -24,5 +24,4 @@ func (instance *ShapeTextAlignment) IsLockedText()  (bool,  error)
 ## See Also
 
 * Class [ShapeTextAlignment](../)
-* Namespace [Aspose.Cells.Drawing.Texts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

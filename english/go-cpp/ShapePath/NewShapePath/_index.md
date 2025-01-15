@@ -10,7 +10,7 @@ url: /go-cpp/shapepath/newshapepath/
 
 ## NewShapePath function
 
-Initializes a new instance of the <see cref="ShapePath"/> class.
+Initializes a new instance of the ShapePath class.
 
 ```go
 
@@ -24,5 +24,4 @@ func NewShapePath() ( *ShapePath, error)
 ## See Also
 
 * Class [ShapePath](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

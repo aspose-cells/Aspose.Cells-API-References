@@ -24,5 +24,4 @@ func (instance *ContentTypeProperty) GetValue()  (string,  error)
 ## See Also
 
 * Class [ContentTypeProperty](../)
-* Namespace [Aspose.Cells.Properties](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

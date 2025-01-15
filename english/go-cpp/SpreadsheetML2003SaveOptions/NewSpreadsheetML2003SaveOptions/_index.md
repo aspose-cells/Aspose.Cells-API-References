@@ -24,5 +24,4 @@ func NewSpreadsheetML2003SaveOptions() ( *SpreadsheetML2003SaveOptions, error)
 ## See Also
 
 * Class [SpreadsheetML2003SaveOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

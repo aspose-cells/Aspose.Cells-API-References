@@ -24,5 +24,4 @@ func (instance *MsoLineFormat) SetBackColor(value *Color)  error
 ## See Also
 
 * Class [MsoLineFormat](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

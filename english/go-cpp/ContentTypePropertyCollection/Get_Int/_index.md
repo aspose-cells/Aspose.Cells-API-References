@@ -24,5 +24,4 @@ func (instance *ContentTypePropertyCollection) Get_Int(index int32)  (*ContentTy
 ## See Also
 
 * Class [ContentTypePropertyCollection](../)
-* Namespace [Aspose.Cells.Properties](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

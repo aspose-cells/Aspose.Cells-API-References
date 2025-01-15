@@ -24,5 +24,4 @@ func (instance *CustomXmlShape) GetCreateId(uuid *UUID)  error
 ## See Also
 
 * Class [CustomXmlShape](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

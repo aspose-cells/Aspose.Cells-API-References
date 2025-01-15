@@ -24,5 +24,4 @@ func (instance *RevisionQueryTable) GetWorksheet()  (*Worksheet,  error)
 ## See Also
 
 * Class [RevisionQueryTable](../)
-* Namespace [Aspose.Cells.Revisions](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

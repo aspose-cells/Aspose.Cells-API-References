@@ -24,5 +24,4 @@ func (instance *ThreadedCommentAuthorCollection) Get_Int(index int32)  (*Threade
 ## See Also
 
 * Class [ThreadedCommentAuthorCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

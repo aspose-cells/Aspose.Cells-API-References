@@ -10,7 +10,7 @@ url: /go-cpp/worksheet/getquerytables/
 
 ## GetQueryTables function
 
-Gets <see cref="QueryTableCollection"/> in the worksheet.
+Gets QueryTableCollection in the worksheet.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *Worksheet) GetQueryTables()  (*QueryTableCollection,  error)
 ## See Also
 
 * Class [Worksheet](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

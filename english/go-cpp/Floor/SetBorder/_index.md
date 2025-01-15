@@ -10,7 +10,7 @@ url: /go-cpp/floor/setborder/
 
 ## SetBorder function
 
-Gets or sets the border <see cref="Line"/>.
+Gets or sets the border Line.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *Floor) SetBorder(value *Line)  error
 ## See Also
 
 * Class [Floor](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

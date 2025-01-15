@@ -24,5 +24,4 @@ func (instance *Name) GetRange_Int_Int_Int(sheetindex int32, row int32, column i
 ## See Also
 
 * Class [Name](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

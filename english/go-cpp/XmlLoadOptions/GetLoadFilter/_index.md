@@ -24,5 +24,4 @@ func (instance *XmlLoadOptions) GetLoadFilter()  (*LoadFilter,  error)
 ## See Also
 
 * Class [XmlLoadOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

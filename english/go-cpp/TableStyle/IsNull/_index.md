@@ -24,5 +24,4 @@ func (instance *TableStyle) IsNull()  (bool,  error)
 ## See Also
 
 * Class [TableStyle](../)
-* Namespace [Aspose.Cells.Tables](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

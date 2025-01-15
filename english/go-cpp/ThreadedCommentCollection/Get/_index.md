@@ -24,5 +24,4 @@ func (instance *ThreadedCommentCollection) Get(index int32)  (*ThreadedComment, 
 ## See Also
 
 * Class [ThreadedCommentCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -10,7 +10,7 @@ url: /go-cpp/arcshape/getfill/
 
 ## GetFill function
 
-Returns a <see cref="FillFormat"/> object that contains fill formatting properties for the specified shape.
+Returns a FillFormat object that contains fill formatting properties for the specified shape.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *ArcShape) GetFill()  (*FillFormat,  error)
 ## See Also
 
 * Class [ArcShape](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

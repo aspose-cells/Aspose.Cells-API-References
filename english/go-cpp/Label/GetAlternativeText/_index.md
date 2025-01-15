@@ -10,7 +10,7 @@ url: /go-cpp/label/getalternativetext/
 
 ## GetAlternativeText function
 
-Returns or sets the descriptive (alternative) text string of the <see cref="Shape"/> object.
+Returns or sets the descriptive (alternative) text string of the Shape object.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *Label) GetAlternativeText()  (string,  error)
 ## See Also
 
 * Class [Label](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *GlobalizationSettings) GetCommentTitleName(type_ CommentTitleTyp
 ## See Also
 
 * Class [GlobalizationSettings](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

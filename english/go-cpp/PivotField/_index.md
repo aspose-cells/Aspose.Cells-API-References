@@ -36,6 +36,7 @@ type PivotField struct  {
 |[GroupBy_Double_Double_Double_Bool](./groupby_double_double_double_bool/) | Group the file by number. | 
 |[Ungroup](./ungroup/) | Ungroup the pivot field. | 
 |[GetPivotFilterByType](./getpivotfilterbytype/) | Gets the pivot filter of the pivot field by type | 
+|[GetFilters](./getfilters/) | Gets all pivot filters of this pivot field. | 
 |[ClearFilter](./clearfilter/) | Clears filter setting on this pivot field. | 
 |[FilterTop10](./filtertop10/) | Filters by values of data pivot field. | 
 |[FilterByValue](./filterbyvalue/) | Filters by values of data pivot field. | 
@@ -46,7 +47,7 @@ type PivotField struct  {
 |[IsValueFields](./isvaluefields/) | Indicates whether this field represents values fields. | 
 |[GetBaseIndex](./getbaseindex/) | Represents the PivotField index in the base PivotFields. | 
 |[SetBaseIndex](./setbaseindex/) | Represents the PivotField index in the base PivotFields. | 
-|[GetPosition](./getposition/) | Represents the index of <see cref="PivotField"/> in the region. | 
+|[GetPosition](./getposition/) | Represents the index of PivotField in the region. | 
 |[GetRegionType](./getregiontype/) | Specifies the region of the PivotTable that this field is displayed. | 
 |[GetName](./getname/) | Represents the name of PivotField. | 
 |[SetName](./setname/) | Represents the name of PivotField. | 
@@ -117,6 +118,8 @@ type PivotField struct  {
 |[HideItemDetail](./hideitemdetail/) | Sets whether the specific PivotItem in a pivot field is hidden detail. | 
 |[HideDetail](./hidedetail/) | Sets whether the PivotItems in a pivot field is hidden detail.That is collapse/expand this field. | 
 |[HideItem_String_Bool](./hideitem_string_bool/) | Sets whether the specific PivotItem in a data field is hidden. | 
+|[GetItems](./getitems/) | Get all labels of pivot items in this field. | 
+|[GetOriginalItems](./getoriginalitems/) | Get the original base items; | 
 |[GetItemCount](./getitemcount/) | Gets the count of the base items in this pivot field. | 
 |[AddCalculatedItem](./addcalculateditem/) | Add a calculated formula item to the pivot field. | 
 |[GetShowCompact](./getshowcompact/) | Indicates whether display labels from the next field in the same column on the Pivot Table view | 

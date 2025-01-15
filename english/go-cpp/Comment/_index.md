@@ -43,6 +43,7 @@ type Comment struct  {
 |[GetFont](./getfont/) | Gets the font of comment. | 
 |[FormatCharacters](./formatcharacters/) | Format some characters with the font setting. | 
 |[Characters](./characters/) | Returns a Characters object that represents a range of characters within the comment text. | 
+|[GetRichFormattings](./getrichformattings/) | Returns all Characters objectsthat represents a range of characters within the comment text. | 
 |[IsVisible](./isvisible/) | Represents if the comment is visible or not. | 
 |[SetIsVisible](./setisvisible/) | Represents if the comment is visible or not. | 
 |[GetTextOrientationType](./gettextorientationtype/) | Gets and sets the text orientation type of the comment. | 

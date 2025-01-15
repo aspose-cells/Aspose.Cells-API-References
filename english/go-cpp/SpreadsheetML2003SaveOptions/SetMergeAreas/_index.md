@@ -24,5 +24,4 @@ func (instance *SpreadsheetML2003SaveOptions) SetMergeAreas(value bool)  error
 ## See Also
 
 * Class [SpreadsheetML2003SaveOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -23,5 +23,4 @@ func (instance *LegendEntryCollection) GetCount()  (int32,  error)
 ## See Also
 
 * Class [LegendEntryCollection](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

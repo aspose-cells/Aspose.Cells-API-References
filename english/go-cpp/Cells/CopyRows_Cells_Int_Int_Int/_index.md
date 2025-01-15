@@ -24,5 +24,4 @@ func (instance *Cells) CopyRows_Cells_Int_Int_Int(sourcecells *Cells, sourcerowi
 ## See Also
 
 * Class [Cells](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

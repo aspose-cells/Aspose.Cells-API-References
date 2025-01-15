@@ -24,5 +24,4 @@ func (instance *Bullet) GetFontName()  (string,  error)
 ## See Also
 
 * Class [Bullet](../)
-* Namespace [Aspose.Cells.Drawing.Texts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

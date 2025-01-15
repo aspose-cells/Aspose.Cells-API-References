@@ -24,5 +24,4 @@ func (instance *CommentCollection) GetThreadedComments_String(cellname string)  
 ## See Also
 
 * Class [CommentCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

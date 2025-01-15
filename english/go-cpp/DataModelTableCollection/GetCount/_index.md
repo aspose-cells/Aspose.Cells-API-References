@@ -23,5 +23,4 @@ func (instance *DataModelTableCollection) GetCount()  (int32,  error)
 ## See Also
 
 * Class [DataModelTableCollection](../)
-* Namespace [Aspose.Cells.DataModels](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *Cells) RetrieveSubtotalSetting(ca *CellArea)  (*SubtotalSetting,
 ## See Also
 
 * Class [Cells](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

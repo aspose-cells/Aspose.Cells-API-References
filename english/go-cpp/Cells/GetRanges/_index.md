@@ -10,7 +10,7 @@ url: /go-cpp/cells/getranges/
 
 ## GetRanges function
 
-Gets the collection of <see cref="Range"/> objects created at run time.
+Gets the collection of Range objects created at run time.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *Cells) GetRanges()  (*RangeCollection,  error)
 ## See Also
 
 * Class [Cells](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

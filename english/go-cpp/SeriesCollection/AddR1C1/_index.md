@@ -10,7 +10,7 @@ url: /go-cpp/seriescollection/addr1c1/
 
 ## AddR1C1 function
 
-Adds the <see cref="Series"/> collection to a chart.
+Adds the Series collection to a chart.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *SeriesCollection) AddR1C1(area string, isvertical bool)  (int32,
 ## See Also
 
 * Class [SeriesCollection](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *MsoFillFormatHelper) SetOneColorGradient(color *Color, degree fl
 ## See Also
 
 * Class [MsoFillFormatHelper](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *ReferredArea) GetValue_Int_Int_Bool(rowoffset int32, coloffset i
 ## See Also
 
 * Class [ReferredArea](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

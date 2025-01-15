@@ -24,5 +24,4 @@ func (instance *SpinButtonActiveXControl) GetFont()  (*Font,  error)
 ## See Also
 
 * Class [SpinButtonActiveXControl](../)
-* Namespace [Aspose.Cells.Drawing.ActiveXControls](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

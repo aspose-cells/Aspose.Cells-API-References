@@ -10,7 +10,7 @@ url: /go-cpp/chartpoint/getdatalabels/
 
 ## GetDataLabels function
 
-Returns a <see cref="DataLabels"/> object that represents the data label associated with this chart point.
+Returns a DataLabels object that represents the data label associated with this chart point.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *ChartPoint) GetDataLabels()  (*DataLabels,  error)
 ## See Also
 
 * Class [ChartPoint](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -10,7 +10,7 @@ url: /go-cpp/worksheetcollection/getrangebyname_string_int_bool/
 
 ## GetRangeByName_String_Int_Bool function
 
-Gets <see cref="Range"/> by pre-defined name or table's name
+Gets Range by pre-defined name or table's name
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *WorksheetCollection) GetRangeByName_String_Int_Bool(rangename st
 ## See Also
 
 * Class [WorksheetCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

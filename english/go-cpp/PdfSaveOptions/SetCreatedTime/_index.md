@@ -24,5 +24,4 @@ func (instance *PdfSaveOptions) SetCreatedTime(value *Date)  error
 ## See Also
 
 * Class [PdfSaveOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

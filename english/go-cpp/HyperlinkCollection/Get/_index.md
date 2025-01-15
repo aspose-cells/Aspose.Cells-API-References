@@ -10,7 +10,7 @@ url: /go-cpp/hyperlinkcollection/get/
 
 ## Get function
 
-Gets the <see cref="Hyperlink"/> element at the specified index.
+Gets the Hyperlink element at the specified index.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *HyperlinkCollection) Get(index int32)  (*Hyperlink,  error)
 ## See Also
 
 * Class [HyperlinkCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

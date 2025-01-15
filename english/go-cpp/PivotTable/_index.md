@@ -55,22 +55,22 @@ type PivotTable struct  {
 |[GetRowFields](./getrowfields/) | Returns a PivotFields object that are currently shown as row fields. | 
 |[GetPageFields](./getpagefields/) | Returns a PivotFields object that are currently shown as page fields. | 
 |[GetDataFields](./getdatafields/) | Gets a PivotField object that represents all the data fields in a PivotTable.Read-only.It would be init only when there are two or more data fields in the DataPiovtFiels.It only use to add DataPivotField to the PivotTable row/column area . Default is in row area. | 
-|[GetDataField](./getdatafield/) | Gets a <see cref="PivotField"/> object that represents all the data fields in a PivotTable.Read-only.It would only be created when there are two or more data fields in the Data region.Defaultly it is in row region. You can drag it to the row/column region with PivotTable.AddFieldToArea() method . | 
+|[GetDataField](./getdatafield/) | Gets a PivotField object that represents all the data fields in a PivotTable.Read-only.It would only be created when there are two or more data fields in the Data region.Defaultly it is in row region. You can drag it to the row/column region with PivotTable.AddFieldToArea() method . | 
 |[GetBaseFields](./getbasefields/) | Returns all base pivot fields in the PivotTable. | 
-|[GetPivotFilters](./getpivotfilters/) | Returns a list of pivot filters. | 
+|[GetPivotFilters](./getpivotfilters/) | Returns all filters of pivot fields in the pivot table. | 
 |[GetColumnRange](./getcolumnrange/) | Returns a CellArea object that represents the rangethat contains the column area in the PivotTable report. Read-only. | 
 |[GetRowRange](./getrowrange/) | Returns a CellArea object that represents the rangethat contains the row area in the PivotTable report. Read-only. | 
-|[GetDataBodyRange](./getdatabodyrange/) | Returns a <see cref="CellArea"/> object that represents the range that contains the data areain the list between the header row and the insert row. Read-only. | 
+|[GetDataBodyRange](./getdatabodyrange/) | Returns a CellArea object that represents the range that contains the data areain the list between the header row and the insert row. Read-only. | 
 |[GetTableRange1](./gettablerange1/) | Returns a CellArea object that represents the range containing the entire PivotTable report,but doesn't include page fields. Read-only. | 
 |[GetTableRange2](./gettablerange2/) | Returns a CellArea object that represents the range containing the entire PivotTable report,includes page fields. Read-only. | 
-|[Move_Int_Int](./move_int_int/) | Moves the PivotTable to a different location in the worksheet. | 
-|[Move_String](./move_string/) | Moves the PivotTable to a different location in the worksheet. | 
-|[GetColumnGrand](./getcolumngrand/) | Indicates whether the PivotTable report shows grand totals for columns. | 
-|[SetColumnGrand](./setcolumngrand/) | Indicates whether the PivotTable report shows grand totals for columns. | 
+|[MoveTo_Int_Int](./moveto_int_int/) | Moves the PivotTable to a different location in the worksheet. | 
+|[MoveTo_String](./moveto_string/) | Moves the PivotTable to a different location in the worksheet. | 
 |[IsGridDropZones](./isgriddropzones/) | Indicates whether the PivotTable report displays classic pivottable layout.(enables dragging fields in the grid) | 
 |[SetIsGridDropZones](./setisgriddropzones/) | Indicates whether the PivotTable report displays classic pivottable layout.(enables dragging fields in the grid) | 
-|[GetRowGrand](./getrowgrand/) | Indicates whether the PivotTable report shows grand totals for rows. | 
-|[SetRowGrand](./setrowgrand/) | Indicates whether the PivotTable report shows grand totals for rows. | 
+|[GetShowColumnGrandTotals](./getshowcolumngrandtotals/) | Indicates whether to show grand totals for columns of this pivot table. | 
+|[SetShowColumnGrandTotals](./setshowcolumngrandtotals/) | Indicates whether to show grand totals for columns of this pivot table. | 
+|[GetShowRowGrandTotals](./getshowrowgrandtotals/) | Indicates whether to show grand totals for rows of the pivot table. | 
+|[SetShowRowGrandTotals](./setshowrowgrandtotals/) | Indicates whether to show grand totals for rows of the pivot table. | 
 |[GetDisplayNullString](./getdisplaynullstring/) | Indicates whether the PivotTable report displays a custom string if the value is null. | 
 |[SetDisplayNullString](./setdisplaynullstring/) | Indicates whether the PivotTable report displays a custom string if the value is null. | 
 |[GetNullString](./getnullstring/) | Gets the string displayed in cells that contain null valueswhen the DisplayNullString property is true.The default value is an empty string. | 
@@ -99,18 +99,18 @@ type PivotTable struct  {
 |[SetEnableDrilldown](./setenabledrilldown/) | Gets whether drilldown is enabled. | 
 |[GetEnableFieldDialog](./getenablefielddialog/) | Indicates whether the PivotTable Field dialog box is availablewhen the user double-clicks the PivotTable field. | 
 |[SetEnableFieldDialog](./setenablefielddialog/) | Indicates whether the PivotTable Field dialog box is availablewhen the user double-clicks the PivotTable field. | 
-|[GetEnableFieldList](./getenablefieldlist/) | Gets whether enable the field list for the PivotTable. | 
-|[SetEnableFieldList](./setenablefieldlist/) | Gets whether enable the field list for the PivotTable. | 
+|[GetEnableFieldList](./getenablefieldlist/) | Indicates whether the field list for the PivotTable is available on the view of Excel. | 
+|[SetEnableFieldList](./setenablefieldlist/) | Indicates whether the field list for the PivotTable is available on the view of Excel. | 
 |[GetEnableWizard](./getenablewizard/) | Indicates whether the PivotTable Wizard is available. | 
 |[SetEnableWizard](./setenablewizard/) | Indicates whether the PivotTable Wizard is available. | 
 |[GetSubtotalHiddenPageItems](./getsubtotalhiddenpageitems/) | Indicates whether hidden page field items in the PivotTable reportare included in row and column subtotals, block totals, and grand totals.The default value is False. | 
 |[SetSubtotalHiddenPageItems](./setsubtotalhiddenpageitems/) | Indicates whether hidden page field items in the PivotTable reportare included in row and column subtotals, block totals, and grand totals.The default value is False. | 
-|[GetGrandTotalName](./getgrandtotalname/) | Returns the text string label that is displayed in the grand total column or row heading.The default value is the string "Grand Total". | 
-|[SetGrandTotalName](./setgrandtotalname/) | Returns the text string label that is displayed in the grand total column or row heading.The default value is the string "Grand Total". | 
+|[GetGrandTotalName](./getgrandtotalname/) | Returns the label that is displayed in the grand total column or row heading.The default value is the string "Grand Total". | 
+|[SetGrandTotalName](./setgrandtotalname/) | Returns the label that is displayed in the grand total column or row heading.The default value is the string "Grand Total". | 
 |[GetManualUpdate](./getmanualupdate/) | Indicates whether the PivotTable report is recalculated only at the user's request. | 
 |[SetManualUpdate](./setmanualupdate/) | Indicates whether the PivotTable report is recalculated only at the user's request. | 
-|[IsMultipleFieldFilters](./ismultiplefieldfilters/) | Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them. | 
-|[SetIsMultipleFieldFilters](./setismultiplefieldfilters/) | Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them. | 
+|[GetAllowMultipleFiltersPerField](./getallowmultiplefiltersperfield/) | Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them. | 
+|[SetAllowMultipleFiltersPerField](./setallowmultiplefiltersperfield/) | Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them. | 
 |[GetMissingItemsLimit](./getmissingitemslimit/) | Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them. | 
 |[SetMissingItemsLimit](./setmissingitemslimit/) | Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them. | 
 |[GetEnableDataValueEditing](./getenabledatavalueediting/) | Specifies a boolean value that indicates whether the user is allowed to edit the cells in the data area of the pivottable.Enable cell editing in the values area | 
@@ -121,10 +121,10 @@ type PivotTable struct  {
 |[SetShowMemberPropertyTips](./setshowmemberpropertytips/) | Specifies a boolean value that indicates whether member property information should be omitted from PivotTable tooltips. | 
 |[GetShowValuesRow](./getshowvaluesrow/) | Indicates whether showing values row. | 
 |[SetShowValuesRow](./setshowvaluesrow/) | Indicates whether showing values row. | 
-|[GetShowEmptyCol](./getshowemptycol/) | Specifies a boolean value that indicates whether to include empty columns in the table | 
-|[SetShowEmptyCol](./setshowemptycol/) | Specifies a boolean value that indicates whether to include empty columns in the table | 
-|[GetShowEmptyRow](./getshowemptyrow/) | Specifies a boolean value that indicates whether to include empty rows in the table. | 
-|[SetShowEmptyRow](./setshowemptyrow/) | Specifies a boolean value that indicates whether to include empty rows in the table. | 
+|[GetShowEmptyCol](./getshowemptycol/) | Indicates whether to include empty columns in the table | 
+|[SetShowEmptyCol](./setshowemptycol/) | Indicates whether to include empty columns in the table | 
+|[GetShowEmptyRow](./getshowemptyrow/) | Indicates whether to include empty rows in the table. | 
+|[SetShowEmptyRow](./setshowemptyrow/) | Indicates whether to include empty rows in the table. | 
 |[GetFieldListSortAscending](./getfieldlistsortascending/) | Indicates whether fields in the PivotTable are sorted in non-default order in the field list. | 
 |[SetFieldListSortAscending](./setfieldlistsortascending/) | Indicates whether fields in the PivotTable are sorted in non-default order in the field list. | 
 |[GetPrintDrill](./getprintdrill/) | Specifies a boolean value that indicates whether drill indicators should be printed.print expand/collapse buttons when displayed on pivottable. | 
@@ -145,7 +145,7 @@ type PivotTable struct  {
 |[SetShowRowHeaderCaption](./setshowrowheadercaption/) | Indicates whether row header caption is shown in the PivotTable reportIndicates whether Display field captions and filter drop downs | 
 |[GetCustomListSort](./getcustomlistsort/) | Indicates whether consider built-in custom list when sort data | 
 |[SetCustomListSort](./setcustomlistsort/) | Indicates whether consider built-in custom list when sort data | 
-|[GetPivotFormatConditions](./getpivotformatconditions/) | Gets the Format Conditions of the pivot table. | 
+|[GetConditionalFormats](./getconditionalformats/) | Gets the conditional formats of the pivot table. | 
 |[GetPageFieldOrder](./getpagefieldorder/) | Gets and sets the order in which page fields are added to the PivotTable report's layout. | 
 |[SetPageFieldOrder](./setpagefieldorder/) | Gets and sets the order in which page fields are added to the PivotTable report's layout. | 
 |[GetPageFieldWrapCount](./getpagefieldwrapcount/) | Gets the number of page fields in each column or row in the PivotTable report. | 
@@ -156,9 +156,13 @@ type PivotTable struct  {
 |[SetSaveData](./setsavedata/) | Indicates whether data for the PivotTable report is saved with the workbook. | 
 |[GetRefreshDataOnOpeningFile](./getrefreshdataonopeningfile/) | Indicates whether Refresh Data when Opening File. | 
 |[SetRefreshDataOnOpeningFile](./setrefreshdataonopeningfile/) | Indicates whether Refresh Data when Opening File. | 
-|[GetRefreshDataFlag](./getrefreshdataflag/) | Indicates whether Refreshing Data or not. | 
-|[SetRefreshDataFlag](./setrefreshdataflag/) | Indicates whether Refreshing Data or not. | 
 |[GetSourceType](./getsourcetype/) | Gets the data source type of the pivot table. | 
+|[GetSourceDataConnections](./getsourcedataconnections/) | Gets the external connection data sources. | 
+|[GetNamesOfSourceDataConnections](./getnamesofsourcedataconnections/) | Gets the name of external source data connections. | 
+|[GetDataSource](./getdatasource/) | Gets and sets the data source of the pivot table. | 
+|[SetDataSource](./setdatasource/) | Gets and sets the data source of the pivot table. | 
+|[ChangeDataSource](./changedatasource/) | Set pivottable's source data. | 
+|[GetSource](./getsource/) | Get pivottable's source data. | 
 |[RefreshData](./refreshdata/) | Refreshes pivottable's data and setting from it's data source. | 
 |[RefreshData_PivotTableRefreshOption](./refreshdata_pivottablerefreshoption/) | Refreshes pivottable's data and setting from it's data source with options. | 
 |[CalculateData](./calculatedata/) | Calculates pivottable's data to cells. | 
@@ -168,9 +172,11 @@ type PivotTable struct  {
 |[FormatAll](./formatall/) | Format all the cell in the pivottable area | 
 |[FormatRow](./formatrow/) | Format the row data in the pivottable area | 
 |[Format_PivotArea_Style](./format_pivotarea_style/) | Formats selected area of the PivotTable. | 
+|[Format_CellArea_Style](./format_cellarea_style/) | Formats selected area of the PivotTable. | 
+|[Format_Int_Int_Style](./format_int_int_style/) | Format the cell in the pivottable area | 
+|[SelectArea](./selectarea/) | Select an area of pivot table view. | 
 |[ShowDetail](./showdetail/) | Show the detail of one item in the data region to a new Table. | 
 |[GetPivotFormats](./getpivotformats/) | Gets the collection of formats applied to PivotTable. | 
-|[Format_Int_Int_Style](./format_int_int_style/) | Format the cell in the pivottable area | 
 |[GetRepeatItemsOnEachPrintedPage](./getrepeatitemsoneachprintedpage/) | Indicates whether pivot item captions on the row area are repeated on each printed page for pivot fields in tabular form. | 
 |[SetRepeatItemsOnEachPrintedPage](./setrepeatitemsoneachprintedpage/) | Indicates whether pivot item captions on the row area are repeated on each printed page for pivot fields in tabular form. | 
 |[GetPrintTitles](./getprinttitles/) | Indicates whether the print titles for the worksheet are set basedon the PivotTable report. The default value is false. | 
@@ -189,7 +195,9 @@ type PivotTable struct  {
 |[SetShowPivotStyleColumnStripes](./setshowpivotstylecolumnstripes/) | Indicates whether stripe formatting is applied for column. | 
 |[GetShowPivotStyleLastColumn](./getshowpivotstylelastcolumn/) | Indicates whether the column formatting is applied. | 
 |[SetShowPivotStyleLastColumn](./setshowpivotstylelastcolumn/) | Indicates whether the column formatting is applied. | 
+|[GetHorizontalPageBreaks](./gethorizontalpagebreaks/) | Gets horizontal page breaks of this pivot table. | 
 |[ShowInCompactForm](./showincompactform/) | Layouts the PivotTable in compact form. | 
 |[ShowInOutlineForm](./showinoutlineform/) | Layouts the PivotTable in outline form. | 
 |[ShowInTabularForm](./showintabularform/) | Layouts the PivotTable in tabular form. | 
-|[GetCellByDisplayName](./getcellbydisplayname/) | Gets the <see cref="Cell"/> object by the display name of PivotField. | 
+|[GetCellByDisplayName](./getcellbydisplayname/) | Gets the Cell object by the display name of PivotField. | 
+|[GetChildren](./getchildren/) | Gets the Children Pivot Tables which use this PivotTable data as data source. | 

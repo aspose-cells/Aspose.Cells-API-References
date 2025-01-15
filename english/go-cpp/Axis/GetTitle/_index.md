@@ -24,5 +24,4 @@ func (instance *Axis) GetTitle()  (*Title,  error)
 ## See Also
 
 * Class [Axis](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

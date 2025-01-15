@@ -14,7 +14,7 @@ Detects and returns the information about a format of an excel stored in a strea
 
 ```go
 
-func FileFormatUtil_DetectFileFormat_Stream(stream *Stream)  (*FileFormatInfo,  error) 
+func FileFormatUtil_DetectFileFormat_Stream(stream []byte)  (*FileFormatInfo,  error) 
 
 ```
 
@@ -24,5 +24,4 @@ func FileFormatUtil_DetectFileFormat_Stream(stream *Stream)  (*FileFormatInfo,  
 ## See Also
 
 * Class [FileFormatUtil](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

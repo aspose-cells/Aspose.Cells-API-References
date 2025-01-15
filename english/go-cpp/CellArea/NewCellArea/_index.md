@@ -24,5 +24,4 @@ func NewCellArea() ( *CellArea, error)
 ## See Also
 
 * Class [CellArea](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

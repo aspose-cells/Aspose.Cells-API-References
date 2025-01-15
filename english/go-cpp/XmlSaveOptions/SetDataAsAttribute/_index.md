@@ -24,5 +24,4 @@ func (instance *XmlSaveOptions) SetDataAsAttribute(value bool)  error
 ## See Also
 
 * Class [XmlSaveOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

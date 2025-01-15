@@ -31,3 +31,4 @@ type License struct  {
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[SetLicense_String](./setlicense_string/) | Licenses the component. | 
+|[SetLicense_Stream](./setlicense_stream/) | Licenses the component. | 

@@ -10,7 +10,7 @@ url: /go-cpp/cell/getmergedrange/
 
 ## GetMergedRange function
 
-Returns a <see cref="Range"/> object which represents a merged range.
+Returns a Range object which represents a merged range.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *Cell) GetMergedRange()  (*Range,  error)
 ## See Also
 
 * Class [Cell](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

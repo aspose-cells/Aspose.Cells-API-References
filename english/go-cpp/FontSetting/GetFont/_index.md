@@ -24,5 +24,4 @@ func (instance *FontSetting) GetFont()  (*Font,  error)
 ## See Also
 
 * Class [FontSetting](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

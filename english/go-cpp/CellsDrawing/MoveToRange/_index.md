@@ -24,5 +24,4 @@ func (instance *CellsDrawing) MoveToRange(upperleftrow int32, upperleftcolumn in
 ## See Also
 
 * Class [CellsDrawing](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

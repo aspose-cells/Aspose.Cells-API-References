@@ -24,5 +24,4 @@ func (instance *TextBox) ToImage_String_ImageOrPrintOptions(imagefile string, op
 ## See Also
 
 * Class [TextBox](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

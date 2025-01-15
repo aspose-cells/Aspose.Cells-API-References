@@ -24,5 +24,4 @@ func (instance *ConnectionParameter) IsNull()  (bool,  error)
 ## See Also
 
 * Class [ConnectionParameter](../)
-* Namespace [Aspose.Cells.ExternalConnections](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

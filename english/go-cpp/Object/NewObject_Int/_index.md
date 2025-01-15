@@ -24,5 +24,4 @@ func NewObject_Int(value int32) ( *Object, error)
 ## See Also
 
 * Class [Object](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

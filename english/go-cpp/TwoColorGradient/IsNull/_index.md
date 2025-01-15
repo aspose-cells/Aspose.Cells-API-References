@@ -24,5 +24,4 @@ func (instance *TwoColorGradient) IsNull()  (bool,  error)
 ## See Also
 
 * Class [TwoColorGradient](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

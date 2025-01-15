@@ -24,5 +24,4 @@ func (instance *PivotTableCollection) Get_Int_Int(row int32, column int32)  (*Pi
 ## See Also
 
 * Class [PivotTableCollection](../)
-* Namespace [Aspose.Cells.Pivot](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

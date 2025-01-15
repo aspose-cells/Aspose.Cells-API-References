@@ -24,5 +24,4 @@ func (instance *Cells) GetColumnWidth_Int_Bool_CellsUnitType(column int32, isori
 ## See Also
 
 * Class [Cells](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

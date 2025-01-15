@@ -24,5 +24,4 @@ func (instance *Cells) Merge_Int_Int_Int_Int(firstrow int32, firstcolumn int32, 
 ## See Also
 
 * Class [Cells](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

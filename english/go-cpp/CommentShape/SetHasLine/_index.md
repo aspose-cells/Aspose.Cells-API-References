@@ -24,5 +24,4 @@ func (instance *CommentShape) SetHasLine(value bool)  error
 ## See Also
 
 * Class [CommentShape](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

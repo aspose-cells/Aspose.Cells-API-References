@@ -24,5 +24,4 @@ func (instance *TrendlineCollection) IsNull()  (bool,  error)
 ## See Also
 
 * Class [TrendlineCollection](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

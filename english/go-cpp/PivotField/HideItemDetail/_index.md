@@ -24,5 +24,4 @@ func (instance *PivotField) HideItemDetail(index int32, ishiddendetail bool)  er
 ## See Also
 
 * Class [PivotField](../)
-* Namespace [Aspose.Cells.Pivot](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

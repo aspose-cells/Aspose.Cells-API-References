@@ -24,5 +24,4 @@ func (instance *Cell) PutValue_String_Bool_Bool(stringvalue string, isconverted 
 ## See Also
 
 * Class [Cell](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

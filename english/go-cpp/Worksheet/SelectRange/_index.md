@@ -24,5 +24,4 @@ func (instance *Worksheet) SelectRange(startrow int32, startcolumn int32, totalr
 ## See Also
 
 * Class [Worksheet](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

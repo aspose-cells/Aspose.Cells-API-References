@@ -10,7 +10,7 @@ url: /go-cpp/seriescollection/get/
 
 ## Get function
 
-Gets the <see cref="Series"/> element at the specified index.
+Gets the Series element at the specified index.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *SeriesCollection) Get(index int32)  (*Series,  error)
 ## See Also
 
 * Class [SeriesCollection](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

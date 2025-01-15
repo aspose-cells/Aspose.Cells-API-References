@@ -24,5 +24,4 @@ func (instance *ListObject) ConvertToRange_TableToRangeOptions(options *TableToR
 ## See Also
 
 * Class [ListObject](../)
-* Namespace [Aspose.Cells.Tables](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

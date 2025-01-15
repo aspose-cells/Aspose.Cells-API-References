@@ -10,7 +10,7 @@ url: /go-cpp/worksheetcollection/gettablestyles/
 
 ## GetTableStyles function
 
-Gets <see cref="TableStyles"/> object.
+Gets TableStyles object.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *WorksheetCollection) GetTableStyles()  (*TableStyleCollection,  
 ## See Also
 
 * Class [WorksheetCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

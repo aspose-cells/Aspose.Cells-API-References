@@ -24,5 +24,4 @@ func (instance *FontSetting) SetWordArtStyle(style PresetWordArtStyle)  error
 ## See Also
 
 * Class [FontSetting](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

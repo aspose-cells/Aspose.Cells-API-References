@@ -24,5 +24,4 @@ func (instance *FractionEquationNode) GetEquationType()  (EquationNodeType,  err
 ## See Also
 
 * Class [FractionEquationNode](../)
-* Namespace [Aspose.Cells.Drawing.Equations](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

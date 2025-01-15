@@ -24,5 +24,4 @@ func CellsHelper_CreateSafeSheetName_String_Char(nameproposal string, replacecha
 ## See Also
 
 * Class [CellsHelper](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

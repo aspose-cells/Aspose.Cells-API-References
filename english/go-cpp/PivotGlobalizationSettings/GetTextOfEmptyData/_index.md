@@ -24,5 +24,4 @@ func (instance *PivotGlobalizationSettings) GetTextOfEmptyData()  (string,  erro
 ## See Also
 
 * Class [PivotGlobalizationSettings](../)
-* Namespace [Aspose.Cells.Settings](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *ComboBox) AlignTopRightCorner(toprow int32, rightcolumn int32)  
 ## See Also
 
 * Class [ComboBox](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

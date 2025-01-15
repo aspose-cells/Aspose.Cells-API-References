@@ -24,5 +24,4 @@ func (instance *CustomXmlShape) AlignTopRightCorner(toprow int32, rightcolumn in
 ## See Also
 
 * Class [CustomXmlShape](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

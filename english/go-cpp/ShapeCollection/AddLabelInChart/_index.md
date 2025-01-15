@@ -24,5 +24,4 @@ func (instance *ShapeCollection) AddLabelInChart(top int32, left int32, height i
 ## See Also
 
 * Class [ShapeCollection](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

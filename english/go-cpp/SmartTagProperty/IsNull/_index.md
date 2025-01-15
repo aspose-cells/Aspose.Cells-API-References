@@ -24,5 +24,4 @@ func (instance *SmartTagProperty) IsNull()  (bool,  error)
 ## See Also
 
 * Class [SmartTagProperty](../)
-* Namespace [Aspose.Cells.Markup](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

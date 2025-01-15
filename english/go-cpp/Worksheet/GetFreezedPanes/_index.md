@@ -24,5 +24,4 @@ func (instance *Worksheet) GetFreezedPanes()  (bool, int32, int32, int32, int32,
 ## See Also
 
 * Class [Worksheet](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

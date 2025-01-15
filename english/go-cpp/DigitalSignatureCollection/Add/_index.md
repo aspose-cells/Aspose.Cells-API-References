@@ -24,5 +24,4 @@ func (instance *DigitalSignatureCollection) Add(digitalsignature *DigitalSignatu
 ## See Also
 
 * Class [DigitalSignatureCollection](../)
-* Namespace [Aspose.Cells.DigitalSignatures](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

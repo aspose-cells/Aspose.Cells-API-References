@@ -24,5 +24,4 @@ func (instance *BarEquationNode) AddChild_EquationNode(node *EquationNode)  erro
 ## See Also
 
 * Class [BarEquationNode](../)
-* Namespace [Aspose.Cells.Drawing.Equations](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

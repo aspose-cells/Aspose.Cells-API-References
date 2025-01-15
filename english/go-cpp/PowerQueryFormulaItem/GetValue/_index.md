@@ -24,5 +24,4 @@ func (instance *PowerQueryFormulaItem) GetValue()  (string,  error)
 ## See Also
 
 * Class [PowerQueryFormulaItem](../)
-* Namespace [Aspose.Cells.QueryTables](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

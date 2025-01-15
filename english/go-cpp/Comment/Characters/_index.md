@@ -24,5 +24,4 @@ func (instance *Comment) Characters(startindex int32, length int32)  (*FontSetti
 ## See Also
 
 * Class [Comment](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

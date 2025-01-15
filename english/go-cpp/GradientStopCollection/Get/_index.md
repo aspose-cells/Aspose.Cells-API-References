@@ -24,5 +24,4 @@ func (instance *GradientStopCollection) Get(index int32)  (*GradientStop,  error
 ## See Also
 
 * Class [GradientStopCollection](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

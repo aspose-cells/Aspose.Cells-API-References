@@ -24,5 +24,4 @@ func (instance *ConditionalFormattingValueCollection) IsNull()  (bool,  error)
 ## See Also
 
 * Class [ConditionalFormattingValueCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

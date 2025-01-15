@@ -24,5 +24,4 @@ func (instance *EbookSaveOptions) GetHtmlCrossStringType()  (HtmlCrossType,  err
 ## See Also
 
 * Class [EbookSaveOptions](../)
-* Namespace [Aspose.Cells.Saving](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

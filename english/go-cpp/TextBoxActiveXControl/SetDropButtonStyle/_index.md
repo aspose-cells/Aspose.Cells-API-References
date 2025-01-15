@@ -24,5 +24,4 @@ func (instance *TextBoxActiveXControl) SetDropButtonStyle(value DropButtonStyle)
 ## See Also
 
 * Class [TextBoxActiveXControl](../)
-* Namespace [Aspose.Cells.Drawing.ActiveXControls](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

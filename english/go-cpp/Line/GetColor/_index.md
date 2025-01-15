@@ -10,7 +10,7 @@ url: /go-cpp/line/getcolor/
 
 ## GetColor function
 
-Represents the <see cref="Color"/> of the line.
+Represents the Color of the line.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *Line) GetColor()  (*Color,  error)
 ## See Also
 
 * Class [Line](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

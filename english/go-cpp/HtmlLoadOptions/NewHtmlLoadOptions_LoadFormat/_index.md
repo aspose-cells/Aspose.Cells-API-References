@@ -24,5 +24,4 @@ func NewHtmlLoadOptions_LoadFormat(loadformat LoadFormat) ( *HtmlLoadOptions, er
 ## See Also
 
 * Class [HtmlLoadOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -10,7 +10,7 @@ url: /go-cpp/vbamodulecollection/get_string/
 
 ## Get_String function
 
-Gets <see cref="VbaModule"/> in the list by the name.
+Gets VbaModule in the list by the name.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *VbaModuleCollection) Get_String(name string)  (*VbaModule,  erro
 ## See Also
 
 * Class [VbaModuleCollection](../)
-* Namespace [Aspose.Cells.Vba](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

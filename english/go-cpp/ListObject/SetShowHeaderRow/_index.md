@@ -24,5 +24,4 @@ func (instance *ListObject) SetShowHeaderRow(value bool)  error
 ## See Also
 
 * Class [ListObject](../)
-* Namespace [Aspose.Cells.Tables](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

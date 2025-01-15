@@ -24,5 +24,4 @@ func (instance *Picture) SetWidthCM(value float64)  error
 ## See Also
 
 * Class [Picture](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

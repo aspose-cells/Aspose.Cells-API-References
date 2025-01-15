@@ -31,8 +31,8 @@ type Border struct  {
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[GetThemeColor](./getthemecolor/) | Gets and sets the theme color of the border. | 
 |[SetThemeColor](./setthemecolor/) | Gets and sets the theme color of the border. | 
-|[GetColor](./getcolor/) | Gets or sets the <see cref="Color"/> of the border. | 
-|[SetColor](./setcolor/) | Gets or sets the <see cref="Color"/> of the border. | 
+|[GetColor](./getcolor/) | Gets or sets the Color of the border. | 
+|[SetColor](./setcolor/) | Gets or sets the Color of the border. | 
 |[GetArgbColor](./getargbcolor/) | Gets and sets the color with a 32-bit ARGB value. | 
 |[SetArgbColor](./setargbcolor/) | Gets and sets the color with a 32-bit ARGB value. | 
 |[GetLineStyle](./getlinestyle/) | Gets or sets the cell border type. | 

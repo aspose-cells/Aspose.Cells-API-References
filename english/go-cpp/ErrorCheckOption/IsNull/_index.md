@@ -24,5 +24,4 @@ func (instance *ErrorCheckOption) IsNull()  (bool,  error)
 ## See Also
 
 * Class [ErrorCheckOption](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

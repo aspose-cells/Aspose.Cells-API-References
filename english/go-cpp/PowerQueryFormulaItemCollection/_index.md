@@ -29,6 +29,6 @@ type PowerQueryFormulaItemCollection struct  {
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
-|[Get_Int](./get_int/) | Gets <see cref=" PowerQueryFormulaItem"/> by the index in the list. | 
-|[Get_String](./get_string/) | Gets <see cref=" PowerQueryFormulaItem"/> by the name of the item. | 
+|[Get_Int](./get_int/) | Gets  PowerQueryFormulaItem by the index in the list. | 
+|[Get_String](./get_string/) | Gets  PowerQueryFormulaItem by the name of the item. | 
 |[GetCount](./getcount/) |  | 

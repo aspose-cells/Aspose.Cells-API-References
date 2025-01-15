@@ -30,8 +30,8 @@ type DataLabels struct  {
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
-|[GetBorder](./getborder/) | Gets the <see cref="Line">border</see>. | 
-|[GetArea](./getarea/) | Gets the <see cref="Area">area</see>. | 
+|[GetBorder](./getborder/) | Gets the Line</see>. | 
+|[GetArea](./getarea/) | Gets the Area</see>. | 
 |[IsAutoText](./isautotext/) | Indicates the text is auto generated. | 
 |[SetIsAutoText](./setisautotext/) | Indicates the text is auto generated. | 
 |[GetDirectionType](./getdirectiontype/) | Gets and sets the direction of text. | 

@@ -24,5 +24,4 @@ func NewJsonSaveOptions_SaveOptions(src *SaveOptions) ( *JsonSaveOptions, error)
 ## See Also
 
 * Class [JsonSaveOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

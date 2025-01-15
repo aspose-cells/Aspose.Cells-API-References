@@ -29,7 +29,7 @@ type ChartDataTable struct  {
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
-|[GetFont](./getfont/) | Gets a <see cref="Font"/> object which represents the font setting of the specified chart data table. | 
+|[GetFont](./getfont/) | Gets a Font object which represents the font setting of the specified chart data table. | 
 |[GetAutoScaleFont](./getautoscalefont/) | True if the text in the object changes font size when the object size changes.The default value is True. | 
 |[SetAutoScaleFont](./setautoscalefont/) | True if the text in the object changes font size when the object size changes.The default value is True. | 
 |[GetBackgroundMode](./getbackgroundmode/) | Gets and sets the display mode of the background | 

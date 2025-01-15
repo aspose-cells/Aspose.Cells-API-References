@@ -24,5 +24,4 @@ func (instance *Cells) HideRows(row int32, totalrows int32)  error
 ## See Also
 
 * Class [Cells](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

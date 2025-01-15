@@ -24,5 +24,4 @@ func (instance *RevisionCellComment) GetCellName()  (string,  error)
 ## See Also
 
 * Class [RevisionCellComment](../)
-* Namespace [Aspose.Cells.Revisions](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

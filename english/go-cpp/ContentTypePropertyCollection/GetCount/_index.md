@@ -23,5 +23,4 @@ func (instance *ContentTypePropertyCollection) GetCount()  (int32,  error)
 ## See Also
 
 * Class [ContentTypePropertyCollection](../)
-* Namespace [Aspose.Cells.Properties](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

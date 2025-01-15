@@ -32,7 +32,7 @@ type DisplayUnitLabel struct  {
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[GetText](./gettext/) | Gets or sets the text of display unit label. | 
 |[SetText](./settext/) | Gets or sets the text of display unit label. | 
-|[GetFont](./getfont/) | Gets a <see cref="Font"/> object of the specified ChartFrame object. | 
+|[GetFont](./getfont/) | Gets a Font object of the specified ChartFrame object. | 
 |[GetAutoScaleFont](./getautoscalefont/) | True if the text in the object changes font size when the object size changes. The default value is True. | 
 |[SetAutoScaleFont](./setautoscalefont/) | True if the text in the object changes font size when the object size changes. The default value is True. | 
 |[IsDeleted](./isdeleted/) | Indicates whether this data labels is deleted. | 

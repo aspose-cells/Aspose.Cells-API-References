@@ -24,5 +24,4 @@ func (instance *ChartFrame) SetShadow(value bool)  error
 ## See Also
 
 * Class [ChartFrame](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *PivotFieldSortSetting) GetFieldIndex()  (int32,  error)
 ## See Also
 
 * Class [PivotFieldSortSetting](../)
-* Namespace [Aspose.Cells.Pivot](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

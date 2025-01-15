@@ -24,5 +24,4 @@ func (instance *GroupShape) Get(index int32)  (*Shape,  error)
 ## See Also
 
 * Class [GroupShape](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

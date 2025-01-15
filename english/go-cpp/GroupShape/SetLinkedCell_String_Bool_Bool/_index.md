@@ -24,5 +24,4 @@ func (instance *GroupShape) SetLinkedCell_String_Bool_Bool(formula string, isr1c
 ## See Also
 
 * Class [GroupShape](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

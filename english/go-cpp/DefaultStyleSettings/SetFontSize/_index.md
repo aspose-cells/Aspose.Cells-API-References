@@ -24,5 +24,4 @@ func (instance *DefaultStyleSettings) SetFontSize(value float64)  error
 ## See Also
 
 * Class [DefaultStyleSettings](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

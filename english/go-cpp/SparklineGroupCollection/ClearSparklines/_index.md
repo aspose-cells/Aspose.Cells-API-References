@@ -24,5 +24,4 @@ func (instance *SparklineGroupCollection) ClearSparklines(cellarea *CellArea)  e
 ## See Also
 
 * Class [SparklineGroupCollection](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

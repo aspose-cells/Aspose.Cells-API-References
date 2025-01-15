@@ -24,5 +24,4 @@ func (instance *SmartTagPropertyCollection) Add(name string, value string)  (int
 ## See Also
 
 * Class [SmartTagPropertyCollection](../)
-* Namespace [Aspose.Cells.Markup](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

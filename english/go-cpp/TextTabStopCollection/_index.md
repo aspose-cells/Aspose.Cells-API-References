@@ -31,5 +31,5 @@ type TextTabStopCollection struct  {
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[Add](./add/) | Adds a tab stop. | 
-|[Get](./get/) | Gets <see cref="TextTabStop"/> by the index. | 
+|[Get](./get/) | Gets TextTabStop by the index. | 
 |[GetCount](./getcount/) |  | 

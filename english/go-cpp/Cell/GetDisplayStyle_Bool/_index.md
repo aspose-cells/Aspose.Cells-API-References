@@ -24,5 +24,4 @@ func (instance *Cell) GetDisplayStyle_Bool(includemergedborders bool)  (*Style, 
 ## See Also
 
 * Class [Cell](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

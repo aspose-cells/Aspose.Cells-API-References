@@ -23,5 +23,4 @@ func NewTwoColorGradient(color1 *Color, color2 *Color, gradientstyletype Gradien
 ## See Also
 
 * Class [TwoColorGradient](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

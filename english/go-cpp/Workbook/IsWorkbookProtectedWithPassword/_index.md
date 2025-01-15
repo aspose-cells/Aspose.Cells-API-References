@@ -24,5 +24,4 @@ func (instance *Workbook) IsWorkbookProtectedWithPassword()  (bool,  error)
 ## See Also
 
 * Class [Workbook](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

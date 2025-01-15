@@ -29,6 +29,7 @@ type CustomXmlPartCollection struct  {
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
+|[Add](./add/) | Adds an item to the collection. | 
 |[Get](./get/) | Gets an item at the specified index. | 
 |[SelectByID](./selectbyid/) | Gets an item by id. | 
 |[GetCount](./getcount/) |  | 

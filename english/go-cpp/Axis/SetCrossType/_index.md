@@ -10,7 +10,7 @@ url: /go-cpp/axis/setcrosstype/
 
 ## SetCrossType function
 
-Represents the <see cref="CrossType"/> on the specified axis where the other axis crosses.
+Represents the CrossType on the specified axis where the other axis crosses.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *Axis) SetCrossType(value CrossType)  error
 ## See Also
 
 * Class [Axis](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

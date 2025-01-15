@@ -10,7 +10,7 @@ url: /go-cpp/seriescollection/getseriesbyorder/
 
 ## GetSeriesByOrder function
 
-Gets the <see cref="Series"/> element by order.
+Gets the Series element by order.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *SeriesCollection) GetSeriesByOrder(order int32)  (*Series,  erro
 ## See Also
 
 * Class [SeriesCollection](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -24,5 +24,4 @@ func (instance *DigitalSignatureCollection) IsNull()  (bool,  error)
 ## See Also
 
 * Class [DigitalSignatureCollection](../)
-* Namespace [Aspose.Cells.DigitalSignatures](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

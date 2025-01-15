@@ -24,5 +24,4 @@ func (instance *Chart) Move(upperleftrow int32, upperleftcolumn int32, lowerrigh
 ## See Also
 
 * Class [Chart](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

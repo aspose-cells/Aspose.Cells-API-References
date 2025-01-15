@@ -31,7 +31,8 @@ type ProtectedRange struct  {
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[GetName](./getname/) | Gets the Range title. This is used as a descriptor, not as a named range definition. | 
 |[SetName](./setname/) | Gets the Range title. This is used as a descriptor, not as a named range definition. | 
-|[GetCellArea](./getcellarea/) | Gets the <see cref="CellArea"/> object represents the cell area to be protected. | 
+|[GetCellArea](./getcellarea/) | Gets the CellArea object represents the cell area to be protected. | 
+|[GetAreas](./getareas/) | Gets all referred areas. | 
 |[AddArea](./addarea/) | Adds a referred area to this | 
 |[IsProtectedWithPassword](./isprotectedwithpassword/) | Indicates whether the worksheets is protected with password. | 
 |[GetPassword](./getpassword/) | Represents the password to protect the range. | 

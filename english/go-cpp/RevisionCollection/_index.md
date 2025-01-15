@@ -29,5 +29,5 @@ type RevisionCollection struct  {
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
-|[Get](./get/) | Gets <see cref="Revision"/> by the index. | 
+|[Get](./get/) | Gets Revision by the index. | 
 |[GetCount](./getcount/) |  | 

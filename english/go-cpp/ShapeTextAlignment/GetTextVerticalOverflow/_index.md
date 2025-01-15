@@ -24,5 +24,4 @@ func (instance *ShapeTextAlignment) GetTextVerticalOverflow()  (TextOverflowType
 ## See Also
 
 * Class [ShapeTextAlignment](../)
-* Namespace [Aspose.Cells.Drawing.Texts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

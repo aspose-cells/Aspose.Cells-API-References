@@ -24,5 +24,4 @@ func (instance *CommandButtonActiveXControl) GetIMEMode()  (InputMethodEditorMod
 ## See Also
 
 * Class [CommandButtonActiveXControl](../)
-* Namespace [Aspose.Cells.Drawing.ActiveXControls](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

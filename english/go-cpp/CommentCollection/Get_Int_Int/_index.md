@@ -10,7 +10,7 @@ url: /go-cpp/commentcollection/get_int_int/
 
 ## Get_Int_Int function
 
-Gets the <see cref="Comment"/> element at the specified row index and column index.
+Gets the Comment element at the specified row index and column index.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *CommentCollection) Get_Int_Int(row int32, column int32)  (*Comme
 ## See Also
 
 * Class [CommentCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

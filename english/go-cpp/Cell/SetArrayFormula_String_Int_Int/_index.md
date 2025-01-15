@@ -24,5 +24,4 @@ func (instance *Cell) SetArrayFormula_String_Int_Int(arrayformula string, rownum
 ## See Also
 
 * Class [Cell](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

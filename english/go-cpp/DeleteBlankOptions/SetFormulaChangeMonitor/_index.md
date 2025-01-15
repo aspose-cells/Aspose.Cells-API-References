@@ -24,5 +24,4 @@ func (instance *DeleteBlankOptions) SetFormulaChangeMonitor(value *AbstractFormu
 ## See Also
 
 * Class [DeleteBlankOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

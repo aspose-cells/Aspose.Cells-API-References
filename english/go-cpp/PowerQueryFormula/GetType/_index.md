@@ -24,5 +24,4 @@ func (instance *PowerQueryFormula) GetType()  (PowerQueryFormulaType,  error)
 ## See Also
 
 * Class [PowerQueryFormula](../)
-* Namespace [Aspose.Cells.QueryTables](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

@@ -23,5 +23,4 @@ func (instance *RevisionLogCollection) GetCount()  (int32,  error)
 ## See Also
 
 * Class [RevisionLogCollection](../)
-* Namespace [Aspose.Cells.Revisions](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

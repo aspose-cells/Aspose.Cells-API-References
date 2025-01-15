@@ -10,7 +10,7 @@ url: /go-cpp/worksheet/getcheckboxes/
 
 ## GetCheckBoxes function
 
-Gets a <see cref="CheckBox"/> collection.
+Gets a CheckBox collection.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *Worksheet) GetCheckBoxes()  (*CheckBoxCollection,  error)
 ## See Also
 
 * Class [Worksheet](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

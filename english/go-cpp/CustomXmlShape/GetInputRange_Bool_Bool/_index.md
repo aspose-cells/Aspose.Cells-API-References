@@ -24,5 +24,4 @@ func (instance *CustomXmlShape) GetInputRange_Bool_Bool(isr1c1 bool, islocal boo
 ## See Also
 
 * Class [CustomXmlShape](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

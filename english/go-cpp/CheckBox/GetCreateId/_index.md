@@ -24,5 +24,4 @@ func (instance *CheckBox) GetCreateId(uuid *UUID)  error
 ## See Also
 
 * Class [CheckBox](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

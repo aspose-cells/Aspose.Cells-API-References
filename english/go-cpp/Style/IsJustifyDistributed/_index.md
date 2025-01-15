@@ -24,5 +24,4 @@ func (instance *Style) IsJustifyDistributed()  (bool,  error)
 ## See Also
 
 * Class [Style](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

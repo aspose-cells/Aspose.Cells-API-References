@@ -24,5 +24,4 @@ func (instance *Oval) MoveToRange(upperleftrow int32, upperleftcolumn int32, low
 ## See Also
 
 * Class [Oval](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

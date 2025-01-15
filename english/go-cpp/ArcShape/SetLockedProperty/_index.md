@@ -24,5 +24,4 @@ func (instance *ArcShape) SetLockedProperty(type_ ShapeLockType, value bool)  er
 ## See Also
 
 * Class [ArcShape](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

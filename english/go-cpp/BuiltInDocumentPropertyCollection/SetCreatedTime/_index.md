@@ -24,5 +24,4 @@ func (instance *BuiltInDocumentPropertyCollection) SetCreatedTime(value *Date)  
 ## See Also
 
 * Class [BuiltInDocumentPropertyCollection](../)
-* Namespace [Aspose.Cells.Properties](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

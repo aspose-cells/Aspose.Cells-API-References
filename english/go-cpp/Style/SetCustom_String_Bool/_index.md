@@ -24,5 +24,4 @@ func (instance *Style) SetCustom_String_Bool(custom string, builtinpreference bo
 ## See Also
 
 * Class [Style](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

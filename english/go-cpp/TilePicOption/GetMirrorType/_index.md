@@ -24,5 +24,4 @@ func (instance *TilePicOption) GetMirrorType()  (MirrorType,  error)
 ## See Also
 
 * Class [TilePicOption](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

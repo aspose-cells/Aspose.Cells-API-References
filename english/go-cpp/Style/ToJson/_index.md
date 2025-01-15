@@ -10,7 +10,7 @@ url: /go-cpp/style/tojson/
 
 ## ToJson function
 
-Convert <see cref="Style"/> to JSON struct data.
+Convert Style to JSON struct data.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *Style) ToJson()  (string,  error)
 ## See Also
 
 * Class [Style](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

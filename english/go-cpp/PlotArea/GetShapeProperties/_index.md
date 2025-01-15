@@ -10,7 +10,7 @@ url: /go-cpp/plotarea/getshapeproperties/
 
 ## GetShapeProperties function
 
-Gets the <see cref="ShapeProperties"/> object.
+Gets the ShapeProperties object.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *PlotArea) GetShapeProperties()  (*ShapePropertyCollection,  erro
 ## See Also
 
 * Class [PlotArea](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

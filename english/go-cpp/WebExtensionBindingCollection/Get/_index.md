@@ -24,5 +24,4 @@ func (instance *WebExtensionBindingCollection) Get(index int32)  (*WebExtensionB
 ## See Also
 
 * Class [WebExtensionBindingCollection](../)
-* Namespace [Aspose.Cells.WebExtensions](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

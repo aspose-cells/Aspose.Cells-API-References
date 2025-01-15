@@ -24,5 +24,4 @@ func (instance *TxtLoadOptions) GetTreatConsecutiveDelimitersAsOne()  (bool,  er
 ## See Also
 
 * Class [TxtLoadOptions](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

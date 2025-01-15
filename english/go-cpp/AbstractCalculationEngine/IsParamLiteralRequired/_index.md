@@ -24,5 +24,4 @@ func (instance *AbstractCalculationEngine) IsParamLiteralRequired()  (bool,  err
 ## See Also
 
 * Class [AbstractCalculationEngine](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

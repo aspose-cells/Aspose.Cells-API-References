@@ -24,5 +24,4 @@ func (instance *ScenarioCollection) Add(name string)  (int32,  error)
 ## See Also
 
 * Class [ScenarioCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

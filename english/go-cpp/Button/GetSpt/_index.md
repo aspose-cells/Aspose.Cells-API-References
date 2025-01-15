@@ -24,5 +24,4 @@ func (instance *Button) GetSpt()  (int32,  error)
 ## See Also
 
 * Class [Button](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

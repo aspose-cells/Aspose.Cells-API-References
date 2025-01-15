@@ -10,7 +10,7 @@ url: /go-cpp/shapepropertycollection/getformat3d/
 
 ## GetFormat3D function
 
-Represents a <see cref="Format3D"/> object that specifies 3D shape properties for the chart element or shape.
+Represents a Format3D object that specifies 3D shape properties for the chart element or shape.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *ShapePropertyCollection) GetFormat3D()  (*Format3D,  error)
 ## See Also
 
 * Class [ShapePropertyCollection](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

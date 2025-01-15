@@ -10,7 +10,7 @@ url: /go-cpp/commentcollection/get_string/
 
 ## Get_String function
 
-Gets the <see cref="Comment"/> element at the specified cell.
+Gets the Comment element at the specified cell.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *CommentCollection) Get_String(cellname string)  (*Comment,  erro
 ## See Also
 
 * Class [CommentCollection](../)
-* Namespace [Aspose.Cells](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

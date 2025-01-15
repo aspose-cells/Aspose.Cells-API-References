@@ -10,7 +10,7 @@ url: /go-cpp/series/getdownbars/
 
 ## GetDownBars function
 
-Returns a <see cref="DropBars"/> object that represents the down bars on a line chart.Applies only to line charts.
+Returns a DropBars object that represents the down bars on a line chart.Applies only to line charts.
 
 ```go
 
@@ -24,5 +24,4 @@ func (instance *Series) GetDownBars()  (*DropBars,  error)
 ## See Also
 
 * Class [Series](../)
-* Namespace [Aspose.Cells.Charts](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)

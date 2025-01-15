@@ -24,5 +24,4 @@ func ColorHelper_FromOleColor(olecolor int32)  (*Color,  error)
 ## See Also
 
 * Class [ColorHelper](../)
-* Namespace [Aspose.Cells.Drawing](../../)
-* Library [Aspose.Cells for Go](../../../)
+* Library [Aspose.Cells for Go](../../)
