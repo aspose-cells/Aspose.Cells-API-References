@@ -109,7 +109,7 @@ Instance of ICellsDataTable
 
 ---
 
-## GetInstance(object[], string[]) {#getinstance_9}
+## GetInstance(object[], string[]) {#getinstance_10}
 
 Creates ICellsDataTable from given sequence of objects.
 
@@ -135,7 +135,34 @@ Instance of ICellsDataTable
 
 ---
 
-## GetInstance(object[], bool) {#getinstance_8}
+## GetInstance(object[][], bool, string[]) {#getinstance_11}
+
+Creates ICellsDataTable from given sequence of objects.
+
+```csharp
+public ICellsDataTable GetInstance(object[][] vals, bool hasHeader, string[] columnNames)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| vals | Object[][] | objects to build table |
+| hasHeader | Boolean | Indicates whether the first row is header row. |
+| columnNames | String[] | Column names of the table. Its length can only be either 1(build table by the objects vertically) or length of the objects(build table by the objects horizontally) |
+
+### Return Value
+
+Instance of ICellsDataTable
+
+### See Also
+
+* interface [ICellsDataTable](../../icellsdatatable/)
+* class [CellsDataTableFactory](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## GetInstance(object[], bool) {#getinstance_9}
 
 Creates ICellsDataTable from given sequence of objects.
 
@@ -191,7 +218,7 @@ public ICellsDataTable GetInstance(double[] vals)
 
 ---
 
-## GetInstance(object[]) {#getinstance_7}
+## GetInstance(object[]) {#getinstance_8}
 
 ```csharp
 public ICellsDataTable GetInstance(object[] vals)
@@ -217,6 +244,32 @@ public ICellsDataTable GetInstance(ICollection collection)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | collection | ICollection | the collection to build table |
+
+### Return Value
+
+Instance of ICellsDataTable
+
+### See Also
+
+* interface [ICellsDataTable](../../icellsdatatable/)
+* class [CellsDataTableFactory](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## GetInstance(ICollection, bool) {#getinstance_7}
+
+Creates ICellsDataTable from given collection.
+
+```csharp
+public ICellsDataTable GetInstance(ICollection collection, bool hasHeader)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| collection | ICollection | the collection to build table |
+| hasHeader | Boolean | Indicates whether the first row is header |
 
 ### Return Value
 

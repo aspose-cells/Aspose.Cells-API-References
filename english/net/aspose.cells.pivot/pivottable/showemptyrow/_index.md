@@ -1,13 +1,13 @@
 ---
 title: PivotTable.ShowEmptyRow
 second_title: Aspose.Cells for .NET API Reference
-description: PivotTable property. Specifies a boolean value that indicates whether to include empty rows in the table
+description: PivotTable property. Indicates whether to include empty rows in the table
 type: docs
 url: /net/aspose.cells.pivot/pivottable/showemptyrow/
 ---
 ## PivotTable.ShowEmptyRow property
 
-Specifies a boolean value that indicates whether to include empty rows in the table.
+Indicates whether to include empty rows in the table.
 
 ```csharp
 public bool ShowEmptyRow { get; set; }

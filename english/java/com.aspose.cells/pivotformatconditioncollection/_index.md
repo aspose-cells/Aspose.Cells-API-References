@@ -13,6 +13,10 @@ public class PivotFormatConditionCollection extends CollectionBase
 ```
 
 Represents PivotTable Format Conditions.
+
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use PivotConditionalFormatCollection class. This method will be removed 12 months later since December 2024. Aspose apologizes for any inconvenience you may have experienced.
 ## Methods
 
 | Method | Description |
@@ -24,13 +28,13 @@ Represents PivotTable Format Conditions.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | Gets the pivot FormatCondition object at the specific index. |
 | [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) | Gets the number of elements contained in the CollectionBase instance. |
+| [getCount()](#getCount--) | Gets the count of conditional formats. |
 | [hashCode()](#hashCode--) |  |
 | [indexOf(Object o)](#indexOf-java.lang.Object-) | Determines the index of a specific item in the CollectionBase instance. |
 | [iterator()](#iterator--) | Returns an enumerator that iterates through the CollectionBase instance. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [removeAt(int index)](#removeAt-int-) | Removes the item at the specified index. |
+| [removeAt(int index)](#removeAt-int-) | Remove a conditional formats. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -133,10 +137,10 @@ public int getCount()
 ```
 
 
-Gets the number of elements contained in the CollectionBase instance.
+Gets the count of conditional formats.
 
 **Returns:**
-int - The number of elements contained in the CollectionBase instance.
+int
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -194,12 +198,12 @@ public void removeAt(int index)
 ```
 
 
-Removes the item at the specified index.
+Remove a conditional formats.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | The zero-based index of the item to remove. |
+| index | int |  |
 
 ### toString() {#toString--}
 ```

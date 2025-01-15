@@ -72,7 +72,8 @@ public class Workbook : IDisposable
 | [CopyTheme](../../aspose.cells/workbook/copytheme/)(Workbook) | Copies the theme from another workbook. |
 | [CreateBuiltinStyle](../../aspose.cells/workbook/createbuiltinstyle/)(BuiltinStyleType) | Creates built-in style by given type. |
 | [CreateCellsColor](../../aspose.cells/workbook/createcellscolor/)() | Creates a [`CellsColor`](../cellscolor/) object. |
-| [CreateStyle](../../aspose.cells/workbook/createstyle/)() | Creates a new style. |
+| [CreateStyle](../../aspose.cells/workbook/createstyle/#createstyle)() | Creates a new style. |
+| [CreateStyle](../../aspose.cells/workbook/createstyle/#createstyle_1)(bool) | Creates a new style. |
 | [CustomTheme](../../aspose.cells/workbook/customtheme/)(string, Color[]) | Customs the theme. |
 | [Dispose](../../aspose.cells/workbook/dispose/)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [ExportXml](../../aspose.cells/workbook/exportxml/#exportxml)(string, Stream) | Export XML data. |

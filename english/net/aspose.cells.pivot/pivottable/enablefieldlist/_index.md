@@ -1,13 +1,13 @@
 ---
 title: PivotTable.EnableFieldList
 second_title: Aspose.Cells for .NET API Reference
-description: PivotTable property. Gets whether enable the field list for the PivotTable
+description: PivotTable property. Indicates whether the field list for the PivotTable is available on the view of Excel
 type: docs
 url: /net/aspose.cells.pivot/pivottable/enablefieldlist/
 ---
 ## PivotTable.EnableFieldList property
 
-Gets whether enable the field list for the PivotTable.
+Indicates whether the field list for the PivotTable is available on the view of Excel.
 
 ```csharp
 public bool EnableFieldList { get; set; }

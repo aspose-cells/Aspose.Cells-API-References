@@ -15,12 +15,6 @@ class WriteProtection;
 ```
 
 
-## Constructors
-
-| Name | Description |
-| --- | --- |
-| [constructor()](#constructor--)| Default Constructor. |
-
 ## Methods
 
 | Method | Description |
@@ -34,15 +28,6 @@ class WriteProtection;
 | [setPassword(string)](#setPassword-string-)| Sets the protected password to modify the file. |
 | [validatePassword(string)](#validatePassword-string-)| Returns true if the specified password is the same as the write-protection password the file was protected with. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
-
-
-### constructor() {#constructor--}
-
-Default Constructor.
-
-```javascript
-constructor();
-```
 
 
 ### getAuthor() {#getAuthor--}

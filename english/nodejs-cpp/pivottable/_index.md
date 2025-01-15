@@ -33,18 +33,22 @@ class PivotTable;
 | [getDataFields()](#getDataFields--)| Gets a PivotField object that represents all the data fields in a PivotTable. Read-only.It would be init only when there are two or more data fields in the DataPiovtFiels. It only use to add DataPivotField to the PivotTable row/column area . Default is in row area. |
 | [getDataField()](#getDataField--)| Gets a [PivotField](../pivotfield/) object that represents all the data fields in a PivotTable. Read-only. It would only be created when there are two or more data fields in the Data region. Defaultly it is in row region. You can drag it to the row/column region with PivotTable.AddFieldToArea() method . |
 | [getBaseFields()](#getBaseFields--)| Returns all base pivot fields in the PivotTable. |
-| [getPivotFilters()](#getPivotFilters--)| Returns a list of pivot filters. |
+| [getPivotFilters()](#getPivotFilters--)| Returns all filters of pivot fields in the pivot table. |
 | [getColumnRange()](#getColumnRange--)| Returns a CellArea object that represents the range that contains the column area in the PivotTable report. Read-only. |
 | [getRowRange()](#getRowRange--)| Returns a CellArea object that represents the range that contains the row area in the PivotTable report. Read-only. |
 | [getDataBodyRange()](#getDataBodyRange--)| Returns a [CellArea](../cellarea/) object that represents the range that contains the data area in the list between the header row and the insert row. Read-only. |
 | [getTableRange1()](#getTableRange1--)| Returns a CellArea object that represents the range containing the entire PivotTable report, but doesn't include page fields. Read-only. |
 | [getTableRange2()](#getTableRange2--)| Returns a CellArea object that represents the range containing the entire PivotTable report, includes page fields. Read-only. |
-| [getColumnGrand()](#getColumnGrand--)| Indicates whether the PivotTable report shows grand totals for columns. |
-| [setColumnGrand(boolean)](#setColumnGrand-boolean-)| Indicates whether the PivotTable report shows grand totals for columns. |
 | [isGridDropZones()](#isGridDropZones--)| Indicates whether the PivotTable report displays classic pivottable layout. (enables dragging fields in the grid) |
 | [setIsGridDropZones(boolean)](#setIsGridDropZones-boolean-)| Indicates whether the PivotTable report displays classic pivottable layout. (enables dragging fields in the grid) |
-| [getRowGrand()](#getRowGrand--)| Indicates whether the PivotTable report shows grand totals for rows. |
-| [setRowGrand(boolean)](#setRowGrand-boolean-)| Indicates whether the PivotTable report shows grand totals for rows. |
+| [getShowColumnGrandTotals()](#getShowColumnGrandTotals--)| Indicates whether to show grand totals for columns of this pivot table. |
+| [setShowColumnGrandTotals(boolean)](#setShowColumnGrandTotals-boolean-)| Indicates whether to show grand totals for columns of this pivot table. |
+| [getShowRowGrandTotals()](#getShowRowGrandTotals--)| Indicates whether to show grand totals for rows of the pivot table. |
+| [setShowRowGrandTotals(boolean)](#setShowRowGrandTotals-boolean-)| Indicates whether to show grand totals for rows of the pivot table. |
+| [getColumnGrand()](#getColumnGrand--)| Indicates whether the PivotTable report shows grand totals for columns. |
+| [setColumnGrand(boolean)](#setColumnGrand-boolean-)| Indicates whether the PivotTable report shows grand totals for columns. |
+| [getRowGrand()](#getRowGrand--)| Indicates whether to show grand totals for rows of this pivot table. |
+| [setRowGrand(boolean)](#setRowGrand-boolean-)| Indicates whether to show grand totals for rows of this pivot table. |
 | [getDisplayNullString()](#getDisplayNullString--)| Indicates whether the PivotTable report displays a custom string if the value is null. |
 | [setDisplayNullString(boolean)](#setDisplayNullString-boolean-)| Indicates whether the PivotTable report displays a custom string if the value is null. |
 | [getNullString()](#getNullString--)| Gets the string displayed in cells that contain null values when the DisplayNullString property is true.The default value is an empty string. |
@@ -73,18 +77,20 @@ class PivotTable;
 | [setEnableDrilldown(boolean)](#setEnableDrilldown-boolean-)| Gets whether drilldown is enabled. |
 | [getEnableFieldDialog()](#getEnableFieldDialog--)| Indicates whether the PivotTable Field dialog box is available when the user double-clicks the PivotTable field. |
 | [setEnableFieldDialog(boolean)](#setEnableFieldDialog-boolean-)| Indicates whether the PivotTable Field dialog box is available when the user double-clicks the PivotTable field. |
-| [getEnableFieldList()](#getEnableFieldList--)| Gets whether enable the field list for the PivotTable. |
-| [setEnableFieldList(boolean)](#setEnableFieldList-boolean-)| Gets whether enable the field list for the PivotTable. |
+| [getEnableFieldList()](#getEnableFieldList--)| Indicates whether the field list for the PivotTable is available on the view of Excel. |
+| [setEnableFieldList(boolean)](#setEnableFieldList-boolean-)| Indicates whether the field list for the PivotTable is available on the view of Excel. |
 | [getEnableWizard()](#getEnableWizard--)| Indicates whether the PivotTable Wizard is available. |
 | [setEnableWizard(boolean)](#setEnableWizard-boolean-)| Indicates whether the PivotTable Wizard is available. |
 | [getSubtotalHiddenPageItems()](#getSubtotalHiddenPageItems--)| Indicates whether hidden page field items in the PivotTable report are included in row and column subtotals, block totals, and grand totals. The default value is False. |
 | [setSubtotalHiddenPageItems(boolean)](#setSubtotalHiddenPageItems-boolean-)| Indicates whether hidden page field items in the PivotTable report are included in row and column subtotals, block totals, and grand totals. The default value is False. |
-| [getGrandTotalName()](#getGrandTotalName--)| Returns the text string label that is displayed in the grand total column or row heading. The default value is the string "Grand Total". |
-| [setGrandTotalName(string)](#setGrandTotalName-string-)| Returns the text string label that is displayed in the grand total column or row heading. The default value is the string "Grand Total". |
+| [getGrandTotalName()](#getGrandTotalName--)| Returns the label that is displayed in the grand total column or row heading. The default value is the string "Grand Total". |
+| [setGrandTotalName(string)](#setGrandTotalName-string-)| Returns the label that is displayed in the grand total column or row heading. The default value is the string "Grand Total". |
 | [getManualUpdate()](#getManualUpdate--)| Indicates whether the PivotTable report is recalculated only at the user's request. |
 | [setManualUpdate(boolean)](#setManualUpdate-boolean-)| Indicates whether the PivotTable report is recalculated only at the user's request. |
 | [isMultipleFieldFilters()](#isMultipleFieldFilters--)| Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them. |
 | [setIsMultipleFieldFilters(boolean)](#setIsMultipleFieldFilters-boolean-)| Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them. |
+| [getAllowMultipleFiltersPerField()](#getAllowMultipleFiltersPerField--)| Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them. |
+| [setAllowMultipleFiltersPerField(boolean)](#setAllowMultipleFiltersPerField-boolean-)| Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them. |
 | [getMissingItemsLimit()](#getMissingItemsLimit--)| Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them. |
 | [setMissingItemsLimit(PivotMissingItemLimitType)](#setMissingItemsLimit-pivotmissingitemlimittype-)| Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them. |
 | [getEnableDataValueEditing()](#getEnableDataValueEditing--)| Specifies a boolean value that indicates whether the user is allowed to edit the cells in the data area of the pivottable. Enable cell editing in the values area |
@@ -95,10 +101,10 @@ class PivotTable;
 | [setShowMemberPropertyTips(boolean)](#setShowMemberPropertyTips-boolean-)| Specifies a boolean value that indicates whether member property information should be omitted from PivotTable tooltips. |
 | [getShowValuesRow()](#getShowValuesRow--)| Indicates whether showing values row. |
 | [setShowValuesRow(boolean)](#setShowValuesRow-boolean-)| Indicates whether showing values row. |
-| [getShowEmptyCol()](#getShowEmptyCol--)| Specifies a boolean value that indicates whether to include empty columns in the table |
-| [setShowEmptyCol(boolean)](#setShowEmptyCol-boolean-)| Specifies a boolean value that indicates whether to include empty columns in the table |
-| [getShowEmptyRow()](#getShowEmptyRow--)| Specifies a boolean value that indicates whether to include empty rows in the table. |
-| [setShowEmptyRow(boolean)](#setShowEmptyRow-boolean-)| Specifies a boolean value that indicates whether to include empty rows in the table. |
+| [getShowEmptyCol()](#getShowEmptyCol--)| Indicates whether to include empty columns in the table |
+| [setShowEmptyCol(boolean)](#setShowEmptyCol-boolean-)| Indicates whether to include empty columns in the table |
+| [getShowEmptyRow()](#getShowEmptyRow--)| Indicates whether to include empty rows in the table. |
+| [setShowEmptyRow(boolean)](#setShowEmptyRow-boolean-)| Indicates whether to include empty rows in the table. |
 | [getFieldListSortAscending()](#getFieldListSortAscending--)| Indicates whether fields in the PivotTable are sorted in non-default order in the field list. |
 | [setFieldListSortAscending(boolean)](#setFieldListSortAscending-boolean-)| Indicates whether fields in the PivotTable are sorted in non-default order in the field list. |
 | [getPrintDrill()](#getPrintDrill--)| Specifies a boolean value that indicates whether drill indicators should be printed. print expand/collapse buttons when displayed on pivottable. |
@@ -120,6 +126,7 @@ class PivotTable;
 | [getCustomListSort()](#getCustomListSort--)| Indicates whether consider built-in custom list when sort data |
 | [setCustomListSort(boolean)](#setCustomListSort-boolean-)| Indicates whether consider built-in custom list when sort data |
 | [getPivotFormatConditions()](#getPivotFormatConditions--)| Gets the Format Conditions of the pivot table. |
+| [getConditionalFormats()](#getConditionalFormats--)| Gets the conditional formats of the pivot table. |
 | [getPageFieldOrder()](#getPageFieldOrder--)| Gets and sets the order in which page fields are added to the PivotTable report's layout. |
 | [setPageFieldOrder(PrintOrderType)](#setPageFieldOrder-printordertype-)| Gets and sets the order in which page fields are added to the PivotTable report's layout. |
 | [getPageFieldWrapCount()](#getPageFieldWrapCount--)| Gets the number of page fields in each column or row in the PivotTable report. |
@@ -173,9 +180,11 @@ class PivotTable;
 | [getFields(PivotFieldType)](#getFields-pivotfieldtype-)| Gets the specific pivot field list by the region. |
 | [move(number, number)](#move-number-number-)| Moves the PivotTable to a different location in the worksheet. |
 | [move(string)](#move-string-)| Moves the PivotTable to a different location in the worksheet. |
+| [moveTo(number, number)](#moveTo-number-number-)| Moves the PivotTable to a different location in the worksheet. |
+| [moveTo(string)](#moveTo-string-)| Moves the PivotTable to a different location in the worksheet. |
 | [getSourceDataConnections()](#getSourceDataConnections--)| Gets the external connection data sources. |
 | [getNamesOfSourceDataConnections()](#getNamesOfSourceDataConnections--)| Gets the name of external source data connections. |
-| [changeDataSource(string[])](#changeDataSource-stringarray-)| Set pivottable's source data. Sheet1!$A$1:$C$3 |
+| [changeDataSource(string[])](#changeDataSource-stringarray-)| Set pivottable's source data. |
 | [getSource()](#getSource--)| Get pivottable's source data. |
 | [refreshData()](#refreshData--)| Refreshes pivottable's data and setting from it's data source. |
 | [refreshData(PivotTableRefreshOption)](#refreshData-pivottablerefreshoption-)| Refreshes pivottable's data and setting from it's data source with options. |
@@ -186,8 +195,11 @@ class PivotTable;
 | [formatAll(Style)](#formatAll-style-)| Format all the cell in the pivottable area |
 | [formatRow(number, Style)](#formatRow-number-style-)| Format the row data in the pivottable area |
 | [format(PivotArea, Style)](#format-pivotarea-style-)| Formats selected area of the PivotTable. |
+| [format(CellArea, Style)](#format-cellarea-style-)| Formats selected area of the PivotTable. |
 | [format(number, number, Style)](#format-number-number-style-)| Format the cell in the pivottable area |
+| [selectArea(CellArea)](#selectArea-cellarea-)| Select an area of pivot table view. |
 | [showDetail(number, number, boolean, number, number)](#showDetail-number-number-boolean-number-number-)| Show the detail of one item in the data region to a new Table. |
+| [getHorizontalPageBreaks()](#getHorizontalPageBreaks--)| Gets horizontal page breaks of this pivot table. |
 | [showInCompactForm()](#showInCompactForm--)| Layouts the PivotTable in compact form. |
 | [showInOutlineForm()](#showInOutlineForm--)| Layouts the PivotTable in outline form. |
 | [showInTabularForm()](#showInTabularForm--)| Layouts the PivotTable in tabular form. |
@@ -364,7 +376,7 @@ getBaseFields() : PivotFieldCollection;
 
 ### getPivotFilters() {#getPivotFilters--}
 
-Returns a list of pivot filters.
+Returns all filters of pivot fields in the pivot table.
 
 ```javascript
 getPivotFilters() : PivotFilterCollection;
@@ -440,28 +452,6 @@ getTableRange2() : CellArea;
 
 [CellArea](../cellarea/)
 
-### getColumnGrand() {#getColumnGrand--}
-
-Indicates whether the PivotTable report shows grand totals for columns.
-
-```javascript
-getColumnGrand() : boolean;
-```
-
-
-### setColumnGrand(boolean) {#setColumnGrand-boolean-}
-
-Indicates whether the PivotTable report shows grand totals for columns.
-
-```javascript
-setColumnGrand(value: boolean) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | The value to set. |
-
 ### isGridDropZones() {#isGridDropZones--}
 
 Indicates whether the PivotTable report displays classic pivottable layout. (enables dragging fields in the grid)
@@ -484,18 +474,96 @@ setIsGridDropZones(value: boolean) : void;
 | --- | --- | --- |
 | value | boolean | The value to set. |
 
+### getShowColumnGrandTotals() {#getShowColumnGrandTotals--}
+
+Indicates whether to show grand totals for columns of this pivot table.
+
+```javascript
+getShowColumnGrandTotals() : boolean;
+```
+
+
+### setShowColumnGrandTotals(boolean) {#setShowColumnGrandTotals-boolean-}
+
+Indicates whether to show grand totals for columns of this pivot table.
+
+```javascript
+setShowColumnGrandTotals(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+### getShowRowGrandTotals() {#getShowRowGrandTotals--}
+
+Indicates whether to show grand totals for rows of the pivot table.
+
+```javascript
+getShowRowGrandTotals() : boolean;
+```
+
+
+### setShowRowGrandTotals(boolean) {#setShowRowGrandTotals-boolean-}
+
+Indicates whether to show grand totals for rows of the pivot table.
+
+```javascript
+setShowRowGrandTotals(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+### getColumnGrand() {#getColumnGrand--}
+
+Indicates whether the PivotTable report shows grand totals for columns.
+
+```javascript
+getColumnGrand() : boolean;
+```
+
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotTable.ShowColumnGrandTotals method. This method will be removed 12 months later since December 2024. Aspose apologizes for any inconvenience you may have experienced.
+
+### setColumnGrand(boolean) {#setColumnGrand-boolean-}
+
+Indicates whether the PivotTable report shows grand totals for columns.
+
+```javascript
+setColumnGrand(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotTable.ShowColumnGrandTotals method. This method will be removed 12 months later since December 2024. Aspose apologizes for any inconvenience you may have experienced.
+
 ### getRowGrand() {#getRowGrand--}
 
-Indicates whether the PivotTable report shows grand totals for rows.
+Indicates whether to show grand totals for rows of this pivot table.
 
 ```javascript
 getRowGrand() : boolean;
 ```
 
 
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotTable.ShowRowGrandTotals method. This method will be removed 12 months later since December 2024. Aspose apologizes for any inconvenience you may have experienced.
+
 ### setRowGrand(boolean) {#setRowGrand-boolean-}
 
-Indicates whether the PivotTable report shows grand totals for rows.
+Indicates whether to show grand totals for rows of this pivot table.
 
 ```javascript
 setRowGrand(value: boolean) : void;
@@ -505,6 +573,10 @@ setRowGrand(value: boolean) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The value to set. |
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotTable.ShowRowGrandTotals method. This method will be removed 12 months later since December 2024. Aspose apologizes for any inconvenience you may have experienced.
 
 ### getDisplayNullString() {#getDisplayNullString--}
 
@@ -820,7 +892,7 @@ setEnableFieldDialog(value: boolean) : void;
 
 ### getEnableFieldList() {#getEnableFieldList--}
 
-Gets whether enable the field list for the PivotTable.
+Indicates whether the field list for the PivotTable is available on the view of Excel.
 
 ```javascript
 getEnableFieldList() : boolean;
@@ -829,7 +901,7 @@ getEnableFieldList() : boolean;
 
 ### setEnableFieldList(boolean) {#setEnableFieldList-boolean-}
 
-Gets whether enable the field list for the PivotTable.
+Indicates whether the field list for the PivotTable is available on the view of Excel.
 
 ```javascript
 setEnableFieldList(value: boolean) : void;
@@ -886,7 +958,7 @@ setSubtotalHiddenPageItems(value: boolean) : void;
 
 ### getGrandTotalName() {#getGrandTotalName--}
 
-Returns the text string label that is displayed in the grand total column or row heading. The default value is the string "Grand Total".
+Returns the label that is displayed in the grand total column or row heading. The default value is the string "Grand Total".
 
 ```javascript
 getGrandTotalName() : string;
@@ -895,7 +967,7 @@ getGrandTotalName() : string;
 
 ### setGrandTotalName(string) {#setGrandTotalName-string-}
 
-Returns the text string label that is displayed in the grand total column or row heading. The default value is the string "Grand Total".
+Returns the label that is displayed in the grand total column or row heading. The default value is the string "Grand Total".
 
 ```javascript
 setGrandTotalName(value: string) : void;
@@ -937,12 +1009,42 @@ isMultipleFieldFilters() : boolean;
 ```
 
 
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotTable.AllowMultipleFiltersPerField property. This method will be removed 12 months later since December 2024. Aspose apologizes for any inconvenience you may have experienced.
+
 ### setIsMultipleFieldFilters(boolean) {#setIsMultipleFieldFilters-boolean-}
 
 Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them.
 
 ```javascript
 setIsMultipleFieldFilters(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotTable.AllowMultipleFiltersPerField property. This method will be removed 12 months later since December 2024. Aspose apologizes for any inconvenience you may have experienced.
+
+### getAllowMultipleFiltersPerField() {#getAllowMultipleFiltersPerField--}
+
+Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them.
+
+```javascript
+getAllowMultipleFiltersPerField() : boolean;
+```
+
+
+### setAllowMultipleFiltersPerField(boolean) {#setAllowMultipleFiltersPerField-boolean-}
+
+Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them.
+
+```javascript
+setAllowMultipleFiltersPerField(value: boolean) : void;
 ```
 
 **Parameters:**
@@ -1066,7 +1168,7 @@ setShowValuesRow(value: boolean) : void;
 
 ### getShowEmptyCol() {#getShowEmptyCol--}
 
-Specifies a boolean value that indicates whether to include empty columns in the table
+Indicates whether to include empty columns in the table
 
 ```javascript
 getShowEmptyCol() : boolean;
@@ -1075,7 +1177,7 @@ getShowEmptyCol() : boolean;
 
 ### setShowEmptyCol(boolean) {#setShowEmptyCol-boolean-}
 
-Specifies a boolean value that indicates whether to include empty columns in the table
+Indicates whether to include empty columns in the table
 
 ```javascript
 setShowEmptyCol(value: boolean) : void;
@@ -1088,7 +1190,7 @@ setShowEmptyCol(value: boolean) : void;
 
 ### getShowEmptyRow() {#getShowEmptyRow--}
 
-Specifies a boolean value that indicates whether to include empty rows in the table.
+Indicates whether to include empty rows in the table.
 
 ```javascript
 getShowEmptyRow() : boolean;
@@ -1097,7 +1199,7 @@ getShowEmptyRow() : boolean;
 
 ### setShowEmptyRow(boolean) {#setShowEmptyRow-boolean-}
 
-Specifies a boolean value that indicates whether to include empty rows in the table.
+Indicates whether to include empty rows in the table.
 
 ```javascript
 setShowEmptyRow(value: boolean) : void;
@@ -1341,6 +1443,23 @@ getPivotFormatConditions() : PivotFormatConditionCollection;
 
 [PivotFormatConditionCollection](../pivotformatconditioncollection/)
 
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotTable.ConditionalFormats property. This method will be removed 12 months later since December 2024. Aspose apologizes for any inconvenience you may have experienced.
+
+### getConditionalFormats() {#getConditionalFormats--}
+
+Gets the conditional formats of the pivot table.
+
+```javascript
+getConditionalFormats() : PivotConditionalFormatCollection;
+```
+
+
+**Returns**
+
+[PivotConditionalFormatCollection](../pivotconditionalformatcollection/)
+
 ### getPageFieldOrder() {#getPageFieldOrder--}
 
 Gets and sets the order in which page fields are added to the PivotTable report's layout.
@@ -1464,6 +1583,10 @@ getRefreshDataFlag() : boolean;
 ```
 
 
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, This method will be removed 12 months later since December 2024. Aspose apologizes for any inconvenience you may have experienced.
+
 ### setRefreshDataFlag(boolean) {#setRefreshDataFlag-boolean-}
 
 Indicates whether Refreshing Data or not.
@@ -1476,6 +1599,10 @@ setRefreshDataFlag(value: boolean) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The value to set. |
+
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, This method will be removed 12 months later since December 2024. Aspose apologizes for any inconvenience you may have experienced.
 
 ### getSourceType() {#getSourceType--}
 
@@ -1505,7 +1632,7 @@ getExternalConnectionDataSource() : ExternalConnection;
 
 **Remarks**
 
-NOTE: This property is now obsolete. Instead, please use pivotTable.GetSourceDataConnections() method. This method will be removed 12 months later since October 2024. Aspose apologizes for any inconvenience you may have experienced.
+NOTE: This property is now obsolete. Instead, please use PivotTable.GetSourceDataConnections() method. This method will be removed 12 months later since October 2024. Aspose apologizes for any inconvenience you may have experienced.
 
 ### getDataSource() {#getDataSource--}
 
@@ -1991,12 +2118,47 @@ move(row: number, column: number) : void;
 | row | number | row index. |
 | column | number | column index. |
 
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotTable.MoveTo() method. This method will be removed 12 months later since December 2024. Aspose apologizes for any inconvenience you may have experienced.
+
 ### move(string) {#move-string-}
 
 Moves the PivotTable to a different location in the worksheet.
 
 ```javascript
 move(destCellName: string) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| destCellName | string | the dest cell name. |
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotTable.MoveTo() method. This method will be removed 12 months later since December 2024. Aspose apologizes for any inconvenience you may have experienced.
+
+### moveTo(number, number) {#moveTo-number-number-}
+
+Moves the PivotTable to a different location in the worksheet.
+
+```javascript
+moveTo(row: number, column: number) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| row | number | row index. |
+| column | number | column index. |
+
+### moveTo(string) {#moveTo-string-}
+
+Moves the PivotTable to a different location in the worksheet.
+
+```javascript
+moveTo(destCellName: string) : void;
 ```
 
 **Parameters:**
@@ -2032,7 +2194,7 @@ string[]
 
 ### changeDataSource(string[]) {#changeDataSource-stringarray-}
 
-Set pivottable's source data. Sheet1!$A$1:$C$3
+Set pivottable's source data.
 
 ```javascript
 changeDataSource(source: string[]) : void;
@@ -2180,8 +2342,22 @@ format(pivotArea: PivotArea, style: Style) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pivotArea | [PivotArea](../pivotarea/) |  |
-| style | [Style](../style/) |  |
+| pivotArea | [PivotArea](../pivotarea/) | The selected pivot view area. |
+| style | [Style](../style/) | The formatted setting. |
+
+### format(CellArea, Style) {#format-cellarea-style-}
+
+Formats selected area of the PivotTable.
+
+```javascript
+format(ca: CellArea, style: Style) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ca | [CellArea](../cellarea/) | The range of the cells. |
+| style | [Style](../style/) | The style |
 
 ### format(number, number, Style) {#format-number-number-style-}
 
@@ -2197,6 +2373,23 @@ format(row: number, column: number, style: Style) : void;
 | row | number | Row Index of the cell |
 | column | number | Column index of the cell |
 | style | [Style](../style/) | Style which is to format the cell |
+
+### selectArea(CellArea) {#selectArea-cellarea-}
+
+Select an area of pivot table view.
+
+```javascript
+selectArea(ca: CellArea) : PivotAreaCollection;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ca | [CellArea](../cellarea/) | The cell area. |
+
+**Returns**
+
+[PivotAreaCollection](../pivotareacollection/)
 
 ### showDetail(number, number, boolean, number, number) {#showDetail-number-number-boolean-number-number-}
 
@@ -2214,6 +2407,19 @@ showDetail(rowOffset: number, columnOffset: number, newSheet: boolean, destRow: 
 | newSheet | boolean | Show the detail to a new worksheet. |
 | destRow | number | The target row. |
 | destColumn | number | The target column. |
+
+### getHorizontalPageBreaks() {#getHorizontalPageBreaks--}
+
+Gets horizontal page breaks of this pivot table.
+
+```javascript
+getHorizontalPageBreaks() : number[];
+```
+
+
+**Returns**
+
+number[]
 
 ### showInCompactForm() {#showInCompactForm--}
 

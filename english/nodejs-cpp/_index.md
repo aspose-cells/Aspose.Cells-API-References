@@ -269,8 +269,11 @@ is_root: true
 | [PictureBulletValue](./picturebulletvalue) | Represents the value of the image bullet. |
 | [PictureCollection](./picturecollection) | Encapsulates a collection of [Picture](../nodejs-cpp/picture/) objects. |
 | [PivotArea](./pivotarea) | Presents the selected area of the PivotTable. |
+| [PivotAreaCollection](./pivotareacollection) | Represents a list of pivot area. |
 | [PivotAreaFilter](./pivotareafilter) | Represents the filter of [PivotArea](../nodejs-cpp/pivotarea/) for [PivotTable](../nodejs-cpp/pivottable/). |
 | [PivotAreaFilterCollection](./pivotareafiltercollection) | Represents the list of filters for [PivotArea](../nodejs-cpp/pivotarea/) |
+| [PivotConditionalFormat](./pivotconditionalformat) | Represents a PivotTable Format Condition in PivotFormatCondition Collection. |
+| [PivotConditionalFormatCollection](./pivotconditionalformatcollection) | Represents all conditional formats of pivot table. |
 | [PivotDateTimeRangeGroupSettings](./pivotdatetimerangegroupsettings) | Represents the field grouped by date time range. |
 | [PivotDiscreteGroupSettings](./pivotdiscretegroupsettings) | Rrepsents the discrete group of pivot field |
 | [PivotField](./pivotfield) | Represents a field in a PivotTable report. |

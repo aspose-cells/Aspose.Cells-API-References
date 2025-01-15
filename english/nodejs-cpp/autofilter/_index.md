@@ -43,7 +43,8 @@ workbook.save("output/AutoFilter.xlsx");
 | [setShowFilterButton(boolean)](#setShowFilterButton-boolean-)| Indicates whether the AutoFilter button for this column is visible. |
 | [getFilterColumns()](#getFilterColumns--)| Gets the collection of the filter columns. |
 | [setRange(number, number, number)](#setRange-number-number-number-)| Sets the range to which the specified AutoFilter applies. |
-| [getCellArea()](#getCellArea--)| Gets the [CellArea](../cellarea/) where the specified AutoFilter applies to. |
+| [getCellArea()](#getCellArea--)| Gets the [CellArea](../cellarea/) where the this AutoFilter applies to. |
+| [getCellArea(boolean)](#getCellArea-boolean-)| Gets the [CellArea](../cellarea/) where the specified AutoFilter applies to. |
 | [addFilter(number, string)](#addFilter-number-string-)| Adds a filter for a filter column. |
 | [addDateFilter(number, DateTimeGroupingType, number, number, number, number, number, number)](#addDateFilter-number-datetimegroupingtype-number-number-number-number-number-number-)| Adds a date filter. |
 | [removeDateFilter(number, DateTimeGroupingType, number, number, number, number, number, number)](#removeDateFilter-number-datetimegroupingtype-number-number-number-number-number-number-)| Removes a date filter. |
@@ -152,7 +153,7 @@ setRange(row: number, startColumn: number, endColumn: number) : void;
 
 ### getCellArea() {#getCellArea--}
 
-Gets the [CellArea](../cellarea/) where the specified AutoFilter applies to.
+Gets the [CellArea](../cellarea/) where the this AutoFilter applies to.
 
 ```javascript
 getCellArea() : CellArea;
@@ -161,7 +162,24 @@ getCellArea() : CellArea;
 
 **Returns**
 
-[CellArea](../cellarea/)
+the area this filter applies to
+
+### getCellArea(boolean) {#getCellArea-boolean-}
+
+Gets the [CellArea](../cellarea/) where the specified AutoFilter applies to.
+
+```javascript
+getCellArea(refreshAppliedRange: boolean) : CellArea;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| refreshAppliedRange | boolean | Whether refresh the applied range.         /// For the applied range of auto filter, the last row may change when cells data changes.         /// If this flag is true, then the last row of the range will be re-calculated according to current cells data. |
+
+**Returns**
+
+the area this filter applies to
 
 ### addFilter(number, string) {#addFilter-number-string-}
 

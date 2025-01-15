@@ -14,14 +14,17 @@ Represents PivotTable Format Conditions.
 class PivotFormatConditionCollection;
 ```
 
+### Remarks
+NOTE: This method is now obsolete. Instead, please use PivotConditionalFormatCollection class. This method will be removed 12 months later since December 2024. Aspose apologizes for any inconvenience you may have experienced.
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [get(number)](#get-number-)| Gets the pivot FormatCondition object at the specific index. |
+| [getCount()](#getCount--)| Gets the count of conditional formats. |
 | [add()](#add--)| Adds a pivot FormatCondition to the collection. |
-| [getCount()](#getCount--)| Gets the number of elements contained in. |
+| [removeAt(number)](#removeAt-number-)| Remove a conditional formats. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -42,6 +45,15 @@ get(index: number) : PivotFormatCondition;
 
 pivot FormatCondition object.
 
+### getCount() {#getCount--}
+
+Gets the count of conditional formats.
+
+```javascript
+getCount() : number;
+```
+
+
 ### add() {#add--}
 
 Adds a pivot FormatCondition to the collection.
@@ -59,14 +71,18 @@ pivot FormatCondition object index.
 
 not supported
 
-### getCount() {#getCount--}
+### removeAt(number) {#removeAt-number-}
 
-Gets the number of elements contained in.
+Remove a conditional formats.
 
 ```javascript
-getCount() : number;
+removeAt(index: number) : void;
 ```
 
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | number |  |
 
 ### isNull() {#isNull--}
 

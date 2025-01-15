@@ -23,6 +23,7 @@ Represents a referred area by the formula.
 | [getEndRow()](#getEndRow--) | The end row of the area. |
 | [getExternalFileName()](#getExternalFileName--) | Get the external file name if this is an external reference. |
 | [getSheetName()](#getSheetName--) | Indicates which sheet this reference is in. |
+| [getSheetNames()](#getSheetNames--) | Names of all the worksheets this instance references to. |
 | [getStartColumn()](#getStartColumn--) | The start column of the area. |
 | [getStartRow()](#getStartRow--) | The start row of the area. |
 | [getValue(int rowOffset, int colOffset)](#getValue-int-int-) | Gets cell value with given offset from the top-left of this area. |
@@ -103,8 +104,22 @@ public String getSheetName()
 
 Indicates which sheet this reference is in.
 
+**Remarks**
+
+If it references to multiple worksheets, the returned value is just like the range expression in the formula. For example "Sheet1:Sheet3" for the reference in formula "=SUM(Sheet1:Sheet3!$A$1:$B$2)".
+
 **Returns:**
 java.lang.String
+### getSheetNames() {#getSheetNames--}
+```
+public String[] getSheetNames()
+```
+
+
+Names of all the worksheets this instance references to.
+
+**Returns:**
+java.lang.String[]
 ### getStartColumn() {#getStartColumn--}
 ```
 public int getStartColumn()
