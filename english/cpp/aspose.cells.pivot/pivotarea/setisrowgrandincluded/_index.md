@@ -4,7 +4,7 @@ linktitle: SetIsRowGrandIncluded
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotArea::SetIsRowGrandIncluded method. Indicates whether the row grand total is included in C++.'
 type: docs
-weight: 1300
+weight: 1400
 url: /cpp/aspose.cells.pivot/pivotarea/setisrowgrandincluded/
 ---
 ## PivotArea::SetIsRowGrandIncluded method

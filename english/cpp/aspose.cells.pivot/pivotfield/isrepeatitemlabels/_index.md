@@ -4,7 +4,7 @@ linktitle: IsRepeatItemLabels
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotField::IsRepeatItemLabels method. Indicates whether repeating labels of the field in the region. The default value is false in C++.'
 type: docs
-weight: 3800
+weight: 4500
 url: /cpp/aspose.cells.pivot/pivotfield/isrepeatitemlabels/
 ---
 ## PivotField::IsRepeatItemLabels method

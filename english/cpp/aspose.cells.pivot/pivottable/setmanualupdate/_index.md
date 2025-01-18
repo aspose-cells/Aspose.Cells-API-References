@@ -4,7 +4,7 @@ linktitle: SetManualUpdate
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::SetManualUpdate method. Indicates whether the PivotTable report is recalculated only at the user''s request in C++.'
 type: docs
-weight: 7900
+weight: 8400
 url: /cpp/aspose.cells.pivot/pivottable/setmanualupdate/
 ---
 ## PivotTable::SetManualUpdate method

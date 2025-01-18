@@ -4,7 +4,7 @@ linktitle: PivotFieldSortSetting
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotFieldSortSetting class. Represents the setting of sorting pivot fields in C++.'
 type: docs
-weight: 1000
+weight: 1300
 url: /cpp/aspose.cells.pivot/pivotfieldsortsetting/
 ---
 ## PivotFieldSortSetting class

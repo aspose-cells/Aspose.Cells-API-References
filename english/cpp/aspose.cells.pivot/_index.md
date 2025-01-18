@@ -4,7 +4,7 @@ linktitle: Aspose::Cells::Pivot
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use Aspose::Cells::Pivot namespace in C++.'
 type: docs
-weight: 1400
+weight: 1500
 url: /cpp/aspose.cells.pivot/
 ---
 
@@ -16,8 +16,11 @@ url: /cpp/aspose.cells.pivot/
 | --- | --- |
 | [CustomPiovtFieldGroupItem](./custompiovtfieldgroupitem/) | Represents an item of custom grouped field. |
 | [PivotArea](./pivotarea/) | Presents the selected area of the [PivotTable](./pivottable/). |
+| [PivotAreaCollection](./pivotareacollection/) | Represents a list of pivot area. |
 | [PivotAreaFilter](./pivotareafilter/) | Represents the filter of [PivotArea](./pivotarea/) for [PivotTable](./pivottable/). |
 | [PivotAreaFilterCollection](./pivotareafiltercollection/) | Represents the list of filters for [PivotArea](./pivotarea/) |
+| [PivotConditionalFormat](./pivotconditionalformat/) | Represents a [PivotTable](./pivottable/) Format Condition in [PivotFormatCondition](./pivotformatcondition/) Collection. |
+| [PivotConditionalFormatCollection](./pivotconditionalformatcollection/) | Represents all conditional formats of pivot table. |
 | [PivotDateTimeRangeGroupSettings](./pivotdatetimerangegroupsettings/) | Represents the field grouped by date time range. |
 | [PivotDiscreteGroupSettings](./pivotdiscretegroupsettings/) | Rrepsents the discrete group of pivot field. |
 | [PivotField](./pivotfield/) | Represents a field in a [PivotTable](./pivottable/) report. |
@@ -26,8 +29,8 @@ url: /cpp/aspose.cells.pivot/
 | [PivotFieldSortSetting](./pivotfieldsortsetting/) | Represents the setting of sorting pivot fields. |
 | [PivotFilter](./pivotfilter/) | Represents a [PivotFilter](./pivotfilter/) in [PivotFilter](./pivotfilter/) Collection. |
 | [PivotFilterCollection](./pivotfiltercollection/) | Represents a collection of all the [PivotFilter](./pivotfilter/) objects. |
-| [PivotFormatCondition](./pivotformatcondition/) | Represents a [PivotTable](./pivottable/) Format Condition in [PivotFormatCondition](./pivotformatcondition/) Collection. |
-| [PivotFormatConditionCollection](./pivotformatconditioncollection/) | Represents [PivotTable](./pivottable/) Format Conditions. |
+| [PivotFormatCondition](./pivotformatcondition/) |  **(Deprecated)** Represents a [PivotTable](./pivottable/) Format Condition in [PivotFormatCondition](./pivotformatcondition/) Collection. |
+| [PivotFormatConditionCollection](./pivotformatconditioncollection/) |  **(Deprecated)** Represents [PivotTable](./pivottable/) Format Conditions. |
 | [PivotItem](./pivotitem/) | Represents a item in a [PivotField](./pivotfield/) report. |
 | [PivotItemCollection](./pivotitemcollection/) | Represents all the [PivotItem](./pivotitem/) objects in the [PivotField](./pivotfield/). |
 | [PivotNumbericRangeGroupSettings](./pivotnumbericrangegroupsettings/) | Represents the numberic range group of the pivot field. |

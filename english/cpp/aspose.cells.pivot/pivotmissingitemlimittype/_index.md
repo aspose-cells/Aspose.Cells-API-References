@@ -4,7 +4,7 @@ linktitle: PivotMissingItemLimitType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotMissingItemLimitType enum. Represents number of items to retain per field in C++.'
 type: docs
-weight: 3800
+weight: 4100
 url: /cpp/aspose.cells.pivot/pivotmissingitemlimittype/
 ---
 ## PivotMissingItemLimitType enum

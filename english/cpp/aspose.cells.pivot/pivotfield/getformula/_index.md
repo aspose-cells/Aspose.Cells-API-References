@@ -4,7 +4,7 @@ linktitle: GetFormula
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotField::GetFormula method. Gets formula of the calculated field  in C++.'
 type: docs
-weight: 1400
+weight: 1900
 url: /cpp/aspose.cells.pivot/pivotfield/getformula/
 ---
 ## PivotField::GetFormula method

@@ -4,7 +4,7 @@ linktitle: GetNamesOfSourceDataConnections
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::GetNamesOfSourceDataConnections method. Gets the name of external source data connections in C++.'
 type: docs
-weight: 13200
+weight: 14000
 url: /cpp/aspose.cells.pivot/pivottable/getnamesofsourcedataconnections/
 ---
 ## PivotTable::GetNamesOfSourceDataConnections method

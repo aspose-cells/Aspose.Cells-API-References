@@ -4,7 +4,7 @@ linktitle: PivotFieldDataDisplayFormat
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotFieldDataDisplayFormat enum. Represents data display format in the PivotTable data field in C++.'
 type: docs
-weight: 2900
+weight: 3200
 url: /cpp/aspose.cells.pivot/pivotfielddatadisplayformat/
 ---
 ## PivotFieldDataDisplayFormat enum

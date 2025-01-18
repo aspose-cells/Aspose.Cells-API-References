@@ -30,7 +30,7 @@ class InsertOptions
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const InsertOptions\& src)](./operator_asm/) | operator= |
 | [SetCopyFormatType(CopyFormatType value)](./setcopyformattype/) |  |
-| [SetFormulaChangeMonitor(const AbstractFormulaChangeMonitor\& value)](./setformulachangemonitor/) | Gets/sets the monitor for tracking changes caused by the insertion. |
+| [SetFormulaChangeMonitor(AbstractFormulaChangeMonitor* value)](./setformulachangemonitor/) | Gets/sets the monitor for tracking changes caused by the insertion. |
 | [SetUpdateReference(bool value)](./setupdatereference/) | Indicates if references in other worksheets will be updated. |
 | [~InsertOptions()](./~insertoptions/) | Destructor. |
 ## Fields

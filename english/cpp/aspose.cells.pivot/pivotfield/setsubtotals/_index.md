@@ -4,7 +4,7 @@ linktitle: SetSubtotals
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotField::SetSubtotals method. Sets whether the specified field shows that subtotals in C++.'
 type: docs
-weight: 2200
+weight: 2900
 url: /cpp/aspose.cells.pivot/pivotfield/setsubtotals/
 ---
 ## PivotField::SetSubtotals method

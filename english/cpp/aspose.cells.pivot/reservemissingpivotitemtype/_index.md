@@ -4,7 +4,7 @@ linktitle: ReserveMissingPivotItemType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::ReserveMissingPivotItemType enum. Represents how to keep the missing pivot items in C++.'
 type: docs
-weight: 4300
+weight: 4700
 url: /cpp/aspose.cells.pivot/reservemissingpivotitemtype/
 ---
 ## ReserveMissingPivotItemType enum

@@ -4,7 +4,7 @@ linktitle: PivotFilterCollection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotFilterCollection class. Represents a collection of all the PivotFilter objects in C++.'
 type: docs
-weight: 1200
+weight: 1500
 url: /cpp/aspose.cells.pivot/pivotfiltercollection/
 ---
 ## PivotFilterCollection class

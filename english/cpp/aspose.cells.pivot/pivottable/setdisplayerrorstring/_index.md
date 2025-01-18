@@ -4,7 +4,7 @@ linktitle: SetDisplayErrorString
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::SetDisplayErrorString method. Indicates whether the PivotTable report displays a custom string in cells that contain errors in C++.'
 type: docs
-weight: 4700
+weight: 5200
 url: /cpp/aspose.cells.pivot/pivottable/setdisplayerrorstring/
 ---
 ## PivotTable::SetDisplayErrorString method

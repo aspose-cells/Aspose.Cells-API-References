@@ -4,7 +4,7 @@ linktitle: PivotAreaFilter
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotAreaFilter class. Represents the filter of PivotArea for PivotTable in C++.'
 type: docs
-weight: 300
+weight: 400
 url: /cpp/aspose.cells.pivot/pivotareafilter/
 ---
 ## PivotAreaFilter class

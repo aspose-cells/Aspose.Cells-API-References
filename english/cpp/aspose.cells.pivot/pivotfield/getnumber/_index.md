@@ -4,7 +4,7 @@ linktitle: GetNumber
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotField::GetNumber method. Represents the built-in display format of numbers and dates in C++.'
 type: docs
-weight: 7000
+weight: 7700
 url: /cpp/aspose.cells.pivot/pivotfield/getnumber/
 ---
 ## PivotField::GetNumber method

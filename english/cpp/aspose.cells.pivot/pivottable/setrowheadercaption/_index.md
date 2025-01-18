@@ -4,7 +4,7 @@ linktitle: SetRowHeaderCaption
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::SetRowHeaderCaption method. Gets the Row Header Caption of the PivotTable in C++.'
 type: docs
-weight: 11100
+weight: 11800
 url: /cpp/aspose.cells.pivot/pivottable/setrowheadercaption/
 ---
 ## PivotTable::SetRowHeaderCaption(const U16String\&) method

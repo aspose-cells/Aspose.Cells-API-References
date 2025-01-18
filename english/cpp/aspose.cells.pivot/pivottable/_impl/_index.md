@@ -4,7 +4,7 @@ linktitle: _impl
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::_impl field. The implementation object in C++.'
 type: docs
-weight: 16700
+weight: 18100
 url: /cpp/aspose.cells.pivot/pivottable/_impl/
 ---
 ## _impl field

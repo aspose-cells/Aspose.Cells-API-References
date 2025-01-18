@@ -4,7 +4,7 @@ linktitle: ClearData
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::ClearData method. Clear PivotTable''s data and formatting in C++.'
 type: docs
-weight: 13700
+weight: 14700
 url: /cpp/aspose.cells.pivot/pivottable/cleardata/
 ---
 ## PivotTable::ClearData method

@@ -4,7 +4,7 @@ linktitle: GetShowDataTips
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::GetShowDataTips method. Specifies a boolean value that indicates whether tooltips should be displayed for PivotTable data cells in C++.'
 type: docs
-weight: 8600
+weight: 9300
 url: /cpp/aspose.cells.pivot/pivottable/getshowdatatips/
 ---
 ## PivotTable::GetShowDataTips method

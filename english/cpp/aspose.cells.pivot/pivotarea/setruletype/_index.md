@@ -4,7 +4,7 @@ linktitle: SetRuleType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotArea::SetRuleType method. Gets and sets the type of selection rule in C++.'
 type: docs
-weight: 1900
+weight: 2000
 url: /cpp/aspose.cells.pivot/pivotarea/setruletype/
 ---
 ## PivotArea::SetRuleType method

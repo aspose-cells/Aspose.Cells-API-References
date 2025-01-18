@@ -4,7 +4,7 @@ linktitle: PivotTableCalculateOption
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTableCalculateOption class. Rerepsents the options of calcuating the pivot table in C++.'
 type: docs
-weight: 2100
+weight: 2400
 url: /cpp/aspose.cells.pivot/pivottablecalculateoption/
 ---
 ## PivotTableCalculateOption class

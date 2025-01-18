@@ -4,7 +4,7 @@ linktitle: SetDisplayImmediateItems
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::SetDisplayImmediateItems method. Indicates whether items in the row and column areas are visible when the data area of the PivotTable is empty. The default value is true in C++.'
 type: docs
-weight: 14900
+weight: 16200
 url: /cpp/aspose.cells.pivot/pivottable/setdisplayimmediateitems/
 ---
 ## PivotTable::SetDisplayImmediateItems method

@@ -4,7 +4,7 @@ linktitle: GetSource
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::GetSource method. Get pivottable''s source data in C++.'
 type: docs
-weight: 13400
+weight: 14400
 url: /cpp/aspose.cells.pivot/pivottable/getsource/
 ---
 ## PivotTable::GetSource method

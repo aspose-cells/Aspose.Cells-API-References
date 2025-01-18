@@ -4,7 +4,7 @@ linktitle: GetItemCount
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotField::GetItemCount method. Gets the count of the base items in this pivot field in C++.'
 type: docs
-weight: 8700
+weight: 9400
 url: /cpp/aspose.cells.pivot/pivotfield/getitemcount/
 ---
 ## PivotField::GetItemCount method

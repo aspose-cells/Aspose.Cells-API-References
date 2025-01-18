@@ -4,7 +4,7 @@ linktitle: SetDragToData
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotField::SetDragToData method. Indicates whether the specified field can be dragged to the data position. The default value is true in C++.'
 type: docs
-weight: 3500
+weight: 4200
 url: /cpp/aspose.cells.pivot/pivotfield/setdragtodata/
 ---
 ## PivotField::SetDragToData method

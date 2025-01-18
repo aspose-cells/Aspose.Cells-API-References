@@ -35,6 +35,33 @@ Return a [CellArea](../).
 * Class [CellArea](../)
 * Namespace [Aspose::Cells](../../)
 * Library [Aspose.Cells for C++](../../../)
+## CellArea::CreateCellArea(const U16String\&, const U16String\&) method
+
+
+Creates a cell area.
+
+```cpp
+static CellArea Aspose::Cells::CellArea::CreateCellArea(const U16String &startCellName, const U16String &endCellName)
+```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| startCellName | const U16String\& | The top-left cell of the range. |
+| endCellName | const U16String\& | The bottom-right cell of the range. |
+
+## ReturnValue
+
+Return a [CellArea](../).
+
+## See Also
+
+* Class [CellArea](../)
+* Class [Vector](../../vector/)
+* Class [U16String](../../u16string/)
+* Class [CellArea](../)
+* Namespace [Aspose::Cells](../../)
+* Library [Aspose.Cells for C++](../../../)
 ## CellArea::CreateCellArea(const char16_t*, const char16_t*) method
 
 

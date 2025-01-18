@@ -4,7 +4,7 @@ linktitle: PivotField
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotField class. Represents a field in a PivotTable report in C++.'
 type: docs
-weight: 700
+weight: 1000
 url: /cpp/aspose.cells.pivot/pivotfield/
 ---
 ## PivotField class

@@ -2,15 +2,15 @@
 title: Aspose::Cells::Pivot::PivotTable::SetGrandTotalName method
 linktitle: SetGrandTotalName
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Pivot::PivotTable::SetGrandTotalName method. Returns the text string label that is displayed in the grand total column or row heading. The default value is the string "Grand Total" in C++.'
+description: 'Aspose::Cells::Pivot::PivotTable::SetGrandTotalName method. Returns the label that is displayed in the grand total column or row heading. The default value is the string "Grand Total" in C++.'
 type: docs
-weight: 7700
+weight: 8200
 url: /cpp/aspose.cells.pivot/pivottable/setgrandtotalname/
 ---
 ## PivotTable::SetGrandTotalName(const U16String\&) method
 
 
-Returns the text string label that is displayed in the grand total column or row heading. The default value is the string "Grand Total".
+Returns the label that is displayed in the grand total column or row heading. The default value is the string "Grand Total".
 
 ```cpp
 void Aspose::Cells::Pivot::PivotTable::SetGrandTotalName(const U16String &value)
@@ -26,7 +26,7 @@ void Aspose::Cells::Pivot::PivotTable::SetGrandTotalName(const U16String &value)
 ## PivotTable::SetGrandTotalName(const char16_t*) method
 
 
-Returns the text string label that is displayed in the grand total column or row heading. The default value is the string "Grand Total".
+Returns the label that is displayed in the grand total column or row heading. The default value is the string "Grand Total".
 
 ```cpp
 void Aspose::Cells::Pivot::PivotTable::SetGrandTotalName(const char16_t *value)
