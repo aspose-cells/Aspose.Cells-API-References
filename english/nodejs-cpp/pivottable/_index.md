@@ -186,6 +186,7 @@ class PivotTable;
 | [getNamesOfSourceDataConnections()](#getNamesOfSourceDataConnections--)| Gets the name of external source data connections. |
 | [changeDataSource(string[])](#changeDataSource-stringarray-)| Set pivottable's source data. |
 | [getSource()](#getSource--)| Get pivottable's source data. |
+| [getSource(boolean)](#getSource-boolean-)| Get pivottable's source data. |
 | [refreshData()](#refreshData--)| Refreshes pivottable's data and setting from it's data source. |
 | [refreshData(PivotTableRefreshOption)](#refreshData-pivottablerefreshoption-)| Refreshes pivottable's data and setting from it's data source with options. |
 | [calculateData()](#calculateData--)| Calculates pivottable's data to cells. |
@@ -2213,6 +2214,23 @@ Get pivottable's source data.
 getSource() : string[];
 ```
 
+
+**Returns**
+
+string[]
+
+### getSource(boolean) {#getSource-boolean-}
+
+Get pivottable's source data.
+
+```javascript
+getSource(isOriginal: boolean) : string[];
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| isOriginal | boolean | Indicates whether to return original or display data source |
 
 **Returns**
 

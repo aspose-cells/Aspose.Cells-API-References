@@ -1083,12 +1083,10 @@ var workbook = new Workbook();
 var cells = workbook.getWorksheets().get(0).getCells();
 cells.get("A1").setFormula("= B1 + SUM(B1:B10)");
 var areas = cells.get("A1").getPrecedents();
-for (var i = 0; i < areas.getCount(); i++)
-{
+for (var i = 0; i < areas.getCount(); i++) {
     var area = areas.get(i);
     var stringBuilder = "";
-    if (area.isExternalLink())
-    {
+    if (area.isExternalLink()) {
         stringBuilder += "[";
         stringBuilder += area.getExternalFileName();
         stringBuilder += "]";
@@ -1096,8 +1094,7 @@ for (var i = 0; i < areas.getCount(); i++)
     stringBuilder += area.getSheetName();
     stringBuilder += "!";
     stringBuilder += CellsHelper.cellIndexToName(area.getStartRow(), area.getStartColumn());
-    if (area.isArea())
-    {
+    if (area.isArea()) {
         stringBuilder += ":";
         stringBuilder += CellsHelper.cellIndexToName(area.getEndRow(), area.getEndColumn());
     }

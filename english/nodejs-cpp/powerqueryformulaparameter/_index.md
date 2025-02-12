@@ -33,6 +33,8 @@ class PowerQueryFormulaParameter extends PowerQueryFormula;
 | [getGroupName()](#getGroupName--)| Gets the name of group which contains this power query formula. |
 | [getName()](#getName--)| Gets and sets the name of the power query formula. |
 | [setName(string)](#setName-string-)| Gets and sets the name of the power query formula. |
+| [getDescription()](#getDescription--)| Gets and sets the description of the power query formula. |
+| [setDescription(string)](#setDescription-string-)| Gets and sets the description of the power query formula. |
 | [getPowerQueryFormulaItems()](#getPowerQueryFormulaItems--)| Gets all items of power query formula. |
 
 
@@ -126,6 +128,28 @@ Gets and sets the name of the power query formula.
 
 ```javascript
 setName(value: string) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | string | The value to set. |
+
+### getDescription() {#getDescription--}
+
+Gets and sets the description of the power query formula.
+
+```javascript
+getDescription() : string;
+```
+
+
+### setDescription(string) {#setDescription-string-}
+
+Gets and sets the description of the power query formula.
+
+```javascript
+setDescription(value: string) : void;
 ```
 
 **Parameters:**

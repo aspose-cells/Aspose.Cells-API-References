@@ -182,6 +182,8 @@ class EbookSaveOptions extends HtmlSaveOptions;
 | [setDisableCss(boolean)](#setDisableCss-boolean-)| Indicates whether only inline styles are applied, without relying on CSS. The default value is false. |
 | [getEnableCssCustomProperties()](#getEnableCssCustomProperties--)| Optimize the output of html by using CSS custom properties. For example, for the scenario that there are multiple occurences for one base64 image, with custom property the image data only needs to be saved once so the performance of the resultant html can be improved. The default value is false. |
 | [setEnableCssCustomProperties(boolean)](#setEnableCssCustomProperties-boolean-)| Optimize the output of html by using CSS custom properties. For example, for the scenario that there are multiple occurences for one base64 image, with custom property the image data only needs to be saved once so the performance of the resultant html can be improved. The default value is false. |
+| [getHtmlVersion()](#getHtmlVersion--)| Specifies version of HTML standard that should be used when saving the HTML format. Default value is HtmlVersion.Default. |
+| [setHtmlVersion(HtmlVersion)](#setHtmlVersion-htmlversion-)| Specifies version of HTML standard that should be used when saving the HTML format. Default value is HtmlVersion.Default. |
 
 
 ### constructor() {#constructor--}
@@ -2077,5 +2079,31 @@ setEnableCssCustomProperties(value: boolean) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The value to set. |
+
+### getHtmlVersion() {#getHtmlVersion--}
+
+Specifies version of HTML standard that should be used when saving the HTML format. Default value is HtmlVersion.Default.
+
+```javascript
+getHtmlVersion() : HtmlVersion;
+```
+
+
+**Returns**
+
+[HtmlVersion](../htmlversion/)
+
+### setHtmlVersion(HtmlVersion) {#setHtmlVersion-htmlversion-}
+
+Specifies version of HTML standard that should be used when saving the HTML format. Default value is HtmlVersion.Default.
+
+```javascript
+setHtmlVersion(value: HtmlVersion) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [HtmlVersion](../htmlversion/) | The value to set. |
 
 

@@ -79,8 +79,11 @@ sheets.setActiveSheetIndex(1);
 | [setOleSize(number, number, number, number)](#setOleSize-number-number-number-number-)| Sets displayed size when Workbook file is used as an Ole object. |
 | [clearPivottables()](#clearPivottables--)| Clears pivot tables from the spreadsheet. |
 | [refreshAll()](#refreshAll--)| Refresh all pivot tables and charts with pivot source. |
+| [refreshAllAsync()](#refreshAllAsync--)| Refresh all pivot tables and charts with pivot source. |
 | [refreshPivotTables()](#refreshPivotTables--)| Refreshes all the PivotTables in the Excel file. |
 | [refreshPivotTables(PivotTableRefreshOption)](#refreshPivotTables-pivottablerefreshoption-)| Refreshes all the PivotTables in the Excel file. |
+| [refreshPivotTablesAsync()](#refreshPivotTablesAsync--)| Refreshes all the PivotTables in the Excel file. |
+| [refreshPivotTablesAsync(PivotTableRefreshOption)](#refreshPivotTablesAsync-pivottablerefreshoption-)| Refreshes all the PivotTables in the Excel file. |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
@@ -806,6 +809,19 @@ refreshAll() : void;
 ```
 
 
+### refreshAllAsync() {#refreshAllAsync--}
+
+Refresh all pivot tables and charts with pivot source.
+
+```javascript
+refreshAllAsync() : Promise<void>;
+```
+
+
+**Returns**
+
+[Promise<void>](../promise<void>/)
+
 ### refreshPivotTables() {#refreshPivotTables--}
 
 Refreshes all the PivotTables in the Excel file.
@@ -827,6 +843,36 @@ refreshPivotTables(option: PivotTableRefreshOption) : boolean;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | option | [PivotTableRefreshOption](../pivottablerefreshoption/) | The option for refreshing data source of the pivot tables. |
+
+### refreshPivotTablesAsync() {#refreshPivotTablesAsync--}
+
+Refreshes all the PivotTables in the Excel file.
+
+```javascript
+refreshPivotTablesAsync() : Promise<void>;
+```
+
+
+**Returns**
+
+[Promise<void>](../promise<void>/)
+
+### refreshPivotTablesAsync(PivotTableRefreshOption) {#refreshPivotTablesAsync-pivottablerefreshoption-}
+
+Refreshes all the PivotTables in the Excel file.
+
+```javascript
+refreshPivotTablesAsync(option: PivotTableRefreshOption) : Promise<boolean>;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| option | [PivotTableRefreshOption](../pivottablerefreshoption/) | The option for refreshing data source of the pivot tables. |
+
+**Returns**
+
+[Promise<boolean>](../promise<boolean>/)
 
 ### getCount() {#getCount--}
 

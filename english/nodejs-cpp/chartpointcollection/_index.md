@@ -45,8 +45,7 @@ chart.getNSeries().add("A1:B3", true);
 chart.getNSeries().get(0).getDataLabels().setShowValue(true);
 var points = chart.getNSeries().get(0).getPoints();
 var red = Color.Red;
-for (var i = 0; i < points.getCount(); i++)
-{
+for (var i = 0; i < points.getCount(); i++) {
     //Get Data Point
     var point = points.get(i);
     //Set Pir Explosion

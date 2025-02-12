@@ -43,8 +43,7 @@ var chartIndex = worksheet.getCharts().add(ChartType.Column, 5, 0, 25, 5);
 var chart = worksheet.getCharts().get(chartIndex);
 //Set the DataLabels in the chart
 var datalabels;
-for (var i = 0; i < chart.getNSeries().getCount(); i++)
-{
+for (var i = 0; i < chart.getNSeries().getCount(); i++) {
     datalabels = chart.getNSeries().get(i).getDataLabels();
     //Set the position of DataLabels
     datalabels.setPosition(LabelPositionType.InsideBase);

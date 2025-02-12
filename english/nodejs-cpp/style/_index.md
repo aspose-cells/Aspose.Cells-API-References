@@ -24,8 +24,7 @@ var excel = new Workbook();
 var style = excel.createStyle();
 style.getFont().setName("Times New Roman");
 style.getFont().setColor(Color.Blue);
-for (var i = 0; i < 100; i++)
-{
+for (var i = 0; i < 100; i++) {
     excel.getWorksheets().get(0).getCells().get(0, i).setStyle(style);
 }
 

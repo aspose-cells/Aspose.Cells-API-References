@@ -107,6 +107,8 @@ workbook.save("output/ChartsAxis.xlsx");
 | [setDisplayUnit(DisplayUnitType)](#setDisplayUnit-displayunittype-)| Represents the unit label for the specified axis. |
 | [getCustomUnit()](#getCustomUnit--)| Specifies a custom value for the display unit. |
 | [setCustomUnit(number)](#setCustomUnit-number-)| Specifies a custom value for the display unit. |
+| [getCoustomDisplayUnit()](#getCoustomDisplayUnit--)| Specifies a custom value for the display unit. |
+| [setCoustomDisplayUnit(number)](#setCoustomDisplayUnit-number-)| Specifies a custom value for the display unit. |
 | [getDisplayUnitLabel()](#getDisplayUnitLabel--)| Represents a unit label on an axis in the specified chart. Unit labels are useful for charting large values— for example, in the millions or billions. |
 | [isDisplayUnitLabelShown()](#isDisplayUnitLabelShown--)| Represents if the display unit label is shown on the specified axis. |
 | [setIsDisplayUnitLabelShown(boolean)](#setIsDisplayUnitLabelShown-boolean-)| Represents if the display unit label is shown on the specified axis. |
@@ -724,12 +726,42 @@ getCustomUnit() : number;
 ```
 
 
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use Axis.CoustomDisplayUnit property. This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
+
 ### setCustomUnit(number) {#setCustomUnit-number-}
 
 Specifies a custom value for the display unit.
 
 ```javascript
 setCustomUnit(value: number) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | number | The value to set. |
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use Axis.CoustomDisplayUnit property. This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
+
+### getCoustomDisplayUnit() {#getCoustomDisplayUnit--}
+
+Specifies a custom value for the display unit.
+
+```javascript
+getCoustomDisplayUnit() : number;
+```
+
+
+### setCoustomDisplayUnit(number) {#setCoustomDisplayUnit-number-}
+
+Specifies a custom value for the display unit.
+
+```javascript
+setCoustomDisplayUnit(value: number) : void;
 ```
 
 **Parameters:**

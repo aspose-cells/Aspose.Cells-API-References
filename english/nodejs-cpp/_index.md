@@ -119,11 +119,14 @@ is_root: true
 | [DataSorterKeyCollection](./datasorterkeycollection) | Represents the key list of data sorter. |
 | [DateTimeGroupItem](./datetimegroupitem) | Represents the datetime's group setting. |
 | [DBConnection](./dbconnection) | Specifies all properties associated with an ODBC or OLE DB external data connection. |
+| [DbfLoadOptions](./dbfloadoptions) | Represents the options of loading .dbf file. |
+| [DbfSaveOptions](./dbfsaveoptions) | Represents the options of saving dbf file |
 | [DefaultStyleSettings](./defaultstylesettings) | Settings for the default values of workbook's style properties. |
 | [DeleteBlankOptions](./deleteblankoptions) | Represents the setting of deleting blank cells/rows/columns. |
 | [DeleteOptions](./deleteoptions) | Represents the setting of deleting rows/columns. |
 | [DelimiterEquationNode](./delimiterequationnode) | This class specifies the delimiter equation, consisting of opening and closing delimiters (such as parentheses, braces, brackets, and vertical bars), and a component contained inside. The delimiter may have more than one component, with a designated separator character between each component. |
 | [Dialog_Box](./dialog_box) | Represents the dialog box. |
+| [DifLoadOptions](./difloadoptions) | Represents the options of loading .dif file. |
 | [DifSaveOptions](./difsaveoptions) | Represents the options of saving dif file. |
 | [DigitalSignature](./digitalsignature) | Signature in file. |
 | [DigitalSignatureCollection](./digitalsignaturecollection) | Provides a collection of digital signatures attached to a document. |
@@ -609,6 +612,7 @@ is_root: true
 | [HtmlHiddenRowDisplayType](./htmlhiddenrowdisplaytype) | Represents two types of showing the hidden rows in html. |
 | [HtmlLinkTargetType](./htmllinktargettype) | Represents the type of target attribute in HTML <a/> tag. |
 | [HtmlOfficeMathOutputType](./htmlofficemathoutputtype) | Represents how export OfficeMath to HTML. |
+| [HtmlVersion](./htmlversion) | Indicates the version of HTML is used when saving to Html formats. |
 | [IconSetType](./iconsettype) | Icon set type for conditional formatting. The threshold values for triggering the different icons within a set are configurable, and the icon order is reversible. |
 | [ImageBinarizationMethod](./imagebinarizationmethod) | Specifies the method used to binarize image. |
 | [ImageType](./imagetype) | Specifies the type (format) of an image. |

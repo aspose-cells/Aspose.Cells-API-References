@@ -1,17 +1,17 @@
 ﻿---
-title: OoxmlSaveOptions
+title: DbfSaveOptions
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents the options of saving office open xml file.
+description: Represents the options of saving dbf file
 type: docs
-url: /nodejs-cpp/ooxmlsaveoptions/
+url: /nodejs-cpp/dbfsaveoptions/
 ---
 
-## OoxmlSaveOptions class
+## DbfSaveOptions class
 
-Represents the options of saving office open xml file.
+Represents the options of saving dbf file
 
 ```javascript
-class OoxmlSaveOptions extends SaveOptions;
+class DbfSaveOptions extends SaveOptions;
 ```
 
 
@@ -19,28 +19,15 @@ class OoxmlSaveOptions extends SaveOptions;
 
 | Name | Description |
 | --- | --- |
-| [constructor()](#constructor--)| Creates the options for saving office open xml file. |
+| [constructor()](#constructor--)| The options of saving .dbf file. |
 | [constructor(SaveOptions)](#constructor-saveoptions-)| Constructs from a parent object convertible to this. |
-| [constructor(SaveFormat)](#constructor-saveformat-)| Creates the options for saving office open xml file. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getExportCellName()](#getExportCellName--)| Indicates if export cell name to Excel2007 .xlsx (.xlsm, .xltx, .xltm) file. If the output file may be accessed by SQL Server DTS, this value must be true. Setting the value to false will highly increase the performance and reduce the file size when creating large file. Default value is true. |
-| [setExportCellName(boolean)](#setExportCellName-boolean-)| Indicates if export cell name to Excel2007 .xlsx (.xlsm, .xltx, .xltm) file. If the output file may be accessed by SQL Server DTS, this value must be true. Setting the value to false will highly increase the performance and reduce the file size when creating large file. Default value is true. |
-| [getLightCellsDataProvider()](#getLightCellsDataProvider--)| The data provider for saving workbook in light mode. |
-| [setLightCellsDataProvider(LightCellsDataProvider)](#setLightCellsDataProvider-lightcellsdataprovider-)| The data provider for saving workbook in light mode. |
-| [getUpdateZoom()](#getUpdateZoom--)| Indicates whether update scaling factor before saving the file if the PageSetup.FitToPagesWide and PageSetup.FitToPagesTall properties control how the worksheet is scaled. |
-| [setUpdateZoom(boolean)](#setUpdateZoom-boolean-)| Indicates whether update scaling factor before saving the file if the PageSetup.FitToPagesWide and PageSetup.FitToPagesTall properties control how the worksheet is scaled. |
-| [getEnableZip64()](#getEnableZip64--)| Always use ZIP64 extensions when writing zip archives, even when unnecessary. |
-| [setEnableZip64(boolean)](#setEnableZip64-boolean-)| Always use ZIP64 extensions when writing zip archives, even when unnecessary. |
-| [getEmbedOoxmlAsOleObject()](#getEmbedOoxmlAsOleObject--)| Indicates whether embedding Ooxml files of OleObject as ole object. |
-| [setEmbedOoxmlAsOleObject(boolean)](#setEmbedOoxmlAsOleObject-boolean-)| Indicates whether embedding Ooxml files of OleObject as ole object. |
-| [getCompressionType()](#getCompressionType--)| Gets and sets the compression type for ooxml file. |
-| [setCompressionType(OoxmlCompressionType)](#setCompressionType-ooxmlcompressiontype-)| Gets and sets the compression type for ooxml file. |
-| [getWpsCompatibility()](#getWpsCompatibility--)| Indicates whether to make the xls more compatible with WPS. |
-| [setWpsCompatibility(boolean)](#setWpsCompatibility-boolean-)| Indicates whether to make the xls more compatible with WPS. |
+| [getExportAsString()](#getExportAsString--)| Indicates whether exporting as string value |
+| [setExportAsString(boolean)](#setExportAsString-boolean-)| Indicates whether exporting as string value |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getSaveFormat()](#getSaveFormat--)| Gets the save file format. |
 | [getClearData()](#getClearData--)| Make the workbook empty after saving the file. |
@@ -71,7 +58,7 @@ class OoxmlSaveOptions extends SaveOptions;
 
 ### constructor() {#constructor--}
 
-Creates the options for saving office open xml file.
+The options of saving .dbf file.
 
 ```javascript
 constructor();
@@ -91,198 +78,21 @@ constructor(obj: SaveOptions);
 | --- | --- | --- |
 | obj | SaveOptions | The parent object. |
 
-### constructor(SaveFormat) {#constructor-saveformat-}
+### getExportAsString() {#getExportAsString--}
 
-Creates the options for saving office open xml file.
-
-```javascript
-constructor(saveFormat: SaveFormat);
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| saveFormat | [SaveFormat](../saveformat/) | The file format.         /// It should be one of following types: [SaveFormat.Xlsx](../saveformat.xlsx/), [SaveFormat.Xltx](../saveformat.xltx/),         /// [SaveFormat.Xlam](../saveformat.xlam/), [SaveFormat.Xlsm](../saveformat.xlsm/) or [SaveFormat.Xltm](../saveformat.xltm/),         /// otherwise the saved format will be set as [SaveFormat.Xlsx](../saveformat.xlsx/) automatically. |
-
-### getExportCellName() {#getExportCellName--}
-
-Indicates if export cell name to Excel2007 .xlsx (.xlsm, .xltx, .xltm) file. If the output file may be accessed by SQL Server DTS, this value must be true. Setting the value to false will highly increase the performance and reduce the file size when creating large file. Default value is true.
+Indicates whether exporting as string value
 
 ```javascript
-getExportCellName() : boolean;
+getExportAsString() : boolean;
 ```
 
 
-### setExportCellName(boolean) {#setExportCellName-boolean-}
+### setExportAsString(boolean) {#setExportAsString-boolean-}
 
-Indicates if export cell name to Excel2007 .xlsx (.xlsm, .xltx, .xltm) file. If the output file may be accessed by SQL Server DTS, this value must be true. Setting the value to false will highly increase the performance and reduce the file size when creating large file. Default value is true.
-
-```javascript
-setExportCellName(value: boolean) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | The value to set. |
-
-### getLightCellsDataProvider() {#getLightCellsDataProvider--}
-
-The data provider for saving workbook in light mode.
+Indicates whether exporting as string value
 
 ```javascript
-getLightCellsDataProvider() : LightCellsDataProvider;
-```
-
-
-**Returns**
-
-[LightCellsDataProvider](../lightcellsdataprovider/)
-
-### setLightCellsDataProvider(LightCellsDataProvider) {#setLightCellsDataProvider-lightcellsdataprovider-}
-
-The data provider for saving workbook in light mode.
-
-```javascript
-setLightCellsDataProvider(value: LightCellsDataProvider) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [LightCellsDataProvider](../lightcellsdataprovider/) | The value to set. |
-
-### getUpdateZoom() {#getUpdateZoom--}
-
-Indicates whether update scaling factor before saving the file if the PageSetup.FitToPagesWide and PageSetup.FitToPagesTall properties control how the worksheet is scaled.
-
-```javascript
-getUpdateZoom() : boolean;
-```
-
-
-**Remarks**
-
-The default value is false for performance.
-
-### setUpdateZoom(boolean) {#setUpdateZoom-boolean-}
-
-Indicates whether update scaling factor before saving the file if the PageSetup.FitToPagesWide and PageSetup.FitToPagesTall properties control how the worksheet is scaled.
-
-```javascript
-setUpdateZoom(value: boolean) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | The value to set. |
-
-**Remarks**
-
-The default value is false for performance.
-
-### getEnableZip64() {#getEnableZip64--}
-
-Always use ZIP64 extensions when writing zip archives, even when unnecessary.
-
-```javascript
-getEnableZip64() : boolean;
-```
-
-
-### setEnableZip64(boolean) {#setEnableZip64-boolean-}
-
-Always use ZIP64 extensions when writing zip archives, even when unnecessary.
-
-```javascript
-setEnableZip64(value: boolean) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | The value to set. |
-
-### getEmbedOoxmlAsOleObject() {#getEmbedOoxmlAsOleObject--}
-
-Indicates whether embedding Ooxml files of OleObject as ole object.
-
-```javascript
-getEmbedOoxmlAsOleObject() : boolean;
-```
-
-
-**Remarks**
-
-Only for OleObject.
-
-### setEmbedOoxmlAsOleObject(boolean) {#setEmbedOoxmlAsOleObject-boolean-}
-
-Indicates whether embedding Ooxml files of OleObject as ole object.
-
-```javascript
-setEmbedOoxmlAsOleObject(value: boolean) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | The value to set. |
-
-**Remarks**
-
-Only for OleObject.
-
-### getCompressionType() {#getCompressionType--}
-
-Gets and sets the compression type for ooxml file.
-
-```javascript
-getCompressionType() : OoxmlCompressionType;
-```
-
-
-**Returns**
-
-[OoxmlCompressionType](../ooxmlcompressiontype/)
-
-**Remarks**
-
-The default value is OoxmlCompressionType.Level2.
-
-### setCompressionType(OoxmlCompressionType) {#setCompressionType-ooxmlcompressiontype-}
-
-Gets and sets the compression type for ooxml file.
-
-```javascript
-setCompressionType(value: OoxmlCompressionType) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [OoxmlCompressionType](../ooxmlcompressiontype/) | The value to set. |
-
-**Remarks**
-
-The default value is OoxmlCompressionType.Level2.
-
-### getWpsCompatibility() {#getWpsCompatibility--}
-
-Indicates whether to make the xls more compatible with WPS.
-
-```javascript
-getWpsCompatibility() : boolean;
-```
-
-
-### setWpsCompatibility(boolean) {#setWpsCompatibility-boolean-}
-
-Indicates whether to make the xls more compatible with WPS.
-
-```javascript
-setWpsCompatibility(value: boolean) : void;
+setExportAsString(value: boolean) : void;
 ```
 
 **Parameters:**
