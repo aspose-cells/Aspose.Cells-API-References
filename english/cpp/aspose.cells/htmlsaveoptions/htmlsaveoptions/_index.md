@@ -33,7 +33,7 @@ Aspose::Cells::HtmlSaveOptions::HtmlSaveOptions(SaveFormat saveFormat)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| saveFormat | SaveFormat | The file format. It should be one of following types: [SaveFormat.Html](../../saveformat/), [SaveFormat.MHtml](../../saveformat/), or [SaveFormat.XHtml](../../saveformat/), otherwise the saved format will be set as [SaveFormat.Html](../../saveformat/) automatically. |
+| saveFormat | SaveFormat | The file format. It should be one of following types: [SaveFormat.Html](../../saveformat/) or [SaveFormat.MHtml](../../saveformat/), otherwise the saved format will be set as [SaveFormat.Html](../../saveformat/) automatically. |
 
 ## See Also
 

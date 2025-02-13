@@ -4,7 +4,7 @@ linktitle: SetCreateId
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::SetCreateId method. Gets and sets create id for this shape in C++.'
 type: docs
-weight: 18500
+weight: 18700
 url: /cpp/aspose.cells.drawing/shape/setcreateid/
 ---
 ## Shape::SetCreateId method

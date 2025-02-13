@@ -4,7 +4,7 @@ linktitle: SetIsDecorative
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::SetIsDecorative method. Indicates whether the object is decorative in C++.'
 type: docs
-weight: 18700
+weight: 18900
 url: /cpp/aspose.cells.drawing/shape/setisdecorative/
 ---
 ## Shape::SetIsDecorative method

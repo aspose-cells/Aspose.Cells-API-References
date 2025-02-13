@@ -4,7 +4,7 @@ linktitle: LoadFormat
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::LoadFormat enum. Represents the load file format in C++.'
 type: docs
-weight: 22400
+weight: 23000
 url: /cpp/aspose.cells/loadformat/
 ---
 ## LoadFormat enum
@@ -47,6 +47,8 @@ enum class LoadFormat
 | Unknown | 255 | <br>Represents unrecognized format, cannot be loaded. |
 | Image | 254 | <br>Image. |
 | Json | 513 | <br>[Json](../../aspose.cells.json/). |
+| Dif | 30 | <br>Data Interchange Format. |
+| Dbf | 515 | <br>Xbase Data file. |
 
 ## See Also
 

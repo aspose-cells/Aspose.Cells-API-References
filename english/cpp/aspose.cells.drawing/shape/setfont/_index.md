@@ -4,7 +4,7 @@ linktitle: SetFont
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::SetFont method. Represents the font of shape in C++.'
 type: docs
-weight: 15300
+weight: 15400
 url: /cpp/aspose.cells.drawing/shape/setfont/
 ---
 ## Shape::SetFont method

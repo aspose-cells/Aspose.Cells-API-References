@@ -4,7 +4,7 @@ linktitle: IsTextWrapped
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::IsTextWrapped method. Gets and sets the text wrapped type of the shape which contains text in C++.'
 type: docs
-weight: 16900
+weight: 17000
 url: /cpp/aspose.cells.drawing/shape/istextwrapped/
 ---
 ## Shape::IsTextWrapped method

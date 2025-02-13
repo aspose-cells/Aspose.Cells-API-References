@@ -29,9 +29,10 @@ class Axis
 | [GetBaseUnitScale()](./getbaseunitscale/) | Represents the base unit scale for the category axis. |
 | [GetBins()](./getbins/) | Represents bins on a chart(Histogram/Pareto) axis. |
 | [GetCategoryType()](./getcategorytype/) | Represents the category axis type. |
+| [GetCoustomDisplayUnit()](./getcoustomdisplayunit/) | Specifies a custom value for the display unit. |
 | [GetCrossAt()](./getcrossat/) | Represents the point on the value axis where the category axis crosses it. |
 | [GetCrossType()](./getcrosstype/) | Represents the [CrossType](../crosstype/) on the specified axis where the other axis crosses. |
-| [GetCustomUnit()](./getcustomunit/) | Specifies a custom value for the display unit. |
+| [GetCustomUnit()](./getcustomunit/) |  **(Deprecated)** Specifies a custom value for the display unit. |
 | [GetDisplayUnit()](./getdisplayunit/) | Represents the unit label for the specified axis. |
 | [GetDisplayUnitLabel()](./getdisplayunitlabel/) | Represents a unit label on an axis in the specified chart. Unit labels are useful for charting large values— for example, in the millions or billions. |
 | [GetHasMultiLevelLabels()](./gethasmultilevellabels/) | Indicates whether the labels shall be shown as multi level. |
@@ -66,9 +67,10 @@ class Axis
 | [SetAxisBetweenCategories(bool value)](./setaxisbetweencategories/) | Represents if the value axis crosses the category axis between categories. |
 | [SetBaseUnitScale(TimeUnit value)](./setbaseunitscale/) | Represents the base unit scale for the category axis. |
 | [SetCategoryType(CategoryType value)](./setcategorytype/) | Represents the category axis type. |
+| [SetCoustomDisplayUnit(double value)](./setcoustomdisplayunit/) | Specifies a custom value for the display unit. |
 | [SetCrossAt(double value)](./setcrossat/) | Represents the point on the value axis where the category axis crosses it. |
 | [SetCrossType(CrossType value)](./setcrosstype/) | Represents the [CrossType](../crosstype/) on the specified axis where the other axis crosses. |
-| [SetCustomUnit(int32_t value)](./setcustomunit/) | Specifies a custom value for the display unit. |
+| [SetCustomUnit(int32_t value)](./setcustomunit/) |  **(Deprecated)** Specifies a custom value for the display unit. |
 | [SetDisplayUnit(DisplayUnitType value)](./setdisplayunit/) | Represents the unit label for the specified axis. |
 | [SetHasMultiLevelLabels(bool value)](./sethasmultilevellabels/) | Indicates whether the labels shall be shown as multi level. |
 | [SetIsAutomaticMajorUnit(bool value)](./setisautomaticmajorunit/) | Indicates whether the major unit of the axis is automatically assigned. |

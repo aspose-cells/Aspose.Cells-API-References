@@ -4,7 +4,7 @@ linktitle: SetTextDirection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::SetTextDirection method. Gets/Sets the direction of the text flow for this object in C++.'
 type: docs
-weight: 17800
+weight: 17900
 url: /cpp/aspose.cells.drawing/shape/settextdirection/
 ---
 ## Shape::SetTextDirection method

@@ -24,6 +24,7 @@ class PivotConditionalFormat
 | [AddFieldArea(PivotFieldType axisType, const U16String\& fieldName)](./addfieldarea/) | Adds an area of pivot field. |
 | [AddFieldArea(PivotFieldType axisType, const char16_t* fieldName)](./addfieldarea/) | Adds an area of pivot field. |
 | [AddFieldArea(PivotFieldType axisType, const PivotField\& field)](./addfieldarea/) | Adds an area of pivot field. |
+| [ApplyTo(int32_t row, int32_t column, PivotConditionFormatScopeType scope)](./applyto/) | Applies the conditional format to range. Only for the data region. |
 | [GetCellAreas()](./getcellareas/) | Gets all cell areas where this conditional format applies to. |
 | [GetFormatConditions()](./getformatconditions/) | Get conditions for the pivot table conditional format . |
 | [GetPivotAreas()](./getpivotareas/) | Gets all pivot areas. |

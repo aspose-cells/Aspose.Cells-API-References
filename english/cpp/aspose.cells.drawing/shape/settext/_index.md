@@ -4,7 +4,7 @@ linktitle: SetText
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::SetText method. Gets and sets the text of this shape in C++.'
 type: docs
-weight: 15800
+weight: 15900
 url: /cpp/aspose.cells.drawing/shape/settext/
 ---
 ## Shape::SetText(const U16String\&) method

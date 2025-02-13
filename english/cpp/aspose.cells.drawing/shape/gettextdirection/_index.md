@@ -4,7 +4,7 @@ linktitle: GetTextDirection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::GetTextDirection method. Gets/Sets the direction of the text flow for this object in C++.'
 type: docs
-weight: 17700
+weight: 17800
 url: /cpp/aspose.cells.drawing/shape/gettextdirection/
 ---
 ## Shape::GetTextDirection method

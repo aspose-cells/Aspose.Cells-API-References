@@ -119,6 +119,7 @@ class PivotTable
 | [GetShowRowHeaderCaption()](./getshowrowheadercaption/) | Indicates whether row header caption is shown in the [PivotTable](./) report Indicates whether Display field captions and filter drop downs. |
 | [GetShowValuesRow()](./getshowvaluesrow/) | Indicates whether showing values row. |
 | [GetSource()](./getsource/) | Get pivottable's source data. |
+| [GetSource(bool isOriginal)](./getsource/) | Get pivottable's source data. |
 | [GetSourceDataConnections()](./getsourcedataconnections/) | Gets the external connection data sources. |
 | [GetSourceType()](./getsourcetype/) | Gets the data source type of the pivot table. |
 | [GetSubtotalHiddenPageItems()](./getsubtotalhiddenpageitems/) | Indicates whether hidden page field items in the [PivotTable](./) report are included in row and column subtotals, block totals, and grand totals. The default value is False. |

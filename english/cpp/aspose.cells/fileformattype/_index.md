@@ -4,7 +4,7 @@ linktitle: FileFormatType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::FileFormatType enum. Represents the file format types in C++.'
 type: docs
-weight: 20600
+weight: 21000
 url: /cpp/aspose.cells/fileformattype/
 ---
 ## FileFormatType enum
@@ -88,6 +88,7 @@ enum class FileFormatType
 | WebP | 323 | <br>Webp. |
 | Json | 513 | <br>[Json](../../aspose.cells.json/). |
 | SqlScript | 514 | <br>Sql. |
+| Dbf | 515 | <br>Xbase Data file. |
 | XHtml | 771 | <br>Rrepesents XHtml file. |
 | OneNote | 772 | <br>Rrepesents One Note file. |
 | MicrosoftCabinet | 773 | <br>Rrepesents Microsoft Cabinet file. |

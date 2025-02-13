@@ -4,7 +4,7 @@ linktitle: Aspose::Cells::Saving
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use Aspose::Cells::Saving namespace in C++.'
 type: docs
-weight: 2100
+weight: 2200
 url: /cpp/aspose.cells.saving/
 ---
 
@@ -14,6 +14,7 @@ url: /cpp/aspose.cells.saving/
 
 | Class | Description |
 | --- | --- |
+| [DbfSaveOptions](./dbfsaveoptions/) | Represents the options of saving dbf file. |
 | [EbookSaveOptions](./ebooksaveoptions/) | Represents the options for saving ebook file. |
 | [SqlScriptColumnTypeMap](./sqlscriptcolumntypemap/) | Represents column type map. |
 | [SqlScriptSaveOptions](./sqlscriptsaveoptions/) | Represents the options of saving sql. |
