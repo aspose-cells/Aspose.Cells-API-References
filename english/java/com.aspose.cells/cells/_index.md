@@ -1393,7 +1393,7 @@ Maximum column index of those cells that have been instantiated in the collectio
 
 **Remarks**
 
-Return -1 if there is no cell.
+Return -1 if there is no cell has been instantiated.
 
 **Returns:**
 int
@@ -1540,6 +1540,10 @@ public int getMinDataRow()
 
 
 Minimum row index of cell which contains data.
+
+**Remarks**
+
+Return -1 if there is no cell which contains data.
 
 **Returns:**
 int

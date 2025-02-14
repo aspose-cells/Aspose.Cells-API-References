@@ -19,6 +19,7 @@ Represents the function of power query.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
+| [getDescription()](#getDescription--) | Gets the description of the power query formula. |
 | [getF()](#getF--) | Gets the definition of function. |
 | [getFormulaDefinition()](#getFormulaDefinition--) | Gets the definition of the power query formula. |
 | [getGroupName()](#getGroupName--) | Gets the name of group which contains this power query formula. |
@@ -28,6 +29,7 @@ Represents the function of power query.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
+| [setDescription(String value)](#setDescription-java.lang.String-) | Sets the description of the power query formula. |
 | [setF(String value)](#setF-java.lang.String-) | Sets the definition of function. |
 | [setName(String value)](#setName-java.lang.String-) | Sets the name of the power query formula. |
 | [toString()](#toString--) |  |
@@ -59,6 +61,16 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
+### getDescription() {#getDescription--}
+```
+public String getDescription()
+```
+
+
+Gets the description of the power query formula.
+
+**Returns:**
+java.lang.String
 ### getF() {#getF--}
 ```
 public String getF()
@@ -146,6 +158,19 @@ public final native void notifyAll()
 
 
 
+
+### setDescription(String value) {#setDescription-java.lang.String-}
+```
+public void setDescription(String value)
+```
+
+
+Sets the description of the power query formula.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
 
 ### setF(String value) {#setF-java.lang.String-}
 ```

@@ -1,45 +1,61 @@
 ---
-title: CellRichValue
+title: HtmlVersion
 second_title: Aspose.Cells for Java API Reference
-description: Represents rich value of the cell.
+description: Indicates the version of HTML is used when saving to Html formats.
 type: docs
-url: /java/com.aspose.cells/cellrichvalue/
+url: /java/com.aspose.cells/htmlversion/
 ---
 
 **Inheritance:**
 java.lang.Object
 ```
-public abstract class CellRichValue
+public final class HtmlVersion
 ```
 
-Represents rich value of the cell.
-## Constructors
+Indicates the version of HTML is used when saving to Html formats.
+## Fields
 
-| Constructor | Description |
+| Field | Description |
 | --- | --- |
-| [CellRichValue()](#CellRichValue--) |  |
+| [DEFAULT](#DEFAULT) | Save the document in compliance with the MS Excel exporting HTML. |
+| [HTML_5](#HTML-5) | Saves the document in compliance with the HTML 5 standard. |
+| [X_HTML](#X-HTML) | Saves the document in compliance with the XHTML 1.0 Transitional standard. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAltText()](#getAltText--) | Gets the alt text associated with the image. |
 | [getClass()](#getClass--) |  |
-| [getErrorValue()](#getErrorValue--) | Gets the error value type of the cell. |
-| [getImage()](#getImage--) | Gets the image data of the cell. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAltText(String value)](#setAltText-java.lang.String-) | Gets the alt text associated with the image. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### CellRichValue() {#CellRichValue--}
+### DEFAULT {#DEFAULT}
 ```
-public CellRichValue()
+public static final int DEFAULT
 ```
 
+
+Save the document in compliance with the MS Excel exporting HTML.
+
+### HTML_5 {#HTML-5}
+```
+public static final int HTML_5
+```
+
+
+Saves the document in compliance with the HTML 5 standard.
+
+### X_HTML {#X-HTML}
+```
+public static final int X_HTML
+```
+
+
+Saves the document in compliance with the XHTML 1.0 Transitional standard.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -56,16 +72,6 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### getAltText() {#getAltText--}
-```
-public String getAltText()
-```
-
-
-Gets the alt text associated with the image.
-
-**Returns:**
-java.lang.String
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -76,28 +82,6 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getErrorValue() {#getErrorValue--}
-```
-public int getErrorValue()
-```
-
-
-Gets the error value type of the cell.
-
-See [ErrorCellValueType](../../com.aspose.cells/errorcellvaluetype).
-
-**Returns:**
-int
-### getImage() {#getImage--}
-```
-public byte[] getImage()
-```
-
-
-Gets the image data of the cell.
-
-**Returns:**
-byte[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -123,19 +107,6 @@ public final native void notifyAll()
 
 
 
-
-### setAltText(String value) {#setAltText-java.lang.String-}
-```
-public void setAltText(String value)
-```
-
-
-Gets the alt text associated with the image.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.lang.String |  |
 
 ### toString() {#toString--}
 ```
