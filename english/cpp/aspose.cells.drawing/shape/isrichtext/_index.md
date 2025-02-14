@@ -4,7 +4,7 @@ linktitle: IsRichText
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::IsRichText method. Whether or not the text is rich text in C++.'
 type: docs
-weight: 15900
+weight: 16000
 url: /cpp/aspose.cells.drawing/shape/isrichtext/
 ---
 ## Shape::IsRichText method

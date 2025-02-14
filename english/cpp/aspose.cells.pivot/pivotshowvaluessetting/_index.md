@@ -4,7 +4,7 @@ linktitle: PivotShowValuesSetting
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotShowValuesSetting class. Represents the settings about showing values as when the ShowDataAs calculation is in use in C++.'
 type: docs
-weight: 1900
+weight: 2200
 url: /cpp/aspose.cells.pivot/pivotshowvaluessetting/
 ---
 ## PivotShowValuesSetting class

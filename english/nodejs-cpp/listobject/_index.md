@@ -21,14 +21,11 @@ const { Workbook, CellsHelper, TotalsCalculation } = require("aspose.cells.node"
 
 var workbook = new Workbook();
 var cells = workbook.getWorksheets().get(0).getCells();
-for (var i = 0; i < 5; i++)
-{
+for (var i = 0; i < 5; i++) {
     cells.get(0, i).putValue(CellsHelper.columnIndexToName(i));
 }
-for (var row = 1; row < 10; row++)
-{
-    for (var column = 0; column < 5; column++)
-    {
+for (var row = 1; row < 10; row++) {
+    for (var column = 0; column < 5; column++) {
         cells.get(row, column).putValue(row * column);
     }
 }

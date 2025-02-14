@@ -18,7 +18,7 @@ class Workbook;
 The Workbook class denotes an Excel spreadsheet. Each spreadsheet can contain multiple worksheets. The basic feature of the class is to open and save native excel files. The class has some advanced features like copying data from other Workbooks, combining two Workbooks, converting Excel to PDF, rendering Excel to image and protecting the Excel spreadsheet.
 
 ### Example
-The following example creates a Workbook, opens a file named designer.xls in it and makes the horizontal and vertical scroll bars invisible for the Workbook. It then replaces two string values with an Integer value and string value respectively within the spreadsheet and finally save it to file named result.xls.
+The following example creates a Workbook and makes the horizontal and vertical scroll bars invisible for the Workbook. It then replaces two string values with an Integer value and string value respectively within the spreadsheet and finally save it to file named result.xls.
 ```javascript
 const { Workbook, XlsSaveOptions } = require("aspose.cells.node");
 
@@ -91,7 +91,13 @@ workbook.save("output/result.xls", saveOptions);
 | [save(string, SaveOptions)](#save-string-saveoptions-)| Saves the workbook to the disk. |
 | [save(SaveFormat)](#save-saveformat-)| Saves the workbook to the stream. |
 | [save(SaveOptions)](#save-saveoptions-)| Saves the workbook to the stream. |
+| [saveAsync(string, SaveFormat)](#saveAsync-string-saveformat-)| Saves the workbook to the disk. |
+| [saveAsync(string)](#saveAsync-string-)| Save the workbook to the disk. |
+| [saveAsync(string, SaveOptions)](#saveAsync-string-saveoptions-)| Saves the workbook to the disk. |
+| [saveAsync(SaveFormat)](#saveAsync-saveformat-)| Saves the workbook to the stream. |
+| [saveAsync(SaveOptions)](#saveAsync-saveoptions-)| Saves the workbook to the stream. |
 | [saveToStream()](#saveToStream--)| Saves Excel file to a MemoryStream object and returns it. |
+| [saveToStreamAsync()](#saveToStreamAsync--)| Saves Excel file to a MemoryStream object and returns it. |
 | [removeUnusedStyles()](#removeUnusedStyles--)| Remove all unused styles. |
 | [createStyle()](#createStyle--)| Creates a new style. |
 | [createStyle(boolean)](#createStyle-boolean-)| Creates a new style. |
@@ -117,6 +123,9 @@ workbook.save("output/result.xls", saveOptions);
 | [calculateFormula()](#calculateFormula--)| Calculates the result of formulas. |
 | [calculateFormula(boolean)](#calculateFormula-boolean-)| Calculates the result of formulas. |
 | [calculateFormula(CalculationOptions)](#calculateFormula-calculationoptions-)| Calculating formulas in this workbook. |
+| [calculateFormulaAsync()](#calculateFormulaAsync--)| Calculates the result of formulas. |
+| [calculateFormulaAsync(boolean)](#calculateFormulaAsync-boolean-)| Calculates the result of formulas. |
+| [calculateFormulaAsync(CalculationOptions)](#calculateFormulaAsync-calculationoptions-)| Calculating formulas in this workbook. |
 | [refreshDynamicArrayFormulas(boolean)](#refreshDynamicArrayFormulas-boolean-)| Refreshes dynamic array formulas(spill into new range of neighboring cells according to current data) Other formulas in the workbook will not be calculated recursively even if they were used by dynamic array formulas. |
 | [refreshDynamicArrayFormulas(boolean, CalculationOptions)](#refreshDynamicArrayFormulas-boolean-calculationoptions-)| Refreshes dynamic array formulas(spill into new range of neighboring cells according to current data) |
 | [getMatchingColor(Color)](#getMatchingColor-color-)| Find best matching Color in current palette. |
@@ -145,6 +154,12 @@ workbook.save("output/result.xls", saveOptions);
 | [removePersonalInformation()](#removePersonalInformation--)| Removes personal information. |
 | [dispose()](#dispose--)| Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+| static [openAsync()](#openAsync--)| Initializes a new instance of the [Workbook](../workbook/) class. |
+| static [openAsync(FileFormatType)](#openAsync-fileformattype-)| Initializes a new instance of the [Workbook](../workbook/) class. |
+| static [openAsync(string)](#openAsync-string-)| Initializes a new instance of the [Workbook](../workbook/) class and open a file. |
+| static [openAsync(Uint8Array)](#openAsync-uint8array-)| Initializes a new instance of the [Workbook](../workbook/) class and open a stream. |
+| static [openAsync(string, LoadOptions)](#openAsync-string-loadoptions-)| Initializes a new instance of the [Workbook](../workbook/) class and open a file. |
+| static [openAsync(Uint8Array, LoadOptions)](#openAsync-uint8array-loadoptions-)| Initializes a new instance of the [Workbook](../workbook/) class and open stream. |
 
 
 ### constructor() {#constructor--}
@@ -805,12 +820,133 @@ save(saveOptions: SaveOptions) : Uint8Array;
 
 The result stream
 
+### saveAsync(string, SaveFormat) {#saveAsync-string-saveformat-}
+
+Saves the workbook to the disk.
+
+```javascript
+saveAsync(fileName: string, saveFormat: SaveFormat) : Promise<void>;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileName | string | The file name. |
+| saveFormat | [SaveFormat](../saveformat/) | The save format type. |
+
+**Returns**
+
+[Promise<void>](../promise<void>/)
+
+### saveAsync(string) {#saveAsync-string-}
+
+Save the workbook to the disk.
+
+```javascript
+saveAsync(fileName: string) : Promise<void>;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileName | string |  |
+
+**Returns**
+
+[Promise<void>](../promise<void>/)
+
+### saveAsync(string, SaveOptions) {#saveAsync-string-saveoptions-}
+
+Saves the workbook to the disk.
+
+```javascript
+saveAsync(fileName: string, saveOptions: SaveOptions) : Promise<void>;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileName | string | The file name. |
+| saveOptions | [SaveOptions](../saveoptions/) | The save options. |
+
+**Returns**
+
+[Promise<void>](../promise<void>/)
+
+### saveAsync(SaveFormat) {#saveAsync-saveformat-}
+
+Saves the workbook to the stream.
+
+```javascript
+saveAsync(saveFormat: SaveFormat) : Promise<Uint8Array>;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| saveFormat | [SaveFormat](../saveformat/) | The save file format type. |
+
+**Returns**
+
+The result stream
+
+**Example**
+```javascript
+const fs = require("fs");
+const { Workbook, SaveFormat } = require("aspose.cells.node");
+
+var workbook = new Workbook("input/Book1.xls");
+workbook.saveAsync(SaveFormat.Pdf)
+    .then((buffer) => {
+        var writeStream = fs.createWriteStream("output/Book1.xlsx");
+        writeStream.write(buffer);
+        writeStream.end();
+    })
+    .catch(error => {
+        console.error(error);
+    });
+```
+
+### saveAsync(SaveOptions) {#saveAsync-saveoptions-}
+
+Saves the workbook to the stream.
+
+```javascript
+saveAsync(saveOptions: SaveOptions) : Promise<Uint8Array>;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| saveOptions | [SaveOptions](../saveoptions/) | The save options. |
+
+**Returns**
+
+The result stream
+
 ### saveToStream() {#saveToStream--}
 
 Saves Excel file to a MemoryStream object and returns it.
 
 ```javascript
 saveToStream() : Uint8Array;
+```
+
+
+**Returns**
+
+MemoryStream object which contains an Excel file.
+
+**Remarks**
+
+This method provides same function as Save method and only save the workbook as Excel97-2003 xls file. It's mainly for calling from COM clients.
+
+### saveToStreamAsync() {#saveToStreamAsync--}
+
+Saves Excel file to a MemoryStream object and returns it.
+
+```javascript
+saveToStreamAsync() : Promise<Uint8Array>;
 ```
 
 
@@ -1253,6 +1389,71 @@ calculateFormula(options: CalculationOptions) : void;
 | --- | --- | --- |
 | options | [CalculationOptions](../calculationoptions/) | Options for calculation |
 
+### calculateFormulaAsync() {#calculateFormulaAsync--}
+
+Calculates the result of formulas.
+
+```javascript
+calculateFormulaAsync() : Promise<void>;
+```
+
+
+**Returns**
+
+[Promise<void>](../promise<void>/)
+
+**Remarks**
+
+For all supported formulas, please see the list at https://docs.aspose.com/display/cellsnet/Supported+Formula+Functions
+
+**Example**
+```javascript
+const { Workbook } = require("aspose.cells.node");
+
+var workbook = new Workbook("input/Book1.xls");
+workbook.calculateFormulaAsync()
+    .then(() => {
+        workbook.save("output/Book1-Calc.pdf");
+    })
+    .catch(error => {
+        console.error(error);
+    });
+```
+
+### calculateFormulaAsync(boolean) {#calculateFormulaAsync-boolean-}
+
+Calculates the result of formulas.
+
+```javascript
+calculateFormulaAsync(ignoreError: boolean) : Promise<void>;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ignoreError | boolean | Indicates if hide the error in calculating formulas. The error may be unsupported function, external links, etc. |
+
+**Returns**
+
+[Promise<void>](../promise<void>/)
+
+### calculateFormulaAsync(CalculationOptions) {#calculateFormulaAsync-calculationoptions-}
+
+Calculating formulas in this workbook.
+
+```javascript
+calculateFormulaAsync(options: CalculationOptions) : Promise<void>;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | [CalculationOptions](../calculationoptions/) | Options for calculation |
+
+**Returns**
+
+[Promise<void>](../promise<void>/)
+
 ### refreshDynamicArrayFormulas(boolean) {#refreshDynamicArrayFormulas-boolean-}
 
 Refreshes dynamic array formulas(spill into new range of neighboring cells according to current data) Other formulas in the workbook will not be calculated recursively even if they were used by dynamic array formulas.
@@ -1640,5 +1841,126 @@ Checks whether the implementation object is null.
 isNull() : boolean;
 ```
 
+
+### openAsync() {#openAsync--}
+
+Initializes a new instance of the [Workbook](../workbook/) class.
+
+```javascript
+static openAsync() : Promise<Workbook>;
+```
+
+
+**Returns**
+
+[Promise<Workbook>](../promise<workbook>/)
+
+**Remarks**
+
+The default file format type is Xlsx. If you want to create other types of files, please use Workbook(FileFormatType).
+
+### openAsync(FileFormatType) {#openAsync-fileformattype-}
+
+Initializes a new instance of the [Workbook](../workbook/) class.
+
+```javascript
+static openAsync(fileFormatType: FileFormatType) : Promise<Workbook>;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileFormatType | [FileFormatType](../fileformattype/) | The new file format. |
+
+**Returns**
+
+[Promise<Workbook>](../promise<workbook>/)
+
+**Remarks**
+
+The default file format type is Excel97To2003.
+
+### openAsync(string) {#openAsync-string-}
+
+Initializes a new instance of the [Workbook](../workbook/) class and open a file.
+
+```javascript
+static openAsync(file: string) : Promise<Workbook>;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| file | string | The file name. |
+
+**Returns**
+
+[Promise<Workbook>](../promise<workbook>/)
+
+**Example**
+```javascript
+const { Workbook } = require("aspose.cells.node");
+
+Workbook.openAsync("input/Book1.xls")
+    .then(workbook => {
+        workbook.save("output/Book1.pdf");
+    })
+    .catch(error => {
+        console.error(error);
+    });
+```
+
+### openAsync(Uint8Array) {#openAsync-uint8array-}
+
+Initializes a new instance of the [Workbook](../workbook/) class and open a stream.
+
+```javascript
+static openAsync(stream: Uint8Array) : Promise<Workbook>;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | Uint8Array | The stream. |
+
+**Returns**
+
+[Promise<Workbook>](../promise<workbook>/)
+
+### openAsync(string, LoadOptions) {#openAsync-string-loadoptions-}
+
+Initializes a new instance of the [Workbook](../workbook/) class and open a file.
+
+```javascript
+static openAsync(file: string, loadOptions: LoadOptions) : Promise<Workbook>;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| file | string | The file name. |
+| loadOptions | [LoadOptions](../loadoptions/) | The load options |
+
+**Returns**
+
+[Promise<Workbook>](../promise<workbook>/)
+
+### openAsync(Uint8Array, LoadOptions) {#openAsync-uint8array-loadoptions-}
+
+Initializes a new instance of the [Workbook](../workbook/) class and open stream.
+
+```javascript
+static openAsync(stream: Uint8Array, loadOptions: LoadOptions) : Promise<Workbook>;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | Uint8Array | The stream. |
+| loadOptions | [LoadOptions](../loadoptions/) | The load options |
+
+**Returns**
+
+[Promise<Workbook>](../promise<workbook>/)
 
 

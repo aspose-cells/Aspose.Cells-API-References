@@ -4,7 +4,7 @@ linktitle: PivotRefreshState
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotRefreshState enum. The state for refreshing pivot tables in C++.'
 type: docs
-weight: 3900
+weight: 4200
 url: /cpp/aspose.cells.pivot/pivotrefreshstate/
 ---
 ## PivotRefreshState enum

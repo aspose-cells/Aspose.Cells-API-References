@@ -2,7 +2,7 @@
 title: Aspose::Cells::Pivot::PivotFormatCondition::SetScopeType method
 linktitle: SetScopeType
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Pivot::PivotFormatCondition::SetScopeType method. Get and set scope type for the pivot table condition format  in C++.'
+description: 'Aspose::Cells::Pivot::PivotFormatCondition::SetScopeType method. Get and set scope type for the pivot table conditional format  in C++.'
 type: docs
 weight: 1100
 url: /cpp/aspose.cells.pivot/pivotformatcondition/setscopetype/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.pivot/pivotformatcondition/setscopetype/
 ## PivotFormatCondition::SetScopeType method
 
 
-Get and set scope type for the pivot table condition format .
+Get and set scope type for the pivot table conditional format .
 
 ```cpp
 void Aspose::Cells::Pivot::PivotFormatCondition::SetScopeType(PivotConditionFormatScopeType value)

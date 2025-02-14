@@ -4,7 +4,7 @@ linktitle: OnCellFormulaChanged
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::AbstractFormulaChangeMonitor::OnCellFormulaChanged method. The event that will be triggered when the formula in a cell is changed in C++.'
 type: docs
-weight: 600
+weight: 100
 url: /cpp/aspose.cells/abstractformulachangemonitor/oncellformulachanged/
 ---
 ## AbstractFormulaChangeMonitor::OnCellFormulaChanged method
@@ -13,7 +13,7 @@ url: /cpp/aspose.cells/abstractformulachangemonitor/oncellformulachanged/
 The event that will be triggered when the formula in a cell is changed.
 
 ```cpp
-void Aspose::Cells::AbstractFormulaChangeMonitor::OnCellFormulaChanged(int32_t sheetIndex, int32_t rowIndex, int32_t columnIndex)
+virtual void Aspose::Cells::AbstractFormulaChangeMonitor::OnCellFormulaChanged(int32_t sheetIndex, int32_t rowIndex, int32_t columnIndex)
 ```
 
 

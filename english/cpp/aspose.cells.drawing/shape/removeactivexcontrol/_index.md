@@ -4,7 +4,7 @@ linktitle: RemoveActiveXControl
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::RemoveActiveXControl method. Remove activeX control in C++.'
 type: docs
-weight: 18100
+weight: 18300
 url: /cpp/aspose.cells.drawing/shape/removeactivexcontrol/
 ---
 ## Shape::RemoveActiveXControl method

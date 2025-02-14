@@ -4,7 +4,7 @@ linktitle: GetRefreshDataOnOpeningFile
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::GetRefreshDataOnOpeningFile method. Indicates whether Refresh Data when Opening File in C++.'
 type: docs
-weight: 12500
+weight: 13300
 url: /cpp/aspose.cells.pivot/pivottable/getrefreshdataonopeningfile/
 ---
 ## PivotTable::GetRefreshDataOnOpeningFile method

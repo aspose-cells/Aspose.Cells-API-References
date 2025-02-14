@@ -4,7 +4,7 @@ linktitle: CalculateTextSize
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::CalculateTextSize method. Recalculate the text area in C++.'
 type: docs
-weight: 15600
+weight: 15700
 url: /cpp/aspose.cells.drawing/shape/calculatetextsize/
 ---
 ## Shape::CalculateTextSize method

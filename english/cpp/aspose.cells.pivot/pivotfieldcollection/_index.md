@@ -4,7 +4,7 @@ linktitle: PivotFieldCollection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotFieldCollection class. Represents a collection of all the PivotField objects in the PivotTable''s specific PivotFields type in C++.'
 type: docs
-weight: 800
+weight: 1100
 url: /cpp/aspose.cells.pivot/pivotfieldcollection/
 ---
 ## PivotFieldCollection class

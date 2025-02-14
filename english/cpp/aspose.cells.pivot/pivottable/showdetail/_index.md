@@ -4,7 +4,7 @@ linktitle: ShowDetail
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::ShowDetail method. Show the detail of one item in the data region to a new Table in C++.'
 type: docs
-weight: 14200
+weight: 15300
 url: /cpp/aspose.cells.pivot/pivottable/showdetail/
 ---
 ## PivotTable::ShowDetail method

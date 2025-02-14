@@ -39,6 +39,8 @@ class OoxmlSaveOptions extends SaveOptions;
 | [setEmbedOoxmlAsOleObject(boolean)](#setEmbedOoxmlAsOleObject-boolean-)| Indicates whether embedding Ooxml files of OleObject as ole object. |
 | [getCompressionType()](#getCompressionType--)| Gets and sets the compression type for ooxml file. |
 | [setCompressionType(OoxmlCompressionType)](#setCompressionType-ooxmlcompressiontype-)| Gets and sets the compression type for ooxml file. |
+| [getWpsCompatibility()](#getWpsCompatibility--)| Indicates whether to make the xls more compatible with WPS. |
+| [setWpsCompatibility(boolean)](#setWpsCompatibility-boolean-)| Indicates whether to make the xls more compatible with WPS. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getSaveFormat()](#getSaveFormat--)| Gets the save file format. |
 | [getClearData()](#getClearData--)| Make the workbook empty after saving the file. |
@@ -265,6 +267,28 @@ setCompressionType(value: OoxmlCompressionType) : void;
 **Remarks**
 
 The default value is OoxmlCompressionType.Level2.
+
+### getWpsCompatibility() {#getWpsCompatibility--}
+
+Indicates whether to make the xls more compatible with WPS.
+
+```javascript
+getWpsCompatibility() : boolean;
+```
+
+
+### setWpsCompatibility(boolean) {#setWpsCompatibility-boolean-}
+
+Indicates whether to make the xls more compatible with WPS.
+
+```javascript
+setWpsCompatibility(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
 
 ### isNull() {#isNull--}
 

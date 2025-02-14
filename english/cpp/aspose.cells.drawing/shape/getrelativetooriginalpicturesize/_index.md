@@ -4,7 +4,7 @@ linktitle: GetRelativeToOriginalPictureSize
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::GetRelativeToOriginalPictureSize method. Indicates whether shape is relative to original picture size in C++.'
 type: docs
-weight: 14200
+weight: 14300
 url: /cpp/aspose.cells.drawing/shape/getrelativetooriginalpicturesize/
 ---
 ## Shape::GetRelativeToOriginalPictureSize method

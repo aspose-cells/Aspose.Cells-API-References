@@ -4,7 +4,7 @@ linktitle: CellRichValue
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::CellRichValue class. Represents rich value of the cell in C++.'
 type: docs
-weight: 1500
+weight: 1600
 url: /cpp/aspose.cells/cellrichvalue/
 ---
 ## CellRichValue class
@@ -28,6 +28,8 @@ class CellRichValue
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const CellRichValue\& src)](./operator_asm/) | operator= |
+| [SetAltText(const U16String\& value)](./setalttext/) | Gets the alt text associated with the image. |
+| [SetAltText(const char16_t* value)](./setalttext/) | Gets the alt text associated with the image. |
 | [~CellRichValue()](./~cellrichvalue/) | Destructor. |
 ## Fields
 

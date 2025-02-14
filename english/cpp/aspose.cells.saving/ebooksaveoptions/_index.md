@@ -4,7 +4,7 @@ linktitle: EbookSaveOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Saving::EbookSaveOptions class. Represents the options for saving ebook file in C++.'
 type: docs
-weight: 100
+weight: 200
 url: /cpp/aspose.cells.saving/ebooksaveoptions/
 ---
 ## EbookSaveOptions class
@@ -40,6 +40,7 @@ class EbookSaveOptions : public Aspose::Cells::HtmlSaveOptions
 | [GetDefaultFontName()](../../aspose.cells/htmlsaveoptions/getdefaultfontname/) | Specify the default font name for exporting html, the default font will be used when the font of style is not existing, If this property is null, [Aspose.Cells](../../aspose.cells/) will use universal font which have the same family with the original font, the default value is null. |
 | [GetDisableCss()](../../aspose.cells/htmlsaveoptions/getdisablecss/) | Indicates whether only inline styles are applied, without relying on CSS. The default value is false. |
 | [GetDisableDownlevelRevealedComments()](../../aspose.cells/htmlsaveoptions/getdisabledownlevelrevealedcomments/) | Indicates if disable Downlevel-revealed conditional comments when exporting file to html, the default value is false. |
+| [GetEnableCssCustomProperties()](../../aspose.cells/htmlsaveoptions/getenablecsscustomproperties/) | Optimize the output of html by using CSS custom properties. For example, for the scenario that there are multiple occurences for one base64 image, with custom property the image data only needs to be saved once so the performance of the resultant html can be improved. The default value is false. |
 | [GetEncodeEntityAsCode()](../../aspose.cells/htmlsaveoptions/getencodeentityascode/) | Indicates whether the html character entities are replaced with decimal code. (e.g. "&amp;nbsp;" is replaced with "&amp;#160;"). The default value is false. |
 | [GetEncoding()](../../aspose.cells/htmlsaveoptions/getencoding/) | If not set,use Encoding.UTF8 as default enconding type. |
 | [GetEncryptDocumentProperties()](../../aspose.cells/saveoptions/getencryptdocumentproperties/) | Indicates whether encrypt document properties when saving as .xls file. The default value is true. |
@@ -72,6 +73,7 @@ class EbookSaveOptions : public Aspose::Cells::HtmlSaveOptions
 | [GetHiddenRowDisplayType()](../../aspose.cells/htmlsaveoptions/gethiddenrowdisplaytype/) | Hidden row(the height of this row is 0) in excel,before save this into html format, if HtmlHiddenRowDisplayType is "Remove",the hidden row would not been output, if the value is "Hidden", the row would been output,but was hidden,the default value is "Hidden". |
 | [GetHideOverflowWrappedText()](../../aspose.cells/htmlsaveoptions/gethideoverflowwrappedtext/) | Indicates whether to hide overflow text when the cell format is set to wrap text. The default value is false. |
 | [GetHtmlCrossStringType()](../../aspose.cells/htmlsaveoptions/gethtmlcrossstringtype/) | Indicates if a cross-cell string will be displayed in the same way as MS Excel when saving an Excel file in html format. By default the value is Default, so, for cross-cell strings, there is little difference between the html files created by [Aspose.Cells](../../aspose.cells/) and MS Excel. But the performance for creating large html files,setting the value to Cross would be several times faster than setting it to Default or Fit2Cell. |
+| [GetHtmlVersion()](../../aspose.cells/htmlsaveoptions/gethtmlversion/) | Specifies version of HTML standard that should be used when saving the HTML format. Default value is [HtmlVersion.Default](../../aspose.cells/htmlversion/). |
 | [GetIgnoreInvisibleShapes()](../../aspose.cells/htmlsaveoptions/getignoreinvisibleshapes/) | Indicate whether exporting those not visible shapes. |
 | [GetImageOptions()](../../aspose.cells/htmlsaveoptions/getimageoptions/) | Get the ImageOrPrintOptions object before exporting. |
 | [GetImageScalable()](../../aspose.cells/htmlsaveoptions/getimagescalable/) | Indicates whether using scalable unit to describe the image width when using scalable unit to describe the column width. The default value is true. |
@@ -136,6 +138,7 @@ class EbookSaveOptions : public Aspose::Cells::HtmlSaveOptions
 | [SetDefaultFontName(const char16_t* value)](../../aspose.cells/htmlsaveoptions/setdefaultfontname/) | Specify the default font name for exporting html, the default font will be used when the font of style is not existing, If this property is null, [Aspose.Cells](../../aspose.cells/) will use universal font which have the same family with the original font, the default value is null. |
 | [SetDisableCss(bool value)](../../aspose.cells/htmlsaveoptions/setdisablecss/) | Indicates whether only inline styles are applied, without relying on CSS. The default value is false. |
 | [SetDisableDownlevelRevealedComments(bool value)](../../aspose.cells/htmlsaveoptions/setdisabledownlevelrevealedcomments/) | Indicates if disable Downlevel-revealed conditional comments when exporting file to html, the default value is false. |
+| [SetEnableCssCustomProperties(bool value)](../../aspose.cells/htmlsaveoptions/setenablecsscustomproperties/) | Optimize the output of html by using CSS custom properties. For example, for the scenario that there are multiple occurences for one base64 image, with custom property the image data only needs to be saved once so the performance of the resultant html can be improved. The default value is false. |
 | [SetEncodeEntityAsCode(bool value)](../../aspose.cells/htmlsaveoptions/setencodeentityascode/) | Indicates whether the html character entities are replaced with decimal code. (e.g. "&amp;nbsp;" is replaced with "&amp;#160;"). The default value is false. |
 | [SetEncoding(EncodingType value)](../../aspose.cells/htmlsaveoptions/setencoding/) | If not set,use Encoding.UTF8 as default enconding type. |
 | [SetEncryptDocumentProperties(bool value)](../../aspose.cells/saveoptions/setencryptdocumentproperties/) | Indicates whether encrypt document properties when saving as .xls file. The default value is true. |
@@ -168,6 +171,7 @@ class EbookSaveOptions : public Aspose::Cells::HtmlSaveOptions
 | [SetHiddenRowDisplayType(HtmlHiddenRowDisplayType value)](../../aspose.cells/htmlsaveoptions/sethiddenrowdisplaytype/) | Hidden row(the height of this row is 0) in excel,before save this into html format, if HtmlHiddenRowDisplayType is "Remove",the hidden row would not been output, if the value is "Hidden", the row would been output,but was hidden,the default value is "Hidden". |
 | [SetHideOverflowWrappedText(bool value)](../../aspose.cells/htmlsaveoptions/sethideoverflowwrappedtext/) | Indicates whether to hide overflow text when the cell format is set to wrap text. The default value is false. |
 | [SetHtmlCrossStringType(HtmlCrossType value)](../../aspose.cells/htmlsaveoptions/sethtmlcrossstringtype/) | Indicates if a cross-cell string will be displayed in the same way as MS Excel when saving an Excel file in html format. By default the value is Default, so, for cross-cell strings, there is little difference between the html files created by [Aspose.Cells](../../aspose.cells/) and MS Excel. But the performance for creating large html files,setting the value to Cross would be several times faster than setting it to Default or Fit2Cell. |
+| [SetHtmlVersion(HtmlVersion value)](../../aspose.cells/htmlsaveoptions/sethtmlversion/) | Specifies version of HTML standard that should be used when saving the HTML format. Default value is [HtmlVersion.Default](../../aspose.cells/htmlversion/). |
 | [SetIgnoreInvisibleShapes(bool value)](../../aspose.cells/htmlsaveoptions/setignoreinvisibleshapes/) | Indicate whether exporting those not visible shapes. |
 | [SetImageScalable(bool value)](../../aspose.cells/htmlsaveoptions/setimagescalable/) | Indicates whether using scalable unit to describe the image width when using scalable unit to describe the column width. The default value is true. |
 | [SetIsBorderCollapsed(bool value)](../../aspose.cells/htmlsaveoptions/setisbordercollapsed/) | Indicates whether the table borders are collapsed. The default value is true. |

@@ -69,6 +69,7 @@ Allows to specify options when rendering worksheet to images, printing worksheet
 | [getSVGFitToViewPort()](#getSVGFitToViewPort--) | if this property is true, the generated svg will fit to view port. |
 | [getSaveFormat()](#getSaveFormat--) | Gets the output file format type Support Tiff/XPS |
 | [getSheetSet()](#getSheetSet--) | Gets the sheets to render. |
+| [getSvgCssPrefix()](#getSvgCssPrefix--) | Gets the prefix of the css name in svg,the default value is empty string. |
 | [getTextCrossType()](#getTextCrossType--) | Gets displaying text type when the text width is larger than cell width. |
 | [getTiffColorDepth()](#getTiffColorDepth--) | Gets bit depth to apply only when saving pages to the `Tiff` format. |
 | [getTiffCompression()](#getTiffCompression--) | Gets the type of compression to apply only when saving pages to the `Tiff` format. |
@@ -111,6 +112,7 @@ Allows to specify options when rendering worksheet to images, printing worksheet
 | [setSVGFitToViewPort(boolean value)](#setSVGFitToViewPort-boolean-) | if this property is true, the generated svg will fit to view port. |
 | [setSaveFormat(int value)](#setSaveFormat-int-) | Sets the output file format type Support Tiff/XPS |
 | [setSheetSet(SheetSet value)](#setSheetSet-com.aspose.cells.SheetSet-) | Sets the sheets to render. |
+| [setSvgCssPrefix(String value)](#setSvgCssPrefix-java.lang.String-) | Sets the prefix of the css name in svg,the default value is empty string. |
 | [setTextCrossType(int value)](#setTextCrossType-int-) | Sets displaying text type when the text width is larger than cell width. |
 | [setTiffColorDepth(int value)](#setTiffColorDepth-int-) | Sets bit depth to apply only when saving pages to the `Tiff` format. |
 | [setTiffCompression(int value)](#setTiffCompression-int-) | Sets the type of compression to apply only when saving pages to the `Tiff` format. |
@@ -464,6 +466,16 @@ The set is ignored when it is used in [SheetRender](../../com.aspose.cells/sheet
 
 **Returns:**
 [SheetSet](../../com.aspose.cells/sheetset)
+### getSvgCssPrefix() {#getSvgCssPrefix--}
+```
+public String getSvgCssPrefix()
+```
+
+
+Gets the prefix of the css name in svg,the default value is empty string.
+
+**Returns:**
+java.lang.String
 ### getTextCrossType() {#getTextCrossType--}
 ```
 public int getTextCrossType()
@@ -1108,6 +1120,19 @@ The set is ignored when it is used in [SheetRender](../../com.aspose.cells/sheet
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [SheetSet](../../com.aspose.cells/sheetset) |  |
+
+### setSvgCssPrefix(String value) {#setSvgCssPrefix-java.lang.String-}
+```
+public void setSvgCssPrefix(String value)
+```
+
+
+Sets the prefix of the css name in svg,the default value is empty string.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
 
 ### setTextCrossType(int value) {#setTextCrossType-int-}
 ```

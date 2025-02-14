@@ -44,6 +44,7 @@ Represents the options of saving office open xml file.
 | [getUpdateZoom()](#getUpdateZoom--) | Indicates whether update scaling factor before saving the file if the PageSetup.FitToPagesWide and PageSetup.FitToPagesTall properties control how the worksheet is scaled. |
 | [getValidateMergedAreas()](#getValidateMergedAreas--) | Indicates whether validate merged cells before saving the file. |
 | [getWarningCallback()](#getWarningCallback--) | Gets warning callback. |
+| [getWpsCompatibility()](#getWpsCompatibility--) | Indicates whether to make the xls more compatible with WPS. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -65,6 +66,7 @@ Represents the options of saving office open xml file.
 | [setUpdateZoom(boolean value)](#setUpdateZoom-boolean-) | Indicates whether update scaling factor before saving the file if the PageSetup.FitToPagesWide and PageSetup.FitToPagesTall properties control how the worksheet is scaled. |
 | [setValidateMergedAreas(boolean value)](#setValidateMergedAreas-boolean-) | Indicates whether validate merged cells before saving the file. |
 | [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.cells.IWarningCallback-) | Sets warning callback. |
+| [setWpsCompatibility(boolean value)](#setWpsCompatibility-boolean-) | Indicates whether to make the xls more compatible with WPS. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -341,6 +343,16 @@ Gets warning callback.
 
 **Returns:**
 [IWarningCallback](../../com.aspose.cells/iwarningcallback)
+### getWpsCompatibility() {#getWpsCompatibility--}
+```
+public boolean getWpsCompatibility()
+```
+
+
+Indicates whether to make the xls more compatible with WPS.
+
+**Returns:**
+boolean
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -634,6 +646,19 @@ Sets warning callback.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [IWarningCallback](../../com.aspose.cells/iwarningcallback) |  |
+
+### setWpsCompatibility(boolean value) {#setWpsCompatibility-boolean-}
+```
+public void setWpsCompatibility(boolean value)
+```
+
+
+Indicates whether to make the xls more compatible with WPS.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### toString() {#toString--}
 ```

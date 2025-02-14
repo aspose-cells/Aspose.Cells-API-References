@@ -10,7 +10,7 @@ url: /net/aspose.cells/cellrichvalue/alttext/
 Gets the alt text associated with the image.
 
 ```csharp
-public virtual string AltText { get; }
+public virtual string AltText { get; set; }
 ```
 
 ### See Also

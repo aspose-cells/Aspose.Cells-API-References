@@ -4,7 +4,7 @@ linktitle: Workbook
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Workbook class. Represents a root object to create an Excel spreadsheet in C++.'
 type: docs
-weight: 16100
+weight: 16200
 url: /cpp/aspose.cells/workbook/
 ---
 ## Workbook class
@@ -34,6 +34,7 @@ class Workbook
 | [CreateBuiltinStyle(BuiltinStyleType type)](./createbuiltinstyle/) | Creates built-in style by given type. |
 | [CreateCellsColor()](./createcellscolor/) | Creates a [CellsColor](../cellscolor/) object. |
 | [CreateStyle()](./createstyle/) | Creates a new style. |
+| [CreateStyle(bool cloneDefaultStyle)](./createstyle/) | Creates a new style. |
 | [CustomTheme(const U16String\& themeName, const Vector \<Aspose::Cells::Color\>\& colors)](./customtheme/) | Customs the theme. |
 | [CustomTheme(const char16_t* themeName, const Vector \<Aspose::Cells::Color\>\& colors)](./customtheme/) | Customs the theme. |
 | [Dispose()](./dispose/) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |

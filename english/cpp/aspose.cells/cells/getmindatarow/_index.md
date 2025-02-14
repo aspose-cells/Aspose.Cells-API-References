@@ -16,6 +16,10 @@ Minimum row index of cell which contains data.
 int32_t Aspose::Cells::Cells::GetMinDataRow()
 ```
 
+## Remarks
+
+
+Return -1 if there is no cell which contains data. 
 ## See Also
 
 * Class [Vector](../../vector/)

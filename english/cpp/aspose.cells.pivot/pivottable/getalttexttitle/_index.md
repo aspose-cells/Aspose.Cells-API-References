@@ -4,7 +4,7 @@ linktitle: GetAltTextTitle
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::GetAltTextTitle method. Gets and sets the title of the alter text in C++.'
 type: docs
-weight: 10000
+weight: 10700
 url: /cpp/aspose.cells.pivot/pivottable/getalttexttitle/
 ---
 ## PivotTable::GetAltTextTitle method

@@ -30,8 +30,12 @@ class SheetRender;
 | [getPageSizeInch(number)](#getPageSizeInch-number-)| Get page size in inch of output image. |
 | [toImage(number, string)](#toImage-number-string-)| Render certain page to a file. |
 | [toImage(number)](#toImage-number-)| Render certain page to a stream. |
-| [toTiff(Uint8Array)](#toTiff-uint8array-)| Render whole worksheet as Tiff Image to stream. |
+| [toImageAsync(number, string)](#toImageAsync-number-string-)| Render certain page to a file. |
+| [toImageAsync(number)](#toImageAsync-number-)| Render certain page to a stream. |
+| [toTiff()](#toTiff--)| Render whole worksheet as Tiff Image to stream. |
 | [toTiff(string)](#toTiff-string-)| Render whole worksheet as Tiff Image to a file. |
+| [toTiffAsync()](#toTiffAsync--)| Render whole worksheet as Tiff Image to stream. |
+| [toTiffAsync(string)](#toTiffAsync-string-)| Render whole worksheet as Tiff Image to a file. |
 | [dispose()](#dispose--)| Releases resources created and used for rendering. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
@@ -116,18 +120,53 @@ toImage(pageIndex: number) : Uint8Array;
 
 The result stream
 
-### toTiff(Uint8Array) {#toTiff-uint8array-}
+### toImageAsync(number, string) {#toImageAsync-number-string-}
 
-Render whole worksheet as Tiff Image to stream.
+Render certain page to a file.
 
 ```javascript
-toTiff(stream: Uint8Array) : void;
+toImageAsync(pageIndex: number, fileName: string) : Promise<void>;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | Uint8Array | the stream of the output image |
+| pageIndex | number | indicate which page is to be converted |
+| fileName | string | filename of the output image |
+
+**Returns**
+
+[Promise<void>](../promise<void>/)
+
+### toImageAsync(number) {#toImageAsync-number-}
+
+Render certain page to a stream.
+
+```javascript
+toImageAsync(pageIndex: number) : Promise<Uint8Array>;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pageIndex | number | indicate which page is to be converted |
+
+**Returns**
+
+The result stream
+
+### toTiff() {#toTiff--}
+
+Render whole worksheet as Tiff Image to stream.
+
+```javascript
+toTiff() : Uint8Array;
+```
+
+
+**Returns**
+
+The result stream
 
 ### toTiff(string) {#toTiff-string-}
 
@@ -141,6 +180,36 @@ toTiff(filename: string) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | filename | string | the filename of the output image |
+
+### toTiffAsync() {#toTiffAsync--}
+
+Render whole worksheet as Tiff Image to stream.
+
+```javascript
+toTiffAsync() : Promise<Uint8Array>;
+```
+
+
+**Returns**
+
+The result stream
+
+### toTiffAsync(string) {#toTiffAsync-string-}
+
+Render whole worksheet as Tiff Image to a file.
+
+```javascript
+toTiffAsync(filename: string) : Promise<void>;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| filename | string | the filename of the output image |
+
+**Returns**
+
+[Promise<void>](../promise<void>/)
 
 ### dispose() {#dispose--}
 

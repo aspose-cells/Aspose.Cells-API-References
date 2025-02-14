@@ -20,6 +20,7 @@ class PowerQueryFormulaParameter : public Aspose::Cells::QueryTables::PowerQuery
 
 | Method | Description |
 | --- | --- |
+| [GetDescription()](../powerqueryformula/getdescription/) | Gets and sets the description of the power query formula. |
 | [GetFormulaDefinition()](./getformuladefinition/) | Gets the definition of the parameter. |
 | [GetGroupName()](../powerqueryformula/getgroupname/) | Gets the name of group which contains this power query formula. |
 | [GetName()](../powerqueryformula/getname/) | Gets and sets the name of the power query formula. |
@@ -35,6 +36,8 @@ class PowerQueryFormulaParameter : public Aspose::Cells::QueryTables::PowerQuery
 | [PowerQueryFormulaParameter(PowerQueryFormulaParameter_Impl* impl)](./powerqueryformulaparameter/) | Constructs from an implementation object. |
 | [PowerQueryFormulaParameter(const PowerQueryFormulaParameter\& src)](./powerqueryformulaparameter/) | Copy constructor. |
 | [PowerQueryFormulaParameter(const PowerQueryFormula\& src)](./powerqueryformulaparameter/) | Constructs from a parent object. |
+| [SetDescription(const U16String\& value)](../powerqueryformula/setdescription/) | Gets and sets the description of the power query formula. |
+| [SetDescription(const char16_t* value)](../powerqueryformula/setdescription/) | Gets and sets the description of the power query formula. |
 | [SetName(const U16String\& value)](../powerqueryformula/setname/) | Gets and sets the name of the power query formula. |
 | [SetName(const char16_t* value)](../powerqueryformula/setname/) | Gets and sets the name of the power query formula. |
 | [SetValue(const U16String\& value)](./setvalue/) | Gets the value of parameter. |

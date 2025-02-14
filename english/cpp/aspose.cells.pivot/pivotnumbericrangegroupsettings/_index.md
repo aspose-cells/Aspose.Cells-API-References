@@ -4,7 +4,7 @@ linktitle: PivotNumbericRangeGroupSettings
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotNumbericRangeGroupSettings class. Represents the numberic range group of the pivot field in C++.'
 type: docs
-weight: 1700
+weight: 2000
 url: /cpp/aspose.cells.pivot/pivotnumbericrangegroupsettings/
 ---
 ## PivotNumbericRangeGroupSettings class

@@ -23,6 +23,7 @@ class CellRichValue;
 | [getErrorValue()](#getErrorValue--)| Gets the error value type of the cell. |
 | [getImage()](#getImage--)| Gets the image data of the cell. |
 | [getAltText()](#getAltText--)| Gets the alt text associated with the image. |
+| [setAltText(string)](#setAltText-string-)| Gets the alt text associated with the image. |
 
 
 ### isNull() {#isNull--}
@@ -68,5 +69,18 @@ Gets the alt text associated with the image.
 getAltText() : string;
 ```
 
+
+### setAltText(string) {#setAltText-string-}
+
+Gets the alt text associated with the image.
+
+```javascript
+setAltText(value: string) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | string | The value to set. |
 
 

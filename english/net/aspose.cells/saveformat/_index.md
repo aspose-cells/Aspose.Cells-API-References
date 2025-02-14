@@ -62,10 +62,11 @@ public enum SaveFormat
 | Gif | `322` | Gif |
 | Json | `513` | Json |
 | SqlScript | `514` | Sql |
-| XHtml | `771` | Rrepesents XHtml file. |
+| XHtml | `771` | Rrepesents XHtml file. please use [`HtmlVersion`](../htmlsaveoptions/htmlversion/) property. This property will be removed 6 months later since March 2025. Aspose apologizes for any inconvenience you may have experienced. |
 | Epub | `772` | Represents Epub file. |
 | Azw3 | `773` | Represents Azw3 file. |
 | Pcl | `1025` | PCL (Printer Command Language) |
+| Dbf | `515` | Xbase Data file |
 
 ### Examples
 

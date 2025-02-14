@@ -4,7 +4,7 @@ linktitle: SetDisplayNullString
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::SetDisplayNullString method. Indicates whether the PivotTable report displays a custom string if the value is null in C++.'
 type: docs
-weight: 4300
+weight: 4800
 url: /cpp/aspose.cells.pivot/pivottable/setdisplaynullstring/
 ---
 ## PivotTable::SetDisplayNullString method

@@ -40,8 +40,7 @@ var chart = workbook.getWorksheets().get(0).getCharts().get(chartIndex);
 chart.getNSeries().add("A1:B4", true);
 chart.getNSeries().setCategoryData("C1:C4");
 
-for (var i = 0; i < chart.getNSeries().getCount(); i++)
-{
+for (var i = 0; i < chart.getNSeries().getCount(); i++) {
     var aseries = chart.getNSeries().get(i);
     aseries.getXErrorBar().setDisplayType(ErrorBarDisplayType.Minus);
     aseries.getXErrorBar().setType(ErrorBarType.FixedValue);
@@ -179,8 +178,7 @@ var chart = workbook.getWorksheets().get(0).getCharts().get(chartIndex);
 chart.getNSeries().add("A1:B4", true);
 chart.getNSeries().setCategoryData("C1:C4");
 
-for (var i = 0; i < chart.getNSeries().getCount(); i++)
-{
+for (var i = 0; i < chart.getNSeries().getCount(); i++) {
     var aseries = chart.getNSeries().get(i);
     //Sets custom error bar type
     aseries.getXErrorBar().setType(ErrorBarType.Custom);

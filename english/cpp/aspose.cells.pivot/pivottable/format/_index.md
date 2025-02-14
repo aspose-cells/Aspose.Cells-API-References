@@ -4,7 +4,7 @@ linktitle: Format
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::Format method. Formats selected area of the PivotTable in C++.'
 type: docs
-weight: 14100
+weight: 15100
 url: /cpp/aspose.cells.pivot/pivottable/format/
 ---
 ## PivotTable::Format(const PivotArea\&, const Style\&) method
@@ -19,13 +19,36 @@ void Aspose::Cells::Pivot::PivotTable::Format(const PivotArea &pivotArea, const 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pivotArea | const PivotArea\& |  |
-| style | const Style\& |  |
+| pivotArea | const PivotArea\& | The selected pivot view area. |
+| style | const Style\& | The formatted setting. |
 
 ## See Also
 
 * Class [Vector](../../../aspose.cells/vector/)
 * Class [PivotArea](../../pivotarea/)
+* Class [Style](../../../aspose.cells/style/)
+* Class [PivotTable](../)
+* Namespace [Aspose::Cells::Pivot](../../)
+* Library [Aspose.Cells for C++](../../../)
+## PivotTable::Format(const CellArea\&, const Style\&) method
+
+
+Formats selected area of the [PivotTable](../).
+
+```cpp
+void Aspose::Cells::Pivot::PivotTable::Format(const CellArea &ca, const Style &style)
+```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ca | const CellArea\& | The range of the cells. |
+| style | const Style\& | The style |
+
+## See Also
+
+* Class [Vector](../../../aspose.cells/vector/)
+* Class [CellArea](../../../aspose.cells/cellarea/)
 * Class [Style](../../../aspose.cells/style/)
 * Class [PivotTable](../)
 * Namespace [Aspose::Cells::Pivot](../../)

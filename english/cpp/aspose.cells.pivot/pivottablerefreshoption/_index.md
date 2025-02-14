@@ -4,7 +4,7 @@ linktitle: PivotTableRefreshOption
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTableRefreshOption class. Represents the options of refreshing data source of the pivot table in C++.'
 type: docs
-weight: 2500
+weight: 2800
 url: /cpp/aspose.cells.pivot/pivottablerefreshoption/
 ---
 ## PivotTableRefreshOption class

@@ -22,6 +22,7 @@ class ReferredArea;
 | [isExternalLink()](#isExternalLink--)| Indicates whether this is an external link. |
 | [getExternalFileName()](#getExternalFileName--)| Get the external file name if this is an external reference. |
 | [getSheetName()](#getSheetName--)| Indicates which sheet this reference is in. |
+| [getSheetNames()](#getSheetNames--)| Names of all the worksheets this instance references to. |
 | [isEntireRow()](#isEntireRow--)| Indicates whether this area contains all columns(entire row). |
 | [isEntireColumn()](#isEntireColumn--)| Indicates whether this area contains all rows(entire column). |
 | [isArea()](#isArea--)| Indicates whether this is an area. |
@@ -63,6 +64,23 @@ Indicates which sheet this reference is in.
 getSheetName() : string;
 ```
 
+
+**Remarks**
+
+If it references to multiple worksheets, the returned value is just like the range expression in the formula. For example "Sheet1:Sheet3" for the reference in formula "=SUM(Sheet1:Sheet3!$A$1:$B$2)".
+
+### getSheetNames() {#getSheetNames--}
+
+Names of all the worksheets this instance references to.
+
+```javascript
+getSheetNames() : string[];
+```
+
+
+**Returns**
+
+string[]
 
 ### isEntireRow() {#isEntireRow--}
 

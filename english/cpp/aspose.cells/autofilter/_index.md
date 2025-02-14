@@ -4,7 +4,7 @@ linktitle: AutoFilter
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::AutoFilter class. Represents autofiltering for the specified worksheet in C++.'
 type: docs
-weight: 600
+weight: 700
 url: /cpp/aspose.cells/autofilter/
 ---
 ## AutoFilter class
@@ -34,7 +34,8 @@ class AutoFilter
 | [Filter(int32_t fieldIndex, const U16String\& criteria)](./filter/) | Filters a list with specified criteria. |
 | [Filter(int32_t fieldIndex, const char16_t* criteria)](./filter/) | Filters a list with specified criteria. |
 | [FilterTop10(int32_t fieldIndex, bool isTop, bool isPercent, int32_t itemCount)](./filtertop10/) | Filter the top 10 item in the list. |
-| [GetCellArea()](./getcellarea/) | Gets the [CellArea](../cellarea/) where the specified [AutoFilter](./) applies to. |
+| [GetCellArea()](./getcellarea/) | Gets the [CellArea](../cellarea/) where the this [AutoFilter](./) applies to. |
+| [GetCellArea(bool refreshAppliedRange)](./getcellarea/) | Gets the [CellArea](../cellarea/) where the specified [AutoFilter](./) applies to. |
 | [GetFilterColumns()](./getfiltercolumns/) | Gets the collection of the filter columns. |
 | [GetRange()](./getrange/) | Represents the range to which the specified [AutoFilter](./) applies. |
 | [GetShowFilterButton()](./getshowfilterbutton/) | Indicates whether the [AutoFilter](./) button for this column is visible. |

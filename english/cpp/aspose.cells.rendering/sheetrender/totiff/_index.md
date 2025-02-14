@@ -7,19 +7,18 @@ type: docs
 weight: 1000
 url: /cpp/aspose.cells.rendering/sheetrender/totiff/
 ---
-## SheetRender::ToTiff(const Vector \<uint8_t\>\&) method
+## SheetRender::ToTiff() method
 
 
 Render whole worksheet as Tiff Image to stream.
 
 ```cpp
-void Aspose::Cells::Rendering::SheetRender::ToTiff(const Vector<uint8_t> &stream)
+Vector<uint8_t> Aspose::Cells::Rendering::SheetRender::ToTiff()
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | const Vector \<uint8_t\>\& | the stream of the output image |
 
 ## See Also
 

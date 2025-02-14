@@ -4,7 +4,7 @@ linktitle: _impl
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::AbstractFormulaChangeMonitor::_impl field. The implementation object in C++.'
 type: docs
-weight: 700
+weight: 200
 url: /cpp/aspose.cells/abstractformulachangemonitor/_impl/
 ---
 ## _impl field
@@ -13,7 +13,7 @@ url: /cpp/aspose.cells/abstractformulachangemonitor/_impl/
 The implementation object.
 
 ```cpp
-AbstractFormulaChangeMonitor_Impl* Aspose::Cells::AbstractFormulaChangeMonitor::_impl
+AbstractFormulaChangeMonitor_Bridge* Aspose::Cells::AbstractFormulaChangeMonitor::_impl
 ```
 
 ## See Also

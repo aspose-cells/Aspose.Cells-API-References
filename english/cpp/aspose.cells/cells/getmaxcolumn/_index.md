@@ -19,7 +19,7 @@ int32_t Aspose::Cells::Cells::GetMaxColumn()
 ## Remarks
 
 
-Return -1 if there is no cell. 
+Return -1 if there is no cell has been instantiated. 
 ## See Also
 
 * Class [Vector](../../vector/)

@@ -4,7 +4,7 @@ linktitle: IsHiddenItemDetail
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotField::IsHiddenItemDetail method. Gets whether hidding the detail of the specific PivotItem in C++.'
 type: docs
-weight: 8200
+weight: 8900
 url: /cpp/aspose.cells.pivot/pivotfield/ishiddenitemdetail/
 ---
 ## PivotField::IsHiddenItemDetail method

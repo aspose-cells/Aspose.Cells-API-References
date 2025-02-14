@@ -11,6 +11,7 @@ The **Aspose.Cells.Saving** namespace provides options classes of saving files.
 
 | Class | Description |
 | --- | --- |
+| [DbfSaveOptions](./dbfsaveoptions/) | Represents the options of saving dbf file |
 | [EbookSaveOptions](./ebooksaveoptions/) | Represents the options for saving ebook file. |
 | [SqlScriptColumnTypeMap](./sqlscriptcolumntypemap/) | Represents column type map. |
 | [SqlScriptSaveOptions](./sqlscriptsaveoptions/) | Represents the options of saving sql. |

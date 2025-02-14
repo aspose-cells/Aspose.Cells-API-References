@@ -4,7 +4,7 @@ linktitle: GetChildren
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::GetChildren method. Gets the Children PivotTables which use this PivotTable data as data source in C++.'
 type: docs
-weight: 16600
+weight: 18000
 url: /cpp/aspose.cells.pivot/pivottable/getchildren/
 ---
 ## PivotTable::GetChildren method

@@ -4,7 +4,7 @@ linktitle: PivotItemPositionType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotItemPositionType enum. Represents the position type of the pivot base item in the base field when the ShowDataAs calculation is in use in C++.'
 type: docs
-weight: 3600
+weight: 3900
 url: /cpp/aspose.cells.pivot/pivotitempositiontype/
 ---
 ## PivotItemPositionType enum

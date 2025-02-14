@@ -4,7 +4,7 @@ linktitle: GetMaxGroupedColumnOutlineLevel
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::GetMaxGroupedColumnOutlineLevel method. Gets the max grouped column outline level (zero-based) in C++.'
 type: docs
-weight: 10000
+weight: 9900
 url: /cpp/aspose.cells/cells/getmaxgroupedcolumnoutlinelevel/
 ---
 ## Cells::GetMaxGroupedColumnOutlineLevel method

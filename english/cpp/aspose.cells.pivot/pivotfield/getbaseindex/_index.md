@@ -4,7 +4,7 @@ linktitle: GetBaseIndex
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotField::GetBaseIndex method. Represents the PivotField index in the base PivotFields in C++.'
 type: docs
-weight: 1500
+weight: 2100
 url: /cpp/aspose.cells.pivot/pivotfield/getbaseindex/
 ---
 ## PivotField::GetBaseIndex method

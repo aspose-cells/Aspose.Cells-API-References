@@ -4,7 +4,7 @@ linktitle: ReferredArea
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ReferredArea class. Represents a referred area by the formula in C++.'
 type: docs
-weight: 12300
+weight: 12600
 url: /cpp/aspose.cells/referredarea/
 ---
 ## ReferredArea class
@@ -24,6 +24,7 @@ class ReferredArea
 | [GetEndRow()](./getendrow/) | The end row of the area. |
 | [GetExternalFileName()](./getexternalfilename/) | Get the external file name if this is an external reference. |
 | [GetSheetName()](./getsheetname/) | Indicates which sheet this reference is in. |
+| [GetSheetNames()](./getsheetnames/) | Names of all the worksheets this instance references to. |
 | [GetStartColumn()](./getstartcolumn/) | The start column of the area. |
 | [GetStartRow()](./getstartrow/) | The start row of the area. |
 | [GetValue(int32_t rowOffset, int32_t colOffset)](./getvalue/) | Gets cell value with given offset from the top-left of this area. |

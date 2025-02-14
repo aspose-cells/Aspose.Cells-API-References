@@ -4,7 +4,7 @@ linktitle: PivotItemPosition
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotItemPosition enum. Represents base item Next/Previous/All position in the base field  in C++.'
 type: docs
-weight: 3500
+weight: 3800
 url: /cpp/aspose.cells.pivot/pivotitemposition/
 ---
 ## PivotItemPosition enum

@@ -4,7 +4,7 @@ linktitle: SetBaseIndex
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotField::SetBaseIndex method. Represents the PivotField index in the base PivotFields in C++.'
 type: docs
-weight: 1600
+weight: 2200
 url: /cpp/aspose.cells.pivot/pivotfield/setbaseindex/
 ---
 ## PivotField::SetBaseIndex method

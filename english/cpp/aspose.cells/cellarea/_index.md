@@ -4,7 +4,7 @@ linktitle: CellArea
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::CellArea class. Represent an area of cells in C++.'
 type: docs
-weight: 1400
+weight: 1500
 url: /cpp/aspose.cells/cellarea/
 ---
 ## CellArea class
@@ -23,6 +23,7 @@ class CellArea
 | [CellArea()](./cellarea/) | Default constructor. |
 | [CellArea(CellArea_Impl* impl)](./cellarea/) | Constructs from an implementation object. Internal use. |
 | static [CreateCellArea(int startRow, int startColumn, int endRow, int endColumn)](./createcellarea/) | Creates a cell area. |
+| static [CreateCellArea(const U16String\& startCellName, const U16String\& endCellName)](./createcellarea/) | Creates a cell area. |
 | static [CreateCellArea(const char16_t* startCellName, const char16_t* endCellName)](./createcellarea/) | Creates a cell area. |
 | [ToString()](./tostring/) | Returns a string represents the current cell area object. |
 ## Fields

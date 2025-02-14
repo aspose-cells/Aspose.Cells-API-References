@@ -45,8 +45,7 @@ var chart = worksheet.getCharts().get(chartIndex);
 chart.getNSeries().add("A1:B3", true);
 //Show Data Labels 
 chart.getNSeries().get(0).getDataLabels().setShowValue(true);
-for (var i = 0; i < chart.getNSeries().get(0).getPoints().getCount(); i++)
-{
+for (var i = 0; i < chart.getNSeries().get(0).getPoints().getCount(); i++) {
     //Get Data Point
     var point = chart.getNSeries().get(0).getPoints().get(i);
     //Set Pir Explosion

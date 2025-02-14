@@ -4,7 +4,7 @@ linktitle: PivotFieldSubtotalType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotFieldSubtotalType enum. Summary description for PivotFieldSubtotalType in C++.'
 type: docs
-weight: 3100
+weight: 3400
 url: /cpp/aspose.cells.pivot/pivotfieldsubtotaltype/
 ---
 ## PivotFieldSubtotalType enum

@@ -4,7 +4,7 @@ linktitle: PivotTableCollection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTableCollection class. Represents the collection of all the PivotTable objects on the specified worksheet in C++.'
 type: docs
-weight: 2200
+weight: 2500
 url: /cpp/aspose.cells.pivot/pivottablecollection/
 ---
 ## PivotTableCollection class

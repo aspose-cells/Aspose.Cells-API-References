@@ -75,6 +75,7 @@ Represents the options for saving html file.
 | [getHiddenRowDisplayType()](#getHiddenRowDisplayType--) | Hidden row(the height of this row is 0) in excel,before save this into html format, if HtmlHiddenRowDisplayType is "Remove",the hidden row would not been output, if the value is "Hidden", the row would been output,but was hidden,the default value is "Hidden" |
 | [getHideOverflowWrappedText()](#getHideOverflowWrappedText--) | Indicates whether to hide overflow text when the cell format is set to wrap text. |
 | [getHtmlCrossStringType()](#getHtmlCrossStringType--) | Indicates if a cross-cell string will be displayed in the same way as MS Excel when saving an Excel file in html format. |
+| [getHtmlVersion()](#getHtmlVersion--) | Specifies version of HTML standard that should be used when saving the HTML format. |
 | [getIgnoreInvisibleShapes()](#getIgnoreInvisibleShapes--) | Indicate whether exporting those not visible shapes |
 | [getImageOptions()](#getImageOptions--) | Get the ImageOrPrintOptions object before exporting |
 | [getImageScalable()](#getImageScalable--) | Indicates whether using scalable unit to describe the image width when using scalable unit to describe the column width. |
@@ -163,6 +164,7 @@ Represents the options for saving html file.
 | [setHiddenRowDisplayType(int value)](#setHiddenRowDisplayType-int-) | Hidden row(the height of this row is 0) in excel,before save this into html format, if HtmlHiddenRowDisplayType is "Remove",the hidden row would not been output, if the value is "Hidden", the row would been output,but was hidden,the default value is "Hidden" |
 | [setHideOverflowWrappedText(boolean value)](#setHideOverflowWrappedText-boolean-) | Indicates whether to hide overflow text when the cell format is set to wrap text. |
 | [setHtmlCrossStringType(int value)](#setHtmlCrossStringType-int-) | Indicates if a cross-cell string will be displayed in the same way as MS Excel when saving an Excel file in html format. |
+| [setHtmlVersion(int value)](#setHtmlVersion-int-) | Specifies version of HTML standard that should be used when saving the HTML format. |
 | [setIECompatible(boolean value)](#setIECompatible-boolean-) | Indicating whether the output HTML is compatible with IE browser. |
 | [setIgnoreInvisibleShapes(boolean value)](#setIgnoreInvisibleShapes-boolean-) | Indicate whether exporting those not visible shapes |
 | [setImageScalable(boolean value)](#setImageScalable-boolean-) | Indicates whether using scalable unit to describe the image width when using scalable unit to describe the column width. |
@@ -211,7 +213,7 @@ Creates options for saving htm file.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| saveFormat | int | [SaveFormat](../../com.aspose.cells/saveformat). The file format. It should be one of following types: [SaveFormat.HTML](../../com.aspose.cells/saveformat\#HTML), [SaveFormat.M\_HTML](../../com.aspose.cells/saveformat\#M-HTML), or [SaveFormat.X\_HTML](../../com.aspose.cells/saveformat\#X-HTML), otherwise the saved format will be set as [SaveFormat.HTML](../../com.aspose.cells/saveformat\#HTML) automatically. |
+| saveFormat | int | [SaveFormat](../../com.aspose.cells/saveformat). The file format. It should be one of following types: [SaveFormat.HTML](../../com.aspose.cells/saveformat\#HTML) or [SaveFormat.M\_HTML](../../com.aspose.cells/saveformat\#M-HTML), otherwise the saved format will be set as [SaveFormat.HTML](../../com.aspose.cells/saveformat\#HTML) automatically. |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -781,6 +783,18 @@ public int getHtmlCrossStringType()
 Indicates if a cross-cell string will be displayed in the same way as MS Excel when saving an Excel file in html format. By default the value is Default, so, for cross-cell strings, there is little difference between the html files created by Aspose.Cells and MS Excel. But the performance for creating large html files,setting the value to Cross would be several times faster than setting it to Default or Fit2Cell.
 
 See [HtmlCrossType](../../com.aspose.cells/htmlcrosstype).
+
+**Returns:**
+int
+### getHtmlVersion() {#getHtmlVersion--}
+```
+public int getHtmlVersion()
+```
+
+
+Specifies version of HTML standard that should be used when saving the HTML format. Default value is HtmlVersion.Default.
+
+See [HtmlVersion](../../com.aspose.cells/htmlversion).
 
 **Returns:**
 int
@@ -1894,6 +1908,21 @@ public void setHtmlCrossStringType(int value)
 Indicates if a cross-cell string will be displayed in the same way as MS Excel when saving an Excel file in html format. By default the value is Default, so, for cross-cell strings, there is little difference between the html files created by Aspose.Cells and MS Excel. But the performance for creating large html files,setting the value to Cross would be several times faster than setting it to Default or Fit2Cell.
 
 See [HtmlCrossType](../../com.aspose.cells/htmlcrosstype).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### setHtmlVersion(int value) {#setHtmlVersion-int-}
+```
+public void setHtmlVersion(int value)
+```
+
+
+Specifies version of HTML standard that should be used when saving the HTML format. Default value is HtmlVersion.Default.
+
+See [HtmlVersion](../../com.aspose.cells/htmlversion).
 
 **Parameters:**
 | Parameter | Type | Description |

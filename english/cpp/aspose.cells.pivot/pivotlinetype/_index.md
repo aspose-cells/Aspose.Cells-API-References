@@ -4,7 +4,7 @@ linktitle: PivotLineType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotLineType enum. Specifies the type of the PivotLine in C++.'
 type: docs
-weight: 3700
+weight: 4000
 url: /cpp/aspose.cells.pivot/pivotlinetype/
 ---
 ## PivotLineType enum

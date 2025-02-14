@@ -4,7 +4,7 @@ linktitle: SetIsIncludeNewItemsInFilter
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotField::SetIsIncludeNewItemsInFilter method. Indicates whether including new items to the field in manual filter. The default value is false in C++.'
 type: docs
-weight: 4100
+weight: 4800
 url: /cpp/aspose.cells.pivot/pivotfield/setisincludenewitemsinfilter/
 ---
 ## PivotField::SetIsIncludeNewItemsInFilter method

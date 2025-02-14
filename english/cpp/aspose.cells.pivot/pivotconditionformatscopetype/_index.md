@@ -4,7 +4,7 @@ linktitle: PivotConditionFormatScopeType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotConditionFormatScopeType enum. Represents PivotTable condition formatting scope type in C++.'
 type: docs
-weight: 2800
+weight: 3100
 url: /cpp/aspose.cells.pivot/pivotconditionformatscopetype/
 ---
 ## PivotConditionFormatScopeType enum

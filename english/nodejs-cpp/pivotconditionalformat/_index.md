@@ -27,6 +27,7 @@ class PivotConditionalFormat;
 | [setRuleType(PivotConditionFormatRuleType)](#setRuleType-pivotconditionformatruletype-)| Get and set rule type for the pivot table condition format . |
 | [getCellAreas()](#getCellAreas--)| Gets all cell areas where this conditional format applies to. |
 | [addCellArea(CellArea)](#addCellArea-cellarea-)| Adds an area based on pivot table view. |
+| [applyTo(number, number, PivotConditionFormatScopeType)](#applyTo-number-number-pivotconditionformatscopetype-)| Applies the conditional format to range. Only for the data region. |
 | [addFieldArea(PivotFieldType, string)](#addFieldArea-pivotfieldtype-string-)| Adds an area of pivot field. |
 | [addFieldArea(PivotFieldType, PivotField)](#addFieldArea-pivotfieldtype-pivotfield-)| Adds an area of pivot field. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
@@ -135,6 +136,21 @@ addCellArea(ca: CellArea) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | ca | [CellArea](../cellarea/) | The cell area. |
+
+### applyTo(number, number, PivotConditionFormatScopeType) {#applyTo-number-number-pivotconditionformatscopetype-}
+
+Applies the conditional format to range. Only for the data region.
+
+```javascript
+applyTo(row: number, column: number, scope: PivotConditionFormatScopeType) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| row | number | The selected row. |
+| column | number | The selected column. |
+| scope | [PivotConditionFormatScopeType](../pivotconditionformatscopetype/) | The scope |
 
 ### addFieldArea(PivotFieldType, string) {#addFieldArea-pivotfieldtype-string-}
 

@@ -101,6 +101,10 @@ cells.merge(5, 4, 2, 2);
 | [importCSV(Uint8Array, string, boolean, number, number)](#importCSV-uint8array-string-boolean-number-number-)| Import a CSV file to the cells. |
 | [importCSV(string, TxtLoadOptions, number, number)](#importCSV-string-txtloadoptions-number-number-)| Import a CSV file to the cells. |
 | [importCSV(Uint8Array, TxtLoadOptions, number, number)](#importCSV-uint8array-txtloadoptions-number-number-)| Import a CSV file to the cells. |
+| [importCSVAsync(string, string, boolean, number, number)](#importCSVAsync-string-string-boolean-number-number-)| Import a CSV file to the cells. |
+| [importCSVAsync(Uint8Array, string, boolean, number, number)](#importCSVAsync-uint8array-string-boolean-number-number-)| Import a CSV file to the cells. |
+| [importCSVAsync(string, TxtLoadOptions, number, number)](#importCSVAsync-string-txtloadoptions-number-number-)| Import a CSV file to the cells. |
+| [importCSVAsync(Uint8Array, TxtLoadOptions, number, number)](#importCSVAsync-uint8array-txtloadoptions-number-number-)| Import a CSV file to the cells. |
 | [merge(number, number, number, number)](#merge-number-number-number-number-)| Merges a specified range of cells into a single cell. |
 | [merge(number, number, number, number, boolean)](#merge-number-number-number-number-boolean-)| Merges a specified range of cells into a single cell. |
 | [merge(number, number, number, number, boolean, boolean)](#merge-number-number-number-number-boolean-boolean-)| Merges a specified range of cells into a single cell. |
@@ -594,7 +598,7 @@ getMaxColumn() : number;
 
 **Remarks**
 
-Return -1 if there is no cell.
+Return -1 if there is no cell has been instantiated.
 
 ### getMinDataRow() {#getMinDataRow--}
 
@@ -604,6 +608,10 @@ Minimum row index of cell which contains data.
 getMinDataRow() : number;
 ```
 
+
+**Remarks**
+
+Return -1 if there is no cell which contains data.
 
 ### getMaxDataRow() {#getMaxDataRow--}
 
@@ -1130,6 +1138,88 @@ importCSV(stream: Uint8Array, options: TxtLoadOptions, firstRow: number, firstCo
 | options | [TxtLoadOptions](../txtloadoptions/) | The load options for reading text file |
 | firstRow | number | The row number of the first cell to import in. |
 | firstColumn | number | The column number of the first cell to import in. |
+
+### importCSVAsync(string, string, boolean, number, number) {#importCSVAsync-string-string-boolean-number-number-}
+
+Import a CSV file to the cells.
+
+```javascript
+importCSVAsync(fileName: string, splitter: string, convertNumericData: boolean, firstRow: number, firstColumn: number) : Promise<void>;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileName | string | The CSV file name. |
+| splitter | string | The splitter |
+| convertNumericData | boolean | Whether the string in text file is converted to numeric data. |
+| firstRow | number | The row number of the first cell to import in. |
+| firstColumn | number | The column number of the first cell to import in. |
+
+**Returns**
+
+[Promise<void>](../promise<void>/)
+
+### importCSVAsync(Uint8Array, string, boolean, number, number) {#importCSVAsync-uint8array-string-boolean-number-number-}
+
+Import a CSV file to the cells.
+
+```javascript
+importCSVAsync(stream: Uint8Array, splitter: string, convertNumericData: boolean, firstRow: number, firstColumn: number) : Promise<void>;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | Uint8Array | The CSV file stream. |
+| splitter | string | The splitter |
+| convertNumericData | boolean | Whether the string in text file is converted to numeric data. |
+| firstRow | number | The row number of the first cell to import in. |
+| firstColumn | number | The column number of the first cell to import in. |
+
+**Returns**
+
+[Promise<void>](../promise<void>/)
+
+### importCSVAsync(string, TxtLoadOptions, number, number) {#importCSVAsync-string-txtloadoptions-number-number-}
+
+Import a CSV file to the cells.
+
+```javascript
+importCSVAsync(fileName: string, options: TxtLoadOptions, firstRow: number, firstColumn: number) : Promise<void>;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileName | string | The CSV file name. |
+| options | [TxtLoadOptions](../txtloadoptions/) | The load options for reading text file |
+| firstRow | number | The row number of the first cell to import in. |
+| firstColumn | number | The column number of the first cell to import in. |
+
+**Returns**
+
+[Promise<void>](../promise<void>/)
+
+### importCSVAsync(Uint8Array, TxtLoadOptions, number, number) {#importCSVAsync-uint8array-txtloadoptions-number-number-}
+
+Import a CSV file to the cells.
+
+```javascript
+importCSVAsync(stream: Uint8Array, options: TxtLoadOptions, firstRow: number, firstColumn: number) : Promise<void>;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | Uint8Array | The CSV file stream. |
+| options | [TxtLoadOptions](../txtloadoptions/) | The load options for reading text file |
+| firstRow | number | The row number of the first cell to import in. |
+| firstColumn | number | The column number of the first cell to import in. |
+
+**Returns**
+
+[Promise<void>](../promise<void>/)
 
 ### merge(number, number, number, number) {#merge-number-number-number-number-}
 

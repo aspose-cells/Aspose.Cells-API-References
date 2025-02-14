@@ -4,7 +4,7 @@ linktitle: Get
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotFormatConditionCollection::Get method. Gets the pivot FormatCondition object at the specific index in C++.'
 type: docs
-weight: 700
+weight: 900
 url: /cpp/aspose.cells.pivot/pivotformatconditioncollection/get/
 ---
 ## PivotFormatConditionCollection::Get method

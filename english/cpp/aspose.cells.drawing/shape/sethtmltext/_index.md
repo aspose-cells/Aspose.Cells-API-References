@@ -4,7 +4,7 @@ linktitle: SetHtmlText
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::SetHtmlText method. Gets and sets the html string which contains data and some formats in this textbox in C++.'
 type: docs
-weight: 16100
+weight: 16200
 url: /cpp/aspose.cells.drawing/shape/sethtmltext/
 ---
 ## Shape::SetHtmlText(const U16String\&) method

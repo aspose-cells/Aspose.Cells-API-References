@@ -4,7 +4,7 @@ linktitle: GetHtmlText
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::GetHtmlText method. Gets and sets the html string which contains data and some formats in this textbox in C++.'
 type: docs
-weight: 16000
+weight: 16100
 url: /cpp/aspose.cells.drawing/shape/gethtmltext/
 ---
 ## Shape::GetHtmlText method

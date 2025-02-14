@@ -4,7 +4,7 @@ linktitle: PivotFieldGroupSettings
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotFieldGroupSettings class. Represents the group setting of pivot field in C++.'
 type: docs
-weight: 900
+weight: 1200
 url: /cpp/aspose.cells.pivot/pivotfieldgroupsettings/
 ---
 ## PivotFieldGroupSettings class

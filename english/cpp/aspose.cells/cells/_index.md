@@ -148,7 +148,6 @@ class Cells
 | [ImportCSV(const char16_t* fileName, const TxtLoadOptions\& options, int32_t firstRow, int32_t firstColumn)](./importcsv/) | Import a CSV file to the cells. |
 | [ImportCSV(const Vector \<uint8_t\>\& stream, const TxtLoadOptions\& options, int32_t firstRow, int32_t firstColumn)](./importcsv/) | Import a CSV file to the cells. |
 | [ImportFormulaArray(const Vector \<U16String\>\& stringArray, int32_t firstRow, int32_t firstColumn, bool isVertical)](./importformulaarray/) | Imports an array of formula into a worksheet. |
-| [ImportObjectArray(const Vector \<Aspose::Cells::Object\>\& objArray, int32_t firstRow, int32_t firstColumn, bool isVertical, int32_t skip)](./importobjectarray/) | Imports an array of data into a worksheet. |
 | [InsertColumn(int32_t columnIndex, bool updateReference)](./insertcolumn/) | Inserts a new column into the worksheet. |
 | [InsertColumn(int32_t columnIndex)](./insertcolumn/) | Inserts a new column into the worksheet. |
 | [InsertColumns(int32_t columnIndex, int32_t totalColumns)](./insertcolumns/) | Inserts some columns into the worksheet. |

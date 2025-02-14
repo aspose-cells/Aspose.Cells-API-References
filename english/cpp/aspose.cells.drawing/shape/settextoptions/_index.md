@@ -4,7 +4,7 @@ linktitle: SetTextOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::SetTextOptions method. Represents the text options of the shape in C++.'
 type: docs
-weight: 15500
+weight: 15600
 url: /cpp/aspose.cells.drawing/shape/settextoptions/
 ---
 ## Shape::SetTextOptions method

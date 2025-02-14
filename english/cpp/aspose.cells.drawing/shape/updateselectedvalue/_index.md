@@ -4,7 +4,7 @@ linktitle: UpdateSelectedValue
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::UpdateSelectedValue method. Update the selected value by the value of the linked cell in C++.'
 type: docs
-weight: 14800
+weight: 14900
 url: /cpp/aspose.cells.drawing/shape/updateselectedvalue/
 ---
 ## Shape::UpdateSelectedValue method

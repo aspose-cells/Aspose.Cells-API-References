@@ -4,7 +4,7 @@ linktitle: SetHasBlankRows
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::SetHasBlankRows method. Indicates whether to add blank rows. This property only applies for the PivotTable auto format types which needs to add blank rows in C++.'
 type: docs
-weight: 5900
+weight: 6400
 url: /cpp/aspose.cells.pivot/pivottable/sethasblankrows/
 ---
 ## PivotTable::SetHasBlankRows method

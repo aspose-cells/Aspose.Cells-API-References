@@ -4,7 +4,7 @@ linktitle: GetTextOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::GetTextOptions method. Represents the text options of the shape in C++.'
 type: docs
-weight: 15400
+weight: 15500
 url: /cpp/aspose.cells.drawing/shape/gettextoptions/
 ---
 ## Shape::GetTextOptions method

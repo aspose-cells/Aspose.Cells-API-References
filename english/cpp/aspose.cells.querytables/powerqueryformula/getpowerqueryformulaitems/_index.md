@@ -4,7 +4,7 @@ linktitle: GetPowerQueryFormulaItems
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::QueryTables::PowerQueryFormula::GetPowerQueryFormulaItems method. Gets all items of power query formula in C++.'
 type: docs
-weight: 900
+weight: 1100
 url: /cpp/aspose.cells.querytables/powerqueryformula/getpowerqueryformulaitems/
 ---
 ## PowerQueryFormula::GetPowerQueryFormulaItems method
