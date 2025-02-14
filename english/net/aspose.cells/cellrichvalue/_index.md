@@ -17,7 +17,7 @@ public abstract class CellRichValue
 
 | Name | Description |
 | --- | --- |
-| virtual [AltText](../../aspose.cells/cellrichvalue/alttext/) { get; } | Gets the alt text associated with the image. |
+| virtual [AltText](../../aspose.cells/cellrichvalue/alttext/) { get; set; } | Gets the alt text associated with the image. |
 | virtual [ErrorValue](../../aspose.cells/cellrichvalue/errorvalue/) { get; } | Gets the error value type of the cell. |
 | virtual [Image](../../aspose.cells/cellrichvalue/image/) { get; } | Gets the image data of the cell. |
 

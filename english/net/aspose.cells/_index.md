@@ -261,6 +261,7 @@ The **Aspose.Cells** namespace provides fundamental and base classes for generat
 | [HtmlHiddenRowDisplayType](./htmlhiddenrowdisplaytype/) | Represents two types of showing the hidden rows in html. |
 | [HtmlLinkTargetType](./htmllinktargettype/) | Represents the type of target attribute in HTML  tag. |
 | [HtmlOfficeMathOutputType](./htmlofficemathoutputtype/) | Represents how export OfficeMath to HTML. |
+| [HtmlVersion](./htmlversion/) | Indicates the version of HTML is used when saving to Html formats. |
 | [IconSetType](./iconsettype/) | Icon set type for conditional formatting. The threshold values for triggering the different icons within a set are configurable, and the icon order is reversible. |
 | [LoadDataFilterOptions](./loaddatafilteroptions/) | Represents the options to filter data when loading workbook from template. |
 | [LoadFormat](./loadformat/) | Represents the load file format. |

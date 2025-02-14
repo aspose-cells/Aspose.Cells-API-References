@@ -31,7 +31,7 @@ public HtmlSaveOptions(SaveFormat saveFormat)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| saveFormat | SaveFormat | The file format. It should be one of following types: Html, MHtml, or XHtml, otherwise the saved format will be set as Html automatically. |
+| saveFormat | SaveFormat | The file format. It should be one of following types: Html or MHtml, otherwise the saved format will be set as Html automatically. |
 
 ### See Also
 

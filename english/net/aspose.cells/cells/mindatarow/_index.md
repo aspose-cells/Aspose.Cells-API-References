@@ -13,6 +13,10 @@ Minimum row index of cell which contains data.
 public int MinDataRow { get; }
 ```
 
+### Remarks
+
+Return -1 if there is no cell which contains data.
+
 ### See Also
 
 * class [Cells](../)
