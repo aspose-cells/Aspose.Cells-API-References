@@ -147,6 +147,7 @@ Represents the group shape which contains the individual shapes.
 | [calculateTextSize()](#calculateTextSize--) | Recalculate the text area |
 | [characters(int startIndex, int length)](#characters-int-int-) | Returns a Characters object that represents a range of characters within the text. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [fitToTextSize()](#fitToTextSize--) | Recalculate a text area suitable for displaying all text content. |
 | [formatCharacters(int startIndex, int length, Font font, StyleFlag flag)](#formatCharacters-int-int-com.aspose.cells.Font-com.aspose.cells.StyleFlag-) | Formats some characters with the font setting. |
 | [get(int index)](#get-int-) | Gets the child shape by index. |
 | [getActiveXControl()](#getActiveXControl--) | Gets the ActiveX control. |
@@ -449,6 +450,14 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### fitToTextSize() {#fitToTextSize--}
+```
+public void fitToTextSize()
+```
+
+
+Recalculate a text area suitable for displaying all text content.
+
 ### formatCharacters(int startIndex, int length, Font font, StyleFlag flag) {#formatCharacters-int-int-com.aspose.cells.Font-com.aspose.cells.StyleFlag-}
 ```
 public void formatCharacters(int startIndex, int length, Font font, StyleFlag flag)

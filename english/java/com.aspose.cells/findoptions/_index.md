@@ -150,6 +150,10 @@ Look at type.
 
 See [LookAtType](../../com.aspose.cells/lookattype).
 
+**Remarks**
+
+When [getRegexKey()](../../com.aspose.cells/findoptions\#getRegexKey--) is true and user has specified the exact rule for the regex, for performance consideration this property should be set as [LookAtType.ENTIRE\_CONTENT](../../com.aspose.cells/lookattype\#ENTIRE-CONTENT). Otherwise we will refactor the search key to ensure it can be matched according to the specific type. For example, when the type is [LookAtType.CONTAINS](../../com.aspose.cells/lookattype\#CONTAINS)(this is the default value for this property), we will add wildcards at the beginning and end of the search key automatically. In this case, the regular expressions will become more complex and the performance will also decrease.
+
 **Returns:**
 int
 ### getLookInType() {#getLookInType--}
@@ -181,6 +185,10 @@ public boolean getRegexKey()
 
 
 Indicates whether the searched key is regex. If true the searched key will be taken as regex and parsed. Otherwise the key will be parsed according to the rules in ms excel.
+
+**Remarks**
+
+Even though the search key has been specified as regex, it may be refactored according to specified [LookAtType](../../com.aspose.cells/lookattype). For example, when the type is [LookAtType.CONTAINS](../../com.aspose.cells/lookattype\#CONTAINS)(this is the default value for this options), wildcards will be added at the beginning and end of the search key automatically to ensure the match will be checked as "contains". In this case, the regular expressions will become more complex and the performance will also decrease. So, for performance consideration, if user has specified the exact rule for the regex, then there is no need to use [LookAtType](../../com.aspose.cells/lookattype) as additional constraint and user may set it as [LookAtType.ENTIRE\_CONTENT](../../com.aspose.cells/lookattype\#ENTIRE-CONTENT) to get better performance.
 
 **Returns:**
 boolean
@@ -324,6 +332,10 @@ Look at type.
 
 See [LookAtType](../../com.aspose.cells/lookattype).
 
+**Remarks**
+
+When [getRegexKey()](../../com.aspose.cells/findoptions\#getRegexKey--) is true and user has specified the exact rule for the regex, for performance consideration this property should be set as [LookAtType.ENTIRE\_CONTENT](../../com.aspose.cells/lookattype\#ENTIRE-CONTENT). Otherwise we will refactor the search key to ensure it can be matched according to the specific type. For example, when the type is [LookAtType.CONTAINS](../../com.aspose.cells/lookattype\#CONTAINS)(this is the default value for this property), we will add wildcards at the beginning and end of the search key automatically. In this case, the regular expressions will become more complex and the performance will also decrease.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -364,6 +376,10 @@ public void setRegexKey(boolean value)
 
 
 Indicates whether the searched key is regex. If true the searched key will be taken as regex and parsed. Otherwise the key will be parsed according to the rules in ms excel.
+
+**Remarks**
+
+Even though the search key has been specified as regex, it may be refactored according to specified [LookAtType](../../com.aspose.cells/lookattype). For example, when the type is [LookAtType.CONTAINS](../../com.aspose.cells/lookattype\#CONTAINS)(this is the default value for this options), wildcards will be added at the beginning and end of the search key automatically to ensure the match will be checked as "contains". In this case, the regular expressions will become more complex and the performance will also decrease. So, for performance consideration, if user has specified the exact rule for the regex, then there is no need to use [LookAtType](../../com.aspose.cells/lookattype) as additional constraint and user may set it as [LookAtType.ENTIRE\_CONTENT](../../com.aspose.cells/lookattype\#ENTIRE-CONTENT) to get better performance.
 
 **Parameters:**
 | Parameter | Type | Description |

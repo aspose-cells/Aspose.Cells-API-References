@@ -22,6 +22,7 @@ Represents the list of the data model table.
 | [contains(Object o)](#contains-java.lang.Object-) | Return whether instance contains this object |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | Gets the data model table by position of the collection. |
+| [get(String name)](#get-java.lang.String-) | Gets the data model table by the name. |
 | [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | Gets the number of elements contained in the CollectionBase instance. |
 | [hashCode()](#hashCode--) |  |
@@ -99,6 +100,21 @@ Gets the data model table by position of the collection.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int | The position of the collection. |
+
+**Returns:**
+[DataModelTable](../../com.aspose.cells/datamodeltable) - 
+### get(String name) {#get-java.lang.String-}
+```
+public DataModelTable get(String name)
+```
+
+
+Gets the data model table by the name.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | java.lang.String | The name of data model table. |
 
 **Returns:**
 [DataModelTable](../../com.aspose.cells/datamodeltable) - 

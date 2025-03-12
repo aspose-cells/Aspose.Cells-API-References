@@ -74,6 +74,7 @@ Encapsulates the object that represents a textbox in a spreadsheet.
 | [calculateTextSize()](#calculateTextSize--) | Recalculate the text area |
 | [characters(int startIndex, int length)](#characters-int-int-) | Returns a Characters object that represents a range of characters within the text. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [fitToTextSize()](#fitToTextSize--) | Recalculate a text area suitable for displaying all text content. |
 | [formatCharacters(int startIndex, int length, Font font, StyleFlag flag)](#formatCharacters-int-int-com.aspose.cells.Font-com.aspose.cells.StyleFlag-) | Formats some characters with the font setting. |
 | [getActiveXControl()](#getActiveXControl--) | Gets the ActiveX control. |
 | [getActualBox()](#getActualBox--) | Get the actual position and size of the shape (after applying rotation, flip, etc.) |
@@ -375,6 +376,14 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### fitToTextSize() {#fitToTextSize--}
+```
+public void fitToTextSize()
+```
+
+
+Recalculate a text area suitable for displaying all text content.
+
 ### formatCharacters(int startIndex, int length, Font font, StyleFlag flag) {#formatCharacters-int-int-com.aspose.cells.Font-com.aspose.cells.StyleFlag-}
 ```
 public void formatCharacters(int startIndex, int length, Font font, StyleFlag flag)
