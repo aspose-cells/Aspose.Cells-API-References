@@ -25,6 +25,7 @@ class Shape
 | [AlignTopRightCorner(int32_t topRow, int32_t rightColumn)](./aligntoprightcorner/) | Moves the picture to the top-right corner. |
 | [CalculateTextSize()](./calculatetextsize/) | Recalculate the text area. |
 | [Characters(int32_t startIndex, int32_t length)](./characters/) | Returns a Characters object that represents a range of characters within the text. |
+| [FitToTextSize()](./fittotextsize/) | Recalculate a text area suitable for displaying all text content. |
 | [FormatCharacters(int32_t startIndex, int32_t length, const Aspose::Cells::Font\& font, const StyleFlag\& flag)](./formatcharacters/) | Formats some characters with the font setting. |
 | [GetActiveXControl()](./getactivexcontrol/) | Gets the ActiveX control. |
 | [GetActualBox()](./getactualbox/) | Get the actual position and size of the shape (after applying rotation, flip, etc.) |

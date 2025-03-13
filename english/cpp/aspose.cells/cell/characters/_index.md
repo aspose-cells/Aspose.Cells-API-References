@@ -4,7 +4,7 @@ linktitle: Characters
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cell::Characters method. Returns a Characters object that represents a range of characters within the cell text in C++.'
 type: docs
-weight: 5500
+weight: 5800
 url: /cpp/aspose.cells/cell/characters/
 ---
 ## Cell::Characters method

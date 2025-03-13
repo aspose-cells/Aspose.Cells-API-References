@@ -4,7 +4,7 @@ linktitle: GetValidation
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cell::GetValidation method. Gets the validation applied to this cell in C++.'
 type: docs
-weight: 7100
+weight: 7400
 url: /cpp/aspose.cells/cell/getvalidation/
 ---
 ## Cell::GetValidation method

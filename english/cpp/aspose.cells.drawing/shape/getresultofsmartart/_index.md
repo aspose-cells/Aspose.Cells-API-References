@@ -4,7 +4,7 @@ linktitle: GetResultOfSmartArt
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::GetResultOfSmartArt method. Converting smart art to grouped shapes in C++.'
 type: docs
-weight: 19100
+weight: 19200
 url: /cpp/aspose.cells.drawing/shape/getresultofsmartart/
 ---
 ## Shape::GetResultOfSmartArt method

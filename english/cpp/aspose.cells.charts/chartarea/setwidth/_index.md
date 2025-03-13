@@ -2,7 +2,7 @@
 title: Aspose::Cells::Charts::ChartArea::SetWidth method
 linktitle: SetWidth
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::ChartArea::SetWidth method. Gets or sets the horizontal offset from its lower right corner column in C++.'
+description: 'Aspose::Cells::Charts::ChartArea::SetWidth method. Gets or sets the horizontal offset from its lower right corner column, in units of 1/4000 of the chart area in C++.'
 type: docs
 weight: 1300
 url: /cpp/aspose.cells.charts/chartarea/setwidth/
@@ -10,11 +10,21 @@ url: /cpp/aspose.cells.charts/chartarea/setwidth/
 ## ChartArea::SetWidth method
 
 
-Gets or sets the horizontal offset from its lower right corner column.
+Gets or sets the horizontal offset from its lower right corner column, in units of 1/4000 of the chart area.
 
+
+>Deprecated
+>
+>Use ChartArea.WidthRatioToChart property, instead. 
 ```cpp
 void Aspose::Cells::Charts::ChartArea::SetWidth(int32_t value)
 ```
+
+## Remarks
+
+
+NOTE: This member is now obsolete. Please use ChartArea.WidthRatioToChart property, instead. Width = WidthRatioToChart * 4000. This property will be removed 12 months later since February 2025. **Aspose** apologizes for any inconvenience you may have experienced.
+
 
 ## See Also
 

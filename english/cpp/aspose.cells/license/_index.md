@@ -4,7 +4,7 @@ linktitle: License
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::License class. Provides methods to license the component in C++.'
 type: docs
-weight: 9500
+weight: 9700
 url: /cpp/aspose.cells/license/
 ---
 ## License class
@@ -26,9 +26,9 @@ class License
 | [License(const License\& src)](./license/) | Copy constructor. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const License\& src)](./operator_asm/) | operator= |
-| [SetLicense(U16String\& licenseName)](./setlicense/) | Licenses the component. |
+| [SetLicense(const U16String\& licenseName)](./setlicense/) | Licenses the component. |
 | [SetLicense(const char16_t* licenseName)](./setlicense/) | Licenses the component. |
-| [SetLicense(Vector \<uint8_t\>\& stream)](./setlicense/) | Licenses the component. |
+| [SetLicense(const Vector \<uint8_t\>\& stream)](./setlicense/) | Licenses the component. |
 | [~License()](./~license/) | Destructor. |
 ## Fields
 

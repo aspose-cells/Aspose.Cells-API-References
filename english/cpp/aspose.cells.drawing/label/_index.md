@@ -25,6 +25,7 @@ class Label : public Aspose::Cells::Drawing::Shape
 | [AlignTopRightCorner(int32_t topRow, int32_t rightColumn)](../shape/aligntoprightcorner/) | Moves the picture to the top-right corner. |
 | [CalculateTextSize()](../shape/calculatetextsize/) | Recalculate the text area. |
 | [Characters(int32_t startIndex, int32_t length)](../shape/characters/) | Returns a Characters object that represents a range of characters within the text. |
+| [FitToTextSize()](../shape/fittotextsize/) | Recalculate a text area suitable for displaying all text content. |
 | [FormatCharacters(int32_t startIndex, int32_t length, const Aspose::Cells::Font\& font, const StyleFlag\& flag)](../shape/formatcharacters/) | Formats some characters with the font setting. |
 | [GetActiveXControl()](../shape/getactivexcontrol/) | Gets the ActiveX control. |
 | [GetActualBox()](../shape/getactualbox/) | Get the actual position and size of the shape (after applying rotation, flip, etc.) |

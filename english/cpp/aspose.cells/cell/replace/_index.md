@@ -4,7 +4,7 @@ linktitle: Replace
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cell::Replace method. Replace text of the cell with options in C++.'
 type: docs
-weight: 5600
+weight: 5900
 url: /cpp/aspose.cells/cell/replace/
 ---
 ## Cell::Replace(const U16String\&, const U16String\&, const ReplaceOptions\&) method

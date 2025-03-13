@@ -15,7 +15,7 @@ Specifies a custom value for the display unit.
 
 >Deprecated
 >
->Use Axis.CoustomDisplayUnit property, instead. 
+>Use Axis.CustomDisplayUnit property, instead. 
 ```cpp
 void Aspose::Cells::Charts::Axis::SetCustomUnit(int32_t value)
 ```
@@ -23,7 +23,7 @@ void Aspose::Cells::Charts::Axis::SetCustomUnit(int32_t value)
 ## Remarks
 
 
-NOTE: This property is now obsolete. Instead, please use Axis.CoustomDisplayUnit property. This property will be removed 12 months later since February 2025. **Aspose** apologizes for any inconvenience you may have experienced.
+NOTE: This property is now obsolete. Instead, please use Axis.CustomDisplayUnit property. This property will be removed 12 months later since February 2025. **Aspose** apologizes for any inconvenience you may have experienced.
 
 
 ## See Also

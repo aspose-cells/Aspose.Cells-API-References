@@ -25,14 +25,6 @@ Vector<uint8_t> Aspose::Cells::Drawing::Shape::ToImage(Aspose::Cells::Drawing::I
 
 
 The following formats are supported: .bmp, .gif, .jpg, .jpeg, .tiff, .emf.
-
-## Examples
-
-
-```cpp
-Vector<uint8_t> ms = shape.ToImage(ImageType::Png);
-```
-
 ## See Also
 
 * Class [Vector](../../../aspose.cells/vector/)

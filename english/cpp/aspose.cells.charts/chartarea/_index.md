@@ -29,18 +29,30 @@ class ChartArea : public Aspose::Cells::Charts::ChartFrame
 | [GetAutoScaleFont()](../chartframe/getautoscalefont/) | True if the text in the object changes font size when the object size changes. The default value is True. |
 | [GetBackgroundMode()](../chartframe/getbackgroundmode/) | Gets and sets the display mode of the background. |
 | [GetBorder()](../chartframe/getborder/) | Gets the [border](../). |
-| [GetDefaultHeight()](../chartframe/getdefaultheight/) | Represents height of default position. |
-| [GetDefaultWidth()](../chartframe/getdefaultwidth/) | Represents width of default position. |
-| [GetDefaultX()](../chartframe/getdefaultx/) | Represents x of default position. |
-| [GetDefaultY()](../chartframe/getdefaulty/) | Represents y of default position. |
+| [GetDefaultHeight()](../chartframe/getdefaultheight/) |  **(Deprecated)** Represents height of default position in units of 1/4000 of the chart area. |
+| [GetDefaultHeightRatioToChart()](../chartframe/getdefaultheightratiotochart/) | Represents height of default position in units of Fraction of the chart area. |
+| [GetDefaultWidth()](../chartframe/getdefaultwidth/) |  **(Deprecated)** Represents width of default position in units of 1/4000 of the chart area. |
+| [GetDefaultWidthRatioToChart()](../chartframe/getdefaultwidthratiotochart/) | Represents width of default position in units of Fraction of the chart area. |
+| [GetDefaultX()](../chartframe/getdefaultx/) |  **(Deprecated)** Represents x of default position in units of 1/4000 of the chart area. |
+| [GetDefaultXRatioToChart()](../chartframe/getdefaultxratiotochart/) | Represents x of default position in units of Fraction of the chart area. |
+| [GetDefaultY()](../chartframe/getdefaulty/) |  **(Deprecated)** Represents y of default position in units of 1/4000 of the chart area. |
+| [GetDefaultYRatioToChart()](../chartframe/getdefaultyratiotochart/) | Represents y of default position in units of Fraction of the chart area. |
 | [GetFont()](./getfont/) | Gets a [Font](../../aspose.cells/font/) object of the specified chartarea object. |
-| [GetHeight()](./getheight/) | Gets or sets the vertical offset from its lower right corner row. |
+| [GetHeight()](./getheight/) |  **(Deprecated)** Gets or sets the vertical offset from its lower right corner row, in units of 1/4000 of the chart area. |
+| [GetHeightPixel()](../chartframe/getheightpixel/) | Gets or sets the height of frame in units of Pixel. |
+| [GetHeightRatioToChart()](./getheightratiotochart/) | Gets or sets the vertical offset from its lower right corner row, in units of ratio of the chart area. |
 | [GetShadow()](../chartframe/getshadow/) | True if the frame has a shadow. |
 | [GetShapeProperties()](../chartframe/getshapeproperties/) | Gets the ShapeProperties object. |
 | [GetTextOptions()](../chartframe/gettextoptions/) | Gets and sets the options of the text. |
-| [GetWidth()](./getwidth/) | Gets or sets the horizontal offset from its lower right corner column. |
-| [GetX()](./getx/) | Gets or gets the horizontal offset from its upper left corner column. |
-| [GetY()](./gety/) | Gets or gets the vertical offset from its upper left corner row. |
+| [GetWidth()](./getwidth/) |  **(Deprecated)** Gets or sets the horizontal offset from its lower right corner column, in units of 1/4000 of the chart area. |
+| [GetWidthPixel()](../chartframe/getwidthpixel/) | Gets or sets the width of frame in units of Pixel. |
+| [GetWidthRatioToChart()](./getwidthratiotochart/) | Gets or sets the horizontal offset from its lower right corner column, in units of ratio of the chart area. |
+| [GetX()](./getx/) |  **(Deprecated)** Gets or gets the horizontal offset from its upper left corner column, in units of 1/4000 of the chart area. |
+| [GetXPixel()](../chartframe/getxpixel/) | Gets or sets the x coordinate of the upper left corner in units of Pixel. |
+| [GetXRatioToChart()](./getxratiotochart/) | Gets or gets the horizontal offset from its upper left corner column, in units of ratio of the chart area. |
+| [GetY()](./gety/) |  **(Deprecated)** Gets or gets the vertical offset from its upper left corner row, in units of 1/4000 of the chart area. |
+| [GetYPixel()](../chartframe/getypixel/) | Gets or sets the y coordinate of the upper left corner in units of Pixel. |
+| [GetYRatioToChart()](./getyratiotochart/) | Gets or gets the vertical offset from its upper left corner row, in units of ratio of the chart area. |
 | [IsAutomaticSize()](../chartframe/isautomaticsize/) | Indicates whether the chart frame is automatic sized. |
 | [IsDefaultPosBeSet()](../chartframe/isdefaultposbeset/) | Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set. |
 | [IsInnerMode()](../chartframe/isinnermode/) | Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. |
@@ -50,14 +62,22 @@ class ChartArea : public Aspose::Cells::Charts::ChartFrame
 | [operator=(const ChartFrame\& src)](../chartframe/operator_asm/) | operator= |
 | [SetAutoScaleFont(bool value)](../chartframe/setautoscalefont/) | True if the text in the object changes font size when the object size changes. The default value is True. |
 | [SetBackgroundMode(BackgroundMode value)](../chartframe/setbackgroundmode/) | Gets and sets the display mode of the background. |
-| [SetHeight(int32_t value)](./setheight/) | Gets or sets the vertical offset from its lower right corner row. |
+| [SetHeight(int32_t value)](./setheight/) |  **(Deprecated)** Gets or sets the vertical offset from its lower right corner row, in units of 1/4000 of the chart area. |
+| [SetHeightPixel(int32_t value)](../chartframe/setheightpixel/) | Gets or sets the height of frame in units of Pixel. |
+| [SetHeightRatioToChart(double value)](./setheightratiotochart/) | Gets or sets the vertical offset from its lower right corner row, in units of ratio of the chart area. |
 | [SetIsAutomaticSize(bool value)](../chartframe/setisautomaticsize/) | Indicates whether the chart frame is automatic sized. |
 | [SetIsInnerMode(bool value)](../chartframe/setisinnermode/) | Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. |
 | [SetPositionAuto()](../chartframe/setpositionauto/) | Set position of the frame to automatic. |
 | [SetShadow(bool value)](../chartframe/setshadow/) | True if the frame has a shadow. |
-| [SetWidth(int32_t value)](./setwidth/) | Gets or sets the horizontal offset from its lower right corner column. |
-| [SetX(int32_t value)](./setx/) | Gets or gets the horizontal offset from its upper left corner column. |
-| [SetY(int32_t value)](./sety/) | Gets or gets the vertical offset from its upper left corner row. |
+| [SetWidth(int32_t value)](./setwidth/) |  **(Deprecated)** Gets or sets the horizontal offset from its lower right corner column, in units of 1/4000 of the chart area. |
+| [SetWidthPixel(int32_t value)](../chartframe/setwidthpixel/) | Gets or sets the width of frame in units of Pixel. |
+| [SetWidthRatioToChart(double value)](./setwidthratiotochart/) | Gets or sets the horizontal offset from its lower right corner column, in units of ratio of the chart area. |
+| [SetX(int32_t value)](./setx/) |  **(Deprecated)** Gets or gets the horizontal offset from its upper left corner column, in units of 1/4000 of the chart area. |
+| [SetXPixel(int32_t value)](../chartframe/setxpixel/) | Gets or sets the x coordinate of the upper left corner in units of Pixel. |
+| [SetXRatioToChart(double value)](./setxratiotochart/) | Gets or gets the horizontal offset from its upper left corner column, in units of ratio of the chart area. |
+| [SetY(int32_t value)](./sety/) |  **(Deprecated)** Gets or gets the vertical offset from its upper left corner row, in units of 1/4000 of the chart area. |
+| [SetYPixel(int32_t value)](../chartframe/setypixel/) | Gets or sets the y coordinate of the upper left corner in units of Pixel. |
+| [SetYRatioToChart(double value)](./setyratiotochart/) | Gets or gets the vertical offset from its upper left corner row, in units of ratio of the chart area. |
 | [~ChartArea()](./~chartarea/) | Destructor. |
 | [~ChartFrame()](../chartframe/~chartframe/) | Destructor. |
 ## Fields
