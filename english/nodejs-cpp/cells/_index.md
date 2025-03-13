@@ -220,6 +220,8 @@ cells.merge(5, 4, 2, 2);
 | [getDependentsInCalculation(number, number, boolean)](#getDependentsInCalculation-number-number-boolean-)| Gets all cells whose calculated result depends on specific cell. |
 | [getCellsWithPlaceInCellPicture()](#getCellsWithPlaceInCellPicture--)| Gets all cells that contain embedded picture. |
 | [getCellStyle(number, number)](#getCellStyle-number-number-)| Get the style of given cell. |
+| [getCellDisplayStyle(number, number)](#getCellDisplayStyle-number-number-)| Get the display style of given cell. |
+| [getCellDisplayStyle(number, number, BorderType)](#getCellDisplayStyle-number-number-bordertype-)| Get the display style of given cell. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -3036,6 +3038,55 @@ getCellStyle(row: number, column: number) : Style;
 **Returns**
 
 the style of given cell.
+
+**Remarks**
+
+The returned style is only the one set for the cell or inherited from the row/column of the cell, does not include the applied properties by other settings such as conditional formattings.
+
+### getCellDisplayStyle(number, number) {#getCellDisplayStyle-number-number-}
+
+Get the display style of given cell.
+
+```javascript
+getCellDisplayStyle(row: number, column: number) : Style;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| row | number | row index of given cell |
+| column | number | column of given cell |
+
+**Returns**
+
+the display style of given cell.
+
+**Remarks**
+
+Same with [Cell.GetDisplayStyle()](../cell.getdisplaystyle()/), and same with using [BorderType.SideBorders](../bordertype.sideborders/) for [GetCellDisplayStyle(int, int, BorderType)](../getcelldisplaystyle(int, int, bordertype)/).
+
+### getCellDisplayStyle(number, number, BorderType) {#getCellDisplayStyle-number-number-bordertype-}
+
+Get the display style of given cell.
+
+```javascript
+getCellDisplayStyle(row: number, column: number, adjacentBorders: BorderType) : Style;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| row | number | row index of given cell |
+| column | number | column of given cell |
+| adjacentBorders | [BorderType](../bordertype/) | Indicates which borders need to be checked and adjusted according to the borders of adjacent cells.         /// Please see the description for the same parameter of         /// [Cell.GetDisplayStyle(BorderType)](../cell.getdisplaystyle(bordertype)/). |
+
+**Returns**
+
+the display style of given cell.
+
+**Remarks**
+
+If the cell is also affected by other settings such as conditional formatting, list objects, etc., then the display style may be different from [GetCellStyle(int, int)](../getcellstyle(int, int)/). And because those settings also may be applied to empty(non-existing) cells, using this method can avoid the instantiation of those empty cells so the performance will be better than getting the Cell instance from Cells and then calling [Cell.GetDisplayStyle(BorderType)](../cell.getdisplaystyle(bordertype)/).
 
 ### isNull() {#isNull--}
 

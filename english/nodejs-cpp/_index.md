@@ -163,6 +163,7 @@ is_root: true
 | [FolderFontSource](./folderfontsource) | Represents the folder that contains TrueType font files. |
 | [Font](./font) | Encapsulates the font object used in a spreadsheet. |
 | [FontConfigs](./fontconfigs) | Specifies font settings |
+| [FontFileDataInfo](./fontfiledatainfo) | Represents data infomation of font file data. |
 | [FontSetting](./fontsetting) | Represents a range of characters within the cell text. |
 | [FontSettingCollection](./fontsettingcollection) | Represents the list of [FontSetting](../nodejs-cpp/fontsetting/). |
 | [FontSourceBase](./fontsourcebase) | This is an abstract base class for the classes that allow the user to specify various font sources |
@@ -591,6 +592,7 @@ is_root: true
 | [FilterCategory](./filtercategory) | Represents the category of the filter. |
 | [FilterOperatorType](./filteroperatortype) | Custom Filter operator type. |
 | [FilterType](./filtertype) | The filter type. |
+| [FontFileFormatType](./fontfileformattype) | Represents font format type. |
 | [FontSchemeType](./fontschemetype) | Represents the scheme type of the font. |
 | [FontSourceType](./fontsourcetype) | Specifies the type of a font source. |
 | [FontUnderlineType](./fontunderlinetype) | Enumerates the font underline types. |
@@ -634,6 +636,7 @@ is_root: true
 | [MapChartLabelLayout](./mapchartlabellayout) | Represents the layout of map chart's labels. |
 | [MapChartProjectionType](./mapchartprojectiontype) | Represents projection type of the map chart. |
 | [MapChartRegionType](./mapchartregiontype) | Represents the region type of the map chart. |
+| [MarkdownTableHeaderType](./markdowntableheadertype) | Represents the header type of the table in the markdown file. |
 | [MemorySetting](./memorysetting) | Memory usage options. |
 | [MergedCellsShrinkType](./mergedcellsshrinktype) | Represents the strategy to shrink merged cells for operations such as deleting blank rows/column. |
 | [MergeEmptyTdType](./mergeemptytdtype) | Represents the merge type for empty TD element when exporting file to html. |

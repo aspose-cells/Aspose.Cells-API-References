@@ -107,8 +107,9 @@ cell.setStyle(style);
 | [getStringValue(CellValueFormatStrategy)](#getStringValue-cellvalueformatstrategy-)| Gets the string value by specific formatted strategy. |
 | [getWidthOfValue()](#getWidthOfValue--)| Gets the width of the value in unit of pixels. |
 | [getHeightOfValue()](#getHeightOfValue--)| Gets the height of the value in unit of pixels. |
-| [getDisplayStyle()](#getDisplayStyle--)| Gets the display style of the cell. If this cell is also affected by other settings such as conditional formatting, list objects, etc., then the display style may be different from cell.GetStyle(). |
-| [getDisplayStyle(boolean)](#getDisplayStyle-boolean-)| Gets the display style of the cell. If the cell is conditional formatted, the display style is not same as the cell.GetStyle(). |
+| [getDisplayStyle()](#getDisplayStyle--)| Gets the display style of this cell. |
+| [getDisplayStyle(boolean)](#getDisplayStyle-boolean-)| Gets the display style of this cell. |
+| [getDisplayStyle(BorderType)](#getDisplayStyle-bordertype-)| Gets the display style of this cell. |
 | [getFormatConditions()](#getFormatConditions--)| Gets format conditions which applies to this cell. |
 | [getStyle()](#getStyle--)| Gets the cell style. |
 | [getStyle(boolean)](#getStyle-boolean-)| If checkBorders is true, check whether other cells' borders will effect the style of this cell. |
@@ -781,7 +782,7 @@ getHeightOfValue() : number;
 
 ### getDisplayStyle() {#getDisplayStyle--}
 
-Gets the display style of the cell. If this cell is also affected by other settings such as conditional formatting, list objects, etc., then the display style may be different from cell.GetStyle().
+Gets the display style of this cell.
 
 ```javascript
 getDisplayStyle() : Style;
@@ -790,11 +791,15 @@ getDisplayStyle() : Style;
 
 **Returns**
 
-[Style](../style/)
+display style of this cell
+
+**Remarks**
+
+Same with using [BorderType.SideBorders](../bordertype.sideborders/) for [GetDisplayStyle(BorderType)](../getdisplaystyle(bordertype)/). That is, this method will check and adjust top/bottom/left/right borders of this cell according to the style([GetStyle()](../getstyle()/)) of its adjacent cells, but do not check the merged cells, and do not check the display style of adjacent cells.
 
 ### getDisplayStyle(boolean) {#getDisplayStyle-boolean-}
 
-Gets the display style of the cell. If the cell is conditional formatted, the display style is not same as the cell.GetStyle().
+Gets the display style of this cell.
 
 ```javascript
 getDisplayStyle(includeMergedBorders: boolean) : Style;
@@ -803,11 +808,36 @@ getDisplayStyle(includeMergedBorders: boolean) : Style;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| includeMergedBorders | boolean | Indicates whether checking borders of the merged cells. |
+| includeMergedBorders | boolean | Indicates whether checking borders of merged cells. |
 
 **Returns**
 
-[Style](../style/)
+display style of this cell
+
+**Remarks**
+
+If the specified flag is false, then it is same with [GetDisplayStyle()](../getdisplaystyle()/). Otherwise it is same with using [BorderType.SideBorders](../bordertype.sideborders/)|[BorderType.DynamicStyleBorders](../bordertype.dynamicstyleborders/) for [GetDisplayStyle(BorderType)](../getdisplaystyle(bordertype)/).
+
+### getDisplayStyle(BorderType) {#getDisplayStyle-bordertype-}
+
+Gets the display style of this cell.
+
+```javascript
+getDisplayStyle(adjacentBorders: BorderType) : Style;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| adjacentBorders | [BorderType](../bordertype/) | Indicates which borders need to be checked and adjusted         /// according to the borders of adjacent cells. |
+
+**Returns**
+
+display style of this cell
+
+**Remarks**
+
+If this cell is also affected by other settings such as conditional formatting, list objects, etc., then the display style may be different from [GetStyle()](../getstyle()/). <br>For flags of adjusting borders according to adjacent cells, [BorderType.TopBorder](../bordertype.topborder/)/[BorderType.BottomBorder](../bordertype.bottomborder/) [BorderType.LeftBorder](../bordertype.leftborder/)/[BorderType.RightBorder](../bordertype.rightborder/) denote whether check and combine the bottom/top/right/left borders of the left/right/top/bottom cells adjacent to this one.</br> <br>For performance and compatibility consideration, some enums are used to denote some special operations:</br> <br>[BorderType.Horizontal](../bordertype.horizontal/)/[BorderType.Vertical](../bordertype.vertical/) denote whether check and combine the bottom/right border of merged cells to this one.</br> <br>[BorderType.Diagonal](../bordertype.diagonal/)(that is, both [StyleModifyFlag.DiagonalUpBorder](../stylemodifyflag.diagonalupborder/) and [StyleModifyFlag.DiagonalDownBorder](../stylemodifyflag.diagonaldownborder/) have been set) denotes check and combine borders from the display style of adjacent cells.</br> <br>Please note, checking borders/styles of adjacent cells, especially the display styles, is time-consumed process. If there is no need to get the borders for the returned style, using [BorderType.None](../bordertype.none/) to disable the process of adjacent cells will give better performance. When getting borders of adjacent cells from styles defined on those cells only(without setting [BorderType.Diagonal](../bordertype.diagonal/)), the performance also may be better because checking the display style of one cell is time-consumed too.</br
 
 ### getFormatConditions() {#getFormatConditions--}
 

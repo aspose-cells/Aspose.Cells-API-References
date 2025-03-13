@@ -728,7 +728,7 @@ getCustomUnit() : number;
 
 **Remarks**
 
-NOTE: This property is now obsolete. Instead, please use Axis.CoustomDisplayUnit property. This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
+NOTE: This property is now obsolete. Instead, please use Axis.CustomDisplayUnit property. This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 ### setCustomUnit(number) {#setCustomUnit-number-}
 
@@ -745,7 +745,7 @@ setCustomUnit(value: number) : void;
 
 **Remarks**
 
-NOTE: This property is now obsolete. Instead, please use Axis.CoustomDisplayUnit property. This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
+NOTE: This property is now obsolete. Instead, please use Axis.CustomDisplayUnit property. This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 ### getCustomDisplayUnit() {#getCustomDisplayUnit--}
 

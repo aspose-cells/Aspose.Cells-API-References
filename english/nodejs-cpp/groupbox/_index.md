@@ -303,6 +303,7 @@ excelbook.save("output/DrawingGroupBox.xls");
 | [removeActiveXControl()](#removeActiveXControl--)| Remove activeX control. |
 | [isSameSetting(object)](#isSameSetting-object-)| Returns whether the shape is same. |
 | [getActualBox()](#getActualBox--)| Get the actual position and size of the shape (after applying rotation, flip, etc.) |
+| [fitToTextSize()](#fitToTextSize--)| Recalculate a text area suitable for displaying all text content. |
 
 
 ### constructor(Shape) {#constructor-shape-}
@@ -2767,5 +2768,14 @@ Return the position and size in the order of x, y, w, h
 **Remarks**
 
 Note:The interface is not fully functional, especially the location information is not correct.It is recommended not to use this interface until the function is complete.
+
+### fitToTextSize() {#fitToTextSize--}
+
+Recalculate a text area suitable for displaying all text content.
+
+```javascript
+fitToTextSize() : void;
+```
+
 
 

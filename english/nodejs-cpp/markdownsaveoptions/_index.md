@@ -34,6 +34,10 @@ class MarkdownSaveOptions extends SaveOptions;
 | [setLightCellsDataProvider(LightCellsDataProvider)](#setLightCellsDataProvider-lightcellsdataprovider-)| The Data provider to provide cells data for saving workbook in light mode. |
 | [getLineSeparator()](#getLineSeparator--)| Gets and sets the line separator. |
 | [setLineSeparator(string)](#setLineSeparator-string-)| Gets and sets the line separator. |
+| [getTableHeaderType()](#getTableHeaderType--)| Gets and sets how set the header of the table. |
+| [setTableHeaderType(MarkdownTableHeaderType)](#setTableHeaderType-markdowntableheadertype-)| Gets and sets how set the header of the table. |
+| [getSheetSet()](#getSheetSet--)| Gets or sets the sheets to render. Default is all visible sheets in the workbook: [Aspose.Cells.Rendering.SheetSet.Active](../aspose.cells.rendering.sheetset.active/). |
+| [setSheetSet(SheetSet)](#setSheetSet-sheetset-)| Gets or sets the sheets to render. Default is all visible sheets in the workbook: [Aspose.Cells.Rendering.SheetSet.Active](../aspose.cells.rendering.sheetset.active/). |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getSaveFormat()](#getSaveFormat--)| Gets the save file format. |
 | [getClearData()](#getClearData--)| Make the workbook empty after saving the file. |
@@ -183,6 +187,66 @@ setLineSeparator(value: string) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | string | The value to set. |
+
+### getTableHeaderType() {#getTableHeaderType--}
+
+Gets and sets how set the header of the table.
+
+```javascript
+getTableHeaderType() : MarkdownTableHeaderType;
+```
+
+
+**Returns**
+
+[MarkdownTableHeaderType](../markdowntableheadertype/)
+
+### setTableHeaderType(MarkdownTableHeaderType) {#setTableHeaderType-markdowntableheadertype-}
+
+Gets and sets how set the header of the table.
+
+```javascript
+setTableHeaderType(value: MarkdownTableHeaderType) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [MarkdownTableHeaderType](../markdowntableheadertype/) | The value to set. |
+
+### getSheetSet() {#getSheetSet--}
+
+Gets or sets the sheets to render. Default is all visible sheets in the workbook: [Aspose.Cells.Rendering.SheetSet.Active](../aspose.cells.rendering.sheetset.active/).
+
+```javascript
+getSheetSet() : SheetSet;
+```
+
+
+**Returns**
+
+[SheetSet](../sheetset/)
+
+**Remarks**
+
+The set is ignored when it is used in [SheetRender](../sheetrender/)
+
+### setSheetSet(SheetSet) {#setSheetSet-sheetset-}
+
+Gets or sets the sheets to render. Default is all visible sheets in the workbook: [Aspose.Cells.Rendering.SheetSet.Active](../aspose.cells.rendering.sheetset.active/).
+
+```javascript
+setSheetSet(value: SheetSet) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [SheetSet](../sheetset/) | The value to set. |
+
+**Remarks**
+
+The set is ignored when it is used in [SheetRender](../sheetrender/)
 
 ### isNull() {#isNull--}
 

@@ -119,6 +119,10 @@ getLookAtType() : LookAtType;
 
 [LookAtType](../lookattype/)
 
+**Remarks**
+
+When [RegexKey](../regexkey/) is true and user has specified the exact rule for the regex, for performance consideration this property should be set as [LookAtType.EntireContent](../lookattype.entirecontent/). Otherwise we will refactor the search key to ensure it can be matched according to the specific type. For example, when the type is [LookAtType.Contains](../lookattype.contains/)(this is the default value for this property), we will add wildcards at the beginning and end of the search key automatically. In this case, the regular expressions will become more complex and the performance will also decrease.
+
 ### setLookAtType(LookAtType) {#setLookAtType-lookattype-}
 
 Look at type.
@@ -131,6 +135,10 @@ setLookAtType(value: LookAtType) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [LookAtType](../lookattype/) | The value to set. |
+
+**Remarks**
+
+When [RegexKey](../regexkey/) is true and user has specified the exact rule for the regex, for performance consideration this property should be set as [LookAtType.EntireContent](../lookattype.entirecontent/). Otherwise we will refactor the search key to ensure it can be matched according to the specific type. For example, when the type is [LookAtType.Contains](../lookattype.contains/)(this is the default value for this property), we will add wildcards at the beginning and end of the search key automatically. In this case, the regular expressions will become more complex and the performance will also decrease.
 
 ### isRangeSet() {#isRangeSet--}
 
@@ -220,6 +228,10 @@ getRegexKey() : boolean;
 ```
 
 
+**Remarks**
+
+Even though the search key has been specified as regex, it may be refactored according to specified [LookAtType](../lookattype/). For example, when the type is [LookAtType.Contains](../lookattype.contains/)(this is the default value for this options), wildcards will be added at the beginning and end of the search key automatically to ensure the match will be checked as "contains". In this case, the regular expressions will become more complex and the performance will also decrease. So, for performance consideration, if user has specified the exact rule for the regex, then there is no need to use [LookAtType](../lookattype/) as additional constraint and user may set it as [LookAtType.EntireContent](../lookattype.entirecontent/) to get better performance.
+
 ### setRegexKey(boolean) {#setRegexKey-boolean-}
 
 Indicates whether the searched key is regex. If true the searched key will be taken as regex and parsed. Otherwise the key will be parsed according to the rules in ms excel.
@@ -232,6 +244,10 @@ setRegexKey(value: boolean) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The value to set. |
+
+**Remarks**
+
+Even though the search key has been specified as regex, it may be refactored according to specified [LookAtType](../lookattype/). For example, when the type is [LookAtType.Contains](../lookattype.contains/)(this is the default value for this options), wildcards will be added at the beginning and end of the search key automatically to ensure the match will be checked as "contains". In this case, the regular expressions will become more complex and the performance will also decrease. So, for performance consideration, if user has specified the exact rule for the regex, then there is no need to use [LookAtType](../lookattype/) as additional constraint and user may set it as [LookAtType.EntireContent](../lookattype.entirecontent/) to get better performance.
 
 ### getValueTypeSensitive() {#getValueTypeSensitive--}
 

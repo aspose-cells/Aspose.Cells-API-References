@@ -22,6 +22,7 @@ class VbaModule;
 | [getName()](#getName--)| Gets and sets the name of Module. |
 | [setName(string)](#setName-string-)| Gets and sets the name of Module. |
 | [getType()](#getType--)| Gets the type of module. |
+| [getBinaryCodes()](#getBinaryCodes--)| Gets and sets the binary codes of module. |
 | [getCodes()](#getCodes--)| Gets and sets the codes of module. |
 | [setCodes(string)](#setCodes-string-)| Gets and sets the codes of module. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
@@ -61,6 +62,19 @@ getType() : VbaModuleType;
 **Returns**
 
 [VbaModuleType](../vbamoduletype/)
+
+### getBinaryCodes() {#getBinaryCodes--}
+
+Gets and sets the binary codes of module.
+
+```javascript
+getBinaryCodes() : number[];
+```
+
+
+**Returns**
+
+number[]
 
 ### getCodes() {#getCodes--}
 
