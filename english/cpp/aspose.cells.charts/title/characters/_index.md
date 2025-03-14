@@ -4,7 +4,7 @@ linktitle: Characters
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::Title::Characters method. Gets rich text formatting of this Title in C++.'
 type: docs
-weight: 1600
+weight: 2000
 url: /cpp/aspose.cells.charts/title/characters/
 ---
 ## Title::Characters() method

@@ -268,6 +268,8 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [FolderFontSource](../com.aspose.cells/folderfontsource) | Represents the folder that contains TrueType font files. |
 | [Font](../com.aspose.cells/font) | Encapsulates the font object used in a spreadsheet. |
 | [FontConfigs](../com.aspose.cells/fontconfigs) | Specifies font settings |
+| [FontFileDataInfo](../com.aspose.cells/fontfiledatainfo) | Represents data infomation of font file data. |
+| [FontFileFormatType](../com.aspose.cells/fontfileformattype) | Represents font format type. |
 | [FontSchemeType](../com.aspose.cells/fontschemetype) | Represents the scheme type of the font. |
 | [FontSetting](../com.aspose.cells/fontsetting) | Represents a range of characters within the cell text. |
 | [FontSettingCollection](../com.aspose.cells/fontsettingcollection) | Represents the list of [FontSetting](../com.aspose.cells/fontsetting). |
@@ -374,6 +376,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [MapChartProjectionType](../com.aspose.cells/mapchartprojectiontype) | Represents projection type of the map chart. |
 | [MapChartRegionType](../com.aspose.cells/mapchartregiontype) | Represents the region type of the map chart. |
 | [MarkdownSaveOptions](../com.aspose.cells/markdownsaveoptions) | Represents the save options for markdown. |
+| [MarkdownTableHeaderType](../com.aspose.cells/markdowntableheadertype) | Represents the header type of the table in the markdown file. |
 | [Marker](../com.aspose.cells/marker) | Represents the marker in a line chart, scatter chart, or radar chart. |
 | [MathematicalEquationNode](../com.aspose.cells/mathematicalequationnode) | This class specifies an equation or mathematical expression. |
 | [MatrixEquationNode](../com.aspose.cells/matrixequationnode) | This class specifies the Matrix equation, consisting of one or more elements laid out in one or more rows and one or more columns. |

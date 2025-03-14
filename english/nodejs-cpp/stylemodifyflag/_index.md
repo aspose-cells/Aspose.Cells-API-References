@@ -8,6 +8,8 @@ url: /nodejs-cpp/stylemodifyflag/
 
 ## StyleModifyFlag enumeration
 The style modified flags.
+### Remarks
+Combinations of multiple properties are defined for user's convenience. When checking whether they are modified for one style, the returned value denotes whether one or more properties in the combination have been modified.
 ### Values
 | Name | Value | Description |
 | --- | --- | --- |
@@ -17,9 +19,11 @@ The style modified flags.
 | BottomBorder | `2048` | Indicates whether bottom border has been modified for the style. |
 | DiagonalDownBorder | `4096` | Indicates whether diagonal-down border has been modified for the style. |
 | DiagonalUpBorder | `8192` | Indicates whether diagonal-up border has been modified for the style. |
-| Diagonal | `12288` | Indicates whether one or more diagonal borders([DiagonalDownBorder](../diagonaldownborder/), [DiagonalUpBorder](../diagonalupborder/)) have been modified for the style. |
 | HorizontalBorder | `32` | Indicates whether horizontal border has been modified for the style. Only for dynamic style, such as conditional formatting. |
 | VerticalBorder | `64` | Indicates whether vertical border has been modified for the style. Only for dynamic style, such as conditional formatting. |
+| SideBorders | `3840` | Indicates the four side borders: [LeftBorder](../leftborder/), [RightBorder](../rightborder/), [TopBorder](../topborder/) and [BottomBorder](../bottomborder/). |
+| Diagonal | `12288` | Indicates diagonal borders: [DiagonalDownBorder](../diagonaldownborder/) and [DiagonalUpBorder](../diagonalupborder/). |
+| DynamicStyleBorders | `96` | Indicates borders of dynamic style: [HorizontalBorder](../horizontalborder/) and [VerticalBorder](../verticalborder/). |
 | Borders | `16224` | Indicates whether one or more borders([LeftBorder](../leftborder/), [RightBorder](../rightborder/), [TopBorder](../topborder/), [BottomBorder](../bottomborder/), [Diagonal](../diagonal/), [HorizontalBorder](../horizontalborder/), [VerticalBorder](../verticalborder/)) have been modified for the style. |
 | NumberFormat | `16384` | Indicates whether numberformat has been modified. |
 | HorizontalAlignment | `32768` | Indicates whether horizontal alignment has been modified. |
@@ -58,5 +62,6 @@ The style modified flags.
 | FontCap | `18` | unused. |
 | FontVerticalText | `19` |  |
 | Font | `31` | Indicates whether one or more properties have been modified for the font of the style. |
-| All | `234881023` | Indicates whether one or more properties have been modified for the style. |
+| All | `234881023` | All properties that can be modified for the style. |
+| None | `0` | No property has been specified. |
 

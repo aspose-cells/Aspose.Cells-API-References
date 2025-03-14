@@ -96,8 +96,8 @@ public class Cells : IDisposable, IEnumerable
 | [DeleteRows](../../aspose.cells/cells/deleterows/#deleterows_2)(int, int, bool) | Deletes multiple rows in the worksheet. |
 | [DeleteRows](../../aspose.cells/cells/deleterows/#deleterows_1)(int, int, DeleteOptions) | Deletes multiple rows in the worksheet. |
 | [Dispose](../../aspose.cells/cells/dispose/)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
-| [EndCellInColumn](../../aspose.cells/cells/endcellincolumn/#endcellincolumn)(short) | Gets the last cell in this column. |
-| [EndCellInColumn](../../aspose.cells/cells/endcellincolumn/#endcellincolumn_1)(int, int, short, short) | Gets the last cell with maximum column index in this range. |
+| [EndCellInColumn](../../aspose.cells/cells/endcellincolumn/#endcellincolumn)(int) | Gets the last cell in this column. |
+| [EndCellInColumn](../../aspose.cells/cells/endcellincolumn/#endcellincolumn_1)(int, int, int, int) | Gets the last cell with maximum column index in this range. |
 | [EndCellInRow](../../aspose.cells/cells/endcellinrow/#endcellinrow)(int) | Gets the last cell in this row. |
 | [EndCellInRow](../../aspose.cells/cells/endcellinrow/#endcellinrow_1)(int, int, int, int) | Gets the last cell with maximum row index in this range. |
 | [ExportArray](../../aspose.cells/cells/exportarray/)(int, int, int, int) | Exports data in the `Cells` collection to a two-dimension array object. |
@@ -111,6 +111,8 @@ public class Cells : IDisposable, IEnumerable
 | [Find](../../aspose.cells/cells/find/#find)(object, Cell) | Finds the cell containing with the input object. |
 | [Find](../../aspose.cells/cells/find/#find_1)(object, Cell, FindOptions) | Finds the cell containing with the input object. |
 | [GetCell](../../aspose.cells/cells/getcell/)(int, int) | (**Obsolete.**) Gets the [`Cell`](../cell/) element or null at the specified cell row index and column index. |
+| [GetCellDisplayStyle](../../aspose.cells/cells/getcelldisplaystyle/#getcelldisplaystyle)(int, int) | Get the display style of given cell. |
+| [GetCellDisplayStyle](../../aspose.cells/cells/getcelldisplaystyle/#getcelldisplaystyle_1)(int, int, BorderType) | Get the display style of given cell. |
 | [GetCellStyle](../../aspose.cells/cells/getcellstyle/)(int, int) | Get the style of given cell. |
 | [GetCellsWithPlaceInCellPicture](../../aspose.cells/cells/getcellswithplaceincellpicture/)() | Gets all cells that contain embedded picture. |
 | [GetColumnOriginalWidthPoint](../../aspose.cells/cells/getcolumnoriginalwidthpoint/)(int) | (**Obsolete.**) Gets original column's height in unit of point if the column is hidden |

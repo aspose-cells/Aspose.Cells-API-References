@@ -4,7 +4,7 @@ linktitle: LookInType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::LookInType enum. Represents look in type in C++.'
 type: docs
-weight: 22500
+weight: 23400
 url: /cpp/aspose.cells/lookintype/
 ---
 ## LookInType enum
@@ -20,12 +20,13 @@ enum class LookInType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Formulas | 0 | <br>If the cell contains a formula, find object from formula, else find it from the value. |
-| Values | 1 | <br>Only find object from the formatted values. |
-| ValuesExcludeFormulaCell | 2 | <br>Only find object from the values of cells which do not contains formula. |
-| Comments | 3 | <br>Only find object from the comments. |
-| OnlyFormulas | 4 | <br>Only find object from formulas. |
-| OriginalValues | 5 | <br>Only find object from the original values. |
+| Formulas | 0 | <br>Finds the searched object from formula(Cell.Formula) if the cell is formula, otherwise finds from cell's original value(same with [OriginalValues](./)). |
+| Values | 1 | <br>Finds object from cell's original value(Cell.Value) and formatted value(Cell.StringValue). |
+| ValuesExcludeFormulaCell | 2 | <br>Ignores cells that are formula. For those cells that are not formula, it is same with [Values](../autofilltype/). |
+| Comments | 3 | <br>Finds object from cell's comment only. Ignores those cells that have no comment. |
+| OnlyFormulas | 4 | <br>Ignores cells that are not formula. For those cells that are formula, finds the searched object from formula(Cell.Formula). |
+| OriginalValues | 5 | <br>Find object from cell's original value only. |
+| FormattedValues | 6 | <br>Find object from cell's formatted value(Cell.StringValue) only. |
 
 ## See Also
 

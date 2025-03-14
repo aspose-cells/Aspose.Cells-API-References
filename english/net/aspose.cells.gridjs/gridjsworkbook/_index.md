@@ -66,7 +66,7 @@ public class GridJsWorkbook
 | [SetInterruptMonitorForSave](../../aspose.cells.gridjs/gridjsworkbook/setinterruptmonitorforsave/)(GridInterruptMonitor) | Sets InterruptMonitor for save operation. |
 | [UpdateCell](../../aspose.cells.gridjs/gridjsworkbook/updatecell/)(string, string) | Applies the update operation. |
 | static [GetGridLoadFormat](../../aspose.cells.gridjs/gridjsworkbook/getgridloadformat/)(string) | Gets the load format by file extension |
-| static [GetImageStream](../../aspose.cells.gridjs/gridjsworkbook/getimagestream/)(string, string) | Get Stream of image from memory data. |
+| static [GetImageStream](../../aspose.cells.gridjs/gridjsworkbook/getimagestream/)(string, string) | Get Stream of image. |
 | static [GetImageUrl](../../aspose.cells.gridjs/gridjsworkbook/getimageurl/)(string, string, string) | Gets the image URL. |
 | static [GetUidForFile](../../aspose.cells.gridjs/gridjsworkbook/getuidforfile/)(string) | Generates a new unique id for the file cache using the given file name. |
 | static [SetImageUrlBase](../../aspose.cells.gridjs/gridjsworkbook/setimageurlbase/)(string) | Set the base image get action URL from controller . |

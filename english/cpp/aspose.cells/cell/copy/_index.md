@@ -4,7 +4,7 @@ linktitle: Copy
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cell::Copy method. Copies data from a source cell in C++.'
 type: docs
-weight: 5300
+weight: 5400
 url: /cpp/aspose.cells/cell/copy/
 ---
 ## Cell::Copy method

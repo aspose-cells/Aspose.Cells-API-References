@@ -4,7 +4,7 @@ linktitle: LoadFilter
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::LoadFilter class. Represents the filter that provides options for loading data when loading workbook from template in C++.'
 type: docs
-weight: 9800
+weight: 10000
 url: /cpp/aspose.cells/loadfilter/
 ---
 ## LoadFilter class

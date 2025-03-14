@@ -4,7 +4,7 @@ linktitle: StyleModifyFlag
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::StyleModifyFlag enum. The style modified flags in C++.'
 type: docs
-weight: 25400
+weight: 26500
 url: /cpp/aspose.cells/stylemodifyflag/
 ---
 ## StyleModifyFlag enum
@@ -26,10 +26,12 @@ enum class StyleModifyFlag
 | BottomBorder | 2048 | <br>Indicates whether bottom border has been modified for the style. |
 | DiagonalDownBorder | 4096 | <br>Indicates whether diagonal-down border has been modified for the style. |
 | DiagonalUpBorder | 8192 | <br>Indicates whether diagonal-up border has been modified for the style. |
-| Diagonal | 12288 | <br>Indicates whether one or more diagonal borders([DiagonalDownBorder](./), [DiagonalUpBorder](./)) have been modified for the style. |
 | HorizontalBorder | 32 | <br>Indicates whether horizontal border has been modified for the style. Only for dynamic style, such as conditional formatting. |
 | VerticalBorder | 64 | <br>Indicates whether vertical border has been modified for the style. Only for dynamic style, such as conditional formatting. |
-| Borders | 16224 | <br>Indicates whether one or more borders([LeftBorder](../bordertype/), [RightBorder](../bordertype/), [TopBorder](../bordertype/), [BottomBorder](../bordertype/), [Diagonal](./), [HorizontalBorder](./), [VerticalBorder](./)) have been modified for the style. |
+| SideBorders | 3840 | <br>Indicates the four side borders: [LeftBorder](../bordertype/), [RightBorder](../bordertype/), [TopBorder](../bordertype/) and [BottomBorder](../bordertype/). |
+| Diagonal | 12288 | <br>Indicates diagonal borders: [DiagonalDownBorder](./) and [DiagonalUpBorder](./). |
+| DynamicStyleBorders | 96 | <br>Indicates borders of dynamic style: [HorizontalBorder](./) and [VerticalBorder](./). |
+| Borders | 16224 | <br>Indicates whether one or more borders([LeftBorder](../bordertype/), [RightBorder](../bordertype/), [TopBorder](../bordertype/), [BottomBorder](../bordertype/), [Diagonal](../bordertype/), [HorizontalBorder](./), [VerticalBorder](./)) have been modified for the style. |
 | NumberFormat | 16384 | <br>Indicates whether numberformat has been modified. |
 | HorizontalAlignment | 32768 | <br>Indicates whether horizontal alignment has been modified. |
 | VerticalAlignment | 65536 | <br>Indicates whether vertical alignment has been modified. |
@@ -67,8 +69,13 @@ enum class StyleModifyFlag
 | FontCap | 18 | <br>unused. |
 | FontVerticalText | 19 | <br> |
 | Font | 31 | <br>Indicates whether one or more properties have been modified for the font of the style. |
-| All | 234881023 | <br>Indicates whether one or more properties have been modified for the style. |
+| All | 234881023 | <br>All properties that can be modified for the style. |
+| None | 0 | <br>No property has been specified. |
 
+## Remarks
+
+
+Combinations of multiple properties are defined for user's convenience. When checking whether they are modified for one style, the returned value denotes whether one or more properties in the combination have been modified. 
 ## See Also
 
 * Namespace [Aspose::Cells](../)

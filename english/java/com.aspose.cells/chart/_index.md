@@ -1464,7 +1464,7 @@ Creates the chart image and saves it to a file in the Jpeg format.
 
 **Remarks**
 
-If the width or height is zero or the chart is not supported according to Supported Charts List, this method will do nothing.
+If the width or height is zero or the chart is not supported according to Supported Charts List, this method will do nothing. NOTE: This method is now obsolete. Instead, please use ToImage(string,ImageOrPrintOptions) method with specified quality. This method will be removed 12 months later since March 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |

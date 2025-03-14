@@ -28,6 +28,7 @@ class Dialog_Box : public Aspose::Cells::Drawing::Shape
 | [Dialog_Box(Dialog_Box_Impl* impl)](./dialog_box/) | Constructs from an implementation object. |
 | [Dialog_Box(const Dialog_Box\& src)](./dialog_box/) | Copy constructor. |
 | [Dialog_Box(const Shape\& src)](./dialog_box/) | Constructs from a parent object. |
+| [FitToTextSize()](../shape/fittotextsize/) | Recalculate a text area suitable for displaying all text content. |
 | [FormatCharacters(int32_t startIndex, int32_t length, const Aspose::Cells::Font\& font, const StyleFlag\& flag)](../shape/formatcharacters/) | Formats some characters with the font setting. |
 | [GetActiveXControl()](../shape/getactivexcontrol/) | Gets the ActiveX control. |
 | [GetActualBox()](../shape/getactualbox/) | Get the actual position and size of the shape (after applying rotation, flip, etc.) |

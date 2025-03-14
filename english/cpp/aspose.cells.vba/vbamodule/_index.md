@@ -20,6 +20,7 @@ class VbaModule
 
 | Method | Description |
 | --- | --- |
+| [GetBinaryCodes()](./getbinarycodes/) | Gets and sets the binary codes of module. |
 | [GetCodes()](./getcodes/) | Gets and sets the codes of module. |
 | [GetName()](./getname/) | Gets and sets the name of Module. |
 | [GetType()](./gettype/) | Gets the type of module. |

@@ -28,6 +28,7 @@ class ComboBox : public Aspose::Cells::Drawing::Shape
 | [ComboBox(ComboBox_Impl* impl)](./combobox/) | Constructs from an implementation object. |
 | [ComboBox(const ComboBox\& src)](./combobox/) | Copy constructor. |
 | [ComboBox(const Shape\& src)](./combobox/) | Constructs from a parent object. |
+| [FitToTextSize()](../shape/fittotextsize/) | Recalculate a text area suitable for displaying all text content. |
 | [FormatCharacters(int32_t startIndex, int32_t length, const Aspose::Cells::Font\& font, const StyleFlag\& flag)](../shape/formatcharacters/) | Formats some characters with the font setting. |
 | [GetActiveXControl()](../shape/getactivexcontrol/) | Gets the ActiveX control. |
 | [GetActualBox()](../shape/getactualbox/) | Get the actual position and size of the shape (after applying rotation, flip, etc.) |

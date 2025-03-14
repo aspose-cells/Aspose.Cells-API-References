@@ -4,7 +4,7 @@ linktitle: InsertText
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cell::InsertText method. Insert some characters to the cell. If the cell is rich formatted, this method could keep the original formatting in C++.'
 type: docs
-weight: 5700
+weight: 6000
 url: /cpp/aspose.cells/cell/inserttext/
 ---
 ## Cell::InsertText(int32_t, const U16String\&) method

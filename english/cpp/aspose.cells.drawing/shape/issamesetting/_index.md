@@ -4,7 +4,7 @@ linktitle: IsSameSetting
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::IsSameSetting method. Returns whether the shape is same in C++.'
 type: docs
-weight: 19200
+weight: 19300
 url: /cpp/aspose.cells.drawing/shape/issamesetting/
 ---
 ## Shape::IsSameSetting method

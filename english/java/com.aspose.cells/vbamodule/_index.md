@@ -35,6 +35,7 @@ Represents the module in VBA project.
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getBinaryCodes()](#getBinaryCodes--) | Gets the binary codes of module. |
 | [getClass()](#getClass--) |  |
 | [getCodes()](#getCodes--) | Gets the codes of module. |
 | [getName()](#getName--) | Gets the name of Module. |
@@ -63,6 +64,16 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### getBinaryCodes() {#getBinaryCodes--}
+```
+public byte[] getBinaryCodes()
+```
+
+
+Gets the binary codes of module.
+
+**Returns:**
+byte[]
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

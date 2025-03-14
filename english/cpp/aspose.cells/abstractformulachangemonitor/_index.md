@@ -21,6 +21,7 @@ class AbstractFormulaChangeMonitor
 | Method | Description |
 | --- | --- |
 | virtual [OnCellFormulaChanged(int32_t sheetIndex, int32_t rowIndex, int32_t columnIndex)](./oncellformulachanged/) | The event that will be triggered when the formula in a cell is changed. |
+| virtual [OnFormatConditionFormulaChanged(FormatCondition\& fc)](./onformatconditionformulachanged/) | The event that will be triggered when the formula of [FormatCondition](../formatcondition/) is changed. |
 ## Fields
 
 | Field | Description |
@@ -29,7 +30,7 @@ class AbstractFormulaChangeMonitor
 ## Remarks
 
 
-For example, while deleting/inserting range of cells, formulas of other cells may be changed because of the shift of references.
+For example, while deleting/inserting range of cells, formulas of other cells may be changed because of the shift of references. Please note, methods in the monitor may be invoked multiple times for one object which contains the formula. 
 
 ## Examples
 

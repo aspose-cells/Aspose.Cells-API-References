@@ -59,6 +59,7 @@ Encapsulates the object that represents a designer spreadsheet.
 | [notifyAll()](#notifyAll--) |  |
 | [process()](#process--) | Processes the smart markers and populates the data source values. |
 | [process(boolean isPreserved)](#process-boolean-) | Processes the smart markers and populates the data source values. |
+| [process(Range range, boolean isPreserved)](#process-com.aspose.cells.Range-boolean-) | Processes the smart markers and populates the data source values. |
 | [process(int sheetIndex, boolean isPreserved)](#process-int-boolean-) | Processes the smart markers and populates the data source values. |
 | [setCalculateFormula(boolean value)](#setCalculateFormula-boolean-) | Indicates whether formulas should be calculated. |
 | [setCallBack(ISmartMarkerCallBack value)](#setCallBack-com.aspose.cells.ISmartMarkerCallBack-) | Sets callback interface of processing smartmarker. |
@@ -264,6 +265,20 @@ Processes the smart markers and populates the data source values.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
+| isPreserved | boolean | True if the unrecognized smart marker is preserved. |
+
+### process(Range range, boolean isPreserved) {#process-com.aspose.cells.Range-boolean-}
+```
+public void process(Range range, boolean isPreserved)
+```
+
+
+Processes the smart markers and populates the data source values.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| range | [Range](../../com.aspose.cells/range) | The range to be processed |
 | isPreserved | boolean | True if the unrecognized smart marker is preserved. |
 
 ### process(int sheetIndex, boolean isPreserved) {#process-int-boolean-}

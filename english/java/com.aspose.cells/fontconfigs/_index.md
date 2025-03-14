@@ -25,6 +25,7 @@ Specifies font settings
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getDefaultFontName()](#getDefaultFontName--) | Gets the default font name. |
+| [getFontFileDataInfo(String fontName, boolean isBold, boolean isItalic, boolean isExactStyle)](#getFontFileDataInfo-java.lang.String-boolean-boolean-boolean-) | Get data infomation of font file data. |
 | [getFontSources()](#getFontSources--) | Gets a copy of the array that contains the list of sources |
 | [getFontSubstitutes(String originalFontName)](#getFontSubstitutes-java.lang.String-) | Returns array containing font substitute names to be used if original font is not presented. |
 | [hashCode()](#hashCode--) |  |
@@ -82,6 +83,24 @@ Gets the default font name.
 
 **Returns:**
 java.lang.String
+### getFontFileDataInfo(String fontName, boolean isBold, boolean isItalic, boolean isExactStyle) {#getFontFileDataInfo-java.lang.String-boolean-boolean-boolean-}
+```
+public static FontFileDataInfo getFontFileDataInfo(String fontName, boolean isBold, boolean isItalic, boolean isExactStyle)
+```
+
+
+Get data infomation of font file data.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fontName | java.lang.String | font name |
+| isBold | boolean | the font style is bold or not |
+| isItalic | boolean | the font style is italic or not |
+| isExactStyle | boolean | whether to match the given bold/italic style exactly |
+
+**Returns:**
+[FontFileDataInfo](../../com.aspose.cells/fontfiledatainfo) - Data infomation of font file data.
 ### getFontSources() {#getFontSources--}
 ```
 public static FontSourceBase[] getFontSources()

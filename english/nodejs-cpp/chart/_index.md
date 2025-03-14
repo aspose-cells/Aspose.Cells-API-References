@@ -1236,7 +1236,7 @@ toImage(imageFile: string, jpegQuality: number) : void;
 
 **Remarks**
 
-If the width or height is zero or the chart is not supported according to Supported Charts List, this method will do nothing.
+If the width or height is zero or the chart is not supported according to Supported Charts List, this method will do nothing. NOTE: This method is now obsolete. Instead, please use ToImage(string,ImageOrPrintOptions) method with specified quality. This method will be removed 12 months later since March 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 ### toImage(number) {#toImage-number-}
 
@@ -1417,7 +1417,7 @@ toImageAsync(imageFile: string, jpegQuality: number) : Promise<void>;
 
 **Remarks**
 
-If the width or height is zero or the chart is not supported according to Supported Charts List, this method will do nothing.
+If the width or height is zero or the chart is not supported according to Supported Charts List, this method will do nothing. NOTE: This method is now obsolete. Instead, please use ToImage(string,ImageOrPrintOptions) method with specified quality. This method will be removed 12 months later since March 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 ### toImageAsync(number) {#toImageAsync-number-}
 

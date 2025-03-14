@@ -119,8 +119,8 @@ class Chart
 | [ToImage(const char16_t* imageFile)](./toimage/) | Creates the chart image and saves it to a file. The extension of the file name determines the format of the image. |
 | [ToImage(const U16String\& imageFile, Aspose::Cells::Drawing::ImageType imageType)](./toimage/) | Creates the chart image and saves it to a file in the specified image type. |
 | [ToImage(const char16_t* imageFile, Aspose::Cells::Drawing::ImageType imageType)](./toimage/) | Creates the chart image and saves it to a file in the specified image type. |
-| [ToImage(const U16String\& imageFile, int64_t jpegQuality)](./toimage/) | Creates the chart image and saves it to a file in the Jpeg format. |
-| [ToImage(const char16_t* imageFile, int64_t jpegQuality)](./toimage/) | Creates the chart image and saves it to a file in the Jpeg format. |
+| [ToImage(const U16String\& imageFile, int64_t jpegQuality)](./toimage/) |  **(Deprecated)** Creates the chart image and saves it to a file in the Jpeg format. |
+| [ToImage(const char16_t* imageFile, int64_t jpegQuality)](./toimage/) |  **(Deprecated)** Creates the chart image and saves it to a file in the Jpeg format. |
 | [ToImage(int64_t jpegQuality)](./toimage/) | Creates the chart image and saves it to a stream in the Jpeg format. |
 | [ToImage(Aspose::Cells::Drawing::ImageType imageType)](./toimage/) | Creates the chart image and saves it to a stream in the specified format. |
 | [ToImage(const U16String\& imageFile, const ImageOrPrintOptions\& options)](./toimage/) | Creates the chart image and saves it to a file. The extension of the file name determines the format of the image. |

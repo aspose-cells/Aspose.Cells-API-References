@@ -13,6 +13,10 @@ Indicates whether the searched key is regex. If true the searched key will be ta
 public bool RegexKey { get; set; }
 ```
 
+### Remarks
+
+Even though the search key has been specified as regex, it may be refactored according to specified [`LookAtType`](../lookattype/). For example, when the type is Contains(this is the default value for this options), wildcards will be added at the beginning and end of the search key automatically to ensure the match will be checked as "contains". In this case, the regular expressions will become more complex and the performance will also decrease. So, for performance consideration, if user has specified the exact rule for the regex, then there is no need to use [`LookAtType`](../lookattype/) as additional constraint and user may set it as EntireContent to get better performance.
+
 ### See Also
 
 * class [FindOptions](../)

@@ -127,6 +127,7 @@ public class Shape
 | [AlignTopRightCorner](../../aspose.cells.drawing/shape/aligntoprightcorner/)(int, int) | Moves the picture to the top-right corner. |
 | [CalculateTextSize](../../aspose.cells.drawing/shape/calculatetextsize/)() | Recalculate the text area |
 | [Characters](../../aspose.cells.drawing/shape/characters/)(int, int) | Returns a Characters object that represents a range of characters within the text. |
+| [FitToTextSize](../../aspose.cells.drawing/shape/fittotextsize/)() | Recalculate a text area suitable for displaying all text content. |
 | [FormatCharacters](../../aspose.cells.drawing/shape/formatcharacters/)(int, int, Font, StyleFlag) | Formats some characters with the font setting. |
 | [GetActualBox](../../aspose.cells.drawing/shape/getactualbox/)() | Get the actual position and size of the shape (after applying rotation, flip, etc.) |
 | [GetCharacters](../../aspose.cells.drawing/shape/getcharacters/)() | (**Obsolete.**) Returns all Characters objects that represents a range of characters within the text . |

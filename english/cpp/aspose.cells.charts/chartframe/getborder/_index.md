@@ -4,7 +4,7 @@ linktitle: GetBorder
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::ChartFrame::GetBorder method. Gets the border in C++.'
 type: docs
-weight: 1800
+weight: 2200
 url: /cpp/aspose.cells.charts/chartframe/getborder/
 ---
 ## ChartFrame::GetBorder method

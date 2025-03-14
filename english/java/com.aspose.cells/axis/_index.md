@@ -73,10 +73,10 @@ From the following codes , you can learn how to set unit, maximum and minimum va
 | [getBins()](#getBins--) | Represents bins on a chart(Histogram/Pareto) axis |
 | [getCategoryType()](#getCategoryType--) | Represents the category axis type. |
 | [getClass()](#getClass--) |  |
-| [getCoustomDisplayUnit()](#getCoustomDisplayUnit--) | Specifies a custom value for the display unit. |
 | [getCrossAt()](#getCrossAt--) | Represents the point on the value axis where the category axis crosses it. |
 | [getCrossType()](#getCrossType--) | Represents the [getCrossType()](../../com.aspose.cells/axis\#getCrossType--) on the specified axis where the other axis crosses. |
 | [getCustUnit()](#getCustUnit--) | Specifies a custom value for the display unit. |
+| [getCustomDisplayUnit()](#getCustomDisplayUnit--) | Specifies a custom value for the display unit. |
 | [getCustomUnit()](#getCustomUnit--) | Specifies a custom value for the display unit. |
 | [getDisplayUnit()](#getDisplayUnit--) | Represents the unit label for the specified axis. |
 | [getDisplayUnitLabel()](#getDisplayUnitLabel--) | Represents a unit label on an axis in the specified chart. |
@@ -119,10 +119,10 @@ From the following codes , you can learn how to set unit, maximum and minimum va
 | [setBaseUnitAuto(boolean value)](#setBaseUnitAuto-boolean-) | Represents whether the base unit is automatic. |
 | [setBaseUnitScale(int value)](#setBaseUnitScale-int-) | Represents the base unit scale for the category axis. |
 | [setCategoryType(int value)](#setCategoryType-int-) | Represents the category axis type. |
-| [setCoustomDisplayUnit(double value)](#setCoustomDisplayUnit-double-) | Specifies a custom value for the display unit. |
 | [setCrossAt(double value)](#setCrossAt-double-) | Represents the point on the value axis where the category axis crosses it. |
 | [setCrossType(int value)](#setCrossType-int-) | Represents the [getCrossType()](../../com.aspose.cells/axis\#getCrossType--) on the specified axis where the other axis crosses. |
 | [setCustUnit(int value)](#setCustUnit-int-) | Specifies a custom value for the display unit. |
+| [setCustomDisplayUnit(double value)](#setCustomDisplayUnit-double-) | Specifies a custom value for the display unit. |
 | [setCustomUnit(int value)](#setCustomUnit-int-) | Specifies a custom value for the display unit. |
 | [setDisplayUnit(int value)](#setDisplayUnit-int-) | Represents the unit label for the specified axis. |
 | [setDisplayUnitLabelShown(boolean value)](#setDisplayUnitLabelShown-boolean-) | Represents if the display unit label is shown on the specified axis. |
@@ -267,16 +267,6 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getCoustomDisplayUnit() {#getCoustomDisplayUnit--}
-```
-public double getCoustomDisplayUnit()
-```
-
-
-Specifies a custom value for the display unit.
-
-**Returns:**
-double
 ### getCrossAt() {#getCrossAt--}
 ```
 public double getCrossAt()
@@ -317,6 +307,16 @@ NOTE: This property is now obsolete. Instead, please use Axis.CustomUnit propert
 
 **Returns:**
 int
+### getCustomDisplayUnit() {#getCustomDisplayUnit--}
+```
+public double getCustomDisplayUnit()
+```
+
+
+Specifies a custom value for the display unit.
+
+**Returns:**
+double
 ### getCustomUnit() {#getCustomUnit--}
 ```
 public int getCustomUnit()
@@ -327,7 +327,7 @@ Specifies a custom value for the display unit.
 
 **Remarks**
 
-NOTE: This property is now obsolete. Instead, please use Axis.CoustomDisplayUnit property. This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
+NOTE: This property is now obsolete. Instead, please use Axis.CustomDisplayUnit property. This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
@@ -843,19 +843,6 @@ See [CategoryType](../../com.aspose.cells/categorytype).
 | --- | --- | --- |
 | value | int |  |
 
-### setCoustomDisplayUnit(double value) {#setCoustomDisplayUnit-double-}
-```
-public void setCoustomDisplayUnit(double value)
-```
-
-
-Specifies a custom value for the display unit.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | double |  |
-
 ### setCrossAt(double value) {#setCrossAt-double-}
 ```
 public void setCrossAt(double value)
@@ -905,6 +892,19 @@ NOTE: This property is now obsolete. Instead, please use Axis.CustomUnit propert
 | --- | --- | --- |
 | value | int |  |
 
+### setCustomDisplayUnit(double value) {#setCustomDisplayUnit-double-}
+```
+public void setCustomDisplayUnit(double value)
+```
+
+
+Specifies a custom value for the display unit.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | double |  |
+
 ### setCustomUnit(int value) {#setCustomUnit-int-}
 ```
 public void setCustomUnit(int value)
@@ -915,7 +915,7 @@ Specifies a custom value for the display unit.
 
 **Remarks**
 
-NOTE: This property is now obsolete. Instead, please use Axis.CoustomDisplayUnit property. This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
+NOTE: This property is now obsolete. Instead, please use Axis.CustomDisplayUnit property. This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |

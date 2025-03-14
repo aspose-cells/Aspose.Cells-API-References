@@ -31,6 +31,7 @@ class FontConfigs;
 | static [getPreferSystemFontSubstitutes()](#getPreferSystemFontSubstitutes--)| Indicate whether to use system font substitutes first or not when a font is not presented and the substitute of this font is not set. e.g. On Ubuntu, "Arial" font is generally substituted by "Liberation Sans". Default value is false. |
 | static [setPreferSystemFontSubstitutes(boolean)](#setPreferSystemFontSubstitutes-boolean-)| Indicate whether to use system font substitutes first or not when a font is not presented and the substitute of this font is not set. e.g. On Ubuntu, "Arial" font is generally substituted by "Liberation Sans". Default value is false. |
 | static [isFontAvailable(string)](#isFontAvailable-string-)| Indicate whether the font is available. |
+| static [getFontFileDataInfo(string, boolean, boolean, boolean)](#getFontFileDataInfo-string-boolean-boolean-boolean-)| Get data infomation of font file data. |
 | static [setFontSubstitutes(string, string[])](#setFontSubstitutes-string-stringarray-)| Font substitute names for given original font name. |
 | static [getFontSubstitutes(string)](#getFontSubstitutes-string-)| Returns array containing font substitute names to be used if original font is not presented. |
 | static [setFontFolder(string, boolean)](#setFontFolder-string-boolean-)| Sets the fonts folder |
@@ -117,6 +118,26 @@ static isFontAvailable(fontName: string) : boolean;
 **Returns**
 
 true if font is available, otherwise false.
+
+### getFontFileDataInfo(string, boolean, boolean, boolean) {#getFontFileDataInfo-string-boolean-boolean-boolean-}
+
+Get data infomation of font file data.
+
+```javascript
+static getFontFileDataInfo(fontName: string, isBold: boolean, isItalic: boolean, isExactStyle: boolean) : FontFileDataInfo;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fontName | string | font name |
+| isBold | boolean | the font style is bold or not |
+| isItalic | boolean | the font style is italic or not |
+| isExactStyle | boolean | whether to match the given bold/italic style exactly |
+
+**Returns**
+
+Data infomation of font file data.
 
 ### setFontSubstitutes(string, string[]) {#setFontSubstitutes-string-stringarray-}
 

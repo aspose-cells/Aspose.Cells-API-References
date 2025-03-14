@@ -84,6 +84,7 @@ The **Aspose.Cells** namespace provides fundamental and base classes for generat
 | [FolderFontSource](./folderfontsource/) | Represents the folder that contains TrueType font files. |
 | [Font](./font/) | Encapsulates the font object used in a spreadsheet. |
 | [FontConfigs](./fontconfigs/) | Specifies font settings |
+| [FontFileDataInfo](./fontfiledatainfo/) | Represents data infomation of font file data. |
 | [FontSetting](./fontsetting/) | Represents a range of characters within the cell text. |
 | [FontSourceBase](./fontsourcebase/) | This is an abstract base class for the classes that allow the user to specify various font sources |
 | [FormatCondition](./formatcondition/) | Represents conditional formatting condition. |
@@ -248,6 +249,7 @@ The **Aspose.Cells** namespace provides fundamental and base classes for generat
 | [FilterCategory](./filtercategory/) | Represents the category of the filter. |
 | [FilterOperatorType](./filteroperatortype/) | Custom Filter operator type. |
 | [FilterType](./filtertype/) | The filter type. |
+| [FontFileFormatType](./fontfileformattype/) | Represents font format type. |
 | [FontSchemeType](./fontschemetype/) | Represents the scheme type of the font. |
 | [FontSourceType](./fontsourcetype/) | Specifies the type of a font source. |
 | [FontUnderlineType](./fontunderlinetype/) | Enumerates the font underline types. |

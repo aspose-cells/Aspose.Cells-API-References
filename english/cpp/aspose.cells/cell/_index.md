@@ -4,7 +4,7 @@ linktitle: Cell
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cell class. Encapsulates the object that represents a single Workbook cell in C++.'
 type: docs
-weight: 1300
+weight: 1400
 url: /cpp/aspose.cells/cell/
 ---
 ## Cell class
@@ -40,8 +40,9 @@ class Cell
 | [GetDependents(bool isAll)](./getdependents/) | Get all cells whose formula references to this cell directly. |
 | [GetDependentsInCalculation(bool recursive)](./getdependentsincalculation/) | Gets all cells whose calculated result depends on this cell. |
 | [GetDisplayStringValue()](./getdisplaystringvalue/) | Gets the formatted string value of this cell by cell's display style. |
-| [GetDisplayStyle()](./getdisplaystyle/) | Gets the display style of the cell. If this cell is also affected by other settings such as conditional formatting, list objects, etc., then the display style may be different from cell.GetStyle(). |
-| [GetDisplayStyle(bool includeMergedBorders)](./getdisplaystyle/) | Gets the display style of the cell. If the cell is conditional formatted, the display style is not same as the cell.GetStyle(). |
+| [GetDisplayStyle()](./getdisplaystyle/) | Gets the display style of this cell. |
+| [GetDisplayStyle(bool includeMergedBorders)](./getdisplaystyle/) | Gets the display style of this cell. |
+| [GetDisplayStyle(BorderType adjacentBorders)](./getdisplaystyle/) | Gets the display style of this cell. |
 | [GetDoubleValue()](./getdoublevalue/) | Gets the double value contained in the cell. |
 | [GetEmbeddedImage()](./getembeddedimage/) | Gets and sets the embeddedn image in the cell. |
 | [GetFloatValue()](./getfloatvalue/) | Gets the float value contained in the cell. |

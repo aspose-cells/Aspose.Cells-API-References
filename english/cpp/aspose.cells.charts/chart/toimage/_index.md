@@ -122,6 +122,10 @@ If the width or height is zero or the chart is not supported according to Suppor
 
 Creates the chart image and saves it to a file in the Jpeg format.
 
+
+>Deprecated
+>
+>Use Chart.ToImage(string,ImageOrPrintOptions) method instead. 
 ```cpp
 void Aspose::Cells::Charts::Chart::ToImage(const U16String &imageFile, int64_t jpegQuality)
 ```
@@ -135,7 +139,9 @@ void Aspose::Cells::Charts::Chart::ToImage(const U16String &imageFile, int64_t j
 
 
 
-If the width or height is zero or the chart is not supported according to Supported [Charts](../../) List, this method will do nothing. 
+If the width or height is zero or the chart is not supported according to Supported [Charts](../../) List, this method will do nothing. NOTE: This method is now obsolete. Instead, please use ToImage(string,ImageOrPrintOptions) method with specified quality. This method will be removed 12 months later since March 2025. **Aspose** apologizes for any inconvenience you may have experienced.
+
+
 ## See Also
 
 * Class [Vector](../../../aspose.cells/vector/)
@@ -148,6 +154,10 @@ If the width or height is zero or the chart is not supported according to Suppor
 
 Creates the chart image and saves it to a file in the Jpeg format.
 
+
+>Deprecated
+>
+>Use Chart.ToImage(string,ImageOrPrintOptions) method instead. 
 ```cpp
 void Aspose::Cells::Charts::Chart::ToImage(const char16_t *imageFile, int64_t jpegQuality)
 ```
@@ -161,7 +171,9 @@ void Aspose::Cells::Charts::Chart::ToImage(const char16_t *imageFile, int64_t jp
 
 
 
-If the width or height is zero or the chart is not supported according to Supported [Charts](../../) List, this method will do nothing. 
+If the width or height is zero or the chart is not supported according to Supported [Charts](../../) List, this method will do nothing. NOTE: This method is now obsolete. Instead, please use ToImage(string,ImageOrPrintOptions) method with specified quality. This method will be removed 12 months later since March 2025. **Aspose** apologizes for any inconvenience you may have experienced.
+
+
 ## See Also
 
 * Class [Vector](../../../aspose.cells/vector/)

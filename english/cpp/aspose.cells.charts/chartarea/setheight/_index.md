@@ -2,7 +2,7 @@
 title: Aspose::Cells::Charts::ChartArea::SetHeight method
 linktitle: SetHeight
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::ChartArea::SetHeight method. Gets or sets the vertical offset from its lower right corner row in C++.'
+description: 'Aspose::Cells::Charts::ChartArea::SetHeight method. Gets or sets the vertical offset from its lower right corner row, in units of 1/4000 of the chart area in C++.'
 type: docs
 weight: 1100
 url: /cpp/aspose.cells.charts/chartarea/setheight/
@@ -10,11 +10,21 @@ url: /cpp/aspose.cells.charts/chartarea/setheight/
 ## ChartArea::SetHeight method
 
 
-Gets or sets the vertical offset from its lower right corner row.
+Gets or sets the vertical offset from its lower right corner row, in units of 1/4000 of the chart area.
 
+
+>Deprecated
+>
+>Use ChartArea.HeightRatioToChart property, instead. 
 ```cpp
 void Aspose::Cells::Charts::ChartArea::SetHeight(int32_t value)
 ```
+
+## Remarks
+
+
+NOTE: This member is now obsolete. Please use ChartArea.HeightRatioToChart property, instead. Height = HeightRatioToChart * 4000. This property will be removed 12 months later since February 2025. **Aspose** apologizes for any inconvenience you may have experienced.
+
 
 ## See Also
 

@@ -28,6 +28,7 @@ class CheckBox : public Aspose::Cells::Drawing::Shape
 | [CheckBox(CheckBox_Impl* impl)](./checkbox/) | Constructs from an implementation object. |
 | [CheckBox(const CheckBox\& src)](./checkbox/) | Copy constructor. |
 | [CheckBox(const Shape\& src)](./checkbox/) | Constructs from a parent object. |
+| [FitToTextSize()](../shape/fittotextsize/) | Recalculate a text area suitable for displaying all text content. |
 | [FormatCharacters(int32_t startIndex, int32_t length, const Aspose::Cells::Font\& font, const StyleFlag\& flag)](../shape/formatcharacters/) | Formats some characters with the font setting. |
 | [GetActiveXControl()](../shape/getactivexcontrol/) | Gets the ActiveX control. |
 | [GetActualBox()](../shape/getactualbox/) | Get the actual position and size of the shape (after applying rotation, flip, etc.) |

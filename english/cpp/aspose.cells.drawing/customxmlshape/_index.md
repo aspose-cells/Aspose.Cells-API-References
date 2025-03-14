@@ -28,6 +28,7 @@ class CustomXmlShape : public Aspose::Cells::Drawing::Shape
 | [CustomXmlShape(CustomXmlShape_Impl* impl)](./customxmlshape/) | Constructs from an implementation object. |
 | [CustomXmlShape(const CustomXmlShape\& src)](./customxmlshape/) | Copy constructor. |
 | [CustomXmlShape(const Shape\& src)](./customxmlshape/) | Constructs from a parent object. |
+| [FitToTextSize()](../shape/fittotextsize/) | Recalculate a text area suitable for displaying all text content. |
 | [FormatCharacters(int32_t startIndex, int32_t length, const Aspose::Cells::Font\& font, const StyleFlag\& flag)](../shape/formatcharacters/) | Formats some characters with the font setting. |
 | [GetActiveXControl()](../shape/getactivexcontrol/) | Gets the ActiveX control. |
 | [GetActualBox()](../shape/getactualbox/) | Get the actual position and size of the shape (after applying rotation, flip, etc.) |

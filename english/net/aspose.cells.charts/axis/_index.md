@@ -24,9 +24,9 @@ public class Axis
 | [BaseUnitScale](../../aspose.cells.charts/axis/baseunitscale/) { get; set; } | Represents the base unit scale for the category axis. |
 | [Bins](../../aspose.cells.charts/axis/bins/) { get; } | Represents bins on a chart(Histogram/Pareto) axis |
 | [CategoryType](../../aspose.cells.charts/axis/categorytype/) { get; set; } | Represents the category axis type. |
-| [CoustomDisplayUnit](../../aspose.cells.charts/axis/coustomdisplayunit/) { get; set; } | Specifies a custom value for the display unit. |
 | [CrossAt](../../aspose.cells.charts/axis/crossat/) { get; set; } | Represents the point on the value axis where the category axis crosses it. |
 | [CrossType](../../aspose.cells.charts/axis/crosstype/) { get; set; } | Represents the [`CrossType`](./crosstype/) on the specified axis where the other axis crosses. |
+| [CustomDisplayUnit](../../aspose.cells.charts/axis/customdisplayunit/) { get; set; } | Specifies a custom value for the display unit. |
 | [CustomUnit](../../aspose.cells.charts/axis/customunit/) { get; set; } | (**Obsolete.**) Specifies a custom value for the display unit. |
 | [CustUnit](../../aspose.cells.charts/axis/custunit/) { get; set; } | (**Obsolete.**) Specifies a custom value for the display unit. |
 | [DisplayUnit](../../aspose.cells.charts/axis/displayunit/) { get; set; } | Represents the unit label for the specified axis. |

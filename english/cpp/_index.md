@@ -24,6 +24,7 @@ is_root: true
 | [Aspose::Cells::ExternalConnections](./aspose.cells.externalconnections/) |  |
 | [Aspose::Cells::Json](./aspose.cells.json/) |  |
 | [Aspose::Cells::Loading](./aspose.cells.loading/) |  |
+| [Aspose::Cells::Markdown](./aspose.cells.markdown/) |  |
 | [Aspose::Cells::Markup](./aspose.cells.markup/) |  |
 | [Aspose::Cells::Metadata](./aspose.cells.metadata/) |  |
 | [Aspose::Cells::Numbers](./aspose.cells.numbers/) |  |

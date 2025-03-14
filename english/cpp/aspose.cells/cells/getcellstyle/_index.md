@@ -4,7 +4,7 @@ linktitle: GetCellStyle
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::GetCellStyle method. Get the style of given cell in C++.'
 type: docs
-weight: 14000
+weight: 14300
 url: /cpp/aspose.cells/cells/getcellstyle/
 ---
 ## Cells::GetCellStyle method
@@ -25,7 +25,11 @@ Style Aspose::Cells::Cells::GetCellStyle(int32_t row, int32_t column)
 ## ReturnValue
 
 the style of given cell.
+## Remarks
 
+
+
+The returned style is only the one set for the cell or inherited from the row/column of the cell, does not include the applied properties by other settings such as conditional formattings.
 ## See Also
 
 * Class [Style](../../style/)

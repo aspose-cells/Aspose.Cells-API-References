@@ -18,10 +18,11 @@ public abstract class AbstractFormulaChangeMonitor
 | Name | Description |
 | --- | --- |
 | virtual [OnCellFormulaChanged](../../aspose.cells/abstractformulachangemonitor/oncellformulachanged/)(int, int, int) | The event that will be triggered when the formula in a cell is changed. |
+| virtual [OnFormatConditionFormulaChanged](../../aspose.cells/abstractformulachangemonitor/onformatconditionformulachanged/)(FormatCondition) | The event that will be triggered when the formula of FormatCondition is changed. |
 
 ### Remarks
 
-For example, while deleting/inserting range of cells, formulas of other cells may be changed because of the shift of references.
+For example, while deleting/inserting range of cells, formulas of other cells may be changed because of the shift of references. Please note, methods in the monitor may be invoked multiple times for one object which contains the formula.
 
 ### Examples
 
