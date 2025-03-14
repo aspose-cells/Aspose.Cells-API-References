@@ -19,7 +19,7 @@ public class DataModelTableCollection : CollectionBase<DataModelTable>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase-1/capacity/) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase-1/count/) { get; } |  |
-| [Item](../../aspose.cells.datamodels/datamodeltablecollection/item/) { get; } | Gets the data model table by position of the collection. |
+| [Item](../../aspose.cells.datamodels/datamodeltablecollection/item/) { get; } | Gets the data model table by position of the collection. (2 indexers) |
 | [Item](../../aspose.cells/collectionbase-1/item/) { get; set; } |  |
 
 ## Methods

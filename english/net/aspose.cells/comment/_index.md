@@ -18,7 +18,7 @@ public class Comment
 | Name | Description |
 | --- | --- |
 | [Author](../../aspose.cells/comment/author/) { get; set; } | Gets and sets Name of the original comment author |
-| [AutoSize](../../aspose.cells/comment/autosize/) { get; set; } | Indicates if size of comment is adjusted automatically according to its content. |
+| [AutoSize](../../aspose.cells/comment/autosize/) { get; set; } | Indicates if size of comment is adjusted automatically according to its content. Note: In some special cases (such as Mac environment), this setting may not take effect. If this setting does not take effect, please replace it with FitToTextSize(). |
 | [Column](../../aspose.cells/comment/column/) { get; } | Gets the column index of the comment. |
 | [CommentShape](../../aspose.cells/comment/commentshape/) { get; } | Get a Shape object that represents the shape attached to the specified comment. |
 | [Font](../../aspose.cells/comment/font/) { get; } | Gets the font of comment. |

@@ -97,7 +97,7 @@ public class Chart
 | [ToImage](../../aspose.cells.charts/chart/toimage/#toimage_10)(string, ImageFormat) | (**Obsolete.**) Creates the chart image and saves it to a file in the specified format. |
 | [ToImage](../../aspose.cells.charts/chart/toimage/#toimage_8)(string, ImageOrPrintOptions) | Creates the chart image and saves it to a file. The extension of the file name determines the format of the image. |
 | [ToImage](../../aspose.cells.charts/chart/toimage/#toimage_7)(string, ImageType) | Creates the chart image and saves it to a file in the specified image type. |
-| [ToImage](../../aspose.cells.charts/chart/toimage/#toimage_9)(string, long) | Creates the chart image and saves it to a file in the Jpeg format. |
+| [ToImage](../../aspose.cells.charts/chart/toimage/#toimage_9)(string, long) | (**Obsolete.**) Creates the chart image and saves it to a file in the Jpeg format. |
 | [ToPdf](../../aspose.cells.charts/chart/topdf/#topdf)(Stream) | Creates the chart pdf and saves it to a stream. |
 | [ToPdf](../../aspose.cells.charts/chart/topdf/#topdf_2)(string) | Saves the chart to a pdf file. |
 | [ToPdf](../../aspose.cells.charts/chart/topdf/#topdf_1)(Stream, float, float, PageLayoutAlignmentType, PageLayoutAlignmentType) | Creates the chart pdf and saves it to a stream. |

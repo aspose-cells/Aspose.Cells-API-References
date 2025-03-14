@@ -5,17 +5,17 @@ description: Cells method. Gets the last cell in this column
 type: docs
 url: /net/aspose.cells/cells/endcellincolumn/
 ---
-## EndCellInColumn(short) {#endcellincolumn}
+## EndCellInColumn(int) {#endcellincolumn}
 
 Gets the last cell in this column.
 
 ```csharp
-public Cell EndCellInColumn(short columnIndex)
+public Cell EndCellInColumn(int columnIndex)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| columnIndex | Int16 | Column index. |
+| columnIndex | Int32 | Column index. |
 
 ### Return Value
 
@@ -30,20 +30,20 @@ Cell object.
 
 ---
 
-## EndCellInColumn(int, int, short, short) {#endcellincolumn_1}
+## EndCellInColumn(int, int, int, int) {#endcellincolumn_1}
 
 Gets the last cell with maximum column index in this range.
 
 ```csharp
-public Cell EndCellInColumn(int startRow, int endRow, short startColumn, short endColumn)
+public Cell EndCellInColumn(int startRow, int endRow, int startColumn, int endColumn)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | startRow | Int32 | Start row index. |
 | endRow | Int32 | End row index. |
-| startColumn | Int16 | Start column index. |
-| endColumn | Int16 | End column index. |
+| startColumn | Int32 | Start column index. |
+| endColumn | Int32 | End column index. |
 
 ### Return Value
 

@@ -13,6 +13,10 @@ Look at type.
 public LookAtType LookAtType { get; set; }
 ```
 
+### Remarks
+
+When [`RegexKey`](../regexkey/) is true and user has specified the exact rule for the regex, for performance consideration this property should be set as EntireContent. Otherwise we will refactor the search key to ensure it can be matched according to the specific type. For example, when the type is Contains(this is the default value for this property), we will add wildcards at the beginning and end of the search key automatically. In this case, the regular expressions will become more complex and the performance will also decrease.
+
 ### See Also
 
 * enum [LookAtType](../../lookattype/)

@@ -5,6 +5,28 @@ description: WorkbookDesigner method. Processes the smart markers and populates 
 type: docs
 url: /net/aspose.cells/workbookdesigner/process/
 ---
+## Process(Range, bool) {#process_1}
+
+Processes the smart markers and populates the data source values.
+
+```csharp
+public void Process(Range range, bool isPreserved)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| range | Range | The range to be processed |
+| isPreserved | Boolean | True if the unrecognized smart marker is preserved. |
+
+### See Also
+
+* class [Range](../../range/)
+* class [WorkbookDesigner](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
+
+---
+
 ## Process() {#process}
 
 Processes the smart markers and populates the data source values.
@@ -21,7 +43,7 @@ public void Process()
 
 ---
 
-## Process(bool) {#process_1}
+## Process(bool) {#process_2}
 
 Processes the smart markers and populates the data source values.
 
@@ -41,7 +63,7 @@ public void Process(bool isPreserved)
 
 ---
 
-## Process(int, bool) {#process_2}
+## Process(int, bool) {#process_3}
 
 Processes the smart markers and populates the data source values.
 

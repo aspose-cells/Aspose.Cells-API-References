@@ -1,16 +1,16 @@
 ---
-title: Axis.CoustomDisplayUnit
+title: Axis.CustomDisplayUnit
 second_title: Aspose.Cells for .NET API Reference
 description: Axis property. Specifies a custom value for the display unit
 type: docs
-url: /net/aspose.cells.charts/axis/coustomdisplayunit/
+url: /net/aspose.cells.charts/axis/customdisplayunit/
 ---
-## Axis.CoustomDisplayUnit property
+## Axis.CustomDisplayUnit property
 
 Specifies a custom value for the display unit.
 
 ```csharp
-public double CoustomDisplayUnit { get; set; }
+public double CustomDisplayUnit { get; set; }
 ```
 
 ### See Also

@@ -1,13 +1,13 @@
 ---
 title: Class Config
 second_title: Aspose.Cells for .NET API Reference
-description: Aspose.Cells.GridJs.Config class. Represents all the settings for GridJs
+description: Aspose.Cells.GridJs.Config class. Represents all the static settings for GridJs
 type: docs
 url: /net/aspose.cells.gridjs/config/
 ---
 ## Config class
 
-Represents all the settings for GridJs
+Represents all the static settings for GridJs
 
 ```csharp
 public class Config
@@ -24,6 +24,7 @@ public class Config
 | Name | Description |
 | --- | --- |
 | static [AutoOptimizeForLargeCells](../../aspose.cells.gridjs/config/autooptimizeforlargecells/) { get; set; } | Gets/Sets whether to automatically optimize the load performance for worksheet with large cells. it will ignore some style /borders to reduce the load time. the default value is true. |
+| static [BaseRouteName](../../aspose.cells.gridjs/config/baseroutename/) { get; set; } | Gets/Sets the base route name for GridJs controller URL. the default is "/GridJs2". |
 | static [EmptySheetMaxCol](../../aspose.cells.gridjs/config/emptysheetmaxcol/) { get; set; } | Gets/Sets default max column for an empty worksheet. the default value is 15. |
 | static [EmptySheetMaxRow](../../aspose.cells.gridjs/config/emptysheetmaxrow/) { get; set; } | Gets/Sets default max row for an empty worksheet. the default value is 12. |
 | static [FileCacheDirectory](../../aspose.cells.gridjs/config/filecachedirectory/) { get; set; } | Gets/Sets the cache directory for storing spreadsheet file. We need to set it to a specific path before we use GridJs. |
@@ -34,7 +35,6 @@ public class Config
 | static [MaxShapeOrImageCount](../../aspose.cells.gridjs/config/maxshapeorimagecount/) { get; set; } | Gets/Sets the total count of the display shapes or images in the active sheet,it takes effect when IslimitShapeOrImage=true. the default value is 100. |
 | static [MaxShapeOrImageWidthOrHeight](../../aspose.cells.gridjs/config/maxshapeorimagewidthorheight/) { get; set; } | Gets/Sets the max width or height for a shape or an image ,GridJs will ignore the shape or image with the width or height larger than this, it takes effect when IslimitShapeOrImage=true. the default value is 10000. |
 | static [MaxTotalShapeOrImageCount](../../aspose.cells.gridjs/config/maxtotalshapeorimagecount/) { get; set; } | Gets/Sets the total count of the display shapes or images in the workbook,it takes effect when IslimitShapeOrImage=true. the default value is 300. |
-| static [PageSize](../../aspose.cells.gridjs/config/pagesize/) { get; set; } | Gets/Sets whether to do pagination GridJs will limit the row size based on the PageSize,if PageSize is -1,it will not do pagination the default value is -1 |
 | static [PictureCacheDirectory](../../aspose.cells.gridjs/config/picturecachedirectory/) { get; set; } | Gets/Sets the cache directory for pictures.(this takes effect when GridJsWorkbook.CacheImp is null) the default path will be "_piccache" inside the FileCacheDirectory. |
 | static [SameImageDetecting](../../aspose.cells.gridjs/config/sameimagedetecting/) { get; set; } | Gets/Sets whether to check if images have same source,the default is true the default value is true. |
 | static [SaveHtmlAsZip](../../aspose.cells.gridjs/config/savehtmlaszip/) { get; set; } | Gets/Sets whether to save html file as zip archive,the default is false. |

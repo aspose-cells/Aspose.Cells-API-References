@@ -39,8 +39,9 @@ public class WorkbookDesigner
 | [ClearDataSource](../../aspose.cells/workbookdesigner/cleardatasource/)() | Clears all data sources. |
 | [GetSmartMarkers](../../aspose.cells/workbookdesigner/getsmartmarkers/)() | Returns a collection of smart markers in a spreadsheet. |
 | [Process](../../aspose.cells/workbookdesigner/process/#process)() | Processes the smart markers and populates the data source values. |
-| [Process](../../aspose.cells/workbookdesigner/process/#process_1)(bool) | Processes the smart markers and populates the data source values. |
-| [Process](../../aspose.cells/workbookdesigner/process/#process_2)(int, bool) | Processes the smart markers and populates the data source values. |
+| [Process](../../aspose.cells/workbookdesigner/process/#process_2)(bool) | Processes the smart markers and populates the data source values. |
+| [Process](../../aspose.cells/workbookdesigner/process/#process_3)(int, bool) | Processes the smart markers and populates the data source values. |
+| [Process](../../aspose.cells/workbookdesigner/process/#process_1)(Range, bool) | Processes the smart markers and populates the data source values. |
 | [SetDataSource](../../aspose.cells/workbookdesigner/setdatasource/#setdatasource)(DataSet) | Sets data source of a DataSet object. |
 | [SetDataSource](../../aspose.cells/workbookdesigner/setdatasource/#setdatasource_1)(DataTable) | Sets data source of a DataTable object. |
 | [SetDataSource](../../aspose.cells/workbookdesigner/setdatasource/#setdatasource_2)(DataView) | Sets data source of a DataView object. |

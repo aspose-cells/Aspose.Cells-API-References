@@ -70,8 +70,9 @@ public class Cell
 | [GetConditionalFormattingResult](../../aspose.cells/cell/getconditionalformattingresult/)() | Get the result of the conditional formatting. |
 | [GetDependents](../../aspose.cells/cell/getdependents/)(bool) | Get all cells whose formula references to this cell directly. |
 | [GetDependentsInCalculation](../../aspose.cells/cell/getdependentsincalculation/)(bool) | Gets all cells whose calculated result depends on this cell. |
-| [GetDisplayStyle](../../aspose.cells/cell/getdisplaystyle/#getdisplaystyle)() | Gets the display style of the cell. If this cell is also affected by other settings such as conditional formatting, list objects, etc., then the display style may be different from cell.GetStyle(). |
-| [GetDisplayStyle](../../aspose.cells/cell/getdisplaystyle/#getdisplaystyle_1)(bool) | Gets the display style of the cell. If the cell is conditional formatted, the display style is not same as the cell.GetStyle(). |
+| [GetDisplayStyle](../../aspose.cells/cell/getdisplaystyle/#getdisplaystyle)() | Gets the display style of this cell. |
+| [GetDisplayStyle](../../aspose.cells/cell/getdisplaystyle/#getdisplaystyle_2)(bool) | Gets the display style of this cell. |
+| [GetDisplayStyle](../../aspose.cells/cell/getdisplaystyle/#getdisplaystyle_1)(BorderType) | Gets the display style of this cell. |
 | [GetFormatConditions](../../aspose.cells/cell/getformatconditions/)() | Gets format conditions which applies to this cell. |
 | [GetFormula](../../aspose.cells/cell/getformula/)(bool, bool) | Get the formula of this cell. |
 | override [GetHashCode](../../aspose.cells/cell/gethashcode/)() | Serves as a hash function for a particular type. |
