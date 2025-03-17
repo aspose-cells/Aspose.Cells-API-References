@@ -4,7 +4,7 @@ linktitle: SetRefreshDataOnOpeningFile
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::SetRefreshDataOnOpeningFile method. Indicates whether Refresh Data when Opening File in C++.'
 type: docs
-weight: 12600
+weight: 13400
 url: /cpp/aspose.cells.pivot/pivottable/setrefreshdataonopeningfile/
 ---
 ## PivotTable::SetRefreshDataOnOpeningFile method

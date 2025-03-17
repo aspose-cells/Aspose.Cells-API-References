@@ -4,7 +4,7 @@ linktitle: GetCodes
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Vba::VbaModule::GetCodes method. Gets and sets the codes of module in C++.'
 type: docs
-weight: 900
+weight: 1000
 url: /cpp/aspose.cells.vba/vbamodule/getcodes/
 ---
 ## VbaModule::GetCodes method

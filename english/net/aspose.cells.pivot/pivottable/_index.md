@@ -128,7 +128,8 @@ public class PivotTable : IDisposable
 | [GetHorizontalBreaks](../../aspose.cells.pivot/pivottable/gethorizontalbreaks/)() | (**Obsolete.**) Gets pivot table row index list of horizontal page breaks |
 | [GetHorizontalPageBreaks](../../aspose.cells.pivot/pivottable/gethorizontalpagebreaks/)() | Gets horizontal page breaks of this pivot table. |
 | [GetNamesOfSourceDataConnections](../../aspose.cells.pivot/pivottable/getnamesofsourcedataconnections/)() | Gets the name of external source data connections. |
-| [GetSource](../../aspose.cells.pivot/pivottable/getsource/)() | Get pivottable's source data. |
+| [GetSource](../../aspose.cells.pivot/pivottable/getsource/#getsource)() | Get pivottable's source data. |
+| [GetSource](../../aspose.cells.pivot/pivottable/getsource/#getsource_1)(bool) | Get pivottable's source data. |
 | [GetSourceDataConnections](../../aspose.cells.pivot/pivottable/getsourcedataconnections/)() | Gets the external connection data sources. |
 | [Move](../../aspose.cells.pivot/pivottable/move/#move_1)(string) | (**Obsolete.**) Moves the PivotTable to a different location in the worksheet. |
 | [Move](../../aspose.cells.pivot/pivottable/move/#move)(int, int) | (**Obsolete.**) Moves the PivotTable to a different location in the worksheet. |

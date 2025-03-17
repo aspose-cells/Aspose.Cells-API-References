@@ -76,6 +76,7 @@ From the following codes , you can learn how to set unit, maximum and minimum va
 | [getCrossAt()](#getCrossAt--) | Represents the point on the value axis where the category axis crosses it. |
 | [getCrossType()](#getCrossType--) | Represents the [getCrossType()](../../com.aspose.cells/axis\#getCrossType--) on the specified axis where the other axis crosses. |
 | [getCustUnit()](#getCustUnit--) | Specifies a custom value for the display unit. |
+| [getCustomDisplayUnit()](#getCustomDisplayUnit--) | Specifies a custom value for the display unit. |
 | [getCustomUnit()](#getCustomUnit--) | Specifies a custom value for the display unit. |
 | [getDisplayUnit()](#getDisplayUnit--) | Represents the unit label for the specified axis. |
 | [getDisplayUnitLabel()](#getDisplayUnitLabel--) | Represents a unit label on an axis in the specified chart. |
@@ -121,6 +122,7 @@ From the following codes , you can learn how to set unit, maximum and minimum va
 | [setCrossAt(double value)](#setCrossAt-double-) | Represents the point on the value axis where the category axis crosses it. |
 | [setCrossType(int value)](#setCrossType-int-) | Represents the [getCrossType()](../../com.aspose.cells/axis\#getCrossType--) on the specified axis where the other axis crosses. |
 | [setCustUnit(int value)](#setCustUnit-int-) | Specifies a custom value for the display unit. |
+| [setCustomDisplayUnit(double value)](#setCustomDisplayUnit-double-) | Specifies a custom value for the display unit. |
 | [setCustomUnit(int value)](#setCustomUnit-int-) | Specifies a custom value for the display unit. |
 | [setDisplayUnit(int value)](#setDisplayUnit-int-) | Represents the unit label for the specified axis. |
 | [setDisplayUnitLabelShown(boolean value)](#setDisplayUnitLabelShown-boolean-) | Represents if the display unit label is shown on the specified axis. |
@@ -305,6 +307,16 @@ NOTE: This property is now obsolete. Instead, please use Axis.CustomUnit propert
 
 **Returns:**
 int
+### getCustomDisplayUnit() {#getCustomDisplayUnit--}
+```
+public double getCustomDisplayUnit()
+```
+
+
+Specifies a custom value for the display unit.
+
+**Returns:**
+double
 ### getCustomUnit() {#getCustomUnit--}
 ```
 public int getCustomUnit()
@@ -312,6 +324,10 @@ public int getCustomUnit()
 
 
 Specifies a custom value for the display unit.
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use Axis.CustomDisplayUnit property. This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
@@ -876,6 +892,19 @@ NOTE: This property is now obsolete. Instead, please use Axis.CustomUnit propert
 | --- | --- | --- |
 | value | int |  |
 
+### setCustomDisplayUnit(double value) {#setCustomDisplayUnit-double-}
+```
+public void setCustomDisplayUnit(double value)
+```
+
+
+Specifies a custom value for the display unit.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | double |  |
+
 ### setCustomUnit(int value) {#setCustomUnit-int-}
 ```
 public void setCustomUnit(int value)
@@ -883,6 +912,10 @@ public void setCustomUnit(int value)
 
 
 Specifies a custom value for the display unit.
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use Axis.CustomDisplayUnit property. This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |

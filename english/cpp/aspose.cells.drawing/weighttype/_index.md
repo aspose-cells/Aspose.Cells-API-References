@@ -4,7 +4,7 @@ linktitle: WeightType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::WeightType enum. Enumerates the weight types for a picture border or a chart line in C++.'
 type: docs
-weight: 11700
+weight: 11800
 url: /cpp/aspose.cells.drawing/weighttype/
 ---
 ## WeightType enum

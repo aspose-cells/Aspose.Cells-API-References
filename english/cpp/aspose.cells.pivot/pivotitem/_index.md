@@ -4,7 +4,7 @@ linktitle: PivotItem
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotItem class. Represents a item in a PivotField report in C++.'
 type: docs
-weight: 1500
+weight: 1800
 url: /cpp/aspose.cells.pivot/pivotitem/
 ---
 ## PivotItem class

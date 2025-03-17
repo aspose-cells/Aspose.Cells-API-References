@@ -4,7 +4,7 @@ linktitle: SetPrintDrill
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::SetPrintDrill method. Specifies a boolean value that indicates whether drill indicators should be printed. print expand/collapse buttons when displayed on pivottable in C++.'
 type: docs
-weight: 9900
+weight: 10600
 url: /cpp/aspose.cells.pivot/pivottable/setprintdrill/
 ---
 ## PivotTable::SetPrintDrill method

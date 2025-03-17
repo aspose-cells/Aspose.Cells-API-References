@@ -25,6 +25,7 @@ public class ReferredArea
 | [IsEntireRow](../../aspose.cells/referredarea/isentirerow/) { get; } | Indicates whether this area contains all columns(entire row). |
 | [IsExternalLink](../../aspose.cells/referredarea/isexternallink/) { get; } | Indicates whether this is an external link. |
 | [SheetName](../../aspose.cells/referredarea/sheetname/) { get; } | Indicates which sheet this reference is in. |
+| [SheetNames](../../aspose.cells/referredarea/sheetnames/) { get; } | Names of all the worksheets this instance references to. |
 | [StartColumn](../../aspose.cells/referredarea/startcolumn/) { get; } | The start column of the area. |
 | [StartRow](../../aspose.cells/referredarea/startrow/) { get; } | The start row of the area. |
 

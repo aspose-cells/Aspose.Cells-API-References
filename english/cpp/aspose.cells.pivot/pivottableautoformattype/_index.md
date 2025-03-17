@@ -4,7 +4,7 @@ linktitle: PivotTableAutoFormatType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTableAutoFormatType enum. Represents PivotTable auto format type in C++.'
 type: docs
-weight: 3900
+weight: 4300
 url: /cpp/aspose.cells.pivot/pivottableautoformattype/
 ---
 ## PivotTableAutoFormatType enum

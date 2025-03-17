@@ -40,6 +40,7 @@ class ImageOrPrintOptions
 | [GetPrintWithStatusDialog()](./getprintwithstatusdialog/) | If PrintWithStatusDialog = true , there will be a dialog that shows current print status. else no such dialog will show. |
 | [GetQuality()](./getquality/) | Gets or sets a value determining the quality of the generated images to apply only when saving pages to the **Jpeg** format. The default value is 100. |
 | [GetSheetSet()](./getsheetset/) | Gets or sets the sheets to render. Default is all visible sheets in the workbook: Aspose.Cells.Rendering.SheetSet.Visible. |
+| [GetSvgCssPrefix()](./getsvgcssprefix/) | Gets and sets the prefix of the css name in svg,the default value is empty string. |
 | [GetSVGFitToViewPort()](./getsvgfittoviewport/) | if this property is true, the generated svg will fit to view port. |
 | [GetTextCrossType()](./gettextcrosstype/) | Gets or sets displaying text type when the text width is larger than cell width. |
 | [GetTiffBinarizationMethod()](./gettiffbinarizationmethod/) | Gets or sets method used while converting images to 1 bpp format when [ImageType](../../aspose.cells.drawing/imagetype/) is Tiff and [TiffCompression](../tiffcompression/) is equal to Ccitt3 or Ccitt4. |
@@ -81,6 +82,8 @@ class ImageOrPrintOptions
 | [SetPrintWithStatusDialog(bool value)](./setprintwithstatusdialog/) | If PrintWithStatusDialog = true , there will be a dialog that shows current print status. else no such dialog will show. |
 | [SetQuality(int32_t value)](./setquality/) | Gets or sets a value determining the quality of the generated images to apply only when saving pages to the **Jpeg** format. The default value is 100. |
 | [SetSheetSet(const SheetSet\& value)](./setsheetset/) | Gets or sets the sheets to render. Default is all visible sheets in the workbook: Aspose.Cells.Rendering.SheetSet.Visible. |
+| [SetSvgCssPrefix(const U16String\& value)](./setsvgcssprefix/) | Gets and sets the prefix of the css name in svg,the default value is empty string. |
+| [SetSvgCssPrefix(const char16_t* value)](./setsvgcssprefix/) | Gets and sets the prefix of the css name in svg,the default value is empty string. |
 | [SetSVGFitToViewPort(bool value)](./setsvgfittoviewport/) | if this property is true, the generated svg will fit to view port. |
 | [SetTextCrossType(TextCrossType value)](./settextcrosstype/) | Gets or sets displaying text type when the text width is larger than cell width. |
 | [SetTiffBinarizationMethod(ImageBinarizationMethod value)](./settiffbinarizationmethod/) | Gets or sets method used while converting images to 1 bpp format when [ImageType](../../aspose.cells.drawing/imagetype/) is Tiff and [TiffCompression](../tiffcompression/) is equal to Ccitt3 or Ccitt4. |

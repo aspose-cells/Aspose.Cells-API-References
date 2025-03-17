@@ -4,7 +4,7 @@ linktitle: SetTextVerticalAlignment
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::SetTextVerticalAlignment method. Gets and sets the text vertical alignment type of the shape in C++.'
 type: docs
-weight: 17600
+weight: 17700
 url: /cpp/aspose.cells.drawing/shape/settextverticalalignment/
 ---
 ## Shape::SetTextVerticalAlignment method

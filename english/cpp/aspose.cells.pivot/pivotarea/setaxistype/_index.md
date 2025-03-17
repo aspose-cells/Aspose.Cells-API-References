@@ -4,7 +4,7 @@ linktitle: SetAxisType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotArea::SetAxisType method. Gets and sets the region of the PivotTable to which this rule applies in C++.'
 type: docs
-weight: 1700
+weight: 1800
 url: /cpp/aspose.cells.pivot/pivotarea/setaxistype/
 ---
 ## PivotArea::SetAxisType method

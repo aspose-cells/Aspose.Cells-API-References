@@ -4,7 +4,7 @@ linktitle: SortBy
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotField::SortBy method. Sorts this pivot field in C++.'
 type: docs
-weight: 4600
+weight: 5300
 url: /cpp/aspose.cells.pivot/pivotfield/sortby/
 ---
 ## PivotField::SortBy(SortOrder, int32_t) method

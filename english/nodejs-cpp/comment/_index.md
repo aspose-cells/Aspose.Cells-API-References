@@ -57,8 +57,8 @@ comment.setNote("Second note.");
 | [setTextHorizontalAlignment(TextAlignmentType)](#setTextHorizontalAlignment-textalignmenttype-)| Gets and sets the text horizontal alignment type of the comment. |
 | [getTextVerticalAlignment()](#getTextVerticalAlignment--)| Gets and sets the text vertical alignment type of the comment. |
 | [setTextVerticalAlignment(TextAlignmentType)](#setTextVerticalAlignment-textalignmenttype-)| Gets and sets the text vertical alignment type of the comment. |
-| [getAutoSize()](#getAutoSize--)| Indicates if size of comment is adjusted automatically according to its content. |
-| [setAutoSize(boolean)](#setAutoSize-boolean-)| Indicates if size of comment is adjusted automatically according to its content. |
+| [getAutoSize()](#getAutoSize--)| Indicates if size of comment is adjusted automatically according to its content. Note: In some special cases (such as Mac environment), this setting may not take effect. If this setting does not take effect, please replace it with FitToTextSize(). |
+| [setAutoSize(boolean)](#setAutoSize-boolean-)| Indicates if size of comment is adjusted automatically according to its content. Note: In some special cases (such as Mac environment), this setting may not take effect. If this setting does not take effect, please replace it with FitToTextSize(). |
 | [getHeightCM()](#getHeightCM--)| Represents the height of the comment, in unit of centimeters. |
 | [setHeightCM(number)](#setHeightCM-number-)| Represents the height of the comment, in unit of centimeters. |
 | [getWidthCM()](#getWidthCM--)| Represents the width of the comment, in unit of centimeters. |
@@ -327,7 +327,7 @@ setTextVerticalAlignment(value: TextAlignmentType) : void;
 
 ### getAutoSize() {#getAutoSize--}
 
-Indicates if size of comment is adjusted automatically according to its content.
+Indicates if size of comment is adjusted automatically according to its content. Note: In some special cases (such as Mac environment), this setting may not take effect. If this setting does not take effect, please replace it with FitToTextSize().
 
 ```javascript
 getAutoSize() : boolean;
@@ -336,7 +336,7 @@ getAutoSize() : boolean;
 
 ### setAutoSize(boolean) {#setAutoSize-boolean-}
 
-Indicates if size of comment is adjusted automatically according to its content.
+Indicates if size of comment is adjusted automatically according to its content. Note: In some special cases (such as Mac environment), this setting may not take effect. If this setting does not take effect, please replace it with FitToTextSize().
 
 ```javascript
 setAutoSize(value: boolean) : void;

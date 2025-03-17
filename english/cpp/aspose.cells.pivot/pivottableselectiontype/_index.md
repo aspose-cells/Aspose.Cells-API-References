@@ -4,7 +4,7 @@ linktitle: PivotTableSelectionType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTableSelectionType enum. Specifies what can be selected in a PivotTable during a structured selection. These constants can be combined to select multiple types in C++.'
 type: docs
-weight: 4000
+weight: 4400
 url: /cpp/aspose.cells.pivot/pivottableselectiontype/
 ---
 ## PivotTableSelectionType enum

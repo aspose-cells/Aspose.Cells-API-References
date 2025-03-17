@@ -67,8 +67,8 @@ class Cells
 | [DeleteRows(int32_t rowIndex, int32_t totalRows, bool updateReference)](./deleterows/) | Deletes multiple rows in the worksheet. |
 | [DeleteRows(int32_t rowIndex, int32_t totalRows, const DeleteOptions\& options)](./deleterows/) | Deletes multiple rows in the worksheet. |
 | [Dispose()](./dispose/) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
-| [EndCellInColumn(int16_t columnIndex)](./endcellincolumn/) | Gets the last cell in this column. |
-| [EndCellInColumn(int32_t startRow, int32_t endRow, int16_t startColumn, int16_t endColumn)](./endcellincolumn/) | Gets the last cell with maximum column index in this range. |
+| [EndCellInColumn(int32_t columnIndex)](./endcellincolumn/) | Gets the last cell in this column. |
+| [EndCellInColumn(int32_t startRow, int32_t endRow, int32_t startColumn, int32_t endColumn)](./endcellincolumn/) | Gets the last cell with maximum column index in this range. |
 | [EndCellInRow(int32_t rowIndex)](./endcellinrow/) | Gets the last cell in this row. |
 | [EndCellInRow(int32_t startRow, int32_t endRow, int32_t startColumn, int32_t endColumn)](./endcellinrow/) | Gets the last cell with maximum row index in this range. |
 | [ExportArray(int32_t firstRow, int32_t firstColumn, int32_t totalRows, int32_t totalColumns)](./exportarray/) | Exports data in the [Cells](./) collection to a two-dimension array object. |
@@ -78,6 +78,8 @@ class Cells
 | [Get(const U16String\& cellName)](./get/) | Gets the [Cell](../cell/) element at the specified cell name. |
 | [Get(const char16_t* cellName)](./get/) | Gets the [Cell](../cell/) element at the specified cell name. |
 | [GetCell(int32_t row, int32_t column)](./getcell/) |  **(Deprecated)** Gets the [Cell](../cell/) element or null at the specified cell row index and column index. |
+| [GetCellDisplayStyle(int32_t row, int32_t column)](./getcelldisplaystyle/) | Get the display style of given cell. |
+| [GetCellDisplayStyle(int32_t row, int32_t column, BorderType adjacentBorders)](./getcelldisplaystyle/) | Get the display style of given cell. |
 | [GetCellStyle(int32_t row, int32_t column)](./getcellstyle/) | Get the style of given cell. |
 | [GetCellsWithPlaceInCellPicture()](./getcellswithplaceincellpicture/) | Gets all cells that contain embedded picture. |
 | [GetColumnOriginalWidthPoint(int32_t column)](./getcolumnoriginalwidthpoint/) |  **(Deprecated)** Gets original column's height in unit of point if the column is hidden. |
@@ -148,7 +150,6 @@ class Cells
 | [ImportCSV(const char16_t* fileName, const TxtLoadOptions\& options, int32_t firstRow, int32_t firstColumn)](./importcsv/) | Import a CSV file to the cells. |
 | [ImportCSV(const Vector \<uint8_t\>\& stream, const TxtLoadOptions\& options, int32_t firstRow, int32_t firstColumn)](./importcsv/) | Import a CSV file to the cells. |
 | [ImportFormulaArray(const Vector \<U16String\>\& stringArray, int32_t firstRow, int32_t firstColumn, bool isVertical)](./importformulaarray/) | Imports an array of formula into a worksheet. |
-| [ImportObjectArray(const Vector \<Aspose::Cells::Object\>\& objArray, int32_t firstRow, int32_t firstColumn, bool isVertical, int32_t skip)](./importobjectarray/) | Imports an array of data into a worksheet. |
 | [InsertColumn(int32_t columnIndex, bool updateReference)](./insertcolumn/) | Inserts a new column into the worksheet. |
 | [InsertColumn(int32_t columnIndex)](./insertcolumn/) | Inserts a new column into the worksheet. |
 | [InsertColumns(int32_t columnIndex, int32_t totalColumns)](./insertcolumns/) | Inserts some columns into the worksheet. |

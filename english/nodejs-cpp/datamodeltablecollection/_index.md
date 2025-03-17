@@ -20,6 +20,7 @@ class DataModelTableCollection;
 | Method | Description |
 | --- | --- |
 | [get(number)](#get-number-)| Gets the data model table by position of the collection. |
+| [get(string)](#get-string-)| Gets the data model table by the name. |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
@@ -36,6 +37,23 @@ get(index: number) : DataModelTable;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | number | The position of the collection. |
+
+**Returns**
+
+[DataModelTable](../datamodeltable/)
+
+### get(string) {#get-string-}
+
+Gets the data model table by the name.
+
+```javascript
+get(name: string) : DataModelTable;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | string | The name of data model table. |
 
 **Returns**
 

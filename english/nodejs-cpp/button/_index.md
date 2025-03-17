@@ -230,9 +230,12 @@ workbook.save("output/DrawingButton.xls");
 | [moveToRange(number, number, number, number)](#moveToRange-number-number-number-number-)| Moves the shape to a specified range. |
 | [alignTopRightCorner(number, number)](#alignTopRightCorner-number-number-)| Moves the picture to the top-right corner. |
 | [getConnectionPoints()](#getConnectionPoints--)| Get the connection points |
-| [toImage(Uint8Array, ImageType)](#toImage-uint8array-imagetype-)| Creates the shape image and saves it to a stream in the specified format. |
+| [toImage(ImageType)](#toImage-imagetype-)| Creates the shape image and saves it to a stream in the specified format. |
 | [toImage(string, ImageOrPrintOptions)](#toImage-string-imageorprintoptions-)| Saves the shape to a file. |
 | [toImage(ImageOrPrintOptions)](#toImage-imageorprintoptions-)| Saves the shape to a stream. |
+| [toImageAsync(ImageType)](#toImageAsync-imagetype-)| Creates the shape image and saves it to a stream in the specified format. |
+| [toImageAsync(string, ImageOrPrintOptions)](#toImageAsync-string-imageorprintoptions-)| Saves the shape to a file. |
+| [toImageAsync(ImageOrPrintOptions)](#toImageAsync-imageorprintoptions-)| Saves the shape to a stream. |
 | [getLinkedCell(boolean, boolean)](#getLinkedCell-boolean-boolean-)| Gets the range linked to the control's value. |
 | [setLinkedCell(string, boolean, boolean)](#setLinkedCell-string-boolean-boolean-)| Sets the range linked to the control's value. |
 | [getInputRange(boolean, boolean)](#getInputRange-boolean-boolean-)| Gets the range used to fill the control. |
@@ -245,6 +248,7 @@ workbook.save("output/DrawingButton.xls");
 | [removeActiveXControl()](#removeActiveXControl--)| Remove activeX control. |
 | [isSameSetting(object)](#isSameSetting-object-)| Returns whether the shape is same. |
 | [getActualBox()](#getActualBox--)| Get the actual position and size of the shape (after applying rotation, flip, etc.) |
+| [fitToTextSize()](#fitToTextSize--)| Recalculate a text area suitable for displaying all text content. |
 
 
 ### constructor(Shape) {#constructor-shape-}
@@ -2402,19 +2406,22 @@ getConnectionPoints() : number[][];
 
 [X,Y] pairs of the connection point. Every item is a float[2] array, [0] represents x and [1] represents y.
 
-### toImage(Uint8Array, ImageType) {#toImage-uint8array-imagetype-}
+### toImage(ImageType) {#toImage-imagetype-}
 
 Creates the shape image and saves it to a stream in the specified format.
 
 ```javascript
-toImage(stream: Uint8Array, imageType: ImageType) : void;
+toImage(imageType: ImageType) : Uint8Array;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | Uint8Array | The output stream. |
 | imageType | [ImageType](../imagetype/) | The type in which to save the image. |
+
+**Returns**
+
+The result stream
 
 **Remarks**
 
@@ -2440,6 +2447,62 @@ Saves the shape to a stream.
 
 ```javascript
 toImage(options: ImageOrPrintOptions) : Uint8Array;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | [ImageOrPrintOptions](../imageorprintoptions/) |  |
+
+**Returns**
+
+The result stream
+
+### toImageAsync(ImageType) {#toImageAsync-imagetype-}
+
+Creates the shape image and saves it to a stream in the specified format.
+
+```javascript
+toImageAsync(imageType: ImageType) : Promise<Uint8Array>;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| imageType | [ImageType](../imagetype/) | The type in which to save the image. |
+
+**Returns**
+
+The result stream
+
+**Remarks**
+
+The following formats are supported: .bmp, .gif, .jpg, .jpeg, .tiff, .emf.
+
+### toImageAsync(string, ImageOrPrintOptions) {#toImageAsync-string-imageorprintoptions-}
+
+Saves the shape to a file.
+
+```javascript
+toImageAsync(imageFile: string, options: ImageOrPrintOptions) : Promise<void>;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| imageFile | string |  |
+| options | [ImageOrPrintOptions](../imageorprintoptions/) |  |
+
+**Returns**
+
+[Promise<void>](../promise<void>/)
+
+### toImageAsync(ImageOrPrintOptions) {#toImageAsync-imageorprintoptions-}
+
+Saves the shape to a stream.
+
+```javascript
+toImageAsync(options: ImageOrPrintOptions) : Promise<Uint8Array>;
 ```
 
 **Parameters:**
@@ -2628,5 +2691,14 @@ Return the position and size in the order of x, y, w, h
 **Remarks**
 
 Note:The interface is not fully functional, especially the location information is not correct.It is recommended not to use this interface until the function is complete.
+
+### fitToTextSize() {#fitToTextSize--}
+
+Recalculate a text area suitable for displaying all text content.
+
+```javascript
+fitToTextSize() : void;
+```
+
 
 

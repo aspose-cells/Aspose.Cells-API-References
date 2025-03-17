@@ -21,6 +21,7 @@ Represents the format in which the workbook is saved.
 | [AZW_3](#AZW-3) | Represents Azw3 file. |
 | [BMP](#BMP) | Windows Bitmap |
 | [CSV](#CSV) | Comma-Separated Values(CSV) text file. |
+| [DBF](#DBF) | Xbase Data file |
 | [DIF](#DIF) | Data Interchange Format. |
 | [DOCX](#DOCX) | Represents .docx file. |
 | [EMF](#EMF) | Windows Enhanced Metafile. |
@@ -102,6 +103,14 @@ public static final int CSV
 
 
 Comma-Separated Values(CSV) text file.
+
+### DBF {#DBF}
+```
+public static final int DBF
+```
+
+
+Xbase Data file
 
 ### DIF {#DIF}
 ```
@@ -401,7 +410,7 @@ public static final int X_HTML
 ```
 
 
-Rrepesents XHtml file.
+Rrepesents XHtml file. please use [HtmlSaveOptions.getHtmlVersion()](../../com.aspose.cells/htmlsaveoptions\#getHtmlVersion--) property. This property will be removed 6 months later since March 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

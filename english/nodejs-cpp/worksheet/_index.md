@@ -127,21 +127,38 @@ sheet.getHyperlinks().add("A1", 1, 1, "http://www.aspose.com");
 | [copy(Worksheet, CopyOptions)](#copy-worksheet-copyoptions-)| Copies contents and formats from another worksheet. |
 | [autoFitColumn(number, number, number)](#autoFitColumn-number-number-number-)| Autofits the column width. |
 | [autoFitColumn(number)](#autoFitColumn-number-)| Autofits the column width. |
+| [autoFitColumnAsync(number, number, number)](#autoFitColumnAsync-number-number-number-)| Autofits the column width. |
+| [autoFitColumnAsync(number)](#autoFitColumnAsync-number-)| Autofits the column width. |
 | [autoFitColumns()](#autoFitColumns--)| Autofits all columns in this worksheet. |
 | [autoFitColumns(AutoFitterOptions)](#autoFitColumns-autofitteroptions-)| Autofits all columns in this worksheet. |
 | [autoFitColumns(number, number)](#autoFitColumns-number-number-)| Autofits the columns width. |
 | [autoFitColumns(number, number, AutoFitterOptions)](#autoFitColumns-number-number-autofitteroptions-)| Autofits the columns width. |
 | [autoFitColumns(number, number, number, number)](#autoFitColumns-number-number-number-number-)| Autofits the columns width. |
 | [autoFitColumns(number, number, number, number, AutoFitterOptions)](#autoFitColumns-number-number-number-number-autofitteroptions-)| Autofits the columns width. |
+| [autoFitColumnsAsync()](#autoFitColumnsAsync--)| Autofits all columns in this worksheet. |
+| [autoFitColumnsAsync(AutoFitterOptions)](#autoFitColumnsAsync-autofitteroptions-)| Autofits all columns in this worksheet. |
+| [autoFitColumnsAsync(number, number)](#autoFitColumnsAsync-number-number-)| Autofits the columns width. |
+| [autoFitColumnsAsync(number, number, AutoFitterOptions)](#autoFitColumnsAsync-number-number-autofitteroptions-)| Autofits the columns width. |
+| [autoFitColumnsAsync(number, number, number, number)](#autoFitColumnsAsync-number-number-number-number-)| Autofits the columns width. |
+| [autoFitColumnsAsync(number, number, number, number, AutoFitterOptions)](#autoFitColumnsAsync-number-number-number-number-autofitteroptions-)| Autofits the columns width. |
 | [autoFitRow(number, number, number)](#autoFitRow-number-number-number-)| Autofits the row height. |
 | [autoFitRow(number, number, number, AutoFitterOptions)](#autoFitRow-number-number-number-autofitteroptions-)| Autofits the row height. |
 | [autoFitRow(number, number, number, number)](#autoFitRow-number-number-number-number-)| Autofits row height in a rectangle range. |
 | [autoFitRow(number)](#autoFitRow-number-)| Autofits the row height. |
+| [autoFitRowAsync(number, number, number)](#autoFitRowAsync-number-number-number-)| Autofits the row height. |
+| [autoFitRowAsync(number, number, number, AutoFitterOptions)](#autoFitRowAsync-number-number-number-autofitteroptions-)| Autofits the row height. |
+| [autoFitRowAsync(number, number, number, number)](#autoFitRowAsync-number-number-number-number-)| Autofits row height in a rectangle range. |
+| [autoFitRowAsync(number)](#autoFitRowAsync-number-)| Autofits the row height. |
 | [autoFitRows()](#autoFitRows--)| Autofits all rows in this worksheet. |
 | [autoFitRows(boolean)](#autoFitRows-boolean-)| Autofits all rows in this worksheet. |
 | [autoFitRows(AutoFitterOptions)](#autoFitRows-autofitteroptions-)| Autofits all rows in this worksheet. |
 | [autoFitRows(number, number)](#autoFitRows-number-number-)| Autofits row height in a range. |
 | [autoFitRows(number, number, AutoFitterOptions)](#autoFitRows-number-number-autofitteroptions-)| Autofits row height in a range. |
+| [autoFitRowsAsync()](#autoFitRowsAsync--)| Autofits all rows in this worksheet. |
+| [autoFitRowsAsync(boolean)](#autoFitRowsAsync-boolean-)| Autofits all rows in this worksheet. |
+| [autoFitRowsAsync(AutoFitterOptions)](#autoFitRowsAsync-autofitteroptions-)| Autofits all rows in this worksheet. |
+| [autoFitRowsAsync(number, number)](#autoFitRowsAsync-number-number-)| Autofits row height in a range. |
+| [autoFitRowsAsync(number, number, AutoFitterOptions)](#autoFitRowsAsync-number-number-autofitteroptions-)| Autofits row height in a range. |
 | [getAdvancedFilter()](#getAdvancedFilter--)| Gets the settings of advanced filter. |
 | [advanced_Filter(boolean, string, string, string, boolean)](#advanced_Filter-boolean-string-string-string-boolean-)| Filters data using complex criteria. |
 | [removeAutoFilter()](#removeAutoFilter--)| Removes the auto filter of the worksheet. |
@@ -164,11 +181,20 @@ sheet.getHyperlinks().add("A1", 1, 1, "http://www.aspose.com");
 | [calculateFormula(string, CalculationOptions)](#calculateFormula-string-calculationoptions-)| Calculates a formula expression directly. |
 | [calculateFormula(string, FormulaParseOptions, CalculationOptions, number, number, CalculationData)](#calculateFormula-string-formulaparseoptions-calculationoptions-number-number-calculationdata-)| Calculates a formula expression directly. |
 | [calculateFormula(CalculationOptions, boolean)](#calculateFormula-calculationoptions-boolean-)| Calculates all formulas in this worksheet. |
+| [calculateFormulaAsync(string)](#calculateFormulaAsync-string-)| Calculates a formula. |
+| [calculateFormulaAsync(string, CalculationOptions)](#calculateFormulaAsync-string-calculationoptions-)| Calculates a formula expression directly. |
+| [calculateFormulaAsync(string, FormulaParseOptions, CalculationOptions, number, number, CalculationData)](#calculateFormulaAsync-string-formulaparseoptions-calculationoptions-number-number-calculationdata-)| Calculates a formula expression directly. |
+| [calculateFormulaAsync(CalculationOptions, boolean)](#calculateFormulaAsync-calculationoptions-boolean-)| Calculates all formulas in this worksheet. |
 | [calculateArrayFormula(string, CalculationOptions)](#calculateArrayFormula-string-calculationoptions-)| Calculates a formula as array formula. |
 | [calculateArrayFormula(string, CalculationOptions, number, number)](#calculateArrayFormula-string-calculationoptions-number-number-)| Calculates a formula as array formula. |
 | [calculateArrayFormula(string, FormulaParseOptions, CalculationOptions, number, number, number, number, CalculationData)](#calculateArrayFormula-string-formulaparseoptions-calculationoptions-number-number-number-number-calculationdata-)| Calculates a formula as array formula. |
+| [calculateArrayFormulaAsync(string, CalculationOptions)](#calculateArrayFormulaAsync-string-calculationoptions-)| Calculates a formula as array formula. |
+| [calculateArrayFormulaAsync(string, CalculationOptions, number, number)](#calculateArrayFormulaAsync-string-calculationoptions-number-number-)| Calculates a formula as array formula. |
+| [calculateArrayFormulaAsync(string, FormulaParseOptions, CalculationOptions, number, number, number, number, CalculationData)](#calculateArrayFormulaAsync-string-formulaparseoptions-calculationoptions-number-number-number-number-calculationdata-)| Calculates a formula as array formula. |
 | [refreshPivotTables()](#refreshPivotTables--)| Refreshes all the PivotTables in this Worksheet. |
 | [refreshPivotTables(PivotTableRefreshOption)](#refreshPivotTables-pivottablerefreshoption-)| Refreshes all the PivotTables in this Worksheet. |
+| [refreshPivotTablesAsync()](#refreshPivotTablesAsync--)| Refreshes all the PivotTables in this Worksheet. |
+| [refreshPivotTablesAsync(PivotTableRefreshOption)](#refreshPivotTablesAsync-pivottablerefreshoption-)| Refreshes all the PivotTables in this Worksheet. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -1389,6 +1415,50 @@ autoFitColumn(columnIndex: number) : void;
 
 AutoFitColumn is an imprecise function.
 
+### autoFitColumnAsync(number, number, number) {#autoFitColumnAsync-number-number-number-}
+
+Autofits the column width.
+
+```javascript
+autoFitColumnAsync(columnIndex: number, firstRow: number, lastRow: number) : Promise<void>;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| columnIndex | number | Column index. |
+| firstRow | number | First row index. |
+| lastRow | number | Last row index. |
+
+**Returns**
+
+[Promise<void>](../promise<void>/)
+
+**Remarks**
+
+This method autofits a row based on content in a range of cells within the row.
+
+### autoFitColumnAsync(number) {#autoFitColumnAsync-number-}
+
+Autofits the column width.
+
+```javascript
+autoFitColumnAsync(columnIndex: number) : Promise<void>;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| columnIndex | number | Column index. |
+
+**Returns**
+
+[Promise<void>](../promise<void>/)
+
+**Remarks**
+
+AutoFitColumn is an imprecise function.
+
 ### autoFitColumns() {#autoFitColumns--}
 
 Autofits all columns in this worksheet.
@@ -1489,6 +1559,130 @@ autoFitColumns(firstRow: number, firstColumn: number, lastRow: number, lastColum
 
 AutoFitColumn is an imprecise function.
 
+### autoFitColumnsAsync() {#autoFitColumnsAsync--}
+
+Autofits all columns in this worksheet.
+
+```javascript
+autoFitColumnsAsync() : Promise<void>;
+```
+
+
+**Returns**
+
+[Promise<void>](../promise<void>/)
+
+### autoFitColumnsAsync(AutoFitterOptions) {#autoFitColumnsAsync-autofitteroptions-}
+
+Autofits all columns in this worksheet.
+
+```javascript
+autoFitColumnsAsync(options: AutoFitterOptions) : Promise<void>;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | [AutoFitterOptions](../autofitteroptions/) | The auto fitting options |
+
+**Returns**
+
+[Promise<void>](../promise<void>/)
+
+### autoFitColumnsAsync(number, number) {#autoFitColumnsAsync-number-number-}
+
+Autofits the columns width.
+
+```javascript
+autoFitColumnsAsync(firstColumn: number, lastColumn: number) : Promise<void>;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| firstColumn | number | First column index. |
+| lastColumn | number | Last column index. |
+
+**Returns**
+
+[Promise<void>](../promise<void>/)
+
+**Remarks**
+
+AutoFitColumn is an imprecise function.
+
+### autoFitColumnsAsync(number, number, AutoFitterOptions) {#autoFitColumnsAsync-number-number-autofitteroptions-}
+
+Autofits the columns width.
+
+```javascript
+autoFitColumnsAsync(firstColumn: number, lastColumn: number, options: AutoFitterOptions) : Promise<void>;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| firstColumn | number | First column index. |
+| lastColumn | number | Last column index. |
+| options | [AutoFitterOptions](../autofitteroptions/) | The auto fitting options |
+
+**Returns**
+
+[Promise<void>](../promise<void>/)
+
+**Remarks**
+
+AutoFitColumn is an imprecise function.
+
+### autoFitColumnsAsync(number, number, number, number) {#autoFitColumnsAsync-number-number-number-number-}
+
+Autofits the columns width.
+
+```javascript
+autoFitColumnsAsync(firstRow: number, firstColumn: number, lastRow: number, lastColumn: number) : Promise<void>;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| firstRow | number | First row index. |
+| firstColumn | number | First column index. |
+| lastRow | number | Last row index. |
+| lastColumn | number | Last column index. |
+
+**Returns**
+
+[Promise<void>](../promise<void>/)
+
+**Remarks**
+
+AutoFitColumn is an imprecise function.
+
+### autoFitColumnsAsync(number, number, number, number, AutoFitterOptions) {#autoFitColumnsAsync-number-number-number-number-autofitteroptions-}
+
+Autofits the columns width.
+
+```javascript
+autoFitColumnsAsync(firstRow: number, firstColumn: number, lastRow: number, lastColumn: number, options: AutoFitterOptions) : Promise<void>;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| firstRow | number | First row index. |
+| firstColumn | number | First column index. |
+| lastRow | number | Last row index. |
+| lastColumn | number | Last column index. |
+| options | [AutoFitterOptions](../autofitteroptions/) | The auto fitting options |
+
+**Returns**
+
+[Promise<void>](../promise<void>/)
+
+**Remarks**
+
+AutoFitColumn is an imprecise function.
+
 ### autoFitRow(number, number, number) {#autoFitRow-number-number-number-}
 
 Autofits the row height.
@@ -1561,6 +1755,94 @@ autoFitRow(rowIndex: number) : void;
 
 AutoFitRow is an imprecise function.
 
+### autoFitRowAsync(number, number, number) {#autoFitRowAsync-number-number-number-}
+
+Autofits the row height.
+
+```javascript
+autoFitRowAsync(rowIndex: number, firstColumn: number, lastColumn: number) : Promise<void>;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| rowIndex | number | Row index. |
+| firstColumn | number | First column index. |
+| lastColumn | number | Last column index. |
+
+**Returns**
+
+[Promise<void>](../promise<void>/)
+
+**Remarks**
+
+This method autofits a row based on content in a range of cells within the row.
+
+### autoFitRowAsync(number, number, number, AutoFitterOptions) {#autoFitRowAsync-number-number-number-autofitteroptions-}
+
+Autofits the row height.
+
+```javascript
+autoFitRowAsync(rowIndex: number, firstColumn: number, lastColumn: number, options: AutoFitterOptions) : Promise<void>;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| rowIndex | number | Row index. |
+| firstColumn | number | First column index. |
+| lastColumn | number | Last column index. |
+| options | [AutoFitterOptions](../autofitteroptions/) | The auto fitter options |
+
+**Returns**
+
+[Promise<void>](../promise<void>/)
+
+**Remarks**
+
+This method autofits a row based on content in a range of cells within the row.
+
+### autoFitRowAsync(number, number, number, number) {#autoFitRowAsync-number-number-number-number-}
+
+Autofits row height in a rectangle range.
+
+```javascript
+autoFitRowAsync(startRow: number, endRow: number, startColumn: number, endColumn: number) : Promise<void>;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| startRow | number | Start row index. |
+| endRow | number | End row index. |
+| startColumn | number | Start column index. |
+| endColumn | number | End column index. |
+
+**Returns**
+
+[Promise<void>](../promise<void>/)
+
+### autoFitRowAsync(number) {#autoFitRowAsync-number-}
+
+Autofits the row height.
+
+```javascript
+autoFitRowAsync(rowIndex: number) : Promise<void>;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| rowIndex | number | Row index. |
+
+**Returns**
+
+[Promise<void>](../promise<void>/)
+
+**Remarks**
+
+AutoFitRow is an imprecise function.
+
 ### autoFitRows() {#autoFitRows--}
 
 Autofits all rows in this worksheet.
@@ -1624,6 +1906,90 @@ autoFitRows(startRow: number, endRow: number, options: AutoFitterOptions) : void
 | startRow | number | Start row index. |
 | endRow | number | End row index. |
 | options | [AutoFitterOptions](../autofitteroptions/) | The options of auto fitter. |
+
+### autoFitRowsAsync() {#autoFitRowsAsync--}
+
+Autofits all rows in this worksheet.
+
+```javascript
+autoFitRowsAsync() : Promise<void>;
+```
+
+
+**Returns**
+
+[Promise<void>](../promise<void>/)
+
+### autoFitRowsAsync(boolean) {#autoFitRowsAsync-boolean-}
+
+Autofits all rows in this worksheet.
+
+```javascript
+autoFitRowsAsync(onlyAuto: boolean) : Promise<void>;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| onlyAuto | boolean | True,only autofits the row height when row height is not customed. |
+
+**Returns**
+
+[Promise<void>](../promise<void>/)
+
+### autoFitRowsAsync(AutoFitterOptions) {#autoFitRowsAsync-autofitteroptions-}
+
+Autofits all rows in this worksheet.
+
+```javascript
+autoFitRowsAsync(options: AutoFitterOptions) : Promise<void>;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | [AutoFitterOptions](../autofitteroptions/) | The auto fitter options |
+
+**Returns**
+
+[Promise<void>](../promise<void>/)
+
+### autoFitRowsAsync(number, number) {#autoFitRowsAsync-number-number-}
+
+Autofits row height in a range.
+
+```javascript
+autoFitRowsAsync(startRow: number, endRow: number) : Promise<void>;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| startRow | number | Start row index. |
+| endRow | number | End row index. |
+
+**Returns**
+
+[Promise<void>](../promise<void>/)
+
+### autoFitRowsAsync(number, number, AutoFitterOptions) {#autoFitRowsAsync-number-number-autofitteroptions-}
+
+Autofits row height in a range.
+
+```javascript
+autoFitRowsAsync(startRow: number, endRow: number, options: AutoFitterOptions) : Promise<void>;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| startRow | number | Start row index. |
+| endRow | number | End row index. |
+| options | [AutoFitterOptions](../autofitteroptions/) | The options of auto fitter. |
+
+**Returns**
+
+[Promise<void>](../promise<void>/)
 
 ### getAdvancedFilter() {#getAdvancedFilter--}
 
@@ -1979,6 +2345,89 @@ calculateFormula(options: CalculationOptions, recursive: boolean) : void;
 | options | [CalculationOptions](../calculationoptions/) | Options for calculation |
 | recursive | boolean | True means if the worksheet' cells depend on the cells of other worksheets,         ///  the dependent cells in other worksheets will be calculated too.         ///  False means all the formulas in the worksheet have been calculated and the values are right. |
 
+### calculateFormulaAsync(string) {#calculateFormulaAsync-string-}
+
+Calculates a formula.
+
+```javascript
+calculateFormulaAsync(formula: string) : Promise<object>;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| formula | string | Formula to be calculated. |
+
+**Returns**
+
+Calculated formula result.
+
+### calculateFormulaAsync(string, CalculationOptions) {#calculateFormulaAsync-string-calculationoptions-}
+
+Calculates a formula expression directly.
+
+```javascript
+calculateFormulaAsync(formula: string, opts: CalculationOptions) : Promise<object>;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| formula | string | Formula to be calculated. |
+| opts | [CalculationOptions](../calculationoptions/) | Options for calculating formula |
+
+**Returns**
+
+Calculated result of given formula. The returned object may be of possible types of [Cell.Value](../cell.value/), or ReferredArea.
+
+**Remarks**
+
+The formula will be calculated just like it has been set to cell A1. And the formula will be taken as normal formula. If you need the formula be calculated as an array formula and to get an array for the calculated result, please use [CalculateArrayFormula(string, CalculationOptions)](../calculatearrayformula(string, calculationoptions)/) instead.
+
+### calculateFormulaAsync(string, FormulaParseOptions, CalculationOptions, number, number, CalculationData) {#calculateFormulaAsync-string-formulaparseoptions-calculationoptions-number-number-calculationdata-}
+
+Calculates a formula expression directly.
+
+```javascript
+calculateFormulaAsync(formula: string, pOpts: FormulaParseOptions, cOpts: CalculationOptions, baseCellRow: number, baseCellColumn: number, calculationData: CalculationData) : Promise<object>;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| formula | string | Formula to be calculated. |
+| pOpts | [FormulaParseOptions](../formulaparseoptions/) | Options for parsing formula. |
+| cOpts | [CalculationOptions](../calculationoptions/) | Options for calculating formula. |
+| baseCellRow | number | The row index of the base cell. |
+| baseCellColumn | number | The column index of the base cell. |
+| calculationData | [CalculationData](../calculationdata/) | The calculation data. It is used for the situation         /// that user needs to calculate some static formulas when implementing custom calculation engine.         /// For such kind of situation, user needs to specify it with the calculation data provided         /// for [AbstractCalculationEngine.Calculate(CalculationData)](../abstractcalculationengine.calculate(calculationdata)/). |
+
+**Returns**
+
+Calculated result of given formula. The returned object may be of possible types of [Cell.Value](../cell.value/), or ReferredArea.
+
+**Remarks**
+
+The formula will be calculated just like it has been set to the specified base cell. And the formula will be taken as normal formula. If you need the formula be calculated as an array formula and to get an array for the calculated result, please use [CalculateArrayFormula(string, FormulaParseOptions, CalculationOptions, int, int, int, int, CalculationData)](../calculatearrayformula(string, formulaparseoptions, calculationoptions, int, int, int, int, calculationdata)/) instead.
+
+### calculateFormulaAsync(CalculationOptions, boolean) {#calculateFormulaAsync-calculationoptions-boolean-}
+
+Calculates all formulas in this worksheet.
+
+```javascript
+calculateFormulaAsync(options: CalculationOptions, recursive: boolean) : Promise<void>;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | [CalculationOptions](../calculationoptions/) | Options for calculation |
+| recursive | boolean | True means if the worksheet' cells depend on the cells of other worksheets,         ///  the dependent cells in other worksheets will be calculated too.         ///  False means all the formulas in the worksheet have been calculated and the values are right. |
+
+**Returns**
+
+[Promise<void>](../promise<void>/)
+
 ### calculateArrayFormula(string, CalculationOptions) {#calculateArrayFormula-string-calculationoptions-}
 
 Calculates a formula as array formula.
@@ -2049,6 +2498,76 @@ Calculated formula result.
 
 The formula will be taken as dynamic array formula to calculate the dimension and result. User specified maximum dimension is used for cases that the calculated result is large data set (for example, the calculated result may correspond to a whole row or column data) but user does not need so large an array according to business requirement or for performance consideration.
 
+### calculateArrayFormulaAsync(string, CalculationOptions) {#calculateArrayFormulaAsync-string-calculationoptions-}
+
+Calculates a formula as array formula.
+
+```javascript
+calculateArrayFormulaAsync(formula: string, opts: CalculationOptions) : Promise<object[][]>;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| formula | string | Formula to be calculated. |
+| opts | [CalculationOptions](../calculationoptions/) | Options for calculating formula |
+
+**Returns**
+
+[Promise<object[][]>](../promise<object[][]>/)
+
+### calculateArrayFormulaAsync(string, CalculationOptions, number, number) {#calculateArrayFormulaAsync-string-calculationoptions-number-number-}
+
+Calculates a formula as array formula.
+
+```javascript
+calculateArrayFormulaAsync(formula: string, opts: CalculationOptions, maxRowCount: number, maxColumnCount: number) : Promise<object[][]>;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| formula | string | Formula to be calculated. |
+| opts | [CalculationOptions](../calculationoptions/) | Options for calculating formula |
+| maxRowCount | number | the maximum row count of resultant data.         /// If it is non-positive or greater than the actual row count, then actual row count will be used. |
+| maxColumnCount | number | the maximum column count of resultant data.         /// If it is non-positive or greater than the actual row count, then actual column count will be used. |
+
+**Returns**
+
+Calculated formula result.
+
+**Remarks**
+
+The formula will be taken as dynamic array formula to calculate the dimension and result. User specified maximum dimension is used for cases that the calculated result is large data set (for example, the calculated result may correspond to a whole row or column data) but user does not need so large an array according to business requirement or for performance consideration.
+
+### calculateArrayFormulaAsync(string, FormulaParseOptions, CalculationOptions, number, number, number, number, CalculationData) {#calculateArrayFormulaAsync-string-formulaparseoptions-calculationoptions-number-number-number-number-calculationdata-}
+
+Calculates a formula as array formula.
+
+```javascript
+calculateArrayFormulaAsync(formula: string, pOpts: FormulaParseOptions, cOpts: CalculationOptions, baseCellRow: number, baseCellColumn: number, maxRowCount: number, maxColumnCount: number, calculationData: CalculationData) : Promise<object[][]>;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| formula | string | Formula to be calculated. |
+| pOpts | [FormulaParseOptions](../formulaparseoptions/) | Options for parsing formula |
+| cOpts | [CalculationOptions](../calculationoptions/) | Options for calculating formula |
+| baseCellRow | number | The row index of the base cell. |
+| baseCellColumn | number | The column index of the base cell. |
+| maxRowCount | number | The maximum row count of resultant data.         /// If it is non-positive or greater than the actual row count, then actual row count will be used. |
+| maxColumnCount | number | The maximum column count of resultant data.         /// If it is non-positive or greater than the actual row count, then actual column count will be used. |
+| calculationData | [CalculationData](../calculationdata/) | The calculation data. It is used for the situation         /// that user needs to calculate some static formulas when implementing custom calculation engine.         /// For such kind of situation, user needs to specify it with the calculation data provided         /// for [AbstractCalculationEngine.Calculate(CalculationData)](../abstractcalculationengine.calculate(calculationdata)/). |
+
+**Returns**
+
+Calculated formula result.
+
+**Remarks**
+
+The formula will be taken as dynamic array formula to calculate the dimension and result. User specified maximum dimension is used for cases that the calculated result is large data set (for example, the calculated result may correspond to a whole row or column data) but user does not need so large an array according to business requirement or for performance consideration.
+
 ### refreshPivotTables() {#refreshPivotTables--}
 
 Refreshes all the PivotTables in this Worksheet.
@@ -2070,6 +2589,36 @@ refreshPivotTables(option: PivotTableRefreshOption) : boolean;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | option | [PivotTableRefreshOption](../pivottablerefreshoption/) | The option for refreshing data source of pivot table. |
+
+### refreshPivotTablesAsync() {#refreshPivotTablesAsync--}
+
+Refreshes all the PivotTables in this Worksheet.
+
+```javascript
+refreshPivotTablesAsync() : Promise<void>;
+```
+
+
+**Returns**
+
+[Promise<void>](../promise<void>/)
+
+### refreshPivotTablesAsync(PivotTableRefreshOption) {#refreshPivotTablesAsync-pivottablerefreshoption-}
+
+Refreshes all the PivotTables in this Worksheet.
+
+```javascript
+refreshPivotTablesAsync(option: PivotTableRefreshOption) : Promise<boolean>;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| option | [PivotTableRefreshOption](../pivottablerefreshoption/) | The option for refreshing data source of pivot table. |
+
+**Returns**
+
+[Promise<boolean>](../promise<boolean>/)
 
 ### isNull() {#isNull--}
 

@@ -17,6 +17,7 @@ public class VbaModule
 
 | Name | Description |
 | --- | --- |
+| [BinaryCodes](../../aspose.cells.vba/vbamodule/binarycodes/) { get; } | Gets and sets the binary codes of module. |
 | [Codes](../../aspose.cells.vba/vbamodule/codes/) { get; set; } | Gets and sets the codes of module. |
 | [Name](../../aspose.cells.vba/vbamodule/name/) { get; set; } | Gets and sets the name of Module. |
 | [Type](../../aspose.cells.vba/vbamodule/type/) { get; } | Gets the type of module. |

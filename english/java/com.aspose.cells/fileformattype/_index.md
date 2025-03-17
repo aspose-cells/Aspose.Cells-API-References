@@ -21,6 +21,7 @@ Represents the file format types.
 | [BMP](#BMP) | Represents a BMP file. |
 | [CHM](#CHM) | CHM |
 | [CSV](#CSV) | Comma-Separated Values(CSV) text file. |
+| [DBF](#DBF) | Xbase Data file |
 | [DIF](#DIF) | Data Interchange Format. |
 | [DOC](#DOC) | Represents a doc file. |
 | [DOCM](#DOCM) | Represents a docm file. |
@@ -142,6 +143,14 @@ public static final int CSV
 
 
 Comma-Separated Values(CSV) text file.
+
+### DBF {#DBF}
+```
+public static final int DBF
+```
+
+
+Xbase Data file
 
 ### DIF {#DIF}
 ```

@@ -23,6 +23,8 @@ class DataModelTableCollection
 | [DataModelTableCollection(DataModelTableCollection_Impl* impl)](./datamodeltablecollection/) | Constructs from an implementation object. |
 | [DataModelTableCollection(const DataModelTableCollection\& src)](./datamodeltablecollection/) | Copy constructor. |
 | [Get(int32_t index)](./get/) | Gets the data model table by position of the collection. |
+| [Get(const U16String\& name)](./get/) | Gets the data model table by the name. |
+| [Get(const char16_t* name)](./get/) | Gets the data model table by the name. |
 | [GetCount()](./getcount/) |  |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |

@@ -4,7 +4,7 @@ linktitle: SetIsAutoSubtotals
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotField::SetIsAutoSubtotals method. Indicates whether the specified field shows automatic subtotals. Default is true in C++.'
 type: docs
-weight: 2500
+weight: 3200
 url: /cpp/aspose.cells.pivot/pivotfield/setisautosubtotals/
 ---
 ## PivotField::SetIsAutoSubtotals method

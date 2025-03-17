@@ -4,7 +4,7 @@ linktitle: SetMissingItemsLimit
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::SetMissingItemsLimit method. Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them in C++.'
 type: docs
-weight: 8300
+weight: 9000
 url: /cpp/aspose.cells.pivot/pivottable/setmissingitemslimit/
 ---
 ## PivotTable::SetMissingItemsLimit method

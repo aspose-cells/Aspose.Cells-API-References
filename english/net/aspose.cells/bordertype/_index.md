@@ -18,14 +18,18 @@ public enum BorderType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| BottomBorder | `8` | Represents bottom border line. |
-| DiagonalDown | `10` | Represents the diagonal line from top left to right bottom. |
-| DiagonalUp | `20` | Represents the diagonal line from bottom left to right top. |
 | LeftBorder | `1` | Represents left border line. |
 | RightBorder | `2` | Represents right border line exists. |
 | TopBorder | `4` | Represents top border line. |
-| Horizontal | `80` | Only for dynamic style,such as conditional formatting. |
-| Vertical | `40` | Only for dynamic style,such as conditional formatting. |
+| BottomBorder | `8` | Represents bottom border line. |
+| DiagonalDown | `10` | Represents the diagonal line from top left to right bottom. |
+| DiagonalUp | `20` | Represents the diagonal line from bottom left to right top. |
+| Vertical | `40` | Only for dynamic style, such as conditional formatting. |
+| Horizontal | `80` | Only for dynamic style, such as conditional formatting. |
+| SideBorders | `F` | Indicates the four side borders: LeftBorder, RightBorder, TopBorder and BottomBorder. |
+| Diagonal | `30` | Special combination of multiple borders for user's convenience for some APIs. Indicates diagonal borders of DiagonalUp and DiagonalDown. |
+| DynamicStyleBorders | `C0` | Indicates Vertical and Horizontal of dynamic style. |
+| None | `0` | No border has been specified. |
 
 ### Examples
 

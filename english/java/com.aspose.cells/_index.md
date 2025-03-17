@@ -188,12 +188,15 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [DateTime](../com.aspose.cells/datetime) | Represents an instant in time, typically expressed as a date and time of day. |
 | [DateTimeGroupItem](../com.aspose.cells/datetimegroupitem) | Represents the datetime's group setting. |
 | [DateTimeGroupingType](../com.aspose.cells/datetimegroupingtype) | Specifies how to group dateTime values. |
+| [DbfLoadOptions](../com.aspose.cells/dbfloadoptions) | Represents the options of loading .dbf file. |
+| [DbfSaveOptions](../com.aspose.cells/dbfsaveoptions) | Represents the options of saving dbf file |
 | [DefaultEditLanguage](../com.aspose.cells/defaulteditlanguage) | Represents the default edit language. |
 | [DefaultStyleSettings](../com.aspose.cells/defaultstylesettings) | Settings for the default values of workbook's style properties. |
 | [DeleteBlankOptions](../com.aspose.cells/deleteblankoptions) | Represents the setting of deleting blank cells/rows/columns. |
 | [DeleteOptions](../com.aspose.cells/deleteoptions) | Represents the setting of deleting rows/columns. |
 | [DelimiterEquationNode](../com.aspose.cells/delimiterequationnode) | This class specifies the delimiter equation, consisting of opening and closing delimiters (such as parentheses, braces, brackets, and vertical bars), and a component contained inside. |
 | [DialogBox](../com.aspose.cells/dialogbox) | Represents the dialog box. |
+| [DifLoadOptions](../com.aspose.cells/difloadoptions) | Represents the options of loading .dif file. |
 | [DifSaveOptions](../com.aspose.cells/difsaveoptions) | Represents the options of saving dif file. |
 | [DigitalSignature](../com.aspose.cells/digitalsignature) | Signature in file. |
 | [DigitalSignatureCollection](../com.aspose.cells/digitalsignaturecollection) | Provides a collection of digital signatures attached to a document. |
@@ -265,6 +268,8 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [FolderFontSource](../com.aspose.cells/folderfontsource) | Represents the folder that contains TrueType font files. |
 | [Font](../com.aspose.cells/font) | Encapsulates the font object used in a spreadsheet. |
 | [FontConfigs](../com.aspose.cells/fontconfigs) | Specifies font settings |
+| [FontFileDataInfo](../com.aspose.cells/fontfiledatainfo) | Represents data infomation of font file data. |
+| [FontFileFormatType](../com.aspose.cells/fontfileformattype) | Represents font format type. |
 | [FontSchemeType](../com.aspose.cells/fontschemetype) | Represents the scheme type of the font. |
 | [FontSetting](../com.aspose.cells/fontsetting) | Represents a range of characters within the cell text. |
 | [FontSettingCollection](../com.aspose.cells/fontsettingcollection) | Represents the list of [FontSetting](../com.aspose.cells/fontsetting). |
@@ -314,6 +319,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [HtmlSaveOptions](../com.aspose.cells/htmlsaveoptions) | Represents the options for saving html file. |
 | [HtmlTableLoadOption](../com.aspose.cells/htmltableloadoption) | Represents the option when import table from html. |
 | [HtmlTableLoadOptionCollection](../com.aspose.cells/htmltableloadoptioncollection) | Represents the table options when importing html. |
+| [HtmlVersion](../com.aspose.cells/htmlversion) | Indicates the version of HTML is used when saving to Html formats. |
 | [Hyperlink](../com.aspose.cells/hyperlink) | Encapsulates the object that represents a hyperlink. |
 | [HyperlinkCollection](../com.aspose.cells/hyperlinkcollection) | Encapsulates a collection of [Hyperlink](../com.aspose.cells/hyperlink) objects. |
 | [IconFilter](../com.aspose.cells/iconfilter) | Represents icon filter. |
@@ -370,6 +376,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [MapChartProjectionType](../com.aspose.cells/mapchartprojectiontype) | Represents projection type of the map chart. |
 | [MapChartRegionType](../com.aspose.cells/mapchartregiontype) | Represents the region type of the map chart. |
 | [MarkdownSaveOptions](../com.aspose.cells/markdownsaveoptions) | Represents the save options for markdown. |
+| [MarkdownTableHeaderType](../com.aspose.cells/markdowntableheadertype) | Represents the header type of the table in the markdown file. |
 | [Marker](../com.aspose.cells/marker) | Represents the marker in a line chart, scatter chart, or radar chart. |
 | [MathematicalEquationNode](../com.aspose.cells/mathematicalequationnode) | This class specifies an equation or mathematical expression. |
 | [MatrixEquationNode](../com.aspose.cells/matrixequationnode) | This class specifies the Matrix equation, consisting of one or more elements laid out in one or more rows and one or more columns. |

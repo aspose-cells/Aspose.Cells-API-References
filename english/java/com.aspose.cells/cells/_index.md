@@ -93,8 +93,8 @@ Encapsulates a collection of cell relevant objects, such as [Cell](../../com.asp
 | [deleteRows(int rowIndex, int totalRows, boolean updateReference)](#deleteRows-int-int-boolean-) | Deletes multiple rows in the worksheet. |
 | [deleteRows(int rowIndex, int totalRows, DeleteOptions options)](#deleteRows-int-int-com.aspose.cells.DeleteOptions-) | Deletes multiple rows in the worksheet. |
 | [dispose()](#dispose--) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
-| [endCellInColumn(int startRow, int endRow, short startColumn, short endColumn)](#endCellInColumn-int-int-short-short-) | Gets the last cell with maximum column index in this range. |
-| [endCellInColumn(short columnIndex)](#endCellInColumn-short-) | Gets the last cell in this column. |
+| [endCellInColumn(int columnIndex)](#endCellInColumn-int-) | Gets the last cell in this column. |
+| [endCellInColumn(int startRow, int endRow, int startColumn, int endColumn)](#endCellInColumn-int-int-int-int-) | Gets the last cell with maximum column index in this range. |
 | [endCellInRow(int rowIndex)](#endCellInRow-int-) | Gets the last cell in this row. |
 | [endCellInRow(int startRow, int endRow, int startColumn, int endColumn)](#endCellInRow-int-int-int-int-) | Gets the last cell with maximum row index in this range. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
@@ -104,6 +104,8 @@ Encapsulates a collection of cell relevant objects, such as [Cell](../../com.asp
 | [find(Object what, Cell previousCell, FindOptions findOptions)](#find-java.lang.Object-com.aspose.cells.Cell-com.aspose.cells.FindOptions-) | Finds the cell containing with the input object. |
 | [get(int row, int column)](#get-int-int-) | Gets the [Cell](../../com.aspose.cells/cell) element at the specified cell row index and column index. |
 | [get(String cellName)](#get-java.lang.String-) | Gets the [Cell](../../com.aspose.cells/cell) element at the specified cell name. |
+| [getCellDisplayStyle(int row, int column)](#getCellDisplayStyle-int-int-) | Get the display style of given cell. |
+| [getCellDisplayStyle(int row, int column, int adjacentBorders)](#getCellDisplayStyle-int-int-int-) | Get the display style of given cell. |
 | [getCellStyle(int row, int column)](#getCellStyle-int-int-) | Get the style of given cell. |
 | [getCellsWithPlaceInCellPicture()](#getCellsWithPlaceInCellPicture--) | Gets all cells that contain embedded picture. |
 | [getClass()](#getClass--) |  |
@@ -884,9 +886,24 @@ public void dispose()
 
 Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
 
-### endCellInColumn(int startRow, int endRow, short startColumn, short endColumn) {#endCellInColumn-int-int-short-short-}
+### endCellInColumn(int columnIndex) {#endCellInColumn-int-}
 ```
-public Cell endCellInColumn(int startRow, int endRow, short startColumn, short endColumn)
+public Cell endCellInColumn(int columnIndex)
+```
+
+
+Gets the last cell in this column.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| columnIndex | int | Column index. |
+
+**Returns:**
+[Cell](../../com.aspose.cells/cell) - Cell object.
+### endCellInColumn(int startRow, int endRow, int startColumn, int endColumn) {#endCellInColumn-int-int-int-int-}
+```
+public Cell endCellInColumn(int startRow, int endRow, int startColumn, int endColumn)
 ```
 
 
@@ -897,23 +914,8 @@ Gets the last cell with maximum column index in this range.
 | --- | --- | --- |
 | startRow | int | Start row index. |
 | endRow | int | End row index. |
-| startColumn | short | Start column index. |
-| endColumn | short | End column index. |
-
-**Returns:**
-[Cell](../../com.aspose.cells/cell) - Cell object.
-### endCellInColumn(short columnIndex) {#endCellInColumn-short-}
-```
-public Cell endCellInColumn(short columnIndex)
-```
-
-
-Gets the last cell in this column.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| columnIndex | short | Column index. |
+| startColumn | int | Start column index. |
+| endColumn | int | End column index. |
 
 **Returns:**
 [Cell](../../com.aspose.cells/cell) - Cell object.
@@ -1089,6 +1091,47 @@ Gets the [Cell](../../com.aspose.cells/cell) element at the specified cell name.
 
 **Returns:**
 [Cell](../../com.aspose.cells/cell) - A [Cell](../../com.aspose.cells/cell) object
+### getCellDisplayStyle(int row, int column) {#getCellDisplayStyle-int-int-}
+```
+public Style getCellDisplayStyle(int row, int column)
+```
+
+
+Get the display style of given cell.
+
+**Remarks**
+
+Same with [Cell.getDisplayStyle()](../../com.aspose.cells/cell\#getDisplayStyle--), and same with using [BorderType.SIDE\_BORDERS](../../com.aspose.cells/bordertype\#SIDE-BORDERS) for [getCellDisplayStyle(int,int,int)](../../com.aspose.cells/cells\#getCellDisplayStyle-int-int-int-).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| row | int | row index of given cell |
+| column | int | column of given cell |
+
+**Returns:**
+[Style](../../com.aspose.cells/style) - the display style of given cell.
+### getCellDisplayStyle(int row, int column, int adjacentBorders) {#getCellDisplayStyle-int-int-int-}
+```
+public Style getCellDisplayStyle(int row, int column, int adjacentBorders)
+```
+
+
+Get the display style of given cell.
+
+**Remarks**
+
+If the cell is also affected by other settings such as conditional formatting, list objects, etc., then the display style may be different from [getCellStyle(int,int)](../../com.aspose.cells/cells\#getCellStyle-int-int-). And because those settings also may be applied to empty(non-existing) cells, using this method can avoid the instantiation of those empty cells so the performance will be better than getting the Cell instance from Cells and then calling [Cell.getDisplayStyle(int)](../../com.aspose.cells/cell\#getDisplayStyle-int-).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| row | int | row index of given cell |
+| column | int | column of given cell |
+| adjacentBorders | int | [BorderType](../../com.aspose.cells/bordertype). Indicates which borders need to be checked and adjusted according to the borders of adjacent cells. Please see the description for the same parameter of [Cell.getDisplayStyle(int)](../../com.aspose.cells/cell\#getDisplayStyle-int-). |
+
+**Returns:**
+[Style](../../com.aspose.cells/style) - the display style of given cell.
 ### getCellStyle(int row, int column) {#getCellStyle-int-int-}
 ```
 public Style getCellStyle(int row, int column)
@@ -1096,6 +1139,10 @@ public Style getCellStyle(int row, int column)
 
 
 Get the style of given cell.
+
+**Remarks**
+
+The returned style is only the one set for the cell or inherited from the row/column of the cell, does not include the applied properties by other settings such as conditional formattings.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1393,7 +1440,7 @@ Maximum column index of those cells that have been instantiated in the collectio
 
 **Remarks**
 
-Return -1 if there is no cell.
+Return -1 if there is no cell has been instantiated.
 
 **Returns:**
 int
@@ -1540,6 +1587,10 @@ public int getMinDataRow()
 
 
 Minimum row index of cell which contains data.
+
+**Remarks**
+
+Return -1 if there is no cell which contains data.
 
 **Returns:**
 int

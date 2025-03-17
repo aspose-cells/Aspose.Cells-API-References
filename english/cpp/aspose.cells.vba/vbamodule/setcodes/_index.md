@@ -4,7 +4,7 @@ linktitle: SetCodes
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Vba::VbaModule::SetCodes method. Gets and sets the codes of module in C++.'
 type: docs
-weight: 1000
+weight: 1100
 url: /cpp/aspose.cells.vba/vbamodule/setcodes/
 ---
 ## VbaModule::SetCodes(const U16String\&) method

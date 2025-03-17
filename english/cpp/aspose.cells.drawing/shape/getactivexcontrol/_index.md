@@ -4,7 +4,7 @@ linktitle: GetActiveXControl
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::GetActiveXControl method. Gets the ActiveX control in C++.'
 type: docs
-weight: 18000
+weight: 18200
 url: /cpp/aspose.cells.drawing/shape/getactivexcontrol/
 ---
 ## Shape::GetActiveXControl method

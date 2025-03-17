@@ -4,7 +4,7 @@ linktitle: WriteProtection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::WriteProtection class. Specifies write protection settings for a workbook in C++.'
 type: docs
-weight: 16300
+weight: 16600
 url: /cpp/aspose.cells/writeprotection/
 ---
 ## WriteProtection class
@@ -34,7 +34,6 @@ class WriteProtection
 | [SetRecommendReadOnly(bool value)](./setrecommendreadonly/) | Indicates if the Read Only Recommended option is selected. |
 | [ValidatePassword(const U16String\& password)](./validatepassword/) | Returns true if the specified password is the same as the write-protection password the file was protected with. |
 | [ValidatePassword(const char16_t* password)](./validatepassword/) | Returns true if the specified password is the same as the write-protection password the file was protected with. |
-| [WriteProtection()](./writeprotection/) | Default constructor. |
 | [WriteProtection(WriteProtection_Impl* impl)](./writeprotection/) | Constructs from an implementation object. |
 | [WriteProtection(const WriteProtection\& src)](./writeprotection/) | Copy constructor. |
 | [~WriteProtection()](./~writeprotection/) | Destructor. |

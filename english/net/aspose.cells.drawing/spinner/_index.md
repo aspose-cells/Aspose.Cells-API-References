@@ -133,6 +133,7 @@ public class Spinner : Shape
 | [AlignTopRightCorner](../../aspose.cells.drawing/shape/aligntoprightcorner/)(int, int) | Moves the picture to the top-right corner.(Inherited from [`Shape`](../shape/).) |
 | [CalculateTextSize](../../aspose.cells.drawing/shape/calculatetextsize/)() | Recalculate the text area(Inherited from [`Shape`](../shape/).) |
 | [Characters](../../aspose.cells.drawing/shape/characters/)(int, int) | Returns a Characters object that represents a range of characters within the text.(Inherited from [`Shape`](../shape/).) |
+| [FitToTextSize](../../aspose.cells.drawing/shape/fittotextsize/)() | Recalculate a text area suitable for displaying all text content.(Inherited from [`Shape`](../shape/).) |
 | [FormatCharacters](../../aspose.cells.drawing/shape/formatcharacters/)(int, int, Font, StyleFlag) | Formats some characters with the font setting.(Inherited from [`Shape`](../shape/).) |
 | [GetActualBox](../../aspose.cells.drawing/shape/getactualbox/)() | Get the actual position and size of the shape (after applying rotation, flip, etc.)(Inherited from [`Shape`](../shape/).) |
 | [GetCharacters](../../aspose.cells.drawing/shape/getcharacters/)() | (**Obsolete.**) Returns all Characters objects that represents a range of characters within the text .(Inherited from [`Shape`](../shape/).) |

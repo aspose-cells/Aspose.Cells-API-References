@@ -17,12 +17,13 @@ Represents look in type.
 
 | Field | Description |
 | --- | --- |
-| [COMMENTS](#COMMENTS) | Only find object from the comments. |
-| [FORMULAS](#FORMULAS) | If the cell contains a formula, find object from formula, else find it from the value. |
-| [ONLY_FORMULAS](#ONLY-FORMULAS) | Only find object from formulas. |
-| [ORIGINAL_VALUES](#ORIGINAL-VALUES) | Only find object from the original values. |
-| [VALUES](#VALUES) | Only find object from the formatted values. |
-| [VALUES_EXCLUDE_FORMULA_CELL](#VALUES-EXCLUDE-FORMULA-CELL) | Only find object from the values of cells which do not contains formula. |
+| [COMMENTS](#COMMENTS) | Finds object from cell's comment only. |
+| [FORMATTED_VALUES](#FORMATTED-VALUES) | Find object from cell's formatted value([Cell.getStringValue()](../../com.aspose.cells/cell\#getStringValue--)) only. |
+| [FORMULAS](#FORMULAS) | Finds the searched object from formula([Cell.getFormula()](../../com.aspose.cells/cell\#getFormula--)) if the cell is formula, otherwise finds from cell's original value(same with [ORIGINAL\_VALUES](../../com.aspose.cells/lookintype\#ORIGINAL-VALUES)). |
+| [ONLY_FORMULAS](#ONLY-FORMULAS) | Ignores cells that are not formula. |
+| [ORIGINAL_VALUES](#ORIGINAL-VALUES) | Find object from cell's original value only. |
+| [VALUES](#VALUES) | Finds object from cell's original value([Cell.getValue()](../../com.aspose.cells/cell\#getValue--)) and formatted value([Cell.getStringValue()](../../com.aspose.cells/cell\#getStringValue--)). |
+| [VALUES_EXCLUDE_FORMULA_CELL](#VALUES-EXCLUDE-FORMULA-CELL) | Ignores cells that are formula. |
 ## Methods
 
 | Method | Description |
@@ -42,7 +43,15 @@ public static final int COMMENTS
 ```
 
 
-Only find object from the comments.
+Finds object from cell's comment only. Ignores those cells that have no comment.
+
+### FORMATTED_VALUES {#FORMATTED-VALUES}
+```
+public static final int FORMATTED_VALUES
+```
+
+
+Find object from cell's formatted value([Cell.getStringValue()](../../com.aspose.cells/cell\#getStringValue--)) only.
 
 ### FORMULAS {#FORMULAS}
 ```
@@ -50,7 +59,7 @@ public static final int FORMULAS
 ```
 
 
-If the cell contains a formula, find object from formula, else find it from the value.
+Finds the searched object from formula([Cell.getFormula()](../../com.aspose.cells/cell\#getFormula--)) if the cell is formula, otherwise finds from cell's original value(same with [ORIGINAL\_VALUES](../../com.aspose.cells/lookintype\#ORIGINAL-VALUES)).
 
 ### ONLY_FORMULAS {#ONLY-FORMULAS}
 ```
@@ -58,7 +67,7 @@ public static final int ONLY_FORMULAS
 ```
 
 
-Only find object from formulas.
+Ignores cells that are not formula. For those cells that are formula, finds the searched object from formula([Cell.getFormula()](../../com.aspose.cells/cell\#getFormula--)).
 
 ### ORIGINAL_VALUES {#ORIGINAL-VALUES}
 ```
@@ -66,7 +75,7 @@ public static final int ORIGINAL_VALUES
 ```
 
 
-Only find object from the original values.
+Find object from cell's original value only.
 
 ### VALUES {#VALUES}
 ```
@@ -74,7 +83,7 @@ public static final int VALUES
 ```
 
 
-Only find object from the formatted values.
+Finds object from cell's original value([Cell.getValue()](../../com.aspose.cells/cell\#getValue--)) and formatted value([Cell.getStringValue()](../../com.aspose.cells/cell\#getStringValue--)).
 
 ### VALUES_EXCLUDE_FORMULA_CELL {#VALUES-EXCLUDE-FORMULA-CELL}
 ```
@@ -82,7 +91,7 @@ public static final int VALUES_EXCLUDE_FORMULA_CELL
 ```
 
 
-Only find object from the values of cells which do not contains formula.
+Ignores cells that are formula. For those cells that are not formula, it is same with [VALUES](../../com.aspose.cells/lookintype\#VALUES).
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

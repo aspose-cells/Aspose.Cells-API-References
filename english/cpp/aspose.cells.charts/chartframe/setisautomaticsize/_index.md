@@ -4,7 +4,7 @@ linktitle: SetIsAutomaticSize
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::ChartFrame::SetIsAutomaticSize method. Indicates whether the chart frame is automatic sized in C++.'
 type: docs
-weight: 2500
+weight: 2900
 url: /cpp/aspose.cells.charts/chartframe/setisautomaticsize/
 ---
 ## ChartFrame::SetIsAutomaticSize method

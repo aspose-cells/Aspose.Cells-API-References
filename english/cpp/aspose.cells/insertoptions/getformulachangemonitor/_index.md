@@ -13,7 +13,7 @@ url: /cpp/aspose.cells/insertoptions/getformulachangemonitor/
 Gets/sets the monitor for tracking changes caused by the insertion.
 
 ```cpp
-AbstractFormulaChangeMonitor Aspose::Cells::InsertOptions::GetFormulaChangeMonitor()
+AbstractFormulaChangeMonitor * Aspose::Cells::InsertOptions::GetFormulaChangeMonitor()
 ```
 
 ## See Also

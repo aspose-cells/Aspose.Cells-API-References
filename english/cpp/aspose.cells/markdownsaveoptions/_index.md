@@ -4,7 +4,7 @@ linktitle: MarkdownSaveOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::MarkdownSaveOptions class. Represents the save options for markdown in C++.'
 type: docs
-weight: 10100
+weight: 10200
 url: /cpp/aspose.cells/markdownsaveoptions/
 ---
 ## MarkdownSaveOptions class
@@ -32,8 +32,10 @@ class MarkdownSaveOptions : public Aspose::Cells::SaveOptions
 | [GetMergeAreas()](../saveoptions/getmergeareas/) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [GetRefreshChartCache()](../saveoptions/getrefreshchartcache/) | Indicates whether refreshing chart cache data. |
 | [GetSaveFormat()](../saveoptions/getsaveformat/) | Gets the save file format. |
+| [GetSheetSet()](./getsheetset/) | Gets or sets the sheets to render. Default is all visible sheets in the workbook: Aspose.Cells.Rendering.SheetSet.Active. |
 | [GetSortExternalNames()](../saveoptions/getsortexternalnames/) | Indicates whether sorting external defined names before saving file. |
 | [GetSortNames()](../saveoptions/getsortnames/) | Indicates whether sorting defined names before saving file. |
+| [GetTableHeaderType()](./gettableheadertype/) | Gets and sets how set the header of the table. |
 | [GetUpdateSmartArt()](../saveoptions/getupdatesmartart/) | Indicates whether updating smart art setting. The default value is false. |
 | [GetValidateMergedAreas()](../saveoptions/getvalidatemergedareas/) | Indicates whether validate merged cells before saving the file. |
 | [GetWarningCallback()](../saveoptions/getwarningcallback/) | Gets or sets warning callback. |
@@ -60,8 +62,10 @@ class MarkdownSaveOptions : public Aspose::Cells::SaveOptions
 | [SetLineSeparator(const char16_t* value)](./setlineseparator/) | Gets and sets the line separator. |
 | [SetMergeAreas(bool value)](../saveoptions/setmergeareas/) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [SetRefreshChartCache(bool value)](../saveoptions/setrefreshchartcache/) | Indicates whether refreshing chart cache data. |
+| [SetSheetSet(const SheetSet\& value)](./setsheetset/) | Gets or sets the sheets to render. Default is all visible sheets in the workbook: Aspose.Cells.Rendering.SheetSet.Active. |
 | [SetSortExternalNames(bool value)](../saveoptions/setsortexternalnames/) | Indicates whether sorting external defined names before saving file. |
 | [SetSortNames(bool value)](../saveoptions/setsortnames/) | Indicates whether sorting defined names before saving file. |
+| [SetTableHeaderType(MarkdownTableHeaderType value)](./settableheadertype/) | Gets and sets how set the header of the table. |
 | [SetUpdateSmartArt(bool value)](../saveoptions/setupdatesmartart/) | Indicates whether updating smart art setting. The default value is false. |
 | [SetValidateMergedAreas(bool value)](../saveoptions/setvalidatemergedareas/) | Indicates whether validate merged cells before saving the file. |
 | [SetWarningCallback(IWarningCallback* value)](../saveoptions/setwarningcallback/) | Gets or sets warning callback. |

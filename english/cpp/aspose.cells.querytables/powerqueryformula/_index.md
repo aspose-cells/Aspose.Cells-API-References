@@ -20,6 +20,7 @@ class PowerQueryFormula
 
 | Method | Description |
 | --- | --- |
+| [GetDescription()](./getdescription/) | Gets and sets the description of the power query formula. |
 | [GetFormulaDefinition()](./getformuladefinition/) | Gets the definition of the power query formula. |
 | [GetGroupName()](./getgroupname/) | Gets the name of group which contains this power query formula. |
 | [GetName()](./getname/) | Gets and sets the name of the power query formula. |
@@ -30,6 +31,8 @@ class PowerQueryFormula
 | [operator=(const PowerQueryFormula\& src)](./operator_asm/) | operator= |
 | [PowerQueryFormula(PowerQueryFormula_Impl* impl)](./powerqueryformula/) | Constructs from an implementation object. |
 | [PowerQueryFormula(const PowerQueryFormula\& src)](./powerqueryformula/) | Copy constructor. |
+| [SetDescription(const U16String\& value)](./setdescription/) | Gets and sets the description of the power query formula. |
+| [SetDescription(const char16_t* value)](./setdescription/) | Gets and sets the description of the power query formula. |
 | [SetName(const U16String\& value)](./setname/) | Gets and sets the name of the power query formula. |
 | [SetName(const char16_t* value)](./setname/) | Gets and sets the name of the power query formula. |
 | [~PowerQueryFormula()](./~powerqueryformula/) | Destructor. |

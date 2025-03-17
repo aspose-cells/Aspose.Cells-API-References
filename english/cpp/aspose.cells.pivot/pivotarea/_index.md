@@ -21,6 +21,7 @@ class PivotArea
 | Method | Description |
 | --- | --- |
 | [GetAxisType()](./getaxistype/) | Gets and sets the region of the [PivotTable](../pivottable/) to which this rule applies. |
+| [GetCellAreas()](./getcellareas/) | Gets cell areas of this pivot area. |
 | [GetFilters()](./getfilters/) | Gets all filters for this [PivotArea](./). |
 | [GetOnlyData()](./getonlydata/) | Indicates whether only the data values (in the data area of the view) for an item selection are selected and does not include the item labels. |
 | [GetOnlyLabel()](./getonlylabel/) | Indicates whether only the data labels for an item selection are selected. |
@@ -35,6 +36,9 @@ class PivotArea
 | [PivotArea(PivotArea_Impl* impl)](./pivotarea/) | Constructs from an implementation object. |
 | [PivotArea(const PivotArea\& src)](./pivotarea/) | Copy constructor. |
 | [Select(PivotFieldType axisType, int32_t fieldPosition, PivotTableSelectionType selectionType)](./select/) | Select the area with filters. |
+| [SelectField(PivotFieldType axisType, const U16String\& fieldName)](./selectfield/) | Select a field in the region as an area. |
+| [SelectField(PivotFieldType axisType, const char16_t* fieldName)](./selectfield/) | Select a field in the region as an area. |
+| [SelectField(PivotFieldType axisType, const PivotField\& field)](./selectfield/) | Select a field in the region as an area. |
 | [SetAxisType(PivotFieldType value)](./setaxistype/) | Gets and sets the region of the [PivotTable](../pivottable/) to which this rule applies. |
 | [SetIsColumnGrandIncluded(bool value)](./setiscolumngrandincluded/) | Indicates whether the column grand total is included. |
 | [SetIsOutline(bool value)](./setisoutline/) | Indicates whether the rule refers to an area that is in outline mode. |

@@ -4,7 +4,7 @@ linktitle: GetShowMemberPropertyTips
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::GetShowMemberPropertyTips method. Specifies a boolean value that indicates whether member property information should be omitted from PivotTable tooltips in C++.'
 type: docs
-weight: 8800
+weight: 9500
 url: /cpp/aspose.cells.pivot/pivottable/getshowmemberpropertytips/
 ---
 ## PivotTable::GetShowMemberPropertyTips method

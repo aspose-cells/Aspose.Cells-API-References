@@ -4,7 +4,7 @@ linktitle: PivotTableSourceType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTableSourceType enum. Represents data source type of the pivot table in C++.'
 type: docs
-weight: 4100
+weight: 4500
 url: /cpp/aspose.cells.pivot/pivottablesourcetype/
 ---
 ## PivotTableSourceType enum

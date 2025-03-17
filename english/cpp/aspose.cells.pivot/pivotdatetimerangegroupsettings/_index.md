@@ -4,7 +4,7 @@ linktitle: PivotDateTimeRangeGroupSettings
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotDateTimeRangeGroupSettings class. Represents the field grouped by date time range in C++.'
 type: docs
-weight: 500
+weight: 800
 url: /cpp/aspose.cells.pivot/pivotdatetimerangegroupsettings/
 ---
 ## PivotDateTimeRangeGroupSettings class

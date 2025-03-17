@@ -1,13 +1,13 @@
 ---
 title: GridJsWorkbook.GetImageStream
 second_title: Aspose.Cells for .NET API Reference
-description: GridJsWorkbook method. Get Stream of image from memory data
+description: GridJsWorkbook method. Get Stream of image
 type: docs
 url: /net/aspose.cells.gridjs/gridjsworkbook/getimagestream/
 ---
 ## GridJsWorkbook.GetImageStream method
 
-Get Stream of image from memory data.
+Get Stream of image.
 
 ```csharp
 public static Stream GetImageStream(string uid, string picid)
@@ -17,6 +17,10 @@ public static Stream GetImageStream(string uid, string picid)
 | --- | --- | --- |
 | uid | String | The unique id for the file cache. |
 | picid | String | The image id. |
+
+### Return Value
+
+The image stream
 
 ### See Also
 

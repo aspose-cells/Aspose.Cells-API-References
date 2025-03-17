@@ -4,7 +4,7 @@ linktitle: GetTable
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cell::GetTable method. Gets the table which contains this cell in C++.'
 type: docs
-weight: 7300
+weight: 7600
 url: /cpp/aspose.cells/cell/gettable/
 ---
 ## Cell::GetTable method

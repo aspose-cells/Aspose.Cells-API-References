@@ -4,7 +4,7 @@ linktitle: FontConfigs
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::FontConfigs class. Specifies font settings in C++.'
 type: docs
-weight: 6600
+weight: 6800
 url: /cpp/aspose.cells/fontconfigs/
 ---
 ## FontConfigs class
@@ -24,6 +24,8 @@ class FontConfigs
 | [FontConfigs(FontConfigs_Impl* impl)](./fontconfigs/) | Constructs from an implementation object. |
 | [FontConfigs(const FontConfigs\& src)](./fontconfigs/) | Copy constructor. |
 | static [GetDefaultFontName()](./getdefaultfontname/) | Gets or sets the default font name. |
+| static [GetFontFileDataInfo(const U16String\& fontName, bool isBold, bool isItalic, bool isExactStyle)](./getfontfiledatainfo/) | Get data infomation of font file data. |
+| static [GetFontFileDataInfo(const char16_t* fontName, bool isBold, bool isItalic, bool isExactStyle)](./getfontfiledatainfo/) | Get data infomation of font file data. |
 | static [GetFontSources()](./getfontsources/) | Gets a copy of the array that contains the list of sources. |
 | static [GetFontSubstitutes(const U16String\& originalFontName)](./getfontsubstitutes/) | Returns array containing font substitute names to be used if original font is not presented. |
 | static [GetFontSubstitutes(const char16_t* originalFontName)](./getfontsubstitutes/) | Returns array containing font substitute names to be used if original font is not presented. |

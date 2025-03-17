@@ -35,16 +35,14 @@ var styleFlag = new StyleFlag();
 styleFlag.setAll(true);
 
 //Change the default width of first ten columns
-for (var i = 0; i < 10; i++)
-{
+for (var i = 0; i < 10; i++) {
     worksheet.getCells().getColumns().get(i).setWidth(20);
 }
 
 //Get the Column with non default formatting
 var columns = worksheet.getCells().getColumns();
 var count = columns.getCount();
-for (var i = 0; i < count; i++)
-{
+for (var i = 0; i < count; i++) {
     var column = columns.getColumnByIndex(i);
     //Apply Style to first ten Columns
     column.applyStyle(style, styleFlag);

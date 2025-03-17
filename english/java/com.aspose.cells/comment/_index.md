@@ -162,7 +162,7 @@ public boolean getAutoSize()
 ```
 
 
-Indicates if size of comment is adjusted automatically according to its content.
+Indicates if size of comment is adjusted automatically according to its content. Note: In some special cases (such as Mac environment), this setting may not take effect. If this setting does not take effect, please replace it with FitToTextSize().
 
 **Example**
 
@@ -592,7 +592,7 @@ public void setAutoSize(boolean value)
 ```
 
 
-Indicates if size of comment is adjusted automatically according to its content.
+Indicates if size of comment is adjusted automatically according to its content. Note: In some special cases (such as Mac environment), this setting may not take effect. If this setting does not take effect, please replace it with FitToTextSize().
 
 **Parameters:**
 | Parameter | Type | Description |

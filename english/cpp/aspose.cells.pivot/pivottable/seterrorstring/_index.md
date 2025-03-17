@@ -4,7 +4,7 @@ linktitle: SetErrorString
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::SetErrorString method. Gets the string displayed in cells that contain errors when the DisplayErrorString property is true.The default value is an empty string in C++.'
 type: docs
-weight: 5100
+weight: 5600
 url: /cpp/aspose.cells.pivot/pivottable/seterrorstring/
 ---
 ## PivotTable::SetErrorString(const U16String\&) method

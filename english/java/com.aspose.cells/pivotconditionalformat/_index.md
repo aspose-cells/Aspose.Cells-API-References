@@ -63,7 +63,7 @@ Represents a PivotTable Format Condition in PivotFormatCondition Collection.
          //Add PivotFormatCondition
          int formatIndex = pivot.getConditionalFormats().add();
          PivotConditionalFormat pfc = pivot.getConditionalFormats().get(formatIndex);
-          pfc.addFieldArea(PivotFieldType.DATA, pivot.getDataFields().get(0));
+         pfc.addFieldArea(PivotFieldType.DATA, pivot.getDataFields().get(0));
          int idx = pfc.getFormatConditions().addCondition(FormatConditionType.CELL_VALUE);
          FormatCondition fc = pfc.getFormatConditions().get(idx);
          fc.setFormula1("100");
@@ -84,6 +84,7 @@ Represents a PivotTable Format Condition in PivotFormatCondition Collection.
 | [addCellArea(CellArea ca)](#addCellArea-com.aspose.cells.CellArea-) | Adds an area based on pivot table view. |
 | [addFieldArea(int axisType, PivotField field)](#addFieldArea-int-com.aspose.cells.PivotField-) | Adds an area of pivot field. |
 | [addFieldArea(int axisType, String fieldName)](#addFieldArea-int-java.lang.String-) | Adds an area of pivot field. |
+| [applyTo(int row, int column, int scope)](#applyTo-int-int-int-) | Applies the conditional format to range. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getCellAreas()](#getCellAreas--) | Gets all cell areas where this conditional format applies to. |
 | [getClass()](#getClass--) |  |
@@ -140,6 +141,21 @@ Adds an area of pivot field.
 | --- | --- | --- |
 | axisType | int | [PivotFieldType](../../com.aspose.cells/pivotfieldtype). The region type. |
 | fieldName | java.lang.String | The name of pivot field. |
+
+### applyTo(int row, int column, int scope) {#applyTo-int-int-int-}
+```
+public void applyTo(int row, int column, int scope)
+```
+
+
+Applies the conditional format to range. Only for the data region.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| row | int | The selected row. |
+| column | int | The selected column. |
+| scope | int | [PivotConditionFormatScopeType](../../com.aspose.cells/pivotconditionformatscopetype). The scope |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

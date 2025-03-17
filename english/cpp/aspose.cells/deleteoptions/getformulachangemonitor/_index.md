@@ -13,7 +13,7 @@ url: /cpp/aspose.cells/deleteoptions/getformulachangemonitor/
 Gets/sets the monitor for tracking changes caused by the deletion.
 
 ```cpp
-AbstractFormulaChangeMonitor Aspose::Cells::DeleteOptions::GetFormulaChangeMonitor()
+AbstractFormulaChangeMonitor * Aspose::Cells::DeleteOptions::GetFormulaChangeMonitor()
 ```
 
 ## See Also

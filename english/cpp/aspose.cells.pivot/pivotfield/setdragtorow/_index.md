@@ -4,7 +4,7 @@ linktitle: SetDragToRow
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotField::SetDragToRow method. Indicates whether the specified field can be dragged to the row position. The default value is true in C++.'
 type: docs
-weight: 3100
+weight: 3800
 url: /cpp/aspose.cells.pivot/pivotfield/setdragtorow/
 ---
 ## PivotField::SetDragToRow method

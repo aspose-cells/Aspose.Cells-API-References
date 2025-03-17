@@ -44,6 +44,8 @@ public enum LoadFormat
 | Unknown | `255` | Represents unrecognized format, cannot be loaded. |
 | Image | `254` | Image |
 | Json | `513` | Json |
+| Dif | `30` | Data Interchange Format. |
+| Dbf | `515` | Xbase Data file |
 
 ### Examples
 

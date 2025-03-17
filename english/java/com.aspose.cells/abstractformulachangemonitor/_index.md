@@ -16,7 +16,7 @@ Monitor for user to track the change of formulas during certain operations.
 
 **Remarks**
 
-For example, while deleting/inserting range of cells, formulas of other cells may be changed because of the shift of references.
+For example, while deleting/inserting range of cells, formulas of other cells may be changed because of the shift of references. Please note, methods in the monitor may be invoked multiple times for one object which contains the formula.
 
 **Example**
 
@@ -55,6 +55,7 @@ For example, while deleting/inserting range of cells, formulas of other cells ma
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [onCellFormulaChanged(int sheetIndex, int rowIndex, int columnIndex)](#onCellFormulaChanged-int-int-int-) | The event that will be triggered when the formula in a cell is changed. |
+| [onFormatConditionFormulaChanged(FormatCondition fc)](#onFormatConditionFormulaChanged-com.aspose.cells.FormatCondition-) | The event that will be triggered when the formula of FormatCondition is changed. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -130,6 +131,19 @@ The event that will be triggered when the formula in a cell is changed.
 | sheetIndex | int | The sheet index of the changed cell |
 | rowIndex | int | The row index of the changed cell |
 | columnIndex | int | The column index of the changed cell |
+
+### onFormatConditionFormulaChanged(FormatCondition fc) {#onFormatConditionFormulaChanged-com.aspose.cells.FormatCondition-}
+```
+public void onFormatConditionFormulaChanged(FormatCondition fc)
+```
+
+
+The event that will be triggered when the formula of FormatCondition is changed.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fc | [FormatCondition](../../com.aspose.cells/formatcondition) | The FormatCondition object whose formula is changed |
 
 ### toString() {#toString--}
 ```

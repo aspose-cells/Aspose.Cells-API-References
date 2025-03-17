@@ -22,6 +22,10 @@ public Style GetCellStyle(int row, int column)
 
 the style of given cell.
 
+### Remarks
+
+The returned style is only the one set for the cell or inherited from the row/column of the cell, does not include the applied properties by other settings such as conditional formattings.
+
 ### See Also
 
 * class [Style](../../style/)

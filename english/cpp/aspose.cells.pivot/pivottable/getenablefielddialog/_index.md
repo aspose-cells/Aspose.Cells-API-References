@@ -4,7 +4,7 @@ linktitle: GetEnableFieldDialog
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::GetEnableFieldDialog method. Indicates whether the PivotTable Field dialog box is available when the user double-clicks the PivotTable field in C++.'
 type: docs
-weight: 6800
+weight: 7300
 url: /cpp/aspose.cells.pivot/pivottable/getenablefielddialog/
 ---
 ## PivotTable::GetEnableFieldDialog method

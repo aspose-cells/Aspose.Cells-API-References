@@ -28,7 +28,7 @@ class DeleteOptions
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const DeleteOptions\& src)](./operator_asm/) | operator= |
-| [SetFormulaChangeMonitor(const AbstractFormulaChangeMonitor\& value)](./setformulachangemonitor/) | Gets/sets the monitor for tracking changes caused by the deletion. |
+| [SetFormulaChangeMonitor(AbstractFormulaChangeMonitor* value)](./setformulachangemonitor/) | Gets/sets the monitor for tracking changes caused by the deletion. |
 | [SetUpdateReference(bool value)](./setupdatereference/) | Indicates if update references in other worksheets. |
 | [~DeleteOptions()](./~deleteoptions/) | Destructor. |
 ## Fields

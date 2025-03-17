@@ -7,23 +7,20 @@ type: docs
 weight: 600
 url: /cpp/aspose.cells/license/setlicense/
 ---
-## License::SetLicense(U16String\&) method
+## License::SetLicense(const U16String\&) method
 
 
 Licenses the component.
 
 ```cpp
-void Aspose::Cells::License::SetLicense(U16String &licenseName)
+void Aspose::Cells::License::SetLicense(const U16String &licenseName)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| licenseName | U16String\& | The license file path. |
-
-
+| licenseName | const U16String\& | The license file path. |
 ## Examples
-
 
 ```cpp
 Aspose::Cells::Startup();
@@ -75,20 +72,19 @@ Aspose::Cells::Cleanup();
 * Class [License](../)
 * Namespace [Aspose::Cells](../../)
 * Library [Aspose.Cells for C++](../../../)
-## License::SetLicense(Vector \<uint8_t\>\&) method
+## License::SetLicense(const Vector \<uint8_t\>\&) method
 
 
 Licenses the component.
 
 ```cpp
-void Aspose::Cells::License::SetLicense(Vector<uint8_t> &stream)
+void Aspose::Cells::License::SetLicense(const Vector<uint8_t> &stream)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | Vector \<uint8_t\>\& | A Vector<uint8_t> that contains the license. |
-
+| stream | const Vector \<uint8_t\>\& | A Vector<uint8_t> that contains the license. |
 
 ## Examples
 
@@ -103,7 +99,6 @@ license.SetLicense(licData);
 
 Aspose::Cells::Cleanup();
 ```
-
 ## See Also
 
 * Class [Vector](../../vector/)

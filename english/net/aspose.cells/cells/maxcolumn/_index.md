@@ -15,7 +15,7 @@ public int MaxColumn { get; }
 
 ### Remarks
 
-Return -1 if there is no cell.
+Return -1 if there is no cell has been instantiated.
 
 ### See Also
 

@@ -131,10 +131,21 @@ chart.getTitle().setText("Income Analysis");
 | [toImage(ImageType)](#toImage-imagetype-)| Creates the chart image and saves it to a stream in the specified format. |
 | [toImage(string, ImageOrPrintOptions)](#toImage-string-imageorprintoptions-)| Creates the chart image and saves it to a file. The extension of the file name determines the format of the image. |
 | [toImage(ImageOrPrintOptions)](#toImage-imageorprintoptions-)| Creates the chart image and saves it to a stream in the specified format. |
+| [toImageAsync(string)](#toImageAsync-string-)| Creates the chart image and saves it to a file. The extension of the file name determines the format of the image. |
+| [toImageAsync(string, ImageType)](#toImageAsync-string-imagetype-)| Creates the chart image and saves it to a file in the specified image type. |
+| [toImageAsync(string, number)](#toImageAsync-string-number-)| Creates the chart image and saves it to a file in the Jpeg format. |
+| [toImageAsync(number)](#toImageAsync-number-)| Creates the chart image and saves it to a stream in the Jpeg format. |
+| [toImageAsync(ImageType)](#toImageAsync-imagetype-)| Creates the chart image and saves it to a stream in the specified format. |
+| [toImageAsync(string, ImageOrPrintOptions)](#toImageAsync-string-imageorprintoptions-)| Creates the chart image and saves it to a file. The extension of the file name determines the format of the image. |
+| [toImageAsync(ImageOrPrintOptions)](#toImageAsync-imageorprintoptions-)| Creates the chart image and saves it to a stream in the specified format. |
 | [toPdf(string)](#toPdf-string-)| Saves the chart to a pdf file. |
 | [toPdf(string, number, number, PageLayoutAlignmentType, PageLayoutAlignmentType)](#toPdf-string-number-number-pagelayoutalignmenttype-pagelayoutalignmenttype-)| Saves the chart to a pdf file. |
 | [toPdf()](#toPdf--)| Creates the chart pdf and saves it to a stream. |
 | [toPdf(number, number, PageLayoutAlignmentType, PageLayoutAlignmentType)](#toPdf-number-number-pagelayoutalignmenttype-pagelayoutalignmenttype-)| Creates the chart pdf and saves it to a stream. |
+| [toPdfAsync(string)](#toPdfAsync-string-)| Saves the chart to a pdf file. |
+| [toPdfAsync(string, number, number, PageLayoutAlignmentType, PageLayoutAlignmentType)](#toPdfAsync-string-number-number-pagelayoutalignmenttype-pagelayoutalignmenttype-)| Saves the chart to a pdf file. |
+| [toPdfAsync()](#toPdfAsync--)| Creates the chart pdf and saves it to a stream. |
+| [toPdfAsync(number, number, PageLayoutAlignmentType, PageLayoutAlignmentType)](#toPdfAsync-number-number-pagelayoutalignmenttype-pagelayoutalignmenttype-)| Creates the chart pdf and saves it to a stream. |
 | [getActualSize()](#getActualSize--)| Gets actual size of chart in unit of pixels. |
 | [hasAxis(AxisType, boolean)](#hasAxis-axistype-boolean-)| Returns which axes exist on the chart. |
 | [switchRowColumn()](#switchRowColumn--)| Switches row/column. |
@@ -1225,7 +1236,7 @@ toImage(imageFile: string, jpegQuality: number) : void;
 
 **Remarks**
 
-If the width or height is zero or the chart is not supported according to Supported Charts List, this method will do nothing.
+If the width or height is zero or the chart is not supported according to Supported Charts List, this method will do nothing. NOTE: This method is now obsolete. Instead, please use ToImage(string,ImageOrPrintOptions) method with specified quality. This method will be removed 12 months later since March 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 ### toImage(number) {#toImage-number-}
 
@@ -1343,6 +1354,156 @@ const buffer = Buffer.from(uint8Array);
 fs.writeFileSync("output/chart-stream.jpg", buffer);
 ```
 
+### toImageAsync(string) {#toImageAsync-string-}
+
+Creates the chart image and saves it to a file. The extension of the file name determines the format of the image.
+
+```javascript
+toImageAsync(imageFile: string) : Promise<void>;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| imageFile | string | The image file name with full path. |
+
+**Returns**
+
+[Promise<void>](../promise<void>/)
+
+**Remarks**
+
+The format of the image is specified by using the extension of the file name. For example, if you specify "myfile.png", then the image will be saved in the PNG format. The following file extensions are recognized: .bmp, .gif, .png, .jpg, .jpeg, .tiff, .tif, .emf.</p> If the width or height is zero or the chart is not supported according to Supported Charts List, this method will do nothing.
+
+### toImageAsync(string, ImageType) {#toImageAsync-string-imagetype-}
+
+Creates the chart image and saves it to a file in the specified image type.
+
+```javascript
+toImageAsync(imageFile: string, imageType: ImageType) : Promise<void>;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| imageFile | string | The image file name with full path. |
+| imageType | [ImageType](../imagetype/) | The image type in which to save the image. |
+
+**Returns**
+
+[Promise<void>](../promise<void>/)
+
+**Remarks**
+
+The type of the image is specified by using <c>imageType</c>. The following types are supported: ImageType.Bmp, ImageType.Gif, ImageType.Png, ImageType.Jpeg, ImageType.Tiff, ImageType.Emf.</p> If the width or height is zero or the chart is not supported according to Supported Charts List, this method will do nothing.
+
+### toImageAsync(string, number) {#toImageAsync-string-number-}
+
+Creates the chart image and saves it to a file in the Jpeg format.
+
+```javascript
+toImageAsync(imageFile: string, jpegQuality: number) : Promise<void>;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| imageFile | string | The image file name with full path. |
+| jpegQuality | number | Jpeg quality. |
+
+**Returns**
+
+[Promise<void>](../promise<void>/)
+
+**Remarks**
+
+If the width or height is zero or the chart is not supported according to Supported Charts List, this method will do nothing. NOTE: This method is now obsolete. Instead, please use ToImage(string,ImageOrPrintOptions) method with specified quality. This method will be removed 12 months later since March 2025. Aspose apologizes for any inconvenience you may have experienced.
+
+### toImageAsync(number) {#toImageAsync-number-}
+
+Creates the chart image and saves it to a stream in the Jpeg format.
+
+```javascript
+toImageAsync(jpegQuality: number) : Promise<Uint8Array>;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| jpegQuality | number | Jpeg quality. |
+
+**Returns**
+
+The result stream
+
+**Remarks**
+
+If the width or height is zero or the chart is not supported according to Supported Charts List, this method will do nothing.
+
+### toImageAsync(ImageType) {#toImageAsync-imagetype-}
+
+Creates the chart image and saves it to a stream in the specified format.
+
+```javascript
+toImageAsync(imageType: ImageType) : Promise<Uint8Array>;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| imageType | [ImageType](../imagetype/) | The image type in which to save the image. |
+
+**Returns**
+
+The result stream
+
+**Remarks**
+
+The type of the image is specified by using <c>imageType</c>. The following types are supported: ImageType.Bmp, ImageType.Gif, ImageType.Png, ImageType.Jpeg, ImageType.Tiff, ImageType.Emf.</p> If the width or height is zero or the chart is not supported according to Supported Charts List, this method will do nothing.
+
+### toImageAsync(string, ImageOrPrintOptions) {#toImageAsync-string-imageorprintoptions-}
+
+Creates the chart image and saves it to a file. The extension of the file name determines the format of the image.
+
+```javascript
+toImageAsync(imageFile: string, options: ImageOrPrintOptions) : Promise<void>;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| imageFile | string | The image file name with full path. |
+| options | [ImageOrPrintOptions](../imageorprintoptions/) | Additional image creation options |
+
+**Returns**
+
+[Promise<void>](../promise<void>/)
+
+**Remarks**
+
+The format of the image is specified by using the extension of the file name. For example, if you specify "myfile.png", then the image will be saved in the PNG format. The following file extensions are recognized: .bmp, .gif, .png, .jpg, .jpeg, .tiff, .tif, .emf.</p> If the width or height is zero or the chart is not supported according to Supported Charts List, this method will do nothing. Please refer to <a href="http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html">Supported Charts List</a> for more details.
+
+### toImageAsync(ImageOrPrintOptions) {#toImageAsync-imageorprintoptions-}
+
+Creates the chart image and saves it to a stream in the specified format.
+
+```javascript
+toImageAsync(options: ImageOrPrintOptions) : Promise<Uint8Array>;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | [ImageOrPrintOptions](../imageorprintoptions/) | Additional image creation options |
+
+**Returns**
+
+The result stream
+
+**Remarks**
+
+The type of the image is specified by using <c>options.ImageType</c>. The following formats are supported: ImageType.Bmp, ImageType.Gif, ImageType.Png, ImageType.Jpeg, ImageType.Tiff, ImageType.Emf.</p> If the width or height is zero or the chart is not supported according to Supported Charts List, this method will do nothing. Please refer to <a href="http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html">Supported Charts List</a> for more details.
+
 ### toPdf(string) {#toPdf-string-}
 
 Saves the chart to a pdf file.
@@ -1392,6 +1553,77 @@ Creates the chart pdf and saves it to a stream.
 
 ```javascript
 toPdf(desiredPageWidth: number, desiredPageHeight: number, hAlignmentType: PageLayoutAlignmentType, vAlignmentType: PageLayoutAlignmentType) : Uint8Array;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| desiredPageWidth | number | The desired page width in inches. |
+| desiredPageHeight | number | The desired page height in inches. |
+| hAlignmentType | [PageLayoutAlignmentType](../pagelayoutalignmenttype/) | The chart horizontal alignment type in the output page. |
+| vAlignmentType | [PageLayoutAlignmentType](../pagelayoutalignmenttype/) | The chart vertical alignment type in the output page. |
+
+**Returns**
+
+The result stream
+
+### toPdfAsync(string) {#toPdfAsync-string-}
+
+Saves the chart to a pdf file.
+
+```javascript
+toPdfAsync(fileName: string) : Promise<void>;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileName | string | the pdf file name with full path |
+
+**Returns**
+
+[Promise<void>](../promise<void>/)
+
+### toPdfAsync(string, number, number, PageLayoutAlignmentType, PageLayoutAlignmentType) {#toPdfAsync-string-number-number-pagelayoutalignmenttype-pagelayoutalignmenttype-}
+
+Saves the chart to a pdf file.
+
+```javascript
+toPdfAsync(fileName: string, desiredPageWidth: number, desiredPageHeight: number, hAlignmentType: PageLayoutAlignmentType, vAlignmentType: PageLayoutAlignmentType) : Promise<void>;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileName | string | the pdf file name with full path |
+| desiredPageWidth | number | The desired page width in inches. |
+| desiredPageHeight | number | The desired page height in inches. |
+| hAlignmentType | [PageLayoutAlignmentType](../pagelayoutalignmenttype/) | The chart horizontal alignment type in the output page. |
+| vAlignmentType | [PageLayoutAlignmentType](../pagelayoutalignmenttype/) | The chart vertical alignment type in the output page. |
+
+**Returns**
+
+[Promise<void>](../promise<void>/)
+
+### toPdfAsync() {#toPdfAsync--}
+
+Creates the chart pdf and saves it to a stream.
+
+```javascript
+toPdfAsync() : Promise<Uint8Array>;
+```
+
+
+**Returns**
+
+The result stream
+
+### toPdfAsync(number, number, PageLayoutAlignmentType, PageLayoutAlignmentType) {#toPdfAsync-number-number-pagelayoutalignmenttype-pagelayoutalignmenttype-}
+
+Creates the chart pdf and saves it to a stream.
+
+```javascript
+toPdfAsync(desiredPageWidth: number, desiredPageHeight: number, hAlignmentType: PageLayoutAlignmentType, vAlignmentType: PageLayoutAlignmentType) : Promise<Uint8Array>;
 ```
 
 **Parameters:**

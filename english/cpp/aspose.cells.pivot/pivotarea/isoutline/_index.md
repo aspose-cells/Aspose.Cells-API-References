@@ -4,7 +4,7 @@ linktitle: IsOutline
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotArea::IsOutline method. Indicates whether the rule refers to an area that is in outline mode in C++.'
 type: docs
-weight: 2000
+weight: 2100
 url: /cpp/aspose.cells.pivot/pivotarea/isoutline/
 ---
 ## PivotArea::IsOutline method

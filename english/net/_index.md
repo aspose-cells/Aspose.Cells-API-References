@@ -21,6 +21,8 @@ is_root: true
 | [Aspose.Cells.Drawing.Texts](./aspose.cells.drawing.texts/) | The **Aspose.Cells.Drawing.Texts** namespace provides classes that draw and format texts objects such paragraph, bullet and more. |
 | [Aspose.Cells.ExternalConnections](./aspose.cells.externalconnections/) | The **Aspose.Cells.ExternalConnections** namespace provides classes for external connections to retrieve data from external sources such as Databases and the Web. |
 | [Aspose.Cells.Json](./aspose.cells.json/) | The **Aspose.Cells.Json** namespace contains all classes of JSON. |
+| [Aspose.Cells.Loading](./aspose.cells.loading/) | The **Aspose.Cells.Loading** namespace provides options classes of loading files. |
+| [Aspose.Cells.Markdown](./aspose.cells.markdown/) | The **Aspose.Cells.Markdown** namespace contains classes that define settings for converting Excel to Markdown. |
 | [Aspose.Cells.Markup](./aspose.cells.markup/) | The **Aspose.Cells.Markup** namespace contains classes that represent customer defined semantics in a document: smart tags, custom XML and more markup tags. |
 | [Aspose.Cells.Metadata](./aspose.cells.metadata/) | The **Aspose.Cells.Metadata** namespace contains all classes of loading and saving metadata of Spreadsheets. |
 | [Aspose.Cells.Numbers](./aspose.cells.numbers/) | The **Aspose.Cells.Numbers** namespace contains all classes of loading and converting Apple Numbers files. |

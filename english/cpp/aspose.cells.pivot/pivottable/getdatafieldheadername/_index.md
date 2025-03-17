@@ -4,7 +4,7 @@ linktitle: GetDataFieldHeaderName
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::GetDataFieldHeaderName method. Gets and sets the name of the value area field header in the PivotTable in C++.'
 type: docs
-weight: 4800
+weight: 5300
 url: /cpp/aspose.cells.pivot/pivottable/getdatafieldheadername/
 ---
 ## PivotTable::GetDataFieldHeaderName method

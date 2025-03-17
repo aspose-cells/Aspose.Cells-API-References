@@ -119,11 +119,14 @@ is_root: true
 | [DataSorterKeyCollection](./datasorterkeycollection) | Represents the key list of data sorter. |
 | [DateTimeGroupItem](./datetimegroupitem) | Represents the datetime's group setting. |
 | [DBConnection](./dbconnection) | Specifies all properties associated with an ODBC or OLE DB external data connection. |
+| [DbfLoadOptions](./dbfloadoptions) | Represents the options of loading .dbf file. |
+| [DbfSaveOptions](./dbfsaveoptions) | Represents the options of saving dbf file |
 | [DefaultStyleSettings](./defaultstylesettings) | Settings for the default values of workbook's style properties. |
 | [DeleteBlankOptions](./deleteblankoptions) | Represents the setting of deleting blank cells/rows/columns. |
 | [DeleteOptions](./deleteoptions) | Represents the setting of deleting rows/columns. |
 | [DelimiterEquationNode](./delimiterequationnode) | This class specifies the delimiter equation, consisting of opening and closing delimiters (such as parentheses, braces, brackets, and vertical bars), and a component contained inside. The delimiter may have more than one component, with a designated separator character between each component. |
 | [Dialog_Box](./dialog_box) | Represents the dialog box. |
+| [DifLoadOptions](./difloadoptions) | Represents the options of loading .dif file. |
 | [DifSaveOptions](./difsaveoptions) | Represents the options of saving dif file. |
 | [DigitalSignature](./digitalsignature) | Signature in file. |
 | [DigitalSignatureCollection](./digitalsignaturecollection) | Provides a collection of digital signatures attached to a document. |
@@ -160,6 +163,7 @@ is_root: true
 | [FolderFontSource](./folderfontsource) | Represents the folder that contains TrueType font files. |
 | [Font](./font) | Encapsulates the font object used in a spreadsheet. |
 | [FontConfigs](./fontconfigs) | Specifies font settings |
+| [FontFileDataInfo](./fontfiledatainfo) | Represents data infomation of font file data. |
 | [FontSetting](./fontsetting) | Represents a range of characters within the cell text. |
 | [FontSettingCollection](./fontsettingcollection) | Represents the list of [FontSetting](../nodejs-cpp/fontsetting/). |
 | [FontSourceBase](./fontsourcebase) | This is an abstract base class for the classes that allow the user to specify various font sources |
@@ -588,6 +592,7 @@ is_root: true
 | [FilterCategory](./filtercategory) | Represents the category of the filter. |
 | [FilterOperatorType](./filteroperatortype) | Custom Filter operator type. |
 | [FilterType](./filtertype) | The filter type. |
+| [FontFileFormatType](./fontfileformattype) | Represents font format type. |
 | [FontSchemeType](./fontschemetype) | Represents the scheme type of the font. |
 | [FontSourceType](./fontsourcetype) | Specifies the type of a font source. |
 | [FontUnderlineType](./fontunderlinetype) | Enumerates the font underline types. |
@@ -609,6 +614,7 @@ is_root: true
 | [HtmlHiddenRowDisplayType](./htmlhiddenrowdisplaytype) | Represents two types of showing the hidden rows in html. |
 | [HtmlLinkTargetType](./htmllinktargettype) | Represents the type of target attribute in HTML <a/> tag. |
 | [HtmlOfficeMathOutputType](./htmlofficemathoutputtype) | Represents how export OfficeMath to HTML. |
+| [HtmlVersion](./htmlversion) | Indicates the version of HTML is used when saving to Html formats. |
 | [IconSetType](./iconsettype) | Icon set type for conditional formatting. The threshold values for triggering the different icons within a set are configurable, and the icon order is reversible. |
 | [ImageBinarizationMethod](./imagebinarizationmethod) | Specifies the method used to binarize image. |
 | [ImageType](./imagetype) | Specifies the type (format) of an image. |
@@ -630,6 +636,7 @@ is_root: true
 | [MapChartLabelLayout](./mapchartlabellayout) | Represents the layout of map chart's labels. |
 | [MapChartProjectionType](./mapchartprojectiontype) | Represents projection type of the map chart. |
 | [MapChartRegionType](./mapchartregiontype) | Represents the region type of the map chart. |
+| [MarkdownTableHeaderType](./markdowntableheadertype) | Represents the header type of the table in the markdown file. |
 | [MemorySetting](./memorysetting) | Memory usage options. |
 | [MergedCellsShrinkType](./mergedcellsshrinktype) | Represents the strategy to shrink merged cells for operations such as deleting blank rows/column. |
 | [MergeEmptyTdType](./mergeemptytdtype) | Represents the merge type for empty TD element when exporting file to html. |

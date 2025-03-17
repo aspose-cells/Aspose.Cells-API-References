@@ -4,37 +4,27 @@ linktitle: ToImage
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::ToImage method. Creates the shape image and saves it to a stream in the specified format in C++.'
 type: docs
-weight: 14100
+weight: 14200
 url: /cpp/aspose.cells.drawing/shape/toimage/
 ---
-## Shape::ToImage(const Vector \<uint8_t\>\&, Aspose::Cells::Drawing::ImageType) method
+## Shape::ToImage(Aspose::Cells::Drawing::ImageType) method
 
 
 Creates the shape image and saves it to a stream in the specified format.
 
 ```cpp
-void Aspose::Cells::Drawing::Shape::ToImage(const Vector<uint8_t> &stream, Aspose::Cells::Drawing::ImageType imageType)
+Vector<uint8_t> Aspose::Cells::Drawing::Shape::ToImage(Aspose::Cells::Drawing::ImageType imageType)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | const Vector \<uint8_t\>\& | The output stream. |
-| imageType | Aspose::Cells::Drawing::ImageType | The type in which to save the image. |
+| stream | Aspose::Cells::Drawing::ImageType | The output stream. |
 ## Remarks
 
 
 
 The following formats are supported: .bmp, .gif, .jpg, .jpeg, .tiff, .emf.
-
-## Examples
-
-
-```cpp
-Vector<uint8_t> imageStream {0};
-shape.ToImage(imageStream, ImageType::Png);
-```
-
 ## See Also
 
 * Class [Vector](../../../aspose.cells/vector/)

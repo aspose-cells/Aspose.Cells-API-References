@@ -4,7 +4,7 @@ linktitle: SetDragToHide
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotField::SetDragToHide method. Indicates whether the specified field can be dragged to the hide position. The default value is true in C++.'
 type: docs
-weight: 2900
+weight: 3600
 url: /cpp/aspose.cells.pivot/pivotfield/setdragtohide/
 ---
 ## PivotField::SetDragToHide method

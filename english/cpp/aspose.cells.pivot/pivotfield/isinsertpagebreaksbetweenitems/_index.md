@@ -4,7 +4,7 @@ linktitle: IsInsertPageBreaksBetweenItems
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotField::IsInsertPageBreaksBetweenItems method. Indicates whether inserting page breaks after each item. The default value is false in C++.'
 type: docs
-weight: 4200
+weight: 4900
 url: /cpp/aspose.cells.pivot/pivotfield/isinsertpagebreaksbetweenitems/
 ---
 ## PivotField::IsInsertPageBreaksBetweenItems method

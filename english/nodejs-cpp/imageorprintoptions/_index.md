@@ -69,6 +69,8 @@ book.getWorksheets().get(0).getCharts().get(0).toImage("output/chart.png", optio
 | [setEmbededImageNameInSvg(string)](#setEmbededImageNameInSvg-string-)| Indicate the filename of embedded image in svg. This should be full path with directory like "c:\\xpsEmbedded" |
 | [getSVGFitToViewPort()](#getSVGFitToViewPort--)| if this property is true, the generated svg will fit to view port. |
 | [setSVGFitToViewPort(boolean)](#setSVGFitToViewPort-boolean-)| if this property is true, the generated svg will fit to view port. |
+| [getSvgCssPrefix()](#getSvgCssPrefix--)| Gets and sets the prefix of the css name in svg,the default value is empty string. |
+| [setSvgCssPrefix(string)](#setSvgCssPrefix-string-)| Gets and sets the prefix of the css name in svg,the default value is empty string. |
 | [getOnlyArea()](#getOnlyArea--)| If this property is true , one Area will be output, and no scale will take effect. |
 | [setOnlyArea(boolean)](#setOnlyArea-boolean-)| If this property is true , one Area will be output, and no scale will take effect. |
 | [getTransparent()](#getTransparent--)| Indicates if the background of generated image should be transparent. |
@@ -493,6 +495,28 @@ setSVGFitToViewPort(value: boolean) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The value to set. |
+
+### getSvgCssPrefix() {#getSvgCssPrefix--}
+
+Gets and sets the prefix of the css name in svg,the default value is empty string.
+
+```javascript
+getSvgCssPrefix() : string;
+```
+
+
+### setSvgCssPrefix(string) {#setSvgCssPrefix-string-}
+
+Gets and sets the prefix of the css name in svg,the default value is empty string.
+
+```javascript
+setSvgCssPrefix(value: string) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | string | The value to set. |
 
 ### getOnlyArea() {#getOnlyArea--}
 

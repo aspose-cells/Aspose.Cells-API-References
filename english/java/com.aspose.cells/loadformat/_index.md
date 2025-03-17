@@ -21,6 +21,8 @@ Represents the load file format.
 | [AZW_3](#AZW-3) | Represents an AZW3 file. |
 | [CHM](#CHM) | Represents a CHM file. |
 | [CSV](#CSV) | Comma-Separated Values(CSV) text file. |
+| [DBF](#DBF) | Xbase Data file |
+| [DIF](#DIF) | Data Interchange Format. |
 | [EPUB](#EPUB) | Reprents an EPUB file. |
 | [EXCEL_97_TO_2003](#EXCEL-97-TO-2003) | Represents an Excel97-2003 xls file. |
 | [FODS](#FODS) | Represents OpenDocument Flat XML Spreadsheet (.fods) file format. |
@@ -83,6 +85,22 @@ public static final int CSV
 
 
 Comma-Separated Values(CSV) text file.
+
+### DBF {#DBF}
+```
+public static final int DBF
+```
+
+
+Xbase Data file
+
+### DIF {#DIF}
+```
+public static final int DIF
+```
+
+
+Data Interchange Format.
 
 ### EPUB {#EPUB}
 ```

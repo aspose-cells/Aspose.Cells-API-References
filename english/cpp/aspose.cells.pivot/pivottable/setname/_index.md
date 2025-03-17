@@ -4,7 +4,7 @@ linktitle: SetName
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::SetName method. Gets the name of the PivotTable in C++.'
 type: docs
-weight: 10500
+weight: 11200
 url: /cpp/aspose.cells.pivot/pivottable/setname/
 ---
 ## PivotTable::SetName(const U16String\&) method

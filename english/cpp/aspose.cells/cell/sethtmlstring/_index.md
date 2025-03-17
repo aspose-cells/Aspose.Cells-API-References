@@ -4,7 +4,7 @@ linktitle: SetHtmlString
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cell::SetHtmlString method. Gets and sets the html string which contains data and some formats in this cell in C++.'
 type: docs
-weight: 6500
+weight: 6800
 url: /cpp/aspose.cells/cell/sethtmlstring/
 ---
 ## Cell::SetHtmlString(const U16String\&) method

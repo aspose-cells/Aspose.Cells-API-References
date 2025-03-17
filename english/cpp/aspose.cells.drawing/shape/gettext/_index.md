@@ -4,7 +4,7 @@ linktitle: GetText
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::GetText method. Gets and sets the text of this shape in C++.'
 type: docs
-weight: 15700
+weight: 15800
 url: /cpp/aspose.cells.drawing/shape/gettext/
 ---
 ## Shape::GetText method

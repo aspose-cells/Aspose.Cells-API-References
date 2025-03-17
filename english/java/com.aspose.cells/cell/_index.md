@@ -77,8 +77,9 @@ Encapsulates the object that represents a single Workbook cell.
 | [getDependents(boolean isAll)](#getDependents-boolean-) | Get all cells whose formula references to this cell directly. |
 | [getDependentsInCalculation(boolean recursive)](#getDependentsInCalculation-boolean-) | Gets all cells whose calculated result depends on this cell. |
 | [getDisplayStringValue()](#getDisplayStringValue--) | Gets the formatted string value of this cell by cell's display style. |
-| [getDisplayStyle()](#getDisplayStyle--) | Gets the display style of the cell. |
-| [getDisplayStyle(boolean includeMergedBorders)](#getDisplayStyle-boolean-) | Gets the display style of the cell. |
+| [getDisplayStyle()](#getDisplayStyle--) | Gets the display style of this cell. |
+| [getDisplayStyle(boolean includeMergedBorders)](#getDisplayStyle-boolean-) | Gets the display style of this cell. |
+| [getDisplayStyle(int adjacentBorders)](#getDisplayStyle-int-) | Gets the display style of this cell. |
 | [getDoubleValue()](#getDoubleValue--) | Gets the double value contained in the cell. |
 | [getEmbeddedImage()](#getEmbeddedImage--) | Gets the embeddedn image in the cell. |
 | [getFloatValue()](#getFloatValue--) | Gets the float value contained in the cell. |
@@ -475,25 +476,62 @@ public Style getDisplayStyle()
 ```
 
 
-Gets the display style of the cell. If this cell is also affected by other settings such as conditional formatting, list objects, etc., then the display style may be different from cell.GetStyle().
+Gets the display style of this cell.
+
+**Remarks**
+
+Same with using [BorderType.SIDE\_BORDERS](../../com.aspose.cells/bordertype\#SIDE-BORDERS) for [getDisplayStyle(int)](../../com.aspose.cells/cell\#getDisplayStyle-int-). That is, this method will check and adjust top/bottom/left/right borders of this cell according to the style([getStyle()](../../com.aspose.cells/cell\#getStyle--)) of its adjacent cells, but do not check the merged cells, and do not check the display style of adjacent cells.
 
 **Returns:**
-[Style](../../com.aspose.cells/style)
+[Style](../../com.aspose.cells/style) - display style of this cell
 ### getDisplayStyle(boolean includeMergedBorders) {#getDisplayStyle-boolean-}
 ```
 public Style getDisplayStyle(boolean includeMergedBorders)
 ```
 
 
-Gets the display style of the cell. If the cell is conditional formatted, the display style is not same as the cell.GetStyle().
+Gets the display style of this cell.
+
+**Remarks**
+
+If the specified flag is false, then it is same with [getDisplayStyle()](../../com.aspose.cells/cell\#getDisplayStyle--). Otherwise it is same with using [BorderType.SIDE\_BORDERS](../../com.aspose.cells/bordertype\#SIDE-BORDERS)\|[BorderType.DYNAMIC\_STYLE\_BORDERS](../../com.aspose.cells/bordertype\#DYNAMIC-STYLE-BORDERS) for [getDisplayStyle(int)](../../com.aspose.cells/cell\#getDisplayStyle-int-).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| includeMergedBorders | boolean | Indicates whether checking borders of the merged cells. |
+| includeMergedBorders | boolean | Indicates whether checking borders of merged cells. |
 
 **Returns:**
-[Style](../../com.aspose.cells/style)
+[Style](../../com.aspose.cells/style) - display style of this cell
+### getDisplayStyle(int adjacentBorders) {#getDisplayStyle-int-}
+```
+public Style getDisplayStyle(int adjacentBorders)
+```
+
+
+Gets the display style of this cell.
+
+**Remarks**
+
+If this cell is also affected by other settings such as conditional formatting, list objects, etc., then the display style may be different from [getStyle()](../../com.aspose.cells/cell\#getStyle--).
+
+For flags of adjusting borders according to adjacent cells, [BorderType.TOP\_BORDER](../../com.aspose.cells/bordertype\#TOP-BORDER)/[BorderType.BOTTOM\_BORDER](../../com.aspose.cells/bordertype\#BOTTOM-BORDER) /[BorderType.LEFT\_BORDER](../../com.aspose.cells/bordertype\#LEFT-BORDER)/[BorderType.RIGHT\_BORDER](../../com.aspose.cells/bordertype\#RIGHT-BORDER) denote whether check and combine the bottom/top/right/left borders of the left/right/top/bottom cells adjacent to this one.
+
+For performance and compatibility consideration, some enums are used to denote some special operations:
+
+[BorderType.HORIZONTAL](../../com.aspose.cells/bordertype\#HORIZONTAL)/[BorderType.VERTICAL](../../com.aspose.cells/bordertype\#VERTICAL) denote whether check and combine the bottom/right border of merged cells to this one.
+
+[BorderType.DIAGONAL](../../com.aspose.cells/bordertype\#DIAGONAL)(that is, both [StyleModifyFlag.DIAGONAL\_UP\_BORDER](../../com.aspose.cells/stylemodifyflag\#DIAGONAL-UP-BORDER) and [StyleModifyFlag.DIAGONAL\_DOWN\_BORDER](../../com.aspose.cells/stylemodifyflag\#DIAGONAL-DOWN-BORDER) have been set) denotes check and combine borders from the display style of adjacent cells.
+
+Please note, checking borders/styles of adjacent cells, especially the display styles, is time-consumed process. If there is no need to get the borders for the returned style, using [BorderType.NONE](../../com.aspose.cells/bordertype\#NONE) to disable the process of adjacent cells will give better performance. When getting borders of adjacent cells from styles defined on those cells only(without setting [BorderType.DIAGONAL](../../com.aspose.cells/bordertype\#DIAGONAL)), the performance also may be better because checking the display style of one cell is time-consumed too.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| adjacentBorders | int | [BorderType](../../com.aspose.cells/bordertype). Indicates which borders need to be checked and adjusted according to the borders of adjacent cells. |
+
+**Returns:**
+[Style](../../com.aspose.cells/style) - display style of this cell
 ### getDoubleValue() {#getDoubleValue--}
 ```
 public double getDoubleValue()

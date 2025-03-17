@@ -4,7 +4,7 @@ linktitle: GetValidationValue
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cell::GetValidationValue method. Gets the value of validation which applied to this cell in C++.'
 type: docs
-weight: 7200
+weight: 7500
 url: /cpp/aspose.cells/cell/getvalidationvalue/
 ---
 ## Cell::GetValidationValue method

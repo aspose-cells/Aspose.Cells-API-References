@@ -4,7 +4,7 @@ linktitle: GetTextShapeType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::GetTextShapeType method. Gets and sets the preset text shape type in C++.'
 type: docs
-weight: 14900
+weight: 15000
 url: /cpp/aspose.cells.drawing/shape/gettextshapetype/
 ---
 ## Shape::GetTextShapeType method

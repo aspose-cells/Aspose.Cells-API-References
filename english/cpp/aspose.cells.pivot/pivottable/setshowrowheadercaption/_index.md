@@ -4,7 +4,7 @@ linktitle: SetShowRowHeaderCaption
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::SetShowRowHeaderCaption method. Indicates whether row header caption is shown in the PivotTable report Indicates whether Display field captions and filter drop downs in C++.'
 type: docs
-weight: 11300
+weight: 12000
 url: /cpp/aspose.cells.pivot/pivottable/setshowrowheadercaption/
 ---
 ## PivotTable::SetShowRowHeaderCaption method

@@ -28,6 +28,7 @@ class CommentShape : public Aspose::Cells::Drawing::Shape
 | [CommentShape(CommentShape_Impl* impl)](./commentshape/) | Constructs from an implementation object. |
 | [CommentShape(const CommentShape\& src)](./commentshape/) | Copy constructor. |
 | [CommentShape(const Shape\& src)](./commentshape/) | Constructs from a parent object. |
+| [FitToTextSize()](../shape/fittotextsize/) | Recalculate a text area suitable for displaying all text content. |
 | [FormatCharacters(int32_t startIndex, int32_t length, const Aspose::Cells::Font\& font, const StyleFlag\& flag)](../shape/formatcharacters/) | Formats some characters with the font setting. |
 | [GetActiveXControl()](../shape/getactivexcontrol/) | Gets the ActiveX control. |
 | [GetActualBox()](../shape/getactualbox/) | Get the actual position and size of the shape (after applying rotation, flip, etc.) |
@@ -230,7 +231,7 @@ class CommentShape : public Aspose::Cells::Drawing::Shape
 | [Shape(Shape_Impl* impl)](../shape/shape/) | Constructs from an implementation object. |
 | [Shape(const Shape\& src)](../shape/shape/) | Copy constructor. |
 | [ToFrontOrBack(int32_t orders)](../shape/tofrontorback/) | Brings the shape to the front or sends the shape to back. |
-| [ToImage(const Vector \<uint8_t\>\& stream, Aspose::Cells::Drawing::ImageType imageType)](../shape/toimage/) | Creates the shape image and saves it to a stream in the specified format. |
+| [ToImage(Aspose::Cells::Drawing::ImageType imageType)](../shape/toimage/) | Creates the shape image and saves it to a stream in the specified format. |
 | [ToImage(const U16String\& imageFile, const ImageOrPrintOptions\& options)](../shape/toimage/) | Saves the shape to a file. |
 | [ToImage(const char16_t* imageFile, const ImageOrPrintOptions\& options)](../shape/toimage/) | Saves the shape to a file. |
 | [ToImage(const ImageOrPrintOptions\& options)](../shape/toimage/) | Saves the shape to a stream. |

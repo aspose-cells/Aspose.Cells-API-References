@@ -4,7 +4,7 @@ linktitle: GetPaths
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::GetPaths method. Gets the paths of a custom geometric shape in C++.'
 type: docs
-weight: 18200
+weight: 18400
 url: /cpp/aspose.cells.drawing/shape/getpaths/
 ---
 ## Shape::GetPaths method

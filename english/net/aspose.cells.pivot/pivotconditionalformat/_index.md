@@ -29,6 +29,7 @@ public class PivotConditionalFormat
 | [AddCellArea](../../aspose.cells.pivot/pivotconditionalformat/addcellarea/)(CellArea) | Adds an area based on pivot table view. |
 | [AddFieldArea](../../aspose.cells.pivot/pivotconditionalformat/addfieldarea/#addfieldarea)(PivotFieldType, PivotField) | Adds an area of pivot field. |
 | [AddFieldArea](../../aspose.cells.pivot/pivotconditionalformat/addfieldarea/#addfieldarea_1)(PivotFieldType, string) | Adds an area of pivot field. |
+| [ApplyTo](../../aspose.cells.pivot/pivotconditionalformat/applyto/)(int, int, PivotConditionFormatScopeType) | Applies the conditional format to range. Only for the data region. |
 | [GetCellAreas](../../aspose.cells.pivot/pivotconditionalformat/getcellareas/)() | Gets all cell areas where this conditional format applies to. |
 
 ### Examples

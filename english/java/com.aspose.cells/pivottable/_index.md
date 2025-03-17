@@ -189,6 +189,7 @@ Summary description for PivotTable.
 | [getShowRowHeaderCaption()](#getShowRowHeaderCaption--) | Indicates whether row header caption is shown in the PivotTable report Indicates whether Display field captions and filter drop downs |
 | [getShowValuesRow()](#getShowValuesRow--) | Indicates whether showing values row. |
 | [getSource()](#getSource--) | Get pivottable's source data. |
+| [getSource(boolean isOriginal)](#getSource-boolean-) | Get pivottable's source data. |
 | [getSourceDataConnections()](#getSourceDataConnections--) | Gets the external connection data sources. |
 | [getSourceType()](#getSourceType--) | Gets the data source type of the pivot table. |
 | [getSubtotalHiddenPageItems()](#getSubtotalHiddenPageItems--) | Indicates whether hidden page field items in the PivotTable report are included in row and column subtotals, block totals, and grand totals. |
@@ -1396,6 +1397,21 @@ Get pivottable's source data.
 
 **Returns:**
 java.lang.String[]
+### getSource(boolean isOriginal) {#getSource-boolean-}
+```
+public String[] getSource(boolean isOriginal)
+```
+
+
+Get pivottable's source data.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| isOriginal | boolean | Indicates whether to return original or display data source |
+
+**Returns:**
+java.lang.String[] - 
 ### getSourceDataConnections() {#getSourceDataConnections--}
 ```
 public ExternalConnection[] getSourceDataConnections()

@@ -4,7 +4,7 @@ linktitle: Comment
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Comment class. Encapsulates the object that represents a cell comment in C++.'
 type: docs
-weight: 2700
+weight: 2900
 url: /cpp/aspose.cells/comment/
 ---
 ## Comment class
@@ -25,7 +25,7 @@ class Comment
 | [Comment(const Comment\& src)](./comment/) | Copy constructor. |
 | [FormatCharacters(int32_t startIndex, int32_t length, const Aspose::Cells::Font\& font, const StyleFlag\& flag)](./formatcharacters/) | Format some characters with the font setting. |
 | [GetAuthor()](./getauthor/) | Gets and sets [Name](../name/) of the original comment author. |
-| [GetAutoSize()](./getautosize/) | Indicates if size of comment is adjusted automatically according to its content. |
+| [GetAutoSize()](./getautosize/) | Indicates if size of comment is adjusted automatically according to its content. Note: In some special cases (such as Mac environment), this setting may not take effect. If this setting does not take effect, please replace it with FitToTextSize(). |
 | [GetColumn()](./getcolumn/) | Gets the column index of the comment. |
 | [GetCommentShape()](./getcommentshape/) | Get a Shape object that represents the shape attached to the specified comment. |
 | [GetFont()](./getfont/) | Gets the font of comment. |
@@ -50,7 +50,7 @@ class Comment
 | [operator=(const Comment\& src)](./operator_asm/) | operator= |
 | [SetAuthor(const U16String\& value)](./setauthor/) | Gets and sets [Name](../name/) of the original comment author. |
 | [SetAuthor(const char16_t* value)](./setauthor/) | Gets and sets [Name](../name/) of the original comment author. |
-| [SetAutoSize(bool value)](./setautosize/) | Indicates if size of comment is adjusted automatically according to its content. |
+| [SetAutoSize(bool value)](./setautosize/) | Indicates if size of comment is adjusted automatically according to its content. Note: In some special cases (such as Mac environment), this setting may not take effect. If this setting does not take effect, please replace it with FitToTextSize(). |
 | [SetHeight(int32_t value)](./setheight/) | Represents the Height of the comment, in unit of pixels. |
 | [SetHeightCM(double value)](./setheightcm/) | Represents the height of the comment, in unit of centimeters. |
 | [SetHeightInch(double value)](./setheightinch/) | Represents the height of the comment, in unit of inches. |

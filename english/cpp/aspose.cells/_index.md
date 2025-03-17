@@ -82,6 +82,7 @@ url: /cpp/aspose.cells/
 | [FolderFontSource](./folderfontsource/) | Represents the folder that contains TrueType font files. |
 | [Font](./font/) | Encapsulates the font object used in a spreadsheet. |
 | [FontConfigs](./fontconfigs/) | Specifies font settings. |
+| [FontFileDataInfo](./fontfiledatainfo/) | Represents data infomation of font file data. |
 | [FontSetting](./fontsetting/) | Represents a range of characters within the cell text. |
 | [FontSourceBase](./fontsourcebase/) | This is an abstract base class for the classes that allow the user to specify various font sources. |
 | [FormatCondition](./formatcondition/) | Represents conditional formatting condition. |
@@ -237,6 +238,7 @@ url: /cpp/aspose.cells/
 | [FilterCategory](./filtercategory/) | Represents the category of the filter. |
 | [FilterOperatorType](./filteroperatortype/) | Custom Filter operator type. |
 | [FilterType](./filtertype/) | The filter type. |
+| [FontFileFormatType](./fontfileformattype/) | Represents font format type. |
 | [FontSchemeType](./fontschemetype/) | Represents the scheme type of the font. |
 | [FontSourceType](./fontsourcetype/) | Specifies the type of a font source. |
 | [FontUnderlineType](./fontunderlinetype/) | Enumerates the font underline types. |
@@ -250,6 +252,7 @@ url: /cpp/aspose.cells/
 | [HtmlHiddenRowDisplayType](./htmlhiddenrowdisplaytype/) | Represents two types of showing the hidden rows in html. |
 | [HtmlLinkTargetType](./htmllinktargettype/) | Represents the type of target attribute in HTML  tag. |
 | [HtmlOfficeMathOutputType](./htmlofficemathoutputtype/) | Represents how export OfficeMath to HTML. |
+| [HtmlVersion](./htmlversion/) | Indicates the version of HTML is used when saving to Html formats. |
 | [IconSetType](./iconsettype/) | Icon set type for conditional formatting. The threshold values for triggering the different icons within a set are configurable, and the icon order is reversible. |
 | [LoadDataFilterOptions](./loaddatafilteroptions/) | Represents the options to filter data when loading workbook from template. |
 | [LoadFormat](./loadformat/) | Represents the load file format. |
@@ -319,6 +322,7 @@ url: /cpp/aspose.cells/
 | AccessCacheOptions operator\|(AccessCacheOptions a, AccessCacheOptions b) |  |
 | BorderType operator\|(BorderType a, BorderType b) |  |
 | LoadDataFilterOptions operator\|(LoadDataFilterOptions a, LoadDataFilterOptions b) |  |
+| StyleModifyFlag operator\|(StyleModifyFlag a, StyleModifyFlag b) |  |
 | AccessCacheOptions operator~(AccessCacheOptions a) |  |
 | LoadDataFilterOptions operator~(LoadDataFilterOptions a) |  |
 | bool operator==(const Aspose::Cells::Color &left, const Aspose::Cells::Color &right) |  |

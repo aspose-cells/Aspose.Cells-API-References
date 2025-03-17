@@ -30,6 +30,7 @@ Represents rich value of the cell.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
+| [setAltText(String value)](#setAltText-java.lang.String-) | Gets the alt text associated with the image. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -122,6 +123,19 @@ public final native void notifyAll()
 
 
 
+
+### setAltText(String value) {#setAltText-java.lang.String-}
+```
+public void setAltText(String value)
+```
+
+
+Gets the alt text associated with the image.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
 
 ### toString() {#toString--}
 ```

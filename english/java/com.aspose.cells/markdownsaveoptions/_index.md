@@ -36,8 +36,10 @@ Represents the save options for markdown.
 | [getMergeAreas()](#getMergeAreas--) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [getRefreshChartCache()](#getRefreshChartCache--) | Indicates whether refreshing chart cache data |
 | [getSaveFormat()](#getSaveFormat--) | Gets the save file format. |
+| [getSheetSet()](#getSheetSet--) | Gets the sheets to render. |
 | [getSortExternalNames()](#getSortExternalNames--) | Indicates whether sorting external defined names before saving file. |
 | [getSortNames()](#getSortNames--) | Indicates whether sorting defined names before saving file. |
+| [getTableHeaderType()](#getTableHeaderType--) | Gets how set the header of the table. |
 | [getUpdateSmartArt()](#getUpdateSmartArt--) | Indicates whether updating smart art setting. |
 | [getValidateMergedAreas()](#getValidateMergedAreas--) | Indicates whether validate merged cells before saving the file. |
 | [getWarningCallback()](#getWarningCallback--) | Gets warning callback. |
@@ -55,8 +57,10 @@ Represents the save options for markdown.
 | [setLineSeparator(String value)](#setLineSeparator-java.lang.String-) | Sets the line separator. |
 | [setMergeAreas(boolean value)](#setMergeAreas-boolean-) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [setRefreshChartCache(boolean value)](#setRefreshChartCache-boolean-) | Indicates whether refreshing chart cache data |
+| [setSheetSet(SheetSet value)](#setSheetSet-com.aspose.cells.SheetSet-) | Sets the sheets to render. |
 | [setSortExternalNames(boolean value)](#setSortExternalNames-boolean-) | Indicates whether sorting external defined names before saving file. |
 | [setSortNames(boolean value)](#setSortNames-boolean-) | Indicates whether sorting defined names before saving file. |
+| [setTableHeaderType(int value)](#setTableHeaderType-int-) | Sets how set the header of the table. |
 | [setUpdateSmartArt(boolean value)](#setUpdateSmartArt-boolean-) | Indicates whether updating smart art setting. |
 | [setValidateMergedAreas(boolean value)](#setValidateMergedAreas-boolean-) | Indicates whether validate merged cells before saving the file. |
 | [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.cells.IWarningCallback-) | Sets warning callback. |
@@ -233,6 +237,20 @@ See [SaveFormat](../../com.aspose.cells/saveformat).
 
 **Returns:**
 int
+### getSheetSet() {#getSheetSet--}
+```
+public SheetSet getSheetSet()
+```
+
+
+Gets the sheets to render. Default is all visible sheets in the workbook: [SheetSet.getActive()](../../com.aspose.cells/sheetset\#getActive--).
+
+**Remarks**
+
+The set is ignored when it is used in [SheetRender](../../com.aspose.cells/sheetrender)
+
+**Returns:**
+[SheetSet](../../com.aspose.cells/sheetset)
 ### getSortExternalNames() {#getSortExternalNames--}
 ```
 public boolean getSortExternalNames()
@@ -253,6 +271,18 @@ Indicates whether sorting defined names before saving file.
 
 **Returns:**
 boolean
+### getTableHeaderType() {#getTableHeaderType--}
+```
+public int getTableHeaderType()
+```
+
+
+Gets how set the header of the table.
+
+See [MarkdownTableHeaderType](../../com.aspose.cells/markdowntableheadertype).
+
+**Returns:**
+int
 ### getUpdateSmartArt() {#getUpdateSmartArt--}
 ```
 public boolean getUpdateSmartArt()
@@ -474,6 +504,23 @@ Indicates whether refreshing chart cache data
 | --- | --- | --- |
 | value | boolean |  |
 
+### setSheetSet(SheetSet value) {#setSheetSet-com.aspose.cells.SheetSet-}
+```
+public void setSheetSet(SheetSet value)
+```
+
+
+Sets the sheets to render. Default is all visible sheets in the workbook: [SheetSet.getActive()](../../com.aspose.cells/sheetset\#getActive--).
+
+**Remarks**
+
+The set is ignored when it is used in [SheetRender](../../com.aspose.cells/sheetrender)
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [SheetSet](../../com.aspose.cells/sheetset) |  |
+
 ### setSortExternalNames(boolean value) {#setSortExternalNames-boolean-}
 ```
 public void setSortExternalNames(boolean value)
@@ -499,6 +546,21 @@ Indicates whether sorting defined names before saving file.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
+
+### setTableHeaderType(int value) {#setTableHeaderType-int-}
+```
+public void setTableHeaderType(int value)
+```
+
+
+Sets how set the header of the table.
+
+See [MarkdownTableHeaderType](../../com.aspose.cells/markdowntableheadertype).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
 
 ### setUpdateSmartArt(boolean value) {#setUpdateSmartArt-boolean-}
 ```

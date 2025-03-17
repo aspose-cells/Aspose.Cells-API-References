@@ -2,15 +2,15 @@
 title: Aspose::Cells::Pivot::PivotTable::SetShowEmptyRow method
 linktitle: SetShowEmptyRow
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Pivot::PivotTable::SetShowEmptyRow method. Specifies a boolean value that indicates whether to include empty rows in the table in C++.'
+description: 'Aspose::Cells::Pivot::PivotTable::SetShowEmptyRow method. Indicates whether to include empty rows in the table in C++.'
 type: docs
-weight: 9500
+weight: 10200
 url: /cpp/aspose.cells.pivot/pivottable/setshowemptyrow/
 ---
 ## PivotTable::SetShowEmptyRow method
 
 
-Specifies a boolean value that indicates whether to include empty rows in the table.
+Indicates whether to include empty rows in the table.
 
 ```cpp
 void Aspose::Cells::Pivot::PivotTable::SetShowEmptyRow(bool value)

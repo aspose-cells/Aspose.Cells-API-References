@@ -2,7 +2,7 @@
 title: Aspose::Cells::Pivot::PivotTable::GetPivotFilters method
 linktitle: GetPivotFilters
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Pivot::PivotTable::GetPivotFilters method. Returns a list of pivot filters in C++.'
+description: 'Aspose::Cells::Pivot::PivotTable::GetPivotFilters method. Returns all filters of pivot fields in the pivot table in C++.'
 type: docs
 weight: 2900
 url: /cpp/aspose.cells.pivot/pivottable/getpivotfilters/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.pivot/pivottable/getpivotfilters/
 ## PivotTable::GetPivotFilters method
 
 
-Returns a list of pivot filters.
+Returns all filters of pivot fields in the pivot table.
 
 ```cpp
 PivotFilterCollection Aspose::Cells::Pivot::PivotTable::GetPivotFilters()
