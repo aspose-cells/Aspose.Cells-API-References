@@ -39,6 +39,12 @@ type GroupCharacterEquationNode struct  {
 |[GetVertJc](./getvertjc/) | This attribute, combined with pos of groupChrPr, specifies the vertical layout of the groupChr object. Where pos specifies the position of the grouping character, vertJc specifies the alignment of the object with respect to the baseline. | 
 |[SetVertJc](./setvertjc/) | This attribute, combined with pos of groupChrPr, specifies the vertical layout of the groupChr object. Where pos specifies the position of the grouping character, vertJc specifies the alignment of the object with respect to the baseline. | 
 |[Equals](./equals/) | Determine whether the current equation node is equal to the specified node | 
+|[GetStartIndex](./getstartindex/) | Gets the start index of the characters. | 
+|[GetLength](./getlength/) | Gets the length of the characters. | 
+|[GetFont](./getfont/) | Returns the font of this object. | 
+|[SetWordArtStyle](./setwordartstyle/) | Sets the preset WordArt style. | 
+|[GetTextOptions](./gettextoptions/) | Returns the text options. | 
+|[GetType](./gettype/) | Gets the type of text node. | 
 |[GetParentNode](./getparentnode/) | Specifies the parent node of the current node | 
 |[SetParentNode](./setparentnode/) | Specifies the parent node of the current node | 
 |[ToLaTeX](./tolatex/) | Convert this equtation to LaTeX expression. | 
@@ -53,6 +59,5 @@ type GroupCharacterEquationNode struct  {
 |[RemoveChild_EquationNode](./removechild_equationnode/) | Removes the specified node from the current node's children. | 
 |[RemoveChild_Int](./removechild_int/) | Removes the node at the specified index from the current node's children. | 
 |[RemoveAllChildren](./removeallchildren/) | Removes all the child nodes of the current node. | 
-|[GetType](./gettype/) | Represents the type of the node. | 
 |[GetEquationType](./getequationtype/) | Get the equation type of the current node | 
 |[GroupCharacterEquationNode_CreateNode](./groupcharacterequationnode_createnode/) | Create a node of the specified type. | 

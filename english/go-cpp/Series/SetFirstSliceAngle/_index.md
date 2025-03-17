@@ -14,7 +14,7 @@ Gets or sets the angle of the first pie-chart or doughnut-chart slice, in degree
 
 ```go
 
-func (instance *Series) SetFirstSliceAngle(value int32)  error
+func (instance *Series) SetFirstSliceAngle(value int16)  error
 
 ```
 

@@ -62,10 +62,10 @@ type ChartTextFrame struct  {
 |[SetShadow](./setshadow/) | True if the frame has a shadow. | 
 |[GetShapeProperties](./getshapeproperties/) | Gets the ShapeProperties object. | 
 |[IsDefaultPosBeSet](./isdefaultposbeset/) | Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set. | 
-|[GetDefaultX](./getdefaultx/) | Represents x of default position | 
-|[GetDefaultY](./getdefaulty/) | Represents y of default position | 
-|[GetDefaultWidth](./getdefaultwidth/) | Represents width of default position | 
-|[GetDefaultHeight](./getdefaultheight/) | Represents height of default position | 
+|[GetDefaultXRatioToChart](./getdefaultxratiotochart/) | Represents x of default position in units of Fraction of the chart area. | 
+|[GetDefaultYRatioToChart](./getdefaultyratiotochart/) | Represents y of default position in units of Fraction of the chart area. | 
+|[GetDefaultWidthRatioToChart](./getdefaultwidthratiotochart/) | Represents width of default position in units of Fraction of the chart area. | 
+|[GetDefaultHeightRatioToChart](./getdefaultheightratiotochart/) | Represents height of default position in units of Fraction of the chart area. | 
 |[GetBorder](./getborder/) | Gets the Line</see>. | 
 |[GetArea](./getarea/) | Gets the Area</see>. | 
 |[GetTextOptions](./gettextoptions/) | Gets and sets the options of the text. | 
@@ -74,12 +74,20 @@ type ChartTextFrame struct  {
 |[SetAutoScaleFont](./setautoscalefont/) | True if the text in the object changes font size when the object size changes. The default value is True. | 
 |[IsAutomaticSize](./isautomaticsize/) | Indicates whether the chart frame is automatic sized. | 
 |[SetIsAutomaticSize](./setisautomaticsize/) | Indicates whether the chart frame is automatic sized. | 
-|[GetX](./getx/) | Gets or sets the x coordinate of the upper left corner in units of 1/4000 of the chart area. | 
-|[SetX](./setx/) | Gets or sets the x coordinate of the upper left corner in units of 1/4000 of the chart area. | 
-|[GetY](./gety/) | Gets or sets the y coordinate of the upper left corner in units of 1/4000 of the chart area. | 
-|[SetY](./sety/) | Gets or sets the y coordinate of the upper left corner in units of 1/4000 of the chart area. | 
-|[GetHeight](./getheight/) | Gets or sets the height of frame in units of 1/4000 of the chart area. | 
-|[SetHeight](./setheight/) | Gets or sets the height of frame in units of 1/4000 of the chart area. | 
-|[GetWidth](./getwidth/) | Gets or sets the width of frame in units of 1/4000 of the chart area. | 
-|[SetWidth](./setwidth/) | Gets or sets the width of frame in units of 1/4000 of the chart area. | 
+|[GetXRatioToChart](./getxratiotochart/) | Gets or sets the x coordinate of the upper left corner in units of ratio of the chart area. | 
+|[SetXRatioToChart](./setxratiotochart/) | Gets or sets the x coordinate of the upper left corner in units of ratio of the chart area. | 
+|[GetYRatioToChart](./getyratiotochart/) | Gets or sets the y coordinate of the upper left corner in units of ratio of the chart area. | 
+|[SetYRatioToChart](./setyratiotochart/) | Gets or sets the y coordinate of the upper left corner in units of ratio of the chart area. | 
+|[GetWidthRatioToChart](./getwidthratiotochart/) | Gets or sets the width of frame in units of ratio of the chart area. | 
+|[SetWidthRatioToChart](./setwidthratiotochart/) | Gets or sets the width of frame in units of ratio of the chart area. | 
+|[GetHeightRatioToChart](./getheightratiotochart/) | Gets or sets the height of frame in units of ratio of the chart area. | 
+|[SetHeightRatioToChart](./setheightratiotochart/) | Gets or sets the height of frame in units of ratio of the chart area. | 
+|[GetXPixel](./getxpixel/) | Gets or sets the x coordinate of the upper left corner in units of Pixel. | 
+|[SetXPixel](./setxpixel/) | Gets or sets the x coordinate of the upper left corner in units of Pixel. | 
+|[GetYPixel](./getypixel/) | Gets or sets the y coordinate of the upper left corner in units of Pixel. | 
+|[SetYPixel](./setypixel/) | Gets or sets the y coordinate of the upper left corner in units of Pixel. | 
+|[GetWidthPixel](./getwidthpixel/) | Gets or sets the width of frame in units of Pixel. | 
+|[SetWidthPixel](./setwidthpixel/) | Gets or sets the width of frame in units of Pixel. | 
+|[GetHeightPixel](./getheightpixel/) | Gets or sets the height of frame in units of Pixel. | 
+|[SetHeightPixel](./setheightpixel/) | Gets or sets the height of frame in units of Pixel. | 
 |[SetPositionAuto](./setpositionauto/) | Set position of the frame to automatic | 

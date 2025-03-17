@@ -37,3 +37,4 @@ type ExternalLinkCollection struct  {
 |[Clear_Bool](./clear_bool/) | Removes all external links. | 
 |[RemoveAt_Int](./removeat_int/) | Removes the specified external link from the workbook. | 
 |[RemoveAt_Int_Bool](./removeat_int_bool/) | Removes the specified external link from the workbook. | 
+|[GetEnumerator](./getenumerator/) | Get an enumerator that iterates through this collection. | 

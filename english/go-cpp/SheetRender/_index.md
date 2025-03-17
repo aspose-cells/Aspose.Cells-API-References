@@ -35,6 +35,6 @@ type SheetRender struct  {
 |[GetPageSizeInch](./getpagesizeinch/) | Get page size in inch of output image. | 
 |[ToImage_Int_String](./toimage_int_string/) | Render certain page to a file. | 
 |[ToImage_Int](./toimage_int/) | Render certain page to a stream. | 
-|[ToTiff_Stream](./totiff_stream/) | Render whole worksheet as Tiff Image to stream. | 
+|[ToTiff](./totiff/) | Render whole worksheet as Tiff Image to stream. | 
 |[ToTiff_String](./totiff_string/) | Render whole worksheet as Tiff Image to a file. | 
 |[Dispose](./dispose/) | Releases resources created and used for rendering. | 

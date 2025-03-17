@@ -14,7 +14,7 @@ Gets the date time value of the pivot itemIf the value is null ,it will return D
 
 ```go
 
-func (instance *PivotItem) GetDateTimeValue()  (*Date,  error) 
+func (instance *PivotItem) GetDateTimeValue()  (time.Time,  error) 
 
 ```
 

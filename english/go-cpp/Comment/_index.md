@@ -52,8 +52,8 @@ type Comment struct  {
 |[SetTextHorizontalAlignment](./settexthorizontalalignment/) | Gets and sets the text horizontal alignment type of the comment. | 
 |[GetTextVerticalAlignment](./gettextverticalalignment/) | Gets and sets the text vertical alignment type of the comment. | 
 |[SetTextVerticalAlignment](./settextverticalalignment/) | Gets and sets the text vertical alignment type of the comment. | 
-|[GetAutoSize](./getautosize/) | Indicates if size of comment is adjusted automatically according to its content. | 
-|[SetAutoSize](./setautosize/) | Indicates if size of comment is adjusted automatically according to its content. | 
+|[GetAutoSize](./getautosize/) | Indicates if size of comment is adjusted automatically according to its content.Note: In some special cases (such as Mac environment), this setting may not take effect. If this setting does not take effect, please replace it with FitToTextSize(). | 
+|[SetAutoSize](./setautosize/) | Indicates if size of comment is adjusted automatically according to its content.Note: In some special cases (such as Mac environment), this setting may not take effect. If this setting does not take effect, please replace it with FitToTextSize(). | 
 |[GetHeightCM](./getheightcm/) | Represents the height of the comment, in unit of centimeters. | 
 |[SetHeightCM](./setheightcm/) | Represents the height of the comment, in unit of centimeters. | 
 |[GetWidthCM](./getwidthcm/) | Represents the width of the comment, in unit of centimeters. | 

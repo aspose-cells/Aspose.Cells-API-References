@@ -31,3 +31,4 @@ type DigitalSignatureCollection struct  {
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[Add](./add/) | Add one signature to DigitalSignatureCollection. | 
+|[GetEnumerator](./getenumerator/) | Get the enumerator for DigitalSignatureCollection,this enumerator allows iteration over the collection | 

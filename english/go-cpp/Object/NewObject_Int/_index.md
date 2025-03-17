@@ -10,7 +10,7 @@ url: /go-cpp/object/newobject_int/
 
 ## NewObject_Int function
 
-Constructs from an int8_t value.
+Constructs from an int32_t value.
 
 ```go
 

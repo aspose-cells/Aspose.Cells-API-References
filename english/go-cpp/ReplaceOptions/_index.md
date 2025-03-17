@@ -37,4 +37,6 @@ type ReplaceOptions struct  {
 |[GetRegexKey](./getregexkey/) | Indicates whether the searched key is regex. If true then the searched key will be taken as regex. | 
 |[SetRegexKey](./setregexkey/) | Indicates whether the searched key is regex. If true then the searched key will be taken as regex. | 
 |[GetFontSettings](./getfontsettings/) | The rich formatted settings for the replaced text. | 
+|[SetFontSettings](./setfontsettings/) | The rich formatted settings for the replaced text. | 
 |[GetStyleFlags](./getstyleflags/) | Gets and sets flags of applying font settings. | 
+|[SetStyleFlags](./setstyleflags/) | Gets and sets flags of applying font settings. | 

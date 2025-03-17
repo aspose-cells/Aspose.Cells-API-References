@@ -14,7 +14,7 @@ Gets or sets the Universal time of the document creation.
 
 ```go
 
-func (instance *BuiltInDocumentPropertyCollection) SetCreatedUniversalTime(value *Date)  error
+func (instance *BuiltInDocumentPropertyCollection) SetCreatedUniversalTime(value time.Time)  error
 
 ```
 

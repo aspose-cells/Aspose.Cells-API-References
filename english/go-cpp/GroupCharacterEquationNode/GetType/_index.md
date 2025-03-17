@@ -10,7 +10,7 @@ url: /go-cpp/groupcharacterequationnode/gettype/
 
 ## GetType function
 
-Represents the type of the node.
+Gets the type of text node.
 
 ```go
 

@@ -14,7 +14,7 @@ Puts a DateTime value into the cell.
 
 ```go
 
-func (instance *Cell) PutValue_Date(datetime *Date)  error
+func (instance *Cell) PutValue_Date(datetime time.Time)  error
 
 ```
 

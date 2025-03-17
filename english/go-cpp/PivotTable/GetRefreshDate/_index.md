@@ -14,7 +14,7 @@ Gets the last date time when the PivotTable was refreshed.
 
 ```go
 
-func (instance *PivotTable) GetRefreshDate()  (*Date,  error) 
+func (instance *PivotTable) GetRefreshDate()  (time.Time,  error) 
 
 ```
 

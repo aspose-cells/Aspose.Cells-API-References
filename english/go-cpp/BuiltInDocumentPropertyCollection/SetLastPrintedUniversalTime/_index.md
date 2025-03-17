@@ -14,7 +14,7 @@ Gets or sets the Universal time when the document was last printed.
 
 ```go
 
-func (instance *BuiltInDocumentPropertyCollection) SetLastPrintedUniversalTime(value *Date)  error
+func (instance *BuiltInDocumentPropertyCollection) SetLastPrintedUniversalTime(value time.Time)  error
 
 ```
 

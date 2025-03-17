@@ -14,7 +14,7 @@ Gets the total count of instantiated Cell objects.
 
 ```go
 
-func (instance *Cells) GetCountLarge()  (int32,  error) 
+func (instance *Cells) GetCountLarge()  (int64,  error) 
 
 ```
 

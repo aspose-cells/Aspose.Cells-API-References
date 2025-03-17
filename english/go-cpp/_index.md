@@ -79,6 +79,7 @@ is_root: true
 |[FolderFontSource](./folderfontsource/) | Represents the folder that contains TrueType font files. |
 |[Font](./font/) | Encapsulates the font object used in a spreadsheet. |
 |[FontConfigs](./fontconfigs/) | Specifies font settings |
+|[FontFileDataInfo](./fontfiledatainfo/) | Represents data infomation of font file data. |
 |[FontSetting](./fontsetting/) | Represents a range of characters within the cell text. |
 |[FontSourceBase](./fontsourcebase/) | This is an abstract base class for the classes that allow the user to specify various font sources |
 |[FormatCondition](./formatcondition/) | Represents conditional formatting condition. |
@@ -405,6 +406,12 @@ is_root: true
 |[DataModelRelationshipCollection](./datamodelrelationshipcollection/) | Represents the relationships. |
 |[DataModelTable](./datamodeltable/) | Represents properties of a single table in spreadsheet data model. |
 |[DataModelTableCollection](./datamodeltablecollection/) | Represents the list of the data model table. |
+|[DbfLoadOptions](./dbfloadoptions/) | Represents the options of loading .dbf file. |
+|[DifLoadOptions](./difloadoptions/) | Represents the options of loading .dif file. |
+|[DbfSaveOptions](./dbfsaveoptions/) | Represents the options of saving dbf file |
+|[EbookSaveOptions](./ebooksaveoptions/) | Represents the options for saving ebook file. |
+|[SqlScriptColumnTypeMap](./sqlscriptcolumntypemap/) | Represents column type map. |
+|[SqlScriptSaveOptions](./sqlscriptsaveoptions/) | Represents the options of saving sql. |
 |[DigitalSignature](./digitalsignature/) | Signature in file. |
 |[DigitalSignatureCollection](./digitalsignaturecollection/) | Provides a collection of digital signatures attached to a document. |
 |[DrawObject](./drawobject/) | DrawObject will be initialized and returned when rendering. |
@@ -421,9 +428,6 @@ is_root: true
 |[SheetSet](./sheetset/) | Describes a set of sheets. |
 |[WorkbookPrintingPreview](./workbookprintingpreview/) | Workbook printing preview. |
 |[WorkbookRender](./workbookrender/) | Represents a Workbook render.The constructor of this class , must be used after modification of pagesetup, cell style. |
-|[EbookSaveOptions](./ebooksaveoptions/) | Represents the options for saving ebook file. |
-|[SqlScriptColumnTypeMap](./sqlscriptcolumntypemap/) | Represents column type map. |
-|[SqlScriptSaveOptions](./sqlscriptsaveoptions/) | Represents the options of saving sql. |
 |[HighlightChangesOptions](./highlightchangesoptions/) | Represents options of highlighting revsions or changes of shared Excel files. |
 |[Revision](./revision/) | Represents the revision. |
 |[RevisionAutoFormat](./revisionautoformat/) | represents a revision record of information about a formatting change. |
@@ -468,6 +472,7 @@ is_root: true
 |[TimelineCollection](./timelinecollection/) | Specifies the collection of all the Timeline objects on the specified worksheet.Due to MS Excel, Excel 2003 does not support Timeline. |
 |[VbaModule](./vbamodule/) | Represents the module in VBA project. |
 |[VbaModuleCollection](./vbamodulecollection/) | Represents the list of <see cref="VbaModule"/> |
+|[VbaModuleType](./vbamoduletype/) | Represents a class module. |
 |[VbaProject](./vbaproject/) | Represents the VBA project. |
 |[VbaProjectReference](./vbaprojectreference/) | Represents the reference of VBA project. |
 |[VbaProjectReferenceCollection](./vbaprojectreferencecollection/) | Represents all references of VBA project. |
@@ -522,6 +527,7 @@ is_root: true
 |[FilterCategory](./filtercategory/) | Represents the category of the filter. | 
 |[FilterOperatorType](./filteroperatortype/) | Custom Filter operator type. | 
 |[FilterType](./filtertype/) | The filter type. | 
+|[FontFileFormatType](./fontfileformattype/) | Represents font format type. | 
 |[FontSchemeType](./fontschemetype/) | Represents the scheme type of the font. | 
 |[FontSourceType](./fontsourcetype/) | Specifies the type of a font source. | 
 |[FontUnderlineType](./fontunderlinetype/) | Enumerates the font underline types. | 
@@ -535,6 +541,7 @@ is_root: true
 |[HtmlHiddenRowDisplayType](./htmlhiddenrowdisplaytype/) | Represents two types of showing the hidden rows in html. | 
 |[HtmlLinkTargetType](./htmllinktargettype/) | Represents the type of target attribute in HTML <a/> tag. | 
 |[HtmlOfficeMathOutputType](./htmlofficemathoutputtype/) | Represents how export OfficeMath to HTML. | 
+|[HtmlVersion](./htmlversion/) | Indicates the version of HTML is used when saving to Html formats. | 
 |[IconSetType](./iconsettype/) | Icon set type for conditional formatting.The threshold values for triggering the different icons within a set areconfigurable, and the icon order is reversible. | 
 |[LoadDataFilterOptions](./loaddatafilteroptions/) | Represents the options to filter data when loading workbook from template. | 
 |[LoadFormat](./loadformat/) | Represents the load file format. | 
@@ -727,6 +734,7 @@ is_root: true
 |[ReserveMissingPivotItemType](./reservemissingpivotitemtype/) | Represents how to keep the missing pivot items. | 
 |[SmartTagShowType](./smarttagshowtype/) | Represents the show type of the smart tag. | 
 |[PowerQueryFormulaType](./powerqueryformulatype/) | Represents the type of power query formula. | 
+|[SqlScriptOperatorType](./sqlscriptoperatortype/) | Represents the type of operating data. | 
 |[XAdESType](./xadestype/) | Type of XML Advanced Electronic Signature (XAdES). | 
 |[ColorDepth](./colordepth/) | Enumerates Bit Depth Type for tiff image. | 
 |[CommentTitleType](./commenttitletype/) | Represents comment title type while rendering when comment is set to display at end of sheet. | 
@@ -738,7 +746,6 @@ is_root: true
 |[PdfFontEncoding](./pdffontencoding/) | Represents pdf embedded font encoding. | 
 |[PdfOptimizationType](./pdfoptimizationtype/) | Specifies a type of optimization. | 
 |[TiffCompression](./tiffcompression/) | Specifies what type of compression to apply when saving images into TIFF format file. | 
-|[SqlScriptOperatorType](./sqlscriptoperatortype/) | Represents the type of operating data. | 
 |[RevisionActionType](./revisionactiontype/) | Represents the type of revision action. | 
 |[RevisionType](./revisiontype/) | Represents the revision type. | 
 |[TableDataSourceType](./tabledatasourcetype/) | Represents the table's data source type. | 
@@ -761,6 +768,7 @@ is_root: true
 |[AdjustFontSizeForRowType](./adjustfontsizeforrowtype/) | Represents which kind of rows should be ajusted. | 
 |[SlideViewType](./slideviewtype/) | Represents the type when exporting to slides. | 
 |[JsonExportHyperlinkType](./jsonexporthyperlinktype/) | Represents type of exporting hyperlinks to json. | 
+|[MarkdownTableHeaderType](./markdowntableheadertype/) | Represents the header type of the table in the markdown file. | 
 
 | Structs | Description |
 | --- | --- |

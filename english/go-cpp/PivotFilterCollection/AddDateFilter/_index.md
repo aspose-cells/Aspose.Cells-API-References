@@ -14,7 +14,7 @@ Filters by date setting of row or column pivot field.
 
 ```go
 
-func (instance *PivotFilterCollection) AddDateFilter(basefieldindex int32, type_ PivotFilterType, datetime1 *Date, datetime2 *Date)  (*PivotFilter,  error) 
+func (instance *PivotFilterCollection) AddDateFilter(basefieldindex int32, type_ PivotFilterType, datetime1 time.Time, datetime2 time.Time)  (*PivotFilter,  error) 
 
 ```
 

@@ -29,6 +29,7 @@ type PivotItemCollection struct  {
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
+|[GetEnumerator](./getenumerator/) | Gets an enumerator over the elements in this collection in proper sequence. | 
 |[Get_Int](./get_int/) | Gets the PivotItem Object at the specific index. | 
 |[Get_String](./get_string/) | Gets the PivotItem by the specific name. | 
 |[GetCount](./getcount/) | Gets the count of the pivot items. | 

@@ -29,5 +29,6 @@ type DataModelTableCollection struct  {
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
-|[Get](./get/) | Gets the data model table by position of the collection. | 
+|[Get_Int](./get_int/) | Gets the data model table by position of the collection. | 
+|[Get_String](./get_string/) | Gets the data model table by the name. | 
 |[GetCount](./getcount/) |  | 

@@ -32,3 +32,4 @@ type CellRichValue struct  {
 |[GetErrorValue](./geterrorvalue/) | Gets the error value type of the cell. | 
 |[GetImage](./getimage/) | Gets the image data of the cell. | 
 |[GetAltText](./getalttext/) | Gets the alt text associated with the image. | 
+|[SetAltText](./setalttext/) | Gets the alt text associated with the image. | 

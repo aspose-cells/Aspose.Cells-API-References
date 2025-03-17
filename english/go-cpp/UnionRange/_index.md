@@ -46,11 +46,15 @@ type UnionRange struct  {
 |[SetStyle](./setstyle/) | Sets the style of the range. | 
 |[ApplyStyle](./applystyle/) | Applies formats for a whole range. | 
 |[Copy](./copy/) | Copying the range with paste special options. | 
+|[GetEnumerator](./getenumerator/) | Gets the enumerator for cells in this Range. | 
 |[GetCellCount](./getcellcount/) | Gets all cell count in the range. | 
 |[GetRangeCount](./getrangecount/) | Gets the count of the ranges. | 
 |[GetRanges](./getranges/) | Gets all union ranges. | 
+|[SetOutlineBorders_CellBorderTypeArray_ColorArray](./setoutlineborders_cellbordertypearray_colorarray/) | Sets out line borders around a range of cells. | 
 |[SetOutlineBorders_CellBorderType_Color](./setoutlineborders_cellbordertype_color/) | Sets the outline borders around a range of cells with same border style and color. | 
 |[Intersect_String](./intersect_string/) | Intersects another range. | 
 |[Intersect_UnionRange](./intersect_unionrange/) | Intersects another range. | 
+|[Intersect_RangeArray](./intersect_rangearray/) | Intersects another range. | 
 |[Union_String](./union_string/) | Union another range. | 
 |[Union_UnionRange](./union_unionrange/) | Union another range. | 
+|[Union_RangeArray](./union_rangearray/) | Union the ranges. | 

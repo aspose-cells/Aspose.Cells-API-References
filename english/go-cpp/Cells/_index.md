@@ -33,6 +33,7 @@ type Cells struct  {
 |[Dispose](./dispose/) | Performs application-defined tasks associated with freeing, releasing, orresetting unmanaged resources. | 
 |[GetCount](./getcount/) | Gets the total count of instantiated Cell objects. | 
 |[GetCountLarge](./getcountlarge/) | Gets the total count of instantiated Cell objects. | 
+|[GetEnumerator](./getenumerator/) | Gets the cells enumerator. | 
 |[GetRows](./getrows/) | Gets the collection of Row objects that represents the individual rows in this worksheet. | 
 |[GetMergedAreas](./getmergedareas/) | Gets all merged cells. | 
 |[CheckCell](./checkcell/) | Gets the Cell element or null at the specified cell row index and column index. | 
@@ -199,4 +200,8 @@ type Cells struct  {
 |[RemoveDuplicates_Int_Int_Int_Int_Bool_int32Array](./removeduplicates_int_int_int_int_bool_int32array/) | Removes duplicate data of the range. | 
 |[ConvertStringToNumericValue](./convertstringtonumericvalue/) | Converts all string data in the worksheet to numeric value if possible. | 
 |[GetDependents](./getdependents/) | Get all cells which refer to the specific cell. | 
+|[GetDependentsInCalculation](./getdependentsincalculation/) | Gets all cells whose calculated result depends on specific cell. | 
+|[GetCellsWithPlaceInCellPicture](./getcellswithplaceincellpicture/) | Gets all cells that contain embedded picture. | 
 |[GetCellStyle](./getcellstyle/) | Get the style of given cell. | 
+|[GetCellDisplayStyle_Int_Int](./getcelldisplaystyle_int_int/) | Get the display style of given cell. | 
+|[GetCellDisplayStyle_Int_Int_BorderType](./getcelldisplaystyle_int_int_bordertype/) | Get the display style of given cell. | 

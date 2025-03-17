@@ -14,7 +14,7 @@ Returns or sets the perspective for the 3-D chart view. Must be between 0 and 10
 
 ```go
 
-func (instance *Chart) GetPerspective()  (int32,  error) 
+func (instance *Chart) GetPerspective()  (int16,  error) 
 
 ```
 

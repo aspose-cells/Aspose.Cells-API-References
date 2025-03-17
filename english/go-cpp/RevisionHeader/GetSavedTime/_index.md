@@ -14,7 +14,7 @@ Gets and sets rhe date and time when this set of revisions was saved.
 
 ```go
 
-func (instance *RevisionHeader) GetSavedTime()  (*Date,  error) 
+func (instance *RevisionHeader) GetSavedTime()  (time.Time,  error) 
 
 ```
 

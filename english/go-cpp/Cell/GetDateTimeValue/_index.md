@@ -14,7 +14,7 @@ Gets the DateTime value contained in the cell.
 
 ```go
 
-func (instance *Cell) GetDateTimeValue()  (*Date,  error) 
+func (instance *Cell) GetDateTimeValue()  (time.Time,  error) 
 
 ```
 

@@ -14,7 +14,7 @@ Gets the Date value.
 
 ```go
 
-func (instance *Object) ToDate()  (*Date,  error) 
+func (instance *Object) ToDate()  (time.Time,  error) 
 
 ```
 

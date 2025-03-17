@@ -14,7 +14,7 @@ Gets the min value.
 
 ```go
 
-func (instance *DateTimeGroupItem) GetMinValue()  (*Date,  error) 
+func (instance *DateTimeGroupItem) GetMinValue()  (time.Time,  error) 
 
 ```
 

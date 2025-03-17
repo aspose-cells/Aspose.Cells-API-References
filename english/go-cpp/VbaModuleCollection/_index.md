@@ -32,6 +32,7 @@ type VbaModuleCollection struct  {
 |[AddDesignerStorage](./adddesignerstorage/) |  | 
 |[GetDesignerStorage](./getdesignerstorage/) | Represents the data of Designer. | 
 |[Add_Worksheet](./add_worksheet/) | Adds module for a worksheet. | 
+|[Add_VbaModuleType_String](./add_vbamoduletype_string/) | Adds module. | 
 |[AddUserForm](./adduserform/) | Inser user form into VBA Project. | 
 |[Get_Int](./get_int/) | Gets VbaModule in the list by the index. | 
 |[Remove_Worksheet](./remove_worksheet/) | Removes module for a worksheet. | 
