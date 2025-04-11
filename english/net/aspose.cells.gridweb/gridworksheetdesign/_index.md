@@ -68,6 +68,7 @@ public class GridWorksheetDesign : GridWorksheet
 | [AddCustomFilter](../../aspose.cells.gridweb.data/gridworksheet/addcustomfilter/)(int, string) | Add custom filter for the specified row.(Inherited from [`GridWorksheet`](../../aspose.cells.gridweb.data/gridworksheet/).) |
 | [AutoFitColumn](../../aspose.cells.gridweb.data/gridworksheet/autofitcolumn/)(int) | Autofits the column width.(Inherited from [`GridWorksheet`](../../aspose.cells.gridweb.data/gridworksheet/).) |
 | [AutoFitColumn](../../aspose.cells.gridweb.data/gridworksheet/autofitcolumn/)(int, int, int) | Autofits the column width.(Inherited from [`GridWorksheet`](../../aspose.cells.gridweb.data/gridworksheet/).) |
+| [AutoFitColumns](../../aspose.cells.gridweb.data/gridworksheet/autofitcolumns/)() | (Inherited from [`GridWorksheet`](../../aspose.cells.gridweb.data/gridworksheet/).) |
 | [AutoFitRow](../../aspose.cells.gridweb.data/gridworksheet/autofitrow/)(int) | Autofits the row height.(Inherited from [`GridWorksheet`](../../aspose.cells.gridweb.data/gridworksheet/).) |
 | [AutoFitRow](../../aspose.cells.gridweb.data/gridworksheet/autofitrow/)(int, int, int) | Autofits the row height.(Inherited from [`GridWorksheet`](../../aspose.cells.gridweb.data/gridworksheet/).) |
 | [AutoFitRow](../../aspose.cells.gridweb.data/gridworksheet/autofitrow/)(int, int, int, int) | Autofits row height in a rectangle range.(Inherited from [`GridWorksheet`](../../aspose.cells.gridweb.data/gridworksheet/).) |

@@ -1,13 +1,13 @@
 ---
 title: ImageOrPrintOptions.EmfRenderSetting
 second_title: Aspose.Cells for .NET API Reference
-description: ImageOrPrintOptions property. Setting for rendering Emf metafile
+description: ImageOrPrintOptions property. Setting for rendering Emf metafiles in source file
 type: docs
 url: /net/aspose.cells.rendering/imageorprintoptions/emfrendersetting/
 ---
 ## ImageOrPrintOptions.EmfRenderSetting property
 
-Setting for rendering Emf metafile.
+Setting for rendering Emf metafiles in source file.
 
 ```csharp
 public EmfRenderSetting EmfRenderSetting { get; set; }

@@ -10,7 +10,7 @@ url: /net/aspose.cells.rendering/imageorprintoptions/imagetype/
 Gets or sets the format of the generated images. default value: PNG.
 
 ```csharp
-public ImageType ImageType { get; set; }
+public virtual ImageType ImageType { get; set; }
 ```
 
 ### See Also

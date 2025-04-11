@@ -31,6 +31,7 @@ public class WorksheetCollection : CollectionBase<Worksheet>
 | [Names](../../aspose.cells/worksheetcollection/names/) { get; } | Gets the collection of all the Name objects in the spreadsheet. |
 | [OleSize](../../aspose.cells/worksheetcollection/olesize/) { get; set; } | Gets and Sets displayed size when Workbook file is used as an Ole object. |
 | [RevisionLogs](../../aspose.cells/worksheetcollection/revisionlogs/) { get; } | Represents revision logs. |
+| [SensitivityLabels](../../aspose.cells/worksheetcollection/sensitivitylabels/) { get; } | Represents all sensitivity labels. |
 | [TableStyles](../../aspose.cells/worksheetcollection/tablestyles/) { get; } | Gets [`TableStyles`](./tablestyles/) object. |
 | [ThreadedCommentAuthors](../../aspose.cells/worksheetcollection/threadedcommentauthors/) { get; } | Gets the list of threaded comment authors. |
 | [WebExtensions](../../aspose.cells/worksheetcollection/webextensions/) { get; } | Gets the list of task panes. |

@@ -10,7 +10,7 @@ url: /net/aspose.cells.charts/chartpointcollection/
 Represents a collection that contains all the points in one series.
 
 ```csharp
-public class ChartPointCollection
+public class ChartPointCollection : IEnumerable
 ```
 
 ## Properties

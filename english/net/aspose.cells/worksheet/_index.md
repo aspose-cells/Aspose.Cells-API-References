@@ -34,6 +34,7 @@ public class Worksheet : IDisposable
 | [ErrorCheckOptions](../../aspose.cells/worksheet/errorcheckoptions/) { get; } | Gets error check setting applied on certain ranges. |
 | [FirstVisibleColumn](../../aspose.cells/worksheet/firstvisiblecolumn/) { get; set; } | Represents first visible column index. |
 | [FirstVisibleRow](../../aspose.cells/worksheet/firstvisiblerow/) { get; set; } | Represents first visible row index. |
+| [GridlineColor](../../aspose.cells/worksheet/gridlinecolor/) { get; set; } | Gets and sets the color of gridline |
 | [HasAutofilter](../../aspose.cells/worksheet/hasautofilter/) { get; } | Indicates whether this worksheet has auto filter. |
 | [HorizontalPageBreaks](../../aspose.cells/worksheet/horizontalpagebreaks/) { get; } | Gets the [`HorizontalPageBreakCollection`](../horizontalpagebreakcollection/) collection. |
 | [Hyperlinks](../../aspose.cells/worksheet/hyperlinks/) { get; } | Gets the [`HyperlinkCollection`](../hyperlinkcollection/) collection. |
@@ -119,7 +120,8 @@ public class Worksheet : IDisposable
 | [GetFreezedPanes](../../aspose.cells/worksheet/getfreezedpanes/)(out int, out int, out int, out int) | Gets the freeze panes. |
 | [GetPanes](../../aspose.cells/worksheet/getpanes/)() | Gets the window panes. |
 | [GetPrintingPageBreaks](../../aspose.cells/worksheet/getprintingpagebreaks/)(ImageOrPrintOptions) | Gets automatic page breaks. |
-| [GetSelectedRanges](../../aspose.cells/worksheet/getselectedranges/)() | Gets selected ranges of cells in the designer spreadsheet. |
+| [GetSelectedAreas](../../aspose.cells/worksheet/getselectedareas/)() | Gets selected ranges of cells in the designer spreadsheet. |
+| [GetSelectedRanges](../../aspose.cells/worksheet/getselectedranges/)() | (**Obsolete.**) Gets selected ranges of cells in the designer spreadsheet. |
 | [MoveTo](../../aspose.cells/worksheet/moveto/)(int) | Moves the sheet to another location in the spreadsheet. |
 | [Protect](../../aspose.cells/worksheet/protect/#protect)(ProtectionType) | Protects worksheet. |
 | [Protect](../../aspose.cells/worksheet/protect/#protect_1)(ProtectionType, string, string) | Protects worksheet. |

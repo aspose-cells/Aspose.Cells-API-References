@@ -10,7 +10,7 @@ url: /net/aspose.cells.drawing.texts/textparagraphcollection/
 Represents all text paragraph.
 
 ```csharp
-public class TextParagraphCollection
+public class TextParagraphCollection : IEnumerable
 ```
 
 ## Properties

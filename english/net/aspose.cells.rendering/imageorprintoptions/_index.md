@@ -17,7 +17,7 @@ public class ImageOrPrintOptions
 
 | Name | Description |
 | --- | --- |
-| [ImageOrPrintOptions](imageorprintoptions/)() | The default constructor. |
+| [ImageOrPrintOptions](imageorprintoptions/)() | Ctor. |
 
 ## Properties
 
@@ -31,12 +31,12 @@ public class ImageOrPrintOptions
 | [DefaultEditLanguage](../../aspose.cells.rendering/imageorprintoptions/defaulteditlanguage/) { get; set; } | Gets or sets default edit language. |
 | [DefaultFont](../../aspose.cells.rendering/imageorprintoptions/defaultfont/) { get; set; } | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. Set the DefaultFont such as MingLiu or MS Gothic to show these characters. If this property is not set, Aspose.Cells will use system default font to show these unicode characters. |
 | [DrawObjectEventHandler](../../aspose.cells.rendering/imageorprintoptions/drawobjecteventhandler/) { get; set; } | Implements this interface to get DrawObject and Bound when rendering. |
-| [EmbededImageNameInSvg](../../aspose.cells.rendering/imageorprintoptions/embededimagenameinsvg/) { get; set; } | Indicate the filename of embedded image in svg. This should be full path with directory like "c:\\xpsEmbedded" |
-| [EmfRenderSetting](../../aspose.cells.rendering/imageorprintoptions/emfrendersetting/) { get; set; } | Setting for rendering Emf metafile. |
+| [EmbededImageNameInSvg](../../aspose.cells.rendering/imageorprintoptions/embededimagenameinsvg/) { get; set; } | (**Obsolete.**) Indicate the filename of embedded image in svg. This should be full path with directory like "c:\\xpsEmbedded" |
+| [EmfRenderSetting](../../aspose.cells.rendering/imageorprintoptions/emfrendersetting/) { get; set; } | Setting for rendering Emf metafiles in source file. |
 | [EmfType](../../aspose.cells.rendering/imageorprintoptions/emftype/) { get; set; } | Gets or sets an EmfType that specifies the format of the Metafile.. The default value is EmfPlusDual. |
 | [GridlineType](../../aspose.cells.rendering/imageorprintoptions/gridlinetype/) { get; set; } | Gets or sets gridline type. |
 | [HorizontalResolution](../../aspose.cells.rendering/imageorprintoptions/horizontalresolution/) { get; set; } | Gets or sets the horizontal resolution for generated images, in dots per inch. |
-| [ImageType](../../aspose.cells.rendering/imageorprintoptions/imagetype/) { get; set; } | Gets or sets the format of the generated images. default value: PNG. |
+| virtual [ImageType](../../aspose.cells.rendering/imageorprintoptions/imagetype/) { get; set; } | Gets or sets the format of the generated images. default value: PNG. |
 | [IsCellAutoFit](../../aspose.cells.rendering/imageorprintoptions/iscellautofit/) { get; set; } | (**Obsolete.**) Indicates whether the width and height of the cells is automatically fitted by cell value. The default value is false. |
 | [IsFontSubstitutionCharGranularity](../../aspose.cells.rendering/imageorprintoptions/isfontsubstitutionchargranularity/) { get; set; } | Indicates whether to only substitute the font of character when the cell font is not compatibility for it. |
 | [IsOptimized](../../aspose.cells.rendering/imageorprintoptions/isoptimized/) { get; set; } | Indicates whether to optimize the output elements. |
@@ -53,8 +53,8 @@ public class ImageOrPrintOptions
 | [SaveFormat](../../aspose.cells.rendering/imageorprintoptions/saveformat/) { get; set; } | (**Obsolete.**) Gets or sets the output file format type Support Tiff/XPS |
 | [SheetSet](../../aspose.cells.rendering/imageorprintoptions/sheetset/) { get; set; } | Gets or sets the sheets to render. Default is all visible sheets in the workbook: [`Visible`](../sheetset/visible/). |
 | [SmoothingMode](../../aspose.cells.rendering/imageorprintoptions/smoothingmode/) { get; set; } | Specifies whether smoothing (antialiasing) is applied to lines and curves and the edges of filled areas. The default value is SmoothingMode.None |
-| [SvgCssPrefix](../../aspose.cells.rendering/imageorprintoptions/svgcssprefix/) { get; set; } | Gets and sets the prefix of the css name in svg,the default value is empty string. |
-| [SVGFitToViewPort](../../aspose.cells.rendering/imageorprintoptions/svgfittoviewport/) { get; set; } | if this property is true, the generated svg will fit to view port. |
+| [SvgCssPrefix](../../aspose.cells.rendering/imageorprintoptions/svgcssprefix/) { get; set; } | (**Obsolete.**) Gets and sets the prefix of the css name in svg,the default value is empty string. |
+| [SVGFitToViewPort](../../aspose.cells.rendering/imageorprintoptions/svgfittoviewport/) { get; set; } | (**Obsolete.**) if this property is true, the generated svg will fit to view port. |
 | [TextCrossType](../../aspose.cells.rendering/imageorprintoptions/textcrosstype/) { get; set; } | Gets or sets displaying text type when the text width is larger than cell width. |
 | [TextRenderingHint](../../aspose.cells.rendering/imageorprintoptions/textrenderinghint/) { get; set; } | Specifies the quality of text rendering. The default value is TextRenderingHint.SystemDefault |
 | [TiffBinarizationMethod](../../aspose.cells.rendering/imageorprintoptions/tiffbinarizationmethod/) { get; set; } | Gets or sets method used while converting images to 1 bpp format when [`ImageType`](./imagetype/) is Tiff and [`TiffCompression`](./tiffcompression/) is equal to Ccitt3 or Ccitt4. |

@@ -52,6 +52,7 @@ public class PowerQueryFormulaCollection : CollectionBase<PowerQueryFormula>
 | [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(PowerQueryFormula, int) |  |
 | [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(PowerQueryFormula, int, int) |  |
 | [RemoveAt](../../aspose.cells/collectionbase-1/removeat/)(int) |  |
+| [RemoveBy](../../aspose.cells.querytables/powerqueryformulacollection/removeby/)(string) | Remove power query formula by name. |
 
 ### Examples
 
