@@ -25,8 +25,8 @@ class ImageOrPrintOptions
 | [GetDefaultEditLanguage()](./getdefaulteditlanguage/) | Gets or sets default edit language. |
 | [GetDefaultFont()](./getdefaultfont/) | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. Set the DefaultFont such as MingLiu or MS Gothic to show these characters. If this property is not set, [Aspose.Cells](../../aspose.cells/) will use system default font to show these unicode characters. |
 | [GetDrawObjectEventHandler()](./getdrawobjecteventhandler/) | Implements this interface to get [DrawObject](../drawobject/) and Bound when rendering. |
-| [GetEmbededImageNameInSvg()](./getembededimagenameinsvg/) | Indicate the filename of embedded image in svg. This should be full path with directory like "c:\\xpsEmbedded". |
-| [GetEmfRenderSetting()](./getemfrendersetting/) | Setting for rendering Emf metafile. |
+| [GetEmbededImageNameInSvg()](./getembededimagenameinsvg/) |  **(Deprecated)** Indicate the filename of embedded image in svg. This should be full path with directory like "c:\\xpsEmbedded". |
+| [GetEmfRenderSetting()](./getemfrendersetting/) | Setting for rendering Emf metafiles in source file. |
 | [GetGridlineType()](./getgridlinetype/) | Gets or sets gridline type. |
 | [GetHorizontalResolution()](./gethorizontalresolution/) | Gets or sets the horizontal resolution for generated images, in dots per inch. |
 | [GetImageType()](./getimagetype/) | Gets or sets the format of the generated images. default value: PNG. |
@@ -40,8 +40,8 @@ class ImageOrPrintOptions
 | [GetPrintWithStatusDialog()](./getprintwithstatusdialog/) | If PrintWithStatusDialog = true , there will be a dialog that shows current print status. else no such dialog will show. |
 | [GetQuality()](./getquality/) | Gets or sets a value determining the quality of the generated images to apply only when saving pages to the **Jpeg** format. The default value is 100. |
 | [GetSheetSet()](./getsheetset/) | Gets or sets the sheets to render. Default is all visible sheets in the workbook: Aspose.Cells.Rendering.SheetSet.Visible. |
-| [GetSvgCssPrefix()](./getsvgcssprefix/) | Gets and sets the prefix of the css name in svg,the default value is empty string. |
-| [GetSVGFitToViewPort()](./getsvgfittoviewport/) | if this property is true, the generated svg will fit to view port. |
+| [GetSvgCssPrefix()](./getsvgcssprefix/) |  **(Deprecated)** Gets and sets the prefix of the css name in svg,the default value is empty string. |
+| [GetSVGFitToViewPort()](./getsvgfittoviewport/) |  **(Deprecated)** if this property is true, the generated svg will fit to view port. |
 | [GetTextCrossType()](./gettextcrosstype/) | Gets or sets displaying text type when the text width is larger than cell width. |
 | [GetTiffBinarizationMethod()](./gettiffbinarizationmethod/) | Gets or sets method used while converting images to 1 bpp format when [ImageType](../../aspose.cells.drawing/imagetype/) is Tiff and [TiffCompression](../tiffcompression/) is equal to Ccitt3 or Ccitt4. |
 | [GetTiffColorDepth()](./gettiffcolordepth/) | Gets or sets bit depth to apply only when saving pages to the **Tiff** format. |
@@ -49,7 +49,7 @@ class ImageOrPrintOptions
 | [GetTransparent()](./gettransparent/) | Indicates if the background of generated image should be transparent. |
 | [GetVerticalResolution()](./getverticalresolution/) | Gets or sets the vertical resolution for generated images, in dots per inch. |
 | [GetWarningCallback()](./getwarningcallback/) | Gets or sets warning callback. |
-| [ImageOrPrintOptions()](./imageorprintoptions/) | Default constructor. |
+| [ImageOrPrintOptions()](./imageorprintoptions/) | Ctor. |
 | [ImageOrPrintOptions(ImageOrPrintOptions_Impl* impl)](./imageorprintoptions/) | Constructs from an implementation object. |
 | [ImageOrPrintOptions(const ImageOrPrintOptions\& src)](./imageorprintoptions/) | Copy constructor. |
 | [IsFontSubstitutionCharGranularity()](./isfontsubstitutionchargranularity/) | Indicates whether to only substitute the font of character when the cell font is not compatibility for it. |
@@ -64,9 +64,9 @@ class ImageOrPrintOptions
 | [SetDefaultFont(const char16_t* value)](./setdefaultfont/) | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. Set the DefaultFont such as MingLiu or MS Gothic to show these characters. If this property is not set, [Aspose.Cells](../../aspose.cells/) will use system default font to show these unicode characters. |
 | [SetDesiredSize(int32_t desiredWidth, int32_t desiredHeight, bool keepAspectRatio)](./setdesiredsize/) | Sets desired width and height of image. |
 | [SetDrawObjectEventHandler(DrawObjectEventHandler* value)](./setdrawobjecteventhandler/) | Implements this interface to get [DrawObject](../drawobject/) and Bound when rendering. |
-| [SetEmbededImageNameInSvg(const U16String\& value)](./setembededimagenameinsvg/) | Indicate the filename of embedded image in svg. This should be full path with directory like "c:\\xpsEmbedded". |
-| [SetEmbededImageNameInSvg(const char16_t* value)](./setembededimagenameinsvg/) | Indicate the filename of embedded image in svg. This should be full path with directory like "c:\\xpsEmbedded". |
-| [SetEmfRenderSetting(EmfRenderSetting value)](./setemfrendersetting/) | Setting for rendering Emf metafile. |
+| [SetEmbededImageNameInSvg(const U16String\& value)](./setembededimagenameinsvg/) |  **(Deprecated)** Indicate the filename of embedded image in svg. This should be full path with directory like "c:\\xpsEmbedded". |
+| [SetEmbededImageNameInSvg(const char16_t* value)](./setembededimagenameinsvg/) |  **(Deprecated)** Indicate the filename of embedded image in svg. This should be full path with directory like "c:\\xpsEmbedded". |
+| [SetEmfRenderSetting(EmfRenderSetting value)](./setemfrendersetting/) | Setting for rendering Emf metafiles in source file. |
 | [SetGridlineType(GridlineType value)](./setgridlinetype/) | Gets or sets gridline type. |
 | [SetHorizontalResolution(int32_t value)](./sethorizontalresolution/) | Gets or sets the horizontal resolution for generated images, in dots per inch. |
 | [SetImageType(Aspose::Cells::Drawing::ImageType value)](./setimagetype/) | Gets or sets the format of the generated images. default value: PNG. |
@@ -82,9 +82,9 @@ class ImageOrPrintOptions
 | [SetPrintWithStatusDialog(bool value)](./setprintwithstatusdialog/) | If PrintWithStatusDialog = true , there will be a dialog that shows current print status. else no such dialog will show. |
 | [SetQuality(int32_t value)](./setquality/) | Gets or sets a value determining the quality of the generated images to apply only when saving pages to the **Jpeg** format. The default value is 100. |
 | [SetSheetSet(const SheetSet\& value)](./setsheetset/) | Gets or sets the sheets to render. Default is all visible sheets in the workbook: Aspose.Cells.Rendering.SheetSet.Visible. |
-| [SetSvgCssPrefix(const U16String\& value)](./setsvgcssprefix/) | Gets and sets the prefix of the css name in svg,the default value is empty string. |
-| [SetSvgCssPrefix(const char16_t* value)](./setsvgcssprefix/) | Gets and sets the prefix of the css name in svg,the default value is empty string. |
-| [SetSVGFitToViewPort(bool value)](./setsvgfittoviewport/) | if this property is true, the generated svg will fit to view port. |
+| [SetSvgCssPrefix(const U16String\& value)](./setsvgcssprefix/) |  **(Deprecated)** Gets and sets the prefix of the css name in svg,the default value is empty string. |
+| [SetSvgCssPrefix(const char16_t* value)](./setsvgcssprefix/) |  **(Deprecated)** Gets and sets the prefix of the css name in svg,the default value is empty string. |
+| [SetSVGFitToViewPort(bool value)](./setsvgfittoviewport/) |  **(Deprecated)** if this property is true, the generated svg will fit to view port. |
 | [SetTextCrossType(TextCrossType value)](./settextcrosstype/) | Gets or sets displaying text type when the text width is larger than cell width. |
 | [SetTiffBinarizationMethod(ImageBinarizationMethod value)](./settiffbinarizationmethod/) | Gets or sets method used while converting images to 1 bpp format when [ImageType](../../aspose.cells.drawing/imagetype/) is Tiff and [TiffCompression](../tiffcompression/) is equal to Ccitt3 or Ccitt4. |
 | [SetTiffColorDepth(ColorDepth value)](./settiffcolordepth/) | Gets or sets bit depth to apply only when saving pages to the **Tiff** format. |

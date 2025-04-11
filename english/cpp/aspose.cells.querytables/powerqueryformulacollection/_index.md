@@ -29,6 +29,8 @@ class PowerQueryFormulaCollection
 | [operator=(const PowerQueryFormulaCollection\& src)](./operator_asm/) | operator= |
 | [PowerQueryFormulaCollection(PowerQueryFormulaCollection_Impl* impl)](./powerqueryformulacollection/) | Constructs from an implementation object. |
 | [PowerQueryFormulaCollection(const PowerQueryFormulaCollection\& src)](./powerqueryformulacollection/) | Copy constructor. |
+| [RemoveBy(const U16String\& name)](./removeby/) | Remove power query formula by name. |
+| [RemoveBy(const char16_t* name)](./removeby/) | Remove power query formula by name. |
 | [~PowerQueryFormulaCollection()](./~powerqueryformulacollection/) | Destructor. |
 ## Fields
 

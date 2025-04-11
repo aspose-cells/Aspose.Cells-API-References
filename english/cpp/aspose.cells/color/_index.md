@@ -4,7 +4,7 @@ linktitle: Color
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Color struct. Represents an ARGB (alpha, red, green, blue) color in C++.'
 type: docs
-weight: 27900
+weight: 28400
 url: /cpp/aspose.cells/color/
 ---
 ## Color struct
@@ -65,6 +65,7 @@ struct Color
 | static [FireBrick()](./firebrick/) |  |
 | static [FloralWhite()](./floralwhite/) |  |
 | static [ForestGreen()](./forestgreen/) |  |
+| static [FromArgb(int32_t value)](./fromargb/) | Creates a [Color](./) from its 32-bit component (alpha, red, green, and blue) values. |
 | static [Fuchsia()](./fuchsia/) |  |
 | static [Gainsboro()](./gainsboro/) |  |
 | static [GhostWhite()](./ghostwhite/) |  |

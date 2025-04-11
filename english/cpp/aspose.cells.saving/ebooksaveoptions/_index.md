@@ -88,6 +88,7 @@ class EbookSaveOptions : public Aspose::Cells::HtmlSaveOptions
 | [GetRefreshChartCache()](../../aspose.cells/saveoptions/getrefreshchartcache/) | Indicates whether refreshing chart cache data. |
 | [GetSaveAsSingleFile()](../../aspose.cells/htmlsaveoptions/getsaveassinglefile/) | Indicates whether save the html as single file. The default value is false. |
 | [GetSaveFormat()](../../aspose.cells/saveoptions/getsaveformat/) | Gets the save file format. |
+| [GetSheetSet()](../../aspose.cells/htmlsaveoptions/getsheetset/) | Gets or sets the sheets to render. Default is all visible sheets in the workbook: Aspose.Cells.Rendering.SheetSet.Visible. |
 | [GetShowAllSheets()](../../aspose.cells/htmlsaveoptions/getshowallsheets/) | Indicates whether showing all sheets when saving as a single html file. |
 | [GetSortExternalNames()](../../aspose.cells/saveoptions/getsortexternalnames/) | Indicates whether sorting external defined names before saving file. |
 | [GetSortNames()](../../aspose.cells/saveoptions/getsortnames/) | Indicates whether sorting defined names before saving file. |
@@ -192,6 +193,7 @@ class EbookSaveOptions : public Aspose::Cells::HtmlSaveOptions
 | [SetPresentationPreference(bool value)](../../aspose.cells/htmlsaveoptions/setpresentationpreference/) | Indicating if html or mht file is presentation preference. The default value is false. if you want to get more beautiful presentation,please set the value to true. |
 | [SetRefreshChartCache(bool value)](../../aspose.cells/saveoptions/setrefreshchartcache/) | Indicates whether refreshing chart cache data. |
 | [SetSaveAsSingleFile(bool value)](../../aspose.cells/htmlsaveoptions/setsaveassinglefile/) | Indicates whether save the html as single file. The default value is false. |
+| [SetSheetSet(const SheetSet\& value)](../../aspose.cells/htmlsaveoptions/setsheetset/) | Gets or sets the sheets to render. Default is all visible sheets in the workbook: Aspose.Cells.Rendering.SheetSet.Visible. |
 | [SetShowAllSheets(bool value)](../../aspose.cells/htmlsaveoptions/setshowallsheets/) | Indicates whether showing all sheets when saving as a single html file. |
 | [SetSortExternalNames(bool value)](../../aspose.cells/saveoptions/setsortexternalnames/) | Indicates whether sorting external defined names before saving file. |
 | [SetSortNames(bool value)](../../aspose.cells/saveoptions/setsortnames/) | Indicates whether sorting defined names before saving file. |

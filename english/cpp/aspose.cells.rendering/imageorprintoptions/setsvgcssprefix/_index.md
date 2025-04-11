@@ -4,7 +4,7 @@ linktitle: SetSvgCssPrefix
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Rendering::ImageOrPrintOptions::SetSvgCssPrefix method. Gets and sets the prefix of the css name in svg,the default value is empty string in C++.'
 type: docs
-weight: 3500
+weight: 3300
 url: /cpp/aspose.cells.rendering/imageorprintoptions/setsvgcssprefix/
 ---
 ## ImageOrPrintOptions::SetSvgCssPrefix(const U16String\&) method
@@ -12,9 +12,15 @@ url: /cpp/aspose.cells.rendering/imageorprintoptions/setsvgcssprefix/
 
 Gets and sets the prefix of the css name in svg,the default value is empty string.
 
+
+>Deprecated
+>
+>Use SvgImageOptions.CssPrefix property instead. 
 ```cpp
 void Aspose::Cells::Rendering::ImageOrPrintOptions::SetSvgCssPrefix(const U16String &value)
 ```
+
+
 
 ## See Also
 
@@ -28,9 +34,15 @@ void Aspose::Cells::Rendering::ImageOrPrintOptions::SetSvgCssPrefix(const U16Str
 
 Gets and sets the prefix of the css name in svg,the default value is empty string.
 
+
+>Deprecated
+>
+>Use SvgImageOptions.CssPrefix property instead. 
 ```cpp
 void Aspose::Cells::Rendering::ImageOrPrintOptions::SetSvgCssPrefix(const char16_t *value)
 ```
+
+
 
 ## See Also
 

@@ -47,6 +47,7 @@ class DocxSaveOptions : public Aspose::Cells::PaginatedSaveOptions
 | [GetPageSavingCallback()](../paginatedsaveoptions/getpagesavingcallback/) | Control/Indicate progress of page saving process. |
 | [GetPrintingPageType()](../paginatedsaveoptions/getprintingpagetype/) | Indicates which pages will not be printed. |
 | [GetRefreshChartCache()](../saveoptions/getrefreshchartcache/) | Indicates whether refreshing chart cache data. |
+| [GetSaveAsEditableShaps()](./getsaveaseditableshaps/) | Save all drawing objecgts as editable shapes in word file.So you can edit them in Word. |
 | [GetSaveFormat()](../saveoptions/getsaveformat/) | Gets the save file format. |
 | [GetSheetSet()](../paginatedsaveoptions/getsheetset/) | Gets or sets the sheets to render. Default is all visible sheets in the workbook: Aspose.Cells.Rendering.SheetSet.Visible. |
 | [GetSortExternalNames()](../saveoptions/getsortexternalnames/) | Indicates whether sorting external defined names before saving file. |
@@ -91,6 +92,7 @@ class DocxSaveOptions : public Aspose::Cells::PaginatedSaveOptions
 | [SetPageSavingCallback(IPageSavingCallback* value)](../paginatedsaveoptions/setpagesavingcallback/) | Control/Indicate progress of page saving process. |
 | [SetPrintingPageType(PrintingPageType value)](../paginatedsaveoptions/setprintingpagetype/) | Indicates which pages will not be printed. |
 | [SetRefreshChartCache(bool value)](../saveoptions/setrefreshchartcache/) | Indicates whether refreshing chart cache data. |
+| [SetSaveAsEditableShaps(bool value)](./setsaveaseditableshaps/) | Save all drawing objecgts as editable shapes in word file.So you can edit them in Word. |
 | [SetSheetSet(const SheetSet\& value)](../paginatedsaveoptions/setsheetset/) | Gets or sets the sheets to render. Default is all visible sheets in the workbook: Aspose.Cells.Rendering.SheetSet.Visible. |
 | [SetSortExternalNames(bool value)](../saveoptions/setsortexternalnames/) | Indicates whether sorting external defined names before saving file. |
 | [SetSortNames(bool value)](../saveoptions/setsortnames/) | Indicates whether sorting defined names before saving file. |

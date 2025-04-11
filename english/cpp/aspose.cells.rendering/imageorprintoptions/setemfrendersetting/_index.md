@@ -2,7 +2,7 @@
 title: Aspose::Cells::Rendering::ImageOrPrintOptions::SetEmfRenderSetting method
 linktitle: SetEmfRenderSetting
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Rendering::ImageOrPrintOptions::SetEmfRenderSetting method. Setting for rendering Emf metafile in C++.'
+description: 'Aspose::Cells::Rendering::ImageOrPrintOptions::SetEmfRenderSetting method. Setting for rendering Emf metafiles in source file in C++.'
 type: docs
 weight: 6600
 url: /cpp/aspose.cells.rendering/imageorprintoptions/setemfrendersetting/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.rendering/imageorprintoptions/setemfrendersetting/
 ## ImageOrPrintOptions::SetEmfRenderSetting method
 
 
-Setting for rendering Emf metafile.
+Setting for rendering Emf metafiles in source file.
 
 ```cpp
 void Aspose::Cells::Rendering::ImageOrPrintOptions::SetEmfRenderSetting(EmfRenderSetting value)
