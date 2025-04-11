@@ -20,7 +20,7 @@ class MemoryFontSource extends FontSourceBase;
 | Name | Description |
 | --- | --- |
 | [constructor(FontSourceBase)](#constructor-fontsourcebase-)| Constructs from a parent object convertible to this. |
-| [constructor(number[])](#constructor-numberarray-)| Ctor. |
+| [constructor(Uint8Array)](#constructor-uint8array-)| Ctor. |
 
 ## Methods
 
@@ -44,12 +44,12 @@ constructor(obj: FontSourceBase);
 | --- | --- | --- |
 | obj | FontSourceBase | The parent object. |
 
-### constructor(number[]) {#constructor-numberarray-}
+### constructor(Uint8Array) {#constructor-uint8array-}
 
 Ctor.
 
 ```javascript
-constructor(fontData: number[]);
+constructor(fontData: Uint8Array);
 ```
 
 **Parameters:**
@@ -62,13 +62,9 @@ constructor(fontData: number[]);
 Binary font data.
 
 ```javascript
-getFontData() : number[];
+getFontData() : Uint8Array;
 ```
 
-
-**Returns**
-
-number[]
 
 ### getType() {#getType--}
 

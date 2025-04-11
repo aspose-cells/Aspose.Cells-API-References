@@ -26,7 +26,7 @@ class MsoFillFormatHelper;
 | [getBackColor()](#getBackColor--)| Gets and sets the file back color. |
 | [setBackColor(Color)](#setBackColor-color-)| Gets and sets the file back color. |
 | [getImageData()](#getImageData--)| Gets and sets the Texture and Picture fill data. |
-| [setImageData(number[])](#setImageData-numberarray-)| Gets and sets the Texture and Picture fill data. |
+| [setImageData(Uint8Array)](#setImageData-uint8array-)| Gets and sets the Texture and Picture fill data. |
 | [getTexture()](#getTexture--)| Gets the texture fill type. |
 | [isVisible()](#isVisible--)| Indicates whether there is fill. |
 | [setIsVisible(boolean)](#setIsVisible-boolean-)| Indicates whether there is fill. |
@@ -113,20 +113,16 @@ setBackColor(value: Color) : void;
 Gets and sets the Texture and Picture fill data.
 
 ```javascript
-getImageData() : number[];
+getImageData() : Uint8Array;
 ```
 
 
-**Returns**
-
-number[]
-
-### setImageData(number[]) {#setImageData-numberarray-}
+### setImageData(Uint8Array) {#setImageData-uint8array-}
 
 Gets and sets the Texture and Picture fill data.
 
 ```javascript
-setImageData(value: number[]) : void;
+setImageData(value: Uint8Array) : void;
 ```
 
 **Parameters:**

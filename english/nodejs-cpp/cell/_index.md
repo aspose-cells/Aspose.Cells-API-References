@@ -59,6 +59,7 @@ cell.setStyle(style);
 | [getRow()](#getRow--)| Gets row number (zero based) of the cell. |
 | [getColumn()](#getColumn--)| Gets column number (zero based) of the cell. |
 | [isFormula()](#isFormula--)| Represents if the specified cell contains formula. |
+| [getHasCustomFunction()](#getHasCustomFunction--)| Checks whether there is custom function(unsupported function) in this cell's formula. |
 | [getType()](#getType--)| Represents cell value type. |
 | [getName()](#getName--)| Gets the name of the cell. |
 | [isErrorValue()](#isErrorValue--)| Checks if the value of this cell is an error. |
@@ -85,7 +86,7 @@ cell.setStyle(style);
 | [isSharedFormula()](#isSharedFormula--)| Indicates whether the cell formula is part of shared formula. |
 | [isTableFormula()](#isTableFormula--)| Indicates whether this cell is part of table formula. |
 | [getValue()](#getValue--)| Gets/sets the value contained in this cell. |
-| [setValue(object)](#setValue-object-)| Gets/sets the value contained in this cell. |
+| [setValue(Object)](#setValue-object-)| Gets/sets the value contained in this cell. |
 | [isStyleSet()](#isStyleSet--)| Indicates if the cell's style is set. If return false, it means this cell has a default cell format. |
 | [isMerged()](#isMerged--)| Checks if a cell is part of a merged range or not. |
 | [getComment()](#getComment--)| Gets the comment of this cell. |
@@ -94,7 +95,7 @@ cell.setStyle(style);
 | [isCheckBoxStyle()](#isCheckBoxStyle--)| Indicates whether setting this cell as a check box. |
 | [setIsCheckBoxStyle(boolean)](#setIsCheckBoxStyle-boolean-)| Indicates whether setting this cell as a check box. |
 | [getEmbeddedImage()](#getEmbeddedImage--)| Gets and sets the embeddedn image in the cell. |
-| [setEmbeddedImage(number[])](#setEmbeddedImage-numberarray-)| Gets and sets the embeddedn image in the cell. |
+| [setEmbeddedImage(Uint8Array)](#setEmbeddedImage-uint8array-)| Gets and sets the embeddedn image in the cell. |
 | [calculate(CalculationOptions)](#calculate-calculationoptions-)| Calculates the formula of the cell. |
 | [putValue(boolean)](#putValue-boolean-)| Puts a boolean value into the cell. |
 | [putValue(number)](#putValue-number-)| Puts an integer value into the cell. |
@@ -103,7 +104,7 @@ cell.setStyle(style);
 | [putValue(string, boolean)](#putValue-string-boolean-)| Puts a string value into the cell and converts the value to other data type if appropriate. |
 | [putValue(string)](#putValue-string-)| Puts a string value into the cell. |
 | [putValue(Date)](#putValue-date-)| Puts a DateTime value into the cell. |
-| [putValue(object)](#putValue-object-)| Puts an object value into the cell. |
+| [putValue(Object)](#putValue-object-)| Puts an object value into the cell. |
 | [getStringValue(CellValueFormatStrategy)](#getStringValue-cellvalueformatstrategy-)| Gets the string value by specific formatted strategy. |
 | [getWidthOfValue()](#getWidthOfValue--)| Gets the width of the value in unit of pixels. |
 | [getHeightOfValue()](#getHeightOfValue--)| Gets the height of the value in unit of pixels. |
@@ -116,28 +117,28 @@ cell.setStyle(style);
 | [setStyle(Style)](#setStyle-style-)| Sets the cell style. |
 | [setStyle(Style, boolean)](#setStyle-style-boolean-)| Apply the changed property of style to the cell. |
 | [setStyle(Style, StyleFlag)](#setStyle-style-styleflag-)| Apply the cell style based on flags. |
-| [setFormula(string, object)](#setFormula-string-object-)| Set the formula and the value(calculated result) of the formula. |
+| [setFormula(string, Object)](#setFormula-string-object-)| Set the formula and the value(calculated result) of the formula. |
 | [setFormula(string, FormulaParseOptions)](#setFormula-string-formulaparseoptions-)| Set the formula and the value(calculated result) of the formula. |
-| [setFormula(string, FormulaParseOptions, object)](#setFormula-string-formulaparseoptions-object-)| Set the formula and the value(calculated result) of the formula. |
+| [setFormula(string, FormulaParseOptions, Object)](#setFormula-string-formulaparseoptions-object-)| Set the formula and the value(calculated result) of the formula. |
 | [getFormula(boolean, boolean)](#getFormula-boolean-boolean-)| Get the formula of this cell. |
 | [setArrayFormula(string, number, number)](#setArrayFormula-string-number-number-)| Sets an array formula(legacy array formula entered via CTRL+SHIFT+ENTER in ms excel) to a range of cells. |
 | [setArrayFormula(string, number, number, FormulaParseOptions)](#setArrayFormula-string-number-number-formulaparseoptions-)| Sets an array formula to a range of cells. |
-| [setArrayFormula(string, number, number, FormulaParseOptions, object[][])](#setArrayFormula-string-number-number-formulaparseoptions-objectarrayarray-)| Sets an array formula to a range of cells. |
+| [setArrayFormula(string, number, number, FormulaParseOptions, Object[][])](#setArrayFormula-string-number-number-formulaparseoptions-objectarrayarray-)| Sets an array formula to a range of cells. |
 | [setSharedFormula(string, number, number)](#setSharedFormula-string-number-number-)| Sets shared formulas to a range of cells. |
 | [setSharedFormula(string, number, number, FormulaParseOptions)](#setSharedFormula-string-number-number-formulaparseoptions-)| Sets shared formulas to a range of cells. |
-| [setSharedFormula(string, number, number, FormulaParseOptions, object[][])](#setSharedFormula-string-number-number-formulaparseoptions-objectarrayarray-)| Sets shared formulas to a range of cells. |
+| [setSharedFormula(string, number, number, FormulaParseOptions, Object[][])](#setSharedFormula-string-number-number-formulaparseoptions-objectarrayarray-)| Sets shared formulas to a range of cells. |
 | [getPrecedents()](#getPrecedents--)| Gets all references appearing in this cell's formula. |
 | [getDependents(boolean)](#getDependents-boolean-)| Get all cells whose formula references to this cell directly. |
 | [getPrecedentsInCalculation()](#getPrecedentsInCalculation--)| Gets all precedents(reference to cells in current workbook) used by this cell's formula while calculating it. |
 | [getDependentsInCalculation(boolean)](#getDependentsInCalculation-boolean-)| Gets all cells whose calculated result depends on this cell. |
 | [getArrayRange()](#getArrayRange--)| Gets the array range if the cell's formula is an array formula. |
 | [setDynamicArrayFormula(string, FormulaParseOptions, boolean)](#setDynamicArrayFormula-string-formulaparseoptions-boolean-)| Sets dynamic array formula and make the formula spill into neighboring cells if possible. |
-| [setDynamicArrayFormula(string, FormulaParseOptions, object[][], boolean, boolean)](#setDynamicArrayFormula-string-formulaparseoptions-objectarrayarray-boolean-boolean-)| Sets dynamic array formula and make the formula spill into neighboring cells if possible. |
-| [setDynamicArrayFormula(string, FormulaParseOptions, object[][], boolean, boolean, CalculationOptions)](#setDynamicArrayFormula-string-formulaparseoptions-objectarrayarray-boolean-boolean-calculationoptions-)| Sets dynamic array formula and make the formula spill into neighboring cells if possible. |
-| [setTableFormula(number, number, string, string, object[][])](#setTableFormula-number-number-string-string-objectarrayarray-)| Create two-variable data table for given range starting from this cell. |
-| [setTableFormula(number, number, string, boolean, object[][])](#setTableFormula-number-number-string-boolean-objectarrayarray-)| Create one-variable data table for given range starting from this cell. |
-| [setTableFormula(number, number, number, number, number, number, object[][])](#setTableFormula-number-number-number-number-number-number-objectarrayarray-)| Create two-variable data table for given range starting from this cell. |
-| [setTableFormula(number, number, number, number, boolean, object[][])](#setTableFormula-number-number-number-number-boolean-objectarrayarray-)| Create one-variable data table for given range starting from this cell. |
+| [setDynamicArrayFormula(string, FormulaParseOptions, Object[][], boolean, boolean)](#setDynamicArrayFormula-string-formulaparseoptions-objectarrayarray-boolean-boolean-)| Sets dynamic array formula and make the formula spill into neighboring cells if possible. |
+| [setDynamicArrayFormula(string, FormulaParseOptions, Object[][], boolean, boolean, CalculationOptions)](#setDynamicArrayFormula-string-formulaparseoptions-objectarrayarray-boolean-boolean-calculationoptions-)| Sets dynamic array formula and make the formula spill into neighboring cells if possible. |
+| [setTableFormula(number, number, string, string, Object[][])](#setTableFormula-number-number-string-string-objectarrayarray-)| Create two-variable data table for given range starting from this cell. |
+| [setTableFormula(number, number, string, boolean, Object[][])](#setTableFormula-number-number-string-boolean-objectarrayarray-)| Create one-variable data table for given range starting from this cell. |
+| [setTableFormula(number, number, number, number, number, number, Object[][])](#setTableFormula-number-number-number-number-number-number-objectarrayarray-)| Create two-variable data table for given range starting from this cell. |
+| [setTableFormula(number, number, number, number, boolean, Object[][])](#setTableFormula-number-number-number-number-boolean-objectarrayarray-)| Create one-variable data table for given range starting from this cell. |
 | [removeArrayFormula(boolean)](#removeArrayFormula-boolean-)| Remove array formula. |
 | [copy(Cell)](#copy-cell-)| Copies data from a source cell. |
 | [characters(number, number)](#characters-number-number-)| Returns a Characters object that represents a range of characters within the cell text. |
@@ -151,7 +152,7 @@ cell.setStyle(style);
 | [getHtmlString(boolean)](#getHtmlString-boolean-)| Gets the html string which contains data and some formats in this cell. |
 | [toString()](#toString--)| Returns a string represents the current Cell object. |
 | [toJson()](#toJson--)| Convert [Cell](../cell/) to JSON struct data. |
-| [equals(object)](#equals-object-)| Checks whether this object refers to the same cell with another. |
+| [equals(Object)](#equals-object-)| Checks whether this object refers to the same cell with another. |
 | [equals(Cell)](#equals-cell-)| Checks whether this object refers to the same cell with another cell object. |
 | [getHashCode()](#getHashCode--)| Serves as a hash function for a particular type. |
 | [getConditionalFormattingResult()](#getConditionalFormattingResult--)| Get the result of the conditional formatting. |
@@ -209,6 +210,15 @@ Represents if the specified cell contains formula.
 
 ```javascript
 isFormula() : boolean;
+```
+
+
+### getHasCustomFunction() {#getHasCustomFunction--}
+
+Checks whether there is custom function(unsupported function) in this cell's formula.
+
+```javascript
+getHasCustomFunction() : boolean;
 ```
 
 
@@ -495,7 +505,7 @@ isTableFormula() : boolean;
 Gets/sets the value contained in this cell.
 
 ```javascript
-getValue() : object;
+getValue() : Object;
 ```
 
 
@@ -503,18 +513,18 @@ getValue() : object;
 
 Possible type: <p>null,</p> <p>Boolean,</p> <p>DateTime,</p> <p>Double,</p> <p>Integer</p> <p>String.</p> For int value, it may be returned as an Integer object or a Double object. And there is no guarantee that the returned value will be kept as the same type of object always.
 
-### setValue(object) {#setValue-object-}
+### setValue(Object) {#setValue-object-}
 
 Gets/sets the value contained in this cell.
 
 ```javascript
-setValue(value: object) : void;
+setValue(value: Object) : void;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | object | The value to set. |
+| value | Object | The value to set. |
 
 **Remarks**
 
@@ -604,20 +614,16 @@ setIsCheckBoxStyle(value: boolean) : void;
 Gets and sets the embeddedn image in the cell.
 
 ```javascript
-getEmbeddedImage() : number[];
+getEmbeddedImage() : Uint8Array;
 ```
 
 
-**Returns**
-
-number[]
-
-### setEmbeddedImage(number[]) {#setEmbeddedImage-numberarray-}
+### setEmbeddedImage(Uint8Array) {#setEmbeddedImage-uint8array-}
 
 Gets and sets the embeddedn image in the cell.
 
 ```javascript
-setEmbeddedImage(value: number[]) : void;
+setEmbeddedImage(value: Uint8Array) : void;
 ```
 
 **Parameters:**
@@ -736,18 +742,18 @@ putValue(dateTime: Date) : void;
 
 Setting a DateTime value for a cell dose not means the cell will be formatted as date time automatically. DateTime value was maintained as numeric value in the data model of both ms excel and Aspose.Cells. Whether the numeric value will be taken as the numeric value itself or date time depends on the number format applied on this cell. If this cell has not been formatted as date time, it will be displayed as a numeric value even though what you input is DateTime.
 
-### putValue(object) {#putValue-object-}
+### putValue(Object) {#putValue-object-}
 
 Puts an object value into the cell.
 
 ```javascript
-putValue(objectValue: object) : void;
+putValue(objectValue: Object) : void;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| objectValue | object | input value |
+| objectValue | Object | input value |
 
 ### getStringValue(CellValueFormatStrategy) {#getStringValue-cellvalueformatstrategy-}
 
@@ -837,7 +843,7 @@ display style of this cell
 
 **Remarks**
 
-If this cell is also affected by other settings such as conditional formatting, list objects, etc., then the display style may be different from [GetStyle()](../getstyle()/). <br>For flags of adjusting borders according to adjacent cells, [BorderType.TopBorder](../bordertype.topborder/)/[BorderType.BottomBorder](../bordertype.bottomborder/) [BorderType.LeftBorder](../bordertype.leftborder/)/[BorderType.RightBorder](../bordertype.rightborder/) denote whether check and combine the bottom/top/right/left borders of the left/right/top/bottom cells adjacent to this one.</br> <br>For performance and compatibility consideration, some enums are used to denote some special operations:</br> <br>[BorderType.Horizontal](../bordertype.horizontal/)/[BorderType.Vertical](../bordertype.vertical/) denote whether check and combine the bottom/right border of merged cells to this one.</br> <br>[BorderType.Diagonal](../bordertype.diagonal/)(that is, both [StyleModifyFlag.DiagonalUpBorder](../stylemodifyflag.diagonalupborder/) and [StyleModifyFlag.DiagonalDownBorder](../stylemodifyflag.diagonaldownborder/) have been set) denotes check and combine borders from the display style of adjacent cells.</br> <br>Please note, checking borders/styles of adjacent cells, especially the display styles, is time-consumed process. If there is no need to get the borders for the returned style, using [BorderType.None](../bordertype.none/) to disable the process of adjacent cells will give better performance. When getting borders of adjacent cells from styles defined on those cells only(without setting [BorderType.Diagonal](../bordertype.diagonal/)), the performance also may be better because checking the display style of one cell is time-consumed too.</br
+If this cell is also affected by other settings such as conditional formatting, list objects, etc., then the display style may be different from [GetStyle()](../getstyle()/). <br></br>For flags of adjusting borders according to adjacent cells, [BorderType.TopBorder](../bordertype.topborder/)/[BorderType.BottomBorder](../bordertype.bottomborder/) [BorderType.LeftBorder](../bordertype.leftborder/)/[BorderType.RightBorder](../bordertype.rightborder/) denote whether check and combine the bottom/top/right/left borders of the left/right/top/bottom cells adjacent to this one. <br></br>For performance and compatibility consideration, some enums are used to denote some special operations: <br></br>[BorderType.Horizontal](../bordertype.horizontal/)/[BorderType.Vertical](../bordertype.vertical/) denote whether check and combine the bottom/right border of merged cells to this one. <br></br>[BorderType.Diagonal](../bordertype.diagonal/)(that is, both [StyleModifyFlag.DiagonalUpBorder](../stylemodifyflag.diagonalupborder/) and [StyleModifyFlag.DiagonalDownBorder](../stylemodifyflag.diagonaldownborder/) have been set) denotes check and combine borders from the display style of adjacent cells. <br></br>Please note, checking borders/styles of adjacent cells, especially the display styles, is time-consumed process. If there is no need to get the borders for the returned style, using [BorderType.None](../bordertype.none/) to disable the process of adjacent cells will give better performance. When getting borders of adjacent cells from styles defined on those cells only(without setting [BorderType.Diagonal](../bordertype.diagonal/)), the performance also may be better because checking the display style of one cell is time-consumed too.
 
 ### getFormatConditions() {#getFormatConditions--}
 
@@ -931,19 +937,19 @@ setStyle(style: Style, flag: StyleFlag) : void;
 | style | [Style](../style/) | The cell style. |
 | flag | [StyleFlag](../styleflag/) | The style flag. |
 
-### setFormula(string, object) {#setFormula-string-object-}
+### setFormula(string, Object) {#setFormula-string-object-}
 
 Set the formula and the value(calculated result) of the formula.
 
 ```javascript
-setFormula(formula: string, value: object) : void;
+setFormula(formula: string, value: Object) : void;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | formula | string | The formula. |
-| value | object | The value(calculated result) of the formula. |
+| value | Object | The value(calculated result) of the formula. |
 
 ### setFormula(string, FormulaParseOptions) {#setFormula-string-formulaparseoptions-}
 
@@ -959,12 +965,12 @@ setFormula(formula: string, options: FormulaParseOptions) : void;
 | formula | string | The formula. |
 | options | [FormulaParseOptions](../formulaparseoptions/) | Options for parsing the formula. |
 
-### setFormula(string, FormulaParseOptions, object) {#setFormula-string-formulaparseoptions-object-}
+### setFormula(string, FormulaParseOptions, Object) {#setFormula-string-formulaparseoptions-object-}
 
 Set the formula and the value(calculated result) of the formula.
 
 ```javascript
-setFormula(formula: string, options: FormulaParseOptions, value: object) : void;
+setFormula(formula: string, options: FormulaParseOptions, value: Object) : void;
 ```
 
 **Parameters:**
@@ -972,7 +978,7 @@ setFormula(formula: string, options: FormulaParseOptions, value: object) : void;
 | --- | --- | --- |
 | formula | string | The formula. |
 | options | [FormulaParseOptions](../formulaparseoptions/) | Options for parsing the formula. |
-| value | object | The value(calculated result) of the formula. |
+| value | Object | The value(calculated result) of the formula. |
 
 ### getFormula(boolean, boolean) {#getFormula-boolean-boolean-}
 
@@ -1023,12 +1029,12 @@ setArrayFormula(arrayFormula: string, rowNumber: number, columnNumber: number, o
 | columnNumber | number | Number of columns to populate result of the array formula. |
 | options | [FormulaParseOptions](../formulaparseoptions/) | Options for parsing the formula. |
 
-### setArrayFormula(string, number, number, FormulaParseOptions, object[][]) {#setArrayFormula-string-number-number-formulaparseoptions-objectarrayarray-}
+### setArrayFormula(string, number, number, FormulaParseOptions, Object[][]) {#setArrayFormula-string-number-number-formulaparseoptions-objectarrayarray-}
 
 Sets an array formula to a range of cells.
 
 ```javascript
-setArrayFormula(arrayFormula: string, rowNumber: number, columnNumber: number, options: FormulaParseOptions, values: object[][]) : void;
+setArrayFormula(arrayFormula: string, rowNumber: number, columnNumber: number, options: FormulaParseOptions, values: Object[][]) : void;
 ```
 
 **Parameters:**
@@ -1038,7 +1044,7 @@ setArrayFormula(arrayFormula: string, rowNumber: number, columnNumber: number, o
 | rowNumber | number | Number of rows to populate result of the array formula. |
 | columnNumber | number | Number of columns to populate result of the array formula. |
 | options | [FormulaParseOptions](../formulaparseoptions/) | Options for parsing the formula. |
-| values | object[][] | values for those cells with given array formula |
+| values | Object[][] | values for those cells with given array formula |
 
 ### setSharedFormula(string, number, number) {#setSharedFormula-string-number-number-}
 
@@ -1071,12 +1077,12 @@ setSharedFormula(sharedFormula: string, rowNumber: number, columnNumber: number,
 | columnNumber | number | Number of columns to populate the formula. |
 | options | [FormulaParseOptions](../formulaparseoptions/) | Options for parsing the formula. |
 
-### setSharedFormula(string, number, number, FormulaParseOptions, object[][]) {#setSharedFormula-string-number-number-formulaparseoptions-objectarrayarray-}
+### setSharedFormula(string, number, number, FormulaParseOptions, Object[][]) {#setSharedFormula-string-number-number-formulaparseoptions-objectarrayarray-}
 
 Sets shared formulas to a range of cells.
 
 ```javascript
-setSharedFormula(sharedFormula: string, rowNumber: number, columnNumber: number, options: FormulaParseOptions, values: object[][]) : void;
+setSharedFormula(sharedFormula: string, rowNumber: number, columnNumber: number, options: FormulaParseOptions, values: Object[][]) : void;
 ```
 
 **Parameters:**
@@ -1086,7 +1092,7 @@ setSharedFormula(sharedFormula: string, rowNumber: number, columnNumber: number,
 | rowNumber | number | Number of rows to populate the formula. |
 | columnNumber | number | Number of columns to populate the formula. |
 | options | [FormulaParseOptions](../formulaparseoptions/) | Options for parsing the formula. |
-| values | object[][] | values for those cells with given shared formula |
+| values | Object[][] | values for those cells with given shared formula |
 
 ### getPrecedents() {#getPrecedents--}
 
@@ -1231,12 +1237,12 @@ the range that the formula should spill into.
 
 the returned range may be not same with the actual one that this dynamic array formula spills into. If there are non-empty cells in the range, the formula will be set for current cell only and marked as "#SPILL!". But for such kind of situation we still return the whole range that this formula should spill into.
 
-### setDynamicArrayFormula(string, FormulaParseOptions, object[][], boolean, boolean) {#setDynamicArrayFormula-string-formulaparseoptions-objectarrayarray-boolean-boolean-}
+### setDynamicArrayFormula(string, FormulaParseOptions, Object[][], boolean, boolean) {#setDynamicArrayFormula-string-formulaparseoptions-objectarrayarray-boolean-boolean-}
 
 Sets dynamic array formula and make the formula spill into neighboring cells if possible.
 
 ```javascript
-setDynamicArrayFormula(arrayFormula: string, options: FormulaParseOptions, values: object[][], calculateRange: boolean, calculateValue: boolean) : CellArea;
+setDynamicArrayFormula(arrayFormula: string, options: FormulaParseOptions, values: Object[][], calculateRange: boolean, calculateValue: boolean) : CellArea;
 ```
 
 **Parameters:**
@@ -1244,7 +1250,7 @@ setDynamicArrayFormula(arrayFormula: string, options: FormulaParseOptions, value
 | --- | --- | --- |
 | arrayFormula | string | the formula expression |
 | options | [FormulaParseOptions](../formulaparseoptions/) | options to parse formula.         /// "Parse" option will be ignored and the formula will always be parsed immediately |
-| values | object[][] | values(calculated results) for those cells with given dynamic array formula |
+| values | Object[][] | values(calculated results) for those cells with given dynamic array formula |
 | calculateRange | boolean | Whether calculate the spilled range for this dynamic array formula.         /// If the "values" parameter is not null and this flag is false,         /// then the spilled range's height will be values.Length and width will be values[0].Length. |
 | calculateValue | boolean | whether calculate this dynamic array formula for those cells in the spilled range when "values" is null         /// or corresponding item in "values" for one cell is null. |
 
@@ -1256,12 +1262,12 @@ the range that the formula should spill into.
 
 the returned range may be not same with the actual one that this dynamic array formula spills into. If there are non-empty cells in the range, the formula will be set for current cell only and marked as "#SPILL!". But for such kind of situation we still return the whole range that this formula should spill into.
 
-### setDynamicArrayFormula(string, FormulaParseOptions, object[][], boolean, boolean, CalculationOptions) {#setDynamicArrayFormula-string-formulaparseoptions-objectarrayarray-boolean-boolean-calculationoptions-}
+### setDynamicArrayFormula(string, FormulaParseOptions, Object[][], boolean, boolean, CalculationOptions) {#setDynamicArrayFormula-string-formulaparseoptions-objectarrayarray-boolean-boolean-calculationoptions-}
 
 Sets dynamic array formula and make the formula spill into neighboring cells if possible.
 
 ```javascript
-setDynamicArrayFormula(arrayFormula: string, options: FormulaParseOptions, values: object[][], calculateRange: boolean, calculateValue: boolean, copts: CalculationOptions) : CellArea;
+setDynamicArrayFormula(arrayFormula: string, options: FormulaParseOptions, values: Object[][], calculateRange: boolean, calculateValue: boolean, copts: CalculationOptions) : CellArea;
 ```
 
 **Parameters:**
@@ -1269,7 +1275,7 @@ setDynamicArrayFormula(arrayFormula: string, options: FormulaParseOptions, value
 | --- | --- | --- |
 | arrayFormula | string | the formula expression |
 | options | [FormulaParseOptions](../formulaparseoptions/) | options to parse formula.         /// "Parse" option will be ignored and the formula will always be parsed immediately |
-| values | object[][] | values(calculated results) for those cells with given dynamic array formula |
+| values | Object[][] | values(calculated results) for those cells with given dynamic array formula |
 | calculateRange | boolean | Whether calculate the spilled range for this dynamic array formula.         /// If the "values" parameter is not null and this flag is false,         /// then the spilled range's height will be values.Length and width will be values[0].Length. |
 | calculateValue | boolean | whether calculate this dynamic array formula for those cells in the spilled range when "values" is null         /// or corresponding item in "values" for one cell is null. |
 | copts | [CalculationOptions](../calculationoptions/) | The options for calculating formula.         /// Commonly, for performance consideration, the [CalculationOptions.Recursive](../calculationoptions.recursive/) property should be false. |
@@ -1282,12 +1288,12 @@ the range that the formula should spill into.
 
 the returned range may be not same with the actual one that this dynamic array formula spills into. If there are non-empty cells in the range, the formula will be set for current cell only and marked as "#SPILL!". But for such kind of situation we still return the whole range that this formula should spill into.
 
-### setTableFormula(number, number, string, string, object[][]) {#setTableFormula-number-number-string-string-objectarrayarray-}
+### setTableFormula(number, number, string, string, Object[][]) {#setTableFormula-number-number-string-string-objectarrayarray-}
 
 Create two-variable data table for given range starting from this cell.
 
 ```javascript
-setTableFormula(rowNumber: number, columnNumber: number, rowInputCell: string, columnInputCell: string, values: object[][]) : void;
+setTableFormula(rowNumber: number, columnNumber: number, rowInputCell: string, columnInputCell: string, values: Object[][]) : void;
 ```
 
 **Parameters:**
@@ -1297,14 +1303,14 @@ setTableFormula(rowNumber: number, columnNumber: number, rowInputCell: string, c
 | columnNumber | number | Number of columns to populate the formula. |
 | rowInputCell | string | the row input cell |
 | columnInputCell | string | the column input cell |
-| values | object[][] | values for cells in table formula range |
+| values | Object[][] | values for cells in table formula range |
 
-### setTableFormula(number, number, string, boolean, object[][]) {#setTableFormula-number-number-string-boolean-objectarrayarray-}
+### setTableFormula(number, number, string, boolean, Object[][]) {#setTableFormula-number-number-string-boolean-objectarrayarray-}
 
 Create one-variable data table for given range starting from this cell.
 
 ```javascript
-setTableFormula(rowNumber: number, columnNumber: number, inputCell: string, isRowInput: boolean, values: object[][]) : void;
+setTableFormula(rowNumber: number, columnNumber: number, inputCell: string, isRowInput: boolean, values: Object[][]) : void;
 ```
 
 **Parameters:**
@@ -1314,14 +1320,14 @@ setTableFormula(rowNumber: number, columnNumber: number, inputCell: string, isRo
 | columnNumber | number | Number of columns to populate the formula. |
 | inputCell | string | the input cell |
 | isRowInput | boolean | Indicates whether the input cell is a row input cell(true) or a column input cell(false). |
-| values | object[][] | values for cells in table formula range |
+| values | Object[][] | values for cells in table formula range |
 
-### setTableFormula(number, number, number, number, number, number, object[][]) {#setTableFormula-number-number-number-number-number-number-objectarrayarray-}
+### setTableFormula(number, number, number, number, number, number, Object[][]) {#setTableFormula-number-number-number-number-number-number-objectarrayarray-}
 
 Create two-variable data table for given range starting from this cell.
 
 ```javascript
-setTableFormula(rowNumber: number, columnNumber: number, rowIndexOfRowInputCell: number, columnIndexOfRowInputCell: number, rowIndexOfColumnInputCell: number, columnIndexOfColumnInputCell: number, values: object[][]) : void;
+setTableFormula(rowNumber: number, columnNumber: number, rowIndexOfRowInputCell: number, columnIndexOfRowInputCell: number, rowIndexOfColumnInputCell: number, columnIndexOfColumnInputCell: number, values: Object[][]) : void;
 ```
 
 **Parameters:**
@@ -1333,14 +1339,14 @@ setTableFormula(rowNumber: number, columnNumber: number, rowIndexOfRowInputCell:
 | columnIndexOfRowInputCell | number | column index of the row input cell |
 | rowIndexOfColumnInputCell | number | row index of the column input cell |
 | columnIndexOfColumnInputCell | number | column index of the column input cell |
-| values | object[][] | values for cells in table formula range |
+| values | Object[][] | values for cells in table formula range |
 
-### setTableFormula(number, number, number, number, boolean, object[][]) {#setTableFormula-number-number-number-number-boolean-objectarrayarray-}
+### setTableFormula(number, number, number, number, boolean, Object[][]) {#setTableFormula-number-number-number-number-boolean-objectarrayarray-}
 
 Create one-variable data table for given range starting from this cell.
 
 ```javascript
-setTableFormula(rowNumber: number, columnNumber: number, rowIndexOfInputCell: number, columnIndexOfInputCell: number, isRowInput: boolean, values: object[][]) : void;
+setTableFormula(rowNumber: number, columnNumber: number, rowIndexOfInputCell: number, columnIndexOfInputCell: number, isRowInput: boolean, values: Object[][]) : void;
 ```
 
 **Parameters:**
@@ -1351,7 +1357,7 @@ setTableFormula(rowNumber: number, columnNumber: number, rowIndexOfInputCell: nu
 | rowIndexOfInputCell | number | row index of the input cell |
 | columnIndexOfInputCell | number | column index of the input cell |
 | isRowInput | boolean | Indicates whether the input cell is a row input cell(true) or a column input cell(false). |
-| values | object[][] | values for cells in table formula range |
+| values | Object[][] | values for cells in table formula range |
 
 ### removeArrayFormula(boolean) {#removeArrayFormula-boolean-}
 
@@ -1536,18 +1542,18 @@ toJson() : string;
 ```
 
 
-### equals(object) {#equals-object-}
+### equals(Object) {#equals-object-}
 
 Checks whether this object refers to the same cell with another.
 
 ```javascript
-equals(obj: object) : boolean;
+equals(obj: Object) : boolean;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | object | another object |
+| obj | Object | another object |
 
 **Returns**
 

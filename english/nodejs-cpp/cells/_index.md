@@ -195,8 +195,8 @@ cells.merge(5, 4, 2, 2);
 | [clearFormats(CellArea)](#clearFormats-cellarea-)| Clears formatting of a range. |
 | [clearFormats(number, number, number, number)](#clearFormats-number-number-number-number-)| Clears formatting of a range. |
 | [linkToXmlMap(string, number, number, string)](#linkToXmlMap-string-number-number-string-)| Link to a xml map. |
-| [find(object, Cell)](#find-object-cell-)| Finds the cell containing with the input object. |
-| [find(object, Cell, FindOptions)](#find-object-cell-findoptions-)| Finds the cell containing with the input object. |
+| [find(Object, Cell)](#find-object-cell-)| Finds the cell containing with the input object. |
+| [find(Object, Cell, FindOptions)](#find-object-cell-findoptions-)| Finds the cell containing with the input object. |
 | [endCellInRow(number)](#endCellInRow-number-)| Gets the last cell in this row. |
 | [endCellInRow(number, number, number, number)](#endCellInRow-number-number-number-number-)| Gets the last cell with maximum row index in this range. |
 | [endCellInColumn(number)](#endCellInColumn-number-)| Gets the last cell in this column. |
@@ -2617,18 +2617,18 @@ linkToXmlMap(mapName: string, row: number, column: number, path: string) : void;
 | column | number | column of the destination cell |
 | path | string | path of xml element in xml map |
 
-### find(object, Cell) {#find-object-cell-}
+### find(Object, Cell) {#find-object-cell-}
 
 Finds the cell containing with the input object.
 
 ```javascript
-find(what: object, previousCell: Cell) : Cell;
+find(what: Object, previousCell: Cell) : Cell;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| what | object | The object to search for.         /// The type should be int,double,DateTime,string,bool. |
+| what | Object | The object to search for.         /// The type should be int,double,DateTime,string,bool. |
 | previousCell | [Cell](../cell/) | Previous cell with the same object.          /// This parameter can be set to null if searching from the start. |
 
 **Returns**
@@ -2639,18 +2639,18 @@ Cell object.
 
 Returns null (Nothing) if no cell is found.
 
-### find(object, Cell, FindOptions) {#find-object-cell-findoptions-}
+### find(Object, Cell, FindOptions) {#find-object-cell-findoptions-}
 
 Finds the cell containing with the input object.
 
 ```javascript
-find(what: object, previousCell: Cell, findOptions: FindOptions) : Cell;
+find(what: Object, previousCell: Cell, findOptions: FindOptions) : Cell;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| what | object | The object to search for.         /// The type should be int,double,DateTime,string,bool. |
+| what | Object | The object to search for.         /// The type should be int,double,DateTime,string,bool. |
 | previousCell | [Cell](../cell/) | Previous cell with the same object.          /// This parameter can be set to null if searching from the start. |
 | findOptions | [FindOptions](../findoptions/) | Find options |
 
@@ -2834,7 +2834,7 @@ deleteRange(startRow: number, startColumn: number, endRow: number, endColumn: nu
 Exports data in the [Cells](../cells/) collection to a two-dimension array object.
 
 ```javascript
-exportArray(firstRow: number, firstColumn: number, totalRows: number, totalColumns: number) : object[][];
+exportArray(firstRow: number, firstColumn: number, totalRows: number, totalColumns: number) : Object[][];
 ```
 
 **Parameters:**

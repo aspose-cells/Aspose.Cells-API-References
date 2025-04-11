@@ -24,7 +24,7 @@ class UnionRange;
 | [getRowCount()](#getRowCount--)| Gets the count of rows in the range. |
 | [getColumnCount()](#getColumnCount--)| Gets the count of rows in the range. |
 | [getValue()](#getValue--)| Gets and sets the values of the range. |
-| [setValue(object)](#setValue-object-)| Gets and sets the values of the range. |
+| [setValue(Object)](#setValue-object-)| Gets and sets the values of the range. |
 | [getName()](#getName--)| Gets or sets the name of the range. |
 | [setName(string)](#setName-string-)| Gets or sets the name of the range. |
 | [getRefersTo()](#getRefersTo--)| Gets the range's refers to. |
@@ -108,22 +108,22 @@ Only effects when it only contains one range.
 Gets and sets the values of the range.
 
 ```javascript
-getValue() : object;
+getValue() : Object;
 ```
 
 
-### setValue(object) {#setValue-object-}
+### setValue(Object) {#setValue-object-}
 
 Gets and sets the values of the range.
 
 ```javascript
-setValue(value: object) : void;
+setValue(value: Object) : void;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | object | The value to set. |
+| value | Object | The value to set. |
 
 ### getName() {#getName--}
 

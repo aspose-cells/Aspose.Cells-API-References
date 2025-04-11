@@ -37,7 +37,7 @@ class OdsPageBackground;
 | [getLinkedGraphic()](#getLinkedGraphic--)| Gets and sets the linked graphic path. |
 | [setLinkedGraphic(string)](#setLinkedGraphic-string-)| Gets and sets the linked graphic path. |
 | [getGraphicData()](#getGraphicData--)| Gets and sets the graphic data. |
-| [setGraphicData(number[])](#setGraphicData-numberarray-)| Gets and sets the graphic data. |
+| [setGraphicData(Uint8Array)](#setGraphicData-uint8array-)| Gets and sets the graphic data. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -190,20 +190,16 @@ setLinkedGraphic(value: string) : void;
 Gets and sets the graphic data.
 
 ```javascript
-getGraphicData() : number[];
+getGraphicData() : Uint8Array;
 ```
 
 
-**Returns**
-
-number[]
-
-### setGraphicData(number[]) {#setGraphicData-numberarray-}
+### setGraphicData(Uint8Array) {#setGraphicData-uint8array-}
 
 Gets and sets the graphic data.
 
 ```javascript
-setGraphicData(value: number[]) : void;
+setGraphicData(value: Uint8Array) : void;
 ```
 
 **Parameters:**

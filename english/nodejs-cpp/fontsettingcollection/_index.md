@@ -35,7 +35,7 @@ class FontSettingCollection;
 | [deleteText(number, number)](#deleteText-number-number-)| Delete some characters. |
 | [format(number, number, Font, StyleFlag)](#format-number-number-font-styleflag-)| Format the text with font setting. |
 | [clear()](#clear--)| Clear all setting. |
-| [equals(object)](#equals-object-)|  |
+| [equals(Object)](#equals-object-)|  |
 | [getHashCode()](#getHashCode--)|  |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
@@ -249,18 +249,18 @@ clear() : void;
 ```
 
 
-### equals(object) {#equals-object-}
+### equals(Object) {#equals-object-}
 
 
 
 ```javascript
-equals(obj: object) : boolean;
+equals(obj: Object) : boolean;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | object |  |
+| obj | Object |  |
 
 ### getHashCode() {#getHashCode--}
 

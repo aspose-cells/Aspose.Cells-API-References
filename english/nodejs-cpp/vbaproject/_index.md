@@ -51,13 +51,9 @@ isValidSigned() : boolean;
 Gets certificate raw data if this VBA project is signed.
 
 ```javascript
-getCertRawData() : number[];
+getCertRawData() : Uint8Array;
 ```
 
-
-**Returns**
-
-number[]
 
 ### getEncoding() {#getEncoding--}
 

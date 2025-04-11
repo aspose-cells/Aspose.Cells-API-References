@@ -60,13 +60,9 @@ getShape() : Shape;
 Indicates image bytes of rendered Chart, Shape when rendering.
 
 ```javascript
-getImageBytes() : number[];
+getImageBytes() : Uint8Array;
 ```
 
-
-**Returns**
-
-number[]
 
 ### getType() {#getType--}
 

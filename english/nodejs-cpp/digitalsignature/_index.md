@@ -19,7 +19,7 @@ class DigitalSignature;
 
 | Name | Description |
 | --- | --- |
-| [constructor(number[], string, string, Date)](#constructor-numberarray-string-string-date-)| Constructor of DigitalSignature. |
+| [constructor(Uint8Array, string, string, Date)](#constructor-uint8array-string-string-date-)| Constructor of DigitalSignature. |
 | [constructor(string, string, string, Date)](#constructor-string-string-string-date-)| Constructor of DigitalSignature. |
 
 ## Methods
@@ -33,19 +33,19 @@ class DigitalSignature;
 | [getText()](#getText--)| Specifies the text of actual signature in the digital signature. Default value is Empty. |
 | [setText(string)](#setText-string-)| Specifies the text of actual signature in the digital signature. Default value is Empty. |
 | [getImage()](#getImage--)| Specifies an image for the digital signature. Default value is null. |
-| [setImage(number[])](#setImage-numberarray-)| Specifies an image for the digital signature. Default value is null. |
+| [setImage(Uint8Array)](#setImage-uint8array-)| Specifies an image for the digital signature. Default value is null. |
 | [isValid()](#isValid--)| If this digital signature is valid and the document has not been tampered with, this value will be true. |
 | [getXAdESType()](#getXAdESType--)| XAdES type. Default value is None(XAdES is off). |
 | [setXAdESType(XAdESType)](#setXAdESType-xadestype-)| XAdES type. Default value is None(XAdES is off). |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
-### constructor(number[], string, string, Date) {#constructor-numberarray-string-string-date-}
+### constructor(Uint8Array, string, string, Date) {#constructor-uint8array-string-string-date-}
 
 Constructor of DigitalSignature.
 
 ```javascript
-constructor(rawData: number[], password: string, comments: string, signTime: Date);
+constructor(rawData: Uint8Array, password: string, comments: string, signTime: Date);
 ```
 
 **Parameters:**
@@ -143,20 +143,16 @@ setText(value: string) : void;
 Specifies an image for the digital signature. Default value is null.
 
 ```javascript
-getImage() : number[];
+getImage() : Uint8Array;
 ```
 
 
-**Returns**
-
-number[]
-
-### setImage(number[]) {#setImage-numberarray-}
+### setImage(Uint8Array) {#setImage-uint8array-}
 
 Specifies an image for the digital signature. Default value is null.
 
 ```javascript
-setImage(value: number[]) : void;
+setImage(value: Uint8Array) : void;
 ```
 
 **Parameters:**

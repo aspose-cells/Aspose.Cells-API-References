@@ -157,7 +157,7 @@ True means this value has benn removed from the data source.
 Gets the value of the pivot item
 
 ```javascript
-getValue() : object;
+getValue() : Object;
 ```
 
 

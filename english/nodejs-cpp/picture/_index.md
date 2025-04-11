@@ -48,7 +48,7 @@ workbook.save("output/Book1.xls", SaveFormat.Excel97To2003);
 | [getBorderWeight()](#getBorderWeight--)| Gets or sets the weight of the border line of a picture in units of pt. |
 | [setBorderWeight(number)](#setBorderWeight-number-)| Gets or sets the weight of the border line of a picture in units of pt. |
 | [getData()](#getData--)| Gets the data of the picture. |
-| [setData(number[])](#setData-numberarray-)| Gets the data of the picture. |
+| [setData(Uint8Array)](#setData-uint8array-)| Gets the data of the picture. |
 | [getSourceFullName()](#getSourceFullName--)| Gets or sets the path and name of the source file for the linked image. |
 | [setSourceFullName(string)](#setSourceFullName-string-)| Gets or sets the path and name of the source file for the linked image. |
 | [getFormula()](#getFormula--)| Gets and sets the data of the formula. |
@@ -71,7 +71,7 @@ workbook.save("output/Book1.xls", SaveFormat.Excel97To2003);
 | [copy(Picture, CopyOptions)](#copy-picture-copyoptions-)| Copy the picture. |
 | [move(number, number)](#move-number-number-)| Moves the picture to a specified location. |
 | [placeInCell()](#placeInCell--)| Place this picture in the cell |
-| [isSameSetting(object)](#isSameSetting-object-)| Returns whether the shape is same. |
+| [isSameSetting(Object)](#isSameSetting-object-)| Returns whether the shape is same. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getMacroName()](#getMacroName--)| Gets and sets the name of macro. |
 | [setMacroName(string)](#setMacroName-string-)| Gets and sets the name of macro. |
@@ -353,20 +353,16 @@ setBorderWeight(value: number) : void;
 Gets the data of the picture.
 
 ```javascript
-getData() : number[];
+getData() : Uint8Array;
 ```
 
 
-**Returns**
-
-number[]
-
-### setData(number[]) {#setData-numberarray-}
+### setData(Uint8Array) {#setData-uint8array-}
 
 Gets the data of the picture.
 
 ```javascript
-setData(value: number[]) : void;
+setData(value: Uint8Array) : void;
 ```
 
 **Parameters:**
@@ -626,18 +622,18 @@ placeInCell() : void;
 ```
 
 
-### isSameSetting(object) {#isSameSetting-object-}
+### isSameSetting(Object) {#isSameSetting-object-}
 
 Returns whether the shape is same.
 
 ```javascript
-isSameSetting(obj: object) : boolean;
+isSameSetting(obj: Object) : boolean;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | object |  |
+| obj | Object |  |
 
 ### isNull() {#isNull--}
 
@@ -2586,13 +2582,9 @@ getTextBoxOptions() : TextBoxOptions;
 Gets the data of control.
 
 ```javascript
-getControlData() : number[];
+getControlData() : Uint8Array;
 ```
 
-
-**Returns**
-
-number[]
 
 ### getActiveXControl() {#getActiveXControl--}
 

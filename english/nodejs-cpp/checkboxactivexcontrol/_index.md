@@ -39,7 +39,7 @@ class CheckBoxActiveXControl extends ActiveXControl;
 | [getSpecialEffect()](#getSpecialEffect--)| Gets and sets the special effect of the control. |
 | [setSpecialEffect(ControlSpecialEffectType)](#setSpecialEffect-controlspecialeffecttype-)| Gets and sets the special effect of the control. |
 | [getPicture()](#getPicture--)| Gets and sets the data of the picture. |
-| [setPicture(number[])](#setPicture-numberarray-)| Gets and sets the data of the picture. |
+| [setPicture(Uint8Array)](#setPicture-uint8array-)| Gets and sets the data of the picture. |
 | [getAccelerator()](#getAccelerator--)| Gets and sets the accelerator key for the control. |
 | [setAccelerator(string)](#setAccelerator-string-)| Gets and sets the accelerator key for the control. |
 | [getValue()](#getValue--)| Indicates if the control is checked or not. |
@@ -49,7 +49,7 @@ class CheckBoxActiveXControl extends ActiveXControl;
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getWorkbook()](#getWorkbook--)| Gets the [Workbook](../workbook/) object. |
 | [getMouseIcon()](#getMouseIcon--)| Gets and sets a custom icon to display as the mouse pointer for the control. |
-| [setMouseIcon(number[])](#setMouseIcon-numberarray-)| Gets and sets a custom icon to display as the mouse pointer for the control. |
+| [setMouseIcon(Uint8Array)](#setMouseIcon-uint8array-)| Gets and sets a custom icon to display as the mouse pointer for the control. |
 | [getMousePointer()](#getMousePointer--)| Gets and sets the type of icon displayed as the mouse pointer for the control. |
 | [setMousePointer(ControlMousePointerType)](#setMousePointer-controlmousepointertype-)| Gets and sets the type of icon displayed as the mouse pointer for the control. |
 | [getLinkedCell()](#getLinkedCell--)| Gets and sets the linked cell. |
@@ -259,20 +259,16 @@ setSpecialEffect(value: ControlSpecialEffectType) : void;
 Gets and sets the data of the picture.
 
 ```javascript
-getPicture() : number[];
+getPicture() : Uint8Array;
 ```
 
 
-**Returns**
-
-number[]
-
-### setPicture(number[]) {#setPicture-numberarray-}
+### setPicture(Uint8Array) {#setPicture-uint8array-}
 
 Gets and sets the data of the picture.
 
 ```javascript
-setPicture(value: number[]) : void;
+setPicture(value: Uint8Array) : void;
 ```
 
 **Parameters:**
@@ -385,20 +381,16 @@ getWorkbook() : Workbook;
 Gets and sets a custom icon to display as the mouse pointer for the control.
 
 ```javascript
-getMouseIcon() : number[];
+getMouseIcon() : Uint8Array;
 ```
 
 
-**Returns**
-
-number[]
-
-### setMouseIcon(number[]) {#setMouseIcon-numberarray-}
+### setMouseIcon(Uint8Array) {#setMouseIcon-uint8array-}
 
 Gets and sets a custom icon to display as the mouse pointer for the control.
 
 ```javascript
-setMouseIcon(value: number[]) : void;
+setMouseIcon(value: Uint8Array) : void;
 ```
 
 **Parameters:**
@@ -612,13 +604,9 @@ setTextAlign(value: TextAlignmentType) : void;
 Gets and sets the binary data of the control.
 
 ```javascript
-getData() : number[];
+getData() : Uint8Array;
 ```
 
-
-**Returns**
-
-number[]
 
 ### getWidth() {#getWidth--}
 

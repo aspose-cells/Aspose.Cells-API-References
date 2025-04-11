@@ -50,10 +50,11 @@ sheets.setActiveSheetIndex(1);
 | [getBuiltInDocumentProperties()](#getBuiltInDocumentProperties--)| Returns a [DocumentProperty](../documentproperty/) collection that represents all the built-in document properties of the spreadsheet. |
 | [getCustomDocumentProperties()](#getCustomDocumentProperties--)| Returns a [DocumentProperty](../documentproperty/) collection that represents all the custom document properties of the spreadsheet. |
 | [getOleSize()](#getOleSize--)| Gets and Sets displayed size when Workbook file is used as an Ole object. |
-| [setOleSize(object)](#setOleSize-object-)| Gets and Sets displayed size when Workbook file is used as an Ole object. |
+| [setOleSize(Object)](#setOleSize-object-)| Gets and Sets displayed size when Workbook file is used as an Ole object. |
 | [getExternalLinks()](#getExternalLinks--)| Represents external links in a workbook. |
 | [getTableStyles()](#getTableStyles--)| Gets [TableStyles](../tablestyles/) object. |
 | [getRevisionLogs()](#getRevisionLogs--)| Represents revision logs. |
+| [getSensitivityLabels()](#getSensitivityLabels--)| Represents all sensitivity labels. |
 | [createRange(string, number)](#createRange-string-number-)| Creates a [Range](../range/) object from an address of the range. |
 | [createUnionRange(string, number)](#createUnionRange-string-number-)| Creates a [Range](../range/) object from an address of the range. |
 | [getSheetByCodeName(string)](#getSheetByCodeName-string-)| Gets the worksheet by the code name. |
@@ -339,7 +340,7 @@ excel.getWorksheets().getCustomDocumentProperties().add("Checked by", "Jane");
 Gets and Sets displayed size when Workbook file is used as an Ole object.
 
 ```javascript
-getOleSize() : object;
+getOleSize() : Object;
 ```
 
 
@@ -347,18 +348,18 @@ getOleSize() : object;
 
 Null means no ole size setting.
 
-### setOleSize(object) {#setOleSize-object-}
+### setOleSize(Object) {#setOleSize-object-}
 
 Gets and Sets displayed size when Workbook file is used as an Ole object.
 
 ```javascript
-setOleSize(value: object) : void;
+setOleSize(value: Object) : void;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | object | The value to set. |
+| value | Object | The value to set. |
 
 **Remarks**
 
@@ -402,6 +403,19 @@ getRevisionLogs() : RevisionLogCollection;
 **Returns**
 
 [RevisionLogCollection](../revisionlogcollection/)
+
+### getSensitivityLabels() {#getSensitivityLabels--}
+
+Represents all sensitivity labels.
+
+```javascript
+getSensitivityLabels() : SensitivityLabelCollection;
+```
+
+
+**Returns**
+
+[SensitivityLabelCollection](../sensitivitylabelcollection/)
 
 ### createRange(string, number) {#createRange-string-number-}
 

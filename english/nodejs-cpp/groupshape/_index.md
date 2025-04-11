@@ -303,7 +303,7 @@ excelbook.save("output/DrawingGroupShape.xls");
 | [characters(number, number)](#characters-number-number-)| Returns a Characters object that represents a range of characters within the text. |
 | [getRichFormattings()](#getRichFormattings--)| Returns all Characters objects that represents a range of characters within the text . |
 | [removeActiveXControl()](#removeActiveXControl--)| Remove activeX control. |
-| [isSameSetting(object)](#isSameSetting-object-)| Returns whether the shape is same. |
+| [isSameSetting(Object)](#isSameSetting-object-)| Returns whether the shape is same. |
 | [getActualBox()](#getActualBox--)| Get the actual position and size of the shape (after applying rotation, flip, etc.) |
 | [fitToTextSize()](#fitToTextSize--)| Recalculate a text area suitable for displaying all text content. |
 
@@ -2311,13 +2311,9 @@ getTextBoxOptions() : TextBoxOptions;
 Gets the data of control.
 
 ```javascript
-getControlData() : number[];
+getControlData() : Uint8Array;
 ```
 
-
-**Returns**
-
-number[]
 
 ### getActiveXControl() {#getActiveXControl--}
 
@@ -2762,18 +2758,18 @@ removeActiveXControl() : void;
 ```
 
 
-### isSameSetting(object) {#isSameSetting-object-}
+### isSameSetting(Object) {#isSameSetting-object-}
 
 Returns whether the shape is same.
 
 ```javascript
-isSameSetting(obj: object) : boolean;
+isSameSetting(obj: Object) : boolean;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | object |  |
+| obj | Object |  |
 
 ### getActualBox() {#getActualBox--}
 

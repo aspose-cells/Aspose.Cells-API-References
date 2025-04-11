@@ -58,8 +58,8 @@ workbook.save("output/AutoFilter.xlsx");
 | [addIconFilter(number, IconSetType, number)](#addIconFilter-number-iconsettype-number-)| Adds an icon filter. |
 | [matchBlanks(number)](#matchBlanks-number-)| Match all blank cell in the list. |
 | [matchNonBlanks(number)](#matchNonBlanks-number-)| Match all not blank cell in the list. |
-| [custom(number, FilterOperatorType, object)](#custom-number-filteroperatortype-object-)| Filters a list with a custom criteria. |
-| [custom(number, FilterOperatorType, object, boolean, FilterOperatorType, object)](#custom-number-filteroperatortype-object-boolean-filteroperatortype-object-)| Filters a list with custom criteria. |
+| [custom(number, FilterOperatorType, Object)](#custom-number-filteroperatortype-object-)| Filters a list with a custom criteria. |
+| [custom(number, FilterOperatorType, Object, boolean, FilterOperatorType, Object)](#custom-number-filteroperatortype-object-boolean-filteroperatortype-object-)| Filters a list with custom criteria. |
 | [showAll()](#showAll--)| Unhide all rows. |
 | [refresh()](#refresh--)| Refresh auto filters to hide or unhide the rows. |
 | [refresh(boolean)](#refresh-boolean-)| Gets all hidden rows' indexes. |
@@ -397,12 +397,12 @@ matchNonBlanks(fieldIndex: number) : void;
 | --- | --- | --- |
 | fieldIndex | number | The integer offset of the field on which you want to base the filter          /// (from the left of the list; the leftmost field is field 0). |
 
-### custom(number, FilterOperatorType, object) {#custom-number-filteroperatortype-object-}
+### custom(number, FilterOperatorType, Object) {#custom-number-filteroperatortype-object-}
 
 Filters a list with a custom criteria.
 
 ```javascript
-custom(fieldIndex: number, operatorType1: FilterOperatorType, criteria1: object) : void;
+custom(fieldIndex: number, operatorType1: FilterOperatorType, criteria1: Object) : void;
 ```
 
 **Parameters:**
@@ -410,14 +410,14 @@ custom(fieldIndex: number, operatorType1: FilterOperatorType, criteria1: object)
 | --- | --- | --- |
 | fieldIndex | number | The integer offset of the field on which you want to base the filter          /// (from the left of the list; the leftmost field is field 0). |
 | operatorType1 | [FilterOperatorType](../filteroperatortype/) | The filter operator type |
-| criteria1 | object | The custom criteria |
+| criteria1 | Object | The custom criteria |
 
-### custom(number, FilterOperatorType, object, boolean, FilterOperatorType, object) {#custom-number-filteroperatortype-object-boolean-filteroperatortype-object-}
+### custom(number, FilterOperatorType, Object, boolean, FilterOperatorType, Object) {#custom-number-filteroperatortype-object-boolean-filteroperatortype-object-}
 
 Filters a list with custom criteria.
 
 ```javascript
-custom(fieldIndex: number, operatorType1: FilterOperatorType, criteria1: object, isAnd: boolean, operatorType2: FilterOperatorType, criteria2: object) : void;
+custom(fieldIndex: number, operatorType1: FilterOperatorType, criteria1: Object, isAnd: boolean, operatorType2: FilterOperatorType, criteria2: Object) : void;
 ```
 
 **Parameters:**
@@ -425,10 +425,10 @@ custom(fieldIndex: number, operatorType1: FilterOperatorType, criteria1: object,
 | --- | --- | --- |
 | fieldIndex | number | The integer offset of the field on which you want to base the filter          /// (from the left of the list; the leftmost field is field 0). |
 | operatorType1 | [FilterOperatorType](../filteroperatortype/) | The filter operator type |
-| criteria1 | object | The custom criteria |
+| criteria1 | Object | The custom criteria |
 | isAnd | boolean |  |
 | operatorType2 | [FilterOperatorType](../filteroperatortype/) | The filter operator type |
-| criteria2 | object | The custom criteria |
+| criteria2 | Object | The custom criteria |
 
 ### showAll() {#showAll--}
 

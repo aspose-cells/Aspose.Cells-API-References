@@ -34,7 +34,7 @@ var customProperty2 = customProperties.get("Owner");
 | --- | --- |
 | [getName()](#getName--)| Returns the name of the property. |
 | [getValue()](#getValue--)| Gets or sets the value of the property. |
-| [setValue(object)](#setValue-object-)| Gets or sets the value of the property. |
+| [setValue(Object)](#setValue-object-)| Gets or sets the value of the property. |
 | [isLinkedToContent()](#isLinkedToContent--)| Indicates whether this property is linked to content |
 | [getSource()](#getSource--)| The linked content source. |
 | [getType()](#getType--)| Gets the data type of the property. |
@@ -61,22 +61,22 @@ getName() : string;
 Gets or sets the value of the property.
 
 ```javascript
-getValue() : object;
+getValue() : Object;
 ```
 
 
-### setValue(object) {#setValue-object-}
+### setValue(Object) {#setValue-object-}
 
 Gets or sets the value of the property.
 
 ```javascript
-setValue(value: object) : void;
+setValue(value: Object) : void;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | object | The value to set. |
+| value | Object | The value to set. |
 
 ### isLinkedToContent() {#isLinkedToContent--}
 

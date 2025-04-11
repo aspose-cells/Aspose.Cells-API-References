@@ -50,7 +50,7 @@ class ImportTableOptions;
 | [getColumnIndexes()](#getColumnIndexes--)| Gets or sets the columns(0-based) to import from data source. null means all columns should be imported. |
 | [setColumnIndexes(number[])](#setColumnIndexes-numberarray-)| Gets or sets the columns(0-based) to import from data source. null means all columns should be imported. |
 | [getDefaultValues()](#getDefaultValues--)| Default value for the value in the table is null. |
-| [setDefaultValues(object[])](#setDefaultValues-objectarray-)| Default value for the value in the table is null. |
+| [setDefaultValues(Object[])](#setDefaultValues-objectarray-)| Default value for the value in the table is null. |
 | [isHtmlString()](#isHtmlString--)| Indicates whether the value contains html tags. |
 | [setIsHtmlString(boolean)](#setIsHtmlString-boolean-)| Indicates whether the value contains html tags. |
 | [getCheckMergedCells()](#getCheckMergedCells--)| Indicates whether checking merged cells. |
@@ -356,26 +356,26 @@ setColumnIndexes(value: number[]) : void;
 Default value for the value in the table is null.
 
 ```javascript
-getDefaultValues() : object[];
+getDefaultValues() : Object[];
 ```
 
 
 **Returns**
 
-object[]
+Object[]
 
-### setDefaultValues(object[]) {#setDefaultValues-objectarray-}
+### setDefaultValues(Object[]) {#setDefaultValues-objectarray-}
 
 Default value for the value in the table is null.
 
 ```javascript
-setDefaultValues(value: object[]) : void;
+setDefaultValues(value: Object[]) : void;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | object[] | The value to set. |
+| value | Object[] | The value to set. |
 
 ### isHtmlString() {#isHtmlString--}
 

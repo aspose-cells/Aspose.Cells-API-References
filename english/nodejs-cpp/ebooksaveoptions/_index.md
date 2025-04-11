@@ -184,6 +184,8 @@ class EbookSaveOptions extends HtmlSaveOptions;
 | [setEnableCssCustomProperties(boolean)](#setEnableCssCustomProperties-boolean-)| Optimize the output of html by using CSS custom properties. For example, for the scenario that there are multiple occurences for one base64 image, with custom property the image data only needs to be saved once so the performance of the resultant html can be improved. The default value is false. |
 | [getHtmlVersion()](#getHtmlVersion--)| Specifies version of HTML standard that should be used when saving the HTML format. Default value is HtmlVersion.Default. |
 | [setHtmlVersion(HtmlVersion)](#setHtmlVersion-htmlversion-)| Specifies version of HTML standard that should be used when saving the HTML format. Default value is HtmlVersion.Default. |
+| [getSheetSet()](#getSheetSet--)| Gets or sets the sheets to render. Default is all visible sheets in the workbook: [Aspose.Cells.Rendering.SheetSet.Visible](../aspose.cells.rendering.sheetset.visible/). |
+| [setSheetSet(SheetSet)](#setSheetSet-sheetset-)| Gets or sets the sheets to render. Default is all visible sheets in the workbook: [Aspose.Cells.Rendering.SheetSet.Visible](../aspose.cells.rendering.sheetset.visible/). |
 
 
 ### constructor() {#constructor--}
@@ -2105,5 +2107,31 @@ setHtmlVersion(value: HtmlVersion) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [HtmlVersion](../htmlversion/) | The value to set. |
+
+### getSheetSet() {#getSheetSet--}
+
+Gets or sets the sheets to render. Default is all visible sheets in the workbook: [Aspose.Cells.Rendering.SheetSet.Visible](../aspose.cells.rendering.sheetset.visible/).
+
+```javascript
+getSheetSet() : SheetSet;
+```
+
+
+**Returns**
+
+[SheetSet](../sheetset/)
+
+### setSheetSet(SheetSet) {#setSheetSet-sheetset-}
+
+Gets or sets the sheets to render. Default is all visible sheets in the workbook: [Aspose.Cells.Rendering.SheetSet.Visible](../aspose.cells.rendering.sheetset.visible/).
+
+```javascript
+setSheetSet(value: SheetSet) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [SheetSet](../sheetset/) | The value to set. |
 
 

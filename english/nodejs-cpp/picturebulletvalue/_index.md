@@ -28,7 +28,7 @@ class PictureBulletValue extends BulletValue;
 | --- | --- |
 | [getType()](#getType--)| Gets the type of the bullet's value. |
 | [getImageData()](#getImageData--)| Gets and sets image data of the bullet. |
-| [setImageData(number[])](#setImageData-numberarray-)| Gets and sets image data of the bullet. |
+| [setImageData(Uint8Array)](#setImageData-uint8array-)| Gets and sets image data of the bullet. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -72,20 +72,16 @@ getType() : BulletType;
 Gets and sets image data of the bullet.
 
 ```javascript
-getImageData() : number[];
+getImageData() : Uint8Array;
 ```
 
 
-**Returns**
-
-number[]
-
-### setImageData(number[]) {#setImageData-numberarray-}
+### setImageData(Uint8Array) {#setImageData-uint8array-}
 
 Gets and sets image data of the bullet.
 
 ```javascript
-setImageData(value: number[]) : void;
+setImageData(value: Uint8Array) : void;
 ```
 
 **Parameters:**

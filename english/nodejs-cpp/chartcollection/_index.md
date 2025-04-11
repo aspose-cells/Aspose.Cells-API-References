@@ -30,7 +30,7 @@ var charts = workbook.getWorksheets().get(0).getCharts();
 | [get(string)](#get-string-)| Gets the chart by the name. |
 | [addFloatingChart(ChartType, number, number, number, number)](#addFloatingChart-charttype-number-number-number-number-)| Adds a chart to the collection. |
 | [add(ChartType, number, number, number, number)](#add-charttype-number-number-number-number-)| Adds a chart to the collection. |
-| [add(number[], string, boolean, number, number, number, number)](#add-numberarray-string-boolean-number-number-number-number-)| Adds a chart with preset template. |
+| [add(Uint8Array, string, boolean, number, number, number, number)](#add-uint8array-string-boolean-number-number-number-number-)| Adds a chart with preset template. |
 | [add(ChartType, string, boolean, number, number, number, number)](#add-charttype-string-boolean-number-number-number-number-)| Adds a chart to the collection. |
 | [removeAt(number)](#removeAt-number-)| Remove a chart at the specific index. |
 | [clear()](#clear--)| Clear all charts. |
@@ -118,12 +118,12 @@ add(type: ChartType, upperLeftRow: number, upperLeftColumn: number, lowerRightRo
 
 [Chart](../chart/) object index.
 
-### add(number[], string, boolean, number, number, number, number) {#add-numberarray-string-boolean-number-number-number-number-}
+### add(Uint8Array, string, boolean, number, number, number, number) {#add-uint8array-string-boolean-number-number-number-number-}
 
 Adds a chart with preset template.
 
 ```javascript
-add(data: number[], dataRange: string, isVertical: boolean, topRow: number, leftColumn: number, rightRow: number, bottomColumn: number) : number;
+add(data: Uint8Array, dataRange: string, isVertical: boolean, topRow: number, leftColumn: number, rightRow: number, bottomColumn: number) : number;
 ```
 
 **Parameters:**

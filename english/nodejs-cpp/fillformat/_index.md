@@ -56,12 +56,12 @@ chart.getNSeries().get(1).getArea().getFillFormat().setOneColorGradient(Color.Li
 | [getScale()](#getScale--)| Gets and sets the picture format scale. |
 | [setScale(number)](#setScale-number-)| Gets and sets the picture format scale. |
 | [getImageData()](#getImageData--)| Gets and sets the picture image data. |
-| [setImageData(number[])](#setImageData-numberarray-)| Gets and sets the picture image data. |
+| [setImageData(Uint8Array)](#setImageData-uint8array-)| Gets and sets the picture image data. |
 | [setOneColorGradient(Color, number, GradientStyleType, number)](#setOneColorGradient-color-number-gradientstyletype-number-)| Sets the specified fill to a one-color gradient. Only applies for Excel 2007. |
 | [setTwoColorGradient(Color, Color, GradientStyleType, number)](#setTwoColorGradient-color-color-gradientstyletype-number-)| Sets the specified fill to a two-color gradient. Only applies for Excel 2007. |
 | [setTwoColorGradient(Color, number, Color, number, GradientStyleType, number)](#setTwoColorGradient-color-number-color-number-gradientstyletype-number-)| Sets the specified fill to a two-color gradient. Only applies for Excel 2007. |
 | [setPresetColorGradient(GradientPresetType, GradientStyleType, number)](#setPresetColorGradient-gradientpresettype-gradientstyletype-number-)| Sets the specified fill to a preset-color gradient. Only applies for Excel 2007. |
-| [equals(object)](#equals-object-)|  |
+| [equals(Object)](#equals-object-)|  |
 | [getHashCode()](#getHashCode--)| Gets the hash code. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
@@ -366,24 +366,20 @@ setScale(value: number) : void;
 Gets and sets the picture image data.
 
 ```javascript
-getImageData() : number[];
+getImageData() : Uint8Array;
 ```
 
-
-**Returns**
-
-number[]
 
 **Remarks**
 
 If the fill format is not custom texture format, returns null.
 
-### setImageData(number[]) {#setImageData-numberarray-}
+### setImageData(Uint8Array) {#setImageData-uint8array-}
 
 Gets and sets the picture image data.
 
 ```javascript
-setImageData(value: number[]) : void;
+setImageData(value: Uint8Array) : void;
 ```
 
 **Parameters:**
@@ -460,18 +456,18 @@ setPresetColorGradient(presetColor: GradientPresetType, style: GradientStyleType
 | style | [GradientStyleType](../gradientstyletype/) | Gradient shading style. |
 | variant | number | The gradient variant. Can be a value from 1 through 4, corresponding to one of the four variants on the Gradient tab in the Fill Effects dialog box. If style is GradientStyle.FromCenter, the Variant argument can only be 1 or 2. |
 
-### equals(object) {#equals-object-}
+### equals(Object) {#equals-object-}
 
 
 
 ```javascript
-equals(obj: object) : boolean;
+equals(obj: Object) : boolean;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | object |  |
+| obj | Object |  |
 
 ### getHashCode() {#getHashCode--}
 

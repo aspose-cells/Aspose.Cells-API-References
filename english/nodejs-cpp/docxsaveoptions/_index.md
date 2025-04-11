@@ -27,6 +27,8 @@ class DocxSaveOptions extends PaginatedSaveOptions;
 
 | Method | Description |
 | --- | --- |
+| [getSaveAsEditableShaps()](#getSaveAsEditableShaps--)| Save all drawing objecgts as editable shapes in word file.So you can edit them in Word. |
+| [setSaveAsEditableShaps(boolean)](#setSaveAsEditableShaps-boolean-)| Save all drawing objecgts as editable shapes in word file.So you can edit them in Word. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getSaveFormat()](#getSaveFormat--)| Gets the save file format. |
 | [getClearData()](#getClearData--)| Make the workbook empty after saving the file. |
@@ -125,6 +127,28 @@ constructor(saveAsImage: boolean);
 | Parameter | Type | Description |
 | --- | --- | --- |
 | saveAsImage | boolean | If True, the workbook will be converted into some pictures of .docx file.         ///If False, the workbook will be converted into some tables of .docx file. |
+
+### getSaveAsEditableShaps() {#getSaveAsEditableShaps--}
+
+Save all drawing objecgts as editable shapes in word file.So you can edit them in Word.
+
+```javascript
+getSaveAsEditableShaps() : boolean;
+```
+
+
+### setSaveAsEditableShaps(boolean) {#setSaveAsEditableShaps-boolean-}
+
+Save all drawing objecgts as editable shapes in word file.So you can edit them in Word.
+
+```javascript
+setSaveAsEditableShaps(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
 
 ### isNull() {#isNull--}
 

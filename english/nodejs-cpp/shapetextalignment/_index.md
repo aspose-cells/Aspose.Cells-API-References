@@ -49,7 +49,7 @@ class ShapeTextAlignment;
 | [setIsAutoMargin(boolean)](#setIsAutoMargin-boolean-)| Indicates whether the margin of the text frame is automatic. |
 | [getNumberOfColumns()](#getNumberOfColumns--)| Gets and sets the number of columns of text in the bounding rectangle. |
 | [setNumberOfColumns(number)](#setNumberOfColumns-number-)| Gets and sets the number of columns of text in the bounding rectangle. |
-| [equals(object)](#equals-object-)| Determines whether this instance has the same value as another specified [ShapeTextAlignment](../shapetextalignment/) object. |
+| [equals(Object)](#equals-object-)| Determines whether this instance has the same value as another specified [ShapeTextAlignment](../shapetextalignment/) object. |
 | [getHashCode()](#getHashCode--)|  |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
@@ -408,18 +408,18 @@ setNumberOfColumns(value: number) : void;
 | --- | --- | --- |
 | value | number | The value to set. |
 
-### equals(object) {#equals-object-}
+### equals(Object) {#equals-object-}
 
 Determines whether this instance has the same value as another specified [ShapeTextAlignment](../shapetextalignment/) object.
 
 ```javascript
-equals(obj: object) : boolean;
+equals(obj: Object) : boolean;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | object | The [ShapeTextAlignment](../shapetextalignment/) object to compare with this instance. |
+| obj | Object | The [ShapeTextAlignment](../shapetextalignment/) object to compare with this instance. |
 
 **Returns**
 

@@ -72,6 +72,7 @@ workbook.save("output/result.xls", saveOptions);
 | [getCustomDocumentProperties()](#getCustomDocumentProperties--)| Returns a [DocumentProperty](../documentproperty/) collection that represents all the custom document properties of the spreadsheet. |
 | [getFileFormat()](#getFileFormat--)| Gets and sets the file format. |
 | [setFileFormat(FileFormatType)](#setFileFormat-fileformattype-)| Gets and sets the file format. |
+| [getHasCustomFunction()](#getHasCustomFunction--)| Detects whether there is custom function used in this workbook, such as in cell's formula, in defined names... |
 | [getInterruptMonitor()](#getInterruptMonitor--)| Gets and sets the interrupt monitor. |
 | [setInterruptMonitor(AbstractInterruptMonitor)](#setInterruptMonitor-abstractinterruptmonitor-)| Gets and sets the interrupt monitor. |
 | [getContentTypeProperties()](#getContentTypeProperties--)| Gets the list of  [ContentTypeProperty](../contenttypeproperty/) objects in the workbook. |
@@ -109,8 +110,8 @@ workbook.save("output/result.xls", saveOptions);
 | [replace(string, string[], boolean)](#replace-string-stringarray-boolean-)| Replaces a cell's value with a new string array. |
 | [replace(string, number[], boolean)](#replace-string-numberarray-boolean-)| Replaces cells' values with an integer array. |
 | [replace(string, number[], boolean)](#replace-string-numberarray-boolean-)| Replaces cells' values with a double array. |
-| [replace(boolean, object)](#replace-boolean-object-)| Replaces cells' values with new data. |
-| [replace(number, object)](#replace-number-object-)| Replaces cells' values with new data. |
+| [replace(boolean, Object)](#replace-boolean-object-)| Replaces cells' values with new data. |
+| [replace(number, Object)](#replace-number-object-)| Replaces cells' values with new data. |
 | [replace(string, string, ReplaceOptions)](#replace-string-string-replaceoptions-)| Replaces a cell's value with a new string. |
 | [copy(Workbook, CopyOptions)](#copy-workbook-copyoptions-)| Copies another Workbook object. |
 | [copy(Workbook)](#copy-workbook-)| Copies data from a source Workbook object. |
@@ -547,6 +548,15 @@ setFileFormat(value: FileFormatType) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [FileFormatType](../fileformattype/) | The value to set. |
+
+### getHasCustomFunction() {#getHasCustomFunction--}
+
+Detects whether there is custom function used in this workbook, such as in cell's formula, in defined names...
+
+```javascript
+getHasCustomFunction() : boolean;
+```
+
 
 ### getInterruptMonitor() {#getInterruptMonitor--}
 
@@ -1173,33 +1183,33 @@ workbook.replace("AnOldValue", newValues, true);
 workbook.save("output/ReplaceResult3.xls");
 ```
 
-### replace(boolean, object) {#replace-boolean-object-}
+### replace(boolean, Object) {#replace-boolean-object-}
 
 Replaces cells' values with new data.
 
 ```javascript
-replace(boolValue: boolean, newValue: object) : number;
+replace(boolValue: boolean, newValue: Object) : number;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | boolValue | boolean | The boolean value to be replaced. |
-| newValue | object | New value. Can be string, integer, double or DateTime value. |
+| newValue | Object | New value. Can be string, integer, double or DateTime value. |
 
-### replace(number, object) {#replace-number-object-}
+### replace(number, Object) {#replace-number-object-}
 
 Replaces cells' values with new data.
 
 ```javascript
-replace(intValue: number, newValue: object) : number;
+replace(intValue: number, newValue: Object) : number;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | intValue | number | The integer value to be replaced. |
-| newValue | object | New value. Can be string, integer, double or DateTime value. |
+| newValue | Object | New value. Can be string, integer, double or DateTime value. |
 
 ### replace(string, string, ReplaceOptions) {#replace-string-string-replaceoptions-}
 

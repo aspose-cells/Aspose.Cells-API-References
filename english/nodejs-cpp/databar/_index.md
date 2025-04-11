@@ -342,7 +342,7 @@ setShowValue(value: boolean) : void;
 Render data bar in cell to image byte array.
 
 ```javascript
-toImage(cell: Cell, imgOpts: ImageOrPrintOptions) : number[];
+toImage(cell: Cell, imgOpts: ImageOrPrintOptions) : Uint8Array;
 ```
 
 **Parameters:**
@@ -350,10 +350,6 @@ toImage(cell: Cell, imgOpts: ImageOrPrintOptions) : number[];
 | --- | --- | --- |
 | cell | [Cell](../cell/) | Indicate the data bar in which cell to be rendered |
 | imgOpts | [ImageOrPrintOptions](../imageorprintoptions/) | ImageOrPrintOptions contains some property of output image |
-
-**Returns**
-
-number[]
 
 ### isNull() {#isNull--}
 

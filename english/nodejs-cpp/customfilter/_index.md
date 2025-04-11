@@ -22,8 +22,8 @@ class CustomFilter;
 | [getFilterOperatorType()](#getFilterOperatorType--)| Gets and sets the filter operator type. |
 | [setFilterOperatorType(FilterOperatorType)](#setFilterOperatorType-filteroperatortype-)| Gets and sets the filter operator type. |
 | [getCriteria()](#getCriteria--)| Gets and sets the criteria. |
-| [setCriteria(object)](#setCriteria-object-)| Gets and sets the criteria. |
-| [setCriteria(FilterOperatorType, object)](#setCriteria-filteroperatortype-object-)| Sets the filter criteria. |
+| [setCriteria(Object)](#setCriteria-object-)| Gets and sets the criteria. |
+| [setCriteria(FilterOperatorType, Object)](#setCriteria-filteroperatortype-object-)| Sets the filter criteria. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -58,36 +58,36 @@ setFilterOperatorType(value: FilterOperatorType) : void;
 Gets and sets the criteria.
 
 ```javascript
-getCriteria() : object;
+getCriteria() : Object;
 ```
 
 
-### setCriteria(object) {#setCriteria-object-}
+### setCriteria(Object) {#setCriteria-object-}
 
 Gets and sets the criteria.
 
 ```javascript
-setCriteria(value: object) : void;
+setCriteria(value: Object) : void;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | object | The value to set. |
+| value | Object | The value to set. |
 
-### setCriteria(FilterOperatorType, object) {#setCriteria-filteroperatortype-object-}
+### setCriteria(FilterOperatorType, Object) {#setCriteria-filteroperatortype-object-}
 
 Sets the filter criteria.
 
 ```javascript
-setCriteria(filterOperator: FilterOperatorType, criteria: object) : void;
+setCriteria(filterOperator: FilterOperatorType, criteria: Object) : void;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | filterOperator | [FilterOperatorType](../filteroperatortype/) | filter operator type |
-| criteria | object | filter criteria value |
+| criteria | Object | filter criteria value |
 
 ### isNull() {#isNull--}
 

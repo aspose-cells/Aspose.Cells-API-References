@@ -19,7 +19,7 @@ class TextOptions extends Font;
 
 | Name | Description |
 | --- | --- |
-| [constructor(Aspose::Cells::Font)](#constructor-aspose::cells::font-)| Constructs from a parent object convertible to this. |
+| [constructor(Font)](#constructor-font-)| Constructs from a parent object convertible to this. |
 
 ## Methods
 
@@ -81,18 +81,18 @@ class TextOptions extends Font;
 | [toString()](#toString--)| Returns a string represents the current Cell object. |
 
 
-### constructor(Aspose::Cells::Font) {#constructor-aspose::cells::font-}
+### constructor(Font) {#constructor-font-}
 
 Constructs from a parent object convertible to this.
 
 ```javascript
-constructor(obj: Aspose::Cells::Font);
+constructor(obj: Font);
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | Aspose::Cells::Font | The parent object. |
+| obj | Font | The parent object. |
 
 ### getName() {#getName--}
 

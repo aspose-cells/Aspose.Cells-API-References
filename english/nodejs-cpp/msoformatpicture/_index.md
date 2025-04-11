@@ -50,7 +50,7 @@ class MsoFormatPicture;
 | [isGray()](#isGray--)| Indicates whether this picture should display in grayscale. |
 | [setIsGray(boolean)](#setIsGray-boolean-)| Indicates whether this picture should display in grayscale. |
 | [getHashCode()](#getHashCode--)| Gets the hash code. |
-| [equals(object)](#equals-object-)|  |
+| [equals(Object)](#equals-object-)|  |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -413,18 +413,18 @@ getHashCode() : number;
 ```
 
 
-### equals(object) {#equals-object-}
+### equals(Object) {#equals-object-}
 
 
 
 ```javascript
-equals(obj: object) : boolean;
+equals(obj: Object) : boolean;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | object |  |
+| obj | Object |  |
 
 ### isNull() {#isNull--}
 

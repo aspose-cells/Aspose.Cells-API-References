@@ -21,6 +21,7 @@ class PowerQueryFormulaCollection;
 | --- | --- |
 | [get(number)](#get-number-)| Gets [ PowerQueryFormula](../ powerqueryformula/) by the index in the list. |
 | [get(string)](#get-string-)| Gets [ PowerQueryFormula](../ powerqueryformula/) by the name of the power query formula. |
+| [removeBy(string)](#removeBy-string-)| Remove power query formula by name. |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
@@ -58,6 +59,19 @@ get(name: string) : PowerQueryFormula;
 **Returns**
 
 [PowerQueryFormula](../powerqueryformula/)
+
+### removeBy(string) {#removeBy-string-}
+
+Remove power query formula by name.
+
+```javascript
+removeBy(name: string) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | string | The name of power query formula. |
 
 ### getCount() {#getCount--}
 
