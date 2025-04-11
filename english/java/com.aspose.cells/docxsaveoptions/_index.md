@@ -47,6 +47,7 @@ Represents options of saving .docx file.
 | [getPageSavingCallback()](#getPageSavingCallback--) | Control/Indicate progress of page saving process. |
 | [getPrintingPageType()](#getPrintingPageType--) | Indicates which pages will not be printed. |
 | [getRefreshChartCache()](#getRefreshChartCache--) | Indicates whether refreshing chart cache data |
+| [getSaveAsEditableShaps()](#getSaveAsEditableShaps--) | Save all drawing objecgts as editable shapes in word file.So you can edit them in Word. |
 | [getSaveFormat()](#getSaveFormat--) | Gets the save file format. |
 | [getSheetSet()](#getSheetSet--) | Gets the sheets to render. |
 | [getSortExternalNames()](#getSortExternalNames--) | Indicates whether sorting external defined names before saving file. |
@@ -82,6 +83,7 @@ Represents options of saving .docx file.
 | [setPageSavingCallback(IPageSavingCallback value)](#setPageSavingCallback-com.aspose.cells.IPageSavingCallback-) | Control/Indicate progress of page saving process. |
 | [setPrintingPageType(int value)](#setPrintingPageType-int-) | Indicates which pages will not be printed. |
 | [setRefreshChartCache(boolean value)](#setRefreshChartCache-boolean-) | Indicates whether refreshing chart cache data |
+| [setSaveAsEditableShaps(boolean value)](#setSaveAsEditableShaps-boolean-) | Save all drawing objecgts as editable shapes in word file.So you can edit them in Word. |
 | [setSheetSet(SheetSet value)](#setSheetSet-com.aspose.cells.SheetSet-) | Sets the sheets to render. |
 | [setSortExternalNames(boolean value)](#setSortExternalNames-boolean-) | Indicates whether sorting external defined names before saving file. |
 | [setSortNames(boolean value)](#setSortNames-boolean-) | Indicates whether sorting defined names before saving file. |
@@ -473,6 +475,16 @@ public boolean getRefreshChartCache()
 
 
 Indicates whether refreshing chart cache data
+
+**Returns:**
+boolean
+### getSaveAsEditableShaps() {#getSaveAsEditableShaps--}
+```
+public boolean getSaveAsEditableShaps()
+```
+
+
+Save all drawing objecgts as editable shapes in word file.So you can edit them in Word.
 
 **Returns:**
 boolean
@@ -976,6 +988,19 @@ public void setRefreshChartCache(boolean value)
 
 
 Indicates whether refreshing chart cache data
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setSaveAsEditableShaps(boolean value) {#setSaveAsEditableShaps-boolean-}
+```
+public void setSaveAsEditableShaps(boolean value)
+```
+
+
+Save all drawing objecgts as editable shapes in word file.So you can edit them in Word.
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -8,8 +8,11 @@ url: /java/com.aspose.cells/unionrange/
 
 **Inheritance:**
 java.lang.Object
+
+**All Implemented Interfaces:**
+java.lang.Iterable
 ```
-public class UnionRange
+public class UnionRange implements Iterable
 ```
 
 Represents union range.

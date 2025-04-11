@@ -1006,7 +1006,7 @@ public int getImageType()
 
 Gets the image format of the picture.
 
-See [ImageOrPrintOptions.getImageType()](../../com.aspose.cells/imageorprintoptions\#getImageType--).
+See [ImageType](../../com.aspose.cells/imagetype).
 
 **Example**
 

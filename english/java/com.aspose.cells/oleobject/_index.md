@@ -976,7 +976,7 @@ public int getImageType()
 
 Gets the image format of the ole object.
 
-See [ImageOrPrintOptions.getImageType()](../../com.aspose.cells/imageorprintoptions\#getImageType--).
+See [ImageType](../../com.aspose.cells/imagetype).
 
 **Returns:**
 int

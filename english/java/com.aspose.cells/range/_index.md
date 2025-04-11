@@ -8,8 +8,11 @@ url: /java/com.aspose.cells/range/
 
 **Inheritance:**
 java.lang.Object
+
+**All Implemented Interfaces:**
+java.lang.Iterable
 ```
-public class Range
+public class Range implements Iterable
 ```
 
 Encapsulates the object that represents a range of cells within a spreadsheet.

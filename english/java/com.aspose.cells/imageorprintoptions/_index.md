@@ -39,7 +39,7 @@ Allows to specify options when rendering worksheet to images, printing worksheet
 
 | Constructor | Description |
 | --- | --- |
-| [ImageOrPrintOptions()](#ImageOrPrintOptions--) |  |
+| [ImageOrPrintOptions()](#ImageOrPrintOptions--) | Ctor. |
 ## Methods
 
 | Method | Description |
@@ -53,7 +53,7 @@ Allows to specify options when rendering worksheet to images, printing worksheet
 | [getDefaultFont()](#getDefaultFont--) | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. |
 | [getDrawObjectEventHandler()](#getDrawObjectEventHandler--) | Implements this interface to get DrawObject and Bound when rendering. |
 | [getEmbededImageNameInSvg()](#getEmbededImageNameInSvg--) | Indicate the filename of embedded image in svg. |
-| [getEmfRenderSetting()](#getEmfRenderSetting--) | Setting for rendering Emf metafile. |
+| [getEmfRenderSetting()](#getEmfRenderSetting--) | Setting for rendering Emf metafiles in source file. |
 | [getGridlineType()](#getGridlineType--) | Gets gridline type. |
 | [getHorizontalResolution()](#getHorizontalResolution--) | Gets the horizontal resolution for generated images, in dots per inch. |
 | [getImageType()](#getImageType--) | Gets the format of the generated images. |
@@ -93,7 +93,7 @@ Allows to specify options when rendering worksheet to images, printing worksheet
 | [setDesiredSize(int desiredWidth, int desiredHeight, boolean keepAspectRatio)](#setDesiredSize-int-int-boolean-) | Sets desired width and height of image. |
 | [setDrawObjectEventHandler(DrawObjectEventHandler value)](#setDrawObjectEventHandler-com.aspose.cells.DrawObjectEventHandler-) | Implements this interface to get DrawObject and Bound when rendering. |
 | [setEmbededImageNameInSvg(String value)](#setEmbededImageNameInSvg-java.lang.String-) | Indicate the filename of embedded image in svg. |
-| [setEmfRenderSetting(int value)](#setEmfRenderSetting-int-) | Setting for rendering Emf metafile. |
+| [setEmfRenderSetting(int value)](#setEmfRenderSetting-int-) | Setting for rendering Emf metafiles in source file. |
 | [setFontSubstitutionCharGranularity(boolean value)](#setFontSubstitutionCharGranularity-boolean-) | Indicates whether to only substitute the font of character when the cell font is not compatibility for it. |
 | [setGridlineType(int value)](#setGridlineType-int-) | Sets gridline type. |
 | [setHorizontalResolution(int value)](#setHorizontalResolution-int-) | Sets the horizontal resolution for generated images, in dots per inch. |
@@ -129,6 +129,8 @@ Allows to specify options when rendering worksheet to images, printing worksheet
 public ImageOrPrintOptions()
 ```
 
+
+Ctor.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -245,7 +247,7 @@ public int getEmfRenderSetting()
 ```
 
 
-Setting for rendering Emf metafile.
+Setting for rendering Emf metafiles in source file.
 
 See [EmfRenderSetting](../../com.aspose.cells/emfrendersetting).
 
@@ -314,7 +316,7 @@ public int getImageType()
 
 Gets the format of the generated images. default value: PNG.
 
-See [getImageType()](../../com.aspose.cells/imageorprintoptions\#getImageType--).
+See [ImageType](../../com.aspose.cells/imagetype).
 
 **Returns:**
 int
@@ -448,7 +450,7 @@ See [SaveFormat](../../com.aspose.cells/saveformat).
 
 **Remarks**
 
-NOTE: This member is now obsolete. Instead, For Tiff/Svg, use [getImageType()](../../com.aspose.cells/imageorprintoptions\#getImageType--); For Xps, use [Workbook.save(String,SaveOptions)](../../com.aspose.cells/workbook\#save-String-SaveOptions-) with [XpsSaveOptions](../../com.aspose.cells/xpssaveoptions). This property will be removed 12 months later since August 2022. Aspose apologizes for any inconvenience you may have experienced.
+NOTE: This member is now obsolete. Instead, For Tiff/Svg, use [ImageType](../../com.aspose.cells/imagetype); For Xps, use [Workbook.save(String,SaveOptions)](../../com.aspose.cells/workbook\#save-String-SaveOptions-) with [XpsSaveOptions](../../com.aspose.cells/xpssaveoptions). This property will be removed 12 months later since August 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
@@ -825,7 +827,7 @@ public void setEmfRenderSetting(int value)
 ```
 
 
-Setting for rendering Emf metafile.
+Setting for rendering Emf metafiles in source file.
 
 See [EmfRenderSetting](../../com.aspose.cells/emfrendersetting).
 
@@ -899,7 +901,7 @@ public void setImageType(int value)
 
 Sets the format of the generated images. default value: PNG.
 
-See [getImageType()](../../com.aspose.cells/imageorprintoptions\#getImageType--).
+See [ImageType](../../com.aspose.cells/imagetype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1097,7 +1099,7 @@ See [SaveFormat](../../com.aspose.cells/saveformat).
 
 **Remarks**
 
-NOTE: This member is now obsolete. Instead, For Tiff/Svg, use [getImageType()](../../com.aspose.cells/imageorprintoptions\#getImageType--); For Xps, use [Workbook.save(String,SaveOptions)](../../com.aspose.cells/workbook\#save-String-SaveOptions-) with [XpsSaveOptions](../../com.aspose.cells/xpssaveoptions). This property will be removed 12 months later since August 2022. Aspose apologizes for any inconvenience you may have experienced.
+NOTE: This member is now obsolete. Instead, For Tiff/Svg, use [ImageType](../../com.aspose.cells/imagetype); For Xps, use [Workbook.save(String,SaveOptions)](../../com.aspose.cells/workbook\#save-String-SaveOptions-) with [XpsSaveOptions](../../com.aspose.cells/xpssaveoptions). This property will be removed 12 months later since August 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |

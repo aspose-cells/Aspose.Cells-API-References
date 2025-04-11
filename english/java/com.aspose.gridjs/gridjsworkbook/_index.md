@@ -37,7 +37,7 @@ Represents the main entry class for GridJs
 | [exportToJsonStringBuilder(String filename)](#exportToJsonStringBuilder-java.lang.String-) | Gets JSON string from memory data,set the output filename in the JSON. |
 | [getClass()](#getClass--) |  |
 | [getGridLoadFormat(String extension)](#getGridLoadFormat-java.lang.String-) | Gets the load format by file extension |
-| [getImageStream(String uid, String picid)](#getImageStream-java.lang.String-java.lang.String-) | Get Stream of image from memory data. |
+| [getImageStream(String uid, String picid)](#getImageStream-java.lang.String-java.lang.String-) | Get Stream of image. |
 | [getImageUrl(String uid, String picid, String delimiter)](#getImageUrl-java.lang.String-java.lang.String-java.lang.String-) | Gets the image URL. |
 | [getJsonByUid(String uid, String filename)](#getJsonByUid-java.lang.String-java.lang.String-) | Gets the JSON string of the file from the cache using the specified unique id,set the output filename in the JSON. |
 | [getOle(String uid, String sheetname, int oleid, String label)](#getOle-java.lang.String-java.lang.String-int-java.lang.String-) | Gets the byte array data of the embedded ole object . |
@@ -225,7 +225,7 @@ public static InputStream getImageStream(String uid, String picid)
 ```
 
 
-Get Stream of image from memory data.
+Get Stream of image.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -234,7 +234,7 @@ Get Stream of image from memory data.
 | picid | java.lang.String | The image id. |
 
 **Returns:**
-java.io.InputStream - 
+java.io.InputStream - The image stream
 ### getImageUrl(String uid, String picid, String delimiter) {#getImageUrl-java.lang.String-java.lang.String-java.lang.String-}
 ```
 public static String getImageUrl(String uid, String picid, String delimiter)

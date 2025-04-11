@@ -1365,6 +1365,8 @@ public boolean getShowRowGrandTotals()
 
 Indicates whether to show grand totals for rows of the pivot table.
 
+**Remarks**
+
 **Returns:**
 boolean
 ### getShowRowHeaderCaption() {#getShowRowHeaderCaption--}
@@ -2619,6 +2621,8 @@ public void setShowRowGrandTotals(boolean value)
 
 
 Indicates whether to show grand totals for rows of the pivot table.
+
+**Remarks**
 
 **Parameters:**
 | Parameter | Type | Description |

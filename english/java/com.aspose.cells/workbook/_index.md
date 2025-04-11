@@ -101,6 +101,7 @@ The following example loads a Workbook from an Excel file named designer.xls and
 | [getThemeColor(int type)](#getThemeColor-int-) | Gets theme color. |
 | [getVbaProject()](#getVbaProject--) | Gets the [getVbaProject()](../../com.aspose.cells/workbook\#getVbaProject--) in a spreadsheet. |
 | [getWorksheets()](#getWorksheets--) | Gets the [WorksheetCollection](../../com.aspose.cells/worksheetcollection) collection in the spreadsheet. |
+| [hasCustomFunction()](#hasCustomFunction--) | Detects whether there is custom function used in this workbook, such as in cell's formula, in defined names... |
 | [hasExernalLinks()](#hasExernalLinks--) | Indicates whether this workbook contains external links to other data sources. |
 | [hasMacro()](#hasMacro--) | Indicates if this spreadsheet contains macro/VBA. |
 | [hasRevisions()](#hasRevisions--) | Gets if the workbook has any tracked changes |
@@ -1029,6 +1030,16 @@ Gets the [WorksheetCollection](../../com.aspose.cells/worksheetcollection) colle
 
 **Returns:**
 [WorksheetCollection](../../com.aspose.cells/worksheetcollection) - [WorksheetCollection](../../com.aspose.cells/worksheetcollection) collection
+### hasCustomFunction() {#hasCustomFunction--}
+```
+public boolean hasCustomFunction()
+```
+
+
+Detects whether there is custom function used in this workbook, such as in cell's formula, in defined names...
+
+**Returns:**
+boolean
 ### hasExernalLinks() {#hasExernalLinks--}
 ```
 public boolean hasExernalLinks()

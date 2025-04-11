@@ -64,6 +64,7 @@ Encapsulates a collection of [Range.getWorksheet()](../../com.aspose.cells/range
 | [getRangeByName(String rangeName)](#getRangeByName-java.lang.String-) | Gets Range object by pre-defined name. |
 | [getRangeByName(String rangeName, int currentSheetIndex, boolean includeTable)](#getRangeByName-java.lang.String-int-boolean-) | Gets [Range](../../com.aspose.cells/range) by pre-defined name or table's name |
 | [getRevisionLogs()](#getRevisionLogs--) | Represents revision logs. |
+| [getSensitivityLabels()](#getSensitivityLabels--) | Represents all sensitivity labels. |
 | [getSheetByCodeName(String codeName)](#getSheetByCodeName-java.lang.String-) | Gets the worksheet by the code name. |
 | [getTableStyles()](#getTableStyles--) | Gets [getTableStyles()](../../com.aspose.cells/worksheetcollection\#getTableStyles--) object. |
 | [getThreadedCommentAuthors()](#getThreadedCommentAuthors--) | Gets the list of threaded comment authors. |
@@ -576,6 +577,16 @@ Represents revision logs.
 
 **Returns:**
 [RevisionLogCollection](../../com.aspose.cells/revisionlogcollection)
+### getSensitivityLabels() {#getSensitivityLabels--}
+```
+public SensitivityLabelCollection getSensitivityLabels()
+```
+
+
+Represents all sensitivity labels.
+
+**Returns:**
+[SensitivityLabelCollection](../../com.aspose.cells/sensitivitylabelcollection)
 ### getSheetByCodeName(String codeName) {#getSheetByCodeName-java.lang.String-}
 ```
 public Worksheet getSheetByCodeName(String codeName)
