@@ -59,7 +59,7 @@ type SaveFormat int32
 |[Gif](./gif/) | Gif | 
 |[Json](./json/) | Json | 
 |[SqlScript](./sqlscript/) | Sql | 
-|[XHtml](./xhtml/) | Rrepesents XHtml file. | 
 |[Epub](./epub/) | Represents Epub file. | 
 |[Azw3](./azw3/) | Represents Azw3 file. | 
 |[Pcl](./pcl/) | PCL (Printer Command Language) | 
+|[Dbf](./dbf/) | Xbase Data file | 

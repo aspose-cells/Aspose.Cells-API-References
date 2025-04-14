@@ -14,7 +14,7 @@ Gets and sets the created time of this threaded comment.
 
 ```go
 
-func (instance *ThreadedComment) GetCreatedTime()  (*Date,  error) 
+func (instance *ThreadedComment) GetCreatedTime()  (time.Time,  error) 
 
 ```
 

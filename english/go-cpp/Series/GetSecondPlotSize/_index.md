@@ -14,7 +14,7 @@ Returns or sets the size of the secondary section of either a pie of pie chart o
 
 ```go
 
-func (instance *Series) GetSecondPlotSize()  (int32,  error) 
+func (instance *Series) GetSecondPlotSize()  (int16,  error) 
 
 ```
 

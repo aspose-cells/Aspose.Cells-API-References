@@ -1,0 +1,69 @@
+---
+title: Class SensitivityLabelCollection
+second_title: Aspose.Cells for .NET API Reference
+description: Aspose.Cells.Metas.SensitivityLabelCollection class. Represents the list of sensitivity labels
+type: docs
+url: /net/aspose.cells.metas/sensitivitylabelcollection/
+---
+## SensitivityLabelCollection class
+
+Represents the list of sensitivity labels.
+
+```csharp
+public class SensitivityLabelCollection : CollectionBase<SensitivityLabel>
+```
+
+## Constructors
+
+| Name | Description |
+| --- | --- |
+| [SensitivityLabelCollection](sensitivitylabelcollection/)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [Capacity](../../aspose.cells/collectionbase-1/capacity/) { get; set; } |  |
+| [Count](../../aspose.cells/collectionbase-1/count/) { get; } |  |
+| [Item](../../aspose.cells/collectionbase-1/item/) { get; set; } |  |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Add](../../aspose.cells.metas/sensitivitylabelcollection/add/)(string, bool, SensitivityLabelAssignmentType, string, SensitivityLabelMarkType) | Adds a sensitivity label. |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(SensitivityLabel) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(SensitivityLabel, IComparer&lt;SensitivityLabel&gt;) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(int, int, SensitivityLabel, IComparer&lt;SensitivityLabel&gt;) |  |
+| [Clear](../../aspose.cells/collectionbase-1/clear/)() |  |
+| [Contains](../../aspose.cells/collectionbase-1/contains/)(SensitivityLabel) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(SensitivityLabel[]) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(SensitivityLabel[], int) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(int, SensitivityLabel[], int, int) |  |
+| [Exists](../../aspose.cells/collectionbase-1/exists/)(Predicate&lt;SensitivityLabel&gt;) |  |
+| [Find](../../aspose.cells/collectionbase-1/find/)(Predicate&lt;SensitivityLabel&gt;) |  |
+| [FindAll](../../aspose.cells/collectionbase-1/findall/)(Predicate&lt;SensitivityLabel&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(Predicate&lt;SensitivityLabel&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(int, Predicate&lt;SensitivityLabel&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(int, int, Predicate&lt;SensitivityLabel&gt;) |  |
+| [FindLast](../../aspose.cells/collectionbase-1/findlast/)(Predicate&lt;SensitivityLabel&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(Predicate&lt;SensitivityLabel&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(int, Predicate&lt;SensitivityLabel&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(int, int, Predicate&lt;SensitivityLabel&gt;) |  |
+| [GetEnumerator](../../aspose.cells/collectionbase-1/getenumerator/)() |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(SensitivityLabel) |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(SensitivityLabel, int) |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(SensitivityLabel, int, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(SensitivityLabel) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(SensitivityLabel, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(SensitivityLabel, int, int) |  |
+| [RemoveAt](../../aspose.cells/collectionbase-1/removeat/)(int) |  |
+
+### See Also
+
+* class [CollectionBase&lt;T&gt;](../../aspose.cells/collectionbase-1/)
+* class [SensitivityLabel](../sensitivitylabel/)
+* namespace [Aspose.Cells.Metas](../../aspose.cells.metas/)
+* assembly [Aspose.Cells](../../)
+
+

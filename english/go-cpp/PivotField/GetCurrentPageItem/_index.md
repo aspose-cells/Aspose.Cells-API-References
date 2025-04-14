@@ -14,7 +14,7 @@ Represents the current page item showing for the page field (valid only for page
 
 ```go
 
-func (instance *PivotField) GetCurrentPageItem()  (int32,  error) 
+func (instance *PivotField) GetCurrentPageItem()  (int16,  error) 
 
 ```
 

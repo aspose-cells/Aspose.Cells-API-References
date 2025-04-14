@@ -8,8 +8,11 @@ url: /java/com.aspose.cells/chartpointcollection/
 
 **Inheritance:**
 java.lang.Object
+
+**All Implemented Interfaces:**
+java.lang.Iterable
 ```
-public class ChartPointCollection
+public class ChartPointCollection implements Iterable
 ```
 
 Represents a collection that contains all the points in one series.

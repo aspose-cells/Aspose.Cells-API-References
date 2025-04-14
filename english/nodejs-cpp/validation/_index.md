@@ -55,9 +55,9 @@ validation.setFormula1("a,b,c,d");
 | [getFormula2()](#getFormula2--)| Represents the value or expression associated with the data validation. |
 | [setFormula2(string)](#setFormula2-string-)| Represents the value or expression associated with the data validation. |
 | [getValue1()](#getValue1--)| Represents the first value associated with the data validation. |
-| [setValue1(object)](#setValue1-object-)| Represents the first value associated with the data validation. |
+| [setValue1(Object)](#setValue1-object-)| Represents the first value associated with the data validation. |
 | [getValue2()](#getValue2--)| Represents the second value associated with the data validation. |
-| [setValue2(object)](#setValue2-object-)| Represents the second value associated with the data validation. |
+| [setValue2(Object)](#setValue2-object-)| Represents the second value associated with the data validation. |
 | [getInCellDropDown()](#getInCellDropDown--)| Indicates whether data validation displays a drop-down list that contains acceptable values. |
 | [setInCellDropDown(boolean)](#setInCellDropDown-boolean-)| Indicates whether data validation displays a drop-down list that contains acceptable values. |
 | [getAreas()](#getAreas--)| Gets all [CellArea](../cellarea/) which contain the data validation settings. |
@@ -360,44 +360,44 @@ setFormula2(value: string) : void;
 Represents the first value associated with the data validation.
 
 ```javascript
-getValue1() : object;
+getValue1() : Object;
 ```
 
 
-### setValue1(object) {#setValue1-object-}
+### setValue1(Object) {#setValue1-object-}
 
 Represents the first value associated with the data validation.
 
 ```javascript
-setValue1(value: object) : void;
+setValue1(value: Object) : void;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | object | The value to set. |
+| value | Object | The value to set. |
 
 ### getValue2() {#getValue2--}
 
 Represents the second value associated with the data validation.
 
 ```javascript
-getValue2() : object;
+getValue2() : Object;
 ```
 
 
-### setValue2(object) {#setValue2-object-}
+### setValue2(Object) {#setValue2-object-}
 
 Represents the second value associated with the data validation.
 
 ```javascript
-setValue2(value: object) : void;
+setValue2(value: Object) : void;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | object | The value to set. |
+| value | Object | The value to set. |
 
 ### getInCellDropDown() {#getInCellDropDown--}
 
@@ -545,7 +545,7 @@ setFormula2(formula: string, isR1C1: boolean, isLocal: boolean) : void;
 Get the value for list of the validation for the specified cell.
 
 ```javascript
-getListValue(row: number, column: number) : object;
+getListValue(row: number, column: number) : Object;
 ```
 
 **Parameters:**
@@ -567,7 +567,7 @@ Only for validation whose type is List and has been applied to given cell, other
 Get the value of validation on the specific cell.
 
 ```javascript
-getValue(row: number, column: number, isValue1: boolean) : object;
+getValue(row: number, column: number, isValue1: boolean) : Object;
 ```
 
 **Parameters:**

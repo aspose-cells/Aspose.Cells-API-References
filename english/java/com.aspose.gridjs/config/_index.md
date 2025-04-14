@@ -1,7 +1,7 @@
 ---
 title: Config
 second_title: Aspose.Cells for Java API Reference
-description: Represents all the settings for GridJs
+description: Represents all the static settings for GridJs
 type: docs
 url: /java/com.aspose.gridjs/config/
 ---
@@ -12,7 +12,7 @@ java.lang.Object
 public class Config
 ```
 
-Represents all the settings for GridJs
+Represents all the static settings for GridJs
 ## Constructors
 
 | Constructor | Description |
@@ -24,6 +24,7 @@ Represents all the settings for GridJs
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAutoOptimizeForLargeCells()](#getAutoOptimizeForLargeCells--) | Gets whether to automatically optimize the load performance for worksheet with large cells. |
+| [getBaseRouteName()](#getBaseRouteName--) | Gets the base route name for GridJs controller URL. the default is "/GridJs2". |
 | [getClass()](#getClass--) |  |
 | [getEmptySheetMaxCol()](#getEmptySheetMaxCol--) | Gets default max column for an empty worksheet. |
 | [getEmptySheetMaxRow()](#getEmptySheetMaxRow--) | Gets default max row for an empty worksheet. |
@@ -35,7 +36,6 @@ Represents all the settings for GridJs
 | [getMaxShapeOrImageCount()](#getMaxShapeOrImageCount--) | Gets the total count of the display shapes or images in the active sheet,it takes effect when IslimitShapeOrImage=true. |
 | [getMaxShapeOrImageWidthOrHeight()](#getMaxShapeOrImageWidthOrHeight--) | Gets the max width or height for a shape or an image ,GridJs will ignore the shape or image with the width or height larger than this, it takes effect when IslimitShapeOrImage=true. |
 | [getMaxTotalShapeOrImageCount()](#getMaxTotalShapeOrImageCount--) | Gets the total count of the display shapes or images in the workbook,it takes effect when IslimitShapeOrImage=true. |
-| [getPageSize()](#getPageSize--) | Gets whether to do pagination GridJs will limit the row size based on the PageSize,if PageSize is -1,it will not do pagination the default value is -1 |
 | [getPictureCacheDirectory()](#getPictureCacheDirectory--) | Gets the cache directory for pictures. |
 | [getSameImageDetecting()](#getSameImageDetecting--) | Gets whether to check if images have same source,the default is true the default value is true. |
 | [getSaveHtmlAsZip()](#getSaveHtmlAsZip--) | Gets whether to save html file as zip archive,the default is false. |
@@ -46,6 +46,7 @@ Represents all the settings for GridJs
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setAutoOptimizeForLargeCells(boolean value)](#setAutoOptimizeForLargeCells-boolean-) | Sets whether to automatically optimize the load performance for worksheet with large cells. |
+| [setBaseRouteName(String value)](#setBaseRouteName-java.lang.String-) | Sets the base route name for GridJs controller URL. the default is "/GridJs2". |
 | [setEmptySheetMaxCol(int value)](#setEmptySheetMaxCol-int-) | Sets default max column for an empty worksheet. |
 | [setEmptySheetMaxRow(int value)](#setEmptySheetMaxRow-int-) | Sets default max row for an empty worksheet. |
 | [setFileCacheDirectory(String value)](#setFileCacheDirectory-java.lang.String-) | Sets the cache directory for storing spreadsheet file. |
@@ -58,7 +59,6 @@ Represents all the settings for GridJs
 | [setMaxShapeOrImageCount(int value)](#setMaxShapeOrImageCount-int-) | Sets the total count of the display shapes or images in the active sheet,it takes effect when IslimitShapeOrImage=true. |
 | [setMaxShapeOrImageWidthOrHeight(int value)](#setMaxShapeOrImageWidthOrHeight-int-) | Sets the max width or height for a shape or an image ,GridJs will ignore the shape or image with the width or height larger than this, it takes effect when IslimitShapeOrImage=true. |
 | [setMaxTotalShapeOrImageCount(int value)](#setMaxTotalShapeOrImageCount-int-) | Sets the total count of the display shapes or images in the workbook,it takes effect when IslimitShapeOrImage=true. |
-| [setPageSize(int value)](#setPageSize-int-) | Sets whether to do pagination GridJs will limit the row size based on the PageSize,if PageSize is -1,it will not do pagination the default value is -1 |
 | [setPictureCacheDirectory(String value)](#setPictureCacheDirectory-java.lang.String-) | Sets the cache directory for pictures. |
 | [setSameImageDetecting(boolean value)](#setSameImageDetecting-boolean-) | Sets whether to check if images have same source,the default is true the default value is true. |
 | [setSaveHtmlAsZip(boolean value)](#setSaveHtmlAsZip-boolean-) | Sets whether to save html file as zip archive,the default is false. |
@@ -100,6 +100,16 @@ Gets whether to automatically optimize the load performance for worksheet with l
 
 **Returns:**
 boolean
+### getBaseRouteName() {#getBaseRouteName--}
+```
+public static String getBaseRouteName()
+```
+
+
+Gets the base route name for GridJs controller URL. the default is "/GridJs2".
+
+**Returns:**
+java.lang.String
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -210,16 +220,6 @@ Gets the total count of the display shapes or images in the workbook,it takes ef
 
 **Returns:**
 int
-### getPageSize() {#getPageSize--}
-```
-public static int getPageSize()
-```
-
-
-Gets whether to do pagination GridJs will limit the row size based on the PageSize,if PageSize is -1,it will not do pagination the default value is -1
-
-**Returns:**
-int
 ### getPictureCacheDirectory() {#getPictureCacheDirectory--}
 ```
 public static String getPictureCacheDirectory()
@@ -318,6 +318,19 @@ Sets whether to automatically optimize the load performance for worksheet with l
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
+
+### setBaseRouteName(String value) {#setBaseRouteName-java.lang.String-}
+```
+public static void setBaseRouteName(String value)
+```
+
+
+Sets the base route name for GridJs controller URL. the default is "/GridJs2".
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
 
 ### setEmptySheetMaxCol(int value) {#setEmptySheetMaxCol-int-}
 ```
@@ -471,19 +484,6 @@ public static void setMaxTotalShapeOrImageCount(int value)
 
 
 Sets the total count of the display shapes or images in the workbook,it takes effect when IslimitShapeOrImage=true. the default value is 300.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
-
-### setPageSize(int value) {#setPageSize-int-}
-```
-public static void setPageSize(int value)
-```
-
-
-Sets whether to do pagination GridJs will limit the row size based on the PageSize,if PageSize is -1,it will not do pagination the default value is -1
 
 **Parameters:**
 | Parameter | Type | Description |

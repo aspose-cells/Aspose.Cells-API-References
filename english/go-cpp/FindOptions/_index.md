@@ -43,8 +43,8 @@ type FindOptions struct  {
 |[SetSearchOrderByRows](./setsearchorderbyrows/) | Indicates whether search order by rows or columns. | 
 |[GetLookInType](./getlookintype/) | Look in type. | 
 |[SetLookInType](./setlookintype/) | Look in type. | 
-|[GetRegexKey](./getregexkey/) | Indicates whether the searched key is regex.If true the searched key will be taken as regex and parsed. Otherwise the key will be parsed according to the rules in ms excel. | 
-|[SetRegexKey](./setregexkey/) | Indicates whether the searched key is regex.If true the searched key will be taken as regex and parsed. Otherwise the key will be parsed according to the rules in ms excel. | 
+|[GetRegexKey](./getregexkey/) | Indicates whether the searched key is regex.If true the searched key will be taken as regex and parsed.Otherwise the key will be parsed according to the rules in ms excel. | 
+|[SetRegexKey](./setregexkey/) | Indicates whether the searched key is regex.If true the searched key will be taken as regex and parsed.Otherwise the key will be parsed according to the rules in ms excel. | 
 |[GetValueTypeSensitive](./getvaluetypesensitive/) | Indicates whether searched cell value type should be same with the searched key. | 
 |[SetValueTypeSensitive](./setvaluetypesensitive/) | Indicates whether searched cell value type should be same with the searched key. | 
 |[GetStyle](./getstyle/) | The format to search for. | 

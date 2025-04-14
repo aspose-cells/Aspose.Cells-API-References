@@ -29,9 +29,11 @@ type StyleModifyFlag int32
 |[BottomBorder](./bottomborder/) | Indicates whether bottom border has been modified for the style. | 
 |[DiagonalDownBorder](./diagonaldownborder/) | Indicates whether diagonal-down border has been modified for the style. | 
 |[DiagonalUpBorder](./diagonalupborder/) | Indicates whether diagonal-up border has been modified for the style. | 
-|[Diagonal](./diagonal/) | Indicates whether one or more diagonal borders(<see cref="DiagonalDownBorder"/>,<see cref="DiagonalUpBorder"/>) have been modified for the style. | 
 |[HorizontalBorder](./horizontalborder/) | Indicates whether horizontal border has been modified for the style.Only for dynamic style, such as conditional formatting. | 
 |[VerticalBorder](./verticalborder/) | Indicates whether vertical border has been modified for the style.Only for dynamic style, such as conditional formatting. | 
+|[SideBorders](./sideborders/) | Indicates the four side borders: <see cref="LeftBorder"/>,<see cref="RightBorder"/>, <see cref="TopBorder"/> and <see cref="BottomBorder"/>. | 
+|[Diagonal](./diagonal/) | Indicates diagonal borders: <see cref="DiagonalDownBorder"/> and <see cref="DiagonalUpBorder"/>. | 
+|[DynamicStyleBorders](./dynamicstyleborders/) | Indicates borders of dynamic style: <see cref="HorizontalBorder"/> and <see cref="VerticalBorder"/>. | 
 |[Borders](./borders/) | Indicates whether one or more borders(<see cref="LeftBorder"/>,<see cref="RightBorder"/>, <see cref="TopBorder"/>, <see cref="BottomBorder"/>,<see cref="Diagonal"/>, <see cref="HorizontalBorder"/>, <see cref="VerticalBorder"/>)have been modified for the style. | 
 |[NumberFormat](./numberformat/) | Indicates whether numberformat has been modified. | 
 |[HorizontalAlignment](./horizontalalignment/) | Indicates whether horizontal alignment has been modified. | 
@@ -70,4 +72,5 @@ type StyleModifyFlag int32
 |[FontCap](./fontcap/) | unused. | 
 |[FontVerticalText](./fontverticaltext/) |  | 
 |[Font](./font/) | Indicates whether one or more properties have been modified for the font of the style. | 
-|[All](./all/) | Indicates whether one or more properties have been modified for the style. | 
+|[All](./all/) | All properties that can be modified for the style. | 
+|[None](./none/) | No property has been specified. | 

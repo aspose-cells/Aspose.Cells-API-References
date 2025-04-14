@@ -14,7 +14,7 @@ Gets or sets date of the document creation in local timezone.
 
 ```go
 
-func (instance *BuiltInDocumentPropertyCollection) GetCreatedTime()  (*Date,  error) 
+func (instance *BuiltInDocumentPropertyCollection) GetCreatedTime()  (time.Time,  error) 
 
 ```
 

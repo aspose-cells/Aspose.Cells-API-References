@@ -14,7 +14,7 @@ Constructor of DigitalSignature.
 
 ```go
 
-func NewDigitalSignature_String_String_String_Date(filename string, password string, comments string, signtime *Date) ( *DigitalSignature, error)
+func NewDigitalSignature_String_String_String_Date(filename string, password string, comments string, signtime time.Time) ( *DigitalSignature, error)
 
 ```
 

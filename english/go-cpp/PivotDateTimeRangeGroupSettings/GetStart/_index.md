@@ -14,7 +14,7 @@ Gets the start date time of the group.
 
 ```go
 
-func (instance *PivotDateTimeRangeGroupSettings) GetStart()  (*Date,  error) 
+func (instance *PivotDateTimeRangeGroupSettings) GetStart()  (time.Time,  error) 
 
 ```
 

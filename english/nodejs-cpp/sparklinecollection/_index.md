@@ -21,7 +21,7 @@ class SparklineCollection;
 | --- | --- |
 | [get(number)](#get-number-)| Gets the [Sparkline](../sparkline/) element at the specified index. |
 | [add(string, number, number)](#add-string-number-number-)| Add a sparkline. |
-| [remove(object)](#remove-object-)| Removes the sparkline |
+| [remove(Object)](#remove-object-)| Removes the sparkline |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
@@ -58,18 +58,18 @@ add(dataRange: string, row: number, column: number) : number;
 | row | number | The row index of the location. |
 | column | number | The column index of the location. |
 
-### remove(object) {#remove-object-}
+### remove(Object) {#remove-object-}
 
 Removes the sparkline
 
 ```javascript
-remove(o: object) : void;
+remove(o: Object) : void;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| o | object |  |
+| o | Object |  |
 
 ### getCount() {#getCount--}
 

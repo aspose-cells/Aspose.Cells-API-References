@@ -4,7 +4,7 @@ linktitle: LoadFormat
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::LoadFormat enum. Represents the load file format in C++.'
 type: docs
-weight: 23000
+weight: 23200
 url: /cpp/aspose.cells/loadformat/
 ---
 ## LoadFormat enum
@@ -44,6 +44,7 @@ enum class LoadFormat
 | Epub | 52 | <br>Reprents an EPUB file. |
 | Azw3 | 53 | <br>Represents an AZW3 file. |
 | Chm | 54 | <br>Represents a CHM file. |
+| Markdown | 55 | <br>Represents a [Markdown](../../aspose.cells.markdown/) file. |
 | Unknown | 255 | <br>Represents unrecognized format, cannot be loaded. |
 | Image | 254 | <br>Image. |
 | Json | 513 | <br>[Json](../../aspose.cells.json/). |

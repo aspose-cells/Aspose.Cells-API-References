@@ -127,7 +127,7 @@ getOldFormula() : string;
 Gets old value of the cell.
 
 ```javascript
-getOldValue() : object;
+getOldValue() : Object;
 ```
 
 
@@ -136,7 +136,7 @@ getOldValue() : object;
 Gets new value of the cell.
 
 ```javascript
-getNewValue() : object;
+getNewValue() : Object;
 ```
 
 

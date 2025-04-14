@@ -4,7 +4,7 @@ linktitle: Worksheet
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet class. Encapsulates the object that represents a single worksheet in C++.'
 type: docs
-weight: 16100
+weight: 16500
 url: /cpp/aspose.cells/worksheet/
 ---
 ## Worksheet class
@@ -83,6 +83,7 @@ class Worksheet
 | [GetFirstVisibleColumn()](./getfirstvisiblecolumn/) | Represents first visible column index. |
 | [GetFirstVisibleRow()](./getfirstvisiblerow/) | Represents first visible row index. |
 | [GetFreezedPanes(int32_t\& row, int32_t\& column, int32_t\& freezedRows, int32_t\& freezedColumns)](./getfreezedpanes/) | Gets the freeze panes. |
+| [GetGridlineColor()](./getgridlinecolor/) | Gets and sets the color of gridline. |
 | [GetHasAutofilter()](./gethasautofilter/) | Indicates whether this worksheet has auto filter. |
 | [GetHorizontalPageBreaks()](./gethorizontalpagebreaks/) | Gets the [HorizontalPageBreakCollection](../horizontalpagebreakcollection/) collection. |
 | [GetHyperlinks()](./gethyperlinks/) | Gets the [HyperlinkCollection](../hyperlinkcollection/) collection. |
@@ -100,6 +101,7 @@ class Worksheet
 | [GetProtection()](./getprotection/) | Represents the various types of protection options available for a worksheet. Supports advanced protection options in ExcelXP and above version. |
 | [GetQueryTables()](./getquerytables/) | Gets [QueryTableCollection](../querytablecollection/) in the worksheet. |
 | [GetScenarios()](./getscenarios/) | Gets the collection of [Scenario](../scenario/). |
+| [GetSelectedAreas()](./getselectedareas/) | Gets selected ranges of cells in the designer spreadsheet. |
 | [GetShapes()](./getshapes/) | Returns all drawing shapes in this worksheet. |
 | [GetShowFormulas()](./getshowformulas/) | Indicates whether to show formulas or their results. |
 | [GetSlicers()](./getslicers/) | Get the Slicer collection in the worksheet. |
@@ -151,6 +153,7 @@ class Worksheet
 | [SetDisplayZeros(bool value)](./setdisplayzeros/) | True if zero values are displayed. |
 | [SetFirstVisibleColumn(int32_t value)](./setfirstvisiblecolumn/) | Represents first visible column index. |
 | [SetFirstVisibleRow(int32_t value)](./setfirstvisiblerow/) | Represents first visible row index. |
+| [SetGridlineColor(const Aspose::Cells::Color\& value)](./setgridlinecolor/) | Gets and sets the color of gridline. |
 | [SetIsGridlinesVisible(bool value)](./setisgridlinesvisible/) | Gets or sets a value indicating whether the gridlines are visible.Default is true. |
 | [SetIsOutlineShown(bool value)](./setisoutlineshown/) | Indicates whether to show outline. |
 | [SetIsPageBreakPreview(bool value)](./setispagebreakpreview/) | Indicates whether the specified worksheet is shown in normal view or page break preview. |

@@ -31,6 +31,7 @@ type PivotFieldCollection struct  {
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[GetType](./gettype/) | Gets the PivotFields type. | 
 |[GetCount](./getcount/) | Gets the count of the pivotFields. | 
+|[GetEnumerator](./getenumerator/) | Gets an enumerator over the elements in this collection in proper sequence. | 
 |[Get_Int](./get_int/) | Gets the PivotField Object at the specific index. | 
 |[Get_String](./get_string/) | Gets the PivotField Object of the specific name. | 
 |[AddByBaseIndex](./addbybaseindex/) | Adds a PivotField Object to the specific type PivotFields. | 

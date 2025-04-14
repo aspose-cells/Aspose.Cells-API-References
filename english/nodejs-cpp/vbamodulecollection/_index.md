@@ -21,11 +21,11 @@ class VbaModuleCollection;
 | --- | --- |
 | [get(number)](#get-number-)| Gets [VbaModule](../vbamodule/) in the list by the index. |
 | [get(string)](#get-string-)| Gets [VbaModule](../vbamodule/) in the list by the name. |
-| [addDesignerStorage(string, number[])](#addDesignerStorage-string-numberarray-)|  |
+| [addDesignerStorage(string, Uint8Array)](#addDesignerStorage-string-uint8array-)|  |
 | [getDesignerStorage(string)](#getDesignerStorage-string-)| Represents the data of Designer. |
 | [add(Worksheet)](#add-worksheet-)| Adds module for a worksheet. |
 | [add(VbaModuleType, string)](#add-vbamoduletype-string-)| Adds module. |
-| [addUserForm(string, string, number[])](#addUserForm-string-string-numberarray-)| Inser user form into VBA Project. |
+| [addUserForm(string, string, Uint8Array)](#addUserForm-string-string-uint8array-)| Inser user form into VBA Project. |
 | [remove(Worksheet)](#remove-worksheet-)| Removes module for a worksheet. |
 | [remove(string)](#remove-string-)| Remove the module by the name |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
@@ -66,12 +66,12 @@ get(name: string) : VbaModule;
 
 [VbaModule](../vbamodule/)
 
-### addDesignerStorage(string, number[]) {#addDesignerStorage-string-numberarray-}
+### addDesignerStorage(string, Uint8Array) {#addDesignerStorage-string-uint8array-}
 
 
 
 ```javascript
-addDesignerStorage(name: string, data: number[]) : void;
+addDesignerStorage(name: string, data: Uint8Array) : void;
 ```
 
 **Parameters:**
@@ -85,17 +85,13 @@ addDesignerStorage(name: string, data: number[]) : void;
 Represents the data of Designer.
 
 ```javascript
-getDesignerStorage(name: string) : number[];
+getDesignerStorage(name: string) : Uint8Array;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | name | string |  |
-
-**Returns**
-
-number[]
 
 **Remarks**
 
@@ -128,12 +124,12 @@ add(type: VbaModuleType, name: string) : number;
 | type | [VbaModuleType](../vbamoduletype/) | The type of module. |
 | name | string | The name of module. |
 
-### addUserForm(string, string, number[]) {#addUserForm-string-string-numberarray-}
+### addUserForm(string, string, Uint8Array) {#addUserForm-string-string-uint8array-}
 
 Inser user form into VBA Project.
 
 ```javascript
-addUserForm(name: string, codes: string, designerStorage: number[]) : number;
+addUserForm(name: string, codes: string, designerStorage: Uint8Array) : number;
 ```
 
 **Parameters:**

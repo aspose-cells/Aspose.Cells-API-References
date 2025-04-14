@@ -33,6 +33,12 @@ type TextRunEquationNode struct  {
 |[GetText](./gettext/) | Set the content of the text node(Usually a node object per character). | 
 |[SetText](./settext/) | Set the content of the text node(Usually a node object per character). | 
 |[Equals](./equals/) | Determine whether the current equation node is equal to the specified node | 
+|[GetStartIndex](./getstartindex/) | Gets the start index of the characters. | 
+|[GetLength](./getlength/) | Gets the length of the characters. | 
+|[GetFont](./getfont/) | Returns the font of this object. | 
+|[SetWordArtStyle](./setwordartstyle/) | Sets the preset WordArt style. | 
+|[GetTextOptions](./gettextoptions/) | Returns the text options. | 
+|[GetType](./gettype/) | Gets the type of text node. | 
 |[GetParentNode](./getparentnode/) | Specifies the parent node of the current node | 
 |[SetParentNode](./setparentnode/) | Specifies the parent node of the current node | 
 |[ToLaTeX](./tolatex/) | Convert this equtation to LaTeX expression. | 
@@ -47,6 +53,5 @@ type TextRunEquationNode struct  {
 |[RemoveChild_EquationNode](./removechild_equationnode/) | Removes the specified node from the current node's children. | 
 |[RemoveChild_Int](./removechild_int/) | Removes the node at the specified index from the current node's children. | 
 |[RemoveAllChildren](./removeallchildren/) | Removes all the child nodes of the current node. | 
-|[GetType](./gettype/) | Represents the type of the node. | 
 |[GetEquationType](./getequationtype/) | Get the equation type of the current node | 
 |[TextRunEquationNode_CreateNode](./textrunequationnode_createnode/) | Create a node of the specified type. | 

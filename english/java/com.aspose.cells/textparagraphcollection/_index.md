@@ -8,8 +8,11 @@ url: /java/com.aspose.cells/textparagraphcollection/
 
 **Inheritance:**
 java.lang.Object
+
+**All Implemented Interfaces:**
+java.lang.Iterable
 ```
-public class TextParagraphCollection
+public class TextParagraphCollection implements Iterable
 ```
 
 Represents all text paragraph.

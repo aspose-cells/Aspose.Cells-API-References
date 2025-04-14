@@ -4,7 +4,7 @@ linktitle: GetSVGFitToViewPort
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Rendering::ImageOrPrintOptions::GetSVGFitToViewPort method. if this property is true, the generated svg will fit to view port in C++.'
 type: docs
-weight: 3200
+weight: 3000
 url: /cpp/aspose.cells.rendering/imageorprintoptions/getsvgfittoviewport/
 ---
 ## ImageOrPrintOptions::GetSVGFitToViewPort method
@@ -12,9 +12,15 @@ url: /cpp/aspose.cells.rendering/imageorprintoptions/getsvgfittoviewport/
 
 if this property is true, the generated svg will fit to view port.
 
+
+>Deprecated
+>
+>Use SvgImageOptions.FitToViewPort property instead. 
 ```cpp
 bool Aspose::Cells::Rendering::ImageOrPrintOptions::GetSVGFitToViewPort()
 ```
+
+
 
 ## See Also
 

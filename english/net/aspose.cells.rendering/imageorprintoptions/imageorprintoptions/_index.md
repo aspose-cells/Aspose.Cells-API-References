@@ -1,13 +1,13 @@
 ---
 title: ImageOrPrintOptions.ImageOrPrintOptions
 second_title: Aspose.Cells for .NET API Reference
-description: ImageOrPrintOptions constructor. The default constructor
+description: ImageOrPrintOptions constructor. Ctor
 type: docs
 url: /net/aspose.cells.rendering/imageorprintoptions/imageorprintoptions/
 ---
 ## ImageOrPrintOptions constructor
 
-The default constructor.
+Ctor.
 
 ```csharp
 public ImageOrPrintOptions()

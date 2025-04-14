@@ -48,7 +48,7 @@ class LineFormat extends FillFormat;
 | [getWeight()](#getWeight--)| Gets or sets the weight of the line in unit of points. |
 | [setWeight(number)](#setWeight-number-)| Gets or sets the weight of the line in unit of points. |
 | [getHashCode()](#getHashCode--)| Gets the hash code. |
-| [equals(object)](#equals-object-)| Determines whether this instance has the same value as another specified [LineFormat](../lineformat/) object. |
+| [equals(Object)](#equals-object-)| Determines whether this instance has the same value as another specified [LineFormat](../lineformat/) object. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getFillType()](#getFillType--)| Gets and sets fill type |
 | [setFillType(FillType)](#setFillType-filltype-)| Gets and sets fill type |
@@ -74,7 +74,7 @@ class LineFormat extends FillFormat;
 | [getScale()](#getScale--)| Gets and sets the picture format scale. |
 | [setScale(number)](#setScale-number-)| Gets and sets the picture format scale. |
 | [getImageData()](#getImageData--)| Gets and sets the picture image data. |
-| [setImageData(number[])](#setImageData-numberarray-)| Gets and sets the picture image data. |
+| [setImageData(Uint8Array)](#setImageData-uint8array-)| Gets and sets the picture image data. |
 | [setOneColorGradient(Color, number, GradientStyleType, number)](#setOneColorGradient-color-number-gradientstyletype-number-)| Sets the specified fill to a one-color gradient. Only applies for Excel 2007. |
 | [setTwoColorGradient(Color, Color, GradientStyleType, number)](#setTwoColorGradient-color-color-gradientstyletype-number-)| Sets the specified fill to a two-color gradient. Only applies for Excel 2007. |
 | [setTwoColorGradient(Color, number, Color, number, GradientStyleType, number)](#setTwoColorGradient-color-number-color-number-gradientstyletype-number-)| Sets the specified fill to a two-color gradient. Only applies for Excel 2007. |
@@ -385,18 +385,18 @@ getHashCode() : number;
 ```
 
 
-### equals(object) {#equals-object-}
+### equals(Object) {#equals-object-}
 
 Determines whether this instance has the same value as another specified [LineFormat](../lineformat/) object.
 
 ```javascript
-equals(obj: object) : boolean;
+equals(obj: Object) : boolean;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | object | The [LineFormat](../lineformat/) object to compare with this instance. |
+| obj | Object | The [LineFormat](../lineformat/) object to compare with this instance. |
 
 **Returns**
 
@@ -711,24 +711,20 @@ setScale(value: number) : void;
 Gets and sets the picture image data.
 
 ```javascript
-getImageData() : number[];
+getImageData() : Uint8Array;
 ```
 
-
-**Returns**
-
-number[]
 
 **Remarks**
 
 If the fill format is not custom texture format, returns null.
 
-### setImageData(number[]) {#setImageData-numberarray-}
+### setImageData(Uint8Array) {#setImageData-uint8array-}
 
 Gets and sets the picture image data.
 
 ```javascript
-setImageData(value: number[]) : void;
+setImageData(value: Uint8Array) : void;
 ```
 
 **Parameters:**

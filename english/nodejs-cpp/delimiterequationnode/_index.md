@@ -35,7 +35,7 @@ class DelimiterEquationNode extends EquationNode;
 | [setSeparatorChar(string)](#setSeparatorChar-string-)| Delimiter separator character. |
 | [getDelimiterShape()](#getDelimiterShape--)| Specifies the shape of delimiters in the delimiter object. |
 | [setDelimiterShape(EquationDelimiterShapeType)](#setDelimiterShape-equationdelimitershapetype-)| Specifies the shape of delimiters in the delimiter object. |
-| [equals(object)](#equals-object-)| Determine whether the current equation node is equal to the specified node |
+| [equals(Object)](#equals-object-)| Determine whether the current equation node is equal to the specified node |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getStartIndex()](#getStartIndex--)| Gets the start index of the characters. |
 | [getLength()](#getLength--)| Gets the length of the characters. |
@@ -212,18 +212,18 @@ setDelimiterShape(value: EquationDelimiterShapeType) : void;
 | --- | --- | --- |
 | value | [EquationDelimiterShapeType](../equationdelimitershapetype/) | The value to set. |
 
-### equals(object) {#equals-object-}
+### equals(Object) {#equals-object-}
 
 Determine whether the current equation node is equal to the specified node
 
 ```javascript
-equals(obj: object) : boolean;
+equals(obj: Object) : boolean;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | object | The specified node |
+| obj | Object | The specified node |
 
 ### isNull() {#isNull--}
 

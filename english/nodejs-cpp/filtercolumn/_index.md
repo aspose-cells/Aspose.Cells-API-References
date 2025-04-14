@@ -22,7 +22,7 @@ class FilterColumn;
 | [isDropdownVisible()](#isDropdownVisible--)| Indicates whether the AutoFilter button for this column is visible. |
 | [setIsDropdownVisible(boolean)](#setIsDropdownVisible-boolean-)| Indicates whether the AutoFilter button for this column is visible. |
 | [getFilter()](#getFilter--)| Gets and sets the condition of filtering data. |
-| [setFilter(object)](#setFilter-object-)| Gets and sets the condition of filtering data. |
+| [setFilter(Object)](#setFilter-object-)| Gets and sets the condition of filtering data. |
 | [getFilterType()](#getFilterType--)| Gets and sets the type fo filtering data. |
 | [setFilterType(FilterType)](#setFilterType-filtertype-)| Gets and sets the type fo filtering data. |
 | [getFieldIndex()](#getFieldIndex--)| Gets and sets the column offset in the range. |
@@ -57,22 +57,22 @@ setIsDropdownVisible(value: boolean) : void;
 Gets and sets the condition of filtering data.
 
 ```javascript
-getFilter() : object;
+getFilter() : Object;
 ```
 
 
-### setFilter(object) {#setFilter-object-}
+### setFilter(Object) {#setFilter-object-}
 
 Gets and sets the condition of filtering data.
 
 ```javascript
-setFilter(value: object) : void;
+setFilter(value: Object) : void;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | object | The value to set. |
+| value | Object | The value to set. |
 
 ### getFilterType() {#getFilterType--}
 

@@ -14,7 +14,7 @@ Gets or sets the universal time of the last save.
 
 ```go
 
-func (instance *BuiltInDocumentPropertyCollection) GetLastSavedUniversalTime()  (*Date,  error) 
+func (instance *BuiltInDocumentPropertyCollection) GetLastSavedUniversalTime()  (time.Time,  error) 
 
 ```
 

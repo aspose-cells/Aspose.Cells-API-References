@@ -110,8 +110,4 @@ toObject() : Object;
 ```
 
 
-**Returns**
-
-[Object](../object/)
-
 

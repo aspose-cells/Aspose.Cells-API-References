@@ -14,7 +14,7 @@ Gets or sets the time of the last save in local timezone.
 
 ```go
 
-func (instance *BuiltInDocumentPropertyCollection) GetLastSavedTime()  (*Date,  error) 
+func (instance *BuiltInDocumentPropertyCollection) GetLastSavedTime()  (time.Time,  error) 
 
 ```
 

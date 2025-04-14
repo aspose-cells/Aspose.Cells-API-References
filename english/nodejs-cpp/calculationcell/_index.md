@@ -26,7 +26,7 @@ All objects provided by this class are for "read" purpose only. User should not 
 | [getCellRow()](#getCellRow--)| Gets the row index of the cell. |
 | [getCellColumn()](#getCellColumn--)| Gets the column index of the cell. |
 | [getCell()](#getCell--)| Gets the Cell object which is being calculated. |
-| [setCalculatedValue(object)](#setCalculatedValue-object-)| Sets the calculated value for the cell. |
+| [setCalculatedValue(Object)](#setCalculatedValue-object-)| Sets the calculated value for the cell. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -87,18 +87,18 @@ getCell() : Cell;
 
 [Cell](../cell/)
 
-### setCalculatedValue(object) {#setCalculatedValue-object-}
+### setCalculatedValue(Object) {#setCalculatedValue-object-}
 
 Sets the calculated value for the cell.
 
 ```javascript
-setCalculatedValue(v: object) : void;
+setCalculatedValue(v: Object) : void;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| v | object |  |
+| v | Object |  |
 
 **Remarks**
 

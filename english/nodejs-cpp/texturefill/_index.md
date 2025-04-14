@@ -22,7 +22,7 @@ class TextureFill;
 | [getType()](#getType--)| Gets and sets the texture type |
 | [setType(TextureType)](#setType-texturetype-)| Gets and sets the texture type |
 | [getImageData()](#getImageData--)| Gets and sets the image data of the fill. |
-| [setImageData(number[])](#setImageData-numberarray-)| Gets and sets the image data of the fill. |
+| [setImageData(Uint8Array)](#setImageData-uint8array-)| Gets and sets the image data of the fill. |
 | [isTiling()](#isTiling--)| Indicates whether tile picture as texture. |
 | [setIsTiling(boolean)](#setIsTiling-boolean-)| Indicates whether tile picture as texture. |
 | [getPicFormatOption()](#getPicFormatOption--)| Gets or sets picture format option. |
@@ -69,20 +69,16 @@ setType(value: TextureType) : void;
 Gets and sets the image data of the fill.
 
 ```javascript
-getImageData() : number[];
+getImageData() : Uint8Array;
 ```
 
 
-**Returns**
-
-number[]
-
-### setImageData(number[]) {#setImageData-numberarray-}
+### setImageData(Uint8Array) {#setImageData-uint8array-}
 
 Gets and sets the image data of the fill.
 
 ```javascript
-setImageData(value: number[]) : void;
+setImageData(value: Uint8Array) : void;
 ```
 
 **Parameters:**

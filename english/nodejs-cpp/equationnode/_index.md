@@ -41,7 +41,7 @@ class EquationNode extends FontSetting;
 | [removeChild(EquationNode)](#removeChild-equationnode-)| Removes the specified node from the current node's children. |
 | [removeChild(number)](#removeChild-number-)| Removes the node at the specified index from the current node's children. |
 | [removeAllChildren()](#removeAllChildren--)| Removes all the child nodes of the current node. |
-| [equals(object)](#equals-object-)| Determine whether the current equation node is equal to the specified node |
+| [equals(Object)](#equals-object-)| Determine whether the current equation node is equal to the specified node |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getStartIndex()](#getStartIndex--)| Gets the start index of the characters. |
 | [getLength()](#getLength--)| Gets the length of the characters. |
@@ -277,18 +277,18 @@ removeAllChildren() : void;
 ```
 
 
-### equals(object) {#equals-object-}
+### equals(Object) {#equals-object-}
 
 Determine whether the current equation node is equal to the specified node
 
 ```javascript
-equals(obj: object) : boolean;
+equals(obj: Object) : boolean;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | object | The specified node |
+| obj | Object | The specified node |
 
 ### isNull() {#isNull--}
 

@@ -14,7 +14,7 @@ Gets and sets the time of generating the pdf document.
 
 ```go
 
-func (instance *PdfSaveOptions) GetCreatedTime()  (*Date,  error) 
+func (instance *PdfSaveOptions) GetCreatedTime()  (time.Time,  error) 
 
 ```
 

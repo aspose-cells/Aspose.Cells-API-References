@@ -34,4 +34,5 @@ type IndividualFontConfigs struct  {
 |[GetFontSubstitutes](./getfontsubstitutes/) | Returns array containing font substitute names to be used if original font is not presented. | 
 |[SetFontFolder](./setfontfolder/) | Sets the fonts folder | 
 |[SetFontFolders](./setfontfolders/) | Sets the fonts folders | 
+|[SetFontSources](./setfontsources/) | Sets the fonts sources. | 
 |[GetFontSources](./getfontsources/) | Gets a copy of the array that contains the list of sources | 

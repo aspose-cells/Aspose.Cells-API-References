@@ -154,7 +154,7 @@ getStartRow() : number;
 Gets cell values in this area.
 
 ```javascript
-getValues() : object;
+getValues() : Object;
 ```
 
 
@@ -167,7 +167,7 @@ If this area is invalid, "#REF!" will be returned; If this area is one single ce
 Gets cell values in this area.
 
 ```javascript
-getValues(calculateFormulas: boolean) : object;
+getValues(calculateFormulas: boolean) : Object;
 ```
 
 **Parameters:**
@@ -184,7 +184,7 @@ If this area is invalid, "#REF!" will be returned; If this area is one single ce
 Gets cell value with given offset from the top-left of this area.
 
 ```javascript
-getValue(rowOffset: number, colOffset: number) : object;
+getValue(rowOffset: number, colOffset: number) : Object;
 ```
 
 **Parameters:**
@@ -202,7 +202,7 @@ getValue(rowOffset: number, colOffset: number) : object;
 Gets cell value with given offset from the top-left of this area.
 
 ```javascript
-getValue(rowOffset: number, colOffset: number, calculateFormulas: boolean) : object;
+getValue(rowOffset: number, colOffset: number, calculateFormulas: boolean) : Object;
 ```
 
 **Parameters:**

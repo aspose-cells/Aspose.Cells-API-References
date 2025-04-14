@@ -23,6 +23,7 @@ The **Aspose.Cells.Rendering** namespace provides classes for rendering image an
 | [SheetPrintingPreview](./sheetprintingpreview/) | Worksheet printing preview. |
 | [SheetRender](./sheetrender/) | Represents a worksheet render which can render worksheet to various images such as (BMP, PNG, JPEG, TIFF..) The constructor of this class , must be used after modification of pagesetup, cell style. |
 | [SheetSet](./sheetset/) | Describes a set of sheets. |
+| [SvgImageOptions](./svgimageoptions/) | Options for generating Svg image. |
 | [WorkbookPrintingPreview](./workbookprintingpreview/) | Workbook printing preview. |
 | [WorkbookRender](./workbookrender/) | Represents a Workbook render. The constructor of this class , must be used after modification of pagesetup, cell style. |
 ## Interfaces
@@ -43,6 +44,7 @@ The **Aspose.Cells.Rendering** namespace provides classes for rendering image an
 | [PdfCustomPropertiesExport](./pdfcustompropertiesexport/) | Specifies the way [`CustomDocumentPropertyCollection`](../aspose.cells.properties/customdocumentpropertycollection/) are exported to PDF file. |
 | [PdfFontEncoding](./pdffontencoding/) | Represents pdf embedded font encoding. |
 | [PdfOptimizationType](./pdfoptimizationtype/) | Specifies a type of optimization. |
+| [SvgEmbeddedFontType](./svgembeddedfonttype/) | Represents the embedded font type in Svg image. |
 | [TiffCompression](./tiffcompression/) | Specifies what type of compression to apply when saving images into TIFF format file. |
 
 

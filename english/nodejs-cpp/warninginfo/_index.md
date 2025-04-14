@@ -23,7 +23,7 @@ class WarningInfo;
 | [getDescription()](#getDescription--)| Get description of warning info. |
 | [getErrorObject()](#getErrorObject--)| The error object. |
 | [getCorrectedObject()](#getCorrectedObject--)| Gets and sets the corrected object. |
-| [setCorrectedObject(object)](#setCorrectedObject-object-)| Gets and sets the corrected object. |
+| [setCorrectedObject(Object)](#setCorrectedObject-object-)| Gets and sets the corrected object. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -54,7 +54,7 @@ getDescription() : string;
 The error object.
 
 ```javascript
-getErrorObject() : object;
+getErrorObject() : Object;
 ```
 
 
@@ -63,22 +63,22 @@ getErrorObject() : object;
 Gets and sets the corrected object.
 
 ```javascript
-getCorrectedObject() : object;
+getCorrectedObject() : Object;
 ```
 
 
-### setCorrectedObject(object) {#setCorrectedObject-object-}
+### setCorrectedObject(Object) {#setCorrectedObject-object-}
 
 Gets and sets the corrected object.
 
 ```javascript
-setCorrectedObject(value: object) : void;
+setCorrectedObject(value: Object) : void;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | object | The value to set. |
+| value | Object | The value to set. |
 
 ### isNull() {#isNull--}
 

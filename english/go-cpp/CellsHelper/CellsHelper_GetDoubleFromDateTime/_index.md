@@ -14,7 +14,7 @@ Convert the date time to double value.
 
 ```go
 
-func CellsHelper_GetDoubleFromDateTime(datetime *Date, date1904 bool)  (float64,  error) 
+func CellsHelper_GetDoubleFromDateTime(datetime time.Time, date1904 bool)  (float64,  error) 
 
 ```
 

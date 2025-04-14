@@ -14,7 +14,7 @@ Gets the int64_t value.
 
 ```go
 
-func (instance *Object) ToInt64()  (int32,  error) 
+func (instance *Object) ToInt64()  (int64,  error) 
 
 ```
 

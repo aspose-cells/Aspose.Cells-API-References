@@ -36,7 +36,6 @@ sheet.getHyperlinks().add("A1", 1, 1, "http://www.aspose.com");
 | [getWorkbook()](#getWorkbook--)| Gets the workbook object which contains this sheet. |
 | [getCells()](#getCells--)| Gets the [Cells](../cells/) collection. |
 | [getQueryTables()](#getQueryTables--)| Gets [QueryTableCollection](../querytablecollection/) in the worksheet. |
-| [getPivotTables()](#getPivotTables--)| Gets all pivot tables in this worksheet. |
 | [getType()](#getType--)| Represents worksheet type. |
 | [setType(SheetType)](#setType-sheettype-)| Represents worksheet type. |
 | [getName()](#getName--)| Gets or sets the name of the worksheet. |
@@ -56,6 +55,7 @@ sheet.getHyperlinks().add("A1", 1, 1, "http://www.aspose.com");
 | [setIsOutlineShown(boolean)](#setIsOutlineShown-boolean-)| Indicates whether to show outline. |
 | [isSelected()](#isSelected--)| Indicates whether this worksheet is selected when the workbook is opened. |
 | [setIsSelected(boolean)](#setIsSelected-boolean-)| Indicates whether this worksheet is selected when the workbook is opened. |
+| [getPivotTables()](#getPivotTables--)| Gets all pivot tables in this worksheet. |
 | [getListObjects()](#getListObjects--)| Gets all ListObjects in this worksheet. |
 | [getTabId()](#getTabId--)| Specifies the internal identifier for the sheet. |
 | [setTabId(number)](#setTabId-number-)| Specifies the internal identifier for the sheet. |
@@ -103,10 +103,12 @@ sheet.getHyperlinks().add("A1", 1, 1, "http://www.aspose.com");
 | [setIsRulerVisible(boolean)](#setIsRulerVisible-boolean-)| Indicates whether the ruler is visible. This property is only applied for page break preview. |
 | [getTabColor()](#getTabColor--)| Represents worksheet tab color. |
 | [setTabColor(Color)](#setTabColor-color-)| Represents worksheet tab color. |
+| [getGridlineColor()](#getGridlineColor--)| Gets and sets the color of gridline |
+| [setGridlineColor(Color)](#setGridlineColor-color-)| Gets and sets the color of gridline |
 | [getCodeName()](#getCodeName--)| Gets worksheet code name. |
 | [setCodeName(string)](#setCodeName-string-)| Gets worksheet code name. |
 | [getBackgroundImage()](#getBackgroundImage--)| Gets and sets worksheet background image. |
-| [setBackgroundImage(number[])](#setBackgroundImage-numberarray-)| Gets and sets worksheet background image. |
+| [setBackgroundImage(Uint8Array)](#setBackgroundImage-uint8array-)| Gets and sets worksheet background image. |
 | [getConditionalFormattings()](#getConditionalFormattings--)| Gets the ConditionalFormattings in the worksheet. |
 | [getActiveCell()](#getActiveCell--)| Gets or sets the active cell in the worksheet. |
 | [setActiveCell(string)](#setActiveCell-string-)| Gets or sets the active cell in the worksheet. |
@@ -172,6 +174,7 @@ sheet.getHyperlinks().add("A1", 1, 1, "http://www.aspose.com");
 | [unprotect(string)](#unprotect-string-)| Unprotects worksheet. |
 | [moveTo(number)](#moveTo-number-)| Moves the sheet to another location in the spreadsheet. |
 | [replace(string, string)](#replace-string-string-)| Replaces all cells' text with a new string. |
+| [getSelectedAreas()](#getSelectedAreas--)| Gets selected ranges of cells in the designer spreadsheet. |
 | [getPrintingPageBreaks(ImageOrPrintOptions)](#getPrintingPageBreaks-imageorprintoptions-)| Gets automatic page breaks. |
 | [toString()](#toString--)| Returns a string represents the current Worksheet object. |
 | [startAccessCache(AccessCacheOptions)](#startAccessCache-accesscacheoptions-)| Starts the session that uses caches to access the data in this worksheet. |
@@ -275,19 +278,6 @@ getQueryTables() : QueryTableCollection;
 **Returns**
 
 [QueryTableCollection](../querytablecollection/)
-
-### getPivotTables() {#getPivotTables--}
-
-Gets all pivot tables in this worksheet.
-
-```javascript
-getPivotTables() : PivotTableCollection;
-```
-
-
-**Returns**
-
-[PivotTableCollection](../pivottablecollection/)
 
 ### getType() {#getType--}
 
@@ -511,6 +501,19 @@ setIsSelected(value: boolean) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The value to set. |
+
+### getPivotTables() {#getPivotTables--}
+
+Gets all pivot tables in this worksheet.
+
+```javascript
+getPivotTables() : PivotTableCollection;
+```
+
+
+**Returns**
+
+[PivotTableCollection](../pivottablecollection/)
 
 ### getListObjects() {#getListObjects--}
 
@@ -1091,6 +1094,32 @@ setTabColor(value: Color) : void;
 
 This feature is only supported in ExcelXP(Excel2002) and later versions. If you save file as Excel97 or Excel2000 format, it will be omitted.
 
+### getGridlineColor() {#getGridlineColor--}
+
+Gets and sets the color of gridline
+
+```javascript
+getGridlineColor() : Color;
+```
+
+
+**Returns**
+
+[Color](../color/)
+
+### setGridlineColor(Color) {#setGridlineColor-color-}
+
+Gets and sets the color of gridline
+
+```javascript
+setGridlineColor(value: Color) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [Color](../color/) | The value to set. |
+
 ### getCodeName() {#getCodeName--}
 
 Gets worksheet code name.
@@ -1118,20 +1147,16 @@ setCodeName(value: string) : void;
 Gets and sets worksheet background image.
 
 ```javascript
-getBackgroundImage() : number[];
+getBackgroundImage() : Uint8Array;
 ```
 
 
-**Returns**
-
-number[]
-
-### setBackgroundImage(number[]) {#setBackgroundImage-numberarray-}
+### setBackgroundImage(Uint8Array) {#setBackgroundImage-uint8array-}
 
 Gets and sets worksheet background image.
 
 ```javascript
-setBackgroundImage(value: number[]) : void;
+setBackgroundImage(value: Uint8Array) : void;
 ```
 
 **Parameters:**
@@ -2186,6 +2211,19 @@ replace(oldString: string, newString: string) : number;
 | oldString | string | Old string value. |
 | newString | string | New string value. |
 
+### getSelectedAreas() {#getSelectedAreas--}
+
+Gets selected ranges of cells in the designer spreadsheet.
+
+```javascript
+getSelectedAreas() : Range[];
+```
+
+
+**Returns**
+
+Returns all selected ranges.
+
 ### getPrintingPageBreaks(ImageOrPrintOptions) {#getPrintingPageBreaks-imageorprintoptions-}
 
 Gets automatic page breaks.
@@ -2271,7 +2309,7 @@ The converted formula.
 Calculates a formula.
 
 ```javascript
-calculateFormula(formula: string) : object;
+calculateFormula(formula: string) : Object;
 ```
 
 **Parameters:**
@@ -2288,7 +2326,7 @@ Calculated formula result.
 Calculates a formula expression directly.
 
 ```javascript
-calculateFormula(formula: string, opts: CalculationOptions) : object;
+calculateFormula(formula: string, opts: CalculationOptions) : Object;
 ```
 
 **Parameters:**
@@ -2310,7 +2348,7 @@ The formula will be calculated just like it has been set to cell A1. And the for
 Calculates a formula expression directly.
 
 ```javascript
-calculateFormula(formula: string, pOpts: FormulaParseOptions, cOpts: CalculationOptions, baseCellRow: number, baseCellColumn: number, calculationData: CalculationData) : object;
+calculateFormula(formula: string, pOpts: FormulaParseOptions, cOpts: CalculationOptions, baseCellRow: number, baseCellColumn: number, calculationData: CalculationData) : Object;
 ```
 
 **Parameters:**
@@ -2350,7 +2388,7 @@ calculateFormula(options: CalculationOptions, recursive: boolean) : void;
 Calculates a formula.
 
 ```javascript
-calculateFormulaAsync(formula: string) : Promise<object>;
+calculateFormulaAsync(formula: string) : Promise<Object>;
 ```
 
 **Parameters:**
@@ -2367,7 +2405,7 @@ Calculated formula result.
 Calculates a formula expression directly.
 
 ```javascript
-calculateFormulaAsync(formula: string, opts: CalculationOptions) : Promise<object>;
+calculateFormulaAsync(formula: string, opts: CalculationOptions) : Promise<Object>;
 ```
 
 **Parameters:**
@@ -2389,7 +2427,7 @@ The formula will be calculated just like it has been set to cell A1. And the for
 Calculates a formula expression directly.
 
 ```javascript
-calculateFormulaAsync(formula: string, pOpts: FormulaParseOptions, cOpts: CalculationOptions, baseCellRow: number, baseCellColumn: number, calculationData: CalculationData) : Promise<object>;
+calculateFormulaAsync(formula: string, pOpts: FormulaParseOptions, cOpts: CalculationOptions, baseCellRow: number, baseCellColumn: number, calculationData: CalculationData) : Promise<Object>;
 ```
 
 **Parameters:**
@@ -2433,7 +2471,7 @@ calculateFormulaAsync(options: CalculationOptions, recursive: boolean) : Promise
 Calculates a formula as array formula.
 
 ```javascript
-calculateArrayFormula(formula: string, opts: CalculationOptions) : object[][];
+calculateArrayFormula(formula: string, opts: CalculationOptions) : Object[][];
 ```
 
 **Parameters:**
@@ -2444,14 +2482,14 @@ calculateArrayFormula(formula: string, opts: CalculationOptions) : object[][];
 
 **Returns**
 
-[object[]](../object[]/)[]
+[Object[]](../object[]/)[]
 
 ### calculateArrayFormula(string, CalculationOptions, number, number) {#calculateArrayFormula-string-calculationoptions-number-number-}
 
 Calculates a formula as array formula.
 
 ```javascript
-calculateArrayFormula(formula: string, opts: CalculationOptions, maxRowCount: number, maxColumnCount: number) : object[][];
+calculateArrayFormula(formula: string, opts: CalculationOptions, maxRowCount: number, maxColumnCount: number) : Object[][];
 ```
 
 **Parameters:**
@@ -2475,7 +2513,7 @@ The formula will be taken as dynamic array formula to calculate the dimension an
 Calculates a formula as array formula.
 
 ```javascript
-calculateArrayFormula(formula: string, pOpts: FormulaParseOptions, cOpts: CalculationOptions, baseCellRow: number, baseCellColumn: number, maxRowCount: number, maxColumnCount: number, calculationData: CalculationData) : object[][];
+calculateArrayFormula(formula: string, pOpts: FormulaParseOptions, cOpts: CalculationOptions, baseCellRow: number, baseCellColumn: number, maxRowCount: number, maxColumnCount: number, calculationData: CalculationData) : Object[][];
 ```
 
 **Parameters:**
@@ -2503,7 +2541,7 @@ The formula will be taken as dynamic array formula to calculate the dimension an
 Calculates a formula as array formula.
 
 ```javascript
-calculateArrayFormulaAsync(formula: string, opts: CalculationOptions) : Promise<object[][]>;
+calculateArrayFormulaAsync(formula: string, opts: CalculationOptions) : Promise<Object[][]>;
 ```
 
 **Parameters:**
@@ -2514,14 +2552,14 @@ calculateArrayFormulaAsync(formula: string, opts: CalculationOptions) : Promise<
 
 **Returns**
 
-[Promise<object[][]>](../promise<object[][]>/)
+[Promise<Object[][]>](../promise<object[][]>/)
 
 ### calculateArrayFormulaAsync(string, CalculationOptions, number, number) {#calculateArrayFormulaAsync-string-calculationoptions-number-number-}
 
 Calculates a formula as array formula.
 
 ```javascript
-calculateArrayFormulaAsync(formula: string, opts: CalculationOptions, maxRowCount: number, maxColumnCount: number) : Promise<object[][]>;
+calculateArrayFormulaAsync(formula: string, opts: CalculationOptions, maxRowCount: number, maxColumnCount: number) : Promise<Object[][]>;
 ```
 
 **Parameters:**
@@ -2545,7 +2583,7 @@ The formula will be taken as dynamic array formula to calculate the dimension an
 Calculates a formula as array formula.
 
 ```javascript
-calculateArrayFormulaAsync(formula: string, pOpts: FormulaParseOptions, cOpts: CalculationOptions, baseCellRow: number, baseCellColumn: number, maxRowCount: number, maxColumnCount: number, calculationData: CalculationData) : Promise<object[][]>;
+calculateArrayFormulaAsync(formula: string, pOpts: FormulaParseOptions, cOpts: CalculationOptions, baseCellRow: number, baseCellColumn: number, maxRowCount: number, maxColumnCount: number, calculationData: CalculationData) : Promise<Object[][]>;
 ```
 
 **Parameters:**

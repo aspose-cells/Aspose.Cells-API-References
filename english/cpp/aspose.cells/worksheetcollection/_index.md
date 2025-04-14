@@ -4,7 +4,7 @@ linktitle: WorksheetCollection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::WorksheetCollection class. Encapsulates a collection of Worksheet objects in C++.'
 type: docs
-weight: 16200
+weight: 16600
 url: /cpp/aspose.cells/worksheetcollection/
 ---
 ## WorksheetCollection class
@@ -53,6 +53,7 @@ class WorksheetCollection
 | [GetRangeByName(const U16String\& rangeName, int32_t currentSheetIndex, bool includeTable)](./getrangebyname/) | Gets [Range](../range/) by pre-defined name or table's name. |
 | [GetRangeByName(const char16_t* rangeName, int32_t currentSheetIndex, bool includeTable)](./getrangebyname/) | Gets [Range](../range/) by pre-defined name or table's name. |
 | [GetRevisionLogs()](./getrevisionlogs/) | Represents revision logs. |
+| [GetSensitivityLabels()](./getsensitivitylabels/) | Represents all sensitivity labels. |
 | [GetSheetByCodeName(const U16String\& codeName)](./getsheetbycodename/) | Gets the worksheet by the code name. |
 | [GetSheetByCodeName(const char16_t* codeName)](./getsheetbycodename/) | Gets the worksheet by the code name. |
 | [GetTableStyles()](./gettablestyles/) | Gets TableStyles object. |

@@ -50,6 +50,7 @@ class Cell
 | [GetFormula()](./getformula/) | Gets or sets a formula of the [Cell](./). |
 | [GetFormula(bool isR1C1, bool isLocal)](./getformula/) | Get the formula of this cell. |
 | [GetFormulaLocal()](./getformulalocal/) | Get the locale formatted formula of the cell. |
+| [GetHasCustomFunction()](./gethascustomfunction/) | Checks whether there is custom function(unsupported function) in this cell's formula. |
 | [GetHasCustomStyle()](./gethascustomstyle/) | Indicates whether this cell has custom style settings(different from the default one inherited from corresponding row, column, or workbook). |
 | [GetHashCode()](./gethashcode/) | Serves as a hash function for a particular type. |
 | [GetHeightOfValue()](./getheightofvalue/) | Gets the height of the value in unit of pixels. |

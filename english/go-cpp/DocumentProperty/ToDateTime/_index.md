@@ -14,7 +14,7 @@ Returns the property value as DateTime in local timezone.
 
 ```go
 
-func (instance *DocumentProperty) ToDateTime()  (*Date,  error) 
+func (instance *DocumentProperty) ToDateTime()  (time.Time,  error) 
 
 ```
 

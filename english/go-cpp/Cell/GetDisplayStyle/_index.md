@@ -10,7 +10,7 @@ url: /go-cpp/cell/getdisplaystyle/
 
 ## GetDisplayStyle function
 
-Gets the display style of the cell.If this cell is also affected by other settings such as conditional formatting, list objects, etc.,then the display style may be different from cell.GetStyle().
+Gets the display style of this cell.
 
 ```go
 

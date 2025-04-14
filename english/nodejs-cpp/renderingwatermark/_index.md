@@ -19,7 +19,7 @@ class RenderingWatermark;
 
 | Name | Description |
 | --- | --- |
-| [constructor(number[])](#constructor-numberarray-)| Creates instance of image watermark. |
+| [constructor(Uint8Array)](#constructor-uint8array-)| Creates instance of image watermark. |
 | [constructor(string, RenderingFont)](#constructor-string-renderingfont-)| Creates instance of text watermark. |
 
 ## Methods
@@ -48,12 +48,12 @@ class RenderingWatermark;
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
-### constructor(number[]) {#constructor-numberarray-}
+### constructor(Uint8Array) {#constructor-uint8array-}
 
 Creates instance of image watermark.
 
 ```javascript
-constructor(imageData: number[]);
+constructor(imageData: Uint8Array);
 ```
 
 **Parameters:**
@@ -190,13 +190,9 @@ getFont() : RenderingFont;
 Gets image of the watermark.
 
 ```javascript
-getImage() : number[];
+getImage() : Uint8Array;
 ```
 
-
-**Returns**
-
-number[]
 
 ### getHAlignment() {#getHAlignment--}
 

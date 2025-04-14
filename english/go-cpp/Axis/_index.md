@@ -74,8 +74,8 @@ type Axis struct  {
 |[SetTickMarkSpacing](./settickmarkspacing/) | Returns or sets the number of categories or series between tick marks. Applies only to category and series axes. | 
 |[GetDisplayUnit](./getdisplayunit/) | Represents the unit label for the specified axis. | 
 |[SetDisplayUnit](./setdisplayunit/) | Represents the unit label for the specified axis. | 
-|[GetCustomUnit](./getcustomunit/) | Specifies a custom value for the display unit. | 
-|[SetCustomUnit](./setcustomunit/) | Specifies a custom value for the display unit. | 
+|[GetCustomDisplayUnit](./getcustomdisplayunit/) | Specifies a custom value for the display unit. | 
+|[SetCustomDisplayUnit](./setcustomdisplayunit/) | Specifies a custom value for the display unit. | 
 |[GetDisplayUnitLabel](./getdisplayunitlabel/) | Represents a unit label on an axis in the specified chart.Unit labels are useful for charting large values— for example, in the millions or billions. | 
 |[IsDisplayUnitLabelShown](./isdisplayunitlabelshown/) | Represents if the display unit label is shown on the specified axis. | 
 |[SetIsDisplayUnitLabelShown](./setisdisplayunitlabelshown/) | Represents if the display unit label is shown on the specified axis. | 

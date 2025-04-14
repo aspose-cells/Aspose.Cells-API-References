@@ -32,6 +32,8 @@ type Row struct  {
 |[GetCellByIndex](./getcellbyindex/) | Get the cell by specific index in the cells collection of this row. | 
 |[IsBlank](./isblank/) | Indicates whether the row contains any data | 
 |[Get](./get/) | Gets the cell. | 
+|[GetEnumerator](./getenumerator/) | Gets the cells enumerator | 
+|[GetEnumerator_Bool_Bool](./getenumerator_bool_bool/) | Gets an enumerator that iterates cells through this row. | 
 |[GetCellOrNull](./getcellornull/) | Gets the cell or null in the specific index. | 
 |[IsCollapsed](./iscollapsed/) | whether the row is collapsed | 
 |[SetIsCollapsed](./setiscollapsed/) | whether the row is collapsed | 

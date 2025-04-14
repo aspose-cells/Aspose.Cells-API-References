@@ -43,6 +43,7 @@ public class Workbook : IDisposable
 | [DefaultStyle](../../aspose.cells/workbook/defaultstyle/) { get; set; } | Gets or sets the default [`Style`](../style/) object of the workbook. |
 | [FileFormat](../../aspose.cells/workbook/fileformat/) { get; set; } | Gets and sets the file format. |
 | [FileName](../../aspose.cells/workbook/filename/) { get; set; } | Gets and sets the current file name. |
+| [HasCustomFunction](../../aspose.cells/workbook/hascustomfunction/) { get; } | Detects whether there is custom function used in this workbook, such as in cell's formula, in defined names... |
 | [HasMacro](../../aspose.cells/workbook/hasmacro/) { get; } | Indicates if this spreadsheet contains macro/VBA. |
 | [HasRevisions](../../aspose.cells/workbook/hasrevisions/) { get; } | Gets if the workbook has any tracked changes |
 | [InterruptMonitor](../../aspose.cells/workbook/interruptmonitor/) { get; set; } | Gets and sets the interrupt monitor. |

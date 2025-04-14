@@ -14,7 +14,7 @@ Gets the end date time of the group.
 
 ```go
 
-func (instance *PivotDateTimeRangeGroupSettings) GetEnd()  (*Date,  error) 
+func (instance *PivotDateTimeRangeGroupSettings) GetEnd()  (time.Time,  error) 
 
 ```
 

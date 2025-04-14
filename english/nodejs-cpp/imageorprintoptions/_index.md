@@ -35,7 +35,7 @@ book.getWorksheets().get(0).getCharts().get(0).toImage("output/chart.png", optio
 
 | Name | Description |
 | --- | --- |
-| [constructor()](#constructor--)| Default Constructor. |
+| [constructor()](#constructor--)| Ctor. |
 
 ## Methods
 
@@ -57,8 +57,6 @@ book.getWorksheets().get(0).getCharts().get(0).toImage("output/chart.png", optio
 | [setPrintingPage(PrintingPageType)](#setPrintingPage-printingpagetype-)| Indicates which pages will not be printed. |
 | [getQuality()](#getQuality--)| Gets or sets a value determining the quality of the generated  images to apply only when saving pages to the <c>Jpeg</c> format. The default value is 100 |
 | [setQuality(number)](#setQuality-number-)| Gets or sets a value determining the quality of the generated  images to apply only when saving pages to the <c>Jpeg</c> format. The default value is 100 |
-| [getImageType()](#getImageType--)| Gets or sets the format of the generated images. default value: PNG. |
-| [setImageType(ImageType)](#setImageType-imagetype-)| Gets or sets the format of the generated images. default value: PNG. |
 | [getOnePagePerSheet()](#getOnePagePerSheet--)| If OnePagePerSheet is true , all content of one sheet will output to only one page in result. The paper size of pagesetup will be invalid, and the other settings of pagesetup will still take effect. |
 | [setOnePagePerSheet(boolean)](#setOnePagePerSheet-boolean-)| If OnePagePerSheet is true , all content of one sheet will output to only one page in result. The paper size of pagesetup will be invalid, and the other settings of pagesetup will still take effect. |
 | [getAllColumnsInOnePagePerSheet()](#getAllColumnsInOnePagePerSheet--)| If AllColumnsInOnePagePerSheet is true , all column content of one sheet will output to only one page in result. The width of paper size of pagesetup will be invalid, and the other settings of pagesetup will still take effect. |
@@ -101,15 +99,17 @@ book.getWorksheets().get(0).getCharts().get(0).toImage("output/chart.png", optio
 | [setDefaultEditLanguage(DefaultEditLanguage)](#setDefaultEditLanguage-defaulteditlanguage-)| Gets or sets default edit language. |
 | [getSheetSet()](#getSheetSet--)| Gets or sets the sheets to render. Default is all visible sheets in the workbook: [Aspose.Cells.Rendering.SheetSet.Visible](../aspose.cells.rendering.sheetset.visible/). |
 | [setSheetSet(SheetSet)](#setSheetSet-sheetset-)| Gets or sets the sheets to render. Default is all visible sheets in the workbook: [Aspose.Cells.Rendering.SheetSet.Visible](../aspose.cells.rendering.sheetset.visible/). |
-| [getEmfRenderSetting()](#getEmfRenderSetting--)| Setting for rendering Emf metafile. |
-| [setEmfRenderSetting(EmfRenderSetting)](#setEmfRenderSetting-emfrendersetting-)| Setting for rendering Emf metafile. |
+| [getEmfRenderSetting()](#getEmfRenderSetting--)| Setting for rendering Emf metafiles in source file. |
+| [setEmfRenderSetting(EmfRenderSetting)](#setEmfRenderSetting-emfrendersetting-)| Setting for rendering Emf metafiles in source file. |
 | [setDesiredSize(number, number, boolean)](#setDesiredSize-number-number-boolean-)| Sets desired width and height of image. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
+| [getImageType()](#getImageType--)| Gets or sets the format of the generated images. default value: PNG. |
+| [setImageType(ImageType)](#setImageType-imagetype-)| Gets or sets the format of the generated images. default value: PNG. |
 
 
 ### constructor() {#constructor--}
 
-Default Constructor.
+Ctor.
 
 ```javascript
 constructor();
@@ -355,32 +355,6 @@ setQuality(value: number) : void;
 **Remarks**
 
 Has effect only when saving to JPEG. The value must be between 0 and 100. The default value is 100.
-
-### getImageType() {#getImageType--}
-
-Gets or sets the format of the generated images. default value: PNG.
-
-```javascript
-getImageType() : ImageType;
-```
-
-
-**Returns**
-
-[ImageType](../imagetype/)
-
-### setImageType(ImageType) {#setImageType-imagetype-}
-
-Gets or sets the format of the generated images. default value: PNG.
-
-```javascript
-setImageType(value: ImageType) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [ImageType](../imagetype/) | The value to set. |
 
 ### getOnePagePerSheet() {#getOnePagePerSheet--}
 
@@ -954,7 +928,7 @@ The set is ignored when it is used in [SheetRender](../sheetrender/)
 
 ### getEmfRenderSetting() {#getEmfRenderSetting--}
 
-Setting for rendering Emf metafile.
+Setting for rendering Emf metafiles in source file.
 
 ```javascript
 getEmfRenderSetting() : EmfRenderSetting;
@@ -971,7 +945,7 @@ EMF metafiles identified as "EMF+ Dual" can contain both EMF+ records and EMF re
 
 ### setEmfRenderSetting(EmfRenderSetting) {#setEmfRenderSetting-emfrendersetting-}
 
-Setting for rendering Emf metafile.
+Setting for rendering Emf metafiles in source file.
 
 ```javascript
 setEmfRenderSetting(value: EmfRenderSetting) : void;
@@ -1013,5 +987,31 @@ Checks whether the implementation object is null.
 isNull() : boolean;
 ```
 
+
+### getImageType() {#getImageType--}
+
+Gets or sets the format of the generated images. default value: PNG.
+
+```javascript
+getImageType() : ImageType;
+```
+
+
+**Returns**
+
+[ImageType](../imagetype/)
+
+### setImageType(ImageType) {#setImageType-imagetype-}
+
+Gets or sets the format of the generated images. default value: PNG.
+
+```javascript
+setImageType(value: ImageType) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [ImageType](../imagetype/) | The value to set. |
 
 

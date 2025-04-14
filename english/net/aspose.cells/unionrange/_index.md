@@ -10,7 +10,7 @@ url: /net/aspose.cells/unionrange/
 Represents union range.
 
 ```csharp
-public class UnionRange
+public class UnionRange : IEnumerable
 ```
 
 ## Properties

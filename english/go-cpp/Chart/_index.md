@@ -109,8 +109,7 @@ type Chart struct  {
 |[SetDepthPercent](./setdepthpercent/) | Represents the depth of a 3-D chart as a percentage of the chart width (between 20 and 2000 percent). | 
 |[ToImage_String](./toimage_string/) | Creates the chart image and saves it to a file.The extension of the file name determines the format of the image. | 
 |[ToImage_String_ImageType](./toimage_string_imagetype/) | Creates the chart image and saves it to a file in the specified image type. | 
-|[ToImage_String_Int](./toimage_string_int/) | Creates the chart image and saves it to a file in the Jpeg format. | 
-|[ToImage_Int](./toimage_int/) | Creates the chart image and saves it to a stream in the Jpeg format. | 
+|[ToImage_Int64](./toimage_int64/) | Creates the chart image and saves it to a stream in the Jpeg format. | 
 |[ToImage_ImageType](./toimage_imagetype/) | Creates the chart image and saves it to a stream in the specified format. | 
 |[ToPdf_String](./topdf_string/) | Saves the chart to a pdf file. | 
 |[ToPdf_String_Float_Float_PageLayoutAlignmentType_PageLayoutAlignmentType](./topdf_string_float_float_pagelayoutalignmenttype_pagelayoutalignmenttype/) | Saves the chart to a pdf file. | 

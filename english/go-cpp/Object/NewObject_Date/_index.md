@@ -14,7 +14,7 @@ Constructs from a Date value.
 
 ```go
 
-func NewObject_Date(value *Date) ( *Object, error)
+func NewObject_Date(value time.Time) ( *Object, error)
 
 ```
 

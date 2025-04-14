@@ -68,13 +68,9 @@ getType() : VbaModuleType;
 Gets and sets the binary codes of module.
 
 ```javascript
-getBinaryCodes() : number[];
+getBinaryCodes() : Uint8Array;
 ```
 
-
-**Returns**
-
-number[]
 
 ### getCodes() {#getCodes--}
 

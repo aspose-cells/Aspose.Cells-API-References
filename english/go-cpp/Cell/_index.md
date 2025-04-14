@@ -57,8 +57,9 @@ type Cell struct  {
 |[GetBoolValue](./getboolvalue/) | Gets the boolean value contained in the cell. | 
 |[GetWidthOfValue](./getwidthofvalue/) | Gets the width of the value in unit of pixels. | 
 |[GetHeightOfValue](./getheightofvalue/) | Gets the height of the value in unit of pixels. | 
-|[GetDisplayStyle](./getdisplaystyle/) | Gets the display style of the cell.If this cell is also affected by other settings such as conditional formatting, list objects, etc.,then the display style may be different from cell.GetStyle(). | 
-|[GetDisplayStyle_Bool](./getdisplaystyle_bool/) | Gets the display style of the cell.If the cell is conditional formatted, the display style is not same as the cell.GetStyle(). | 
+|[GetDisplayStyle](./getdisplaystyle/) | Gets the display style of this cell. | 
+|[GetDisplayStyle_Bool](./getdisplaystyle_bool/) | Gets the display style of this cell. | 
+|[GetDisplayStyle_BorderType](./getdisplaystyle_bordertype/) | Gets the display style of this cell. | 
 |[GetFormatConditions](./getformatconditions/) | Gets format conditions which applies to this cell. | 
 |[GetStyle](./getstyle/) | Gets the cell style. | 
 |[GetStyle_Bool](./getstyle_bool/) | If checkBorders is true, check whether other cells' borders will effect the style of this cell. | 
@@ -79,11 +80,15 @@ type Cell struct  {
 |[SetFormula_String_FormulaParseOptions_Object](./setformula_string_formulaparseoptions_object/) | Set the formula and the value(calculated result) of the formula. | 
 |[SetArrayFormula_String_Int_Int](./setarrayformula_string_int_int/) | Sets an array formula(legacy array formula entered via CTRL+SHIFT+ENTER in ms excel) to a range of cells. | 
 |[SetArrayFormula_String_Int_Int_FormulaParseOptions](./setarrayformula_string_int_int_formulaparseoptions/) | Sets an array formula to a range of cells. | 
+|[SetArrayFormula_String_Int_Int_FormulaParseOptions_Object2Array](./setarrayformula_string_int_int_formulaparseoptions_object2array/) | Sets an array formula to a range of cells. | 
 |[SetSharedFormula_String_Int_Int](./setsharedformula_string_int_int/) | Sets shared formulas to a range of cells. | 
 |[SetSharedFormula_String_Int_Int_FormulaParseOptions](./setsharedformula_string_int_int_formulaparseoptions/) | Sets shared formulas to a range of cells. | 
+|[SetSharedFormula_String_Int_Int_FormulaParseOptions_Object2Array](./setsharedformula_string_int_int_formulaparseoptions_object2array/) | Sets shared formulas to a range of cells. | 
 |[GetContainsExternalLink](./getcontainsexternallink/) | Indicates whether this cell contains an external link.Only applies when the cell is a formula cell. | 
 |[GetPrecedents](./getprecedents/) | Gets all references appearing in this cell's formula. | 
 |[GetDependents](./getdependents/) | Get all cells whose formula references to this cell directly. | 
+|[GetPrecedentsInCalculation](./getprecedentsincalculation/) | Gets all precedents(reference to cells in current workbook) used by this cell's formula while calculating it. | 
+|[GetDependentsInCalculation](./getdependentsincalculation/) | Gets all cells whose calculated result depends on this cell. | 
 |[IsArrayHeader](./isarrayheader/) | Indicates the cell's formula is an array formulaand it is the first cell of the array. | 
 |[IsDynamicArrayFormula](./isdynamicarrayformula/) | Indicates whether the cell's formula is dynamic array formula(true) or legacy array formula(false). | 
 |[GetArrayRange](./getarrayrange/) | Gets the array range if the cell's formula is an array formula. | 
@@ -91,6 +96,12 @@ type Cell struct  {
 |[IsSharedFormula](./issharedformula/) | Indicates whether the cell formula is part of shared formula. | 
 |[IsTableFormula](./istableformula/) | Indicates whether this cell is part of table formula. | 
 |[SetDynamicArrayFormula_String_FormulaParseOptions_Bool](./setdynamicarrayformula_string_formulaparseoptions_bool/) | Sets dynamic array formula and make the formula spill into neighboring cells if possible. | 
+|[SetDynamicArrayFormula_String_FormulaParseOptions_Object2Array_Bool_Bool](./setdynamicarrayformula_string_formulaparseoptions_object2array_bool_bool/) | Sets dynamic array formula and make the formula spill into neighboring cells if possible. | 
+|[SetDynamicArrayFormula_String_FormulaParseOptions_Object2Array_Bool_Bool_CalculationOptions](./setdynamicarrayformula_string_formulaparseoptions_object2array_bool_bool_calculationoptions/) | Sets dynamic array formula and make the formula spill into neighboring cells if possible. | 
+|[SetTableFormula_Int_Int_String_String_Object2Array](./settableformula_int_int_string_string_object2array/) | Create two-variable data table for given range starting from this cell. | 
+|[SetTableFormula_Int_Int_String_Bool_Object2Array](./settableformula_int_int_string_bool_object2array/) | Create one-variable data table for given range starting from this cell. | 
+|[SetTableFormula_Int_Int_Int_Int_Int_Int_Object2Array](./settableformula_int_int_int_int_int_int_object2array/) | Create two-variable data table for given range starting from this cell. | 
+|[SetTableFormula_Int_Int_Int_Int_Bool_Object2Array](./settableformula_int_int_int_int_bool_object2array/) | Create one-variable data table for given range starting from this cell. | 
 |[RemoveArrayFormula](./removearrayformula/) | Remove array formula. | 
 |[Copy](./copy/) | Copies data from a source cell. | 
 |[GetValue](./getvalue/) | Gets/sets the value contained in this cell. | 
@@ -102,6 +113,7 @@ type Cell struct  {
 |[IsRichText](./isrichtext/) | Indicates whether the string value of this cell is a rich formatted text. | 
 |[GetCharacters](./getcharacters/) | Returns all Characters objectsthat represents a range of characters within the cell text. | 
 |[GetCharacters_Bool](./getcharacters_bool/) | Returns all Characters objectsthat represents a range of characters within the cell text. | 
+|[SetCharacters](./setcharacters/) | Sets rich text format of the cell. | 
 |[IsMerged](./ismerged/) | Checks if a cell is part of a merged range or not. | 
 |[GetMergedRange](./getmergedrange/) | Returns a Range object which represents a merged range. | 
 |[GetComment](./getcomment/) | Gets the comment of this cell. | 

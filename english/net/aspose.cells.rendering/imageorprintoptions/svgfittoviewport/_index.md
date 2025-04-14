@@ -10,6 +10,8 @@ url: /net/aspose.cells.rendering/imageorprintoptions/svgfittoviewport/
 if this property is true, the generated svg will fit to view port.
 
 ```csharp
+[Obsolete("Use SvgImageOptions.FitToViewPort property instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public bool SVGFitToViewPort { get; set; }
 ```
 

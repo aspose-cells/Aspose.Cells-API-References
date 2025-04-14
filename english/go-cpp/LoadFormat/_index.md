@@ -44,3 +44,5 @@ type LoadFormat int32
 |[Unknown](./unknown/) | Represents unrecognized format, cannot be loaded. | 
 |[Image](./image/) | Image | 
 |[Json](./json/) | Json | 
+|[Dif](./dif/) | Data Interchange Format. | 
+|[Dbf](./dbf/) | Xbase Data file | 

@@ -34,8 +34,10 @@ type Range struct  {
 |[GetCurrentRegion](./getcurrentregion/) | Returns a Range object that represents the current region.The current region is a range bounded by any combination of blank rows and blank columns. | 
 |[GetHyperlinks](./gethyperlinks/) | Gets all hyperlink in the range. | 
 |[AddHyperlink](./addhyperlink/) | Adds a hyperlink to a specified cell or a range of cells. | 
+|[GetEnumerator](./getenumerator/) | Gets the enumerator for cells in this Range. | 
 |[IsIntersect](./isintersect/) | Indicates whether the range is intersect. | 
 |[Intersect](./intersect/) | Returns a Range object that represents the rectangular intersection of two ranges. | 
+|[UnionRanges](./unionranges/) | Returns the union result of two ranges. | 
 |[GetRowCount](./getrowcount/) | Gets the count of rows in the range. | 
 |[GetColumnCount](./getcolumncount/) | Gets the count of columns in the range. | 
 |[GetName](./getname/) | Gets or sets the name of the range. | 
@@ -59,6 +61,7 @@ type Range struct  {
 |[SetStyle_Style](./setstyle_style/) | Sets the style of the range. | 
 |[SetOutlineBorders_CellBorderType_CellsColor](./setoutlineborders_cellbordertype_cellscolor/) | Sets the outline borders around a range of cells with same border style and color. | 
 |[SetOutlineBorders_CellBorderType_Color](./setoutlineborders_cellbordertype_color/) | Sets the outline borders around a range of cells with same border style and color. | 
+|[SetOutlineBorders_CellBorderTypeArray_ColorArray](./setoutlineborders_cellbordertypearray_colorarray/) | Sets out line borders around a range of cells. | 
 |[SetOutlineBorder_BorderType_CellBorderType_CellsColor](./setoutlineborder_bordertype_cellbordertype_cellscolor/) | Sets outline border around a range of cells. | 
 |[SetOutlineBorder_BorderType_CellBorderType_Color](./setoutlineborder_bordertype_cellbordertype_color/) | Sets outline border around a range of cells. | 
 |[SetInsideBorders](./setinsideborders/) | Set inside borders of the range. | 

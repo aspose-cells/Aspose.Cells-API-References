@@ -90,6 +90,7 @@ Represents the options for saving ebook file.
 | [getRefreshChartCache()](#getRefreshChartCache--) | Indicates whether refreshing chart cache data |
 | [getSaveAsSingleFile()](#getSaveAsSingleFile--) | Indicates whether save the html as single file. |
 | [getSaveFormat()](#getSaveFormat--) | Gets the save file format. |
+| [getSheetSet()](#getSheetSet--) | Gets the sheets to render. |
 | [getShowAllSheets()](#getShowAllSheets--) | Indicates whether showing all sheets when saving as a single html file. |
 | [getSortExternalNames()](#getSortExternalNames--) | Indicates whether sorting external defined names before saving file. |
 | [getSortNames()](#getSortNames--) | Indicates whether sorting defined names before saving file. |
@@ -180,6 +181,7 @@ Represents the options for saving ebook file.
 | [setPresentationPreference(boolean value)](#setPresentationPreference-boolean-) | Indicating if html or mht file is presentation preference. |
 | [setRefreshChartCache(boolean value)](#setRefreshChartCache-boolean-) | Indicates whether refreshing chart cache data |
 | [setSaveAsSingleFile(boolean value)](#setSaveAsSingleFile-boolean-) | Indicates whether save the html as single file. |
+| [setSheetSet(SheetSet value)](#setSheetSet-com.aspose.cells.SheetSet-) | Sets the sheets to render. |
 | [setShowAllSheets(boolean value)](#setShowAllSheets-boolean-) | Indicates whether showing all sheets when saving as a single html file. |
 | [setSortExternalNames(boolean value)](#setSortExternalNames-boolean-) | Indicates whether sorting external defined names before saving file. |
 | [setSortNames(boolean value)](#setSortNames-boolean-) | Indicates whether sorting defined names before saving file. |
@@ -958,6 +960,16 @@ See [SaveFormat](../../com.aspose.cells/saveformat).
 
 **Returns:**
 int
+### getSheetSet() {#getSheetSet--}
+```
+public SheetSet getSheetSet()
+```
+
+
+Gets the sheets to render. Default is all visible sheets in the workbook: [SheetSet.getVisible()](../../com.aspose.cells/sheetset\#getVisible--).
+
+**Returns:**
+[SheetSet](../../com.aspose.cells/sheetset)
 ### getShowAllSheets() {#getShowAllSheets--}
 ```
 public boolean getShowAllSheets()
@@ -2141,6 +2153,19 @@ If there are multiple worksheets or other required resources such as pictures in
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
+
+### setSheetSet(SheetSet value) {#setSheetSet-com.aspose.cells.SheetSet-}
+```
+public void setSheetSet(SheetSet value)
+```
+
+
+Sets the sheets to render. Default is all visible sheets in the workbook: [SheetSet.getVisible()](../../com.aspose.cells/sheetset\#getVisible--).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [SheetSet](../../com.aspose.cells/sheetset) |  |
 
 ### setShowAllSheets(boolean value) {#setShowAllSheets-boolean-}
 ```

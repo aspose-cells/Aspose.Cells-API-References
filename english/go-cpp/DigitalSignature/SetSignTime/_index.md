@@ -14,7 +14,7 @@ The time when the document was signed.
 
 ```go
 
-func (instance *DigitalSignature) SetSignTime(value *Date)  error
+func (instance *DigitalSignature) SetSignTime(value time.Time)  error
 
 ```
 

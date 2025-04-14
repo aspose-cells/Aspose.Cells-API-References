@@ -22,9 +22,11 @@ is_root: true
 | [Aspose.Cells.ExternalConnections](./aspose.cells.externalconnections/) | The **Aspose.Cells.ExternalConnections** namespace provides classes for external connections to retrieve data from external sources such as Databases and the Web. |
 | [Aspose.Cells.Json](./aspose.cells.json/) | The **Aspose.Cells.Json** namespace contains all classes of JSON. |
 | [Aspose.Cells.Loading](./aspose.cells.loading/) | The **Aspose.Cells.Loading** namespace provides options classes of loading files. |
+| [Aspose.Cells.LowCode](./aspose.cells.lowcode/) | The **Aspose.Cells.LowCode** namespace provides a set of simple and easy-to-use apis for the most frequently used operations in a low code way. |
 | [Aspose.Cells.Markdown](./aspose.cells.markdown/) | The **Aspose.Cells.Markdown** namespace contains classes that define settings for converting Excel to Markdown. |
 | [Aspose.Cells.Markup](./aspose.cells.markup/) | The **Aspose.Cells.Markup** namespace contains classes that represent customer defined semantics in a document: smart tags, custom XML and more markup tags. |
 | [Aspose.Cells.Metadata](./aspose.cells.metadata/) | The **Aspose.Cells.Metadata** namespace contains all classes of loading and saving metadata of Spreadsheets. |
+| [Aspose.Cells.Metas](./aspose.cells.metas/) | The **Aspose.Cells.Metas** namespace provides classes for all meta data. |
 | [Aspose.Cells.Numbers](./aspose.cells.numbers/) | The **Aspose.Cells.Numbers** namespace contains all classes of loading and converting Apple Numbers files. |
 | [Aspose.Cells.Ods](./aspose.cells.ods/) | The **Aspose.Cells.Ods** namespace contains all classes of loading and converting OpenDocument Spreadsheet files. |
 | [Aspose.Cells.Pivot](./aspose.cells.pivot/) | The **Aspose.Cells.Pivot** namespace contains all classes of rendering and manipulating PivotTable in Excel Spreadsheet files. |

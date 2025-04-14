@@ -64,11 +64,11 @@ workbook.save("output/ChartsAxis.xlsx");
 | [isAutomaticMinValue()](#isAutomaticMinValue--)| Indicates whether the min value is automatically assigned. |
 | [setIsAutomaticMinValue(boolean)](#setIsAutomaticMinValue-boolean-)| Indicates whether the min value is automatically assigned. |
 | [getMinValue()](#getMinValue--)| Represents the minimum value on the value axis. |
-| [setMinValue(object)](#setMinValue-object-)| Represents the minimum value on the value axis. |
+| [setMinValue(Object)](#setMinValue-object-)| Represents the minimum value on the value axis. |
 | [isAutomaticMaxValue()](#isAutomaticMaxValue--)| Indicates whether the max value is automatically assigned. |
 | [setIsAutomaticMaxValue(boolean)](#setIsAutomaticMaxValue-boolean-)| Indicates whether the max value is automatically assigned. |
 | [getMaxValue()](#getMaxValue--)| Represents the maximum value on the value axis. |
-| [setMaxValue(object)](#setMaxValue-object-)| Represents the maximum value on the value axis. |
+| [setMaxValue(Object)](#setMaxValue-object-)| Represents the maximum value on the value axis. |
 | [isAutomaticMajorUnit()](#isAutomaticMajorUnit--)| Indicates whether the major unit of the axis is automatically assigned. |
 | [setIsAutomaticMajorUnit(boolean)](#setIsAutomaticMajorUnit-boolean-)| Indicates whether the major unit of the axis is automatically assigned. |
 | [getMajorUnit()](#getMajorUnit--)| Represents the major units for the axis. |
@@ -172,7 +172,7 @@ setIsAutomaticMinValue(value: boolean) : void;
 Represents the minimum value on the value axis.
 
 ```javascript
-getMinValue() : object;
+getMinValue() : Object;
 ```
 
 
@@ -180,18 +180,18 @@ getMinValue() : object;
 
 The minValue type only can be double or DateTime
 
-### setMinValue(object) {#setMinValue-object-}
+### setMinValue(Object) {#setMinValue-object-}
 
 Represents the minimum value on the value axis.
 
 ```javascript
-setMinValue(value: object) : void;
+setMinValue(value: Object) : void;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | object | The value to set. |
+| value | Object | The value to set. |
 
 **Remarks**
 
@@ -224,7 +224,7 @@ setIsAutomaticMaxValue(value: boolean) : void;
 Represents the maximum value on the value axis.
 
 ```javascript
-getMaxValue() : object;
+getMaxValue() : Object;
 ```
 
 
@@ -232,18 +232,18 @@ getMaxValue() : object;
 
 The maxValue type only can be double or DateTime
 
-### setMaxValue(object) {#setMaxValue-object-}
+### setMaxValue(Object) {#setMaxValue-object-}
 
 Represents the maximum value on the value axis.
 
 ```javascript
-setMaxValue(value: object) : void;
+setMaxValue(value: Object) : void;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | object | The value to set. |
+| value | Object | The value to set. |
 
 **Remarks**
 

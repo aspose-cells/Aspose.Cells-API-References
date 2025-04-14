@@ -114,6 +114,7 @@ Encapsulates the object that represents a single Workbook cell.
 | [getValue()](#getValue--) | Gets the value contained in this cell. |
 | [getWidthOfValue()](#getWidthOfValue--) | Gets the width of the value in unit of pixels. |
 | [getWorksheet()](#getWorksheet--) | Gets the parent worksheet. |
+| [hasCustomFunction()](#hasCustomFunction--) | Checks whether there is custom function(unsupported function) in this cell's formula. |
 | [hasCustomStyle()](#hasCustomStyle--) | Indicates whether this cell has custom style settings(different from the default one inherited from corresponding row, column, or workbook). |
 | [hashCode()](#hashCode--) | Serves as a hash function for a particular type. |
 | [insertText(int index, String text)](#insertText-int-java.lang.String-) | Insert some characters to the cell. |
@@ -1014,6 +1015,16 @@ Gets the parent worksheet.
 
 **Returns:**
 [Worksheet](../../com.aspose.cells/worksheet)
+### hasCustomFunction() {#hasCustomFunction--}
+```
+public boolean hasCustomFunction()
+```
+
+
+Checks whether there is custom function(unsupported function) in this cell's formula.
+
+**Returns:**
+boolean
 ### hasCustomStyle() {#hasCustomStyle--}
 ```
 public boolean hasCustomStyle()

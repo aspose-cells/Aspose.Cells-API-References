@@ -32,6 +32,7 @@ type FontSettingCollection struct  {
 |[SetWordArtStyle](./setwordartstyle/) | Sets the preset WordArt style. | 
 |[GetTextAlignment](./gettextalignment/) | Represents the alignment setting of the text body. | 
 |[GetTextParagraphs](./gettextparagraphs/) | Gets all paragraphs. | 
+|[GetParagraphEnumerator](./getparagraphenumerator/) | Gets the enumerator of the paragraphs. | 
 |[GetText](./gettext/) | Gets and sets the text of the shape. | 
 |[SetText](./settext/) | Gets and sets the text of the shape. | 
 |[AppendText](./appendtext/) | Appends the text. | 

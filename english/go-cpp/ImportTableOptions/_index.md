@@ -55,6 +55,7 @@ type ImportTableOptions struct  {
 |[GetColumnIndexes](./getcolumnindexes/) | Gets or sets the columns(0-based) to import from data source. null means all columns should be imported. | 
 |[SetColumnIndexes](./setcolumnindexes/) | Gets or sets the columns(0-based) to import from data source. null means all columns should be imported. | 
 |[GetDefaultValues](./getdefaultvalues/) | Default value for the value in the table is null. | 
+|[SetDefaultValues](./setdefaultvalues/) | Default value for the value in the table is null. | 
 |[IsHtmlString](./ishtmlstring/) | Indicates whether the value contains html tags. | 
 |[SetIsHtmlString](./setishtmlstring/) | Indicates whether the value contains html tags. | 
 |[GetCheckMergedCells](./getcheckmergedcells/) | Indicates whether checking merged cells. | 

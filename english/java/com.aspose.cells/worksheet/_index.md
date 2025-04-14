@@ -88,6 +88,7 @@ The following example shows how to freeze panes and insert hyperlink to workshee
 | [getFirstVisibleColumn()](#getFirstVisibleColumn--) | Represents first visible column index. |
 | [getFirstVisibleRow()](#getFirstVisibleRow--) | Represents first visible row index. |
 | [getFreezedPanes()](#getFreezedPanes--) | Gets the freeze panes. |
+| [getGridlineColor()](#getGridlineColor--) | Gets the color of gridline |
 | [getHorizontalPageBreaks()](#getHorizontalPageBreaks--) | Gets the [HorizontalPageBreakCollection](../../com.aspose.cells/horizontalpagebreakcollection) collection. |
 | [getHyperlinks()](#getHyperlinks--) | Gets the [HyperlinkCollection](../../com.aspose.cells/hyperlinkcollection) collection. |
 | [getIndex()](#getIndex--) | Gets the index of sheet in the worksheet collection. |
@@ -104,6 +105,7 @@ The following example shows how to freeze panes and insert hyperlink to workshee
 | [getProtection()](#getProtection--) | Represents the various types of protection options available for a worksheet. |
 | [getQueryTables()](#getQueryTables--) | Gets [QueryTableCollection](../../com.aspose.cells/querytablecollection) in the worksheet. |
 | [getScenarios()](#getScenarios--) | Gets the collection of [Scenario](../../com.aspose.cells/scenario). |
+| [getSelectedAreas()](#getSelectedAreas--) | Gets selected ranges of cells in the designer spreadsheet. |
 | [getSelectedRanges()](#getSelectedRanges--) | Gets selected ranges of cells in the designer spreadsheet. |
 | [getShapes()](#getShapes--) | Returns all drawing shapes in this worksheet. |
 | [getShowFormulas()](#getShowFormulas--) | Indicates whether to show formulas or their results. |
@@ -153,6 +155,7 @@ The following example shows how to freeze panes and insert hyperlink to workshee
 | [setDisplayZeros(boolean value)](#setDisplayZeros-boolean-) | True if zero values are displayed. |
 | [setFirstVisibleColumn(int value)](#setFirstVisibleColumn-int-) | Represents first visible column index. |
 | [setFirstVisibleRow(int value)](#setFirstVisibleRow-int-) | Represents first visible row index. |
+| [setGridlineColor(Color value)](#setGridlineColor-com.aspose.cells.Color-) | Sets the color of gridline |
 | [setGridlinesVisible(boolean value)](#setGridlinesVisible-boolean-) | Sets a value indicating whether the gridlines are visible.Default is true. |
 | [setName(String value)](#setName-java.lang.String-) | Sets the name of the worksheet. |
 | [setOutlineShown(boolean value)](#setOutlineShown-boolean-) | Indicates whether to show outline. |
@@ -957,6 +960,16 @@ Gets the freeze panes.
 
 **Returns:**
 int[] - Return null means the worksheet is not frozen 0:Row index;1:column;2:freezedRows;3:freezedRows
+### getGridlineColor() {#getGridlineColor--}
+```
+public Color getGridlineColor()
+```
+
+
+Gets the color of gridline
+
+**Returns:**
+[Color](../../com.aspose.cells/color)
 ### getHorizontalPageBreaks() {#getHorizontalPageBreaks--}
 ```
 public HorizontalPageBreakCollection getHorizontalPageBreaks()
@@ -1140,6 +1153,16 @@ Gets the collection of [Scenario](../../com.aspose.cells/scenario).
 
 **Returns:**
 [ScenarioCollection](../../com.aspose.cells/scenariocollection)
+### getSelectedAreas() {#getSelectedAreas--}
+```
+public Range[] getSelectedAreas()
+```
+
+
+Gets selected ranges of cells in the designer spreadsheet.
+
+**Returns:**
+com.aspose.cells.Range[] - Returns all selected ranges.
 ### getSelectedRanges() {#getSelectedRanges--}
 ```
 public ArrayList getSelectedRanges()
@@ -1147,6 +1170,10 @@ public ArrayList getSelectedRanges()
 
 
 Gets selected ranges of cells in the designer spreadsheet.
+
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use Worksheet.GetSelectedAreas() method. This property will be removed 12 months later since March 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 java.util.ArrayList - An ArrayList which contains selected ranges.
@@ -1703,6 +1730,19 @@ Represents first visible row index.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
+
+### setGridlineColor(Color value) {#setGridlineColor-com.aspose.cells.Color-}
+```
+public void setGridlineColor(Color value)
+```
+
+
+Sets the color of gridline
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [Color](../../com.aspose.cells/color) |  |
 
 ### setGridlinesVisible(boolean value) {#setGridlinesVisible-boolean-}
 ```

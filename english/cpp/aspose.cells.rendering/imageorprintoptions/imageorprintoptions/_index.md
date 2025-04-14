@@ -2,7 +2,7 @@
 title: Aspose::Cells::Rendering::ImageOrPrintOptions::ImageOrPrintOptions constructor
 linktitle: ImageOrPrintOptions
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Rendering::ImageOrPrintOptions::ImageOrPrintOptions constructor. Default constructor in C++.'
+description: 'Aspose::Cells::Rendering::ImageOrPrintOptions::ImageOrPrintOptions constructor. Ctor in C++.'
 type: docs
 weight: 100
 url: /cpp/aspose.cells.rendering/imageorprintoptions/imageorprintoptions/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.rendering/imageorprintoptions/imageorprintoptions/
 ## ImageOrPrintOptions::ImageOrPrintOptions() constructor
 
 
-Default constructor.
+Ctor.
 
 ```cpp
 Aspose::Cells::Rendering::ImageOrPrintOptions::ImageOrPrintOptions()

@@ -4,7 +4,7 @@ linktitle: Aspose::Cells::Rendering
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use Aspose::Cells::Rendering namespace in C++.'
 type: docs
-weight: 1700
+weight: 2200
 url: /cpp/aspose.cells.rendering/
 ---
 
@@ -27,6 +27,7 @@ url: /cpp/aspose.cells.rendering/
 | [SheetPrintingPreview](./sheetprintingpreview/) | [Worksheet](../aspose.cells/worksheet/) printing preview. |
 | [SheetRender](./sheetrender/) | Represents a worksheet render which can render worksheet to various images such as (BMP, PNG, JPEG, TIFF..) The constructor of this class , must be used after modification of pagesetup, cell style. |
 | [SheetSet](./sheetset/) | Describes a set of sheets. |
+| [SvgImageOptions](./svgimageoptions/) | Options for generating Svg image. |
 | [WorkbookPrintingPreview](./workbookprintingpreview/) | [Workbook](../aspose.cells/workbook/) printing preview. |
 | [WorkbookRender](./workbookrender/) | Represents a [Workbook](../aspose.cells/workbook/) render. The constructor of this class , must be used after modification of pagesetup, cell style. |
 ## Enums
@@ -42,4 +43,5 @@ url: /cpp/aspose.cells.rendering/
 | [PdfCustomPropertiesExport](./pdfcustompropertiesexport/) | Specifies the way CustomDocumentPropertyCollection are exported to PDF file. |
 | [PdfFontEncoding](./pdffontencoding/) | Represents pdf embedded font encoding. |
 | [PdfOptimizationType](./pdfoptimizationtype/) | Specifies a type of optimization. |
+| [SvgEmbeddedFontType](./svgembeddedfonttype/) | Represents the embedded font type in Svg image. |
 | [TiffCompression](./tiffcompression/) | Specifies what type of compression to apply when saving images into TIFF format file. |

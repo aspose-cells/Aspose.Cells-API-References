@@ -20,9 +20,9 @@ class CustomXmlPart;
 | Method | Description |
 | --- | --- |
 | [getData()](#getData--)| Gets or sets the XML content of this Custom XML Data Storage Part. |
-| [setData(number[])](#setData-numberarray-)| Gets or sets the XML content of this Custom XML Data Storage Part. |
+| [setData(Uint8Array)](#setData-uint8array-)| Gets or sets the XML content of this Custom XML Data Storage Part. |
 | [getSchemaData()](#getSchemaData--)| Gets or sets the XML content of this Custom XML Schema Data Storage Part. |
-| [setSchemaData(number[])](#setSchemaData-numberarray-)| Gets or sets the XML content of this Custom XML Schema Data Storage Part. |
+| [setSchemaData(Uint8Array)](#setSchemaData-uint8array-)| Gets or sets the XML content of this Custom XML Schema Data Storage Part. |
 | [getID()](#getID--)| Gets and sets the id of the custom xml part. |
 | [setID(string)](#setID-string-)| Gets and sets the id of the custom xml part. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
@@ -33,20 +33,16 @@ class CustomXmlPart;
 Gets or sets the XML content of this Custom XML Data Storage Part.
 
 ```javascript
-getData() : number[];
+getData() : Uint8Array;
 ```
 
 
-**Returns**
-
-number[]
-
-### setData(number[]) {#setData-numberarray-}
+### setData(Uint8Array) {#setData-uint8array-}
 
 Gets or sets the XML content of this Custom XML Data Storage Part.
 
 ```javascript
-setData(value: number[]) : void;
+setData(value: Uint8Array) : void;
 ```
 
 **Parameters:**
@@ -59,20 +55,16 @@ setData(value: number[]) : void;
 Gets or sets the XML content of this Custom XML Schema Data Storage Part.
 
 ```javascript
-getSchemaData() : number[];
+getSchemaData() : Uint8Array;
 ```
 
 
-**Returns**
-
-number[]
-
-### setSchemaData(number[]) {#setSchemaData-numberarray-}
+### setSchemaData(Uint8Array) {#setSchemaData-uint8array-}
 
 Gets or sets the XML content of this Custom XML Schema Data Storage Part.
 
 ```javascript
-setSchemaData(value: number[]) : void;
+setSchemaData(value: Uint8Array) : void;
 ```
 
 **Parameters:**

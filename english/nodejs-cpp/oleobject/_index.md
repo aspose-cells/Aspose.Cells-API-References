@@ -52,9 +52,9 @@ workbook.save("output/DrawingOleObject.xls");
 | [getDisplayAsIcon()](#getDisplayAsIcon--)| True if the specified object is displayed as an icon and the image will not be auto changed. |
 | [setDisplayAsIcon(boolean)](#setDisplayAsIcon-boolean-)| True if the specified object is displayed as an icon and the image will not be auto changed. |
 | [getImageData()](#getImageData--)| Represents image of ole object as byte array. |
-| [setImageData(number[])](#setImageData-numberarray-)| Represents image of ole object as byte array. |
+| [setImageData(Uint8Array)](#setImageData-uint8array-)| Represents image of ole object as byte array. |
 | [getObjectData()](#getObjectData--)| Represents embedded ole object data as byte array. |
-| [setObjectData(number[])](#setObjectData-numberarray-)| Represents embedded ole object data as byte array. |
+| [setObjectData(Uint8Array)](#setObjectData-uint8array-)| Represents embedded ole object data as byte array. |
 | [getFullObjectBin()](#getFullObjectBin--)| Gets the full embedded ole object binary data in the template file. |
 | [getImageSourceFullName()](#getImageSourceFullName--)| Gets or sets the path and name of the source file for the linked image. |
 | [setImageSourceFullName(string)](#setImageSourceFullName-string-)| Gets or sets the path and name of the source file for the linked image. |
@@ -71,10 +71,10 @@ workbook.save("output/DrawingOleObject.xls");
 | [getAutoLoad()](#getAutoLoad--)| Specifies whether the host application for the embedded object shall be called to load the object data automatically when the parent workbook is opened. |
 | [setAutoLoad(boolean)](#setAutoLoad-boolean-)| Specifies whether the host application for the embedded object shall be called to load the object data automatically when the parent workbook is opened. |
 | [getClassIdentifier()](#getClassIdentifier--)| Gets and sets the class identifier of the embedded object. It means which application opens the embedded file. |
-| [setClassIdentifier(number[])](#setClassIdentifier-numberarray-)| Gets and sets the class identifier of the embedded object. It means which application opens the embedded file. |
+| [setClassIdentifier(Uint8Array)](#setClassIdentifier-uint8array-)| Gets and sets the class identifier of the embedded object. It means which application opens the embedded file. |
 | [getImageType()](#getImageType--)| Gets the image format of the ole object. |
-| [setEmbeddedObject(boolean, number[], string, boolean, string)](#setEmbeddedObject-boolean-numberarray-string-boolean-string-)| Sets embedded object data. |
-| [setEmbeddedObject(boolean, number[], string, boolean, string, boolean)](#setEmbeddedObject-boolean-numberarray-string-boolean-string-boolean-)| Sets embedded object data. |
+| [setEmbeddedObject(boolean, Uint8Array, string, boolean, string)](#setEmbeddedObject-boolean-uint8array-string-boolean-string-)| Sets embedded object data. |
+| [setEmbeddedObject(boolean, Uint8Array, string, boolean, string, boolean)](#setEmbeddedObject-boolean-uint8array-string-boolean-string-boolean-)| Sets embedded object data. |
 | [setNativeSourceFullName(string)](#setNativeSourceFullName-string-)| Sets the ole native source full file name with path. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getMacroName()](#getMacroName--)| Gets and sets the name of macro. |
@@ -269,7 +269,7 @@ workbook.save("output/DrawingOleObject.xls");
 | [characters(number, number)](#characters-number-number-)| Returns a Characters object that represents a range of characters within the text. |
 | [getRichFormattings()](#getRichFormattings--)| Returns all Characters objects that represents a range of characters within the text . |
 | [removeActiveXControl()](#removeActiveXControl--)| Remove activeX control. |
-| [isSameSetting(object)](#isSameSetting-object-)| Returns whether the shape is same. |
+| [isSameSetting(Object)](#isSameSetting-object-)| Returns whether the shape is same. |
 | [getActualBox()](#getActualBox--)| Get the actual position and size of the shape (after applying rotation, flip, etc.) |
 | [fitToTextSize()](#fitToTextSize--)| Recalculate a text area suitable for displaying all text content. |
 
@@ -358,20 +358,16 @@ setDisplayAsIcon(value: boolean) : void;
 Represents image of ole object as byte array.
 
 ```javascript
-getImageData() : number[];
+getImageData() : Uint8Array;
 ```
 
 
-**Returns**
-
-number[]
-
-### setImageData(number[]) {#setImageData-numberarray-}
+### setImageData(Uint8Array) {#setImageData-uint8array-}
 
 Represents image of ole object as byte array.
 
 ```javascript
-setImageData(value: number[]) : void;
+setImageData(value: Uint8Array) : void;
 ```
 
 **Parameters:**
@@ -384,20 +380,16 @@ setImageData(value: number[]) : void;
 Represents embedded ole object data as byte array.
 
 ```javascript
-getObjectData() : number[];
+getObjectData() : Uint8Array;
 ```
 
 
-**Returns**
-
-number[]
-
-### setObjectData(number[]) {#setObjectData-numberarray-}
+### setObjectData(Uint8Array) {#setObjectData-uint8array-}
 
 Represents embedded ole object data as byte array.
 
 ```javascript
-setObjectData(value: number[]) : void;
+setObjectData(value: Uint8Array) : void;
 ```
 
 **Parameters:**
@@ -410,13 +402,9 @@ setObjectData(value: number[]) : void;
 Gets the full embedded ole object binary data in the template file.
 
 ```javascript
-getFullObjectBin() : number[];
+getFullObjectBin() : Uint8Array;
 ```
 
-
-**Returns**
-
-number[]
 
 ### getImageSourceFullName() {#getImageSourceFullName--}
 
@@ -597,20 +585,16 @@ setAutoLoad(value: boolean) : void;
 Gets and sets the class identifier of the embedded object. It means which application opens the embedded file.
 
 ```javascript
-getClassIdentifier() : number[];
+getClassIdentifier() : Uint8Array;
 ```
 
 
-**Returns**
-
-number[]
-
-### setClassIdentifier(number[]) {#setClassIdentifier-numberarray-}
+### setClassIdentifier(Uint8Array) {#setClassIdentifier-uint8array-}
 
 Gets and sets the class identifier of the embedded object. It means which application opens the embedded file.
 
 ```javascript
-setClassIdentifier(value: number[]) : void;
+setClassIdentifier(value: Uint8Array) : void;
 ```
 
 **Parameters:**
@@ -631,12 +615,12 @@ getImageType() : ImageType;
 
 [ImageType](../imagetype/)
 
-### setEmbeddedObject(boolean, number[], string, boolean, string) {#setEmbeddedObject-boolean-numberarray-string-boolean-string-}
+### setEmbeddedObject(boolean, Uint8Array, string, boolean, string) {#setEmbeddedObject-boolean-uint8array-string-boolean-string-}
 
 Sets embedded object data.
 
 ```javascript
-setEmbeddedObject(linkToFile: boolean, objectData: number[], sourceFileName: string, displayAsIcon: boolean, label: string) : void;
+setEmbeddedObject(linkToFile: boolean, objectData: Uint8Array, sourceFileName: string, displayAsIcon: boolean, label: string) : void;
 ```
 
 **Parameters:**
@@ -648,12 +632,12 @@ setEmbeddedObject(linkToFile: boolean, objectData: number[], sourceFileName: str
 | displayAsIcon | boolean | Indicates whether diplaying object as an icon.         /// If true, the orginal image data will be covered by icon. |
 | label | string | The icon label. Only works when displayAsIcon as true. |
 
-### setEmbeddedObject(boolean, number[], string, boolean, string, boolean) {#setEmbeddedObject-boolean-numberarray-string-boolean-string-boolean-}
+### setEmbeddedObject(boolean, Uint8Array, string, boolean, string, boolean) {#setEmbeddedObject-boolean-uint8array-string-boolean-string-boolean-}
 
 Sets embedded object data.
 
 ```javascript
-setEmbeddedObject(linkToFile: boolean, objectData: number[], sourceFileName: string, displayAsIcon: boolean, label: string, updateIcon: boolean) : void;
+setEmbeddedObject(linkToFile: boolean, objectData: Uint8Array, sourceFileName: string, displayAsIcon: boolean, label: string, updateIcon: boolean) : void;
 ```
 
 **Parameters:**
@@ -2630,13 +2614,9 @@ getTextBoxOptions() : TextBoxOptions;
 Gets the data of control.
 
 ```javascript
-getControlData() : number[];
+getControlData() : Uint8Array;
 ```
 
-
-**Returns**
-
-number[]
 
 ### getActiveXControl() {#getActiveXControl--}
 
@@ -3081,18 +3061,18 @@ removeActiveXControl() : void;
 ```
 
 
-### isSameSetting(object) {#isSameSetting-object-}
+### isSameSetting(Object) {#isSameSetting-object-}
 
 Returns whether the shape is same.
 
 ```javascript
-isSameSetting(obj: object) : boolean;
+isSameSetting(obj: Object) : boolean;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | object |  |
+| obj | Object |  |
 
 ### getActualBox() {#getActualBox--}
 

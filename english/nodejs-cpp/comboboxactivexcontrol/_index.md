@@ -71,7 +71,7 @@ class ComboBoxActiveXControl extends ActiveXControl;
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getWorkbook()](#getWorkbook--)| Gets the [Workbook](../workbook/) object. |
 | [getMouseIcon()](#getMouseIcon--)| Gets and sets a custom icon to display as the mouse pointer for the control. |
-| [setMouseIcon(number[])](#setMouseIcon-numberarray-)| Gets and sets a custom icon to display as the mouse pointer for the control. |
+| [setMouseIcon(Uint8Array)](#setMouseIcon-uint8array-)| Gets and sets a custom icon to display as the mouse pointer for the control. |
 | [getMousePointer()](#getMousePointer--)| Gets and sets the type of icon displayed as the mouse pointer for the control. |
 | [setMousePointer(ControlMousePointerType)](#setMousePointer-controlmousepointertype-)| Gets and sets the type of icon displayed as the mouse pointer for the control. |
 | [getLinkedCell()](#getLinkedCell--)| Gets and sets the linked cell. |
@@ -647,20 +647,16 @@ getWorkbook() : Workbook;
 Gets and sets a custom icon to display as the mouse pointer for the control.
 
 ```javascript
-getMouseIcon() : number[];
+getMouseIcon() : Uint8Array;
 ```
 
 
-**Returns**
-
-number[]
-
-### setMouseIcon(number[]) {#setMouseIcon-numberarray-}
+### setMouseIcon(Uint8Array) {#setMouseIcon-uint8array-}
 
 Gets and sets a custom icon to display as the mouse pointer for the control.
 
 ```javascript
-setMouseIcon(value: number[]) : void;
+setMouseIcon(value: Uint8Array) : void;
 ```
 
 **Parameters:**
@@ -874,13 +870,9 @@ setTextAlign(value: TextAlignmentType) : void;
 Gets and sets the binary data of the control.
 
 ```javascript
-getData() : number[];
+getData() : Uint8Array;
 ```
 
-
-**Returns**
-
-number[]
 
 ### isAutoWordSelected() {#isAutoWordSelected--}
 

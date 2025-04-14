@@ -25,7 +25,7 @@ class SubSupEquationNode extends EquationNode;
 
 | Method | Description |
 | --- | --- |
-| [equals(object)](#equals-object-)| Determine whether the current equation node is equal to the specified node |
+| [equals(Object)](#equals-object-)| Determine whether the current equation node is equal to the specified node |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getStartIndex()](#getStartIndex--)| Gets the start index of the characters. |
 | [getLength()](#getLength--)| Gets the length of the characters. |
@@ -64,18 +64,18 @@ constructor(obj: EquationNode);
 | --- | --- | --- |
 | obj | EquationNode | The parent object. |
 
-### equals(object) {#equals-object-}
+### equals(Object) {#equals-object-}
 
 Determine whether the current equation node is equal to the specified node
 
 ```javascript
-equals(obj: object) : boolean;
+equals(obj: Object) : boolean;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | object | The specified node |
+| obj | Object | The specified node |
 
 ### isNull() {#isNull--}
 

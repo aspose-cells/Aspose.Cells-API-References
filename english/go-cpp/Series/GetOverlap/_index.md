@@ -14,7 +14,7 @@ Specifies how bars and columns are positioned.Can be a value between – 100 and
 
 ```go
 
-func (instance *Series) GetOverlap()  (int32,  error) 
+func (instance *Series) GetOverlap()  (int16,  error) 
 
 ```
 

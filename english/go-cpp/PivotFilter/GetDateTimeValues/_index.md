@@ -14,7 +14,7 @@ Gets values of the number filter.
 
 ```go
 
-func (instance *PivotFilter) GetDateTimeValues()  ([]Date,  error) 
+func (instance *PivotFilter) GetDateTimeValues()  ([]time.Time,  error) 
 
 ```
 

@@ -62,7 +62,7 @@ constructor(obj: Object);
 DateTimeGroupItem or a simple object.
 
 ```javascript
-get(index: number) : object;
+get(index: number) : Object;
 ```
 
 **Parameters:**
@@ -131,9 +131,5 @@ Gets the Object.
 toObject() : Object;
 ```
 
-
-**Returns**
-
-[Object](../object/)
 
 

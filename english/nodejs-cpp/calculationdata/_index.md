@@ -22,7 +22,7 @@ All objects provided by this class are for "read" purpose only. User should not 
 | Method | Description |
 | --- | --- |
 | [getCalculatedValue()](#getCalculatedValue--)| Gets or sets the calculated value for this function. |
-| [setCalculatedValue(object)](#setCalculatedValue-object-)| Gets or sets the calculated value for this function. |
+| [setCalculatedValue(Object)](#setCalculatedValue-object-)| Gets or sets the calculated value for this function. |
 | [getWorkbook()](#getWorkbook--)| Gets the Workbook object where the function is in. |
 | [getWorksheet()](#getWorksheet--)| Gets the Worksheet object where the function is in. |
 | [getCellRow()](#getCellRow--)| Gets the row index of the cell where the function is in. |
@@ -41,7 +41,7 @@ All objects provided by this class are for "read" purpose only. User should not 
 Gets or sets the calculated value for this function.
 
 ```javascript
-getCalculatedValue() : object;
+getCalculatedValue() : Object;
 ```
 
 
@@ -49,18 +49,18 @@ getCalculatedValue() : object;
 
 User should set this property in his custom calculation engine for those functions the engine supports, and the set value will be returned when getting this property later. The set value may be of possible types of [Cell.Value](../cell.value/), or array of such kind of values, or a Range, Name, ReferredArea. Getting this property before setting value to it will make the function be calculated by the default calculation engine of Aspose.Cells and then the calculated value will be returned(generally it should be #NAME? for user-defined functions).
 
-### setCalculatedValue(object) {#setCalculatedValue-object-}
+### setCalculatedValue(Object) {#setCalculatedValue-object-}
 
 Gets or sets the calculated value for this function.
 
 ```javascript
-setCalculatedValue(value: object) : void;
+setCalculatedValue(value: Object) : void;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | object | The value to set. |
+| value | Object | The value to set. |
 
 **Remarks**
 
@@ -150,7 +150,7 @@ getParamCount() : number;
 Gets the represented value object of the parameter at given index.
 
 ```javascript
-getParamValue(index: number) : object;
+getParamValue(index: number) : Object;
 ```
 
 **Parameters:**
@@ -171,7 +171,7 @@ For one parameter: <p>If it is plain value, then returns the plain value itself;
 Gets the value(s) of the parameter at given index. If the parameter is some kind of expression that needs to be calculated, then it will be calculated in array mode.
 
 ```javascript
-getParamValueInArrayMode(index: number, maxRowCount: number, maxColumnCount: number) : object[][];
+getParamValueInArrayMode(index: number, maxRowCount: number, maxColumnCount: number) : Object[][];
 ```
 
 **Parameters:**

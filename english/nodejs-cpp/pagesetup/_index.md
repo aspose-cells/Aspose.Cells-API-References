@@ -53,7 +53,7 @@ sheet.getPageSetup().setPrintTitleColumns("$A:$B");
 | [getHeaderMarginInch()](#getHeaderMarginInch--)| Represents the distance from the top of the page to the header, in unit of inches. |
 | [setHeaderMarginInch(number)](#setHeaderMarginInch-number-)| Represents the distance from the top of the page to the header, in unit of inches. |
 | [getPrinterSettings()](#getPrinterSettings--)| Gets and sets the settings of the default printer. |
-| [setPrinterSettings(number[])](#setPrinterSettings-numberarray-)| Gets and sets the settings of the default printer. |
+| [setPrinterSettings(Uint8Array)](#setPrinterSettings-uint8array-)| Gets and sets the settings of the default printer. |
 | [getLeftMargin()](#getLeftMargin--)| Represents the size of the left margin, in unit of centimeters. |
 | [setLeftMargin(number)](#setLeftMargin-number-)| Represents the size of the left margin, in unit of centimeters. |
 | [getLeftMarginInch()](#getLeftMarginInch--)| Represents the size of the left margin, in unit of inches. |
@@ -128,9 +128,9 @@ sheet.getPageSetup().setPrintTitleColumns("$A:$B");
 | [getFirstPageHeader(number)](#getFirstPageHeader-number-)| Gets a script formatting the first page header of an Excel file. |
 | [setFirstPageFooter(number, string)](#setFirstPageFooter-number-string-)| Sets a script formatting the first page footer of an Excel file. |
 | [getFirstPageFooter(number)](#getFirstPageFooter-number-)| Gets a script formatting the first page footer of an Excel file. |
-| [setHeaderPicture(number, number[])](#setHeaderPicture-number-numberarray-)| Sets an image in the header of a worksheet. |
-| [setFooterPicture(number, number[])](#setFooterPicture-number-numberarray-)| Sets an image in the footer of a worksheet. |
-| [setPicture(boolean, boolean, boolean, number, number[])](#setPicture-boolean-boolean-boolean-number-numberarray-)| Sets an image in the header/footer of a worksheet. |
+| [setHeaderPicture(number, Uint8Array)](#setHeaderPicture-number-uint8array-)| Sets an image in the header of a worksheet. |
+| [setFooterPicture(number, Uint8Array)](#setFooterPicture-number-uint8array-)| Sets an image in the footer of a worksheet. |
+| [setPicture(boolean, boolean, boolean, number, Uint8Array)](#setPicture-boolean-boolean-boolean-number-uint8array-)| Sets an image in the header/footer of a worksheet. |
 | [getPicture(boolean, number)](#getPicture-boolean-number-)| Gets the [Picture](../picture/) object of the header / footer. |
 | [getPicture(boolean, boolean, boolean, number)](#getPicture-boolean-boolean-boolean-number-)| Gets the [Picture](../picture/) object of the header / footer. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
@@ -396,20 +396,16 @@ setHeaderMarginInch(value: number) : void;
 Gets and sets the settings of the default printer.
 
 ```javascript
-getPrinterSettings() : number[];
+getPrinterSettings() : Uint8Array;
 ```
 
 
-**Returns**
-
-number[]
-
-### setPrinterSettings(number[]) {#setPrinterSettings-numberarray-}
+### setPrinterSettings(Uint8Array) {#setPrinterSettings-uint8array-}
 
 Gets and sets the settings of the default printer.
 
 ```javascript
-setPrinterSettings(value: number[]) : void;
+setPrinterSettings(value: Uint8Array) : void;
 ```
 
 **Parameters:**
@@ -1312,12 +1308,12 @@ getFirstPageFooter(section: number) : string;
 | --- | --- | --- |
 | section | number | 0: Left Section, 1: Center Section, 2: Right Section. |
 
-### setHeaderPicture(number, number[]) {#setHeaderPicture-number-numberarray-}
+### setHeaderPicture(number, Uint8Array) {#setHeaderPicture-number-uint8array-}
 
 Sets an image in the header of a worksheet.
 
 ```javascript
-setHeaderPicture(section: number, headerPicture: number[]) : Picture;
+setHeaderPicture(section: number, headerPicture: Uint8Array) : Picture;
 ```
 
 **Parameters:**
@@ -1330,12 +1326,12 @@ setHeaderPicture(section: number, headerPicture: number[]) : Picture;
 
 Returns [Picture](../picture/) object.
 
-### setFooterPicture(number, number[]) {#setFooterPicture-number-numberarray-}
+### setFooterPicture(number, Uint8Array) {#setFooterPicture-number-uint8array-}
 
 Sets an image in the footer of a worksheet.
 
 ```javascript
-setFooterPicture(section: number, footerPicture: number[]) : Picture;
+setFooterPicture(section: number, footerPicture: Uint8Array) : Picture;
 ```
 
 **Parameters:**
@@ -1348,12 +1344,12 @@ setFooterPicture(section: number, footerPicture: number[]) : Picture;
 
 Returns [Picture](../picture/) object.
 
-### setPicture(boolean, boolean, boolean, number, number[]) {#setPicture-boolean-boolean-boolean-number-numberarray-}
+### setPicture(boolean, boolean, boolean, number, Uint8Array) {#setPicture-boolean-boolean-boolean-number-uint8array-}
 
 Sets an image in the header/footer of a worksheet.
 
 ```javascript
-setPicture(isFirst: boolean, isEven: boolean, isHeader: boolean, section: number, imageData: number[]) : Picture;
+setPicture(isFirst: boolean, isEven: boolean, isHeader: boolean, section: number, imageData: Uint8Array) : Picture;
 ```
 
 **Parameters:**

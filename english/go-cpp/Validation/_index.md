@@ -70,6 +70,8 @@ type Validation struct  {
 |[GetAreas](./getareas/) | Gets all CellArea which contain the data validation settings. | 
 |[AddArea_CellArea](./addarea_cellarea/) | Applies the validation to the area. | 
 |[AddArea_CellArea_Bool_Bool](./addarea_cellarea_bool_bool/) | Applies the validation to the area. | 
+|[AddAreas](./addareas/) | Applies the validation to given areas. | 
 |[RemoveArea](./removearea/) | Remove the validation settings in the range. | 
+|[RemoveAreas](./removeareas/) | Removes this validation from given areas. | 
 |[RemoveACell](./removeacell/) | Remove the validation settings in the cell. | 
 |[Copy](./copy/) | Copy validation. | 

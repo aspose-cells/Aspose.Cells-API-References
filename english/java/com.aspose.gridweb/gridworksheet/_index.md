@@ -21,6 +21,7 @@ Encapsulates the object that represents a single worksheet.
 | [addCustomFilter(int row, String critira)](#addCustomFilter-int-java.lang.String-) | Add custom filter for the specified row. |
 | [autoFitColumn(int columnIndex)](#autoFitColumn-int-) | Autofits the column width. |
 | [autoFitColumn(int columnIndex, int firstRow, int lastRow)](#autoFitColumn-int-int-int-) | Autofits the column width. |
+| [autoFitColumns()](#autoFitColumns--) |  |
 | [autoFitRow(int rowIndex)](#autoFitRow-int-) | Autofits the row height. |
 | [autoFitRow(int rowIndex, int firstColumn, int lastColumn)](#autoFitRow-int-int-int-) | Autofits the row height. |
 | [autoFitRow(int startRow, int endRow, int startColumn, int endColumn)](#autoFitRow-int-int-int-int-) | Autofits row height in a rectangle range. |
@@ -187,6 +188,14 @@ This method autofits a row based on content in a range of cells within the row.
 | columnIndex | int | Column index. |
 | firstRow | int | First row index. |
 | lastRow | int | Last row index. |
+
+### autoFitColumns() {#autoFitColumns--}
+```
+public void autoFitColumns()
+```
+
+
+
 
 ### autoFitRow(int rowIndex) {#autoFitRow-int-}
 ```

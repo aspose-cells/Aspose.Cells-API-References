@@ -29,7 +29,7 @@ class AccentEquationNode extends EquationNode;
 | [setAccentCharacter(string)](#setAccentCharacter-string-)| This attribute specifies the type of combining diacritical mark attached to the base of the accent function. The default accent character is U+0302. It is strongly recommended to use attribute AccentType to set accent character. Use this property setting if you cannot find the character you need in a known type. |
 | [getAccentCharacterType()](#getAccentCharacterType--)| Specify combining characters by type value. |
 | [setAccentCharacterType(EquationCombiningCharacterType)](#setAccentCharacterType-equationcombiningcharactertype-)| Specify combining characters by type value. |
-| [equals(object)](#equals-object-)| Determine whether the current equation node is equal to the specified node |
+| [equals(Object)](#equals-object-)| Determine whether the current equation node is equal to the specified node |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getStartIndex()](#getStartIndex--)| Gets the start index of the characters. |
 | [getLength()](#getLength--)| Gets the length of the characters. |
@@ -124,18 +124,18 @@ setAccentCharacterType(value: EquationCombiningCharacterType) : void;
 | --- | --- | --- |
 | value | [EquationCombiningCharacterType](../equationcombiningcharactertype/) | The value to set. |
 
-### equals(object) {#equals-object-}
+### equals(Object) {#equals-object-}
 
 Determine whether the current equation node is equal to the specified node
 
 ```javascript
-equals(obj: object) : boolean;
+equals(obj: Object) : boolean;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | object | The specified node |
+| obj | Object | The specified node |
 
 ### isNull() {#isNull--}
 

@@ -157,6 +157,8 @@ type HtmlSaveOptions struct  {
 |[SetDisableCss](./setdisablecss/) | Indicates whether only inline styles are applied, without relying on CSS.The default value is false. | 
 |[GetEnableCssCustomProperties](./getenablecsscustomproperties/) | Optimize the output of html by using CSS custom properties. For example, for the scenario that there are multiple occurences for one base64 image, with custom property the image data only needs to be saved once so the performance of the resultant html can be improved.The default value is false. | 
 |[SetEnableCssCustomProperties](./setenablecsscustomproperties/) | Optimize the output of html by using CSS custom properties. For example, for the scenario that there are multiple occurences for one base64 image, with custom property the image data only needs to be saved once so the performance of the resultant html can be improved.The default value is false. | 
+|[GetHtmlVersion](./gethtmlversion/) | Specifies version of HTML standard that should be used when saving the HTML format.Default value is HtmlVersion.Default. | 
+|[SetHtmlVersion](./sethtmlversion/) | Specifies version of HTML standard that should be used when saving the HTML format.Default value is HtmlVersion.Default. | 
 |[GetSaveFormat](./getsaveformat/) | Gets the save file format. | 
 |[GetClearData](./getcleardata/) | Make the workbook empty after saving the file. | 
 |[SetClearData](./setcleardata/) | Make the workbook empty after saving the file. | 

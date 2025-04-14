@@ -32,7 +32,7 @@ class Top10Filter;
 | [getItems()](#getItems--)| Gets and sets the items of the filter. |
 | [setItems(number)](#setItems-number-)| Gets and sets the items of the filter. |
 | [getCriteria()](#getCriteria--)|  |
-| [setCriteria(object)](#setCriteria-object-)|  |
+| [setCriteria(Object)](#setCriteria-object-)|  |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [toObject()](#toObject--)| Gets the Object. |
 
@@ -121,22 +121,22 @@ setItems(value: number) : void;
 
 
 ```javascript
-getCriteria() : object;
+getCriteria() : Object;
 ```
 
 
-### setCriteria(object) {#setCriteria-object-}
+### setCriteria(Object) {#setCriteria-object-}
 
 
 
 ```javascript
-setCriteria(value: object) : void;
+setCriteria(value: Object) : void;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | object | The value to set. |
+| value | Object | The value to set. |
 
 ### isNull() {#isNull--}
 
@@ -155,9 +155,5 @@ Gets the Object.
 toObject() : Object;
 ```
 
-
-**Returns**
-
-[Object](../object/)
 
 

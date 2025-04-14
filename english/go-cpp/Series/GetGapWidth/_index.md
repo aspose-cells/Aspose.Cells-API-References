@@ -14,7 +14,7 @@ Returns or sets the space between bar or column clusters, as a percentage of the
 
 ```go
 
-func (instance *Series) GetGapWidth()  (int32,  error) 
+func (instance *Series) GetGapWidth()  (int16,  error) 
 
 ```
 

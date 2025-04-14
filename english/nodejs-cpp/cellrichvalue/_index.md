@@ -53,13 +53,9 @@ getErrorValue() : ErrorCellValueType;
 Gets the image data of the cell.
 
 ```javascript
-getImage() : number[];
+getImage() : Uint8Array;
 ```
 
-
-**Returns**
-
-number[]
 
 ### getAltText() {#getAltText--}
 

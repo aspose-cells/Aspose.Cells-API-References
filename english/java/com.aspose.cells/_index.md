@@ -20,6 +20,9 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [AbstractFormulaChangeMonitor](../com.aspose.cells/abstractformulachangemonitor) | Monitor for user to track the change of formulas during certain operations. |
 | [AbstractGlobalizationSettings](../com.aspose.cells/abstractglobalizationsettings) | Represents the globalization settings. |
 | [AbstractInterruptMonitor](../com.aspose.cells/abstractinterruptmonitor) | Monitor for interruption requests in all time-consuming operations. |
+| [AbstractLowCodeLoadOptionsProvider](../com.aspose.cells/abstractlowcodeloadoptionsprovider) | Implementation to provide multiple load options for processes that use multiple inputs(such as template files). |
+| [AbstractLowCodeProtectionProvider](../com.aspose.cells/abstractlowcodeprotectionprovider) | Implementation to provide protection settings |
+| [AbstractLowCodeSaveOptionsProvider](../com.aspose.cells/abstractlowcodesaveoptionsprovider) | Implementation to provide multiple save options for processes that require multiple outputs. |
 | [AbstractTextLoadOptions](../com.aspose.cells/abstracttextloadoptions) | Common options for loading text values |
 | [AccentEquationNode](../com.aspose.cells/accentequationnode) | This class specifies an accent equation, consisting of a base component and a combining diacritic. |
 | [AccessCacheOptions](../com.aspose.cells/accesscacheoptions) | Cache options for data access. |
@@ -308,6 +311,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [HighlightChangesOptions](../com.aspose.cells/highlightchangesoptions) | Represents options of highlighting revsions or changes of shared Excel files. |
 | [HorizontalPageBreak](../com.aspose.cells/horizontalpagebreak) | Encapsulates the object that represents a horizontal page break. |
 | [HorizontalPageBreakCollection](../com.aspose.cells/horizontalpagebreakcollection) | Encapsulates a collection of [HorizontalPageBreak](../com.aspose.cells/horizontalpagebreak) objects. |
+| [HtmlConverter](../com.aspose.cells/htmlconverter) | Converter for conversion between html files(html or mht) and other spreadsheet file formats. |
 | [HtmlCrossType](../com.aspose.cells/htmlcrosstype) | Represents five types of html cross string. |
 | [HtmlExportDataOptions](../com.aspose.cells/htmlexportdataoptions) | Represents the options for exporting html data. |
 | [HtmlFormatHandlingType](../com.aspose.cells/htmlformathandlingtype) | Specifies how to handle formatting from the HTML source |
@@ -327,6 +331,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [IconSetType](../com.aspose.cells/iconsettype) | Icon set type for conditional formatting. |
 | [ImageActiveXControl](../com.aspose.cells/imageactivexcontrol) | Represents the image control. |
 | [ImageBinarizationMethod](../com.aspose.cells/imagebinarizationmethod) | Specifies the method used to binarize image. |
+| [ImageConverter](../com.aspose.cells/imageconverter) | Converter for converting template file to images. |
 | [ImageFormat](../com.aspose.cells/imageformat) | Specifies the file format of the image. |
 | [ImageOrPrintOptions](../com.aspose.cells/imageorprintoptions) | Allows to specify options when rendering worksheet to images, printing worksheet or rendering chart to image. |
 | [ImageSaveOptions](../com.aspose.cells/imagesaveoptions) | Represents image save options. |
@@ -336,6 +341,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [InputMethodEditorMode](../com.aspose.cells/inputmethodeditormode) | Represents the default run-time mode of the Input Method Editor. |
 | [InsertOptions](../com.aspose.cells/insertoptions) | Represents the options of inserting. |
 | [InterruptMonitor](../com.aspose.cells/interruptmonitor) | Represents all operator about the interrupt. |
+| [JsonConverter](../com.aspose.cells/jsonconverter) | Converter for conversion between json data structure and other spreadsheet file formats. |
 | [JsonExportHyperlinkType](../com.aspose.cells/jsonexporthyperlinktype) | Represents type of exporting hyperlinks to json. |
 | [JsonLayoutOptions](../com.aspose.cells/jsonlayoutoptions) | Represents the options of json layout type. |
 | [JsonLoadOptions](../com.aspose.cells/jsonloadoptions) | Represents the options of loading json files |
@@ -372,6 +378,15 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [LoadOptions](../com.aspose.cells/loadoptions) | Represents the options of loading the file. |
 | [LookAtType](../com.aspose.cells/lookattype) | Represents look at type. |
 | [LookInType](../com.aspose.cells/lookintype) | Represents look in type. |
+| [LowCodeHtmlSaveOptions](../com.aspose.cells/lowcodehtmlsaveoptions) | Options for saving html in low code way. |
+| [LowCodeImageSaveOptions](../com.aspose.cells/lowcodeimagesaveoptions) | Options for saving image in low code way. |
+| [LowCodeLoadOptions](../com.aspose.cells/lowcodeloadoptions) | Options for loading template file. |
+| [LowCodeMergeOptions](../com.aspose.cells/lowcodemergeoptions) | Options for merging multiple template files into one. |
+| [LowCodePdfSaveOptions](../com.aspose.cells/lowcodepdfsaveoptions) | Options for saving pdf in low code way. |
+| [LowCodeSaveOptions](../com.aspose.cells/lowcodesaveoptions) | Options for saving generated results in low code way. |
+| [LowCodeSaveOptionsProviderOfAssembling](../com.aspose.cells/lowcodesaveoptionsproviderofassembling) | Implementation to provide save options which save split parts to files and the path of resultant file are named as(it may contains directories): [LowCodeSaveOptionsProviderOfAssembling.\#getPathHeader()](../com.aspose.cells/lowcodesaveoptionsproviderofassembling\#getPathHeader--)+[LowCodeSaveOptionsProviderOfAssembling.\#getSheetPrefix()](../com.aspose.cells/lowcodesaveoptionsproviderofassembling\#getSheetPrefix--)+SheetIndex(or SheetName) +[LowCodeSaveOptionsProviderOfAssembling.\#getSplitPartPrefix()](../com.aspose.cells/lowcodesaveoptionsproviderofassembling\#getSplitPartPrefix--)+SplitPartIndex+[LowCodeSaveOptionsProviderOfAssembling.\#getPathTail()](../com.aspose.cells/lowcodesaveoptionsproviderofassembling\#getPathTail--). |
+| [LowCodeSaveOptionsProviderOfPlaceHolders](../com.aspose.cells/lowcodesaveoptionsproviderofplaceholders) | Implementation to provide save options which save split parts to files and the path of resultant file are defined with placeholders. |
+| [LowCodeSplitOptions](../com.aspose.cells/lowcodesplitoptions) | Options for splitting spreadsheet. |
 | [MapChartLabelLayout](../com.aspose.cells/mapchartlabellayout) | Represents the layout of map chart's labels. |
 | [MapChartProjectionType](../com.aspose.cells/mapchartprojectiontype) | Represents projection type of the map chart. |
 | [MapChartRegionType](../com.aspose.cells/mapchartregiontype) | Represents the region type of the map chart. |
@@ -451,6 +466,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [PdfBookmarkEntry](../com.aspose.cells/pdfbookmarkentry) | PdfBookmarkEntry is an entry in pdf bookmark. |
 | [PdfCompliance](../com.aspose.cells/pdfcompliance) | Allowing user to set PDF conversion's Compatibility |
 | [PdfCompressionCore](../com.aspose.cells/pdfcompressioncore) | Specifies a type of compression applied to all content in the PDF file except images. |
+| [PdfConverter](../com.aspose.cells/pdfconverter) | Converter for converting template file to pdf. |
 | [PdfCustomPropertiesExport](../com.aspose.cells/pdfcustompropertiesexport) | Specifies the way [CustomDocumentPropertyCollection](../com.aspose.cells/customdocumentpropertycollection) are exported to PDF file. |
 | [PdfFontEncoding](../com.aspose.cells/pdffontencoding) | Represents pdf embedded font encoding. |
 | [PdfOptimizationType](../com.aspose.cells/pdfoptimizationtype) | Specifies a type of optimization. |
@@ -586,6 +602,10 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [ScrollBar](../com.aspose.cells/scrollbar) | Represents a scroll bar object. |
 | [ScrollBarActiveXControl](../com.aspose.cells/scrollbaractivexcontrol) | Represents the ScrollBar control. |
 | [SelectionType](../com.aspose.cells/selectiontype) | The selection type of list box. |
+| [SensitivityLabel](../com.aspose.cells/sensitivitylabel) | Represents the sensitivity label. |
+| [SensitivityLabelAssignmentType](../com.aspose.cells/sensitivitylabelassignmenttype) | Represents the assignment method for the sensitivity label. |
+| [SensitivityLabelCollection](../com.aspose.cells/sensitivitylabelcollection) | Represents the list of sensitivity labels. |
+| [SensitivityLabelMarkType](../com.aspose.cells/sensitivitylabelmarktype) | Represents the types of content marking that ought to be applied to a file. |
 | [Series](../com.aspose.cells/series) | Encapsulates the object that represents a single data series in a chart. |
 | [SeriesCollection](../com.aspose.cells/seriescollection) | Encapsulates a collection of [Series](../com.aspose.cells/series) objects. |
 | [SeriesLayoutProperties](../com.aspose.cells/serieslayoutproperties) | Represents the properties of series layout. |
@@ -646,7 +666,12 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [SparklineType](../com.aspose.cells/sparklinetype) | Represents the sparkline types. |
 | [SpinButtonActiveXControl](../com.aspose.cells/spinbuttonactivexcontrol) | Represents the SpinButton control. |
 | [Spinner](../com.aspose.cells/spinner) | Represents the Forms control: Spinner. |
+| [SplitPartInfo](../com.aspose.cells/splitpartinfo) | Represents the information of one input/output for multiple inputs/outputs, such as current page to be rendered when converting spreadsheet to image. |
+| [SpreadsheetConverter](../com.aspose.cells/spreadsheetconverter) | Converter for conversion between different spreadsheet file formats, such as xls, xlsx, xlsb, spreadsheet ml... |
+| [SpreadsheetLocker](../com.aspose.cells/spreadsheetlocker) | Low code api to lock spreadsheet file. |
 | [SpreadsheetML2003SaveOptions](../com.aspose.cells/spreadsheetml2003saveoptions) | Represents the options for saving Excel 2003 spreadml file. |
+| [SpreadsheetMerger](../com.aspose.cells/spreadsheetmerger) | Merges multiple template files into one. |
+| [SpreadsheetSplitter](../com.aspose.cells/spreadsheetsplitter) | Splits spreadsheet file into multiple parts. |
 | [SqlDataType](../com.aspose.cells/sqldatatype) | Specifies SQL data type of the parameter. |
 | [SqlScriptColumnTypeMap](../com.aspose.cells/sqlscriptcolumntypemap) | Represents column type map. |
 | [SqlScriptOperatorType](../com.aspose.cells/sqlscriptoperatortype) | Represents the type of operating data. |
@@ -657,6 +682,8 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [StyleModifyFlag](../com.aspose.cells/stylemodifyflag) | The style modified flags. |
 | [SubSupEquationNode](../com.aspose.cells/subsupequationnode) | This class specifies an equation that can optionally be superscript or subscript. |
 | [SubtotalSetting](../com.aspose.cells/subtotalsetting) | Represents the setting of the subtotal . |
+| [SvgEmbeddedFontType](../com.aspose.cells/svgembeddedfonttype) | Represents the embedded font type in Svg image. |
+| [SvgImageOptions](../com.aspose.cells/svgimageoptions) | Options for generating Svg image. |
 | [SvgSaveOptions](../com.aspose.cells/svgsaveoptions) | Represents Svg save options. |
 | [SxRng](../com.aspose.cells/sxrng) | Represents Group Range in a PivotField. |
 | [SystemTimeInterruptMonitor](../com.aspose.cells/systemtimeinterruptmonitor) | Simple implementation of [AbstractInterruptMonitor](../com.aspose.cells/abstractinterruptmonitor) by checking and comparing current system time with user specified limit. |
@@ -676,6 +703,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [TextBoxCollection](../com.aspose.cells/textboxcollection) | Encapsulates a collection of [TextBox](../com.aspose.cells/textbox) objects. |
 | [TextBoxOptions](../com.aspose.cells/textboxoptions) | Represents the text options of the shape |
 | [TextCapsType](../com.aspose.cells/textcapstype) | This type specifies the cap types of the text. |
+| [TextConverter](../com.aspose.cells/textconverter) | Converter for conversion between text based formats(csv, tsv, dif...) and other spreadsheet file formats. |
 | [TextCrossType](../com.aspose.cells/textcrosstype) | Enumerates displaying text type when the text width is larger than cell width. |
 | [TextDirectionType](../com.aspose.cells/textdirectiontype) | Represents the direction of the text flow for this paragraph. |
 | [TextEffectFormat](../com.aspose.cells/texteffectformat) | Contains properties and methods that apply to WordArt objects. |

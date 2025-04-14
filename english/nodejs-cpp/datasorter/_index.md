@@ -70,7 +70,7 @@ workbook.save("output/DataSorter.xls");
 | [clear()](#clear--)| Clear all settings. |
 | [addKey(number, SortOrder)](#addKey-number-sortorder-)| Adds sorted column index and sort order. |
 | [addKey(number, SortOrder, string)](#addKey-number-sortorder-string-)| Adds sorted column index and sort order with custom sort list. |
-| [addKey(number, SortOnType, SortOrder, object)](#addKey-number-sortontype-sortorder-object-)| Adds sorted column index and sort order with custom sort list. |
+| [addKey(number, SortOnType, SortOrder, Object)](#addKey-number-sortontype-sortorder-object-)| Adds sorted column index and sort order with custom sort list. |
 | [addKey(number, SortOrder, string[])](#addKey-number-sortorder-stringarray-)| Adds sorted column index and sort order with custom sort list. |
 | [addColorKey(number, SortOnType, SortOrder, Color)](#addColorKey-number-sortontype-sortorder-color-)| Adds color sort key. |
 | [sort(Cells, number, number, number, number)](#sort-cells-number-number-number-number-)| Sorts the data of the area. |
@@ -362,12 +362,12 @@ addKey(key: number, order: SortOrder, customList: string) : void;
 | order | [SortOrder](../sortorder/) | The sort order. |
 | customList | string | The custom sort list. |
 
-### addKey(number, SortOnType, SortOrder, object) {#addKey-number-sortontype-sortorder-object-}
+### addKey(number, SortOnType, SortOrder, Object) {#addKey-number-sortontype-sortorder-object-}
 
 Adds sorted column index and sort order with custom sort list.
 
 ```javascript
-addKey(key: number, type: SortOnType, order: SortOrder, customList: object) : void;
+addKey(key: number, type: SortOnType, order: SortOrder, customList: Object) : void;
 ```
 
 **Parameters:**
@@ -376,7 +376,7 @@ addKey(key: number, type: SortOnType, order: SortOrder, customList: object) : vo
 | key | number | The sorted column index(absolute position, column A is 0, B is 1, ...) |
 | type | [SortOnType](../sortontype/) | The sorted value type. |
 | order | [SortOrder](../sortorder/) | The sort order. |
-| customList | object | The custom sort list. |
+| customList | Object | The custom sort list. |
 
 **Remarks**
 

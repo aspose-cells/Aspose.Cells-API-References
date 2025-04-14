@@ -14,7 +14,7 @@ Creates a new custom document property of the <b>PropertyType.DateTime</b> data 
 
 ```go
 
-func (instance *CustomDocumentPropertyCollection) Add_String_Date(name string, value *Date)  (*DocumentProperty,  error) 
+func (instance *CustomDocumentPropertyCollection) Add_String_Date(name string, value time.Time)  (*DocumentProperty,  error) 
 
 ```
 

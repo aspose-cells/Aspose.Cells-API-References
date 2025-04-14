@@ -37,7 +37,7 @@ The Range class denotes a region of Excel spreadsheet. With this, you can format
 | [getFirstRow()](#getFirstRow--)| Gets the index of the first row of the range. |
 | [getFirstColumn()](#getFirstColumn--)| Gets the index of the first column of the range. |
 | [getValue()](#getValue--)| Gets and sets the value of the range. |
-| [setValue(object)](#setValue-object-)| Gets and sets the value of the range. |
+| [setValue(Object)](#setValue-object-)| Gets and sets the value of the range. |
 | [getColumnWidth()](#getColumnWidth--)| Sets or gets the column width of this range |
 | [setColumnWidth(number)](#setColumnWidth-number-)| Sets or gets the column width of this range |
 | [getRowHeight()](#getRowHeight--)| Sets or gets the height of rows in this range |
@@ -251,7 +251,7 @@ getFirstColumn() : number;
 Gets and sets the value of the range.
 
 ```javascript
-getValue() : object;
+getValue() : Object;
 ```
 
 
@@ -259,18 +259,18 @@ getValue() : object;
 
 If the range contains multiple cells, the returned/applied object should be a two-dimension [Array](../array/) object.
 
-### setValue(object) {#setValue-object-}
+### setValue(Object) {#setValue-object-}
 
 Gets and sets the value of the range.
 
 ```javascript
-setValue(value: object) : void;
+setValue(value: Object) : void;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | object | The value to set. |
+| value | Object | The value to set. |
 
 **Remarks**
 
@@ -823,17 +823,13 @@ toString() : string;
 Converts the range to image.
 
 ```javascript
-toImage(options: ImageOrPrintOptions) : number[];
+toImage(options: ImageOrPrintOptions) : Uint8Array;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | options | [ImageOrPrintOptions](../imageorprintoptions/) | The options for converting this range to image |
-
-**Returns**
-
-number[]
 
 ### toJson(JsonSaveOptions) {#toJson-jsonsaveoptions-}
 
@@ -853,17 +849,13 @@ toJson(options: JsonSaveOptions) : string;
 Convert the range to html .
 
 ```javascript
-toHtml(saveOptions: HtmlSaveOptions) : number[];
+toHtml(saveOptions: HtmlSaveOptions) : Uint8Array;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | saveOptions | [HtmlSaveOptions](../htmlsaveoptions/) | Options for coverting range to html. |
-
-**Returns**
-
-number[]
 
 ### isNull() {#isNull--}
 

@@ -41,11 +41,11 @@ class ShapeCollection;
 | [addRectangle(number, number, number, number, number, number)](#addRectangle-number-number-number-number-number-number-)| Adds a RectangleShape to the worksheet. |
 | [addOval(number, number, number, number, number, number)](#addOval-number-number-number-number-number-number-)| Adds a Oval to the worksheet. |
 | [addLine(number, number, number, number, number, number)](#addLine-number-number-number-number-number-number-)| Adds a LineShape to the worksheet. |
-| [addFreeFloatingShape(MsoDrawingType, number, number, number, number, number[], boolean)](#addFreeFloatingShape-msodrawingtype-number-number-number-number-numberarray-boolean-)| Adds a free floating shape to the worksheet.Only applies for line/image shape. |
-| [addShapeInChart(MsoDrawingType, PlacementType, number, number, number, number, number[])](#addShapeInChart-msodrawingtype-placementtype-number-number-number-number-numberarray-)| Add a shape to chart .All unit is 1/4000 of chart area. |
+| [addFreeFloatingShape(MsoDrawingType, number, number, number, number, Uint8Array, boolean)](#addFreeFloatingShape-msodrawingtype-number-number-number-number-uint8array-boolean-)| Adds a free floating shape to the worksheet.Only applies for line/image shape. |
+| [addShapeInChart(MsoDrawingType, PlacementType, number, number, number, number, Uint8Array)](#addShapeInChart-msodrawingtype-placementtype-number-number-number-number-uint8array-)| Add a shape to chart .All unit is 1/4000 of chart area. |
 | [addShapeInChart(MsoDrawingType, PlacementType, number, number, number, number)](#addShapeInChart-msodrawingtype-placementtype-number-number-number-number-)| Add a shape to chart .All unit is 1/4000 of chart area. |
 | [addShapeInChartByScale(MsoDrawingType, PlacementType, number, number, number, number)](#addShapeInChartByScale-msodrawingtype-placementtype-number-number-number-number-)| Add a shape to chart. All unit is percent scale of chart area. |
-| [addShapeInChartByScale(MsoDrawingType, PlacementType, number, number, number, number, number[])](#addShapeInChartByScale-msodrawingtype-placementtype-number-number-number-number-numberarray-)| Add a shape to chart .All unit is 1/4000 of chart area. |
+| [addShapeInChartByScale(MsoDrawingType, PlacementType, number, number, number, number, Uint8Array)](#addShapeInChartByScale-msodrawingtype-placementtype-number-number-number-number-uint8array-)| Add a shape to chart .All unit is 1/4000 of chart area. |
 | [addArc(number, number, number, number, number, number)](#addArc-number-number-number-number-number-number-)| Adds a ArcShape to the worksheet. |
 | [addShape(MsoDrawingType, number, number, number, number, number, number)](#addShape-msodrawingtype-number-number-number-number-number-number-)| Adds a Shape to the worksheet. |
 | [addAutoShape(AutoShapeType, number, number, number, number, number, number)](#addAutoShape-autoshapetype-number-number-number-number-number-number-)| Adds a AutoShape to the worksheet. |
@@ -53,12 +53,12 @@ class ShapeCollection;
 | [addActiveXControl(ControlType, number, number, number, number, number, number)](#addActiveXControl-controltype-number-number-number-number-number-number-)| Creates an Activex Control. |
 | [addPicture(number, number, number, number, Uint8Array)](#addPicture-number-number-number-number-uint8array-)| Adds a picture to the collection. |
 | [addPicture(number, number, Uint8Array, number, number)](#addPicture-number-number-uint8array-number-number-)| Adds a picture to the collection. |
-| [addSvg(number, number, number, number, number, number, number[], number[])](#addSvg-number-number-number-number-number-number-numberarray-numberarray-)| Adds svg image. |
-| [addIcons(number, number, number, number, number, number, number[], number[])](#addIcons-number-number-number-number-number-number-numberarray-numberarray-)| Adds svg image. |
+| [addSvg(number, number, number, number, number, number, Uint8Array, Uint8Array)](#addSvg-number-number-number-number-number-number-uint8array-uint8array-)| Adds svg image. |
+| [addIcons(number, number, number, number, number, number, Uint8Array, Uint8Array)](#addIcons-number-number-number-number-number-number-uint8array-uint8array-)| Adds svg image. |
 | [addLinkedPicture(number, number, number, number, string)](#addLinkedPicture-number-number-number-number-string-)| Add a linked picture. |
 | [addOleObjectWithLinkedImage(number, number, number, number, string)](#addOleObjectWithLinkedImage-number-number-number-number-string-)| Add a linked picture. |
 | [addPictureInChart(number, number, Uint8Array, number, number)](#addPictureInChart-number-number-uint8array-number-number-)| Adds a picture to the chart. |
-| [addOleObject(number, number, number, number, number, number, number[])](#addOleObject-number-number-number-number-number-number-numberarray-)| Adds an OleObject. |
+| [addOleObject(number, number, number, number, number, number, Uint8Array)](#addOleObject-number-number-number-number-number-number-uint8array-)| Adds an OleObject. |
 | [copyCommentsInRange(ShapeCollection, CellArea, number, number)](#copyCommentsInRange-shapecollection-cellarea-number-number-)| Copy all comments in the range. |
 | [copyInRange(ShapeCollection, CellArea, number, number, boolean)](#copyInRange-shapecollection-cellarea-number-number-boolean-)| Copy shapes in the range to destination range. |
 | [deleteInRange(CellArea)](#deleteInRange-cellarea-)| Delete shapes in the range.Comment shapes will not be deleted. |
@@ -556,12 +556,12 @@ addLine(upperLeftRow: number, top: number, upperLeftColumn: number, left: number
 
 A LineShape object.
 
-### addFreeFloatingShape(MsoDrawingType, number, number, number, number, number[], boolean) {#addFreeFloatingShape-msodrawingtype-number-number-number-number-numberarray-boolean-}
+### addFreeFloatingShape(MsoDrawingType, number, number, number, number, Uint8Array, boolean) {#addFreeFloatingShape-msodrawingtype-number-number-number-number-uint8array-boolean-}
 
 Adds a free floating shape to the worksheet.Only applies for line/image shape.
 
 ```javascript
-addFreeFloatingShape(type: MsoDrawingType, top: number, left: number, height: number, width: number, imageData: number[], isOriginalSize: boolean) : Shape;
+addFreeFloatingShape(type: MsoDrawingType, top: number, left: number, height: number, width: number, imageData: Uint8Array, isOriginalSize: boolean) : Shape;
 ```
 
 **Parameters:**
@@ -579,12 +579,12 @@ addFreeFloatingShape(type: MsoDrawingType, top: number, left: number, height: nu
 
 [Shape](../shape/)
 
-### addShapeInChart(MsoDrawingType, PlacementType, number, number, number, number, number[]) {#addShapeInChart-msodrawingtype-placementtype-number-number-number-number-numberarray-}
+### addShapeInChart(MsoDrawingType, PlacementType, number, number, number, number, Uint8Array) {#addShapeInChart-msodrawingtype-placementtype-number-number-number-number-uint8array-}
 
 Add a shape to chart .All unit is 1/4000 of chart area.
 
 ```javascript
-addShapeInChart(type: MsoDrawingType, placement: PlacementType, left: number, top: number, right: number, bottom: number, imageData: number[]) : Shape;
+addShapeInChart(type: MsoDrawingType, placement: PlacementType, left: number, top: number, right: number, bottom: number, imageData: Uint8Array) : Shape;
 ```
 
 **Parameters:**
@@ -646,12 +646,12 @@ addShapeInChartByScale(type: MsoDrawingType, placement: PlacementType, left: num
 
 [Shape](../shape/)
 
-### addShapeInChartByScale(MsoDrawingType, PlacementType, number, number, number, number, number[]) {#addShapeInChartByScale-msodrawingtype-placementtype-number-number-number-number-numberarray-}
+### addShapeInChartByScale(MsoDrawingType, PlacementType, number, number, number, number, Uint8Array) {#addShapeInChartByScale-msodrawingtype-placementtype-number-number-number-number-uint8array-}
 
 Add a shape to chart .All unit is 1/4000 of chart area.
 
 ```javascript
-addShapeInChartByScale(type: MsoDrawingType, placement: PlacementType, left: number, top: number, right: number, bottom: number, imageData: number[]) : Shape;
+addShapeInChartByScale(type: MsoDrawingType, placement: PlacementType, left: number, top: number, right: number, bottom: number, imageData: Uint8Array) : Shape;
 ```
 
 **Parameters:**
@@ -835,12 +835,12 @@ addPicture(upperLeftRow: number, upperLeftColumn: number, stream: Uint8Array, wi
 
 [Picture](../picture/) Picture object.
 
-### addSvg(number, number, number, number, number, number, number[], number[]) {#addSvg-number-number-number-number-number-number-numberarray-numberarray-}
+### addSvg(number, number, number, number, number, number, Uint8Array, Uint8Array) {#addSvg-number-number-number-number-number-number-uint8array-uint8array-}
 
 Adds svg image.
 
 ```javascript
-addSvg(upperLeftRow: number, top: number, upperLeftColumn: number, left: number, height: number, width: number, svgData: number[], compatibleImageData: number[]) : Picture;
+addSvg(upperLeftRow: number, top: number, upperLeftColumn: number, left: number, height: number, width: number, svgData: Uint8Array, compatibleImageData: Uint8Array) : Picture;
 ```
 
 **Parameters:**
@@ -859,12 +859,12 @@ addSvg(upperLeftRow: number, top: number, upperLeftColumn: number, left: number,
 
 [Picture](../picture/)
 
-### addIcons(number, number, number, number, number, number, number[], number[]) {#addIcons-number-number-number-number-number-number-numberarray-numberarray-}
+### addIcons(number, number, number, number, number, number, Uint8Array, Uint8Array) {#addIcons-number-number-number-number-number-number-uint8array-uint8array-}
 
 Adds svg image.
 
 ```javascript
-addIcons(upperLeftRow: number, top: number, upperLeftColumn: number, left: number, height: number, width: number, imageByteData: number[], compatibleImageData: number[]) : Picture;
+addIcons(upperLeftRow: number, top: number, upperLeftColumn: number, left: number, height: number, width: number, imageByteData: Uint8Array, compatibleImageData: Uint8Array) : Picture;
 ```
 
 **Parameters:**
@@ -946,12 +946,12 @@ addPictureInChart(top: number, left: number, stream: Uint8Array, widthScale: num
 
 Returns a Picture object.
 
-### addOleObject(number, number, number, number, number, number, number[]) {#addOleObject-number-number-number-number-number-number-numberarray-}
+### addOleObject(number, number, number, number, number, number, Uint8Array) {#addOleObject-number-number-number-number-number-number-uint8array-}
 
 Adds an OleObject.
 
 ```javascript
-addOleObject(upperLeftRow: number, top: number, upperLeftColumn: number, left: number, height: number, width: number, imageData: number[]) : OleObject;
+addOleObject(upperLeftRow: number, top: number, upperLeftColumn: number, left: number, height: number, width: number, imageData: Uint8Array) : OleObject;
 ```
 
 **Parameters:**

@@ -34,13 +34,9 @@ class ConditionalFormattingIcon;
 Gets the icon set data.
 
 ```javascript
-getImageData() : number[];
+getImageData() : Uint8Array;
 ```
 
-
-**Returns**
-
-number[]
 
 ### getType() {#getType--}
 
@@ -95,7 +91,7 @@ setIndex(value: number) : void;
 Gets the image data with the setting of cell.
 
 ```javascript
-getImageData(cell: Cell) : number[];
+getImageData(cell: Cell) : Uint8Array;
 ```
 
 **Parameters:**
@@ -121,7 +117,7 @@ isNull() : boolean;
 Get the icon set data
 
 ```javascript
-static getIconImageData(type: IconSetType, index: number) : number[];
+static getIconImageData(type: IconSetType, index: number) : Uint8Array;
 ```
 
 **Parameters:**
@@ -129,9 +125,5 @@ static getIconImageData(type: IconSetType, index: number) : number[];
 | --- | --- | --- |
 | type | [IconSetType](../iconsettype/) | icon's type |
 | index | number | icon's index |
-
-**Returns**
-
-number[]
 
 

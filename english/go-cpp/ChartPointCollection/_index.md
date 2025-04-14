@@ -29,6 +29,7 @@ type ChartPointCollection struct  {
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
+|[GetEnumerator](./getenumerator/) | Returns an enumerator for the entire ChartPointCollection. | 
 |[Clear](./clear/) | Remove all setting of the chart points. | 
 |[RemoveAt](./removeat/) | Removes point at the index of the series.. | 
 |[GetCount](./getcount/) | Gets the count of the chart point. | 

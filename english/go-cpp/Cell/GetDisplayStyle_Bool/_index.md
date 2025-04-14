@@ -10,7 +10,7 @@ url: /go-cpp/cell/getdisplaystyle_bool/
 
 ## GetDisplayStyle_Bool function
 
-Gets the display style of the cell.If the cell is conditional formatted, the display style is not same as the cell.GetStyle().
+Gets the display style of this cell.
 
 ```go
 

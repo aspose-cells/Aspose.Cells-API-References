@@ -33,7 +33,9 @@ type PivotField struct  {
 |[GetGroupSettings](./getgroupsettings/) | Gets the group settings of the pivot field. | 
 |[InitPivotItems](./initpivotitems/) | Init the pivot items of the pivot field | 
 |[GroupBy_Double_Bool](./groupby_double_bool/) | Automatically group the field with internal | 
+|[GroupBy_Date_Date_PivotGroupByTypeArray_Double_Bool](./groupby_date_date_pivotgroupbytypearray_double_bool/) | Group the file by the date group types. | 
 |[GroupBy_Double_Double_Double_Bool](./groupby_double_double_double_bool/) | Group the file by number. | 
+|[GroupBy_CustomPiovtFieldGroupItemArray_Bool](./groupby_custompiovtfieldgroupitemarray_bool/) | Custom group the field. | 
 |[Ungroup](./ungroup/) | Ungroup the pivot field. | 
 |[GetPivotFilterByType](./getpivotfilterbytype/) | Gets the pivot filter of the pivot field by type | 
 |[GetFilters](./getfilters/) | Gets all pivot filters of this pivot field. | 

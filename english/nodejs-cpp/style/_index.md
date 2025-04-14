@@ -110,7 +110,7 @@ excel.getWorksheets().get(0).getCells().get("A1").setStyle(style1);
 | [copy(Style)](#copy-style-)| Copies data from another style object |
 | [update()](#update--)| Apply the named style to the styles of the cells which use this named style. It works like clicking the "ok" button after you finished modifying the style. Only applies for named style. |
 | [isModified(StyleModifyFlag)](#isModified-stylemodifyflag-)| Checks whether the specified properties of the style have been modified. Used for style of ConditionalFormattings to check whether the specified properties of this style should be used when applying the ConditionalFormattings on a cell. |
-| [equals(object)](#equals-object-)| Determines whether two Style instances are equal. |
+| [equals(Object)](#equals-object-)| Determines whether two Style instances are equal. |
 | [getHashCode()](#getHashCode--)| Serves as a hash function for a Style object. |
 | [setBorder(BorderType, CellBorderType, Color)](#setBorder-bordertype-cellbordertype-color-)| Sets the borders of the style. |
 | [setBorder(BorderType, CellBorderType, CellsColor)](#setBorder-bordertype-cellbordertype-cellscolor-)| Sets the borders of the style. |
@@ -1064,18 +1064,18 @@ isModified(modifyFlag: StyleModifyFlag) : boolean;
 
 true if the specified properties have been modified
 
-### equals(object) {#equals-object-}
+### equals(Object) {#equals-object-}
 
 Determines whether two Style instances are equal.
 
 ```javascript
-equals(obj: object) : boolean;
+equals(obj: Object) : boolean;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | object | The Style object to compare with the current Style object. |
+| obj | Object | The Style object to compare with the current Style object. |
 
 **Returns**
 

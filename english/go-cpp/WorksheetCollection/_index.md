@@ -58,6 +58,7 @@ type WorksheetCollection struct  {
 |[Clear](./clear/) | Clear all worksheets. | 
 |[AddCopy_String](./addcopy_string/) | Adds a worksheet to the collection and copies data from an existed worksheet. | 
 |[AddCopy_Int](./addcopy_int/) | Adds a worksheet to the collection and copies data from an existed worksheet. | 
+|[AddCopy_WorksheetArray_stringArray](./addcopy_worksheetarray_stringarray/) | Copy a group of worksheets. | 
 |[GetDxfs](./getdxfs/) | Gets the master differential formatting records. | 
 |[GetRangeByName_String](./getrangebyname_string/) | Gets Range object by pre-defined name. | 
 |[GetRangeByName_String_Int_Bool](./getrangebyname_string_int_bool/) | Gets Range by pre-defined name or table's name | 

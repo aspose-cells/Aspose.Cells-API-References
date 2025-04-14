@@ -32,6 +32,7 @@ type PivotConditionalFormat struct  {
 |[GetCellAreas](./getcellareas/) | Gets all cell areas where this conditional format applies to. | 
 |[GetPivotAreas](./getpivotareas/) | Gets all pivot areas. | 
 |[AddCellArea](./addcellarea/) | Adds an area based on pivot table view. | 
+|[ApplyTo](./applyto/) | Applies the conditional format to range.Only for the data region. | 
 |[AddFieldArea_PivotFieldType_String](./addfieldarea_pivotfieldtype_string/) | Adds an area of pivot field. | 
 |[AddFieldArea_PivotFieldType_PivotField](./addfieldarea_pivotfieldtype_pivotfield/) | Adds an area of pivot field. | 
 |[GetFormatConditions](./getformatconditions/) | Get conditions for the pivot table conditional format . | 

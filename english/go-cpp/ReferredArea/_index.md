@@ -32,6 +32,7 @@ type ReferredArea struct  {
 |[IsExternalLink](./isexternallink/) | Indicates whether this is an external link. | 
 |[GetExternalFileName](./getexternalfilename/) | Get the external file name if this is an external reference. | 
 |[GetSheetName](./getsheetname/) | Indicates which sheet this reference is in. | 
+|[GetSheetNames](./getsheetnames/) | Names of all the worksheets this instance references to. | 
 |[IsEntireRow](./isentirerow/) | Indicates whether this area contains all columns(entire row). | 
 |[IsEntireColumn](./isentirecolumn/) | Indicates whether this area contains all rows(entire column). | 
 |[IsArea](./isarea/) | Indicates whether this is an area. | 

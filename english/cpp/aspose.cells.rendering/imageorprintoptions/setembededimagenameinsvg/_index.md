@@ -4,7 +4,7 @@ linktitle: SetEmbededImageNameInSvg
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Rendering::ImageOrPrintOptions::SetEmbededImageNameInSvg method. Indicate the filename of embedded image in svg. This should be full path with directory like "c:\\xpsEmbedded" in C++.'
 type: docs
-weight: 3100
+weight: 2900
 url: /cpp/aspose.cells.rendering/imageorprintoptions/setembededimagenameinsvg/
 ---
 ## ImageOrPrintOptions::SetEmbededImageNameInSvg(const U16String\&) method
@@ -12,9 +12,15 @@ url: /cpp/aspose.cells.rendering/imageorprintoptions/setembededimagenameinsvg/
 
 Indicate the filename of embedded image in svg. This should be full path with directory like "c:\\xpsEmbedded".
 
+
+>Deprecated
+>
+>Images are always embedded in Svg with base64 format, please remove this property. 
 ```cpp
 void Aspose::Cells::Rendering::ImageOrPrintOptions::SetEmbededImageNameInSvg(const U16String &value)
 ```
+
+
 
 ## See Also
 
@@ -28,9 +34,15 @@ void Aspose::Cells::Rendering::ImageOrPrintOptions::SetEmbededImageNameInSvg(con
 
 Indicate the filename of embedded image in svg. This should be full path with directory like "c:\\xpsEmbedded".
 
+
+>Deprecated
+>
+>Images are always embedded in Svg with base64 format, please remove this property. 
 ```cpp
 void Aspose::Cells::Rendering::ImageOrPrintOptions::SetEmbededImageNameInSvg(const char16_t *value)
 ```
+
+
 
 ## See Also
 

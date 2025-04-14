@@ -1452,7 +1452,7 @@ If the width or height is zero or the chart is not supported according to Suppor
 | Parameter | Type | Description |
 | --- | --- | --- |
 | imageFile | java.lang.String | The image file name with full path. |
-| imageType | int | [ImageOrPrintOptions.getImageType()](../../com.aspose.cells/imageorprintoptions\#getImageType--). The image type in which to save the image. |
+| imageType | int | [ImageType](../../com.aspose.cells/imagetype). The image type in which to save the image. |
 
 ### toImage(String imageFile, long jpegQuality) {#toImage-java.lang.String-long-}
 ```

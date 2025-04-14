@@ -33,7 +33,7 @@ class GroupCharacterEquationNode extends EquationNode;
 | [setPosition(EquationCharacterPositionType)](#setPosition-equationcharacterpositiontype-)| This attribute specifies the position of the character in the object |
 | [getVertJc()](#getVertJc--)| This attribute, combined with pos of groupChrPr, specifies the vertical layout of the groupChr object. Where pos specifies the position of the grouping character, vertJc specifies the alignment of the object with respect to the baseline. |
 | [setVertJc(EquationCharacterPositionType)](#setVertJc-equationcharacterpositiontype-)| This attribute, combined with pos of groupChrPr, specifies the vertical layout of the groupChr object. Where pos specifies the position of the grouping character, vertJc specifies the alignment of the object with respect to the baseline. |
-| [equals(object)](#equals-object-)| Determine whether the current equation node is equal to the specified node |
+| [equals(Object)](#equals-object-)| Determine whether the current equation node is equal to the specified node |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getStartIndex()](#getStartIndex--)| Gets the start index of the characters. |
 | [getLength()](#getLength--)| Gets the length of the characters. |
@@ -180,18 +180,18 @@ setVertJc(value: EquationCharacterPositionType) : void;
 | --- | --- | --- |
 | value | [EquationCharacterPositionType](../equationcharacterpositiontype/) | The value to set. |
 
-### equals(object) {#equals-object-}
+### equals(Object) {#equals-object-}
 
 Determine whether the current equation node is equal to the specified node
 
 ```javascript
-equals(obj: object) : boolean;
+equals(obj: Object) : boolean;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | object | The specified node |
+| obj | Object | The specified node |
 
 ### isNull() {#isNull--}
 

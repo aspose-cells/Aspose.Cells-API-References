@@ -70,10 +70,10 @@ workbook.save("output/ChartsChartPoint.xls");
 | [getMarker()](#getMarker--)| Gets the <see cref="Marker"> marker</see>. |
 | [getDataLabels()](#getDataLabels--)| Returns a [DataLabels](../datalabels/) object that represents the data label associated with this chart point. |
 | [get_YValue()](#get_YValue--)| Gets or sets the Y value of the chart point. |
-| [setYValue(object)](#setYValue-object-)| Gets or sets the Y value of the chart point. |
+| [setYValue(Object)](#setYValue-object-)| Gets or sets the Y value of the chart point. |
 | [getYValueType()](#getYValueType--)| Gets Y value type of the chart point. |
 | [getXValue()](#getXValue--)| Gets or sets the X value of the chart point. |
-| [setXValue(object)](#setXValue-object-)| Gets or sets the X value of the chart point. |
+| [setXValue(Object)](#setXValue-object-)| Gets or sets the X value of the chart point. |
 | [getXValueType()](#getXValueType--)| Gets X value type of the chart point. |
 | [getShapeProperties()](#getShapeProperties--)| Gets the [ShapePropertyCollection](../shapepropertycollection/) object that holds the visual shape properties of the ChartPoint. |
 | [isInSecondaryPlot()](#isInSecondaryPlot--)| Gets or sets a value indicates whether this data points is in the second pie or bar on a pie of pie or bar of pie chart |
@@ -213,22 +213,22 @@ getDataLabels() : DataLabels;
 Gets or sets the Y value of the chart point.
 
 ```javascript
-get_YValue() : object;
+get_YValue() : Object;
 ```
 
 
-### setYValue(object) {#setYValue-object-}
+### setYValue(Object) {#setYValue-object-}
 
 Gets or sets the Y value of the chart point.
 
 ```javascript
-setYValue(value: object) : void;
+setYValue(value: Object) : void;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | object | The value to set. |
+| value | Object | The value to set. |
 
 ### getYValueType() {#getYValueType--}
 
@@ -248,22 +248,22 @@ getYValueType() : CellValueType;
 Gets or sets the X value of the chart point.
 
 ```javascript
-getXValue() : object;
+getXValue() : Object;
 ```
 
 
-### setXValue(object) {#setXValue-object-}
+### setXValue(Object) {#setXValue-object-}
 
 Gets or sets the X value of the chart point.
 
 ```javascript
-setXValue(value: object) : void;
+setXValue(value: Object) : void;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | object | The value to set. |
+| value | Object | The value to set. |
 
 ### getXValueType() {#getXValueType--}
 

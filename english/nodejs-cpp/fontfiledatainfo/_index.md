@@ -29,13 +29,9 @@ class FontFileDataInfo;
 Gets binary data of font file.
 
 ```javascript
-getData() : number[];
+getData() : Uint8Array;
 ```
 
-
-**Returns**
-
-number[]
 
 ### getFormatType() {#getFormatType--}
 

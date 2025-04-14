@@ -14,7 +14,7 @@ Gets or sets the date when the document was last printed in local timezone.
 
 ```go
 
-func (instance *BuiltInDocumentPropertyCollection) GetLastPrinted()  (*Date,  error) 
+func (instance *BuiltInDocumentPropertyCollection) GetLastPrinted()  (time.Time,  error) 
 
 ```
 

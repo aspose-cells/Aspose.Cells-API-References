@@ -98,8 +98,10 @@ type Workbook struct  {
 |[GetThemeColor](./getthemecolor/) | Gets theme color. | 
 |[SetThemeColor](./setthemecolor/) | Sets the theme color | 
 |[GetTheme](./gettheme/) | Gets the theme name. | 
+|[CustomTheme](./customtheme/) | Customs the theme. | 
 |[CopyTheme](./copytheme/) | Copies the theme from another workbook. | 
 |[UpdateCustomFunctionDefinition](./updatecustomfunctiondefinition/) | Updates definition of custom functions. | 
+|[UpdateLinkedDataSource](./updatelinkeddatasource/) | If this workbook contains external links to other data source,Aspose.Cells will attempt to retrieve the latest data from give sources. | 
 |[GetBuiltInDocumentProperties](./getbuiltindocumentproperties/) | Returns a DocumentProperty collection that represents all the built-in document properties of the spreadsheet. | 
 |[GetCustomDocumentProperties](./getcustomdocumentproperties/) | Returns a DocumentProperty collection that represents all the custom document properties of the spreadsheet. | 
 |[GetFileFormat](./getfileformat/) | Gets and sets the file format. | 

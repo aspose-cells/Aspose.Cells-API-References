@@ -10,7 +10,7 @@ url: /net/aspose.cells/range/
 Encapsulates the object that represents a range of cells within a spreadsheet.
 
 ```csharp
-public class Range
+public class Range : IEnumerable
 ```
 
 ## Properties

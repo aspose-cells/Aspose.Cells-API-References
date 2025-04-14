@@ -163,6 +163,7 @@ type PivotTable struct  {
 |[SetDataSource](./setdatasource/) | Gets and sets the data source of the pivot table. | 
 |[ChangeDataSource](./changedatasource/) | Set pivottable's source data. | 
 |[GetSource](./getsource/) | Get pivottable's source data. | 
+|[GetSource_Bool](./getsource_bool/) | Get pivottable's source data. | 
 |[RefreshData](./refreshdata/) | Refreshes pivottable's data and setting from it's data source. | 
 |[RefreshData_PivotTableRefreshOption](./refreshdata_pivottablerefreshoption/) | Refreshes pivottable's data and setting from it's data source with options. | 
 |[CalculateData](./calculatedata/) | Calculates pivottable's data to cells. | 

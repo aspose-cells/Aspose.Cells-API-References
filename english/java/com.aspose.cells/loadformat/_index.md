@@ -29,6 +29,7 @@ Represents the load file format.
 | [HTML](#HTML) | Represents a html file. |
 | [IMAGE](#IMAGE) | Image |
 | [JSON](#JSON) | Json |
+| [MARKDOWN](#MARKDOWN) | Represents a Markdown file. |
 | [M_HTML](#M-HTML) | Represents a mhtml file. |
 | [NUMBERS](#NUMBERS) | Represents a numbers file. |
 | [ODS](#ODS) | Open Document Sheet(ODS) file. |
@@ -149,6 +150,14 @@ public static final int JSON
 
 
 Json
+
+### MARKDOWN {#MARKDOWN}
+```
+public static final int MARKDOWN
+```
+
+
+Represents a Markdown file.
 
 ### M_HTML {#M-HTML}
 ```

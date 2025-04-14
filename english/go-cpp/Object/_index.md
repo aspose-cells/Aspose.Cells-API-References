@@ -25,14 +25,22 @@ type Object struct  {
 | --- | --- |
 |[NewObject](./newobject/) | Default constructor. Constructs an empty object. | 
 |[NewObject_Bool](./newobject_bool/) | Constructs from a bool value. | 
-|[NewObject_Int](./newobject_int/) | Constructs from an int8_t value. | 
+|[NewObject_Integer8](./newobject_integer8/) | Constructs from an int8_t value. | 
 |[NewObject_Byte](./newobject_byte/) | Constructs from an uint8_t value. | 
+|[NewObject_Int16](./newobject_int16/) | Constructs from an int16_t value. | 
+|[NewObject_UInteger16](./newobject_uinteger16/) | Constructs from an uint16_t value. | 
+|[NewObject_Int](./newobject_int/) | Constructs from an int32_t value. | 
+|[NewObject_UInteger](./newobject_uinteger/) | Constructs from an uint32_t value. | 
+|[NewObject_Int64](./newobject_int64/) | Constructs from an int64_t value. | 
+|[NewObject_ULong](./newobject_ulong/) | Constructs from an uint64_t value. | 
 |[NewObject_Float](./newobject_float/) | Constructs from a float value. | 
 |[NewObject_Double](./newobject_double/) | Constructs from a double value. | 
 |[NewObject_Date](./newobject_date/) | Constructs from a Date value. | 
 |[NewObject_Color](./newobject_color/) | Constructs from a Color value. | 
 |[NewObject_String](./newobject_string/) | Constructs from U16String value. | 
 |[NewObject_Range](./newobject_range/) | Constructs from a Range value. | 
+|[NewObject_ObjectArray](./newobject_objectarray/) | Constructs from a one-dimensional array. | 
+|[NewObject_Object2Array](./newobject_object2array/) | Constructs from a two-dimensional array. | 
 
 ## Methods
 

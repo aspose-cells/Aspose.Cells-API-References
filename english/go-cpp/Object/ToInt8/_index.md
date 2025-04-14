@@ -14,7 +14,7 @@ Gets the int8_t value.
 
 ```go
 
-func (instance *Object) ToInt8()  (int32,  error) 
+func (instance *Object) ToInt8()  (int8,  error) 
 
 ```
 

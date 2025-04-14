@@ -10,6 +10,8 @@ url: /net/aspose.cells.rendering/imageorprintoptions/svgcssprefix/
 Gets and sets the prefix of the css name in svg,the default value is empty string.
 
 ```csharp
+[Obsolete("Use SvgImageOptions.CssPrefix property instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public string SvgCssPrefix { get; set; }
 ```
 

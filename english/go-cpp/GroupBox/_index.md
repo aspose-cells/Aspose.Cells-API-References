@@ -166,7 +166,7 @@ type GroupBox struct  {
 |[SetIsFlippedVertically](./setisflippedvertically/) | Gets and sets whether shape is vertically flipped . | 
 |[GetActualLowerRightRow](./getactuallowerrightrow/) | Get the actual bottom row. | 
 |[GetConnectionPoints](./getconnectionpoints/) | Get the connection points | 
-|[ToImage_Stream_ImageType](./toimage_stream_imagetype/) | Creates the shape image and saves it to a stream in the specified format. | 
+|[ToImage_ImageType](./toimage_imagetype/) | Creates the shape image and saves it to a stream in the specified format. | 
 |[ToImage_String_ImageOrPrintOptions](./toimage_string_imageorprintoptions/) | Saves the shape to a file. | 
 |[ToImage_ImageOrPrintOptions](./toimage_imageorprintoptions/) | Saves the shape to a stream. | 
 |[GetRelativeToOriginalPictureSize](./getrelativetooriginalpicturesize/) | Indicates whether shape is relative to original picture size. | 
@@ -221,5 +221,6 @@ type GroupBox struct  {
 |[IsDecorative](./isdecorative/) | Indicates whether the object is decorative. | 
 |[SetIsDecorative](./setisdecorative/) | Indicates whether the object is decorative. | 
 |[GetActualBox](./getactualbox/) | Get the actual position and size of the shape (after applying rotation, flip, etc.) | 
+|[FitToTextSize](./fittotextsize/) | Recalculate a text area suitable for displaying all text content. | 
 |[GetResultOfSmartArt](./getresultofsmartart/) | Converting smart art to grouped shapes. | 
 |[IsSameSetting](./issamesetting/) | Returns whether the shape is same. | 

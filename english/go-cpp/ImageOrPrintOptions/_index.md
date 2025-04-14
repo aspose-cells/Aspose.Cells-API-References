@@ -58,6 +58,8 @@ type ImageOrPrintOptions struct  {
 |[SetEmbededImageNameInSvg](./setembededimagenameinsvg/) | Indicate the filename of embedded image in svg.This should be full path with directory like "c:\\xpsEmbedded" | 
 |[GetSVGFitToViewPort](./getsvgfittoviewport/) | if this property is true, the generated svg will fit to view port. | 
 |[SetSVGFitToViewPort](./setsvgfittoviewport/) | if this property is true, the generated svg will fit to view port. | 
+|[GetSvgCssPrefix](./getsvgcssprefix/) | Gets and sets the prefix of the css name in svg,the default value is empty string. | 
+|[SetSvgCssPrefix](./setsvgcssprefix/) | Gets and sets the prefix of the css name in svg,the default value is empty string. | 
 |[GetOnlyArea](./getonlyarea/) | If this property is true , one Area will be output, and no scale will take effect. | 
 |[SetOnlyArea](./setonlyarea/) | If this property is true , one Area will be output, and no scale will take effect. | 
 |[GetTransparent](./gettransparent/) | Indicates if the background of generated image should be transparent. | 

@@ -89,6 +89,7 @@ type FileFormatType int32
 |[WebP](./webp/) | Webp | 
 |[Json](./json/) | Json | 
 |[SqlScript](./sqlscript/) | Sql | 
+|[Dbf](./dbf/) | Xbase Data file | 
 |[XHtml](./xhtml/) | Rrepesents XHtml file. | 
 |[OneNote](./onenote/) | Rrepesents One Note file. | 
 |[MicrosoftCabinet](./microsoftcabinet/) | Rrepesents Microsoft Cabinet file. | 

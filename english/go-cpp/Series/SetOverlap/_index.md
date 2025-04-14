@@ -14,7 +14,7 @@ Specifies how bars and columns are positioned.Can be a value between – 100 and
 
 ```go
 
-func (instance *Series) SetOverlap(value int32)  error
+func (instance *Series) SetOverlap(value int16)  error
 
 ```
 

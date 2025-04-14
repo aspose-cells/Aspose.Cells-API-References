@@ -20,7 +20,7 @@ class CustomXmlPartCollection;
 | Method | Description |
 | --- | --- |
 | [get(number)](#get-number-)| Gets an item at the specified index. |
-| [add(number[], number[])](#add-numberarray-numberarray-)| Adds an item to the collection. |
+| [add(Uint8Array, Uint8Array)](#add-uint8array-uint8array-)| Adds an item to the collection. |
 | [selectByID(string)](#selectByID-string-)| Gets an item by id. |
 | [getCount()](#getCount--)| Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
@@ -43,12 +43,12 @@ get(index: number) : CustomXmlPart;
 
 [CustomXmlPart](../customxmlpart/)
 
-### add(number[], number[]) {#add-numberarray-numberarray-}
+### add(Uint8Array, Uint8Array) {#add-uint8array-uint8array-}
 
 Adds an item to the collection.
 
 ```javascript
-add(data: number[], shemaData: number[]) : number;
+add(data: Uint8Array, shemaData: Uint8Array) : number;
 ```
 
 **Parameters:**

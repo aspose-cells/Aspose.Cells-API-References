@@ -15,6 +15,9 @@ is_root: true
 | [AbstractCalculationEngine](./abstractcalculationengine) | Represents user's custom calculation engine to extend the default calculation engine of Aspose.Cells. |
 | [AbstractFormulaChangeMonitor](./abstractformulachangemonitor) | Monitor for user to track the change of formulas during certain operations. |
 | [AbstractInterruptMonitor](./abstractinterruptmonitor) | Monitor for interruption requests in all time-consuming operations. |
+| [AbstractLowCodeLoadOptionsProvider](./abstractlowcodeloadoptionsprovider) | Implementation to provide multiple load options for processes that use multiple inputs(such as template files). |
+| [AbstractLowCodeProtectionProvider](./abstractlowcodeprotectionprovider) | Implementation to provide protection settings |
+| [AbstractLowCodeSaveOptionsProvider](./abstractlowcodesaveoptionsprovider) | Implementation to provide multiple save options for processes that require multiple outputs. For example, [SpreadsheetSplitter](../nodejs-cpp/spreadsheetsplitter/) feature requires multiple destinations to save the split files. |
 | [AbstractTextLoadOptions](./abstracttextloadoptions) | Common options for loading text values |
 | [AccentEquationNode](./accentequationnode) | This class specifies an accent equation, consisting of a base component and a combining diacritic. |
 | [ActiveXControl](./activexcontrol) | Represents the ActiveX control. |
@@ -188,6 +191,7 @@ is_root: true
 | [HighlightChangesOptions](./highlightchangesoptions) | Represents options of highlighting revsions or changes of shared Excel files. |
 | [HorizontalPageBreak](./horizontalpagebreak) | Encapsulates the object that represents a horizontal page break. |
 | [HorizontalPageBreakCollection](./horizontalpagebreakcollection) | Encapsulates a collection of [HorizontalPageBreak](../nodejs-cpp/horizontalpagebreak/) objects. |
+| [HtmlConverter](./htmlconverter) | Converter for conversion between html files(html or mht) and other spreadsheet file formats. |
 | [HtmlLoadOptions](./htmlloadoptions) | Represents options when importing a html file. |
 | [HtmlSaveOptions](./htmlsaveoptions) | Represents the options for saving html file. |
 | [HtmlTableLoadOption](./htmltableloadoption) | Represents the option when import table from html. |
@@ -197,12 +201,14 @@ is_root: true
 | [IconFilter](./iconfilter) | Represents icon filter. |
 | [IconSet](./iconset) | Describe the IconSet conditional formatting rule. This conditional formatting rule applies icons to cells according to their values. |
 | [ImageActiveXControl](./imageactivexcontrol) | Represents the image control. |
+| [ImageConverter](./imageconverter) | Converter for converting template file to images. |
 | [ImageOrPrintOptions](./imageorprintoptions) | Allows to specify options when rendering worksheet to images, printing worksheet or rendering chart to image. |
 | [ImageSaveOptions](./imagesaveoptions) | Represents image save options. For advanced usage, please use [WorkbookRender](../nodejs-cpp/workbookrender/) or [SheetRender](../nodejs-cpp/sheetrender/). |
 | [ImportTableOptions](./importtableoptions) | Represents the options of importing data into cells. |
 | [IndividualFontConfigs](./individualfontconfigs) | Font configs for each [Workbook](../nodejs-cpp/workbook/) object. |
 | [InsertOptions](./insertoptions) | Represents the options of inserting. |
 | [InterruptMonitor](./interruptmonitor) | Represents all operator about the interrupt. |
+| [JsonConverter](./jsonconverter) | Converter for conversion between json data structure and other spreadsheet file formats. |
 | [JsonLayoutOptions](./jsonlayoutoptions) | Represents the options of json layout type. |
 | [JsonLoadOptions](./jsonloadoptions) | Represents the options of loading json files |
 | [JsonSaveOptions](./jsonsaveoptions) | Represents the options of saving the workbook as a json file. |
@@ -225,6 +231,15 @@ is_root: true
 | [ListObjectCollection](./listobjectcollection) | Represents a collection of [ListObject](../nodejs-cpp/listobject/) objects in the worksheet. |
 | [LoadFilter](./loadfilter) | Represents the filter that provides options for loading data when loading workbook from template. |
 | [LoadOptions](./loadoptions) | Represents the options of loading the file. |
+| [LowCodeHtmlSaveOptions](./lowcodehtmlsaveoptions) | Options for saving html in low code way. |
+| [LowCodeImageSaveOptions](./lowcodeimagesaveoptions) | Options for saving image in low code way. |
+| [LowCodeLoadOptions](./lowcodeloadoptions) | Options for loading template file. |
+| [LowCodeMergeOptions](./lowcodemergeoptions) | Options for merging multiple template files into one. |
+| [LowCodePdfSaveOptions](./lowcodepdfsaveoptions) | Options for saving pdf in low code way. |
+| [LowCodeSaveOptions](./lowcodesaveoptions) | Options for saving generated results in low code way. |
+| [LowCodeSaveOptionsProviderOfAssembling](./lowcodesaveoptionsproviderofassembling) | Implementation to provide save options which save split parts to files and the path of resultant file are named as(it may contains directories): [PathHeader](../nodejs-cpp/pathheader/)+[SheetPrefix](../nodejs-cpp/sheetprefix/)+SheetIndex(or SheetName) +[SplitPartPrefix](../nodejs-cpp/splitpartprefix/)+SplitPartIndex+[PathTail](../nodejs-cpp/pathtail/). |
+| [LowCodeSaveOptionsProviderOfPlaceHolders](./lowcodesaveoptionsproviderofplaceholders) | Implementation to provide save options which save split parts to files and the path of resultant file are defined with placeholders. |
+| [LowCodeSplitOptions](./lowcodesplitoptions) | Options for splitting spreadsheet. |
 | [MarkdownSaveOptions](./markdownsaveoptions) | Represents the save options for markdown. |
 | [Marker](./marker) | Represents the marker in a line chart, scatter chart, or radar chart. |
 | [MathematicalEquationNode](./mathematicalequationnode) | This class specifies an equation or mathematical expression. All mathematical text of equations or mathematical expressions are contained by this class. |
@@ -266,6 +281,7 @@ is_root: true
 | [PatternFill](./patternfill) | Encapsulates the object that represents pattern fill format |
 | [PclSaveOptions](./pclsaveoptions) | Represents the options for saving Pcl file. |
 | [PdfBookmarkEntry](./pdfbookmarkentry) | PdfBookmarkEntry is an entry in pdf bookmark. if Text property of current instance is null or "", current instance will be hidden and children will be inserted on current level. |
+| [PdfConverter](./pdfconverter) | Converter for converting template file to pdf. |
 | [PdfSaveOptions](./pdfsaveoptions) | Represents the options for saving pdf file. |
 | [PdfSecurityOptions](./pdfsecurityoptions) | Options for encrypting and access permissions for a PDF document. PDF/A does not allow security setting. |
 | [PicFormatOption](./picformatoption) | Represents picture format option |
@@ -353,6 +369,8 @@ is_root: true
 | [ScenarioInputCellCollection](./scenarioinputcellcollection) | Represents the list of the scenario's input cells. |
 | [ScrollBar](./scrollbar) | Represents a scroll bar object. |
 | [ScrollBarActiveXControl](./scrollbaractivexcontrol) | Represents the ScrollBar control. |
+| [SensitivityLabel](./sensitivitylabel) | Represents the sensitivity label. |
+| [SensitivityLabelCollection](./sensitivitylabelcollection) | Represents the list of sensitivity labels. |
 | [Series](./series) | Encapsulates the object that represents a single data series in a chart. |
 | [SeriesCollection](./seriescollection) | Encapsulates a collection of [Series](../nodejs-cpp/series/) objects. |
 | [SeriesLayoutProperties](./serieslayoutproperties) | Represents the properties of series layout. |
@@ -395,13 +413,19 @@ is_root: true
 | [SparklineGroupCollection](./sparklinegroupcollection) | Encapsulates a collection of [SparklineGroup](../nodejs-cpp/sparklinegroup/) objects. |
 | [SpinButtonActiveXControl](./spinbuttonactivexcontrol) | Represents the SpinButton control. |
 | [Spinner](./spinner) | Represents the Forms control: Spinner. |
+| [SplitPartInfo](./splitpartinfo) | Represents the information of one input/output for multiple inputs/outputs, such as current page to be rendered when converting spreadsheet to image. |
+| [SpreadsheetConverter](./spreadsheetconverter) | Converter for conversion between different spreadsheet file formats, such as xls, xlsx, xlsb, spreadsheet ml... |
+| [SpreadsheetLocker](./spreadsheetlocker) | Low code api to lock spreadsheet file. |
+| [SpreadsheetMerger](./spreadsheetmerger) | Merges multiple template files into one. |
 | [SpreadsheetML2003SaveOptions](./spreadsheetml2003saveoptions) | Represents the options for saving Excel 2003 spreadml file. |
+| [SpreadsheetSplitter](./spreadsheetsplitter) | Splits spreadsheet file into multiple parts. |
 | [SqlScriptColumnTypeMap](./sqlscriptcolumntypemap) | Represents column type map. |
 | [SqlScriptSaveOptions](./sqlscriptsaveoptions) | Represents the options of saving sql. |
 | [Style](./style) | Represents display style of excel document,such as font,color,alignment,border,etc. The Style object contains all style attributes (font, number format, alignment, and so on) as properties. |
 | [StyleFlag](./styleflag) | Represents flags which indicates applied formatting properties. |
 | [SubSupEquationNode](./subsupequationnode) | This class specifies an equation that can optionally be superscript or subscript. There are four main forms of this equation, superscript，subscript，superscript and subscript placed to the left of the base, superscript and subscript placed to the right of the base. |
 | [SubtotalSetting](./subtotalsetting) | Represents the setting of the subtotal . |
+| [SvgImageOptions](./svgimageoptions) | Options for generating Svg image. |
 | [SystemTimeInterruptMonitor](./systemtimeinterruptmonitor) | Simple implementation of [AbstractInterruptMonitor](../nodejs-cpp/abstractinterruptmonitor/) by checking and comparing current system time with user specified limit. |
 | [TableStyle](./tablestyle) | Represents the table style. |
 | [TableStyleCollection](./tablestylecollection) | Represents all custom table styles. |
@@ -412,6 +436,7 @@ is_root: true
 | [TextBoxActiveXControl](./textboxactivexcontrol) | Represents a text box ActiveX control. |
 | [TextBoxCollection](./textboxcollection) | Encapsulates a collection of [TextBox](../nodejs-cpp/textbox/) objects. |
 | [TextBoxOptions](./textboxoptions) | Represents the text options of the shape |
+| [TextConverter](./textconverter) | Converter for conversion between text based formats(csv, tsv, dif...) and other spreadsheet file formats. |
 | [TextEffectFormat](./texteffectformat) | Contains properties and methods that apply to WordArt objects. |
 | [TextOptions](./textoptions) | Represents the text options. |
 | [TextParagraph](./textparagraph) | Represents the text paragraph setting. |
@@ -720,6 +745,8 @@ is_root: true
 | [RevisionType](./revisiontype) | Represents the revision type. |
 | [SaveFormat](./saveformat) | Represents the format in which the workbook is saved. |
 | [SelectionType](./selectiontype) | The selection type of list box. |
+| [SensitivityLabelAssignmentType](./sensitivitylabelassignmenttype) | Represents the assignment method for the sensitivity label. |
+| [SensitivityLabelMarkType](./sensitivitylabelmarktype) | Represents the types of content marking that ought to be applied to a file. |
 | [ShapeAnchorType](./shapeanchortype) | Represents the anchor type. |
 | [ShapeLockType](./shapelocktype) | Represents type of the property to be locked. |
 | [ShapePathType](./shapepathtype) | Represents path segment type. |
@@ -741,6 +768,7 @@ is_root: true
 | [SqlDataType](./sqldatatype) | Specifies SQL data type of the parameter. Only valid for ODBC sources. |
 | [SqlScriptOperatorType](./sqlscriptoperatortype) | Represents the type of operating data. |
 | [StyleModifyFlag](./stylemodifyflag) | The style modified flags. |
+| [SvgEmbeddedFontType](./svgembeddedfonttype) | Represents the embedded font type in Svg image. |
 | [TableDataSourceType](./tabledatasourcetype) | Represents the table's data source type. |
 | [TableStyleElementType](./tablestyleelementtype) | Represents the Table or PivotTable style element type. |
 | [TableStyleType](./tablestyletype) | Represents the built-in table style type. |

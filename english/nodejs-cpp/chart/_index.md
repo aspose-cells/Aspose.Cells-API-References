@@ -120,7 +120,7 @@ chart.getTitle().setText("Income Analysis");
 | [isCellReferedByChart(number, number, number)](#isCellReferedByChart-number-number-number-)| Returns whether the cell refered by the chart. |
 | [isChartDataChanged()](#isChartDataChanged--)| Detects if a chart's data source has changed. |
 | [refreshPivotData()](#refreshPivotData--)| Refreshes chart's data from pivot table. |
-| [changeTemplate(number[])](#changeTemplate-numberarray-)| Change chart type with preset template. |
+| [changeTemplate(Uint8Array)](#changeTemplate-uint8array-)| Change chart type with preset template. |
 | [move(number, number, number, number)](#move-number-number-number-number-)| Moves the chart to a specified location. |
 | [calculate()](#calculate--)| Calculates the custom position of plot area, axes if the position of them are auto assigned. |
 | [calculate(ChartCalculateOptions)](#calculate-chartcalculateoptions-)| Calculates the custom position of plot area, axes if the position of them are auto assigned, with Chart Calculate Options. |
@@ -1134,12 +1134,12 @@ refreshPivotData() : void;
 
 We will gather data from pivot data source to the pivot table report. This method is only used to gather all data to a pivot chart.
 
-### changeTemplate(number[]) {#changeTemplate-numberarray-}
+### changeTemplate(Uint8Array) {#changeTemplate-uint8array-}
 
 Change chart type with preset template.
 
 ```javascript
-changeTemplate(data: number[]) : void;
+changeTemplate(data: Uint8Array) : void;
 ```
 
 **Parameters:**

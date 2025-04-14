@@ -4,7 +4,7 @@ linktitle: Workbook
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Workbook class. Represents a root object to create an Excel spreadsheet in C++.'
 type: docs
-weight: 16200
+weight: 16300
 url: /cpp/aspose.cells/workbook/
 ---
 ## Workbook class
@@ -58,6 +58,7 @@ class Workbook
 | [GetFileFormat()](./getfileformat/) | Gets and sets the file format. |
 | [GetFileName()](./getfilename/) | Gets and sets the current file name. |
 | [GetFonts()](./getfonts/) | Gets all fonts in the style pool. |
+| [GetHasCustomFunction()](./gethascustomfunction/) | Detects whether there is custom function used in this workbook, such as in cell's formula, in defined names... |
 | [GetHasMacro()](./gethasmacro/) | Indicates if this spreadsheet contains macro/VBA. |
 | [GetHasRevisions()](./gethasrevisions/) | Gets if the workbook has any tracked changes. |
 | [GetInterruptMonitor()](./getinterruptmonitor/) | Gets and sets the interrupt monitor. |

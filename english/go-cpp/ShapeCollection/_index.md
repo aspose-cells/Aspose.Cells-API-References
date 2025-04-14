@@ -73,10 +73,12 @@ type ShapeCollection struct  {
 |[CopyInRange](./copyinrange/) | Copy shapes in the range to destination range. | 
 |[DeleteInRange](./deleteinrange/) | Delete shapes in the range.Comment shapes will not be deleted. | 
 |[DeleteShape](./deleteshape/) | Delete a shape. If the shape is in the group or is a comment shape, it will not be deleted. | 
+|[Group](./group/) | Group the shapes. | 
 |[Ungroup](./ungroup/) | Ungroups the shape items. | 
 |[RemoveAt](./removeat/) | Remove the shape. | 
 |[Remove](./remove/) | Remove the shape. | 
 |[Clear](./clear/) | Clear all shapes in the worksheet. | 
 |[UpdateSelectedValue](./updateselectedvalue/) | Update the selected value by the value of the linked cell or range of the shape. | 
+|[AddFreeform](./addfreeform/) | Adds a freeform shape to the worksheet. | 
 |[AddSignatureLine](./addsignatureline/) | Adds a Signature Line to the worksheet. | 
 |[GetCount](./getcount/) |  | 
