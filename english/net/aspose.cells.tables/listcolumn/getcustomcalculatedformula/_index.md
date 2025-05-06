@@ -22,6 +22,26 @@ public string GetCustomCalculatedFormula(bool isR1C1, bool isLocal)
 
 The formula of this list column.
 
+### Examples
+
+```csharp
+// Called: listObject.ListColumns[2].GetCustomCalculatedFormula(false, false), &amp;quot;CalculatedFormula&amp;quot;);
+[Test]
+        public void Method_Boolean_()
+        {
+            Workbook wb = new Workbook(Constants.sourcePath + &quot;Table/N46531.xlsx&quot;);
+            Worksheet sheet = wb.Worksheets[&quot;DataSource&quot;];
+            ListObject listObject = sheet.ListObjects[&quot;UserReport_2_Table_1&quot;];
+            for (int i = 0; i &lt; listObject.ListColumns.Count; i++)
+            {
+                ListColumn listColumn = listObject.ListColumns[i];
+                listColumn.Name = &quot;UserColumn&quot; + i;
+            }
+            Assert.AreEqual(&quot;=WEEKNUM([@UserColumn1])&quot;,
+                listObject.ListColumns[2].GetCustomCalculatedFormula(false, false), &quot;CalculatedFormula&quot;);
+        }
+```
+
 ### See Also
 
 * class [ListColumn](../)

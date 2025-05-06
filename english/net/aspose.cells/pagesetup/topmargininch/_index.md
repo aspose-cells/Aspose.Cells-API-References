@@ -13,6 +13,20 @@ Represents the size of the top margin, in unit of inches.
 public double TopMarginInch { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(0.75, sheet.PageSetup.TopMarginInch);
+[Test]
+        public void Property_TopMarginInch()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSAPP1346.xlsx&quot;);
+            Worksheet sheet = workbook.Worksheets[workbook.Worksheets.ActiveSheetIndex];
+            Assert.AreEqual(0.75, sheet.PageSetup.TopMarginInch);
+            workbook.Save(Constants.destPath + &quot;CELLSAPP1346.jpg&quot;);
+        }
+```
+
 ### See Also
 
 * class [PageSetup](../)

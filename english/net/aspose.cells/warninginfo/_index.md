@@ -23,6 +23,17 @@ public class WarningInfo
 | [Type](../../aspose.cells/warninginfo/type/) { get; } | Get warning type. |
 | [WarningType](../../aspose.cells/warninginfo/warningtype/) { get; } | (**Obsolete.**) Get warning type. |
 
+### Examples
+
+```csharp
+// Called: public void Warning(WarningInfo warningInfo)
+public void Type_WarningInfo(WarningInfo warningInfo)
+            {
+                Assert.AreEqual(warningInfo.Type, ExceptionType.DefinedName);
+                Assert.IsTrue(warningInfo.Description.StartsWith(&quot;Duplicate defined name: _XLNM.PRINT_AREA;ReferTo:&quot;));
+            }
+```
+
 ### See Also
 
 * namespace [Aspose.Cells](../../aspose.cells/)

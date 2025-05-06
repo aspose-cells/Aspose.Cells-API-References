@@ -74,6 +74,23 @@ public int Add()
 
 [`Worksheet`](../../worksheet/) object index.
 
+### Examples
+
+```csharp
+// Called: wb.Worksheets.Add();
+[Test]
+        public void Method_Add()
+        {
+            Workbook wb = new Workbook();
+            wb.Worksheets[0].Name = &quot;Test1&quot;;
+            wb.Worksheets.Add();
+            wb.Worksheets[1].Copy(new Workbook(Constants.sourcePath + @&quot;Copy\N43200_590075.xml&quot;).Worksheets[0]);
+            wb.Worksheets[1].Name = &quot;Test2&quot;;
+            //Assert.AreEqual(&quot;=IF(Test1!$A$4=\&quot;\&quot;,0,2)&quot;, wb.Worksheets[1].Cells[&quot;A2&quot;].Formula, &quot;A2&apos;s formula in copied sheet&quot;);
+            Assert.AreEqual(&quot;=IF(Test1!$A$4=\&quot;\&quot;,0,2)&quot;, wb.Worksheets[1].Cells[&quot;A2&quot;].Formula, &quot;A2&apos;s formula in copied sheet&quot;);
+        }
+```
+
 ### See Also
 
 * class [WorksheetCollection](../)
@@ -97,6 +114,39 @@ public Worksheet Add(string sheetName)
 ### Return Value
 
 [`Worksheet`](../../worksheet/) object.
+
+### Examples
+
+```csharp
+// Called: Worksheet sheet = wb.Worksheets.Add(&amp;quot;.special&amp;quot;);
+[Test]
+        public void Method_String_()
+        {
+            Workbook wb = new Workbook();
+            Cell cell = wb.Worksheets[0].Cells[0, 0];
+            Worksheet sheet = wb.Worksheets.Add(&quot;.special&quot;);
+            cell.Formula = &quot;=&apos;&quot; + sheet.Name + &quot;&apos;!A1&quot;;
+            Assert.AreEqual(&quot;=&apos;&quot; + sheet.Name + &quot;&apos;!A1&quot;, cell.Formula, sheet.Name);
+            sheet.Name = &quot;a12345.b67890&quot;;
+            cell.Formula = &quot;=&apos;&quot; + sheet.Name + &quot;&apos;!A1&quot;;
+            Assert.AreEqual(&quot;=&quot; + sheet.Name + &quot;!A1&quot;, cell.Formula, sheet.Name);
+            sheet.Name = &quot;a12345.67890&quot;;
+            cell.Formula = &quot;=&apos;&quot; + sheet.Name + &quot;&apos;!A1&quot;;
+            Assert.AreEqual(&quot;=&quot; + sheet.Name + &quot;!A1&quot;, cell.Formula, sheet.Name);
+            sheet.Name = &quot;c.a12345.b67890&quot;;
+            cell.Formula = &quot;=&apos;&quot; + sheet.Name + &quot;&apos;!A1&quot;;
+            Assert.AreEqual(&quot;=&quot; + sheet.Name + &quot;!A1&quot;, cell.Formula, sheet.Name);
+            sheet.Name = &quot;c.a12345.b67890.d&quot;;
+            cell.Formula = &quot;=&apos;&quot; + sheet.Name + &quot;&apos;!A1&quot;;
+            Assert.AreEqual(&quot;=&quot; + sheet.Name + &quot;!A1&quot;, cell.Formula, sheet.Name);
+            sheet.Name = &quot;a12345.b67890.&quot;;
+            cell.Formula = &quot;=&apos;&quot; + sheet.Name + &quot;&apos;!A1&quot;;
+            Assert.AreEqual(&quot;=&apos;&quot; + sheet.Name + &quot;&apos;!A1&quot;, cell.Formula, sheet.Name);
+            sheet.Name = &quot;a12345.b67890.a&quot;;
+            cell.Formula = &quot;=&apos;&quot; + sheet.Name + &quot;&apos;!A1&quot;;
+            Assert.AreEqual(&quot;=&apos;&quot; + sheet.Name + &quot;&apos;!A1&quot;, cell.Formula, sheet.Name);
+        }
+```
 
 ### See Also
 

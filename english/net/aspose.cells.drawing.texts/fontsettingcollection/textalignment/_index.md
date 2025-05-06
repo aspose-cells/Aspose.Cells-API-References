@@ -13,6 +13,31 @@ Represents the alignment setting of the text body.
 public ShapeTextAlignment TextAlignment { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(72, shape.TextBody.TextAlignment.BottomMarginPt);
+[Test]
+        public void Property_TextAlignment()
+        {
+            var wb = new Workbook(Constants.sourcePath + &quot;CellsNet45886.xlsx&quot;);
+            Shape shape = wb.Worksheets[0].Shapes[0];
+            Assert.IsFalse(shape.TextBody.TextAlignment.IsAutoMargin);
+            Assert.AreEqual(72, shape.TextBody.TextAlignment.BottomMarginPt);
+            Assert.AreEqual(72, shape.TextBody.TextAlignment.TopMarginPt);
+            Assert.AreEqual(72, shape.TextBody.TextAlignment.RightMarginPt);
+            Assert.AreEqual(72, shape.TextBody.TextAlignment.BottomMarginPt);
+            Assert.AreEqual(72, shape.TextBody.TextAlignment.LeftMarginPt);
+
+            shape.TextBody.TextAlignment.BottomMarginPt = 36;
+            shape.TextBody.TextAlignment.RightMarginPt = 18;
+            shape.TextBody.TextAlignment.LeftMarginPt = 54;
+            wb.Save(Constants.destPath + &quot;CellsNet45886.xlsx&quot;);
+            wb = new Workbook(Constants.destPath + &quot;CellsNet45886.xlsx&quot;);
+            Assert.AreEqual(36, shape.TextBody.TextAlignment.BottomMarginPt);
+        }
+```
+
 ### See Also
 
 * class [ShapeTextAlignment](../../shapetextalignment/)

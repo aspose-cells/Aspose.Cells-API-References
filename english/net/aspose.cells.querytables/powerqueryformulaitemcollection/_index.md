@@ -53,6 +53,32 @@ public class PowerQueryFormulaItemCollection : CollectionBase<PowerQueryFormulaI
 | [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(PowerQueryFormulaItem, int, int) |  |
 | [RemoveAt](../../aspose.cells/collectionbase-1/removeat/)(int) |  |
 
+### Examples
+
+```csharp
+// Called: PowerQueryFormulaItemCollection PQFIcoll = PQF.PowerQueryFormulaItems;
+[Test]
+        public void Type_PowerQueryFormulaItemCollection()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsJava43073.xlsm&quot;);
+
+            PowerQueryFormulaCollection PQFcoll = workbook.DataMashup.PowerQueryFormulas;//Exception here
+            Assert.AreEqual(PQFcoll.Count, 2);
+
+            PowerQueryFormula PQF = PQFcoll[1];
+            Assert.AreEqual(&quot;Change Management&quot;, PQF.Name);
+            PowerQueryFormulaItemCollection PQFIcoll = PQF.PowerQueryFormulaItems;
+            Assert.AreEqual(3, PQFIcoll.Count);
+
+            PowerQueryFormulaItem PQFI = PQFIcoll[0];
+            Assert.AreEqual(&quot;Source&quot;, PQFI.Name);
+            Assert.AreEqual(PQFI.Value, &quot;SharePoint.Tables(\&quot;https://cimconuso.sharepoint.com\&quot;, [ApiVersion = 15])&quot;);
+
+            workbook.Save(Constants.destPath + &quot;CellsJava43073.xlsm&quot;);
+
+        }
+```
+
 ### See Also
 
 * class [CollectionBase&lt;T&gt;](../../aspose.cells/collectionbase-1/)

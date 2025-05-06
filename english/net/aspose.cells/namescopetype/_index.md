@@ -21,6 +21,23 @@ public enum NameScopeType
 | Workbook | `1` | The defined names in the workbook. |
 | Worksheet | `2` | The defined names in a worksheet or all worksheets. |
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(2, workbook.Worksheets.Names.Filter(NameScopeType.Worksheet, -1).Length);
+[Test]
+        public void Type_NameScopeType()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET50332.xlsx&quot;);
+
+            Assert.AreEqual(1,workbook.Worksheets.Names.Filter(NameScopeType.Workbook, -1).Length);
+            Assert.AreEqual(2, workbook.Worksheets.Names.Filter(NameScopeType.Worksheet, -1).Length);
+            Assert.AreEqual(1, workbook.Worksheets.Names.Filter(NameScopeType.Worksheet, 1).Length);
+            // Save the workbook
+            workbook.Save(Constants.destPath + &quot;dest.xlsx&quot;);
+        }
+```
+
 ### See Also
 
 * namespace [Aspose.Cells](../../aspose.cells/)

@@ -13,6 +13,22 @@ Gets the distance, in points, from the left edge of column A to the left edge of
 public double Left { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(64 /96.0 *72 , range.Left);
+[Test]
+        public void Property_Left()
+        {
+            Workbook workbook = new Workbook();
+            Aspose.Cells.Range range = workbook.Worksheets[0].Cells.CreateRange(&quot;B2:C4&quot;);
+            Assert.AreEqual(12.75, range.Top);
+            Assert.AreEqual(12.75 * 3, range.Height);
+            Assert.AreEqual(64 /96.0 *72 , range.Left);
+            Assert.AreEqual(64 / 96.0 * 72 * 2, range.Width);
+        }
+```
+
 ### See Also
 
 * class [Range](../)

@@ -13,6 +13,30 @@ Gets the [`BorderCollection`](../../bordercollection/) of the style.
 public BorderCollection Borders { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: style.Borders[BorderType.TopBorder].LineStyle = CellBorderType.Double;
+[Test]
+        public void Property_Borders()
+        {
+            Workbook workbook = new Workbook();
+            Cells cells = workbook.Worksheets[0].Cells;
+            Style style = cells[1, 1].GetStyle();
+            style.Borders[BorderType.TopBorder].LineStyle = CellBorderType.Double;
+            cells[1, 1].SetStyle(style);
+
+            checkCellBorderType_Double(workbook);
+            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+            checkCellBorderType_Double(workbook);
+            workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
+            checkCellBorderType_Double(workbook);
+            workbook = Util.ReSave(workbook, SaveFormat.SpreadsheetML);
+            checkCellBorderType_Double(workbook);
+            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+        }
+```
+
 ### See Also
 
 * class [BorderCollection](../../bordercollection/)

@@ -21,6 +21,21 @@ public double GetViewRowHeight(int row)
 
 Height of row.
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(12.75, workbook.Worksheets[0].Cells.GetViewRowHeight(3));
+[Test]
+        public void Method_Int32_()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet47454.xls&quot;);
+            Assert.AreEqual(13.15, workbook.Worksheets[0].Cells.GetRowHeight(3));
+            Assert.AreEqual(12.75, workbook.Worksheets[0].Cells.GetViewRowHeight(3));
+           // Assert.AreEqual(12.75, workbook.Worksheets[0].Cells.GetRowHeight(3,WidthViewMode.View, CellsUnitType.Point));
+            workbook.Save(Constants.destPath + &quot;CellsNet47454.xlsx&quot;);
+        }
+```
+
 ### See Also
 
 * class [Cells](../)

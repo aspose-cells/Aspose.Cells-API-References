@@ -29,6 +29,25 @@ public class StreamProviderOptions
 | [ResourceLoadingType](../../aspose.cells/streamprovideroptions/resourceloadingtype/) { get; set; } | Gets and sets the type of loading resource. |
 | [Stream](../../aspose.cells/streamprovideroptions/stream/) { get; set; } | Gets/Sets the stream |
 
+### Examples
+
+```csharp
+// Called: void IStreamProvider.InitStream(StreamProviderOptions options)
+void IStreamProvider.Type_StreamProviderOptions(StreamProviderOptions options)
+            {
+                //WebProxy proxy = new WebProxy(proxyUrl);
+                WebRequest request = WebRequest.Create(options.DefaultPath);
+                //request.Proxy = proxy;
+                WebResponse response = request.GetResponse();
+
+                Stream srcStream = response.GetResponseStream();
+
+                byte[] imageBytes = CopyStreamToByteArray(srcStream);
+                options.Stream = new MemoryStream(imageBytes);
+                ;
+            }
+```
+
 ### See Also
 
 * namespace [Aspose.Cells](../../aspose.cells/)

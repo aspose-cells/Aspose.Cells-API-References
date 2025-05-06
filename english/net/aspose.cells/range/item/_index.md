@@ -22,6 +22,33 @@ public Cell this[int rowOffset, int columnOffset] { get; }
 
 [`Cell`](../../cell/) object.
 
+### Examples
+
+```csharp
+// Called: Assert.IsTrue(destRange[0, 0].GetStyle().Font.IsBold);
+[Test]
+        public void Property_Int32_()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet44456_SourceVar.xlsx&quot;);
+            string sourcefileName = Constants.sourcePath  + &quot;CellsNet44456_SourceVar.xlsx&quot;;
+            string destfileName = Constants.sourcePath  + &quot;CellsNet44456_DestVar.xlsx&quot;;
+
+            var sourceWorkbook = new Workbook(sourcefileName);
+            var destWorkbook = new Workbook(destfileName);
+
+            var destRange = destWorkbook.Worksheets[&quot;Sheet1&quot;].Cells.CreateRange(&quot;A1&quot;, &quot;C2&quot;);
+            var sourceRange = sourceWorkbook.Worksheets[&quot;Sheet1&quot;].Cells.CreateRange(&quot;A5&quot;, &quot;C6&quot;);
+
+            destWorkbook.Worksheets[&quot;Sheet1&quot;].Cells.ClearContents(destRange.FirstRow, destRange.FirstColumn,
+                                                            destRange.FirstRow + destRange.RowCount - 1,
+                                                           destRange.FirstColumn + destRange.ColumnCount - 1);
+
+            destRange.CopyData(sourceRange);
+            Assert.IsTrue(destRange[0, 0].GetStyle().Font.IsBold);
+            destWorkbook.Save(Constants.destPath + &quot;dest.xlsx&quot;);
+        }
+```
+
 ### See Also
 
 * class [Cell](../../cell/)

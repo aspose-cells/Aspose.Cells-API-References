@@ -17,6 +17,24 @@ public SheetSet SheetSet { get; set; }
 
 The set is ignored when it is used in [`SheetRender`](../../../aspose.cells.rendering/sheetrender/)
 
+### Examples
+
+```csharp
+// Called: saveOptions.SheetSet = SheetSet.All;
+[Test]
+        public void Property_SheetSet()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSJAVA46318.xlsx&quot;);
+            MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
+            saveOptions.TableHeaderType = MarkdownTableHeaderType.FirstRow;
+            saveOptions.SheetSet = SheetSet.All;
+            workbook.Save(Constants.destPath + &quot;CELLSJAVA46318.md&quot;, saveOptions);
+            string text = File.ReadAllText(Constants.destPath + &quot;CELLSJAVA46318.md&quot;);
+            Assert.IsTrue(text.IndexOf(&quot;---|&quot;) != -1);
+
+        }
+```
+
 ### See Also
 
 * class [SheetSet](../../../aspose.cells.rendering/sheetset/)

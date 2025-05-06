@@ -13,6 +13,18 @@ Gets/Sets the stream
 public Stream Stream { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: options.Stream.Close();
+public void Property_Stream(StreamProviderOptions options)
+            {
+
+               
+                options.Stream.Close();
+            }
+```
+
 ### See Also
 
 * class [StreamProviderOptions](../)

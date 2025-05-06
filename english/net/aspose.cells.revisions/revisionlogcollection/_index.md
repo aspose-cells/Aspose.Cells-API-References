@@ -55,6 +55,33 @@ public class RevisionLogCollection : CollectionBase<RevisionLog>
 | [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(RevisionLog, int, int) |  |
 | [RemoveAt](../../aspose.cells/collectionbase-1/removeat/)(int) |  |
 
+### Examples
+
+```csharp
+// Called: RevisionLogCollection revisionLogs = workbook.Worksheets.RevisionLogs;
+public static void Type_RevisionLogCollection()
+        {
+            // Instantiate a Workbook object
+            Workbook workbook = new Workbook(&quot;HighlightedChangesWorkbook_original.xlsx&quot;);
+
+            // Get the revision logs
+            RevisionLogCollection revisionLogs = workbook.Worksheets.RevisionLogs;
+
+            // Set the number of days to preserve the history
+            revisionLogs.DaysPreservingHistory = 30;
+
+            // Create HighlightChangesOptions
+            HighlightChangesOptions options = new HighlightChangesOptions(true, true);
+
+            // Highlight changes
+            revisionLogs.HighlightChanges(options);
+
+            // Save the workbook with highlighted changes
+            workbook.Save(&quot;HighlightedChangesWorkbook.xlsx&quot;);
+            workbook.Save(&quot;HighlightedChangesWorkbook.pdf&quot;);
+        }
+```
+
 ### See Also
 
 * class [CollectionBase&lt;T&gt;](../../aspose.cells/collectionbase-1/)

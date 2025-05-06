@@ -25,6 +25,36 @@ public enum OLEDBCommandType
 | WebBasedList | `5` | Specifies a query which is against a web based List Data Provider. |
 | TableCollection | `6` | Specifies the table list. |
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(OLEDBCommandType.TableCollection, conn.CommandType);
+[Test]
+        public void Type_OLEDBCommandType()
+        {
+            Workbook workbook = new Workbook(Constants.PivotTableSourcePath + &quot;CellsNet56651.xlsx&quot;);
+
+            ExternalConnection conn = workbook.Worksheets[0].PivotTables[0].GetSourceDataConnections()[0];
+            Assert.AreEqual(&quot;721&quot;, conn.Name);
+            Assert.AreEqual(ConnectionDataSourceType.OLEDBDataModel, conn.SourceType);
+            Assert.AreEqual(@&quot;\\sqaclient\D-Drive\QA_TEAM_Data\Amit Data\CIMCON&apos;s Data\Accounts\1000 mix files\72.xlsx&quot;,conn.ConnectionFile);
+          
+            Assert.IsTrue(conn.ConnectionString!= null);
+            Assert.AreEqual(OLEDBCommandType.TableCollection, conn.CommandType);
+            Assert.AreEqual(&quot;\&quot;Sheet1$\&quot;&quot;, conn.Command);
+
+            conn = workbook.Worksheets[1].PivotTables[0].GetSourceDataConnections()[0];
+            Assert.AreEqual(&quot;72&quot;, conn.Name);
+            Assert.AreEqual(ConnectionDataSourceType.OLEDBBasedSource, conn.SourceType);
+            Assert.AreEqual(@&quot;\\sqaclient\D-Drive\QA_TEAM_Data\Amit Data\Risk File\External Data\excel query.xlsx&quot;, conn.ConnectionFile);
+           
+            Assert.IsTrue(conn.ConnectionString != null);
+            Assert.AreEqual(OLEDBCommandType.TableName, conn.CommandType);
+            Assert.AreEqual(&quot;Sheet1$&quot;, conn.Command);
+
+        }
+```
+
 ### See Also
 
 * namespace [Aspose.Cells.ExternalConnections](../../aspose.cells.externalconnections/)

@@ -19,6 +19,19 @@ An array of Range objects. If the defined Name's reference is external or has mu
 
 Returns null if the named range does not exist.
 
+### Examples
+
+```csharp
+// Called: Aspose.Cells.Range[] arr = workbook.Worksheets.GetNamedRanges();
+[Test]
+        public void Method_GetNamedRanges()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET40436.xls&quot;);
+            Aspose.Cells.Range[] arr = workbook.Worksheets.GetNamedRanges();
+
+        }
+```
+
 ### See Also
 
 * class [Range](../../range/)

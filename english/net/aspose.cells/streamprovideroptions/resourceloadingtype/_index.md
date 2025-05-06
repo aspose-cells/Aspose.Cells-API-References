@@ -13,6 +13,17 @@ Gets and sets the type of loading resource.
 public ResourceLoadingType ResourceLoadingType { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: options.ResourceLoadingType = ResourceLoadingType.UserProvided;
+public void Property_ResourceLoadingType(StreamProviderOptions options)
+            {
+                options.Stream = File.OpenRead(Constants.sourcePath + &quot;image1.png&quot;);
+                options.ResourceLoadingType = ResourceLoadingType.UserProvided;
+            }
+```
+
 ### See Also
 
 * enum [ResourceLoadingType](../../resourceloadingtype/)

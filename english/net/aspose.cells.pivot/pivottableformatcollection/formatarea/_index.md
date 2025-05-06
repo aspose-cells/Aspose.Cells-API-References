@@ -25,6 +25,31 @@ public PivotTableFormat FormatArea(PivotFieldType axisType, int fieldPosition,
 | isGrandColumn | Boolean | Indicates whether selecting grand total columns. |
 | style | Style | The style which appies to the area of the pivot table. |
 
+### Examples
+
+```csharp
+// Called: pt.PivotFormats.FormatArea(PivotFieldType.Data, 0, PivotFieldSubtotalType.None, PivotTableSelectionType.DataAndLabel, false, false, s);
+[Test]
+        public void Method_Style_()
+        {
+            Workbook workbook = new Workbook(Constants.PivotTableSourcePath + &quot;CELLSJAVA45189.xlsx&quot;);
+            PivotTable pt = workbook.Worksheets[&quot;PIVOT&quot;].PivotTables[0];
+            Style s = workbook.CreateStyle(); //instead of creating a new style
+            s.SetBorder(BorderType.LeftBorder, CellBorderType.Thin, Color.Black);
+            s.SetBorder(BorderType.RightBorder, CellBorderType.Thin, Color.Black);
+            s.SetBorder(BorderType.TopBorder, CellBorderType.Thin, Color.Black);
+            s.SetBorder(BorderType.BottomBorder, CellBorderType.Thin, Color.Black);
+            s.Pattern = BackgroundType.Solid;
+            // s.ForegroundColor = Color.Red;
+            s.BackgroundColor = Color.Red;
+
+            pt.PivotFormats.FormatArea(PivotFieldType.Data, 0, PivotFieldSubtotalType.None, PivotTableSelectionType.DataAndLabel, false, false, s);
+
+            pt.RefreshDataOnOpeningFile = true;
+            workbook.Save(Constants.PivotTableDestPath + &quot;CELLSJAVA45189.xlsx&quot;);
+        }
+```
+
 ### See Also
 
 * class [PivotTableFormat](../../pivottableformat/)

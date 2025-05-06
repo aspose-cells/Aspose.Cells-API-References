@@ -23,6 +23,22 @@ public double GetRowHeight(int row, bool isOriginal, CellsUnitType unitType)
 
 Row's height
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(17, wb.Worksheets[0].Cells.GetRowHeight(1, true, CellsUnitType.Pixel));
+[Test]
+        public void Method_CellsUnitType_()
+        {
+            Workbook wb = new Workbook(Constants.sourcePath + &quot;CELLSNET56650_1.ods&quot;);
+            wb.Worksheets[0].Cells.HideRow(1);
+            wb.Save(Constants.destPath + &quot;CELLSNET56698.ods&quot;);
+            wb = new Workbook(Constants.destPath + &quot;CELLSNET56698.ods&quot;);
+           Assert.AreEqual(85,wb.Worksheets[0].Cells.GetColumnWidth(2, true, CellsUnitType.Pixel));
+            Assert.AreEqual(17, wb.Worksheets[0].Cells.GetRowHeight(1, true, CellsUnitType.Pixel));
+        }
+```
+
 ### See Also
 
 * enum [CellsUnitType](../../cellsunittype/)
@@ -47,6 +63,18 @@ public double GetRowHeight(int row)
 ### Return Value
 
 Height of row
+
+### Examples
+
+```csharp
+// Called: testAreEqual(0, cells.GetRowHeight(3), caseName);
+private void Method_Int32_(Workbook workbook)
+        {
+            Cells cells = workbook.Worksheets[0].Cells;
+            testAreEqual(0, cells.GetRowHeight(3), caseName);
+            testAreEqual(0, cells.GetRowHeight(9), caseName);
+        }
+```
 
 ### See Also
 

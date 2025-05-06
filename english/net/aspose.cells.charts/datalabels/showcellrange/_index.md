@@ -13,6 +13,20 @@ Indicates whether showing cell range as the data labels.
 public bool ShowCellRange { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(chart.NSeries[0].Points[0].DataLabels.ShowCellRange, true);
+[Test]
+        public void Property_ShowCellRange()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSJAVA-41094.xlsx&quot;);
+            Chart chart = workbook.Worksheets[0].Charts[0];
+            Assert.AreEqual(chart.NSeries[0].Points[0].DataLabels.ShowCellRange, true);
+
+        }
+```
+
 ### See Also
 
 * class [DataLabels](../)

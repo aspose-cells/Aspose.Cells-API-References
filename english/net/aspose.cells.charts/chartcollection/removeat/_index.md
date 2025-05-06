@@ -17,6 +17,23 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | The chart index. |
 
+### Examples
+
+```csharp
+// Called: sheet.Charts.RemoveAt(0);
+[Test]
+        public void Method_Int32_()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;TestGridline_001.xls&quot;);
+            Worksheet sheet = workbook.Worksheets[0];
+            int chartCount = sheet.Charts.Count;
+            int shapesCount = sheet.Shapes.Count;
+            sheet.Charts.RemoveAt(0);
+            Assert.AreEqual(chartCount, sheet.Charts.Count + 1);
+            Assert.AreEqual(shapesCount, sheet.Shapes.Count + 1);
+        }
+```
+
 ### See Also
 
 * class [ChartCollection](../)

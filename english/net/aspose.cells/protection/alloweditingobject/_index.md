@@ -13,6 +13,25 @@ Represents if the user is allowed to manipulate drawing objects on a protected w
 public bool AllowEditingObject { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.IsFalse(sheet.Protection.AllowEditingObject);
+[Test]
+        public void Property_AllowEditingObject()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet45687.xml&quot;);
+            Worksheet sheet = workbook.Worksheets[0];
+            Assert.IsFalse(sheet.Protection.AllowEditingScenario);
+            Assert.IsFalse(sheet.Protection.AllowEditingObject);
+            workbook.Save(Constants.destPath + &quot;CellsNet45687.xml&quot;);
+            workbook = new Workbook(Constants.destPath + &quot;CellsNet45687.xml&quot;);
+            Assert.IsFalse(sheet.Protection.AllowEditingScenario);
+            Assert.IsFalse(sheet.Protection.AllowEditingObject);
+            workbook.Save(Constants.destPath + &quot;CellsNet45687.xml&quot;);
+        }
+```
+
 ### See Also
 
 * class [Protection](../)

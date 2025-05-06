@@ -31,6 +31,27 @@ public Shape AddTextEffectInChart(MsoPresetTextEffect effect, string text, strin
 
 Returns a Shape object that represents the new WordArt object.
 
+### Examples
+
+```csharp
+// Called: Shape wordart = chart.Shapes.AddTextEffectInChart(MsoPresetTextEffect.TextEffect2,
+[Test]
+        public void Method_Int32_()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;ReportTest.xls&quot;);
+            Chart chart = workbook.Worksheets[0].Charts[0];
+            Shape wordart = chart.Shapes.AddTextEffectInChart(MsoPresetTextEffect.TextEffect2,
+                &quot;CONFIDENTIAL&quot;, &quot;Arial Black&quot;, 66, false, false
+                 , 1200, 500, 2000, 3000);
+            MsoFillFormat wordArtFormat = wordart.FillFormat;
+            //fillFormat.ForeColor = System.Drawing.Color.Black;
+            wordArtFormat.Transparency = 0.9;
+            MsoLineFormat lineFormat = wordart.LineFormat;
+            lineFormat.IsVisible = false;
+            workbook.Save(Constants.destPath + &quot;Test_WordArt.xls&quot;);
+        }
+```
+
 ### See Also
 
 * class [Shape](../../shape/)

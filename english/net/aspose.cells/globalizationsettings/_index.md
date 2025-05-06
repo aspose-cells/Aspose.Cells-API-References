@@ -62,6 +62,21 @@ public class GlobalizationSettings
 | virtual [GetTableRowTypeOfTotals](../../aspose.cells/globalizationsettings/gettablerowtypeoftotals/)() | Gets the type name of table rows that consists of the total row of referenced table. Default is "Totals", so in formula "#Totals" represents the total row of referenced table. |
 | virtual [GetTotalName](../../aspose.cells/globalizationsettings/gettotalname/)(ConsolidationFunction) | Gets the total name of the function. |
 
+### Examples
+
+```csharp
+// Called: wb.Settings.GlobalizationSettings = new GlobalizationSettings();
+[Test]
+        public void Type_GlobalizationSettings()
+        {
+            Workbook wb = new Workbook();
+            wb.Settings.GlobalizationSettings = new GlobalizationSettings();
+            Cell cell = wb.Worksheets[0].Cells[0, 0];
+            cell.Formula = &quot;=1=1&quot;;
+            Assert.AreEqual(&quot;=1=1&quot;, cell.FormulaLocal, &quot;Cell.FormulaLocal&quot;);
+        }
+```
+
 ### See Also
 
 * namespace [Aspose.Cells](../../aspose.cells/)

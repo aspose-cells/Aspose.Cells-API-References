@@ -13,6 +13,21 @@ Unmerges merged cells of this range.
 public void UnMerge()
 ```
 
+### Examples
+
+```csharp
+// Called: r.UnMerge();
+[Test]
+        public void Method_UnMerge()
+        {
+            Workbook workbook = new Workbook();
+            workbook.Worksheets[0].Cells.Merge(3, 3, 3, 3);
+            Aspose.Cells.Range r = workbook.Worksheets[0].Cells.MaxDisplayRange;
+            r.UnMerge();
+            Assert.AreEqual(0, workbook.Worksheets[0].Cells.GetMergedAreas().Length);
+        }
+```
+
 ### See Also
 
 * class [Range](../)

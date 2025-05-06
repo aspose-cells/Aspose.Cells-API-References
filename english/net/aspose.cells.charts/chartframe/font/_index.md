@@ -13,6 +13,19 @@ Gets a `Font` object of the specified ChartFrame object.
 public virtual Font Font { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(10, chart.Legend.Font.Size);
+[Test]
+        public void Property_Font()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet53283.xlsx&quot;);
+            Chart chart = workbook.Worksheets[0].Charts[0];
+            Assert.AreEqual(10, chart.Legend.Font.Size);
+        }
+```
+
 ### See Also
 
 * class [Font](../../../aspose.cells/font/)

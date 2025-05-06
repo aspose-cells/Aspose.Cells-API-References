@@ -17,6 +17,25 @@ public OdsCellField this[int index] { get; }
 | --- | --- |
 | index | The index. |
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(OdsCellFieldType.Title, sheet.Cells.OdsCellFields[0].FieldType);
+[Test]
+       public void Property_Int32_()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET48653.ods&quot;);
+            Worksheet sheet = workbook.Worksheets[0];
+            Assert.AreEqual(OdsCellFieldType.Title, sheet.Cells.OdsCellFields[0].FieldType);
+            Assert.AreEqual(OdsCellFieldType.SheetName, sheet.Cells.OdsCellFields[1].FieldType);
+            workbook.Save(Constants.destPath + &quot;CELLSNET48653.ods&quot;);
+            workbook = new Workbook(Constants.destPath + &quot;CELLSNET48653.ods&quot;);
+            sheet = workbook.Worksheets[0];
+            Assert.AreEqual(OdsCellFieldType.Title, sheet.Cells.OdsCellFields[0].FieldType);
+            Assert.AreEqual(OdsCellFieldType.SheetName, sheet.Cells.OdsCellFields[1].FieldType);
+        }
+```
+
 ### See Also
 
 * class [OdsCellField](../../odscellfield/)

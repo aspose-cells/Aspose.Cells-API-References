@@ -13,6 +13,29 @@ Indicates whether setting [`QuotePrefix`](../../style/quoteprefix/) property whe
 public bool QuotePrefixToStyle { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: workbook.Settings.QuotePrefixToStyle = true;
+[Test] 
+        public void Property_QuotePrefixToStyle()
+        {
+
+            Workbook workbook = new Workbook();
+            workbook.Settings.QuotePrefixToStyle = true;
+            Cell cell = workbook.Worksheets[0].Cells[&quot;A1&quot;];
+            cell.PutValue(&quot;&apos;abc&quot;);
+            Assert.IsTrue(cell.GetStyle().QuotePrefix);
+            Assert.AreEqual(&quot;abc&quot;, cell.StringValue);
+            workbook.Settings.QuotePrefixToStyle = false;
+            cell = workbook.Worksheets[0].Cells[&quot;A2&quot;];
+            cell.PutValue(&quot;&apos;abc&quot;);
+            Assert.IsFalse(cell.GetStyle().QuotePrefix);
+            Assert.AreEqual(&quot;&apos;abc&quot;, cell.StringValue);
+            workbook.Save(Constants.destPath + &quot;CellsCore45.xlsx&quot;);
+        }
+```
+
 ### See Also
 
 * class [WorkbookSettings](../)

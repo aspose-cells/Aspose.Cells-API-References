@@ -13,6 +13,19 @@ Gets and sets fill type
 public FillType FillType { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: AssertHelper.AreEqual(FillType.Texture, chartarea.Area.FillFormat.FillType, &amp;quot;chartarea.Area.FillFormat.FillType&amp;quot;);
+private void Property_FillType(Workbook workbook)
+        {
+            Worksheet sheet = workbook.Worksheets[&quot;Sheet3&quot;];
+            Chart chart = sheet.Charts[0];
+            ChartArea chartarea = chart.ChartArea;
+            AssertHelper.AreEqual(FillType.Texture, chartarea.Area.FillFormat.FillType, &quot;chartarea.Area.FillFormat.FillType&quot;);
+        }
+```
+
 ### See Also
 
 * enum [FillType](../../filltype/)

@@ -13,6 +13,20 @@ Represents a `FillFormat` object that contains fill formatting properties for th
 public FillFormat FillFormat { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: AssertHelper.AreEqual(FillPattern.ZigZag, p.Area.FillFormat.Pattern, &amp;quot;chart.NSeries[6].Area.FillFormat.Pattern&amp;quot;);
+private void Property_FillFormat(Workbook workbook)
+        {
+            Worksheet sheet = workbook.Worksheets[&quot;Sheet3&quot;];
+            Chart chart = sheet.Charts[0];
+            //Series aseries = chart.NSeries[6];
+            ChartPoint p = chart.NSeries[0].Points[6];
+            AssertHelper.AreEqual(FillPattern.ZigZag, p.Area.FillFormat.Pattern, &quot;chart.NSeries[6].Area.FillFormat.Pattern&quot;);
+        }
+```
+
 ### See Also
 
 * class [FillFormat](../../fillformat/)

@@ -13,6 +13,19 @@ Gets or sets the fill pattern type
 public FillPattern Pattern { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(FillPattern.LightUpwardDiagonal, shape.Fill.PatternFill.Pattern);
+[Test]
+        public void Property_Pattern()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSJAVA45132.xls&quot;);
+            Shape shape = workbook.Worksheets[&quot;Notes (2)&quot;].Shapes[0];
+            Assert.AreEqual(FillPattern.LightUpwardDiagonal, shape.Fill.PatternFill.Pattern);
+        }
+```
+
 ### See Also
 
 * enum [FillPattern](../../fillpattern/)

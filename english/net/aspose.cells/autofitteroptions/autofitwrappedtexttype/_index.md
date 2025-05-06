@@ -13,6 +13,31 @@ Gets and sets the type of auto fitting wrapped text.
 public AutoFitWrappedTextType AutoFitWrappedTextType { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: AutoFitWrappedTextType = AutoFitWrappedTextType.Paragraph
+[Test]
+        public void Property_AutoFitWrappedTextType()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet52332.xlsx&quot;);
+            var worksheet = workbook.Worksheets[&quot;Sheet1&quot;];
+
+            var autoFitOpts = new AutoFitterOptions
+            {
+                IgnoreHidden = true,
+                AutoFitWrappedTextType = AutoFitWrappedTextType.Paragraph
+            };
+
+            worksheet.AutoFitColumns(autoFitOpts);
+            worksheet.PageSetup.PrintArea = &quot;DR_PUBv2_RANGE_1&quot;;
+            workbook.Worksheets.ActiveSheetIndex = worksheet.Index;
+            workbook.Save(Constants.destPath + &quot;CellsNet52332.html&quot;);
+            string text = File.ReadAllText(Constants.destPath + &quot;CellsNet52332.html&quot;);
+            Assert.IsTrue(text.IndexOf(&quot;##&quot;) == -1);
+        }
+```
+
 ### See Also
 
 * enum [AutoFitWrappedTextType](../../autofitwrappedtexttype/)

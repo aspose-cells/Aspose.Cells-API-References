@@ -17,6 +17,23 @@ public bool ValidatePassword(string password)
 | --- | --- | --- |
 | password | String | The specified password. |
 
+### Examples
+
+```csharp
+// Called: Assert.IsTrue(workbook.Settings.WriteProtection.ValidatePassword(&amp;quot;5678&amp;quot;));
+[Test]
+        public void Method_String_()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet43261.xlsb&quot;);
+            Assert.IsTrue(workbook.Settings.WriteProtection.IsWriteProtected);
+            Assert.IsTrue(workbook.Settings.WriteProtection.ValidatePassword(&quot;5678&quot;));
+            workbook.Save(Constants.destPath + &quot;CellsNet43261.xlsb&quot;);
+            workbook = new Workbook(Constants.destPath + &quot;CellsNet43261.xlsb&quot;);
+            Assert.IsTrue(workbook.Settings.WriteProtection.IsWriteProtected);
+            Assert.IsTrue(workbook.Settings.WriteProtection.ValidatePassword(&quot;5678&quot;)); 
+        }
+```
+
 ### See Also
 
 * class [WriteProtection](../)

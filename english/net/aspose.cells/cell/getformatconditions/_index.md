@@ -17,6 +17,32 @@ public FormatConditionCollection[] GetFormatConditions()
 
 Returns [`FormatConditionCollection`](../../formatconditioncollection/) object
 
+### Examples
+
+```csharp
+// Called: Assert.IsTrue(cells[&amp;quot;E2&amp;quot;].GetFormatConditions() != null);
+[Test]
+        public void Method_GetFormatConditions()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet43650.xlsx&quot;);
+         
+
+            Worksheet worksheet = workbook.Worksheets[0];
+
+
+            Cells cells = worksheet.Cells;
+
+
+            //Copy columns does not copy conditional formatting 
+
+            cells.CopyColumns(cells, 1, 4, 2);
+
+            Assert.IsTrue(cells[&quot;E2&quot;].GetFormatConditions() != null);
+
+
+        }
+```
+
 ### See Also
 
 * class [FormatConditionCollection](../../formatconditioncollection/)

@@ -25,6 +25,44 @@ public class ShadowEffect
 | [Size](../../aspose.cells.drawing/shadoweffect/size/) { get; set; } | Gets and sets the size of the shadow. Range from 0 to 2.0. Meaningless in inner shadow. |
 | [Transparency](../../aspose.cells.drawing/shadoweffect/transparency/) { get; set; } | Gets and sets the degree of transparency of the shadow. Range from 0.0 (opaque) to 1.0 (clear). |
 
+### Examples
+
+```csharp
+// Called: ShadowEffect shadow = shape.ShadowEffect;
+[Test]
+        public void Type_ShadowEffect()
+        {
+
+            Workbook book = new Workbook(Constants.sourcePath + &quot;CELLSANDROID66.xlsx&quot;);
+
+            //Access first worksheet from the collection 
+            Worksheet sheet = book.Worksheets[0];
+
+            //Access first shape from the collection 
+            Shape shape = sheet.Shapes[0];
+
+            //Get the instance of ShadowEffect from the Shape object 
+            ShadowEffect shadow = shape.ShadowEffect;
+
+            //Set its Angle, Blur, Size, Transparency and Distance properties 
+            shadow.Angle = (150);
+            shadow.Blur = (30);
+            shadow.Size = (1.3);
+            shadow.Transparency = (0.4);
+            shadow.Distance = (80);
+            book.Save(Constants.destPath + &quot;CELLSANDROID66.xlsx&quot;);
+            book = new Workbook(Constants.destPath + &quot;CELLSANDROID66.xlsx&quot;);
+            shape = book.Worksheets[0].Shapes[0];
+
+            shadow = shape.ShadowEffect;
+            Assert.AreEqual(150, shadow.Angle);
+            Assert.AreEqual(30, shadow.Blur);
+            Assert.AreEqual(1.3, shadow.Size);
+            Assert.AreEqual(0.4, shadow.Transparency);
+            Assert.AreEqual(80, shadow.Distance);
+        }
+```
+
 ### See Also
 
 * namespace [Aspose.Cells.Drawing](../../aspose.cells.drawing/)

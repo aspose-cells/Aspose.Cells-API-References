@@ -21,6 +21,19 @@ public string GetParamText(int index)
 
 literal text of the parameter
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(&amp;quot;B1+B1&amp;quot;, data.GetParamText(0));
+public override void Method_Int32_(CalculationData data)
+            {
+                Assert.AreEqual(&quot;B1+B1&quot;, data.GetParamText(0));
+                Assert.AreEqual(&quot;C1:C5&quot;, data.GetParamText(1));
+                Assert.AreEqual(&quot;SUM(\&quot;test\&quot;)&quot;, data.GetParamText(2));
+                data.CalculatedValue = 0;
+            }
+```
+
 ### See Also
 
 * class [CalculationData](../)

@@ -39,6 +39,40 @@ public class FontConfigs
 | static [SetFontSources](../../aspose.cells/fontconfigs/setfontsources/)(FontSourceBase[]) | Sets the fonts sources. |
 | static [SetFontSubstitutes](../../aspose.cells/fontconfigs/setfontsubstitutes/)(string, string[]) | Font substitute names for given original font name. |
 
+### Examples
+
+```csharp
+// Called: FontConfigs.SetFontFolder(fontFolder, true);
+[Test]
+        public void Type_FontConfigs()
+        {
+            string filePath = Constants.JohnTest_PATH_SOURCE + @&quot;JAVA42899/&quot;;
+
+            String fontFolder = filePath + &quot;font&quot;;
+            FontConfigs.SetFontFolder(fontFolder, true);
+
+            //Load the sample Excel file
+            Workbook workbook = new Workbook(filePath + &quot;test.xlsx&quot;);
+            //Specify Html Save Options
+            HtmlSaveOptions options = new HtmlSaveOptions();
+            //We do not want to export document, workbook and worksheet properties
+            options.ExportDocumentProperties = false;
+            options.ExportWorkbookProperties = false;
+            options.ExportWorksheetProperties = false;
+            options.ExportSimilarBorderStyle = true;
+            options.ExportImagesAsBase64 = false;
+            options.ExcludeUnusedStyles = true;
+            options.ExportHiddenWorksheet = false;
+            options.WidthScalable = false;
+            options.PresentationPreference = true;
+            //Specify HtmlSaveOptions - Hide Overlaid Content with CrossHideRight while saving to Html
+            options.HtmlCrossStringType = HtmlCrossType.CrossHideRight;
+            //Export the Excel file to Html with Html Save Options
+
+            workbook.Save(CreateFolder(filePath) + &quot;out.html&quot;, options);
+        }
+```
+
 ### See Also
 
 * namespace [Aspose.Cells](../../aspose.cells/)

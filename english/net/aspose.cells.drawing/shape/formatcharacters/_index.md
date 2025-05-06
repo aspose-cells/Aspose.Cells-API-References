@@ -20,6 +20,34 @@ public void FormatCharacters(int startIndex, int length, Font font, StyleFlag fl
 | font | Font | The font setting. |
 | flag | StyleFlag | The flag of the font setting. |
 
+### Examples
+
+```csharp
+// Called: tb.FormatCharacters(0, tb.Text.Length, font, flag);
+[Test]
+        public void Method_StyleFlag_()
+        {
+            Workbook workbook = new Workbook();
+            TextBox tb = workbook.Worksheets[0].Shapes.AddTextBox(0, 0, 0, 0, 100, 100);
+            tb.Text = &quot;sd\nsdfsdfsd&quot;;
+
+            tb.Characters(0, 1).Font.IsSuperscript = true;
+            Aspose.Cells.Font font = tb.Font;
+
+
+            font.Size = 7;
+            font.Name = &quot;Meiryo UI&quot;;
+            StyleFlag flag = new StyleFlag();
+            flag.FontSize = true;
+            flag.FontName = true;
+            tb.FormatCharacters(0, tb.Text.Length, font, flag);
+            workbook.Save(Constants.destPath + &quot;CellsNet53357.xlsx&quot;);
+            workbook = new Workbook(Constants.destPath + &quot;CellsNet53357.xlsx&quot;);
+            tb = workbook.Worksheets[0].TextBoxes[0];
+            Assert.AreEqual(&quot;Meiryo UI&quot;, tb.Characters(4, 3).Font.Name);
+        }
+```
+
 ### See Also
 
 * class [Font](../../../aspose.cells/font/)

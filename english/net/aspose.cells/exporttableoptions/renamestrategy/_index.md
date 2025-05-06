@@ -13,6 +13,23 @@ Strategy for duplicate names of columns.
 public RenameStrategy RenameStrategy { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: options.RenameStrategy = RenameStrategy.Letter;
+[Test]
+        public void Property_RenameStrategy()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + @&quot;CellsNet44416.xlsx&quot;);
+            Cells cells = workbook.Worksheets[0].Cells;
+            ExportTableOptions options = new ExportTableOptions();
+            options.RenameStrategy = RenameStrategy.Letter;
+            options.ExportColumnName = true;
+            DataTable dt = cells.ExportDataTable(0, 0, 3, 6, options);
+           Assert.AreEqual(dt.Columns[3].ColumnName,&quot;bA&quot;);
+        }
+```
+
 ### See Also
 
 * enum [RenameStrategy](../../renamestrategy/)

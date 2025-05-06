@@ -13,6 +13,31 @@ Gets and sets the corrected object.
 public object CorrectedObject { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: warningInfo.CorrectedObject = &amp;quot;_&amp;quot; + warningInfo.ErrorObject;
+public void Property_CorrectedObject(WarningInfo warningInfo)
+        {
+            switch (warningInfo.Type)
+            {
+                case ExceptionType.DefinedName:
+                    warningInfo.CorrectedObject = &quot;_&quot; + warningInfo.ErrorObject;
+                    return;
+                case ExceptionType.Font:
+                // throw new CellsException(ExceptionType.InvalidData, warningInfo.Description);
+                case ExceptionType.FileFormat:
+                // throw new CellsException(ExceptionType.UnsupportedStream, &quot;Unsupported file format.&quot;);
+                case ExceptionType.IO:
+                case ExceptionType.InvalidData:
+                case ExceptionType.Limitation:
+                    return;
+                default:
+                    break;
+            }
+        }
+```
+
 ### See Also
 
 * class [WarningInfo](../)

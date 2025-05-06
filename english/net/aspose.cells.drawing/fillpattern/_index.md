@@ -69,6 +69,20 @@ public enum FillPattern
 | SolidDiamond | `49` | Represents solid diamond pattern. |
 | Unknown | `50` | Represents unknown pattern. |
 
+### Examples
+
+```csharp
+// Called: AssertHelper.AreEqual(FillPattern.Gray50, p.Area.FillFormat.Pattern, &amp;quot;chart.NSeries[6].Area.FillFormat.Pattern&amp;quot;);
+private void Type_FillPattern(Workbook workbook)
+        {
+            Worksheet sheet = workbook.Worksheets[&quot;Sheet1&quot;];
+            Chart chart = sheet.Charts[0];
+            //Series aseries = chart.NSeries[6];
+            ChartPoint p = chart.NSeries[0].Points[6];
+            AssertHelper.AreEqual(FillPattern.Gray50, p.Area.FillFormat.Pattern, &quot;chart.NSeries[6].Area.FillFormat.Pattern&quot;);
+        }
+```
+
 ### See Also
 
 * namespace [Aspose.Cells.Drawing](../../aspose.cells.drawing/)

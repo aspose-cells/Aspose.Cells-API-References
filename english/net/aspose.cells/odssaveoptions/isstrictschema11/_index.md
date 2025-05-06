@@ -19,6 +19,40 @@ public bool IsStrictSchema11 { get; set; }
 
 NOTE: This member is now obsolete. Instead, please use OdsSaveOptions.OdfStrictVersion property. This method will be removed 12 months later since February 2024. Aspose apologizes for any inconvenience you may have experienced.
 
+### Examples
+
+```csharp
+// Called: saveOptions.IsStrictSchema11 = true;
+public static void Property_IsStrictSchema11()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells[&quot;A1&quot;].PutValue(&quot;Hello World&quot;);
+
+            // Create an instance of OdsSaveOptions
+            OdsSaveOptions saveOptions = new OdsSaveOptions();
+
+            // Setting properties
+            saveOptions.GeneratorType = OdsGeneratorType.LibreOffice;
+            saveOptions.IsStrictSchema11 = true;
+            saveOptions.OdfStrictVersion = OpenDocumentFormatVersionType.Odf12;
+            saveOptions.ClearData = false;
+            saveOptions.CachedFileFolder = @&quot;C:\Temp&quot;;
+            saveOptions.ValidateMergedAreas = true;
+            saveOptions.MergeAreas = true;
+            saveOptions.SortNames = true;
+            saveOptions.SortExternalNames = true;
+            saveOptions.RefreshChartCache = true;
+            saveOptions.UpdateSmartArt = false;
+
+            // Save the workbook as ODS file with the specified options
+            workbook.Save(&quot;OdsSaveOptionsExample.ods&quot;, saveOptions);
+
+            return;
+        }
+```
+
 ### See Also
 
 * class [OdsSaveOptions](../)

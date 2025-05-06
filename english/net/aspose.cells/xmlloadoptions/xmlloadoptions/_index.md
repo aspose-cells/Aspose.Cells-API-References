@@ -13,6 +13,26 @@ Represents the options of loading xml file.
 public XmlLoadOptions()
 ```
 
+### Examples
+
+```csharp
+// Called: XmlLoadOptions loadOptions = new XmlLoadOptions();
+[Test]
+        public void XmlLoadOptions_Constructor()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET49717.xlsx&quot;);
+            XmlSaveOptions saveOptions = new XmlSaveOptions();
+            saveOptions.SheetNameAsElementName = false;
+            workbook.Save(Constants.destPath + &quot;CELLSNET49717.xml&quot;, saveOptions);
+            XmlLoadOptions loadOptions = new XmlLoadOptions();
+            loadOptions.ContainsMultipleWorksheets = true;
+            workbook = new Workbook(Constants.destPath + &quot;CELLSNET49717.xml&quot;, loadOptions);
+            workbook.Save(Constants.destPath + &quot;CELLSNET49717.xlsx&quot;);
+            Assert.AreEqual(&quot;Firstname&quot;, workbook.Worksheets[0].Cells[&quot;C3&quot;].StringValue);
+            
+        }
+```
+
 ### See Also
 
 * class [XmlLoadOptions](../)

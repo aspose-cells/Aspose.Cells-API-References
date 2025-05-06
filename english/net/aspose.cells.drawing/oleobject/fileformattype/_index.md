@@ -13,6 +13,21 @@ Gets and sets the file type of the embedded ole object data
 public FileFormatType FileFormatType { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(sheet.OleObjects[1].FileFormatType, FileFormatType.Doc);
+[Test]
+        public void Property_FileFormatType()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath +&quot;Embedded.xls&quot;);
+            Worksheet sheet = workbook.Worksheets[&quot;DOC + DOCX&quot;];
+            Assert.AreEqual(sheet.OleObjects[0].FileFormatType, FileFormatType.Docx);
+            Assert.AreEqual(sheet.OleObjects[1].FileFormatType, FileFormatType.Doc);
+            workbook.Save(Constants.destPath + &quot;dest.xls&quot;);
+        }
+```
+
 ### See Also
 
 * enum [FileFormatType](../../../aspose.cells/fileformattype/)

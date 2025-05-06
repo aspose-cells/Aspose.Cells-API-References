@@ -17,6 +17,17 @@ public CalcModeType CalculationMode { get; set; }
 
 This property is only for saving the settings to resultant spreadsheet file so that other applications(such as ms excel) may act accordingly when loading and manipulating the resultant file. For performance consideration for most user's application, we do not calculate any formula in the workbook automatically, no matter what mode has been set for this property. If user needs to calculate formulas, please always call methods on different objects according to requirement: [`CalculateFormula`](../../workbook/calculateformula/), [`CalculateFormula`](../../worksheet/calculateformula/), [`Calculate`](../../cell/calculate/), ...etc.
 
+### Examples
+
+```csharp
+// Called: workbook.Settings.FormulaSettings.CalculationMode, &amp;quot;workbook.Settings.CalcMode&amp;quot;);
+private void Property_CalculationMode(Workbook workbook)
+        {
+            AssertHelper.AreEqual(CalcModeType.AutomaticExceptTable,
+                workbook.Settings.FormulaSettings.CalculationMode, &quot;workbook.Settings.CalcMode&quot;);
+        }
+```
+
 ### See Also
 
 * enum [CalcModeType](../../calcmodetype/)

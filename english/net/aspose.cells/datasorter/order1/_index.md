@@ -13,6 +13,22 @@ Represents sort order of the first key.
 public SortOrder Order1 { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(sorter.Order1, SortOrder.Descending); //Ascending
+[Test]
+        public void Property_Order1()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;Templateexcel3Rowsplu+formula2.xlsx&quot;);
+            ListObject listObject = workbook.Worksheets[0].ListObjects[0];
+            listObject.AutoFilter.Refresh();
+            DataSorter sorter = listObject.AutoFilter.Sorter;
+           Assert.AreEqual(sorter.Order1, SortOrder.Descending); //Ascending
+
+        }
+```
+
 ### See Also
 
 * enum [SortOrder](../../sortorder/)

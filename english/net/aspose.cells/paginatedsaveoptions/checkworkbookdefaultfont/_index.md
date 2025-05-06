@@ -17,6 +17,50 @@ public bool CheckWorkbookDefaultFont { get; set; }
 
 Default is true.
 
+### Examples
+
+```csharp
+// Called: saveOptions.CheckWorkbookDefaultFont = true;
+public static void Property_CheckWorkbookDefaultFont()
+        {
+            // Open an Excel file
+            Workbook workbook = new Workbook(&quot;DocxSaveOptions_original.xlsx&quot;);
+
+            // Create an instance of DocxSaveOptions
+            DocxSaveOptions saveOptions = new DocxSaveOptions();
+
+            // Setting properties
+            saveOptions.DefaultFont = &quot;MS Gothic&quot;;
+            saveOptions.CheckWorkbookDefaultFont = true;
+            saveOptions.CheckFontCompatibility = false;
+            saveOptions.IsFontSubstitutionCharGranularity = true;
+            saveOptions.OnePagePerSheet = true;
+            saveOptions.AllColumnsInOnePagePerSheet = false;
+            saveOptions.IgnoreError = true;
+            saveOptions.OutputBlankPageWhenNothingToPrint = false;
+            saveOptions.PageIndex = 0;  // Starting page index (0-based index)
+            saveOptions.PageCount = 2;  // Number of pages to be printed
+            saveOptions.PrintingPageType = PrintingPageType.IgnoreBlank;
+            saveOptions.GridlineType = GridlineType.Dotted;
+            saveOptions.TextCrossType = TextCrossType.CrossKeep;
+            saveOptions.DefaultEditLanguage = DefaultEditLanguage.CJK;
+            saveOptions.SheetSet = SheetSet.All;
+            saveOptions.ClearData = true;
+            saveOptions.CachedFileFolder = @&quot;C:\Cache&quot;;
+            saveOptions.ValidateMergedAreas = true;
+            saveOptions.MergeAreas = false;
+            saveOptions.SortNames = false;
+            saveOptions.SortExternalNames = true;
+            saveOptions.RefreshChartCache = true;
+            saveOptions.UpdateSmartArt = false;
+
+            // Save the document in DOCX format
+            workbook.Save(&quot;DocxSaveOptionsExample.docx&quot;, saveOptions);
+
+            return;
+        }
+```
+
 ### See Also
 
 * class [PaginatedSaveOptions](../)

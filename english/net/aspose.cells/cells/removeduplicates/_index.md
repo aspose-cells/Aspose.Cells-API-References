@@ -13,6 +13,32 @@ Removes duplicate rows in the sheet.
 public void RemoveDuplicates()
 ```
 
+### Examples
+
+```csharp
+// Called: cells.RemoveDuplicates(); //IndexOutOfRangeException
+[Test]
+        public void Method_RemoveDuplicates()
+        {
+            Workbook wb = new Workbook();
+            Style ds = wb.DefaultStyle;
+            ds.Custom = &quot;00000&quot;;
+            Cells cells = wb.Worksheets[0].Cells;
+            bool odd = false;
+            for (int i = 0; i &lt; 70; i++)
+            {
+                for (int j = odd ? 1 : 0; j &lt; 10; j += 2)
+                {
+                    cells[i, j].PutValue(i * 10 + j);
+                }
+                odd = !odd;
+            }
+            cells.RemoveDuplicates(); //IndexOutOfRangeException
+            Assert.AreEqual(69, cells.MaxDataRow, &quot;MaxDataRow&quot;);
+            Assert.AreEqual(350, cells.Count, &quot;CellCount&quot;);
+        }
+```
+
 ### See Also
 
 * class [Cells](../)
@@ -35,6 +61,20 @@ public void RemoveDuplicates(int startRow, int startColumn, int endRow, int endC
 | startColumn | Int32 | The start column |
 | endRow | Int32 | The end row index. |
 | endColumn | Int32 | The end column index. |
+
+### Examples
+
+```csharp
+// Called: cells.RemoveDuplicates(0, 0, 10, 1);
+[Test]
+        public void Method_Int32_()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET14330.xls&quot;);
+            Cells cells = workbook.Worksheets[0].Cells;
+            cells.RemoveDuplicates(0, 0, 10, 1);
+            Assert.AreEqual(cells[&quot;A3&quot;].StringValue, &quot;dd&quot;);
+        }
+```
 
 ### See Also
 

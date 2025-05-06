@@ -22,6 +22,19 @@ public string GetFormula(bool isR1C1, bool isLocal)
 
 the formula of this cell.
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(fmlStd, cell.GetFormula(false, false), procInfo + &amp;quot;-GetFormula(local as false)&amp;quot;);
+private void Method_Boolean_(string procInfo, Cell cell, string fmlStd, string fmlLoc)
+	    {
+            Assert.AreEqual(fmlStd, cell.Formula, procInfo + &quot;-Formula&quot;);
+            Assert.AreEqual(fmlLoc, cell.FormulaLocal, procInfo + &quot;-FormulaLocal&quot;);
+            Assert.AreEqual(fmlStd, cell.GetFormula(false, false), procInfo + &quot;-GetFormula(local as false)&quot;);
+            Assert.AreEqual(fmlLoc, cell.GetFormula(false, true), procInfo + &quot;-GetFormula(local as true)&quot;);
+        }
+```
+
 ### See Also
 
 * class [Cell](../)

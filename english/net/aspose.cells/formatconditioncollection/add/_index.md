@@ -26,6 +26,35 @@ public int[] Add(CellArea cellArea, FormatConditionType type, OperatorType opera
 
 [0]:Formatting condition object index;[1] Effected cell rang index.
 
+### Examples
+
+```csharp
+// Called: fcc.Add(CellArea.CreateCellArea(0, 0, 4, 0),
+[Test]
+        public void Method_String_()
+        {
+            Workbook wb = new Workbook();
+            Worksheet sheet = wb.Worksheets[0];
+            Cells cells = sheet.Cells;
+            for (int i = 0; i &lt; 5; i++)
+            {
+                cells[i, 0].PutValue(i);
+            }
+            ConditionalFormattingCollection cfc = sheet.ConditionalFormattings;
+            FormatConditionCollection fcc = cfc[cfc.Add()];
+            fcc.Add(CellArea.CreateCellArea(0, 0, 4, 0),
+                FormatConditionType.Expression, OperatorType.None,
+                &quot;=A1&gt;AVERAGE(OFFSET($A$1:$A$5,0,0)-0)&quot;, null);
+            int fontSize = wb.DefaultStyle.Font.Size;
+            fcc[0].Style.Font.Size = fontSize + 2;
+            for (int i = 0; i &lt; 5; i++)
+            {
+                Assert.AreEqual(i &lt; 3 ? fontSize : fontSize + 2,
+                    cells[i, 0].GetDisplayStyle().Font.Size, &quot;Font size of A&quot; + (i + 1));
+            }
+        }
+```
+
 ### See Also
 
 * struct [CellArea](../../cellarea/)

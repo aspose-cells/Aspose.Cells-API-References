@@ -13,6 +13,60 @@ Indicates whether the normalization of height that is to be applied to the text 
 public bool IsNormalizeHeights { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: font.IsNormalizeHeights = false;
+public static void Property_IsNormalizeHeights()
+        {
+            // Instantiating a Workbook object
+            Workbook workbook = new Workbook();
+
+            // Obtaining the reference of the newly added worksheet by passing its sheet index
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Accessing the &quot;A1&quot; cell from the worksheet
+            Aspose.Cells.Cell cell = worksheet.Cells[&quot;A1&quot;];
+
+            // Adding some value to the &quot;A1&quot; cell
+            cell.PutValue(&quot;Hello Aspose!&quot;);
+
+            // Accessing the font object of the cell style
+            Aspose.Cells.Font font = cell.GetStyle().Font;
+
+            // Setting the font name to &quot;Times New Roman&quot;
+            font.Name = &quot;Times New Roman&quot;;
+
+            // Setting font size to 14
+            font.Size = 14;
+
+            // Setting font color as Red
+            font.Color = Color.Red;
+
+            // Setting additional font properties
+            font.IsBold = true;
+            font.IsItalic = true;
+            font.Underline = FontUnderlineType.Single;
+            font.IsStrikeout = false;
+            font.IsSuperscript = false;
+            font.IsSubscript = false;
+            font.Charset = 1;
+            font.CapsType = TextCapsType.None;
+            font.StrikeType = TextStrikeType.None;
+            font.ScriptOffset = 0;
+            font.DoubleSize = 14.0;
+            font.ThemeColor = new ThemeColor(ThemeColorType.Accent1, 0.5);
+            font.ArgbColor = Color.Red.ToArgb();
+            font.IsNormalizeHeights = false;
+            font.SchemeType = FontSchemeType.None;
+
+            // Saving the Excel file
+            workbook.Save(&quot;FontExample.xlsx&quot;);
+            workbook.Save(&quot;FontExample.pdf&quot;);
+            return;
+        }
+```
+
 ### See Also
 
 * class [Font](../)

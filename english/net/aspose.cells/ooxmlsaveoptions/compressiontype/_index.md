@@ -17,6 +17,20 @@ public OoxmlCompressionType CompressionType { get; set; }
 
 The default value is OoxmlCompressionType.Level2.
 
+### Examples
+
+```csharp
+// Called: options.CompressionType = OoxmlCompressionType.Level6;
+[Test]
+        public void Property_CompressionType()
+        {
+            Workbook workbook = new Workbook();
+            OoxmlSaveOptions options = new OoxmlSaveOptions();
+            options.CompressionType = OoxmlCompressionType.Level6;
+            workbook.Save(Constants.destPath + &quot;CellsNet46907.xlsx&quot;, options);
+        }
+```
+
 ### See Also
 
 * enum [OoxmlCompressionType](../../ooxmlcompressiontype/)

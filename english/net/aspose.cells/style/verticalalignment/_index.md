@@ -13,6 +13,18 @@ Gets or sets the vertical alignment type of the text in a cell.
 public TextAlignmentType VerticalAlignment { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: AssertHelper.AreEqual(TextAlignmentType.Bottom, style.VerticalAlignment, &amp;quot;style.HorizontalAlignment&amp;quot;);
+private void Property_VerticalAlignment(Workbook workbook)
+        {
+            Cells cells = workbook.Worksheets[0].Cells;
+            Style style = cells[1, 1].GetStyle();
+            AssertHelper.AreEqual(TextAlignmentType.Bottom, style.VerticalAlignment, &quot;style.HorizontalAlignment&quot;);
+        }
+```
+
 ### See Also
 
 * enum [TextAlignmentType](../../textalignmenttype/)

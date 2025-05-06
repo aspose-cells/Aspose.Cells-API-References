@@ -17,6 +17,40 @@ public int FitToPagesTall { get; set; }
 
 You have to set FitToPagesWide as zero if you want to fit all rows on one page.
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(3, setup.FitToPagesTall);
+[Test]
+        public void Property_FitToPagesTall()
+        {
+            Workbook workbook = new Workbook();
+            PageSetup setup = workbook.Worksheets[0].PageSetup;
+            setup.SetFitToPages(2, 3);
+            Assert.IsFalse(setup.IsPercentScale);
+            Assert.AreEqual(2, setup.FitToPagesWide);
+            Assert.AreEqual(3, setup.FitToPagesTall);
+            workbook.Save(Constants.destPath + &quot;FitPage01.xlsx&quot;);
+            workbook = new Workbook(Constants.destPath + &quot;FitPage01.xlsx&quot;);
+            setup = workbook.Worksheets[0].PageSetup;
+            Assert.IsFalse(setup.IsPercentScale);
+            Assert.AreEqual(2, setup.FitToPagesWide);
+            Assert.AreEqual(3, setup.FitToPagesTall);
+            workbook.Save(Constants.destPath + &quot;FitPage01.xlsb&quot;);
+            workbook = new Workbook(Constants.destPath + &quot;FitPage01.xlsb&quot;);
+            setup = workbook.Worksheets[0].PageSetup;
+            Assert.IsFalse(setup.IsPercentScale);
+            Assert.AreEqual(2, setup.FitToPagesWide);
+            Assert.AreEqual(3, setup.FitToPagesTall);
+            workbook.Save(Constants.destPath + &quot;FitPage01.xls&quot;);
+            workbook = new Workbook(Constants.destPath + &quot;FitPage01.xls&quot;);
+            setup = workbook.Worksheets[0].PageSetup;
+            Assert.IsFalse(setup.IsPercentScale);
+            Assert.AreEqual(2, setup.FitToPagesWide);
+            Assert.AreEqual(3, setup.FitToPagesTall);
+        }
+```
+
 ### See Also
 
 * class [PageSetup](../)

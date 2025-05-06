@@ -13,6 +13,32 @@ Whether check restriction of excel file when user modify cells related objects. 
 public bool CheckExcelRestriction { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: CheckExcelRestriction = true,
+[Test]
+        public void Property_CheckExcelRestriction()
+        {
+            string filePath = Constants.JohnTest_PATH_SOURCE + @&quot;NET46794/&quot;;
+
+            Aspose.Cells.HtmlLoadOptions htmlLoadOptions = new Aspose.Cells.HtmlLoadOptions()
+            {
+                CheckExcelRestriction = true,
+                AutoFitColsAndRows = false,
+                Encoding = Encoding.UTF8,
+                SupportDivTag = false,
+            };
+            string html = File.ReadAllText(filePath + &quot;source - 副本.html&quot;);
+            var workbook = new Workbook(new MemoryStream(Encoding.UTF8.GetBytes(html)), htmlLoadOptions);
+
+            Cells cells = workbook.Worksheets[0].Cells;
+            Assert.AreEqual(cells[&quot;H2&quot;].IsRichText(), true);
+            Assert.AreEqual(&quot;&lt;&gt;&lt;&gt;&lt;&gt;&quot;, cells[&quot;K2&quot;].StringValue);
+            workbook.Save(CreateFolder(filePath) + @&quot;out.xlsx&quot;);
+        }
+```
+
 ### See Also
 
 * class [LoadOptions](../)

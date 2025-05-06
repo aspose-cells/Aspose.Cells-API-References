@@ -20,6 +20,32 @@ public void UnMerge(int firstRow, int firstColumn, int totalRows, int totalColum
 | totalRows | Int32 | Number of rows(one based) |
 | totalColumns | Int32 | Number of columns(one based) |
 
+### Examples
+
+```csharp
+// Called: cells.UnMerge(0, 0, 65536, 256);
+[Test]
+        public void Method_Int32_()
+        {
+            caseName = &quot;testUnMerge_002&quot;;
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;Cells\\cellsMerge_002.xls&quot;);
+            Cells cells = workbook.Worksheets[0].Cells;
+            cells.UnMerge(0, 0, 65536, 256);
+
+            checkUnMerge_001(workbook);
+            workbook.Save(Constants.destPath + &quot; testStandardWidth.xls&quot;);
+            workbook = new Workbook(Constants.destPath + &quot; testStandardWidth.xls&quot;);
+            checkUnMerge_001(workbook);
+            workbook.Save(Constants.destPath + &quot; testStandardWidth.xlsx&quot;);
+            workbook = new Workbook(Constants.destPath + &quot; testStandardWidth.xlsx&quot;);
+            checkUnMerge_001(workbook);
+            workbook.Save(Constants.destPath + &quot; testStandardWidth.xml&quot;, SaveFormat.SpreadsheetML);
+            workbook = new Workbook(Constants.destPath + &quot; testStandardWidth.xml&quot;);
+            checkUnMerge_001(workbook);
+            workbook.Save(Constants.destPath + &quot; testStandardWidth.xls&quot;);
+        }
+```
+
 ### See Also
 
 * class [Cells](../)

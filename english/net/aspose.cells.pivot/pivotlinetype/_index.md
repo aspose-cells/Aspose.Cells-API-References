@@ -22,6 +22,21 @@ public enum PivotLineType
 | GrandTotal | `2` | Grand Total line. |
 | Blank | `3` | Blank line after each group. |
 
+### Examples
+
+```csharp
+// Called: workbook.Worksheets[0].PivotTables[0].RowFields[0].SortBy(SortOrder.Ascending, 0, PivotLineType.Regular, &amp;quot;K15&amp;quot;);
+[Test]
+        public void Type_PivotLineType()
+        {
+            var workbook = new Workbook(Constants.PivotTableSourcePath + &quot;CELLSNET46200_1.xlsx&quot;);
+            workbook.Worksheets[0].PivotTables[0].RowFields[0].SortBy(SortOrder.Ascending, 0, PivotLineType.Regular, &quot;K15&quot;);
+            workbook.Worksheets[0].PivotTables[0].CalculateData();
+            Assert.AreEqual(&quot;1&quot;, workbook.Worksheets[0].Cells[&quot;K17&quot;].StringValue);
+        
+        }
+```
+
 ### See Also
 
 * namespace [Aspose.Cells.Pivot](../../aspose.cells.pivot/)

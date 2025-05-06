@@ -13,6 +13,23 @@ Represents a specified chart's data label percentage value display behavior. Tru
 public bool ShowPercentage { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(chart.NSeries[0].Points[3].DataLabels.ShowPercentage, true);
+[Test]
+        public void Property_ShowPercentage()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;test_176617.xlt&quot;);
+            Chart chart = workbook.Worksheets[0].Charts[1];
+            Aspose.Cells.Cells cells = workbook.Worksheets[0].Cells;
+            cells[&quot;C32&quot;].PutValue(1);
+            cells[&quot;C33&quot;].PutValue(1);
+            Assert.AreEqual(chart.NSeries[0].Points[3].DataLabels.ShowPercentage, true);
+            workbook.Save(Constants.destPath + &quot;Test_176617.xls&quot;);
+        }
+```
+
 ### See Also
 
 * class [DataLabels](../)

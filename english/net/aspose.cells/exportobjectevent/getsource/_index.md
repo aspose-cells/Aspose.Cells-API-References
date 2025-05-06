@@ -17,6 +17,27 @@ public object GetSource()
 
 the object to be exported.
 
+### Examples
+
+```csharp
+// Called: Object source = e.GetSource();
+public object Method_GetSource(ExportObjectEvent e)
+        {
+            Object source = e.GetSource();
+            if (source is Shape)
+            {
+                Shape shape = (Shape)source;
+                return SaveImage(shape);
+            }
+            else if (source is ChartShape)
+            {
+                ChartShape chart = (ChartShape)source;
+                return SaveChart(chart);
+            }
+            return null;
+        }
+```
+
 ### See Also
 
 * class [ExportObjectEvent](../)

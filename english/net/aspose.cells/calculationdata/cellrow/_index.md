@@ -13,6 +13,21 @@ Gets the row index of the cell where the function is in.
 public int CellRow { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: CellRow = data.CellRow;
+public override void Property_CellRow(CalculationData data)
+            {
+                CellRow = data.CellRow;
+                CellColumn = data.CellColumn;
+                BaseCell = data.Cell;
+
+                data.CalculatedValue = data.Worksheet.CalculateArrayFormula(
+                    &quot;=IFERROR(A2:A4,B2:B4)&quot;, new CalculationOptions());
+            }
+```
+
 ### See Also
 
 * class [CalculationData](../)

@@ -13,6 +13,19 @@ Gets or sets the default row height in this worksheet, in unit of points.
 public double StandardHeight { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(12.75, workbook.Worksheets[0].Cells.StandardHeight);
+[Test]
+        public void Property_StandardHeight()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet46198.xlsx&quot;);
+            Assert.AreEqual(12.75, workbook.Worksheets[0].Cells.StandardHeight);
+            workbook.Save(Constants.destPath + &quot;CellsNet46198.xlsx&quot;);
+        }
+```
+
 ### See Also
 
 * class [Cells](../)

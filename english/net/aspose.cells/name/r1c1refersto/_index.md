@@ -13,6 +13,23 @@ Gets or sets a R1C1 reference of the [`Name`](../).
 public string R1C1RefersTo { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: name.R1C1RefersTo = &amp;quot;=Sheet1!R2C10&amp;quot;;
+[Test]
+        public void Property_R1C1RefersTo()
+        {
+            Workbook workbook = new Workbook();
+            workbook.Worksheets.Names.Add(&quot;test&quot;);
+           Name name =  workbook.Worksheets.Names[0];
+           name.R1C1RefersTo = &quot;=Sheet1!R2C10&quot;;
+           workbook.Save(Constants.destPath + &quot;Test_199623.xls&quot;);
+
+
+        }
+```
+
 ### See Also
 
 * class [Name](../)

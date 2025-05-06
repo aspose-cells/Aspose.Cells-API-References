@@ -13,6 +13,23 @@ Indicates whether the cell's value starts with single quote mark.
 public bool QuotePrefix { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.IsTrue(workBook.Worksheets[0].Cells[&amp;quot;B10&amp;quot;].GetStyle().QuotePrefix);
+[Test]
+        public void Property_QuotePrefix()
+        {
+
+            var workBook = new Workbook(Constants.sourcePath + &quot;CELLSNET45504.xml&quot;);
+            // workBook.Worksheets[0].Charts.Clear();
+            Assert.IsTrue(workBook.Worksheets[0].Cells[&quot;B10&quot;].GetStyle().QuotePrefix);
+            workBook.Save(Constants.destPath + &quot;CELLSNET45504.xml&quot;);
+            workBook = new Workbook(Constants.destPath + &quot;CELLSNET45504.xml&quot;);
+            Assert.IsTrue(workBook.Worksheets[0].Cells[&quot;B10&quot;].GetStyle().QuotePrefix);
+        }
+```
+
 ### See Also
 
 * class [Style](../)

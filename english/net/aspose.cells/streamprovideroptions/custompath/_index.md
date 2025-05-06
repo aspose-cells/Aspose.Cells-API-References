@@ -13,6 +13,19 @@ The user custom path(URL) saved in generated html file for the referred source. 
 public string CustomPath { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: options.CustomPath = &amp;quot;image.png&amp;quot;;
+void IStreamProvider.Property_CustomPath(StreamProviderOptions options)
+            {
+                streamProviderOptions = options;
+                string resourcePath = Path.Combine(_outputDirectory, &quot;image.png&quot;);
+                options.Stream = new FileStream(resourcePath, FileMode.Create);
+                options.CustomPath = &quot;image.png&quot;;
+            }
+```
+
 ### See Also
 
 * class [StreamProviderOptions](../)

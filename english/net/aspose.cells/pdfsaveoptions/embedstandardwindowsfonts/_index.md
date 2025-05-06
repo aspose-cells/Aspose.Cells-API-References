@@ -13,6 +13,26 @@ True to embed true type fonts. Affects only ASCII characters 32-127. Fonts for c
 public bool EmbedStandardWindowsFonts { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: options.EmbedStandardWindowsFonts = false;
+[Test]
+        public void Property_EmbedStandardWindowsFonts()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSJAVA-43455.xlsx&quot;);
+            PdfSaveOptions options = new PdfSaveOptions();
+            options.EmbedStandardWindowsFonts = false;
+
+            using (MemoryStream ms = new MemoryStream())
+            {
+                workbook.Save(ms, options);
+
+                Assert.IsTrue(ms.Length &gt; 7 * 1024);
+            }
+        }
+```
+
 ### See Also
 
 * class [PdfSaveOptions](../)

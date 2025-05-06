@@ -22,6 +22,28 @@ public Validation GetValidationInCell(int row, int column)
 
 Returns a [`Validation`](../../validation/) object or null if there is no validation for given cell
 
+### Examples
+
+```csharp
+// Called: var validationForA1 = wksheet.Validations.GetValidationInCell(0, 0);
+[Test]
+        public void Method_Int32_()
+        {
+            LoadOptions options = new LoadOptions(LoadFormat.Xlsx);
+            Workbook wkbook = new Workbook(Constants.sourcePath + &quot;CELLSNET44169.xlsx&quot;, options);
+
+            Worksheet wksheet = wkbook.Worksheets[0];
+
+            var validationForA1 = wksheet.Validations.GetValidationInCell(0, 0);
+            if (validationForA1.Type == ValidationType.List)
+            {
+                StringBuilder sbuf = new StringBuilder();
+                object[] itemArray = (object[])validationForA1.Value1;
+                Assert.AreEqual((string)itemArray[0], &quot;(none)&quot;); 
+            }
+        }
+```
+
 ### See Also
 
 * class [Validation](../../validation/)

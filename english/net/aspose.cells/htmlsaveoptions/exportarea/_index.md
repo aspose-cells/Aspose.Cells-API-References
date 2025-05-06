@@ -13,6 +13,31 @@ Gets or Sets the exporting CellArea of current active Worksheet. If you set this
 public CellArea ExportArea { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: ExportArea = CellArea.CreateCellArea(&amp;quot;A1&amp;quot;, &amp;quot;C6&amp;quot;),
+[Test]
+        public void Property_ExportArea()
+        {
+            using (var wb = new Workbook(Constants.HtmlSourcePath + &quot;CellsNet52181.xlsx&quot;))
+            {
+                var options = new HtmlSaveOptions(SaveFormat.Html)
+                {
+                    Encoding = Encoding.UTF8,
+                    ExportActiveWorksheetOnly = true,
+
+                    ExportArea = CellArea.CreateCellArea(&quot;A1&quot;, &quot;C6&quot;),
+                };
+
+
+                wb.Save(Constants.HtmlDestPath + &quot;CellsNet52181.html&quot;, options);
+                string text = File.ReadAllText(Constants.HtmlDestPath + &quot;CellsNet52181.html&quot;);
+                Assert.IsTrue(text.IndexOf(&quot;&lt;table class=&apos;x21&apos;&quot;) != -1);
+            }
+        }
+```
+
 ### See Also
 
 * struct [CellArea](../../cellarea/)

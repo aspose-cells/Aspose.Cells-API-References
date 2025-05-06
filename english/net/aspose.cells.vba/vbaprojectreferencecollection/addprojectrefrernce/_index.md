@@ -19,6 +19,40 @@ public int AddProjectRefrernce(string name, string absoluteLibid, string relativ
 | absoluteLibid | String | The referenced VBA project's identifier with an absolute path. |
 | relativeLibid | String | The referenced VBA project's identifier with an relative path. |
 
+### Examples
+
+```csharp
+// Called: refs.AddProjectRefrernce(name, @&amp;quot;*\C&amp;quot; + referencePath, @&amp;quot;*\C&amp;quot; + referencePath);
+[Test]
+        public void Method_String_()
+        {
+            Workbook workBook = new Workbook(Constants.sourcePath + &quot;CellsNet44600.xlsm&quot;);
+            VbaProjectReferenceCollection refs = workBook.VbaProject.References;
+
+            string name = &quot;ExternalMakroProject&quot;;
+            string referencePath = @&quot;\\BABARRAZA-PC\Users\Babar Raza\Downloads\shared-folder\ExcelMakros.xla&quot;;
+
+            int foundReferenceIndex = -1;
+
+            for (int i = 0; i &lt; refs.Count; i++)
+            {
+                if (refs[i].Name.Equals(name))
+                {
+                    foundReferenceIndex = i;
+                    break;
+                }
+            }
+
+            if (foundReferenceIndex != -1)
+            {
+                refs.RemoveAt(foundReferenceIndex);
+            }
+            refs.AddProjectRefrernce(name, @&quot;*\C&quot; + referencePath, @&quot;*\C&quot; + referencePath);
+            workBook.Save(Constants.destPath + &quot;CellsNet44600.xlsm&quot;);
+            workBook.Save(Constants.destPath + &quot;CellsNet44600.xlsm&quot;); //&lt;- Exception occurs 
+        }
+```
+
 ### See Also
 
 * class [VbaProjectReferenceCollection](../)

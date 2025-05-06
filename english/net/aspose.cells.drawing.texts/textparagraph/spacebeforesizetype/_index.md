@@ -13,6 +13,35 @@ Gets and sets the amount of vertical white space that will be present before a p
 public LineSpaceSizeType SpaceBeforeSizeType { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(p.SpaceBeforeSizeType, LineSpaceSizeType.Points);
+[Test]
+        public void Property_SpaceBeforeSizeType()
+        {
+            Workbook workbook = new Workbook();
+            workbook.Worksheets[0].Shapes.AddTextBox(0, 0, 0, 0, 400, 400);
+            Shape shape = workbook.Worksheets[0].Shapes[0];
+            shape.Text = &quot;abc\nefg&quot;;
+            TextParagraphCollection paragraphs = shape.TextBody.TextParagraphs;
+            TextParagraph p = paragraphs[1];
+            p.LineSpaceSizeType = LineSpaceSizeType.Points;
+            p.LineSpace = 2;
+            p.SpaceAfter = 3;
+            p.SpaceBefore = 4;
+            workbook.Save(Constants.destPath + &quot;CELLSNET43167.xlsx&quot;);
+            workbook = new Workbook(Constants.destPath + &quot;CELLSNET43167.xlsx&quot;);
+            p = workbook.Worksheets[0].Shapes[0].TextBody.TextParagraphs[1];
+            Assert.AreEqual(p.SpaceBeforeSizeType, LineSpaceSizeType.Points);
+            Assert.AreEqual(p.SpaceAfterSizeType, LineSpaceSizeType.Points);
+            Assert.AreEqual(p.LineSpaceSizeType, LineSpaceSizeType.Points);
+            Assert.AreEqual(2, p.LineSpace);
+            Assert.AreEqual(3, p.SpaceAfter);
+            Assert.AreEqual(4, p.SpaceBefore);
+        }
+```
+
 ### See Also
 
 * enum [LineSpaceSizeType](../../linespacesizetype/)

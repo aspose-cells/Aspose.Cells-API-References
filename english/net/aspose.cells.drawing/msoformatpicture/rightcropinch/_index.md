@@ -13,6 +13,45 @@ Represents the location of the right of the crop rectangle expressed, in unit of
 public double RightCropInch { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: formatPicture.RightCropInch = 0.5;
+public static void Property_RightCropInch()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Add a picture to the worksheet
+            int pictureIndex = sheet.Pictures.Add(5, 5, &quot;MsoFormatPictureDemo.jpg&quot;);
+            Picture picture = sheet.Pictures[pictureIndex];
+
+            // Access the MsoFormatPicture object
+            MsoFormatPicture formatPicture = picture.FormatPicture;
+
+            // Set properties of MsoFormatPicture
+            formatPicture.TopCropInch = 0.5;
+            formatPicture.BottomCropInch = 0.5;
+            formatPicture.LeftCropInch = 0.5;
+            formatPicture.RightCropInch = 0.5;
+            formatPicture.Transparency = 0.5;
+            formatPicture.Contrast = 0.8;
+            formatPicture.Brightness = 0.6;
+            formatPicture.Gamma = 1.0;
+            formatPicture.IsBiLevel = false;
+            formatPicture.IsGray = false;
+
+            // Set the transparent color
+            CellsColor transparentColor = workbook.CreateCellsColor();
+            transparentColor.Color = Color.White;
+            formatPicture.TransparentColor = transparentColor;
+
+            // Save the workbook
+            workbook.Save(&quot;MsoFormatPictureDemo.xlsx&quot;);
+        }
+```
+
 ### See Also
 
 * class [MsoFormatPicture](../)

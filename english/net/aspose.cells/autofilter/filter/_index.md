@@ -22,6 +22,28 @@ public void Filter(int fieldIndex, string criteria)
 
 Aspose.Cells will remove all other filter setting on this field as Ms Excel 97-2003.
 
+### Examples
+
+```csharp
+// Called: autofilter1.Filter(0, &amp;quot;A&amp;quot;);
+[Test]
+        public void Method_String_()
+        {
+            Workbook wb = new Workbook(Constants.sourcePath + &quot;AutoFilter/N22617.xls&quot;);
+
+            Worksheet sheet = wb.Worksheets[0];
+            AutoFilter autofilter1 = sheet.AutoFilter;
+
+            autofilter1.Range = &quot;A1:B1&quot;;
+            autofilter1.Filter(0, &quot;A&quot;);
+            autofilter1.Refresh();
+            sheet.Cells.HideRow(1);
+            wb.Save(Constants.destPath +&quot;filteredBook2.xls&quot;);
+            wb = new Workbook(Constants.destPath + &quot;filteredBook2.xls&quot;);
+            Assert.AreEqual(0.0, wb.Worksheets[0].Cells.GetRowHeight(1));
+        }
+```
+
 ### See Also
 
 * class [AutoFilter](../)

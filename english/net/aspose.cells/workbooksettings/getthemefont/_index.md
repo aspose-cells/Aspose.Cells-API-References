@@ -17,6 +17,20 @@ public string GetThemeFont(FontSchemeType type)
 | --- | --- | --- |
 | type | FontSchemeType | The scheme type of the font. |
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(&amp;quot;Cambria&amp;quot;, wb.Settings.GetThemeFont(FontSchemeType.Major));
+[Test]
+        public void Method_FontSchemeType_()
+        {
+            Workbook wb = new Workbook(Constants.sourcePath + &quot;CELLSNET-49334.xls&quot;);
+
+            Assert.AreEqual(&quot;Calibri&quot;, wb.Settings.GetThemeFont(FontSchemeType.Minor));
+            Assert.AreEqual(&quot;Cambria&quot;, wb.Settings.GetThemeFont(FontSchemeType.Major));
+        }
+```
+
 ### See Also
 
 * enum [FontSchemeType](../../fontschemetype/)

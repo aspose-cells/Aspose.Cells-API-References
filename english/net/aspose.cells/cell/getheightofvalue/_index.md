@@ -13,6 +13,18 @@ Gets the height of the value in unit of pixels.
 public int GetHeightOfValue()
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(0, workbook.Worksheets[0].Cells[&amp;quot;A1&amp;quot;].GetHeightOfValue());
+[Test]
+        public void Method_GetHeightOfValue()
+        {
+            Workbook workbook = new Workbook();
+            Assert.AreEqual(0, workbook.Worksheets[0].Cells[&quot;A1&quot;].GetHeightOfValue());
+        }
+```
+
 ### See Also
 
 * class [Cell](../)

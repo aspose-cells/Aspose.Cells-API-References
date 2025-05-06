@@ -30,6 +30,19 @@ public class FileFormatUtil
 | static [SaveFormatToLoadFormat](../../aspose.cells/fileformatutil/saveformattoloadformat/)(SaveFormat) | Converts a SaveFormat value to a LoadFormat value if possible. |
 | static [VerifyPassword](../../aspose.cells/fileformatutil/verifypassword/)(Stream, string) | Detects and returns the information about a format of an excel stored in a stream. |
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(FileFormatUtil.DetectFileFormat(Constants.sourcePath + &amp;quot;Excel2.1.xls&amp;quot;).FileFormatType, FileFormatType.Excel2);
+[Test]
+        public void Type_FileFormatUtil()
+        {
+            Assert.AreEqual(FileFormatUtil.DetectFileFormat(Constants.sourcePath + &quot;Excel2.1.xls&quot;).FileFormatType, FileFormatType.Excel2);
+            Assert.AreEqual(FileFormatUtil.DetectFileFormat(Constants.sourcePath + &quot;Excel95.xls&quot;).FileFormatType, FileFormatType.Excel95);
+            Assert.AreEqual(FileFormatUtil.DetectFileFormat(Constants.sourcePath + &quot;WebPage.xls&quot;).FileFormatType, FileFormatType.Html);
+        }
+```
+
 ### See Also
 
 * namespace [Aspose.Cells](../../aspose.cells/)

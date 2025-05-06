@@ -18,6 +18,18 @@ public void CustomPaperSize(double width, double height)
 | width | Double | The width of the paper. |
 | height | Double | The height of the paper. |
 
+### Examples
+
+```csharp
+// Called: workbook.Worksheets[0].PageSetup.CustomPaperSize(1.5,1.5);
+[Test]
+        public void Method_Double_()
+        {
+            Workbook workbook = new Workbook();
+            workbook.Worksheets[0].PageSetup.CustomPaperSize(1.5,1.5);
+        }
+```
+
 ### See Also
 
 * class [PageSetup](../)

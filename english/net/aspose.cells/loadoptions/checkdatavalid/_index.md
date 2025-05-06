@@ -13,6 +13,20 @@ Check whether data is valid in the template file.
 public bool CheckDataValid { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: options.CheckDataValid = true;
+[Test]
+        public void Property_CheckDataValid()
+        {
+            LoadOptions options = new LoadOptions();
+            options.CheckDataValid = true;
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSJAVA-43118.xls&quot;, options);
+            workbook.Save(Constants.destPath + &quot;CELLSJAVA-43118.pdf&quot;);
+        }
+```
+
 ### See Also
 
 * class [LoadOptions](../)

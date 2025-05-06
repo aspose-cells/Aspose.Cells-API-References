@@ -13,6 +13,22 @@ Represents the scaling factor in percent. It should be between 10 and 400.
 public int Zoom { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: int x = workbook.Worksheets[0].PageSetup.Zoom;
+[Test]
+        public void Property_Zoom()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;J41473.xlsx&quot;);
+            int x = workbook.Worksheets[0].PageSetup.Zoom;
+            workbook.Save(Constants.destPath + &quot;J41473.xlsx&quot;);
+            workbook = new Workbook(Constants.destPath + &quot;J41473.xlsx&quot;);
+            Assert.AreEqual(x, workbook.Worksheets[0].PageSetup.Zoom);
+
+        }
+```
+
 ### See Also
 
 * class [PageSetup](../)

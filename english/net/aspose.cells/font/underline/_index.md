@@ -13,6 +13,22 @@ Gets or sets the font underline type.
 public FontUnderlineType Underline { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(wb.Worksheets[1].Cells[&amp;quot;B1&amp;quot;].GetStyle().Font.Underline, FontUnderlineType.None);
+[Test]
+        public void Property_Underline()
+        {
+            Workbook wb = new Workbook(Constants.HtmlPath + &quot;CELLSJAVA-45582.xlsx&quot;);
+            wb.Save(_destFilesPath + &quot;CELLSJAVA-45582.html&quot;, new HtmlSaveOptions());
+            wb = new Workbook(_destFilesPath + &quot;CELLSJAVA-45582.html&quot;);
+            Assert.AreEqual(wb.Worksheets[0].Cells[&quot;Q17&quot;].GetStyle().Font.Underline, FontUnderlineType.None);
+            Assert.AreEqual(wb.Worksheets[1].Cells[&quot;A1&quot;].GetStyle().Font.Underline, FontUnderlineType.Single);
+            Assert.AreEqual(wb.Worksheets[1].Cells[&quot;B1&quot;].GetStyle().Font.Underline, FontUnderlineType.None);
+        }
+```
+
 ### See Also
 
 * enum [FontUnderlineType](../../fontunderlinetype/)

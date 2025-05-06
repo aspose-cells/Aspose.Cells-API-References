@@ -17,6 +17,37 @@ public bool EncryptDocumentProperties { get; set; }
 
 Only for .xls,xlsx,xlsb and xlsm file.
 
+### Examples
+
+```csharp
+// Called: saveOptions.EncryptDocumentProperties = false;
+[Test]
+        public void Property_EncryptDocumentProperties()
+        {
+            var filePath = Constants.sourcePath + &quot;CellsNet56344.xls&quot;;
+            var loadOptions = new LoadOptions();
+            loadOptions.Password = &quot;test&quot;;
+
+            Console.WriteLine(DateTime.Now);
+            Workbook workbook = new Workbook(filePath, loadOptions);
+            //Console.WriteLine(workbook.Settings.WriteProtection.IsWriteProtected);
+            workbook.Settings.Password = null;
+            workbook.Save(Constants.destPath + &quot;CellsNet56344.xlsx&quot;);
+
+            workbook = new Workbook(Constants.destPath + &quot;CellsNet56344.xlsx&quot;);
+            workbook.Settings.Password = &quot;1&quot;;
+            XlsSaveOptions saveOptions = new XlsSaveOptions();
+            saveOptions.EncryptDocumentProperties = false;
+            workbook.Save(Constants.destPath + &quot;CellsNet56344.xls&quot;, saveOptions);
+
+            LoadOptions xlsOptions = new LoadOptions();
+            xlsOptions.Password = &quot;1&quot;;
+            workbook = new Workbook(Constants.destPath + &quot;CellsNet56344.xls&quot;, xlsOptions);
+            //Litera Metadact Properties Document
+            Console.WriteLine(&quot;Litera Metadact Properties Document&quot;,workbook.BuiltInDocumentProperties.Title);
+        }
+```
+
 ### See Also
 
 * class [SaveOptions](../)

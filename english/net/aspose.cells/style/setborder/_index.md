@@ -23,6 +23,182 @@ public bool SetBorder(BorderType borderType, CellBorderType borderStyle, Color b
 
 Whether current border settings have been changed.
 
+### Examples
+
+```csharp
+// Called: style.SetBorder(BorderType.LeftBorder, pHigh, Color.Red);
+private void Method_Color_(CellBorderType pLow, CellBorderType pMid, CellBorderType pHigh)
+        {
+            Workbook wb = new Workbook();
+            Cells cells = wb.Worksheets[0].Cells;
+            cells.Columns[2].IsHidden = true;
+            Style style = wb.CreateStyle();
+            int row = 0;
+            style.SetBorder(BorderType.RightBorder, pLow, Color.Red);
+            cells[row, 1].SetStyle(style);
+            style = wb.CreateStyle();
+            style.SetBorder(BorderType.LeftBorder, pLow, Color.Red);
+            style.SetBorder(BorderType.RightBorder, pHigh, Color.Red);
+            cells[row, 2].SetStyle(style);
+            style = wb.CreateStyle();
+            style.SetBorder(BorderType.LeftBorder, pHigh, Color.Red);
+            cells[row, 3].SetStyle(style);
+            Assert.AreEqual(pLow, cells[row, 1].GetStyle().Borders[BorderType.RightBorder].LineStyle,
+                &quot;B&quot; + (row + 1) + &quot;.Style.RightBorder&quot;);
+            Assert.AreEqual(pHigh, cells[row, 3].GetStyle().Borders[BorderType.LeftBorder].LineStyle,
+                &quot;D&quot; + (row + 1) + &quot;.Style.LeftBorder&quot;);
+            Assert.AreEqual(pHigh, cells[row, 1].GetDisplayStyle().Borders[BorderType.RightBorder].LineStyle,
+                &quot;B&quot; + (row + 1) + &quot;.DisplayStyle.RightBorder&quot;);
+            Assert.AreEqual(pHigh, cells[row, 3].GetDisplayStyle().Borders[BorderType.LeftBorder].LineStyle,
+                &quot;D&quot; + (row + 1) + &quot;.DisplayStyle.LeftBorder&quot;);
+            row++;
+            style = wb.CreateStyle();
+            style.SetBorder(BorderType.RightBorder, pHigh, Color.Red);
+            cells[row, 1].SetStyle(style);
+            style = wb.CreateStyle();
+            style.SetBorder(BorderType.LeftBorder, pHigh, Color.Red);
+            style.SetBorder(BorderType.RightBorder, pLow, Color.Red);
+            cells[row, 2].SetStyle(style);
+            style = wb.CreateStyle();
+            style.SetBorder(BorderType.LeftBorder, pLow, Color.Red);
+            cells[row, 3].SetStyle(style);
+            Assert.AreEqual(pHigh, cells[row, 1].GetStyle().Borders[BorderType.RightBorder].LineStyle,
+                &quot;B&quot; + (row + 1) + &quot;.Style.RightBorder&quot;);
+            Assert.AreEqual(pLow, cells[row, 3].GetStyle().Borders[BorderType.LeftBorder].LineStyle,
+                &quot;D&quot; + (row + 1) + &quot;.Style.LeftBorder&quot;);
+            Assert.AreEqual(pHigh, cells[row, 1].GetDisplayStyle().Borders[BorderType.RightBorder].LineStyle,
+                &quot;B&quot; + (row + 1) + &quot;.DisplayStyle.RightBorder&quot;);
+            Assert.AreEqual(pHigh, cells[row, 3].GetDisplayStyle().Borders[BorderType.LeftBorder].LineStyle,
+                &quot;D&quot; + (row + 1) + &quot;.DisplayStyle.LeftBorder&quot;);
+
+            row++;
+            style.SetBorder(BorderType.RightBorder, pLow, Color.Red);
+            cells[row, 1].SetStyle(style);
+            style = wb.CreateStyle();
+            style.SetBorder(BorderType.LeftBorder, pMid, Color.Red);
+            style.SetBorder(BorderType.RightBorder, pHigh, Color.Red);
+            cells[row, 2].SetStyle(style);
+            style = wb.CreateStyle();
+            style.SetBorder(BorderType.LeftBorder, pMid, Color.Red);
+            cells[row, 3].SetStyle(style);
+            Assert.AreEqual(pMid, cells[row, 1].GetStyle().Borders[BorderType.RightBorder].LineStyle,
+                &quot;B&quot; + (row + 1) + &quot;.Style.RightBorder&quot;);
+            Assert.AreEqual(pHigh, cells[row, 3].GetStyle().Borders[BorderType.LeftBorder].LineStyle,
+                &quot;D&quot; + (row + 1) + &quot;.Style.LeftBorder&quot;);
+            Assert.AreEqual(pMid, cells[row, 1].GetDisplayStyle().Borders[BorderType.RightBorder].LineStyle,
+                &quot;B&quot; + (row + 1) + &quot;.DisplayStyle.RightBorder&quot;);
+            Assert.AreEqual(pMid, cells[row, 3].GetDisplayStyle().Borders[BorderType.LeftBorder].LineStyle,
+                &quot;D&quot; + (row + 1) + &quot;.DisplayStyle.LeftBorder&quot;);
+            row++;
+            style = wb.CreateStyle();
+            style.SetBorder(BorderType.RightBorder, pHigh, Color.Red);
+            cells[row, 1].SetStyle(style);
+            style = wb.CreateStyle();
+            style.SetBorder(BorderType.LeftBorder, pMid, Color.Red);
+            style.SetBorder(BorderType.RightBorder, pMid, Color.Red);
+            cells[row, 2].SetStyle(style);
+            style = wb.CreateStyle();
+            style.SetBorder(BorderType.LeftBorder, pLow, Color.Red);
+            cells[row, 3].SetStyle(style);
+            Assert.AreEqual(pHigh, cells[row, 1].GetStyle().Borders[BorderType.RightBorder].LineStyle,
+                &quot;B&quot; + (row + 1) + &quot;.Style.RightBorder&quot;);
+            Assert.AreEqual(pMid, cells[row, 3].GetStyle().Borders[BorderType.LeftBorder].LineStyle,
+                &quot;D&quot; + (row + 1) + &quot;.Style.LeftBorder&quot;);
+            Assert.AreEqual(pHigh, cells[row, 1].GetDisplayStyle().Borders[BorderType.RightBorder].LineStyle,
+                &quot;B&quot; + (row + 1) + &quot;.DisplayStyle.RightBorder&quot;);
+            Assert.AreEqual(pHigh, cells[row, 3].GetDisplayStyle().Borders[BorderType.LeftBorder].LineStyle,
+                &quot;D&quot; + (row + 1) + &quot;.DisplayStyle.LeftBorder&quot;);
+
+            row++;
+            style = wb.CreateStyle();
+            style.SetBorder(BorderType.LeftBorder, pLow, Color.Red);
+            style.SetBorder(BorderType.RightBorder, pHigh, Color.Red);
+            cells[row, 2].SetStyle(style);
+            Assert.AreEqual(CellBorderType.None, cells[row, 1].GetDisplayStyle().Borders[BorderType.RightBorder].LineStyle,
+                &quot;B&quot; + (row + 1) + &quot;.RightBorder&quot;);
+            Assert.AreEqual(CellBorderType.None, cells[row, 3].GetDisplayStyle().Borders[BorderType.LeftBorder].LineStyle,
+                &quot;D&quot; + (row + 1) + &quot;.LeftBorder&quot;);
+            row++;
+            style = wb.CreateStyle();
+            style.SetBorder(BorderType.LeftBorder, pHigh, Color.Red);
+            style.SetBorder(BorderType.RightBorder, pLow, Color.Red);
+            cells[row, 2].SetStyle(style);
+            Assert.AreEqual(CellBorderType.None, cells[row, 1].GetDisplayStyle().Borders[BorderType.RightBorder].LineStyle,
+                &quot;B&quot; + (row + 1) + &quot;.RightBorder&quot;);
+            Assert.AreEqual(CellBorderType.None, cells[row, 3].GetDisplayStyle().Borders[BorderType.LeftBorder].LineStyle,
+                &quot;D&quot; + (row + 1) + &quot;.LeftBorder&quot;);
+
+            row++;
+            style = wb.CreateStyle();
+            style.SetBorder(BorderType.RightBorder, pLow, Color.Red);
+            cells[row, 1].SetStyle(style);
+            style = wb.CreateStyle();
+            style.SetBorder(BorderType.RightBorder, pHigh, Color.Red);
+            cells[row, 2].SetStyle(style);
+            Assert.AreEqual(pLow, cells[row, 1].GetDisplayStyle().Borders[BorderType.RightBorder].LineStyle,
+                &quot;B&quot; + (row + 1) + &quot;.RightBorder&quot;);
+            Assert.AreEqual(pLow, cells[row, 3].GetDisplayStyle().Borders[BorderType.LeftBorder].LineStyle,
+                &quot;D&quot; + (row + 1) + &quot;.LeftBorder&quot;);
+            row++;
+            style = wb.CreateStyle();
+            style.SetBorder(BorderType.RightBorder, pHigh, Color.Red);
+            cells[row, 1].SetStyle(style);
+            style = wb.CreateStyle();
+            style.SetBorder(BorderType.RightBorder, pLow, Color.Red);
+            cells[row, 2].SetStyle(style);
+            Assert.AreEqual(pHigh, cells[row, 1].GetDisplayStyle().Borders[BorderType.RightBorder].LineStyle,
+                &quot;B&quot; + (row + 1) + &quot;.RightBorder&quot;);
+            Assert.AreEqual(pHigh, cells[row, 3].GetDisplayStyle().Borders[BorderType.LeftBorder].LineStyle,
+                &quot;D&quot; + (row + 1) + &quot;.LeftBorder&quot;);
+
+            row++;
+            style = wb.CreateStyle();
+            style.SetBorder(BorderType.LeftBorder, pLow, Color.Red);
+            cells[row, 2].SetStyle(style);
+            style = wb.CreateStyle();
+            style.SetBorder(BorderType.LeftBorder, pHigh, Color.Red);
+            cells[row, 3].SetStyle(style);
+            Assert.AreEqual(pHigh, cells[row, 1].GetDisplayStyle().Borders[BorderType.RightBorder].LineStyle,
+                &quot;B&quot; + (row + 1) + &quot;.RightBorder&quot;);
+            Assert.AreEqual(pHigh, cells[row, 3].GetDisplayStyle().Borders[BorderType.LeftBorder].LineStyle,
+                &quot;D&quot; + (row + 1) + &quot;.LeftBorder&quot;);
+            row++;
+            style = wb.CreateStyle();
+            style.SetBorder(BorderType.LeftBorder, pHigh, Color.Red);
+            cells[row, 2].SetStyle(style);
+            style = wb.CreateStyle();
+            style.SetBorder(BorderType.LeftBorder, pLow, Color.Red);
+            cells[row, 3].SetStyle(style);
+            Assert.AreEqual(pLow, cells[row, 1].GetDisplayStyle().Borders[BorderType.RightBorder].LineStyle,
+                &quot;B&quot; + (row + 1) + &quot;.RightBorder&quot;);
+            Assert.AreEqual(pLow, cells[row, 3].GetDisplayStyle().Borders[BorderType.LeftBorder].LineStyle,
+                &quot;D&quot; + (row + 1) + &quot;.LeftBorder&quot;);
+
+            row++;
+            style = wb.CreateStyle();
+            style.SetBorder(BorderType.RightBorder, pLow, Color.Red);
+            cells[row, 1].SetStyle(style);
+            style = wb.CreateStyle();
+            style.SetBorder(BorderType.LeftBorder, pHigh, Color.Red);
+            cells[row, 3].SetStyle(style);
+            Assert.AreEqual(pHigh, cells[row, 1].GetDisplayStyle().Borders[BorderType.RightBorder].LineStyle,
+                &quot;B&quot; + (row + 1) + &quot;.RightBorder&quot;);
+            Assert.AreEqual(pHigh, cells[row, 3].GetDisplayStyle().Borders[BorderType.LeftBorder].LineStyle,
+                &quot;D&quot; + (row + 1) + &quot;.LeftBorder&quot;);
+            row++;
+            style = wb.CreateStyle();
+            style.SetBorder(BorderType.RightBorder, pHigh, Color.Red);
+            cells[row, 1].SetStyle(style);
+            style = wb.CreateStyle();
+            style.SetBorder(BorderType.LeftBorder, pLow, Color.Red);
+            cells[row, 3].SetStyle(style);
+            Assert.AreEqual(pHigh, cells[row, 1].GetDisplayStyle().Borders[BorderType.RightBorder].LineStyle,
+                &quot;B&quot; + (row + 1) + &quot;.RightBorder&quot;);
+            Assert.AreEqual(pHigh, cells[row, 3].GetDisplayStyle().Borders[BorderType.LeftBorder].LineStyle,
+                &quot;D&quot; + (row + 1) + &quot;.LeftBorder&quot;);
+        }
+```
+
 ### See Also
 
 * enum [BorderType](../../bordertype/)

@@ -25,6 +25,21 @@ The automatic page breaks areas.
 
 Each cell area represents a paper.
 
+### Examples
+
+```csharp
+// Called: CellArea[] cellAreas = wb.Worksheets[0].GetPrintingPageBreaks(new ImageOrPrintOptions());
+[Test]
+        public void Method_ImageOrPrintOptions_()
+        {
+            Workbook wb = new Workbook(Constants.sourcePath + &quot;CELLSNET-49873.xlsx&quot;);
+
+            CellArea[] cellAreas = wb.Worksheets[0].GetPrintingPageBreaks(new ImageOrPrintOptions());
+
+            Assert.AreEqual(55, cellAreas[0].EndRow);
+        }
+```
+
 ### See Also
 
 * struct [CellArea](../../cellarea/)

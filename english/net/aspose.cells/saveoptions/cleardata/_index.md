@@ -13,6 +13,21 @@ Make the workbook empty after saving the file.
 public bool ClearData { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: pdfSaveOptions.ClearData = true;
+[Test]
+        public void Property_ClearData()
+        {
+            string FileName = Constants.sourcePath + &quot;TestWorkbook\\Book2.xls&quot;;
+            Workbook workbook = new Workbook(FileName);
+            PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
+            pdfSaveOptions.ClearData = true;
+            workbook.Save(Constants.destPath + &quot;testSave.pdf&quot;, pdfSaveOptions);
+        }
+```
+
 ### See Also
 
 * class [SaveOptions](../)

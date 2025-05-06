@@ -13,6 +13,25 @@ Indicates whether searched cell value type should be same with the searched key.
 public bool ValueTypeSensitive { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: rangeOptions.ValueTypeSensitive = true;
+[TestFixtureSetUp]
+#endif
+        public void Property_ValueTypeSensitive()
+        {
+            Aspose.Cells.License license = new Aspose.Cells.License();
+            license.SetLicense(Constants.licPath);
+            options = new FindOptions();
+            options.LookAtType = LookAtType.EntireContent;
+            options.ValueTypeSensitive = true;
+            rangeOptions = new FindOptions();
+            rangeOptions.ValueTypeSensitive = true;
+            rangeOptions.LookAtType = LookAtType.EntireContent;
+        }
+```
+
 ### See Also
 
 * class [FindOptions](../)

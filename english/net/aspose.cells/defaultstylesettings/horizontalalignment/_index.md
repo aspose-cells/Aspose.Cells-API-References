@@ -13,6 +13,37 @@ Gets/Sets the default value for horizontal alignment
 public TextAlignmentType HorizontalAlignment { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: defaultStyleSettings.HorizontalAlignment = TextAlignmentType.Center;
+public static void Property_HorizontalAlignment()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the default style settings of the workbook
+            DefaultStyleSettings defaultStyleSettings = workbook.Settings.DefaultStyleSettings;
+
+            // Setting properties
+            defaultStyleSettings.BuiltInPreference = false;
+            defaultStyleSettings.FontName = &quot;Arial&quot;;
+            defaultStyleSettings.FontSize = 12.0;
+            defaultStyleSettings.HorizontalAlignment = TextAlignmentType.Center;
+            defaultStyleSettings.VerticalAlignment = TextAlignmentType.Center;
+
+            // Apply the default style settings to the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells.ApplyStyle(workbook.CreateStyle(), new StyleFlag() { All = true });
+
+            // Save the workbook
+            workbook.Save(&quot;DefaultStyleSettingsExample.xlsx&quot;);
+            workbook.Save(&quot;DefaultStyleSettingsExample.pdf&quot;);
+
+            return;
+        }
+```
+
 ### See Also
 
 * enum [TextAlignmentType](../../textalignmenttype/)

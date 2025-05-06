@@ -13,6 +13,36 @@ Get the[`ConditionalFormattingIcon`](../../conditionalformattingicon/) from the 
 public ConditionalFormattingIconCollection CfIcons { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: ConditionalFormattingIconCollection iconCollection = condition.IconSet.CfIcons;
+[Test]
+        public void Property_CfIcons()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;ConditionalFormattings/CELLSJAVA42328.xlsm&quot;);
+            Worksheet sheet1 = workbook.Worksheets[1];
+
+            ConditionalFormattingCollection collection = sheet1.ConditionalFormattings;
+            //  for(int i = 0; i &lt; collection.Count; i++)
+            {
+                int i = 2;
+                FormatConditionCollection conditionCollection = collection[i];
+
+            //    for (int j = 0; j &lt; conditionCollection.Count; j++)
+                {
+                    FormatCondition condition = conditionCollection[0];
+                    //if(condition.getType() == FormatConditionType.ICON_SET){ 
+                    ConditionalFormattingIconCollection iconCollection = condition.IconSet.CfIcons;
+
+                    Assert.AreEqual(2, iconCollection[0].Index);
+                    Assert.AreEqual(2, iconCollection[1].Index);
+                    Assert.AreEqual(0, iconCollection[2].Index);
+                }
+            } 
+        }
+```
+
 ### See Also
 
 * class [ConditionalFormattingIconCollection](../../conditionalformattingiconcollection/)

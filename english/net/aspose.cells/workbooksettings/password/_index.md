@@ -13,6 +13,18 @@ Represents Workbook file encryption password.
 public string Password { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: wb.Settings.Password = &amp;quot;123456&amp;quot;;
+private void Property_Password(Workbook wb, string fnTail)
+        {
+            wb.Settings.Password = &quot;123456&quot;;
+            wb.Settings.WriteProtection.Password = &quot;234567&quot;;
+            Util.SaveManCheck(wb, &quot;License&quot;, &quot;PluginLock&quot; + fnTail);
+        }
+```
+
 ### See Also
 
 * class [WorkbookSettings](../)

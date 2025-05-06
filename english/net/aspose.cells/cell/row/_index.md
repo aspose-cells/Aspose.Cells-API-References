@@ -17,6 +17,22 @@ public int Row { get; }
 
 Cell row number
 
+### Examples
+
+```csharp
+// Called: testAreEqual(1, cell.Row, caseName);
+private void Property_Row(Workbook workbook)
+        {
+            Cells cells = workbook.Worksheets[0].Cells;
+            Cell previousCell = cells[0, 0];
+            string formula = &quot;=SUM(A1,B1)&quot;;
+            Cell cell = cells.Find(formula, previousCell, new FindOptions()
+            { LookInType = LookInType.OnlyFormulas, LookAtType = LookAtType.EntireContent });
+            testAreEqual(1, cell.Row, caseName);
+            testAreEqual(2, cell.Column, caseName);
+        }
+```
+
 ### See Also
 
 * class [Cell](../)

@@ -13,6 +13,17 @@ Gets all merged cells.
 public CellArea[] GetMergedAreas()
 ```
 
+### Examples
+
+```csharp
+// Called: testAreEqual(1, cells.GetMergedAreas().Length, caseName);
+private void Method_GetMergedAreas(Workbook workbook)
+        {
+            Cells cells = workbook.Worksheets[0].Cells;
+            testAreEqual(1, cells.GetMergedAreas().Length, caseName);
+        }
+```
+
 ### See Also
 
 * struct [CellArea](../../cellarea/)

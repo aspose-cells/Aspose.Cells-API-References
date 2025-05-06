@@ -21,6 +21,27 @@ public int GetColumnWidthPixel(int column)
 
 Width of column in normal view.
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(30, cells.GetColumnWidthPixel(12));
+[Test]
+        public void Method_Int32_()
+        {
+            Workbook wb = new Workbook(Constants.HtmlPath + &quot;CELLSJAVA-43948.xls&quot;);
+            string savePath = _destFilesPath + &quot;CELLSJAVA-43948.html&quot;;
+
+            wb.Save(savePath);
+
+            Workbook reloadWb = new Workbook(savePath);
+            Cells cells = reloadWb.Worksheets[0].Cells;
+            Assert.AreEqual(52, cells.GetColumnWidthPixel(0));
+            Assert.AreEqual(48, cells.GetColumnWidthPixel(1));
+            Assert.AreEqual(41, cells.GetColumnWidthPixel(2));
+            Assert.AreEqual(30, cells.GetColumnWidthPixel(12));
+        }
+```
+
 ### See Also
 
 * class [Cells](../)

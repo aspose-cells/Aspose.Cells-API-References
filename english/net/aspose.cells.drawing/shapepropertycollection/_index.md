@@ -33,6 +33,31 @@ public class ShapePropertyCollection
 | [HasGlowEffect](../../aspose.cells.drawing/shapepropertycollection/hasgloweffect/)() | Indicates if the shape has glow effect data. |
 | [HasShadowEffect](../../aspose.cells.drawing/shapepropertycollection/hasshadoweffect/)() | Indicates if the shape has shadow effect data. |
 
+### Examples
+
+```csharp
+// Called: ShapePropertyCollection spPr = ser.ShapeProperties;
+[Test]
+        //http://www.aspose.com/community/forums/thread/221034.aspx
+        public void Type_ShapePropertyCollection()
+        {
+            Console.WriteLine(&quot;Type_ShapePropertyCollection()&quot;);
+            string infn = path + &quot;Test_BevelEffectOnBubble.xlsx&quot;;
+            string outfn = Constants.destPath + &quot;Test_BevelEffectOnBubble_out.xlsx&quot;;
+
+            Workbook book = new Workbook(infn);
+            Chart c = book.Worksheets[0].Charts[0];
+            Series ser = c.NSeries[0];
+            ShapePropertyCollection spPr = ser.ShapeProperties;
+            Bevel bevel = spPr.Format3D.TopBevel;
+            bevel.Type = BevelPresetType.Circle;
+            bevel.Height = 6;
+            bevel.Width = 6;
+
+            book.Save(outfn);
+        }
+```
+
 ### See Also
 
 * namespace [Aspose.Cells.Drawing](../../aspose.cells.drawing/)

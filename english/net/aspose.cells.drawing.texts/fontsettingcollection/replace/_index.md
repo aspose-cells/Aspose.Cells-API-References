@@ -40,6 +40,24 @@ public void Replace(string oldValue, string newValue)
 | oldValue | String | The old text. |
 | newValue | String | The new text. |
 
+### Examples
+
+```csharp
+// Called: shape.TextBody.Replace(&amp;quot;３４&amp;quot;, &amp;quot;ABC&amp;quot;);
+[Test]
+        public void Method_String_()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSJAVA44789.xlsx&quot;);
+            Worksheet worksheet = workbook.Worksheets[0];
+            Shape shape = worksheet.Shapes[0];
+          
+            shape.TextBody.Replace(&quot;３４&quot;, &quot;ABC&quot;);
+            int index = shape.Text.IndexOf(&quot;ABC&quot;);
+           Assert.AreEqual(FontUnderlineType.Single, shape.Characters(index, 2).Font.Underline);
+            workbook.Save(Constants.destPath + &quot;CELLSJAVA44789.xlsx&quot;);
+        }
+```
+
 ### See Also
 
 * class [FontSettingCollection](../)

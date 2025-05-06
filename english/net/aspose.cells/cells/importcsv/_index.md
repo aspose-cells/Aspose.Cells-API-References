@@ -22,6 +22,19 @@ public void ImportCSV(string fileName, string splitter, bool convertNumericData,
 | firstRow | Int32 | The row number of the first cell to import in. |
 | firstColumn | Int32 | The column number of the first cell to import in. |
 
+### Examples
+
+```csharp
+// Called: cells.ImportCSV(Constants.sourcePath + &amp;quot;CSV File 76 Mb.csv&amp;quot;, &amp;quot;;&amp;quot;, true, 0, 0);
+[Test, Category(&quot;Bug&quot;)]
+        public void Method_Int32_()
+        {
+            Workbook workbook = new Workbook();
+            Cells cells = workbook.Worksheets[0].Cells;
+            cells.ImportCSV(Constants.sourcePath + &quot;CSV File 76 Mb.csv&quot;, &quot;;&quot;, true, 0, 0);
+        }
+```
+
 ### See Also
 
 * class [Cells](../)
@@ -69,6 +82,26 @@ public void ImportCSV(string fileName, TxtLoadOptions options, int firstRow, int
 | options | TxtLoadOptions | The load options for reading text file |
 | firstRow | Int32 | The row number of the first cell to import in. |
 | firstColumn | Int32 | The column number of the first cell to import in. |
+
+### Examples
+
+```csharp
+// Called: cells.ImportCSV(Constants.sourcePath + &amp;quot;SWDATAbe2359e70a22dc8c0218da0f66b228da_1553673199564.csv&amp;quot;, options, 0, 1);
+[Test]
+        public void Method_Int32_()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET46574.Xlsx&quot;);
+            string s = workbook.Worksheets[0].Name;
+            Cells cells = workbook.Worksheets[0].Cells;
+            TxtLoadOptions options = new TxtLoadOptions();
+            options.SeparatorString = (&quot;~&quot;);
+            options.LoadStyleStrategy = (TxtLoadStyleStrategy.ExactFormat);
+            options.HasFormula = (true);
+            cells.ImportCSV(Constants.sourcePath + &quot;SWDATAbe2359e70a22dc8c0218da0f66b228da_1553673199564.csv&quot;, options, 0, 1);
+            Assert.AreEqual(s, &quot;Qatama Rates&quot;);
+            workbook.Save(Constants.destPath + &quot;CellsJava42862.xlsb&quot;);
+        }
+```
 
 ### See Also
 

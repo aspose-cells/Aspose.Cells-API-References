@@ -17,6 +17,22 @@ public int Add(Range range)
 | --- | --- | --- |
 | range | Range | Range object |
 
+### Examples
+
+```csharp
+// Called: worksheet.Cells.Ranges.Add(cellRange);
+[Test]
+        public void Method_Range_()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Aspose.Cells.Range cellRange = worksheet.Cells.CreateRange(0, 0, 3, 1);
+            worksheet.Cells.Ranges.Add(cellRange);
+            worksheet.Cells.InsertRows(2, 2, true);
+            Assert.AreEqual(5, cellRange.RowCount);
+        }
+```
+
 ### See Also
 
 * class [Range](../../range/)

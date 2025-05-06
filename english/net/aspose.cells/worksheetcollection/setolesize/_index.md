@@ -24,6 +24,25 @@ public void SetOleSize(int startRow, int endRow, int startColumn, int endColumn)
 
 This method is generally used to adjust display size in ppt file or doc file.
 
+### Examples
+
+```csharp
+// Called: workbook.Worksheets.SetOleSize(0, 10, 0, 10);
+[Test]
+        public void Method_Int32_()
+        {
+            Workbook workbook = new Workbook();
+            workbook.Worksheets.SetOleSize(0, 10, 0, 10);
+            workbook.Save(Constants.destPath + &quot;CELLSJAVA40634.xlsx&quot;);
+            workbook = new Workbook(Constants.destPath + &quot;CELLSJAVA40634.xlsx&quot;);
+            Assert.AreEqual(((CellArea)workbook.Worksheets.OleSize).EndRow, 10);
+            workbook.Save(Constants.destPath + &quot;CELLSJAVA40634.xls&quot;);
+            workbook = new Workbook(Constants.destPath + &quot;CELLSJAVA40634.xls&quot;);
+            Assert.AreEqual(((CellArea)workbook.Worksheets.OleSize).EndRow, 10);
+
+        }
+```
+
 ### See Also
 
 * class [WorksheetCollection](../)

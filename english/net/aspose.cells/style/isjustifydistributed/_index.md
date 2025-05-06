@@ -17,6 +17,23 @@ public bool IsJustifyDistributed { get; set; }
 
 This is typical for East Asian alignments but not typical in other contexts.
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(style.IsJustifyDistributed, true);
+[Test]
+        public void Property_IsJustifyDistributed()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSJAVA40732.xlsx&quot;);
+            Style style = workbook.Worksheets[0].Cells[&quot;A1&quot;].GetStyle();
+            Assert.AreEqual(style.IsJustifyDistributed, true);
+            workbook.Save(Constants.destPath + &quot;CELLSJAVA40732.xlsx&quot;);
+            workbook = new Workbook(Constants.destPath + &quot;CELLSJAVA40732.xlsx&quot;);
+            style = workbook.Worksheets[0].Cells[&quot;A1&quot;].GetStyle();
+            Assert.AreEqual(style.IsJustifyDistributed, true);
+        }
+```
+
 ### See Also
 
 * class [Style](../)

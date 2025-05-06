@@ -13,6 +13,17 @@ Whether the cell's value has been changed after the calculation. Should be used 
 public bool ValueChanged { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: Console.WriteLine($&amp;quot;Original Value: {OriginalValue}, Calculated Value: {CalculatedValue}, Value Changed: {ValueChanged}&amp;quot;);
+public override void Property_ValueChanged(int sheetIndex, int rowIndex, int colIndex)
+        {
+            Console.WriteLine($&quot;After calculating cell at Sheet: {sheetIndex}, Row: {rowIndex}, Column: {colIndex}&quot;);
+            Console.WriteLine($&quot;Original Value: {OriginalValue}, Calculated Value: {CalculatedValue}, Value Changed: {ValueChanged}&quot;);
+        }
+```
+
 ### See Also
 
 * class [AbstractCalculationMonitor](../)

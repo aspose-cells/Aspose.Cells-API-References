@@ -13,6 +13,17 @@ Represents the page setup description in this sheet.
 public PageSetup PageSetup { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: AssertHelper.AreEqual(PaperSizeType.Paper10x11, sheet.PageSetup.PaperSize, &amp;quot;sheet.PageSetup.PaperSize&amp;quot;);
+private void Property_PageSetup(Workbook workbook)
+        {
+            Worksheet sheet = workbook.Worksheets[0];
+            AssertHelper.AreEqual(PaperSizeType.Paper10x11, sheet.PageSetup.PaperSize, &quot;sheet.PageSetup.PaperSize&quot;);
+        }
+```
+
 ### See Also
 
 * class [PageSetup](../../pagesetup/)

@@ -21,6 +21,25 @@ public Series this[int index] { get; }
 
 The element at the specified index.
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(wb.Worksheets[1].Charts[0].NSeries[0].Values, &amp;quot;=Sheet4!$C$2:$C$405&amp;quot;);
+[Test]
+        public void Property_Int32_()
+        {
+            Aspose.Cells.Workbook wb = new Workbook(Constants.sourcePath + &quot;CellsNet44465.xlsx&quot;);
+            DeleteOptions options = new DeleteOptions();
+            options.UpdateReference = true;
+            foreach (Worksheet sheet in wb.Worksheets)
+            {
+                sheet.Cells.DeleteBlankColumns(options);
+                sheet.Cells.DeleteBlankRows(options);
+            }
+            Assert.AreEqual(wb.Worksheets[1].Charts[0].NSeries[0].Values, &quot;=Sheet4!$C$2:$C$405&quot;);
+        }
+```
+
 ### See Also
 
 * class [Series](../../series/)

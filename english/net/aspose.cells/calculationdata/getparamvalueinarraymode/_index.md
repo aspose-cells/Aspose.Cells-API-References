@@ -27,6 +27,58 @@ An array which contains all items represented by the specified parameter.
 
 For an expression that needs to be calculated, taking A:A+B:B as an example: In value mode it will be calculated to a single value according to current cell base. But in array mode, all values of A1+B1,A2+B2,A3+B3,... will be calculated and used to construct the returned array. And for such kind of situation, it is better to specify the limit for the row/column count (such as according to [`MaxDataRow`](../../cells/maxdatarow/) and [`MaxDataColumn`](../../cells/maxdatacolumn/)), otherwise the returned large array may increase memory cost with large amount of useless data.
 
+### Examples
+
+```csharp
+// Called: object[][] vs = data.GetParamValueInArrayMode(0, 3, 3);
+public override void Method_Int32_(CalculationData data)
+            {
+                if (_autoMode || _arrayMode)
+                {
+                    double v = 0.0;
+                    object[][] vs = data.GetParamValueInArrayMode(0, 3, 3);
+                    for (int i = 0; i &lt; vs.Length; i++)
+                    {
+                        object[] r = vs[i];
+                        for (int j = 0; j &lt; r.Length; j++)
+                        {
+                            v += (double)r[j];
+                        }
+                    }
+                    if (_autoMode)
+                    {
+                        object o = data.GetParamValue(1);
+                        if (!(o is double))
+                        {
+                            data.CalculatedValue = &quot;#VALUE!&quot;;
+                            return;
+                        }
+                        v += (double)o;
+                        o = data.GetParamValue(2);
+                        if (!(o is object[][]))
+                        {
+                            data.CalculatedValue = &quot;#VALUE!&quot;;
+                            return;
+                        }
+                        vs = (object[][])o;
+                        for (int i = 0; i &lt; vs.Length; i++)
+                        {
+                            object[] r = vs[i];
+                            for (int j = 0; j &lt; r.Length; j++)
+                            {
+                                v += (double)r[j];
+                            }
+                        }
+                    }
+                    data.CalculatedValue = v;
+                }
+                else
+                {
+                    data.CalculatedValue = data.GetParamValue(0);
+                }
+            }
+```
+
 ### See Also
 
 * class [CalculationData](../)

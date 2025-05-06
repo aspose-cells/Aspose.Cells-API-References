@@ -20,6 +20,27 @@ public PivotFilter FilterTop10(int valueFieldIndex, PivotFilterType type, bool i
 | isTop | Boolean | Indicates whether filter from top or bottom |
 | itemCount | Int32 | The item count |
 
+### Examples
+
+```csharp
+// Called: field.FilterTop10(0, PivotFilterType.Count, false, 3);
+[Test]
+        public void Method_Int32_()
+        {
+            Workbook book = AddNewWorkbok();
+            PivotTable pivot = AddNewPivotTable(book);
+            //Add PivotFilter
+            PivotField field = pivot.RowFields[0];
+            field.Method_Int32_(0, PivotFilterType.Count, false, 3);
+
+            pivot.RefreshData();
+            pivot.CalculateData();
+            Assert.AreEqual(&quot;kiwi&quot;, book.Worksheets[0].Cells[&quot;A16&quot;].StringValue);
+            book.Save(Constants.destPath + &quot;FilterTop10.xlsx&quot;);
+            book.Save(Constants.destPath + &quot;FilterTop10.pdf&quot;);
+        }
+```
+
 ### See Also
 
 * class [PivotFilter](../../pivotfilter/)

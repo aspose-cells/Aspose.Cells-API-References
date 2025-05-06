@@ -18,6 +18,41 @@ public void SetThemeColor(ThemeColorType type, Color color)
 | type | ThemeColorType | The theme color type. |
 | color | Color | the theme color |
 
+### Examples
+
+```csharp
+// Called: workbook.SetThemeColor(ThemeColorType.Text1, Color.Yellow);
+[Test]
+        public void Method_Color_()
+        {
+            Console.WriteLine(&quot;Method_Color_()&quot;);
+            string infn = path + &quot;Test_ExpThemeData.xlsx&quot;;
+            string outfn = Constants.destPath + &quot;Test_ExpThemeData_out.xlsx&quot;;
+
+            Workbook workbook = new Workbook(infn);
+            workbook.SetThemeColor(ThemeColorType.Background1, Color.Red);
+            workbook.Save(outfn);
+
+            infn = path + &quot;Test_ExpThemeData_WithRel.xlsx&quot;;
+            outfn = Constants.destPath + &quot;Test_ExpThemeData_WithRel_out.xlsx&quot;;
+
+            workbook = new Workbook(infn);
+            workbook.SetThemeColor(ThemeColorType.Text1, Color.Yellow);
+            workbook.Save(outfn);
+
+            outfn = Constants.destPath + &quot;Test_ExpThemeData_AddTheme.xlsx&quot;;
+
+            workbook = new Workbook();
+
+            workbook.SetThemeColor(ThemeColorType.Text1, Color.Green);
+            Style s = workbook.DefaultStyle;
+            s.Font.ThemeColor = new ThemeColor(ThemeColorType.Text1, 0);
+            workbook.DefaultStyle = s;
+            workbook.Save(outfn);
+
+        }
+```
+
 ### See Also
 
 * enum [ThemeColorType](../../themecolortype/)

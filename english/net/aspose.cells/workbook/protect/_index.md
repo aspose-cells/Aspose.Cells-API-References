@@ -18,6 +18,40 @@ public void Protect(ProtectionType protectionType, string password)
 | protectionType | ProtectionType | Protection type. |
 | password | String | Password to protect the workbook. |
 
+### Examples
+
+```csharp
+// Called: wb.Protect(ProtectionType.All, &amp;quot;p1&amp;quot;);
+[Test]
+        public void Method_String_()
+        {
+            var wb = new Workbook()
+        {
+            BuiltInDocumentProperties =
+                {
+                Category = &quot;category&quot;,
+                   ContentStatus = &quot;contentStatus&quot;,
+                }
+        };
+
+        wb.Protect(ProtectionType.All, &quot;p1&quot;);
+            var xlsStream = new MemoryStream();
+
+        wb.Save(xlsStream, SaveFormat.Excel97To2003);
+            xlsStream.Position = 0;
+
+            var wb2 = new Workbook(xlsStream);
+        var bip = wb.BuiltInDocumentProperties;
+            Assert.AreEqual(&quot;category&quot;, bip.Category);
+            Assert.AreEqual(&quot;contentStatus&quot;, bip.ContentStatus);
+
+            var bip2 = wb2.BuiltInDocumentProperties;
+
+            Assert.AreEqual(&quot;category&quot;, bip2.Category);
+            Assert.AreEqual(&quot;contentStatus&quot;, bip2.ContentStatus);
+        }
+```
+
 ### See Also
 
 * enum [ProtectionType](../../protectiontype/)

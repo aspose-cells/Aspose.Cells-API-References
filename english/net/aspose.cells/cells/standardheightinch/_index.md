@@ -13,6 +13,18 @@ Gets or sets the default row height in this worksheet, in unit of inches.
 public double StandardHeightInch { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(12.75 / 72, workbook.Worksheets[0].Cells.StandardHeightInch);
+[Test]
+        public void Property_StandardHeightInch()
+        {
+            Workbook workbook = new Workbook();
+            Assert.AreEqual(12.75 / 72, workbook.Worksheets[0].Cells.StandardHeightInch);
+        }
+```
+
 ### See Also
 
 * class [Cells](../)

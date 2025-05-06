@@ -28,6 +28,59 @@ public class LowCodePdfSaveOptions : LowCodeSaveOptions
 | [PdfOptions](../../aspose.cells.lowcode/lowcodepdfsaveoptions/pdfoptions/) { get; set; } | The options for saving Pdf file. |
 | override [SaveFormat](../../aspose.cells.lowcode/lowcodepdfsaveoptions/saveformat/) { get; set; } | The save format for the output. For converting to pdf, it can only be Pdf. |
 
+### Examples
+
+```csharp
+// Called: new LowCodePdfSaveOptions() {
+private void Type_LowCodePdfSaveOptions(Stream template, SaveOptions saveOptions, string fnTail)
+        {
+            switch (saveOptions.SaveFormat)
+            {
+                case SaveFormat.Pdf:
+                {
+                    PdfConverter.Process(new LowCodeLoadOptions() { InputStream = template },
+                        new LowCodePdfSaveOptions() {
+                            OutputFile = Constants.checkPath + &quot;License/LowCode&quot; + fnTail,
+                            PdfOptions = (PdfSaveOptions)saveOptions,
+                        });
+                    return;
+                }
+                case SaveFormat.Json:
+                {
+                    JsonConverter.Process(new LowCodeLoadOptions() { InputStream = template },
+                        new LowCodeSaveOptions()
+                        {
+                            OutputFile = Constants.checkPath + &quot;License/LowCode&quot; + fnTail
+                        });
+                    return;
+                }
+                case SaveFormat.Html:
+                {
+                    HtmlConverter.Process(new LowCodeLoadOptions() { InputStream = template },
+                        new LowCodeSaveOptions()
+                        {
+                            OutputFile = Constants.checkPath + &quot;License/LowCode&quot; + fnTail
+                        });
+                    return;
+                }
+                case SaveFormat.Csv:
+                {
+                    TextConverter.Process(new LowCodeLoadOptions() { InputStream = template },
+                        new LowCodeSaveOptions()
+                        {
+                            OutputFile = Constants.checkPath + &quot;License/LowCode&quot; + fnTail
+                        });
+                    return;
+                }
+                default:
+                {
+                    Assert.Fail(&quot;Unsupported save format for LowCode: &quot; + saveOptions.SaveFormat);
+                    return;
+                }
+            }
+        }
+```
+
 ### See Also
 
 * class [LowCodeSaveOptions](../lowcodesaveoptions/)

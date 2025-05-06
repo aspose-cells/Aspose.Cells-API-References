@@ -13,6 +13,26 @@ Creates xlsb file save options.
 public XlsbSaveOptions()
 ```
 
+### Examples
+
+```csharp
+// Called: XlsbSaveOptions saveOptions = new XlsbSaveOptions();
+[Test]
+        public void XlsbSaveOptions_Constructor()
+        {
+            Workbook workbook = new Workbook();
+            Cells cells = workbook.Worksheets[0].Cells;
+            cells[&quot;A1&quot;].PutValue(&quot;A1&quot;);
+            cells[&quot;B1&quot;].PutValue(&quot;B1&quot;);
+            cells[&quot;C1&quot;].PutValue(&quot;C1&quot;);
+            XlsbSaveOptions saveOptions = new XlsbSaveOptions();
+            saveOptions.ExportAllColumnIndexes = true;
+            workbook.Save(Constants.destPath + &quot;ExportColumnIndexes001.xlsb&quot;, saveOptions);
+            saveOptions.ExportAllColumnIndexes = false;
+            workbook.Save(Constants.destPath + &quot;ExportColumnIndexes002.xlsb&quot;, saveOptions);
+        }
+```
+
 ### See Also
 
 * class [XlsbSaveOptions](../)

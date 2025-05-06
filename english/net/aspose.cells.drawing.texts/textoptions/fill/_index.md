@@ -13,6 +13,22 @@ Represents the fill format of the text.
 public FillFormat Fill { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(font.Fill.SolidFill.Transparency,0.5);
+[Test]
+        public void Property_Fill()
+        {
+            Aspose.Cells.Workbook workbook = new Aspose.Cells.Workbook(Constants.sourcePath + &quot;CELLSJAVA41739.xls&quot;);
+            //  Console.WriteLine(workbook.Worksheets[0].Shapes[0].ShadowEffect.Blur);
+            TextOptions font = workbook.Worksheets[0].Shapes[0].TextBody[2].TextOptions;
+            Assert.AreEqual(font.Fill.SolidFill.Transparency,0.5);
+            workbook.Save(Constants.destPath + &quot;CELLSJAVA41739.xlsx&quot;);
+            
+        }
+```
+
 ### See Also
 
 * class [FillFormat](../../../aspose.cells.drawing/fillformat/)

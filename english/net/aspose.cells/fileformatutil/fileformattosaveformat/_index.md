@@ -17,6 +17,29 @@ public static SaveFormat FileFormatToSaveFormat(FileFormatType format)
 | --- | --- | --- |
 | format | FileFormatType | The file format type. |
 
+### Examples
+
+```csharp
+// Called: SaveFormat saveformat = FileFormatUtil.FileFormatToSaveFormat(format);
+[Test]
+       
+        public void Method_FileFormatType_()
+        {
+            Workbook book = new Workbook(Constants.sourcePath + &quot;CELLSJAVA-45637.xls&quot;);
+            FileFormatType format = book.FileFormat;
+            SaveFormat saveformat = FileFormatUtil.FileFormatToSaveFormat(format);
+            String formatStr = FileFormatUtil.SaveFormatToExtension(saveformat);
+            Assert.IsFalse(string.IsNullOrEmpty(formatStr));
+
+            book = new Workbook(Constants.sourcePath + &quot;CELLSJAVA-45637.ots&quot;);
+            format = book.FileFormat;
+            saveformat = FileFormatUtil.FileFormatToSaveFormat(format);
+            formatStr = FileFormatUtil.SaveFormatToExtension(saveformat);
+            Assert.IsFalse(string.IsNullOrEmpty(formatStr));
+            Assert.AreNotEqual(-1, formatStr.IndexOf(&quot;ots&quot;));
+        }
+```
+
 ### See Also
 
 * enum [SaveFormat](../../saveformat/)

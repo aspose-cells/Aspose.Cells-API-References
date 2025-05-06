@@ -25,6 +25,19 @@ public enum FillType
 | Pattern | `5` | Pattern fill format. |
 | Group | `6` | Inherit the fill properties of the group. |
 
+### Examples
+
+```csharp
+// Called: AssertHelper.AreEqual(FillType.Gradient, chartarea.Area.FillFormat.FillType, &amp;quot;chartarea.Area.FillFormat.FillType&amp;quot;);
+private void Type_FillType(Workbook workbook)
+        {
+            Worksheet sheet = workbook.Worksheets[&quot;Sheet2&quot;];
+            Chart chart = sheet.Charts[0];
+            ChartArea chartarea = chart.ChartArea;
+            AssertHelper.AreEqual(FillType.Gradient, chartarea.Area.FillFormat.FillType, &quot;chartarea.Area.FillFormat.FillType&quot;);
+        }
+```
+
 ### See Also
 
 * namespace [Aspose.Cells.Drawing](../../aspose.cells.drawing/)

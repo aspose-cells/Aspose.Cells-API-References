@@ -21,6 +21,26 @@ public object ParseObject(string value)
 
 Parsed value object from given string. If given string cannot be parsed to proper value object, returns null.
 
+### Examples
+
+```csharp
+// Called: object parsedValue = customParser.ParseObject(valueToParse);
+public static void Method_String_()
+        {
+            // Custom parser implementation
+            ICustomParser customParser = new CustomParser();
+
+            // Example usage of ParseObject method
+            string valueToParse = &quot;123.45&quot;;
+            object parsedValue = customParser.ParseObject(valueToParse);
+            Console.WriteLine($&quot;Parsed Value: {parsedValue}&quot;);
+
+            // Example usage of GetFormat method
+            string format = customParser.GetFormat();
+            Console.WriteLine($&quot;Format: {format}&quot;);
+        }
+```
+
 ### See Also
 
 * interface [ICustomParser](../)

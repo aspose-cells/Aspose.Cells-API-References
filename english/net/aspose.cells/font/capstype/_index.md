@@ -13,6 +13,36 @@ Gets and sets the text caps type.
 public TextCapsType CapsType { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: style.Font.CapsType = Aspose.Cells.TextCapsType.All;
+public static void Property_CapsType()
+        {
+            // Additional code to demonstrate how the instance might be used
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Set a cell&apos;s value
+            Cell cell = worksheet.Cells[&quot;A1&quot;];
+            cell.PutValue(&quot;Hello Aspose!&quot;);
+
+            // Get the cell&apos;s style
+            Style style = cell.GetStyle();
+
+            // Set the font caps type to All Caps
+            style.Font.CapsType = Aspose.Cells.TextCapsType.All;
+
+            // Apply the style to the cell
+            cell.SetStyle(style);
+
+            // Save the workbook
+            workbook.Save(&quot;TextCapsTypeExample.xlsx&quot;);
+
+            return;
+        }
+```
+
 ### See Also
 
 * enum [TextCapsType](../../textcapstype/)

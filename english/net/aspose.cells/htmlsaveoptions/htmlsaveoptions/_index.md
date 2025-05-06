@@ -13,6 +13,44 @@ Creates options for saving html file.
 public HtmlSaveOptions()
 ```
 
+### Examples
+
+```csharp
+// Called: var opts = new HtmlSaveOptions
+[Test]
+        public void HtmlSaveOptions_Constructor()
+        {
+            string filePath = Constants.JohnTest_PATH_SOURCE + @&quot;NET47501/&quot;;
+
+            string savePath = CreateFolder(filePath);
+            var wb = new Workbook(filePath + &quot;Excel2.xlsx&quot;);
+            using (var stream = new MemoryStream(1))
+            {
+                var opts = new HtmlSaveOptions
+                {
+                    ExportActiveWorksheetOnly = true
+                };
+                wb.Save(stream, opts);
+                byte[] arr = stream.ToArray();
+                var html = Encoding.UTF8.GetString(arr);
+                File.WriteAllText(savePath + &quot;out2.html&quot;, html);
+            }
+
+            var wb1 = new Workbook(filePath + &quot;Excel1.xlsx&quot;);
+            using (var stream = new MemoryStream(1))
+            {
+                var opts = new HtmlSaveOptions
+                {
+                    ExportActiveWorksheetOnly = true
+                };
+                wb1.Save(stream, opts);
+                byte[] arr = stream.ToArray();
+                var html = Encoding.UTF8.GetString(arr);
+                File.WriteAllText(savePath + &quot;out1.html&quot;, html);
+            }
+        }
+```
+
 ### See Also
 
 * class [HtmlSaveOptions](../)

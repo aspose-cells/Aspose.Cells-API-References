@@ -17,6 +17,33 @@ public ThreadedCommentAuthor this[int index] { get; }
 | --- | --- |
 | index | The index |
 
+### Examples
+
+```csharp
+// Called: ThreadedCommentAuthor author1 = workbook.Worksheets.ThreadedCommentAuthors[0];
+[Test]
+        public void Property_Int32_()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            int author1Index = workbook.Worksheets.ThreadedCommentAuthors.Add(&quot;Author 1&quot;, &quot;author1&quot;, &quot;OV&quot;);
+            ThreadedCommentAuthor author1 = workbook.Worksheets.ThreadedCommentAuthors[0];
+            FindOptions findOptions = new FindOptions();
+            findOptions.RegexKey = true;
+            findOptions.CaseSensitive = false;
+            findOptions.SearchBackward = true;
+            findOptions.LookInType = LookInType.Comments;
+            addThreadedComment(worksheet, &quot;C2&quot;, &quot;1&quot;, author1);
+            addThreadedComment(worksheet, &quot;C2&quot;, &quot;2&quot;, author1);
+            addThreadedComment(worksheet, &quot;C2&quot;, &quot;3&quot;, author1);
+            addThreadedComment(worksheet, &quot;C2&quot;, &quot;4&quot;, author1);
+            Cell cell = worksheet.Cells.Find(&quot;4&quot;, null, findOptions);
+            Assert.AreEqual(cell.Name,&quot;C2&quot;);
+            workbook.Save(Constants.destPath + &quot;CellsNet47239.xlsx&quot;);
+            workbook = new Workbook(Constants.destPath + &quot;CellsNet47239.xlsx&quot;);
+        }
+```
+
 ### See Also
 
 * class [ThreadedCommentAuthor](../../threadedcommentauthor/)

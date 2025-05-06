@@ -13,6 +13,21 @@ Gets the `Area`.
 public Area Area { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: AreaTest.equals(dropbarsSrc.Area, dropbarsDest.Area, info + &amp;quot;.Area&amp;quot;);
+public static void Property_Area(DropBars dropbarsSrc, DropBars dropbarsDest, string info)
+        {
+            if (AssertHelper.checkNull(dropbarsSrc, dropbarsDest, info))
+            {
+                return;
+            }
+            LineTest.Property_Area(dropbarsSrc.Border, dropbarsDest.Border, info + &quot;.Border&quot;);
+            AreaTest.Property_Area(dropbarsSrc.Area, dropbarsDest.Area, info + &quot;.Area&quot;);
+        }
+```
+
 ### See Also
 
 * class [Area](../../../aspose.cells.drawing/area/)

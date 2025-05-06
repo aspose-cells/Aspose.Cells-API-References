@@ -56,6 +56,192 @@ For example, the formatting patterns represented by numbers for en_US region:
 | 48 | Scientific | `##0.0E+0` |
 | 49 | Text | `@` |
 
+### Examples
+
+```csharp
+// Called: style.Number = 47;
+[Test]
+        public void Property_Number()
+        {
+            caseName = &quot;testNumber_001&quot;;
+            Workbook workbook = new Workbook();            
+            Cells cells = workbook.Worksheets[0].Cells;
+
+            Cell cell = cells[0, 0];
+            cell.PutValue(12);
+            Style style = cell.GetStyle();
+            style.Number = 0;
+            cell.SetStyle(style);            
+            testAreEqual(12, cell.IntValue, caseName);
+
+            cell = cells[1, 0];
+            cell.PutValue(12);
+            style = cell.GetStyle();
+            style.Number = 1;
+            cell.SetStyle(style);
+            testAreEqual(12, cell.IntValue, caseName);
+
+            cell = cells[2, 0];
+            cell.PutValue(12);
+            style = cell.GetStyle();
+            style.Number = 2;
+            cell.SetStyle(style);
+
+            cell = cells[3, 0];
+            cell.PutValue(12);
+            style = cell.GetStyle();
+            style.Number = 3;
+            cell.SetStyle(style);
+
+            cell = cells[4, 0];
+            cell.PutValue(12);
+            style = cell.GetStyle();
+            style.Number = 4;
+            cell.SetStyle(style);
+
+            cell = cells[5, 0];
+            cell.PutValue(12);
+            style = cell.GetStyle();
+            style.Number = 5;
+            cell.SetStyle(style);
+
+            cell = cells[6, 0];
+            cell.PutValue(12);
+            style = cells[6, 0].GetStyle();
+            style.Number = 6;
+            cells[6, 0].SetStyle(style);
+
+            style = cells[7, 0].GetStyle();
+            style.Number = 7;
+            cells[7, 0].SetStyle(style);
+
+            style = cells[8, 0].GetStyle();
+            style.Number = 8;
+            cells[8, 0].SetStyle(style);
+
+            style = cells[9, 0].GetStyle();
+            style.Number = 9;
+            cells[9, 0].SetStyle(style);
+
+            style = cells[10, 0].GetStyle();
+            style.Number = 10;
+            cells[10, 0].SetStyle(style);
+
+            style = cells[11, 0].GetStyle();
+            style.Number = 11;
+            cells[11, 0].SetStyle(style);
+
+            style = cells[12, 0].GetStyle();
+            style.Number = 12;
+            cells[12, 0].SetStyle(style);
+
+            style = cells[13, 0].GetStyle();
+            style.Number = 13;
+            cells[13, 0].SetStyle(style);
+
+            style = cells[14, 0].GetStyle();
+            style.Number = 14;
+            cells[14, 0].SetStyle(style);
+
+            style = cells[15, 0].GetStyle();
+            style.Number = 15;
+            cells[15, 0].SetStyle(style);            
+
+            style = cells[16, 0].GetStyle();
+            style.Number = 16;
+            cells[16, 0].SetStyle(style);           
+
+            style = cells[17, 0].GetStyle();
+            style.Number = 17;
+            cells[17, 0].SetStyle(style);            
+
+            style = cells[18, 0].GetStyle();
+            style.Number = 18;
+            cells[18, 0].SetStyle(style);            
+
+            style = cells[19, 0].GetStyle();
+            style.Number = 19;
+            cells[19, 0].SetStyle(style);            
+
+            style = cells[20, 0].GetStyle();
+            style.Number = 20;
+            cells[20, 0].SetStyle(style);
+            
+
+            style = cells[21, 0].GetStyle();
+            style.Number = 21;
+            cells[21, 0].SetStyle(style);            
+
+            style = cells[22, 0].GetStyle();
+            style.Number = 22;
+            cells[22, 0].SetStyle(style);            
+
+            style = cells[23, 0].GetStyle();
+            style.Number = 37;
+            cells[23, 0].SetStyle(style);          
+
+            style = cells[24, 0].GetStyle();
+            style.Number = 38;
+            cells[24, 0].SetStyle(style);
+            
+            style = cells[25, 0].GetStyle();
+            style.Number = 39;
+            cells[25, 0].SetStyle(style);            
+
+            style = cells[26, 0].GetStyle();
+            style.Number = 40;
+            cells[26, 0].SetStyle(style);            
+
+            style = cells[27, 0].GetStyle();
+            style.Number = 41;
+            cells[27, 0].SetStyle(style);           
+
+            style = cells[28, 0].GetStyle();
+            style.Number = 42;
+            cells[28, 0].SetStyle(style);            
+
+            style = cells[29, 0].GetStyle();
+            style.Number = 43;
+            cells[29, 0].SetStyle(style);            
+
+            style = cells[30, 0].GetStyle();
+            style.Number = 44;
+            cells[30, 0].SetStyle(style);            
+
+            style = cells[31, 0].GetStyle();
+            style.Number = 45;
+            cells[31, 0].SetStyle(style);            
+
+            style = cells[32, 0].GetStyle();
+            style.Number = 46;
+            cells[32, 0].SetStyle(style);            
+
+            style = cells[33, 0].GetStyle();
+            style.Number = 47;
+            cells[33, 0].SetStyle(style);            
+
+            style = cells[34, 0].GetStyle();
+            style.Number = 48;
+            cells[34, 0].SetStyle(style);            
+
+            style = cells[35, 0].GetStyle();
+            style.Number = 49;
+            cells[35, 0].SetStyle(style);       
+     
+            checkNumber_001(workbook);
+            workbook.Save(Constants.destPath + &quot;testNumber.xls&quot;);            
+            workbook = new Workbook(Constants.destPath + &quot;testNumber.xls&quot;);
+            checkNumber_001(workbook);
+            workbook.Save(Constants.destPath + &quot;testNumber.xlsx&quot;);            
+            workbook = new Workbook(Constants.destPath + &quot;testNumber.xlsx&quot;);
+            checkNumber_001(workbook);
+            workbook.Save(Constants.destPath + &quot;testNumber.xml&quot;, SaveFormat.SpreadsheetML );            
+            workbook = new Workbook(Constants.destPath + &quot;testNumber.xml&quot;);
+         //   checkNumber_001(workbook);
+            workbook.Save(Constants.destPath + &quot;testNumber.xls&quot;);
+        }
+```
+
 ### See Also
 
 * class [Style](../)

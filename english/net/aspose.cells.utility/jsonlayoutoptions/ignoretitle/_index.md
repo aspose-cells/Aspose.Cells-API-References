@@ -13,6 +13,25 @@ Ingores titles of attributes
 public bool IgnoreTitle { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: options.IgnoreTitle = true;// **
+[Test]
+        public void Property_IgnoreTitle()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+            JsonLayoutOptions options = new JsonLayoutOptions();
+            options.ArrayAsTable = true;
+            options.IgnoreTitle = true;// **
+            string jsonData = File.ReadAllText(Constants.sourcePath + &quot;CellsNet52281.json&quot;);
+            JsonUtility.ImportData(jsonData, sheet.Cells, 0, 0, options);
+            Assert.AreEqual(2,workbook.Worksheets[0].Cells.Rows.Count);
+            workbook.Save(Constants.destPath + &quot;CellsNet52281.xlsx&quot;);
+        }
+```
+
 ### See Also
 
 * class [JsonLayoutOptions](../)

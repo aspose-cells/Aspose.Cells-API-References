@@ -21,6 +21,39 @@ public int ImportData(ICellsDataTable table, int firstRow, int firstColumn,
 | firstColumn | Int32 | First column index. |
 | options | ImportTableOptions | The import options |
 
+### Examples
+
+```csharp
+// Called: sheet.Cells.ImportData(dataTable, 0, 0, new ImportTableOptions());
+public static void Method_ImportTableOptions_()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Add some sample data
+            List&lt;CustomData&gt; dataList = new List&lt;CustomData&gt;
+            {
+                new CustomData { Id = 1, Name = &quot;John Doe&quot;, Age = 30 },
+                new CustomData { Id = 2, Name = &quot;Jane Smith&quot;, Age = 25 },
+                new CustomData { Id = 3, Name = &quot;Sam Brown&quot;, Age = 35 }
+            };
+
+            // Get the CellsDataTableFactory instance from the workbook
+            CellsDataTableFactory factory = workbook.CellsDataTableFactory;
+
+            // Create an ICellsDataTable instance from the custom data list
+            ICellsDataTable dataTable = factory.GetInstance(dataList);
+
+            // Import the data table into the worksheet starting at cell A1
+            sheet.Cells.ImportData(dataTable, 0, 0, new ImportTableOptions());
+
+            // Save the workbook
+            workbook.Save(&quot;CellsDataTableFactoryDemo.xlsx&quot;);
+            workbook.Save(&quot;CellsDataTableFactoryDemo.pdf&quot;);
+        }
+```
+
 ### See Also
 
 * interface [ICellsDataTable](../../icellsdatatable/)
@@ -134,6 +167,45 @@ public int ImportData(DataView dataView, int firstRow, int firstColumn, ImportTa
 
 Total number of rows imported.
 
+### Examples
+
+```csharp
+// Called: cells.ImportData(dataview, 0, 0, new ImportTableOptions()
+[Test]
+        public void Method_ImportTableOptions_()
+        {
+            caseName = &quot;testImportDataView_021&quot;;
+            Workbook workbook = new Workbook();
+            Cells cells = workbook.Worksheets[0].Cells;
+            DataView dataview = getDataView();
+            cells[0, 0].PutValue(10);
+            cells.ImportData(dataview, 0, 0, new ImportTableOptions()
+            {
+                IsFieldNameShown = false,
+                InsertRows = true,
+                TotalRows = 2,
+                TotalColumns = 2,
+                NumberFormats = BuildNumberFormats(&quot;0.00&quot;, 2)
+            });
+
+            checkImportDataView_021(workbook);
+            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+            //workbook.Save(Constants.destPath + &quot;testDataView.xls&quot;);            
+            //workbook = new Workbook(Constants.destPath + &quot;testDataView.xls&quot;);
+            checkImportDataView_021(workbook);
+            workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
+            //workbook.Save(Constants.destPath + &quot;testDataView.xlsx&quot;);            
+            //workbook = new Workbook(Constants.destPath + &quot;testDataView.xlsx&quot;);
+            checkImportDataView_021(workbook);
+            workbook = Util.ReSave(workbook, SaveFormat.SpreadsheetML);
+            //workbook.Save(Constants.destPath + &quot;testDataView.xml&quot;, SaveFormat.SpreadsheetML);
+            //workbook = new Workbook(Constants.destPath + &quot;testDataView.xml&quot;);
+            checkImportDataView_021(workbook);
+            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+            //workbook.Save(Constants.destPath + &quot;testDataView.xls&quot;);
+        }
+```
+
 ### See Also
 
 * class [ImportTableOptions](../../importtableoptions/)
@@ -187,6 +259,43 @@ public int ImportData(IDataReader reader, int firstRow, int firstColumn, ImportT
 ### Return Value
 
 Total number of rows imported.
+
+### Examples
+
+```csharp
+// Called: int vNumberOfRowInsert = worksheet.Cells.ImportData(Reader1, 8, 0, options);
+[Test]
+        public void Method_ImportTableOptions_()
+        {
+            string path = Constants.sourcePath;
+            Workbook dataWB = new Workbook(path + &quot;Cellsnet43333_sampleData.xlsx&quot;);
+
+
+            Worksheet dataWS = dataWB.Worksheets[0];
+
+
+            DataTable dt = dataWS.Cells.ExportDataTable(0, 0, 25, 4, true);
+
+
+            DataTableReader Reader1 = dt.CreateDataReader();
+
+
+            Workbook workbook = new Workbook(path + &quot;Cellsnet43333_AdjustForm.xls&quot;);
+
+
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            ImportTableOptions options = new ImportTableOptions();
+            options.IsFieldNameShown = false;
+            options.InsertRows = true;
+            options.ConvertNumericData = false;
+            options.DateFormat = &quot;dd/MM/yyyy&quot;;
+          //  options.TotalRows = dt.Rows.Count;
+
+            int vNumberOfRowInsert = worksheet.Cells.ImportData(Reader1, 8, 0, options);
+            Assert.AreEqual(worksheet.Cells[&quot;A35&quot;].StringValue, &quot;New Members&quot;);
+        }
+```
 
 ### See Also
 

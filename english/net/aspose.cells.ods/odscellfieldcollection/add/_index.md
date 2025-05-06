@@ -20,6 +20,35 @@ public int Add(int row, int column, OdsCellFieldType fieldType, string format)
 | fieldType | OdsCellFieldType | The type of the field. |
 | format | String | The number format of the field. |
 
+### Examples
+
+```csharp
+// Called: int fieldIndex2 = odsCellFields.Add(1, 1, OdsCellFieldType.SheetName, null);
+public static void Method_String_()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // Access the OdsCellFieldCollection
+            OdsCellFieldCollection odsCellFields = cells.OdsCellFields;
+
+            // Add fields to the OdsCellFieldCollection
+            int fieldIndex1 = odsCellFields.Add(0, 0, OdsCellFieldType.Date, &quot;yyyy-MM-dd&quot;);
+            int fieldIndex2 = odsCellFields.Add(1, 1, OdsCellFieldType.SheetName, null);
+            int fieldIndex3 = odsCellFields.Add(2, 2, OdsCellFieldType.Title, null);
+
+            // Update fields value to the cells
+            odsCellFields.UpdateFieldsValue();
+
+            // Save the workbook
+            workbook.Save(&quot;OdsCellFieldCollectionExample.ods&quot;);
+
+            return;
+        }
+```
+
 ### See Also
 
 * enum [OdsCellFieldType](../../odscellfieldtype/)

@@ -23,6 +23,20 @@ public class ThreadedComment
 | [Notes](../../aspose.cells/threadedcomment/notes/) { get; set; } | Gets and sets the text of the comment. |
 | [Row](../../aspose.cells/threadedcomment/row/) { get; } | Gets the row index of the comment. |
 
+### Examples
+
+```csharp
+// Called: ThreadedComment tc = workbook.Worksheets[0].Comments[0].ThreadedComments[0];
+[Test]
+        public void Type_ThreadedComment()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;PYTHONJAVA-68.xlsx&quot;);
+            ThreadedComment tc = workbook.Worksheets[0].Comments[0].ThreadedComments[0];
+            Assert.AreEqual(DateTime.Now.Month, tc.CreatedTime.Month);
+            workbook.Save(Constants.destPath + &quot;PYTHONJAVA-68.xlsx&quot;);
+        }
+```
+
 ### See Also
 
 * namespace [Aspose.Cells](../../aspose.cells/)

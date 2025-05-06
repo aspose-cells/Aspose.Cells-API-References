@@ -19,6 +19,21 @@ If the document was never printed, this property will return DateTime.MinValue.
 
 Aspose.Cells does not update this property when you modify the document.
 
+### Examples
+
+```csharp
+// Called: workbook.BuiltInDocumentProperties.LastPrinted = DateTime.MinValue;
+[Test]
+        public void Property_LastPrinted()
+        {
+            Workbook workbook = new Workbook();
+            workbook.BuiltInDocumentProperties.CreatedTime = new DateTime(1, 5, 5);
+            workbook.BuiltInDocumentProperties.LastPrinted = DateTime.MinValue;
+            workbook.BuiltInDocumentProperties.LastSavedTime = DateTime.MinValue;
+            Util.ReSave(workbook, SaveFormat.Excel97To2003);
+        }
+```
+
 ### See Also
 
 * class [BuiltInDocumentPropertyCollection](../)

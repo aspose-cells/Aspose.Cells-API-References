@@ -21,6 +21,48 @@ Enumerator to enumerate all Cell objects that contain embedded picture
 
 If there is no picture which is set as "Place in Cell" in this worksheet, null will be returned.
 
+### Examples
+
+```csharp
+// Called: for (IEnumerator ie = cells.GetCellsWithPlaceInCellPicture(); ie.MoveNext();)
+[Test]
+        public void Method_GetCellsWithPlaceInCellPicture()
+        {
+            Workbook workbook = new Workbook();
+            workbook.Worksheets[0].Pictures.Add(0, 0, Constants.sourcePath + &quot;2.png&quot;);
+            workbook.Worksheets[0].Cells[&quot;B3&quot;].EmbeddedImage = File.ReadAllBytes(Constants.sourcePath + &quot;1.png&quot;);
+            workbook.Worksheets[0].Pictures.RemoveAt(0);
+            Assert.IsTrue(workbook.Worksheets[0].Cells[&quot;B3&quot;].EmbeddedImage != null);
+
+
+            //CELLSNET56093
+            Cells cells = workbook.Worksheets[0].Cells;
+            int count = 0;
+            for (IEnumerator ie = cells.GetCellsWithPlaceInCellPicture(); ie.MoveNext();)
+            {
+                Cell cell = (Cell)ie.Current;
+                byte[] data = cell.EmbeddedImage;
+                Assert.IsTrue(data != null);
+                count++;
+            }
+            Assert.AreEqual(1, count);
+
+
+            workbook.Save(Constants.destPath + &quot;CELLSNET56093.xlsx&quot;);
+            workbook = new Workbook(Constants.destPath + &quot;CELLSNET56093.xlsx&quot;);
+             cells = workbook.Worksheets[0].Cells;
+             count = 0;
+            for (IEnumerator ie = cells.GetCellsWithPlaceInCellPicture(); ie.MoveNext();)
+            {
+                Cell cell = (Cell)ie.Current;
+                byte[] data = cell.EmbeddedImage;
+                Assert.IsTrue(data != null);
+                count++;
+            }
+            Assert.AreEqual(1, count);
+        }
+```
+
 ### See Also
 
 * class [Cells](../)

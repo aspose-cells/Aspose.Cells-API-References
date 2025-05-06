@@ -13,6 +13,23 @@ Represents the outline format of the text.
 public LineFormat Outline { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(Math.Round(shape.TextOptions.Outline.Weight,2), 2.48);
+[Test]
+        public void Property_Outline()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSJAVA42085.xlsx&quot;);
+            Shape shape = workbook.Worksheets[0].Shapes[0];
+            shape.Text = (&quot;NEW TEXT&quot;);
+            workbook.Save(Constants.destPath + &quot;dest.xlsx&quot;);
+            workbook = new Workbook(Constants.destPath + &quot;dest.xlsx&quot;);
+            shape = workbook.Worksheets[0].Shapes[0];
+            Assert.AreEqual(Math.Round(shape.TextOptions.Outline.Weight,2), 2.48);
+        }
+```
+
 ### See Also
 
 * class [LineFormat](../../../aspose.cells.drawing/lineformat/)

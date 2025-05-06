@@ -13,6 +13,32 @@ The default path(URL) saved in generated html file for the referred source. For 
 public string DefaultPath { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: Console.WriteLine(&amp;quot;Using ms1 for &amp;quot; + opts.DefaultPath);
+public void Property_DefaultPath(StreamProviderOptions opts)
+            {
+                if (opts.DefaultPath.IndexOf(&quot;1.&quot;) &gt; 0)
+                {
+                    Console.WriteLine(&quot;Using ms1 for &quot; + opts.DefaultPath);
+                    opts.Stream = _ms1;
+                    _initCount++;
+                }
+                else if (opts.DefaultPath.IndexOf(&quot;2.&quot;) &gt; 0)
+                {
+                    Console.WriteLine(&quot;Using ms2 for &quot; + opts.DefaultPath);
+                    opts.Stream = _ms2;
+                    _initCount++;
+                }
+                else
+                {
+                    Console.WriteLine(&quot;Path for others: &quot; + opts.DefaultPath);
+                    opts.Stream = new MemoryStream();
+                }
+            }
+```
+
 ### See Also
 
 * class [StreamProviderOptions](../)

@@ -20,6 +20,25 @@ public int AddWebVideoPlayer(string url, bool autoPlay, int startTime, int endTi
 | startTime | Int32 | The start time in unit of seconds. |
 | endTime | Int32 | The end time in unit of seconds. |
 
+### Examples
+
+```csharp
+// Called: int index = webExtensions.AddWebVideoPlayer(&amp;quot;https://www.youtube.com/watch?v=z0hFbzPPfm8&amp;quot;, true, 0, 0);
+[Test]
+        public void Method_Int32_()
+        {
+            Workbook workbook = new Workbook();
+            WebExtensionCollection webExtensions = workbook.Worksheets.WebExtensions;
+            int index = webExtensions.AddWebVideoPlayer(&quot;https://www.youtube.com/watch?v=z0hFbzPPfm8&quot;, true, 0, 0);
+            WebExtension webExt = webExtensions[index];
+            ShapeCollection shapes = workbook.Worksheets[0].Shapes;
+            shapes.AddShape(MsoDrawingType.WebExtension, 0, 0, 0, 0, 410, 730);
+            WebExtensionShape wShape = (WebExtensionShape)shapes[0];
+            wShape.WebExtension = webExt;
+            workbook.Save(Constants.destPath + &quot;InsertYoutubeToExcel.xlsx&quot;);
+        }
+```
+
 ### See Also
 
 * class [WebExtensionCollection](../)

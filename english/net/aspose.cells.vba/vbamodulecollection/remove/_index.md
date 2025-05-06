@@ -38,6 +38,25 @@ public void Remove(string name)
 | --- | --- | --- |
 | name | String |  |
 
+### Examples
+
+```csharp
+// Called: vbaProject.Modules.Remove(&amp;quot;TestForm&amp;quot;);
+[Test]
+        public void Method_String_()
+        {
+            var source = new Workbook(Constants.sourcePath + &quot;CELLSNET54310.xlsm&quot;);
+            var wb = new Workbook(Constants.sourcePath + &quot;CELLSNET54310.xlsm&quot;);
+            VbaProject vbaProject = wb.VbaProject;
+            vbaProject.Modules.Remove(&quot;TestForm&quot;);
+            Assert.IsNull(vbaProject.Modules.GetDesignerStorage(&quot;TestForm&quot;));
+            vbaProject.Modules.AddDesignerStorage(&quot;TestForm&quot;, source.VbaProject.Modules.GetDesignerStorage(&quot;TestForm&quot;));
+            int index = vbaProject.Modules.Add(VbaModuleType.Designer, &quot;TestForm&quot;);
+            vbaProject.Modules[index].Codes = source.VbaProject.Modules[&quot;TestForm&quot;].Codes;
+            wb.Save(Constants.destPath + &quot;CELLSNET54310.xlsm&quot;);
+        }
+```
+
 ### See Also
 
 * class [VbaModuleCollection](../)

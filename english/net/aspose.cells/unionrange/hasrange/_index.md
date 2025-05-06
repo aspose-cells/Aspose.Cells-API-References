@@ -13,6 +13,25 @@ Indicates whether this has range.
 public bool HasRange { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.IsTrue(r.HasRange);
+[Test]
+        public void Property_HasRange()
+        {
+            Workbook workbook = new Workbook();
+            UnionRange r = workbook.Worksheets.CreateUnionRange(&quot;A1:A10,C1:C10&quot;, 0);
+            Assert.IsTrue(r.HasRange);
+            r.Value = &quot;ABCD&quot;;
+            Style style = workbook.CreateStyle();
+            style.Pattern = BackgroundType.Solid;
+            style.ForegroundColor = System.Drawing.Color.Red;
+            workbook.Save(Constants.destPath + &quot;CellsNet47054.xlsx&quot;);
+
+        }
+```
+
 ### See Also
 
 * class [UnionRange](../)

@@ -13,6 +13,19 @@ Indicates whether this workbook is hidden.
 public bool IsHidden { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.IsFalse(workbook.Settings.IsHidden);
+[Test]
+        public void Property_IsHidden()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET45757.xls&quot;);
+            Assert.IsFalse(workbook.Settings.IsHidden);
+            workbook.Save(Constants.destPath + &quot;CELLSNET45757.xls&quot;);
+        }
+```
+
 ### See Also
 
 * class [WorkbookSettings](../)

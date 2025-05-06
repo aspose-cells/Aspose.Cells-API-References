@@ -22,6 +22,21 @@ public Range CreateRange(string address, int sheetIndex)
 
 A [`Range`](../../range/) object
 
+### Examples
+
+```csharp
+// Called: range = workbook.Worksheets.CreateRange(&amp;quot;Sheet1!A1:A10&amp;quot;, 0);
+[Test]
+        public void Method_Int32_()
+        {
+            Workbook workbook = new Workbook();
+            Aspose.Cells.Range range = workbook.Worksheets.CreateRange(&quot;A1:A10&quot;, 0);
+            Assert.IsTrue(range != null);
+            range = workbook.Worksheets.CreateRange(&quot;Sheet1!A1:A10&quot;, 0);
+            Assert.IsTrue(range != null);
+        }
+```
+
 ### See Also
 
 * class [Range](../../range/)

@@ -17,6 +17,25 @@ public TxtLoadOptions()
 
 The default load file type is CSV .
 
+### Examples
+
+```csharp
+// Called: var workbook = new Workbook(datafileName, new TxtLoadOptions { Separator = &amp;apos;;&amp;apos; });
+[Test]
+        public void TxtLoadOptions_Constructor()
+        {
+            string filePath = Constants.PivotTableSourcePath + @&quot;NET46734_&quot;;
+            string datafileName = filePath + &quot;Data.csv&quot;;
+
+            var workbook = new Workbook(datafileName, new TxtLoadOptions { Separator = &apos;;&apos; });
+            var worksheet = workbook.Worksheets[workbook.Worksheets.ActiveSheetIndex];
+            var data = worksheet.Cells.ExportDataTable(0, 0, worksheet.Cells.MaxRow + 1, worksheet.Cells.MaxColumn + 1,
+                new ExportTableOptions() { ExportColumnName = true });
+
+            CreatePivotTable46734(data, filePath);
+        }
+```
+
 ### See Also
 
 * class [TxtLoadOptions](../)

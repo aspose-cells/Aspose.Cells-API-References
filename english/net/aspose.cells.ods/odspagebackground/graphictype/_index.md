@@ -13,6 +13,38 @@ Gets and sets the page background graphic type.
 public OdsPageBackgroundGraphicType GraphicType { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: odsPageBackground.GraphicType = OdsPageBackgroundGraphicType.Tile;
+public static void Property_GraphicType()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+
+            // Add a new worksheet to the workbook
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Access the PageSetup of the worksheet
+            PageSetup pageSetup = worksheet.PageSetup;
+
+            // Access the ODSPageBackground of the PageSetup
+            OdsPageBackground odsPageBackground = pageSetup.ODSPageBackground;
+
+            // Set the background color
+            odsPageBackground.Color = Color.LightBlue;
+
+            // Set the background graphic type to Tile
+            odsPageBackground.GraphicType = OdsPageBackgroundGraphicType.Tile;
+
+            // Set the linked graphic path (assuming the image is in the same directory as the executable)
+            odsPageBackground.LinkedGraphic = &quot;background_image.png&quot;;
+
+            // Save the workbook
+            workbook.Save(&quot;OdsPageBackgroundGraphicTypeExample.ods&quot;);
+        }
+```
+
 ### See Also
 
 * enum [OdsPageBackgroundGraphicType](../../odspagebackgroundgraphictype/)

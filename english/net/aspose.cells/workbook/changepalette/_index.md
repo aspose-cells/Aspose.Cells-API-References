@@ -87,6 +87,80 @@ The following is the standard color palette.
 | Color55 | 51 | 51 | 153 |
 | Color56 | 51 | 51 | 51 |
 
+### Examples
+
+```csharp
+// Called: excel.ChangePalette(Color.LightBlue, 54);
+private void Method_Int32_(Workbook excel)
+		{
+			//Add LightBlue and DarkBlue colors to color palette
+			excel.ChangePalette(Color.LightBlue, 54);
+			excel.ChangePalette(Color.DarkBlue, 55);
+
+			Style style;
+            style = excel.CreateStyle();
+			style.Font.Size = 12;
+			style.Font.IsBold = true;
+			style.Font.Color = Color.White;
+			style.ForegroundColor = Color.LightBlue;
+			style.HorizontalAlignment = TextAlignmentType.Center;
+			style.Name = &quot;Font12Center&quot;;
+
+			style = excel.CreateStyle();
+            style.Font.Size = 12;
+			style.Font.IsBold = true;
+			style.Font.Color = Color.White;
+			style.ForegroundColor = Color.LightBlue;
+			style.HorizontalAlignment = TextAlignmentType.Left;
+			style.Name = &quot;Font12Left&quot;;
+			
+			style = excel.CreateStyle();
+            style.Font.Size = 12;
+			style.Font.IsBold = true;
+			style.Font.Color = Color.White;
+			style.ForegroundColor = Color.LightBlue;
+			style.HorizontalAlignment = TextAlignmentType.Right;
+			style.Name = &quot;Font12Right&quot;;
+			
+			style = excel.CreateStyle();
+            style.Number = 7;
+			style.Name = &quot;Number7&quot;;
+
+			style = excel.CreateStyle();
+            style.Number = 9;
+			style.Name = &quot;Number9&quot;;
+
+			style = excel.CreateStyle();
+            style.HorizontalAlignment = TextAlignmentType.Center;
+			style.Name = &quot;Center&quot;;
+
+			
+			style = excel.CreateStyle();
+            style.Font.Size = 16;
+			style.Font.IsBold = true;
+			style.Font.Color = Color.DarkBlue;
+			style.Name = &quot;Darkblue&quot;;
+
+			style = excel.CreateStyle();
+            style.Font.Size = 12;
+			style.Font.IsBold = true;
+			style.Font.Color = Color.DarkBlue;
+			style.Name = &quot;Darkblue12&quot;;
+			
+			style = excel.CreateStyle();
+            style.Font.IsItalic = true;
+			style.Font.Color = Color.DarkBlue;
+			style.Name = &quot;DarkblueItalic&quot;;
+
+			style = excel.CreateStyle();
+            style.Borders[BorderType.BottomBorder].Color = Color.Black;
+			style.Borders[BorderType.BottomBorder].LineStyle = CellBorderType.Medium;
+			style.Name = &quot;BlackMedium&quot;;
+
+
+		}
+```
+
 ### See Also
 
 * class [Workbook](../)

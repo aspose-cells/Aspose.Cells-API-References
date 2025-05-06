@@ -21,6 +21,18 @@ public Style GetNamedStyle(string name)
 
 named style, maybe null.
 
+### Examples
+
+```csharp
+// Called: Assert.IsTrue(workbook.GetNamedStyle(&amp;quot;Style 1&amp;quot;) != null);
+[Test]
+        public void Method_String_()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CustomNamedStyle.xlsx&quot;);
+            Assert.IsTrue(workbook.GetNamedStyle(&quot;Style 1&quot;) != null);
+        }
+```
+
 ### See Also
 
 * class [Style](../../style/)

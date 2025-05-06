@@ -17,6 +17,30 @@ public bool RegexKey { get; set; }
 
 Even though the search key has been specified as regex, it may be refactored according to specified [`LookAtType`](../lookattype/). For example, when the type is Contains(this is the default value for this options), wildcards will be added at the beginning and end of the search key automatically to ensure the match will be checked as "contains". In this case, the regular expressions will become more complex and the performance will also decrease. So, for performance consideration, if user has specified the exact rule for the regex, then there is no need to use [`LookAtType`](../lookattype/) as additional constraint and user may set it as EntireContent to get better performance.
 
+### Examples
+
+```csharp
+// Called: LookInType = LookInType.OnlyFormulas, SearchBackward = false, RegexKey = true };
+[Test]
+        public void Property_RegexKey()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet41192.xlsx&quot;);
+            Worksheet sheet  = workbook.Worksheets[0];
+            {
+                Cells cells = sheet.Cells;
+                Cell previusCell = null;
+                Cell cellFinded;
+                FindOptions findOptions = new FindOptions() { LookAtType = Aspose.Cells.LookAtType.EntireContent,
+                    LookInType = LookInType.OnlyFormulas, SearchBackward = false, RegexKey = true };
+
+                cellFinded = cells.Find(@&quot;\[([\w,:])*\]&quot;, previusCell, findOptions);
+                Assert.AreEqual(cellFinded.Name, &quot;O11&quot;);
+
+                
+            }
+        }
+```
+
 ### See Also
 
 * class [FindOptions](../)

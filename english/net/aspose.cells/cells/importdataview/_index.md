@@ -23,6 +23,24 @@ public int ImportDataView(DataView dataView, int firstRow, int firstColumn)
 
 Total number of rows imported
 
+### Examples
+
+```csharp
+// Called: cells.ImportDataView(dataview, 1048576, 0);
+[Test, ExpectedException(typeof(CellsException))]
+#endif
+        public void Method_Int32_()
+        {
+            caseName = &quot;testImportDataView_Exception_003&quot;;
+            Workbook workbook = new Workbook();
+            Cells cells = workbook.Worksheets[0].Cells;
+            DataView dataview = getDataView();
+            cells.ImportDataView(dataview, 1048576, 0);
+            string msg = message + &quot;cells.ImportDataView(dataview, 1048576, 0)&quot;;
+            writeToExcel(caseName, msg);
+        }
+```
+
 ### See Also
 
 * class [Cells](../)

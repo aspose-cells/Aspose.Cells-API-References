@@ -13,6 +13,21 @@ Specifies whether a control for each PivotTable field on the PivotTable row axis
 public bool DropZoneCategories { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.IsFalse(options.DropZoneCategories);
+[Test]
+        public void Property_DropZoneCategories()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet43845.xlsm&quot;);
+            PivotOptions options = workbook.Worksheets[0].Charts[1].PivotOptions;
+            Assert.IsFalse(options.DropZoneCategories);
+            Assert.IsFalse(options.DropZoneData);
+            Assert.IsFalse(options.DropZoneSeries);
+        }
+```
+
 ### See Also
 
 * class [PivotOptions](../)

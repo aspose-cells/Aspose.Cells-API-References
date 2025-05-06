@@ -13,6 +13,29 @@ Returns the gradient color 1 for the specified fill.
 public Color GradientColor1 { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: System.Drawing.Color color1 = filleFormat.GradientColor1;
+[Test]
+        public void Property_GradientColor1()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;TestGradientStyle_001.xls&quot;);
+            Chart chart = workbook.Worksheets[1].Charts[0];
+            Aspose.Cells.Drawing.FillFormat filleFormat = chart.NSeries[0].Area.FillFormat;
+            System.Drawing.Color color1 = filleFormat.GradientColor1;
+            double degree = filleFormat.GradientDegree;
+            Console.WriteLine(chart.NSeries[0].Name);
+            Console.WriteLine(color1);
+            Console.WriteLine(degree);
+            //filleFormat.GradientDegree = 1;
+            Assert.AreEqual(Math.Round(degree, 2), 0.23);
+            Assert.AreEqual(color1.ToArgb() &amp; 0xFFFFFF, 0xFF0000);
+
+            workbook.Save(Constants.destPath + &quot;TestGradientStyle_001.xls&quot;);
+        }
+```
+
 ### See Also
 
 * class [FillFormat](../)

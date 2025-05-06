@@ -13,6 +13,23 @@ Represents the Azure Active Directory (Azure AD) site identifier corresponding t
 public string SiteId { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(&amp;quot;{7e848398-70bd-400c-b8cf-2ab6f30d1b60}&amp;quot;, workbook.Worksheets.SensitivityLabels[0].SiteId);
+[Test]
+        public void Property_SiteId()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;Net56491.xlsx&quot;);
+            MemoryStream ms = Util.SaveAsBuffer(workbook, SaveFormat.Xlsx);
+            Assert.IsFalse(ManualFileUtil.ManualCheckStringInZip(ms,
+            //workbook.Save(Constants.destPath + &quot;Net56491.xlsx&quot;);
+            //Assert.IsFalse(ManualFileUtil.ManualCheckStringInZip(Constants.destPath + &quot;Net56491.xlsx&quot;,
+                &quot;docMetadata/LabelInfo.xml&quot;, new string[] { &quot;&lt;clbl:label&quot; }, false));
+            Assert.AreEqual(&quot;{7e848398-70bd-400c-b8cf-2ab6f30d1b60}&quot;, workbook.Worksheets.SensitivityLabels[0].SiteId);
+        }
+```
+
 ### See Also
 
 * class [SensitivityLabel](../)

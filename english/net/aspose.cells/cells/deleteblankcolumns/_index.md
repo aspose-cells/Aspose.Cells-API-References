@@ -13,6 +13,21 @@ Delete all blank columns which do not contain any data.
 public void DeleteBlankColumns()
 ```
 
+### Examples
+
+```csharp
+// Called: workbook.Worksheets[0].Cells.DeleteBlankColumns();
+[Test]
+        public void Method_DeleteBlankColumns()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;TestDeleteBlankRows.xls&quot;);
+            workbook.Worksheets[0].Cells.DeleteBlankRows();
+            workbook.Worksheets[0].Cells.DeleteBlankColumns();
+            Assert.AreEqual(workbook.Worksheets[0].Cells[&quot;C4&quot;].StringValue, &quot;sfsdf&quot;);
+            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+        }
+```
+
 ### See Also
 
 * class [Cells](../)
@@ -32,6 +47,22 @@ public void DeleteBlankColumns(DeleteOptions options)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | options | DeleteOptions | The options of deleting range. |
+
+### Examples
+
+```csharp
+// Called: workbook.Worksheets[0].Cells.DeleteBlankColumns(deleteOptions);
+[Test]
+        public void Method_DeleteOptions_()
+        {
+            Workbook workbook  =new Workbook(Constants.sourcePath + &quot;CELLSNET-47741.xlsm&quot;);
+            DeleteOptions deleteOptions = new DeleteOptions();
+            deleteOptions.UpdateReference = true;
+
+            workbook.Worksheets[0].Cells.DeleteBlankColumns(deleteOptions);
+            workbook.Save(Constants.destPath + &quot;CELLSNET-47741.xlsm&quot;);
+        }
+```
 
 ### See Also
 

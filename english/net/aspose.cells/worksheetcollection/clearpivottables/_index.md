@@ -13,6 +13,20 @@ Clears pivot tables from the spreadsheet.
 public void ClearPivottables()
 ```
 
+### Examples
+
+```csharp
+// Called: workbook.Worksheets.ClearPivottables();
+[Test]
+        public void Method_ClearPivottables()
+        {
+            Workbook workbook = new Workbook(Constants.PivotTableSourcePath + &quot;CELLSNET44380.xlsx&quot;);
+            workbook.Worksheets.ClearPivottables();
+            Assert.AreEqual(0, workbook.Worksheets[0].PivotTables.Count);
+            workbook.Save(Constants.PivotTableDestPath + &quot;CELLSNET44380.xlsx&quot;);
+        }
+```
+
 ### See Also
 
 * class [WorksheetCollection](../)

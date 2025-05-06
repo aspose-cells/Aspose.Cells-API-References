@@ -13,6 +13,16 @@ Current page index, zero based.
 public int PageIndex { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: Console.WriteLine($&amp;quot;Starting to save page {args.PageIndex}&amp;quot;);
+public void Property_PageIndex(PageStartSavingArgs args)
+        {
+            Console.WriteLine($&quot;Starting to save page {args.PageIndex}&quot;);
+        }
+```
+
 ### See Also
 
 * class [PageSavingArgs](../)

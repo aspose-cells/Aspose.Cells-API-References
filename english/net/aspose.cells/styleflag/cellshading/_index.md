@@ -13,6 +13,26 @@ Cell shading setting will be applied.
 public bool CellShading { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: flag.CellShading = true;
+[Test]
+        public void Property_CellShading()
+        {
+            Workbook workbook = new Workbook();
+            StyleFlag flag = new StyleFlag();
+            flag.CellShading = true;
+            Style style = workbook.CreateStyle();
+            style.Pattern = BackgroundType.Solid;
+            style.ForegroundColor = Color.Red;
+            Cells cells = workbook.Worksheets[0].Cells;
+            cells[&quot;A1&quot;].PutValue(&quot;sdfsdfsdf&quot;);
+            cells.ApplyRowStyle(0, style, flag);
+            Assert.AreEqual(cells[&quot;A1&quot;].GetStyle().Pattern, BackgroundType.Solid);
+        }
+```
+
 ### See Also
 
 * class [StyleFlag](../)

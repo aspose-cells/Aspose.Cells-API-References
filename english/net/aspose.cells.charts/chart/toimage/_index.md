@@ -21,6 +21,22 @@ the picture of the chart.
 
 If the width or height is zero or the chart is not supported according to Supported Charts List, it will return null.
 
+### Examples
+
+```csharp
+// Called: System.Drawing.Bitmap bitmap = workbook.Worksheets[0].Charts[0].ToImage();
+[Test]
+        public void Method_ToImage()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;Logins.xlsx&quot;);
+#if !NETCOREAPP2_0
+            System.Drawing.Bitmap bitmap = workbook.Worksheets[0].Charts[0].ToImage();
+            bitmap.Save(Constants.destPath + &quot;Charts2Image/Test_143987.jpg&quot;, ImageFormat.Jpeg);
+#endif
+            workbook.Save(Constants.destPath + &quot;Logins.xlsx&quot;);
+        }
+```
+
 ### See Also
 
 * class [Chart](../)
@@ -100,6 +116,24 @@ The format of the image is specified by using the extension of the file name. Fo
 
 If the width or height is zero or the chart is not supported according to Supported Charts List, this method will do nothing.
 
+### Examples
+
+```csharp
+// Called: chart.ToImage(Constants.destPath + &amp;quot;Charts/BoxWhisker/Chart&amp;quot; + chart.Name + &amp;quot;.png&amp;quot;);
+[Test]
+        public void Method_String_()
+        {
+            // for show inner/outlier points and datalabels
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;Charts/BoxWhisker/MyTest.xlsx&quot;);
+            Worksheet worksheet = workbook.Worksheets[&quot;Sheet2&quot;];
+            foreach (Chart chart in worksheet.Charts)
+            {
+                chart.ToImage(Constants.destPath + &quot;Charts/BoxWhisker/Chart&quot; + chart.Name + &quot;.png&quot;);
+            }
+            return;
+        }
+```
+
 ### See Also
 
 * class [Chart](../)
@@ -152,6 +186,42 @@ public void ToImage(string imageFile, ImageType imageType)
 The type of the image is specified by using `imageType`. The following types are supported: ImageType.Bmp, ImageType.Gif, ImageType.Png, ImageType.Jpeg, ImageType.Tiff, ImageType.Emf.
 
 If the width or height is zero or the chart is not supported according to Supported Charts List, this method will do nothing.
+
+### Examples
+
+```csharp
+// Called: chart.ToImage(Constants.PIVOT_CHECK_FILE_PATH
+[Test]
+        public void Method_ImageType_()
+        {
+            string filePath = Constants.PivotTableSourcePath + @&quot;NET43750_&quot;;
+
+            Aspose.Cells.LoadOptions loadOptions = new Aspose.Cells.LoadOptions(LoadFormat.Xlsx);
+            Workbook workbook = new Workbook(filePath + &quot;Template.xlsx&quot;);
+            Worksheet worksheet = workbook.Worksheets[1];
+            workbook.CalculateFormula();
+            foreach (PivotTable pivotTable in workbook.Worksheets[2].PivotTables)
+            {
+                pivotTable.RefreshData();
+                pivotTable.CalculateData();
+            }
+            workbook.Save(Constants.PIVOT_CHECK_FILE_PATH + &quot;NET43750.xlsx&quot;);
+            int index = 0;
+            foreach (Chart chart in workbook.Worksheets[0].Charts)
+            {
+                chart.RefreshPivotData();
+#if !NETCOREAPP2_0
+                chart.ToImage(Constants.PIVOT_CHECK_FILE_PATH
+                    + &quot;NET43750_out_&quot; + index.ToString() + &quot;.png&quot;, ImageType.Png);
+#else 
+                chart.ToImage(Constants.PIVOT_CHECK_FILE_PATH + &quot;NET43750_out_&quot; + index.ToString() + &quot;.bmp&quot;);
+#endif
+                index += 1;
+            }
+
+           
+        }
+```
 
 ### See Also
 

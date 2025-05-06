@@ -13,6 +13,26 @@ Indicates whether adding tooltip text when the data can't be fully displayed. Th
 public bool AddTooltipText { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: options.AddTooltipText = true;
+[Test]
+        public void Property_AddTooltipText()
+        {
+            string filePath = Constants.JohnTest_PATH_SOURCE + @&quot;JAVA43047/&quot;;
+
+            string savePath = CreateFolder(filePath);
+            HtmlSaveOptions options = new HtmlSaveOptions();
+            options.AddTooltipText = true;
+            Workbook wb = new Workbook(filePath + &quot;test1.xls&quot;);
+            wb.Save(savePath + &quot;test1_out.html&quot;, options);
+
+            wb = new Workbook(filePath + &quot;a.xlsx&quot;);
+            wb.Save(savePath + &quot;a_out.html&quot;, options);
+        }
+```
+
 ### See Also
 
 * class [HtmlSaveOptions](../)

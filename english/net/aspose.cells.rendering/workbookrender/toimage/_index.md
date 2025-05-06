@@ -37,6 +37,50 @@ public void ToImage(string filename)
 | --- | --- | --- |
 | filename | String | the filename of the output image |
 
+### Examples
+
+```csharp
+// Called: wbRender.ToImage(Constants.destPath + @&amp;quot;NetCoreTests\test_Cs_CCITT4.tiff&amp;quot;);
+[Test]
+        public void Method_String_()
+        {
+            Workbook wb = new Workbook(Constants.TemplatePath + &quot;NetCoreTests/testToTiff.xlsx&quot;);
+
+            ImageOrPrintOptions imgOpt = new ImageOrPrintOptions();
+            imgOpt.HorizontalResolution = 300;
+            imgOpt.VerticalResolution = 300;
+
+            //PdfSaveOptions options = new PdfSaveOptions(SaveFormat.Pdf);
+            //options.ImageType = Aspose.Cells.Drawing.ImageType.Jpeg;
+
+            imgOpt.ImageType = ImageType.Tiff;
+
+            WorkbookRender wbRender;
+            //please try the other tiff compressions.
+            imgOpt.TiffCompression = TiffCompression.CompressionNone;
+            //wbRender = new WorkbookRender(wb, imgOpt);
+            //wbRender.ToImage(Constants.destPath + @&quot;NetCoreTests\test_Cs_None.tiff&quot;);//too slow
+
+            imgOpt.TiffCompression = TiffCompression.CompressionRle;
+            //wbRender = new WorkbookRender(wb, imgOpt);
+            //wbRender.ToImage(Constants.destPath + @&quot;NetCoreTests\test_Cs_Rle.tiff&quot;);//too slow
+
+            imgOpt.TiffCompression = TiffCompression.CompressionLZW;
+            wbRender = new WorkbookRender(wb, imgOpt);
+            wbRender.ToImage(Constants.destPath + @&quot;NetCoreTests\test_Cs_LZW.tiff&quot;);
+
+            imgOpt.TiffCompression = TiffCompression.CompressionCCITT3;
+            wbRender = new WorkbookRender(wb, imgOpt);
+            wbRender.ToImage(Constants.destPath + @&quot;NetCoreTests\test_Cs_CCITT3.tiff&quot;);
+
+            imgOpt.TiffCompression = TiffCompression.CompressionCCITT4;
+            wbRender = new WorkbookRender(wb, imgOpt);
+            wbRender.ToImage(Constants.destPath + @&quot;NetCoreTests\test_Cs_CCITT4.tiff&quot;);
+
+
+        }
+```
+
 ### See Also
 
 * class [WorkbookRender](../)
@@ -57,6 +101,22 @@ public void ToImage(int pageIndex, string fileName)
 | --- | --- | --- |
 | pageIndex | Int32 | indicate which page is to be converted |
 | fileName | String | filename of the output image |
+
+### Examples
+
+```csharp
+// Called: wr.ToImage(i, Constants.checkPath + &amp;quot;License/PluginImage&amp;quot;
+private void Method_String_(Workbook wb, string fnId)
+        {
+            WorkbookRender wr = new WorkbookRender(wb, new ImageOrPrintOptions()
+            { OnePagePerSheet = true });
+            for (int i = 0; i &lt; wr.PageCount; i++)
+            {
+                wr.ToImage(i, Constants.checkPath + &quot;License/PluginImage&quot;
+                    + fnId + &quot;_&quot; + i + &quot;.png&quot;);
+            }
+        }
+```
 
 ### See Also
 

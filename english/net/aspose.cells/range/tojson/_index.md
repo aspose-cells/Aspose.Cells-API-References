@@ -17,6 +17,24 @@ public string ToJson(JsonSaveOptions options)
 | --- | --- | --- |
 | options | JsonSaveOptions | The options of converting |
 
+### Examples
+
+```csharp
+// Called: string json = r.ToJson(null);
+[Test]
+        public void Method_JsonSaveOptions_()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET55578.xlsx&quot;);
+            //A1:J25
+            Cells cells = workbook.Worksheets[0].Cells;
+            Aspose.Cells.Range r = cells.CreateRange(&quot;A1:J25&quot;);
+            byte[] data = r.ToImage(null);
+
+            byte[] htmlData = r.ToHtml(null);
+            string json = r.ToJson(null);
+        }
+```
+
 ### See Also
 
 * class [JsonSaveOptions](../../jsonsaveoptions/)

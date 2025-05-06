@@ -13,6 +13,18 @@ Gets a [`SeriesCollection`](../../seriescollection/) collection representing the
 public SeriesCollection NSeries { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: AssertHelper.AreEqual(DataLabelsSeparatorType.Auto, chart.NSeries[0].DataLabels.SeparatorType, &amp;quot;chart.NSeries[0].DataLabels.Separator&amp;quot;);
+private void Property_NSeries(Workbook workbook)
+        {
+            Worksheet sheet = workbook.Worksheets[&quot;Sheet1&quot;];
+            Chart chart = sheet.Charts[0];
+            AssertHelper.AreEqual(DataLabelsSeparatorType.Auto, chart.NSeries[0].DataLabels.SeparatorType, &quot;chart.NSeries[0].DataLabels.Separator&quot;);
+        }
+```
+
 ### See Also
 
 * class [SeriesCollection](../../seriescollection/)

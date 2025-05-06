@@ -15,6 +15,37 @@ Gets and sets the prefix of the css name in svg,the default value is empty strin
 public string SvgCssPrefix { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: imgOpt.SvgCssPrefix = prefix;
+[Test]
+        public void Property_SvgCssPrefix()
+        {
+            string prefix = &quot;x_&quot;;
+
+            Workbook wb = new Workbook();
+            wb.Worksheets[0].Cells[&quot;A1&quot;].PutValue(&quot;Svg css prefix&quot;);
+
+            ImageOrPrintOptions imgOpt = new ImageOrPrintOptions();
+            imgOpt.ImageType = ImageType.Svg;
+            imgOpt.OnePagePerSheet = true;
+            imgOpt.SvgCssPrefix = prefix;
+
+            SheetRender sr = new SheetRender(wb.Worksheets[0], imgOpt);
+            using(MemoryStream ms = new MemoryStream())
+            {
+                sr.ToImage(0, ms);
+                ms.Position = 0;
+                using(StreamReader reader = new StreamReader(ms))
+                {
+                    string content = reader.ReadToEnd();
+                    Assert.IsTrue(content.IndexOf(prefix + &quot;f&quot;) &gt; -1, &quot;Svg css prefix doesn&apos;t work.&quot;);
+                }
+            }
+        }
+```
+
 ### See Also
 
 * class [ImageOrPrintOptions](../)

@@ -21,6 +21,22 @@ public Column CheckColumn(int columnIndex)
 
 The Column object.
 
+### Examples
+
+```csharp
+// Called: Assert.IsNotNull(cells.CheckColumn(4));
+[Test]
+        public void Method_Int32_()
+        {
+            Workbook workbook = new Workbook();
+            Cells cells = workbook.Worksheets[0].Cells;
+            cells[&quot;B3&quot;].PutValue(&quot;4&quot;);
+            cells.Columns[4].IsHidden = true;
+            Assert.IsNotNull(cells.CheckColumn(4));
+            Assert.IsNotNull(cells.CheckRow(2));
+        }
+```
+
 ### See Also
 
 * class [Column](../../column/)

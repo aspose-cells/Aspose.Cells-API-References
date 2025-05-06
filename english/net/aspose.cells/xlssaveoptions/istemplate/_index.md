@@ -19,6 +19,25 @@ public bool IsTemplate { get; set; }
 
 NOTE: This member is now obsolete. Instead, please create XlsSaveOptions with corresponding save format(xlt for true and xls for false). This method will be removed 12 months later since August 2020. Aspose apologizes for any inconvenience you may have experienced.
 
+### Examples
+
+```csharp
+// Called: saveOptions.IsTemplate = true;
+[Test]
+        public void Property_IsTemplate()
+        {
+            Workbook workbook = new Workbook();
+            using (FileStream fs = File.Create(Constants.destPath + &quot;Xlt001&quot;))
+            {
+                XlsSaveOptions saveOptions = new XlsSaveOptions();
+                saveOptions.IsTemplate = true;
+                workbook.Save(fs, saveOptions);
+            }
+            workbook = new Workbook(Constants.destPath + &quot;Xlt001&quot;);
+            Assert.AreEqual(workbook.FileFormat, FileFormatType.Xlt);
+        }
+```
+
 ### See Also
 
 * class [XlsSaveOptions](../)

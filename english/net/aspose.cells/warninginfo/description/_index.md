@@ -13,6 +13,16 @@ Get description of warning info.
 public string Description { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: Console.WriteLine($&amp;quot;Warning: {warningInfo.Description}&amp;quot;);
+public void Property_Description(WarningInfo warningInfo)
+        {
+            Console.WriteLine($&quot;Warning: {warningInfo.Description}&quot;);
+        }
+```
+
 ### See Also
 
 * class [WarningInfo](../)

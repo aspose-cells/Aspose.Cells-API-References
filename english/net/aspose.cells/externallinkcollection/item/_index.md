@@ -21,6 +21,19 @@ public ExternalLink this[int index] { get; }
 
 The element at the specified index.
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(book.Worksheets.ExternalLinks[0].OriginalDataSource, @&amp;quot;/_Work/Toronto/Parent/parent.xlsx&amp;quot;);
+[Test]
+        public void Property_Int32_()
+        {
+            Workbook book = new Workbook(Constants.sourcePath + &quot;CellsNet44402.xlsx&quot;);
+            Assert.AreEqual(book.Worksheets.ExternalLinks[0].OriginalDataSource, @&quot;/_Work/Toronto/Parent/parent.xlsx&quot;);
+            Console.WriteLine(book.Worksheets.ExternalLinks[0].DataSource);
+        }
+```
+
 ### See Also
 
 * class [ExternalLink](../../externallink/)

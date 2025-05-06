@@ -49,6 +49,21 @@ public int Add(SparklineType type, string dataRange, bool isVertical, CellArea l
 
 [`SparklineGroup`](../../sparklinegroup/) object index.
 
+### Examples
+
+```csharp
+// Called: sheet.SparklineGroups.Add(SparklineType.Line, &amp;quot;A26385:C26385&amp;quot;, false, CellArea.CreateCellArea(&amp;quot;D26385&amp;quot;, &amp;quot;D26385&amp;quot;));
+[Test]
+        public void Method_CellArea_()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+            sheet.SparklineGroups.Add(SparklineType.Line, &quot;A26385:C26385&quot;, false, CellArea.CreateCellArea(&quot;D26385&quot;, &quot;D26385&quot;));
+            workbook.Save(Constants.destPath + &quot;CELLSNET56012.xlsx&quot;);
+
+        }
+```
+
 ### See Also
 
 * enum [SparklineType](../../sparklinetype/)

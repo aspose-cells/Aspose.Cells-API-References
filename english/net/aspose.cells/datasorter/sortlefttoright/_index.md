@@ -13,6 +13,30 @@ True means that sorting orientation is from left to right. False means that sort
 public bool SortLeftToRight { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: dataSorter.SortLeftToRight = true;
+[Test]
+        public void Property_SortLeftToRight()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;Sort/TestLeftToRight_001.xls&quot;);
+            DataSorter dataSorter = workbook.DataSorter;
+
+            dataSorter.Key1 = 0;
+            CellArea area = new CellArea();
+            area.StartRow = 0;
+            area.EndRow = 4;
+            area.StartColumn = 0;
+            area.EndColumn = 2;
+            dataSorter.SortLeftToRight = true;
+            dataSorter.Sort(workbook.Worksheets[0].Cells, area);
+            Assert.AreEqual(workbook.Worksheets[0].Cells[&quot;A1&quot;].DoubleValue, 4);
+            workbook.Save(Constants.destPath + &quot;TestLeftToRight_001.xls&quot;);
+
+        }
+```
+
 ### See Also
 
 * class [DataSorter](../)

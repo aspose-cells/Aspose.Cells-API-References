@@ -13,6 +13,29 @@ Gets or sets the range of second category Axis values. It can be a range of cell
 public string SecondCategoryData { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: AssertHelper.AreEqual(nseriesSrc.SecondCategoryData, nseriesDest.SecondCategoryData, info + &amp;quot;.SecondCategoryData&amp;quot;);
+public static void Property_SecondCategoryData(SeriesCollection nseriesSrc, SeriesCollection nseriesDest, string info)
+        {
+            if (AssertHelper.checkNull(nseriesSrc, nseriesDest, info))
+            {
+                return;
+            }
+            int countSrc = nseriesSrc.Count;
+            int countDest = nseriesDest.Count;
+            AssertHelper.AreEqual(countSrc, countDest, info + &quot;.Count&quot;);
+            for (int i = 0; i &lt; countSrc &amp;&amp; i &lt; countDest; i++)
+            {
+                AssertHelper.AreEqual(nseriesSrc.CategoryData, nseriesDest.CategoryData, info + &quot;.CategoryData&quot;);
+                AssertHelper.AreEqual(nseriesSrc.IsColorVaried, nseriesDest.IsColorVaried, info + &quot;.IsColorVaried&quot;);
+                AssertHelper.AreEqual(nseriesSrc.SecondCategoryData, nseriesDest.SecondCategoryData, info + &quot;.SecondCategoryData&quot;);
+                ASeriesTest.Property_SecondCategoryData(nseriesSrc[i], nseriesDest[i], info + &quot;[&quot; + i + &quot;]&quot;);
+            }
+        }
+```
+
 ### See Also
 
 * class [SeriesCollection](../)

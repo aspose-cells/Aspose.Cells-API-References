@@ -13,6 +13,17 @@ The position of the stop.
 public double Position { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: AssertHelper.AreEqual(gsSrc.Position, gsDest.Position, info + &amp;quot;.Position&amp;quot;);
+public static void Property_Position(GradientStop gsSrc, GradientStop gsDest, string info)
+        {
+            CellsColorTest.Property_Position(gsSrc.CellsColor, gsDest.CellsColor, info + &quot;.CellsColor&quot;);
+            AssertHelper.AreEqual(gsSrc.Position, gsDest.Position, info + &quot;.Position&quot;);
+        }
+```
+
 ### See Also
 
 * class [GradientStop](../)

@@ -19,6 +19,24 @@ public void DeleteColumns(int columnIndex, int totalColumns, bool updateReferenc
 | totalColumns | Int32 | Count of columns to be deleted. |
 | updateReference | Boolean | Indicates whether update references in other worksheets. |
 
+### Examples
+
+```csharp
+// Called: workbook.Worksheets[0].Cells.DeleteColumns(0, 2,true);
+[Test]
+        public void Method_Boolean_()
+        {
+            Workbook workbook = new Workbook();
+            ShapeCollection shapes = workbook.Worksheets[0].Shapes;
+
+            TextBox shape = shapes.AddTextBox(10, 0, 10, 0, 100, 100);
+            workbook.Worksheets[0].Cells.DeleteRows(0, 2);
+            workbook.Worksheets[0].Cells.DeleteColumns(0, 2,true);
+            Assert.AreEqual(8, shape.UpperLeftRow);
+            Assert.AreEqual(8, shape.UpperLeftColumn);
+        }
+```
+
 ### See Also
 
 * class [Cells](../)

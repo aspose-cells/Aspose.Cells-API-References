@@ -13,6 +13,22 @@ Delete all blank rows which do not contain any data or other object.
 public void DeleteBlankRows()
 ```
 
+### Examples
+
+```csharp
+// Called: sheet.Cells.DeleteBlankRows();
+[Test]
+        public void Method_DeleteBlankRows()
+        {
+            Workbook wb = new Workbook(Constants.sourcePath + &quot;insertDelete/N47628.xlsx&quot;,
+                new LoadOptions(){MemorySetting =  MemorySetting.MemoryPreference});
+            foreach (Worksheet sheet in wb.Worksheets)
+            {
+                sheet.Cells.DeleteBlankRows();
+            }
+        }
+```
+
 ### See Also
 
 * class [Cells](../)
@@ -36,6 +52,27 @@ public void DeleteBlankRows(DeleteOptions options)
 ### Remarks
 
 For blank rows that will be deleted, it is not only required that [`IsBlank`](../../row/isblank/) should be true, but also there should be no visible comment defined for any cell in those rows, and no pivot table whose range intersects with them.
+
+### Examples
+
+```csharp
+// Called: workesheet.Cells.DeleteBlankRows(deleteOptions);
+[Test]
+        public void Method_DeleteOptions_()
+        {
+            string filePath = Constants.PivotTableSourcePath + @&quot;NET47446_&quot;;
+
+            Workbook workbook = new Workbook(filePath + &quot;sample.xlsb&quot;);
+
+            DeleteOptions deleteOptions = new DeleteOptions();
+            deleteOptions.UpdateReference = true;
+
+            foreach (Worksheet workesheet in workbook.Worksheets)
+                workesheet.Cells.DeleteBlankRows(deleteOptions);
+
+            workbook.Worksheets.RemoveAt(&quot;Play Check&quot;);
+        }
+```
 
 ### See Also
 

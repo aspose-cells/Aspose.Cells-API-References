@@ -13,6 +13,23 @@ The filter options to denote what data should be loaded.
 public LoadDataFilterOptions LoadDataFilterOptions { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: LoadDataFilterOptions = LoadDataFilterOptions.Structure;
+public override void Property_LoadDataFilterOptions(Worksheet sheet)
+            {
+                if (sheet.Index == 0)
+                {
+                    LoadDataFilterOptions = LoadDataFilterOptions.DefinedNames | LoadDataFilterOptions.CellData;
+                }
+                else
+                {
+                    LoadDataFilterOptions = LoadDataFilterOptions.Structure;
+                }
+            }
+```
+
 ### See Also
 
 * enum [LoadDataFilterOptions](../../loaddatafilteroptions/)

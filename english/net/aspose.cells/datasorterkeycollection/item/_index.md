@@ -17,6 +17,22 @@ public DataSorterKey this[int index] { get; }
 | --- | --- |
 | index | The index. |
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(SortOrder.Descending, table.AutoFilter.Sorter.Keys[0].Order);
+[Test]
+        public void Property_Int32_()
+        {
+            Workbook sourceWb = new Workbook(Constants.sourcePath + &quot;CellsNet53104.xlsx&quot;);
+            Workbook destWb = new Workbook();
+            destWb.Copy(sourceWb);
+            ListObject table = destWb.Worksheets[0].ListObjects[0];
+            Assert.AreEqual(SortOrder.Descending, table.AutoFilter.Sorter.Keys[0].Order);
+            destWb.Save(Constants.destPath + &quot;CellsNet53104.xlsx&quot;);
+        }
+```
+
 ### See Also
 
 * class [DataSorterKey](../../datasorterkey/)

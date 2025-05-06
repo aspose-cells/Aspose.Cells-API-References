@@ -13,6 +13,54 @@ Indent level setting will be applied.
 public bool Indent { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: var tcStyleFlag = new StyleFlag { Indent = true };
+[Test]
+        public void Property_Indent()
+        {
+            string filePath = Constants.JohnTest_PATH_SOURCE + @&quot;NET47178/&quot;;
+
+            Workbook wb = new Workbook();
+            Worksheet ws = wb.Worksheets[0];
+            var tcStyle = ws.Workbook.CreateStyle();
+            tcStyle.IndentLevel = 2;
+            var tcStyleFlag = new StyleFlag { Indent = true };
+            // Add some data
+            for (int r = 0; r &lt; 4; r++)
+            {
+                for (int c = 0; c &lt; 4; c++)
+                {
+                    if (r == 0)
+                    {
+                        var cellValue = string.Format(&quot;Column {0}&quot;, c);
+                        ws.Cells[r, c].PutValue(cellValue);
+                    }
+                    else
+                    {
+                        var cellValue = r + c;
+                        ws.Cells[r, c].PutValue(cellValue);
+                    }
+                }
+            }
+            var range = ws.Cells.CreateRange(1, 0, 3, 4);
+            var index = ws.ListObjects.Add(range.FirstRow - 1, range.FirstColumn, range.FirstRow + 3, range.FirstColumn + 3, true);
+            ws.ListObjects[index].TableStyleType = TableStyleType.TableStyleLight16;
+            range.ApplyStyle(tcStyle, tcStyleFlag);
+
+            Style a2Style = wb.Worksheets[0].Cells[&quot;A2&quot;].GetStyle();
+            Assert.AreEqual(a2Style.IndentLevel, 2);
+            Assert.AreEqual(a2Style.HorizontalAlignment, TextAlignmentType.Left);
+
+            string savePath = CreateFolder(filePath);
+            XlsSaveOptions saveOptions = new XlsSaveOptions();
+            wb.Save(savePath + &quot;out.xls&quot;, saveOptions);
+            HtmlSaveOptions htmlSaveOptions = new HtmlSaveOptions();
+            wb.Save(savePath + &quot;out.html&quot;, htmlSaveOptions);
+        }
+```
+
 ### See Also
 
 * class [StyleFlag](../)

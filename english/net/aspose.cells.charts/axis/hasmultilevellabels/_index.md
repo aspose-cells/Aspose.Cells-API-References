@@ -17,6 +17,19 @@ public bool HasMultiLevelLabels { get; set; }
 
 Only valid for category axis.
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(workbook.Worksheets[0].Charts[0].CategoryAxis.HasMultiLevelLabels, false);
+[Test]
+        public void Property_HasMultiLevelLabels()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet40010.xlsx&quot;);
+            Assert.AreEqual(workbook.Worksheets[0].Charts[0].CategoryAxis.HasMultiLevelLabels, false);
+
+        }
+```
+
 ### See Also
 
 * class [Axis](../)

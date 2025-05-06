@@ -17,6 +17,32 @@ public void SetStyle(CellBorderType style)
 | --- | --- | --- |
 | style | CellBorderType | Borders' style |
 
+### Examples
+
+```csharp
+// Called: style.Borders.SetStyle(CellBorderType.None);
+[Test]
+		public void Method_CellBorderType_()
+		{
+            Workbook excel = new Workbook(Constants.sourcePath + &quot;mergecellborder.xls&quot;);
+			Style style = excel.Worksheets[0].Cells[1,1].GetStyle();
+
+			style.Borders.SetStyle(CellBorderType.None);
+			
+
+			excel.Worksheets[0].Cells[1,1].SetStyle(style);
+
+			style = excel.Worksheets[0].Cells[1,2].GetStyle();
+
+			style.Borders.SetStyle(CellBorderType.None);
+			
+			excel.Worksheets[0].Cells[1,2].SetStyle(style);
+
+            excel.Save(Constants.destPath + &quot;removedborder.xls&quot;);
+
+		}
+```
+
 ### See Also
 
 * enum [CellBorderType](../../cellbordertype/)

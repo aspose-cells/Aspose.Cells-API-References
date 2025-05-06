@@ -19,6 +19,29 @@ public string SeverCommand { get; set; }
 
 NOTE: This property is now obsolete. Instead, please use ExternalConnection.SecondCommand property. This method will be removed 12 months later since October 2024. Aspose apologizes for any inconvenience you may have experienced.
 
+### Examples
+
+```csharp
+// Called: if (!string.IsNullOrEmpty(connection.SeverCommand))
+[Test]
+        public void Property_SeverCommand()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET46959.xls&quot;);
+            Aspose.Cells.ExternalConnections.ExternalConnectionCollection connections = workbook.DataConnections;
+
+            foreach (Aspose.Cells.ExternalConnections.DBConnection connection in connections)
+            {
+                connection.Name = connection.Name.Replace(&quot;c:\\&quot;, &quot;d:\\&quot;);
+                connection.SourceFile = connection.SourceFile.Replace(&quot;c:\\&quot;, &quot;d:\\&quot;);
+                connection.ConnectionInfo = connection.ConnectionInfo.Replace(&quot;c:\\&quot;, &quot;d:\\&quot;).Replace(&quot;C:\\&quot;, &quot;d:\\&quot;);
+                connection.Command = connection.Command.Replace(&quot;c:\\&quot;, &quot;d:\\&quot;);
+                if (!string.IsNullOrEmpty(connection.SeverCommand))
+                    connection.SeverCommand = connection.SeverCommand.Replace(&quot;c:\\&quot;, &quot;d:\\&quot;);
+            }
+            workbook.Save(Constants.destPath + &quot;CELLSNET46959.xls&quot;);
+        }
+```
+
 ### See Also
 
 * class [DBConnection](../)

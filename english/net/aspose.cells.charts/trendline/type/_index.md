@@ -13,6 +13,19 @@ Returns the trendline type.
 public TrendlineType Type { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: AssertHelper.AreEqual(TrendlineType.Exponential, trendline.Type, &amp;quot;chart.NSeries[0].TrendLines[0].Type&amp;quot;);
+private void Property_Type(Workbook workbook)
+        {
+            Worksheet sheet = workbook.Worksheets[0];
+            Chart chart = sheet.Charts[0];
+            Trendline trendline = chart.NSeries[0].TrendLines[0];
+            AssertHelper.AreEqual(TrendlineType.Exponential, trendline.Type, &quot;chart.NSeries[0].TrendLines[0].Type&quot;);
+        }
+```
+
 ### See Also
 
 * enum [TrendlineType](../../trendlinetype/)

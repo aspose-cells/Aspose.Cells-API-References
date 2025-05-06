@@ -25,6 +25,21 @@ The local prorected names of PivotTable.
 
 In Ms Excel, some names are not allowed to be used as the name of PivotFields in PivotTable. They are different in different region, user may specify them explicitly according to the used region.
 
+### Examples
+
+```csharp
+// Called: return base.GetTextOfProtectedName(protectedName);
+public override string Method_String_(string protectedName)
+        {
+            Console.WriteLine(&quot;---------GetTextOfProtectedName-------------&quot;);
+            if (protectedName == &quot;Values&quot;)
+            {
+                return &quot;AsposeValues&quot;;
+            }
+            return base.Method_String_(protectedName);
+        }
+```
+
 ### See Also
 
 * class [PivotGlobalizationSettings](../)

@@ -18,6 +18,20 @@ public WorkbookPrintingPreview(Workbook workbook, ImageOrPrintOptions options)
 | workbook | Workbook | Indicate which workbook to be printed. |
 | options | ImageOrPrintOptions | ImageOrPrintOptions contains some property of output |
 
+### Examples
+
+```csharp
+// Called: WorkbookPrintingPreview wp = new WorkbookPrintingPreview(wb, new ImageOrPrintOptions());
+[Test]
+        public void WorkbookPrintingPreview_Constructor()
+        {
+            Workbook wb = new Workbook(Constants.sourcePath + &quot;CELLSJAVA-45829.xlsx&quot;);
+
+            WorkbookPrintingPreview wp = new WorkbookPrintingPreview(wb, new ImageOrPrintOptions());
+            Assert.AreEqual(114, wp.EvaluatedPageCount);
+        }
+```
+
 ### See Also
 
 * class [Workbook](../../../aspose.cells/workbook/)

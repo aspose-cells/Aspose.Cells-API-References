@@ -21,6 +21,44 @@ public QueryTable this[int index] { get; }
 
 The querytable
 
+### Examples
+
+```csharp
+// Called: QueryTable queryTable = queryTables[0];
+public static void Property_Int32_()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet in the workbook
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Access the QueryTableCollection of the worksheet
+            QueryTableCollection queryTables = worksheet.QueryTables;
+            
+            // Display the count of QueryTables in the worksheet
+            Console.WriteLine(&quot;Number of QueryTables: &quot; + queryTables.Count);
+            
+            // Set the capacity of the QueryTableCollection
+            queryTables.Capacity = 10;
+            Console.WriteLine(&quot;Capacity of QueryTableCollection: &quot; + queryTables.Capacity);
+            
+            // Assuming there is at least one QueryTable, access the first QueryTable
+            if (queryTables.Count &gt; 0)
+            {
+                QueryTable queryTable = queryTables[0];
+                Console.WriteLine(&quot;First QueryTable accessed.&quot;);
+            }
+            else
+            {
+                Console.WriteLine(&quot;No QueryTables found in the worksheet.&quot;);
+            }
+            
+            // Save the workbook
+            workbook.Save(&quot;QueryTableCollectionExample.xlsx&quot;);
+        }
+```
+
 ### See Also
 
 * class [QueryTable](../../querytable/)

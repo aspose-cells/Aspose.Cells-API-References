@@ -17,6 +17,59 @@ public Stream InputStream { get; set; }
 
 When setting a non-null Stream to this property, the previously set value for [`InputFile`](../inputfile/) will be ignored.
 
+### Examples
+
+```csharp
+// Called: HtmlConverter.Process(new LowCodeLoadOptions() { InputStream = template },
+private void Property_InputStream(Stream template, SaveOptions saveOptions, string fnTail)
+        {
+            switch (saveOptions.SaveFormat)
+            {
+                case SaveFormat.Pdf:
+                {
+                    PdfConverter.Process(new LowCodeLoadOptions() { InputStream = template },
+                        new LowCodePdfSaveOptions() {
+                            OutputFile = Constants.checkPath + &quot;License/LowCode&quot; + fnTail,
+                            PdfOptions = (PdfSaveOptions)saveOptions,
+                        });
+                    return;
+                }
+                case SaveFormat.Json:
+                {
+                    JsonConverter.Process(new LowCodeLoadOptions() { InputStream = template },
+                        new LowCodeSaveOptions()
+                        {
+                            OutputFile = Constants.checkPath + &quot;License/LowCode&quot; + fnTail
+                        });
+                    return;
+                }
+                case SaveFormat.Html:
+                {
+                    HtmlConverter.Process(new LowCodeLoadOptions() { InputStream = template },
+                        new LowCodeSaveOptions()
+                        {
+                            OutputFile = Constants.checkPath + &quot;License/LowCode&quot; + fnTail
+                        });
+                    return;
+                }
+                case SaveFormat.Csv:
+                {
+                    TextConverter.Process(new LowCodeLoadOptions() { InputStream = template },
+                        new LowCodeSaveOptions()
+                        {
+                            OutputFile = Constants.checkPath + &quot;License/LowCode&quot; + fnTail
+                        });
+                    return;
+                }
+                default:
+                {
+                    Assert.Fail(&quot;Unsupported save format for LowCode: &quot; + saveOptions.SaveFormat);
+                    return;
+                }
+            }
+        }
+```
+
 ### See Also
 
 * class [LowCodeLoadOptions](../)

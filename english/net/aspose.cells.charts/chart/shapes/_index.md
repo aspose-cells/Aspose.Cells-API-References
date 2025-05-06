@@ -13,6 +13,22 @@ Returns all drawing shapes in this chart.
 public ShapeCollection Shapes { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: Shape shape = workbook.Worksheets[0].Charts[0].Shapes[0];
+[Test]
+        public void Property_Shapes()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;TestMovingShapeInChart.xls&quot;);
+            Shape shape = workbook.Worksheets[0].Charts[0].Shapes[0];
+            shape.LeftInShape = 4000 - shape.WidthInShape;
+            shape.TopInShape = 4000 - shape.HeightInShape;
+            Assert.AreEqual(4000, shape.LeftInShape + shape.WidthInShape);
+            workbook.Save(Constants.destPath + &quot;TestMovingShapeInChart.xls&quot;);
+        }
+```
+
 ### See Also
 
 * class [ShapeCollection](../../../aspose.cells.drawing/shapecollection/)

@@ -13,6 +13,25 @@ Gets the icon set data.
 public byte[] ImageData { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: byte[] imageData = worksheet.Cells[&amp;quot;D8&amp;quot;].GetConditionalFormattingResult().ConditionalFormattingIcon.ImageData;
+[Test]
+        public void Property_ImageData()
+        {
+            Workbook wb = new Workbook(Constants.sourcePath + &quot;ConditionalFormattings/CellsJava41663.xlsx&quot;);
+            Worksheet worksheet = wb.Worksheets[0];
+            byte[] imageData = worksheet.Cells[&quot;D8&quot;].GetConditionalFormattingResult().ConditionalFormattingIcon.ImageData;
+            Assert.AreEqual(imageData != null &amp;&amp; imageData.Length != 0,true);
+            using (Image image = Image.FromStream(new MemoryStream(imageData)))
+            {
+                Assert.AreEqual(16, image.Width);
+                Assert.AreEqual(16, image.Height);
+            }
+        }
+```
+
 ### See Also
 
 * class [ConditionalFormattingIcon](../)

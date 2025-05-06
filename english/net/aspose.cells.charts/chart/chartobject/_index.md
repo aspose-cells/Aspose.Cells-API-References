@@ -13,6 +13,27 @@ Represents the chartShape;
 public ChartShape ChartObject { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: chart.ChartObject.Placement = PlacementType.FreeFloating;
+[Test]
+        public void Property_ChartObject()
+        {
+            Workbook workbook = new Workbook();
+            workbook = TestColumn.CreateChart(workbook);
+            Chart chart = workbook.Worksheets[0].Charts[0];
+            chart.ChartObject.Placement = PlacementType.FreeFloating;
+
+            checkPlacementType_FreeFloating(workbook);
+            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+            checkPlacementType_FreeFloating(workbook);
+            workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
+            checkPlacementType_FreeFloating(workbook);
+            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+        }
+```
+
 ### See Also
 
 * class [ChartShape](../../../aspose.cells.drawing/chartshape/)

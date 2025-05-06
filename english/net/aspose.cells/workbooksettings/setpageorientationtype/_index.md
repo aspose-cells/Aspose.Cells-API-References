@@ -17,6 +17,25 @@ public void SetPageOrientationType(PageOrientationType pageOrientationType)
 | --- | --- | --- |
 | pageOrientationType | PageOrientationType | The page orientation type |
 
+### Examples
+
+```csharp
+// Called: workbook.Settings.SetPageOrientationType(PageOrientationType.Portrait);
+[Test]
+        public void Method_PageOrientationType_()
+        {
+            Workbook workbook = new Workbook();
+            workbook.Worksheets.Add();
+            workbook.Worksheets.Add();
+            workbook.Settings.SetPageOrientationType(PageOrientationType.Portrait);
+            foreach(Worksheet sheet in workbook.Worksheets)
+            {
+                Assert.AreEqual(PageOrientationType.Portrait, sheet.PageSetup.Orientation);
+            }
+
+        }
+```
+
 ### See Also
 
 * enum [PageOrientationType](../../pageorientationtype/)

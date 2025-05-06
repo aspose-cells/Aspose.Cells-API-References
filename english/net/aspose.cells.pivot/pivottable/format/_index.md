@@ -65,6 +65,29 @@ public void Format(int row, int column, Style style)
 | column | Int32 | Column index of the cell |
 | style | Style | Style which is to format the cell |
 
+### Examples
+
+```csharp
+// Called: wb.Worksheets[2].PivotTables[0].Format(10, 0, style);
+[Test]
+        public void Method_Style_()
+        {
+
+            Workbook wb = new Workbook(Constants.openPivottablePath + &quot;Source.xlsx&quot;);
+            Style style = wb.CreateStyle();
+            style.Custom = &quot;dd/mmm&quot;;
+            wb.Worksheets[2].PivotTables[0].Format(9, 0, style);
+            wb.Worksheets[2].PivotTables[0].Format(10, 0, style);
+            wb.Worksheets[2].PivotTables[0].Format(11, 0, style);
+            wb.Worksheets[2].PivotTables[0].Format(12, 0, style);
+            wb.Worksheets[2].PivotTables[0].RowFields[0].IsAutoSubtotals = false;
+            wb.Worksheets[2].PivotTables[0].RowFields[0].ShowInOutlineForm = false;
+            wb.Worksheets[2].PivotTables[0].RefreshData();
+            wb.Worksheets[2].PivotTables[0].CalculateData();
+            wb.Save(Constants.savePivottablePath + &quot;40013.xlsx&quot;);
+        }
+```
+
 ### See Also
 
 * class [Style](../../../aspose.cells/style/)

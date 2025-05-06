@@ -13,6 +13,23 @@ Get or set this ColorScale's mid value object. Cannot set CFValueObject with typ
 public ConditionalFormattingValue MidCfvo { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(50, (int)sheet.ConditionalFormattings[0][0].ColorScale.MidCfvo.Value);
+[Test]
+        public void Property_MidCfvo()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET56853.xlsx&quot;);
+            Worksheet sheet = workbook.Worksheets[4];
+           
+            Assert.AreEqual(50, (int)sheet.ConditionalFormattings[0][0].ColorScale.MidCfvo.Value);
+            workbook.Save(Constants.destPath + &quot;CELLSNET56853.xlsb&quot;);
+            workbook = new Workbook(Constants.destPath + &quot;CELLSNET56853.xlsb&quot;);
+            workbook.Save(Constants.destPath + &quot;CELLSNET56853.xlsx&quot;);
+        }
+```
+
 ### See Also
 
 * class [ConditionalFormattingValue](../../conditionalformattingvalue/)

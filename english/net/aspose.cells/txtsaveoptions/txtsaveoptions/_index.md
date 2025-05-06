@@ -13,6 +13,25 @@ Creates text file save options.
 public TxtSaveOptions()
 ```
 
+### Examples
+
+```csharp
+// Called: TxtSaveOptions saveOptions = new TxtSaveOptions();
+[Test]
+        public void TxtSaveOptions_Constructor()
+        {
+            string FileName = Constants.sourcePath + &quot;TestWorkbook\\Book1.xls&quot;;
+            Workbook workbook = new Workbook(FileName);
+            TxtSaveOptions saveOptions = new TxtSaveOptions();
+            saveOptions.SeparatorString = &quot;&amp;^&quot;;
+            workbook.Save(Constants.destPath + &quot;testSave.CSV&quot;, saveOptions);
+
+            TxtLoadOptions loadOptions = new TxtLoadOptions();
+            loadOptions.SeparatorString = &quot;&amp;^&quot;;
+            workbook = new Workbook(Constants.destPath + &quot;testSave.CSV&quot;, loadOptions);
+        }
+```
+
 ### See Also
 
 * class [TxtSaveOptions](../)

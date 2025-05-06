@@ -65,6 +65,51 @@ public enum EquationNodeType
 | Matrix | `216` | Specifies the Matrix equation, |
 | ArrayEquation | `317` | Specifies the Equation-Array function. The function consists of one or more equations. |
 
+### Examples
+
+```csharp
+// Called: TextRunEquationNode TR = (TextRunEquationNode)(subBase.AddChild(EquationNodeType.Text));
+[Test]
+        public void Type_EquationNodeType()
+        {
+            Workbook workbook = new Workbook();
+            TextBox textBox = workbook.Worksheets[0].Shapes.AddEquation(3, 0, 3, 0, 100, 200);
+
+            //test get mathnode
+            EquationNode mathNode = textBox.GetEquationParagraph().GetChild(0);
+            Assert.AreNotEqual(null, mathNode);
+
+            BoxEquationNode node = (BoxEquationNode)mathNode.AddChild(EquationNodeType.Box);
+            //node.BarPosition = BarPositionType.Top;
+
+            EquationNode subBase = node.AddChild(EquationNodeType.Base);
+            TextRunEquationNode TR = (TextRunEquationNode)(subBase.AddChild(EquationNodeType.Text));
+            TR.Text = &quot;==&quot;;
+
+            string resultFile = Constants.destPath + &quot;BoxEquationTest.xlsx&quot;;
+            workbook.Save(resultFile);
+            Workbook workbook2 = new Workbook(resultFile);
+
+            TextBox textBoxRead = (TextBox)workbook2.Worksheets[0].Shapes[0];
+            EquationNode mathNode2 = textBoxRead.GetEquationParagraph().GetChild(0);
+            Assert.AreNotEqual(null, mathNode2);
+
+            BoxEquationNode node2 = (BoxEquationNode)mathNode2.GetChild(0);
+            Assert.AreNotEqual(null, node2);
+            Assert.AreEqual(EquationNodeType.Box, node2.EquationType);
+
+            EquationNode node3 = node2.GetChild(0);
+            Assert.AreNotEqual(null, node3);
+            Assert.AreEqual(EquationNodeType.Base, node3.EquationType);
+
+            TR = (TextRunEquationNode)node3.GetChild(0);
+            Assert.AreNotEqual(null, TR);
+            Assert.AreEqual(EquationNodeType.Text, TR.EquationType);
+            Assert.AreEqual(&quot;==&quot;, TR.Text);
+
+        }
+```
+
 ### See Also
 
 * namespace [Aspose.Cells.Drawing.Equations](../../aspose.cells.drawing.equations/)

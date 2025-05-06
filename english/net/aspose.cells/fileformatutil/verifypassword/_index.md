@@ -22,6 +22,28 @@ public static bool VerifyPassword(Stream stream, string password)
 
 Returns whether the password is corrected.
 
+### Examples
+
+```csharp
+// Called: Assert.IsTrue(FileFormatUtil.VerifyPassword(stream, &amp;quot;test&amp;quot;));
+[Test]
+        public void Method_String_()
+        {
+            using (Stream stream = File.OpenRead(Constants.sourcePath + &quot;CellsNet47625.xlsx&quot;))
+            {
+             //  FileFormatInfo info = FileFormatUtil.DetectFileFormat(stream, &quot;test&quot;);
+                Assert.IsTrue(FileFormatUtil.VerifyPassword(stream, &quot;test&quot;));
+              //  Assert.IsTrue(info.IsPasswordValid);
+            }
+            using (Stream stream = File.OpenRead(Constants.sourcePath + &quot;CellsNet47625.xlsx&quot;))
+            {
+                FileFormatInfo info = FileFormatUtil.DetectFileFormat(stream, &quot;1234&quot;);
+                Assert.IsTrue(info.IsEncrypted);
+               // Assert.IsFalse(info.IsPasswordValid);
+            }
+        }
+```
+
 ### See Also
 
 * class [FileFormatUtil](../)

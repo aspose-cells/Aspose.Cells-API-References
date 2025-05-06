@@ -13,6 +13,19 @@ Gets and sets the globalization settings.
 public GlobalizationSettings GlobalizationSettings { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: wb.Settings.GlobalizationSettings = new MG();
+[Test]
+        public void Property_GlobalizationSettings()
+        {
+            Workbook wb = new Workbook();
+            wb.Settings.GlobalizationSettings = new MG();
+           Assert.AreEqual(&quot;Tabellenblatt2&quot;,wb.Worksheets[wb.Worksheets.Add()].Name);
+        }
+```
+
 ### See Also
 
 * class [GlobalizationSettings](../../globalizationsettings/)

@@ -13,6 +13,20 @@ Gets and sets the interrupt monitor.
 public AbstractInterruptMonitor InterruptMonitor { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: wb.InterruptMonitor = new TimeInterruptMonitor(msTimeLimit, msgHeader, msTimeDelay);
+public static void Property_InterruptMonitor(Workbook wb, int msTimeLimit, string msgHeader, int[] msTimeDelay)
+        {
+            wb.InterruptMonitor = new TimeInterruptMonitor(msTimeLimit, msgHeader, msTimeDelay);
+            if (msgHeader != null)
+            {
+                Console.WriteLine(msgHeader + &quot;: starting...&quot;);
+            }
+        }
+```
+
 ### See Also
 
 * class [AbstractInterruptMonitor](../../abstractinterruptmonitor/)

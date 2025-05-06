@@ -13,6 +13,27 @@ Gets the type of module.
 public VbaModuleType Type { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: Console.WriteLine(lModules[i].Type);
+[Test]
+       public void Property_Type()
+        {
+
+            Workbook wb = new Workbook(Constants.sourcePath + &quot;CellsJava42955.xlsm&quot;);
+            VbaProject lVbaProject = wb.VbaProject;
+            VbaModuleCollection lModules = lVbaProject.Modules;
+            for (int i = 0; i &lt; lModules.Count; i++)
+            {
+               string name = lModules[i].Name;
+                Console.WriteLine(lModules[i].Type);
+                string codes = lModules[i].Codes;
+            }
+            wb.Save(Constants.destPath + &quot;CellsJava42955.xlsm&quot;);
+        }
+```
+
 ### See Also
 
 * enum [VbaModuleType](../../vbamoduletype/)

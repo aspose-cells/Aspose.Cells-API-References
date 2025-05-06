@@ -21,6 +21,31 @@ display style of this cell
 
 Same with using SideBorders for `GetDisplayStyle`. That is, this method will check and adjust top/bottom/left/right borders of this cell according to the style([`GetStyle`](../getstyle/)) of its adjacent cells, but do not check the merged cells, and do not check the display style of adjacent cells.
 
+### Examples
+
+```csharp
+// Called: Style style12 = wb.Worksheets[0].Cells[&amp;quot;A12&amp;quot;].GetDisplayStyle();
+[Test]
+        public void Method_GetDisplayStyle()
+        {
+            HtmlSaveOptions htmlSaveOptions = new HtmlSaveOptions();
+            htmlSaveOptions.ExportSingleTab = true;
+
+            string filePath = Constants.JohnTest_PATH_SOURCE + @&quot;JAVA41969/&quot;;
+
+            Workbook wb = new Workbook(filePath + &quot;報告.xlsx&quot;);
+            wb.Save(Constants.destPath + &quot;JAVA41969.html&quot;, htmlSaveOptions);
+
+            //get style after saving to html to ensure that PivotTable.CalculateStyle() is called.
+            Style style12 = wb.Worksheets[0].Cells[&quot;A12&quot;].GetDisplayStyle();
+            Style style13 = wb.Worksheets[0].Cells[&quot;A13&quot;].GetDisplayStyle();
+
+            wb = new Workbook(Constants.destPath + &quot;JAVA41969.html&quot;);
+           AssertHelper.AreEqual(style12.ForegroundColor, wb.Worksheets[0].Cells[&quot;A12&quot;].GetStyle().ForegroundColor);
+           AssertHelper.AreEqual(style13.ForegroundColor, wb.Worksheets[0].Cells[&quot;A13&quot;].GetStyle().ForegroundColor);
+        }
+```
+
 ### See Also
 
 * class [Style](../../style/)
@@ -50,6 +75,22 @@ display style of this cell
 
 If the specified flag is false, then it is same with `GetDisplayStyle`. Otherwise it is same with using SideBorders&#x7C;DynamicStyleBorders for `GetDisplayStyle`.
 
+### Examples
+
+```csharp
+// Called: Style style = cell.GetDisplayStyle(true);
+[Test]
+        public void Method_Boolean_()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsJava42716.xlsx&quot;);
+
+            Cell cell = workbook.Worksheets[0].Cells[&quot;B2&quot;];
+            Style style = cell.GetDisplayStyle(true);
+            Assert.AreEqual(style.Borders[BorderType.RightBorder].LineStyle,CellBorderType.Thin);
+
+        }
+```
+
 ### See Also
 
 * class [Style](../../style/)
@@ -78,6 +119,50 @@ display style of this cell
 ### Remarks
 
 If this cell is also affected by other settings such as conditional formatting, list objects, etc., then the display style may be different from [`GetStyle`](../getstyle/). For flags of adjusting borders according to adjacent cells, TopBorder/BottomBorder /LeftBorder/RightBorder denote whether check and combine the bottom/top/right/left borders of the left/right/top/bottom cells adjacent to this one. For performance and compatibility consideration, some enums are used to denote some special operations: Horizontal/Vertical denote whether check and combine the bottom/right border of merged cells to this one. Diagonal(that is, both DiagonalUpBorder and DiagonalDownBorder have been set) denotes check and combine borders from the display style of adjacent cells. Please note, checking borders/styles of adjacent cells, especially the display styles, is time-consumed process. If there is no need to get the borders for the returned style, using None to disable the process of adjacent cells will give better performance. When getting borders of adjacent cells from styles defined on those cells only(without setting Diagonal), the performance also may be better because checking the display style of one cell is time-consumed too.
+
+### Examples
+
+```csharp
+// Called: if (cells[r, 0].GetDisplayStyle(BorderType.None).ForegroundArgbColor != argbs[r % 10])
+[Test]
+        public void Method_BorderType_()
+        {
+            Workbook wb = new Workbook();
+            Worksheet sheet = wb.Worksheets[0];
+            Cells cells = sheet.Cells;
+            for (int i = 0; i &lt; 100000; i++)
+            {
+                cells[i, 0].PutValue(i % 10);
+            }
+            FormatConditionCollection fcs = sheet.ConditionalFormattings[sheet.ConditionalFormattings.Add()];
+            fcs.AddArea(CellArea.CreateCellArea(0, 0, 1048575, 0));
+            fcs.AddCondition(FormatConditionType.ColorScale);
+            int[] argbs = new int[]
+            {
+                //0xFFF8696B, 0xFFF98570, 0xFFFBA276, 0xFFFCBF7B, 0xFFFEDC81, 0xFFEDE582, 0xFFCADB80, 0xFFA8D17E, 0xFF85C77C, 0xFF63BE7B,
+                -497301, -424592, -286090, -213125, -74623, -1186430, -3482752, -5713538, -8009860, -10240389,
+            };
+
+            sheet.StartAccessCache(AccessCacheOptions.ConditionalFormatting);
+
+            TimePerformance monitor = new TimePerformance(70);
+            monitor.StartPerfTest();
+            Random random = new Random();
+            for (int i = 0; i &lt; 5000; i++)
+            {
+                int r = (int)(100000 * random.NextDouble());
+                if (cells[r, 0].GetDisplayStyle(BorderType.None).ForegroundArgbColor != argbs[r % 10])
+                {
+                    Assert.Fail(&quot;A&quot; + (r + 1) + &quot; expected color should be &quot;
+                        + argbs[r % 10].ToString(&quot;X&quot;) + &quot; but was &quot;
+                        + cells[r, 0].GetDisplayStyle().ForegroundArgbColor.ToString(&quot;X&quot;));
+                }
+            }
+            monitor.FinishPerfTest(&quot;Using access cache for conditional formattings with type of ColorScale&quot;);
+
+            sheet.CloseAccessCache(AccessCacheOptions.ConditionalFormatting);
+        }
+```
 
 ### See Also
 

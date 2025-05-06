@@ -13,6 +13,21 @@ Represents image of ole object as byte array.
 public byte[] ImageData { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.IsTrue(oleObject.ImageData != null);
+[Test]
+        public void Property_ImageData()
+        {
+            var workbook = new Workbook(Constants.sourcePath + &quot;CELLSAPP1504.xls&quot;);
+            OleObject oleObject = workbook.Worksheets[0].OleObjects[0];
+            Assert.IsTrue(oleObject.ImageData != null);
+            Assert.IsFalse(oleObject.IsHidden);
+            workbook.Save(Constants.destPath + &quot;CELLSAPP1504.xls&quot;);
+        }
+```
+
 ### See Also
 
 * class [OleObject](../)

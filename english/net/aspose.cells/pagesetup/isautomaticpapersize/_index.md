@@ -13,6 +13,19 @@ Indicates whether the paper size is automatic.
 public bool IsAutomaticPaperSize { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.IsTrue(workbook.Worksheets[0].PageSetup.IsAutomaticPaperSize);
+[Test]
+        public void Property_IsAutomaticPaperSize()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsJava42770.xml&quot;);
+            Assert.IsTrue(workbook.Worksheets[0].PageSetup.IsAutomaticPaperSize);
+            Assert.AreEqual(PaperSizeType.PaperA4, workbook.Worksheets[0].PageSetup.PaperSize);
+        }
+```
+
 ### See Also
 
 * class [PageSetup](../)

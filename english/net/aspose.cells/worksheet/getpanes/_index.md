@@ -17,6 +17,20 @@ public PaneCollection GetPanes()
 
 If the window is not split or frozen.
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(2,workbook.Worksheets[0].GetPanes().FirstVisibleRowOfBottomPane);
+[Test]
+        public void Method_GetPanes()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsJava42717.xlsx&quot;);
+            workbook.Worksheets[0].Cells.DeleteRow(0);
+            Assert.AreEqual(2,workbook.Worksheets[0].GetPanes().FirstVisibleRowOfBottomPane);
+            workbook.Save(Constants.destPath + &quot;CellsJava42717.xlsx&quot;);
+        }
+```
+
 ### See Also
 
 * class [PaneCollection](../../panecollection/)

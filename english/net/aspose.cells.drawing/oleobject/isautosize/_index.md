@@ -13,6 +13,22 @@ True indicates that the size of the ole object will be auto changed as the size 
 public bool IsAutoSize { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: workbook.Worksheets[0].OleObjects[0].IsAutoSize = false;
+[Test]
+        public void Property_IsAutoSize()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet45643.xlsx&quot;);
+            Assert.IsTrue(workbook.Worksheets[0].OleObjects[0].IsAutoSize);
+            workbook.Worksheets[0].OleObjects[0].IsAutoSize = false;
+            workbook.Save(Constants.destPath + &quot;CellsNet45643.xlsx&quot;);
+            workbook = new Workbook(Constants.destPath + &quot;CellsNet45643.xlsx&quot;);
+            Assert.IsFalse(workbook.Worksheets[0].OleObjects[0].IsAutoSize);
+        }
+```
+
 ### See Also
 
 * class [OleObject](../)

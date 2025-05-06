@@ -22,6 +22,44 @@ public Picture GetPicture(bool isHeader, int section)
 
 Returns [`Picture`](../../../aspose.cells.drawing/picture/) object. Returns null if there is no picture.
 
+### Examples
+
+```csharp
+// Called: picture = pageSetup.GetPicture(true, 1);
+[Test]
+        public void Method_Int32_()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;testCopy.xlsx&quot;);
+
+            WorksheetCollection worksheets = workbook.Worksheets;
+
+            // get the text of every sheet
+            for (int i = 0; i &lt; worksheets.Count; i++)
+            {
+                Worksheet worksheet = worksheets[i];
+                PageSetup pageSetup = worksheet.PageSetup;
+                Picture picture = pageSetup.GetPicture(true, 0);
+                if (null != picture)
+                    Console.WriteLine(picture.IsPrintable);
+                picture = pageSetup.GetPicture(true, 1);
+                if (null != picture)
+                    Console.WriteLine(picture.IsPrintable);
+                picture = pageSetup.GetPicture(true, 2);
+                if (null != picture)
+                    Console.WriteLine(picture.IsPrintable);
+                picture = pageSetup.GetPicture(false, 0);
+                if (null != picture)
+                    Console.WriteLine(picture.IsPrintable);
+                picture = pageSetup.GetPicture(false, 1);
+                if (null != picture)
+                    Console.WriteLine(picture.IsPrintable);
+                picture = pageSetup.GetPicture(false, 2);
+                if (null != picture)
+                    Console.WriteLine(picture.IsPrintable);
+            }
+        }
+```
+
 ### See Also
 
 * class [Picture](../../../aspose.cells.drawing/picture/)

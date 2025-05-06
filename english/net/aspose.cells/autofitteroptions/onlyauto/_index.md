@@ -13,6 +13,22 @@ Indicates whether only fit the rows which height are not customed.
 public bool OnlyAuto { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: OnlyAuto = true
+private static void Property_OnlyAuto(Worksheet worksheet)
+        {
+            worksheet.AutoFitRows(new AutoFitterOptions
+            {
+                AutoFitMergedCellsType = AutoFitMergedCellsType.EachLine,
+                AutoFitWrappedTextType = AutoFitWrappedTextType.Paragraph,
+                MaxRowHeight = int.MaxValue,
+                OnlyAuto = true
+            });
+        }
+```
+
 ### See Also
 
 * class [AutoFitterOptions](../)

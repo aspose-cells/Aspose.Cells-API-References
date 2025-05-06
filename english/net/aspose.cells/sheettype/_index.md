@@ -25,6 +25,25 @@ public enum SheetType
 | Other | `5` |  |
 | Dialog | `6` | Dialog worksheet |
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(workbook.Worksheets[0].Type, SheetType.InternationalMacro);
+[Test]
+        public void Type_SheetType()
+        {  // workbook.Save(dir + &quot;dest.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET-47410.xlsm&quot;);
+            Assert.AreEqual(workbook.Worksheets[0].Type, SheetType.InternationalMacro);
+            workbook.Save(Constants.destPath + &quot;CELLSNET-47410.xlsm&quot;);
+            workbook = new Workbook(Constants.destPath + &quot;CELLSNET-47410.xlsm&quot;);
+            Assert.AreEqual(workbook.Worksheets[0].Type, SheetType.InternationalMacro);
+            workbook.Save(Constants.destPath + &quot;CELLSNET-47410.xlsb&quot;);
+            workbook = new Workbook(Constants.destPath + &quot;CELLSNET-47410.xlsb&quot;);
+            Assert.AreEqual(workbook.Worksheets[0].Type, SheetType.InternationalMacro);
+            workbook.Save(Constants.destPath + &quot;CELLSNET-47410.xlsm&quot;);
+        }
+```
+
 ### See Also
 
 * namespace [Aspose.Cells](../../aspose.cells/)

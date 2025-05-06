@@ -54,6 +54,54 @@ public class PivotConditionalFormatCollection : CollectionBase<PivotConditionalF
 | [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(PivotConditionalFormat, int, int) |  |
 | [RemoveAt](../../aspose.cells/collectionbase-1/removeat/)(int) |  |
 
+### Examples
+
+```csharp
+// Called: PivotConditionalFormatCollection pfcc = table.ConditionalFormats;
+[Test]
+        public void Type_PivotConditionalFormatCollection()
+        {
+            string filePath = Constants.PivotTableSourcePath + @&quot;JAVA42247_&quot;;
+            Workbook book = new Workbook(filePath + &quot;Coalition_Advance_Cross_Tab_05042017_1102.xlsx&quot;);
+            Worksheet sheet2 = book.Worksheets[&quot;Advanced CrossTab&quot;];
+            PivotTable table = book.Worksheets[&quot;Advanced CrossTab&quot;].PivotTables[0];
+            table.RefreshData();
+            table.CalculateData();
+            table.RefreshDataOnOpeningFile = false;
+
+            PivotConditionalFormatCollection pfcc = table.ConditionalFormats;
+            int pIndex = pfcc.Add();
+            PivotConditionalFormat pfc = pfcc[pIndex];
+            FormatConditionCollection fcc = pfc.FormatConditions;
+            CellArea dataBodyRange = table.DataBodyRange;
+            fcc.AddArea(dataBodyRange);
+            int idx = fcc.AddCondition(FormatConditionType.CellValue);
+            FormatCondition fc = fcc[idx];
+            fc.Formula1 = &quot;224&quot;;
+            fc.Operator = OperatorType.Equal;
+            fc.Text = &quot;NA&quot;;
+            fc.Style.BackgroundColor = Color.Red;
+
+            //sheet 上的条件格式，在透视表自动刷新后会被覆盖掉，需要用透视表的条件格式才行
+            //ConditionalFormattingCollection cfs = sheet2.ConditionalFormattings;
+            //int index123 = cfs.Add();
+            //FormatConditionCollection fcs = cfs[index123];
+            //CellArea dataBodyRange = table.DataBodyRange;
+            ////ca = new CellArea();
+            //fcs.AddArea(dataBodyRange);//geting all body of pivot values here
+            //int idx = fcs.AddCondition(FormatConditionType.CellValue);
+            //FormatCondition fc = fcs[idx];
+            //fc.Formula1 = &quot;224&quot;;
+            //fc.Operator = OperatorType.Equal;
+            //fc.Text = &quot;NA&quot;;
+            //fc.Style.BackgroundColor = Color.Red;
+
+
+
+            book.Save(CreateFolder(filePath) + &quot;outout.xlsx&quot;);
+        }
+```
+
 ### See Also
 
 * class [CollectionBase&lt;T&gt;](../../aspose.cells/collectionbase-1/)

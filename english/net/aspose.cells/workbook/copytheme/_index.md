@@ -17,6 +17,23 @@ public void CopyTheme(Workbook source)
 | --- | --- | --- |
 | source | Workbook | Source workbook. |
 
+### Examples
+
+```csharp
+// Called: nwb.CopyTheme(wb);
+[Test]
+        public void Method_Workbook_()
+        {
+            Workbook wb = new Workbook(Constants.sourcePath + &quot;CELLSJAVA41754.xlsx&quot;);
+            Workbook nwb = new Workbook();
+            nwb.Copy(wb);
+            nwb.CopyTheme(wb);
+            nwb.Save(Constants.destPath + &quot;dest.xlsx&quot;);
+            wb = new Workbook(Constants.destPath + &quot;dest.xlsx&quot;);
+            Assert.AreEqual(2, wb.Worksheets[0].Shapes.Count);
+        }
+```
+
 ### See Also
 
 * class [Workbook](../)

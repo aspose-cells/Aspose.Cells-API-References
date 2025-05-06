@@ -21,6 +21,34 @@ public Style CreateBuiltinStyle(BuiltinStyleType type)
 
 [`Style`](../../style/) object
 
+### Examples
+
+```csharp
+// Called: Style style = workbook.CreateBuiltinStyle(BuiltinStyleType.Good);
+[Test]
+        public void Method_BuiltinStyleType_()
+        {
+            Workbook workbook = new Workbook();
+
+
+            workbook.Worksheets[0].Cells[&quot;A1&quot;].PutValue(&quot;Good&quot;);
+
+            Style style = workbook.CreateBuiltinStyle(BuiltinStyleType.Good);
+
+            workbook.Worksheets[0].Cells[&quot;A1&quot;].SetStyle(style);
+            Assert.AreEqual(style.ForegroundColor.ToArgb()&amp;0xFFFFFF, 0xC6EFCE);
+
+
+            workbook.Worksheets[0].Cells[&quot;B2&quot;].PutValue(&quot;Neutral&quot;);
+
+            style = workbook.CreateBuiltinStyle(BuiltinStyleType.Neutral);
+
+            workbook.Worksheets[0].Cells[&quot;B2&quot;].SetStyle(style);
+            Assert.AreEqual(style.ForegroundColor.ToArgb() &amp; 0xFFFFFF, 0xFFEB9C);
+
+        }
+```
+
 ### See Also
 
 * class [Style](../../style/)

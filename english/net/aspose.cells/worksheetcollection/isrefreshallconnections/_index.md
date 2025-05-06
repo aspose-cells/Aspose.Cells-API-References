@@ -13,6 +13,19 @@ Indicates whether refresh all connections on opening file in MS Excel.
 public bool IsRefreshAllConnections { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: AssertHelper.AreEqual(expected.IsRefreshAllConnections,result.IsRefreshAllConnections, info + &amp;quot;.IsRefreshAllConnections&amp;quot;);
+private static void Property_IsRefreshAllConnections(WorksheetCollection expected, WorksheetCollection result, string info)
+        {
+            AssertHelper.AreEqual(expected.ActiveSheetIndex, result.ActiveSheetIndex, info + &quot;.ActiveSheetIndex&quot;);
+            // AssertHelper.AreEqual(arrsheetSrc.EnableHTTPCompression, arrsheetDest.EnableHTTPCompression, info + &quot;.EnableHTTPCompression&quot;);
+          
+           AssertHelper.AreEqual(expected.IsRefreshAllConnections,result.IsRefreshAllConnections, info + &quot;.IsRefreshAllConnections&quot;);
+        }
+```
+
 ### See Also
 
 * class [WorksheetCollection](../)

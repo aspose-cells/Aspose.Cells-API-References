@@ -18,6 +18,33 @@ public void InsertColumns(int columnIndex, int totalColumns)
 | columnIndex | Int32 | Column index. |
 | totalColumns | Int32 | The number of columns. |
 
+### Examples
+
+```csharp
+// Called: cells.InsertColumns(0, 2);
+[Test]
+        public void Method_Int32_()
+        {
+            caseName = &quot;testInsertChart_005&quot;;
+            Workbook workbook = new Workbook();
+            workbook = new Workbook(Constants.sourcePath + &quot;insertDelete\\insertSourceData.xls&quot;);
+            Worksheet sheet = workbook.Worksheets[0];
+            Cells cells = sheet.Cells;
+            Chart chart = sheet.Charts[0];
+            cells.InsertColumn(0);
+            cells.InsertColumns(0, 2);
+
+            checkInsertChart_005(workbook);
+            workbook.Save(Constants.destPath + &quot; testInsertChart.xls&quot;);
+            workbook = new Workbook(Constants.destPath + &quot; testInsertChart.xls&quot;);
+            checkInsertChart_005(workbook);
+            workbook.Save(Constants.destPath + &quot; testInsertChart.xlsx&quot;);
+            workbook = new Workbook(Constants.destPath + &quot; testInsertChart.xlsx&quot;);
+            checkInsertChart_005(workbook);
+            workbook.Save(Constants.destPath + &quot; testInsertChart.xls&quot;);
+        }
+```
+
 ### See Also
 
 * class [Cells](../)
@@ -39,6 +66,20 @@ public void InsertColumns(int columnIndex, int totalColumns, bool updateReferenc
 | columnIndex | Int32 | Column index. |
 | totalColumns | Int32 | The number of columns. |
 | updateReference | Boolean | Indicates if references in other worksheets will be updated. |
+
+### Examples
+
+```csharp
+// Called: workbook.Worksheets[&amp;quot;Daily Data&amp;quot;].Cells.InsertColumns(7, 3, true);
+[Test]
+        public void Method_Boolean_()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;110+Viking+Daily.xls&quot;);
+            workbook.Worksheets[&quot;Daily Data&quot;].Cells.InsertColumns(7, 3, true);
+
+
+        }
+```
 
 ### See Also
 

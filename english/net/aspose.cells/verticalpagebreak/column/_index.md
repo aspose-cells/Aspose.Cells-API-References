@@ -13,6 +13,22 @@ Gets the column index of the vertical page break.
 public int Column { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: AssertHelper.AreEqual(vpagebreakSrc.Column, vpagebreakDest.Column, info + &amp;quot;.Column&amp;quot;);
+public static void Property_Column(VerticalPageBreak vpagebreakSrc, VerticalPageBreak vpagebreakDest, string info)
+        {
+            if (AssertHelper.checkNull(vpagebreakSrc, vpagebreakDest, info))
+            {
+                return;
+            }
+            AssertHelper.AreEqual(vpagebreakSrc.StartRow, vpagebreakDest.StartRow, info + &quot;.StartRow&quot;);
+            AssertHelper.AreEqual(vpagebreakSrc.EndRow, vpagebreakDest.EndRow, info + &quot;.EndRow&quot;);
+            AssertHelper.AreEqual(vpagebreakSrc.Column, vpagebreakDest.Column, info + &quot;.Column&quot;);
+        }
+```
+
 ### See Also
 
 * class [VerticalPageBreak](../)

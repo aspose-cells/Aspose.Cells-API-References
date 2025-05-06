@@ -21,6 +21,26 @@ public CheckBox this[int index] { get; }
 
 The element at the specified index.
 
+### Examples
+
+```csharp
+// Called: CheckBox checkBox = ws.CheckBoxes[idxCheckBox];
+[Test]
+        public void Property_Int32_()
+            {
+            Workbook workbook = new Workbook();
+            Worksheet ws = workbook.Worksheets[0];
+            int idxCheckBox = ws.CheckBoxes.Add(0, 1, 17, 17);
+            CheckBox checkBox = ws.CheckBoxes[idxCheckBox];
+            checkBox.Name = (&quot;Importer_Ligne_&quot; + (0 + 1));
+            workbook.Save(Constants.destPath + &quot;CELLSJAVA41542.xlsx&quot;);
+            workbook = new Workbook(Constants.destPath + &quot;CELLSJAVA41542.xlsx&quot;);
+            checkBox = workbook.Worksheets[0].CheckBoxes[0];
+            Assert.AreEqual((&quot;Importer_Ligne_&quot; + (0 + 1)), checkBox.Name);
+
+        }
+```
+
 ### See Also
 
 * class [CheckBox](../../checkbox/)

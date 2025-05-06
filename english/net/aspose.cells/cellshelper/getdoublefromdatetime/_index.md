@@ -18,6 +18,22 @@ public static double GetDoubleFromDateTime(DateTime dateTime, bool date1904)
 | dateTime | DateTime | The date time. |
 | date1904 | Boolean | Date 1904 system. |
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual((int)cells[&amp;quot;A1&amp;quot;].DoubleValue,(int)CellsHelper.GetDoubleFromDateTime(DateTime.Now,false));
+[Test]
+    public void Method_Boolean_()
+    {
+      Workbook workbook = new Workbook();
+      Cells cells = workbook.Worksheets[0].Cells;
+      cells[0, 0].Formula = &quot;=NOW(  )&quot;;
+      workbook.CalculateFormula();
+        Assert.AreEqual((int)cells[&quot;A1&quot;].DoubleValue,(int)CellsHelper.GetDoubleFromDateTime(DateTime.Now,false));
+     // Console.WriteLine(cells[0, 0].DateTimeValue);
+    }
+```
+
 ### See Also
 
 * class [CellsHelper](../)

@@ -47,6 +47,22 @@ public void AutoFitColumn(int columnIndex)
 
 AutoFitColumn is an imprecise function.
 
+### Examples
+
+```csharp
+// Called: ws.AutoFitColumn(4);
+[Test]
+        public void Method_Int32_()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet47528.xlsx&quot;);
+            Worksheet ws = workbook.Worksheets[0];
+            ws.AutoFitColumn(4);
+            Assert.AreEqual(11.78, ws.Cells.GetColumnWidth(4));
+
+            workbook.Save(Constants.destPath + &quot;CellsNet47528.xlsx&quot;);
+        }
+```
+
 ### See Also
 
 * class [Worksheet](../)

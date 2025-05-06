@@ -13,6 +13,19 @@ Gets or sets the value of the property.
 public object Value { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Value.ToString().StartsWith(&amp;quot; &amp;quot;),true);
+[Test]
+        public void Property_Value()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;xlsx - Hallo.xlsx&quot;);
+            Assert.AreEqual(workbook.Worksheets.CustomDocumentProperties[&quot;rox_Meta1&quot;].
+                Value.ToString().StartsWith(&quot; &quot;),true);
+        }
+```
+
 ### See Also
 
 * class [DocumentProperty](../)

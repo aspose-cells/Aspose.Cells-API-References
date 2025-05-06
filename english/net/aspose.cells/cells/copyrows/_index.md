@@ -20,6 +20,30 @@ public void CopyRows(Cells sourceCells, int sourceRowIndex, int destinationRowIn
 | destinationRowIndex | Int32 | Destination row index. |
 | rowNumber | Int32 | The copied row number. |
 
+### Examples
+
+```csharp
+// Called: worksheet.Cells.CopyRows(worksheet.Cells, 0, 25, 24); // See sheet1 row 25
+[Test]
+        // Charts not copying correctly
+        // http://www.aspose.com/community/forums/thread/293128.aspx
+        public void Method_Int32_()
+        {
+            Console.WriteLine(&quot;Method_Int32_()&quot;);
+            string infn = path + @&quot;CELLSNET-25555\ChartTest.xlsx&quot;;
+            string outfn = Constants.destPath + @&quot;CELLSNET-25555_out.xlsx&quot;;
+
+            Workbook workbook = new Workbook(infn);
+            Worksheet worksheet = workbook.Worksheets[0];
+            workbook.Worksheets.AddCopy(0);  // See sheet5
+            worksheet.Cells.CopyRows(worksheet.Cells, 0, 25, 24); // See sheet1 row 25
+            workbook.Save(outfn, SaveFormat.Xlsx);
+
+            //Console.WriteLine(&quot;Please wait..., This test will open the output file for checking: Charts Copy.&quot;);
+            //Process.Start(&quot;explorer.exe&quot;, string.Format(&quot;\&quot;{0}\&quot;&quot;, outfn));
+        }
+```
+
 ### See Also
 
 * class [Cells](../)
@@ -44,6 +68,32 @@ public void CopyRows(Cells sourceCells0, int sourceRowIndex, int destinationRowI
 | destinationRowIndex | Int32 | Destination row index. |
 | rowNumber | Int32 | The copied row number. |
 | copyOptions | CopyOptions | The copy options. |
+
+### Examples
+
+```csharp
+// Called: cells.CopyRows(cells, 0, 1, 1, co);
+[Test]
+        public void Method_CopyOptions_()
+        {
+            Workbook wb = new Workbook(Constants.sourcePath + &quot;CellsNet45314.xlsx&quot;);
+
+            Worksheet ws = wb.Worksheets[&quot;Sheet1&quot;];
+
+            HyperlinkCollection hyps = ws.Hyperlinks;
+
+            int cnt1 = hyps.Count;
+
+            CopyOptions co = new CopyOptions();
+            co.ExtendToAdjacentRange = true;
+
+            Cells cells = ws.Cells;
+            cells.CopyRows(cells, 0, 1, 1, co);
+
+            int cnt2 = hyps.Count;
+           Assert.AreEqual(1,cnt2);
+        }
+```
 
 ### See Also
 

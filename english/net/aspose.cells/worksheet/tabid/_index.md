@@ -13,6 +13,22 @@ Specifies the internal identifier for the sheet.
 public int TabId { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: workbook.Worksheets[0].TabId = 107;
+[Test]
+        public void Property_TabId()
+        {
+            Workbook workbook = new Workbook();
+            workbook.Worksheets[0].TabId = 107;
+            workbook.Save(Constants.destPath + &quot;CellsNet45666.xlsb&quot;);
+            workbook = new Workbook(Constants.destPath + &quot;CellsNet45666.xlsb&quot;);
+            Assert.AreEqual(  workbook.Worksheets[0].TabId , 107);
+
+        }
+```
+
 ### See Also
 
 * class [Worksheet](../)

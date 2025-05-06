@@ -29,6 +29,24 @@ Exported DataTable object.
 
 All data in the [`Cells`](../) collection are converted to strings.
 
+### Examples
+
+```csharp
+// Called: datatable = cells.ExportDataTableAsString(0, 0, 5, 0);
+[Test, ExpectedException(typeof(CellsException))]
+#endif
+        public void Method_Int32_()
+        {
+            caseName = &quot;testExportDataTableAsString_Exception_004&quot;;
+            Workbook workbook = new Workbook();
+            Cells cells = workbook.Worksheets[0].Cells;
+            DataTable datatable = new DataTable();
+            datatable = cells.ExportDataTableAsString(0, 0, 5, 0);
+            string msg = message + &quot;cells.ExportDataTableAsString(0, 0, 5, 0)&quot;;
+            writeToExcel(caseName, msg);
+        }
+```
+
 ### See Also
 
 * class [Cells](../)
@@ -61,6 +79,24 @@ Exported DataTable object.
 ### Remarks
 
 All data in the [`Cells`](../) collection are converted to strings.
+
+### Examples
+
+```csharp
+// Called: dt = book.Worksheets[0].Cells.ExportDataTableAsString(0, 0, row, column, true);
+[Test]
+        public void Method_Boolean_()
+        {
+            Workbook book = new Workbook(Constants.sourcePath + &quot;CellsNet42333.xls&quot;);
+            DataTable dt = new DataTable();
+            DataSet ds = new DataSet();
+            int column = book.Worksheets[0].Cells.MaxDataColumn + 1;
+            int row = book.Worksheets[0].Cells.MaxDataRow + 1;
+            dt = book.Worksheets[0].Cells.ExportDataTableAsString(0, 0, row, column, true);
+            ds.Tables.Add(dt);
+
+        }
+```
 
 ### See Also
 

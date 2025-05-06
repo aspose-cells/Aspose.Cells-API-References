@@ -41,6 +41,20 @@ public void Unprotect(string password)
 
 If the worksheet is protected without a password, you can set a null value or blank string to password parameter.
 
+### Examples
+
+```csharp
+// Called: workbook.Worksheets[0].Unprotect(&amp;quot;test&amp;quot;);
+[Test]
+        public void Method_String_()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsJava43889.xlsb&quot;);
+            workbook.Save(Constants.destPath + &quot;CellsJava43889.xlsb&quot;);
+            workbook = new Workbook(Constants.destPath + &quot;CellsJava43889.xlsb&quot;);
+            workbook.Worksheets[0].Unprotect(&quot;test&quot;);
+        }
+```
+
 ### See Also
 
 * class [Worksheet](../)

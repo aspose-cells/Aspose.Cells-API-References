@@ -38,6 +38,30 @@ Script commands:
 
 For example: "&amp;Arial,Bold&amp;8Footer Note"
 
+### Examples
+
+```csharp
+// Called: pageSetup.SetFooter(0, &amp;quot;&amp;amp;G&amp;quot;);
+[Test]
+        public void Method_String_()
+        {
+            Workbook workbook = new Workbook();
+            foreach (Worksheet worksheet in workbook.Worksheets)
+            {
+                PageSetup pageSetup = worksheet.PageSetup;
+                byte[] pic = File.ReadAllBytes(Constants.sourcePath + &quot;image1.png&quot;);
+                Picture picture = pageSetup.SetFooterPicture(0, pic);
+                picture.RelativeToOriginalPictureSize = false;
+                pageSetup.SetFooter(0, &quot;&amp;G&quot;);
+            }
+
+            workbook.Save(Constants.destPath + &quot;CELLSNET47485.xlsx&quot;);
+            workbook = new Workbook(Constants.destPath + &quot;CELLSNET47485.xlsx&quot;);
+            PageSetup ps = workbook.Worksheets[0].PageSetup;
+            Assert.IsFalse(ps.GetPicture(false, 0).RelativeToOriginalPictureSize);
+        }
+```
+
 ### See Also
 
 * class [PageSetup](../)

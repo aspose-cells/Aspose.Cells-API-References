@@ -28,6 +28,25 @@ public enum ErrorCellValueType
 | TimeOut | `19` | Represents the value of a cell containing a #TIMEOUT! error. |
 | External | `18` | Represents the value of a cell containing an #EXTERNAL! error. |
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(ErrorCellValueType.Spill, c.ErrorValue);
+[Test]
+        public void Type_ErrorCellValueType()
+        {
+            Workbook wb = new Workbook(Constants.sourcePath + &quot;CELLSNET57143.xlsx&quot;);
+            Workbook w = new Workbook();
+            w.Worksheets[0].Copy(wb.Worksheets[0]);
+            CellRichValue c = w.Worksheets[0].Cells[&quot;A1&quot;].GetRichValue();
+            Assert.AreEqual(ErrorCellValueType.Spill, c.ErrorValue);
+            w.Save(Constants.destPath + &quot;CELLSNET57143.xlsx&quot;);
+            w = new Workbook(Constants.destPath + &quot;CELLSNET57143.xlsx&quot;);
+            c = w.Worksheets[0].Cells[&quot;A1&quot;].GetRichValue();
+            Assert.AreEqual(ErrorCellValueType.Spill, c.ErrorValue);
+        }
+```
+
 ### See Also
 
 * namespace [Aspose.Cells](../../aspose.cells/)

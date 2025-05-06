@@ -18,6 +18,22 @@ public void SetFirstPageHeader(int section, string headerScript)
 | section | Int32 | 0: Left Section, 1: Center Section, 2: Right Section. |
 | headerScript | String | Header format script. |
 
+### Examples
+
+```csharp
+// Called: ps.SetFirstPageHeader(2, &amp;quot;@G&amp;quot;);
+[Test]
+        public void Method_String_()
+        {
+            Workbook workbook = new Workbook();
+            PageSetup ps = workbook.Worksheets[0].PageSetup;
+            byte[] data = File.ReadAllBytes(Constants.sourcePath +&quot;1.jpg&quot;);
+            ps.SetPicture(true, false, true, 2, data);
+            ps.SetFirstPageHeader(2, &quot;@G&quot;);
+            workbook.Save(Constants.destPath + &quot;CELLSJAVA40628.xlsx&quot;);
+        }
+```
+
 ### See Also
 
 * class [PageSetup](../)

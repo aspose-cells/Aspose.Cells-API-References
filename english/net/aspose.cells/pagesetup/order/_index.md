@@ -13,6 +13,17 @@ Represents the order that Microsoft Excel uses to number pages when printing a l
 public PrintOrderType Order { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: AssertHelper.AreEqual(PrintOrderType.OverThenDown, sheet.PageSetup.Order, &amp;quot;sheet.PageSetup.Order&amp;quot;);
+private void Property_Order(Workbook workbook)
+        {
+            Worksheet sheet = workbook.Worksheets[0];
+            AssertHelper.AreEqual(PrintOrderType.OverThenDown, sheet.PageSetup.Order, &quot;sheet.PageSetup.Order&quot;);
+        }
+```
+
 ### See Also
 
 * enum [PrintOrderType](../../printordertype/)

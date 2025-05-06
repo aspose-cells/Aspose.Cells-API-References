@@ -28,6 +28,41 @@ public class SolidFill : Fill
 | override [Equals](../../aspose.cells.drawing/solidfill/equals/)(object) |  |
 | override [GetHashCode](../../aspose.cells.drawing/solidfill/gethashcode/)() | Gets the hash code. |
 
+### Examples
+
+```csharp
+// Called: SolidFill outLineFill = (SolidFill)font.Outline.SolidFill;
+[Test]
+        public void Type_SolidFill()
+        {
+
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+            Shape sp = sheet.Shapes.AddAutoShape(AutoShapeType.Rectangle, 4, 4, 4, 4, 100, 700);
+            sp.Fill.FillType = FillType.None;
+
+            sp.Text = &quot;Hello World !!!&quot;;
+            FontSetting fs = sp.Characters(0, &quot;Hello World !!!&quot;.Length);
+            TextOptions font = fs.TextOptions;
+            font.Name = &quot;Calibri&quot;;
+            font.Size = 54;
+            font.IsBold = true;
+
+
+            font.Color = System.Drawing.Color.Green;
+            font.Outline.FillType = FillType.Solid;
+            SolidFill outLineFill = (SolidFill)font.Outline.SolidFill;
+            outLineFill.Color = Color.White;
+
+            font.Fill.FillType = FillType.Solid;
+            SolidFill fill = font.Fill.SolidFill;
+            fill.Color = Color.Green;
+            font.Shadow.PresetType = PresetShadowType.OffsetBottom;
+
+            Util.SaveManCheck(workbook, &quot;Shape&quot;, &quot;CELLSNET41817.xlsx&quot;);
+        }
+```
+
 ### See Also
 
 * class [Fill](../fill/)

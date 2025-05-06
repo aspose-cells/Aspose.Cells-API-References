@@ -45,6 +45,20 @@ public abstract class EquationNode : FontSetting
 | [ToLaTeX](../../aspose.cells.drawing.equations/equationnode/tolatex/)() | Convert this equtation to LaTeX expression. |
 | [ToMathML](../../aspose.cells.drawing.equations/equationnode/tomathml/)() | Convert this equtation to MathML expression. |
 
+### Examples
+
+```csharp
+// Called: EquationNode node = textBox.GetEquationParagraph();
+[Test]
+        public void Type_EquationNode()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet56177.xlsx&quot;);
+            TextBox textBox = workbook.Worksheets[0].TextBoxes[0];
+            EquationNode node = textBox.GetEquationParagraph();
+            Assert.IsTrue(node!= null);
+        }
+```
+
 ### See Also
 
 * class [FontSetting](../../aspose.cells/fontsetting/)

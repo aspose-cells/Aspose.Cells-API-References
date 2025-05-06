@@ -13,6 +13,25 @@ Indicates if a cross-cell string will be displayed in the same way as MS Excel w
 public HtmlCrossType HtmlCrossStringType { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: _saveOptions.HtmlCrossStringType = HtmlCrossType.Default;
+private static HtmlSaveOptions Property_HtmlCrossStringType()
+        {
+            HtmlSaveOptions _saveOptions = null;
+
+            _saveOptions = new HtmlSaveOptions();
+            _saveOptions.ExportPrintAreaOnly = true;
+            _saveOptions.ExportActiveWorksheetOnly = true;
+            _saveOptions.ExportImagesAsBase64 = true;
+            _saveOptions.ExportDataOptions = HtmlExportDataOptions.All;
+            _saveOptions.HtmlCrossStringType = HtmlCrossType.Default;
+
+            return _saveOptions;
+        }
+```
+
 ### See Also
 
 * enum [HtmlCrossType](../../htmlcrosstype/)

@@ -46,6 +46,22 @@ public class SheetRender
 | [ToTiff](../../aspose.cells.rendering/sheetrender/totiff/#totiff)(Stream) | Render whole worksheet as Tiff Image to stream. |
 | [ToTiff](../../aspose.cells.rendering/sheetrender/totiff/#totiff_1)(string) | Render whole worksheet as Tiff Image to a file. |
 
+### Examples
+
+```csharp
+// Called: var Renderer = new SheetRender(ProblemSheet, new ImageOrPrintOptions()); //Invalid Column Index
+[Test]
+        public void Type_SheetRender()
+        {
+            Workbook ToTest = new Workbook(Constants.sourcePath + &quot;Cellsnet44750.xls&quot;);
+            var ProblemSheet = ToTest.Worksheets.GetSheetByCodeName(&quot;Sheet5&quot;);
+            Assert.AreEqual(ProblemSheet.Shapes.Count, 0);
+            ProblemSheet.Cells.DeleteColumn(0);
+            var Renderer = new SheetRender(ProblemSheet, new ImageOrPrintOptions()); //Invalid Column Index
+            Console.WriteLine(Renderer.PageCount);
+        }
+```
+
 ### See Also
 
 * namespace [Aspose.Cells.Rendering](../../aspose.cells.rendering/)

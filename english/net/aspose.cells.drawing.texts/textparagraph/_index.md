@@ -47,6 +47,27 @@ public class TextParagraph : FontSetting
 | --- | --- |
 | [SetWordArtStyle](../../aspose.cells/fontsetting/setwordartstyle/)(PresetWordArtStyle) | Sets the preset WordArt style.(Inherited from [`FontSetting`](../../aspose.cells/fontsetting/).) |
 
+### Examples
+
+```csharp
+// Called: var tp = obj as TextParagraph;
+[Test]
+        public void Type_TextParagraph()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet47332.xlsx&quot;);
+            var sheet = workbook.Worksheets[0];
+            var textBox = sheet.TextBoxes[0];
+            foreach (var obj in textBox.TextBody.TextParagraphs)
+            {
+                var tp = obj as TextParagraph;
+                tp.LineSpaceSizeType = tp.LineSpaceSizeType;
+                Assert.IsTrue(tp.LineSpace != 0);
+
+            }
+            workbook.Save(Constants.destPath + &quot;CellsNet47332.xlsx&quot;);
+        }
+```
+
 ### See Also
 
 * class [FontSetting](../../aspose.cells/fontsetting/)

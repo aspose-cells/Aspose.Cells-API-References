@@ -13,6 +13,21 @@ Gets all [`CellArea`](../../cellarea/) which contain the data validation setting
 public CellArea[] Areas { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: testAreEqual(1, validation.Areas.Length, caseName);
+private void Property_Areas(Workbook workbook)
+        {
+            Worksheet sheet = workbook.Worksheets[0];
+            testAreEqual(1, sheet.Validations.Count, caseName);
+            Validation validation = sheet.Validations[0];
+            testAreEqual(1, validation.Areas.Length, caseName);
+            CellArea cellarea = (CellArea)validation.Areas[0];
+            AssertHelper.checkCellArea(1, 1, 8, 3, cellarea);
+        }
+```
+
 ### See Also
 
 * struct [CellArea](../../cellarea/)

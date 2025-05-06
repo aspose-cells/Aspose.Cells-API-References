@@ -17,6 +17,23 @@ public static int SignificantDigits { get; set; }
 
 Only could be 15 or 17 now.
 
+### Examples
+
+```csharp
+// Called: CellsHelper.SignificantDigits = 17;
+[Test]
+        public void Property_SignificantDigits()
+        {
+            CellsHelper.SignificantDigits = 15;
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells[0, 0].Value = 101956.70469425319;
+
+            workbook.Save(Constants.destPath + &quot;CELLSNET44986.xlsx&quot;);
+            CellsHelper.SignificantDigits = 17;
+        }
+```
+
 ### See Also
 
 * class [CellsHelper](../)

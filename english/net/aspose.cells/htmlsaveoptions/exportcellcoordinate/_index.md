@@ -13,6 +13,23 @@ Indicates whether exporting excel coordinate of nonblank cells when saving file 
 public bool ExportCellCoordinate { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: options.ExportCellCoordinate = true;
+[Test]
+        public void Property_ExportCellCoordinate()
+        {
+            string filePath = Constants.JohnTest_PATH_SOURCE + @&quot;NET47922/&quot;;
+            string savePath = CreateFolder(filePath);
+
+            Workbook wb = new Workbook(filePath + &quot;Book1.xlsx&quot;);
+            HtmlSaveOptions options = new HtmlSaveOptions();
+            options.ExportCellCoordinate = true;
+            wb.Save(savePath + &quot;out.html&quot;, options);
+        }
+```
+
 ### See Also
 
 * class [HtmlSaveOptions](../)

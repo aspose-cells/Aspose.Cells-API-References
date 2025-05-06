@@ -43,6 +43,28 @@ public enum TextureType
 | WovenMat | `23` | Represents Woven Mat texture type. |
 | Unknown | `24` | Represents Unknown texture type. |
 
+### Examples
+
+```csharp
+// Called: aseries.Area.FillFormat.Texture = TextureType.WaterDroplets;
+[Test]
+        public void Type_TextureType()
+        {
+            Workbook workbook = new Workbook();
+            workbook = TestColumn.CreateChart(workbook);
+            Chart chart = workbook.Worksheets[0].Charts[0];
+            Series aseries = chart.NSeries[0];
+            aseries.Area.FillFormat.Texture = TextureType.WaterDroplets;
+
+            checkTextureType_WaterDroplets(workbook);
+            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+            checkTextureType_WaterDroplets(workbook);
+            workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
+            checkTextureType_WaterDroplets(workbook);
+            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+        }
+```
+
 ### See Also
 
 * namespace [Aspose.Cells.Drawing](../../aspose.cells.drawing/)

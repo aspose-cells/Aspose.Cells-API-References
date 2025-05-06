@@ -13,6 +13,21 @@ True, no rules with lower priority may be applied over this rule, when this rule
 public bool StopIfTrue { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.IsFalse(fcs[0].StopIfTrue);
+[Test]
+        public void Property_StopIfTrue()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;ConditionalFormattings/CustomIconSet01.xlsx&quot;);
+            FormatConditionCollection fcs = workbook.Worksheets[0].ConditionalFormattings[0];
+            Assert.AreEqual(fcs[0].Type, FormatConditionType.IconSet);
+            Assert.IsTrue(fcs[0].IconSet.IsCustom);
+            Assert.IsFalse(fcs[0].StopIfTrue);
+        }
+```
+
 ### See Also
 
 * class [FormatCondition](../)

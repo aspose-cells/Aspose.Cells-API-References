@@ -38,6 +38,23 @@ Script commands:
 
 For example: "&amp;Arial,Bold&amp;8Header Note"
 
+### Examples
+
+```csharp
+// Called: ps.SetHeader(1, &amp;quot;abc&amp;amp;Gefd&amp;quot;);
+[Test]
+        public void Method_String_()
+        {
+            var workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+            PageSetup ps = sheet.PageSetup;
+            ps.SetHeaderPicture(1, File.ReadAllBytes(Constants.sourcePath + &quot;1.bmp&quot;));
+            ps.SetHeader(1, &quot;abc&amp;Gefd&quot;);
+            Picture pic = ps.GetPicture(true, 1);
+            Console.WriteLine(pic.ImageType);
+        }
+```
+
 ### See Also
 
 * class [PageSetup](../)

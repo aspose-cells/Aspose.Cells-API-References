@@ -17,6 +17,20 @@ public bool EmbedOoxmlAsOleObject { get; set; }
 
 Only for OleObject.
 
+### Examples
+
+```csharp
+// Called: saveOptions.EmbedOoxmlAsOleObject = true;
+[Test]
+        public void Property_EmbedOoxmlAsOleObject()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET46712.xls&quot;);
+            OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
+            saveOptions.EmbedOoxmlAsOleObject = true;
+            workbook.Save(Constants.destPath + &quot;CELLSNET46714.xlsx&quot;, saveOptions);
+        }
+```
+
 ### See Also
 
 * class [OoxmlSaveOptions](../)

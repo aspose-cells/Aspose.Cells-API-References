@@ -13,6 +13,34 @@ Indicates the text is auto generated.
 public override bool IsAutoText { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Console.WriteLine(point.DataLabels.IsAutoText);
+[Test]
+        // Mo Shujun Bug
+        public void Property_IsAutoText()
+        {
+            Console.WriteLine(&quot;Property_IsAutoText()&quot;);
+            string infn = path + @&quot;20110418\ChartDatalabel\Layout+and+load+diagrams.xlsx&quot;;
+            //string outfn = path + @&quot;20110418\ChartDatalabel\Layout+and+load+diagrams_out.xlsx&quot;;
+
+            Workbook workbook = new Workbook(infn);
+            Worksheet worksheet = workbook.Worksheets[1];
+            Chart chart = worksheet.Charts[1];
+            Assert.AreEqual(&quot;10K80ME-C9.1-TI&quot;, chart.Title.Text);
+            foreach (Series ser in chart.NSeries)
+            {
+                foreach (ChartPoint point in ser.Points)
+                {
+                    Console.WriteLine(point.DataLabels.IsAutoText);
+                    Console.WriteLine(point.DataLabels.Text);
+                }
+            }
+            Util.ReSave(workbook, SaveFormat.Xlsx);
+        }
+```
+
 ### See Also
 
 * class [DataLabels](../)

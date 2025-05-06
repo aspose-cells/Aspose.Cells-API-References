@@ -13,6 +13,23 @@ Indicates if the Read Only Recommended option is selected.
 public bool RecommendReadOnly { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.IsTrue(workbook.Settings.WriteProtection.RecommendReadOnly);
+[Test]
+        public void Property_RecommendReadOnly()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet45576.xlsx&quot;);
+           Assert.IsTrue(workbook.Settings.WriteProtection.RecommendReadOnly);
+           Assert.IsFalse(workbook.Settings.WriteProtection.IsWriteProtected);
+           workbook.Save(Constants.destPath + &quot;CellsNet45576.xls&quot;);
+           workbook = new Workbook(Constants.destPath + &quot;CellsNet45576.xls&quot;);
+           Assert.IsTrue(workbook.Settings.WriteProtection.RecommendReadOnly);
+           Assert.IsFalse(workbook.Settings.WriteProtection.IsWriteProtected);
+        }
+```
+
 ### See Also
 
 * class [WriteProtection](../)

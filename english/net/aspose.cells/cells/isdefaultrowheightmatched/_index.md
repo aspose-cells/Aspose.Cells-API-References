@@ -13,6 +13,25 @@ Indicates that row height and default font height matches
 public bool IsDefaultRowHeightMatched { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.IsTrue(cells.IsDefaultRowHeightMatched);
+[Test]
+        public void Property_IsDefaultRowHeightMatched(){
+            Workbook workbook = new Workbook();
+            Cells cells = workbook.Worksheets[0].Cells;
+            cells.IsDefaultRowHidden = false;
+            Assert.IsTrue(cells.IsDefaultRowHeightMatched);
+            Assert.IsFalse(cells.IsDefaultRowHidden);
+            workbook.Save(Constants.destPath + &quot;CELLSNET47557.xlsx&quot;);
+            workbook = new Workbook(Constants.destPath + &quot;CELLSNET47557.xlsx&quot;);
+            cells = workbook.Worksheets[0].Cells;
+            Assert.IsTrue(cells.IsDefaultRowHeightMatched);
+            Assert.IsFalse(cells.IsDefaultRowHidden);
+        }
+```
+
 ### See Also
 
 * class [Cells](../)

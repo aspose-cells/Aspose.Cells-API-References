@@ -13,6 +13,29 @@ Used when the external data source is file-based. When a connection to such a da
 public string SourceFile { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: connection.SourceFile = connection.SourceFile.Replace(&amp;quot;c:\\&amp;quot;, &amp;quot;d:\\&amp;quot;);
+[Test]
+        public void Property_SourceFile()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET46959.xls&quot;);
+            Aspose.Cells.ExternalConnections.ExternalConnectionCollection connections = workbook.DataConnections;
+
+            foreach (Aspose.Cells.ExternalConnections.DBConnection connection in connections)
+            {
+                connection.Name = connection.Name.Replace(&quot;c:\\&quot;, &quot;d:\\&quot;);
+                connection.SourceFile = connection.SourceFile.Replace(&quot;c:\\&quot;, &quot;d:\\&quot;);
+                connection.ConnectionInfo = connection.ConnectionInfo.Replace(&quot;c:\\&quot;, &quot;d:\\&quot;).Replace(&quot;C:\\&quot;, &quot;d:\\&quot;);
+                connection.Command = connection.Command.Replace(&quot;c:\\&quot;, &quot;d:\\&quot;);
+                if (!string.IsNullOrEmpty(connection.SeverCommand))
+                    connection.SeverCommand = connection.SeverCommand.Replace(&quot;c:\\&quot;, &quot;d:\\&quot;);
+            }
+            workbook.Save(Constants.destPath + &quot;CELLSNET46959.xls&quot;);
+        }
+```
+
 ### See Also
 
 * class [ExternalConnection](../)

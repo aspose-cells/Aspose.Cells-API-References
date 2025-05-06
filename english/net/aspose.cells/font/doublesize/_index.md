@@ -13,6 +13,21 @@ Gets and sets the double size of the font.
 public double DoubleSize { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(workbook.Worksheets[0].Cells[&amp;quot;C4&amp;quot;].GetStyle().Font.DoubleSize, 16.5);
+[Test]
+        public void Property_DoubleSize()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet40407.xlsx&quot;);
+            Assert.AreEqual(workbook.Worksheets[0].Cells[&quot;C4&quot;].GetStyle().Font.DoubleSize, 16.5);
+            workbook.Save(Constants.destPath + &quot;CellsNet40407.xlsx&quot;);
+            workbook = new Workbook(Constants.destPath + &quot;CellsNet40407.xlsx&quot;);
+            Assert.AreEqual(workbook.Worksheets[0].Cells[&quot;C4&quot;].GetStyle().Font.DoubleSize, 16.5);
+        }
+```
+
 ### See Also
 
 * class [Font](../)

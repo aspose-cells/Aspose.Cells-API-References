@@ -18,6 +18,35 @@ public void RemoveACell(int row, int column)
 | row | Int32 | The row index of the cell. |
 | column | Int32 | The column index of the cell. |
 
+### Examples
+
+```csharp
+// Called: cell.Worksheet.Validations.RemoveACell(cell.Row, cell.Column);
+[Test]
+        public void Method_Int32_()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet ws = workbook.Worksheets[0];
+            var cell = ws.Cells[0, 0];
+            ValidationCollection validations = ws.Validations;
+            CellArea cellArea = new CellArea
+            {
+                StartRow = 0,
+                StartColumn = 0,
+                EndRow = 0,
+                EndColumn = 0
+            };
+
+            Validation validation = validations[validations.Add(cellArea)];
+            validation.Type = ValidationType.List;
+            validation.Formula1 = null;
+
+            cell.Worksheet.Validations.RemoveACell(cell.Row, cell.Column);
+            Assert.AreEqual(0, cell.Worksheet.Validations.Count);
+            workbook.Save(Constants.destPath + &quot;CellsNet47374.xlsx&quot;);
+        }
+```
+
 ### See Also
 
 * class [ValidationCollection](../)

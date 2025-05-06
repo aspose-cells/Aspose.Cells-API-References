@@ -13,6 +13,22 @@ Gets and sets the view type.
 public ViewType ViewType { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: workbook.Worksheets[0].ViewType = ViewType.PageBreakPreview;
+[Test]
+        public void Property_ViewType()
+        {
+            Workbook workbook = new Workbook();
+            workbook.Worksheets[0].ViewType = ViewType.PageBreakPreview;
+            workbook.Save(Constants.destPath + &quot;CELLSJAVA42220.xlsb&quot;);
+            workbook = new Workbook(Constants.destPath + &quot;CELLSJAVA42220.xlsb&quot;);
+            Assert.AreEqual( workbook.Worksheets[0].ViewType , ViewType.PageBreakPreview);
+                
+        }
+```
+
 ### See Also
 
 * enum [ViewType](../../viewtype/)

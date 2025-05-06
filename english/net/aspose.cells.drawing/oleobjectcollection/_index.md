@@ -55,6 +55,44 @@ public class OleObjectCollection : CollectionBase<OleObject>
 | [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(OleObject, int, int) |  |
 | [RemoveAt](../../aspose.cells.drawing/oleobjectcollection/removeat/#removeat)(int) | Removes the element at the specified index. (2 methods) |
 
+### Examples
+
+```csharp
+// Called: OleObjectCollection oleObjects = workSheet.OleObjects;
+[Test]
+        public void Type_OleObjectCollection()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet48718.xlsx&quot;);
+            Worksheet workSheet = workbook.Worksheets[0];
+            OleObjectCollection oleObjects = workSheet.OleObjects;
+
+            Assert.AreEqual(3, oleObjects.Count);
+
+            string name = oleObjects[0].Name;
+            Assert.AreEqual(&quot;Test Embedded Obj 1&quot;, name);
+
+            name = oleObjects[1].Name;
+            Assert.AreEqual(&quot;Test Embedded Obj 2&quot;, name);
+
+            name = oleObjects[2].Name;
+            Assert.AreEqual(&quot;Excel Link File&quot;, name);
+            workbook.Save(Constants.destPath + &quot;CellsNet48718.xlsx&quot;);
+            workbook = new Workbook(Constants.destPath + &quot;CellsNet48718.xlsx&quot;);
+            oleObjects = workSheet.OleObjects;
+
+            Assert.AreEqual(3, oleObjects.Count);
+
+            name = oleObjects[0].Name;
+            Assert.AreEqual(&quot;Test Embedded Obj 1&quot;, name);
+
+            name = oleObjects[1].Name;
+            Assert.AreEqual(&quot;Test Embedded Obj 2&quot;, name);
+
+            name = oleObjects[2].Name;
+            Assert.AreEqual(&quot;Excel Link File&quot;, name);
+        }
+```
+
 ### See Also
 
 * class [CollectionBase&lt;T&gt;](../../aspose.cells/collectionbase-1/)

@@ -13,6 +13,34 @@ False, Aspose.Cells will set the DataColumn's type by the value type of the firs
 public bool CheckMixedValueType { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: CheckMixedValueType = true,
+[Test]
+        public void Property_CheckMixedValueType()
+        {
+            Workbook excel = new Workbook(Constants.sourcePath + &quot;CellsNet58119.xlsx&quot;);
+            Worksheet sheet = excel.Worksheets[0];
+            int maxRow = sheet.Cells.MaxDataRow + 1;
+            int maxCol = sheet.Cells.MaxDataColumn + 1;
+
+            var opts = new ExportTableOptions
+            {
+                CheckMixedValueType = true,
+                ExportColumnName = true,
+                AllowDBNull = true
+            };
+            DataTable table = sheet.Cells.ExportDataTable(0, 0, maxRow, maxCol, opts);
+            Assert.AreEqual(2, table.Columns.Count);
+            Assert.AreEqual(5, table.Rows.Count);
+            Assert.IsTrue(table.Columns.Contains(&quot;id&quot;));
+            Assert.AreEqual(&quot;System.Double&quot;, table.Columns[&quot;id&quot;].DataType.FullName);
+            Assert.IsTrue(table.Columns.Contains(&quot;value date&quot;));
+            Assert.AreEqual(&quot;System.DateTime&quot;, table.Columns[&quot;value date&quot;].DataType.FullName);
+        }
+```
+
 ### See Also
 
 * class [ExportTableOptions](../)

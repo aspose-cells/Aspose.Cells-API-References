@@ -53,6 +53,24 @@ public class ReferredAreaCollection : CollectionBase<ReferredArea>
 | [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(ReferredArea, int, int) |  |
 | [RemoveAt](../../aspose.cells/collectionbase-1/removeat/)(int) |  |
 
+### Examples
+
+```csharp
+// Called: var prec = worksheet1.Cells[&amp;quot;A1&amp;quot;].GetPrecedents();
+[Test]
+        public void Type_ReferredAreaCollection()
+        {
+            Workbook wb = new Workbook();
+            wb.Worksheets.Add(&quot;Sheet2&quot;);
+            var worksheet1 = wb.Worksheets[&quot;Sheet1&quot;];
+            // the named range 
+            wb.Worksheets[&quot;Sheet2&quot;].Cells.CreateRange(&quot;E5:I6&quot;).Name = &quot;someNamedRange_1&quot;;
+            worksheet1.Cells[&quot;A1&quot;].Formula = &quot;=SUM(someNamedRange_1)&quot;;
+            var prec = worksheet1.Cells[&quot;A1&quot;].GetPrecedents();
+            Assert.AreEqual(&quot;Sheet2&quot;, prec[0].SheetName);
+        }
+```
+
 ### See Also
 
 * class [CollectionBase&lt;T&gt;](../collectionbase-1/)

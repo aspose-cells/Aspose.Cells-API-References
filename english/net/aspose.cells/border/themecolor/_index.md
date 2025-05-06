@@ -13,6 +13,19 @@ Gets and sets the theme color of the border.
 public ThemeColor ThemeColor { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(style.Borders[BorderType.BottomBorder].ThemeColor.ColorType, ThemeColorType.Accent1);
+[Test]
+        public void Property_ThemeColor()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSJAVA41198.xlsx&quot;);
+            Style style = workbook.Worksheets[0].Cells[&quot;F1&quot;].GetStyle();
+            Assert.AreEqual(style.Borders[BorderType.BottomBorder].ThemeColor.ColorType, ThemeColorType.Accent1);
+        }
+```
+
 ### See Also
 
 * class [ThemeColor](../../themecolor/)

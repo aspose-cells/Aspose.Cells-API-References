@@ -17,6 +17,52 @@ public string AccentCharacter { get; set; }
 
 It should be noted that this property only accepts one character, and if multiple characters are passed in, only the first character is accepted.
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(&amp;quot;\u0302&amp;quot;, node2.AccentCharacter);
+[Test]
+        public void Property_AccentCharacter()
+        {
+            Workbook workbook = new Workbook();
+            TextBox textBox = workbook.Worksheets[0].Shapes.AddEquation(3, 0, 3, 0, 100, 200);
+
+            //test get mathnode
+            EquationNode mathNode = textBox.GetEquationParagraph().GetChild(0);
+            Assert.AreNotEqual(null, mathNode);
+
+            AccentEquationNode node = (AccentEquationNode)mathNode.AddChild(EquationNodeType.Accent);
+            node.AccentCharacter = &quot;\u0302&quot;;
+
+            EquationNode subBase = node.AddChild(EquationNodeType.Base);
+            TextRunEquationNode TR = (TextRunEquationNode)(subBase.AddChild(EquationNodeType.Text));
+            TR.Text = &quot;x&quot;;
+
+            string resultFile = Constants.destPath + &quot;AccentEquationTest.xlsx&quot;;
+            workbook.Save(resultFile);
+            Workbook workbook2 = new Workbook(resultFile);
+
+            TextBox textBoxRead = (TextBox)workbook2.Worksheets[0].Shapes[0];
+            EquationNode mathNode2 = textBoxRead.GetEquationParagraph().GetChild(0);
+            Assert.AreNotEqual(null, mathNode2);
+
+            AccentEquationNode node2 = (AccentEquationNode)mathNode2.GetChild(0);
+            Assert.AreNotEqual(null, node2);
+            Assert.AreEqual(EquationNodeType.Accent, node2.EquationType);
+            Assert.AreEqual(&quot;\u0302&quot;, node2.AccentCharacter);
+
+            EquationNode node3 = node2.GetChild(0);
+            Assert.AreNotEqual(null, node3);
+            Assert.AreEqual(EquationNodeType.Base, node3.EquationType);
+
+            TR = (TextRunEquationNode)node3.GetChild(0);
+            Assert.AreNotEqual(null, TR);
+            Assert.AreEqual(EquationNodeType.Text, TR.EquationType);
+            Assert.AreEqual(&quot;x&quot;, TR.Text);
+
+        }
+```
+
 ### See Also
 
 * class [AccentEquationNode](../)

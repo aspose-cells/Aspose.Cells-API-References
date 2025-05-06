@@ -25,6 +25,22 @@ The outline level of the column
 
 If the column is not grouped, returns zero.
 
+### Examples
+
+```csharp
+// Called: int m = mWorksheet.Cells.GetGroupedColumnOutlineLevel(0);
+[Test]
+        public void Method_Int32_()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet mWorksheet = workbook.Worksheets[&quot;Sheet1&quot;];
+
+        mWorksheet.Cells[0, 0].Formula = &quot;=&apos;C:\\book1.xls&apos;!SomeNamedRange&quot;;
+        mWorksheet.Cells[1, 0].Formula = &quot;=&apos;[C:\\book1.xls]&apos;!SomeNamedRange&quot;;
+        int m = mWorksheet.Cells.GetGroupedColumnOutlineLevel(0);
+        }
+```
+
 ### See Also
 
 * class [Cells](../)

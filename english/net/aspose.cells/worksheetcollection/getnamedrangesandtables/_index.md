@@ -19,6 +19,19 @@ An array of Range objects.
 
 Returns null if the named range does not exist.
 
+### Examples
+
+```csharp
+// Called: Aspose.Cells.Range[] rs = workbook.Worksheets.GetNamedRangesAndTables();
+[Test]
+        public void Method_GetNamedRangesAndTables()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet27760.xlsx&quot;);
+            Aspose.Cells.Range[] rs = workbook.Worksheets.GetNamedRangesAndTables();
+            Assert.AreEqual(rs.Length, 4);
+        }
+```
+
 ### See Also
 
 * class [Range](../../range/)

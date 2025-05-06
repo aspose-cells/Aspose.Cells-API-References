@@ -21,6 +21,18 @@ public Chart this[int index] { get; }
 
 The element at the specified index.
 
+### Examples
+
+```csharp
+// Called: Chart chart = sheet.Charts[0];
+private void Property_Int32_(Workbook workbook)
+        {
+            Worksheet sheet = workbook.Worksheets[&quot;Sheet2&quot;];
+            Chart chart = sheet.Charts[0];
+            AssertHelper.AreEqual(ChartType.RadarWithDataMarkers, chart.Type, &quot;chart.Type&quot;);
+        }
+```
+
 ### See Also
 
 * class [Chart](../../chart/)
@@ -49,6 +61,21 @@ The chart.
 ### Remarks
 
 The default chart name is null. So you have to explicitly set the name of the chart.
+
+### Examples
+
+```csharp
+// Called: Chart chart = workbook.Worksheets[&amp;quot;Ungleichheiten&amp;quot;].Charts[&amp;quot;Chart 1&amp;quot;];
+[Test]
+        public void Property_String_()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsJava43372.ods&quot;);
+            Chart chart = workbook.Worksheets[&quot;Ungleichheiten&quot;].Charts[&quot;Chart 1&quot;];
+            Assert.AreEqual(4, chart.NSeries.Count);
+            workbook.Save(Constants.destPath + &quot;CellsJava43372.xlsx&quot;);
+
+        }
+```
 
 ### See Also
 

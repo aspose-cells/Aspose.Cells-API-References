@@ -13,6 +13,23 @@ Save all drawing objecgts as editable shapes in word file.So you can edit them i
 public bool SaveAsEditableShaps { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: saveOptions.SaveAsEditableShaps = true;
+[Test]
+        public void Property_SaveAsEditableShaps()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET58082.xlsx&quot;);
+            //workbook.Save(dir + &quot;dest.pptx&quot;);
+            DocxSaveOptions saveOptions = new DocxSaveOptions();
+            saveOptions.SaveAsEditableShaps = true;
+            workbook.Save(Constants.destPath + &quot;CELLSNET58082.docx&quot;, saveOptions);
+            Assert.IsTrue(ManualFileUtil.ManualCheckStringInZip(Constants.destPath + &quot;CELLSNET58082.docx&quot;,
+            &quot;word/charts/chart1.xml&quot;, new string[] { &quot;multiLvlStrRef&quot; }, true));
+        }
+```
+
 ### See Also
 
 * class [DocxSaveOptions](../)

@@ -13,6 +13,25 @@ Gets the count of the base items in this pivot field.
 public int ItemCount { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(pt.RowFields[0].ItemCount, 4);
+[Test]
+        public void Property_ItemCount()
+        {
+            var wb = new Workbook(Constants.openPivottablePath + &quot;testBaseItemSubtotal.xlsx&quot;);
+            PivotTable pt = wb.Worksheets[1].PivotTables[0];
+            //Console.WriteLine(pt.PageFieldWrapCount);
+            //Console.WriteLine(pt.DisplayNullString);
+            //Console.WriteLine(pt.PreserveFormatting);
+            //Console.WriteLine(pt.ItemPrintTitles);
+            
+            Assert.AreEqual(pt.RowFields[0].ItemCount, 4);
+            //wb.Save(&quot;D:\\40095.xlsx&quot;);
+        }
+```
+
 ### See Also
 
 * class [PivotField](../)

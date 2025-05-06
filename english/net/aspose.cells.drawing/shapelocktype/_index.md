@@ -31,6 +31,21 @@ public enum ShapeLockType
 | ShapeType | `11` | ShapeType |
 | Arrowhead | `12` | Arrowhead |
 
+### Examples
+
+```csharp
+// Called: Assert.IsTrue(ps.GetPicture(false, 1).GetLockedProperty(ShapeLockType.AspectRatio));
+[Test]
+        public void Type_ShapeLockType()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet53788.xlsx&quot;);
+            PageSetup ps = workbook.Worksheets[0].PageSetup;
+           Assert.IsFalse(ps.GetPicture(true, 0).GetLockedProperty(ShapeLockType.AspectRatio));
+            Assert.IsTrue(ps.GetPicture(false, 1).GetLockedProperty(ShapeLockType.AspectRatio));
+            workbook.Save(Constants.destPath + &quot;CellsNet53788.xlsx&quot;);
+        }
+```
+
 ### See Also
 
 * namespace [Aspose.Cells.Drawing](../../aspose.cells.drawing/)

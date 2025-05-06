@@ -24,6 +24,47 @@ public int ImportDataGrid(DataGrid dataGrid, int firstRow, int firstColumn, bool
 
 Total number of rows imported
 
+### Examples
+
+```csharp
+// Called: sheet.Cells.ImportDataGrid(dataGrid, 1, 0, false);
+[Test]
+        public void Method_Boolean_()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            DataTable dataTable = new DataTable(&quot;Table1&quot;);
+
+            dataTable.Columns.Add(&quot;Name&quot;, typeof(string));
+
+            dataTable.Columns.Add(&quot;Date&quot;, typeof(DateTime));
+
+            DataRow dr = dataTable.NewRow();
+
+            dr[0] = &quot;test&quot;;
+
+            dr[1] = DateTime.Now;
+
+            dataTable.Rows.Add(dr);
+
+            System.Web.UI.WebControls.DataGrid dataGrid = new System.Web.UI.WebControls.DataGrid();
+
+            dataGrid.DataSource = dataTable;
+
+            dataGrid.UseAccessibleHeader = true;
+
+            dataGrid.ShowHeader = true;
+
+            dataGrid.DataBind();
+
+            sheet.Cells.ImportDataGrid(dataGrid, 1, 0, false);
+
+            sheet.AutoFitColumns();
+            workbook.Save(Constants.destPath + &quot;CellsNet44630.xlsx&quot;);
+        }
+```
+
 ### See Also
 
 * class [Cells](../)

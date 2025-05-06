@@ -13,6 +13,18 @@ Specifies the indentation increment for compact axis and can be used to set the 
 public int Indent { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(5, w.Worksheets[1].PivotTables[0].Indent);
+[Test]
+        public void Property_Indent()
+        {
+            Workbook w = new Workbook(Constants.PivotTableSourcePath + &quot;CellsJava46061_1.xlsx&quot;);
+            Assert.AreEqual(5, w.Worksheets[1].PivotTables[0].Indent);
+        }
+```
+
 ### See Also
 
 * class [PivotTable](../)

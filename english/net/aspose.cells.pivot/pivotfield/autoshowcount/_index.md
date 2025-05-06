@@ -13,6 +13,40 @@ Represent the number of top or bottom items that are automatically shown in the 
 public int AutoShowCount { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(pt.RowFields[0].AutoShowCount, 2);
+[Test]
+        public void Property_AutoShowCount()
+        {
+            var wb = new Workbook(Constants.openPivottablePath + &quot;testCount.xlsx&quot;);
+            PivotTable pt = wb.Worksheets[1].PivotTables[0];
+            //Console.WriteLine(pt.PageFieldWrapCount);
+            //Console.WriteLine(pt.DisplayNullString);
+            //Console.WriteLine(pt.PreserveFormatting);
+            //Console.WriteLine(pt.ItemPrintTitles);
+            Assert.AreEqual(pt.RowFields[0].AutoShowCount, 2);
+
+            wb = new Workbook(Constants.openPivottablePath + &quot;testCount(1).xls&quot;);
+            pt = wb.Worksheets[1].PivotTables[0];
+            //Console.WriteLine(pt.PageFieldWrapCount);
+            //Console.WriteLine(pt.DisplayNullString);
+            //Console.WriteLine(pt.PreserveFormatting);
+            //Console.WriteLine(pt.ItemPrintTitles);
+            Assert.AreEqual(pt.RowFields[0].AutoShowCount, 2);
+
+            wb = new Workbook(Constants.openPivottablePath + &quot;testCount(2).xls&quot;);
+            pt = wb.Worksheets[1].PivotTables[0];
+            //Console.WriteLine(pt.PageFieldWrapCount);
+            //Console.WriteLine(pt.DisplayNullString);
+            //Console.WriteLine(pt.PreserveFormatting);
+            //Console.WriteLine(pt.ItemPrintTitles);
+            Assert.AreEqual(pt.EnableDrilldown, true);
+            //wb.Save(&quot;D:\\40095.xlsx&quot;);
+        }
+```
+
 ### See Also
 
 * class [PivotField](../)

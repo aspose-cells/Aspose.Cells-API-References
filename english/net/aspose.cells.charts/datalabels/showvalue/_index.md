@@ -13,6 +13,28 @@ Represents a specified chart's data label values display behavior. True displays
 public bool ShowValue { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: chart.NSeries[0].DataLabels.ShowValue = true;
+[Test]
+        public void Property_ShowValue()
+        {
+            Workbook workbook = new Workbook();
+            workbook = TestColumn.CreateChart(workbook);
+            Chart chart = workbook.Worksheets[0].Charts[0];
+            chart.NSeries[0].DataLabels.SeparatorType = DataLabelsSeparatorType.Comma;
+            chart.NSeries[0].DataLabels.ShowValue = true;
+            chart.NSeries[0].DataLabels.ShowCategoryName = true;
+            checkDataLablesSeparatorType_Comma(workbook);
+            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+            checkDataLablesSeparatorType_Comma(workbook);
+            workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
+            checkDataLablesSeparatorType_Comma(workbook);
+            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+        }
+```
+
 ### See Also
 
 * class [DataLabels](../)

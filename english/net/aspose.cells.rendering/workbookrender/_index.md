@@ -43,6 +43,22 @@ public class WorkbookRender
 | [ToPrinter](../../aspose.cells.rendering/workbookrender/toprinter/#toprinter_4)(string, string) | Render workbook to Printer |
 | [ToPrinter](../../aspose.cells.rendering/workbookrender/toprinter/#toprinter_3)(string, int, int) | (**Obsolete.**) Render workbook to Printer |
 
+### Examples
+
+```csharp
+// Called: WorkbookRender wr = new WorkbookRender(wb, new ImageOrPrintOptions()
+private void Type_WorkbookRender(Workbook wb, string fnId)
+        {
+            WorkbookRender wr = new WorkbookRender(wb, new ImageOrPrintOptions()
+            { OnePagePerSheet = true });
+            for (int i = 0; i &lt; wr.PageCount; i++)
+            {
+                wr.ToImage(i, Constants.checkPath + &quot;License/PluginImage&quot;
+                    + fnId + &quot;_&quot; + i + &quot;.png&quot;);
+            }
+        }
+```
+
 ### See Also
 
 * namespace [Aspose.Cells.Rendering](../../aspose.cells.rendering/)

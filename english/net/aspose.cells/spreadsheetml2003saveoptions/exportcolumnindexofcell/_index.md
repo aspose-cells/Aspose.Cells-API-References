@@ -13,6 +13,20 @@ The default value is false, it means that column index will be ignored if the ce
 public bool ExportColumnIndexOfCell { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: saveOptions.ExportColumnIndexOfCell = true;
+[Test]
+        public void Property_ExportColumnIndexOfCell()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;HKG.xml&quot;);
+            SpreadsheetML2003SaveOptions saveOptions = new SpreadsheetML2003SaveOptions();
+            saveOptions.ExportColumnIndexOfCell = true;
+            workbook.Save(Constants.destPath + &quot;TestColumnIndex.xml&quot;);
+        }
+```
+
 ### See Also
 
 * class [SpreadsheetML2003SaveOptions](../)

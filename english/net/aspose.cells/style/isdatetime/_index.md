@@ -13,6 +13,34 @@ Indicates whether the number format is a date format.
 public bool IsDateTime { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: if (!style.IsDateTime)
+[Test]
+        public void Property_IsDateTime()
+        {
+            Workbook wb = new Workbook();
+            Cell cell = wb.Worksheets[0].Cells[0, 0];
+            Style style = cell.GetStyle();
+            style.Custom = &quot;[mm]&quot;;
+            if (!style.IsDateTime)
+            {
+                Assert.Fail(&quot;Style.IsDateTime should be true for [mm]&quot;);
+            }
+
+            style.Custom = &quot;#.##0\&quot; \&quot;;[Magenta]-#.##0\&quot; \&quot;&quot;;
+            if (style.IsDateTime)
+            {
+                Assert.Fail(&quot;Style.IsDateTime should be false for [Magenta]&quot;);
+            }
+            cell.SetStyle(style);
+            cell.PutValue(-12.3456);
+            Style s = cell.GetDisplayStyle();
+            AssertHelper.AreEqual(Color.Magenta, s.Font.Color, &quot;DisplayStyle.Font.Color&quot;);
+        }
+```
+
 ### See Also
 
 * class [Style](../)

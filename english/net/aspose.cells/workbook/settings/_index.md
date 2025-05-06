@@ -13,6 +13,21 @@ Represents the workbook settings.
 public WorkbookSettings Settings { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(CalcModeType.Manual, wb1.Settings.FormulaSettings.CalculationMode, &amp;quot;Copied CalcMode&amp;quot;);
+[Test]
+        public void Property_Settings()
+        {
+            Workbook wb = new Workbook();
+            wb.Settings.FormulaSettings.CalculationMode = CalcModeType.Manual;
+            Workbook wb1 = new Workbook();
+            wb1.Copy(wb);
+            Assert.AreEqual(CalcModeType.Manual, wb1.Settings.FormulaSettings.CalculationMode, &quot;Copied CalcMode&quot;);
+        }
+```
+
 ### See Also
 
 * class [WorkbookSettings](../../workbooksettings/)

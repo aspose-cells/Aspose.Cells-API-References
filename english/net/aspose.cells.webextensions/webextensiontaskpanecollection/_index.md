@@ -54,6 +54,21 @@ public class WebExtensionTaskPaneCollection : CollectionBase<WebExtensionTaskPan
 | [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(WebExtensionTaskPane, int, int) |  |
 | [RemoveAt](../../aspose.cells/collectionbase-1/removeat/)(int) |  |
 
+### Examples
+
+```csharp
+// Called: WebExtensionTaskPaneCollection taskPanes = workbook.Worksheets.WebExtensionTaskPanes;
+[Test]
+        public void Type_WebExtensionTaskPaneCollection()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSJAVA-42838.xlsx&quot;);
+            WebExtensionTaskPaneCollection taskPanes = workbook.Worksheets.WebExtensionTaskPanes;
+            Assert.AreEqual(3, taskPanes.Count);
+
+            workbook.Save(Constants.destPath + &quot;CELLSJAVA-42838.xlsx&quot;);
+        }
+```
+
 ### See Also
 
 * class [CollectionBase&lt;T&gt;](../../aspose.cells/collectionbase-1/)

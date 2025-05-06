@@ -13,6 +13,20 @@ Look in type.
 public LookInType LookInType { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Cell cell = cells.Find(formula, null, new FindOptions() { LookInType = LookInType.OnlyFormulas, LookAtType = LookAtType.EntireContent });
+private void Property_LookInType(Workbook workbook)
+        {
+            Cells cells = workbook.Worksheets[0].Cells;
+            string formula = &quot;=SUM(A1,B1)&quot;;
+            Cell cell = cells.Find(formula, null, new FindOptions() { LookInType = LookInType.OnlyFormulas, LookAtType = LookAtType.EntireContent });
+            testAreEqual(1, cell.Row, caseName);
+            testAreEqual(1, cell.Column, caseName);
+        }
+```
+
 ### See Also
 
 * enum [LookInType](../../lookintype/)

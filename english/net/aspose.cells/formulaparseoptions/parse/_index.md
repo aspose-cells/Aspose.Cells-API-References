@@ -13,6 +13,22 @@ Whether parse given formula. Default is true. If it is false, then given formula
 public bool Parse { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: cells[&amp;quot;B7&amp;quot;].SetFormula(&amp;quot;=A2&amp;quot;, new FormulaParseOptions() { Parse = false }, null);
+[Test]
+        public void Property_Parse()
+        {
+            Workbook wb = new Workbook();
+            Cells cells = wb.Worksheets[0].Cells;
+            cells[&quot;B7&quot;].SetFormula(&quot;=A2&quot;, new FormulaParseOptions() { Parse = false }, null);
+            cells[0, 1].SetFormula(&quot;=B7-C7&quot;, new FormulaParseOptions() { Parse = false }, null);
+            cells[0, 1].GetDependents(true);
+            cells[0, 1].GetPrecedents();
+        }
+```
+
 ### See Also
 
 * class [FormulaParseOptions](../)

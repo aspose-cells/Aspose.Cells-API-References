@@ -24,6 +24,33 @@ public object[] ExportArray(int firstRow, int firstColumn, int totalRows, int to
 
 Exported cell value array object.
 
+### Examples
+
+```csharp
+// Called: Object[,] objarr  = cells.ExportArray(65531, 0, 5, 2);
+[Test]
+        public void Method_Int32_()
+        {
+            caseName = &quot;testExportArray_004&quot;;
+            Workbook workbook = new Workbook();            
+            workbook = new Workbook(Constants.sourcePath + &quot;Cells\\exportArray_002.xls&quot;);
+            Cells cells = workbook.Worksheets[0].Cells;
+            Object[,] objarr  = cells.ExportArray(65531, 0, 5, 2);
+
+            checkExportArray_003(workbook, objarr);
+            workbook.Save(Constants.destPath + &quot;testExportArray.xls&quot;);
+            workbook = new Workbook(Constants.destPath + &quot;testExportArray.xls&quot;);
+            checkExportArray_003(workbook, objarr);
+            workbook.Save(Constants.destPath + &quot;testExportArray.xlsx&quot;);
+            workbook = new Workbook(Constants.destPath + &quot;testExportArray.xlsx&quot;);
+            checkExportArray_003(workbook, objarr);
+            workbook.Save(Constants.destPath + &quot;testExportArray.xml&quot;, SaveFormat.SpreadsheetML);
+            workbook = new Workbook(Constants.destPath + &quot;testExportArray.xml&quot;);
+            checkExportArray_003(workbook, objarr);
+            workbook.Save(Constants.destPath + &quot;testExportArray.xls&quot;); 
+        }
+```
+
 ### See Also
 
 * class [Cells](../)

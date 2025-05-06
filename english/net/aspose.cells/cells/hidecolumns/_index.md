@@ -18,6 +18,69 @@ public void HideColumns(int column, int totalColumns)
 | column | Int32 | Column index. |
 | totalColumns | Int32 | Column number. |
 
+### Examples
+
+```csharp
+// Called: cells.HideColumns(0, firstCol - 1);
+private static void Method_Int32_(String xlFile, String xlRange, String outFile)
+        {
+            try
+            {
+                Workbook wb = new Workbook(xlFile);
+                NameCollection names = wb.Worksheets.Names;
+                Name name = names[xlRange];
+
+                Aspose.Cells.Range rng = name.GetRange();
+                Worksheet sheet = rng.Worksheet;
+                Cells cells = sheet.Cells;
+                int firstCol = rng.FirstColumn;
+                int firstRow = rng.FirstRow;
+                int maxCol = cells.MaxDisplayRange.ColumnCount;
+                int maxRow = cells.MaxDisplayRange.RowCount;
+
+                // hide all the rows and columns that are not part of the range
+                if (firstCol &gt; 0)
+                {
+                    cells.HideColumns(0, firstCol - 1);
+                }
+                if (firstCol + rng.ColumnCount &lt; maxCol)
+                {
+                    cells.HideColumns(firstCol + rng.ColumnCount, maxCol);
+                }
+                if (firstRow &gt; 0)
+                {
+                    cells.HideRows(0, firstRow - 1);
+                }
+                if (firstRow + rng.RowCount &lt; maxRow)
+                {
+                    cells.HideRows(firstRow + rng.RowCount, maxRow);
+                }
+
+                wb.Worksheets.ActiveSheetIndex = sheet.Index;
+
+                // export the worksheet
+                HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html);
+                options.Encoding = Encoding.UTF8;
+                options.HtmlCrossStringType = HtmlCrossType.Cross;
+                options.PresentationPreference = true;
+                options.ExportHiddenWorksheet = false;
+                options.ExportActiveWorksheetOnly = true;
+                options.ExportImagesAsBase64 = true;// aovids the temp folder
+                options.CreateDirectory = false;
+                options.IsExpImageToTempDir = false;
+                options.HiddenColDisplayType = HtmlHiddenColDisplayType.Remove;
+                options.HiddenRowDisplayType = HtmlHiddenRowDisplayType.Remove;
+
+                wb.Save(outFile, options);
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(&quot;Unexpected exception: &quot; + ex.Message);
+            }
+        }
+```
+
 ### See Also
 
 * class [Cells](../)

@@ -60,6 +60,22 @@ public class ComboBoxActiveXControl : ActiveXControl
 | virtual [Width](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/width/) { get; set; } | Gets and sets the width of the control in unit of points.(Inherited from [`ActiveXControlBase`](../activexcontrolbase/).) |
 | [Workbook](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/workbook/) { get; } | Gets the [`Workbook`](../activexcontrolbase/workbook/) object.(Inherited from [`ActiveXControlBase`](../activexcontrolbase/).) |
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(&amp;quot;a&amp;quot;,((Aspose.Cells.Drawing.ActiveXControls.ComboBoxActiveXControl)shape.ActiveXControl).Value);
+[Test]
+        public void Type_ComboBoxActiveXControl()
+        {
+            Workbook wb = new Workbook(Constants.sourcePath + &quot;CELLSJAVA41438.xlsx&quot;);
+            Worksheet sheet1 = wb.Worksheets[&quot;sheet1&quot;];
+            Shape shape = sheet1.Shapes[0];
+            sheet1.Cells[&quot;B2&quot;].PutValue(&quot;a&quot;);
+            sheet1.Shapes.UpdateSelectedValue();
+           Assert.AreEqual(&quot;a&quot;,((Aspose.Cells.Drawing.ActiveXControls.ComboBoxActiveXControl)shape.ActiveXControl).Value);
+        }
+```
+
 ### See Also
 
 * class [ActiveXControl](../activexcontrol/)

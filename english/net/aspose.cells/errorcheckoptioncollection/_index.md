@@ -54,6 +54,38 @@ public class ErrorCheckOptionCollection : CollectionBase<ErrorCheckOption>
 | [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(ErrorCheckOption, int, int) |  |
 | [RemoveAt](../../aspose.cells/collectionbase-1/removeat/)(int) |  |
 
+### Examples
+
+```csharp
+// Called: ErrorCheckOptionCollection optss = sheet.ErrorCheckOptions;
+[Test]
+        public void Type_ErrorCheckOptionCollection()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+            ErrorCheckOptionCollection optss = sheet.ErrorCheckOptions;
+            int index = optss.Add();
+            ErrorCheckOption opts = optss[index];
+            opts.SetErrorCheck(ErrorCheckType.NumberStoredAsText, false);
+            opts.AddRange(CreateCellArea(&quot;A1&quot;, &quot;D2&quot;));
+            opts.AddRange(CreateCellArea(&quot;A3&quot;, &quot;D3&quot;));
+            index = optss.Add();
+            opts = optss[index];
+            opts.SetErrorCheck(ErrorCheckType.TwoDigitTextYear, false);
+            opts.SetErrorCheck(ErrorCheckType.NumberStoredAsText, false);
+            opts.AddRange(CreateCellArea(&quot;A3&quot;, &quot;D5&quot;));
+            workbook.Save(Constants.destPath + &quot;TestErrorCheck.xls&quot;);
+            workbook = new Workbook(Constants.destPath + &quot;TestErrorCheck.xls&quot;);
+            sheet = workbook.Worksheets[0];
+            
+            Assert.AreEqual(sheet.ErrorCheckOptions.Count, 2);
+            opts = sheet.ErrorCheckOptions[0];
+            Assert.AreEqual(opts.GetCountOfRange(), 2);
+            Assert.AreEqual(opts.IsErrorCheck(ErrorCheckType.NumberStoredAsText), false);
+
+        }
+```
+
 ### See Also
 
 * class [CollectionBase&lt;T&gt;](../collectionbase-1/)

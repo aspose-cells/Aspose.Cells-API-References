@@ -19,6 +19,51 @@ public string ParameterDefinition { get; }
 
 NOTE: This property is now obsolete. Instead, please use PowerQueryFormulaParameter.FormulaDefinition property. This property will be removed 12 months later since November 2024. Aspose apologizes for any inconvenience you may have experienced.
 
+### Examples
+
+```csharp
+// Called: Console.WriteLine(&amp;quot;Parameter Definition: &amp;quot; + para.ParameterDefinition);
+public static void Property_ParameterDefinition()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook(&quot;PowerQueryFormulaDemo_original.xlsx&quot;);
+
+            // Access the DataMashup property of the workbook
+            DataMashup dataMashup = workbook.DataMashup;
+
+            if (dataMashup != null)
+            {
+                // Access the PowerQueryFormulas property
+                PowerQueryFormulaCollection powerQueryFormulas = dataMashup.PowerQueryFormulas;
+
+                // Access the PowerQueryFormulaParameters property
+                PowerQueryFormulaParameterCollection powerQueryFormulaParameters = dataMashup.PowerQueryFormulaParameters;
+
+                // Example usage: Iterate through PowerQueryFormulas
+                foreach (PowerQueryFormula formula in powerQueryFormulas)
+                {
+                    Console.WriteLine(formula.Name);
+                }
+
+                // Example usage: Iterate through PowerQueryFormulaParameters
+                foreach (PowerQueryFormulaParameter para in powerQueryFormulaParameters)
+                {
+                    // Display the parameter details
+                    Console.WriteLine(&quot;Parameter Name: &quot; + para.Name);
+                    Console.WriteLine(&quot;Parameter Value: &quot; + para.Value);
+
+                    Console.WriteLine(&quot;Parameter Definition: &quot; + para.ParameterDefinition);
+                }
+            }
+            
+
+            // Save the workbook
+            workbook.Save(&quot;PowerQueryFormulaParameterExample.xlsx&quot;);
+
+            return;
+        }
+```
+
 ### See Also
 
 * class [PowerQueryFormulaParameter](../)

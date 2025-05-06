@@ -48,6 +48,41 @@ public abstract class ExternalConnection
 | [SSOId](../../aspose.cells.externalconnections/externalconnection/ssoid/) { get; set; } | Identifier for Single Sign On (SSO) used for authentication between an intermediate spreadsheetML server and the external data source. |
 | [Type](../../aspose.cells.externalconnections/externalconnection/type/) { get; set; } | (**Obsolete.**) Gets or Sets the external connection DataSource type. |
 
+### Examples
+
+```csharp
+// Called: foreach (ExternalConnection conn in conns)
+[Test]
+        public void Type_ExternalConnection()
+        {
+
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET47065.xlsx&quot;);
+            ExternalConnectionCollection conns = workbook.DataConnections;
+            foreach (ExternalConnection conn in conns)
+            {
+                DBConnection dbConn = conn as DBConnection;
+                if (dbConn != null)
+                {
+                    Console.WriteLine(dbConn.ConnectionInfo);
+                    Console.WriteLine(dbConn.PowerQueryFormula.FormulaDefinition);
+                    Assert.IsFalse(dbConn.PowerQueryFormula.FormulaDefinition == null);
+                }
+            }
+            workbook = new Workbook(Constants.sourcePath + &quot;N47066.xlsm&quot;);
+            conns = workbook.DataConnections;
+            foreach (ExternalConnection conn in conns)
+            {
+                DBConnection dbConn = conn as DBConnection;
+                if (dbConn != null)
+                {
+                    Console.WriteLine(dbConn.ConnectionInfo);
+                    Console.WriteLine(dbConn.PowerQueryFormula.FormulaDefinition);
+                    Assert.IsFalse(dbConn.PowerQueryFormula.FormulaDefinition == null);
+                }
+            }
+        }
+```
+
 ### See Also
 
 * namespace [Aspose.Cells.ExternalConnections](../../aspose.cells.externalconnections/)

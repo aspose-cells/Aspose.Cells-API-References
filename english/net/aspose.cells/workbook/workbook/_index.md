@@ -94,6 +94,29 @@ public Workbook(string file)
 | --- | --- | --- |
 | file | String | The file name. |
 
+### Examples
+
+```csharp
+// Called: Workbook workbook = new Workbook(Constants.PivotTableSourcePath + &amp;quot;CellsNet57038.xlsx&amp;quot;);
+[Test]
+        public void Workbook_Constructor()
+        {
+
+            Workbook workbook = new Workbook(Constants.PivotTableSourcePath + &quot;CellsNet57038.xlsx&quot;);
+            //CELLSNET-57042
+            workbook.Settings.PropertiesFollowChartPoint = true;
+            // Save the workbook
+            workbook.Save(Constants.PivotTableDestPath + &quot;CellsNet57038.xlsx&quot;);
+            bool c = ManualFileUtil.ManualCheckStringInZip(Constants.PivotTableDestPath + @&quot;CellsNet57038.xlsx&quot;, &quot;xl/pivotTables/pivotTable1.xml&quot;, new string[] { &quot;e=\&quot;0\&quot;&quot; }, true);
+            Assert.IsTrue(c);
+            workbook = new Workbook(Constants.PivotTableDestPath + &quot;CellsNet57038.xlsx&quot;);
+            workbook.Save(Constants.PivotTableDestPath + &quot;CellsNet57038.xlsb&quot;);
+            workbook = new Workbook(Constants.PivotTableDestPath + &quot;CellsNet57038.xlsb&quot;);
+            Assert.IsTrue(workbook.Settings.PropertiesFollowChartPoint);
+
+        }
+```
+
 ### See Also
 
 * class [Workbook](../)
@@ -134,6 +157,26 @@ public Workbook(string file, LoadOptions loadOptions)
 | --- | --- | --- |
 | file | String | The file name. |
 | loadOptions | LoadOptions | The load options |
+
+### Examples
+
+```csharp
+// Called: var workbook = new Workbook(filePath + &amp;quot;386.mht&amp;quot;, ldps);
+[Test]
+        public void Workbook_Constructor()
+        {
+            string filePath = Constants.JohnTest_PATH_SOURCE + @&quot;NET46494/&quot;;
+
+            Workbook wb = new Workbook(filePath + &quot;job-search-k-ARtitle.xls (ARtitle.xls)-h-ARtitle.htm&quot;);
+            //return;
+
+            HtmlLoadOptions ldps = new HtmlLoadOptions(LoadFormat.MHtml);
+            var workbook = new Workbook(filePath + &quot;386.mht&quot;, ldps);
+
+            Assert.Greater(workbook.Worksheets[0].Cells[&quot;D6&quot;].StringValue.Length, 100);
+            workbook.Save(CreateFolder(filePath) + &quot;out.xlsx&quot;, SaveFormat.Xlsx);
+        }
+```
 
 ### See Also
 

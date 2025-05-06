@@ -31,6 +31,19 @@ public class SaveOptions
 | [ValidateMergedAreas](../../aspose.cells/saveoptions/validatemergedareas/) { get; set; } | Indicates whether validate merged cells before saving the file. |
 | [WarningCallback](../../aspose.cells/saveoptions/warningcallback/) { get; set; } | Gets or sets warning callback. |
 
+### Examples
+
+```csharp
+// Called: public static MemoryStream SaveAsBuffer(Workbook wb, SaveOptions opts)
+public static MemoryStream Type_SaveOptions(Workbook wb, SaveOptions opts)
+        {
+            MemoryStream ms = new MemoryStream(1048576);
+            wb.Save(ms, opts);
+            ms.Position = 0;
+            return ms;
+        }
+```
+
 ### See Also
 
 * namespace [Aspose.Cells](../../aspose.cells/)

@@ -13,6 +13,22 @@ Gets the start column index of this horizontal page break.
 public int StartColumn { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: AssertHelper.AreEqual(hpagebreaSrc.StartColumn, hpagebreakDest.StartColumn, info + &amp;quot;.StartColumn&amp;quot;);
+public static void Property_StartColumn(HorizontalPageBreak hpagebreaSrc, HorizontalPageBreak hpagebreakDest, string info)
+        {
+            if (AssertHelper.checkNull(hpagebreaSrc, hpagebreakDest, info))
+            {
+                return;
+            }
+            AssertHelper.AreEqual(hpagebreaSrc.StartColumn, hpagebreakDest.StartColumn, info + &quot;.StartColumn&quot;);
+            AssertHelper.AreEqual(hpagebreaSrc.EndColumn, hpagebreakDest.EndColumn, info + &quot;.EndColumn&quot;);
+            AssertHelper.AreEqual(hpagebreaSrc.Row, hpagebreakDest.Row, info + &quot;.Row&quot;);
+        }
+```
+
 ### See Also
 
 * class [HorizontalPageBreak](../)

@@ -13,6 +13,29 @@ Gets the total page count of current worksheet.
 public int PageCount { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(1, sr.PageCount);
+[Test]
+        public void Property_PageCount()
+        {
+            Workbook wb = new Workbook(Constants.sourcePath + &quot;CELLSJAVA-42356.xlsx&quot;);
+
+            ImageOrPrintOptions imgOpts = new ImageOrPrintOptions();
+            imgOpts.ImageType = ImageType.Png;
+            imgOpts.OnePagePerSheet = true;
+            imgOpts.OutputBlankPageWhenNothingToPrint = true;
+
+            SheetRender sr = new SheetRender(wb.Worksheets[0], imgOpts);
+            Assert.AreEqual(1, sr.PageCount);
+            
+            MemoryStream ms = new MemoryStream();
+            sr.ToImage(0, ms);
+            Assert.IsTrue(ms.ToArray().Length &gt; 0);
+        }
+```
+
 ### See Also
 
 * class [SheetRender](../)

@@ -13,6 +13,26 @@ Indicates whether a sort operation that will be applied to this pivot field is a
 public bool NonAutoSortDefault { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.IsTrue(pivotField.NonAutoSortDefault);
+[Test]
+        public void Property_NonAutoSortDefault()
+        {
+            PivotField pivotField = null;
+            Workbook workbook = new Workbook(Constants.PivotTableSourcePath + &quot;CELLSNET52298.xlsx&quot;);           
+            pivotField = workbook.Worksheets[0].PivotTables[0].RowFields[0];
+            Assert.IsTrue(pivotField.NonAutoSortDefault);
+            workbook = Util.ReSave(workbook, SaveFormat.Xlsb);
+            pivotField = workbook.Worksheets[0].PivotTables[0].RowFields[0];
+            Assert.IsTrue(pivotField.NonAutoSortDefault);
+            workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
+            pivotField = workbook.Worksheets[0].PivotTables[0].RowFields[0];
+            Assert.IsTrue(pivotField.NonAutoSortDefault);
+        }
+```
+
 ### See Also
 
 * class [PivotField](../)

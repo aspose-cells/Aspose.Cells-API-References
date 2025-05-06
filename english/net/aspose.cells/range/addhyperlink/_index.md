@@ -23,6 +23,22 @@ public Hyperlink AddHyperlink(string address, string textToDisplay, string scree
 
 [`Hyperlink`](../../hyperlink/) object.
 
+### Examples
+
+```csharp
+// Called: r.AddHyperlink(&amp;quot;www.aspose.com&amp;quot;, &amp;quot;www.aspose.com&amp;quot;, &amp;quot;www.aspose.com&amp;quot;);
+[Test]
+        public void Method_String_()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+            Aspose.Cells.Range r = sheet.Cells.CreateRange(&quot;A1:A10&quot;);
+            r.AddHyperlink(&quot;www.aspose.com&quot;, &quot;www.aspose.com&quot;, &quot;www.aspose.com&quot;);
+            Assert.AreEqual(&quot;www.aspose.com&quot;, sheet.Hyperlinks[0].TextToDisplay);
+
+        }
+```
+
 ### See Also
 
 * class [Hyperlink](../../hyperlink/)

@@ -41,6 +41,23 @@ public DataTable ExportDataTable(ExportTableOptions options)
 
 Exported DataTable object.
 
+### Examples
+
+```csharp
+// Called: var dataTable = designer.Workbook.Worksheets.GetRangeByName(&amp;quot;Names&amp;quot;).ExportDataTable(options);
+[Test]
+        public void Method_ExportTableOptions_()
+        {
+            Workbook source = new Workbook(Constants.sourcePath + &quot;CELLSNET46252.xlsx&quot;);
+            WorkbookDesigner designer = new WorkbookDesigner(source);
+            var range = designer.Workbook.Worksheets.GetRangeByName(&quot;Names&quot;);
+            ExportTableOptions options = new ExportTableOptions();
+            options.ExportColumnName = true;
+            var dataTable = designer.Workbook.Worksheets.GetRangeByName(&quot;Names&quot;).ExportDataTable(options);
+            Assert.AreEqual(2, dataTable.Rows.Count);
+        }
+```
+
 ### See Also
 
 * class [ExportTableOptions](../../exporttableoptions/)

@@ -13,6 +13,18 @@ Represents the category axis type.
 public CategoryType CategoryType { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: AssertHelper.AreEqual(CategoryType.AutomaticScale, chart.CategoryAxis.CategoryType, &amp;quot;chart.CategoryAxis.CategoryType&amp;quot;);
+private void Property_CategoryType(Workbook workbook)
+        {
+            Worksheet sheet = workbook.Worksheets[&quot;Sheet1&quot;];
+            Chart chart = sheet.Charts[0];
+            AssertHelper.AreEqual(CategoryType.AutomaticScale, chart.CategoryAxis.CategoryType, &quot;chart.CategoryAxis.CategoryType&quot;);
+        }
+```
+
 ### See Also
 
 * enum [CategoryType](../../categorytype/)

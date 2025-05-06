@@ -21,6 +21,21 @@ public bool IsSelected(int itemIndex)
 
 whether the item is selected.
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(comboBox.IsSelected(0), false);
+[Test]
+        public void Method_Int32_()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;ListBoxIssue.xlsx&quot;);
+            ListBox comboBox = (ListBox)workbook.Worksheets[0].Shapes[0];
+            Assert.AreEqual(comboBox.IsSelected(0), false);
+            Assert.AreEqual(comboBox.IsSelected(1), false);
+            Assert.AreEqual(comboBox.IsSelected(2), false);
+        }
+```
+
 ### See Also
 
 * class [ListBox](../)

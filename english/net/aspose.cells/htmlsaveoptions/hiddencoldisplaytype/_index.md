@@ -13,6 +13,23 @@ Hidden column(the width of this column is 0) in excel,before save this into html
 public HtmlHiddenColDisplayType HiddenColDisplayType { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: options.HiddenColDisplayType = HtmlHiddenColDisplayType.Hidden;
+[Test]
+        public void Property_HiddenColDisplayType()
+        {
+            string filePath = Constants.JohnTest_PATH_SOURCE + @&quot;JAVA41562/&quot;;
+            Workbook wb = new Workbook(filePath + &quot;Test.xlsx&quot;);
+            HtmlSaveOptions options = new HtmlSaveOptions();
+            options.ExportActiveWorksheetOnly = true;
+            options.HiddenColDisplayType = HtmlHiddenColDisplayType.Hidden;
+            options.HiddenRowDisplayType = HtmlHiddenRowDisplayType.Hidden;
+            wb.Save(CreateFolder(filePath) + &quot;out.html&quot;, options);
+        }
+```
+
 ### See Also
 
 * enum [HtmlHiddenColDisplayType](../../htmlhiddencoldisplaytype/)

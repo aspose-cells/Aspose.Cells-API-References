@@ -17,6 +17,23 @@ public bool ParsingFormulaOnOpen { get; set; }
 
 Only applies for Excel Xlsx, Xltx, Xltm and Xlsm file because the formulas in the files are stored with a string formula.
 
+### Examples
+
+```csharp
+// Called: options.ParsingFormulaOnOpen = (false);
+[Test]
+        public void Property_ParsingFormulaOnOpen()
+        {
+            LoadOptions options = new LoadOptions();
+            options.ParsingFormulaOnOpen = (false);
+            options.KeepUnparsedData = (false);
+            options.CheckDataValid = (false);
+            options.CheckExcelRestriction = (false);
+            Workbook wb = new Workbook(Constants.sourcePath + &quot;CELLSJAVA-45489.xlsx&quot;, options);
+            wb.Save(Constants.destPath + &quot;CellsJava45489.xls&quot;);
+        }
+```
+
 ### See Also
 
 * class [LoadOptions](../)

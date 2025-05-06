@@ -21,6 +21,38 @@ public void Resize(int startRow, int startColumn, int endRow, int endColumn, boo
 | endColumn | Int32 | The end column index of the new range. |
 | hasHeaders | Boolean | Whether this table has headers. |
 
+### Examples
+
+```csharp
+// Called: table.Resize(firstCell.Row,
+[Test]
+        public void Method_Boolean_()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet52749.xlsx&quot;);
+            Worksheet ws = workbook.Worksheets[0];
+            ListObject table = ws.ListObjects[0];
+            Cell firstCell = table.DataRange.Worksheet.Cells[table.StartRow, table.StartColumn];
+
+            table.Resize(firstCell.Row,
+                         firstCell.Column,
+                         table.EndRow,
+                         table.EndColumn + 1,
+                         false);
+
+            ws.Cells.DeleteColumn(5);
+
+            table.Resize(firstCell.Row,
+                         firstCell.Column,
+                         table.EndRow,
+                         table.EndColumn + 1,
+                         false);
+            workbook.Save(Constants.destPath + &quot;CellsNet52749.xlsx&quot;);
+            Assert.AreEqual(&quot;Column102&quot;, table.ListColumns[table.ListColumns.Count - 1].Name);
+
+           
+        }
+```
+
 ### See Also
 
 * class [ListObject](../)

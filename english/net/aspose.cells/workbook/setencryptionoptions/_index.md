@@ -18,6 +18,25 @@ public void SetEncryptionOptions(EncryptionType encryptionType, int keyLength)
 | encryptionType | EncryptionType | The encryption type. |
 | keyLength | Int32 | The key length. |
 
+### Examples
+
+```csharp
+// Called: workbook.SetEncryptionOptions(EncryptionType.StrongCryptographicProvider, 128);
+[Test]
+        public void Method_Int32_()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;TestStrongEncryption1.xls&quot;);
+            workbook.Settings.Password = &quot;1234&quot;;
+            workbook.SetEncryptionOptions(EncryptionType.StrongCryptographicProvider, 128);
+            workbook.Save(Constants.destPath + &quot;TestStrongEncryption1.xls&quot;);
+            //workbook.Open(Constants.destPath + &quot;TestStrongEncryption1.xls&quot;, FileFormatType.Excel2003, &quot;1234&quot;);
+            LoadOptions loadOptions = new LoadOptions();
+            loadOptions.Password = &quot;1234&quot;;
+            workbook = new Workbook(Constants.destPath + &quot;TestStrongEncryption1.xls&quot;, loadOptions);
+
+        }
+```
+
 ### See Also
 
 * enum [EncryptionType](../../encryptiontype/)

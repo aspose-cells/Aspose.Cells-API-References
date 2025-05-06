@@ -25,6 +25,30 @@ For excel 2007 or latter, the default value is zero. you should call get the val
 
 NOTE: This member is now obsolete. Please use PlotArea.WidthRatioToChart property, instead. Width = WidthRatioToChart * 4000. This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
 
+### Examples
+
+```csharp
+// Called: chart.PlotArea.Width = (2919);
+[Test]
+        public void Property_Width()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSJAVA44812.xls&quot;);
+
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            Chart chart = worksheet.Charts[0];
+
+            chart.PlotArea.Y = (833);
+            chart.PlotArea.X = (58);
+            chart.PlotArea.Height = (2798);
+            chart.PlotArea.Width = (2919);
+            //chart.
+
+            chart.Calculate();
+            workbook.Save(Constants.destPath + &quot;CELLSJAVA44812.xls&quot;);
+        }
+```
+
 ### See Also
 
 * class [PlotArea](../)

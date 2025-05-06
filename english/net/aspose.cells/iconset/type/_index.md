@@ -13,6 +13,25 @@ Get or Set the icon set type to display. Setting the type will auto check if the
 public IconSetType Type { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(IconSetType.Arrows3, fcs[0].IconSet.Type);
+[Test]
+        public void Property_Type()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet47217_iconset.ods&quot;);
+            FormatConditionCollection fcs = workbook.Worksheets[0].ConditionalFormattings[0];
+            Assert.AreEqual(fcs[0].Type, FormatConditionType.IconSet);
+            Assert.AreEqual(IconSetType.Arrows3, fcs[0].IconSet.Type);
+            workbook.Save(Constants.destPath+ &quot;CellsNet47217_iconset.ods&quot;);
+            workbook = new Workbook(Constants.destPath + &quot;CellsNet47217_iconset.ods&quot;);
+            fcs = workbook.Worksheets[0].ConditionalFormattings[0];
+            Assert.AreEqual(fcs[0].Type, FormatConditionType.IconSet);
+            Assert.AreEqual(IconSetType.Arrows3, fcs[0].IconSet.Type);
+        }
+```
+
 ### See Also
 
 * enum [IconSetType](../../iconsettype/)

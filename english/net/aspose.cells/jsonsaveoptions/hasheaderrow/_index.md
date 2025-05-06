@@ -13,6 +13,38 @@ Indicates whether the range contains header row.
 public bool HasHeaderRow { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: options.HasHeaderRow = false;
+[Test]
+        public void Property_HasHeaderRow()
+        {
+            Workbook workbook = new Aspose.Cells.Workbook(Constants.sourcePath + &quot;CELLSNET55308.xlsx&quot;);
+
+
+            int firstRow = 0;
+            int firstCol = 0;
+            int lastRow = 3;
+            int lastCol = 2;
+
+            // Calculate Total Rows / Columns 
+            int totalRows = lastRow - firstRow;
+            int totalCols = lastCol - firstCol;
+
+            Aspose.Cells.JsonSaveOptions options = new Aspose.Cells.JsonSaveOptions();
+            options.ExportEmptyCells = true;
+            options.HasHeaderRow = false;
+            options.ExportNestedStructure = false;
+
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            Aspose.Cells.Range range = worksheet.Cells.CreateRange(firstRow, firstCol, totalRows, totalCols);
+            string output = Aspose.Cells.Utility.JsonUtility.ExportRangeToJson(range, options);
+           Assert.IsTrue(output.IndexOf(&quot;{&quot;) == -1);
+        }
+```
+
 ### See Also
 
 * class [JsonSaveOptions](../)

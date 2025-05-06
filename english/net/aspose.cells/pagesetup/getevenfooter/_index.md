@@ -17,6 +17,21 @@ public string GetEvenFooter(int section)
 | --- | --- | --- |
 | section | Int32 | 0: Left Section, 1: Center Section, 2: Right Section. |
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(workbook.Worksheets[0].PageSetup.GetEvenFooter(1), &amp;quot;even&amp;quot;);
+[Test]
+        public void Method_Int32_()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet23659.xls&quot;);
+            Assert.AreEqual(workbook.Worksheets[0].PageSetup.GetFirstPageFooter(1), &quot;first&quot;);
+            Assert.AreEqual(workbook.Worksheets[0].PageSetup.GetEvenFooter(1), &quot;even&quot;);
+            Assert.AreEqual(workbook.Worksheets[0].PageSetup.GetFooter(1), &quot;odd&quot;);
+            workbook.Save(Constants.destPath + &quot;CellsNet23659.xls&quot;);
+        }
+```
+
 ### See Also
 
 * class [PageSetup](../)

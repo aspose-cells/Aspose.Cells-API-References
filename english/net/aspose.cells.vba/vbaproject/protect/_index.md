@@ -22,6 +22,19 @@ public void Protect(bool islockedForViewing, string password)
 
 If islockedForViewing is true, the password could not be null.
 
+### Examples
+
+```csharp
+// Called: workbook.VbaProject.Protect(false, null);
+[Test]
+        public void Method_String_()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET46464.xlsm&quot;);
+            workbook.VbaProject.Protect(false, null);
+            Util.SaveForViewer(workbook, &quot;13&quot;, &quot;CELLSNET46464.xlsm&quot;);
+        }
+```
+
 ### See Also
 
 * class [VbaProject](../)

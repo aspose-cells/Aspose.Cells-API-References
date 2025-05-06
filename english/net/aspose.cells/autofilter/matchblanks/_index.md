@@ -17,6 +17,21 @@ public void MatchBlanks(int fieldIndex)
 | --- | --- | --- |
 | fieldIndex | Int32 | The integer offset of the field on which you want to base the filter (from the left of the list; the leftmost field is field 0). |
 
+### Examples
+
+```csharp
+// Called: worksheet.AutoFilter.MatchBlanks(0);
+[Test]
+        public void Method_Int32_()
+        {
+            var workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET55716.xlsx&quot;);
+            var worksheet = workbook.Worksheets[0];
+            worksheet.AutoFilter.MatchBlanks(0);
+            worksheet.AutoFilter.Refresh();
+            Assert.IsFalse(worksheet.Cells.Rows[2].IsHidden);
+        }
+```
+
 ### See Also
 
 * class [AutoFilter](../)

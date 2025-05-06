@@ -53,6 +53,26 @@ public Shape AddShapeInChart(MsoDrawingType type, PlacementType placement, int l
 | right | Int32 | In unit of 1/4000 chart area width. |
 | bottom | Int32 | In unit of 1/4000 chart area height. |
 
+### Examples
+
+```csharp
+// Called: sheet.Charts[0].Shapes.AddShapeInChart(MsoDrawingType.CheckBox,
+[Test]
+        public void Method_Int32_()
+        {
+            Workbook workbook = new Workbook();
+            int index = workbook.Worksheets.Add(SheetType.Chart);
+            Worksheet sheet = workbook.Worksheets[index];
+            sheet.Charts.AddFloatingChart(ChartType.Column, 0, 0, 1024, 960);
+            sheet.Charts[0].NSeries.Add(&quot;{1,2,3}&quot;, false);
+            sheet.Charts[0].Shapes.AddShapeInChart(MsoDrawingType.CheckBox,
+                PlacementType.Move, 400, 400, 1000, 600);
+            sheet.Charts[0].Shapes[0].Text = &quot;CheckBox 1&quot;;
+            int width = sheet.Charts[0].Shapes[0].Width;
+            workbook.Save(Constants.destPath + &quot; CELLSNET-40174.xlsx&quot;);
+        }
+```
+
 ### See Also
 
 * class [Shape](../../shape/)

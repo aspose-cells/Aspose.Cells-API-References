@@ -17,6 +17,22 @@ public Range[] GetSelectedAreas()
 
 Returns all selected ranges.
 
+### Examples
+
+```csharp
+// Called: Aspose.Cells.Range[] rs = workbook.Worksheets[0].GetSelectedAreas();
+[Test]
+        public void Method_GetSelectedAreas()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;SRange01.xlsx&quot;);
+            Aspose.Cells.Range[] rs = workbook.Worksheets[0].GetSelectedAreas();
+            Assert.AreEqual(2, rs.Length);
+            workbook.Worksheets[0].SelectRange(1, 1, 2, 2, true);
+            rs = workbook.Worksheets[0].GetSelectedAreas();
+            Assert.AreEqual(1, rs.Length);
+        }
+```
+
 ### See Also
 
 * class [Range](../../range/)

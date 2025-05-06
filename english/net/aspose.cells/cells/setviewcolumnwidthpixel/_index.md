@@ -22,6 +22,44 @@ public void SetViewColumnWidthPixel(int column, int pixels)
 
 If the current view type is PageLayoutView, the column's width is same as printed width.
 
+### Examples
+
+```csharp
+// Called: sheet.Cells.SetViewColumnWidthPixel(1, intPixels);
+[Test]
+        public void Method_Int32_()
+        {
+            Workbook wb = new Workbook(Constants.sourcePath + &quot;CellsNet49365.xltx&quot;);
+
+            Worksheet sheet = wb.Worksheets[0];
+
+            sheet.Cells[1, 1].Value = &quot;19:00 Schneekönigin&quot;;
+
+            // sheet.Cells[1, 2].Value = &quot;cell to the right&quot;;
+            sheet.Cells[2, 1].Value = &quot;cell below &quot;;
+
+            Style style = sheet.Cells[1, 1].GetStyle();
+            //style.SetBorder(BorderType.LeftBorder | BorderType.RightBorder | BorderType.BottomBorder, CellBorderType.Thin, Color.Black);
+            style.IsTextWrapped = true;
+            sheet.Cells[1, 1].SetStyle(style);
+
+            sheet.ViewType = ViewType.PageLayoutView;
+            //30mm 
+            double dblWidthInch = (30 / 10) * 0.39370;
+            //Mit dem DPI-Faktor multiplizieren.
+            int intPixels = (int)(dblWidthInch * 96);
+            sheet.Cells.SetViewColumnWidthPixel(1, intPixels);
+            sheet.ViewType = ViewType.NormalView;
+
+            AutoFitterOptions afo = new AutoFitterOptions();
+            afo.AutoFitMergedCellsType = AutoFitMergedCellsType.LastLine;
+            //If this line is removed, the cell has a different height:
+            sheet.AutoFitRows(1, 1, afo);
+            Assert.IsTrue(sheet.Cells.Rows[1].IsHeightMatched);
+            wb.Save(Constants.destPath + &quot;CellsNet49365.xlsx&quot;);
+        }
+```
+
 ### See Also
 
 * class [Cells](../)

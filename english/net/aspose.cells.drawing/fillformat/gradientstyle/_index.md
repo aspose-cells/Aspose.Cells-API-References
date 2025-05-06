@@ -13,6 +13,19 @@ Returns the gradient style for the specified fill.
 public GradientStyleType GradientStyle { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: AssertHelper.AreEqual(GradientStyleType.DiagonalUp, chartarea.Area.FillFormat.GradientStyle, &amp;quot;chart.ChartArea.Area.FillFormat.GradientStyle&amp;quot;);
+private void Property_GradientStyle(Workbook workbook)
+        {
+            Worksheet sheet = workbook.Worksheets[&quot;Sheet3&quot;];
+            Chart chart = sheet.Charts[0];
+            ChartArea chartarea = chart.ChartArea;
+            AssertHelper.AreEqual(GradientStyleType.DiagonalUp, chartarea.Area.FillFormat.GradientStyle, &quot;chart.ChartArea.Area.FillFormat.GradientStyle&quot;);
+        }
+```
+
 ### See Also
 
 * enum [GradientStyleType](../../gradientstyletype/)

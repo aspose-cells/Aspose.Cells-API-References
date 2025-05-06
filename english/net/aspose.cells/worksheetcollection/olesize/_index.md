@@ -17,6 +17,25 @@ public object OleSize { get; set; }
 
 Null means no ole size setting.
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(((CellArea)workbook.Worksheets.OleSize).EndRow, 10);
+[Test]
+        public void Property_OleSize()
+        {
+            Workbook workbook = new Workbook();
+            workbook.Worksheets.SetOleSize(0, 10, 0, 10);
+            workbook.Save(Constants.destPath + &quot;CELLSJAVA40634.xlsx&quot;);
+            workbook = new Workbook(Constants.destPath + &quot;CELLSJAVA40634.xlsx&quot;);
+            Assert.AreEqual(((CellArea)workbook.Worksheets.OleSize).EndRow, 10);
+            workbook.Save(Constants.destPath + &quot;CELLSJAVA40634.xls&quot;);
+            workbook = new Workbook(Constants.destPath + &quot;CELLSJAVA40634.xls&quot;);
+            Assert.AreEqual(((CellArea)workbook.Worksheets.OleSize).EndRow, 10);
+
+        }
+```
+
 ### See Also
 
 * class [WorksheetCollection](../)

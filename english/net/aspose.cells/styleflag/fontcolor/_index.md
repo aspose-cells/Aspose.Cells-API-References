@@ -13,6 +13,28 @@ Font color setting will be applied.
 public bool FontColor { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: styleFlag.FontColor = true;
+[Test]
+        public void Property_FontColor()
+        {
+            Workbook wb = new Workbook(Constants.sourcePath +&quot;CellsNet23710.xls&quot;);
+            Style newStyle = wb.CreateStyle();
+
+            newStyle.Font.Color = System.Drawing.Color.Black;
+            newStyle.BackgroundColor = System.Drawing.Color.White;
+            StyleFlag styleFlag = new StyleFlag();
+            styleFlag.CellShading = true;
+            styleFlag.FontColor = true;
+
+            wb.Worksheets[0].Cells.ApplyStyle(newStyle, styleFlag);
+            
+            wb.Save(Constants.destPath + &quot;CellsNet23710.xls&quot;);
+        }
+```
+
 ### See Also
 
 * class [StyleFlag](../)

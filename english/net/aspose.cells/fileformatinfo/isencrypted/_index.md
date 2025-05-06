@@ -13,6 +13,18 @@ Returns true if the document is encrypted and requires a password to open.
 public bool IsEncrypted { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.IsFalse(Aspose.Cells.FileFormatUtil.DetectFileFormat(filePath).IsEncrypted);
+[Test]
+        public void Property_IsEncrypted()
+        {
+            string filePath = Constants.sourcePath + &quot;structure+protected.xls&quot;;
+            Assert.IsFalse(Aspose.Cells.FileFormatUtil.DetectFileFormat(filePath).IsEncrypted);
+        }
+```
+
 ### See Also
 
 * class [FileFormatInfo](../)

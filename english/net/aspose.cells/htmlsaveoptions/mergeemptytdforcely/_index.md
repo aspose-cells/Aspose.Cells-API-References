@@ -14,6 +14,23 @@ Indicates whether merging empty TD element forcedly when exporting file to html.
 public bool MergeEmptyTdForcely { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: options.MergeEmptyTdForcely = true;
+[Test]
+        public void Property_MergeEmptyTdForcely()
+        {
+            string filePath = Constants.JohnTest_PATH_SOURCE + @&quot;NET47672/&quot;;
+            string savePath = CreateFolder(filePath);
+
+            Workbook wb = new Workbook(filePath + &quot;sample.xlsm&quot;);
+            HtmlSaveOptions options = new HtmlSaveOptions();
+            options.MergeEmptyTdForcely = true;
+            wb.Save(savePath + &quot;out.html&quot;, options);
+        }
+```
+
 ### See Also
 
 * class [HtmlSaveOptions](../)

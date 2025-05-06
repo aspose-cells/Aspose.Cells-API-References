@@ -13,6 +13,21 @@ True if zero values are displayed.
 public bool DisplayZeros { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.IsFalse(workbook.Worksheets[0].DisplayZeros);
+[Test, Category(&quot;Bug&quot;)]
+        public void Property_DisplayZeros()
+        {
+            Workbook workbook = new Workbook();
+            workbook.Worksheets[0].DisplayZeros = false;
+            workbook.Save(Constants.destPath + &quot;Test_209640.xml&quot;);
+            workbook = new Workbook(Constants.destPath + &quot;Test_209640.xml&quot;);
+            Assert.IsFalse(workbook.Worksheets[0].DisplayZeros);
+        }
+```
+
 ### See Also
 
 * class [Worksheet](../)

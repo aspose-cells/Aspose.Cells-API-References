@@ -17,6 +17,23 @@ public PowerQueryFormulaItem this[int index] { get; }
 | --- | --- |
 | index | The index. |
 
+### Examples
+
+```csharp
+// Called: PowerQueryFormulaItem item = workbook.DataMashup.PowerQueryFormulas[0].PowerQueryFormulaItems[0];
+[Test]
+        public void Property_Int32_()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet47091.xlsx&quot;);
+            PowerQueryFormulaItem item = workbook.DataMashup.PowerQueryFormulas[0].PowerQueryFormulaItems[0];
+            string str = item.Value.Replace(@&quot;C:\&quot;, @&quot;D:\&quot;);
+            item.Value = str;
+            workbook.Save(Constants.destPath + &quot;CellsNet47091.xlsx&quot;);
+            item = workbook.DataMashup.PowerQueryFormulas[0].PowerQueryFormulaItems[0];
+            Assert.AreEqual(str, item.Value);
+        }
+```
+
 ### See Also
 
 * class [PowerQueryFormulaItem](../../powerqueryformulaitem/)

@@ -13,6 +13,24 @@ Gets the float value contained in the cell.
 public float FloatValue { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(grid.Cells[12, 2].FloatValue, 1);
+[Test, Category(&quot;Bug&quot;)]
+        public void Property_FloatValue()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet grid = workbook.Worksheets[0];
+            Aspose.Cells.Cell cell = grid.Cells[0, 2];
+            cell.Formula = &quot;=3-2&quot;;
+            grid.Workbook.CalculateFormula(false);
+            cell.SetSharedFormula(cell.Formula, 13, 1);
+            grid.Workbook.CalculateFormula(false);
+            Assert.AreEqual(grid.Cells[12, 2].FloatValue, 1);
+        }
+```
+
 ### See Also
 
 * class [Cell](../)

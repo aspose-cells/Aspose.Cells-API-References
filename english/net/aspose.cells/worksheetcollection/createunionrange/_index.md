@@ -22,6 +22,25 @@ public UnionRange CreateUnionRange(string address, int sheetIndex)
 
 A [`Range`](../../range/) object
 
+### Examples
+
+```csharp
+// Called: UnionRange r = workbook.Worksheets.CreateUnionRange(&amp;quot;A1:A10,C1:C10&amp;quot;, 0);
+[Test]
+        public void Method_Int32_()
+        {
+            Workbook workbook = new Workbook();
+            UnionRange r = workbook.Worksheets.CreateUnionRange(&quot;A1:A10,C1:C10&quot;, 0);
+            Assert.IsTrue(r.HasRange);
+            r.Value = &quot;ABCD&quot;;
+            Style style = workbook.CreateStyle();
+            style.Pattern = BackgroundType.Solid;
+            style.ForegroundColor = System.Drawing.Color.Red;
+            workbook.Save(Constants.destPath + &quot;CellsNet47054.xlsx&quot;);
+
+        }
+```
+
 ### See Also
 
 * class [UnionRange](../../unionrange/)

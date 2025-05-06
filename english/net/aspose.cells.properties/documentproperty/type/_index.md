@@ -13,6 +13,22 @@ Gets the data type of the property.
 public PropertyType Type { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: AssertHelper.AreEqual(dpSrc.Type, dpDest.Type, info + &amp;quot;.Type&amp;quot;);
+public static void Property_Type(DocumentProperty dpSrc, DocumentProperty dpDest, string info)
+        {
+            if (AssertHelper.checkNull(dpSrc, dpDest, info))
+            {
+                return;
+            }
+            AssertHelper.AreEqual(dpSrc.Name, dpDest.Name, info + &quot;.Name&quot;);
+            AssertHelper.AreEqual(dpSrc.Type, dpDest.Type, info + &quot;.Type&quot;);
+            AssertHelper.AreEqual(dpSrc.Value, dpDest.Value, info + &quot;.Value&quot;);
+        }
+```
+
 ### See Also
 
 * enum [PropertyType](../../propertytype/)

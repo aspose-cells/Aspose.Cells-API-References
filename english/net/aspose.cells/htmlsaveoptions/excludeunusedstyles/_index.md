@@ -13,6 +13,33 @@ Indicating whether excludes unused styles. For the generated html files, excludi
 public bool ExcludeUnusedStyles { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: options.ExcludeUnusedStyles = true;
+[Test]
+        public void Property_ExcludeUnusedStyles()
+        {
+            string filePath = Constants.JohnTest_PATH_SOURCE + @&quot;JAVA43162/&quot;;
+
+            Workbook workbook = new Workbook(filePath + &quot;878914550142091892.xls&quot;);
+            HtmlSaveOptions options = new HtmlSaveOptions();
+            options.ExportDocumentProperties = false;
+            options.ExportWorkbookProperties = false;
+            options.ExportWorkbookProperties = false;
+            options.ExportSimilarBorderStyle = true;
+            options.ExportImagesAsBase64 = false;
+            options.ExcludeUnusedStyles = true;
+            options.ExportHiddenWorksheet = false;
+            options.WidthScalable = false;
+            options.PresentationPreference = true;
+            options.HtmlCrossStringType = HtmlCrossType.CrossHideRight;
+
+
+            workbook.Save(CreateFolder(filePath) + &quot;out.html&quot;);
+        }
+```
+
 ### See Also
 
 * class [HtmlSaveOptions](../)

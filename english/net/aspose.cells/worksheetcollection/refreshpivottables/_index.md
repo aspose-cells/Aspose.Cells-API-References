@@ -13,6 +13,19 @@ Refreshes all the PivotTables in the Excel file.
 public void RefreshPivotTables()
 ```
 
+### Examples
+
+```csharp
+// Called: w.Worksheets.RefreshPivotTables();
+private static void Method_RefreshPivotTables(string x,bool refresh)
+        {
+            Workbook w = new Workbook(x);
+            if (refresh)
+                w.Worksheets.RefreshPivotTables();
+            w.Save(Constants.PivotTableDestPath +Path.GetExtension(x));
+        }
+```
+
 ### See Also
 
 * class [WorksheetCollection](../)

@@ -17,6 +17,20 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | The zero based index of the element. |
 
+### Examples
+
+```csharp
+// Called: sheet.Hyperlinks.RemoveAt(0);
+[Test]
+        public void Method_Int32_()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;SpreadsheetWithHyperlinks.xlsm&quot;);
+            Worksheet sheet = workbook.Worksheets[0];
+            sheet.Hyperlinks.RemoveAt(0);
+            Assert.AreEqual(sheet.Cells[&quot;B3&quot;].GetStyle().Font.Underline, FontUnderlineType.None);
+        }
+```
+
 ### See Also
 
 * class [HyperlinkCollection](../)

@@ -40,6 +40,54 @@ public class ImageSaveOptions : SaveOptions
 | [ValidateMergedAreas](../../aspose.cells/saveoptions/validatemergedareas/) { get; set; } | Indicates whether validate merged cells before saving the file.(Inherited from [`SaveOptions`](../saveoptions/).) |
 | [WarningCallback](../../aspose.cells/saveoptions/warningcallback/) { get; set; } | Gets or sets warning callback.(Inherited from [`SaveOptions`](../saveoptions/).) |
 
+### Examples
+
+```csharp
+// Called: ImageSaveOptions saveOptions = new ImageSaveOptions(format);
+private void Type_ImageSaveOptions(Workbook wb, SaveFormat format, FileFormatType saveType)
+        {
+            ImageSaveOptions saveOptions = new ImageSaveOptions(format);
+
+            string suffix = GetSuffix(format);
+
+            //filename, saveoptions
+            string saveFile1 = Constants.destPath + &quot;CELLSNET49614&quot; + suffix;
+            wb.Save(saveFile1, saveOptions);
+            Assert.AreEqual(saveType, FileFormatUtil.DetectFileFormat(saveFile1).FileFormatType);
+
+            //filiename,saveforamt
+            string saveFile2 = Constants.destPath + &quot;CELLSNET49614&quot; + suffix;
+            wb.Save(saveFile2, format);
+            Assert.AreEqual(saveType, FileFormatUtil.DetectFileFormat(saveFile2).FileFormatType);
+
+
+            //stream, saveformat
+            string saveFile3 = Constants.destPath + &quot;CELLSNET49614_stream&quot; + suffix;
+            using (FileStream fs = File.Create(saveFile3))
+            {
+                wb.Save(fs, format);
+
+            }
+            Assert.AreEqual(saveType, FileFormatUtil.DetectFileFormat(saveFile3).FileFormatType);
+
+            //stream, saveoptions
+            string saveFile4 = Constants.destPath + &quot;CELLSNET49614_stream&quot; + suffix;
+            using (FileStream fs = File.Create(saveFile4))
+            {
+                wb.Save(fs, saveOptions);
+
+            }
+            Assert.AreEqual(saveType, FileFormatUtil.DetectFileFormat(saveFile4).FileFormatType);
+
+
+            string saveFile5 = Constants.destPath + &quot;CELLSNET49614_file&quot; + suffix;
+
+            //file
+            wb.Save(saveFile5);
+            Assert.AreEqual(saveType, FileFormatUtil.DetectFileFormat(saveFile5).FileFormatType);
+        }
+```
+
 ### See Also
 
 * class [SaveOptions](../saveoptions/)

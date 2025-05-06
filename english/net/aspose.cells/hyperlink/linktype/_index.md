@@ -13,6 +13,26 @@ Gets the link type.
 public TargetModeType LinkType { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(TargetModeType.External, links[0].LinkType);
+[Test]
+        public void Property_LinkType()
+        {
+            Workbook workbook = new Workbook();
+            workbook.Worksheets[0].Hyperlinks.Add(&quot;A1&quot;, 1, 1, &quot;www.aspose.com&quot;);
+            Aspose.Cells.Range range = workbook.Worksheets[0].Cells.CreateRange(&quot;A1&quot;);
+            Hyperlink[] links = range.Hyperlinks;
+            Assert.AreEqual(TargetModeType.External, links[0].LinkType);
+            if(links.Length != 0)
+            {
+                links[0].Delete();
+            }
+            Assert.AreEqual(0, workbook.Worksheets[0].Hyperlinks.Count); 
+        }
+```
+
 ### See Also
 
 * enum [TargetModeType](../../targetmodetype/)

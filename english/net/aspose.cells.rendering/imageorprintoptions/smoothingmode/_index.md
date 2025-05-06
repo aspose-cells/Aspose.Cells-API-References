@@ -13,6 +13,23 @@ Specifies whether smoothing (antialiasing) is applied to lines and curves and th
 public SmoothingMode SmoothingMode { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.HighQuality
+[Test]
+        public void Property_SmoothingMode()
+        {
+            ImageOrPrintOptions opt = new ImageOrPrintOptions()
+            {
+                ImageType = ImageType.Png,
+#if !NETCOREAPP3_1_OR_GREATER
+                SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.HighQuality
+#endif
+            };
+        }
+```
+
 ### See Also
 
 * class [ImageOrPrintOptions](../)

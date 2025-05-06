@@ -17,6 +17,28 @@ public bool ExportAllSheets { get; set; }
 
 The defult value is false.
 
+### Examples
+
+```csharp
+// Called: saveOptions.ExportAllSheets = true;
+[Test]
+        public void Property_ExportAllSheets()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet48002.xlsx&quot;);
+            TxtSaveOptions saveOptions = new TxtSaveOptions(SaveFormat.Csv);
+            workbook.Save(Constants.destPath + &quot;CellsNet48002.csv&quot;, saveOptions);
+            workbook = new Workbook(Constants.destPath + &quot;CellsNet48002.csv&quot;);
+            Assert.AreEqual(2, workbook.Worksheets[0].Cells.MaxDataRow);
+
+            workbook = new Workbook(Constants.sourcePath + &quot;CellsNet48002.xlsx&quot;);
+            saveOptions = new TxtSaveOptions(SaveFormat.Csv);
+            saveOptions.ExportAllSheets = true;
+            workbook.Save(Constants.destPath + &quot;CellsNet48002.csv&quot;, saveOptions);
+            workbook = new Workbook(Constants.destPath + &quot;CellsNet48002.csv&quot;);
+            Assert.AreEqual(6, workbook.Worksheets[0].Cells.MaxDataRow);
+        }
+```
+
 ### See Also
 
 * class [TxtSaveOptions](../)

@@ -13,6 +13,19 @@ Gets the number of elements actually contained in the collection.
 public int Count { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.IsTrue(externalLinks[externalLinks.Count-1].DataSource.StartsWith(&amp;quot;http&amp;quot;));
+[Test]
+        public void Property_Count()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;Forecast_CY11_-_Corporate_Summary.xls&quot;);
+            ExternalLinkCollection externalLinks = workbook.Worksheets.ExternalLinks;
+            Assert.IsTrue(externalLinks[externalLinks.Count-1].DataSource.StartsWith(&quot;http&quot;));
+        }
+```
+
 ### See Also
 
 * class [ExternalLinkCollection](../)

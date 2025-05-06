@@ -13,6 +13,20 @@ Gets and sets the created time of this threaded comment.
 public DateTime CreatedTime { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(DateTime.Now.Month, tc.CreatedTime.Month);
+[Test]
+        public void Property_CreatedTime()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;PYTHONJAVA-68.xlsx&quot;);
+            ThreadedComment tc = workbook.Worksheets[0].Comments[0].ThreadedComments[0];
+            Assert.AreEqual(DateTime.Now.Month, tc.CreatedTime.Month);
+            workbook.Save(Constants.destPath + &quot;PYTHONJAVA-68.xlsx&quot;);
+        }
+```
+
 ### See Also
 
 * class [ThreadedComment](../)

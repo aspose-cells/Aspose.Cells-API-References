@@ -17,6 +17,18 @@ public bool IsDefaultEncrypted { get; set; }
 
 The default value is false now. It's same as MS Excel 2013.
 
+### Examples
+
+```csharp
+// Called: Assert.IsFalse(workbook.Settings.IsDefaultEncrypted);
+[Test]
+        public void Property_IsDefaultEncrypted()
+        {
+            Workbook workbook = new Workbook(FileFormatType.Xlsx);
+            Assert.IsFalse(workbook.Settings.IsDefaultEncrypted);
+        }
+```
+
 ### See Also
 
 * class [WorkbookSettings](../)

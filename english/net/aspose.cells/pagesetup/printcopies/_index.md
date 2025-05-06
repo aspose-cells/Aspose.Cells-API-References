@@ -13,6 +13,18 @@ Get and sets number of copies to print.
 public int PrintCopies { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(workbook.Worksheets[0].PageSetup.PrintCopies, 1);
+[Test]
+        public void Property_PrintCopies()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet43062.xls&quot;);
+            Assert.AreEqual(workbook.Worksheets[0].PageSetup.PrintCopies, 1);
+        }
+```
+
 ### See Also
 
 * class [PageSetup](../)

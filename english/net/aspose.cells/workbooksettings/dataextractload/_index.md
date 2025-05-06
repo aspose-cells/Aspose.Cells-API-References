@@ -13,6 +13,27 @@ indicates whether the application last opened the workbook for data recovery.
 public bool DataExtractLoad { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(workbook.Settings.DataExtractLoad, true);
+[Test]
+        public void Property_DataExtractLoad()
+        {
+            Workbook workbook = new Workbook();
+            workbook.Settings.AutoRecover = false;
+            workbook.Settings.DataExtractLoad = true;
+            workbook.Settings.CrashSave = true;
+            workbook.Settings.RepairLoad = true;
+            workbook.Save(Constants.destPath +&quot;CellsNet43158.xlsx&quot;);
+            workbook = new Workbook(Constants.destPath +&quot;CellsNet43158.xlsx&quot;);
+            Assert.AreEqual(workbook.Settings.AutoRecover, false);
+            Assert.AreEqual(workbook.Settings.DataExtractLoad, true);
+            Assert.AreEqual(workbook.Settings.CrashSave, true);
+            Assert.AreEqual(workbook.Settings.RepairLoad, true);
+        }
+```
+
 ### See Also
 
 * class [WorkbookSettings](../)

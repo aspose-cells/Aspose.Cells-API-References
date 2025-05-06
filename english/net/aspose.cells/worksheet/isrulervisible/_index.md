@@ -13,6 +13,22 @@ Indicates whether the ruler is visible. This property is only applied for page b
 public bool IsRulerVisible { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: workbook.Worksheets[0].IsRulerVisible = true;
+[Test]
+        public void Property_IsRulerVisible()
+        {
+            Workbook workbook = new Workbook();
+            workbook.Worksheets[0].ViewType = ViewType.PageLayoutView;
+            workbook.Worksheets[0].IsRulerVisible = true;
+            workbook.Save(Constants.destPath + &quot;CellsCore82_1.xlsb&quot;);
+            workbook = new Workbook(Constants.destPath + &quot;CellsCore82_1.xlsb&quot;);
+            Assert.IsTrue(workbook.Worksheets[0].IsRulerVisible);
+        }
+```
+
 ### See Also
 
 * class [Worksheet](../)

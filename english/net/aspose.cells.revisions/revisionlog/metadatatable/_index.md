@@ -13,6 +13,18 @@ Gets table that contains metadata about a list of specific changes that have tak
 public RevisionHeader MetadataTable { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(&amp;quot;Simon Zhao&amp;quot;, workbook.Worksheets.RevisionLogs[0].MetadataTable.UserName);
+[Test]
+        public void Property_MetadataTable()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;Cellsnet52429.xls&quot;);
+           Assert.AreEqual(&quot;Simon Zhao&quot;, workbook.Worksheets.RevisionLogs[0].MetadataTable.UserName);
+        }
+```
+
 ### See Also
 
 * class [RevisionHeader](../../revisionheader/)

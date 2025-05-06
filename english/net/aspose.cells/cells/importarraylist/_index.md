@@ -20,6 +20,33 @@ public void ImportArrayList(ArrayList arrayList, int firstRow, int firstColumn, 
 | firstColumn | Int32 | The column number of the first cell to import in. |
 | isVertical | Boolean | Specifies to import data vertically or horizontally. |
 
+### Examples
+
+```csharp
+// Called: cells.ImportArrayList(list, 1048575, 0, false);
+[Test]
+        public void Method_Boolean_()
+        {
+            caseName = &quot;testImportArrayList_Excel2007_002&quot;;
+            Workbook workbook = new Workbook();
+            Cells cells = workbook.Worksheets[0].Cells;
+            ArrayList list = new ArrayList();
+            list.Add(10);
+            list.Add(true);
+            list.Add(-0.86);
+            list.Add(&quot;abc&quot;);
+            cells.ImportArrayList(list, 1048575, 0, false);
+
+            checkImportArrayList_Excel2007_002(workbook, list);
+            workbook.Save(Constants.destPath + &quot;testImportArrayList.xlsx&quot;);
+            workbook = new Workbook(Constants.destPath + &quot;testImportArrayList.xlsx&quot;);
+            checkImportArrayList_Excel2007_002(workbook, list);
+            workbook.Save(Constants.destPath + &quot;testImportArrayList.xml&quot;, SaveFormat.SpreadsheetML);
+            workbook = new Workbook(Constants.destPath + &quot;testImportArrayList.xml&quot;);
+            workbook.Save(Constants.destPath + &quot;testImportArrayList.xls&quot;);
+        }
+```
+
 ### See Also
 
 * class [Cells](../)

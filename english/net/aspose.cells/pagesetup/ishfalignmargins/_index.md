@@ -13,6 +13,21 @@ Indicates whether header and footer margins are aligned with the page margins. I
 public bool IsHFAlignMargins { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(false, workbook.Worksheets[0].PageSetup.IsHFAlignMargins);
+[Test]
+        public void Property_IsHFAlignMargins()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET-43423.xlsx&quot;);
+            Assert.AreEqual(false, workbook.Worksheets[0].PageSetup.IsHFAlignMargins);
+            workbook.Save(Constants.destPath + &quot;CELLSNET-43423.xlsx&quot;);
+            workbook = new Workbook(Constants.destPath + &quot;CELLSNET-43423.xlsx&quot;);
+            Assert.AreEqual(false, workbook.Worksheets[0].PageSetup.IsHFAlignMargins);
+        }
+```
+
 ### See Also
 
 * class [PageSetup](../)

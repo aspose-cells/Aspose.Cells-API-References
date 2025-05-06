@@ -13,6 +13,23 @@ Gets the collection of [`Scenario`](../../scenario/).
 public ScenarioCollection Scenarios { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: ScenarioCollection scenarios = workbook.Worksheets[0].Scenarios;
+[Test]
+        public void Property_Scenarios()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;ScenarioTest.xlsx&quot;);
+            ScenarioCollection scenarios = workbook.Worksheets[0].Scenarios;
+            CheckScenarios(scenarios);
+            workbook.Save(Constants.destPath + &quot;InputCellsTest.xlsx&quot;);
+            workbook = new Workbook(Constants.destPath + &quot;InputCellsTest.xlsx&quot;);
+            scenarios = workbook.Worksheets[0].Scenarios;
+            CheckScenarios(scenarios);
+        }
+```
+
 ### See Also
 
 * class [ScenarioCollection](../../scenariocollection/)

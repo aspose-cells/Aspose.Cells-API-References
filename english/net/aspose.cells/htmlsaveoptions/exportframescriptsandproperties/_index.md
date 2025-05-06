@@ -13,6 +13,39 @@ Indicating whether exporting frame scripts and document properties. The default 
 public bool ExportFrameScriptsAndProperties { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: htmlSaveOptions.ExportFrameScriptsAndProperties = false;
+[Test]
+        public void Property_ExportFrameScriptsAndProperties()
+        {
+            string filePath = Constants.JohnTest_PATH_SOURCE + @&quot;JAVA42853/&quot;;
+
+            Workbook workbook = new Workbook(filePath + &quot;view_qldtl_Admin.xlsx&quot;);
+            HtmlSaveOptions htmlSaveOptions = new HtmlSaveOptions(SaveFormat.Html);
+            htmlSaveOptions.DisableDownlevelRevealedComments = true;
+            htmlSaveOptions.ExcludeUnusedStyles = true;
+            htmlSaveOptions.ExportActiveWorksheetOnly = true;
+            htmlSaveOptions.ExportDocumentProperties = false;
+            htmlSaveOptions.ExportFrameScriptsAndProperties = false;
+            htmlSaveOptions.ExportImagesAsBase64 = false;
+            htmlSaveOptions.ExportPrintAreaOnly = true;
+            htmlSaveOptions.ExportSimilarBorderStyle = true;
+            htmlSaveOptions.ExportWorkbookProperties = false;
+            htmlSaveOptions.ExportWorksheetCSSSeparately = false;
+            htmlSaveOptions.ExportWorksheetProperties = false;
+            htmlSaveOptions.ParseHtmlTagInCell = true;
+            htmlSaveOptions.HtmlCrossStringType = HtmlCrossType.FitToCell;
+
+            DateTime start = DateTime.Now;
+
+            workbook.Save(CreateFolder(filePath) + &quot;out.html&quot;, htmlSaveOptions);
+
+            Assert.Less(DateTime.Now.Subtract(start).Seconds, 30);
+        }
+```
+
 ### See Also
 
 * class [HtmlSaveOptions](../)

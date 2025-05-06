@@ -22,6 +22,18 @@ public enum WeightType
 | SingleLine | `0` | Represents the weight of single line. |
 | WideLine | `2` | Represents the weight of wide line. |
 
+### Examples
+
+```csharp
+// Called: AssertHelper.AreEqual(WeightType.MediumLine, aseries.Border.Weight, &amp;quot;chart.NSeries[0].Line.Weight&amp;quot;);
+private void Type_WeightType(Workbook workbook)
+        {
+            Chart chart = workbook.Worksheets[0].Charts[0];
+            Series aseries = chart.NSeries[2];
+            AssertHelper.AreEqual(WeightType.MediumLine, aseries.Border.Weight, &quot;chart.NSeries[0].Line.Weight&quot;);
+        }
+```
+
 ### See Also
 
 * namespace [Aspose.Cells.Drawing](../../aspose.cells.drawing/)

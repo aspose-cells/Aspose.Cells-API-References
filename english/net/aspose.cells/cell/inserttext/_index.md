@@ -18,6 +18,22 @@ public void InsertText(int index, string text)
 | index | Int32 | The index. |
 | text | String | Inserted text. |
 
+### Examples
+
+```csharp
+// Called: b3.InsertText(6, &amp;quot;ttttt&amp;quot;);
+[Test]
+        public void Method_String_()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET53887.xlsx&quot;);
+            Cell b3 = workbook.Worksheets[0].Cells[&quot;B3&quot;];
+            b3.InsertText(6, &quot;ttttt&quot;);
+
+            workbook.Save(Constants.destPath + &quot;CELLSNET53887.xlsx&quot;);
+
+        }
+```
+
 ### See Also
 
 * class [Cell](../)

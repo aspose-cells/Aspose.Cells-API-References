@@ -13,6 +13,26 @@ Gets the style of the data in this column of the table.
 public Style GetDataStyle()
 ```
 
+### Examples
+
+```csharp
+// Called: Style style = table.ListColumns[0].GetDataStyle();
+[Test]
+        public void Method_GetDataStyle()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSJAVA45393.xlsx&quot;);
+
+            ListObject table = workbook.Worksheets[0].ListObjects[0];
+            Style style = table.ListColumns[0].GetDataStyle();
+            style.Pattern = BackgroundType.Solid;
+            // style.ForegroundColor = Color.Red;
+            style.BackgroundColor = Color.Red;
+            table.ListColumns[0].SetDataStyle(style);
+            Assert.IsTrue(Util.CompareColor(Color.Red, workbook.Worksheets[0].Cells[&quot;A3&quot;].GetStyle().ForegroundColor));
+            workbook.Save(Constants.destPath + &quot;CELLSJAVA45393.xlsx&quot;);
+        }
+```
+
 ### See Also
 
 * class [Style](../../../aspose.cells/style/)

@@ -13,6 +13,36 @@ Indicates whether the last column in the table should have the style applied.
 public bool ShowTableStyleLastColumn { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: AssertHelper.AreEqual(true, listObject.ShowTableStyleLastColumn, &amp;quot;listObject.ShowTableStyleLastColumn&amp;quot;);
+[Test]
+        public void Property_ShowTableStyleLastColumn()
+        {
+            Workbook workbook = new Workbook();
+            Cells cells = workbook.Worksheets[0].Cells;
+            cells[0, 0].PutValue(&quot;a&quot;);
+            cells[1, 0].PutValue(1);
+            cells[2, 0].PutValue(2);
+            cells[3, 0].PutValue(3);
+            cells[0, 1].PutValue(&quot;b&quot;);
+            cells[1, 1].PutValue(4);
+            cells[2, 1].PutValue(5);
+            cells[3, 1].PutValue(6);
+
+            ListObjectCollection listObjects = workbook.Worksheets[0].ListObjects;
+            listObjects.Add(&quot;A1&quot;, &quot;B4&quot;, true);
+            listObjects[0].ShowTableStyleLastColumn = true;
+            workbook.Save(Constants.destPath + &quot;testListObject.xlsx&quot;, SaveFormat.Xlsx);
+
+            workbook = new Workbook(Constants.destPath + &quot;testListObject.xlsx&quot;);
+            listObjects = workbook.Worksheets[0].ListObjects;
+            ListObject listObject = listObjects[0];
+            AssertHelper.AreEqual(true, listObject.ShowTableStyleLastColumn, &quot;listObject.ShowTableStyleLastColumn&quot;);
+        }
+```
+
 ### See Also
 
 * class [ListObject](../)

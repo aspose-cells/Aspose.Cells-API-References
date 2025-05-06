@@ -21,6 +21,27 @@ public FilterColumn this[int fieldIndex] { get; }
 
 Returns [`FilterColumn`](../../filtercolumn/) object.
 
+### Examples
+
+```csharp
+// Called: FilterColumn fc = autoFilter.FilterColumns[2];
+[Test]
+        public void Property_Int32_()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;AutoFilter/CELLSJAVA42502.xlsx&quot;);
+
+            AutoFilter autoFilter = workbook.Worksheets[0].AutoFilter;
+            int maxColRange = workbook.Worksheets[0].Cells.MaxDataColumn;
+            autoFilter.Range = (&quot;A1:&quot; + CellsHelper.ColumnIndexToName(maxColRange) + &quot;1&quot;);
+
+            autoFilter.Filter(2, &quot;present&quot;);
+            FilterColumn fc = autoFilter.FilterColumns[2];
+            //  autoFilter.FilterColumns[0].Filter;
+            autoFilter.Refresh();
+            workbook = Util.ReSave(workbook, SaveFormat.Xlsx);//.Save(Constants.destPath + &quot;CELLSJAVA42502.xlsx&quot;);
+        }
+```
+
 ### See Also
 
 * class [FilterColumn](../../filtercolumn/)

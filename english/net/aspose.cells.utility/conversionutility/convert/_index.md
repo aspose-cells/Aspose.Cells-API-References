@@ -18,6 +18,17 @@ public static void Convert(string source, string saveAs)
 | source | String | The source file name. |
 | saveAs | String | The file name of expected file. |
 
+### Examples
+
+```csharp
+// Called: ConversionUtility.Convert(Constants.sourcePath + &amp;quot;CellsNet55498.xlsx&amp;quot;, Constants.destPath + &amp;quot;CellsNet55498.pdf&amp;quot;);
+[Test]
+        public void Method_String_()
+        {
+            ConversionUtility.Convert(Constants.sourcePath + &quot;CellsNet55498.xlsx&quot;, Constants.destPath + &quot;CellsNet55498.pdf&quot;);
+        }
+```
+
 ### See Also
 
 * class [ConversionUtility](../)

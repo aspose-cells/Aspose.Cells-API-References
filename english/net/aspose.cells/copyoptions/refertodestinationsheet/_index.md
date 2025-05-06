@@ -17,6 +17,26 @@ public bool ReferToDestinationSheet { get; set; }
 
 The default value is false, it works as MS Excel.
 
+### Examples
+
+```csharp
+// Called: options.ReferToDestinationSheet = true;
+[Test]
+        public void Property_ReferToDestinationSheet()
+        {
+            var book = new Workbook(Constants.sourcePath + &quot;CellsNet44626.xlsx&quot;);
+            var source = book.Worksheets[0];
+            var destination = book.Worksheets[book.Worksheets.Add()];
+            CopyOptions options = new CopyOptions();
+            options.ReferToDestinationSheet = true;
+
+            destination.Cells.CopyRows(source.Cells, 0, 0, source.Cells.MaxDisplayRange.RowCount, options);
+            Assert.AreEqual(destination.Charts[0].NSeries[0].Values, &quot;=Sheet2!$B$2:$B$4&quot;);
+            Util.ReSave(book, SaveFormat.Xlsx);
+            //book.Save(Constants.destPath + &quot;CellsNet44626.xlsx&quot;);
+        }
+```
+
 ### See Also
 
 * class [CopyOptions](../)

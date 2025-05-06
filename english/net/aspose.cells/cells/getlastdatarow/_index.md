@@ -21,6 +21,21 @@ public int GetLastDataRow(int column)
 
 last row index.
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(cells.GetLastDataRow(1), 7);
+[Test]
+        public void Method_Int32_()
+        { 
+            Workbook wb = new Workbook(Constants.sourcePath + &quot;NET53695.xlsx&quot;);
+            Cells cells = wb.Worksheets[0].Cells;
+            Assert.AreEqual(cells.GetLastDataRow(0), 3);
+            Assert.AreEqual(cells.GetLastDataRow(1), 7);
+            Assert.AreEqual(cells.GetLastDataRow(2), 9);
+        }
+```
+
 ### See Also
 
 * class [Cells](../)

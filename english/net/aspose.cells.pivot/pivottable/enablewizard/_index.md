@@ -13,6 +13,22 @@ Indicates whether the PivotTable Wizard is available.
 public bool EnableWizard { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: pt.EnableWizard = false;
+[Test]
+        public void Property_EnableWizard()
+        {
+            string filePath = Constants.PivotTableSourcePath + @&quot;JAVA42680_&quot;;
+
+            Workbook wb = new Workbook(filePath + &quot;pivot_table_test.xlsx&quot;);
+            PivotTable pt = wb.Worksheets[0].PivotTables[0];
+            pt.EnableWizard = false;
+            wb.Save(CreateFolder(filePath) + &quot;out.xlsx&quot;);
+        }
+```
+
 ### See Also
 
 * class [PivotTable](../)

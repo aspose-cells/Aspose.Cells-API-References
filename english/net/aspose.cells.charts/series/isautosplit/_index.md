@@ -13,6 +13,20 @@ Indicates whether the threshold value is automatic.
 public bool IsAutoSplit { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.IsFalse(chart.NSeries[0].IsAutoSplit);
+[Test]
+        public void Property_IsAutoSplit()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;piepiechart_1.xlsx&quot;);
+            Chart chart = workbook.Worksheets[0].Charts[0];
+            Assert.IsFalse(chart.NSeries[0].IsAutoSplit);
+            Assert.AreEqual(3, chart.NSeries[0].SplitValue);
+        }
+```
+
 ### See Also
 
 * class [Series](../)

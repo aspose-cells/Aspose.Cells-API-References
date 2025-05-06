@@ -25,6 +25,45 @@ The style in the pool corresponds to given index, may be null.
 
 If the returned style is changed, the style of all cells(which refers to this style) will be changed.
 
+### Examples
+
+```csharp
+// Called: style = wb.GetStyleInPool(i);
+[Test]
+        public void Method_Int32_()
+        { //CELLSJAVA-41144
+            Workbook wb = new Workbook();
+            Cell cell = wb.Worksheets[0].Cells[0, 0];
+            Style style;
+            for (int i = 0; i &lt; 8192; i++)
+            {
+                style = wb.CreateStyle();
+                style.Name = &quot;testclean&quot; + i;
+            }
+            for (int i = 0; i &lt; 10; i++)
+            {
+                cell.SetStyle(wb.GetNamedStyle(&quot;testclean&quot; + i));
+            }
+            style = cell.GetStyle();
+            style.Font.Color = Color.Red;
+            cell.PutValue(&quot;Test cleanup stylepool, this cell&apos;s font color should be red.&quot;);
+            cell.SetStyle(style);
+            wb.RemoveUnusedStyles();
+            wb.Save(new MemoryStream(), SaveFormat.Xlsx); //condense the pool
+            AssertHelper.AreEqual(18, wb.CountOfStylesInPool, &quot;Styles in pool should be gathered and cleanup&quot;);
+            int count = 0;
+            for (int i = wb.CountOfStylesInPool - 1; i &gt; 15; i--)
+            {
+                style = wb.GetStyleInPool(i);
+                if (style != null &amp;&amp; (style.Name == null || style.Name == &quot;&quot;))
+                {
+                    count++;
+                }
+            }
+            AssertHelper.AreEqual(1, count, &quot;Styles in pool should be gathered and cleanup&quot;);
+        }
+```
+
 ### See Also
 
 * class [Style](../../style/)

@@ -13,6 +13,26 @@ Gets the `VbaProject` in a spreadsheet.
 public VbaProject VbaProject { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.IsTrue(validateWb.VbaProject.IsValidSigned);
+[Test]
+        public void Property_VbaProject()
+        {
+            Workbook wb = new Workbook(vbaDir + &quot;CELLSNET-43878.xlsm&quot;);
+            Assert.IsTrue(wb.VbaProject.IsSigned);
+            Assert.IsTrue(wb.VbaProject.IsValidSigned);
+
+            MemoryStream ms = new MemoryStream();
+            wb.Save(ms, SaveFormat.Excel97To2003);
+
+            Workbook validateWb = new Workbook(ms);
+            Assert.IsTrue(validateWb.VbaProject.IsSigned);
+            Assert.IsTrue(validateWb.VbaProject.IsValidSigned);
+        }
+```
+
 ### See Also
 
 * class [VbaProject](../../../aspose.cells.vba/vbaproject/)

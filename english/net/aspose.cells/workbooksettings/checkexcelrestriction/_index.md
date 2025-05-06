@@ -13,6 +13,21 @@ Whether check restriction of excel file when user modify cells related objects. 
 public bool CheckExcelRestriction { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(workbook.Settings.CheckExcelRestriction, false);
+[Test]
+        public void Property_CheckExcelRestriction()
+        {
+            TxtLoadOptions options = new TxtLoadOptions();
+            options.CheckExcelRestriction = false;
+            string FileName = Constants.sourcePath + &quot;TestWorkbook\\Open_001.csv&quot;;
+            Workbook workbook = new Workbook(FileName, options);
+            Assert.AreEqual(workbook.Settings.CheckExcelRestriction, false);
+        }
+```
+
 ### See Also
 
 * class [WorkbookSettings](../)

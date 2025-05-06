@@ -21,6 +21,23 @@ public Color GetThemeColor(ThemeColorType type)
 
 The theme color.
 
+### Examples
+
+```csharp
+// Called: Color color = workbook.GetThemeColor(ThemeColorType.Accent6);
+[Test]
+        public void Method_ThemeColorType_()
+    {
+        Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSJAVA41100.xls&quot;);
+        Color color = workbook.GetThemeColor(ThemeColorType.Accent6);
+        workbook.Save(Constants.destPath +&quot;CELLSJAVA41100.xls&quot;);
+
+        workbook = new Workbook(Constants.destPath + &quot;CELLSJAVA41100.xls&quot;);
+        Color color1 = workbook.GetThemeColor(ThemeColorType.Accent6);
+        Assert.AreEqual(color.ToArgb(), color1.ToArgb());
+    }
+```
+
 ### See Also
 
 * enum [ThemeColorType](../../themecolortype/)

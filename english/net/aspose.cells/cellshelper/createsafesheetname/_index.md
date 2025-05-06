@@ -17,6 +17,20 @@ public static string CreateSafeSheetName(string nameProposal)
 | --- | --- | --- |
 | nameProposal | String | sheet name to be used |
 
+### Examples
+
+```csharp
+// Called: string name = CellsHelper.CreateSafeSheetName(&amp;quot;sheet*/test*/?#&amp;quot;);
+[Test]
+        public static void Method_String_()
+        {
+            string name = CellsHelper.CreateSafeSheetName(&quot;sheet*/test*/?#&quot;);
+            Assert.AreEqual(&quot;sheet  test   #&quot;, name);
+            name = CellsHelper.CreateSafeSheetName(&quot;sheet*/test*/?#&quot;, &apos;A&apos;);
+            Assert.AreEqual(&quot;sheetAAtestAAA#&quot;, name);
+        }
+```
+
 ### See Also
 
 * class [CellsHelper](../)
@@ -37,6 +51,20 @@ public static string CreateSafeSheetName(string nameProposal, char replaceChar)
 | --- | --- | --- |
 | nameProposal | String | sheet name to be used |
 | replaceChar | Char | character which will be used to replace invalid characters in given sheet name |
+
+### Examples
+
+```csharp
+// Called: name = CellsHelper.CreateSafeSheetName(&amp;quot;sheet*/test*/?#&amp;quot;, &amp;apos;A&amp;apos;);
+[Test]
+        public static void Method_Char_()
+        {
+            string name = CellsHelper.CreateSafeSheetName(&quot;sheet*/test*/?#&quot;);
+            Assert.AreEqual(&quot;sheet  test   #&quot;, name);
+            name = CellsHelper.CreateSafeSheetName(&quot;sheet*/test*/?#&quot;, &apos;A&apos;);
+            Assert.AreEqual(&quot;sheetAAtestAAA#&quot;, name);
+        }
+```
 
 ### See Also
 

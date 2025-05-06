@@ -38,6 +38,24 @@ public abstract class ActiveXControl : ActiveXControlBase
 | virtual [Width](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/width/) { get; set; } | Gets and sets the width of the control in unit of points.(Inherited from [`ActiveXControlBase`](../activexcontrolbase/).) |
 | [Workbook](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/workbook/) { get; } | Gets the [`Workbook`](../activexcontrolbase/workbook/) object.(Inherited from [`ActiveXControlBase`](../activexcontrolbase/).) |
 
+### Examples
+
+```csharp
+// Called: ActiveXControl checkbox = shape.ActiveXControl;
+[Test]
+        public void Type_ActiveXControl()
+        {
+            Workbook workbook = new Workbook(path + &quot;CELLSJAVA41531.xlsx&quot;);
+            Shape shape = workbook.Worksheets[0].Shapes[0];
+            ActiveXControl checkbox = shape.ActiveXControl;
+            Assert.AreEqual(checkbox.TextAlign, TextAlignmentType.Center);
+            shape = workbook.Worksheets[0].Shapes[1];
+            checkbox = shape.ActiveXControl;
+            Assert.AreEqual(checkbox.TextAlign, TextAlignmentType.Right);
+
+        }
+```
+
 ### See Also
 
 * class [ActiveXControlBase](../activexcontrolbase/)

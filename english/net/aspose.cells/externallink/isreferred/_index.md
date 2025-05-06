@@ -13,6 +13,18 @@ Indicates whether this external link is referenced by others.
 public bool IsReferred { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.IsTrue(workbook.Worksheets.ExternalLinks[0].IsReferred);
+[Test]
+        public void Property_IsReferred()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet44453.xlsx&quot;);
+            Assert.IsTrue(workbook.Worksheets.ExternalLinks[0].IsReferred);
+        }
+```
+
 ### See Also
 
 * class [ExternalLink](../)

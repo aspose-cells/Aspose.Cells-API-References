@@ -13,6 +13,20 @@ Gets the total page count of workbook.
 public int PageCount { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.IsTrue(wr.PageCount &amp;gt;= 30);
+[Test]
+        public void Property_PageCount()
+        {
+            Workbook wb = new Workbook(Constants.TemplatePath + &quot;CELLSNETCORE-154.xls&quot;);
+
+            WorkbookRender wr = new WorkbookRender(wb, new ImageOrPrintOptions());
+            Assert.IsTrue(wr.PageCount &gt;= 30);
+        }
+```
+
 ### See Also
 
 * class [WorkbookRender](../)

@@ -17,6 +17,45 @@ public bool IsIndentedFormatting { get; set; }
 
 The default value is true. If the value is false, it will reduce the size of the xml file
 
+### Examples
+
+```csharp
+// Called: saveOptions.IsIndentedFormatting = true;
+public static void Property_IsIndentedFormatting()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Fill some data into the worksheet
+            worksheet.Cells[&quot;A1&quot;].PutValue(&quot;Hello&quot;);
+            worksheet.Cells[&quot;B1&quot;].PutValue(&quot;World&quot;);
+            worksheet.Cells[&quot;A2&quot;].PutValue(123);
+            worksheet.Cells[&quot;B2&quot;].PutValue(456);
+
+            // Create an instance of SpreadsheetML2003SaveOptions
+            SpreadsheetML2003SaveOptions saveOptions = new SpreadsheetML2003SaveOptions();
+
+            // Set properties
+            saveOptions.IsIndentedFormatting = true;
+            saveOptions.LimitAsXls = false;
+            saveOptions.ExportColumnIndexOfCell = true;
+            saveOptions.ClearData = false;
+            saveOptions.CachedFileFolder = @&quot;C:\Temp&quot;;
+            saveOptions.ValidateMergedAreas = true;
+            saveOptions.MergeAreas = true;
+            saveOptions.SortNames = true;
+            saveOptions.SortExternalNames = true;
+            saveOptions.RefreshChartCache = true;
+            saveOptions.UpdateSmartArt = false;
+
+            // Save the workbook with the specified save options
+            workbook.Save(&quot;SpreadsheetML2003Example.xml&quot;, saveOptions);
+
+            return;
+        }
+```
+
 ### See Also
 
 * class [SpreadsheetML2003SaveOptions](../)

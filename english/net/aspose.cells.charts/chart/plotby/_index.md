@@ -13,6 +13,20 @@ Gets and sets whether plot by row or column.
 public PlotDataByType PlotBy { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(chart.PlotBy, PlotDataByType.Column);
+[Test]
+        public void Property_PlotBy()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet47594.xls&quot;);
+            Chart chart = workbook.Worksheets[0].Charts[0];
+            Assert.AreEqual(chart.PlotBy, PlotDataByType.Column);
+
+        }
+```
+
 ### See Also
 
 * enum [PlotDataByType](../../plotdatabytype/)

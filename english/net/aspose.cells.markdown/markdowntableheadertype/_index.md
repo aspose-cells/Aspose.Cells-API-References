@@ -21,6 +21,24 @@ public enum MarkdownTableHeaderType
 | ColumnHeader | `1` | Column name (such as A,B,C...) as header of the table. |
 | Empty | `2` | An empty header row. |
 
+### Examples
+
+```csharp
+// Called: saveOptions.TableHeaderType = MarkdownTableHeaderType.FirstRow;
+[Test]
+        public void Type_MarkdownTableHeaderType()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSJAVA46318.xlsx&quot;);
+            MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
+            saveOptions.TableHeaderType = MarkdownTableHeaderType.FirstRow;
+            saveOptions.SheetSet = SheetSet.All;
+            workbook.Save(Constants.destPath + &quot;CELLSJAVA46318.md&quot;, saveOptions);
+            string text = File.ReadAllText(Constants.destPath + &quot;CELLSJAVA46318.md&quot;);
+            Assert.IsTrue(text.IndexOf(&quot;---|&quot;) != -1);
+
+        }
+```
+
 ### See Also
 
 * namespace [Aspose.Cells.Markdown](../../aspose.cells.markdown/)

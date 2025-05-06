@@ -21,6 +21,16 @@ public class PageStartSavingArgs : PageSavingArgs
 | [PageCount](../../aspose.cells.rendering/pagesavingargs/pagecount/) { get; } | Total page count.(Inherited from [`PageSavingArgs`](../pagesavingargs/).) |
 | [PageIndex](../../aspose.cells.rendering/pagesavingargs/pageindex/) { get; } | Current page index, zero based.(Inherited from [`PageSavingArgs`](../pagesavingargs/).) |
 
+### Examples
+
+```csharp
+// Called: public void PageStartSaving(PageStartSavingArgs args)
+public void Type_PageStartSavingArgs(PageStartSavingArgs args)
+        {
+            Console.WriteLine($&quot;Starting to save page {args.PageIndex}&quot;);
+        }
+```
+
 ### See Also
 
 * class [PageSavingArgs](../pagesavingargs/)

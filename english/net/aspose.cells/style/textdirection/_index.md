@@ -13,6 +13,17 @@ Represents text reading order.
 public TextDirectionType TextDirection { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: testAreEqual(TextDirectionType.Context, cells[0, 0].GetStyle().TextDirection, caseName);
+private void Property_TextDirection(Workbook workbook)
+        {
+            Cells cells = workbook.Worksheets[0].Cells;
+            testAreEqual(TextDirectionType.Context, cells[0, 0].GetStyle().TextDirection, caseName);
+        }
+```
+
 ### See Also
 
 * enum [TextDirectionType](../../textdirectiontype/)

@@ -13,6 +13,21 @@ When characters in the Excel are Unicode and not be set with correct font in cel
 public string DefaultFont { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: pdfSaveOptions.DefaultFont = &amp;quot;Verdana&amp;quot;;
+[Ignore(&quot;PdfSaveOptions.DefaultFont need fixed&quot;)]
+        public void Property_DefaultFont()
+        {
+            string FileName = Constants.sourcePath + &quot;TestWorkbook\\Book2.xls&quot;;
+            Workbook workbook = new Workbook(FileName);
+            PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
+            pdfSaveOptions.DefaultFont = &quot;Verdana&quot;;            
+            workbook.Save(Constants.destPath + &quot;testSave.pdf&quot;, pdfSaveOptions);
+        }
+```
+
 ### See Also
 
 * class [PaginatedSaveOptions](../)

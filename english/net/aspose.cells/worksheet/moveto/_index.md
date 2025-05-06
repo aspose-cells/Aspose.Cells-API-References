@@ -17,6 +17,37 @@ public void MoveTo(int index)
 | --- | --- | --- |
 | index | Int32 | Destination sheet index. |
 
+### Examples
+
+```csharp
+// Called: newWorksheet.MoveTo(i++);
+[Test]
+        public void Method_Int32_()
+        {
+            int i = 2;
+            var names = new string[] { &quot;ws1&quot;, &quot;ws2&quot;, &quot;ws3&quot; };
+            var workbook = new Workbook(Constants.sourcePath + &quot;CellsNet44477.xlsx&quot;);
+            var worksheet1 = workbook.Worksheets[0];
+            var worksheet2 = workbook.Worksheets[1];
+
+            foreach (var name in names)
+            {
+                Worksheet newWorksheet = workbook.Worksheets.Add(name);
+                newWorksheet.MoveTo(i++);
+                newWorksheet.Copy(worksheet1);
+            }
+
+            foreach (var name in names)
+            {
+                Worksheet newWorksheet = workbook.Worksheets.Add(name + &quot;_bis&quot;);
+                newWorksheet.MoveTo(i++);
+                newWorksheet.Copy(worksheet2);
+            }
+            Assert.AreEqual(&quot;Table15&quot;, workbook.Worksheets[6].ListObjects[1].DisplayName);
+            workbook.Save(Constants.destPath + &quot;dest.xlsx&quot;);
+        }
+```
+
 ### See Also
 
 * class [Worksheet](../)

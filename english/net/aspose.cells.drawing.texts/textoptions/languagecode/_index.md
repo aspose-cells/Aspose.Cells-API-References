@@ -13,6 +13,23 @@ Gets and sets the user interface language.
 public CountryCode LanguageCode { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(CountryCode.Japan,ws.Shapes[0].TextOptions.LanguageCode);
+[Test]
+        public void Property_LanguageCode()
+        {
+            Workbook wb = new Workbook(Constants.sourcePath + &quot;CellsNet54628.xls&quot;);
+            wb.Settings.Region = CountryCode.Japan;
+            Worksheet ws = wb.Worksheets[0];
+            ws.Shapes[0].HtmlText = ws.Shapes[1].HtmlText.Replace(&quot;REP&quot;, &quot;１２３４５６７８９０１２３４５６７８９０１２３４５６７８９０１２３４５６７８９０１２３４５６７８９&apos;０１２３４５６７８９０１２３４５６７８９０&quot;);
+            Assert.AreEqual(CountryCode.Japan,ws.Shapes[0].TextOptions.LanguageCode);
+            //FontSetting fs = shape.TextBody[0];
+            wb.Save(Constants.destPath + &quot;CellsNet54628.xls&quot;);
+        }
+```
+
 ### See Also
 
 * enum [CountryCode](../../../aspose.cells/countrycode/)

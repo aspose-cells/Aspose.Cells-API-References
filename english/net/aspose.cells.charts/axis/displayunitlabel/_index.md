@@ -13,6 +13,20 @@ Represents a unit label on an axis in the specified chart. Unit labels are usefu
 public DisplayUnitLabel DisplayUnitLabel { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(chart.ValueAxis.DisplayUnitLabel.RotationAngle, 0);
+[Test]
+        public void Property_DisplayUnitLabel()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET40620.xlsx&quot;);
+            Chart chart = workbook.Worksheets[0].Charts[0];
+            Assert.AreEqual(chart.ValueAxis.DisplayUnitLabel.RotationAngle, 0);
+            
+        }
+```
+
 ### See Also
 
 * class [DisplayUnitLabel](../../displayunitlabel/)

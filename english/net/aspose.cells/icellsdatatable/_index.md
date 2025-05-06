@@ -28,6 +28,32 @@ public interface ICellsDataTable
 | [BeforeFirst](../../aspose.cells/icellsdatatable/beforefirst/)() | Move the cursor to the front of this object, just before the first row. |
 | [Next](../../aspose.cells/icellsdatatable/next/)() | Moves the cursor down one row from its current position. |
 
+### Examples
+
+```csharp
+// Called: ICellsDataTable dt = wb.CellsDataTableFactory.GetInstance(dataLists, true);
+[Test]
+        public void Type_ICellsDataTable()
+        {
+            Workbook wb = new Workbook();
+
+            ArrayList dataLists = new ArrayList();
+            dataLists.Add(new object[] { &quot;Name&quot;, &quot;Age&quot;, &quot;Gender&quot; });
+            dataLists.Add(new object[] { &quot;Alice&quot;, 30, &quot;Female&quot; });
+            dataLists.Add(new object[] { &quot;Bob&quot;, 25, &quot;Male&quot; });
+            dataLists.Add(new object[] { &quot;Charlie&quot;, 35, &quot;Male&quot; });
+
+            ICellsDataTable dt = wb.CellsDataTableFactory.GetInstance(dataLists, true);
+
+            wb.Worksheets[0].Cells.ImportData(dt, 0, 0, new ImportTableOptions());
+            Assert.AreEqual(&quot;Alice&quot;, wb.Worksheets[0].Cells[&quot;A2&quot;].StringValue);
+
+            wb.Worksheets.Add();
+            wb.Worksheets[1].Cells.ImportArrayList(dataLists, 0, 0, true);
+            Assert.AreEqual(&quot;Bob&quot;, wb.Worksheets[1].Cells[&quot;A3&quot;].StringValue);
+        }
+```
+
 ### See Also
 
 * namespace [Aspose.Cells](../../aspose.cells/)

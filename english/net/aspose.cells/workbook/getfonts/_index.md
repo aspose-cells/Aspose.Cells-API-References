@@ -13,6 +13,35 @@ Gets all fonts in the style pool.
 public Font[] GetFonts()
 ```
 
+### Examples
+
+```csharp
+// Called: int count = workbook.GetFonts().Length;
+[Test]
+        public void Method_GetFonts()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSJAVA42284.xlsx&quot;);
+            Console.WriteLine(&quot;initial fonts &quot; + workbook.GetFonts().Length);
+            int count = workbook.GetFonts().Length;
+            {
+                MemoryStream ms = new MemoryStream();
+                workbook.Save(ms, new OoxmlSaveOptions(SaveFormat.Xlsx));
+                byte[] bytes = ms.ToArray();
+                workbook = new Workbook(new MemoryStream(bytes));
+                Assert.AreEqual(count, workbook.GetFonts().Length);
+
+            }
+            {
+                MemoryStream ms = new MemoryStream();
+                workbook.Save(ms, new OoxmlSaveOptions(SaveFormat.Xlsx));
+                byte[] bytes = ms.ToArray();
+                workbook = new Workbook(new MemoryStream(bytes));
+                Assert.AreEqual(count,workbook.GetFonts().Length);
+
+            } 
+        }
+```
+
 ### See Also
 
 * class [Font](../../font/)

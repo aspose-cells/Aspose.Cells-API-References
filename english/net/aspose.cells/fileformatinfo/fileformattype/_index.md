@@ -13,6 +13,21 @@ Gets the detected file format.
 public FileFormatType FileFormatType { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(finf.FileFormatType, FileFormatType.Xlam);
+[Test]
+        public void Property_FileFormatType()
+        {
+#if NETCOREAPP2_0
+            CellsHelper.InitForDotNetCore();
+#endif
+            FileFormatInfo finf = FileFormatUtil.DetectFileFormat(Constants.sourcePath + &quot;CELLSJAVA42594.xlam&quot;); 
+            Assert.AreEqual(finf.FileFormatType, FileFormatType.Xlam);
+        }
+```
+
 ### See Also
 
 * enum [FileFormatType](../../fileformattype/)

@@ -13,6 +13,25 @@ Gets and sets the values of the range.
 public object Value { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: r.Value = &amp;quot;ABCD&amp;quot;;
+[Test]
+        public void Property_Value()
+        {
+            Workbook workbook = new Workbook();
+            UnionRange r = workbook.Worksheets.CreateUnionRange(&quot;A1:A10,C1:C10&quot;, 0);
+            Assert.IsTrue(r.HasRange);
+            r.Value = &quot;ABCD&quot;;
+            Style style = workbook.CreateStyle();
+            style.Pattern = BackgroundType.Solid;
+            style.ForegroundColor = System.Drawing.Color.Red;
+            workbook.Save(Constants.destPath + &quot;CellsNet47054.xlsx&quot;);
+
+        }
+```
+
 ### See Also
 
 * class [UnionRange](../)

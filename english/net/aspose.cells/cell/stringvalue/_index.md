@@ -13,6 +13,23 @@ Gets the string value contained in the cell. If the type of this cell is string,
 public string StringValue { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(workbook.Worksheets[0].Cells[&amp;quot;C2&amp;quot;].StringValue, &amp;quot;粮油组&amp;quot;);
+[Test]
+        public void Property_StringValue()
+        {
+            //Only GB2312 encoding can decode the file correctly.
+            if (Encoding.Default.CodePage == 936)
+            {
+                Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET50323.xls&quot;);
+                Assert.AreEqual(workbook.Worksheets[0].Cells[&quot;C2&quot;].StringValue, &quot;粮油组&quot;);
+                workbook.Save(Constants.destPath + &quot;CELLSNET50323.xlsx&quot;);
+            }
+        }
+```
+
 ### See Also
 
 * class [Cell](../)

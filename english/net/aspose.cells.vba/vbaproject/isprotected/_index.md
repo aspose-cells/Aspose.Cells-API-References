@@ -13,6 +13,31 @@ Indicates whether this VBA project is protected.
 public bool IsProtected { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.IsFalse(vbaProject.IsProtected);
+[Test]
+        public void Property_IsProtected()
+        {
+            string path = Constants.sourcePath + &quot;Vba/&quot;;
+            Workbook wb = new Workbook(path + &quot;load.xlsm&quot;);
+            VbaProject vbaProject = wb.VbaProject;
+            Assert.IsFalse(vbaProject.IsProtected);
+            Assert.IsFalse(vbaProject.IslockedForViewing);
+
+            wb = new Workbook(path + &quot;load_protected.xlsm&quot;);
+            vbaProject = wb.VbaProject;
+            Assert.IsTrue(vbaProject.IsProtected);
+            Assert.IsFalse(vbaProject.IslockedForViewing);
+
+            wb = new Workbook(path + &quot;load_protected_lockedForView.xlsm&quot;);
+            vbaProject = wb.VbaProject;
+            Assert.IsTrue(vbaProject.IsProtected);
+            Assert.IsTrue(vbaProject.IslockedForViewing);
+        }
+```
+
 ### See Also
 
 * class [VbaProject](../)

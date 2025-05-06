@@ -50,6 +50,23 @@ public class DBConnection : ExternalConnection
 | [SSOId](../../aspose.cells.externalconnections/externalconnection/ssoid/) { get; set; } | Identifier for Single Sign On (SSO) used for authentication between an intermediate spreadsheetML server and the external data source.(Inherited from [`ExternalConnection`](../externalconnection/).) |
 | [Type](../../aspose.cells.externalconnections/externalconnection/type/) { get; set; } | (**Obsolete.**) Gets or Sets the external connection DataSource type.(Inherited from [`ExternalConnection`](../externalconnection/).) |
 
+### Examples
+
+```csharp
+// Called: DBConnection c = (DBConnection)conns[4];
+[Test]
+        public void Type_DBConnection()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet46829.xls&quot;);
+            ExternalConnectionCollection conns = workbook.DataConnections;
+            DBConnection c = (DBConnection)conns[4];
+            if (string.IsNullOrEmpty(c.ConnectionInfo))
+            {
+                Assert.Fail(&quot;DBConnection.ConnectionInfo should not be empty or null&quot;);
+            }
+        }
+```
+
 ### See Also
 
 * class [ExternalConnection](../externalconnection/)

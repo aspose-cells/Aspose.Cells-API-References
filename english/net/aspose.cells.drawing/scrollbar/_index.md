@@ -162,6 +162,23 @@ public class ScrollBar : Shape
 
 Scroll value must be between 0 and 30000.
 
+### Examples
+
+```csharp
+// Called: Assert.IsTrue(((ScrollBar)shapes[shapes.Count - 1]).IsHorizontal);
+[Test]
+        public void Type_ScrollBar()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath +&quot;CellsNet48020.xls&quot;);
+            ShapeCollection shapes = workbook.Worksheets[0].Shapes;
+            Assert.AreEqual(&quot;Check Box 3&quot;, shapes[2].Text);
+            Assert.AreEqual(&quot;Group Box 7&quot;, shapes[6].Text);
+            Assert.IsTrue(((ScrollBar)shapes[shapes.Count - 1]).IsHorizontal);
+            workbook.Save(Constants.destPath + &quot;CellsNet48020.xls&quot;);
+
+        }
+```
+
 ### See Also
 
 * class [Shape](../shape/)

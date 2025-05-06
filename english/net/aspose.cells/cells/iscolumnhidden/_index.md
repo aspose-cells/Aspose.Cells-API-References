@@ -21,6 +21,21 @@ public bool IsColumnHidden(int columnIndex)
 
 true if the column is hidden.
 
+### Examples
+
+```csharp
+// Called: Assert.IsFalse(cells.IsColumnHidden(2));
+[Test]
+        public void Method_Int32_()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet45639.xml&quot;);
+            Cells cells = workbook.Worksheets[0].Cells;
+            Assert.IsTrue(cells.IsColumnHidden(1));
+            Assert.IsFalse(cells.IsColumnHidden(0));
+            Assert.IsFalse(cells.IsColumnHidden(2));
+        }
+```
+
 ### See Also
 
 * class [Cells](../)

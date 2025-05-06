@@ -13,6 +13,18 @@ Gets and sets the default style of the worksheet.
 public Style Style { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(Color.Black.ToArgb() &amp;amp; 0xFFFFFF, workbook.Worksheets[0].Cells.Style.Font.Color.ToArgb() &amp;amp; 0xFFFFFF);
+[Test]
+        public void Property_Style()
+        {
+            Workbook workbook = new Workbook();
+            Assert.AreEqual(Color.Black.ToArgb() &amp; 0xFFFFFF, workbook.Worksheets[0].Cells.Style.Font.Color.ToArgb() &amp; 0xFFFFFF);
+        }
+```
+
 ### See Also
 
 * class [Style](../../style/)

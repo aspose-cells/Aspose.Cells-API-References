@@ -25,6 +25,23 @@ public enum ProtectionType
 | Windows | `5` | Represents to protect window, used in Workbook protection. |
 | None | `6` | Represents no protection. Only for Reading property. |
 
+### Examples
+
+```csharp
+// Called: sheet.Protect(ProtectionType.All, &amp;quot;pwd&amp;quot;, &amp;quot;&amp;quot;);
+[Test]
+        public void Type_ProtectionType()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath +&quot;CellsNet42389.xls&quot;);
+            foreach (Worksheet sheet in workbook.Worksheets)
+            {
+                sheet.Protect(ProtectionType.All, &quot;pwd&quot;, &quot;&quot;);
+               // Assert.AreEqual(sheet.Protection.Password, &quot;pwd&quot;);
+            }
+
+        }
+```
+
 ### See Also
 
 * namespace [Aspose.Cells](../../aspose.cells/)

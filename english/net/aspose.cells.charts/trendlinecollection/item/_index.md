@@ -13,6 +13,19 @@ Gets a [`Trendline`](../../trendline/) object by its index.
 public Trendline this[int index] { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: Trendline trendline = chart.NSeries[0].TrendLines[0];
+private void Property_Int32_(Workbook workbook)
+        {
+            Worksheet sheet = workbook.Worksheets[&quot;Sheet6&quot;];
+            Chart chart = sheet.Charts[0];
+            Trendline trendline = chart.NSeries[0].TrendLines[0];
+            AssertHelper.AreEqual(TrendlineType.MovingAverage, trendline.Type, &quot;chart.NSeries[0].TrendLines[0].Type&quot;);
+        }
+```
+
 ### See Also
 
 * class [Trendline](../../trendline/)

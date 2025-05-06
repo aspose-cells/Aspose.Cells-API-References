@@ -13,6 +13,21 @@ Indicates if export cell name to Excel2007 .xlsx (.xlsm, .xltx, .xltm) file. If 
 public bool ExportCellName { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: saveOptions.ExportCellName = false;
+[Test]
+        public void Property_ExportCellName()
+        {
+            string file = Constants.bugFilePath + &quot;savetest.xls&quot;;
+            Workbook workbook = new Workbook(file);
+            OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Xlsm);
+            saveOptions.ExportCellName = false;
+            workbook.Save(Constants.destPath + &quot;testSave. xlsm&quot;, saveOptions);
+        }
+```
+
 ### See Also
 
 * class [OoxmlSaveOptions](../)

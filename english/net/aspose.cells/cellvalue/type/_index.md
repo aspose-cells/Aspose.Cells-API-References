@@ -13,6 +13,21 @@ Gets/sets the type of cell value.
 public CellValueType Type { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: value.Type = CellValueType.IsNull;
+public override bool Property_Type(int cellRow, int cellColumn, CellValue value)
+            {
+                if (value.Type == CellValueType.IsError &amp;&amp; &quot;#DIV/0!&quot;.Equals(value.Value))
+                {
+                    value.Type = CellValueType.IsNull;
+                    return true;
+                }
+                return false;
+            }
+```
+
 ### See Also
 
 * enum [CellValueType](../../cellvaluetype/)

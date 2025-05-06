@@ -13,6 +13,26 @@ Gets the [` border`](../../../aspose.cells.drawing/line/).
 public Line Border { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(p.Border.Style, Aspose.Cells.Drawing.LineType.Solid);
+[Test]
+        public void Property_Border()
+        {
+            Workbook wb = new Workbook(Constants.sourcePath + &quot;CellsNet30785.xls&quot;);
+            Chart c = wb.Worksheets[0].Charts[0];
+            Series s = c.NSeries[0];
+            ChartPoint p = s.Points[1];
+            p.Border.Color = Color.Red; //it works
+            p.Border.Style = Aspose.Cells.Drawing.LineType.Solid; //it does not work
+            Assert.AreEqual(p.Border.Style, Aspose.Cells.Drawing.LineType.Solid);
+
+            wb.Save(Constants.destPath + &quot;CellsNet30785.xls&quot;);
+
+        }
+```
+
 ### See Also
 
 * class [Line](../../../aspose.cells.drawing/line/)

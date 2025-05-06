@@ -19,6 +19,39 @@ public SxRng Range { get; }
 
 NOTE: This method is now obsolete. Instead, please use PivotField.GroupSettings property. This method will be removed 12 months later since October 2023. Aspose apologizes for any inconvenience you may have experienced.
 
+### Examples
+
+```csharp
+// Called: SxRng range = columnField.Range;
+public static void Property_Range()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook(&quot;SxRngExample_original.xlsx&quot;);
+            Worksheet worksheet = workbook.Worksheets[0];
+
+
+            PivotTableCollection pivotTables = worksheet.PivotTables;
+            PivotTable pivotTable = pivotTables[0];
+
+
+            // Access the first column field
+            PivotField columnField = pivotTable.ColumnFields[0];
+
+            // Access the range of the pivot field
+            SxRng range = columnField.Range;
+
+            // Display properties of the SxRng object
+            Console.WriteLine(&quot;IsAutoStart: &quot; + range.IsAutoStart);
+            Console.WriteLine(&quot;IsAutoEnd: &quot; + range.IsAutoEnd);
+            Console.WriteLine(&quot;Start: &quot; + range.Start);
+            Console.WriteLine(&quot;End: &quot; + range.End);
+            Console.WriteLine(&quot;By: &quot; + range.By);
+
+            // Save the workbook
+            workbook.Save(&quot;SxRngExample.xlsx&quot;);
+        }
+```
+
 ### See Also
 
 * class [SxRng](../../sxrng/)
